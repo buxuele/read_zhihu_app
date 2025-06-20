@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block title %}JSON 文件列表 - {{ super() }}{% endblock %}
+
+{% block page_title %}JSON 文件列表{% endblock %}
+
+{% block content %}
+    {% if filenames %}
+        <div class="list-group" id="fileList">
+            {% for filename in filenames %}
+                <a href="{{ url_for('show_articles_from_file', filename=filename, active_file=filename) }}" 
+                   class="list-group-item list-group-item-action list-group-item-custom {% if active_file == filename %}active-file{% endif %}" 
+                   target="_blank" rel="noopener noreferrer"
+                   data-filename="{{ filename }}">
+                    {{ filename }}
+                </a>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="alert alert-warning" role="alert">
+            在 `data` 目录中没有找到或处理任何 JSON 文件。
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const fileLinks = document.querySelectorAll('#fileList .list-group-item-custom');
+    
+    // 从 localStorage 获取上次点击的文件名
+    const lastClickedFile = localStorage.getItem('lastClickedFile');
+    if (lastClickedFile) {
+        fileLinks.forEach(link => {
+            if (link.dataset.filename === lastClickedFile) {
+                link.classList.add('active-file-permanent');
+            }
+        });
+    }
+
+    fileLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            // 移除所有永久高亮
+            fileLinks.forEach(el => el.classList.remove('active-file-permanent'));
+            // 为当前点击的链接添加永久高亮
+            this.classList.add('active-file-permanent');
+            // 将点击的文件名存入 localStorage
+            localStorage.setItem('lastClickedFile', this.dataset.filename);
+        });
+    });
+});
+</script>
+{% endblock %}

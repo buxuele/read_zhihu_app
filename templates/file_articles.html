@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block title %}文件内容: {{ filename | shorten_filename(40) }} - {{ super() }}{% endblock %}
+
+{% block page_title %}
+    文件内容: <small class="text-muted filename-display" title="{{ filename }}">{{ filename | shorten_filename(40) }}</small>
+    {% if total_items is defined %}
+        <span class="badge bg-secondary ms-3 item-count-badge">共 {{ total_items }} 条内容</span>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    <p class="mb-4">
+      <a href="{{ url_for('index', active_file=filename) }}" class="btn btn-outline-custom-back">« 返回文件列表</a>
+    </p>
+    
+    {% if articles %}
+        {% for item_data in articles %}
+        <div class="card mb-3 shadow-sm card-custom"> {# mb-3 to reduce space a bit #}
+            <div class="card-body">
+                <h3 class="card-title h5">
+                    <span class="item-index">{{ loop.index }}/{{ total_items }}</span>
+                    <a href="{{ item_data.url }}" target="_blank" rel="noopener noreferrer" class="item-title-link">
+                        {{ item_data.title }}
+                        {% if item_data.type == 'answer' %}
+                            <span class="badge bg-custom-answer-badge ms-2">回答</span>
+                        {% elif item_data.type == 'article' %}
+                            <span class="badge bg-custom-article-badge ms-2">文章</span>
+                        {% else %}
+                            <span class="badge bg-secondary ms-2">{{ item_data.type }}</span>
+                        {% endif %}
+                    </a>
+                </h3>
+                <p class="card-text text-muted small mb-0"> {# mb-0 to remove bottom margin #}
+                    发布时间: {{ item_data.created | timestamp_to_datetime_str }}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <div class="alert alert-info" role="alert">
+            此文件中没有找到符合条件的内容，或者数据不完整。
+        </div>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,162 @@
+/* Custom Warm Theme for Bootstrap 5 with Enhanced Contrast */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #fdf5e6; 
+    color: #2c251e; 
+}
+
+/* Navbar Customization */
+.navbar-custom { /* Replaces navbar-dark for custom styling */
+    /* background-color: #f8f0e3 !important; /* Navbar背景 - 非常浅的暖色，如米白 */
+    background-color: #F3EADA !important; /* 浅米黄色 */
+    border-bottom: 1px solid #e0d5c1; /* 浅棕色边框 */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: bold;
+    color: #5c3b1e !important; /* Navbar 品牌文字 - 深棕色 */
+}
+.navbar-custom .navbar-brand:hover {
+    color: #4a2f18 !important; /* 悬停时更深 */
+}
+
+.navbar-custom .navbar-nav .nav-link { 
+    color: #7a6352; /* Navbar 链接 - 中等棕色 */
+    font-weight: 500;
+}
+.navbar-custom .navbar-nav .nav-link:hover,
+.navbar-custom .navbar-nav .nav-link.active {
+    color: #5c3b1e; /* 悬停或激活时深棕色 */
+}
+
+.navbar-toggler { /* 确保toggler在浅色背景下可见 */
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-toggler-icon-custom { /* 自定义toggler图标颜色 */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(92, 59, 30, 0.7)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+
+/* Main Content Area */
+.main-content-area {
+    background-color: #fffaf0; 
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 0.5rem; 
+}
+
+.page-header h1.display-5 {
+    color: #604028; 
+    font-weight: 300; 
+}
+.page-header h1.display-5 small.text-muted.filename-display { /* 文件名显示特定样式 */
+    color: #8a7767 !important; 
+    font-size: 0.5em; /* 进一步缩小 */
+    font-weight: 400; /* 正常粗细 */
+    display: inline-block; /* 允许使用 title 属性 */
+    max-width: 80%; /* 防止过长文件名撑爆布局 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle; /* 与主标题对齐 */
+}
+.item-count-badge {
+    font-size: 0.6em; /* 计数徽章大小 */
+    vertical-align: super; /* 稍微向上对齐 */
+    background-color: #a08c7d !important; /* 计数徽章颜色 */
+}
+
+
+/* File List (index.html) */
+.list-group-item-custom {
+    background-color: #f8f0e3; /* 文件列表项背景 - 比之前 #fbeeda 稍浅一点，与页脚背景一致 */
+    border: 2px solid #e0d5c1; /* 边框加粗，改为深棕色边框 */
+    /* 原边框: 1px solid #e8d9c0; */
+    color: #8c5317; 
+    font-size: 1.15rem; /* 字体放大 */
+    font-weight: 500; /* 字体加粗 */
+    transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    margin-bottom: 0.75rem; /* 间距稍大 */
+    border-radius: 0.45rem; 
+    padding: 1rem 1.25rem; /* 内边距也加大 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06); 
+}
+
+.list-group-item-custom:last-child {
+    margin-bottom: 0; 
+}
+
+.list-group-item-custom:hover,
+.list-group-item-custom:focus { /* focus 状态用于tab键导航 */
+    background-color: #efe2ce; 
+    color: #59350b; 
+    border-color: #d3c1a3; 
+    z-index: 1; 
+}
+/* 点击后或通过JS添加的选中状态 (需求6) */
+.list-group-item-custom.active-file, /* 临时点击 */
+.list-group-item-custom.active-file-permanent { /* 通过localStorage持久化 */
+    background-color: #e8a87c; /* 使用Navbar的颜色作为选中色 */
+    color: #ffffff; /* 选中时文字变白 */
+    border-color: #c38d9e; /* 选中时边框颜色 */
+    font-weight: bold;
+}
+
+
+/* Article Cards (file_articles.html) */
+.card-custom {
+    background-color: #fffef7; 
+    border-color: #ede0c8; 
+}
+.card-custom .text-muted { 
+    color: #705c4b !important; 
+}
+
+.item-index {
+    font-weight: bold;
+    color: #8c5317; /* 序号颜色 */
+    margin-right: 0.75em;
+    font-size: 0.9em;
+}
+a.item-title-link {
+    color: #5c3b1e; 
+    text-decoration: none;
+    font-weight: 500; 
+}
+a.item-title-link:hover {
+    color: #4a2f18; 
+    text-decoration: underline;
+}
+
+/* Badges for item type */
+.badge.bg-custom-answer-badge {
+    background-color: #6a92cc !important; /* 柔和一点的蓝色 */
+    color: white;
+}
+.badge.bg-custom-article-badge {
+    background-color: #e99469 !important; /* 柔和一点的橙色 */
+    color: white;
+}
+
+
+/* Buttons (only back button remains prominently) */
+.btn-outline-custom-back {
+    color: #8c5317; 
+    border-color: #d2b48c; 
+}
+.btn-outline-custom-back:hover {
+    color: #ffffff; 
+    background-color: #8c5317; 
+    border-color: #8c5317;
+}
+
+/* Footer */
+.bg-custom-footer { /* 替换 .bg-light */
+    background-color: #f3eada !important; /* 页脚背景暖色，同Navbar */
+    border-top: 1px solid #e0d5c1; /* 页脚上边框 */
+}
+.footer-text { /* 替换 .text-muted */
+    color: #705c4b !important; 
+}
