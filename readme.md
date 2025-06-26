@@ -6,8 +6,8 @@ https://zhuanlan.zhihu.com/p/1916951451357417483
 
 ### 效果图
 
-![z1](z1.png)
-![z2](z2.png)
+![z1](效果图/x1.png)
+![z2](效果图/x2.png)
 
 
 
