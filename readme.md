@@ -4,6 +4,13 @@
 https://zhuanlan.zhihu.com/p/1916951451357417483
 
 
+### 效果图
+
+![z1](z1.png)
+![z2](z2.png)
+
+
+
 ### 运行方式
 
 1. pip install -r requirements.txt

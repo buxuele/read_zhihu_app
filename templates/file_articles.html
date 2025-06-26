@@ -16,7 +16,7 @@
     
     {% if articles %}
         {% for item_data in articles %}
-        <div class="card mb-3 shadow-sm card-custom"> {# mb-3 to reduce space a bit #}
+        <div class="card mb-3 shadow-sm card-custom">
             <div class="card-body">
                 <h3 class="card-title h5">
                     <span class="item-index">{{ loop.index }}/{{ total_items }}</span>
@@ -31,8 +31,24 @@
                         {% endif %}
                     </a>
                 </h3>
-                <p class="card-text text-muted small mb-0"> {# mb-0 to remove bottom margin #}
-                    发布时间: {{ item_data.created | timestamp_to_datetime_str }}
+                <p class="card-text text-muted small mb-0 d-flex align-items-center">
+                    <span>发布时间: {{ item_data.created | timestamp_to_datetime_str }}</span>
+                    
+                    {# --- 新增部分：评分UI --- #}
+                    <span class="ms-4">
+                        <strong>评分:</strong>
+                        <input type="number" 
+                               class="form-control form-control-sm d-inline-block score-input" 
+                               style="width: 80px;" 
+                               min="0" 
+                               max="10" 
+                               step="1"
+                               value="{{ item_data.score }}"
+                               data-url="{{ item_data.url }}"
+                               data-title="{{ item_data.title }}">
+                        <span class="ms-2 score-status" style="color: green; font-weight: bold; visibility: hidden;">✓ 已保存</span>
+                    </span>
+                    {# --- 新增部分结束 --- #}
                 </p>
             </div>
         </div>
@@ -42,4 +58,64 @@
             此文件中没有找到符合条件的内容，或者数据不完整。
         </div>
     {% endif %}
+{% endblock %}
+
+{# --- 新增部分：页面底部的JavaScript --- #}
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const scoreInputs = document.querySelectorAll('.score-input');
+
+    scoreInputs.forEach(input => {
+        // 'change'事件在输入框失去焦点且值已改变时触发
+        input.addEventListener('change', function () {
+            const url = this.dataset.url;
+            const title = this.dataset.title;
+            const score = this.value;
+            const statusSpan = this.nextElementSibling; // 获取旁边的状态span
+
+            // 构造要发送的数据
+            const postData = {
+                url: url,
+                title: title,
+                score: parseInt(score, 10) // 确保发送的是数字
+            };
+            
+            // 使用fetch API发送POST请求到后端
+            fetch('/api/rate_article', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(postData),
+            })
+            .then(response => {
+                if (!response.ok) {
+                    // 如果服务器返回错误状态，则抛出错误
+                    throw new Error('服务器响应错误');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.status === 'success') {
+                    // 显示“已保存”提示
+                    statusSpan.style.visibility = 'visible';
+                    // 2秒后自动隐藏提示
+                    setTimeout(() => {
+                        statusSpan.style.visibility = 'hidden';
+                    }, 2000);
+                } else {
+                    // 如果API返回逻辑错误，打印错误信息
+                    console.error('评分保存失败:', data.message);
+                    alert('评分保存失败: ' + data.message);
+                }
+            })
+            .catch((error) => {
+                console.error('网络或服务器错误:', error);
+                alert('评分保存时发生网络或服务器错误，请检查后台日志。');
+            });
+        });
+    });
+});
+</script>
 {% endblock %}

@@ -1,8 +1,28 @@
 # 默认 .gitignore 文件，由 start_repo.py 创建
 # 请编辑此文件以添加需要忽略的文件或目录
 node_modules/
-*.log
-.env
-*.pyc
 __pycache__/
 .idea/
+read_venv/
+.env
+*.pyc
+
+
+代码备份/
+
+# *.bat
+# *.pyw
+
+# 个人笔记
+过程记录.md
+推荐系统.md
+
+# 小工具
+start_repo.py
+cat_code.py
+list_files.py
+my_files.txt
+
+scores.csv
+
+
