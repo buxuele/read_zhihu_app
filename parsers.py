@@ -33,12 +33,16 @@ def _parse_item_legacy(item):
             title = target.get('title') or f"回答 (ID: {target.get('id')})"
             item_url = target.get('url')
 
+    # 提取赞同数
+    upvotes = target.get('voteup_count', 0)
+    
     if title and created_ts is not None and item_url:
         return {
             'type': item_type,
             'title': title,
             'created': created_ts,
-            'url': item_url
+            'url': item_url,
+            'upvotes': upvotes
         }
     return None
 

@@ -1,46 +1,41 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{% block title %}知乎内容导航{% endblock %}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-custom bg-custom-navbar"> <!-- 移除了 sticky-top, 修改了 navbar-dark -->
-        <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url_for('index') }}">知乎内容导航</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon-custom"></span> <!-- 使用自定义toggler图标 -->
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link {% if request.endpoint == 'index' %}active{% endif %}" aria-current="page" href="{{ url_for('index') }}">首页</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <div class="container mt-0 mb-4 main-content-area">
+      {% if self.page_title() and self.page_title()|striptags|trim %}
+      <header class="page-header mb-4">
+        <h1 class="display-5">{% block page_title %}{% endblock %}</h1>
+      </header>
+      {% endif %}
 
-    <div class="container mt-4 mb-4 main-content-area">
-        {% if self.page_title() and self.page_title()|striptags|trim %}
-        <header class="page-header mb-4">
-            <h1 class="display-5">{% block page_title %}{% endblock %}</h1>
-        </header>
-        {% endif %}
-
-        <main>
-            {% block content %}{% endblock %}
-        </main>
+      <main>{% block content %}{% endblock %}</main>
     </div>
 
-    <footer class="py-4 bg-custom-footer text-center"> <!-- 修改页脚背景 -->
-        <p class="mb-0 footer-text">© {{ now.year }} 内容导航应用</p>
+    <footer class="py-4 bg-custom-footer text-center">
+      <!-- 修改页脚背景 -->
+      <p class="mb-0 footer-text">© {{ now.year }} 内容导航应用</p>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
     {% block extra_js %}{% endblock %}
-</body>
+  </body>
 </html>

@@ -6,23 +6,27 @@ __pycache__/
 read_venv/
 .env
 *.pyc
+*.pyw
+*.pyc
+*.bat
 
 
 代码备份/
+.kiro/
+.vscode/
+data/
 
-# *.bat
-# *.pyw
+
 
 # 个人笔记
 过程记录.md
 推荐系统.md
+todo.md
 
 # 小工具
 start_repo.py
 cat_code.py
 list_files.py
 my_files.txt
-
-scores.csv
 
 

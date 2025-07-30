@@ -1,53 +1,131 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block title %}个人内容推荐 - {{ super() }}{%
+endblock %} {% block page_title %}{% endblock %} {% block content %}
+<!-- 状态信息区域 -->
+{% if message %}
+<div class="status-message mb-4">{{ message }}</div>
+{% endif %}
 
-{% block title %}JSON 文件列表 - {{ super() }}{% endblock %}
+<!-- 顶部控制栏 -->
+<div
+  class="d-flex justify-content-between align-items-center mb-1 top-control-bar"
+>
+  <div class="pool-stats-inline">
+    {% if remaining_count is defined %} 剩余 {{ remaining_count }} 篇 {% endif
+    %}
+  </div>
+  <a href="{{ url_for('index') }}" class="btn btn-primary btn-refresh">
+    再来10个
+  </a>
+</div>
 
-{% block page_title %}JSON 文件列表{% endblock %}
+<!-- 推荐内容区域 -->
+{% if recommendations %} {% for item_data in recommendations %}
+<div class="card mb-3 shadow-sm card-custom">
+  <div class="card-body">
+    <h3 class="card-title h5">
+      <span class="item-index">{{ loop.index }}/10</span>
+      <a
+        href="{{ item_data.url }}"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="item-title-link"
+      >
+        {{ item_data.title }} {% if item_data.type == 'answer' %}
+        <span class="badge bg-custom-answer-badge ms-2">回答</span>
+        {% elif item_data.type == 'article' %}
+        <span class="badge bg-custom-article-badge ms-2">文章</span>
+        {% else %}
+        <span class="badge bg-secondary ms-2">{{ item_data.type }}</span>
+        {% endif %}
+      </a>
+    </h3>
+    <p class="card-text text-muted small mb-0 d-flex align-items-center">
+      <span><strong>{{ item_data.upvotes }}</strong> 赞</span>
+      <span class="ms-4"
+        >发布时间: {{ item_data.created | timestamp_to_datetime_str }}</span
+      >
 
-{% block content %}
-    {% if filenames %}
-        <div class="list-group" id="fileList">
-            {% for filename in filenames %}
-                <a href="{{ url_for('show_articles_from_file', filename=filename, active_file=filename) }}" 
-                   class="list-group-item list-group-item-action list-group-item-custom {% if active_file == filename %}active-file{% endif %}" 
-                   target="_blank" rel="noopener noreferrer"
-                   data-filename="{{ filename }}">
-                    {{ filename }}
-                </a>
-            {% endfor %}
-        </div>
-    {% else %}
-        <div class="alert alert-warning" role="alert">
-            在 `data` 目录中没有找到或处理任何 JSON 文件。
-        </div>
-    {% endif %}
-{% endblock %}
+      <!-- 评分UI -->
+      <span class="ms-4">
+        <strong>评分:</strong>
+        <input
+          type="number"
+          class="form-control form-control-sm d-inline-block score-input"
+          style="width: 80px"
+          min="0"
+          max="10"
+          step="1"
+          value="{{ item_data.score }}"
+          data-url="{{ item_data.url }}"
+          data-title="{{ item_data.title }}"
+        />
+        <span
+          class="ms-2 score-status"
+          style="color: green; font-weight: bold; visibility: hidden"
+          >✓ 已保存</span
+        >
+      </span>
+    </p>
+  </div>
+</div>
+{% endfor %} {% else %}
+<div class="alert alert-info text-center" role="alert">
+  <h4>暂无推荐内容</h4>
+  <p>请检查数据源或调整筛选标准。</p>
+</div>
+{% endif %}
 
-{% block extra_js %}
+<!-- 底部刷新按钮 -->
+{% if recommendations %}
+<div class="text-center mt-4">
+  <a href="{{ url_for('index') }}" class="btn btn-outline-primary">
+    再来一批
+  </a>
+</div>
+{% endif %} {% endblock %} {% block extra_js %}
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    const fileLinks = document.querySelectorAll('#fileList .list-group-item-custom');
-    
-    // 从 localStorage 获取上次点击的文件名
-    const lastClickedFile = localStorage.getItem('lastClickedFile');
-    if (lastClickedFile) {
-        fileLinks.forEach(link => {
-            if (link.dataset.filename === lastClickedFile) {
-                link.classList.add('active-file-permanent');
-            }
-        });
-    }
+  document.addEventListener("DOMContentLoaded", function () {
+    const scoreInputs = document.querySelectorAll(".score-input");
 
-    fileLinks.forEach(link => {
-        link.addEventListener('click', function () {
-            // 移除所有永久高亮
-            fileLinks.forEach(el => el.classList.remove('active-file-permanent'));
-            // 为当前点击的链接添加永久高亮
-            this.classList.add('active-file-permanent');
-            // 将点击的文件名存入 localStorage
-            localStorage.setItem('lastClickedFile', this.dataset.filename);
-        });
+    scoreInputs.forEach((input) => {
+      input.addEventListener("change", function () {
+        const url = this.dataset.url;
+        const title = this.dataset.title;
+        const score = this.value;
+        const statusSpan = this.nextElementSibling;
+
+        const postData = {
+          url: url,
+          title: title,
+          score: parseInt(score, 10),
+        };
+
+        fetch("/api/rate_article", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(postData),
+        })
+          .then((response) => {
+            if (!response.ok) throw new Error("服务器响应错误");
+            return response.json();
+          })
+          .then((data) => {
+            if (data.status === "success") {
+              statusSpan.style.visibility = "visible";
+              setTimeout(() => {
+                statusSpan.style.visibility = "hidden";
+              }, 2000);
+            } else {
+              console.error("评分保存失败:", data.message);
+              alert("评分保存失败: " + data.message);
+            }
+          })
+          .catch((error) => {
+            console.error("网络或服务器错误:", error);
+            alert("评分保存时发生网络或服务器错误。");
+          });
+      });
     });
-});
+  });
 </script>
 {% endblock %}

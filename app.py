@@ -5,6 +5,7 @@ import json
 import re
 import csv
 import threading # 导入线程模块，用于文件锁
+import random # 用于随机打乱内容池
 from datetime import datetime
 from flask import Flask, render_template, abort, url_for, request, jsonify # 导入 jsonify
 from parsers import auto_parse_data # <<< 新增此行
@@ -12,8 +13,16 @@ from parsers import auto_parse_data # <<< 新增此行
 
 app = Flask(__name__)
 
-# --- 新增部分：用于处理评分数据 ---
-processed_data = {}
+# === 推荐系统配置 ===
+GOOD_VOTEUP_THRESHOLD = 2000  # 筛选阈值，可配置
+high_quality_pool = []  # 高质量内容池
+recommended_ids = set()  # 已推荐内容ID集合
+
+# === 原有配置保持兼容 ===
+how_good = GOOD_VOTEUP_THRESHOLD  # 保持向后兼容
+processed_data = {}  # 保留原有数据结构（暂时）
+
+# --- 评分数据处理 ---
 scores_data = {} # 全局字典，用于在内存中存储评分 {url: score}
 SCORES_FILE = 'scores.csv' # 评分文件名
 file_lock = threading.Lock() # 文件锁，防止并发写入时数据损坏
@@ -83,49 +92,144 @@ def save_score(url, title, score):
 
 
 
-def load_and_process_data(data_dir):  # <<< 修改点 1: 增加 data_dir 参数
+def generate_unique_id(item):
+    """为内容项生成唯一ID"""
+    if item['type'] == 'article':
+        return item['url']  # 文章用URL作为ID
+    elif item['type'] == 'answer':
+        # 回答尝试从URL提取question_id和answer_id
+        url = item['url']
+        if 'question/' in url and 'answer/' in url:
+            parts = url.split('/')
+            question_idx = parts.index('question') + 1 if 'question' in parts else -1
+            answer_idx = parts.index('answer') + 1 if 'answer' in parts else -1
+            if question_idx > 0 and answer_idx > 0:
+                return f"{parts[question_idx]}-{parts[answer_idx]}"
+        return item['url']  # 备用方案
+    return item['url']  # 默认用URL
+
+def load_and_process_data(data_dir):
     """
-    加载并处理指定目录下的所有JSON文件
+    加载并处理指定目录下的所有JSON文件，直接填充高质量内容池
     
     Args:
         data_dir (str): 存放JSON文件的数据目录路径。
     """
-    global processed_data
-    processed_data.clear() 
-
-    # data_dir = 'total_json_data'  # <<< 修改点 2: 删除这一行硬编码的路径
-
+    global high_quality_pool, recommended_ids, processed_data
+    
+    # print(f"开始加载数据目录: {data_dir}")
+    
+    # 清空全局变量
+    high_quality_pool.clear()
+    recommended_ids.clear()
+    processed_data.clear()  # 保持兼容性
+    
     if not os.path.isdir(data_dir):
         print(f"警告: 数据目录 '{data_dir}' 不存在或不是一个目录。")
         return
 
+    total_items = 0
+    high_quality_count = 0
+    
     for filename in os.listdir(data_dir):
         if filename.endswith('.json'):
             filepath = os.path.join(data_dir, filename)
-            try:
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
+            # print(f"处理文件: {filename}")
+            
+            with open(filepath, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            # 解析文件中的内容
+            items_in_file = auto_parse_data(data)
+            # print(f"  解析出 {len(items_in_file)} 个内容项")
+            
+            if items_in_file:
+                # 保持兼容性，存储到processed_data
+                items_in_file.sort(key=lambda x: x.get('created', 0), reverse=True)
+                processed_data[filename] = items_in_file
                 
-                # --- 调用自动解析函数 (这部分保持不变) ---
-                items_in_file = auto_parse_data(data)
-                # ------------------------------------
-
-                if items_in_file:
-                    items_in_file.sort(key=lambda x: x.get('created', 0), reverse=True)
-                    processed_data[filename] = items_in_file
-
-            except json.JSONDecodeError:
-                print(f"警告: 解析 JSON 文件 '{filepath}' 失败，跳过。")
-            except Exception as e:
-                print(f"警告: 处理文件 '{filepath}' 时发生未知错误: {e}，跳过。")
+                # 筛选高质量内容到内容池
+                for item in items_in_file:
+                    total_items += 1
+                    upvotes = item.get('upvotes', 0)
+                    
+                    if upvotes >= GOOD_VOTEUP_THRESHOLD:
+                        # 生成唯一ID
+                        unique_id = generate_unique_id(item)
+                        
+                        # 添加到高质量内容池
+                        item_copy = item.copy()
+                        item_copy['unique_id'] = unique_id
+                        high_quality_pool.append(item_copy)
+                        high_quality_count += 1
     
-    if processed_data:
-        print(f"成功处理 {len(processed_data)} 个JSON文件。")
-    else:
-        print(f"没有加载或处理任何JSON文件。请检查 '{data_dir}' 目录和 JSON 文件内容。")
+    print(f"数据加载完成！")
+    print(f"  总内容数: {total_items}")
+    print(f"  高质量内容数: {high_quality_count} (>= {GOOD_VOTEUP_THRESHOLD} 赞)")
+    print(f"  处理文件数: {len(processed_data)}")
+    
+    # 随机打乱内容池
+    if high_quality_pool:
+        print("正在随机打乱内容池...")
+        random.shuffle(high_quality_pool)
+        print(f"内容池已打乱，共 {len(high_quality_pool)} 项内容")
 
-
-
+def get_recommendations(count=10):
+    """
+    获取指定数量的推荐内容
+    
+    Args:
+        count (int): 请求的推荐数量，默认10
+        
+    Returns:
+        dict: {
+            'items': list,  # 推荐的内容列表
+            'message': str,  # 状态消息（可选）
+            'remaining_count': int  # 剩余可推荐数量
+        }
+    """
+    global high_quality_pool, recommended_ids
+    
+    # print(f"开始生成 {count} 条推荐...")
+    # print(f"  内容池总数: {len(high_quality_pool)}")
+    # print(f"  已推荐数: {len(recommended_ids)}")
+    
+    # 筛选未推荐的内容
+    available_items = []
+    for item in high_quality_pool:
+        if item['unique_id'] not in recommended_ids:
+            available_items.append(item)
+    
+    remaining_count = len(available_items)
+    print(f"  可推荐数: {remaining_count}")
+    
+    # 生成状态消息
+    message = ""
+    if remaining_count == 0:
+        message = "恭喜！你已阅览所有精华内容！可以考虑调整筛选标准或更新数据源了。"
+        return {
+            'items': [],
+            'message': message,
+            'remaining_count': 0
+        }
+    elif remaining_count < count:
+        message = f"存货不多啦！只剩 {remaining_count} 篇，快去补充弹药吧！"
+        count = remaining_count  # 调整推荐数量
+    
+    # 获取推荐内容
+    current_recommendations = available_items[:count]
+    print(f"  本次推荐: {len(current_recommendations)} 篇")
+    
+    # 标记为已推荐
+    for item in current_recommendations:
+        recommended_ids.add(item['unique_id'])
+        print(f"    已推荐: {item['title'][:30]}... (赞: {item['upvotes']})")
+    
+    return {
+        'items': current_recommendations,
+        'message': message,
+        'remaining_count': remaining_count - len(current_recommendations)
+    }
 
 
 
@@ -162,34 +266,32 @@ def shorten_filename_filter(filename, max_len=30):
 # --- Flask 路由（部分修改，部分新增） ---
 @app.route('/')
 def index():
-    filenames = list(processed_data.keys()) 
-    active_file = request.args.get('active_file')
-    def sort_key(filename):
-        match = re.match(r'^(\d+)', filename) 
-        if match:
-            return int(match.group(1)) 
-        return (float('inf'), filename) 
-    sorted_filenames = sorted(filenames, key=sort_key)
-    return render_template('index.html', filenames=sorted_filenames, active_file=active_file)
+    # print("用户访问推荐页面，开始生成推荐...")
+    
+    # 获取推荐内容
+    recommendation_result = get_recommendations(10)
+    recommendations = recommendation_result['items']
+    message = recommendation_result['message']
+    remaining_count = recommendation_result['remaining_count']
+    
+    print(f"推荐结果: {len(recommendations)} 篇内容，剩余 {remaining_count} 篇")
+    
+    # 为推荐内容注入评分数据
+    recommendations_with_scores = []
+    for item in recommendations:
+        score = scores_data.get(item['url'], 0)
+        item_copy = item.copy()
+        item_copy['score'] = score
+        recommendations_with_scores.append(item_copy)
+        print(f"  推荐: {item['title'][:40]}... (赞: {item['upvotes']}, 评分: {score})")
+    
+    return render_template('index.html', 
+                         recommendations=recommendations_with_scores,
+                         message=message,
+                         remaining_count=remaining_count,
+                         total_pool_size=len(high_quality_pool))
 
-@app.route('/file/<path:filename>')
-def show_articles_from_file(filename):
-    articles_raw = processed_data.get(filename) 
-    if articles_raw is None: 
-        abort(404) 
-
-    # --- 修改部分：为每篇文章注入评分 ---
-    articles_with_scores = []
-    for article in articles_raw:
-        # 从内存中的 scores_data 获取分数，如果找不到，默认为 0
-        score = scores_data.get(article['url'], 0)
-        article_copy = article.copy() # 创建副本以避免修改原始数据
-        article_copy['score'] = score
-        articles_with_scores.append(article_copy)
-
-    total_items = len(articles_with_scores)
-    # 传递带有评分的文章列表到模板
-    return render_template('file_articles.html', filename=filename, articles=articles_with_scores, total_items=total_items)
+# 移除了 /file/<filename> 路由 - 不再需要
 
 # --- 新增部分：保存评分的 API 端点 ---
 @app.route('/api/rate_article', methods=['POST'])
@@ -216,11 +318,12 @@ def rate_article():
         return jsonify({'status': 'error', 'message': '服务器内部错误'}), 500
 
 
+
 if __name__ == '__main__':
-    data_dir = 'data/mix_data'   
+    data_dir = 'data/all'   
     load_and_process_data(data_dir) 
     load_scores() 
     
-    # 知乎阅读app, 端口号是 5082 (使用您之前的端口号)
-    app.run(host='0.0.0.0', port=5082, debug=True)
-
+    # 知乎阅读app, 临时测试 5065
+    # 知乎阅读app, 开机运行 5066
+    app.run(host='0.0.0.0', port=5065, debug=True)

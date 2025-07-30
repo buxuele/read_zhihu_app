@@ -221,6 +221,7 @@ if __name__ == '__main__':
     load_and_process_data(data_dir) 
     load_scores() 
     
-    # 知乎阅读app, 端口号是 5082 (使用您之前的端口号)
-    app.run(host='0.0.0.0', port=5080, debug=True)
+    # 知乎阅读app, 临时测试 5065
+    # 知乎阅读app, 开机运行 5066
+    app.run(host='0.0.0.0', port=5066, debug=True)
 
