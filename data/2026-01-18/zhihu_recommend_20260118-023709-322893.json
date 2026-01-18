@@ -1,0 +1,775 @@
+{
+  "data": [
+    {
+      "id": "72_1768675037.641",
+      "type": "feed",
+      "offset": 72,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675037,
+      "updated_time": 1768675037,
+      "target": {
+        "created_time": 1768551371,
+        "thanks_count": 0,
+        "question": {
+          "id": "20751611",
+          "title": "有哪些好的嵌入式操作系统界面库(GUI library)？",
+          "comment_count": 1,
+          "relationship": {
+            "is_author": false
+          },
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "detail": "",
+          "type": "question",
+          "created": 1359512878,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/20751611",
+          "author": {
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "wangguowei",
+            "name": "Proxima",
+            "followers_count": 115,
+            "is_following": false,
+            "gender": 1,
+            "id": "9bb59bef6d5dadd494c3234c9b300105",
+            "url": "https://api.zhihu.com/people/9bb59bef6d5dadd494c3234c9b300105",
+            "headline": "医疗软件",
+            "avatar_url": "https://picx.zhimg.com/50/a96bf62e4_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "bound_topic_ids": [
+            1355,
+            1952,
+            5191,
+            124189
+          ],
+          "question_type": "normal"
+        },
+        "excerpt_new": "做了7年嵌入式，我终于搞明白GUI库这摊子事了说实话，刚入行那会儿在厦门某马写单片机代码，领导让我搞个界面出来，我人都傻了。 那时候拿着STM32F103，2K的RAM，看着网上各种GUI库的介绍，什么LVGL、emWin、TouchGFX，感觉每个都能用，又感觉每个都不太行。后来进了外企做车机，才真正理解这事儿—— 选GUI库，本质上是在选你的技术债务结构。先说结论，别绕弯子市面上能打的就那么几个： 资源紧张（单片机、Cortex-M系列）→ L…",
+        "voteup_count": 20,
+        "url": "https://api.zhihu.com/answers/1995529765881410557",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-6e651f7eb01fe6314288af0e61a19c8f_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "excerpt": "做了7年嵌入式，我终于搞明白GUI库这摊子事了说实话，刚入行那会儿在厦门某马写单片机代码，领导让我搞个界面出来，我人都傻了。 那时候拿着STM32F103，2K的RAM，看着网上各种GUI库的介绍，什么LVGL、emWin、TouchGFX，感觉每个都能用，又感觉每个都不太行。后来进了外企做车机，才真正理解这事儿—— 选GUI库，本质上是在选你的技术债务结构。先说结论，别绕弯子市面上能打的就那么几个： 资源紧张（单片机、Cortex-M系列）→ L…",
+        "id": "1995529765881410557",
+        "author": {
+          "id": "b3306cadfb8b84eea509588bdbf1f1de",
+          "url": "https://api.zhihu.com/people/b3306cadfb8b84eea509588bdbf1f1de",
+          "url_token": "yychuyu",
+          "headline": "公众号「良许Linux」，分享技术与认知",
+          "is_followed": false,
+          "followers_count": 32137,
+          "is_following": false,
+          "user_type": "people",
+          "name": "程序员良许",
+          "avatar_url": "https://picx.zhimg.com/50/v2-32b9e875a4369e9445e0d3a66677099c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1
+        },
+        "visited_count": 1007,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-6e651f7eb01fe6314288af0e61a19c8f_720w.jpg?source=b6762063"
+        ],
+        "preview_text": "",
+        "content": "<h2>做了7年嵌入式，我终于搞明白GUI库这摊子事了</h2><p data-pid=\"eTh5Fmmt\">说实话，刚入行那会儿在厦门某马写单片机代码，领导让我搞个界面出来，我人都傻了。</p><p data-pid=\"v4Y6ZFSD\">那时候拿着STM32F103，2K的RAM，看着网上各种GUI库的介绍，什么LVGL、emWin、TouchGFX，感觉每个都能用，又感觉每个都不太行。后来进了外企做车机，才真正理解这事儿——<b>选GUI库，本质上是在选你的技术债务结构</b>。</p><h3>先说结论，别绕弯子</h3><p data-pid=\"DTxmxze1\">市面上能打的就那么几个：</p><ul><li data-pid=\"Wg41Hxew\"><b>资源紧张</b>（单片机、Cortex-M系列）→ LVGL、emWin、MicroPython</li><li data-pid=\"i2BzvcxJ\"><b>性能够用</b>（嵌入式Linux、车机）→ Qt、Flutter、AWTK</li><li data-pid=\"vdNzVfFc\"><b>极致性能</b>（工业HMI、医疗设备）→ TouchGFX、Embedded Wizard</li></ul><p data-pid=\"1hjjRz-4\">但这只是表面，真正的坑在后面。</p><h3>为什么大部分人选错了库</h3><p data-pid=\"qGzQuuMJ\">27岁那年我在外企接手一个烂尾项目，前任工程师用emWin做了个车载娱乐系统界面。代码写得倒是挺规范，但有个致命问题——<b>授权费贵到离谱</b>，老板看到报价直接让我重构。</p><p data-pid=\"uvWWXY04\">这事儿给我的教训就是：<b>技术选型从来不是技术问题，是商业问题</b>。</p><p data-pid=\"6DQnQjBl\">你看LVGL为啥这两年火得一塌糊涂？开源免费，MIT协议，商业项目随便用。GitHub上4万多star不是白来的，人家解决的是中小团队的生存问题。我现在公司接外包项目，80%都推荐客户用LVGL，因为成本可控。</p><p data-pid=\"zA82m-f5\">但你要说LVGL完美吗？扯淡。性能比不过TouchGFX，生态比不过Qt，文档比不过emWin。可它就是能活下来，因为它足够“够用”。</p><h3>不同场景下的真实选择</h3><h3>单片机上的绝境求生</h3><p data-pid=\"hxAjBWmt\">STM32F1那个年代，128K Flash、20K RAM，你跟我谈GUI？当时用的是μC/GUI（emWin的前身），为了省内存把字库裁到只剩数字和几个汉字。</p><p data-pid=\"k2WmTu_K\">现在资源好多了，F4、F7系列带屏幕控制器，LVGL跑起来丝滑得很。但有个反直觉的事实——<b>很多老项目依然在用emWin</b>，为啥？因为Segger的技术支持是真的牛逼，出了问题发邮件，24小时内必回。</p><p data-pid=\"8OSHv0Tv\">这就是to B市场的真相：大公司不怕花钱，怕的是出问题没人管。</p><h3>Linux上的降维打击</h3><p data-pid=\"vodyUvNz\">进外企之后接触Qt，第一感觉是“卧槽这才是现代GUI该有的样子”。QML写界面，C++写逻辑，前后端分离得明明白白。车机项目用Qt Quick做动画效果，60fps稳如老狗。</p><p data-pid=\"OAIRW1tE\">但Qt有个大坑——<b>商业授权</b>。开源版本要求你代码也开源，闭源就得买License。我见过太多创业公司前期用开源版，产品要上市了才发现要补几十万的授权费，那个酸爽。</p><p data-pid=\"IgMzwCt-\">所以现在很多团队转向AWTK或者Flutter Embedded。AWTK是国产的，LGPL协议，商业友好。Flutter的话，Google背书，跨平台能力强，但嵌入式适配还在完善。</p><h3>工控场景的硬核需求</h3><p data-pid=\"z93iz6Zn\">去年接了个医疗设备的外包，客户要求界面刷新率120fps，动画必须丝滑，还不能掉帧。这种需求你跟我提LVGL？开玩笑呢。</p><p data-pid=\"4c8KzelE\">最后用的TouchGFX，ST官方出品，专门针对STM32优化。配合DMA2D硬件加速，确实猛。但学习曲线陡得要命，团队里两个小伙伴啃了一个月文档才上手。</p><p data-pid=\"Sd_Li5Zs\">这就是高性能的代价——<b>你要么花钱买emWin的技术支持，要么花时间啃TouchGFX的源码</b>。</p><h3>那些年踩过的坑</h3><h3>字体渲染这个老大难</h3><p data-pid=\"8REJOnIO\">中文字体是所有GUI库的噩梦。一个完整的GB2312字库，点阵格式都得几百KB。当年在单片机上为了显示汉字，把常用的200个字做成图片存Flash里，现在想想真是土办法。</p><p data-pid=\"YTU0v78V\">LVGL的方案是在线转换工具，把TTF字体转成C数组。Qt直接用FreeType，但占用内存大。emWin有自己的字体格式，压缩率高但工具链闭源。</p><p data-pid=\"dFo-A9gB\"><b>没有完美方案，只有trade-off</b>。</p><h3>触摸屏适配的血泪史</h3><p data-pid=\"tFPqRjIa\">电阻屏、电容屏、多点触控，每种屏幕的驱动逻辑都不一样。LVGL的Input Device抽象做得还行，但你得自己写驱动适配层。</p><p data-pid=\"dUFjH7LI\">Qt的话，触摸事件封装得很好，但在嵌入式Linux上要配置tslib，又是一堆环境变量和校准参数。我见过最离谱的是客户买了个杂牌屏，驱动IC文档都没有，最后硬着头皮抓I2C波形逆向出来的。</p><h3>性能优化的玄学</h3><p data-pid=\"g_STrrUd\">做车机那会儿，产品经理要求开机动画3秒内显示。结果LVGL渲染一帧要50ms，算下来最多显示60帧，动画卡得像PPT。</p><p data-pid=\"BpqL7Mdg\">后来发现是没开双缓冲，帧缓存直接写屏幕导致撕裂。改成DMA传输+VSYNC同步，帧率直接上80fps。但代价是内存占用翻倍，又得去优化图片资源。</p><p data-pid=\"8fZ_y2HD\"><b>嵌入式开发就是在资源限制下跳舞</b>，你永远在RAM、Flash、性能之间做平衡。</p><h3>商业化的隐形成本</h3><p data-pid=\"2QP_JVjS\">创业之后才明白，技术选型背后是成本结构。</p><p data-pid=\"5O09QHWQ\">用Qt做项目，开发效率高，但License费用是大头。按设备数量收费，卖一万台设备可能要交几十万授权费。</p><p data-pid=\"NxEz_fOD\">用LVGL，代码开源免费，但你得养能看懂源码的高级工程师。出了Bug没人管，全靠自己啃代码。我司有个项目LVGL内存泄漏，工程师Debug了一周才定位到是图片解码器的问题。</p><p data-pid=\"briARzbJ\">emWin和TouchGFX介于两者之间，有技术支持但也要付费。<b>本质上是在买保险</b>，保证项目不会因为GUI库翻车。</p><h3>给打工人的真心话</h3><p data-pid=\"vSg_WvFL\">如果你是在公司做选型，别只看技术指标，多想想这几个问题：</p><p data-pid=\"hcHKNiNF\"><b>团队能hold住吗？</b><br/>Qt虽然强大，但学习成本高。小团队可能连个熟悉QML的人都找不到，最后还是得用LVGL硬刚。</p><p data-pid=\"RTyZRLeD\"><b>后期维护谁来管？</b><br/>开源库出问题只能自己查，商业库有技术支持但要花钱。你们公司愿意为稳定性付费吗？</p><p data-pid=\"pZT077wd\"><b>授权费用谁买单？</b><br/>很多创业公司前期用开源版，等产品要量产了才发现授权是个大坑。提前跟老板沟通清楚，别到时候背锅。</p><p data-pid=\"Xu8FAcVa\"><b>性能够不够用？</b><br/>别过度设计。如果只是显示几个按钮和文字，LVGL绰绰有余，没必要上Qt。资源有限的情况下，够用就是最优解。</p><p data-pid=\"fgmC1m1X\">我现在做外包项目，客户预算充足就推Qt，预算紧张就用LVGL，工控医疗就上TouchGFX。<b>没有最好的库，只有最合适的方案</b>。</p><p data-pid=\"8dNDnMeJ\">30岁那年靠自媒体赚到第一个百万，写的最多的就是嵌入式踩坑经验。这行水太深，新人进来很容易被各种概念绕晕。但说白了，GUI库就是个工具，关键是你得知道自己要解决什么问题。</p><p data-pid=\"4k-Ne_zg\">技术选型这事儿，<b>三分看技术，七分看人性</b>。理解了这个，你就不会再纠结用哪个库了。</p><hr/><h2>嵌入式学习路线（2026版）</h2><p data-pid=\"Ax-v8T7V\">做了7年嵌入式，带过十几个实习生，我发现大部分人学习路线都是乱的。要么一上来就啃Linux内核，要么在单片机上死磕半年出不来。</p><p data-pid=\"sHB_ymMt\">其实嵌入式这条路，<b>底层逻辑就是从硬件到软件的抽象过程</b>。你得先理解硬件怎么工作，再学操作系统怎么管理硬件，最后才是应用开发。</p><h3>1. 学习大纲</h3><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6e651f7eb01fe6314288af0e61a19c8f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1482\" data-rawheight=\"970\" data-original-token=\"v2-6e651f7eb01fe6314288af0e61a19c8f\" class=\"origin_image zh-lightbox-thumb\" width=\"1482\" data-original=\"https://pic4.zhimg.com/v2-6e651f7eb01fe6314288af0e61a19c8f_r.jpg\"/></figure><h3>详细学习大纲</h3><h3>第一阶段：基础夯实（3-6个月）</h3><p data-pid=\"f_V_LJA4\"><b>C语言不是你想的那么简单</b></p><p data-pid=\"V_vSuE5t\">很多人觉得自己会C语言，结果写嵌入式代码各种Bug。指针这块是重灾区，野指针、内存泄漏、数组越界，这些坑我全踩过。</p><p data-pid=\"3EKQksUi\">重点要掌握的：</p><ul><li data-pid=\"8lorxs4a\"><b>指针的本质</b>：理解指针就是地址，多级指针、函数指针、指针数组这些概念要搞清楚</li><li data-pid=\"HFYpOE6A\"><b>内存布局</b>：栈、堆、全局区、代码区，知道变量存在哪里，生命周期是什么</li><li data-pid=\"9FcbDArG\"><b>位操作</b>：嵌入式开发天天跟寄存器打交道，位与、位或、位异或、移位操作必须熟练</li><li data-pid=\"6DC54HqA\"><b>volatile关键字</b>：这个太重要了，不理解volatile你的中断代码可能被编译器优化废掉</li></ul><p data-pid=\"7bva_08Y\">数据结构别学太深，链表、栈、队列会用就行。嵌入式里用得最多的是环形缓冲区，这个要重点掌握。</p><p data-pid=\"DWwOreIA\"><b>硬件基础别跳过</b></p><p data-pid=\"r3FO-Pxs\">我见过太多科班出身的，代码写得溜但不懂硬件。结果做项目时连上拉电阻、下拉电阻都搞不清楚。</p><p data-pid=\"NmoPlcP9\">至少要知道：</p><ul><li data-pid=\"kq7vpujo\">数字信号的高低电平、TTL和CMOS电平标准</li><li data-pid=\"A9uw6B8O\">模拟信号的采样、量化、AD转换原理</li><li data-pid=\"pVO5r8Fa\">常见传感器的工作原理（温湿度、光照、加速度）</li></ul><p data-pid=\"T-gnBevL\">不需要设计电路，但要能看懂原理图，知道硬件工程师为什么这么设计。</p><h3>第二阶段：单片机实战（3-6个月）</h3><p data-pid=\"HNkF6GCc\"><b>STM32是最好的入门平台</b></p><p data-pid=\"btklEsGC\">别纠结51还是STM32，直接上STM32。现在开发板便宜，F103核心板20块钱，F407也就50块。</p><p data-pid=\"5Hp246dk\">学习顺序建议：</p><ol><li data-pid=\"d0kPchrK\"><b>GPIO操作</b>：点灯、按键，理解寄存器配置的底层逻辑</li><li data-pid=\"JunZBaZX\"><b>中断系统</b>：外部中断、定时器中断，理解中断优先级和嵌套</li><li data-pid=\"AmVhneh-\"><b>定时器</b>：PWM输出、输入捕获、编码器接口，定时器是单片机的核心外设</li><li data-pid=\"8anM1y--\"><b>串口通信</b>：UART收发、DMA传输、中断接收，这个用得最多</li><li data-pid=\"KUU66nqi\"><b>SPI/I2C</b>：驱动OLED屏、Flash芯片、传感器模块</li></ol><p data-pid=\"EiVoUwbM\">重点是<b>理解外设的工作原理</b>，而不是死记HAL库的API。我当年学STM32，把每个外设的寄存器手册都啃了一遍，虽然痛苦但收获巨大。</p><p data-pid=\"aIVrbv5I\"><b>RTOS是必修课</b></p><p data-pid=\"w55CH2wv\">裸机开发写到一定程度就会遇到瓶颈，多任务管理、实时响应这些问题靠轮询解决不了。</p><p data-pid=\"xnDB7-6m\">FreeRTOS是最好的选择：</p><ul><li data-pid=\"tohqyf8N\"><b>任务管理</b>：任务创建、删除、挂起、恢复，理解任务调度算法</li><li data-pid=\"MjAJV_Zd\"><b>同步互斥</b>：信号量、互斥锁、事件组，解决资源竞争问题</li><li data-pid=\"W7oiHhcs\"><b>通信机制</b>：消息队列、邮箱，实现任务间数据传递</li><li data-pid=\"hHT13_UE\"><b>内存管理</b>：动态内存分配的几种方案，理解内存碎片问题</li></ul><p data-pid=\"YPpzojXJ\">RTOS的核心是<b>理解调度器的工作原理</b>。我建议把FreeRTOS源码看一遍，重点看任务切换、中断处理这部分，对理解操作系统帮助很大。</p><p data-pid=\"8yaKEJPZ\"><b>驱动外设是核心能力</b></p><p data-pid=\"QINP8YMV\">会点灯不算会单片机，能驱动各种外设才算入门。</p><p data-pid=\"rpsRJWwU\">常见外设驱动：</p><ul><li data-pid=\"TeeGXe-B\"><b>LCD屏幕</b>：SPI接口的OLED、并口的TFT屏，理解显存和刷新机制</li><li data-pid=\"I2KLJdtH\"><b>触摸屏</b>：电阻屏、电容屏的驱动差异，触摸校准算法</li><li data-pid=\"Z8JyFVPX\"><b>传感器</b>：DHT11温湿度、MPU6050陀螺仪、超声波测距，理解I2C和SPI通信协议</li><li data-pid=\"ZFStpRxh\"><b>无线模块</b>：ESP8266 WiFi、HC-05蓝牙、NRF24L01射频，理解AT指令和透传模式</li></ul><p data-pid=\"DGjQb-U0\">每驱动一个外设，都要<b>从时序图开始看</b>，理解硬件的通信协议，然后用代码实现。不要上来就抄例程，那样学不到东西。</p><h3>第三阶段：Linux系统（6-12个月）</h3><p data-pid=\"JSdzTmy6\"><b>Linux基础是地基</b></p><p data-pid=\"zIfqtNtl\">从单片机转Linux，最大的变化是有了操作系统。你要理解进程、线程、文件系统这些概念。</p><p data-pid=\"Od4E1kWP\">必须掌握的：</p><ul><li data-pid=\"6NjJVeMM\"><b>Shell命令</b>：文件操作、文本处理、进程管理，至少要会写简单的Shell脚本</li><li data-pid=\"u9wO2Zfv\"><b>Vim编辑器</b>：嵌入式开发很多时候要在板子上直接改代码，Vim是必备技能</li><li data-pid=\"k22pyClb\"><b>Makefile</b>：理解编译过程，会写简单的Makefile</li><li data-pid=\"72GtWxsp\"><b>GCC工具链</b>：交叉编译的概念，知道怎么编译ARM平台的程序</li></ul><p data-pid=\"TsxhPKFW\"><b>系统编程是核心</b></p><p data-pid=\"ldVaSR-S\">Linux应用开发和Windows完全不同，你要理解Linux的编程模型。</p><p data-pid=\"plMIGEv_\">重点内容：</p><ul><li data-pid=\"WBPrIIgb\"><b>文件I/O</b>：open、read、write、ioctl，理解一切皆文件的思想</li><li data-pid=\"lpZlldvn\"><b>进程管理</b>：fork、exec、wait，理解进程的创建和回收</li><li data-pid=\"qUpg4hjw\"><b>线程编程</b>：pthread库的使用，线程同步和互斥</li><li data-pid=\"HsInfBOv\"><b>进程间通信</b>：管道、消息队列、共享内存、信号量，每种方式的适用场景</li><li data-pid=\"koulF7sm\"><b>网络编程</b>：socket编程，TCP和UDP的区别，理解三次握手和四次挥手</li></ul><p data-pid=\"N0F0lxQk\">这部分内容很多，但都是实际项目中天天用的。我建议每个知识点都写个小程序验证，光看书理解不深。</p><p data-pid=\"yC2Psan1\"><b>驱动开发是分水岭</b></p><p data-pid=\"c50fBa2b\">会应用开发的人很多，会驱动开发的人少。驱动开发是嵌入式工程师的核心竞争力。</p><p data-pid=\"AfSCYazz\">学习路径：</p><ol><li data-pid=\"bKuZqeY_\"><b>字符设备驱动</b>：最简单的驱动类型，理解驱动框架、设备号、file_operations</li><li data-pid=\"vRggozJ-\"><b>平台设备驱动</b>：理解设备树、platform总线、驱动和设备的匹配机制</li><li data-pid=\"V45di9Dn\"><b>中断处理</b>：中断申请、中断处理函数、中断上下文的限制</li><li data-pid=\"lfWutlwK\"><b>并发与同步</b>：自旋锁、信号量、互斥锁在内核中的使用</li><li data-pid=\"bvnP7iNo\"><b>内存管理</b>：kmalloc、vmalloc的区别，DMA内存的申请</li></ol><p data-pid=\"WXCTmwdE\">驱动开发的难点在于<b>调试困难</b>。内核崩溃就是重启，没有IDE可以单步调试。我的经验是多用printk打印日志，理解内核的运行机制。</p><p data-pid=\"rb_7MGgn\"><b>系统移植是综合能力</b></p><p data-pid=\"4Tbl4vcE\">能独立完成系统移植，说明你对整个嵌入式Linux体系有了全面理解。</p><p data-pid=\"t9MX-Qsf\">移植流程：</p><ol><li data-pid=\"ZW6yXbIF\"><b>Bootloader移植</b>：U-Boot的配置和编译，理解启动流程</li><li data-pid=\"zvwkN0wC\"><b>内核移植</b>：配置内核选项，添加驱动支持，编译内核镜像</li><li data-pid=\"3INn_fjV\"><b>设备树编写</b>：理解设备树语法，描述硬件资源</li><li data-pid=\"iI4IxRWV\"><b>根文件系统</b>：BusyBox制作最小文件系统，理解init进程</li><li data-pid=\"HLFlF30F\"><b>交叉编译环境</b>：搭建工具链，编译第三方库</li></ol><p data-pid=\"2KEWeB1N\">这个过程很痛苦，但收获巨大。我当年移植第一块板子，从U-Boot到内核到文件系统，踩了无数坑，但最后系统跑起来那一刻，成就感爆棚。</p><h3>第四阶段：应用开发（持续学习）</h3><p data-pid=\"lHuZc6xx\"><b>GUI开发看项目需求</b></p><p data-pid=\"-3jLkvw2\">如果做带屏幕的产品，GUI是绕不过的。</p><p data-pid=\"phA0FEwJ\">LVGL适合资源受限的场景：</p><ul><li data-pid=\"c72gsKce\">理解LVGL的对象模型、样式系统、事件处理</li><li data-pid=\"gZLarGhr\">掌握常用控件的使用：按钮、标签、图表、列表</li><li data-pid=\"StCczs8d\">学会自定义控件和主题</li><li data-pid=\"UFf5FWFw\">理解LVGL的内存管理和性能优化</li></ul><p data-pid=\"w_Sb5E8M\">Qt适合性能充足的场景：</p><ul><li data-pid=\"4WL9DbJY\">QML语言基础，声明式UI开发</li><li data-pid=\"pTsdymQB\">Qt Quick控件库的使用</li><li data-pid=\"fi4f1U7e\">C++和QML的交互</li><li data-pid=\"b2dYFccm\">信号槽机制的理解</li></ul><p data-pid=\"0AzedJqj\"><b>通信协议是物联网基础</b></p><p data-pid=\"ogloPJe_\">现在的嵌入式产品都要联网，通信协议必须掌握。</p><p data-pid=\"sRLJvrAO\">TCP/IP协议栈：</p><ul><li data-pid=\"xPOQOF-N\">理解OSI七层模型和TCP/IP四层模型</li><li data-pid=\"_ZZTfURv\">TCP和UDP的区别和适用场景</li><li data-pid=\"ZGAHnz5T\">HTTP协议的基础，RESTful API的使用</li><li data-pid=\"oPnj9Cfj\">WebSocket实现实时通信</li></ul><p data-pid=\"BEYu2RGE\">物联网协议：</p><ul><li data-pid=\"d69s6-pd\">MQTT：轻量级的发布订阅协议，适合低带宽场景</li><li data-pid=\"VYx3vXOw\">CoAP：类似HTTP的协议，专为物联网设计</li><li data-pid=\"kWJDlKZL\">蓝牙BLE：低功耗蓝牙的特点和应用</li></ul><p data-pid=\"oDDGQhEh\">汽车电子协议：</p><ul><li data-pid=\"zOu8mRGZ\">CAN总线：理解CAN的仲裁机制、错误处理</li><li data-pid=\"HEDtikAy\">LIN总线：低速网络的应用场景</li><li data-pid=\"M4naozO1\">车载以太网：未来的趋势</li></ul><p data-pid=\"Ye8X5ZeN\"><b>项目实战是检验标准</b></p><p data-pid=\"2obi48Bf\">学了这么多，最后还是要落地到项目上。</p><p data-pid=\"RUkRigGU\">建议做的项目：</p><ul><li data-pid=\"hfXycZmD\"><b>智能家居系统</b>：传感器采集、云端通信、手机APP控制，涵盖嵌入式开发的各个方面</li><li data-pid=\"0n-r4Moq\"><b>工业数据采集</b>：Modbus协议、多路传感器、数据存储和上传</li><li data-pid=\"5EdPGXZd\"><b>汽车仪表盘</b>：CAN通信、GUI显示、实时性要求高</li><li data-pid=\"mzK9LFi4\"><b>无人机飞控</b>：姿态解算、PID控制、无线通信</li></ul><p data-pid=\"F6UvEs7K\">每个项目都要<b>从需求分析到系统设计到代码实现到测试调试</b>，完整走一遍流程。这样才能真正理解嵌入式开发的全貌。</p><h3>2. 必看开源视频</h3><h3>B站精选视频教程</h3><p data-pid=\"KUd2w4Gq\"><b>C语言与数据结构</b></p><ul><li data-pid=\"0YEHybGq\">《郝斌C语言自学教程》：讲得特别细，适合零基础 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1os411h77o\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1o</span><span class=\"invisible\">s411h77o</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"MuT6D7Nv\">《浙江大学数据结构》：陈越姥姥讲得通俗易懂 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1Kb41127fT\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1K</span><span class=\"invisible\">b41127fT</span><span class=\"ellipsis\"></span></a></li></ul><p data-pid=\"qM7kmglD\"><b>STM32单片机</b></p><ul><li data-pid=\"KlmcuUOj\">《正点原子STM32入门教程》：配套开发板，例程丰富 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1th411z7sn\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1t</span><span class=\"invisible\">h411z7sn</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"H8DejH-H\">《野火STM32教程》：讲解深入，注重原理 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1yW411Y7Wa\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1y</span><span class=\"invisible\">W411Y7Wa</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"JM3KTB6h\">《江科大自化协STM32教程》：适合在校学生，讲得很细 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1th411z7sn\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1t</span><span class=\"invisible\">h411z7sn</span><span class=\"ellipsis\"></span></a></li></ul><p data-pid=\"NJ4rcQBc\"><b>FreeRTOS</b></p><ul><li data-pid=\"EwUb-H3L\">《正点原子FreeRTOS教程》：从零开始讲RTOS <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1Jt4y1S7bE\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1J</span><span class=\"invisible\">t4y1S7bE</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"8xWtcnD9\">《韦东山FreeRTOS快速入门》：老司机讲课，干货多 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1844y1C7Be\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV18</span><span class=\"invisible\">44y1C7Be</span><span class=\"ellipsis\"></span></a></li></ul><p data-pid=\"X1IbjwHE\"><b>嵌入式Linux</b></p><ul><li data-pid=\"_yUurASK\">《韦东山嵌入式Linux完全开发手册》：业界良心，讲得最全面 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1w4411B7a4\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1w</span><span class=\"invisible\">4411B7a4</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"lXAfT7-i\">《正点原子Linux开发教程》：配套IMX6ULL开发板 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1w4411B7a4\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1w</span><span class=\"invisible\">4411B7a4</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"Z-v_ZfwK\">《朱有鹏嵌入式Linux核心课程》：偏底层，适合深入学习 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1Vt411X7Ya\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1V</span><span class=\"invisible\">t411X7Ya</span><span class=\"ellipsis\"></span></a></li></ul><p data-pid=\"vJqWKQOi\"><b>Linux驱动开发</b></p><ul><li data-pid=\"9RYZmJ3s\">《宋宝华Linux驱动开发》：驱动开发的天花板 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1fK4y1t7Sw\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1f</span><span class=\"invisible\">K4y1t7Sw</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"8ZLaLqnJ\">《韦东山Linux驱动大全》：从字符设备到网络驱动 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV14f4y1Q7ti\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV14</span><span class=\"invisible\">f4y1Q7ti</span><span class=\"ellipsis\"></span></a></li></ul><p data-pid=\"H--XnD6V\"><b>GUI开发</b></p><ul><li data-pid=\"yuXOTbVQ\">《LVGL官方教程》：官方出品，权威 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1Ya411r7K2\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1Y</span><span class=\"invisible\">a411r7K2</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"gKAx2khb\">《正点原子LVGL教程》：结合STM32实战 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1Pq4y1R7Gq\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1P</span><span class=\"invisible\">q4y1R7Gq</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"M2PaI746\">《Qt从入门到实战》：适合做Linux应用开发 <a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1g4411H78N\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">bilibili.com/video/BV1g</span><span class=\"invisible\">4411H78N</span><span class=\"ellipsis\"></span></a></li></ul><h3>其他平台优质资源</h3><p data-pid=\"twcxJT9E\"><b>慕课网</b></p><ul><li data-pid=\"s77cV9iV\">《物联网嵌入式开发》系列课程，偏实战</li><li data-pid=\"k6-ra9PJ\">《Linux内核分析与应用》，深入内核</li></ul><p data-pid=\"SYcsHoqM\"><b>腾讯课堂</b></p><ul><li data-pid=\"xDsCMePv\">《韦东山嵌入式Linux》系列，付费但值得</li><li data-pid=\"d0Wy-R8e\">《朱有鹏物联网大讲堂》，系统全面</li></ul><p data-pid=\"2isHlHQD\"><b>YouTube（需要梯子）</b></p><ul><li data-pid=\"HVCOhO35\">《Embedded Systems Programming》：国外大神的课程</li><li data-pid=\"WU2DDCE2\">《Linux Kernel Development》：内核开发深度讲解</li></ul><p data-pid=\"QCk9slAT\">我自己当年学习主要看的是韦东山和正点原子的视频，这两家的教程质量确实高。韦东山偏原理讲解，正点原子偏实战操作，两者结合效果最好。</p><h3>3. 必读经典书籍</h3><h3>入门级（打基础）</h3><p data-pid=\"WvnnrE3D\"><b>《C Primer Plus》</b></p><ul><li data-pid=\"olusKu4W\">C语言的圣经，讲得特别细致</li><li data-pid=\"OkHK-mAZ\">适合零基础，例题丰富</li><li data-pid=\"cZq9SUIt\">缺点是太厚，要有耐心</li></ul><p data-pid=\"6HH8Qwe0\"><b>《C和指针》</b></p><ul><li data-pid=\"2uVCwkqa\">专门讲指针和内存管理</li><li data-pid=\"PfAdgyYA\">嵌入式开发必读</li><li data-pid=\"QcMXu5tE\">比《C专家编程》更适合新手</li></ul><p data-pid=\"LKL0r2RP\"><b>《数据结构与算法分析（C语言描述）》</b></p><ul><li data-pid=\"2yXK0UMu\">经典教材，讲解清晰</li><li data-pid=\"RxR1EjDH\">不需要全看，重点看链表、栈、队列、树</li></ul><h3>单片机阶段</h3><p data-pid=\"pf1kE1ed\"><b>《STM32库开发实战指南》（野火）</b></p><ul><li data-pid=\"yV-8XN_w\">国内最好的STM32教程书</li><li data-pid=\"uVw_1-Sl\">配套例程丰富，讲解深入</li><li data-pid=\"BVLsoOZe\">我当年就是看这本书入门的</li></ul><p data-pid=\"aqgzeSs8\"><b>《STM32Cube高效开发教程》</b></p><ul><li data-pid=\"A9i_Qu4E\">讲HAL库的使用</li><li data-pid=\"sEByc6hZ\">适合快速上手项目</li></ul><p data-pid=\"cw995F6c\"><b>《FreeRTOS内核实现与应用开发实战指南》（野火）</b></p><ul><li data-pid=\"ckw2VdiF\">国内最好的FreeRTOS教材</li><li data-pid=\"Cehm_jI7\">从源码到应用都有讲解</li><li data-pid=\"gTJJq-sx\">配合官方文档一起看</li></ul><p data-pid=\"5kQdAf86\"><b>《嵌入式实时操作系统μC/OS-III》</b></p><ul><li data-pid=\"RpBhndhR\">虽然现在用得少，但对理解RTOS原理很有帮助</li><li data-pid=\"EdwWGGdq\">书里讲解了RTOS的设计思想</li></ul><h3>Linux系统阶段</h3><p data-pid=\"vzr3QID8\"><b>《UNIX环境高级编程》（APUE）</b></p><ul><li data-pid=\"HImUTpTE\">Linux系统编程的圣经</li><li data-pid=\"ptuK2wfn\">必须精读，每个例子都要敲一遍</li><li data-pid=\"lRrGEEn6\">我前前后后看了三遍</li></ul><p data-pid=\"IkEAqpkU\"><b>《Linux程序设计》</b></p><ul><li data-pid=\"9E5P9W_3\">比APUE更适合入门</li><li data-pid=\"i2DgTrbA\">讲解更系统，例子更多</li></ul><p data-pid=\"5Kbk8gHu\"><b>《深入理解Linux内核》</b></p><ul><li data-pid=\"Tm9b-Yz-\">内核原理的经典</li><li data-pid=\"S4moC0z2\">很厚很难，但值得啃</li><li data-pid=\"zo8pKFgN\">建议有一定基础后再看</li></ul><p data-pid=\"BJogi7Hp\"><b>《Linux设备驱动程序》（LDD3）</b></p><ul><li data-pid=\"EOSV0Bc0\">驱动开发的必读书</li><li data-pid=\"l0-SooAS\">虽然内核版本老，但原理不变</li><li data-pid=\"fStDbvsS\">我做驱动开发时这本书翻烂了</li></ul><p data-pid=\"SPYXwGN1\"><b>《深入Linux设备驱动程序内核机制》（宋宝华）</b></p><ul><li data-pid=\"r8UT0Sds\">国内最好的驱动开发书</li><li data-pid=\"ep8kV7Fd\">结合新内核讲解</li><li data-pid=\"O_DMfjGe\">宋老师的书都值得买</li></ul><h3>进阶提升</h3><p data-pid=\"hlndlVBU\"><b>《深入理解计算机系统》（CSAPP）</b></p><ul><li data-pid=\"zP4yk8c3\">神书，理解计算机底层原理</li><li data-pid=\"owWoGUHp\">对做嵌入式帮助很大</li><li data-pid=\"P74qFfN3\">建议工作后再看，会有更深理解</li></ul><p data-pid=\"aLket-xE\"><b>《TCP/IP详解 卷1：协议》</b></p><ul><li data-pid=\"e7xkFpnG\">网络编程必读</li><li data-pid=\"p39ctuYp\">讲得特别细，要有耐心</li></ul><p data-pid=\"UjSDWkx9\"><b>《嵌入式Linux应用开发完全手册》（韦东山）</b></p><ul><li data-pid=\"-vQwK_6S\">韦老师的书，质量保证</li><li data-pid=\"6vLlegAe\">从应用到驱动到系统移植都有</li><li data-pid=\"ef0-1vFF\">配合视频效果更好</li></ul><p data-pid=\"xKrwyXfU\"><b>《Qt 5.9 C++开发指南》</b></p><ul><li data-pid=\"nx7k01VO\">Qt开发的入门书</li><li data-pid=\"F8vjhJmJ\">例子丰富，讲解清晰</li></ul><p data-pid=\"th99lQLn\"><b>《LVGL图形用户界面开发实战》</b></p><ul><li data-pid=\"n3YJOn3B\">国内第一本LVGL专著</li><li data-pid=\"MYcbed5c\">适合快速上手LVGL</li></ul><h3>面试求职</h3><p data-pid=\"We40cj6Y\"><b>《剑指Offer》</b></p><ul><li data-pid=\"jdjaeelE\">算法面试必刷</li><li data-pid=\"lwlo7e4H\">虽然是软件开发的书，但嵌入式面试也会考</li></ul><p data-pid=\"wLCRFCTk\"><b>《嵌入式系统面试宝典》</b></p><ul><li data-pid=\"7wcW-160\">总结了常见面试题</li><li data-pid=\"hf2QWgyq\">适合面试前突击</li></ul><p data-pid=\"tbjbcSW7\">我的建议是<b>不要贪多，精读几本经典就够了</b>。《C和指针》、《APUE》、《LDD3》这三本书如果能吃透，嵌入式开发的基础就很扎实了。其他的书根据项目需要选择性阅读。</p><h3>4. 必做项目</h3><h3>GitHub精选项目</h3><p data-pid=\"qPPbGMli\"><b>单片机项目</b></p><p data-pid=\"NQKEqBgv\"><b>RT-Thread</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/RT-Thread/rt-thread\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/RT-Thread/rt</span><span class=\"invisible\">-thread</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"0ft9q5OW\">国产RTOS，生态完善</li><li data-pid=\"jbG99pf1\">有丰富的组件和软件包</li><li data-pid=\"AYKvq4cO\">适合学习RTOS原理和应用</li><li data-pid=\"GbDRpa2K\">Star数：9.5k+</li></ul><p data-pid=\"PRLi7nJ3\"><b>TencentOS-tiny</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/Tencent/TencentOS-tiny\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/Tencent/Tenc</span><span class=\"invisible\">entOS-tiny</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"LpsrAtWz\">腾讯开源的物联网操作系统</li><li data-pid=\"la0Ct0Kq\">针对低功耗场景优化</li><li data-pid=\"t6_gUoux\">文档齐全，例程丰富</li><li data-pid=\"T-YEB_9M\">Star数：7.2k+</li></ul><p data-pid=\"m0Ea4Ihc\"><b>MultiButton</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/0x1abin/MultiButton\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/0x1abin/Mult</span><span class=\"invisible\">iButton</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"41r7fjVx\">小巧的按键驱动库</li><li data-pid=\"P21JFgwu\">支持单击、双击、长按等</li><li data-pid=\"Zp8ARSy3\">代码简洁，适合学习状态机</li><li data-pid=\"wi91fgDk\">Star数：2.1k+</li></ul><p data-pid=\"HvBt3Fec\"><b>EasyFlash</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/armink/EasyFlash\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/armink/EasyF</span><span class=\"invisible\">lash</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"pUdQ-gmj\">Flash存储管理库</li><li data-pid=\"P2VRhjgZ\">支持环境变量、日志存储</li><li data-pid=\"-zymcOo0\">掉电保护，磨损均衡</li><li data-pid=\"GZrMoW8t\">Star数：2.4k+</li></ul><p data-pid=\"5J2lxKNM\"><b>CmBacktrace</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/armink/CmBacktrace\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/armink/CmBac</span><span class=\"invisible\">ktrace</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"tkvIFaPc\">Cortex-M错误追踪库</li><li data-pid=\"seDLgD9u\">HardFault自动分析</li><li data-pid=\"7dYjFhQ0\">对调试帮助很大</li><li data-pid=\"F0r_2wQj\">Star数：1.7k+</li></ul><p data-pid=\"Cdr4Z7gc\"><b>Linux应用项目</b></p><p data-pid=\"3q0DEhMm\"><b>mosquitto</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/eclipse/mosquitto\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/eclipse/mosq</span><span class=\"invisible\">uitto</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"z1TWjvoT\">MQTT broker实现</li><li data-pid=\"7g-Ux06d\">学习MQTT协议的最佳项目</li><li data-pid=\"LOsJfDLZ\">代码质量高</li><li data-pid=\"GdnS4GOM\">Star数：8.5k+</li></ul><p data-pid=\"pGqtCSF8\"><b>libevent</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/libevent/libevent\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/libevent/lib</span><span class=\"invisible\">event</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"0HYD0xtq\">事件驱动网络库</li><li data-pid=\"gZyK5z7o\">Linux网络编程必学</li><li data-pid=\"6Ir_ckEF\">很多开源项目都用它</li><li data-pid=\"QYxWdOye\">Star数：10.8k+</li></ul><p data-pid=\"pTDv3t0Q\"><b>cJSON</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/DaveGamble/cJSON\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/DaveGamble/c</span><span class=\"invisible\">JSON</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"jy3yeawI\">轻量级JSON解析库</li><li data-pid=\"KA9E_ABJ\">代码简洁，适合嵌入式</li><li data-pid=\"iuSK08Ix\">我项目里经常用</li><li data-pid=\"fy7e29Da\">Star数：10.2k+</li></ul><p data-pid=\"JfTjS7g2\"><b>Linux驱动项目</b></p><p data-pid=\"MPP88mmb\"><b>Linux内核源码</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/torvalds/linux\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/torvalds/lin</span><span class=\"invisible\">ux</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"EkDEPoxi\">最好的学习资料就是内核源码</li><li data-pid=\"x5DA2jYI\">重点看drivers目录下的驱动</li><li data-pid=\"ImVaigxb\">学习驱动框架和编码规范</li><li data-pid=\"DXcsg-gY\">Star数：175k+</li></ul><p data-pid=\"CxgOqmvg\"><b>Linux驱动示例</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/Johannes4Linux/Linux_Driver_Tutorial\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/Johannes4Lin</span><span class=\"invisible\">ux/Linux_Driver_Tutorial</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"rxfxfQtF\">从零开始的驱动教程</li><li data-pid=\"XRkvbAvy\">每个例子都有详细注释</li><li data-pid=\"Tfm5djdd\">适合入门学习</li><li data-pid=\"vX0xLdds\">Star数：1.2k+</li></ul><p data-pid=\"tXXzRGBg\"><b>GUI项目</b></p><p data-pid=\"psEw6Va6\"><b>LVGL</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/lvgl/lvgl\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/lvgl/lvgl</span><span class=\"invisible\"></span></a></p><ul><li data-pid=\"280smR5t\">最流行的嵌入式GUI库</li><li data-pid=\"2Wku_9rh\">例程丰富，文档完善</li><li data-pid=\"vpvFvxR4\">必学项目</li><li data-pid=\"A_FBwBmA\">Star数：15.8k+</li></ul><p data-pid=\"khsw30jy\"><b>LittlevGL_Demo</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/lvgl/lv_demos\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/lvgl/lv_demo</span><span class=\"invisible\">s</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"0vCXpz3z\">LVGL官方示例</li><li data-pid=\"y6l2Rrf7\">各种界面效果</li><li data-pid=\"cJoRgEve\">可以直接用到项目中</li><li data-pid=\"V5hjAnpB\">Star数：600+</li></ul><p data-pid=\"VqQlaP-_\"><b>Qt Embedded Examples</b> <a href=\"https://link.zhihu.com/?target=https%3A//github.com/qt/qtbase\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/qt/qtbase</span><span class=\"invisible\"></span></a></p><ul><li data-pid=\"7z8YG4oV\">Qt官方例程</li><li data-pid=\"yKCMWa0P\">学习Qt开发的最佳资料</li></ul><h3>Gitee精选项目</h3><p data-pid=\"X_5dnGqY\"><b>RT-Thread软件包</b> <a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/rtthread/packages\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/rtthread/pack</span><span class=\"invisible\">ages</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"K7TgDI8q\">RT-Thread的软件包仓库</li><li data-pid=\"OwULHPMy\">有各种外设驱动、协议栈</li><li data-pid=\"7pOPEyL4\">国内访问速度快</li></ul><p data-pid=\"irZCRuZ3\"><b>鸿蒙OS</b> <a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/openharmony\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/openharmony</span><span class=\"invisible\"></span></a></p><ul><li data-pid=\"Tm3N3IaI\">华为开源的操作系统</li><li data-pid=\"nYOu_mWp\">虽然主要面向IoT，但架构值得学习</li><li data-pid=\"zbVmP1Q7\">了解国产操作系统的发展</li></ul><p data-pid=\"2GB9qY_8\"><b>TinyUSB</b> <a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/mirrors/TinyUSB\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/mirrors/TinyU</span><span class=\"invisible\">SB</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"CmhLMjrl\">轻量级USB协议栈</li><li data-pid=\"vOoDRZ4l\">支持Device和Host模式</li><li data-pid=\"rdbctFvQ\">代码质量高</li></ul><p data-pid=\"rQzS3H5-\"><b>LuatOS</b> <a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/openLuat/LuatOS\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/openLuat/Luat</span><span class=\"invisible\">OS</span><span class=\"ellipsis\"></span></a></p><ul><li data-pid=\"XMfmIrKJ\">Lua脚本的嵌入式系统</li><li data-pid=\"qgYHaZUo\">快速开发物联网应用</li><li data-pid=\"s4TDZAAN\">适合做原型验证</li></ul><h3>实战项目建议</h3><p data-pid=\"41adqoeP\"><b>初级项目（单片机）</b></p><ol><li data-pid=\"9tlgrha1\"><b>智能台灯</b>：PWM调光、触摸控制、OLED显示</li><li data-pid=\"7m29Rp6n\"><b>温湿度监测</b>：DHT11传感器、数据存储、串口上传</li><li data-pid=\"9-d_1aLQ\"><b>电子时钟</b>：RTC、按键设置、LCD显示</li><li data-pid=\"srp7O343\"><b>蓝牙遥控小车</b>：电机驱动、蓝牙通信、避障</li></ol><p data-pid=\"yGpdKwKW\"><b>中级项目（RTOS）</b></p><ol><li data-pid=\"jarawHfy\"><b>多功能气象站</b>：多传感器、FreeRTOS任务管理、WiFi上云</li><li data-pid=\"U3aS066V\"><b>智能门锁</b>：指纹识别、密码键盘、远程开锁</li><li data-pid=\"FjM6s87I\"><b>无线充电器</b>：电源管理、温度保护、OLED显示</li><li data-pid=\"kXFGHBhq\"><b>四轴飞行器</b>：姿态解算、PID控制、遥控通信</li></ol><p data-pid=\"SlbaarlA\"><b>高级项目（Linux）</b></p><ol><li data-pid=\"sFlulcEE\"><b>智能家居网关</b>：Zigbee/WiFi/蓝牙多协议、MQTT云端、Web配置界面</li><li data-pid=\"4Hijc5FP\"><b>工业数据采集器</b>：Modbus协议、多路传感器、数据库存储、4G上传</li><li data-pid=\"3U7czss9\"><b>车载娱乐系统</b>：Qt界面、多媒体播放、CAN通信、导航</li><li data-pid=\"4BYZGpl0\"><b>人脸识别门禁</b>：摄像头驱动、OpenCV识别、数据库管理、网络通信</li></ol><p data-pid=\"s3ZI1RfB\"><b>驱动开发项目</b></p><ol><li data-pid=\"Qcqh_4cg\"><b>字符设备驱动</b>：LED驱动、按键驱动，理解驱动框架</li><li data-pid=\"Gd43o63U\"><b>平台设备驱动</b>：ADC驱动、PWM驱动，理解设备树</li><li data-pid=\"QyPZcBDs\"><b>I2C设备驱动</b>：EEPROM驱动、传感器驱动</li><li data-pid=\"jYm3xhdB\"><b>网络设备驱动</b>：以太网驱动，理解网络协议栈</li></ol><p data-pid=\"aFjilj6Q\">我的建议是<b>从简单到复杂，循序渐进</b>。不要一上来就做复杂项目，基础不牢很容易放弃。每个项目都要完整做完，包括硬件设计、软件开发、测试调试、文档编写。这样才能真正提升能力。</p><h3>5. 必刷经典面试题</h3><h3>C语言基础</h3><ol><li data-pid=\"gYD0oxP4\">指针和数组的区别是什么</li><li data-pid=\"gkrTxY-a\">static关键字的作用</li><li data-pid=\"DaJdsJo3\">const关键字的作用，const int *p和int * const p的区别</li><li data-pid=\"LeMMiZQc\">volatile关键字的作用，什么时候用</li><li data-pid=\"uRMDGXRj\">结构体字节对齐的原则</li><li data-pid=\"Hg2jLVxR\">大端模式和小端模式的区别，如何判断</li><li data-pid=\"PbuR_yHW\">宏定义和函数的区别，各自的优缺点</li><li data-pid=\"ccxVzZtj\">内存泄漏是什么，如何避免</li><li data-pid=\"YjJTjuyE\">野指针是什么，如何避免</li><li data-pid=\"wsrH1mcw\">函数指针和指针函数的区别</li></ol><h3>数据结构与算法</h3><ol><li data-pid=\"VkLRcxRt\">链表反转的实现</li><li data-pid=\"7X2Ao3U-\">判断链表是否有环</li><li data-pid=\"BrMwLJAg\">两个有序链表的合并</li><li data-pid=\"a_Om7bGi\">栈和队列的区别，各自的应用场景</li><li data-pid=\"mmUwNQ01\">用两个栈实现一个队列</li><li data-pid=\"PoKp39U5\">二叉树的前序、中序、后序遍历</li><li data-pid=\"-OYfbRKw\">快速排序的原理和实现</li><li data-pid=\"CNRqJnhP\">冒泡排序的优化</li><li data-pid=\"sdicPDt_\">二分查找的实现</li><li data-pid=\"aEHw8SsU\">哈希表的原理和冲突解决方法</li></ol><h3>单片机基础</h3><ol><li data-pid=\"l_ispMhY\">什么是中断，中断的处理流程</li><li data-pid=\"cP6-AvfF\">中断优先级和中断嵌套</li><li data-pid=\"UPd0hz_l\">定时器的工作原理</li><li data-pid=\"W-z0KmUV\">PWM的原理和应用</li><li data-pid=\"QYA53NFW\">UART通信的原理，波特率的计算</li><li data-pid=\"0zfJgEJk\">SPI和I2C的区别</li><li data-pid=\"WAeilQIO\">ADC的工作原理，采样率和分辨率</li><li data-pid=\"yvNGW2mk\">DMA的作用和使用场景</li><li data-pid=\"0N2JaJbk\">看门狗的作用</li><li data-pid=\"vqe8Gl9o\">低功耗模式有哪些，如何进入和唤醒</li></ol><h3>RTOS相关</h3><ol><li data-pid=\"CTuQhohi\">什么是RTOS，和裸机开发的区别</li><li data-pid=\"TCwCPv2m\">任务调度算法有哪些</li><li data-pid=\"SAzoUP_W\">任务的状态有哪些，如何切换</li><li data-pid=\"wALf-xjh\">信号量和互斥锁的区别</li><li data-pid=\"9as55w6Z\">什么是优先级反转，如何解决</li><li data-pid=\"2xCrp6rI\">消息队列的实现原理</li><li data-pid=\"cx6wqyHR\">临界区保护的方法</li><li data-pid=\"JesCsMby\">任务栈溢出的原因和检测方法</li><li data-pid=\"1HzbUvnx\">软件定时器和硬件定时器的区别</li><li data-pid=\"4Vo8Syhq\">RTOS的内存管理方式</li></ol><h3>Linux系统编程</h3><ol><li data-pid=\"R_C3uyAP\">进程和线程的区别</li><li data-pid=\"ox0EtnWw\">进程间通信的方式有哪些</li><li data-pid=\"ijtChY7D\">管道和命名管道的区别</li><li data-pid=\"j_nYx39H\">共享内存的优缺点</li><li data-pid=\"f-i2ppeu\">信号的作用和常用信号</li><li data-pid=\"8B60P2w9\">僵尸进程和孤儿进程</li><li data-pid=\"l2S506vH\">fork函数的返回值</li><li data-pid=\"ptYTfTMj\">exec系列函数的作用</li><li data-pid=\"QfOu1waL\">线程同步的方法</li><li data-pid=\"Sako-i5f\">死锁的产生条件和避免方法</li></ol><h3>Linux网络编程</h3><ol><li data-pid=\"J4R9aK35\">TCP和UDP的区别</li><li data-pid=\"QTcDCxOK\">TCP三次握手和四次挥手的过程</li><li data-pid=\"xBKhTyA1\">socket编程的基本流程</li><li data-pid=\"sZd7KTu6\">select、poll、epoll的区别</li><li data-pid=\"Zch8-Fq-\">阻塞IO和非阻塞IO的区别</li><li data-pid=\"K7DIFXl8\">IO多路复用的原理</li><li data-pid=\"6bM8XHm5\">TCP的粘包问题如何解决</li><li data-pid=\"bINN_Kj1\">HTTP协议的请求方法</li><li data-pid=\"EcdMxS2V\">GET和POST的区别</li><li data-pid=\"ixXC0SnI\">WebSocket和HTTP的区别</li></ol><h3>Linux驱动开发</h3><ol><li data-pid=\"AaCVP5PN\">字符设备、块设备、网络设备的区别</li><li data-pid=\"PfEynlKq\">主设备号和次设备号的作用</li><li data-pid=\"3P0CY_BW\">file_operations结构体的作用</li><li data-pid=\"I_qhH944\">ioctl函数的作用</li><li data-pid=\"hTzkgTuf\">内核空间和用户空间的区别</li><li data-pid=\"IAodJBB9\">copy_to_user和copy_from_user的作用</li><li data-pid=\"_q-A3t--\">中断上半部和下半部的区别</li><li data-pid=\"gJYRj9Zz\">工作队列和软中断的区别</li><li data-pid=\"wr_NNpB_\">自旋锁和信号量的区别，使用场景</li><li data-pid=\"F5j4JM88\">内核模块的加载和卸载</li></ol><h3>设备树与平台驱动</h3><ol><li data-pid=\"ORFmC2kw\">设备树的作用</li><li data-pid=\"oQAVoWFR\">设备树的基本语法</li><li data-pid=\"_XnC02Ip\">platform总线的作用</li><li data-pid=\"mbMm3Ufu\">驱动和设备的匹配过程</li><li data-pid=\"HL6eBSJD\">probe函数什么时候被调用</li><li data-pid=\"QriNE0TW\">of_函数族的作用</li><li data-pid=\"CkyZxi5e\">如何在设备树中描述GPIO</li><li data-pid=\"XlKTWwge\">如何在设备树中描述中断</li><li data-pid=\"SGMqCG-L\">pinctrl子系统的作用</li><li data-pid=\"lKTKzJQa\">设备树的编译过程</li></ol><h3>通信协议</h3><ol><li data-pid=\"JD5KcmmF\">CAN总线的特点和应用</li><li data-pid=\"qnq3HT_u\">CAN的仲裁机制</li><li data-pid=\"V9fTQxLl\">LIN总线和CAN总线的区别</li><li data-pid=\"90IQXKuJ\">Modbus协议的原理</li><li data-pid=\"IEK3486m\">MQTT协议的特点</li><li data-pid=\"_hsri6KC\">HTTP和HTTPS的区别</li><li data-pid=\"ewWf3wU5\">RESTful API的设计原则</li><li data-pid=\"WZ9_TNqB\">JSON和XML的区别</li><li data-pid=\"QCP_s_68\">蓝牙BLE的特点</li><li data-pid=\"OE1JOlei\">Zigbee和WiFi的区别</li></ol><h3>嵌入式系统设计</h3><ol><li data-pid=\"VBhYm3Yw\">如何设计一个稳定的嵌入式系统</li><li data-pid=\"EP_DBgVa\">软件架构设计的原则</li><li data-pid=\"beceiPPc\">状态机的应用场景</li><li data-pid=\"aahYPkUD\">如何进行模块化设计</li><li data-pid=\"Jl9zvC_t\">如何进行代码优化</li><li data-pid=\"mafZcVUr\">如何进行功耗优化</li><li data-pid=\"37f5zH85\">如何保证系统的实时性</li><li data-pid=\"k7xZR3Gq\">如何进行异常处理</li><li data-pid=\"5JNgabLf\">如何设计日志系统</li><li data-pid=\"HS7akmE2\">如何进行版本管理和升级</li></ol><p data-pid=\"acXLVfyg\">这些题目涵盖了嵌入式开发的各个方面。面试时不一定都会问，但这些知识点都是必须掌握的。<b>重点不是背答案，而是理解原理</b>。面试官更看重你的思考过程和解决问题的能力。</p><p data-pid=\"jwodhDxA\">我当年面试外企时，面试官问我“如何设计一个稳定的嵌入式系统”，我从硬件冗余、软件容错、看门狗保护、异常处理、日志记录等多个角度回答，面试官很满意。这种开放性问题最能体现你的综合能力。</p><h3>6. 学习建议</h3><p data-pid=\"JRTYMffq\">做了7年嵌入式，带过不少新人，我发现大部分人学习路线都有问题。要么贪多嚼不烂，要么只学理论不动手，要么做项目不总结。</p><p data-pid=\"Si1kNOB5\"><b>理论和实践要结合</b></p><p data-pid=\"or6D865S\">很多人看了一堆视频、看了一堆书，结果代码写不出来。嵌入式开发是实践性很强的技能，<b>必须动手做</b>。</p><p data-pid=\"7r9Tugsn\">我的建议：</p><ul><li data-pid=\"_6YPJWoZ\">看视频时跟着敲代码，不要只看不练</li><li data-pid=\"-eh-CyGf\">看书时把例子都运行一遍，理解每一行代码</li><li data-pid=\"BaWjFGnV\">做项目时先自己想方案，再看别人怎么做</li><li data-pid=\"_oxTw6Ka\">遇到问题先自己调试，实在搞不定再问人</li></ul><p data-pid=\"VqeJyDQV\">当年学STM32时，我把正点原子的例程全部敲了一遍，每个外设都写了测试程序。虽然花了很多时间，但基础打得很扎实。</p><p data-pid=\"REQrdeyi\"><b>不要追求大而全</b></p><p data-pid=\"D6thDxs3\">嵌入式涉及的知识面很广，从硬件到软件，从底层到应用。很多人想什么都学，结果什么都学不精。</p><p data-pid=\"yPgqHJk9\"><b>建议先专注一个方向</b>：</p><ul><li data-pid=\"FHrdFEq9\">如果做单片机开发，就把STM32和FreeRTOS学透</li><li data-pid=\"kBey924p\">如果做Linux应用，就把系统编程和网络编程学好</li><li data-pid=\"L-fbmnJP\">如果做驱动开发，就把内核机制和驱动框架搞清楚</li></ul><p data-pid=\"9IDwQSmc\">等一个方向学精了，再扩展其他方向。我前三年专注单片机开发，后来转Linux时因为基础扎实，上手很快。</p><p data-pid=\"ij4Y4P-v\"><b>项目驱动学习</b></p><p data-pid=\"57lEx1AI\">最有效的学习方法是<b>带着问题学</b>。先确定要做什么项目，然后针对性地学习需要的知识。</p><p data-pid=\"hvaYYEnp\">比如要做智能家居网关：</p><ul><li data-pid=\"AOiYp_2g\">需要学习WiFi模块的使用</li><li data-pid=\"pH4r2vQN\">需要学习MQTT协议</li><li data-pid=\"Zby2xGC_\">需要学习多线程编程</li><li data-pid=\"cQKUaYro\">需要学习数据库操作</li></ul><p data-pid=\"pRq69ZrJ\">这样学习目标明确，效率高，而且学完就能用到项目中，有成就感。</p><p data-pid=\"Bfq7teV4\">我当年在外企做车机项目，为了实现动画效果，专门学了Qt Quick，两周时间就上手了。因为有实际需求驱动，学习动力很足。</p><p data-pid=\"8sTb1PfQ\"><b>养成良好的编码习惯</b></p><p data-pid=\"SLRsvHxi\">嵌入式开发对代码质量要求很高，一个小Bug可能导致系统崩溃。</p><p data-pid=\"yMlIxd0-\"><b>必须养成的习惯</b>：</p><ul><li data-pid=\"l8v2qlr_\">变量命名要有意义，不要用a、b、c这种</li><li data-pid=\"B06sbKGt\">函数功能要单一，不要写几百行的大函数</li><li data-pid=\"3BrJ0wNT\">关键代码要加注释，说明为什么这么写</li><li data-pid=\"aPIbiWYq\">定期code review，发现潜在问题</li><li data-pid=\"pRzC1kIj\">使用版本控制，Git是必备技能</li></ul><p data-pid=\"pFJvfB4x\">我现在看代码，第一眼就能判断作者的水平。好的代码逻辑清晰、注释完善、易于维护。这些习惯要从一开始就培养。</p><p data-pid=\"0XwRWfkU\"><b>建立知识体系</b></p><p data-pid=\"BVGTiN9i\">学习过程中要<b>不断总结和归纳</b>，建立自己的知识体系。</p><p data-pid=\"gqTHTiO7\">我的方法：</p><ul><li data-pid=\"lzy798O7\">用思维导图整理知识点</li><li data-pid=\"DM8oLX4D\">写技术博客记录学习过程</li><li data-pid=\"ryPvbG7m\">做笔记总结常见问题和解决方案</li><li data-pid=\"RDAGZ-vk\">整理代码库，把常用的模块封装好</li></ul><p data-pid=\"IUTXyavX\">我从28岁开始写公众号，把学习过程和项目经验都记录下来。这个过程不仅帮助自己梳理知识，还能帮助别人，一举两得。</p><p data-pid=\"JopE9StC\"><b>保持学习的习惯</b></p><p data-pid=\"RgQKBJ_f\">嵌入式技术更新很快，新的芯片、新的协议、新的框架不断出现。<b>必须保持学习的习惯</b>。</p><p data-pid=\"k1sa7ol1\">我的方法：</p><ul><li data-pid=\"kqiwJq4y\">每天看技术文章，了解行业动态</li><li data-pid=\"KhfB6Cig\">关注开源项目，学习优秀代码</li><li data-pid=\"J_RI7MFC\">参加技术社区，和同行交流</li><li data-pid=\"FkDBuf5y\">定期看书，系统学习新知识</li></ul><p data-pid=\"fkKPaw5O\">我现在30岁了，依然每天学习新东西。前段时间学了Rust语言，准备用在嵌入式项目中。技术人要有危机意识，不进则退。</p><p data-pid=\"nFK5YlTB\"><b>找到适合自己的节奏</b></p><p data-pid=\"wfnkDaK7\">每个人的基础不同、时间不同、目标不同，学习节奏也不同。</p><p data-pid=\"Mxn8yo3P\"><b>不要和别人比进度</b>：</p><ul><li data-pid=\"8tvs_8Eb\">有人三个月入门，有人半年才上手，都正常</li><li data-pid=\"48Sr-e1d\">重要的是持续学习，不要三天打鱼两天晒网</li><li data-pid=\"FSeOoxO_\">遇到困难不要放弃，嵌入式本来就难</li></ul><p data-pid=\"etvf-2lf\">我当年从机械转嵌入式，前半年特别痛苦。看不懂代码，调不出Bug，经常怀疑自己是不是不适合做这行。但坚持下来了，现在回头看，那些困难都不算什么。</p><p data-pid=\"Yjr5qokq\"><b>最后的话</b></p><p data-pid=\"7gujbxaL\">嵌入式开发是个需要长期积累的领域，没有捷径可走。但只要方法对、肯努力，一定能学好。</p><p data-pid=\"kfGvEOWN\">我从24岁入行到30岁，6年时间从单片机到Linux，从应用到驱动，从打工到创业。这条路不容易，但很值得。</p><p data-pid=\"CsqMkJ6S\">现在做自媒体，经常有人问我“嵌入式还有前景吗”。我的回答是：<b>只要有硬件，就需要嵌入式工程师</b>。物联网、智能汽车、工业4.0，哪个离得开嵌入式？</p><p data-pid=\"N7L_eOAJ\">关键是你要<b>持续学习，不断提升</b>。技术在变，但底层原理不变。把基础打牢，学什么都快。</p><p data-pid=\"0vr6kYxz\">加油，打工人。</p>",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "updated_time": 1768551371,
+        "comment_count": 1,
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "favorite_count": 61,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995529765881410557}",
+      "attached_info": "CoIGCKuG3//j0MzjpAEQBBoJNzY1Njg1MjEwIMvnp8sGKBQwAUBISjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifVoGNDgxMDcyYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NTUyOTc2NTg4MTQxMDU1N4oBCDIwNzUxNjExqgEJcmVjb21tZW5kwgEgYjMzMDZjYWRmYjhiODRlZWE1MDk1ODhiZGJmMWYxZGXyAQoIDBIGTm9ybWFs8gEoCAoSJDgyZmU5ZDBjLTVjZmMtNGMyZi05YzM4LTdiNmY2NTAzMjNlNfIBBggLEgIxM4ICAIgCq6H96bwzkgIgYjMzMDZjYWRmYjhiODRlZWE1MDk1ODhiZGJmMWYxZGWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIgVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDU0OWJiZGNmOGQ4YjQwNjY5NWY5NjQxOTM5ZGFkZDIymgMNCgJ2MhAAGgVvdGhlcqgD7wfYAwDqAxZmZWVkcmVfZmlyc3Rfc2NyZWVuX3Yy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQygsYygciI3YyLTZlNjUxZjdlYjAxZmU2MzE0Mjg4YWYwZTYxYTE5YzhmgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgayp9P4EFAAAAAAAAAACJBWzKaQdhILQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBkioBgGSAi4KCTc2NTY4NTIxMBITMTk5NTUyOTc2NTg4MTQxMDU1NxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "73_1768675037.183",
+      "type": "feed",
+      "offset": 73,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675037,
+      "updated_time": 1768675037,
+      "target": {
+        "updated": 1768382327,
+        "preview_text": "",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "title": "中国对日出口管制，高市早苗败光了日本最后的国运",
+        "image_url": "https://pic1.zhimg.com/v2-2be31afb82574dded4c678e3ca848aeb.jpg?source=7e7ef6e2&needBackground=1",
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "id": "1994820478230091773",
+        "type": "article",
+        "comment_permission": "all",
+        "excerpt_new": "谁能能想到，在沉寂了一个月之后，中国反制高市早苗的板子，终于还是落了下来。 1月6日，中国商务部突然发布了2026年第1号出口管制公告，核心内容只有一句话： 明确禁止所有两用物项对日本军事用户、军事用途，以及一切有助于提升日本军事实力的其他最终用户用途出口。 消息一出，日经指数直接跳水。 没法不跳水啊，中国这出口管制令一出，日本经济必将遭受重创。 显然，中国这次下这么重的手，本身就是对高市早苗涉台言论的一次…",
+        "preview_type": "default",
+        "vote_next_step": "vote",
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-2be31afb82574dded4c678e3ca848aeb.jpg?source=7e7ef6e2&needBackground=1"
+        ],
+        "created": 1768382327,
+        "voteup_count": 253,
+        "voting": 0,
+        "excerpt": "谁能能想到，在沉寂了一个月之后，中国反制高市早苗的板子，终于还是落了下来。 1月6日，中国商务部突然发布了2026年第1号出口管制公告，核心内容只有一句话： 明确禁止所有两用物项对日本军事用户、军事用途，以及一切有助于提升日本军事实力的其他最终用户用途出口。 消息一出，日经指数直接跳水。 没法不跳水啊，中国这出口管制令一出，日本经济必将遭受重创。 显然，中国这次下这么重的手，本身就是对高市早苗涉台言论的一次…",
+        "content": "<p data-pid=\"E3qKl3RS\">谁能能想到，在沉寂了一个月之后，中国反制高市早苗的板子，终于还是落了下来。</p><p data-pid=\"Fw98eJZg\">1月6日，中国商务部突然发布了2026年第1号出口管制公告，核心内容只有一句话：</p><p data-pid=\"rjsqDF3P\">明确禁止所有两用物项对日本军事用户、军事用途，以及一切有助于提升日本军事实力的其他最终用户用途出口。</p><p data-pid=\"TlQ8SE2t\">消息一出，日经指数直接跳水。</p><p data-pid=\"75myLCs1\">没法不跳水啊，中国这出口管制令一出，日本经济必将遭受重创。</p><p data-pid=\"W5zKpL-1\">显然，中国这次下这么重的手，本身就是对高市早苗涉台言论的一次精准反制。</p><p data-pid=\"4YyrIqUW\">高市早苗嘴上是过瘾了，但日本的国运，却被她给败光了。</p><p data-pid=\"CfpOMP58\">要知道，仅仅几个月前，日本在石破茂这个裱糊大师的操作下，还呈现出一片欣欣向荣的景象呢。</p><p data-pid=\"Y-JtQied\">此刻，随着中国反制，日本经济必将因为高市早苗的瞎搞，而跌入深渊。</p><p data-pid=\"38EUdWf-\"><b><i>1 假痴不癫石破茂</i></b></p><p data-pid=\"VjWNc4X6\">很多人在回顾石破茂这个首相时候，可能都被他的表象给骗了。</p><p data-pid=\"TREkiGLw\">过去一年多时间，石破茂在媒体镜头前总是一副眉头紧锁、说话吞吞吐吐、甚至略带愁苦的模样。</p><p data-pid=\"RC-Lo9Dl\">甚至在自民党内部，他也被讥讽为“没有霸气”，乃至“对华软弱”。</p><p data-pid=\"ufE383_O\">但如果我们将目光穿透这些表象，去审视他的实际操作，你会发现，石破茂是自田中角荣以来，日本政坛少有的具备顶级战略眼光的操盘手。</p><p data-pid=\"VubZpK9U\">他的核心策略，用中国兵法来形容，就是四个字：<b><u>假痴不癫。</u></b></p><p data-pid=\"3P23L-bR\">比如在经济上，石破茂致力于改变日本的通缩困局，甚至差点就成功了。</p><p data-pid=\"d2Wzk4ZS\">2024年年底和2025年上半年，石破茂看准了全球供应链重组的最后窗口期，利用日元贬值的惯性，强行推动了制造业的回流和旅游业的爆发。</p><p data-pid=\"fekZz2c2\">日本短端季度报告显示，2024 年四季度全部企业、制造业商业信心指数分别上升至 15%、8%，均为2020年以来最高值。</p><p data-pid=\"N0PCaS6V\">日本企业资本开支信心相对高涨，厂房设备投资额增速保持较高水平。</p><p data-pid=\"fJwaqFEs\">日元贬值也带来了疯狂的旅游潮。</p><p data-pid=\"LLEZH5Wq\">截至2024年11月底，访问日本的外国游客达3337.99万人，已超过2019年创下的全年最高纪录。</p><p data-pid=\"vvFpqGZI\">其中，中国访日游客位居第二，尤其是在2024年11月，中国游客单月超54万人，较2023年同期增长了2.1倍，商场里面随处可见买买买的中国人。</p><p data-pid=\"CxaFn3du\">在2025年的春节，日本又放宽了中国人赴日旅游签证的发放条件，将团队旅行签证的可停留天数从15天延长至30天。</p><p data-pid=\"IyEJCo3x\">结果2025年春节期间，中国前往日本的机票预订量同比增长2.3倍，旅游订单暴涨 120%。</p><p data-pid=\"FdvTlsbo\">当然，石破茂也清楚，要想让日本经济走出低迷，光靠制造和旅游是不够的，真正的核心在于打破日本长达30年的通缩螺旋。</p><p data-pid=\"F4Ghy3HZ\">于是，在2025年的“春斗”（劳资谈判）中，石破茂展现了罕见的强硬。</p><p data-pid=\"LiD2u0uC\">他动用了所有的行政资源，向经团联（日本最大的经济团体）施压，甚至不惜以税收政策作为威胁，逼迫大企业吐出利润。</p><p data-pid=\"4NnFu705\">结果是惊人的：日本打工人平均工资涨幅达到了5.1%。</p><p data-pid=\"A7kdFmZj\">这是一个历史性的数字，创下了33年来的最高纪录。</p><p data-pid=\"tUOyu4aI\">工资涨了，消费信心就回来了，CPI开始温和上涨。</p><p data-pid=\"vL-Q7G5s\">紧接着，日本央行顺势而为，果断结束了长达多年的负利率政策，开始加息。</p><p data-pid=\"tT1z35YY\">同时提高个人所得税的征税门槛、为低收入家庭提供现金和能源补贴等带动居民收入上涨，促进消费。</p><p data-pid=\"gUKk-YH5\">这一套组合拳的逻辑非常严密：</p><p data-pid=\"emhjdX-e\"><b><u>涨薪刺激内需 -&gt; 内需拉动通胀 -&gt; 摆脱通缩 -&gt; 央行加息回笼资金 -&gt; 吸引外资流入。</u></b></p><p data-pid=\"VfWe4KaJ\">更妙的是，石破茂在应对特朗普的时候，那一套太极打得极好。</p><p data-pid=\"NfN0FvZS\">我们都知道，在2025年关税战中，特朗普狮子大开口，要求日本企业在美国新增投资5500亿美元。</p><p data-pid=\"UE_gGhy0\">这对刚刚复苏的日本经济来说，无异于抽血。</p><p data-pid=\"McnJ4jn-\">石破茂是怎么做的？他使出了一招“装傻充愣、哭穷卖惨”。</p><p data-pid=\"4k8AKgD4\">他在谈判桌上暗示：</p><p data-pid=\"wmEFhRMZ\">日本政府愿意给钱，但手里现金不足。如果美国非要这5500亿，日本可能不得不大规模抛售持有的美国国债来筹集资金。</p><p data-pid=\"O-8530KS\">这一招堪称“绝杀”，美债是美国的命门，大规模抛售会引发全球金融海啸，这是特朗普绝对无法承受的。</p><p data-pid=\"PY-h4A-L\">最终，特朗普不得不妥协，同意将这5500亿美元的投资期限延长到10年。</p><p data-pid=\"LIX-xtnX\">10年，这意味着什么？</p><p data-pid=\"zNIqxLr4\">石破茂这种老油条心里比谁都清楚，4年后特朗普就下台了，这5500亿实际上就变成了一个永远不需要兑现的“大饼”。</p><p data-pid=\"fthpHSje\">他既给了特朗普面子（数字好看），又保住了日本的里子（资金不流出）。</p><p data-pid=\"uRJw3xgU\">总之，经过石破茂这一番折腾，日本经济颇有一股好转的迹象。</p><p data-pid=\"aRLkllDX\">私人消费2025财年增长1.3%，高于此前预估的1.0%。</p><p data-pid=\"4XMp6XZX\">企业设备投资增长1.9%，高于此前预测的1.8%。</p><p data-pid=\"HCsCnX81\">日本官方预测，日本2026财年的实际GDP增速，将从0.9%上调至1.3%。</p><p data-pid=\"OCrdSZ1V\">当时，西方经济学家普遍预测，日本将彻底爬出通缩的泥潭，迎来新一轮的国运上升期，就连巴菲特也进一步加仓了日本五大商社。</p><p data-pid=\"qPTN2z2F\">然而，万万没想到，日本的这次复苏，刚刚有了个苗头，就被高市早苗给掐死了。</p><p data-pid=\"rfDqpi2G\"><b><i>2 股债汇三杀</i></b></p><p data-pid=\"qZ14ieFb\">高市早苗这个人啊，政治素人出身，没有后台，也没有派阀，和石破茂有着本质的区别。</p><p data-pid=\"yqurH2m3\"><b><u>石破茂是利益导向的现实主义者，高市早苗是意识形态导向的投机主义者。</u></b></p><p data-pid=\"cKH98IA8\">她是被日本极右翼势力和民粹情绪捧上神坛的，她的权力来源决定了她必须表现出极端的强硬，哪怕这种强硬是以牺牲国家利益为代价的。</p><p data-pid=\"L8seT_Ps\">她完全不懂地缘政治的微妙平衡，她只信奉一点：</p><p data-pid=\"KPszCsdI\">只要抱紧美国大腿，只要对中国足够凶狠，日本就能再次伟大。</p><p data-pid=\"ovjHvZbB\">这种幼稚的线性思维，在复杂的国际博弈中，简直就是自杀。</p><p data-pid=\"cnSCNU2h\">比如，外交。</p><p data-pid=\"03KhWGLG\">在石破茂时期，虽然中日有矛盾，但双方都有默契，那就是“政冷经热”，绝不让政治分歧影响经济饭碗。</p><p data-pid=\"DLZpcFJ3\">高市早苗一上来，就彻底掀了桌子。</p><p data-pid=\"3QIg5gsN\">她公然发表一系列极端言论，成功地把最大的贸易伙伴给得罪了。</p><p data-pid=\"kjNUkHDC\">她以为这是“勇敢”，是“强硬”。</p><p data-pid=\"n8mAycFl\">殊不知，在东大眼里，这不过是一个跳梁小丑的挑衅。</p><p data-pid=\"qATNxZtI\">而且，她这种疯狂的举动，甚至连她的美国主子都看不下去了，特朗普亲自打电话让她收着点。</p><p data-pid=\"VIxreFo6\">毕竟，特朗普需要的是一条听话的狗，而不是一条会把主人拖进火坑的疯狗。</p><p data-pid=\"fzozQ-BB\">但问题在于，高市早苗为了巩固她在自民党内脆弱的权力基础，必须一条道走到黑，她需要外部的危机来转移内部的矛盾。</p><p data-pid=\"3EHBxbjj\">可是，高市早苗显然高估了日本的不可替代性，也低估了中国反制工具箱的丰富程度，也严重低估了中国反制对日本经济的影响。</p><p data-pid=\"sLOYdUU5\">首先崩盘的是<b><u>旅游业。</u></b></p><p data-pid=\"zSc1EssA\">因为高市早苗导致的中日关系紧张，中国发布旅游风险提醒，随后各大航空公司取消航班、旅游平台下架产品，赴日旅游中国游客锐减。</p><p data-pid=\"TYxti28D\">根据日本权威机构野村综合研究所（NRI）的紧急测算，仅此一项，日本经济损失高达2.2万亿日元。</p><p data-pid=\"k3fKzx9e\">2.2万亿日元是什么概念？</p><p data-pid=\"OJkAA3mh\">相当于日本GDP的0.36%，而日本2024全年的GDP增长率，也不过在0.6%左右。</p><p data-pid=\"BKX6mXl6\">也就是说，日本全国人民辛辛苦苦干了大半年，好不容易攒下的一点经济增量，被高市早苗一张嘴就抹掉了一大半。</p><p data-pid=\"fRu-haBN\">在京都的清水寺，在大阪的心斋桥，昔日摩肩接踵的中国游客消失了。</p><p data-pid=\"5KO0qzFF\">大量针对游客开设的药妆店、民宿、餐厅瞬间陷入倒闭潮。</p><p data-pid=\"W34UXFqX\">这种微观层面的痛苦，正在迅速向宏观经济传导。</p><p data-pid=\"rsO1e9Wd\">其次遭殃的是<b><u>水产行业。</u></b></p><p data-pid=\"xZE3PkdS\">前两年因为核污染水排海事件，中国暂停了日本水产进口。</p><p data-pid=\"tqFqmZx5\">石破茂政府花了九牛二虎之力，谈了两年多，好不容易在2025年初刚刚达成协议，让中国恢复进口。</p><p data-pid=\"Pc_XaBnS\">当时的日本渔业欢欣鼓舞，认为春天来了。北海道的扇贝养殖户们连夜加班，准备把积压的库存卖个好价钱。</p><p data-pid=\"A2M--yHj\">结果呢？</p><p data-pid=\"NXzsqLq7\">第一批重返中国市场的6吨北海道扇贝刚刚运抵港口，甚至还没来得及报关，高市早苗的极端言论就传来了。</p><p data-pid=\"45Vf3k5q\">中国的反应极其迅速，海关查验力度瞬间升级，实际上等于再次封死了大门，这批扇贝只能打道回府。</p><p data-pid=\"G0knND7T\">要知道，在核污水事件前，中国是日本水产的第一大出口目的国，每年消化日本22.5%的水产出口，这是一个绝对的“甲方市场”。</p><p data-pid=\"78FSFH7W\">因为失去了这个大甲方，日本水产行业不仅面临当年的库存积压，更面临产业链的彻底崩盘。</p><p data-pid=\"rpvmNIZY\">上千亿日元的投资化为乌有，大量渔业公司破产。</p><p data-pid=\"Gd-fcahw\">但这还只是前菜，真正的杀招在后面，中国的反制正在从消费端向制造端延伸。</p><p data-pid=\"aJCbjscF\">比如这次中国对日本的<b><u>两用物项管制。</u></b></p><p data-pid=\"7PZVex1S\">啥叫“两用物项”？</p><p data-pid=\"FU4_B1zh\">首先要科普一下，“两用物项”Dual-Use Items这个概念，本来是西方国家为了卡别人脖子而发明的。</p><p data-pid=\"fIolEtTQ\">在冷战时期，西方搞了个“巴统”，后来演变成了“瓦森纳协定”。</p><p data-pid=\"jZgkUs1x\">他们的逻辑很简单：有些东西，既能民用，也能军用。为了防止“敌对国家”提升军力，这些东西必须严控。</p><p data-pid=\"teKBsO4n\">举个最简单的例子：高性能碳纤维。</p><p data-pid=\"6JjmzFIU\">在民用领域，它能做自行车车架；但放在军用领域，它能造战斗机！</p><p data-pid=\"Bg3Sd6H1\">过去几十年，西方就是用这套逻辑，死死卡住中国的高端制造。</p><p data-pid=\"w0ZFKKhV\">现在，攻守之势异也！</p><p data-pid=\"7Z239OOX\">大家如果去翻看中国商务部发布的最新《两用物项出口管制清单》，会感到一种窒息感。</p><p data-pid=\"mGcugQEZ\">整整168页，涵盖了1000多项物资！</p><p data-pid=\"GGMiFt3g\">别说什么陀螺仪传感器了，连糖和棉花都禁了！</p><p data-pid=\"cKv--y5j\">为啥？因为棉花是硝化棉的基础原料，是制造发射药和炸药的核心；糖在特定化学反应下是固体火箭燃料的助剂，你说能不能军用？</p><p data-pid=\"8TbZRR81\">这就是“两用”的绝妙之处。</p><p data-pid=\"YonhUGwK\">“两用”本身就是“薛定谔”状态，清单我出，解释权归我，我说它可以军用，它就可以军用，说不卖，就不卖。</p><p data-pid=\"icCFPy35\">这一下子，日本可就哭了。</p><p data-pid=\"98Bt1s0v\">为啥啊？因为日本是典型的“加工贸易型”经济，说白了就是把原材料和零部件进口进来，然后加工一下，再卖出去。</p><p data-pid=\"9K1aL-_A\">现在呢？日本从中国的进口的产品，从铝合金到特种钢材，从电机到LED屏幕，从半导体材料到化工品，中国都能给你归到“两用物项”里面去。</p><p data-pid=\"VLAg4-ON\">说你是军用你就是军用，如果日本不乖乖接受审查，那都别想进口了。</p><p data-pid=\"6wr3_dqA\">那日本的制造业，还制造个P啊！</p><p data-pid=\"pBIPsXtP\">这就是“非战之战”的战术，通过行政流程的合规化手段，实际上达成了对日本高端制造业的精准打击。</p><p data-pid=\"Hwn_Nhd4\">制造业提供了日本20%以上的就业岗位，制造业垮了，日本经济必然要出大乱子不可。</p><p data-pid=\"JVGP7pDr\">有人可能会说，出口管制是个双刃剑，就不怕日本对中国也出口管制吗？</p><p data-pid=\"1eS98huP\">完全不怕。</p><p data-pid=\"u_QQJgaH\">中国制造业发展到今天，对日本关键原材料已经基本不存在什么依赖了，就算有（比如光刻胶），也有韩国产品可以替代嘛。</p><p data-pid=\"GzoXosiI\">现在知道为啥中国选择在李在明访华的时候公布出口管制令了吧？没准中韩早就谈好了!</p><p data-pid=\"zO2QMsTO\">所以1月7日，中国没等日本反制，就抢先一步，宣布对日本产二氯二氢硅反倾销调查。</p><p data-pid=\"NOJQsUPQ\">二氯二氢硅是芯片制造必备材料，中国的反倾销调查直接告诉日本，有本事你就搞禁运，我还怕你不搞呢！</p><p data-pid=\"Crnjjxgv\">你搞了，我有替代方案，但你的市场就没了！你敢不敢赌？</p><p data-pid=\"MjmLzD8o\">所以这次中国打的是连环拳，彻底把日本逼到了墙角。</p><p data-pid=\"zg1CXlFH\">更关键的在于，中国这次反制，打击了国际资本对日本经济的信心。</p><p data-pid=\"a3e0eNYj\">经济复苏啊，极其依赖<b><u>信心和预期。</u></b></p><p data-pid=\"VpwM-EEU\">可石破茂好不容易建立起来的“日本走出通缩”的预期，被高市早苗彻底毁了，外资不是傻子，巴菲特也不是慈善家。</p><p data-pid=\"ZtGZppvw\">当他们看到日本成为东北亚的火药桶，看到日本失去了中国这个最大的贸易伙伴，看到中国断供了日本制造业原材料，那么复苏肯定就没戏了，撤资是唯一的选择。</p><p data-pid=\"xb0fx6kV\">所以本金融市场一直在面临<b><u>“股、债、汇三杀”！</u></b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8vtghbMn\">日本10年期国债收益率直接飙到了1.8%，创下17年新高；30年期国债更是冲到了3.38%，打破了有记录以来的历史天花板！</p><p data-pid=\"UH0QpIh2\">接着是汇率跳水，跌破1美元兑157日元，创下10个月新低。</p><p data-pid=\"lE76d6r0\">以前日元是避险货币，现在呢？成了G10货币里表现最差的。</p><p data-pid=\"xi-5ceG3\">最后是股市血崩，日经225指数单日暴跌超3%。</p><p data-pid=\"irJIkJyS\">如果你买了日本股票，恭喜你，高市早苗上台以来那点可怜的涨幅，这一波直接给你抹平，连本带利吐得干干净净。</p><p data-pid=\"pmKqUKZl\">更重要的是，全球产业链正在重塑，机会窗口稍纵即逝，错过了这次机会，日本将彻底掉队。</p><p data-pid=\"i-qXAbhc\">我们曾经说日本经历了“失去的30年”。</p><p data-pid=\"tGZv5Z9l\">现在看来，在高市早苗的带领下，这“失去的30年”极有可能变成“失去的60年”。</p><p data-pid=\"nnBjfTfQ\"><b><i>3 断送前程</i></b></p><p data-pid=\"m_M2Ms8Z\">如果说经济的损失，顶多是让日本人勒紧裤腰带过几年苦日子，那真正让日本万劫不复的，是高市早苗在政治和军事战略上的短视+激进。</p><p data-pid=\"QmMFBoQP\">石破茂这个人啊，看起来温吞、软弱、甚至有点窝囊，但这个人实际上比高市早苗要“危险”一百倍。</p><p data-pid=\"mIoj9Ubk\">很多人觉得石破茂是“鸽派”，因为他总是还要讲几句中日友好，总是还要顾及周边国家的面子。</p><p data-pid=\"TzWtxPfL\">但这恰恰是他的高明之处——咬人的狗，是不叫的。</p><p data-pid=\"07sHM9so\">在军事政策上，石破茂是日本政坛中最坚定的“防卫自主化”支持者。</p><p data-pid=\"bZ9hU0WE\">这一点，从他多年前担任防卫大臣时就已经埋下了草蛇灰线。</p><p data-pid=\"wCknf-jx\">作为一个防卫专家，石破茂一直在积极推动自卫队向“国防军”转变。</p><p data-pid=\"-JonPL53\">大家可以去翻翻数据，自进入新世纪以来，特别是安倍晋三到石破茂这十几年的执政期内，日本自卫队的扩军速度是非常惊人的。</p><p data-pid=\"i6a5CxXi\">尤其是海上自卫队，相对于那些连军饷都发不出来、军舰趴窝的费拉不堪的欧洲同行，日本的造舰速度完全可以用“下饺子”来形容。</p><p data-pid=\"k-vCVVM_\">从“出云”级航母化改造，到新型护卫舰的快速列装，这些实打实的“肌肉”，大半都是在石破茂这种传统务实派的推动下完成的。</p><p data-pid=\"F63ZPD1I\">但他最让美国人忌惮，也最体现他战略野心的一点，在于他敢于触碰那个日本政坛的绝对禁区——《日美地位协定》。</p><p data-pid=\"q_8TqLFT\">石破茂是“日本国家正常化”的坚定信徒。</p><p data-pid=\"rxqyEztE\">什么叫正常化？不仅仅是有军队，更是要摆脱战后体制的束缚，也就是<b><u>摆脱美国的控制。</u></b></p><p data-pid=\"46wUrt8B\">石破茂曾在接受深度采访时明确表示：“如果要让日美同盟关系接近平等，就要重新讨论日美地位协定。要将两国信任关系提高到日本掌握美军基地管理权的水平。”</p><p data-pid=\"Y45s3tQw\">“日本掌握管理权”、“日美共同管理驻日基地”，这是要干什么？这是要从美国主子手里夺权！</p><p data-pid=\"ejMVZZ5h\">石破茂的逻辑是这样的：</p><p data-pid=\"PC2J4M3b\">既然由于日美安保条约的存在，美国必然介入台海，那么日本作为基地提供国也必然无法置身事外——</p><p data-pid=\"bGSqApUT\">所以为了应对这种局面，日本必须拥有独立的指挥权，必须拥有与美国平起平坐的地位。</p><p data-pid=\"6fgEX_jf\">但问题在于，如果日本“共管”了美军基地，那么美军就不再是“占领军”性质了，二战后日本被美国军事占领的状态就彻底改变了！</p><p data-pid=\"4w9z9zo7\">这是一种极高段位的“借力打力”，他借着“中国威胁论”来扩充军备，又借着“配合美国战略”的名义来索要军事自主权，并实现国家正常化。</p><p data-pid=\"1LPIKzSO\">这里有一个非常有意思的现象，也是很多国内媒体没想过、甚至看不懂的地方。</p><p data-pid=\"mw9Cv4jv\">在石破茂执政时期，甚至是在中日关系因核污水问题极其紧张的时刻，面对日本自卫队如此快速的扩军和造舰，东大的反应其实是非常有分寸的。</p><p data-pid=\"lCAdf9fS\">在东大一系列措辞严厉的评论中，往往盯着的是靖国神社、是历史问题、是涉台言论，但对于日本自卫队常规力量扩张这种实质性的威胁动作，反而发声不多。</p><p data-pid=\"1l1U_RSp\">为什么？</p><p data-pid=\"0ZYJ4jJh\">因为东大的战略家们看得比谁都清楚：</p><p data-pid=\"-vnlOoB_\">对于中国来说，驻扎在日本横须贺、佐世保、冲绳的那8万美军，远比那20多万日本自卫队要危险得多。</p><p data-pid=\"NsLrfGFt\">我们要算一笔账：</p><p data-pid=\"JoiOhPFQ\">日本没有核武器，国土狭长缺乏战略纵深，以目前日本的体量和工业能力，他能维持的常规武力是有极限的，而且，日本严重缺乏远程投射能力。</p><p data-pid=\"TGSPjIjf\">同时，由于日本尴尬的地理位置，他们所有的海空军基地，都处在中国中、短程导弹和高超音速武器的打击范围内。</p><p data-pid=\"X5YZspYa\">说白了，虽然日本喊着“台湾有事就是日本有事”，但是单凭日本自卫队，是没有什么干涉能力的，大概率是一波流带走。</p><p data-pid=\"iTlSgxQX\">如果日本通过“防卫自主化”，真的把美国驻军挤出去了，或者哪怕只是限制了美军的行动自由，这对于东大来说，绝对是利大于弊的战略胜利。</p><p data-pid=\"5Eskfd7o\">对中国来说，只要日本不拥有核武器，一个拥有常规武力但摆脱了美国控制的日本，威胁远小于一个被美国彻底武装并充当炮灰的日本。</p><p data-pid=\"nGyXsmXF\">这就是地缘政治的辩证法。</p><p data-pid=\"_68G3yNO\">对于东大来说，日本的防卫自主化，其实是日本摆脱美国控制的重要一步。</p><p data-pid=\"7-LK9iOB\">自卫队强大了，日本才有底气跟美国说：“我们可以自己保护自己，请你们离开。”</p><p data-pid=\"-Ms5IEQJ\">持续缓和中日关系，又可以让日本政客在面对美国勒索时不断造牌：“你看，我和邻居关系不错，不需要你那么多保护费。”</p><p data-pid=\"GfnzKjaL\">这个道理，历届日本资深政治家都心知肚明。</p><p data-pid=\"JInnTL2m\">他们知道，打造一支有着相当实力的武装力量，是未来在中美博弈中站队的重要筹码。</p><p data-pid=\"t9vJP76B\">只有手里有枪，等到中美因为台海真的开战之后，日本才有“看戏”的能力，才有“下注”的权力，而不是只能当炮灰。</p><p data-pid=\"gnhUeqUR\">这就是日本传统右翼政客的“统战价值”。</p><p data-pid=\"AKZEWCUG\">他们试图在中美两头左右逢源，互相捞好处。</p><p data-pid=\"GumfY0vV\">如果不想让日本本土沦为战场，不想把家族积累百年的瓶瓶罐罐都打碎，那么就绝对不能过早选边站，更不能当出头鸟。</p><p data-pid=\"erCHtMve\">这，才是日本作为一个岛国，在夹缝中生存的最高智慧——<b><u>猥琐发育，只做不说。</u></b></p><p data-pid=\"J-68YvqG\">然而，这一切精密的布局，都被高市早苗毁了。</p><p data-pid=\"VKUtuuX2\">高市早苗不明白这个道理吗？其实她心里比谁都明白。</p><p data-pid=\"8Q0lMxiA\">但对于她来说，日本的国家利益，远远不如她个人的政治利益重要。</p><p data-pid=\"3fU9Ygin\">她能够上台，靠的不是治国理政的能力，而是极端的政治投机。</p><p data-pid=\"MsRKi9jL\">为了竞选首相，她干了一件让日本政坛侧目的事——她一脚踢开了与自民党合作了近30年的盟友公明党。</p><p data-pid=\"TmFdBsRK\">公明党虽然在很多问题上比较保守，但它一直是日本政坛的“刹车片”，主张和平主义，反对过度修宪。</p><p data-pid=\"kkohTWLc\">高市早苗为了迎合极右翼的狂热情绪，嫌弃公明党碍手碍脚，直接选择了背刺盟友。</p><p data-pid=\"bZq2UfBO\">这还不够，为了争取日本维新会的支持，她竟然不惜出卖自民党在关西地区的核心利益。</p><p data-pid=\"nELGSxuB\">她公开支持维新会提出的“大阪副首都”构想。</p><p data-pid=\"4byzR4lu\">在一个单一制国家搞“副首都”，这是什么性质？这是明着搞内部分裂，是在削弱东京中央政府的权威。</p><p data-pid=\"xYAeoQe0\">但为了那几张选票，为了坐稳首相大位，高市早苗毫不犹豫地答应了。</p><p data-pid=\"q356hP6t\">她现在的逻辑非常简单粗暴：彻底放弃前几任首相搞平衡的“走钢丝”策略，全面倒向美国，全面对抗中国。</p><p data-pid=\"-BG8cHGz\">她以为只要嗓门够大，只要对着中国骂得够凶，就能换来美国的加码支持，就能拉高自己的支持率。</p><p data-pid=\"cr1i2PYW\">但问题在于，她在还没来得及做什么实质性的事，就已经通过嘴炮恶化了日本原来还不错的外部环境，把“政冷经热”的默契打破，把“斗而不破”的平衡打破。</p><p data-pid=\"faruQgVj\">原本，日本是有机会在中美博弈的决赛圈里，做一个手里握着筹码的旁观者的。</p><p data-pid=\"upKz_tsz\">现在，高市早苗亲手把日本绑上了美国的战车，并且锁死了车门。</p><p data-pid=\"BvbMwikQ\">接下来等待日本的，将不再是左右逢源的暧昧红利，而是来自地缘博弈的直接冲击了。</p><p data-pid=\"mKazmwj0\"><b><i>4 掘墓人</i></b></p><p data-pid=\"7P0airLF\">说到底，高市早苗和石破茂是不一样的。</p><p data-pid=\"P345CCRB\">石破茂的路线，虽然阴险，但至少是为日本谋求一条独立自主的出路。</p><p data-pid=\"MmIQzXAT\">高市早苗的路线，是一条通往附庸化和边缘化的死路。</p><p data-pid=\"9r2LdOIb\">她本来就是一个投机派，靠着联合极右翼才上位。为了保住权力，她不可能认错，更不可能回头。</p><p data-pid=\"ly4QsofE\">她只会变本加厉，用更激进的言论来掩盖经济上的无能，试图煽动民族主义情绪来保住支持率。</p><p data-pid=\"cvgjjI3O\">这是一条不归路。</p><p data-pid=\"3hara19C\">对于日本经济而言，这是一个极其危险的信号。</p><p data-pid=\"Q66T6a8L\">他们正在失去重要的外部市场，失去投资来源，失去原材料供应，原本脆弱的复苏势头被彻底打断。</p><p data-pid=\"97-FHfvb\">等到若干年后，当日本国民站在荒芜的经济废墟上，回望2025年的那个转折点时，他们或许会明白：</p><p data-pid=\"ORSM6388\">那个看起来只会鞠躬道歉、没有一点霸气的石破茂，才是他们最后的守护者。</p><p data-pid=\"TesjXvT8\">那个看起来气势汹汹、要把日本带向伟大的高市早苗，才是亲手埋葬这个国家未来的掘墓人。</p><p data-pid=\"oyqIw7g4\">只可惜，历史没有如果，国运一旦败光，就再也回不来了。</p><p data-pid=\"NQIAL2Jc\">朋友圈更精彩··</p>",
+        "visited_count": 12126,
+        "url": "https://api.zhihu.com/articles/1994820478230091773",
+        "favorite_count": 50,
+        "is_navigator": false,
+        "author": {
+          "is_followed": false,
+          "id": "4d0b7699a319a87ba261992041eed8a4",
+          "headline": "hmgg024花猫哥哥个人好友vx",
+          "avatar_url": "https://picx.zhimg.com/50/v2-60d3342013a8f4ef1b697c1b2ead8ea7_l.jpg?source=b6762063",
+          "followers_count": 618529,
+          "is_following": false,
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/4d0b7699a319a87ba261992041eed8a4",
+          "user_type": "people",
+          "url_token": "yuan-hao-6-89",
+          "name": "猫哥的视界",
+          "is_org": false
+        },
+        "comment_count": 21,
+        "is_labeled": false,
+        "article_type": "normal",
+        "column": {
+          "type": "column",
+          "author": {
+            "is_followed": false,
+            "url": "",
+            "url_token": "",
+            "name": "匿名用户",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "id": "",
+            "user_type": "people",
+            "headline": ""
+          },
+          "title": "猫哥的视界",
+          "comment_permission": "private",
+          "intro": "独特的宏观视角，时政、经济、投资等有价值的信息提供",
+          "updated": 1602753668,
+          "is_following": false,
+          "id": "c_1300123796645859328",
+          "imageUrl": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "url": "https://api.zhihu.com/columns/c_1300123796645859328"
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994820478230091773}",
+      "attached_info": "CswHCKuG3//j0MzjpAEQBxoJMjY5MDE1ODcyIPe+ncsGKP0BMBVASUp5CilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVBJGaG90X3JlY2FsbF9yZWFsdGltZV90Om5ldzdkOjIwMjYtMDEtMTc6bWFsZTpiaWd5b3VuZ3N0ZXI6b3RoZXI6bW9udGhseRgAIAA6AFoHMzI1NTk5OWIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTQ4MjA0NzgyMzAwOTE3NzOCAV9odHRwczovL3BpYzEuemhpbWcuY29tL3YyLTJiZTMxYWZiODI1NzRkZGVkNGM2NzhlM2NhODQ4YWViLmpwZz9zb3VyY2U9N2U3ZWY2ZTImbmVlZEJhY2tncm91bmQ9MYoBFWNfMTMwMDEyMzc5NjY0NTg1OTMyOKoBCXJlY29tbWVuZMIBIDRkMGI3Njk5YTMxOWE4N2JhMjYxOTkyMDQxZWVkOGE08gEKCAwSBk5vcm1hbPIBKAgKEiRjOTcxNGZlMy1jNTNlLTRjNzgtYjk1My0zMzlkMDU3MGQ3YmTyAQYICxICMTOCAgCIAquh/em8M5ICIDRkMGI3Njk5YTMxOWE4N2JhMjYxOTkyMDQxZWVkOGE0mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCKVRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTF9USU1FX05FV19DT05URU5U6AIC+gILTk9STUFMX0ZMT1eKAyA1NDliYmRjZjhkOGI0MDY2OTVmOTY0MTkzOWRhZGQyMpoDDQoCdjIQABoFb3RoZXKoA95e2AMA6gMiaG90Q3Jvc3NSZWFsVGltZU5ld0NvbnRlbnRSZWNhbGxlcvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELcIGL8EIiN2Mi0yYmUzMWFmYjgyNTc0ZGRlZDRjNjc4ZTNjYTg0OGFlYoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQIyYiz+BBQAAAAAAAAAAiQVsymkHYSC0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUNkAYAoAZJqAYDkgIuCgkyNjkwMTU4NzISEzE5OTQ4MjA0NzgyMzAwOTE3NzMYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "74_1768675037.431",
+      "type": "feed",
+      "offset": 74,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675037,
+      "updated_time": 1768675037,
+      "target": {
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "favorite_count": 133,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1994008290301068826",
+        "updated_time": 1768481440,
+        "comment_count": 14,
+        "vote_next_step": "vote",
+        "question": {
+          "detail": "",
+          "created": 1768187836,
+          "excerpt": "",
+          "id": "1994004990138787012",
+          "url": "https://api.zhihu.com/questions/1994004990138787012",
+          "author": {
+            "user_type": "people",
+            "headline": "对思维与艺术感兴趣的美学探索者",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-6c67f1d7c5fdb59ce9d69c1ecfdd97c3_l.jpg?source=b6762063",
+            "name": "sunny",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 2886,
+            "is_following": false,
+            "id": "e56255995f60a45cbc405c653e026abf",
+            "url": "https://api.zhihu.com/people/e56255995f60a45cbc405c653e026abf",
+            "url_token": "sunny-30-26-7",
+            "is_followed": false
+          },
+          "answer_count": 0,
+          "follower_count": 0,
+          "question_type": "normal",
+          "type": "question",
+          "title": "你知道西兰花如何煮，才能吃出美食的本真吗？",
+          "comment_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "excerpt": "迈克尔.格雷格医生在《救命》这本汇集了上千项临床研究的著作里，揭开了一个让营养学界都震惊的发现。如果你在处理西兰花时跳过了那 关键的40分钟，这颗被称为抗氧化之王的蔬菜里，那种能够激活身体自愈系统的核心物质会在高温的瞬间损失掉70%以上。格雷格医生不是普通的养生专家，他是美国临床营养学会的创始成员，他花了整整十年时间翻阅了成千上万份顶级医学期刊，就为了回答一个问题：人类最常见的15种致命疾病到底能不能通…",
+        "preview_text": "",
+        "is_navigator": false,
+        "created_time": 1768188623,
+        "voteup_count": 35,
+        "answer_type": "normal",
+        "excerpt_new": "迈克尔.格雷格医生在《救命》这本汇集了上千项临床研究的著作里，揭开了一个让营养学界都震惊的发现。如果你在处理西兰花时跳过了那 关键的40分钟，这颗被称为抗氧化之王的蔬菜里，那种能够激活身体自愈系统的核心物质会在高温的瞬间损失掉70%以上。格雷格医生不是普通的养生专家，他是美国临床营养学会的创始成员，他花了整整十年时间翻阅了成千上万份顶级医学期刊，就为了回答一个问题：人类最常见的15种致命疾病到底能不能通…",
+        "content": "<p data-pid=\"PWAu9cR1\">迈克尔.格雷格医生在《救命》这本汇集了上千项临床研究的著作里，揭开了一个让营养学界都震惊的发现。如果你在处理西兰花时跳过了那<b>关键的40分钟</b>，这颗被称为抗氧化之王的蔬菜里，那种能够激活身体自愈系统的核心物质会在高温的瞬间损失掉70%以上。</p><p data-pid=\"yb3c_hjD\">格雷格医生不是普通的养生专家，他是美国临床营养学会的创始成员，他花了整整十年时间翻阅了成千上万份顶级医学期刊，就为了回答一个问题：人类最常见的15种致命疾病到底能不能通过吃来预防？他的答案震撼了整个医学界——<b>能</b>，而且<b>不需要</b>任何<b>昂贵的补充剂</b>，不需要<b>复杂的治疗方案</b>，你需要的<b>所有武器就藏在</b>菜市场那些<b>最普通的食材里。</b></p><p data-pid=\"kSNDB79V\"><b>一、西兰花的烹饪原理</b></p><p data-pid=\"BvlaoA4h\">但这里面有个致命的陷阱。格雷格医生在书里反复强调：不是你吃了什么，而是<b>你怎么吃</b>。就拿西兰花来说，这种十字花科蔬菜里含有一种叫做<b>芥子油苷的前体物质</b>。它本身没有任何作用，就像一把还没开锋的刀。但当你把西兰花切碎的那一刻，<b>植物细胞破裂，</b>里面的<b>黑芥子酶被释放出来，</b>开始疯狂地<b>和芥子油苷发生反应，</b>生成一种叫做<b>萝卜硫素的活性化合物。</b>格雷格医生在书里把这个过程称为植物的最后反击。</p><p data-pid=\"5JHNddz4\">这种萝卜硫素有多厉害？它能够直接<b>进入</b>你的<b>细胞核，开启</b>身体里<b>超过200个保护基因的表达</b>。这些基因平时都在休眠，一旦被激活，它们会<b>指挥细胞启动自我修复程序</b>，清理那些已经开始变异的异常细胞，强化细胞膜的防御能力。约翰霍普金斯大学的研究团队用了20年时间追踪这种物质。他们发现那些定期摄入足量萝卜硫素的人群，<b>某些高风险指标的发生率降低了61%。</b> </p><p data-pid=\"LSJI90mc\">但问题来了，格雷格医生在《救命》里记录了一个让无数家庭都懊悔的细节：这个转化过程需要时间。<b>黑芥子酶</b>和<b>芥子油苷的结合反应</b>在常温下需要整整<b>40分钟才能达到峰值。</b>如果你像大多数人一样把西兰花洗净切好，立刻就扔进沸水里焯烫，或者直接上锅蒸，那高温会在30秒内彻底杀死黑芥子酶，反应链条瞬间中断。你吃进去的只是一堆纤维和维生素，而那种真正能守护细胞、激活自愈力的萝卜硫素还没来得及生成就已经胎死腹中。 </p><p data-pid=\"euTksXG_\"><b>二、西兰花的烹饪核心</b></p><p data-pid=\"vr343R8K\">格雷格医生在书里教了我们一个改变命运的简单动作：<b>切碎→等待→再烹饪</b>。把西兰花切成小朵，甚至可以用刀背稍微拍碎花蕾部分，然后就让它静静地躺在砧板上，<b>什么都不用做，就等40分钟。</b>在这40分钟里，西兰花正在进行<b>一场无声的化学革命</b>，每一秒钟都有<b>数以亿计</b>的<b>萝卜硫素分子被合成</b>出来。等这个过程完成后，哪怕你随后把它高温爆炒、快速水煮，那些已经生成的萝卜硫素都非常稳定，能够完整地保留下来，最终进入你的身体开始它的守护工作。 </p><p data-pid=\"ImiUnqIH\"><b>三、核心步骤的替代方法</b></p><p data-pid=\"KoA-TEfP\">如果你实在等不了40分钟，可以在切碎西兰花后<b>撒上一小勺芥末粉，或</b>者<b>加一点生的萝卜碎</b>。因为芥末和萝卜里同样含有黑芥子酶，而且这种酶的耐热性比西兰花自带的要强得多，即使你立刻烹饪，这些外来的酶也能在加热过程中继续工作一段时间，帮助完成转化。这个方法是格雷格医生从日本传统饮食习惯里发现的——日本人吃西兰花时总爱配芥末，原来这不是口味偏好，而是祖先用几百年时间摸索出来的<b>生存智慧</b>。 </p><p data-pid=\"3_8QGN3s\"><b>四、饮食搭配建议</b></p><p data-pid=\"eKrL_kXo\">格雷格医生在《救命》里系统地拆解了15种威胁人类生命的重大健康问题，从心血管系统到代谢系统，从呼吸系统到神经系统，每一种问题他都追溯到了食物层面的根源。比如他发现<b>亚麻籽</b>里的<b>木酚素</b>能够在肠道里被转化成<b>类雌激素物质，</b>这种物质可以<b>温和地调节激素水平</b>；蓝莓、草莓、黑莓这些深色浆果里含有的<b>花青素能够</b>穿过血脑屏障<b>直接保护大脑神经元</b>；<b>番茄红素</b>需要<b>脂肪作为载体才能被肠道吸收</b>，配合鳄梨或坚果<b>食用时吸收率能从4%提升到30%以上</b>。 </p><p data-pid=\"2eCeaA9B\">格雷格医生在书里列出了一个&#34;<b>每日12吃搭清单</b>&#34;，这是他综合了所有研究成果后给出的最优饮食组合：<b>豆类、浆果、其他水果、十字花科蔬菜、绿叶蔬菜、其他蔬菜、亚麻籽、坚果、香辛料、全谷物、饮料、运动。</b>每一类都有具体的分量建议和科学依据支撑。他说：&#34;<b>最好的医生不在医院，</b>而<b>在你的厨房</b>里<b>；最好的药房不在药店</b>，而<b>在你的菜篮子</b>里。&#34;这句话，请大家不仅要记住，更重要的是吃到肚子里！</p><p data-pid=\"_DlcvGxN\">PS：<b>十字花科蔬菜</b>普遍富含<b>维生素 C、膳食纤维、叶酸</b>，以及特有的<b>萝卜硫素</b>（西兰花中<b>含量最高</b>，抗氧化、抗炎效果显著），且<b>热量低</b>，适合<b>各类人群日常食用</b>。</p><p data-pid=\"-71MbMZP\">欢迎加入：<a href=\"https://www.zhihu.com/ring/host/1938913447627700081?tab=new&amp;tab_id=0\" class=\"internal\" target=\"_blank\">艺术美学探索营 - 知乎</a>，一起感受艺术的魅力！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "id": "1994008290301068826",
+        "author": {
+          "name": "sunny",
+          "headline": "对思维与艺术感兴趣的美学探索者",
+          "gender": 0,
+          "followers_count": 2886,
+          "user_type": "people",
+          "url": "https://api.zhihu.com/people/e56255995f60a45cbc405c653e026abf",
+          "url_token": "sunny-30-26-7",
+          "avatar_url": "https://picx.zhimg.com/50/v2-6c67f1d7c5fdb59ce9d69c1ecfdd97c3_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "id": "e56255995f60a45cbc405c653e026abf"
+        },
+        "thanks_count": 4,
+        "is_copyable": false,
+        "visited_count": 4449,
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994008290301068826}",
+      "attached_info": "CoMGCKuG3//j0MzjpAEQBBoJNzY1MDU2MzMzIM/VkcsGKCMwDkBKSi4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9WgkxMTgwMzg3MzJiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk0MDA4MjkwMzAxMDY4ODI2igETMTk5NDAwNDk5MDEzODc4NzAxMqoBCXJlY29tbWVuZMIBIGU1NjI1NTk5NWY2MGE0NWNiYzQwNWM2NTNlMDI2YWJm8gEKCAwSBk5vcm1hbPIBKAgKEiRiOGQ5MWUzNi1mMzZiLTQwOTUtODBiMS0yNjkxNTVmNDU3ODjyAQYICxICMTOCAgCIAquh/em8M5ICIGU1NjI1NTk5NWY2MGE0NWNiYzQwNWM2NTNlMDI2YWJmmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjPoAgT6AgtOT1JNQUxfRkxPV4oDIDU0OWJiZGNmOGQ4YjQwNjY5NWY5NjQxOTM5ZGFkZDIymgMNCgJ2MhAAGgVvdGhlcqgD4SLYAwDqAxlmZWVkcmVfbXNfZ2F0ZV92M19vbmx5X2hx+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYJyKgz+BBQAAAAAAAAAAiQVsymkHYSC0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUNkAYAoAZKqAYAkgIuCgk3NjUwNTYzMzMSEzE5OTQwMDgyOTAzMDEwNjg4MjYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "75_1768675037.867",
+      "type": "feed",
+      "offset": 75,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675037,
+      "updated_time": 1768675037,
+      "target": {
+        "author": {
+          "id": "502d1eab3a904bc716ed04a30433ed62",
+          "avatar_url": "https://pica.zhimg.com/50/v2-ba67f05926209fb5f42ed0e69c354aa0_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/502d1eab3a904bc716ed04a30433ed62",
+          "user_type": "people",
+          "url_token": "21g--51",
+          "name": "慢羊羊",
+          "headline": "我与你隔着长谷深风，近不得，退不舍。",
+          "followers_count": 306,
+          "is_following": false
+        },
+        "comment_count": 121,
+        "preview_type": "default",
+        "is_labeled": false,
+        "updated_time": 1768025401,
+        "excerpt": "这是一场带着屈辱印记的放逐。1969年10月，邓公着妻子卓琳、继母夏伯根，离开居住了十多年的中南海，登上了前往南昌的飞机。   三年前，他被定为“党内第二号走资派”，从中共中央总书记、国务院副总理的高位跌落下来，失去一切职务，至此，他不再被允许待在北京，要到南昌接受劳动改造与思想再教育。 临行前，他曾请求面见毛主席，却未获批准。 这不是邓公第一次被打倒。1933年，他遭“左”倾路线打击，受到党内“最后严重警告”…",
+        "answer_type": "normal",
+        "voteup_count": 1803,
+        "is_copyable": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-810760023572515e42cb6da602abd9ea_720w.jpg?source=b6762063",
+        "created_time": 1768024989,
+        "preview_text": "",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "id": "1993321960986403571",
+        "type": "answer",
+        "excerpt_new": "这是一场带着屈辱印记的放逐。1969年10月，邓公着妻子卓琳、继母夏伯根，离开居住了十多年的中南海，登上了前往南昌的飞机。   三年前，他被定为“党内第二号走资派”，从中共中央总书记、国务院副总理的高位跌落下来，失去一切职务，至此，他不再被允许待在北京，要到南昌接受劳动改造与思想再教育。 临行前，他曾请求面见毛主席，却未获批准。 这不是邓公第一次被打倒。1933年，他遭“左”倾路线打击，受到党内“最后严重警告”…",
+        "favorite_count": 1630,
+        "url": "https://api.zhihu.com/answers/1993321960986403571",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"wV2IIV4k\">这是一场带着屈辱印记的放逐。1969年10月，邓公着妻子卓琳、继母夏伯根，离开居住了十多年的中南海，登上了前往南昌的飞机。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ba385812711a687a07c935554e7a5f4e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1064\" data-rawheight=\"752\" data-original-token=\"v2-810760023572515e42cb6da602abd9ea\" class=\"origin_image zh-lightbox-thumb\" width=\"1064\" data-original=\"https://pic1.zhimg.com/v2-ba385812711a687a07c935554e7a5f4e_r.jpg\"/></figure><p data-pid=\"Tl4l5Uve\">三年前，他被定为“党内第二号走资派”，从中共中央总书记、国务院副总理的高位跌落下来，失去一切职务，至此，他不再被允许待在北京，要到南昌接受劳动改造与思想再教育。</p><p data-pid=\"vcON_MMs\">临行前，他曾请求面见毛主席，却未获批准。</p><p data-pid=\"MgwYeX6H\">这不是邓公第一次被打倒。1933年，他遭“左”倾路线打击，受到党内“最后严重警告”，被撤掉江西省委宣传部长、会昌中心县委书记等职务，到乐安县南村当巡视员。</p><p data-pid=\"leANoaR7\">但这次打击却显得异常沉重。</p><p data-pid=\"HUXMPY-Y\">19岁时，邓公就开始参加革命，四十多年来，殚精竭虑，几乎是付出了一切。</p><p data-pid=\"cx3EYfa1\"><b>可这一切付出都被轻易抹去了，这种对一个人毕生信仰与事业彻底否定带来的屈辱感，绝对是深入骨髓的。</b></p><p data-pid=\"ImEzB1N8\">此时的邓公已经65岁，<b>意味着身体机能早已衰退</b>，而体力劳动、南方潮湿阴冷的气候，都是对他身体的严酷考验。</p><p data-pid=\"baBurhOT\"><b>更令人绝望的是，这个年龄意味着他几乎没有再度翻盘的可能，毕生抱负将就此终结。</b></p><p data-pid=\"8ZTURmTx\">他的家人也受到牵连，全家陷入困苦。尤其是他的长子邓朴方被逼跳楼，落下终身瘫痪的残疾，离开北京时，他已无法妥善安置卧床不起儿子。</p><p data-pid=\"UZHf88lZ\"><b>这种对家人无力保护的愧疚，如利刃般日夜穿刺着他的内心。</b></p><p data-pid=\"22qzc8Qz\">上述种种，交织叠加，足以压垮任何一个意志薄弱之人。</p><p data-pid=\"MVdGW_qN\">临去江西前，邓公对前来宣布决定的中办主任汪东兴，提出过三个请求。</p><p data-pid=\"XsEc6CYe\"><b>第一，带自己的继母夏伯根一起去。</b></p><p data-pid=\"2n-h1b8a\">邓公的这位继母，是嘉陵江上一个船工的女儿，作为续弦嫁进邓家。</p><p data-pid=\"5czj4t2Y\">她有着四川女人的能干和勇敢：战争时，保护过共产党游击队的伤员；邓被“打倒”后不久，邓家子女被赶出中南海，全靠她一人照顾。</p><p data-pid=\"4y3UKd26\">她与邓公毫无血缘关系，邓公依然把她当生母一样对待。</p><p data-pid=\"UnFlARBM\">此番离开北京，不知时间长短，也不知前途几何，继母是他想到的第一个人。</p><p data-pid=\"B2ARC7TR\"><b>第二，把现在卧室的窗帘带去，因为邓夫妇习惯睡觉时，保持室内的黑暗。</b></p><p data-pid=\"t0XI0ey0\"><b>第三，做几个大木箱，把家里的书带些去。</b></p><p data-pid=\"Xk54KQrt\">邓家有丰富的藏书，包括马列、历史、文学等等。行前，他们把书精心地挑选出来，装进大木箱里。邓的女儿说：“他们知道，在今后的岁月里，将由这些书来陪伴那些不眠的日日夜夜。”</p><p data-pid=\"TQzLwSkJ\">这三个要求，就是邓公面对生活的变故时，给出的三个要点：<b>睡好觉，读好书，顾好人。</b></p><p data-pid=\"gxcMY6cz\"><b>在南昌安家之后，邓公每天6点半起床。</b></p><p data-pid=\"QKGEBD0j\">在战争年代，他每天做的第一件事是用一桶冷水浇头，现在他用一块浸透了冷水的毛巾洗头洗脸，这是他抵御寒冷的方式。</p><p data-pid=\"dFRem0hP\">吃过早饭后，他和妻子卓琳步行到一公里外的拖拉机修造厂上班。</p><p data-pid=\"-CcY7Afz\">邓公被分配的工作岗位是钳工，这很像他五十年前在法国勤工俭学时的工作，<b>他需要在这里干一上午的活。</b></p><p data-pid=\"2s29IEb5\">邓公的继母在家里为他们做饭和料理家务，<b>午饭后，邓公小睡片刻，然后开始读书，</b>包括中国历史典籍和《红楼梦》、《水浒传》之类的小说，以及翻译的法国、俄国的文学作品，<b>他也可以收听新闻广播。</b></p><p data-pid=\"oJMhNqA6\"><b>到了晚上10点钟，便上床休息，邓公还要读一个小时的书才睡觉。</b></p><p data-pid=\"i2SDF8Sv\"><b>除了在工厂上班，邓公也在自己的菜园里干活，平时也在家里帮着擦地和劈柴。</b></p><p data-pid=\"-CcCjZ42\">邓公保持了他一贯沉默寡言的风格，除了眼前的工作和当地的生活，他不和工人谈论其他事情，更不会涉及任何政治话题。</p><p data-pid=\"eFsYb1an\"><b>即便在自己的家人面前，他也没有表现出意气用事和宣泄绵延的情绪。</b></p><p data-pid=\"x0XAAm76\">下放南昌后，邓公很快就让自己平静下来。</p><p data-pid=\"bCI7G-lI\"><b>规律的生活以及远离政治旋涡，让他能够充分地进行反思。</b></p><p data-pid=\"TbWEifEB\">纵观历史，那些伟大的政治人物往往都有一段大权旁落的在野时光，而正是这些时光让他们得以认真考虑自己的长远目标，把一些根本问题搞清楚、想透彻。</p><p data-pid=\"HXynC1Ta\">在邓公心中的问题只有一个：</p><p data-pid=\"6KUIYXNp\">中国未来的命运该何去何从，这是事关8亿国人切身利益的问题；</p><p data-pid=\"SeGmXyT3\"><b>在沉默中积蓄力量，在孤独中思考未来。</b></p><p data-pid=\"wqddaPwY\">当然，邓公也不会让自己成为一个桃花源中与世隔绝的人<b>，他在有限的信息渠道内依然保持着对时局的关注，同时，他也向北京写信。</b></p><p data-pid=\"LPsbVbAm\">他耐心等待着，像一个老农等待春雷。</p><p data-pid=\"8su9R5I5\">终于，1973年2月，邓公与家人登上了返京的列车。</p><p data-pid=\"7X8hZvmT\">尽管邓公在1974年至1975年开展了卓有成效的工作，并一度成为众望所归的接班人，但是到了1976年4月，他再次被撤销一切职务。</p><p data-pid=\"NEiu0saB\">这一次，他已72岁。他被限制在北京宽街的老宅里居住，唐山大地震那夜，他和家人在院子里搭起帐篷，感受着大地的震颤，也感受着时代的动荡。</p><p data-pid=\"GmLho5tL\">他知道，政敌们正密谋将他开出党籍、彻底打倒，甚至有人叫嚣杀邓。</p><p data-pid=\"K01n1YNY\"><b>可他依旧保持平静，每天读书、看报、散步。</b></p><p data-pid=\"loUog81s\">他听收音机里传来的消息，听“四人帮”的喧嚣，也听民间对“邓大人”的呼唤。</p><p data-pid=\"eFER3MUy\">他不激动，但心中有火。</p><p data-pid=\"zn-k_1j3\">当“四人帮”被粉碎的消息传来，他没有喜极而泣，只是淡淡地说了一句：“我还能继续工作。”这句话，不是豪言壮语，而是一个政治家对使命的确认。他知道，历史的钟摆，终于荡回了自己这一边。</p><p data-pid=\"2GMXK32g\"><b>邓公曾对来访的外国客人说，自己能三起三落，靠的只是两个字——等待。</b></p><p data-pid=\"PbsVSTzN\">这种等待，不是消极的苟且，它是在黑暗中守望光明的定力，是在屈辱中保持尊严的骨气，是在绝望中坚信未来的信念。</p><p data-pid=\"DnE8JIJk\">他的智慧，不在于斗，而在于忍；不在于争，而在于等。</p><p data-pid=\"cXEC1ea8\">他不把自己当作受害者，而始终是历史的参与者。</p><p data-pid=\"OKVt9dRu\">他相信，只要党还在，国家还在，人民还在，他就还有机会。</p><h2>邓公的智慧在于，睡好觉，读好书，顾好人，在沉默中积蓄力量，在孤独中思考未来，时刻去链接外界，然后等待。</h2><p></p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-810760023572515e42cb6da602abd9ea_720w.jpg?source=b6762063"
+        ],
+        "segment_infos": [
+          {
+            "pid": "vcON_MMs",
+            "text": "临行前，他曾请求面见毛主席，却未获批准。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994452317831980866"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "TQzLwSkJ",
+            "text": "这三个要求，就是邓公面对生活的变故时，给出的三个要点：睡好觉，读好书，顾好人。",
+            "marks": [
+              {
+                "start_index": 21,
+                "end_index": 39,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994161623997380517"
+                  ],
+                  "is_like": false,
+                  "like_count": 17,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "-CcY7Afz",
+            "text": "邓公被分配的工作岗位是钳工，这很像他五十年前在法国勤工俭学时的工作，他需要在这里干一上午的活。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 47,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994491881216820375"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "TbWEifEB",
+            "text": "纵观历史，那些伟大的政治人物往往都有一段大权旁落的在野时光，而正是这些时光让他们得以认真考虑自己的长远目标，把一些根本问题搞清楚、想透彻。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 69,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994161796513285076"
+                  ],
+                  "is_like": false,
+                  "like_count": 20,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "SeGmXyT3",
+            "text": "在沉默中积蓄力量，在孤独中思考未来。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995336331744793893"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "K01n1YNY",
+            "text": "可他依旧保持平静，每天读书、看报、散步。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994452317831980866"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "2GMXK32g",
+            "text": "邓公曾对来访的外国客人说，自己能三起三落，靠的只是两个字——等待。",
+            "marks": [
+              {
+                "start_index": 21,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995336435142783446"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "DnE8JIJk",
+            "text": "他的智慧，不在于斗，而在于忍；不在于争，而在于等。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993958198223331665"
+                  ],
+                  "is_like": false,
+                  "like_count": 9,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "cXEC1ea8",
+            "text": "他不把自己当作受害者，而始终是历史的参与者。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 22,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994229061891954070"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "thanks_count": 119,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 180810,
+        "is_navigator": false,
+        "question": {
+          "bound_topic_ids": [
+            2566,
+            2738,
+            27919,
+            159476,
+            3448017
+          ],
+          "detail": "",
+          "type": "question",
+          "author": {
+            "id": "2a36f428f00ca7b2a1f71ff169ce38e0",
+            "url_token": "4-73-58-48-19",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-c1a2418caea7ba1a7b1c236dc2e55d3d_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/2a36f428f00ca7b2a1f71ff169ce38e0",
+            "user_type": "people",
+            "name": "一颗葡萄桃",
+            "gender": 0,
+            "followers_count": 20
+          },
+          "title": "如何熬过领导打压期呢？",
+          "created": 1727040949,
+          "comment_count": 3,
+          "is_following": false,
+          "id": "667908480",
+          "url": "https://api.zhihu.com/questions/667908480",
+          "follower_count": 0,
+          "excerpt": "",
+          "question_type": "normal",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993321960986403571}",
+      "attached_info": "CsQGCKuG3//j0MzjpAEQBBoJNzY0ODI3NTgwIJ3Xh8sGKIsOMHlAS0phCilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVBIuaG90X3JlY2FsbF9yZWFsdGltZV90Om5ldzdkOjIwMjYtMDEtMTc6bW9udGhseRgAIAA6AFoJMTEwNzAyMDI5YiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5MzMyMTk2MDk4NjQwMzU3MYoBCTY2NzkwODQ4MKoBCXJlY29tbWVuZMIBIDUwMmQxZWFiM2E5MDRiYzcxNmVkMDRhMzA0MzNlZDYy8gEKCAwSBk5vcm1hbPIBKAgKEiQ1N2JmYzIzZS02YjdlLTRiY2ItOTczMi0xN2I2ZDIxYzJjNGLyAQYICxICMTOCAgCIAquh/em8M5ICIDUwMmQxZWFiM2E5MDRiYzcxNmVkMDRhMzA0MzNlZDYymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVOgCA/oCC05PUk1BTF9GTE9XigMgNTQ5YmJkY2Y4ZDhiNDA2Njk1Zjk2NDE5MzlkYWRkMjKaAw0KAnYyEAAaBW90aGVyqAPKhAvYAwDqAyJob3RDcm9zc1JlYWxUaW1lTmV3Q29udGVudFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQqAgY8AUiI3YyLTgxMDc2MDAyMzU3MjUxNWU0MmNiNmRhNjAyYWJkOWVhgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgH7m4P4EFAAAAAAAAAACJBWzKaQdhILQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBkuoBgCSAi4KCTc2NDgyNzU4MBITMTk5MzMyMTk2MDk4NjQwMzU3MRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "76_1768675037.733",
+      "type": "feed",
+      "offset": 76,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675037,
+      "updated_time": 1768675037,
+      "target": {
+        "thumbnail": "https://picx.zhimg.com/50/v2-95530515e27a2fc6bd67b8bba80b20ed_720w.jpg?source=b6762063",
+        "is_labeled": true,
+        "navigator_vote": false,
+        "type": "answer",
+        "updated_time": 1768666579,
+        "is_copyable": true,
+        "created_time": 1768666579,
+        "question": {
+          "follower_count": 0,
+          "question_type": "normal",
+          "id": "657214914",
+          "url": "https://api.zhihu.com/questions/657214914",
+          "bound_topic_ids": [
+            740,
+            17896,
+            20962,
+            285235,
+            2452227
+          ],
+          "author": {
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/dafea300fea9ac8040df4a34bc45f36e",
+            "headline": "只要你不知道，ta就是合格的    ",
+            "avatar_url": "https://picx.zhimg.com/50/v2-dd8d639f071ce407d4bc0d699a4245a2_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "is_followed": false,
+            "id": "dafea300fea9ac8040df4a34bc45f36e",
+            "user_type": "people",
+            "url_token": "zha-xiao-meng-meng",
+            "name": "1212",
+            "followers_count": 11
+          },
+          "title": "有哪些话支撑你度过艰难的时光?",
+          "created": 1716691326,
+          "answer_count": 0,
+          "detail": "",
+          "type": "question",
+          "comment_count": 3,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "favorite_count": 1,
+        "excerpt_new": "1.良知这种东西，就和天赋一样，有就有，没有就没有，不存在唤醒。 一一陈佩斯 2.你没有走错路，你是在等待风的到来， 你只是在港口养精蓄锐，直到好风吹起来。 ——伊吹有喜《等风的人》 3.也要楚天阔，也要大江流，也要望不见前后，才能对月下酒。 ——林清玄 4.如果对世界不抱太大的希望,反而安静仔细地观察它,总是会有些收获的。这是受世间宠爱的成功人士所不知道的,观察是至上的艺术,是一种精致、有益且有趣的艺术。 ——赫…",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-95530515e27a2fc6bd67b8bba80b20ed_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-9ebac8e956c83a0383de7bb678efd786_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-1bad90a984f357febd3e495d771a7743_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-6ba6004e70650f31d128cdecfd1c1c30_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b0b0f68dc93a12e7339f51d3dcb8d077_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-63103611a65ce953755c27bc8c1cb843_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-52d7db388729b21ef5f52701d2a0184f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d5ee300bb5de0735e67edd34696908a4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a327cfe40fc490cc96fd63df59a2e955_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-1ee1ffbe3327c3aac9838aec19baa6e6_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "comment_count": 0,
+        "id": "1996012983126627717",
+        "author": {
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "中国地质大学(北京) 地质资源与地质工程博士在读"
+            }
+          ],
+          "url_token": "24-54-21-85",
+          "headline": "小人物永不老",
+          "user_type": "people",
+          "name": "Kevin·李",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f2da2c4ade261422696912eeee87825a_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 223,
+          "is_following": false,
+          "id": "85d6854d6931c924c327d5faa9c7d81e",
+          "url": "https://api.zhihu.com/people/85d6854d6931c924c327d5faa9c7d81e",
+          "is_followed": false
+        },
+        "excerpt": "1.良知这种东西，就和天赋一样，有就有，没有就没有，不存在唤醒。 一一陈佩斯 2.你没有走错路，你是在等待风的到来， 你只是在港口养精蓄锐，直到好风吹起来。 ——伊吹有喜《等风的人》 3.也要楚天阔，也要大江流，也要望不见前后，才能对月下酒。 ——林清玄 4.如果对世界不抱太大的希望,反而安静仔细地观察它,总是会有些收获的。这是受世间宠爱的成功人士所不知道的,观察是至上的艺术,是一种精致、有益且有趣的艺术。 ——赫…",
+        "answer_type": "normal",
+        "voteup_count": 1,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1996012983126627717",
+        "thanks_count": 0,
+        "content": "<p data-pid=\"uWGeV6Y6\">1.良知这种东西，就和天赋一样，有就有，没有就没有，不存在唤醒。</p><p data-pid=\"ACCvO8QF\">一一陈佩斯 ​​​</p><p data-pid=\"L_7G0xzW\">2.你没有走错路，你是在等待风的到来，</p><p data-pid=\"SEzo-UbE\">你只是在港口养精蓄锐，直到好风吹起来。</p><p data-pid=\"kYjgC0S-\">——伊吹有喜《等风的人》 </p><p data-pid=\"a1Ty1y9q\">3.也要楚天阔，也要大江流，也要望不见前后，才能对月下酒。</p><p data-pid=\"cbKzKN7G\">——林清玄 ​​​</p><p data-pid=\"Eg6yzvyX\">4.如果对世界不抱太大的希望,反而安静仔细地观察它,总是会有些收获的。这是受世间宠爱的成功人士所不知道的,观察是至上的艺术,是一种精致、有益且有趣的艺术。</p><p data-pid=\"Ia-Y3XCU\">——赫尔曼·黑塞</p><p data-pid=\"0vA5GazV\">5.“您不愿意讨人喜欢？”</p><p data-pid=\"uuBk5Jt-\">她眼里闪过一道光：“我愿意用我本来的样子讨人喜欢。”</p><p data-pid=\"i-ZI73AY\">——西蒙娜·波伏娃</p><p data-pid=\"5bu9Au-w\">6.你不愿意种花，你说，我不愿看见它一点点凋落。是的，为了避免结束，你避免了一切开始。</p><p data-pid=\"6twDkhjD\">——顾城</p><p data-pid=\"2c6YMFvn\">7. 爱却艰难，心魂的敞开甚至危险。他人也许正是你的地狱，那儿有心灵的伤疤结成的铠甲，有防御的目光铸成的刀剑，有语言排布的迷宫，有笑靥掩蔽的陷阱。</p><p data-pid=\"XO5ngr7v\">——史铁生《病隙碎笔》</p><p data-pid=\"LZq6O1-f\">8.我需要孤独，也就是说，需要康复，回到我自己，呼吸自由、轻快、活泼的空气。</p><p data-pid=\"8RZ2Opq0\">——尼采</p><p data-pid=\"OWFETnuI\">9.是否能得到，并非衡量幸福与否的标准。重要的是你有想要的东西，有喜欢的人，这本身就是生活的意义。</p><p data-pid=\"nJ2MNwRo\">——岛田润一郎《明天开始做出版》</p><p data-pid=\"7l6JKEPP\">10.凡事留余地，雅量能容人。</p><p data-pid=\"SsDsMME_\">——曾国藩</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-66df1dd3230707f8ddd1ac7a191cb866_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1632\" data-size=\"normal\" data-original-token=\"v2-95530515e27a2fc6bd67b8bba80b20ed\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pica.zhimg.com/v2-66df1dd3230707f8ddd1ac7a191cb866_r.jpg\"/></figure><p data-pid=\"PZ5u0A73\">11.我们必须接受失望，因为它是有限的，但千万不可失去希望，因为它是无穷的。</p><p data-pid=\"GlBPL3VJ\">——马丁·路德·金 ​​​</p><p data-pid=\"ROseH0Si\">12.当人能够感觉到“与这个人在一起可以无拘无束”的时候，才能够体会到爱。既没有自卑感也不必炫耀优越性，能够保持一种平静而自然的状态。真正的爱应该是这样的。</p><p data-pid=\"K5FF1u6u\">——阿德勒</p><p data-pid=\"VFRh4Pp6\">13.我知道了，爱，原就是自卑弃暗投明的时刻。自卑，或者在自卑的洞穴里步步深陷，或者转身，在爱的路途上迎候解放。</p><p data-pid=\"Ko-d3PID\">——史铁生《病隙碎笔》</p><p data-pid=\"G-zCJSH3\">14.我经常有那种感觉，如果这个事情来了，你却没有勇敢地去解决掉，它一定会再来。生活真是这样，它会一次次地让你去做这个功课直到你学会为止。</p><p data-pid=\"lidge7KF\"> ——廖一梅《像我这样笨拙地生活》</p><p data-pid=\"Md2_G-lr\">15.也许我不会变得“著名”或“伟大”，可我要继续冒险，继续改变，开阔眼界，拒绝被人践踏，拒绝墨守成规。重要的是释放自我，不受限地找到自己的空间。</p><p data-pid=\"NWb9Xsxs\">——伍尔夫 《写下来痛苦就会过去》</p><p data-pid=\"B4wxzyZw\">16.我感到我的喉管里埋着一千匹马的嘶鸣，四肢涌动着一万只马蹄的奔腾声。而我，只是低下头，轻轻叹息了一声。</p><p data-pid=\"3ZIpAhiR\">——刘亮程《逃跑的马》</p><p data-pid=\"rARusnKL\">17.“您真爱生活，”我说。</p><p data-pid=\"fghyrsXP\">“是的，我爱生活。”</p><p data-pid=\"kNbVA1Bb\">“您从来不曾有过痛苦？”</p><p data-pid=\"FIT3Sb6D\">“有过几次。但是痛苦本身也是生活。”</p><p data-pid=\"F7svrri3\">——波伏娃 ​​​</p><p data-pid=\"7kSeqgc4\">18.人生最好的境不是诗，也不在陌生的远方，在于平静下来去发现：眼前熟悉的一切皆心之所往。</p><p data-pid=\"nuX1D13j\">——《半山文集》</p><p data-pid=\"Mg0IcdG_\">19.活着就是一场修行，不论世事多么复杂、生活多么难忍，都要学会为自己开个“药方”。</p><p data-pid=\"Iyqboaxs\">—— 一禅小和尚 ​​​</p><p data-pid=\"YHqum-iz\">20.把自己当作一件艺术品，</p><p data-pid=\"uQUo2XGz\">好好打磨，用心去爱。</p><p data-pid=\"EN3bww-K\">你好看了，世界就好看。</p><p data-pid=\"lR3T3uMw\">——杨熹文 ​​​</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-44113bee25348d3ae2176a34c15d4daf_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1521\" data-size=\"normal\" data-original-token=\"v2-9ebac8e956c83a0383de7bb678efd786\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic2.zhimg.com/v2-44113bee25348d3ae2176a34c15d4daf_r.jpg\"/></figure><p data-pid=\"EEonmOEt\">21.自由的保证是什么？是不再对自己感到羞耻。</p><p data-pid=\"22mi97LF\">—— 尼采《快乐的科学》</p><p data-pid=\"s4vr1ipB\">22.人不该太清醒，过去的事情就让它过去，不必反复咀嚼。一生不长，重要的事儿也没那么多。天亮了，又赚了。</p><p data-pid=\"LRVPa6YD\">—— 冯唐《春风十里不如你》 ​​​</p><p data-pid=\"A37e45jO\">23.人生于世，就得有点兴致，闲暇之时，或乐游山水、或尽享食味、或寄情岁时，它让我们的生活变得充盈。</p><p data-pid=\"JReEHKkA\">—— 汪曾祺 ​​​</p><p data-pid=\"d9YxONO4\">24.我觉得储备一些才干是对付困境的最好手段。</p><p data-pid=\"7gbs_KS2\">—— 卢梭《一个孤独漫步者的遐想》 ​​​</p><p data-pid=\"D9-NhkX1\">25.有人认为爱是性、是婚姻、是清晨六点的吻、是一堆孩子，也许真是这样的，莱斯特小姐。但你知道我怎么想吗？我觉得爱是想触碰又收回手。</p><p data-pid=\"ZcAbM8uG\">——J.D.塞林格《破碎故事之心》</p><p data-pid=\"D7I9ubf_\">26.没有什么好遗憾的，我在能走的时候，去过远方；不能走的时候，安于当下。</p><p data-pid=\"Pu9vt9ov\"> ——沈熹微 ​​​</p><p data-pid=\"ORotdARm\">27.解决棘手问题的最上乘方法是：静观其变，顺水推舟。</p><p data-pid=\"zEmsWrSD\">——莫言 《蛙》</p><p data-pid=\"4T62eDQp\">28. 怕死的心理各式各样。做恶者怕地狱当真。行善者怕天堂有诈。</p><p data-pid=\"3M_czxZh\">——史铁生《病隙碎笔》</p><p data-pid=\"3HBM0Eca\">29.分寸感是成熟的爱的标志，它懂得遵守人与人之间必要的距离，这个距离意味着对于对方作为独立人格的尊重，包括尊重对方独处的权利。</p><p data-pid=\"FQN6AiFv\">——周国平 ​​​​</p><p data-pid=\"ldXljKVR\">30. 一定树立一个外部敌人，如果外部的敌人一旦消失，民众很快便会认识到谁才是真正的敌人。</p><p data-pid=\"lBZCEMlD\">——卢梭 ​​​</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-54b869101b4480cc263323450a452038_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1551\" data-size=\"normal\" data-original-token=\"v2-1bad90a984f357febd3e495d771a7743\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic1.zhimg.com/v2-54b869101b4480cc263323450a452038_r.jpg\"/></figure><p data-pid=\"eoq8B_LY\">31.​你今天受的苦，吃的亏，担的责，扛的罪，忍的痛，到最后都会变成光，照亮你的路。</p><p data-pid=\"NbH4FXxa\">——泰戈尔 ​​​</p><p data-pid=\"lLlqP5OE\">32.山林不向四季起誓，荣枯随缘；</p><p data-pid=\"TgwelTN9\">海洋无需对岸承诺，遇合尽欢。</p><p data-pid=\"ZVXAt1__\">—— 简媜 ​​​</p><p data-pid=\"21tNbsVD\">33.主动做事的人，人控制事；</p><p data-pid=\"h_w7vsvO\">被动做事的人，事控制人。</p><p data-pid=\"OXxX9Qgk\"> ——《半山文集》 ​​​</p><p data-pid=\"dFYHZU_r\">34.昨天我梦见你了。</p><p data-pid=\"T9e5uaxy\">在梦里看见你，像一种醒。</p><p data-pid=\"ze6Mwfvi\">——萧诒徽《一千七百种靠近》 ​​​</p><p data-pid=\"HOAI0gHU\">35.受委屈后不要急着抱怨，越抱怨对自己越不利，不要抱怨任何人，从心里没任何怨念，生活真的会越来越好。</p><p data-pid=\"UxHsjGdy\">——曾仕强 ​​​</p><p data-pid=\"_YyTfbVD\">36.找到灵魂投契的友情实在是人生之大幸，它甚至可以为人带来超过亲情和爱情的踏实感和欣慰感。</p><p data-pid=\"7gWvQ0l6\">——李银河</p><p data-pid=\"WDu7tRqZ\">37.真正厉害的人与人生的赢家，掌握了九字箴言：不着急、不害怕、不要脸。</p><p data-pid=\"A4t7Wu03\">——冯唐 ​​​</p><p data-pid=\"UcgswVZy\">38.往事已成空，还如一梦中。</p><p data-pid=\"sSBcrcUG\">——李煜《子夜歌》 ​​​</p><p data-pid=\"TJ8qHjNz\">39.要不惜一切代价的追求快乐，来抵抗这个用愚蠢和暴力将我们包围起来的世界。</p><p data-pid=\"QjXD-9Ep\">——加缪《快乐的死》</p><p data-pid=\"czFBJqI8\">40.真正聪明的人，从来不说难听的话。 因为人性不需要听真话，只需要听好听的话， 一定要有 “万物不为我所有，万物皆为我所用” 的气魄。</p><p data-pid=\"9YTtQ8fj\">——稻盛和夫 ​​​</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a4a31e1e1dfa08b5acb1f4a88732efd0_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1556\" data-size=\"normal\" data-original-token=\"v2-6ba6004e70650f31d128cdecfd1c1c30\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic3.zhimg.com/v2-a4a31e1e1dfa08b5acb1f4a88732efd0_r.jpg\"/></figure><p data-pid=\"X38NEo8M\">41.三千年读史不过功名利禄，</p><p data-pid=\"9_nESUAL\">九万里悟道终归诗酒田园。</p><p data-pid=\"OlXRCGhw\">—— 南怀瑾 ​​​</p><p data-pid=\"gqAmRMlV\">42.你要明白，你写的东西里没有一个特点是你身上没有的。如果你很恶毒或者俗气，你是掩饰不了的。如果你喜欢吃饭的时候有个仆役在你椅子后面侍候，这也会反映在你的作品里......你的心灵只要有一点毛病，都瞒不过你写的东西，不管你用什么花招、什么手段、什么办法。</p><p data-pid=\"YfgC75e0\">——惠特曼</p><p data-pid=\"9Vbff4cN\">43.不要告诉任何人你的过去，不要因为一时的投缘就随意亮出底牌。所有欺负你的人都是了解你的人，你越信任的人伤你越深，一招就戳中你的软肋。</p><p data-pid=\"Oinj1u_4\">——毛姆 ​​​</p><p data-pid=\"6Q-9UnUN\">44.总要有些随风，有些入梦，有些长留在心中。于是有时疯狂，有时迷惘，有时唱。</p><p data-pid=\"xbNjju2N\">——高晓松</p><p data-pid=\"sPdP4TbW\">45.人际沟通四大黄金法则：先讲对方想听的，再讲对方听得进的，再讲你该讲的，最后讲你想讲的。</p><p data-pid=\"Y2oB8Peg\">—— 刘震云 ​​​</p><p data-pid=\"x24lCiOr\">46.“制定规矩的，最不守规矩。规矩，只不过是弱者的脚链，强者的工具而已。”</p><p data-pid=\"Sid82dnI\">——叔本华 ​​​</p><p data-pid=\"Y70bR3Bv\">47.见的世界多，见的人多，你就会不露怯，就会达观一点，就能和更多的人产生情感上的共振，会更酷一点。</p><p data-pid=\"gzF-ZISG\">——《你好，陌生人》 ​​​</p><p data-pid=\"EKoMRkRC\">48.邪恶的人以邪恶的方式去爱，残暴的人以残暴的方式去爱，软弱的人以软弱的方式去爱，愚蠢的人以愚蠢的方式去爱。</p><p data-pid=\"AtdS2xDe\">——托妮·莫里森 《最蓝的眼睛》</p><p data-pid=\"1cMcMDpw\">49.在我荒瘠的土地上，你是最后的玫瑰。</p><p data-pid=\"9ziwEBSy\">——聂鲁达《二十首情诗与绝望的歌》</p><p data-pid=\"x3-4c_96\">50.你生命中出现的问题并不是要阻止你，而是要唤醒你。</p><p data-pid=\"MU7J_KmE\">——卡尔·荣格 ​​​</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4cb494f3b5e73b4c7cdf7f1c2e7d8372_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1514\" data-size=\"normal\" data-original-token=\"v2-b0b0f68dc93a12e7339f51d3dcb8d077\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic1.zhimg.com/v2-4cb494f3b5e73b4c7cdf7f1c2e7d8372_r.jpg\"/></figure><p data-pid=\"nVgngbBz\">51.天时地利人和只是显性的东西，还有一个更重要的隐性的东西，叫做神助。</p><p data-pid=\"-M-fnx0L\">——曾仕强 ​​​</p><p data-pid=\"9z7FR7_s\">52.爱的时候不辜负人，玩的时候不辜负风景，睡觉时不辜负床，一个人时不辜负自己。</p><p data-pid=\"HtF97N73\">——卢思浩</p><p data-pid=\"lZ9tUQL_\">53.一个看不上你的人，还继续和你交往，那只能说明你还有利用价值，榨干你，就是他离开的时候。</p><p data-pid=\"KcbaZ4OJ\">——罗素 ​​​</p><p data-pid=\"VHoxXfyr\">54.大地只做两件事：生长和埋葬</p><p data-pid=\"SwF31kUt\">每只蚂蚁都是星辰</p><p data-pid=\"Sc0n-YCu\">我们在大地上行走，发着微光</p><p data-pid=\"-4NbBAoo\">为什么啊？这世界，你越爱越绝望</p><p data-pid=\"5D-RxVfQ\">——鲁克</p><p data-pid=\"dPr06EXt\">55.埋下一些美好的种子，只为心安；许下一些美好的愿望，等待继续。</p><p data-pid=\"KNuUivOP\">——林徽因</p><p data-pid=\"19Gbk41l\">56.“花两年时间来想通一件事其实并不算浪费人生。”</p><p data-pid=\"Gt6COZFA\">——加缪 ​​​</p><p data-pid=\"9lplLOsq\">57.有些人的心防很高，因此朋友不多、爱情也少。不过他们仍是坚持自己的原则：高墙巨垒，翻不过来的都是路人——只要能用心翻过来的，都是一辈子。</p><p data-pid=\"xVHgQkvZ\">—— 苏岑 ​</p><p data-pid=\"o86_oh7I\">58.人不可以选择出生的家庭，但是可以选择自己组建的家庭，可以选择自己的生活方式。</p><p data-pid=\"VhYzIi6W\">——李银河</p><p data-pid=\"yOiNbaCg\">59.我在他面前是影子下的影子。</p><p data-pid=\"FHlJXLGs\">我是瞬间，瞬间是尘埃，不是钻石，</p><p data-pid=\"nG_3txDf\">唯有过去才是真实。</p><p data-pid=\"c3AqfRyD\">—— 博尔赫斯《另一个，同一个》 ​ ​​​</p><p data-pid=\"iEVZtQJa\">60.任何关系中，我们都要敢于用愤怒守住自己的界限，人没有愤怒，如同一个国家没有武装。</p><p data-pid=\"o8fnjvmR\">——西格蒙德·弗洛伊德 ​ ​​​</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-51add1325abb2710819fffbd3fc5577b_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1771\" data-size=\"normal\" data-original-token=\"v2-63103611a65ce953755c27bc8c1cb843\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://picx.zhimg.com/v2-51add1325abb2710819fffbd3fc5577b_r.jpg\"/></figure><p data-pid=\"lCXjc9V3\">61.佛在灵山莫远求，灵山只在汝心头。</p><p data-pid=\"7YVUQSaR\">一一吴承恩《西游记》 ​​​</p><p data-pid=\"ItQ2yCya\">62.我们都曾经渴望爱情是一场盛宴，最后想要的是一家子的寻常晚饭。</p><p data-pid=\"SoLXPZN7\">—— 张小娴 ​​​</p><p data-pid=\"EDAuHXvw\">63. 不断遇见新的问题，足以证明你一直在成长；不断地遇见重复的问题，你肯定早已停止了成长，甚至是在倒退。</p><p data-pid=\"7Y6MES5F\">——《半山文集》 </p><p data-pid=\"3wfi_lRX\">64.我羡慕你，羡慕你能得到一颗美丽心灵全部的爱，且这爱是还会成长，还会自我调整，历经劫难还会自己再回来，还是活生生，还会再孕育生产新东西的爱。</p><p data-pid=\"0cIr9NLH\">——邱妙津《蒙马特遗书》</p><p data-pid=\"H80dQTtI\">65.不要先说话后做事，要先做事后说话。想做的事做成了，还可以不说话。</p><p data-pid=\"7kWLqBbo\">——陈忠实《好好活着》</p><p data-pid=\"hzikUiu-\">66.你所在意的总是那个你最无法掌握、最摸不透的人，无论男人女人。你觉得自己无法完全拥有，患得患失，这样的感情既让人焦虑，又让你乐此不疲，止不住的想要得到全部。</p><p data-pid=\"FQiZQ3Hq\">——米兰·昆德拉《不能承受的生命之轻》</p><p data-pid=\"Ujifdtdq\">67.人的活动如果没有理想的鼓舞，就会变得空虚而渺小。</p><p data-pid=\"DYrRM2p9\">——车尔尼雪夫斯基</p><p data-pid=\"GGllOLfD\">68.毫无经验的初恋是迷人的，但经得起考验的爱情是无价的。</p><p data-pid=\"q_lKZWyw\">——马尔林斯基</p><p data-pid=\"QlC0fy_i\">69. 如果我确实爱一个人，那么我也爱其他的人，我就会爱世界，爱生活。如果我能对一个人说：“我爱你”，我也应该可以说：“我在你身上爱所有的人，爱世界，也爱我自己。”</p><p data-pid=\"KKXuWQat\">——埃里希·弗罗姆《爱的艺术》</p><p data-pid=\"ZtA3P8qK\">70.人类之所以进步，是因为下一代不听上一代的话。</p><p data-pid=\"CtzzYmEX\">—— 毛姆 ​​​</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-31010215250c0124c60dba491a1c007b_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1215\" data-size=\"normal\" data-original-token=\"v2-52d7db388729b21ef5f52701d2a0184f\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic4.zhimg.com/v2-31010215250c0124c60dba491a1c007b_r.jpg\"/></figure><p data-pid=\"WvDLjrU4\">71.如果你要提前下车，请别叫醒装睡的我，那样我就可以沉睡到终点，假装不知道你已经离开了。</p><p data-pid=\"jeDDFU2v\">——张嘉佳《从你的全世界路过》</p><p data-pid=\"fLiiwJ9X\">72.进退相隔不过是分寸的把握，人生苦短不过迂回之间。</p><p data-pid=\"LCovmE0Q\">——李筱懿</p><p data-pid=\"c_h3UlLX\">73.理想的人物不仅要在物质需要的满足上，还要在精神旨趣的满足上得到表现。</p><p data-pid=\"CxOwn3Kd\"> —— 黑格尔</p><p data-pid=\"KWGdBFOu\">74.必须牢牢抓住才不会失去的人或物，不如放手算了。放手心更宽。 ​</p><p data-pid=\"uO2X6z7t\">——张小娴 ​​​</p><p data-pid=\"8Hlg27Em\">75.生活不是等待风暴过去，而是学会在雨中跳舞。</p><p data-pid=\"ckNrQ_J0\">——泰戈尔 ​​​</p><p data-pid=\"IoETZOva\">76.失去的东西总会回来，或许只是换一种方式罢了。因此，不必忧伤。</p><p data-pid=\"APLr92k1\">——村上春树</p><p data-pid=\"tAzt2b5s\">77.“只有正视伤口，才能下定决心治愈那个伤口。”</p><p data-pid=\"aO8YTJPj\">——《好日子》 ​​​</p><p data-pid=\"9FVp1ELF\">78.凡是动物长的有人的一部分形状，半兽半人的，人都称其为神鬼。人是见不得有像人的动物，所以能征服的就征服，征服不了的就敬奉，软硬兼施。可以说神是被敬奉的鬼，鬼是被驱赶的神。</p><p data-pid=\"ANZkA98H\">——贾平凹 《老生》</p><p data-pid=\"vigOilYT\">79.万物生长此时，皆清洁而明净。故谓之清明。</p><p data-pid=\"H1sgESlZ\">——《岁时百问》 ​​​</p><p data-pid=\"avwFtZeF\">80.没什么可后悔的，做了就不要后悔。</p><p data-pid=\"qQfmUmsX\">——菲茨杰拉德《赐福礼》</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e1cabc744a68b247b5f137c2cdd533d8_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1026\" data-size=\"normal\" data-original-token=\"v2-d5ee300bb5de0735e67edd34696908a4\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic3.zhimg.com/v2-e1cabc744a68b247b5f137c2cdd533d8_r.jpg\"/></figure><p data-pid=\"OZdyD1hW\">81.这个世界，就在目前这个状态下，是无法让人容忍的。</p><p data-pid=\"iyRhjbC4\">因此，我需要月亮，或者幸福，或者永生，需要的东西也许是荒唐的，因为这个世界上没有的。</p><p data-pid=\"3SYytpVt\">——加缪《卡利古拉》</p><p data-pid=\"iPiH901M\">82.我们应兴高采烈地穿过一个又一个宇宙，</p><p data-pid=\"PIB_8ZR8\">不要像留恋家园一样依赖任何一个人。</p><p data-pid=\"IIK0f4ac\">——黑塞《阶段》 </p><p data-pid=\"XsmSp-Dy\">83.睡眠是小型的死亡，而活着是一场漫长的失眠。</p><p data-pid=\"vtZAwowP\">——《失眠》</p><p data-pid=\"TfIbAJv6\">84.没有人会去帮助一个毫无价值的人，你必须要好好的经营自己，就算你跌入了谷底，也要有与人交换的筹码，这才是强者定律。</p><p data-pid=\"Gv7lEXE2\">——稻盛和夫 ​​​</p><p data-pid=\"eUAgRSv6\">85.“不要被廉价的言语所感动，毕竟说话不需要成本。”</p><p data-pid=\"ud9RFTqc\">——刘震云 ​​​</p><p data-pid=\"Z6QAAyDR\">86.没有边界的心软只会让对方得寸进尺，</p><p data-pid=\"l-7-Z5M_\">毫无原则的仁慈只会让对方为所欲为。</p><p data-pid=\"xn5UYwV3\">——电影《教父》 ​​​</p><p data-pid=\"BLDmYBlv\">87. 什么都不想做，就在床上懒着。但心里的某个地方，还在想着毫无进展的工作，急得不得了。这样的话起来干活不就得了，却又不想起来。纵容我的人是我，紧逼我的人还是我。</p><p data-pid=\"mft3fGU7\">———山本文绪《然后，我就一个人了》 ​​​</p><p data-pid=\"kLD11w62\">88.有房，有车，有钱，有权，</p><p data-pid=\"Lihem_9W\">但幸福其实是“无”，</p><p data-pid=\"pfeioaHQ\">无忧，无虑，无病，无灾，</p><p data-pid=\"PkSQlwq2\">有”多半是给别人看的，</p><p data-pid=\"IdhYZoWX\">“无”才是你自己的。</p><p data-pid=\"OTupIB7d\">——稻盛和夫​​​</p><p data-pid=\"wbRoOxTV\">89.得罪几个人，做错几件事，其实没那么可怕，一辈子活得委曲求全，战战兢兢才最可怕。</p><p data-pid=\"2WN42ibc\">———罗素 ​ ​​​</p><p data-pid=\"RBtim6QV\">90.人教人教不会，事教人一次就够，因为人是叫不醒的，人只有痛醒。</p><p data-pid=\"ufrvB3cg\">——杨绛 ​ ​​​</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0df3e58b19bcd7ddb6d2e4d9ce462afd_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1878\" data-size=\"normal\" data-original-token=\"v2-a327cfe40fc490cc96fd63df59a2e955\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic2.zhimg.com/v2-0df3e58b19bcd7ddb6d2e4d9ce462afd_r.jpg\"/></figure><p data-pid=\"2ZOLwAHK\">91.我发现当一个人表现得无私时，别人回报他的往往不是友善，而是加倍的贪婪。</p><p data-pid=\"WrlGH-fR\">——胡安焉 ​​​</p><p data-pid=\"b66KsUFY\">92.坚持你的习惯，让它们成为日常。如果这件事不重要，那就永远不要做。如果这件事很重要，那就每天都去做。</p><p data-pid=\"-_Wyuwxh\">——《如何度过这一生》 ​​​</p><p data-pid=\"174AG3Wk\">93.成功的秘诀之一绝对是闭上尊嘴，事成之前不发一言，埋头苦干，事成之后保持低调，不夸夸而谈，几乎是所有成功人物老练的处世态度。</p><p data-pid=\"y3rtQQcx\">——亦舒 ​​​</p><p data-pid=\"R2pkEzP_\">94.真正的勇气，不是离开，是承担。以及不再寻求理解，不再试图求证或解释。</p><p data-pid=\"F_4K0GEj\">——庆山《一次旅行》 </p><p data-pid=\"dj5c6ltF\">95.天大的理，抵不过自己喜欢。</p><p data-pid=\"o68Ju04g\">——冯唐 ​​​</p><p data-pid=\"whozpxUq\">96.你我所有的交往，在我看来，不光是命中注定，而且是在劫难逃。</p><p data-pid=\"rlFcxmde\">——王尔德《自深深处》 ​​​</p><p data-pid=\"1_CHqNRa\">97.生活、不幸、孤独、遗弃、穷困，无一不是战场，无一不产生英雄。无名英雄，有时比著名的英雄更伟大。</p><p data-pid=\"TwAeB_de\">——《悲惨世界》维克托·雨果</p><p data-pid=\"9mSI31NO\">98.嫉妒是人性，不因为嫉妒而失态乃至报复则是修养。我们无法压制人性但可以做到有教养。</p><p data-pid=\"vDePC-qv\">—— 周国平 ​​​</p><p data-pid=\"7wc0A4R1\">99.生命的喜悦，才是人最好的免疫力。</p><p data-pid=\"MWnVpKHm\">——《半山文集》 ​​​</p><p data-pid=\"NXmYr9nS\">100.你自己争气，你自己走正道，你自己守规矩，你自己遵照自然的道理，老天会从旁帮助你，它不是对你好，而是它是顺自然律在走。</p><p data-pid=\"elxKVskm\">——曾仕强 ​​​</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-336b40b12b08cce1b0d95920032d88dd_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"1816\" data-size=\"normal\" data-original-token=\"v2-1ee1ffbe3327c3aac9838aec19baa6e6\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic2.zhimg.com/v2-336b40b12b08cce1b0d95920032d88dd_r.jpg\"/></figure><p></p>",
+        "visited_count": 11
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996012983126627717}",
+      "attached_info": "CoAKCKuG3//j0MzjpAEQBBoJNzY1ODYwODk4INPrrssGKAEwAEBMSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMDgzMjU3NDBiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk2MDEyOTgzMTI2NjI3NzE3igEJNjU3MjE0OTE0qgEJcmVjb21tZW5kwgEgODVkNjg1NGQ2OTMxYzkyNGMzMjdkNWZhYTljN2Q4MWXyAQoIDBIGTm9ybWFs8gEoCAoSJDhlNmQxOGYwLTYzNjctNDg0YS1hYzdjLWZiNzFhZTk3YWExYfIBBggLEgIxM4ICAIgCq6H96bwzkgIgODVkNjg1NGQ2OTMxYzkyNGMzMjdkNWZhYTljN2Q4MWWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIaQ29udGVudFdhcm1VcElzb2xhdGlvblJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCA/oCC05PUk1BTF9GTE9XigMgNTQ5YmJkY2Y4ZDhiNDA2Njk1Zjk2NDE5MzlkYWRkMjKaAw0KAnYyEAAaBW90aGVyqAML2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A/UDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQ7AkY4AwiI3YyLTk1NTMwNTE1ZTI3YTJmYzZiZDY3YjhiYmE4MGIyMGVkOi0IBRDsCRjxCyIjdjItOWViYWM4ZTk1NmM4M2EwMzgzZGU3YmI2NzhlZmQ3ODY6LQgFEOwJGI8MIiN2Mi0xYmFkOTBhOTg0ZjM1N2ZlYmQzZTQ5NWQ3NzFhNzc0MzotCAIQ7AkYlAwiI3YyLTZiYTYwMDRlNzA2NTBmMzFkMTI4Y2RlY2ZkMWMxYzMwOi0IAhDsCRjqCyIjdjItYjBiMGY2OGRjOTNhMTJlNzMzOWY1MWQzZGNiOGQwNzc6LQgFEOwJGOsNIiN2Mi02MzEwMzYxMWE2NWNlOTUzNzU1YzI3YmM4YzFjYjg0MzotCAQQ7AkYvwkiI3YyLTUyZDdkYjM4ODcyOWIyMWVmNWY1MjcwMWQyYTAxODRmOi0IBRDsCRiCCCIjdjItZDVlZTMwMGJiNWRlMDczNWU2N2VkZDM0Njk2OTA4YTQ6LQgFEOwJGNYOIiN2Mi1hMzI3Y2ZlNDBmYzQ5MGNjOTZmZDYzZGY1OWEyZTk1NTotCAUQ7AkYmA4iI3YyLTFlZTFmZmJlMzMyN2MzYWFjOTgzOGFlYzE5YmFhNmU2gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgPoV5P4EFAAAAAAAAAACJBWzKaQdhILQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBkyoBgGSAi4KCTc2NTg2MDg5OBITMTk5NjAxMjk4MzEyNjYyNzcxNxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "77_1768675037.525",
+      "type": "feed",
+      "offset": 77,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675037,
+      "updated_time": 1768675037,
+      "target": {
+        "navigator_vote": false,
+        "voteup_count": 20,
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-b9092eb5168cd649c0b52cd21200f23c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-757454f09aad33b3f41b83855ae5f7e0_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-bf8eec651c92188c1415699274a65206_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-aaf6f0d906c0b3457a146eaeed48d5dd_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6dbb982e79448ebcd5146f41606048e3_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "type": "answer",
+        "created_time": 1768498012,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-b9092eb5168cd649c0b52cd21200f23c_720w.jpg?source=b6762063",
+        "comment_count": 2,
+        "visited_count": 1658,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1995305962886693916",
+        "author": {
+          "id": "87358068b24d71b143e1baba9d6ab86a",
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "互联网行业 员工"
+            }
+          ],
+          "followers_count": 539,
+          "url": "https://api.zhihu.com/people/87358068b24d71b143e1baba9d6ab86a",
+          "user_type": "people",
+          "url_token": "dao-zhe-zhi-shang",
+          "name": "Sights",
+          "headline": "Be watter,My friend.",
+          "avatar_url": "https://pica.zhimg.com/50/v2-7e9724a10c567626995211173ea4c5be_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false
+        },
+        "updated_time": 1768498384,
+        "preview_type": "default",
+        "content": "<p data-pid=\"RD9olKo7\">在阅读了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/f301a7fe667826df0d8848504ef7d296\" data-hash=\"f301a7fe667826df0d8848504ef7d296\" data-hovercard=\"p$b$f301a7fe667826df0d8848504ef7d296\">@俞凡</a> 大佬的一篇《<a href=\"https://zhuanlan.zhihu.com/p/1953054646651302857\" class=\"internal\" target=\"_blank\">Vibe Coding 正在催生脑残程序员</a>》后，有了一点我自己的思考。下面是原文链接:</p><p data-pid=\"d-FNP5-z\"><a href=\"https://zhuanlan.zhihu.com/p/1953054646651302857\" class=\"internal\" target=\"_blank\">Vibe Coding 正在催生脑残程序员</a><br/><br/>我自己目前是一名云计算专业刚毕业的大学生，自己也有在研究vibe coding，俞凡大佬的这句话很打动我，“<b>但 Vibe Coding 之后，我变弱了，不再有这样的能力，这促使我思考，如何和 AI 一起 Coding 。</b>”<br/><br/>如何客观的去使用cursor/Claude Code，而不丧失我们自有的思考能力，我觉得这是一个很重要的话题。阅读这篇文章后，我得到了启发，把这篇文章发给AI，想做一个简单的GEM.<br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e6a73f7cabcc640f2ce2e26c7a60efa3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1151\" data-rawheight=\"939\" data-original-token=\"v2-b9092eb5168cd649c0b52cd21200f23c\" class=\"origin_image zh-lightbox-thumb\" width=\"1151\" data-original=\"https://pic4.zhimg.com/v2-e6a73f7cabcc640f2ce2e26c7a60efa3_r.jpg\"/></figure><p data-pid=\"y-uyAlyJ\">后面我加了一段提示词进去：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-999cade2fd97bf602588d030c1288093_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"981\" data-rawheight=\"578\" data-original-token=\"v2-f8c055b936befffca1c16003232f3d82\" class=\"origin_image zh-lightbox-thumb\" width=\"981\" data-original=\"https://pic2.zhimg.com/v2-999cade2fd97bf602588d030c1288093_r.jpg\"/></figure><p data-pid=\"dTLp5vRD\">给出我的需求后，AI给到了客观的答案：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7478730625f76af55ffd01008399d8fe_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1213\" data-rawheight=\"957\" data-original-token=\"v2-757454f09aad33b3f41b83855ae5f7e0\" class=\"origin_image zh-lightbox-thumb\" width=\"1213\" data-original=\"https://pic3.zhimg.com/v2-7478730625f76af55ffd01008399d8fe_r.jpg\"/></figure><p data-pid=\"HjaLaofN\">同时我在它的这个答案的基础上，辩证的去思考，和它博弈。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5c52ae6f8b2b0965b31199548f35f7c7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1194\" data-rawheight=\"571\" data-original-token=\"v2-f39a28a70277b242614fe4455cc6294d\" class=\"origin_image zh-lightbox-thumb\" width=\"1194\" data-original=\"https://pic2.zhimg.com/v2-5c52ae6f8b2b0965b31199548f35f7c7_r.jpg\"/></figure><p data-pid=\"tZGG-8L1\">然后我们开始了第一轮对话：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-364d111ef68b1b3071e0018b3210c760_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1287\" data-rawheight=\"902\" data-original-token=\"v2-bf8eec651c92188c1415699274a65206\" class=\"origin_image zh-lightbox-thumb\" width=\"1287\" data-original=\"https://pica.zhimg.com/v2-364d111ef68b1b3071e0018b3210c760_r.jpg\"/></figure><p data-pid=\"cdTW6Y-N\">因为长时间脱离了代码环境，学校学的那一点都忘记光了，在学校也只学了一点基础的Python/JAVA，C#还是高中时期所学，只学到了指针和数据结构，深感惭愧。<br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e76fb38a2332c78d0a8e7faa2ee5349b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1342\" data-rawheight=\"1000\" data-original-token=\"v2-aaf6f0d906c0b3457a146eaeed48d5dd\" class=\"origin_image zh-lightbox-thumb\" width=\"1342\" data-original=\"https://picx.zhimg.com/v2-e76fb38a2332c78d0a8e7faa2ee5349b_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-60a406d67aa01f9e95137a406bc70f79_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1170\" data-rawheight=\"895\" data-original-token=\"v2-6dbb982e79448ebcd5146f41606048e3\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://picx.zhimg.com/v2-60a406d67aa01f9e95137a406bc70f79_r.jpg\"/></figure><p data-pid=\"la493-F7\">但是这个结果还是让我满意，虽然我目前的coding能力的确很薄弱，但我觉得AI是让我们进阶的工具，知其然，知道怎么做，然后去思考，发生逻辑上的对撞，而不是一味的输出prompt，然后等待代码输出，这样的确很爽，省事，但让我缺乏了对代码的“掌控感”，AI的书写习惯是尽可能的规范、标准化，但是这不是我自己思考得出来的东西，它只是我的prompt应得的结果。这次训练让我对接下来的vibe coding有了很好的思路，更好的去解决自己想要解决的问题和想实现的代码.同时也要加强自己的编程能力，在AI时代，个人的思考、思维能力仍然是极其重要的一点，AI是我们的放大器，<b>1可以放大成10，但是0.1只能放大成1</b>。互联网上的很多资源让我们从0.1-1的步骤更便捷，AI的确满足了我们的探索欲和求知欲，但是AI省去了这个步骤，让我们变成的思维上的巨人，行动上的矮子，我觉得这对于我是不妥的，希望能在此方面多学习大家的经验，共同进步。<br/><br/>最后用大佬文章中的一句话结束：“<b>最重要的是——记住我们为什么写代码。是为了从无到有创造东西，解决看似不可能的问题，构建重要的东西。不要忘记_为什么_。</b>”</p>",
+        "favorite_count": 51,
+        "question": {
+          "url": "https://api.zhihu.com/questions/1968232106330128932",
+          "author": {
+            "user_type": "people",
+            "name": "顾北",
+            "headline": "专注于AI前沿动态探索    公众号：顾北AI",
+            "gender": 1,
+            "followers_count": 612,
+            "is_followed": false,
+            "id": "4134b8aa019d10819f4c6b93fca2da94",
+            "url": "https://api.zhihu.com/people/4134b8aa019d10819f4c6b93fca2da94",
+            "url_token": "2-14-69-82",
+            "avatar_url": "https://pica.zhimg.com/50/v2-e6263b52a7717b4282c7cafdbcd4816f_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false
+          },
+          "answer_count": 0,
+          "created": 1762043102,
+          "follower_count": 0,
+          "comment_count": 2,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "1968232106330128932",
+          "type": "question",
+          "is_following": false,
+          "excerpt": "",
+          "title": "对你而言， Vibe Coding 的乐趣是什么？",
+          "bound_topic_ids": [
+            350,
+            2588468,
+            3903772
+          ],
+          "question_type": "normal"
+        },
+        "preview_text": "",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "thanks_count": 0,
+        "excerpt": "在阅读了 @俞凡 大佬的一篇《Vibe Coding 正在催生脑残程序员 》后，有了一点我自己的思考。下面是原文链接: Vibe Coding 正在催生脑残程序员 我自己目前是一名云计算专业刚毕业的大学生，自己也有在研究vibe coding，俞凡大佬的这句话很打动我，“但 Vibe Coding 之后，我变弱了，不再有这样的能力，这促使我思考，如何和 AI 一起 Coding 。” 如何客观的去使用cursor/Claude Code，而不丧失我们自有的思考能力，我觉得这是一个…",
+        "excerpt_new": "在阅读了 @俞凡 大佬的一篇《Vibe Coding 正在催生脑残程序员 》后，有了一点我自己的思考。下面是原文链接: Vibe Coding 正在催生脑残程序员 我自己目前是一名云计算专业刚毕业的大学生，自己也有在研究vibe coding，俞凡大佬的这句话很打动我，“但 Vibe Coding 之后，我变弱了，不再有这样的能力，这促使我思考，如何和 AI 一起 Coding 。” 如何客观的去使用cursor/Claude Code，而不丧失我们自有的思考能力，我觉得这是一个…",
+        "id": "1995305962886693916",
+        "is_labeled": false,
+        "is_navigator": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995305962886693916}",
+      "attached_info": "CtkICKuG3//j0MzjpAEQBBoJNzY1NTk3NzM0INzGpMsGKBQwAkBNSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoAWgkxMTcxNzQ1NDJiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk1MzA1OTYyODg2NjkzOTE2igETMTk2ODIzMjEwNjMzMDEyODkzMqoBCXJlY29tbWVuZMIBIDg3MzU4MDY4YjI0ZDcxYjE0M2UxYmFiYTlkNmFiODZh8gEKCAwSBk5vcm1hbPIBKAgKEiQ0ZjRhZDVlMC1lYjY3LTRiYzktYjZlOC1hN2VkZmIwNzJiOGXyAQYICxICMTOCAgCIAquh/em8M5ICIDg3MzU4MDY4YjI0ZDcxYjE0M2UxYmFiYTlkNmFiODZhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMegCA/oCC05PUk1BTF9GTE9XigMgNTQ5YmJkY2Y4ZDhiNDA2Njk1Zjk2NDE5MzlkYWRkMjKaAw0KAnYyEAAaBW90aGVyqAP6DNgDAOoDI2ZlZWQtdGV4dC1hbGxzaXRlLW9ubGluZS11Y2YtcmVjYWxs+gPoAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEP8IGKsHIiN2Mi1iOTA5MmViNTE2OGNkNjQ5YzBiNTJjZDIxMjAwZjIzYzotCAIQ1QcYwgQiI3YyLWY4YzA1NWI5MzZiZWZmZmNhMWMxNjAwMzIzMmYzZDgyOi0IAhC9CRi9ByIjdjItNzU3NDU0ZjA5YWFkMzNiM2Y0MWI4Mzg1NWFlNWY3ZTA6LQgCEKoJGLsEIiN2Mi1mMzlhMjhhNzAyNzdiMjQyNjE0ZmU0NDU1Y2M2Mjk0ZDotCAIQhwoYhgciI3YyLWJmOGVlYzY1MWM5MjE4OGMxNDE1Njk5Mjc0YTY1MjA2Oi0IAhC+ChjoByIjdjItYWFmNmYwZDkwNmMwYjM0NTdhMTQ2ZWFlZWQ0OGQ1ZGQ6LQgCEJIJGP8GIiN2Mi02ZGJiOTgyZTc5NDQ4ZWJjZDUxNDZmNDE2MDYwNDhlM4AEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4AywhD+BBQAAAAAAAAAAiQVsymkHYSC0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUNkAYAoAZNqAYAkgIuCgk3NjU1OTc3MzQSEzE5OTUzMDU5NjI4ODY2OTM5MTYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=77&desktop=true&end_offset=77&page_number=14&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=77&desktop=true&end_offset=77&page_number=14&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

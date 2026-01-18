@@ -1,0 +1,598 @@
+{
+  "data": [
+    {
+      "id": "42_1767705411.755",
+      "type": "feed",
+      "offset": 42,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705411,
+      "updated_time": 1767705411,
+      "target": {
+        "preview_type": "default",
+        "preview_text": "",
+        "image_url": "https://pic1.zhimg.com/v2-cf44f3e23920a115fc2772b69894559c.jpg?source=7e7ef6e2&needBackground=1",
+        "excerpt_new": "简介 Parallel 并行编程是 .NET 中利用多核 CPU 进行并发执行的编程模型，主要通过 System.Threading.Tasks 命名空间中的 Parallel 类实现。它允许将任务分解成多个子任务，在多个线程上同时执行，以加速 CPU 密集型操作（如循环计算、数据处理）。核心组件：Parallel 类：提供静态方法如 Parallel.For、Parallel.ForEach、Parallel.Invoke，用于并行执行循环或方法。 PLINQ（Parallel LINQ）：LINQ 的并行版本，通过 AsParallel…",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1989604740963796187",
+        "voting": 0,
+        "content": "<h3>简介</h3><p data-pid=\"PYxgtPva\"><code>Parallel</code> 并行编程是 <code>.NET</code> 中利用多核 <code>CPU</code> 进行并发执行的编程模型，主要通过 <code>System.Threading.Tasks</code> 命名空间中的 <code>Parallel</code> 类实现。它允许将任务分解成多个子任务，在多个线程上同时执行，以加速 <code>CPU</code> 密集型操作（如循环计算、数据处理）。</p><h3>核心组件：</h3><ul><li data-pid=\"f6V0j7Dh\"><code>Parallel</code> 类：提供静态方法如 <code>Parallel.For、Parallel.ForEach、Parallel.Invoke</code>，用于并行执行循环或方法。<br/> </li><li data-pid=\"V2wMWzjr\"><code>PLINQ</code>（Parallel LINQ）：<code>LINQ</code> 的并行版本，通过 <code>AsParallel()</code> 扩展方法启用并行查询。<br/> </li><li data-pid=\"ztXi4V00\">底层依赖：基于 Task Parallel Library (TPL)，利用线程池（<code>ThreadPool</code>）管理线程，避免手动创建线程的开销。<br/> </li></ul><h3>关键概念：</h3><ul><li data-pid=\"twdv4bjB\">并行度（<code>Degree of Parallelism</code>）：控制并发线程数，默认基于 CPU 核心（e.g., 4 核 CPU 可能 4 线程）。<br/> </li><li data-pid=\"G89XrbZx\">数据并行：将数据分成块（<code>chunks</code>），每个线程处理一块（e.g., <code>Parallel.For</code>）。<br/> </li><li data-pid=\"2zVMrguX\">任务并行：同时执行独立方法（e.g., <code>Parallel.Invoke</code>）。<br/> </li></ul><h3>Parallel 的核心定位与价值</h3><p data-pid=\"qQ4aYU8-\"><code>Parallel</code> 类位于 <code>System.Threading.Tasks</code> 命名空间，是 <code>.NET</code> 提供的 “高层级并行工具”，核心价值：</p><ul><li data-pid=\"d3B0nYPc\">自动线程调度：无需手动创建 / 管理线程，由 <code>TPL</code> 自动分配线程池线程，实现负载均衡；<br/> </li><li data-pid=\"alaHehlQ\">简化并行逻辑：用类似串行循环的语法实现并行执行，降低并行编程门槛；<br/> </li><li data-pid=\"yWceV0eB\">适配多核 <code>CPU</code>：默认根据 <code>CPU</code> 核心数调整并行度，最大化利用硬件资源；<br/> </li><li data-pid=\"el9cDJtx\">支持取消 / 超时：可通过 <code>ParallelOptions</code> 控制并行过程，如取消执行、限制并行数。<br/> </li></ul><blockquote data-pid=\"I-OKE7EL\"> Parallel仅适合 CPU 密集型任务（如数据计算、图像处理、复杂逻辑运算）；I/O 密集型任务（文件读写、网络请求）应使用async/await，否则线程会阻塞，浪费资源。<br/> </blockquote><h3>核心概念与基础</h3><h3>并行 vs. 并发 vs. 异步:</h3><ul><li data-pid=\"K9LgFJzc\">并发: 多个任务在重叠的时间段内执行（不一定同时）。单核上通过时间片切换实现。<br/> </li><li data-pid=\"DY7On_-n\">并行: 多个任务真正同时执行，需要多核或多处理器支持。是并发的一种特例。<br/> </li><li data-pid=\"iB4VWsij\">异步: 一种编程模式，允许启动一个操作后不阻塞当前线程，待操作完成后再处理结果。异步操作可以利用并发或并行（通常通过线程池），但其核心目标是非阻塞和响应性。<br/> </li></ul><h3>线程 vs. 任务:</h3><ul><li data-pid=\"AqQFAiNG\">线程: 操作系统调度的基本单位。直接操作 <code>Thread</code> 类相对底层，需要手动管理生命周期、同步等，易出错且开销较大。<br/> </li><li data-pid=\"VCrWqbre\">任务: <code>TPL</code> 引入的核心概念 <code>Task</code> 和 <code>Task&lt;TResult&gt;</code>。代表一个异步操作单元。任务通常由线程池线程执行，但提供了更高级别的抽象：<br/> </li><ul><li data-pid=\"ZanDzAQN\">任务调度: 由 <code>TaskScheduler</code> 管理，默认使用线程池。<br/> </li><li data-pid=\"Iz5Dn_tV\">组合与延续: 使用 <code>ContinueWith, WhenAll, WhenAny</code> 等轻松组合任务。<br/> </li><li data-pid=\"vBwvzRqq\">异常传播: 异常被封装在 <code>AggregateException</code> 中，便于统一处理。<br/> </li><li data-pid=\"wqFcSihd\">取消支持: 与 <code>CancellationTokenSource/CancellationToken</code> 集成。<br/> </li><li data-pid=\"kKubeYQD\">状态跟踪: 有 <code>Created, Running, RanToCompletion, Canceled, Faulted</code> 等状态。<br/> </li></ul><br/><li data-pid=\"NMJiSvvj\">线程池:<br/> </li><ul><li data-pid=\"AONTdfkJ\"><code>.NET</code> 维护一个全局的工作线程池。<br/> </li><li data-pid=\"pEmZn5N-\"><code>TPL</code> 默认使用线程池来执行任务。<br/> </li><li data-pid=\"sBLPYQv8\">优点：避免频繁创建销毁线程的开销，自动管理线程数量（根据负载增减）。<br/> </li><li data-pid=\"gUYIvN66\">使用 <code>ThreadPool.QueueUserWorkItem</code> 或 <code>Task.Run/Task.Factory.StartNew</code> 提交工作项。<br/> </li></ul></ul><h3>Parallel 核心 API 一览</h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>API</th><th>用途</th></tr><tr><td>Parallel.For</td><td>并行 for 循环</td></tr><tr><td>Parallel.ForEach</td><td>并行 foreach</td></tr><tr><td>Parallel.Invoke</td><td>并行执行多个 Action</td></tr><tr><td>ParallelOptions</td><td>控制并行度、取消等</td></tr></tbody></table><h3>Parallel.Invoke：并行执行多个独立任务</h3><p data-pid=\"3lFTOEZh\">用于一次性并行执行多个无关联的方法（任务），适合 “多任务并行执行，等待全部完成” 的场景。</p><p data-pid=\"GeqQJPrW\">语法：</p><div class=\"highlight\"><pre><code class=\"language-text\">public static void Invoke(params Action[] actions);\npublic static void Invoke(ParallelOptions options, params Action[] actions);</code></pre></div><p data-pid=\"SrMhwN6Y\">示例：并行执行三个独立的 <code>CPU</code> 密集型方法</p><div class=\"highlight\"><pre><code class=\"language-text\">using System;\nusing System.Threading.Tasks;\n\nclass ParallelInvokeDemo\n{\n    static void Main()\n    {\n        // 记录开始时间\n        var watch = System.Diagnostics.Stopwatch.StartNew();\n\n        // 并行执行三个方法\n        Parallel.Invoke(\n            () =&gt; CalculateSum(1, 100000000), // 任务1：计算1~1亿的和\n            () =&gt; CalculatePrimeCount(1, 100000), // 任务2：统计1~10万的质数数量\n            () =&gt; GenerateRandomData(1000000) // 任务3：生成100万条随机数据\n        );\n\n        watch.Stop();\n        Console.WriteLine($&#34;并行执行耗时：{watch.ElapsedMilliseconds}ms&#34;);\n\n        // 对比：串行执行（耗时远高于并行）\n        watch.Restart();\n        CalculateSum(1, 100000000);\n        CalculatePrimeCount(1, 100000);\n        GenerateRandomData(1000000);\n        watch.Stop();\n        Console.WriteLine($&#34;串行执行耗时：{watch.ElapsedMilliseconds}ms&#34;);\n    }\n\n    // 模拟CPU密集型任务1：计算累加和\n    static void CalculateSum(int start, int end)\n    {\n        long sum = 0;\n        for (long i = start; i &lt;= end; i++) sum += i;\n        Console.WriteLine($&#34;累加和：{sum}&#34;);\n    }\n\n    // 模拟CPU密集型任务2：统计质数数量\n    static void CalculatePrimeCount(int start, int end)\n    {\n        int count = 0;\n        for (int i = start; i &lt;= end; i++)\n        {\n            if (IsPrime(i)) count++;\n        }\n        Console.WriteLine($&#34;质数数量：{count}&#34;);\n    }\n\n    // 模拟CPU密集型任务3：生成随机数据\n    static void GenerateRandomData(int count)\n    {\n        var random = new Random();\n        double[] data = new double[count];\n        for (int i = 0; i &lt; count; i++) data[i] = random.NextDouble();\n        Console.WriteLine($&#34;随机数据生成完成，长度：{data.Length}&#34;);\n    }\n\n    // 辅助方法：判断是否为质数\n    static bool IsPrime(int num)\n    {\n        if (num &lt; 2) return false;\n        for (int i = 2; i &lt;= Math.Sqrt(num); i++)\n        {\n            if (num % i == 0) return false;\n        }\n        return true;\n    }\n}</code></pre></div><p data-pid=\"ougtbpKy\">关键说明：</p><ul><li data-pid=\"NuHXT2AA\"><code>Parallel.Invoke</code> 会等待所有传入的 <code>Action</code> 执行完成后才返回；<br/> </li><li data-pid=\"g7j5CBmc\">方法执行顺序不保证（由 <code>TPL</code> 调度），但最终会全部执行；<br/> </li><li data-pid=\"G_yAjO_m\">若其中一个方法抛出异常，其他方法仍会继续执行，最终所有异常会被包装为<code>AggregateException</code> 抛出。<br/> </li></ul><h3>Parallel.For：并行执行 for 循环</h3><p data-pid=\"swO3kPQO\">替代传统的 <code>for</code> 循环，将循环迭代分配到多个线程并行执行，适合 “固定次数的循环，迭代间无依赖” 的场景。</p><p data-pid=\"Gc2-iPUI\">核心语法：</p><div class=\"highlight\"><pre><code class=\"language-text\">// 基础版：从fromInclusive到toExclusive（不包含）的并行循环\npublic static ParallelLoopResult For(\n    int fromInclusive, \n    int toExclusive, \n    Action&lt;int&gt; body\n);\n\n// 带配置版：支持取消、限制并行度\npublic static ParallelLoopResult For(\n    int fromInclusive, \n    int toExclusive, \n    ParallelOptions options, \n    Action&lt;int&gt; body\n);</code></pre></div><p data-pid=\"BPqpasr6\">示例：并行累加数组元素（线程安全版）</p><div class=\"highlight\"><pre><code class=\"language-text\">using System;\nusing System.Threading;\nusing System.Threading.Tasks;\n\nclass ParallelForDemo\n{\n    static void Main()\n    {\n        // 初始化1000万个元素的数组\n        int[] numbers = new int[10_000_000];\n        Random random = new Random();\n        for (int i = 0; i &lt; numbers.Length; i++) numbers[i] = random.Next(1, 100);\n\n        long total = 0; // 共享累加变量（需保证线程安全）\n        var watch = System.Diagnostics.Stopwatch.StartNew();\n\n        // 并行循环累加\n        ParallelLoopResult result = Parallel.For(\n            0, // 起始索引（包含）\n            numbers.Length, // 结束索引（不包含）\n            // 循环体：i为当前迭代索引\n            (i) =&gt; Interlocked.Add(ref total, numbers[i]) // 用Interlocked保证原子累加\n        );\n\n        watch.Stop();\n        Console.WriteLine($&#34;并行累加结果：{total}&#34;);\n        Console.WriteLine($&#34;耗时：{watch.ElapsedMilliseconds}ms&#34;);\n        Console.WriteLine($&#34;循环是否完成：{result.IsCompleted}&#34;);\n    }\n}</code></pre></div><p data-pid=\"hXyZw32m\">关键说明：</p><ul><li data-pid=\"vKlJMQAJ\"><code>Parallel.For</code> 的迭代索引 <code>i</code> 是线程局部的，无需担心冲突，但共享变量（如 <code>total</code> ）必须保证线程安全（用 <code>Interlocked、lock或ConcurrentBag</code> 等）；<br/> </li><li data-pid=\"qj43jmB4\">返回值 <code>ParallelLoopResult</code> 包含循环执行状态（<code>IsCompleted</code>：是否全部完成；<code>LowestBreakIteration</code>：是否提前中断）；<br/> </li><li data-pid=\"2ZXfwM9V\">迭代间不能有依赖（如第 <code>i</code> 次迭代依赖第 <code>i-1</code> 次的结果），否则会导致结果错误。<br/> </li></ul><h3>Parallel.ForEach：并行执行 foreach 循环</h3><p data-pid=\"GPCPzKln\">替代传统的 <code>foreach</code> 循环，遍历 <code>IEnumerable&lt;T&gt;</code> 集合，将元素分配到多个线程并行处理。</p><p data-pid=\"qhFSj7hY\">核心语法：</p><div class=\"highlight\"><pre><code class=\"language-text\">// 基础版：遍历IEnumerable&lt;T&gt;集合\npublic static ParallelLoopResult ForEach&lt;TSource&gt;(\n    IEnumerable&lt;TSource&gt; source, \n    Action&lt;TSource&gt; body\n);\n\n// 带索引版：获取元素的索引\npublic static ParallelLoopResult ForEach&lt;TSource&gt;(\n    IEnumerable&lt;TSource&gt; source, \n    Action&lt;TSource, ParallelLoopState, long&gt; body\n);</code></pre></div><p data-pid=\"yAUswakI\">示例：并行处理文件列表（ <code>CPU</code> 密集型的文件内容解析）</p><div class=\"highlight\"><pre><code class=\"language-text\">using System;\nusing System.Collections.Generic;\nusing System.IO;\nusing System.Threading.Tasks;\n\nclass ParallelForEachDemo\n{\n    static void Main()\n    {\n        // 获取指定目录下的所有文本文件\n        string[] files = Directory.GetFiles(@&#34;D:\\test&#34;, &#34;*.txt&#34;);\n        // 存储解析结果（线程安全集合）\n        var parseResults = new System.Collections.Concurrent.ConcurrentDictionary&lt;string, int&gt;();\n\n        var watch = System.Diagnostics.Stopwatch.StartNew();\n\n        // 并行遍历文件列表\n        Parallel.ForEach(\n            files, // 要遍历的集合\n            (file, state, index) =&gt; // 循环体：file=当前文件，state=循环状态，index=当前索引\n            {\n                try\n                {\n                    // 解析文件：统计文件中的数字数量（CPU密集型）\n                    int numberCount = CountNumbersInFile(file);\n                    // 将结果存入线程安全字典\n                    parseResults.TryAdd(file, numberCount);\n                    Console.WriteLine($&#34;已处理第{index+1}个文件：{file}，数字数量：{numberCount}&#34;);\n                }\n                catch (Exception ex)\n                {\n                    Console.WriteLine($&#34;处理文件{file}失败：{ex.Message}&#34;);\n                    // 可选：终止所有迭代\n                    // state.Stop();\n                }\n            }\n        );\n\n        watch.Stop();\n        Console.WriteLine($&#34;\\n全部处理完成，共{parseResults.Count}个文件，耗时：{watch.ElapsedMilliseconds}ms&#34;);\n    }\n\n    // 模拟CPU密集型任务：统计文件中的数字数量\n    static int CountNumbersInFile(string filePath)\n    {\n        string content = File.ReadAllText(filePath);\n        int count = 0;\n        foreach (char c in content)\n        {\n            if (char.IsDigit(c)) count++;\n        }\n        // 模拟复杂计算（放大CPU消耗）\n        for (int i = 0; i &lt; 100000; i++) { Math.Sqrt(i); }\n        return count;\n    }\n}</code></pre></div><p data-pid=\"-BUDJj35\">关键说明：</p><ul><li data-pid=\"KIS6RsQg\"><code>ParallelLoopState</code>：用于控制循环（ <code>Stop()</code> 终止所有迭代、<code>Break()</code> 终止后续迭代、<code>IsStopped</code> 判断是否终止）；<br/> </li><li data-pid=\"wIbroX8V\">推荐使用线程安全集合（如 <code>ConcurrentDictionary、ConcurrentBag</code> ）存储并行处理的结果，避免共享集合的线程安全问题；<br/> </li><li data-pid=\"okAnPG6c\">若集合元素数量少、循环体执行时间极短，并行开销可能超过收益，此时应使用串行循环。<br/> </li></ul><h3>ParallelOptions：配置并行行为</h3><p data-pid=\"MrB-NL8Q\"><code>ParallelOptions</code> 用于自定义并行执行的规则，核心属性：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>MaxDegreeOfParallelism</th><th>限制最大并行度（线程数），默认值为-1（自动适配 CPU 核心数），可设置为具体数值（如4表示最多 4 个线程并行）</th></tr><tr><td>CancellationToken</td><td>取消令牌，用于取消并行执行</td></tr><tr><td>TaskScheduler</td><td>指定任务调度器（默认使用线程池调度器）</td></tr></tbody></table><p data-pid=\"QQULU6tz\">示例：限制并行度 + 取消并行执行</p><div class=\"highlight\"><pre><code class=\"language-text\">using System;\nusing System.Threading;\nusing System.Threading.Tasks;\n\nclass ParallelOptionsDemo\n{\n    static void Main()\n    {\n        CancellationTokenSource cts = new CancellationTokenSource();\n        // 5秒后取消执行\n        cts.CancelAfter(5000);\n\n        ParallelOptions options = new ParallelOptions\n        {\n            MaxDegreeOfParallelism = 4, // 最多4个线程并行\n            CancellationToken = cts.Token // 绑定取消令牌\n        };\n\n        try\n        {\n            Parallel.For(\n                0,\n                1000000,\n                options,\n                (i) =&gt;\n                {\n                    // 模拟耗时操作\n                    Thread.Sleep(10);\n                    if (i % 100000 == 0) Console.WriteLine($&#34;已处理{i}次&#34;);\n                    // 检查取消令牌（可选，TPL会自动检查，但手动检查更及时）\n                    options.CancellationToken.ThrowIfCancellationRequested();\n                }\n            );\n        }\n        catch (OperationCanceledException)\n        {\n            Console.WriteLine(&#34;并行执行被取消&#34;);\n        }\n        catch (AggregateException ex)\n        {\n            foreach (var innerEx in ex.InnerExceptions)\n            {\n                Console.WriteLine($&#34;异常：{innerEx.Message}&#34;);\n            }\n        }\n        finally\n        {\n            cts.Dispose();\n        }\n    }\n}</code></pre></div><p data-pid=\"C2kM0fM2\">并发度说明：</p><ul><li data-pid=\"ZuqQWo7P\">默认：≈ CPU 核心数<br/> </li><li data-pid=\"kEp1_0nl\">并不是越大越好<br/> </li><li data-pid=\"l25bJFeG\">过大 → 线程切换成本上升<br/> </li></ul><blockquote data-pid=\"1LcEwLcu\"> CPU 密集型 ≈ 核心数 轻计算 ≈ 核心数 × 1.5<br/> </blockquote><h3>PLINQ（Parallel LINQ）</h3><p data-pid=\"vA-KQEnu\">并行查询：</p><div class=\"highlight\"><pre><code class=\"language-text\">var query = from num in data.AsParallel()  // 启用并行\n            where num % 2 == 0\n            select num * 2;\n\nvar results = query.ToArray();  // 强制执行</code></pre></div><ul><li data-pid=\"vIrrKYUP\">选项：<code>WithDegreeOfParallelism(4)</code> 控制并行度；<code>WithExecutionMode(ParallelExecutionMode.ForceParallelism)</code> 强制并行。<br/> </li><li data-pid=\"8pyeZeML\">有序 vs. 无序：默认无序；用 <code>AsOrdered()</code> 保持顺序（性能稍低）。<br/> </li></ul><h3>底层原理：Parallel 的执行机制</h3><p data-pid=\"iHuayxbZ\"><code>Parallel</code> 的高效性源于 <code>TPL</code> 的核心设计：</p><ul><li data-pid=\"SJq1w7V6\">分区策略：将循环拆分为多个 “分区”（<code>Partitioner</code>），每个分区由一个线程处理，避免单个线程处理过多迭代；<br/> </li><li data-pid=\"FWXdiWzp\">工作窃取算法（<code>Work-Stealing</code>）：若某个线程完成自身分区后，会从其他线程的分区中 “窃取” 未处理的迭代，实现负载均衡；<br/> </li><li data-pid=\"54_T-YQs\">线程池复用：使用线程池的工作线程，避免频繁创建 / 销毁线程的开销；<br/> </li><li data-pid=\"bAjomB8G\"><code>PLINQ</code> 内部：用 <code>ParallelQuery&lt;T&gt;</code> 包装，查询树上附加并行运算符；合并结果时用 <code>Barrier</code> 同步。<br/> </li><li data-pid=\"UkVLL9YS\">性能开销：启动线程 ~1ms；适合 &gt;100ms 任务；小任务可能负优化（开销 &gt; 收益）。<br/> </li><li data-pid=\"dRqAb6U1\">异常聚合：所有迭代抛出的异常会被包装为 <code>AggregateException</code>，需遍历<code>InnerExceptions</code> 处理。<br/> </li></ul><h3>Parallel 与线程安全</h3><h3>错误示例：共享变量</h3><div class=\"highlight\"><pre><code class=\"language-text\">int sum = 0;\n\nParallel.For(0, 1000, i =&gt;\n{\n    sum += i; // ❌ 线程不安全\n});</code></pre></div><p data-pid=\"jt1JXR9j\">结果：不确定</p><h3>正确方式一：Interlocked</h3><div class=\"highlight\"><pre><code class=\"language-text\">int sum = 0;\n\nParallel.For(0, 1000, i =&gt;\n{\n    Interlocked.Add(ref sum, i);\n});</code></pre></div><h3>正确方式二：局部变量 + 聚合（推荐）</h3><div class=\"highlight\"><pre><code class=\"language-text\">int sum = 0;\n\nParallel.For(0, 1000,\n    () =&gt; 0,\n    (i, state, local) =&gt; local + i,\n    local =&gt; Interlocked.Add(ref sum, local)\n);</code></pre></div><p data-pid=\"srR6db5Y\">高性能、低竞争</p><h3>替代方案：</h3><ul><li data-pid=\"6H0Kf0wE\">小任务：用 <code>Task.Run</code> 或 <code>Parallel LINQ</code>。<br/> </li><li data-pid=\"SSOwym_z\">数据并行：<code>System.Numerics (SIMD)</code> 或 <code>GPU (CUDA.NET)</code>。<br/> </li><li data-pid=\"Hv7WB--2\">高并发：<code>Actor</code> 模型 (<code>Akka.NET</code>) 或 <code>Channels</code>。<br/> </li></ul><h3>Parallel.ForEachAsync</h3><p data-pid=\"wOmjgLRT\">在受控并发度下，并行执行异步操作</p><p data-pid=\"ESkRpslD\">它本质是：</p><ul><li data-pid=\"oGYEfMQW\"><code>async / await</code> 友好<br/> </li><li data-pid=\"AE2YH889\">支持并发限制<br/> </li><li data-pid=\"2xsyMDhc\">内置 <code>CancellationToken</code><br/> </li><li data-pid=\"v-uxMxuI\">自动调度，不用手写 <code>SemaphoreSlim</code><br/> </li></ul><h3>基本用法</h3><h3>最简单示例</h3><div class=\"highlight\"><pre><code class=\"language-text\">await Parallel.ForEachAsync(items, async (item, ct) =&gt;\n{\n    await ProcessAsync(item, ct);\n});</code></pre></div><ul><li data-pid=\"X-w-i0SV\">必须 <code>await</code><br/> </li><li data-pid=\"x4jqka6q\"><code>lambda</code> 参数里有 <code>CancellationToken</code><br/> </li><li data-pid=\"5JFnxwJi\">返回 <code>ValueTask</code><br/> </li></ul><h3>限制并发度</h3><div class=\"highlight\"><pre><code class=\"language-text\">var options = new ParallelOptions\n{\n    MaxDegreeOfParallelism = 5\n};\n\nawait Parallel.ForEachAsync(items, options, async (item, ct) =&gt;\n{\n    await CallApiAsync(item, ct);\n});</code></pre></div><p data-pid=\"N1BqTrp3\">这相当于：</p><div class=\"highlight\"><pre><code class=\"language-text\">SemaphoreSlim(5) + Task.WhenAll</code></pre></div><p data-pid=\"ZAvj6TVZ\">但 更简洁、更安全</p><h3>Parallel.ForEachAsync vs Task.WhenAll</h3><h3>Task.WhenAll（无并发控制）</h3><div class=\"highlight\"><pre><code class=\"language-text\">await Task.WhenAll(items.Select(item =&gt;\n    ProcessAsync(item)\n));</code></pre></div><p data-pid=\"J2senFXQ\">特点：</p><ul><li data-pid=\"ezeNeOdc\">一次性创建所有 <code>Task</code><br/> </li><li data-pid=\"5H9xWC4C\">不限制并发<br/> </li><li data-pid=\"X4XeDgtE\">数量大 → 容易压垮资源<br/> </li></ul><h3>Parallel.ForEachAsync（有并发控制）</h3><div class=\"highlight\"><pre><code class=\"language-text\">await Parallel.ForEachAsync(items,\n    new ParallelOptions { MaxDegreeOfParallelism = 5 },\n    async (item, ct) =&gt;\n    {\n        await ProcessAsync(item, ct);\n    });</code></pre></div><p data-pid=\"yhPPe3SH\">特点：</p><ul><li data-pid=\"USRnlS8f\">滑动窗口式并发<br/> </li><li data-pid=\"JEA9MF8P\">同时最多 <code>N</code> 个任务<br/> </li><li data-pid=\"v6YZoJL7\">更适合：<br/> </li><ul><li data-pid=\"PLy6kVhm\">HTTP<br/> </li><li data-pid=\"i51D1XS7\">DB<br/> </li><li data-pid=\"rAFp6NCv\">文件 IO<br/> </li><li data-pid=\"4wrC3RMw\">调用第三方接口<br/> </li></ul></ul><h3>什么时候选哪个？</h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>场景</th><th>推荐</th></tr><tr><td>少量任务（&lt;20）</td><td>Task.WhenAll</td></tr><tr><td>大量任务</td><td>Parallel.ForEachAsync</td></tr><tr><td>需要限流</td><td>Parallel.ForEachAsync</td></tr><tr><td>CPU 密集</td><td>Parallel.For / PLINQ</td></tr></tbody></table><h3>典型实战场景</h3><h3>批量调用第三方 API</h3><div class=\"highlight\"><pre><code class=\"language-text\">await Parallel.ForEachAsync(userIds,\n    new ParallelOptions { MaxDegreeOfParallelism = 10 },\n    async (id, ct) =&gt;\n    {\n        await apiClient.SyncUserAsync(id, ct);\n    });</code></pre></div><h3>批量文件处理（IO）</h3><div class=\"highlight\"><pre><code class=\"language-text\">await Parallel.ForEachAsync(files,\n    async (file, ct) =&gt;\n    {\n        var content = await File.ReadAllTextAsync(file, ct);\n        await SaveAsync(content, ct);\n    });</code></pre></div>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-cf44f3e23920a115fc2772b69894559c.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-cf44f3e23920a115fc2772b69894559c_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "type": "article",
+        "title": "深入理解 C#.NET Parallel：并行编程的正确打开方式",
+        "comment_count": 0,
+        "favorite_count": 17,
+        "author": {
+          "is_org": false,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/f2b8d5c228267dbaeda4a5a373131553",
+          "url_token": "tang-qing-feng-94",
+          "name": "唐青枫",
+          "headline": "something just like this",
+          "avatar_url": "https://picx.zhimg.com/50/v2-aea21ce917f6c4447989b869645632f1_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 138,
+          "is_followed": false,
+          "id": "f2b8d5c228267dbaeda4a5a373131553",
+          "user_type": "people"
+        },
+        "updated": 1767138759,
+        "voteup_count": 4,
+        "is_labeled": false,
+        "article_type": "normal",
+        "comment_permission": "all",
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "excerpt": "简介 Parallel 并行编程是 .NET 中利用多核 CPU 进行并发执行的编程模型，主要通过 System.Threading.Tasks 命名空间中的 Parallel 类实现。它允许将任务分解成多个子任务，在多个线程上同时执行，以加速 CPU 密集型操作（如循环计算、数据处理）。核心组件：Parallel 类：提供静态方法如 Parallel.For、Parallel.ForEach、Parallel.Invoke，用于并行执行循环或方法。 PLINQ（Parallel LINQ）：LINQ 的并行版本，通过 AsParallel…",
+        "id": "1989604740963796187",
+        "created": 1767138759,
+        "visited_count": 397
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1989604740963796187}",
+      "attached_info": "CuIGCPqw8smxzI7EiQEQBxoJMjY4Mzk5MTc0IMfL0coGKAQwAEAqSkkKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSIGRvY190eXBlOiBBcnRpY2xlCmlkOiAyNjczOTM3NzYKGAAgADoAYiBlYWVhNTQwNjZjODE5YTZhNzliOWZjYmUxZDkyMjMzNHITMTk4OTYwNDc0MDk2Mzc5NjE4N4IBX2h0dHBzOi8vcGljMS56aGltZy5jb20vdjItY2Y0NGYzZTIzOTIwYTExNWZjMjc3MmI2OTg5NDU1OWMuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xqgEJcmVjb21tZW5kwgEgZjJiOGQ1YzIyODI2N2RiYWVkYTRhNWEzNzMxMzE1NTPyAQoIDBIGTm9ybWFs8gEoCAoSJGU3NWVkMWRkLWI3MjQtNDE2NC05NzVmLWIyNWE2YTgzNjRmMPIBBQgLEgE4ggIAiAKO/c+buTOSAiBmMmI4ZDVjMjI4MjY3ZGJhZWRhNGE1YTM3MzEzMTU1M5oCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZdoCH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEXoAgP6AgtOT1JNQUxfRkxPV4oDIGVmNmUwMWVmM2Q4NjQ2MDU5MDI0MjVhNWU4YjZhZTY4mgMNCgJ2MhAAGgVvdGhlcqgDjQPYAwDqAxl0ZXh0QWxsU2l0ZUFjdGlvbkl0ZW1DRlYy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQgAoYwAciI3YyLWNmNDRmM2UyMzkyMGExMTVmYzI3NzJiNjk4OTQ1NTljgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAA0k5nP4EFAAAAAAAAAACJBSxl0tnTU7E/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBiqoBgGSAi4KCTI2ODM5OTE3NBITMTk4OTYwNDc0MDk2Mzc5NjE4NxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "43_1767705411.975",
+      "type": "feed",
+      "offset": 43,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705411,
+      "updated_time": 1767705411,
+      "target": {
+        "created_time": 1767514298,
+        "excerpt": "公元前448年那会，范蠡在陶地走完了一辈子，走的时候挺安稳的，算下来年纪快九十了。至于他的老搭档文种，早几十年前就被越王勾践赐了剑，没能善终。 俩人当初一起跟着勾践干，一起把吴国给灭了，论功劳其实差不了多少，但最后落得的下场，简直是天差地别。 差别在哪？其实也说不太清，大概就是处世的法子不一样吧，反正最后走的路完全不同。 范蠡临走前，留下了四个字：口、贪、傲、执。他说人这一辈子，有四种祸事，能躲开就能…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-38195236dbd7f0a7b144d0aa3924cc49_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-cd9bc93f9bb146601643fbf657181923_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6b8166c0768900d4c369bb18f6b35f8b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-9ee22c368ad0992a56faef3e4b8ef2a5_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-78a5a84537de16a01022e0aafd71da2e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0a8da1ceebf406036682879a9ce9a4a6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-501e758517fd62369f085c3cddd25e23_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-82396bb5fe428088c8d5d6edf1a77d17_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1460ffa34300e82c2bb0f1a3a9f11de8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8535abd92929f5d233d142832e36e58d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1f4ec55bd26d113e8eae709c5c6b23e1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-05d4f9a17969184c9606387f7815c324_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a764ebb521030a05ab583c30b9ed1f7a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fece55988288178a50957b7a9108ee8d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0ed99cb63b0e3bcc52fe15d393f3ebd6_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-f3c93928ec519a22a5cc533e05da46d6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7a81feb9458bd68c4548fd72ef9594f6_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "is_copyable": false,
+        "preview_text": "",
+        "comment_count": 4,
+        "visited_count": 3193,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "voteup_count": 77,
+        "favorite_count": 54,
+        "type": "answer",
+        "question": {
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/24583526",
+          "bound_topic_ids": [
+            19318,
+            40065,
+            339673,
+            176379,
+            262913
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "author": {
+            "is_org": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/2a7db59b7b41f9804903f54a12149c38",
+            "url_token": "jing-ying-16",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "headline": "",
+            "gender": 0,
+            "followers_count": 0,
+            "is_following": false,
+            "id": "2a7db59b7b41f9804903f54a12149c38",
+            "user_type": "people",
+            "name": "镜影"
+          },
+          "answer_count": 0,
+          "created": 1406081352,
+          "is_following": false,
+          "id": "24583526",
+          "title": "范蠡为什么知道勾践可共患难不可共富贵？",
+          "follower_count": 0,
+          "comment_count": 6
+        },
+        "answer_type": "normal",
+        "author": {
+          "gender": 1,
+          "followers_count": 600,
+          "is_following": false,
+          "id": "bb5a5ffadc38d1f9ec42bef7eef36a69",
+          "url_token": "jishaoshi",
+          "name": "怒吼",
+          "headline": "一个悲剧的小人物",
+          "avatar_url": "https://picx.zhimg.com/50/v2-9b4ff7691a6934ec8fe6a10cebb8d705_l.jpg?source=b6762063",
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/bb5a5ffadc38d1f9ec42bef7eef36a69",
+          "user_type": "people",
+          "is_org": false
+        },
+        "excerpt_new": "公元前448年那会，范蠡在陶地走完了一辈子，走的时候挺安稳的，算下来年纪快九十了。至于他的老搭档文种，早几十年前就被越王勾践赐了剑，没能善终。 俩人当初一起跟着勾践干，一起把吴国给灭了，论功劳其实差不了多少，但最后落得的下场，简直是天差地别。 差别在哪？其实也说不太清，大概就是处世的法子不一样吧，反正最后走的路完全不同。 范蠡临走前，留下了四个字：口、贪、傲、执。他说人这一辈子，有四种祸事，能躲开就能…",
+        "preview_type": "default",
+        "content": "<p data-pid=\"mvafmGm3\">公元前448年那会，范蠡在陶地走完了一辈子，走的时候挺安稳的，算下来年纪快九十了。至于他的老搭档文种，早几十年前就被越王勾践赐了剑，没能善终。</p><p data-pid=\"Gv9vVA5A\">俩人当初一起跟着勾践干，一起把吴国给灭了，论功劳其实差不了多少，但最后落得的下场，简直是天差地别。</p><p data-pid=\"uGKfDhKF\">差别在哪？其实也说不太清，大概就是处世的法子不一样吧，反正最后走的路完全不同。</p><p data-pid=\"YiF7_WDF\">范蠡临走前，留下了四个字：口、贪、傲、执。他说人这一辈子，有四种祸事，能躲开就能享太平，躲不开就容易栽跟头。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-38195236dbd7f0a7b144d0aa3924cc49_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"759\" data-original-token=\"v2-38195236dbd7f0a7b144d0aa3924cc49\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-38195236dbd7f0a7b144d0aa3924cc49_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"iENGgPv_\">先说说口祸吧——范蠡这人，从来不会直愣愣地说真话。</p><p data-pid=\"_I9EsPFn\">范蠡有个挺特别的习惯，每次劝勾践做事，都不直接把话说透。</p><p data-pid=\"2wSwz1zZ\">公元前494年，勾践听说吴王夫差在练兵，心里就打了主意，想先动手打吴国。范蠡不赞成，他觉得越国那点实力，根本打不过。</p><p data-pid=\"xZigM2N3\">要是换了别的谋臣，肯定急着摆道理：大王可不能这么干啊，咱们兵不够多，后勤也跟不上，人家吴国比咱们强太多了……</p><p data-pid=\"LN8KGprC\">范蠡没这么说，他不喜欢把话说得太满。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cd9bc93f9bb146601643fbf657181923_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"776\" data-original-token=\"v2-cd9bc93f9bb146601643fbf657181923\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-cd9bc93f9bb146601643fbf657181923_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"u60ygyDv\">他慢慢跪下去，膝盖碰到冰凉的地面，顿了顿才开口。说的是大王，我昨儿夜里做了个梦，梦见吴王夫差在练兵，那些兵马看着特别雄壮，一股子杀气扑面而来。</p><p data-pid=\"5ji91YoA\">就这一句，没再多说。</p><p data-pid=\"LrMKCtMk\">勾践当然听明白了——这是在提醒他，吴国准备得很充分，越国不能冒冒失失出兵。但范蠡没把话堵死，留了余地在里头。</p><p data-pid=\"t13ABjx7\">要是勾践非要出兵，那是大王自己拿的主意，算不得他的梦不准；要是勾践打消了念头，那也是大王深思熟虑的结果，跟他范蠡的提醒没多大关系。</p><p data-pid=\"EUsLD_WV\">这样一来，进也不是他的错，退也不是他的过，分寸拿捏得死死的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6b8166c0768900d4c369bb18f6b35f8b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"755\" data-original-token=\"v2-6b8166c0768900d4c369bb18f6b35f8b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-6b8166c0768900d4c369bb18f6b35f8b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5r3OBHab\">可惜啊，勾践没听进去。</p><p data-pid=\"bHm9pgLK\">夫椒那一战，越国输得一塌糊涂，五万大军最后就剩五千来个残兵，被死死困在会稽山上，眼看着越国就要没了。这时候勾践才回过神来，范蠡当初说的是对的。</p><p data-pid=\"GCBoOaj6\">后来勾践要去吴国当人质，范蠡主动站出来，说要跟着一起去。那三年，俩人跟奴隶似的，受了不少委屈，听了不少难听的话。</p><p data-pid=\"sGujEIDI\">吴王夫差看中了范蠡的本事，想把他挖过来给自己用。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9ee22c368ad0992a56faef3e4b8ef2a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"810\" data-original-token=\"v2-9ee22c368ad0992a56faef3e4b8ef2a5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-9ee22c368ad0992a56faef3e4b8ef2a5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FUeJtrvu\">夫差跟范蠡说，越国都要亡了，勾践肯定没什么前途了，你跟着我干，我保你一辈子荣华富贵，吃穿不愁。</p><p data-pid=\"c_8dDZR0\">换了别人，要么梗着脖子表忠心，说什么都不答应；要么虚情假意应付着，先把命保住再说。范蠡两样都没选。</p><p data-pid=\"sCiw59qx\">他既没说不答应，也没说答应。</p><p data-pid=\"cUXCLYEu\">就说承蒙大王看重，只是我愿意跟着我的主公，君臣相守，共渡难关。</p><p data-pid=\"a7blJ-NP\">他没骂夫差昏庸，也没说越国肯定能翻身，就只是表明了自己的态度：我不会背叛我的主公。夫差听了反倒挺高兴，觉得这人有骨气，确实是个难得的人才。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-78a5a84537de16a01022e0aafd71da2e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"757\" data-original-token=\"v2-78a5a84537de16a01022e0aafd71da2e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-78a5a84537de16a01022e0aafd71da2e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"iCtZ_izE\">范蠡的“口”，不是不说，是会说。懂什么时候说，懂怎么说，懂说多少。</p><p data-pid=\"JWB4_Dfk\">拿伍子胥比一比就知道了。伍子胥也是有大本事的人，但他最后死，就死在这张嘴上。他一次又一次劝夫差杀了勾践，话说得又直又狠，一点情面都不留。</p><p data-pid=\"c4v8L5TZ\">夫差听烦了，再加上伯嚭在旁边说坏话，最后就赐死了伍子胥，还用鸱夷把他的尸体裹起来，扔进了钱塘江。</p><p data-pid=\"WlkI3j2P\">同样是给君王提建议，伍子胥把命丢了，范蠡却好好地活了下来。</p><p data-pid=\"OwsH0aWS\">差别就在这：伍子胥把话说绝了，一点余地都没留；范蠡却永远留着一半，不把话说死。</p><p data-pid=\"YmvBsjaJ\">后来范蠡离开越国，给文种写了封信。信不长，就那么几句话：飞鸟打完了，好弓就该收起来了；狡猾的兔子死了，猎狗也就该被煮了。越王脖子长、嘴巴尖，这种人只能一起吃苦，不能一起享福，你赶紧走吧。</p><p data-pid=\"7PkPbK0b\">文种看完信，心里犯了嘀咕，拿不定主意。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0a8da1ceebf406036682879a9ce9a4a6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"711\" data-original-token=\"v2-0a8da1ceebf406036682879a9ce9a4a6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-0a8da1ceebf406036682879a9ce9a4a6_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"cpfOU9R3\">最后他还是没走。</p><p data-pid=\"JyY5An7X\">没过几个月，勾践就赐给文种一把剑，说你教了我七种灭吴的办法，我只用了三种就成功了，剩下的四种，你到地下去教给先王吧。</p><p data-pid=\"lEOgqkOr\">文种就这么自杀了。</p><p data-pid=\"HNcQBfYI\">而范蠡呢，早就坐着船漂在五湖上，没人知道他去了哪。</p><p data-pid=\"HGW8tIpJ\">就那么三十个字的信，范蠡用它救了自己，文种却没看懂其中的意思。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-501e758517fd62369f085c3cddd25e23_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"753\" data-original-token=\"v2-501e758517fd62369f085c3cddd25e23\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-501e758517fd62369f085c3cddd25e23_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"iI6pec5C\">再说说贪祸——范蠡这辈子，三次把赚来的家财全散出去了。</p><p data-pid=\"rtysbCq6\">范蠡离开越国后，先去了齐国。</p><p data-pid=\"30N5dJRM\">他改了个名字，叫“鸱夷子皮”，意思就是牛皮袋子——能装东西，也能屈能伸，大概是想提醒自己做人要灵活点吧。在齐国的海边，他带着儿子们开荒种地，煮海水制盐，还做些买卖。</p><p data-pid=\"P_nDYhz-\">过了几年，家里的钱财就累积到了几十万。</p><p data-pid=\"dZf2VHSj\">齐国人听说了他的本事，就请他去做相国。范蠡拒绝了。</p><p data-pid=\"V6lM0inA\">他说，在家里过日子能赚到千金，出来做官能做到卿相，这已经是普通老百姓能达到的顶点了。长久地享受这么高的名声，不是什么好事，容易招来灾祸。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-977f7212dade87b5124817b48dfe7ddd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1042\" data-rawheight=\"607\" data-original-token=\"v2-977f7212dade87b5124817b48dfe7ddd\" class=\"origin_image zh-lightbox-thumb\" width=\"1042\" data-original=\"https://pic4.zhimg.com/v2-977f7212dade87b5124817b48dfe7ddd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6d7-hBzX\">“不祥”这两个字，一般人可能听不懂。</p><p data-pid=\"v7mS9Ngc\">说白了就是太顺了，顺得不正常，接下来大概率就要出事了。</p><p data-pid=\"QoyR0B6w\">范蠡当下就把家里的钱财全散了，分给了亲戚朋友，还有村里的穷苦人。然后收拾了点值钱的细软，离开齐国，去了陶地重新开始。</p><p data-pid=\"SXgvgTKQ\">陶地就是现在的山东定陶，那时候是交通要道，往东能到齐鲁，往西能到秦郑，往南能到楚越，往北能到晋燕，来往的商人特别多。范蠡就是看中了这个地理位置，才决定在这儿做生意。</p><p data-pid=\"fYDYMvV8\">他做生意有自己的一套法子：天旱的时候，就多囤点船；闹水灾的时候，就多囤点车。</p><p data-pid=\"v93PIkRk\">这话是什么意思呢？就是天旱的时候，大家都用不上船，船价便宜，这时候囤着；等水灾来了，船就成了急需的东西，再卖出去就能赚钱。水灾的时候囤车也是一个道理。</p><p data-pid=\"d_OJfaY_\">他还有个原则：东西贵的时候，要像扔粪土一样赶紧卖掉；东西便宜的时候，要像捡宝贝一样赶紧买进来。</p><p data-pid=\"4FXJwg1T\">不贪求卖最高价，也不等着买最低价，见好就收，差不多就行。</p><p data-pid=\"2IhNWdSd\">靠着这套办法，范蠡又一次变成了大富豪。</p><p data-pid=\"1YkH8dJM\">有意思的是，他发财之后，又把钱给散出去了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-82396bb5fe428088c8d5d6edf1a77d17_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"721\" data-original-token=\"v2-82396bb5fe428088c8d5d6edf1a77d17\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-82396bb5fe428088c8d5d6edf1a77d17_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vshLwTW2\">《史记》里记载，范蠡在十九年的时间里，三次赚到千金，又两次把钱分给了穷困的朋友和远房的兄弟。</p><p data-pid=\"ZqykJ6lO\">三次发财，三次散财，为什么要这么做呢？</p><p data-pid=\"ifudoXxg\">他怕。</p><p data-pid=\"_zr2QECA\">他见过太多因为贪心而丢了性命的人。就说吴国的太宰伯嚭，收了越国送的金银珠宝和美女，就一个劲地在夫差面前帮勾践说好话。最后吴国灭了，他自己也被杀了。那些靠贪心得来的富贵，最后还是要还回去的，甚至要赔上性命。</p><p data-pid=\"7x1GIBoZ\">范蠡散财，不是为了做慈善，说白了是为了自保。</p><p data-pid=\"aObCZMGc\">钱留在自己手里，就像拿着一块烫手的山芋，容易成为别人的目标；把钱散出去，换回来的是人情。以后真遇到难处了，这些人情说不定就能救自己一命。</p><p data-pid=\"z2-WqaPz\">后来民间把范蠡当成“财神”来供奉，其实有点理解偏了。他不是教人选怎么赚钱，而是教人选怎么花钱。</p><p data-pid=\"ereMWngW\">能赚钱不算真本事，知道怎么花钱、怎么守住自己，才是真高明。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1460ffa34300e82c2bb0f1a3a9f11de8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"759\" data-original-token=\"v2-1460ffa34300e82c2bb0f1a3a9f11de8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-1460ffa34300e82c2bb0f1a3a9f11de8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OQ2ztCVg\">再说说傲祸——范蠡从来不会居功自傲。</p><p data-pid=\"7M0qD2Vw\">公元前473年，越国把吴国灭了。</p><p data-pid=\"T7Ym3aGY\">越王勾践摆了庆功宴，大臣们都兴高采烈的，唯独勾践脸上没一点笑容。</p><p data-pid=\"JuGHfPNT\">范蠡注意到了这一点。</p><p data-pid=\"BmKvXKeI\">他心里清楚，仗打赢了，功臣就没什么用了。勾践接下来要做的，肯定是把权力都收回到自己手里。</p><p data-pid=\"1adcIR-H\">宴会一结束，范蠡就立刻找勾践辞行。勾践挽留他，说你要是不走，我就把越国分一半给你；你要是敢走，我就杀了你。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8535abd92929f5d233d142832e36e58d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"947\" data-original-token=\"v2-8535abd92929f5d233d142832e36e58d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-8535abd92929f5d233d142832e36e58d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MTvsYpNV\">这话听着挺吓人，但范蠡知道，这只是勾践的试探。他没辩解，也没求饶，当晚就跑了。</p><p data-pid=\"i4xyDg13\">半夜里悄悄收拾了细软，带着家人坐上船就走了，连个招呼都没打。</p><p data-pid=\"ky1wPxJX\">为什么跑得这么急？</p><p data-pid=\"WRGldL_c\">因为他太了解勾践了。他之前跟文种说过，越王长颈鸟喙。</p><p data-pid=\"4rOjt9-2\">“长颈鸟喙”是古时候看相的说法，意思是脖子长、嘴巴尖的人，大多心狠手辣。这种人，你帮他的时候他需要你，把你当回事；等你帮他把事办成了，你就成了他的威胁。</p><p data-pid=\"4qHRg0ZR\">范蠡不想给勾践动手的机会，所以先主动撤走了。</p><p data-pid=\"4SnB3vSj\">他离开越国后，刻意隐藏自己的身份。</p><p data-pid=\"3KgH97mU\">在齐国的时候，他自称“鸱夷子皮”；到了陶地，又自称“陶朱公”。从来不说自己以前是越国的上将军，也从来不跟人炫耀自己灭吴的功劳。</p><p data-pid=\"wPpjDqgl\">他穿粗布做的衣服，住普通的房子，出门也不带随从。有人请他做官，他一口拒绝；有人称赞他以前的功业，他就摇摇头，不承认也不反驳。</p><p data-pid=\"2C3KAs4h\">傲气这东西，藏在心里能当成底气，要是露在外面，就成了招灾的杀气。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1f4ec55bd26d113e8eae709c5c6b23e1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1066\" data-rawheight=\"800\" data-original-token=\"v2-1f4ec55bd26d113e8eae709c5c6b23e1\" class=\"origin_image zh-lightbox-thumb\" width=\"1066\" data-original=\"https://pic2.zhimg.com/v2-1f4ec55bd26d113e8eae709c5c6b23e1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"EReL8fc2\">年羹尧就是个例子，他帮雍正平定了西北，功劳特别大，但他太狂了。进京见皇帝的时候，文武百官都跪着迎接他，他却骑在马上，连看都不看一眼；雍正赏赐他东西，他当着众人的面挑三拣四，一点都不尊重。最后落得个被削官夺爵、赐死在狱中的下场。</p><p data-pid=\"Go0NqWTv\">功劳再大，也大不过皇权。</p><p data-pid=\"mn7vcCrZ\">范蠡明白这个道理，所以他从来不让功劳变成自己的包袱。</p><p data-pid=\"lgRRAcJv\">把功劳藏起来，把姿态放低。你觉得我对你没威胁，我就能安安稳稳地过日子了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-05d4f9a17969184c9606387f7815c324_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"752\" data-original-token=\"v2-05d4f9a17969184c9606387f7815c324\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-05d4f9a17969184c9606387f7815c324_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PW0fR7X9\">最后说说执祸——这是范蠡这辈子唯一的失败。</p><p data-pid=\"GQ0OGfWM\">范蠡这一辈子，做什么事都挺顺的，几乎没失过手，除了一件事。</p><p data-pid=\"vWRouYcV\">他晚年住在陶地，有三个儿子。二儿子在楚国犯了罪，杀了人，被关进了大牢，等着被斩首。</p><p data-pid=\"FQ9pzOpb\">范蠡决定派人去楚国，想把二儿子救出来。</p><p data-pid=\"YG_0k90q\">他一开始选的是小儿子。为什么选小儿子呢？因为小儿子从小在富贵窝里长大，不把钱当回事，花起钱来一点都不心疼。这种人去办救人的事，该送礼就送礼，不会犹豫，也不会舍不得。</p><p data-pid=\"gqrcI1B-\">但大儿子不乐意了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2a51e7c546ead2657652ed395aa0d374_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-2a51e7c546ead2657652ed395aa0d374\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-2a51e7c546ead2657652ed395aa0d374_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NJxmFTYs\">大儿子说，我是家里的长子，弟弟出了事，怎么能派三弟去呢？这不是明摆着说我没用吗？</p><p data-pid=\"95IxdMpi\">他闹得特别厉害，甚至说要是不派他去，他就自杀。范蠡的妻子也在旁边帮着大儿子说话：你让老三去，万一救不回老二，老大再出点事，咱们这个家就散了，怎么办？</p><p data-pid=\"FCTO2D6p\">范蠡没办法，只好妥协了。</p><p data-pid=\"Y_5ZmIyO\">他改派大儿子去楚国。</p><p data-pid=\"nd8YDigb\">大儿子出发前，范蠡反复交代他：你到了楚国之后，去找一个叫庄生的人，把这些黄金交给她，然后你就赶紧回来，别多问，也别多管。</p><p data-pid=\"yXfGBZhS\">大儿子点点头，答应了。</p><p data-pid=\"AHtrnxBC\">庄生是楚国的隐士，名声很大，连楚王都很敬重他。范蠡和他是老朋友，知道他有能力把这事办成。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a764ebb521030a05ab583c30b9ed1f7a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"770\" data-original-token=\"v2-a764ebb521030a05ab583c30b9ed1f7a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-a764ebb521030a05ab583c30b9ed1f7a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"t1M9o0OW\">大儿子到了楚国，找到了庄生，把黄金交给了他。庄生收下黄金，就让他赶紧回去。</p><p data-pid=\"UEGSr-ed\">但大儿子没走。</p><p data-pid=\"5BXYO4nB\">他舍不得那些黄金。</p><p data-pid=\"UiD4mrCr\">他心里琢磨，万一庄生拿了钱不办事怎么办？这么多黄金，不就白白浪费了吗？</p><p data-pid=\"6bhPBAtj\">于是他就留在了楚国，私下里又去贿赂其他的权贵，想多找几条门路，确保能把弟弟救出来。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fece55988288178a50957b7a9108ee8d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"755\" data-original-token=\"v2-fece55988288178a50957b7a9108ee8d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-fece55988288178a50957b7a9108ee8d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LeaYigik\">庄生是个清廉的人，他收下范蠡的黄金，本来是打算等事情办成之后再还回去的，并不是真的想要。他去见楚王，说最近天象有点异常，建议楚王大赦天下，安抚民心。楚王听了他的话，同意了大赦。</p><p data-pid=\"TAR4ujBv\">大赦的消息传出来后，大儿子高兴坏了：要大赦了，弟弟肯定能被放出来，那之前给庄生的黄金，不就白给了吗？</p><p data-pid=\"L6xN5z4Z\">他跑到庄生家里，把黄金要了回来。</p><p data-pid=\"CTiR5jfv\">庄生特别生气。</p><p data-pid=\"xi52gHca\">他觉得范家人看不起他，把他当成了贪财的人。于是他又进宫见楚王，说外面有传言，说大王这次大赦，是因为陶朱公的儿子犯了罪，有人花钱买通了关系，大王是为了偏袒他才大赦的。</p><p data-pid=\"6ffF2ohI\">楚王一听，气得不行。</p><p data-pid=\"WVWERyI0\">他下令，先把范家的二儿子杀了，然后再实行大赦。</p><p data-pid=\"seeIZhLP\">大儿子最后只能带着弟弟的尸体回了家。家里人都哭得死去活来，只有范蠡没哭。</p><p data-pid=\"Wh3fP_1K\">他说，我早就知道会是这个结果。</p><p data-pid=\"lrj5JSp4\">大儿子从小跟着我吃苦，知道赚钱不容易，所以舍不得花钱。老三从小在富贵里长大，花钱不心疼，舍得为办事投入。这件事，派老三去肯定能成，派老大去，大概率会失败。</p><p data-pid=\"uw7EAdMu\">我这些日子，其实一直在等这个消息。</p><p data-pid=\"O2U8FIos\">这是范蠡一生中最大的失败。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0ed99cb63b0e3bcc52fe15d393f3ebd6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"814\" data-original-token=\"v2-0ed99cb63b0e3bcc52fe15d393f3ebd6\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic3.zhimg.com/v2-0ed99cb63b0e3bcc52fe15d393f3ebd6_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"WXhHPL-L\">不是他看不准人，也不是他想错了办法，而是他在“执念”面前妥协了。</p><p data-pid=\"v7JTo_Yo\">他明明知道大儿子不合适，却因为妻子的眼泪，因为大儿子的哀求，改变了自己的决定。他这辈子都在躲“执祸”，最后却在亲情面前栽了跟头。</p><p data-pid=\"-e-Tx-am\">执念这东西，往往都来自最亲近的人。</p><p data-pid=\"y5gK4cmg\">你可以对外人冷静，对利益得失看得很开，但面对家人，往往很难狠下心来，很难坚持自己的判断。</p><p data-pid=\"eejrkPwe\">范蠡用一辈子的经历告诉我们，口祸、贪祸、傲祸，这些都能用智慧躲开。唯独执祸，要跟自己的人性对抗。</p><p data-pid=\"eCOjV2JX\">这一关啊，到底有多难，大概只有经历过的人才懂，说不太透。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f3c93928ec519a22a5cc533e05da46d6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"748\" data-original-token=\"v2-f3c93928ec519a22a5cc533e05da46d6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-f3c93928ec519a22a5cc533e05da46d6_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"RjzLCtHc\">参考资料：</p><p data-pid=\"g0X81doB\">1. 司马迁《史记·越王勾践世家》，中华书局2020年版</p><p data-pid=\"QPxTdAXd\">2. 杨宽《战国史》，上海人民出版社2016年版，书中对范蠡、文种辅佐勾践灭吴的历史背景有详细考证</p><p data-pid=\"8x5ZRW48\">3. 中国国家博物馆《春秋史话》专题展览资料，2023年展出，含范蠡相关历史文物与文献解读</p><p data-pid=\"dyKW2FUg\">如果觉得写得不错，那就点个【<b>+关注</b>】或者【<b>赞</b>】吧，感谢阅读！</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7a81feb9458bd68c4548fd72ef9594f6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"810\" data-original-token=\"v2-7a81feb9458bd68c4548fd72ef9594f6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-7a81feb9458bd68c4548fd72ef9594f6_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9DZJosT7\"><b>人生没有太晚的开始，只是过早的放弃。</b></p><p data-pid=\"ShT6AfSX\"><b>愿你成为自己的太阳，无需凭借谁的光。</b></p>",
+        "is_labeled": false,
+        "is_navigator": false,
+        "thanks_count": 4,
+        "updated_time": 1767514298,
+        "thumbnail": "https://picx.zhimg.com/50/v2-38195236dbd7f0a7b144d0aa3924cc49_720w.jpg?source=b6762063",
+        "url": "https://api.zhihu.com/answers/1991179966528918692",
+        "reshipment_settings": "need_payment",
+        "id": "1991179966528918692"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991179966528918692}",
+      "attached_info": "Co4NCPqw8smxzI7EiQEQBBoJNzYzOTY0OTA1ILrB6MoGKE0wBEArSjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifUpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgcyMDE1NTI2YiBlYWVhNTQwNjZjODE5YTZhNzliOWZjYmUxZDkyMjMzNHITMTk5MTE3OTk2NjUyODkxODY5MooBCDI0NTgzNTI2qgEJcmVjb21tZW5kwgEgYmI1YTVmZmFkYzM4ZDFmOWVjNDJiZWY3ZWVmMzZhNjnyAQoIDBIGTm9ybWFs8gEoCAoSJGE3ZDc4YzkyLTk3YjAtNDY1Mi1hODNkLWRkN2E2YTFjMWEzNfIBBQgLEgE4ggIAiAKO/c+buTOSAiBiYjVhNWZmYWRjMzhkMWY5ZWM0MmJlZjdlZWYzNmE2OZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1Yy6AID+gILTk9STUFMX0ZMT1eKAyBlZjZlMDFlZjNkODY0NjA1OTAyNDI1YTVlOGI2YWU2OJoDDQoCdjIQABoFb3RoZXKoA/kY2AMA6gMWZmVlZHJlX2ZpcnN0X3NjcmVlbl92MvoDnAcSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxC4CBj3BSIjdjItMzgxOTUyMzZkYmQ3ZjBhN2IxNDRkMGFhMzkyNGNjNDk6LQgDELgIGIgGIiN2Mi1jZDliYzkzZjliYjE0NjYwMTY0M2ZiZjY1NzE4MTkyMzotCAMQuAgY8wUiI3YyLTZiODE2NmMwNzY4OTAwZDRjMzY5YmIxOGY2YjM1ZjhiOi0IAxC4CBiqBiIjdjItOWVlMjJjMzY4YWQwOTkyYTU2ZmFlZjNlNGI4ZWYyYTU6LQgDELgIGPUFIiN2Mi03OGE1YTg0NTM3ZGUxNmEwMTAyMmUwYWFmZDcxZGEyZTotCAMQuAgYxwUiI3YyLTBhOGRhMWNlZWJmNDA2MDM2NjgyODc5YTljZTlhNGE2Oi0IBBC4CBjxBSIjdjItNTAxZTc1ODUxN2ZkNjIzNjlmMDg1YzNjZGRkMjVlMjM6LQgFEJIIGN8EIiN2Mi05NzdmNzIxMmRhZGU4N2I1MTI0ODE3YjQ4ZGZlN2RkZDotCAMQuAgY0QUiI3YyLTgyMzk2YmI1ZmU0MjgwODhjOGQ1ZDZlZGYxYTc3ZDE3Oi0IAxC4CBj3BSIjdjItMTQ2MGZmYTM0MzAwZTgyYzJiYjBmMWEzYTlmMTFkZTg6LQgEELgIGLMHIiN2Mi04NTM1YWJkOTI5MjlmNWQyMzNkMTQyODMyZTM2ZTU4ZDotCAMQqggYoAYiI3YyLTFmNGVjNTViZDI2ZDExM2U4ZWFlNzA5YzVjNmIyM2UxOi0IBRC4CBjwBSIjdjItMDVkNGY5YTE3OTY5MTg0Yzk2MDYzODdmNzgxNWMzMjQ6LQgCELgIGOAEIiN2Mi0yYTUxZTdjNTQ2ZWFkMjY1NzY1MmVkMzk1YWEwZDM3NDotCAMQuAgYggYiI3YyLWE3NjRlYmI1MjEwMzBhMDVhYjU4M2MzMGI5ZWQxZjdhOi0IAxC4CBjzBSIjdjItZmVjZTU1OTg4Mjg4MTc4YTUwOTU3YjdhOTEwOGVlOGQ6LQgDEKAGGK4GIiN2Mi0wZWQ5OWNiNjNiMGUzYmNjNTJmZTE1ZDM5M2YzZWJkNjotCAMQuAgY7AUiI3YyLWYzYzkzOTI4ZWM1MTlhMjJhNWNjNTMzZTA1ZGE0NmQ2Oi0IAhC4CBiqBiIjdjItN2E4MWZlYjk0NThiZDY4YzQ1NDhmZDcyZWY5NTk0ZjaABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKCU5JU/gQUAAAAAAAAAAIkFLGXS2dNTsT+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGK6gGA5ICLgoJNzYzOTY0OTA1EhMxOTkxMTc5OTY2NTI4OTE4NjkyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "44_1767705411.244",
+      "type": "feed",
+      "offset": 44,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705411,
+      "updated_time": 1767705411,
+      "target": {
+        "is_copyable": true,
+        "vote_next_step": "vote",
+        "created_time": 1767148758,
+        "is_navigator": false,
+        "question": {
+          "bound_topic_ids": [
+            307,
+            2293,
+            11303
+          ],
+          "excerpt": "",
+          "question_type": "normal",
+          "comment_count": 3,
+          "author": {
+            "id": "46935a08f0086fdc56134ca34514247c",
+            "url_token": "liu-hai-55-49",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_followed": false,
+            "gender": 0,
+            "followers_count": 8,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/46935a08f0086fdc56134ca34514247c",
+            "user_type": "people",
+            "name": "自洽渔人",
+            "headline": "很好",
+            "is_org": false
+          },
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/622362892",
+          "title": "有哪些你吃了一次就不想再吃的东西？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "detail": "",
+          "type": "question",
+          "created": 1694847849,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "622362892"
+        },
+        "reshipment_settings": "allowed",
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-58741a29966046a156d104205bf6506e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-ba277f0ae3a525d794bcd8ab44264041\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-58741a29966046a156d104205bf6506e_r.jpg\"/></figure><p data-pid=\"ty9fC_tp\">去重庆旅游在路边遇到的第一个食物，口味凭我的经验，光从外观来说，肯定不好吃。</p><p data-pid=\"Qvnrm2jB\">但架不住每隔一条马路就有几个摊位，甚至水果店也有这个。</p><p data-pid=\"yWm9Of4D\">实在忍不住，商量了一下能不能试吃一颗，问了2家，均被拒绝。</p><p data-pid=\"kd4W8x_V\">好奇心爆棚索性买了，这玩意还特别压秤，因为预感不太好吃，就没多买，但还是称重了20多块。</p><p data-pid=\"T5REk6ol\">吃了一口一直，我释然了.......</p><p data-pid=\"RSEX5K35\">————————————</p><p data-pid=\"0GQ_TB1I\">2026年1月5日的更新</p><p data-pid=\"NnVGIPY-\">看来大家深受这果子的荼毒，我又想起当时特地避开了小地摊，进了家门面朝着路口的水果店买的。</p><p data-pid=\"Tx9U9ObG\">店家还装模作样的给我洗了洗，告诉我能直接吃。现在想起来这果子就是彻头彻尾的“纯骗”。</p><p data-pid=\"qbELkkSN\">从果篮里绿叶子的点缀开始，到吃前洗一洗，都在营造一种刚摘下来的，和正常水果一样的氛围。</p><p data-pid=\"aEPeIg-P\">但是靠“被骗”来建立旅游的记忆点，也是挺有趣的哈哈哈，毕竟去过不少地方，有些似乎除了我去过，其他已经回忆不起来啦。</p><p data-pid=\"MdOp9AyO\">————————————</p>",
+        "visited_count": 61646,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-ba277f0ae3a525d794bcd8ab44264041_720w.jpg?source=b6762063"
+        ],
+        "excerpt_new": "去重庆旅游在路边遇到的第一个食物，口味凭我的经验，光从外观来说，肯定不好吃。 但架不住每隔一条马路就有几个摊位，甚至水果店也有这个。 实在忍不住，商量了一下能不能试吃一颗，问了2家，均被拒绝。 好奇心爆棚索性买了，这玩意还特别压秤，因为预感不太好吃，就没多买，但还是称重了20多块。 吃了一口一直，我释然了....... ———————————— 2026年1月5日的更新 看来大家深受这果子的荼毒，我又想起当时特地避开…",
+        "thumbnail": "https://pica.zhimg.com/50/v2-ba277f0ae3a525d794bcd8ab44264041_720w.jpg?source=b6762063",
+        "favorite_count": 11,
+        "url": "https://api.zhihu.com/answers/1989646782410544211",
+        "voteup_count": 121,
+        "type": "answer",
+        "excerpt": "去重庆旅游在路边遇到的第一个食物，口味凭我的经验，光从外观来说，肯定不好吃。 但架不住每隔一条马路就有几个摊位，甚至水果店也有这个。 实在忍不住，商量了一下能不能试吃一颗，问了2家，均被拒绝。 好奇心爆棚索性买了，这玩意还特别压秤，因为预感不太好吃，就没多买，但还是称重了20多块。 吃了一口一直，我释然了....... ———————————— 2026年1月5日的更新 看来大家深受这果子的荼毒，我又想起当时特地避开…",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "updated_time": 1767659945,
+        "thanks_count": 5,
+        "preview_text": "",
+        "navigator_vote": false,
+        "author": {
+          "url_token": "kyoeam",
+          "name": "我要上冠绝啊",
+          "avatar_url": "https://pic1.zhimg.com/50/df32268920557174b0097abcbd79b29c_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false,
+          "id": "9d30e46c23f4da0241d7cde51bb34a09",
+          "user_type": "people",
+          "headline": "做菜/Dota2/拍照",
+          "gender": -1,
+          "followers_count": 38,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/9d30e46c23f4da0241d7cde51bb34a09"
+        },
+        "comment_count": 139,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "allow_segment_interaction": true,
+        "id": "1989646782410544211"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989646782410544211}",
+      "attached_info": "CpYGCPqw8smxzI7EiQEQBBoJNzYzNDIwNTA5INaZ0soGKHkwiwFALEooChNUU19TT1VSQ0VfRkVFRFJFX1Y1EgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTAwNTgyMzczYiBlYWVhNTQwNjZjODE5YTZhNzliOWZjYmUxZDkyMjMzNHITMTk4OTY0Njc4MjQxMDU0NDIxMYoBCTYyMjM2Mjg5MqoBCXJlY29tbWVuZMIBIDlkMzBlNDZjMjNmNGRhMDI0MWQ3Y2RlNTFiYjM0YTA58gEKCAwSBk5vcm1hbPIBKAgKEiQ5ZGNmM2IyOS02NThmLTRhMjQtYjQyZC0wZWQyNzVmMTIyMDnyAQUICxIBOIICAIgCjv3Pm7kzkgIgOWQzMGU0NmMyM2Y0ZGEwMjQxZDdjZGU1MWJiMzRhMDmaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXaAhNUU19TT1VSQ0VfRkVFRFJFX1Y16AIC+gILTk9STUFMX0ZMT1eKAyBlZjZlMDFlZjNkODY0NjA1OTAyNDI1YTVlOGI2YWU2OJoDDQoCdjIQABoFb3RoZXKoA87hA9gDAOoDGWZlZWRyZVdhcm1TdWNjZXNzUmVjYWxsZXL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBC4CBigCyIjdjItYmEyNzdmMGFlM2E1MjVkNzk0YmNkOGFiNDQyNjQwNDGABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOCPd6Y/gQUAAAAAAAAAAIkFLGXS2dNTsT+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGLKgGAJICLgoJNzYzNDIwNTA5EhMxOTg5NjQ2NzgyNDEwNTQ0MjExGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "45_1767705411.537",
+      "type": "feed",
+      "offset": 45,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705411,
+      "updated_time": 1767705411,
+      "target": {
+        "author": {
+          "headline": "第七届中国青年好网民。养猫的90后工程师，老牌但有趣。",
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "文学等 3 个话题下的优秀答主",
+              "topic_names": [
+                "文学",
+                "博物馆",
+                "考古"
+              ],
+              "topic_ids": [
+                2058,
+                411,
+                7120
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜社科人文领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "天津大学 电气工程硕士"
+            }
+          ],
+          "id": "6e256eed1421ccbe479355dd5bc32cea",
+          "url_token": "xi-nan-da-hu-you",
+          "name": "李子寒泉",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f878f1ee77b118ad4cbe42025368b439_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 99634,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/6e256eed1421ccbe479355dd5bc32cea",
+          "user_type": "people"
+        },
+        "preview_text": "",
+        "preview_type": "default",
+        "is_navigator": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-2dbae1d11818e0ecf7a08d13fc0c61e1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8d774a376f7a8222d9cd207b19882175_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-0bcd9b143751cdb748cd88bf8235658a_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "segment_infos": [
+          {
+            "pid": "gs9PVoiJ",
+            "text": "所以，你觉得这幅字写的好看么？",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 15,
+                "seg_info": {
+                  "seg_ids": [
+                    "1970057600675615215"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "created_time": 1762424438,
+        "thanks_count": 25,
+        "excerpt_new": "195件禁止出国文物中的王安石《楞严经旨要》。   在195件禁止出国文物中，仅有9件宋代书法作品，王安石此书能名列其中，可见其珍贵。 但无论书法家从什么角度，把这幅字夸得天花乱坠，你都能感觉到，这个字的确写得不咋滴。 例如北宋书法四大家中的黄庭坚，作为苏轼之弟子，他将荆公书法推崇为下“二王”一等称大家的水平 诚有意书字，当远法王氏父子，近法颜、杨，乃能超俗出群。正使未能造微入妙，已不为俗书，如苏才翁兄弟、王…",
+        "visited_count": 72831,
+        "type": "answer",
+        "is_copyable": false,
+        "question": {
+          "type": "question",
+          "author": {
+            "id": "e0067b2140d6ac9d189773dd698334c5",
+            "url": "https://api.zhihu.com/people/e0067b2140d6ac9d189773dd698334c5",
+            "user_type": "people",
+            "headline": "",
+            "gender": -1,
+            "followers_count": 34,
+            "is_following": false,
+            "is_followed": false,
+            "url_token": "wu-tuo-bang-xing-ren",
+            "name": "乌托邦星人",
+            "avatar_url": "https://picx.zhimg.com/50/v2-65f4851bc548443e76c8908c3724648a_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/68681866",
+          "title": "有没有古人写字比较丑的流传到现在的？",
+          "comment_count": 3,
+          "created": 1511688326,
+          "follower_count": 0,
+          "question_type": "normal",
+          "id": "68681866",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            285,
+            569,
+            1306,
+            23196,
+            25566
+          ],
+          "is_following": false
+        },
+        "content": "<p data-pid=\"ItWWj6gk\">195件禁止出国文物中的王安石《楞严经旨要》。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2dbae1d11818e0ecf7a08d13fc0c61e1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1088\" data-rawheight=\"1448\" data-original-token=\"v2-2dbae1d11818e0ecf7a08d13fc0c61e1\" class=\"origin_image zh-lightbox-thumb\" width=\"1088\" data-original=\"https://pic2.zhimg.com/v2-2dbae1d11818e0ecf7a08d13fc0c61e1_r.jpg\"/></figure><p data-pid=\"9IHi0QY4\">在195件禁止出国文物中，仅有9件宋代书法作品，王安石此书能名列其中，可见其珍贵。</p><p data-pid=\"s49A9FOP\">但无论书法家从什么角度，把这幅字夸得天花乱坠，你都能感觉到，这个字的确写得不咋滴。</p><p data-pid=\"rK2oR0gX\">例如北宋书法四大家中的黄庭坚，作为苏轼之弟子，他将荆公书法推崇为下“二王”一等称大家的水平</p><blockquote data-pid=\"9h4MhkX4\"><i>诚有意书字，当远法王氏父子，近法颜、杨，乃能超俗出群。正使未能造微入妙，已不为俗书，如苏才翁兄弟、王荆公是也</i>。</blockquote><p data-pid=\"4WGOSxsw\">黄庭坚作诗作文都喜欢怪，发此奇谈怪论也很正常。</p><p data-pid=\"QRzogC8M\">《楞严经旨要》卷作于王安石罢相8年后，死亡前1年。此卷长119厘米，宽30厘米，经文共计72行，字体用小行书。全卷纸本，拼接两次，隔水采用云凤鸟纹绫装裱，极精美。此卷为王安石当世仅存两幅墨迹之一，另一幅《过从帖》现藏台北故宫博物院，仅6行41字，较《楞严经要旨》颇不如。</p><p data-pid=\"wfKLP2vK\">首题“大佛顶如来密因修证了义诸菩萨万行首楞严经”，中书该经“观世音菩萨发妙耳门从闻思修入三摩地”一节，此节为全经“法髓”。末书“余归钟山，道原假楞严本手自校正，刻之寺中。时元丰八年四月十一日，临川王安石稽首敬书”。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8d774a376f7a8222d9cd207b19882175_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3072\" data-rawheight=\"4096\" data-original-token=\"v2-8d774a376f7a8222d9cd207b19882175\" class=\"origin_image zh-lightbox-thumb\" width=\"3072\" data-original=\"https://picx.zhimg.com/v2-8d774a376f7a8222d9cd207b19882175_r.jpg\"/></figure><p data-pid=\"LYbZR6Oj\">王安石是“字如其人”的最好典范，他的字有“斜风急雨”和“书无渊源”两大特点。所谓“斜风急雨”形容王安石性子急躁，因此写字也匆忙，仿佛有人追赶逼迫，明明是写正书，却一下笔就带着行书笔意，迫不及待。</p><p data-pid=\"AoX-vHVZ\">在《楞严经旨要》卷中，这种“斜风急雨”的特点体现的淋漓极致体现得淋漓尽致，字体架构疏阔，长横长撇频繁出现，仿佛有人在书卷上纵横长枪大戟，每行之间距离短促，常有一行之字“入侵”到另一行连成一体的状况。</p><p data-pid=\"-lJo5dPb\">甚至荆公写字似乎连蘸墨都嫌浪费时间，因此每次蘸墨都不待墨水浸透笔端就赶紧落笔书写，全卷字枯且淡。虽是书佛经，却无散淡之气，反而有“时不我待”之触动。</p><p data-pid=\"YKxQDWYh\">对于荆公“斜风急雨”的书法特点，很多文人学者嗤之以鼻。轻一点的是调侃，例如后学张栻在《跋王介甫帖》中便揶揄“丞相平生何有许忙迫时邪？”。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0bcd9b143751cdb748cd88bf8235658a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-original-token=\"v2-0bcd9b143751cdb748cd88bf8235658a\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pica.zhimg.com/v2-0bcd9b143751cdb748cd88bf8235658a_r.jpg\"/></figure><p data-pid=\"36tj_y-L\">程度重一点的是对其书法的彻底批判，如一直和王安石不怎么对付的苏轼，便评价“荆公书得无法之法，然不可学，学之则无法”。</p><p data-pid=\"WOKMQJ49\">现代书画鉴定大家徐邦达也直言“王安石实在并不擅长书法”。最严重的便是以“字如其人”为桥梁，在书风与人品之间建立强相关性，从而对王安石进行人身攻击，如宋末书法家牟应龙便将荆公与范仲淹、韩琦、文彦博等人“浑厚端庄”的书法进行对比，认为“世称王荆公书如斜风急雨，其胸中躁扰可以想见”，“躁扰”之评价不可谓不重。</p><p data-pid=\"gs9PVoiJ\">所以，你觉得这幅字写的好看么？</p>",
+        "voteup_count": 390,
+        "comment_count": 134,
+        "reshipment_settings": "disallowed",
+        "favorite_count": 203,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1969831548518925662",
+        "updated_time": 1762424438,
+        "excerpt": "195件禁止出国文物中的王安石《楞严经旨要》。   在195件禁止出国文物中，仅有9件宋代书法作品，王安石此书能名列其中，可见其珍贵。 但无论书法家从什么角度，把这幅字夸得天花乱坠，你都能感觉到，这个字的确写得不咋滴。 例如北宋书法四大家中的黄庭坚，作为苏轼之弟子，他将荆公书法推崇为下“二王”一等称大家的水平 诚有意书字，当远法王氏父子，近法颜、杨，乃能超俗出群。正使未能造微入妙，已不为俗书，如苏才翁兄弟、王…",
+        "is_labeled": false,
+        "id": "1969831548518925662",
+        "thumbnail": "https://pica.zhimg.com/50/v2-2dbae1d11818e0ecf7a08d13fc0c61e1_720w.jpg?source=b6762063",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1969831548518925662}",
+      "attached_info": "CocHCPqw8smxzI7EiQEQBBoJNzU1MzA0MDE3IPbsscgGKIYDMIYBQC1KLwoGSXRlbUNGEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3NTE2NTk4NTgKGAAgADoAWggxOTcwMTY3M2IgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE5Njk4MzE1NDg1MTg5MjU2NjKKAQg2ODY4MTg2NqoBCXJlY29tbWVuZMIBIDZlMjU2ZWVkMTQyMWNjYmU0NzkzNTVkZDViYzMyY2Vh8gEKCAwSBk5vcm1hbPIBKAgKEiQ2OGQxNTBmYS03OGNhLTQ0ZjQtYTBiZC1jOGFmMTM0YTg2NDDyAQUICxIBOIICAIgCjv3Pm7kzkgIgNmUyNTZlZWQxNDIxY2NiZTQ3OTM1NWRkNWJjMzJjZWGaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCBkl0ZW1DRugCA/oCC05PUk1BTF9GTE9XigMgZWY2ZTAxZWYzZDg2NDYwNTkwMjQyNWE1ZThiNmFlNjiaAw0KAnYyEAAaBW90aGVyqAP/uATYAwDqAxV0ZXh0QWxsU2l0ZU12SXRlbUNGVjL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQwAgYqAsiI3YyLTJkYmFlMWQxMTgxOGUwZWNmN2EwOGQxM2ZjMGM2MWUxOi0IAhCAGBiAICIjdjItOGQ3NzRhMzc2ZjdhODIyMmQ5Y2QyMDdiMTk4ODIxNzU6LQgCEIAgGIAYIiN2Mi0wYmNkOWIxNDM3NTFjZGI3NDhjZDg4YmY4MjM1NjU4YYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgLMToj+BBQAAAAAAAAAAiQUsZdLZ01OxP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIkAYAoAYtqAYAkgIuCgk3NTUzMDQwMTcSEzE5Njk4MzE1NDg1MTg5MjU2NjIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "46_1767705411.145",
+      "type": "feed",
+      "offset": 46,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705411,
+      "updated_time": 1767705411,
+      "target": {
+        "excerpt": "昨天，有一个挺有意思的产品开源了。 AI绘图圈的朋友们肯定都知道这个产品。   FLUX。 曾经的AI绘图之王，几乎取代了曾经SD的生态，成为了最主流的基座模型。 可时过境迁，在如今Nano Banana Pro的轰炸之下，好像已经没有什么人在乎他们了，也几乎没什么热度。 真的挺惨的。 但是毕竟是AI绘图圈仅剩不多的火种了，所以我觉得，还是得来聊一聊。。。 这次，发布了4款基础模型和1个VAE模型，其中2款是不开源的。 分别是Pro和Flex，…",
+        "is_labeled": false,
+        "url": "https://api.zhihu.com/articles/1976968896876671585",
+        "created": 1764126198,
+        "visited_count": 31428,
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-5a18dba9e8255dd48f0a3c91fe97ec9d.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pica.zhimg.com/50/v2-f22c3dcb773aa2e5897fc6bf8d03ede5_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-2e46ecfa207ac2cd6484369a9a06a0a4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f94d8725cf5929216a870860e600b9c0_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c053c8d4fd71502ba8ae24409688032b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8529a82018e6967af6f39efd6e98305c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e202a9629a8f0847046e1fa4dfb6398f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-43536c1b8a1ff9056a77d3ec2c2d22e1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-dc5053377e120290b303ff96d9779bf5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-130ad452088b521feeeae29e767f324e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f735cff6e6cff96cbc96206c9b123910_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "updated": 1764126198,
+        "excerpt_new": "昨天，有一个挺有意思的产品开源了。 AI绘图圈的朋友们肯定都知道这个产品。   FLUX。 曾经的AI绘图之王，几乎取代了曾经SD的生态，成为了最主流的基座模型。 可时过境迁，在如今Nano Banana Pro的轰炸之下，好像已经没有什么人在乎他们了，也几乎没什么热度。 真的挺惨的。 但是毕竟是AI绘图圈仅剩不多的火种了，所以我觉得，还是得来聊一聊。。。 这次，发布了4款基础模型和1个VAE模型，其中2款是不开源的。 分别是Pro和Flex，…",
+        "favorite_count": 385,
+        "author": {
+          "id": "c4fc43be7292599cd7d61cc195b5c145",
+          "url_token": "Khazix",
+          "name": "数字生命卡兹克",
+          "headline": "反复横跳于不同的AI领域，努力分享一些很酷的AI干货。",
+          "gender": 1,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/c4fc43be7292599cd7d61cc195b5c145",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-9767bdf72d2d5087f1e1e22673327ff9_l.jpg?source=b6762063",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "super_activity",
+              "description": "知势榜科技互联网领域影响力榜答主"
+            }
+          ],
+          "followers_count": 22528,
+          "is_following": false
+        },
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "preview_text": "",
+        "title": "FLUX.2开源了，但是我好像也看到了小公司的无力。",
+        "voteup_count": 480,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "id": "1976968896876671585",
+        "image_url": "https://pic1.zhimg.com/v2-5a18dba9e8255dd48f0a3c91fe97ec9d.jpg?source=7e7ef6e2&needBackground=1",
+        "voting": 0,
+        "preview_type": "default",
+        "article_type": "normal",
+        "comment_count": 84,
+        "vote_next_step": "vote",
+        "type": "article",
+        "comment_permission": "all",
+        "content": "<p data-pid=\"bE1sWNoh\">昨天，有一个挺有意思的产品开源了。</p><p data-pid=\"lSLd-gld\">AI绘图圈的朋友们肯定都知道这个产品。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-91458e3e029719d55f2a4a46d0ea5e54_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"596\" data-rawheight=\"797\" data-original-token=\"v2-91458e3e029719d55f2a4a46d0ea5e54\" class=\"origin_image zh-lightbox-thumb\" width=\"596\" data-original=\"https://pic3.zhimg.com/v2-91458e3e029719d55f2a4a46d0ea5e54_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LZWMOOsu\">FLUX。</p><p data-pid=\"p17j3Yl3\">曾经的AI绘图之王，几乎取代了曾经SD的生态，成为了最主流的基座模型。</p><p data-pid=\"LoCNekkX\">可时过境迁，在如今Nano Banana Pro的轰炸之下，好像已经没有什么人在乎他们了，也几乎没什么热度。</p><p data-pid=\"ZoQBKljh\">真的挺惨的。</p><p data-pid=\"_hA36dlG\">但是毕竟是AI绘图圈仅剩不多的火种了，所以我觉得，还是得来聊一聊。。。</p><p data-pid=\"A1yx2oOk\">这次，发布了4款基础模型和1个VAE模型，其中2款是不开源的。</p><p data-pid=\"thBw1k-I\">分别是Pro和Flex，这两个最强大的模型，是闭源的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-48527124cc48a821ae586e61e7c3ac4d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1009\" data-rawheight=\"332\" data-original-token=\"v2-48527124cc48a821ae586e61e7c3ac4d\" class=\"origin_image zh-lightbox-thumb\" width=\"1009\" data-original=\"https://pic4.zhimg.com/v2-48527124cc48a821ae586e61e7c3ac4d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ACIosnav\">而其中2款模型是开源的，一个dev，目前已经开源了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5780e2c43883b7e242c346b864ef5263_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1040\" data-rawheight=\"453\" data-original-token=\"v2-5780e2c43883b7e242c346b864ef5263\" class=\"origin_image zh-lightbox-thumb\" width=\"1040\" data-original=\"https://pic2.zhimg.com/v2-5780e2c43883b7e242c346b864ef5263_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4C8Qq0UX\">开源链接：</p><p data-pid=\"d9LGqLHc\"><a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/black-forest-labs/FLUX.2-dev\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">huggingface.co/black-fo</span><span class=\"invisible\">rest-labs/FLUX.2-dev</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"tT25E2vb\">然后另一款是klein，一个蒸馏模型，说即将开源。。。</p><p data-pid=\"TlnQCWAk\">目前整体模型，等liblib接完应该就在liblib上可用，或者也可以去他们官网用，去官网的话记得上魔法。</p><p data-pid=\"YxSgFZfm\"><a href=\"https://link.zhihu.com/?target=https%3A//playground.bfl.ai/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">playground.bfl.ai/</span><span class=\"invisible\"></span></a></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b1f600c04e8aff41b45d5bb557e89de9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"564\" data-original-token=\"v2-b1f600c04e8aff41b45d5bb557e89de9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-b1f600c04e8aff41b45d5bb557e89de9_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"m1aWdNtN\">我也做了一些测试，坦诚的讲，当我用相同的Prompt，看到他跟Nano Banana Pro的对比，我还是很感慨的。</p><p data-pid=\"DOZRBFGh\">我直接放一下对比的图，大家也可以自己感受一下。</p><p data-pid=\"Sew69hlr\">先看几个纯粹的生图效果。</p><p data-pid=\"nBwMuaUY\">Prompt：人类考古学家在金字塔挖掘现场发现一个旋转金属球的真实手持拍摄，手持纪录片现实主义，真实手持风格。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f22c3dcb773aa2e5897fc6bf8d03ede5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"1135\" data-original-token=\"v2-f22c3dcb773aa2e5897fc6bf8d03ede5\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic2.zhimg.com/v2-f22c3dcb773aa2e5897fc6bf8d03ede5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TdZWLC-H\">Prompt：一张平平无奇的iPhone照片，无精心构图和打光，日常快拍，松弛氛围感亚洲美女，穿着宽松厚毛衣与牛仔阔腿裤，舒适随性。肩上自然背着一只单肩包，款式简洁低调，增添生活气息。她随意站在街头或咖啡馆门口，身体微微侧身或靠在墙边，姿态松弛自然。双手可以插在裤袋里，或一只手轻扶单肩包带，整体动作不经意。头发自然散落，清爽不凌乱，眼神放空或带着淡淡笑意。环境为日常街景或室内阳光洒落的空间，光线柔和，画面像朋友用手机随手拍下的松弛瞬间。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-629bf59408f9c8880a62e67916e6a4d2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"1135\" data-qrcode-action=\"none\" data-original-token=\"v2-629bf59408f9c8880a62e67916e6a4d2\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic3.zhimg.com/v2-629bf59408f9c8880a62e67916e6a4d2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8N_EXb80\">Prompt：《龙珠 Z》中的神龙正看着眼前的龙珠，以酷炫的彩色铅笔风格，动态多彩的画面，带电的阴影。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2e46ecfa207ac2cd6484369a9a06a0a4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"1135\" data-original-token=\"v2-2e46ecfa207ac2cd6484369a9a06a0a4\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic1.zhimg.com/v2-2e46ecfa207ac2cd6484369a9a06a0a4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"x2d2m0ea\">还有中文字海报：</p><p data-pid=\"QwS0JEGh\">动画电影《天书奇谭》艺术海报，中国山水画风格，工笔画细节，高级感，水墨晕染效果，传统青绿山水色系，连绵起伏的云雾缭绕的青山。山脉呈递进透视。有红色的仙鹤群点缀其间，营造出奇幻、磅礴、大气的意境，柔和而明亮的光线，高细节，电影级品质。主题为手写艺术字体“天书奇谭”，加入电影海报需要的其他小字以增加质感，全部文字清晰可辨认。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f94d8725cf5929216a870860e600b9c0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"1135\" data-original-token=\"v2-f94d8725cf5929216a870860e600b9c0\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic3.zhimg.com/v2-f94d8725cf5929216a870860e600b9c0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"G358OVxE\">好坏我就不评价了，大家可以自己对比。</p><p data-pid=\"oVKmbyOq\">然后就是用嘴改图的能力。</p><p data-pid=\"HlUl0YAs\">比如这张图。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c053c8d4fd71502ba8ae24409688032b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"797\" data-original-token=\"v2-c053c8d4fd71502ba8ae24409688032b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-c053c8d4fd71502ba8ae24409688032b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2bqwJLLC\">我得Prompt：</p><p data-pid=\"RBnjHw4L\">让左边的人物cosplay右边的角色，服饰、妆容、道具和右边一致。</p><p data-pid=\"SGZpMjQ7\">先看看Nano Banana Pro的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8529a82018e6967af6f39efd6e98305c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"751\" data-original-token=\"v2-8529a82018e6967af6f39efd6e98305c\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pica.zhimg.com/v2-8529a82018e6967af6f39efd6e98305c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kOCUSHS3\">整体还不错对吧，衣服头发辫子啥的都很好的还原了金克丝。</p><p data-pid=\"b8cDxNj5\">再来看Flux.2的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-494539a07edbe6f5546ab979461f5817_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-494539a07edbe6f5546ab979461f5817\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-494539a07edbe6f5546ab979461f5817_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NbWe0STf\">说实话，我不知道该如何评价，这都不知道给我干哪来了。</p><p data-pid=\"6e8MYyC6\">还有这个妹子。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e202a9629a8f0847046e1fa4dfb6398f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"846\" data-original-token=\"v2-e202a9629a8f0847046e1fa4dfb6398f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-e202a9629a8f0847046e1fa4dfb6398f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QVmhixv4\">我想把它变成真人，就用嘴说了一句：</p><p data-pid=\"V9vvp21d\">变成真人照片。</p><p data-pid=\"U9loipdA\">这两效果是这样的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-43536c1b8a1ff9056a77d3ec2c2d22e1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"708\" data-original-token=\"v2-43536c1b8a1ff9056a77d3ec2c2d22e1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-43536c1b8a1ff9056a77d3ec2c2d22e1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TiDOG_nx\">就。。。</p><p data-pid=\"d9X8wli7\">但这些，毕竟不是重点。</p><p data-pid=\"9mmfM-X4\">真正的重点，我觉得还是，世界知识。</p><p data-pid=\"RO5f5qyC\">大家现在都知道，Nano Banana Pro背后，是Gemini 3 Pro，当今世界几乎最强的多模态大模型。</p><p data-pid=\"glPEqv8k\">而Flux.2，背后用的，是Mistral-3 24B。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c1cf7703f56f277a475bbad112e7d502_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1027\" data-rawheight=\"280\" data-original-token=\"v2-c1cf7703f56f277a475bbad112e7d502\" class=\"origin_image zh-lightbox-thumb\" width=\"1027\" data-original=\"https://pic1.zhimg.com/v2-c1cf7703f56f277a475bbad112e7d502_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HVkP6tt1\">这个模型吧，我就不评价了。</p><p data-pid=\"wlZ7nofr\">我放一个我朋友的图。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9140fff4c777c8be9822740d4ab69c11_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"601\" data-rawheight=\"319\" data-original-token=\"v2-9140fff4c777c8be9822740d4ab69c11\" class=\"origin_image zh-lightbox-thumb\" width=\"601\" data-original=\"https://picx.zhimg.com/v2-9140fff4c777c8be9822740d4ab69c11_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kIaTNtOd\">所以，我们来看看，在世界知识上的表现。</p><p data-pid=\"VQJOb0Te\">比如这个Prompt：制作一份关于海贼王里战力排名的信息图。</p><p data-pid=\"W34KyrSb\">Nano Banana Pro出来的效果，是这样的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f482aae51b8a5d269e079d5dbb75419e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"559\" data-original-token=\"v2-f482aae51b8a5d269e079d5dbb75419e\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic1.zhimg.com/v2-f482aae51b8a5d269e079d5dbb75419e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"iihvXHm3\">效果非常好对吧，深刻的了解海贼王的知识，虽然我已经有一段时间没追过海贼王了，有些细节我没法判断是不是对的，但是至少，这一出来，还是很唬人的。</p><p data-pid=\"YL1QHdl3\">你能明白，对方是懂海贼王的，对吧。</p><p data-pid=\"7WqTTpmD\">而Flux.2。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-32aa9f40d071f854451d94517b54966e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-32aa9f40d071f854451d94517b54966e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-32aa9f40d071f854451d94517b54966e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hzKsOBEZ\">这明显就不懂海贼王。</p><p data-pid=\"nHGZWAPH\">还有@卡尔的AI沃兹的一个非常经典的Prompt：</p><p data-pid=\"lcCrL2_6\">中国动画中的孙悟空和路飞、漩涡鸣人、炭治郎、御坂美琴、蕾姆、桐谷和人、明日香、草帽乔巴、鹿目圆、阿尼亚·福杰、黑崎一护、艾伦·耶格尔、灰原哀和初音未来和哪吒、李白、唐僧、海绵宝宝、蜡笔小新、迪士尼公主们站在一起，大杂烩式同框，集体大合照；背景是一望无际的草原、蓝天与白云，整体明亮清新的动漫风格。</p><p data-pid=\"6kux7cGB\">这个基本对不懂世界知识的，就是致命的。</p><p data-pid=\"ZOtKbbp4\">看看卡尔用Nano Banana Pro跑的图：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-607185b84a920dad6476858be5b1795b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"603\" data-original-token=\"v2-607185b84a920dad6476858be5b1795b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-607185b84a920dad6476858be5b1795b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oacA-nEt\">牛逼到爆炸，几乎全对。</p><p data-pid=\"Vt6816qs\">还有一样是@卡尔的AI沃兹的Prompt：</p><p data-pid=\"lGTJ4ZjW\">生成下一张书页的内容。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-dc5053377e120290b303ff96d9779bf5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1399\" data-original-token=\"v2-dc5053377e120290b303ff96d9779bf5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-dc5053377e120290b303ff96d9779bf5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1Ow76JFO\">Banana Pro是真的强。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-130ad452088b521feeeae29e767f324e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"806\" data-original-token=\"v2-130ad452088b521feeeae29e767f324e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-130ad452088b521feeeae29e767f324e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LMlwj7LG\">但是Flux.2呢。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f735cff6e6cff96cbc96206c9b123910_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1072\" data-rawheight=\"1392\" data-original-token=\"v2-f735cff6e6cff96cbc96206c9b123910\" class=\"origin_image zh-lightbox-thumb\" width=\"1072\" data-original=\"https://pic1.zhimg.com/v2-f735cff6e6cff96cbc96206c9b123910_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"O6i7AvXA\">直接在原图上变成了一堆乱码。</p><p data-pid=\"olEzsXGf\">一声长长的叹息。</p><p data-pid=\"lV-1-d3b\">从Flux.2其实越来越能看出，现在的一个趋势。</p><p data-pid=\"4E_1dKzw\">在大厂反应过来以后，资源的All in下，做模型的小厂、小公司。</p><p data-pid=\"xJsgKKnk\">开始变得越来越跟不上、越来越掉队了。</p><p data-pid=\"U1Pv_b5x\">在Google上一周一路狂飙的背后，有人惊喜，有人沉默。</p><p data-pid=\"HBaTdryr\">而Flux的工程师们，我想，大概率是后者。</p><p data-pid=\"9Jdwx7Gi\">我几乎能想象到那个画面。</p><p data-pid=\"gAWu1Kv_\">在某个灯火通明的办公室里，一群极度聪明的工程师，可能桌上还堆着喝完的红牛和咖啡杯。</p><p data-pid=\"XiedVUOT\">他们花了无数个日夜，去优化FLux的细节，去研究如何让模型的笔触更加细腻，他们抠每一个参数，都像是匠人在打磨一件艺术品。</p><p data-pid=\"XzpASPIq\">他们坚信，只要把绘图这件事做到极致，就能赢得用户的尊重和市场。</p><p data-pid=\"wzogl38E\">然后，他们满怀期待地准备发布，这时候，Google发布了。</p><p data-pid=\"VMPwu0Y3\">Google拿出来的Nano Banana Pro，就像一艘从天而降的青铜时代号，用引力波把他们精心打造的马车压得粉碎。</p><p data-pid=\"xLTLDhf5\">他们突然发现，自己一直在精心磨一把全世界最锋利的宝剑，可对手直接开着高达来了。</p><p data-pid=\"tsVd6eun\"><b>这真的，有一点像，降维打击。</b></p><p data-pid=\"rqdKA24B\">因为AI生图，早就不是一个单纯的美术问题了。</p><p data-pid=\"FnQ353De\">它已经变成了一个认知问题，一个世界模型的问题。</p><p data-pid=\"2piID1X8\">你的模型不仅要会画画，它得先认识这个世界。</p><p data-pid=\"QNwGSZrA\">它得知道海贼王里四皇是谁，得知道路飞和鸣人是不同动漫里的主角，得知道初音未来是个虚拟偶像，得知道天书奇谭这四个字背后的中式美学意境。</p><p data-pid=\"TCyBC8Om\">这种知识，不是从几张图片里学来的。</p><p data-pid=\"V9uMCxh9\">是从海量的文本、视频、代码、对话里来的，是从一个像Gemini 3 Pro这样的超级多模态模型里面来的的。</p><p data-pid=\"Y5IWw2Pv\"><b>而支撑这个体系运转的，是数据、算力、人才密度。</b></p><p data-pid=\"9GILMbZF\"><b>说白了，就是钱。</b></p><p data-pid=\"s54oEZDe\"><b>是白花花的钱，是成吨成吨的钱。</b></p><p data-pid=\"ls4Z6djI\">真的，看着Flux.2生成的那些略显笨拙的图，我心里真的没有过去看到一些跟不上时代的或者抽象产品的嘲笑，只有一种深深的惋惜。</p><p data-pid=\"TSBdDvdW\">当然了，Flux.2的开源，本身就是一种伟大的姿态。</p><p data-pid=\"n4fdioPY\">对绝大多数中小企业，甚至对我们个人开发者来说，这绝对是有巨大价值的。</p><p data-pid=\"L5MPI3LQ\">它是火种，是基石，让我们可以在它的基础上，去训练自己的模型，去搭建自己的工作流，去探索AI的可能性。</p><p data-pid=\"qKZilO5C\">从这个角度看，他们是英雄。</p><p data-pid=\"F7e4N-aq\">但这种英雄，却带着一种堂吉诃德式的悲壮。</p><p data-pid=\"5CTVmJz7\">AI时代，真的是最好的时代，也是最坏的时代。</p><p data-pid=\"xe6lfrB1\">说它好，是因为技术的普及让每个人都有机会参与其中，创造前所未有的东西。</p><p data-pid=\"uNVZ95ke\">说它坏，是因为当牌局进入深水区，你会发现，最终能决定胜负的，似乎又回到了那个最古老、最朴素的规则。</p><p data-pid=\"mUM2_42Y\">拼资源。</p><p data-pid=\"IqqHV4hd\">技术理想主义的光芒，在绝对的资源壁垒面前，有的时候，显得那么脆弱。</p><p data-pid=\"FkaK7u6C\">当然，那些真正伟大的颠覆时代的创新，都在那个壁垒之下的黑暗里，在慢慢生长。</p><p data-pid=\"JxGfIa3E\">我只是觉得，这个时代的创业者，好像比互联网时代、还有移动互联网时代，难太多了。</p><p data-pid=\"cwOP7OEB\">我也在创业，那种难，真的感同身受。</p><p data-pid=\"4cfGv6UX\">但无论怎样。</p><p data-pid=\"3nJA0xcf\">也衷心的祝愿所有的创业者，也祝愿我自己。</p><p data-pid=\"8WvrSYFL\">不仅是这个时代最勇敢的探路者。</p><p data-pid=\"THOqfl_Q\">也一定都能，到达那个最远的彼岸。</p><p data-pid=\"h1enoD2L\">风雨同舟。</p><p data-pid=\"rh1tAkZD\">愿与诸君共勉。</p><p data-pid=\"OIViMYz4\"><b>以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧，如果想第一时间收到推送，也可以给我个星标⭐～谢谢你看我的文章，我们，下次再见。</b></p><p data-pid=\"YMRdpGmI\">&gt;/ 作者：卡兹克</p><p data-pid=\"eGDmaF7x\">&gt;/ 投稿或爆料，请联系邮箱：wzglyay@virxact.com</p>"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1976968896876671585}",
+      "attached_info": "CsMOCPqw8smxzI7EiQEQBxoJMjY2ODYyODMzIPbbmckGKOADMFRALkpJCh9UU19TT1VSQ0VfWlJFQ0FMTF9JVEVNQ0ZfVVBWT1RFEiBkb2NfdHlwZTogQXJ0aWNsZQppZDogMjY3MjM0NTY0ChgAIAA6AGIgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE5NzY5Njg4OTY4NzY2NzE1ODWCAV9odHRwczovL3BpYzEuemhpbWcuY29tL3YyLTVhMThkYmE5ZTgyNTVkZDQ4ZjBhM2M5MWZlOTdlYzlkLmpwZz9zb3VyY2U9N2U3ZWY2ZTImbmVlZEJhY2tncm91bmQ9MaoBCXJlY29tbWVuZMIBIGM0ZmM0M2JlNzI5MjU5OWNkN2Q2MWNjMTk1YjVjMTQ18gEKCAwSBk5vcm1hbPIBKAgKEiQ2ZDIzMjFkMC05MTk2LTQ2YzctODQ0OS1kNmViMGRmNjY1MWbyAQUICxIBOIICAIgCjv3Pm7kzkgIgYzRmYzQzYmU3MjkyNTk5Y2Q3ZDYxY2MxOTViNWMxNDWaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIcQmF5ZXNGaXJzdExldmVsSXNvbGF0aW9uUnVsZdoCH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEXoAgX6AgtOT1JNQUxfRkxPV4oDIGVmNmUwMWVmM2Q4NjQ2MDU5MDI0MjVhNWU4YjZhZTY4mgMNCgJ2MhAAGgVvdGhlcqgDxPUB2AMA6gMZdGV4dEFsbFNpdGVBY3Rpb25JdGVtQ0ZWMvoD+gcSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhDUBBidBiIjdjItOTE0NThlM2UwMjk3MTlkNTVmMmE0YTQ2ZDBlYTVlNTQ6LQgAEPEHGMwCIiN2Mi00ODUyNzEyNGNjNDhhODIxYWU1ODZlNjFlN2MzYWM0ZDotCAIQkAgYxQMiI3YyLTU3ODBlMmM0Mzg4M2I3ZTI0MmMzNDZiODY0ZWY1MjYzOi0IAxC4CBi0BCIjdjItYjFmNjAwYzA0ZThhZmY0MWI0NWQ1YmI1NTdlODlkZTk6LQgEEIAIGO8IIiN2Mi1mMjJjM2RjYjc3M2FhMmU1ODk3ZmM2YmY4ZDAzZWRlNTotCAMQgAgY7wgiI3YyLTJlNDZlY2ZhMjA3YWMyY2Q2NDg0MzY5YTlhMDZhMGE0Oi0IBBCACBjvCCIjdjItZjk0ZDg3MjVjZjU5MjkyMTZhODcwODYwZTYwMGI5YzA6LQgFELgIGJ0GIiN2Mi1jMDUzYzhkNGZkNzE1MDJiYThhZTI0NDA5Njg4MDMyYjotCAIQgAgY7wUiI3YyLTg1MjlhODIwMThlNjk2N2FmNmYzOWVmZDZlOTgzMDVjOi0IBRC4CBjgBCIjdjItNDk0NTM5YTA3ZWRiZTZmNTU0NmFiOTc5NDYxZjU4MTc6LQgEELgIGM4GIiN2Mi1lMjAyYTk2MjlhOGYwODQ3MDQ2ZTFmYTRkZmI2Mzk4ZjotCAAQuAgYxAUiI3YyLTQzNTM2YzFiOGExZmY5MDU2YTc3ZDNlYzJjMmQyMmUxOi0IAhCDCBiYAiIjdjItYzFjZjc3MDNmNTZmMjc3YTQ3NWJiYWQxMTJlN2Q1MDI6LQgAENkEGL8CIiN2Mi05MTQwZmZmNGM3NzdjOGJlOTgyMjc0MGQ0YWI2OWMxMTotCAIQgAgYrwQiI3YyLWY0ODJhYWU1MWI4YTVkMjY5ZTA3OWQ1ZGJiNzU0MTllOi0IAhC4CBjgBCIjdjItMzJhYTlmNDBkMDcxZjg1NDQ1MWQ5NDUxN2I1NDk2NmU6LQgFELgIGNsEIiN2Mi02MDcxODViODRhOTIwZGFkNjQ3Njg1OGJlNWIxNzk1YjotCAIQuAgY9woiI3YyLWRjNTA1MzM3N2UxMjAyOTBiMzAzZmY5NmQ5Nzc5YmY1Oi0IAhC4CBimBiIjdjItMTMwYWQ0NTIwODhiNTIxZmVlZWFlMjllNzY3ZjMyNGU6LQgCELAIGPAKIiN2Mi1mNzM1Y2ZmNmU2Y2ZmOTZjYmM5NjIwNmM5YjEyMzkxMDotCAAQgAoYoQQiI3YyLTVhMThkYmE5ZTgyNTVkZDQ4ZjBhM2M5MWZlOTdlYzlkgAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACg7EqNP4EFAAAAAAAAAACJBSxl0tnTU7E/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBi6oBgGSAi4KCTI2Njg2MjgzMxITMTk3Njk2ODg5Njg3NjY3MTU4NRgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "47_1767705411.943",
+      "type": "feed",
+      "offset": 47,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705411,
+      "updated_time": 1767705411,
+      "target": {
+        "excerpt": "→ 个人博客仓库 ←1、《动物农场（动物庄园）》（1） 简介一群动物推翻了农场主的“统治”，由2头猪领导大家的幸福生活。但2位首领彼此不和，其中1位培养了自己的爪牙（1群猎狗），赶走了另1位首领。他慢慢篡改早先立下的规矩、压榨动物们的劳力、剥削动物们的成果，由“专猪（专人）”对大家洗脑、扭曲事实，甚至公开处刑异己。最后，猪改用2条腿走路，跟人混在了一起。而当初的种种“法律”，只剩下1条：所有动物生来平等，但…",
+        "thanks_count": 0,
+        "preview_text": "",
+        "type": "answer",
+        "is_labeled": false,
+        "favorite_count": 0,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "comment_count": 0,
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "question": {
+          "author": {
+            "id": "b9834399dab8d541292bbdb1b1ed38e3",
+            "name": "发光者",
+            "is_org": false,
+            "followers_count": 45,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/b9834399dab8d541292bbdb1b1ed38e3",
+            "user_type": "people",
+            "url_token": "muze8087",
+            "headline": "读书好，好读书，读好书",
+            "avatar_url": "https://picx.zhimg.com/50/v2-32b7bd1f0abde9952929e858717e94a3_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_following": false
+          },
+          "answer_count": 0,
+          "is_following": false,
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/548866692",
+          "title": "能说一下你今天写的读书笔记吗？",
+          "created": 1660746959,
+          "follower_count": 0,
+          "comment_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "bound_topic_ids": [
+            1590,
+            13528,
+            124130
+          ],
+          "question_type": "normal",
+          "id": "548866692",
+          "type": "question"
+        },
+        "excerpt_new": "→ 个人博客仓库 ←1、《动物农场（动物庄园）》（1） 简介一群动物推翻了农场主的“统治”，由2头猪领导大家的幸福生活。但2位首领彼此不和，其中1位培养了自己的爪牙（1群猎狗），赶走了另1位首领。他慢慢篡改早先立下的规矩、压榨动物们的劳力、剥削动物们的成果，由“专猪（专人）”对大家洗脑、扭曲事实，甚至公开处刑异己。最后，猪改用2条腿走路，跟人混在了一起。而当初的种种“法律”，只剩下1条：所有动物生来平等，但…",
+        "reshipment_settings": "allowed",
+        "thumbnail": "https://pica.zhimg.com/50/v2-629acbec9c82eb762dc38df76510d892_720w.jpg?source=b6762063",
+        "content": "<blockquote data-pid=\"8T1Yfhb_\">→ <u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/existed-name/Personal-Blogs/blob/main/%25E6%259D%2582%25E8%25B0%2588%25E9%259A%258F%25E7%25AC%2594%26%25E4%25B8%25AA%25E4%25BA%25BA%25E5%2586%2599%25E4%25BD%259C/%25E8%25AF%25BB%25E4%25B9%25A6%25E7%25AC%2594%25E8%25AE%25B0/2025/2025.12%25E6%259C%2588.%25E8%25AF%25BB%25E4%25B9%25A6%25E7%25AC%2594%25E8%25AE%25B0.md\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">个人博客仓库</a></u> ←</blockquote><hr/><h3>1、《动物农场（动物庄园）》</h3><p data-pid=\"-W3h3a4t\">（1）<b>简介</b></p><blockquote data-pid=\"svDntRhk\">一群动物推翻了农场主的“统治”，由2头猪领导大家的幸福生活。但2位首领彼此不和，其中1位培养了自己的爪牙（1群猎狗），赶走了另1位首领。他慢慢篡改早先立下的规矩、压榨动物们的劳力、剥削动物们的成果，由“专猪（专人）”对大家洗脑、扭曲事实，甚至公开处刑异己。最后，<b>猪</b>改用2条腿走路，跟<b>人</b>混在了一起。而当初的种种“法律”，只剩下1条：<b>所有动物生来平等，但有的动物更平等</b></blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Jf1dk1Mx\">（2）<b>个人感受</b></p><ol><ol><li data-pid=\"nWkPl7Je\">大部分的感受，都放在简介里面了</li><li data-pid=\"oSM9qREG\">那头被赶走的猪，在书中的表现是一个偏理想主义、但实战能力不弱的学者，他擅长学习（比如读本历史书就学会用计谋对付卷土重来的农场主）、有很多想法（风力发电机、机械自动化）。然而我不认为如果他没走，或者由他来“领导”大家，动物们能获得平等。利益倾向猪群（统治阶级）是必然的，而且谁也不能保证他会被<b>权力</b>洗脑——不过相对公平，也很难得了。只是可惜，1山不容2虎，就算降级当个科学家，也有功高震主、干涉权力的嫌隙。他终究跑不掉被更有野心、更有手段（某种意义上）的同僚除掉的命运</li></ol></ol><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><h3>2、《这，就是快乐》</h3><p data-pid=\"gOeHnYRE\">(1)<b>简介</b></p><ol><ol><li data-pid=\"dC0JxNqc\">这是《动物庄园》书中附带的中短文章，几十页，主要讲作者读<b>小学</b>的经历</li><li data-pid=\"KfHu9x9c\">那是个私立寄宿学校，为了提高升学率（主要是名校），校长让学生只学本专业内容、杜绝闲杂内容，同时找来往届真题、用嘴遁和藤条“督促”大家学习。小作者忍受了多年的言语讽刺（来自老师），见识了种种偏见歧视打压，不仅物质上匮乏（校长认为懒跟吃多了有关系），精神也不得安宁……</li></ol></ol><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xPGVPXP_\">（2）<b>个人感受</b></p><ol><ol><li data-pid=\"2iJmc9dr\">初看时挺无聊的，但看到后面有一些共鸣了——这是“孩子的视角”。原来110年前就有“比较标准”的应试教育了，儿童的天性不能释放，全被抑制在所谓的学习中；主动性大部分来自外部鞭策（物理 + 精神上的）；学校也对升学率种种——自己的名声、利益——饥渴难耐，确对真正的教育、培养不屑一顾；甚至推动偏见歧视的蔓延，还不能保障基本的物质、卫生需求（因为水太脏，作者想方设法在洗澡时润掉）</li><li data-pid=\"CJK3cIgd\">甚至还讨论到 ——一群孩子被带到办公室审问，首先看谁有黑眼圈，然后逐个盘问、揭发，“依法处置” + 打上烙印（这孩子 过，这辈子有了）。也足以看出学校、大众观念的落后，或者说偏见之深、科学意识之不足</li><li data-pid=\"adp7iZvL\">作者也遇到过开明的人——在这种环境下，属实是一股清流</li><li data-pid=\"46E7ZcRT\">被老师讽刺侮辱打标签，但这不妨碍（当然，我觉得干扰挺大的，虽然也有客观上的推动作用）作者拿下名校offer。后来辗转成了作家，然后家喻户晓。这也确实验证，蚁钳是蚁钳，蟹仔是蟹仔，别拿蚁钳说蟹仔（bushi）</li><li data-pid=\"PnkdFEHK\">好像没有反应过来，为什么作者会说《这，就是快乐》？</li></ol></ol><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><h3>3、《许三观卖血记》</h3><p data-pid=\"3cGlfXM2\">（1）<b>简介</b></p><ol><ol><li data-pid=\"EzuIvBg4\">第1次：跟俩有缘的老哥学会了卖血——卖血前疯狂灌水，稀释血液，卖血后“一盘炒猪肝，二两黄酒，黄酒温一温”。领悟到血钱、汗钱的区别，一定要把血钱用到关键的地方</li><li data-pid=\"cVr1k7AX\">第2次：为了娶媳妇，卖血凑钱</li><li data-pid=\"rBJiITXo\">第3次：大儿子把人家头干爆了，人家要赔钱把家具搬空了，不得不卖血</li><li data-pid=\"Hx3CSHRy\">第4次：跟老相识搞一块了，卖血送了不少礼，然后被人家老公、自己媳妇儿制裁了</li><li data-pid=\"NNd5fJ89\">第5次：公社时期第2年，没粮了，卖血改善伙食</li><li data-pid=\"uMON6E_3\">第6次：二儿子下乡，为了给他队长留个好印象，卖血开席、送烟</li><li data-pid=\"pm3gZn63\">第7次（我觉得是高潮）：大儿子得了大病，送去上海。他借遍了钱，又沿路卖血。因为太虚，冬天冻成狗；因为太频繁，某次卖完就昏了，医生给他输回去，还倒贴了1笔卖血钱。路上还把秘籍传给俩有缘的小哥。还好比《活着》有良心（bushi），人都还在</li><li data-pid=\"WS4brI8e\">第8次（我觉得也是高潮）：现在是一个老头了，某天想重温一波“一盘炒猪肝，二两黄酒，黄酒温一温”，心想总该为自己卖一次血（这神奇的思路），不过新来的血头看不起自己——“你的血跟猪血一样”。突然觉得人生失去了意义，自己已经不行了——直到被老婆拉到馆子里面无限续杯，才发现好像确实不用卖血了</li><li data-pid=\"EcTsGZ26\"><b>部分情节有遗漏/错误，感谢指出</b></li></ol></ol><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2Z4fBC4n\">(2)<b>个人感受</b></p><ol><ol><li data-pid=\"LBcLMYM9\">当时的农村人信奉“能卖血 &lt;=&gt; 身体好”，这些<b>根深蒂固的观念</b>也确实毒害深重</li><li data-pid=\"VbR8zsl6\">我觉得卖血的￥不太合理，毕竟时代变化、通货膨胀，￥也得涨，老是35￥对许三观就很亏（捂脸）而且喝冷水比较耗阳气伤气血 不利于下次卖血（bushi）</li><li data-pid=\"k4NBNms7\">确实，<b>血钱的暴利 &gt;&gt; 勤恳换来的微量汗钱</b>，然而如果社会更加“美好”，资本家们（用“地主”应该更合适，而且不只是企业管理层）不再压榨员工，劳工的汗钱可以提高到比较理想的水平，那么血钱会淡出人们的视野吧——当然，灾年荒年另作别论</li><li data-pid=\"hKNI9eXx\">老血头在那里坐了几十年，“被动地”收了不少礼、赚了不少血钱，就算死了，也有数不尽的新血头坐上那个位置。只要有不得不“卖血”的市场，就还有重复上演的许三观——然而，终究是<b>生活的苦</b></li><li data-pid=\"klfYCPRK\">这<b>家庭教育、维护</b>属实是个难题。不过许三观还有良心，口头上不认大儿子是亲生的（虽然也确实是隔壁老王的），后来还是把走丢的大儿子找回来、请他搓一顿，而且之后也立血誓说这就是我亲儿子；文革的时候老婆被当成妓女抓去罚站，他送饭，卫兵也以为那只是“饭”，但是他竟然在饭底下藏了肉</li><li data-pid=\"B7Tkr84p\">阿方说：“吃一碗饭才只能生出几滴血来，而一碗血只能变成几颗种子，我们乡下人叫种子，李血头叫精子……“我还以为许三观之后要去卖精了（？！）</li><li data-pid=\"R4ucEeBh\">他第1次卖血后，跟阿方、根龙上厕所，牙齿发酸，原来是有科学依据的 </li></ol></ol><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d2045cdab889cdf45e541740cb7757af_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"776\" data-rawheight=\"778\" data-original-token=\"v2-629acbec9c82eb762dc38df76510d892\" class=\"origin_image zh-lightbox-thumb\" width=\"776\" data-original=\"https://picx.zhimg.com/v2-d2045cdab889cdf45e541740cb7757af_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><h3>4、我愿称之为《基地前传：谢顿历险记》</h3><p data-pid=\"kG8OwwIx\"><b>（1）《银河帝国4：基地前奏》</b></p><blockquote data-pid=\"Vl5ykHMS\">谢顿计划的创始人<b>哈里·谢顿</b>在早年还只是个小辈，但他证明了未来的可预测性，奠定了所谓“<b>心理史学</b>”的基础。为了利用他“预测未来”的潜力，皇帝亲自跟他交涉，却失败告终。一名城府很深的记者提醒谢顿首相正在逮捕他——因为“预测未来”。这名记者神通广大，他安排了一系列逃亡计划，一次次让谢顿逃脱追捕、并在逃亡过程中发展“心理史学”。然而，在最后一次逃亡中，真相浮出水面，那名记者——谢顿心中的好友——就是正在逮捕谢顿的帝国首相，不仅如此，更是一个——“机仆”……</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3JflAx8v\"><b>(2)《银河帝国5：迈向基地》</b></p><blockquote data-pid=\"khIWFy_A\">机器人第0法则：机器人不得伤害人类整体，或坐视人类整体受到伤害。受这条法则约束，身为“机仆”的帝国首相谨慎地治理、修正帝国。 他终于等到了谢顿，并大大帮助了“心理史学”的发展。而谢顿尽管还不够“聪明”，但也在一次次磨练中成长——更接近于《银河帝国1：基地》那个神一般的形象。心理史学的方程式愈加成熟，然而处境也愈加困难，直到爆发点——谢顿从孙女独特的精神力：感知思想、改变思想——上面看到了希望…… 谢顿安息了，而第一基地的守护者，第二基地——由精神力独特的心理史学家凝聚而成——则在暗流中履行自己的使命……</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JIu37-NX\">(3)不知道怎么描述个人感受了……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"EfOnmXHr\">（4）这是《银河帝国5》的片段，你们会想到什么 </p><blockquote data-pid=\"jp5U3q9U\">谢顿：&#34;……比方说我若是前往保安部门……对他们解释说，我们正面临一桩极其危险的阴谋，但是对它的目的和性质却一无所知。他们会一本正经地听我说完，而在我离去后，他们就会笑成一团，笑我是个‘疯狂数学家’，然后什么也不做。”</blockquote><p data-pid=\"cVwi7_NN\">...</p><p data-pid=\"P7bXB2Dk\">...</p><p data-pid=\"ermb2y-e\">...</p><p data-pid=\"vD1GK_09\">我：保安？警察？笑成一团？那不就是？！</p><p data-pid=\"DYehmuIr\">...</p><p data-pid=\"rxZlF2Cb\">...</p><p data-pid=\"CM3-Q8Qy\">...</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a2fe7962d6e614f0806d3c0e04c4e069_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2045\" data-rawheight=\"1071\" data-original-token=\"v2-c053a8792f17f836e7317ec9c5cd4395\" class=\"origin_image zh-lightbox-thumb\" width=\"2045\" data-original=\"https://pic4.zhimg.com/v2-a2fe7962d6e614f0806d3c0e04c4e069_r.jpg\"/><figcaption>经典永流传</figcaption></figure><p></p><p></p>",
+        "visited_count": 21,
+        "preview_type": "default",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-629acbec9c82eb762dc38df76510d892_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c053a8792f17f836e7317ec9c5cd4395_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/1991583862141232533",
+        "updated_time": 1767610594,
+        "navigator_vote": false,
+        "id": "1991583862141232533",
+        "author": {
+          "url": "https://api.zhihu.com/people/4d5d51e3c884961151381ac562d6eec8",
+          "avatar_url": "https://picx.zhimg.com/50/v2-45f1e88acbea6b40a2327105ace7ba66_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "id": "4d5d51e3c884961151381ac562d6eec8",
+          "url_token": "14-94-73-44",
+          "name": "春木秋水",
+          "headline": "",
+          "followers_count": 60,
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people"
+        },
+        "voteup_count": 1,
+        "created_time": 1767610594,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991583862141232533}",
+      "attached_info": "CuMGCPqw8smxzI7EiQEQBBoJNzY0MTM5MzI3IOKx7soGKAEwAEAvSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCDg0MjU0MDI4YiBlYWVhNTQwNjZjODE5YTZhNzliOWZjYmUxZDkyMjMzNHITMTk5MTU4Mzg2MjE0MTIzMjUzM4oBCTU0ODg2NjY5MqoBCXJlY29tbWVuZMIBIDRkNWQ1MWUzYzg4NDk2MTE1MTM4MWFjNTYyZDZlZWM48gEKCAwSBk5vcm1hbPIBKAgKEiQ0YTE2NTEzZS02ZjMwLTQ2ODctYmRkYi02ZGVmNzcxNGE3YjTyAQUICxIBOIICAIgCjv3Pm7kzkgIgNGQ1ZDUxZTNjODg0OTYxMTUxMzgxYWM1NjJkNmVlYziaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyBlZjZlMDFlZjNkODY0NjA1OTAyNDI1YTVlOGI2YWU2OJoDDQoCdjIQABoFb3RoZXKoAxXYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A30SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCIBhiKBiIjdjItNjI5YWNiZWM5YzgyZWI3NjJkYzM4ZGY3NjUxMGQ4OTI6LQgCEP0PGK8IIiN2Mi1jMDUzYTg3OTJmMTdmODM2ZTczMTdlYzljNWNkNDM5NYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYDVWfD+BBQAAAAAAAAAAiQUsZdLZ01OxP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIkAYAoAYvqAYAkgIuCgk3NjQxMzkzMjcSEzE5OTE1ODM4NjIxNDEyMzI1MzMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=47&desktop=true&end_offset=47&page_number=9&session_token=eaea54066c819a6a79b9fcbe1d922334",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=47&desktop=true&end_offset=47&page_number=9&session_token=eaea54066c819a6a79b9fcbe1d922334",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

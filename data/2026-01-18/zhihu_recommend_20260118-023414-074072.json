@@ -1,0 +1,666 @@
+{
+  "data": [
+    {
+      "id": "60_1768674863.568",
+      "type": "feed",
+      "offset": 60,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674863,
+      "updated_time": 1768674863,
+      "target": {
+        "type": "answer",
+        "is_copyable": true,
+        "answer_type": "normal",
+        "preview_type": "default",
+        "is_navigator": false,
+        "voteup_count": 13,
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-40301c3c7eda55ea6ac95ab358af813a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1970\" data-rawheight=\"1394\" data-original-token=\"v2-757e44d7305f4216825566975ce84e4e\" class=\"origin_image zh-lightbox-thumb\" width=\"1970\" data-original=\"https://pica.zhimg.com/v2-40301c3c7eda55ea6ac95ab358af813a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c41ff4819483bc4daf0cf89725488f1b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2134\" data-rawheight=\"874\" data-original-token=\"v2-9305a8dd303d667e204087f5b52fc0de\" class=\"origin_image zh-lightbox-thumb\" width=\"2134\" data-original=\"https://pic2.zhimg.com/v2-c41ff4819483bc4daf0cf89725488f1b_r.jpg\"/></figure><p data-pid=\"gUkBd7QN\">1. 域名购买：在 Cloudflare 上购买一个独立域名。</p><p data-pid=\"JiQKFtaY\">2. 邮件配置：在 Cloudflare 配置二级域名，并设置好 DNS 记录（重点配置类型、主机名、内容）。</p><p data-pid=\"Zr50Ltna\">3. 服务商绑定：注册 Resend 邮件服务账号，绑定 Cloudflare 二级域名（免费版每天 100 封，完全够用），并用 cURL 命令测试发送。</p><p data-pid=\"GAVOPEbm\">4. 中转接口开发：为了解决前端跨域问题，让 Gemini 帮你把 cURL 命令改写成 Cloudflare Worker 云函数，并免费部署。</p><p data-pid=\"rdYqbAdN\">5. 网站开发：将中转接口和你的网站需求发给 Google AI Studio，让它帮你写完整个网站代码。绑定信用卡后，可免费调用 Gemini 模型。</p><p data-pid=\"D54nnbSM\">6. 部署上线：使用 AI Studio 自带的一键部署功能，发布到 Google 云服务器，国内可以直接访问。</p><p data-pid=\"qysJ7O3w\">项目涉及知识点：域名配置、云函数编写、前端开发、自动化部署。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TpNuDWnJ\">备注：</p><p data-pid=\"ha7xZ4Kv\">Google AI Studio  只能编写前端代码，但是Resend的接口只能在后端调用。所以使用 Cloudflare的云函数，做了接口中转。 如果是在本地开发，可以使用 next.js框架，流程会更简单一点。 直接把 Resend 的curl还有项目要求发送给 Antigravity， 前后端一把梭</p>",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-757e44d7305f4216825566975ce84e4e_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-9305a8dd303d667e204087f5b52fc0de_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "author": {
+          "id": "6d1b39b39ae9ba201adf71f20f5cd9a0",
+          "url": "https://api.zhihu.com/people/6d1b39b39ae9ba201adf71f20f5cd9a0",
+          "user_type": "people",
+          "url_token": "special9451",
+          "headline": "公众号：AI超体进化室",
+          "avatar_url": "https://pic1.zhimg.com/50/cb07cb51a_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 1157,
+          "name": "小佐",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1768459551,
+        "comment_count": 0,
+        "allow_segment_interaction": true,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-757e44d7305f4216825566975ce84e4e_720w.jpg?source=b6762063",
+        "excerpt_new": "1. 域名购买：在 Cloudflare 上购买一个独立域名。 2. 邮件配置：在 Cloudflare 配置二级域名，并设置好 DNS 记录（重点配置类型、主机名、内容）。 3. 服务商绑定：注册 Resend 邮件服务账号，绑定 Cloudflare 二级域名（免费版每天 100 封，完全够用），并用 cURL 命令测试发送。 4. 中转接口开发：为了解决前端跨域问题，让 Gemini 帮你把 cURL 命令改写成 Cloudflare Worker 云函数，并免费部署。 5. 网站开发：将中转接口和…",
+        "favorite_count": 46,
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thanks_count": 0,
+        "excerpt": "1. 域名购买：在 Cloudflare 上购买一个独立域名。 2. 邮件配置：在 Cloudflare 配置二级域名，并设置好 DNS 记录（重点配置类型、主机名、内容）。 3. 服务商绑定：注册 Resend 邮件服务账号，绑定 Cloudflare 二级域名（免费版每天 100 封，完全够用），并用 cURL 命令测试发送。 4. 中转接口开发：为了解决前端跨域问题，让 Gemini 帮你把 cURL 命令改写成 Cloudflare Worker 云函数，并免费部署。 5. 网站开发：将中转接口和…",
+        "preview_text": "",
+        "id": "1995144646129649613",
+        "updated_time": 1768459551,
+        "url": "https://api.zhihu.com/answers/1995144646129649613",
+        "question": {
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            350,
+            1354,
+            3123,
+            122735
+          ],
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/780906948",
+          "title": "如何高效利用AI编程?",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "780906948",
+          "author": {
+            "gender": 1,
+            "url": "https://api.zhihu.com/people/4e2faef5d4cc9f80c6ab747b43996f7f",
+            "user_type": "people",
+            "url_token": "shaolizhi11",
+            "name": "邵励治",
+            "headline": "一辈子从事创造性工作，工夫在诗外",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-1ce643eb1e1ad4a5c343196112dc3280_l.jpg?source=b6762063",
+            "is_org": false,
+            "id": "4e2faef5d4cc9f80c6ab747b43996f7f",
+            "followers_count": 3444,
+            "is_following": false,
+            "is_followed": false
+          },
+          "question_type": "normal",
+          "created": 1728377086,
+          "is_following": false,
+          "excerpt": "",
+          "detail": ""
+        },
+        "visited_count": 1023
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995144646129649613}",
+      "attached_info": "Cu4GCPPbgfrWvvDsnAEQBBoJNzY1NTI1NjAxIJ+aossGKA0wAEA8SjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTEwMTM1NTNiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1MTQ0NjQ2MTI5NjQ5NjEzigEJNzgwOTA2OTQ4qgEJcmVjb21tZW5kwgEgNmQxYjM5YjM5YWU5YmEyMDFhZGY3MWYyMGY1Y2Q5YTDyAQoIDBIGTm9ybWFs8gEoCAoSJDg1NzI1NTVkLTE5OTctNGQ3Yi1hOTg1LTZkYjk4N2EzMGI0YfIBBggLEgIxMYICAIgCj9Xy6bwzkgIgNmQxYjM5YjM5YWU5YmEyMDFhZGY3MWYyMGY1Y2Q5YTCaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gImVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjHoAgL6AgtOT1JNQUxfRkxPV4oDIDgyNDM0N2MwNjA0NDRmOGNiMGE1NmIzMDA3NzcwZmI0mgMNCgJ2MhAAGgVvdGhlcqgD/wfYAwDqAyNmZWVkLXRleHQtYWxsc2l0ZS1vbmxpbmUtdWNmLXJlY2FsbPoDfRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELIPGPIKIiN2Mi03NTdlNDRkNzMwNWY0MjE2ODI1NTY2OTc1Y2U4NGU0ZTotCAIQ1hAY6gYiI3YyLTkzMDVhOGRkMzAzZDY2N2UyMDQwODdmNWI1MmZjMGRlgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgKtuXP4EFAAAAAAAAAACJBR8TAh5m67M/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQuQBgCgBj6oBgGSAi4KCTc2NTUyNTYwMRITMTk5NTE0NDY0NjEyOTY0OTYxMxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "61_1768674863.483",
+      "type": "feed",
+      "offset": 61,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674863,
+      "updated_time": 1768674863,
+      "target": {
+        "is_copyable": false,
+        "question": {
+          "comment_count": 103,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/470076571",
+          "answer_count": 0,
+          "detail": "",
+          "title": "你人生中太晚明白的道理是什么？",
+          "created": 1625419480,
+          "follower_count": 0,
+          "question_type": "normal",
+          "id": "470076571",
+          "bound_topic_ids": [
+            740,
+            1576,
+            18605,
+            20423
+          ],
+          "excerpt": "",
+          "author": {
+            "id": "55cd891310105aa21b927c0a8fdd3ebf",
+            "url": "https://api.zhihu.com/people/55cd891310105aa21b927c0a8fdd3ebf",
+            "user_type": "people",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-7aa5c7b4ed53aba2be67df928c5d9959_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "url_token": "shadow-19-85-83",
+            "name": "Felix",
+            "headline": "",
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "is_following": false
+        },
+        "id": "1995771037581852870",
+        "voteup_count": 199,
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995771037581852870",
+        "created_time": 1768608895,
+        "comment_count": 15,
+        "excerpt": "我们这一代人，当然也包括现在的年轻人，从小就被灌输了一种有毒的逻辑，一种线性的因果逻辑。 总觉得只要现在多忍辱负重些，将来就一定能飞黄腾达，大家都默认了人生必须是一场漫长的苦行，要把最好的东西留到最后来享用。 但这些年，整个世界的变化像一记响亮的耳光把这种旧脚本打得粉碎，这其中至少有三个道理，作为过来人我觉得大家能越早悟到，越能少走弯路。 一，延迟满足的局限性我们从小到大被要求的延迟满足，在这个充…",
+        "excerpt_new": "我们这一代人，当然也包括现在的年轻人，从小就被灌输了一种有毒的逻辑，一种线性的因果逻辑。 总觉得只要现在多忍辱负重些，将来就一定能飞黄腾达，大家都默认了人生必须是一场漫长的苦行，要把最好的东西留到最后来享用。 但这些年，整个世界的变化像一记响亮的耳光把这种旧脚本打得粉碎，这其中至少有三个道理，作为过来人我觉得大家能越早悟到，越能少走弯路。 一，延迟满足的局限性我们从小到大被要求的延迟满足，在这个充…",
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"xHeMyxR3\">我们这一代人，当然也包括现在的年轻人，从小就被灌输了一种有毒的逻辑，一种线性的因果逻辑。</p><p data-pid=\"Du8qd9ef\">总觉得只要现在多忍辱负重些，将来就一定能飞黄腾达，大家都默认了人生必须是一场漫长的苦行，要把最好的东西留到最后来享用。</p><p data-pid=\"qBmmE4CE\">但这些年，整个世界的变化像一记响亮的耳光把这种旧脚本打得粉碎，这其中至少有三个道理，作为过来人我觉得大家能越早悟到，越能少走弯路。</p><p data-pid=\"hAE0yh_O\"><b>一，延迟满足的局限性</b></p><p data-pid=\"3xWSz5J8\">我们从小到大被要求的延迟满足，在这个充满黑天鹅的时代，简直就是一场针对普通人的巨大骗局。</p><p data-pid=\"bpG9Jubp\">以前我总对自己说，现在苦一点没关系，等考上好大学就好了，等工作转正就好了，等还完房贷就好了，等攒够500万就好了。</p><p data-pid=\"jMh1nYQy\">似乎幸福永远在下一个路口等着，而当下这一刻，只是为了那个宏大未来而必须支付的代价。</p><p data-pid=\"2fCXFnyK\">结果呢？</p><p data-pid=\"JS-D1k0z\">等到真的爬到了那个所谓的下一个路口，才发现那里并没有预想中的鲜花和掌声，只会带来新的焦虑和更沉重的担子，而那个被我寄予厚望的未来，在变幻莫测的时代洪流面前，脆弱得像一张薄纸。</p><p data-pid=\"aR_VIxEe\">人生根本不是爬楼梯，非要一级一级爬到顶端才能看到风景。</p><p data-pid=\"tQaPUCEM\">现在的我觉得，人生更像是一场自助餐，盘子就在手里，想吃什么现在就得夹，因为你根本不知道下一刻餐厅会不会关门、你还有没有胃口吃得下。</p><p data-pid=\"R7d0rIFy\"><b>过度地储蓄快乐，是对生命最大的辜负。</b></p><p data-pid=\"TRzt-UWS\">那些舍不得穿的新衣服，等到终于想穿的时候已经过时了，那些想见却总说以后再见的人，走着走着就散了，还有那些想去的地方，等到终于有钱有闲了，身体却走不动了。</p><p data-pid=\"TnXwqPZJ\">在这个变幻莫测的时代，<b>“当下”是唯一的确定性资产</b>，如果快乐不能在此时此刻兑现，它就会像放置过久的食物一样过期。</p><p data-pid=\"TOWEzgTs\">所以，我现在开始学着做一个当下的享乐主义者。</p><p data-pid=\"E6cunhzw\">当然不是那种堕落式报复式无节制的，反而是一种清醒，想吃的东西现在就去吃，想做的事立刻就去做（并不是要鼓励你消费换取快乐，你得分清楚到底是自己真心想要的，还是被消费主义裹挟了），不要为了那个虚无缥缈的晚年幸福，而透支现在鲜活的生命体验。</p><p data-pid=\"OELtVrjC\">因为谁也无法保证，那个许诺给你的明天，到底会以什么样的方式到来。</p><p data-pid=\"-MhBYwcV\"><b>二，选择永远大于努力</b></p><p data-pid=\"xrk9uWww\">选择永远大于努力，选择永远大于努力，选择永远大于努力。</p><p data-pid=\"ODkYDPvS\">这句话你一定要牢记，每天提醒自己。</p><p data-pid=\"5Yfcpa7S\">我强调这句话是希望你不要用战术上的勤奋来掩盖战略上的懒惰。</p><p data-pid=\"O6wdq8p8\">在这个杠杆时代，单纯的勤奋和努力，往往是最廉价的投入，甚至已经成了许多人自我麻痹的安慰剂。</p><p data-pid=\"oARuW6pc\">从小我们就被教育天道酬勤，好像只要把自己累得半死，只要付出了足够多的汗水，老天爷就一定会赏饭吃。这在农业时代或许是真理，但在现在这个算力替代脑力、资本收割劳力的时代，这种逻辑已经彻底失效了。</p><p data-pid=\"kzzpZFAw\">我看过太多身边的人，每天起早贪黑，在这个城市里像陀螺一样转个不停，他们没有做错任何事，他们甚至比谁都努力，但仅仅是因为选错了行业，入错了赛道，或者没有看懂趋势的变化，就被时代的车轮无情地碾压过去。</p><p data-pid=\"L-8S49Bo\">而那些真正活得滋润的人，往往不是干活最累最拼的，而是那些最会做选择、最会借力的人。</p><p data-pid=\"rmhK9peo\">大部分人的努力，其实都是为了逃避深度思考的痛苦。</p><p data-pid=\"x0F_SrI3\">他们选择用肉体上的极度疲劳，来换取心理上的踏实感，觉得只要自己忙起来了，就没有虚度光阴。</p><p data-pid=\"ItgZbZTR\">但这没有用，事倍功半。</p><p data-pid=\"Z4zygm0r\">真正的努力，不应该是把自己变成一个不知疲倦的零件，而应该是经常性地停下来，抬起头，看看风往哪里吹，看看哪里有杠杆可以撬动，看看能不能用工具、用别人的钱、用别人的时间来放大自己的价值。</p><p data-pid=\"lMm252lC\">在这个赢家通吃的世界里，找对方向比埋头拉车重要一万倍，在这个充满不确定性的牌桌上，我们要学会做一个聪明的下注者，而不是一个只会死磕的苦力。</p><p data-pid=\"TMddD0gK\"><b>三，太在意别人眼光的人不幸福</b></p><p data-pid=\"B2T83m-9\">我太晚才明白的第三件事，就是所谓的面子和好名声，其实是社会套在我们脖子上最沉重也最无用的枷锁。</p><p data-pid=\"2PoQpXMi\">我们花了半辈子的时间去演一个正常人，去演一个情绪稳定的成年人，去演一个亲戚口中的成功人士，生怕哪一步走错了会被人指指点点，生怕在那张无形的人际关系网里落下什么话柄。</p><p data-pid=\"b_W83f32\">但在这个高度原子化的时代，这种小心翼翼的表演其实是一场没有观众的独角戏。</p><p data-pid=\"08XgkbYl\">大家每天都被海量的信息淹没，每个人的注意力都只有几秒钟，根本没有人真的在乎你过得怎么样，没有人会在意你今天穿的是名牌还是地摊货，也没有人会因为你的一次失败就记挂好几年。</p><p data-pid=\"kdwftgUc\">除了你自己，大家都很忙，忙着在自己的生活里挣扎，忙着盯着手机屏幕里的光怪陆离。</p><p data-pid=\"DCgh85i0\">当我自己终于卸下那个沉重的偶像包袱，学会了不再讨好任何人，学会了哪怕让别人失望也要让自己舒服的时候，我才发现生活原来可以这么轻盈。</p><p data-pid=\"6uGVk2Id\">那种所谓的厚脸皮，其实是一种极高的生存智慧。</p><p data-pid=\"iFTcuTDU\">它意味着你终于拥有了<b>被讨厌的勇气，终于敢于把自己的感受放在所有评价体系之上，终于明白在这个世界上，除了生老病死，其他的所谓尴尬和丢脸，都不过是擦伤。</b></p><p data-pid=\"YaXWkAKu\">既然道理都摊开说了，我还想给还在迷茫中的朋友们3条实实在在的建议，这都是我用无数个失眠的夜晚和走过的弯路换来的教训。</p><p data-pid=\"gKf63yNa\"><b>关于身体的账一定要算清楚</b></p><p data-pid=\"ufbHFmb5\">别等到躺在病床上看着天花板的时候，才去反思什么叫健康是1，其他是0，现在的我们总觉得身体是个耐造的机器，可以随意透支，可以拿来换钱换前程，但身体是有记忆的，它会记下你熬过的每一个夜，记下你喝进去的每一杯酒，然后在你最意想不到的时候跟你算总账.</p><p data-pid=\"Y47H6xxl\">每天抽出一点时间，去跑跑步，去发发呆，去给自己做顿饭，把维护这副皮囊当成人生最重要的项目来做，因为到了最后你会发现，能陪你走到终点的，不是单位的职位，不是银行卡的数字，只有这个健康的身体。</p><p data-pid=\"fLVCNFVg\"><b>彻底更新对金钱的观念</b></p><p data-pid=\"aR2i0WKy\">不要负债，不要负债，不要负债。</p><p data-pid=\"xZGU-XUk\">不要再迷信那些让你背负几十年债务的资产，在这个充满了变数的环境里，现金流才是最大的安全感，不要为了那些虚荣的消费去透支未来，也不要为了所谓的阶层跃迁去加太高的杠杆。</p><p data-pid=\"jlPKIpL1\">手里有粮心里不慌，这句老话在今天更显珍贵。</p><p data-pid=\"TuGZ6RI7\">拥有一笔随时能动用、能支撑你不赚钱也能生存1年以上的存款，你已经赢了90%的人，这还能让你在面对老板的无理要求时有底气说不，能让你在生活突然停摆时有尊严地活下去。</p><p data-pid=\"53AekBWR\"><b>最后，试着去允许一切发生。</b></p><p data-pid=\"iSV_9k1L\">即使你的战略思考再到位，做的选择再好，你的结果也可能因为运气或者天灾人祸而不尽人意。</p><p data-pid=\"wL8n5q99\">所以，不要总是跟现实较劲，不要总是因为事情没有按照你的预期发展就焦虑痛苦，人生本来就是一场充满了随机性的荒野求生，而不是一条铺好了轨道的列车。</p><p data-pid=\"nayGx5np\">接纳那些突如其来的变化，接纳那些无法弥补的遗憾，接纳自己的平庸和无能为力。</p><p data-pid=\"hgkOghVi\">当你不再试图控制一切的时候，当你不再拼命想证明自己的时候，你会发现内心反而生出了一种强大的力量，那种力量就叫顺其自然。</p><p data-pid=\"OArjdFuW\"><b>人生只有一次，没有彩排，也没有标准答案。</b></p><p data-pid=\"UM8lwK3u\">别活在别人的嘴里，也别活在旧时代的教条里，脱掉那件叫作体面的长衫，去在这个荒谬又真实的世界里，尽情地撒点野，哪怕最后什么都没留下，至少我们痛痛快快地活过。</p>",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "author": {
+          "followers_count": 83247,
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "densen",
+          "name": "Kaiser",
+          "headline": "收藏再看丨资深半体制",
+          "badge": [
+            {
+              "topic_names": [
+                "地铁"
+              ],
+              "topic_ids": [
+                1717
+              ],
+              "type": "best_answerer",
+              "description": "地铁话题下的优秀答主"
+            }
+          ],
+          "id": "dee9f7c9d1844ea794913841d3fd7ed8",
+          "url": "https://api.zhihu.com/people/dee9f7c9d1844ea794913841d3fd7ed8",
+          "avatar_url": "https://pica.zhimg.com/50/v2-c948b117ba8e0c274e06d166e05c50e6_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1
+        },
+        "updated_time": 1768652724,
+        "thanks_count": 11,
+        "visited_count": 6972,
+        "favorite_count": 173,
+        "is_navigator": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995771037581852870}",
+      "attached_info": "Cr8GCPPbgfrWvvDsnAEQBBoJNzY1NzU3NTQwIP+oq8sGKMcBMA9APUo5CilUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX0NSRUFURRIGNzY1MTg4GAAgADoASigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg2Njc0MDk5NWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU3NzEwMzc1ODE4NTI4NzCKAQk0NzAwNzY1NzGqAQlyZWNvbW1lbmTCASBkZWU5ZjdjOWQxODQ0ZWE3OTQ5MTM4NDFkM2ZkN2VkOPIBCggMEgZOb3JtYWzyASgIChIkMDQ5MjcwNDItODlmOC00Njc4LTlhMTgtYmQyOWRiN2VmY2Mz8gEGCAsSAjExggIAiAKQ1fLpvDOSAiBkZWU5ZjdjOWQxODQ0ZWE3OTQ5MTM4NDFkM2ZkN2VkOJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAilUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX0NSRUFURegCBfoCC05PUk1BTF9GTE9XigMgODI0MzQ3YzA2MDQ0NGY4Y2IwYTU2YjMwMDc3NzBmYjSaAw0KAnYyEAAaBW90aGVyqAO8NtgDAOoDHWZpcnN0RGVncmVlVXNlckNyZWF0ZVJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4H+TlT+BBQAAAAAAAAAAiQUfEwIeZuuzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AULkAYAoAY/qAYDkgIuCgk3NjU3NTc1NDASEzE5OTU3NzEwMzc1ODE4NTI4NzAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "62_1768674863.168",
+      "type": "feed",
+      "offset": 62,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674863,
+      "updated_time": 1768674863,
+      "target": {
+        "excerpt_new": "2006年，上海，经济上行时期的美感                   2006年—2009年，上海，经济上行时期的美感",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1990586300294779165",
+        "question": {
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "title": "你如何看待国内基本盘?",
+          "created": 1764669021,
+          "answer_count": 0,
+          "id": "1979246011730917210",
+          "is_following": false,
+          "bound_topic_ids": [
+            99,
+            1840,
+            6503,
+            32797,
+            42827
+          ],
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/1979246011730917210",
+          "author": {
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 272,
+            "url": "https://api.zhihu.com/people/7cb44ae14558864605d19d194cf79fdf",
+            "url_token": "wu-suo-bu-tan-60",
+            "name": "无所不谈",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_following": false,
+            "is_followed": false,
+            "id": "7cb44ae14558864605d19d194cf79fdf",
+            "user_type": "people",
+            "headline": "一个有想法的普通人"
+          },
+          "follower_count": 0,
+          "comment_count": 178,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "excerpt": "2006年，上海，经济上行时期的美感                   2006年—2009年，上海，经济上行时期的美感",
+        "type": "answer",
+        "thumbnail": "https://picx.zhimg.com/50/v2-4810b203b7c9f2839a3e0468e201f971_720w.jpg?source=b6762063",
+        "answer_type": "normal",
+        "updated_time": 1767372824,
+        "thanks_count": 19,
+        "is_copyable": true,
+        "id": "1990586300294779165",
+        "visited_count": 50063,
+        "favorite_count": 177,
+        "author": {
+          "is_followed": false,
+          "id": "2ce376f3fabba80f326e8116abcb6dbd",
+          "user_type": "people",
+          "url_token": "cheng-kai-rong",
+          "name": "时空过敏株",
+          "headline": "历史博主\n今日头条、b站、微博、抖音、视频号：时空过敏株",
+          "gender": -1,
+          "followers_count": 23703,
+          "url": "https://api.zhihu.com/people/2ce376f3fabba80f326e8116abcb6dbd",
+          "avatar_url": "https://picx.zhimg.com/50/v2-447698dd4d211c3d26d90061d5dabdb4_l.jpg?source=b6762063",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "汕头大学 文学硕士"
+            }
+          ],
+          "is_following": false
+        },
+        "navigator_vote": false,
+        "created_time": 1767372757,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-4810b203b7c9f2839a3e0468e201f971_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c508a2930259c81db4103bf9567d0fdc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cd327972691f95dd4feadc6184bb8c16_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0e8ab1ae5d06c5f96b474b5adbb4c453_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-abce99f9f0f0fa427ba82941f1a1db74_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-b43f92e5bd73a4db7fa28a44ab9b65b4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c6e7dbc98a41f5a498c2835abbcea166_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-71c5dc1f2851e1e55032a4c32dc8f02b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7de1aa719f78ce7e1483c9f044710b81_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d9bc2829e8ae6cded9441306f826a439_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b30ca41fd8426191a57ca3bedc28962e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-4fb9beee7e2ba846e3056e365c24459c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-85e05b69298a69e363320674c0aad687_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-1024fac242f6485892e647c8986b28c8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f1e9594a024b7cc0a62aa986e084c529_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-1297e7d115f549ee23e26e10b39b896c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-bb770da2ad48e8c908b6c025f2eb7ab1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-62e202930631d1ff44ed5ce90fae5d98_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-75a13f0e44c4c84fd01a1c6154d9f513_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1a27b3f584cd2f1f35acb865990c3163_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4688e5600891c7c0939d66246e5e64d4_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-10b5ecee470cfd1e03298b554d456c64_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-23755e7e35ce3172472b0b6f3197ccde_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-c64baf740e37f71e0397958cbfa338ab_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1d48a736a8ac81cccbbe06838d91f453_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5dd32613893bc8adb947b07d044f2d78_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d4fe11eb67f3ed555a0ee01aa555b39b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-4708d6042ec0f86d77ba723cc1f22e34_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-02d9d7c02fe78222972ec18295d2aa2a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-274547eb372207f31a2b16dfced1a175_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cb083acc5df9c9e5c034b2a7076926ae_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ba4a9a7ac3c1ef13a13824a3d4323c33_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-aa08607406cfb0415890ca70371ba67a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cf82bb5913da439b331401ed0acc1534_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ecde185e49886a5ed998c7cfc13e9d36_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cc065a9fc424421c4c164c798f156055_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3805c012f24c277d90103c8d93bb3964_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0cf662aebdf26b565b05cbb0f927e4f4_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "voteup_count": 316,
+        "comment_count": 95,
+        "content": "<p data-pid=\"qIuUEOUe\">2006年，上海，经济上行时期的美感 </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4810b203b7c9f2839a3e0468e201f971_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-4810b203b7c9f2839a3e0468e201f971\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic4.zhimg.com/v2-4810b203b7c9f2839a3e0468e201f971_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c508a2930259c81db4103bf9567d0fdc_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-c508a2930259c81db4103bf9567d0fdc\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic3.zhimg.com/v2-c508a2930259c81db4103bf9567d0fdc_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-cd327972691f95dd4feadc6184bb8c16_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-cd327972691f95dd4feadc6184bb8c16\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic3.zhimg.com/v2-cd327972691f95dd4feadc6184bb8c16_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0e8ab1ae5d06c5f96b474b5adbb4c453_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-0e8ab1ae5d06c5f96b474b5adbb4c453\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic2.zhimg.com/v2-0e8ab1ae5d06c5f96b474b5adbb4c453_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-abce99f9f0f0fa427ba82941f1a1db74_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-abce99f9f0f0fa427ba82941f1a1db74\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic1.zhimg.com/v2-abce99f9f0f0fa427ba82941f1a1db74_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b43f92e5bd73a4db7fa28a44ab9b65b4_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-b43f92e5bd73a4db7fa28a44ab9b65b4\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pica.zhimg.com/v2-b43f92e5bd73a4db7fa28a44ab9b65b4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c6e7dbc98a41f5a498c2835abbcea166_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-c6e7dbc98a41f5a498c2835abbcea166\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pica.zhimg.com/v2-c6e7dbc98a41f5a498c2835abbcea166_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-71c5dc1f2851e1e55032a4c32dc8f02b_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-71c5dc1f2851e1e55032a4c32dc8f02b\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic4.zhimg.com/v2-71c5dc1f2851e1e55032a4c32dc8f02b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-7de1aa719f78ce7e1483c9f044710b81_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-7de1aa719f78ce7e1483c9f044710b81\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic4.zhimg.com/v2-7de1aa719f78ce7e1483c9f044710b81_r.jpg\"/></figure><p data-pid=\"DCKBya0-\">2006年—2009年，上海，经济上行时期的美感 ​​​</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-401ab6fa6c3453679aeb53b0d06c2272_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1696\" data-size=\"normal\" data-original-token=\"v2-d9bc2829e8ae6cded9441306f826a439\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pica.zhimg.com/v2-401ab6fa6c3453679aeb53b0d06c2272_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-98204f69bc84991d7fd783caa89cf7d5_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1910\" data-size=\"normal\" data-original-token=\"v2-b30ca41fd8426191a57ca3bedc28962e\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic2.zhimg.com/v2-98204f69bc84991d7fd783caa89cf7d5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-04b22ed742c0d01a1fc35f294bb06f85_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1919\" data-size=\"normal\" data-original-token=\"v2-4fb9beee7e2ba846e3056e365c24459c\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic2.zhimg.com/v2-04b22ed742c0d01a1fc35f294bb06f85_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1b6a77b15d7d7e11ff6c787923787593_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1919\" data-size=\"normal\" data-original-token=\"v2-85e05b69298a69e363320674c0aad687\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://picx.zhimg.com/v2-1b6a77b15d7d7e11ff6c787923787593_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6c3cadd204169507c268f36ced4112f8_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1913\" data-size=\"normal\" data-original-token=\"v2-1024fac242f6485892e647c8986b28c8\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic1.zhimg.com/v2-6c3cadd204169507c268f36ced4112f8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0892bc0e0a8efa8aad8f9a4d208b5410_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1919\" data-size=\"normal\" data-original-token=\"v2-f1e9594a024b7cc0a62aa986e084c529\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic1.zhimg.com/v2-0892bc0e0a8efa8aad8f9a4d208b5410_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8179f3d02ba6458419cf0a058e41da48_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1696\" data-size=\"normal\" data-original-token=\"v2-1297e7d115f549ee23e26e10b39b896c\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic1.zhimg.com/v2-8179f3d02ba6458419cf0a058e41da48_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8e85784096d1da1ef22ccd0d0a07fc57_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1700\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-bb770da2ad48e8c908b6c025f2eb7ab1\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic2.zhimg.com/v2-8e85784096d1da1ef22ccd0d0a07fc57_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bb6f8b4f1e517ddc8f8e566f6c483322_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1709\" data-size=\"normal\" data-original-token=\"v2-62e202930631d1ff44ed5ce90fae5d98\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic1.zhimg.com/v2-bb6f8b4f1e517ddc8f8e566f6c483322_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9ec1766a9b7ba833170c1792575bcdea_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1988\" data-size=\"normal\" data-original-token=\"v2-75a13f0e44c4c84fd01a1c6154d9f513\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic1.zhimg.com/v2-9ec1766a9b7ba833170c1792575bcdea_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9bda8442986a3773263c2bbbcc84f1d5_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1702\" data-size=\"normal\" data-original-token=\"v2-1a27b3f584cd2f1f35acb865990c3163\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://picx.zhimg.com/v2-9bda8442986a3773263c2bbbcc84f1d5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-022f99f0bac7a97a616e5e4848bcf1e5_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1913\" data-size=\"normal\" data-original-token=\"v2-4688e5600891c7c0939d66246e5e64d4\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://picx.zhimg.com/v2-022f99f0bac7a97a616e5e4848bcf1e5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ff5c1ee711c9ea359dcf0698aa8d065a_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1703\" data-size=\"normal\" data-original-token=\"v2-10b5ecee470cfd1e03298b554d456c64\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pica.zhimg.com/v2-ff5c1ee711c9ea359dcf0698aa8d065a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2b924298590ae7752dce830421ab8e2b_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"958\" data-size=\"normal\" data-original-token=\"v2-23755e7e35ce3172472b0b6f3197ccde\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic2.zhimg.com/v2-2b924298590ae7752dce830421ab8e2b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5b59a72ba05c2f4a6f5264ec61a7b07b_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"946\" data-size=\"normal\" data-original-token=\"v2-c64baf740e37f71e0397958cbfa338ab\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic4.zhimg.com/v2-5b59a72ba05c2f4a6f5264ec61a7b07b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-347e439e766bdd54c3d3a46a1a32f0d3_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"947\" data-size=\"normal\" data-original-token=\"v2-1d48a736a8ac81cccbbe06838d91f453\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic4.zhimg.com/v2-347e439e766bdd54c3d3a46a1a32f0d3_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a6b5c14804ef4c36b56e1f3e9f702b75_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1621\" data-size=\"normal\" data-original-token=\"v2-5dd32613893bc8adb947b07d044f2d78\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic2.zhimg.com/v2-a6b5c14804ef4c36b56e1f3e9f702b75_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a601321329aeeec0102f3e3c85a9d726_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1713\" data-size=\"normal\" data-original-token=\"v2-d4fe11eb67f3ed555a0ee01aa555b39b\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pica.zhimg.com/v2-a601321329aeeec0102f3e3c85a9d726_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-05801307a139a6c01d2c3c2b4541bd84_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1709\" data-size=\"normal\" data-original-token=\"v2-4708d6042ec0f86d77ba723cc1f22e34\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pica.zhimg.com/v2-05801307a139a6c01d2c3c2b4541bd84_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e148c3f66773164a7977520bb31b87d3_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1705\" data-size=\"normal\" data-original-token=\"v2-02d9d7c02fe78222972ec18295d2aa2a\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic4.zhimg.com/v2-e148c3f66773164a7977520bb31b87d3_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-08cc5e1b548c27e3112060c6a9b8e621_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1711\" data-size=\"normal\" data-original-token=\"v2-274547eb372207f31a2b16dfced1a175\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic2.zhimg.com/v2-08cc5e1b548c27e3112060c6a9b8e621_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c420111d43bcdc58372674fba4e92ed4_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1688\" data-size=\"normal\" data-original-token=\"v2-cb083acc5df9c9e5c034b2a7076926ae\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic1.zhimg.com/v2-c420111d43bcdc58372674fba4e92ed4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-97cb00b7485cf35c1e6be46f2a98ab7b_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1706\" data-size=\"normal\" data-original-token=\"v2-ba4a9a7ac3c1ef13a13824a3d4323c33\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://picx.zhimg.com/v2-97cb00b7485cf35c1e6be46f2a98ab7b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ebb636addf39486fc4ea408b34028ceb_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1915\" data-size=\"normal\" data-original-token=\"v2-aa08607406cfb0415890ca70371ba67a\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://picx.zhimg.com/v2-ebb636addf39486fc4ea408b34028ceb_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4912d43f8dbf8c2741baf92b131852d4_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1709\" data-size=\"normal\" data-original-token=\"v2-cf82bb5913da439b331401ed0acc1534\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic3.zhimg.com/v2-4912d43f8dbf8c2741baf92b131852d4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-cf8e2943e4ef699a5f119dce92e37c1e_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1700\" data-size=\"normal\" data-original-token=\"v2-ecde185e49886a5ed998c7cfc13e9d36\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pica.zhimg.com/v2-cf8e2943e4ef699a5f119dce92e37c1e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-21d8f34f88cac42469e387f51e2b51cc_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1711\" data-size=\"normal\" data-original-token=\"v2-cc065a9fc424421c4c164c798f156055\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic3.zhimg.com/v2-21d8f34f88cac42469e387f51e2b51cc_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7c4c571f8223028d51ae7c6e76afaf51_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1714\" data-size=\"normal\" data-original-token=\"v2-3805c012f24c277d90103c8d93bb3964\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic2.zhimg.com/v2-7c4c571f8223028d51ae7c6e76afaf51_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5d20762b783f34dde45022403b19d994_1440w.jpg\" data-rawwidth=\"1290\" data-rawheight=\"1805\" data-size=\"normal\" data-original-token=\"v2-0cf662aebdf26b565b05cbb0f927e4f4\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic3.zhimg.com/v2-5d20762b783f34dde45022403b19d994_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990586300294779165}",
+      "attached_info": "CpcTCPPbgfrWvvDsnAEQBBoJNzYzNzM5NzgwINXv38oGKLwCMF9APkooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE3NTY0MTE5YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5MDU4NjMwMDI5NDc3OTE2NYoBEzE5NzkyNDYwMTE3MzA5MTcyMTCqAQlyZWNvbW1lbmTCASAyY2UzNzZmM2ZhYmJhODBmMzI2ZTgxMTZhYmNiNmRiZPIBCggMEgZOb3JtYWzyASgIChIkOTNiYmNmMDEtMmQ3NS00NGNiLTg0NTUtNzk0YmQ0MjZlMzYy8gEGCAsSAjExggIAiAKQ1fLpvDOSAiAyY2UzNzZmM2ZhYmJhODBmMzI2ZTgxMTZhYmNiNmRiZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCAvoCC05PUk1BTF9GTE9XigMgODI0MzQ3YzA2MDQ0NGY4Y2IwYTU2YjMwMDc3NzBmYjSaAw0KAnYyEAAaBW90aGVyqAOPhwPYAwD6A5kOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQgAwYgBAiI3YyLTQ4MTBiMjAzYjdjOWYyODM5YTNlMDQ2OGUyMDFmOTcxOi0IAxCADBiAECIjdjItYzUwOGEyOTMwMjU5YzgxZGI0MTAzYmY5NTY3ZDBmZGM6LQgDEIAMGIAQIiN2Mi1jZDMyNzk3MjY5MWY5NWRkNGZlYWRjNjE4NGJiOGMxNjotCAMQgAwYgBAiI3YyLTBlOGFiMWFlNWQwNmM1Zjk2YjQ3NGI1YWRiYjRjNDUzOi0IAxCADBiAECIjdjItYWJjZTk5ZjlmMGYwZmE0MjdiYTgyOTQxZjFhMWRiNzQ6LQgDEIAMGIAQIiN2Mi1iNDNmOTJlNWJkNzNhNGRiN2ZhMjhhNDRhYjliNjViNDotCAMQgAwYgBAiI3YyLWM2ZTdkYmM5OGE0MWY1YTQ5OGMyODM1YWJiY2VhMTY2Oi0IAxCADBiAECIjdjItNzFjNWRjMWYyODUxZTFlNTUwMzJhNGMzMmRjOGYwMmI6LQgCEIAMGIAQIiN2Mi03ZGUxYWE3MTlmNzhjZTdlMTQ4M2M5ZjA0NDcxMGI4MTotCAQQigoYoA0iI3YyLWQ5YmMyODI5ZThhZTZjZGVkOTQ0MTMwNmY4MjZhNDM5Oi0IBRCKChj2DiIjdjItYjMwY2E0MWZkODQyNjE5MWE1N2NhM2JlZGMyODk2MmU6LQgFEIoKGP8OIiN2Mi00ZmI5YmVlZTdlMmJhODQ2ZTMwNTZlMzY1YzI0NDU5YzotCAQQigoY/w4iI3YyLTg1ZTA1YjY5Mjk4YTY5ZTM2MzMyMDY3NGMwYWFkNjg3Oi0IAxCKChj5DiIjdjItMTAyNGZhYzI0MmY2NDg1ODkyZTY0N2M4OTg2YjI4Yzg6LQgCEIoKGP8OIiN2Mi1mMWU5NTk0YTAyNGI3Y2MwYTYyYWE5ODZlMDg0YzUyOTotCAQQigoYoA0iI3YyLTEyOTdlN2QxMTVmNTQ5ZWUyM2UyNmUxMGIzOWI4OTZjOi0IBBCKChikDSIjdjItYmI3NzBkYTJhZDQ4ZThjOTA4YjZjMDI1ZjJlYjdhYjE6LQgEEIoKGK0NIiN2Mi02MmUyMDI5MzA2MzFkMWZmNDRlZDVjZTkwZmFlNWQ5ODotCAQQigoYxA8iI3YyLTc1YTEzZjBlNDRjNGM4NGZkMDFhMWM2MTU0ZDlmNTEzOi0IAxCKChimDSIjdjItMWEyN2IzZjU4NGNkMmYxZjM1YWNiODY1OTkwYzMxNjM6LQgEEIoKGPkOIiN2Mi00Njg4ZTU2MDA4OTFjN2MwOTM5ZDY2MjQ2ZTVlNjRkNDotCAUQigoYpw0iI3YyLTEwYjVlY2VlNDcwY2ZkMWUwMzI5OGI1NTRkNDU2YzY0Oi0IBBCKChi+ByIjdjItMjM3NTVlN2UzNWNlMzE3MjQ3MmIwYjZmMzE5N2NjZGU6LQgCEIoKGLIHIiN2Mi1jNjRiYWY3NDBlMzdmNzFlMDM5Nzk1OGNiZmEzMzhhYjotCAQQigoYswciI3YyLTFkNDhhNzM2YThhYzgxY2NjYmJlMDY4MzhkOTFmNDUzOi0IAxCKChjVDCIjdjItNWRkMzI2MTM4OTNiYzhhZGI5NDdiMDdkMDQ0ZjJkNzg6LQgEEIoKGLENIiN2Mi1kNGZlMTFlYjY3ZjNlZDU1NWEwZWUwMWFhNTU1YjM5YjotCAQQigoYrQ0iI3YyLTQ3MDhkNjA0MmVjMGY4NmQ3N2JhNzIzY2MxZjIyZTM0Oi0IBBCKChipDSIjdjItMDJkOWQ3YzAyZmU3ODIyMjk3MmVjMTgyOTVkMmFhMmE6LQgCEIoKGK8NIiN2Mi0yNzQ1NDdlYjM3MjIwN2YzMWEyYjE2ZGZjZWQxYTE3NTotCAQQigoYmA0iI3YyLWNiMDgzYWNjNWRmOWM5ZTVjMDM0YjJhNzA3NjkyNmFlOi0IBBCKChiqDSIjdjItYmE0YTlhN2FjM2MxZWYxM2ExMzgyNGEzZDQzMjNjMzM6LQgEEIoKGPsOIiN2Mi1hYTA4NjA3NDA2Y2ZiMDQxNTg5MGNhNzAzNzFiYTY3YTotCAQQigoYrQ0iI3YyLWNmODJiYjU5MTNkYTQzOWIzMzE0MDFlZDBhY2MxNTM0Oi0IBBCKChikDSIjdjItZWNkZTE4NWU0OTg4NmE1ZWQ5OThjN2NmYzEzZTlkMzY6LQgCEIoKGK8NIiN2Mi1jYzA2NWE5ZmM0MjQ0MjFjNGMxNjRjNzk4ZjE1NjA1NTotCAIQigoYsg0iI3YyLTM4MDVjMDEyZjI0YzI3N2Q5MDEwM2M4ZDkzYmIzOTY0Oi0IBBCKChiNDiIjdjItMGNmNjYyYWViZGYyNmI1NjViMDVjYmIwZjkyN2U0ZjSABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOCiXKY/gQUAAAAAAAAAAIkFHxMCHmbrsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFC5AGAKAGQKgGAJICLgoJNzYzNzM5NzgwEhMxOTkwNTg2MzAwMjk0Nzc5MTY1GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "63_1768674863.572",
+      "type": "feed",
+      "offset": 63,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674863,
+      "updated_time": 1768674863,
+      "target": {
+        "preview_text": "",
+        "question": {
+          "id": "404631723",
+          "type": "question",
+          "follower_count": 0,
+          "comment_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "author": {
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "id": "6a78fcd4c0f574fb45b75b9faddfec7d",
+            "url_token": "special-82-7",
+            "is_org": false,
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-671cd2f2aac83058b082d600545a5286_l.jpg?source=b6762063",
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/6a78fcd4c0f574fb45b75b9faddfec7d",
+            "user_type": "people",
+            "name": "123s"
+          },
+          "created": 1593678905,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            686,
+            4369,
+            21506
+          ],
+          "is_following": false,
+          "title": "谈谈你对中国优秀传统文化的理解？",
+          "url": "https://api.zhihu.com/questions/404631723",
+          "excerpt": "",
+          "detail": ""
+        },
+        "excerpt_new": "最直接的，能治疗抑郁症，养出更多心理健康的小孩。（为了便于大家理解，我会穿插很多别人关于传统文化的发言哈，大家可以看看经常研读传统文化的人面对生活的精神状态） 下文听我细细分析： 我一直在想，现在的小孩心理上的很多拧巴和脆弱，源头究竟在哪里？ 新中国的起点是一穷二白，为了尽快站起来，我们全社会都卯足了劲，集中力量发展科学技术。 我小时候就流行“学好数理化，走遍天下都不怕”的口号，选择文科的学生会被嘲…",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-0a45b1cb49844f18b0d1b62343aca07f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fad0fda93d9d640ba3ca60d8a091d16d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cf012524c63cfc94c4a8384f2d9ee468_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3ddf1a038e76263a27f967e29468adc4_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-8a31ec92fc4e0c12beb095b6bb9929e0_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-027775238d7f69adcf1dd38da17b3da0_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-7c80bb52cf032b876fd91bd704fe37a3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2e0a396620705f0e5224e0ea041e5041_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-95ffa3a12472e0fd157ab3ad97a1336c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3bc2e64d58e3baef0b52c83b0f673bd2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-42c053136da430847f0a9772b3fdc2d4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-02756b77d8e61afd10768927dae237f9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cd7433eea3f5ea5faeebec7ce2b46c65_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/1995490347208422375",
+        "voteup_count": 68,
+        "excerpt": "最直接的，能治疗抑郁症，养出更多心理健康的小孩。（为了便于大家理解，我会穿插很多别人关于传统文化的发言哈，大家可以看看经常研读传统文化的人面对生活的精神状态） 下文听我细细分析： 我一直在想，现在的小孩心理上的很多拧巴和脆弱，源头究竟在哪里？ 新中国的起点是一穷二白，为了尽快站起来，我们全社会都卯足了劲，集中力量发展科学技术。 我小时候就流行“学好数理化，走遍天下都不怕”的口号，选择文科的学生会被嘲…",
+        "content": "<h2>最直接的，能治疗抑郁症，养出更多心理健康的小孩。</h2><p data-pid=\"ye7VaTqc\">（为了便于大家理解，我会穿插很多别人关于传统文化的发言哈，大家可以看看经常研读传统文化的人面对生活的精神状态）</p><p data-pid=\"oa35wN_0\">下文听我细细分析：</p><hr/><p data-pid=\"rH3yD1rJ\">我一直在想，现在的小孩心理上的很多拧巴和脆弱，源头究竟在哪里？</p><p data-pid=\"OKUyHCox\">新中国的起点是一穷二白，为了尽快站起来，我们全社会都卯足了劲，集中力量发展科学技术。</p><p data-pid=\"UZex-kvh\">我小时候就流行“学好数理化，走遍天下都不怕”的口号，选择文科的学生会被嘲笑脑子不够聪明，选择理科的学生即使成绩不好也有优越感，如果大人想夸一个孩子聪明，他们会说这个小孩将来适合学理科。</p><p data-pid=\"-u2UPjM-\">这其实没有错，这是一个民族在困难时期的求生意志。但这种思维方式，慢慢渗透到了教育乃至一代又一代个体的人生的方方面面。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7f9b9bda6f5f5fc2a46cc18ca2201bfe_1440w.jpg\" data-rawwidth=\"424\" data-rawheight=\"362\" data-size=\"normal\" data-original-token=\"v2-7f9b9bda6f5f5fc2a46cc18ca2201bfe\" class=\"origin_image zh-lightbox-thumb\" width=\"424\" data-original=\"https://pic3.zhimg.com/v2-7f9b9bda6f5f5fc2a46cc18ca2201bfe_r.jpg\"/></figure><p data-pid=\"b9gwWJsh\">理科思维，追求的是精确、是答案、是效率，一道题对就是对，错就是错，一道数学题结果错一位小数就是错了，一次化学实验液体颜色变化不对就是失败了，一次小球的力学分析少一个受力箭头就得减分了……这些事谁来了都不好使。</p><p data-pid=\"ABUF6d4I\">从学习和研究的角度来说，这没毛病，毕竟这些对错关系到了洲际导弹的射程、神舟飞船的返航、航空母舰的下水、电子产品的质量……</p><h2>但是当这种“非黑即白”的思维方式，一旦从课本试卷上挪到人生里，问题就大了。</h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0a45b1cb49844f18b0d1b62343aca07f_1440w.jpg\" data-rawwidth=\"1100\" data-rawheight=\"2138\" data-size=\"normal\" data-original-token=\"v2-0a45b1cb49844f18b0d1b62343aca07f\" class=\"origin_image zh-lightbox-thumb\" width=\"1100\" data-original=\"https://picx.zhimg.com/v2-0a45b1cb49844f18b0d1b62343aca07f_r.jpg\"/></figure><h2><b>孩子长期生活在一个被判断、打分、排名、对标、规训、非黑即白、标准分明的系统里。</b></h2><p data-pid=\"GR21deSc\">一次考试失利，就成了“失败者”，就要持续地自我否定；一句老师当众的批评，尊严就彻底破碎了，转身就要跳楼了……</p><p data-pid=\"KYthbWTw\">很多人吐槽现在的小孩太脆弱、抗压能力太差、没受过苦……恕我直言，现在的孩子们要成为人中龙凤所需要吃的苦、受的累、牺牲的自由，父母需要付出的资源、精力和耐心比以前简直大多了好嘛！你可不要因为自己生活在上一个时代而沾沾自喜、得意洋洋了好嘛？</p><h2>为什么抑郁症、焦虑症、强迫症、双向情感障碍会越来越多、越来越年轻化呢？</h2><h2>每个家庭的风气、每位父母的教育理念、每所学校的校风、每个孩子交往的朋友……这些个性化因素都可能存在差别，年轻人心理问题越来越多一定存在某个在社会中广泛持久存在的共性原因。</h2><h2>根源在于文化，在于在于思维方式，在于年轻人究竟如何看世界、看自己、看成败，在于是非对错标准，在于价值评价体系。</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-fad0fda93d9d640ba3ca60d8a091d16d_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"4866\" data-size=\"normal\" data-original-token=\"v2-fad0fda93d9d640ba3ca60d8a091d16d\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://pic2.zhimg.com/v2-fad0fda93d9d640ba3ca60d8a091d16d_r.jpg\"/></figure><h2>生活在理科教育过度盛行的社会，个体活成了一根紧绷的弦，一直有一把近在咫尺的、笔直的尺子在衡量你，看你到底直不直，当事者找不到松弛、缓冲和回旋的余地，好像任何偏离“正确”轨道的震动，都意味着弦断人崩。</h2><h2>相比“三小儿辩日”的古代社会，他们看到很多关于客观世界的真相，学到了很多征服外部世界的知识，却很少被系统地教会如何安顿自己偶尔清醒但始终迷失、可能成功但经常失败、追求有用却依旧无用的心。</h2><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-cf012524c63cfc94c4a8384f2d9ee468_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1458\" data-size=\"normal\" data-original-token=\"v2-cf012524c63cfc94c4a8384f2d9ee468\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-cf012524c63cfc94c4a8384f2d9ee468_r.jpg\"/></figure><p data-pid=\"TPGzLWoX\">老师不喜欢你怎么了？父母喜欢你啊！</p><p data-pid=\"08TL1Z33\">别人看不起你怎么了？你有没有价值你自己心里有数！</p><p data-pid=\"h9hXzGEb\">别人嘴里的价值是价值，你自己的价值就不是价值吗？</p><p data-pid=\"3FC9fqh6\">再说没价值怎么了？当个没用的人违法犯罪吗？</p><h2>这些自我拯救的世界观和方法论在数理化课本里找不到，但是在中国传统文化中都能找到。</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3ddf1a038e76263a27f967e29468adc4_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"1098\" data-size=\"normal\" data-original-token=\"v2-3ddf1a038e76263a27f967e29468adc4\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://pic3.zhimg.com/v2-3ddf1a038e76263a27f967e29468adc4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8a31ec92fc4e0c12beb095b6bb9929e0_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"990\" data-size=\"normal\" data-original-token=\"v2-8a31ec92fc4e0c12beb095b6bb9929e0\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://pica.zhimg.com/v2-8a31ec92fc4e0c12beb095b6bb9929e0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-027775238d7f69adcf1dd38da17b3da0_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"868\" data-size=\"normal\" data-original-token=\"v2-027775238d7f69adcf1dd38da17b3da0\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://pica.zhimg.com/v2-027775238d7f69adcf1dd38da17b3da0_r.jpg\"/></figure><p data-pid=\"lVOoVuqN\">在这我们的老传统里，藏着救心的药。</p><p data-pid=\"hidnWhR2\">它不是技术，而是一种自在的“活法”。</p><p data-pid=\"vxTya5xl\">比如儒家讲“君子不器”，人首先是一个活生生的、需要修养的“人”，而不是一个追求特定用途的“工具”。</p><p data-pid=\"3hP4ylfy\">孔子夸颜回，夸的是他“一箪食，一瓢饮，在陋巷”也不改其乐的心境。这种快乐不依赖外界的肯定，它来自内心秩序的建立和对生命本身的热爱。</p><p data-pid=\"pj_onQAI\">如果孩子心里能种下这点念头——我的价值首先在于成为一个正直、明理、能自得其乐的人，那么外界的风浪，就难以动摇他的根本。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7c80bb52cf032b876fd91bd704fe37a3_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-7c80bb52cf032b876fd91bd704fe37a3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-7c80bb52cf032b876fd91bd704fe37a3_r.jpg\"/></figure><p data-pid=\"EFfsoBgw\">当挫折批评劈头盖脸而来，道家智慧能提供通透的安慰。它教我们退一步，看清事物的流转与相对。《道德经》说“祸兮福之所倚”，福祸本就没有绝对的界限。还有庄子的故事，歪脖子树因不成材而幸免于斧斤，终享天年。这看似是讲“无用”，实则是在拓宽“有用”的定义——符合自然天性的生长与存在，本身就是一种大用。</p><p data-pid=\"8KlYdIIG\">这给我们一种底气：被骂又如何？暂时落后又如何？甚至当个世俗眼光里的“普通人”又如何？天地之大，生命总有它的位置和意义，为什么把自己逼进单一的死胡同。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2e0a396620705f0e5224e0ea041e5041_1440w.jpg\" data-rawwidth=\"1440\" data-rawheight=\"1688\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-2e0a396620705f0e5224e0ea041e5041\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic4.zhimg.com/v2-2e0a396620705f0e5224e0ea041e5041_r.jpg\"/></figure><p data-pid=\"kObpTJdW\">当今日的社会，太过于执着追求看得见的分数、证书、头衔、业绩、爱情、婚姻、孩子……一句“有之以为利，无之以为用”便可缓解年轻人的焦虑，一个碗，能摸到的实体部分使它得以成为“碗”，摸不到的中间空心的部分使它作为碗得以发挥作用，就10个字而已啊，揭示了多简单、又多难得的道理。</p><p data-pid=\"8jc70lcq\">一下子就看明白了，人们拼命追求的东西都属“利”，是工具，是载体。我们时常忘了，那些“无”的部分才让人生发挥功用，发呆时的想象空间、冥想时的心流状态、犯错后喘息的心理余地、无目的萌发的热爱……</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-95ffa3a12472e0fd157ab3ad97a1336c_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-95ffa3a12472e0fd157ab3ad97a1336c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-95ffa3a12472e0fd157ab3ad97a1336c_r.jpg\"/></figure><p data-pid=\"dyjm092z\">当所有人要求你上进奋斗、事业有成，当孩子被“必须强、不能弱”的思维束缚手脚，一句“反者道之动，弱者道之用”便可解惑，万物都在循环往复中运行，盛极必衰，否极泰来。</p><p data-pid=\"g0TPerE2\">今日的挫折，可能正蕴藏着明日转机的种子。流水至柔，却能穿石；为人守柔，方能保持韧性与适应力。</p><p data-pid=\"TazS_Psr\">人生的起伏得失本是天道，即使处在暂时“弱”的位置上也能积蓄力量。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3bc2e64d58e3baef0b52c83b0f673bd2_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1160\" data-size=\"normal\" data-original-token=\"v2-3bc2e64d58e3baef0b52c83b0f673bd2\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-3bc2e64d58e3baef0b52c83b0f673bd2_r.jpg\"/></figure><p data-pid=\"FwzdLwYh\">还有那些古人把苦难熬成珍珠留下的诗词歌赋。</p><p data-pid=\"SZsqtZsy\">读苏轼，他一生坎坷，却在黄州的寒夜里写下“何夜无月？何处无竹柏？但少闲人如吾两人者耳”，把贬谪的失意，转化成了发现天地之美的闲情。</p><p data-pid=\"VKG5yteR\">若别人背后曲曲你，无妨，你且莫听穿林打叶声，若担心结果不好，莫慌，人生本就也无风雨也无晴啊！</p><p data-pid=\"6kpn9C2E\">读李白，“天生我材必有用，千金散尽还复来。烹羊宰牛且为乐，会须一饮三百杯”，以豪放语言肯定自我价值，消解世俗功利标准。</p><p data-pid=\"nx9B0Dta\">读诗经，“蟋蟀在堂，岁聿其莫。今我不乐，日月其除。无已大康，职思其居。好乐无荒，良士瞿瞿”，好乐无荒，适度享乐是合理的，不忘职责是理性的，你所一直纠结的“躺平”与“内卷”之间是有平衡点的。</p><p data-pid=\"g4yYroQH\">……</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-42c053136da430847f0a9772b3fdc2d4_1440w.jpg\" data-rawwidth=\"1100\" data-rawheight=\"1468\" data-size=\"normal\" data-original-token=\"v2-42c053136da430847f0a9772b3fdc2d4\" class=\"origin_image zh-lightbox-thumb\" width=\"1100\" data-original=\"https://pic3.zhimg.com/v2-42c053136da430847f0a9772b3fdc2d4_r.jpg\"/></figure><p data-pid=\"MohBadjH\">历史上许多中外大科学家，晚年往往不约而同地走向哲学沉思，乃至对东方玄学产生浓厚兴趣。</p><p data-pid=\"eSbMJ7Hl\">爱因斯坦谈论“宇宙宗教感情”，钱学森先生晚年深入探索系统科学和人体潜能，薛定谔在《生命是什么》中借助印度哲学思考生命本质，玻尔甚至从太极图中汲取互补性思想的灵感……</p><p data-pid=\"mG76B3L9\">这绝非偶然“转向”，而是一条必然“归途”。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-02756b77d8e61afd10768927dae237f9_1440w.jpg\" data-rawwidth=\"1100\" data-rawheight=\"1466\" data-size=\"normal\" data-original-token=\"v2-02756b77d8e61afd10768927dae237f9\" class=\"origin_image zh-lightbox-thumb\" width=\"1100\" data-original=\"https://pic4.zhimg.com/v2-02756b77d8e61afd10768927dae237f9_r.jpg\"/></figure><p data-pid=\"RrC-SlvM\">科学本身是探索“是什么”和“怎么做”的利器，但它无法回答“为什么存在”以及“该往何处去”这类终极问题。万物运行背后，是否蕴含着某种统一的秩序或意志？人类意识在这种宏大图景中，究竟处于何种位置？</p><p data-pid=\"1aiqwqqj\">纯粹的逻辑与实验走到极致，便会触碰到自身的边界，这时形而上的思辨与直觉的领悟就成了不可或缺的补充。</p><p data-pid=\"RuGRs2XP\">那个啥，解释一下，我说玄学，不是让大家搞神神叨叨的那一套哈，中国传统文化中的“玄学”实际是关于宇宙、生命与心灵如何统合的整体性认知体系。它提供了一种与分析式科学思维互补的路径。</p><p data-pid=\"5O7alqNZ\">著名科学家的最终选择说明，一个健全的文明和完整的个人，既需要“理科思维”的精确与进取，去认识并改造世界；也需要“人文玄思”的深邃与超越，来安顿并指引自身。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-cd7433eea3f5ea5faeebec7ce2b46c65_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"2512\" data-size=\"normal\" data-original-token=\"v2-cd7433eea3f5ea5faeebec7ce2b46c65\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-cd7433eea3f5ea5faeebec7ce2b46c65_r.jpg\"/></figure><h2>传统文化在今天的意义，不是让我们轻视科学技术开倒车，而是给只顾狂奔的现代社会一个“刹车”和“转弯”的可能。</h2><h2>它平衡的不是科技发展本身，而是科技所强化的那种单一线性的思维方式。</h2><h2>它是在告诉孩子：你可以追求100分的人生，但是80分的人生也有好风景；你可以修炼解决问题的锋利，也要接纳被现实打磨的圆滑；你可以不被某个人喜欢，但这不代表你不值得被喜欢……所有的事都不是绝对的。</h2><h2>古人云，致广大而尽精微，科学研究的精益求精和海纳百川的豁达从容本就不矛盾，“公式定理”未必比“海上明月”高级，“数学竞赛”未必比“诗酒新茶”优越，无用之用在今天或有大用啊！</h2>",
+        "is_navigator": false,
+        "type": "answer",
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "id": "1995490347208422375",
+        "updated_time": 1768550140,
+        "comment_count": 8,
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "favorite_count": 122,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "id": "65e204ef13bc31e6aa77e0b24719535c",
+          "url": "https://api.zhihu.com/people/65e204ef13bc31e6aa77e0b24719535c",
+          "headline": "文学/影视/时事",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "yi-nuo-5-79",
+          "name": "泡澡的鱼",
+          "avatar_url": "https://pica.zhimg.com/50/v2-bf5859fc83354f80e731fc15ad93c015_l.jpg?source=b6762063",
+          "followers_count": 40541
+        },
+        "thanks_count": 17,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-0a45b1cb49844f18b0d1b62343aca07f_720w.jpg?source=b6762063",
+        "is_labeled": false,
+        "visited_count": 3415,
+        "created_time": 1768541973,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995490347208422375}",
+      "attached_info": "CuYKCPPbgfrWvvDsnAEQBBoJNzY1NjYxMzc4IJWep8sGKEQwCEA/SjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifVoINTIxOTYxNDdiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1NDkwMzQ3MjA4NDIyMzc1igEJNDA0NjMxNzIzqgEJcmVjb21tZW5kwgEgNjVlMjA0ZWYxM2JjMzFlNmFhNzdlMGIyNDcxOTUzNWPyAQoIDBIGTm9ybWFs8gEoCAoSJDkxNjQ1YjMwLTRhYzUtNDAwZi04NTY0LWMzZWJhNzg2YzRhZPIBBggLEgIxMYICAIgCkNXy6bwzkgIgNjVlMjA0ZWYxM2JjMzFlNmFhNzdlMGIyNDcxOTUzNWOaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gIgVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjLoAgT6AgtOT1JNQUxfRkxPV4oDIDgyNDM0N2MwNjA0NDRmOGNiMGE1NmIzMDA3NzcwZmI0mgMNCgJ2MhAAGgVvdGhlcqgD1xrYAwDqAxZmZWVkcmVfZmlyc3Rfc2NyZWVuX3Yy+gOxBRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEKgDGOoCIiN2Mi03ZjliOWJkYTZmNWY1ZmMyYTQ2Y2MxOGNhMjIwMWJmZTotCAIQzAgY2hAiI3YyLTBhNDViMWNiNDk4NDRmMThiMGQxYjYyMzQzYWNhMDdmOi0IAhCSCRiCJiIjdjItZmFkMGZkYTkzZDlkNjQwYmEzY2E2MGQ4YTA5MWQxNmQ6LQgCELgIGLILIiN2Mi1jZjAxMjUyNGM2M2NmYzk0YzRhODM4NGYyZDllZTQ2ODotCAIQkgkYyggiI3YyLTNkZGYxYTAzOGU3NjI2M2EyN2Y5NjdlMjk0NjhhZGM0Oi0IAhCSCRjeByIjdjItOGEzMWVjOTJmYzRlMGMxMmJlYjA5NWI2YmI5OTI5ZTA6LQgCEJIJGOQGIiN2Mi0wMjc3NzUyMzhkN2Y2OWFkY2YxZGQzOGRhMTdiM2RhMDotCAIQuAgYoAsiI3YyLTdjODBiYjUyY2YwMzJiODc2ZmQ5MWJkNzA0ZmUzN2EzOi0IAhCgCxiYDSIjdjItMmUwYTM5NjYyMDcwNWYwZTUyMjRlMGVhMDQxZTUwNDE6LQgFELgIGKALIiN2Mi05NWZmYTNhMTI0NzJlMGZkMTU3YWIzYWQ5N2ExMzM2YzotCAMQuAgYiAkiI3YyLTNiYzJlNjRkNThlM2JhZWYwYjUyYzgzYjBmNjczYmQyOi0IAhDMCBi8CyIjdjItNDJjMDUzMTM2ZGE0MzA4NDdmMGE5NzcyYjNmZGMyZDQ6LQgCEMwIGLoLIiN2Mi0wMjc1NmI3N2Q4ZTYxYWZkMTA3Njg5MjdkYWUyMzdmOTotCAIQuAgY0BMiI3YyLWNkNzQzM2VlYTNmNWVhNWZhZWViZWM3Y2UyYjQ2YzY1gAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAkuOiP4EFAAAAAAAAAACJBR8TAh5m67M/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQuQBgCgBkGoBgCSAi4KCTc2NTY2MTM3OBITMTk5NTQ5MDM0NzIwODQyMjM3NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "64_1768674863.241",
+      "type": "feed",
+      "offset": 64,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674863,
+      "updated_time": 1768674863,
+      "target": {
+        "title": "AI Agent 开发教程：从零到一的系统性指南",
+        "created": 1768637228,
+        "preview_type": "default",
+        "is_labeled": true,
+        "favorite_count": 2,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1995889019423302036",
+        "preview_text": "",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "comment_count": 0,
+        "excerpt_new": "一：大语言模型基础与提示工程学习目标理解大语言模型的概率本质与补全机制掌握提示词的底层原理与分类学会调用 API 并理解 System Prompt 与 User Prompt 的区别1.1 大语言模型的本质在深入 Agent 开发之前，我们首先需要理解大语言模型（LLM）的工作原理。 语言与逻辑的关系语言本质上是对客观世界的主观描述，主要分为两类： 自然语言：具有模糊性和不精确性，但容错率高逻辑/编程语言：为消除歧义而生，具有极高的精确度大语…",
+        "updated": 1768637228,
+        "voteup_count": 2,
+        "visited_count": 10,
+        "article_type": "normal",
+        "id": "1995889019423302036",
+        "comment_permission": "all",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "一：大语言模型基础与提示工程学习目标理解大语言模型的概率本质与补全机制掌握提示词的底层原理与分类学会调用 API 并理解 System Prompt 与 User Prompt 的区别1.1 大语言模型的本质在深入 Agent 开发之前，我们首先需要理解大语言模型（LLM）的工作原理。 语言与逻辑的关系语言本质上是对客观世界的主观描述，主要分为两类： 自然语言：具有模糊性和不精确性，但容错率高逻辑/编程语言：为消除歧义而生，具有极高的精确度大语…",
+        "content": "<h2>一：大语言模型基础与提示工程</h2><h3>学习目标</h3><ol><li data-pid=\"yddAeKY3\">理解大语言模型的概率本质与补全机制</li><li data-pid=\"XrsQhqNR\">掌握提示词的底层原理与分类</li><li data-pid=\"BGrdRGRI\">学会调用 API 并理解 System Prompt 与 User Prompt 的区别</li></ol><h3>1.1 大语言模型的本质</h3><p data-pid=\"9ADOR3cR\">在深入 Agent 开发之前，我们首先需要理解大语言模型（LLM）的工作原理。</p><h3>语言与逻辑的关系</h3><p data-pid=\"KHtwBK20\">语言本质上是对客观世界的主观描述，主要分为两类：</p><ul><li data-pid=\"BautPTAX\"><b>自然语言</b>：具有模糊性和不精确性，但容错率高</li><li data-pid=\"98A3b8xf\"><b>逻辑/编程语言</b>：为消除歧义而生，具有极高的精确度</li></ul><p data-pid=\"LyH3ZHQY\">大语言模型之所以有价值，是因为<b>文字承载了人类的智慧与逻辑</b>。模型通过学习海量文本，习得了文字背后的逻辑模式。</p><h3>对话的真相：补全而非思考</h3><p data-pid=\"EXmnnRTT\">很多人认为 AI 在”思考”，但实际上 LLM 的本质是——<b>预测下一个 Token</b>。</p><ul><li data-pid=\"HpsKjMDh\"><b>Token</b>：模型理解世界的最小单位。在英文中可能是单词或词根，在中文中甚至不是完整的汉字</li><li data-pid=\"YkDUI116\"><b>交互机制</b>：每次对话本质上都是文本补全游戏</li></ul><p data-pid=\"AmnKYFYR\">模型眼中的交互格式：</p><div class=\"highlight\"><pre><code class=\"language-text\">[User]: 你的问题... [End]\n[Assistant]: (模型预测这里应该填什么) AI的回复... [End]</code></pre></div><h3>关键参数说明</h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>参数</th><th>说明</th><th>作用</th></tr><tr><td>Temperature</td><td>控制随机性</td><td>0.0-0.3：适用于代码生成、数据提取等需要确定性的场景<br/>0.7-1.0：适用于创意写作、头脑风暴等需要多样性的场景</td></tr><tr><td>Max Tokens</td><td>最大长度</td><td>限制单次回复的最大字数</td></tr><tr><td>Top P</td><td>采样范围</td><td>另一种控制随机性的方式，通常与 Temperature 二选一</td></tr></tbody></table><h3>1.2 提示词工程</h3><p data-pid=\"w-Z5VYS1\">提示词（Prompt）的本质是通过文字输入来约束模型输出的概率分布。</p><h3>案例对比</h3><p data-pid=\"LgZVU0Kw\"><b>弱约束版本：</b></p><blockquote data-pid=\"fVZjOp5e\"> “帮我写个贪吃蛇代码。”</blockquote><p data-pid=\"wnuglLN9\">模型可能输出 Python、C++ 等多种版本，概率分布发散。</p><p data-pid=\"EF3-fMvS\"><b>强约束版本：</b></p><blockquote data-pid=\"wSpQeHXI\"> “你是一名资深的 Python 游戏开发者。请使用 Pygame 库编写一个贪吃蛇游戏。代码需要包含详细注释，并将游戏速度设置为适中。请直接输出代码块，无需解释。”</blockquote><p data-pid=\"crpmya8f\">模型输出 <code>import pygame</code> 的概率被显著放大，输出无关内容的概率被压缩。</p><h3>核心洞察</h3><p data-pid=\"F9lFLVrS\">为什么专业提示词效果更好？大模型的训练数据涵盖从低质量到高质量的广泛内容。当你使用高质量、专业术语丰富的提示词时，实际上是在<b>激活模型内部由高质量语料训练出的参数区域</b>。</p><h3>1.3 System Prompt 与 User Prompt</h3><p data-pid=\"g7Z_kG_g\">在提示词体系中，有两个核心概念必须区分：</p><ul><li data-pid=\"L8adPvfI\"><b>User Prompt</b>：任务指令，相当于你对 AI 说的一句话</li><li data-pid=\"iHbYtmnQ\"><b>System Prompt</b>：系统提示词，相当于设定的人设和底层规则</li></ul><p data-pid=\"OEosQoeL\">对于仅使用过网页版 AI 的用户，System Prompt 往往被隐藏。但在 Agent 开发中，它是分层架构的核心。</p><h3>实际应用示例</h3><p data-pid=\"FkI7RmEZ\"><b>不设置 System Prompt</b>：模型处于通用状态，回答平庸</p><p data-pid=\"_wG6gnaG\"><b>设置 System Prompt</b>：</p><blockquote data-pid=\"RaPOP3F-\"> “你不是路人，你是拥有二十年经验的严厉律师，你需要找出合同中的每一个漏洞。”</blockquote><p data-pid=\"f_GvQQd1\">这不仅改变了语气，更重要的是<b>激活了特定的专业能力</b>，使其能调动法律相关的知识权重。</p><p data-pid=\"KrquLhi-\"><b>注意事项</b>：在绝大多数模型的训练机制中，System Prompt 的权重高于 User Prompt。两者冲突时可能导致输出不稳定。</p><h3>1.4 实战示例</h3><div class=\"highlight\"><pre><code class=\"language-text\">import os\nfrom openai import OpenAI\n\nclient = OpenAI(\n    api_key=&#34;sk-xxxxxx&#34;,\n    base_url=&#34;https://api-inference.modelscope.cn/v1&#34;\n)\n\ndef get_completion(system_prompt, user_prompt):\n    &#34;&#34;&#34;\n    调用大模型的通用封装函数\n    注意：所谓的&#34;记忆&#34;和&#34;上下文&#34;在代码层面就是一个 List\n    &#34;&#34;&#34;\n    messages = [\n        {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: system_prompt},\n        {&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: user_prompt}\n    ]\n\n    print(f&#34;发送给模型的完整消息列表:\\n{messages}&#34;)\n\n    try:\n        response = client.chat.completions.create(\n            model=&#34;deepseek-ai/DeepSeek-V3.2&#34;,\n            messages=messages,\n            temperature=0.7\n        )\n        return response.choices[0].message.content\n    except Exception as e:\n        return f&#34;调用出错: {e}&#34;\n\n# 实验：对比不同 System Prompt 的效果\nquestion = &#34;如何提升团队协作效率？&#34;\n\n# 配置 A：务实型管理者\nsystem_a = &#34;&#34;&#34;\n你是一名注重执行力的项目经理。\n你的回答应该：具体、可操作、强调落地执行。\n避免空洞的理论，直接给出行动建议。\n&#34;&#34;&#34;\n\n# 配置 B：学术型顾问\nsystem_b = &#34;&#34;&#34;\n你是一名组织行为学研究者。\n你的回答应该：引用理论、分析框架、系统化思考。\n注重逻辑性和学术严谨性。\n&#34;&#34;&#34;\n\nprint(&#34;=== 配置 A 回复 ===&#34;)\nprint(get_completion(system_a, question))\n\nprint(&#34;\\n=== 配置 B 回复 ===&#34;)\nprint(get_completion(system_b, question))</code></pre></div><h3>核心要点</h3><p data-pid=\"EisU_7L3\">运行上述代码后，请关注打印的 <code>messages</code> 列表：</p><ol><li data-pid=\"5Ddgwfkr\"><b>数据本质</b>：模型接收的是 JSON 格式的 List</li><li data-pid=\"Q5zrGGgR\"><b>无状态性</b>：模型没有记忆，每次调用都需要发送完整上下文</li><li data-pid=\"Lsf_I1Z0\"><b>权重优先级</b>：system 永远位于列表最前端，优先级最高</li></ol><hr/><h2>二：结构化输出与函数调用</h2><h3>学习目标</h3><ol><li data-pid=\"Mdt2bOQC\">理解自然语言与机器语言的差异</li><li data-pid=\"ctL-oveG\">掌握结构化输出的方法</li><li data-pid=\"MfzzZOZ1\">深度理解 Function Call 的本质</li></ol><h3>2.1 自然语言 vs 机器语言</h3><p data-pid=\"BLDyA18Y\">人类理解自然语言具有高效性和高容错性，而机器依赖绝对规则。</p><p data-pid=\"0uPcxSQS\"><b>问题示例</b>：从”明天早上九点在星巴克开会”中提取时间</p><p data-pid=\"hoENXG7F\">假设正则表达式为：<code>\\d{2}:\\d{2}</code></p><ul><li data-pid=\"96S49NYH\">AI 回复 A：”09:00” → ✅ 匹配成功</li><li data-pid=\"v3UT8s_e\">AI 回复 B：”九点” → ❌ 匹配失败（中文数字）</li><li data-pid=\"l37m5a6A\">AI 回复 C：”9:00” → ❌ 匹配失败（缺前导0）</li></ul><p data-pid=\"3ylh1wBt\"><b>结论</b>：自然语言的灵活性是程序稳定性的挑战。在 Agent 开发中，<b>不要让 LLM 直接对用户说话，先让它对机器说话（输出结构化数据）。</b></p><h3>2.2 结构化输出方法</h3><h3>方法一：Prompt 定义（软约束）</h3><p data-pid=\"DubrYfFw\">直接在提示词中要求 JSON 格式：</p><blockquote data-pid=\"Lp4g_eUr\"> “请以 JSON 格式回复，格式如下：<code>{&#34;time&#34;: &#34;HH:MM&#34;}</code>”</blockquote><ul><li data-pid=\"aK72o3_j\"><b>优点</b>：兼容性强，所有模型都支持</li><li data-pid=\"ES4cp_Yj\"><b>缺点</b>：不保证 100% 稳定，可能混入额外文字</li></ul><h3>方法二：Schema 约束（硬约束）</h3><p data-pid=\"LU6ZIkd5\">利用模型厂商提供的 <code>response_format</code> 参数，在底层限制生成概率。</p><ul><li data-pid=\"MNsbL9Zs\"><b>原理</b>：生成 JSON Key 时屏蔽非 JSON 符号的 Token</li><li data-pid=\"oB0sVvZp\"><b>优点</b>：保证 JSON 语法的绝对正确性</li><li data-pid=\"qk1GBcdJ\"><b>缺点</b>：牺牲一点灵活性</li></ul><h3>2.3 Function Call 的本质</h3><p data-pid=\"jDdPcLHR\">Function Call（工具调用）是从”聊天机器人”进化为”智能体”的关键技术。</p><h3>核心误区</h3><p data-pid=\"Y8rBhFQy\">❌ <b>错误理解</b>：AI 在服务器上运行了 Python 函数</p><p data-pid=\"neyXvu9P\">✅ <b>正确理解</b>：AI 没有运行代码，它只是：</p><ol><li data-pid=\"EvlzPGLh\">根据描述决定调用哪个函数</li><li data-pid=\"s0cpNWtQ\">生成函数参数（JSON 格式）</li><li data-pid=\"kWv8aLxC\">由本地代码执行并返回结果</li></ol><h3>工作流程</h3><ol><li data-pid=\"Fk_U70jm\"><b>用户</b>：”获取文件第 3967 行内容”</li><li data-pid=\"b7ryMRCQ\"><b>LLM</b>：分析意图，提取参数 → 返回 <code>{&#34;tool&#34;: &#34;read_file&#34;, &#34;args&#34;: {...}}</code></li><li data-pid=\"jqYjSdRG\"><b>本地代码</b>：执行读取操作</li><li data-pid=\"JEvXTyT6\"><b>本地代码</b>：将结果返回给 LLM</li><li data-pid=\"7ORSSy8v\"><b>LLM</b>：生成最终回复</li></ol><p data-pid=\"ogCktLnW\"><b>总结</b>：LLM 是一个”翻译官”，将人类模糊指令翻译成机器可执行的精准参数。</p><h3>2.4 实战示例</h3><div class=\"highlight\"><pre><code class=\"language-text\">import json\nfrom openai import OpenAI\n\nclient = OpenAI(api_key=&#34;ms-xxxxx&#34;, base_url=&#34;https://api-inference.modelscope.cn/v1&#34;)\n\n# 定义工具 Schema（说明书）\ntools = [\n    {\n        &#34;type&#34;: &#34;function&#34;,\n        &#34;function&#34;: {\n            &#34;name&#34;: &#34;read_specific_line&#34;,\n            &#34;description&#34;: &#34;读取指定文件路径下，指定行号的文本内容&#34;,\n            &#34;parameters&#34;: {\n                &#34;type&#34;: &#34;object&#34;,\n                &#34;properties&#34;: {\n                    &#34;file_path&#34;: {\n                        &#34;type&#34;: &#34;string&#34;,\n                        &#34;description&#34;: &#34;文件的相对或绝对路径&#34;\n                    },\n                    &#34;line_number&#34;: {\n                        &#34;type&#34;: &#34;integer&#34;,\n                        &#34;description&#34;: &#34;需要读取的行号&#34;\n                    }\n                },\n                &#34;required&#34;: [&#34;file_path&#34;, &#34;line_number&#34;]\n            }\n        }\n    }\n]\n\nmessages = [\n    {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: &#34;你是一个严谨的文件管理员。&#34;},\n    {&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: &#34;帮我看看 test.txt 的第 88 行写了什么？&#34;}\n]\n\nresponse = client.chat.completions.create(\n    model=&#34;deepseek-ai/DeepSeek-V3.2&#34;,\n    messages=messages,\n    tools=tools,\n    tool_choice=&#34;auto&#34;\n)\n\n# 解析工具调用\nassist_msg = response.choices[0].message\n\nif assist_msg.tool_calls:\n    tool_call = assist_msg.tool_calls[0]\n\n    # 关键：将 JSON 字符串转为 Python 字典\n    args = json.loads(tool_call.function.arguments)\n\n    # 执行本地代码\n    file_path = args.get(&#34;file_path&#34;)\n    line_number = args.get(&#34;line_number&#34;)\n\n    # 读取文件并返回结果...</code></pre></div><hr/><h2>三：上下文管理与检索增强</h2><h3>学习目标</h3><ol><li data-pid=\"xaCMi5Xj\">理解上下文窗口的限制与管理策略</li><li data-pid=\"qq2sht95\">掌握 RAG（检索增强生成）技术</li><li data-pid=\"bSl3jI7_\">学会 Few-Shot 提示方法</li></ol><h3>3.1 上下文工程</h3><h3>为什么要管理上下文</h3><p data-pid=\"amq33y6s\">大模型的记忆有限，存在 <b>Context Window</b> 限制（如 8k、32k、128k）。即使模型支持 128k，在长上下文下的表现也可能不如短上下文。</p><h3>管理策略</h3><ol><li data-pid=\"9SBAVgWa\"><b>截断</b>：只保留最近 N 轮对话</li><li data-pid=\"bvMFT0dy\"><b>摘要</b>：将历史对话总结为摘要，作为上下文继续</li><li data-pid=\"UxYxkCJQ\"><b>滑动窗口</b>：新进旧出，保持窗口固定</li></ol><h3>3.2 RAG：检索增强生成</h3><p data-pid=\"4VokeUmm\">RAG 是解决模型”幻觉”问题的有效方法。</p><h3>工作原理</h3><p data-pid=\"QpBXG2mv\"><b>没有 RAG</b>：</p><ul><li data-pid=\"nJZIP-6i\">用户：”我的年假还剩几天？”</li><li data-pid=\"7Mg9bfIs\">AI：（不知道，瞎编）”根据劳动法，你可能有 5 天。” ❌</li></ul><p data-pid=\"XxH0o255\"><b>有 RAG</b>：</p><ol><li data-pid=\"PjKusZgL\"><b>检索</b>：查询数据库 → 获得信息”剩 3 天”</li><li data-pid=\"ymoSOEio\"><b>增强</b>：将信息注入 Prompt</li><li data-pid=\"I58nEFHB\"><b>生成</b>：AI 基于真实信息回答 ✅</li></ol><h3>RAG 的本质</h3><p data-pid=\"W4P4BSlB\">RAG 就是在模型输出前，通过规则、机器学习或搜索方法，尽可能提供有效信息或学习数据。</p><h3>3.3 Few-Shot 学习</h3><p data-pid=\"ZenfIL84\">Few-Shot 是 RAG 的特殊形式——检索的是”样例”而非”知识”。</p><p data-pid=\"wGxMP3M3\">大模型本质是模仿引擎。与其写 1000 字解释什么是幽默，不如直接给 3 个幽默段子让它模仿。</p><p data-pid=\"PVzsOEuP\"><b>Zero-shot</b>：</p><blockquote data-pid=\"W5BKNeL5\"> “把这句话翻译成英文：你好。”</blockquote><p data-pid=\"YfgeCTmP\"><b>Few-shot</b>：</p><blockquote data-pid=\"spumnAMC\"> “把中文翻译成英文，风格要莎士比亚化： 例子 1：吃饭了吗 → 汝今朝进膳否？ 例子 2：去睡觉 → 吾将归于黑夜之怀抱。 用户输入：你好。”</blockquote><h3>高阶技巧：动态 Few-Shot</h3><p data-pid=\"p9h-5lsa\">构建一个样例库，根据用户问题类型检索对应的 Few-Shot 示例。问代码问题检索代码示例，问法律问题检索法律示例。</p><h3>3.4 实战示例：企业知识库问答</h3><div class=\"highlight\"><pre><code class=\"language-text\">from fuzzywuzzy import process\n\n# 构建知识库\nknowledge_base = [\n    {&#34;query&#34;: &#34;年假天数&#34;, &#34;answer&#34;: &#34;员工年假：工作1-10年5天，10-20年10天，20年以上15天。&#34;},\n    {&#34;query&#34;: &#34;报销流程&#34;, &#34;answer&#34;: &#34;报销流程：填写报销单→部门审批→财务审核→7个工作日到账。&#34;},\n    {&#34;query&#34;: &#34;请假制度&#34;, &#34;answer&#34;: &#34;请假需提前3天申请，病假需医院证明，事假扣当日工资。&#34;}\n]\n\ndef retrieve_knowledge(user_query):\n    &#34;&#34;&#34;检索最相关的知识&#34;&#34;&#34;\n    questions = [item[&#39;query&#39;] for item in knowledge_base]\n    best_match = process.extractOne(user_query, questions, score_cutoff=40)\n\n    if best_match:\n        for item in knowledge_base:\n            if item[&#39;query&#39;] == best_match[0]:\n                return item[&#39;answer&#39;]\n    return &#34;未找到相关信息&#34;\n\ndef build_rag_prompt(user_query):\n    &#34;&#34;&#34;构建 RAG 提示词&#34;&#34;&#34;\n    retrieved_info = retrieve_knowledge(user_query)\n\n    prompt = f&#34;&#34;&#34;\n    基于以下知识库信息回答用户问题：\n\n    【知识库信息】\n    {retrieved_info}\n\n    【用户问题】\n    {user_query}\n\n    请基于知识库信息回答，如果知识库中没有相关信息，请明确告知。\n    &#34;&#34;&#34;\n    return prompt\n\n# 使用示例\nuser_question = &#34;我有多少年假？&#34;\nrag_prompt = build_rag_prompt(user_question)\n# 然后将 rag_prompt 发送给 LLM...</code></pre></div><hr/><h2>四：工作流设计与确定性控制</h2><h3>学习目标</h3><ol><li data-pid=\"1JT8iJol\">理解工作流与 Agent 的区别</li><li data-pid=\"g5P0OKcI\">掌握将大模型作为函数组件的方法</li><li data-pid=\"TwIRgsJq\">构建包含分类、判断、摘要、调用的完整流水线</li></ol><h3>4.1 工作流的本质</h3><h3>长提示词的问题</h3><p data-pid=\"nR2olsrS\">新手常犯的错误是用一个超级 Prompt 完成所有任务：</p><blockquote data-pid=\"Lowxi-SV\"> “你是一个客服，先判断用户情绪，如果是生气的就安抚，如果是退款的就查订单…”</blockquote><p data-pid=\"iBrSFqci\">随着需求增加，提示词会变得难以维护，准确率下降。</p><h3>工作流方案</h3><p data-pid=\"MaCpLgsr\">工作流（Workflow）的本质是将复杂任务拆解为标准作业程序，<b>用 Python 代码控制流程，将 AI 作为组件</b>。</p><ul><li data-pid=\"AgBpPXtV\"><b>特点</b>：确定性高、可调试、不易跑偏</li><li data-pid=\"JleLFjjB\"><b>结构</b>：DAG（有向无环图），线性执行</li></ul><h3>4.2 控制流设计</h3><p data-pid=\"oZeYbUA5\">核心思想：在代码中用 <code>if/elif/else</code> 控制 AI 的输出走向。</p><ol><li data-pid=\"If_EtXLY\"><b>感知（AI）</b>：输出结构化分类结果</li><li data-pid=\"qf_wCVjs\"><b>路由（Python）</b>：解析结果，决定分支</li><li data-pid=\"1PIgoeFe\"><b>执行（AI + Tool）</b>：调用对应工具或生成回复</li></ol><h3>4.3 实战示例：智能客服分流系统</h3><div class=\"highlight\"><pre><code class=\"language-text\">import json\nfrom openai import OpenAI\n\nclient = OpenAI(api_key=&#34;sk-xxxx&#34;, base_url=&#34;https://api.deepseek.com&#34;)\n\n# 模拟工具\ndef query_order_status(user_id):\n    return {&#34;status&#34;: &#34;paid&#34;, &#34;amount&#34;: 299.0, &#34;refundable&#34;: True}\n\n# 节点A：意图分类\ndef classify_ticket(user_text):\n    system_prompt = &#34;&#34;&#34;\n    你是一个工单分类员。请分析用户输入，提取以下信息并以 JSON 格式返回：\n    1. category: &#34;refund&#34;（退款）、&#34;tech_issue&#34;（技术问题）或 &#34;other&#34;\n    2. urgency: 1-5 的整数，5 最紧急\n    3. summary: 用一句话概括用户问题\n    &#34;&#34;&#34;\n\n    response = client.chat.completions.create(\n        model=&#34;deepseek-chat&#34;,\n        messages=[\n            {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: system_prompt},\n            {&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: user_text}\n        ],\n        response_format={&#34;type&#34;: &#34;json_object&#34;}\n    )\n    return json.loads(response.choices[0].message.content)\n\n# 节点B1：技术问题处理\ndef generate_dev_report(summary, urgency):\n    prompt = f&#34;收到紧急度 {urgency} 的技术反馈：&#39;{summary}&#39;。请生成专业简报给技术团队。&#34;\n    response = client.chat.completions.create(\n        model=&#34;deepseek-chat&#34;,\n        messages=[{&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: prompt}]\n    )\n    return response.choices[0].message.content\n\n# 节点B2：退款处理\ndef handle_refund(user_text, user_id=123):\n    order_info = query_order_status(user_id)\n\n    if order_info[&#39;refundable&#39;]:\n        prompt = f&#34;用户要求退款：&#39;{user_text}&#39;。金额：{order_info[&#39;amount&#39;]}。生成确认回复。&#34;\n    else:\n        prompt = f&#34;用户要求退款，但不可退款。生成委婉拒绝回复。&#34;\n\n    response = client.chat.completions.create(\n        model=&#34;deepseek-chat&#34;,\n        messages=[{&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: prompt}]\n    )\n    return response.choices[0].message.content\n\n# 主流程\ndef run_support_workflow(user_input):\n    print(f&#34;收到工单: {user_input}&#34;)\n\n    # 1. 意图分类\n    ticket_data = classify_ticket(user_input)\n    print(f&#34;分类结果: {ticket_data}&#34;)\n\n    # 2. 路由决策\n    category = ticket_data.get(&#34;category&#34;)\n    urgency = ticket_data.get(&#34;urgency&#34;)\n\n    if category == &#34;refund&#34;:\n        print(&#34;→ 退款流程&#34;)\n        if urgency &gt;= 4:\n            print(&#34;⚠️ 高优先级处理&#34;)\n        reply = handle_refund(user_input)\n        print(f&#34;回复: {reply}&#34;)\n\n    elif category == &#34;tech_issue&#34;:\n        print(&#34;→ 技术支持流程&#34;)\n        dev_msg = generate_dev_report(ticket_data[&#39;summary&#39;], urgency)\n        print(f&#34;技术简报: {dev_msg}&#34;)\n\n    else:\n        print(&#34;→ 普通咨询&#34;)\n        print(&#34;回复: 感谢反馈，人工客服将稍后联系&#34;)\n\n# 测试\nrun_support_workflow(&#34;你们的软件总是闪退！气死我了！&#34;)\nrun_support_workflow(&#34;刚买的会员能退款吗？&#34;)</code></pre></div><h3>工作流特征</h3><ol><li data-pid=\"g6O_6E_P\"><b>确定性路由</b>：代码控制执行路径，不依赖 AI 的”意愿”</li><li data-pid=\"fPOOISX5\"><b>上下文隔离</b>：每个模块只处理相关信息，避免污染</li><li data-pid=\"rWKwbe0E\"><b>人机耦合</b>：代码处理逻辑判断，AI 处理非结构化内容</li></ol><hr/><h2>五：智能体模式与反思机制</h2><h3>学习目标</h3><ol><li data-pid=\"icLxy7UM\">理解 Agent 的循环结构本质</li><li data-pid=\"dxG5YAyE\">掌握 ReAct 与 Plan-and-Execute 两种模式</li><li data-pid=\"Qqa0z9Je\">构建具有自我反思能力的智能体</li></ol><h3>5.1 Agent 的两种主流模式</h3><h3>ReAct 模式（Reasoning + Acting）</h3><p data-pid=\"kBMv0AWY\"><b>逻辑</b>：思考 → 行动 → 观察 → 再思考 → 再行动…</p><p data-pid=\"XdGVaZSl\"><b>比喻</b>：走迷宫。走一步，看路牌，决定下一步。</p><p data-pid=\"W4fFAg5X\"><b>适用场景</b>：信息未知的探索性任务，如代码调试、网页浏览、提示词优化。</p><h3>Plan-and-Execute 模式</h3><p data-pid=\"oHqdNHuY\"><b>逻辑</b>：</p><ol><li data-pid=\"iv0rQ63b\"><b>Planner</b>：将大目标拆解为步骤清单</li><li data-pid=\"22SWcc1E\"><b>Executor</b>：按顺序执行步骤</li><li data-pid=\"F0QKctph\"><b>Replanner</b>：根据执行结果调整计划</li></ol><p data-pid=\"HfESAyYT\"><b>比喻</b>：装修房子。先出设计图，再施工。</p><p data-pid=\"qmqCLDly\"><b>适用场景</b>：长链条复杂任务，如写小说、生成研报。</p><h3>5.2 反思机制</h3><p data-pid=\"vfFnVp-h\">为什么 Agent 比 Workflow 强？因为具有<b>自我纠错</b>能力。</p><p data-pid=\"OC6vL3hU\">当 Agent 发现行动结果不理想时，不仅会重试，还会思考”为什么失败？如何改进？”</p><p data-pid=\"QOtk1zBT\"><b>核心观点</b>：没有反思的 Agent 是死循环，懂反思的 Agent 才能进化。</p><h3>5.3 实战示例：提示词优化 Agent</h3><div class=\"highlight\"><pre><code class=\"language-text\">import json\nfrom openai import OpenAI\n\nclient = OpenAI(api_key=&#34;ms-xxx&#34;, base_url=&#34;https://api-inference.modelscope.cn/v1&#34;)\n\n# 定义学生模型和教师模型\nSTUDENT_MODEL = &#39;Qwen/Qwen3-1.7B&#39;\nTEACHER_MODEL = &#39;Qwen/Qwen3-235B-A22B-Instruct-2507&#39;\n\ndef evaluate_answer(question, goal, student_answer):\n    &#34;&#34;&#34;使用强模型评估小模型的回答&#34;&#34;&#34;\n    judge_prompt = f&#34;&#34;&#34;\n    评估以下回答的质量：\n\n    【任务目标】{goal}\n    【问题】{question}\n    【回答】{student_answer}\n\n    请返回 JSON：{{&#34;score&#34;: 0-100, &#34;reason&#34;: &#34;点评&#34;}}\n    &#34;&#34;&#34;\n\n    response = client.chat.completions.create(\n        model=TEACHER_MODEL,\n        messages=[{&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: judge_prompt}],\n        response_format={&#34;type&#34;: &#34;json_object&#34;}\n    )\n    return json.loads(response.choices[0].message.content)\n\ndef test_prompt(candidate_prompt):\n    &#34;&#34;&#34;测试提示词效果&#34;&#34;&#34;\n    test_questions = [\n        &#34;91330000142924161N的公司是金迪克股份有限公司，还是上海建投集团？&#34;,\n        &#34;赛轮集团与晶瑞电子材料的纠纷案2025年11月3号在杭州市开庭&#34;\n    ]\n\n    total_score = 0\n    for q in test_questions:\n        # 调用小模型\n        response = client.chat.completions.create(\n            model=STUDENT_MODEL,\n            messages=[\n                {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: candidate_prompt},\n                {&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: q}\n            ],\n            temperature=0.1\n        )\n        student_output = response.choices[0].message.content\n\n        # 评估\n        result = evaluate_answer(q, &#34;命名实体抽取&#34;, student_output)\n        total_score += result[&#39;score&#39;]\n\n    avg_score = total_score / len(test_questions)\n    observation = f&#34;平均分: {avg_score}&#34;\n\n    if avg_score &gt;= 95:\n        observation += &#34; (任务完成)&#34;\n\n    return observation\n\n# 工具定义\ntools = [{\n    &#34;type&#34;: &#34;function&#34;,\n    &#34;function&#34;: {\n        &#34;name&#34;: &#34;test_prompt&#34;,\n        &#34;description&#34;: &#34;测试提示词效果&#34;,\n        &#34;parameters&#34;: {\n            &#34;type&#34;: &#34;object&#34;,\n            &#34;properties&#34;: {\n                &#34;candidate_prompt&#34;: {&#34;type&#34;: &#34;string&#34;}\n            },\n            &#34;required&#34;: [&#34;candidate_prompt&#34;]\n        }\n    }\n}]\n\n# ReAct 循环\ndef run_optimization_agent(target_goal):\n    messages = [\n        {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: &#34;&#34;&#34;\n        你是提示词优化专家。\n\n        【思考模式】\n        1. Thought: 分析上一次测试结果，找出问题原因\n        2. Plan: 决定如何修改提示词\n        3. Action: 调用 test_prompt 工具\n\n        【终止条件】\n        平均分超过 95 时停止，最多尝试 5 轮。\n        &#34;&#34;&#34;},\n        {&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: f&#34;优化目标：{target_goal}&#34;}\n    ]\n\n    print(f&#34;Agent 启动！目标：{target_goal}&#34;)\n\n    for turn in range(5):\n        print(f&#34;\\n=== 第 {turn + 1} 轮 ===&#34;)\n\n        response = client.chat.completions.create(\n            model=TEACHER_MODEL,\n            messages=messages,\n            tools=tools,\n            tool_choice=&#34;auto&#34;\n        )\n\n        ai_msg = response.choices[0].message\n        messages.append(ai_msg)\n\n        if ai_msg.tool_calls:\n            if ai_msg.content:\n                print(f&#34;思考: {ai_msg.content}&#34;)\n\n            for tool_call in ai_msg.tool_calls:\n                args = json.loads(tool_call.function.arguments)\n                new_prompt = args.get(&#39;candidate_prompt&#39;)\n\n                observation = test_prompt(new_prompt)\n                print(f&#34;观察: {observation}&#34;)\n\n                messages.append({\n                    &#34;role&#34;: &#34;tool&#34;,\n                    &#34;tool_call_id&#34;: tool_call.id,\n                    &#34;name&#34;: tool_call.function.name,\n                    &#34;content&#34;: observation\n                })\n\n                if &#34;任务完成&#34; in observation:\n                    print(&#34;\\n优化成功！&#34;)\n                    return\n\n# 启动\nrun_optimization_agent(&#34;优化命名实体抽取能力，输出 JSON 格式&#34;)</code></pre></div><hr/><h2>六：多智能体协作架构</h2><h3>学习目标</h3><ol><li data-pid=\"XENZi01y\">理解单体 Agent 的局限性</li><li data-pid=\"4hCGpL_p\">掌握层级式与讨论组式两种协作模式</li><li data-pid=\"6U5wJzwI\">构建多智能体软件开发团队</li></ol><h3>6.1 为什么需要 Multi-Agent？</h3><h3>局限性一：上下文爆炸</h3><p data-pid=\"itWh918X\">单体 Agent 处理复杂任务时，历史记录会迅速撑爆上下文窗口，导致遗忘初始需求。</p><p data-pid=\"DS5sKoYp\"><b>解决方案</b>：分工。不同 Agent 只关注相关上下文。</p><h3>局限性二：角色冲突</h3><p data-pid=\"2M_4MsE0\">同一 Prompt 中要求”极富创意”和”严谨逻辑”，模型表现会下降。</p><p data-pid=\"87ppCpxB\"><b>解决方案</b>：分人。高 Temperature Agent 负责创意，低 Temperature Agent 负责审核。</p><h3>6.2 两种协作模式</h3><h3>层级式（Hiera）</h3><ul><li data-pid=\"ky5DWvqP\"><b>结构</b>：管理者 → 执行者</li><li data-pid=\"LXNl12iA\"><b>逻辑</b>：上级拆解任务分发给下级，下级执行后汇报</li><li data-pid=\"mCrghSWe\"><b>适用</b>：目标明确、流程标准的任务（软件开发、报告撰写）</li></ul><h3>讨论组式（Joint）</h3><ul><li data-pid=\"Z4a4muq-\"><b>结构</b>：圆桌会议</li><li data-pid=\"4srsmbLD\"><b>逻辑</b>：所有 Agent 针对问题发表看法，直到达成共识</li><li data-pid=\"xivpXMsi\"><b>适用</b>：创意发散、多视角辩论（方案评审、决策辅助）</li></ul><h3>6.3 实战示例：软件开发团队</h3><div class=\"highlight\"><pre><code class=\"language-text\">from openai import OpenAI\n\nclient = OpenAI(api_key=&#34;sk-xxxx&#34;, base_url=&#34;https://api.deepseek.com&#34;)\n\ndef call_agent(role, system_prompt, user_input):\n    &#34;&#34;&#34;调用单个 Agent&#34;&#34;&#34;\n    print(f&#34;\\n[{role}] 正在处理...&#34;)\n    response = client.chat.completions.create(\n        model=&#34;deepseek-chat&#34;,\n        messages=[\n            {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: system_prompt},\n            {&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: user_input}\n        ]\n    )\n    content = response.choices[0].message.content\n    print(f&#34;[{role}] 输出:\\n{content}\\n&#34;)\n    return content\n\ndef run_software_team(user_idea):\n    print(f&#34;启动开发团队！需求: {user_idea}&#34;)\n\n    # 第一棒：产品经理\n    pm_prompt = &#34;&#34;&#34;\n    你是资深产品经理。\n    任务：将用户想法转化为详细需求文档（PRD）。\n    包含：功能列表、技术栈建议、用户流程。\n    &#34;&#34;&#34;\n    prd = call_agent(&#34;产品经理&#34;, pm_prompt, user_idea)\n\n    # 第二棒：工程师\n    coder_prompt = &#34;&#34;&#34;\n    你是 Python 工程师。\n    任务：根据需求文档编写可运行的 Python 代码。\n    要求：包含注释，只输出代码块。\n    &#34;&#34;&#34;\n    # 注意：Coder 只看 PRD，不看原始需求\n    code = call_agent(&#34;工程师&#34;, coder_prompt, f&#34;需求文档:\\n{prd}&#34;)\n\n    # 第三棒：代码审查\n    reviewer_prompt = &#34;&#34;&#34;\n    你是严格的代码审查员。\n    任务：检查代码是否存在逻辑漏洞、安全隐患。\n    输出：简短的审查报告。\n    &#34;&#34;&#34;\n    review = call_agent(&#34;审查员&#34;, reviewer_prompt,\n                       f&#34;需求:\\n{prd}\\n\\n代码:\\n{code}&#34;)\n\n    print(&#34;\\n项目交付完成！&#34;)\n\n# 测试\nrun_software_team(&#34;帮我写一个贪吃蛇游戏，支持加速功能&#34;)</code></pre></div><h3>核心要点</h3><ol><li data-pid=\"BPlmKELK\"><b>上下文隔离</b>：Coder 只接收 PRD，不接收原始需求，避免信息干扰</li><li data-pid=\"t2H5Gx-I\"><b>专业分工</b>：每个 Agent 的 Prompt 针对其职责优化</li><li data-pid=\"JLzYmQNR\"><b>信息流控制</b>：PM 屏蔽无关信息，传递精炼需求</li></ol><h3>6.4 进阶：引入循环</h3><p data-pid=\"mimcRJJP\">当前流程是线性的。如果 Reviewer 发现 Bug，如何处理？</p><p data-pid=\"9Xa3utTF\"><b>解决方案</b>：在 Reviewer 和 Coder 之间引入 Loop：</p><div class=\"highlight\"><pre><code class=\"language-text\">while review_score &lt; 90:\n    review = reviewer_agent(code)\n    if review.passed:\n        break\n    code = coder_agent(prd, review.feedback)</code></pre></div><p data-pid=\"ukrJBR4c\">这就是 <b>Multi-Agent + ReAct</b> 的完全体形态，也是先进 Agent 框架的底层原理。</p><hr/><h2>七：概率编程与系统设计哲学</h2><h3>学习目标</h3><ol><li data-pid=\"q5PswwXF\">理解概率编程与传统编程的本质区别</li><li data-pid=\"XPFLKdsn\">掌握确定性与不确定性的平衡</li><li data-pid=\"WK8N1EqP\">建立 AI 系统架构的设计思维</li></ol><h3>7.1 概率编程</h3><h3>传统编程（确定性）</h3><ul><li data-pid=\"_qXBjMzV\"><b>逻辑</b>：<code>if a == 1 then b = 2</code></li><li data-pid=\"_eGsLFpP\"><b>特点</b>：输入 X 永远得到输出 Y</li><li data-pid=\"W3GU2LAn\"><b>重点</b>：用严密逻辑控制一切</li></ul><h3>概率编程（不确定性）</h3><ul><li data-pid=\"9BHEswyk\"><b>逻辑</b>：<code>Context + Prompt → Probabilistic Output</code></li><li data-pid=\"-HjwGFCO\"><b>特点</b>：输入 X 可能得到 Y₁、Y₂、Y₃…</li><li data-pid=\"Unbv4XZx\"><b>重点</b>：懂得取舍和管理概率</li></ul><h3>不可能三角</h3><div class=\"highlight\"><pre><code class=\"language-text\">功能丰富度 ↔ 易用性 ↔ 输出精确性</code></pre></div><p data-pid=\"IZ1Nvh8E\">三者难以同时满足。如果输入高度自由，输出精确性会下降；如果追求精确输出，输入约束就会增加。</p><h3>7.2 架构平衡：Workflow + Agent</h3><p data-pid=\"VVYvBRPC\">在前面的课程中，我们经历了两个极端：</p><ul><li data-pid=\"aWf54Uz9\"><b>Workflow</b>：极度确定，死板但稳定</li><li data-pid=\"ENhLPjLh\"><b>Agent</b>：极度灵活，强大但易失控</li></ul><p data-pid=\"SyN7S9LY\"><b>企业级应用</b>永远是两者的混合：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>组件</th><th>处理内容</th><th>占比</th><th>作用</th></tr><tr><td>Workflow</td><td>确定性流程（鉴权、查库、格式转换）</td><td>80%</td><td>系统下限</td></tr><tr><td>Agent</td><td>灵活性意图（理解潜台词、生成文案）</td><td>20%</td><td>系统上限</td></tr></tbody></table><h3>架构师心法</h3><p data-pid=\"3n6kvJhm\">在确定性的悬崖边上跳舞：</p><ul><li data-pid=\"P3mUZxyr\">抓得太紧（过度 Workflow）：系统僵化，失去 AI 价值</li><li data-pid=\"aDOPBUZD\">放得太松（全盘 Agent）：系统崩坏，无法投产</li></ul><p data-pid=\"QNIKZLOi\"><b>“致广大而尽精微”</b> —— 宏观用 Workflow 控场，微观用 Agent 绣花。</p><h3>7.3 重新理解 Agent</h3><p data-pid=\"YNSLVJXE\">从概率编程视角看：</p><ul><li data-pid=\"ke2QL7Cu\"><b>Function</b>：极度呆板的 Agent（Temperature = 0）</li><li data-pid=\"J9ao0psk\"><b>LLM</b>：博学但会产生幻觉的 Agent</li><li data-pid=\"3bbFarZk\"><b>人</b>：生活在 0/1 之外、具有全局视角的 Agent</li></ul><h3>7.4 终章思考</h3><p data-pid=\"RGa5DVqg\">学习 Agent 开发的过程，也是拥抱不确定性的过程。</p><h3>不要追求完美</h3><p data-pid=\"Ews7SYUo\">Day 5 的 ReAct Agent 第一次就给出完美答案的概率很低。人也一样。</p><p data-pid=\"J3G5GY9_\">与其追求”永不犯错”，不如建立”允许犯错并能快速修正”的心态和系统。</p><h3>人机关系</h3><p data-pid=\"sFWYWXNr\">AI 永远是人类意志的概率延伸。人是系统的灵魂，AI 是能力的放大器。</p>",
+        "allow_segment_interaction": true,
+        "author": {
+          "gender": -1,
+          "followers_count": 6,
+          "id": "c2276cd6d540009139f791d5a0e33255",
+          "url": "https://api.zhihu.com/people/c2276cd6d540009139f791d5a0e33255",
+          "user_type": "people",
+          "url_token": "bu-kan-xin-wen-liao",
+          "avatar_url": "https://picx.zhimg.com/50/v2-5cc8497b483860f68d4f870f9f98ed0c_l.jpg?source=b6762063",
+          "is_org": false,
+          "name": "躺躺不想动了",
+          "headline": "",
+          "is_following": false,
+          "is_followed": false
+        },
+        "voting": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995889019423302036}",
+      "attached_info": "CswFCPPbgfrWvvDsnAEQBxoJMjY5MTY4MDU4IKyGrcsGKAIwAEBASiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1ODg5MDE5NDIzMzAyMDM2qgEJcmVjb21tZW5kwgEgYzIyNzZjZDZkNTQwMDA5MTM5Zjc5MWQ1YTBlMzMyNTXyAQoIDBIGTm9ybWFs8gEoCAoSJGE4ZDMyYWExLWM4ZWQtNGM2ZS04NTA5LTM4MzM3OWJkNmRmNfIBBggLEgIxMYICAIgCkNXy6bwzkgIgYzIyNzZjZDZkNTQwMDA5MTM5Zjc5MWQ1YTBlMzMyNTWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCAvoCC05PUk1BTF9GTE9XigMgODI0MzQ3YzA2MDQ0NGY4Y2IwYTU2YjMwMDc3NzBmYjSaAw0KAnYyEAAaBW90aGVyqAMK2AMA6gMgd2FybXVwVHdvVG93ZXJUZXh0Tm9ybWFsUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACApHNwP4EFAAAAAAAAAACJBR8TAh5m67M/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQuQBgCgBkKoBgGSAi4KCTI2OTE2ODA1OBITMTk5NTg4OTAxOTQyMzMwMjAzNhgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "65_1768674863.432",
+      "type": "feed",
+      "offset": 65,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674863,
+      "updated_time": 1768674863,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1987838154267443784",
+        "updated_time": 1766991900,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "created_time": 1766717548,
+        "voteup_count": 2904,
+        "id": "1987838154267443784",
+        "excerpt_new": "我是1986年的，妥妥的80后，还几天就40岁了。城市转型，重工业城市失业的。失业这个问题，平台不会推荐的，也没啥流量，就随便写写吧，写到哪算哪。毕竟都是唱好不唱衰，国富民强，在满世界都战火纷飞的时候，有个能保绝大多数人平安的国家，还能让你稍微吐槽下人生不如意十之八九，挺好的。 以前在工厂的时候，2010年吧，那时候厂里刚开始有体系认证，我就从一线三班倒，进了某个车间办公室，做做iso和EHS相关工作。当时这个厂…",
+        "preview_text": "",
+        "question": {
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-22dfe7094375e34e38695123acd219db_l.jpg?source=b6762063",
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/c8aec77d12ffe90d6f8d2b5ee41b057b",
+            "user_type": "people",
+            "url_token": "23-6-56-28-45",
+            "name": "幸运星",
+            "headline": "珍惜身边人，走好脚下路！",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 1,
+            "id": "c8aec77d12ffe90d6f8d2b5ee41b057b",
+            "is_following": false
+          },
+          "title": "80后失业的男人，都在干什么养家糊口呢！?",
+          "excerpt": "",
+          "id": "1951999782693343553",
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "answer_count": 0,
+          "comment_count": 1,
+          "detail": "",
+          "type": "question",
+          "created": 1758173014,
+          "bound_topic_ids": [
+            2605750,
+            2711059,
+            2871849
+          ],
+          "is_following": false,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/1951999782693343553"
+        },
+        "excerpt": "我是1986年的，妥妥的80后，还几天就40岁了。城市转型，重工业城市失业的。失业这个问题，平台不会推荐的，也没啥流量，就随便写写吧，写到哪算哪。毕竟都是唱好不唱衰，国富民强，在满世界都战火纷飞的时候，有个能保绝大多数人平安的国家，还能让你稍微吐槽下人生不如意十之八九，挺好的。 以前在工厂的时候，2010年吧，那时候厂里刚开始有体系认证，我就从一线三班倒，进了某个车间办公室，做做iso和EHS相关工作。当时这个厂…",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "visited_count": 144227,
+        "vote_next_step": "vote",
+        "thanks_count": 98,
+        "comment_count": 838,
+        "preview_type": "default",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "segment_infos": [
+          {
+            "pid": "eeTMsQuZ",
+            "text": "眼瞅着娃上一年级了，我终于在2023年底买了属于自己的房子，23年房龄了，多层一楼，带地上储藏室，老小区楼间距大，采光好，后面就是大片公园，7k多一平，还能接受吧，毕竟2019年这片小区二手价均价要1.1w了。学区加市中心，价格很坚挺，现在也没降多少。房贷加各种信用卡分期，每月4300，10年完事儿，队友执业药师工资不到3k(因为药店业绩完不成，只有基本工资，再努力也白瞎，摆烂了)再加老破小房租，差不多能覆盖了。不够的，啃老呗，反正父母也退休了，退休金加起来6千块，去掉医药费和生活费也有点剩余，与其乱买东西上当受骗，就算不补贴我这个独生子，也得补贴一下他们的小孙女和儿媳妇不是，哈哈哈。",
+            "marks": [
+              {
+                "start_index": 250,
+                "end_index": 296,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988050576366383736"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "B6wSTh69",
+            "text": "你说我后悔吗？我不知道，十几年前编制名额我放弃了，推荐名额我也放弃了，曾经05年山东高考理科636分，理综297的我，最后活成了自己都没想到的样子。",
+            "marks": [
+              {
+                "start_index": 7,
+                "end_index": 74,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988191696572404600"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "bbe3acb61013d51d9d3ae29d655928e7",
+          "url_token": "12345-92-79-78",
+          "name": "12345",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1284,
+          "url": "https://api.zhihu.com/people/bbe3acb61013d51d9d3ae29d655928e7",
+          "user_type": "people",
+          "headline": "只要心中有海，哪里都是马尔代夫",
+          "avatar_url": "https://picx.zhimg.com/50/v2-041b27e5b83f8e68d47bcc389210aac5_l.jpg?source=b6762063"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-5502035e368163dbb05e5d06fdf50555_720w.jpg?source=b6762063",
+        "content": "<p data-pid=\"aEdd_siX\">我是1986年的，妥妥的80后，还几天就40岁了。城市转型，重工业城市失业的。失业这个问题，平台不会推荐的，也没啥流量，就随便写写吧，写到哪算哪。毕竟都是唱好不唱衰，国富民强，在满世界都战火纷飞的时候，有个能保绝大多数人平安的国家，还能让你稍微吐槽下人生不如意十之八九，挺好的。</p><p data-pid=\"CnJTUN2F\">以前在工厂的时候，2010年吧，那时候厂里刚开始有体系认证，我就从一线三班倒，进了某个车间办公室，做做iso和EHS相关工作。当时这个厂虽然是私企，但是规模还比较大，一百多个车间，一万多员工，产能大概在千亿。我所在的那个办公室，是以前的猪圈改的，顶棚是这样的。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0b1ebee4cfb7ed141c836f74c012a436_1440w.jpg\" data-rawwidth=\"1137\" data-rawheight=\"640\" data-size=\"normal\" data-original-token=\"v2-5502035e368163dbb05e5d06fdf50555\" class=\"origin_image zh-lightbox-thumb\" width=\"1137\" data-original=\"https://pica.zhimg.com/v2-0b1ebee4cfb7ed141c836f74c012a436_r.jpg\"/></figure><p data-pid=\"qV8omQsB\">夏天还要去加强一下屋顶，不然会漏雨。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-68a0e1feacfc44d55b04e90d9bdb69c2_1440w.jpg\" data-rawwidth=\"640\" data-rawheight=\"1137\" data-size=\"normal\" data-original-token=\"v2-118cd6f9821672f67bcfe1f5729fe019\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pica.zhimg.com/v2-68a0e1feacfc44d55b04e90d9bdb69c2_r.jpg\"/></figure><p data-pid=\"O-cW40y_\">这是2010年刚进厂没一年，第一次涨工资的时候，2000块。当时觉得，我好有钱啊，都不知道怎么花了，所以拍了个照纪念一下。当时我是个纯文职工作，没有电脑肯定是不行的，所以我就去分公司的大仓库里，找了很多破电脑，拼凑了一台。就是那种14寸，大屁股的台式机。我那时候对电脑硬件没有任何的基础，只知道能打游戏，网络也远没有现在这么发达。反正电脑都是报废的，不怕坏，主板处理器内存啥的，拼起来能用就行，后来还真让我弄亮机了，我还记得当时是台奔腾3，用win98系统，后来我又买了张系统盘，换成了xp。从那时候开始，同事觉得我能修电脑，因为公司报备信息科派人来维修很麻烦，隔壁车间电脑坏了也会来找我修，慢慢的就上手了。后来我发现这个也挺好，我也对这个感兴趣了，赚不赚钱不重要，重要的是我能打发业余时间。</p><p data-pid=\"_ITM9j6S\">2012年是我们这的鼎盛时期，这个真的能感受出来。我因为职称比较高，人缘比较好(总是帮办公室啥的修电脑，写文案)，职级虽然是虚的，但是工资开始涨了。虽然付出也多，但是当时单身，使不完的劲儿，看着工资卡里的数字儿，天天兴奋的像SB。考什么编，有好几次相当大的机遇，我都扔了。帮家里把房贷还了，家电也换了，签证也办了，集团年会旅游名单也有我了，台北101，京畿道三星，博鳌会世博会什么的，主持人一众央视。照片就不放出来了，怕。也不知道为什么，当时心里就是豪迈，就觉得那时候的淄博，真的是强盛的无可匹敌，国外有什么好？哪有我的家乡好。我身边不管是亲朋，还是好友同学，收入都可以，房价也不高，基础消费也不高，甚至还有爱玩的，什么东三路，安乐街，198都看不上，敢去盛世中国。火车站广场早晨四五点，都是外地来打工的，一三轮车一三轮车的拉人去各个工地，卖工作服的，卖胶鞋手套的，卖水的，卖饭的，熙熙攘攘像赶集。虽然空气阴霾，但是大街上人人笑靥如花，到处都是夜市，哪哪都是人，年轻的，中年的，百姓有钱，才能消费，这是真的。</p><p data-pid=\"e8ZMsJi4\">再后来，可能是太嘚瑟了吧，于是乎，就打出还一片蓝天，新旧动能转换。我们的旧动能迁去了苏北，迁去了周边兄弟城市，摇身一变，叫高新产业园，去贡献他们的GDP了。迁不走的，节能减排，有些大厂变千人，变百人，慢慢也就无了。后来我就辞职了。两年，上万家企业倒闭，鲁C的人应该有数。后果就不说了，我怕删，手机打字不容易。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-dc002846c40419e7d0f1062a87bcb843_1440w.jpg\" data-rawwidth=\"5312\" data-rawheight=\"2988\" data-size=\"normal\" data-original-token=\"v2-72334287020f1beacce9c2fa1700bb2f\" class=\"origin_image zh-lightbox-thumb\" width=\"5312\" data-original=\"https://picx.zhimg.com/v2-dc002846c40419e7d0f1062a87bcb843_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1ee97f748bad6c215c0311d66cd8aec5_1440w.jpg\" data-rawwidth=\"5312\" data-rawheight=\"2988\" data-size=\"normal\" data-original-token=\"v2-b1b3a8223f37fb13c03365dfdebf97c7\" class=\"origin_image zh-lightbox-thumb\" width=\"5312\" data-original=\"https://pic2.zhimg.com/v2-1ee97f748bad6c215c0311d66cd8aec5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1c551d7e5c932196a7d7480e41605806_1440w.jpg\" data-rawwidth=\"5312\" data-rawheight=\"2988\" data-size=\"normal\" data-original-token=\"v2-839edd246a98df2852304320ad45b61d\" class=\"origin_image zh-lightbox-thumb\" width=\"5312\" data-original=\"https://pica.zhimg.com/v2-1c551d7e5c932196a7d7480e41605806_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-33d9a5c62e4334d7d4a56aaf35421260_1440w.jpg\" data-rawwidth=\"5312\" data-rawheight=\"2988\" data-size=\"normal\" data-original-token=\"v2-229dda83df4aef56d0848b3f935eb7dd\" class=\"origin_image zh-lightbox-thumb\" width=\"5312\" data-original=\"https://pic3.zhimg.com/v2-33d9a5c62e4334d7d4a56aaf35421260_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-10dd458f5efdc5f601e555c16fe6f1b8_1440w.jpg\" data-rawwidth=\"5312\" data-rawheight=\"2988\" data-size=\"normal\" data-original-token=\"v2-b41b75d57a4cbeec1c088422b92fb58d\" class=\"origin_image zh-lightbox-thumb\" width=\"5312\" data-original=\"https://pic3.zhimg.com/v2-10dd458f5efdc5f601e555c16fe6f1b8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BUuCTSez\">到处都是这样的厂区，杂草丛生，无人打理，火车站也没有来找工作的了，夜市慢慢又变成了下岗职工的谋生之地，人也少了很多很多。我和队友也是这其中的一员，队友的厂子叫耀昌球团，比肩张店钢铁厂的巨兽，一年多就无了。因为工作难找，好多好多公司都是依附于重工业的大厂子，但是，大企业无了。期间干过很多工作，卖炸串，卖馄饨，骑着个电动车卖八宝粥，弄了个破面包，跑黑出租，送物流小件儿，开了两年饰品店，卖乐高，卖图纸，修电脑。房价涨了，这玩意儿涨的比血压都快，就在2019年，仅剩的还相信会有光的一波人又买了房以后，脑溢血了，肺炎来了。结果大家都知道了，我就不说了。</p><p data-pid=\"OZKRf949\">2019年底找了个工作，国网第三方。月薪到手两千八。当时电动汽车刚兴起，很多便宜的电动车没有电池加热，一到冬天，里程数叭叭往下掉，用充电桩出问题，就给我们打电话，我们就得半夜三更出外勤，我记得最深刻的一次，冬天半夜十二点多出发，我们两个人开着单位的小黄车，走在博山的盘山路上，没路灯，路滑啊，真的滑啊，一面是山体，一面是深渊，到了地方都凌晨3点多了，因为那个女士，充电枪拔不下来了。她的车在充电口盖子打开状态，无法启动，没有暖气，零下十几度。后来这个工作也没了，2021年7月，部门整合，把我们几个没关系没人脉的整合回家了。</p><p data-pid=\"IGT1Qz0U\">同年11月，肺炎高发的时候，医院第三方招工，我又去了药库，月薪到手2.8k，后来到手3100。双休法定节假日，每天卸货3～6吨不等，还得管着打垛，整理仓库随时应对检查，出入库打单据。比如说注射用的盐水糖水，一件34斤，一次来300件，要卸车，运送，打垛，要在一小时内完成，不然后面排队入库的货车投诉你。还有各种乳酸钠林格，肠内营养，每次几百件的来。疫情放开那几个月，平均每天各种药品入库量都在30吨。男女同样的活儿，主管还是个好(chu)人(sheng)，管理混乱，私生活混乱。就这个工作，只要有辞职的，马上就能招到人，多快呢？你上午走，下午就有来试岗的。24年最多的一次，一个岗位空缺，招聘信息一发出去，一天就收到60多个简历，绝大多数是大学生，85后，95后，00后，里面竟然还有几个三十多岁的研究生。2025年初，工资调整到2400，依然有大把的人来面试。甚至把我这个干了3年多的老员工逼迫走了，因为我工资三千一。当然，理由是说我侵吞国家财产。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fae4eaa24e5fe4684e88dbb14a8d06bf_1440w.jpg\" data-rawwidth=\"2252\" data-rawheight=\"4000\" data-size=\"normal\" data-original-token=\"v2-abf56998ea8a3be708e7b29128210d2c\" class=\"origin_image zh-lightbox-thumb\" width=\"2252\" data-original=\"https://pic4.zhimg.com/v2-fae4eaa24e5fe4684e88dbb14a8d06bf_r.jpg\"/></figure><p data-pid=\"S0fdSZAP\">就是这个纸壳子，药品包装箱，我从垃圾箱拖出来，垫在托盘上午休用的。</p><p data-pid=\"eeTMsQuZ\">眼瞅着娃上一年级了，我终于在2023年底买了属于自己的房子，23年房龄了，多层一楼，带地上储藏室，老小区楼间距大，采光好，后面就是大片公园，7k多一平，还能接受吧，毕竟2019年这片小区二手价均价要1.1w了。学区加市中心，价格很坚挺，现在也没降多少。房贷加各种信用卡分期，每月4300，10年完事儿，队友执业药师工资不到3k(因为药店业绩完不成，只有基本工资，再努力也白瞎，摆烂了)再加老破小房租，差不多能覆盖了。不够的，啃老呗，反正父母也退休了，退休金加起来6千块，去掉医药费和生活费也有点剩余，与其乱买东西上当受骗，就算不补贴我这个独生子，也得补贴一下他们的小孙女和儿媳妇不是，哈哈哈。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-89be8ab2166782da41731cd5ed3d6726_1440w.jpg\" data-rawwidth=\"4000\" data-rawheight=\"2252\" data-size=\"normal\" data-original-token=\"v2-67bfce89761a7af0291be9bb468a5a24\" class=\"origin_image zh-lightbox-thumb\" width=\"4000\" data-original=\"https://pica.zhimg.com/v2-89be8ab2166782da41731cd5ed3d6726_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-281a9bda2d06ac5c4536887e25e5b201_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1920\" data-size=\"normal\" data-original-token=\"v2-2293169551531da82a5c2c9a55c7197c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-281a9bda2d06ac5c4536887e25e5b201_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-bf2fa20a5f32aab72ed2eab10787b6d7_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1920\" data-size=\"normal\" data-original-token=\"v2-8c090961bad9d571894ac3b8c795f58a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-bf2fa20a5f32aab72ed2eab10787b6d7_r.jpg\"/></figure><p data-pid=\"ya0a6JWz\">现在呢，干啥呢，还是我的老本行，平常接送个娃上学放学，辅导辅导作业，做做饭。打扫卫生啥的，主打一个陪娃过童年。哎，说来真是有意思，没想到我这个活儿从无心自学到去科技城学习，到开了几年小店，到现在，贯穿了我的整个职业生涯，十五年。现在只线上接单，无实体店更便宜。所以兄弟姐妹们，有需要就来吧，一二三四五，鲁C的就是我。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-18a72d271b60f17777e032d9f9d2703f_1440w.jpg\" data-rawwidth=\"1440\" data-rawheight=\"2988\" data-size=\"normal\" data-original-token=\"v2-b078c7fdb934117df94d83151d1ed47d\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic4.zhimg.com/v2-18a72d271b60f17777e032d9f9d2703f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a2366276afcfacf072cd000e8952a416_1440w.jpg\" data-rawwidth=\"1440\" data-rawheight=\"2988\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-940025861bf928f3a874128cbc4bc74c\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic3.zhimg.com/v2-a2366276afcfacf072cd000e8952a416_r.jpg\"/></figure><p data-pid=\"B6wSTh69\">你说我后悔吗？我不知道，十几年前编制名额我放弃了，推荐名额我也放弃了，曾经05年山东高考理科636分，理综297的我，最后活成了自己都没想到的样子。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d7f1ae31285b15bb2d3c987e1e93f134_1440w.jpg\" data-rawwidth=\"1200\" data-rawheight=\"1496\" data-size=\"normal\" data-original-token=\"v2-121c08d72dbdd21ac249931661fbab5b\" class=\"origin_image zh-lightbox-thumb\" width=\"1200\" data-original=\"https://pic3.zhimg.com/v2-d7f1ae31285b15bb2d3c987e1e93f134_r.jpg\"/></figure><p data-pid=\"bHRIdGgf\">运气这东西，不好说，也不能说。我庆幸的是，我没在2018年用仅剩的存款付首付。我只知道，作为一个85后，养家，我没本事，糊口，勉强可以。什么苦不苦，值不值的，无所谓，看到下一代健康快乐，全家高高兴兴，能为一点生活琐事儿拌拌嘴，嗷嗷叫，吃着热气腾腾的饭菜，活着，就挺好。用我爹的话形容他的退休生活就是，早晨起来第一件事儿，就是，哎，天亮了！又200块钱到手了！</p><p data-pid=\"a8JK2Yq0\">这种话题下的帖子一般也没啥流量，就是想到啥说啥，也没啥语言修辞啥的，若有言语不通，张冠李戴的地方，兄弟姐妹们多多包涵，凑合着看，哈哈哈。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QeByfI0z\">我昨天刚发的帖子，一夜之间，突然这么多留言啊！真没想到这种唱衰不唱好的问答还有流量呢，哈哈哈。我就是晚上睡不着，突然想起来这些年，活了一坨啥，毕竟也十几年前了，05年的高考题也简单，分数线就高，很多东西咱也不记得了，我都40岁了，离高考已经20年整了，那就是个数字，过去就过去了，它已经改变不了啥了，后来的路，都是自己选的，哪有啥好纠结的。并不是什么学霸，也没啥好学的，打小数学就很垃圾，我是放弃了数学这个主课，只攻理化生的竞赛题。所以我是属于高三被老师放弃的那一波孩子，是坐在教室最后面的，最终数学只得了几十分也是超常发挥了。所以啊，老天是公平的，过好当前的日子，不要总生活在以前，咱思想觉悟也没那么高，十年前就已经释然了，毕竟咱得向前看，照顾好下一代。我们这波独生子女，渐渐都已人到中年，努力活着呗，想多了没啥用。引用2025跨年主题曲的话就是，不要相信胜利就像山坡上的蒲公英一样，唾手可得，但是，请相信，世界上总有一些美好，值得全力以赴，美好的事，在赶来的路上，只有从平凡的生活中，才能捕捉到幸福的瞬间。</p><p data-pid=\"xqmoqLt0\">感谢兄弟姐妹的支持与鼓励！留言太多了，我没法一一回复了，实在是抱歉了，祝大家在新的一年身体健康，家和万事兴！</p>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-5502035e368163dbb05e5d06fdf50555_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-118cd6f9821672f67bcfe1f5729fe019_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-72334287020f1beacce9c2fa1700bb2f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b1b3a8223f37fb13c03365dfdebf97c7_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-839edd246a98df2852304320ad45b61d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-229dda83df4aef56d0848b3f935eb7dd_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b41b75d57a4cbeec1c088422b92fb58d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-abf56998ea8a3be708e7b29128210d2c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-67bfce89761a7af0291be9bb468a5a24_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2293169551531da82a5c2c9a55c7197c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8c090961bad9d571894ac3b8c795f58a_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b078c7fdb934117df94d83151d1ed47d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-940025861bf928f3a874128cbc4bc74c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-121c08d72dbdd21ac249931661fbab5b_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 653,
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1987838154267443784}",
+      "attached_info": "CpELCPPbgfrWvvDsnAEQBBoJNzYyNzI4ODMzIOzwt8oGKNgWMMYGQEFKNwonVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9SRUFEEgYxMjgxOTAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNjYzMDMwMmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5ODc4MzgxNTQyNjc0NDM3ODSKARMxOTUxOTk5NzgyNjkzMzQzNTUzqgEJcmVjb21tZW5kwgEgYmJlM2FjYjYxMDEzZDUxZDlkM2FlMjlkNjU1OTI4ZTfyAQoIDBIGTm9ybWFs8gEoCAoSJDEzZGY2NGUyLWUxM2MtNGY3OC05Y2VjLTk3ZWI5NzU2NWZjMvIBBggLEgIxMYICAIgCkNXy6bwzkgIgYmJlM2FjYjYxMDEzZDUxZDlkM2FlMjlkNjU1OTI4ZTeaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gInVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9SRUFE6AID+gILTk9STUFMX0ZMT1eKAyA4MjQzNDdjMDYwNDQ0ZjhjYjBhNTZiMzAwNzc3MGZiNJoDDQoCdjIQABoFb3RoZXKoA+PmCNgDAOoDG2ZpcnN0RGVncmVlVXNlclJlYWRSZWNhbGxlcvoDsQUSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxDxCBiABSIjdjItNTUwMjAzNWUzNjgxNjNkYmIwNWU1ZDA2ZmRmNTA1NTU6LQgDEIAFGPEIIiN2Mi0xMThjZDZmOTgyMTY3MmY2N2JjZmUxZjU3MjlmZTAxOTotCAMQwCkYrBciI3YyLTcyMzM0Mjg3MDIwZjFiZWFjY2U5YzJmYTE3MDBiYjJmOi0IAhDAKRisFyIjdjItYjFiM2E4MjIzZjM3ZmIxM2MwMzM2NWRmZGViZjk3Yzc6LQgDEMApGKwXIiN2Mi04MzllZGQyNDZhOThkZjI4NTIzMDQzMjBhZDQ1YjYxZDotCAMQwCkYrBciI3YyLTIyOWRkYTgzZGY0YWVmNTZkMDg0OGIzZjkzNWViN2RkOi0IBBDAKRisFyIjdjItYjQxYjc1ZDU3YTRjYmVlYzFjMDg4NDIyYjkyZmI1OGQ6LQgEEMwRGKAfIiN2Mi1hYmY1Njk5OGVhOGEzYmU3MDhlN2IyOTEyODIxMGQyYzotCAQQoB8YzBEiI3YyLTY3YmZjZTg5NzYxYTdhZjAyOTFiZTliYjQ2OGE1YTI0Oi0IBBC4CBiADyIjdjItMjI5MzE2OTU1MTUzMWRhODJhNWMyYzlhNTVjNzE5N2M6LQgEELgIGIAPIiN2Mi04YzA5MDk2MWJhZDlkNTcxODk0YWMzYjhjNzk1ZjU4YTotCAIQoAsYrBciI3YyLWIwNzhjN2ZkYjkzNDExN2RmOTRkODMxNTFkMWVkNDdkOi0IBBCgCxisFyIjdjItOTQwMDI1ODYxYmY5MjhmM2E4NzQxMjhjYmM0YmM3NGM6LQgCELAJGNgLIiN2Mi0xMjFjMDhkNzJkYmRkMjFhYzI0OTkzMTY2MWZiYWI1YoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIPl+mz+BBQAAAAAAAAAAiQUfEwIeZuuzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AULkAYAoAZDqAYAkgIuCgk3NjI3Mjg4MzMSEzE5ODc4MzgxNTQyNjc0NDM3ODQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=65&desktop=true&end_offset=67&page_number=12&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=65&desktop=true&end_offset=67&page_number=12&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

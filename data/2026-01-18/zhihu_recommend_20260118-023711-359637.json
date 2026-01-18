@@ -1,0 +1,1020 @@
+{
+  "data": [
+    {
+      "id": "78_1768675039.229",
+      "type": "feed",
+      "offset": 78,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675039,
+      "updated_time": 1768675039,
+      "target": {
+        "id": "1993529915350475716",
+        "type": "answer",
+        "updated_time": 1768098324,
+        "comment_count": 190,
+        "is_copyable": true,
+        "url": "https://api.zhihu.com/answers/1993529915350475716",
+        "voteup_count": 2678,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "created_time": 1768074569,
+        "thanks_count": 225,
+        "preview_text": "",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-ba98929955cb19a02e4f7bf1ea797378_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-69b0263dc5bb8af64f157e27f20293d2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-60d4f67de164024dbe75f5d18db743f8_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6483d26a28bd0d90a3fd8e0e86dcf205_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-89da81cf0ab1cc5f2e80e1b1b85b57bf_720w.jpg?source=b6762063"
+        ],
+        "segment_infos": [
+          {
+            "pid": "L7ejCI7o",
+            "text": "101一天能发38封电报，每份基本都是他口述，一份几百到上千字不等，秘书记录，记完后给他看，偶尔改几个字，直接交给罗刘二人过目，然后直接签发。",
+            "marks": [
+              {
+                "start_index": 23,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995891561964258975"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "BvZ2l311",
+            "text": "在大军开拔锦州时，101还犹豫过一次，普遍说法是102跟他谈话坚定了他的信心，但这种说法实在不可信——能跟毛犟半年的人，不可能一次谈话就搞定。",
+            "marks": [
+              {
+                "start_index": 52,
+                "end_index": 71,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994342145834907415"
+                  ],
+                  "is_like": false,
+                  "like_count": 35,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Voy1bH_R",
+            "text": "请别小瞧这种工作方法，优秀实践——总结——推广，这需要极好的氛围和开明的领导。事实上，101确实是这种领导，他会真的求教部下：",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 63,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994347042852581780"
+                  ],
+                  "is_like": false,
+                  "like_count": 28,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "geTa5L1D",
+            "text": "纵队长们会特意绕几十里路专程到指挥部来看看林，林并不跟他们寒暄，所以这些纵队长们就汇报工作。听完汇报后，林如果满意，还会邀请部下们吃黄豆——虽然很多纵队长不喜欢这玩意儿，梁大牙吐槽吃黄豆感觉自己像牲口。",
+            "marks": [
+              {
+                "start_index": 85,
+                "end_index": 100,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994308353099326523"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "jQOQ_73X",
+            "text": "林不留饭，部下们也不想吃他的饭，都是病号餐，没味道。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 26,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995664451781801707"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "question": {
+          "bound_topic_ids": [
+            285,
+            3115,
+            20036,
+            69992
+          ],
+          "is_following": false,
+          "answer_count": 0,
+          "url": "https://api.zhihu.com/questions/702423195",
+          "follower_count": 0,
+          "id": "702423195",
+          "created": 1727715253,
+          "comment_count": 15,
+          "detail": "",
+          "question_type": "normal",
+          "title": "指挥大兵团作战有多费脑子？",
+          "author": {
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "xu-wu-yan-99",
+            "headline": "小舟从此逝，江海寄余生",
+            "is_org": false,
+            "followers_count": 370,
+            "is_following": false,
+            "id": "5cbe70bb1a4191e1f3b744df377b4f00",
+            "url": "https://api.zhihu.com/people/5cbe70bb1a4191e1f3b744df377b4f00",
+            "name": "失眠的熊猫",
+            "avatar_url": "https://pica.zhimg.com/50/v2-f7b5b6d43e7376a99a8232b1799b35ee_l.jpg?source=b6762063",
+            "gender": 1
+          },
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question"
+        },
+        "favorite_count": 1887,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "author": {
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-694214ccbec146ed6141a8f3a4a2129f_l.jpg?source=b6762063",
+          "followers_count": 986,
+          "id": "7708a202d3e36f72e4bf769cf884e588",
+          "url_token": "96-24-13-68",
+          "name": "困死了",
+          "headline": "有证据甩证据，所有答案随意搬运（不得曲解）/溺爱狗子中",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/7708a202d3e36f72e4bf769cf884e588"
+        },
+        "excerpt_new": "拿101来说，我觉得他的打法是最耗人的。 1.发电报 101一天能发38封电报，每份基本都是他口述，一份几百到上千字不等，秘书记录，记完后给他看，偶尔改几个字，直接交给罗刘二人过目，然后直接签发。 2.越级指挥，了解敌情 林总知己知彼，所以他能够行其所当行，止其所当止。林总是把敌人摸得最透的。他对敌情之熟悉甚至具体地知道敌人营的单位的活动。一九四七年公主屯大捷以后，我到哈尔滨总部开会。林总对我说：“据前方指挥员…",
+        "content": "<p data-pid=\"Tnfuf6gQ\">拿101来说，我觉得他的打法是最耗人的。</p><p data-pid=\"1rKIs410\">1.发电报</p><p data-pid=\"L7ejCI7o\">101一天能发38封电报，每份基本都是他口述，一份几百到上千字不等，秘书记录，记完后给他看，偶尔改几个字，直接交给罗刘二人过目，然后直接签发。</p><p data-pid=\"qdLj2EDl\">2.越级指挥，了解敌情</p><blockquote data-pid=\"5qPHtDHt\">林总知己知彼，所以他能够行其所当行，止其所当止。林总是把敌人摸得最透的。<b>他对敌情之熟悉甚至具体地知道敌人营的单位的活动</b>。一九四七年公主屯大捷以后，我到哈尔滨总部开会。林总对我说：“据前方指挥员报称，敌人有一个营漏网，据守在法库的何家油坊。十纵二十八师离的很近，就便消灭它，我估计不要太长的时间，你看怎么样？”接着，他走到地图跟前，给我指明这个营所在的具体地点，立即下令围歼该敌。第二天，二十八师的捷报就从千里以外送到了总部。这只是一个普通的例子。其实，林总从来就是这样精细的，哪里有敌人，人数多少，战斗力怎样，企图是什么，以及一应大小山川河流、地形地物、风士人情等等，他都了如指掌。每一次军事行动之前，<b>他常把这样详细准确的情报直接下达到师</b>，给予部队极大的便利。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"NlKN-41M\">特别是在情况紧急的时候，<b>四野首长常常进行越级指挥，有时越过兵团直接指挥到军，有时越过兵团和军直接指挥到师。</b><br/>直按受令的师，一边行动，一边向上级报告。<br/>这样做，大大有利于迅速调动部队，及时抓住有利战机，使战斗得以顺利地进行，为胜利创造了有利条件。</blockquote><p data-pid=\"48oNMjKD\">3.战术研究，练兵狠厉</p><p data-pid=\"-9vYpcA7\">大兵团不是凭空变出来的，怎么把一群散乱甚至原本是土匪、敌军和普通群众的人拧成一股绳，变成一个合格的战士，这也是统帅的事。</p><p data-pid=\"9nkUSZ_Y\">101无疑是这方面的天才。</p><blockquote data-pid=\"f0UWPaSm\">他当连长的连队，是全团战斗力最强的连；当营长的营，是全团最过硬的营；当团长的团，是红四军的头等主力团。如果一次、两次，还可说有那种不好排除的偶然性；几十年如一日，带出一批擅长野战的人民解放军主力部队，便不能全部归诸偶然了。</blockquote><p data-pid=\"Y1ftgTJl\">三三制、四块一慢、两面一点等等老生常谈就不说了。在战场上立刻总结经验，推广全军这才是真正牛人：</p><p data-pid=\"BvZ2l311\">在大军开拔锦州时，101还犹豫过一次，普遍说法是102跟他谈话坚定了他的信心，但这种说法实在不可信——能跟毛犟半年的人，不可能一次谈话就搞定。</p><p data-pid=\"HE1MQKaq\">更偏向于101当时得到了易县的战报——打得很漂亮，彻底验证了东野有攻坚战的能力。</p><p data-pid=\"A3mDsbKh\">易县实践中，得到了一个非常好的攻坚方法：大挖交通沟。</p><p data-pid=\"Voy1bH_R\">请别小瞧这种工作方法，优秀实践——总结——推广，这需要极好的氛围和开明的领导。事实上，101确实是这种领导，他会真的求教部下：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ba98929955cb19a02e4f7bf1ea797378_1440w.jpg\" data-rawwidth=\"1125\" data-rawheight=\"649\" data-size=\"normal\" data-original-token=\"v2-ba98929955cb19a02e4f7bf1ea797378\" class=\"origin_image zh-lightbox-thumb\" width=\"1125\" data-original=\"https://pica.zhimg.com/v2-ba98929955cb19a02e4f7bf1ea797378_r.jpg\"/></figure><p data-pid=\"k1dO0sJA\">很快，易县成功经验就在全军铺开推广，101细致部署推广，细致到什么程度，请电报原文：</p><blockquote data-pid=\"ZIUFJGhj\">林彪当即口述电报，发往攻锦各部：<br/>一、每个师需以6个营的兵力（2/3的兵力）全部用于挖交通沟，只留下担任尖刀部队在后面进行充分的突击准备。决不可依靠少数部队挖交通沟。<br/>二、挖交通沟时，要有不怕伤亡、不怕疲劳的精神，大胆进至距敌五六十米处，沿途摆开由前向后挖，前后同时挖。<br/>三、每个师要挖5条或3条交通沟。<br/>四、每条沟须高宽各1.5米。<br/>五、挖沟时先须以卧倒姿势挖卧沟，然后逐渐挖成站沟。要不怕疲劳，只要我肯挖交通沟，则不管敌火如何激烈，工事如何坚固，都要使其大大丧失作用。<br/>六、以上指示必须坚决执行，不可懒散怕疲劳不执行。今后东北全军的基本任务是攻大城市，故各部须在此次挖沟中，在思想上与作风上，打下坚固基础。这样，今后作战就增加了重大的必胜因素。</blockquote><p data-pid=\"GHLxRrRo\">4.事无巨细，爱兵如子</p><p data-pid=\"bITB6yI3\">四野南下的部署节选，包括：伤员安置、队伍间隔、每日行军kpi、弹药补给、衣食住行等等。</p><blockquote data-pid=\"zVwH9DC-\">七）由野后在德石路与陇海路两铁路线上，各设两个至三个伤病人员收容所，收容各军师在行军中实在不能随队之伤病员。<br/><b>（八）为使行军与宿营不至拥挤，师与师间应保持30～45公里里之距离，军与军间应保持60至75公里之距离。</b><br/>（九）一律采取白天行军，每日行程30公里左右，约每周休息一天。<br/>（十）各军之野炮团及部弹药物资应在原地集结待命，等候车运，具体办法另有通知。<br/>（十一）粮菜供应及行军注意事项已在高干会上报告，各军师应根据这一报告在全体干部及战士中传达执行，野总不另发文件。</blockquote><p data-pid=\"dbyz-A1K\">5.扛得住压力——上司和失败的压力</p><p data-pid=\"LzKtifsX\">林真能抗住毛的压力，在东北犟半年。</p><p data-pid=\"Q7_HaED5\"><b>“望主席头脑清醒考虑之。”</b></p><p data-pid=\"qtdqMq9K\"><b>失败的压力扛得住，能主动担责，不甩锅下属。</b></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-69b0263dc5bb8af64f157e27f20293d2_1440w.jpg\" data-rawwidth=\"1124\" data-rawheight=\"3032\" data-size=\"normal\" data-original-token=\"v2-69b0263dc5bb8af64f157e27f20293d2\" class=\"origin_image zh-lightbox-thumb\" width=\"1124\" data-original=\"https://pic3.zhimg.com/v2-69b0263dc5bb8af64f157e27f20293d2_r.jpg\"/></figure><p data-pid=\"mtxom6dl\">6.必须做到将知兵，兵知将。</p><p data-pid=\"nMs9kSEB\">这种不是了解，而是信任和相互尊敬，背对背的关系。</p><p data-pid=\"uw1mB7vV\">林和四野毫无疑问是这样的。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-60d4f67de164024dbe75f5d18db743f8_1440w.jpg\" data-rawwidth=\"1124\" data-rawheight=\"1082\" data-size=\"normal\" data-original-token=\"v2-60d4f67de164024dbe75f5d18db743f8\" class=\"origin_image zh-lightbox-thumb\" width=\"1124\" data-original=\"https://pica.zhimg.com/v2-60d4f67de164024dbe75f5d18db743f8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6483d26a28bd0d90a3fd8e0e86dcf205_1440w.jpg\" data-rawwidth=\"1124\" data-rawheight=\"1478\" data-size=\"normal\" data-original-token=\"v2-6483d26a28bd0d90a3fd8e0e86dcf205\" class=\"origin_image zh-lightbox-thumb\" width=\"1124\" data-original=\"https://pic2.zhimg.com/v2-6483d26a28bd0d90a3fd8e0e86dcf205_r.jpg\"/></figure><p data-pid=\"SeJX1RtR\">兵知将，在东野，最前线的班长、骨干都能熟练运用林总的战术指导——如果你当过老师，你就知道这有多难，更别提很多人那时候都是文盲。</p><p data-pid=\"uFMLKyJq\">说到这，林之于四野真是像原体之于军团，读到过特别有画面感的情景：</p><blockquote data-pid=\"LqJVl0ad\">【敬祝林司令员健康！】<br/>【响应林司令员号召！】<br/>他每讲几句，必有重要干部起立喊口号，对于打断他的讲话他不但不以为忤。<br/>他有一份似笑非笑的骄矜表情。</blockquote><p data-pid=\"geTa5L1D\">纵队长们会特意绕几十里路专程到指挥部来看看林，林并不跟他们寒暄，所以这些纵队长们就汇报工作。听完汇报后，林如果满意，还会邀请部下们吃黄豆——虽然很多纵队长不喜欢这玩意儿，梁大牙吐槽吃黄豆感觉自己像牲口。</p><p data-pid=\"jQOQ_73X\">林不留饭，部下们也不想吃他的饭，都是病号餐，没味道。</p><p data-pid=\"vAjyISFz\">这份“汇报工作”甚至延续到建国后，大过年的，103和几位林的部下还要去给林汇报工作，去毛家湾前，他们聚餐，吃饱喝足后才出发。</p><p data-pid=\"7yawVQs1\">林也真的只听他们汇报工作，没几句寒暄，照例不留饭。</p><p data-pid=\"TV3QSReb\">说偏了，继续说大兵团。</p><p data-pid=\"vlil9DWQ\">7.除此之外，老生常谈的根据地建设。</p><p data-pid=\"kdfBjyWT\">林初到东北是“七无”，看101给中央电报原文，我印象最深刻的只有几个字：“<b>老百姓恨我。</b>”</p><p data-pid=\"GnEBdv2e\">东北在近代苦难深重，各势力轮番登场。林初到东北时，在老百姓眼里他们与之前的人并无不同。</p><p data-pid=\"llTDUTyq\">林初期党政一肩挑，扎扎实实搞根据地建设。包括后面102来了，林也没有完全不管。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-89da81cf0ab1cc5f2e80e1b1b85b57bf_1440w.jpg\" data-rawwidth=\"1124\" data-rawheight=\"1406\" data-size=\"normal\" data-original-token=\"v2-89da81cf0ab1cc5f2e80e1b1b85b57bf\" class=\"origin_image zh-lightbox-thumb\" width=\"1124\" data-original=\"https://pic2.zhimg.com/v2-89da81cf0ab1cc5f2e80e1b1b85b57bf_r.jpg\"/></figure><p data-pid=\"YsTvxvWE\">东北根据地建设，很重要一点是：剿匪。</p><p data-pid=\"hwodGdsn\">黄金生的一篇文章写得很不错：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/OFHWBxrOjfCdn5Lk6zcJxg\" data-draft-title=\"\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">白山黑水间的东北大剿匪——国共角逐东北第二战场</a><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PItwDxiN\">总而言之，能做到这里七项中的一项就已经是人中龙凤了，但大兵团要求你全做到，至少在101这里是这样的。</p>",
+        "visited_count": 220055,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "thumbnail": "https://picx.zhimg.com/50/v2-ba98929955cb19a02e4f7bf1ea797378_720w.jpg?source=b6762063",
+        "excerpt": "拿101来说，我觉得他的打法是最耗人的。 1.发电报 101一天能发38封电报，每份基本都是他口述，一份几百到上千字不等，秘书记录，记完后给他看，偶尔改几个字，直接交给罗刘二人过目，然后直接签发。 2.越级指挥，了解敌情 林总知己知彼，所以他能够行其所当行，止其所当止。林总是把敌人摸得最透的。他对敌情之熟悉甚至具体地知道敌人营的单位的活动。一九四七年公主屯大捷以后，我到哈尔滨总部开会。林总对我说：“据前方指挥员…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993529915350475716}",
+      "attached_info": "CpIICLS69fnftuXopwEQBBoJNzY0ODk4OTMzIMnaissGKPYUML4BQE5KLgoZVFNfU09VUkNFX0ZFRURSRV9NU19IUV9WMxIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KMQomVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjESATAYACAAOgBaCTExMDg3MTIxNGIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTM1Mjk5MTUzNTA0NzU3MTaKAQk3MDI0MjMxOTWqAQlyZWNvbW1lbmTCASA3NzA4YTIwMmQzZTM2ZjcyZTRiZjc2OWNmODg0ZTU4OPIBCggMEgZOb3JtYWzyASgIChIkZWI5ZTNjNzEtNTMwNC00MTYxLWI4MDAtNzlhZjEzMjk0YmU58gEGCAsSAjE0ggIAiALZsP3pvDOSAiA3NzA4YTIwMmQzZTM2ZjcyZTRiZjc2OWNmODg0ZTU4OJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhJDbGlwUGVha1dlaWdodFJ1bGXaAhlUU19TT1VSQ0VfRkVFRFJFX01TX0hRX1Yz6AIC+gILTk9STUFMX0ZMT1eKAyBlNjBiNGMwMzNkZDk0MmRkYTkyMGQ1YzY3NjRkNzNiNpoDDQoCdjIQABoFb3RoZXKoA5e3DdgDAOoDGWZlZWRyZV9tc19nYXRlX3YzX29ubHlfaHH6A4oCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ5QgYiQUiI3YyLWJhOTg5Mjk5NTVjYjE5YTAyZTRmN2JmMWVhNzk3Mzc4Oi0IAhDkCBjYFyIjdjItNjliMDI2M2RjNWJiOGFmNjRmMTU3ZTI3ZjIwMjkzZDI6LQgCEOQIGLoIIiN2Mi02MGQ0ZjY3ZGUxNjQwMjRkYmU3NWY1ZDE4ZGI3NDNmODotCAIQ5AgYxgsiI3YyLTY0ODNkMjZhMjhiZDBkOTBhM2ZkOGUwZTg2ZGNmMjA1Oi0IAhDkCBj+CiIjdjItODlkYTgxY2YwYWIxY2M1ZjJlODBlMWIxYjg1YjU3YmaABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIDWgZ0/gQUAAAAAAAAAAIkF2Qa1Qs4utD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGTqgGAZICLgoJNzY0ODk4OTMzEhMxOTkzNTI5OTE1MzUwNDc1NzE2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "79_1768675039.369",
+      "type": "feed",
+      "offset": 79,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675039,
+      "updated_time": 1768675039,
+      "target": {
+        "title": "再见，Wine、虚拟机！在 Linux 上原生运行 Windows 应用",
+        "created": 1767833381,
+        "excerpt": "如果你曾经尝试在 Linux 上运行 Windows 应用，你就知道这有多么困难。 很多人使用 Wine 或 WinApps 来解决这个问题，但结果往往不尽如意，有时还会遇到兼容性问题。 传统虚拟机可以工作，但感觉笨重且资源消耗大。双系统启动很麻烦。我们需要更好的解决方案。 于是，WinBoat 应运而生。 WinBoat 采用了不同的方法：在 Docker 内运行完整的 Windows 虚拟机，然后使用微软自己的 RemoteApp 协议将单个 Windows 应用程序渲染为原生…",
+        "favorite_count": 550,
+        "image_url": "https://picx.zhimg.com/v2-778a8012701348f05f7132235547934b.jpg?source=7e7ef6e2&needBackground=1",
+        "preview_type": "default",
+        "visited_count": 18121,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-778a8012701348f05f7132235547934b.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-97928d0d8e7ad3e2412d22bce2495753_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-98a656d0287d376f8543875d9702514d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-415b3171dbd384fefbad254680dd35bb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-987e32c1c595507ef76f7e4f82be4faf_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e55d0b76fc602e5c3dc253e0279c16c6_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-778a8012701348f05f7132235547934b_720w.jpg?source=b6762063"
+        ],
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1992291420355204268",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "vote_next_step": "vote",
+        "voting": 0,
+        "content": "<p data-pid=\"kX7p54LL\">如果你曾经尝试在 Linux 上运行 Windows 应用，你就知道这有多么困难。</p><p data-pid=\"XVgBH5sP\">很多人使用 Wine 或 WinApps 来解决这个问题，但结果往往不尽如意，有时还会遇到兼容性问题。</p><p data-pid=\"V4JRZ8YZ\">传统虚拟机可以工作，但感觉笨重且资源消耗大。双系统启动很麻烦。我们需要更好的解决方案。</p><p data-pid=\"fvChEr5E\"><b>于是，WinBoat 应运而生。</b></p><p data-pid=\"ZSC6v3ZS\"><b>WinBoat</b> 采用了不同的方法：在 Docker 内运行完整的 Windows 虚拟机，然后使用微软自己的 RemoteApp 协议将单个 Windows 应用程序渲染为原生 Linux 窗口。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9dfab731ac4dc68db3944de4568aa087_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-1af7df7276c0f2543587a35447a1b625\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-9dfab731ac4dc68db3944de4568aa087_r.jpg\"/></figure><p data-pid=\"WLn3Uw8P\">简单来说，当我们正在运行 Ubuntu，但 Photoshop 出现在你的 Alt+Tab 切换器中，与 Firefox 和 VS Code 并列。</p><p data-pid=\"zLsYBBDV\">Windows 应用具有原生的 Linux 窗口框架，显示在任务栏中，你可以直接从 Nautilus 拖拽文件到其中。</p><h3><b>核心集成功能</b></h3><p data-pid=\"X6x1tTYl\"><b>无缝窗口集成</b>：Windows 应用显示为独立的 Linux 窗口，具有原生外观和感觉。</p><p data-pid=\"7kUHpG-K\">每个应用都有自己的窗口，可以像其他 Linux 应用一样最小化、最大化和调整大小。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2a6be67e5b96d83050ea36e1434e95ba_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"675\" data-original-token=\"v2-97928d0d8e7ad3e2412d22bce2495753\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-2a6be67e5b96d83050ea36e1434e95ba_r.jpg\"/></figure><p data-pid=\"ZjfIXIyC\"><b>直观的管理界面</b>：WinBoat 提供直观且易于上手的操作界面来管理 Windows 系统，轻松监控系统资源、安装新应用、配置设置，以及查看容器状态等等。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-408a67e88d73ba7ad73695115cf09eec_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"675\" data-original-token=\"v2-98a656d0287d376f8543875d9702514d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-408a67e88d73ba7ad73695115cf09eec_r.jpg\"/></figure><p data-pid=\"HCONsCtg\"><b>自动化安装流程</b>：通过界面选择偏好设置和硬件规格，WinBoat 会自动处理 Windows 镜像下载、容器配置和虚拟机设置。整个过程无需手动编辑配置文件或记忆命令行参数。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-40925877911a5c6d7a1ea83fe102e75d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"675\" data-original-token=\"v2-415b3171dbd384fefbad254680dd35bb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-40925877911a5c6d7a1ea83fe102e75d_r.jpg\"/></figure><p data-pid=\"Cvp1v5Ny\"><b>文件系统集成</b>：Linux 主目录自动挂载到 Windows 中，实现系统间的无缝文件共享。</p><p data-pid=\"1AjgJcdh\">可以直接在 Windows 应用中访问 Linux 文件，或者将 Windows 生成的文件保存到 Linux 目录。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-17add960ea47e400eb93d09a40c4fe21_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"680\" data-original-token=\"v2-987e32c1c595507ef76f7e4f82be4faf\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-17add960ea47e400eb93d09a40c4fe21_r.jpg\"/></figure><h3><b>更多特性</b></h3><p data-pid=\"UZskGcOv\"><b>智能卡透传</b>：支持智能卡设备的透传，适用于需要硬件安全模块的企业应用；</p><p data-pid=\"-8AeHSe4\"><b>USB 设备支持</b>：从 0.8.0 版本开始支持 USB 透传功能，可以使用需要特定硬件的 Windows 工具；</p><p data-pid=\"sYbgUXGu\"><b>音频路由</b>：通过 RDP 协议实现音频的无缝传输；</p><p data-pid=\"4Uefp9xf\"><b>资源监控</b>：实时监控容器的 CPU、内存和存储使用情况；</p><p data-pid=\"3znQRwva\"><b>剪贴板共享</b>：支持 Linux 和 Windows 系统间的剪贴板内容同步。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2321d779efe70cc3645806b22ecd57dc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"675\" data-original-token=\"v2-e55d0b76fc602e5c3dc253e0279c16c6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-2321d779efe70cc3645806b22ecd57dc_r.jpg\"/></figure><h3><b>简单三步，轻松上手</b></h3><p data-pid=\"vlaPg9qK\">1、从 GitHub Releases 页面下载适合的安装包（AppImage、.deb、.rpm 或解压版）；</p><p data-pid=\"pmB7ZtxX\">2、安装并运行应用，系统会自动检查前置条件；</p><p data-pid=\"OIh8GkzT\">3、按照设置向导配置 Windows 容器的硬件分配和网络设置。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7f59dc157edb41822ece6d633297286c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"707\" data-rawheight=\"289\" data-original-token=\"v2-3ddbdf5f6b2a852180f2e81523a6ac73\" class=\"origin_image zh-lightbox-thumb\" width=\"707\" data-original=\"https://pic3.zhimg.com/v2-7f59dc157edb41822ece6d633297286c_r.jpg\"/></figure><h3><b>对比竞品，突破传统</b></h3><p data-pid=\"6jjmYFKU\"><b>对比 Wine/CrossOver</b>：WinBoat 运行完整的 Windows 环境，兼容性更好，但资源占用更高；</p><p data-pid=\"UVnx_Wfm\"><b>对比传统虚拟机</b>：提供更好的桌面集成，应用像原生 Linux 程序一样运行；</p><p data-pid=\"xT28UQbs\"><b>对比 WinApps</b>：提供统一的管理界面和自动化安装，无需手动配置文件编辑。</p><h3><b>写在最后</b></h3><p data-pid=\"M9nrpTx_\">WinBoat 的出现意味着 Linux 桌面兼容性有了极大的进步，为使用 Linux 系统的我们解决了困扰已久的软件兼容性问题。</p><p data-pid=\"FsZOhMyC\">随着安装过程的简化和功能的完善，它必然会显著提高 Linux 在专业和企业环境中的采用率。</p><p data-pid=\"HAp13H-P\">对于需要特定 Windows 应用但希望保持 Linux 工作流程的朋友来说，不妨试一下 WinBoat 提供的解决方案。</p><p data-pid=\"Q23Ed1vF\">GitHub 项目地址：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/TibixDev/WinBoat\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/TibixDev/Win</span><span class=\"invisible\">Boat</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"DVUw04Sg\">今天的分享到此结束，感谢大家抽空阅读，我们下期再见，Respect！</p>",
+        "id": "1992291420355204268",
+        "voteup_count": 201,
+        "article_type": "normal",
+        "segment_infos": [
+          {
+            "pid": "ZSC6v3ZS",
+            "text": "WinBoat 采用了不同的方法：在 Docker 内运行完整的 Windows 虚拟机，然后使用微软自己的 RemoteApp 协议将单个 Windows 应用程序渲染为原生 Linux 窗口。",
+            "marks": [
+              {
+                "start_index": 17,
+                "end_index": 44,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995812809641059025"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "id": "1751d571cd57282c0451bc022ce7c1ce",
+          "user_type": "people",
+          "followers_count": 117050,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/1751d571cd57282c0451bc022ce7c1ce",
+          "url_token": "githubdaily",
+          "name": "GitHub Daily",
+          "headline": "公众号：GitHubDaily",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ff697aa2b563adba35deb9525a511c23_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false
+        },
+        "comment_permission": "all",
+        "updated": 1767833408,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_text": "",
+        "is_navigator": false,
+        "comment_count": 64,
+        "excerpt_new": "如果你曾经尝试在 Linux 上运行 Windows 应用，你就知道这有多么困难。 很多人使用 Wine 或 WinApps 来解决这个问题，但结果往往不尽如意，有时还会遇到兼容性问题。 传统虚拟机可以工作，但感觉笨重且资源消耗大。双系统启动很麻烦。我们需要更好的解决方案。 于是，WinBoat 应运而生。 WinBoat 采用了不同的方法：在 Docker 内运行完整的 Windows 虚拟机，然后使用微软自己的 RemoteApp 协议将单个 Windows 应用程序渲染为原生…",
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1992291420355204268}",
+      "attached_info": "CvwJCLS69fnftuXopwEQBxoJMjY4Njk4NTkzIKX++8oGKMkBMEBAT0pAChdUU19TT1VSQ0VfQVVUSE9SX0dDRl9IURIfZG9jX3R5cGU6IE1lbWJlcgppZDogMjMwOTUwNjk5ChgAIAA6AEpBChhUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUFYSH2RvY190eXBlOiBNZW1iZXIKaWQ6IDIzMDk1MDY5OQoYACAAOgBiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTkyMjkxNDIwMzU1MjA0MjY4ggFfaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi03NzhhODAxMjcwMTM0OGYwNWY3MTMyMjM1NTQ3OTM0Yi5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASAxNzUxZDU3MWNkNTcyODJjMDQ1MWJjMDIyY2U3YzFjZfIBCggMEgZOb3JtYWzyASgIChIkZmJiMDBiMjItMDNiNi00NjdhLWFlN2UtYzJlN2EwN2U2ODhi8gEGCAsSAjE0ggIAiALasP3pvDOSAiAxNzUxZDU3MWNkNTcyODJjMDQ1MWJjMDIyY2U3YzFjZZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hR6AIF+gILTk9STUFMX0ZMT1eKAyBlNjBiNGMwMzNkZDk0MmRkYTkyMGQ1YzY3NjRkNzNiNpoDDQoCdjIQABoFb3RoZXKoA8mNAdgDAOoDGWdjZktubkF1dGhvckhpZ2hQb3NSZWNhbGz6A5cDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgY4AQiI3YyLTFhZjdkZjcyNzZjMGYyNTQzNTg3YTM1NDQ3YTFiNjI1Oi0IAxC4CBijBSIjdjItOTc5MjhkMGQ4ZTdhZDNlMjQxMmQyMmJjZTI0OTU3NTM6LQgDELgIGKMFIiN2Mi05OGE2NTZkMDI4N2QzNzZmODU0Mzg3NWQ5NzAyNTE0ZDotCAIQuAgYowUiI3YyLTQxNWIzMTcxZGJkMzg0ZmVmYmFkMjU0NjgwZGQzNWJiOi0IAxC4CBioBSIjdjItOTg3ZTMyYzFjNTk1NTA3ZWY3NmY3ZTRmODJiZTRmYWY6LQgCELgIGKMFIiN2Mi1lNTVkMGI3NmZjNjAyZTVjM2RjMjUzZTAyNzljMTZjNjotCAIQwwUYoQIiI3YyLTNkZGJkZjVmNmIyYTg1MjE4MGYyZTgxNTIzYTZhYzczOi0IAhCADxi4CCIjdjItNzc4YTgwMTI3MDEzNDhmMDVmNzEzMjIzNTU0NzkzNGKABACIBACSBAZOb3JtYWyaBAE1oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEBr5Hc/gQUAAAAAAAAAAIkF2Qa1Qs4utD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGT6gGA5ICLgoJMjY4Njk4NTkzEhMxOTkyMjkxNDIwMzU1MjA0MjY4GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "80_1768675039.347",
+      "type": "feed",
+      "offset": 80,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675039,
+      "updated_time": 1768675039,
+      "target": {
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "author": {
+          "id": "42ac92747433391631c7cacf42256d76",
+          "url": "https://api.zhihu.com/people/42ac92747433391631c7cacf42256d76",
+          "user_type": "people",
+          "url_token": "pan-duo-la-zhi-yan",
+          "is_followed": false,
+          "name": "潘多拉之眼",
+          "headline": "电影爱好者",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ab08c5eb91055dd2b99786f52b26385c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 249,
+          "is_following": false
+        },
+        "thanks_count": 10,
+        "preview_type": "default",
+        "preview_text": "",
+        "is_labeled": false,
+        "favorite_count": 20,
+        "is_navigator": false,
+        "id": "1995428580650398656",
+        "created_time": 1768527246,
+        "updated_time": 1768527246,
+        "comment_count": 107,
+        "question": {
+          "title": "印度的出生人口还在增加吗?",
+          "bound_topic_ids": [
+            2025
+          ],
+          "detail": "",
+          "id": "1941107029956596716",
+          "type": "question",
+          "answer_count": 0,
+          "author": {
+            "url_token": "hhxc-4-77",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 2,
+            "id": "2cc12f89dfae3bc9172733b0ae35c930",
+            "url": "https://api.zhihu.com/people/2cc12f89dfae3bc9172733b0ae35c930",
+            "user_type": "people",
+            "is_following": false,
+            "name": "hhxc",
+            "gender": 0,
+            "is_followed": false
+          },
+          "comment_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/1941107029956596716",
+          "created": 1755575979,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "type": "answer",
+        "voteup_count": 325,
+        "is_copyable": true,
+        "excerpt": "讲个恐怖故事 印度14.5亿人口已经够多了 可是巴基斯坦也有2.5亿，孟加拉1.7亿，这俩国家总被忽略，其实也都是全球人口前十。这俩国家都是印度独立出去的，人种、语言、习俗乃至国家状态都和印度差不多，甚至网上好多拍印度的抽象视频有些其实都是孟加拉 也就是说广泛意义上的印度人，已经19亿了，还在快速增长",
+        "excerpt_new": "讲个恐怖故事 印度14.5亿人口已经够多了 可是巴基斯坦也有2.5亿，孟加拉1.7亿，这俩国家总被忽略，其实也都是全球人口前十。这俩国家都是印度独立出去的，人种、语言、习俗乃至国家状态都和印度差不多，甚至网上好多拍印度的抽象视频有些其实都是孟加拉 也就是说广泛意义上的印度人，已经19亿了，还在快速增长",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"HtAqYhec\">讲个恐怖故事</p><p data-pid=\"e_PSNqO7\">印度14.5亿人口已经够多了</p><p data-pid=\"TSewTATv\">可是巴基斯坦也有2.5亿，孟加拉1.7亿，这俩国家总被忽略，其实也都是全球人口前十。这俩国家都是印度独立出去的，人种、语言、习俗乃至国家状态都和印度差不多，甚至网上好多拍印度的抽象视频有些其实都是孟加拉</p><p data-pid=\"82Nn_oSw\">也就是说广泛意义上的印度人，已经19亿了，还在快速增长</p>",
+        "visited_count": 24733,
+        "url": "https://api.zhihu.com/answers/1995428580650398656",
+        "allow_segment_interaction": true,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995428580650398656}",
+      "attached_info": "CqoGCLS69fnftuXopwEQBBoJNzY1NjIyNDUxII6rpssGKMUCMGtAUEpbCilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVBIoaG90X3JlY2FsbF9yZWFsdGltZV90Om5ldzdkOjIwMjYtMDEtMTc6MxgAIAA6AEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE2MjY1NjcwYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NTQyODU4MDY1MDM5ODY1NooBEzE5NDExMDcwMjk5NTY1OTY3MTaqAQlyZWNvbW1lbmTCASA0MmFjOTI3NDc0MzMzOTE2MzFjN2NhY2Y0MjI1NmQ3NvIBCggMEgZOb3JtYWzyASgIChIkNTRjYzVlNGEtZGI5Ny00ZTEzLWE3MGYtNWM0MWE2YjFhMWQ48gEGCAsSAjE0ggIAiALasP3pvDOSAiA0MmFjOTI3NDc0MzMzOTE2MzFjN2NhY2Y0MjI1NmQ3NpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVOgCAvoCC05PUk1BTF9GTE9XigMgZTYwYjRjMDMzZGQ5NDJkZGE5MjBkNWM2NzY0ZDczYjaaAw0KAnYyEAAaBW90aGVyqAOdwQHYAwDqAyJob3RDcm9zc1JlYWxUaW1lTmV3Q29udGVudFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQPDnjD+BBQAAAAAAAAAAiQXZBrVCzi60P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUOkAYAoAZQqAYAkgIuCgk3NjU2MjI0NTESEzE5OTU0Mjg1ODA2NTAzOTg2NTYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "81_1768675039.722",
+      "type": "feed",
+      "offset": 81,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675039,
+      "updated_time": 1768675039,
+      "target": {
+        "visited_count": 225,
+        "favorite_count": 16,
+        "content": "<p data-pid=\"7GbeDC_Y\">以赛代练。</p><p data-pid=\"4bDUXAfX\">日常生活中，每一次表达，都确保充分思考和表达。</p><p data-pid=\"pqmNDYAM\">不管是口头表达还是书面表达。</p><p data-pid=\"1XQtjjyG\">一、口头表达。</p><p data-pid=\"RH5klWcA\">3种方法让话题进行下去：</p><p data-pid=\"aCmGgN7D\"><b>扩大、缩小和平行时空。</b></p><p data-pid=\"adPEYCrm\">要达到这一目标首先得确保话题得是开放性的，如果话题是“是”或者“不是”，那么话题肯定是进行不下去的。</p><p data-pid=\"cmQ_kVGz\">脑中得有一个沟通大纲，一张自由缩放的思维导图。</p><p data-pid=\"GTAv_TvA\">比如别人谈到英国，那么除了英国的天气还有什么可以谈的，可以往大了扩展，比如英国关于LGBTQ新颁布的政令、英式幽默、最喜欢的英剧；</p><p data-pid=\"vwOwmPKJ\">接下来说往小了谈，就谈天气，我们可以从英国的天气缩小到伦敦的天气，进一步定位到伦敦的雾，“伦敦本无雾，惠斯勒画雾，伦敦才有了雾”，从伦敦的雾到工业革命（伦敦雾的成因），总之，可以谈的内容有很多；</p><p data-pid=\"qHRWZyv9\">接下来说平行时空，好，你说英国的天气不好，那么我不了解英国的天气，但是对于天气不好这件事我是有共鸣的。</p><p data-pid=\"cyur-Nli\">成都的天气也不好，最明显的就是“蜀犬吠日”，出太阳狗都要叫；</p><p data-pid=\"TuWVeB29\">我们还可以谈伦敦的雨，伦敦的雨是“任意门”，想下就下。</p><p data-pid=\"uG4e1NW6\">而成都的雨就有意思多了，是“雅雨”。</p><p data-pid=\"fuTat9WW\">“巴山夜雨涨秋池”，“花重锦官城”，晚上下雨，不影响白天出行。</p><p data-pid=\"JEIwBDV-\">要做到以前的收放自如，需要先做到3点：</p><p data-pid=\"lzDIDICz\">1、第一、广泛地阅读，足够多的知识面是自由缩放的基本面；</p><p data-pid=\"9pjy6IlP\">2、第二、尽力去生活，才保有足够多的切片可以迁移；</p><p data-pid=\"xGNmCQ0K\">3、第三、你可以是话题的参与者和，拥有这样的弹性，就不必陷入被动回答问题的逆境，</p><p data-pid=\"vO1Dmres\">第一、可以不回答；</p><p data-pid=\"98Yas3so\">第二、可以自由缩放话题；</p><p data-pid=\"jNVXBwTS\">第三、可以转移话题。</p><p data-pid=\"08Vr0CMB\">最后一点，“峰终效应”，峰值指深度，终点要愉悦，不能一拍两散。</p><p data-pid=\"koYeqg4j\">二、逻辑训练</p><p data-pid=\"gptjdisd\">最简单的逻辑训练就是总-分-总。</p><p data-pid=\"grlD6k1n\">英语三段式表达。</p><p data-pid=\"BVKK7r9P\">金字塔结构。</p><p data-pid=\"drXLrwRi\">结论先行。</p><p data-pid=\"kSfIp-j8\">3个论点支撑，500字左右表述。</p><p data-pid=\"Og5F6QzD\">日常表达有意识训练，久而久之，书面表达就会越来越好。</p><p data-pid=\"tvYbPoFa\">这是我日更万字的基础，是我的来时路。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4eae650b6e34d05e0a65adf19f329cac_1440w.jpg\" data-rawwidth=\"1725\" data-rawheight=\"1247\" data-size=\"normal\" data-original-token=\"v2-61abb83f6a063895413a6d7ef9d20ff3\" class=\"origin_image zh-lightbox-thumb\" width=\"1725\" data-original=\"https://pic1.zhimg.com/v2-4eae650b6e34d05e0a65adf19f329cac_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e84ef949c42a163792a1a14640660626_1440w.jpg\" data-rawwidth=\"1664\" data-rawheight=\"1090\" data-size=\"normal\" data-original-token=\"v2-04dcd906cc9d75d42ee19bb4c85f40aa\" class=\"origin_image zh-lightbox-thumb\" width=\"1664\" data-original=\"https://pic3.zhimg.com/v2-e84ef949c42a163792a1a14640660626_r.jpg\"/></figure><p></p>",
+        "author": {
+          "badge": [
+            {
+              "description": "教师资格证持证人",
+              "type": "identity_people"
+            }
+          ],
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/3f7dda845f0c0ebec3b4ebca66571c32",
+          "url_token": "yao-yao-da-17-90",
+          "headline": "深耕写作20年",
+          "avatar_url": "https://picx.zhimg.com/50/v2-72bc4f525658623fe2bef4a3544df4e5_l.jpg?source=b6762063",
+          "gender": 0,
+          "id": "3f7dda845f0c0ebec3b4ebca66571c32",
+          "user_type": "people",
+          "name": "马可菠萝",
+          "is_org": false,
+          "followers_count": 1364
+        },
+        "comment_count": 0,
+        "is_copyable": true,
+        "excerpt_new": "以赛代练。 日常生活中，每一次表达，都确保充分思考和表达。 不管是口头表达还是书面表达。 一、口头表达。 3种方法让话题进行下去： 扩大、缩小和平行时空。要达到这一目标首先得确保话题得是开放性的，如果话题是“是”或者“不是”，那么话题肯定是进行不下去的。 脑中得有一个沟通大纲，一张自由缩放的思维导图。 比如别人谈到英国，那么除了英国的天气还有什么可以谈的，可以往大了扩展，比如英国关于LGBTQ新颁布的政令、…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "id": "1994376420730876594",
+        "thumbnail": "https://picx.zhimg.com/50/v2-61abb83f6a063895413a6d7ef9d20ff3_720w.jpg?source=b6762063",
+        "preview_text": "",
+        "is_labeled": false,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1994376420730876594",
+        "updated_time": 1768533678,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-61abb83f6a063895413a6d7ef9d20ff3_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-04dcd906cc9d75d42ee19bb4c85f40aa_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "created_time": 1768276392,
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "preview_type": "default",
+        "voteup_count": 5,
+        "thanks_count": 2,
+        "type": "answer",
+        "vote_next_step": "vote",
+        "excerpt": "以赛代练。 日常生活中，每一次表达，都确保充分思考和表达。 不管是口头表达还是书面表达。 一、口头表达。 3种方法让话题进行下去： 扩大、缩小和平行时空。要达到这一目标首先得确保话题得是开放性的，如果话题是“是”或者“不是”，那么话题肯定是进行不下去的。 脑中得有一个沟通大纲，一张自由缩放的思维导图。 比如别人谈到英国，那么除了英国的天气还有什么可以谈的，可以往大了扩展，比如英国关于LGBTQ新颁布的政令、…",
+        "question": {
+          "id": "19699086",
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/19699086",
+          "author": {
+            "is_followed": false,
+            "user_type": "people",
+            "name": "夏停云",
+            "is_org": false,
+            "followers_count": 117,
+            "avatar_url": "https://picx.zhimg.com/50/3d5c8efc59e08a10cf55065acda5c383_l.jpg?source=b6762063",
+            "gender": 0,
+            "is_following": false,
+            "id": "9a97d5de83ce687d979cad2af2a380a8",
+            "url": "https://api.zhihu.com/people/9a97d5de83ce687d979cad2af2a380a8",
+            "url_token": "ba-dun-gan-zhe",
+            "headline": "手指画画哈哈哈"
+          },
+          "title": "如何提高自己的语言表达能力？",
+          "bound_topic_ids": [
+            113,
+            119,
+            404,
+            4467,
+            15489
+          ],
+          "question_type": "normal",
+          "type": "question",
+          "created": 1307368912,
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "comment_count": 0
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994376420730876594}",
+      "attached_info": "CtMGCLS69fnftuXopwEQBBoJNzY1MjA4MjQwIKiDl8sGKAUwAEBRSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aBTU5NjMzYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NDM3NjQyMDczMDg3NjU5NIoBCDE5Njk5MDg2qgEJcmVjb21tZW5kwgEgM2Y3ZGRhODQ1ZjBjMGViZWMzYjRlYmNhNjY1NzFjMzLyAQoIDBIGTm9ybWFs8gEoCAoSJGI5OWY5OTc0LWNhNjMtNDQyYS1hYTViLTY4NGQ0NGUyMjVjYvIBBggLEgIxNIICAIgC2rD96bwzkgIgM2Y3ZGRhODQ1ZjBjMGViZWMzYjRlYmNhNjY1NzFjMzKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyBlNjBiNGMwMzNkZDk0MmRkYTkyMGQ1YzY3NjRkNzNiNpoDDQoCdjIQABoFb3RoZXKoA+EB2AMA6gMfdGV4dEZlZWRUd29Ub3dlcldhcm11cFN1Y2Nlc3NWMfoDfRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEL0NGN8JIiN2Mi02MWFiYjgzZjZhMDYzODk1NDEzYTZkN2VmOWQyMGZmMzotCAMQgA0YwggiI3YyLTA0ZGNkOTA2Y2M5ZDc1ZDQyZWUxOWJiNGM4NWY0MGFhgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACAg2yHP4EFAAAAAAAAAACJBdkGtULOLrQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ6QBgCgBlGoBgCSAi4KCTc2NTIwODI0MBITMTk5NDM3NjQyMDczMDg3NjU5NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "82_1768675039.573",
+      "type": "feed",
+      "offset": 82,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675039,
+      "updated_time": 1768675039,
+      "target": {
+        "updated_time": 1768656157,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "preview_text": "",
+        "created_time": 1768656157,
+        "voteup_count": 1,
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "author": {
+            "followers_count": 2,
+            "is_followed": false,
+            "id": "03009881073478cb5c37b9f743015556",
+            "url": "https://api.zhihu.com/people/03009881073478cb5c37b9f743015556",
+            "headline": "所谓新鲜感是和已知的人探索未知的事儿",
+            "avatar_url": "https://picx.zhimg.com/50/v2-0be76397816764f28a0c77f44f8305d2_l.jpg?source=b6762063",
+            "is_org": false,
+            "user_type": "people",
+            "url_token": "68-67-33-83",
+            "name": "晴空",
+            "gender": -1,
+            "is_following": false
+          },
+          "comment_count": 14,
+          "created": 1698830821,
+          "answer_count": 0,
+          "excerpt": "",
+          "question_type": "normal",
+          "id": "628668338",
+          "title": "职场中可以把同事当朋友吗？",
+          "type": "question",
+          "bound_topic_ids": [
+            2566,
+            7583,
+            17420,
+            17421,
+            23771
+          ],
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/628668338",
+          "follower_count": 0
+        },
+        "excerpt_new": "看到这个问题，我第一反应是否定的，怎么可能把同事当作朋友？ 回想到我那因同事成为好友的两三人，又觉得凡事也不是绝对的。 有的同事还真就处成了朋友，但是少之又少。 同事处成朋友，可谓是天时、地利、人和三者缺一不可。 还是在我初入职场的时候，有两三个同事相处的不错，算得上是好友了，至今仍有联系。 在整个职场生涯，也就这么一次。 当时我们几个人都是初入职场的小菜鸟，大家都是由学校刚步入社会，相对单纯。 大家…",
+        "content": "<p data-pid=\"wISSIqDJ\">看到这个问题，我第一反应是否定的，怎么可能把同事当作朋友？</p><p data-pid=\"QDJCbS7f\">回想到我那因同事成为好友的两三人，又觉得凡事也不是绝对的。</p><p data-pid=\"KsmHYsYK\">有的同事还真就处成了朋友，但是少之又少。</p><p data-pid=\"xGzBzgCM\">同事处成朋友，可谓是天时、地利、人和三者缺一不可。</p><p data-pid=\"9tJLjO39\">还是在我初入职场的时候，有两三个同事相处的不错，算得上是好友了，至今仍有联系。</p><p data-pid=\"iLh9r7FZ\">在整个职场生涯，也就这么一次。</p><p data-pid=\"F6ofE99C\">当时我们几个人都是初入职场的小菜鸟，大家都是由学校刚步入社会，相对单纯。</p><p data-pid=\"IrxFeMAh\">大家进入公司起点相同，岗位相同，工作内容相似，都处于适应新环境，学习新知识、新技能的过程。</p><p data-pid=\"8tWzFS7q\">没有太多的利益纠葛，也没什么竞争意识。</p><p data-pid=\"wRRFG3l6\">反而会抱团取暖，互相请教，一起成长。</p><p data-pid=\"Xnnu5IMH\">几个人性格也都比较温和，相处的很轻松、舒服。</p><p data-pid=\"pYKU7a41\">在比较纯粹的心态下，大家越来越熟悉，慢慢拉近了距离。</p><p data-pid=\"RyXpTxnz\">再者，部门的工作氛围也很舒服，没有剑拔弩张的紧张感。</p><p data-pid=\"U8cnOCii\">工作间隙、外出午餐时我们几个都会在一起，聊些工作以外的事情，有时候也会偷偷吐槽下领导。</p><p data-pid=\"R22gCMSt\">发现这是大家最默契的共同语言哈。</p><p data-pid=\"DhNm4sDE\">日复一日，这种共同经历、共同成长为我们的友谊打下坚实的基础。</p><p data-pid=\"XPz-cd_7\">之后有的人离开公司，寻求别的发民展，但一直都有联系，时间久了还会约个饭，相谈甚欢。</p><p data-pid=\"Dr3ybFao\">慢慢都结婚、生子，也都有买礼物，上门看望，生活中有什么事只要说一声也会力所能及的帮忙。</p><p data-pid=\"WeW_j5jx\">后来，江湖中来来往往，又遇到很多新同事，都没有再出现这样情投意合的朋友。</p><p data-pid=\"2TbbZTdQ\">职场阅历越多，对同事间的关系看的越寡淡。</p><p data-pid=\"WrWBC8gU\">同事，就在同一物理空间出售时间和劳动力的人，就算有接触，也只是为了协作完成一项工作。</p><p data-pid=\"Z29saw8h\">职场本质上是一个利益场，同事之间存在着各种各样的利益关系。</p><p data-pid=\"jB7tEwRd\">同级同事，因为业绩多少，会关系到奖金分配，所以都会暗暗较劲。</p><p data-pid=\"iLI1m5pj\">从晋升通道来看，竞争更是激烈，大家为了争取到这个名额，都会大展身手。</p><p data-pid=\"cbnManto\">协作完成一项工作时，更是要分工明确。</p><p data-pid=\"bohns-Ga\">不该我干的绝不多干一分，不该我担的责任也绝不负责。</p><p data-pid=\"bXo4MeRq\">八百个心眼子也只是为了自保，以免被甩锅。</p><p data-pid=\"OyitHIY-\">到了项目奖金、绩效考核的时候更是寸土必争，谁都想为自己多争取一些。</p><p data-pid=\"ZsCXmo2y\">想想这样的关系怎么可能是朋友，刀光剑影倒是不至于，但暗流涌动是一定的。</p><p data-pid=\"rEXTLMLa\">上下级的同事更是不可能成为朋友。</p><p data-pid=\"EDKZYfx6\">上下级之间存在着管理与被管理的关系。</p><p data-pid=\"NMmO3wri\">上级在工作中为了保持管理者的威严，即使有的人表面和煦，但人人心中都有一杆称，因为某些人的某个表现，心中已经默默地给他打分了。</p><p data-pid=\"IvXnhXNs\">这将直接影响到下级的升职、加薪。</p><p data-pid=\"yaJB9VtA\">下级对上级往往会有敬畏之心，不管内心是否尊敬领导，但表面功夫还是要做到位。</p><p data-pid=\"KJwU16Fs\">这本就不平等的关系怎么可能成为朋友。</p><p data-pid=\"yx_vH0XS\">所以说，同事成为朋友大概率是不可能的。</p><p data-pid=\"rtNr5VPY\">当然，对于初出茅庐、志趣相投的年轻人也有可能，但经历过职场洗礼的人更看重的是自身的成长。</p>",
+        "answer_type": "normal",
+        "id": "1995969272485286013",
+        "url": "https://api.zhihu.com/answers/1995969272485286013",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 0,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "is_copyable": true,
+        "excerpt": "看到这个问题，我第一反应是否定的，怎么可能把同事当作朋友？ 回想到我那因同事成为好友的两三人，又觉得凡事也不是绝对的。 有的同事还真就处成了朋友，但是少之又少。 同事处成朋友，可谓是天时、地利、人和三者缺一不可。 还是在我初入职场的时候，有两三个同事相处的不错，算得上是好友了，至今仍有联系。 在整个职场生涯，也就这么一次。 当时我们几个人都是初入职场的小菜鸟，大家都是由学校刚步入社会，相对单纯。 大家…",
+        "reshipment_settings": "allowed",
+        "is_labeled": true,
+        "visited_count": 23,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "author": {
+          "gender": 0,
+          "is_followed": false,
+          "headline": "",
+          "is_org": false,
+          "user_type": "people",
+          "url_token": "pang-zhi-86-58",
+          "name": "胖纸",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ba6df8a4131e975ee73d513ba1609395_l.jpg?source=b6762063",
+          "followers_count": 744,
+          "is_following": false,
+          "id": "f01b892163332937b8a4c0f80310a655",
+          "url": "https://api.zhihu.com/people/f01b892163332937b8a4c0f80310a655"
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995969272485286013}",
+      "attached_info": "CooGCLS69fnftuXopwEQBBoJNzY1ODQyODM2IJ2arssGKAEwAEBSSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMDE5ODI2NTliIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk1OTY5MjcyNDg1Mjg2MDEzigEJNjI4NjY4MzM4qgEJcmVjb21tZW5kwgEgZjAxYjg5MjE2MzMzMjkzN2I4YTRjMGY4MDMxMGE2NTXyAQoIDBIGTm9ybWFs8gEoCAoSJGI2ZmQ3MTljLWExYzktNDZiZS1iNzIyLTRkMWU4YTAwMGMyNfIBBggLEgIxNIICAIgC2rD96bwzkgIgZjAxYjg5MjE2MzMzMjkzN2I4YTRjMGY4MDMxMGE2NTWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIaQ29udGVudFdhcm1VcElzb2xhdGlvblJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AIC+gILTk9STUFMX0ZMT1eKAyBlNjBiNGMwMzNkZDk0MmRkYTkyMGQ1YzY3NjRkNzNiNpoDDQoCdjIQABoFb3RoZXKoAxfYAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKDz834/gQUAAAAAAAAAAIkF2Qa1Qs4utD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGUqgGAZICLgoJNzY1ODQyODM2EhMxOTk1OTY5MjcyNDg1Mjg2MDEzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "83_1768675039.328",
+      "type": "feed",
+      "offset": 83,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675039,
+      "updated_time": 1768675039,
+      "target": {
+        "navigator_vote": false,
+        "updated_time": 1768121185,
+        "thanks_count": 98,
+        "favorite_count": 382,
+        "is_navigator": false,
+        "is_labeled": true,
+        "visited_count": 10274,
+        "voteup_count": 378,
+        "reshipment_settings": "disallowed",
+        "segment_infos": [
+          {
+            "pid": "wagVm63W",
+            "text": "潜意识里面，有没有可能是为了寻找一种“我比别人聪明”的廉价优越感？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993835495709487127"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "0SuBI67R",
+            "text": "亦或，是不是渴望在评论区把这些特征贴在讨厌的人身上，来获得某种践踏或者胜利的快感。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 41,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994187481445331570",
+                    "1994142188033037020",
+                    "1993988587482527289",
+                    "1993835534234182125"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "l_y8decL",
+            "text": "那就不要继续阅读了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 0,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994187481445331570",
+                    "1994142188033037020",
+                    "1993988587482527289",
+                    "1993835534234182125"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "-fDkst1G",
+            "text": "低认知是一种高熵值的思维状态。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 15,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993729093699667882"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "nnm5mEil",
+            "text": "在他们的心理中，今天的100元确定收益，其价值大于十天后的200元确定收益。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 38,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993988909940621628"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "4fM0iPhA",
+            "text": "这就导致了他们大多数情况下，只会聚焦于响应【即时反馈】。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993813092182815875",
+                    "1994142287740024242",
+                    "1994119651567900641",
+                    "1995875173329569529",
+                    "1995875211275424107"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ui7x4zSv",
+            "text": "他们无法理解“延迟满足”背后的复利逻辑，这种特征在社会博弈中的具象化表现就是：",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 39,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993813092182815875",
+                    "1994142287740024242",
+                    "1994119651567900641",
+                    "1995875173329569529",
+                    "1995875211275424107"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "CvY3TMO8",
+            "text": "比如，为了省下一点点体力和脑力，拒绝学习新的技能；为了微薄的眼前利益，透支身体或人脉；为了当下的舒适度，拒绝地缘或者观念的更新。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 64,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993989100236186026"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "0y3SQLlk",
+            "text": "高维度的世界是复杂的、混沌的、多变量耦合的系统。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994178712158097501"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "eCe9yJkt",
+            "text": "一个结果的产生（例如一个人的贫穷，或者一个国家的经济波动），往往是成百上千个变量非线性叠加的产物。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 49,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995875413340213811"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "8EH8DySk",
+            "text": "这种思维是封闭的。——一旦他们锁定了一个简单的“替罪羊”归因，他们就停止了所有的思考和探索。他们构建了一个逻辑闭环，拒绝任何外部信息的输入（熵减）。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 74,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994144308425693018"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "1H4tJqs5",
+            "text": "他们缺乏对他人的心理理论（Theory of Mind），几乎没有包容性和多元化，无法理解别人可能与自己完全不同的信念、欲望和意图。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 66,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993729591118935029"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WUfzXKPk",
+            "text": "1）情绪的无差别倾倒：他们认为你应该无条件承接他们的负面情绪，或者能够无障碍的理解他的困扰、主观自我高评价或者历程，在潜意识中他们以为“你就是我的一部分”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 78,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994197433769563352"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "rRJ-YbLY",
+            "text": "他们不懂得课题分离、角色分离、情景分离和所有独立的人所必备的人格观念。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 35,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995876299605042105"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "VlGoBjzR",
+            "text": "在这个熵增的宇宙里，认知升级是唯一的逆熵抵抗。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 23,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995875386450518842"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bbbDIOEs",
+            "text": "至于那些依然沉睡在“婴儿全能感”中的人，请保持冷峻的慈悲，略过他们就好。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 36,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993729791048835480"
+                  ],
+                  "is_like": false,
+                  "like_count": 11,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-47ef6c90e5b3cb6ecbb93c6ff6a9b6f8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "00a69a0323d435435c7bbd0f1bd535e5",
+          "user_type": "people",
+          "url_token": "canglimo",
+          "followers_count": 678145,
+          "url": "https://api.zhihu.com/people/00a69a0323d435435c7bbd0f1bd535e5",
+          "name": "墨苍离",
+          "headline": "文明其精神，野蛮其意志。世故其言行，耿直其理想。"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-30b66ae1411b58b2842515c83b3ad7b6_720w.jpg?source=b6762063",
+        "comment_count": 31,
+        "excerpt": "请各位自检一下潜意识。 你看到这种题目后点进来， 潜意识里面，有没有可能是为了寻找一种“我比别人聪明”的廉价优越感？ 亦或，是不是渴望在评论区把这些特征贴在讨厌的人身上，来获得某种践踏或者胜利的快感。 那就不要继续阅读了。 因为笔者这篇文章，可能不能满足你的潜意识。 反而很大可能会让你觉得自己符合描述。 低认知是一种高熵值的思维状态。 倘若剥离掉那些充满情绪色彩的词汇（如“固执”、“短视”），以价值中立…",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-30b66ae1411b58b2842515c83b3ad7b6_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d3b0081ca383b9d2ff185deb00ccdba8_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "is_copyable": false,
+        "question": {
+          "url": "https://api.zhihu.com/questions/1898622496787404078",
+          "is_following": false,
+          "excerpt": "",
+          "answer_count": 0,
+          "comment_count": 100,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            7678,
+            70719,
+            154594
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "type": "question",
+          "author": {
+            "name": "金鱼吐泡泡",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-2db5fb5800b38053fcb03c605640bed7_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false,
+            "id": "ef5f15b3c64235205e9b3c85cc681124",
+            "user_type": "people",
+            "gender": -1,
+            "followers_count": 13,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/ef5f15b3c64235205e9b3c85cc681124",
+            "url_token": "46-95-55-48"
+          },
+          "created": 1745446877,
+          "question_type": "normal",
+          "id": "1898622496787404078",
+          "title": "认知水平越低的人，有什么特别明显的特征？"
+        },
+        "excerpt_new": "请各位自检一下潜意识。 你看到这种题目后点进来， 潜意识里面，有没有可能是为了寻找一种“我比别人聪明”的廉价优越感？ 亦或，是不是渴望在评论区把这些特征贴在讨厌的人身上，来获得某种践踏或者胜利的快感。 那就不要继续阅读了。 因为笔者这篇文章，可能不能满足你的潜意识。 反而很大可能会让你觉得自己符合描述。 低认知是一种高熵值的思维状态。 倘若剥离掉那些充满情绪色彩的词汇（如“固执”、“短视”），以价值中立…",
+        "content": "<p data-pid=\"0HBvhAac\">请各位自检一下潜意识。</p><p data-pid=\"jrDEzYbQ\">你看到这种题目后点进来，</p><p data-pid=\"wagVm63W\">潜意识里面，有没有可能是为了寻找一种“我比别人聪明”的廉价优越感？</p><p data-pid=\"0SuBI67R\">亦或，是不是渴望在评论区把这些特征贴在讨厌的人身上，来获得某种践踏或者胜利的快感。</p><p data-pid=\"l_y8decL\">那就不要继续阅读了。</p><p data-pid=\"WxzvBzmn\">因为笔者这篇文章，可能不能满足你的潜意识。</p><p data-pid=\"fxOS2ktQ\">反而很大可能会让你觉得自己符合描述。</p><hr/><p data-pid=\"-fDkst1G\">低认知是一种高熵值的思维状态。</p><p data-pid=\"KAdis3ZE\">倘若剥离掉那些充满情绪色彩的词汇（如“固执”、“短视”），以价值中立的角度研究，会发现低认知人群存在三个隐蔽的缺陷。而这些缺陷在面对命运挑战的时候，可能是致命的缺陷。</p><h3>1，双曲贴现的极端化</h3><p data-pid=\"Jl0zfZbH\">低认知者这个群体对“未来收益”的计算存在一个惊人的折扣率。</p><p data-pid=\"BaBwW26P\">在行为经济学中，这称为<b>双曲贴现（Hyperbolic Discounting）的K值极高</b>。</p><p data-pid=\"nnm5mEil\">在他们的心理中，今天的100元确定收益，其价值大于十天后的200元确定收益。</p><p data-pid=\"zmP4tE3W\">这是一种模拟能力的缺失。——低认知者无法构建一个高保真的“未来沙盒”，无法在这个沙盒中推演长期的因果链条。</p><p data-pid=\"4fM0iPhA\">这就导致了他们大多数情况下，只会聚焦于响应【即时反馈】。</p><p data-pid=\"ui7x4zSv\">他们无法理解“延迟满足”背后的复利逻辑，这种特征在社会博弈中的具象化表现就是：</p><p data-pid=\"nk9UxWey\"><b>他们在所有涉及长期博弈的关口，都会系统性地选择“背叛”或“退出”</b>。</p><p data-pid=\"CvY3TMO8\">比如，为了省下一点点体力和脑力，拒绝学习新的技能；为了微薄的眼前利益，透支身体或人脉；为了当下的舒适度，拒绝地缘或者观念的更新。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c7557d5329080216d51e7b870a3fc6fb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1231\" data-rawheight=\"661\" data-original-token=\"v2-30b66ae1411b58b2842515c83b3ad7b6\" class=\"origin_image zh-lightbox-thumb\" width=\"1231\" data-original=\"https://picx.zhimg.com/v2-c7557d5329080216d51e7b870a3fc6fb_r.jpg\"/></figure><h3>2，归因路径的单行道：伪相关与单因谬误</h3><p data-pid=\"Km60TRNm\">这在中文互联网的争论中几乎每时每刻都在出现。</p><p data-pid=\"0y3SQLlk\">高维度的世界是复杂的、混沌的、多变量耦合的系统。</p><p data-pid=\"eCe9yJkt\">一个结果的产生（例如一个人的贫穷，或者一个国家的经济波动），往往是成百上千个变量非线性叠加的产物。</p><p data-pid=\"ERK-hCfJ\">但低认知的大脑无法处理这种“计算负载”。</p><p data-pid=\"KELTImDZ\">他们强制将复杂系统坍缩为一条简单的线性因果链。这就是单因谬误（Fallacy of the Single Cause）。</p><ul><li data-pid=\"1Gcm-7eh\">只要我不成功，那就是“资本”作恶。</li><li data-pid=\"uf2WP4DS\">只要孩子不听话，那就是“手机”害的。</li><li data-pid=\"01az8zH1\">只要身体不舒服，那就是“上火”。</li></ul><p data-pid=\"8EH8DySk\">这种思维是封闭的。——一旦他们锁定了一个简单的“替罪羊”归因，他们就停止了所有的思考和探索。他们构建了一个逻辑闭环，拒绝任何外部信息的输入（熵减）。</p><p data-pid=\"j8FXRzks\">更进一步，他们会陷入“虚假相关性”的泥潭。他们会把“同时发生”的两件事强行建立因果联系。<b>这也是迷信、阴谋论以及各种伪科学养生文在低认知群体中大行其道的核心原因。</b></p><p data-pid=\"TvZT_2TJ\">他们不具备控制变量法的科学素养，也不理解贝叶斯概率更新。</p><p data-pid=\"2mW9UNH3\">这导致他们看世界就像看皮影戏，只能看到幕布上的影子，永远看不见幕后的操纵杆。</p><p data-pid=\"lWiokECX\">在他们的眼中，世界是非黑即白的二极管，而任何试图解释“灰度”和“概率”的人，都会被他们视为异端或敌对势力。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6d849d114d0e36918a5899037f7efa75_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1179\" data-rawheight=\"655\" data-original-token=\"v2-d3b0081ca383b9d2ff185deb00ccdba8\" class=\"origin_image zh-lightbox-thumb\" width=\"1179\" data-original=\"https://pic4.zhimg.com/v2-6d849d114d0e36918a5899037f7efa75_r.jpg\"/></figure><h3>3，心理疆界的液化：共生绞杀</h3><p data-pid=\"99Wwy6zn\">前两点关乎智力，这一点则关乎人格的独立性。</p><p data-pid=\"5OVS-CQ9\">低认知水平的人，往往伴随着极弱的自我分化（Self-Differentiation）能力。他们无法清晰地界定“我”与“非我”的边界。</p><p data-pid=\"ydwGL1hL\">在心理学上，这是一种病态共生（Pathological Symbiosis）。</p><p data-pid=\"2nDbklxX\">他们很容易把周围的人（也包括你）看作是他们自我延伸的一部分。</p><p data-pid=\"1H4tJqs5\">他们缺乏对他人的心理理论（Theory of Mind），几乎没有包容性和多元化，无法理解别人可能与自己完全不同的信念、欲望和意图。</p><p data-pid=\"xSqFvSji\">在人际交往中，这会表现为令人窒息的控制欲或依赖感：</p><p data-pid=\"WUfzXKPk\">1）情绪的无差别倾倒：他们认为你应该无条件承接他们的负面情绪，或者能够无障碍的理解他的困扰、主观自我高评价或者历程，在潜意识中他们以为“你就是我的一部分”。</p><p data-pid=\"9Yy8h3Qh\">2）价值观念的控制欲：在传统的中国式家庭关系中尤为常见。很多人无法理解“尊重差异”，如果你不按照他们的剧本（考公、结婚、生子）生活，他们就会愤怒、恐惧、失望，甚至企图通过各种模式去进行强制化的干涉。</p><p data-pid=\"nuzTGyvp\">他们就像流动的液体，没有形状，也试图消融周围的一切固体。</p><p data-pid=\"rRJ-YbLY\">他们不懂得课题分离、角色分离、情景分离和所有独立的人所必备的人格观念。</p><p data-pid=\"PrG_X4EQ\">他们把自己的人生命运寄托在别人身上，又试图去操控别人的命运。</p><p data-pid=\"3n9EH9bo\">如果你跟这种人陷入持续的互害纠缠，绝大概率是在进行双输的负和博弈。</p><p data-pid=\"C95gpSwv\">以上</p><p data-pid=\"VlGoBjzR\">在这个熵增的宇宙里，认知升级是唯一的逆熵抵抗。</p><p data-pid=\"bbbDIOEs\">至于那些依然沉睡在“婴儿全能感”中的人，请保持冷峻的慈悲，略过他们就好。</p><p data-pid=\"h27nkdDc\">以上，</p><p data-pid=\"OPt0ZKC9\">供参考。</p>",
+        "vote_next_step": "vote",
+        "id": "1993725193827410319",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1993725193827410319",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "created_time": 1768121127,
+        "preview_type": "default",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993725193827410319}",
+      "attached_info": "CuUGCLS69fnftuXopwEQBBoJNzY0OTYyOTg0IKfGjcsGKPoCMB9AU0o0CilUU19TT1VSQ0VfSU5URVJFU1RfRVhQQU5EX0NXX0dDRl9SRUNBTExFUhIBMBgAIAA6AEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE0NjUzODEyYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5MzcyNTE5MzgyNzQxMDMxOYoBEzE4OTg2MjI0OTY3ODc0MDQwNziqAQlyZWNvbW1lbmTCASAwMGE2OWEwMzIzZDQzNTQzNWM3YmJkMGYxYmQ1MzVlNfIBCggMEgZOb3JtYWzyASgIChIkZDllZDkzYjItYmUwMS00NDE0LTg5NTUtMWVlZmU5OGQ4MTM18gEGCAsSAjE0ggIAiALasP3pvDOSAiAwMGE2OWEwMzIzZDQzNTQzNWM3YmJkMGYxYmQ1MzVlNZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAilUU19TT1VSQ0VfSU5URVJFU1RfRVhQQU5EX0NXX0dDRl9SRUNBTExFUugCA/oCC05PUk1BTF9GTE9XigMgZTYwYjRjMDMzZGQ5NDJkZGE5MjBkNWM2NzY0ZDczYjaaAw0KAnYyEAAaBW90aGVyqAOiUNgDAOoDJ2NvbmNlcHRfd29yZF9nY2ZfaW50ZXJlc3RfZXhwYW5kX3JlY2FsbPoDfRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEM8JGJUFIiN2Mi0zMGI2NmFlMTQxMWI1OGIyODQyNTE1YzgzYjNhZDdiNjotCAMQmwkYjwUiI3YyLWQzYjAwODFjYTM4M2I5ZDJmZjE4NWRlYjAwY2NkYmE4gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAM1uQP4EFAAAAAAAAAACJBdkGtULOLrQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ6QBgCgBlOoBgCSAi4KCTc2NDk2Mjk4NBITMTk5MzcyNTE5MzgyNzQxMDMxORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=83&desktop=true&end_offset=83&page_number=15&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=83&desktop=true&end_offset=83&page_number=15&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

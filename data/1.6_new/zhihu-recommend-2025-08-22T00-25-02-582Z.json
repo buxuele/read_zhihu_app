@@ -1,0 +1,588 @@
+{
+  "data": [
+    {
+      "id": "126_1755822348.729",
+      "type": "feed",
+      "offset": 126,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822348,
+      "updated_time": 1755822348,
+      "target": {
+        "id": "1938909529300506105",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1938909529300506105",
+        "author": {
+          "id": "208af832658f52059e21f67417d046ba",
+          "url": "https://api.zhihu.com/people/208af832658f52059e21f67417d046ba",
+          "user_type": "people",
+          "url_token": "yd1234567",
+          "name": "亚东",
+          "headline": " 公号 AI带路党，推荐我的专栏 用AI学AI",
+          "avatar_url": "https://picx.zhimg.com/50/v2-40f603ff627e81c5a333202d425a15a1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 39973,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "Claude Code 完全使用指南：一个月付200美元重度用户的真实体验",
+        "comment_permission": "all",
+        "created": 1755095047,
+        "updated": 1755095047,
+        "voteup_count": 31,
+        "voting": 0,
+        "comment_count": 11,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "作为一个每天要烧掉160美元以上tokens的Claude Code重度用户，我想我有资格跟大家聊聊这个工具了。没错，这都是真金白银砸出来的经验，不是什么云评测。 我自己总结了这些内容。 Claude Code是什么？Claude 安装/使用有什么注意事项Claude 怎么读代码Claude 怎么修改/写代码Claude 怎么做测试Claude 只是个代码工具吗？1. Claude Code是什么？简单说，Claude Code就是Anthropic推出的 终端原生AI编程助手。别把它想成那种IDE里的…",
+        "excerpt_new": "作为一个每天要烧掉160美元以上tokens的Claude Code重度用户，我想我有资格跟大家聊聊这个工具了。没错，这都是真金白银砸出来的经验，不是什么云评测。 我自己总结了这些内容。 Claude Code是什么？Claude 安装/使用有什么注意事项Claude 怎么读代码Claude 怎么修改/写代码Claude 怎么做测试Claude 只是个代码工具吗？1. Claude Code是什么？简单说，Claude Code就是Anthropic推出的 终端原生AI编程助手。别把它想成那种IDE里的…",
+        "preview_type": "default",
+        "preview_text": "",
+        "column": {
+          "id": "c_1931384587788989726",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1931384587788989726",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "用AI学AI成AI",
+          "imageUrl": "https://picx.zhimg.com/v2-b20b3d6f6bec1170865e29bf073ee90c_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "intro": "借助各种AI技术，完成最新的，最系统的AI知识的学习。",
+          "updated": 1753257971,
+          "is_following": false
+        },
+        "content": "<p data-pid=\"jatVTgrb\">作为一个每天要烧掉160美元以上tokens的Claude Code重度用户，我想我有资格跟大家聊聊这个工具了。没错，这都是真金白银砸出来的经验，不是什么云评测。</p><p data-pid=\"O-TOvvdj\">我自己总结了这些内容。</p><ol><li data-pid=\"kWqrkCr5\">Claude Code是什么？</li><li data-pid=\"MdZ5WzoP\">Claude 安装/使用有什么注意事项</li><li data-pid=\"6oxZ4EC4\">Claude 怎么读代码</li><li data-pid=\"ZdegL3h-\">Claude 怎么修改/写代码</li><li data-pid=\"PWWCeC2U\">Claude 怎么做测试</li><li data-pid=\"S8K3pI0X\">Claude 只是个代码工具吗？</li></ol><h2>1. Claude Code是什么？</h2><p data-pid=\"UpJfVlZs\">简单说，Claude Code就是Anthropic推出的<b>终端原生AI编程助手</b>。别把它想成那种IDE里的代码补全插件——这玩意儿完全不是一个量级的。</p><p data-pid=\"DQOAZFoY\">想象一下，你在终端里输入一句话：&#34;帮我把这个18000行的React组件重构一下&#34;，然后它真的就开始干活了。不是给你建议，是真的在改代码、跑测试、提交Git。这感觉就像雇了个不用睡觉的高级工程师，只不过这位&#34;工程师&#34;的时薪是按token算的。</p><p data-pid=\"o51qPmfO\">最牛的是什么？这家伙在SWE-bench上能拿到<b>72.5%的分数</b>——这可是业界最难的编程基准测试。</p><p data-pid=\"tpEkQ1Dj\"><b>SWE-bench有多难？举两个例子你就懂了：</b></p><p data-pid=\"qO7C-NsP\">比如有道题是要你修复Django框架里的一个bug，这个bug涉及到数据库事务回滚和信号处理的竞态条件。你需要理解Django的ORM层、信号系统、数据库事务机制，还要确保修复不会破坏现有的几百个测试用例。大部分人类程序员看到这题都得先Google半天。</p><p data-pid=\"noQZnb7t\">还有一道是要在scikit-learn里实现一个新的特征选择算法，不仅要符合scikit-learn的API规范，还要保证性能不低于现有实现，并且要通过所有的数值稳定性测试。这种题目，没有机器学习背景的程序员基本就歇菜了。</p><p data-pid=\"t1xv1Mrk\">而Claude Code能在这种级别的测试中拿到72.5%的分数，很多人类程序员都达不到这个水平。它用的是Claude Opus 4和Sonnet 4模型，有20万token的上下文窗口，意味着它能一次性&#34;记住&#34;你整个项目的代码。</p><h2>2. Claude 安装/使用有什么注意事项</h2><p data-pid=\"_RpY9m4i\">安装这货其实挺简单，但坑也不少。我踩过的坑，希望你们能避开。</p><p data-pid=\"nSpyQvyC\"><b>三种安装方式，选对很重要：</b></p><p data-pid=\"eWqHtPZ-\">最推荐的是<b>原生安装</b>——Mac/Linux用curl，Windows用PowerShell。这种方式最干净，装在~/.claude/local/下面，不需要sudo权限，更新也方便。</p><div class=\"highlight\"><pre><code class=\"language-text\"># 就这么一行，简单粗暴\ncurl -sSL https://claude.ai/install.sh | bash</code></pre></div>",
+        "is_labeled": true,
+        "visited_count": 4046,
+        "favorite_count": 73,
+        "paid_info": {
+          "content": "<p data-pid=\"jatVTgrb\">作为一个每天要烧掉160美元以上tokens的Claude Code重度用户，我想我有资格跟大家聊聊这个工具了。没错，这都是真金白银砸出来的经验，不是什么云评测。</p><p data-pid=\"O-TOvvdj\">我自己总结了这些内容。</p><ol><li data-pid=\"kWqrkCr5\">Claude Code是什么？</li><li data-pid=\"MdZ5WzoP\">Claude 安装/使用有什么注意事项</li><li data-pid=\"6oxZ4EC4\">Claude 怎么读代码</li><li data-pid=\"ZdegL3h-\">Claude 怎么修改/写代码</li><li data-pid=\"PWWCeC2U\">Claude 怎么做测试</li><li data-pid=\"S8K3pI0X\">Claude 只是个代码工具吗？</li></ol><h2>1. Claude Code是什么？</h2><p data-pid=\"UpJfVlZs\">简单说，Claude Code就是Anthropic推出的<b>终端原生AI编程助手</b>。别把它想成那种IDE里的代码补全插件——这玩意儿完全不是一个量级的。</p><p data-pid=\"DQOAZFoY\">想象一下，你在终端里输入一句话：&#34;帮我把这个18000行的React组件重构一下&#34;，然后它真的就开始干活了。不是给你建议，是真的在改代码、跑测试、提交Git。这感觉就像雇了个不用睡觉的高级工程师，只不过这位&#34;工程师&#34;的时薪是按token算的。</p><p data-pid=\"o51qPmfO\">最牛的是什么？这家伙在SWE-bench上能拿到<b>72.5%的分数</b>——这可是业界最难的编程基准测试。</p><p data-pid=\"tpEkQ1Dj\"><b>SWE-bench有多难？举两个例子你就懂了：</b></p><p data-pid=\"qO7C-NsP\">比如有道题是要你修复Django框架里的一个bug，这个bug涉及到数据库事务回滚和信号处理的竞态条件。你需要理解Django的ORM层、信号系统、数据库事务机制，还要确保修复不会破坏现有的几百个测试用例。大部分人类程序员看到这题都得先Google半天。</p><p data-pid=\"noQZnb7t\">还有一道是要在scikit-learn里实现一个新的特征选择算法，不仅要符合scikit-learn的API规范，还要保证性能不低于现有实现，并且要通过所有的数值稳定性测试。这种题目，没有机器学习背景的程序员基本就歇菜了。</p><p data-pid=\"t1xv1Mrk\">而Claude Code能在这种级别的测试中拿到72.5%的分数，很多人类程序员都达不到这个水平。它用的是Claude Opus 4和Sonnet 4模型，有20万token的上下文窗口，意味着它能一次性&#34;记住&#34;你整个项目的代码。</p><h2>2. Claude 安装/使用有什么注意事项</h2><p data-pid=\"_RpY9m4i\">安装这货其实挺简单，但坑也不少。我踩过的坑，希望你们能避开。</p><p data-pid=\"nSpyQvyC\"><b>三种安装方式，选对很重要：</b></p><p data-pid=\"eWqHtPZ-\">最推荐的是<b>原生安装</b>——Mac/Linux用curl，Windows用PowerShell。这种方式最干净，装在~/.claude/local/下面，不需要sudo权限，更新也方便。</p><div class=\"highlight\"><pre><code class=\"language-text\"># 就这么一行，简单粗暴\ncurl -sSL https://claude.ai/install.sh | bash</code></pre></div><p data-pid=\"c2YwudYT\">npm安装虽然Node.js开发者熟悉，但经常有权限问题。我一开始就是用npm装的，结果各种permission denied，最后还是换成了原生安装。</p><p data-pid=\"uIlEgMBC\"><b>CLAUDE.md文件是灵魂：</b></p><p data-pid=\"KJ0d8f6H\">这个真的太重要了！在项目根目录放一个CLAUDE.md文件，就像给Claude Code写了份&#34;员工手册&#34;。把你的编码规范、项目特殊要求、常用的工作流程都写进去。相信我，花一小时写好这个文件，能省你几十小时的重复说明。</p><div class=\"highlight\"><pre><code class=\"language-text\"># CLAUDE.md 示例\n## 项目规范\n- 使用TypeScript严格模式\n- 组件必须有PropTypes\n- 提交信息用中文\n- 测试覆盖率不低于80%</code></pre></div><p data-pid=\"1W3CPq7p\"><b>常见的坑和解决办法：</b></p><p data-pid=\"59EZgNoQ\">Windows用户最容易遇到&#34;node: not found&#34;——别用Windows的npm，用WSL里的包管理器装Node.js。</p><p data-pid=\"Kcu9TPAH\">认证问题？删掉~/.claude/auth.json重新OAuth登录，基本都能解决。</p><p data-pid=\"aRCL9jkx\">记住运行<code>claude doctor</code>，这个命令能帮你诊断大部分安装问题。</p><p data-pid=\"xaFZak3s\"><b>！！！最重要的：不要用大中华区出口的科学工具！！！</b></p><h2>3. Claude 怎么读代码</h2><p data-pid=\"V2P7uzkZ\">Claude Code读代码的方式挺有意思，它不是简单地扫描文件，而是用一种叫&#34;agentic search&#34;的技术。</p><p data-pid=\"EmHiyZaA\">想象一下侦探破案的过程——Claude Code会先快速浏览项目结构，找出关键文件，理解依赖关系，然后深入分析重要模块。这个过程是自动的，你不需要手动指定要看哪些文件。</p><p data-pid=\"c3RaNdIi\"><b>它能理解的东西超乎想象：</b></p><ul><li data-pid=\"IlkYfRR6\">import/export的依赖关系</li><li data-pid=\"O9nmLUM-\">API之间的调用链路</li><li data-pid=\"6fT-ueci\">未使用的代码和潜在的bug</li><li data-pid=\"QLuBqiUy\">不同框架的特殊模式（React、Rails、Next.js它都懂）</li></ul><p data-pid=\"L1aUdYNl\">你可以问它：&#34;这个用户服务如果改了会影响哪些地方？&#34;它真的能给你完整的影响分析。这种跨文件的理解能力，是其他AI工具望尘莫及的。</p><p data-pid=\"uJhDto6B\">有个细节特别棒：20万token的上下文是<b>真实的</b>，不像某些竞品会偷偷压缩。这意味着它能同时&#34;记住&#34;你整个中型项目的代码。</p><h2>4. Claude 怎么修改/写代码</h2><p data-pid=\"sBrjUc6l\">这是Claude Code最让人上瘾的地方。你用自然语言描述需求，它直接给你写代码——而且是生产级别的代码。</p><p data-pid=\"SAInURn7\"><b>它的工作流程像个真正的程序员：</b></p><ol><li data-pid=\"ws2XwyAS\">先写测试（TDD，测试驱动开发）</li><li data-pid=\"CW6bdNJx\">确认测试失败（验证测试有效性）</li><li data-pid=\"qnUKrzTa\">实现功能代码</li><li data-pid=\"nDPsTjsu\">跑测试直到通过</li><li data-pid=\"umetTgiw\">重构优化</li><li data-pid=\"58iRYknq\">提交带有清晰说明的commit</li></ol><p data-pid=\"uxdD-xf3\">最让我惊讶的是它处理复杂重构的能力。有次我让它重构一个18000行的某个项目的小模块（是的，我们有这么恐怖的遗留代码），它居然真的完成了，而且保持了所有功能正常。这种级别的改动，人工做至少要一周。</p><p data-pid=\"q5V35PNo\"><b>Git集成也很强大：</b></p><ul><li data-pid=\"4ECNlEX8\">自动生成有意义的commit message</li><li data-pid=\"LbxgTNBi\">处理merge conflict</li><li data-pid=\"8L5CXu6k\">创建pull request还带详细说明</li><li data-pid=\"AXdJCxWE\">甚至能读GitHub issue然后直接实现</li></ul><p data-pid=\"InBGN0Cw\"><b>有个小技巧：用&#34;think hard&#34;或&#34;ultrathink&#34;命令可以让它进入深度思考模式，处理特别复杂的问题时特别有用。就像让它喝了红牛一样，思考能力直线上升。</b></p><h2>5. Claude 怎么做测试</h2><p data-pid=\"HVpBwrN-\">测试这块，Claude Code简直是神器。社区数据显示，它生成的测试<b>95%能直接通过</b>，85%能提供有意义的覆盖。</p><p data-pid=\"3C3IvSOD\">它不只是写单元测试：</p><ul><li data-pid=\"mEsUVaql\">集成测试、E2E测试都能搞</li><li data-pid=\"Uqyr918k\">支持Jest、Playwright、Cypress等主流框架</li><li data-pid=\"HyMg2v25\">自动生成mock数据</li><li data-pid=\"NkdP7mAw\">甚至能做性能测试和安全扫描</li></ul><p data-pid=\"qK5gdmvb\">最绝的是它会考虑边缘情况。那些你自己写测试时容易忽略的corner case，它都能想到。有次它帮我找出了一个只在闰年2月29日才会触发的bug——这种细节，真的让人佩服。</p><h2>6. Claude 只是个代码工具吗？</h2><p data-pid=\"0doF8jTJ\">绝对不是！这是很多人的误解。</p><p data-pid=\"VcSMXdyJ\"><b>Claude Code能做的远超写代码：</b></p><ul><li data-pid=\"b4xSpfsN\"><b>文档生成</b>：API文档、README、架构决策记录（ADR），它都能写，而且写得比大部分程序员好</li><li data-pid=\"elaJp_5B\"><b>DevOps任务</b>：配置CI/CD、写Dockerfile、设置Kubernetes，这些&#34;脏活累活&#34;交给它最合适</li><li data-pid=\"60uEULrV\"><b>项目规划</b>：用&#34;plan mode&#34;可以做架构设计、技术选型、迁移方案</li></ul><p data-pid=\"Uwyi-L0W\">最有意思的是，我们公司的非技术团队也在用它：</p><ul><li data-pid=\"f9qmCzfr\">市场部用它做广告自动化工具</li><li data-pid=\"HFcaMAER\">法务部用它做合规检查脚本</li><li data-pid=\"BNglKtMA\">数据分析师用它把Jupyter notebook转成生产代码</li></ul><p data-pid=\"pXbA9gc7\">有个同事说得好：&#34;Claude Code就像给每个人配了个会编程的助手。&#34;确实，它正在打破技术和非技术之间的壁垒。</p><h2>真实使用感受</h2><p data-pid=\"8fNSJV71\">用了Claude Code一个多月，我的开发效率提升了至少60%。那些琐碎的工作——写测试、改bug、处理merge conflict——基本都交给它了。我可以专注于架构设计和业务逻辑。</p><p data-pid=\"bnwQeRQc\"><b>当然，它不是万能的。复杂的算法设计、需要深度业务理解的决策，还是得靠人。但作为一个&#34;超级助手&#34;，它已经远超我的预期。</b></p><p data-pid=\"LFRzqJYf\"><b>每天160美元的token费用贵吗？但算算账：一个高级工程师的日薪多少？Claude Code 24小时不休息，不会累，不会抱怨加班，还能同时处理多个任务。这么一想，简直太划算了。而最重要的是，你需要付的是200美元/月！！</b></p><p data-pid=\"5Gn-OowZ\">最后给个建议：如果你还在观望，不妨先试试。技术发展太快了，今天的&#34;黑科技&#34;明天就是&#34;基础设施&#34;。早点上车，早点享受AI带来的生产力提升。相信我，一旦用上了，你就回不去了——就像用惯了IDE就回不去记事本写代码一样。</p><p data-pid=\"S5Be-N2n\">参考：</p><p data-pid=\"VZb-3dI7\"><a href=\"https://link.zhihu.com/?target=https%3A//docs.anthropic.com/en/docs/claude-code/overview\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.anthropic.com/en/d</span><span class=\"invisible\">ocs/claude-code/overview</span><span class=\"ellipsis\"></span></a> </p><p data-pid=\"a0NzMQQE\"><a href=\"https://link.zhihu.com/?target=https%3A//www.anthropic.com/engineering/claude-code-best-practices\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">anthropic.com/engineeri</span><span class=\"invisible\">ng/claude-code-best-practices</span><span class=\"ellipsis\"></span></a> </p>"
+        },
+        "article_type": "paid_column_content",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1938909529300506105}",
+      "attached_info": "CrAFCLm854rM0Jy2lAEQBxoJMjYxNjM2NTUxIIfA8sQGKB8wC0B+SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWggxMzcxNjAzNGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5Mzg5MDk1MjkzMDA1MDYxMDWKARVjXzE5MzEzODQ1ODc3ODg5ODk3MjaqAQlyZWNvbW1lbmTCASAyMDhhZjgzMjY1OGY1MjA1OWUyMWY2NzQxN2QwNDZiYfIBCggMEgZOb3JtYWzyASgIChIkNzIwMjJlY2MtNTliMC00MmQ5LWEzZDEtYmE4NmFiZTk2MTEx8gEGCAsSAjIyggIAiALDs6v5jDOSAiAyMDhhZjgzMjY1OGY1MjA1OWUyMWY2NzQxN2QwNDZiYZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AIE+gILTk9STUFMX0ZMT1eKAyA1NDQ5YWE3OGM0ZGY0NzFhOTZjZjZmMzM0YWU0ZjQ1ZZoDDQoCdjIQABoFb3RoZXKoA84f2AMA+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIOc/rj+BBQAAAAAAAAAAiQVkmWOU1lXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUWkAYAoAaAAagGAZICLgoJMjYxNjM2NTUxEhMxOTM4OTA5NTI5MzAwNTA2MTA1GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "127_1755822348.847",
+      "type": "feed",
+      "offset": 127,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822348,
+      "updated_time": 1755822348,
+      "target": {
+        "id": "3549145728",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3549145728",
+        "author": {
+          "id": "4beec06a17aa26c2897b65e29d62a2ab",
+          "url": "https://api.zhihu.com/people/4beec06a17aa26c2897b65e29d62a2ab",
+          "user_type": "people",
+          "url_token": "48-58-33-10-48",
+          "name": "忍者枭",
+          "headline": "精通新西兰语、澳大利亚语、加拿大语、美国语、英语且博学多才。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-cf90e775abfffcb3907ae33bdfdc2696_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 5987,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1719908869,
+        "updated_time": 1754391964,
+        "voteup_count": 14922,
+        "thanks_count": 123,
+        "comment_count": 214,
+        "is_copyable": true,
+        "question": {
+          "id": "627076341",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/627076341",
+          "author": {
+            "id": "baaa763d7d2face38addbe872c802166",
+            "url": "https://api.zhihu.com/people/baaa763d7d2face38addbe872c802166",
+            "user_type": "people",
+            "url_token": "shi-qu-48-16",
+            "name": "一条冷水鱼",
+            "headline": "分享故事谢谢你爱看哦",
+            "avatar_url": "https://picx.zhimg.com/50/v2-e6219cd23c82b72d33e16f7f0cf119ea_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "哪句话突然让你沉默好久?",
+          "created": 1697810687,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 42,
+          "bound_topic_ids": [
+            13266,
+            18622,
+            24048,
+            37795,
+            410903
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "新闻上说父子二人找不到合适的工作，只能都干外卖员。 有人写了句搞笑评论： “ 要警惕外卖行业门阀化。”不知为什么，我明知道这是句搞笑评论，但我就是笑不出来。",
+        "excerpt_new": "新闻上说父子二人找不到合适的工作，只能都干外卖员。 有人写了句搞笑评论： “ 要警惕外卖行业门阀化。”不知为什么，我明知道这是句搞笑评论，但我就是笑不出来。",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"5muqEkcl\">新闻上说父子二人找不到合适的工作，只能都干外卖员。</p><p data-pid=\"QFSy10GX\">有人写了句搞笑评论：</p><p data-pid=\"qF13LSBf\">“<b>要警惕外卖行业门阀化</b>。”</p><p data-pid=\"0nChD0G_\">不知为什么，我明知道这是句搞笑评论，但我就是笑不出来。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 467442,
+        "favorite_count": 344,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3549145728}",
+      "attached_info": "CtwGCLm854rM0Jy2lAEQBBoJNjc1MzcxMDQ5IIX0jrQGKMp0MNYBQH9KPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifUowChtUU19TT1VSQ0VfQkFTSUNfSU5GT19SRUNBTEwSATAYACAAOgp7InJhdyI6IiJ9WgkxMDE2MjkyMDFiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgozNTQ5MTQ1NzI4igEJNjI3MDc2MzQxqgEJcmVjb21tZW5kwgEgNGJlZWMwNmExN2FhMjZjMjg5N2I2NWUyOWQ2MmEyYWLyAQoIDBIGTm9ybWFs8gEoCAoSJGJjODQ4YzViLWNjOTktNDVkMC1hYzRhLWI0MDkyYzg1MmE3MfIBBggLEgIyMoICAIgCw7Or+YwzkgIgNGJlZWMwNmExN2FhMjZjMjg5N2I2NWUyOWQ2MmEyYWKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTegCAvoCC05PUk1BTF9GTE9XigMgNTQ0OWFhNzhjNGRmNDcxYTk2Y2Y2ZjMzNGFlNGY0NWWaAw0KAnYyEAAaBW90aGVyqAPywxzYAwDqAxBuZXdiaWVfZmVlZHJlX3Yy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNzDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKA737k/gQUAAAAAAAAAAIkFZJljlNZV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFpAGAKAGgQGoBgOSAiUKCTY3NTM3MTA0ORIKMzU0OTE0NTcyOBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "128_1755822348.403",
+      "type": "feed",
+      "offset": 128,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822348,
+      "updated_time": 1755822348,
+      "target": {
+        "id": "1941073269970175175",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941073269970175175",
+        "author": {
+          "id": "cf337ba0a13cb63becb992c003828b79",
+          "url": "https://api.zhihu.com/people/cf337ba0a13cb63becb992c003828b79",
+          "user_type": "people",
+          "url_token": "02154-62",
+          "name": "02154",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 100,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755567930,
+        "updated_time": 1755738840,
+        "voteup_count": 1152,
+        "thanks_count": 37,
+        "comment_count": 134,
+        "is_copyable": true,
+        "question": {
+          "id": "31376553",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/31376553",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "在中国搭讪有多难？？",
+          "created": 1434520878,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 27,
+          "bound_topic_ids": [
+            307,
+            404,
+            1309,
+            2494,
+            4729
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-80110f828c4248bcedf583df9533e63c_720w.jpg?source=b6762063",
+        "excerpt": "你觉得难，那是你还在用古法搭讪，在这个互联网时代，你得跟进时代浪潮，你在抖音上发一些自己的身材照或者照片，帅就露脸，不帅就不露脸拍穿搭，身材好就拍身材，都不行的话就发一些财力的，至少要有能吸引别人点赞的 发布的时候去大学城附近发，这样会推送给大学同城的，坚持发两个月，每次发布都复盘优化一下内容，比如上次发的作品播放量点赞不高，找一下不高的原因。实在不知道怎么拍就找网上热度高的作品抄，连抄都不会那…",
+        "excerpt_new": "你觉得难，那是你还在用古法搭讪，在这个互联网时代，你得跟进时代浪潮，你在抖音上发一些自己的身材照或者照片，帅就露脸，不帅就不露脸拍穿搭，身材好就拍身材，都不行的话就发一些财力的，至少要有能吸引别人点赞的 发布的时候去大学城附近发，这样会推送给大学同城的，坚持发两个月，每次发布都复盘优化一下内容，比如上次发的作品播放量点赞不高，找一下不高的原因。实在不知道怎么拍就找网上热度高的作品抄，连抄都不会那…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"82DbVpOG\">你觉得难，那是你还在用古法搭讪，在这个互联网时代，你得跟进时代浪潮，你在抖音上发一些自己的身材照或者照片，帅就露脸，不帅就不露脸拍穿搭，身材好就拍身材，都不行的话就发一些财力的，至少要有能吸引别人点赞的</p><p data-pid=\"ySBVG9ee\">发布的时候去大学城附近发，这样会推送给大学同城的，坚持发两个月，每次发布都复盘优化一下内容，比如上次发的作品播放量点赞不高，找一下不高的原因。实在不知道怎么拍就找网上热度高的作品抄，连抄都不会那就怪不了别人了</p><p data-pid=\"PsWsrADb\">如果内容质量好的话基本会有女生私信你，或者给你点赞关注，都给你点赞关注了，说明对你不反感，你这时候找一些契机，比如他给你关注了你就回关，然后给她作品也点赞评论，久而久之就在抖音私信聊起来。或者你给她抖音作品投个几十块钱抖+，然后再私信她说充错了，再慢慢聊起来</p><p data-pid=\"S3mfs5Df\">你这种在大街上碰到姑娘就打招呼的搭讪方法太复古了，在女生看来流氓才会这样搭讪，而且这样搭讪目的性很强。90后的我不知道，但是00后女生认识的异性，除了朋友介绍同学之类，基本都是在线上认识，你的社交软件和朋友圈经营是非常非常重要的，对于现在的女生，朋友圈就是他们的社交门面，你要是朋友圈社交内容比她们丰富，她就是认为你比她强，就是会主动贴上来（女性朋友多应该很能理解这段话）</p><hr/><p data-pid=\"QRP7AfX1\">给你们看实战案例，首先说明我本人条件，长得不帅，南方人，身高才172，但是身材算是比较好的吧，体脂率一直保持很低，经常健身，站着的时候稍微绷一下就有明显的腹肌。我作品里面就是日常穿搭+身材照，作品里没露过脸，下面截图的私信都是三月份的，是因为三月份有一个作品点赞高，那个作品是在档次较高的度假酒店的照片，私信里面有一个最快的两个星期就得吃了</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-213d79c950945463fbb39c1949a00e31_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1284\" data-rawheight=\"2520\" data-original-token=\"v2-80110f828c4248bcedf583df9533e63c\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-f817dbde2936f19f3ba114c36181dd1b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1284\" data-original=\"https://pic4.zhimg.com/v2-213d79c950945463fbb39c1949a00e31_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 78956,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-80110f828c4248bcedf583df9533e63c_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 1600,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941073269970175175}",
+      "attached_info": "CtQFCLm854rM0Jy2lAEQBBoJNzQyODgyMzAzILquj8UGKIAJMIYBQIABSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9Wgc0NzQ5NzY3YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTA3MzI2OTk3MDE3NTE3NYoBCDMxMzc2NTUzqgEJcmVjb21tZW5kwgEgY2YzMzdiYTBhMTNjYjYzYmVjYjk5MmMwMDM4MjhiNznyAQoIDBIGTm9ybWFs8gEoCAoSJDlmODQ4NzhmLTY0ZGItNDhjOC05YjEzLWMwY2IzNTY3YjM0OfIBBggLEgIyMoICAIgCxLOr+YwzkgIgY2YzMzdiYTBhMTNjYjYzYmVjYjk5MmMwMDM4MjhiNzmaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gITVFNfU09VUkNFX0ZFRURSRV9WNegCAvoCC05PUk1BTF9GTE9XigMgNTQ0OWFhNzhjNGRmNDcxYTk2Y2Y2ZjMzNGFlNGY0NWWaAw0KAnYyEAAaBW90aGVyqAPs6ATYAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQhAoY2BMiI3YyLTgwMTEwZjgyOGM0MjQ4YmNlZGY1ODNkZjk1MzNlNjNjgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE1OcgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAICQBrz+BBQAAAAAAAAAAiQVkmWOU1lXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUWkAYAoAaCAagGAJICLgoJNzQyODgyMzAzEhMxOTQxMDczMjY5OTcwMTc1MTc1GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "129_1755822348.99",
+      "type": "feed",
+      "offset": 129,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822348,
+      "updated_time": 1755822348,
+      "target": {
+        "id": "18429969611",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/18429969611",
+        "author": {
+          "id": "dadcbcb831352986ad1d8e374f4a99c1",
+          "url": "https://api.zhihu.com/people/dadcbcb831352986ad1d8e374f4a99c1",
+          "user_type": "people",
+          "url_token": "citonghong",
+          "name": "刺桐红",
+          "headline": "⬅️数据整理，➡️读诗，看中篇小说",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d729fa635884d40afaa698262d1e7658_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "保险行业 销售经理"
+            }
+          ],
+          "followers_count": 22852,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1730260020,
+        "updated_time": 1730885503,
+        "voteup_count": 7422,
+        "thanks_count": 381,
+        "comment_count": 1145,
+        "is_copyable": true,
+        "question": {
+          "id": "600750151",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/600750151",
+          "author": {
+            "id": "61c7c10cd3a8348df2f5d0c5f6b0410a",
+            "url": "https://api.zhihu.com/people/61c7c10cd3a8348df2f5d0c5f6b0410a",
+            "user_type": "people",
+            "url_token": "11yi-79",
+            "name": "momo",
+            "headline": "1111",
+            "avatar_url": "https://picx.zhimg.com/50/v2-10ed314f46558e6b32061fd39783b6a6_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 5038,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "唱衰英国这么久，为什么英国还是如此发达？",
+          "created": 1683955004,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 133,
+          "bound_topic_ids": [
+            717,
+            33167,
+            170650,
+            152712,
+            169758
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-768f5f6920422cc5de6df3eabc1fb0ea_720w.jpg?source=b6762063",
+        "excerpt": "说一个比较少见的视角：大学。 知道为什么过去几年海外的水硕特别流行吗？ 答案：卖文凭。 始作俑者：英国。 1、大学不能涨学费英国政府曾经为了平抑国内大学生的愤怒，把大学学费做了个封顶处理，即最高不得超过9250英镑。 这一规定执行了差不多10年，赶上物价、人工上涨，怎么办？据英国《金融时报》2024年1月22日的评论文章分析，英国的大学每招收一名大学生，就要亏损差不多2500英镑。 别找政府，政府也没钱。英国政府在学生…",
+        "excerpt_new": "说一个比较少见的视角：大学。 知道为什么过去几年海外的水硕特别流行吗？ 答案：卖文凭。 始作俑者：英国。 1、大学不能涨学费英国政府曾经为了平抑国内大学生的愤怒，把大学学费做了个封顶处理，即最高不得超过9250英镑。 这一规定执行了差不多10年，赶上物价、人工上涨，怎么办？据英国《金融时报》2024年1月22日的评论文章分析，英国的大学每招收一名大学生，就要亏损差不多2500英镑。 别找政府，政府也没钱。英国政府在学生…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"IwXMu_Qt\">说一个比较少见的视角：大学。</p><p data-pid=\"dFo1VCm3\">知道为什么过去几年海外的水硕特别流行吗？</p><p data-pid=\"FWxagi2A\">答案：卖文凭。</p><p data-pid=\"XX5mtfSr\">始作俑者：英国。</p><p data-pid=\"OOs8dDuN\"><b>1、大学不能涨学费</b></p><p data-pid=\"f8PkB_RZ\">英国政府曾经为了平抑国内大学生的愤怒，把大学学费做了个封顶处理，即最高不得超过9250英镑。</p><p data-pid=\"cXkB88CS\">这一规定执行了差不多10年，赶上物价、人工上涨，怎么办？据英国《金融时报》2024年1月22日的评论文章分析，英国的大学每招收一名大学生，就要亏损差不多2500英镑。</p><p data-pid=\"HKZuRg1s\">别找政府，政府也没钱。英国政府在学生接受高等教育方面的人均财政支出，低于经合组织（OECD，共38个成员国，以欧美日韩为主）的平均水平。</p><p data-pid=\"-4Yzk3Oy\">搞产业合作？不好意思，英国在这方面远不及德国、瑞士、荷兰，产业合作的占比仅为后面的40%。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-896d5877e45a4b1fcbae0a7a7937d237_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1972\" data-rawheight=\"944\" data-original-token=\"v2-6f3ba97a76d59b707e588b09553fee71\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-81c27413ba00dcf2edac6d8aa8d83c9c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1972\" data-original=\"https://picx.zhimg.com/v2-896d5877e45a4b1fcbae0a7a7937d237_r.jpg\"/><figcaption>《金融时报》2024年1月评论文章认为，英国的大学正走在一条不可持续的道路上</figcaption></figure><p data-pid=\"3b-ej_ZN\">于是在多方摸索中，英国的大学找到了一条生财之道：卖文凭。</p><p data-pid=\"RQnKv5Nv\">他们针对留学生推出了一个价高门槛低的定制套餐：</p><blockquote data-pid=\"ze8k__wI\">1）有本科学历就能申请<br/>2）只要听完课，就给毕业<br/>3）不用发论文、答辩，只要参加学科考试<br/>4）担心没时间？没关系，一年就行<br/>5）唯一的要求：不享受英国学生的待遇，学费一般要3万多英镑</blockquote><p data-pid=\"NnD9lAxo\">换句话说：<b>如果你交得起30～35万元人民币，英国就有大学愿意卖硕士文凭给你。</b></p><p data-pid=\"0apgjyg6\">再加上一年10～20万元的生活费，也算是给英国GDP做贡献了不是？</p><p data-pid=\"fd_ANovD\">这个套餐还有个好听的名字：<b>授课型研究生（Postgraduate Taught，简称PGT）</b>。（正儿八经的研究生叫PGR，即Postgraduate Research，也叫“研究型硕士”）</p><p data-pid=\"6XkiQF2k\">于是，一场持续七八年之久的卖文凭生意轰轰烈烈地开展起来了。</p><p data-pid=\"m5xHQnBI\">这边瞧，这边看，QS排名前200的名校文凭开售了！</p><p data-pid=\"gUkujzJf\">不用考试，不用论文，只要给钱就行！</p><p data-pid=\"IfbMMXr0\">走过路过，千万不要错过！</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0de46ca172fe1e45b963be41ad1425d2_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2186\" data-original-token=\"v2-38c47bab84234647a14b1cc5bcad378d\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-83adc32a0426c5a5743e0b85f23615f9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-0de46ca172fe1e45b963be41ad1425d2_r.jpg\"/><figcaption>说来搞笑，喜欢提“水硕”的经常是一些留学中介，主打的就是“不想花费太多时间和精力”，“轻轻松松获得学位”。</figcaption></figure><p data-pid=\"4cWuEAVj\">据统计：</p><p data-pid=\"qI6enJ4K\">英国2019/20年度，留学生人数55.66万，PGT占24.36万；</p><p data-pid=\"6ZJ6Niyp\">2020/21年度，留学生人数突破60万，PGT占32.62万。</p><p data-pid=\"hIng-XJx\">授课型研究生占了留学生的半壁江山。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"L6Ixe4eZ\"><b>2、这门生意有多好？</b></p><p data-pid=\"tnqxQAs8\">本来，近水楼台先得月，英国吸引的留学生，是爱尔兰、法国、西班牙这些近邻国家。</p><p data-pid=\"8O7-0x9R\">第二，是英国以前的殖民地国家和地区，像美国、印度、孟加拉国、尼日利亚，以及我国香港。</p><p data-pid=\"VZcPnEiJ\">结果文凭一开卖，好家伙，吸引来的最大买主竟然是中国大陆！</p><p data-pid=\"Pxluoj8r\">从2014年至2019年，中国大陆的留学生增长了56%，达到了14.19万人。</p><p data-pid=\"PUP4h8ot\">2020/21年度，达到了14.38万人。</p><p data-pid=\"eYeeiZMx\">2021/22年度，达到了15.17万人。</p><p data-pid=\"XvIBiYwA\">这是个什么概念呢？</p><p data-pid=\"aBcj--TV\">以2021/22年度为例，英国全体留学生也不过68万人，中国就有15.17万，占了22.3%，是断档式的领先。</p><p data-pid=\"8q6mb4xS\">同一年，欧盟国家（爱尔兰、法国、西班牙等）加一起，也不过12.01万人。</p><p data-pid=\"8E62wZb0\">在非欧盟国家里，中国长期以来，都是遥遥领先，甚至一度是第二名的好几倍（长期维持在30%～40%之间）。</p><p data-pid=\"rlpWAiMD\">英国教育部门高兴地宣布：国际留学生为他们贡献了19%的收入，避免了英国大学的赤字甚至破产。</p><p data-pid=\"7T824wZt\">或许有人会说：欧洲人就不读PGT吗？</p><p data-pid=\"fS78ulxU\">读。但是占比没那么高。</p><p data-pid=\"Hq5kZ9tn\">还是以20/21年度为例：留学生中PGT有32.62万人，<b>欧盟占3.10万人，不到10%；非欧盟国家占了90.5%。</b></p><p data-pid=\"Jz3u6TjN\">从选择比例来看，也是非欧盟国家高：<b>欧盟学生大约有20.27%的人读PGT，而非欧盟学生选择的比例高达65.28%。</b></p><p data-pid=\"X0hDv4ML\">其实这个比例还有点被低估了，因为英国高等教育部门每年公布的是全体留学生，即全日制本科、研究型硕士、授课型硕士、博士合在一起计算，其他几个都是多年制，而授课型硕士是一年以内居多。</p><p data-pid=\"nVP4gvHj\">以中国为例：20/21年度，老生4.46万人，一年级新生9.92万人。</p><p data-pid=\"dijkuCyn\">老生若按三年制折算，则一年1.49万人，大致可以估算出，去深造和去水文凭的<b>比例接近15%：85%。</b></p><p data-pid=\"P5aLT0kR\"><b>3、被打断的生意</b></p><p data-pid=\"tk1KfsaA\">可惜，这么好的生意还是被打断了。</p><p data-pid=\"GCPGyQu9\">2020/21年度被称为最惨留学生年，因为新冠疫情爆发了，很多人申请到了，押金也交了，但是没去。别看那一年的中国留学生总数还挺高，那是因为老生在撑着。</p><p data-pid=\"Hyk6J20V\">一年级新生从19/20年度的10.42万人下滑至20/21年度的9.92万人。</p><p data-pid=\"FluYp0Vr\">英国政府赶紧出台了<b>“毕业生移民路线”(Graduate Immigration Route)</b>，只要你来大英读书，不仅可以带家人来，而且毕业后两年内找到了工作，就可以留英。</p><p data-pid=\"4i1yynVq\">大英的绿卡，它不香吗？</p><p data-pid=\"SSp8NAfq\">唉，很可惜，中国留学生数量在21/22年度稍稍回升之后，又快速下滑了。</p><p data-pid=\"Ajy-QhSa\">原因也很简单，中国国家队出手了：不认。</p><p data-pid=\"KcCdzGWi\">这几年，越来越多的政府部门、央企和地方国企开始意识到，怎么突然冒出这么多世界名校的研究生？一查，好家伙，给钱就能上。</p><p data-pid=\"9jj9m-xH\">得了，啥海归都要，就是不要水硕。</p><p data-pid=\"xxIuU5pn\">我又搜了一下国资委的官网，央企的校园招聘基本上会在上面发布，有些招聘启事就明确地写了：一年制留学生（硕士）不纳入招聘范围。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-35fd95a055bb2747dcb557a7e1d94737_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1018\" data-rawheight=\"468\" data-original-token=\"v2-f7634b3526ec9f46ff5a35ed675be0ef\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-50b458cba89ba53224a0ca00f15158e9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1018\" data-original=\"https://pic4.zhimg.com/v2-35fd95a055bb2747dcb557a7e1d94737_r.jpg\"/><figcaption>2024年10月的部分央企校招公告</figcaption></figure><p data-pid=\"Q9LJdRT4\">教育部的留学服务中心那边的学历认证也很难通过。（注：这句话不够严谨，经网友指正，除了疫情期间在国内上网课的很难认证，到海外留学回来的，留服中心都会给予认证。为免一些知友的评论看上去很突兀，此处不删除）</p><p data-pid=\"RHdsO8Xi\">这一招釜底抽薪，效果是非常明显的。</p><p data-pid=\"jR_9wmR9\">今年以来，英国的大学一直在叫惨。以《金融时报》的报道为例：</p><p data-pid=\"ySfD1_I2\"><b>1月21日报道：国际学生减少，英国大学的资金紧张加剧</b>（1/3的大学显示留学生数量在下滑）</p><p data-pid=\"v7LwMeIi\"><b>5月14日报道：英国毕业生工作签证收紧后，国际学生的押金大幅降低</b></p><p data-pid=\"958yciSE\">（今年5月，首相苏纳克因为移民问题突出，本国人就业形势不乐观，收紧了留学生的工作签证；很多英国人吐槽，留学生用低薪打零工的方式，抢走了很多本国人的机会）</p><p data-pid=\"JxCeLMUw\"><b>5月16日报道：学生申请人数锐减，英格兰大学面临倒闭风险</b></p><p data-pid=\"Z3xanHhJ\"><b>5月20日报道：英国将为国际学生的外流付出代价</b></p><p data-pid=\"HPX7ZnHW\"><b>6月5日报道：英国半数大学的全球排名下滑（留学生减少是一个减分项）</b></p><p data-pid=\"MRzJc0NS\"><b>8月13日报道：英国的大学必须削减成本才能生存</b></p><p data-pid=\"Lpwz5pcG\"><b>8月16日报道：留学生减少，英国大学争抢本国学生</b></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-261f1ae5dddf7c1409f7f7b5ab5c4af8_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1284\" data-rawheight=\"992\" data-original-token=\"v2-5e666cf9e42c9299ca53c523dace4c34\" data-default-watermark-src=\"https://pica.zhimg.com/v2-3c9e331c29e34449304b10dd6d18ccbc_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1284\" data-original=\"https://pica.zhimg.com/v2-261f1ae5dddf7c1409f7f7b5ab5c4af8_r.jpg\"/><figcaption>2024年5月，英国的大学曝出约40%出现赤字，甚至可能面临倒闭风险。</figcaption></figure><p data-pid=\"VM4KaJQn\">其实，也不全怪中国这边开始不认水硕了，还因为过去几年一直有人在截胡。</p><p data-pid=\"qoGRpzkd\">香港一看，我擦，还可以这样搞？</p><p data-pid=\"ATQKD_Ha\">于是香港也搞水硕。</p><p data-pid=\"RFKEAIiw\">马来西亚：我看我也行！</p><p data-pid=\"ZKn7a530\">菲律宾：我也行！</p><p data-pid=\"X8v_gdBZ\">澳门：我就不行吗？</p><p data-pid=\"DoToHAXV\">水到极致，就是这锅饭谁都别想吃了。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a85b6c3f591ab5226f67ea418d7482ed_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"648\" data-rawheight=\"1226\" data-original-token=\"v2-b9f86ebc29c19070c1db887d648e944e\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-62c49c2a62c3195d0146b5c8f93d4748_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"648\" data-original=\"https://picx.zhimg.com/v2-a85b6c3f591ab5226f67ea418d7482ed_r.jpg\"/><figcaption>抢生意嘛，主打一个我家性价比更高、门槛更低。</figcaption></figure><p data-pid=\"JNxuP2gC\">好消息是：<b>中国空出来的位置，三哥顶上了。</b></p><p data-pid=\"trK_pH_u\">忘了介绍一下：英国开始卖文凭后，印度一直是第二号买家。2016/17年度，印度的留学生还只有1.66万人，屈居美国、我国香港后面；第二年就开始发力，一年级新生超过了美国；此后一直牢牢把握第二名的位置。</p><p data-pid=\"Cn8ltPO0\">在中国留学生下降的2020/21年度，印度的一年级新生已经窜到了5.30万人，超过了中国的一半（中国9.92万人）。到了2022/23年度，印度留学生人数达到12.66万人，一举反超中国的10.28万人。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-21fd88b0323736c91706268c3ccf8f03_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"972\" data-rawheight=\"616\" data-original-token=\"v2-34c037d2b14492493170860d5ad0cd7d\" data-default-watermark-src=\"https://pica.zhimg.com/v2-3250b80bed75b4a228a72899d2b6bfe0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"972\" data-original=\"https://picx.zhimg.com/v2-21fd88b0323736c91706268c3ccf8f03_r.jpg\"/><figcaption>23年度的非欧盟留学生还能保持增长，全靠印度给力了</figcaption></figure><p data-pid=\"islPlAf2\">说回题主的问题：英国真的衰落了吗？</p><p data-pid=\"WlnMU1XV\">看GDP的绝对值，英国还是发达国家，每年还在增长；</p><p data-pid=\"QtK39Ilb\">看GDP的相对值，英国的全球占比一直在下降，不到20年前的六成。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-14180030909f560e63edc42029d4248b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"818\" data-rawheight=\"1157\" data-original-token=\"v2-e6a234096a8692c90d21f13cb0e720d5\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-02ec602b841a3464b0730f39df22bb25_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"818\" data-original=\"https://picx.zhimg.com/v2-14180030909f560e63edc42029d4248b_r.jpg\"/></figure><p data-pid=\"wHk-MIKH\">体现在高等教育上，就是大英也没钱了，这才有了可歌可泣的卖文凭这么一段往事。</p><p data-pid=\"gLW0q9Z3\">当然，在有些人眼中，中国还是落后，怎么可以说英国不行呢，一定是有人故意唱衰的。</p><p data-pid=\"4u0uo6g5\">殊不知，英国的高校过去是富贵人家的小姐，后来也是小姐；原来是公主，后来也是公主。在崇拜者眼中，英国似乎从没变过。</p><p data-pid=\"fC7SQlwC\">只有英国高校自己，眼泪汪汪地看着唐宁街：今年有款子下来吗。而你，发出了天真的一问：为什么英国还是如此发达？</p><p data-pid=\"7k_AsPgz\">2024-10-31</p><hr/><p data-pid=\"lj1QWne1\">2024-11-6更新，几个回应汇总一下</p><p data-pid=\"B109UmcB\"><b>1、为什么会说英国的高等教育？</b></p><p data-pid=\"yTKdghvk\">其实我也没想过。我平常比较关注美欧、日本的宏观经济、产业经济，只是很奇怪，今年以来，英国那边频频报道大学财政赤字，有几所学校都快倒闭了，原因竟然是留学生减少了。</p><p data-pid=\"6bHRfJgU\">这一查，好家伙，引出了水硕的问题。</p><p data-pid=\"-zxRLlMH\">真不是我对英国高等教育有啥偏见，是纸包不住火了。</p><hr/><p data-pid=\"5UVDSu3g\"><b>2、真的有水硕吗？</b></p><p data-pid=\"jPIRchmE\">呃，这个问题存在好多年了。</p><p data-pid=\"LgEQQCIE\">我在广东，身边有太多人去香港水个硕士文凭了，给钱就上，还有个别人去澳门水的。留学中介的宣传语一直都是，不用担心语言问题，没有入学考试，只要你付得起学费，剩下的去听课就行了，到时直接拿证。一年后你就是世界名校硕士了，香港工资多高，几年后拿永居，全球多少国家免签……</p><p data-pid=\"W1O-vdv_\">有个老大哥，他女儿高考不是很理想，大学毕业后找工作也不顺，找了留学中介，去英国待一年，水了个硕士文凭回来。本就是普通家庭，但老大哥为了孩子，省吃俭用，还在外面拼命兼职，才给孩子赚出了学费+生活费（50+W）。结果呢，回来还是……</p><p data-pid=\"YA17xX1i\">想更多了解的，随便找个留学中介问一问，什么都清楚了。</p><p data-pid=\"MqbMPxni\">所以啊，有些事情大家都是中国人，不用装外宾。</p><hr/><p data-pid=\"v-qyhfZ4\"><b>3、水硕有用吗？</b></p><p data-pid=\"tBd2uUSg\">既有用，也没用。</p><p data-pid=\"7xtksU7g\">有很多知友提到了：有些领导的子女会走这条路，有些富人希望子女的学历好看些，也会送出去水一个回来，还有些人为了晋升，需要满足一些学历要求，也会这么干。除了英国水硕，还有很多东南亚的、澳洲的。</p><p data-pid=\"5ODAOAnd\">需要水文凭的，不只是个人，还包括一些院校。2022年最轰动的就是湖南邵阳学院，为了升格为“大学”，需要凑博士文凭。怎么办呢？组织老师们去菲律宾水了几十个博士学位回来，然后以“人才引进”的名义申领了1800多万的国家补贴（人才引进费、科研启动金、租房补贴等，人均84.4万，一水的菲律宾亚当森大学博士学位，那是相当壮观）。</p><p data-pid=\"kwH_cDCT\">以上是有用的。有资源，有背景，或是资历够了，只是差个学历硬件，水一下，可能也就混过去了。</p><p data-pid=\"0RPh8Uib\">普通人家也想这么玩，不好意思，这是个高端局。</p><p data-pid=\"RXemukr8\">人家几十万买个文凭，只是其中最不值钱的一环。你勒紧裤腰带也买一个，自以为从此改命了，殊不知你的上限只是人家的下限。不是一回事。</p><p data-pid=\"Kw3AKfRe\">知友扛把子：我有个同学，毕业前突击三个月学习法语，然后去法国留学一年，就拿到了研究生学历。我真怀疑他怎么听懂的。三年后我研究生毕业，去面试，同一岗位竞争对手是澳大利亚什么国立大学研究生。<b>浙江老板，见过世面，上来就问他本科什么学校，原来是温州某高等职业学校专升本，然后就把他排除了。</b></p><p data-pid=\"DaS4jnXc\">知友议会与国王：去年有幸参与了国考资格审核，新认识了清迈大学、皇太后大学、泰莱大学、梅西大学、阿德莱德大学（不知为啥这个学校的人特别多）……遇到英水硕我都高看一眼了。人事处长原话：“搁改制前这些<b>学士后简历</b>我们都不会让过”，党委最后<b>坚决反对面试双盲</b>。面试可以看到考生的简历，也就能“综合考虑”了哈哈哈。</p><p data-pid=\"COE5WXYy\">知友龙少爷：以前部门招人，HR拿一堆候选人让我筛选哪些需要我亲自面试的，我给HR的条件是，凡是国外的硕士，一律<b>先看国内本科学校</b>，211以下直接排除。</p><p data-pid=\"0s43_kG7\">知友少位：我是一年制硕士全部排除，没有例外。</p><p data-pid=\"k8ft8tsA\">所以说，水硕和水硕的前途是不一样的。</p><p data-pid=\"flLUxB2i\">有的人万事俱备，只差学历；有的人只有学历，万事从头起。</p><p data-pid=\"7nkepYYp\">你说，水硕有没有用？</p><hr/><p data-pid=\"FBuZaUVg\"><b>4、为什么他们招留学生是赚钱，某神秘国度是赔钱？</b></p><p data-pid=\"LkpMIzEb\">因为前些年我们为了提高大学的世界排名，在刷分数。其中“国际化”分值很大，岛国、小国这一项的得分普遍高，中国的大学“国际化”不够，为了凑分数，拉了很多亚非拉的留学生。（还有些是一带一路合作的交换项目）</p><p data-pid=\"RF8pQrwP\">评分体系是英美定的。英联邦国家的得分普遍高，非英语的大国就吃亏些。不只是中国，像德国、法国最好的大学，也经常比不过一些小国的大学。</p><p data-pid=\"DKKQys-1\">去年英国QS排名饱受非议的一个地方，是马来西亚的大学世界排名莫名其妙地窜上去了，外界纷纷猜测他们是怎么运作的。可以肯定的是，排名高了，马来的水硕更好卖了。</p><p data-pid=\"BYiVOYzj\">这几年，国内已经有一些重点大学发现世界排名不过如此，不屑玩这一套了。</p><p data-pid=\"CeZX7IdI\"><b>卖文凭这事吧，就是在品牌变现。</b>见微知著，什么样的富贵人家会开始变卖祖产？</p><p data-pid=\"_Dxp9K9Y\">这也是我想从高等教育的角度回答的问题：英国到底衰落了没有？</p><hr/><p data-pid=\"kjweCCR9\"><b>5、为什么中国做不到和英国这样，吸引全球的人过来读呢？难道就是因为中文难学？</b></p><p data-pid=\"N5OZjtAY\">答：这个话题好大呀。</p><p data-pid=\"caZ6GvRv\">一是，大学的含金量其实跟综合国力有关，中国任重道远；二是，目前大学的世界排名主要是英美在把持。虽然不乐意，但是不得不承认，英美国家及英语的话语权目前仍是全世界最大的。</p><p data-pid=\"z2a_UZEz\">第三，留学、移民的去向都是有历史惯性的。英国以前的殖民地国家的人喜欢往英国跑，因为语言相通，还容易在英国找到大量同种同族的，甚至能找到亲戚。同理，非洲很多国家喜欢去法国留学、移民法国，也是因为这里曾是法国殖民地，很多人会讲法语。</p><p data-pid=\"EYJUWBlG\">这些我相信随着中国国力强大，都会逐步改善。</p><hr/><p data-pid=\"znl7tbNH\"><b>6、英国的中国留学生减少了吗？</b></p><p data-pid=\"8sAU04_f\">知友MOMO（ip英国）：英国留学生数量减少，不是国内的学生少了，而是印度留学生，相反国内申请水硕的学生创了新高。以前和印度学生是一半一半，而且印度留学生减少的原因也不是你说的截流或者学历不认，印度留学生以前来申请一年制硕士都是以移民为目的，凭借一年制硕士给的陪读签证把老公带来……今年英国把一年制的陪读资格取消了，于是印度留学生不来了，变成了国内学生占大概7～8成。</p><p data-pid=\"iaw7szaY\">答：往前推十年，中国留学生数量是独一档的存在，不知你从哪得出的印象，说中印是一半一半？从21年开始算起吗？</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fda8d3506b9ee14d15494e731a0abf78_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1460\" data-rawheight=\"1229\" data-original-token=\"v2-9bf2a668e16a01b799aca5a658befa7b\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-5bed47646becf6935071cc2383c5d918_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1460\" data-original=\"https://pic1.zhimg.com/v2-fda8d3506b9ee14d15494e731a0abf78_r.jpg\"/></figure><p data-pid=\"6bHhuD4X\">印度留学生确实数量增长很猛，所以当2022/23年度中国留学生数量下去时，印度顶上来了。</p><p data-pid=\"Tf9XYpey\">尤其是2020年推出“毕业生移民路线”，确实刺激了印度留学生数量大增。虽然2024年逐步取消或限制了，但是真正下降的是中国留学生，而非印度。</p><p data-pid=\"dbi02vjb\">当然了，虽然我不认同你的观点，但是我很喜欢你看问题的视角：<b>原来是印度人不来了，导致留学生整体数量下降，进而导致英国多所大学出现财政危机。</b></p><p data-pid=\"LRZBsI7Y\">所以，英国到底衰退没有，还是说依然如此发达？</p><hr/><p data-pid=\"zQChNqf6\"><b>7、一些转换概念的</b></p><p data-pid=\"zGj5zUQT\">知友liangliang：学费高就是水硕呗。。。凭什么本科背景差就不能读名校了？三本没人考研上985吗？（<b>分不清考研、水硕。就像有些人分不清移民、偷渡</b>。）</p><p data-pid=\"6upQKavW\">知友薛定谔的狗：我有英国和国内的双硕士学位，目前在美国读S16的MBA，国内拿到全系第一，上海优秀毕业生，英国拿的是distinction，所以我觉得我还是有点发言权……我读的华威30人的小班，10个中国人，只有一个是双非，其他都是211、985和英本，我不觉得这个pool比任何一个985和211硕士班的差。就团队能力、思辨、沟通和适应这些软实力而言，我觉得英国对我的塑造更强，更不用说要用他国语言现在每天高强度找工作的MBA了，我这几个月已经感觉是脱胎换骨了。压根就没水硕这个概念，硕士就是硕士，学硕专硕而已，你分那么清楚是打算从卖保险转到做留学顾问吗？（<b>我努力我优秀，我脱胎换骨了=没有水硕</b>）</p><p data-pid=\"gdTJyc6-\">其实，水硕的最大受害者是谁？</p><p data-pid=\"jb_sH9Od\">是那些没读水硕文凭的吗？</p><p data-pid=\"Ehbamd7d\">错了，是那些正儿八经去海外深造的。</p><p data-pid=\"4AAOSWsY\">一群水货拖累了整体留学生的名声。少一些水货，留学生不是应该更高兴吗？我有些不解，为什么我揭露水硕，惹得好几个留子这么气愤？</p><hr/><p data-pid=\"DxwmR6ZV\"><b>8、一些“不听不信不反驳”</b></p><p data-pid=\"GvVp_kTX\">知友zero：真的不必在意作者发言，他有很多推导是错误的。感觉作者句句贬低英国教育，推导能力不是很强，比如数据是真，推导出来的是假。（渴望来个正确的推导～）</p><p data-pid=\"nksDDZue\">知友liangliang（回复zero）：没啥好争的。谁没逻辑我不说了，如果列个1234就叫讲逻辑的话，那ChatGPT思维能力怕是可以吊打人类了。（你们倒是说出子丑寅卯啊～）</p><p data-pid=\"5zdsVrqL\">知友阿斯匹林：只讲了表象。揣着明白装糊涂，那么多年的逻辑没讲出来，那才是真正的东大特色。（把我看糊涂了，多年的逻辑是啥？您倒是明说啊，给指点一下～）</p><hr/><p data-pid=\"euKeuDn6\"><b>9、一些围华救英的</b></p><p data-pid=\"3L63h-Br\">知友铁路便当：你们不就是眼红北上广江浙沪的孩子买了几年这玩意呗。广大国企的50后至80初，整整三十年生人的管理人员，有多少人的文凭是买的，国企的人心里都有数。不说80%吧，也差不多。买文凭这事儿笑话英国？</p><p data-pid=\"9VgQ7iVy\">知友John Wu：不管你承不承认，英国的确还是世界第二强的高等教育国家。悲哀的是，我国某校就算出女生陪同，来的还是一帮第三世界国家留学生。</p><p data-pid=\"Iyczi9ya\">知友Tempest：我感觉国内的本科更水。</p><p data-pid=\"tUy5FKGT\">知友马小杰：只有水的人，没有水的硕。国内说起来3年，课不足1年，给老板打工两年。</p><p data-pid=\"7SCUZudN\">知友100岁：3年除寒暑假和法定假日，除去各种无关学科，除去跑腿打杂，除去吃饭睡觉……真正用来学习研究的时间能有多少？这个是不是也是水硕？</p><p data-pid=\"sZFuX8ue\">知友风荷：感觉不如超国民待遇的留学生。东大有财力给留学生～</p><p data-pid=\"1CHExhB5\">知友luoli：中国还几万硕士送外卖呢。</p><p data-pid=\"2uC7Wzpz\">知友盘串串：好不好另外说，你有空评判他国，就为山河四省非人的高中作息呼吁一下呗。</p><p data-pid=\"6FQEWdJ1\">知友想加入美籍：整天唱衰别人，实际是自己在衰败。</p><p data-pid=\"ctvutdB2\">知友Yuriko：那就问问你，国内三年出来的硕士，比英国的一年硕士有什么优势？英国的硕士水，那国内的就不水？</p><hr/><p data-pid=\"Y-d5ISGO\"><b>10、一些独立思考的</b></p><p data-pid=\"4dWKysfT\">知友薛定谔的狗：<b>说白了就是觉得自己傻乎乎读了三年，凭啥你读了一年就能回来跟我一起面试抢工作。</b>不过说实话，<b>以他保险销售的职业来说</b>，可能见到的应聘者还真可能是很差，英国学校洗学历的“水货”，所以他对英国硕士特别是授课型硕士<b>有偏见也正常</b>。</p><p data-pid=\"4Ol3wgcr\">知友机器猫在向你招手：就非常难以理解这种人。<b>英国强还是弱，跟他有什么关系吗，能带给他多少自豪感吗？</b>自己去念书，不偷不抢，还有罪过了不成？</p><p data-pid=\"c3ASfrAg\">知友MOMO：我在英国四年，英国经历了各种事，然后被国内一脑补，就是英国大灭绝，英国大逃亡……比烂的时代，各国肉食者都靠这种埋汰别人把戏愚弄压榨底层，我们没办法的。<b>多数人需要靠想象中的别人的差来换满足感。</b></p><hr/><p data-pid=\"QsNZFXWs\">最后是广告欣赏环节</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b3f841f9ca9456fdc997a0c00723511c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"796\" data-rawheight=\"924\" data-original-token=\"v2-803f35884308745c575a46cd385297fa\" data-default-watermark-src=\"https://pica.zhimg.com/v2-1ab6e88847c30e0fa782c33fbd1baf64_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"796\" data-original=\"https://pica.zhimg.com/v2-b3f841f9ca9456fdc997a0c00723511c_r.jpg\"/><figcaption>水硕的优点太明显</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2c1c6b8f9bed158497b26d818f6e3629_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"776\" data-rawheight=\"1054\" data-original-token=\"v2-26e27008f03238eff684ad96d633a21d\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-a087bc5d2a784ac55956603d76b6b280_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"776\" data-original=\"https://pic2.zhimg.com/v2-2c1c6b8f9bed158497b26d818f6e3629_r.jpg\"/><figcaption>水硕的性价比最高</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6ba8a6946de16b4130e87cc4b186de09_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"822\" data-rawheight=\"904\" data-original-token=\"v2-ff08bc3d459bedd36343924bf6186337\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-182d55ce0fd774b18bb31bf8d5501794_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"822\" data-original=\"https://pic4.zhimg.com/v2-6ba8a6946de16b4130e87cc4b186de09_r.jpg\"/><figcaption>不用担心考不上，不用担心毕不了业</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-dc7169d03b10a82c09954b8430f5318c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"936\" data-rawheight=\"1470\" data-original-token=\"v2-d2ff5b6b2c672bf8016a23a760750817\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-f7853a60f8cca511196dbd20c9fe9edc_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"936\" data-original=\"https://pic3.zhimg.com/v2-dc7169d03b10a82c09954b8430f5318c_r.jpg\"/><figcaption>马来的水硕也非常有性价比</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-364b7b1e8c21095af4dfda6c6d2f3d7b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"946\" data-rawheight=\"1454\" data-original-token=\"v2-1488020840329c200e61b8e3937703be\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-47deaa55dc7c8f9e7ae30e858b8a0db3_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"946\" data-original=\"https://pic2.zhimg.com/v2-364b7b1e8c21095af4dfda6c6d2f3d7b_r.jpg\"/><figcaption>澳洲水硕比英国水硕更有性价比</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-842c89d6e8b9fcf968119b87d970dd11_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"852\" data-rawheight=\"1478\" data-original-token=\"v2-ec54b2ec073ad2724d3b0c4c0457fdfc\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-a5c87aa0abf21a77ca21e18ec98baa33_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"852\" data-original=\"https://pic2.zhimg.com/v2-842c89d6e8b9fcf968119b87d970dd11_r.jpg\"/><figcaption>所有留学中介里，我最喜欢做香港水硕的，他们从不玩虚的，净说大实话</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-63f66e72bccbcf5469e296d182f34daa_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1316\" data-rawheight=\"842\" data-original-token=\"v2-3e063c39ce6327f676f407163e73bdb3\" data-default-watermark-src=\"https://picx.zhimg.com/v2-17a880876cd54b2ee425a04777e14b67_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1316\" data-original=\"https://pica.zhimg.com/v2-63f66e72bccbcf5469e296d182f34daa_r.jpg\"/><figcaption>最低12万，一个金灿灿的身份等着你！</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-65e11323748f1ade84f98a5444968541_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"878\" data-rawheight=\"1476\" data-original-token=\"v2-7b839b26e3939944637d6696dbfadf8d\" data-default-watermark-src=\"https://pica.zhimg.com/v2-161159347190da922c070c8478712016_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"878\" data-original=\"https://pic4.zhimg.com/v2-65e11323748f1ade84f98a5444968541_r.jpg\"/><figcaption>香港的留学中介是最实在的，咱就是混资源的，谁也别装B</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5bf9c51f5556dfab567cf0372266d3b8_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"770\" data-rawheight=\"266\" data-original-token=\"v2-a3350d865d84e68879eea868723a46c9\" data-default-watermark-src=\"https://pica.zhimg.com/v2-1c63ebf3513292342d4c4cdeb773e6f8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"770\" data-original=\"https://pic3.zhimg.com/v2-5bf9c51f5556dfab567cf0372266d3b8_r.jpg\"/><figcaption>有些大学可以专升硕，你就说，是不是值回票钱了？</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d525488b2a95649c48f202a5c41f95aa_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"852\" data-rawheight=\"1348\" data-original-token=\"v2-cd8251a6989cb75e97b53a3d6ccb0ec4\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-f9d7a1a9eed4fc9eb0c1283fe4ae6ee7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"852\" data-original=\"https://pica.zhimg.com/v2-d525488b2a95649c48f202a5c41f95aa_r.jpg\"/><figcaption>要说一年制硕士水，我就拿牛剑说事，你看，门槛一点都不低！</figcaption></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 821261,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-768f5f6920422cc5de6df3eabc1fb0ea_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9cd4c3d032fb1c2c1900b1f829520ec6_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-32616d5f7531eebd44b9eaef145c2c6b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0cd58dfbd486fc76284ba48302f9e55d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1199c41e27394c58fccc13e20b1b6193_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6f9a5b91e097f2d60021dd9e618a3a36_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-00332004627f55cc5e5e0a99581ce5fe_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-df2edfa5f4389ec0fc01a415eed5a994_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0d43c85be3f878b34555efff64d80da9_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-acdbf1a0840f5c6a34e909d7c4515bdc_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-6074b4c48053ddfd40dc57f5e0f0f75f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b8d30b3bd55f45cc274da1e6ee00d708_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0593453c4005dfe6fb93bbcc665b6760_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-21b27ba3939a0ab94271906642296559_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e656c3ecaee553741183e31d1dda1ff3_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 3265,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 18429969611}",
+      "attached_info": "CqUMCLm854rM0Jy2lAEQBBoJNjk2ODAxMDIyILTYhrkGKP45MPkIQIEBSigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASjAKG1RTX1NPVVJDRV9CQVNJQ19JTkZPX1JFQ0FMTBIBMBgAIAA6CnsicmF3IjoiIn1aCDk1NzgwNDQxYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ILMTg0Mjk5Njk2MTGKAQk2MDA3NTAxNTGqAQlyZWNvbW1lbmTCASBkYWRjYmNiODMxMzUyOTg2YWQxZDhlMzc0ZjRhOTljMfIBCggMEgZOb3JtYWzyASgIChIkMzIyY2JhNWQtM2U2My00YjliLWEwM2QtOTNmY2QxMTcyN2Rj8gEGCAsSAjIyggIAiALEs6v5jDOSAiBkYWRjYmNiODMxMzUyOTg2YWQxZDhlMzc0ZjRhOTljMZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AIF+gILTk9STUFMX0ZMT1eKAyA1NDQ5YWE3OGM0ZGY0NzFhOTZjZjZmMzM0YWU0ZjQ1ZZoDDQoCdjIQABoFb3RoZXKoA42QMtgDAPoD7QYSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhC0DxiwByIjdjItNmYzYmE5N2E3NmQ1OWI3MDdlNTg4YjA5NTUzZmVlNzE6LQgCELgIGIoRIiN2Mi0zOGM0N2JhYjg0MjM0NjQ3YTE0YjFjYzViY2FkMzc4ZDotCAIQ+gcY1AMiI3YyLWY3NjM0YjM1MjZlYzlmNDZmZjVhMzVlZDY3NWJlMGVmOi0IAhCEChjgByIjdjItNWU2NjZjZjllNDJjOTI5OWNhNTNjNTIzZGFjZTRjMzQ6LQgCEIgFGMoJIiN2Mi1iOWY4NmViYzI5YzE5MDcwYzFkYjg4N2Q2NDhlOTQ0ZTotCAIQzAcY6AQiI3YyLTM0YzAzN2QyYjE0NDkyNDkzMTcwODYwZDVhZDBjZDdkOi0IAhCyBhiFCSIjdjItZTZhMjM0MDk2YTg2OTJjOTBkMjFmMTNjYjBlNzIwZDU6LQgCELQLGM0JIiN2Mi05YmYyYTY2OGUxNmEwMWI3OTlhY2E1YTY1OGJlZmE3YjotCAIQnAYYnAciI3YyLTgwM2YzNTg4NDMwODc0NWM1NzVhNDZjZDM4NTI5N2ZhOi0IAhCIBhieCCIjdjItMjZlMjcwMDhmMDMyMzhlZmY2ODRhZDk2ZDYzM2EyMWQ6LQgCELYGGIgHIiN2Mi1mZjA4YmMzZDQ1OWJlZGQzNjM0MzkyNGJmNjE4NjMzNzotCAIQqAcYvgsiI3YyLWQyZmY1YjZiMmM2NzJiZjgwMTZhMjNhNzYwNzUwODE3Oi0IAhCyBxiuCyIjdjItMTQ4ODAyMDg0MDMyOWMyMDBlNjFiOGUzOTM3NzAzYmU6LQgCENQGGMYLIiN2Mi1lYzU0YjJlYzA3M2FkMjcyNGQzYjBjNGMwNDU3ZmRmYzotCAIQpAoYygYiI3YyLTNlMDYzYzM5Y2U2MzI3ZjY3NmY0MDcxNjNlNzNiZGIzOi0IAhDuBhjECyIjdjItN2I4MzliMjZlMzkzOTk0NDYzN2Q2Njk2ZGJmYWRmOGQ6LQgCEIIGGIoCIiN2Mi1hMzM1MGQ4NjVkODRlNjg4NzllZWE4Njg3MjNhNDZjOTotCAIQ1AYYxAoiI3YyLWNkODI1MWE2OTg5Y2I3NWU5N2I1M2EzZDZjY2IwZWM0gAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEBm1hbnVhbMIEAzExMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYCScqD+BBQAAAAAAAAAAiQVkmWOU1lXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUWkAYAoAaDAagGAJICJgoJNjk2ODAxMDIyEgsxODQyOTk2OTYxMRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "130_1755822348.369",
+      "type": "feed",
+      "offset": 130,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822348,
+      "updated_time": 1755822348,
+      "target": {
+        "id": "1941797244861944153",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941797244861944153",
+        "author": {
+          "id": "a2c021c09e426f597deee46115ba563c",
+          "url": "https://api.zhihu.com/people/a2c021c09e426f597deee46115ba563c",
+          "user_type": "organization",
+          "url_token": "da-shi-zhi-hui",
+          "name": "大势智慧",
+          "headline": "构建世界的时空基础",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-7167414d1fe9f6f745bc121cd0d6e943_l.jpg?source=b6762063",
+          "is_org": true,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_org",
+              "description": "已认证机构号"
+            }
+          ],
+          "followers_count": 2377,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755740540,
+        "updated_time": 1755740540,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1941797175538454918",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1941797175538454918",
+          "author": {
+            "id": "a2c021c09e426f597deee46115ba563c",
+            "url": "https://api.zhihu.com/people/a2c021c09e426f597deee46115ba563c",
+            "user_type": "organization",
+            "url_token": "da-shi-zhi-hui",
+            "name": "大势智慧",
+            "headline": "构建世界的时空基础",
+            "avatar_url": "https://picx.zhimg.com/50/v2-7167414d1fe9f6f745bc121cd0d6e943_l.jpg?source=b6762063",
+            "is_org": true,
+            "gender": -1,
+            "badge": [
+              {
+                "type": "identity_org",
+                "description": "已认证机构号"
+              }
+            ],
+            "followers_count": 2377,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "DasViewer中把矢量文件和三维模型放在一起，怎么不在一个平面上？",
+          "created": 1755740523,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            324207,
+            740666
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "矢量一般没有高度，可以调节矢量高度。在图层管理器-矢量图层-右击当前矢量图层-高度调整。进行调节 DasViewer是一款免费极速实景三维模型浏览器，采用多细节层次模型逐步自适应加载技术,让用户在极低的电脑配置下,也能流畅的加载较大规模实景三维模型,提供方便快捷的数据浏览操作。 目前DasViewer Beta 3.6.0 版正式上线，新增“矢量贴地”功能 ，支持正射影像、点云，在线3DTiles模型、LAS点云模型和点云全景数据的快速可视以…",
+        "excerpt_new": "矢量一般没有高度，可以调节矢量高度。在图层管理器-矢量图层-右击当前矢量图层-高度调整。进行调节 DasViewer是一款免费极速实景三维模型浏览器，采用多细节层次模型逐步自适应加载技术,让用户在极低的电脑配置下,也能流畅的加载较大规模实景三维模型,提供方便快捷的数据浏览操作。 目前DasViewer Beta 3.6.0 版正式上线，新增“矢量贴地”功能 ，支持正射影像、点云，在线3DTiles模型、LAS点云模型和点云全景数据的快速可视以…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"LeDxucca\">矢量一般没有高度，可以调节矢量高度。在图层管理器-矢量图层-右击当前矢量图层-高度调整。进行调节</p><p data-pid=\"OM2zarqa\">DasViewer是一款免费极速实景三维模型浏览器，采用多细节层次模型逐步自适应加载技术,让用户在极低的电脑配置下,也能流畅的加载较大规模实景三维模型,提供方便快捷的数据浏览操作。</p><p data-pid=\"a6OI7Twt\">目前DasViewer Beta 3.6.0 版正式上线，新增“矢量贴地”功能 ，支持正射影像、点云，在线3DTiles模型、LAS点云模型和点云全景数据的快速可视以及相关量测功能，欢迎下载试用！</p><p data-pid=\"sZ2Zl7C4\">下载地址：<a href=\"https://link.zhihu.com/?target=https%3A//daspatial.com/cn/download%3Factive%3D6\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">daspatial.com/cn/downlo</span><span class=\"invisible\">ad?active=6</span><span class=\"ellipsis\"></span></a></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 9,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941797244861944153}",
+      "attached_info": "CusFCLm854rM0Jy2lAEQBBoJNzQzMjEzODc1IPzymcUGKAAwAECCAUokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwxEgEwGAAgADoASigKHVRTX1NPVVJDRV9XQVJNVVBfUFJFVFJBSU5fSTJJEgEwGAAgADoAWgkxMTYyOTAzODliIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxNzk3MjQ0ODYxOTQ0MTUzigETMTk0MTc5NzE3NTUzODQ1NDkxOKoBCXJlY29tbWVuZMIBIGEyYzAyMWMwOWU0MjZmNTk3ZGVlZTQ2MTE1YmE1NjNj8gEKCAwSBk5vcm1hbPIBKAgKEiQ3OWZiOTY5OC1jYmI5LTQ0OGItOWZhZS1hNzVmNzZlNDQ0YTHyAQYICxICMjKCAgCIAsSzq/mMM5ICIGEyYzAyMWMwOWU0MjZmNTk3ZGVlZTQ2MTE1YmE1NjNjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDHoAgL6AgtOT1JNQUxfRkxPV4oDIDU0NDlhYTc4YzRkZjQ3MWE5NmNmNmYzMzRhZTRmNDVlmgMNCgJ2MhAAGgVvdGhlcqgDCdgDAOoDE3ByZXRyYWluX2kyaV9yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgksNmP4EFAAAAAAAAAACJBWSZY5TWVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRaQBgCgBoQBqAYBkgIuCgk3NDMyMTM4NzUSEzE5NDE3OTcyNDQ4NjE5NDQxNTMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "131_1755822348.594",
+      "type": "feed",
+      "offset": 131,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822348,
+      "updated_time": 1755822348,
+      "target": {
+        "id": "55172740795",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/55172740795",
+        "author": {
+          "id": "fdf794003d45da8981dfaa65fa3afebd",
+          "url": "https://api.zhihu.com/people/fdf794003d45da8981dfaa65fa3afebd",
+          "user_type": "people",
+          "url_token": "zhang-gong-zi-jie-zi",
+          "name": "张公子",
+          "headline": "公众号：张介子笔记",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-bf6f3e875470ad9ddfc0c5b07b4faa57_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 12315,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1734152758,
+        "updated_time": 1740316825,
+        "voteup_count": 14855,
+        "thanks_count": 646,
+        "comment_count": 204,
+        "is_copyable": true,
+        "question": {
+          "id": "64085283",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/64085283",
+          "author": {
+            "id": "231e1f3438f7fa6ffe38292a9b76197c",
+            "url": "https://api.zhihu.com/people/231e1f3438f7fa6ffe38292a9b76197c",
+            "user_type": "people",
+            "url_token": "wang-zhe-59-33",
+            "name": "popeye",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "每天吃半斤牛肉，连续吃一年体质会不会有变化？",
+          "created": 1503031907,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 69,
+          "bound_topic_ids": [
+            658
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "建议去看看天涯神贴《如何将你的身体恢复到完美状态》 原出处：天涯神贴《如何将你的身体恢复到完美状态》 原作者：一颗菩提 原文完整版PDF：https://pan.xunlei.com/s/VOJlr4CDaHBDKLN8d6zty5W5A1?pwd=ip5t 如果你白天睡不醒，晚上睡不着，头昏脑胀，记忆力反应能力下降，体重变重，内分泌紊乱，容易长痘、社恐、脱发，那你就要想想，这是不是身体对你的警告。本文会从以下几点来纠正你，从体态、饮食、护肤、作息、运动等，将你的身体恢复到最完美的状态。 形体篇：你觉…",
+        "excerpt_new": "建议去看看天涯神贴《如何将你的身体恢复到完美状态》 原出处：天涯神贴《如何将你的身体恢复到完美状态》 原作者：一颗菩提 原文完整版PDF：https://pan.xunlei.com/s/VOJlr4CDaHBDKLN8d6zty5W5A1?pwd=ip5t 如果你白天睡不醒，晚上睡不着，头昏脑胀，记忆力反应能力下降，体重变重，内分泌紊乱，容易长痘、社恐、脱发，那你就要想想，这是不是身体对你的警告。本文会从以下几点来纠正你，从体态、饮食、护肤、作息、运动等，将你的身体恢复到最完美的状态。 形体篇：你觉…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"AE7u1Uwo\"><b>建议去看看天涯神贴《如何将你的身体恢复到完美状态》</b></p><p data-pid=\"l-Rbvod_\"><b>原出处：天涯神贴《如何将你的身体恢复到完美状态》</b></p><p data-pid=\"YrPYD1OJ\"><b>原作者：一颗菩提</b></p><p data-pid=\"tBeiaQx8\"><b>原文完整版PDF：</b><a href=\"https://link.zhihu.com/?target=https%3A//pan.xunlei.com/s/VOJlr4CDaHBDKLN8d6zty5W5A1%3Fpwd%3Dip5t\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.xunlei.com/s/VOJlr4</span><span class=\"invisible\">CDaHBDKLN8d6zty5W5A1?pwd=ip5t</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"bdUZ4Hdw\">如果你白天睡不醒，晚上睡不着，头昏脑胀，记忆力反应能力下降，体重变重，内分泌紊乱，容易长痘、社恐、脱发，那你就要想想，这是不是身体对你的警告。本文会从以下几点来纠正你，从体态、饮食、护肤、作息、运动等，将你的身体恢复到最完美的状态。</p><p data-pid=\"BWP9G0HD\"><b>形体篇：</b></p><p data-pid=\"p6JvCxGC\">你觉得自己含胸驼背看起来没气质是因为自己的不良习惯吗？其实更大的问题是来自于你的情绪。每当你自卑、压力大、消极的时候，你的身体会处于一种保护性姿态，它会不断的加重你头前倾、圆肩驼背的问题。如何解决？<br/>一、加强<br/>自己的自信心，不要见到人就低头含胸。<br/>二、强化背部力量，调整呼吸方式，<br/>三、减少负面情绪，不要消极生活，不要高<br/>压工作，这点是最重要的，你的身体离完美状态又近了一步。</p><p data-pid=\"vO_p0657\"><b>饮食篇：</b></p><p data-pid=\"k211MpP9\">当你的身体长期处于半饥饿状态，你抗压的能力就会降低，焦虑、精神内耗就会产生。高糖份食物有助于你对抗这种情绪，可适当即可。过多会让你的情绪不稳定，暴躁、抑郁。<br/>煮奶茶、蛋糕、糕点等饮食讲究定时定量，这是胰岛素规定的早上七点，中午 12 点，晚上七点，上下累计一小时。按这个饮食规律，你的身体离完美状态又近了一步。</p><p data-pid=\"GqrUfrbA\"><b>护肤篇：</b></p><p data-pid=\"PFBBm1H8\">你真的了解自己的肤质吗？即使了解，你知道怎么对症下药吗？首先你要明确自己的肤质，现在去洗，把脸擦干，静置半个小时，这个时候有的人会觉得没什么感觉，那你就是中性皮肤，通常表现为不爱长痘，皮肤弹性好，不干燥也不油腻。很多男性的皮肤都是这样，非常的耐燥，即使不用护肤品，肤质也照样很好。有的人会面目比较干燥紧绷，我建议擦干后可以涂一些水乳，有的人会面目油腻，怎么除油都不管用。<br/>除油的办法我放到结尾，这些都是常见的肤质，我教大家一套洗脸的办法，白天呢，尽量不要用洗面奶，冷水洗脸，用毛巾把水洗干，晚上用温水洗脸，洗脸前一定要洗手，<br/>用洗面奶在脸上画圈清洗。然后用毛巾吸干水分就可以护肤了。<br/>针对于油性皮肤，不是用多好的产品去除油，而是保持规律作息，饮食清淡，不要过度熬夜和清洁皮肤，记得少用手去碰脸，这样你就离完美状态又近了一步。</p><p data-pid=\"lqBrxtYQ\"><b>作息篇：</b></p><p data-pid=\"Q-mSbqyZ\">现在的人普遍都很难入睡，不规律的作息往往会导致身体和精神都不在状态。你为什么难以入眠呢？其实很大的原因是你把床的概念混淆了。<br/>因为只要你把平常做的一些事儿，如吃饭、打游戏、刷手机都在床上做，大脑就容易形成条件反射。你需要做的是建立和床的联系，让条件反射变成床等于睡觉。不要一边玩手机一边告诉自己还有多久入睡。睡前的<br/>20 分钟不要碰手机。<br/>打游戏和刷视频都有上瘾机制，它会让<br/>你的大脑亢奋，而且手机的灯光也会让你清醒。睡前可以听一些音乐，并且要调定时，整宿播放会让你睡不好觉。<br/>只要保持长期的规律睡眠，你的作息就是健康的。熬夜的标准是睡眠时间小于七小时，且睡眠周期不规律。保证良好的作息。<br/>可惜才能让你有充沛的体力和精神，你的身体离完美状态又近了一步。</p><p data-pid=\"4obvPuLj\"><b>运动篇：</b></p><p data-pid=\"FySE2qum\">当身体长时间处于不运动的状态，情绪往往会变得低迷、焦虑、敏感，不易产生快乐，皮肤也会变得暗沉发黄、松弛，而且身体极易发胖。<br/>那怎么运动才合里呢？每周至少完成150 分钟到 300 分钟的中等到剧内有氧运动，包括慢跑、游泳、爬楼梯、骑单车等，也要搭配一些力量训练，如哑铃及一些健身器材。<br/>当有了充足的运动，情绪会变得乐观，精神<br/>也会变得更有韧性，皮肤也会变好。如果你日常有不爱吃水果蔬菜，不爱运动、经常熬夜的习惯，建议每天补充一粒维生素 C。<br/>运动改变的不仅是外在，对内心也有很大的改变。<br/>当你的身体只要掌握我说的这五点，你的身本也就到了完美状态了。<br/>接下来会从心肝脾胃肾，5 点来来打造你，让你的身体恢复完美状态。</p><p data-pid=\"GWhx4EmY\"><b>心脏篇：</b></p><p data-pid=\"YanWBCFb\">心脏是人体内最重要的器官之一，承载着人体循环系统的重要职责。<br/>心脏的健康对人体健康有着至关重要的影响，因此了解心脏健康知识是每一个人必须重视的事情。<br/>下面，我将为大家介绍几点心脏健康知识。</p><p data-pid=\"gf6hzw_4\"><b>1.保持健康的饮食习惯</b></p><p data-pid=\"DtKzM8nv\">心脏健康与饮食习惯有着紧密的联系。高油脂、高胆固醇和高热能食物是心脏健康的“杀手”，如饮食不当会引起血脂升高、血压升高、血糖不稳等问题，导致心血管疾病。<br/>因此，我们需要尽量减少高油脂、高胆固醇和高热能食物的摄入，多吃水果、蔬菜、鱼类、坚果等富含健康营养素的食物。</p><p data-pid=\"Bqim-ptc\"><b>2.保持规律的运动习惯</b></p><p data-pid=\"trMYwzUy\">适度的体育运动可以增强心肺功能，提高心脏健康水平。<br/>每周进行 150 分钟的有氧运动可以降低心脏疾病的风险。<br/>我们可以选择散步、慢跑、游泳等低强度的运动，慢慢地逐渐增加运动强度和次数，但是需要根据自身身体情况逐渐适应。</p><p data-pid=\"57eG51jL\"><b>3.控制血脂</b></p><p data-pid=\"dMOjT1qt\">血脂升高是心脏疾病的一个很大的危险因素。过高的血脂会导致动脉硬化，使血管变窄、质量变差，从而引起心脏健康问题。<br/>我们需要控制饮食，选择低脂、低胆固醇的食物，并尽可能增加运动，避免长时间坐着不动，引发血脂升高。</p><p data-pid=\"tvi8pV9L\"><b>4.戒烟酒</b></p><p data-pid=\"BO-31q4M\">吸烟和饮酒对心脏健康都不利。尼古工和酒精对心脏和血管都有损害作用，吸烟和饮酒后心率和血压会上升、冠状动脉收缩，从而增加阻力、引起心脏负荷增加，导致心脏疾病。</p><p data-pid=\"ALFgID_c\"><b>5.坚持心脏健康检查</b></p><p data-pid=\"zEWXUqjc\">每年体检可以及时发现心脏健康的问题。如:高血压、心律失常、动脉硬化等。如果有家族遗传心脏疾病、工作压力大、生活不规律等高风险因素，每年要加强检查。</p><p data-pid=\"ShRZ6uUE\"><b>肝篇：</b></p><p data-pid=\"JKaGrMa_\">肝被称为人体最大、最繁忙且唯一可再生的内脏器官。肝总计有 500 多种功能，常见的功能有解毒功能、合成功能、代谢功能、再生功能等等。<br/>简单说，人体内产生的毒素都要通过肝脏来解毒，就比如酒精经过肝的处理，最终会变成水和二氧化碳，而我们需要的凝血因子、血蛋白都是由肝脏合成的。<br/>相比于全球发病率为 0.01%的肝癌，我们国内成年人脂肪肝的发病率高达 29.9%。而肝病的治疗手段主要有药物治疗、人工肝治疗和肝移植三种，每一项的治疗费都是非常昂<br/>贵的。想要拥有一个健康的肝脏，一定要从饮食、运动、心态三方面进行调整杜绝深夜烧烤和一切高油高盐的食物，拒绝熬夜。调整心态，适量运动，你总会有一颗好肝的，你的身体离完美状态又近了一步。</p><p data-pid=\"TeGtmubv\"><b>脾篇：</b></p><p data-pid=\"GJrPgfL6\">脾脏是人体内最大的淋巴器官。淋巴是由淋巴细胞以及淋巴液组成，分布在全身各处，是组成免疫系统的重要成分。<br/>因此，脾脏也是人体很重要的具有免疫功能的器官。<br/>如何调理好自己的脾呢？</p><p data-pid=\"rVudzjV2\"><b>1.注意保暖：</b></p><p data-pid=\"h9P5PwEp\">我国的中医认为大部分疾病都是阴阳不协调，风湿邪秽侵入机体导致的，大部分的疾病都是没有做好保暖措施。<br/>在春季，早晚温差大，又是过早的脱掉厚衣服，导致湿邪入体。而湿寒之气对脾的伤害是很大的，它们会堆积在脾内，导致消化不良、胃疼、肠胃炎症等。日常要做好保暖，注意温度变化，尤其是腹部的保暖。</p><p data-pid=\"6xnF3_w7\"><br/><b>2.适度按摩：</b></p><p data-pid=\"vwCIsozb\">经常按摩腹部也能起到健脾的效果，双手放在肚脐附近，顺时针和逆时针各轻揉 60 下，注意力度不要太大，按摩时间也不能过长。平常躺在床上的时候也可按摩足三里穴，同样能达到调节脾胃的功效。</p><p data-pid=\"Uz3LGJfn\"><b>3.保持积极乐观的情绪：</b></p><p data-pid=\"G83nAWb5\">积极的情绪可以使人身心健康，也可以调理阴阳、平衡气血，气而顺畅，神志清楚，是身体保持健康的一大因素。<br/>医学证明，积极乐观的心情，可以刺激人的中枢神经，中枢神经的兴奋，可以加强大脑对身体的调节作用。人体内的消化、吸<br/>收、分泌和排泄都会受到心情的影响。所以，保持积极乐观的心态可以改善脾虚。</p><p data-pid=\"YA72hIk0\"><b>4.适当的运动：</b></p><p data-pid=\"U8HCw6Gf\">生命在于运动，运动有许多形式，例如:跑步、爬山、攀岩、快步走、瑜伽等。<br/>经常参加体育运动，可以有效的刺激肠道<br/>蠕动，提高消化能力和吸收能力。同时，也可以加强体内的新陈代谢，排出毒素。同时，运动可以加快身体的气血平衡，有助于脾虚的调节。</p><p data-pid=\"FM2HzCS5\"><b>5.科学的饮食习惯：</b></p><p data-pid=\"CEtivaKg\">改善脾虚的症状需要每天定时，定量的吃饭，做到荤麦搭配，营养均衡 粗细搭配，不挑食，不偏食，除了主食之外，还应该多吃一些蔬菜水果，这样有助于助消化。也可以补充维生素和微量元素。在平时少吃一些生冷的食物。不要吃太多的油炸食品、生冷食物。这样，你的身体的完美状态又进了一步</p><p data-pid=\"gYf8NqHu\"><b>胃篇：</b></p><p data-pid=\"gR-VWJ0u\">它有完全独立的神经系统，因此被称为人体的第二大脑。所以你日常的负面情绪会影响到你的胃。高压工作者常常都有胃酸导流的情况，除了及时就医以外，这也是身体对我们的警告。<br/>那么当处于焦虑、抑郁的时候，我们应该怎么办呢？<br/>首先要减少生活中的负能量。往往一个好的居住环境总会让你有一个好的心情，而好的面容和身材也会大大的增加你的自信。<br/>记住，一定不要否认自己，让自己保持消极的情绪，日常要远离那些负面的人和事儿，一定要有长跑的习惯，他会让你持良好的心态和对抗困难的勇气。还有一点一定要少<br/>吃精加工的食物。做到这些，你一定会有一个良好的胃，你的身体的完美状态又进了一步。</p><p data-pid=\"AnHiMbLm\"><b>肾篇：</b></p><p data-pid=\"WyUb0GCL\">良好的肾能带来什么？肾主骨生髓，这个髓指的是骨髓和脊髓。脊髓上通于脑，李时珍说过，脑为元神之腑肾对你的思维、记忆力、注意力有一定的影响。肾开窍于耳，<br/>肾好的人一般听力都很好，而听力下降、耳鸣都是对你的警告。肾其华在发，肾健康的人，一般头发乌黑浓密，不易脱落。肾气足则精力充沛，尤其是休息后更是精力充沛。<br/>那该如何保护我们的肾呢？首先要保证日常的饮水量尽量少，盐可以选择海盐，量保持在六克左右，日常不要憋尿。运动方面，我推荐你做提肛运动，对你的提升真的很大。<br/>饮食方面，可以吃一些黑色的食物，如黑枸杞、黑芝麻、桑葚等。等等，拥有一颗强大的肾，你的身体离完美状态又近了一步。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1127968,
+        "favorite_count": 43781,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 55172740795}",
+      "attached_info": "Cu4FCLm854rM0Jy2lAEQBBoJNzA0MTUwNTYzILak9LoGKId0MMwBQIMBSigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASjAKG1RTX1NPVVJDRV9CQVNJQ19JTkZPX1JFQ0FMTBIBMBgAIAA6CnsicmF3IjoiIn1aCDE3ODYwMTcwYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ILNTUxNzI3NDA3OTWKAQg2NDA4NTI4M6oBCXJlY29tbWVuZMIBIGZkZjc5NDAwM2Q0NWRhODk4MWRmYWE2NWZhM2FmZWJk8gEKCAwSBk5vcm1hbPIBKAgKEiQ0ZjUwMDRiMy05NmY5LTQ1MjEtOTE2ZS1hZjI5ZjgyNWExZWPyAQYICxICMjKCAgCIAsSzq/mMM5ICIGZkZjc5NDAwM2Q0NWRhODk4MWRmYWE2NWZhM2FmZWJkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AID+gILTk9STUFMX0ZMT1eKAyA1NDQ5YWE3OGM0ZGY0NzFhOTZjZjZmMzM0YWU0ZjQ1ZZoDDQoCdjIQABoFb3RoZXKoA6DsRNgDAPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQGbWFudWFswgQDMTYwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAmOKyP4EFAAAAAAAAAACJBWSZY5TWVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRaQBgCgBoUBqAYAkgImCgk3MDQxNTA1NjMSCzU1MTcyNzQwNzk1GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=131&desktop=true&end_offset=133&page_number=23&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=131&desktop=true&end_offset=133&page_number=23&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

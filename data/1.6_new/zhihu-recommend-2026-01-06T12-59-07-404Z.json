@@ -1,0 +1,808 @@
+{
+  "data": [
+    {
+      "id": "84_1767704408.516",
+      "type": "feed",
+      "offset": 84,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704408,
+      "updated_time": 1767704408,
+      "target": {
+        "voteup_count": 58,
+        "content": "<p data-pid=\"igdk7_aC\">最近在 Agent 设计中遇到了一个本来很简单的问题：用户输入后，如何判断应该追问还是直接执行？</p><p data-pid=\"aA41tDFx\">最初的方案中，我很自然的写了这样一条规则：</p><blockquote data-pid=\"OZI6eA0D\">如果用户输入是明确需求，则直接执行如果用户输入是模糊需求，则先追问</blockquote><p data-pid=\"z_nCf5Jy\">本以为这就足以解决问题（靠模型的聪明才智），但是事实上，这引出了一系列更大的问题：什么算&#34;明确&#34;？什么算&#34;模糊&#34;？边界在哪里？</p><p data-pid=\"a0mgafBX\">为了让判断更准，覆盖新发现的边界情况，我们不断叠加更多规则。为了处理特殊场景，又加了异常分支。</p><p data-pid=\"fs2OH-PQ\">结果？<b>规则越来越多，效果越来越差，</b>上下文指数级膨胀<b>，</b>之后就是不断的优化规则，不断的优化示例。</p><p data-pid=\"GBZdelco\">最近停下来思考，我突然意识到，一切都始于最初那两条规则。也许从一开始，<b>通过制定规则来解决问题的思路就错了</b>。</p><h2>一、规则判断+分支的思维习惯已过时</h2><p data-pid=\"uP5ykMXq\">传统软件开发的习惯思路：</p><blockquote data-pid=\"1_mj_GMo\">判断 → 分支 → 执行</blockquote><p data-pid=\"ZjzSfjRD\">用 if-else 预判所有情况，用规则控制每个分支，追求确定性输出。这在传统软件里完全正确。但问题是。</p><blockquote data-pid=\"3kR8s4pG\"><b>从输入来说</b>：规则、系统提示等等这些预置的东西，大模型不会按顺序看到。<br/><b>从输出来说：</b>模型并不会真正分步骤执行，而只是预测下一个token，来假装按规则执行。</blockquote><p data-pid=\"Sj0TUc1n\">所以，当我写：</p><blockquote data-pid=\"qdOq-rkf\">如果用户输入是明确需求，则直接生成如果用户输入是模糊需求，则先追问</blockquote><p data-pid=\"rBTV6fGF\">模型看到的不是&#34;两条可执行的 if-else&#34;。它看到的是&#34;一段描述某种行为模式的文本&#34;。</p><p data-pid=\"9mlthtzV\">所以实际上<b>模型只是在尝试扮演一个规则执行者</b>，这也许就是“降智”“概率”等问题发生的原因。</p><p data-pid=\"PXUoI9Yz\">这种思维方式设计的agent，会让大模型丧失他真正擅长的<b>理解意图，把握上下文，自然地响应。</b></p><p data-pid=\"29uW8g-V\">像一个很会聊天的人，告诉他说话前要从这个词典中找到对应的词，然后原封不动的说。</p><p data-pid=\"EfLqrvtJ\">看看行业大佬的案例，Anthropic 在与数十个团队合作构建 Agent 后，给出了一个明确的结论：</p><blockquote data-pid=\"66UGp_Sr\"><b>&#34;最成功的实现并没有使用复杂的框架或专门的库。相反，它们使用的是简单、可组合的模式。&#34;</b>— [Building Effective Agents](<a href=\"https://link.zhihu.com/?target=https%3A//www.anthropic.com/research/building-effective-agents\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">anthropic.com/research/</span><span class=\"invisible\">building-effective-agents</span><span class=\"ellipsis\"></span></a>)</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><h2>二、规则和示例，低效占用上下文资源</h2><p data-pid=\"sB5a0kPx\">意识到这点后，我想：那 few-shot 示例来代替规则呢？问题是，当你需要越来越多的例子去覆盖边界情况时，你其实还是在&#34;枚举&#34;。</p><blockquote data-pid=\"N3eYBW80\">规则 = 显式枚举边界示例 = 隐式枚举边界</blockquote><p data-pid=\"G4aUl7YH\">两者本质相同：<b>你在说&#34;我不信任你的理解能力，让我来告诉你边界在哪里&#34;。</b></p><p data-pid=\"3wbZ7Cqz\">而且都会导致同一个问题：<b>上下文膨胀</b>。</p><p data-pid=\"3f9fR8tI\">Anthropic 在研究中发现了一个叫 <b>&#34;Context Rot&#34;（上下文腐烂）</b> 的现象：</p><blockquote data-pid=\"XUYyoo3K\"><b>随着上下文窗口中 token 数量增加，模型准确回忆信息的能力会下降。</b></blockquote><p data-pid=\"lOcg3lQU\">这不是简单的&#34;信息太多记不住&#34;。技术原因在于 Transformer 架构本身：每个 token 都要和其他所有 token 建立注意力关系，n 个 token 就是 n² 个关系。10,000 个 token = 1 亿个关系需要维护。</p><p data-pid=\"CD2AdXYo\">很多研究都表明：在真实任务（而非简单的 Needle-in-Haystack 测试）中，随着上下文长度增加，模型性能下降更为严重——尤其当问题和答案的相似度较低时。</p><p data-pid=\"CavDvYUr\">所以规则越多、示例越多，模型反而越容易迷失在这堆文本里。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>三、从提示词工程到上下文工程</h2><p data-pid=\"Koh6EUK-\">我们先跑个题，当做扩展阅读。提示词和上下文工程是个老词，但我还是想重新拿出来理解一下</p><p data-pid=\"LgnOyhqK\">Anthropic 给出了明确的区分和建议：</p><blockquote data-pid=\"UxNGIB1q\"><b>Prompt Engineering</b> = 优化单次指令的写法<b>Context Engineering</b> = 设计和维护模型在推理时看到的整个 token 集合<b>找到最小的高信号 token 集合，最大化期望输出的可能性。</b></blockquote><p data-pid=\"2Rvoh6Xh\">换句话说：不是往上下文里塞更多规则，而是精心策划<b>哪些信息应该出现在模型的注意力范围内</b>。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>四、最佳实践 - 顶级Agent产品都很&#34;简单&#34;</h2><p data-pid=\"5E4nO6yx\">让题再跑一会，我们来看几个coding工具的案例</p><p data-pid=\"WfHDU_3e\"><b>Claude Code 的设计哲学是：</b></p><blockquote data-pid=\"DqjqP3lv\">&#34;低层级、不预设立场，提供接近原始模型访问。&#34;</blockquote><p data-pid=\"-wkPOi3w\"><b>Cursor：</b></p><blockquote data-pid=\"XK0Y1p1r\">系统提示完全静态（为了利用 prompt caching 降低成本）。Rules 不是塞进 prompt 里，而是作为<b>&#34;可查询的资源&#34;</b>——模型需要时才调用 `fetch_rules(...)` 加载。<b>模型决定什么时候需要规则，而不是规则一直压在模型头上。</b></blockquote><p data-pid=\"W250k-xV\"><b>OpenAI Codex：</b></p><blockquote data-pid=\"DicKN031\">单 Agent ReAct 循环。用 AGENTS.md 提供项目上下文，不是规则清单。沙盒执行，允许错误发生，通过人类验证来纠正。</blockquote><p data-pid=\"SdOeIOgl\">这些产品的共同点不是&#34;规则设计得更好&#34;，而是<b>他们主要让模型了解目标（他能做什么、他要做什么）</b>。</p><p data-pid=\"dqTGyjtb\">它们用的是另一种更适合大模型的工具设计方式（也许可以叫声明式）：</p><p data-pid=\"5wJhmvi5\">上下文 → 推理 → 响应</p><p data-pid=\"-UmpLd2h\">不是告诉模型&#34;什么时候做什么&#34;，而是设计好上下文环境，让模型自己推理出正确的行为。</p><p data-pid=\"MjI9mPdq\"><b>Anthropic 的工具优化实验</b></p><p data-pid=\"Oxx00dRU\">Anthropic 分享了一个案例：他们发现 Claude 在使用 Web Search 工具时，会自动给搜索词加上&#34;2025&#34;，导致搜索结果偏差。</p><p data-pid=\"DZ5sntIR\">解决方法不是写一条规则说&#34;不要加年份&#34;，而是<b>优化工具描述</b>，明确说明搜索词应该怎么写。</p><blockquote data-pid=\"eZcwa-Uq\"><b>&#34;即使是对工具描述的微小改进，也能带来显著的性能提升。&#34;</b></blockquote><p data-pid=\"ZQdmqtW1\">他们还做了一个实验：用一个 Agent 来测试和优化工具描述。这个 Agent 会反复使用工具，记录失败情况，然后重写工具描述来避免这些失败。</p><p data-pid=\"Ip5cqAHl\">结果：<b>优化后的工具描述让后续 Agent 的任务完成时间减少了 40%。</b></p><p data-pid=\"gBA7pgml\">这说明<b>工具描述是最被低估的设计杠杆。</b></p><p data-pid=\"mSZEPbbf\">它不是 API 文档，而是<b>行为引导</b>——模型通过理解工具的能力和约束，自己推理出正确的使用方式。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>五、让工具约束引导模型行为</h2><p data-pid=\"yp8lk5Fr\">我们来看看开篇提到的问题按照以上思路应该如何解决</p><p data-pid=\"pu1W4J74\">我之前的做法：</p><p data-pid=\"UpQclsBj\">写规则：如果包含具体颜色、尺寸、内容，判定为明确需求，直接执行；否则判定为模糊需求，先追问...</p><p data-pid=\"prUqnSGL\">工具约束引导：</p><div class=\"highlight\"><pre><code class=\"language-text\">name: generate_image\ndescription: \n  根据详细的画面描述生成图片。\n  需要完整的画面描述，包括主体、背景、颜色、构图。\n  如果输入过于简单，将无法产生满意结果。\n\nname: expand_prompt\ndescription: |\n  将简单的想法扩展为详细的画面描述。</code></pre></div><p data-pid=\"dFcQ6FCP\">当用户说&#34;帮我做个海报&#34;时，模型看到这两个工具描述，会<b>自己推理</b>：</p><p data-pid=\"NqmPjvcm\">&#34;用户输入是&#39;帮我做个海报&#39; → 我要调用生图工具 → 但它需要详细描述 → 我手上的输入不够详细 → 我需要先调用扩写工具&#34;</p><p data-pid=\"-gtHJ-Ko\"><b>我没有写任何&#34;如果模糊则...&#34;的规则。</b> 模型通过理解工具的输入约束，自己推导出了正确的行为。</p><p data-pid=\"sn_95B9A\">这种方法有人专门写过一篇文章讨论，叫 <b>Tool-Driven Behavioral Directives</b>：</p><blockquote data-pid=\"22NAZEjQ\"><b>&#34;每个工具携带自己的行为上下文。当工具运行时，它不仅返回数据，还返回告诉 Agent 如何处理数据的指令。&#34;</b>— [Tool-Driven Behavioral Directives](<a href=\"https://link.zhihu.com/?target=https%3A//dev.to/ricardo_brandao_07d4efc5/how-to-control-agents-without-massive-system-prompts-hnn\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">dev.to/ricardo_brandao_</span><span class=\"invisible\">07d4efc5/how-to-control-agents-without-massive-system-prompts-hnn</span><span class=\"ellipsis\"></span></a>)</blockquote><p data-pid=\"PWGQsnDZ\">作者在生产环境测试的结果：<b>98% 的规则遵循率，且无需扩展系统 prompt。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><h2>六、写在最后</h2><p data-pid=\"y5jTaGq7\">模型在预训练中已经学会了大量&#34;意图→行为&#34;的模式。<b>遇到问题时，不要想“告诉模型该怎么做”，要扫清阻碍模型做出正确行为的障碍。</b>我们加的那些规则，很可能是在<b>覆盖</b>它已有的能力，而不是增强它。</p><p data-pid=\"rhK2LHCo\">Anthropic 在 Agent 设计指南中说：</p><blockquote data-pid=\"V9arXJy-\"><b>&#34;LLM可能会运行多个回合，你必须对它的决策能力有一定程度的信任。&#34;</b></blockquote><p data-pid=\"eqisOULD\">这不是说完全不加控制。而是说：</p><p data-pid=\"MYRvdt6f\"><b>设计&#34;可纠正的交互&#34;，而不是&#34;永远正确的规则&#34;。</b></p><p data-pid=\"0Qzc9QNO\">Claude Code、Cursor、Codex 都采用这种模式：</p><ul><li data-pid=\"DB_WSZak\">沙盒执行</li><li data-pid=\"kiIITt7q\">结果验证（linting、编译检查、测试）</li><li data-pid=\"FUnM6VOa\">人类审核</li><li data-pid=\"vvgcW8C-\">迭代改进</li></ul><p data-pid=\"Q1WYkoy7\">与其试图让 AI 永远不犯错，不如设计一个&#34;犯错后能快速纠正&#34;的系统。</p><p data-pid=\"sXie117g\">总结一下：</p><p data-pid=\"ATKdK1hG\"><b>1. 删掉分类规则</b></p><p data-pid=\"jmZ_kqEQ\">之前写的那些&#34;如果 X 类型则执行 A&#34;，尝试用工具约束替代。</p><p data-pid=\"uQk_AHpS\"><b>2. 优化工具描述</b></p><p data-pid=\"yyOftwa-\">Anthropic 的建议：</p><ul><li data-pid=\"sgChRw_C\"><b>选择高杠杆工具</b>：专注于能显著扩展 Agent 能力的工具，而不是现有 API 的薄封装</li><li data-pid=\"PmbOqlv4\"><b>清晰命名和区分</b>：避免功能重叠导致模型困惑</li><li data-pid=\"CV-bHELD\"><b>返回有意义的上下文</b>：人类可读的字段，而不是原始 ID</li><li data-pid=\"_mMeecR8\"><b>控制输出长度</b>：实现分页、截断、过滤，避免撑爆上下文</li></ul><blockquote data-pid=\"FgL3NG3Q\"><b>&#34;工具描述是 prompt。名称、描述、参数文档中的每个词都在塑造 Agent 理解和使用工具的方式。&#34;</b></blockquote><p data-pid=\"yrhLx_iJ\"><b>3. 给目标，不给方法</b></p><p data-pid=\"hvXx37uX\"><b>4. 按需加载上下文</b></p><p data-pid=\"51MUffd5\">---</p><p data-pid=\"ilj59g9t\">如果文章对你有所帮助，求个三连，如果你恰好在使用Figma/Mastergo等设计工具，可以试试我的小插件<a href=\"https://link.zhihu.com/?target=http%3A//meigen.art\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">meigen.art</a>，Nanobanana Pro / 图标设计 / 视频生成 / 专业提示词扩写</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"At6V_6QN\"><i>延伸阅读</i></p><ul><li data-pid=\"NxKgN9yE\"><i>[Building Effective Agents (Anthropic)](<a href=\"https://link.zhihu.com/?target=https%3A//www.anthropic.com/research/building-effective-agents\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">anthropic.com/research/</span><span class=\"invisible\">building-effective-agents</span><span class=\"ellipsis\"></span></a>) — Agent 设计的核心原则</i></li><li data-pid=\"IQzSjJfo\"><i>[Effective Context Engineering for AI Agents (Anthropic)](<a href=\"https://link.zhihu.com/?target=https%3A//www.anthropic.com/engineering/effective-context-engineering-for-ai-agents\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">anthropic.com/engineeri</span><span class=\"invisible\">ng/effective-context-engineering-for-ai-agents</span><span class=\"ellipsis\"></span></a>) — 上下文工程方法论</i></li><li data-pid=\"B1-pJVrD\"><i>[Writing Tools for Agents (Anthropic)](<a href=\"https://link.zhihu.com/?target=https%3A//www.anthropic.com/engineering/writing-tools-for-agents\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">anthropic.com/engineeri</span><span class=\"invisible\">ng/writing-tools-for-agents</span><span class=\"ellipsis\"></span></a>) — 工具设计最佳实践</i></li><li data-pid=\"AtU6ObeJ\"><i>[Claude CodeBest Practices](<a href=\"https://link.zhihu.com/?target=https%3A//www.anthropic.com/engineering/claude-code-best-practices\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">anthropic.com/engineeri</span><span class=\"invisible\">ng/claude-code-best-practices</span><span class=\"ellipsis\"></span></a>) — Claude Code 的设计哲学</i></li><li data-pid=\"UEbhA59V\"><i>[Claude Code Built-in Tools Reference](<a href=\"https://link.zhihu.com/?target=https%3A//www.vtrivedy.com/posts/claudecode-tools-reference\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">vtrivedy.com/posts/clau</span><span class=\"invisible\">decode-tools-reference</span><span class=\"ellipsis\"></span></a>) — 工具描述详解</i></li><li data-pid=\"eIbW11JQ\"><i>[Cursor Architecture Deep Dive](<a href=\"https://link.zhihu.com/?target=https%3A//medium.com/%40lakkannawalikar/cursor-ai-architecture-system-prompts-and-tools-deep-dive-77f44cb1c6b0\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">medium.com/@lakkannawal</span><span class=\"invisible\">ikar/cursor-ai-architecture-system-prompts-and-tools-deep-dive-77f44cb1c6b0</span><span class=\"ellipsis\"></span></a>) — Cursor 架构分析</i></li><li data-pid=\"s077BoHd\"><i>[Tool-Driven Behavioral Directives](<a href=\"https://link.zhihu.com/?target=https%3A//dev.to/ricardo_brandao_07d4efc5/how-to-control-agents-without-massive-system-prompts-hnn\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">dev.to/ricardo_brandao_</span><span class=\"invisible\">07d4efc5/how-to-control-agents-without-massive-system-prompts-hnn</span><span class=\"ellipsis\"></span></a>) — 工具驱动的行为控制</i></li><li data-pid=\"TYwCfNCX\"><i>[Context Rot Research (Chroma)](<a href=\"https://link.zhihu.com/?target=https%3A//research.trychroma.com/context-rot\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">research.trychroma.com/</span><span class=\"invisible\">context-rot</span><span class=\"ellipsis\"></span></a>) — 上下文腐烂的技术研究</i></li></ul>",
+        "is_labeled": false,
+        "type": "article",
+        "navigator_vote": false,
+        "voting": 0,
+        "allow_segment_interaction": true,
+        "author": {
+          "url": "https://api.zhihu.com/people/15271d129afcfa04f5211028a5c6f5ec",
+          "user_type": "people",
+          "url_token": "lu-bei-chen",
+          "followers_count": 16,
+          "is_followed": false,
+          "id": "15271d129afcfa04f5211028a5c6f5ec",
+          "name": "MeiGen AI设计",
+          "headline": "独立运营一款AI设计产品",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d7224e16c8565c5b1258ffd3350997d1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false
+        },
+        "comment_permission": "all",
+        "created": 1767598498,
+        "comment_count": 1,
+        "excerpt_new": "最近在 Agent 设计中遇到了一个本来很简单的问题：用户输入后，如何判断应该追问还是直接执行？ 最初的方案中，我很自然的写了这样一条规则： 如果用户输入是明确需求，则直接执行如果用户输入是模糊需求，则先追问本以为这就足以解决问题（靠模型的聪明才智），但是事实上，这引出了一系列更大的问题：什么算&#34;明确&#34;？什么算&#34;模糊&#34;？边界在哪里？ 为了让判断更准，覆盖新发现的边界情况，我们不断叠加更多规则。为了处理特殊场景…",
+        "favorite_count": 138,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/articles/1991530079512174717",
+        "title": "Skills时代，是时候重新思考Agent上下文设计了",
+        "updated": 1767598498,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "thumbnails": [
+          "https://pica.zhimg.com/v2-0d2b4b0c9a0d4a4ddbb23e6a4ca481e7.jpg?source=7e7ef6e2&needBackground=1"
+        ],
+        "article_type": "normal",
+        "id": "1991530079512174717",
+        "visited_count": 2148,
+        "vote_next_step": "vote",
+        "preview_type": "default",
+        "preview_text": "",
+        "image_url": "https://pica.zhimg.com/v2-0d2b4b0c9a0d4a4ddbb23e6a4ca481e7.jpg?source=7e7ef6e2&needBackground=1",
+        "excerpt": "最近在 Agent 设计中遇到了一个本来很简单的问题：用户输入后，如何判断应该追问还是直接执行？ 最初的方案中，我很自然的写了这样一条规则： 如果用户输入是明确需求，则直接执行如果用户输入是模糊需求，则先追问本以为这就足以解决问题（靠模型的聪明才智），但是事实上，这引出了一系列更大的问题：什么算&#34;明确&#34;？什么算&#34;模糊&#34;？边界在哪里？ 为了让判断更准，覆盖新发现的边界情况，我们不断叠加更多规则。为了处理特殊场景…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991530079512174717}",
+      "attached_info": "CtwGCOHUmIPiq///swEQBxoJMjY4NTkwODkwIKLT7coGKDowAUBUSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoAYiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXITMTk5MTUzMDA3OTUxMjE3NDcxN4IBX2h0dHBzOi8vcGljYS56aGltZy5jb20vdjItMGQyYjRiMGM5YTBkNGE0ZGRiYjIzZTZhNGNhNDgxZTcuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xqgEJcmVjb21tZW5kwgEgMTUyNzFkMTI5YWZjZmEwNGY1MjExMDI4YTVjNmY1ZWPyAQoIDBIGTm9ybWFs8gEoCAoSJDY2YTg5YTRkLTg2NDQtNDEyZi05YWIzLTNhZjY0YzVmMjYzYfIBBggLEgIxNYICAIgCi+WSm7kzkgIgMTUyNzFkMTI5YWZjZmEwNGY1MjExMDI4YTVjNmY1ZWOaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXaAiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMegCAvoCC05PUk1BTF9GTE9XigMgYjViNDNmNWE0NmZiNDg3MDk5NzM0OGRjOTBhZWI0ZmGaAw0KAnYyEAAaBW90aGVyqAPkENgDAOoDI2ZlZWQtdGV4dC1hbGxzaXRlLW9ubGluZS11Y2YtcmVjYWxs+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQxgoYvwQiI3YyLTBkMmI0YjBjOWEwZDRhNGRkYmIyM2U2YTRjYTQ4MWU3gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAs6ZxP4EFAAAAAAAAAACJBXILDuEterI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBlWoBgGSAi4KCTI2ODU5MDg5MBITMTk5MTUzMDA3OTUxMjE3NDcxNxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "85_1767704408.623",
+      "type": "feed",
+      "offset": 85,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704408,
+      "updated_time": 1767704408,
+      "target": {
+        "id": "1989640788108399937",
+        "type": "answer",
+        "voteup_count": 7590,
+        "comment_count": 282,
+        "content": "<p data-pid=\"hGNd_YFW\">我有一个非常邪修的方法</p><p data-pid=\"qiMqVcJB\">对男女都适用</p><p data-pid=\"VeyUfvAA\">适当释放善意后对方的表现</p><p data-pid=\"0KYPzZJr\">大概率决定了对方的思维逻辑行为方式和道德品质</p><p data-pid=\"7YHNuHwx\">如果对方试图利用你的善意爱意拿捏你，基本上你就可以考虑跑路了。</p><p data-pid=\"2ml2djVC\">如果对方回馈善意投桃报李，不要理解为网上那些“看不上你的人才对你客气”，现在的人没那么闲，对方大概率是个好人。</p>",
+        "allow_segment_interaction": true,
+        "question": {
+          "id": "19817130",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/19817130",
+          "answer_count": 0,
+          "question_type": "normal",
+          "created": 1313500985,
+          "follower_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "detail": "",
+          "author": {
+            "id": "",
+            "name": "匿名用户",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_followed": false,
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "headline": "",
+            "is_following": false
+          },
+          "title": "如何短时间内鉴别好姑娘？",
+          "comment_count": 36,
+          "bound_topic_ids": [
+            2307,
+            4728,
+            7489,
+            12316,
+            12671
+          ],
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "is_navigator": false,
+        "excerpt_new": "我有一个非常邪修的方法 对男女都适用 适当释放善意后对方的表现 大概率决定了对方的思维逻辑行为方式和道德品质 如果对方试图利用你的善意爱意拿捏你，基本上你就可以考虑跑路了。 如果对方回馈善意投桃报李，不要理解为网上那些“看不上你的人才对你客气”，现在的人没那么闲，对方大概率是个好人。",
+        "reshipment_settings": "allowed",
+        "visited_count": 319624,
+        "segment_infos": [
+          {
+            "pid": "hGNd_YFW",
+            "text": "我有一个非常邪修的方法",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 11,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991973431244251801"
+                  ],
+                  "is_like": false,
+                  "like_count": 14,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "0KYPzZJr",
+            "text": "大概率决定了对方的思维逻辑行为方式和道德品质",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 22,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991920492467217085"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7YHNuHwx",
+            "text": "如果对方试图利用你的善意爱意拿捏你，基本上你就可以考虑跑路了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 31,
+                "seg_info": {
+                  "seg_ids": [
+                    "1990127874280281327"
+                  ],
+                  "is_like": false,
+                  "like_count": 139,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "2ml2djVC",
+            "text": "如果对方回馈善意投桃报李，不要理解为网上那些“看不上你的人才对你客气”，现在的人没那么闲，对方大概率是个好人。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 55,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991922480944812332"
+                  ],
+                  "is_like": false,
+                  "like_count": 264,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "user_type": "people",
+          "url_token": "mylansno",
+          "is_followed": false,
+          "id": "33d907b8e0c319738c221ae2b0e7c781",
+          "url": "https://api.zhihu.com/people/33d907b8e0c319738c221ae2b0e7c781",
+          "avatar_url": "https://picx.zhimg.com/50/v2-59bec5ed5e87fa48c7b8dfeb011732fc_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 123,
+          "is_following": false,
+          "name": "乱了浮生",
+          "headline": "鱼跃此时海，花开彼岸天。"
+        },
+        "updated_time": 1767147329,
+        "preview_text": "",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "created_time": 1767147329,
+        "preview_type": "default",
+        "thanks_count": 582,
+        "is_copyable": true,
+        "excerpt": "我有一个非常邪修的方法 对男女都适用 适当释放善意后对方的表现 大概率决定了对方的思维逻辑行为方式和道德品质 如果对方试图利用你的善意爱意拿捏你，基本上你就可以考虑跑路了。 如果对方回馈善意投桃报李，不要理解为网上那些“看不上你的人才对你客气”，现在的人没那么闲，对方大概率是个好人。",
+        "favorite_count": 3230,
+        "url": "https://api.zhihu.com/answers/1989640788108399937",
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989640788108399937}",
+      "attached_info": "CvIGCOHUmIPiq///swEQBBoJNzYzNDE2MjIyIMGO0soGKKY7MJoCQFVKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1aBjEwNjgzNGIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5ODk2NDA3ODgxMDgzOTk5MzeKAQgxOTgxNzEzMKoBCXJlY29tbWVuZMIBIDMzZDkwN2I4ZTBjMzE5NzM4YzIyMWFlMmIwZTdjNzgx8gEKCAwSBk5vcm1hbPIBKAgKEiQxNWNjM2YyOS02ZDM5LTQ1MzAtOTUxNi1iYzk5NzNhYTEwNDXyAQYICxICMTWCAgCIAovlkpu5M5ICIDMzZDkwN2I4ZTBjMzE5NzM4YzIyMWFlMmIwZTdjNzgxmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygISQ2xpcFBlYWtXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gITVFNfU09VUkNFX0ZFRURSRV9WNegCAvoCC05PUk1BTF9GTE9XigMgYjViNDNmNWE0NmZiNDg3MDk5NzM0OGRjOTBhZWI0ZmGaAw0KAnYyEAAaBW90aGVyqAOIwRPYAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwMczpT+BBQAAAAAAAAAAiQVyCw7hLXqyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUPkAYAoAZWqAYDkgIuCgk3NjM0MTYyMjISEzE5ODk2NDA3ODgxMDgzOTk5MzcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "86_1767704408.98",
+      "type": "feed",
+      "offset": 86,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704408,
+      "updated_time": 1767704408,
+      "target": {
+        "excerpt": "这12个小妙招，是专门针对家里各种卫生死角的，技巧满分，省时省力，看完感觉，以前打扫卫生的苦，我是白受了啊。 1、擦纱窗对于能拆卸的纱窗，最好的清洁方式当然是，拆下来直接冲洗。   但有的纱窗根本卸不掉，那只能退而求其次，站着擦！ 我去年还是拿了洗脸巾+海绵擦，吭哧吭哧的，家里窗户多，整个擦下来，没一个小时根本搞不定。   今年聪明了，直接跟着网友用平板拖。 面儿够大，一下上去就能覆盖纱窗一半，上下两三次，就…",
+        "preview_type": "default",
+        "id": "1991187713697787915",
+        "type": "answer",
+        "author": {
+          "name": "家居编辑麦月",
+          "is_org": false,
+          "is_followed": false,
+          "followers_count": 27608,
+          "id": "31589062acef0fd3becd81a55681de3b",
+          "url": "https://api.zhihu.com/people/31589062acef0fd3becd81a55681de3b",
+          "user_type": "people",
+          "url_token": "jia-ju-bian-ji-mai-yue",
+          "headline": "定期分享优质家居内容",
+          "avatar_url": "https://picx.zhimg.com/50/v2-52f8e725fab7e931756997c0d5e9d7e9_l.jpg?source=b6762063",
+          "gender": -1,
+          "is_following": false
+        },
+        "excerpt_new": "这12个小妙招，是专门针对家里各种卫生死角的，技巧满分，省时省力，看完感觉，以前打扫卫生的苦，我是白受了啊。 1、擦纱窗对于能拆卸的纱窗，最好的清洁方式当然是，拆下来直接冲洗。   但有的纱窗根本卸不掉，那只能退而求其次，站着擦！ 我去年还是拿了洗脸巾+海绵擦，吭哧吭哧的，家里窗户多，整个擦下来，没一个小时根本搞不定。   今年聪明了，直接跟着网友用平板拖。 面儿够大，一下上去就能覆盖纱窗一半，上下两三次，就…",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "content": "<p></p><p data-pid=\"7nw7r5Zm\">这12个小妙招，是专门针对家里各种卫生死角的，技巧满分，省时省力，看完感觉，以前打扫卫生的苦，我是白受了啊。</p><h2>1、擦纱窗</h2><p data-pid=\"pbRnRI07\">对于能拆卸的纱窗，最好的清洁方式当然是，拆下来直接冲洗。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-782557667301de8c8ecb3235065e1bb6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1409\" data-original-token=\"v2-90843e88590e9e48080347faa12aadfd\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pica.zhimg.com/v2-782557667301de8c8ecb3235065e1bb6_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oXtkzhBk\">但有的纱窗根本卸不掉，那只能退而求其次，站着擦！</p><p data-pid=\"twuHQn9_\">我去年还是拿了洗脸巾+海绵擦，吭哧吭哧的，家里窗户多，整个擦下来，没一个小时根本搞不定。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6be609466d38aeb7d72c34845ab21b63_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1060\" data-original-token=\"v2-c63a69cfa5abebdbb197b04991578e0e\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-6be609466d38aeb7d72c34845ab21b63_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jVA1PaBx\">今年聪明了，直接跟着网友用平板拖。</p><p data-pid=\"BLByKNRr\">面儿够大，一下上去就能覆盖纱窗一半，上下两三次，就能擦一扇纱窗，而且擦的倍儿干净。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ed7dc56d6aa6d1ffaca3fb990b200677_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1817\" data-original-token=\"v2-6d475b0f3a73898cb78b408a3e16cac5\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-ed7dc56d6aa6d1ffaca3fb990b200677_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pCtATV-8\">家里所有的窗户，十来分钟也就搞定了，省时又省力。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-30efb633780f260f7bf74b759f2109e9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-c1b8495de2c7538f740afc8e218930e0\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic4.zhimg.com/v2-30efb633780f260f7bf74b759f2109e9_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zqjtgRao\">记得不管用海绵擦+洗脸巾，还是用拖把，一定打湿了擦，这样才不会灰尘满天飞，今年家里大扫除，家人们一定要试试。</p><h2>2、擦瓷砖美缝</h2><p data-pid=\"vBjYPCq3\">瓷砖拖得再干净，美缝黑漆漆，看起来也还是难受。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-972464a83661330442f6b5fb709de775_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1920\" data-original-token=\"v2-0419b3eeedf100d9874959dc615e0113\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-972464a83661330442f6b5fb709de775_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Y9qwggKp\">以前我还专门买美缝清洁剂，后来看网友的分享，发现，根本没必要啊。</p><p data-pid=\"DtYNn2kp\">直接挖上两勺洗衣粉+热水冲泡，再用百洁布沾湿擦洗就可以了，百洁布擦完，立马用干抹布擦干，避免黑水渍残留。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-46b7d1ffb6928f1782f46e37dbb6896f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-e97c078b92e57ee4fccaf43f731f879a\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-46b7d1ffb6928f1782f46e37dbb6896f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GO9amrwD\">擦完干干净净的，看起来超舒服。</p><p data-pid=\"G43dbH9N\">而且，横着比竖着好擦，擦的时候，建议戴个护膝跪着擦，对腰更友好。</p><h2>3、清理洗衣机胶圈</h2><p data-pid=\"fH2TPxE9\">滚筒洗衣机胶圈的位置，是真的很容易发霉，这是因为每次用完，没有养成随手擦拭干净的好习惯。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3cc5f13b23d861c6e482d81557d1fa20_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-b51c9df922f9339ff621b7a6dab69f8f\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pica.zhimg.com/v2-3cc5f13b23d861c6e482d81557d1fa20_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"g6Yn5drr\">已经发霉了，也别着急，超市买几块钱一瓶的84消毒液，将洗脸巾浸泡在里面，打湿。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e141e3121d730571c47ed8754e2a14fd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-21348f18ce0c657f1cd1447d0f2d9c16\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic2.zhimg.com/v2-e141e3121d730571c47ed8754e2a14fd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"imImFGXn\">然后敷在胶圈上，静置上2个小时。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c992208c539d40f04eadc2a579a1224e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-9863e2d29b028b8497349a3d3b71c27b\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic3.zhimg.com/v2-c992208c539d40f04eadc2a579a1224e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6i0bAk1e\">将洗脸巾拿走，霉斑也就没啦，如果是“陈年老霉”，一次清洁不干净，就再来一次，效果不会差的，压根不用买什么专门的除霉剂。</p><h2>4、浴室墙角</h2><p data-pid=\"aS6dO9gc\">像浴室的墙角也是一样的，长期有水渍，也很容易发霉。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1a1e438aa3d72c95aca4d5cb42b2a900_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-qrcode-action=\"none\" data-original-token=\"v2-035c2078801ee40d56787c72409f1f8e\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic1.zhimg.com/v2-1a1e438aa3d72c95aca4d5cb42b2a900_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"p0hWqqn1\">84蘸取洗脸巾，敷在发霉的一圈。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-dd7782511cbd2792785d0e5846de3f0d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1657\" data-original-token=\"v2-fd752bb362b8596bc58786bc1e1fa524\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic4.zhimg.com/v2-dd7782511cbd2792785d0e5846de3f0d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0AnFUlWb\">静置上2个小时，去掉洗脸巾，看这对比，简直不要太明显。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b2fff66bd63370b3bbd1eb317c4d7a87_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-2aefc4303f724bb7a13f26bbb5f6aa44\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic4.zhimg.com/v2-b2fff66bd63370b3bbd1eb317c4d7a87_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6rsrnLj7\">基本上家里所有的霉斑，马桶胶圈、厨房水槽台面胶圈等，都可以用84去搞定。</p><h2>5、顶喷、花洒水垢</h2><p data-pid=\"h_SFDiGt\">用了一年了，顶喷、花洒里面的水垢也会堵塞出水孔，导致出水不畅，影响沐浴体验。</p><p data-pid=\"Mbhxg2_k\">大家可以买点柠檬酸，拼夕夕几块钱就能买不少，花洒可以用一个保鲜袋装上柠檬酸液，浸泡在里面几个小时。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4cb6b05d09e788b4c5b865f4bb5eab46_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-567f75283e32de63d2bcbb42fec39423\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic1.zhimg.com/v2-4cb6b05d09e788b4c5b865f4bb5eab46_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fQ6b1Abo\">基本上水垢都能被去的七七八八，实在有些还没掉的，稍微用牙签之类的轻戳一下，也干干净净。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a6b4b916b6ed509e3d6cc304d044f153_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-bf8df23be334230acbe1b7b1444cfd05\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic2.zhimg.com/v2-a6b4b916b6ed509e3d6cc304d044f153_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"T2PS0w7J\">水龙头也是一样，用一个一次性手套+柠檬酸溶液，浸泡数小时即可。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-65e102f48e9ae34063ed78ea99a89574_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-445ed81992ca0e70d52d254e5beec133\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic1.zhimg.com/v2-65e102f48e9ae34063ed78ea99a89574_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_2cdhjmL\">柠檬酸除水垢真的一绝，除了花洒龙头之类，像烧水壶、煮饭锅等，里面的水垢都可以很好的去除。</p><h2>6、玻璃水垢</h2><p data-pid=\"X2OEh7L6\">如果有柠檬酸，用柠檬酸溶液也是ok的，没有的话，也可以用白醋+洗洁精。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-aa525a457f3917c8dab2b53a50a83c5c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-ab02c5e2195454251806661f71d8116f\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pica.zhimg.com/v2-aa525a457f3917c8dab2b53a50a83c5c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2qnGqhsQ\">两者勾兑，然后海绵擦去蘸取擦拭。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8997c248f3d1c0f42d6d6ee846273027_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-3702ce013d817899954bb39b76e3b2c1\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic2.zhimg.com/v2-8997c248f3d1c0f42d6d6ee846273027_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Ykim2ZJX\">擦完玻璃、镜子锃亮，超级干净。</p><p data-pid=\"iyjRzJ5k\">但如果卫生间有大理石，就别用酸性清洁剂了，容易腐蚀大理石，去买中性的泡沫清洁剂，更放心一些。</p><h2>7、水槽口污渍</h2><p data-pid=\"O0CgAsLV\">水槽口这类污渍，用牙膏都刷不掉，也可以试试白醋+洗洁精+水试试。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0fc8f876b9ba67407b0b843ae18c9e25_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-fda8ce599e87d69926b1be3c3a3415a1\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic4.zhimg.com/v2-0fc8f876b9ba67407b0b843ae18c9e25_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MpvSVUmV\">三者勾兑一下，大概比例就行，喷上静置一会儿，然后海绵擦擦拭即可。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-da5c1ff2eec6463ac7e178b7b70f9ea2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"931\" data-original-token=\"v2-ea14c019aecd77a687a1147d023c26fd\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic3.zhimg.com/v2-da5c1ff2eec6463ac7e178b7b70f9ea2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xZh8Mwq4\">效果极好，家里这些不锈钢上的水垢、污垢可算是有救了。</p><h2>8、卫生间置物架</h2><p data-pid=\"CyqasP9S\">这种镂空的不锈钢置物架，用在卫生间还是很方便的，透气性好，不积水，但太容易藏污纳垢了，且不好清洗。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-385bee6ad099f959a7e06cf1286b1fc5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"2208\" data-original-token=\"v2-df19bc0b8c665f05d976cfbd4aa1141d\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-385bee6ad099f959a7e06cf1286b1fc5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ahh1Qwwn\">可以试试用厨房里的油污清洁剂，直接喷上去静置几分钟，就能看到污垢自动溶解往下流。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-91e454db1a1a09f545c1c514462db387_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"699\" data-original-token=\"v2-4efd7e5a11adf411609301aa0762a4bb\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic4.zhimg.com/v2-91e454db1a1a09f545c1c514462db387_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"P9pHIeb2\">然后花洒冲洗即可，实在污垢太厚，可以用海绵擦来回摩擦几下，也能干干净净。</p><h2>9、石英石台面渗色</h2><p data-pid=\"2eOCaduj\">石英石台面好看，但太容易渗色了，这一块那一块的，真的巨丑。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2938288aceb9373b59ab4fd5f758e1ac_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"932\" data-original-token=\"v2-d30f15f538bb9930ddbf19f67e34bc92\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic1.zhimg.com/v2-2938288aceb9373b59ab4fd5f758e1ac_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LVQWeCQA\">大家也可以试试84，直接用棉柔巾敷在渗色处。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-37624d552433b209616a5c876d8e6219_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"931\" data-original-token=\"v2-d4b774040b868ebe280e3c1335c1a91b\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-37624d552433b209616a5c876d8e6219_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-160e1510d0bb98f387f94631acec72b0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-01663abbdcceac73e188e8b0b8ecf013\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic3.zhimg.com/v2-160e1510d0bb98f387f94631acec72b0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"esQg0Y2-\">15分钟后拿走，你就会发现，渗色部位大有改善。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-73055b42095d71183aca86c2369ba1f7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-b561a4efd885f2097ae72df7434ce136\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-73055b42095d71183aca86c2369ba1f7_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"444RUrfI\">一次不行，就多来几次，厨房台面有这个问题的，一定要试试，效果极好。</p><h2>10、踢脚线清洁</h2><p data-pid=\"vmG521Xy\">踢脚线跟美缝一样，都得弯腰擦拭，太痛苦了。</p><p data-pid=\"xIZwBsEt\">还是网友聪明，直接拿家里的魔术扫把，夹上洗脸巾，就能不弯腰清洁踢脚线啦。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0f9ef84bfd0201e45baf5843e21faa1a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1655\" data-original-token=\"v2-12f41e4c56c4622f46224607f3a525dd\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pica.zhimg.com/v2-0f9ef84bfd0201e45baf5843e21faa1a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8rgxLYk_\">看这对比，还是很明显的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-870b57bcbb21fc753a9c00369e013ca1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1655\" data-original-token=\"v2-e279f423335d62bf199e896d788d6c15\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic4.zhimg.com/v2-870b57bcbb21fc753a9c00369e013ca1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-770a7c9257f85726a547b81ab1605d78_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1655\" data-original-token=\"v2-f4448c1f5156e6f3bb5aef2ac3b9bae8\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic1.zhimg.com/v2-770a7c9257f85726a547b81ab1605d78_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZNlm_ii-\">关键是，刚好就那一点是潮湿的，不担心大面积蹭湿墙面，比你抹布蹲着擦还好使呢。</p><h2>11、水桶长青苔</h2><p data-pid=\"oc3tll7X\">猛然间发现，家里的蓝色水桶，竟然长青苔了，我之前都是酷酷一顿倒洗洁精，后来发现，越洗越崩溃，泡沫根本冲不干净。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4f1b1a76e5c7133970b3b1fd2369ea23_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-4721988f83a89ed27c4c585c56b1a010\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-4f1b1a76e5c7133970b3b1fd2369ea23_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"msCdyVB_\">后来还是跟网友学的方法，水桶里放入米或黄豆，再加入一点白醋，一丢丢洗洁精，一点水，然后开始使劲摇。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-06a54a8813e19469d2b489178f5f21f3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-fa23fe989f0f7340a190cfb73186a4eb\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic4.zhimg.com/v2-06a54a8813e19469d2b489178f5f21f3_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"m9GZ7mKq\">摇晃大概3-5分钟，桶就基本干干净净啦。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-72c35595419bc82ab8dd7ad8b9591302_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-6764d173d7b27520cc56141d0ed19c45\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic1.zhimg.com/v2-72c35595419bc82ab8dd7ad8b9591302_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gAtUe0qh\">然后冲洗一下就ok，又怒省十几块。</p><h2>12、胶粘挂钩</h2><p data-pid=\"MNLQHjCw\">家里这种胶粘挂钩还是少用，贴上去容易，撕下来难啊。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-223957c825e1b43ab3ac4bd7abdb3c20_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-c58ac7639035a33d018230b897bb48d5\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pica.zhimg.com/v2-223957c825e1b43ab3ac4bd7abdb3c20_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NZu-hUZm\">但也别着急，家里有酒精的话，可以喷一点，再用吹风机热风吹一吹，一会会就能铲下来啦。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4d2953e9bf22927061536307358f54e9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-original-token=\"v2-7d77a63214fa2734c5355e388dfc6161\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-4d2953e9bf22927061536307358f54e9_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"byLvt26q\">铲完后底部有留胶的话，再喷点酒精闷一闷，就能一点痕迹不留啦，省心又方便。</p><p data-pid=\"D812jRCb\">好啦，本期内容就到这里啦，希望对大家有所帮助，大家还有什么清洁难题或者妙招，欢迎评论区留言分享哦，我们下期见啦~</p>",
+        "visited_count": 3403,
+        "url": "https://api.zhihu.com/answers/1991187713697787915",
+        "created_time": 1767516145,
+        "question": {
+          "author": {
+            "url": "https://api.zhihu.com/people/31589062acef0fd3becd81a55681de3b",
+            "avatar_url": "https://pica.zhimg.com/50/v2-52f8e725fab7e931756997c0d5e9d7e9_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "31589062acef0fd3becd81a55681de3b",
+            "user_type": "people",
+            "url_token": "jia-ju-bian-ji-mai-yue",
+            "name": "家居编辑麦月",
+            "headline": "定期分享优质家居内容",
+            "followers_count": 27608
+          },
+          "comment_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "title": "你知道哪些特别牛的清洁妙招？",
+          "created": 1767515883,
+          "answer_count": 0,
+          "excerpt": "",
+          "id": "1991186614723036621",
+          "url": "https://api.zhihu.com/questions/1991186614723036621",
+          "follower_count": 0
+        },
+        "updated_time": 1767516145,
+        "comment_count": 4,
+        "is_navigator": false,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-90843e88590e9e48080347faa12aadfd_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c63a69cfa5abebdbb197b04991578e0e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6d475b0f3a73898cb78b408a3e16cac5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c1b8495de2c7538f740afc8e218930e0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0419b3eeedf100d9874959dc615e0113_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e97c078b92e57ee4fccaf43f731f879a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b51c9df922f9339ff621b7a6dab69f8f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-21348f18ce0c657f1cd1447d0f2d9c16_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-9863e2d29b028b8497349a3d3b71c27b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-035c2078801ee40d56787c72409f1f8e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fd752bb362b8596bc58786bc1e1fa524_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-2aefc4303f724bb7a13f26bbb5f6aa44_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-567f75283e32de63d2bcbb42fec39423_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-bf8df23be334230acbe1b7b1444cfd05_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-445ed81992ca0e70d52d254e5beec133_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-ab02c5e2195454251806661f71d8116f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3702ce013d817899954bb39b76e3b2c1_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-fda8ce599e87d69926b1be3c3a3415a1_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-ea14c019aecd77a687a1147d023c26fd_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-df19bc0b8c665f05d976cfbd4aa1141d_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-4efd7e5a11adf411609301aa0762a4bb_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-d30f15f538bb9930ddbf19f67e34bc92_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d4b774040b868ebe280e3c1335c1a91b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-01663abbdcceac73e188e8b0b8ecf013_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b561a4efd885f2097ae72df7434ce136_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-12f41e4c56c4622f46224607f3a525dd_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-e279f423335d62bf199e896d788d6c15_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f4448c1f5156e6f3bb5aef2ac3b9bae8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4721988f83a89ed27c4c585c56b1a010_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fa23fe989f0f7340a190cfb73186a4eb_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-6764d173d7b27520cc56141d0ed19c45_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c58ac7639035a33d018230b897bb48d5_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-7d77a63214fa2734c5355e388dfc6161_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 201,
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "thanks_count": 8,
+        "is_copyable": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-90843e88590e9e48080347faa12aadfd_720w.jpg?source=b6762063",
+        "voteup_count": 43,
+        "preview_text": "",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991187713697787915}",
+      "attached_info": "CrYRCOHUmIPiq///swEQBBoJNzYzOTY5ODU3IPHP6MoGKCswBEBWSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9WgkxMTc5NTExMTRiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTkxMTg3NzEzNjk3Nzg3OTE1igETMTk5MTE4NjYxNDcyMzAzNjYyMaoBCXJlY29tbWVuZMIBIDMxNTg5MDYyYWNlZjBmZDNiZWNkODFhNTU2ODFkZTNi8gEKCAwSBk5vcm1hbPIBKAgKEiQ4OTMyODIxMS05ODEyLTRjMWEtOTI2Ni0yODc2ZWNmOWNjOTTyAQYICxICMTWCAgCIAovlkpu5M5ICIDMxNTg5MDYyYWNlZjBmZDNiZWNkODFhNTU2ODFkZTNimgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCBPoCC05PUk1BTF9GTE9XigMgYjViNDNmNWE0NmZiNDg3MDk5NzM0OGRjOTBhZWI0ZmGaAw0KAnYyEAAaBW90aGVyqAPLGtgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gOuDBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDENoJGIELIiN2Mi05MDg0M2U4ODU5MGU5ZTQ4MDgwMzQ3ZmFhMTJhYWRmZDotCAMQ2gkYpAgiI3YyLWM2M2E2OWNmYTVhYmViZGJiMTk3YjA0OTkxNTc4ZTBlOi0IAxDaCRiZDiIjdjItNmQ0NzViMGYzYTczODk4Y2I3OGI0MDhhM2UxNmNhYzU6LQgDENoJGPgMIiN2Mi1jMWI4NDk1ZGUyYzc1MzhmNzQwYWZjOGUyMTg5MzBlMDotCAMQuAgYgA8iI3YyLTA0MTliM2VlZWRmMTAwZDk4NzQ5NTlkYzYxNWUwMTEzOi0IAxDaCRj4DCIjdjItZTk3YzA3OGI5MmU1N2VlNGZjY2FmNDNmNzMxZjg3OWE6LQgEENoJGPgMIiN2Mi1iNTFjOWRmOTIyZjkzMzlmZjYyMWI3YTZkYWI2OWY4ZjotCAQQ2gkY+AwiI3YyLTIxMzQ4ZjE4Y2UwYzY1N2YxY2QxNDQ3ZDBmMmQ5YzE2Oi0IBBDaCRj4DCIjdjItOTg2M2UyZDI5YjAyOGI4NDk3MzQ5YTNkM2I3MWMyN2I6LQgEENoJGPgMIiN2Mi0wMzVjMjA3ODgwMWVlNDBkNTY3ODdjNzI0MDlmMWY4ZTotCAQQ2gkY+QwiI3YyLWZkNzUyYmIzNjJiODU5NmJjNTg3ODZiYzFlMWZhNTI0Oi0IBBDaCRj4DCIjdjItMmFlZmM0MzAzZjcyNGJiN2ExM2YyNmJiYjVmNmFhNDQ6LQgDENoJGPgMIiN2Mi01NjdmNzUyODNlMzJkZTYzZDJiY2JiNDJmZWMzOTQyMzotCAQQ2gkY+AwiI3YyLWJmOGRmMjNiZTMzNDIzMGFjYmUxYjdiMTQ0NGNmZDA1Oi0IBBDaCRj4DCIjdjItNDQ1ZWQ4MTk5MmNhMGU3MGQ1MmQyNTRlNWJlZWMxMzM6LQgEENoJGPgMIiN2Mi1hYjAyYzVlMjE5NTQ1NDI1MTgwNjY2MWY3MWQ4MTE2ZjotCAIQ2gkY+AwiI3YyLTM3MDJjZTAxM2Q4MTc4OTk5NTRiYjM5Yjc2ZTNiMmMxOi0IAxDaCRj4DCIjdjItZmRhOGNlNTk5ZTg3ZDY5OTI2YjFiZTNjM2EzNDE1YTE6LQgDENoJGKMHIiN2Mi1lYTE0YzAxOWFlY2Q3N2E2ODdhMTE0N2QwMjNjMjZmZDotCAMQ2gkYoBEiI3YyLWRmMTliYzBiOGM2NjVmMDVkOTc2Y2ZiZDRhYTExNDFkOi0IBBDaCRi7BSIjdjItNGVmZDdlNWExMWFkZjQxMTYwOTMwMWFhMDc2MmE0YmI6LQgDENoJGKQHIiN2Mi1kMzBmMTVmNTM4YmI5OTMwZGRiZjE5ZjY3ZTM0YmM5MjotCAQQ2gkYowciI3YyLWQ0Yjc3NDA0MGI4NjhlYmUyODBlM2MxMzM1YzFhOTFiOi0IBBDaCRj4DCIjdjItMDE2NjNhYmJkY2NlYWM3M2UxODhlOGIwYjhlY2YwMTM6LQgDENoJGPgMIiN2Mi1iNTYxYTRlZmQ4ODVmMjA5N2FlNzJkZjc0MzRjZTEzNjotCAMQ2gkY9wwiI3YyLTEyZjQxZTRjNTZjNDYyMmY0NjIyNDYwN2YzYTUyNWRkOi0IAxDaCRj3DCIjdjItZTI3OWY0MjMzMzVkNjJiZjE5OWU4OTZkNzg4ZDZjMTU6LQgDENoJGPcMIiN2Mi1mNDQ0OGMxZjUxNTZlNmYzYmI1YWVmMmFjM2I5YmFlODotCAIQ2gkY+AwiI3YyLTQ3MjE5ODhmODNhODllZDI3YzRjNTg1YzU2YjFhMDEwOi0IBBDaCRj4DCIjdjItZmEyM2ZlOTg5ZjBmNzM0MGExOTBjZmI3MzE4NmE0ZWI6LQgAENoJGPgMIiN2Mi02NzY0ZDE3M2Q3YjI3NTIwY2M1NjE0MWQwZWQxOWM0NTotCAAQ2gkY+AwiI3YyLWM1OGFjNzYzOTAzNWEzM2QwMTgyMzBiODk3YmI0OGQ1Oi0IABDaCRj4DCIjdjItN2Q3N2E2MzIxNGZhMjczNGM1MzU1ZTM4OGRmYzYxNjGABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOBAQYQ/gQUAAAAAAAAAAIkFcgsO4S16sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGV6gGAJICLgoJNzYzOTY5ODU3EhMxOTkxMTg3NzEzNjk3Nzg3OTE1GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "87_1767704408.819",
+      "type": "feed",
+      "offset": 87,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704408,
+      "updated_time": 1767704408,
+      "target": {
+        "preview_text": "",
+        "created_time": 1724934237,
+        "excerpt_new": "哥们，你坚持去做一件事，一件你认为正确的事。 什么美女、抖音，你根本不想看，走路上你都觉得碍眼挡路。 主线任务就这一个，有时候忘了吃饭，有时候睡着自己就爬起来，而且完全不困。 你觉得这世界怎么这么多傻逼，一天有那么多时间都在浪费，也不知道干点事情。 你觉得自己像个机器人，没有什么多余的感情，就是干得很起劲。 在这个时候，你身上就是发光的，超级酷的。因为你知道你做的是对的，你的决策是正确的，你不在意，…",
+        "answer_type": "normal",
+        "favorite_count": 22646,
+        "comment_count": 428,
+        "thanks_count": 1189,
+        "updated_time": 1724934237,
+        "is_copyable": true,
+        "question": {
+          "id": "636034037",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/636034037",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            405,
+            6222,
+            7475,
+            74118
+          ],
+          "detail": "",
+          "title": "如何培养出领袖气质？",
+          "follower_count": 0,
+          "is_following": false,
+          "question_type": "normal",
+          "created": 1703173668,
+          "comment_count": 2,
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "followers_count": 34,
+            "id": "dd6c68b67ae912c995d99ebc2574e3ab",
+            "name": "明望舒",
+            "avatar_url": "https://picx.zhimg.com/50/v2-c1912b51489f00d26e03460752c76864_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/dd6c68b67ae912c995d99ebc2574e3ab",
+            "user_type": "people",
+            "url_token": "skdmfk",
+            "headline": ""
+          },
+          "excerpt": ""
+        },
+        "excerpt": "哥们，你坚持去做一件事，一件你认为正确的事。 什么美女、抖音，你根本不想看，走路上你都觉得碍眼挡路。 主线任务就这一个，有时候忘了吃饭，有时候睡着自己就爬起来，而且完全不困。 你觉得这世界怎么这么多傻逼，一天有那么多时间都在浪费，也不知道干点事情。 你觉得自己像个机器人，没有什么多余的感情，就是干得很起劲。 在这个时候，你身上就是发光的，超级酷的。因为你知道你做的是对的，你的决策是正确的，你不在意，…",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "author": {
+          "followers_count": 1616,
+          "is_following": false,
+          "id": "0ffd459bc60495b098246beea325ef71",
+          "user_type": "people",
+          "url_token": "yan-hui-12-90",
+          "name": "高季高",
+          "headline": "有空多呼吸空气吧",
+          "is_org": false,
+          "url": "https://api.zhihu.com/people/0ffd459bc60495b098246beea325ef71",
+          "avatar_url": "https://picx.zhimg.com/50/v2-e8f824a4cd97bdbabbe140cc430140d2_l.jpg?source=b6762063",
+          "gender": -1,
+          "is_followed": false
+        },
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "KGopLO1R",
+            "text": "什么美女、抖音，你根本不想看，走路上你都觉得碍眼挡路。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 27,
+                "seg_info": {
+                  "seg_ids": [
+                    "1813330453312180225"
+                  ],
+                  "is_like": false,
+                  "like_count": 36,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "8T1PE1Ml",
+            "text": "主线任务就这一个，有时候忘了吃饭，有时候睡着自己就爬起来，而且完全不困。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 36,
+                "seg_info": {
+                  "seg_ids": [
+                    "1812803578441629697"
+                  ],
+                  "is_like": false,
+                  "like_count": 120,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "NszrZxOP",
+            "text": "你觉得这世界怎么这么多傻逼，一天有那么多时间都在浪费，也不知道干点事情。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 36,
+                "seg_info": {
+                  "seg_ids": [
+                    "1812803578441629697"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "b1UTHMSH",
+            "text": "你觉得自己像个机器人，没有什么多余的感情，就是干得很起劲。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1814973896409096193"
+                  ],
+                  "is_like": false,
+                  "like_count": 66,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "yLuTHknU",
+            "text": "在这个时候，你身上就是发光的，超级酷的。因为你知道你做的是对的，你的决策是正确的，你不在意，也不听别人说什么。冷漠，专注，坚定，决断力，理智，掌控感，自信，激情。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 81,
+                "seg_info": {
+                  "seg_ids": [
+                    "1813380917605052416"
+                  ],
+                  "is_like": false,
+                  "like_count": 159,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "B8lawiZU",
+            "text": "甚至不用做成功，你记录下来这种感受，这就是领袖气质的培养方法。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 31,
+                "seg_info": {
+                  "seg_ids": [
+                    "1814973923755974657"
+                  ],
+                  "is_like": false,
+                  "like_count": 22,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "HiHXRivF",
+            "text": "但要是真正具备领袖气质，就必须要把一件事情做完整，做成功才能拥有领袖气质。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 37,
+                "seg_info": {
+                  "seg_ids": [
+                    "1812803644837482496"
+                  ],
+                  "is_like": false,
+                  "like_count": 149,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "content": "<p data-pid=\"NDc7eJeV\">哥们，你坚持去做一件事，一件你认为正确的事。</p><p data-pid=\"KGopLO1R\">什么美女、抖音，你根本不想看，走路上你都觉得碍眼挡路。</p><p data-pid=\"8T1PE1Ml\">主线任务就这一个，有时候忘了吃饭，有时候睡着自己就爬起来，而且完全不困。</p><p data-pid=\"NszrZxOP\">你觉得这世界怎么这么多傻逼，一天有那么多时间都在浪费，也不知道干点事情。</p><p data-pid=\"b1UTHMSH\">你觉得自己像个机器人，没有什么多余的感情，就是干得很起劲。</p><p data-pid=\"yLuTHknU\">在这个时候，你身上就是发光的，超级酷的。因为你知道你做的是对的，你的决策是正确的，你不在意，也不听别人说什么。<b>冷漠，专注，坚定，决断力，理智，掌控感，自信，激情。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"B8lawiZU\">甚至不用做成功，你记录下来这种感受，这就是领袖气质的培养方法。</p><p data-pid=\"HiHXRivF\">但要是真正具备领袖气质，就必须要把一件事情做完整，做成功才能拥有领袖气质。</p><p data-pid=\"5-682ri4\">做成的这件事，就是你领袖气质的不灭圣火。</p>",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3610069592",
+        "voteup_count": 18380,
+        "is_labeled": false,
+        "visited_count": 609282,
+        "id": "3610069592",
+        "navigator_vote": false,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3610069592}",
+      "attached_info": "CvsFCOHUmIPiq///swEQBBoJNjg2NDQ2NjE1IN3QwbYGKMyPATCsA0BXSjsKKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9OEggxMjE0NDYzNxgAIAA6AFoJMTAzNjE5Mjk0YiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXIKMzYxMDA2OTU5MooBCTYzNjAzNDAzN6oBCXJlY29tbWVuZMIBIDBmZmQ0NTliYzYwNDk1YjA5ODI0NmJlZWEzMjVlZjcx8gEKCAwSBk5vcm1hbPIBKAgKEiRlMzg1MDQzOC0yNDA4LTQ4ZTUtYWExMi0yNTU0N2ViNzg1ZDXyAQYICxICMTWCAgCIAovlkpu5M5ICIDBmZmQ0NTliYzYwNDk1YjA5ODI0NmJlZWEzMjVlZjcxmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9O6AIC+gILTk9STUFMX0ZMT1eKAyBiNWI0M2Y1YTQ2ZmI0ODcwOTk3MzQ4ZGM5MGFlYjRmYZoDDQoCdjIQABoFb3RoZXKoA4KYJdgDAOoDHWZpcnN0RGVncmVlVXNlckFjdGlvblJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAACzMZw/gQUAAAAAAAAAAIkFcgsO4S16sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGWKgGAJICJQoJNjg2NDQ2NjE1EgozNjEwMDY5NTkyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "88_1767704408.320",
+      "type": "feed",
+      "offset": 88,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704408,
+      "updated_time": 1767704408,
+      "target": {
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-ea0293a3864fe49b207a444e986ffbe2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b48e226c4c67fd7677154c32b7e035a8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-10d23c1d3d85cb7b40db51b1ec173933_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-7324d90a43e6dea4ae525595c53e2b11_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9164b5ec7970502fafbd8a7cd5a92e95_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-af690421ee52a06bd595fe35f52c985c_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-532c6f78c89905c2925e2b072a860ad0_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-bc65a0f155817194334805585bdea9b6_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c8d7f6ace97ed8448f8bbf959b167191_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-534226de4d23ff1adb1cd1c7e3857c38_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-996620bafddf41fb68d63ff12f0aa15d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-40257bbe7eeeb5d0322157ca6b074c70_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cffc71a25335e06d3aa9e495416804ac_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5af7397960af8e3c189213f4bf097a7f_720w.jpg?source=b6762063"
+        ],
+        "voteup_count": 25,
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "vote_next_step": "vote",
+        "content": "<h2>1、CBeebies</h2><p data-pid=\"VUbhtkoT\">这是BBC专门为孩子打造的英语启蒙网站，汇集了全球重量级的学龄前动画IP不管是火遍全网的布鲁伊，还是拿奖拿到手软的阿奇幼幼园甚至是经典的花园宝宝在这里全都能看，而且全是原汁原味的英式发音</p><p data-pid=\"s8exwrhZ\">最变态的是，他不仅能看视频，还把动画情节做成了互动游戏和手工教程，让孩子一边玩游戏，一边学英语，画面精美，还完全免费，这才是真正的母语式启蒙。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ea0293a3864fe49b207a444e986ffbe2_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-ea0293a3864fe49b207a444e986ffbe2\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic1.zhimg.com/v2-ea0293a3864fe49b207a444e986ffbe2_r.jpg\"/></figure><p data-pid=\"G_WOMI_P\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//www.cbeebies.com/\" data-icon-name=\"zhicon_icon_24_link\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">cbeebies.com/</span><span class=\"invisible\"></span></a></p><h2>2、KMS.CX</h2><p data-pid=\"hKGVd609\">这是一个能一键激活 Windows 和 Office 的实用网站，单日已帮助上千台电脑完成系统激活。操作简单，先选择要激活的软件类型，再挑选对应产品版本，下方会生成专属激活脚本，下载后直接运行即可轻松去除激活弹窗。网站还配备了详细使用教程，纯小白对着文档也能快速上手，全程无需安装额外软件，纯脚本运行，安全无捆绑，实用性拉满。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b48e226c4c67fd7677154c32b7e035a8_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-b48e226c4c67fd7677154c32b7e035a8\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic3.zhimg.com/v2-b48e226c4c67fd7677154c32b7e035a8_r.jpg\"/></figure><p data-pid=\"MFEOReBI\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//kms.cx/\" data-icon-name=\"zhicon_icon_24_link\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">kms.cx/</span><span class=\"invisible\"></span></a></p><h2>3、LetMeEnglish</h2><p data-pid=\"LylT_mxh\">这是一个助力英语学习、打破沟通障碍的免费网站，资源丰富且分类明了，涵盖文法、词汇、句型、日常会话、听力练习等多个主题。无论是想夯实语法基础、扩展词汇量，还是提升日常交流能力，都能在这里找到对应学习内容，随时打开就能学，全程免费。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-10d23c1d3d85cb7b40db51b1ec173933_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-10d23c1d3d85cb7b40db51b1ec173933\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic2.zhimg.com/v2-10d23c1d3d85cb7b40db51b1ec173933_r.jpg\"/></figure><p data-pid=\"KGO3sckL\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//letmeenglish.com/\" data-icon-name=\"zhicon_icon_24_link\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">letmeenglish.com/</span><span class=\"invisible\"></span></a></p><h2>4、City walks</h2><p data-pid=\"pAvdw0RQ\">这是一个可以让你随时随地“逛遍全世界”的沉浸式街景网站！进入网站后会随机跳转到世界各地街头，让你通过第一视角漫步城市。网站支持白天/夜晚模式，还能选择海滩专属路线，高清画质、真实环境音效让你身临其境。</p><p data-pid=\"ZEnjOtbh\">不论是想在佛罗伦萨闲逛、在西班牙看海，还是随机探索未知街区，都能轻松体验。网站无需注册、无需下载，打开网页就能开始全球之旅。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8b82c0e779bdeb3d062606d0736a781a_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"619\" data-size=\"normal\" data-original-token=\"v2-8b82c0e779bdeb3d062606d0736a781a\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic1.zhimg.com/v2-8b82c0e779bdeb3d062606d0736a781a_r.jpg\"/></figure><p data-pid=\"pp1i-FqC\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//citywalks.live/\" data-icon-name=\"zhicon_icon_24_link\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">citywalks.live/</span><span class=\"invisible\"></span></a></p><h2>5、深言达意</h2><p data-pid=\"34w_Pugl\">这是由清华大学自然语言处理实验室创建的工具，专治 “词穷”，能帮你提升表达能力。它是一个反向查词系统，你可以通过描述想要表达的意思查找对应的词语，比如 “形容一个人很有文化”“形容很遗憾”，它都会给出多种选择。工具完全免费，写论文、写文案时遇到表达卡壳的情况，用它准没错，建议收藏备用。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7324d90a43e6dea4ae525595c53e2b11_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-7324d90a43e6dea4ae525595c53e2b11\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://picx.zhimg.com/v2-7324d90a43e6dea4ae525595c53e2b11_r.jpg\"/></figure><p data-pid=\"XubAO7Dd\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//www.shenyandayi.com/\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">深言达意 - 找词找句</a></p><h2>6、Instructables</h2><p data-pid=\"HV4sgbgK\">这是一个专门教你自己动手解决一切问题的网站！</p><p data-pid=\"6BQ_-a83\">不管是改装电脑、DIY游戏机、制作宠物玩具、烘焙网红甜品……这里全都有详细教程，每个项目都包含：材料清单、详细步骤、配图说明、操作技巧，甚至还有作者的踩坑经验。许多教程还带视频演示，新手照着一步步就能完成，网站分类极细：手工艺、美食、电子、家居、户外活动等应有尽有，超适合热爱生活或喜欢创意DIY的人。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9164b5ec7970502fafbd8a7cd5a92e95_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-9164b5ec7970502fafbd8a7cd5a92e95\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic4.zhimg.com/v2-9164b5ec7970502fafbd8a7cd5a92e95_r.jpg\"/></figure><p data-pid=\"Ez0jq3hL\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//www.instructables.com/\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Yours for the making</a></p><h2>7、知鸿阁</h2><p data-pid=\"W0WJP6MU\">这上面起码有100多个互联网方面的项目，比如某鱼、某红书卖虚拟资料、公众号写作变现、网盘拉新......各种小项目。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-af690421ee52a06bd595fe35f52c985c_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"733\" data-size=\"normal\" data-original-token=\"v2-af690421ee52a06bd595fe35f52c985c\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pica.zhimg.com/v2-af690421ee52a06bd595fe35f52c985c_r.jpg\"/></figure><p data-pid=\"jDnjAB75\">这个网站站长相当有互联网创业方面的经验，写出来的每一篇文章都可以让你学到很多东西，0基础的小白去看了也能很快成为高手。</p><p data-pid=\"PSsZKJ8i\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//zhihongge.com\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知鸿阁</a></p><h2>8、fakeupdate</h2><p data-pid=\"aL5LzlVX\">这是一个专为摸鱼党打造的。假装电脑升级神器，只需打开网站就能选择各种系统的升级界面，包括从最早的xpwin7、win10win11，甚至还有macosteam更新界面等。</p><p data-pid=\"u15E_bij\">页面不是一个图片，而是带有进度条的升级画面，选好后按f11进入全屏模式，立刻假装电脑正在更新，光明正大玩手机，毫无压力，按下回车键即可升级完成，瞬间回到桌面继续工作。网页打开就能使用，无需注册，无需下载。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-532c6f78c89905c2925e2b072a860ad0_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-532c6f78c89905c2925e2b072a860ad0\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic3.zhimg.com/v2-532c6f78c89905c2925e2b072a860ad0_r.jpg\"/></figure><p data-pid=\"Xh0OBjrV\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//fakeupdate.net/\" data-icon-name=\"zhicon_icon_24_link\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">fakeupdate.net/</span><span class=\"invisible\"></span></a></p><h2>9、LocallyTools</h2><p data-pid=\"3_WE1o-R\">这是一个安全、免费且支持离线使用的本地工具集合网站。网站包含多种实用功能：图片工具、PDF 工具、开发者工具等。例如，将 PDF 转换为 JPG 只需上传文件、点击“转换”，即可瞬间生成结果并下载。</p><p data-pid=\"YYWFi7L1\">所有功能均在本地运行，安全可靠且持续更新，非常好用。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-bc65a0f155817194334805585bdea9b6_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-bc65a0f155817194334805585bdea9b6\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic3.zhimg.com/v2-bc65a0f155817194334805585bdea9b6_r.jpg\"/></figure><p data-pid=\"hCNq_XcX\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//locallytools.com/zh-Hans\" data-icon-name=\"zhicon_icon_24_link\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">locallytools.com/zh-Han</span><span class=\"invisible\">s</span><span class=\"ellipsis\"></span></a></p><h2>10、Remove.bg</h2><p data-pid=\"eYHCdac8\">这是一个能让你一键自动去除图片背景的网站，不懂ps也没关系，只需要在这里上传图片，它就能自动精准识别，并一键抠出人物产品、汽车等各种主体，而且网站的ai算法特别牛，像头发丝、羽毛这些难搞的细节也能精准搞定。</p><p data-pid=\"qxqodHTa\">处理后的背景可以换成任意颜色和图片，一键就能做出专业级的电商主图证件照和各种大片网站还提供了强大的批量处理功能，几十张产品图，电商素材一键上传几分钟就能直接搞定，效率直接拉满，并且抠完背景的图片还支持模法抹除模糊背景，添加阴影各种功能，操作非常简单，新手小白也能秒变修图大神，赶紧去试试吧。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c8d7f6ace97ed8448f8bbf959b167191_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-c8d7f6ace97ed8448f8bbf959b167191\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic4.zhimg.com/v2-c8d7f6ace97ed8448f8bbf959b167191_r.jpg\"/></figure><p data-pid=\"iGKDtaF2\">地址：<a href=\"https://link.zhihu.com/?target=https%3A//www.remove.bg/zh\" data-icon-name=\"zhicon_icon_24_link\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">remove.bg/zh</span><span class=\"invisible\"></span></a></p><h2>11、MC.JS</h2><p data-pid=\"V2PCivmi\">这是一个能直接在浏览器里玩《我的世界》的神奇网站。打开即可直接游玩，无需下载安装，手机、平板、电脑都能流畅运行,提供多种玩法：单人游戏、生存模式、挖矿打怪、极限挑战、生存创造模式等,网站还支持多人局域网联机，自由建造，体验原汁原味的像素世界。</p><p data-pid=\"bcmRWocp\">初次进入时会自动存档，不必担心进度丢失，1:1 还原原版核心机制，完全免费，无广告，非常好用！</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-534226de4d23ff1adb1cd1c7e3857c38_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-534226de4d23ff1adb1cd1c7e3857c38\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic3.zhimg.com/v2-534226de4d23ff1adb1cd1c7e3857c38_r.jpg\"/></figure><p data-pid=\"LqKJ3A-_\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//www.mc.js.cool\" data-icon-name=\"zhicon_icon_24_link\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">mc.js.cool</span><span class=\"invisible\"></span></a></p><h2>12、CCTV官网</h2><p data-pid=\"eCq9a8rt\">原来真的有人帮我们把童年保存了下来。最近发现这个CCTV的官网片库里就可以看到好多以前的动画片，喜羊羊与灰太狼、熊出没、开心宝贝、赛尔号等等这种模糊的画质，也许才能给我们熟悉的感觉，还能看到当年的电视剧、纪录片，童年并没有离去，他只是变成了一个个彩蛋，在等我们打开。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-996620bafddf41fb68d63ff12f0aa15d_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-996620bafddf41fb68d63ff12f0aa15d\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic4.zhimg.com/v2-996620bafddf41fb68d63ff12f0aa15d_r.jpg\"/></figure><p data-pid=\"fUaKjGaw\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//tv.cctv.com/\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">CCTV节目官网_央视网</a></p><h2>13、Zeo Seven Fonts</h2><p data-pid=\"UBJwZY6Q\">这是一个拥有超过800款免费可商用字体的网站！帮你彻底解决字体版权问题，不论你是做PPT、设计海报还是搭建网页，这里的字体都能直接免费下载并安全商用。</p><p data-pid=\"1ixo2taf\">每个字体都有清晰的授权说明，网站支持中文、英文、日文、韩文等多国语言字体，可实时预览效果，还能通过CSS代码嵌入网页。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-40257bbe7eeeb5d0322157ca6b074c70_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"685\" data-size=\"normal\" data-original-token=\"v2-40257bbe7eeeb5d0322157ca6b074c70\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic1.zhimg.com/v2-40257bbe7eeeb5d0322157ca6b074c70_r.jpg\"/></figure><p data-pid=\"meAUzXd4\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//fonts.zeoseven.com/\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">释放字体自由 - ZeoSeven Fonts (ZSFT)</a></p><h2>14、掘金谷</h2><p data-pid=\"H1weydM4\">这个网站，简直是“万能小卖部”，啥都有：影视、壁纸、自媒体软件工具、小吃配方、中小学幼教资料、考公考编课程，甚至还有车载U盘和短剧素材……市面上的资料基本都有，需要什么资料还可以留言，站长会及时更新，重点是，全都能白嫖。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-cffc71a25335e06d3aa9e495416804ac_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"820\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-cffc71a25335e06d3aa9e495416804ac\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pica.zhimg.com/v2-cffc71a25335e06d3aa9e495416804ac_r.jpg\"/></figure><p data-pid=\"nMXGiDyc\">一句话：这网站不火，简直是天理难容。</p><p data-pid=\"8KNHn1ng\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//juejingu.com/\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">掘金谷</a></p><h2>15、第一ppt</h2><p data-pid=\"yV6SZLKI\">这是一个完全免费的ppt模板资源下载网站网站做了非常详细的分类，方便找到想要的模板，可以筛选行业ppt节日pptppt的主题颜色等等。</p><p data-pid=\"JhST9GVP\">里面还有很多与ppt制作相关的ppt背景、ppt图表、ppt字体等素材资源网站完全免费，不需要登录，使用也非常简单，找到自己喜欢的ppt以后，点击就能看到里面的样式，方便查看是不是符合自己的要求，下载后就可以直接使用了。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5af7397960af8e3c189213f4bf097a7f_1440w.jpg\" data-rawwidth=\"1265\" data-rawheight=\"667\" data-size=\"normal\" data-original-token=\"v2-5af7397960af8e3c189213f4bf097a7f\" class=\"origin_image zh-lightbox-thumb\" width=\"1265\" data-original=\"https://pic4.zhimg.com/v2-5af7397960af8e3c189213f4bf097a7f_r.jpg\"/></figure><p data-pid=\"WBLOzSq7\">网站地址：<a href=\"https://link.zhihu.com/?target=https%3A//www.1ppt.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">1ppt.com/</span><span class=\"invisible\"></span></a></p><p data-pid=\"KANBWBex\">1.资源来源网络;</p><p data-pid=\"NOmA9KkC\">2.所有资源仅用作为学习用途，不能用于商业通途，</p><p data-pid=\"94IWkuar\">3.本文只负责数据的搜集和整理工作，不能保证资料的精度和准确度以及时效性;</p><p data-pid=\"Z0PJW-fv\">4.如资源有侵权，请告知本人，尽早删除该资源。</p>",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1991249479186260162",
+        "created_time": 1767530871,
+        "excerpt_new": "1、CBeebies这是BBC专门为孩子打造的英语启蒙网站，汇集了全球重量级的学龄前动画IP不管是火遍全网的布鲁伊，还是拿奖拿到手软的阿奇幼幼园甚至是经典的花园宝宝在这里全都能看，而且全是原汁原味的英式发音 最变态的是，他不仅能看视频，还把动画情节做成了互动游戏和手工教程，让孩子一边玩游戏，一边学英语，画面精美，还完全免费，这才是真正的母语式启蒙。   网站地址： https://www.cbeebies.com/ 2、KMS.CX这是一个能一键激活 Win…",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "thanks_count": 5,
+        "preview_type": "default",
+        "visited_count": 1962,
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "comment_count": 1,
+        "question": {
+          "url": "https://api.zhihu.com/questions/380741546",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-9bd296df3f07a0ec2f3a31ea948d375e_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false,
+            "url_token": "song-lang-64",
+            "name": "宋朗",
+            "headline": "",
+            "is_org": false,
+            "followers_count": 15,
+            "id": "adba57062842248aa9c7dd3775f91a8a",
+            "url": "https://api.zhihu.com/people/adba57062842248aa9c7dd3775f91a8a",
+            "user_type": "people"
+          },
+          "follower_count": 0,
+          "detail": "",
+          "type": "question",
+          "created": 1584596960,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            1699,
+            2083,
+            32990
+          ],
+          "id": "380741546",
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "comment_count": 60,
+          "excerpt": "",
+          "question_type": "normal",
+          "title": "有哪些能玩上一天的网站？"
+        },
+        "preview_text": "",
+        "excerpt": "1、CBeebies这是BBC专门为孩子打造的英语启蒙网站，汇集了全球重量级的学龄前动画IP不管是火遍全网的布鲁伊，还是拿奖拿到手软的阿奇幼幼园甚至是经典的花园宝宝在这里全都能看，而且全是原汁原味的英式发音 最变态的是，他不仅能看视频，还把动画情节做成了互动游戏和手工教程，让孩子一边玩游戏，一边学英语，画面精美，还完全免费，这才是真正的母语式启蒙。   网站地址： https://www.cbeebies.com/ 2、KMS.CX这是一个能一键激活 Win…",
+        "favorite_count": 216,
+        "is_navigator": false,
+        "type": "answer",
+        "author": {
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/ce00511dea364994bb900efa50cc023f",
+          "user_type": "people",
+          "url_token": "64-16-21-34-13",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 183,
+          "id": "ce00511dea364994bb900efa50cc023f",
+          "name": "泽恩",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-63bcd693d1dd6dfe0996c329c8e97a51_l.jpg?source=b6762063",
+          "is_followed": false
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-ea0293a3864fe49b207a444e986ffbe2_720w.jpg?source=b6762063",
+        "id": "1991249479186260162",
+        "updated_time": 1767530871
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991249479186260162}",
+      "attached_info": "Co8MCOHUmIPiq///swEQBBoJNzYzOTk5OTM0IPfC6coGKBkwAUBYSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9Si4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg0Njg4NzU1NGIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5OTEyNDk0NzkxODYyNjAxNjKKAQkzODA3NDE1NDaqAQlyZWNvbW1lbmTCASBjZTAwNTExZGVhMzY0OTk0YmI5MDBlZmE1MGNjMDIzZvIBCggMEgZOb3JtYWzyASgIChIkYjc1NjcwOGMtNjdhMS00MjA4LWExZmYtNTYzZDJiNDY4YjJi8gEGCAsSAjE1ggIAiAKL5ZKbuTOSAiBjZTAwNTExZGVhMzY0OTk0YmI5MDBlZmE1MGNjMDIzZpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AIC+gILTk9STUFMX0ZMT1eKAyBiNWI0M2Y1YTQ2ZmI0ODcwOTk3MzQ4ZGM5MGFlYjRmYZoDDQoCdjIQABoFb3RoZXKoA6oP2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6A+AFEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ8QkYrQUiI3YyLWVhMDI5M2EzODY0ZmU0OWIyMDdhNDQ0ZTk4NmZmYmUyOi0IAhDxCRitBSIjdjItYjQ4ZTIyNmM0YzY3ZmQ3Njc3MTU0YzMyYjdlMDM1YTg6LQgCEPEJGK0FIiN2Mi0xMGQyM2MxZDNkODVjYjdiNDBkYjUxYjFlYzE3MzkzMzotCAIQ8QkY6wQiI3YyLThiODJjMGU3NzliZGViM2QwNjI2MDZkMDczNmE3ODFhOi0IAhDxCRitBSIjdjItNzMyNGQ5MGE0M2U2ZGVhNGFlNTI1NTk1YzUzZTJiMTE6LQgCEPEJGK0FIiN2Mi05MTY0YjVlYzc5NzA1MDJmYWZiZDhhN2NkNWE5MmU5NTotCAIQ8QkY3QUiI3YyLWFmNjkwNDIxZWU1MmEwNmJkNTk1ZmUzNWY1MmM5ODVjOi0IAhDxCRitBSIjdjItNTMyYzZmNzhjODk5MDVjMjkyNWUyYjA3MmE4NjBhZDA6LQgCEPEJGK0FIiN2Mi1iYzY1YTBmMTU1ODE3MTk0MzM0ODA1NTg1YmRlYTliNjotCAMQ8QkYrQUiI3YyLWM4ZDdmNmFjZTk3ZWQ4NDQ4ZjhiYmY5NTliMTY3MTkxOi0IAxDxCRitBSIjdjItNTM0MjI2ZGU0ZDIzZmYxYWRiMWNkMWM3ZTM4NTdjMzg6LQgCEPEJGK0FIiN2Mi05OTY2MjBiYWZkZGY0MWZiNjhkNjNmZjEyZjBhYTE1ZDotCAIQ8QkYrQUiI3YyLTQwMjU3YmJlN2VlZWI1ZDAzMjIxNTdjYTZiMDc0YzcwOi0IAhDxCRi0BiIjdjItY2ZmYzcxYTI1MzM1ZTA2ZDNhYTllNDk1NDE2ODA0YWM6LQgCEPEJGJsFIiN2Mi01YWY3Mzk3OTYwYWY4ZTNjMTg5MjEzZjRiZjA5N2E3ZoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgI8sfz+BBQAAAAAAAAAAiQVyCw7hLXqyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUPkAYAoAZZqAYBkgIuCgk3NjM5OTk5MzQSEzE5OTEyNDk0NzkxODYyNjAxNjIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "89_1767704408.405",
+      "type": "feed",
+      "offset": 89,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704408,
+      "updated_time": 1767704408,
+      "target": {
+        "content": "<p data-pid=\"sOPM3FrC\">当年天涯有一篇帖子，讲的是将普通人的人生比喻为一场大型RPG游戏，明确指出其唯一的主线任务是“上半场像苦行僧般积累金融、认知、健康三大原始资本，下半场全力搭建一个脱离时间换钱的个人商业模式系统”，并提供了清晰、残酷但极具操作性的两阶段行动纲领。</p><p data-pid=\"61wchF2G\"><b>天涯论坛：《普通人的唯一主线任务：上半场攒子弹，下半场造机枪》</b></p><p data-pid=\"Zo4RUx4T\"><b>作者：佚名</b></p><p data-pid=\"F-gtwuhr\"><b>原文完整版PDF：</b><a href=\"https://link.zhihu.com/?target=https%3A//link3.cc/tyst666\" data-draft-title=\"张介子笔记 | Link3\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">link3.cc/tyst666</span><span class=\"invisible\"></span></a></p><p data-pid=\"b4JKSo7G\">以下是原文内容：</p><p data-pid=\"XF6eQryz\">没有托举的普通人，只有一个主线任务!</p><p data-pid=\"hWqC78gP\">作为普通人的我们，每走一步路都得拼命努力。这个世界就是一个大型的RPG游戏。有的人是氪金玩家，一出生父母就给他们充满了装备，点满了技能。</p><p data-pid=\"tpi2caGw\">而我们大部分普通人是免费玩家，赤手空拳，一丝不挂，被扔进新手村。身后没有家族给你托举，眼前是数不清的、需要你自己去打的怪。对于这样的我们，一生的剧本，其实非常简单。</p><p data-pid=\"sBgT1ORf\">这个主线任务，到底是什么?这个主线任务，不是考个好大学，不是进个大公司，更不是买一套房子。这些，都只是支线任务或者是主线任务的附属品。</p><p data-pid=\"eTV0piP9\">我们这一生，唯一的主线任务，分为上下两个半场:前半生，完成原始资本的积累;后半生，搭建个人商业模式的系统。</p><p data-pid=\"t2rWfdtB\">所谓的原始资本，主要分三样</p><p data-pid=\"GTJQGs44\">第一，金融资本。就是你银行卡里，那笔能让你在不做任何事的情况下，也能体面地活一年的钱。这是你所有安全感的基石。</p><p data-pid=\"S75FbuF5\">第二，认知资本。就是你大脑里，那套能让你看清世界真相，并做出正确决策的思维模型。</p><p data-pid=\"fsOft9K5\">第三，健康资本。就是你那副能支撑你打完这场硬仗的身体和精神。</p><p data-pid=\"VoSSXxwr\">而个人商业模式的系统，是你后半生能活得越来越轻松、越来越值钱的关键。它是一个能让你摆脱用时间换钱这个陷阱的自动化赚钱机器。前半生你的任务，是为自己攒子弹;后半生你的任务，是为自己造一台能自动发射子弹的机器。</p><p data-pid=\"M8NBAiIf\">如何完成你的原始资本积累?</p><p data-pid=\"w6KzZboW\">这是你人生前半场最重要，也最残酷的阶段。你需要像一个苦行僧一样，去完成三件事。</p><p data-pid=\"uRVf_snL\">第一，把自己当成一个苦行僧。你必须过一种极度专注，甚至有点无趣的生活。你要拒绝所有消耗你时间和金钱的无效社交和廉价娱乐。你要把别人刷短视频、喝大酒的时间，都用来投资到你的三大资本上去。这个过程很苦，但这是你作为一个免费玩家唯一的出人头地的路。</p><p data-pid=\"ug6RwbOi\">第二，把工作当成你的练级场。千万不要对你的第一份，甚至第二份工作抱有任何情感上的幻想。它不是你的家它只是你免费的，或者说付费的练级场。你要像一块海绵一样，疯狂地从你现在的工作中吸收养分:去学技能去链接资源，去看高手是怎么做的。工资只是你在这家公司练级，他们付给你的学费。</p><p data-pid=\"WZRY6rDw\">第三，把薪水看作你的第一桶金。每个月，强制性地把你收入的一半，甚至更多存下来。这笔钱，不是用来消费的，它是你未来所有事业的启动资金一分一毫都不能乱动。</p><p data-pid=\"K4g3us8I\">如何搭建你的个人商业模式?</p><p data-pid=\"AcksfDLT\">当你通过几年的苦修，完成了原始资本的积累后，你就要立刻启动你人生的下半场:搭建你的个人商业模式。</p><p data-pid=\"DaVx5cPX\">第一，找到你的生态位。你不需要跟所有人竞争，你只需要找到一个非常细分的、你比90%的人都做得好一点点的领域。这个生态位，最好是你热爱、擅长和市场需求的交集。</p><p data-pid=\"Xkia61x8\">第二，打造你的产品。把你在这个生态位上的能力产品化，可以是一篇文章、一节课、一次咨询、一个能解决小问题的工具。你必须有一个可以清晰地向市场报价的价值单元</p><p data-pid=\"qN2Lyzrb\">第三，建立你的流量渠道。你要开始在一个平台，比如小红书或者视频号持续地输出你的价值，让那些需要你这个产品的人能找到你。</p><p data-pid=\"IeIu19ba\">一个健康的个人商业模式，就是你找到了一个你能填补的市场缺口，然后用你的内容建了一座桥，连接了你和你的客户</p><p data-pid=\"oiSw4R16\">这条路，很难，也很孤独。没有攻略没有捷径，甚至连为你鼓掌的人都很少。但这恰恰是它的迷人之处，因为你走的每一步，都是在为你自己的人生绘制地图;你吃的每一份苦，都是在为你未来的家族打下地基。</p>",
+        "visited_count": 7883,
+        "favorite_count": 335,
+        "excerpt": "当年天涯有一篇帖子，讲的是将普通人的人生比喻为一场大型RPG游戏，明确指出其唯一的主线任务是“上半场像苦行僧般积累金融、认知、健康三大原始资本，下半场全力搭建一个脱离时间换钱的个人商业模式系统”，并提供了清晰、残酷但极具操作性的两阶段行动纲领。 天涯论坛：《普通人的唯一主线任务：上半场攒子弹，下半场造机枪》 作者：佚名 原文完整版PDF：https://link3.cc/tyst666 以下是原文内容： 没有托举的普通人，只有一个主线…",
+        "excerpt_new": "当年天涯有一篇帖子，讲的是将普通人的人生比喻为一场大型RPG游戏，明确指出其唯一的主线任务是“上半场像苦行僧般积累金融、认知、健康三大原始资本，下半场全力搭建一个脱离时间换钱的个人商业模式系统”，并提供了清晰、残酷但极具操作性的两阶段行动纲领。 天涯论坛：《普通人的唯一主线任务：上半场攒子弹，下半场造机枪》 作者：佚名 原文完整版PDF：https://link3.cc/tyst666 以下是原文内容： 没有托举的普通人，只有一个主线…",
+        "preview_text": "",
+        "id": "1991481515889148112",
+        "author": {
+          "id": "4b1a56970dda3cb034733dc2b40229a2",
+          "url": "https://api.zhihu.com/people/4b1a56970dda3cb034733dc2b40229a2",
+          "url_token": "yang-meng-71-91",
+          "name": "杨萌",
+          "is_following": false,
+          "user_type": "people",
+          "headline": "公众号【张介子笔记】",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 1678,
+          "is_followed": false
+        },
+        "created_time": 1767586193,
+        "updated_time": 1767662002,
+        "thanks_count": 7,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "voteup_count": 114,
+        "is_copyable": true,
+        "question": {
+          "comment_count": 17,
+          "detail": "",
+          "created": 1752585047,
+          "relationship": {
+            "is_author": false
+          },
+          "bound_topic_ids": [
+            2194522,
+            2244620,
+            2676519
+          ],
+          "question_type": "normal",
+          "id": "1928562151238394000",
+          "type": "question",
+          "title": "普通家庭对孩子最好的托举是什么？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/1928562151238394000",
+          "author": {
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/42190fb3178fde1a2ccc5fbdbc845a69",
+            "user_type": "people",
+            "url_token": "45-94-96-66-24",
+            "name": "倾听呢喃",
+            "headline": "喜欢读史书，职场，亲子关系的探讨",
+            "is_org": false,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "汽车制造业 从业人员"
+              }
+            ],
+            "id": "42190fb3178fde1a2ccc5fbdbc845a69",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-7e621acf620ce7d4dab5badc3984c63a_l.jpg?source=b6762063",
+            "gender": 0,
+            "followers_count": 1046,
+            "is_followed": false
+          }
+        },
+        "is_labeled": false,
+        "url": "https://api.zhihu.com/answers/1991481515889148112",
+        "comment_count": 2,
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991481515889148112}",
+      "attached_info": "CoQHCOHUmIPiq///swEQBBoJNzY0MDc5OTY1IJHz7MoGKHIwAkBZSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9SjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifUouChlUU19TT1VSQ0VfRkVFRFJFX01TX0hRX1YzEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE1ODE3OTg0YiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXITMTk5MTQ4MTUxNTg4OTE0ODExMooBEzE5Mjg1NjIxNTEyMzgzOTQwMDCqAQlyZWNvbW1lbmTCASA0YjFhNTY5NzBkZGEzY2IwMzQ3MzNkYzJiNDAyMjlhMvIBCggMEgZOb3JtYWzyASgIChIkZDk2ZDIxZjEtODNmYS00NzFlLTk5ZmItZDhlNjgzYTJlNmJi8gEGCAsSAjE1ggIAiAKL5ZKbuTOSAiA0YjFhNTY5NzBkZGEzY2IwMzQ3MzNkYzJiNDAyMjlhMpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgP6AgtOT1JNQUxfRkxPV4oDIGI1YjQzZjVhNDZmYjQ4NzA5OTczNDhkYzkwYWViNGZhmgMNCgJ2MhAAGgVvdGhlcqgDyz3YAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgDmDhj+BBQAAAAAAAAAAiQVyCw7hLXqyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUPkAYAoAZaqAYAkgIuCgk3NjQwNzk5NjUSEzE5OTE0ODE1MTU4ODkxNDgxMTIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=89&desktop=true&end_offset=90&page_number=16&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=89&desktop=true&end_offset=90&page_number=16&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

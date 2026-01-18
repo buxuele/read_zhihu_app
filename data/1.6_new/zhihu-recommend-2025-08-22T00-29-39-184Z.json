@@ -1,0 +1,571 @@
+{
+  "data": [
+    {
+      "id": "360_1755822625.995",
+      "type": "feed",
+      "offset": 360,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822625,
+      "updated_time": 1755822625,
+      "target": {
+        "id": "3573465997",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3573465997",
+        "author": {
+          "id": "77b77b0fbcb33cf598f405f1c8a3be6a",
+          "url": "https://api.zhihu.com/people/77b77b0fbcb33cf598f405f1c8a3be6a",
+          "user_type": "people",
+          "url_token": "shan-shui-zi-44",
+          "name": "Karma",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-7ca2c77ed59b670a5a06675e1cd40e65_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "软件开发行业 从业人员"
+            }
+          ],
+          "followers_count": 1463,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1721909460,
+        "updated_time": 1723105044,
+        "voteup_count": 121,
+        "thanks_count": 4,
+        "comment_count": 22,
+        "is_copyable": true,
+        "question": {
+          "id": "38915323",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/38915323",
+          "author": {
+            "id": "d0e6fd42a034202eb22a93fc696bf2ce",
+            "url": "https://api.zhihu.com/people/d0e6fd42a034202eb22a93fc696bf2ce",
+            "user_type": "people",
+            "url_token": "tao-yi-yao-17",
+            "name": "狐狸3776",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/6f478927e7fb7a7b81f7c6918a5cb661_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 6,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "淘宝代写代码的都是什么人？",
+          "created": 1451187921,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 9,
+          "bound_topic_ids": [
+            707,
+            735,
+            3123
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "偏个题，淘宝写代码的是什么人我不清楚，但是咸鱼代写代码的可能我认识一个，就是个学习全班倒数的研究生，对，没错，就是曾经的我。才开始的3个月就挣了九千多，后来因为学业繁忙，后来的一年多挣了1w多，16个月左右挣了2万1不到。 我的业务主要面向高校学生，接单挣钱这块，如果你不想挣大钱的话，也不是很累，但是，2024年的今天，你想接单那你得有些绝活。最开始接单写代码的时候，是2022年的11月，那时候是疫情最严重的时候…",
+        "excerpt_new": "偏个题，淘宝写代码的是什么人我不清楚，但是咸鱼代写代码的可能我认识一个，就是个学习全班倒数的研究生，对，没错，就是曾经的我。才开始的3个月就挣了九千多，后来因为学业繁忙，后来的一年多挣了1w多，16个月左右挣了2万1不到。 我的业务主要面向高校学生，接单挣钱这块，如果你不想挣大钱的话，也不是很累，但是，2024年的今天，你想接单那你得有些绝活。最开始接单写代码的时候，是2022年的11月，那时候是疫情最严重的时候…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"5yi93tyo\">偏个题，淘宝写代码的是什么人我不清楚，但是咸鱼代写代码的可能我认识一个，就是个学习全班倒数的研究生，对，没错，就是曾经的我。才开始的3个月就挣了九千多，后来因为学业繁忙，后来的一年多挣了1w多，16个月左右挣了2万1不到。</p><p data-pid=\"BXsE9NV9\"><b>我的业务主要面向高校学生，接单挣钱这块，如果你不想挣大钱的话，也不是很累，但是，2024年的今天，你想接单那你得有些绝活。</b></p><p data-pid=\"tb8DfOft\">最开始接单写代码的时候，是2022年的11月，那时候是疫情最严重的时候，全国各个高校的教学基本全部崩溃，我们当时在兰州直接没办法开展校内教学、科研活动，直接让我们全部回家了。我在家刷小红书发现一个有意思的事情：大学里面很多文科类专业，比如汉语言、经济啥的，都要学Python程序设计，然后因为那学期各个学校的教学不行，大家也都学不会，很多人在网上干着急，代码遇到bug完全不会解决，甚至个别不学习的上了半学期python课程连py文件怎么运行都不知道，然后我想干脆上网接点代码辅导算了。</p><p data-pid=\"dDPrez1R\">我开始在小红书，咸鱼等平台打出了一些接单的广子，也确实开始有人来找我,我把目标锁定在了高校学生身上，市场上的小程序开发啥的我完全不接，技术栈锁定在Python上，因为根据前期调研，C++/Java课程主要是计算机科班在学，而Python主要是不擅长代码的文科生+生化环材土木水利等在学，两者不是一个数量级。</p><p data-pid=\"O5OmrS7D\">最开始都是些为作业与考试所困的大一大二学生，然后我就按照他们提出的工作量给出价格，然后他们大部分人也不懂行情，少数比较爽快，大部分砍砍价，最后大约有三分之一的单子能谈下来，我一开始的计划是辅导他们完成，没想到大部分找到我的人，他们根本不需要辅导，他们需要的是DaiZuo，如果是考试的话，他们需要的是DaiKao，明白了吗，他们压根就没想过要学好python。那行，顾客需要啥我就干啥呗，不就是代完成吗？开搞。</p><p data-pid=\"9Hah8ALK\">那段时间，可能确实是因为大家都被疫情所困封锁在家里，代码辅导的需求量真的大，最高峰的时候10分钟咸鱼3个人找我，你信不信？</p><p data-pid=\"-RmrZRl2\">才开始接单的时候，找到我的人，不少是一些二三本的文科生或者生化环材学生，他们学的python比较基础，作业也都是些语法练习题，比如让你写个剪刀石头布的猜谜程序，这种我一般收费一题10块、15块左右，一次作业一般有5到10题这样的题目，这样我一次能挣100块不到，耗时一般一小时不到。好，写这些简单，下面的东西可就复杂了。不少人，你把作业写好了给他，他开始说，为什么我这个代码运行不下去啊或者之类的，然后你的让他装上todesk，远程连接好，告诉他，你看，这是因为input函数，你没有输入。。。诸如此类的弱智问题不胜枚举，以至于我自觉养成了习惯，写完了以后拍个视频给他们看，你看，这是能够跑通的，但是跑的时候你要怎么样怎么样。</p><p data-pid=\"7rIdkguZ\">后来，我也慢慢开始接了一些本科生的实验报告，一般就是一些理工科专业学点基础的机器学习，调用调用sklearn之类的，做一做分类、聚类、回归啥的，这种作业，你要做就得做的“热闹”，要各种柱状图、折线图，表格，指标，朝上面堆积。在这个过程中，我自己也学会了很多东西，比如说原本pandas这个库我基本不会用，但是写了几个报告马上就会了，比如jupyter notebook我也不会用，但是因为客户们普遍要用这个运行代码，学一学也就会了。</p><p data-pid=\"FnTi3VuF\"><b>慢慢地，找到我的顾客越来越多，我也发现了一个有意思的现象，那就是穷哥们和富哥们面对这个代做，态度是完全不同的。很多国内学生，面对我们的报价，我们报个150，他立刻：这么点东西，15块还不解决吗？那像这种，基本谈不成，好一点的砍价到100，依旧舍不得，小心翼翼的，但是他们这类人有个特点，对我交的代码或者报告，质量自己基本不把关，总结一下，那就是钱也舍不得出，质量他们也不是很上心。</b></p><p data-pid=\"EzkyJku-\"><b>与之截然相反是一群富哥。不才，我曾经辅导过的最优异的学生就是墨尔本大学的留学生，该富哥在出钱方面，是真的愿意出，从来不会砍价还价，甚至还喜欢说做的好再另外加钱，但是，他们对于结果的把控是真的严格啊，他们会面对老师给的作业文档，与我们的代码，恨不得逐字逐句地对照，生怕你糊弄他。接单过程中，遇到的留学富哥，无一例外都是如此，钱很舍得给，但是对质量的把控也是真的严格。</b></p><p data-pid=\"EcolObaZ\"><b>这个对比也是真的很有意思，让我这个从小苏北小县城长大的穷小子也算是震惊到了：穷人与有钱人面对商品的态度差异是真的大，穷人不需要好的商品，他们只喜欢廉价的东西，当然，性价比高点他们最欢迎了；富人舍得花钱，但是精明的很，每一分钱他们都不敢浪费，一点要用在自己身上，不会让你白赚，换言之，质量的把控那是异常的严格，你别想糊弄他，他那两只眼睛就是两只法眼，精着呢。</b></p><p data-pid=\"Q_0gwNDe\"><b>如果说，我接单的最大收获是钱钱，那么，“穷人富人对于商品的差异态度”绝对是第二大收获。</b></p><p data-pid=\"Dy-m5U7T\">时间来到了2023年，疫情结束，各个高校的教学恢复了正常，我们的生意也慢慢淡了，而且那时候chatgpt兴起，很多简单的任务，比如剪刀石头布这样的程序根本就不需要我们来做，业务也逐渐从基础的作业/考试，转向了面向研究生的科研代码指导，比如我研究生期间的方向是复杂网络分析，这个方向确实在不少学科的科研中有所应用，接单的频次也下来了，从原本的多而廉价，转为了后来的少而高价，对，后期我们辅导一些科研相关的代码，一单可能能收费四五百，但是一周能有一单合适的就不错了。</p><p data-pid=\"85-1ak8b\">这类代码的特点，就是门槛略高，对相关领域没有一定的积累，真的连对方的需求是啥都不懂。但是，如果有了积累，那么可能很快理清楚别人的需求，一眼看穿问题的本质，20分钟就能解决问题，结合chatgpt初步生成代码，（AI的出现是为了更好地帮我挣钱，而不是让我失业），我再完善一下代码，写点注释，钱就到手了。</p><p data-pid=\"6G4dAuhn\">最后，俺总结一下，<b>2024年的今天，个人接单写代码这块，我建议主攻Python，C++/Java主要是计算机科班的学生在学，他们不需要我们这些代做，而且就算是代做Python，在这个AI的年代，没点绝活是真的不行了！</b></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 13685,
+        "favorite_count": 154,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3573465997}",
+      "attached_info": "CsUGCMyIsYqYzKqEpwEQBBoJNjc5NzkxODg3INSBibUGKHkwFkDoAkpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9Wgc3NzczMzQwYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IKMzU3MzQ2NTk5N4oBCDM4OTE1MzIzqgEJcmVjb21tZW5kwgEgNzdiNzdiMGZiY2IzM2NmNTk4ZjQwNWYxYzhhM2JlNmHyAQoIDBIGTm9ybWFs8gEoCAoSJGQxZGE1M2M1LWYxMTUtNDRhZC04MGZkLWZjMGJlZTFlZmM0NPIBBggLEgI2MYICAIgCq6S8+YwzkgIgNzdiNzdiMGZiY2IzM2NmNTk4ZjQwNWYxYzhhM2JlNmGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDY5YTlkMTc4ZmIyMzRhMmRiMmYwOTE0M2M1Y2IwMjAxmgMNCgJ2MhAAGgVvdGhlcqgD9WrYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABA41/FP4EFAAAAAAAAAACJBYeJI6kjVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBT2QBgCgBuwCqAYBkgIlCgk2Nzk3OTE4ODcSCjM1NzM0NjU5OTcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "361_1755822625.990",
+      "type": "feed",
+      "offset": 361,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822625,
+      "updated_time": 1755822625,
+      "target": {
+        "id": "1925974265242562990",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1925974265242562990",
+        "author": {
+          "id": "40af97b20fe4ae1cd3151746733a1101",
+          "url": "https://api.zhihu.com/people/40af97b20fe4ae1cd3151746733a1101",
+          "user_type": "people",
+          "url_token": "wu-yue-bai-xiong",
+          "name": "无月白熊",
+          "headline": "我是，神龙骑士王！！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-a9b2daac7bb1e9b339ab2c92411e2a0e_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "单机游戏话题下的优秀答主",
+              "topic_names": [
+                "单机游戏"
+              ],
+              "topic_ids": [
+                1172
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜游戏动漫领域影响力榜答主"
+            }
+          ],
+          "followers_count": 18497,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1751968047,
+        "updated_time": 1751968047,
+        "voteup_count": 2712,
+        "thanks_count": 117,
+        "comment_count": 165,
+        "is_copyable": true,
+        "question": {
+          "id": "36652755",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/36652755",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "找女朋友甚至以后的老婆身上最重要的几个特质是什么？",
+          "created": 1445244000,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 7,
+          "bound_topic_ids": [
+            740,
+            982,
+            2250,
+            4729,
+            4758
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "1，最重要的特质，最最重要的特质。 是想和你把日子过好。心，劲儿，都往一处使。这是根本。没有这个特质，她的聪明是算计你，她的漂亮是祸患，她的有能力是要你低三下四。 有了这个特质，哪怕她是个笨蛋，都是一个为了你好的笨蛋。 2，第二特质，我认为应该是 善良。传统男人是给家庭遮风挡雨的，有事儿真得上。妻子的善良，很多时候就是刹车。想想，如果娶个得理不饶人的家伙，打个网约车跟人干架，出去吃个烧烤，指着别人说对…",
+        "excerpt_new": "1，最重要的特质，最最重要的特质。 是想和你把日子过好。心，劲儿，都往一处使。这是根本。没有这个特质，她的聪明是算计你，她的漂亮是祸患，她的有能力是要你低三下四。 有了这个特质，哪怕她是个笨蛋，都是一个为了你好的笨蛋。 2，第二特质，我认为应该是 善良。传统男人是给家庭遮风挡雨的，有事儿真得上。妻子的善良，很多时候就是刹车。想想，如果娶个得理不饶人的家伙，打个网约车跟人干架，出去吃个烧烤，指着别人说对…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"_TOv_1AL\">1，最重要的特质，最最重要的特质。<b>是想和你把日子过好</b>。心，劲儿，都往一处使。</p><p data-pid=\"9mbEjoX5\">这是根本。没有这个特质，她的聪明是算计你，她的漂亮是祸患，她的有能力是要你低三下四。</p><p data-pid=\"cFh4i0Li\">有了这个特质，哪怕她是个笨蛋，都是一个为了你好的笨蛋。</p><p data-pid=\"upxRQBvW\">2，第二特质，我认为应该是<b>善良</b>。传统男人是给家庭遮风挡雨的，有事儿真得上。妻子的善良，很多时候就是刹车。</p><p data-pid=\"tmocSKuC\">想想，如果娶个得理不饶人的家伙，打个网约车跟人干架，出去吃个烧烤，指着别人说对方骚扰她，你怎么不替她说话？这种惹祸精娶来容易短命。</p><p data-pid=\"wfmVZMud\">而善良的家伙，在很多时候都会替别人想想，让你可能会惹祸的时候拽你一把(当然你自己完蛋那就没辙了。)</p><p data-pid=\"OADjuHXB\">3第三特质，明事理，<b>勤俭，知足</b>。</p><p data-pid=\"kwcxZCfR\">这不是说让老婆和你过苦日子。而是说，好日子差不多就行了。很多腐败，你自己能坚持住底线，但你媳妇不一定。当然放在第三点，是因为很多男人本来也不是当官的，也并非达官显贵。</p><p data-pid=\"lukBM8Gd\">所以，大多满足前两条，就是捡到金山了。一定要好好爱护。</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 154838,
+        "favorite_count": 2583,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1925974265242562990}",
+      "attached_info": "CvUFCMyIsYqYzKqEpwEQBBoJNzM2MDMzNjkzIK/Ss8MGKJgVMKUBQOkCSj0KIFRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX0JBWUVTEhMxNDQxMTUxODgwNzYwODY4NzIxGAAgADoAWgc2ODY4MzIyYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkyNTk3NDI2NTI0MjU2Mjk5MIoBCDM2NjUyNzU1qgEJcmVjb21tZW5kwgEgNDBhZjk3YjIwZmU0YWUxY2QzMTUxNzQ2NzMzYTExMDHyAQoIDBIGTm9ybWFs8gEoCAoSJDg4NGY1OGVmLWExZWUtNGNkMS05Y2NiLWU3ZmJjZTM4ZDk4ZfIBBggLEgI2MYICAIgCq6S8+YwzkgIgNDBhZjk3YjIwZmU0YWUxY2QzMTUxNzQ2NzMzYTExMDGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhZGZWVkQ29udHJvbEJyZWFrSW5SdWxl2gIgVFNfU09VUkNFX0NPTlRST0xfSU5URVJFU1RfQkFZRVPoAgL6AgtOT1JNQUxfRkxPV4oDIDY5YTlkMTc4ZmIyMzRhMmRiMmYwOTE0M2M1Y2IwMjAxmgMNCgJ2MhAAGgVvdGhlcqgD1rkJ2AMA6gMUQ29udHJvbEludGVyZXN0QmF5ZXP6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEgriKAvkEAAAA4KeDkj+BBQAAAAAAAAAAiQWHiSOpI1XZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUP4AUA6AUA8AU9kAYAoAbtAqgGA5ICLgoJNzM2MDMzNjkzEhMxOTI1OTc0MjY1MjQyNTYyOTkwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "362_1755822625.860",
+      "type": "feed",
+      "offset": 362,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822625,
+      "updated_time": 1755822625,
+      "target": {
+        "id": "3424721326",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3424721326",
+        "author": {
+          "id": "42be8e6a0f22fb072dd325ec2024654b",
+          "url": "https://api.zhihu.com/people/42be8e6a0f22fb072dd325ec2024654b",
+          "user_type": "people",
+          "url_token": "wu-he-36-74",
+          "name": "乌合",
+          "headline": "学不博无以通其变，思不精无以烛其微",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 12626,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1709998355,
+        "updated_time": 1709998355,
+        "voteup_count": 2168,
+        "thanks_count": 228,
+        "comment_count": 107,
+        "is_copyable": true,
+        "question": {
+          "id": "420328125",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/420328125",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "中国什么时候才能有自己的zlibrary?",
+          "created": 1599672609,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 23,
+          "bound_topic_ids": [
+            746,
+            41114,
+            604242
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "这东西早就有了，就是超星图书馆。现在大家在某宝上多少钱买进一本的pdf就是来自于上面。 超星读书卡买卡其实是很便宜的，好像是多少钱100本书这样子吧。但一般人下载不了那么多，还是光顾某宝比较便宜和划算。 然后超星读书卡顶了很多马甲，比如读秀网、中国图书联盟。什么某地的图书叉叉，还有一些大城市的图书馆本身就能下载一些pdf，但效率很低。 以前中国由于版权的管理不是很完善，其实很多书籍很早就电子化了。这种生意一…",
+        "excerpt_new": "这东西早就有了，就是超星图书馆。现在大家在某宝上多少钱买进一本的pdf就是来自于上面。 超星读书卡买卡其实是很便宜的，好像是多少钱100本书这样子吧。但一般人下载不了那么多，还是光顾某宝比较便宜和划算。 然后超星读书卡顶了很多马甲，比如读秀网、中国图书联盟。什么某地的图书叉叉，还有一些大城市的图书馆本身就能下载一些pdf，但效率很低。 以前中国由于版权的管理不是很完善，其实很多书籍很早就电子化了。这种生意一…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"G9TBGk0e\">这东西早就有了，就是超星图书馆。现在大家在某宝上多少钱买进一本的pdf就是来自于上面。</p><p data-pid=\"y2Y_WeEo\">超星读书卡买卡其实是很便宜的，好像是多少钱100本书这样子吧。但一般人下载不了那么多，还是光顾某宝比较便宜和划算。</p><p data-pid=\"R6WPBxTp\">然后超星读书卡顶了很多马甲，比如读秀网、中国图书联盟。什么某地的图书叉叉，还有一些大城市的图书馆本身就能下载一些pdf，但效率很低。</p><p data-pid=\"b2NMxJmF\">以前中国由于版权的管理不是很完善，其实很多书籍很早就电子化了。这种生意一直持续到现在。但这几年那些出版社的经营意识也提升了，也打官司了，所以导致了一些畅销书大概三年左右才能上架。像上海古籍出版社好像也打过官司，有一段时间他的书全部下架了。</p><p data-pid=\"bQTmz4EL\">所以说这主要是版权的问题。但基本上所有中文书籍都已经电子化上传了，看你买不买得到的问题了。</p><p data-pid=\"BlHVEzmT\">然后格式主要是pdf版，因为都是用超星读书的软件打印成pdf。 Pdf格式毕竟是一种通用的格式，所以说用的比较多，别的格式转换起来没那么方便的，要虚拟的打印驱动才行。</p><p data-pid=\"zNF1cH38\">所以说中文书籍电子化比其他国家走得更前言，走得更激进，是我们版权当年管理不善导致的。同样的情况发生在知网身上。</p><p data-pid=\"5053TotU\">早期的话，论文电子化的情况并不多，一开始的话也不挣钱。搞学术的人，比如教授，写论文的学生也没关注这一块，反正是想着先把台搭起来，先唱两句戏再说。</p><p data-pid=\"OSy0mEz7\">有人去干这活，国家补贴一点，然后写论文的人放弃和让步部分权益，这个台子就搭起来了。</p><p data-pid=\"-4bqFrz9\">结果几十年的发展，大家回头一看，哟，这一块是很大的一块肥肉，又开始打起架了。</p><p data-pid=\"dT5uqg2I\">因为早期实在是没什么戏。对于作者而言，他认为书是我写的，论文是我写的，凭什么？让你平台赚钱，平台也觉得冤，当年这块根本就不赚钱，我搭了多少年的钱进去。然后中间还夹了一堆期刊，人家也觉得冤啊，作为上面定好的期刊，审核的专家他联系的，各方面都是他干了，最后的话收益给了一个网络平台。大家玩命表现都没挣到钱呀。</p><p data-pid=\"lC960Wbh\">时间长了这一块还是应该讨论一下怎么分成才行的，在收益上。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 228249,
+        "favorite_count": 4368,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3424721326}",
+      "attached_info": "Cs0GCMyIsYqYzKqEpwEQBBoJNjUyNzUxNjI1IJOCsq8GKPgQMGtA6gJKQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoINTU2ODQ0NDliIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgozNDI0NzIxMzI2igEJNDIwMzI4MTI1qgEJcmVjb21tZW5kwgEgNDJiZThlNmEwZjIyZmIwNzJkZDMyNWVjMjAyNDY1NGLyAQoIDBIGTm9ybWFs8gEoCAoSJGUyMTA0MmZkLTY2NTItNDNlMy05OTdlLWIxZGUzZmE1ODI2YfIBBggLEgI2MYICAIgCq6S8+YwzkgIgNDJiZThlNmEwZjIyZmIwNzJkZDMyNWVjMjAyNDY1NGKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgL6AgtOT1JNQUxfRkxPV4oDIDY5YTlkMTc4ZmIyMzRhMmRiMmYwOTE0M2M1Y2IwMjAxmgMNCgJ2MhAAGgVvdGhlcqgDmfcN2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKC+qLk/gQUAAAAAAAAAAIkFh4kjqSNV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFPZAGAKAG7gKoBgCSAiUKCTY1Mjc1MTYyNRIKMzQyNDcyMTMyNhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "363_1755822625.436",
+      "type": "feed",
+      "offset": 363,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822625,
+      "updated_time": 1755822625,
+      "target": {
+        "id": "3238820354",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3238820354",
+        "author": {
+          "id": "1599260fee4bfb87075608990678de5d",
+          "url": "https://api.zhihu.com/people/1599260fee4bfb87075608990678de5d",
+          "user_type": "people",
+          "url_token": "hongsang",
+          "name": "宏桑",
+          "headline": "咨询可加微: hongsangemo",
+          "avatar_url": "https://pica.zhimg.com/50/v2-b9087dd084f126d71a9bdcf9a1eb6ecf_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "zhihu_yearly_answerer",
+              "description": "新知答主"
+            },
+            {
+              "type": "best_answerer",
+              "description": "亲密关系等 6 个话题下的优秀答主",
+              "topic_names": [
+                "亲密关系",
+                "人际交往",
+                "恋爱",
+                "心理健康",
+                "情感",
+                "婚姻"
+              ],
+              "topic_ids": [
+                20818,
+                3946,
+                4729,
+                5993,
+                740,
+                982
+              ]
+            },
+            {
+              "type": "identity_people",
+              "description": "心理咨询师资格证持证人"
+            }
+          ],
+          "followers_count": 1412913,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1696581875,
+        "updated_time": 1726255981,
+        "voteup_count": 2918,
+        "thanks_count": 440,
+        "comment_count": 227,
+        "is_copyable": false,
+        "question": {
+          "id": "418127358",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/418127358",
+          "author": {
+            "id": "10f1a619301fd6fba322e90ee450b5f4",
+            "url": "https://api.zhihu.com/people/10f1a619301fd6fba322e90ee450b5f4",
+            "user_type": "people",
+            "url_token": "sha-yu-la-jiao-86-81",
+            "name": "鲨鱼辣椒",
+            "headline": "学生",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有没有比黑暗森林更黑暗的理论？",
+          "created": 1598619500,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 70,
+          "bound_topic_ids": [
+            478,
+            666,
+            3269,
+            130193,
+            191105
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "血酬定律， 《血酬定律》是作家吴思的一本书，这个词汇也是由他发明，他在考察了中国历史的发展规律之后，总结出了中国人生存的一个元规则。 什么叫血酬呢？字面意思是用鲜血和生命作为报酬。 说得更直白一点就是保护费： 我有伤害你的能力，你需要花钱购买我不伤害你的行为。比如乱世的时候经常有散落的土匪强盗，他们会以各种手段威胁别人的生命，迫使对方用金钱来购买自己活下去的权利 。民国时代不少土匪就是靠绑票来向有钱…",
+        "excerpt_new": "血酬定律， 《血酬定律》是作家吴思的一本书，这个词汇也是由他发明，他在考察了中国历史的发展规律之后，总结出了中国人生存的一个元规则。 什么叫血酬呢？字面意思是用鲜血和生命作为报酬。 说得更直白一点就是保护费： 我有伤害你的能力，你需要花钱购买我不伤害你的行为。比如乱世的时候经常有散落的土匪强盗，他们会以各种手段威胁别人的生命，迫使对方用金钱来购买自己活下去的权利 。民国时代不少土匪就是靠绑票来向有钱…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"CC0dvQAN\">血酬定律，</p><p data-pid=\"9hekV46d\">《血酬定律》是作家吴思的一本书，这个词汇也是由他发明，他在考察了中国历史的发展规律之后，总结出了中国人生存的一个元规则。</p><p data-pid=\"S4f6IWIH\">什么叫血酬呢？字面意思是用鲜血和生命作为报酬。</p><p data-pid=\"JoPv1SeV\">说得更直白一点就是保护费：<b>我有伤害你的能力，你需要花钱购买我不伤害你的行为。</b></p><p data-pid=\"jHJ9zTaN\">比如乱世的时候经常有散落的土匪强盗，他们会以各种手段威胁别人的生命，迫使对方用金钱来购买自己活下去的权利<b>。</b></p><p data-pid=\"L-5gK5tU\">民国时代不少土匪就是靠绑票来向有钱人勒索金钱的，绑到有钱的男人叫拉肥猪，绑到富家小姐叫请观音，绑到有钱人家的孩子叫抱童子。</p><p data-pid=\"JDYEFL0L\">这些暴力集团从绑票对象身上赚来的钱就称之为血酬，但这里有一个非常矛盾的地方，就是对于出钱的一方来说，他们花钱购买的东西原本就是应该属于自己的最基本的生命权。</p><p data-pid=\"Ay4isUdk\">这个定律成立前提就是人的生命权天然不能属于自己，<b>也就是说你的命不是你的，而是掌握在暴力集团手里的，你要想活命必须付给暴力集团报酬。</b></p><p data-pid=\"z3luFYXb\">血酬定律并不符合经济学规律，因为它没有额外的产出，这种等价交换规则是黑暗的现实。</p><p data-pid=\"sQoCD5Mu\">在中国历史上，老百姓为了避免土匪的伤害，需要定期上贡，当这个贡品的价值超出了土匪抢到的血酬成本时，土匪就和村民达成了一种平衡。</p><p data-pid=\"gOZfPo_F\">既：<b>为了追求血酬的长期最大化，暴力机构愿意建立秩序。</b></p><p data-pid=\"1E-h7uMI\">国家、部落、土匪窝等机构都属于秩序的外化，其建立正是基于对血酬的长期最大化的追求。</p><p data-pid=\"_ZtJIA8f\">血酬和秩序之间存在对价关系，百姓通过自身的被剥削提供生产，而暴力机构建立秩序，提供公共产品为百姓提供安宁。</p><p data-pid=\"Mz1nO1NE\">而秩序的前提，是暴力机构保持对老百姓的伤害能力。</p><p data-pid=\"6xRZlnEN\">古代的封建社会，中国的老百姓经常是胆小怕事的，他们头上有官府，身边有土匪强盗，他们在两者之间艰难的生存着，但凡有一点能活下去的空间都会忍辱负重，苟且偷生。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"w6lcRXJE\">当今社会秩序井然，公开血酬的行为大幅度减少，但依然有一些人在默默执行着，相比过去他们的策略有所改进，要么通过寻租的方式把暴力主体外包出去，要么通过“严格立法，普遍违法，选择执法”的方式去针对有能力支付血酬的群体。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OZBmKcOQ\">ps:</p><p data-pid=\"ZBGoCqZ_\">评论区的重点放在了“难道只有中国有血酬定律吗？”</p><p data-pid=\"SJkpGTf3\">不是，作者吴思是中国人，考据的也多是中国历史上存在的行为。</p><p data-pid=\"3RfQP4db\">暴力掠夺是人类社会的主旋律之一，西方也是靠类似三角贸易和殖民地等掠夺行为建立的当今文明。</p><p data-pid=\"eI7WUHma\">只是刚刷完承德事件又看到了这道题，由此引发的联想。</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 200222,
+        "favorite_count": 2953,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3238820354}",
+      "attached_info": "CpcGCMyIsYqYzKqEpwEQBBoJNjE4OTU2OTg0IPOR/6gGKOYWMOMBQOsCSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCDU1MTk1MDE1YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IKMzIzODgyMDM1NIoBCTQxODEyNzM1OKoBCXJlY29tbWVuZMIBIDE1OTkyNjBmZWU0YmZiODcwNzU2MDg5OTA2NzhkZTVk8gEKCAwSBk5vcm1hbPIBKAgKEiRlNjI4OGM0Mi1hY2NmLTQ0YzEtYTVkYS1jYWU2MDEwNGRjZWLyAQYICxICNjGCAgCIAqukvPmMM5ICIDE1OTkyNjBmZWU0YmZiODcwNzU2MDg5OTA2NzhkZTVkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgX6AgtOT1JNQUxfRkxPV4oDIDY5YTlkMTc4ZmIyMzRhMmRiMmYwOTE0M2M1Y2IwMjAxmgMNCgJ2MhAAGgVvdGhlcqgDnpwM2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAZtYW51YWzCBAMxNzDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEDlI6U/gQUAAAAAAAAAAIkFh4kjqSNV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFPZAGAKAG7wKoBgCSAiUKCTYxODk1Njk4NBIKMzIzODgyMDM1NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "364_1755822625.990",
+      "type": "feed",
+      "offset": 364,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822625,
+      "updated_time": 1755822625,
+      "target": {
+        "id": "1942139167690687888",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1942139167690687888",
+        "author": {
+          "id": "af52a80262a1e163ca4933cc865aa5a9",
+          "url": "https://api.zhihu.com/people/af52a80262a1e163ca4933cc865aa5a9",
+          "user_type": "people",
+          "url_token": "7-62-53-97-53",
+          "name": "遥远的桥",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-5f62484a02f7001b02802f080c3ce1d8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "湖南好课优选、师恩优选心声闪耀",
+        "comment_permission": "all",
+        "created": 1755822217,
+        "updated": 1755822217,
+        "voteup_count": 0,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "湖南好课优选 · 师恩优选心声闪耀 我是湖南好课优选【Python全栈班】第34期学员，正跟随【小孟老师】深入学习【Django框架】。 一、学习感悟：从“手工作坊”到“工业化开发”的蜕变 学习Django对我而言，不仅是一次技术升级，更是一场开发思维的革命。 学习前，我的开发模式如“手工作坊”：效率低、代码乱、隐患多。学习后，我掌握了“工业化”流程：规范编码、安全可靠、高效协同。 Django精准解决了我的四大痛点： · 开发…",
+        "excerpt_new": "湖南好课优选 · 师恩优选心声闪耀 我是湖南好课优选【Python全栈班】第34期学员，正跟随【小孟老师】深入学习【Django框架】。 一、学习感悟：从“手工作坊”到“工业化开发”的蜕变 学习Django对我而言，不仅是一次技术升级，更是一场开发思维的革命。 学习前，我的开发模式如“手工作坊”：效率低、代码乱、隐患多。学习后，我掌握了“工业化”流程：规范编码、安全可靠、高效协同。 Django精准解决了我的四大痛点： · 开发…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"JCPMp8Xs\">湖南好课优选 · 师恩优选心声闪耀</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"E0TaD3Bs\">我是湖南好课优选【Python全栈班】第34期学员，正跟随【小孟老师】深入学习【Django框架】。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZTMakGBK\">一、学习感悟：从“手工作坊”到“工业化开发”的蜕变</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_hsvTpdk\">学习Django对我而言，不仅是一次技术升级，更是一场开发思维的革命。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8XFHWn3C\">学习前，我的开发模式如“手工作坊”：效率低、代码乱、隐患多。学习后，我掌握了“工业化”流程：规范编码、安全可靠、高效协同。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aTKbiKLU\">Django精准解决了我的四大痛点：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0DgyRdvY\">·   开发效率：内置组件极大提升开发速度</p><p data-pid=\"CgiowxGC\">·   系统安全：自带多重防护机制</p><p data-pid=\"FY6E6QeH\">·   团队协作：MVT架构清晰，协作更轻松</p><p data-pid=\"wsu7ifVg\">·  ️ 项目维护：代码结构规范，维护成本低</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yr4K_45A\">尽管新框架频出，但Django凭借其完备生态、严谨设计及工程化理念，仍是构建中大型项目的首选。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bSSwtmZb\">二、高效学习：我的笔记方法论</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"cGUnHvOX\">1. 理解性记录：用自己语言重构知识</p><p data-pid=\"Gnr8QGRf\">2. 示例驱动：每个知识点搭配可运行代码</p><p data-pid=\"PLGmrrBr\">3. 可视化梳理：用流程图解析MVT请求响应过程</p><p data-pid=\"SfYJ6qS3\">4. 错题总结：记录典型问题与解决方案</p><p data-pid=\"jSbnY_3q\">5. 知识互联：通过链接关联概念，形成体系</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"x4JOnvRh\">三、学习支持与心法</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"axMfr_Yl\">专属答疑群和作业批改机制，为学习提供了坚实保障。我深刻体会到：线上学习成功 = 70%自律 + 30%反馈。自律决定持久性，反馈决定成长高度。课程如地图，学员才是司机，需主动前行才能抵达终点。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TKakyJ1E\">四、师恩难忘·节日寄语</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aKzs2OHN\">尊敬的小孟老师：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"g27ZlITl\">教师节来临，谨致以诚挚的祝福！感谢您带我进入Django的世界。您讲课清晰、深入浅出，令我受益匪浅。能成为您的学生，我倍感荣幸。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2rfqWK8e\">祝您教师节快乐，工作顺利，桃李满天下！</p><p></p>",
+        "is_labeled": false,
+        "visited_count": 1,
+        "favorite_count": 0,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1942139167690687888}",
+      "attached_info": "CvQFCMyIsYqYzKqEpwEQBxoJMjYyMDg2ODUzIInxnsUGKAAwAEDsAkokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwxEgEwGAAgADoASigKHVRTX1NPVVJDRV9XQVJNVVBfUFJFVFJBSU5fSTJJEgEwGAAgADoAYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MjEzOTE2NzY5MDY4Nzg4OKoBCXJlY29tbWVuZMIBIGFmNTJhODAyNjJhMWUxNjNjYTQ5MzNjYzg2NWFhNWE58gEKCAwSBk5vcm1hbPIBKAgKEiQ4YzM5ZmVlOC1iMGQwLTQzNWQtYmY5NC02YjU3N2ZlM2I5MjLyAQYICxICNjGCAgCIAqukvPmMM5ICIGFmNTJhODAyNjJhMWUxNjNjYTQ5MzNjYzg2NWFhNWE5mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXKAhdTYW1lQXV0aG9ySXNvbGF0aW9uUnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDHoAgL6AgtOT1JNQUxfRkxPV4oDIDY5YTlkMTc4ZmIyMzRhMmRiMmYwOTE0M2M1Y2IwMjAxmgMNCgJ2MhAAGgVvdGhlcqgDAdgDAOoDE3ByZXRyYWluX2kyaV9yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsoAQAqAQAsAQAyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADg5pCyP4EFAAAAAAAAAACJBYeJI6kjVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBT2QBgCgBvACqAYBkgIuCgkyNjIwODY4NTMSEzE5NDIxMzkxNjc2OTA2ODc4ODgYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "365_1755822625.752",
+      "type": "feed",
+      "offset": 365,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822625,
+      "updated_time": 1755822625,
+      "target": {
+        "id": "1922527062276706916",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1922527062276706916",
+        "author": {
+          "id": "4067c15f64ebd74c4e5ff0d74557e85c",
+          "url": "https://api.zhihu.com/people/4067c15f64ebd74c4e5ff0d74557e85c",
+          "user_type": "people",
+          "url_token": "li-wu-yue-54",
+          "name": "李雾月",
+          "headline": "面向旷野",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-cb4b245dbe78ec744ee7488a3f83901d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 13648,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1751146170,
+        "updated_time": 1751146170,
+        "voteup_count": 584,
+        "thanks_count": 52,
+        "comment_count": 28,
+        "is_copyable": false,
+        "question": {
+          "id": "22398125",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/22398125",
+          "author": {
+            "id": "f083bd10feffee5b531d1562c5cf290f",
+            "url": "https://api.zhihu.com/people/f083bd10feffee5b531d1562c5cf290f",
+            "user_type": "people",
+            "url_token": "beijingdaxuetanhao",
+            "name": "谭钓神",
+            "headline": "钓鱼",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-70ca4585379df9aa84b1a2db2366e3d2_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 559,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "在人际交往中什么叫做「会来事儿」？",
+          "created": 1388320262,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 25,
+          "bound_topic_ids": [
+            5582
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "所谓“会来事儿”“有眼力见”“眼里有活”等形容，都是一个意思—— 这个人能看透当前组织、氛围、运转模式中的缺陷或需求，然后主动出力补足缺口使整体更和谐高效。比如你在备菜准备做饭，他看到了就知道顺手给你递空盘子装配菜，蹲一边帮忙剥蒜，洗好的菜沥干水分放在你伸手就能拿到的地方。 比如你在打印文件，他看到了就知道帮你把打印出来的文件按顺序理好交叉摆放，整理平整依次递给你装订。 比如你和人因不同意见产生了…",
+        "excerpt_new": "所谓“会来事儿”“有眼力见”“眼里有活”等形容，都是一个意思—— 这个人能看透当前组织、氛围、运转模式中的缺陷或需求，然后主动出力补足缺口使整体更和谐高效。比如你在备菜准备做饭，他看到了就知道顺手给你递空盘子装配菜，蹲一边帮忙剥蒜，洗好的菜沥干水分放在你伸手就能拿到的地方。 比如你在打印文件，他看到了就知道帮你把打印出来的文件按顺序理好交叉摆放，整理平整依次递给你装订。 比如你和人因不同意见产生了…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"QbtbgBO6\">所谓“会来事儿”“有眼力见”“眼里有活”等形容，都是一个意思——<b>这个人能看透当前组织、氛围、运转模式中的缺陷或需求，然后主动出力补足缺口使整体更和谐高效。</b></p><p data-pid=\"wLUMLDxv\">比如你在备菜准备做饭，他看到了就知道顺手给你递空盘子装配菜，蹲一边帮忙剥蒜，洗好的菜沥干水分放在你伸手就能拿到的地方。</p><p data-pid=\"tb7nOtuF\">比如你在打印文件，他看到了就知道帮你把打印出来的文件按顺序理好交叉摆放，整理平整依次递给你装订。</p><p data-pid=\"3rno9Gm3\">比如你和人因不同意见产生了不愉快，眼看剑拔弩张就要开始争执，他顺嘴插了句话，把两人注意力引开，不动声色就缓和了氛围。</p><p data-pid=\"YoRxNLGW\">比如你说话需要个捧哏的，他能马上跟上思路递个话头给你。你刚说完自己的事情，他马上接话不着痕迹吹捧了一下你，让你觉得遇到了知己恨不得把酒言欢。</p><p data-pid=\"7978y3gi\">比如你想找他帮忙，面露难色还没开口他就看出来了，让你不用客气有事就说，省得你碍于自尊心不好意思开口。</p><p data-pid=\"vwA1wP_J\">比如他找你帮忙，你一句话都还没说，他就把他将表达的谢意坦诚相告并主动消除你拒绝的压力，你拒绝他感谢你，你帮忙他更感谢你，还做足了一切准备降低你帮忙的阻力，只要是能办到的事情，你想不点这个头都难。</p><p data-pid=\"8roMTdmG\">诸如此类都是“会来事儿”的具体表现。</p><h2><b>一言以蔽之——利他。</b></h2><p data-pid=\"FgsWIN2E\">所谓的善解人意就是能理解你未开口的困窘且愿意主动化解，所谓的会来事儿就是能看出你的需求并及时递上你要的东西。</p><p data-pid=\"b0Fo4KlP\">具体技巧是学不完的，这其实也不是什么需要刻意学习的技巧。</p><p data-pid=\"7gnogu9A\">核心在于，你希不希望你面前这个人、这个组织、这件事情更顺利更和谐，你愿不愿意出力协助其更顺利更和谐，这是发心问题，也是有无的问题。</p><p data-pid=\"pVO7wB84\">至于能不能看出缺陷和需求，以及能不能补足缺陷和需求，那是能力问题，只要发心是对的，有无先定了，能力总能慢慢补上。</p><p data-pid=\"waBwH17r\">人是社会性动物，任何放下小我善于利他善于改善他人社会性体验的人，都会更受欢迎。</p><p data-pid=\"qXOImoqv\">而偏偏是这些放下了小我的人，会收到更多的反馈，会拥有更多资源。</p><p data-pid=\"3Ek0clgD\">你说这事儿整的～</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 17636,
+        "favorite_count": 954,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1922527062276706916}",
+      "attached_info": "CusFCMyIsYqYzKqEpwEQBBoJNzM0NTA2MDgxILq9gcMGKMgEMBxA7QJKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBKQAoYVFNfU09VUkNFX0FVVEhPUl9HQ0ZfSFBWEh5kb2NfdHlwZTogTWVtYmVyCmlkOiA2MTIxNzMyMQoYACAAOgBaBzExNDAxNTFiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTIyNTI3MDYyMjc2NzA2OTE2igEIMjIzOTgxMjWqAQlyZWNvbW1lbmTCASA0MDY3YzE1ZjY0ZWJkNzRjNGU1ZmYwZDc0NTU3ZTg1Y/IBCggMEgZOb3JtYWzyASgIChIkMWY4MDRlYzQtN2JiNy00OWMyLWJkYmMtMGM3MjhiOTQ4NGY58gEGCAsSAjYxggIAiAKrpLz5jDOSAiA0MDY3YzE1ZjY0ZWJkNzRjNGU1ZmYwZDc0NTU3ZTg1Y5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyA2OWE5ZDE3OGZiMjM0YTJkYjJmMDkxNDNjNWNiMDIwMZoDDQoCdjIQABoFb3RoZXKoA+SJAdgDAPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABg+CqsP4EFAAAAAAAAAACJBYeJI6kjVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBT2QBgCgBvECqAYAkgIuCgk3MzQ1MDYwODESEzE5MjI1MjcwNjIyNzY3MDY5MTYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=365&desktop=true&end_offset=369&page_number=62&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=365&desktop=true&end_offset=369&page_number=62&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

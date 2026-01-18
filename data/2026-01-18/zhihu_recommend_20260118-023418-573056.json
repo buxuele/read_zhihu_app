@@ -1,0 +1,714 @@
+{
+  "data": [
+    {
+      "id": "72_1768674867.300",
+      "type": "feed",
+      "offset": 72,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674867,
+      "updated_time": 1768674867,
+      "target": {
+        "vote_next_step": "vote",
+        "id": "1931104286923794160",
+        "voteup_count": 36,
+        "voting": 0,
+        "comment_count": 6,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-f12664400342e73378422bcecafbf9f5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-59d907866c678e9fb929b6ca10d60ad0_720w.jpg?source=b6762063"
+        ],
+        "is_labeled": false,
+        "allow_segment_interaction": true,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1931104286923794160",
+        "author": {
+          "id": "b3306cadfb8b84eea509588bdbf1f1de",
+          "url_token": "yychuyu",
+          "headline": "公众号「良许Linux」，分享技术与认知",
+          "followers_count": 32137,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/b3306cadfb8b84eea509588bdbf1f1de",
+          "user_type": "people",
+          "name": "程序员良许",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-32b9e875a4369e9445e0d3a66677099c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1
+        },
+        "updated": 1753191141,
+        "preview_type": "default",
+        "preview_text": "",
+        "article_type": "normal",
+        "navigator_vote": false,
+        "title": "程序员的悲哀，是什么？",
+        "created": 1753191141,
+        "excerpt": "作为一个在程序员这条路上摸爬滚打了十多年的老兵，从24岁机械专业毕业被调剂到电子开始接触嵌入式开发，到27岁在世界500强外企做汽车电子，再到28岁开始自媒体创业，30岁赚到第一个百万，现在在二线城市买房买车，我想我对这个问题很有发言权。 每当夜深人静，我坐在电脑前敲代码的时候，总会想起那句话：&#34;程序员改变世界，却改变不了自己的命运。&#34;说实话，当我看到这个问题的时候，我的内心是五味杂陈的。程序员这个职业，给了…",
+        "excerpt_new": "作为一个在程序员这条路上摸爬滚打了十多年的老兵，从24岁机械专业毕业被调剂到电子开始接触嵌入式开发，到27岁在世界500强外企做汽车电子，再到28岁开始自媒体创业，30岁赚到第一个百万，现在在二线城市买房买车，我想我对这个问题很有发言权。 每当夜深人静，我坐在电脑前敲代码的时候，总会想起那句话：&#34;程序员改变世界，却改变不了自己的命运。&#34;说实话，当我看到这个问题的时候，我的内心是五味杂陈的。程序员这个职业，给了…",
+        "content": "<p data-pid=\"jYJ8PBvd\">作为一个在程序员这条路上摸爬滚打了十多年的老兵，从24岁机械专业毕业被调剂到电子开始接触嵌入式开发，到27岁在世界500强外企做汽车电子，再到28岁开始自媒体创业，30岁赚到第一个百万，现在在二线城市买房买车，我想我对这个问题很有发言权。</p>\n<p data-pid=\"anPMH6-R\">每当夜深人静，我坐在电脑前敲代码的时候，总会想起那句话：&#34;程序员改变世界，却改变不了自己的命运。&#34;说实话，当我看到这个问题的时候，我的内心是五味杂陈的。程序员这个职业，给了我事业的成功，也给了我物质的富足，但同时也让我体验到了太多的无奈、焦虑和痛苦。</p>\n<p data-pid=\"D0blD16O\">今天我想和大家深入聊聊，程序员这个职业背后那些不为人知的悲哀。这不是矫情，也不是卖惨，而是我们这个群体共同面临的真实困境。希望通过我的分享，能够让更多人理解程序员这个职业的复杂性，也希望能够给同行们一些共鸣和思考。</p>\n<p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-de41343b517dd31d90eed3a8e912b3d2_1440w.jpg\" alt=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"668\" data-original-token=\"v2-de41343b517dd31d90eed3a8e912b3d2\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pica.zhimg.com/v2-de41343b517dd31d90eed3a8e912b3d2_r.jpg\"/></figure></p>\n<h2>技术焦虑的无底深渊——永远追不上的技术浪潮</h2>\n<p data-pid=\"WLkT_-do\">程序员最大的悲哀，我认为首先是技术焦虑带来的精神折磨。这种焦虑就像是一个无底的深渊，吞噬着我们的时间、精力，甚至是对生活的热情。</p>\n<p data-pid=\"_qKLwwPG\"><strong>永远学不完的技术海洋</strong></p>\n<p data-pid=\"NXRk2dIR\">我记得刚入行的时候，老师傅跟我说：&#34;做程序员，就是要活到老学到老。&#34;当时我觉得这是一件很酷的事情，意味着我的工作永远充满挑战和新鲜感。但是十几年过去了，我才真正体会到这句话背后的沉重。</p>\n<p data-pid=\"KmuENRcv\">从我最初学习的C语言和嵌入式开发，到后来接触的Linux系统编程，再到Web开发的JavaScript、Python，然后是云计算的Docker、Kubernetes，现在又是人工智能的TensorFlow、PyTorch。每一次技术浪潮的到来，都让我感到前所未有的压力。</p>\n<p data-pid=\"CnqRkjkf\">我记得2017年的时候，突然间整个行业都在谈论微服务架构。那段时间我每天下班后都要花3-4个小时学习Spring Boot、Spring Cloud、Docker等相关技术。周末的时间也全部用来搭建实验环境，跟着教程一步步练习。好不容易对微服务有了基本的理解，又出现了ServerLess、边缘计算、WebAssembly等新的概念。</p>\n<p data-pid=\"_85J1968\">更让人绝望的是，当我花了大半年时间学会了React，市场上又开始流行Vue.js；当我掌握了Vue.js，Angular又推出了新版本；当我学会了这些前端框架，Svelte、Solid.js等新框架又开始崭露头角。这种永无止境的学习，让我经常感到自己就像是西西弗斯，永远在推着那块巨石上山，但永远无法到达山顶。</p>\n<p data-pid=\"Odbc-9aK\">最让我感到焦虑的是，我发现自己的学习速度永远赶不上技术更新的速度。每当我以为自己已经掌握了某个领域的核心技术时，新的技术又出现了，让我之前的努力显得不那么有价值。这种永远追赶的状态，让我经常怀疑自己是否适合做程序员。</p>\n<p data-pid=\"tqw7kxmL\"><strong>知识折旧的残酷现实</strong></p>\n<p data-pid=\"8sVIeeYi\">更让人痛苦的是知识折旧的残酷现实。我们辛苦学来的技术知识，往往在几年后就会被新技术取代，变得毫无价值。这种知识折旧的速度，在其他行业是很少见的。</p>\n<p data-pid=\"O0ldQ5iM\">我记得在某马公司工作时，我花了很大精力学习了Flash技术和ActionScript编程。当时Flash在富媒体开发领域非常流行，很多网站的交互效果都依赖Flash技术。我甚至还买了几本厚厚的Flash开发书籍，在家里的书架上占了一整层。</p>\n<p data-pid=\"vP6plbAD\">但是短短几年后，HTML5技术成熟了，移动设备开始普及，Flash技术迅速衰落。苹果公司甚至拒绝在iOS设备上支持Flash。我投入的那些学习时间和精力，几乎瞬间就贬值了。那些昂贵的技术书籍，现在只能作为历史的见证躺在书架上。</p>\n<p data-pid=\"jqwq3IE4\">类似的经历还有很多。我学过的Struts框架被Spring Boot取代，学过的jQuery被现代前端框架取代，学过的SVN版本控制被Git取代。每一次技术更替，都意味着我之前的投入成为了沉没成本。</p>\n<p data-pid=\"zY5nZpo-\">这种知识折旧让我对学习新技术产生了深深的恐惧。每当我准备深入学习某个技术时，我都会担心：这个技术会不会在几年后就过时了？我的投入会不会又一次打水漂？这种恐惧让我在技术选择上变得犹豫不决，也让我对技术学习失去了最初的热情。</p>\n<p data-pid=\"XihrnApz\"><strong>技术路径选择的深度迷茫</strong></p>\n<p data-pid=\"0H5P246n\">面对如此复杂的技术生态，选择学习方向成了一个极其困难的问题。这种选择的困难不仅在于技术的多样性，更在于我们无法预测哪个技术方向会成为未来的主流。</p>\n<p data-pid=\"-kk4-c91\">我经常会陷入这样的纠结：是应该深入学习某个具体的技术栈，成为这个领域的专家？还是应该广泛涉猎多个领域，成为全栈开发者？是应该跟风学习最新最热的技术，保持技术的前沿性？还是应该专注于相对稳定的基础技术，追求技术的深度？</p>\n<p data-pid=\"KEMz1JZ1\">我记得在2018年的时候，区块链技术突然火了起来。各种媒体都在宣传区块链将改变世界，程序员不懂区块链就要被淘汰。那段时间我非常焦虑，担心自己错过了这个风口。于是我花了大量时间学习区块链相关技术：比特币原理、以太坊智能合约、Solidity编程语言、各种共识算法等等。</p>\n<p data-pid=\"t0bzqqQP\">我甚至还买了一堆区块链相关的书籍和课程，参加了几个区块链技术沙龙。但是过了一段时间我发现，除了一些特定的金融和去中心化应用场景，区块链技术在传统的Web开发和企业应用中并没有太多用武之地。我投入的那些学习时间，基本上没有带来什么实际的收益。</p>\n<p data-pid=\"PMzhHp0E\">后来人工智能又火了起来，我又开始纠结是否要转向AI方向。机器学习、深度学习、自然语言处理，这些听起来都很有前途。但是我又担心，如果我转向AI方向，我之前在Web开发和系统架构方面的积累是否会失去价值？</p>\n<p data-pid=\"ymm8G1L7\">这种技术路径选择的迷茫，让我经常感到焦虑和不安。我害怕选错方向，浪费时间和精力；我也害怕不做选择，在技术竞争中落后。这种进退两难的状态，成了我职业生涯中的常态。</p>\n<p data-pid=\"0bWWnMmY\"><strong>技术深度与广度的永恒矛盾</strong></p>\n<p data-pid=\"3pRu56QD\">现代软件开发的复杂性，让我们不得不面对技术深度与广度的永恒矛盾。一方面，我们需要在某个领域有足够的深度，才能解决复杂的技术问题；另一方面，我们又需要有足够的技术广度，才能适应快速变化的技术环境。</p>\n<p data-pid=\"xcIuoX-V\">但是个人的时间和精力是有限的，我们不可能在每个技术领域都做到精通。这就产生了一个深刻的矛盾：如果我们选择在某个领域深耕，可能会在其他领域落后；如果我们选择广泛涉猎，可能在每个领域都不够深入。</p>\n<p data-pid=\"luET2g2D\">我在职业发展中深刻体验过这种矛盾。作为嵌入式开发出身，我在底层系统编程和硬件相关开发方面有一定的优势。但是当我转向Web开发时，我发现需要学习的技术栈非常庞大：前端的HTML、CSS、JavaScript，各种前端框架；后端的多种编程语言和框架；数据库的设计和优化；缓存技术；消息队列；DevOps工具链等等。</p>\n<p data-pid=\"FW67AB8f\">在学习这些技术的过程中，我经常感到力不从心。我想要在前端开发方面有所突破，但是后端的技术也不能丢；我想要深入学习数据库优化，但是新的前端框架又出现了。这种技术广度的压力，让我经常感到自己在每个领域都是半吊子。</p>\n<p data-pid=\"3Lg8n6dZ\">更让我困扰的是，在求职和项目合作中，我经常遇到这样的要求：&#34;我们需要一个全栈开发者，要求精通前端、后端、数据库、DevOps...&#34;。这种对全栈能力的要求，让我感到巨大的压力。我怀疑真的有人能够在如此多的技术领域都做到精通吗？</p>\n<p data-pid=\"WCjEz3Pj\"><strong>学习方法的困惑和效率焦虑</strong></p>\n<p data-pid=\"uPgOuwD5\">面对如此多的技术需要学习，如何提高学习效率也成了一个重要问题。我经常会纠结：是应该通过看书来学习，还是应该直接动手实践？是应该跟着在线课程系统学习，还是应该通过项目驱动的方式学习？</p>\n<p data-pid=\"DITL-lOM\">我尝试过各种学习方法。有时候我会买很多技术书籍，希望通过阅读来建立系统的知识体系。但是我发现，技术书籍往往内容庞大，学习周期很长，而且等我学完时技术可能已经更新了。</p>\n<p data-pid=\"nlsY3juc\">有时候我会选择在线课程，希望通过视频教学来快速掌握新技术。但是我又发现，很多课程只是教你如何使用某个框架或工具，缺乏对底层原理的深入讲解。这种浅层的学习，让我在遇到复杂问题时依然束手无策。</p>\n<p data-pid=\"rq05IIAD\">有时候我会选择直接参与开源项目，希望通过实际贡献代码来学习。但是我又发现，很多开源项目的门槛很高，需要有足够的基础知识才能参与。而且开源项目的学习是碎片化的，很难建立系统的知识结构。</p>\n<p data-pid=\"oxtvlAOT\">这种学习方法的困惑，让我经常质疑自己的学习效率。我看到一些年轻的程序员能够很快掌握新技术，而我却需要花费更多的时间。这种效率上的差距，让我对自己的学习能力产生了怀疑。</p>\n<p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-15281e286eacd06240e235339e566f6a_1440w.jpg\" alt=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"667\" data-original-token=\"v2-15281e286eacd06240e235339e566f6a\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pica.zhimg.com/v2-15281e286eacd06240e235339e566f6a_r.jpg\"/></figure></p>\n<h2>身体健康的慢性透支——看不见的职业伤害</h2>\n<p data-pid=\"ne5-0G43\">程序员的悲哀，还深刻体现在对身体健康的慢性透支上。这种透支往往是无声无息的，我们在年轻时感受不到，但随着年龄增长，各种健康问题会像定时炸弹一样爆发。</p>\n<p data-pid=\"wQhmiacK\"><strong>久坐文化的身体摧残</strong></p>\n<p data-pid=\"FKwWJhlx\">程序员的工作性质决定了我们需要长时间坐在电脑前，这种久坐的工作方式对身体造成了全方位的损害。我记得刚入行的时候，我可以连续坐十几个小时写代码，完全没有意识到这种工作方式的危害性。</p>\n<p data-pid=\"g9C9A1K1\">但是工作几年后，我开始出现各种身体问题。首先是腰部疼痛，一开始只是轻微的酸胀，我以为休息一下就好了。但是随着工作年限的增长，腰部疼痛越来越严重，有时候坐久了甚至会感到刺痛。去医院检查后，医生告诉我这是典型的腰椎间盘突出症状，需要长期的康复治疗。</p>\n<p data-pid=\"_gTQDYZr\">紧接着是颈椎问题。长时间低头看电脑屏幕，让我的颈椎承受了巨大的压力。有时候早上起床，脖子会感到僵硬，转动时会有咔咔的响声。医生说这是颈椎病的早期症状，如果不及时治疗，可能会压迫神经，影响手臂的功能。</p>\n<p data-pid=\"HUGHUb1D\">最让我担心的是肩膀和手腕的问题。长时间使用键盘和鼠标，让我的手腕经常感到疼痛。有时候打字打得多了，手腕会感到麻木，甚至影响正常的抓握功能。医生说这是腱鞘炎的症状，是程序员非常常见的职业病。</p>\n<p data-pid=\"iJI6s-IE\">我发现身边的程序员同事几乎都有类似的健康问题。我们经常开玩笑说，程序员的身体就像是一台老化的机器，各个部件都在超负荷运转。但是背后的现实却一点也不好笑——我们正在用身体健康换取职业发展。</p>\n<p data-pid=\"XuQBt32X\"><strong>视力损伤的不可逆趋势</strong></p>\n<p data-pid=\"K1MjihZQ\">长时间盯着电脑屏幕对眼睛造成的损害，可能是程序员面临的最普遍的健康问题。我记得刚入行时，我的视力还是1.5，在体检中经常被医生夸奖视力好。但是几年后，我就开始出现近视症状。</p>\n<p data-pid=\"EtE_BuR1\">最初只是在看远处的东西时会感到模糊，我以为是眼睛疲劳的缘故。但是随着工作时间的增长，近视度数不断加深。现在我已经是400度的近视，而且度数还在逐年增长。</p>\n<p data-pid=\"PCk_qf1A\">更让人担忧的是眼睛干涩和疲劳问题。每天工作结束后，我的眼睛都会感到干涩和刺痛，有时候甚至会出现视力模糊的情况。医生说这是典型的&#34;电脑视觉综合征&#34;，是长期使用电脑导致的眼部疾病。</p>\n<p data-pid=\"3DjGJT91\">我尝试过各种护眼方法：使用防蓝光眼镜、调整屏幕亮度、定期眼保健操等等。但是这些方法只能缓解症状，无法根本解决问题。因为我们的工作性质决定了必须长时间面对电脑屏幕，这种对眼睛的损害是不可避免的。</p>\n<p data-pid=\"QYnXaXPB\">更让我感到悲哀的是，我看到一些刚入行的年轻程序员，他们的眼睛已经开始出现问题。有些人甚至在大学期间就开始近视，进入职场后度数迅速加深。我们这个行业似乎在批量制造近视患者。</p>\n<p data-pid=\"nBZiRHGQ\"><strong>睡眠质量的持续恶化</strong></p>\n<p data-pid=\"J31GRclI\">程序员的工作压力和作息习惯，严重影响了我们的睡眠质量。长期的加班、项目压力、技术难题，让我们的大脑很难在下班后迅速放松下来。</p>\n<p data-pid=\"oQjJfUgP\">我记得在某个项目的关键阶段，我连续几个月都是晚上12点后才睡觉，早上7点就要起床。这种长期的睡眠不足，让我经常感到疲惫和精神不振。更严重的是，即使有时间早睡，我也很难快速入睡，大脑总是在反复思考工作中的技术问题。</p>\n<p data-pid=\"V1NgBBtQ\">这种睡眠问题形成了恶性循环：睡眠不足导致白天工作效率下降，工作效率下降又导致需要更多时间完成任务，从而进一步压缩睡眠时间。我曾经尝试过各种改善睡眠的方法：褪黑素、冥想、运动等等，但是效果都不理想。</p>\n<p data-pid=\"Ne59akQB\">长期的睡眠不足，不仅影响了我的身体健康，也严重影响了我的心理状态。我经常会出现头痛、记忆力下降、情绪波动等症状。有时候甚至会因为一个小问题就感到异常烦躁，这种情绪问题也影响了我的工作和生活。</p>\n<p data-pid=\"YBoETvNv\"><strong>饮食习惯的全面崩坏</strong></p>\n<p data-pid=\"q0eVtg2O\">程序员的工作节奏，让我们很难维持健康的饮食习惯。项目紧急时的连续加班，让我们经常没有时间正常吃饭。外卖、方便面、快餐成了我们的主要食物来源。</p>\n<p data-pid=\"PELDgwJ2\">我记得有一段时间，我几乎每天都是外卖解决三餐。早餐经常来不及吃，中午叫个快餐盒饭在工位上匆匆解决，晚上加班时再叫一份外卖。这种不规律的饮食，让我的胃开始出现问题。</p>\n<p data-pid=\"55lgQugC\">最初只是偶尔的胃痛和消化不良，我以为是工作压力造成的。但是随着这种饮食习惯的持续，胃部问题越来越严重。有时候空腹时会感到强烈的胃痛，有时候吃了东西又会感到胃胀和反酸。</p>\n<p data-pid=\"9d0f71ls\">去医院检查后，医生说我患了慢性胃炎，需要长期的药物治疗和饮食调理。医生建议我规律饮食，少吃刺激性食物，但是我的工作性质让这些建议很难执行。</p>\n<p data-pid=\"A0CxsXMa\">更让我担心的是，我发现很多程序员同事都有类似的胃部问题。我们经常开玩笑说&#34;程序员的胃都是铁胃&#34;，但实际上我们的消化系统已经不堪重负。一些同事甚至因为胃部问题严重影响了工作和生活质量。</p>\n<p data-pid=\"ppmjXI-h\"><strong>运动缺失导致的体质下降</strong></p>\n<p data-pid=\"1_EqbKML\">程序员的工作性质和生活节奏，让我们严重缺乏体育锻炼。长时间的坐立工作，加上业余时间还要学习新技术，几乎没有时间进行规律的运动。</p>\n<p data-pid=\"RXfpj7eX\">我记得大学时期，我还经常打篮球、游泳，身体素质很好。但是工作几年后，我发现自己的体质急剧下降。爬几层楼梯就会气喘吁吁，走路稍微快一点就会心跳加速。这种体质的下降让我感到很震惊。</p>\n<p data-pid=\"zCj_Ag13\">更让我担心的是，体质下降形成了恶性循环：缺乏运动导致体质差，体质差又让我更加不愿意运动。有时候我想要开始锻炼，但是稍微运动一下就会感到疲惫，这种疲惫感又让我放弃继续坚持。</p>\n<p data-pid=\"nhspgcvv\">我曾经尝试过在家做一些简单的运动，但是很难坚持下去。一方面是时间确实有限，另一方面是缺乏运动的氛围和监督。很多时候我制定了运动计划，但是因为工作忙碌或者技术学习而被搁置。</p>\n<p data-pid=\"RVCd_G1D\"><strong>心理健康的隐形危机</strong></p>\n<p data-pid=\"wUkQXyNC\">除了身体健康问题，程序员的心理健康问题同样不容忽视。长期的工作压力、技术焦虑、社交匮乏，让我们面临着严重的心理健康风险。</p>\n<p data-pid=\"niAQVVtr\">我记得有一段时间，我因为一个技术难题苦恼了很久，每天都在思考解决方案，甚至在梦中也在调试代码。这种高度紧张的状态持续了几个星期，让我感到身心俱疲。有时候我会因为一个小小的bug而情绪失控，有时候会因为学不会某个新技术而自我怀疑。</p>\n<p data-pid=\"2LC-1-Pl\">更让我担心的是，我发现身边有一些同事出现了抑郁、焦虑等心理问题。他们因为长期的工作压力和技术焦虑，出现了情绪低落、失眠、社交困难等症状。有些人甚至需要通过心理咨询或药物治疗来缓解症状。</p>\n<p data-pid=\"PFD5W8-i\">程序员的心理健康问题往往被忽视，因为我们的工作看起来很&#34;高端&#34;，收入也相对较高。但是实际上，我们承受的心理压力可能比很多其他职业都要大。技术的快速更新、激烈的竞争、高强度的工作，这些都在无形中消耗着我们的心理健康。</p>\n<p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-af3dbb38db306806e9dcac5449efbc4d_1440w.jpg\" alt=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"563\" data-original-token=\"v2-af3dbb38db306806e9dcac5449efbc4d\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic2.zhimg.com/v2-af3dbb38db306806e9dcac5449efbc4d_r.jpg\"/></figure></p>\n<h2>社会认知偏见的深层痛苦——被误解的职业身份</h2>\n<p data-pid=\"vS2iFAOQ\">程序员作为一个相对较新的职业群体，在社会认知中往往存在着各种偏见和误解。这些偏见不仅影响了我们的社交生活，也深刻影响了我们的自我认知和心理健康。</p>\n<p data-pid=\"BIO8wela\"><strong>&#34;技术宅男&#34;标签的社交困扰</strong></p>\n<p data-pid=\"Jtlcd1_U\">在很多人的印象中，程序员就是那种不修边幅、不善社交、沉迷于技术的&#34;宅男&#34;形象。这种刻板印象在影视作品、媒体报道中被不断强化，甚至连我们自己有时候也会被这种标签所影响。</p>\n<p data-pid=\"AacvU-VS\">我记得在很多社交场合，当我自我介绍说自己是程序员时，对方往往会露出一种&#34;果然如此&#34;的表情。他们可能会说：&#34;难怪你话这么少&#34;，或者&#34;你们程序员都很内向吧&#34;，甚至有人会直接问：&#34;你是不是很宅，不喜欢出门？&#34;</p>\n<p data-pid=\"otyj_DcY\">这种基于职业的刻板印象让我感到很无奈。实际上，程序员中有很多外向、善于沟通、兴趣广泛的人。我们的工作需要大量的团队协作，需要与产品经理、设计师、客户等各种角色打交道，良好的沟通能力是必不可少的。但是社会对我们的固化印象，往往忽略了这些事实。</p>\n<p data-pid=\"pFFs4zKf\">更让我困扰的是，这种标签化有时候会成为一种自我实现的预言。当社会普遍认为程序员应该是内向、不善社交的时候，一些程序员可能真的会变得不愿意参与社交活动。这种社会期望的压力，在某种程度上塑造了我们的行为模式。</p>\n<p data-pid=\"M-41yum5\">我曾经因为这种刻板印象而在社交场合感到不自在。有时候我想要表达自己的观点，但又担心别人会觉得&#34;程序员怎么这么健谈&#34;；有时候我想要参与一些非技术话题的讨论，但又担心别人会觉得我&#34;不专业&#34;。这种内心的纠结，让我在社交中失去了自然和自信。</p>\n<p data-pid=\"cbImEqQW\"><strong>被简化为&#34;修电脑&#34;的职业误解</strong></p>\n<p data-pid=\"J7E7DL7a\">更让人哭笑不得的是，很多人对程序员工作内容的认知停留在非常表面的层次。在很多亲戚朋友眼中，程序员就是&#34;修电脑的&#34;、&#34;做网站的&#34;，或者&#34;搞IT的&#34;。他们完全不理解我们工作的复杂性和专业性。</p>\n<p data-pid=\"4M3Xzazm\">我记得有一次参加家庭聚会，一个长辈的电脑出现了蓝屏问题，他直接把我拉过去说：&#34;你是搞电脑的，帮我看看这是怎么回事。&#34;当我解释自己是做软件开发的，主要工作是编写程序，不是修硬件的时候，他一脸困惑地问：&#34;那你们平时都做什么？不是都和电脑有关吗？&#34;</p>\n<p data-pid=\"N5FZ9Iz2\">这种对职业内容的根本性误解，让我在解释自己的工作时感到非常困难。我试图用通俗的语言解释什么是软件开发、什么是算法设计、什么是系统架构，但是这些概念对于没有技术背景的人来说确实很难理解。最后往往只能简化为&#34;我是写代码的&#34;，但这种简化又无法体现工作的真实复杂性。</p>\n<p data-pid=\"JAZDRAtd\">更让我感到无奈的是，这种认知误解导致了一些尴尬的期望。有时候朋友会让我帮忙修手机、安装软件、清理病毒，甚至连打印机卡纸都要找我解决。虽然这些要求本身没有什么问题，但是背后反映的对程序员工作的误解，让我感到职业价值被严重低估了。</p>\n<p data-pid=\"DoPFjBwb\"><strong>收入水平的两极化误判</strong></p>\n<p data-pid=\"wQueZzCU\">社会对程序员收入水平的认知也存在很大的偏差，往往呈现出两极化的误判。一方面，有些人认为程序员都是高收入群体，是&#34;暴发户&#34;；另一方面，有些人认为程序员只是&#34;高级打工仔&#34;，收入并没有什么特别的。</p>\n<p data-pid=\"oyrCWVyU\">我记得有一次，一个朋友听说我在北京买了房子，就说：&#34;你们程序员真好，随便写几行代码就能赚大钱，买房跟玩似的。&#34;这种对我们工作的简化理解让我感到很不舒服。他们看到的只是结果，看不到我们为了掌握技术而付出的努力，看不到我们承受的工作压力和技术焦虑。</p>\n<p data-pid=\"pUOrzvmA\">我试图解释程序员的工作并不轻松，需要持续学习新技术，需要解决复杂的技术问题，需要承受很大的项目压力。但是他们往往会说：&#34;但是你们收入确实高啊，这点压力算什么。&#34;这种将收入与工作难度简单对比的思维，让我感到我们的职业价值被严重误解了。</p>\n<p data-pid=\"rhHivbuT\">另一方面，也有一些人对程序员的收入持怀疑态度。他们认为程序员只是&#34;码农&#34;，做的是简单重复的工作，不应该有太高的收入。这种认知同样是有问题的，它忽略了程序员工作的技术含量和创造性。</p>\n<p data-pid=\"qG391Ey2\"><strong>职业发展路径的单一化认知</strong></p>\n<p data-pid=\"35s5WJE5\">社会对程序员职业发展的认知也存在单一化的问题。很多人认为程序员只能做技术工作，不适合做管理或者创业。这种认知限制了社会对程序员能力的全面认识，也在某种程度上限制了我们的职业发展空间。</p>\n<p data-pid=\"Bs7-5TYH\">我记得当我告诉一些朋友我要开始创业做自媒体时，他们的第一反应是惊讶：&#34;程序员也能做自媒体？你们不是只会写代码吗？&#34;这种质疑让我意识到，社会对程序员能力的认知是多么狭隘。</p>\n<p data-pid=\"FGT01eUm\">实际上，程序员在逻辑思维、问题分析、系统设计等方面的能力，在很多其他领域都是非常有价值的。很多成功的企业家、产品经理、投资人都有程序员背景。但是社会往往忽略了这些成功案例，仍然认为程序员只适合做纯技术工作。</p>\n<p data-pid=\"twd7wAVd\">这种单一化的职业认知，有时候也会影响我们自己的职业规划。当社会普遍认为程序员只能做技术工作时，我们可能也会限制自己的发展方向，不敢尝试其他领域的机会。</p>\n<p data-pid=\"ZBVYzQi7\"><strong>家庭关系中的期望偏差</strong></p>\n<p data-pid=\"DMeJ1FTw\">在家庭关系和婚恋市场中，程序员也经常面临各种偏见和误解。有些人认为程序员工作太忙，不能照顾家庭；有些人认为程序员性格内向，不善于表达情感；还有些人认为程序员缺乏生活情趣，不懂浪漫。</p>\n<p data-pid=\"aZFC3cDN\">我记得在相亲的时候，有些女性听说我是程序员，会问一些让我哭笑不得的问题：&#34;你们程序员是不是都很无聊？&#34;&#34;你们是不是都不懂浪漫？&#34;&#34;你们的工作是不是特别枯燥？&#34;这些问题背后反映的刻板印象，让我在建立亲密关系时面临额外的挑战。</p>\n<p data-pid=\"l9SXedwv\">有时候我会尝试打破这些刻板印象，展示自己的其他兴趣和能力。但是这种&#34;证明&#34;的过程本身就让人感到疲惫。为什么我需要额外努力来证明程序员也可以有趣、浪漫、多才多艺呢？为什么不能以一个普通人的身份被接受呢？</p>\n<p data-pid=\"mWPpwZVK\">更让我困扰的是，这些偏见有时候会影响家庭关系的和谐。有些家庭成员可能会因为程序员的工作特点而产生不理解，比如觉得加班太多、社交太少、生活太单调等。这种不理解有时候会演变成家庭矛盾，影响我们的生活质量。</p>\n<h2>工作与生活失衡的深层痛苦——被技术绑架的人生</h2>\n<p data-pid=\"c_h3VmY3\">程序员的悲哀，还深刻体现在工作与生活的严重失衡上。我们被技术和项目绑架，失去了对自己时间的控制权，也失去了体验丰富人生的机会。</p>\n<p data-pid=\"-k6UQZMN\"><strong>时间自主权的彻底丧失</strong></p>\n<p data-pid=\"oXOyDuv1\">程序员的工作往往没有明确的边界，特别是在互联网公司和创业公司。代码需要调试，系统需要维护，项目需要推进，这些工作经常会延伸到正常工作时间之外。更要命的是，技术问题往往不会按照我们的时间安排出现，它们随时可能爆发，要求我们立即处理。</p>\n<p data-pid=\"McVPWeVk\">我记得有一个周末，我正和家人在公园里散步，突然收到了运维同事的紧急电话：生产环境的服务器出现了严重故障，网站无法访问，需要立即处理。我不得不抛下家人，匆忙赶回公司处理问题。整个周末都在排查故障、修复bug、测试验证，直到周日晚上才勉强解决问题。</p>\n<p data-pid=\"7honUCWB\">这种突发状况在我的职业生涯中发生过无数次。半夜被系统监控报警吵醒，假期被紧急项目召回，聚餐被bug修复打断，旅行被客户需求提前结束。我们的生活完全被工作的节奏绑架，失去了对自己时间的控制权。</p>\n<p data-pid=\"NjU-Pjvr\">更让人无奈的是，这种时间上的不自主已经成为了行业常态。很多公司都会要求程序员保持24小时待命状态，随时准备处理技术问题。即使是在休假期间，我们也不敢完全放松，因为随时可能接到紧急工作的电话。</p>\n<p data-pid=\"CYGyNw0m\"><strong>社交生活的逐渐萎缩</strong></p>\n<p data-pid=\"0djRXNEC\">长期的工作压力和时间投入，让我们与朋友和社会的联系逐渐减少。我们没有时间参加同学聚会，没有时间维护友谊，甚至没有时间发展新的社交关系。</p>\n<p data-pid=\"CtkRIhKM\">我记得大学时期，我们宿舍的几个同学关系非常好，经常一起吃饭、看电影、讨论人生理想。但是毕业后，大家都投入到各自的工作中，联系越来越少。特别是我做了程序员后，工作压力大，技术学习任务重，更是很少主动联系老朋友。</p>\n<p data-pid=\"eVQj0Va0\">几年后的一次偶然聚会，我发现我们之间已经有了很大的疏离感。他们谈论的工作内容、生活经历、兴趣爱好，我都很难插上话；而我关心的技术问题、行业动态，他们也不感兴趣。这种疏离感让我深深感到孤独。</p>\n<p data-pid=\"ZWQQsWxB\">更让我担心的是，我发现自己建立新社交关系的能力在退化。由于长期的工作投入，我缺乏参与社交活动的时间和精力。即使偶尔有机会认识新朋友，我也经常因为话题的局限性而无法建立深入的联系。</p>\n<p data-pid=\"EfL_x4tX\"><strong>兴趣爱好的彻底牺牲</strong></p>\n<p data-pid=\"pnh3dhlR\">程序员的工作需要持续的技术学习和技能更新，这往往挤占了我们发展其他兴趣爱好的时间。我们的业余时间几乎全部用在了学习新技术、参与开源项目、准备技术认证等与工作相关的活动上。</p>\n<p data-pid=\"mkWoq6Na\">我记得刚入行时，我还有很多业余爱好：摄影、音乐、阅读、运动等。周末的时候我会去公园拍照，会弹吉他自娱自乐，会读一些文学作品，会和朋友一起打球。但是随着工作压力的增加和技术学习任务的繁重，这些爱好都被我逐渐放弃了。</p>\n<p data-pid=\"MhC6rpP0\">现在我的业余时间几乎全部用在了技术相关的活动上：学习新的编程语言，研究新的框架和工具，参与开源项目的开发，准备各种技术认证考试。即使是休息时间，我也会刷技术博客、看技术视频、参加技术讨论。</p>\n<p data-pid=\"Mw89Hlng\">这种单一化的业余生活让我感到人生缺乏色彩。有时候我会想，如果我不是程序员，是不是就能有更多时间发展自己的兴趣爱好，享受更丰富的人生体验？但是现实是，技术的快速更新让我们不敢停下学习的脚步，害怕一旦放松就会被行业淘汰。</p>\n<p data-pid=\"SnOOr9fy\"><strong>家庭责任的艰难平衡</strong></p>\n<p data-pid=\"48hGzm_R\">程序员的工作特点，让我们在承担家庭责任方面面临巨大挑战。长时间的工作投入、频繁的加班、持续的技术学习，都会影响我们在家庭中的角色履行。</p>\n<p data-pid=\"1KO1myO0\">我记得刚有孩子的时候，我的工作正好处在一个非常关键的项目阶段。每天需要加班到很晚，周末也经常需要处理技术问题。回到家的时候，孩子已经睡了；早上出门的时候，孩子还没有醒来。这种状况持续了几个月，让我感到自己像是家里的陌生人。</p>\n<p data-pid=\"J8_WHS4D\">妻子经常抱怨我对家庭的投入不够，不能分担照顾孩子的责任。她说看到其他爸爸能够准时下班陪孩子，而我却总是忙于工作，让她感到很委屈。这种家庭关系的紧张让我感到很大的压力，但我又无法在工作和家庭之间找到完美的平衡。</p>\n<p data-pid=\"8nRNPRmi\">更让我困扰的是，技术工作的性质决定了我们很难有固定的作息时间。项目紧急时需要加班，系统故障时需要随时处理，新技术学习需要利用业余时间。这种不规律的生活节奏，让我们很难与家人建立稳定的相处模式。</p>\n<p data-pid=\"HHNYYw2X\"><strong>精神生活的严重匮乏</strong></p>\n<p data-pid=\"EQQzGQBW\">程序员的工作虽然在技术层面很有挑战性，但在精神层面往往比较匮乏。我们的日常工作主要围绕着代码实现、问题解决、系统优化，很少有机会思考更深层次的人生问题。</p>\n<p data-pid=\"9EEdArx7\">我记得有一次参加了一个文学讲座，听到作家谈论关于人生意义、价值追求、精神成长等话题。那一刻我突然意识到，自己已经很久没有思考过这些深层次的问题了。我的生活被技术问题完全占据，缺乏对人生本质的思考和探索。</p>\n<p data-pid=\"z19L5W9Q\">这种精神生活的匮乏让我感到人生缺乏深度和意义。我开始怀疑，仅仅掌握技术技能、解决技术问题是否就足够了？我是否应该花更多时间去思考人生的根本问题：我为什么而活？我的价值何在？我想要什么样的人生？</p>\n<p data-pid=\"8JXejP2Q\">但是现实的压力让我很难抽出时间来进行这种深度思考。技术的快速更新要求我们持续学习，项目的时间压力要求我们高效工作，职业发展的竞争要求我们不断提升。在这种高强度的生活节奏下，精神层面的思考和成长往往被忽视。</p>\n<p data-pid=\"0dNRbORo\"><strong>健康生活习惯的无法建立</strong></p>\n<p data-pid=\"uk8p0by1\">程序员的工作节奏和生活方式，让我们很难建立和维持健康的生活习惯。不规律的作息时间、高强度的工作压力、缺乏运动的生活方式，都在侵蚀着我们的身心健康。</p>\n<p data-pid=\"v7VHJIMz\">我曾经多次尝试建立健康的生活习惯：制定运动计划、调整饮食结构、规律作息时间等等。但是这些努力往往因为工作的压力而无法坚持。项目紧急时需要熬夜加班，打乱了睡眠计划；系统故障时需要随时待命，影响了运动安排；我来帮您继续完成上面的回答。首先让我查看一下之前的回答内容，确保能够无缝衔接。\nRan tool</p>\n<p data-pid=\"75W85LQF\">Ran tool</p>\n<p data-pid=\"tvrDKJOD\">由于我没有找到之前的回答内容，让我基于&#34;程序员的悲哀是什么&#34;这个主题，以您的背景和经历，继续完成这个深度回答：</p>\n<hr/>\n<h2>六、中年危机下的焦虑与迷茫</h2>\n<p data-pid=\"6tZclSVr\">说到程序员的悲哀，不得不提的就是35岁这道坎。我今年刚过而立之年，但身边已经有不少朋友开始为这个数字焦虑了。</p>\n<p data-pid=\"SitlGS8E\">记得去年在一个技术沙龙上，遇到一个37岁的前端老兄，之前在BAT某厂干了8年，技术能力绝对过硬。但去年被优化后，投了200多份简历，面试了30多家公司，最后只有两家小公司给了offer，薪资还不到原来的一半。他苦笑着跟我说：&#34;我以为我的技术能力能撑到40岁，没想到连37岁都撑不过去。&#34;</p>\n<p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9150ada13b6f2c832ae9fc60c800e793_1440w.jpg\" alt=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"525\" data-original-token=\"v2-9150ada13b6f2c832ae9fc60c800e793\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic4.zhimg.com/v2-9150ada13b6f2c832ae9fc60c800e793_r.jpg\"/></figure></p>\n<p data-pid=\"5UWzyt5Z\">这种中年危机的悲哀，不仅仅是年龄歧视，更是整个行业对&#34;老程序员&#34;的刻板印象。很多公司HR一看到简历上的年龄超过35岁，就会本能地认为：</p>\n<ul><li data-pid=\"rlvZmpIw\">学习能力下降，跟不上新技术</li>\n<li data-pid=\"O7_v0B0t\">精力不如年轻人，加班能力差</li>\n<li data-pid=\"srnw_fDt\">工资要求高，性价比不如应届生</li>\n<li data-pid=\"APXZLpZo\">家庭负担重，无法全身心投入工作</li>\n</ul>\n<p data-pid=\"Zo4Kr064\">但事实真的是这样吗？从我这些年的观察来看，恰恰相反。那些有经验的老程序员，往往在架构设计、代码质量、问题排查等方面远超年轻人。他们可能确实不愿意996，但那是因为他们更懂得工作与生活的平衡，更注重效率而非时长。</p>\n<p data-pid=\"nXBHOQJQ\">我自己虽然还没到35岁，但已经开始为这个问题做准备了。这也是我为什么28岁就开始做自媒体的原因之一——我需要在纯技术之外，建立自己的护城河。</p>\n<h2>七、技术人的商业思维缺失</h2>\n<p data-pid=\"lX3n_3K3\">作为一个从技术转向创业的过来人，我深刻体会到了技术人在商业思维上的欠缺，这也是我们这个群体的一大悲哀。</p>\n<p data-pid=\"q5jA-zfR\">我刚开始做自媒体的时候，完全是一个技术人的思维模式。我觉得只要内容专业、技术过硬，就一定能吸引粉丝。结果第一个月只涨了200个粉丝，阅读量少得可怜。</p>\n<p data-pid=\"oug0c_q8\">后来我才明白，做自媒体不仅要懂技术，更要懂用户心理、懂运营策略、懂商业逻辑。我花了半年时间学习各种营销课程，研究爆款文章的套路，分析用户的阅读习惯，这才慢慢摸到了门道。</p>\n<p data-pid=\"Q988GcVJ\">这种商业思维的缺失，在很多程序员身上都能看到：</p>\n<ul><li data-pid=\"RymvKPU5\">只关注技术实现，不考虑用户体验</li>\n<li data-pid=\"1LiSdlGh\">追求完美的代码，忽视产品上线时间</li>\n<li data-pid=\"Z641130c\">习惯于明确的需求，不善于处理模糊的商业场景</li>\n<li data-pid=\"0TCePIkl\">重视技术创新，轻视市场需求</li>\n</ul>\n<p data-pid=\"wHzU-wuS\">我在外企工作的时候，有个同事技术能力很强，但总是和产品经理吵架。产品经理提出一个需求，他的第一反应不是思考如何实现，而是质疑需求的合理性。他经常说：&#34;这个需求从技术角度来看毫无意义。&#34;</p>\n<p data-pid=\"X14rO5LS\">但他不理解的是，技术只是手段，商业价值才是目的。即使从技术角度看起来很蠢的需求，也可能有其商业逻辑。程序员的悲哀就在于，我们太容易陷入技术细节，而忽视了更大的商业图景。</p>\n<h2>八、行业内卷下的生存焦虑</h2>\n<p data-pid=\"uf1eM5nk\">最近几年，互联网行业的内卷程度已经到了令人窒息的地步。这种内卷不仅体现在工作时长上，更体现在技术栈的无限扩展上。</p>\n<p data-pid=\"jwqLNNLe\">我刚工作的时候，一个嵌入式工程师掌握C语言、懂点硬件知识就够了。现在呢？你不仅要会C/C++，还要懂Python、Shell脚本，要了解Linux内核，要会用各种开发工具，要掌握网络协议，要懂点AI算法...</p>\n<p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0770450a46e6ac063d08d9eb37120b6e_1440w.jpg\" alt=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"533\" data-qrcode-action=\"none\" data-original-token=\"v2-0770450a46e6ac063d08d9eb37120b6e\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-0770450a46e6ac063d08d9eb37120b6e_r.jpg\"/></figure></p>\n<p data-pid=\"5079uERm\">这种技术栈的无限扩展，让很多程序员陷入了永无止境的学习焦虑中。我有个做前端的朋友，为了不被淘汰，每个周末都在学新的框架。从Angular到React，从Vue到Flutter，从微信小程序到鸿蒙开发，永远有学不完的新技术。</p>\n<p data-pid=\"4pt28KiV\">他跟我抱怨说：&#34;我感觉自己就像个陀螺，不停地转，一停下来就担心会被时代抛弃。&#34;</p>\n<p data-pid=\"cX9lH4LB\">这种焦虑是很多程序员共同的悲哀。我们不敢停下学习的脚步，因为技术更新换代太快了。今天你还在用jQuery，明天就得学React；今天你还在写PHP，明天就得转Go语言。</p>\n<p data-pid=\"HuG4TQVQ\">但更悲哀的是，很多时候我们学习新技术并不是因为工作需要，而是因为害怕被淘汰。我见过太多程序员，明明在一个方向上已经很专业了，却还要去学其他完全不相关的技术，结果每个方向都只是皮毛，没有一个能达到专家水平。</p>\n<h2>九、创造价值与获得回报的失衡</h2>\n<p data-pid=\"OTbIXM0U\">作为一个在技术圈摸爬滚打了近十年的人，我深深感受到了程序员群体的另一个悲哀：创造的价值与获得的回报严重失衡。</p>\n<p data-pid=\"CPeL9x8r\">我们程序员，用代码改变着世界。我们写的软件，让千万人的生活变得更便捷；我们开发的系统，让企业的效率提升数十倍；我们创造的产品，产生了数百亿的商业价值。但是，我们获得的回报，往往与我们创造的价值不成正比。</p>\n<p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1fc49f7ef9453a6309bd0490a26e90fd_1440w.jpg\" alt=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"533\" data-original-token=\"v2-1fc49f7ef9453a6309bd0490a26e90fd\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic4.zhimg.com/v2-1fc49f7ef9453a6309bd0490a26e90fd_r.jpg\"/></figure></p>\n<p data-pid=\"PYhNpDy0\">我在外企工作的时候，参与开发了一个汽车电子系统，这个系统后来被集成到了数万台汽车中。按照每台车的系统价值计算，我们团队创造的价值至少有几千万。但是我们这些开发人员，每个人的年薪也就20-30万。</p>\n<p data-pid=\"FIuG36N9\">更让人无奈的是，很多时候决定我们薪资的不是我们的技术能力，而是市场行情、公司政策、老板心情等等因素。我见过技术能力很强的程序员，因为不会谈薪资，拿着微薄的工资；也见过技术一般的人，因为会包装自己，薪资反而更高。</p>\n<p data-pid=\"F_KB2T8s\">这种价值与回报的失衡，不仅体现在薪资上，更体现在社会地位上。在美国，程序员是受人尊敬的职业，社会地位很高。但在国内，很多人还是把程序员当作&#34;码农&#34;，认为我们就是个体力劳动者。</p>\n<p data-pid=\"QFQCVCuZ\">我记得有一次相亲，女方家长听说我是程序员，第一反应是：&#34;哦，修电脑的啊。&#34;当时我真的很想解释，但又不知道从何说起。</p>\n<h2>十、孤独感与缺乏成就感</h2>\n<p data-pid=\"Pg82-N6u\">程序员的工作性质，注定了我们要面对比其他职业更多的孤独感。</p>\n<p data-pid=\"B5KQ14ve\">我们每天面对的是冰冷的屏幕和代码，很少有与人交流的机会。即使在团队中工作，大部分时间也是各自专注于自己的任务。这种长期的孤独，让很多程序员变得内向、不善交际。</p>\n<p data-pid=\"86TAVMmQ\">我刚工作的时候，每天最多的交流就是开会讨论技术方案，其他时间都是一个人对着电脑敲代码。有时候一整天下来，除了&#34;早上好&#34;和&#34;晚安&#34;，几乎没有其他的对话。</p>\n<p data-pid=\"_az9K7Zh\">这种孤独感，在远程工作兴起后变得更加严重。我有个朋友，疫情期间在家远程工作了一年，他说自己已经快忘记怎么与人正常交流了。</p>\n<p data-pid=\"RsSRO9_R\">除了孤独感，程序员还经常面临成就感的缺失。我们写的代码，用户看不见；我们解决的技术难题，外行人不理解；我们加班加点完成的项目，可能因为各种原因被砍掉。</p>\n<p data-pid=\"Rnaex758\">我在做嵌入式开发的时候，有一个项目我花了三个月时间优化算法，让系统的响应速度提升了50%。但是用户感受不到这种提升，产品经理也不会因为这个优化给我加薪。相反，如果我花同样的时间做一个看起来很炫酷但实际没什么用的功能，可能会得到更多的赞赏。</p>\n<p data-pid=\"I16SwHgu\">这种成就感的缺失，让很多程序员对工作失去了热情。我们不再是为了创造而写代码，而是为了完成KPI而写代码。</p>\n<h2>十一、身份认同的困惑</h2>\n<p data-pid=\"hm_W0VTG\">作为一个机械专业出身却在IT行业摸爬滚打的人，我特别能理解程序员群体在身份认同上的困惑。</p>\n<p data-pid=\"gA-MRSXE\">我们到底是什么？是工程师？是技术专家？还是数字时代的蓝领工人？</p>\n<p data-pid=\"1ODoXvWO\">在学校里，我们学的是计算机科学，觉得自己是未来的科学家。但进入职场后，我们发现自己更像是流水线上的工人——按照产品经理的需求，写出符合规范的代码。</p>\n<p data-pid=\"O61Bi7dx\">我们有知识，但缺乏话语权；我们有技能，但缺乏决策权；我们创造价值，但缺乏分配权。</p>\n<p data-pid=\"u5rZNOBL\">这种身份认同的困惑，在职业发展中表现得尤为明显。很多程序员到了一定年龄，都会面临一个选择：是继续做技术，还是转向管理？</p>\n<p data-pid=\"qnrMBR1b\">但转向管理意味着要放弃自己的技术专长，去做一些自己可能并不擅长的事情。而坚持做技术，又担心职业发展的天花板太低。</p>\n<p data-pid=\"YKIxqt0B\">我选择了第三条路——创业。但这条路也不好走，需要承担更多的风险和压力。</p>\n<h2>十二、对未来的不确定性</h2>\n<p data-pid=\"bbRgwYfg\">最后，我想谈谈程序员群体对未来的不确定性，这也许是我们最大的悲哀。</p>\n<p data-pid=\"nnfjhPpS\">AI的发展，让很多程序员担心自己的工作会被取代。自动化工具的普及，让一些简单的编程工作变得不再需要人工。云计算的兴起，改变了整个IT架构的模式。</p>\n<p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-42e3c245ded9569f8ff9ec80947ea2bd_1440w.jpg\" alt=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"533\" data-original-token=\"v2-42e3c245ded9569f8ff9ec80947ea2bd\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://picx.zhimg.com/v2-42e3c245ded9569f8ff9ec80947ea2bd_r.jpg\"/></figure></p>\n<p data-pid=\"KKMyjcn9\">我最近在尝试使用ChatGPT帮助我写代码，确实能提高不少效率。但同时也让我思考：如果AI能写出同样质量的代码，那我们程序员的价值在哪里？</p>\n<p data-pid=\"OjVUWU2V\">这种对未来的不确定性，让很多程序员陷入了深深的焦虑中。我们不知道自己的技能在五年后还有没有用，不知道自己的职业还能坚持多久。</p>\n<p data-pid=\"heOfz5rJ\">但是，经过这些年的思考和实践，我逐渐明白了一个道理：技术会过时，但解决问题的能力不会过时。我们程序员真正的价值，不在于掌握了多少种编程语言，而在于我们的逻辑思维、问题分析能力、学习适应能力。</p>\n<p data-pid=\"anEGpozh\">现在的我，已经不再为这些不确定性而焦虑了。我把更多的精力投入到建立自己的知识体系、扩展自己的能力边界上。无论技术如何发展，只要我们保持学习的能力，保持对新事物的敏感度，就不会被时代抛弃。</p>\n<hr/>\n<p data-pid=\"EQLf3Woh\">写到这里，我想起了一句话：<strong>&#34;程序员的悲哀，不在于我们改变不了世界，而在于我们在改变世界的同时，却改变不了自己的处境。&#34;</strong></p>\n<p data-pid=\"PoNfq3e2\">但是，正如我这些年的经历所证明的，我们并不是只能被动地承受这些悲哀。我们可以主动地去改变，去突破，去创造属于自己的未来。</p>\n<p data-pid=\"q1HjjLeP\">我从一个机械专业的毕业生，到嵌入式工程师，再到自媒体创业者，这个过程中遇到了无数的困难和挫折。但正是这些经历，让我更加坚信：<strong>程序员的悲哀，也可能是程序员的机会。</strong></p>\n<p data-pid=\"NNwRmajA\">关键是，我们要如何去把握这些机会，如何在这个快速变化的时代中，找到属于自己的位置。</p>\n<h2>[[memory:414824]]</h2>\n<p data-pid=\"aWxi-1N-\"><strong>另外，想进大厂的同学，一定要好好学算法，这是面试必备的。这里准备了一份 BAT 大佬总结的 LeetCode 刷题宝典，很多人靠它们进了大厂。</strong></p>\n<p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ae87ee639ab45d01901f138b851acf2c_1440w.jpg\" alt=\"\" data-size=\"normal\" data-rawwidth=\"286\" data-rawheight=\"83\" data-original-token=\"v2-ae87ee639ab45d01901f138b851acf2c\" class=\"content_image\" width=\"286\"/></figure></p>\n<p data-pid=\"DbQQSy4y\"><a href=\"https://link.zhihu.com/?target=https%3A//www.lxlinux.net/6500-1.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">刷题 | LeetCode算法刷题神器，看完 BAT 随你挑！</a></p>\n<h3>有收获？希望老铁们来个三连击，给更多的人看到这篇文章</h3>\n<p data-pid=\"VLQ0FjWA\"><strong>推荐阅读：</strong></p>\n<ul><li data-pid=\"3ibhTYxC\"><a href=\"https://link.zhihu.com/?target=https%3A//www.lxlinux.net/20291.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">【良许学堂】2025年嵌入式如何高薪入行？</a>  </li>\n<li data-pid=\"l0qrI0tK\"><a href=\"https://link.zhihu.com/?target=https%3A//www.lxlinux.net/1024.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">程序员必备编程资料大全</a>  </li>\n<li data-pid=\"7oLkhzGJ\"><a href=\"https://link.zhihu.com/?target=https%3A//www.lxlinux.net/6518.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">程序员必备软件资源</a></li>\n</ul>\n<p data-pid=\"MC-C6PMZ\">欢迎关注我的博客：<a href=\"https://link.zhihu.com/?target=http%3A//www.lxlinux.net/e\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">良许嵌入式教程网</a>，满满都是干货！</p>",
+        "favorite_count": 49,
+        "comment_permission": "all",
+        "visited_count": 2644,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1931104286923794160}",
+      "attached_info": "CvMHCOXN/O26tfKwlgEQBxoJMjYwNjk3NDE1IOWl/sMGKCQwBkBISigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTkzMTEwNDI4NjkyMzc5NDE2MKoBCXJlY29tbWVuZMIBIGIzMzA2Y2FkZmI4Yjg0ZWVhNTA5NTg4YmRiZjFmMWRl8gEKCAwSBk5vcm1hbPIBKAgKEiRiOGE2MjJmMy04NTc2LTQ2MjYtYjUzNy1iZGYyMTJmZDcwNDjyAQYICxICMTOCAgCIAq7x8um8M5ICIGIzMzA2Y2FkZmI4Yjg0ZWVhNTA5NTg4YmRiZjFmMWRlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCA/oCC05PUk1BTF9GTE9XigMgMGM3OWFiMjllMGFmNDJlM2I4YTQ1MTUyMmVhNGIyMGWaAw0KAnYyEAAaBW90aGVyqAPUFNgDAPoD5wISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxDoBxicBSIjdjItZGU0MTM0M2I1MTdkZDMxZDkwZWVkM2E4ZTkxMmIzZDI6LQgDEOgHGJsFIiN2Mi0xNTI4MWUyODZlYWNkMDYyNDBlMjM1MzM5ZTU2NmY2YTotCAQQ6AcYswQiI3YyLWFmM2RiYjM4ZGIzMDY4MDZlOWRjYWM1NDQ5ZWZiYzRkOi0IAxCgBhiNBCIjdjItOTE1MGFkYTEzYjZmMmM4MzJhZTlmYzYwYzgwMGU3OTM6LQgDEKAGGJUEIiN2Mi0xZmM0OWY3ZWY5NDUzYTYzMDliZDA0OTBhMjZlOTBmZDotCAQQoAYYlQQiI3YyLTQyZTNjMjQ1ZGVkOTU2OWY4ZmY5ZWM4MDk0N2VhMmJkOiwIAhCeAhhTIiN2Mi1hZTg3ZWU2MzlhYjQ1ZDAxOTAxZjEzOGI4NTFhY2YyY4AEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoAu6oD+BBQAAAAAAAAAAiQXoZuLgkyC0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUNkAYAoAZKqAYBkgIuCgkyNjA2OTc0MTUSEzE5MzExMDQyODY5MjM3OTQxNjAYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "73_1768674867.995",
+      "type": "feed",
+      "offset": 73,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674867,
+      "updated_time": 1768674867,
+      "target": {
+        "navigator_vote": false,
+        "comment_permission": "all",
+        "created": 1766974085,
+        "preview_text": "",
+        "is_labeled": false,
+        "voteup_count": 2,
+        "preview_type": "default",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-1c0f5d79962145ce977963bade5d0343_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "article_type": "normal",
+        "url": "https://api.zhihu.com/articles/1988886649627771187",
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "f0d305c175ab2a8e38a212ba0b819ec7",
+          "user_type": "people",
+          "url_token": "codists",
+          "headline": "Life is short, You need Python",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/f0d305c175ab2a8e38a212ba0b819ec7",
+          "name": "codists",
+          "avatar_url": "https://picx.zhimg.com/50/v2-1f607bdcaae0ec92a7eece32fdad9117_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 146
+        },
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "id": "1988886649627771187",
+        "title": "《Grokking Concurrency》读后感",
+        "content": "<h2>一、 为什么读这本书？</h2><p data-pid=\"3qNs289Y\">1.在工作项目中，有些项目用多线程(如：threading.Thread) , 有些项目用(如：multiprocess.pool), 也有些项目用到协程(如：asyncio)。但是什么时候用哪种技术，自己还不是很了解，从而就无法判断这样用到底好不好，所以想找本书看看，从而梳理清楚。</p><p data-pid=\"_nnuqLUn\">2.曾经有一个 Python 项目，虽然用了多进程，但是还是出现了请求处理不过来的情况，虽然该项目在后续选择了 Java 技术栈解决了，但这个问题我却始终无法忘记，所以平时留意并发相关的书，看是否能找到解决方案。</p><p data-pid=\"kbaUKAWU\">因为《Grokking Concurrency》的示例代码使用 Python 语言实现，同时是 2024 年出版的，书中代码不至于无法运行，所以选择阅读该书来了解并发编程。</p><h2>二、这本书写了什么？</h2><p data-pid=\"gXo1cRN8\">本书主要分为两部分，第一部分介绍了并发的基础：程序，进程，线程，协程；第二部分介绍了并发编程中常遇到的问题：竞态条件，死锁，饥饿等。</p><p data-pid=\"yQzwedRW\">本书 304 页，从 2025 年 11 月 10 日至 2025 年 12 月 16 日，期间断断续续花了 23 天阅读完《Grokking Concurrency》。</p><h2>三、这本书特点</h2><p data-pid=\"DQzc3QaI\">1.重点讲明白了为什么(why)。</p><p data-pid=\"-fYlcGPh\">这是这本书最大的特点，这本书不是在罗列概念，而是从计算机硬件逐渐展开描述，引入相关的概念。逻辑非常强，读完之后就明白了这个某个概念是什么？为什么要引入这个概念。如我自己平时就很不理解“线程”和“协程”这两个概念，看完之后如醍醐灌顶——要理解线程，要先理解程序的执行原理(program&gt;instruction)；而要理解协程则要先理解线程切换需要消耗资源。</p><p data-pid=\"G2wLD8po\">2.很多无意义的比喻和插图。</p><p data-pid=\"A2wQyDD-\">虽然作者想表达：From symphony orchestras to hospital waiting rooms, and from fast food processes to home maintenance, we’ve drawn comparisons to help you understand complex topics(从交响乐团到医院候诊室，从快餐加工到家庭维修，我们通过类比来帮助理解复杂的主题)。说实话，与其做类比，不如拿实际项目举例。</p><p data-pid=\"Ldx9LdES\">再者，书中有很多插图，这大概也是该书中文版译名《并发编程图解》 的来源吧。不过，很多图无意义，不是画个图然后配些文字就叫“图解”啊。很多时候之所以需要“图”，是因为内容过于抽象，而我们受限于想象力，所以才需要图来帮助理解。话说回来，其实中译版取这个名字也不好，应该叫《深入理解并发编程》。如下面的图就没有什么意义：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-279b42b823dc5041be9ccf5dfe1974a2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1186\" data-rawheight=\"782\" data-original-token=\"v2-1c0f5d79962145ce977963bade5d0343\" class=\"origin_image zh-lightbox-thumb\" width=\"1186\" data-original=\"https://pic3.zhimg.com/v2-279b42b823dc5041be9ccf5dfe1974a2_r.jpg\"/></figure><p data-pid=\"NU-vYuyQ\">3.缺乏实战项目</p><p data-pid=\"0GdhuElo\">个人觉得作者确实写得很好，如果能补充一些 syncio 和 aiohttp 在实际项目中的应用就完美了。</p><h2>四、这本书适合什么样的人？</h2><p data-pid=\"ywsbUBGN\">回到“为什么阅读这本书”。我的第一个问题得到了回答：CPU密集型任务使用多进程，IO密集型使用多线程(阻塞IO)或者协程(非阻塞IO)。但第二个问题本书没有涉及。</p><p data-pid=\"oFYWbBfF\">本书是一本基础的并发入门书，使用 Python 实现代码。适合想了解并发的 Python 开发者。</p><h2>五、阅读指数</h2><p data-pid=\"mywhnJJM\">按照 5 星标准，本书阅读指数 4 颗星(★★★★☆)。</p><h2>六、参考资料</h2><h2>1. 编程</h2><p data-pid=\"YKSg1JQX\">(1)豆瓣，Kirill Bobrov，《Grokking Concurrency》： <a href=\"https://link.zhihu.com/?target=https%3A//book.douban.com/subject/36296797/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">book.douban.com/subject</span><span class=\"invisible\">/36296797/</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"eXzyxg6W\">(2)豆瓣，基里尔·波波洛夫，《并发编程图解》：<a href=\"https://link.zhihu.com/?target=https%3A//book.douban.com/subject/37364991/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">book.douban.com/subject</span><span class=\"invisible\">/37364991/</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"RhKfpd8N\">(3)Github，源码: <a href=\"https://link.zhihu.com/?target=https%3A//github.com/luminousmen/grokking_concurrency\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/luminousmen/</span><span class=\"invisible\">grokking_concurrency</span><span class=\"ellipsis\"></span></a></p><h2>2. 英语</h2><p data-pid=\"IIVLIYCu\">(1) Etymology Dictionary：<a href=\"https://link.zhihu.com/?target=https%3A//www.etymonline.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://www.etymonline.com</a></p><p data-pid=\"dvuwFHJ7\">(2) Cambridge  Dictionary：<a href=\"https://link.zhihu.com/?target=https%3A//dictionary.cambridge.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://dictionary.cambridge.org</a></p><p data-pid=\"Q6YqVIf_\">欢迎搜索及关注：编程人(a_codists)</p>",
+        "vote_next_step": "vote",
+        "comment_count": 0,
+        "excerpt_new": "一、 为什么读这本书？1.在工作项目中，有些项目用多线程(如：threading.Thread) , 有些项目用(如：multiprocess.pool), 也有些项目用到协程(如：asyncio)。但是什么时候用哪种技术，自己还不是很了解，从而就无法判断这样用到底好不好，所以想找本书看看，从而梳理清楚。 2.曾经有一个 Python 项目，虽然用了多进程，但是还是出现了请求处理不过来的情况，虽然该项目在后续选择了 Java 技术栈解决了，但这个问题我却始终无法忘…",
+        "column": {
+          "id": "c_1882784486678328094",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1882784486678328094",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "is_org": false,
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "imageUrl": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "title": "读后感",
+          "comment_permission": "private",
+          "intro": "",
+          "updated": 1741670802,
+          "is_following": false
+        },
+        "type": "article",
+        "updated": 1766974085,
+        "excerpt": "一、 为什么读这本书？1.在工作项目中，有些项目用多线程(如：threading.Thread) , 有些项目用(如：multiprocess.pool), 也有些项目用到协程(如：asyncio)。但是什么时候用哪种技术，自己还不是很了解，从而就无法判断这样用到底好不好，所以想找本书看看，从而梳理清楚。 2.曾经有一个 Python 项目，虽然用了多进程，但是还是出现了请求处理不过来的情况，虽然该项目在后续选择了 Java 技术栈解决了，但这个问题我却始终无法忘…",
+        "visited_count": 145,
+        "favorite_count": 13,
+        "is_navigator": false,
+        "voting": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1988886649627771187}",
+      "attached_info": "CoIGCOXN/O26tfKwlgEQBxoJMjY4MzA3NzM5IIXFx8oGKAIwAEBJSigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWggxMzY0Njk4NmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5ODg4ODY2NDk2Mjc3NzExODeKARVjXzE4ODI3ODQ0ODY2NzgzMjgwOTSqAQlyZWNvbW1lbmTCASBmMGQzMDVjMTc1YWIyYThlMzhhMjEyYmEwYjgxOWVjN/IBCggMEgZOb3JtYWzyASgIChIkYjljMmI0ZGMtYzg2Mi00NWNhLWEzYTItMDJhMGUxYzE4Njg58gEGCAsSAjEzggIAiAKv8fLpvDOSAiBmMGQzMDVjMTc1YWIyYThlMzhhMjEyYmEwYjgxOWVjN5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AID+gILTk9STUFMX0ZMT1eKAyAwYzc5YWIyOWUwYWY0MmUzYjhhNDUxNTIyZWE0YjIwZZoDDQoCdjIQABoFb3RoZXKoA5EB2AMA+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQogkYjgYiI3YyLTFjMGY1ZDc5OTYyMTQ1Y2U5Nzc5NjNiYWRlNWQwMzQzgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAX3OFP4EFAAAAAAAAAACJBehm4uCTILQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBkuoBgOSAi4KCTI2ODMwNzczORITMTk4ODg4NjY0OTYyNzc3MTE4NxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "74_1768674867.786",
+      "type": "feed",
+      "offset": 74,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674867,
+      "updated_time": 1768674867,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1995905683955143810",
+        "created_time": 1768640997,
+        "reshipment_settings": "disallowed",
+        "navigator_vote": false,
+        "id": "1995905683955143810",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 2209,
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "author": {
+          "url": "https://api.zhihu.com/people/6e018c6bf81c6b04f13536443c020d44",
+          "url_token": "sakural",
+          "avatar_url": "https://pic1.zhimg.com/50/0de809a0be3f7b918f18374210507999_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "6e018c6bf81c6b04f13536443c020d44",
+          "user_type": "people",
+          "name": "SakuraL",
+          "headline": "摄影区最暴躁素质最低只会嘴臭的键摄",
+          "followers_count": 51854
+        },
+        "voteup_count": 33,
+        "thanks_count": 1,
+        "excerpt": "看见 @黎马forZhaoju 的回答觉得挺有意思的。我们来说说一些跟大众认知有些差异的东西。 1: 在商业摄影领域，其实助理是一件十分稀松平常的事情。 一个商业摄影师在一场拍摄里面同时有4-5个助理围着摄影师转是很正常的事情。我们都可能知道，一套电影可能有很多人一起完成，同样，平面拍摄也是。实际的商业平面广告拍摄的场面可以一下子挤个十几二十人，有甲方，有制片，有灯光，有道化服，造型师，每个岗位后面都有2-3人甚至更…",
+        "excerpt_new": "看见 @黎马forZhaoju 的回答觉得挺有意思的。我们来说说一些跟大众认知有些差异的东西。 1: 在商业摄影领域，其实助理是一件十分稀松平常的事情。 一个商业摄影师在一场拍摄里面同时有4-5个助理围着摄影师转是很正常的事情。我们都可能知道，一套电影可能有很多人一起完成，同样，平面拍摄也是。实际的商业平面广告拍摄的场面可以一下子挤个十几二十人，有甲方，有制片，有灯光，有道化服，造型师，每个岗位后面都有2-3人甚至更…",
+        "preview_text": "",
+        "content": "<p data-pid=\"lvAOHqFZ\">看见 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/65570856cbf7bcaae2811b8b6943f73f\" data-hash=\"65570856cbf7bcaae2811b8b6943f73f\" data-hovercard=\"p$b$65570856cbf7bcaae2811b8b6943f73f\">@黎马forZhaoju</a> 的回答觉得挺有意思的。我们来说说一些跟大众认知有些差异的东西。<br/>1: 在商业摄影领域，其实助理是一件十分稀松平常的事情。<br/>一个商业摄影师在一场拍摄里面同时有4-5个助理围着摄影师转是很正常的事情。我们都可能知道，一套电影可能有很多人一起完成，同样，平面拍摄也是。实际的商业平面广告拍摄的场面可以一下子挤个十几二十人，有甲方，有制片，有灯光，有道化服，造型师，每个岗位后面都有2-3人甚至更多。<br/><br/>2: 商业摄影领域，最不重要的其实是技术，很多人觉得，摄影师NB是在于技术，这个是事实。但是吧，就好像南天门那样，里面都是神仙。下面人梦寐以求的什么长生不老，点石成金之类的法术其实在仙界几乎是人手一套。<br/>关键还是技术，能当上有名的商业摄影师，NB的其实是资源，某个大牌需要拍春夏广告片，可以给A拍也可以给B拍，反正都不会差，关键还是资源。所以你会看见，很多有名的摄影师其实很多时间都是在混圈子而不是去搞技术。一堆人在那儿，前期把创意，调性，执行等等都谈好了，到了现场按部就班就是了。只要没人发疯，一般出不了什么乱子。<br/><br/>3: 回到我们一般人的视角，摄影师跟我们的差距除了外部的人员支持以及上面说的资源外，还有审美和创意，但是相信我，大多数的摄影师，只要是吃这口饭的都可以做到70%-80%。很多人还是停留在技术层面去分析这些摄影师的拍摄手法或者后期啥的。说句难听点的话，要是在拍摄现场把摄影师换走，让助理过去把相机扔给他，场景，灯光，模特，妆造全部一样，你就是按而已。你觉得会差多少？（我们不说完全不懂的小白啊，这个不具什么可比性）本质上，商业摄影不是什么“一个人创作”这样的事情，而是属于团队协作的。哪怕是前期的创意部分，也是有甲方，创意部门，摄影师，制片等等共同完成的。而不是我们所一般理解的单兵独将般的拍摄。</p><hr/><p data-pid=\"IdHadKQI\">说白了，在色彩上，在构图上，题主给出的作品不算什么非常独特的照片。无非大多都是居中构图为主。至于色调，这就比较玄学了，你要抄的话，像素蛋糕已经有了追色功能，不能说100%吧，至少能像个80%我觉得问题不大。天下摄影一大抄，基本都是你抄我，我抄你而已。</p>",
+        "is_navigator": false,
+        "type": "answer",
+        "updated_time": 1768640997,
+        "comment_count": 5,
+        "is_copyable": false,
+        "question": {
+          "type": "question",
+          "comment_count": 20,
+          "detail": "",
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "id": "36385032",
+          "url": "https://api.zhihu.com/questions/36385032",
+          "author": {
+            "name": "Mercury Sun",
+            "headline": "神经病一只",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "mercury-sun",
+            "avatar_url": "https://pic1.zhimg.com/50/993b512310f1929eff165101678faa6b_l.jpg?source=b6762063",
+            "gender": 1,
+            "followers_count": 26,
+            "id": "b5192966fe7250f205622d4b90046af0",
+            "url": "https://api.zhihu.com/people/b5192966fe7250f205622d4b90046af0"
+          },
+          "title": "如何评价北美华人女摄影师林海音的作品？其作品后期是如何做到的？",
+          "created": 1444541790,
+          "bound_topic_ids": [
+            3053,
+            3768
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "is_labeled": false,
+        "favorite_count": 7
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995905683955143810}",
+      "attached_info": "CuoFCOXN/O26tfKwlgEQBBoJNzY1ODE4NTU2IOWjrcsGKCEwBUBKSjsKKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9OEgg1MzcyNTQ1MBgAIAA6AFoHNjc2MTEwOWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU5MDU2ODM5NTUxNDM4MTCKAQgzNjM4NTAzMqoBCXJlY29tbWVuZMIBIDZlMDE4YzZiZjgxYzZiMDRmMTM1MzY0NDNjMDIwZDQ08gEKCAwSBk5vcm1hbPIBKAgKEiRmZDFjMDY2Ny02MzA4LTQ2Y2QtODA0YS00MWY0MDdjYzE3M2HyAQYICxICMTOCAgCIAq/x8um8M5ICIDZlMDE4YzZiZjgxYzZiMDRmMTM1MzY0NDNjMDIwZDQ0mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9O6AID+gILTk9STUFMX0ZMT1eKAyAwYzc5YWIyOWUwYWY0MmUzYjhhNDUxNTIyZWE0YjIwZZoDDQoCdjIQABoFb3RoZXKoA6ER2AMA6gMdZmlyc3REZWdyZWVVc2VyQWN0aW9uUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACAKoyLP4EFAAAAAAAAAACJBehm4uCTILQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBkyoBgCSAi4KCTc2NTgxODU1NhITMTk5NTkwNTY4Mzk1NTE0MzgxMBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "75_1768674867.743",
+      "type": "feed",
+      "offset": 75,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674867,
+      "updated_time": 1768674867,
+      "target": {
+        "type": "answer",
+        "thanks_count": 3,
+        "id": "1993584855586455681",
+        "comment_count": 13,
+        "vote_next_step": "vote",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-e3a066323f665592d29fb4859d47a56f_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "visited_count": 6008,
+        "created_time": 1768087668,
+        "voteup_count": 51,
+        "excerpt": "都是 装逼。（中性，贬义）公路上尿急没办法，给个黑塑料袋，正常人选择尿在塑料袋里， 而有人选择把塑料袋套头上，然后站大马路中间尿， ——爽了自己，尴尬了别人。 拿文言文装逼的人，哪怕是最会装逼、装得最像的那种人，也早就被人扒得底裤不剩了。 来感受一下九十多年前鲁迅先生扇过来的超级大耳光。 做古文的秘诀，是要通篇都有来历，而非古人的成文；也就是通篇是自己做的，而又全非自己所做，个人其实并没有说什么；也就…",
+        "excerpt_new": "都是 装逼。（中性，贬义）公路上尿急没办法，给个黑塑料袋，正常人选择尿在塑料袋里， 而有人选择把塑料袋套头上，然后站大马路中间尿， ——爽了自己，尴尬了别人。 拿文言文装逼的人，哪怕是最会装逼、装得最像的那种人，也早就被人扒得底裤不剩了。 来感受一下九十多年前鲁迅先生扇过来的超级大耳光。 做古文的秘诀，是要通篇都有来历，而非古人的成文；也就是通篇是自己做的，而又全非自己所做，个人其实并没有说什么；也就…",
+        "preview_text": "",
+        "favorite_count": 69,
+        "author": {
+          "followers_count": 128,
+          "is_following": false,
+          "id": "8ff2a4709a02401829b8a861f22d9987",
+          "user_type": "people",
+          "name": "左道中人",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-723752f0bebcead9300a55a3a2bc1169_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/8ff2a4709a02401829b8a861f22d9987",
+          "url_token": "xu-hai-sen-93-43"
+        },
+        "content": "<p data-pid=\"IRwVyzzf\"></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5dc42fbe22857d9ae7db0d7513a106b0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1440\" data-rawheight=\"1062\" data-original-token=\"v2-e3a066323f665592d29fb4859d47a56f\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic1.zhimg.com/v2-5dc42fbe22857d9ae7db0d7513a106b0_r.jpg\"/></figure><p data-pid=\"B6BW3jA3\">都是<b>装逼</b>。（中性，贬义）</p><p data-pid=\"L_btKLkN\">公路上尿急没办法，给个黑塑料袋，正常人选择尿在塑料袋里，</p><p data-pid=\"Xk4ioBEI\">而有人选择把塑料袋套头上，然后站大马路中间尿，</p><p data-pid=\"cw4wsXFh\">——爽了自己，尴尬了别人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rMEWG5Bj\">拿文言文装逼的人，哪怕是最会装逼、装得最像的那种人，也早就被人扒得底裤不剩了。</p><p data-pid=\"KtAM4XZe\">来感受一下九十多年前鲁迅先生扇过来的超级大耳光。</p><blockquote data-pid=\"lPEYYBQ2\"><b>做古文的秘诀</b>，是要通篇都有来历，而非古人的成文；也就是通篇是自己做的，而又全非自己所做，个人其实并没有说什么；也就是“事出有因”，而又“查无实据”。到这样，便“庶几乎免于大过也矣”了。简而言之，实不过要做得“今天天气，哈哈哈……”而已。<br/>这是说内容。<b>至于修辞，也有一点秘诀：一要蒙胧，二要难懂。</b>那方法，是：缩短句子，多用难字。譬如罢，作文论秦朝事，<b>写一句“秦始皇乃始烧书”，是不算好文章的，必须翻译一下，使它不容易一目了然才好。</b>这时就用得着《尔雅》《文选》了，其实是只要不给别人知道，<b>查查《康熙字典》也不妨的</b>。动手来改，成为“始皇始焚书”，就有些“古”起来，到得改成“政俶燔典”，那就简直有了班马气，虽然跟着也令人不大看得懂。但是这样的做成一篇以至一部，是可以被称为“学者”的，我想了半天，只做得一句，所以只配在杂志上投稿。<br/>我们的古之文学大师，就常常玩着这一手。班固先生的“紫色蛙声，余分闰位”，就将四句长句，缩成八字的；扬雄先生的“蠢迪检柙”，就将“动由规矩”这四个平常字，翻成难字的。《绿野仙踪》记塾师咏“花”，有句云：“媳钗俏矣儿书废，哥罐闻焉嫂棒伤。”自说意思，是儿妇折花为钗，虽然俏丽，但恐儿子因而废读；下联较费解，是他的哥哥折了花来，没有花瓶，就插在瓦罐里，以嗅花香，他嫂嫂为防微杜渐起见，竟用棒子连花和罐一起打坏了。这算是对于冬烘先生的嘲笑。然而他的作法，其实是和扬班并无不合的，<b>错只在他不用古典而用新典</b>。这一个所谓“错”，就使《文选》之类在遗老遗少们的心眼里保住了威灵。<br/><b>做得蒙胧，这便是所谓“好”么？答曰：也不尽然，其实是不过掩了丑。</b>但是，“知耻近乎勇”，掩了丑，也就仿佛近乎好了。摩登女郎披下头发，中年妇人罩上面纱，就都是蒙胧术。人类学家解释衣服的起源有三说：一说是因为男女知道了性的羞耻心，用这来遮羞；一说却以为倒是用这来刺激；还有一种是说因为老弱男女，身体衰瘦，露着不好看，盖上一些东西，借此掩掩丑的。从修辞学的立场上看起来，我赞成后一说。<b>现在还常有骈四俪六，典丽堂皇的祭文，挽联，宣言，通电，我们倘去查字典，翻类书，剥去它外面的装饰，翻成白话文，试看那剩下的是怎样的东西呵！？</b><br/><b>不懂当然也好的。好在那里呢？即好在“不懂”中。但所虑的是好到令人不能说好丑，所以还不如做得它“难懂”</b>：有一点懂，而下一番苦功之后，所懂的也比较的多起来。我们是向来很有崇拜“难”的脾气的，每餐吃三碗饭，谁也不以为奇，有人每餐要吃十八碗，就郑重其事的写在笔记上；用手穿针没有人看，用脚穿针就可以搭帐篷卖钱；一幅画片，平淡无奇，装在匣子里，挖一个洞，化为西洋镜，人们就张着嘴热心的要看了。况且同是一事，费了苦功而达到的，也比并不费力而达到的的可贵。譬如到什么庙里去烧香罢，到山上的，比到平地上的可贵；三步一拜才到庙里的庙，和坐了轿子一径抬到的庙，即使同是这庙，在到达者的心里的可贵的程度是大有高下的。<b>作文之贵乎难懂，就是要使读者三步一拜，这才能够达到一点目的的妙法。</b><br/>写到这里，<b>成了所讲的不但只是做古文的秘诀，而且是做骗人的古文的秘诀了</b>。</blockquote><p data-pid=\"hhAE35AG\">摘自鲁迅《作文秘诀》 发表于1933年12月15日。文章最后也指出了，做文章应当<b><i>“有真意，去粉饰，少做作，勿卖弄。”</i></b></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3e13f8b7bd2ded67e5ac40f22c5e2857_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"800\" data-original-token=\"v2-ecc0f282adbec772d4e1583a6edaa264\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic4.zhimg.com/v2-3e13f8b7bd2ded67e5ac40f22c5e2857_r.jpg\"/></figure><p data-pid=\"X_DCavsX\">这讽刺的还是稍微有些古文涵养的人干的装逼事儿。放到知乎里，得是古文“圈”鄙视链顶层的那批人才能装出来的逼，</p><p data-pid=\"WnbrxXwH\">比如：<a href=\"https://www.zhihu.com/question/529704177\" class=\"internal\" target=\"_blank\">如何模仿《尚书》腔说话?</a> （当然这里面大多是搞抽象，反讽拽文装逼）</p><p data-pid=\"qWIxY6QD\">像题主说的“自是无虑可忧”，纯粹是学了点文言文的中学生发说说的水平，想装逼都没装成，白白让人笑话，</p><p data-pid=\"dRq5hewL\"><b>都不配挨鲁迅先生这一耳光。</b></p><hr/><p data-pid=\"yTsRtsFG\">当然，玩玩文字在自己圈子里消遣娱乐，</p><p data-pid=\"3RBt_Xo7\">甚至是反讽地使用文言文体搞抽象我觉得都是可以接受的，</p><p data-pid=\"-SK6e2BN\">前提是要自知。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2b00a8deef514a0737212d4b03b5f19a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"999\" data-original-token=\"v2-a12a3b5192f93e52a3348059a7fb9143\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-2b00a8deef514a0737212d4b03b5f19a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4f39bbc03383bde08abbe87f74870f5f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"774\" data-rawheight=\"774\" data-original-token=\"v2-8e594a66c689536ddb2ce7547d40a302\" class=\"origin_image zh-lightbox-thumb\" width=\"774\" data-original=\"https://pic4.zhimg.com/v2-4f39bbc03383bde08abbe87f74870f5f_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6c5491285ddc14ff524a2195c2e6a165_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1536\" data-rawheight=\"862\" data-original-token=\"v2-f26ba4f51c6af845a076f97434a41ef2\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic2.zhimg.com/v2-6c5491285ddc14ff524a2195c2e6a165_r.jpg\"/></figure><p><br/> </p>",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-e3a066323f665592d29fb4859d47a56f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ecc0f282adbec772d4e1583a6edaa264_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a12a3b5192f93e52a3348059a7fb9143_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8e594a66c689536ddb2ce7547d40a302_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f26ba4f51c6af845a076f97434a41ef2_720w.jpg?source=b6762063"
+        ],
+        "updated_time": 1768112045,
+        "is_copyable": true,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1993584855586455681",
+        "question": {
+          "comment_count": 6,
+          "bound_topic_ids": [
+            1306,
+            2616,
+            2723,
+            12845,
+            62801
+          ],
+          "detail": "",
+          "id": "642748156",
+          "follower_count": 0,
+          "author": {
+            "id": "93a778e5ab83b641ec37d1edc2df3abe",
+            "user_type": "people",
+            "url_token": "liao-dong-qi-sheng-14",
+            "name": "方宝剑",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "url": "https://api.zhihu.com/people/93a778e5ab83b641ec37d1edc2df3abe",
+            "headline": "随缘",
+            "followers_count": 30,
+            "is_following": false,
+            "is_followed": false
+          },
+          "is_following": false,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/642748156",
+          "answer_count": 0,
+          "question_type": "normal",
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "title": "怎样判断一个人是不是真的精通文言文？",
+          "created": 1706962091
+        },
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "answer_type": "normal",
+        "is_navigator": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993584855586455681}",
+      "attached_info": "CssHCOXN/O26tfKwlgEQBBoJNzY0OTAzODY3IPTAi8sGKDMwDUBLSigKHVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX01FUkdFEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMDUxMTA1NDliIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTkzNTg0ODU1NTg2NDU1NjgxigEJNjQyNzQ4MTU2qgEJcmVjb21tZW5kwgEgOGZmMmE0NzA5YTAyNDAxODI5YjhhODYxZjIyZDk5ODfyAQoIDBIGTm9ybWFs8gEoCAoSJGJmYjNiZmU4LTIxNzEtNDA5Yi1hZDZkLWRkYWQ1YzU5NDJhOPIBBggLEgIxM4ICAIgCr/Hy6bwzkgIgOGZmMmE0NzA5YTAyNDAxODI5YjhhODYxZjIyZDk5ODeaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIdVFNfU09VUkNFX0lOVEVSRVNUX1dPUkRfTUVSR0XoAgL6AgtOT1JNQUxfRkxPV4oDIDBjNzlhYjI5ZTBhZjQyZTNiOGE0NTE1MjJlYTRiMjBlmgMNCgJ2MhAAGgVvdGhlcqgD+C7YAwDqAyJJbnRlcmVzdFdvcmRNZXJnZVYxTmV3UG9vbFJlY2FsbGVy+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEKALGKYIIiN2Mi1lM2EwNjYzMjNmNjY1NTkyZDI5ZmI0ODU5ZDQ3YTU2ZjotCAIQoAYYoAYiI3YyLWVjYzBmMjgyYWRiZWM3NzJkNGUxNTgzYTZlZGFhMjY0Oi0IAhC4CBjnByIjdjItYTEyYTNiNTE5MmY5M2U1MmEzMzQ4MDU5YTdmYjkxNDM6LQgCEIYGGIYGIiN2Mi04ZTU5NGE2NmM2ODk1MzZkZGIyY2U3NTQ3ZDQwYTMwMjotCAIQgAwY3gYiI3YyLWYyNmJhNGY1MWM2YWY4NDVhMDc2Zjk3NDM0YTQxZWYygAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAXWCYP4EFAAAAAAAAAACJBehm4uCTILQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBk2oBgCSAi4KCTc2NDkwMzg2NxITMTk5MzU4NDg1NTU4NjQ1NTY4MRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "76_1768674867.435",
+      "type": "feed",
+      "offset": 76,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674867,
+      "updated_time": 1768674867,
+      "target": {
+        "author": {
+          "headline": "正念、临在、如是",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-f9b1fe751bd9335cbace92621b0717da_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false,
+          "id": "78c866f7e0d562132f5bfd0bf4113a1c",
+          "url": "https://api.zhihu.com/people/78c866f7e0d562132f5bfd0bf4113a1c",
+          "url_token": "ywj568",
+          "name": "ywj568",
+          "user_type": "people",
+          "gender": 1,
+          "followers_count": 21,
+          "is_following": false
+        },
+        "thanks_count": 0,
+        "excerpt": "大脑知道和身体知道是两码事，很多人看起来知道了很多东西，不过是看到了标准答案，是别人经历非常多的困难和痛苦最后总结出来的精华，就像领地一样，领地内部有很多雷，只知道少量正确的位置，有雷的地方其实不知道，所以其实并不知道领地的具体情况，一个人只有走了很多的岔路才能真正知道那条路是对的，把每个坑踩踏实了，但这种方式是稀缺的，只能用于专业领域，对于非专业领域，看看就得了。 现代大多数人似乎拥有了知识饥…",
+        "is_labeled": true,
+        "visited_count": 15,
+        "favorite_count": 0,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1995910490786911526",
+        "voteup_count": 1,
+        "question": {
+          "title": "互联网已经将绝大部分信息差抹除了，知识已经随处可以获得，为何大部分人依旧无法获得大幅突破？",
+          "follower_count": 0,
+          "comment_count": 198,
+          "bound_topic_ids": [
+            119,
+            1351,
+            7129,
+            15317,
+            208086
+          ],
+          "detail": "",
+          "id": "689452741",
+          "is_following": false,
+          "excerpt": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/689452741",
+          "author": {
+            "id": "f46b4d908231ceab36582d7faefe1320",
+            "url": "https://api.zhihu.com/people/f46b4d908231ceab36582d7faefe1320",
+            "url_token": "lorenz-lee",
+            "name": "Lorenz Lee",
+            "followers_count": 19,
+            "user_type": "people",
+            "headline": "修行者",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "created": 1727617200,
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "excerpt_new": "大脑知道和身体知道是两码事，很多人看起来知道了很多东西，不过是看到了标准答案，是别人经历非常多的困难和痛苦最后总结出来的精华，就像领地一样，领地内部有很多雷，只知道少量正确的位置，有雷的地方其实不知道，所以其实并不知道领地的具体情况，一个人只有走了很多的岔路才能真正知道那条路是对的，把每个坑踩踏实了，但这种方式是稀缺的，只能用于专业领域，对于非专业领域，看看就得了。 现代大多数人似乎拥有了知识饥…",
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"k7tKgbo7\">大脑知道和身体知道是两码事，很多人看起来知道了很多东西，不过是看到了标准答案，是别人经历非常多的困难和痛苦最后总结出来的精华，就像领地一样，领地内部有很多雷，只知道少量正确的位置，有雷的地方其实不知道，所以其实并不知道领地的具体情况，一个人只有走了很多的岔路才能真正知道那条路是对的，把每个坑踩踏实了，但这种方式是稀缺的，只能用于专业领域，对于非专业领域，看看就得了。</p><p data-pid=\"NYe2g6In\">现代大多数人似乎拥有了知识饥渴症，看到什么都想知道，其实看过就忘了，没什么价值，反而加剧了内心叙事，被内心叙事困住，其实看破叙事的虚幻，直接做，就是根本的行路之道，但想要体认没有足够的经历是不行的，但体认的价值非常大，体认之后一个人的存在状态会发生根本转变，会真正活在每一刻的当下。</p>",
+        "id": "1995910490786911526",
+        "created_time": 1768642143,
+        "comment_count": 0,
+        "navigator_vote": false,
+        "type": "answer",
+        "updated_time": 1768642143,
+        "is_copyable": true,
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal",
+        "is_navigator": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995910490786911526}",
+      "attached_info": "CqgGCOXN/O26tfKwlgEQBBoJNzY1ODIwNDg4IN+srcsGKAEwAEBMSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMTA4NDc3NjZiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1OTEwNDkwNzg2OTExNTI2igEJNjg5NDUyNzQxqgEJcmVjb21tZW5kwgEgNzhjODY2ZjdlMGQ1NjIxMzJmNWJmZDBiZjQxMTNhMWPyAQoIDBIGTm9ybWFs8gEoCAoSJGMwNDdkODViLWVhZjYtNGQ0Ny1hMmViLTU2ZjlkZTE2Zjg2ZvIBBggLEgIxM4ICAIgCr/Hy6bwzkgIgNzhjODY2ZjdlMGQ1NjIxMzJmNWJmZDBiZjQxMTNhMWOaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIaQ29udGVudFdhcm1VcElzb2xhdGlvblJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AIC+gILTk9STUFMX0ZMT1eKAyAwYzc5YWIyOWUwYWY0MmUzYjhhNDUxNTIyZWE0YjIwZZoDDQoCdjIQABoFb3RoZXKoAw/YAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEBi4oM/gQUAAAAAAAAAAIkF6Gbi4JMgtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDZAGAKAGTqgGAZICLgoJNzY1ODIwNDg4EhMxOTk1OTEwNDkwNzg2OTExNTI2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "77_1768674867.395",
+      "type": "feed",
+      "offset": 77,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674867,
+      "updated_time": 1768674867,
+      "target": {
+        "type": "answer",
+        "is_navigator": false,
+        "id": "1907434706141704872",
+        "author": {
+          "url": "https://api.zhihu.com/people/b5606024fe14603218bb1cf89b67c4d4",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "followers_count": 27684,
+          "is_following": false,
+          "is_followed": false,
+          "id": "b5606024fe14603218bb1cf89b67c4d4",
+          "name": "哈欠",
+          "headline": "",
+          "is_org": false,
+          "gender": -1,
+          "url_token": "zhang-chun-hui-40-1"
+        },
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "HKktfFJe",
+            "text": "有人说是因为印度，我们才去援助巴基斯坦，但是朝鲜的重要性比巴基斯坦更大，因为朝鲜担负着对抗美日韩百万军队的重任。",
+            "marks": [
+              {
+                "start_index": 38,
+                "end_index": 56,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993005864295080428"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "j0USnJfY",
+            "text": "再结合俄乌战争，朝鲜出兵乌克兰（全世界唯一一个出兵帮助俄罗斯的国家，连俄罗斯的铁杆白俄罗斯以及独联体和集安组织成员国都没有一个派兵的）。",
+            "marks": [
+              {
+                "start_index": 34,
+                "end_index": 66,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993215917769896842"
+                  ],
+                  "is_like": false,
+                  "like_count": 41,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "q0xrbvq7",
+            "text": "国际政治就是这么玩的，要么是从属关系，要么是利益交换关系（对等）。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993216041543828835"
+                  ],
+                  "is_like": false,
+                  "like_count": 47,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "XvGOe_AI",
+            "text": "所以他的外交政策都是奔着这个目标来的，同样，他和中俄不是附属关系，而是合作关系，我们对伊朗没有权利和义务，也没有责任，我们只是在面对美国这个巨大的敌人时，不得不合作来分摊压力而已。中伊关系和中俄关系是一个类型的，也就是说，美国如果真的倒了，中伊俄就是未来世界的竞争对手，就如同元朝垮了，朱元璋和陈友谅、张士诚等起义军就是敌人一样。",
+            "marks": [
+              {
+                "start_index": 22,
+                "end_index": 165,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995614685496620390"
+                  ],
+                  "is_like": false,
+                  "like_count": 82,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "5vnzOVKR",
+            "text": "伊朗也一样，他再惨，他也没有向中俄求救，没有找中俄要援助，他还是继续靠着自己的能力去对抗，这就是非依附关系的结果啊。一旦要了，他就跪下来了，要想再站起来那就难了。独立自主这个词背后就是这么的残酷。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 98,
+                "seg_info": {
+                  "seg_ids": [
+                    "1975479874731926939"
+                  ],
+                  "is_like": false,
+                  "like_count": 126,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "sopZJUXR",
+            "text": "苏联的援助是志愿军在朝鲜用几十万条人命换来的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 23,
+                "seg_info": {
+                  "seg_ids": [
+                    "1908529944738394243"
+                  ],
+                  "is_like": false,
+                  "like_count": 89,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "gnNnydYI",
+            "text": "这个世界国与国的关系就是这样，你能体现你的价值，就会有人给你投资。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993216041543828835"
+                  ],
+                  "is_like": false,
+                  "like_count": 46,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "DCJeBXZM",
+            "text": "今天也一样，中美都不愿意亲自下场开打，美国那边鼓动印度上场，代价是给印度工业化和产业链，印度这次对巴基斯坦的空战，如果是印度胜利，大量的巴基斯坦空军战机被击落，信不信后续就是印度扩大战争规模，地面入侵克什米尔，最终把中国拖入战争。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 115,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994374530500682248"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "cZq7CjeV",
+            "text": "中国这边则是支持伊朗，代价也是工业化和援助，只要伊朗能在中东干翻以色列，迫使美国在中东下场或者退出中东，中国就会像当年苏联援华那样给予伊朗源源不断的援助。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 77,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992391338373711601"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "question": {
+          "id": "1904958144825782609",
+          "excerpt": "",
+          "author": {
+            "url": "https://api.zhihu.com/people/50ded90912ab8d21463a2526c9c11170",
+            "is_org": false,
+            "is_following": false,
+            "followers_count": 14,
+            "id": "50ded90912ab8d21463a2526c9c11170",
+            "user_type": "people",
+            "url_token": "mo-ran-hui-shou-12-2",
+            "name": "蓦然回首",
+            "headline": "投资者",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_followed": false
+          },
+          "created": 1746957414,
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/1904958144825782609",
+          "title": "在伊朗扶不起来的时候，中国选择了埃及作为突破口，相比伊朗，埃及有何优势？",
+          "is_following": false,
+          "type": "question",
+          "answer_count": 0,
+          "comment_count": 61,
+          "bound_topic_ids": [
+            1695,
+            5560,
+            2154760,
+            3034475
+          ],
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "excerpt": "问你们一个问题：为什么我们给巴基斯坦歼十、预警机、坦克、大炮、军舰、潜艇，帮巴基斯坦建设港口，修中巴公路和铁路？ 而我们对待朝鲜却是几乎啥也没给呢？这么多年你见我们援助朝鲜工厂企业公路铁路飞机坦克大炮吗？甚至我们对越南都有大量的投资。 有人说是因为印度，我们才去援助巴基斯坦，但是朝鲜的重要性比巴基斯坦更大，因为朝鲜担负着对抗美日韩百万军队的重任。 再结合俄乌战争，朝鲜出兵乌克兰（全世界唯一一个出兵…",
+        "reshipment_settings": "disallowed",
+        "thanks_count": 822,
+        "is_copyable": false,
+        "favorite_count": 6558,
+        "navigator_vote": false,
+        "created_time": 1747547872,
+        "excerpt_new": "问你们一个问题：为什么我们给巴基斯坦歼十、预警机、坦克、大炮、军舰、潜艇，帮巴基斯坦建设港口，修中巴公路和铁路？ 而我们对待朝鲜却是几乎啥也没给呢？这么多年你见我们援助朝鲜工厂企业公路铁路飞机坦克大炮吗？甚至我们对越南都有大量的投资。 有人说是因为印度，我们才去援助巴基斯坦，但是朝鲜的重要性比巴基斯坦更大，因为朝鲜担负着对抗美日韩百万军队的重任。 再结合俄乌战争，朝鲜出兵乌克兰（全世界唯一一个出兵…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 1489372,
+        "answer_type": "normal",
+        "updated_time": 1747801490,
+        "comment_count": 1502,
+        "preview_type": "default",
+        "is_labeled": false,
+        "content": "<p data-pid=\"eo7O6jat\">问你们一个问题：为什么我们给巴基斯坦歼十、预警机、坦克、大炮、军舰、潜艇，帮巴基斯坦建设港口，修中巴公路和铁路？</p><p data-pid=\"eiSV5tLT\">而我们对待朝鲜却是几乎啥也没给呢？这么多年你见我们援助朝鲜工厂企业公路铁路飞机坦克大炮吗？甚至我们对越南都有大量的投资。</p><p data-pid=\"HKktfFJe\">有人说是因为印度，我们才去援助巴基斯坦，但是朝鲜的重要性比巴基斯坦更大，因为朝鲜担负着对抗美日韩百万军队的重任。</p><p data-pid=\"j0USnJfY\">再结合俄乌战争，朝鲜出兵乌克兰（全世界唯一一个出兵帮助俄罗斯的国家，连俄罗斯的铁杆白俄罗斯以及独联体和集安组织成员国都没有一个派兵的）。</p><p data-pid=\"zG7sQE7C\">再结合前段时间朝鲜新装备的驱逐舰和预警机。</p><p data-pid=\"3cmLIux_\">能理解这个世界的运行规律吗？？？</p><p data-pid=\"ZjRzrDvl\">朝鲜是俄罗斯的小弟，朝鲜依附于俄罗斯，而不是中国，所以中国不会给朝鲜技术、产业、援助、武器装备、更不会帮助朝鲜发展经济，即使哪天我们帮朝鲜了，那也是基于利益出发，做的是利益交换。而不是给予或者帮助，这是两码事。</p><p data-pid=\"q0xrbvq7\">国际政治就是这么玩的，要么是从属关系，要么是利益交换关系（对等）。</p><p data-pid=\"DjJLIDTO\">伊朗他是和中美俄欧一样的世界级玩家，虽然他的力量很弱，但是他的定位从来都不是朝鲜韩国这样的定位，他的定位是土耳其、印度这样的类型。是努力谋求在未来世界成为一极的角色。其基本盘是世界的什叶派穆斯林，谋求的是伊斯兰世界的领袖（土耳其也在谋求这个）。</p><p data-pid=\"XvGOe_AI\">所以他的外交政策都是奔着这个目标来的，同样，他和中俄不是附属关系，而是合作关系，我们对伊朗没有权利和义务，也没有责任，我们只是在面对美国这个巨大的敌人时，不得不合作来分摊压力而已。中伊关系和中俄关系是一个类型的，也就是说，美国如果真的倒了，中伊俄就是未来世界的竞争对手，就如同元朝垮了，朱元璋和陈友谅、张士诚等起义军就是敌人一样。</p><p data-pid=\"uAT4v9r4\">你看伊朗再怎么困难，中国给他歼十、歼二十、空警500、052D这些武器装备没？俄罗斯给他苏35、图95、伊尔七十六没？</p><p data-pid=\"5vnzOVKR\">伊朗也一样，他再惨，他也没有向中俄求救，没有找中俄要援助，他还是继续靠着自己的能力去对抗，这就是非依附关系的结果啊。一旦要了，他就跪下来了，要想再站起来那就难了。独立自主这个词背后就是这么的残酷。</p><p data-pid=\"1oqBskK6\">所以大家不要总是以伊朗是我们的附庸的心态去看待伊朗，你如果这么看待伊朗，就会得出伊朗为什么不符合中国的意愿去做事的疑问。</p><p data-pid=\"KyjsX4FR\">所以伊朗的外交政策是完全独立的，他和印度签署协议就非常符合伊朗的需求，一方面它是什叶派国家，巴基斯坦是逊尼派国家，而印度和巴基斯坦是敌人，巴基斯坦背后又是沙特为首的中东逊尼派国家，伊朗和沙特正在中东斗的热火朝天，也门就是双方争夺的一个焦点。所以伊朗与印度交好，对他的国际环境是非常有利的。</p><p data-pid=\"cQHtGwJJ\">另一方面，印度是全世界少数几个能够和美国对着干去和伊朗搞合作的国家，其经济体量也能帮助伊朗发展经济。</p><p data-pid=\"3pPBiZa7\">所以伊朗印度合作非常的正常，当然如果站在中国的角度来看，肯定是不爽的，但是伊朗不是我们的附庸，他不可能站在我们的角度去执行外交政策，同样我们的外交政策也不会基于伊朗的国家利益。这是这个世界的基本规律。</p><p data-pid=\"DEto4evi\">所以不要去传播诸如中国支持或者反对或者敌视或者帮助伊朗之类的话题，双方都是基于自身利益而作出的最适合的行为。</p><p data-pid=\"7LPlzuD4\">—————————————————————————</p><p data-pid=\"sopZJUXR\">苏联的援助是志愿军在朝鲜用几十万条人命换来的。</p><p data-pid=\"Mbkti9nb\">今天伊朗如果能在中东打败以色列，信不信中俄的援助大把大把的往伊朗送。</p><p data-pid=\"gnNnydYI\">这个世界国与国的关系就是这样，你能体现你的价值，就会有人给你投资。</p><p data-pid=\"6cWm9ktD\">朝鲜战争时期，苏联必须要打，否则他的共产国际老大地位怎么办？他要是缩了，苏联的华约组织就可以解散了（虽然当时还没成立华约，但是苏联已经有一群小弟了形成组织框架了）。但是苏联又不敢打，因为这时候苏联打完二战才四年多，没恢复，担心输掉朝鲜战争，一旦输了，苏联国家都有可能解体。</p><p data-pid=\"fZIaRpPP\">这时候中国出头帮了他大忙，不但不用苏联自己下场，还打赢了这场战争，这援助苏联敢不给吗？他要是敢不给，以后谁还帮他打仗？何况援助还是付钱的，后来中国的三年艰苦时期就是勒紧裤腰带还苏联的援助的钱。</p><p data-pid=\"DCJeBXZM\">今天也一样，中美都不愿意亲自下场开打，美国那边鼓动印度上场，代价是给印度工业化和产业链，印度这次对巴基斯坦的空战，如果是印度胜利，大量的巴基斯坦空军战机被击落，信不信后续就是印度扩大战争规模，地面入侵克什米尔，最终把中国拖入战争。</p><p data-pid=\"cZq7CjeV\">中国这边则是支持伊朗，代价也是工业化和援助，只要伊朗能在中东干翻以色列，迫使美国在中东下场或者退出中东，中国就会像当年苏联援华那样给予伊朗源源不断的援助。</p><p data-pid=\"RngLWnIu\">对于伊朗来说，好处可不光是援助，他要是能打败以色列，他就是中东的萨拉丁，伊斯兰世界的灯塔。同样对于印度也一样，他要是打垮巴基斯坦，南亚就成了印度人的南亚了，中国彻底退出南亚。</p><p data-pid=\"AqsXRA2w\">所以中美的攻防是一样的，一个支持印度打击巴基斯坦，一个支持伊朗打击以色列，都企图拖对方下场，结果两者都输了。输赢的代价都是巨大到无法承受的。</p><p data-pid=\"fz3H_DT0\">中国当年拉着伊朗和沙特到北京签署和平协议，就是给伊朗定心丸：告诉伊朗你放心，你打以色列的时候不用担心沙特为首的逊尼派背后捅你刀子（逊尼派和什叶派也是敌人），你放心大胆的去打以色列，结果给你机会不中用，连总统都被人搞死了。所以才有后来的土耳其控制叙利亚，没办法，伊朗输了就只能引进土耳其来平衡（否则叙利亚就被以色列吞并了，事实是以色列占领了叙利亚西部的大片领土）。</p><p data-pid=\"g9Ma6kzz\">这次又去埃及，去埃及是防守，因为美国人要搞苏伊斯运河，以色列要拿埃及的西奈半岛了，一旦以色列拿下西奈，苏伊士运河就成了以色列的运河了，以色列已经控制了戈兰高地，再拿下西奈，同时还在蚕食最后一点巴勒斯坦领土，一旦这三个方向的扩张完成了，以色列的国土面积就是中东大国了，彻底站稳了，届时中俄在中东的战略就彻底失败了。</p><p data-pid=\"bUjpyjPB\">这一切：沙伊和解-以伊斗争-土耳其控制叙利亚-军事出访埃及，这一套下来都是由于伊朗的拉胯而导致的连锁反应。</p><p data-pid=\"dZbccQOD\">昨天中国外交部提醒在以色列的中国公民离开以色列，估计以色列那边又会开启战争，谁来打不清楚，但是不能再输了。</p>",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1907434706141704872",
+        "voteup_count": 25831,
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1907434706141704872}",
+      "attached_info": "CrgGCOXN/O26tfKwlgEQBBoJNzI3OTExMTc4IODtpcEGKOfJATDeC0BNSj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNDg5Mzg1MWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5MDc0MzQ3MDYxNDE3MDQ4NzKKARMxOTA0OTU4MTQ0ODI1NzgyNjA5qgEJcmVjb21tZW5kwgEgYjU2MDYwMjRmZTE0NjAzMjE4YmIxY2Y4OWI2N2M0ZDTyAQoIDBIGTm9ybWFs8gEoCAoSJGUwZDI3Yjk1LTQ5NDctNDI5OC05YmNhLWU2OTgwMWY3MjBhZfIBBggLEgIxM4ICAIgCr/Hy6bwzkgIgYjU2MDYwMjRmZTE0NjAzMjE4YmIxY2Y4OWI2N2M0ZDSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU3oAgP6AgtOT1JNQUxfRkxPV4oDIDBjNzlhYjI5ZTBhZjQyZTNiOGE0NTE1MjJlYTRiMjBlmgMNCgJ2MhAAGgVvdGhlcqgD3PNa2AMA6gMQbmV3YmllX2ZlZWRyZV92MvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQGbWFudWFswgQDMTU3yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAJhyjP4EFAAAAAAAAAACJBehm4uCTILQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBk+oBgCSAi4KCTcyNzkxMTE3OBITMTkwNzQzNDcwNjE0MTcwNDg3MhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=77&desktop=true&end_offset=79&page_number=14&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=77&desktop=true&end_offset=79&page_number=14&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

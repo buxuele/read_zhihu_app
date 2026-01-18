@@ -1,0 +1,603 @@
+{
+  "data": [
+    {
+      "id": "576_1755822882.475",
+      "type": "feed",
+      "offset": 576,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822882,
+      "updated_time": 1755822882,
+      "target": {
+        "id": "1939716230299772307",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939716230299772307",
+        "author": {
+          "id": "362aeea19476096c5f635e2fcf7c4c22",
+          "url": "https://api.zhihu.com/people/362aeea19476096c5f635e2fcf7c4c22",
+          "user_type": "people",
+          "url_token": "hong-wen-30",
+          "name": "程序员婉儿",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-a00a2025eea78a2f2f112832fa92e2a0_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 3,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755244387,
+        "updated_time": 1755244387,
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "29372574",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/29372574",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "Python 的练手项目有哪些值得推荐？",
+          "created": 1428404043,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 28,
+          "bound_topic_ids": [
+            872,
+            1354,
+            37027,
+            436169
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-6a81fd45261cd7117e01818bf966a4c8_720w.jpg?source=b6762063",
+        "excerpt": "【文末有获取方式】 【文末有获取方式】前言：为什么 Python 是编程新手的理想之选？如果你从未接触过编程，正想踏入这个领域，那么 Python 会是你的最佳起点。它凭借以下优势，成为全球数百万初学者的首选： 语法简洁易懂：代码读起来像简单的英语句子，学习曲线平缓，无需死记复杂规则应用场景广泛：从网站开发、数据分析到人工智能、自动化脚本，几乎无所不能学习资源丰富：拥有全球最大的开发者社区之一，海量免费教程、开源…",
+        "excerpt_new": "【文末有获取方式】 【文末有获取方式】前言：为什么 Python 是编程新手的理想之选？如果你从未接触过编程，正想踏入这个领域，那么 Python 会是你的最佳起点。它凭借以下优势，成为全球数百万初学者的首选： 语法简洁易懂：代码读起来像简单的英语句子，学习曲线平缓，无需死记复杂规则应用场景广泛：从网站开发、数据分析到人工智能、自动化脚本，几乎无所不能学习资源丰富：拥有全球最大的开发者社区之一，海量免费教程、开源…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"9tHh9s44\"><b>【文末有获取方式】</b></p><p data-pid=\"k8E_0kzM\"><b>【文末有获取方式】</b></p><h2>前言：为什么 Python 是编程新手的理想之选？</h2><p data-pid=\"nH8mEmDM\">如果你从未接触过编程，正想踏入这个领域，那么 Python 会是你的最佳起点。它凭借以下优势，成为全球数百万初学者的首选：</p><p class=\"ztext-empty-paragraph\"><br/></p><ul><li data-pid=\"UmElHA96\"><b>语法简洁易懂</b>：代码读起来像简单的英语句子，学习曲线平缓，无需死记复杂规则</li><li data-pid=\"KqTE8iA7\"><b>应用场景广泛</b>：从网站开发、数据分析到人工智能、自动化脚本，几乎无所不能</li><li data-pid=\"6BrQv_xW\"><b>学习资源丰富</b>：拥有全球最大的开发者社区之一，海量免费教程、开源库随时可用</li><li data-pid=\"s9A7yorC\"><b>就业前景光明</b>：连续多年稳居最受欢迎编程语言前三名，市场需求旺盛，薪资待遇优厚</li></ul><h2>第一步：搭建你的 Python 编程环境</h2><h3>安装 Python 核心程序</h3><ol><li data-pid=\"BB_cAE9V\">访问 Python 官方网站：<a href=\"https://link.zhihu.com/?target=https%3A//www.python.org/downloads/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Download Python</a></li><li data-pid=\"GN8cDzmp\">下载最新的稳定版本（例如 Python 3.12.x），注意选择与你的操作系统匹配的版本</li><li data-pid=\"gJ2ObIlM\">运行安装程序时，<b>务必勾选 &#34;Add Python to PATH&#34; 选项</b>（这会自动配置环境变量，避免后续很多麻烦）</li><li data-pid=\"44mn2UIv\">点击 &#34;Install Now&#34; 完成安装，安装过程中保持默认设置即可</li></ol><h3>选择合适的开发工具</h3><p data-pid=\"M6zqv3yW\">根据你的需求和习惯，可选择以下工具：</p><p class=\"ztext-empty-paragraph\"><br/></p><ul><li data-pid=\"OFFNmR1w\"><b>新手首选：Thonny</b>官网：<a href=\"https://link.zhihu.com/?target=https%3A//thonny.org/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">thonny.org/</span><span class=\"invisible\"></span></a>特点：专为初学者设计，内置 Python 解释器，界面简洁，调试功能直观，无需复杂配置</li><li data-pid=\"SSG-TZ62\"><b>进阶选择：VS Code</b>官网：<a href=\"https://link.zhihu.com/?target=https%3A//code.visualstudio.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Visual Studio Code - Code Editing. Redefined</a>特点：免费开源，功能强大，安装 Python 插件后即可使用，支持多种编程语言，适合长期使用</li><li data-pid=\"CGF1YE1B\"><b>在线环境（无需安装）</b></li><ul><li data-pid=\"_UnlPOqx\">Replit：<a href=\"https://link.zhihu.com/?target=https%3A//replit.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">replit.com/</span><span class=\"invisible\"></span></a> 支持实时协作，界面友好</li><li data-pid=\"KWNGzFoW\">Google Colab：<a href=\"https://link.zhihu.com/?target=https%3A//colab.research.google.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">colab.research.google.com</span><span class=\"invisible\">/</span><span class=\"ellipsis\"></span></a> 适合数据分析，免费使用 GPU 资源</li></ul></ul><h2>第二步：掌握核心基础概念（像搭积木一样构建知识）</h2><h3>变量与数据类型</h3><p data-pid=\"_MvWQHNI\">变量就像一个个容器，用来存储不同类型的数据：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f545f0ebca196ad7b0fea5cf0f11953c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"471\" data-rawheight=\"95\" data-original-token=\"v2-57860fbc1eb40a17411fb1dcc196968b\" class=\"origin_image zh-lightbox-thumb\" width=\"471\" data-original=\"https://pic1.zhimg.com/v2-f545f0ebca196ad7b0fea5cf0f11953c_r.jpg\"/></figure><h3>基础运算</h3><p data-pid=\"v1lxqEjv\">Python 可以像计算器一样进行各种运算：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6cffbc5c92e228fd6ca1532f3b283ee5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"347\" data-rawheight=\"110\" data-original-token=\"v2-30ed436a35d2bb9518ff6d00864418be\" class=\"content_image\" width=\"347\"/></figure><h3>输入与输出</h3><p data-pid=\"_X3wH2ZC\">让程序与用户进行交互：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-fafe4c572d7c61e165457309e748a593_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"358\" data-rawheight=\"94\" data-original-token=\"v2-db347ef6e2328c6c2c17c2c6e304b90b\" class=\"content_image\" width=\"358\"/></figure><p data-pid=\"jsaFq--q\">运行这段代码，程序会先显示 &#34;请问你的名字是？&#34;，等待你输入名字后，会回复 &#34;你好，XXX！欢迎学习 Python！&#34;</p><h3>条件判断（if...elif...else）</h3><p data-pid=\"A0rxlPWW\">让程序根据不同情况做出不同反应：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-edcf1252dc9c5c30b70e9a6d88da1741_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"501\" data-rawheight=\"153\" data-original-token=\"v2-eff8903e9b81a335a54bd5ca4d7aeac8\" class=\"origin_image zh-lightbox-thumb\" width=\"501\" data-original=\"https://picx.zhimg.com/v2-edcf1252dc9c5c30b70e9a6d88da1741_r.jpg\"/></figure><p data-pid=\"7MSOaUhO\">注意：条件后面要加冒号<code>:</code>，且缩进（通常是 4 个空格）代表代码块的范围</p><h3>循环（for &amp; while）</h3><p data-pid=\"qiOu2or7\">让程序重复执行某些操作，避免重复编写代码：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ab374eded5f15fcd81bd4bb3e603f0a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"398\" data-original-token=\"v2-a804b8287c300f384ca95c9e9842b286\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic4.zhimg.com/v2-ab374eded5f15fcd81bd4bb3e603f0a5_r.jpg\"/></figure><h3>列表（List）</h3><p data-pid=\"1TTv9AnF\">用于存储多个相关的数据，方便统一管理：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8503ff33308fedd63bd24e3371bbefbd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"554\" data-rawheight=\"206\" data-original-token=\"v2-e7f78d51194df8876d8d41a90701ea11\" class=\"origin_image zh-lightbox-thumb\" width=\"554\" data-original=\"https://pic2.zhimg.com/v2-8503ff33308fedd63bd24e3371bbefbd_r.jpg\"/></figure><h3>函数（Function）</h3><p data-pid=\"spDdqtzc\">封装可重复使用的代码块，让程序更简洁：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5f658abf74a686f809952145799d40b5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"547\" data-rawheight=\"206\" data-original-token=\"v2-1ed6c4a39e49f3054b84ac4d29cae808\" class=\"origin_image zh-lightbox-thumb\" width=\"547\" data-original=\"https://pic4.zhimg.com/v2-5f658abf74a686f809952145799d40b5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SoHIbUFJ\">函数的好处是：定义一次，可以在程序的多个地方反复使用，修改时也只需改一处</p><h2>第三步：动手实践！用小项目驱动学习</h2><p data-pid=\"gLec5a_5\">学习编程最好的方式是动手实践，以下几个小项目能帮你巩固基础：</p><h3>项目 1：简易计算器</h3><p data-pid=\"Cwm_k25o\"><b>功能</b>：让用户输入两个数字和一个运算符（+、-、*、/），程序计算并输出结果<b>练习点</b>：输入输出、条件判断、基础运算<b>提示</b>：用<code>input()</code>获取用户输入，用<code>if...elif...else</code>判断运算符，最后计算并打印结果</p><h3>项目 2：猜数字游戏</h3><p data-pid=\"O-tKydcD\"><b>功能</b>：程序随机生成 1-100 之间的一个数字，用户每次输入猜测的数字，程序提示 &#34;太大&#34;、&#34;太小&#34; 或 &#34;猜对了&#34;<b>练习点</b>：循环、条件判断、随机数生成（需要导入<code>random</code>模块）<b>进阶</b>：记录用户猜了多少次，猜对后显示次数</p><h3>项目 3：待办事项清单（命令行版）</h3><p data-pid=\"QsfnUdVe\"><b>功能</b>：</p><ul><li data-pid=\"u0ulKhON\">可以添加新任务</li><li data-pid=\"xV0QIzH9\">可以列出所有任务（显示已完成 / 未完成状态）</li><li data-pid=\"CtBjmfbD\">可以标记任务为已完成</li><li data-pid=\"3joqZ2Jb\">（可选）可以删除任务<b>练习点</b>：列表操作、函数封装、循环菜单<b>提示</b>：用列表存储字典，每个字典代表一个任务（包含 &#34;内容&#34; 和 &#34;是否完成&#34; 等信息）</li></ul><h2>第四步：善用资源，持续精进</h2><h3>优质入门教程</h3><ul><li data-pid=\"Ee8xDJMo\">廖雪峰的 Python 教程：<a href=\"https://link.zhihu.com/?target=https%3A//www.liaoxuefeng.com/wiki/1016959663602400\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">liaoxuefeng.com/wiki/10</span><span class=\"invisible\">16959663602400</span><span class=\"ellipsis\"></span></a>中文讲解，结构清晰，适合零基础入门</li><li data-pid=\"oh0UpDMj\">菜鸟教程 Python3：<a href=\"https://link.zhihu.com/?target=https%3A//www.runoob.com/python3/python3-tutorial.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Python3 教程 | 菜鸟教程</a>实例丰富，可以在线运行代码，方便边学边练</li><li data-pid=\"XK_OF3L4\">W3Schools Python：<a href=\"https://link.zhihu.com/?target=https%3A//www.w3schools.com/python/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">w3schools.com/python/</span><span class=\"invisible\"></span></a>英文教程，简洁明了，有大量互动练习</li><li data-pid=\"Gj9jLzWq\">Python 官方文档（入门指南）：<a href=\"https://link.zhihu.com/?target=https%3A//docs.python.org/3/tutorial/index.html\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.python.org/3/tutor</span><span class=\"invisible\">ial/index.html</span><span class=\"ellipsis\"></span></a>最权威的资料，适合作为查阅参考</li></ul><h3>练习平台</h3><ul><li data-pid=\"sUU4Ct2n\">LeetCode（力扣）：<a href=\"https://link.zhihu.com/?target=https%3A//leetcode.cn/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">力扣 (LeetCode) 全球极客挚爱的技术成长平台</a>从 &#34;简单&#34; 难度的题目开始，逐步提升编程能力</li><li data-pid=\"6Lz3Q3Pk\">牛客网：<a href=\"https://link.zhihu.com/?target=https%3A//www.nowcoder.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">牛客网 - 找工作神器|笔试题库|面试经验|实习招聘内推，求职就业一站解决_牛客网</a>有针对 Python 初学者的专项练习和题库</li><li data-pid=\"y01JTxGs\">Codewars：<a href=\"https://link.zhihu.com/?target=https%3A//www.codewars.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">codewars.com/</span><span class=\"invisible\"></span></a>以 &#34;闯关&#34; 形式学习，难度从低到高，完成挑战能获得成就感</li></ul><h3>社区与问答</h3><ul><li data-pid=\"gkgyqFun\">Stack Overflow：<a href=\"https://link.zhihu.com/?target=https%3A//stackoverflow.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">stackoverflow.com/</span><span class=\"invisible\"></span></a>全球最大的编程问答社区，遇到问题时先搜索，大概率能找到解决方案</li><li data-pid=\"Z1Vj8-BG\">Python 中文社区：<a href=\"https://link.zhihu.com/?target=https%3A//www.python-china.org/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">python-china.org/</span><span class=\"invisible\"></span></a>国内的 Python 爱好者社区，有很多适合中文用户的资源</li><li data-pid=\"NnrhUgL6\">CSDN、知乎：搜索相关问题，有很多开发者分享的学习经验和实战案例</li></ul><h2>给零基础学习者的关键建议</h2><ol><li data-pid=\"RJMET1Hg\"><b>动手！动手！动手！</b>编程是一门技能，光看教程不动手永远学不会。看完一个概念后，立刻在编辑器里敲一遍代码，尝试修改参数看看结果变化，这样才能真正理解。</li><li data-pid=\"faU4DhS0\"><b>拥抱错误（Bug）</b>写代码时遇到错误是常态，甚至资深程序员也会经常出错。报错信息不是洪水猛兽，而是帮你找到问题的线索。仔细阅读错误提示，通常能找到解决问题的方向。</li><li data-pid=\"1SIhWDJY\"><b>从小目标开始，循序渐进</b>不要幻想一周就能精通 Python。每天坚持学习 30 分钟到 1 小时，完成一个小练习或理解一个新概念，积少成多，慢慢就能看到进步。</li><li data-pid=\"oURWLYLw\"><b>学会搜索</b>99% 的问题别人都遇到过并解决了。遇到问题时，先尝试用 Google、Bing 或 Stack Overflow 搜索错误信息或问题描述，培养独立解决问题的能力。</li><li data-pid=\"bDlXppL-\"><b>不要死记硬背语法</b>理解逻辑比记住语法更重要。忘记了语法没关系，随时可以查文档或教程，用多了自然就记住了。</li><li data-pid=\"XG18Pm9z\"><b>找到学习的乐趣</b>想想你想用 Python 做什么：是自动化处理重复工作？分析你感兴趣的数据？还是开发一个小游戏？把学习和兴趣结合起来，会更有动力坚持下去。</li></ol><h2>推荐学习路径图（按顺序进阶）</h2><ol><li data-pid=\"NLUqPR3r\">基础语法（变量、数据类型、运算、输入输出）</li><li data-pid=\"pZ14tjdt\">流程控制（条件判断、循环）</li><li data-pid=\"j1hY1ZtF\">核心数据结构（列表、字典、元组、集合）</li><li data-pid=\"ETEOcpBg\">函数（定义、调用、参数、返回值）</li><li data-pid=\"y9qHfOhY\">文件读写（读取和保存数据）</li><li data-pid=\"lU7H4Loj\">模块和包（学习使用他人写好的代码）</li><li data-pid=\"q1BRoHsK\">面向对象编程（OOP - 可选，初期理解基础概念即可）</li><li data-pid=\"d-b_FECW\">探索具体方向：</li></ol><ul><li data-pid=\"vtdf9qCA\">Web 开发（Django/Flask）</li><li data-pid=\"Up8aUtm6\">数据分析（Pandas/Matplotlib）</li><li data-pid=\"KnWJxpOR\">自动化（Selenium）</li><li data-pid=\"uME6Snav\">人工智能（TensorFlow/PyTorch）等</li></ul><h2>结语</h2><p data-pid=\"LmtB9jc3\">Python 的世界充满无限可能，现在这扇大门已经为你敞开。学习编程是一场充满挑战但也极具成就感的旅程，最困难的一步永远是敲下第一行代码。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Pqa61dDJ\">不要追求完美，允许自己犯错，享受解决问题的过程。坚持下去，你会发现编程不仅是一项实用技能，更能培养你一种全新的思维方式。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KXGCqGDc\">现在，打开你的编辑器，输入：</p><div class=\"highlight\"><pre><code class=\"language-text\">print(&#34;Hello, Python World!&#34;)</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YfBvvYm8\">然后按下运行键吧！你的编程之旅，此刻正式启航！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pmpe7W9_\">如果你想系统学习 Python，或者正在寻找学习资源，这里为你准备了电子书籍、Python+Pycharm 安装包及永久激活插件，还有入门到进阶的学习资料，可免费领取，助你更高效地规划 Python 学习之路。</p><p data-pid=\"fAIkW4Vr\"><b>获取方式</b></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-08e386c04fc5fecf70205f5e890e8204_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1253\" data-rawheight=\"1044\" data-original-token=\"v2-5166b82e01eee240ae993a3b76bc9da7\" class=\"origin_image zh-lightbox-thumb\" width=\"1253\" data-original=\"https://pica.zhimg.com/v2-08e386c04fc5fecf70205f5e890e8204_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 69,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-6a81fd45261cd7117e01818bf966a4c8_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 8,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939716230299772307}",
+      "attached_info": "CtsICMagn6ur6YO+nQEQBBoJNzQyMzQxMjU5IOPO+8QGKAEwAEDABEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgczOTMxODM5YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzOTcxNjIzMDI5OTc3MjMwN4oBCDI5MzcyNTc0qgEJcmVjb21tZW5kwgEgMzYyYWVlYTE5NDc2MDk2YzVmNjM1ZTJmY2Y3YzRjMjLyAQoIDBIGTm9ybWFs8gEoCAoSJGJmM2VhNTQ2LTEzZjctNGU2Zi05NjRmLTk1NjM0NjVkYmY2ZvIBBggLEgI5N4ICAIgCnPjL+YwzkgIgMzYyYWVlYTE5NDc2MDk2YzVmNjM1ZTJmY2Y3YzRjMjKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyA2MTdiMmZiMzlkMzA0OTNiYjE2ZTA2ZGUxNzM3MTc3M5oDDQoCdjIQABoFb3RoZXKoA0XYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A5QDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTosCAIQ1wMYXyIjdjItNTc4NjBmYmMxZWI0MGExNzQxMWZiMWRjYzE5Njk2OGI6LAgCENsCGG4iI3YyLTMwZWQ0MzZhMzVkMmJiOTUxOGZmNmQwMDg2NDQxOGJlOiwIAhDmAhheIiN2Mi1kYjM0N2VmNmUyMzI4YzZjMmMxN2MyYzZlMzA0YjkwYjotCAIQ9QMYmQEiI3YyLWVmZjg5MDNlOWI4MWEzMzVhNTRiZDVjYTRkN2FlYWM4Oi0IAhC0BBiOAyIjdjItYTgwNGI4Mjg3YzMwMGYzODRjYTk1YzllOTg0MmIyODY6LQgCEKoEGM4BIiN2Mi1lN2Y3OGQ1MTE5NGRmODg3NmQ4ZDQxYTkwNzAxZWExMTotCAIQowQYzgEiI3YyLTFlZDZjNGEzOWU0OWYzMDU0Yjg0YWM0ZDI5Y2FlODA4Oi0IAhDlCRiUCCIjdjItNTE2NmI4MmUwMWVlZTI0MGFlOTkzYTNiNzZiYzlkYTeABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMDz6KM/gQUAAAAAAAAAAIkF1w2u+zVU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFYZAGAKAGxgSoBgGSAi4KCTc0MjM0MTI1ORITMTkzOTcxNjIzMDI5OTc3MjMwNxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "577_1755822882.831",
+      "type": "feed",
+      "offset": 577,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822882,
+      "updated_time": 1755822882,
+      "target": {
+        "id": "1937213350330218281",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1937213350330218281",
+        "author": {
+          "id": "1d2b1b17845345c8701d3b917bf3b0ce",
+          "url": "https://api.zhihu.com/people/1d2b1b17845345c8701d3b917bf3b0ce",
+          "user_type": "people",
+          "url_token": "gousheng-73",
+          "name": "痛打润人",
+          "headline": "你在中国苦那是你能力不行，为啥我在中国开着80万的车",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 1177,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754647654,
+        "updated_time": 1754647654,
+        "voteup_count": 33,
+        "thanks_count": 1,
+        "comment_count": 21,
+        "is_copyable": true,
+        "question": {
+          "id": "265114039",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/265114039",
+          "author": {
+            "id": "3c04c22ecffad98c2535c80e44ff4376",
+            "url": "https://api.zhihu.com/people/3c04c22ecffad98c2535c80e44ff4376",
+            "user_type": "people",
+            "url_token": "shu-shu-68-97",
+            "name": "叶竹",
+            "headline": "否极泰来",
+            "avatar_url": "https://picx.zhimg.com/50/v2-0f6a00419a363d9e0610717d48268572_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 3361,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "真实的硅谷是怎么样的？",
+          "created": 1515118796,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 6,
+          "bound_topic_ids": [
+            54,
+            99,
+            520,
+            2143,
+            5231
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "说实话我一直觉得那些狂吹美国湾区随便收入大几十万美金的帖子是政府雇佣水军发的，目的就是为了把一部分中产阶级骗出国。 我读美本的，见了太多在美国苦逼漂泊的中产阶级高学历人士了，而且他们最大的特点就是：深信自己只要熬过这一段时期就能上岸大厂拿大几十万美金走向人生巅峰了。 至于政府为啥想把人骗出国，那就是另一个话题了，但是有个老润人说：凡是放弃中国国籍的人想再拿回中国国籍是根本不可能的（这是他原话）。 …",
+        "excerpt_new": "说实话我一直觉得那些狂吹美国湾区随便收入大几十万美金的帖子是政府雇佣水军发的，目的就是为了把一部分中产阶级骗出国。 我读美本的，见了太多在美国苦逼漂泊的中产阶级高学历人士了，而且他们最大的特点就是：深信自己只要熬过这一段时期就能上岸大厂拿大几十万美金走向人生巅峰了。 至于政府为啥想把人骗出国，那就是另一个话题了，但是有个老润人说：凡是放弃中国国籍的人想再拿回中国国籍是根本不可能的（这是他原话）。 …",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"FoUc24OI\">说实话我一直觉得那些狂吹美国湾区随便收入大几十万美金的帖子是政府雇佣水军发的，目的就是为了把一部分中产阶级骗出国。</p><p data-pid=\"1ZjZJHH7\">我读美本的，见了太多在美国苦逼漂泊的中产阶级高学历人士了，而且他们最大的特点就是：深信自己只要熬过这一段时期就能上岸大厂拿大几十万美金走向人生巅峰了。</p><p data-pid=\"fpFzXFLc\">至于政府为啥想把人骗出国，那就是另一个话题了，但是有个老润人说：凡是放弃中国国籍的人想再拿回中国国籍是根本不可能的（这是他原话）。 所以他认为中国政府这些年是刻意地引导大家润….</p><p data-pid=\"GsXa5KAi\">邓公当年其实就鼓励大家移民美国，甚至还让卡特总统多收点中国移民</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 4530,
+        "favorite_count": 11,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1937213350330218281}",
+      "attached_info": "CpgGCMagn6ur6YO+nQEQBBoJNzQxMjExNjc2IOaY18QGKCEwFUDBBEogChVUU19TT1VSQ0VfVEhFTUVfTUVSR0USATAYACAAOgBaCDIwNDc2OTE4YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzNzIxMzM1MDMzMDIxODI4MYoBCTI2NTExNDAzOaoBCXJlY29tbWVuZMIBIDFkMmIxYjE3ODQ1MzQ1Yzg3MDFkM2I5MTdiZjNiMGNl8gEKCAwSBk5vcm1hbPIBKAgKEiQzY2NiMzFhNy04MGE0LTRjNGUtOTBiNi1lOTA0MzE0MDhhZmbyAQYICxICOTeCAgCIAp34y/mMM5ICIDFkMmIxYjE3ODQ1MzQ1Yzg3MDFkM2I5MTdiZjNiMGNlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCE1RoZW1lV2FrZVVwUmV3ZWlnaHTKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAhVUU19TT1VSQ0VfVEhFTUVfTUVSR0XoAgL6AgtOT1JNQUxfRkxPV4oDIDYxN2IyZmIzOWQzMDQ5M2JiMTZlMDZkZTE3MzcxNzczmgMNCgJ2MhAAGgVvdGhlcqgDsiPYAwDqAxtUaGVtZU1lcmdlTmV3VjFQb29sUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACAETu8P4EFAAAAAAAAAACJBdcNrvs1VNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBWGQBgCgBscEqAYDkgIuCgk3NDEyMTE2NzYSEzE5MzcyMTMzNTAzMzAyMTgyODEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "578_1755822882.750",
+      "type": "feed",
+      "offset": 578,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822882,
+      "updated_time": 1755822882,
+      "target": {
+        "id": "1937579903827572110",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1937579903827572110",
+        "author": {
+          "id": "032797e9190b1c1a1194ff16cee19c87",
+          "url": "https://api.zhihu.com/people/032797e9190b1c1a1194ff16cee19c87",
+          "user_type": "people",
+          "url_token": "refector",
+          "name": "Refector",
+          "headline": "专注 Agent 开发。。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-d2971e27d0730cd14bb984dca629242b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 5353,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754735047,
+        "updated_time": 1754735047,
+        "voteup_count": 6,
+        "thanks_count": 1,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "20772002",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/20772002",
+          "author": {
+            "id": "044735570714781964f1d411ca4de960",
+            "url": "https://api.zhihu.com/people/044735570714781964f1d411ca4de960",
+            "user_type": "people",
+            "url_token": "ruan-chao",
+            "name": "阮超",
+            "headline": "iOS Developer",
+            "avatar_url": "https://pic1.zhimg.com/50/5d93cff4b70da80504c3a7ad8196450d_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 256,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有哪些堪称神器的工具或软件？",
+          "created": 1360477481,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 45,
+          "bound_topic_ids": [
+            99,
+            119,
+            505,
+            40671,
+            107254
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-ad7b079b0c9f425e0d8041fa110abaf7_720w.jpg?source=b6762063",
+        "excerpt": "最近做了一个小工具，用着很舒服 因为开发了一个面向海外的应用，支持14种语言，所以经常需要在海外推广，在各种网站输入英文或其他语言，之前比较麻烦，需要在翻译软件和浏览器之间频繁切换，有了这个工具以后，感觉幸福很多 我只要在文本框数据中文，然后按下Tab键，自动唤起AI帮我翻译，如果翻译不合适，还可以多伦聊天   觉得格式，就再按Tab键，把内容回填到文本框。 不仅仅可以翻译，其他场景也可以用，比如纠正语法错误，发…",
+        "excerpt_new": "最近做了一个小工具，用着很舒服 因为开发了一个面向海外的应用，支持14种语言，所以经常需要在海外推广，在各种网站输入英文或其他语言，之前比较麻烦，需要在翻译软件和浏览器之间频繁切换，有了这个工具以后，感觉幸福很多 我只要在文本框数据中文，然后按下Tab键，自动唤起AI帮我翻译，如果翻译不合适，还可以多伦聊天   觉得格式，就再按Tab键，把内容回填到文本框。 不仅仅可以翻译，其他场景也可以用，比如纠正语法错误，发…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"35XCMuYu\">最近做了一个小工具，用着很舒服</p><p data-pid=\"f7ecmscx\">因为开发了一个面向海外的应用，支持14种语言，所以经常需要在海外推广，在各种网站输入英文或其他语言，之前比较麻烦，需要在翻译软件和浏览器之间频繁切换，有了这个工具以后，感觉幸福很多</p><p data-pid=\"v6-H6Rg0\">我只要在文本框数据中文，然后按下Tab键，自动唤起AI帮我翻译，如果翻译不合适，还可以多伦聊天</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fc185400906b6117ecb976f343283cd6_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"800\" data-size=\"normal\" data-original-token=\"v2-5bb46205b70f1423ca559755d4dcfeb2\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-b87873bb9bcf4ea7d86a9c6b13dfe0f7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-fc185400906b6117ecb976f343283cd6_r.jpg\"/></figure><p data-pid=\"caVTHHuX\">觉得格式，就再按Tab键，把内容回填到文本框。</p><p data-pid=\"B8AAxxE1\">不仅仅可以翻译，其他场景也可以用，比如纠正语法错误，发帖等等，</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-dcfc0bc781ad0e7fccfb353c6deb93c8_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"800\" data-size=\"normal\" data-original-token=\"v2-c855c28ad058fcac2e7c81d0976fab3e\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-ff39dab204f8fdcdf1c700b5088410a0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pica.zhimg.com/v2-dcfc0bc781ad0e7fccfb353c6deb93c8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f2489f9b0b087d8d3c0734da2313010a_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"800\" data-size=\"normal\" data-original-token=\"v2-5a221f59a6b9033c16abcf83b3e22c39\" data-default-watermark-src=\"https://picx.zhimg.com/v2-9dc9207635663b504aa9c534f23f2639_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-f2489f9b0b087d8d3c0734da2313010a_r.jpg\"/></figure><p data-pid=\"zQZ8TNqr\">同时可以自定义提示词，针对场景自己写提示词。</p><p data-pid=\"REQsGQZJ\">这个工具的优点就是不需要离开场景，想输入什么，直接在文本框输入就好，如果没有针对场景写提示词，那就要靠多伦聊天获得想要的结果，和打开DeepSeek官网一样，只是更快捷，按Tab就可以了。</p><p data-pid=\"h8j9jD1x\">这里是演示视频</p><a href=\"https://www.zhihu.com/zvideo/1935755466320909303\" data-draft-node=\"block\" data-draft-type=\"link-card\"></a><p data-pid=\"2e_F_1Hh\">在Redit，YouTube，X，WhatsApp上都可以用，但是只能在浏览器里用。</p><p data-pid=\"Q1Fi2r8w\">这个工具已经打磨得可以很好满足我的场景了，但是很可以进一步优化，比如访问上下文的能力，在Redit可以结合上下文回复帖子，在邮箱里可以结合邮件历史回复邮件，但是每个场景，上下文又不同，可能要针对每个站点做判断，比如聊天的场景，是不是可以把聊天记录作为上下文。</p><p data-pid=\"4kJARkSM\">最后做了一个官网，<a href=\"https://link.zhihu.com/?target=https%3A//www.tabany.app\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">tabany.app</span><span class=\"invisible\"></span></a></p><p data-pid=\"CVmC5EyR\">有兴趣可以体验一下，可以免费使用！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 337,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-ad7b079b0c9f425e0d8041fa110abaf7_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5bb46205b70f1423ca559755d4dcfeb2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c855c28ad058fcac2e7c81d0976fab3e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5a221f59a6b9033c16abcf83b3e22c39_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 11,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1937579903827572110}",
+      "attached_info": "CoUHCMagn6ur6YO+nQEQBBoJNzQxMzYxNjEzIMfD3MQGKAYwAEDCBEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AEpICh9UU19TT1VSQ0VfWlJFQ0FMTF9JVEVNQ0ZfVVBWT1RFEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3MjA4MDQzOTkKGAAgADoAWgY0ODkyMTNiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3aLTPzs6k6svuGnITMTkzNzU3OTkwMzgyNzU3MjExMIoBCDIwNzcyMDAyqgEJcmVjb21tZW5kwgEgMDMyNzk3ZTkxOTBiMWMxYTExOTRmZjE2Y2VlMTljODfyAQoIDBIGTm9ybWFs8gEoCAoSJGZmYzAyMGJhLTZkMWQtNDlmZS1iNjg5LTQyYmJkY2I5MGM4OPIBBggLEgI5N4ICAIgCnfjL+YwzkgIgMDMyNzk3ZTkxOTBiMWMxYTExOTRmZjE2Y2VlMTljODeaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDYxN2IyZmIzOWQzMDQ5M2JiMTZlMDZkZTE3MzcxNzczmgMNCgJ2MhAAGgVvdGhlcqgD0QLYAwD6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQgAoYoAYiI3YyLTViYjQ2MjA1YjcwZjE0MjNjYTU1OTc1NWQ0ZGNmZWIyOi0IAhCAChigBiIjdjItYzg1NWMyOGFkMDU4ZmNhYzJlN2M4MWQwOTc2ZmFiM2U6LQgCEIAKGKAGIiN2Mi01YTIyMWY1OWE2YjkwMzNjMTZhYmNmODNiM2UyMmMzOYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIMJCrz+BBQAAAAAAAAAAiQXXDa77NVTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVhkAYAoAbIBKgGAJICLgoJNzQxMzYxNjEzEhMxOTM3NTc5OTAzODI3NTcyMTEwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "579_1755822882.976",
+      "type": "feed",
+      "offset": 579,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822882,
+      "updated_time": 1755822882,
+      "target": {
+        "id": "17456234586",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/17456234586",
+        "author": {
+          "id": "23cbe3fe64992d2eb918e0c694f335ad",
+          "url": "https://api.zhihu.com/people/23cbe3fe64992d2eb918e0c694f335ad",
+          "user_type": "people",
+          "url_token": "xin-you-meng-hu-xi-xiu-qiang-wei-19-19-59",
+          "name": "鸡脚芝士",
+          "headline": "闲来写就前尘英雄事，免我今生岁月蹉跎苦。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-e9333a9e43e01d7c6ba9d7c0ebd098c9_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "三国演义（书籍）话题下的优秀答主",
+              "topic_names": [
+                "三国演义（书籍）"
+              ],
+              "topic_ids": [
+                11066
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜社科人文领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "公务机关 职工"
+            }
+          ],
+          "followers_count": 21108,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1730168932,
+        "updated_time": 1730280585,
+        "voteup_count": 4893,
+        "thanks_count": 295,
+        "comment_count": 447,
+        "is_copyable": false,
+        "question": {
+          "id": "1921356595",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1921356595",
+          "author": {
+            "id": "af5ce103a85c7212819796dcab83f6ce",
+            "url": "https://api.zhihu.com/people/af5ce103a85c7212819796dcab83f6ce",
+            "user_type": "people",
+            "url_token": "685721r",
+            "name": "哈哈哈",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-b1c442110e206a8a2dd1c4227b2d4a80_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 54,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "东汉不是有门阀吗？何苗何进是屠夫的儿女怎么还能当上皇后大将军？",
+          "created": 1729758797,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            33318,
+            35662,
+            138459,
+            162742,
+            269472
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "何家是东汉唯一的一个平民外戚，这是汉灵帝 故意为之，这其实是个非常复杂的政治斗争。东汉第一任专权外戚是窦家，这个是门阀家族，东汉云台二十八将之一，大司空窦融的后人。 东汉从第一代皇帝刘秀开始，往下传，第二代皇帝汉明帝刘庄，第三代皇帝汉章帝刘炟，这三代是没有问题的，都是实权皇帝。 从第四代开始出问题。 东汉第四代皇帝汉和帝刘肇，继位时只有九岁。 因此窦家外戚窦太后临朝，窦太后哥哥窦宪把持朝政，官至大将…",
+        "excerpt_new": "何家是东汉唯一的一个平民外戚，这是汉灵帝 故意为之，这其实是个非常复杂的政治斗争。东汉第一任专权外戚是窦家，这个是门阀家族，东汉云台二十八将之一，大司空窦融的后人。 东汉从第一代皇帝刘秀开始，往下传，第二代皇帝汉明帝刘庄，第三代皇帝汉章帝刘炟，这三代是没有问题的，都是实权皇帝。 从第四代开始出问题。 东汉第四代皇帝汉和帝刘肇，继位时只有九岁。 因此窦家外戚窦太后临朝，窦太后哥哥窦宪把持朝政，官至大将…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"nGp-QYX2\">何家是东汉唯一的一个平民外戚，这是汉灵帝<b>故意为之</b>，这其实是个非常复杂的政治斗争。</p><p data-pid=\"UmwL4_39\">东汉第一任专权外戚是窦家，这个是门阀家族，东汉云台二十八将之一，大司空窦融的后人。</p><p data-pid=\"kBvU-ZKb\">东汉从第一代皇帝刘秀开始，往下传，第二代皇帝汉明帝刘庄，第三代皇帝汉章帝刘炟，这三代是没有问题的，都是实权皇帝。</p><p data-pid=\"Ml-2J17S\">从第四代开始出问题。</p><p data-pid=\"X1kap4Uw\">东汉第四代皇帝汉和帝刘肇，继位时只有九岁。</p><p data-pid=\"jRIsCMr3\">因此窦家外戚窦太后临朝，窦太后哥哥窦宪把持朝政，官至大将军。</p><p data-pid=\"vk74OwTc\">东汉外戚专政正式开始。</p><p data-pid=\"vFKmAdTD\">九岁的小皇帝，要斗的是个庞然大物，他太爷爷时代的功勋门阀，难度可想而知，但是这个小皇帝做到了！</p><p data-pid=\"2aGr4zaE\">他怎么做到的呢？</p><p data-pid=\"T7bVsAx6\">饮鸩止渴，以强制强。</p><p data-pid=\"X7AU6Byj\">刘肇在成年之后，娶了南阳邓氏的邓绥！</p><p data-pid=\"5Y14EXcX\">扶风窦氏不是功勋门阀吗？不是云台二十八将之一吗？不是牛笔吗？那我就娶一个更牛笔的，南阳邓氏的祖上，是云台二十八将之首邓禹。</p><p data-pid=\"qKLJxP_d\">用功勋门阀来对付功勋门阀，放到老百姓家，叫婆媳大战。</p><p data-pid=\"PuR9vfW-\">这个邓家大家其实熟悉，灭蜀的邓艾就是出身南阳邓氏。</p><p data-pid=\"i2fW8sNq\">刘肇虽然用邓家控制住了窦家，但是谁来控制邓家呢？</p><p data-pid=\"haCRUXDd\">所以刘肇在26岁这年生下儿子之后，在史书上就突然病死了。</p><p data-pid=\"DVpysRii\">不满百天的儿子成为东汉第五代皇帝，汉殇帝刘隆。</p><p data-pid=\"fAMYq-n-\">汉殇帝刘隆创造了登基最小年龄的记录。</p><p data-pid=\"jgq9FqOO\">太后邓绥临朝听政，哥哥邓骘为车骑将军。属于是沿用了窦家的方法，妹妹为太后，哥哥为权臣大将军，功勋门阀利用外戚身份再次成为东汉之主。从此之后，只要外戚掌权，一直都是用这个方法。</p><p data-pid=\"hHQPScLe\">这就是为什么说东汉是皇权与世家门阀共天下的原因，在很大程度上，老刘家都只是名义上是皇帝，而最高权利层实际上是世家门阀代表大会。</p><p data-pid=\"BkblHwPl\">汉殇帝刘隆在位一年，一周岁的时候，死了。</p><p data-pid=\"vpom6-Z-\">邓太后迎十三岁的清河王刘庆的儿子刘为帝，东汉第六位皇帝，汉安帝刘祜。</p><p data-pid=\"v1qjd1RN\">太后邓绥以女君之名亲政共计十六年，一直到邓太后去世，二十六岁的汉安帝刘祜才开始亲政。</p><p data-pid=\"ZDNS4Ziq\">刘祜熬了十三年，亲政后的第一件事，就是清算南阳邓家，把邓家很多重臣逼到自杀，这就是为什么后来邓艾会是出身寒门的原因。</p><p data-pid=\"CpHtU6FE\">汉安帝刘祜干掉邓家以后，他要反思。</p><p data-pid=\"07uWo5AL\">发思什么呢？</p><p data-pid=\"PjmOZU2v\">东汉传到他手里，一共是六代皇帝，如果不算那个一岁的，就是五代皇帝。再除去前三代实权皇帝，也就是后两代皇帝出了窦家和邓家两个专权的外戚，外戚势力很可怕，必须要控制。</p><p data-pid=\"OvtnwLoX\">那怎么控制呢？难到不娶媳妇，不传宗接待了吗？那肯定不行，如果不生儿子汉朝直接就亡了，也不用防这防那的了。</p><p data-pid=\"DAy7BbTE\">所以媳妇还是要娶，外戚也要控制。</p><p data-pid=\"45vIoJMh\">汉安帝刘祜觉得，老皇帝死后，太后家族之所以能够临朝把持朝政，是因为外戚权利缺少制衡，造成权利市场的垄断，所以应该大封特封外戚，多弄出几个外戚势力来，让他们相互制衡，这样皇权就稳定了。</p><p data-pid=\"1xc4JK4G\">汉安帝刘祜的生母是耿家人，所以第一步，封耿家，耿宝一步步升为了大将军。</p><p data-pid=\"OByeh8H9\">汉安帝刘祜的奶奶家姓宋，第二步封宋家，宋家中出了四个侯爵，卿校侍中等官职十几人。</p><p data-pid=\"EyHSz5IE\">汉安帝刘祜的皇后是阎家人，第三步封阎家，让阎家的三个兄弟统帅禁军。</p><p data-pid=\"9zx5irsS\">耿家、宋家、阎家，分别是军队、文臣、禁军，三方制衡，但刘祜还是觉得不稳妥，所以他做出了一个神奇的举动，前无古人，刘祜重封了奶妈家族。</p><p data-pid=\"Td52dpH6\">刘祜的奶妈叫王圣，与他没有任何血缘关系，却分走了刘祜一半的皇权，史称分威共制。</p><p data-pid=\"9x5QWJ_m\">别的人会这样给你解释，是因为邓太后太强势，汉安帝刘祜只有在奶妈这里才得到过温暖，所以掌权后报答奶妈。</p><p data-pid=\"JpQlO7DG\">这就是典型的武侠思维，看历史要站在统治者的视角，而不是老百姓的视角。</p><p data-pid=\"vYJpw3xJ\">奶妈家族没有任何能量，不是功勋门阀，所以他们最忠于皇权，他们的一切荣耀都要依附于汉安帝刘祜的存在而存在，所以奶妈家族对皇权忠诚度最高，这是原因。</p><p data-pid=\"DpkMsWrq\">按照常理来讲，汉安帝这一套制衡手段玩下来，应该足以控制住东汉外戚专权的魔咒了，但是不出意外，意外出现了。</p><p data-pid=\"VlBesIF3\">汉安帝刘祜带着阎皇后南下游玩，死了！</p><p data-pid=\"VeT-4N02\">你看看东汉的皇帝除了前两代几乎就没有好死的，都是莫名其妙就死了。</p><p data-pid=\"Z1rzmUWj\">汉安帝刘祜一死，阎皇后隐瞒不报！</p><p data-pid=\"PCQ9nmUY\">那接下来的事件就有点复杂了，我尽力简化来介绍。</p><p data-pid=\"UJGyXszJ\">因为汉安帝刘祜此前刚废了十岁的太子，所以刘祜死在外面，京城没有太子。阎家回到京城以后，密不发丧，其他外戚势力都不知道刘祜已经死了。阎家迅速操作，扶持刘祜的堂弟登基， 也就是东汉第七代皇帝，汉少帝刘懿。</p><p data-pid=\"Lo1XHDIe\">因为后来东汉末年外戚何家也拥立了一个汉少帝刘辩，所以这个刘懿也叫前少帝。</p><p data-pid=\"_ohykc3x\">外戚耿家、宋家、王家还没反应过来呢，没弄明白怎么回事呢，就被阎家带着新皇帝给铲除了。</p><p data-pid=\"jbjfJCQH\">刘懿上位，阎太后听政，阎太后的哥哥阎显为车骑大将军。</p><p data-pid=\"HUF6drhV\">看到了吗？妹妹听政，哥哥为大将军，熟悉的配方，熟悉的味道。日升日落是轮回，只要时间线够长，历史就是轮回。</p><p data-pid=\"h08SVJWO\">但是刘懿紧紧在位两百天，就下台了，因为阎家这个手段属实有些太过粗糙，而且秘不发丧，强行拥立，留下的话柄太大，难以服众。</p><p data-pid=\"HB2NY5zF\">所以官宦集团拥立此前被废掉的十岁的废太子刘保发动了政变，后来曹家为什么在东汉末年显赫呢？因为此时曹操的爷爷曹腾就是废太子刘保的心腹，陪着刘保读书的。</p><p data-pid=\"vpEYs8uL\">后来郭嘉为什么跟着曹操呢？</p><p data-pid=\"_pnrDlwd\">因为郭嘉的祖上颍川郭氏的郭镇现在是尚书郎，跟曹操爷爷曹腾就是一头的。</p><p data-pid=\"H8Brdsgf\">阎家手里有禁军，阎家的阎景带着禁军冲进府邸攻打刘保，郭镇带兵守护，阎景没看的起文人郭镇，用斧子直接劈砍，郭镇侧身躲过斧子，一剑刺阎景于马下，左右用戟插入阎景的胸膛，史称夺宫之变。</p><p data-pid=\"fe7H0Hd3\">东汉第八代皇帝汉顺帝刘保继位，年十岁，开始清算阎家，阎太后被迁于离宫，你看不明白就是搬家了，你看明白了，就是打入冷宫了。五十多天后，阎太后合理死亡。你看不明白，就是生病死了。看的明白，就是被清算了。</p><p data-pid=\"HZJtZsOe\">宦官集团在汉顺帝刘保时代开始变异，我们把东汉皇帝称之为东汉幼儿园，因为自三代实权皇帝以下，登基的都是未成人的小皇帝。</p><p data-pid=\"nGwtk9MS\">但这一代小皇帝有个区别，其他的小皇帝都是外戚手里的玩具，而是这一代小皇帝，是宦官集团干掉了阎家外戚扶持起来的，是宦官手里的玩具，这就导致宦官集团开始变异。</p><p data-pid=\"0BzDLDpm\">宦官集团正式登上权臣的舞台，让东汉的政治格局更加复杂。</p><p data-pid=\"FnqV-94q\">那么东汉就没有外戚势力了吗？</p><p data-pid=\"R_Hqfmtg\">还是有。</p><p data-pid=\"re5rJyTW\">汉顺帝刘保也有奶妈，这个奶妈叫宋娥，并且参与了夺宫之变有功劳，被封为山阳君，食邑五千户。</p><p data-pid=\"bxid6J0P\">汉顺帝刘保沿用了汉安帝刘祜的思维，重封奶妈家族，迟早刘保也是要立皇后的，好用奶妈家族制衡皇后家族。</p><p data-pid=\"jovJcNUf\">汉顺帝刘保登基之初只有十岁，但随着年龄的增长，工作经验也增涨，他发现个问题，东汉每年的财政报表都在减少。</p><p data-pid=\"QPWZfgVe\">无论他怎么努力，没有用，收上来的赋税一年比一年少，而且少的很明显。</p><p data-pid=\"Qnse1apJ\">再随着年龄的增涨，他搞明白怎么回事了，原来皇权的敌人不是只有外戚，还有士大夫。</p><p data-pid=\"qqCs2MWe\">国库空虚跟他们有很大的关系。</p><p data-pid=\"70mFw1iw\">很多人以为国库空虚，是因为有贪官，士大夫贪污受贿导致国库空虚。</p><p data-pid=\"SHkBFnPH\">不是这样的，这是骗你的，逻辑都不通。</p><p data-pid=\"eZkpOmo9\">士大夫会导致国库空虚，是因为世家可以兼并流民和土地。</p><p data-pid=\"cbet4odb\">在汉朝知识是垄断的，普通人是不认字的，字都不认识当不了文官，所以普通人只能走武将的路线。而皇权选出来的文官只能从世家子弟里出，这就导致世家手里的权利越来越大。</p><p data-pid=\"EdRxkhaK\">世家拥有绝对权利，可以兼并耕地，普通人失去了耕地，就成为流民。流民活不下去，就两个选择，第一造反，第二成为世家的佃户，给世家种地，相当于地主家的长工。</p><p data-pid=\"E-01CQrR\">而普通人一旦成为世家的佃户和部曲，他们就不需要在向汉朝交税了。</p><p data-pid=\"y8Yu_str\">因为佃户和部曲不是人，是私人物品。就像妾一样，妾不是人，只有妻才是人。妾是物品，可以相互赠送，买卖，甚至杀掉，跟畜生没有区别。</p><p data-pid=\"3B4ywUy2\">这就是古代封建社会的逻辑，我们革命革的是什么？革的是人权，能理解了吗？</p><p data-pid=\"xzjHc2Nb\">我今天能坐在电脑前码字，能有基本的公民权益，是先辈流血牺牲换来的。</p><p data-pid=\"y8saNVJ8\">所以不要用现代的思维去看古代社会。</p><p data-pid=\"kLpnvxUu\">当普通人成为世家的佃户以后，他就是世家的私人物品，可以赠送、买卖、杀掉。不再是人，就不用向汉朝廷交税。</p><p data-pid=\"BdLiOnOw\">随着世家大量的兼并土地和流民，汉朝收不上来赋税，国库就空了。</p><p data-pid=\"vRAinDHZ\">这就为什么皇权的敌人是世家大族的底层逻辑。</p><p data-pid=\"SuCVmtU_\">汉顺帝刘保搞明白这些事的时候，已经十八岁了。</p><p data-pid=\"RbL1FhPP\">他终于想明白为什么先帝们一定要娶功勋门阀的女子当皇后了，那不是因为爱情，那是政治联姻。</p><p data-pid=\"cLgNp8Ym\">满朝文臣，皆是世家子弟，皇权要对抗的，是集体意志，所以皇权也需要有能量的队友。</p><p data-pid=\"z2958hlW\">接下来，汉顺帝刘保做了三件事。</p><p data-pid=\"PuQOPfb6\">第一件事，确定权贵家族春秋晋国大夫梁益耳后人、东汉开国功臣高山侯梁统家族的女子为皇后，梁家自此成为外戚。</p><p data-pid=\"vYcAfhMo\">第二件事，改元阳嘉，大赦天下。</p><p data-pid=\"A-hAAQlV\">第三件事，推行新制度，也就是科举制的雏形，史称阳嘉新制。</p><p data-pid=\"1XakPteE\">阳嘉新制之前呢，只要举孝廉就是预备官员，类似卧冰求鲤、陆绩怀橘、孔融让梨这种孝廉段子，一年就有二百多个，也就是世家每年都要推出来二百多个预备官员。</p><p data-pid=\"vBiLdAvh\">阳嘉新制推行之后，要对孝廉进行考核，只有合格的孝廉才能成为预备官员，通过率掌握在汉顺帝手里，所以汉顺帝通过阳嘉新制每年可以砍掉一百多个预备官员。</p><p data-pid=\"TAlzQ1wp\">世家门阀的士大夫们遭受打击，开始联合宦官。</p><p data-pid=\"kKt3s-lz\">此时宦官集团也分为两派，一部分倒向士大夫。一部分站队外戚梁家。</p><p data-pid=\"ywfgZ3bl\">阳嘉四年，汉顺帝为了加强外戚力量，继续打压士大夫，封梁家外戚梁皇后的爹为大将军，六年后，梁皇后的爹梁商去世，儿子梁冀继领大将军。妹妹为皇后，哥哥为大将军，魔咒还在继续，东汉鬼使神差外加迫不得已，再次要步入外戚专权的后尘。</p><p data-pid=\"_HYkKsBP\">公元142年，汉顺帝再次改元，年号为汉安。</p><p data-pid=\"CxUiLOSH\">每次年号的更改，必有大事发生，外戚与士大夫的斗争已经进入白热化阶段，汉顺帝在这一年再次推出新政——八使巡查。</p><p data-pid=\"tefJFSFe\">汉顺帝派出八个使者，到地方上暗访，调查世家大族的罪证，汉顺帝依靠八使，用强硬手段清除了一大批官员。</p><p data-pid=\"kQA4riqi\">两年后，汉安二年，在士大夫写的史书里面，29岁的汉顺帝在书上合理死亡。</p><p data-pid=\"2U-EnZNi\">汉顺帝死后，他两岁的儿子刘炳登基，东汉第九代皇帝，汉冲帝。</p><p data-pid=\"QhEvGPhC\">汉冲帝登基，外戚梁皇后临朝听政治，哥哥梁冀为大将军。</p><p data-pid=\"BTFfKXfw\">刘炳两岁登基，两岁去世，没有活过一年。</p><p data-pid=\"mXfbmCxx\">刘炳一死，汉顺帝没儿子了，梁家从刘家宗室里选了一个。</p><p data-pid=\"oqFEYmfI\">第十代皇帝，汉质帝刘缵。</p><p data-pid=\"5HOm0j7e\">刘缵八岁继位，八岁去世。</p><p data-pid=\"E7BlZimc\">两年，连续死了两个皇帝。</p><p data-pid=\"_D6uI5X2\">在史料里的记载，是外戚梁家干的。但这其实不符合逻辑，梁家自己选的皇帝，为什么自己要弄死呢？</p><p data-pid=\"0PbhcyrG\">而如果你知道汉顺帝时代的历史，外戚梁家是用来对抗士大夫的，梁家与士大夫是敌人，你就会有不同的想法。士大夫集团一直想拥立的皇帝叫刘蒜，所以梁家选的皇帝，到底是谁弄死的呢？</p><p data-pid=\"5vmEZ0ce\">汉质帝刘缵死了，士大夫仍然坚持拥立刘蒜。</p><p data-pid=\"hZK3KYqL\">梁家与曹操的爷爷曹腾，也就是宦官集团联合，再次胜出，拥立出东汉第是十一代皇帝，汉桓帝刘志！</p><p data-pid=\"mJWP1Vey\">就是诸葛亮出师表里说的：“未尝不叹息痛恨于桓、灵也”的那个桓帝。</p><p data-pid=\"-L6cgI1Z\">汉桓帝刘志是曹操爷爷曹腾和梁家一起扶持起来的，没有曹腾就没有汉桓帝，所以曹操的爹为什么能当太尉，曹操为什么从小能跟四世三公的袁绍玩，曹操出身也不差的，你看三国志陈寿是个曹吹，没有裴松之作注真以为曹操跟白手起家一样，拼爹的社会哪来的白手起家啊？</p><p data-pid=\"PCgF3JEN\">公元146年，十五岁的汉桓帝刘志被梁家和曹腾推上皇位，改元本初。</p><p data-pid=\"tECffrk8\">有观点认为，袁绍是这一年出生的，所以袁绍字本初。</p><p data-pid=\"6YbW-ONp\">汉桓帝刘志当了十三年的傀儡，十三年后，二十八岁的刘志在厕所与心腹宦官密谋发动政变，干掉梁家外戚，拿回了实权，史称厕所政变。</p><p data-pid=\"n2iuPBs5\">刘志干掉梁家后，从梁家搜出了大量资产，富可敌国，所以汉桓帝直接免除了天下一半的赋税。又把梁家所有府邸、园林等不动产拆掉，把这些资源全部分给百姓，以业穷民。</p><p data-pid=\"sMOHmvAs\">司隶和冀州遭遇灾荒，刘志下令各州郡必须救济百姓，如果郡王、列侯手里有粮食，必须拿出百分之三十来赈灾，这些赈灾粮将来可以抵扣租税。</p><p data-pid=\"zWTKQWSV\">刘志又下令减少三公九卿及以下所有官员的俸禄，并向全国各地王爵和侯爵征收粮食，充盈国库。</p><p data-pid=\"FW88hsDL\">“桓”在谥号中是开疆扩土的意思，刘志之所以叫汉桓帝，是因为他重用凉州边地武人，再次打通了西域，使东汉再次与西域通商，西域各国皆来顺服。</p><p data-pid=\"6SMieDk7\">这些东西都是在史书上造不了假的事实，这种东西是不可能没有而硬编的。</p><p data-pid=\"mQqqnkcg\">而关于汉桓帝昏庸啊、无能啊。这些记载不叫事实，叫观点。比如史官觉得汉桓帝不行，他就评价汉桓帝怎么怎么不好，就像陈寿评价姜维叫粗通文武。这种记载叫言论评价。我们看史料看得是这个人客观上都干了什么，而不是看别人是如何评价他的，因为别人评价他，夸有夸的目的，骂有骂的目的，不一定是客观的。阅读分为主观思考和被动接受，语文试卷上的阅读理解锻炼的就是这个能力，能理解吗？</p><p data-pid=\"R9j5KNHw\">接着谈外戚的问题。</p><p data-pid=\"LazQn2yT\">因为汉桓帝十三年都是傀儡，所以在厕所政变之前，他的皇后是谁由梁家说了算。</p><p data-pid=\"VQ2yyBek\">梁家还是让汉桓帝娶了梁家的女子，这导致汉桓帝一直没儿子。</p><p data-pid=\"KJsYYT4k\">因为梁皇后生不出儿子，别的妃子生一个梁皇后就弄死一个。汉桓帝又没办法，自己都是梁家的傀儡，又能怎样呢？</p><p data-pid=\"dowMSmMp\">但汉桓帝也并不是完全没有作为，他暗中其实在扶持邓家。</p><p data-pid=\"t2sujm1E\">我开篇就提到过，那可是云台二十八将之首的家族、那可是女君邓绥的家族。</p><p data-pid=\"8qaIga-4\">按理来讲，邓家应该被东汉刘家拉入黑名单，但汉桓帝为了给死去的儿子们报仇，他娶了邓家女子，虽然迫于梁家的淫威不能让邓家女子为皇后，但在同一个后宫生活，梁邓两家迟早是要斗起来的。</p><p data-pid=\"N2EbaJ2N\">上学的时候你知道班长不好当，工作了你知道领导不好当，创业了你知道老板不好当，你就没想过皇帝有多难当吗？东汉的皇帝从第二代往下，过三十五岁的一个都没有啊，普通孩子登基一年就得死。能跟士大夫和外戚在政治牌桌上打两圈的，那都是神童！放到今天十几岁保送清华北大的材料，还说人家昏庸无能，用大母脚趾想问题都比咱要强。</p><p data-pid=\"F5n0ibyD\">后宫是什么？佳丽三千就是温柔乡吗？那也是政治战场！</p><p data-pid=\"isj7t8or\">厕所政变后，梁家遭到清算，邓家就成为了皇后。</p><p data-pid=\"prr7U0an\">那邓家是黑名单啊，怎么办呢？</p><p data-pid=\"0NM94CzQ\">以毒攻毒，再娶黑名单里的家族，扶风窦氏，开篇提到过的东汉第一任专权的外戚，东汉外戚专政的开山鼻祖。</p><p data-pid=\"24tQMcKs\">那用窦家干邓家，那窦家怎么办呢？</p><p data-pid=\"8ZELPaKl\">这个问题汉桓帝没有解决，因为他发动了党锢之祸，禁锢党人，大量迫害士大夫，打压士大夫集团，同年年底他就合理去世了，士大夫连大年三十都没让他过。</p><p data-pid=\"ZoDjE_Me\">汉桓帝去世，第十二代皇帝，十二岁的刘宏继位，汉灵帝！</p><p data-pid=\"fguP8UNA\">窦太后临朝听政，哥哥窦武为大将军。</p><p data-pid=\"HRBAUtwY\">窦家又回来了。</p><p data-pid=\"9vKC-Faf\">刘宏这次有作业可抄了，他直接抄汉桓帝的作业，利用宦官发动九月政变，照葫芦画瓢，干掉了扶风窦家。</p><p data-pid=\"u-WZaUXT\">扶风窦家给汉灵帝选的皇后是扶风宋家。</p><p data-pid=\"KV2RDE-N\">汉灵帝掌权以后，这个宋家皇后肯定不能要啊，随便找个理由给废了。宋皇后哥哥是宋奇，宋奇娶了曹家的女儿，跟曹操论从妹夫，所以你看三国志武帝纪曹操官当的好好被免了，就是因为这里跟宋家连坐了。</p><p data-pid=\"pjD0xcgH\">汉灵帝是第十二代皇帝，他综合东汉的历史，发现了本质问题，外戚一直专权，就是外戚根基太强，所以我要找平民！理解了吗？</p><p data-pid=\"o84ROSVc\">正是因为汉灵帝的这个决策，东汉的运行程序出BUG了。</p><p data-pid=\"htB-9GUe\">此前，一直是宦官、士大夫、外戚三个力量错综复杂的斗争，三角形的形态是最稳固的，东汉虽然一直跌跌撞撞，但程序好歹还能运行，是个三足鼎立的局面。</p><p data-pid=\"LU1zj6T-\">但汉灵帝修复了这个BUG以后，出事了。</p><p data-pid=\"NPP8zA28\">由于外戚没有底蕴和能量，导致士大夫和宦官的矛盾进一步激化，短兵相接。最后导致了皇宫内袁家和十常侍互砍的局面，大汉至此落于北邙。</p><p data-pid=\"K0sOFqlj\">这件事的本质就是，在官宦和士大夫斗争之初，都想把白纸一张的何家外戚拉拢到自己这边当枪使。</p><p data-pid=\"2JmD6Srn\">但何家因为是屠户家族，有点乱套，没有世家门阀那么板正。</p><p data-pid=\"dVcAbn2p\">何进他爹丧妻了，又娶了一房，也就是后来的舞阳君，跟舞阳君又生了何太后和何苗，所以何进是前妻生的。</p><p data-pid=\"sPsLbgp9\">这导致在巨大的权利面前，何家是个暴发户心态，他没有世家门阀的底蕴，他消化不了这泼天的富贵。</p><p data-pid=\"V5_kF4Cx\">何进的爹跟十常侍里的郭胜是老乡，所以在宫里何太后跟宦官十常侍走的近。</p><p data-pid=\"CNxEV4Ko\">而在宫外，何进身为大将军，一直被士大夫集团的袁家拉拢。</p><p data-pid=\"iNcILgf-\">这样一来外戚分裂了，这是东汉从来没有出现过得情况。</p><p data-pid=\"ML6bviNb\">宦官对何太后说，咱们一起把那个外人何进弄死，然后让你亲弟弟何苗当大将军，这多好啊？</p><p data-pid=\"lI1iNi0h\">士大夫对何进说，你那个后妈一伙憋着要弄死你，你想活命咱们得团结。</p><p data-pid=\"qdCquVA8\">何家外戚自己陷入内斗，由此引发了一连串的多米诺骨牌效应，导致东汉宦官彻底灭亡，外戚势力也不复存在，历史最终从军阀割据逐渐走向了中原大夫集团创建的士族王朝，西晋。</p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p data-pid=\"sPYLeKLB\"><b>回复两个私信问题。</b></p><p data-pid=\"ImjDBDS1\">第一，东汉没有门阀。</p><p data-pid=\"5PWQDKoG\">无所谓，你叫世家也好，叫门阀也罢，叫权贵也行，或者干脆叫贵族。这只是个代名词，我相信都能看懂指代的是什么，我讲的是东汉皇权与外戚的斗争简史，对死抠名词字眼没有兴趣。你就当我不专业，名词用的不准确就行了。</p><p data-pid=\"SsXdYHJz\">第二，汉灵帝卖官卖爵，有人说这个不能洗。</p><p data-pid=\"HPzzjOK9\">其实能洗，我只是没想洗。</p><p data-pid=\"T0rU4eEt\">普通百姓饭都吃不上，能指望他们花钱买官吗？</p><p data-pid=\"7vlesBKe\">能拿的出钱来买官的，不还是世家子弟吗？</p><p data-pid=\"MJRDtXOL\">世家兼并土地和流民导致皇权收不上来赋税，那皇权只能通过卖官的政策变相把赋税收上来。</p><p data-pid=\"vfpjPRjH\">以前升官不用花钱，现在升官得花钱了，这个政策是针对世家大族的。</p><p data-pid=\"E-ixUOU5\">所以世家子弟在史书里要骂这个政策，理解了吗？</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p><br/> </p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 257517,
+        "favorite_count": 3251,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 17456234586}",
+      "attached_info": "CogGCMagn6ur6YO+nQEQBBoJNjk2NjA2NDU5IOSQgbkGKJ0mML8DQMMESigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDcwMDYzODkwNQoYACAAOgBaCTExMTM2MDkyM2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCzE3NDU2MjM0NTg2igEKMTkyMTM1NjU5NaoBCXJlY29tbWVuZMIBIDIzY2JlM2ZlNjQ5OTJkMmViOTE4ZTBjNjk0ZjMzNWFk8gEKCAwSBk5vcm1hbPIBKAgKEiRlYWUyMWRhYS0xN2I0LTQ4MWYtYmJlMS05MjM2MDRkNzM2YznyAQYICxICOTeCAgCIAp34y/mMM5ICIDIzY2JlM2ZlNjQ5OTJkMmViOTE4ZTBjNjk0ZjMzNWFkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgT6AgtOT1JNQUxfRkxPV4oDIDYxN2IyZmIzOWQzMDQ5M2JiMTZlMDZkZTE3MzcxNzczmgMNCgJ2MhAAGgVvdGhlcqgD7dsP2AMA+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAAxsZ0/gQUAAAAAAAAAAIkF1w2u+zVU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFYZAGAKAGyQSoBgCSAiYKCTY5NjYwNjQ1ORILMTc0NTYyMzQ1ODYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "580_1755822882.565",
+      "type": "feed",
+      "offset": 580,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822882,
+      "updated_time": 1755822882,
+      "target": {
+        "id": "1941963331301771255",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941963331301771255",
+        "author": {
+          "id": "756cd6ae3eed5ac1b7853dd69d56e942",
+          "url": "https://api.zhihu.com/people/756cd6ae3eed5ac1b7853dd69d56e942",
+          "user_type": "people",
+          "url_token": "63-25-81-23",
+          "name": "未来的回忆",
+          "headline": "未来的某一天，这些都会是我的回忆。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-6336bfae79c354f499b28f2bbe4f241b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 11,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755780138,
+        "updated_time": 1755780138,
+        "voteup_count": 2,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1941787430840677046",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1941787430840677046",
+          "author": {
+            "id": "9bb20e2ffb5c5da55b7bc74bd3ff7cc8",
+            "url": "https://api.zhihu.com/people/9bb20e2ffb5c5da55b7bc74bd3ff7cc8",
+            "user_type": "people",
+            "url_token": "sunny-24-43-84",
+            "name": "sunny",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-8e8215945dfbf29d690da8e467969a9f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 69,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "怎样和周围的人都搞好关系？",
+          "created": 1755738200,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            3946,
+            17781,
+            2411902
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-094a216b0a602dd5751e3b4de5b484e7_720w.jpg?source=b6762063",
+        "excerpt": "都，这个字用的，怎么会让我觉得，这终究有点为难自己。 如果，咱们先跟自己搞好关系，无论是身体，潜意识，思维，认真对待自己，会不会有另外的风景。 周围的人，流水一般，来来往往，有缘的有交集，爱你的人，你在他眼里都是优，不爱你的人，你付出所有，他也一点都不懂心疼。 我想，是时候先听自己身体发出的需求了，到底是累了，还是困了，要不要来一场酣畅淋漓的就休息，那些周围的人，那些A\\B\\C\\D\\E\\F\\G......,牵挂那么多…",
+        "excerpt_new": "都，这个字用的，怎么会让我觉得，这终究有点为难自己。 如果，咱们先跟自己搞好关系，无论是身体，潜意识，思维，认真对待自己，会不会有另外的风景。 周围的人，流水一般，来来往往，有缘的有交集，爱你的人，你在他眼里都是优，不爱你的人，你付出所有，他也一点都不懂心疼。 我想，是时候先听自己身体发出的需求了，到底是累了，还是困了，要不要来一场酣畅淋漓的就休息，那些周围的人，那些A\\B\\C\\D\\E\\F\\G......,牵挂那么多…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"wBFtBgAp\">都，这个字用的，怎么会让我觉得，这终究有点为难自己。</p><p data-pid=\"MXgaSYRT\">如果，咱们先跟自己搞好关系，无论是身体，潜意识，思维，认真对待自己，会不会有另外的风景。</p><p data-pid=\"FpvXZPmY\">周围的人，流水一般，来来往往，有缘的有交集，爱你的人，你在他眼里都是优，不爱你的人，你付出所有，他也一点都不懂心疼。</p><p data-pid=\"rbb_17iK\">我想，是时候先听自己身体发出的需求了，到底是累了，还是困了，要不要来一场酣畅淋漓的就休息，那些周围的人，那些A\\B\\C\\D\\E\\F\\G......,牵挂那么多，费神，转而听听内在的呼唤主动向周遭表达什么，是有所求吗？把收敛起来的能量用来点滴滋养自己，这个世界只有你自己，他人都是来配合你完成今生使命的演员，你是主角，你要什么，他们有的会配合你，有的会为难你，那又怎样，他们怎么对你是你的造化，你怎么对他们是你的修养，守住自己的能量，接受所有的发生，你允许并接纳自己，停止否定自己，你是最重要的，你爱你自己，不祈求他人给予你爱，放下对他人的期待，可能会轻松许多。</p><p data-pid=\"FlXvyZt9\">并不是你想跟他人搞好关系，他人就会配合你的，这可能是一个执念，放下试试，有时候，你根本不需要那些关系。</p><p data-pid=\"HAd3Jzqa\">人生的开悟，有早晚，人生的剧本各有不同，体验而已，别太在意他人及他人的评价，我们终究是自己亲自上场演绎此生，好好珍惜，祝愿自己未来，拥有美好的回忆。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f2570b78c0776adc5461dc579316949d_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1880\" data-rawheight=\"1253\" data-original-token=\"v2-24c6238a6f682014b1bd0b73ec9b2416\" class=\"origin_image zh-lightbox-thumb\" width=\"1880\" data-original=\"https://picx.zhimg.com/v2-f2570b78c0776adc5461dc579316949d_r.jpg\"/><figcaption>一个人的旅行</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3f5cc0af86f7d4aa7f9040d89535d4a3_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1733\" data-rawheight=\"1300\" data-original-token=\"v2-a8fd8c2779880490c608c023d27aa117\" class=\"origin_image zh-lightbox-thumb\" width=\"1733\" data-original=\"https://picx.zhimg.com/v2-3f5cc0af86f7d4aa7f9040d89535d4a3_r.jpg\"/><figcaption>人生哪有坦途</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-22d4493a0587aaed18bebe0e399d8e77_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1880\" data-rawheight=\"1253\" data-original-token=\"v2-5ce4ac0d681c23115797113f32c55446\" class=\"origin_image zh-lightbox-thumb\" width=\"1880\" data-original=\"https://pic2.zhimg.com/v2-22d4493a0587aaed18bebe0e399d8e77_r.jpg\"/><figcaption>这里，你曾经留下讯息</figcaption></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 24,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-094a216b0a602dd5751e3b4de5b484e7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-a8fd8c2779880490c608c023d27aa117_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5ce4ac0d681c23115797113f32c55446_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941963331301771255}",
+      "attached_info": "CvkGCMagn6ur6YO+nQEQBBoJNzQzMzIwODM1IKqonMUGKAIwAEDEBEokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwyEgEwGAAgADoASigKHVRTX1NPVVJDRV9XQVJNVVBfUFJFVFJBSU5fSTJJEgEwGAAgADoAWgkxMTYyODk4ODhiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxOTYzMzMxMzAxNzcxMjU1igETMTk0MTc4NzQzMDg0MDY3NzA0NqoBCXJlY29tbWVuZMIBIDc1NmNkNmFlM2VlZDVhYzFiNzg1M2RkNjlkNTZlOTQy8gEKCAwSBk5vcm1hbPIBKAgKEiQ3ZjVlYmYyZC0zMzdhLTQ0NDktOWZiYi0wZTAzMDg4NTlmNTXyAQYICxICOTeCAgCIAp34y/mMM5ICIDc1NmNkNmFlM2VlZDVhYzFiNzg1M2RkNjlkNTZlOTQymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgL6AgtOT1JNQUxfRkxPV4oDIDYxN2IyZmIzOWQzMDQ5M2JiMTZlMDZkZTE3MzcxNzczmgMNCgJ2MhAAGgVvdGhlcqgDGNgDAOoDE3ByZXRyYWluX2kyaV9yZWNhbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ2A4Y5QkiI3YyLTI0YzYyMzhhNmY2ODIwMTRiMWJkMGI3M2VjOWIyNDE2Oi0IAxDFDRiUCiIjdjItYThmZDhjMjc3OTg4MDQ5MGM2MDhjMDIzZDI3YWExMTc6LQgEENgOGOUJIiN2Mi01Y2U0YWMwZDY4MWMyMzExNTc5NzExM2YzMmM1NTQ0NoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgIwBij+BBQAAAAAAAAAAiQXXDa77NVTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVhkAYAoAbKBKgGAZICLgoJNzQzMzIwODM1EhMxOTQxOTYzMzMxMzAxNzcxMjU1GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "581_1755822882.813",
+      "type": "feed",
+      "offset": 581,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822882,
+      "updated_time": 1755822882,
+      "target": {
+        "id": "1936451795200250312",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1936451795200250312",
+        "author": {
+          "id": "eda1a3c076b1a51a3e97c950c4e40291",
+          "url": "https://api.zhihu.com/people/eda1a3c076b1a51a3e97c950c4e40291",
+          "user_type": "people",
+          "url_token": "milkcy-20",
+          "name": "Coda智能软件",
+          "headline": "⏱ 打通流程 × 降本提效 × 私有部署",
+          "avatar_url": "https://picx.zhimg.com/50/v2-449211d8a74a6e3dd3d1c95d3c2e0ec8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 5,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754466085,
+        "updated_time": 1754466085,
+        "voteup_count": 6,
+        "thanks_count": 0,
+        "comment_count": 5,
+        "is_copyable": true,
+        "question": {
+          "id": "536346070",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/536346070",
+          "author": {
+            "id": "8e7b3d26111e323e8a8a933a3991acd2",
+            "url": "https://api.zhihu.com/people/8e7b3d26111e323e8a8a933a3991acd2",
+            "user_type": "people",
+            "url_token": "tu-zi-bi-zi-dan-huan-duo-77",
+            "name": "兔子比子弹还多",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "怎么简单的copy网上很酷的网站做一个自建站？",
+          "created": 1654505607,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            5707,
+            7912,
+            13207
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-1fa663381800fc8dcdf2c49c428e774f_720w.jpg?source=b6762063",
+        "excerpt": "不懂代码也能搞定网站复制上线？ ——是的，用对工具，10分钟就可以搞定整站复刻、编辑、发布。 初创团队的高效建站新捷径来了。 01 谁还在从零开发？太慢了，耗不起对很多中小网站主、独立站站长、创业者来说，建站这件事从一开始就充满了挑战： 请开发？——贵，慢，不可控 用开源模板？——样式杂乱，修改困难 自己搞？——没设计、没时间、不会前端 但市场从不等人，你需要的是一个“降本提效”的解决方案： 能“复用已有网…",
+        "excerpt_new": "不懂代码也能搞定网站复制上线？ ——是的，用对工具，10分钟就可以搞定整站复刻、编辑、发布。 初创团队的高效建站新捷径来了。 01 谁还在从零开发？太慢了，耗不起对很多中小网站主、独立站站长、创业者来说，建站这件事从一开始就充满了挑战： 请开发？——贵，慢，不可控 用开源模板？——样式杂乱，修改困难 自己搞？——没设计、没时间、不会前端 但市场从不等人，你需要的是一个“降本提效”的解决方案： 能“复用已有网…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"8V4l3qRp\">不懂代码也能搞定网站复制上线？</p><p data-pid=\"tmHADqqi\">——是的，用对工具，10分钟就可以搞定整站复刻、编辑、发布。</p><p data-pid=\"CErKTT1s\">初创团队的高效建站新捷径来了。</p><h3>01 谁还在从零开发？太慢了，耗不起</h3><p data-pid=\"8DRqCtK_\">对很多中小网站主、独立站站长、创业者来说，建站这件事从一开始就充满了挑战：</p><p data-pid=\"q30flLpt\">请开发？——贵，慢，不可控</p><p data-pid=\"ZVDnZFNK\">用开源模板？——样式杂乱，修改困难</p><p data-pid=\"A6JYr045\">自己搞？——没设计、没时间、不会前端</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"B9CyRerw\">但市场从不等人，你需要的是一个“降本提效”的解决方案：</p><p data-pid=\"dRrBw8jT\">能“复用已有网站结构”、又能“快速上线”、还能“自定义修改”的工具。</p><p data-pid=\"BfswCteD\">这，就是我们打造【网站快照】的初衷。</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>02 什么是“网站快照”？一句话解释：</h3><p data-pid=\"nRJ37Dew\">输入任意网址 → 自动克隆网页结构 → 在线修改代码 → 一键打包发布</p><p data-pid=\"2OWtLbzl\">没错，就是这么简单粗暴。</p><p data-pid=\"YTd6U0E_\">你可以把它理解为一个面向B端用户的“仿站神器”，专为创业者、中小团队、个人站长设计的“极速建站工具”。</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>03 产品流程详解（附图文教程）</h3><p data-pid=\"7TkryQsV\">整个流程不超过10分钟，你就能复刻一个站点：</p><p data-pid=\"lWKF-Ld6\">✅第一步：输入目标网址</p><p data-pid=\"74qHLFif\">在【网站快照grab点bizsoso点com】中输入目标网页链接（如首页、详情页、落地页都可以）。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f1e1e0188529877d38cb84a2d8ed9ac7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1424\" data-rawheight=\"1200\" data-original-token=\"v2-1fa663381800fc8dcdf2c49c428e774f\" class=\"origin_image zh-lightbox-thumb\" width=\"1424\" data-original=\"https://pic4.zhimg.com/v2-f1e1e0188529877d38cb84a2d8ed9ac7_r.jpg\"/></figure><p data-pid=\"QIxCLLeP\">✅第二步：自动复刻</p><p data-pid=\"stSYOqwt\">系统会自动抓取该网页的结构、样式、图片、脚本，并生成一份可编辑的HTML模板。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c0972af952aff60f3848bea647900f36_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1375\" data-rawheight=\"1091\" data-original-token=\"v2-901a413a2460525a3ec363cbc809aab0\" class=\"origin_image zh-lightbox-thumb\" width=\"1375\" data-original=\"https://pic1.zhimg.com/v2-c0972af952aff60f3848bea647900f36_r.jpg\"/></figure><p data-pid=\"igb37XpZ\">✅第三步：在线编辑（可选）</p><p data-pid=\"i76UiLHv\">你可以直接在页面内修改文字、样式、图片路径，甚至支持手动编辑源码，对技术团队尤其友好。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-53b51a0fb296ac877f0604a1e95cc86d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1601\" data-rawheight=\"1177\" data-original-token=\"v2-e6264667e55978805487c9588061a87d\" class=\"origin_image zh-lightbox-thumb\" width=\"1601\" data-original=\"https://pic4.zhimg.com/v2-53b51a0fb296ac877f0604a1e95cc86d_r.jpg\"/></figure><p data-pid=\"ap1jjwiG\">✅第四步：一键打包下载</p><p data-pid=\"gs3NDq49\">点击“导出”，立刻生成整站压缩包，包含HTML、CSS、JS、图片资源，干净无依赖。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b6bc7699c56dfcd2b628fc424f05d1f4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1174\" data-rawheight=\"1042\" data-original-token=\"v2-924065494ed93ecd5555748bf6ed7b99\" class=\"origin_image zh-lightbox-thumb\" width=\"1174\" data-original=\"https://pic3.zhimg.com/v2-b6bc7699c56dfcd2b628fc424f05d1f4_r.jpg\"/></figure><p data-pid=\"i-Za9Cwd\">✅第五步：部署上线</p><p data-pid=\"WdGWp2CY\">将打包文件上传至你自己的服务器、CDN 或任意建站平台，即可上线。</p><p data-pid=\"vXVWaJcn\">可接入你已有的CMS或转为静态站发布。</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>04 核心优势：为你节省90%的建站成本</h3><p data-pid=\"q1YbKTNt\"> 降本：不请设计、不雇开发，一人完成仿站任务</p><p data-pid=\"onRb5UIv\"> ⏱ 提效：10分钟快速上线，适合MVP验证、活动页发布</p><p data-pid=\"-aQ0QRnV\"> 可控：全部源码输出，自定义灵活</p><p data-pid=\"dkqkGcL7\"> 易用：小白也能上手，懂HTML更有可玩性</p><p data-pid=\"heSDUrlh\"> 成品：打包即用，零依赖、干净结构</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>05 谁适合用“网站快照”？</h3><p data-pid=\"CA2fiDyB\">我们这款工具，专为以下这类用户设计：</p><p data-pid=\"utvA483o\">1、中小企业建站负责人：无力从零开发，想快上线</p><p data-pid=\"8L4ZECIE\">2、独立站站长：有参考对象，想快速起盘</p><p data-pid=\"wWHim73F\">3、技术团队：需要低成本生成演示模板、对标竞品</p><p data-pid=\"v4WENUuK\">4、初创公司产品经理/运营：想复刻Landing Page验证想法</p><p data-pid=\"AV0GCVBI\">5、自由开发者/设计师：拿来即用，省时省力</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>06 如何开始使用？</h3><p data-pid=\"zdKspMfY\">  第一步：访问我们的网站快照工具：[grab点bizsoso点com]</p><p data-pid=\"wuLEqGon\">  第二步：输入任意网页链接，一键开始仿站任务</p><p data-pid=\"LQlpWW62\">  第三步：编辑 → 打包 → 上线，就这么简单！</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>07 最后，几点友情提醒：</h3><p data-pid=\"uXBxur7c\">工具仅供合法用途，请勿用于恶意仿站、侵权行为</p><p data-pid=\"yuDGsbyz\">支持仿取静态内容，不支持后端逻辑复制</p><p data-pid=\"NZgBSFhP\">使用后请合理修改内容，打造你自己的版本，避免雷同风险</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>结语：与其羡慕别人的网站，不如自己动手复刻一个！</h3><p data-pid=\"2hD4Kk5H\">网站快照工具的出现，不是让你投机取巧，而是打破信息壁垒，帮助你快速试错、迭代、上线。</p><p data-pid=\"_JzEF4WS\">正如创业圈的一句话：</p><p data-pid=\"aF0xdE2-\">快，是打败对手最有效的方式。</p><p data-pid=\"wHQrfpt4\">不如今天就试试这个工具，或许你能节省一周的时间、几千元的外包费用，甚至抢先上线拿下第一波流量。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 271,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-1fa663381800fc8dcdf2c49c428e774f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-901a413a2460525a3ec363cbc809aab0_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-e6264667e55978805487c9588061a87d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-924065494ed93ecd5555748bf6ed7b99_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 18,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1936451795200250312}",
+      "attached_info": "CsQHCMagn6ur6YO+nQEQBBoJNzQwODE4Njg0IKWOzMQGKAYwBUDFBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9Wgg4MTQ2OTgwNGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MzY0NTE3OTUyMDAyNTAzMTKKAQk1MzYzNDYwNzCqAQlyZWNvbW1lbmTCASBlZGExYTNjMDc2YjFhNTFhM2U5N2M5NTBjNGU0MDI5MfIBCggMEgZOb3JtYWzyASgIChIkY2NiNmM5M2EtYzQ4MS00ZjkxLWI1MTctYmRmMTMyMTM1NTFj8gEGCAsSAjk3ggIAiAKd+Mv5jDOSAiBlZGExYTNjMDc2YjFhNTFhM2U5N2M5NTBjNGU0MDI5MZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyA2MTdiMmZiMzlkMzA0OTNiYjE2ZTA2ZGUxNzM3MTc3M5oDDQoCdjIQABoFb3RoZXKoA48C2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gPbARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEJALGLAJIiN2Mi0xZmE2NjMzODE4MDBmYzhkY2RmMmM0OWM0MjhlNzc0ZjotCAIQ3woYwwgiI3YyLTkwMWE0MTNhMjQ2MDUyNWEzZWMzNjNjYmM4MDlhYWIwOi0IAhDBDBiZCSIjdjItZTYyNjQ2NjdlNTU5Nzg4MDU0ODdjOTU4ODA2MWE4N2Q6LQgCEJYJGJIIIiN2Mi05MjQwNjU0OTRlZDkzZWNkNTU1NTc0OGJmNmVkN2I5OYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoMfZkT+BBQAAAAAAAAAAiQXXDa77NVTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVhkAYAoAbLBKgGAJICLgoJNzQwODE4Njg0EhMxOTM2NDUxNzk1MjAwMjUwMzEyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=581&desktop=true&end_offset=587&page_number=98&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=581&desktop=true&end_offset=587&page_number=98&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

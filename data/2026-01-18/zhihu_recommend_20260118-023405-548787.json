@@ -1,0 +1,643 @@
+{
+  "data": [
+    {
+      "id": "24_1768674854.515",
+      "type": "feed",
+      "offset": 24,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674854,
+      "updated_time": 1768674854,
+      "target": {
+        "title": "自动操作浏览器，又一款 Chrome 神器，开源了！",
+        "voteup_count": 43,
+        "article_type": "normal",
+        "type": "article",
+        "voting": 0,
+        "comment_permission": "all",
+        "created": 1768558499,
+        "excerpt": "大家最近在折腾 AI Agent 时，有没有遇到过这种尴尬的情况： 让 AI 去某个网站查资料、抓数据，它在后台吭哧吭哧跑了半天，最后告诉你：“对不起，报错了”。 大多时候，你会发现这些问题，主要都卡在了验证登录这一环。 我们明明就坐在电脑前，在浏览器上有登录 Cookie，甚至动动手指就能把验证码划过去，但因为 AI 被运行在一个封闭的“黑盒”里，我们什么忙都帮不上。 正好，最近我在 GitHub 发现了一个新项目： Playwriter，…",
+        "is_labeled": false,
+        "favorite_count": 214,
+        "image_url": "https://pic1.zhimg.com/v2-8299cd09ac9c30bef25acb5ac884b5af.jpg?source=7e7ef6e2&needBackground=1",
+        "updated": 1768558499,
+        "comment_count": 5,
+        "preview_type": "default",
+        "preview_text": "",
+        "column": {
+          "imageUrl": "https://picx.zhimg.com/v2-ff697aa2b563adba35deb9525a511c23_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "is_following": false,
+          "id": "GHDaily",
+          "type": "column",
+          "title": "GitHubDaily",
+          "intro": "挖掘开源的价值，欢迎关注公众号 & 微博：GitHubDaily",
+          "updated": 1599161625,
+          "url": "https://api.zhihu.com/columns/GHDaily",
+          "author": {
+            "url_token": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "id": "",
+            "user_type": "people",
+            "headline": "",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false,
+            "url": "",
+            "name": "匿名用户"
+          }
+        },
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "gender": 1,
+          "followers_count": 117050,
+          "is_followed": false,
+          "id": "1751d571cd57282c0451bc022ce7c1ce",
+          "url": "https://api.zhihu.com/people/1751d571cd57282c0451bc022ce7c1ce",
+          "name": "GitHub Daily",
+          "is_org": false,
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "githubdaily",
+          "headline": "公众号：GitHubDaily",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ff697aa2b563adba35deb9525a511c23_l.jpg?source=b6762063"
+        },
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-8299cd09ac9c30bef25acb5ac884b5af.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-8299cd09ac9c30bef25acb5ac884b5af_720w.jpg?source=b6762063"
+        ],
+        "id": "1995546159641548488",
+        "excerpt_new": "大家最近在折腾 AI Agent 时，有没有遇到过这种尴尬的情况： 让 AI 去某个网站查资料、抓数据，它在后台吭哧吭哧跑了半天，最后告诉你：“对不起，报错了”。 大多时候，你会发现这些问题，主要都卡在了验证登录这一环。 我们明明就坐在电脑前，在浏览器上有登录 Cookie，甚至动动手指就能把验证码划过去，但因为 AI 被运行在一个封闭的“黑盒”里，我们什么忙都帮不上。 正好，最近我在 GitHub 发现了一个新项目： Playwriter，…",
+        "url": "https://api.zhihu.com/articles/1995546159641548488",
+        "content": "<p data-pid=\"YRdO_0IL\">大家最近在折腾 AI Agent 时，有没有遇到过这种尴尬的情况：</p><p data-pid=\"Z7vrqQgO\">让 AI 去某个网站查资料、抓数据，它在后台吭哧吭哧跑了半天，最后告诉你：“对不起，报错了”。</p><p data-pid=\"UMgXVem-\">大多时候，你会发现这些问题，主要都卡在了验证登录这一环。</p><p data-pid=\"kIbXaG0U\">我们明明就坐在电脑前，在浏览器上有登录 Cookie，甚至动动手指就能把验证码划过去，但因为 AI 被运行在一个封闭的“黑盒”里，我们什么忙都帮不上。</p><p data-pid=\"BcwNiqBa\">正好，最近我在 GitHub 发现了一个新项目：<b>Playwriter</b>，它能通过一种非常讨巧的方式，完美解决上述问题。</p><p data-pid=\"IygPJqZp\">看到这个名字，你可能会想到微软那个大名鼎鼎的自动化测试工具 Playwright。</p><p data-pid=\"A6cx2HLO\">没错，这个项目核心基于微软的工具运行，但作者打包封装成了 Chrome 插件，让用户体验更加丝滑，操作更为灵活便捷。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-dc859bbd769546db9af111360d24036a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"551\" data-original-token=\"v2-4530468f1199e8b2f458961f0dd01bd1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-dc859bbd769546db9af111360d24036a_r.jpg\"/></figure><p data-pid=\"am2STaHx\">不夸张地说，它可能是目前让 AI 操作浏览器的<b>最佳方式</b>。</p><h3><b>给浏览器装个 “副驾驶”</b></h3><p data-pid=\"WR-LRpMd\">Playwriter 最大的创新在于，是它能作为插件，直接 “<b>魂穿</b>” 到 Chrome 上，接替我们，处理一些日常较为繁琐的工作。</p><p data-pid=\"FXaADrXm\">原理也不复杂，主要由两部分组成：</p><ol><li data-pid=\"yxKuAAyt\">一个 <b>Chrome 浏览器插件</b>。</li><li data-pid=\"GBrLXgS7\">一个 <b>MCP Server</b>（作为连接 AI 和浏览器的桥梁）。</li></ol><p data-pid=\"UFFrg3fO\">当你点击插件图标时，AI 就能通过 Playwright 的 API，接管这个特定的标签页。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a0cb0c2b901991880577dc880f1ef99f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"467\" data-original-token=\"v2-e6c985a7ca197d831559e71c57e93f7a\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://picx.zhimg.com/v2-a0cb0c2b901991880577dc880f1ef99f_r.jpg\"/></figure><p data-pid=\"2ssShHfL\">这也就是说，AI 不再是远在云端的“云操作”，它直接坐在了你的浏览器里，变成了你的“副驾驶”。</p><h3><b>专治“水土不服”，拿捏三大痛点</b></h3><p data-pid=\"Nh6RAR9z\">这个项目，精准地处理了目前浏览器自动化的三个痛点：</p><p data-pid=\"HYhYi0iA\"><b>1. 具备基本的 “人机协作” 功能</b></p><p data-pid=\"KgINHstC\">这绝对是最大的卖点。</p><p data-pid=\"V2_u5sbf\">以前遇到各种登录验证，AI 基本就废了。</p><p data-pid=\"rnvzhRk_\">但现在，基于这个插件，我们完全可以先自己手动登录，或者提前帮 AI 搞定验证码。</p><p data-pid=\"qTvBXV-f\">之后，就可以放心地让它去开始帮我们干活了，无需再担心出现卡壳的情况。</p><p data-pid=\"m-jvOP39\">能够做到人机交互无缝切换，才算得上是一个合格的 AI 辅助工具。</p><p data-pid=\"0Rlfg-9p\"><b>2. 极度节省 Token</b></p><p data-pid=\"578xVZMx\">现在很多 AI 工具，包括 Claude 官方插件，为了让 AI 能看懂网页，都会疯狂把截图喂给 AI。</p><p data-pid=\"0KMddmJv\">这种操作方式，不仅速度慢且 Token 消耗巨大，稍微跑几个任务，就要开始疯狂爆你金币了。</p><p data-pid=\"pt1csJZn\">在这一点，Playwriter 很机智，它借用了 “视觉无障碍标签” 技术，让网页上的一切元素（按钮、输入框、菜单栏）都变成文本描述，再丢给 AI。</p><p data-pid=\"j-JdzEeb\">对比传统的截图方式，直接减少了上下文窗口的占用，可节省了 80% 左右的 Token。</p><p data-pid=\"Zkbkc32N\">既快又省钱，还要啥自行车？</p><p data-pid=\"T1MjHpbL\"><b>3. 拒绝“阉割”，给你完整的 Playwright 战力</b></p><p data-pid=\"qunSa9WP\">现在很多工具为了简化操作，只给 AI 提供了“点击”、“输入”这几个傻瓜指令。</p><p data-pid=\"82duILto\">对于开发者来说，如果想要更加复杂的界面操作方式，这显然无法满足我们需求。</p><p data-pid=\"GgOHRNxH\">因此，Playwriter 将 Playwright 的 API 与 AI 完整对接，让我们可以拥有更多操作空间，比如：</p><ul><li data-pid=\"TuxnR2Kx\">自动拦截与分析网络请求；</li><li data-pid=\"L-C0uY3b\">在页面中执行复杂的 JS 脚本；</li><li data-pid=\"7AMGucIC\">直接调试 React 组件。</li></ul><h3><b>上手教程</b></h3><p data-pid=\"yHKPPQkJ\">虽然功能强大，但它的配置却十分简单，稍微有点 AI 工具操作基础的即可使用。</p><p data-pid=\"vIxnn9tI\"><b>第一步：安装插件</b></p><p data-pid=\"IYQMlZ1P\">去 Chrome 商店下载 Playwriter MCP Extension（或者直接在 GitHub 下载源码加载）。</p><p data-pid=\"ZscnTI1M\"><b>第二步：配置 MCP</b></p><p data-pid=\"8Nztogor\">在你的 Claude Desktop 配置文件（或者其他支持 MCP 的客户端）里加上这段配置：</p><div class=\"highlight\"><pre><code class=\"language-json\"><span class=\"p\">{</span>\n  <span class=\"nt\">&#34;mcpServers&#34;</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n    <span class=\"nt\">&#34;playwriter&#34;</span><span class=\"p\">:</span> <span class=\"p\">{</span>\n      <span class=\"nt\">&#34;command&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;npx&#34;</span><span class=\"p\">,</span>\n      <span class=\"nt\">&#34;args&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span><span class=\"s2\">&#34;-y&#34;</span><span class=\"p\">,</span> <span class=\"s2\">&#34;playwriter@latest&#34;</span><span class=\"p\">]</span>\n    <span class=\"p\">}</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span></code></pre></div><p data-pid=\"CRQhJLww\"><b>第三步：一键起飞</b></p><p data-pid=\"2h6EHsan\">打开你想控制的网页，点击插件图标，图标变绿即连接成功。</p><p data-pid=\"W1B_0ECi\">此时，你就可以在对话框里发号施令了：“帮我把这个页面的表格数据整理成 Markdown”、“监控这个页面，如果有新票放出来就通知我”。</p><p data-pid=\"l_d-NtmS\">它就会当着你的面，开始自动操作。</p><h3><b>写在最后</b></h3><p data-pid=\"wSdZy2nx\">如果要用一个词来形容 Playwriter，我觉得是<b>“通透”</b>。</p><p data-pid=\"Og8R93o_\">它打破了 AI 和我们日常工作环境之间的那堵看不见的墙壁。</p><p data-pid=\"KbdDLJ3i\">以前的 AI，像是被关在小黑屋里远程办公的实习生，除了干着急你什么也做不了。</p><p data-pid=\"VoeKSGOM\">现在，有了 Playwriter，AI 就仿佛坐在你旁边，和你共用一台显示器、共用一套键鼠。</p><p data-pid=\"49W7xeUA\">这种 <b>“看得见、摸得着、帮得上”</b> 的感觉，可能才是现阶段 AI Agent 在浏览器上该有的最佳形态。</p><p data-pid=\"s36DPr_y\">目前该项目在 GitHub 上完全开源，如果你也是一名开发者，或者对浏览器自动化感兴趣，可以去试玩一下。</p><p data-pid=\"1g3TgDD6\">GitHub 地址：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/remorses/playwriter\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/remorses/pla</span><span class=\"invisible\">ywriter</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"fkcz6ZCW\">今天的分享到此结束，感谢大家抽空阅读，我们下期再见，Respect！</p>",
+        "visited_count": 2959,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995546159641548488}",
+      "attached_info": "CroHCLn/n9CKk/z0lQEQBxoJMjY5MTI2Mjc5IKOfqMsGKCswBUAYSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9Si4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9WgYxODMxNjJiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1NTQ2MTU5NjQxNTQ4NDg4ggFfaHR0cHM6Ly9waWMxLnpoaW1nLmNvbS92Mi04Mjk5Y2QwOWFjOWMzMGJlZjI1YWNiNWFjODg0YjVhZi5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGKAQdHSERhaWx5qgEJcmVjb21tZW5kwgEgMTc1MWQ1NzFjZDU3MjgyYzA0NTFiYzAyMmNlN2MxY2XyAQoIDBIGTm9ybWFs8gEoCAoSJDg0ODdmMGEzLTA3MjktNGQ5Yi04Y2E5LTIxZjIwZTAyMmQxY/IBBQgLEgE1ggIAiAKJi/LpvDOSAiAxNzUxZDU3MWNkNTcyODJjMDQ1MWJjMDIyY2U3YzFjZZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AIA+gILTk9STUFMX0ZMT1eKAyA5NjUzNTU1N2YzNDc0ZjExYTk0Y2Y0ZDg2MzcwMjViZpoDDQoCdjIQABoFb3RoZXKoA48X2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuAgYpwQiI3YyLTQ1MzA0NjhmMTE5OWU4YjJmNDU4OTYxZjBkZDAxYmQxOi0IBBCACBjTAyIjdjItZTZjOTg1YTdjYTE5N2Q4MzE1NTllNzFjNTdlOTNmN2E6LQgDEMAMGIQHIiN2Mi04Mjk5Y2QwOWFjOWMzMGJlZjI1YWNiNWFjODg0YjVhZoAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwFa2kD+BBQAAAAAAAAAAiQWLAG2jEpKwP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUFkAYAoAYaqAYBkgIuCgkyNjkxMjYyNzkSEzE5OTU1NDYxNTk2NDE1NDg0ODgYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "25_1768674854.99",
+      "type": "feed",
+      "offset": 25,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674854,
+      "updated_time": 1768674854,
+      "target": {
+        "excerpt": "从哲学与自然观的源头看，中国园林是道家“道法自然”与儒家“比德”思想的物质化体现。 这里的“自然”并非荒野，而是经过高度提炼和艺术化的“第二自然”，其最高境界是“虽由人作，宛自天开”。 园林中的山水布局模仿自然界的丘壑溪涧，追求的是山水画般的曲折含蓄与气韵生动。 树木花卉的姿态讲究古拙苍劲、天然野趣，其价值不仅在于形态，更在于其所承载的文化人格寓意，如梅之孤傲、竹之虚心、莲之出淤泥而不染。 园林并非…",
+        "reshipment_settings": "disallowed",
+        "allow_segment_interaction": true,
+        "content": "<p data-pid=\"7tzdGu9I\">从哲学与自然观的源头看，中国园林是道家“道法自然”与儒家“比德”思想的物质化体现。</p><p data-pid=\"KYScXV2C\">这里的“自然”并非荒野，而是经过高度提炼和艺术化的“第二自然”，其最高境界是“虽由人作，宛自天开”。</p><p data-pid=\"6RJfr15b\">园林中的山水布局模仿自然界的丘壑溪涧，追求的是山水画般的曲折含蓄与气韵生动。</p><p data-pid=\"BGbENDgO\">树木花卉的姿态讲究古拙苍劲、天然野趣，其价值不仅在于形态，更在于其所承载的文化人格寓意，如梅之孤傲、竹之虚心、莲之出淤泥而不染。</p><p data-pid=\"C3ddzCsq\">园林并非征服自然的展示，而是文人退隐于市、寄情山水、修身养性的心灵庇护所，是“可游、可居、可悟”的精神天地。</p><p data-pid=\"gjQCWHsx\">反之，西方古典园林尤以文艺复兴至古典主义时期的法国、意大利园林为典范深深植根于古希腊的理性哲学与欧几里得几何学。</p><p data-pid=\"EoT-0y--\">它将自然视为有待整理、驯服甚至征服的原始材料。</p><p data-pid=\"BnyUqHvD\">园林是建筑在自然中的延伸，是展示人类理性与意志的露天殿堂。</p><p data-pid=\"sBbIf7P9\">其设计严格遵循轴线对称、几何构图和数学比例。</p><p data-pid=\"6AkCqs8T\">树木被修剪成规整的球体、锥体或墙体绿篱，水体被约束在方正的水渠或圆形的喷泉池中，路径笔直开阔，一览无余。</p><p data-pid=\"re0DblnU\">这映射了西方哲学中主客二分的传统，人是认知和改造世界的主体，而自然是被分析、规整的客体。</p><p data-pid=\"f4S3nCHW\">园林因此成为彰显权力、财富与理性控制力的宏伟舞台，凡尔赛宫花园便是这种“人间天国”秩序的极致体现。</p><p data-pid=\"8A4AZsjz\">这种根本理念的差异，直接导致了空间营造手法与审美体验的截然不同。</p><p data-pid=\"zF0oNa2E\">中国园林的精髓在于“移步换景”与“小中见大”。</p><p data-pid=\"_donUK9N\">它通过巧妙的抑景、透景、借景、框景等手法，刻意避免一眼望穿的单调。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-df0a7f9a409de39bebf52c7cf74dc3bd_1440w.jpg\" data-rawwidth=\"995\" data-rawheight=\"921\" data-size=\"normal\" data-original-token=\"v2-3e3e167ed671abcf017bca8f1e389fdf\" class=\"origin_image zh-lightbox-thumb\" width=\"995\" data-original=\"https://pic2.zhimg.com/v2-df0a7f9a409de39bebf52c7cf74dc3bd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b999a702b47f965522360b54d559b3e8_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"999\" data-size=\"normal\" data-original-token=\"v2-3fdabbfb27882a74da2fb9bb49cd83fe\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-b999a702b47f965522360b54d559b3e8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b6ead01f794ed2bd02b666e8b9a7cefd_1440w.jpg\" data-rawwidth=\"872\" data-rawheight=\"979\" data-size=\"normal\" data-original-token=\"v2-85342993023d1f33e66ed2c0e7cb364a\" class=\"origin_image zh-lightbox-thumb\" width=\"872\" data-original=\"https://pic2.zhimg.com/v2-b6ead01f794ed2bd02b666e8b9a7cefd_r.jpg\"/></figure><p data-pid=\"Sr0K3c7x\">蜿蜒的游廊、掩映的花窗、起伏的云墙，将空间分隔成一系列相互渗透、层次丰富的景区，游览过程如同展开一幅无尽的手卷，充满意外之喜与探索之趣。</p><p data-pid=\"KFepXcqg\">时间与季节的变化，雨打芭蕉、雪映粉墙被精心纳入观赏体验，意境深远。</p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-3e3e167ed671abcf017bca8f1e389fdf_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3fdabbfb27882a74da2fb9bb49cd83fe_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-85342993023d1f33e66ed2c0e7cb364a_720w.jpg?source=b6762063"
+        ],
+        "author": {
+          "id": "010d26d363afc0fcb37a26a87725b787",
+          "name": "彩色的煤球",
+          "headline": "用绘画讲故事，用故事讲绘画。",
+          "gender": -1,
+          "followers_count": 812,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/010d26d363afc0fcb37a26a87725b787",
+          "user_type": "people",
+          "url_token": "tan-a-wen-92",
+          "avatar_url": "https://picx.zhimg.com/50/v2-8f9d8db79a0ae547f43024203c8c9c07_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "voteup_count": 10,
+        "thanks_count": 4,
+        "comment_count": 4,
+        "thumbnail": "https://picx.zhimg.com/50/v2-3e3e167ed671abcf017bca8f1e389fdf_720w.jpg?source=b6762063",
+        "url": "https://api.zhihu.com/answers/1995541127227536494",
+        "created_time": 1768554080,
+        "preview_text": "",
+        "type": "answer",
+        "preview_type": "default",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "id": "1995541127227536494",
+        "updated_time": 1768554080,
+        "is_copyable": false,
+        "visited_count": 148,
+        "favorite_count": 21,
+        "question": {
+          "url": "https://api.zhihu.com/questions/1995409915372663152",
+          "author": {
+            "followers_count": 2886,
+            "is_following": false,
+            "id": "e56255995f60a45cbc405c653e026abf",
+            "url": "https://api.zhihu.com/people/e56255995f60a45cbc405c653e026abf",
+            "user_type": "people",
+            "name": "sunny",
+            "headline": "对思维与艺术感兴趣的美学探索者",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-6c67f1d7c5fdb59ce9d69c1ecfdd97c3_l.jpg?source=b6762063",
+            "is_followed": false,
+            "url_token": "sunny-30-26-7",
+            "is_org": false,
+            "gender": 0
+          },
+          "comment_count": 0,
+          "type": "question",
+          "created": 1768522796,
+          "is_following": false,
+          "title": "您知道中西方古典园林设计理念最大的区别是什么？",
+          "follower_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "id": "1995409915372663152",
+          "answer_count": 0
+        },
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "excerpt_new": "从哲学与自然观的源头看，中国园林是道家“道法自然”与儒家“比德”思想的物质化体现。 这里的“自然”并非荒野，而是经过高度提炼和艺术化的“第二自然”，其最高境界是“虽由人作，宛自天开”。 园林中的山水布局模仿自然界的丘壑溪涧，追求的是山水画般的曲折含蓄与气韵生动。 树木花卉的姿态讲究古拙苍劲、天然野趣，其价值不仅在于形态，更在于其所承载的文化人格寓意，如梅之孤傲、竹之虚心、莲之出淤泥而不染。 园林并非…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995541127227536494}",
+      "attached_info": "CtUHCLn/n9CKk/z0lQEQBBoJNzY1NjkyNTQ2IOD8p8sGKAowBEAZSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoJMTE4MDgyNTE3YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTU0MTEyNzIyNzUzNjQ5NIoBEzE5OTU0MDk5MTUzNzI2NjMxNTKqAQlyZWNvbW1lbmTCASAwMTBkMjZkMzYzYWZjMGZjYjM3YTI2YTg3NzI1Yjc4N/IBCggMEgZOb3JtYWzyASgIChIkMDRkZWI5MDMtN2FlYS00ZDgwLTg4MTctZDNiMGU3NWQ3ZTA18gEFCAsSATWCAgCIAomL8um8M5ICIDAxMGQyNmQzNjNhZmMwZmNiMzdhMjZhODc3MjViNzg3mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCBPoCC05PUk1BTF9GTE9XigMgOTY1MzU1NTdmMzQ3NGYxMWE5NGNmNGQ4NjM3MDI1YmaaAw0KAnYyEAAaBW90aGVyqAOUAdgDAOoDH3RleHRGZWVkVHdvVG93ZXJXYXJtdXBTdWNjZXNzVjH6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQ4wcYmQciI3YyLTNlM2UxNjdlZDY3MWFiY2YwMTdiY2E4ZjFlMzg5ZmRmOi0IBBCgBhjnByIjdjItM2ZkYWJiZmIyNzg4MmE3NGRhMmZiOWJiNDljZDgzZmU6LQgDEOgGGNMHIiN2Mi04NTM0Mjk5MzAyM2QxZjMzZTY2ZWQyYzBlN2NiMzY0YYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIMYYkj+BBQAAAAAAAAAAiQWLAG2jEpKwP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUFkAYAoAYbqAYDkgIuCgk3NjU2OTI1NDYSEzE5OTU1NDExMjcyMjc1MzY0OTQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "26_1768674854.311",
+      "type": "feed",
+      "offset": 26,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674854,
+      "updated_time": 1768674854,
+      "target": {
+        "comment_count": 182,
+        "excerpt_new": "原吉林公安厅常务副厅长贺电同志写的《平安经》，2019年12月初版，2020年5月再版，售价299元人民币，全书的主要内容为以“××平安”形式的造句，与数字、地名、年龄、行业、 器官 等词语进行组合。例如： 〈各性别平安〉：男性平安，女性平安。 〈各年龄平安〉：初生平安，满月平安，百天平安，1岁平安，2岁平安，3岁平安，4岁平安，5岁平安，...，99岁平安。 〈身心平安〉：眼平安，耳平安，鼻平安，舌平安，身平安，意平安。 …",
+        "reshipment_settings": "allowed",
+        "voteup_count": 974,
+        "excerpt": "原吉林公安厅常务副厅长贺电同志写的《平安经》，2019年12月初版，2020年5月再版，售价299元人民币，全书的主要内容为以“××平安”形式的造句，与数字、地名、年龄、行业、 器官 等词语进行组合。例如： 〈各性别平安〉：男性平安，女性平安。 〈各年龄平安〉：初生平安，满月平安，百天平安，1岁平安，2岁平安，3岁平安，4岁平安，5岁平安，...，99岁平安。 〈身心平安〉：眼平安，耳平安，鼻平安，舌平安，身平安，意平安。 …",
+        "preview_type": "default",
+        "visited_count": 178431,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "created_time": 1768548337,
+        "updated_time": 1768633195,
+        "is_copyable": true,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-77fa895f0cd622b6319347028d5d37c6_720w.jpg?source=b6762063",
+        "is_labeled": false,
+        "favorite_count": 238,
+        "id": "1995517040505689996",
+        "type": "answer",
+        "thanks_count": 42,
+        "preview_text": "",
+        "content": "<p data-pid=\"qQt1rGdB\">原吉林公安厅常务副厅长贺电同志写的《平安经》，2019年12月初版，2020年5月再版，售价299元人民币，全书的主要内容为以“××平安”形式的造句，与数字、地名、年龄、行业、<a href=\"https://link.zhihu.com/?target=https%3A//zh.wikipedia.org/wiki/%25E5%2599%25A8%25E5%25AE%2598\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">器官</a>等词语进行组合。</p><p data-pid=\"dMdYMJ-K\">例如：</p><p data-pid=\"QYhtjccK\">〈各性别平安〉：男性平安，女性平安。</p><p data-pid=\"sCFZXlmb\">〈各年龄平安〉：初生平安，满月平安，百天平安，1岁平安，2岁平安，3岁平安，4岁平安，5岁平安，...，99岁平安。</p><p data-pid=\"NhazCS1y\">〈身心平安〉：眼平安，耳平安，鼻平安，舌平安，身平安，意平安。</p><p data-pid=\"hqLYyB8k\">〈感觉平安〉：视觉平安，听觉平安，嗅觉平安，味觉平安，平衡觉平安，痛觉平安，温觉平安，触觉平安，压觉平安。</p><p data-pid=\"Ek_3YWJm\">〈呼吸系统平安〉：鼻腔平安，咽喉平安，气管平安，支气管平安，肺平安，横隔膜平安，胸膜平安，纵隔平安。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-60125da9bd3b4f59954c9c9c80e8f4d1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"250\" data-rawheight=\"406\" data-original-token=\"v2-069dd574c56c4c71cffa1566bf07e7c6\" class=\"content_image\" width=\"250\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b84d89e18984c2217e9f7e3f9eaa4cab_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1441\" data-original-token=\"v2-77fa895f0cd622b6319347028d5d37c6\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://picx.zhimg.com/v2-b84d89e18984c2217e9f7e3f9eaa4cab_r.jpg\"/></figure><p data-pid=\"UjoY57j6\">后续的故事就是，纪委宣布成立联合调查组，调查核实《平安经》有关问题。随后，吉林省委决定免去贺电吉林省公安厅党委副书记、常务副厅长职务。</p><p data-pid=\"4SCzQxYl\">故事最后：当时网友调侃为什么贺电同志会被纪委调查？只因为他在书中写了所有的平安，唯独忘写“自己平安”。</p><p data-pid=\"LyK3oXww\">补张照片：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-35b20b2e367edbd5d21fdedf47d2807d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1822\" data-rawheight=\"1024\" data-original-token=\"v2-e5391ca14f425373d20eced706371c19\" class=\"origin_image zh-lightbox-thumb\" width=\"1822\" data-original=\"https://pic4.zhimg.com/v2-35b20b2e367edbd5d21fdedf47d2807d_r.jpg\"/></figure><p></p>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-77fa895f0cd622b6319347028d5d37c6_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-e5391ca14f425373d20eced706371c19_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "author": {
+          "is_org": false,
+          "gender": -1,
+          "id": "783c46a141316dc83de04bbfdbd875b6",
+          "name": "Evan",
+          "avatar_url": "https://pica.zhimg.com/50/v2-4688d5fb66c2f6becef7f485f52d1c17_l.jpg?source=b6762063",
+          "headline": "这不是bug是feature",
+          "followers_count": 758,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/783c46a141316dc83de04bbfdbd875b6",
+          "user_type": "people",
+          "url_token": "tusiyuet"
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "url": "https://api.zhihu.com/answers/1995517040505689996",
+        "question": {
+          "detail": "",
+          "title": "你看过最奇怪的书是什么？",
+          "created": 1408518211,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "24921291",
+          "author": {
+            "user_type": "people",
+            "url_token": "zong-lu-shu-3",
+            "gender": 1,
+            "followers_count": 8,
+            "is_following": false,
+            "is_org": false,
+            "is_followed": false,
+            "id": "0c0d5e886d856b68e8ed76c99f26b116",
+            "url": "https://api.zhihu.com/people/0c0d5e886d856b68e8ed76c99f26b116",
+            "name": "棕榈树",
+            "headline": "爱藏书 法律生 穷鞋头",
+            "avatar_url": "https://picx.zhimg.com/50/4150d9a21ee53e6507717f9a9a0987eb_l.jpg?source=b6762063"
+          },
+          "question_type": "normal",
+          "comment_count": 9,
+          "bound_topic_ids": [
+            53,
+            113,
+            1164,
+            1309
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/24921291",
+          "answer_count": 0
+        },
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "QYhtjccK",
+            "text": "〈各性别平安〉：男性平安，女性平安。",
+            "marks": [
+              {
+                "start_index": 8,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995630125404942926"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995517040505689996}",
+      "attached_info": "CqEHCLn/n9CKk/z0lQEQBBoJNzY1Njc2OTI2IPHPp8sGKM4HMLYBQBpKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaBzIxNTA2MDZiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1NTE3MDQwNTA1Njg5OTk2igEIMjQ5MjEyOTGqAQlyZWNvbW1lbmTCASA3ODNjNDZhMTQxMzE2ZGM4M2RlMDRiYmZkYmQ4NzViNvIBCggMEgZOb3JtYWzyASgIChIkYzVhZTI0MjQtMGNmYS00N2Y2LWI4NTAtMWQ3M2Y0NTBkMDli8gEFCAsSATWCAgCIAomL8um8M5ICIDc4M2M0NmExNDEzMTZkYzgzZGUwNGJiZmRiZDg3NWI2mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgL6AgtOT1JNQUxfRkxPV4oDIDk2NTM1NTU3ZjM0NzRmMTFhOTRjZjRkODYzNzAyNWJmmgMNCgJ2MhAAGgVvdGhlcqgD//EK2AMA6gMZZmVlZHJlV2FybVN1Y2Nlc3NSZWNhbGxlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxD6ARiWAyIjdjItMDY5ZGQ1NzRjNTZjNGM3MWNmZmExNTY2YmYwN2U3YzY6LQgCEIAPGKELIiN2Mi03N2ZhODk1ZjBjZDYyMmI2MzE5MzQ3MDI4ZDVkMzdjNjotCAQQng4YgAgiI3YyLWU1MzkxY2ExNGY0MjUzNzNkMjBlY2VkNzA2MzcxYzE5gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgsBuxP4EFAAAAAAAAAACJBYsAbaMSkrA/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQWQBgCgBhyoBgCSAi4KCTc2NTY3NjkyNhITMTk5NTUxNzA0MDUwNTY4OTk5NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "27_1768674854.788",
+      "type": "feed",
+      "offset": 27,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674854,
+      "updated_time": 1768674854,
+      "target": {
+        "type": "article",
+        "comment_count": 140,
+        "excerpt": "昨晚，全球的目光都盯着德黑兰上空。而戏剧性的一刻就在此时发生了，在美军发起对伊朗空袭的最后一刻，被川普按下了暂停键。 据媒体透露，所谓最后一刻就是从卡塔尔的乌代德空军基地起飞的战机已经挂弹升空，就在导弹要发射的前几分钟被叫停了。 很多人会问：为什么要叫停啊，难道箭在弦上，川普不打了吗？在我看来恰恰相反。这不是战争的结束，而是这场川普式“极限绞杀”进入了更不可预测更惊心动魄的阶段。而“叫停”说白了就…",
+        "excerpt_new": "昨晚，全球的目光都盯着德黑兰上空。而戏剧性的一刻就在此时发生了，在美军发起对伊朗空袭的最后一刻，被川普按下了暂停键。 据媒体透露，所谓最后一刻就是从卡塔尔的乌代德空军基地起飞的战机已经挂弹升空，就在导弹要发射的前几分钟被叫停了。 很多人会问：为什么要叫停啊，难道箭在弦上，川普不打了吗？在我看来恰恰相反。这不是战争的结束，而是这场川普式“极限绞杀”进入了更不可预测更惊心动魄的阶段。而“叫停”说白了就…",
+        "preview_type": "default",
+        "content": "<p data-pid=\"_IGoOdfH\">昨晚，全球的目光都盯着德黑兰上空。而戏剧性的一刻就在此时发生了，在美军发起对伊朗空袭的最后一刻，被川普按下了暂停键。</p><p data-pid=\"n53AzkVT\">据媒体透露，所谓最后一刻就是从卡塔尔的乌代德空军基地起飞的战机已经挂弹升空，就在导弹要发射的前几分钟被叫停了。</p><p data-pid=\"jO5Pg_Zf\">很多人会问：为什么要叫停啊，难道箭在弦上，川普不打了吗？在我看来恰恰相反。这不是战争的结束，而是这场川普式“极限绞杀”进入了更不可预测更惊心动魄的阶段。而“叫停”说白了就是川普在两个“前提”出现时的应激判断。什么前提呢？一是川普给国家安全顾问们提出过一个要求，就是任何针对伊朗的军事行动都应实施迅捷而决定性的打击，避免旷日持久的战争。</p><p data-pid=\"fxI_VAIe\">川普个人经历虽然没有军事背景，但是他的军事逻辑非常清晰：要么不动手，动手就要一刀断魂，绝对不能陷入另一场持续多年的中东泥潭里。</p><p data-pid=\"zrg9hIuK\">而且军事顾问们到最后给出的评估，让川普感到：目前的打击虽然能重创伊朗，但无法保证能给予伊朗政权“致命一击”。而伊朗军队在第一轮被打后的反击，有可能会让多个美军基地受到川普不愿意看到的损失。</p><p data-pid=\"FtH0KX9_\">而在中东地区当前根本没有任何一艘美军航母舰队坐镇，让后续的变化不在美军的完全掌控之中。很明显，川普不想玩那种“我拍你一砖，你砸我一瓦”的游戏。所以，这场“暂停”实际上是在等一个更大的“锤子”落下。</p><p data-pid=\"35YzGBmF\">另外，还有一个前提同时发生了变化。川普在社交平台转发了美国福克斯新闻的一贴，内容是这么写的：“在川普总统发出警告后，一名伊朗抗议者将不再被执行死刑，其他人也是如此。”这是个好消息。希望这样的情况能持续下去。其实，川普在昨天回答记者提问时，也提到了伊朗政府停止了杀戮抗议民众和对被捕者执行死刑的行动。而今天白宫发言人直接提到：在川普的压力下，伊朗政权原定昨天进行的对800人的处决被取消了。</p><p data-pid=\"A7zG-K-Y\">看上去，川普也是因为上面两个“前提”，对美军必须马上动手的紧迫性和自身安全性之间的权衡有了改变。</p><p data-pid=\"mxXkiSbF\">除了这两个前提，还有另一个促成川普紧急叫停的重要缘由：就是以色列总理内塔尼亚胡昨天紧急要求川普总统推迟任何针对伊朗的军事攻击计划，似有重大内情。据透露：伊朗已经部署了高超音速导弹，直接瞄准八个以色列空军基地和军事设施。而以色列方面尚未做好充分的应对准备。</p><p data-pid=\"l_WoQOin\">对于空袭被叫停的各方疑问，与川普在伊朗问题上最近交流密切的美国参议员格雷厄姆，今天再次对外强调：美国肯定会针对伊朗政权采取果断行动。</p><p data-pid=\"fkRLD0Fi\">就在川普下令空袭暂停的同时，另一个更具杀气的消息传来：美军的林肯号航母战斗群被从太平洋火速调往中东！</p><p data-pid=\"vsbKkuek\">今天，林肯号航母正带着第3航母打击群，以“高速交通”模式横跨印度洋驶往中东。林肯号上面载着70多架美军战机，其中包括隐形杀手F-35C。航母打击群还包括了至少三艘伯克级导弹驱逐舰，外加至少一艘携带“战斧”导弹的核潜艇。那么要多长时间能到达战争区域呢？从以往的经验可以得出，航母战斗群将在四到七天到达临战位置。</p><p data-pid=\"BuHtcqpL\">而目前，阿拉伯海洋已经有美军的俄亥俄级核潜艇在水下“听令”，大批战斧巡航导弹已经锁定坐标。加上即将到来的林肯号航母打击群，意味着这个周末，美军在伊朗周边将形成一个强大的打击矩阵。</p><p data-pid=\"l00wb_4h\">可能有人会担心，再拖几天，伊朗国内的抗议浪潮可能会被镇压下去，别忘了，伊朗这次全国性的抗议示威，已经达到了让全民觉醒和团结的目的，而要推翻伊朗现政权的最后阶段，肯定不是再由伊朗民众的赤手空拳来决定，而是美以联军的粉碎性打击来一锤定音。而美军如今有两种开战的可能：一是等林肯号航母战斗群到位，发动一场彻底摧毁伊朗政权武装力量的大规模空袭。</p><p data-pid=\"PdOoYQem\">二是就在这几天，利用现有在中东美军基地的军力和B-2隐形战略轰炸机先行发难，林肯号航母作为第二波“收割机”进行后续清理。而川普一向不按套路出牌，活捉马杜罗就是一个新鲜滚烫出炉的例子。</p><p data-pid=\"ZhrVkCwZ\">在我看来，川普这次还抛出了除军事打击之外的新玩意儿：心理战。前两天，媒体曝光川普暗中向欧洲盟友索要一份清单，内容不是伊朗的军事基地，而是“对杀害抗议者负有责任的伊朗政府官员的名单”。这件事情周二发生，周三，美国《华盛顿邮报》就专文曝光，这下倒好，伊朗革命卫队的指挥官们估计脑子里想到的第一件事就是：“我的名字在上面吗？”</p><p data-pid=\"vYui8u8m\">川普之前还曾亲口说让伊朗民众：“把凶手的名字记下来。他们将付出巨大代价。”同时喊话：“援助正在路上。”当记者昨天追问到底是什么意思时，川普呵呵一笑，说：“你们得自己想明白。”</p><p data-pid=\"jyNJ9LmZ\">在我看来，川普就像是设了一个随时爆开的定时炸弹，所有人都能听到滴答声，却不知道它在哪里，更不知道什么时候会炸。这手国家级别的心理战，是川普“委内瑞拉剧本”的升级2.0版，玩的就是个心跳！马杜罗现在还在美国监狱里蹲着呢，他当初也以为川普是在大嘴巴说大话。也许用不了多久，伊朗的毛拉们也会明白：说大话和催命符的区别。</p><p data-pid=\"VubMRcgB\">还有一个消息，今天，美国财政部正式公布了新一轮针对伊朗的制裁。直接把绞索套在了伊朗政权的脖子上。很多人一听制裁，觉得又是老一套：什么冻结资产、限制交易等等。但这次完全不同，这次使出的是“定点清除”式的金融打击。</p><p data-pid=\"PGAhCz_v\">川普前脚刚叫抗议者把“凶手”的名字记下来，后脚这份名单就落到了财政部长贝森特的办公桌上。制裁名单中有11个人，还有13个实体。其中打击的核心目标是伊朗政府的核心人物：莱里贾尼，他就是伊朗最高国家安全委员会秘书，也是策划镇压抗议、最早叫嚣要用暴力对付民众的人。川普的意思很明确：你不是想杀自己的百姓吗？那我就先在金融和国际社会上“毙”了你。</p><p data-pid=\"AlIxldY9\">这份制裁名单还有一个特点是范围大：是从将领到监狱，包括了政府高层及革命卫队在各省的指挥官。最绝的是，名单里竟然特别标注了法尔迪斯监狱。因为那里是折磨抗议者的黑监狱。美国是在告诉那些狱警和基层军官：你们的一举一动，白宫全看在眼里。</p><p data-pid=\"2O01NFWG\">正所谓春江水暖鸭先知，伊朗是不是要倒，看钱往哪跑就是了。以色列电视台今天爆出一个大瓜：就在过去48小时，伊朗权贵们正通过加密货币，疯狂向迪拜转移资金。总额高达15亿美元！更劲爆的消息是，伊朗最高领袖哈梅内伊的儿子，竟然一个人就转走了3.28亿美元！ 并且正在试图前往迪拜寻求庇护。这说明了什么？连哈梅内伊的亲生骨肉都觉得德黑兰待不下去了，这艘船看来是想不沉都难了！</p><p data-pid=\"zmcEfXmq\">美国财政部长贝森特在接受采访时，用了一个非常形象的比喻。他说：“我们现在看到老鼠正在跳船逃走！”</p><p data-pid=\"KjwxJPOS\">还有一件事会让伊朗官员睡不着觉。就在川普喊话“记下凶手名字”后，网上突然流传出一份名单，里面有大约1250名伊朗安全部队和民兵成员的超详细个资。</p><p data-pid=\"kyipi1Ti\">这上千人的名单可不是只有姓名啊，里面还包括：父母、配偶、子女的完整信息；家庭住址、座机、手机号；甚至是血型、银行账户。这对于一个靠民众的“恐惧”来维持统治的政权来说，简直是灭顶之灾。事实上，这种伊朗官员的噩梦已经开始变成恐怖现实了。伊朗卡拉季的法尔迪斯警察局长哈迪·萨德格，刚被愤怒的抗议民众刺了40多刀一命呜呼。</p><p data-pid=\"sh66grR5\">一个事实是：当民众不再恐惧，那么，恐惧的就是独裁者和帮凶们了。</p><p data-pid=\"IXb3yYoM\">外部有美以联军在虎视眈眈，内部有民众强烈反抗，而伊朗政权赖以生存的经济命脉也彻底空了。目前消息显示，伊朗国内的五大银行已经拒绝支付，银行系统濒临崩溃。难怪有人嘲讽，这样下去，也不需要川普发射导弹了，伊朗政权内部可能就会发生军事政变或大面积叛逃，所谓“大厦将倾”也不过如此。</p><p data-pid=\"soDAznOW\">伊朗王储巴列维最新声明，不仅承诺终结伊朗核计划，还要跟以色列建交，加入《亚伯拉罕协议》。更会恢复和美国全方位的正常化关系，巴列维很清楚：一个亲美的政治经济稳定的伊朗，正是川普全球战略的稳定基石之一。</p><p data-pid=\"BxIWCQ-T\">华尔街日报今天报道，尽管川普昨天下令了美军暂停打击，但是今天川普指示军方做好准备，或会随时下令对伊朗政权发动攻击。五角大厦已进入高度戒备状态，静待下一步行动。川普并没有明确何时开战，但却下达命令美军“保持待命”。</p>",
+        "is_labeled": false,
+        "id": "1995507200152589906",
+        "article_type": "normal",
+        "voteup_count": 716,
+        "visited_count": 63463,
+        "favorite_count": 218,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "title": "川普突然叫停打击伊朗内幕",
+        "updated": 1768558924,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_text": "",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "created": 1768551551,
+        "author": {
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/cae6aa5cc5c87e119f2b6684019bba06",
+          "url_token": "wei-liao-ni-50-51",
+          "name": "中华崛起必然趋势",
+          "avatar_url": "https://picx.zhimg.com/50/v2-8361c863d9202c30007b0b0413e05a0e_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "id": "cae6aa5cc5c87e119f2b6684019bba06",
+          "user_type": "people",
+          "headline": "真正的爱国者，为中华民族伟大复兴而发文",
+          "gender": 0,
+          "followers_count": 12934
+        },
+        "comment_permission": "all",
+        "voting": 0,
+        "url": "https://api.zhihu.com/articles/1995507200152589906"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995507200152589906}",
+      "attached_info": "CtQGCLn/n9CKk/z0lQEQBxoJMjY5MTEzNzkxIP/op8sGKMwFMIwBQBtKKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KMQomVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjESATAYACAAOgBKMwoeVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTX1YzEgEwGAAgADoKeyJyYXciOiIifUo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1NTA3MjAwMTUyNTg5OTA2qgEJcmVjb21tZW5kwgEgY2FlNmFhNWNjNWM4N2UxMTlmMmI2Njg0MDE5YmJhMDbyAQoIDBIGTm9ybWFs8gEoCAoSJDYwYWVjMWM0LTBhNmYtNDQ5MC04ZTE2LWMwYjlmNjEyOGZhMfIBBQgLEgE1ggIAiAKJi/LpvDOSAiBjYWU2YWE1Y2M1Yzg3ZTExOWYyYjY2ODQwMTliYmEwNpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AID+gILTk9STUFMX0ZMT1eKAyA5NjUzNTU1N2YzNDc0ZjExYTk0Y2Y0ZDg2MzcwMjViZpoDDQoCdjIQABoFb3RoZXKoA+fvA9gDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwBAGsD+BBQAAAAAAAAAAiQWLAG2jEpKwP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUFkAYAoAYdqAYAkgIuCgkyNjkxMTM3OTESEzE5OTU1MDcyMDAxNTI1ODk5MDYYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "28_1768674854.44",
+      "type": "feed",
+      "offset": 28,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674854,
+      "updated_time": 1768674854,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1995829066100654469",
+        "author": {
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/014eba69f4ae4a84dc100b876ed4848e",
+          "url_token": "hellowo-zai",
+          "name": "才让BOSS",
+          "avatar_url": "https://picx.zhimg.com/50/v2-645fcf80b756dda06da7ad933b95377f_l.jpg?source=b6762063",
+          "id": "014eba69f4ae4a84dc100b876ed4848e",
+          "user_type": "people",
+          "headline": "莫舍己道，勿扰他心，INTP，爱好真理",
+          "followers_count": 151
+        },
+        "type": "answer",
+        "content": "<p data-pid=\"hXQm_XdW\">道德道理，是毒药还是解药？关键看你是否用的好，。</p><p data-pid=\"TqTDfJUE\">很多无知的人抱怨道德就是上层人用来约束管理下层人的，觉得道德就是对人性的束缚，是制约自己生命的存在。</p><p data-pid=\"52kACK1v\">其实这是大错特错，说明他对道德，对各种真理根本一无所知，这种人只是在他面对他人用道德来指点他的时候，被自己的应激反应所驱使，而做出了全盘否定</p><p data-pid=\"-7RfPCed\">中途既没有动脑子想，完全就是凭自己不好的感受，而整个带偏了自己的认知方向，说明他本身自己的精神世界就是一片荒芜的，根本没有基本功，全是凭感受去做事，也辨别不出一句话的好坏真假，真的拿到一句话也不会用</p><p data-pid=\"vN3Gc1OF\">其实我们每个人在自我提升的路上都要警惕以上这个毛病，一旦被不良感受左右，那认知肯定会走向极端。所以我们需要不断的巩固自己认可的认知，让这种高级的认知彻底的落实在自己的生活里，真正看到自己因为这种认知而受益了，那么我们肯定能坚定不移的去信仰，进而也就能在此基础上去对接其他的内涵，种种文化领域，有了基本功，才有上层建筑。</p><p data-pid=\"BVTCAGXA\">道德一定是在基本功的基础上建立的，道德是一种上层建筑，任何高级的上层建筑焕发出来的力量，都是无穷的。</p><p data-pid=\"Gs0SFJN7\">首先我们要明白一个点，道德一定是用来指导自己的，不是用来指导别人的，你可以跟别人分享，但不能执着别人要做到。</p><p data-pid=\"blqb16Cj\">其实这就是我开篇说的道德，什么时候是毒，什么时候是药？</p><p data-pid=\"xpEnoHqO\">那就是当你用这个道理去要求别人做到的时候，那你一定会被反噬，你是被自己的欲望反噬的，你没有用好这个道德。</p><p data-pid=\"BLx72Dfp\">根本不存在所谓的好人没好报，好心没好报。</p><p data-pid=\"G22OK5oY\">好心一定有好报，就看你是不是真的好心，就看你这个好心是扎根于什么上的，如果是扎根在坚固的高级认知上的话，那你这个好心也是可持续的，不会因为短暂的不好感受而去消散。</p><p data-pid=\"WwMUrNbC\">可持续就一定带着力量，以这种基础的好心，那带来的好报一定会有，一定很大，也迟早会到。</p><p data-pid=\"8jlXfjU3\">但很多人往往是没有自己坚定的信仰以及完善的精神世界的，他们有时候的好人好事，就是凭借着一种骨子里的怜悯，善良，但如果没有牢固的认知，作为支撑的话，你稍微碰到别人的背信弃义，忘恩负义，那你的善良就泯灭了</p><p data-pid=\"yTzfaYjZ\">而且这种善良也很片面，因为你只能用出正向的手段来施展善良，无法去打通善良的各种途径，限制性因素很多，而且如果善良，还要求别人的理解，别人的关注，别人的认可，那根本就没有力量，只是在作秀而已</p><p data-pid=\"ci8UjKR0\">一旦道德全部用作的方向都指向自己，那你一定是在进步的路上。</p><p data-pid=\"gooB1nNi\">顺为凡，逆为仙，只在其中颠倒颠</p><p data-pid=\"4Go4Ibre\">你想要从人群中脱颖而出，你就必须要对自己逆人性去下狠手，其实也无所谓，狠不狠的，一旦自己的逻辑打通了，目标是自己的真实需求，那你一定会千方百计的去落实到位的</p><p data-pid=\"TaFWkKwM\">所有至高的道德和道理是需要捆绑一个很高的人生目标，或者说信仰才能够真正落实到自己的生命里的</p><p data-pid=\"t8Jp11Q5\">如果没有一个很高的目标去在那撑着自己的人生框架，那其实很多的道德就根本用不上派，不上用场，你也不需要</p><p data-pid=\"xbCRA6aI\">如果不需要的话，你也就不会费心思去实践它，去在用的过程中揣摩它的使用条件等等的细节，那自然就不会得到这些至高真理的加持力了。</p><p data-pid=\"sMmdq_Jl\">所以综上所述，我们懂得一切道德和道理，都要对准自己，他们不是约束，而是让我们集中注意力去奔向真正宏大的收获，不要被路边的一些鸡毛蒜皮的利益所影响。</p><p data-pid=\"5jbeAvZl\">所以基于这个逻辑，自然很多的这些大道理跟那些鼠目寸光的人是打架的，因为违背了他们只喜欢抓眼前利益这个点了。</p><p data-pid=\"HkpgOugg\">其实每一个老祖宗们流传下来的道理都是具有深邃智慧的，如果对人没有帮助的话，那怎么可能穿越千百年还能存在呢？</p><p data-pid=\"Sy0sPr6v\">在这个星球上，对比动物的数量来说，其实人类是很少很稀有的存在，今生能够作为人类来体验一遭，我相信我的同类人都会觉得自己有必要去往一些更高的目标，够一够。</p><p data-pid=\"MDqCyZXO\">终究还是看自己的要求到底在哪，以这个点为中心，其他的各种人生细节各自就位。</p><p data-pid=\"qaHMpus1\">把握好自己的核心，其他的方向自然就能梳理出来了</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-935f3f634650019c648d04e6ae5efa28_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-06295817bc5e8d2fb46e45f2188e4e56\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-935f3f634650019c648d04e6ae5efa28_r.jpg\"/></figure><p></p>",
+        "answer_type": "normal",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-06295817bc5e8d2fb46e45f2188e4e56_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "excerpt_new": "道德道理，是毒药还是解药？关键看你是否用的好，。 很多无知的人抱怨道德就是上层人用来约束管理下层人的，觉得道德就是对人性的束缚，是制约自己生命的存在。 其实这是大错特错，说明他对道德，对各种真理根本一无所知，这种人只是在他面对他人用道德来指点他的时候，被自己的应激反应所驱使，而做出了全盘否定 中途既没有动脑子想，完全就是凭自己不好的感受，而整个带偏了自己的认知方向，说明他本身自己的精神世界就是一片…",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-06295817bc5e8d2fb46e45f2188e4e56_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "id": "1995829066100654469",
+        "updated_time": 1768622730,
+        "excerpt": "道德道理，是毒药还是解药？关键看你是否用的好，。 很多无知的人抱怨道德就是上层人用来约束管理下层人的，觉得道德就是对人性的束缚，是制约自己生命的存在。 其实这是大错特错，说明他对道德，对各种真理根本一无所知，这种人只是在他面对他人用道德来指点他的时候，被自己的应激反应所驱使，而做出了全盘否定 中途既没有动脑子想，完全就是凭自己不好的感受，而整个带偏了自己的认知方向，说明他本身自己的精神世界就是一片…",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "is_labeled": true,
+        "visited_count": 14,
+        "allow_segment_interaction": true,
+        "created_time": 1768622730,
+        "comment_count": 0,
+        "is_copyable": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 4,
+        "question": {
+          "id": "338411678",
+          "author": {
+            "name": "A面认知",
+            "headline": "独立思考的践行者",
+            "is_org": false,
+            "id": "f209cbd7d1789ccb490642a7659fd0b0",
+            "url_token": "alone-84-95",
+            "avatar_url": "https://picx.zhimg.com/50/v2-2e8c35cd96c7104b4ec475b9dcce7d3e_l.jpg?source=b6762063",
+            "gender": 1,
+            "followers_count": 13,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/f209cbd7d1789ccb490642a7659fd0b0",
+            "user_type": "people"
+          },
+          "created": 1564760615,
+          "follower_count": 0,
+          "answer_count": 0,
+          "question_type": "normal",
+          "is_following": false,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/338411678",
+          "title": "你见过的最有哲理的一句话是什么？",
+          "comment_count": 0,
+          "bound_topic_ids": [
+            5935,
+            20423,
+            24048
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": ""
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995829066100654469}",
+      "attached_info": "CpoGCLn/n9CKk/z0lQEQBBoJNzY1Nzg1NzUwIIqVrMsGKAEwAEAcSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWggzNzQ3OTQxNGIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU4MjkwNjYxMDA2NTQ0NjmKAQkzMzg0MTE2NziqAQlyZWNvbW1lbmTCASAwMTRlYmE2OWY0YWU0YTg0ZGMxMDBiODc2ZWQ0ODQ4ZfIBCggMEgZOb3JtYWzyASgIChIkYTNmZjZiNTUtZjJiOC00ZjI0LWIxNjctNDRjNmVlMmU0MTIy8gEFCAsSATWCAgCIAomL8um8M5ICIDAxNGViYTY5ZjRhZTRhODRkYzEwMGI4NzZlZDQ4NDhlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgL6AgtOT1JNQUxfRkxPV4oDIDk2NTM1NTU3ZjM0NzRmMTFhOTRjZjRkODYzNzAyNWJmmgMNCgJ2MhAAGgVvdGhlcqgDDtgDAOoDGmFpX3poaV9maW5ldHVucl9pMmlfcmVjYWxs+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgYoAsiI3YyLTA2Mjk1ODE3YmM1ZThkMmZiNDZlNDVmMjE4OGU0ZTU2gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACADGaIP4EFAAAAAAAAAACJBYsAbaMSkrA/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQWQBgCgBh6oBgGSAi4KCTc2NTc4NTc1MBITMTk5NTgyOTA2NjEwMDY1NDQ2ORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "29_1768674854.82",
+      "type": "feed",
+      "offset": 29,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674854,
+      "updated_time": 1768674854,
+      "target": {
+        "excerpt_new": "分享一个谁都不敢欺负你的方法， 估计从小到大连父母和老师都不敢这么教： 那就是永远不要允许任何人当众指责你。一个会拿鸡毛蒜皮的小事来当众指责你的人， 让你难看的人， 是没有资格获得你的好脸色。 因为即便你真的犯了错， 对方也没有当众审判你的权利。 哪怕他说的再好听， 你也不要相信。 《曾国藩家训》中强调： 扬善于公堂,规过于私室。就算你真的有问题， 他大可以私下告诉你， 让你改善自己的问题，变得更好。 之所以…",
+        "preview_type": "default",
+        "favorite_count": 2752,
+        "url": "https://api.zhihu.com/answers/1986926302125630840",
+        "author": {
+          "user_type": "people",
+          "url_token": "xu-xiao-jian-85-79",
+          "headline": "南京师范大学管理学硕士",
+          "is_following": false,
+          "is_followed": false,
+          "id": "489cdc88616d2a1d82c307cbc30a9f0d",
+          "url": "https://api.zhihu.com/people/489cdc88616d2a1d82c307cbc30a9f0d",
+          "name": "雄关漫大道",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-5b18f336789ea38fec4510ed8127521b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "PMP 项目管理专业人士资格证持证人"
+            }
+          ],
+          "followers_count": 1110
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-06890afe9f38e7a981e7c73b397ac050_720w.jpg?source=b6762063",
+        "excerpt": "分享一个谁都不敢欺负你的方法， 估计从小到大连父母和老师都不敢这么教： 那就是永远不要允许任何人当众指责你。一个会拿鸡毛蒜皮的小事来当众指责你的人， 让你难看的人， 是没有资格获得你的好脸色。 因为即便你真的犯了错， 对方也没有当众审判你的权利。 哪怕他说的再好听， 你也不要相信。 《曾国藩家训》中强调： 扬善于公堂,规过于私室。就算你真的有问题， 他大可以私下告诉你， 让你改善自己的问题，变得更好。 之所以…",
+        "reshipment_settings": "allowed",
+        "allow_segment_interaction": true,
+        "created_time": 1766500145,
+        "updated_time": 1766500145,
+        "comment_count": 105,
+        "question": {
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/271129978",
+          "answer_count": 0,
+          "author": {
+            "url": "https://api.zhihu.com/people/938ec1f52adb4f71e3ae0ef12c040b25",
+            "user_type": "people",
+            "name": "雷雷隆咚咚",
+            "avatar_url": "https://picx.zhimg.com/50/v2-10e73475a634c2304b55ff4aab6e4ec6_l.jpg?source=b6762063",
+            "followers_count": 5,
+            "is_following": false,
+            "is_followed": false,
+            "id": "938ec1f52adb4f71e3ae0ef12c040b25",
+            "headline": "城南的花儿",
+            "is_org": false,
+            "gender": 1,
+            "url_token": "la-la-la-35-26-61"
+          },
+          "title": "怎么让别人不敢欺负你？",
+          "created": 1522889275,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "id": "271129978",
+          "follower_count": 0,
+          "comment_count": 4,
+          "bound_topic_ids": [
+            29455,
+            141358,
+            170530
+          ]
+        },
+        "navigator_vote": false,
+        "voteup_count": 1647,
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "id": "1986926302125630840",
+        "type": "answer",
+        "thanks_count": 87,
+        "content": "<p data-pid=\"7MCnePy1\">分享一个谁都不敢欺负你的方法，</p><p data-pid=\"4FLtEFyC\">估计从小到大连父母和老师都不敢这么教：</p><p data-pid=\"PZVyleC1\"><u>那就是永远不要允许任何人当众指责你。</u></p><p data-pid=\"VLwbEdZs\">一个会拿鸡毛蒜皮的小事来当众指责你的人，</p><p data-pid=\"-oUkac-U\">让你难看的人，</p><p data-pid=\"grU_PCcU\">是没有资格获得你的好脸色。</p><p data-pid=\"mT66AwPm\">因为即便你真的犯了错，</p><p data-pid=\"91URvOcZ\">对方也没有当众审判你的权利。</p><p data-pid=\"HWdCx6Ic\">哪怕他说的再好听，</p><p data-pid=\"21s2h6ra\">你也不要相信。</p><p data-pid=\"A8f--X0y\">《曾国藩家训》中强调：<u>扬善于公堂,规过于私室。</u></p><p data-pid=\"-fqvto_2\">就算你真的有问题，</p><p data-pid=\"fsrqQQw9\">他大可以私下告诉你，</p><p data-pid=\"Ca3-cqU7\">让你改善自己的问题，变得更好。</p><p data-pid=\"cBDE3p17\">之所以要在大庭广众这样，</p><p data-pid=\"TpOBuntb\">无非就是为了给他自己立威。</p><p data-pid=\"rdcMk1Iz\">这个时候你的对错和问题已经不重要了，</p><p data-pid=\"z8YgBPdR\">重要的是对方就想要拿你开刀，</p><p data-pid=\"Urnrq-Bx\">向别人证明他高人一等。</p><p data-pid=\"fl0oiPno\">通过大庭广众之下针对性地审判你，</p><p data-pid=\"mHHanNW7\">进而获得优越感。</p><p data-pid=\"4RNtX4Fb\">所以，如果下一次你遇见这种人，</p><p data-pid=\"b3M83JaM\"><u><b>你就要死死地盯着对方的眼睛，</b></u></p><p data-pid=\"ND8fZCfn\">然后站起来反问他：</p><p data-pid=\"OSZ8q6o4\"><u><b>“你为什么要在这里说？你有什么目的？”</b></u></p><p data-pid=\"qRE3CDyw\">但唯独不要跟着他一起来审判自己，内耗自己。</p><p data-pid=\"LsEtHt0t\">心理学家胡慎之曾经说过：</p><p data-pid=\"cljDO1Xr\"><u>“别人怎么对待你，都是你允许的。”</u></p><p data-pid=\"HliV_sSB\">毛爷爷也告诉我们：</p><p data-pid=\"7oG5qrZM\"><u>“以斗争求和平则和平存，以妥协求和平则和平亡。”</u></p><p data-pid=\"GRGlyfNX\">记住，你有权利反抗任何形式的伤害和羞辱。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-653b4c0d0e3e9898cf9e96ebe4d97005_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1378\" data-rawheight=\"2275\" data-original-token=\"v2-06890afe9f38e7a981e7c73b397ac050\" class=\"origin_image zh-lightbox-thumb\" width=\"1378\" data-original=\"https://pic4.zhimg.com/v2-653b4c0d0e3e9898cf9e96ebe4d97005_r.jpg\"/></figure><p></p>",
+        "vote_next_step": "vote",
+        "is_copyable": true,
+        "visited_count": 75726,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-06890afe9f38e7a981e7c73b397ac050_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "is_labeled": false,
+        "segment_infos": [
+          {
+            "pid": "PZVyleC1",
+            "text": "那就是永远不要允许任何人当众指责你。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995675765350626844"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "A8f--X0y",
+            "text": "《曾国藩家训》中强调：扬善于公堂,规过于私室。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 23,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987471457022911982"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "OSZ8q6o4",
+            "text": "“你为什么要在这里说？你有什么目的？”",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995964224715912308"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7oG5qrZM",
+            "text": "“以斗争求和平则和平存，以妥协求和平则和平亡。”",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994776639343710939"
+                  ],
+                  "is_like": false,
+                  "like_count": 9,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1986926302125630840}",
+      "attached_info": "CrsGCLn/n9CKk/z0lQEQBBoJNzYyMzY5NzkzILHOqsoGKO8MMGlAHUo/CipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU0SATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWggyMjUyNjE5MWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5ODY5MjYzMDIxMjU2MzA4NDCKAQkyNzExMjk5NziqAQlyZWNvbW1lbmTCASA0ODljZGM4ODYxNmQyYTFkODJjMzA3Y2JjMzBhOWYwZPIBCggMEgZOb3JtYWzyASgIChIkZmJmMThjNjItNmZkOC00Yjg3LWFlYWUtMGVkYzg3ZDE1OWQz8gEFCAsSATWCAgCIAomL8um8M5ICIDQ4OWNkYzg4NjE2ZDJhMWQ4MmMzMDdjYmMzMGE5ZjBkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTegCAvoCC05PUk1BTF9GTE9XigMgOTY1MzU1NTdmMzQ3NGYxMWE5NGNmNGQ4NjM3MDI1YmaaAw0KAnYyEAAaBW90aGVyqAPOzwTYAwDqAxBuZXdiaWVfZmVlZHJlX3Yy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ4goY4xEiI3YyLTA2ODkwYWZlOWYzOGU3YTk4MWU3YzczYjM5N2FjMDUwgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgfdSqP4EFAAAAAAAAAACJBYsAbaMSkrA/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQWQBgCgBh+oBgCSAi4KCTc2MjM2OTc5MxITMTk4NjkyNjMwMjEyNTYzMDg0MBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=29&desktop=true&end_offset=31&page_number=6&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=29&desktop=true&end_offset=31&page_number=6&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,546 @@
+{
+  "data": [
+    {
+      "id": "390_1755822661.441",
+      "type": "feed",
+      "offset": 390,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822661,
+      "updated_time": 1755822661,
+      "target": {
+        "id": "1931456635697620919",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1931456635697620919",
+        "author": {
+          "id": "7c8d493547950859943c9b4555dec4ea",
+          "url": "https://api.zhihu.com/people/7c8d493547950859943c9b4555dec4ea",
+          "user_type": "people",
+          "url_token": "li-xiang-cheng-97",
+          "name": "八斗badoucms",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-9e1ab37902acd9c27aa9d80bbeb2165d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 17,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1753275146,
+        "updated_time": 1753275146,
+        "voteup_count": 5,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "22579800",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/22579800",
+          "author": {
+            "id": "5dc3fb01341b94675c6e4c0ee3fd0feb",
+            "url": "https://api.zhihu.com/people/5dc3fb01341b94675c6e4c0ee3fd0feb",
+            "user_type": "people",
+            "url_token": "onesens",
+            "name": "正经老歪",
+            "headline": "文字、声音、视觉创作人。微博：正经老歪",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-71ef8b274ad58f8069d1f59e6aad4e6d_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 213,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "想听听专业人士对dedeCMS，帝国CMS等国产CMS的评价？",
+          "created": 1390383902,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 4,
+          "bound_topic_ids": [
+            7070,
+            60611,
+            26358
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-927eebb2ece9d421efa350457c59801c_720w.jpg?source=b6762063",
+        "excerpt": "开发企业网站时一直比较喜欢用pbootcms，标签套用简单，操作起来也十分方便。 不过，pbootcms 存在一个很麻烦的问题 ，总是被挂马，官方好像也不怎么更新了！ 后来也尝试换过好几个比较知名的cms，比如eyoucms、dedecms、帝国等等，但使用起来都感觉不太顺手，始终觉得还是 pbootcms 更方便些！ 既然没有我喜欢的，那么就只能自己造一个，因为我比较熟悉thinkphp框架，而且功能和安全性啥都都相对好一些。于是后端我就用了tp8，…",
+        "excerpt_new": "开发企业网站时一直比较喜欢用pbootcms，标签套用简单，操作起来也十分方便。 不过，pbootcms 存在一个很麻烦的问题 ，总是被挂马，官方好像也不怎么更新了！ 后来也尝试换过好几个比较知名的cms，比如eyoucms、dedecms、帝国等等，但使用起来都感觉不太顺手，始终觉得还是 pbootcms 更方便些！ 既然没有我喜欢的，那么就只能自己造一个，因为我比较熟悉thinkphp框架，而且功能和安全性啥都都相对好一些。于是后端我就用了tp8，…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"o0vIhN8m\">开发企业网站时一直比较喜欢用pbootcms，标签套用简单，操作起来也十分方便。​</p><p data-pid=\"afwvzvXL\">不过，pbootcms 存在一个很麻烦的问题 ，总是被挂马，官方好像也不怎么更新了！​</p><p data-pid=\"5KaN_9CX\">后来也尝试换过好几个比较知名的cms，比如eyoucms、dedecms、帝国等等，但使用起来都感觉不太顺手，始终觉得还是 pbootcms 更方便些！</p><p data-pid=\"ZqD8ixzP\">既然没有我喜欢的，那么就只能自己造一个，因为我比较熟悉thinkphp框架，而且功能和安全性啥都都相对好一些。于是后端我就用了tp8，前端一开始我用的是比较火的vue，但是后来有朋友反馈企业网站用vue太麻烦了，动不动就要编译，还要执行命令行，企业建站本来讲究的就是快，现在搞个vue要浪费很多时间!!!</p><p data-pid=\"Qn3upw4R\">没办法，只好把已经做好的后台改成了layui，不过用习惯了layui之后感觉也还不错!!!</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d9ed669f8bca0c9f5a263fdc4fd63cd2_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1002\" data-original-token=\"v2-4c82722b75faa63ae212c4ccbe4baf05\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic1.zhimg.com/v2-d9ed669f8bca0c9f5a263fdc4fd63cd2_r.jpg\"/><figcaption>badoucms</figcaption></figure><p data-pid=\"H3L1NFsp\">系统做好之后，我将系统取名badoucms，同时也将源码公开到了码云。这个是链接，欢迎大家体验！！！</p><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/lande_admin/badoucms\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/lande_admin/b</span><span class=\"invisible\">adoucms</span><span class=\"ellipsis\"></span></a><p data-pid=\"51dPEm5r\">系统是写完了，但是我用pbootcms做了很多网站，我要换成badoucms程序,总不能一个一个的手动替换之前的网站吧？</p><p data-pid=\"VWwPkMJc\">于是我又写了一个 pbootcms转换成badoucms的功能</p><p data-pid=\"HXx_ouo6\"><b>转换分为2个功能 </b></p><p data-pid=\"-JB4zekw\">1、数据库与上传文件的迁移</p><p data-pid=\"8h0sLdOw\">2、模版迁移替换</p><p data-pid=\"BT6PvTCg\">有这2个功能之后，一个pbootcms的网站可以在30分钟之内转换成badoucms，非常Nice </p><p data-pid=\"3_NohK4F\">最后，欢迎与我有同样需求的朋友使用badoucms，希望这个系统能为大家带来方便!!!</p><a href=\"https://link.zhihu.com/?target=http%3A//www.badoucms.com\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">BadouCMS|企业建站系统_稳定_安全_易用</a><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 314,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-927eebb2ece9d421efa350457c59801c_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 5,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1931456635697620919}",
+      "attached_info": "Cs0FCMXUh4bHieCavQEQBBoJNzM4NTAzOTA5IIq2g8QGKAUwAECGA0ovCgZJdGVtQ0YSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDczNjQ2NjM3OQoYACAAOgBaBzEyMTI1NjdiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTMxNDU2NjM1Njk3NjIwOTE5igEIMjI1Nzk4MDCqAQlyZWNvbW1lbmTCASA3YzhkNDkzNTQ3OTUwODU5OTQzYzliNDU1NWRlYzRlYfIBCggMEgZOb3JtYWzyASgIChIkOTU3MDg1Y2ItMWEwNi00OTY2LWJkYWQtNDQxZTc1ZmE4NWM18gEGCAsSAjY2ggIAiAK0wb75jDOSAiA3YzhkNDkzNTQ3OTUwODU5OTQzYzliNDU1NWRlYzRlYZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAgZJdGVtQ0boAgL6AgtOT1JNQUxfRkxPV4oDIGI0NmY1YjFiZWU3NjRkYmU4NjllOWQ2Y2U5MmJmZDYzmgMNCgJ2MhAAGgVvdGhlcqgDugLYAwDqAx90ZXh0QWxsU2l0ZU12SGlnaEFjdGlvbkl0ZW1DRlYx+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQgA8Y6gciI3YyLTRjODI3MjJiNzVmYWE2M2FlMjEyYzRjY2JlNGJhZjA1gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAwG+jP4EFAAAAAAAAAACJBVWN2+YBVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBUKQBgCgBooDqAYBkgIuCgk3Mzg1MDM5MDkSEzE5MzE0NTY2MzU2OTc2MjA5MTkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "391_1755822661.304",
+      "type": "feed",
+      "offset": 391,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822661,
+      "updated_time": 1755822661,
+      "target": {
+        "id": "706065398",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/706065398",
+        "author": {
+          "id": "c4f733221248f43b8946b5182bb048db",
+          "url": "https://api.zhihu.com/people/c4f733221248f43b8946b5182bb048db",
+          "user_type": "people",
+          "url_token": "yuhuang2019",
+          "name": "黄浴",
+          "headline": "清华大学出版社《自动驾驶系统开发》作者 - 24年5月",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-44e3f71ac30f17160ac5b26b2f684b44_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "自动驾驶话题下的优秀答主",
+              "topic_names": [
+                "自动驾驶"
+              ],
+              "topic_ids": [
+                28480
+              ]
+            }
+          ],
+          "followers_count": 68104,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "MEMORYLLM：可自我更新的大语言模型",
+        "image_url": "https://pica.zhimg.com/v2-4fcd8fdd4d8b8ed4b2d573295942c82b.jpg?source=7e7ef6e2&needBackground=1",
+        "comment_permission": "all",
+        "created": 1720216762,
+        "updated": 1720216762,
+        "voteup_count": 56,
+        "voting": 0,
+        "comment_count": 2,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "24年5月来自Amazon、UC SD、UC LA的论文“MEMORYLLM: Towards Self-Updatable Large Language Models”。 现有的大语言模型 (LLM) 在部署后通常保持静态，这可能使向模型注入新知识变得困难。工作目标是构建包含相当一部分可自更新参数的模型，使模型能够有效且高效地整合新知识。为此，引入 MEMORYLLM，该模型由一个transformer和transformer潜空间内固定大小的记忆池组成。MEMORYLLM 可以使用文本知识进行自我更新并记忆先前注…",
+        "excerpt_new": "24年5月来自Amazon、UC SD、UC LA的论文“MEMORYLLM: Towards Self-Updatable Large Language Models”。 现有的大语言模型 (LLM) 在部署后通常保持静态，这可能使向模型注入新知识变得困难。工作目标是构建包含相当一部分可自更新参数的模型，使模型能够有效且高效地整合新知识。为此，引入 MEMORYLLM，该模型由一个transformer和transformer潜空间内固定大小的记忆池组成。MEMORYLLM 可以使用文本知识进行自我更新并记忆先前注…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"rkT7Kz8p\">24年5月来自Amazon、UC SD、UC LA的论文“MEMORYLLM: Towards Self-Updatable Large Language Models”。</p><p data-pid=\"_602lGe2\">现有的大语言模型 (LLM) 在部署后通常保持静态，这可能使向模型注入新知识变得困难。工作目标是构建包含相当一部分可自更新参数的模型，使模型能够有效且高效地整合新知识。为此，引入 MEMORYLLM，该模型由一个transformer和transformer潜空间内固定大小的记忆池组成。MEMORYLLM 可以使用文本知识进行自我更新并记忆先前注入的知识。评估看到 MEMORYLLM 能够有效地整合新知识，这一点从其在模型编辑基准上的表现可以看出。同时，该模型表现出长期信息保留能力，这通过定制设计的评估和长上下文基准得到了验证。MEMORYLLM 还表现出操作完整性，即使在近一百万次记忆更新后也没有任何性能下降的迹象。</p><p data-pid=\"GvGqPqtz\">代码和模型已开源在 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/wangyu-ustc/MemoryLLM\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GitHub - wangyu-ustc/MemoryLLM: The official implementation of the ICML 2024 paper &#34;MemoryLLM: Towards Self-Updatable Large Language Models&#34;</a> </p><hr/><p data-pid=\"mkwWziSn\">如何使用最新知识更新模型？以前的解决方案大致可分为三类：（1）基于检索的方法：这些方法依赖于知识库中的信息检索（Khandelwal ，2019 ；Zhong ，2023 ）。它们可以产生强大的结果，但在知识库出现冗余时面临挑战，并面临管理不断扩大的知识库的后勤问题。在多模态场景中，基于检索的方法可能需要巨大的存储空间来存储所有图像数据（人类每秒 24 张图像）以供检索。（2）模型编辑：这类方法涉及对模型进行有针对性的编辑以适应新事实，同时保留其他所需功能（Yao ，2023 ）。现有方法主要侧重于基于事实的编辑，通常仅限于单个句子。当人们试图以更长、更复杂的上下文形式注入新知识时，这种限制变得更加严重。（3）长上下文方法：另一种替代解决方案是将所有知识纳入模型的上下文中，这本质上使上下文成为知识库。这与基于检索的方法不同，因为上下文直接为模型的推理提供信息。此类别的方法包括降低注意操作的复杂性（Child ，2019 ；Beltagy ，2020 ；Wang ，2020 ）和修改位置嵌入（Press ，2021 ；Sun ，2023 ）以处理更长的上下文。然而，由于复杂的推理任务需要大量最新的知识，只要上下文长度是有限的，长上下文方法不可避免的上下文过载就变得不可行。</p><p data-pid=\"_E9SUCiQ\">如图 MEMORYLLM 的框架。 (a) 在生成过程中，记忆池的第 l 层 θl 中所有记忆 tokens 都由隐态 hl 关注。 (b) 在自我更新期间，来自 记忆池 θl 的最后 k 个记忆 tokens 与隐态 hl 连接作为模型 φl 的输入。输出隐态 hl+1 进入下一层。hl+1 的最后 K 个 tokens 用作新的记忆 tokens elθ‘ 。随机删除 记忆池 θl 中的 K 个 tokens，并将剩下的 记忆池 θl（表示为 θ (d)）与 新的记忆 tokens elθ‘ 相连接，获得新的记忆池 θl‘。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b5ae7ac82c3210d57329e2aa7b96e422_1440w.jpg\" data-rawwidth=\"420\" data-rawheight=\"462\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-4fcd8fdd4d8b8ed4b2d573295942c82b\" class=\"content_image\" width=\"420\"/></figure><p data-pid=\"jFnxahjz\">新知识 x 灌入更新记忆池如下公式描述：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-64d81cdc879abcb6371e16938f7975b7_1440w.jpg\" data-rawwidth=\"442\" data-rawheight=\"48\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-64d81cdc879abcb6371e16938f7975b7\" class=\"origin_image zh-lightbox-thumb\" width=\"442\" data-original=\"https://pic4.zhimg.com/v2-64d81cdc879abcb6371e16938f7975b7_r.jpg\"/></figure><p data-pid=\"-QGUE0TI\">多步更新的描述公式如下：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-29cfca719c3a2b80215d0e8e8389cd78_1440w.jpg\" data-rawwidth=\"442\" data-rawheight=\"48\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-29cfca719c3a2b80215d0e8e8389cd78\" class=\"origin_image zh-lightbox-thumb\" width=\"442\" data-original=\"https://pica.zhimg.com/v2-29cfca719c3a2b80215d0e8e8389cd78_r.jpg\"/></figure><p data-pid=\"KqwOHn7I\">训练过程首先从数据集中选择一个文档 d，然后将其分成两段（x1，x2）。然后用 x1 更新记忆池 θ，接着用更新后的记忆池预测 x2。理想情况下，会在启用梯度的情况下设计整个过程。然而，这种方法会导致过高的内存需求，尤其是当内存池很大时。为了缓解这个问题，在第 l 层，保持梯度流的情况下仅使用 elθ ′ 来预测 x2 而不是整个更新后的记忆 θl，并在不用梯度的情况下在 x1 自更新过程时使用 θl′。在每次迭代中，上述两个过程都是随机选择的，以确保模型能够将 x1 中知识吸收到 θ 中，并在生成过程中使用记忆池 θ。</p><p data-pid=\"7JIbrcdX\">如图是用于整合新知识的训练过程。在训练期间，随机选择两个所示过程中的一个，每个过程以 50% 概率进行。该描述适用于第一层，后续层共享类似的过程。从数据集中采样（x1，x2）后，首先使用 x1 进行自我更新，如左侧所示。随后，用修改后的记忆 tokens eθ1‘ 预测 x2。在这两个过程中，上面的过程在整个过程中保持梯度流，优化从 x1 到 elθ‘（l ∈ {1，···，L}）的知识压缩。相反，下面的过程执行没有梯度的自我更新。这两个过程旨在鼓励使用记忆池中的知识进行预测。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1d04b6ca6b9672295d2b510887700f96_1440w.jpg\" data-rawwidth=\"551\" data-rawheight=\"382\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-306ea59502a55a0bc55068314c9ac7a8\" class=\"origin_image zh-lightbox-thumb\" width=\"551\" data-original=\"https://pic1.zhimg.com/v2-1d04b6ca6b9672295d2b510887700f96_r.jpg\"/></figure><p data-pid=\"aIBCgCSy\">鼓励模型理解最新注入的知识，其中模型只需要每一层 θl′ 的最后 K 个tokens，因为只有 elθ ′（θ′ 的最后 K 个tokens）包含最后注入的上下文知识。因此，模型可能会因为基于多个注入的上下文预测下一个token而受到影响，这本质上是长上下文问题。提出一个训练程序来解决这个问题。对一个长文档进行采样并将其分割成 n 个部分 (x1, · · · , xn)，每个部分都短于预定义的最大长度。然后使用公式 (2) 将前 n − 1 个段按顺序注入记忆池 θ，得到 θn−1。请注意，(x1, · · · , xn−1) 的整个注入过程都是在禁用梯度的情况下执行的。在得到 θn−1之后，计算 xn 段的交叉熵损失。通过这样的训练过程，增强模型理解和处理连续上下文的能力。</p><p data-pid=\"e2CNC0q5\">如图是连续上下文理解的训练过程。虽然在本次训练迭代中应该有 n-1 次自我更新，但在这里只画出 x1、x2 的两个自我更新步。在这里展示了第 l 层的过程。在图的底部，hn1 表示 xn 词嵌入，hnL 用于损失值估计。本质上，将来自 x1, · · · , xn−1 的知识压缩到 θln−1 中以预测 xn。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fb75488fd50e4ecae1f58b24e24665b8_1440w.jpg\" data-rawwidth=\"541\" data-rawheight=\"539\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-31b273407fa0c144902f523d694c77fb\" class=\"origin_image zh-lightbox-thumb\" width=\"541\" data-original=\"https://pic1.zhimg.com/v2-fb75488fd50e4ecae1f58b24e24665b8_r.jpg\"/></figure><p data-pid=\"tICLrG0U\">为解决遗忘问题，设计一个跨多个文档的上下文任务。具体来说，抽样一个主文档d和多个辅助文档d′（以一个辅助文档为例），并将它们拆分为段（x1，···，xn）和（x′1，···，x′n）。然后按顺序将主文档（x1，···，xn-1）和辅助文档（x′1，···，x′n）的前 n-1段注入模型。为了强制模型回忆起很久以前注入的相关上下文，让模型预测主文档 xn 的最后一段。类似地，在所有注入过程中禁用梯度。鼓励模型使用很久以前的知识进行预测，从而有效地缓解遗忘问题。为了保持模型的完整性，即避免模型在更新 θ 太多次后开始出现故障问题，在反向传播后使用上下文更新 θ。具体来说，在每次训练迭代结束时使用 x1 和 {x1, · · · , xn−1} 更新 θ。直观地说，将 elθ ′ 的分布正则化，使其与 θl 的分布相同，以在任意多次更新后保持 θ 的完整性。</p><p data-pid=\"ZLvAx-c9\">如图是遗忘问题减缓的训练策略算法伪代码：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-fbb77eac108283148a6e51750efb0318_1440w.jpg\" data-rawwidth=\"571\" data-rawheight=\"616\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-fcbf8ea8a68d69231d2de7353ecd6700\" class=\"origin_image zh-lightbox-thumb\" width=\"571\" data-original=\"https://pic3.zhimg.com/v2-fbb77eac108283148a6e51750efb0318_r.jpg\"/></figure><p></p>",
+        "is_labeled": false,
+        "visited_count": 3817,
+        "thumbnails": [
+          "https://pica.zhimg.com/v2-4fcd8fdd4d8b8ed4b2d573295942c82b.jpg?source=7e7ef6e2&needBackground=1"
+        ],
+        "favorite_count": 216,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 706065398}",
+      "attached_info": "CuYICMXUh4bHieCavQEQBxoJMjQ1MDM0NDU0ILrZobQGKDgwAkCHA0o8Ch9UU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9XT1JEEhMxNDQxMTUxODgwNzYwODY4NzIxGAAgADoAYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IJNzA2MDY1Mzk4ggFfaHR0cHM6Ly9waWNhLnpoaW1nLmNvbS92Mi00ZmNkOGZkZDRkOGI4ZWQ0YjJkNTczMjk1OTQyYzgyYi5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASBjNGY3MzMyMjEyNDhmNDNiODk0NmI1MTgyYmIwNDhkYvIBCggMEgZOb3JtYWzyASgIChIkNTlkZWYwYjUtY2QxYS00ZGQ2LWE1YTMtZWNiYTg0MTQyZDdk8gEGCAsSAjY2ggIAiAK1wb75jDOSAiBjNGY3MzMyMjEyNDhmNDNiODk0NmI1MTgyYmIwNDhkYpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIWRmVlZENvbnRyb2xCcmVha0luUnVsZdoCH1RTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX1dPUkToAgT6AgtOT1JNQUxfRkxPV4oDIGI0NmY1YjFiZWU3NjRkYmU4NjllOWQ2Y2U5MmJmZDYzmgMNCgJ2MhAAGgVvdGhlcqgD6R3YAwDqAxNDb250cm9sSW50ZXJlc3RXb3Jk+gO3AhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEKQDGM4DIiN2Mi00ZmNkOGZkZDRkOGI4ZWQ0YjJkNTczMjk1OTQyYzgyYjosCAMQugMYMCIjdjItNjRkODFjZGM4NzlhYmNiNjM3MWUxNjkzOGY3OTc1Yjc6LAgCELoDGDAiI3YyLTI5Y2ZjYTcxOWMzYTJiODAyMTVkMGU4ZTgzODljZDc4Oi0IAhCnBBj+AiIjdjItMzA2ZWE1OTUwMmE1NWEwYmM1NTA2ODMxNGM5YWM3YTg6LQgCEJ0EGJsEIiN2Mi0zMWIyNzM0MDdmYTBjMTQ0OTAyZjUyM2Q2OTRjNzdmYjotCAIQuwQY6AQiI3YyLWZjYmY4ZWE4YTY4ZDY5MjMxZDJkZTczNTNlY2Q2NzAwgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEgriKAvkEAAAAgEXrcT+BBQAAAAAAAAAAiQVVjdvmAVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUP4AUA6AUA8AVCkAYAoAaLA6gGA5ICJAoJMjQ1MDM0NDU0Egk3MDYwNjUzOTgYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "392_1755822661.174",
+      "type": "feed",
+      "offset": 392,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822661,
+      "updated_time": 1755822661,
+      "target": {
+        "id": "1941974773203734930",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941974773203734930",
+        "author": {
+          "id": "a3313251bfce60a23182bba02b21ba44",
+          "url": "https://api.zhihu.com/people/a3313251bfce60a23182bba02b21ba44",
+          "user_type": "people",
+          "url_token": "zhu-he-fen-qin-42",
+          "name": "煮鹤焚琴",
+          "headline": "手工艺人，竹工艺",
+          "avatar_url": "https://pica.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 10,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755782866,
+        "updated_time": 1755782866,
+        "voteup_count": 138,
+        "thanks_count": 1,
+        "comment_count": 27,
+        "is_copyable": true,
+        "question": {
+          "id": "1941132182069450706",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1941132182069450706",
+          "author": {
+            "id": "74041c146fcc89fcf96683e755aece3e",
+            "url": "https://api.zhihu.com/people/74041c146fcc89fcf96683e755aece3e",
+            "user_type": "organization",
+            "url_token": "zhong-guo-jing-ji-zhou-kan",
+            "name": "中国经济周刊",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-395839427419673ce08ce7dd9afc63f4_l.jpg?source=b6762063",
+            "is_org": true,
+            "gender": -1,
+            "badge": [
+              {
+                "type": "identity_org",
+                "description": "已认证机构号"
+              }
+            ],
+            "followers_count": 300017,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "河南「中式迪士尼」暑假客流激增，每日入园人次超五六万，成为少数盈利的主题景区，它日进斗金的秘诀是什么？",
+          "created": 1755581976,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            92986,
+            105508,
+            3251804,
+            3273159,
+            4020667
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "河南十日游刚回来，带老婆孩子自驾。这是第二次河南游，第一次19年，也是十天，一个人带孩子玩了不过瘾，这回夫妻两带两娃，还是没玩够。说重点，河南旅游绝对超预期，河南人真的很好，河南文旅对游客真友好。 我们这次的旅行路线有点偏，分别是信阳，南阳，洛阳，开封，安阳。基本每个城市都挺友好，重点夸夸开封。 第一，万岁山武侠城，良心景区，表演非常多，据说每天3000场，大人孩子都能玩的很开心，这别人介绍的非常详细，…",
+        "excerpt_new": "河南十日游刚回来，带老婆孩子自驾。这是第二次河南游，第一次19年，也是十天，一个人带孩子玩了不过瘾，这回夫妻两带两娃，还是没玩够。说重点，河南旅游绝对超预期，河南人真的很好，河南文旅对游客真友好。 我们这次的旅行路线有点偏，分别是信阳，南阳，洛阳，开封，安阳。基本每个城市都挺友好，重点夸夸开封。 第一，万岁山武侠城，良心景区，表演非常多，据说每天3000场，大人孩子都能玩的很开心，这别人介绍的非常详细，…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"CZsetsYY\">河南十日游刚回来，带老婆孩子自驾。这是第二次河南游，第一次19年，也是十天，一个人带孩子玩了不过瘾，这回夫妻两带两娃，还是没玩够。说重点，河南旅游绝对超预期，河南人真的很好，河南文旅对游客真友好。</p><p data-pid=\"d8FVKU9z\">我们这次的旅行路线有点偏，分别是信阳，南阳，洛阳，开封，安阳。基本每个城市都挺友好，重点夸夸开封。</p><p data-pid=\"J77JfwkJ\">第一，万岁山武侠城，良心景区，表演非常多，据说每天3000场，大人孩子都能玩的很开心，这别人介绍的非常详细，我就不多说了。还有景区物价感人，我们去吃面，最贵的22元牛肉面，其他大部分一份十元上下，关键他甚至一份面的份量约500克，单独面条重约200克，这种景区店铺哪找去？就这些还不是最独特的，这个景区最厉害的是让你找到了自我，发现了自身价值。在这里，你只要有一点点小的才艺，就能让你发光到耀眼。看到有个npc带游客跳舞，小伙子跳的不错，然后npc就发银票给他，结果游客起哄，也拿银票打赏。还有一对npc是百科知识问答的，也可以拿银票。还有赌博，抢劫，或者路遇某富家结婚，都能拿到银票。像我这种唱歌跳舞都不会的，想想估计要拿银票只能去拼体力了，没想到有个回答历史问题的，这个倒还知道一些，结果一下拿了十来张，还有小朋友背诗，你只要会个鹅鹅鹅也能拿到银票。总之在万岁山总能找到你的舞台。这种旅游体验是很难在其他地方获得的。</p><p data-pid=\"4VlfZLA5\">因为时间紧，只玩了万岁山，但还有清明上河园和开封府城，据说也是类似模式，这种良性竞争共赢在开封得到了实现。</p><p data-pid=\"wiJ_szVv\">第二，说说这里的物价，最直观的就是停车费，开封我没付过停车费，大部分都是免费停，洛阳是统一三块钱，安阳是五块钱，白天停一天的价格。食物价格对我们包邮区来讲太白菜价了，是那种真物美价廉的那种。去一家开封老字号的饭店，门口挂了一大排某等级厨师，面点师的牌子，包小笼包的是透明厨房，就这样的饭店，不是小餐馆哦，一份开封小笼包13元。还有映像深刻是在某餐馆点了一份酸梅汤，三元，其中半瓶是各种草药，在浙江景区直接用粉冲调的都要卖十元。在开封，我花十三元买到了两个椰子，六毛五一斤的硒砂瓜，一块钱一斤的香蕉(不是那种有黑点，是很新鲜的)。这种价格不敢想象。</p><p data-pid=\"fJJXJcYI\">第三，对外地人非常友好，我们住的边上有个批发市场，爱人看到有很多现磨的芝麻糊和花生酱，还有芝麻油，有本地人也在买，价格都是一样的，我们买了一堆，最后算价格，一斤的芝麻酱十元一罐，花生酱是之前磨好的也以为十元一罐，老板娘说这个价格不一样，本以为她要喊个高价，因为刚才本地人没买，没想到她说“这个是八块的”，我真的想抽自己一巴掌，我人品太低劣了，居然把天使认作魔鬼。</p><p data-pid=\"J9PRBFHd\">临走前想买一些开封的花生糕，但找了圈没找到，看到酒店有好评赠送，就想问一下哪里有卖，没想到服务员说我送你一包好了，也没让好评截图什么的。我们说是想带些回去，然后她说的地址有点绕，最后她就直接给了五包，给钱死活不肯要，而且这是我们已经退房，绕了圈再回来的。</p><p data-pid=\"voWfXJEO\">在开封的经历，让我看到一个正向的引导真的能改变一个地区的面貌，传说某些地方路不拾遗，夜不闭户，我相信真的曾经出现过。这次遗憾没到许昌，没有看到胖东来是怎么让一座城市的整体素质提升一个层次的，但有幸在开封看到了。虽然短短三天，并不能代表全部，但我还是很感激这个城市，有机会，我都会推荐别人来玩，她让我感受到了很多的久违的善良。</p><p data-pid=\"GQtc8K-a\">在河南期间，我们尽量不走高速，看到了成片的玉米，芝麻，还有花生，但很少工厂，乡村，集镇也很少能看到年轻人，心中难免有点悲凉，也希望在经济新常态的今天，中原大地能找到适合自己的发展路径，让这里善良的百姓过上更好的生活。</p><p data-pid=\"SQT7Mmln\">还有一点，感觉河南的各级zf对摆摊是真的很宽容。各种夜市大排档到处都是，没有城管驱赶，甚至博物馆门口都很多。虽然多少会影响一些城市形象，但给老百姓留口饭，这就是很大的善意了。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 5884,
+        "favorite_count": 37,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941974773203734930}",
+      "attached_info": "CqkGCMXUh4bHieCavQEQBBoJNzQzMzI2MjI2INK9nMUGKIoBMBtAiANKPAopVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9BQ1RJT04SCTU1OTg1NDQ0MhgAIAA6AFoJMTE2MjY2NjQ4YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTk3NDc3MzIwMzczNDkzMIoBEzE5NDExMzIxODIwNjk0NTA3MDaqAQlyZWNvbW1lbmTCASBhMzMxMzI1MWJmY2U2MGEyMzE4MmJiYTAyYjIxYmE0NPIBCggMEgZOb3JtYWzyASgIChIkMmRhZTQ0OGYtNjViNy00NTk3LWIwNmUtZjQ1YjM5NTQyMzk48gEGCAsSAjY2ggIAiAK1wb75jDOSAiBhMzMxMzI1MWJmY2U2MGEyMzE4MmJiYTAyYjIxYmE0NJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAilUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX0FDVElPTugCA/oCC05PUk1BTF9GTE9XigMgYjQ2ZjViMWJlZTc2NGRiZTg2OWU5ZDZjZTkyYmZkNjOaAw0KAnYyEAAaBW90aGVyqAP8LdgDAOoDHWZpcnN0RGVncmVlVXNlckFjdGlvblJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNTfIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKAoO4c/gQUAAAAAAAAAAIkFVY3b5gFV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFQooGSAo9CMOSmAcSIeays+WNl+OAjOS4reW8j+i/quWjq+WwvOOAjeeBq+S6hhi/npDFBiDLhD0oBDCYrbg3OABAABIHCAEVAACAP5AGAKAGjAOoBgCSAi4KCTc0MzMyNjIyNhITMTk0MTk3NDc3MzIwMzczNDkzMBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "393_1755822661.529",
+      "type": "feed",
+      "offset": 393,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822661,
+      "updated_time": 1755822661,
+      "target": {
+        "id": "1941899863139803974",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941899863139803974",
+        "author": {
+          "id": "550f3496ebb6a4ce15a4057e9a997e3f",
+          "url": "https://api.zhihu.com/people/550f3496ebb6a4ce15a4057e9a997e3f",
+          "user_type": "people",
+          "url_token": "wang-pan-50-16",
+          "name": "血色汉子",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/b67c1cd167364091593b5c2fb9a4ab78_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 3751,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755765006,
+        "updated_time": 1755765006,
+        "voteup_count": 137,
+        "thanks_count": 2,
+        "comment_count": 5,
+        "is_copyable": false,
+        "question": {
+          "id": "1940038189071958913",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1940038189071958913",
+          "author": {
+            "id": "dde4cf2d6ca32eaf0085c6aec6e390e7",
+            "url": "https://api.zhihu.com/people/dde4cf2d6ca32eaf0085c6aec6e390e7",
+            "user_type": "people",
+            "url_token": "fcz_fcz",
+            "name": "复仇者avenger",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-f80d77d149ad31b15ba2532be1632f92_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 1279,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么前几年马云通过蚂蚁集团捞钱时网络上都是骂马云的，现在马云放弃蚂蚁集团，网络上没见几个人说好？",
+          "created": 1755321148,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            453,
+            155326
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "其实我挺难理解一件事的。 小孩子玩游戏，都知道要遵守游戏规则。 而网络上，竟然有那么多成年人为一些不遵守游戏规则的行为摇旗呐喊。 不违规不违法，说你有风险，就可以办你蚂蚁。 不违规不违法，说你破坏教育公平，就可以办你教培。 怎么判定风险，怎么判定教育公平，你到是拿出一个判定准则来，拿出明确的法律法规来啊。 只要你有明确规定，多少资金，撬动多少资产，属于明确的违法行为，会造成金融风险，然后按照明确的规定…",
+        "excerpt_new": "其实我挺难理解一件事的。 小孩子玩游戏，都知道要遵守游戏规则。 而网络上，竟然有那么多成年人为一些不遵守游戏规则的行为摇旗呐喊。 不违规不违法，说你有风险，就可以办你蚂蚁。 不违规不违法，说你破坏教育公平，就可以办你教培。 怎么判定风险，怎么判定教育公平，你到是拿出一个判定准则来，拿出明确的法律法规来啊。 只要你有明确规定，多少资金，撬动多少资产，属于明确的违法行为，会造成金融风险，然后按照明确的规定…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"z2JPgRKl\">其实我挺难理解一件事的。</p><p data-pid=\"EkYZ3IoE\">小孩子玩游戏，都知道要遵守游戏规则。</p><p data-pid=\"23xsNaU9\">而网络上，竟然有那么多成年人为一些不遵守游戏规则的行为摇旗呐喊。</p><p data-pid=\"q0xqb_Ku\">不违规不违法，说你有风险，就可以办你蚂蚁。</p><p data-pid=\"bHYQ_56W\">不违规不违法，说你破坏教育公平，就可以办你教培。</p><p data-pid=\"uaF_sWv8\">怎么判定风险，怎么判定教育公平，你到是拿出一个判定准则来，拿出明确的法律法规来啊。</p><p data-pid=\"Q-XMroRs\">只要你有明确规定，多少资金，撬动多少资产，属于明确的违法行为，会造成金融风险，然后按照明确的规定进行处罚，没人有话说。</p><p data-pid=\"Ls5Mpbmr\">一切都靠无形大手掐拿把切。</p><p data-pid=\"MN9Uo78N\">然后你们竟然还能跟在后面骂受害者。</p><p data-pid=\"uyHFYCVK\">这也是人家能够靠A4纸治国的原因。</p><p data-pid=\"GzCHefTi\">优质资产实在是取之不尽。</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 3249,
+        "favorite_count": 7,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941899863139803974}",
+      "attached_info": "CtEFCMXUh4bHieCavQEQBBoJNzQzMjg1MDY3II6ym8UGKIkBMAVAiQNKKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMhIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNjIzMDU3M2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE4OTk4NjMxMzk4MDM5NzSKARMxOTQwMDM4MTg5MDcxOTU4OTEzqgEJcmVjb21tZW5kwgEgNTUwZjM0OTZlYmI2YTRjZTE1YTQwNTdlOWE5OTdlM2byAQoIDBIGTm9ybWFs8gEoCAoSJGRkY2UzY2U4LWE3YWEtNDgxOS1iOTA2LWRmMDNmMmFhOTlmZPIBBggLEgI2NoICAIgCtcG++YwzkgIgNTUwZjM0OTZlYmI2YTRjZTE1YTQwNTdlOWE5OTdlM2aaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WMugCAvoCC05PUk1BTF9GTE9XigMgYjQ2ZjViMWJlZTc2NGRiZTg2OWU5ZDZjZTkyYmZkNjOaAw0KAnYyEAAaBW90aGVyqAOxGdgDAOoDDmZlZWRyZV9tc19nYXRl+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoBzPtD+BBQAAAAAAAAAAiQVVjdvmAVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVCkAYAoAaNA6gGAJICLgoJNzQzMjg1MDY3EhMxOTQxODk5ODYzMTM5ODAzOTc0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "394_1755822661.281",
+      "type": "feed",
+      "offset": 394,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822661,
+      "updated_time": 1755822661,
+      "target": {
+        "id": "1942072308790437418",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1942072308790437418",
+        "author": {
+          "id": "bb037c2970ab45ef95ec321dff11c612",
+          "url": "https://api.zhihu.com/people/bb037c2970ab45ef95ec321dff11c612",
+          "user_type": "people",
+          "url_token": "nnnnn-91-58",
+          "name": "不想起名",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-b1bf3f1573d701df27aef3b8c55590b0_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 9,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755806120,
+        "updated_time": 1755806120,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1925704003016193352",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1925704003016193352",
+          "author": {
+            "id": "852c095cd1cd67873b9303d83a8f27eb",
+            "url": "https://api.zhihu.com/people/852c095cd1cd67873b9303d83a8f27eb",
+            "user_type": "people",
+            "url_token": "5ceqi4",
+            "name": "哒哒",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-186d86c0e8504226a3bf906876d2169d_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "不懂就问，自然界中的云是怎样形成的，为什么有那么多形状？",
+          "created": 1751903612,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            21516,
+            75631,
+            2208955
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "云本质上就是水蒸气往上升，冷却过饱和。在凝结核（也就是空气里的脏东西）的帮助下，成为肉眼可见的小水滴和小冰晶。 对于云很重要的一个就是上升气流，因为热空气密度小，所以它会天然的抬升，在副高控制的地区盛行下沉气流，水蒸气上不去就形成不了云 如果有水蒸气，没有上升气流。就比如说在内陆地区，夏天很常见那种一小朵淡淡的云，就是淡积云，典型的没有水汽 而如果在副高边缘，有水汽有上升气流，那么就会形成那种非常…",
+        "excerpt_new": "云本质上就是水蒸气往上升，冷却过饱和。在凝结核（也就是空气里的脏东西）的帮助下，成为肉眼可见的小水滴和小冰晶。 对于云很重要的一个就是上升气流，因为热空气密度小，所以它会天然的抬升，在副高控制的地区盛行下沉气流，水蒸气上不去就形成不了云 如果有水蒸气，没有上升气流。就比如说在内陆地区，夏天很常见那种一小朵淡淡的云，就是淡积云，典型的没有水汽 而如果在副高边缘，有水汽有上升气流，那么就会形成那种非常…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"cFHOmkPo\">云本质上就是水蒸气往上升，冷却过饱和。在凝结核（也就是空气里的脏东西）的帮助下，成为肉眼可见的小水滴和小冰晶。</p><p data-pid=\"5HLQ6K-T\">对于云很重要的一个就是上升气流，因为热空气密度小，所以它会天然的抬升，在副高控制的地区盛行下沉气流，水蒸气上不去就形成不了云</p><p data-pid=\"9AkHMlWr\">如果有水蒸气，没有上升气流。就比如说在内陆地区，夏天很常见那种一小朵淡淡的云，就是淡积云，典型的没有水汽</p><p data-pid=\"3GrSGtmh\">而如果在副高边缘，有水汽有上升气流，那么就会形成那种非常高大的云，比如积雨云，下面可能有冰雹，暴雨甚至龙卷风</p><p data-pid=\"Ng1DTL0p\">一般情况下，用CAPE衡量大气不稳定能量，这个东西本质上就是一团热空气，它上升时，这个动能有多强，也就是和周围空气的温差有多大，也就是大气层结有多不稳定，当CAPE大于3500时，就要警惕极端强对流发生的可能，此时大气层就相当于一桶满满的汽油，就等待着一个火花（可能是地形，辐合或微弱的冷空气）来点燃它。</p><p data-pid=\"zvghHoiB\">如前文所说，在长期的晴朗高温天气中，由于存在一个逆温层，就像一个高压锅盖一样，扣着整个大气环境，一直压着能量，不让它释放，但一旦有那么一个微小的火花，一个微小的扰动，让热空气冲破了这个锅盖他们就会瞬间爆发，形成强对流</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 9,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1942072308790437418}",
+      "attached_info": "CokGCMXUh4bHieCavQEQBBoJNzQzMzU2MDE1IKjzncUGKAAwAECKA0okChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwyEgEwGAAgADoASigKHVRTX1NPVVJDRV9XQVJNVVBfUFJFVFJBSU5fSTJJEgEwGAAgADoAWgkxMTU3MjAzMTViIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQyMDcyMzA4NzkwNDM3NDE4igETMTkyNTcwNDAwMzAxNjE5MzM1MqoBCXJlY29tbWVuZMIBIGJiMDM3YzI5NzBhYjQ1ZWY5NWVjMzIxZGZmMTFjNjEy8gEKCAwSBk5vcm1hbPIBKAgKEiQyMjNhOWU4ZC1jYjZmLTQyZmEtOWExOC03MzM5ZTJmYThmZjTyAQYICxICNjaCAgCIArXBvvmMM5ICIGJiMDM3YzI5NzBhYjQ1ZWY5NWVjMzIxZGZmMTFjNjEymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgP6AgtOT1JNQUxfRkxPV4oDIGI0NmY1YjFiZWU3NjRkYmU4NjllOWQ2Y2U5MmJmZDYzmgMNCgJ2MhAAGgVvdGhlcqgDCdgDAOoDE3ByZXRyYWluX2kyaV9yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgt398P4EFAAAAAAAAAACJBVWN2+YBVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBUKQBgCgBo4DqAYBkgIuCgk3NDMzNTYwMTUSEzE5NDIwNzIzMDg3OTA0Mzc0MTgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "395_1755822661.99",
+      "type": "feed",
+      "offset": 395,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822661,
+      "updated_time": 1755822661,
+      "target": {
+        "id": "1925565836543886218",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1925565836543886218",
+        "author": {
+          "id": "30c0e1f767fc8f972987ac27ce7e4d1f",
+          "url": "https://api.zhihu.com/people/30c0e1f767fc8f972987ac27ce7e4d1f",
+          "user_type": "people",
+          "url_token": "li-cheng-78-99-27",
+          "name": "里程",
+          "headline": "旧书爱好者，分享100本绝版旧书，私信不回，勿扰！",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 623,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1751870670,
+        "updated_time": 1751870670,
+        "voteup_count": 111,
+        "thanks_count": 6,
+        "comment_count": 6,
+        "is_copyable": false,
+        "question": {
+          "id": "643028095",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/643028095",
+          "author": {
+            "id": "ded1353984fff3575cc075b3ac1c489f",
+            "url": "https://api.zhihu.com/people/ded1353984fff3575cc075b3ac1c489f",
+            "user_type": "people",
+            "url_token": "start-again-94",
+            "name": "修凡心",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-27417a038155cf28728ce938cb81ef4a_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有没有推荐的实用性的书籍，各方面都可以？",
+          "created": 1707107099,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            1164
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-9bb4402be42244caa019ed243b4ffc42_720w.jpg?source=b6762063",
+        "excerpt": "推荐一本 绝版书《美工基础知识：绘画部分》，1985年出版。80年代，美工基础知识，老先生画的很扎实。本教材分为一二两册。 第一册为绘画部分、第二册为工艺部分。绘画部分按 静物画法、植物画法、动物画法、人物画法的次序，编写了有关铅笔画、水彩画、水粉画、中国画的技法知识，并用具体图例说明了有关临摹、改编、创编幼儿园教学图片的方法。工艺部分的编写，除将原教材中图案画法进行了补充和修改外，增加了手工教材内容。 …",
+        "excerpt_new": "推荐一本 绝版书《美工基础知识：绘画部分》，1985年出版。80年代，美工基础知识，老先生画的很扎实。本教材分为一二两册。 第一册为绘画部分、第二册为工艺部分。绘画部分按 静物画法、植物画法、动物画法、人物画法的次序，编写了有关铅笔画、水彩画、水粉画、中国画的技法知识，并用具体图例说明了有关临摹、改编、创编幼儿园教学图片的方法。工艺部分的编写，除将原教材中图案画法进行了补充和修改外，增加了手工教材内容。 …",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"ewQKWNX0\">推荐一本<b>绝版书《美工基础知识：绘画部分》，1985年出版</b>。80年代，美工基础知识，老先生画的很扎实。</p><p data-pid=\"bXUudi-t\">本教材分为一二两册。<b>第一册为绘画部分、第二册为工艺部分。</b></p><p data-pid=\"jqw4WYcG\">绘画部分按<b>静物画法、植物画法、动物画法、人物画法的次序，编写了有关铅笔画、水彩画、水粉画、中国画的技法知识，并用具体图例说明了有关临摹、改编、创编幼儿园教学图片的方法。</b></p><p data-pid=\"Itbxo0aS\">工艺部分的编写，除将原教材中图案画法进行了补充和修改外，增加了手工教材内容。<b>编写了有关泥工、纸工、布工的制作原理和技法。为了提高学生应用知识的能力，还编绘了纸花、纸彩、灯饰、瓶饰、帽饰、木偶、风筝等资料。</b></p><blockquote data-pid=\"YsPOHQ9v\"><b>书已绝版，整理了电子版，有缘者自取保存。</b><br/><b>链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/4a9d139faa33\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/4a9d139f</span><span class=\"invisible\">aa33</span><span class=\"ellipsis\"></span></a></b></blockquote><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5e78f724216ac56649b89d8e2eea17da_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"589\" data-rawheight=\"769\" data-original-token=\"v2-4d972c12e002d4f8343b6b2b902219db\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-ddf578a8614a35165b87c8d80816db12_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"589\" data-original=\"https://pic3.zhimg.com/v2-5e78f724216ac56649b89d8e2eea17da_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-cee7d34623122a242b5cb8758c4e88df_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"751\" data-rawheight=\"656\" data-original-token=\"v2-a157617399895f13bde4313de31c8cdc\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-a91bec76303fd43b6beff5caa3c943ff_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"751\" data-original=\"https://pic2.zhimg.com/v2-cee7d34623122a242b5cb8758c4e88df_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-01548cb8396d8ace88f560ccebc4f265_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"541\" data-rawheight=\"722\" data-original-token=\"v2-f326d40c58f0b35124b95336aa856e46\" data-default-watermark-src=\"https://pica.zhimg.com/v2-c34bc993c0ab8ee3af3a0d1b744ea982_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"541\" data-original=\"https://picx.zhimg.com/v2-01548cb8396d8ace88f560ccebc4f265_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-171b9c4441a0b9c00d10f5c9ca4f70eb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"571\" data-rawheight=\"753\" data-original-token=\"v2-6b1d18d7e728cf1283005f1416e5a71b\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-4f403973cb332a61dd24c0c9d557948a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"571\" data-original=\"https://picx.zhimg.com/v2-171b9c4441a0b9c00d10f5c9ca4f70eb_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-902e55433ff957c85b4a7bb8903494d3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"567\" data-rawheight=\"723\" data-original-token=\"v2-2252bab4319c19211bab8525987cd152\" data-default-watermark-src=\"https://picx.zhimg.com/v2-7b644b9f621bfac208d89c2d42bfe51f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"567\" data-original=\"https://pic4.zhimg.com/v2-902e55433ff957c85b4a7bb8903494d3_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6ca91b16dd059fcf4b634f0986a38828_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"573\" data-rawheight=\"767\" data-original-token=\"v2-ee5b7248bbbdf91d9243b39d8f6bc1aa\" data-default-watermark-src=\"https://pica.zhimg.com/v2-25fc0617bb2b8b5ff7d54d63df39b5ba_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"573\" data-original=\"https://pic3.zhimg.com/v2-6ca91b16dd059fcf4b634f0986a38828_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 7367,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-9bb4402be42244caa019ed243b4ffc42_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 565,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1925565836543886218}",
+      "attached_info": "Cs0ICMXUh4bHieCavQEQBBoJNzM1ODI4NDg2IM7ZrcMGKG8wBkCLA0pICh9UU19TT1VSQ0VfWlJFQ0FMTF9JVEVNQ0ZfVVBWT1RFEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3MTY4ODAyNTYKGAAgADoASkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDcxNjg4MDI1NgoYACAAOgBaCTEwNTE3MjY5N2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MjU1NjU4MzY1NDM4ODYyMTiKAQk2NDMwMjgwOTWqAQlyZWNvbW1lbmTCASAzMGMwZTFmNzY3ZmM4Zjk3Mjk4N2FjMjdjZTdlNGQxZvIBCggMEgZOb3JtYWzyASgIChIkODE5NGVkYjctMjczNC00NTAwLTlhMDctODUxNjA2NDkwYjgw8gEGCAsSAjY2ggIAiAK1wb75jDOSAiAzMGMwZTFmNzY3ZmM4Zjk3Mjk4N2FjMjdjZTdlNGQxZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEXoAgP6AgtOT1JNQUxfRkxPV4oDIGI0NmY1YjFiZWU3NjRkYmU4NjllOWQ2Y2U5MmJmZDYzmgMNCgJ2MhAAGgVvdGhlcqgDxznYAwDqAxl0ZXh0QWxsU2l0ZUFjdGlvbkl0ZW1DRlYy+gO5AhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEM0EGIEGIiN2Mi00ZDk3MmMxMmUwMDJkNGY4MzQzYjZiMmI5MDIyMTlkYjotCAIQ7wUYkAUiI3YyLWExNTc2MTczOTk4OTVmMTNiZGU0MzEzZGUzMWM4Y2RjOi0IAhCdBBjSBSIjdjItZjMyNmQ0MGM1OGYwYjM1MTI0Yjk1MzM2YWE4NTZlNDY6LQgCELsEGPEFIiN2Mi02YjFkMThkN2U3MjhjZjEyODMwMDVmMTQxNmU1YTcxYjotCAIQtwQY0wUiI3YyLTIyNTJiYWI0MzE5YzE5MjExYmFiODUyNTk4N2NkMTUyOi0IAhC9BBj/BSIjdjItZWU1YjcyNDhiYmJkZjkxZDkyNDNiMzlkOGY2YmMxYWGABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgjwKdP4EFAAAAAAAAAACJBVWN2+YBVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBUKQBgCgBo8DqAYAkgIuCgk3MzU4Mjg0ODYSEzE5MjU1NjU4MzY1NDM4ODYyMTgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=395&desktop=true&end_offset=399&page_number=67&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=395&desktop=true&end_offset=399&page_number=67&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

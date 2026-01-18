@@ -1,32 +1,55 @@
-# 默认 .gitignore 文件，由 start_repo.py 创建
-# 请编辑此文件以添加需要忽略的文件或目录
-node_modules/
+# Python
 __pycache__/
-.idea/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 虚拟环境
 read_venv/
-.env
-*.pyc
-*.pyw
-*.pyc
-*.bat
+venv/
+env/
+ENV/
 
-
-代码备份/
-.kiro/
+# IDE
+.idea/
 .vscode/
-data/
+.kiro/
+*.swp
+*.swo
+
+# 环境变量
+.env
+.env.local
+
+# 数据文件
+# data/
+playwright_zhihu/*/
+playwright_zhihu/*.json
+!playwright_zhihu/*.py
+!playwright_zhihu/*.md
+
+# 运行时生成的文件
+favorites.json
+recommended_ids.json
+scores.csv
+
+# 日志
+*.log
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.bak
+*~
 
 
-
-# 个人笔记
-过程记录.md
-推荐系统.md
-todo.md
-
-# 小工具
-start_repo.py
-cat_code.py
-list_files.py
-my_files.txt
 
 

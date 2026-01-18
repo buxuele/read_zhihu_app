@@ -1,0 +1,533 @@
+{
+  "data": [
+    {
+      "id": "564_1755822867.214",
+      "type": "feed",
+      "offset": 564,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822867,
+      "updated_time": 1755822867,
+      "target": {
+        "id": "1940719962734961602",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1940719962734961602",
+        "author": {
+          "id": "70476e864773716d2b8adf106640815e",
+          "url": "https://api.zhihu.com/people/70476e864773716d2b8adf106640815e",
+          "user_type": "people",
+          "url_token": "xiagaoyantou",
+          "name": "瞎搞投研",
+          "headline": "日拱一卒，不期而至",
+          "avatar_url": "https://picx.zhimg.com/50/v2-289d43a93b72f3a89a24c64589aa4b73_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 86,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "N8N 之 YouTube视频转文章-模仿",
+        "comment_permission": "all",
+        "created": 1755484212,
+        "updated": 1755484212,
+        "voteup_count": 0,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "本文为瞎搞君实践别人案例的记录，原文链接放「阅读原文」了。上一篇文章就是用这个工作流实现的，不过格式和图片是手动调整的： 别盯着大模型，这才是普通人能赚钱的AI模式   总体流程本N8N工作流主要是将油管视频转化为文章（ PS:提取视频字幕，用大模型总结并输出。）。思路如下：输出渠道n8n 工作流Google Sheets用户手动复制视频地址粘贴/保存视频链接定时触发推送链接到 n8n回写生成的公众号文案提取视频链接并获取字幕对字幕…",
+        "excerpt_new": "本文为瞎搞君实践别人案例的记录，原文链接放「阅读原文」了。上一篇文章就是用这个工作流实现的，不过格式和图片是手动调整的： 别盯着大模型，这才是普通人能赚钱的AI模式   总体流程本N8N工作流主要是将油管视频转化为文章（ PS:提取视频字幕，用大模型总结并输出。）。思路如下：输出渠道n8n 工作流Google Sheets用户手动复制视频地址粘贴/保存视频链接定时触发推送链接到 n8n回写生成的公众号文案提取视频链接并获取字幕对字幕…",
+        "preview_type": "default",
+        "preview_text": "",
+        "column": {
+          "id": "c_1334186069617377280",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1334186069617377280",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "瞎搞投研",
+          "imageUrl": "https://pic1.zhimg.com/v2-6840dec403e889a40542f230931a4ac2_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "intro": "知行合一",
+          "updated": 1752398131,
+          "is_following": false
+        },
+        "content": "<blockquote data-pid=\"K3l86kBz\"><i>本文为瞎搞君实践别人案例的记录，原文链接放「阅读原文」了。</i></blockquote><p data-pid=\"1Uw03PEO\">上一篇文章就是用这个工作流实现的，不过格式和图片是手动调整的：<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI5NDkwNTM1NQ%3D%3D%26mid%3D2247487884%26idx%3D1%26sn%3D9434582e3dbe3b0b82af6392d5103bfb%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">别盯着大模型，这才是普通人能赚钱的AI模式</a></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-364dcf25bfca61ec9c00697a528f3703_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"479\" data-original-token=\"v2-364dcf25bfca61ec9c00697a528f3703\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-364dcf25bfca61ec9c00697a528f3703_r.jpg\"/><figcaption>油管视频转文章-n8n工作流</figcaption></figure><h3><b>总体流程</b></h3><p data-pid=\"fNC6u_KX\">本N8N工作流主要是将油管视频转化为文章（<code>PS:提取视频字幕，用大模型总结并输出。</code>）。思路如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">输出渠道n8n 工作流Google Sheets用户手动复制视频地址粘贴/保存视频链接定时触发推送链接到 n8n回写生成的公众号文案提取视频链接并获取字幕对字幕进行数据清洗通过大模型改写为公众号风格文案发送到邮箱</code></pre></div><h3><b>节点配置</b></h3><h3><b>1. Google apps script 配置</b></h3><p data-pid=\"jLSCkODH\">在谷歌表格中新建一个sheet，名字设置为「video2text」，（这里是sheet，左下角这个名称，不是文件名。）第一列的表头字段设置为「url」。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-496335e59d3cd8dd2206293bcb023a0e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"662\" data-rawheight=\"247\" data-original-token=\"v2-496335e59d3cd8dd2206293bcb023a0e\" class=\"origin_image zh-lightbox-thumb\" width=\"662\" data-original=\"https://pic3.zhimg.com/v2-496335e59d3cd8dd2206293bcb023a0e_r.jpg\"/><figcaption>apps 脚本</figcaption></figure><p data-pid=\"5WScOJ6y\">然后点击「扩展程序-APPS 脚本」,复制下面这个段代码:</p><div class=\"highlight\"><pre><code class=\"language-js\"><span class=\"kd\">function</span> <span class=\"nx\">sendWebhookOnEdit</span><span class=\"p\">(</span><span class=\"nx\">e</span><span class=\"p\">)</span> <span class=\"p\">{</span>  <span class=\"k\">try</span> <span class=\"p\">{</span>    <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"o\">!</span><span class=\"nx\">e</span> <span class=\"o\">||</span> <span class=\"o\">!</span><span class=\"nx\">e</span><span class=\"p\">.</span><span class=\"nx\">range</span><span class=\"p\">)</span> <span class=\"k\">throw</span> <span class=\"k\">new</span> <span class=\"nb\">Error</span><span class=\"p\">(</span><span class=\"s1\">&#39;缺少事件对象 e：请在表格里手工编辑触发，不要直接点运行。&#39;</span><span class=\"p\">);</span>    <span class=\"kr\">const</span> <span class=\"nx\">sheetEdited</span> <span class=\"o\">=</span> <span class=\"nx\">e</span><span class=\"p\">.</span><span class=\"nx\">range</span><span class=\"p\">.</span><span class=\"nx\">getSheet</span><span class=\"p\">();</span>    <span class=\"kr\">const</span> <span class=\"nx\">name</span> <span class=\"o\">=</span> <span class=\"nx\">sheetEdited</span><span class=\"p\">.</span><span class=\"nx\">getName</span><span class=\"p\">();</span>    <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">name</span> <span class=\"o\">!==</span> <span class=\"s1\">&#39;video2text&#39;</span><span class=\"p\">)</span> <span class=\"p\">{</span>      <span class=\"nx\">Logger</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"s1\">&#39;Skip other sheet: &#39;</span> <span class=\"o\">+</span> <span class=\"nx\">name</span><span class=\"p\">);</span>      <span class=\"k\">return</span><span class=\"p\">;</span>    <span class=\"p\">}</span>    <span class=\"kr\">const</span> <span class=\"nx\">editedRow</span> <span class=\"o\">=</span> <span class=\"nx\">e</span><span class=\"p\">.</span><span class=\"nx\">range</span><span class=\"p\">.</span><span class=\"nx\">getRow</span><span class=\"p\">();</span>    <span class=\"kr\">const</span> <span class=\"nx\">lastCol</span> <span class=\"o\">=</span> <span class=\"nx\">sheetEdited</span><span class=\"p\">.</span><span class=\"nx\">getLastColumn</span><span class=\"p\">();</span>    <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">lastCol</span> <span class=\"o\">&lt;</span> <span class=\"mi\">1</span><span class=\"p\">)</span> <span class=\"k\">return</span><span class=\"p\">;</span>    <span class=\"kr\">const</span> <span class=\"nx\">rowData</span> <span class=\"o\">=</span> <span class=\"nx\">sheetEdited</span><span class=\"p\">.</span><span class=\"nx\">getRange</span><span class=\"p\">(</span><span class=\"nx\">editedRow</span><span class=\"p\">,</span> <span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"mi\">1</span><span class=\"p\">,</span> <span class=\"nx\">lastCol</span><span class=\"p\">).</span><span class=\"nx\">getValues</span><span class=\"p\">()[</span><span class=\"mi\">0</span><span class=\"p\">];</span>    <span class=\"kr\">const</span> <span class=\"nx\">payload</span> <span class=\"o\">=</span> <span class=\"p\">{</span>      <span class=\"nx\">row</span><span class=\"o\">:</span> <span class=\"nx\">editedRow</span><span class=\"p\">,</span>      <span class=\"nx\">values</span><span class=\"o\">:</span> <span class=\"nx\">rowData</span><span class=\"p\">,</span>      <span class=\"nx\">editedColumn</span><span class=\"o\">:</span> <span class=\"nx\">e</span><span class=\"p\">.</span><span class=\"nx\">range</span><span class=\"p\">.</span><span class=\"nx\">getColumn</span><span class=\"p\">(),</span>      <span class=\"nx\">sheetName</span><span class=\"o\">:</span> <span class=\"nx\">name</span>    <span class=\"p\">};</span>    <span class=\"kr\">const</span> <span class=\"nx\">options</span> <span class=\"o\">=</span> <span class=\"p\">{</span>      <span class=\"nx\">method</span><span class=\"o\">:</span> <span class=\"s1\">&#39;post&#39;</span><span class=\"p\">,</span>      <span class=\"nx\">contentType</span><span class=\"o\">:</span> <span class=\"s1\">&#39;application/json&#39;</span><span class=\"p\">,</span>      <span class=\"nx\">payload</span><span class=\"o\">:</span> <span class=\"nx\">JSON</span><span class=\"p\">.</span><span class=\"nx\">stringify</span><span class=\"p\">(</span><span class=\"nx\">payload</span><span class=\"p\">),</span>      <span class=\"nx\">muteHttpExceptions</span><span class=\"o\">:</span> <span class=\"kc\">true</span>    <span class=\"p\">};</span>    <span class=\"kr\">const</span> <span class=\"nx\">webhookUrl</span> <span class=\"o\">=</span> <span class=\"s1\">&#39;&#39;</span><span class=\"p\">;</span><span class=\"c1\">//替换为你 webhook 节点的 test url    const resp = UrlFetchApp.fetch(webhookUrl, options);    const code = resp.getResponseCode();    const text = resp.getContentText();    Logger.log(&#39;Webhook response code=&#39; + code + &#39;, body=&#39; + text);    if (code &gt;= 200 &amp;&amp; code &lt; 300) {      const writeColumn = 2; // B 列      sheetEdited.getRange(editedRow, writeColumn).setValue(text);    } else {      throw new Error(&#39;Webhook 非 2xx：code=&#39; + code + &#39;, body=&#39; + text);    }  } catch (err) {    Logger.log(&#39;Webhook error: &#39; + (err &amp;&amp; err.stack ? err.stack : err));  }}\n</span></code></pre></div><p data-pid=\"w3gofccA\">需要将「webhookUrl」的地址替换为「webhook」中的测试链接。（<code>PS:上面这个js脚本的功能：当用户编辑表格后，根据「触发规则」，将表格中第一列的内容推送给n8n；然后根据n8n返回数据，将数据填充到第二列</code>）</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7687d51bcef79317f15c9552125bd9f4_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"512\" data-original-token=\"v2-7687d51bcef79317f15c9552125bd9f4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-7687d51bcef79317f15c9552125bd9f4_r.jpg\"/><figcaption>triger触发器</figcaption></figure><p data-pid=\"z_ItyhPj\">接着我们需要设置上面这个js代码的触发规则，点击触发器-添加触发器，设置「功能 ➡️ sendwebhookonedit」、「活动类型 ➡️ 编辑时」，即，编辑后就给n8n发信息。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-06f0d2979374a4cd99794ee0c03e7cc9_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"461\" data-original-token=\"v2-06f0d2979374a4cd99794ee0c03e7cc9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-06f0d2979374a4cd99794ee0c03e7cc9_r.jpg\"/><figcaption>脚本执行情况</figcaption></figure><p data-pid=\"6Tf9iMLw\">在下一步调试N8N是否接受到消息时，查看这个「脚本执行」非常有用，这里记录了js脚本运行是否成功以及报错日志信息，如果看不懂（比如我），直接复制你的「js代码 + 报错 + 你的需求」给AI，一直问，直到AI帮你解决问题为止（这都解决不了，还敢叫AI？）。</p><h3><b>2. webhook 节点</b></h3><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-305247d66be331b90d15127ac05b244f_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"474\" data-original-token=\"v2-305247d66be331b90d15127ac05b244f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-305247d66be331b90d15127ac05b244f_r.jpg\"/><figcaption>webhook节点</figcaption></figure><p data-pid=\"LYZ_-rPg\">参数设置：</p><ul><li data-pid=\"pPyRmIKQ\">http method ➡️ post</li><li data-pid=\"amjUqDaA\">path 按需设置，可以直接设置为：google-sheet-update</li><li data-pid=\"iad6kXdN\">respond ➡️ Using &#39;Respond to Webhook&#39; Node。当你调试的时候，这里设置为「immediately」,即，立即返回，不然会app script脚本会报错。</li></ul><p data-pid=\"-pjiyUmJ\">这里这个「test UPL」就是需要你复制替换到上一步中的“app script”代码中（<code>PS:当工作流配置完成后，需要使用production URL，并且激活工作流</code>），然后点击“listen for test event”，然后去谷歌表格中新增一条视频数据，看看这个webhook节点是否获取到数据，获取到数据之后在进行下一步。</p><p data-pid=\"y2OoLYFM\">瞎搞君在这一步花了不少时间。</p><h3><b>3. Edit Fields（Set）</b></h3><p data-pid=\"v8ZFCyIp\">这个节点用于提取webhook获取到的视频链接。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-36be64421c1c9bcd9bab22267ff365c3_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"489\" data-original-token=\"v2-36be64421c1c9bcd9bab22267ff365c3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-36be64421c1c9bcd9bab22267ff365c3_r.jpg\"/><figcaption>Edit Fields（Set）节点</figcaption></figure><p data-pid=\"nLZ79UtQ\">参数设置：</p><ul><li data-pid=\"DH9QpiT5\"> fields to set ➡️ 字段名设置：youtubeUrl；值：<code>{{$json[&#34;body&#34;][&#34;values&#34;][0]}}</code>（表格第 1 列存放视频链接）</li></ul><p data-pid=\"EaFgTC36\">记得点击「execute step」,保证能够执行成功，在进行下一步。</p><h3><b>4. Code 节点</b></h3><p data-pid=\"j4lE2z6J\">这个节点用于获取视频的ID</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-337b4fec52ccf1664280fc5941c42459_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"480\" data-original-token=\"v2-337b4fec52ccf1664280fc5941c42459\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-337b4fec52ccf1664280fc5941c42459_r.jpg\"/><figcaption>CODE节点</figcaption></figure><p data-pid=\"nBKuSsaf\">参数设置：</p><ul><li data-pid=\"kdrW1CTd\">mode ➡️ run once for items</li><li data-pid=\"IeyS6eEQ\">language ➡️ JavaScript</li></ul><p data-pid=\"Nk3wHpYV\">代码如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">const extractYoutubeId = (url) =&gt; {  // Regex pattern that matches both youtu.be and youtube.com URLs  const pattern = /(?:youtube\\.com\\/(?:[^\\/]+\\/.+\\/|(?:v|e(?:mbed)?)\\/|.*[?&amp;]v=)|youtu\\.be\\/)([^&#34;&amp;?\\/\\s]{11})/;  const match = url.match(pattern);  return match ? match[1] : null;};// Input URL from previous nodeconst youtubeUrl = items[0].json.youtubeUrl; // Adjust this based on your workflow// Process the URL and return the video IDreturn [{  json: {    videoId: extractYoutubeId(youtubeUrl)  }}];</code></pre></div><h3><b>5. Get YouTube Video</b></h3><p data-pid=\"6TDVwXrL\">这个节点需要授权，根据获得的视频ID，通过YouTube获取视频详情。节点类型：搜索YouTube，选择get a video。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3ba32aa35ba679a1dc8162a5988b9c43_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"492\" data-original-token=\"v2-3ba32aa35ba679a1dc8162a5988b9c43\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-3ba32aa35ba679a1dc8162a5988b9c43_r.jpg\"/><figcaption>get a video</figcaption></figure><p data-pid=\"Pr_0O5Zi\">参数设置：</p><ul><li data-pid=\"6r5TdCU9\">Credential to connect with 这个参数需要你去Google 云平台 <a href=\"https://link.zhihu.com/?target=http%3A//console.cloud.google.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">console.cloud.google.com</span><span class=\"invisible\"></span></a>创建项目，获取 youtube 的 clientID 和 client secret，成功绑定 OAuth 凭证后才能正常使用。（ps：<code>这个地方最好不要使用教育邮箱，因为后面发邮件的时候还需要这个授权，教育邮箱不支持，瞎搞君已经踩过坑了</code>）</li><li data-pid=\"dHCZJvVO\">videoId ➡️<code>{{$json.videoId}}</code>。也可以直接拖拽左侧的字段到这个输入框，会自动填充。</li><li data-pid=\"LZAJW2Ta\">Resource ➡️ video</li><li data-pid=\"06XFgokd\">Operation ➡️ get</li></ul><h3><b>6. HTTP Request</b></h3><p data-pid=\"RwoRk7JE\">这个节点是通过第三方api「youtube-transcripts」获取视频的字幕，需要去「rapidapi」官网申请，有一定免费额度。不知道怎么获取，直接问AI。（ps：<code>AI first</code>）</p><p data-pid=\"XcnF3WHy\">参数设置：</p><ul><li data-pid=\"HnCuWxlb\">method ➡️ get</li><li data-pid=\"VHP8UeRz\">URL ➡️ <a href=\"https://link.zhihu.com/?target=https%3A//youtube-transcript3.p.rapidapi.com/api/transcript\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">youtube-transcript3.p.rapidapi.com</span><span class=\"invisible\">/api/transcript</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"74Um9mvl\">Headers：</li><ul><li data-pid=\"8uDRi5FY\">x-rapidapi-host: <a href=\"https://link.zhihu.com/?target=http%3A//youtube-transcripts.p.rapidapi.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">youtube-transcripts.p.rapidapi.com</span><span class=\"invisible\"></span></a></li><li data-pid=\"7KesFRel\">x-rapidapi-key: &lt;你的 RapidAPI Key&gt;</li></ul></ul><p data-pid=\"rO69juFJ\">这一步其实可以直接复制官网的代码，在「import cURL」这个地方粘贴，但是有些参数需要你删除和修改。</p><h3><b>7. code节点</b></h3><p data-pid=\"AqkoCjuA\">这个节点的主要作用就是对提取到的字幕，进行初步清洗。</p><p data-pid=\"CAHcQ04M\">参数设置：</p><ul><li data-pid=\"5Xx4nCEM\">mode ➡️ run once for items</li><li data-pid=\"cKZE3Lbv\">language ➡️ JavaScript</li></ul><p data-pid=\"Vd4y0dxD\">代码如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">// 从输入中获取 JSON 数据const data = $input.first().json;// 检查原始数据中是否存在 &#39;content&#39; 数组并且该数组不为空if (!data.content || !Array.isArray(data.content) || data.content.length === 0) {  return {    json: {      success: false,      message: &#39;No content array available in the provided data&#39;,      videoUrl: data.body?.videoUrl || &#39;Unknown&#39;    }  };}// 从 content 数组中提取所有 text 片段，然后用空格连接成一个长字符串// 这是最关键的修改const transcriptText = data.content  .map(segment =&gt; segment.text || &#39;&#39;) // 从每个对象中提取 text 属性  .join(&#39; &#39;);                      // 用空格连接// 清理文稿const cleanedTranscript = transcriptText  .replace(/\\s+/g, &#39; &#39;)  .replace(/\\s([.,!?;:])/g, &#39;$1&#39;)  .trim();return {  json: {    success: true,    videoUrl: data.body?.videoUrl || &#39;From original data&#39;,    // 为了保持一致性，rawTranscript 可以是原始的 content 数组    rawTranscript: data.content,    cleanedTranscript,    language: data.lang  }};</code></pre></div><h3><b>8. SET节点</b></h3><p data-pid=\"k5kkLrfq\">将上一步输出的内容赋值给字段：<code>transcript</code>，方便后面使用。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5a1c8b77a9770218c9b569efddc75a1b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"463\" data-original-token=\"v2-5a1c8b77a9770218c9b569efddc75a1b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-5a1c8b77a9770218c9b569efddc75a1b_r.jpg\"/><figcaption>set节点</figcaption></figure><p data-pid=\"wlpFHFqI\">参数设置：</p><ul><li data-pid=\"-u-Ux8nT\">mode ➡️ manual mapping</li><li data-pid=\"FdW4sFI6\">fields to set ➡️ transcript = cleanedTranscript，可通过字段拖动自动填充。</li></ul><h3><b>9. LangChain LLM 节点</b></h3><p data-pid=\"OWdmgUjX\">这一步通过langchain框架调用大模型处理字幕。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1d02686e9852561d6b1e42b938898639_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"501\" data-original-token=\"v2-1d02686e9852561d6b1e42b938898639\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-1d02686e9852561d6b1e42b938898639_r.jpg\"/><figcaption>Basic LLM Chain</figcaption></figure><p data-pid=\"ACX9gBpg\">参数设置：</p><ul><li data-pid=\"O7gzt8Og\">ource for Prompt (User Message) ➡️ define below</li><li data-pid=\"EgfZ1dap\">prompt</li></ul><div class=\"highlight\"><pre><code class=\"language-text\">请基于用户输入的文本内容改写成适合微信公众号发布的文案，要求风格轻松易懂，逻辑清晰，符合新媒体阅读习惯，并以 markdown 格式输出（非代码块）。文案书写要求：- 文案标题抓住读者注意力、制造情绪价值、传递明确利益或诱发好奇心- 文案编写作者为瞎搞研投- 开头用提问或故事引入- 文章结构清晰，有条理，逻辑严谨- 文案合适位置可提供配图建议- 结尾引导读者留言互动或者关注转发- 内容完整，排版优美用户输入文本内容如下: {{ $json.transcript }}</code></pre></div><p data-pid=\"IfgHgVGg\">模型设置（瞎搞君的设置）</p><ul><li data-pid=\"WCa54GUC\">model ➡️ gemini-2.5-flash</li><li data-pid=\"KNX5rQTe\">Maximum Number of Tokens ➡️ 100000</li></ul><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-714cc109216f00b0dff44bcc5a2fbcce_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"298\" data-original-token=\"v2-714cc109216f00b0dff44bcc5a2fbcce\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-714cc109216f00b0dff44bcc5a2fbcce_r.jpg\"/><figcaption>模型设置</figcaption></figure><h3><b>10. markdown节点</b></h3><p data-pid=\"fUmoXcVN\">这一步是把模型输出的内容转换为HTML格式，方便复制。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c2bb27489a2789516896070b5a241361_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"480\" data-original-token=\"v2-c2bb27489a2789516896070b5a241361\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-c2bb27489a2789516896070b5a241361_r.jpg\"/><figcaption>Markdown</figcaption></figure><p data-pid=\"yGh8vOXW\">参数设置：</p><ul><li data-pid=\"l4W2lJZF\">Mode ➡️ markdow to html</li><li data-pid=\"jRw4dQCV\">markdown➡️ LLM 输出的text，可以通过页面拖动自动填充。</li></ul><h3><b>11. Respond to Webhook 节点</b></h3><p data-pid=\"ulGlqYNv\">这一步和第一个节点「webhook」配合使用，只是我们测试的时候，选择的是「立即返回」，现在我们有了这个「respond to webhook」节点，就可以把第一个节点改成，等待“respond to webhook”返回数据，这样就可以把处理后的数据写入谷歌表格。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bcd4c5a7925fcb7bb0793097eca76c26_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"465\" data-original-token=\"v2-bcd4c5a7925fcb7bb0793097eca76c26\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-bcd4c5a7925fcb7bb0793097eca76c26_r.jpg\"/><figcaption>Respond to Webhook</figcaption></figure><p data-pid=\"fUwvOzpf\">参数设置：</p><ul><li data-pid=\"i5_yDjML\">respond with➡️ text</li><li data-pid=\"D_Md92vQ\">response body ➡️ {{$json.text}}，可通过拖拽左边的字段，实现自动填充。</li></ul><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-519d8e89f9c1db51282e188fa88606f6_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"507\" data-original-token=\"v2-519d8e89f9c1db51282e188fa88606f6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-519d8e89f9c1db51282e188fa88606f6_r.jpg\"/><figcaption>数据回写到谷歌表格</figcaption></figure><h3><b>12. Send a message</b></h3><p data-pid=\"1sMkDG_9\">这一步是把最终的数据发送到邮箱。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1a5caf795aa38e71da95fd8269fef6af_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"474\" data-original-token=\"v2-1a5caf795aa38e71da95fd8269fef6af\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-1a5caf795aa38e71da95fd8269fef6af_r.jpg\"/><figcaption>Send a message</figcaption></figure><p data-pid=\"f-2fN024\">参数设置：</p><ul><li data-pid=\"eQFxRu2N\">credential to connect with ➡️ 这里需要进行谷歌授权。不知道怎么操作，可以截图问AI，需要特别说明的是，这一步，最好不要用教育邮箱。</li><li data-pid=\"OHBmtC1N\">resource ➡️ message</li><li data-pid=\"xYYUgmBZ\">operation ➡️ send</li><li data-pid=\"GH1xX7O8\">to ➡️ &lt;你的邮箱&gt;</li><li data-pid=\"1QS-YihJ\">subject ➡️ 设置你的邮箱主题</li><li data-pid=\"azb8aBO7\">email type ➡️ html</li><li data-pid=\"zkY8uyhT\">message ➡️ 拖拽左边的data字段到这里进行字段填充。<code>{{$json.data}}</code></li></ul><p data-pid=\"3B5UnQDh\">设置完成后，别忘了执行一下。执行成功后，记得把第一步的webhook中的方式修改成「等待“respond to webhook”」，并且复制「webhook」中的生产链接，粘贴到之前的app script脚本中，替换之前的测试链接，然后保存。最后回到N8N中，激活工作流。</p><h3><b>写在最后</b></h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7c45ef51f0b8c1b778e4ca96aa34c70c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"484\" data-original-token=\"v2-7c45ef51f0b8c1b778e4ca96aa34c70c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-7c45ef51f0b8c1b778e4ca96aa34c70c_r.jpg\"/><figcaption>发送到邮箱的文案截图</figcaption></figure><p data-pid=\"jBIs7C78\">在当前工作流中，视频内容的提取可以直接运用多模态模型（如 Google 的 Gemini 2.5 Pro）进行端到端分析。相较于传统的字幕提取方式，这种方法能够捕捉视觉元素，更完整地保留视频原意。但其问题在于成本控制，直接处理视频的 API 调用所消耗的 token 远高于仅处理文本字幕。</p><p data-pid=\"ppYfBXHT\">此外，在内容生成阶段，文案质量高度依赖于提示词（Prompt）的精确度。为了获得符合特定风格和需求的文案，需要对提示词进行精细的定制化设计。否则，模型输出的初稿往往较为宽泛，需要进行大量的二次人工编辑才能最终采用，这在一定程度上抵消了AI带来的效率优势。</p>",
+        "is_labeled": false,
+        "visited_count": 32,
+        "favorite_count": 10,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1940719962734961602}",
+      "attached_info": "CooLCLbZmLnSoPaSogEQBxoJMjYxODY4MTYyILSgisUGKAAwAEC0BEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMTI0OTYyMzNiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQwNzE5OTYyNzM0OTYxNjAyigEVY18xMzM0MTg2MDY5NjE3Mzc3MjgwqgEJcmVjb21tZW5kwgEgNzA0NzZlODY0NzczNzE2ZDJiOGFkZjEwNjY0MDgxNWXyAQoIDBIGTm9ybWFs8gEoCAoSJDA2ZDgzMzhkLWJmNTYtNGUyMi1hNzJkLTg4ODg0MTI5NGExZfIBBggLEgI5NYICAIgC9YjL+YwzkgIgNzA0NzZlODY0NzczNzE2ZDJiOGFkZjEwNjY0MDgxNWWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgP6AgtOT1JNQUxfRkxPV4oDIDJkN2ZiZDI0YmIxNDRiMzY4ZWZkMjgwZTVlMWYwNjdjmgMNCgJ2MhAAGgVvdGhlcqgDINgDAPoDjwYSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxC4CBjfAyIjdjItMzY0ZGNmMjViZmNhNjFlYzljMDA2OTdhNTI4ZjM3MDM6LQgCEJYFGPcBIiN2Mi00OTYzMzVlNTlkM2NkOGRkMjIwNjI5M2JjYjAyM2EwZTotCAMQuAgYgAQiI3YyLTc2ODdkNTFiY2VmNzkzMTdmMTVjOTU1MjEyNWJkOWY0Oi0IAhC4CBjNAyIjdjItMDZmMGQyOTc5Mzc0YTRjZDk5Nzk0ZWUwYzAzZTdjYzk6LQgCELgIGNoDIiN2Mi0zMDUyNDdkNjZiZTMzMWI5MGQxNTEyN2FjMDViMjQ0ZjotCAIQuAgY6QMiI3YyLTM2YmU2NDQyMWMxYzliY2Q5YmFiMjIyNjdmZjM2NWMzOi0IAhC4CBjgAyIjdjItMzM3YjRmZWM1MmNjZjE2NjQyODBmYzU5NDFjNDI0NTk6LQgDELgIGOwDIiN2Mi0zYmEzMmFhMzViYTY3OWExZGM4MTYyYTU5ODhiOWM0MzotCAIQuAgYzwMiI3YyLTVhMWM4Yjc3YTk3NzAyMThjOWI1NjllZmRkYzc1YTFiOi0IAhC4CBj1AyIjdjItMWQwMjY4NmU5ODUyNTYxZDZiMWU0MmI5Mzg4OTg2Mzk6LQgCELgIGKoCIiN2Mi03MTRjYzEwOTIxNmYwMGIwZGZmNDRiY2M1YTJmYmNjZTotCAIQuAgY4AMiI3YyLWMyYmIyNzQ4OWEyNzg5NTE2ODk2MDcwYjVhMjQxMzYxOi0IAhC4CBjRAyIjdjItYmNkNGM1YTc5MjVmY2I3YmIwNzkzMDk3ZWNhNzZjMjY6LQgCELgIGPsDIiN2Mi01MTlkOGU4OWY5YzFkYjUxMjgyZTE4OGZhODg2MDZmNjotCAIQuAgY2gMiI3YyLTFhNWNhZjc5NWFhMzhlNzFkYTk1ZmQ4MjY5ZmVmNmFmOi0IAhC4CBjkAyIjdjItN2M0NWVmNTFmMGI4YzFiNzc4ZTRjYTk2YWEzNGM3MGOABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAECq6pQ/gQUAAAAAAAAAAIkFx8t4I0NU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFX5AGAKAGugSoBgGSAi4KCTI2MTg2ODE2MhITMTk0MDcxOTk2MjczNDk2MTYwMhgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "565_1755822867.476",
+      "type": "feed",
+      "offset": 565,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822867,
+      "updated_time": 1755822867,
+      "target": {
+        "id": "8743402127",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/8743402127",
+        "author": {
+          "id": "e60033fa50be3f4e55060d83d564f426",
+          "url": "https://api.zhihu.com/people/e60033fa50be3f4e55060d83d564f426",
+          "user_type": "people",
+          "url_token": "4-01-03-09",
+          "name": "青琅玕",
+          "headline": "文章爆文合作。v:jgh239",
+          "avatar_url": "https://pica.zhimg.com/50/v2-1af497f19393ad05d394a560e814c49c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 136584,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "为什么说瑞士银行是世界上最安全的银行？",
+        "comment_permission": "all",
+        "created": 1732447070,
+        "updated": 1732447070,
+        "voteup_count": 2381,
+        "voting": 0,
+        "comment_count": 86,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "富豪走进一家银行，问柜员“我想存款1000万美元，请问利率是多少？” 柜员：“每年-0.75%，但是不用缴纳利息税。” 富豪大吃一惊“怎么可能呢，我已经放弃了利息，怎么连本金都在减少，你们是银行么？。” 柜员回答道:“我们这是瑞士联合银行，也叫瑞士银行，我们提供世界一流金融服务，您的资金会享受到顶级的安全保障，对您的个人信息进行绝对保密，我们仅收取一点资产管理费用。” 富豪：“资金都是放在银行保存么?” 柜员：…",
+        "excerpt_new": "富豪走进一家银行，问柜员“我想存款1000万美元，请问利率是多少？” 柜员：“每年-0.75%，但是不用缴纳利息税。” 富豪大吃一惊“怎么可能呢，我已经放弃了利息，怎么连本金都在减少，你们是银行么？。” 柜员回答道:“我们这是瑞士联合银行，也叫瑞士银行，我们提供世界一流金融服务，您的资金会享受到顶级的安全保障，对您的个人信息进行绝对保密，我们仅收取一点资产管理费用。” 富豪：“资金都是放在银行保存么?” 柜员：…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"eAfQqPQv\">富豪走进一家银行，问柜员“我想存款1000万美元，请问利率是多少？”</p><p data-pid=\"ZEl4v1w6\">柜员：“每年-0.75%，但是不用缴纳利息税。”</p><p data-pid=\"_XpvNQ_Q\">富豪大吃一惊“怎么可能呢，我已经放弃了利息，怎么连本金都在减少，你们是银行么？。”</p><p data-pid=\"XFDelPt-\">柜员回答道:“我们这是瑞士联合银行，也叫瑞士银行，我们提供世界一流金融服务，您的资金会享受到顶级的安全保障，对您的个人信息进行绝对保密，我们仅收取一点资产管理费用。”</p><p data-pid=\"nVUP9Sli\">富豪：“资金都是放在银行保存么?”</p><p data-pid=\"GiFcXUjR\">柜员：“我们的金库遍布瑞士的任何一个地方，比如阿尔卑斯山脉的山腹、深达数百米的地下、湖底、隧道等，一切意想不到的地方，都可能是金库的所在之地。”</p><p data-pid=\"uzTbo3N9\">富豪：“那不是很容易进入么？”</p><p data-pid=\"FhvuvTaE\">柜员：“先生，您错了，我们的金库除了隐秘以外，还拥有坚固的军事防御工事和一级严密进入系统，这些都是对您的资金安全所做出的保障。”</p><p data-pid=\"ndwzZkWv\">富豪：“如果发生战争的话，你们还能保证我的资产安全么？”</p><p data-pid=\"oyn-BIVU\">柜员：“一样可以保证。</p><p data-pid=\"Ko58ci1G\">第一，瑞士在1815年成为了永久中立国，不参与世界上任何战争活动，而且德、法、意、奥是我们的邻居和欧盟伙伴，这些都是天然的屏障。</p><p data-pid=\"6Rb94xtC\">第二，虽然我们只有900万人口和4万平方公里的土地，但是我们有着武装中立的实力。目前全国20-42岁的男性公民必须服兵役，学习必要的军事技能，3000名正规军人的背后是高达35万的后备役，这是我们的传统，即使二战时期德国也只能绕道而行，因为我们也不惧怕战争，有着保护自己的实力。”</p><p data-pid=\"OC6eNeu0\">富豪：“好吧，能帮我解释下你刚刚说的保密性么？”</p><p data-pid=\"1UJj7lGD\">柜员：“好的，先生。您只需要在第一次建立个人信息的时候，把您的真实姓名提供给我们的特定人员，之后我们会给您分配一个由一串数字组成的编码，这个编码就代表您，就是说除了您和我们那个特定的工作人员以外，没有任何人能够知道您的一切信息，而我们的工作人员只认钥匙不认人。”</p><p data-pid=\"D9ztyxwE\">富豪：“那么你们怎么保证我的账户安全？”</p><p data-pid=\"21yTSJBi\">柜员：“正常情况下，我们瑞士银行拒绝任何人冻结资产，对您的资产和个人信息做到绝密的保护，加上匿名的操作，您根本没有任何风险。</p><p data-pid=\"Ei2jXuft\">但是在2009年和2013年我们两次修改《客户信息的保密制度》，目的是配合一些国家的税收部门，调查个人逃税漏税等违法行为，但是您不用太过担心，只要您不涉及税收违法，那么您的个人信息就是绝密的，而您的资产也是绝对安全的。”</p><p data-pid=\"xEKjoCyX\">富豪：“你们的资金储备大么？”</p><p data-pid=\"_OK0i0oq\">柜员：“当然，大约三分之一的全球离岸财富流向了瑞士银行，我们正在为越来越多的世界人民管钱，瑞士银行成立于1862年，至今已有159年的历史，我们的服务和口碑是有目共睹的。”</p><p data-pid=\"OBZmb_FM\">富豪无奈地说：“好吧，那就就这样吧，你们确实很有实力，我也是慕名而来的。”</p><p data-pid=\"cpUifeiT\">柜员：“请问你有瑞士居留权么？”</p><p data-pid=\"0DryZjf2\">富豪：“没有”</p><p data-pid=\"XUol9Ac4\">柜员：“对不起，先生。您没有瑞士的居住证就不能办理，我们无法给您提供服务。”</p><p data-pid=\"WBpZSR8b\">富豪：“服了。”</p>",
+        "is_labeled": false,
+        "visited_count": 885516,
+        "favorite_count": 358,
+        "reaction_instruction": {
+          "REACTION_CREATE_COMMENT": "disable"
+        },
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 8743402127}",
+      "attached_info": "CuoFCLbZmLnSoPaSogEQBxoJMjUwNzcxNTA2IN6WjLoGKM0SMFZAtQRKKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMhIBMBgAIAA6CnsicmF3IjoiIn1iIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgo4NzQzNDAyMTI3qgEJcmVjb21tZW5kwgEgZTYwMDMzZmE1MGJlM2Y0ZTU1MDYwZDgzZDU2NGY0MjbyAQoIDBIGTm9ybWFs8gEoCAoSJGM1ZDY5MjUwLTJiMmUtNDM2OC1hN2YxLTI2YTM3NmUzZjhhZvIBBggLEgI5NYICAIgC9YjL+YwzkgIgZTYwMDMzZmE1MGJlM2Y0ZTU1MDYwZDgzZDU2NGY0MjaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyAyZDdmYmQyNGJiMTQ0YjM2OGVmZDI4MGU1ZTFmMDY3Y5oDDQoCdjIQABoFb3RoZXKoA4yGNtgDAOoDDmZlZWRyZV9tc19nYXRl+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAACAbCs4/gQUAAAAAAAAAAIkFx8t4I0NU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFX5AGAKAGuwSoBgOSAiUKCTI1MDc3MTUwNhIKODc0MzQwMjEyNxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "566_1755822867.163",
+      "type": "feed",
+      "offset": 566,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822867,
+      "updated_time": 1755822867,
+      "target": {
+        "id": "1941454439060861158",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941454439060861158",
+        "author": {
+          "id": "729ef13e14da8d9c77a3155bf015c100",
+          "url": "https://api.zhihu.com/people/729ef13e14da8d9c77a3155bf015c100",
+          "user_type": "people",
+          "url_token": "Da-wei",
+          "name": "大魏",
+          "headline": "百余台笔电拆解丨爱折腾的DIY玩家丨笔电、DIY相关咨询",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-a26a72d636cfc535c2b12532506c6d2d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "笔记本电脑话题下的优秀答主",
+              "topic_names": [
+                "笔记本电脑"
+              ],
+              "topic_ids": [
+                3132
+              ]
+            },
+            {
+              "type": "identity_people",
+              "description": "上海智凝网络科技有限公司 产品经理"
+            }
+          ],
+          "followers_count": 20317,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755658808,
+        "updated_time": 1755658808,
+        "voteup_count": 400,
+        "thanks_count": 12,
+        "comment_count": 79,
+        "is_copyable": true,
+        "question": {
+          "id": "1940727071828602928",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1940727071828602928",
+          "author": {
+            "id": "010b72de077f32f301658bb433e527eb",
+            "url": "https://api.zhihu.com/people/010b72de077f32f301658bb433e527eb",
+            "user_type": "people",
+            "url_token": "17-44-92-30",
+            "name": "李爻中",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-b53942a2486c83831815cd31576a3a19_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 14,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "微软 Win11 最新 KB5063878 更新导致特定情况下 SSD 和 HDD 故障，如何解决？",
+          "created": 1755485390,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 35,
+          "bound_topic_ids": [
+            4154
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-39ac25ec94b873e0ee9588660155ac17_720w.jpg?source=b6762063",
+        "excerpt": "目前微软官方没有啥动作，暂时只是网上有部分用户反馈更新后写入大量数据有可能会导致掉盘，有关的系统更新补丁版本 Win10： KB5063709 / KB5063877 / KB5063871 / KB5063889Win11： KB5063878、KB5063875一开始是有日本网友发现，在安装 KB5063878 后为《赛博朋克 2077》打补丁时，发现 SSD 突然消失，并且他进一步测试发现，如果硬盘连续写入 50GB 以上数据，且 SSD 控制器使用率超过 60%，就会出现硬盘设备掉盘、SMART 信息无…",
+        "excerpt_new": "目前微软官方没有啥动作，暂时只是网上有部分用户反馈更新后写入大量数据有可能会导致掉盘，有关的系统更新补丁版本 Win10： KB5063709 / KB5063877 / KB5063871 / KB5063889Win11： KB5063878、KB5063875一开始是有日本网友发现，在安装 KB5063878 后为《赛博朋克 2077》打补丁时，发现 SSD 突然消失，并且他进一步测试发现，如果硬盘连续写入 50GB 以上数据，且 SSD 控制器使用率超过 60%，就会出现硬盘设备掉盘、SMART 信息无…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"-87rGUzb\">目前微软官方没有啥动作，暂时只是网上有部分用户反馈更新后写入大量数据有可能会导致掉盘，有关的系统更新补丁版本</p><p data-pid=\"aroyspkf\">Win10：<br/>KB5063709 / KB5063877 / KB5063871 / KB5063889</p><p data-pid=\"mKSW28FZ\">Win11：<br/>KB5063878、KB5063875</p><p data-pid=\"dIpaIIYN\">一开始是有日本网友发现，在安装 KB5063878 后为《赛博朋克 2077》打补丁时，发现 SSD 突然消失，并且他进一步测试发现，如果硬盘连续写入 50GB 以上数据，且 SSD 控制器使用率超过 60%，就会出现硬盘设备掉盘、SMART 信息无法读取，重启后可短暂恢复，但反复出现</p><p data-pid=\"kL5KW7Ko\">搜集了部分信息，目前已经涉及到以下品牌和主控，群联主控涉及的最多</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-62f4cec3eab8e2bd7df8e05dd4e473c5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1248\" data-rawheight=\"488\" data-original-token=\"v2-df646ca5eb6784ce13538d80c65721ac\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-5c9c9a821d2e5e2ce9ddcec52231400d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1248\" data-original=\"https://pic2.zhimg.com/v2-62f4cec3eab8e2bd7df8e05dd4e473c5_r.jpg\"/></figure><h2>虽然目前官方没证实有这个bug，但是不怕一万只怕万一</h2><h2>解决方法</h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a0a2f414cd40a2f5f39aa87afd6355b5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"884\" data-rawheight=\"672\" data-original-token=\"v2-39ac25ec94b873e0ee9588660155ac17\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-ba0ab0c42e9f50a2514d717ae01133b8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"884\" data-original=\"https://picx.zhimg.com/v2-a0a2f414cd40a2f5f39aa87afd6355b5_r.jpg\"/></figure><p data-pid=\"uocgPZFJ\">在Windows更新历史记录中查看自己电脑是否已经安装此补丁，安装了的话在此界面划到下方进行卸载补丁</p><h2>暂停Windows更新</h2><p data-pid=\"vjHFHIM0\">桌面新建一个TXT文件，输入以下代码</p><p data-pid=\"9yd6pXTa\">暂停1000周代码：  </p><div class=\"highlight\"><pre><code class=\"language-text\">Windows Registry Editor Version 5.00\n\n[HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsUpdate\\UX\\Settings]\n&#34;FlightSettingsMaxPauseDays&#34;=dword:00001b58\n&#34;PauseFeatureUpdatesStartTime&#34;=&#34;2023-07-07T10:00:52Z&#34;\n&#34;PauseFeatureUpdatesEndTime&#34;=&#34;2042-09-05T09:59:52Z&#34;\n&#34;PauseQualityUpdatesStartTime&#34;=&#34;2023-07-07T10:00:52Z&#34;\n&#34;PauseQualityUpdatesEndTime&#34;=&#34;2042-09-05T09:59:52Z&#34;\n&#34;PauseUpdatesStartTime&#34;=&#34;2023-07-07T09:59:52Z&#34;\n&#34;PauseUpdatesExpiryTime&#34;=&#34;2042-09-05T09:59:52Z&#34;</code></pre></div><p data-pid=\"Ko7Nt9d6\">输入完成后保存，修改文件名后缀为.reg保存后运行即可以直接暂停更新1000周！</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0b93436b1f836c668beb6fdaf909d6a6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"707\" data-rawheight=\"276\" data-original-token=\"v2-724160f132cbdd48f43df6ef50f014da\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-6b8d727926dddc4c84c25073569f7c52_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"707\" data-original=\"https://pic3.zhimg.com/v2-0b93436b1f836c668beb6fdaf909d6a6_r.jpg\"/></figure><p data-pid=\"jfVLnmRS\">需要更新时也可以恢复</p><div class=\"highlight\"><pre><code class=\"language-text\">Windows Registry Editor Version 5.00\n\n[HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\WindowsUpdate\\UX\\Settings]\n&#34;FlightSettingsMaxPauseDays&#34;=-\n&#34;PauseFeatureUpdatesStartTime&#34;=-\n&#34;PauseFeatureUpdatesEndTime&#34;=-\n&#34;PauseQualityUpdatesStartTime&#34;=-\n&#34;PauseQualityUpdatesEndTime&#34;=-\n&#34;PauseUpdatesStartTime&#34;=-\n&#34;PauseUpdatesExpiryTime&#34;=-</code></pre></div><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 56415,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-39ac25ec94b873e0ee9588660155ac17_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 1029,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941454439060861158}",
+      "attached_info": "CuMGCLbZmLnSoPaSogEQBBoJNzQzMDYzNTYzILj0lMUGKJADME9AtgRKMAobVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTEgEwGAAgADoKeyJyYXciOiIifVoJMTE2MjUwODMyYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTQ1NDQzOTA2MDg2MTE1OIoBEzE5NDA3MjcwNzE4Mjg2MDI5MjiqAQlyZWNvbW1lbmTCASA3MjllZjEzZTE0ZGE4ZDljNzdhMzE1NWJmMDE1YzEwMPIBCggMEgZOb3JtYWzyASgIChIkOTM3NTkyNWYtYjUyMC00MDBiLThlNmUtZWJlOTNmOGExM2My8gEGCAsSAjk1ggIAiAL1iMv5jDOSAiA3MjllZjEzZTE0ZGE4ZDljNzdhMzE1NWJmMDE1YzEwMJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIbVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNT6AIE+gILTk9STUFMX0ZMT1eKAyAyZDdmYmQyNGJiMTQ0YjM2OGVmZDI4MGU1ZTFmMDY3Y5oDDQoCdjIQABoFb3RoZXKoA9+4A9gDAOoDFGZlZWRyZV90aW1lbGluZXNzX3Yy+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEOAJGOgDIiN2Mi1kZjY0NmNhNWViNjc4NGNlMTM1MzhkODBjNjU3MjFhYzotCAIQ9AYYoAUiI3YyLTM5YWMyNWVjOTRiODczZTBlZTk1ODg2NjAxNTVhYzE3Oi0IAxDDBRiUAiIjdjItNzI0MTYwZjEzMmNiZGQ0OGY0M2RmNmVmNTBmMDE0ZGGABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQGbWFudWFswgQDMTU5yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACA9nqdP4EFAAAAAAAAAACJBcfLeCNDVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBV+QBgCgBrwEqAYAkgIuCgk3NDMwNjM1NjMSEzE5NDE0NTQ0MzkwNjA4NjExNTgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "567_1755822867.629",
+      "type": "feed",
+      "offset": 567,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822867,
+      "updated_time": 1755822867,
+      "target": {
+        "id": "1939615343761949248",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939615343761949248",
+        "author": {
+          "id": "226952ce8b19202052c6fac6e979a5c8",
+          "url": "https://api.zhihu.com/people/226952ce8b19202052c6fac6e979a5c8",
+          "user_type": "people",
+          "url_token": "chuu-chou",
+          "name": "玄人志向",
+          "headline": "国际政治学专业的，专业什么都好，就是找不到工作。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-bd077320cd1038e915cfacb3e6cca5dc_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2305,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755220334,
+        "updated_time": 1755220334,
+        "voteup_count": 766,
+        "thanks_count": 9,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "22670679",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/22670679",
+          "author": {
+            "id": "ba89ee92de036d013c022f59530f0fc1",
+            "url": "https://api.zhihu.com/people/ba89ee92de036d013c022f59530f0fc1",
+            "user_type": "people",
+            "url_token": "ma-jian-bo-79",
+            "name": "麻剑波",
+            "headline": "支离东北风尘际，漂泊西南天地间。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-77808528ed45c987f0d3ec2848e98289_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 19145,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "历史上哪些人符合“早死几年是完人”的标准？",
+          "created": 1391661400,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 7,
+          "bound_topic_ids": [
+            285,
+            534,
+            17463
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "秦始皇就是个亡国之君， 只是他运气好，早死了两年。",
+        "excerpt_new": "秦始皇就是个亡国之君， 只是他运气好，早死了两年。",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"wzsgXBZc\">秦始皇就是个亡国之君，</p><p data-pid=\"BEAYM7vj\">只是他运气好，早死了两年。</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 30610,
+        "favorite_count": 9,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939615343761949248}",
+      "attached_info": "CpwFCLbZmLnSoPaSogEQBBoJNzQyMjY5MTg0IO6S+sQGKP4FMABAtwRKIAoVVFNfU09VUkNFX1RIRU1FX01FUkdFEgEwGAAgADoAWgcxMjQ4OTgzYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzOTYxNTM0Mzc2MTk0OTI0OIoBCDIyNjcwNjc5qgEJcmVjb21tZW5kwgEgMjI2OTUyY2U4YjE5MjAyMDUyYzZmYWM2ZTk3OWE1YzjyAQoIDBIGTm9ybWFs8gEoCAoSJGI1OGM3MDMyLWRjYTQtNGE2Zi05ZjQ2LTYyYTA3YjM1OTQxOPIBBggLEgI5NYICAIgC9YjL+YwzkgIgMjI2OTUyY2U4YjE5MjAyMDUyYzZmYWM2ZTk3OWE1YziaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIVVFNfU09VUkNFX1RIRU1FX01FUkdF6AIC+gILTk9STUFMX0ZMT1eKAyAyZDdmYmQyNGJiMTQ0YjM2OGVmZDI4MGU1ZTFmMDY3Y5oDDQoCdjIQABoFb3RoZXKoA5LvAdgDAOoDG1RoZW1lTWVyZ2VOZXdWMVBvb2xSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAC/Npo/gQUAAAAAAAAAAIkFx8t4I0NU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFX5AGAKAGvQSoBgCSAi4KCTc0MjI2OTE4NBITMTkzOTYxNTM0Mzc2MTk0OTI0OBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "568_1755822867.810",
+      "type": "feed",
+      "offset": 568,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822867,
+      "updated_time": 1755822867,
+      "target": {
+        "id": "1941869795550147713",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941869795550147713",
+        "author": {
+          "id": "2bd76aebd6d2277cd7674dc06e4dc6e8",
+          "url": "https://api.zhihu.com/people/2bd76aebd6d2277cd7674dc06e4dc6e8",
+          "user_type": "people",
+          "url_token": "xi-xi-ma-ma-24-28",
+          "name": "秦横",
+          "headline": "资深新媒体人，大学讲师，中级经济师，自由撰稿10年",
+          "avatar_url": "https://picx.zhimg.com/50/v2-88755b8abb4f18544fa12ea7b347ab1f_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 3438,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755757837,
+        "updated_time": 1755757837,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "1940887097650163849",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1940887097650163849",
+          "author": {
+            "id": "13a46253a4c999228a78c33fc7dc023b",
+            "url": "https://api.zhihu.com/people/13a46253a4c999228a78c33fc7dc023b",
+            "user_type": "people",
+            "url_token": "yu-bin-bin-82-10",
+            "name": "吕想知道",
+            "headline": "以《周易》为舟楫，溯中华智慧之源。",
+            "avatar_url": "https://pica.zhimg.com/50/v2-f91e2b266cd71730b79b3bc8ebb66932_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 5,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么有的人写的东西人很多人愿意看，有的人写的没人看?",
+          "created": 1755523544,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            2002309
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "《哈利·波特》为读者打开了一个新世界，《活着》戳痛了读者的心窝子，《红高粱》震撼了读者的红色基因。 有人看的作品，一定是满足了人性需求的，作者是懂人性的弱点的。比如 情感与欲望的贪婪、虚荣、嫉妒、恐惧、懒惰，认知与思维的偏见、短视、从众心理，社会关系中的依赖认可、控制欲、报复心，以及道德与意志的自私、缺乏自律等。要么高尚得一般人做不到，要么低裂到一般人做不到。 比如针对贪婪这一个人性弱点，你去写这…",
+        "excerpt_new": "《哈利·波特》为读者打开了一个新世界，《活着》戳痛了读者的心窝子，《红高粱》震撼了读者的红色基因。 有人看的作品，一定是满足了人性需求的，作者是懂人性的弱点的。比如 情感与欲望的贪婪、虚荣、嫉妒、恐惧、懒惰，认知与思维的偏见、短视、从众心理，社会关系中的依赖认可、控制欲、报复心，以及道德与意志的自私、缺乏自律等。要么高尚得一般人做不到，要么低裂到一般人做不到。 比如针对贪婪这一个人性弱点，你去写这…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"2GIL_-xf\">《哈利·波特》为读者打开了一个新世界，《活着》戳痛了读者的心窝子，《红高粱》震撼了读者的红色基因。</p><p data-pid=\"is3wYRoV\">有人看的作品，一定是满足了人性需求的，作者是懂人性的弱点的。比如<span class=\"nolink\">情感与欲望的贪婪、虚荣、嫉妒、恐惧、懒惰，认知与思维的偏见、短视、从众心理，社会关系中的依赖认可、控制欲、报复心，以及道德与意志的自私、缺乏自律等。</span></p><p data-pid=\"YU-52J-b\">要么高尚得一般人做不到，要么低裂到一般人做不到。</p><p data-pid=\"lFpzZ8Lg\">比如针对贪婪这一个人性弱点，你去写这个人高尚到不贪婪，一股清流，只要温饱即可，自己赚的钱给了贫困山区的孩子。这是值得看的。</p><p data-pid=\"_dMC7NYA\">你去写这个人低裂到为了得到更多，不择手段，本来已经有很多钱了，还要抢父母的养老钱，把媳妇的和岳父母的钱都骗走。这也是值得看的。</p><p data-pid=\"TxdsJ0mD\">就怕写一些不痛不痒的，读者看完没有情绪变化，不震撼，不佩服，不唾弃，不好奇。</p><p data-pid=\"BwODPNi-\">所以，我们还是要多去看经典书籍和作品。这些书能出版，并且能得到这么多人的喜欢，一定是有原因的。可以分析下看完书读者会怎样想，产生什么样的情绪变化。</p><p data-pid=\"nAGabf0o\">不管是工具类的书，还是科普类的，还是文学类的，其实都是在满足读者的一些需求和欲望。而需求和欲望的根源就是人性。</p><p data-pid=\"ygzhloRn\">以上就是全部回答，希望你能每天开心，如果想进一步交流，那就关注我吧！</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 17,
+        "favorite_count": 1,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941869795550147713}",
+      "attached_info": "CusFCLbZmLnSoPaSogEQBBoJNzQzMjYzNzQ2II36msUGKAAwAEC4BEokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwxEgEwGAAgADoASigKHVRTX1NPVVJDRV9XQVJNVVBfUFJFVFJBSU5fSTJJEgEwGAAgADoAWgkxMTYyNTkyNDFiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxODY5Nzk1NTUwMTQ3NzEzigETMTk0MDg4NzA5NzY1MDE2Mzg0OaoBCXJlY29tbWVuZMIBIDJiZDc2YWViZDZkMjI3N2NkNzY3NGRjMDZlNGRjNmU48gEKCAwSBk5vcm1hbPIBKAgKEiRhZjNkNjY3ZS0wYTY4LTQwNmQtOTJiOS01YTdkMDRmZGE4M2PyAQYICxICOTWCAgCIAvaIy/mMM5ICIDJiZDc2YWViZDZkMjI3N2NkNzY3NGRjMDZlNGRjNmU4mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDHoAgL6AgtOT1JNQUxfRkxPV4oDIDJkN2ZiZDI0YmIxNDRiMzY4ZWZkMjgwZTVlMWYwNjdjmgMNCgJ2MhAAGgVvdGhlcqgDEdgDAOoDE3ByZXRyYWluX2kyaV9yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADA/S+PP4EFAAAAAAAAAACJBcfLeCNDVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBV+QBgCgBr4EqAYBkgIuCgk3NDMyNjM3NDYSEzE5NDE4Njk3OTU1NTAxNDc3MTMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "569_1755822867.412",
+      "type": "feed",
+      "offset": 569,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822867,
+      "updated_time": 1755822867,
+      "target": {
+        "id": "1934164492327052385",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1934164492327052385",
+        "author": {
+          "id": "3dfa5a265a7853dadab24d81c545359e",
+          "url": "https://api.zhihu.com/people/3dfa5a265a7853dadab24d81c545359e",
+          "user_type": "people",
+          "url_token": "you-feng-lai-yi-79-42",
+          "name": "苏辄",
+          "headline": "俱往矣，数风流人物，还看今朝",
+          "avatar_url": "https://picx.zhimg.com/50/v2-7fc90c3cdb090d7a7639936e7578f1a0_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 167,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1753920750,
+        "updated_time": 1753920750,
+        "voteup_count": 5,
+        "thanks_count": 6,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "486516626",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/486516626",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "Markdown 入门总结有哪些内容？",
+          "created": 1631503239,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            2566,
+            13488,
+            40353,
+            101188
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-7859ce5f77541f4b896237735e90caa3_720w.jpg?source=b6762063",
+        "excerpt": "Markdown基础语法 标题#一个代表一级标题，##两个代表二级标题，依次类推，但是#和文字之间要有空格才能生效，如下图。   文字加粗与斜体使用*表示斜体与加粗， 其中一对*代表斜体，两对*代表加粗，例如下图。 在知乎的文档编辑界面也可以直接使用markdown语法。   段落要有空行才代表分段，只有换行不能进行分段。   引用想要引用一段话，需要使用>   列表列表需要 数字. 空格 文本，无论序号是否乱，在markdown下会自动编号。   代码块…",
+        "excerpt_new": "Markdown基础语法 标题#一个代表一级标题，##两个代表二级标题，依次类推，但是#和文字之间要有空格才能生效，如下图。   文字加粗与斜体使用*表示斜体与加粗， 其中一对*代表斜体，两对*代表加粗，例如下图。 在知乎的文档编辑界面也可以直接使用markdown语法。   段落要有空行才代表分段，只有换行不能进行分段。   引用想要引用一段话，需要使用>   列表列表需要 数字. 空格 文本，无论序号是否乱，在markdown下会自动编号。   代码块…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"uZnyH2rd\">Markdown基础语法</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>标题</h2><p data-pid=\"A1bJjHoO\">#一个代表一级标题，##两个代表二级标题，依次类推，但是#和文字之间要有空格才能生效，如下图。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-914e7a5214493749d354aae0dcb00856_1440w.jpg\" data-rawwidth=\"1588\" data-rawheight=\"442\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-914e7a5214493749d354aae0dcb00856\" class=\"origin_image zh-lightbox-thumb\" width=\"1588\" data-original=\"https://pica.zhimg.com/v2-914e7a5214493749d354aae0dcb00856_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>文字加粗与斜体</h2><p data-pid=\"FXl1ofEP\">使用*表示斜体与加粗， 其中一对*代表斜体，两对*代表加粗，例如下图。</p><p data-pid=\"L0weJty4\">在知乎的文档编辑界面也可以直接使用markdown语法。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c54d8dfebf7d18d2185bc883db45ff55_1440w.jpg\" data-rawwidth=\"1540\" data-rawheight=\"688\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-c54d8dfebf7d18d2185bc883db45ff55\" class=\"origin_image zh-lightbox-thumb\" width=\"1540\" data-original=\"https://pic4.zhimg.com/v2-c54d8dfebf7d18d2185bc883db45ff55_r.jpg\"/></figure><h2>段落</h2><p data-pid=\"X0gr8raS\">要有空行才代表分段，只有换行不能进行分段。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c116dff3ce8a31ab247011038d14c6dd_1440w.jpg\" data-rawwidth=\"1570\" data-rawheight=\"351\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-c116dff3ce8a31ab247011038d14c6dd\" class=\"origin_image zh-lightbox-thumb\" width=\"1570\" data-original=\"https://pic4.zhimg.com/v2-c116dff3ce8a31ab247011038d14c6dd_r.jpg\"/></figure><h2>引用</h2><p data-pid=\"MLtaS6f2\">想要引用一段话，需要使用&gt;</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-98cc799a3d0e3e9610efa9ce4f7144e9_1440w.jpg\" data-rawwidth=\"1527\" data-rawheight=\"738\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-98cc799a3d0e3e9610efa9ce4f7144e9\" class=\"origin_image zh-lightbox-thumb\" width=\"1527\" data-original=\"https://picx.zhimg.com/v2-98cc799a3d0e3e9610efa9ce4f7144e9_r.jpg\"/></figure><h2>列表</h2><p data-pid=\"nJTh4Hhh\">列表需要 数字. 空格 文本，无论序号是否乱，在markdown下会自动编号。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-664c529f33350856c9ea5387ef971b58_1440w.jpg\" data-rawwidth=\"1590\" data-rawheight=\"505\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-664c529f33350856c9ea5387ef971b58\" class=\"origin_image zh-lightbox-thumb\" width=\"1590\" data-original=\"https://pic3.zhimg.com/v2-664c529f33350856c9ea5387ef971b58_r.jpg\"/></figure><h2>代码块</h2><p data-pid=\"cc-clxe2\">使用反引号` ,一般情况下，反引号和~号共享一个按键，当你的内容中本身就包含了反引号时，可以采用双重反引号，类似python中的字符串表示。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4489d99dff919e8478db2b63179a86f6_1440w.jpg\" data-rawwidth=\"1579\" data-rawheight=\"300\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-4489d99dff919e8478db2b63179a86f6\" class=\"origin_image zh-lightbox-thumb\" width=\"1579\" data-original=\"https://pic1.zhimg.com/v2-4489d99dff919e8478db2b63179a86f6_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-680456c5ba584e9a9a07febb6b9bb4e5_1440w.jpg\" data-rawwidth=\"1591\" data-rawheight=\"278\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-680456c5ba584e9a9a07febb6b9bb4e5\" class=\"origin_image zh-lightbox-thumb\" width=\"1591\" data-original=\"https://pic4.zhimg.com/v2-680456c5ba584e9a9a07febb6b9bb4e5_r.jpg\"/></figure><h2>分割线</h2><p data-pid=\"98Oktaiy\">分割线使用三个或以上*</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ef2798860881607726fac53f11b53e3c_1440w.jpg\" data-rawwidth=\"1616\" data-rawheight=\"271\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-ef2798860881607726fac53f11b53e3c\" class=\"origin_image zh-lightbox-thumb\" width=\"1616\" data-original=\"https://pica.zhimg.com/v2-ef2798860881607726fac53f11b53e3c_r.jpg\"/></figure><h2>链接</h2><p data-pid=\"VBGWfAii\">链接的语法中 []是链接文本名， （）内的是指向网址</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3cb2ee5dd87dafc5cf0637c2182dfd81_1440w.jpg\" data-rawwidth=\"1590\" data-rawheight=\"344\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-3cb2ee5dd87dafc5cf0637c2182dfd81\" class=\"origin_image zh-lightbox-thumb\" width=\"1590\" data-original=\"https://picx.zhimg.com/v2-3cb2ee5dd87dafc5cf0637c2182dfd81_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>图片</h2><p data-pid=\"UjsHIGLR\">图片的语法：</p><div class=\"highlight\"><pre><code class=\"language-text\">![图片alt](图片路径 &#34;图片标题&#34;)  \n[图片alt]：方括号中的内容是 替代文本（alt text），用于在图片无法显示时提供一个替代描述。\n &#34;图片标题&#34;：是一个标题属性，当用户将鼠标悬停在图片上时会显示出来。</code></pre></div><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e7bf604203f592a8fb686c7152d3a208_1440w.jpg\" data-rawwidth=\"1858\" data-rawheight=\"748\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-e7bf604203f592a8fb686c7152d3a208\" class=\"origin_image zh-lightbox-thumb\" width=\"1858\" data-original=\"https://pic3.zhimg.com/v2-e7bf604203f592a8fb686c7152d3a208_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e94c199402fdee38c5e5b5c45aa7fdbb_1440w.jpg\" data-rawwidth=\"1661\" data-rawheight=\"356\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-e94c199402fdee38c5e5b5c45aa7fdbb\" class=\"origin_image zh-lightbox-thumb\" width=\"1661\" data-original=\"https://pic4.zhimg.com/v2-e94c199402fdee38c5e5b5c45aa7fdbb_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>转义字符</h2><p data-pid=\"VewKWndE\">当你的文本内容中包含了markdown语法的格式时，和python类似，可以使用转义符\\,其他过多的语法规则就不演示了，我也是为了学习markdown语法，增加自己的印象。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-282205da4c85b3939720f587fcdbd230_1440w.jpg\" data-rawwidth=\"1672\" data-rawheight=\"266\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-282205da4c85b3939720f587fcdbd230\" class=\"origin_image zh-lightbox-thumb\" width=\"1672\" data-original=\"https://pic3.zhimg.com/v2-282205da4c85b3939720f587fcdbd230_r.jpg\"/></figure><h2>html标签</h2><p data-pid=\"QoezPXV6\">markdown支持html语法格式。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6d2641fa029b854fa61ac96d6eb1cb11_1440w.jpg\" data-rawwidth=\"1600\" data-rawheight=\"469\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6d2641fa029b854fa61ac96d6eb1cb11\" class=\"origin_image zh-lightbox-thumb\" width=\"1600\" data-original=\"https://picx.zhimg.com/v2-6d2641fa029b854fa61ac96d6eb1cb11_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 222,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-7859ce5f77541f4b896237735e90caa3_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-2ad530d003787ddbf313f29379e4f27c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7aa41cb15ff111c3cd9de8beefec8a22_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 9,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1934164492327052385}",
+      "attached_info": "CtUKCLbZmLnSoPaSogEQBBoJNzM5NzE3MzY0IO7pqsQGKAUwAEC5BEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9Wgg3MDM5NjEyMWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MzQxNjQ0OTIzMjcwNTIzODWKAQk0ODY1MTY2MjaqAQlyZWNvbW1lbmTCASAzZGZhNWEyNjVhNzg1M2RhZGFiMjRkODFjNTQ1MzU5ZfIBCggMEgZOb3JtYWzyASgIChIkYzhlMWQxZTMtZWY1NS00NWQyLWJmMzQtODI2N2Y3ZDAzMjgy8gEGCAsSAjk1ggIAiAL2iMv5jDOSAiAzZGZhNWEyNjVhNzg1M2RhZGFiMjRkODFjNTQ1MzU5ZZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDJkN2ZiZDI0YmIxNDRiMzY4ZWZkMjgwZTVlMWYwNjdjmgMNCgJ2MhAAGgVvdGhlcqgD3gHYAwD6A4IFEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQtAwYugMiI3YyLTkxNGU3YTUyMTQ0OTM3NDlkMzU0YWFlMGRjYjAwODU2Oi0IAhCEDBiwBSIjdjItYzU0ZDhkZmViZjdkMThkMjE4NWJjODgzZGI0NWZmNTU6LQgCEKIMGN8CIiN2Mi1jMTE2ZGZmM2NlOGEzMWFiMjQ3MDExMDM4ZDE0YzZkZDotCAIQ9wsY4gUiI3YyLTk4Y2M3OTlhM2QwZTNlOTYxMGVmYTljZTRmNzE0NGU5Oi0IAhC2DBj5AyIjdjItNjY0YzUyOWYzMzM1MDg1NmM5ZWE1Mzg3ZWY5NzFiNTg6LQgCEKsMGKwCIiN2Mi00NDg5ZDk5ZGZmOTE5ZTg0NzhkYjJiNjMxNzlhODZmNjotCAIQtwwYlgIiI3YyLTY4MDQ1NmM1YmE1ODRlOWE5YTA3ZmViYjZiOWJiNGU1Oi0IAhDQDBiPAiIjdjItZWYyNzk4ODYwODgxNjA3NzI2ZmFjNTNmMTFiNTNlM2M6LQgCELYMGNgCIiN2Mi0zY2IyZWU1ZGQ4N2RhZmM1Y2YwNjM3YzIxODJkZmQ4MTotCAMQwg4Y7AUiI3YyLWU3YmY2MDQyMDNmNTkyYThmYjY4NmM3MTUyZDNhMjA4Oi0IAhD9DBjkAiIjdjItZTk0YzE5OTQwMmZkZWUzOGM1ZTViNWM0NWFhN2ZkYmI6LQgCEIgNGIoCIiN2Mi0yODIyMDVkYTRjODViMzkzOTcyMGY1ODdmY2RiZDIzMDotCAIQwAwY1QMiI3YyLTZkMjY0MWZhMDI5Yjg1NGZhNjFhYzk2ZDZlYjFjYjExgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgHM+fP4EFAAAAAAAAAACJBcfLeCNDVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBV+QBgCgBr8EqAYAkgIuCgk3Mzk3MTczNjQSEzE5MzQxNjQ0OTIzMjcwNTIzODUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=569&desktop=true&end_offset=575&page_number=96&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=569&desktop=true&end_offset=575&page_number=96&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

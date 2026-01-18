@@ -44,8 +44,27 @@ body {
 
 /* Navbar紧凑样式 */
 .navbar-compact {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* 导航栏设置区域响应式 */
+@media (max-width: 991px) {
+  .navbar-custom .d-flex.gap-3 {
+    flex-direction: column;
+    gap: 0.75rem !important;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .navbar-custom .d-flex.gap-3 > div {
+    width: 100%;
+  }
+  
+  .navbar-custom select,
+  .navbar-custom input {
+    width: 100% !important;
+  }
 }
 
 /* Main Content Area */
@@ -162,6 +181,40 @@ a.item-title-link:hover {
   color: #ffffff;
   background-color: #8c5317;
   border-color: #8c5317;
+}
+
+/* 收藏按钮样式 */
+.favorite-btn {
+  font-size: 0.85rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  transition: all 0.2s ease;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-warning {
+  background-color: #f0ad4e !important;
+  border-color: #f0ad4e !important;
+  color: white !important;
+}
+
+.btn-warning:hover {
+  background-color: #ec971f !important;
+  border-color: #ec971f !important;
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: white;
 }
 
 /* Footer */

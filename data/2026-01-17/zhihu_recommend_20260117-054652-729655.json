@@ -1,0 +1,879 @@
+{
+  "data": [
+    {
+      "id": "96_1768600018.192",
+      "type": "feed",
+      "offset": 96,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600018,
+      "updated_time": 1768600018,
+      "target": {
+        "updated_time": 1768221221,
+        "voteup_count": 34,
+        "comment_count": 8,
+        "url": "https://api.zhihu.com/answers/1994145015497262898",
+        "author": {
+          "is_org": false,
+          "id": "1751d571cd57282c0451bc022ce7c1ce",
+          "user_type": "people",
+          "headline": "公众号：GitHubDaily",
+          "avatar_url": "https://pica.zhimg.com/50/v2-ff697aa2b563adba35deb9525a511c23_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 117016,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/1751d571cd57282c0451bc022ce7c1ce",
+          "url_token": "githubdaily",
+          "name": "GitHub Daily"
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-0f1d6909a1d07acb485e59cf1eb0ccbb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d802ab17dcd776e5b6de3b93432589e6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b6e0c653ead0fbb03ccadfdfa4e6d247_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0f41599430f41f18a4735cb9026311b7_720w.jpg?source=b6762063"
+        ],
+        "preview_type": "default",
+        "is_labeled": false,
+        "excerpt_new": "我刚从 Ubuntu 换到 Mac 的时候也一样，感觉这终端也太素了，黑白分明，连个 ls都不带颜色，简直像回到了上古时代。一开始我也走的老路，折腾 iTerm2 + Oh My Zsh，配了一堆插件和主题，确实好看了不少。 但用了一段时间发现，真正烦人的不是终端本身。 而是开一堆窗口：左边终端跑着服务，右边 VSCode 写代码，还得时不时 Alt-Tab 切到浏览器查文档、看监控，思路老是被打断。后来我干脆换了个思路，不再折腾怎么“美化”终端，…",
+        "content": "<p data-pid=\"DMOQxChw\">我刚从 Ubuntu 换到 Mac 的时候也一样，感觉这终端也太素了，黑白分明，连个<code>ls</code>都不带颜色，简直像回到了上古时代。</p><p data-pid=\"wv3sEX2j\">一开始我也走的老路，折腾 iTerm2 + Oh My Zsh，配了一堆插件和主题，确实好看了不少。</p><p data-pid=\"3DYIy_Et\">但用了一段时间发现，真正烦人的不是终端本身。</p><p data-pid=\"12nDO_6b\">而是开一堆窗口：左边终端跑着服务，右边 VSCode 写代码，还得时不时 <code>Alt-Tab</code> 切到浏览器查文档、看监控，思路老是被打断。</p><p data-pid=\"ABM7RD3N\">后来我干脆换了个思路，不再折腾怎么“美化”终端，而是想怎么“整合”我的工作流。</p><p data-pid=\"-FDv2bYS\">直到发现了一个开源神器 <b>Wave Terminal</b>，用了两个月，感觉找到了归宿。它跟别的终端思路不太一样。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c348515a7284bce8ad7406b3e79f5cd2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"699\" data-original-token=\"v2-0f1d6909a1d07acb485e59cf1eb0ccbb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-c348515a7284bce8ad7406b3e79f5cd2_r.jpg\"/></figure><h3>把终端、编辑器、浏览器全塞一块儿</h3><p data-pid=\"00eA0D4R\">这玩意儿最核心的特点，就是能像搭积木一样，把所有东西都放在一个窗口里。</p><p data-pid=\"7_NjypO6\">以前我的桌面是这样的：终端窗口、VSCode 窗口、Chrome 窗口，乱七八糟。</p><p data-pid=\"FA8-QzGa\">现在我直接在 Wave 里分块，左边是终端，跑个后端服务，实时看日志；右边直接开一个网页视图，对着 API 文档或者 Grafana 监控页面调试。</p><p data-pid=\"bLxEqY85\">所有东西都在一个屏幕里，一目了然。这种感觉真的挺爽，不用再切来切去了，注意力非常集中。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a93703499e18cf8b91653f8c47fca494_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"675\" data-original-token=\"v2-d802ab17dcd776e5b6de3b93432589e6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-a93703499e18cf8b91653f8c47fca494_r.jpg\"/></figure><h3>直接在终端里用 VSCode 的体验改服务器文件</h3><p data-pid=\"xeTZcwfh\">题主提到 Vim 没配置很难用，这个我深有体会。以前 ssh 到服务器上改个 Nginx 配置或者程序的 <code>config.json</code>，就得硬着头皮用 Vim，小心翼翼地移动光标，生怕删错了。</p><p data-pid=\"cRylDk5S\">Wave 内置了一个和 VSCode 同款的编辑器（Monaco Editor）。现在我连上远程服务器，需要改文件时，它直接弹出一个图形化的编辑界面。语法高亮、鼠标点击、多光标编辑、复制粘贴，体验跟在本地用 VSCode 写代码几乎没区别。</p><p data-pid=\"VkemW8ZK\">就为了这个功能，都值得把它作为主力 SSH 工具了。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-375886581d029fa52f55b7fd8859057f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"646\" data-original-token=\"v2-b6e0c653ead0fbb03ccadfdfa4e6d247\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-375886581d029fa52f55b7fd8859057f_r.jpg\"/></figure><p data-pid=\"sLzlUB5q\">它还有些小细节做得不错。</p><p data-pid=\"WZOdHK2n\">比如它的 <b>AI 助手</b>，不是简单挂个聊天框。</p><p data-pid=\"qvWU2iPY\">当程序报错了，我不用手动复制粘贴那些错误日志，直接在下面问它“刚才为什么错了？”，它自己就能读取终端的上下文去分析，省了不少事。</p><p data-pid=\"69bEG2Ob\">而且支持 OpenAI、Claude，甚至还能用 Ollama 接本地模型，注重数据隐私的同学也能用。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-97f55213543b437007c9609a7156be5f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"638\" data-rawheight=\"466\" data-original-token=\"v2-c36eb5311f8f95ceb02deeb1ec72c6f4\" class=\"origin_image zh-lightbox-thumb\" width=\"638\" data-original=\"https://pic4.zhimg.com/v2-97f55213543b437007c9609a7156be5f_r.jpg\"/></figure><p data-pid=\"XZjB6r7m\">还有就是<b>会话保持</b>。对于我们这种经常连远程服务器的人来说，最怕网络一抖，SSH 连接断了，之前开的环境、查的日志全没了。</p><p data-pid=\"4xT2b46D\">Wave 能把会话状态都保存下来，就算我电脑重启了，再打开 Wave，上次的工作区、开着的 Tab、历史命令全都在，直接就能接着干活。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b46bca02b04d2e468a2bbdb14302cbbb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"852\" data-original-token=\"v2-0f41599430f41f18a4735cb9026311b7\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-b46bca02b04d2e468a2bbdb14302cbbb_r.jpg\"/></figure><h3>不过，它也有缺点</h3><p data-pid=\"qccNw-Xj\">有一说一，这玩意儿确实有点吃内存。</p><p data-pid=\"6KgRIUtT\">因为它本质上是把浏览器内核、编辑器这些重型家伙都集成进来了，跟 iTerm2、Alacritty 这种纯粹的终端比，资源占用肯定要高一截。</p><p data-pid=\"aNzF7tFK\">如果你的 Mac 是配置比较老旧的型号，比如还是 Intel 芯片的旧款 Air，跑起来可能会感觉到一点压力。我的 M1 Pro 跑着倒是挺流畅。</p><p data-pid=\"3vFYfazD\">总的来说，如果你跟我一样，厌倦了在十几个窗口之间反复横跳，想搞个 All-in-One 的工作台，而不是单纯美化终端，那 Wave Terminal 绝对值得一试。</p><p data-pid=\"stO3RWIV\">它把解决问题的思路从“优化终端”提升到了“优化工作流”，这点我很喜欢。</p><p data-pid=\"tNuAxfbV\">项目在 GitHub 上，完全开源，全平台支持：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/wavetermdev/waveterm\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/wavetermdev/</span><span class=\"invisible\">waveterm</span><span class=\"ellipsis\"></span></a></p>",
+        "favorite_count": 63,
+        "vote_next_step": "vote",
+        "question": {
+          "follower_count": 0,
+          "answer_count": 0,
+          "comment_count": 1,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/318045233",
+          "author": {
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/112799c52e43e107c3b0ad037715d147",
+            "user_type": "people",
+            "name": "fine",
+            "headline": "薪资最低的C++开发",
+            "followers_count": 822,
+            "id": "112799c52e43e107c3b0ad037715d147",
+            "url_token": "xiao-xiao-mu-yu-68-33",
+            "avatar_url": "https://picx.zhimg.com/50/v2-27056ac848c916e205c4fda54209a92c_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "created": 1553890950,
+          "id": "318045233",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "excerpt": "",
+          "detail": "",
+          "type": "question",
+          "title": "程序员怎么配置 Mac 的终端？",
+          "bound_topic_ids": [
+            17,
+            24,
+            707,
+            11606,
+            17596
+          ]
+        },
+        "excerpt": "我刚从 Ubuntu 换到 Mac 的时候也一样，感觉这终端也太素了，黑白分明，连个 ls都不带颜色，简直像回到了上古时代。一开始我也走的老路，折腾 iTerm2 + Oh My Zsh，配了一堆插件和主题，确实好看了不少。 但用了一段时间发现，真正烦人的不是终端本身。 而是开一堆窗口：左边终端跑着服务，右边 VSCode 写代码，还得时不时 Alt-Tab 切到浏览器查文档、看监控，思路老是被打断。后来我干脆换了个思路，不再折腾怎么“美化”终端，…",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "created_time": 1768221221,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "type": "answer",
+        "is_copyable": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-0f1d6909a1d07acb485e59cf1eb0ccbb_720w.jpg?source=b6762063",
+        "visited_count": 3268,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "id": "1994145015497262898",
+        "thanks_count": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994145015497262898}",
+      "attached_info": "CqQHCOSZ/YD165HYmgEQBBoJNzY1MTMwNjkwIKXUk8sGKCIwCEBgSjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifVoIMzI5NTMwNzBiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk0MTQ1MDE1NDk3MjYyODk4igEJMzE4MDQ1MjMzqgEJcmVjb21tZW5kwgEgMTc1MWQ1NzFjZDU3MjgyYzA0NTFiYzAyMmNlN2MxY2XyAQoIDBIGTm9ybWFs8gEoCAoSJGExM2MwYjdiLTI1MTMtNGQzNi04YzNjLTQyYTE2MWVjMmZmNvIBBggLEgIxN4ICAIgCjr2axrwzkgIgMTc1MWQ1NzFjZDU3MjgyYzA0NTFiYzAyMmNlN2MxY2WaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIgVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjLoAgX6AgtOT1JNQUxfRkxPV4oDIGUwYjQwZGQ4MzdiNzQwZTE4ZmU4NzY3ZGY1Mjk3YjMwmgMNCgJ2MhAAGgVvdGhlcqgDxBnYAwDqAxZmZWVkcmVfZmlyc3Rfc2NyZWVuX3Yy+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELgIGLsFIiN2Mi0wZjFkNjkwOWExZDA3YWNiNDg1ZTU5Y2YxZWIwY2NiYjotCAIQuAgYowUiI3YyLWQ4MDJhYjE3ZGNkNzc2ZTViNmRlM2I5MzQzMjU4OWU2Oi0IAhC4CBiGBSIjdjItYjZlMGM2NTNlYWQwZmJiMDNjY2FkZmRmYTRlNmQyNDc6LQgCEP4EGNIDIiN2Mi1jMzZlYjUzMTFmOGY5NWNlYjAyZGVlYjFlYzcyYzZmNDotCAIQuAgY1AYiI3YyLTBmNDE1OTk0MzBmNDFmMThhNDczNWNiOTAyNjMxMWI3gAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgekWMP4EFAAAAAAAAAACJBf1a6s9Pn7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRGQBgCgBmKoBgGSAi4KCTc2NTEzMDY5MBITMTk5NDE0NTAxNTQ5NzI2Mjg5OBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "97_1768600018.754",
+      "type": "feed",
+      "offset": 97,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600018,
+      "updated_time": 1768600018,
+      "target": {
+        "comment_count": 149,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "蒙方对外给出的解释很实在，说是为了“防走失牲畜”，但只要稍微了解点中蒙边境情况的人都清楚，这背后其实是边境缓冲区的悄悄升级。 在茫茫戈壁滩上插木桩拉铁丝，若是单纯为了拦住几只眼神不好的骆驼或者贪嘴的山羊，这成本是不是高得有点离谱了？ 更何况，蒙古国现在的钱袋子并不鼓。翻翻2025年一季度的财政报表就能看到，国家统一预算收入掉了16.2%，赤字高达3530亿图格里克（约9896万美元）。 哪怕是在这种可以说是“勒紧裤…",
+        "preview_type": "default",
+        "content": "<p data-pid=\"xV-QbqRl\">蒙方对外给出的解释很实在，说是为了“防走失牲畜”，但只要稍微了解点中蒙边境情况的人都清楚，这背后其实是边境缓冲区的悄悄升级。<br/><br/><br/>在茫茫戈壁滩上插木桩拉铁丝，若是单纯为了拦住几只眼神不好的骆驼或者贪嘴的山羊，这成本是不是高得有点离谱了？<br/><br/><br/>更何况，蒙古国现在的钱袋子并不鼓。翻翻2025年一季度的财政报表就能看到，国家统一预算收入掉了16.2%，赤字高达3530亿图格里克（约9896万美元）。<br/><br/>哪怕是在这种可以说是“勒紧裤腰带”的节骨眼上，他们宁可背着将近一亿美元的赤字压力，也要掏出这笔巨款来修墙，显然，“防牲口”只是摆在台面上最好听的理由。<br/><br/>要看懂这道网背后的深意，得先把目光投向东戈壁省这片土地。<br/><br/>这里是蒙古国著名的“畜牧大本营”，手里攥着100万头牲畜的家底。别的不说，光是那个“沙漠之舟”骆驼，数量就排在全国第二，加上50万只绵羊和20万只山羊，这里的每一根草都要养活无数张嘴。全省虽然93.1%的地都被划为了牧场，可大自然的脸色这几年越来越难看。<br/><br/>根据粮农组织的那些调查，蒙古国65%的牧场都在退化。这不是冷冰冰的数据，而是实实在在的生存危机。<br/><br/>你看看水就知道怎么回事了——2025年11月的时候，色楞格河上游甚至断流了21天，这是三十年来没见过的惨状；连那个流向中国呼伦湖的克鲁伦河，水量都缩水了18%。<br/><br/>水没了，草就不长；草不长，牲口就要饿死。那些不懂什么国界线的牛马羊群，唯一的生存本能就是追着水草走。结果就是，越界事件像滚雪球一样多起来。<br/><br/>2025年记录在案的就有312起，比往年大概多了一半。最要命的是，这些乱跑的牲口有八成五都集中在一块特殊的区域——甘其毛都和策克这两个口岸之间。<br/><br/>这才是蒙方最焦虑的点。<br/><br/>这两个口岸可不是普通的通商点，那是中蒙经济的大动脉。甘其毛都每天吞吐着上千辆运煤的卡车，那是蒙古国两大矿山通往世界的路，2025年的货运量都冲破3200万吨了，连最先进的无人运输车（AGV）都在这跑。<br/><br/>一边是牵动国家经济命脉的繁忙物流线，一边是因生态恶化而不断“南下”觅食的百万牲畜大军，两者若是没有一道硬隔离，冲突就在所难免。<br/><br/>以前大家讲究个邻里情分，牲口过界了，双方主管部门打个招呼，或者那是按惯例赶回去就算完事。但现在的形势变了。<br/><br/>那个被签发的总统令里，甚至专门把11月定成了“边防月”。把修铁丝网这种基建活儿，直接拔高到了“边防”的政治高度，这意味着蒙古国的管理思路从“协调处理”转向了“物理硬控”。<br/><br/>这种心态的微妙变化，其实还有别的迹象。就在这修网消息传出的前后脚，中方其实通过外交渠道表达过一些技术上的担忧。<br/><br/>原因是蒙古国在肯特省还要搞个500万立方米的水坝，但这事儿并没有按照1994年的《中蒙边界水协定》提前半年跟邻居打招呼。一边是悄悄截水，一边是高价筑墙，这两件事放在一起看，就能品出点不一样的味道。<br/><br/>不过，你要说这是蒙古国要跟邻居“切割”，那也是想多了。<br/><br/>作为一个内陆国，蒙古国91.3%的出口货物最终都要卖给中国。在尝试了一圈所谓的“第三邻国”策略没捞到什么实惠后，他们比谁都清楚，这个南边的邻居才是饭碗所在。这次东戈壁省的铁丝网，其实更像是对混乱现状的一次“强行整理”。<br/><br/>中国这边的海关早就给开了绿灯，允许他们那些符合检疫的牛羊肉进口，这是真金白银的市场。<br/><br/>蒙方大概也明白，想要把生意做长久，靠以前那种“羊随草走、人随羊走”的游牧式边境管理肯定是不行了。特别是在甘其毛都这种连AGV都跑起来的现代化物流节点附近，必须要建立起规范的缓冲区。<br/><br/>这一道130公里长、造价3600万美元的铁丝网，确实是能拦得住那几十万只饥肠辘辘、想要南下找草吃的山羊，也能把那个越界数字压下去。<br/><br/>但它终究是一道物理屏障。它拦不住地下水位的下降，拦不住气候变暖带来的干旱，也解决不了那个根本问题——当家里的草场再也养不活这100万头牲畜时，牧民的出路到底在哪？<br/><br/>这笔巨额预算砸下去，换来的是边境线上的一道清晰界线，也是蒙古国在生态困局与经济依赖之间，试图找到的一个平衡点。<br/><br/>至于这道昂贵的铁丝网能不能真的带来安稳，那不仅要看它结不结实，还得看老天爷赏不赏脸降点雨了。<br/><br/>信息来源：网易—倒反天罡！蒙古要在中国边境修建铁丝网，以前不是汉人修长城吗</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2ce8a78cdea0da3eb3f48baec4c68073_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"616\" data-rawheight=\"824\" data-original-token=\"v2-df10b17744b749a8efab77e1bcaab8aa\" class=\"origin_image zh-lightbox-thumb\" width=\"616\" data-original=\"https://pic4.zhimg.com/v2-2ce8a78cdea0da3eb3f48baec4c68073_r.jpg\"/></figure>",
+        "type": "article",
+        "updated": 1766711367,
+        "voting": 0,
+        "preview_text": "",
+        "is_labeled": false,
+        "visited_count": 208786,
+        "article_type": "normal",
+        "is_navigator": false,
+        "comment_permission": "all",
+        "created": 1766711367,
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/0cc905c8e258834b87965e7d52eb2475",
+          "user_type": "people",
+          "headline": "聚焦国际万象，用视频跨越文化边界，传递全球多元精彩",
+          "avatar_url": "https://picx.zhimg.com/50/v2-98c91a749717394cca5627ff2fcea3fe_l.jpg?source=b6762063",
+          "gender": 0,
+          "id": "0cc905c8e258834b87965e7d52eb2475",
+          "url_token": "p-7-85",
+          "name": "白虎简科",
+          "is_org": false,
+          "followers_count": 3489
+        },
+        "voteup_count": 838,
+        "vote_next_step": "vote",
+        "id": "1987812157740562306",
+        "url": "https://api.zhihu.com/articles/1987812157740562306",
+        "favorite_count": 149,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "title": "蒙古国总统呼日勒苏赫签署文件，决定在与中国接壤的东戈壁省增建130公里的铁丝网，这笔工程预算达到1200亿图格里克，换算成美元大概3600万。",
+        "excerpt_new": "蒙方对外给出的解释很实在，说是为了“防走失牲畜”，但只要稍微了解点中蒙边境情况的人都清楚，这背后其实是边境缓冲区的悄悄升级。 在茫茫戈壁滩上插木桩拉铁丝，若是单纯为了拦住几只眼神不好的骆驼或者贪嘴的山羊，这成本是不是高得有点离谱了？ 更何况，蒙古国现在的钱袋子并不鼓。翻翻2025年一季度的财政报表就能看到，国家统一预算收入掉了16.2%，赤字高达3530亿图格里克（约9896万美元）。 哪怕是在这种可以说是“勒紧裤…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1987812157740562306}",
+      "attached_info": "CvgFCOSZ/YD165HYmgEQBxoJMjY4MTk3NzIzIMfAt8oGKMYGMJUBQGFKQgogVFNfU09VUkNFX1NPQ0lBTF9GT0xMT1dfTkVBUkxJTkUSGG5lYXJsaW5lQ29udGVudFYyOjEyODE5MBgAIAA6AGIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5ODc4MTIxNTc3NDA1NjIzMDaqAQlyZWNvbW1lbmTCASAwY2M5MDVjOGUyNTg4MzRiODc5NjVlN2Q1MmViMjQ3NfIBCggMEgZOb3JtYWzyASgIChIkMjkwYTQxZDAtMGM2MC00NmU0LWFiNTYtNzExM2ZkNmI2ZWI18gEGCAsSAjE3ggIAiAKPvZrGvDOSAiAwY2M5MDVjOGUyNTg4MzRiODc5NjVlN2Q1MmViMjQ3NZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCIFRTX1NPVVJDRV9TT0NJQUxfRk9MTE9XX05FQVJMSU5F6AID+gILTk9STUFMX0ZMT1eKAyBlMGI0MGRkODM3Yjc0MGUxOGZlODc2N2RmNTI5N2IzMJoDDQoCdjIQABoFb3RoZXKoA5LfDNgDAOoDFmZvbGxvd2VkTmVhckxpbmVSZWNhbGz6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBDoBBi4BiIjdjItZGYxMGIxNzc0NGI3NDlhOGVmYWI3N2UxYmNhYWI4YWGABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAADAAKA/gQUAAAAAAAAAAIkF/Vrqz0+ftD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEZAGAKAGY6gGA5ICLgoJMjY4MTk3NzIzEhMxOTg3ODEyMTU3NzQwNTYyMzA2GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "98_1768600018.432",
+      "type": "feed",
+      "offset": 98,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600018,
+      "updated_time": 1768600018,
+      "target": {
+        "is_labeled": false,
+        "segment_infos": [
+          {
+            "pid": "RuL9-344",
+            "text": "这是你锻炼识人能力的基本素质。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 13,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992387403302855227"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "eB3TUpGj",
+            "text": "放一万个心，一次看不出来的，得多看几次才能把人看明白。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992387417269887308"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "tDm4werq",
+            "text": "人和人之间，情绪，认知都是能量。且这种能量属于有限资源。有效社交一定是共赢，也就是彼此之间，情绪互通，认知方面相互学习，提高。再不然，你提供情绪价值，对方给你提供认知提高，或者金钱价值。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 88,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992894018837816524"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "CkNb3weV",
+            "text": "如果打破这种平等性，必然有一方会内耗，说白了就是你拿你自己的能量给别人供养，你还不知道。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995511597536399658"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Z76dUGX1",
+            "text": "装x和好为人师，本身就是一种对周边关系的情绪掠夺，来获取优越感。能掠夺你，本质就没看得起你，别看题主你坐月子，她去看你。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 60,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993589426446677677"
+                  ],
+                  "is_like": false,
+                  "like_count": 10,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "lAcxt3Mq",
+            "text": "当一个人情绪能量被榨干的时候，他就会表现的暴躁，压抑，原始本性明显。真正的朋友一定会懂得维护你的情绪，或者索取你情绪的同时给你提供其他方面的有效价值，有所回馈。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 77,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995601655299859232"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "dOe14xab",
+            "text": "所以一定要及时清理自己的社交关系，维护好自己的社交环境，遇到这类人，及时断联，或者保持距离。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 46,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993487876634199876"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "LuD9L9YM",
+            "text": "有的人相识一两天交谈就相见恨晚，有的人交往20年依旧塑料感情。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995486567691748159"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "hpQ1mCfO",
+            "text": "所以真的有价值的有效关系，无论是朋友关系还是业务关系，都是需要维护的。都是需要彼此之间建立共鸣感的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 48,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992389458012688458"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "wLo-MtPT",
+            "text": "这种维护不光是没事打个电话，胡扯八扯。得在事上见。所以看人不光得听他说，得看他办事，",
+            "marks": [
+              {
+                "start_index": 2,
+                "end_index": 41,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994867100179785475"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Nh3vQvlt",
+            "text": "通过这观察对方性格上有啥变化才是稳妥的。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992389832736018644"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "fhOzC3mf",
+            "text": "以前关系再好的人，也可能看你念情，借着之前的感情坑你，这种事太多了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994867116445303647"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "hcVvXfaK",
+            "text": "维护缘分在对外问题上，不管对错，都要站在恋人或者爱人这边。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 27,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992389908799722544"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "5RGX9f4l",
+            "text": "其实很多婚恋幼稚的人喜欢给对象在对外问题，或者对方情绪不稳定的时候讲道理，",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995511750112609640"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "gkhVwVkZ",
+            "text": "这其实确实有点幼稚。因为你真的喜欢对方，对外的任何看法问题，对你们俩都不重要，不重要的事不用过于执拗。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 50,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992389964676228886"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Q_3LZewt",
+            "text": "感情不是理性的，选择是需要理性的，感情的加深需要的是陪伴，需要的是理解，这是相互的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995446701520068904"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "sFjsOMLG",
+            "text": "破坏你和你老公关系的人，你不去骂她，你反过来回去对你老公破防。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 27,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993941257043613400"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "RCj_PN18",
+            "text": "其实我觉得有些女生的闺蜜对好朋友的关系尺度把握比较畸形，就是不成熟。通过介入别人情缘因果来刷存在感，满足掌控欲。美其名曰我是为你好，希望你过得好，这种站在上帝视角蛊惑人心的方式，本身就是一种不平等。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 99,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995511801379587699"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "name": "实践出真知",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-15edb52bf4f31434ba54c48792bc4584_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_following": false,
+          "id": "ee658969a40762ace79d1cf9f301176c",
+          "user_type": "people",
+          "headline": "ENFJ，搞软件的，撸铁十多年了，健力三年，健美6年，文史控",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "健身话题下的优秀答主",
+              "topic_names": [
+                "健身"
+              ],
+              "topic_ids": [
+                658
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜运动健身领域影响力榜答主"
+            }
+          ],
+          "followers_count": 51316,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/ee658969a40762ace79d1cf9f301176c",
+          "url_token": "198805266911"
+        },
+        "reshipment_settings": "disallowed",
+        "question": {
+          "detail": "",
+          "question_type": "normal",
+          "created": 1731988653,
+          "follower_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "author": {
+            "id": "574d8b04d60143de37f378986d5bb527",
+            "url_token": "xinying666",
+            "headline": "职业会计 乐趣是每天刷刷知乎",
+            "is_org": false,
+            "followers_count": 463,
+            "url": "https://api.zhihu.com/people/574d8b04d60143de37f378986d5bb527",
+            "user_type": "people",
+            "name": "颖小妞",
+            "avatar_url": "https://picx.zhimg.com/50/v2-34958793771c82614031e28ca8545cdc_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "answer_count": 0,
+          "id": "4556719850",
+          "comment_count": 55,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/4556719850",
+          "title": "闺蜜向我炫耀他老公，我破防了，和老公吵架了，我该怎么恢复心态？",
+          "bound_topic_ids": [
+            47284
+          ]
+        },
+        "excerpt_new": "人吧，随着年龄增长，一定要练出一个能力来， 就是听别人说话，看别人做事，不要光听对方说话的意思，不光要看他做了什么。更要琢磨明白，他为什么要说那些话，为什么要做那些事，他的目的动机。通过这些来判断这个人的性格，是否和你共频，或者说是否可以合作。 这是你锻炼识人能力的基本素质。 放一万个心，一次看不出来的，得多看几次才能把人看明白。 下面我说点干的哈 1，少和总在你面前装x的人一起玩，无论你们之前多亲近。 …",
+        "preview_type": "default",
+        "voteup_count": 1724,
+        "thanks_count": 130,
+        "comment_count": 106,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "excerpt": "人吧，随着年龄增长，一定要练出一个能力来， 就是听别人说话，看别人做事，不要光听对方说话的意思，不光要看他做了什么。更要琢磨明白，他为什么要说那些话，为什么要做那些事，他的目的动机。通过这些来判断这个人的性格，是否和你共频，或者说是否可以合作。 这是你锻炼识人能力的基本素质。 放一万个心，一次看不出来的，得多看几次才能把人看明白。 下面我说点干的哈 1，少和总在你面前装x的人一起玩，无论你们之前多亲近。 …",
+        "url": "https://api.zhihu.com/answers/1992322672324006207",
+        "content": "<p data-pid=\"KHGHdh1O\">人吧，随着年龄增长，一定要练出一个能力来，</p><h3>就是听别人说话，看别人做事，不要光听对方说话的意思，不光要看他做了什么。</h3><h3>更要琢磨明白，他为什么要说那些话，为什么要做那些事，他的目的动机。</h3><p data-pid=\"EezK3s1M\">通过这些来判断这个人的性格，是否和你共频，或者说是否可以合作。</p><p data-pid=\"RuL9-344\">这是你锻炼识人能力的基本素质。</p><p data-pid=\"eB3TUpGj\">放一万个心，一次看不出来的，得多看几次才能把人看明白。</p><p data-pid=\"uNagk88n\">下面我说点干的哈</p><h3>1，少和总在你面前装x的人一起玩，无论你们之前多亲近。</h3><p data-pid=\"tDm4werq\"><b>人和</b><b>人之间，情绪，认知都是能量。且这种能量属于有限资源。</b>有效社交一定是共赢，也就是彼此之间，情绪互通，认知方面相互学习，提高。再不然，你提供情绪价值，对方给你提供认知提高，或者金钱价值。</p><h3>无论是哪种价值交互，关键点在于平等性，这种关系才能深交。</h3><p data-pid=\"CkNb3weV\">如果打破这种平等性，必然有一方会内耗，<b>说白了就是你拿你自己的能量给别人供养，你还不知道。</b></p><p data-pid=\"wmZZtD-W\">除非向上社交，对方和你存在地位差距，对方可以给你提供有效资源。</p><p data-pid=\"fUGG-hG7\"><b>否则朋友或者好朋友关系，总在你面前装逼，你大可不必惯他毛病。</b></p><p data-pid=\"1_VCKfn2\">装x是什么？</p><p data-pid=\"Z76dUGX1\"><b>装x和好为人师，本身就是一种对周边关系的情绪掠夺，来获取优越感。能掠夺你，本质就没看得起你，别看题主你坐月子，她去看你。</b></p><p data-pid=\"lAcxt3Mq\"><b>当</b><b>一个人情绪能量被榨干的时候，他就会表现的暴躁，压抑，原始本性明显。</b>真正的朋友一定会懂得维护你的情绪，或者索取你情绪的同时给你提供其他方面的有效价值，有所回馈。</p><p data-pid=\"dOe14xab\"><b>所以一定要及时清理自己的社交关系，维护好自己的社交环境，遇到这类人，及时断联，或者保持距离。</b></p><h3>2，人不是一成不变的</h3><p data-pid=\"1CfdTVCj\">现在是网络时代，社交圈子比较容易拓展。受到不同圈子影响，人的价值观是会受到影响的，是有变化的。</p><p data-pid=\"myrLWfZr\">念在咱们当年多好多好，念在咱们之前的感情。。。。。。</p><p data-pid=\"nxzdAP7X\">这些话，当个场面话听就可以了。</p><p data-pid=\"K2wJr1Rt\"><b>两个人关系的长短，缘分的长短，看的是两个人的共频。</b></p><p data-pid=\"LuD9L9YM\"><b>有的人相识一两天交谈就相见恨晚，有的人交往20年依旧塑料感情。</b></p><p data-pid=\"h6gKECRH\"><b>后者最可悲，投入时间精力换不来有效社交。</b></p><p data-pid=\"hpQ1mCfO\">所以真的有价值的有效关系，无论是朋友关系还是业务关系，都是需要维护的。都是需要彼此之间建立共鸣感的。</p><p data-pid=\"wLo-MtPT\"><b>这种维护不光是没事打个电话，胡扯八扯。得在事上见。所以看人不光得听他说，得看他办事，</b></p><p data-pid=\"Nh3vQvlt\"><b>通</b><b>过这观察对方性格上有啥变化才是稳妥的</b>。</p><p data-pid=\"fhOzC3mf\">以前关系再好的人，也可能看你念情，借着之前的感情坑你，这种事太多了。</p><h3>3，亲密关系选择之前要慎重，选了别后悔，无论是爱人，还是恋人。</h3><p data-pid=\"9v3DAJzl\">想要维护缘分其实很简单。很多知乎的情感博主在这方面其实都说复杂了。</p><p data-pid=\"hcVvXfaK\"><b>维护缘分在对外问题上，不管对错，都要站在恋人或者爱人这边。</b></p><p data-pid=\"5RGX9f4l\">其实很多婚恋幼稚的人喜欢给对象在对外问题，或者对方情绪不稳定的时候讲道理，</p><p data-pid=\"gkhVwVkZ\">这其实确实有点幼稚。<b>因为你真的喜欢对方，对外的任何看法问题，对你们俩都不重要，不重要的事不用过于执拗。</b></p><p data-pid=\"Q_3LZewt\">感情不是理性的，选择是需要理性的，感情的加深需要的是陪伴，需要的是理解，这是相互的。</p><p data-pid=\"YfMKkWFz\"><b>所以针对你和你老公，你闺蜜属于外人。</b></p><p data-pid=\"sFjsOMLG\"><b>破坏你和你老公关系的人，你不去骂她，你反过来回去对你老公破防。</b></p><p data-pid=\"8tELQ7Rb\">你觉得对么？这合理么？你们俩的生活，你们应该自己协调，你们之间的矛盾应该你们俩内部消化，别人指指点点，</p><p data-pid=\"idNxFuTq\"><b>记住任何人介入他人正缘因果都是坏。</b></p><p data-pid=\"RCj_PN18\"><b>其实我觉得有些女生的闺蜜对好朋友的关系尺度把握比较畸形，就是不成熟。通过介入别人情缘因果来刷存在感，满足掌控欲。美其名曰我是为你好，希望你过得好，这种站在上帝视角蛊惑人心的方式，本身就是一种不平等。</b></p><h2>最后，人无论是在关系上，还是自我习惯上，如果学不会断舍离，一定没啥长进，这种闺蜜不要也罢</h2><p></p><p></p><p></p><p></p><p></p>",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "updated_time": 1767837954,
+        "preview_text": "",
+        "created_time": 1767786740,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "id": "1992322672324006207",
+        "visited_count": 161180,
+        "favorite_count": 1650,
+        "is_copyable": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1992322672324006207}",
+      "attached_info": "CuEFCOSZ/YD165HYmgEQBBoJNzY0NDQ2MTk1IPSR+coGKLwNMGpAYko/CipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU0SATAYACAAOgp7InJhdyI6IiJ9WgkxMTE4ODgwMThiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTkyMzIyNjcyMzI0MDA2MjA3igEKNDU1NjcxOTg1MKoBCXJlY29tbWVuZMIBIGVlNjU4OTY5YTQwNzYyYWNlNzlkMWNmOWYzMDExNzZj8gEKCAwSBk5vcm1hbPIBKAgKEiQzYzVhZDFlZi0xZGU0LTQwYTAtOGY1MS0yYjIyOTBkMGM5YTTyAQYICxICMTeCAgCIAo+9msa8M5ICIGVlNjU4OTY5YTQwNzYyYWNlNzlkMWNmOWYzMDExNzZjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVN6AIF+gILTk9STUFMX0ZMT1eKAyBlMGI0MGRkODM3Yjc0MGUxOGZlODc2N2RmNTI5N2IzMJoDDQoCdjIQABoFb3RoZXKoA5zrCdgDAOoDEG5ld2JpZV9mZWVkcmVfdjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAOY6TP4EFAAAAAAAAAACJBf1a6s9Pn7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRGQBgCgBmSoBgCSAi4KCTc2NDQ0NjE5NRITMTk5MjMyMjY3MjMyNDAwNjIwNxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "99_1768600018.970",
+      "type": "feed",
+      "offset": 99,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600018,
+      "updated_time": 1768600018,
+      "target": {
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 7369,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "is_navigator": false,
+        "id": "1995124531015226984",
+        "created_time": 1768454755,
+        "thanks_count": 0,
+        "comment_count": 10,
+        "excerpt_new": "985 一共 39 个，除掉国防科大这个军方研究所，一共 38 个。38 个里面，北大清华复旦浙大上交科大南大人大西交哈工北航东南武大华科南开天大中山同济厦大（共 19 所）远强于或不弱于北理工（加上北理工正好 20 所，已经过半了，剩下的就是中下游 985 了）。又知道北理工远强于南理工，那南理工能是个什么定位自己不知道么？剩下的学校山川吉是好惹的吗？（综合性差远了）还是南理工飘了觉得自己比什么西北工业、华南理工、中南大…",
+        "preview_type": "default",
+        "is_labeled": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "updated_time": 1768573273,
+        "is_copyable": true,
+        "question": {
+          "bound_topic_ids": [
+            105487,
+            1334302
+          ],
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/1984617294140293726",
+          "answer_count": 0,
+          "id": "1984617294140293726",
+          "comment_count": 0,
+          "question_type": "normal",
+          "detail": "",
+          "type": "question",
+          "author": {
+            "name": "momo",
+            "is_following": false,
+            "id": "c50d289aba00ebae1c55af9e89267311",
+            "url": "https://api.zhihu.com/people/c50d289aba00ebae1c55af9e89267311",
+            "user_type": "people",
+            "url_token": "kk-67-51",
+            "followers_count": 231,
+            "is_followed": false,
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-de0fcdff72e1524c892b59d2926ff50e_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1
+          },
+          "title": "南京理工当年要是进入985工程，在四大理工里可以排第几？",
+          "created": 1765949635,
+          "follower_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "excerpt": "985 一共 39 个，除掉国防科大这个军方研究所，一共 38 个。38 个里面，北大清华复旦浙大上交科大南大人大西交哈工北航东南武大华科南开天大中山同济厦大（共 19 所）远强于或不弱于北理工（加上北理工正好 20 所，已经过半了，剩下的就是中下游 985 了）。又知道北理工远强于南理工，那南理工能是个什么定位自己不知道么？剩下的学校山川吉是好惹的吗？（综合性差远了）还是南理工飘了觉得自己比什么西北工业、华南理工、中南大…",
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1995124531015226984",
+        "author": {
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 83,
+          "is_followed": false,
+          "id": "ed1708aaa5af1c9cdce4b8923ccc424d",
+          "user_type": "people",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/56730ce0ed25a516fd410f76b8d97191_l.jpg?source=b6762063",
+          "url": "https://api.zhihu.com/people/ed1708aaa5af1c9cdce4b8923ccc424d",
+          "url_token": "zhan-ruo-yang",
+          "name": "峯山乌鸦",
+          "is_following": false
+        },
+        "voteup_count": 21,
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"rp8aeFSE\">985 一共 39 个，除掉国防科大这个军方研究所，一共 38 个。38 个里面，北大清华复旦浙大上交科大南大人大西交哈工北航东南武大华科南开天大中山同济厦大（共 19 所）远强于或不弱于北理工（加上北理工正好 20 所，已经过半了，剩下的就是中下游 985 了）。又知道北理工远强于南理工，那南理工能是个什么定位自己不知道么？剩下的学校山川吉是好惹的吗？（综合性差远了）还是南理工飘了觉得自己比什么西北工业、华南理工、中南大学强多了？（论理工科也不如）南理工不需要太多意淫的假如，就保持现在头部 211 我看就挺好。</p>",
+        "favorite_count": 1
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995124531015226984}",
+      "attached_info": "CpwGCOSZ/YD165HYmgEQBBoJNzY1NTE0NDAyIOP0ocsGKBUwCkBjSlsKKVRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTF9USU1FX05FV19DT05URU5UEihob3RfcmVjYWxsX3JlYWx0aW1lX3Q6bmV3N2Q6MjAyNi0wMS0xNzoyGAAgADoAWgkxMTc3NDUwMTFiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1MTI0NTMxMDE1MjI2OTg0igETMTk4NDYxNzI5NDE0MDI5MzcyNqoBCXJlY29tbWVuZMIBIGVkMTcwOGFhYTVhZjFjOWNkY2U0Yjg5MjNjY2M0MjRk8gEKCAwSBk5vcm1hbPIBKAgKEiRkNGI5OTg4NC1mNTc4LTRlYTEtOThhYy0zZGViNzA5ODE3MTTyAQYICxICMTeCAgCIAo+9msa8M5ICIGVkMTcwOGFhYTVhZjFjOWNkY2U0Yjg5MjNjY2M0MjRkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCKVRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTF9USU1FX05FV19DT05URU5U6AIC+gILTk9STUFMX0ZMT1eKAyBlMGI0MGRkODM3Yjc0MGUxOGZlODc2N2RmNTI5N2IzMJoDDQoCdjIQABoFb3RoZXKoA8k52AMA6gMiaG90Q3Jvc3NSZWFsVGltZU5ld0NvbnRlbnRSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAADlQpE/gQUAAAAAAAAAAIkF/Vrqz0+ftD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEZAGAKAGZagGAJICLgoJNzY1NTE0NDAyEhMxOTk1MTI0NTMxMDE1MjI2OTg0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "100_1768600018.433",
+      "type": "feed",
+      "offset": 100,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600018,
+      "updated_time": 1768600018,
+      "target": {
+        "type": "article",
+        "title": "Roo Code：AI驱动的企业级开发助手",
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_text": "",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/ac6a92a9abf5af00c185c6e0c49e87ba",
+          "name": "How",
+          "headline": "",
+          "gender": 1,
+          "is_org": false,
+          "followers_count": 94,
+          "is_followed": false,
+          "id": "ac6a92a9abf5af00c185c6e0c49e87ba",
+          "user_type": "people",
+          "url_token": "how-84",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-4bcad4b52d3d8ba796c031cc6ca56f7c_l.jpg?source=b6762063"
+        },
+        "comment_permission": "all",
+        "voting": 0,
+        "excerpt": "Roo Code 是一款基于 AI 的智能编程助手，专为开发者设计的 VS Code 插件，其前身是开源项目 Cline，现通过深度优化成为企业级开发工具。Roo Code 定位为 AI 驱动的自主编程代理，通过自然语言交互与自动化工具链，帮助开发者完成从代码生成、系统设计到调试优化的全流程开发任务。其核心目标是提升开发效率，降低复杂任务的实现门槛 。核心功能多模式开发支持代码模式（Code Mode）,架构师模式（Architect Mode）,调试模式（Deb…",
+        "excerpt_new": "Roo Code 是一款基于 AI 的智能编程助手，专为开发者设计的 VS Code 插件，其前身是开源项目 Cline，现通过深度优化成为企业级开发工具。Roo Code 定位为 AI 驱动的自主编程代理，通过自然语言交互与自动化工具链，帮助开发者完成从代码生成、系统设计到调试优化的全流程开发任务。其核心目标是提升开发效率，降低复杂任务的实现门槛 。核心功能多模式开发支持代码模式（Code Mode）,架构师模式（Architect Mode）,调试模式（Deb…",
+        "visited_count": 10,
+        "favorite_count": 1,
+        "vote_next_step": "vote",
+        "id": "1903044452748097162",
+        "created": 1768596408,
+        "voteup_count": 0,
+        "content": "<p data-pid=\"5gHgVFYu\">Roo Code 是一款基于 <b>AI 的智能编程助手</b>，专为开发者设计的 VS Code 插件，其前身是开源项目 Cline，现通过深度优化成为企业级开发工具。</p><p data-pid=\"6f4SepeH\">Roo Code 定位为 <b>AI 驱动的自主编程代理</b>，通过自然语言交互与自动化工具链，帮助开发者完成从代码生成、系统设计到调试优化的全流程开发任务。其核心目标是提升开发效率，降低复杂任务的实现门槛 。</p><h2>核心功能</h2><h3><b>多模式开发支持</b></h3><p data-pid=\"lMZpD6dC\">代码模式（Code Mode）,架构师模式（Architect Mode）,调试模式（Debug Mode）,协调模式（Orchestrator Mode）,自定义模式（Custom Modes）.</p><h3><b>智能工具集成</b></h3><ul><li data-pid=\"QehzWvgv\"><b>文件与终端操作</b>：直接读写文件、执行构建命令（如 Maven/Gradle），并自动响应编译错误。</li><li data-pid=\"aUtsXcB8\"><b>浏览器自动化</b>：控制本地或远程 Web 应用，执行自动化测试与调试。</li><li data-pid=\"eDbVh6Vu\"><b>MCP 协议扩展</b>：通过模型上下文协议集成外部 API 和数据库，支持自定义开发工具链。</li></ul><h3><b>企业级工程化能力</b></h3><ul><li data-pid=\"419p4GX9\"><b>代码规范与安全</b>：集成 SonarQube 规则集，实时检测技术债务与漏洞，支持企业定制代码规范。</li><li data-pid=\"YkM6kxHF\"><b>OpenAPI 同步生成</b>：从代码注释自动生成文档，保持与代码实时同步。</li><li data-pid=\"6ZSgprWJ\"><b>团队协作支持</b>：集成知识库管理，支持 Kubernetes/Docker 模板生成，优化多人协作流程。</li></ul><h2>技术架构亮点</h2><h3>分层配置系统</h3><ul><ul><li data-pid=\"jYZR3-r7\">采用分层提示词设计，支持语言规则、模式配置与生态扩展的灵活组合。</li><li data-pid=\"-F0rrk0L\">通过 <b>MCP 协议</b>实现工具扩展，开发者可添加自定义 API 或数据库连接。</li></ul></ul><h3>智能对话引擎</h3><ul><ul><li data-pid=\"-wJLZ_0R\">基于 <b>DeepSeek V3、GPT-4</b> 等多模型支持，通过流式处理优化响应速度。</li><li data-pid=\"wqxL9jYm\">支持上下文引用（如 <code>@file</code>、<code>@folder</code>），快速整合项目环境信息。</li></ul></ul><h3>安全与隔离机制：</h3><ul><ul><li data-pid=\"Gr4CEAJB\">沙箱环境执行终端命令，限制资源占用与网络访问，防止恶意操作。</li><li data-pid=\"ILDlFyaw\">本地模型支持离线使用，保障企业数据隐私。</li></ul></ul><h2>典型应用场景</h2><h3>企业级项目开发：</h3><ul><ul><li data-pid=\"tzudkpmZ\"><b>案例</b>：通过自然语言指令生成完整的 Spring Boot 项目（含 MySQL/JPA 配置），自动创建 Maven 结构、基础安全类和集成测试模板。</li></ul></ul><h3>复杂错误修复：</h3><ul><ul><li data-pid=\"BhT9AtlT\"><b>案例</b>：当出现 <code>NullPointerException</code> 时，Roo Code 标记可疑代码行，提供 Optional 处理、断言检查等多方案修复建议。</li></ul></ul><h3>自动化测试与部署：</h3><ul><ul><li data-pid=\"uKjuJ6NF\"><b>案例</b>：通过浏览器自动化执行端到端测试，结合 Kubernetes 模板生成 CI/CD 流水线。</li></ul></ul><h2>安装和配置</h2><h3>插件安装</h3><p data-pid=\"ZAzatAtZ\">在 Vscode 中搜索并安装插件 Roo Code</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-900039fc0424a56c3cf80298d33592f5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"311\" data-rawheight=\"795\" data-original-token=\"v2-0e343261105a4fcde355559b14a6f275\" class=\"content_image\" width=\"311\"/></figure><h3>大模型配置</h3><p data-pid=\"8LQi8TLB\">这里介绍一个收费的和一个免费的大模型，都是笔者用得比较多的。</p><ul><li data-pid=\"VPot7CcQ\">智谱 AI 的 GLM-4.7</li></ul><p data-pid=\"cIJb6B1S\">因为智谱最近上市了，在搞优惠活动，所以我试着订阅了一个季度的 智谱 GLM Coding Lite，它支持 Claude Code、Cline 等 20+ 大编程工具，当然也支持 Roo Code！用这个邀请链接下单可以立减 10% 金额：<a href=\"https://link.zhihu.com/?target=https%3A//www.bigmodel.cn/glm-coding%3Fic%3D4FMMH6CBUP\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">智谱 AI 开放平台</a></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5d2f0c670496a4b177097cb2b268f5ad_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"269\" data-rawheight=\"795\" data-original-token=\"v2-24e6a458721b4681a5fb8d9c3ce1849d\" class=\"content_image\" width=\"269\"/></figure><ul><li data-pid=\"ryQaCtDI\">Roo Code 云的 Grok Code Fast 1</li></ul><p data-pid=\"t8fHrOtS\">这个模型是 Roo Code 上唯一长期提供的免费大模型，首先要注册 Roo Code 云，然后登录 Roo Code 云。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8172edc836419290cf744ba06f92403c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"325\" data-rawheight=\"287\" data-original-token=\"v2-5fc9e89c977bf13f0ec3c89c12be2c5e\" class=\"content_image\" width=\"325\"/></figure><p data-pid=\"x_6LAgPi\">我们看到了这个免费大模型 Grok Code Fast 1，它时不时也会短期提供其他免费大模型，主要是做厂家推广用的，我之前就在这里用过几天免费的 MiniMax-M2。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-086c5ba3fbdf230bea95364d63ac30f6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"769\" data-rawheight=\"629\" data-original-token=\"v2-4792aa95a8114f9200620182400a1436\" class=\"origin_image zh-lightbox-thumb\" width=\"769\" data-original=\"https://pic1.zhimg.com/v2-086c5ba3fbdf230bea95364d63ac30f6_r.jpg\"/></figure><p data-pid=\"tXwnDwMq\">我们另外创建一个大模型配置如下</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3796c4c0943163b1e815c517811027a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"264\" data-rawheight=\"777\" data-original-token=\"v2-022b106ab4b8a732b85b4fd23271bb76\" class=\"content_image\" width=\"264\"/></figure><h3>使用 Roo Code</h3><p data-pid=\"5WiWiXKB\">和 Cline 只有 Plan 和 Act 模式不同，Roo Code 有五种默认的模式，是一套连招，不再是碎片化的了。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-91bb5a938404006e6a43a1409b50a3cf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"322\" data-rawheight=\"343\" data-original-token=\"v2-62a3da6a652aa4e8c06b94224cbb7444\" class=\"content_image\" width=\"322\"/></figure><p data-pid=\"IXghe0BY\">在 vscode 中打开一个新文件夹，进入 Roo Code 界面。因为懒得去看官方的英文文档，所以首先进入 ask 模式询问“说说你的各个默认模式都是干啥的”，我们得到的回答如下:</p><blockquote data-pid=\"ty4adgq8\">我作为 Roo，一个战略工作流程协调器，拥有以下默认模式，每个模式都有特定的职责和适用场景：<br/><b>🏗️ Architect 模式 (architect)</b>：用于规划、设计或战略化任务。适合分解复杂问题、创建技术规范、设计系统架构，或在实施前头脑风暴解决方案。<br/><b>💻 Code 模式 (code)</b>：用于编写、修改或重构代码。理想于实现新功能、修复 bug、创建新文件，或跨任何编程语言或框架进行代码改进。<br/><b>❓ Ask 模式 (ask)</b>：用于获取解释、文档或回答技术问题。最好用于理解概念、分析现有代码、获取推荐，或学习技术而无需进行更改。<br/><b>🪲 Debug 模式 (debug)</b>：用于故障排除、调查错误或诊断问题。专门用于系统调试、添加日志、分析堆栈跟踪，并在应用修复前识别根本原因。<br/><b>🪃 Orchestrator 模式 (orchestrator)</b>：用于复杂、多步骤项目，需要跨不同专业协调。理想于将大型任务分解为子任务、管理工作流程，或协调跨越多个领域或专业的工作。</blockquote><p data-pid=\"g8i5kpC8\">然后我们在 Orchestratoe 模式问问 Roo Code 的开发流程建议，“从流程上来讲，你建议我如何用你的不同模式来开发一个全新的项目？”，它想在 Ask 模式下创建新子任务来获取解释：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3d51b604cddc33f7809e01d776d59752_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"314\" data-rawheight=\"757\" data-original-token=\"v2-4c58e864d89cd9d4323d8fefb2e9526c\" class=\"content_image\" width=\"314\"/></figure><p data-pid=\"TdQjvIlD\">在 Ask 模式下的子任务完成后，提示返回 Orchestrator 模式的主任务</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0c57ea2ccd1503bbbb760c40f7d640f3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"305\" data-rawheight=\"751\" data-original-token=\"v2-f7f3d4d599a82beb81ed4366701998ef\" class=\"content_image\" width=\"305\"/></figure><p data-pid=\"4I4kbkfE\">回到主任务之后，会把子任务的结果带过来</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1bd10646efad752784095c9d2d6ecfeb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"309\" data-rawheight=\"748\" data-original-token=\"v2-8306ab162aa792f8d2eb8de5febb5e5c\" class=\"content_image\" width=\"309\"/></figure><p data-pid=\"j7AUZ132\">回答内容如下(因为原文是 Markdown 格式放在文章里导致段落混乱，所以就放在引用中了)</p><div class=\"highlight\"><pre><code class=\"language-text\">新项目开发中的多模式使用流程指南\n一、模式概述与适用场景\n🏗️ Architect 模式（架构师模式）\n适用场景：\n\n项目初期需求分析和规划\n系统架构设计和技术选型\n数据库设计和 API 规划\n复杂问题的解决方案设计\n编写技术规格文档\n核心职责： 规划和设计，不直接编写代码\n\n💻 Code 模式（代码模式）\n适用场景：\n\n实现具体功能代码\n重构和优化现有代码\n创建新文件和模块\n修复简单的 bug（已知原因）\n编写测试代码\n核心职责： 编写、修改和优化代码\n\n🪲 Debug 模式（调试模式）\n适用场景：\n\n系统性排查未知错误\n分析堆栈跟踪和异常\n添加诊断日志\n定位根本原因\n性能瓶颈分析\n核心职责： 诊断问题，而非直接修复\n\n❓ Ask 模式（询问模式）\n适用场景：\n\n理解现有代码逻辑\n获取技术概念解释\n学习新技术或框架\n代码审查建议\n文档和最佳实践咨询\n核心职责： 解释和提供信息，不修改代码\n\n🪃 Orchestrator 模式（协调者模式）\n适用场景：\n\n复杂多步骤项目的整体管理\n跨领域任务的协调\n工作流的分解和调度\n进度跟踪和状态管理\n模式间的切换决策\n核心职责： 协调和管理整个开发流程\n\n二、典型开发阶段的模式使用顺序\n阶段 1：项目启动与规划\n需求收集\n\nOrchestrator\n\nArchitect\n\n技术方案设计\n\nOrchestrator\n\n任务分解\n\n流程步骤：\n\nOrchestrator 接收项目需求，进行初步评估\n切换到 Architect 进行：\n需求分析\n技术栈选型\n系统架构设计\n数据库设计\nArchitect 输出技术规格文档\nOrchestrator 接收规格文档，分解为可执行任务\n阶段 2：核心功能开发\n是\n\n否\n\n是\n\n否\n\n是\n\n否\n\nOrchestrator\n\n分配任务\n\n需要设计?\n\nArchitect\n\nCode\n\n遇到错误?\n\nDebug\n\nOrchestrator\n\n需要解释?\n\nAsk\n\n继续任务\n\n流程步骤：\n\nOrchestrator 分配具体开发任务\n根据任务类型选择模式：\n新模块设计 → Architect\n直接实现 → Code\nCode 模式实现功能\n遇到问题时：\n未知错误 → Debug 诊断\n需要理解代码 → Ask 咨询\nOrchestrator 跟踪进度，决定下一步\n阶段 3：测试与优化\n否\n\n是\n\nOrchestrator\n\nCode 编写测试\n\n运行测试\n\n测试通过?\n\nDebug 分析\n\nCode 修复\n\nArchitect 评估优化\n\nCode 实施优化\n\nOrchestrator 验收\n\n阶段 4：部署与维护\n是\n\n否\n\nOrchestrator\n\nArchitect 规划部署\n\nCode 准备部署配置\n\n部署执行\n\n生产问题?\n\nDebug 诊断\n\nCode 修复\n\n完成\n\n三、Orchestrator 的核心管理职责\n1. 任务分解与分配\nOrchestrator 工作流程：\n├── 接收高层需求\n├── 分析任务复杂度\n├── 分解为子任务\n├── 确定每个子任务所需的模式\n└── 创建 TODO 列表跟踪进度\n\n2. 模式切换决策树\n遇到任务时，Orchestrator 判断：\n\n┌─────────────────────────────────────┐\n│  需要规划或设计？                    │\n└──────────────┬──────────────────────┘\n               │ 是\n               ↓\n         Architect\n               │\n               ↓ 否\n┌─────────────────────────────────────┐\n│  需要编写/修改代码？                 │\n└──────────────┬──────────────────────┘\n               │ 是\n               ↓\n           Code\n               │\n               ↓ 否\n┌─────────────────────────────────────┐\n│  遇到未知错误或需要诊断？             │\n└──────────────┬──────────────────────┘\n               │ 是\n               ↓\n          Debug\n               │\n               ↓ 否\n┌─────────────────────────────────────┐\n│  需要解释或理解概念？                 │\n└──────────────┬──────────────────────┘\n               │ 是\n               ↓\n            Ask\n\n\n3. 进度跟踪与状态管理\nOrchestrator 使用 TODO 列表管理项目状态：\n\n[x] 需求分析\n[x] 架构设计\n[-] 核心功能开发\n[ ] API 路由实现\n[ ] 数据库连接\n[ ] 用户认证\n[ ] 测试与调试\n[ ] 部署准备\n\n4. 协调跨领域任务\n当任务涉及多个领域时：\n\n示例：添加用户认证功能\n\nOrchestrator 协调流程：\n1. Architect → 设计认证架构和数据库 schema\n2. Code → 实现后端认证 API\n3. Code → 实现前端登录界面\n4. Debug → 测试认证流程，排查问题\n5. Ask → 理解现有代码中的认证逻辑\n6. Orchestrator → 验证完整功能，标记完成\n\n四、实际项目示例：Sudoku 游戏开发\n完整工作流演示\n阶段 1：项目初始化\n─────────────────────────────────────────\nOrchestrator: 接收「开发在线数独游戏」需求\n    ↓\nArchitect: 设计系统架构\n    - 前端：Next.js + React + TypeScript\n    - 后端：Express + TypeScript\n    - 数据库：Supabase (PostgreSQL)\n    - 功能模块：游戏、排行榜、历史记录、用户认证\n    ↓\nOrchestrator: 创建任务列表\n\n阶段 2：核心功能开发\n─────────────────────────────────────────\nOrchestrator: 分配任务「实现数独游戏逻辑」\n    ↓\nCode: 实现 sudoku.ts 算法\n    ↓\nCode: 实现 SudokuBoard.tsx 组件\n    ↓\nCode: 实现 Sudoku.tsx 游戏组件\n    ↓\nDebug: 游戏逻辑错误，添加日志定位问题\n    ↓\nCode: 修复算法 bug\n    ↓\nOrchestrator: 标记游戏模块完成\n\n阶段 3：API 开发\n─────────────────────────────────────────\nOrchestrator: 分配任务「实现排行榜 API」\n    ↓\nArchitect: 设计排行榜数据结构和 API 接口\n    ↓\nCode: 实现后端 /api/leaderboard 路由\n    ↓\nCode: 实现前端排行榜页面\n    ↓\nDebug: 数据排序问题，分析查询逻辑\n    ↓\nCode: 修复排序算法\n    ↓\nOrchestrator: 标记排行榜完成\n\n阶段 4：集成测试\n─────────────────────────────────────────\nOrchestrator: 安排全流程测试\n    ↓\nCode: 编写测试用例\n    ↓\nDebug: 发现认证状态丢失问题\n    ↓\nAsk: 理解 AuthProvider 工作原理\n    ↓\nCode: 修复认证状态管理\n    ↓\nOrchestrator: 验证所有功能，准备部署\n\n\n五、最佳实践建议\n1. 模式使用原则\n原则\t说明\n单一职责\t每次只使用一个模式完成特定任务\n按需切换\t根据任务需求动态切换模式\nOrchestrator 主导\t复杂项目始终由 Orchestrator 统筹\n先设计后编码\t新功能优先用 Architect 规划\n2. 避免常见错误\n❌ 错误做法：\n\n在 Debug 模式下直接修复代码\n在 Code 模式下做架构决策\n跳过 Architect 直接开始编码\n忽略 Orchestrator 的任务管理\n✅ 正确做法：\n\nDebug 诊断后切换到 Code 修复\n架构问题切换到 Architect\n新功能先规划再实现\n让 Orchestrator 跟踪所有任务\n3. 高效工作流建议\n快速迭代小功能：\nAsk → Code → Orchestrator\n\n复杂功能开发：\nOrchestrator → Architect → Code → Debug → Orchestrator\n\n问题排查：\nDebug → Ask → Code → Orchestrator\n\n学习新技术：\nAsk → Architect → Code\n\n六、总结\n在新项目开发中，各模式的协调使用遵循以下核心原则：\n\nOrchestrator 是指挥官 - 负责整体规划和进度管理\nArchitect 是设计师 - 负责架构和技术方案\nCode 是执行者 - 负责具体实现\nDebug 是诊断师 - 负责问题定位\nAsk 是顾问 - 负责知识传递\n通过这种分工明确的模式协作，可以确保项目从规划到实现的每个阶段都有合适的工具支持，最终高效完成项目目标。</code></pre></div><h2>总结</h2><p data-pid=\"1ptOuFVK\">有了 Roo Code 这样全流程的工具，加上智谱和 MIniMax 这样能提供专攻编程的大模型，差不多国内公司可以放心地在生产环境中最大限度地使用 AI 辅助编码了。</p>",
+        "article_type": "normal",
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/articles/1903044452748097162",
+        "updated": 1768596408,
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1903044452748097162}",
+      "attached_info": "CrQJCOSZ/YD165HYmgEQBxoJMjU3MzY2MDIxILjHqssGKAAwAEBkSmsKH1RTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX1dPUkQSEzExNTI5MjE1MDQ2MDgwNzY5ODYYACAAOi97Im1lZGlhX3R5cGUiOiJJTUFHRV9URVhUIiwicGluX21lZGlhX3R5cGUiOiIifWIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5MDMwNDQ0NTI3NDgwOTcxNjKqAQlyZWNvbW1lbmTCASBhYzZhOTJhOWFiZjVhZjAwYzE4NWM2ZTBjNDllODdiYfIBCggMEgZOb3JtYWzyASgIChIkZWE4M2I5MzItY2FjZS00ZjY0LWJlY2ItNTM2YjU2NDEwYTIy8gEGCAsSAjE3ggIAiAKPvZrGvDOSAiBhYzZhOTJhOWFiZjVhZjAwYzE4NWM2ZTBjNDllODdiYZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAh9UU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9XT1JE6AIC+gILTk9STUFMX0ZMT1eKAyBlMGI0MGRkODM3Yjc0MGUxOGZlODc2N2RmNTI5N2IzMJoDDQoCdjIQABoFb3RoZXKoAwrYAwDqAxNDb250cm9sSW50ZXJlc3RXb3Jk+gPGAxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELcCGJsGIiN2Mi0wZTM0MzI2MTEwNWE0ZmNkZTM1NTU1OWIxNGE2ZjI3NTotCAIQjQIYmwYiI3YyLTI0ZTZhNDU4NzIxYjQ2ODFhNWZiOGQ5YzNjZTE4NDlkOi0IAhDFAhifAiIjdjItNWZjOWU4OWM5NzdiZjEzZjBlYzNjODljMTJiZTJjNWU6LQgCEIEGGPUEIiN2Mi00NzkyYWE5NWE4MTE0ZjkyMDA2MjAxODI0MDBhMTQzNjotCAIQiAIYiQYiI3YyLTAyMmIxMDZhYjRiOGE3MzJiODViNGZkMjMyNzFiYjc2Oi0IAhDCAhjXAiIjdjItNjJhM2RhNmE2NTJhYTRlOGMwNmI5NDIyNGNiYjc0NDQ6LQgCELoCGPUFIiN2Mi00YzU4ZTg2NGQ4OWNkOWQ0MzIzZDhmZWZiMmU5NTI2YzotCAIQsQIY7wUiI3YyLWY3ZjNkNGQ1OTlhODJiZWI4MWVkNDM2NjcwMTk5OGVmOi0IAhC1AhjsBSIjdjItODMwNmFiMTYyYWE3OTJmOGQyZWI4ZGU1ZmViYjVlNWOABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOASUHA/gQUAAAAAAAAAAIkF/Vrqz0+ftD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEZAGAKAGZqgGAZICLgoJMjU3MzY2MDIxEhMxOTAzMDQ0NDUyNzQ4MDk3MTYyGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "101_1768600018.503",
+      "type": "feed",
+      "offset": 101,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600018,
+      "updated_time": 1768600018,
+      "target": {
+        "content": "<p data-pid=\"gY9Eew3k\">《富爸爸穷爸爸》其实是一本误导性很强的书；</p><p data-pid=\"eJKnUSwX\">全文都在告诉你，你要去钱生钱，你要去投资；</p><p data-pid=\"fKrkckwP\">可问题是，“什么未来在涨”，“什么未来在跌”，他根本没有提供判断方法，他全文就在不断的重复的说“房产会涨”；</p><p data-pid=\"kparWTBC\">然后25年的今天，房价都跌成什么样了；</p><p data-pid=\"kP1fOgfx\">就很讽刺</p><p data-pid=\"qIduZhLB\">实际上，《富爸爸穷爸爸》根本就对世界运行规律没有任何洞察，是个讲的非常浅，非常表面的一本书，我来给你酌字酌句的分析：</p><p data-pid=\"8yKSL3Vj\">1、富人买入资产，穷人只有支出，中产阶级买他们以为是资产的负债</p><p data-pid=\"JpUkBK3g\">典型的错误思维，在通缩阶段，储蓄就是值钱的，资产确确实实就是负债，没有分析经济环境的情况下，就直接做判断，典型的错误认知</p><p data-pid=\"DX2U55jF\">2、要成为金钱的主人，而不是它的奴隶</p><p data-pid=\"Op6KwyZH\">典型的废话，这句话你换成任何主语，全部是成立的，我来给你举些例子</p><p data-pid=\"QkLmJtOC\">要成为学习的主人，而不是它的奴隶</p><p data-pid=\"i4dUNqP3\">要成为奶茶的主人，而不是它的奴隶</p><p data-pid=\"5CqMOiPe\">要成为健康的主人，而不是它的奴隶</p><p data-pid=\"ux21n7Oh\">你换成任何主语，都是成立的，全文都是说这种话，来维持“权威”的地位，实在是充满了历史局限性</p><p data-pid=\"-JMuCcSo\">3、资产是能把钱放进你口袋里的东西，负债是把钱从你口袋里取走的东西。</p><p data-pid=\"bJ-BT-5H\">这句话我看的时候，真是无语了，《富爸爸穷爸爸》其实没有理解资产和负债的真实含义，其实理解的非常表面：</p><p data-pid=\"a3dGU5KW\">如果经济环境大幅通胀，负债就是真正的在“挣钱”，换句话就是，如果能预测马上要通胀，那就应该大举借债，能借多少借多少，因为“通胀会稀释债务”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"EDsDxpWI\">总的来说，《富爸爸穷爸爸》就是只讲表面，把复杂的经济规律，用一些洗脑的言论，直接反应了出来，这种书真是误人子弟，还有一大堆人认为这本书是真理；</p><p data-pid=\"_UG1gSyO\">其实《富爸爸穷爸爸》这种书，是对真理伤害最大的一类书，就是“通过只讲表面”，然后说一些“看似正确”的言论，从而“获取快速裂变和推荐”</p><p data-pid=\"r1zBLm2b\">本质是一本遗毒，外行充内行写的一本书，真懂经济学的人，还真写不出这本书</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "id": "1994448374087296156",
+        "voteup_count": 337,
+        "comment_count": 139,
+        "excerpt_new": "《富爸爸穷爸爸》其实是一本误导性很强的书； 全文都在告诉你，你要去钱生钱，你要去投资； 可问题是，“什么未来在涨”，“什么未来在跌”，他根本没有提供判断方法，他全文就在不断的重复的说“房产会涨”； 然后25年的今天，房价都跌成什么样了； 就很讽刺 实际上，《富爸爸穷爸爸》根本就对世界运行规律没有任何洞察，是个讲的非常浅，非常表面的一本书，我来给你酌字酌句的分析： 1、富人买入资产，穷人只有支出，中产阶级…",
+        "preview_type": "default",
+        "preview_text": "",
+        "visited_count": 36722,
+        "favorite_count": 77,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1994448374087296156",
+        "thanks_count": 12,
+        "is_copyable": true,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "type": "answer",
+        "author": {
+          "followers_count": 1055,
+          "user_type": "people",
+          "url_token": "zhou-shi-yu-66-42",
+          "headline": "武汉大学，互联网产品架构师，心理咨询师",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "互联网行业 从业人员"
+            }
+          ],
+          "is_following": false,
+          "is_followed": false,
+          "id": "ae162a10a0b986809defb9171f7326be",
+          "url": "https://api.zhihu.com/people/ae162a10a0b986809defb9171f7326be",
+          "name": "叶诗墨",
+          "avatar_url": "https://picx.zhimg.com/50/v2-2483f259c8df2a93c6bdc94a11bc9359_l.jpg?source=b6762063"
+        },
+        "created_time": 1768293547,
+        "updated_time": 1768293547,
+        "excerpt": "《富爸爸穷爸爸》其实是一本误导性很强的书； 全文都在告诉你，你要去钱生钱，你要去投资； 可问题是，“什么未来在涨”，“什么未来在跌”，他根本没有提供判断方法，他全文就在不断的重复的说“房产会涨”； 然后25年的今天，房价都跌成什么样了； 就很讽刺 实际上，《富爸爸穷爸爸》根本就对世界运行规律没有任何洞察，是个讲的非常浅，非常表面的一本书，我来给你酌字酌句的分析： 1、富人买入资产，穷人只有支出，中产阶级…",
+        "reshipment_settings": "allowed",
+        "question": {
+          "author": {
+            "id": "f6a76539dd0a6a9273b890599d03338d",
+            "url": "https://api.zhihu.com/people/f6a76539dd0a6a9273b890599d03338d",
+            "gender": 1,
+            "followers_count": 6382,
+            "avatar_url": "https://pic1.zhimg.com/50/v2-7e432abe0cb5a784f2c18ca7b5223960_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "chen-su-ge-9",
+            "name": "菩提下无善恶",
+            "headline": "为学日益，为道日损。"
+          },
+          "bound_topic_ids": [
+            395,
+            1895,
+            19800,
+            192688
+          ],
+          "is_following": false,
+          "type": "question",
+          "created": 1657950705,
+          "answer_count": 0,
+          "comment_count": 49,
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/543614412",
+          "question_type": "normal",
+          "id": "543614412",
+          "title": "为什么《富爸爸穷爸爸》里说：“储蓄是失败者所为”？",
+          "follower_count": 0,
+          "excerpt": "",
+          "detail": ""
+        },
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994448374087296156}",
+      "attached_info": "Ct0FCOSZ/YD165HYmgEQBBoJNzY1MjQ5MzE4IKuJmMsGKNECMIsBQGVKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1aCDgzMDg1Nzk5YiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NDQ0ODM3NDA4NzI5NjE1NooBCTU0MzYxNDQxMqoBCXJlY29tbWVuZMIBIGFlMTYyYTEwYTBiOTg2ODA5ZGVmYjkxNzFmNzMyNmJl8gEKCAwSBk5vcm1hbPIBKAgKEiQyN2EyMTEwNi03ZjMxLTQwNGEtOGM2ZC03M2NiZTNkMzYzZTLyAQYICxICMTeCAgCIAo+9msa8M5ICIGFlMTYyYTEwYTBiOTg2ODA5ZGVmYjkxNzFmNzMyNmJlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgL6AgtOT1JNQUxfRkxPV4oDIGUwYjQwZGQ4MzdiNzQwZTE4ZmU4NzY3ZGY1Mjk3YjMwmgMNCgJ2MhAAGgVvdGhlcqgD8p4C2AMA6gMZZmVlZHJlV2FybVN1Y2Nlc3NSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAECP7pc/gQUAAAAAAAAAAIkF/Vrqz0+ftD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEZAGAKAGZ6gGAJICLgoJNzY1MjQ5MzE4EhMxOTk0NDQ4Mzc0MDg3Mjk2MTU2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=101&desktop=true&end_offset=103&page_number=18&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=101&desktop=true&end_offset=103&page_number=18&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

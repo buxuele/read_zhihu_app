@@ -1,0 +1,841 @@
+{
+  "data": [
+    {
+      "id": "114_1768675052.890",
+      "type": "feed",
+      "offset": 114,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675052,
+      "updated_time": 1768675052,
+      "target": {
+        "favorite_count": 101,
+        "comment_count": 17,
+        "thanks_count": 3,
+        "question": {
+          "url": "https://api.zhihu.com/questions/863797329",
+          "follower_count": 0,
+          "type": "question",
+          "title": "为什么裁员很少听说过裁管理层的？",
+          "comment_count": 10,
+          "bound_topic_ids": [
+            11486,
+            15487,
+            40929
+          ],
+          "question_type": "normal",
+          "created": 1728854465,
+          "answer_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "863797329",
+          "author": {
+            "user_type": "people",
+            "url_token": "81-4-63-49-78",
+            "name": "十三朝",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 15,
+            "id": "ba4a7ef4df89a3ae54bde186be87093d",
+            "url": "https://api.zhihu.com/people/ba4a7ef4df89a3ae54bde186be87093d",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-2e22b652d32ce510a5dbfe90aa8a9d48_l.jpg?source=b6762063",
+            "is_following": false,
+            "is_followed": false
+          }
+        },
+        "type": "answer",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "2ddc134b2d6bcde89f883e4c051f1bc2",
+          "url": "https://api.zhihu.com/people/2ddc134b2d6bcde89f883e4c051f1bc2",
+          "user_type": "people",
+          "url_token": "ke-ke-neng-xing",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-a0874375d3926d8580eec8f4e8de3ce1_l.jpg?source=b6762063",
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "职场话题下的优秀答主",
+              "topic_names": [
+                "职场"
+              ],
+              "topic_ids": [
+                2566
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "优秀圈子主理人"
+            }
+          ],
+          "name": "晏北",
+          "headline": "理解芯片，理解经济",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 18955
+        },
+        "url": "https://api.zhihu.com/answers/1994759514768036269",
+        "updated_time": 1768542240,
+        "content": "<p data-pid=\"BBKBmZVT\">我以前很困惑，<b>一家公司，凭什么不干实事的总经理赚得最多？</b></p><p data-pid=\"zNLjY3x8\">那些在流水线挥汗如雨的工人，在办公室996的研发人员，在客户那里被训成孙子的销售，</p><p data-pid=\"c3ucCJ2q\">凭什么<b>只能赚前者的十分之一</b>，甚至更低？</p><p data-pid=\"Ogv5blbA\">一旦遇到裁员，多半又是后者承担了公司下行的成本。</p><p data-pid=\"jaWpk2Rl\">在职场浸淫几年，我大概领会了其中奥秘，</p><p data-pid=\"El0B7u5k\">职场的底层逻辑之一，<b>整合&gt;执行</b>，</p><p data-pid=\"YGqeyYaF\">当你理解这个<b>反直觉的逻辑</b>，自会明白，为什么裁员很少落到管理者身上，</p><p data-pid=\"aTGAVc-w\"><b>成为不同领域资源的枢纽，而非某一细分领域的执行者</b>，这是所有<b>上位者心领神会的秘密</b>。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-326411eab88d41a02a337c4a22ae1c41_1440w.jpg\" data-rawwidth=\"724\" data-rawheight=\"435\" data-size=\"normal\" data-original-token=\"v2-ee9dfeb0bb0e062c961b99a36bad65a2\" class=\"origin_image zh-lightbox-thumb\" width=\"724\" data-original=\"https://picx.zhimg.com/v2-326411eab88d41a02a337c4a22ae1c41_r.jpg\"/><figcaption>图片来源：网络</figcaption></figure><p data-pid=\"n2jF_9I5\">以芯片领域为例，解释这个逻辑。</p><p data-pid=\"HRBaTQ7O\">芯片制造需经过一套极其复杂的流程。为提升生产效率，<b>将整套流程拆分成十余个板块，每个板块雇佣专人处理</b>，</p><p data-pid=\"TOauUvSx\">光刻、干法、高温、金属、测试……</p><p data-pid=\"p1gmkI-6\">由此诞生两种角色——PE（<b>工艺</b>工程师）和PIE（<b>工艺整合</b>工程师），</p><p data-pid=\"4PZ2qmcH\">前者负责某一板块的工艺，</p><p data-pid=\"lFcDoPam\">后者<b>负责整合所有板块，串起产品的整套工艺流程</b>，</p><p data-pid=\"AHOep-x0\">而芯片领域稍有阅历的人都知道，<b>以职业前景而言，PIE优于PE，</b></p><p data-pid=\"CCMJClN8\">为什么会这样？</p><p data-pid=\"AopyPi2a\">许多PE不能理解，这些PIE有啥牛逼？<b>看上去都懂一点，但在每个细分领域又不如我们PE专精</b>，凭什么赚更多钱，有更好的发展？</p><p data-pid=\"QBF9Qkd7\">因为<b>PIE是资源整合者，就工作的附加值而言，整合&gt;执行</b>。</p><p data-pid=\"tgRYM_FJ\">他不需要和PE比较某一细分领域的专业程度，他的任务，<b>是将这十余个不同板块的工艺资源（人员、设备），整合在一起，</b></p><p data-pid=\"w8jAK8r5\">串起一整套流程，告诉各板块人员，到哪一步，做什么事，</p><p data-pid=\"mOYS5jS8\">一旦出现问题，迅速定位责任人，让对方认同自己的定位，积极处理。</p><p data-pid=\"5SlHx07Y\">这，就是<b>资源整合者的工作</b>。</p><p data-pid=\"E-FA8oTH\">理解这个逻辑，再往上推，很容易从各种角色的职责中，推出他们的<b>稀缺性</b>和<b>收入等级</b>，</p><p data-pid=\"rEIO-VDX\">普通PIE负责<b>一款/多款产品的工艺整合</b>，但往往<b>限于一两套平台工艺</b>，</p><p data-pid=\"m3168wcI\">PIE主管负责<b>整合公司十余套平台工艺</b>，将其分配给手下小弟，</p><p data-pid=\"d_CoaOGu\">到这里，都是量产小组内部的事情，</p><p data-pid=\"ey1g6lRN\">研发总监负责<b>整合研发、量产、可靠性、应用等不同小组的资源</b>，规划产品技术路线，</p><p data-pid=\"gDrMqat_\">到这里，都是研发部门内部的事情，</p><p data-pid=\"hA8p5rag\">总经理负责<b>整合研发、生产、质量、市场等不同部门的资源</b>，规划公司的战略方向，</p><p data-pid=\"VQMxpJQy\">到这里，都是公司内部的事情，</p><p data-pid=\"LH7ZC8wV\">再往上，<b>总公司负责整合各个分公司资源，</b>规划各个分公司的发展方向，</p><p data-pid=\"rv_1G6Yh\">到这里，已经是集团级别的事情。</p><p data-pid=\"tYn0sgNa\">这是个等级分明的链条，<b>越往上，可以整合的资源越多</b>（能调配的人员和机器数量），相应的，<b>稀缺性和收入越高</b>。</p><p data-pid=\"NkgE7Chv\">整合&gt;执行，一览无遗。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fee78e374a1362486a9916e4737bf5aa_1440w.jpg\" data-rawwidth=\"474\" data-rawheight=\"370\" data-size=\"normal\" data-original-token=\"v2-486da0b434abd53ae810d3b3ca5eaad9\" class=\"origin_image zh-lightbox-thumb\" width=\"474\" data-original=\"https://pic1.zhimg.com/v2-fee78e374a1362486a9916e4737bf5aa_r.jpg\"/><figcaption>图片来源：网络</figcaption></figure><p data-pid=\"i_vy89Rs\">说到这，必须解释一个概念——<b>“资源”</b>（<b>resources</b>），</p><p data-pid=\"TPAhuo0I\">这个词随处可见，但各位可曾思考，到底何为“资源”？</p><p data-pid=\"7jiyljgI\">我曾经不假思索地以为，<b>“资源”=“自然资源”</b>，如石油煤炭，如矿石黄金，</p><p data-pid=\"hOttDEMJ\">直到第一次带人，安排新人测试几只芯片，自己腾出时间研读文献，</p><p data-pid=\"2TgHKY3S\">我突然产生一种奇妙的感觉——<b>人，才是最珍贵的资源。</b></p><p data-pid=\"fUc6sT2W\">说来惭愧，求职时无数次看到“<b>人力资源</b>”一词，却从未深思其间逻辑，</p><p data-pid=\"48KTXTDx\">为什么之前没有意识到人作为资源的重要性？</p><p data-pid=\"RUb4hR3c\">现在想来，<b>之前的思考框架被某种政治正确的思想钢印束缚，在低维度认知兜兜转转而不自知</b>，</p><p data-pid=\"u9lSBV4j\">哪种思想钢印？</p><p data-pid=\"9G0QgLEs\">即，<b>人不可被物化，人是目的而非手段，人不应被视作产品</b>，</p><p data-pid=\"VJ7vVApX\">时至今日，我仍然认同这句话，</p><p data-pid=\"4JpNO-cn\">但我想强调，<b>这是一种应然，而非实然，</b></p><p data-pid=\"4OPkmU1x\">残酷的真相是——在现实世界里，很多人恰恰被各种或明或暗、若隐若现的力量，<b>视作与物无异的资源，视作可替代、可精确计算价值的产品</b>，</p><p data-pid=\"7fwrMKKX\">使用你需要多少成本，使用机器or其他国家的人力产品需要多少成本，一旦后者成本低于前者，那就把前者一脚踢开，重开一局。</p><p data-pid=\"Nas_jL2r\">更吊诡的事实在于——<b>若你没有意识到这一点，大概率你就是那款迷迷糊糊的人力产品</b>，</p><p data-pid=\"7_V4QkJ5\">你觉得应然的口号振奋人心，殊不知现实世界从来不是、在我们有生之年大概率也不能成为那副场景，</p><p data-pid=\"Cn2xKwy9\">到这里，我开始在有形的层面，理解“资源”一词：<b>既包括物力资源，更包括人力资源</b>。</p><p data-pid=\"uukVWV2S\">这仍然不够，</p><p data-pid=\"lUYHw8ps\">一段时间后，我开始<b>更深入思考这个问题</b>，</p><p data-pid=\"DM9RjLF0\">原因很简单，几个新人性情能力各不相同，我的初始安排常常不能得到很好的执行，</p><p data-pid=\"J6CSda9A\">偶有一次，<b>我给两个新人对调了任务，两人的效率都明显提升</b>，效果立竿见影，</p><p data-pid=\"jvY5TCCq\">我开始琢磨这现象背后的道理。</p><p data-pid=\"RM1geOe-\">一句话可以概括结论——优秀管理者的工作，就是<b>发掘手头人力、物力资源之间，更加高效的映射关系</b>。</p><p data-pid=\"rhxOdyX4\">何为映射关系？</p><p data-pid=\"g_OdOit8\">假使你手下有李元霸、萧何，以及爱因斯坦，你该如何安排这三人的工作？</p><p data-pid=\"ad51wUKV\">如果<b>让李元霸搞后勤，让爱因斯坦冲锋陷阵，让萧何研究武器</b>，这整体大概毫无战斗力。</p><p data-pid=\"wlUVTyUr\">高效的做法，当然是<b>让萧何搞后勤，让爱因斯坦研究武器，让李元霸冲锋陷阵</b>。</p><p data-pid=\"9TgKNT-E\">这例子看起来简单，但这是因为我们对这三人非常熟悉，</p><p data-pid=\"e3ZsUOKO\">换言之，我们已经<b>给他们贴上各自的标签</b>，在这种上帝视角之下，很容易建立高效的映射关系。</p><p data-pid=\"ZesGbnSB\">但在现实世界中，一旦管几个人，你就会发现，<b>对方有各种顾虑，不愿、不敢说真话，</b></p><p data-pid=\"aEQBdU0W\">有时你觉得对方某项工作做得不错，可下次就一塌糊涂，有时你觉得对方表现不佳，可下次又给你惊喜，</p><p data-pid=\"vPndj9TB\">更不用提不同领导不同看法对自己决策的影响，<b>譬如刘备觉得马谡言过其实不堪大用，诸葛亮不以为意，后有街亭</b>。</p><p data-pid=\"d7X1qDtP\">你面对太多噪音。</p><p data-pid=\"ndaIWTHr\">到这里，我开始触及<b>设计分工的逻辑</b>。</p><p data-pid=\"a3JkXi8U\">管理者与小兵最大的区别在哪里？</p><p data-pid=\"ZTNEZLVA\">答：<b>小兵只能调用物力资源，而管理者可以同时调用人力资源和物力资源，</b></p><p data-pid=\"1kwAaS1f\">换言之，管理者有权<b>建立人力资源、物力资源之间的映射关系</b>，有权<b>决定团队如何分工</b>，这，才是核心差异。</p><p data-pid=\"2BrcuhGN\">你手下有ABC三人，有甲乙丙三件事，<b>你该如何建立这三人、三事之间的对应关系</b>？</p><p data-pid=\"ffjBtGMi\">ABC三个家伙，A家里有钱吊儿郎当，B喜欢推事擅长钻营，C立志学习三和大神坚持躺平，</p><p data-pid=\"7eGxBmbI\"><b>你该如何将这些性情禀赋各异的家伙，捏成一个整体</b>？</p><p data-pid=\"hqK7zff4\">你不得不琢磨人性，</p><p data-pid=\"zsukbGPH\">A对普通的激励惩罚毫不在意，那就<b>想办法激发他的内驱力</b>，在职责范围内给他一定自由，让他凭兴趣研究某种与产品相关的东西，</p><p data-pid=\"wIEthX3T\">B擅长人际关系，那就让他更多负责<b>跨部门协调</b>和<b>客户对接</b>，做那些普通技术人员不愿做的事情，</p><p data-pid=\"cNG1_Kva\">C立志躺平，那就<b>把那些不用动脑子的垃圾事丢给他</b>，给能力强的家伙解放手脚，专注核心技术。</p><p data-pid=\"H_vQAZNa\"><b>从这个例子看，管理者的工作到底是什么？</b></p><p data-pid=\"_4iLJZdn\">是对人，</p><p data-pid=\"szFmEJsx\">更准确地说，是<b>处理人、事之间的关系</b>。</p><p data-pid=\"IklpuOam\">上面的模型，足以解释这逻辑，</p><p data-pid=\"Lygi-dDq\">你是主管，<b>能调动的资源包括ABC三人，再加上一台电脑、一台测试机器，以及一个通讯工具（如手机）</b>，</p><p data-pid=\"FZ6Izm2u\">你该如何建立人力物力资源之间的映射关系？</p><p data-pid=\"Us8LkVUn\"><b>三个人，三种物，共有6种映射</b>，你能否准确识别出整体产出最高的那种？</p><p data-pid=\"GgqApmF-\">从整个团队的角度，最高效的方式，<b>A——电脑，B——通讯工具，C——测试机器</b>，</p><p data-pid=\"i7qZUHId\">A的探索精神和自驱力，B的协调能力，C对重复性工作的耐受力都可以充分发挥，电脑、通讯工具和机器的效能得以充分利用。</p><p data-pid=\"8hxAqoGg\"><b>倘若让A机械操作机器，让B开发新产品，让C协调跨部门人际关系，</b></p><p data-pid=\"RVf08CwQ\"><b>项目大概率寸步难行</b>。</p><p data-pid=\"JcMDPS83\">从这个模型看，管理者的工作到底是什么？</p><p data-pid=\"Q7fUVox7\">答：深刻理解手头的人力物力资源特点，<b>通过调整分工方式，建立最高效的映射关系</b>，</p><p data-pid=\"gQv8xI0w\">这，就是配置资源的能力。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3669c78b2070a77aa469410c97567f88_1440w.jpg\" data-rawwidth=\"1440\" data-rawheight=\"785\" data-size=\"normal\" data-original-token=\"v2-e8155e48e11e4e153533c79a7c00819e\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic3.zhimg.com/v2-3669c78b2070a77aa469410c97567f88_r.jpg\"/><figcaption>图片来源：网络</figcaption></figure><p data-pid=\"WbUso0Dw\">到这里，我开始模糊意识到<b>第三种资源的存在</b>，</p><p data-pid=\"gxnMnu3X\">是的，<b>资源</b>（<b>resources</b>）一词，不限于人力资源和物力资源，还有<b>更底层、更无形，更难以察觉的第三种资源</b>，</p><p data-pid=\"Ebkg1uBI\">申请专利的经历使我产生这一想法，</p><p data-pid=\"eAbtDHZQ\"><b>申请专利需要委托律师事务所，并非自家公司就能完成的事情</b>，</p><p data-pid=\"z6jvbQbY\">技术人员负责构思idea，通过文本、绘图的形式，<b>使代理师理解创新点所在</b>，</p><p data-pid=\"ndnt_3Yn\">代理师负责润色法律用词，根据攻击性or防御性之目的，<b>确定合适的保护范围</b>，</p><p data-pid=\"JnWYquMi\">这种分工非常简单，不值得多费笔墨，</p><p data-pid=\"z9TlaWq9\">使我感兴趣的，是<b>申请专利的流程设计</b>。</p><p data-pid=\"csoz7rBB\">当我写完初始文稿，在内部提交流程，旬日内便有代理师联系我沟通相关细节，</p><p data-pid=\"iaKxAVdp\"><b>这是怎样的流程设计？经由哪些人审批？文件经历了怎样的流转？</b></p><p data-pid=\"pq5sdPpy\">从上帝视角看，非常清晰，</p><p data-pid=\"359TjYn6\">技术公司和专利事务所，<b>各有一套内部流程</b>，</p><p data-pid=\"OTYxE1Le\">技术人员涌现idea，提交流程，经由技术领导确认创新性，传递至科研助理，</p><p data-pid=\"qwLuyW7e\">助理将其整理归类，发给事务所，<b>于是事务所流程开启</b>，</p><p data-pid=\"pv10fAar\">对方想必同样经历了这样一套流程，最后选出一位代理师，与技术人员对接。</p><p data-pid=\"OaJqF05l\">从上帝视角俯瞰这个过程，</p><p data-pid=\"XIjjao2e\">通过两套流程设计，经由两家领导监督，<b>选出两个合适的人力资源（技术人员&amp;代理师），围绕权利交底书文本这一物力资源</b>，为其创造沟通的机会和沟通的动力，</p><p data-pid=\"nMy0Znmc\">在这个过程中，流程是什么？</p><p data-pid=\"dmG17E43\">是<b>分工的物理载体</b>，是一种<b>自动化分配工作的系统设计</b>，</p><p data-pid=\"DByNHaFr\">通过制造一套秩序，遴选合适的人力资源与物力资源，将其配置在一起，获得高效产出，</p><p data-pid=\"08kKiUAz\">这是物力资源、人力资源之外的第三种资源，是更深层次的资源类型，我称之为<b>链接型资源</b>，</p><p data-pid=\"k47We2l3\">这种资源，<b>是配置资源的资源</b>，是制造分工的底层逻辑。</p><p data-pid=\"8CoQ8FVv\">从这个角度看，管理者到底是什么角色？</p><p data-pid=\"dOAovnm5\">答：是<b>人形态的链接型资源</b>，是连接各种人力物力资源的枢纽，</p><p data-pid=\"V9tVqBIi\">研发主管可以链接<b>本组的人力资源</b>，开发一款新产品，让A做仿真，让B画版图，让C写专利，</p><p data-pid=\"JK9oP4GE\">研发总监可以链接<b>本部门的人力资源</b>，一场客户会议，让研发人员X解释芯片设计，让可靠性工程师Y解释失效分析，让应用工程师Z解释电路设计，</p><p data-pid=\"NZ9yZd7F\">总经理可以链接<b>整个公司的人力资源</b>，一场高级别汇报，让研发总监O介绍技术路线，让生产总监P介绍产线情况，让质量总监Q介绍质量体系，</p><p data-pid=\"0kjOWcLk\">……</p><p data-pid=\"hXFO-MNV\">这是个等级分明的链条，<b>越往上，能链接的人力物力资源，数量和类型越多</b>，于是可以尝试更加困难、更加宏大的事情。</p><p data-pid=\"rL78VDSX\">从这个角度亦能解释领导与小兵的核心差异——<b>前者作为链接型资源，理解整合资源的逻辑，后者只能作为资源中的一种类型被整合</b>。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5777d76cf283730e06934f32d99b7c31_1440w.jpg\" data-rawwidth=\"658\" data-rawheight=\"445\" data-size=\"normal\" data-original-token=\"v2-493e129434e282b7e30ec5663c453cdc\" class=\"origin_image zh-lightbox-thumb\" width=\"658\" data-original=\"https://pic2.zhimg.com/v2-5777d76cf283730e06934f32d99b7c31_r.jpg\"/><figcaption>图片来源：网络</figcaption></figure><p data-pid=\"wnik2ZCW\">理解以上逻辑，可以回答这个问题，</p><p data-pid=\"SsY49ajL\">管理者的核心竞争力到底在哪里？</p><p data-pid=\"0mWcarMU\">答：在于<b>枢纽</b>，</p><p data-pid=\"RdOwX4EN\">作为人形态的链接型资源，管理者是无数人力物力资源的枢纽，可以对其进行排列组合，以求更高效率，</p><p data-pid=\"AlGbjCu2\"><b>数量类型越多的资源在你这里交汇，公司裁掉你的成本越高</b>，</p><p data-pid=\"uMnOXFRQ\">而执行者为什么面临更高的裁员危机？</p><p data-pid=\"Ddc6pCXy\">因为执行者能链接的资源<b>数量太少、种类单一（往往只有某种物力资源）</b>，裁掉你的成本较低。</p><p data-pid=\"ovnMKIJa\">从小到大，<b>所有人都告诉我们，劳动最光荣</b>，这当然没问题，</p><p data-pid=\"v8t2_Vvg\">但，没人告诉我们，<b>不同形式的劳动，附加值存在高低</b>，</p><p data-pid=\"QVCsNmtN\"><b>就附加值而言，脑力劳动＞体力劳动</b>，这符合朴素的直觉，于是所有家长都不遗余力地逼孩子好好学习，考上名校。</p><p data-pid=\"4l2xakDC\">然而我们往往又会掉进另一个思想钢印——<b>认为只有理工科的科研活动，可称之为脑力劳动，与人相关的脑力活动，被认为是搞阴谋、小人行径</b>，</p><p data-pid=\"CAgmbXba\">在这种思想钢印下，理工背景的技术人员，容易陷入一个误区——我要当一个“纯粹”的技术人员，只研究技术，</p><p data-pid=\"UCagAPQG\"><b>于是陷入只会执行的困境</b>。</p><p data-pid=\"xv9Dq4XD\">因为整合，正是要面对各个部门、各个岗位的各种角色，<b>要想办法让这些人的能力，为我所用</b>，</p><p data-pid=\"hIsDPvjh\">你必须深刻理解人性，俯身体察各色人等的情绪和利益，<b>才能构建一个以自己为中心的协作体系，才能成为各领域资源的枢纽</b>。</p><p data-pid=\"1R60GEtC\">这，才是更高层次的核心竞争力。</p><p data-pid=\"rmuNlMv3\">什么时候才会裁管理层？</p><p data-pid=\"BsMfmWn4\">典型场景，是<b>大集团决定放弃边缘产品线</b>，于是那条线上的人基本都得离开，</p><p data-pid=\"0MGx2T4N\">这是市场层面的决策，普通人难以预测，</p><p data-pid=\"JwcsEa1Z\">应对裁员危机更具可行性的方式，<b>仍然是在做好执行的基础上，试着培养整合能力，试着拥有更高层级的核心竞争力。</b></p><p data-pid=\"Nn8IzGCc\">欢迎加入理工生职场破局圈，理解职场的底层逻辑～</p><p data-pid=\"CwdvvDBg\"><a href=\"https://www.zhihu.com/ring/host/1938275998073356336?share_code=8Ckkb7VCs1ow&amp;utm_psn=1952472261954078119\" data-icon-name=\"zhicon_icon_24_circle_club\" class=\"internal\">理工生职场破局</a></p><p data-pid=\"Mrt6xJYM\">关注 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/2ddc134b2d6bcde89f883e4c051f1bc2\" data-hash=\"2ddc134b2d6bcde89f883e4c051f1bc2\" data-hovercard=\"p$b$2ddc134b2d6bcde89f883e4c051f1bc2\">@晏北</a> ，理解芯片与经济~</p>",
+        "visited_count": 5660,
+        "allow_segment_interaction": true,
+        "id": "1994759514768036269",
+        "excerpt": "我以前很困惑， 一家公司，凭什么不干实事的总经理赚得最多？那些在流水线挥汗如雨的工人，在办公室996的研发人员，在客户那里被训成孙子的销售， 凭什么 只能赚前者的十分之一，甚至更低？一旦遇到裁员，多半又是后者承担了公司下行的成本。 在职场浸淫几年，我大概领会了其中奥秘， 职场的底层逻辑之一， 整合>执行，当你理解这个 反直觉的逻辑，自会明白，为什么裁员很少落到管理者身上， 成为不同领域资源的枢纽，而非某一细…",
+        "voteup_count": 71,
+        "navigator_vote": false,
+        "reshipment_settings": "allowed",
+        "is_copyable": true,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-e8155e48e11e4e153533c79a7c00819e_720w.jpg?source=b6762063",
+        "excerpt_new": "我以前很困惑， 一家公司，凭什么不干实事的总经理赚得最多？那些在流水线挥汗如雨的工人，在办公室996的研发人员，在客户那里被训成孙子的销售， 凭什么 只能赚前者的十分之一，甚至更低？一旦遇到裁员，多半又是后者承担了公司下行的成本。 在职场浸淫几年，我大概领会了其中奥秘， 职场的底层逻辑之一， 整合>执行，当你理解这个 反直觉的逻辑，自会明白，为什么裁员很少落到管理者身上， 成为不同领域资源的枢纽，而非某一细…",
+        "preview_text": "",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-e8155e48e11e4e153533c79a7c00819e_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "created_time": 1768367729
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994759514768036269}",
+      "attached_info": "CscHCMTqv+Lvo4GbtAEQBBoJNzY1MzY1Mzg3IPHMnMsGKEcwEUBySjsKKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9OEgg1OTM1MTAyMhgAIAA6AFoJMTExMTMyMTE2YiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NDc1OTUxNDc2ODAzNjI2OYoBCTg2Mzc5NzMyOaoBCXJlY29tbWVuZMIBIDJkZGMxMzRiMmQ2YmNkZTg5Zjg4M2U0YzA1MWYxYmMy8gEKCAwSBk5vcm1hbPIBKAgKEiQ3ZWFlMzhhNS0zYzNhLTRmZTgtYTJhYy00MzE5ZmIxOTVlZDXyAQYICxICMjCCAgCIAouU/um8M5ICIDJkZGMxMzRiMmQ2YmNkZTg5Zjg4M2U0YzA1MWYxYmMymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIpVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9BQ1RJT07oAgT6AgtOT1JNQUxfRkxPV4oDIDI4NTU5ODBjYmJiYTRmZTRiNzc5YTBlYzM4ZjM3N2JmmgMNCgJ2MhAAGgVvdGhlcqgDnCzYAwDqAx1maXJzdERlZ3JlZVVzZXJBY3Rpb25SZWNhbGxlcvoD2wESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxDUBRizAyIjdjItZWU5ZGZlYjBiYjBlMDYyYzk2MWI5OWEzNmJhZDY1YTI6LQgDENoDGPICIiN2Mi00ODZkYTBiNDM0YWJkNTNhZTgxMGQzYjNjYTVlYWFkOTotCAMQoAsYkQYiI3YyLWU4MTU1ZTQ4ZTExZTRlMTUzNTMzYzc5YTdjMDA4MTllOi0IAxCSBRi9AyIjdjItNDkzZTEyOTQzNGUyODJiN2UzMGVjNTY2M2M0NTNjZGOABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMA8f5c/gQUAAAAAAAAAAIkFd3ur5ppJtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFJAGAKAGcqgGAZICLgoJNzY1MzY1Mzg3EhMxOTk0NzU5NTE0NzY4MDM2MjY5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "115_1768675052.988",
+      "type": "feed",
+      "offset": 115,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675052,
+      "updated_time": 1768675052,
+      "target": {
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "segment_infos": [
+          {
+            "pid": "BzVsgDtj",
+            "text": "我来提供一个不同的视角，其实国家智囊团卧虎藏龙，每一步都是深思熟虑的，不会草率行动。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987524705800967217"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "n5ZVw9pY",
+            "text": "很多人认为打台湾最大的不确定因素是在美国，特错大错，以中国目前的军事实力而言，不说全面吊打美国，但在反介入/区域拒止（A2/AD）能力上完全可以让美军有去无回。",
+            "marks": [
+              {
+                "start_index": 26,
+                "end_index": 79,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992181163515745361"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "My7p9d2o",
+            "text": "为什么迟迟不对台湾动手呢，最大的变数其实在大鹅，它到底会不会背刺中国，很难说。如果它不背刺，收复台湾是完全没问题，但是大鹅的尿性，它大概率会背刺。",
+            "marks": [
+              {
+                "start_index": 57,
+                "end_index": 73,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994100591954257458"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "XrwL9EJX",
+            "text": "中国在国际上即使已经是大部分国家的最大贸易伙伴，但实际是没有真正朋友的，用钱是买不来朋友的，那些个只看钱的亚非拉酒肉朋友翻脸比翻书还快。",
+            "marks": [
+              {
+                "start_index": 46,
+                "end_index": 68,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993467470141490934"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Jsz8T_ra",
+            "text": "所谓的\"朋友\"，都是在基于现实利益考虑无奈选择和中国做朋友，如大鹅，巴基斯坦，朝鲜都是。这种通过利益捆绑在一起的朋友实际是很脆弱的，今天因为利益可以和你做朋友，明天也可以因为利益反手出卖你。所谓的巴铁，并不只是中国这一个朋友，它和美国关系也很好，美国在反恐问题上需要和巴基斯坦合作，美国也有制衡印度的需求。",
+            "marks": [
+              {
+                "start_index": 8,
+                "end_index": 95,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993321467610412500"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ImmU-Bct",
+            "text": "古人说的好，以利交者，利尽而交绝。真正的朋友，从来都是因为共同的价值观而走在一起。上个世纪中国和很多社会主义国家并没有什么利益，但也因为共同的价值观走到了一起。但是时过境迁，中国和现在仅存的几个社会主义国家关系并不好，如印度、越南、朝鲜，因为他们打着社会主义的旗号，实际却并不是社会主义，共同的价值观无从谈起。",
+            "marks": [
+              {
+                "start_index": 6,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993468941750781616"
+                  ],
+                  "is_like": false,
+                  "like_count": 20,
+                  "comment_count": 5,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 87,
+                "end_index": 155,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994014823105724564"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "qlo0j8Xx",
+            "text": "中国一旦开战，大鹅作为唯一一个和中国表面交好的五常，还拥有丰富的石油、天然气、木材、矿产资源的国家，对中国的战略地位会急剧上升，它就会趁机拿捏中国，中国也不能容忍这种情况的发生。中国在能源方面还不能自给自足，一旦被西方制裁，那也只能是依靠大鹅了，中国新型的武器现在已经逐步实现了国产，但是还有大量的现役装备被俄罗斯卡脖子，这一点也是很危险的。",
+            "marks": [
+              {
+                "start_index": 142,
+                "end_index": 170,
+                "seg_info": {
+                  "seg_ids": [
+                    "1959524600678454193"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "zMN194Cg",
+            "text": "大鹅骨子里还是亲西方的，拿背刺中国来换取西方减轻制裁，这种事情它完全做得出。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 38,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993300842833523097"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "OPYc2KPx",
+            "text": "大鹅不一定会希望看到中国输，但一定希望看到中国打成和乌克兰战场一样，这样他单独面对西方的制裁压力就会小很多。但他同样也不希望中国赢，中国一旦赢了，一定又会找他去算海参崴的旧账，这是他不愿意看到的，而且一旦中国赢，美国将完全退出西太，没有势力制衡中国，对他而言是个更大的威胁。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 88,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993144151894680487"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Xcqm2fEQ",
+            "text": "总之，中，美，鹅，是三国杀，两者之间随时都可以敌人变成朋友联手对付另外一方，所以互相提防着对方，防止对方倒向另外一方。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 59,
+                "seg_info": {
+                  "seg_ids": [
+                    "1966808689475289746"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "is_copyable": false,
+        "is_labeled": false,
+        "excerpt": "我来提供一个不同的视角，其实国家智囊团卧虎藏龙，每一步都是深思熟虑的，不会草率行动。 很多人认为打台湾最大的不确定因素是在美国，特错大错，以中国目前的军事实力而言，不说全面吊打美国，但在反介入/区域拒止（A2/AD）能力上完全可以让美军有去无回。 为什么迟迟不对台湾动手呢，最大的变数其实在大鹅，它到底会不会背刺中国，很难说。如果它不背刺，收复台湾是完全没问题，但是大鹅的尿性，它大概率会背刺。 中国在国际…",
+        "thanks_count": 115,
+        "excerpt_new": "我来提供一个不同的视角，其实国家智囊团卧虎藏龙，每一步都是深思熟虑的，不会草率行动。 很多人认为打台湾最大的不确定因素是在美国，特错大错，以中国目前的军事实力而言，不说全面吊打美国，但在反介入/区域拒止（A2/AD）能力上完全可以让美军有去无回。 为什么迟迟不对台湾动手呢，最大的变数其实在大鹅，它到底会不会背刺中国，很难说。如果它不背刺，收复台湾是完全没问题，但是大鹅的尿性，它大概率会背刺。 中国在国际…",
+        "author": {
+          "id": "9a0d32ca87e589d004846094579ee95f",
+          "url": "https://api.zhihu.com/people/9a0d32ca87e589d004846094579ee95f",
+          "avatar_url": "https://picx.zhimg.com/50/v2-5217b2865c6db5ffce6dc4e19603046e_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 340262,
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "stevenc214",
+          "name": "史蒂芬",
+          "headline": "机械工程｜公众号 ：芬哥Steven",
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "英语等 4 个话题下的优秀答主",
+              "topic_names": [
+                "英语",
+                "职场",
+                "职业规划",
+                "求职"
+              ],
+              "topic_ids": [
+                1100,
+                2566,
+                3479,
+                523
+              ]
+            }
+          ],
+          "is_followed": false
+        },
+        "preview_type": "default",
+        "type": "answer",
+        "comment_count": 1495,
+        "reshipment_settings": "disallowed",
+        "updated_time": 1751537159,
+        "question": {
+          "author": {
+            "id": "ed57923660b8e6302e9b1cb3daead2f7",
+            "url": "https://api.zhihu.com/people/ed57923660b8e6302e9b1cb3daead2f7",
+            "url_token": "ai-di-sheng-67-97",
+            "name": "小爱",
+            "headline": "",
+            "gender": -1,
+            "user_type": "people",
+            "avatar_url": "https://picx.zhimg.com/50/v2-f98e195ace693dd8e9cfc9ade2d59038_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 13,
+            "is_following": false,
+            "is_followed": false
+          },
+          "created": 1730854813,
+          "type": "question",
+          "title": "为什么那么多人都在判断几年内就会武力统一台湾？",
+          "excerpt": "",
+          "follower_count": 0,
+          "comment_count": 91,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "id": "3296148564",
+          "url": "https://api.zhihu.com/questions/3296148564",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            2165587
+          ]
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 1686,
+        "voteup_count": 4965,
+        "url": "https://api.zhihu.com/answers/1924048804006565798",
+        "created_time": 1751508981,
+        "preview_text": "",
+        "navigator_vote": false,
+        "id": "1924048804006565798",
+        "content": "<p data-pid=\"BzVsgDtj\">我来提供一个不同的视角，其实国家智囊团卧虎藏龙，每一步都是深思熟虑的，不会草率行动。</p><p data-pid=\"n5ZVw9pY\">很多人认为打台湾最大的不确定因素是在美国，特错大错，以中国目前的军事实力而言，不说全面吊打美国，但在反介入/区域拒止（A2/AD）能力上完全可以让美军有去无回。</p><p data-pid=\"My7p9d2o\">为什么迟迟不对台湾动手呢，最大的变数其实在大鹅，它到底会不会背刺中国，很难说。如果它不背刺，收复台湾是完全没问题，但是大鹅的尿性，它大概率会背刺。</p><p data-pid=\"XrwL9EJX\">中国在国际上即使已经是大部分国家的最大贸易伙伴，但实际是没有真正朋友的，用钱是买不来朋友的，那些个只看钱的亚非拉酒肉朋友翻脸比翻书还快。</p><p data-pid=\"Jsz8T_ra\">所谓的&#34;朋友&#34;，都是在基于现实利益考虑无奈选择和中国做朋友，如大鹅，巴基斯坦，朝鲜都是。这种通过利益捆绑在一起的朋友实际是很脆弱的，今天因为利益可以和你做朋友，明天也可以因为利益反手出卖你。所谓的巴铁，并不只是中国这一个朋友，它和美国关系也很好，美国在反恐问题上需要和巴基斯坦合作，美国也有制衡印度的需求。</p><p data-pid=\"ImmU-Bct\">古人说的好，以利交者，利尽而交绝。真正的朋友，从来都是因为共同的价值观而走在一起。上个世纪中国和很多社会主义国家并没有什么利益，但也因为共同的价值观走到了一起。但是时过境迁，中国和现在仅存的几个社会主义国家关系并不好，如印度、越南、朝鲜，因为他们打着社会主义的旗号，实际却并不是社会主义，共同的价值观无从谈起。</p><p data-pid=\"048rW4oz\">西方兜售的是那套虚伪的“自由和民主”价值观，我们国家目前倡导的是更务实的“和平与发展”的价值观，赢得了全世界大多数国家的尊重，并且抛弃意识形态与我们做生意。但一旦开打，那首先我们自己也就违背了这个价值观，队伍就不好带了。</p><p data-pid=\"h8TWD5yI\">有人说国际政治都是&#34;没有永恒的朋友，只有永恒的利益&#34;，实际丘吉尔没有说过这句话，都是中国人以讹传讹杜撰出来的。</p><p data-pid=\"HVy46hUb\">大俄和中国的关系实际上就从来就没好过，我们在成立初期，它同时也又在扶持国民党反动派，甚至和国民党的关系还更好，给了大批的援助。</p><p data-pid=\"IgholVQH\">在新中国成立后没多久，马上就和中国交恶 ，它骨子里是不能容忍周边出现一个强国的。</p><p data-pid=\"Hv-6-sEI\">现在大鹅把中国当朋友，也只是面临西方制裁下的无奈之举。</p><p data-pid=\"u9o7JI8d\">大鹅之所以敢打乌克兰，他是算准中国不可能背刺它。而我们对大鹅却完全拿不准。</p><p data-pid=\"qlo0j8Xx\">中国一旦开战，大鹅作为唯一一个和中国表面交好的五常，还拥有丰富的石油、天然气、木材、矿产资源的国家，对中国的战略地位会急剧上升，它就会趁机拿捏中国，中国也不能容忍这种情况的发生。中国在能源方面还不能自给自足，一旦被西方制裁，那也只能是依靠大鹅了，中国新型的武器现在已经逐步实现了国产，但是还有大量的现役装备被俄罗斯卡脖子，这一点也是很危险的。</p><p data-pid=\"zMN194Cg\">大鹅骨子里还是亲西方的，拿背刺中国来换取西方减轻制裁，这种事情它完全做得出。</p><p data-pid=\"OPYc2KPx\">大鹅不一定会希望看到中国输，但一定希望看到中国打成和乌克兰战场一样，这样他单独面对西方的制裁压力就会小很多。但他同样也不希望中国赢，中国一旦赢了，一定又会找他去算海参崴的旧账，这是他不愿意看到的，而且一旦中国赢，美国将完全退出西太，没有势力制衡中国，对他而言是个更大的威胁。</p><p data-pid=\"Xcqm2fEQ\">总之，中，美，鹅，是三国杀，两者之间随时都可以敌人变成朋友联手对付另外一方，所以互相提防着对方，防止对方倒向另外一方。</p><p data-pid=\"z4wjC1Px\">从这个角度上来说，中俄关系永远都只可能是同床异梦，千万别指望它会真心真意想要你好，连不背刺你都要烧高香。</p><p data-pid=\"JDAnko6e\">就连我们的小兄弟朝鲜，如果我们打台湾，你们觉得它会是什么态度，它同样也会暧昧不清。它现在之所以还存在，那是因为中国罩着它，美国顾忌中国的面子才不对他动手。一旦中美撕破脸，也无所谓看不看中国的面子了，给它扔几个炸弹甚至斩首都是分分钟的事情，它自己也知道不能像以前那么嚣张，也只能低调做人。</p>",
+        "visited_count": 1096171,
+        "is_navigator": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1924048804006565798}",
+      "attached_info": "CuYGCMTqv+Lvo4GbtAEQBBoJNzM1MTc2MjE5IPXPl8MGKOUmMNcLQHNKMQomVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjESATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExMTYzNTcwMmIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5MjQwNDg4MDQwMDY1NjU3OTiKAQozMjk2MTQ4NTY0qgEJcmVjb21tZW5kwgEgOWEwZDMyY2E4N2U1ODlkMDA0ODQ2MDk0NTc5ZWU5NWbyAQoIDBIGTm9ybWFs8gEoCAoSJDU2MWZjNTZmLTQ4N2ItNGIzNC1hOTIwLWU5NDk5ZTVmNjcwNfIBBggLEgIyMIICAIgCi5T+6bwzkgIgOWEwZDMyY2E4N2U1ODlkMDA0ODQ2MDk0NTc5ZWU5NWaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gImVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjHoAgT6AgtOT1JNQUxfRkxPV4oDIDI4NTU5ODBjYmJiYTRmZTRiNzc5YTBlYzM4ZjM3N2JmmgMNCgJ2MhAAGgVvdGhlcqgD6/NC2AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEBm1hbnVhbMIEAzE1N8gEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwHJDqD+BBQAAAAAAAAAAiQV3e6vmmkm0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUUkAYAoAZzqAYDkgIuCgk3MzUxNzYyMTkSEzE5MjQwNDg4MDQwMDY1NjU3OTgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "116_1768675052.903",
+      "type": "feed",
+      "offset": 116,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675052,
+      "updated_time": 1768675052,
+      "target": {
+        "voteup_count": 1633,
+        "thumbnail": "https://picx.zhimg.com/50/v2-697f0cf87f5f0b34d1aedfb295a6f52c_720w.jpg?source=b6762063",
+        "excerpt": "买房定居是一种落后的汉人陈旧思维了； 如今大家都是追着工作机会走； 租房是最舒服的，收益率最大； 关键是灵活，不会被按揭束缚住； 伴着公司租房，然后风景好的远郊农村地方，买个便宜房子，当定心丸； 时局动荡，就去那房子养一养； 例如太湖东山岛；风景不错；   不要沉迷于城市，城市和房地产，是中国人的痛苦根源； 官爷和资本，就依靠房地产剥削，拿捏群众当牛马卖力",
+        "preview_text": "",
+        "comment_count": 198,
+        "vote_next_step": "vote",
+        "id": "1969378072332605226",
+        "question": {
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/620417538",
+          "excerpt": "",
+          "title": "选择苏州还是上海?",
+          "created": 1693763382,
+          "bound_topic_ids": [
+            200,
+            15145,
+            94980
+          ],
+          "answer_count": 0,
+          "comment_count": 1,
+          "detail": "",
+          "question_type": "normal",
+          "id": "620417538",
+          "author": {
+            "gender": -1,
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/f92822c2a437f9b85d412b24c962db87",
+            "user_type": "people",
+            "url_token": "zhe-shu-ru-fa-you-mao-bing-ba",
+            "name": "这输入法有毛病吧",
+            "id": "f92822c2a437f9b85d412b24c962db87",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-008018b9de33d890a90afab0e5aabce2_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "follower_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "excerpt_new": "买房定居是一种落后的汉人陈旧思维了； 如今大家都是追着工作机会走； 租房是最舒服的，收益率最大； 关键是灵活，不会被按揭束缚住； 伴着公司租房，然后风景好的远郊农村地方，买个便宜房子，当定心丸； 时局动荡，就去那房子养一养； 例如太湖东山岛；风景不错；   不要沉迷于城市，城市和房地产，是中国人的痛苦根源； 官爷和资本，就依靠房地产剥削，拿捏群众当牛马卖力",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "thanks_count": 40,
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-697f0cf87f5f0b34d1aedfb295a6f52c_720w.jpg?source=b6762063"
+        ],
+        "url": "https://api.zhihu.com/answers/1969378072332605226",
+        "author": {
+          "gender": -1,
+          "is_following": false,
+          "id": "3cd233cd7f0af39b1c52e052f3817fdc",
+          "url": "https://api.zhihu.com/people/3cd233cd7f0af39b1c52e052f3817fdc",
+          "name": "帮学生开悟者",
+          "headline": "帮你解放思想，辩论爱好者以批判性思维，为小视频作者提供新视角",
+          "is_org": false,
+          "user_type": "people",
+          "url_token": "021qiange",
+          "avatar_url": "https://picx.zhimg.com/50/v2-18e5a328b319db75d62ad8ff8be5f34b_l.jpg?source=b6762063",
+          "followers_count": 14309,
+          "is_followed": false
+        },
+        "updated_time": 1762904260,
+        "is_copyable": false,
+        "created_time": 1762316321,
+        "content": "<p data-pid=\"WUtkhVUR\">买房定居是一种落后的汉人陈旧思维了；</p><p data-pid=\"hgEsltcj\">如今大家都是追着工作机会走；</p><p data-pid=\"cDegKfy1\">租房是最舒服的，收益率最大；</p><p data-pid=\"xR7KsmNA\">关键是灵活，不会被按揭束缚住；</p><p data-pid=\"mG0Mg2wJ\">伴着公司租房，然后风景好的远郊农村地方，买个便宜房子，当定心丸；</p><p data-pid=\"1CP1oCvl\">时局动荡，就去那房子养一养；</p><p data-pid=\"0Ai6OHxF\">例如太湖东山岛；风景不错；</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-44561115467c9bf2e78c4bcba882e6a1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1130\" data-rawheight=\"752\" data-original-token=\"v2-697f0cf87f5f0b34d1aedfb295a6f52c\" class=\"origin_image zh-lightbox-thumb\" width=\"1130\" data-original=\"https://pic4.zhimg.com/v2-44561115467c9bf2e78c4bcba882e6a1_r.jpg\"/></figure><p data-pid=\"ixbUPrxY\">不要沉迷于城市，城市和房地产，是中国人的痛苦根源；</p><p data-pid=\"Q6YQ8YMy\">官爷和资本，就依靠房地产剥削，拿捏群众当牛马卖力</p>",
+        "is_navigator": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 57598,
+        "favorite_count": 587,
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1969378072332605226}",
+      "attached_info": "Cq4GCMTqv+Lvo4GbtAEQBBoJNzU1MDgzOTcwIKGgq8gGKOEMMMYBQHRKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTEwMDE1MDI3OGIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5NjkzNzgwNzIzMzI2MDUyMjaKAQk2MjA0MTc1MziqAQlyZWNvbW1lbmTCASAzY2QyMzNjZDdmMGFmMzliMWM1MmUwNTJmMzgxN2ZkY/IBCggMEgZOb3JtYWzyASgIChIkZWY2NDdiMWMtMzQxOS00YmI3LWE5M2ItZjJlMzQ1MDBkOWQw8gEGCAsSAjIwggIAiAKLlP7pvDOSAiAzY2QyMzNjZDdmMGFmMzliMWM1MmUwNTJmMzgxN2ZkY5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCAvoCC05PUk1BTF9GTE9XigMgMjg1NTk4MGNiYmJhNGZlNGI3NzlhMGVjMzhmMzc3YmaaAw0KAnYyEAAaBW90aGVyqAP+wQPYAwD6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBDqCBjwBSIjdjItNjk3ZjBjZjg3ZjVmMGIzNGQxYWVkZmIyOTVhNmY1MmOABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKA/HaI/gQUAAAAAAAAAAIkFd3ur5ppJtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFJAGAKAGdKgGAJICLgoJNzU1MDgzOTcwEhMxOTY5Mzc4MDcyMzMyNjA1MjI2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "117_1768675052.883",
+      "type": "feed",
+      "offset": 117,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675052,
+      "updated_time": 1768675052,
+      "target": {
+        "is_labeled": false,
+        "created_time": 1701763053,
+        "question": {
+          "author": {
+            "gender": 0,
+            "followers_count": 276,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/b9840c983f4f7e7aedb10e6b0ad126fc",
+            "url_token": "qiu-sheng-23-64",
+            "avatar_url": "https://picx.zhimg.com/50/v2-30fd59dc505e7275f2d955c2169a6195_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false,
+            "id": "b9840c983f4f7e7aedb10e6b0ad126fc",
+            "user_type": "people",
+            "name": "秋生",
+            "headline": "秋天见。"
+          },
+          "comment_count": 112,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/563720815",
+          "created": 1667207107,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            1761,
+            5619,
+            12706,
+            110044,
+            1357641
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "is_following": false,
+          "detail": "",
+          "question_type": "normal",
+          "id": "563720815",
+          "title": "躺平真的会毁掉年轻人吗？",
+          "answer_count": 0
+        },
+        "favorite_count": 6423,
+        "segment_infos": [
+          {
+            "pid": "ylVUqls8",
+            "text": "一只鸡，没有进入肯德基，没有进入麦当劳、德克士、华莱士，甚至没有进入正新鸡排。。。就这样庸庸碌碌地过完了一生，真是可悲啊。",
+            "marks": [
+              {
+                "start_index": 2,
+                "end_index": 61,
+                "seg_info": {
+                  "seg_ids": [
+                    "1983854049624343226"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "BZU6zpM1",
+            "text": "应评论区要求，加上汉堡王、塔斯汀、新疆大盘鸡、重庆鸡公煲、沈阳熏鸡架、海南椰子鸡、德州扒鸡、香露全鸡、叫了个鸡、黄焖鸡米饭、临沂炒鸡、道口烧鸡、沟帮子熏鸡、柠檬鸡、老乡鸡、地锅鸡、白切鸡、盐焗鸡、纸包鸡、番茄鸡、辣子鸡、汽锅鸡、三杯鸡、口水鸡、猪肚鸡、窑鸡、椒麻鸡、叫花鸡、豉油鸡、干炸鸡、干煸鸡、棒棒鸡、葫芦鸡、醋蒸鸡、文昌鸡、河田鸡、石锅鸡、白水鸡、葡国鸡、东安鸡、翰林鸡、紫燕百味鸡、花雕醉鸡、郭滩烧鸡、板栗烧鸡、符离集烧鸡、沧州火锅鸡、宫保鸡丁、麻辣鸡丝、芙蓉鸡片、千岛鸡球、小鸡炖蘑菇……",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 116,
+                "seg_info": {
+                  "seg_ids": [
+                    "1872245109178912768"
+                  ],
+                  "is_like": false,
+                  "like_count": 191,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "id": "8cfb511a30c137ecd59507ea29c42302",
+          "url": "https://api.zhihu.com/people/8cfb511a30c137ecd59507ea29c42302",
+          "name": "琴箫",
+          "headline": "",
+          "gender": 1,
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "qin-xiao-2-56",
+          "avatar_url": "https://picx.zhimg.com/50/f9904b0cd50bd023c07630b658b0c71e_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 670,
+          "is_followed": false
+        },
+        "updated_time": 1752720554,
+        "reshipment_settings": "allowed",
+        "vote_next_step": "vote",
+        "content": "<p data-pid=\"ylVUqls8\">一只鸡，没有进入肯德基，没有进入麦当劳、德克士、华莱士，甚至没有进入正新鸡排。。。就这样庸庸碌碌地过完了一生，真是可悲啊。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AKSiGXVs\">————分隔线————</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BZU6zpM1\">应评论区要求，加上汉堡王、塔斯汀、新疆大盘鸡、重庆鸡公煲、沈阳熏鸡架、海南椰子鸡、德州扒鸡、香露全鸡、叫了个鸡、黄焖鸡米饭、临沂炒鸡、道口烧鸡、沟帮子熏鸡、柠檬鸡、老乡鸡、地锅鸡、白切鸡、盐焗鸡、纸包鸡、番茄鸡、辣子鸡、汽锅鸡、三杯鸡、口水鸡、猪肚鸡、窑鸡、椒麻鸡、叫花鸡、豉油鸡、干炸鸡、干煸鸡、棒棒鸡、葫芦鸡、醋蒸鸡、文昌鸡、河田鸡、石锅鸡、白水鸡、葡国鸡、东安鸡、翰林鸡、紫燕百味鸡、花雕醉鸡、郭滩烧鸡、板栗烧鸡、符离集烧鸡、沧州火锅鸡、宫保鸡丁、麻辣鸡丝、芙蓉鸡片、千岛鸡球、小鸡炖蘑菇……</p>",
+        "visited_count": 2667701,
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/3314229543",
+        "is_copyable": true,
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "id": "3314229543",
+        "excerpt": "一只鸡，没有进入肯德基，没有进入麦当劳、德克士、华莱士，甚至没有进入正新鸡排。。。就这样庸庸碌碌地过完了一生，真是可悲啊。 ————分隔线———— 应评论区要求，加上汉堡王、塔斯汀、新疆大盘鸡、重庆鸡公煲、沈阳熏鸡架、海南椰子鸡、德州扒鸡、香露全鸡、叫了个鸡、黄焖鸡米饭、临沂炒鸡、道口烧鸡、沟帮子熏鸡、柠檬鸡、老乡鸡、地锅鸡、白切鸡、盐焗鸡、纸包鸡、番茄鸡、辣子鸡、汽锅鸡、三杯鸡、口水鸡、猪肚鸡、…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "type": "answer",
+        "thanks_count": 3669,
+        "navigator_vote": false,
+        "voteup_count": 44974,
+        "comment_count": 1347,
+        "excerpt_new": "一只鸡，没有进入肯德基，没有进入麦当劳、德克士、华莱士，甚至没有进入正新鸡排。。。就这样庸庸碌碌地过完了一生，真是可悲啊。 ————分隔线———— 应评论区要求，加上汉堡王、塔斯汀、新疆大盘鸡、重庆鸡公煲、沈阳熏鸡架、海南椰子鸡、德州扒鸡、香露全鸡、叫了个鸡、黄焖鸡米饭、临沂炒鸡、道口烧鸡、沟帮子熏鸡、柠檬鸡、老乡鸡、地锅鸡、白切鸡、盐焗鸡、纸包鸡、番茄鸡、辣子鸡、汽锅鸡、三杯鸡、口水鸡、猪肚鸡、…",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3314229543}",
+      "attached_info": "CuUFCMTqv+Lvo4GbtAEQBBoJNjMyNjY2MjExIO2vu6sGKK7fAjDDCkB1Si8KBkl0ZW1DRhIfZG9jX3R5cGU6IEFuc3dlcgppZDogNjYyNzEyNzA0ChgAIAA6AFoIODc1NTM1ODFiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2cgozMzE0MjI5NTQzigEJNTYzNzIwODE1qgEJcmVjb21tZW5kwgEgOGNmYjUxMWEzMGMxMzdlY2Q1OTUwN2VhMjljNDIzMDLyAQoIDBIGTm9ybWFs8gEoCAoSJGExY2RlZDM4LWMyY2MtNGI2Yy1iYjQ5LTk0MmRlZGE1OTRjMfIBBggLEgIyMIICAIgCjJT+6bwzkgIgOGNmYjUxMWEzMGMxMzdlY2Q1OTUwN2VhMjljNDIzMDKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIGSXRlbUNG6AIC+gILTk9STUFMX0ZMT1eKAyAyODU1OTgwY2JiYmE0ZmU0Yjc3OWEwZWMzOGYzNzdiZpoDDQoCdjIQABoFb3RoZXKoA7XpogHYAwDqAxV0ZXh0QWxsU2l0ZU12SXRlbUNGVjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE1N8gEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAILIToz+BBQAAAAAAAAAAiQV3e6vmmkm0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUUkAYAoAZ1qAYAkgIlCgk2MzI2NjYyMTESCjMzMTQyMjk1NDMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "118_1768675052.163",
+      "type": "feed",
+      "offset": 118,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675052,
+      "updated_time": 1768675052,
+      "target": {
+        "updated_time": 1768657045,
+        "thanks_count": 0,
+        "excerpt": "读书是了解这个世界的另一种途径，但是看过了，到底能吸收多少见仁见智。 之前的学者非常刻苦，他们熟读四书五经，甚至像鲁迅，读了医学，还能成为文学家，这都是读书和学习成就的。 你要修一门课，成为一个专家，那需要的不止是读书那么简单，想做大官，更是要从选文理开始布局。 对于我自己喜欢看小说的角度，我说说我读很多小说给自己的收获。 好多流传很多年的经典小说，都是触及了人类生活最普遍、最具共性的问题，才被一代…",
+        "preview_type": "default",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "is_labeled": false,
+        "id": "1995972996268044437",
+        "url": "https://api.zhihu.com/answers/1995972996268044437",
+        "preview_text": "",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-94978708bd404e2c560a8f41f907bf45_l.jpg?source=b6762063",
+          "gender": -1,
+          "followers_count": 5,
+          "is_followed": false,
+          "is_org": false,
+          "is_following": false,
+          "id": "a5e424249bee8a5a267fd9c48a0ea71f",
+          "url": "https://api.zhihu.com/people/a5e424249bee8a5a267fd9c48a0ea71f",
+          "user_type": "people",
+          "url_token": "sookie-63-75",
+          "name": "破晓星辰",
+          "headline": "文艺青年"
+        },
+        "created_time": 1768657045,
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"bPG6NANY\">读书是了解这个世界的另一种途径，但是看过了，到底能吸收多少见仁见智。</p><p data-pid=\"9HbKIKPA\">之前的学者非常刻苦，他们熟读四书五经，甚至像鲁迅，读了医学，还能成为文学家，这都是读书和学习成就的。</p><p data-pid=\"VFTvqJDd\">你要修一门课，成为一个专家，那需要的不止是读书那么简单，想做大官，更是要从选文理开始布局。</p><p data-pid=\"rK2VVa07\">对于我自己喜欢看小说的角度，我说说我读很多小说给自己的收获。</p><p data-pid=\"QvCP4ZTg\">好多流传很多年的经典小说，都是触及了人类生活最普遍、最具共性的问题，才被一代代人接受和阅读，人生只有一次，是一列单向列车，不能回头，不能修改，但对小说里面的人物分析，让我们在自己人生路上多了几盏可以照亮的路灯。</p><p data-pid=\"2pP08LSB\">就比如看了毛姆《月亮和六便士》，明白对生活和理想要有取舍，多了些许思考。读他的《面纱》，对于婚姻和爱情，又有了新的看法，看了《雪国》，我们是不是会对像驹子一样的可怜女子生出同情之情，看了伍尔夫的《一件只属于自己的房间》知道了女性独立的重要性……看一本都会对里面的人物生出好多自己的感情，人性善恶尽在其中。</p><p data-pid=\"Rran-96f\">但是读书是要总结收获的，但不能沉溺其中，不能把人读的太多情善感，像林黛玉，那样读书给你的力量就削弱了，好多人读书多了，就好像看透了生活和人生，消极对待生活，这都不对。</p><p data-pid=\"M-OBbe-8\">看的多了，我要拿起笔要记录，要写作，记录自己的生活，写着写着会发现幸福，这和小时候写日记不一样，年纪越大，带着阅历，带着经验，越是酸甜苦辣，越是精彩纷呈。</p>",
+        "favorite_count": 0,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "comment_count": 0,
+        "question": {
+          "created": 1767628127,
+          "answer_count": 0,
+          "follower_count": 0,
+          "type": "question",
+          "detail": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/1991657401447899980",
+          "title": "书读的多，是不是懂的越多？",
+          "author": {
+            "url_token": "69-70-46-95-56",
+            "headline": "信奉道可道非常道，名可名非常名。痛则不通，通则不痛的中式哲学",
+            "is_org": false,
+            "followers_count": 11,
+            "is_following": false,
+            "is_followed": false,
+            "id": "72b69f38127ca29c8087f5949205a687",
+            "url": "https://api.zhihu.com/people/72b69f38127ca29c8087f5949205a687",
+            "user_type": "people",
+            "name": "闲来看山",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-caf772e7dc9bec853f4b3b1105b70816_l.jpg?source=b6762063",
+            "gender": 1
+          },
+          "comment_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "id": "1991657401447899980"
+        },
+        "excerpt_new": "读书是了解这个世界的另一种途径，但是看过了，到底能吸收多少见仁见智。 之前的学者非常刻苦，他们熟读四书五经，甚至像鲁迅，读了医学，还能成为文学家，这都是读书和学习成就的。 你要修一门课，成为一个专家，那需要的不止是读书那么简单，想做大官，更是要从选文理开始布局。 对于我自己喜欢看小说的角度，我说说我读很多小说给自己的收获。 好多流传很多年的经典小说，都是触及了人类生活最普遍、最具共性的问题，才被一代…",
+        "visited_count": 10,
+        "answer_type": "normal",
+        "voteup_count": 1,
+        "is_copyable": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995972996268044437}",
+      "attached_info": "CpUGCMTqv+Lvo4GbtAEQBBoJNzY1ODQ0Mzc0IJWhrssGKAEwAEB2SiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMTc5NjYyNTNiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk1OTcyOTk2MjY4MDQ0NDM3igETMTk5MTY1NzQwMTQ0Nzg5OTk4MKoBCXJlY29tbWVuZMIBIGE1ZTQyNDI0OWJlZThhNWEyNjdmZDljNDhhMGVhNzFm8gEKCAwSBk5vcm1hbPIBKAgKEiQyZTc3YTFiMi0zMmY2LTQ1MWMtOTBjNy1mOWQ1OWRjMDVkYzfyAQYICxICMjCCAgCIAoyU/um8M5ICIGE1ZTQyNDI0OWJlZThhNWEyNjdmZDljNDhhMGVhNzFmmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgL6AgtOT1JNQUxfRkxPV4oDIDI4NTU5ODBjYmJiYTRmZTRiNzc5YTBlYzM4ZjM3N2JmmgMNCgJ2MhAAGgVvdGhlcqgDCtgDAOoDGmFpX3poaV9maW5ldHVucl9pMmlfcmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4P6dfz+BBQAAAAAAAAAAiQV3e6vmmkm0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUUkAYAoAZ2qAYBkgIuCgk3NjU4NDQzNzQSEzE5OTU5NzI5OTYyNjgwNDQ0MzcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "119_1768675052.832",
+      "type": "feed",
+      "offset": 119,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675052,
+      "updated_time": 1768675052,
+      "target": {
+        "title": "有什么罕见的照片？",
+        "comment_permission": "all",
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "excerpt_new": "1、他身上这件黄衫是用4千克纯金制成，价值约150万元。   2、它不是牛，而是不可思议的逼真沙雕。   3、..   4、种菜的人真是物尽其用啊！   5、一起来回顾一下初中所学的等高线地形图，冰冻的水冻结起来，居然成了当时最头疼的等高线。   6、高处俯瞰日本仙台观音雕像，它的巨大和庄严让人感到心灵的震撼和洗涤，仿佛在与观音菩萨进行一场心灵的对话。   7、生命有时候比我们想象得还要脆弱。   8、滑板上的甜甜圈。   9、1474年，一只公鸡因“…",
+        "preview_type": "default",
+        "favorite_count": 335,
+        "id": "16088374699",
+        "author": {
+          "user_type": "people",
+          "url_token": "4-01-03-09",
+          "headline": "且停且忘且随风，且行且看且从容。",
+          "avatar_url": "https://pica.zhimg.com/50/v2-1af497f19393ad05d394a560e814c49c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "id": "e60033fa50be3f4e55060d83d564f426",
+          "url": "https://api.zhihu.com/people/e60033fa50be3f4e55060d83d564f426",
+          "name": "青琅玕",
+          "followers_count": 138016,
+          "is_following": false,
+          "is_followed": false
+        },
+        "allow_segment_interaction": true,
+        "comment_count": 102,
+        "excerpt": "1、他身上这件黄衫是用4千克纯金制成，价值约150万元。   2、它不是牛，而是不可思议的逼真沙雕。   3、..   4、种菜的人真是物尽其用啊！   5、一起来回顾一下初中所学的等高线地形图，冰冻的水冻结起来，居然成了当时最头疼的等高线。   6、高处俯瞰日本仙台观音雕像，它的巨大和庄严让人感到心灵的震撼和洗涤，仿佛在与观音菩萨进行一场心灵的对话。   7、生命有时候比我们想象得还要脆弱。   8、滑板上的甜甜圈。   9、1474年，一只公鸡因“…",
+        "content": "<p data-pid=\"B_qgSDVp\">1、他身上这件黄衫是用4千克纯金制成，价值约150万元。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fff96c1982eda3d78b8f6353fc7de0d5_1440w.jpg\" data-rawwidth=\"640\" data-rawheight=\"826\" data-size=\"normal\" data-original-token=\"v2-fff96c1982eda3d78b8f6353fc7de0d5\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic4.zhimg.com/v2-fff96c1982eda3d78b8f6353fc7de0d5_r.jpg\"/></figure><p data-pid=\"IjbOVMrM\">2、它不是牛，而是不可思议的逼真沙雕。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-607b2301caec169cddf47a42d5974993_1440w.jpg\" data-rawwidth=\"700\" data-rawheight=\"488\" data-size=\"normal\" data-original-token=\"v2-607b2301caec169cddf47a42d5974993\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://picx.zhimg.com/v2-607b2301caec169cddf47a42d5974993_r.jpg\"/></figure><p data-pid=\"oCM85eQ0\">3、..</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f7452083517b3193f5147063a5c8dac2_1440w.jpg\" data-rawwidth=\"1582\" data-rawheight=\"1106\" data-size=\"normal\" data-original-token=\"v2-f7452083517b3193f5147063a5c8dac2\" class=\"origin_image zh-lightbox-thumb\" width=\"1582\" data-original=\"https://pic1.zhimg.com/v2-f7452083517b3193f5147063a5c8dac2_r.jpg\"/></figure><p data-pid=\"S5kCfYr9\">4、种菜的人真是物尽其用啊！</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6898ab0730a8947a0fe3b460ad4cf7ab_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1390\" data-size=\"normal\" data-original-token=\"v2-6898ab0730a8947a0fe3b460ad4cf7ab\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-6898ab0730a8947a0fe3b460ad4cf7ab_r.jpg\"/></figure><p data-pid=\"iIBoBi15\">5、一起来回顾一下初中所学的等高线地形图，冰冻的水冻结起来，居然成了当时最头疼的等高线。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-960547e720e4a15d392eb9772879303f_1440w.jpg\" data-rawwidth=\"606\" data-rawheight=\"750\" data-size=\"normal\" data-original-token=\"v2-960547e720e4a15d392eb9772879303f\" class=\"origin_image zh-lightbox-thumb\" width=\"606\" data-original=\"https://pic4.zhimg.com/v2-960547e720e4a15d392eb9772879303f_r.jpg\"/></figure><p data-pid=\"IYPS-iCZ\">6、高处俯瞰日本仙台观音雕像，它的巨大和庄严让人感到心灵的震撼和洗涤，仿佛在与观音菩萨进行一场心灵的对话。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-09c6db130541dc444e14e2891ecf3e5c_1440w.jpg\" data-rawwidth=\"660\" data-rawheight=\"872\" data-size=\"normal\" data-original-token=\"v2-09c6db130541dc444e14e2891ecf3e5c\" class=\"origin_image zh-lightbox-thumb\" width=\"660\" data-original=\"https://pica.zhimg.com/v2-09c6db130541dc444e14e2891ecf3e5c_r.jpg\"/></figure><p data-pid=\"w7krkH9R\">7、生命有时候比我们想象得还要脆弱。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-68f35969c1270d3f2eaeba8eb944b291_1440w.jpg\" data-rawwidth=\"640\" data-rawheight=\"384\" data-size=\"normal\" data-original-token=\"v2-68f35969c1270d3f2eaeba8eb944b291\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic4.zhimg.com/v2-68f35969c1270d3f2eaeba8eb944b291_r.jpg\"/></figure><p data-pid=\"S9HafuPP\">8、滑板上的甜甜圈。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-58948bcea18f900169d9c303530d16cd_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"1190\" data-size=\"normal\" data-original-token=\"v2-58948bcea18f900169d9c303530d16cd\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic4.zhimg.com/v2-58948bcea18f900169d9c303530d16cd_r.jpg\"/></figure><p data-pid=\"HLR3ZVIc\">9、1474年，一只公鸡因“下蛋”而在瑞士受审。市民在鸡舍里发现了一只公鸡蹲在一枚鸡蛋旁，他们认为是公鸡下蛋了（据说一个公鸡鸡蛋是巫术咒语的成分之一），于是公鸡被起诉告上法庭……</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-369de5cb267cc0b05ef53af1affd53c1_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"724\" data-size=\"normal\" data-original-token=\"v2-369de5cb267cc0b05ef53af1affd53c1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-369de5cb267cc0b05ef53af1affd53c1_r.jpg\"/></figure><p data-pid=\"HoSrKTMH\">10、男孩都会主动跑过去接电源。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bdea9da7f63dbecf83168811395c17dc_1440w.jpg\" data-rawwidth=\"350\" data-rawheight=\"434\" data-size=\"normal\" data-original-token=\"v2-bdea9da7f63dbecf83168811395c17dc\" class=\"content_image\" width=\"350\"/></figure><p data-pid=\"2hqlgXdi\">11、主要是由于阳光折射水面上的油膜形成的。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-351bfc36552abbb5f7f7600b2fac53e0_1440w.jpg\" data-rawwidth=\"640\" data-rawheight=\"812\" data-size=\"normal\" data-original-token=\"v2-351bfc36552abbb5f7f7600b2fac53e0\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pica.zhimg.com/v2-351bfc36552abbb5f7f7600b2fac53e0_r.jpg\"/></figure><p data-pid=\"Y6nYMErd\">12、客户在网上购买了车轮和轮胎，尺寸有点少，但是他坚持让我们把它装上。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-657d3c3336b87c44352bcc634cb38866_1440w.jpg\" data-rawwidth=\"700\" data-rawheight=\"804\" data-size=\"normal\" data-original-token=\"v2-657d3c3336b87c44352bcc634cb38866\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://pica.zhimg.com/v2-657d3c3336b87c44352bcc634cb38866_r.jpg\"/></figure><p data-pid=\"0Atawckb\">13、70年代的加长版豪车，不只是交通工具，也是一种生活方式。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0312c2e5f7445b3e5535a7af98a23c51_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"1180\" data-size=\"normal\" data-original-token=\"v2-0312c2e5f7445b3e5535a7af98a23c51\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-0312c2e5f7445b3e5535a7af98a23c51_r.jpg\"/></figure><p data-pid=\"hARHZdSJ\">14、1943年 VS 2021年在阿留申群岛捕获的日本迷你潜艇。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-52c3d70eb540dad2e81609acefbf4ad7_1440w.jpg\" data-rawwidth=\"700\" data-rawheight=\"792\" data-size=\"normal\" data-original-token=\"v2-52c3d70eb540dad2e81609acefbf4ad7\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://pic2.zhimg.com/v2-52c3d70eb540dad2e81609acefbf4ad7_r.jpg\"/></figure><p data-pid=\"Upp0ff-X\">15、只要我们肯用心地去改变自己，每一个人都有资格变帅变美。这个人用十年时间让自己变成了另外一个人。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-77706c6e9cd3cde9f4e16d88d3174fab_1440w.jpg\" data-rawwidth=\"640\" data-rawheight=\"596\" data-size=\"normal\" data-original-token=\"v2-77706c6e9cd3cde9f4e16d88d3174fab\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://picx.zhimg.com/v2-77706c6e9cd3cde9f4e16d88d3174fab_r.jpg\"/></figure><p data-pid=\"-rAAXlQe\">16、由于成分不同，所以它们致人死亡的剂量也有着非常明显的区别。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-24005b190c6aefafb177f4538a6d3b6d_1440w.jpg\" data-rawwidth=\"1400\" data-rawheight=\"1072\" data-size=\"normal\" data-original-token=\"v2-24005b190c6aefafb177f4538a6d3b6d\" class=\"origin_image zh-lightbox-thumb\" width=\"1400\" data-original=\"https://pic2.zhimg.com/v2-24005b190c6aefafb177f4538a6d3b6d_r.jpg\"/></figure><p data-pid=\"ZNK8sAuP\">17、这猫咪的眼神是真爱了。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b3324f04ab7be7d4fbd52857343cda14_1440w.jpg\" data-rawwidth=\"700\" data-rawheight=\"404\" data-size=\"normal\" data-original-token=\"v2-b3324f04ab7be7d4fbd52857343cda14\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://pica.zhimg.com/v2-b3324f04ab7be7d4fbd52857343cda14_r.jpg\"/></figure><p data-pid=\"G-1wDDwT\">18、印度Somanātha 神庙在1885年还是一片废墟，经过修复后如今已焕然一新。目睹这些石块重新拼砌成宏伟建筑的过程，不禁让人对人类的智慧与毅力肃然起敬。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f99be09c521839a599cca344284dd7b7_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"892\" data-size=\"normal\" data-original-token=\"v2-f99be09c521839a599cca344284dd7b7\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic4.zhimg.com/v2-f99be09c521839a599cca344284dd7b7_r.jpg\"/></figure><p data-pid=\"urLDkXzv\">19、这些杜鹃花差不多得有100多岁了，这是花语种植，他的女人一起的合照。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c6f20a06030a1c07b78e6d1f3ecc2ad7_1440w.jpg\" data-rawwidth=\"1052\" data-rawheight=\"1290\" data-size=\"normal\" data-original-token=\"v2-c6f20a06030a1c07b78e6d1f3ecc2ad7\" class=\"origin_image zh-lightbox-thumb\" width=\"1052\" data-original=\"https://picx.zhimg.com/v2-c6f20a06030a1c07b78e6d1f3ecc2ad7_r.jpg\"/></figure><p data-pid=\"n3lES08Z\">20、主要是由于阳光折射水面上的油膜形成的。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-351bfc36552abbb5f7f7600b2fac53e0_1440w.jpg\" data-rawwidth=\"640\" data-rawheight=\"812\" data-size=\"normal\" data-original-token=\"v2-351bfc36552abbb5f7f7600b2fac53e0\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pica.zhimg.com/v2-351bfc36552abbb5f7f7600b2fac53e0_r.jpg\"/></figure><p data-pid=\"gZYFJ1vY\">21、1980年10月卡米拉与戴安娜在查尔斯赛马时，在一旁开心地闲聊。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5512d32b366c25691ded2f6cec412913_1440w.jpg\" data-rawwidth=\"710\" data-rawheight=\"472\" data-size=\"normal\" data-original-token=\"v2-5512d32b366c25691ded2f6cec412913\" class=\"origin_image zh-lightbox-thumb\" width=\"710\" data-original=\"https://pic2.zhimg.com/v2-5512d32b366c25691ded2f6cec412913_r.jpg\"/></figure><p data-pid=\"I4X_cz0i\">22、这个U盘设计的非常贴心，不用插U盘也能知道这个U盘里剩余的内存。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-78ec192fb2e69a23e709702317f031e9_1440w.jpg\" data-rawwidth=\"700\" data-rawheight=\"1158\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-78ec192fb2e69a23e709702317f031e9\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://pic4.zhimg.com/v2-78ec192fb2e69a23e709702317f031e9_r.jpg\"/></figure><p data-pid=\"ol9JQKwT\">23、58年前后，在同样的地方，两个同样存储记忆的芯片，随着时代的进步，已经从巨大变成了非常迷你的形状。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-345efb668d1dc3983d3a6a46d4b4763a_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"668\" data-size=\"normal\" data-original-token=\"v2-345efb668d1dc3983d3a6a46d4b4763a\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic1.zhimg.com/v2-345efb668d1dc3983d3a6a46d4b4763a_r.jpg\"/></figure><p data-pid=\"i5nXwAo6\">24、飞机跑道直接横穿一条马路。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f8daed18a7ac1ea7f48ff695387ac59c_1440w.jpg\" data-rawwidth=\"640\" data-rawheight=\"334\" data-size=\"normal\" data-original-token=\"v2-f8daed18a7ac1ea7f48ff695387ac59c\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic1.zhimg.com/v2-f8daed18a7ac1ea7f48ff695387ac59c_r.jpg\"/></figure><p data-pid=\"OJ1zC0P3\">25、一位父亲在自己38岁的时候随手拍下了一张照片，儿子在38岁的时候拍下的一样的照片，如果不说我还以为是一个人呢！</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d06b22b28645ac9e680b65f176f21ff5_1440w.jpg\" data-rawwidth=\"698\" data-rawheight=\"1074\" data-size=\"normal\" data-original-token=\"v2-d06b22b28645ac9e680b65f176f21ff5\" class=\"origin_image zh-lightbox-thumb\" width=\"698\" data-original=\"https://picx.zhimg.com/v2-d06b22b28645ac9e680b65f176f21ff5_r.jpg\"/></figure><p data-pid=\"ukIkE_D5\">26、印度高种姓婚礼的入口就是隆重二字的又一诠释。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9c71fcda7b6a2604c196d41e76722166_1440w.jpg\" data-rawwidth=\"664\" data-rawheight=\"744\" data-size=\"normal\" data-original-token=\"v2-9c71fcda7b6a2604c196d41e76722166\" class=\"origin_image zh-lightbox-thumb\" width=\"664\" data-original=\"https://pic3.zhimg.com/v2-9c71fcda7b6a2604c196d41e76722166_r.jpg\"/></figure><p data-pid=\"UjEMj3W4\">27、第一眼看上去还以为这是一只两只头的犀牛，只是这个摄影师的角度太好了，使这两个犀牛完全地重合到了一起。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9b016a78d6a2eb836ff54aadee5a09e4_1440w.jpg\" data-rawwidth=\"700\" data-rawheight=\"428\" data-size=\"normal\" data-original-token=\"v2-9b016a78d6a2eb836ff54aadee5a09e4\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://pica.zhimg.com/v2-9b016a78d6a2eb836ff54aadee5a09e4_r.jpg\"/></figure><p data-pid=\"ySMicwQp\">28、39秒就完成了挑战，不得不说这没有反复的练习根本做不到。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8dedddd39440ee48225ab3d9b7b56f75_1440w.jpg\" data-rawwidth=\"640\" data-rawheight=\"302\" data-size=\"normal\" data-original-token=\"v2-8dedddd39440ee48225ab3d9b7b56f75\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://picx.zhimg.com/v2-8dedddd39440ee48225ab3d9b7b56f75_r.jpg\"/></figure><p data-pid=\"5eCdy5xv\">29、肯沃斯重型卡车。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0fca7aa01d25f95d7a4a41560219e3c0_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"892\" data-size=\"normal\" data-original-token=\"v2-0fca7aa01d25f95d7a4a41560219e3c0\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-0fca7aa01d25f95d7a4a41560219e3c0_r.jpg\"/></figure><p data-pid=\"Nk2aAwg8\">30、只要可以引进这只企鹅，再冷清的动物园都会重新变得人满为患。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-59c13f220fa3baa4792203fc13a392d2_1440w.jpg\" data-rawwidth=\"1000\" data-rawheight=\"1068\" data-size=\"normal\" data-original-token=\"v2-59c13f220fa3baa4792203fc13a392d2\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic3.zhimg.com/v2-59c13f220fa3baa4792203fc13a392d2_r.jpg\"/></figure><p data-pid=\"ERkyTNWS\">31、在1945年的时候，一个苏联的孩子送给了美国大使一个精美的美国国徽徽章，以表示两国之间的友谊，这位美国人为了纪念也把它挂在了办公室里，直到有一天才发现，这里面有监听设备。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-aae38334994e381d4a21ae4874605959_1440w.jpg\" data-rawwidth=\"616\" data-rawheight=\"274\" data-size=\"normal\" data-original-token=\"v2-aae38334994e381d4a21ae4874605959\" class=\"origin_image zh-lightbox-thumb\" width=\"616\" data-original=\"https://pic2.zhimg.com/v2-aae38334994e381d4a21ae4874605959_r.jpg\"/></figure><p data-pid=\"3OYUo5Vb\">32、西班牙比利牛斯山獒，这种狗体型巨大，长到11个月大直立起来就超过了主人。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0056a22ca1082266b4efb07260558b65_1440w.jpg\" data-rawwidth=\"890\" data-rawheight=\"702\" data-size=\"normal\" data-original-token=\"v2-0056a22ca1082266b4efb07260558b65\" class=\"origin_image zh-lightbox-thumb\" width=\"890\" data-original=\"https://picx.zhimg.com/v2-0056a22ca1082266b4efb07260558b65_r.jpg\"/></figure><p data-pid=\"SYleTLB5\">33、这是爱沙尼亚塔林的公交车，为了客户的乘车更好的体验，公司把这个公交车直接装修成了森林模式。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f3860478f4e2659a093a52ab12cff750_1440w.jpg\" data-rawwidth=\"1000\" data-rawheight=\"1240\" data-size=\"normal\" data-original-token=\"v2-f3860478f4e2659a093a52ab12cff750\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic1.zhimg.com/v2-f3860478f4e2659a093a52ab12cff750_r.jpg\"/></figure><p></p>",
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "created": 1735842354,
+        "updated": 1735842354,
+        "voteup_count": 3965,
+        "voting": 0,
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-bb5b81b5f1ce7df9a9ce99bfc13b650d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-84c2d5ef7679894ab5bee03262e59635_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ea31cb834f3a2c7effc4dd858d69abf8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e95edc51c494f840f4d3aaa112021fc6_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-985384fa7d9e4dbf275691a4930bc993_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3c96fb08c15521cf48fcb764dc494a08_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-616e1fe624504c81c50ad4bb7251429e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-a7814add1aafc338266d31c6f84b44e9_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-34e0288d5af7c734e6800258927a0b7d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6b1c58f4f0431273c25da5a730f7e950_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-8f262a34bd6521a350b126497c685bbe_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9c8c9b29abd2dccc87f2157829266df7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5c3df5ff4c3f7e59b79fdbff669c8253_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-616e1fe624504c81c50ad4bb7251429e_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-fd9dddc6254cec69fd3cfa89e51f8c35_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-239f5a1231338d53e4a8fa9b4349b86f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-10d9eb29f57746ff7ed5e135d3a650bd_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-769ccd80a04ceb10cfc697bdfa054bf3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-88b9245924bec30b3b25d8de1e406610_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e2075250f5a4255602a0e3ff1649fc7b_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-bd61690841dd98edda96af939c6fb2f4_720w.jpg?source=b6762063"
+        ],
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/16088374699",
+        "vote_next_step": "vote",
+        "preview_text": "",
+        "visited_count": 600672
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 16088374699}",
+      "attached_info": "CqcRCMTqv+Lvo4GbtAEQBxoJMjUyMjM5OTMyILK027sGKP0eMGZAd0o4ChNUU19TT1VSQ0VfSE9UX0NST1NTEhtob3RfcmVjYWxsXzMwZDpub3JtYWw6b3RoZXIYACAAOgBiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2cgsxNjA4ODM3NDY5OaoBCXJlY29tbWVuZMIBIGU2MDAzM2ZhNTBiZTNmNGU1NTA2MGQ4M2Q1NjRmNDI28gEKCAwSBk5vcm1hbPIBKAgKEiQwMWNhZGM2MS0wOTM0LTRmNGUtYjRkMy05ZGE0M2FjMTZmMzPyAQYICxICMjCCAgCIAoyU/um8M5ICIGU2MDAzM2ZhNTBiZTNmNGU1NTA2MGQ4M2Q1NjRmNDI2mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAhNUU19TT1VSQ0VfSE9UX0NST1NT6AID+gILTk9STUFMX0ZMT1eKAyAyODU1OTgwY2JiYmE0ZmU0Yjc3OWEwZWMzOGYzNzdiZpoDDQoCdjIQABoFb3RoZXKoA+DUJNgDAOoDFWhvdENyb3NzTWVyZ2VSZWNhbGxlcvoD/wsSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBRCABRi6BiIjdjItZmZmOTZjMTk4MmVkYTNkNzhiOGY2MzUzZmM3ZGUwZDU6LQgEELwFGOgDIiN2Mi02MDdiMjMwMWNhZWMxNjljZGRmNDdhNDJkNTk3NDk5MzotCAMQrgwY0ggiI3YyLWY3NDUyMDgzNTE3YjMxOTNmNTE0NzA2M2E1YzhkYWMyOi0IBBC4CBjuCiIjdjItNjg5OGFiMDczMGE4OTQ3YTBmZTNiNDYwYWQ0Y2Y3YWI6LQgDEN4EGO4FIiN2Mi05NjA1NDdlNzIwZTRhMTVkMzkyZWI5NzcyODc5MzAzZjotCAQQlAUY6AYiI3YyLTA5YzZkYjEzMDU0MWRjNDQ0ZTE0ZTI4OTFlY2YzZTVjOi0IAxCABRiAAyIjdjItNjhmMzU5NjljMTI3MGQzZjJlYWViYThlYjk0NGIyOTE6LQgFEIAKGKYJIiN2Mi01ODk0OGJjZWExOGY5MDAxNjlkOWMzMDM1MzBkMTZjZDotCAMQuAgY1AUiI3YyLTM2OWRlNWNiMjY3Y2MwYjA1ZWY1M2FmMWFmZmQ1M2MxOi0IAxDeAhiyAyIjdjItYmRlYTlkYTdmNjNkYmVjZjgzMTY4ODExMzk1YzE3ZGM6LQgDEIAFGKwGIiN2Mi0zNTFiZmMzNjU1MmFiYmI1ZjdmNzYwMGIyZmFjNTNlMDotCAQQvAUYpAYiI3YyLTY1N2QzYzMzMzZiODdjNDQzNTJiY2M2MzRjYjM4ODY2Oi0IBBCAChicCSIjdjItMDMxMmMyZTVmNzQ0NWIzZTU1MzVhN2FmOThhMjNjNTE6LQgDELwFGJgGIiN2Mi01MmMzZDcwZWI1NDBkYWQyZTgxNjA5YWNlZmJmNGFkNzotCAMQgAUY1AQiI3YyLTc3NzA2YzZlOWNkM2NkZTlmNGUxNmQ4OGQzMTc0ZmFiOi0IAhD4ChiwCCIjdjItMjQwMDViMTkwYzZhZWZhZmIxNzdmNDUzOGE2ZDNiNmQ6LQgCELwFGJQDIiN2Mi1iMzMyNGYwNGFiN2JlN2Q0ZmJkNTI4NTczNDNjZGExNDotCAQQwAcY/AYiI3YyLWY5OWJlMDljNTIxODM5YTU5OWNjYTM0NDI4NGRkN2I3Oi0IAxCcCBiKCiIjdjItYzZmMjBhMDYwMzBhMWMwN2I3OGU2ZDFmM2VjYzJhZDc6LQgDEIAFGKwGIiN2Mi0zNTFiZmMzNjU1MmFiYmI1ZjdmNzYwMGIyZmFjNTNlMDotCAMQxgUY2AMiI3YyLTU1MTJkMzJiMzY2YzI1NjkxZGVkMmY2Y2VjNDEyOTEzOi0IAxDsCRicBSIjdjItMzQ1ZWZiNjY4ZDFkYzM5ODNkM2E2YTQ2ZDRiNDc2M2E6LQgDEIAFGM4CIiN2Mi1mOGRhZWQxOGE3YWMxZWE3ZjQ4ZmY2OTUzODdhYzU5YzotCAMQugUYsggiI3YyLWQwNmIyMmIyODY0NWFjOWU2ODBiNjVmMTc2ZjIxZmY1Oi0IAxCYBRjoBSIjdjItOWM3MWZjZGE3YjZhMjYwNGMxOTZkNDFlNzY3MjIxNjY6LQgEELwFGKwDIiN2Mi05YjAxNmE3OGQ2YTJlYjgzNmZmNTRhYWRlZTVhMDllNDotCAMQgAUYrgIiI3YyLThkZWRkZGQzOTQ0MGVlNDgyMjVhYjNkOWI3YjU2Zjc1Oi0IBBCAChj8BiIjdjItMGZjYTdhYTAxZDI1Zjk1ZDdhNGE0MTU2MDIxOWUzYzA6LQgEEOgHGKwIIiN2Mi01OWMxM2YyMjBmYTNiYWE0NzkyMjAzZmMxM2EzOTJkMjotCAMQ6AQYkgIiI3YyLWFhZTM4MzM0OTk0ZTM4MWQ0YTIxYWU0ODc0NjA1OTU5Oi0IAxD6Bhi+BSIjdjItMDA1NmEyMmNhMTA4MjI2NmI0ZWZiMDcyNjA1NThiNjU6LQgEEOgHGNgJIiN2Mi1mMzg2MDQ3OGY0ZTI2NTlhMDkzYTUyYWIxMmNmZjc1MIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGB5+LM/gQUAAAAAAAAAAIkFd3ur5ppJtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFJAGAKAGd6gGAJICJgoJMjUyMjM5OTMyEgsxNjA4ODM3NDY5ORgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=119&desktop=true&end_offset=119&page_number=21&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=119&desktop=true&end_offset=119&page_number=21&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

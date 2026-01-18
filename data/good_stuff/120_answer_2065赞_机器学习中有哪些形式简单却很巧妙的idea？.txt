@@ -1,0 +1,8 @@
+标题: 机器学习中有哪些形式简单却很巧妙的idea？
+类型: answer
+赞数: 2065
+链接: https://www.zhihu.com/question/347847220/answer/3351403565
+创建时间: 1704465644
+--------------------------------------------------
+
+1. self-gating基本加上都涨点变体有context gating和SE模块等核心思想都是用自己gate自己基本形式是 y = sigmoid(wx)x2. 各种重建，先把输入corrupt一下，然后用autoencoder重建一下，基本都能让feature更robust，何凯明的MAE也是如此。3. 各种dropout，是个地方都可以试着加点dropout，embedding可以加dropout，attention可以加，ffn可以加，mlp可以加，输入上也可以直接加，相当于某种corrupt4. mixup，也是个神级idea，输入上a类+b类混合一下，然后label也变成a+b混合，基本也是无脑增强，必定涨点5. 对比学习大神器，核心就看如何构造正样本和负样本。有个惊艳的idea，同一个输入foward两次，因为dropout不同，就可以当正样本，也是无脑涨点6. 未完待续

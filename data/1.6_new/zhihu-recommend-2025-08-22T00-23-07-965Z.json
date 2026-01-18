@@ -1,0 +1,547 @@
+{
+  "data": [
+    {
+      "id": "66_1755822234.149",
+      "type": "feed",
+      "offset": 66,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822234,
+      "updated_time": 1755822234,
+      "target": {
+        "id": "1941094312252268768",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941094312252268768",
+        "author": {
+          "id": "b56704728fc30f4f6f14f4ee6b423bc8",
+          "url": "https://api.zhihu.com/people/b56704728fc30f4f6f14f4ee6b423bc8",
+          "user_type": "people",
+          "url_token": "76-29-82-46-16",
+          "name": "难受啊马飞",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-9c7dfb73432de101ea4c335e5661f72e_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 15,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755572947,
+        "updated_time": 1755572947,
+        "voteup_count": 2,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "661457038",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/661457038",
+          "author": {
+            "id": "7334ca50726ceb86770d3a0a1e62976a",
+            "url": "https://api.zhihu.com/people/7334ca50726ceb86770d3a0a1e62976a",
+            "user_type": "people",
+            "url_token": "agoni-96-50",
+            "name": "hkzxy",
+            "headline": "湖南师范大学在读",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-086792c42c4ef2e4b6c65cf18e6f410d_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 11,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何透彻理解rag？",
+          "created": 1720799383,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            2431446,
+            3253243
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-448e98cc7918ea510324c3a838f0b9f9_720w.jpg?source=b6762063",
+        "excerpt": "01 什么是“RAG”?大模型很聪明，但也有“短板” 上下文长度有限比如 deepseek-r1 满血版的上下文上限是 128K tokens不能无限输入文本，超过了它就处理不了。   知识可能过时如果模型是基于 2024 年前的数据训练的，你问它2025年发生的事，它可能会一本正经地胡说八道，即产生“模型幻觉”。 知识面不完整很多垂直领域的专业知识或企业内部数据本就不公开，模型没见过，自然不会答。 微调很折腾想让模型掌握新知识，一般得微调甚…",
+        "excerpt_new": "01 什么是“RAG”?大模型很聪明，但也有“短板” 上下文长度有限比如 deepseek-r1 满血版的上下文上限是 128K tokens不能无限输入文本，超过了它就处理不了。   知识可能过时如果模型是基于 2024 年前的数据训练的，你问它2025年发生的事，它可能会一本正经地胡说八道，即产生“模型幻觉”。 知识面不完整很多垂直领域的专业知识或企业内部数据本就不公开，模型没见过，自然不会答。 微调很折腾想让模型掌握新知识，一般得微调甚…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<h2><b>01 什么是“RAG”?</b></h2><p data-pid=\"50wNQubV\">大模型很聪明，但也有“短板”</p><p data-pid=\"ojHg4pRs\"><b>上下文长度有限</b></p><p data-pid=\"M4Am3xtj\">比如 deepseek-r1 满血版的上下文上限是 128K tokens不能无限输入文本，超过了它就处理不了。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6d552cc76ae3350e6a6130a6a0868450_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"586\" data-original-token=\"v2-a148cef5019779ceedeb01d6a35f9f57\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-6d552cc76ae3350e6a6130a6a0868450_r.jpg\"/></figure><p data-pid=\"dQ7Xl-Nf\"><b>知识可能过时</b></p><p data-pid=\"g9W0PIkw\">如果模型是基于 2024 年前的数据训练的，你问它2025年发生的事，它可能会一本正经地胡说八道，即产生“模型幻觉”。</p><p data-pid=\"iT2C5ldO\"><b>知识面不完整</b></p><p data-pid=\"AHUIIs3H\">很多垂直领域的专业知识或企业内部数据本就不公开，模型没见过，自然不会答。 </p><p data-pid=\"rbR__37Z\"><b>微调很折腾</b></p><p data-pid=\"i14npdNs\">想让模型掌握新知识，一般得微调甚至重新训练，工程复杂又费力，普通人难搞定。</p><p data-pid=\"21IVGA6D\">所以我们需要一种方式，<u>让模型“临时查资料再回答问题”，也就是 RAG(检索增强生成)。</u></p><p data-pid=\"boJNhamg\"><b>它的核心思路是</b>：</p><p data-pid=\"iniin9F4\">先“检索”一批相关资料，再把资料+问题一起交给大模型，生成答案。就像是：带着“小抄”去考试！</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c8e297d204c666bdbeb6ccabf7de907e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"583\" data-original-token=\"v2-af13f75c97471c4b201e01eda7ede2a1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-c8e297d204c666bdbeb6ccabf7de907e_r.jpg\"/></figure><h2><b>02 RAG的工作原理</b></h2><p data-pid=\"rAUCU6yb\">关键流程包括以下几步：</p><p data-pid=\"1MMdi5b8\"><b>文本分块(Chunking)</b></p><p data-pid=\"sxHsyoj0\">原始文档太长，模型“吃不下”，所以要先切成较小的段落(chunk)。</p><p data-pid=\"9i01CSMM\">常见切分方式: 按段落、句子数量或固定字数等，具体方式因文本结构而异。</p><p data-pid=\"3rX8oWUW\"><b>向量化(Embedding)</b></p><p data-pid=\"BlBq-QTV\">每个 chunk 会通过 embedding 模型(如 OpenAl 的text-embedding-ada-002)转化为向量，用数字表达其语义。</p><p data-pid=\"qSWdG__o\">语义越相近的 chunk，其向量距离越近。</p><p data-pid=\"qY99iuRU\"><b>构建索引(向量数据库)</b></p><p data-pid=\"kchMJe1S\">将这些向量存入向量数据库(如 Qdrant、Chroma)以便后续快速检索。</p><p data-pid=\"iEnqOlAn\"><b>检索(Retrieve)</b></p><p data-pid=\"Vzz2Zuxw\">用户的问题也通过 embedding 模型转为向量，并与数据库中的向量进行匹配，根据相关性选出 top-k个chunk。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-572df0ffb199c344a639bc3a74d6624d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"938\" data-original-token=\"v2-448e98cc7918ea510324c3a838f0b9f9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-572df0ffb199c344a639bc3a74d6624d_r.jpg\"/></figure><p data-pid=\"Piq5ppKd\"><b>重排序(Reranking)</b></p><p data-pid=\"hJZlTy_5\">初步筛出的 chunk 可能质量不一，需用 rerank 模型重新排序，选择最贴近用户问题意图的几个 chunk。</p><p data-pid=\"ZYO77ZqS\"><b>构造提示词(Prompt 构造)</b></p><p data-pid=\"kmRMmE6h\">将这些精选出的 chunk 和用户问题拼成完整提示词，交给大模型生成答案。</p><h2><b>03 什么是向量数据库？</b></h2><p data-pid=\"6iDDyvgc\">传统数据库依赖关键词和字段匹配，适合精确查找。而向量数据库支持语义匹配: 它通过计算向量之间的相似度(如余弦相似度)，快速找出“意思差不多”的文本。</p><p data-pid=\"cHpGtmm_\"><b>为什么速度快?</b></p><p data-pid=\"u3gWIoJv\"><b>搜索算法优化</b>: 如使用 ANN(近似最近邻)搜索算法减少遍历范围。</p><p data-pid=\"8WKK5SON\"><b>索引结构加速</b>: 借助 HNSW、IVF-PQ 等结构，有效组织和检索高维向量。</p><p data-pid=\"j1Qw4P2S\"><b>计算加速</b>: 采用 SIMD 指令并行计算，提升相似度计算效率。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-977d50dd57caa48da81b912da6a15635_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"682\" data-original-token=\"v2-b7619a9d9c6abf28189adc5d5b61b564\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-977d50dd57caa48da81b912da6a15635_r.jpg\"/></figure><p data-pid=\"DrWxJqLq\"><b>常见向量数据库:</b></p><p data-pid=\"JaobC-K6\"><b> Chroma</b>: 开源、易集成，适合小规模项目</p><p data-pid=\"ed_bL2aE\"><b>Weaviate</b>: 支持 REST API，内置 embedding 功能</p><p data-pid=\"XCSuMa0L\"><b> Milvus</b>: 高性能、分布式，适合处理海量数据</p><p data-pid=\"4d0wDJPc\"><b>Qdrant</b>: 开箱即用，支持payload(附加字段)检索</p><h2><b>04 “RAG”有哪些问题?</b></h2><p data-pid=\"T20O4SAo\"><b>Chunking 难度高</b></p><p data-pid=\"ckrJWWWY\">分块太短导致信息零散，太长又可能导致语义不集中，影响向量匹配准确性。分块方式不合理，还可能破坏上下文的语义完整性，导致指代混乱、逻辑断裂。</p><p data-pid=\"yiBgfY7m\">不适合需要“全局理解”的任务</p><p data-pid=\"85qGsmsx\">比如你问: “这篇文档的核心观点是什么？”</p><p data-pid=\"d9bik7nA\">但你把它拆成了100段，模型只看到了其中5段，它当然无法理解全貌。</p><p data-pid=\"CoLdAMGf\"><b>Embedding 理解可能有偏差</b></p><p data-pid=\"sJ2feJwy\">像“我喜欢音乐”VS“我以前喜欢音乐”，对人类来说含义不同。但它们的向量可能很接近，检索时容易误判。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9eca474afc76529086e0af6802b112a2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"606\" data-original-token=\"v2-0e2bde74ac7c2834a27182f3ed6cca42\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-9eca474afc76529086e0af6802b112a2_r.jpg\"/></figure><h2><b>05 “RAG”的应用场景</b></h2><p data-pid=\"wJEX7Sw1\">RAG 的适用范围很广，说几个典型场景</p><p data-pid=\"qWm8fvfZ\"><b>企业知识问答系统</b></p><p data-pid=\"YnsiWxjL\">将内部文档构建为知识库，员工提问时，模型先检索相关内容，再生成准确答案。</p><p data-pid=\"uziIbLUW\"><b>代码问答助手</b></p><p data-pid=\"1aNqG90S\">把工程代码转成可检索的知识库，像 Cursor 就是这样做的，支持回答项目结构、函数逻辑等开发相关问题。</p><p data-pid=\"J2PBpN2s\"><b>设备故障诊断</b></p><p data-pid=\"xS4uc3uN\">将设备手册、故障记录、维修案例等资料向量化建库，遇到问题时先检索相似案例，再生成诊断与维修建议，提高维修效率。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-708ba1c7723408c07a03360b886a5f5d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"648\" data-original-token=\"v2-ad3d428016e9a94ed4bcf851af351b06\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-708ba1c7723408c07a03360b886a5f5d_r.jpg\"/></figure><p data-pid=\"7KSm_-7b\"><b>如何学习大模型 AI ？</b><br/><br/>由于新岗位的生产效率，要优于被取代岗位的生产效率，所以实际上整个社会的生产效率是提升的。<br/><br/>但是具体到个人，只能说是：<br/><br/>最先掌握AI的人，将会比较晚掌握AI的人有竞争优势。<br/>这句话，放在计算机、互联网、移动互联网的开局时期，都是一样的道理。<br/><br/><b>我在一线互联网企业工作十余年里，指导过不少同行后辈。帮助很多人得到了学习和成长。</b><br/><br/>我意识到有很多经验和知识值得分享给大家，也可以通过我们的能力和经验解答大家在人工智能学习中的很多困惑，所以在工作繁忙的情况下还是坚持各种整理和分享。但苦于知识传播途径有限，很多互联网行业朋友无法获得正确的资料得到学习提升，故此将并将重要的AI大模型资料包括AI大模型入门学习思维导图、精品AI大模型学习书籍手册、视频教程、实战学习等录播视频免费分享出来。<br/><br/><b>这份完整版的大模型 AI 学习资料，朋友们如果有需要的话可以点击下方卡片免费领取【保证100%免费】</b></p><a href=\"https://zhuanlan.zhihu.com/p/6722780481\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">2025最新AI大模型学习资料合集，允许白嫖，学完拿下大厂offer，存下吧很难找齐的！</a><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 112,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-448e98cc7918ea510324c3a838f0b9f9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b7619a9d9c6abf28189adc5d5b61b564_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ad3d428016e9a94ed4bcf851af351b06_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 9,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941094312252268768}",
+      "attached_info": "CsIICLuM2I/C6oytIBAEGgk3NDI4OTkzNTAg09WPxQYoAjAAQEJKIwoYVFNfU09VUkNFX1dBUk1fVVBfQk9PU1QyEgEwGAAgADoASi8KJFRTX1NPVVJDRV9XQVJNVVBfVFdPVE9XRVJfRVhQVjJfVEVYVBIBMBgAIAA6AEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgkxMDkyNjgyMjBiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxMDk0MzEyMjUyMjY4NzY4igEJNjYxNDU3MDM4qgEJcmVjb21tZW5kwgEgYjU2NzA0NzI4ZmMzMGY0ZjZmMTRmNGVlNmI0MjNiYzjyAQoIDBIGTm9ybWFs8gEoCAoSJDA3NWZhNDJlLWFhMzUtNDRiYy1hOGY2LTAxNTA4MDNhMTFiN/IBBggLEgIxMoICAIgCs7Ok+YwzkgIgYjU2NzA0NzI4ZmMzMGY0ZjZmMTRmNGVlNmI0MjNiYziaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIYVFNfU09VUkNFX1dBUk1fVVBfQk9PU1Qy6AID+gILTk9STUFMX0ZMT1eKAyAxNGI1N2FlMzZlN2I0ZWJhYmUzODRhMGNkNTFhZjM2OJoDDQoCdjIQABoFb3RoZXKoA3DYAwDqAy5jb250ZW50V2FybXVwVHdvVG93ZXJUdnBUZXh0Qm9vc3RFeHBWMlJlY2FsbGVy+gO5AhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELgIGMoEIiN2Mi1hMTQ4Y2VmNTAxOTc3OWNlZWRlYjAxZDZhMzVmOWY1NzotCAQQuAgYxwQiI3YyLWFmMTNmNzVjOTc0NzFjNGIyMDFlMDFlZGE3ZWRlMmExOi0IAhC4CBiqByIjdjItNDQ4ZTk4Y2M3OTE4ZWE1MTAzMjRjM2E4MzhmMGI5Zjk6LQgDELgIGKoFIiN2Mi1iNzYxOWE5ZDljNmFiZjI4MTg5YWRjNWQ1YjYxYjU2NDotCAIQuAgY3gQiI3YyLTBlMmJkZTc0YWM3YzI4MzRhMjcxODJmM2VkNmNjYTQyOi0IBBC4CBiIBSIjdjItYWQzZDQyODAxNmU5YTk0ZWQ0YmNmODUxYWYzNTFiMDaABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOD7v6Y/gQUAAAAAAAAAAIkFe/UoSTdG2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDJAGAKAGRKgGAZICLgoJNzQyODk5MzUwEhMxOTQxMDk0MzEyMjUyMjY4NzY4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "67_1755822234.443",
+      "type": "feed",
+      "offset": 67,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822234,
+      "updated_time": 1755822234,
+      "target": {
+        "id": "1938657311884284047",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1938657311884284047",
+        "author": {
+          "id": "603ed583fa51671a8116bfcda824ca67",
+          "url": "https://api.zhihu.com/people/603ed583fa51671a8116bfcda824ca67",
+          "user_type": "people",
+          "url_token": "wu-ming-25-18-29",
+          "name": "无名",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-88cc4b9b5bc19ccac111e46ed0f84753_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 21,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754991921,
+        "updated_time": 1754991921,
+        "voteup_count": 17,
+        "thanks_count": 0,
+        "comment_count": 2,
+        "is_copyable": true,
+        "question": {
+          "id": "1917139089238515766",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1917139089238515766",
+          "author": {
+            "id": "56b6c1fb1b6090af10cbffe7b55bafff",
+            "url": "https://api.zhihu.com/people/56b6c1fb1b6090af10cbffe7b55bafff",
+            "user_type": "people",
+            "url_token": "pzgucz",
+            "name": "社保中心职员",
+            "headline": "八年社保中心工作经验，为参保企事业单位提供专业咨询",
+            "avatar_url": "https://picx.zhimg.com/50/v2-5b8bae8d1d777b6e0a283b4ba4f7fcf6_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "人力资源管理师资格证持证人"
+              }
+            ],
+            "followers_count": 16,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "大家都会通过哪些渠道购买学习资料？",
+          "created": 1749861577,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            28475
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "72部搞钱纪录片 https://pan.quark.cn/s/db03582921c4 450个搞钱野路子，文字版项目解析 https://pan.quark.cn/s/bbaae1de7a7b 2025抖音直播带货起号班｜冷启动+私域流量+话术设计（付费私教班） 夸克网盘分享 全新蓝海赛道，淘宝虚拟类目，长期稳定，可矩阵且放大 https://pan.quark.cn/s/f75aa0b4aa22 拼多多视频带货课｜黑科技搬运+爆款选品（零成本起店实战） 夸克网盘分享 拼多多+抖音小店（AI选品+自动上架全攻略） 夸克网盘分享 快手小店带货实战课｜零基础开店+爆款打造+流量…",
+        "excerpt_new": "72部搞钱纪录片 https://pan.quark.cn/s/db03582921c4 450个搞钱野路子，文字版项目解析 https://pan.quark.cn/s/bbaae1de7a7b 2025抖音直播带货起号班｜冷启动+私域流量+话术设计（付费私教班） 夸克网盘分享 全新蓝海赛道，淘宝虚拟类目，长期稳定，可矩阵且放大 https://pan.quark.cn/s/f75aa0b4aa22 拼多多视频带货课｜黑科技搬运+爆款选品（零成本起店实战） 夸克网盘分享 拼多多+抖音小店（AI选品+自动上架全攻略） 夸克网盘分享 快手小店带货实战课｜零基础开店+爆款打造+流量…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"G5io1h0D\">72部搞钱纪录片<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/db03582921c4\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/db035829</span><span class=\"invisible\">21c4</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"u4gg_tOd\">450个搞钱野路子，文字版项目解析<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/bbaae1de7a7b\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/bbaae1de</span><span class=\"invisible\">7a7b</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"q6ttx14v\">2025抖音直播带货起号班｜冷启动+私域流量+话术设计（付费私教班）<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/482b96f537a3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">夸克网盘分享</a></p><p data-pid=\"PtR_pBjX\">全新蓝海赛道，淘宝虚拟类目，长期稳定，可矩阵且放大<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/f75aa0b4aa22\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/f75aa0b4</span><span class=\"invisible\">aa22</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"Fyz1aL1V\">拼多多视频带货课｜黑科技搬运+爆款选品（零成本起店实战）<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/fd0cb56ff16c\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">夸克网盘分享</a></p><p data-pid=\"iLJ9BrCk\">拼多多+抖音小店（AI选品+自动上架全攻略）<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/b3d18f3758e5\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">夸克网盘分享</a></p><p data-pid=\"oNZzpklB\">快手小店带货实战课｜零基础开店+爆款打造+流量运营（2025年最新玩法）<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/37721624df84\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">夸克网盘分享</a></p><p data-pid=\"CLEPJA2h\">2025咸鱼无货源卖货月入3W详细资料<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/dfe2bcb5e311\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/dfe2bcb5</span><span class=\"invisible\">e311</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"ImNJ2-pU\">电影解说素材库｜3万篇文案+音乐（爆款拆解+影视IP变现）<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/77b54146090b\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">夸克网盘分享</a></p><p data-pid=\"dEADLU15\">淘宝开店0基础全套视频<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/9ed28acaf0ee\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/9ed28aca</span><span class=\"invisible\">f0ee</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"Byfdg_LG\">小红书线下课从0-100全链路<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/a9b308ea64d7\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/a9b308ea</span><span class=\"invisible\">64d7</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"-OZpj1VX\">闲鱼买卖折扣卡项目，轻松日入过千秘籍<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/6e6a572c9057\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/6e6a572c</span><span class=\"invisible\">9057</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"5BZAMf8a\">钢铁之心<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/ff841513b9c9\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/ff841513</span><span class=\"invisible\">b9c9</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"ZBcYvxon\">柏林金能奖更新<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/415e9e11f102\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/415e9e11</span><span class=\"invisible\">f102</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"QFXZX-6I\">宫崎骏导演作品10部合集<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/454241cdc29a\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/454241cd</span><span class=\"invisible\">c29a</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"nP5b9RMI\">8090回忆怀旧视频<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/54142a20bd8d\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/54142a20</span><span class=\"invisible\">bd8d</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"ZBOnhY54\">电视剧<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/526258533b76\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/52625853</span><span class=\"invisible\">3b76</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"7CcJ2LFe\">电影<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/d8efe9915cdb\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/d8efe991</span><span class=\"invisible\">5cdb</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"DV439M6y\">纪录片<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/c5d8e3496f2c\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/c5d8e349</span><span class=\"invisible\">6f2c</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"gO4MRIlW\">戛纳金棕榈更新<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/15f8b6d96bc7\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/15f8b6d9</span><span class=\"invisible\">6bc7</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"aCvY7qPh\">历届奥斯卡金像奖<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/ae57c9a8a870\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/ae57c9a8</span><span class=\"invisible\">a870</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"jTbK-hp9\">清潭国际高中 第二季<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/934cf5169331\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/934cf516</span><span class=\"invisible\">9331</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"10ndF-TU\">首尔破笑组 (2024)<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/2b0fa44e299c\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">夸克网盘分享</a></p><p data-pid=\"lo7yFVD9\">央视力荐纪录片合集<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/01f4e087eb33\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/01f4e087</span><span class=\"invisible\">eb33</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"tB3nP3nK\">奇趣动植物<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/e985ccc89920\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/e985ccc8</span><span class=\"invisible\">9920</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"bzwsGAod\">世界人文科学<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/112828113e78\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/11282811</span><span class=\"invisible\">3e78</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"uxCgIytu\">知乎4W赞高分电影100部<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/1dfa53e2cb4b\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/1dfa53e2</span><span class=\"invisible\">cb4b</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"fB6h6Qgt\">世界自然地理<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/9b695c314a3d\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/9b695c31</span><span class=\"invisible\">4a3d</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"D5GzcoCm\">中国人文地理<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/8c4c0da44550\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/8c4c0da4</span><span class=\"invisible\">4550</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"NdeRwTBi\">大国纪录片系列10部合集<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/a58b54cfd67e\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/a58b54cf</span><span class=\"invisible\">d67e</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"yaRPaEiR\">世界大战系列｜全彩实录｜回忆录<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/1b70512dc557\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/1b70512d</span><span class=\"invisible\">c557</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"ZBQPqwUO\">恐怖电影合集225部<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/32ca053897bf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/32ca0538</span><span class=\"invisible\">97bf</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"8s5S1DXs\">中国美食系列<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/fa66f32b918b\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/fa66f32b</span><span class=\"invisible\">918b</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"tPgqI_2H\">荒野求生系列<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/aaeb4c6ab19a\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/aaeb4c6a</span><span class=\"invisible\">b19a</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"YSI6B5ep\">百家讲坛系列<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/f125006cbdfd\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/f125006c</span><span class=\"invisible\">bdfd</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"zDB4gaV_\">军事科技系列<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/eb798626ecfe\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/eb798626</span><span class=\"invisible\">ecfe</span><span class=\"ellipsis\"></span></a></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1241,
+        "favorite_count": 128,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1938657311884284047}",
+      "attached_info": "CuIFCLuM2I/C6oytIBAEGgk3NDE4NDMzMDAgsZrsxAYoETACQENKQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoJMTE1Mzc5MDk1YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzODY1NzMxMTg4NDI4NDA0N4oBEzE5MTcxMzkwODkyMzg1MTU3NjaqAQlyZWNvbW1lbmTCASA2MDNlZDU4M2ZhNTE2NzFhODExNmJmY2RhODI0Y2E2N/IBCggMEgZOb3JtYWzyASgIChIkZWZmY2FkNGQtOTRlZS00NTA5LWEyNjUtN2U0NGFiNTc1YTQx8gEGCAsSAjEyggIAiAK0s6T5jDOSAiA2MDNlZDU4M2ZhNTE2NzFhODExNmJmY2RhODI0Y2E2N5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgL6AgtOT1JNQUxfRkxPV4oDIDE0YjU3YWUzNmU3YjRlYmFiZTM4NGEwY2Q1MWFmMzY4mgMNCgJ2MhAAGgVvdGhlcqgD2QnYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoEcXjT+BBQAAAAAAAAAAiQV79ShJN0bZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZFqAYDkgIuCgk3NDE4NDMzMDASEzE5Mzg2NTczMTE4ODQyODQwNDcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "68_1755822234.504",
+      "type": "feed",
+      "offset": 68,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822234,
+      "updated_time": 1755822234,
+      "target": {
+        "id": "18009812428",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/18009812428",
+        "author": {
+          "id": "d3d984c2cec749b9c0bc3f30a17d225c",
+          "url": "https://api.zhihu.com/people/d3d984c2cec749b9c0bc3f30a17d225c",
+          "user_type": "people",
+          "url_token": "zou-ming-jun-39",
+          "name": "帝辛",
+          "headline": "珠三角水泥一级经销商，自有库自有车队，价格优势",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-458958c06393a34c476eb5b19d2783a1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 103,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1730208671,
+        "updated_time": 1730208671,
+        "voteup_count": 638,
+        "thanks_count": 15,
+        "comment_count": 20,
+        "is_copyable": true,
+        "question": {
+          "id": "629459419",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/629459419",
+          "author": {
+            "id": "22fa48f781864c62c14fbec6eda796f1",
+            "url": "https://api.zhihu.com/people/22fa48f781864c62c14fbec6eda796f1",
+            "user_type": "people",
+            "url_token": "ni-shi-wo-de-man-tian-xing-chen-70",
+            "name": "你是我的满天星辰",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-26557d73075059cd4444f69f4b3f10e2_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "快抑郁了，人生的意义是什么？",
+          "created": 1699436486,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 43,
+          "bound_topic_ids": [
+            1546,
+            8590,
+            9323,
+            10115,
+            15553
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "其它地方搬运来的： 几亿美金拍摄的电影大片，你可以在网上找到盗版， 几亿美金制作的游戏，你可以在网上找到盗版。 年入千万都养不起，比99％明星漂亮，比古代皇后，贵妃，四大美女都好看的现代大美女，在网上会脱光了给你看。 如果你觉得这些都太俗，那么，人类世界的最高智慧，都写在了书里，放进了免费的图书馆°。 人类世界几千年积累的那些散碎家底，也都放进了免费的博物馆。 这个世界或许有一万种糟糕，但同时也有一千种…",
+        "excerpt_new": "其它地方搬运来的： 几亿美金拍摄的电影大片，你可以在网上找到盗版， 几亿美金制作的游戏，你可以在网上找到盗版。 年入千万都养不起，比99％明星漂亮，比古代皇后，贵妃，四大美女都好看的现代大美女，在网上会脱光了给你看。 如果你觉得这些都太俗，那么，人类世界的最高智慧，都写在了书里，放进了免费的图书馆°。 人类世界几千年积累的那些散碎家底，也都放进了免费的博物馆。 这个世界或许有一万种糟糕，但同时也有一千种…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"TJT6bvu3\">其它地方搬运来的：</p><p data-pid=\"waIXV5Me\">几亿美金拍摄的电影大片，你可以在网上找到盗版，</p><p data-pid=\"H-DWUUBq\">几亿美金制作的游戏，你可以在网上找到盗版。</p><p data-pid=\"srflLxSD\">年入千万都养不起，比99％明星漂亮，比古代皇后，贵妃，四大美女都好看的现代大美女，在网上会脱光了给你看。</p><p data-pid=\"ga0IxSq7\">如果你觉得这些都太俗，那么，人类世界的最高智慧，都写在了书里，放进了免费的图书馆°。</p><p data-pid=\"5s4ffuu2\">人类世界几千年积累的那些散碎家底，也都放进了免费的博物馆。</p><p data-pid=\"cK35CRkO\">这个世界或许有一万种糟糕，但同时也有一千种美好。</p><p data-pid=\"ohEkl2jv\">这个时代，只要你铁了心不去当韭菜，不去当牛马，</p><p data-pid=\"4tX2IPWb\">那些力量也不会亲自下场，按着你的头让你服从。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IsTfJ0rW\">好好享受一下几千年来，人类积累的那点每个人都能惠及的福利吧。</p><p data-pid=\"QI6EgCS_\">薄现代社会羊毛，沾文明社会光彩，这是每个生活在这个时代的人，所能享受的时代馈赠。</p><p data-pid=\"G73mKQpR\">这些触手可及的馈赠，才是现代社会最宝贵，最值得珍惜，最公平与正义的时代进步。</p><p data-pid=\"yUd8Qgd-\">谁让你痛苦，谁让你难受，就离得远远的。时间会让他们腐烂，不管他们强占了多少财富。</p><p data-pid=\"uF8ury4C\">几块钱的饮料也很好喝，10几块的盒饭，自己亲手炸的鸡排，鸡腿，这些都很好吃</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 68051,
+        "favorite_count": 529,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 18009812428}",
+      "attached_info": "CucFCLuM2I/C6oytIBAEGgk2OTY3MTY5ODYgn8eDuQYo/gQwFEBESigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDYzNDEzMDYxOQoYACAAOgBaCTEwMjE1ODM5N2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCzE4MDA5ODEyNDI4igEJNjI5NDU5NDE5qgEJcmVjb21tZW5kwgEgZDNkOTg0YzJjZWM3NDliOWMwYmMzZjMwYTE3ZDIyNWPyAQoIDBIGTm9ybWFs8gEoCAoSJDcyNWJjMzEwLWVmOTctNGY0Ny04ZDgyLTc0MDQwY2YzY2RhMPIBBggLEgIxMoICAIgCtLOk+YwzkgIgZDNkOTg0YzJjZWM3NDliOWMwYmMzZjMwYTE3ZDIyNWOaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCAvoCC05PUk1BTF9GTE9XigMgMTRiNTdhZTM2ZTdiNGViYWJlMzg0YTBjZDUxYWYzNjiaAw0KAnYyEAAaBW90aGVyqAPTkwTYAwD6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACg0DKaP4EFAAAAAAAAAACJBXv1KEk3Rtk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQyQBgCgBkaoBgCSAiYKCTY5NjcxNjk4NhILMTgwMDk4MTI0MjgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "69_1755822234.968",
+      "type": "feed",
+      "offset": 69,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822234,
+      "updated_time": 1755822234,
+      "target": {
+        "id": "119785827442",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/119785827442",
+        "author": {
+          "id": "da7c6bbb4b9b38e141a30adcfb11d963",
+          "url": "https://api.zhihu.com/people/da7c6bbb4b9b38e141a30adcfb11d963",
+          "user_type": "people",
+          "url_token": "huang-you-cai-91",
+          "name": "每月几千块别玩命",
+          "headline": "混迹各大江湖论坛，体味多种缤纷人生",
+          "avatar_url": "https://pica.zhimg.com/50/v2-a6bb7b2cb8226e7e4eb9001db0bb32db_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2532,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1741451988,
+        "updated_time": 1741789894,
+        "voteup_count": 9134,
+        "thanks_count": 398,
+        "comment_count": 2414,
+        "is_copyable": true,
+        "question": {
+          "id": "641057920",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/641057920",
+          "author": {
+            "id": "7fda5908cea735549d8db593b3b8c7ef",
+            "url": "https://api.zhihu.com/people/7fda5908cea735549d8db593b3b8c7ef",
+            "user_type": "people",
+            "url_token": "miya--4-91",
+            "name": "知乎用户Qg2hsD",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 9,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "中国人讨厌日本是因为侵华，日本人为什么讨厌中国？",
+          "created": 1706103787,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 52,
+          "bound_topic_ids": [
+            17461,
+            39193,
+            40757,
+            64483,
+            1405864
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "三年前，我在Hello Talk上认识了一个日本人。 起因是我发了一条动态，我问日本人是不是有很多在考HSK4级的，然后有个日本人私信我说他在学中文，正在准备4级考试。 一开始，他说他很喜欢去中国旅游，他感慨中国太大了。 后来聊到了工作，他当时是说在日本某个岛上工作，具体做什么我忘了。 然后乱七八糟聊了一堆，我问他知道中日当年爆发的战争吗？他说不知道，我说就是1931年的侵华战争啊！他只说他并不清楚，而且他不是学历史…",
+        "excerpt_new": "三年前，我在Hello Talk上认识了一个日本人。 起因是我发了一条动态，我问日本人是不是有很多在考HSK4级的，然后有个日本人私信我说他在学中文，正在准备4级考试。 一开始，他说他很喜欢去中国旅游，他感慨中国太大了。 后来聊到了工作，他当时是说在日本某个岛上工作，具体做什么我忘了。 然后乱七八糟聊了一堆，我问他知道中日当年爆发的战争吗？他说不知道，我说就是1931年的侵华战争啊！他只说他并不清楚，而且他不是学历史…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"Q4zVS5io\">三年前，我在Hello Talk上认识了一个日本人。</p><p data-pid=\"xFjSWVey\">起因是我发了一条动态，我问日本人是不是有很多在考HSK4级的，然后有个日本人私信我说他在学中文，正在准备4级考试。</p><p data-pid=\"BPC42LAk\">一开始，他说他很喜欢去中国旅游，他感慨中国太大了。</p><p data-pid=\"OFqtrjsL\">后来聊到了工作，他当时是说在日本某个岛上工作，具体做什么我忘了。</p><p data-pid=\"1o8J8g0D\">然后乱七八糟聊了一堆，我问他知道中日当年爆发的战争吗？他说不知道，我说就是1931年的侵华战争啊！他只说他并不清楚，而且他不是学历史的，对历史也没兴趣。然后他又说希望不要打战，打战对谁都不好。我继续问，你们年轻人难道对近代史一点了解都没有吗？比如南京大屠杀、日本在中国的杀戮、日军和美军作战等等，他说那还是有一点了解的，日本大部分老年人（也就是经历过二战时期的人）都认为日本是败给了米国，而不是败给了中国。他以前看过关于老兵的采访，老兵说当年中国士兵武器太差了，但是中国士兵战斗意志非常顽强，如果有和日军同样的武器就可能不会被侵略了……</p><p data-pid=\"TqBFsaSK\">他又说:但是这些事情跟我们又有什么关系呢？就算以前我们祖辈真的侵略了中国那也是它们那辈人的事，我们只不过是他们的后代而已。</p><p data-pid=\"EjN4hZgK\">这就是普通日本人的观念，大部分年轻人根本不关心政治历史，就算有点了解也是一副无所谓的态度，他们更愿意去看动漫，玩游戏。</p><p data-pid=\"pdSCOVxH\">然后它对我说我们所谓的南京大屠杀在它看来不像是真实的，它说:你们每年的人数都在变，一下说杀了三十万，一下说死了四十万，我不相信。我说如果你以后有机会来中国旅游可以去南京看看，也许会颠覆你的想法。</p><p data-pid=\"m0-yPhVy\">它说据它所知，中国也有很多喜欢日本的人。因为它自己周边就认识一些在日生活的中国人。然后跟我分享了一件事，说是它在上大学期间，有几个中国的女留学生在它班上成绩很好，同学们都很佩服。有一次它们升国旗要求在场的日本人都站起来唱它们的国歌，如果有外国人在场只需站起来就行，不需要唱歌，然后那几个女留学生非要跟着一起唱。它跟我说了这么一句话:看来你们中国的留学生真的很爱我们日本啊！</p><p data-pid=\"iGj7VrfY\">我一时语塞，竟不知道怎么回答，然后想了一下说，可能是那几个留学生喜欢日本吧？他说我看不像，如果中国没有很多人喜欢日本，为什么每年都有很多中国游客来我们这里旅游呢？我们的商店都挤满了中国人，一些家用电器都快被中国游客买光了，有一次我想去买一个电饭煲，售货员告诉我已经卖完……</p><p data-pid=\"pYSfAgpi\">最后，它给我看了一张日本对华民意投票表，91%的日本人都投了讨厌中国人。它说了一句，这才是日本人对中国人真正的想法。然后又说，我站在你的角度来思考一下，你一直跟我说日本入侵了中国，假如我是中国人，我会认为日本是一个资源匮乏的岛国，还有海啸地震，那么只能对外扩张。而且日本这么小的一个国家却能占领中国那么多土地，而且还能跟米国对抗，难道不觉得日本人很厉害吗？据我所知你们的第一代领导人还夸奖过我们是优秀的民族。</p><p data-pid=\"clA58dTp\">我说，在某些方面你们确实是很优秀，我也承认。但你们否认历史事实，歪曲历史真相那就是令人愤怒的，无耻的。</p><p data-pid=\"zrg2Xt6Y\">它说，如果中国真的能比现在的米国还强大，也许我们的媒体会承认你们所说的“那些过错”。</p><p data-pid=\"sO5q1gxT\">我当时就很奇怪明明它们才是加害国，它们侵略中国，屠杀我们的老百姓，它们居然还还讨厌中国人，它们有什么理由讨厌中国人？</p><p data-pid=\"AN3M5fd5\">它说日本的几乎所有的新闻媒体每次都挑选中国负面事情报道，正面新闻几乎是看不到的。所以老百姓普遍认为中国还是几十年前一样经济落后、人民贫困、空气污染，虽然也会偶尔报道现在中国的飞速发展，但对老百姓的影响并不大。中国的抗日剧倒是能在电视上看到，他很惊讶的问我，你们以前八路军看起来好厉害，一个人可以打好几个人！</p><p data-pid=\"7Y2qIToX\">以上就是他的解释，大概就是这个意思。</p><p data-pid=\"kbkxAeG_\">我于是问他，你是因为什么原因想学中文，想来中国？他说现在的中国强的可怕，虽然跟米国还有差距，但如果不跟中国人搞好关系以后会很麻烦。后来不知道怎么回事又聊到棒子，他说チョン就是个自大又不要脸的人种，チョン是日本人对韩国人的蔑称，有点类似于我们蔑称韩国人是高丽棒子一样的意思。在日本，对韩国人的蔑称通常包括“チョーセンジン”（朝鲜人）和チョン（微不足道的棒子）。什么都要偷，又没有体育精神，明明是个小国，非要称自己是“大韩民国”，非常不要脸。</p><p data-pid=\"TXzjWSeY\">于是我问他，那日本人更讨厌中国人还是韩国人？</p><p data-pid=\"A-dq_QV4\">他思索了一下，缓缓说了一句，那可能还是中国人。我问为什么？他是这样说的:现在日韩两国都是米国的盟友，你知道的，我们都没有什么主权，所以在政治上我们是属于统一战线，而且我们都是资本主义国家。在生活上我们两国饮食和文化也比较相似，所以普通日本民众要按厌恶排名的话，第一是中国，第二是韩国。</p><p data-pid=\"vLhxnEUp\">我很奇怪日本人到底是个什么样的人种？他告诉我:日本是单一民族，很排外。优点是善于学习，怕惹麻烦，很有自尊心；缺点是冷漠，自私，很有坏心眼，而且一切都以自我为中心。他举个例子说:如果有日本人向你鞠躬并不代表它尊敬你，而且也不能算是礼貌，这是我们从小就养成了鞠躬的习惯，如果你上网就能看到很多日本人在网络上宣泄自己的怨恨，你可以看做是虚伪吧！我们本国人也会相互嘲讽，所以我很不喜欢这种氛围。</p><p data-pid=\"Fi77kZ5Y\">他突然问了我一句:听说你们中国人娶妻子要花很多钱，是这样吗？</p><p data-pid=\"vgXHsarR\">我说每个地方都不一样，有些地方要很多钱，有些地方不用钱，因人而异。</p><p data-pid=\"Hb5RJEkV\">然后他给我发了一个大笑的表情，他对我说:在我们日本人看来，女人是要被男人征服的，如果跪下来花钱讨好女人，在我们大部分人看来是嗤之以鼻的。你们如果能学会控制女人，利用女人，她们就会听你的话，你的生活就会过得很舒服，至少在生活中不用自己洗衣做饭。我们日本人天生有对强者的崇拜，对弱者我们不会同情的。</p><p data-pid=\"nGlzMH8p\">日本人其实也看不起韩国人，虽然同是米国的狗，日本人觉得当年二战他们殖民过南朝鲜半岛，棒子是它们统治领地下的奴隶，在鬼子眼里全亚洲都是属于它们的，其他人都是劣等人种。</p><p data-pid=\"HDWBknqS\">当然现在的棒子也不是什么好东西。</p><p data-pid=\"mwNW_-cP\">这就是普通日本人对中国人的看法。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1190111,
+        "favorite_count": 1993,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 119785827442}",
+      "attached_info": "CtQFCLuM2I/C6oytIBAEGgk3MTcwODA2NDYg1OWxvgYorkcw7hJARUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AEovCh1UU19TT1VSQ0VfRkVFRF9VU0VSX0VYUEVSVF9DRhIINDc2ODA5NTcYACAAOgBaCTEwNDczNTEzM2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyDDExOTc4NTgyNzQ0MooBCTY0MTA1NzkyMKoBCXJlY29tbWVuZMIBIGRhN2M2YmJiNGI5YjM4ZTE0MWEzMGFkY2ZiMTFkOTYz8gEKCAwSBk5vcm1hbPIBKAgKEiRjNjViOTYwOS01Njk2LTQ4MmQtYjM5Ni04MDc3M2RmNzAwODXyAQYICxICMTKCAgCIArSzpPmMM5ICIGRhN2M2YmJiNGI5YjM4ZTE0MWEzMGFkY2ZiMTFkOTYzmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDE0YjU3YWUzNmU3YjRlYmFiZTM4NGEwY2Q1MWFmMzY4mgMNCgJ2MhAAGgVvdGhlcqgD39FI2AMA+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAABj+a8/gQUAAAAAAAAAAIkFe/UoSTdG2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDJAGAKAGR6gGAJICJwoJNzE3MDgwNjQ2EgwxMTk3ODU4Mjc0NDIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "70_1755822234.188",
+      "type": "feed",
+      "offset": 70,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822234,
+      "updated_time": 1755822234,
+      "target": {
+        "id": "1941855896159367483",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1941855896159367483",
+        "author": {
+          "id": "6430b8b3e090382583ecf54e3f237d8a",
+          "url": "https://api.zhihu.com/people/6430b8b3e090382583ecf54e3f237d8a",
+          "user_type": "people",
+          "url_token": "llll-40-89-71",
+          "name": "llll",
+          "headline": "在长大，在失去，在努力，在接受，在好好生活。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f0fd9eea811ae76af7f23829012681bb_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 12,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "《熵减法则》3",
+        "comment_permission": "all",
+        "created": 1755754710,
+        "updated": 1755754724,
+        "voteup_count": 0,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "--事实上，负熵的过程就是把无序变为有序，把具体抽象成模型，其中就包括从“概率思维”到“用概率来思维”的过程。 --阅读的目标不是为了让自己显得很厉害，而是真正的改变自己的某种思维或行为习惯，习得某种策略，从而变成更好的自己。 --情商本质上是一种情绪智力，它也是一个人对自己、对他人情绪的感知、认知和管理水平的体现。要提高情商，需要学会情绪负熵。 --为自己构造多元满足。单一满足容易产生边际效用递减，唯有…",
+        "excerpt_new": "--事实上，负熵的过程就是把无序变为有序，把具体抽象成模型，其中就包括从“概率思维”到“用概率来思维”的过程。 --阅读的目标不是为了让自己显得很厉害，而是真正的改变自己的某种思维或行为习惯，习得某种策略，从而变成更好的自己。 --情商本质上是一种情绪智力，它也是一个人对自己、对他人情绪的感知、认知和管理水平的体现。要提高情商，需要学会情绪负熵。 --为自己构造多元满足。单一满足容易产生边际效用递减，唯有…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"DmVnVgmt\">--事实上，负熵的过程就是把无序变为有序，把具体抽象成模型，其中就包括从“概率思维”到“用概率来思维”的过程。</p><p data-pid=\"vqpD_bnV\">--阅读的目标不是为了让自己显得很厉害，而是真正的改变自己的某种思维或行为习惯，习得某种策略，从而变成更好的自己。</p><p data-pid=\"PCFcMZT5\">--情商本质上是一种情绪智力，它也是一个人对自己、对他人情绪的感知、认知和管理水平的体现。要提高情商，需要学会情绪负熵。</p><p data-pid=\"9sFUacAo\">--为自己构造多元满足。单一满足容易产生边际效用递减，唯有多变才能抵抗疲劳。</p><p data-pid=\"NKeu9kXB\">--共赢和双赢最大的区别是：前者为双方同时获益，后者为获益有先后。实践中应当率先寻求共赢，设法让双方同时获益。</p><p data-pid=\"Wy7jaoEG\">--凡是可以通过一时努力得到的东西，都会陷于内卷的结局。只有经过至少三年时间努力获得的东西，才能超越内卷。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2d0a3657ffa8b56521a08f6183f21f20_1440w.jpg\" data-rawwidth=\"942\" data-rawheight=\"642\" data-size=\"normal\" data-original-token=\"v2-6888c138090598e7acb4f78d34d159b6\" class=\"origin_image zh-lightbox-thumb\" width=\"942\" data-original=\"https://pic3.zhimg.com/v2-2d0a3657ffa8b56521a08f6183f21f20_r.jpg\"/></figure><p></p>",
+        "is_labeled": false,
+        "visited_count": 1,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-6888c138090598e7acb4f78d34d159b6_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 0,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1941855896159367483}",
+      "attached_info": "CtgFCLuM2I/C6oytIBAHGgkyNjIwNTI0NzQg1uGaxQYoADAAQEZKJAoZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMRIBMBgAIAA6AGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE4NTU4OTYxNTkzNjc0ODOqAQlyZWNvbW1lbmTCASA2NDMwYjhiM2UwOTAzODI1ODNlY2Y1NGUzZjIzN2Q4YfIBCggMEgZOb3JtYWzyASgIChIkYjliMjY5ZjYtNDJmOC00ZDIyLTlhMmQtYmIxZmUzZTE0OTVj8gEGCAsSAjEyggIAiAK0s6T5jDOSAiA2NDMwYjhiM2UwOTAzODI1ODNlY2Y1NGUzZjIzN2Q4YZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AIC+gILTk9STUFMX0ZMT1eKAyAxNGI1N2FlMzZlN2I0ZWJhYmUzODRhMGNkNTFhZjM2OJoDDQoCdjIQABoFb3RoZXKoAwHYAwDqAx90ZXh0XzEyaG91cl91bmlmaW5zaGVkX3JlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQrgcYggUiI3YyLTY4ODhjMTM4MDkwNTk4ZTdhY2I0Zjc4ZDM0ZDE1OWI2gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgN09/P4EFAAAAAAAAAACJBXv1KEk3Rtk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQyQBgCgBkioBgGSAi4KCTI2MjA1MjQ3NBITMTk0MTg1NTg5NjE1OTM2NzQ4MxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "71_1755822234.550",
+      "type": "feed",
+      "offset": 71,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822234,
+      "updated_time": 1755822234,
+      "target": {
+        "id": "1932439778479015074",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1932439778479015074",
+        "author": {
+          "id": "b534763a2984532ad9bf3d0802902c48",
+          "url": "https://api.zhihu.com/people/b534763a2984532ad9bf3d0802902c48",
+          "user_type": "people",
+          "url_token": "yu.ziyue",
+          "name": "程序员余子越",
+          "headline": "优质干货分享 easyeasy.me 可接单！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c0411c687e5221b6b5a9b77e524105bf_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 224,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1753509546,
+        "updated_time": 1753509728,
+        "voteup_count": 8,
+        "thanks_count": 1,
+        "comment_count": 2,
+        "is_copyable": true,
+        "question": {
+          "id": "29771102",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/29771102",
+          "author": {
+            "id": "5fe93d9e436715d6d5cb49245af3b88c",
+            "url": "https://api.zhihu.com/people/5fe93d9e436715d6d5cb49245af3b88c",
+            "user_type": "people",
+            "url_token": "changwei1006",
+            "name": "昌维",
+            "headline": "我不生产代码，我只是代码的搬运工。",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-e78360ca7f3ba089565a80abee166749_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "国立台湾科技大学 电子工程系硕士在读"
+              }
+            ],
+            "followers_count": 26835,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "个人博客选择 WordPress 还是 Typecho 好？",
+          "created": 1429675083,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 7,
+          "bound_topic_ids": [
+            65,
+            2083,
+            3405,
+            12517
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-2eb560d51314824bd969b77e4481f9a1_720w.jpg?source=b6762063",
+        "excerpt": "记录一下，2025 年我选比较年轻的 Ghost ，Github 现在是 50k 星 ，官网 https://ghost.org/ ，基于 Nodejs 构建，采用现代化技术栈，网站加载速度快，手机电脑自适应，功能强大。我用 Ghost 搭建了好几个网站了，这个是我刚刚搭建的，模板是网上找的，加上自己的一些修改： 简单一点学习     之前用 Typecho 的时候，刚一上手感觉很清爽，但是过一会儿就发现功能太简单了，可选择的扩展功能和设计模板有限，可能无法满足复杂需求。…",
+        "excerpt_new": "记录一下，2025 年我选比较年轻的 Ghost ，Github 现在是 50k 星 ，官网 https://ghost.org/ ，基于 Nodejs 构建，采用现代化技术栈，网站加载速度快，手机电脑自适应，功能强大。我用 Ghost 搭建了好几个网站了，这个是我刚刚搭建的，模板是网上找的，加上自己的一些修改： 简单一点学习     之前用 Typecho 的时候，刚一上手感觉很清爽，但是过一会儿就发现功能太简单了，可选择的扩展功能和设计模板有限，可能无法满足复杂需求。…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"JMVtrTHY\">记录一下，2025 年我选比较年轻的 Ghost ，Github 现在是 50k 星 ，官网 <a href=\"https://link.zhihu.com/?target=https%3A//ghost.org/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">ghost.org/</span><span class=\"invisible\"></span></a> ，基于 Nodejs 构建，采用现代化技术栈，网站加载速度快，手机电脑自适应，功能强大。</p><p data-pid=\"aCHRnx-q\">我用 Ghost 搭建了好几个网站了，这个是我刚刚搭建的，模板是网上找的，加上自己的一些修改：</p><a href=\"https://link.zhihu.com/?target=https%3A//easyeasy.me/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">简单一点学习</a><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0229ea1ab1e9a48b6b0b651069432a98_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1259\" data-rawheight=\"910\" data-original-token=\"v2-0229ea1ab1e9a48b6b0b651069432a98\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-fec23798e8ea60b5d8386bfb7bf47ff5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1259\" data-original=\"https://pic3.zhimg.com/v2-0229ea1ab1e9a48b6b0b651069432a98_r.jpg\"/><figcaption>easyeasy.me 首页</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b388f0cacd863fd6e8bc6cfe27f13c5e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1285\" data-rawheight=\"1006\" data-original-token=\"v2-b388f0cacd863fd6e8bc6cfe27f13c5e\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-f342cb6c037a4c2d204d630ac4fb58f0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1285\" data-original=\"https://pic3.zhimg.com/v2-b388f0cacd863fd6e8bc6cfe27f13c5e_r.jpg\"/><figcaption>easyeasy.me Python教程</figcaption></figure><p data-pid=\"YcL9YZ8K\">之前用 Typecho 的时候，刚一上手感觉很清爽，但是过一会儿就发现功能太简单了，可选择的扩展功能和设计模板有限，可能无法满足复杂需求。Typecho 注重轻量级设计，内置功能较少，但是这样太少了吧。</p><p data-pid=\"2tyLX5pc\">WordPress 之前也用过，当时记得 lnmp 架构（linux nginx mysq php）很流行，我那会给别人搭的网站当时没啥流量，估计体会不到大家说的系统负载较高的情况。</p><p data-pid=\"BFQhY0oo\">可能我能体会到的就是插件问题，为了把网站功能丰富，就加了很多的插件，插件多了后网站加载速度就明显感觉变慢了，需要优化，但是我又不想花时间去研究。</p><h3>Ghost 的优点</h3><ol><li data-pid=\"1EzSNGG_\"><b>极致性能</b>：Ghost 基于 Node.js 构建，采用现代化技术栈，网站加载速度贼快。</li><li data-pid=\"JCDTUt-A\"><b>专注内容创作</b>：Ghost 提供简洁、直观的编辑界面，Markdown 支持流畅，适合博客作者和内容创作者专注写作。</li><li data-pid=\"af5jtmAY\"><b>现代化设计</b>：Ghost 的默认主题和内置设计工具美观且响应式，适合移动端和桌面端用户，无需过多定制。</li><li data-pid=\"ltq4Fwmm\"><b>SEO 友好</b>：Ghost 内置强大的搜索引擎优化功能，如自动生成站点地图、结构化数据支持等，有助于提高搜索排名。</li><li data-pid=\"mop65QT0\"><b>订阅与会员功能</b>：Ghost 提供内置的会员管理和付费订阅功能，适合内容创作者构建社区或实现内容变现。</li><li data-pid=\"p9c3TvVP\"><b>轻量与安全</b>：相比 WordPress，Ghost 代码库更轻量，减少了攻击面，且官方托管版本提供自动更新和安全保障。</li></ol><p data-pid=\"0pmiXsoi\">这是我的后台管理界面：<a href=\"https://link.zhihu.com/?target=https%3A//easyeasy.me/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://easyeasy.me</a> </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-dbb5c1e9145cfb7848eaf5846d1dac28_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"980\" data-rawheight=\"985\" data-original-token=\"v2-dbb5c1e9145cfb7848eaf5846d1dac28\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-95133b6fa4e8dd162aafdf47f680a85a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"980\" data-original=\"https://pic1.zhimg.com/v2-dbb5c1e9145cfb7848eaf5846d1dac28_r.jpg\"/><figcaption>Ghost 后台管理</figcaption></figure><p data-pid=\"Sr8EppeQ\">它的自定义设置也挺丰富的：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9972986ddbc37043b2075dbbdda715b5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1021\" data-rawheight=\"966\" data-original-token=\"v2-9972986ddbc37043b2075dbbdda715b5\" data-default-watermark-src=\"https://picx.zhimg.com/v2-cbd2b014c3daf68f92ff7ac3b138720f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1021\" data-original=\"https://picx.zhimg.com/v2-9972986ddbc37043b2075dbbdda715b5_r.jpg\"/></figure><p data-pid=\"bw_9vbDa\">关于搜索，Ghost 的搜索部署全文搜索，所以我自定义了搜索部分，使用 meilisearch 自定主题：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-85f2a47df9cd84a6193d3ef2a6fdbd4f_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"569\" data-rawheight=\"613\" data-original-token=\"v2-85f2a47df9cd84a6193d3ef2a6fdbd4f\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-dec55ca1337bc9a656627112d68dc06f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"569\" data-original=\"https://picx.zhimg.com/v2-85f2a47df9cd84a6193d3ef2a6fdbd4f_r.jpg\"/><figcaption>meilisearch 搜索</figcaption></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1030,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-2eb560d51314824bd969b77e4481f9a1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b53430af1e0138dee63e107719c01a82_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-fcf704dae702ea33c515de25566c9b36_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-09da8cad633ba8d0e391a3ffa5efcfd6_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 19,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1932439778479015074}",
+      "attached_info": "CsUICLuM2I/C6oytIBAEGgk3Mzg5NDg2MTUgqt2RxAYoCDACQEdKLwoGSXRlbUNGEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3MzY0NjYzNzkKGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KSAofVFNfU09VUkNFX1pSRUNBTExfSVRFTUNGX1VQVk9URRIfZG9jX3R5cGU6IEFuc3dlcgppZDogNzM4OTczMDQyChgAIAA6AFoHNDA5MTE4NWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MzI0Mzk3Nzg0NzkwMTUwNzSKAQgyOTc3MTEwMqoBCXJlY29tbWVuZMIBIGI1MzQ3NjNhMjk4NDUzMmFkOWJmM2QwODAyOTAyYzQ48gEKCAwSBk5vcm1hbPIBKAgKEiQzYzAxNjhlYy05MzQzLTRiNGQtOTIwYi1jODVjY2Y5ODE5N2HyAQYICxICMTKCAgCIArSzpPmMM5ICIGI1MzQ3NjNhMjk4NDUzMmFkOWJmM2QwODAyOTAyYzQ4mgIAygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIcQmF5ZXNGaXJzdExldmVsSXNvbGF0aW9uUnVsZdoCBkl0ZW1DRugCA/oCC05PUk1BTF9GTE9XigMgMTRiNTdhZTM2ZTdiNGViYWJlMzg0YTBjZDUxYWYzNjiaAw0KAnYyEAAaBW90aGVyqAOGCNgDAOoDH3RleHRBbGxTaXRlTXZIaWdoQWN0aW9uSXRlbUNGVjH6A4oCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ6wkYjgciI3YyLTAyMjllYTFhYjFlOWE0OGI2YjBiNjUxMDY5NDMyYTk4Oi0IAhCFChjuByIjdjItYjM4OGYwY2FjZDg2M2ZkNmU4YmM2Y2ZlMjdmMTNjNWU6LQgCENQHGNkHIiN2Mi1kYmI1YzFlOTE0NWNmYjc4NDhlYWY1ODQ2ZDFkYWMyODotCAIQ/QcYxgciI3YyLTk5NzI5ODZkZGJjMzcwNDNiMjA3NWRiYmRkYTcxNWI1Oi0IAhC5BBjlBCIjdjItODVmMmE0N2RmOWNkODRhNjE5M2QzZWYyYTZmZGJkNGaABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEAJaZg/gQUAAAAAAAAAAIkFe/UoSTdG2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDJAGAKAGSagGAJICLgoJNzM4OTQ4NjE1EhMxOTMyNDM5Nzc4NDc5MDE1MDc0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=71&desktop=true&end_offset=73&page_number=13&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=71&desktop=true&end_offset=73&page_number=13&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

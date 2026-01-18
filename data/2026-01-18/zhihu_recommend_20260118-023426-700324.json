@@ -1,0 +1,607 @@
+{
+  "data": [
+    {
+      "id": "96_1768674875.884",
+      "type": "feed",
+      "offset": 96,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674875,
+      "updated_time": 1768674875,
+      "target": {
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "created_time": 1768395781,
+        "updated_time": 1768395781,
+        "thanks_count": 3,
+        "question": {
+          "bound_topic_ids": [
+            23404,
+            176184
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "title": "什么是去了江西才知道的?",
+          "follower_count": 0,
+          "excerpt": "",
+          "detail": "",
+          "id": "334190102",
+          "answer_count": 0,
+          "comment_count": 39,
+          "is_following": false,
+          "question_type": "normal",
+          "author": {
+            "url_token": "bin-yi-xing-xing-ye-44",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-05161c81b4f4d25c0f856965fa06c4af_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 6,
+            "is_following": false,
+            "user_type": "people",
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/62d6adac6e7cc313ed2b483954f6ddbf",
+            "name": "支风券",
+            "id": "62d6adac6e7cc313ed2b483954f6ddbf"
+          },
+          "url": "https://api.zhihu.com/questions/334190102",
+          "created": 1562721230,
+          "type": "question"
+        },
+        "excerpt_new": "我第一次去江西赣州，一个湖北人，之前去过江西庐山，感觉还好。但是去了赣州，真的，一言难尽，，，首先，人超凶，我也不知道为啥，公交车也没有说要刷多少，支付宝刷了，然后我就坐下来了，司机提醒我没刷卡，我心里寻思已经刷了啊，结果说没刷够，又刷了两次。。。。。后来我每次做公交车一定要问要刷几块钱，免得出现尴尬的情况，第二是，酒店一言难尽，，，不管是住的还是早餐，还比不上亚朵.",
+        "type": "answer",
+        "is_copyable": false,
+        "preview_text": "",
+        "answer_type": "normal",
+        "reshipment_settings": "disallowed",
+        "favorite_count": 7,
+        "navigator_vote": false,
+        "id": "1994877175481008255",
+        "url": "https://api.zhihu.com/answers/1994877175481008255",
+        "comment_count": 77,
+        "excerpt": "我第一次去江西赣州，一个湖北人，之前去过江西庐山，感觉还好。但是去了赣州，真的，一言难尽，，，首先，人超凶，我也不知道为啥，公交车也没有说要刷多少，支付宝刷了，然后我就坐下来了，司机提醒我没刷卡，我心里寻思已经刷了啊，结果说没刷够，又刷了两次。。。。。后来我每次做公交车一定要问要刷几块钱，免得出现尴尬的情况，第二是，酒店一言难尽，，，不管是住的还是早餐，还比不上亚朵.",
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "author": {
+          "gender": 0,
+          "followers_count": 10,
+          "is_following": false,
+          "id": "6e9c668819ec41f2b6f13d509cb99482",
+          "url": "https://api.zhihu.com/people/6e9c668819ec41f2b6f13d509cb99482",
+          "user_type": "people",
+          "url_token": "vianlei",
+          "name": "kuwa",
+          "is_followed": false,
+          "headline": "体育专业酱油党",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-e67aa80d732541d7f4e1a00eb69b9a11_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "voteup_count": 44,
+        "content": "<p data-pid=\"Np9htfDx\">我第一次去江西赣州，一个湖北人，之前去过江西庐山，感觉还好。但是去了赣州，真的，一言难尽，，，首先，人超凶，我也不知道为啥，公交车也没有说要刷多少，支付宝刷了，然后我就坐下来了，司机提醒我没刷卡，我心里寻思已经刷了啊，结果说没刷够，又刷了两次。。。。。后来我每次做公交车一定要问要刷几块钱，免得出现尴尬的情况，第二是，酒店一言难尽，，，不管是住的还是早餐，还比不上亚朵.</p>",
+        "visited_count": 28044,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994877175481008255}",
+      "attached_info": "Cq4FCIHd/K7Sgvm3uAEQBBoJNzY1NDI3MDE4IIWonssGKCwwTUBgSigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWggzNjU0MTQ4NmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTQ4NzcxNzU0ODEwMDgyNTWKAQkzMzQxOTAxMDKqAQlyZWNvbW1lbmTCASA2ZTljNjY4ODE5ZWM0MWYyYjZmMTNkNTA5Y2I5OTQ4MvIBCggMEgZOb3JtYWzyASgIChIkMzNkMTMzZWItYTMzNi00YjViLTg2ZTAtZmZhYWQwNWQzZGE48gEGCAsSAjE3ggIAiAL2rPPpvDOSAiA2ZTljNjY4ODE5ZWM0MWYyYjZmMTNkNTA5Y2I5OTQ4MpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCAvoCC05PUk1BTF9GTE9XigMgZmMyNDJmYzNhZTJkNGMxZmFjYmYxMWI1NmU4M2ZjM2aaAw0KAnYyEAAaBW90aGVyqAOM2wHYAwD6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgwHSZP4EFAAAAAAAAAACJBb5RPs6WQ7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRGQBgCgBmKoBgGSAi4KCTc2NTQyNzAxOBITMTk5NDg3NzE3NTQ4MTAwODI1NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "97_1768674875.684",
+      "type": "feed",
+      "offset": 97,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674875,
+      "updated_time": 1768674875,
+      "target": {
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"ops_AVUX\"><b>体制内的材料也分三六九等，每一等的难度和活法都不一样，现在的AI工具出来以后，这潭水就更深了。</b></p><p data-pid=\"xJCUDoIE\">那些说自己写的材料AI就能应付的，其实还不配叫笔杆子，只能说明他写的材料是比较底层的。</p><p data-pid=\"3uacSxGv\">未来的趋势很明显：毛坯房全是AI造，四平八稳，挑不出错但也绝不出彩，而人的价值全在于精装修，在于能不能把整篇文章的精气神给提起来。</p><p data-pid=\"6-0S7uqY\">写材料这事若是摊开了说，那真是一把辛酸泪，满纸荒唐言。</p><p data-pid=\"KTe5WY8o\">在体制内爬格子爬了好些年，从刚进单位时那个只会写通知的愣头青，到后来给一把手捉刀弄笔，这其中不知道熬了多少个夜，这里面的门道，根本不是外面人看个热闹就能明白的。</p><p data-pid=\"M2W7-yso\">要问写材料到底难不难，这问题本身就是个坑。</p><p data-pid=\"Uo99cNyr\">因为在体制内，尤其是机关大院里，写材料从来就不是一种单纯的文字创作，它是一场漫长而痛苦的政治翻译和逻辑重构，难的从来不是怎么把句子写通顺，而是怎么把领导脑子里那些散乱的、甚至有时候自相矛盾的想法，变成一篇文章，还得让上面看着顺眼，下面听着顺耳，中间还得把各方的利益摆平。</p><p data-pid=\"imxymuTw\"><b>这活最磨人的地方在于修心，在于得彻底地把自我给杀个干干净净</b>。</p><p data-pid=\"lkxe7QAI\">写材料的人不能有自己的性格，不能有自己的情绪，坐在电脑前的那一刻，你就得把自己变成组织的嘴巴，变成领导的大脑外挂，这种无我的状态，没熬过几十个通宵，没被领导把稿子摔桌上几次，还真是练不出来的。</p><p data-pid=\"FH-SgOAA\">体制内的材料其实也分三六九等，每一等的难度和活法都不一样，现在的AI工具出来以后，这潭水就更深了。</p><p data-pid=\"gQxWwr8t\"><b>最底层的材料那是体力活。</b></p><p data-pid=\"o23KC87t\">像什么工作动态、会议通知、简单的月度小结，这些东西以前那是纯粹的消耗战，得满世界去找模板，去翻以前的旧档。</p><p data-pid=\"C96_CJ7w\">现在有了AI，这部分活儿确实是好干了，把要素往里一扔，几秒钟就能出来个像模像样的初稿，车轱辘话它比你会说，排比句它也比你会造，对于那些整天只会复制粘贴的文抄公来说，AI确实是神器。</p><p data-pid=\"sk6DymKF\">但也意味着这类只会搬砖的笔杆子，以后的路是越走越窄，因为价值已经被机器稀释得跟白开水一样了。</p><p data-pid=\"TZmx1kJq\"><b>往上一层走，到了年度总结、专项汇报、经验材料这个级别，难度就开始指数级上升</b>。</p><p data-pid=\"QZymo2cI\">这时候考验的是搭骨架的手艺。</p><p data-pid=\"PZvxot9N\">怎么把这一年干的一地鸡毛，串成一串光彩夺目的珍珠，怎么把原本平平无奇的流水账，提炼出让人眼前一亮的新提法、新模式，这需要极强的逻辑架构能力。</p><p data-pid=\"6o6apCk8\">AI在这个阶段能给你提供点思路，能帮你罗列出一二三四，但它一时半会都给不了你那个魂，因为它不知道你们单位今年到底是想求稳还是想求进，它不知道哪块工作是领导的心头肉，哪块工作是必须要遮掩的烂疮疤。</p><p data-pid=\"PstMToFt\">这些微妙的分寸感，机器是算不出来的，只能靠人脑去填补。</p><p data-pid=\"Y_l3jSos\"><b>最顶层的难度，那是给主要领导写讲话稿或者是写那种定调子的红头文件。</b></p><p data-pid=\"-NMmAJ-V\">这显然已经不是在写稿了，这更像是在谋局，需要揣摩“圣意”。</p><p data-pid=\"spC9wiqN\">领导说这稿子高度不够，他不是让你多引几句诗词或是把用词再高大上点，他是嫌你没把上面的精神跟本地的实际结合好，嫌你没把他的个人风格和施政意图体现出来；</p><p data-pid=\"61yt_wXZ\">领导说稿子太虚，并不一定要去堆砌数据，而且要能拿出实打实的干货和解决问题的狠招。</p><p data-pid=\"AwA7Kadd\">这种时候，AI就像个废物，因为它不懂人情世故，不懂眉高眼低，更不懂什么叫点到为止、什么叫政治站位。</p><p data-pid=\"SAk6jUMV\">现在很多人说AI要彻底取代笔杆子，那是外行看笑话，AI杀不死的，是那些真正懂业务、懂政治、懂人心的操盘手，它杀死的只能是那些只会堆砌辞藻、只会搞文字游戏的搬运工。</p><p data-pid=\"oxP6d2eI\">未来的趋势很明显，毛坯房全是AI造，四平八稳，挑不出错但也绝不出彩，而人的价值全在于精装修，在于能不能在那一堆正确的废话里，镶嵌进那么几句带着泥土味、烟火气、带着领导个人体温的金句，还在于能不能在关键的转折处，用一两句神来之笔，把整篇文章的精气神给提起来。</p><p data-pid=\"2IKYqeOz\"><b>所以说，写材料难不难，全看你把自己定位在哪个层次。</b></p><p data-pid=\"V3XB0EgX\">你要是只想当个打字员，那现在不难了，有AI帮你混日子。</p><p data-pid=\"VxSbqs-h\">但你要是想通过写材料在体制内安身立命，甚至以此为阶梯向上攀登，那依然难如登天，因为你得比做业务的人更懂业务，比当领导的人更懂局势。</p><p data-pid=\"kQGURtLB\">有4条掏心窝子的建议，这都是拿发际线换来的经验。</p><p data-pid=\"ZKqrTLTi\"><b>一，建立自己的私有语料</b></p><p data-pid=\"tyUoDGhS\">别指望百度，也别全指望AI，平时看到上级的文件、大官媒的评论、兄弟单位的典型经验，凡是觉得那个提法好、那个框架硬的，统统保存下来，分门别类地整理好，写材料的时候，脑子里得有货，手里得有粮，这才是你区别于AI的核心资产。</p><p data-pid=\"iCHYJgK2\">这个回答的最后，我附上了自己整理的体制内公文高级语料库，但只能满足日常的60%，剩下的40%你得结合自己的工作特点及领导喜好不断充实完善。</p><p data-pid=\"jAbcqA-4\"><b>二，学会模仿</b></p><p data-pid=\"fDdqNpEe\">给谁写稿子，就去研究谁的说话习惯。</p><p data-pid=\"zpWeHP5D\">把领导过去几年的讲话都找出来，反复读，反复听，琢磨他口头禅是什么，喜欢用短句还是长句，喜欢引经据典还是大白话，喜欢宏大叙事还是具体案例。你得把自己代入领导的角色，就像是被领导上了身。</p><p data-pid=\"7P9jO44l\">写到最后，你得让领导读着你的稿子，感觉就是他自己想说的话，只是你帮他更漂亮地表达了出来，这就叫神似。</p><p data-pid=\"RFKoyuso\"><b>三，功夫都在诗外</b></p><p data-pid=\"p-iCu1cJ\">别光盯着文字稿子本身在那较劲、抠字眼，多去研究事、研究人。</p><p data-pid=\"hkjScVof\">毛主席说的，没有调查就没有发言权。</p><p data-pid=\"jCIHLW4J\">写一个汇报或者总结，先别急着动笔，花点时间去把这项工作的来龙去脉、前因后果、难点痛点都搞清楚，最好是去跟具体干活的人聊一聊，磨刀从不误砍柴功。</p><p data-pid=\"WB7Xluo3\">只要能把事理顺了，文理自然就通了，很多时候你写不出来，不是因为你的脑子里没墨，而是因为你对事情的理解还没穿透。</p><p data-pid=\"ue2OvLQT\"><b>第四，心态要皮实</b></p><p data-pid=\"Q9jlU5Xs\">好文章都是改出来的，更是被骂出来的。</p><p data-pid=\"2AQCm0rb\">稿子被毙了，被领导批得一无是处，也没必要玻璃心，更不要自我怀疑开始感叹怀才不遇。你就把每一次修改意见都当成是领导在教你他看问题的视角，每一次推倒重来都是你打破旧思维、建立新逻辑的机会。</p><p data-pid=\"KayEVBv1\">你没发现吗，体制内一直都是能扛得住多大的折磨，就能接得住多大的重任。</p><p data-pid=\"XlIJ61IN\">写材料这碗饭不好吃，所以不爱吃的话就别强吃，但如果你耐得住寂寞并吃透了它就是你手里最硬的底牌。</p><p data-pid=\"cd1CXIWK\">只有当你不再纠结于那些华丽的词藻，而是开始用文字去驾驭工作、去影响决策的时候，你就会发现，这苦差事里也有它独特的滋味。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><h2><br/></h2><h2>体制内公文语料库（供收藏）</h2><p data-pid=\"kfn-7weE\">为了让你手里的这支笔真正变成冲锋枪，我把自己整理收集的压箱底语料库分享出来。</p><p data-pid=\"Z7igXILe\">建议直接收藏，打印出来压在办公桌的玻璃板底下，卡壳的时候，扫一眼，灵感马上就来。</p><p data-pid=\"kFrQTNrF\">我把它们分成了四大门类：</p><p data-pid=\"eHWwMhn8\"><b>动词（动作）、名词（概念）、短语（气势）、句式（逻辑）</b>。</p><h3><b>一、 动词篇：把干活写出雷霆万钧的力度</b></h3><p data-pid=\"htti9Mye\">写材料最忌讳动词贫乏。别只会用“做、搞、弄、抓”。在体制内，不同的力度，对应不同的动词。</p><p data-pid=\"fovwR1tj\"><b>1. 表示开始和启动</b></p><p data-pid=\"GRxjniEr\"><b>启动、部署、谋划、筹备、起草、酝酿、构建、搭建、打造、设立、铺排、拉开、吹响。</b></p><ul><li data-pid=\"Nm31eFUS\"><i>例句：</i> <b>拉开</b>了改革的序幕；<b>吹响</b>了攻坚的号角；<b>构建</b>了全方位的防控体系。</li></ul><p data-pid=\"3r5X4gSs\"><b>2. 表示“推进”和加强</b></p><p data-pid=\"vff3eoLU\"><b>推进、推动、推行、实施、践行、深化、强化、细化、优化、实化、量化、硬化、催化、督导、督办、协调、统筹、加持、赋能、加码、提速。</b></p><ul><li data-pid=\"uDtlUcFp\"><i>例句：</i> 以数字技术<b>赋能</b>传统产业；层层<b>压实</b>责任；<b>倒逼</b>工作落实。</li></ul><p data-pid=\"cXJ3moar\"><b>3. 表示攻坚和解决</b></p><p data-pid=\"qKYYyu7b\"><b>攻克、破解、破除、革新、整治、整顿、清理、出清、铲除、遏制、扭转、兜底、补齐、填补、矫正。</b></p><ul><li data-pid=\"Qll9WDMU\"><i>例句：</i> <b>破解</b>了长期制约发展的瓶颈；<b>补齐</b>了民生领域的短板；<b>兜底</b>保障困难群众生活。</li></ul><p data-pid=\"rofX90oC\"><b>4. 表示结合和联系</b></p><p data-pid=\"r-zVvo4B\"><b>对标、对表、聚焦、聚力、融合、耦合、嵌入、嫁接、贯通、衔接、联动、呼应、契合。</b></p><ul><li data-pid=\"Gss24D-_\"><i>例句：</i> 主动<b>对标</b>先进地区；实现产业链与创新链的深度<b>耦合</b>；坚持问题导向与目标导向相<b>契合</b>。</li></ul><h3><b>二、 名词篇：把琐事包装成战略的高度</b></h3><p data-pid=\"dFuTxczt\">材料有没有高度，全看名词用得响不响。要学会造概念或者借用这些现成的概念。</p><p data-pid=\"6PpmU6YW\"><b>1. 关于目标与方向</b></p><p data-pid=\"Y354o0hv\">制高点、排头兵、领头羊、先行区、示范区、试验田、桥头堡、主阵地、主战场、主引擎、压舱石、定盘星、风向标、指挥棒、路线图、时间表、任务书。</p><p data-pid=\"AkyUS0F_\"><b>2. 关于手段与方法</b></p><p data-pid=\"VgUbZEt5\">抓手、载体、切入点、着力点、结合点、关键点、引爆点、突破口、硬骨头、拦路虎、绊脚石、组合拳、连环招、先手棋、杀手锏、基本盘。</p><p data-pid=\"9z1oJXbJ\"><b>3. 关于状态与格局</b></p><p data-pid=\"afRE1s0c\">新常态、新格局、新高地、新赛道、新动能、新优势、深水区、攻坚期、窗口期、黄金期、关键期、快车道、加速度、满负荷、全天候、全方位、全覆盖。</p><h3><b>三、 四字短语篇：把流水账变成排比句的气势</b></h3><p data-pid=\"sezVTDHd\">体制内写材料，讲究的是四六句，讲究的是音韵铿锵。这些四字短语，是用来撑门面的。</p><p data-pid=\"6Kk9MRm8\"><b>1. 形容工作态度</b></p><p data-pid=\"Y3Q8rdDd\">只争朝夕、不负韶华、夙兴夜寐、闻鸡起舞、披荆斩棘、乘风破浪、激流勇进、迎难而上、背水一战、破釜沉舟、久久为功、善作善成、抓铁有痕、踏石留印。</p><p data-pid=\"t2LOfW6V\"><b>2. 形容工作成效</b></p><p data-pid=\"83fzSHos\">成效显著、亮点纷呈、硕果累累、捷报频传、稳中有进、进中向好、好于预期、超出预期、焕然一新、落地生根、开花结果、蔚然成风、行之有效、可圈可点。</p><p data-pid=\"HKyrSuGy\"><b>3. 形容形势严峻</b></p><p data-pid=\"gBWQUuxo\">错综复杂、波谲云诡、风高浪急、任重道远、不进则退、慢进亦退、前有标兵、后有追兵、迫在眉睫、刻不容缓、千钧一发。</p><p data-pid=\"VNWCDIky\"><b>4. 形容思想统一</b></p><p data-pid=\"q6kFAUfO\">凝心聚力、同频共振、同向发力、步调一致、众志成城、上下一心、心往一处想、劲往一处使。</p><h3><b>四、 句式模版篇：把散沙构建成大厦的逻辑</b></h3><p data-pid=\"4pmkb3LX\">有了词，还得有架子。这些经典的句式模版，就是你的骨架，只要往里面填肉，出来的就是一篇标准的公文。</p><p data-pid=\"RaaSsrIv\"><b>1. 动宾结构的小标题模版（最常用，最稳）</b></p><ul><li data-pid=\"uwLdVf--\">坚持……导向，强化……意识。</li><li data-pid=\"ajxi91zV\">聚焦……重点，破解……难题。</li><li data-pid=\"oCt8CCqr\">立足……实际，谋划……长远。</li><li data-pid=\"8pPKC4Av\">紧扣……目标，落实……举措。</li><li data-pid=\"NUuB8wIa\">夯实……基础，筑牢……防线。</li></ul><p data-pid=\"iz4DzYv0\"><b>2. 三字诀式的提炼模版（朗朗上口，好记）</b></p><ul><li data-pid=\"pNu3ewwM\">在“深”字上下功夫，在“实”字上做文章，在“新”字上求突破。</li><li data-pid=\"84fNgMS7\">念好“严”字经，打好“查”字牌，唱好“改”字戏。</li><li data-pid=\"GXTvp_E1\">突出一个“快”字，狠抓一个“准”字，落实一个“稳”字。</li></ul><p data-pid=\"eUrVPnPE\"><b>3. “不仅……而且……”的递进模版（体现全面性）</b></p><ul><li data-pid=\"2Fn0X6_Y\">既要埋头拉车，又要抬头看路。</li><li data-pid=\"hf-pRn-s\">既要做大蛋糕，又要分好蛋糕。</li><li data-pid=\"1iyC37FF\">既要有“功成不必在我”的精神境界，又要有“功成必定有我”的历史担当。</li><li data-pid=\"obgg3lZK\">不仅是数量的增长，更是质量的飞跃。</li></ul><p data-pid=\"9Btnpym5\"><b>4. “从……到……”的转变模版（体现改革成效）</b></p><ul><li data-pid=\"MDVjnd6t\">实现了从“跟跑”到“并跑”再到“领跑”的转变。</li><li data-pid=\"cZRyrp4h\">实现了从“大写意”到“工笔画”的转变。</li><li data-pid=\"LXGA7IvD\">实现了从“单打独斗”到“握指成拳”的转变。</li><li data-pid=\"zM88W7eI\">变“群众跑腿”为“数据跑路”；变“被动应付”为“主动出击”。</li></ul><p data-pid=\"dG6_aUF0\"><b>5. 结尾表态的万能模版（升华专用）</b></p><ul><li data-pid=\"vXYw80Eb\">让我们以“咬定青山不放松”的韧劲，“不破楼兰终不还”的拼劲，“天工人巧日争新”的闯劲，奋力谱写……新篇章。</li><li data-pid=\"3hQVZGRk\">蓝图已经绘就，号角已经吹响。我们将以此次会议为契机，……，为……作出新的更大贡献！</li></ul><h3><b>建议收藏，常读常新~</b></h3>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 1441,
+        "created_time": 1768643531,
+        "thanks_count": 1,
+        "preview_type": "default",
+        "preview_text": "",
+        "favorite_count": 92,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "updated_time": 1768651508,
+        "is_copyable": false,
+        "excerpt": "体制内的材料也分三六九等，每一等的难度和活法都不一样，现在的AI工具出来以后，这潭水就更深了。那些说自己写的材料AI就能应付的，其实还不配叫笔杆子，只能说明他写的材料是比较底层的。 未来的趋势很明显：毛坯房全是AI造，四平八稳，挑不出错但也绝不出彩，而人的价值全在于精装修，在于能不能把整篇文章的精气神给提起来。 写材料这事若是摊开了说，那真是一把辛酸泪，满纸荒唐言。 在体制内爬格子爬了好些年，从刚进单位…",
+        "vote_next_step": "vote",
+        "id": "1995916314997453359",
+        "voteup_count": 33,
+        "comment_count": 4,
+        "navigator_vote": false,
+        "excerpt_new": "体制内的材料也分三六九等，每一等的难度和活法都不一样，现在的AI工具出来以后，这潭水就更深了。那些说自己写的材料AI就能应付的，其实还不配叫笔杆子，只能说明他写的材料是比较底层的。 未来的趋势很明显：毛坯房全是AI造，四平八稳，挑不出错但也绝不出彩，而人的价值全在于精装修，在于能不能把整篇文章的精气神给提起来。 写材料这事若是摊开了说，那真是一把辛酸泪，满纸荒唐言。 在体制内爬格子爬了好些年，从刚进单位…",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995916314997453359",
+        "author": {
+          "url_token": "densen",
+          "headline": "收藏再看丨资深半体制",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c948b117ba8e0c274e06d166e05c50e6_l.jpg?source=b6762063",
+          "followers_count": 83247,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/dee9f7c9d1844ea794913841d3fd7ed8",
+          "user_type": "people",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "地铁话题下的优秀答主",
+              "topic_names": [
+                "地铁"
+              ],
+              "topic_ids": [
+                1717
+              ]
+            }
+          ],
+          "id": "dee9f7c9d1844ea794913841d3fd7ed8",
+          "name": "Kaiser"
+        },
+        "question": {
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/782876681",
+          "author": {
+            "id": "68e7872db8cc64a7f48b9953f49f5110",
+            "name": "回头看未来",
+            "avatar_url": "https://picx.zhimg.com/50/v2-dd3b65fb3e34b664026c780cb853885b_l.jpg?source=b6762063",
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/68e7872db8cc64a7f48b9953f49f5110",
+            "user_type": "people",
+            "url_token": "31-21-48-14",
+            "headline": "小城小吏，读诗读史。",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 999,
+            "is_followed": false
+          },
+          "is_following": false,
+          "excerpt": "",
+          "title": "体制内写材料到底难不难？",
+          "answer_count": 0,
+          "question_type": "normal",
+          "created": 1728388321,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "782876681",
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            2566,
+            30252
+          ],
+          "detail": ""
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995916314997453359}",
+      "attached_info": "CogGCIHd/K7Sgvm3uAEQBBoJNzY1ODIyNzc1IMu3rcsGKCEwBEBhSjkKKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9OEgY3NjUxODgYACAAOgBKOQopVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9DUkVBVEUSBjc2NTE4OBgAIAA6AFoJMTExMDE3MTU4YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTkxNjMxNDk5NzQ1MzM1OYoBCTc4Mjg3NjY4MaoBCXJlY29tbWVuZMIBIGRlZTlmN2M5ZDE4NDRlYTc5NDkxMzg0MWQzZmQ3ZWQ48gEKCAwSBk5vcm1hbPIBKAgKEiQ3YzJkYzM2ZC1hOTMwLTQ1NGYtOWRlNS1lNDVkNTU4ODllZTbyAQYICxICMTeCAgCIAvas8+m8M5ICIGRlZTlmN2M5ZDE4NDRlYTc5NDkxMzg0MWQzZmQ3ZWQ4mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9O6AID+gILTk9STUFMX0ZMT1eKAyBmYzI0MmZjM2FlMmQ0YzFmYWNiZjExYjU2ZTgzZmMzZpoDDQoCdjIQABoFb3RoZXKoA6EL2AMA6gMdZmlyc3REZWdyZWVVc2VyQWN0aW9uUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgjrV7P4EFAAAAAAAAAACJBb5RPs6WQ7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRGQBgCgBmOoBgOSAi4KCTc2NTgyMjc3NRITMTk5NTkxNjMxNDk5NzQ1MzM1ORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "98_1768674875.733",
+      "type": "feed",
+      "offset": 98,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674875,
+      "updated_time": 1768674875,
+      "target": {
+        "author": {
+          "url_token": "lw-cao",
+          "name": "老年DLCZMU",
+          "headline": "不求富贵权位，惟愿正义公道。西西弗斯多了，徒劳就不再是徒劳。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-14d90c663e5681708e1bee40390202cb_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "电子设备制造业 CTO"
+            }
+          ],
+          "id": "9d3f63ec330bf7c1d9e4c1cbba485e08",
+          "is_following": false,
+          "followers_count": 100092,
+          "user_type": "people",
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/9d3f63ec330bf7c1d9e4c1cbba485e08"
+        },
+        "thanks_count": 15,
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"L-opzxdA\">我觉得以以知乎人为代表的工业党（马前卒老师是典型），具有一种象牙塔中的纯洁。</p><h2>为了简化问题他们习惯假定所有资源是均匀的。</h2><p data-pid=\"LxMXye9W\">我之前很喜欢写回忆性的东西，后来不写了的原因是看了其他前辈的资料之后，发现了自己有曼德拉现象。</p><p data-pid=\"FkVJ61up\">实际上我不同时期写的回忆性回答内容有很多矛盾地方，记忆是不准的。</p><p data-pid=\"LPy1jcqT\">幸好我父母八十多了，得益于科技同社会进步，虽然很多手术待做未做但是尚健在，并且两人不是住在同一个地方，能够交叉验证的时候不会导致彼此信息干扰。</p><p data-pid=\"EFCMo3zU\">所以我查过相关企业志并且反复找老人核对之后再写下这个回答（因为查证要时间，所以缓慢更新中）。</p><p data-pid=\"IqCFjbYW\">马老师认为当时自行车是容易买的，只是名牌自行车才难买。</p><p data-pid=\"bCw1OlgF\">我在网上找到的自行车票貌似能证明这个说法</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9544826a8378bd7cdd30787c24319a39_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"284\" data-original-token=\"v2-3c4f9f642161da679d5f82963f2bc471\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://picx.zhimg.com/v2-9544826a8378bd7cdd30787c24319a39_r.jpg\"/></figure><p data-pid=\"ZXDE5qyA\">但是我的经历貌似与之冲突。</p><p data-pid=\"dbBjKrZY\">经过检讨我亲身打听的结果后，我认为：</p><p data-pid=\"1zXefYid\">”自行车是容易买的，只是名牌自行车才难买“在上海这样的大城市是真的，但是其他地方则不好说。</p><h2>我曾经因为没有自行车而被迫转学。</h2><p data-pid=\"QLp_2YFj\">我曾经在一些会议性文章中介绍过，我是央企子弟，父亲是享受正县级待遇高级工程师，但是日常生活中饱受那些有权力的人的家庭欺凌。这里就不展开了。</p><a href=\"https://www.zhihu.com/question/664155327/answer/1944481053822682603\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"计划经济能不能偷懒？\" data-draft-cover=\"\" class=\"internal\">计划经济能不能偷懒？</a><p data-pid=\"yE2HXvtR\">我还讲过，因为分不到房子（虽然理论上应该分房子，但是具体分管人员总有各种办法无限期耽搁），我轮流住在父母宿舍。</p><p data-pid=\"SyaIgiK_\">但是后来，我家分到了一套很好的房子，有院子，可以种菜、养鸡改善生活。</p><p data-pid=\"_TnXGfwZ\">但是位置很偏，在炸药库。</p><p data-pid=\"wjNWzJlH\">因为矿山的矿挖完了就要搬迁，所以当时炸药库离矿区已经有些距离了。</p><p data-pid=\"nfl_FPJJ\">原因是因为我父亲帮炸药库的领导解决了用水问题，炸药库有个小的消防水库，本来是从外面用水管供水。</p><p data-pid=\"3kaSm7s3\">我也讲过，我们当时工农关系很差，矿上都是外地人，而当地村民靠山吃山，跟铁道游击队一样，扒电线扒水管扒矿车（当然不敢扒铁路），不仅早于时代用上了电力灌溉（当然，矿山带来的污染问题当时没人关注），并且还贩卖矿石（他们不采矿，只是做我们矿石的搬运工）。</p><p data-pid=\"LQGsOH_w\">以至于我们周围的农村早早的富了起来，普遍建了高大的砖瓦房，以至于到认识我妻子之前，我都以为农村比城里富（虽然同学很多农村的，也是也很贫穷的样子，但是我总是以为他们当初是节省，就像现在说的一个牧区笑话一样，某某同学家里是卖了牛才上学的，其实他家里几百头牛）。一直到我陪着老婆回门，我看到我老婆娘家的房子是土坯墙茅草顶，我才明白，以前的农村太穷了，我们那里的农村是极少数富起来的地方，总体来说以前的农村还是真的穷。</p><p data-pid=\"Rf7XTneV\">我们当时自己都是用15瓦30瓦的昏黄的灯泡（虽然当时没有电表，我们用电也是相当于免费的，但是因为供电局会查大功率灯泡，所以不敢用功率太大的），而当地农村都是用100瓦的明亮灯泡，因为他们不仅免费，并且还没人敢查。因为是扒企业电线的来的。</p><p data-pid=\"-2xLcnHT\">毕竟是高压电，需要搭建变压器等等，所以，我们那里的农村比其他的地方更早掌握了科技。</p><h3>地域差异性巨大：</h3><p data-pid=\"iOJ__-QP\">我听来自北方矿山的同学介绍过，在北方的矿山则完全倒过来，周围的农村不仅不能靠山吃山，甚至水源被矿山污染了都可怜兮兮的敢怒不敢言。</p><p data-pid=\"8rrb21le\">其原因大概是南方有庞大的宗族势力，农村能动不动能召集几万人。</p><p data-pid=\"qhpZbQMX\">当然，因为我们一直执行绥靖政策，只有锄头扁担加鸟铳，也没有发生过大的死伤，所以不像93年的郴州马田那样有重武器。</p><p data-pid=\"BWo2I5Wo\">即便如此，我们当时各个城市（不对，是被农村分割包围的各个矿），都把男性员工组织起来作为护矿队。</p><p data-pid=\"vMr08AQ5\">当然，”剿匪“是不可能剿的，也仅仅是龟缩在矿区防止洗劫。</p><p data-pid=\"pvlObU5N\">矿石的外运，有专门的运输专线，反正周围的农村很文明，只取鸡蛋不杀鸡，只扒火车不扒铁路。</p><p data-pid=\"DlNWAGxS\">就当交税吧。</p><p data-pid=\"mG6Dcjjy\">至于盗窃之类，睁一只眼闭一只眼吧。</p><p data-pid=\"-01UajyD\">我们那里的农村甚至有扒电线的时候因为技术不精电被死了，一大群人带着尸体找到矿上索赔。。。。结果。。在群众的力量是无穷的，当然索赔成功了，但是据说赔偿款也不是单给家属，而主要是几个村里分了，毕竟他们不闹是一分钱没有。当然，无论闹不闹，破坏电力设备罪是不可能有的，这辈子都不能有。</p><p data-pid=\"pgfzAeZ4\">我们矿山只是正厅级企业，我们的公检法有几个胆子敢管地方上的人啊？？</p><p data-pid=\"ZX5g-Q3G\">即便是抓盗窃犯，除非抓现行，否则也是不敢抓的。</p><h3>炸药库的难题：</h3><p data-pid=\"QixWdXu4\">因为去炸药库的水管总是被农村扒掉，炸药库的领导苦不堪言。</p><p data-pid=\"Yeiu5xjY\">为啥呢？因为拉电线很方便，扒电是一劳永逸的，扒了电之后会自己接到村子，然后自己买变压器变成市电（咋买到的我不知道，反之我们周围的农村很神通的，又听说地方领导有他们的人）</p><p data-pid=\"fXGt0tVV\">所以扒电的事情少，甚至形成了默契，供电局一旦检测到短路就当作被扒电了，即便检测到短路消失也不敢贸然送电，怕电死人。供电局非要把电路巡检一遍找到被恢复的短路点才敢送电。（央企是有自己的供电局的，甚至有自己的公安局、检察院、法院）。</p><p data-pid=\"_4vXZ-Zb\">你用电就用吧，反之企业这些电费还交得起。</p><p data-pid=\"qTZ-KrvX\">水管则不同，村民懒得自己接水管，并且扒水管没有风险，所以就近扒。</p><p data-pid=\"qtRuM4hL\">并且，旱地改水田之后用水量太大了，企业压根没那么多水可以供给。</p><p data-pid=\"kk4VNWFC\">我介绍过，我父亲跟 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/133166c9b56296f657af348cd78c82b6\" data-hash=\"133166c9b56296f657af348cd78c82b6\" data-hovercard=\"p$b$133166c9b56296f657af348cd78c82b6\">@平老虎</a> 一样，是搞地质的。他既然能找矿，那么能不能找地下水呢？</p><p data-pid=\"Ol5DSmuz\">于是炸药库的领导找到我父亲看看能否帮忙看看。本来那个地方已经被前辈看过是贫水的地方，但是我父亲还是去看了，结果我父亲说有地下水，结果按我父亲说的打个实验钻下去一看，地下真的有个缝隙里面有地下河（所谓地下河，其实就是泥浆，水质很差）。</p><p data-pid=\"dWEpzbvA\">因为炸药库有很多空房子，于是炸药库的领导就送了一套给我父亲。当然，是租，但是租金是象征性的，实际还有一个院子。</p><p data-pid=\"g-Rls2fO\">炸药库的领导派了一辆南京汽车制造厂生产的跃进130把我父母的床铺柜子家当都运了过去</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0b311417830da801eb170b282dfad7f6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"768\" data-original-token=\"v2-3bc87a117279047817e38835d4006294\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic1.zhimg.com/v2-0b311417830da801eb170b282dfad7f6_r.jpg\"/></figure><p data-pid=\"XzbUJ0oy\"><sup data-text=\"\" data-url=\"https://chejiahao.autohome.com.cn/info/8822144?isfrom=m\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> </p><p data-pid=\"SEKHEQdt\">但是问题来了，我当时在上学，而炸药库远离居民区，附近没有学校。</p><p data-pid=\"CWevN_Qk\">拿到现在，大家可能想骑车上学不就行了吗？</p><p data-pid=\"RzKDst-r\">别说我当时还没有上中学不会骑车，我也没有自行车啊？</p><p data-pid=\"LnZKkEqq\">幸好，当时炸药库的领导为了解决子弟的入学问题，办了一个子弟学校，弄了一两个老三届的学生教孩子到那个子弟小学去了。</p><p data-pid=\"fFe4zApg\">于是，我就转到那个子弟学校去了。</p><p data-pid=\"5fGbtHhd\">而我父母，从两地分居变成了每天步行二十几里路上班，再步行二十几里路下班，天天磨鞋底。</p><p data-pid=\"_OE3qsCj\">当然，我母亲平时住宿舍，周末才回家。</p><p data-pid=\"TdRL5oGz\">我不是说这种生活苦，只是说自家的历史，我家里至少有鞋底可以磨，而刘长春当年只能赤脚跑（不是说比赛的时候）</p><p class=\"ztext-empty-paragraph\"><br/></p><a href=\"https://www.zhihu.com/question/495536797/answer/1989015297139697020\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"如果刘长春当年以最佳状态参加奥运是否有机会夺得奖牌？\" data-draft-cover=\"https://pica.zhimg.com/v2-23c3d70a610460c4f8b124ed6cc249b8.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">如果刘长春当年以最佳状态参加奥运是否有机会夺得奖牌？</a><p data-pid=\"diVIsBjj\">关于集中办学跟分散办学的事情，各有优缺点。</p><p data-pid=\"qRWQWCA7\">之前有一起悲剧我认为就是集中办学引起的，但是没有人提，我一提就违规。</p><p data-pid=\"NmzwJFWH\">我这里只提分散办学的缺点。</p><p data-pid=\"nUQMl4AZ\">那个子弟学校，一个房间两个年级，每个年级一个班，一个班朝南上课一个班朝北上课。说白了，跟私塾差不多。</p><p data-pid=\"gsPyaFO4\">老师嘛，是啥都要教，但是其实啥也不懂，一问三不知，或者瞎扯。</p><p data-pid=\"2llSaAc_\">如果父母没文化就算了，问题我父母都是名牌大学毕业的。</p><p data-pid=\"ZOkwrPOh\">孩子回到家里一问，老师这都是教的啥胡说八道的东西啊？</p><p data-pid=\"NhVLmKcn\">我又是独子（这倒不是因为计划生育，当年没计划生育，而是两地分居，没机会生孩子），独子被耽误了，是可忍熟不可忍？。</p><p data-pid=\"gcrsGhiX\">于是在我母亲的强大压力下，我父亲去找门路买自行车了。</p><p data-pid=\"6bjaxuU_\">我记得我父亲就是一直买不到车，然后我母亲一直骂我父亲。</p><p data-pid=\"o3U5zrBt\">我刚刚找我八十多父亲核实了，不仅仅是名牌自行车要票，啥自行车都要票。</p><p data-pid=\"NBl1WZnn\">不仅自行车要票，缝纫机也要票，没票啥牌子的都拿不到，因为这两样东西对生活质量的改善太大了，太紧俏了（当年衣服不是成衣，都是用布票去布店买布回家自行裁剪、缝制。机器缝跟人缝相差太大了，大家可以自己试试一天能缝多少针，数一数一件衣服要缝多少针）。</p><p data-pid=\"Ht-XUmlX\">矿区百货商场里面有自行车，但是没票人家不卖给你。</p><p data-pid=\"D6UyUklX\">最后，我父亲找到附近的一个乡的党委书记，乡党委书记给父亲弄了一张票，让他在那个乡的供销社买了一辆自行车。</p><p data-pid=\"Qbx7lBYx\">为啥找那个乡党委书记呢?也是因为水源的问题，那个乡缺水源灌溉，想找地下水，找人看了都说没有地下水。乡党委书记认识我父亲上司，于是找到我父亲上司，我父亲上司派我父亲去看了一下，给了一个点，打钻下去，果然有水。</p><p data-pid=\"-GE9XR4C\">当然，自行车只有一部，自然是我父亲骑。我上中学之前也不会骑</p><p data-pid=\"yojWeAj3\">有自行车之后，我就转学去了矿区的正规学校，父亲每天就早上骑车送我上学，晚上骑车接我放学。</p><h3>好景不长</h3><p data-pid=\"js90FAYj\">本来我父亲都是在学校门扶着自行车慢慢等我，</p><p data-pid=\"Ob5eEolL\">有一次，老师拖堂拖太久了，我父亲等不及，进学校接我了。出来之后发现自行车没有了。</p><p data-pid=\"eHBwlMcd\">询问学校的门卫，好像大概也许期间一个周围村民模样的人把我父亲的自行车扛走了，当时没有偷车的工具，偷车贼是先扛走再说，飞鸽牌二八大杠载重型，可以装我一家三口人（我坐大梁，我母亲坐后座）的车啊。</p><p data-pid=\"Fs8sfnSE\">不像后来学校门口有一个很大的自行车停车场，当时学校门口是空荡荡的，我父亲的自行车停在马路上，很显眼。但是门卫怕惹事，所以没敢吭声。</p><p data-pid=\"bElvlBhj\">于是，我开始被我父亲拖着上学的日子。</p><p data-pid=\"AwPpsq1n\">虽然我长个子长得很早，个子跟我父亲差不多，但是走路真的不行。</p><p data-pid=\"mnLv-jVE\">我父亲又走得快，二十几里路下来我当时扛不住，所以我后来又转学转回去了。</p><p data-pid=\"wpR9rzVy\">然后我母亲一直骂我父亲，让我父亲尽快再买一辆自行车，但是我父亲一直没有搞定。</p><h3>问题很快解决了：</h3><p data-pid=\"y1eaMjmN\">咋解决的？我跟我父亲重新住回矿区的集体宿舍了，我也转学回到了矿区的学校。当然，回不到原来的班了，所以，我的同学又换了一批。</p><p data-pid=\"qzX24hbX\">成人宿舍没有双层的架子床，所以我跟父亲一人睡一头挤在一张0.8米宽的床上睡觉，一直到矿区给我父亲分房子。</p><p data-pid=\"2ydkCM9b\">因此我跟父亲有很深感情。</p><h2>一个很大的反差</h2><p data-pid=\"ylo2JyIf\">我父亲是什么时候学会骑自行车的？</p><p data-pid=\"Mnjp19W3\">1961他说在他刚上大学，因为他是班干部，因为要为学校的事情外出办事，借本地同学的自行车，自己摸索着骑了半个小时就学会了。他离开大学之后就没再骑过了，一直到为了接送我买自行车。</p><p data-pid=\"52_IsbRj\">1962年中国的自行车销量仅仅82万辆，而有的居民家里连孩子都骑上了自行车。</p><p data-pid=\"iyFxsRyA\">80年代的自行车销量起码是1962年的十多倍，但是我们那里依然买不到自行车。</p><p data-pid=\"Rm8T2f5w\">反正在80年代早期我们矿山买自行车是非常非常困难的，我是矿山，属于城镇。</p><h2>本来应该是普及的自行车</h2><p data-pid=\"tj4Zpbxo\">1980年的城镇人口是1.9亿，按每家5口人计算，大概三千多万家庭，城镇自行车销量是540万辆，每年平均每7个家庭买一辆自行车。</p><p data-pid=\"3d6-dvaM\">考虑到自行车的耐用性，自行车照理应该是稀疏平常的东西，但是即便到我上了中学，自行车依然是同学中能够炫耀的奢侈品，堪比早些年的苹果手机。</p><p data-pid=\"C18SXk2k\">与苹果手机不同，当时自行车跟缝纫机更像房子一样，是家庭的刚需。</p><p data-pid=\"wv4cjb2U\">关于农村买自行车的困难，以前 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/ce40c704800079110fac389de1d6f57f\" data-hash=\"ce40c704800079110fac389de1d6f57f\" data-hovercard=\"p$b$ce40c704800079110fac389de1d6f57f\">@invalid s</a> 写过一篇回答，</p><a href=\"https://www.zhihu.com/question/265367526/answer/2753128167\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"历史上的计划经济国家经常出现群众排长队购买生活用品，这种现象背后的原因是什么？\" data-draft-cover=\"https://picx.zhimg.com/v2-60c90d9fceab67f426cc8b61989d5bf4.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">历史上的计划经济国家经常出现群众排长队购买生活用品，这种现象背后的原因是什么？</a><p data-pid=\"yIioNR68\">下面也有很多评论说他们那里自行车非常罕见。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-eacac368167af2018360f58d90cc7649_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"813\" data-original-token=\"v2-178c0dfca6a7d624ab4346332f3034e8\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://picx.zhimg.com/v2-eacac368167af2018360f58d90cc7649_r.jpg\"/></figure><h3>甚至我们矿本来是有能力自产自行车的</h3><p data-pid=\"OhnZMoKV\">我在别的回答说过:我们矿务局有很多配套企业，目标是建立完整的产业链，我们有自己的砖瓦厂、水泥厂、建材厂、制氧厂、钢铁厂、机械厂、车辆修造厂，让本地区在战争中于外部隔绝的情况下能够自持。而我自己在汽车修造厂当电工。我们甚至在六十年代某个特殊时间点擅自生产过枪炮。</p><p data-pid=\"Hg2kYlG-\">所以，虽然我们的产量可能不如现在一些村办企业，但是我们当时有十几万职工，下辖几个乡政府，有自己的教育局、卫生局、公安局、检察院、法院。</p><p data-pid=\"KqmFt7OX\">我们相当于一个城市，只是这些职工散布在各个矿区而不是集中在一起。</p><p data-pid=\"Q7Sk0h2N\">企业管行政单位这点在一起不奇怪，以前副部级的大庆石油管理局就下辖正厅级的大庆市。</p><p data-pid=\"S6OefHzM\">因为地方的阻力大，所以我们这个这正厅级企业没有下辖一个县级行政单位，而是下辖了若干乡级行政单位。</p><p data-pid=\"umIBW7s6\">所以，我们高考的时候，不是矿区教育处安排，而是所在县的教育局安排，我们不能在自己的矿区高考，而要去所在县的县城高考。</p><p data-pid=\"BE7sdKle\">但是讽刺的是，我们矿区教育处的处长是正处级，而县教育局的局长是正科级。</p><p data-pid=\"oW0CX8BE\">据说因为行政级别倒置，加上县里的领导都是本省人，而矿务局的领导都是外省人（基本都北方人的），导致县里总是刁难我们，向地区行署、省里告我们黑状，导致中央在工农关系上对我们有非常多误解，让我们非常被动，</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>为啥我们自己不生产自行车呢？</h3><p data-pid=\"vkeT95bj\">我以前介绍过。我在汽车修造厂的上班的时候，曲轴严重变形了不换而是送到机械厂去矫形、镗轴（当然，因为镗轴是减材价格，所以会变细一点），气缸磨损的也是送去镗缸。此外，我们还会焊制矿山用的各种特种车辆。如果能够外购引擎，我们能够生产更简单的卡车，不生产卡车的原因是靠钳工师傅手工敲出各种零部件效率太低了。不过我母亲（机械工程师）说机厂有翻砂车间，可以铸造零部件的，但是我自己还是只在机厂见过板材的冲压工艺。因为我母亲也很早离开了机厂，所以相关信息不多。无论如何，从技术能力上说，我们矿务局是有能力生产自行车的。</p><p data-pid=\"gqdAzoY_\">既然自行车如此奇缺？那么为啥不生产呢？</p><h3>我们矿务局有多少领导？</h3><p data-pid=\"YvqBxpkm\">正厅级：局长、书记两人</p><p data-pid=\"7lTgjQjM\">副厅级：</p><p data-pid=\"6oU9Bxkh\">总工程师1人，副书记几人，纪委书记1人，政法委书记1人，宣传部长1人，组织部长1人、统战部长1人，党校校长1人、副局长近10人（有部分重叠）。为啥副局长这么多？因为每个行业要一个分管副局长（为啥那么行业？地方政府有的的行业，我们矿务局都有，当然，农业也有，甚至有林业都有。这些副局长你可以理解为政府下面的各个局的局长），大矿还要蹲点的副局长（这个可以理解成地级市下面的县级市的市长）。</p><p data-pid=\"IRfOgij-\">正处级：</p><p data-pid=\"1Q4n_z4L\">局直机关党委书记1人，局办公室主任1人，副总工程师十来人，各矿的矿长、矿党委书记、生产处、技术处、计划处、运输处（管井下的运输）、工程处、建材处、测量处、总务处、卫生处、教育处（还有一些我一下想不起来的很多专业处室）、此外，还有正处级的局直属事业单位，比如设计院、矿务局总医院、钢铁厂（当然，我们炼不处什么好钢）、机械厂、电厂、车辆修造厂、林场场的院长、场长、书记，汽车队队长，技校校长，公安局长、政委各1人、检察院院长、书记各1人、法院院长、书记各1人、几个中学的校长若干名、书记若干名，党校副校长、副书记若干名。</p><p data-pid=\"9qusqBLO\">还有一个很庞大的矿务局汽车队，有自己的汽修厂，油库。（当时我没听说过加油站这个东西，加油是那油票去油库用洋铁桶打汽油。我站在外面排队，把洋铁桶交到前台，然后前台进库房，把洋铁桶放在一个铁的水龙头下面，跟接自来水一样，前台人员一拧开关，汽油就从从一个铁的水龙头中流出来。水龙头上面有水表一样的油表，但是房子里面昏暗，我在外面看不清（有老师傅说前台少加油，但是我没有量具验证）。</p><p data-pid=\"K4umYSuF\">房子、排队的地面都是铁皮的，防止火花，此外，就算着火，除了账本也没有可燃物。另外，各矿区还有自己的车队。</p><p data-pid=\"bjsrZFJe\">副处级：</p><p data-pid=\"v6o7mwwm\">各正处级单位的副职，还有一些副处级的企业，服装厂属于总务处，建材厂、水泥厂、砖瓦厂等等好像属于建材处，此外，还有各个乡的乡长，因为我们矿务局的面积很大，所以有广袤的森林能够提供木材给井下（所以我说我们矿务局有农业嘛）当时，听说在我们所在的县的县委书记县长都只能乘坐吉普212，但是我们矿务局的小车队已经一大堆上海轿、伏尔加。此外，每个矿都有一套派出所、汽车队、小学、卫生院等等矿务局垂直管理的单位（矿长不管这个，只管生产。但驻矿的副局长可以统管这些）</p><p data-pid=\"FIvlfBAp\">我总说我央企下面二级企业的正处级本身狗屁不是、不值钱，值钱的是权力同关系，很多人不信。</p><p data-pid=\"OsLoN-oz\">因为我父亲属于其中之一，我的几个死党同学的父亲，也是其中之一。实际上我的中学同学父亲多数都是副处级干部。注意，前面说的是小学，这里说的是中学。</p><p data-pid=\"RpcUhsyt\">为啥我身边干部子弟这么扎堆？因为我住局直机关家属区啊。而我又在所谓八旗班上学。什么叫八旗班？就是学校抽调最好的教师组成的教师队伍教的实验班，而各个干部都会找关系把孩子放到这样的班里面。我们老师讽刺这种现象，把实验班称为八旗班。当然，年级前50名还是前100名的学生也会进入八旗班（我记不清了是前50还是前100，反正我是前50。）我们初中一个年级20多个班，一个班六十来个人，有四个八旗班。无论如何，我都是在八旗班上学）</p><h3>这里我要重点提一个单位，局办公室下面的小车队。</h3><p data-pid=\"jpMkyi4j\">这个小车队很庞大，并且不属于矿务局汽车队，而是直属局办。小车队的庞大，导致小车队自己附设了一个修理厂而不需要送车辆修造厂或者其他汽修厂，此外，还有自己的小油库。</p><p data-pid=\"vevpYpil\">想起炸药厂要远离生活区、工作区，在局直机关弄个小油库，有风险吗？。</p><p data-pid=\"YDp0bJr6\">不过当时易燃物太多了，不差这点。并且建筑稀疏，一个小油库问题不大。</p><p data-pid=\"vJ6X1XQv\">因为小车队如此之庞大，所以厅级、副厅级领导、实权单位的正处级领导乃至家属出行，只要提前交计划的，都是可以安排小车的。</p><p data-pid=\"v2K6nVum\">哪怕是我父亲这样没有实权的正处级非领导干部，虽然小车队的队长、副队长不鸟我父亲，但是我父亲有权向汽车队申请用车，然后汽车队会安排便车。实际上各个单位都有自己的货车（我前面说炸药库的跃进130就是这样的）。我每周末周一就是搭乘这样的便车回到位于炸药库的家。</p><p data-pid=\"wW_1mi1s\">可能有人会想，用车是要计划的啊，而自行车的是应付随机需求的啊。但是，当时对于矿务局厅级副厅级领导来说，实际上小车队已经成了家庭车队，司机们随叫随到的。</p><p data-pid=\"HjSJ2bnY\">都不用领导自己出面，当时领导们的家里都装了企业内线电话（包括我家），没程控的，需要接线员转接的那种。太太都能直接打电话到小车队安排车。</p><p data-pid=\"jDX4zzij\">所以厅级副厅级领导们并没有自行车的需求，至于孩子们，就算能够自己生产自行车，他们的孩子也看不上。</p><p data-pid=\"1Ix7ft5G\">他们也不会缺自行车的指标，他们的孩子不仅不会缺自行车，并且清一色的凤凰牌。</p><p data-pid=\"7kSIiqh9\">领导同领导家庭们没这个需求，为啥要多事自己生产自行车？</p><h3>忽如一夜春风来</h3><p data-pid=\"KXRIsDnc\">所以，我的理解就是，从居民生活的角度来说，80年代老百姓已经开始富起来了，但是，有些地方先富起来，有些地方后富起来。自行车也是，有些地方先普及，有些地方后普及。</p><p data-pid=\"fSmPpKtq\">我老家的自行车在我小时候就普及了，在回老家探亲的日子里，早上傍晚的路上都是浩浩荡荡的自行车通勤大军。</p><p data-pid=\"7fB_FvxZ\">跟我其他同学不同的是，他们的家庭基本经历的都是从农村进入城市的过程，而我的家庭与之相反，经历的是从城市下放到山区的过程。</p><h3>所以我能够有跟同学们不一样的视角。</h3><p data-pid=\"TT_KfwAV\">在我自己小时候生活的地方，那里自行车还是很少见，早上傍晚都是跟春运火车站一样浩浩荡荡的人流，一直到我去外地读书。</p><p data-pid=\"FRGvXC_A\">我是高中毕业之后回老家，用一个姐姐的自行车学会了骑车。</p><p data-pid=\"GPiHmmVd\">不记得什么时候开始，我的同学们纷纷的骑上了自行车。</p><p data-pid=\"2UXb9ZmF\">我记得大家上大学的第一个寒假的串门，除了女孩子统统都是都是骑车的。</p><p data-pid=\"EH9ZuSz3\">但是路上的自行车还不多。</p><p data-pid=\"7pXEy2Q8\">写到这里，我又想起了班上的女神，比李新野的菊阳要漂亮多了，但是不同的，人家几十年来从来没理过我:(</p><h2>改革开放，不是一次休克性革命式手术，而是一场漫长的螺旋式上升。</h2><p data-pid=\"aUmOPZjs\">80年代也不是一个时间点，而是一个时间段。</p><p data-pid=\"OBOs09SI\">而80年代的自行车，就像00年代的智能手机一样，就像一阵风一样，在一个时间段内吹遍了全国。</p><p data-pid=\"PiZgRLYr\">你很难给一个简单的答案。</p><p data-pid=\"nkJSQ2Rk\">但是，</p><h3>跟智能手机的风吹遍全国不一样的是，自行车的普及，是计划到哪个角落，就普及到哪个角落。</h3><p data-pid=\"w6IsOZ4i\">因为当时矿区的教育远远质量高于农村，很多农村子弟走关系到矿上借读，我很多同学是来自农村的。而我上面的描述会激起我来自农村的同学的反感，为了避免针对性，所以有些关于个人的细节做了修改。</p><h2>敌后游击队是否普遍使用自行车呢？</h2><p data-pid=\"eDqyMFaA\">我认为不是普遍，但不排除个例。</p><p data-pid=\"hy54EXNe\"> 自行车自1868年传入中国后，长期为奢侈品，几乎完全依赖进口，无大规模本土量产。根据上海海关的统计，1903年全年进口自行车仅657辆。 </p><p data-pid=\"scW76uOU\">30年代永康造钟无限公司在规模生产机制钟过程中，培养出一批操作通用机床的技术骨干，创建自行车厂不需临时招募培训技工……“打造国产自行车，改变洋行垄断局面”，这一雄心壮志，很快变成股东们的共识。永康造钟无限公司决定投资改造五金工种比较齐全的宝德工厂。这家铁工厂虽设备简陋，但开工时间长，拥有一批熟练工人，若将原有设备更新转产，可免去浩繁的基建工程，大幅压缩筹备时间。从1932年春开始，永康造钟无限公司迅速购进较为先进的车床、刨床、铣床、滚床、冲床等通用机械，添置了压圈、拔管、轮盘成形等专用设备。通过德国人开办的盎斯洋行进口无缝钢管，将宝德工厂改名为炳蚨工厂。当年便模仿德国“站人牌”自行车样式，成功打造出国产首批“飞机牌”自行车。 是年，工厂拥有职工130余人，生产能力为月产成车12辆。</p><p data-pid=\"B3aSfir9\"> 抗日战争爆发前后，日本在华设厂，但主要服务于军事需求，未形成商业化大规模生产。</p><p data-pid=\"96pUQrz-\">缴获日军自行车跟缴获日军武器一样，肯定有。</p><p data-pid=\"bgEKBxnL\">但是自行车不像武器那样方便携带，敌后根据地道路条件不佳，所以我认为使用自行车不是普遍现象。</p>",
+        "comment_count": 26,
+        "favorite_count": 102,
+        "question": {
+          "type": "question",
+          "created": 1766750449,
+          "comment_count": 6,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/1987976152929829072",
+          "title": "抗战时敌后游击队普遍使用的自行车,为什么在1980年代反而稀缺,要普通工人7个月工资才能买一辆?",
+          "follower_count": 0,
+          "id": "1987976152929829072",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            1440,
+            6937,
+            2530838
+          ],
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/bfe25834a352dfb3ffd556e17c732a48",
+            "user_type": "people",
+            "url_token": "zhongminghui",
+            "headline": "",
+            "followers_count": 132,
+            "is_following": false,
+            "id": "bfe25834a352dfb3ffd556e17c732a48",
+            "name": "zhongminghui",
+            "is_org": false,
+            "gender": -1
+          },
+          "is_following": false,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "is_copyable": false,
+        "visited_count": 11720,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-3bc87a117279047817e38835d4006294_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-178c0dfca6a7d624ab4346332f3034e8_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "updated_time": 1768352509,
+        "voteup_count": 229,
+        "preview_type": "default",
+        "is_labeled": true,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-3bc87a117279047817e38835d4006294_720w.jpg?source=b6762063",
+        "excerpt": "我觉得以以知乎人为代表的工业党（马前卒老师是典型），具有一种象牙塔中的纯洁。 为了简化问题他们习惯假定所有资源是均匀的。我之前很喜欢写回忆性的东西，后来不写了的原因是看了其他前辈的资料之后，发现了自己有曼德拉现象。 实际上我不同时期写的回忆性回答内容有很多矛盾地方，记忆是不准的。 幸好我父母八十多了，得益于科技同社会进步，虽然很多手术待做未做但是尚健在，并且两人不是住在同一个地方，能够交叉验证的时…",
+        "excerpt_new": "我觉得以以知乎人为代表的工业党（马前卒老师是典型），具有一种象牙塔中的纯洁。 为了简化问题他们习惯假定所有资源是均匀的。我之前很喜欢写回忆性的东西，后来不写了的原因是看了其他前辈的资料之后，发现了自己有曼德拉现象。 实际上我不同时期写的回忆性回答内容有很多矛盾地方，记忆是不准的。 幸好我父母八十多了，得益于科技同社会进步，虽然很多手术待做未做但是尚健在，并且两人不是住在同一个地方，能够交叉验证的时…",
+        "id": "1993831876603961441",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "url": "https://api.zhihu.com/answers/1993831876603961441",
+        "created_time": 1768146563,
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993831876603961441}",
+      "attached_info": "CrcGCIHd/K7Sgvm3uAEQBBoJNzY1MDA1OTM5IIONj8sGKOUBMBpAYkogChVUU19TT1VSQ0VfVEhFTUVfTUVSR0USATAYACAAOgBaCTExNzg1NTY5NmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTM4MzE4NzY2MDM5NjE0NDGKARMxOTg3OTc2MTUyOTI5ODI5MDcyqgEJcmVjb21tZW5kwgEgOWQzZjYzZWMzMzBiZjdjMWQ5ZTRjMWNiYmE0ODVlMDjyAQoIDBIGTm9ybWFs8gEoCAoSJDgxN2ZiNGY1LTYyM2MtNDRiMi1hYmZlLWE0YjFlNWM4YjI3MfIBBggLEgIxN4ICAIgC9qzz6bwzkgIgOWQzZjYzZWMzMzBiZjdjMWQ5ZTRjMWNiYmE0ODVlMDiaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIVVFNfU09VUkNFX1RIRU1FX01FUkdF6AID+gILTk9STUFMX0ZMT1eKAyBmYzI0MmZjM2FlMmQ0YzFmYWNiZjExYjU2ZTgzZmMzZpoDDQoCdjIQABoFb3RoZXKoA8hb2AMA6gMbVGhlbWVNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCENgEGJwCIiN2Mi0zYzRmOWY2NDIxNjFkYTY3OWQ1ZjgyOTYzZjJiYzQ3MTotCAQQgAgYgAYiI3YyLTNiYzg3YTExNzI3OTA0NzgxN2UzODgzNWQ0MDA2Mjk0Oi0IAhDQBRitBiIjdjItMTc4YzBkZmNhNmE3ZDYyNGFiNDM0NjMzMmYzMDM0ZTiABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOCiKpA/gQUAAAAAAAAAAIkFvlE+zpZDtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEZAGAKAGZKgGAJICLgoJNzY1MDA1OTM5EhMxOTkzODMxODc2NjAzOTYxNDQxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "99_1768674875.311",
+      "type": "feed",
+      "offset": 99,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674875,
+      "updated_time": 1768674875,
+      "target": {
+        "preview_type": "default",
+        "is_labeled": false,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "voteup_count": 9,
+        "created_time": 1768581510,
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "detail": "",
+          "created": 1452386471,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            220,
+            1719,
+            4911,
+            6464,
+            22204
+          ],
+          "follower_count": 0,
+          "comment_count": 59,
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/39337690",
+          "author": {
+            "avatar_url": "https://pic1.zhimg.com/50/v2-50c8c6886be32fb7b25ca5f84e5823c8_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 1326,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/203e0a9e1c4aae8a00072925e0fb3092",
+            "user_type": "people",
+            "url_token": "KingofCosmos",
+            "gender": 1,
+            "is_followed": false,
+            "id": "203e0a9e1c4aae8a00072925e0fb3092",
+            "name": "BreakTheLoop",
+            "headline": "「知乎优秀违规者」"
+          },
+          "id": "39337690",
+          "title": "知乎上有哪些被顶到高票的反智答案？",
+          "excerpt": ""
+        },
+        "excerpt": "问题 蓝战非被绑架给想出国游玩的人哪些警示? 下面的高赞就是个反智操作。   答主在讨论抢劫与劫持这两类高度危险场景时，给出了【脱光衣服】【拉尿/拉屎】【祈祷】等脱身方法。 我在第一次看到这些建议时，也产生过短暂困惑。 因为从受害者角度来看,这种建议听起来很有道理。 但经过查证后,发现整套论证建立在一个根本性的错误预设之上。 整篇回答的核心谬误在于： 它默认罪犯是理性、稳定、厌恶肮脏、可预测的“生意人”，而现实并…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-7ab16752da84d60831d3420c896aa539_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8c8c0cfaadf8ff2a4a2ac49f5db85762_720w.jpg?source=b6762063"
+        ],
+        "url": "https://api.zhihu.com/answers/1995656177447630111",
+        "navigator_vote": false,
+        "comment_count": 1,
+        "thumbnail": "https://picx.zhimg.com/50/v2-7ab16752da84d60831d3420c896aa539_720w.jpg?source=b6762063",
+        "excerpt_new": "问题 蓝战非被绑架给想出国游玩的人哪些警示? 下面的高赞就是个反智操作。   答主在讨论抢劫与劫持这两类高度危险场景时，给出了【脱光衣服】【拉尿/拉屎】【祈祷】等脱身方法。 我在第一次看到这些建议时，也产生过短暂困惑。 因为从受害者角度来看,这种建议听起来很有道理。 但经过查证后,发现整套论证建立在一个根本性的错误预设之上。 整篇回答的核心谬误在于： 它默认罪犯是理性、稳定、厌恶肮脏、可预测的“生意人”，而现实并…",
+        "preview_text": "",
+        "thanks_count": 1,
+        "author": {
+          "user_type": "people",
+          "gender": 1,
+          "is_following": false,
+          "name": "NOMI",
+          "headline": "原画丨每周看什么书就答什么题丨研究英雄主义+道德+人类学",
+          "avatar_url": "https://picx.zhimg.com/50/v2-348ffe355b13f4e66657303aac1f1bfa_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 1559,
+          "id": "ef1177ad4c672e53e39937dae2025b9a",
+          "url": "https://api.zhihu.com/people/ef1177ad4c672e53e39937dae2025b9a",
+          "url_token": "nomi-31-54",
+          "is_followed": false
+        },
+        "favorite_count": 6,
+        "type": "answer",
+        "is_copyable": true,
+        "answer_type": "normal",
+        "updated_time": 1768582915,
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"7mWwpabs\">问题<a href=\"https://www.zhihu.com/question/1981666235100964722/answer/1982493788711692129\" class=\"internal\" target=\"_blank\">蓝战非被绑架给想出国游玩的人哪些警示?</a>下面的高赞就是个反智操作。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7ab16752da84d60831d3420c896aa539_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"690\" data-rawheight=\"795\" data-original-token=\"v2-7ab16752da84d60831d3420c896aa539\" class=\"origin_image zh-lightbox-thumb\" width=\"690\" data-original=\"https://pic2.zhimg.com/v2-7ab16752da84d60831d3420c896aa539_r.jpg\"/></figure><p data-pid=\"hLpSaw1k\">答主在讨论抢劫与劫持这两类高度危险场景时，给出了【脱光衣服】【拉尿/拉屎】【祈祷】等脱身方法。</p><p data-pid=\"4u3cpIWv\">我在第一次看到这些建议时，也产生过短暂困惑。</p><p data-pid=\"IlKICY1X\">因为从受害者角度来看,这种建议听起来很有道理。</p><p data-pid=\"TJkctneo\">但经过查证后,发现整套论证建立在一个根本性的错误预设之上。</p><h2><b>整篇回答的核心谬误在于：</b></h2><p data-pid=\"uGxedtt9\"><b>它默认罪犯是理性、稳定、厌恶肮脏、可预测的“生意人”，而现实并非如此。</b></p><p data-pid=\"brreeA5m\">大量犯罪学研究表明，真实世界中的持械抢劫与劫持行为，往往发生在高度应激和不确定的情境中。</p><p data-pid=\"CJ28m0lc\">犯罪者常处于紧张、恐慌与情绪高唤醒状态，判断能力与自我控制水平明显下降。</p><p data-pid=\"aOzr7rGo\">1978 年出版的《Armed Robbery: Offenders and Their Victims（持械抢劫：犯罪者与受害者）》通过对大量案件与一手访谈的整理，反复呈现了这一事实。</p><h3>抢劫者并非冷静博弈者，而是高度受情绪与环境扰动影响的行动者。</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8c8c0cfaadf8ff2a4a2ac49f5db85762_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"719\" data-rawheight=\"668\" data-original-token=\"v2-8c8c0cfaadf8ff2a4a2ac49f5db85762\" class=\"origin_image zh-lightbox-thumb\" width=\"719\" data-original=\"https://pica.zhimg.com/v2-8c8c0cfaadf8ff2a4a2ac49f5db85762_r.jpg\"/><figcaption>偶然成为劫匪</figcaption></figure><blockquote data-pid=\"iQL4QPtH\">翻译：<br/>窃贼通常选择无人居住的房屋或建筑物行窃，以此避免与受害人正面冲突。但当现场意外出现他人时，窃贼便可能被迫转变为劫匪。一名超市前雇员曾藏身于商店锅炉房，意图在打烊后所有员工离店时，从药店区域盗窃药品。在取得药店内的麻醉药品及收银机里的现金后，他正试图强行打开超市后门时，一名夜班员工进入了商店。<br/>&#34;我当时就慌了，感觉自己像只老鼠，像只困在洞里的耗子。我觉得自己像个小孩，在店里四处乱窜躲藏。在那之前，我从未把自己看作罪犯。我以为拿了药就能溜出商店，没人会发现我。你见过老鼠仓皇逃窜的样子吗？我蜷缩在门边，看着他准备上楼，我知道他会发现我踢坏的门。我仿佛已经看到（想象到）警车围堵，把我困在角落。我不想在那该死的店里像困兽一样被抓住。<br/>我对他亮出了刀——他是副经理，我认识他。我一边绑他一边和他说话。这让我很不好受，我从来不愿在那种惊恐状态下伤害别人。<br/><i>我告诉他我不会伤害他。我威胁要杀他了吗？他是这么说的吗？他这是要把我塑造成暴力罪犯，也许我真这么做了。我让他打开了保险柜。&#34;</i></blockquote><p data-pid=\"6ksWP-aM\">从这个案例可以看到，在高度应激的犯罪情境中，个体认知极易被恐慌与威胁感严重扭曲。</p><h3>犯罪者的决策往往由&#34;情绪&#34;主导而非理性！！！！</h3><p data-pid=\"xy82YW6q\">在这样的现实前提下，用“屎尿屁”等民间偏方去赌对方有洁癖，本质上和在火场里脱衣服赌火会怕你没有区别。</p><p data-pid=\"8Nw2m49b\">这不是求生策略，而是幸存者偏差。</p><hr/><h3><b>错误1：轶事证据陷阱。</b></h3><p data-pid=\"KUS8F4F7\">社交媒体上的高赞回答，往往具有明显的表演性和戏剧性，因为“离奇”本身就是传播燃料。</p><p data-pid=\"ovEk7yVo\">所谓“有人靠拉屎成功脱身”的故事，本质上属于<b>轶事证据</b>。</p><p data-pid=\"N_FORQ9L\">在统计学与风险评估中，轶事证据只呈现极少数幸存者的个案叙述，却系统性地忽略了那些因采取同类行为而遭遇严重后果、无法再发声的案例。</p><p data-pid=\"IaiaquGz\">这正是典型的<b>幸存者偏差</b>。</p><p data-pid=\"I8q21egn\">当一个建议只能靠“听说有人成功过”来支撑，而无法提供系统性、可复制、可解释的机制时，它就不具备任何在生死场景中被推广的价值。</p><hr/><h3><b>错误2：违反生物学常识,紧张状态通常是拉不出屎的。</b></h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-1438543fc13209631b8b8082cb4cfef6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"668\" data-rawheight=\"492\" data-original-token=\"v2-1438543fc13209631b8b8082cb4cfef6\" class=\"origin_image zh-lightbox-thumb\" width=\"668\" data-original=\"https://pic3.zhimg.com/v2-1438543fc13209631b8b8082cb4cfef6_r.jpg\"/></figure><p data-pid=\"E9lk8RGi\">在答主所设想的劫持或对峙情境中，个体通常会进入典型的急性应激状态。</p><p data-pid=\"HqnvH2-j\">根据生理学家坎农（Walter Bradford Cannon）提出的“战或逃反应”（fight-or-flight response），当人感知到直接生命威胁时，大脑会立即启动以交感神经为主导的应激系统，促使肾上腺素等儿茶酚胺大量分泌，<b>身体资源被优先调配用于搏斗或逃离等生存行为。</b></p><p data-pid=\"l-MQnAtP\">这种生理上的“关闭非必要功能”，本质上是一种由进化塑造的保护性反射，目的是避免在高风险环境中出现体力浪费或注意力分散。</p><p data-pid=\"RSdzQ2w1\">在这一状态下，消化系统被明确列为“非紧急功能”，其活动会受到主动抑制，具体表现为肠道蠕动减弱、内外括约肌张力升高并趋于闭锁。</p><h3>也就是说，在抢劫或劫持发生的早期阶段，只要个体仍然保持清醒意识，能够进行判断和行为选择，生理条件本身就并不支持“主动、可控地排泄”。</h3><p data-pid=\"EFHLnmDk\">这种行为不仅违背了神经系统当前的主导指令，还可能因强行干预自动防御机制而加重认知负荷，反而削弱对环境的判断能力，错失有限的应对窗口。</p><p data-pid=\"ZfL_1CZB\">答主所言的排泄情况只出现在极端恐惧、神经系统濒临崩溃或出现过载等状态,此时人体才会发生神经源性失禁等现象。</p><p data-pid=\"YGMjoY3R\">但这类情况通常意味着自主神经调控已经严重紊乱，人早就失去自主意识了！！！</p><p data-pid=\"dkl5qGMK\">因此，将这种只会在失控状态下才可能出现的生理反应，包装成一种“可以主动采用的逃生技巧”，在逻辑上属于典型的因果关系倒置。</p><hr/><h2><b>错误3：</b>忽视犯罪心理中的去人性化风险</h2><p data-pid=\"kkVmsWcV\">从犯罪心理学角度看，多数抢劫与劫持属于工具性暴力：暴力本身是达成目的的手段，而非目的。</p><p data-pid=\"o09tN57-\"><b>&gt;&gt;&gt;但这种脆弱的“工具性平衡”高度依赖于现场的可预测性。&lt;&lt;&lt;</b></p><p data-pid=\"gqMmcnwE\">一旦受害者采取排泄、裸露等极端反常行为，极易被解读为环境失控、挑衅或不可控信号，从而诱发防御性愤怒与暴力升级。</p><p data-pid=\"qeGZCECc\">大量研究表明，<b>去人性化（Dehumanization）是暴力升级的重要心理阈值</b>。</p><p data-pid=\"yHJkF9-e\">当攻击者不再将目标视为“完整的人”，而是模糊、肮脏、失序的对象时，施暴的心理阻力会显著下降。</p><p data-pid=\"y_1IMjLY\">斯坦福监狱实验及其后续研究表明，当目标被非人化处理时，实验参与者对施加心理或物理伤害的抑制明显减弱。</p><p data-pid=\"uHplQw6s\">相关刑事案件分析显示，受害者处于极度羞辱或异常状态的案件中，现场暴力升级（overkill）现象明显高于普通劫持案件（Douglas et al., 2013）<sup data-text=\"《犯罪分类手册》（Crime Classification Manual\" data-url=\"\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。</p><p data-pid=\"D2tHTfWf\">因此，将自己主动置于“非人化”状态，并不是降低风险，而是在削弱犯罪者最后的心理刹车。</p><p data-pid=\"xGWICxb9\">受害者的极端行为可能被解读为挑衅或环境失控信号，从而增加现场暴力的潜在致命性。换句话说，这类行为不是一种安全策略，而是一种在理性层面不可控的风险行为。</p><hr/><h3> 错误4：忽视概率权衡</h3><p data-pid=\"OP3DimyR\">在风险管理中，判断一个行动是否真正“值得”去做，不能只看表面收益，而应计算其期望值（Expected Value）。</p><p data-pid=\"KcYryivF\">基本公式如下：期望值 = (成功概率 × 成功时的收益) − (失败概率 × 失败时的损失)</p><p data-pid=\"ng8BWTnL\">只有当期望值明显为正且可接受时，该行动才具备理性基础。</p><blockquote data-pid=\"6x1J-9az\">用一个日常场景来帮助理解：假设你正赶时间，距离迟到只剩5分钟，前方遇到红灯。<br/>你有两个选项：A. 耐心等绿灯  B. 冒险闯红灯<br/>闯红灯的潜在收益：可能准时到达，保住全勤奖或避免被扣分（收益有限）。<br/>但失败的代价极高：可能引发严重车祸，导致重伤、残疾甚至死亡（损失巨大且难以量化）。</blockquote><p data-pid=\"LYEG3YVO\">现实中，许多人为了节省几分钟仍会选择闯红灯，这正是高估成功概率、低估潜在灾难性后果的典型表现。</p><p data-pid=\"C94X28H8\"><b>从期望值的角度来看，这类行为本质上是亏本的——即高风险、低理性。</b></p><p data-pid=\"v_wuhjyc\">将这一逻辑套用到劫持或抢劫现场：某些被流传的逃生策略（如脱衣、排泄等）在极少数情况下可能“奏效”，但它们属于高风险、低可控性的行为。</p><p data-pid=\"hsBuaixn\">一旦激怒罪犯或打破现场平衡，可能立即引发致命暴力，导致不可逆的后果。</p><p data-pid=\"NRUQ15J0\">即便一生中只可能遇到一次这样的生死场景，这类高度不对称的风险行为的单次期望值几乎总是负的。</p><p data-pid=\"ar-Pz4tb\">因为一旦失败，失去生命的代价远远超过任何可能获得的收益，而真实的成功概率远低于能够“平衡损失”的阈值。</p><p data-pid=\"zYIUCRP7\">在这种一次性生死博弈里，最聪明的选择很简单：保命第一、尽量不激怒对方、保持低对抗、等待外部帮助。</p><p data-pid=\"gJk61k9S\">即使看起来非常从心，但这就是用无数死亡案例总结出来的求生策略。远比任何民间偏方的行为都靠谱。</p><p data-pid=\"AdtVl1Vw\">所以，在生死面前，那些期望收益为负、潜在损失巨大且无法控制的行为，无论表面看起来多诱人，都不是理智选择。</p><h2>&gt;&gt;&gt;真正的理性，是<b>把风险控制在可管理范围内，把生命安全放在第一位</b>。&lt;&lt;&lt;</h2>",
+        "visited_count": 471,
+        "vote_next_step": "vote",
+        "id": "1995656177447630111"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995656177447630111}",
+      "attached_info": "CqMHCIHd/K7Sgvm3uAEQBBoJNzY1NzQxOTIzIIbTqcsGKAkwAUBjSmEKKVRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTF9USU1FX05FV19DT05URU5UEi5ob3RfcmVjYWxsX3JlYWx0aW1lX3Q6bmV3N2Q6MjAyNi0wMS0xNzptb250aGx5GAAgADoAWgc3OTQyMjIwYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTY1NjE3NzQ0NzYzMDExMYoBCDM5MzM3NjkwqgEJcmVjb21tZW5kwgEgZWYxMTc3YWQ0YzY3MmU1M2UzOTkzN2RhZTIwMjViOWHyAQoIDBIGTm9ybWFs8gEoCAoSJGI4N2M5Y2I2LTZiMTctNDFhNS04ODIxLWI3MjY3MzAzMDY3MvIBBggLEgIxN4ICAIgC9qzz6bwzkgIgZWYxMTc3YWQ0YzY3MmU1M2UzOTkzN2RhZTIwMjViOWGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIpVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlToAgP6AgtOT1JNQUxfRkxPV4oDIGZjMjQyZmMzYWUyZDRjMWZhY2JmMTFiNTZlODNmYzNmmgMNCgJ2MhAAGgVvdGhlcqgD1wPYAwDqAyJob3RDcm9zc1JlYWxUaW1lTmV3Q29udGVudFJlY2FsbGVy+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELIFGJsGIiN2Mi03YWIxNjc1MmRhODRkNjA4MzFkMzQyMGM4OTZhYTUzOTotCAIQzwUYnAUiI3YyLThjOGMwY2ZhYWRmOGZmMmE0YTJhYzQ5ZjVkYjg1NzYyOi0IAhCcBRjsAyIjdjItMTQzODU0M2ZjMTMyMDk2MzFiOGI4MDgyY2I0Y2ZlZjaABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKD1nYA/gQUAAAAAAAAAAIkFvlE+zpZDtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEZAGAKAGZagGAJICLgoJNzY1NzQxOTIzEhMxOTk1NjU2MTc3NDQ3NjMwMTExGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "100_1768674875.314",
+      "type": "feed",
+      "offset": 100,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674875,
+      "updated_time": 1768674875,
+      "target": {
+        "id": "1996029402895648286",
+        "visited_count": 8,
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "navigator_vote": false,
+        "voteup_count": 0,
+        "comment_count": 0,
+        "question": {
+          "comment_count": 1,
+          "is_following": false,
+          "detail": "",
+          "title": "电视家停运了，目前有没有免费的电视直播软件？",
+          "author": {
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 1288,
+            "is_following": false,
+            "is_followed": false,
+            "id": "69508133abdf15426ec3e44a99893c1e",
+            "url": "https://api.zhihu.com/people/69508133abdf15426ec3e44a99893c1e",
+            "name": "云淡风轻",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-bbe2d61a88678419d9fdaab31edabf70_l.jpg?source=b6762063",
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "上海纳铁福传动系统有限公司 员工"
+              }
+            ],
+            "user_type": "people",
+            "url_token": "72-12-6-74-97",
+            "headline": "花有重开日，人无再少年"
+          },
+          "created": 1704796287,
+          "answer_count": 0,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/638772619",
+          "type": "question",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            505,
+            1181,
+            17686,
+            94878,
+            160035
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "id": "638772619"
+        },
+        "content": "<p data-pid=\"SA0K7mGR\">蓝奏：<a href=\"https://link.zhihu.com/?target=https%3A//wwbvl.lanzoul.com/b0fpktitc\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">wwbvl.lanzoul.com/b0fpk</span><span class=\"invisible\">titc</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"-dHR-SLH\">密码:cz80</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Ifn6nnN6\">电视家极速版，全部秒播，还有4k，电视源感谢冰茶大佬 肥羊 mur等大佬，基本秒播，乐美兔工作室，猫tv等。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c48b789670fd462cbd389a0f47aaf2ee_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-size=\"normal\" data-original-token=\"v2-f37a61c3a4094c8abf3e8bee4c3cd620\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pica.zhimg.com/v2-c48b789670fd462cbd389a0f47aaf2ee_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-10409ad7555a00d68dbececfaaf86cbb_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-size=\"normal\" data-original-token=\"v2-ba7b4e274f44787a8d56c5ad69255b53\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic4.zhimg.com/v2-10409ad7555a00d68dbececfaaf86cbb_r.jpg\"/></figure><p></p>",
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1996029402895648286",
+        "excerpt": "蓝奏： https://wwbvl.lanzoul.com/b0fpktitc 密码:cz80 电视家极速版，全部秒播，还有4k，电视源感谢冰茶大佬 肥羊 mur等大佬，基本秒播，乐美兔工作室，猫tv等。",
+        "excerpt_new": "蓝奏： https://wwbvl.lanzoul.com/b0fpktitc 密码:cz80 电视家极速版，全部秒播，还有4k，电视源感谢冰茶大佬 肥羊 mur等大佬，基本秒播，乐美兔工作室，猫tv等。",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "author": {
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "互联网行业 售前工程师"
+            }
+          ],
+          "url": "https://api.zhihu.com/people/117dde2a78d8c2d60d2067dd04618b3f",
+          "user_type": "people",
+          "name": "小飞飞12138",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-df68d700ec7d5215c8060040a6e6d6ed_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "id": "117dde2a78d8c2d60d2067dd04618b3f",
+          "url_token": "xiao-fei-fei-12138",
+          "headline": "前百度项目经理，创业者",
+          "followers_count": 31,
+          "is_following": false,
+          "is_followed": false
+        },
+        "updated_time": 1768670494,
+        "preview_type": "default",
+        "preview_text": "",
+        "answer_type": "normal",
+        "thanks_count": 0,
+        "thumbnail": "https://picx.zhimg.com/50/v2-f37a61c3a4094c8abf3e8bee4c3cd620_720w.jpg?source=b6762063",
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-f37a61c3a4094c8abf3e8bee4c3cd620_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ba7b4e274f44787a8d56c5ad69255b53_720w.jpg?source=b6762063"
+        ],
+        "is_labeled": true,
+        "favorite_count": 0,
+        "type": "answer",
+        "created_time": 1768670494,
+        "is_navigator": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996029402895648286}",
+      "attached_info": "CukGCIHd/K7Sgvm3uAEQBBoJNzY1ODY1MjEwIJ6Kr8sGKAAwAEBkSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMDQyMjc3MjFiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk2MDI5NDAyODk1NjQ4Mjg2igEJNjM4NzcyNjE5qgEJcmVjb21tZW5kwgEgMTE3ZGRlMmE3OGQ4YzJkNjBkMjA2N2RkMDQ2MThiM2byAQoIDBIGTm9ybWFs8gEoCAoSJDQ0ZTA5NzI3LTZjNWYtNDI1NC1hM2JkLTc3Y2Q2ZjM5NDFlMPIBBggLEgIxN4ICAIgC9qzz6bwzkgIgMTE3ZGRlMmE3OGQ4YzJkNjBkMjA2N2RkMDQ2MThiM2aaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCAvoCC05PUk1BTF9GTE9XigMgZmMyNDJmYzNhZTJkNGMxZmFjYmYxMWI1NmU4M2ZjM2aaAw0KAnYyEAAaBW90aGVyqAMI2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A30SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCAChjQBSIjdjItZjM3YTYxYzNhNDA5NGM4YWJmM2U4YmVlNGMzY2Q2MjA6LQgCEIAKGNAFIiN2Mi1iYTdiNGUyNzRmNDQ3ODdhOGQ1NmM1YWQ2OTI1NWI1M4AEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAABEdgz+BBQAAAAAAAAAAiQW+UT7OlkO0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AURkAYAoAZmqAYBkgIuCgk3NjU4NjUyMTASEzE5OTYwMjk0MDI4OTU2NDgyODYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "101_1768674875.16",
+      "type": "feed",
+      "offset": 101,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674875,
+      "updated_time": 1768674875,
+      "target": {
+        "title": "（2）使用Python的一些报错和异常",
+        "image_url": "https://picx.zhimg.com/v2-73cad35cff9d9f6708754f5104783add.jpg?source=7e7ef6e2&needBackground=1",
+        "voteup_count": 2,
+        "excerpt": "（1）使用PyCharm无法安装catboost库在使用catboost回归模型时，需要依赖catboost库，然而，在PyCharm中输入： from catboost import CatBoostRegressor软件总是会提示很多报错信息，比如： File &#34;C:\\Users\\zhang\\AppData\\Local\\Temp\\pip-install-a0dvnfjz\\catboost_bd220efbd0d64cb58bc1f63009efceaf\\catboost_all_src\\build\\build_native.py&#34;, line 412, in get_msvs_dir raise RuntimeError(f&#39;Microsoft Visual Studio {msvs_…",
+        "column": {
+          "is_following": false,
+          "author": {
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "headline": "",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "id": "",
+            "is_followed": false,
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_following": false,
+            "name": "匿名用户"
+          },
+          "title": "琐碎问题",
+          "imageUrl": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "intro": "",
+          "updated": 1768376372,
+          "id": "c_1994795766515003783",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1994795766515003783",
+          "comment_permission": "private"
+        },
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1995532546495231891",
+        "voting": 0,
+        "preview_text": "",
+        "created": 1768558317,
+        "favorite_count": 1,
+        "preview_type": "default",
+        "content": "<h2><b>（1）使用PyCharm无法安装catboost库</b></h2><p data-pid=\"_gzbaXBv\">在使用catboost回归模型时，需要依赖catboost库，然而，在PyCharm中输入：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"kn\">from</span> <span class=\"nn\">catboost</span> <span class=\"kn\">import</span> <span class=\"n\">CatBoostRegressor</span></code></pre></div><p data-pid=\"KCNEfQO4\">软件总是会提示很多报错信息，比如：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"n\">File</span> <span class=\"s2\">&#34;C:\\Users\\zhang\\AppData\\Local\\Temp\\pip-install-a0dvnfjz\\catboost_bd220efbd0d64cb58bc1f63009efceaf\\catboost_all_src</span><span class=\"se\">\\b</span><span class=\"s2\">uild</span><span class=\"se\">\\b</span><span class=\"s2\">uild_native.py&#34;</span><span class=\"p\">,</span> <span class=\"n\">line</span> <span class=\"mi\">412</span><span class=\"p\">,</span> <span class=\"ow\">in</span> <span class=\"n\">get_msvs_dir</span>\n          <span class=\"k\">raise</span> <span class=\"ne\">RuntimeError</span><span class=\"p\">(</span><span class=\"n\">f</span><span class=\"s1\">&#39;Microsoft Visual Studio {msvs_version} installation not found&#39;</span><span class=\"p\">)</span>\n      <span class=\"ne\">RuntimeError</span><span class=\"p\">:</span> <span class=\"n\">Microsoft</span> <span class=\"n\">Visual</span> <span class=\"n\">Studio</span> <span class=\"mi\">2022</span> <span class=\"n\">installation</span> <span class=\"ow\">not</span> <span class=\"n\">found</span>\n      <span class=\"p\">[</span><span class=\"n\">end</span> <span class=\"n\">of</span> <span class=\"n\">output</span><span class=\"p\">]</span>\n  \n  <span class=\"n\">note</span><span class=\"p\">:</span> <span class=\"n\">This</span> <span class=\"n\">error</span> <span class=\"n\">originates</span> <span class=\"kn\">from</span> <span class=\"nn\">a</span> <span class=\"nn\">subprocess</span><span class=\"p\">,</span> <span class=\"ow\">and</span> <span class=\"ow\">is</span> <span class=\"n\">likely</span> <span class=\"ow\">not</span> <span class=\"n\">a</span> <span class=\"n\">problem</span> <span class=\"k\">with</span> <span class=\"n\">pip</span><span class=\"o\">.</span>\n  <span class=\"n\">ERROR</span><span class=\"p\">:</span> <span class=\"n\">Failed</span> <span class=\"n\">building</span> <span class=\"n\">wheel</span> <span class=\"k\">for</span> <span class=\"n\">catboost</span>\n<span class=\"n\">Failed</span> <span class=\"n\">to</span> <span class=\"n\">build</span> <span class=\"n\">catboost</span>                                                                                                                                                                                                            \n<span class=\"n\">error</span><span class=\"p\">:</span> <span class=\"n\">failed</span><span class=\"o\">-</span><span class=\"n\">wheel</span><span class=\"o\">-</span><span class=\"n\">build</span><span class=\"o\">-</span><span class=\"k\">for</span><span class=\"o\">-</span><span class=\"n\">install</span>\n\n<span class=\"err\">×</span> <span class=\"n\">Failed</span> <span class=\"n\">to</span> <span class=\"n\">build</span> <span class=\"n\">installable</span> <span class=\"n\">wheels</span> <span class=\"k\">for</span> <span class=\"n\">some</span> <span class=\"n\">pyproject</span><span class=\"o\">.</span><span class=\"n\">toml</span> <span class=\"n\">based</span> <span class=\"n\">projects</span>\n<span class=\"err\">╰─</span><span class=\"o\">&gt;</span> <span class=\"n\">catboost</span></code></pre></div><p data-pid=\"j0DOf09p\">你可能在网上找了很多解决方法，诸如：</p><h3><b>升级setuptools</b></h3><div class=\"highlight\"><pre><code class=\"language-python\"> <span class=\"n\">pip</span> <span class=\"n\">install</span> <span class=\"o\">--</span><span class=\"n\">upgrade</span> <span class=\"n\">pip</span> <span class=\"n\">setuptools</span> <span class=\"n\">wheel</span> <span class=\"o\">-</span><span class=\"n\">i</span> <span class=\"n\">https</span><span class=\"p\">:</span><span class=\"o\">//</span><span class=\"n\">pypi</span><span class=\"o\">.</span><span class=\"n\">tuna</span><span class=\"o\">.</span><span class=\"n\">tsinghua</span><span class=\"o\">.</span><span class=\"n\">edu</span><span class=\"o\">.</span><span class=\"n\">cn</span><span class=\"o\">/</span><span class=\"n\">simple</span></code></pre></div><h3><b>使用国内镜像源（如清华源）加速安装</b></h3><div class=\"highlight\"><pre><code class=\"language-text\">pip install catboost -i https://pypi.tuna.tsinghua.edu.cn/simple</code></pre></div><h3><b>安装Microsoft Visual Studio 2022</b></h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a5eb77c4ab2fa47a1f3dd4a19f27df06_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"966\" data-rawheight=\"495\" data-original-token=\"v2-6a1e40b66295d35fc8bf3a57fae2b5de\" class=\"origin_image zh-lightbox-thumb\" width=\"966\" data-original=\"https://pic3.zhimg.com/v2-a5eb77c4ab2fa47a1f3dd4a19f27df06_r.jpg\"/></figure><p data-pid=\"ah3SqfyL\">但是经过上面的一番折腾，在PyCharm中的软件库中<b>安装catboost依然出现报错</b>的情况，确实非常的烦人，但是也无可奈何。那该如何解决这个问题呢？只能借助其他的工具来实现catboost的安装，那就是<b>借助Anaconda软件</b>。具体Anaconda软件怎么安装，可以参考<a href=\"https://link.zhihu.com/?target=https%3A//blog.csdn.net/qq_44000789/article/details/142214660\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">最新版最详细Anaconda新手安装+配置+环境创建教程</a>。安装好Anaconda之后，可以打开AnacondaPowershell，在里面输入conda install catboost，但是会弹出下面NotWritableError的提示:</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-05eda57a6e75c553328f2368a83ee6eb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"947\" data-rawheight=\"154\" data-original-token=\"v2-05eda57a6e75c553328f2368a83ee6eb\" class=\"origin_image zh-lightbox-thumb\" width=\"947\" data-original=\"https://picx.zhimg.com/v2-05eda57a6e75c553328f2368a83ee6eb_r.jpg\"/></figure><p data-pid=\"drNtB8gF\">这只是权限不足导致的，此时，你只需要打开AnacondaPowershell的时候，“<b>右击</b>”→“<b>以管理员身份运行</b>”，就能够顺利安装了。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b808711459f3783bac79d10b76301829_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"758\" data-rawheight=\"208\" data-original-token=\"v2-57b6f00137ba01cd095dfbc6b99ca155\" class=\"origin_image zh-lightbox-thumb\" width=\"758\" data-original=\"https://picx.zhimg.com/v2-b808711459f3783bac79d10b76301829_r.jpg\"/></figure><p data-pid=\"69ayrEKY\">此外，你在Anaconda Navigator中搜索安装的时候，也需要“<b>以管理员身份运行</b>”，这样才能顺利安装。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2b9501b53957c4bccba544db67f19035_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1888\" data-rawheight=\"292\" data-original-token=\"v2-2b9501b53957c4bccba544db67f19035\" class=\"origin_image zh-lightbox-thumb\" width=\"1888\" data-original=\"https://pic4.zhimg.com/v2-2b9501b53957c4bccba544db67f19035_r.jpg\"/></figure><p data-pid=\"Lm1otnKQ\">至此，你运行pycharm可能还会报错，此时，还需要在pycharm中将python interpreter改成你安装的Anaconda，这时，基本已经安装完毕了，再运行pycharm的时候，就不会再报错，没有wheels了。如果还有不能再pycharm中安装的库，那就让Anaconda帮你安装吧。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-373990b9806084b05f614769500aeee1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"840\" data-rawheight=\"246\" data-original-token=\"v2-9e6009fbaa723e3f37bf7123508e2fd2\" class=\"origin_image zh-lightbox-thumb\" width=\"840\" data-original=\"https://picx.zhimg.com/v2-373990b9806084b05f614769500aeee1_r.jpg\"/></figure><h2>（2）Tensorflow默认开启oneDNN优化问题</h2><p data-pid=\"2t_hrFdU\">有的时候，在导入TensorFlow的时候，总会出现以下报错：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"n\">I</span> <span class=\"n\">tensorflow</span><span class=\"o\">/</span><span class=\"n\">core</span><span class=\"o\">/</span><span class=\"n\">util</span><span class=\"o\">/</span><span class=\"n\">port</span><span class=\"o\">.</span><span class=\"n\">cc</span><span class=\"p\">:</span><span class=\"mi\">153</span><span class=\"p\">]</span> <span class=\"n\">oneDNN</span> <span class=\"n\">custom</span> <span class=\"n\">operations</span> <span class=\"n\">are</span> <span class=\"n\">on</span><span class=\"o\">.</span> \n<span class=\"n\">You</span> <span class=\"n\">may</span> <span class=\"n\">see</span> <span class=\"n\">slightly</span> <span class=\"n\">different</span> <span class=\"n\">numerical</span> <span class=\"n\">results</span> <span class=\"n\">due</span> <span class=\"n\">to</span> <span class=\"n\">floating</span><span class=\"o\">-</span><span class=\"n\">point</span> <span class=\"nb\">round</span><span class=\"o\">-</span><span class=\"n\">off</span> <span class=\"n\">errors</span> <span class=\"kn\">from</span> <span class=\"nn\">different</span> \n<span class=\"n\">computation</span> <span class=\"n\">orders</span><span class=\"o\">.</span> <span class=\"n\">To</span> <span class=\"n\">turn</span> <span class=\"n\">them</span> <span class=\"n\">off</span><span class=\"p\">,</span> <span class=\"nb\">set</span> <span class=\"n\">the</span> <span class=\"n\">environment</span> <span class=\"n\">variable</span> <span class=\"sb\">`TF_ENABLE_ONEDNN_OPTS=0`</span></code></pre></div><p data-pid=\"VMyX5bGR\">这是因为 TensorFlow 默认启用了<b>oneDNN</b>优化，用于加速某些操作（如卷积、池化等）。但这可能导致由于浮点运算顺序不同而产生轻微的数值差异。</p><p data-pid=\"4xncMMUD\">如何关闭<b>oneDNN</b>优化呢，只需要在导入TensorFlow之前的代码行中，键入一下代码即可：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"kn\">import</span> <span class=\"nn\">os</span>\n<span class=\"n\">os</span><span class=\"o\">.</span><span class=\"n\">environ</span><span class=\"p\">[</span><span class=\"s1\">&#39;TF_ENABLE_ONEDNN_OPTS&#39;</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"s1\">&#39;0&#39;</span></code></pre></div><h2>（3）一直提示pandas-stubs安装，但又安装不上的问题</h2><p data-pid=\"GJeLnaUY\">在使用PyCharm的过程中，有时会出现以下报错提示：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"n\">Stub</span> <span class=\"s1\">&#39;pandas-stubs&#39;</span> <span class=\"ow\">is</span> <span class=\"n\">incompatible</span> <span class=\"k\">with</span> <span class=\"n\">the</span> <span class=\"n\">original</span> <span class=\"n\">package</span><span class=\"o\">.</span></code></pre></div><p data-pid=\"dGpeG-3I\"><code>pandas-stubs</code> 是为 <code>pandas</code> 提供<b>类型提示（Type Hints）</b> 的存根文件包，PyCharm 依赖它做代码补全、类型检查。这个提示的核心是：你当前安装的 <code>pandas-stubs</code> 版本和环境中 <code>pandas</code> 主包的版本不匹配（比如 pandas 2.3 配了 pandas-stubs 2.2），导致类型检查功能无法正常工作。</p><h3>看看到底是不是版本不一致</h3><p data-pid=\"IkPY7Ddv\">打开 PyCharm 的终端（Terminal），执行以下命令，确认版本：</p><div class=\"highlight\"><pre><code class=\"language-text\"># 查看pandas版本\npip show pandas\n\n# 查看pandas-stubs版本（如果安装了）\npip show pandas-stubs</code></pre></div><p data-pid=\"HIkkkiHD\">如果版本不一致，那就重装匹配重装的版本。应该都安装的一致吧？</p><h3>清理 PyCharm 缓存并重启</h3><p data-pid=\"63mJ6ZGh\">如果你显示的版本是一致的，比如pandas的版本是2.3.3，pandas-stubs的版本是2.3.3.260113，但是就是在顶部出现安装pandas-stubs的提示，那这个时候可以试试<b>清理缓存</b>，这个应该比上面的方法还管用！</p><ul><li data-pid=\"9PplRWhr\">打开 PyCharm → 点击顶部菜单栏 File→Invalidate Caches；</li></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c176e36ba22601ed4ad86baaec63b81b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"484\" data-rawheight=\"683\" data-original-token=\"v2-53a87c8281d7de31d17156a9cbb9efd0\" class=\"origin_image zh-lightbox-thumb\" width=\"484\" data-original=\"https://pic2.zhimg.com/v2-c176e36ba22601ed4ad86baaec63b81b_r.jpg\"/></figure><ul><li data-pid=\"6lxtumpL\">在弹出的窗口中，选择Invalidate and Restart（清空缓存并重启）；</li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d7b0a491724d9d27983ceac1ab0deb7b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"517\" data-rawheight=\"355\" data-original-token=\"v2-956d5b384b61e5eb9524b62892d2d02d\" class=\"origin_image zh-lightbox-thumb\" width=\"517\" data-original=\"https://picx.zhimg.com/v2-d7b0a491724d9d27983ceac1ab0deb7b_r.jpg\"/></figure><ul><li data-pid=\"sjT2eYG9\">等待 PyCharm 重启完成，提示会消失。</li></ul><h2>（4）Pycharm在右下角提示内存不足，并且并随截面卡顿的异常</h2><p data-pid=\"TrFw4jUR\">一般遇到这种情况，系统会提示一句：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"n\">Low</span> <span class=\"n\">memory</span>\n<span class=\"n\">X</span>\n<span class=\"n\">The</span> <span class=\"n\">IDE</span> <span class=\"n\">ran</span> <span class=\"n\">out</span> <span class=\"n\">of</span> <span class=\"n\">available</span> <span class=\"n\">memory</span><span class=\"o\">.</span> <span class=\"n\">Pleaseconsider</span> <span class=\"n\">increasing</span> <span class=\"n\">the</span> <span class=\"n\">value</span> <span class=\"n\">of</span> <span class=\"s2\">&#34;MaximumHeap Size&#34;</span> <span class=\"n\">setting</span><span class=\"o\">.</span></code></pre></div><p data-pid=\"PiNN7N2W\">PyCharm 基于 Java 虚拟机（JVM）运行，默认分配的堆内存（一般 1-2GB）不足以支撑你的操作（比如打开大型项目、运行 LSTM / 大数据处理等内存密集型代码、同时加载多个库），导致 JVM 内存耗尽，触发低内存提示。</p><h3>界面直接修改</h3><ul><li data-pid=\"2X2KF5m9\">在pycharm界面中，点击File→Setting；</li></ul><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b6c1627a1603aae25e6fb149f3032f85_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"452\" data-rawheight=\"694\" data-original-token=\"v2-85f13bc942ea6008e4664ff6a98f9458\" class=\"origin_image zh-lightbox-thumb\" width=\"452\" data-original=\"https://pic4.zhimg.com/v2-b6c1627a1603aae25e6fb149f3032f85_r.jpg\"/></figure><ul><li data-pid=\"XAYIN7Cm\">在弹出的窗口中，选择Memory Usage，修改Maximum IDE Memory（MiB）后面的数值。根据你的电脑物理内存修改数值（不要超过物理内存的 1/2，避免系统卡顿）：</li></ul><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>电脑物理内存</th><th>推荐设置值</th><th>对应修改行</th></tr><tr><td>8GB</td><td>4GB</td><td>-Xmx4096m</td></tr><tr><td>16GB/32GB</td><td>8GB</td><td>-Xmx8192m</td></tr><tr><td>4GB（低配）</td><td>1.5GB</td><td>-Xmx1536m</td></tr></tbody></table><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a3864ee089f43daaffce6868481b4b67_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"986\" data-rawheight=\"731\" data-original-token=\"v2-7d93f072f1c254251532a268f63aa701\" class=\"origin_image zh-lightbox-thumb\" width=\"986\" data-original=\"https://pic4.zhimg.com/v2-a3864ee089f43daaffce6868481b4b67_r.jpg\"/></figure><h3>通过VM Options修改</h3><ul><li data-pid=\"oJUbXgm7\">打开 PyCharm，按下快捷键 <b>Ctrl+Shift+A</b>，调出搜索框；</li><li data-pid=\"G6YTLkOy\">在搜索框中输入「VM Options」，选择「Edit Custom VM Options」；</li></ul><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e635376bbf7f58a24520772f00f64714_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"670\" data-rawheight=\"696\" data-original-token=\"v2-dc1fed9af66eeb51d51ce141c285e4ad\" class=\"origin_image zh-lightbox-thumb\" width=\"670\" data-original=\"https://pica.zhimg.com/v2-e635376bbf7f58a24520772f00f64714_r.jpg\"/></figure><ul><li data-pid=\"IinWynXX\">此时会打开一个名为pycharm.vmoptions的文本文件，找到箭头所指的核心行，按照推荐值修改即可：</li></ul><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-65ac6753572e228494e937381e3388b3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1004\" data-rawheight=\"528\" data-original-token=\"v2-b83637d39689fe9b4dc8c2eab0382d1f\" class=\"origin_image zh-lightbox-thumb\" width=\"1004\" data-original=\"https://pic4.zhimg.com/v2-65ac6753572e228494e937381e3388b3_r.jpg\"/></figure><ul><li data-pid=\"d_r6qqwl\">保存文件（Ctrl+S），<b>必须重启 PyCharm</b> 才能让设置生效；</li><li data-pid=\"csHkp-sa\">重启后，低内存提示会消失，PyCharm 运行更流畅。</li></ul>",
+        "author": {
+          "user_type": "people",
+          "url_token": "sang-ni-86-48",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-3f07e93f478453fcb0e9a394b9431da9_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "id": "8a5a7832db26fc1857ca237dde66f1bf",
+          "url": "https://api.zhihu.com/people/8a5a7832db26fc1857ca237dde66f1bf",
+          "name": "桑尼",
+          "headline": "想做点机器学习的工作。",
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "中国农业大学烟台研究院 教师"
+            }
+          ],
+          "followers_count": 498,
+          "is_followed": false
+        },
+        "type": "article",
+        "article_type": "normal",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "id": "1995532546495231891",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "visited_count": 16,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-73cad35cff9d9f6708754f5104783add.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pic1.zhimg.com/50/v2-7d93f072f1c254251532a268f63aa701_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-dc1fed9af66eeb51d51ce141c285e4ad_720w.jpg?source=b6762063"
+        ],
+        "updated": 1768558317,
+        "navigator_vote": false,
+        "comment_permission": "all",
+        "comment_count": 0,
+        "excerpt_new": "（1）使用PyCharm无法安装catboost库在使用catboost回归模型时，需要依赖catboost库，然而，在PyCharm中输入： from catboost import CatBoostRegressor软件总是会提示很多报错信息，比如： File &#34;C:\\Users\\zhang\\AppData\\Local\\Temp\\pip-install-a0dvnfjz\\catboost_bd220efbd0d64cb58bc1f63009efceaf\\catboost_all_src\\build\\build_native.py&#34;, line 412, in get_msvs_dir raise RuntimeError(f&#39;Microsoft Visual Studio {msvs_…",
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995532546495231891}",
+      "attached_info": "CucKCIHd/K7Sgvm3uAEQBxoJMjY5MTIxOTIyIO2dqMsGKAIwAEBlSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMRIBMBgAIAA6AFoIMTM4MTkwNDdiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1NTMyNTQ2NDk1MjMxODkxggFfaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi03M2NhZDM1Y2ZmOWQ5ZjY3MDg3NTRmNTEwNDc4M2FkZC5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGKARVjXzE5OTQ3OTU3NjY1MTUwMDM3ODOqAQlyZWNvbW1lbmTCASA4YTVhNzgzMmRiMjZmYzE4NTdjYTIzN2RkZTY2ZjFiZvIBCggMEgZOb3JtYWzyASgIChIkM2VkNDM0YjktMWQ4ZS00NDQxLTkxNzYtYmMxYTRlMGUwZWUx8gEGCAsSAjE3ggIAiAL2rPPpvDOSAiA4YTVhNzgzMmRiMjZmYzE4NTdjYTIzN2RkZTY2ZjFiZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDHoAgP6AgtOT1JNQUxfRkxPV4oDIGZjMjQyZmMzYWUyZDRjMWZhY2JmMTFiNTZlODNmYzNmmgMNCgJ2MhAAGgVvdGhlcqgDENgDAOoDH3dhcm11cFR3b1Rvd2VyVGV4dEJvb3N0UmVjYWxsZXL6A9MEEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQxgcY7wMiI3YyLTZhMWU0MGI2NjI5NWQzNWZjOGJmM2E1N2ZhZTJiNWRlOi0IAhCzBxiaASIjdjItMDVlZGE1N2E2ZTc1YzU1MzMyOGYyMzY4YTgzZWU2ZWI6LQgCEPYFGNABIiN2Mi01N2I2ZjAwMTM3YmEwMWNkMDk1ZGZiYzZiOTljYTE1NTotCAIQ4A4YpAIiI3YyLTJiOTUwMWI1Mzk1N2M0YmNjYmE1NDRkYjY3ZjE5MDM1Oi0IAhDIBhj2ASIjdjItOWU2MDA5ZmJhYTcyM2UzZjM3YmY3MTIzNTA4ZTJmZDI6LQgCEOQDGKsFIiN2Mi01M2E4N2M4MjgxZDdkZTMxZDE3MTU2YTljYmI5ZWZkMDotCAIQhQQY4wIiI3YyLTk1NmQ1YjM4NGI2MWU1ZWI5NTI0YjYyODkyZDJkMDJkOi0IAhDEAxi2BSIjdjItODVmMTNiYzk0MmVhNjAwOGU0NjY0ZmY2YTk4Zjk0NTg6LQgCENoHGNsFIiN2Mi03ZDkzZjA3MmYxYzI1NDI1MTUzMmEyNjhmNjNhYTcwMTotCAIQngUYuAUiI3YyLWRjMWZlZDlhZjY2ZWViNTFkNTFjZTE0MWMyODVlNGFkOi0IAhDsBxiQBCIjdjItYjgzNjM3ZDM5Njg5ZmU5YjRkYzhjMmVhYjAzODJkMWY6LQgDELIFGJgCIiN2Mi03M2NhZDM1Y2ZmOWQ5ZjY3MDg3NTRmNTEwNDc4M2FkZIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAEvhdT+BBQAAAAAAAAAAiQW+UT7OlkO0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AURkAYAoAZnqAYAkgIuCgkyNjkxMjE5MjISEzE5OTU1MzI1NDY0OTUyMzE4OTEYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=101&desktop=true&end_offset=103&page_number=18&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=101&desktop=true&end_offset=103&page_number=18&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

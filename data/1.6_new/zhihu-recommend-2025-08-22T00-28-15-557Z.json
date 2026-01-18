@@ -1,0 +1,585 @@
+{
+  "data": [
+    {
+      "id": "288_1755822541.315",
+      "type": "feed",
+      "offset": 288,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822541,
+      "updated_time": 1755822541,
+      "target": {
+        "id": "1920456196684493946",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1920456196684493946",
+        "author": {
+          "id": "7eb8dd6d1e665c9b53832a0d8ab3a4c2",
+          "url": "https://api.zhihu.com/people/7eb8dd6d1e665c9b53832a0d8ab3a4c2",
+          "user_type": "people",
+          "url_token": "Hentioe",
+          "name": "绅士喵",
+          "headline": "博客：blog.hentioe.dev",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ee9b63faefd891d3dc9dcc10b3bb9231_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "Linux话题下的优秀答主",
+              "topic_names": [
+                "Linux"
+              ],
+              "topic_ids": [
+                1355
+              ]
+            }
+          ],
+          "followers_count": 34646,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1750652437,
+        "updated_time": 1750667621,
+        "voteup_count": 127,
+        "thanks_count": 1,
+        "comment_count": 73,
+        "is_copyable": false,
+        "question": {
+          "id": "266571296",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/266571296",
+          "author": {
+            "id": "86cd1a77d0001bdff39bef4ce95340d6",
+            "url": "https://api.zhihu.com/people/86cd1a77d0001bdff39bef4ce95340d6",
+            "user_type": "people",
+            "url_token": "bin-tai",
+            "name": "bin tai",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/ebf9b3b44_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 3,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "现在个人博客不能备案了吗？",
+          "created": 1517564459,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 4,
+          "bound_topic_ids": [
+            4747
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-3db7e7d66f5424a2c425ed56dfb8122a_720w.jpg?source=b6762063",
+        "excerpt": "个人博客是不必要备案的。很多人由于认知局限，以为只能使用国内服务器，所以以为备案是必须的。还有域名也不建议从国内购买，可以从 NameCheap、NameSilo、GoDaddy、Gandi 等平台购买。 实际上有海量的个人博客使用的是境外的服务器，备案什么的无关紧要。从 萌国 ICP 备案 可以看到成千上万个个人博客，你随便点，可以发现大多数用的都是无备案境外服务器。其中不少博客的访问量是非常高的，和你所谓的学习分享博客是天壤之别。…",
+        "excerpt_new": "个人博客是不必要备案的。很多人由于认知局限，以为只能使用国内服务器，所以以为备案是必须的。还有域名也不建议从国内购买，可以从 NameCheap、NameSilo、GoDaddy、Gandi 等平台购买。 实际上有海量的个人博客使用的是境外的服务器，备案什么的无关紧要。从 萌国 ICP 备案 可以看到成千上万个个人博客，你随便点，可以发现大多数用的都是无备案境外服务器。其中不少博客的访问量是非常高的，和你所谓的学习分享博客是天壤之别。…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"bjIXMw4p\">个人博客是不必要备案的。很多人由于认知局限，以为只能使用国内服务器，所以以为备案是必须的。还有域名也不建议从国内购买，可以从 NameCheap、NameSilo、GoDaddy、Gandi 等平台购买。</p><p data-pid=\"hCqWDjn5\">实际上有海量的个人博客使用的是境外的服务器，备案什么的无关紧要。从<a href=\"https://link.zhihu.com/?target=https%3A//icp.gov.moe/aboutus.php\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">萌国 ICP 备案</a>可以看到成千上万个个人博客，你随便点，可以发现大多数用的都是无备案境外服务器。</p><p data-pid=\"OQumvJww\">其中不少博客的访问量是非常高的，和你所谓的学习分享博客是天壤之别。人家都不在意备案，你一个估计没人访问的网站居然想着备案？</p><p data-pid=\"y3kLZ5Q7\">当然不只是萌国这种民间 ICP 备案，还有我的喵星 ICP 备案：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d2b1316f3bbba0dec27c44d762573067_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1130\" data-rawheight=\"864\" data-original-token=\"v2-d2b1316f3bbba0dec27c44d762573067\" data-default-watermark-src=\"https://pica.zhimg.com/v2-c70e44063c4aa7142595bb569a47514e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1130\" data-original=\"https://picx.zhimg.com/v2-d2b1316f3bbba0dec27c44d762573067_r.jpg\"/></figure><p data-pid=\"3971uqx6\">这种就是娱乐性质的备案了，弄着玩的。欢迎大家<a href=\"https://link.zhihu.com/?target=https%3A//icp.hentioe.dev/join\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">加入</a>。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 21820,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-3db7e7d66f5424a2c425ed56dfb8122a_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 206,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1920456196684493946}",
+      "attached_info": "CpUGCNCQ4oTC6Y6YtwEQBBoJNzMzNTcwOTkyIJWs48IGKH8wSUCgAkovCgZJdGVtQ0YSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDczNjQ2NjM3OQoYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDIxMDYwNzQxYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkyMDQ1NjE5NjY4NDQ5Mzk0NooBCTI2NjU3MTI5NqoBCXJlY29tbWVuZMIBIDdlYjhkZDZkMWU2NjVjOWI1MzgzMmEwZDhhYjNhNGMy8gEKCAwSBk5vcm1hbPIBKAgKEiQyNWJlN2RhYi02M2Q2LTQ4ZWMtOTI4NC1hMmIyMTcyZWZmYTXyAQYICxICNDmCAgCIApWXt/mMM5ICIDdlYjhkZDZkMWU2NjVjOWI1MzgzMmEwZDhhYjNhNGMymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIGSXRlbUNG6AIC+gILTk9STUFMX0ZMT1eKAyA0NzI2MjVjOGEyYWU0NDc0ODg5NzIzOTYxNGYwMjU5N5oDDQoCdjIQABoFb3RoZXKoA7yqAdgDAOoDH3RleHRBbGxTaXRlTXZIaWdoQWN0aW9uSXRlbUNGVjH6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBDqCBjgBiIjdjItZDJiMTMxNmYzYmJiYTBkZWMyN2M0NGQ3NjI1NzMwNjeABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAyTOwP4EFAAAAAAAAAACJBV+IkClxVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBTGQBgCgBqQCqAYBkgIuCgk3MzM1NzA5OTISEzE5MjA0NTYxOTY2ODQ0OTM5NDYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "289_1755822541.790",
+      "type": "feed",
+      "offset": 289,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822541,
+      "updated_time": 1755822541,
+      "target": {
+        "id": "3565212230",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3565212230",
+        "author": {
+          "id": "e60033fa50be3f4e55060d83d564f426",
+          "url": "https://api.zhihu.com/people/e60033fa50be3f4e55060d83d564f426",
+          "user_type": "people",
+          "url_token": "4-01-03-09",
+          "name": "青琅玕",
+          "headline": "文章爆文合作。v:jgh239",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-1af497f19393ad05d394a560e814c49c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 136584,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1721228812,
+        "updated_time": 1721228812,
+        "voteup_count": 1891,
+        "thanks_count": 115,
+        "comment_count": 157,
+        "is_copyable": true,
+        "question": {
+          "id": "462296615",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/462296615",
+          "author": {
+            "id": "2d2341517f47f97ee2b9295c6a0e9bee",
+            "url": "https://api.zhihu.com/people/2d2341517f47f97ee2b9295c6a0e9bee",
+            "user_type": "people",
+            "url_token": "zhu-ding-gu-du-zhong-lao-67",
+            "name": "道路是曲折的",
+            "headline": "小人走开，别来沾边。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-bc767d95ffedb5abff2ad7221a2bd098_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 777,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有哪些做饭的基本常识？",
+          "created": 1622389543,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            8892,
+            17368,
+            99533
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "1、洗鸡蛋，洗鸡蛋，洗鸡蛋！ 现在仍有人不洗蛋，直接磕打到碗里或锅里，岂不知鸡蛋外表有很多沙门氏菌，很容易感染。 2、方便面是卷的:方便面之所以是卷的,是因为卷曲的形状可以更好地适应热胀冷缩的原理,在烹饪时面条不容易断裂。 3、吃姜可以缓解晕车：姜中的姜辣素可以缓解晕车和晕船的症状。 4、有时候疲劳的时候都会想起吃一些甜食,因为吃甜食可以刺激你的大脑更快的运动,从而大脑会更加的灵敏一些哦! 5、《猫与老鼠》中的…",
+        "excerpt_new": "1、洗鸡蛋，洗鸡蛋，洗鸡蛋！ 现在仍有人不洗蛋，直接磕打到碗里或锅里，岂不知鸡蛋外表有很多沙门氏菌，很容易感染。 2、方便面是卷的:方便面之所以是卷的,是因为卷曲的形状可以更好地适应热胀冷缩的原理,在烹饪时面条不容易断裂。 3、吃姜可以缓解晕车：姜中的姜辣素可以缓解晕车和晕船的症状。 4、有时候疲劳的时候都会想起吃一些甜食,因为吃甜食可以刺激你的大脑更快的运动,从而大脑会更加的灵敏一些哦! 5、《猫与老鼠》中的…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"f79hp5uU\">1、洗鸡蛋，洗鸡蛋，洗鸡蛋！</p><p data-pid=\"dliegmjL\">现在仍有人不洗蛋，直接磕打到碗里或锅里，岂不知鸡蛋外表有很多沙门氏菌，很容易感染。</p><p data-pid=\"kA3foYIP\">2、方便面是卷的:方便面之所以是卷的,是因为卷曲的形状可以更好地适应热胀冷缩的原理,在烹饪时面条不容易断裂。</p><p data-pid=\"jc0PcZsh\">3、吃姜可以缓解晕车：姜中的姜辣素可以缓解晕车和晕船的症状。</p><p data-pid=\"uU5akIVA\">4、有时候疲劳的时候都会想起吃一些甜食,因为吃甜食可以刺激你的大脑更快的运动,从而大脑会更加的灵敏一些哦!</p><p data-pid=\"D9uRuAAw\">5、《猫与老鼠》中的杰瑞整天偷奶酪。实际上,奶酪是世界上被偷频率最高的食物,每年失窃的奶酪就有4%。</p><p data-pid=\"5e5skOUp\">6、滚筒洗衣机,不能塞满衣服,因为无摔打空间,导致衣服洗不干净,放一半的容量就可以了。</p><p data-pid=\"_2nFNlTA\">7、有些水果和叶菜不能放在一起 有许多水果在成熟的期间会释放乙烯气体，这种气体会让蔬菜老得快。因此，水果与蔬菜同放会使得蔬菜加速变黄， 失去营养价值。</p><p data-pid=\"XaTzO7lM\">8、用热水蒸馒头，就会快速杀死酵母，因为酵母菌害怕高温，所以用热水蒸出来的馒头就容易发不起来，不够松软</p><p data-pid=\"9sdIWSL0\">9、饭菜要趁热放冰箱。趁热将饭菜放入冰箱,可以有效减缓细菌滋生。</p><p data-pid=\"gLLNPWnZ\">10、煮饭的时候加点加百合会让米饭变甜，加啤酒会让米饭变香，煮糊了放几根葱有的时候可以挽救米饭。</p><p data-pid=\"r-Jt2YEj\">11、炒茄子时，放几滴醋，茄子不发黑。五，炒菜时要锅烧热才下油。</p><p data-pid=\"96AJo5sR\">12、挤压柠檬前先加热,可以挤压出更多的汁液。</p><p data-pid=\"l1_EvI_T\">13、真正熟透的水果是没办法运输的,换句话说百分之80以上的人吃到的非本地的产的水果都是摘下来的时候是没熟的。</p><p data-pid=\"0uk-1jp2\">14、玫瑰和苹果是一个科的，清香的百合与大蒜竟也是同一个科的！</p><p data-pid=\"KIEyUuCa\">15、胡萝卜一开始是白色的,经过人类的改造才成现在的橙色胡萝卜!西兰花不是自然生长的,竟是人类创造出来!</p><p data-pid=\"vGJqNtso\">16、半杯无花果汁的钙含量等同于半杯牛奶的钙含量。 </p><p data-pid=\"LniPCFyA\">17、菠萝根本不长在树上,它们是长在地里的,属于草本植物。</p><p data-pid=\"vWn-rOF7\">18、娃娃菜不是大白菜的心,它是另一个品种。</p><p data-pid=\"FiwEUE0C\">19、冰糖心苹果是一种病害,水心病,但是对人体无害,甚至口感更佳。 </p><p data-pid=\"aANQ3q5O\">20、山楂虽然酸，但其实是高糖水果 山楂里的有机酸含量高，冲淡了糖的甜度。</p><p data-pid=\"G3huGUYJ\">21、菜市场有售卖成箱的水果，价格还会比其他地方要便宜，不过你就要注意检查了，大多数上面一层肯定是又大个又好，而下面的很有可能遇到烂果或者小小一个的次果。</p><p data-pid=\"U7Db9XgE\">22、草莓几乎是唯一果籽长在外面的水果。</p><p data-pid=\"J3ohHU3O\">23、苹果能漂浮在水中是因为它的果实中含有25%的空气。</p><p data-pid=\"jq-eeC7K\">24、黄瓜90% 以上都是水,但黄瓜敷脸并不能补水。</p><p data-pid=\"IgMRwdKQ\">25、小时候吃的无花果丝,其实和无花果没啥关系,是用萝卜丝做的。</p><p data-pid=\"YE-VThge\">26、海苔和紫菜其实是一样东西，海苔就是把紫菜烤干压扁后的产物。</p><p data-pid=\"YhIbzevO\">27、不同口味的咖啡豆在烘焙时需要不同时间和温度,以达到最佳口感。 </p><p data-pid=\"Q-VyIFBC\">28、餐桌上的餐具交叉：如果你需要暂时放下餐具，应将刀叉交叉放在盘子上，表示你还没有吃完。</p><p data-pid=\"38pxzwk2\">29、葡萄酒的颜色并不直接影响其味道,因为不同品种的葡萄可以产生相似的口感和味道。</p><p data-pid=\"aOBfYW8J\">30、日本豆腐实际上是由鸡蛋制成的，‌与大豆无关，‌是一种独特的食品。</p><p data-pid=\"5GVAB3cf\">31、炸薯片是偶然发现的。炸薯片最早是由一位纽约的顾客抱怨薯条太厚而不好吃，于是厨师将薯条切得更薄，并将其炸成了薄片</p><p data-pid=\"dwRZLqy-\">32、世界上8种最容易引起过敏的食物是:牛奶、鸡蛋、小麦、花生、大豆、坚果、鱼类和贝类。</p><p data-pid=\"HItrHgNT\">33、番茄是水果还是蔬菜 番茄曾被认为是“狼桃”而被忽视，直到美国联邦最高法院进行了关于番茄是水果还是蔬菜的判决。法院最终判定番茄为蔬菜。</p><p data-pid=\"Iu1TqJPq\">34、油条不仅富含油脂,还是含盐较多的食品,因为它的制作需要放盐。</p><p data-pid=\"XJV6ZK6q\">35、金针菇在胃中被消化的程度有限，‌大部分会原样排出，‌因此吃金针菇时不会看到完整的金针菇排出。</p><p data-pid=\"0kZDm33K\">36、毛肚可不是肚,而是牛的胃。 牛有四个胃,跟平常的动物内部结构都不一样,分别是瘤胃、网胃、重瓣胃、皱胃。毛肚一般指的就是牛的瘤胃和网胃,但是分开来的话就是毛肚和牛百叶了。</p><p data-pid=\"Gb_oqIVQ\">37、银耳汤不要隔夜吃。 原因是放置一夜后的银耳汤中的亚硝酸盐会积累,吃了以后就会导致中毒。</p><p data-pid=\"03gvePoU\">38、容易被细菌污染的食物:肉、鱼、蛋、乳等及其制品,如烧、卤肉类;凉菜;剩余饭菜等。</p><p data-pid=\"tkoAwbLQ\">39、土豆可以吸收和反射Wi-fi信号。苹果的种子中有少量氰化物！</p><p data-pid=\"wPy9jukG\">40、纯汤煮咸时,切两片士豆片放入汤里煮几分钟,就变淡了。</p><p data-pid=\"xaIthlTU\">41、鸡蛋在室温下比在冰箱中更容易变质。</p><p data-pid=\"9fc7_lTQ\">42、煮饭的时候加点加百合会让米饭变甜，加啤酒会让米饭变香，煮糊了放几根葱有的时候可以挽救米饭。</p><p data-pid=\"8fmNJr5C\">43、煮火腿之前，将火腿皮上涂些白糖，容易煮烂，味道更鲜美。</p><p data-pid=\"qCr5dko9\">44、在烹饪过程中,最好是热锅冷油,油在高温状态下产生的反式脂肪酸对人体是有害的。</p><p data-pid=\"Gf2IPHm9\">45、煮饭时可以在锅中放一些花生油，能够使米饭更加鲜美，米粒也会更加散糙。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 322662,
+        "favorite_count": 2988,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3565212230}",
+      "attached_info": "CtIFCNCQ4oTC6Y6YtwEQBBoJNjc4MjkxNDU1IIy837QGKOMOMJ0BQKECSjQKH1RTX1NPVVJDRV9ORVdCSUVfVEVYVF9UV09fVE9XRVISATAYACAAOgp7InJhdyI6IiJ9Wgg2NTAxMjAyM2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCjM1NjUyMTIyMzCKAQk0NjIyOTY2MTWqAQlyZWNvbW1lbmTCASBlNjAwMzNmYTUwYmUzZjRlNTUwNjBkODNkNTY0ZjQyNvIBCggMEgZOb3JtYWzyASgIChIkOTkyZjkyMzYtNWY4OC00NmE2LWJjMmMtM2I2YmQ3OWU0MGQw8gEGCAsSAjQ5ggIAiAKVl7f5jDOSAiBlNjAwMzNmYTUwYmUzZjRlNTUwNjBkODNkNTY0ZjQyNpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCH1RTX1NPVVJDRV9ORVdCSUVfVEVYVF9UV09fVE9XRVLoAgL6AgtOT1JNQUxfRkxPV4oDIDQ3MjYyNWM4YTJhZTQ0NzQ4ODk3MjM5NjE0ZjAyNTk3mgMNCgJ2MhAAGgVvdGhlcqgD5tgT2AMA6gMebmV3YmllX3RleHRfdG93X3Rvd2VyX25vX2xpbWl0+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMBSUbA/gQUAAAAAAAAAAIkFX4iQKXFV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFMZAGAKAGpQKoBgOSAiUKCTY3ODI5MTQ1NRIKMzU2NTIxMjIzMBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "290_1755822541.764",
+      "type": "feed",
+      "offset": 290,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822541,
+      "updated_time": 1755822541,
+      "target": {
+        "id": "1941417668105188423",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941417668105188423",
+        "author": {
+          "id": "57b52e032d33ad065680923d44113673",
+          "url": "https://api.zhihu.com/people/57b52e032d33ad065680923d44113673",
+          "user_type": "people",
+          "url_token": "45-16-25-87",
+          "name": "kizzor",
+          "headline": "软件、科技、壁纸爱好者。公众号：小锡助手",
+          "avatar_url": "https://picx.zhimg.com/50/v2-7b1a2d4a4685e6af41033612bbd99b96_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 454,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755650041,
+        "updated_time": 1755650041,
+        "voteup_count": 3,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1901436993470178650",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1901436993470178650",
+          "author": {
+            "id": "6d19b7a617aa43a831f76fdecfd951b4",
+            "url": "https://api.zhihu.com/people/6d19b7a617aa43a831f76fdecfd951b4",
+            "user_type": "people",
+            "url_token": "4-95-72-41",
+            "name": "还想明天",
+            "headline": "哦吼吼！……",
+            "avatar_url": "https://picx.zhimg.com/50/v2-ccdc3b72c534aaf77498c96bc384c70e_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "大家的剪辑素材哪里找？",
+          "created": 1746117906,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            7400
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-7c93534330f03e1a6422f1bf220e62c2_720w.jpg?source=b6762063",
+        "excerpt": "各类短视频素材 825Ghttps://pan.quark.cn/s/330fd54f58d6 视频素材80个ae模板https://pan.quark.cn/s/05a9c2b864d4 视频素材1000个免费商用视频素材https://pan.quark.cn/s/23922784f2f2 视频素材4000个绿幕视频素材27Ghttps://pan.quark.cn/s/bc560793179f 视频素材10大科幻电影https://pan.quark.cn/s/04d1355fbaf0 视频素材动漫分类素材片段（9000+款）https://pan.quark.cn/s/7faa94ce2ea2 动漫素材动漫系列素材（8000+款）https://pan.quark.cn/s/a287cae18884 动漫素材动漫片段https://pan.quark.cn/s/01e9814f3b2f 动漫素材动漫剪辑素材146G…",
+        "excerpt_new": "各类短视频素材 825Ghttps://pan.quark.cn/s/330fd54f58d6 视频素材80个ae模板https://pan.quark.cn/s/05a9c2b864d4 视频素材1000个免费商用视频素材https://pan.quark.cn/s/23922784f2f2 视频素材4000个绿幕视频素材27Ghttps://pan.quark.cn/s/bc560793179f 视频素材10大科幻电影https://pan.quark.cn/s/04d1355fbaf0 视频素材动漫分类素材片段（9000+款）https://pan.quark.cn/s/7faa94ce2ea2 动漫素材动漫系列素材（8000+款）https://pan.quark.cn/s/a287cae18884 动漫素材动漫片段https://pan.quark.cn/s/01e9814f3b2f 动漫素材动漫剪辑素材146G…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7c93534330f03e1a6422f1bf220e62c2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2139\" data-rawheight=\"1284\" data-original-token=\"v2-7c93534330f03e1a6422f1bf220e62c2\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-13ef00c63939eaab943532c58a5b5aea_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2139\" data-original=\"https://pic1.zhimg.com/v2-7c93534330f03e1a6422f1bf220e62c2_r.jpg\"/></figure><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>各类短视频素材 825G</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/330fd54f58d6\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/330fd54f</span><span class=\"invisible\">58d6</span><span class=\"ellipsis\"></span></a></td><td>视频素材</td></tr><tr><td>80个ae模板</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/05a9c2b864d4\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/05a9c2b8</span><span class=\"invisible\">64d4</span><span class=\"ellipsis\"></span></a></td><td>视频素材</td></tr><tr><td>1000个免费商用视频素材</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/23922784f2f2\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/23922784</span><span class=\"invisible\">f2f2</span><span class=\"ellipsis\"></span></a></td><td>视频素材</td></tr><tr><td>4000个绿幕视频素材27G</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/bc560793179f\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/bc560793</span><span class=\"invisible\">179f</span><span class=\"ellipsis\"></span></a></td><td>视频素材</td></tr><tr><td>10大科幻电影</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/04d1355fbaf0\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/04d1355f</span><span class=\"invisible\">baf0</span><span class=\"ellipsis\"></span></a></td><td>视频素材</td></tr><tr><td>动漫分类素材片段（9000+款）</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/7faa94ce2ea2\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/7faa94ce</span><span class=\"invisible\">2ea2</span><span class=\"ellipsis\"></span></a></td><td>动漫素材</td></tr><tr><td>动漫系列素材（8000+款）</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/a287cae18884\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/a287cae1</span><span class=\"invisible\">8884</span><span class=\"ellipsis\"></span></a></td><td>动漫素材</td></tr><tr><td>动漫片段</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/01e9814f3b2f\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/01e9814f</span><span class=\"invisible\">3b2f</span><span class=\"ellipsis\"></span></a></td><td>动漫素材</td></tr><tr><td>动漫剪辑素材146G</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/c6cc10644abd\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/c6cc1064</span><span class=\"invisible\">4abd</span><span class=\"ellipsis\"></span></a></td><td>动漫素材</td></tr><tr><td>动漫素材53.2G</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/643dc186da5d\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/643dc186</span><span class=\"invisible\">da5d</span><span class=\"ellipsis\"></span></a></td><td>动漫素材</td></tr><tr><td>虚拟演播厅绿幕素材</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/621afe72f8c9\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/621afe72</span><span class=\"invisible\">f8c9</span><span class=\"ellipsis\"></span></a></td><td>虚拟演播厅绿幕素材合集【视频素材+预览图】</td></tr><tr><td>小说推文素材</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/eb7a93b157e8\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/eb7a93b1</span><span class=\"invisible\">57e8</span><span class=\"ellipsis\"></span></a></td><td></td></tr><tr><td>背景音乐配乐素材 437.25G</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1jtEU5lylLf-G5RFjBvAV9g%3Fpwd%3D1234\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.baidu.com/s/1jtEU5l</span><span class=\"invisible\">ylLf-G5RFjBvAV9g?pwd=1234</span><span class=\"ellipsis\"></span></a></td><td></td></tr><tr><td>剪辑短视频必备语音包素材</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/94e2e8c42613\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/94e2e8c4</span><span class=\"invisible\">2613</span><span class=\"ellipsis\"></span></a></td><td></td></tr><tr><td>短视频剪辑配音音效库(9000+)</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/c4bf4979faf8\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/c4bf4979</span><span class=\"invisible\">faf8</span><span class=\"ellipsis\"></span></a></td><td></td></tr><tr><td>搞笑配音素材合集</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/d88008e80b3a\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/d88008e8</span><span class=\"invisible\">0b3a</span><span class=\"ellipsis\"></span></a></td><td></td></tr><tr><td>背景音乐素材包5万多首</td><td><a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/2583cfe7ac3e\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.quark.cn/s/2583cfe7</span><span class=\"invisible\">ac3e</span><span class=\"ellipsis\"></span></a></td><td>夸克网盘分享的背景音乐素材包，包含5万多首素材。</td></tr></tbody></table><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 77,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-7c93534330f03e1a6422f1bf220e62c2_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 14,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941417668105188423}",
+      "attached_info": "CpMGCNCQ4oTC6Y6YtwEQBBoJNzQzMDM1MzU1IPmvlMUGKAMwAECiAkpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgkxMTQ3Njk4MTdiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxNDE3NjY4MTA1MTg4NDIzigETMTkwMTQzNjk5MzQ3MDE3ODY1MKoBCXJlY29tbWVuZMIBIDU3YjUyZTAzMmQzM2FkMDY1NjgwOTIzZDQ0MTEzNjcz8gEKCAwSBk5vcm1hbPIBKAgKEiQxOGY2YzZkYy05ZWU5LTQ4YzYtODkyMS02ZGNiM2YyZWQyYzTyAQYICxICNDmCAgCIApWXt/mMM5ICIDU3YjUyZTAzMmQzM2FkMDY1NjgwOTIzZDQ0MTEzNjczmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCAvoCC05PUk1BTF9GTE9XigMgNDcyNjI1YzhhMmFlNDQ3NDg4OTcyMzk2MTRmMDI1OTeaAw0KAnYyEAAaBW90aGVyqANN2AMA6gMfdGV4dEZlZWRUd29Ub3dlcldhcm11cFN1Y2Nlc3NWMfoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCENsQGIQKIiN2Mi03YzkzNTM0MzMwZjAzZTFhNjQyMmYxYmYyMjBlNjJjMoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4P8nkD+BBQAAAAAAAAAAiQVfiJApcVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUxkAYAoAamAqgGAJICLgoJNzQzMDM1MzU1EhMxOTQxNDE3NjY4MTA1MTg4NDIzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "291_1755822541.277",
+      "type": "feed",
+      "offset": 291,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822541,
+      "updated_time": 1755822541,
+      "target": {
+        "id": "2699869110",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/2699869110",
+        "author": {
+          "id": "d86523048fba8e5d7162ac86d34ee03b",
+          "url": "https://api.zhihu.com/people/d86523048fba8e5d7162ac86d34ee03b",
+          "user_type": "people",
+          "url_token": "95-74-83-61",
+          "name": "莞小颜",
+          "headline": "提供语音时费咨询，自我成长/人际关系",
+          "avatar_url": "https://picx.zhimg.com/50/v2-e1cfd6819b5d8ec32bc5e44722816b58_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 36510,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1664785483,
+        "updated_time": 1664862080,
+        "voteup_count": 6422,
+        "thanks_count": 1760,
+        "comment_count": 208,
+        "is_copyable": true,
+        "question": {
+          "id": "435769097",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/435769097",
+          "author": {
+            "id": "dd196a31402e419c1510606e3a383c5b",
+            "url": "https://api.zhihu.com/people/dd196a31402e419c1510606e3a383c5b",
+            "user_type": "people",
+            "url_token": "ling-yu-46-22-91",
+            "name": "舒瑾",
+            "headline": "三分钟热度的卑微理科生",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-2f1ce0e1a42237308c64ace1cb04ed5f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 10,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "什么样子的情侣关系能够长久？",
+          "created": 1608486419,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 21,
+          "bound_topic_ids": [
+            740,
+            4729,
+            11604,
+            32811,
+            204338
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "男生在交真心的时候，会先交付信任。什么是信任？就是交付出在男性的角斗场中，在战场上不可以显露、不为人知的那一面，比如苦楚、幼稚、孩子气、自卑、脆弱、迷茫、傻X、智商掉线，战场上流露这一面会被对手侵犯和拿住软肋，所以软肋只能给最信任的人看，戒备只会在最信任的人面前卸下。然而很多女性不能接受男性这一面，十分嫌弃，甚至嘲讽。 女生在交真心的时候，会先交付安全感。什么是安全感？就是其他人不值得依靠不值得信…",
+        "excerpt_new": "男生在交真心的时候，会先交付信任。什么是信任？就是交付出在男性的角斗场中，在战场上不可以显露、不为人知的那一面，比如苦楚、幼稚、孩子气、自卑、脆弱、迷茫、傻X、智商掉线，战场上流露这一面会被对手侵犯和拿住软肋，所以软肋只能给最信任的人看，戒备只会在最信任的人面前卸下。然而很多女性不能接受男性这一面，十分嫌弃，甚至嘲讽。 女生在交真心的时候，会先交付安全感。什么是安全感？就是其他人不值得依靠不值得信…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"C1y5YwdN\"><b>男生在交真心的时候，会先交付信任。</b>什么是信任？就是交付出在男性的角斗场中，在战场上不可以显露、不为人知的那一面，比如苦楚、幼稚、孩子气、自卑、脆弱、迷茫、傻X、智商掉线，战场上流露这一面会被对手侵犯和拿住软肋，所以软肋只能给最信任的人看，戒备只会在最信任的人面前卸下。然而很多女性不能接受男性这一面，十分嫌弃，甚至嘲讽。</p><p data-pid=\"F5FiFY-K\"><b>女生在交真心的时候，会先交付安全感。</b>什么是安全感？就是其他人不值得依靠不值得信赖，但这个人值得，于是她会把隐藏面比如脆弱、不安、没有被关注的匮乏、吃醋、小脾气、耍性子、黏人、情商掉线的那一面拿给爱人看。然而很多男性不能接受女性这一面，觉得耗了自己的精力，觉得烦，觉得失去了挑战性。</p><p data-pid=\"xO5ZAj00\"><b>你们都想对方走心，但是对方走心的样子，你们又不喜欢。</b></p><p data-pid=\"vUwsVk2b\">双方都希望对方是成熟懂事有魅力的。而恰恰一个人在“失去魅力”那一刻，才是最希望被接纳，信任感最强的时刻。</p><p data-pid=\"JSe5xo5k\"><b>人在面对自己心爱的人时，感觉到信任和安全时，感觉到自己是有在“被爱”时，不自觉地会退行，男人退行成小男孩会渴望“安全的母爱”，女人退行成小女孩会渴望“安全的父爱”。</b></p><p data-pid=\"uo5HFRRx\">可是，对方似乎不愿也不能接受。</p><p data-pid=\"vp4ngcaZ\">于是，谈过两三次恋爱被伤害过的人，从中吸取了教训，学会了克制和收敛，男人不敢再表露幼稚脆弱面，女人不敢再表露作闹黏人面。</p><p data-pid=\"PhaasMKJ\">各大所谓的情感up主也在教大家，你要高冷，你要成熟有趣，你不能被拿捏，你要忽冷忽热，对方才会喜欢你，你先走心你就输了，你先主动你就输了。于是男人和女人，各自顶着一张成熟优雅的面具去谈恋爱，比谁更理性，比谁更扛得住，比谁更不走心，比谁段位更高，生怕自己输了。“段位高”，变成了当下一个特别了不起有魅力的象征。</p><p data-pid=\"zUe_EfRu\">又或者是，大家只找那种看起来成熟的，没有负面情绪的，不消耗自己任何的人，自己也尽量不会去消耗对方任何。</p><p data-pid=\"hU2Td_yG\">甚至，双方在顶着面具的情况下，还走进了婚姻。</p><p data-pid=\"YUz8StDS\"><b>成熟的面具倒是戴稳了，但是真心丢了。殊不知，这种只展示成熟的“成熟”，是曾经被伤害过的残缺和痕迹，抑或是根本没走心，高出几个阶。</b></p><p data-pid=\"T9odbrZr\">高段位养成，人性拿捏，我也会写但是我不屑。我始终认为，<b>最大的心机仍旧是真诚。</b></p><p data-pid=\"i-1pEojs\"><b>敢交真心的都是勇士。</b></p><p data-pid=\"c3V3npKO\">大家已经忘了亲密关系的初衷了，初衷就是交付真心，自我暴露，彼此依赖。男人内心深处就是会幼稚和孩子气，女人内心深处就是会怕不被关注不被爱。</p><p data-pid=\"oh9FHB-1\">亲密关系的磨合期和整合期，必然是带有一定程度的痛苦和互相消耗的，这个痛苦的阶段就是安抚对方体谅对方，双方都做一定程度的妥协与让步，同时自我突破自我暴露的阶段。</p><p data-pid=\"wttJH9z0\">一段没有自我暴露的亲密关系，一段没有敞开心扉的情感，不过是假性亲密关系罢了，心与心之间不产生深层次的交流，不进行沟通，什么都憋着，压着，藏着掖着，是不可能长久地和谐的。</p><p data-pid=\"5zXqbbV7\">一段没有接受过对方的自我暴露，没有深层次地去体谅过对方的需求和感受，安抚过对方自卑和不安的关系，也是不可能长久地和谐的。</p><p data-pid=\"pJjodKMw\">因为这就是彼此对对方的【<b>不可替代性</b>】，是专属价值，而赚钱，做家务，生小孩，外貌特征，这些都不叫专属价值，很容易被替代。</p><p data-pid=\"COt5NwyY\"><b>去做那个有专属价值的人，以及去和那个给你提供专属价值的人在一起。你们互相满足彼此的专属依恋需求，这才能产生稳定长久的真爱。</b></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 402063,
+        "favorite_count": 9661,
+        "answer_type": "normal",
+        "reaction_instruction": {
+          "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 2699869110}",
+      "attached_info": "Cr0FCNCQ4oTC6Y6YtwEQBBoJNTIwOTcxMjQ2IMu46pkGKJYyMNABQKMCSjAKG1RTX1NPVVJDRV9CQVNJQ19JTkZPX1JFQ0FMTBIBMBgAIAA6CnsicmF3IjoiIn1aCDU5MTE2ODMxYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IKMjY5OTg2OTExMIoBCTQzNTc2OTA5N6oBCXJlY29tbWVuZMIBIGQ4NjUyMzA0OGZiYThlNWQ3MTYyYWM4NmQzNGVlMDNi8gEKCAwSBk5vcm1hbPIBKAgKEiRjNTU1NWQ3NC01M2RhLTRjZTktOWRmZS01Njc4NzQyZTkzMDTyAQYICxICNDmCAgCIApWXt/mMM5ICIGQ4NjUyMzA0OGZiYThlNWQ3MTYyYWM4NmQzNGVlMDNimgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIbVFNfU09VUkNFX0JBU0lDX0lORk9fUkVDQUxM6AID+gILTk9STUFMX0ZMT1eKAyA0NzI2MjVjOGEyYWU0NDc0ODg5NzIzOTYxNGYwMjU5N5oDDQoCdjIQABoFb3RoZXKoA4/FGNgDAOoDEWJhc2ljX2luZm9fcmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMD84Kk/gQUAAAAAAAAAAIkFX4iQKXFV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFMZAGAKAGpwKoBgCSAiUKCTUyMDk3MTI0NhIKMjY5OTg2OTExMBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "292_1755822541.643",
+      "type": "feed",
+      "offset": 292,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822541,
+      "updated_time": 1755822541,
+      "target": {
+        "id": "1941522328413504861",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941522328413504861",
+        "author": {
+          "id": "1813e6f79163c6e4a86a66fe460e0716",
+          "url": "https://api.zhihu.com/people/1813e6f79163c6e4a86a66fe460e0716",
+          "user_type": "people",
+          "url_token": "lala-13430615929",
+          "name": "谷歌SEO推广Lala",
+          "headline": "香港专业谷歌SEO公司",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "优易化信息技术咨询（深圳）有限公司 咨询顾问"
+            }
+          ],
+          "followers_count": 180,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755674994,
+        "updated_time": 1755674994,
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "507927127",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/507927127",
+          "author": {
+            "id": "ffc80791ba2c9caebcb2848651d345ee",
+            "url": "https://api.zhihu.com/people/ffc80791ba2c9caebcb2848651d345ee",
+            "user_type": "people",
+            "url_token": "miao-miao-98-51-42",
+            "name": "喵喵",
+            "headline": "放下幻想，直面鲜血淋漓。除了“敢于斗争和善于斗争”，无路可走",
+            "avatar_url": "https://picx.zhimg.com/50/v2-deec5fc08c233686d1c20ce933b1c8de_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 71,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "外贸B2B还能走多久？",
+          "created": 1640243288,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            4980,
+            10517,
+            37859
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "导读： 2025年，谷歌搜索规则已彻底改写。当AI直接在您潜在客户的搜索结果顶部提供完美答案，您的网站流量是否正在无声下滑？本文源自优易化SEO专家的实战观察，将带您直面这场\"流量争夺战\"，并运用谷歌EEAT法则，为外贸企业铺就一条逆势增长之路。开局：一场看不见的流量蒸发\"王总，最近我们网站的谷歌自然流量下降了20%，但关键词排名好像没变啊？\" 这不仅是王总的困惑，更是近期众多外贸企业主向我们优易化咨询时的共同疑问。…",
+        "excerpt_new": "导读： 2025年，谷歌搜索规则已彻底改写。当AI直接在您潜在客户的搜索结果顶部提供完美答案，您的网站流量是否正在无声下滑？本文源自优易化SEO专家的实战观察，将带您直面这场\"流量争夺战\"，并运用谷歌EEAT法则，为外贸企业铺就一条逆势增长之路。开局：一场看不见的流量蒸发\"王总，最近我们网站的谷歌自然流量下降了20%，但关键词排名好像没变啊？\" 这不仅是王总的困惑，更是近期众多外贸企业主向我们优易化咨询时的共同疑问。…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<blockquote data-pid=\"1BNbuswq\"><b>导读：</b> 2025年，谷歌搜索规则已彻底改写。当AI直接在您潜在客户的搜索结果顶部提供完美答案，您的网站流量是否正在无声下滑？本文源自优易化SEO专家的实战观察，将带您直面这场&#34;流量争夺战&#34;，并运用谷歌EEAT法则，为外贸企业铺就一条逆势增长之路。</blockquote><h2>开局：一场看不见的流量蒸发</h2><p data-pid=\"JMIQgaUg\">&#34;王总，最近我们网站的谷歌自然流量下降了20%，但关键词排名好像没变啊？&#34;</p><p data-pid=\"GfaDVFxv\">这不仅是王总的困惑，更是近期众多外贸企业主向我们优易化咨询时的共同疑问。问题根源往往并非SEO操作失误，而是谷歌搜索规则已经发生了根本性变革——<b>AI Overviews（AI概览）</b> 功能的全面上线，正在静默重塑全球流量分配格局。</p><p data-pid=\"qgutnh9n\">想象一下：当海外采购商搜索&#34;How to choose a reliable CNC machine supplier&#34;时，谷歌不再仅仅呈现10个蓝色链接，而是在结果页顶部直接生成一个结构清晰、信息完整的答案框，宛如一位不知疲倦、知识渊博的全球客服。这导致用户<b>无需点击任何网站</b>即可获得满意答案，对依赖谷歌流量的外贸网站而言，这无疑是一场划时代的挑战。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3e35722b416c4942887fb4395bf09e6b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"443\" data-rawheight=\"262\" data-original-token=\"v2-c4226665083d67bea3542003f9c5a412\" class=\"origin_image zh-lightbox-thumb\" width=\"443\" data-original=\"https://pic2.zhimg.com/v2-3e35722b416c4942887fb4395bf09e6b_r.jpg\"/></figure><h2>第一章：AI概览——外贸流量的&#34;隐形收割机&#34;</h2><p data-pid=\"M4M_U63l\">AI Overviews是谷歌整合全球网络信息，通过其尖端AI模型生成的即时答案摘要。它不再满足于充当信息中介，而是跃升为内容终端提供者。</p><h3>这场变革对外贸企业的三重冲击：</h3><p data-pid=\"ELkcKZhI\"><b>1. 零点击搜索（Zero-Click Search）成为常态</b><br/>用户的基本问题被直接解答，传统的信息型入口页面失去了存在价值。采购决策前期的调研行为，正在被AI彻底接管。</p><p data-pid=\"mlzzE0TF\"><b>2. 信息型关键词流量大幅萎缩</b><br/>&#34;What is&#34;、&#34;How to&#34;、&#34;Benefits of&#34; 这类关键词的流量首当其冲。这些曾经吸引潜在客户进入销售漏斗的顶层入口，如今流量急剧下降。</p><p data-pid=\"WREIMDwH\"><b>3. 竞争维度彻底改变</b><br/>您的对手不再是同行网站，而是谷歌AI本身。想要在AI摘要中被引用，需要达到前所未有的内容质量门槛。</p><p data-pid=\"OzIc6vBf\">这场流量争夺战的本质已经转变：不再是关键词排名或外链数量的竞争，而是<b>内容权威性、专业度与可信度</b>的终极比拼。而这正与谷歌多年推崇的EEAT准则不谋而合。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-42a91ecbe681718d61a9b685f569e4a8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"625\" data-rawheight=\"331\" data-original-token=\"v2-0ae7609d8189639350ebb7c287df2421\" class=\"origin_image zh-lightbox-thumb\" width=\"625\" data-original=\"https://pic1.zhimg.com/v2-42a91ecbe681718d61a9b685f569e4a8_r.jpg\"/></figure><p data-pid=\"lk1qPvAO\"><b>第二章：EEAT法则——AI时代的&#34;通行证&#34;</b></p><p data-pid=\"7KtWxNsm\">EEAT（Experience, Expertise, Authoritativeness, Trustworthiness）——即经验、专业、权威、可信，已从抽象概念进化成为AI评判内容价值的黄金标准。</p><p data-pid=\"nicpQGO7\"><b>经验（Experience）</b>：AI优先选择源自<b>第一手实践</b>的内容。您的产品制造工艺、技术难题攻克历程、客户真实应用场景——这些独特的&#34;经验&#34;是AI无法凭空生成的竞争优势。</p><p data-pid=\"9ftjDF5b\"><b>专业（Expertise）</b>：内容是否展现行业深度？是由技术专家撰写还是普通文案拼凑？AI能够识别真正专业的内容深度。</p><p data-pid=\"X-jtlD94\"><b>权威（Authoritativeness）</b>：您的网站在行业内是否获得广泛认可？是否有权威媒体、行业协会或知名客户案例背书？这些外部信号是构建权威的基石。</p><p data-pid=\"hd2fiVt8\"><b>可信（Trustworthiness）</b>：网站信息是否透明完整？是否有安全认证？内容是否准确且及时更新？这些因素共同构建了可信度。</p><p data-pid=\"SJgZHVgM\">AI Overviews本质上是一个&#34;智能信息聚合器&#34;，它倾向于从EEAT评分高的网站抓取内容构建答案。<b>您的战略目标不是对抗AI，而是成为AI最信赖的信息源。</b></p><h2>第三章：逆势增长——外贸企业的三大破局策略</h2><p data-pid=\"OS7-b2X2\">基于EEAT原则，我们为外贸企业提炼出三条可立即执行的实战策略：</p><h3>策略一：内容战略升级——从产品推销到专业解惑</h3><p data-pid=\"77lgF-D1\"><b>行动方案</b>：深度挖掘客户采购决策全周期中的痛点问题，构建相应的高价值内容体系：</p><ul><li data-pid=\"m-fjGAvj\"><b>认知阶段</b>：打造行业趋势解读、技术原理剖析、选购指南类内容（例如：&#34;2025年工业连接器技术前瞻&#34;、&#34;精密轴承选型五大核心参数&#34;）</li><li data-pid=\"T_L9sNDx\"><b>评估阶段</b>：开发产品对比分析、技术白皮书、案例研究、应用方案等深度内容</li><li data-pid=\"tXrEQSTU\"><b>决策阶段</b>：优化&#34;联系我们&#34;、&#34;报价申请&#34;、&#34;技术咨询&#34;等转化路径，确保流程顺畅</li></ul><p data-pid=\"fNMRRZ8l\"><b>EEAT价值</b>：全方位展示<b>专业深度</b>与<b>实战经验</b>，建立行业思想领导力。</p><h3>策略二：技术优化进阶——用AI语言与AI对话</h3><p data-pid=\"PhboZRLx\"><b>行动方案</b>：</p><ol><li data-pid=\"GlN1lV8A\"><b>强化结构化数据标记</b>：为产品参数、FAQ、操作指南、企业信息等添加丰富的Schema标记，这是与谷歌AI高效沟通的&#34;通用语言&#34;</li><li data-pid=\"vLGKhDr3\"><b>精心布局&#34;People Also Ask&#34;内容</b>：针对性优化与核心关键词相关的&#34;用户还问&#34;问题解答，提升内容被AI抓取概率</li><li data-pid=\"gnzPxeKw\"><b>极致化网站体验</b>：优化加载速度、交互响应和视觉稳定性（Core Web Vitals）。用户体验不佳的网站，在AI评估体系中同样难以获得青睐</li></ol><p data-pid=\"6fccgWjr\"><b>EEAT价值</b>：技术实施能力体现<b>专业水准</b>，优质体验增强<b>可信度</b>。</p><h3>策略三：权威背书构建——打造行业影响力引擎</h3><p data-pid=\"YEi9ToYl\"><b>行动方案</b>：</p><ol><li data-pid=\"TyoBSWGV\"><b>打造专家IP</b>：鼓励企业技术骨干、创始人实名分享专业见解，通过技术文章、视频讲座等形式建立行业KOL形象</li><li data-pid=\"z9e3hGKR\"><b>获取高质量权威链接</b>：聚焦行业媒体、专业平台、协会组织的报道和链接，通过发布高质量行业白皮书、技术报告吸引权威引用</li><li data-pid=\"aUcudsgV\"><b>内容形式多元化</b>：将复杂专业内容转化为视频、图文、信息图等多媒体形式。生产流程视频、产品实测视频等原生内容，其说服力远超文字描述</li></ol><p data-pid=\"2QJqbIqT\"><b>EEAT价值</b>：这是构建<b>行业权威</b>和<b>市场信任</b>的最有效路径。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-83c57a736446d220e4db73521a1d7b42_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"699\" data-rawheight=\"320\" data-original-token=\"v2-e202699c0a70a3a2f596fece054ee643\" class=\"origin_image zh-lightbox-thumb\" width=\"699\" data-original=\"https://pica.zhimg.com/v2-83c57a736446d220e4db73521a1d7b42_r.jpg\"/></figure><h2>终局：危机背后的巨大机遇</h2><p data-pid=\"10_BAZSx\">AI Overviews不是流量的终结者，而是一次彻底的行业洗牌。它迫使所有参与者回归商业本质：<b>创造真实价值，建立深度信任</b>。</p><p data-pid=\"kRn1x9Ma\">对外贸企业而言，这甚至是一次战略机遇——那些率先践行EEAT准则、专注内容深度与专业价值的企业，将在这场变革中构筑起难以逾越的竞争壁垒，将仍然停留在传统SEO层面的对手远远甩在身后。</p><p data-pid=\"V2oANVBU\"><b>这场流量战争的最终胜利者，永远属于最懂用户（和AI）真正需求的人。</b></p><p data-pid=\"JYRdNihq\"><b>本文作者</b>：优易化谷歌SEO专家Lala，专注外贸企业海外推广10+年，成功服务200+中国企业开拓全球市场。</p><p data-pid=\"CLUneZnX\"><b>如果您觉得本文对你有帮助，请点赞+收藏，让更多同行朋友看到这篇干货！</b></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e29e1398ca882c18d35a2414acececac_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"494\" data-original-token=\"v2-72d23967f0d8407420acc5f7ed1602b7\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic1.zhimg.com/v2-e29e1398ca882c18d35a2414acececac_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 47,
+        "favorite_count": 3,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941522328413504861}",
+      "attached_info": "Cr0HCNCQ4oTC6Y6YtwEQBBoJNzQzMTA5MTY5IPLylcUGKAEwAECkAkojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDISATAYACAAOgBKLwokVFNfU09VUkNFX1dBUk1VUF9UV09UT1dFUl9FWFBWMl9URVhUEgEwGAAgADoAWgg3NTE1NDI3NGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE1MjIzMjg0MTM1MDQ4NjGKAQk1MDc5MjcxMjeqAQlyZWNvbW1lbmTCASAxODEzZTZmNzkxNjNjNmU0YTg2YTY2ZmU0NjBlMDcxNvIBCggMEgZOb3JtYWzyASgIChIkZDJhNGJkYzItNjc1Yi00ODQxLTk5MjAtZTQ2MDRlZWMzMjIx8gEGCAsSAjQ5ggIAiAKVl7f5jDOSAiAxODEzZTZmNzkxNjNjNmU0YTg2YTY2ZmU0NjBlMDcxNpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDLoAgP6AgtOT1JNQUxfRkxPV4oDIDQ3MjYyNWM4YTJhZTQ0NzQ4ODk3MjM5NjE0ZjAyNTk3mgMNCgJ2MhAAGgVvdGhlcqgDL9gDAOoDLmNvbnRlbnRXYXJtdXBUd29Ub3dlclR2cFRleHRCb29zdEV4cFYyUmVjYWxsZXL6A9sBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuwMYhgIiI3YyLWM0MjI2NjY1MDgzZDY3YmVhMzU0MjAwM2Y5YzVhNDEyOi0IAxDxBBjLAiIjdjItMGFlNzYwOWQ4MTg5NjM5MzUwZWJiN2MyODdkZjI0MjE6LQgCELsFGMACIiN2Mi1lMjAyNjk5YzBhNzBhM2EyZjU5NmZlY2UwNTRlZTY0MzotCAIQ6AcY7gMiI3YyLTcyZDIzOTY3ZjBkODQwNzQyMGFjYzVmN2VkMTYwMmI3gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAA36PP4EFAAAAAAAAAACJBV+IkClxVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBTGQBgCgBqgCqAYBkgIuCgk3NDMxMDkxNjkSEzE5NDE1MjIzMjg0MTM1MDQ4NjEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "293_1755822541.870",
+      "type": "feed",
+      "offset": 293,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822541,
+      "updated_time": 1755822541,
+      "target": {
+        "id": "1934520479139492480",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1934520479139492480",
+        "author": {
+          "id": "56585081f0eb2660f774096758c4ded4",
+          "url": "https://api.zhihu.com/people/56585081f0eb2660f774096758c4ded4",
+          "user_type": "people",
+          "url_token": "dcxmn",
+          "name": "砖一块一块搬",
+          "headline": "给自己搬砖，帮别人挖坑~~事后拂衣去，深藏功与名！！",
+          "avatar_url": "https://pic1.zhimg.com/50/345cff902_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "哈尔滨工业大学 控制工程硕士"
+            }
+          ],
+          "followers_count": 1229,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754005623,
+        "updated_time": 1754005623,
+        "voteup_count": 10,
+        "thanks_count": 0,
+        "comment_count": 1,
+        "is_copyable": true,
+        "question": {
+          "id": "452895041",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/452895041",
+          "author": {
+            "id": "23cd15a51a8bc700b191843735d85965",
+            "url": "https://api.zhihu.com/people/23cd15a51a8bc700b191843735d85965",
+            "user_type": "people",
+            "url_token": "ju-zi-wei-de-ke",
+            "name": "执笔顾长安",
+            "headline": "IT从业者",
+            "avatar_url": "https://picx.zhimg.com/50/v2-9c131c3246462d15d37a618dc35019c4_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 1140,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "Linux大神都是怎么记住这么多命令的？",
+          "created": 1617533630,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 25,
+          "bound_topic_ids": [
+            1355,
+            1356,
+            32780
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "欢迎关注我的知乎账号@砖一块一块搬 ，定期发布后端开发、大模型、机器学习 等硬核文章！只需要记住最常见的几十个命令 以及选项就可以了 ，用的多了自然就 记住了~其余的 随时都可以让 man 来帮助我们~下面按照 用途分类 整理了使用频率最高的 50 个命令来帮助大家 理解记忆 ，但是 最重要的还是多敲多用 ！ 在 Linux 系统中，掌握一些常用命令可以极大地提高工作效率，下面是一些最基础且使用最频繁的 Linux 命令。   文件和目录…",
+        "excerpt_new": "欢迎关注我的知乎账号@砖一块一块搬 ，定期发布后端开发、大模型、机器学习 等硬核文章！只需要记住最常见的几十个命令 以及选项就可以了 ，用的多了自然就 记住了~其余的 随时都可以让 man 来帮助我们~下面按照 用途分类 整理了使用频率最高的 50 个命令来帮助大家 理解记忆 ，但是 最重要的还是多敲多用 ！ 在 Linux 系统中，掌握一些常用命令可以极大地提高工作效率，下面是一些最基础且使用最频繁的 Linux 命令。   文件和目录…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"YlFGZo9w\"><b>欢迎关注我的知乎账号</b><a href=\"https://www.zhihu.com/people/56585081f0eb2660f774096758c4ded4\" class=\"internal\" target=\"_blank\">@砖一块一块搬</a>，<b>定期发布后端开发、大模型、机器学习 等硬核文章！</b></p><hr/><p data-pid=\"mI9U03VU\">只需要记住最常见的几十个命令 以及选项就可以了 ，用的多了自然就 记住了~其余的 随时都可以让 man 来帮助我们~下面按照 用途分类 整理了使用频率最高的 50  个命令来帮助大家 理解记忆 ，但是 最重要的还是多敲多用  ！</p><p data-pid=\"BwQB9pkM\">在 Linux 系统中，掌握一些常用命令可以极大地提高工作效率，下面是一些最基础且使用最频繁的 Linux 命令。 </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a8f18683a10f3b2d51b0f70c73b1cbea_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"828\" data-rawheight=\"466\" data-original-token=\"v2-3215355b95e93cd0b9c7e5b20b68657b\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-a9d57b320a11096d206cb4a2ff555a83_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pic1.zhimg.com/v2-a8f18683a10f3b2d51b0f70c73b1cbea_r.jpg\"/></figure><h2>文件和目录操作</h2><ul><li data-pid=\"8WVhHRjJ\">ls：列出目录中的文件和文件夹（类似于 Windows 的 dir）。</li><li data-pid=\"Ve9Eydrq\">pwd：显示当前所在的目录，防止迷路。</li><li data-pid=\"p68Bz2q5\">cd：切换目录，比如 cd /home 进入 /home 目录。</li><li data-pid=\"Iiw43xlM\">mkdir：创建新目录，比如 mkdir myfolder 创建 myfolder 文件夹。</li><li data-pid=\"4f2N7_yK\">mv ：移动或重命名文件，如 mv old.txt new.txt 把 old.txt 改名为 new.txt。</li><li data-pid=\"uejQLbe1\">cp：复制文件，如 cp file1 file2 复制 file1 并命名为 file2。</li><li data-pid=\"uEAI7MiD\">rm：删除文件或目录，如 rm -r folder 递归删除 folder 及其内容。</li><li data-pid=\"IaoklHud\">touch： 创建新文件，如 touch newfile.txt 创建了一个空白文件。</li><li data-pid=\"K7jDfWrF\">ln：创建到其他文件的符号链接（快捷方式），如 ln -s /usr/bin/python mypython。</li><li data-pid=\"N_u3Z_Ma\">clear：清屏，让终端变干净。</li></ul><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e74d54b8b3f0998b89a64446486766c2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1095\" data-rawheight=\"116\" data-original-token=\"v2-e74d54b8b3f0998b89a64446486766c2\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-e74d54b8b3f0998b89a64446486766c2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1095\" data-original=\"https://pic1.zhimg.com/v2-e74d54b8b3f0998b89a64446486766c2_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8b7ccace17786ce646a41b50b55b9318_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"588\" data-rawheight=\"58\" data-original-token=\"v2-8b7ccace17786ce646a41b50b55b9318\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-8b7ccace17786ce646a41b50b55b9318_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"588\" data-original=\"https://pic3.zhimg.com/v2-8b7ccace17786ce646a41b50b55b9318_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-290ba5c9ada378d474715be864e4889c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"392\" data-rawheight=\"153\" data-original-token=\"v2-844a37c89c1331b2d4cc128bddac833d\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-2ae450dc387e7dada9f4191a1b9a6bf6_b.jpg\" class=\"content_image\" width=\"392\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-84ed8f51ce1876e73b8e27243b64378d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"546\" data-rawheight=\"130\" data-original-token=\"v2-e7ecd2ff4d728fd82007055e9e3d5707\" data-default-watermark-src=\"https://pica.zhimg.com/v2-61ad4f1615e477168af173557d5982e4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"546\" data-original=\"https://picx.zhimg.com/v2-84ed8f51ce1876e73b8e27243b64378d_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-7546d4415b18239e3879d5f4537f19c5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"431\" data-rawheight=\"176\" data-original-token=\"v2-7546d4415b18239e3879d5f4537f19c5\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-7546d4415b18239e3879d5f4537f19c5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"431\" data-original=\"https://pic4.zhimg.com/v2-7546d4415b18239e3879d5f4537f19c5_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4a3030938a504d0f8e3b8eed5590d415_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-4a3030938a504d0f8e3b8eed5590d415\" class=\"content_image\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5c2a6310461c43b9566055e494561a38_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"438\" data-rawheight=\"130\" data-original-token=\"v2-187fd22dd1125ebcaa4d8f44354ee416\" data-default-watermark-src=\"https://picx.zhimg.com/v2-a2cb4ed4809f18417154c2d7b32dd201_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"438\" data-original=\"https://pica.zhimg.com/v2-5c2a6310461c43b9566055e494561a38_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1fdf08c19f59f4dc99e222ee1c4a6be8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"127\" data-original-token=\"v2-eb53576ae998a554566abaf188cab83c\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-5dff53de7e3c06ad9956c5970f5b0706_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pica.zhimg.com/v2-1fdf08c19f59f4dc99e222ee1c4a6be8_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ff0cd021f864a28d15875dd63a6ae7a1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"669\" data-rawheight=\"201\" data-original-token=\"v2-b53b835b479c821370697fa603a48c2c\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-35f8e67a92d3b15eac7e9e19e6a5bb60_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"669\" data-original=\"https://pic4.zhimg.com/v2-ff0cd021f864a28d15875dd63a6ae7a1_r.jpg\"/></figure><h2>查看和处理文件</h2><ul><li data-pid=\"i73NygIK\">cat：显示文件内容，如 cat file.txt 查看 file.txt 里的内容。</li><li data-pid=\"BoNzkCqn\">echo：打印文本，如 echo &#34;Hello, Linux!&#34; 会在终端输出 &#34;Hello, Linux!&#34;。</li><li data-pid=\"NBRYBvt1\">less：分页查看文件内容（类似 cat 但可翻页），按 q 退出。</li><li data-pid=\"0Mv8iaGm\">head：查看文件开头部分，如 head -5 file.txt 显示 file.txt 前 5 行。</li><li data-pid=\"xcQAyDuE\">tail：查看文件结尾部分，如 tail -5 file.txt 显示 file.txt 最后 5 行。</li></ul><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-837f3cbf16cd01bb496c8be7e8aa9a02_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"825\" data-rawheight=\"141\" data-original-token=\"v2-e4adbe35a06b0b23f679ee24957e5826\" data-default-watermark-src=\"https://pica.zhimg.com/v2-b582b50a3736dc75190e49dcc5ea0d2c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"825\" data-original=\"https://pica.zhimg.com/v2-837f3cbf16cd01bb496c8be7e8aa9a02_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b213b428984b0352554a0c6a63b612b7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"519\" data-rawheight=\"282\" data-original-token=\"v2-929380071d004683816ad442e931bc62\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-a396d1a0060e52f415df30ce5ebefbcf_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"519\" data-original=\"https://pic4.zhimg.com/v2-b213b428984b0352554a0c6a63b612b7_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8b2c4e87ae83804119cfd9a8a5ca97bc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-8b2c4e87ae83804119cfd9a8a5ca97bc\" class=\"content_image\"/></figure><h2>搜索与比较</h2><ul><li data-pid=\"OiT4K6LL\">grep：在文件中搜索关键字，如 grep &#34;error&#34; logfile.log 在 logfile.log 里找 &#34;error&#34;。</li><li data-pid=\"YA1RG4I-\">diff：比较两个文件的不同之处，如 diff file1 file2。</li><li data-pid=\"KWsxQGr9\">cmp：检查两个文件是否完全一样，如 cmp file1 file2。</li><li data-pid=\"HS8BAzYy\">comm：找出两个文件的相同和不同之处，如 comm file1 file2。</li><li data-pid=\"7s67YEob\">sort：对文件内容进行排序，如 sort names.txt 按字母顺序排列 names.txt 里的名字。</li></ul><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f8d1903cc88c4e68224485240b583b70_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"572\" data-rawheight=\"172\" data-original-token=\"v2-6231c4a59a07a08aa98ce3c8de0edada\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-5b124920a7e2bad4d8c608402c0bcda5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"572\" data-original=\"https://pic3.zhimg.com/v2-f8d1903cc88c4e68224485240b583b70_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5053696dc7082935dd1eaed83dc68559_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"510\" data-rawheight=\"161\" data-original-token=\"v2-d7c0ef3a7dd3ff3b884392b082720255\" data-default-watermark-src=\"https://pica.zhimg.com/v2-78a95b219022befb71a2bb0251079d0e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"510\" data-original=\"https://pic4.zhimg.com/v2-5053696dc7082935dd1eaed83dc68559_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3a2ceea345d8c7b0e6bd699f382b7740_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"495\" data-rawheight=\"80\" data-original-token=\"v2-3a2ceea345d8c7b0e6bd699f382b7740\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-3a2ceea345d8c7b0e6bd699f382b7740_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"495\" data-original=\"https://pic3.zhimg.com/v2-3a2ceea345d8c7b0e6bd699f382b7740_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2aa5516c2db30afab54a27cadaf421a7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"672\" data-rawheight=\"197\" data-original-token=\"v2-178f15309c7bd6a9d933309148a02e1e\" data-default-watermark-src=\"https://picx.zhimg.com/v2-077c9c78c1ab9580ef4d2841869f4f8b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"672\" data-original=\"https://pic4.zhimg.com/v2-2aa5516c2db30afab54a27cadaf421a7_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-483042d86ab9f8fbd1a84bfafcd05409_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"535\" data-rawheight=\"222\" data-original-token=\"v2-72acec86cf34c7a9b0a0b3be2c5e4ae3\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-6c8574163a3cdfd14f3a9e7e24d9171d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"535\" data-original=\"https://pic4.zhimg.com/v2-483042d86ab9f8fbd1a84bfafcd05409_r.jpg\"/></figure><h2>系统管理</h2><ul><li data-pid=\"5X9Xj6b4\">uname：显示系统信息，如 uname -a 查看 Linux 版本、内核等。</li><li data-pid=\"yW1t6Ab3\">whoami：查看当前登录的用户名。</li><li data-pid=\"O5U4OzGZ\">man：查看命令的帮助文档，如 man ls 显示 ls 命令的详细说明。</li><li data-pid=\"b6j6VvZx\">top：实时监控系统进程和资源使用情况（类似 Windows 的任务管理器）。</li><li data-pid=\"ia5sIZgQ\">df：查看磁盘空间使用情况，如 df -h 以人类可读方式显示。</li><li data-pid=\"pXAYid5R\">mount：挂载文件系统，如 mount /dev/sdb1 /mnt 挂载 U 盘。</li></ul><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0735ab020d44b45f8b21f3519f0e944a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"911\" data-rawheight=\"367\" data-original-token=\"v2-ccaf6462ab1155cdf19e93beb50209f7\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-aaa34d3e2c76ff6230c99482fd8c6e37_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"911\" data-original=\"https://pic3.zhimg.com/v2-0735ab020d44b45f8b21f3519f0e944a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-70f89ff7962e54300b4a649da8ebc7d4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"987\" data-rawheight=\"127\" data-original-token=\"v2-70f89ff7962e54300b4a649da8ebc7d4\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-70f89ff7962e54300b4a649da8ebc7d4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"987\" data-original=\"https://pic3.zhimg.com/v2-70f89ff7962e54300b4a649da8ebc7d4_r.jpg\"/></figure><h2>进程与服务管理</h2><ul><li data-pid=\"dbztFXkl\">ps：查看系统正在运行的进程，如 ps aux 列出所有进程。</li><li data-pid=\"KseXn2vI\">kill &amp; killall：终止进程，如 kill 1234 杀掉进程 ID 为 1234 的进程。</li><li data-pid=\"GZHoNU38\">service：管理系统服务，如 service apache2 restart 重新启动 Apache 服务。</li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-fe022bcc7c5d7b1e35a677c71a2d3f85_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"762\" data-rawheight=\"212\" data-original-token=\"v2-aa3221942132611beb02c636ff939dae\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-b8a36d2879f99997c72b002c3c98aa46_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"762\" data-original=\"https://picx.zhimg.com/v2-fe022bcc7c5d7b1e35a677c71a2d3f85_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8f96aa887be15abd626bd3845a63b961_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-8f96aa887be15abd626bd3845a63b961\" class=\"content_image\"/></figure><h2>用户权限管理</h2><ul><li data-pid=\"6XSRBxas\">chmod：修改文件权限，如 chmod 755 script.sh 让 script.sh 可执行。</li><li data-pid=\"sre1K60m\">chown：更改文件所属用户或组，如 chown user:group file.txt。</li><li data-pid=\"79PXZsDV\">passwd：修改用户密码，如 passwd root 修改 root 账户的密码。</li><li data-pid=\"M1PlOfxR\">useradd &amp; usermod：添加或修改用户，如 useradd newuser 创建 newuser 账户。</li></ul><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3e194978f8b58479e9535a65287b8680_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-3e194978f8b58479e9535a65287b8680\" class=\"content_image\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3fc5d1b6c4cfd00ed4fb7bd00ffa2476_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1192\" data-rawheight=\"300\" data-original-token=\"v2-11c519454b1d080f1f338cac570f3708\" data-default-watermark-src=\"https://picx.zhimg.com/v2-837903ac6c5ea4afc71602cf199fe3db_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1192\" data-original=\"https://pic3.zhimg.com/v2-3fc5d1b6c4cfd00ed4fb7bd00ffa2476_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b179b7dd8d052154088f9deb78492bcc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-b179b7dd8d052154088f9deb78492bcc\" class=\"content_image\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-cf52f8194ced138f741671125dd47c85_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1316\" data-rawheight=\"82\" data-original-token=\"v2-cf52f8194ced138f741671125dd47c85\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-cf52f8194ced138f741671125dd47c85_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1316\" data-original=\"https://pic4.zhimg.com/v2-cf52f8194ced138f741671125dd47c85_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-745717c52a458e343d7b3c26f671ba6b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"86\" data-original-token=\"v2-745717c52a458e343d7b3c26f671ba6b\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-745717c52a458e343d7b3c26f671ba6b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic4.zhimg.com/v2-745717c52a458e343d7b3c26f671ba6b_r.jpg\"/></figure><h2>网络相关</h2><ul><li data-pid=\"HZXZI6YJ\">ifconfig：查看或配置 IP 地址，如 ifconfig eth0 显示 eth0 网卡的信息（ip a 也可替代）。</li><li data-pid=\"OWTg-Aiv\">traceroute：跟踪数据包到目标服务器的路径，如 traceroute <a href=\"https://link.zhihu.com/?target=http%3A//google.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">google.com</span><span class=\"invisible\"></span></a>。</li><li data-pid=\"IKaJdqgW\">wget：下载文件，如 wget http://example.com/file.zip。</li><li data-pid=\"kF-uqiM_\">ssh：远程登录服务器，如 ssh user@192.168.1.1 连接远程主机。</li><li data-pid=\"7HAjPQVt\">iptables &amp; ufw：设置防火墙规则，如 ufw allow 22 允许 SSH 端口连接。</li></ul><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2dc041d4cdc972da24ab3f5dfb60fdfb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"753\" data-rawheight=\"206\" data-original-token=\"v2-94254a9ae4886c3b96e6e0d37b87e6c4\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-91d4e71af2c3543e79e0fa108575697f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"753\" data-original=\"https://pic4.zhimg.com/v2-2dc041d4cdc972da24ab3f5dfb60fdfb_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9efc28c029574d143b116825268b24de_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"643\" data-rawheight=\"120\" data-original-token=\"v2-07faa68f11e3451f4a81d9609deeb94a\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-cc945f24adf0ecbbe541fa40b32065a3_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"643\" data-original=\"https://pic3.zhimg.com/v2-9efc28c029574d143b116825268b24de_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d3e8c500ed1b0dc4ccc028522f0fab1b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1516\" data-rawheight=\"92\" data-original-token=\"v2-d3e8c500ed1b0dc4ccc028522f0fab1b\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-d3e8c500ed1b0dc4ccc028522f0fab1b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1516\" data-original=\"https://pic4.zhimg.com/v2-d3e8c500ed1b0dc4ccc028522f0fab1b_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-29aa1855aed27fc80dc17af7953fcdd8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-29aa1855aed27fc80dc17af7953fcdd8\" class=\"content_image\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4834b3935dc1d006ddf0f72bd743f1e8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"105\" data-original-token=\"v2-4834b3935dc1d006ddf0f72bd743f1e8\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-4834b3935dc1d006ddf0f72bd743f1e8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-4834b3935dc1d006ddf0f72bd743f1e8_r.jpg\"/></figure><h2>压缩与解压缩</h2><ul><li data-pid=\"gSvAcSWX\">tar：压缩和解压缩文件，如 tar -cvf archive.tar myfolder/ 将 myfolder 打包成 archive.tar。</li><li data-pid=\"taZiEpaJ\">zip &amp; unzip：创建和解压 ZIP 文件，如 zip archive.zip file1 file2 和 unzip archive.zip。</li></ul><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-24fa3ba5b616d61e16af8b4a19b3f37a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"629\" data-rawheight=\"170\" data-original-token=\"v2-55506f50f35789efd943af20e33bd4c5\" data-default-watermark-src=\"https://pica.zhimg.com/v2-f5a8271fdc864a00e98275a1a3cb7154_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"629\" data-original=\"https://pic3.zhimg.com/v2-24fa3ba5b616d61e16af8b4a19b3f37a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cda54004b12ff29f27ccb8a169a3fe39_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"591\" data-rawheight=\"212\" data-original-token=\"v2-1f242a9fb57b5557fcceaa674d355909\" data-default-watermark-src=\"https://picx.zhimg.com/v2-00bd8d2bf5abc3170ce07510dcb40e47_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"591\" data-original=\"https://picx.zhimg.com/v2-cda54004b12ff29f27ccb8a169a3fe39_r.jpg\"/></figure><h2>软件安装</h2><ul><li data-pid=\"zNZtjHrZ\">apt / yum / pacman / rpm：不同 Linux 发行版的包管理器，如 apt install vim 安装 vim。</li><li data-pid=\"Mpfa9GiT\">sudo：以管理员权限执行命令，如 sudo apt update 更新软件源。</li></ul><h2>其他实用工具</h2><ul><li data-pid=\"2t8K1WW3\">cal：显示日历，如 cal 2025 查看 2025 年的日历。</li><li data-pid=\"4blLFQzD\">alias：创建命令别名，如 alias ll=&#39;ls -lah&#39; 让 ll 变成 ls -lah。</li><li data-pid=\"Lip8CBYl\">dd：制作启动盘或拷贝磁盘内容，如 dd if=ubuntu.iso of=/dev/sdb bs=4M。</li><li data-pid=\"VDVIsuRC\">whereis：查找命令的二进制文件、源码和手册，如 whereis python。</li><li data-pid=\"xGayfqVS\">whatis：查看命令的简要说明，如 whatis ls。</li></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7b366993e02bb4439997241de18e695f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"349\" data-rawheight=\"455\" data-original-token=\"v2-3438148af5136cdf9dbac6492644e185\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-7aa8abc8263a9760db814947591f9d6b_b.jpg\" class=\"content_image\" width=\"349\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-65343b21f28fa1a808273b8f66605201_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1404\" data-rawheight=\"164\" data-original-token=\"v2-65343b21f28fa1a808273b8f66605201\" data-default-watermark-src=\"https://picx.zhimg.com/v2-65343b21f28fa1a808273b8f66605201_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1404\" data-original=\"https://picx.zhimg.com/v2-65343b21f28fa1a808273b8f66605201_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-92d8cdd892a58578aad5a9f48591ec5a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1424\" data-rawheight=\"94\" data-original-token=\"v2-92d8cdd892a58578aad5a9f48591ec5a\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-92d8cdd892a58578aad5a9f48591ec5a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1424\" data-original=\"https://pic1.zhimg.com/v2-92d8cdd892a58578aad5a9f48591ec5a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-eece4b4912dc71cd631b941b48f3dd98_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-eece4b4912dc71cd631b941b48f3dd98\" class=\"content_image\"/></figure><p data-pid=\"LXIb22y4\">建议多在终端中实践，遇到不懂的命令就用 man 或 --help 了解详情！</p><hr/><p data-pid=\"-TRrrGFs\">其它部分硬核技术文章传送门，500篇优质技术文章已整理成专栏在我主页！</p><a href=\"https://zhuanlan.zhihu.com/p/1902633201882609187\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">从 BIOS 到 Stage1：GRUB 如何用 512 字节撬动整个操作系统？</a><a href=\"https://zhuanlan.zhihu.com/p/1900813625893036820\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">Linux signal 那些事儿（四）</a><a href=\"https://zhuanlan.zhihu.com/p/30368500323\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">全网最易懂 | 万字图文一步步带你彻底搞懂C语言的函数调用过程</a><a href=\"https://zhuanlan.zhihu.com/p/1897921235268138207\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">用python搭个web服务器玩玩（三）</a><a href=\"https://zhuanlan.zhihu.com/p/715394073\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">2W字，100张图，100个例子吃透机器学习100个核心概念 ！</a><a href=\"https://zhuanlan.zhihu.com/p/31608501927\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">六十张图带你彻底搞懂Word2vec ！</a><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 670,
+        "favorite_count": 34,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1934520479139492480}",
+      "attached_info": "Cp0UCNCQ4oTC6Y6YtwEQBBoJNzM5ODg4MzkzIPeAsMQGKAowAUClAkpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg2MjkyMjg5NmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MzQ1MjA0NzkxMzk0OTI0ODCKAQk0NTI4OTUwNDGqAQlyZWNvbW1lbmTCASA1NjU4NTA4MWYwZWIyNjYwZjc3NDA5Njc1OGM0ZGVkNPIBCggMEgZOb3JtYWzyASgIChIkNDg0NDYzN2EtZWQzYy00MjU0LTliNDEtNDIyMzZmZmY4ZjA58gEGCAsSAjQ5ggIAiAKVl7f5jDOSAiA1NjU4NTA4MWYwZWIyNjYwZjc3NDA5Njc1OGM0ZGVkNJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDQ3MjYyNWM4YTJhZTQ0NzQ4ODk3MjM5NjE0ZjAyNTk3mgMNCgJ2MhAAGgVvdGhlcqgDngXYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A4sOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQvAYY0gMiI3YyLTMyMTUzNTViOTVlOTNjZDBiOWM3ZTViMjBiNjg2NTdiOiwIAxDHCBh0IiN2Mi1lNzRkNTRiOGIzZjA5OThiODlhNjQ0NDY0ODY3NjZjMjosCAMQzAQYOiIjdjItOGI3Y2NhY2UxNzc4NmNlNjQ2YTQxYjUwYjU1YjkzMTg6LQgCEIgDGJkBIiN2Mi04NDRhMzdjODljMTMzMWIyZDRjYzEyOGJkZGFjODMzZDotCAIQogQYggEiI3YyLWU3ZWNkMmZmNGQ3MjhmZDgyMDA3MDU1ZTllM2Q1NzA3Oi0IAhCvAxiwASIjdjItNzU0NmQ0NDE1YjE4MjM5ZTM4NzlkNWY0NTM3ZjE5YzU6LQgCEKMEGJ0BIiN2Mi00YTMwMzA5MzhhNTA0ZDBmOGUzYjhlZWQ1NTkwZDQxNTotCAIQtgMYggEiI3YyLTE4N2ZkMjJkZDExMjVlYmNhYTRkOGY0NDM1NGVlNDE2OiwIAhC4Axh/IiN2Mi1lYjUzNTc2YWU5OThhNTU0NTY2YWJhZjE4OGNhYjgzYzotCAIQnQUYyQEiI3YyLWI1M2I4MzViNDc5YzgyMTM3MDY5N2ZhNjAzYTQ4YzJjOi0IAhC5BhiNASIjdjItZTRhZGJlMzVhMDZiMGIyM2Y2NzllZTI0OTU3ZTU4MjY6LQgDEIcEGJoCIiN2Mi05MjkzODAwNzFkMDA0NjgzODE2YWQ0NDJlOTMxYmM2MjotCAIQ6gQYnAIiI3YyLThiMmM0ZTg3YWU4MzgwNDExOWNmZDlhOGE1Y2E5N2JjOi0IAhC8BBisASIjdjItNjIzMWM0YTU5YTA3YTA4YWE5OGNlM2M4ZGUwZWRhZGE6LQgCEP4DGKEBIiN2Mi1kN2MwZWYzYTdkZDNmZjNiODg0MzkyYjA4MjcyMDI1NTosCAMQ7wMYUCIjdjItM2EyY2VlYTM0NWQ4YzdiMGU2YmQ2OTlmMzgyYjc3NDA6LQgCEKAFGMUBIiN2Mi0xNzhmMTUzMDljN2JkNmE5ZDkzMzMwOTE0OGEwMmUxZTotCAIQlwQY3gEiI3YyLTcyYWNlYzg2Y2YzNGM3YTliMGEwYjNiZTJjNWU0YWUzOi0IAhCPBxjvAiIjdjItY2NhZjY0NjJhYjExNTVjZGYxOWU5M2JlYjUwMjA5Zjc6LAgCENsHGH8iI3YyLTcwZjg5ZmY3OTYyZTU0MzAwYjRhNjQ5ZGE4ZWJjN2Q0Oi0IAhD6BRjUASIjdjItYWEzMjIxOTQyMTMyNjExYmViMDJjNjM2ZmY5MzlkYWU6LQgCELsHGMMCIiN2Mi04Zjk2YWE4ODdiZTE1YWJkNjI2YmQzODQ1YTYzYjk2MTotCAIQ8AMYnwEiI3YyLTNlMTk0OTc4ZjhiNTg0NzllOTUzNWE2NTI4N2I4NjgwOi0IAhCoCRisAiIjdjItMTFjNTE5NDU0YjFkMDgwZjFmMzM4Y2FjNTcwZjM3MDg6LAgCELwJGFwiI3YyLWIxNzliN2RkOGQwNTIxNTQwODhmOWRlYjc4NDkyYmNjOiwIAhCkChhSIiN2Mi1jZjUyZjgxOTRjZWQxMzhmNzQxNjcxMTI1ZGQ0N2M4NTosCAMQgAoYViIjdjItNzQ1NzE3YzUyYTQ1OGUzNDNkN2IzYzI2ZjY3MWJhNmI6LQgCEPEFGM4BIiN2Mi05NDI1NGE5YWU0ODg2YzNiOTZlNmUwZDM3Yjg3ZTZjNDosCAIQgwUYeCIjdjItMDdmYWE2OGYxMWUzNDUxZjRhODFkOTYwOWRlZWI5NGE6LAgCEOwLGFwiI3YyLWQzZThjNTAwZWQxYjBkYzRjY2MwMjg1MjJmMGZhYjFiOiwIABDKCxhsIiN2Mi0yOWFhMTg1NWFlZDI3ZmM4MGRjMTdhZjc5NTNmY2RkODosCAAQuAgYaSIjdjItNDgzNGIzOTM1ZGMxZDAwNmRkZjBmNzJiZDc0M2YxZTg6LQgAEPUEGKoBIiN2Mi01NTUwNmY1MGYzNTc4OWVmZDk0M2FmMjBlMzNiZDRjNTotCAAQzwQY1AEiI3YyLTFmMjQyYTlmYjU3YjU1NTdmY2NlYWE2NzRkMzU1OTA5Oi0IABDdAhjHAyIjdjItMzQzODE0OGFmNTEzNmNkZjlkYmFjNjQ5MjY0NGUxODU6LQgAEPwKGKQBIiN2Mi02NTM0M2IyMWYyOGZhMWE4MDgyNzNiOGY2NjYwNTIwMTosCAAQkAsYXiIjdjItOTJkOGNkZDg5MmE1ODU3OGFhZDVhOWY0ODU5MWVjNWE6LAgAEKgKGGwiI3YyLWVlY2U0YjQ5MTJkYzcxY2Q2MzFiOTQxYjQ4ZjNkZDk4gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAA9n6bP4EFAAAAAAAAAACJBV+IkClxVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBTGQBgCgBqkCqAYAkgIuCgk3Mzk4ODgzOTMSEzE5MzQ1MjA0NzkxMzk0OTI0ODAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=293&desktop=true&end_offset=297&page_number=50&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=293&desktop=true&end_offset=297&page_number=50&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

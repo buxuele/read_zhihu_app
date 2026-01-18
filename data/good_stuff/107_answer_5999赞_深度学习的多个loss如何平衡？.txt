@@ -1,0 +1,8 @@
+标题: 深度学习的多个loss如何平衡？
+类型: answer
+赞数: 5999
+链接: https://www.zhihu.com/question/375794498/answer/2292320194
+创建时间: 1640866066
+--------------------------------------------------
+
+这也是个困扰了我多年的问题：loss = a * loss1 + b * loss2 + c * loss3 怎么设置 a，b，c？我和几个朋友讨论过，大家经验是 loss 的尺度一般不太影响性能，除非本来主 loss 是 loss1，但是因为 b，c 设置太大了导致其他 loss 变成了主 loss实践上有几个调整方法：手动把所有 loss 放缩到差不多的尺度，设 a = 1，b 和 c 取 10^k，k 选完不管了；如果有两项 loss，可以 loss = a * loss1 + (1 - a) * loss2，通过控制一个超参数 a 调整 loss；我试过的玄学躺平做法 loss = loss1 / loss1.detach() + loss2 / loss2.detach() + loss3 loss3.detach()，分母可能需要加 eps，相当于在每一个 iteration 选定超参数 a, b, c，使得多个 loss 尺度完全一致；进一步更科学一点就 loss = loss1 + loss2 / (loss2 / loss1).detach() + loss3 / (loss3 / loss1).detach()，感觉比 loss 向 1 对齐合理 注意这里被 detach 的东西可以看成常数祥雨大佬曾和我说，loss 就像菲涅尔透镜，纵使你能设计它的含义，也很难设计它的梯度。所以暴力一轮就躺平了。我个人见解，很多 paper 设计一堆 loss 只是为了让核心故事更完整，未必强过调参。新手炼丹经验总结

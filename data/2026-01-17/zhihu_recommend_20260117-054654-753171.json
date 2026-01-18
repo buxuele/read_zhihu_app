@@ -1,0 +1,600 @@
+{
+  "data": [
+    {
+      "id": "108_1768600021.306",
+      "type": "feed",
+      "offset": 108,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600021,
+      "updated_time": 1768600021,
+      "target": {
+        "preview_text": "",
+        "answer_type": "normal",
+        "thanks_count": 3,
+        "is_copyable": true,
+        "preview_type": "default",
+        "voteup_count": 198,
+        "comment_count": 26,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"BeV2oLoU\">1966年，太仓县沙溪公社洪泾大队食堂， 吃饭之前先学习毛主席语录 </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-de60538f869bc3e3e4acdb1d4ed47796_1440w.jpg\" data-rawwidth=\"618\" data-rawheight=\"383\" data-size=\"normal\" data-original-token=\"v2-b3bc18eedc1963a1c5e9466274475e50\" class=\"origin_image zh-lightbox-thumb\" width=\"618\" data-original=\"https://pic1.zhimg.com/v2-de60538f869bc3e3e4acdb1d4ed47796_r.jpg\"/></figure><p></p>",
+        "favorite_count": 19,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1990583919096119493",
+        "created_time": 1767372189,
+        "excerpt": "1966年，太仓县沙溪公社洪泾大队食堂， 吃饭之前先学习毛主席语录",
+        "vote_next_step": "vote",
+        "updated_time": 1767372189,
+        "question": {
+          "id": "315398330",
+          "title": "历史上有哪些非常有趣的故事？",
+          "answer_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "created": 1552227601,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/315398330",
+          "author": {
+            "user_type": "people",
+            "url_token": "shi-xiao-qgya-qwq",
+            "headline": "O_o",
+            "is_org": false,
+            "followers_count": 5,
+            "is_following": false,
+            "id": "91eb413e6b81b25a9d1fc55768d7e1ad",
+            "url": "https://api.zhihu.com/people/91eb413e6b81b25a9d1fc55768d7e1ad",
+            "name": "肥鸡",
+            "avatar_url": "https://pica.zhimg.com/50/v2-2fc8ba7820527f47f01a1d5359fa8f47_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_followed": false
+          },
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            285,
+            1307,
+            5410,
+            6446,
+            37870
+          ]
+        },
+        "excerpt_new": "1966年，太仓县沙溪公社洪泾大队食堂， 吃饭之前先学习毛主席语录",
+        "is_labeled": false,
+        "visited_count": 25787,
+        "id": "1990583919096119493",
+        "type": "answer",
+        "author": {
+          "gender": -1,
+          "followers_count": 23689,
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "cheng-kai-rong",
+          "avatar_url": "https://picx.zhimg.com/50/v2-447698dd4d211c3d26d90061d5dabdb4_l.jpg?source=b6762063",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "汕头大学 文学硕士"
+            }
+          ],
+          "is_following": false,
+          "id": "2ce376f3fabba80f326e8116abcb6dbd",
+          "url": "https://api.zhihu.com/people/2ce376f3fabba80f326e8116abcb6dbd",
+          "name": "时空过敏株",
+          "headline": "历史博主\n今日头条、b站、微博、抖音、视频号：时空过敏株"
+        },
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990583919096119493}",
+      "attached_info": "CqkGCMHjmqLX0oP9iwEQBBoJNzYzNzM5MjA2IJ3r38oGKMYBMBpAbEogChVUU19TT1VSQ0VfVEhFTUVfTUVSR0USATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDMyMzY1MDYxYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5MDU4MzkxOTA5NjExOTQ5M4oBCTMxNTM5ODMzMKoBCXJlY29tbWVuZMIBIDJjZTM3NmYzZmFiYmE4MGYzMjZlODExNmFiY2I2ZGJk8gEKCAwSBk5vcm1hbPIBKAgKEiRkNWRlMTkzZi0xYjU4LTQxMzYtYTM4YS03MzhlYWRlZDg4MzHyAQYICxICMTmCAgCIAt3Umsa8M5ICIDJjZTM3NmYzZmFiYmE4MGYzMjZlODExNmFiY2I2ZGJkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAhVUU19TT1VSQ0VfVEhFTUVfTUVSR0XoAgL6AgtOT1JNQUxfRkxPV4oDIDkwM2IyMjFmM2YyNDQ2ZDhiOWJjZjgzZWZlODg0YjlkmgMNCgJ2MhAAGgVvdGhlcqgDu8kB2AMA6gMbVGhlbWVNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ6gQY/wIiI3YyLWIzYmMxOGVlZGMxOTYzYTFjNWU5NDY2Mjc0NDc1ZTUwgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgUn2kP4EFAAAAAAAAAACJBTG1seU1pLQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBm6oBgGSAi4KCTc2MzczOTIwNhITMTk5MDU4MzkxOTA5NjExOTQ5MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "109_1768600021.182",
+      "type": "feed",
+      "offset": 109,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600021,
+      "updated_time": 1768600021,
+      "target": {
+        "type": "article",
+        "title": "一群乌克兰的顶尖专家，在中国采访镜头前，突然就集体崩溃，哭得像个孩子。",
+        "comment_permission": "all",
+        "voting": 0,
+        "visited_count": 78954,
+        "navigator_vote": false,
+        "is_labeled": false,
+        "url": "https://api.zhihu.com/articles/1990800149493068173",
+        "author": {
+          "followers_count": 678,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/718caea6f48312b77d7b3afcbcb425ff",
+          "user_type": "people",
+          "url_token": "30-42-42-64-69",
+          "headline": "",
+          "gender": 0,
+          "id": "718caea6f48312b77d7b3afcbcb425ff",
+          "name": "云墨简说",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false
+        },
+        "created": 1767423761,
+        "voteup_count": 724,
+        "comment_count": 133,
+        "excerpt": "那个在镜头前突然崩溃的中年男人，名叫瓦列里。 作为前苏联时代黑海造船厂的总装负责人，亦或是后来躲避战火来到中国的航空工程师，他们的泪水里藏着的不是简单的委屈，而是一种关于“工业灵魂”无处安放的剧痛。 人们常以为，拥有顶级技术就能走遍天下。 但这些乌克兰专家用半辈子的颠沛流离，戳破了这个天真的幻想：脱离了强大的国家工业体系，再牛的工程师也只是手里攥着金饭碗的乞丐。 回望上世纪90年代，乌克兰分家时继承了…",
+        "content": "<p data-pid=\"NYgqHElU\">那个在镜头前突然崩溃的中年男人，名叫瓦列里。<br/><br/>作为前苏联时代黑海造船厂的总装负责人，亦或是后来躲避战火来到中国的航空工程师，他们的泪水里藏着的不是简单的委屈，而是一种关于“工业灵魂”无处安放的剧痛。<br/><br/>人们常以为，拥有顶级技术就能走遍天下。<br/><br/>但这些乌克兰专家用半辈子的颠沛流离，戳破了这个天真的幻想：脱离了强大的国家工业体系，再牛的工程师也只是手里攥着金饭碗的乞丐。<br/><br/>回望上世纪90年代，乌克兰分家时继承了数千家军工企业，那曾是苏联30%的军工产能。从安-225的超级发动机到“瓦良格”号航母，全都在他们手里。<br/><br/>但那个庞大的红色帝国解体后的第二天，看似独立的工厂瞬间瘫痪。<br/><br/>厂长马卡罗夫当年那句名言至今震耳欲聋——想要航母完工，仅仅有船厂是不够的，还需要党中央、国家计划委员会、甚至是一个完整的强国，而这一切都没了。<br/><br/>失去体系支撑有多惨？<br/><br/>瓦列里曾拿着每个月800卢布的高薪，指挥千军万马搞总装；转眼间，工资暴跌到连买面粉都要排队，甚至为了给女儿治病，不得不在曾经造航母的车间里偷偷切割废钢去卖。<br/><br/>这不仅是贫穷，这是对职业尊严的凌迟。<br/><br/>而更残酷的是西方所谓的“援助”。美国人当年搞“安全备忘录”忽悠乌克兰销毁了图-160轰炸机，或者像挖矿一样，以极低的月薪把马达西奇的设计师挖走，却只让他们去搞民用改装，哪怕是顶尖人才，到了缺乏完整产业链的西方，也往往成了被雪藏的“多余零件”。<br/><br/>这和二战后美苏抢夺德国专家的逻辑截然不同——那时候是连人带图纸带体系地搬运，而如今西方只想打断乌克兰的工业脊梁。<br/><br/>当2022年的战火再次烧毁了实验室，材料专家伊琳娜抱着核心图纸辗转三个国家却无人收留时，她才明白其中的冷暖：别人只想“摘果子”，只有中国愿意不仅移植这棵树，还把树下的土一并运走。<br/><br/>中国承接这批“工业遗珠”的逻辑，极其精准且富有人情味。这不是简单的“买猪仔”，而是成建制的“移栽”。<br/><br/>在重庆，中方专门为D-18T发动机团队建立了配套的材料实验室和试车台；在江苏的产业园，不仅有顶级的研究设备，还有专门为专家子女开设的双语学校。<br/><br/>对于像奥列格这样的电力专家来说，前一刻还在基辅零下20度的寒夜里徒手抢修被炸毁的电网，眼看邻居老人冻僵而无能为力；下一刻却能在中国有着暖气的智能电网实验室里，结合特高压技术做创新。<br/><br/>这种从“生存”到“生活”，从“修理工”回归“科学家”的落差，才是击穿他们心理防线的最后一根稻草。<br/><br/>事实证明，这不仅是人道主义的救援，更是工业文明的“代际传承”。这一大批技术专家并没有像在西方那样沉寂，反而在中国的新平台上爆发了惊人的第二春。<br/><br/>瓦列里参与的C919发动机国产化项目，直接将国产率拉升了20个百分点；那些原本用于哈尔科夫坦克的复合装甲技术，如今让99A主战坦克的防护力跃升了一个台阶。<br/><br/>正如瓦列里擦干眼泪后所说，在这里他不用担心图纸被炮火烧毁，也不用把造航母的手艺用来锯废铁。<br/><br/>他再次拥有了安稳的饭桌，而更重要的是，他脚下踩着一个正在上升期、愿意为基础研发砸下重金、并且拥有全球最全工业门类的庞大国家。<br/><br/>专家的眼泪，不仅是对往昔荣光的追忆，更是对“和平”与“国运”最深刻的注脚。<br/><br/>在这个动荡的世界里，只有强大的国家才能安放一张安静的书桌，也只有完整的工业体系，才能让那一张张冰冷的图纸，变成守护生命的重器。<br/><br/>信息来源：悲凉、无奈，曾花200亿为中国航空引进发动机的他，成了失信人<br/>华商韬略 2022-06-02 16:33<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e5082da5e64f3f5e40fbdabc22da47de_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"628\" data-rawheight=\"419\" data-original-token=\"v2-dd533b7a349b0ec9a87ba5f49f487ffa\" class=\"origin_image zh-lightbox-thumb\" width=\"628\" data-original=\"https://pic1.zhimg.com/v2-e5082da5e64f3f5e40fbdabc22da47de_r.jpg\"/></figure>",
+        "allow_segment_interaction": true,
+        "excerpt_new": "那个在镜头前突然崩溃的中年男人，名叫瓦列里。 作为前苏联时代黑海造船厂的总装负责人，亦或是后来躲避战火来到中国的航空工程师，他们的泪水里藏着的不是简单的委屈，而是一种关于“工业灵魂”无处安放的剧痛。 人们常以为，拥有顶级技术就能走遍天下。 但这些乌克兰专家用半辈子的颠沛流离，戳破了这个天真的幻想：脱离了强大的国家工业体系，再牛的工程师也只是手里攥着金饭碗的乞丐。 回望上世纪90年代，乌克兰分家时继承了…",
+        "preview_type": "default",
+        "article_type": "normal",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "id": "1990800149493068173",
+        "updated": 1767423761,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_text": "",
+        "favorite_count": 138
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1990800149493068173}",
+      "attached_info": "CqMGCMHjmqLX0oP9iwEQBxoJMjY4NTA1NDgxIJH+4soGKNQFMIUBQG1KPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AGIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTA4MDAxNDk0OTMwNjgxNzOqAQlyZWNvbW1lbmTCASA3MThjYWVhNmY0ODMxMmI3N2Q3YjNhZmNiY2I0MjVmZvIBCggMEgZOb3JtYWzyASgIChIkZTA1NjhkZDctZDhiZS00MWZmLWE4YzUtOTEwNDVkNzA3YTEw8gEGCAsSAjE5ggIAiALd1JrGvDOSAiA3MThjYWVhNmY0ODMxMmI3N2Q3YjNhZmNiY2I0MjVmZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTegCAvoCC05PUk1BTF9GTE9XigMgOTAzYjIyMWYzZjI0NDZkOGI5YmNmODNlZmU4ODRiOWSaAw0KAnYyEAAaBW90aGVyqAPq6ATYAwDqAxBuZXdiaWVfZmVlZHJlX3Yy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAUQ9AQYowMiI3YyLWRkNTMzYjdhMzQ5YjBlYzlhODdiYTVmNDlmNDg3ZmZhgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgNR2jP4EFAAAAAAAAAACJBTG1seU1pLQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBm+oBgOSAi4KCTI2ODUwNTQ4MRITMTk5MDgwMDE0OTQ5MzA2ODE3MxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "110_1768600021.955",
+      "type": "feed",
+      "offset": 110,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600021,
+      "updated_time": 1768600021,
+      "target": {
+        "favorite_count": 1470,
+        "updated_time": 1743047450,
+        "voteup_count": 26763,
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "type": "answer",
+        "visited_count": 908664,
+        "allow_segment_interaction": true,
+        "is_navigator": false,
+        "created_time": 1743047450,
+        "question": {
+          "answer_count": 0,
+          "bound_topic_ids": [
+            307,
+            1576,
+            3946,
+            16208
+          ],
+          "question_type": "normal",
+          "title": "你最欣赏的性格是什么样的？",
+          "created": 1520132125,
+          "comment_count": 68,
+          "excerpt": "",
+          "type": "question",
+          "author": {
+            "is_following": false,
+            "id": "",
+            "url": "",
+            "url_token": "",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_followed": false,
+            "user_type": "people",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063"
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "id": "268163243",
+          "follower_count": 0,
+          "is_following": false,
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/268163243"
+        },
+        "excerpt_new": "同学开出租，一个雨天他把一个女人载到美容中心。他说，18。女人扫码付了10块。他指着计价器说，18。女人说，我平时打车都是10块。他说，你是拼的黑车吧。女人说，一样的，我只给10块，不能比平时多花。 他一脚油门窜了出去。 女人说，停车，停车，我都到了。 他说，坐稳了，最好系上安全带。 女人说，你干嘛，疯了吗？ 他风驰电掣一般，把车开回了女人上车的地方。 他从扶手盒里拿出10块钱，递给女人说，下车吧。 女人说，怎么…",
+        "preview_type": "default",
+        "preview_text": "",
+        "comment_count": 858,
+        "is_copyable": true,
+        "content": "<p data-pid=\"LYUdcEsz\">同学开出租，一个雨天他把一个女人载到美容中心。他说，18。女人扫码付了10块。他指着计价器说，18。女人说，我平时打车都是10块。他说，你是拼的黑车吧。女人说，一样的，我只给10块，不能比平时多花。</p><p data-pid=\"99g1-ftL\">他一脚油门窜了出去。</p><p data-pid=\"biiGL357\">女人说，停车，停车，我都到了。</p><p data-pid=\"--U-SPMS\">他说，坐稳了，最好系上安全带。</p><p data-pid=\"_DFKkgSb\">女人说，你干嘛，疯了吗？</p><p data-pid=\"hD1janZT\">他风驰电掣一般，把车开回了女人上车的地方。</p><p data-pid=\"U4bfIIXO\">他从扶手盒里拿出10块钱，递给女人说，下车吧。</p><p data-pid=\"fr8FtlPI\">女人说，怎么把我拉回来了？</p><p data-pid=\"aEdjwFUX\">他说，你去坐10块钱的车吧。</p><p data-pid=\"wjR6bZQh\">女人说，不行，我不下车。</p><p data-pid=\"cW7hU7c2\">他说，我要回家睡觉，你也跟着去吗？</p><p data-pid=\"cuLDuJzp\">女人愤愤地下车，喊了句，有病，又重重地摔上车门。</p><p data-pid=\"02EYlirc\">他吹着口哨去找下一单。</p><p data-pid=\"ZFU7ZXq8\">他跟我说这件事儿的时候，洋洋得意。</p><p data-pid=\"qbdqdKFl\">我说，你是不是傻？都跑到地方了，收10块就挣10块，你返回去，一分钱挣不到，白跑两趟。</p><p data-pid=\"7lTdBXLY\">他说，这是原则问题，不能惯她臭毛病。</p><p data-pid=\"1nLENbYk\">过了段时间，我坐他车从高铁站回县城，走到一个镇上时，一个老太太窜到车前，拦停了车。</p><p data-pid=\"dvUZrPqb\">他从扶手盒里拿出两块钱递给我说，给她。</p><p data-pid=\"snvHY-1u\">我落下车窗，把两块钱递出去。</p><p data-pid=\"wGlQZdxh\">老太太说，我不是要钱，我要坐车。</p><p data-pid=\"hYOcDShi\">我说，今天不拉客，办私事。</p><p data-pid=\"OCTBIthz\">老太太说，我去医院看个病人，去晚了就见不着了，我给钱。</p><p data-pid=\"kjzcHrfc\">我看向同学。</p><p data-pid=\"w-dfljtU\">他说，上来吧。</p><p data-pid=\"jWv0s-K4\">老太太坐到了后座。</p><p data-pid=\"PD-4TOvs\">一路畅通到了医院门口。</p><p data-pid=\"bDgwcfYf\">他说，老太太，这段路平时打表得八九十，我今天车上有人，就不按打表算了，你给我30吧。</p><p data-pid=\"NEAJ7Ka7\">老太太掏了两个裤兜还是两手空空，嘴里唠叨着，我的钱呢，我的钱呢。</p><p data-pid=\"B92P4Wl7\">他说，你先去看病人吧，下次坐车再给。</p><p data-pid=\"0xpP2sFI\">老太太说，下次哪就那么赶巧碰到你了？</p><p data-pid=\"OUdQu57L\">他递给老太太一张卡片说，这是我电话，以后坐车打电话。</p><p data-pid=\"ams9vpFH\">老太太说，这样行，这样行。</p><p data-pid=\"1korjOF5\">老太太下了车，卖力地往医院走，看得出着急，但也确实走不快。</p><p data-pid=\"kMpNuojZ\">我跟他说，你就不怕她以后也不找你了。</p><p data-pid=\"rX3mykaI\">他说，死是人生大事，能见最后一面，人生没有遗憾。几十块钱，微不足道。</p><p data-pid=\"hDKoYQtX\">我说，你这次不讲原则了？</p><p data-pid=\"fvjBxkhl\">他说，讲啊，我的原则是，帮助真正有困难的人，不让无耻的人占一点便宜。</p>",
+        "author": {
+          "followers_count": 15121,
+          "url_token": "yang-pei-liang-30",
+          "gender": -1,
+          "user_type": "people",
+          "name": "杨絮pro",
+          "headline": "上班开会喝茶，下班修心鸡娃。畅聊职场智慧，闲谈市井八卦。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-4954e62f9cc4c4efd45d16661d6e9b62_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "id": "79942bf938ce982893bd24143a2d2cc1",
+          "url": "https://api.zhihu.com/people/79942bf938ce982893bd24143a2d2cc1",
+          "is_followed": false
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "7lTdBXLY",
+            "text": "他说，这是原则问题，不能惯她臭毛病。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992346343117722835"
+                  ],
+                  "is_like": false,
+                  "like_count": 104,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "rX3mykaI",
+            "text": "他说，死是人生大事，能见最后一面，人生没有遗憾。几十块钱，微不足道。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987148915011773679"
+                  ],
+                  "is_like": false,
+                  "like_count": 30,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "fvjBxkhl",
+            "text": "他说，讲啊，我的原则是，帮助真正有困难的人，不让无耻的人占一点便宜。",
+            "marks": [
+              {
+                "start_index": 5,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993283987368600935"
+                  ],
+                  "is_like": false,
+                  "like_count": 221,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "thanks_count": 798,
+        "excerpt": "同学开出租，一个雨天他把一个女人载到美容中心。他说，18。女人扫码付了10块。他指着计价器说，18。女人说，我平时打车都是10块。他说，你是拼的黑车吧。女人说，一样的，我只给10块，不能比平时多花。 他一脚油门窜了出去。 女人说，停车，停车，我都到了。 他说，坐稳了，最好系上安全带。 女人说，你干嘛，疯了吗？ 他风驰电掣一般，把车开回了女人上车的地方。 他从扶手盒里拿出10块钱，递给女人说，下车吧。 女人说，怎么…",
+        "vote_next_step": "vote",
+        "id": "1888558569940553938",
+        "url": "https://api.zhihu.com/answers/1888558569940553938",
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1888558569940553938}",
+      "attached_info": "CuIGCMHjmqLX0oP9iwEQBBoJNzIwMDYxMTY5IJqWk78GKIvRATDaBkBuSj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDIxNjk4NTk1YiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTg4ODU1ODU2OTk0MDU1MzkzOIoBCTI2ODE2MzI0M6oBCXJlY29tbWVuZMIBIDc5OTQyYmY5MzhjZTk4Mjg5M2JkMjQxNDNhMmQyY2Mx8gEKCAwSBk5vcm1hbPIBKAgKEiQ4YjFjNGYwNC1mOWQxLTRlOWQtYTJjZi0zN2ZkNDJhMjUxOWTyAQYICxICMTmCAgCIAt3Umsa8M5ICIDc5OTQyYmY5MzhjZTk4Mjg5M2JkMjQxNDNhMmQyY2MxmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU3oAgL6AgtOT1JNQUxfRkxPV4oDIDkwM2IyMjFmM2YyNDQ2ZDhiOWJjZjgzZWZlODg0YjlkmgMNCgJ2MhAAGgVvdGhlcqgD+Lo32AMA6gMQbmV3YmllX2ZlZWRyZV92MvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTYwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgWv+2P4EFAAAAAAAAAACJBTG1seU1pLQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBnCoBgCSAi4KCTcyMDA2MTE2ORITMTg4ODU1ODU2OTk0MDU1MzkzOBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "111_1768600021.285",
+      "type": "feed",
+      "offset": 111,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600021,
+      "updated_time": 1768600021,
+      "target": {
+        "type": "answer",
+        "voteup_count": 1158,
+        "question": {
+          "follower_count": 0,
+          "comment_count": 18,
+          "relationship": {
+            "is_author": false
+          },
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "author": {
+            "headline": "",
+            "is_org": false,
+            "url_token": "zhao-feng-42-10",
+            "url": "https://api.zhihu.com/people/ebb7e7f4e1d2f91ad94b16eff318a976",
+            "user_type": "people",
+            "name": "厦门大吃",
+            "avatar_url": "https://pica.zhimg.com/50/v2-357146e7dfff84469e581ee261896fd3_l.jpg?source=b6762063",
+            "gender": 1,
+            "followers_count": 29,
+            "is_following": false,
+            "id": "ebb7e7f4e1d2f91ad94b16eff318a976",
+            "is_followed": false
+          },
+          "title": "现在的日本也有斩杀线吗？",
+          "created": 1766557946,
+          "answer_count": 0,
+          "is_following": false,
+          "id": "1987168737229551408",
+          "url": "https://api.zhihu.com/questions/1987168737229551408"
+        },
+        "excerpt": "看到美国那个问题后，我就知道迟早会有这个问题出现 其实日本政府真的非常希望真有这样一个斩杀线能定时清理掉那些老头 这些老头动不动就活个80 90岁，光是养老金就是一大笔财政负担 而且因为日本叫救护车免费，这些老头有个什么感冒发烧动不动就叫救护车，在日本生活过的人应该都体会过街道上天天都在响的救护车声音 同时，因为日本的医疗保险制度，你自己只付医疗费的3成，如果这3成的费用也超过一定的上限，那超过的部分也是…",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "author": {
+          "url": "https://api.zhihu.com/people/bc2768fb11c457ccaba23ac371327971",
+          "headline": "",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "gender": -1,
+          "followers_count": 185,
+          "id": "bc2768fb11c457ccaba23ac371327971",
+          "user_type": "people",
+          "url_token": "asuka-7-39",
+          "name": "Asuka",
+          "avatar_url": "https://pica.zhimg.com/50/v2-19f540afe09226afec5373becdc9a4a3_l.jpg?source=b6762063"
+        },
+        "created_time": 1767031302,
+        "comment_count": 73,
+        "preview_text": "",
+        "content": "<p data-pid=\"Pba_U_ZV\">看到美国那个问题后，我就知道迟早会有这个问题出现</p><p data-pid=\"0sEj5JWv\">其实日本政府真的非常希望真有这样一个斩杀线能定时清理掉那些老头</p><p data-pid=\"VvFiE6bU\">这些老头动不动就活个80 90岁，光是养老金就是一大笔财政负担</p><p data-pid=\"enngY86d\">而且因为日本叫救护车免费，这些老头有个什么感冒发烧动不动就叫救护车，在日本生活过的人应该都体会过街道上天天都在响的救护车声音</p><p data-pid=\"CpeG4S97\">同时，因为日本的医疗保险制度，你自己只付医疗费的3成，如果这3成的费用也超过一定的上限，那超过的部分也是由政府支付</p><p data-pid=\"yZiv56d5\">这就导致很多得了大病，慢性病的老头不会因为看不起病喝农药自杀，就占着大量医疗资源赖着不死。甚至很多老头身体好的80 90岁还能工作</p><p data-pid=\"KXkCVVF8\">日本的经济一直没有起色，很大一部分原因就是这些老头即不肯花钱消费，又不从事什么劳动，还要占着大量医疗财政。麻生太郎就在电视上公开讲过，希望老人早点去死。</p><p></p>",
+        "visited_count": 71427,
+        "allow_segment_interaction": true,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "id": "1989154136277669099",
+        "url": "https://api.zhihu.com/answers/1989154136277669099",
+        "updated_time": 1767031302,
+        "thanks_count": 16,
+        "is_copyable": true,
+        "excerpt_new": "看到美国那个问题后，我就知道迟早会有这个问题出现 其实日本政府真的非常希望真有这样一个斩杀线能定时清理掉那些老头 这些老头动不动就活个80 90岁，光是养老金就是一大笔财政负担 而且因为日本叫救护车免费，这些老头有个什么感冒发烧动不动就叫救护车，在日本生活过的人应该都体会过街道上天天都在响的救护车声音 同时，因为日本的医疗保险制度，你自己只付医疗费的3成，如果这3成的费用也超过一定的上限，那超过的部分也是…",
+        "favorite_count": 160,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989154136277669099}",
+      "attached_info": "Ct8FCMHjmqLX0oP9iwEQBBoJNzYzMjM3MzY4IIaEy8oGKIYJMElAb0ogChVUU19TT1VSQ0VfVEhFTUVfTUVSR0USATAYACAAOgBaCTExNzgyNjkyMWIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5ODkxNTQxMzYyNzc2NjkwOTmKARMxOTg3MTY4NzM3MjI5NTUxNDA4qgEJcmVjb21tZW5kwgEgYmMyNzY4ZmIxMWM0NTdjY2FiYTIzYWMzNzEzMjc5NzHyAQoIDBIGTm9ybWFs8gEoCAoSJGM3NDY5YmJhLTRkYmUtNGUxMi05ZjZhLTM4ZmY0MDhjOGQ2MfIBBggLEgIxOYICAIgC3dSaxrwzkgIgYmMyNzY4ZmIxMWM0NTdjY2FiYTIzYWMzNzEzMjc5NzGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAhVUU19TT1VSQ0VfVEhFTUVfTUVSR0XoAgL6AgtOT1JNQUxfRkxPV4oDIDkwM2IyMjFmM2YyNDQ2ZDhiOWJjZjgzZWZlODg0YjlkmgMNCgJ2MhAAGgVvdGhlcqgDg64E2AMA6gMbVGhlbWVNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwN9soj+BBQAAAAAAAAAAiQUxtbHlNaS0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZxqAYAkgIuCgk3NjMyMzczNjgSEzE5ODkxNTQxMzYyNzc2NjkwOTkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "112_1768600021.238",
+      "type": "feed",
+      "offset": 112,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600021,
+      "updated_time": 1768600021,
+      "target": {
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "updated": 1768527978,
+        "image_url": "https://picx.zhimg.com/v2-6a6be1b6495cad7bbbeeb7e22d1c5e77.jpg?source=7e7ef6e2&needBackground=1",
+        "preview_text": "",
+        "content": "<p data-pid=\"u8Fic1Ef\">在AI时代，我们常常听到“AI素养”这个词，但很多人可能并不清楚它到底意味着什么。最近，我深入研究了这个话题，并总结出四个核心能力，帮助大家从一个简单的AI使用者进化为真正的AI协作者。</p>\n<p data-pid=\"3GKBGVZs\">首先，我们要具备问题拆解能力。这不仅仅是将模糊的需求转化为清晰可执行的指令，更重要的是懂得如何把复杂的任务分解成AI能够理解的步骤。我们需要明确哪些部分应该交给AI处理，哪些则必须自己思考和决策。这种能力让我们能够在与AI的合作中更加高效地完成工作。</p>\n<p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"636\" data-rawwidth=\"848\" data-size=\"normal\" src=\"https://pic4.zhimg.com/v2-a5dbf6c529d3c3e39b72378d95b72b3d_1440w.jpg\" data-original-token=\"v2-a5dbf6c529d3c3e39b72378d95b72b3d\" class=\"origin_image zh-lightbox-thumb\" width=\"848\" data-original=\"https://pic4.zhimg.com/v2-a5dbf6c529d3c3e39b72378d95b72b3d_r.jpg\"/></figure></p>\n<p data-pid=\"Q9GAOtFS\">接下来是迭代优化思维。不要期待AI一次性就能给出完美答案。相反，我们应该学会通过追问和补充信息来引导AI不断改进。把AI当作我们的思考伙伴，而不是单纯的“答案机器”。这样，我们可以逐步完善解决方案，达到最佳效果。</p>\n<p data-pid=\"V1a6WSfw\">最后，工具组合能力也是不可或缺的。了解不同AI工具的长处和短板，比如ChatGPT擅长文字处理，Midjourney能画图，Claude能编码等。通过串联不同的AI工具，搭建AI工具链，可以显著提升我们的日常工作效率。</p>\n<p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"636\" data-rawwidth=\"848\" data-size=\"normal\" src=\"https://pic4.zhimg.com/v2-3d88c768b4964f3f4b50691a8b592d51_1440w.jpg\" data-original-token=\"v2-3d88c768b4964f3f4b50691a8b592d51\" class=\"origin_image zh-lightbox-thumb\" width=\"848\" data-original=\"https://pic4.zhimg.com/v2-3d88c768b4964f3f4b50691a8b592d51_r.jpg\"/></figure></p>\n<p data-pid=\"AAU4DO6y\">从知道到做到，AI素养不是一朝一夕养成的。我们需要把它当成需要磨合的工作伙伴，不断地实践和调整。只有这样，我们才能真正掌握AI时代的竞争力，成为未来的赢家。</p>",
+        "id": "1995431648716666588",
+        "favorite_count": 0,
+        "is_navigator": false,
+        "created": 1768527978,
+        "voteup_count": 0,
+        "voting": 0,
+        "article_type": "normal",
+        "navigator_vote": false,
+        "excerpt": "在AI时代，我们常常听到“AI素养”这个词，但很多人可能并不清楚它到底意味着什么。最近，我深入研究了这个话题，并总结出四个核心能力，帮助大家从一个简单的AI使用者进化为真正的AI协作者。 首先，我们要具备问题拆解能力。这不仅仅是将模糊的需求转化为清晰可执行的指令，更重要的是懂得如何把复杂的任务分解成AI能够理解的步骤。我们需要明确哪些部分应该交给AI处理，哪些则必须自己思考和决策。这种能力让我们能够在与AI的…",
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/articles/1995431648716666588",
+        "title": "AI时代的核心竞争力",
+        "comment_permission": "all",
+        "comment_count": 0,
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-6a6be1b6495cad7bbbeeb7e22d1c5e77.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-6a6be1b6495cad7bbbeeb7e22d1c5e77_720w.jpg?source=b6762063"
+        ],
+        "visited_count": 5,
+        "excerpt_new": "在AI时代，我们常常听到“AI素养”这个词，但很多人可能并不清楚它到底意味着什么。最近，我深入研究了这个话题，并总结出四个核心能力，帮助大家从一个简单的AI使用者进化为真正的AI协作者。 首先，我们要具备问题拆解能力。这不仅仅是将模糊的需求转化为清晰可执行的指令，更重要的是懂得如何把复杂的任务分解成AI能够理解的步骤。我们需要明确哪些部分应该交给AI处理，哪些则必须自己思考和决策。这种能力让我们能够在与AI的…",
+        "type": "article",
+        "author": {
+          "user_type": "people",
+          "name": "维克托",
+          "avatar_url": "https://picx.zhimg.com/50/v2-fdf6c10fc199deb41566a6cdfb9beaac_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 9,
+          "is_following": false,
+          "id": "f2bcec19910706c6f07323107bf1be20",
+          "url": "https://api.zhihu.com/people/f2bcec19910706c6f07323107bf1be20",
+          "url_token": "--43-47-88-14",
+          "headline": "2G项目经理",
+          "is_followed": false
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995431648716666588}",
+      "attached_info": "Cr4HCMHjmqLX0oP9iwEQBxoJMjY5MDk2MDU5IOqwpssGKAAwAEBwSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1NDMxNjQ4NzE2NjY2NTg4ggFfaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi02YTZiZTFiNjQ5NWNhZDdiYmJlZWI3ZTIyZDFjNWU3Ny5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASBmMmJjZWMxOTkxMDcwNmM2ZjA3MzIzMTA3YmYxYmUyMPIBCggMEgZOb3JtYWzyASgIChIkOGM2NzVhNmYtYjQ3ZC00YzA5LWJmZDQtZGM4MzhlY2QzOWY38gEGCAsSAjE5ggIAiALe1JrGvDOSAiBmMmJjZWMxOTkxMDcwNmM2ZjA3MzIzMTA3YmYxYmUyMJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AIC+gILTk9STUFMX0ZMT1eKAyA5MDNiMjIxZjNmMjQ0NmQ4YjliY2Y4M2VmZTg4NGI5ZJoDDQoCdjIQABoFb3RoZXKoAwXYAwDqAyJ0ZXh0XzEyaG91cl91bmlmaW5zaGVkX3JlY2FsbGVyX3Yy+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCENAGGPwEIiN2Mi1hNWRiZjZjNTI5ZDNjM2UzOWI3MjM3OGQ5NWI3MmIzZDotCAIQ0AYY/AQiI3YyLTNkODhjNzY4YjQ5NjRmM2Y0YjUwNjkxYThiNTkyZDUxOi0IAhCgCxiqBiIjdjItNmE2YmUxYjY0OTVjYWQ3YmJiZWViN2UyMmQxYzVlNzeABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGDRR3M/gQUAAAAAAAAAAIkFMbWx5TWktD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFE5AGAKAGcqgGAZICLgoJMjY5MDk2MDU5EhMxOTk1NDMxNjQ4NzE2NjY2NTg4GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "113_1768600021.88",
+      "type": "feed",
+      "offset": 113,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600021,
+      "updated_time": 1768600021,
+      "target": {
+        "excerpt": "别扯什么“走不出中国”，先问问在自家地盘上，剥离了“国货滤镜”和“情怀税”，有几个能跟埃塞俄比亚、哥伦比亚正面对打的？ 承认吧，云南咖啡目前的尴尬现状就是：一流的价格，二流的品质，三流的品种。 1. 基因里就带着“廉价”的原罪。 大面积种植的卡蒂姆（Catimor），当初是为了抗锈病、保产量引进的，天生就不是为了好喝，是为了给速溶咖啡做原料的。想拿这种带有“魔鬼尾韵”的品种去跟国际上的铁皮卡、波旁拼风味？这…",
+        "preview_type": "default",
+        "vote_next_step": "vote",
+        "is_copyable": false,
+        "excerpt_new": "别扯什么“走不出中国”，先问问在自家地盘上，剥离了“国货滤镜”和“情怀税”，有几个能跟埃塞俄比亚、哥伦比亚正面对打的？ 承认吧，云南咖啡目前的尴尬现状就是：一流的价格，二流的品质，三流的品种。 1. 基因里就带着“廉价”的原罪。 大面积种植的卡蒂姆（Catimor），当初是为了抗锈病、保产量引进的，天生就不是为了好喝，是为了给速溶咖啡做原料的。想拿这种带有“魔鬼尾韵”的品种去跟国际上的铁皮卡、波旁拼风味？这…",
+        "favorite_count": 192,
+        "voteup_count": 1343,
+        "thanks_count": 21,
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "id": "1975142474633733395",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1975142474633733395",
+        "content": "<p data-pid=\"3LFhoSf0\">别扯什么“走不出中国”，先问问在自家地盘上，剥离了“国货滤镜”和“情怀税”，有几个能跟埃塞俄比亚、哥伦比亚正面对打的？</p><p data-pid=\"0LTILZ92\">承认吧，云南咖啡目前的尴尬现状就是：一流的价格，二流的品质，三流的品种。</p><p data-pid=\"Xi69ycqz\">1. 基因里就带着“廉价”的原罪。</p><p data-pid=\"pMEkcxIq\">大面积种植的卡蒂姆（Catimor），当初是为了抗锈病、保产量引进的，天生就不是为了好喝，是为了给速溶咖啡做原料的。想拿这种带有“魔鬼尾韵”的品种去跟国际上的铁皮卡、波旁拼风味？这就像开着拖拉机去跑F1，你技术再好，底盘也是输的。</p><p data-pid=\"Qza7wh_H\">2. 只会讲故事，不会做标准。</p><p data-pid=\"dmz3Z32E\">国际买家要的是什么？是极度的稳定。云南咖啡呢？这一批好喝，下一批可能就发酵过度；这家处理得好，隔壁就敢乱搞。整个产业链还停留在小农经济的“盲盒”阶段，工业化标准烂得一塌糊涂。</p><p data-pid=\"-0AsKeEC\">3. 自己人坑自己人。</p><p data-pid=\"qoK7Qu_e\">稍微出点好豆子，价格就被炒得比瑰夏还离谱。同样的预算，消费者能买到顶级的水洗耶加雪菲，为什么要买你一支味道平平的云南豆？靠“爱国”卖咖啡是走不远的，口腔和钱包才是最诚实的。</p><p data-pid=\"aMoi4unt\">什么时候云南咖啡不再把“国产之光”当遮羞布，而是敢把产地标遮住去盲测还不输给非洲豆，那时候再谈“走出去”吧。</p>",
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "dmz3Z32E",
+            "text": "国际买家要的是什么？是极度的稳定。云南咖啡呢？这一批好喝，下一批可能就发酵过度；这家处理得好，隔壁就敢乱搞。整个产业链还停留在小农经济的“盲盒”阶段，工业化标准烂得一塌糊涂。",
+            "marks": [
+              {
+                "start_index": 54,
+                "end_index": 87,
+                "seg_info": {
+                  "seg_ids": [
+                    "1977158473528668183"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "aMoi4unt",
+            "text": "什么时候云南咖啡不再把“国产之光”当遮羞布，而是敢把产地标遮住去盲测还不输给非洲豆，那时候再谈“走出去”吧。",
+            "marks": [
+              {
+                "start_index": 12,
+                "end_index": 22,
+                "seg_info": {
+                  "seg_ids": [
+                    "1977158368318752485"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 963,
+          "is_following": false,
+          "user_type": "people",
+          "url": "https://api.zhihu.com/people/818f0ef161c9ed246c51c4a00c06177c",
+          "url_token": "ewkee",
+          "name": "老尽",
+          "headline": "有5个孩子",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_followed": false,
+          "id": "818f0ef161c9ed246c51c4a00c06177c"
+        },
+        "created_time": 1763690662,
+        "comment_count": 152,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "updated_time": 1763690662,
+        "question": {
+          "created": 1556124806,
+          "comment_count": 25,
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/321589074",
+          "title": "云南咖啡为何走不出中国？",
+          "bound_topic_ids": [
+            387,
+            7239
+          ],
+          "id": "321589074",
+          "type": "question",
+          "author": {
+            "user_type": "people",
+            "url_token": "chu-wo-78",
+            "is_org": false,
+            "followers_count": 0,
+            "is_following": false,
+            "id": "f4a34986532aa697352f6bad3f7e12cb",
+            "url": "https://api.zhihu.com/people/f4a34986532aa697352f6bad3f7e12cb",
+            "name": "初我",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_followed": false
+          },
+          "answer_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "detail": "",
+          "follower_count": 0,
+          "question_type": "normal"
+        },
+        "is_navigator": false,
+        "visited_count": 52119,
+        "answer_type": "normal",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1975142474633733395}",
+      "attached_info": "Cq0GCMHjmqLX0oP9iwEQBBoJNzU3NTEyNDE4IKaR/8gGKL8KMJgBQHFKKAodVFNfU09VUkNFX0lOVEVSRVNUX1dPUkRfTUVSR0USATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDMzNzQwMTc4YiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk3NTE0MjQ3NDYzMzczMzM5NYoBCTMyMTU4OTA3NKoBCXJlY29tbWVuZMIBIDgxOGYwZWYxNjFjOWVkMjQ2YzUxYzRhMDBjMDYxNzdj8gEKCAwSBk5vcm1hbPIBKAgKEiQxYzg1MmY0ZC1lNzQzLTRmZmQtODNkNy1iYTE2YTIyMjUzYTXyAQYICxICMTmCAgCIAt7Umsa8M5ICIDgxOGYwZWYxNjFjOWVkMjQ2YzUxYzRhMDBjMDYxNzdjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAh1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9NRVJHRegCAvoCC05PUk1BTF9GTE9XigMgOTAzYjIyMWYzZjI0NDZkOGI5YmNmODNlZmU4ODRiOWSaAw0KAnYyEAAaBW90aGVyqAOXlwPYAwDqAyJJbnRlcmVzdFdvcmRNZXJnZVYxTmV3UG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIKGqoD+BBQAAAAAAAAAAiQUxtbHlNaS0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZzqAYAkgIuCgk3NTc1MTI0MTgSEzE5NzUxNDI0NzQ2MzM3MzMzOTUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=113&desktop=true&end_offset=115&page_number=20&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=113&desktop=true&end_offset=115&page_number=20&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

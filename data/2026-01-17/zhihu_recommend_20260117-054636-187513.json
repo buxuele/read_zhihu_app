@@ -1,0 +1,702 @@
+{
+  "data": [
+    {
+      "id": "30_1768600003.88",
+      "type": "feed",
+      "offset": 30,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600003,
+      "updated_time": 1768600003,
+      "target": {
+        "allow_segment_interaction": true,
+        "id": "1995692016990959503",
+        "type": "answer",
+        "thanks_count": 0,
+        "excerpt": "人民币的正常价值，长期来看，肯定会在美元的四成左右是个合理的点位。 可以避免老外来套利。 如果沪币单划的话和美元一比一也不是不行。",
+        "excerpt_new": "人民币的正常价值，长期来看，肯定会在美元的四成左右是个合理的点位。 可以避免老外来套利。 如果沪币单划的话和美元一比一也不是不行。",
+        "preview_text": "",
+        "content": "<p data-pid=\"2IjWJnCu\">人民币的正常价值，长期来看，肯定会在美元的四成左右是个合理的点位。</p><p data-pid=\"SxxNbD49\">可以避免老外来套利。</p><p data-pid=\"QxkY16cg\">如果沪币单划的话和美元一比一也不是不行。</p><p></p>",
+        "author": {
+          "user_type": "people",
+          "url_token": "gong-zi-xiong-mao",
+          "name": "任公子",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 6300,
+          "url": "https://api.zhihu.com/people/44a6b35a5bf4de51ac48e54f8415c662",
+          "headline": "人生就是一种自我实现的预言。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-0de8e8787d08e769b0533bb15746f149_l.jpg?source=b6762063",
+          "is_following": true,
+          "is_followed": false,
+          "id": "44a6b35a5bf4de51ac48e54f8415c662"
+        },
+        "updated_time": 1768590055,
+        "preview_type": "default",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "question": {
+          "bound_topic_ids": [
+            229,
+            922,
+            5628,
+            40044,
+            1951635
+          ],
+          "detail": "",
+          "type": "question",
+          "title": "如何看待人民币兑日元突破1:22.8？",
+          "comment_count": 3,
+          "is_following": false,
+          "follower_count": 0,
+          "excerpt": "",
+          "question_type": "normal",
+          "id": "1994549636384457752",
+          "url": "https://api.zhihu.com/questions/1994549636384457752",
+          "author": {
+            "url_token": "mr-smiling-cat",
+            "avatar_url": "https://picx.zhimg.com/50/v2-ca49b77ac4775c5e73a249e8aae47fc0_l.jpg?source=b6762063",
+            "is_following": false,
+            "headline": "天以海为车，宿命为辙",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 742,
+            "id": "e6ed9d4231fbacbcffb79b79bd78ba7a",
+            "url": "https://api.zhihu.com/people/e6ed9d4231fbacbcffb79b79bd78ba7a",
+            "user_type": "people",
+            "name": "钟离同志",
+            "is_followed": false
+          },
+          "created": 1768317690,
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1995692016990959503",
+        "created_time": 1768590055,
+        "voteup_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "visited_count": 50,
+        "favorite_count": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995692016990959503}",
+      "attached_info": "CrwFCJaMqZyQhuH7jgEQBBoJNzY1NzQ3OTczIOeVqssGKAAwAEAeSjgKJVRTX1NPVVJDRV9GT0xMT1dfQVVUSE9SX1RWUF8zMERBWV9BTEwSCTI3MjEyNDg4OBgAIAA6AFoJMTE4MDU3NzQ1YiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NTY5MjAxNjk5MDk1OTUwM4oBEzE5OTQ1NDk2MzYzODQ0NTc3NTKqAQlyZWNvbW1lbmTCASA0NGE2YjM1YTViZjRkZTUxYWM0OGU1NGY4NDE1YzY2MvIBCggMEgZOb3JtYWzyASgIChIkNGU5YTVkYTEtMDk0MC00ZjA0LTgxNDktOGU2MjNhNGQ1ZGQ28gEFCAsSATaCAgCIAuTCmca8M5ICIDQ0YTZiMzVhNWJmNGRlNTFhYzQ4ZTU0Zjg0MTVjNjYymgIAygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIlVFNfU09VUkNFX0ZPTExPV19BVVRIT1JfVFZQXzMwREFZX0FMTOgCAvoCC05PUk1BTF9GTE9XigMgNWMwNjIzNzc1ZWM0NGMzNGJmNTZiNWMxMTk5NzY0NmKaAw0KAnYyEAAaBW90aGVyqAMy2AMB6gMiYWxsRm9sbG93QXV0aG9yTDMwRGF5Q3JlYXRlQ29udGVudPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMDKF44/gQUAAAAAAAAAAIkFqKTJRUgOsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFBpAGAKAGH6gGAJICLgoJNzY1NzQ3OTczEhMxOTk1NjkyMDE2OTkwOTU5NTAzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "AD_126028_17686000029170",
+      "type": "feed_advert",
+      "brief": "{\"source\":\"PR\",\"type\":\"feed_advert\",\"id\":126028}",
+      "action_text": "",
+      "attached_info": "CqUBCJaMqZyQhuH7jgFAH5ABAdoBJDU1ZWMxODEzLTQ3OTgtNDVhZi05OGU1LWYyOGZmYzBkY2I3OfIBBggMEgJBZIgC5cKZxrwz+gILQURWRVJUX0ZMT1eKAyA1YzA2MjM3NzVlYzQ0YzM0YmY1NmI1YzExOTk3NjQ2YoAEA5IECEJyYW5kX0Fk+QQAAAAAAADwP4EFAAAAAAAAAACyBQExoAYgqAYDMhQtODE0NDg5NjA1NTAyODU5NTE3OA==",
+      "ad": {
+        "count": 0,
+        "position": 0,
+        "ad_verb": "default",
+        "close_track": "https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt&zr=0&pf=Windows&cc=310000&cty=unknow&coi=0&ts=1768600002&lr=1&ar=0.0069&bi=305&tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D&ut=075acd00a0774b9d9d2a3786e8226e3a&ct=1&src=brand&ed=CjEEKVQsKSVoVjtaBGUpU1p9CHkVd215dghmUlA2YQlTIAxnXnFiJihGYgNSMnsJTSRDdw9lOykqGGNVB2B-CE01UHcJdW13ewMxDgxheQRZcwFsWTZncXYVdAtEbXkCU3IIeQF2fDAnQW9KAGglJnO_QzXm&ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6",
+        "revert_close_track": "",
+        "template": "web_feed_small_image_glory",
+        "load_tracks": [
+          "https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt&bi=305&ct=1&zr=0&cc=310000&src=brand&ar=0.0069&cty=unknow&lr=1&pf=Windows&ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6&coi=0&ut=075acd00a0774b9d9d2a3786e8226e3a&tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D&ts=1768600002&ed=CjEEI1UzKCU9VjsIX3Y_WVZwDC9bcmJxfQhmUAhoYQReJF9nAXs_dWNDYF9XNi8ADyZbfQFlOzpzEnQGWDRxAVlzCXgAZSopcxRkUAZlalMCeAh_DHFseGhEJ1oAaHwWBzAEfwp7bXF9HGdBQTkoDUZ0ThyJ5tfStIE%3D"
+        ],
+        "creatives": [
+          {
+            "landing_url": "https://sugar.zhihu.com/glory_adreaper/glory_log?pf=Windows&ed=CjEEKVQqOStoVjtaBGUpU1p9CHkVd215dghmUlA2YQlTIAxnXnFiJihGYgNSMnsJTSRDdw9lOykqGGNVB2B-CE01UHcJdW13ewMxDgxheQRZcwFsWTZncXYVdAtEbXkCU3IIeQF2fDAnQW9KAK1Wp4I1QRu0&st=brand_opt&ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6&ct=1&cty=unknow&ar=0.0069&ut=075acd00a0774b9d9d2a3786e8226e3a&src=brand&bi=305&tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D&ts=1768600002&zr=0&cc=310000&coi=0&lr=1",
+            "image": "https://pic3.zhimg.com/70/v2-b577267b2e857d9b05b9041347761402.jpg",
+            "image_2x": "",
+            "title": "盐沙滩正式开放",
+            "description": "知乎 15 周年特别企划，赶一场关于「人类经验」的海，你挖到的都是「经验之谈」！",
+            "button": "",
+            "action_button": false,
+            "brand": {
+              "id": 305,
+              "name": "知乎",
+              "logo": "https://pic4.zhimg.com/v2-127cb2754b2664796556c1131e51e932.jpg?source=9963c322"
+            },
+            "app_promotion_url": "",
+            "native_url": "https://www.zhihu.com/parker/campaign/1991207602500175063?zh_hide_nav_bar=true",
+            "deep_url": "",
+            "video_watch_num": 0,
+            "za_ad_info": "{\"ad_id\":126028,\"ad_zone_id\":7,\"category\":\"2\",\"timestamp\":1768600000,\"creative_id\":154268}",
+            "za_ad_info_json": "{\"ad_id\":126028,\"ad_zone_id\":7,\"category\":\"2\",\"timestamp\":1768600000,\"creative_id\":154268}",
+            "external_click_url": "",
+            "impression_tracks": [
+              "https://sugar.zhihu.com/glory_adreaper/glory_log?ed=CjEEPFEmLWY9TG9SBDUvAVN0CmcMdGN4YxFnBld9dQgOcBQsCns8Ji0VNgRTZ3UWCj8EfR4iMyRzFGBRAWJ0FhssBHsOdG11aEY7WgBleAJdfR8rTX5reH4DPhIMZX4IXHQKcw1lKikqGH9WOCzWnOpk38A%3D&tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D&lr=1&ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6&ut=075acd00a0774b9d9d2a3786e8226e3a&bi=305&zr=0&ts=1768600002&src=brand&st=brand_opt&ar=0.0069&cc=310000&cty=unknow&ct=1&pf=Windows&coi=0"
+            ],
+            "click_tracks": [],
+            "id": 126028,
+            "name": "",
+            "conversion_tracks": [
+              "https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt&ts=1768600002&ct=1&pf=Windows&cc=310000&ar=0.0069&bi=305&cty=unknow&tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D&lr=1&src=brand&coi=0&ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6&ut=075acd00a0774b9d9d2a3786e8226e3a&zr=0&ed=CjEEKVctLCU8VjsIX3Y_WVZwDC9bcmJxfQhmUAhoYQReJF9nAXs_dWNDYF9XNi8ADyZbfQFlOzpzEnQGWDRxAVlzCXgAZSopcxRkUAZlalMCeAh_DHFseGhEJ1oAaHwWBzAEfwp7bXF9HGdBQTkoDUZ0IA1jjJn9-Vc%3D"
+            ],
+            "content_type": "out_link",
+            "target_token": ""
+          }
+        ],
+        "vote_up_count": 0,
+        "comment_count": 0,
+        "is_following": false,
+        "category": 2,
+        "id": 126028,
+        "can_interact": false,
+        "user_id": 0,
+        "ctr": 0,
+        "display_advertising_tag": false,
+        "debug_tracks": [
+          "https://sugar.zhihu.com/glory_adreaper/glory_log?cc=310000&tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D&pf=Windows&ar=0.0069&ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6&ut=075acd00a0774b9d9d2a3786e8226e3a&lr=1&zr=0&cty=unknow&ed=CjEELl0hLydoVjtaBGUpU1p9CHkVd215dghmUlA2YQlTIAxnXnFiJihGYgNSMnsJTSRDdw9lOykqGGNVB2B-CE01UHcJdW13ewMxDgxheQRZcwFsWTZncXYVdAtEbXkCU3IIeQF2fDAnQW9KAIy6R7WQOJiG&ts=1768600002&src=brand&st=brand_opt&coi=0&bi=305&ct=1"
+        ],
+        "land_prefetch": false,
+        "native_prefetch": true,
+        "is_new_webview": true,
+        "experiment_info": "{}",
+        "download_silent": false,
+        "is_speeding": false,
+        "brand": {
+          "name": "知乎",
+          "logo": "https://pic4.zhimg.com/v2-127cb2754b2664796556c1131e51e932.jpg?source=9963c322",
+          "type": "brand",
+          "action_text": ""
+        }
+      },
+      "ad_list": [],
+      "adjson": "{\"ads\":[{\"id\":126028,\"ad_zone_id\":7,\"template\":\"web_feed_small_image_glory\",\"style\":\"bsi_7\",\"impression_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt\\u0026bi=305\\u0026ct=1\\u0026zr=0\\u0026cc=310000\\u0026src=brand\\u0026ar=0.0069\\u0026cty=unknow\\u0026lr=1\\u0026pf=Windows\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026coi=0\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026ts=1768600002\\u0026ed=CjEEI1UzKCU9VjsIX3Y_WVZwDC9bcmJxfQhmUAhoYQReJF9nAXs_dWNDYF9XNi8ADyZbfQFlOzpzEnQGWDRxAVlzCXgAZSopcxRkUAZlalMCeAh_DHFseGhEJ1oAaHwWBzAEfwp7bXF9HGdBQTkoDUZ0ThyJ5tfStIE%3D\"],\"view_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?ed=CjEEPFEmLWY9TG9SBDUvAVN0CmcMdGN4YxFnBld9dQgOcBQsCns8Ji0VNgRTZ3UWCj8EfR4iMyRzFGBRAWJ0FhssBHsOdG11aEY7WgBleAJdfR8rTX5reH4DPhIMZX4IXHQKcw1lKikqGH9WOCzWnOpk38A%3D\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026lr=1\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026bi=305\\u0026zr=0\\u0026ts=1768600002\\u0026src=brand\\u0026st=brand_opt\\u0026ar=0.0069\\u0026cc=310000\\u0026cty=unknow\\u0026ct=1\\u0026pf=Windows\\u0026coi=0\"],\"click_tracks\":[],\"close_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt\\u0026zr=0\\u0026pf=Windows\\u0026cc=310000\\u0026cty=unknow\\u0026coi=0\\u0026ts=1768600002\\u0026lr=1\\u0026ar=0.0069\\u0026bi=305\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026ct=1\\u0026src=brand\\u0026ed=CjEEKVQsKSVoVjtaBGUpU1p9CHkVd215dghmUlA2YQlTIAxnXnFiJihGYgNSMnsJTSRDdw9lOykqGGNVB2B-CE01UHcJdW13ewMxDgxheQRZcwFsWTZncXYVdAtEbXkCU3IIeQF2fDAnQW9KAGglJnO_QzXm\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\"],\"debug_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?cc=310000\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026pf=Windows\\u0026ar=0.0069\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026lr=1\\u0026zr=0\\u0026cty=unknow\\u0026ed=CjEELl0hLydoVjtaBGUpU1p9CHkVd215dghmUlA2YQlTIAxnXnFiJihGYgNSMnsJTSRDdw9lOykqGGNVB2B-CE01UHcJdW13ewMxDgxheQRZcwFsWTZncXYVdAtEbXkCU3IIeQF2fDAnQW9KAIy6R7WQOJiG\\u0026ts=1768600002\\u0026src=brand\\u0026st=brand_opt\\u0026coi=0\\u0026bi=305\\u0026ct=1\"],\"conversion_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt\\u0026ts=1768600002\\u0026ct=1\\u0026pf=Windows\\u0026cc=310000\\u0026ar=0.0069\\u0026bi=305\\u0026cty=unknow\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026lr=1\\u0026src=brand\\u0026coi=0\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026zr=0\\u0026ed=CjEEKVctLCU8VjsIX3Y_WVZwDC9bcmJxfQhmUAhoYQReJF9nAXs_dWNDYF9XNi8ADyZbfQFlOzpzEnQGWDRxAVlzCXgAZSopcxRkUAZlalMCeAh_DHFseGhEJ1oAaHwWBzAEfwp7bXF9HGdBQTkoDUZ0IA1jjJn9-Vc%3D\"],\"za_ad_info\":\"{\\\"ad_id\\\":126028,\\\"ad_zone_id\\\":7,\\\"category\\\":\\\"2\\\",\\\"timestamp\\\":1768600000,\\\"creative_id\\\":154268}\",\"za_ad_info_json\":\"{\\\"ad_id\\\":126028,\\\"ad_zone_id\\\":7,\\\"category\\\":\\\"2\\\",\\\"timestamp\\\":1768600000,\\\"creative_id\\\":154268}\",\"creatives\":[{\"id\":154268,\"asset\":{\"brand_name\":\"知乎\",\"brand_logo\":\"https://pic4.zhimg.com/v2-127cb2754b2664796556c1131e51e932.jpg?source=9963c322\",\"title\":\"盐沙滩正式开放\",\"desc\":\"知乎 15 周年特别企划，赶一场关于「人类经验」的海，你挖到的都是「经验之谈」！\",\"imgs\":[\"https://pic3.zhimg.com/70/v2-b577267b2e857d9b05b9041347761402.jpg\"],\"landing_url\":\"https://sugar.zhihu.com/glory_adreaper/glory_log?pf=Windows\\u0026ed=CjEEKVQqOStoVjtaBGUpU1p9CHkVd215dghmUlA2YQlTIAxnXnFiJihGYgNSMnsJTSRDdw9lOykqGGNVB2B-CE01UHcJdW13ewMxDgxheQRZcwFsWTZncXYVdAtEbXkCU3IIeQF2fDAnQW9KAK1Wp4I1QRu0\\u0026st=brand_opt\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026ct=1\\u0026cty=unknow\\u0026ar=0.0069\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026src=brand\\u0026bi=305\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026ts=1768600002\\u0026zr=0\\u0026cc=310000\\u0026coi=0\\u0026lr=1\",\"native_url\":\"https://www.zhihu.com/parker/campaign/1991207602500175063?zh_hide_nav_bar=true\",\"img_size\":1,\"footer\":\"\",\"cta\":\"\",\"img_position\":0,\"native_asset\":{\"plugin_type\":\"\"},\"brand_desc\":\"\",\"native_switch\":false,\"img_play_duration\":0,\"close_logo\":false,\"intercept_call\":0,\"ground_control\":{\"ios_dj_ratio\":1,\"android_dj_ratio\":1},\"img_hue_priority\":100},\"proto_info\":{\"content_type\":\"out_link\",\"content_id\":0,\"content_token\":\"\",\"origin_content_type\":\"unknown\",\"real_content_token\":\"\"},\"inner_domain\":true,\"style\":\"bsi_7\",\"impression_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt\\u0026bi=305\\u0026ct=1\\u0026zr=0\\u0026cc=310000\\u0026src=brand\\u0026ar=0.0069\\u0026cty=unknow\\u0026lr=1\\u0026pf=Windows\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026coi=0\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026ts=1768600002\\u0026ed=CjEEI1UzKCU9VjsIX3Y_WVZwDC9bcmJxfQhmUAhoYQReJF9nAXs_dWNDYF9XNi8ADyZbfQFlOzpzEnQGWDRxAVlzCXgAZSopcxRkUAZlalMCeAh_DHFseGhEJ1oAaHwWBzAEfwp7bXF9HGdBQTkoDUZ0ThyJ5tfStIE%3D\"],\"view_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?ed=CjEEPFEmLWY9TG9SBDUvAVN0CmcMdGN4YxFnBld9dQgOcBQsCns8Ji0VNgRTZ3UWCj8EfR4iMyRzFGBRAWJ0FhssBHsOdG11aEY7WgBleAJdfR8rTX5reH4DPhIMZX4IXHQKcw1lKikqGH9WOCzWnOpk38A%3D\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026lr=1\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026bi=305\\u0026zr=0\\u0026ts=1768600002\\u0026src=brand\\u0026st=brand_opt\\u0026ar=0.0069\\u0026cc=310000\\u0026cty=unknow\\u0026ct=1\\u0026pf=Windows\\u0026coi=0\"],\"close_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt\\u0026zr=0\\u0026pf=Windows\\u0026cc=310000\\u0026cty=unknow\\u0026coi=0\\u0026ts=1768600002\\u0026lr=1\\u0026ar=0.0069\\u0026bi=305\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026ct=1\\u0026src=brand\\u0026ed=CjEEKVQsKSVoVjtaBGUpU1p9CHkVd215dghmUlA2YQlTIAxnXnFiJihGYgNSMnsJTSRDdw9lOykqGGNVB2B-CE01UHcJdW13ewMxDgxheQRZcwFsWTZncXYVdAtEbXkCU3IIeQF2fDAnQW9KAGglJnO_QzXm\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\"],\"view_x_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?ar=0.0069\\u0026pf=Windows\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026ts=1768600002\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026ct=1\\u0026lr=1\\u0026cc=310000\\u0026ed=CjEEPFEmLR82AyEODGV5VQh0AXsLbm53dx1_UwQxKh1SfVx_FSVoeChDMVdVMy4HUmNYMAV0fCEnQW9WA2Z8AlNjSSMFcmx3eRB0BFhtfQVfdw9yHiIvfX8dYkFdJXEFWX0Oewt6b2Y-TDZaHGEGrbLBaU35mQ%3D%3D\\u0026zr=0\\u0026st=brand_opt\\u0026src=brand\\u0026cty=unknow\\u0026coi=0\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026bi=305\"],\"conversion_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?st=brand_opt\\u0026ts=1768600002\\u0026ct=1\\u0026pf=Windows\\u0026cc=310000\\u0026ar=0.0069\\u0026bi=305\\u0026cty=unknow\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026lr=1\\u0026src=brand\\u0026coi=0\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026zr=0\\u0026ed=CjEEKVctLCU8VjsIX3Y_WVZwDC9bcmJxfQhmUAhoYQReJF9nAXs_dWNDYF9XNi8ADyZbfQFlOzpzEnQGWDRxAVlzCXgAZSopcxRkUAZlalMCeAh_DHFseGhEJ1oAaHwWBzAEfwp7bXF9HGdBQTkoDUZ0IA1jjJn9-Vc%3D\"],\"create_time_text\":\"01-14\",\"preset_word\":\"\",\"dark_asset_key\":\"\",\"is_general_dark_creative\":false}],\"expand\":{\"display_advertising_tag\":false,\"is_new_webview\":true,\"is_cdn_speeding\":false,\"x_ar\":50,\"launch_timeout\":600,\"ad_sign\":2},\"experiment_info\":\"{}\",\"view_x_tracks\":[\"https://sugar.zhihu.com/glory_adreaper/glory_log?ar=0.0069\\u0026pf=Windows\\u0026ui=2409%3A8a1e%3A6c53%3A88a0%3Accd2%3Ac007%3Ae780%3A47e6\\u0026ts=1768600002\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026ct=1\\u0026lr=1\\u0026cc=310000\\u0026ed=CjEEPFEmLR82AyEODGV5VQh0AXsLbm53dx1_UwQxKh1SfVx_FSVoeChDMVdVMy4HUmNYMAV0fCEnQW9WA2Z8AlNjSSMFcmx3eRB0BFhtfQVfdw9yHiIvfX8dYkFdJXEFWX0Oewt6b2Y-TDZaHGEGrbLBaU35mQ%3D%3D\\u0026zr=0\\u0026st=brand_opt\\u0026src=brand\\u0026cty=unknow\\u0026coi=0\\u0026tue=AQENERpeSUEVDg1XEx0QCRxKBQEPVgoYGx4cE0YHBwMSGBMeB1pIWFBVVF5VT0pLXEVJUF5RVlhRRgARNh0QBQw7CA8UJhgYG0gNExwB_3H2oXm5Z5g%3D\\u0026bi=305\"],\"creative_delivery_type\":0,\"party_id\":-1,\"open_dark\":false}]}",
+      "pcontent": "https://www.zhihu.com/question/1994549636384457752/answer/1995692016990959503",
+      "ncontent": "https://zhuanlan.zhihu.com/p/1980655429336986967",
+      "ext_info": {
+        "content_type": "unknow",
+        "content_id": "0",
+        "question_id": -1,
+        "auction_type": 0,
+        "ecpm": 0.0,
+        "type": 1,
+        "fact_bid_price": -1.0,
+        "fact_ctr": -1.0,
+        "fact_cvr": -1.0,
+        "deliver_tracks": null,
+        "zfeature_content_info": null,
+        "author_id": 0,
+        "parent_id": 0,
+        "title": null,
+        "content_embedding": null,
+        "media_type": null,
+        "party_id": "BRAND",
+        "creative_id": 154268
+      }
+    },
+    {
+      "id": "31_1768600003.601",
+      "type": "feed",
+      "offset": 31,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600003,
+      "updated_time": 1768600003,
+      "target": {
+        "visited_count": 86,
+        "is_navigator": false,
+        "comment_permission": "all",
+        "id": "1980655429336986967",
+        "type": "article",
+        "navigator_vote": false,
+        "preview_type": "default",
+        "content": "<p data-pid=\"_ZW832SM\">接前文<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzYzMjMyMjc5OQ%3D%3D%26mid%3D2247483681%26idx%3D1%26sn%3D49e1eb93925d9687ada36be109093da1%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Wi-Fi抓包之Windows平台</a>，今天我们介绍下Linux平台Wi-Fi抓包的情况。</p><p data-pid=\"o3cQseOE\">如果你没有Windows平台商用的方案，Linux平台会是最实际的选择。其配套的软硬件都比较好获取，性能、稳定性也还行。</p><p data-pid=\"7cXdgP20\"><b>基本环境搭建</b></p><p data-pid=\"JlPfcUGE\"><b>软件</b></p><p data-pid=\"WgTDJga_\">我们选择Kali Linux，Kali集成了Wi-Fi抓包所有的工具，以及最完整的网卡驱动。它是基于Debian的，大部分命令在Ubuntu上同样适用。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6474b75826338e884eb755c970075090_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"889\" data-rawheight=\"500\" data-original-token=\"v2-d2092facb3cffa9839338be4396d8ff4\" class=\"origin_image zh-lightbox-thumb\" width=\"889\" data-original=\"https://pic1.zhimg.com/v2-6474b75826338e884eb755c970075090_r.jpg\"/></figure><p data-pid=\"-hQIEB_z\">其他软件有Wireshark：开源免费且强大的抓包软件；airmon-ng：主要用来配置网卡到monitor模式，这样网卡才能把的Wi-Fi包发送给Wireshark。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c14470869c1ab99a704fde50cb00b770_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"694\" data-rawheight=\"570\" data-original-token=\"v2-517332bb8858ca711515c804f74479f8\" class=\"origin_image zh-lightbox-thumb\" width=\"694\" data-original=\"https://pica.zhimg.com/v2-c14470869c1ab99a704fde50cb00b770_r.jpg\"/></figure><p data-pid=\"8z3Vl2n_\"><b>硬件</b></p><p data-pid=\"ApuSUlc3\">如果电脑集成了Intel或者联发科（MediaTek）的Wi-Fi网卡，不需要额外的硬件；如果没有，最好找一个MediaTek平台的Wi-Fi网卡，因为Linux Wi-Fi驱动对这个平台支持的最完善。</p><p data-pid=\"LBtx13Hs\">所以你只需要一台装了Kali Linux的带有Intel或者MediaTek无线网卡的电脑。让我们整起来。</p><p data-pid=\"xj7EGVkk\"><b>抓包实操</b></p><p data-pid=\"6H3pd7qD\">1. 打开Terminal看下网卡信息：</p><div class=\"highlight\"><pre><code class=\"language-text\">┌──(kali㉿kali)-[~]\n└─$ iwconfig                 \nlo        no wireless extensions.\n\neth0      no wireless extensions.\n\nwlan0     IEEE 802.11  ESSID:off/any  \n          Mode:Managed  Access Point: Not-Associated   Tx-Power=19 dBm   \n          Retry short limit:7   RTS thr:off   Fragment thr:off\n          Power Management:off</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OzJlIm9t\">图中wlan0是我的无线网卡，可以看到它的模式是Managed，我们要把它设置为Monitor模式。</p><p data-pid=\"Iu2qTyDx\">2. 设置网卡到Monitor模式</p><div class=\"highlight\"><pre><code class=\"language-bash\">┌──<span class=\"o\">(</span>kali㉿kali<span class=\"o\">)</span>-<span class=\"o\">[</span>~<span class=\"o\">]</span>\n└─$ sudo airmon-ng start wlan0 <span class=\"m\">6</span>\n\n\nPHY     Interface       Driver          Chipset\n\nphy1    wlan0           mt76x2u         MediaTek Inc. MT7612U 802.11a/b/g/n/ac\n                <span class=\"o\">(</span>mac80211 monitor mode vif enabled <span class=\"k\">for</span> <span class=\"o\">[</span>phy1<span class=\"o\">]</span>wlan0 on <span class=\"o\">[</span>phy1<span class=\"o\">]</span>wlan0mon<span class=\"o\">)</span>\n                <span class=\"o\">(</span>mac80211 station mode vif disabled <span class=\"k\">for</span> <span class=\"o\">[</span>phy1<span class=\"o\">]</span>wlan0<span class=\"o\">)</span>\n</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dLkCe1fW\">使用airmon-ng设置wlan0为monitor模式，同时监听信道设置为6。让我们再确认下网卡状态</p><div class=\"highlight\"><pre><code class=\"language-text\">┌──(kali㉿kali)-[~]\n└─$ iwconfig \nlo        no wireless extensions.\n\neth0      no wireless extensions.\n\nwlan0mon  IEEE 802.11  Mode:Monitor  Frequency:2.437 GHz  Tx-Power=19 dBm   \n          Retry short limit:7   RTS thr:off   Fragment thr:off\n          Power Management:on</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"22EvNUT8\">可以看到wlan0已经变成了wlan0mon，并且模式也变成了Monitor。</p><p data-pid=\"mzxPacn2\"><b>Wireshark， 启动！</b></p><p data-pid=\"Fido6QeE\">启动Wireshark并选择wlan0mon作为捕捉器</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d37b571562e099a365efd4f76ba2b261_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"294\" data-original-token=\"v2-4e9aaef408be692618568219af4d342e\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic2.zhimg.com/v2-d37b571562e099a365efd4f76ba2b261_r.jpg\"/></figure><p data-pid=\"jQgzXWhZ\">然后就可以开心的抓包了</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ddbf3ee0f646c7dee80ab4e4082f7376_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"344\" data-original-token=\"v2-429169694c96c952b9b3898d89f2243e\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic3.zhimg.com/v2-ddbf3ee0f646c7dee80ab4e4082f7376_r.jpg\"/></figure><blockquote data-pid=\"NxzRM1Tv\">本系列文章我们暂时不涉及Wi-Fi数据包分析.</blockquote><p data-pid=\"pmQtB4YN\">Linux平台抓包的happy flow大概如上。操作上还有很多细节需要处理，可以参考下文的FAQ。</p><hr/><p data-pid=\"ITKse73d\">既然Windows平台和Linux平台都能抓包，那Mac OS上可以吗？答案是肯定的，并且Mac OS的抓包效果还比较好。</p><p data-pid=\"WssPqOxU\">只是用Mac OS的同学不多，苹果电脑也比较贵，所以我们放到最后介绍。</p><p data-pid=\"eeXfXVWL\"><b>FAQ</b></p><p data-pid=\"X5g47XRt\">1. Windows上装Kali虚拟机可以使用这个方法吗？</p><p data-pid=\"aZfEHpwh\">可以。不过要配合USB无线网卡，并且配置网卡直连到虚拟机。</p><p data-pid=\"B2r7e8oS\">2. 我使用的USB无线网卡，不能被Kali识别。</p><p data-pid=\"Gv5ACXDS\">有些驱动时nonfree的，如果是Mediatek的设备，可以执行下面的命令试试：</p><div class=\"highlight\"><pre><code class=\"language-text\">sudo apt install firmware-misc-nonfree\n\nsudo modprobe mt76\nsudo modprobe mt76-usb\nsudo reboot</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"cTZwhuIu\">3. 我的Intel网卡有时候抓不到包。</p><p data-pid=\"0Nwel-54\">这也是我遇到的问题，可能是Intel的驱动问题。可以尝试重启电脑或者切换到Mediatek的网卡。</p><p data-pid=\"WfCZ9L20\">4. 为什么我抓的包不完整？</p><p data-pid=\"52Qm_hPs\">原因有很多，比如：</p><ul><li data-pid=\"GhpuZ-87\">抓包器位置不合理，远离AP和Station。</li><li data-pid=\"TJMJMdFD\">网卡本身不是用来抓包的，所以RX的灵敏度不是特别好。</li><li data-pid=\"L8vJ3tuX\">USB网卡的供电电脑比较粗糙，可能会影响RX的SNR。</li><li data-pid=\"gTII80KJ\">USB3.0对Wi-Fi 2.4G频道有明确的干扰等等。</li></ul>",
+        "excerpt": "接前文 Wi-Fi抓包之Windows平台 ，今天我们介绍下Linux平台Wi-Fi抓包的情况。如果你没有Windows平台商用的方案，Linux平台会是最实际的选择。其配套的软硬件都比较好获取，性能、稳定性也还行。 基本环境搭建 软件我们选择Kali Linux，Kali集成了Wi-Fi抓包所有的工具，以及最完整的网卡驱动。它是基于Debian的，大部分命令在Ubuntu上同样适用。   其他软件有Wireshark：开源免费且强大的抓包软件；airmon-ng：主要用来配置网卡到mon…",
+        "preview_text": "",
+        "is_labeled": false,
+        "favorite_count": 5,
+        "author": {
+          "id": "acb81ef484c99a26c3d6503202df94b2",
+          "avatar_url": "https://picx.zhimg.com/50/v2-492fc1ec2b8ad9ad2c76ce25fe572dab_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 148,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/acb81ef484c99a26c3d6503202df94b2",
+          "user_type": "people",
+          "url_token": "imbeder",
+          "name": "深河",
+          "headline": "嵌入式软件，802.11协议，还有一直想学的线性代数。",
+          "is_org": false,
+          "is_followed": false
+        },
+        "comment_count": 1,
+        "article_type": "normal",
+        "updated": 1765005546,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/articles/1980655429336986967",
+        "created": 1765005546,
+        "title": "Wi-Fi抓包之Linux平台",
+        "image_url": "https://pic1.zhimg.com/v2-73301a9b379f7c4271ccec1a1a2d60f0.jpg?source=7e7ef6e2&needBackground=1",
+        "voteup_count": 1,
+        "voting": 0,
+        "excerpt_new": "接前文 Wi-Fi抓包之Windows平台 ，今天我们介绍下Linux平台Wi-Fi抓包的情况。如果你没有Windows平台商用的方案，Linux平台会是最实际的选择。其配套的软硬件都比较好获取，性能、稳定性也还行。 基本环境搭建 软件我们选择Kali Linux，Kali集成了Wi-Fi抓包所有的工具，以及最完整的网卡驱动。它是基于Debian的，大部分命令在Ubuntu上同样适用。   其他软件有Wireshark：开源免费且强大的抓包软件；airmon-ng：主要用来配置网卡到mon…",
+        "allow_segment_interaction": true,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-73301a9b379f7c4271ccec1a1a2d60f0.jpg?source=7e7ef6e2&needBackground=1"
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1980655429336986967}",
+      "attached_info": "CoUICJaMqZyQhuH7jgEQBxoJMjY3Mjg3NTg3IOqxz8kGKAEwAUAfSjAKBkl0ZW1DRhIgZG9jX3R5cGU6IEFydGljbGUKaWQ6IDI0ODQ3MzI3OQoYACAAOgBiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTgwNjU1NDI5MzM2OTg2OTY3ggFfaHR0cHM6Ly9waWMxLnpoaW1nLmNvbS92Mi03MzMwMWE5YjM3OWY3YzQyNzFjY2VjMWExYTJkNjBmMC5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASBhY2I4MWVmNDg0Yzk5YTI2YzNkNjUwMzIwMmRmOTRiMvIBCggMEgZOb3JtYWzyASgIChIkMmUyYjdmMjctMTQ2Ni00Njk4LTk4OTUtZTU5MDFmMDI3YjUy8gEFCAsSATaCAgCIAuXCmca8M5ICIGFjYjgxZWY0ODRjOTlhMjZjM2Q2NTAzMjAyZGY5NGIymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAgZJdGVtQ0boAgP6AgtOT1JNQUxfRkxPV4oDIDVjMDYyMzc3NWVjNDRjMzRiZjU2YjVjMTE5OTc2NDZimgMNCgJ2MhAAGgVvdGhlcqgDVtgDAOoDFXRleHRBbGxTaXRlTXZJdGVtQ0ZWMvoDigISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxD5Bhj0AyIjdjItZDIwOTJmYWNiM2NmZmE5ODM5MzM4YmU0Mzk2ZDhmZjQ6LQgCELYFGLoEIiN2Mi01MTczMzJiYjg4NThjYTcxMTUxNWM4MDRmNzQ0NzlmODotCAIQgAUYpgIiI3YyLTRlOWFhZWY0MDhiZTY5MjYxODU2ODIxOWFmNGQzNDJlOi0IAhCABRjYAiIjdjItNDI5MTY5Njk0Yzk2Yzk1MmI5YjM4OThkODlmMjI0M2U6LQgDEMYEGOsBIiN2Mi03MzMwMWE5YjM3OWY3YzQyNzFjY2VjMWExYTJkNjBmMIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoAoUgz+BBQAAAAAAAAAAiQWopMlFSA6yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYhqAYAkgIuCgkyNjcyODc1ODcSEzE5ODA2NTU0MjkzMzY5ODY5NjcYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "32_1768600003.766",
+      "type": "feed",
+      "offset": 32,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600003,
+      "updated_time": 1768600003,
+      "target": {
+        "type": "answer",
+        "created_time": 1762471591,
+        "updated_time": 1762471591,
+        "comment_count": 7,
+        "question": {
+          "comment_count": 80,
+          "is_following": false,
+          "id": "31272743",
+          "title": "有没有那么一句诗词，初读便让你热泪盈眶？",
+          "created": 1434208161,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            2058
+          ],
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/31272743",
+          "author": {
+            "followers_count": 4,
+            "id": "dcc9aec0ca7d3352f3126cfeeed6dfc2",
+            "url": "https://api.zhihu.com/people/dcc9aec0ca7d3352f3126cfeeed6dfc2",
+            "headline": "狂想徒",
+            "gender": 1,
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "zhao-da-wei-81",
+            "name": "赵大卫",
+            "avatar_url": "https://picx.zhimg.com/50/feaa590bfdae6c523f216d4078fcd4b3_l.jpg?source=b6762063"
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "follower_count": 0,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "id": "1970029321818202723",
+        "excerpt_new": "1 是处青山可埋骨，他年夜雨独伤神。 ——苏轼《狱中寄子由二首·其一》人死之后，随便找一个青山就可以埋葬尸骨，但是留下弟弟一人，在每次夜雨之时，黯然神伤。此词作于“乌台诗案”之时，苏轼对于生死之事本来不太执著，觉得无论是何处的青山都可以作为埋葬他的地方，但是，又恐自己故去之后，留下弟弟一个人苦苦思念自身。 此句意境凄凉，感情真挚，蕴含着词人对弟弟深切的挂念。苏轼现在处在生死未卜之际，做了此诗，不禁黯…",
+        "preview_text": "",
+        "content": "<p data-pid=\"DZwrzplL\"><b>1</b></p><p data-pid=\"YGchkh8V\"><b>是处青山可埋骨，他年夜雨独伤神。</b></p><p data-pid=\"WDQKpkqK\"><b>——<span class=\"nolink\">苏轼</span>《<span class=\"nolink\">狱中寄子由二首·其一</span>》</b></p><blockquote data-pid=\"3qOVWEnJ\">人死之后，随便找一个青山就可以埋葬尸骨，但是留下弟弟一人，在每次夜雨之时，黯然神伤。</blockquote><p data-pid=\"AVXXpVHB\">此词作于“乌台诗案”之时，苏轼对于生死之事本来不太执著，觉得无论是何处的青山都可以作为埋葬他的地方，但是，又恐自己故去之后，留下弟弟一个人苦苦思念自身。</p><p data-pid=\"fRNpnh5w\">此句意境凄凉，感情真挚，蕴含着词人对弟弟深切的挂念。苏轼现在处在生死未卜之际，做了此诗，不禁黯然伤怀。他只能寄希望于来世再实现这种约定：“与君世世为兄弟，再结来生未了因。”</p><p data-pid=\"VdioDzvF\">手足之情，因血脉而深深羁绊。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-68015ed5579b02c37780dc91bbe25c36_1440w.jpg\" data-rawwidth=\"1200\" data-rawheight=\"2600\" data-size=\"normal\" data-original-token=\"v2-88d257b003bf9c6417111ec0adf72808\" class=\"origin_image zh-lightbox-thumb\" width=\"1200\" data-original=\"https://pica.zhimg.com/v2-68015ed5579b02c37780dc91bbe25c36_r.jpg\"/></figure><p data-pid=\"5yvprrGA\"><b>2</b></p><p data-pid=\"fhbFxROw\"><b>桃李春风一杯酒，江湖夜雨十年灯。</b></p><p data-pid=\"GLhvidMn\"><b>——黄庭坚《寄黄几复》</b></p><blockquote data-pid=\"kUsO5hBV\">当年春风里观赏桃李共饮美酒的事已经过去了许久，江湖落魄，一别已是十年，常对着孤灯听着秋雨思念着你。</blockquote><p data-pid=\"Ef_RVWJP\">黄鲁直选了“桃李”、“春风”两个词，再给“一杯酒”以良辰美景的烘托，就把朋友相会之乐表现出来了。</p><p data-pid=\"h17Rbdow\">“江湖”能使人想到流转和飘泊，“夜雨”能引起怀人之情；在“江湖”而听“夜雨”，更添萧索之感。而“十年灯”，则是作者的首创，用以和“江湖夜雨”相联缀。</p><p data-pid=\"PVQFJYBb\">如此，激发读者的一连串想象：两个朋友，各自飘泊江湖，每逢夜雨，独对孤灯，互相思念，深宵不寐。而这般情景，已延续了十年。</p><p data-pid=\"Riqc54Rs\">“桃李春风”而共饮“一杯酒”，欢会极其短促。“江湖夜雨”而各对“十年灯”，飘泊极其漫长。快意与失望，暂聚与久别，往日的交情与当前的思念，都从时、地、景、事、情的强烈对照中表现出来。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2b5c78631393c52e877edce8a2e27835_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"3048\" data-size=\"normal\" data-original-token=\"v2-f4c101690d3127605fc36944dcc50a2c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-2b5c78631393c52e877edce8a2e27835_r.jpg\"/></figure><p data-pid=\"Z-stLNa-\"><b>3</b></p><p data-pid=\"BW8jKUCz\"><b>惨惨柴门风雪夜，此时有子不如无。</b></p><p data-pid=\"24ScKN0D\"><b>——清·黄景仁《别老母》</b></p><blockquote data-pid=\"vzOwcRDl\">在这风雪之夜，不能在母亲身边尽孝却要掩柴门凄惨地远去，不禁感叹：养子又有何用呢？倒不如没有啊。</blockquote><p data-pid=\"Ifh-Oa2J\">此两句道出了多少成年人的心酸现状，人到中年在外漂泊打拼，为了碎银几两，当牛做马，老家里的年迈父母，生病住院，你为人子女，却无法时时在身旁照料，“此时有子不如无”啊……</p><p data-pid=\"tkQQMFXx\">这一句感慨使得全诗感情步步加深，层层蓄积，凝聚到饱和状态时的迸发，产生了动人的情感力量，让我们感受到诗人内心情感的矛盾运动，与母亲分别时的忧愁、无奈、痛苦与感伤，把别离之情表现得贴切又沉痛。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7b6a89edbdde596dafc717fbfaa57848_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"3954\" data-size=\"normal\" data-original-token=\"v2-af37f569c558f1bbb12bfa2da11b683b\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-7b6a89edbdde596dafc717fbfaa57848_r.jpg\"/></figure><p data-pid=\"kaQJhTxC\"><b>4</b></p><p data-pid=\"9DuGYTh5\"><b>此生谁料，心在天山，身老沧洲。</b></p><p data-pid=\"zcuYQj34\"><b> ——陆游《诉衷情》</b></p><blockquote data-pid=\"duJMDgMv\">谁能料我这一生，心始终在前线抗敌，人却老死在沧洲！</blockquote><p data-pid=\"sIRw4uEW\">陆游没料到，自己的一生会不断地处在“心”与“身”的矛盾冲突中，他的心神驰于疆场，他的身却僵卧孤村，他看到了“铁马冰河”，但这只是在梦中，他的心灵高高扬起，飞到“天山”，他的身体却沉重地坠落在“沧洲”。</p><p data-pid=\"b242wCHJ\">“谁料”二字写出了往日的天真与此时的失望，理想与现实是如此格格不入，无怪乎词人要声声浩叹。“心在天山，身老沧洲”两句作结，先扬后抑，形成一个大转折，词人犹如一心要搏击长空的苍鹰，却被折断羽翮，落到地上，在痛苦中呻吟。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-33191d7ec928c6fc9fc4b6f86b3fb9d3_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"2044\" data-size=\"normal\" data-original-token=\"v2-8d2a963070349d5a06a0ee0936a0f0b6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-33191d7ec928c6fc9fc4b6f86b3fb9d3_r.jpg\"/></figure><p data-pid=\"19QDEm82\"><b>5</b></p><p data-pid=\"HqPl23gK\"><b>空床卧听南窗雨，谁复挑灯夜补衣。 </b></p><p data-pid=\"QjC15KdV\"><b> ——贺铸《鹧鸪天.半死桐》 </b></p><blockquote data-pid=\"aZoqBbtL\">躺在空荡荡的床上，听着窗外的凄风苦雨，从今以后还有谁替我在深夜挑灯缝补衣衫呢？</blockquote><p data-pid=\"DiAQS4S0\">此词是贺铸怀念亡妻的悼亡词，彼时他57岁客居苏州，妻子突然离世。 </p><p data-pid=\"7fEi54hY\">夜间辗转难眠中，昔日妻子挑灯补衣的情景历历在目，却再难重见。这既是抒情最高潮，也是全词中最感人的两句。读来令人哀惋凄绝，感慨万千。</p><p data-pid=\"lzBXbhkR\"> 苏州景物依旧，可曾陪着我絮语家常、挑灯补衣的的人，却已不再了。我们一同来的，为何不一同归去？</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-cb6554065fc845866f55ea4b0e8e37eb_1440w.jpg\" data-rawwidth=\"720\" data-rawheight=\"1953\" data-size=\"normal\" data-original-token=\"v2-1af7b951eabbacb55e651f3b15472a7f\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic2.zhimg.com/v2-cb6554065fc845866f55ea4b0e8e37eb_r.jpg\"/></figure><p data-pid=\"fKhYkhVX\"><b>6</b></p><p data-pid=\"mwR9moNC\"><b>自是人生长恨水长东。</b></p><p data-pid=\"Uvtg1Tr4\"><b>——李煜《相见欢》</b></p><blockquote data-pid=\"MAVsRoaL\">人生令人遗憾的事情太多，就像那东逝的江水，不休不止，永无尽头。</blockquote><p data-pid=\"ySoxK5A6\">此句运用叠字衔联法。“人生长恨”之绵绵无期，犹如那滔滔滚滚东流的江水，无穷无尽、无止无休。“东”字与前面的红、匆、风、重等字谐韵，字韵响亮，节奏感强，在句式结构上，犹如突然决堤的汹涌奔流的江水，是李煜深深的哀叹！</p><p data-pid=\"ExAiHZKF\">这种悲慨并不局限于个人的失落与苦闷，而是对全人类生命缺憾的普遍共鸣。其融汇和浓缩了无数痛苦的人生体验，化作一声震撼人心的悲切浩叹。</p><p data-pid=\"pnM_ksfG\"><b>7</b></p><p data-pid=\"1p8p9UI4\"><b>城南小陌又逢春，只见梅花不见人。</b></p><p data-pid=\"_zqFd5Z8\"><b>——<span class=\"nolink\">陆游</span>《<span class=\"nolink\">十二月二日夜梦游沈氏园亭</span>》</b></p><blockquote data-pid=\"BxqpSBOA\">城南的小路又迎来了春天，只见路边的梅花依然在盛开，然而却不见当年在此相逢的故人了。</blockquote><p data-pid=\"brHCuHEb\">彼时<span class=\"nolink\">陆游</span>八十一岁，这年冬十二月二日，陆游梦中来到城南沈园，一梦醒来，他追忆梦境写下这组<span class=\"nolink\">诗</span>，这首诗即为其中之一。</p><p data-pid=\"E86Vb0lF\">此<span class=\"nolink\">诗</span>用风景依旧、物在人亡的手法引起思念之情，表达了对已亡人久久不泯的思念和沉痛之情。全诗抒写哀婉深挚，凄楚动人，感人至深。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0c1dac077fce92a20a8de17a6df780fe_1440w.jpg\" data-rawwidth=\"901\" data-rawheight=\"1955\" data-size=\"normal\" data-original-token=\"v2-f1ac85d1d404cf66bb83c923e4dd9ae3\" class=\"origin_image zh-lightbox-thumb\" width=\"901\" data-original=\"https://pic3.zhimg.com/v2-0c1dac077fce92a20a8de17a6df780fe_r.jpg\"/></figure><p data-pid=\"uwzwmYYL\"><b>8</b></p><p data-pid=\"K9ttCDFl\"><b>我当二十不得意，一心愁谢如枯兰。</b></p><p data-pid=\"dLSSsASH\"><b>——<span class=\"nolink\">李贺</span>《<span class=\"nolink\">开愁歌</span>》</b></p><blockquote data-pid=\"_DhJyOgm\">我年当二十仕途坎坷不得意，心中愁苦颓丧如衰枯的秋兰。</blockquote><p data-pid=\"vvsrTNif\"><span class=\"nolink\">李贺</span>二十一岁应河南府试。初试告捷，犹如雏鹰展翅，满以为从此便可扶摇直上，不料有人以李贺“父名晋肃，子不得举进士”为由，阻挠他参加进士考试。</p><p data-pid=\"nNIrlG2P\">此两句正是这种抑郁悲愤心境的写照。</p><p data-pid=\"jc14Kbyg\">眼下多少不是20出头的研究生、博士生，在编制内发光发热干尽活计，也只能在岗位碌碌无为。或者，为各种“萝卜坑”做陪衬，年年落榜。</p><p data-pid=\"Vazwi0XS\"><b>9</b></p><p data-pid=\"tuL_cSrl\"><b>人生只似风前絮，欢也零星。 悲也零星。</b></p><p data-pid=\"BUfbPEno\"><b>都作连江点点萍。</b></p><p data-pid=\"cqxEtXM3\"><b>——王国维《<span class=\"nolink\">采桑子</span>》</b></p><blockquote data-pid=\"JzO6m3Ro\">人的一生就像柳絮一样随风飘散，不管是喜还是悲都是零星的点缀，全像那江中的浮萍一样孤苦零落。</blockquote><p data-pid=\"NqDw4p1n\">人生的悲欢离合就像风吹走的柳絮一样，最后结局只化作满江浮萍随流水而去，短短三句，把我们普通人的一生都看透了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ee9c292bb6cf9ca33b304d5f808cc73e_1440w.jpg\" data-rawwidth=\"1133\" data-rawheight=\"2175\" data-size=\"normal\" data-original-token=\"v2-9ed00e30e1d7c569a2968c1e86e43830\" class=\"origin_image zh-lightbox-thumb\" width=\"1133\" data-original=\"https://pic1.zhimg.com/v2-ee9c292bb6cf9ca33b304d5f808cc73e_r.jpg\"/></figure><p data-pid=\"Uq8Z_YqX\"><b>10</b></p><p data-pid=\"NZ3f2-jQ\"><b>季子平安否？便归来，平生万事，那堪回首！</b></p><p data-pid=\"wHQF0fv7\"><b>——清·<span class=\"nolink\">顾贞观</span>《<span class=\"nolink\">金缕曲二首·其一</span>》</b></p><blockquote data-pid=\"GXpHmqND\">你近来平安吗？即便你回来，回想以前令人悲伤的事，你又怎能够承受！</blockquote><p data-pid=\"zw9VthGp\">此句以书信格式入词，十分别致，更具感染力，容易让人主观带入这对友人思念和关心之情。</p><p data-pid=\"hwtuXAzS\">全词情感真挚，语言优美，既表现出死生不渝的友情，又映射出对现实世界的深刻反思与批判，感人肺腑，催入泪下，具有极高的艺术感染力。</p>",
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1970029321818202723",
+        "voteup_count": 34,
+        "author": {
+          "gender": 0,
+          "followers_count": 1945,
+          "is_following": false,
+          "is_followed": false,
+          "avatar_url": "https://picx.zhimg.com/50/v2-e1f5fd8ffe5600c4da3cc60dc1482f07_l.jpg?source=b6762063",
+          "url": "https://api.zhihu.com/people/c45edc671a0ddfe0c5c37a0fefc06443",
+          "user_type": "people",
+          "url_token": "su-yao-60-28",
+          "name": "苏夭",
+          "headline": "一个喜好时令之美与花卉绿植的阅读爱好者。",
+          "is_org": false,
+          "badge": [
+            {
+              "description": "教师资格证持证人",
+              "type": "identity_people"
+            }
+          ],
+          "id": "c45edc671a0ddfe0c5c37a0fefc06443"
+        },
+        "thanks_count": 1,
+        "visited_count": 1418,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-a8a126b3d5c64ae32e7ffe96fd80d182_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f4c101690d3127605fc36944dcc50a2c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-af37f569c558f1bbb12bfa2da11b683b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8d2a963070349d5a06a0ee0936a0f0b6_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-1af7b951eabbacb55e651f3b15472a7f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f1ac85d1d404cf66bb83c923e4dd9ae3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9ed00e30e1d7c569a2968c1e86e43830_720w.jpg?source=b6762063"
+        ],
+        "is_labeled": false,
+        "preview_type": "default",
+        "is_copyable": true,
+        "favorite_count": 64,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-a8a126b3d5c64ae32e7ffe96fd80d182_720w.jpg?source=b6762063",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "excerpt": "1 是处青山可埋骨，他年夜雨独伤神。 ——苏轼《狱中寄子由二首·其一》人死之后，随便找一个青山就可以埋葬尸骨，但是留下弟弟一人，在每次夜雨之时，黯然神伤。此词作于“乌台诗案”之时，苏轼对于生死之事本来不太执著，觉得无论是何处的青山都可以作为埋葬他的地方，但是，又恐自己故去之后，留下弟弟一个人苦苦思念自身。 此句意境凄凉，感情真挚，蕴含着词人对弟弟深切的挂念。苏轼现在处在生死未卜之际，做了此诗，不禁黯…",
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1970029321818202723}",
+      "attached_info": "CskICJaMqZyQhuH7jgEQBBoJNzU1MzU5MzUxIKfdtMgGKCIwB0AgSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aBzQ2OTE4MDhiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTcwMDI5MzIxODE4MjAyNzIzigEIMzEyNzI3NDOqAQlyZWNvbW1lbmTCASBjNDVlZGM2NzFhMGRkZmUwYzVjMzdhMGZlZmMwNjQ0M/IBCggMEgZOb3JtYWzyASgIChIkNWM4MjBmZmYtZmYxOS00MzU2LTliOTUtZjFmNjY1NjNhNjYy8gEFCAsSATaCAgCIAuXCmca8M5ICIGM0NWVkYzY3MWEwZGRmZTBjNWMzN2EwZmVmYzA2NDQzmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgL6AgtOT1JNQUxfRkxPV4oDIDVjMDYyMzc3NWVjNDRjMzRiZjU2YjVjMTE5OTc2NDZimgMNCgJ2MhAAGgVvdGhlcqgDigvYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A+gCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQsAkYqBQiI3YyLTg4ZDI1N2IwMDNiZjljNjQxNzExMWVjMGFkZjcyODA4Oi0IAhC4CBjoFyIjdjItZjRjMTAxNjkwZDMxMjc2MDVmYzM2OTQ0ZGNjNTBhMmM6LQgCEIAKGPIeIiN2Mi1hZjM3ZjU2OWM1NThmMWJiYjEyYmZhMmRhMTFiNjgzYjotCAMQuAgY/A8iI3YyLThkMmE5NjMwNzAzNDlkNWEwNmEwZWUwOTM2YTBmMGI2Oi0IBBDQBRihDyIjdjItMWFmN2I5NTFlYWJiYWNiNTVlNjUxZjNiMTU0NzJhN2Y6LQgEEIUHGKMPIiN2Mi1mMWFjODVkMWQ0MDRjZjY2YmI4M2M5MjNlNGRkOWFlMzotCAMQ7QgY/xAiI3YyLTllZDAwZTMwZTFkN2M1NjlhMjk2OGMxZTg2ZTQzODMwgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgHQWgP4EFAAAAAAAAAACJBaikyUVIDrI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiKoBgCSAi4KCTc1NTM1OTM1MRITMTk3MDAyOTMyMTgxODIwMjcyMxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "33_1768600003.242",
+      "type": "feed",
+      "offset": 33,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600003,
+      "updated_time": 1768600003,
+      "target": {
+        "voting": 0,
+        "preview_text": "",
+        "is_labeled": false,
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "563dc9b58fdf92e0392f59b95e3cda4d",
+          "url": "https://api.zhihu.com/people/563dc9b58fdf92e0392f59b95e3cda4d",
+          "headline": "灯下望月，不知其影",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 663,
+          "user_type": "people",
+          "url_token": "xiewendao",
+          "name": "闻道",
+          "avatar_url": "https://picx.zhimg.com/50/v2-1ea4fedbe9536cbb46059ff275aa2634_l.jpg?source=b6762063"
+        },
+        "updated": 1768487343,
+        "voteup_count": 4,
+        "preview_type": "default",
+        "column": {
+          "imageUrl": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1356217377592336384",
+          "title": "脱离平庸的地心引力",
+          "intro": "自言自语，自娱自乐",
+          "updated": 1674343841,
+          "is_following": false,
+          "id": "c_1356217377592336384",
+          "author": {
+            "user_type": "people",
+            "headline": "",
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "",
+            "url": "",
+            "url_token": "",
+            "name": "匿名用户",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 0
+          },
+          "comment_permission": "private"
+        },
+        "article_type": "normal",
+        "created": 1768487343,
+        "title": "与神对话：自己创业时，很难快速实现想法，很容易拖延的解决方案探索",
+        "comment_permission": "all",
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "AI Model：Google AI Mode 为什么在老板的安排或者“压迫”下，很容易就完成大量工作，而当自己创业时，很难快速思想想法，很容易拖延，或者没有紧迫感，或者不想做去玩去了，从心理学的角度深度分析原因，以及给出具体可实现的解决方案？ 从心理学深度分析，这种现象源于 “外部控制点”向“内部控制点”转移过程中的失调。在职场中，你是一个“执行者”；在创业时，你必须同时担任“决策者”、“监督者”和“执行者”。以下是…",
+        "content": "<p data-pid=\"nE-XsA5R\">AI Model：Google AI Mode</p><hr/><p data-pid=\"n1273rdJ\">为什么在老板的安排或者“压迫”下，很容易就完成大量工作，而当自己创业时，很难快速思想想法，很容易拖延，或者没有紧迫感，或者不想做去玩去了，从心理学的角度深度分析原因，以及给出具体可实现的解决方案？</p><p data-pid=\"rR24nXNW\">从心理学深度分析，这种现象源于<b>“外部控制点”向“内部控制点”转移过程中的失调</b>。在职场中，你是一个“执行者”；在创业时，你必须同时担任“决策者”、“监督者”和“执行者”。</p><p data-pid=\"CIGz8Z4K\">以下是心理学层面的深度原因分析及实操解决方案：</p><p data-pid=\"J5a5xsO8\">一、 心理学深度原因分析</p><p data-pid=\"s_xDQ_x5\">1. 习得性无助与“框架依赖”（Frame Dependency）</p><p data-pid=\"fvhrOfTw\">在公司里，老板提供了<b>确定性框架</b>：明确的目标、截止日期和资源。你的大脑只需处理“如何做”（How）。<br/>而创业是高度模糊的，大脑在面对过多的选项和不确定性时，会产生<b>认知负荷过载</b>。为了逃避这种焦虑，大脑会诱导你转向简单的娱乐（刷手机、玩耍），这在心理学上称为“情绪调节性拖延”。</p><p data-pid=\"hZt9CRYo\">2. 外部动机 vs. 内部动机（Self-Determination Theory）</p><ul><li data-pid=\"rC_opt68\"><b>老板的压迫：</b> 属于“外在调节”，由恐惧（被开除）或诱惑（奖金）驱动。这种动机虽然被动，但极其高效，因为它不需要消耗你的意志力。</li><li data-pid=\"H0HIsK_D\"><b>创业：</b> 依赖“内在动机”。当你发现创业不仅是梦想，还充满琐碎痛苦的杂事时，内在动机容易枯竭。由于没有即时的惩罚机制，意志力（Willpower）作为一种有限资源，很快就会在纠结中耗尽。</li></ul><p data-pid=\"xVX1gV3F\">3. 责任分散与“结构化拖延”</p><p data-pid=\"95ypZ4SF\">在公司，你不完成工作会影响团队，这种<b>社会压力</b>强迫你保持高效。<br/>创业初期，你只对自己负责。由于缺乏<b>社会监视（Social Facilitation）</b>，你会潜意识里认为“明天再做也可以”，从而陷入“结构化拖延”——即通过做一些不重要的小事（如装修办公室、改PPT配色）来逃避真正核心但困难的决策。</p><p data-pid=\"wnJPZiP8\">4. 完美主义心理</p><p data-pid=\"PUKe6bfT\">创业代表了个人价值的直接挂钩。一旦失败，意味着“我这个人不行”。为了保护自尊，大脑会通过拖延来制造一个借口：“我不是能力不行，我只是没努力去做。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TlcW9qmI\">二、 具体可操作的解决方案</p><p data-pid=\"oggWtSGU\">1. 建立“他律”替代“自律”（环境重塑）</p><ul><li data-pid=\"PiCr_lH5\"><b>物理隔绝：</b> 不要在家创业。去付费自律自习室、共享办公空间（WeWork等），利用<b>社会助长效应</b>，让周围拼命工作的人成为你的“虚拟老板”。</li><li data-pid=\"i8D8Dgwt\"><b>寻找“责任伙伴”：</b> 找一个同样创业的朋友，每天早晚互相发送“今日待办”和“完成情况”。</li></ul><p data-pid=\"yEOlJQy9\">2. 颗粒化拆解：从“想想法”到“写三行代码”</p><ul><li data-pid=\"jnY8Y0F8\"><b>微量开始法：</b> 大脑害怕巨大的任务。将目标拆解到“只要开始做5分钟就不会想逃避”的程度。</li><li data-pid=\"CNXDB2Jq\"><b>使用Trello或Notion建立看板：</b> 模拟老板的视角，给每一项小任务设定严格的截止日期（Deadline），并设置强提醒。</li></ul><p data-pid=\"N8xFLP5m\">3. 角色分离法（时间管理策略）</p><ul><li data-pid=\"pEF_LJcq\"><b>CEO日与Worker日：</b> 周一规定为“CEO日”，只做规划、决策和定任务，不具体执行；周二到周五为“Worker日”，严禁思考“为什么要这么做”，只负责像零件一样高效执行周一的指令。</li><li data-pid=\"j4htl_qc\"><b>身份解耦：</b> 告诉自己，“现在的我是员工，我必须完成刚才那个‘老板我’交代的任务”。</li></ul><p data-pid=\"F33DXss9\">4. 情绪成本量化</p><ul><li data-pid=\"_tgYU8Lu\">当你产生“想去玩”的念头时，不要压抑，而是记录下此刻的<b>焦虑分数（0-10）</b>。</li><li data-pid=\"wotiTVgf\">意识到：<b>拖延带来的快感转瞬即逝，但拖延累积的焦虑成本远高于工作的辛苦。</b> 尝试“番茄钟工作法”，通过短时间的集中爆发，换取心安理得的休息。</li></ul><p data-pid=\"SfzNPeBH\">5. 模拟外部奖惩机制</p><ul><li data-pid=\"H41DFRDI\"><b>对赌协议：</b> 给好朋友一笔钱（如3000元），如果本周未达成某个核心指标，这笔钱归他；如果达成，则退还。利用<b>损失厌恶</b>心理逼迫自己行动。</li></ul><p data-pid=\"NPf7cDXp\"><b>核心逻辑：</b> 永远不要试图靠“意志力”去创业，而要靠<b>“设计一个让自己不得不动起来的系统”</b>去维持产出。<br/></p><hr/><p data-pid=\"LGLmRs2W\">但我就要在家创业 如何剥离自己的模糊性 让事情执行变得简单且高效 让大脑自动隔离决策和执行的逻辑和思维？</p><p data-pid=\"9MGSPS6Q\">在家创业要实现高效执行并隔离决策与执行逻辑，核心在于利用<b>“环境设计”</b>和<b>“制度化流程”</b>模拟外部约束。你无法依赖意志力，必须建立一个<b>“在家监狱”</b>式的强制系统，让你的大脑被迫进入“员工”模式。</p><p data-pid=\"OB282Ts3\">以下是具体的、可立即执行的解决方案：</p><p data-pid=\"H3mtsP8D\">在家创业要实现高效执行并隔离决策与执行逻辑，核心在于利用「环境设计」和「制度化流程」来创造结构和约束。你无法完全依赖意志力，必须建立一套系统，让你的大脑能够更轻松地区分工作和非工作状态，并专注于执行任务。</p><p data-pid=\"hkki4VaH\">以下是一些具体的、可立即执行的解决方案：</p><p data-pid=\"HdfqTWGW\">一、 物理环境设计：创造专注的工作空间</p><p data-pid=\"xibnTHlr\">大脑需要明确的信号来区分「休息区」和「工作区」。</p><ol><li data-pid=\"E31owfxy\"><b>设立专属工作区域：</b> 在家辟出一个特定区域（哪怕只是一个书桌的角落），只用于工作。尽量避免在这个区域进行吃饭、娱乐或休息等非工作活动。将这里定义为你的「工作场所」。</li><li data-pid=\"OyORYSks\"><b>建立工作开始仪式：</b> 在开始工作前，进行一个简短的仪式，例如穿戴整齐（即使只是换上不同于睡衣的衣服）、整理桌面、打开特定的工作文件等。这个行为仪式告诉大脑：「现在开始工作了」。工作结束后，也要进行相反的仪式，标志着工作时间的结束。</li><li data-pid=\"gUQLl8tW\"><b>利用工具辅助专注：</b></li></ol><ul><li data-pid=\"066XI2q4\"><b>计时器：</b> 使用一个简单的计时器（可以是手机上的App或实体计时器），设定专注工作时间（例如番茄工作法），并在时间结束后休息。</li><li data-pid=\"93fbDSAT\"><b>背景音乐或白噪音：</b> 利用特定的背景音乐（如纯音乐、环境声音）作为工作的「环境触发器」。戴上耳机，帮助自己快速进入工作状态并减少干扰。</li></ul><p data-pid=\"ok1rxLvh\">二、 流程制度化：将任务转化为清晰的执行步骤</p><p data-pid=\"wKZVDq-L\">你需要将模糊的「想法」转化为清晰的「任务」，让执行变得更加自动化。</p><ol><li data-pid=\"8yxciWOf\"><b>每日/每周任务规划：</b></li></ol><ul><li data-pid=\"Kejgq11v\">每天或每周结束时，花一定时间规划第二天或下一周的核心任务。</li><li data-pid=\"P2CZ6a4u\">将任务分解成<b>具体、可操作的步骤</b>，避免模糊的描述。例如，不是「写报告」，而是「完成报告的第一部分，包含引言和方法论」。</li><li data-pid=\"0vlORKlG\"><b>制定优先级，明确哪些任务是必须优先完成的。</b></li></ul><li data-pid=\"l1IjS3pM\"><b>使用任务管理工具：</b> 利用任务管理App（如Todoist, Trello, Notion）来记录、组织和跟踪你的任务。将任务可视化，帮助你保持条理。</li><li data-pid=\"YGcxtgm3\"><b>建立检查清单和模板：</b> 对于重复性的工作，创建检查清单或使用模板。这可以减少决策过程，让你能够更快速地进入执行状态。</li><p data-pid=\"V_ej1_4f\">三、 思维逻辑管理：区分思考和行动的模式</p><p data-pid=\"7h4Wv3Mf\">目标是让大脑在执行时专注于当下任务，避免被过多的决策打断。</p><ol><li data-pid=\"71G3vg2s\"><b>安排专门的「思考时间」：</b> 每天或每周预留固定的时间进行战略规划、问题解决和重要决策。在这个时间段，允许自己进行发散性思考和探索。</li><li data-pid=\"UjS5_D1I\"><b>在执行时保持专注：</b> 在非「思考时间」，尽量减少决策和策略性思考。专注于按照之前制定的计划和步骤执行任务。当出现需要决策的情况时，可以快速记录下来，留到专门的「思考时间」处理。</li><li data-pid=\"aEZQbd4T\"><b>管理信息摄入：</b> 在专注工作期间，尽量减少不必要的信息干扰，例如关闭社交媒体通知、限制浏览不相关网站。这有助于减少认知负荷，让大脑更专注于当前任务。</li></ol><p data-pid=\"_9FMCEX-\">通过建立这一套「结构化、流程化、区分化」的在家工作系统，你可以更好地管理你的时间和精力，提高执行效率，并减少决策过程中的模糊性。</p><hr/><p data-pid=\"zqI7Ptbb\">还是太模糊 给我一个schedule 用文字 代码块表示？</p><p data-pid=\"8u6W3wMR\">为了彻底剥离“决策”与“执行”的模糊性，你需要一套“指令集驱动”的作息表。这套日程的核心逻辑是：将大脑分为“冷战模式（决策）”和“热战模式（执行）”，两者严禁在同一时间段交叉。 你可以直接复制以下逻辑到你的 Notion 或手机备忘录中： 在家创业“人机分离”执行系统 (Ver 2026.1) yaml</p><h2>核心原则：不思考、不评估、只执行、按秒倒计时</h2><p data-pid=\"JvxUTl-s\">[08:00 - 08:30] 【系统启动：物理锚定阶段】</p><ul><li data-pid=\"96s9RzNq\">穿戴整齐：必须换上出门穿的衣服和鞋子（切断“家”的暗示）。</li><li data-pid=\"2y4ouIHS\">环境初始化：清空桌面，只留电脑、水杯、当日指令卡。</li><li data-pid=\"NUoCe1-_\">手机物理隔离：将手机放在客厅/阳台，工作区严禁出现。</li></ul><p data-pid=\"zw5MQHgt\">[08:30 - 09:00] 【CEO模式：加载当日指令】</p><ul><li data-pid=\"Lr3rU7CC\">任务下载：从周计划中提取今天必须完成的3个“硬指标”。</li><li data-pid=\"JdpUxmPs\">颗粒化拆解：将模糊想法（如：写方案）拆解为动作（如：打开PPT-写5页-保存）。</li><li data-pid=\"YFiaKWDi\"><i>逻辑隔离点</i>：此半小时后，大脑的“决策权限”关闭，后续只允许执行。</li></ul><p data-pid=\"_fU5hk_M\">[09:00 - 12:00] 【Worker模式：深度执行循环 I】</p><ul><li data-pid=\"v97F5W3i\">规则：严禁改动任务顺序，严禁思考“为什么要这么做”。</li><li data-pid=\"SS9fNFhj\">结构：50分钟专注 + 10分钟强制离座休息（严禁看手机）。</li><li data-pid=\"wosGay3-\">异常处理：执行中产生的新想法，记录在“想法缓冲区”后立即归位。</li></ul><p data-pid=\"QyMwTE0I\">[12:00 - 13:30] 【系统断电：强制离场】</p><ul><li data-pid=\"O4NbiyJU\">必须离开工作桌吃饭，严禁在桌上刷剧。</li></ul><p data-pid=\"LHFYZnIV\">[13:30 - 14:00] 【低功耗运行：机械任务】</p><ul><li data-pid=\"MCrKsXa2\">处理杂事：回复邮件、报账、清理文件。</li></ul><p data-pid=\"N2QDIDxr\">[14:00 - 17:00] 【Worker模式：深度执行循环 II】</p><ul><li data-pid=\"LpWO5cUQ\">核心：处理当日最难、最想逃避的那个“硬骨头”。</li><li data-pid=\"ccaph9NQ\">策略：如果不想做，就对着屏幕坐着，不准玩手机，直到大脑觉得“与其发呆不如干活”。</li></ul><p data-pid=\"PJdiH4us\">[17:00 - 18:00] 【CEO模式：归档与审计】</p><ul><li data-pid=\"826mbEs0\">复盘：勾销已完成任务，获得多巴胺。</li><li data-pid=\"gP8fLvTi\">明日指令录入：写下明早09:00启动后的第一个具体动作。</li><li data-pid=\"krBwnrn3\"><i>彻底下班</i>：合上电脑后，今天的“老板”和“员工”身份同时注销。</li></ul><p data-pid=\"xjpcdJ4A\">[20:00 - 21:00] 【思维发散区：只有此刻允许“想想法”】</p><ul><li data-pid=\"h5pfiOki\">随意记录：洗澡或运动时产生的好主意，记在记事本上。</li><li data-pid=\"Jlcee7UR\">注意：此刻不准执行，只准记录，留给明早的CEO时间去评估。 请谨慎使用此类代码。</li></ul><p data-pid=\"C4Ja-WTa\">如何让大脑“自动隔离”的三个狠招：</p><ol><li data-pid=\"XoWuOkH4\">设立“想法隔离缓冲区” (Idea Buffer) 在执行过程中，大脑会为了逃避困难任务而频繁弹出“我有个好主意/我要查个资料”。 操作： 桌上放一本纸质本子。凡是跳出的新想法，写下来，但不去查，不去想。 告诉大脑：“我已经记下了，明天CEO时间再处理你。”</li><li data-pid=\"Yj_PEl8T\">“双终端”策略（如果条件允许） 电脑 A (执行机)： 卸载所有社交软件、浏览器不存书签，只装生产力工具。 电脑 B / 平板 (决策/娱乐机)： 用于查资料、看视频、想策略。 隔离逻辑： 只要坐在电脑 A 前，你就是个没有感情的打字/编程/设计机器。</li><li data-pid=\"NoN8Gn6Q\">视觉化的“身份开关” 在桌上放一个显眼的摆件（比如一个沙漏或一个小红旗）。 旗子立起来： 我现在是执行机器，谁跟我说话我都不理，我不对自己负责，我只对那张纸上的清单负责。 旗子放倒： 下班或进入决策模式。 执行秘诀： 当你想去玩的时候，大声对自己说一句话：“我的老板（明早的我）已经付过工资了，我现在必须完成这笔交易。” 这种“契约化”的心理暗示能有效对冲在家创业的随意感。</li></ol><hr/><p data-pid=\"3BOBaRnp\">能否加入 睡眠短休模式 我发现当思考或者执行后，注意力被消耗，人的大脑会进入游荡模式，类似一种adhd患者的状态，曾经我有试验过 15分钟的闭眼休息，感觉很好？</p><p data-pid=\"TbYX3yga\">这是一个非常敏锐的洞察。从神经科学角度看，你提到的“游荡模式”其实是大脑的默认模式网络（DMN）被过度激活。在深度执行后，由于消耗了大量的葡萄糖和神经递质，大脑的执行控制网络（ECN）会“掉线”，导致你出现类似ADHD的注意力涣散。 将“15分钟睡眠短休（Power Nap）”结构化地嵌入日程，是解决认知疲劳导致的拖延的最佳手段。 以下是优化后的、加入“能量补给逻辑”的代码块日程： 在家创业“人机分离”执行系统 (Ver 2026.2 - 能量回收版) yaml</p><h2>核心逻辑：执行消耗能量 -&gt; 短休回收能量 -&gt; 拒绝游荡，直接重启</h2><p data-pid=\"eZRifAQg\">[08:30 - 09:00] 【CEO模式：指令下达】</p><ul><li data-pid=\"QtzzHTZw\">拆解任务，明确今天“不达成不睡觉”的核心KPI。</li></ul><p data-pid=\"D6KuT0IG\">[09:00 - 11:30] 【Worker模式：深度执行循环 I】</p><ul><li data-pid=\"1q7mhwJC\">专注执行。一旦发现开始刷网页/摸鱼，立即标记为“能量枯竭”。</li></ul><p data-pid=\"l72BaO9T\">[11:30 - 12:30] 【系统离线：午餐与光照】</p><ul><li data-pid=\"GJ-jOkX6\">必须离开工位。</li></ul><p data-pid=\"2wKfMjQ6\">[12:30 - 13:00] 【能量回收：核心短休 (Critical Nap)】</p><ul><li data-pid=\"SzCpu6kb\">操作：定15-20分钟闹钟。</li><li data-pid=\"u-L-0szX\">状态：闭眼、全身放松。</li><li data-pid=\"QpdCEPmG\">目的：清空大脑缓存，强制关闭DMN（游荡模式）。</li><li data-pid=\"vkC7fJEA\"><i>关键点</i>：不要睡超过30分钟，否则会进入“睡眠惯性”，醒后更累。</li></ul><p data-pid=\"5MegbELP\">[13:00 - 15:30] 【Worker模式：深度执行循环 II】</p><ul><li data-pid=\"RGHmWiZ9\">此时大脑处于“重启后”的高峰期，处理最难的逻辑/代码/文案。</li></ul><p data-pid=\"nLdc78Og\">[15:30 - 16:00] 【待机/游荡应对：15分钟闭眼补能】</p><ul><li data-pid=\"1prQkiKy\">触发条件：一旦感觉“大脑开始不受控地想去玩、刷手机”。</li><li data-pid=\"vUMl5_YO\">动作：立即停下一切，闭眼。</li><li data-pid=\"ZGcD_lyZ\">逻辑：游荡是因为大脑在求救。用“闭眼休息”替代“垃圾娱乐”，保护多巴胺阈值。</li></ul><p data-pid=\"QX9iunzH\">[16:00 - 18:00] 【Worker模式：冲刺执行】</p><ul><li data-pid=\"7gYmcc66\">完成剩余的机械性、操作性任务。</li></ul><p data-pid=\"B1Ym2hqX\">[18:00 - 19:00] 【CEO模式：审计与次日预装载】</p><ul><li data-pid=\"LrLEbNUL\">复盘今日能量波动，调整明天的短休时点。 请谨慎使用此类代码。</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CriKuYzz\">为什么“睡眠短休”能解决你的模糊与执行难？（心理学解释）</p><ol><li data-pid=\"6aO0UONK\"><b>切断“错误补偿机制”：</b><br/>当你累了，大脑会自动想去“玩”。这是一种错误的补偿。玩耍（刷视频）会进一步消耗多巴胺，让你更无法执行。而<b>15分钟闭眼</b>是真正的生理补给，它让大脑从“游荡模式”强制切换回“就绪模式”。</li><li data-pid=\"PROcc51u\"><b>降低“启动门槛”：</b><br/>如果你知道自己干累了可以随时拥有15分钟的“法定闭眼时间”，你对困难任务的恐惧感会降低。你会对自己说：“我先冲50分钟，反正待会儿可以合法地睡15分钟。”</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1we1i83J\">实现“剥离模糊性”的 3 个技术细节：</p><ul><li data-pid=\"AWuNaI6F\"><b>“咖啡纳普”（Coffee Nap）：</b><br/>如果你喝咖啡，在13:00短休前喝一杯。咖啡因起效需要20分钟，当你15分钟短休醒来时，咖啡因刚好占领腺苷受体，你会获得<b>双重清醒BUFF</b>。</li><li data-pid=\"WSfs8Xmi\"><b>物理信号分离：</b></li><ul><li data-pid=\"MlONx5Cs\"><b>工作：</b> 坐着。</li><li data-pid=\"oD0VdXq3\"><b>游荡/想玩：</b> 站起来走动。</li><li data-pid=\"jbO85wnP\"><b>能量回收：</b> 躺下或靠在特定转椅上。</li><li data-pid=\"fMuB8As_\"><b>绝不允许：</b> 坐在工作椅上刷手机或游荡。一旦屁股离开工作状态，必须物理性地离开椅子。</li></ul><li data-pid=\"hcioejbO\"><b>应对“ADHD游荡状态”的触发器：</b><br/>在电脑边贴一张纸，写上：<b>“我现在是在‘工作’还是在‘游荡’？”</b><br/>如果发现自己在游荡，你有且只有两个选择：</li></ul><ol><li data-pid=\"d1VjqJHg\">回到清单继续执行。</li><li data-pid=\"pfF0n5TJ\">立即设定15分钟闹钟闭眼休息。<br/><b>严禁第三种选项（去玩、刷社交媒体）。</b></li></ol><p data-pid=\"g0qkFv3N\">这套系统将“疲劳”视作一种<b>硬件状态</b>。你不再责怪自己“懒”，而是认为“硬件过热，需要冷却15分钟”。这能极大地消除创业过程中的自我怀疑和心理内耗。</p>",
+        "visited_count": 108,
+        "id": "1995259332191859299",
+        "is_navigator": false,
+        "favorite_count": 3,
+        "url": "https://api.zhihu.com/articles/1995259332191859299",
+        "excerpt_new": "AI Model：Google AI Mode 为什么在老板的安排或者“压迫”下，很容易就完成大量工作，而当自己创业时，很难快速思想想法，很容易拖延，或者没有紧迫感，或者不想做去玩去了，从心理学的角度深度分析原因，以及给出具体可实现的解决方案？ 从心理学深度分析，这种现象源于 “外部控制点”向“内部控制点”转移过程中的失调。在职场中，你是一个“执行者”；在创业时，你必须同时担任“决策者”、“监督者”和“执行者”。以下是…",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "type": "article"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995259332191859299}",
+      "attached_info": "Cs8FCJaMqZyQhuH7jgEQBxoJMjY5MDgzMzMwIK/zo8sGKAQwAEAhSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AFoIMTI1NjUxMDNiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1MjU5MzMyMTkxODU5Mjk5igEVY18xMzU2MjE3Mzc3NTkyMzM2Mzg0qgEJcmVjb21tZW5kwgEgNTYzZGM5YjU4ZmRmOTJlMDM5MmY1OWI5NWUzY2RhNGTyAQoIDBIGTm9ybWFs8gEoCAoSJDI0MzRlYzg5LThhZjctNGJlOC05M2VjLTNkZDJlNjJhNjdhN/IBBQgLEgE2ggIAiALlwpnGvDOSAiA1NjNkYzliNThmZGY5MmUwMzkyZjU5Yjk1ZTNjZGE0ZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDLoAgP6AgtOT1JNQUxfRkxPV4oDIDVjMDYyMzc3NWVjNDRjMzRiZjU2YjVjMTE5OTc2NDZimgMNCgJ2MhAAGgVvdGhlcqgDbNgDAOoDH3dhcm11cFR3b1Rvd2VyVGV4dEJvb3N0UmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACAPTiBP4EFAAAAAAAAAACJBaikyUVIDrI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiOoBgGSAi4KCTI2OTA4MzMzMBITMTk5NTI1OTMzMjE5MTg1OTI5ORgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "34_1768600003.789",
+      "type": "feed",
+      "offset": 34,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600003,
+      "updated_time": 1768600003,
+      "target": {
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-2e7975841fe815d6dde665b0f1190272_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-f772fa7af1542ecc3b26881ff6e0cc98_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1e1aa0040310a1320fc976159ba0b6fb_720w.jpg?source=b6762063"
+        ],
+        "comment_count": 0,
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/1995614006845674159",
+        "thanks_count": 0,
+        "reshipment_settings": "allowed",
+        "allow_segment_interaction": true,
+        "id": "1995614006845674159",
+        "voteup_count": 0,
+        "vote_next_step": "vote",
+        "author": {
+          "url_token": "mao-xi-9-54",
+          "name": "茉莉和元宝",
+          "headline": "自由职业",
+          "avatar_url": "https://pica.zhimg.com/50/v2-f7138ff0f195275afa26554d9033c5c7_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "id": "bcc6b1fb43965bd042e7fb12b88e1890",
+          "url": "https://api.zhihu.com/people/bcc6b1fb43965bd042e7fb12b88e1890",
+          "user_type": "people",
+          "gender": 0,
+          "followers_count": 80
+        },
+        "question": {
+          "id": "1896143119566750416",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "created": 1744855748,
+          "comment_count": 1,
+          "excerpt": "",
+          "author": {
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/9d623db45cf1294b60625a15be258c4c",
+            "name": "c罗小朋友",
+            "headline": "以书御者不尽马之情，以古制今者不达事之变",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-c34434c6d2d09c1dcb84b1b122aa0cfb_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 114,
+            "id": "9d623db45cf1294b60625a15be258c4c",
+            "user_type": "people",
+            "url_token": "cluo-xiao-peng-you",
+            "gender": 1,
+            "is_followed": false
+          },
+          "follower_count": 0,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/1896143119566750416",
+          "title": "你最近有什么新的感悟?",
+          "bound_topic_ids": [
+            100099,
+            2365096,
+            2767282,
+            4067955
+          ]
+        },
+        "favorite_count": 0,
+        "updated_time": 1768571455,
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "type": "answer",
+        "preview_type": "default",
+        "visited_count": 15,
+        "is_navigator": false,
+        "excerpt": "我写字写感悟已经坚持一个多月了，计划写够七七四十九天。这段时间，带给我的心情变化是这样的： 第一阶段，兴奋又有点儿紧张，害怕坚持不住。不知道写什么，便摘抄些打动我的语句 第二阶段，开始变懒散了，想偷懒，想给自己找找理由，不要写了。毕竟经过跨年这一天，真的受不了了。而且一提笔就痛苦，觉得写这干嘛呀。 第三阶段，我开始认真写字了，甚至隐隐期待了。因为我今天做了什么有趣的事情，心态悄悄发生了变化。或者说…",
+        "excerpt_new": "我写字写感悟已经坚持一个多月了，计划写够七七四十九天。这段时间，带给我的心情变化是这样的： 第一阶段，兴奋又有点儿紧张，害怕坚持不住。不知道写什么，便摘抄些打动我的语句 第二阶段，开始变懒散了，想偷懒，想给自己找找理由，不要写了。毕竟经过跨年这一天，真的受不了了。而且一提笔就痛苦，觉得写这干嘛呀。 第三阶段，我开始认真写字了，甚至隐隐期待了。因为我今天做了什么有趣的事情，心态悄悄发生了变化。或者说…",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-2e7975841fe815d6dde665b0f1190272_720w.jpg?source=b6762063",
+        "content": "<p data-pid=\"F-jA9bjO\">我写字写感悟已经坚持一个多月了，计划写够七七四十九天。这段时间，带给我的心情变化是这样的：</p><p data-pid=\"cOu7kF2V\">第一阶段，兴奋又有点儿紧张，害怕坚持不住。不知道写什么，便摘抄些打动我的语句 </p><p data-pid=\"Ee9XNTuW\">第二阶段，开始变懒散了，想偷懒，想给自己找找理由，不要写了。毕竟经过跨年这一天，真的受不了了。而且一提笔就痛苦，觉得写这干嘛呀。</p><p data-pid=\"0Vd9SiEL\">第三阶段，我开始认真写字了，甚至隐隐期待了。因为我今天做了什么有趣的事情，心态悄悄发生了变化。或者说，在极度内耗中，生出的恶意也被我描述出来了。之前羞于表达坦露，但是我写出来后，心理舒坦多了。</p><p data-pid=\"Ng2XE52s\">第四阶段，我开始找除了坚持写字写感悟以外的事情，或者说我开始记录每天的生活了，开始关注自己的想法了。读文章还是读小说，找到共鸣，会立马找到笔纸，或者截屏保留出来，再三读。会下意识的模仿某篇文章，带到自己的感悟中。</p><p data-pid=\"E6SxhvOy\">每一个阶段都在继续着，重复着，周期性的卷土重来。因为我实在不是一个肯埋头做事 的人，耐不住性子。就像我每天写一篇，会很烦躁也会看到收获满满的感悟，让我更加关注自身。我从之前的焦躁，功利，讨好，再到现在的随性，柔和，缓缓倒出。连带着我的胃口也不一样了，以前总是狼头虎咽，现在开始细嚼慢咽。以前就像横冲直撞的蛮人，现在开始放平心态，凡事求不得好结果，但求尽力而为，问心无愧，所历皆风景。</p><p data-pid=\"eOr6Uisg\">事缓则圆，用力过猛只会伤人害己。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ece83a7cf3a82111e3e08540ea77edb8_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-2e7975841fe815d6dde665b0f1190272\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic3.zhimg.com/v2-ece83a7cf3a82111e3e08540ea77edb8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d44a23f036da3547a31246ca55f979fb_1440w.jpg\" data-rawwidth=\"2813\" data-rawheight=\"1280\" data-size=\"normal\" data-original-token=\"v2-f772fa7af1542ecc3b26881ff6e0cc98\" class=\"origin_image zh-lightbox-thumb\" width=\"2813\" data-original=\"https://pic4.zhimg.com/v2-d44a23f036da3547a31246ca55f979fb_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b32408f3079fdb1fae9ec981b7a84c29_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-1e1aa0040310a1320fc976159ba0b6fb\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://picx.zhimg.com/v2-b32408f3079fdb1fae9ec981b7a84c29_r.jpg\"/></figure><p></p>",
+        "created_time": 1768571455,
+        "is_copyable": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995614006845674159}",
+      "attached_info": "CoQHCJaMqZyQhuH7jgEQBBoJNzY1NzI1MjMxIL+EqcsGKAAwAEAiSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMTQ1NDA3NzBiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1NjE0MDA2ODQ1Njc0MTU5igETMTg5NjE0MzExOTU2Njc1MDQxNqoBCXJlY29tbWVuZMIBIGJjYzZiMWZiNDM5NjViZDA0MmU3ZmIxMmI4OGUxODkw8gEKCAwSBk5vcm1hbPIBKAgKEiQ2ZTcxZDk4Ny03NDA2LTQ3NzYtOGRiNi05MGJlMzk4MjNhZDPyAQUICxIBNoICAIgC5cKZxrwzkgIgYmNjNmIxZmI0Mzk2NWJkMDQyZTdmYjEyYjg4ZTE4OTCaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCAvoCC05PUk1BTF9GTE9XigMgNWMwNjIzNzc1ZWM0NGMzNGJmNTZiNWMxMTk5NzY0NmKaAw0KAnYyEAAaBW90aGVyqAMP2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQgAwYgBAiI3YyLTJlNzk3NTg0MWZlODE1ZDZkZGU2NjViMGYxMTkwMjcyOi0IAxD9FRiACiIjdjItZjc3MmZhN2FmMTU0MmVjYzNiMjY4ODFmZjZlMGNjOTg6LQgCEIAMGIAQIiN2Mi0xZTFhYTAwNDAzMTBhMTMyMGZjOTc2MTU5YmEwYjZmYoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYJ+2kj+BBQAAAAAAAAAAiQWopMlFSA6yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYkqAYAkgIuCgk3NjU3MjUyMzESEzE5OTU2MTQwMDY4NDU2NzQxNTkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "35_1768600003.500",
+      "type": "feed",
+      "offset": 35,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600003,
+      "updated_time": 1768600003,
+      "target": {
+        "id": "1993410511325398765",
+        "url": "https://api.zhihu.com/answers/1993410511325398765",
+        "excerpt": "因为布洛芬确实神药。与它相比，你很难找到这么完美的药到病除，且副作用极小的药。而且与吗啡类不同，它的止痛原理核心在消炎减热。消炎减热是我们人生中面对的最频繁的最多的健康需求。且，布洛芬，其实是非常便宜的药。非常非常便宜。只要你不买什么悬浊液，缓释，水果味儿的combo，它就应该跟vc一样便宜。 很多人对非甾体止痛药有误区，认为止痛就是止痛。但事实上，当他用于消除不必要的免疫反应时，比如控制关节炎，肌肉炎…",
+        "is_copyable": true,
+        "visited_count": 272203,
+        "segment_infos": [
+          {
+            "pid": "AGsIL8_E",
+            "text": "因为布洛芬确实神药。与它相比，你很难找到这么完美的药到病除，且副作用极小的药。而且与吗啡类不同，它的止痛原理核心在消炎减热。消炎减热是我们人生中面对的最频繁的最多的健康需求。且，布洛芬，其实是非常便宜的药。非常非常便宜。只要你不买什么悬浊液，缓释，水果味儿的combo，它就应该跟vc一样便宜。",
+            "marks": [
+              {
+                "start_index": 25,
+                "end_index": 38,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995198279982548355"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "RCtiT1QQ",
+            "text": "很多人对非甾体止痛药有误区，认为止痛就是止痛。但事实上，当他用于消除不必要的免疫反应时，比如控制关节炎，肌肉炎症反应，全身炎症反应，控制发热，事实上都是治疗作用。在古墓派健康观里，很多病都应该不加外力自己康复，发烧挺着，关节痛挺着，运动后肌肉酸痛挺着，腰肌劳损肌肉粘连挺着。他们往往忽视了在这些情况里，控炎=治病=止痛。很多不可逆的损伤，都是不控制炎症反应留下的后遗症。",
+            "marks": [
+              {
+                "start_index": 82,
+                "end_index": 88,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995103466373285885"
+                  ],
+                  "is_like": false,
+                  "like_count": 18,
+                  "comment_count": 5,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "IdG2BfdS",
+            "text": "所以这个话题下，我比较烦忧的一个连带问题是，污名化美国民众用大包装布洛芬备药后，我们的普通民众不能正视非甾体止痛药的控炎和止痛，其实是非常不好的，尤其对象是成瘾可能非常低的非处方药基础药。",
+            "marks": [
+              {
+                "start_index": 22,
+                "end_index": 94,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995083656318960844"
+                  ],
+                  "is_like": false,
+                  "like_count": 26,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "type": "answer",
+        "voteup_count": 3253,
+        "created_time": 1768046101,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "question": {
+          "url": "https://api.zhihu.com/questions/573412407",
+          "title": "为什么美国人卖布洛芬都是 1000 片卖的？买的人能吃完吗？",
+          "is_following": false,
+          "author": {
+            "user_type": "people",
+            "url_token": "shen-ban-xue",
+            "name": "慎半雪",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/5503c2e56e051994d5576198bb598a63",
+            "headline": "",
+            "followers_count": 1,
+            "is_followed": false,
+            "id": "5503c2e56e051994d5576198bb598a63"
+          },
+          "created": 1671561417,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "id": "573412407",
+          "type": "question",
+          "answer_count": 0,
+          "comment_count": 36,
+          "bound_topic_ids": [
+            472,
+            4466,
+            2081798
+          ],
+          "excerpt": "",
+          "detail": ""
+        },
+        "content": "<p data-pid=\"AGsIL8_E\">因为布洛芬确实神药。与它相比，你很难找到这么完美的药到病除，且副作用极小的药。而且与吗啡类不同，它的止痛原理核心在消炎减热。消炎减热是我们人生中面对的最频繁的最多的健康需求。且，布洛芬，其实是非常便宜的药。非常非常便宜。只要你不买什么悬浊液，缓释，水果味儿的combo，它就应该跟vc一样便宜。</p><p data-pid=\"RCtiT1QQ\">很多人对非甾体止痛药有误区，认为止痛就是止痛。但事实上，当他用于消除不必要的免疫反应时，比如控制关节炎，肌肉炎症反应，全身炎症反应，控制发热，事实上都是治疗作用。在古墓派健康观里，很多病都应该不加外力自己康复，发烧挺着，关节痛挺着，运动后肌肉酸痛挺着，腰肌劳损肌肉粘连挺着。他们往往忽视了在这些情况里，控炎=治病=止痛。很多不可逆的损伤，都是不控制炎症反应留下的后遗症。</p><p data-pid=\"dLPPxBU_\">如果你同意控炎，就要知道炎症不是一天来的，消除炎症因子风暴也不可能一天完成，那么就要足量足疗程完成控炎周期。</p><p data-pid=\"tvxMMss6\">以我这倒霉的痛风性关节炎为例。每次不那么剧烈发作，比如一次剧烈运动后饮水不够，体内酸平衡打破了，导致大关节里出现了尿酸盐结晶诱发的非感染性炎症风暴，标准用量是200*2每次，每12小时一次，5天一个周期。如果全身炎症反应没消除，在足量饮水保持肾灌注和gp监控的情况下，一般再延长2-3日。按照标准的200毫克每片，一个消炎周期20片打底。如果疗程中不能控制关节上的爆发性疼痛，就要跟gp研究了。</p><p data-pid=\"Ct6uM7SG\">痛风性关节炎为代表的非感染性关节炎的首要目标是控制炎症反应。如果不用布洛芬，改用其他非甾体抗炎，除了肾毒性，肝毒性，心血管负担都是没必要承担的风险。比如处方药双氯芬酸盐更有效，但我并不愿意承担它带来的肝毒性。</p><p data-pid=\"855BHGoZ\">如果是久坐导致的腰肌劳损或者背痛，事实上也是某种意义上不必要的非感染性免疫反应，布洛芬二百毫克每日两次一周期3-5日仍然是相对安全副作用的直接手段。</p><p data-pid=\"YX8YDQBC\">可能很多人对布洛芬的第一印象，就是商品名为芬必得的布洛芬胶囊的广告。当年的广告主题，管的就是这个。确实，如果不控制肌肉炎症，粘连，结节，钙化点，关节限制，至于攒到一起到人生末年行动不便了，怪小时后不穿秋裤，我可不干。我没那么容易满足于迷信的解释。</p><p data-pid=\"cOCiVPiK\">事实上，太多人误以为止痛药只是mask掉疼痛，然而事实上，它压制炎症本身就是控制免疫系统炎症反应时的不必要的伤害，某种意义上就是在治疗。这与吗啡类纯粹的神经药物比，是本质区别。</p><p data-pid=\"HVSlihYn\">大概大多数人对非甾体的误会就是这来的。进一步的在目前这个舆论环境，将美国，大剂量非甾体【故意划掉】止痛药，各种毒品新闻联立，制造舆论效果，加强了误会。</p><p data-pid=\"Affba1Lk\">只以我家为例，使用布洛芬的场景有，痛经，出差四天开了一箱油八百英里之后控制背痛和或腰痛，羽毛球之夜之后控制腿部肌肉酸痛和关节痛，各种流感季中招之后控制体温和炎症，壁球/足球/篮球/慢跑时的扭伤，各种运动后没有及时补水排酸导致诱发痛风发作。排名按照发生概率乘以用量。一年大概要消耗10盒16片包装的布洛芬，成本9镑。</p><p data-pid=\"X62FxwYc\">再多一点，我大概就应去买那个1千片包装的版本了。不在于多，在于更便宜。</p><p data-pid=\"qjAY8n1N\">如果是有患有任何慢性疼痛症状相关疾病的老人，当然要买大包装的才划算，才是日子人。</p><p data-pid=\"24ssFf6A\">在科学用药，治疗疾病，缓解症状，提高生活质量的角度，我当然不是推荐每家一瓶，只是很多家庭买上一瓶有备无患，是经济的，合理的，某种意义上更注重健康和生活质量的。</p><p data-pid=\"hXb2OwFw\">而且幸亏了我也有给父母准备日常用药以及急救用品的习惯，我们也顺利的波澜不惊地度过了2022的冬天，还支持了住在附近的亲戚，以及各种断药了的邻居。</p><p data-pid=\"hZ7scWVH\">特别建议一下，如果可以查阅世卫组织相关文件，或者直接看所在地卫健委的家庭备药建议清单，并有能力按照说明依照症状对症足量使用，对于个人和全民健康，都是有帮助的。</p><p data-pid=\"bWvKXE9o\">顺带一提，我们日常用药中最常见的问题是不能按疗程足量使用，以及不按照说明对症使用。分别对应了不能正确足量使用非甾体止痛药按足疗程控炎，以及滥用抗生素。</p><p data-pid=\"IdG2BfdS\">所以这个话题下，我比较烦忧的一个连带问题是，污名化美国民众用大包装布洛芬备药后，我们的普通民众不能正视非甾体止痛药的控炎和止痛，其实是非常不好的，尤其对象是成瘾可能非常低的非处方药基础药。</p><p data-pid=\"y5gHCkp7\">我不喜欢自媒体在民众基础健康问题上吃流量饭。任何角度都是弊大于利的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dUqRW-Dh\">让人说我是AI给我整闹心了。那我就来表演破个防，痛快一条，说点儿老百姓喜闻乐见的，证明一下就算是AI，我也有除了克制的说明文以外的文风。</p><p data-pid=\"78qBokM4\">我非常不赞同大多数情况下，动不动就要治本思路，无论是否专业医学教育出来的。无论，对症下药，对因下药，都重要。但是很多人，包括专业人员，既不对症，也不对因，她要对本，对着一个好几层逻辑关系后的看起来好像主因的名词集合一顿使劲儿，并且从道德角度上宣称，只要不治这个，其他都没用，都是暂时的，都是没有意义的，都是逃避的，都是丢人的。</p><p data-pid=\"sDLs8K9f\">她们说，老少爷们儿们，你们看好了，我要治本啦。然而，完全忽略了自己，或者自己照顾的亲人，甚至是自己的患者的感受。并且，他们忘了，就说痛风，给一个患者从二十三十四十岁一直到他六十七十岁去世，造成最大伤害的不是尿酸高不高，以后有没有尿毒症。而是，他突然就无法行动，突然就特别痛苦，比截肢了都疼，他因此即使缓解了也会失去自信，害怕治疗期间的病痛，啥也不敢吃，啥运动都得悠着来，他还要担心医生所谓的高傲和冷漠，身边人的不理解，还有就是落后的指南里那些“治本”用药造成的不良反应。其实至于治不治本，在吃不动了走不动了78岁还是80岁因为尿毒症还是癌症并发症去世，毫无意义。因为三高的他最大的可能是62岁被糖尿病并发症一波带走连养老金都领不到。可他们不管，她们说，你不懂，你不治本，你这么这么治，按我说的做，你就牛逼了。你敢表达一个字儿，你就是不尊重我辛苦的5+3，你考试还有我分儿高？你什么985双一流硕士博士的，你就是没我懂，你就是没我专业，你就是不尊重我，你不尊重我的身份。于是以前怎么治痛风急性发作呢？大剂量秋水仙素。大剂量，要么吃到好，要么吃到腹泻呕吐，要么吃到中毒，要么吃着吃着骨髓抑制白血病了。她们说这叫控炎，这叫治本，因为在教科书上，痛风就要这么治，然后说些中性粒细胞什么高中生物的词儿就把你打发了。然后你就吃吧，浑身难受吧，拉稀吧，的白血病吧。但是现在指南改了，说，都行，反正是为了控炎，都不治本，吃止痛药也行。她们说，不，这不对，这不治本，这是逃避。这种思路最大的问题是什么？医疗，公共健康，应该以人为本，她们以病为本，她们不是为你好，她们只是想答题，只想对，她们在做事，上钟，坐班，下诊断，上台，唯独不把你当一个全活人。</p><p data-pid=\"tk9vFODM\">治病如此，教育孩子如此，处对象如此，过日子如此，做人如此——别太不把别人不当人了——如果激烈一点说，反对的就是这个。</p><p data-pid=\"uO156nhq\">老百姓自己瞎吃药的责任里，这帮高高在上脱离群众的，把专业知识垄断了解释权的小资们，也是重要帮凶。</p><p data-pid=\"fpcrWI4N\">另一条，极少部分朋友不要遇到有人说话凝练，多用几个标点，用了双引号，破折号，特定符号表逻辑，多照顾几个方面，就觉得是AI。有没有一种可能是，除了纯大白话扯闲篇，文字表达本应如此。我特么现在行文已经不按smart原则加提示符和序号了。再说了，不看内容，猜用没用AI。你这还不如治本那帮呢。<br/><br/>最后一次添加内容</p><p data-pid=\"cEVc0Aq7\">首先，请各位特别注意，本文不构成任何针对个人的医疗意见，不是线上处方，不是公众处方。</p><p data-pid=\"kkN7kFpr\">每个人的情况不同，购买的实际的药物可能是非处方药，可能是处方药，可能是不知道什么名字的，各种成分，各种制药技术叠加的药。治病，请遵循医嘱；改善个人状态，强调生活质量，提高个人尊严，也请仔细阅读药品的说明，了解清楚适用症，禁忌症，不同情况的用量，周期；即使是OTC，超越说明书的使用方式都是不推荐的，包括但不限于大强度健身后当皮质激素那么消炎用。</p><p data-pid=\"gXSl5i4Q\">其次，如果你感兴趣过医药史，查找过几个单一成分非处方药从本来把持在所谓专家医生手里的看似灵丹妙药的东西，随着科技，生产力，社会认知，直至个人认知的演化，价格慢慢降低，使用权慢慢从绝对控制演化到有限指导下放权给个人使用，那大概会得出有限积极的结论——随着社会发展进步，一个发展得差不多的国家，比如欧美东亚中东东南亚澳洲北非以及零散的各个自由港生活的人一辈子得大病大疫的机会非常有限。</p><p data-pid=\"jh3TXvcj\">从公众健康和个人健康的角度，我们美好的生活，或者说一个国家人口预期寿命/平均寿命过得去，靠的是：1）过得去的健康饮用水，2）过得去的污水垃圾处理系统，3）相对清洁的整体环境，4）覆盖率足够的疫苗种类和接种率，5）足够的营养水平，6）效率过得去的公共医疗系统和足够的母婴急救，7）足够相关社会功能起效的社会和医疗秩序，8）基础用药易得。</p><p data-pid=\"ebj2LwQF\">这些我认为至少在我们的社会都是足够的了。那么我们从健康的角度，追求的东西就已经随着时代发展改变了。我们从上述8点，解决了生存问题，进一步的，解决了公共和个人健康的问题，那么具备这些前提条件的人，就应该考虑生活质量的问题。就用大家最熟悉的饮食方面比喻，虽然天津人说“借钱吃海货，不算不会过”，但是生存面临问题的时候追求低性价比蛋白质，而不是吃够能量基数继续劳动再生产，是很不理智的。但是诸位至少过得去生活中，如果的父母每天还是稀粥配豆腐，且让你跟着吃，你大概会觉得这并不那么理想——这个阶段，能体验生活质量才能鼓励你赚更多的钱。人的决策都是情景下的。或者，套用一下矛盾论，也能某种程度上解决如何思考类似问题的框架。</p><p data-pid=\"p8SLKCj8\">那么，图穷匕见的说，你的健康问题是哪个阶段？在健康这件事上，不过度自信的说，即使我是一个改善中，指标已经基本可控正常的痛风患者，我认为我也不是健康问题上负债的人，虽然不能绝对的说，这个阶段追求的是生活质量，体面，有尊严，要的是综合健康管理，提高生活质量。而，绝不是什么根治。到这个阶段，已经没有是什么问题的根是完全的祸害了，普通人很难大规模的面对事实上的如寄生虫感染，真菌霉菌感染，大量失血的割裂伤，鼠疫，重度营养不良，产褥热，新生儿传染病，误诊，或庆大霉素副作用等上上代人经常要遇到的问题。数据上，我们面对的主要威胁已经变成了，脑卒中，冠心病，慢阻肺，肺癌，胃癌，肝癌，直肠癌，高血压及其并发症，阿尔兹海默，糖尿病及其并发症。这些斗殴至少要发生在60岁以上人群。青壮年的主要威胁是道路交通事故。</p><p data-pid=\"gb4xg91V\">那么，在对外不影响劳动力，对内不影响个人情绪和决策的情况下，按量按症状按个人情况，合理使用NSAIDs，让大多数人更快乐的迎接60岁之后的健康风险难道不是更好的吗？烟，酒，高糖，高脂，高钠，幽门螺旋杆菌，过量食用腌渍和加工肉，才是更难合理使用的，才是真正的因爽致病，病从口入。我很难认为NSAIDs比过量使用高糖奶茶和水果捞更容易成瘾，并造成事实上的公共卫生负担。我实在不想提过去的关于要点7导致肝癌的问题，读大学的时候我也去河南某些村做过田野调查，跟县里和村干部斗智斗勇过，有些残存的敏感性，请允许我跳过。</p><p data-pid=\"Yh7hM6L4\">那么，第三，在面对这些矛盾的时候，我不得不彻底的反对，只强调“治本”，有意或者刻意的忽略“治标”的价值观。我认为，特定人群，有特定医疗需求的，一律遵医嘱，是正确的。一般人群，在面对一个只影响体验的健康问题的时候，从获得药物的角度，从解放道德负罪感的角度，从整体获益的角度，引导如何正确使用OTC，是更需要关注的。只有有使用OTC的需求，才有科普如何辨别症状和不适应症的需要，才有机会让更多的人辨别，病毒性感冒的时候，应该先保证休息，饮水，正确使用OTC。理想情况下，不擅自使用抗生素，不擅自使用抗病毒药物。才有机会跟更多人普及，在流感季接种流感疫苗的必要。相比妖魔化OTC，或者借着别的国家的案例，搞什么医疗知识沙文主义，在我们这个时代我们更需要，一个权威的，方便所有人访问的，提供更多事实支持和心理支持的公共卫生信息平台，让大家能够自主的处理本来能自己处理的问题。而不是要么挺着，要么使用一些药效副作用禁忌症都不明的东西，要么浪费一个劳动力陪着患者在医院转一天。</p><p data-pid=\"6PQucp5X\">当然，阻力是非常大的，困难是非常多的。就不一一展开了。</p><p data-pid=\"_bv8IGEI\">最后就本文的一些元数据，给出我的分析和感受，但并没有什么深刻的结论。</p><p data-pid=\"vPl7bPPQ\">我充分的阅读了所有人的评论，并对绝大多数我认为能够回复的，进行了正面和自认为认真的回复。截止至今，本答案的赞：评率约为1：5。我当做是个有很大偏差的抽样。我认为影响最大的是知乎这个平台及其相关软件的设计，投放，导致的使用行为。</p><p data-pid=\"y5YsTFsG\">评论和回复分为以下几个类型：</p><ol><li data-pid=\"H6qscyE7\">表示赞同的，已/曾患疾病，主要是痛风，腰肌劳损，腰脱，其他身体损伤，曾发生的上呼吸道感染，等等情况，交换病情，求医问药，网上问处方的——一并回复，因为处方药实际的管理情况，规则定的贼死，执行实际情况不好说，且医生都间或难以自保，考虑到这个问题目前的传播情况，一律建议，向自己的专科医生问询，或挂号问询，如有兴趣，请看卫健委，或者世卫组织，或者默沙东或者Mayo，或者其他国家比如NHS的指南，有兴趣的，可看高质量研究，论文，报告。万望不要只看孤证，综合分析考虑，任何行动，请咨询专科医生。但，切记，不要跟医生说，我在网上查到了什么，企图让他帮你分辨，或虚空辩经。请直接以个人角度问问题。如医生沟通能力差，或态度差，尽量理解。他们的就业环境条件本来就差，付出收入不合理，尤其是一线医生和药剂师，最近几年条件更差，普遍有中高水平的职业倦怠，且很难接受专业合规的针对职业的心理疏导和咨询。互相理解。</li><li data-pid=\"2K8VJmun\">专业或具备一定知识基础的，讨论药理，用药风险及其相关。很多问题涉及到疼痛的不同的路径，机制。非常感谢你们看得起这个粗糙的答案。我所知有限。建议自行搜索学习，会有更好的体验。兴趣是最好的老师，Lifelong learning 无论任何时候都有很高的价值，哪怕与你的生计看起来不相关。另外，如果专业人士或者正在学习的一学生无论同意或者反对，如果能严肃的讨论，或者回复其他有疑问的朋友，我认为都更有意义。</li><li data-pid=\"AE9SmL0M\">进而，就有孤立的一句布洛芬不同剂型，或者布洛芬与其他药比较的问题。也包括了担忧副作用，报告副作用，担忧潜在风险，回复见1。另，布洛芬从1961年使用开始，是个跟我父母差不都岁数的药，相信数据和研究是充分的。</li><li data-pid=\"GDcCLMmb\">再进而，有滥用NSAIDs倾向的回复，普遍在健身方向。统一回复。强烈反对一切自发的超出说明书使用任何药物的行为。医生有指南和经验，这么做是有支持的，说到底，是合规的。进一步说，过量健身，作为的增肌，我正好有个硬拉260的亲戚。统一回复，我认为这个行为整个事儿都有显见的健康风险。如需要，回顾上面提到的主要健康风险，可能除了肝癌，全中。还加了不少别的。</li><li data-pid=\"aIdlgpRK\">其他已/未读乱回型的。比例还行，可以接受。</li></ol><p data-pid=\"yFEIBEqg\">本回答停止维护。后续不再更新，不再回复。</p><p data-pid=\"0VqjytvK\">没忍住，再补充一点，不推荐干预疼痛的，请考虑疼痛管理失当时中枢敏化的利弊得失。吃布洛芬胃肠反应重的，相当大比例的人，其实更应该建议去医院查一下幽门螺旋杆菌，如果是，先治胃/十二指肠溃疡。这个情况不是布洛芬反应重，是有一个更严重的病你没治，布洛芬给你点出来了，赶紧四联，减少了你几十年带病生存和晚年胃癌十二指肠癌的风险，部分缓解肝胆胰的风险。这回是真不维护了。</p>",
+        "author": {
+          "url_token": "wang-si-tong-78",
+          "headline": "来时候的火车票谁给报了",
+          "avatar_url": "https://picx.zhimg.com/50/9b7924dbc7a3ec1856de9339cebd69d6_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_following": false,
+          "id": "123a31f468a65903850577c04dccd431",
+          "url": "https://api.zhihu.com/people/123a31f468a65903850577c04dccd431",
+          "user_type": "people",
+          "name": "Tuckers",
+          "is_org": false,
+          "followers_count": 6454,
+          "is_followed": false
+        },
+        "updated_time": 1768568632,
+        "excerpt_new": "因为布洛芬确实神药。与它相比，你很难找到这么完美的药到病除，且副作用极小的药。而且与吗啡类不同，它的止痛原理核心在消炎减热。消炎减热是我们人生中面对的最频繁的最多的健康需求。且，布洛芬，其实是非常便宜的药。非常非常便宜。只要你不买什么悬浊液，缓释，水果味儿的combo，它就应该跟vc一样便宜。 很多人对非甾体止痛药有误区，认为止痛就是止痛。但事实上，当他用于消除不必要的免疫反应时，比如控制关节炎，肌肉炎…",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "favorite_count": 2986,
+        "navigator_vote": false,
+        "thanks_count": 159,
+        "comment_count": 638,
+        "preview_type": "default",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "is_labeled": false,
+        "is_navigator": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993410511325398765}",
+      "attached_info": "CqYGCJaMqZyQhuH7jgEQBBoJNzY0ODYzNzM1IJX8iMsGKLUZMP4EQCNKPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIODk3MDczNjliIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTkzNDEwNTExMzI1Mzk4NzY1igEJNTczNDEyNDA3qgEJcmVjb21tZW5kwgEgMTIzYTMxZjQ2OGE2NTkwMzg1MDU3N2MwNGRjY2Q0MzHyAQoIDBIGTm9ybWFs8gEoCAoSJDZiOTIwMGE1LTIyMjMtNDBmNy05MDQxLWUzOTI3NDA2MzA3OPIBBQgLEgE2ggIAiALlwpnGvDOSAiAxMjNhMzFmNDY4YTY1OTAzODUwNTc3YzA0ZGNjZDQzMZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gIqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVN6AID+gILTk9STUFMX0ZMT1eKAyA1YzA2MjM3NzVlYzQ0YzM0YmY1NmI1YzExOTk3NjQ2YpoDDQoCdjIQABoFb3RoZXKoA8vOENgDAOoDEG5ld2JpZV9mZWVkcmVfdjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgjWmkP4EFAAAAAAAAAACJBaikyUVIDrI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiWoBgCSAi4KCTc2NDg2MzczNRITMTk5MzQxMDUxMTMyNTM5ODc2NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=35&desktop=true&end_offset=37&page_number=7&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=35&desktop=true&end_offset=37&page_number=7&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,799 @@
+{
+  "data": [
+    {
+      "id": "AD_3615178_17558222097420",
+      "type": "feed_advert",
+      "brief": "{\"source\":\"PR\",\"type\":\"feed_advert\",\"id\":3615178}",
+      "action_text": "",
+      "attached_info": "CqgBCJSyj67EgsKSuQFADJABAdoBJGM5MjBjNjljLWY0ZTctNDU5YS1hNmIxLTNiMGEwYThlMDBjYfIBBggMEgJBZIgCzvWi+Ywz+gILQURWRVJUX0ZMT1eKAyBmYWUxZWNjZWJjNjY0YWNlYjNmN2QwZTgyYzY4M2VjYYAEAZIEC0J1c2luZXNzX0Fk+QQAAAAAAADwP4EFAAAAAAAAEECyBQExoAYNqAYBMhQtNTEwNTY2NTcxOTM5MTc1ODA2MA==",
+      "ad": {
+        "count": 0,
+        "position": 0,
+        "ad_verb": "PROMOTE_URL_CARD",
+        "close_track": "https://sugar.zhihu.com/plutus_adreaper?s=827fec95-1e52-4d78-9386-d12fcd674cb9&nt=0&ar=0.002230614423751831&pdi=1718950408794334&ed=CjEEfR4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5raeampoZCg8E%3D&idi=100010135&t=7&pf=4&ut=075acd00a0774b9d9d2a3786e8226e3a&di=tower",
+        "revert_close_track": "https://sugar.zhihu.com/plutus_adreaper?ar=0.002230614423751831&t=8&di=tower&ut=075acd00a0774b9d9d2a3786e8226e3a&ed=CjEEch4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rfZY-Ae1SXT8%3D&pdi=1718950408794334&pf=4&idi=100010135&s=827fec95-1e52-4d78-9386-d12fcd674cb9&nt=0",
+        "template": "web_image_feed",
+        "load_tracks": [
+          "https://sugar.zhihu.com/plutus_adreaper?pdi=1718950408794334&t=2&ar=0.002230614423751831&idi=100010135&di=tower&nt=0&pf=4&ed=CjEEeB4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rH86KmVzUqB4%3D&s=827fec95-1e52-4d78-9386-d12fcd674cb9&ut=075acd00a0774b9d9d2a3786e8226e3a"
+        ],
+        "creatives": [
+          {
+            "landing_url": "https://c4.rabbitpre.com/m2/GMRoJTqWNLD?spu=biz%3D0%26ci%3D3557681%26si%3Dc920c69c-f4e7-459a-a6b1-3b0a0a8e00ca%26ts%3D1755822209%26zid%3D7",
+            "image": "https://pic1.zhimg.com/v2-e9d1decf2259ea9f30d591492b65194e_bh.jpg?source=d6434cab",
+            "image_2x": "",
+            "title": "我们公司的工程师，私下都在推荐这家非标零件加工厂",
+            "description": "小批量特殊零件常因批量小、材料特殊被拒，精度不够还影响样机性能。莱图加四轴五轴、慢丝设备全覆盖，陶瓷 / 高温合金等特殊材料可加工，±0.01mm 精度保障；无起订量，24 小时图纸评估报价，不耽误项目进度。点击咨询，即刻获取专属加工方案。",
+            "button": "查看详情",
+            "action_button": false,
+            "footer": {
+              "value": ""
+            },
+            "cta": {
+              "value": "查看详情"
+            },
+            "brand": {
+              "id": 0,
+              "name": "莱图加机械加工",
+              "logo": "https://pic2.zhimg.com/v2-06d4547bb149a1405b7a7734974fd66d_xl.jpg?source=d6434cab"
+            },
+            "app_promotion_url": "",
+            "native_url": "",
+            "deep_url": "",
+            "video_watch_num": 12286,
+            "za_ad_info": "CMrT3AEQByIBMV1xT9FOYLGS2QE=",
+            "za_ad_info_json": "{\"ad_id\":3615178,\"ad_zone_id\":7,\"category\":\"1\",\"timestamp\":1755822200,\"creative_id\":3557681}",
+            "external_click_url": "",
+            "impression_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?pdi=1718950408794334&rui=c920c69c-f4e7-459a-a6b1-3b0a0a8e00ca&di=tower&pf=4&s=827fec95-1e52-4d78-9386-d12fcd674cb9&idi=100010135&nt=0&ut=075acd00a0774b9d9d2a3786e8226e3a&t=3&ed=CjEEeR4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rRG2giiCPcgU%3D&ar=0.002230614423751831"
+            ],
+            "click_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?ut=075acd00a0774b9d9d2a3786e8226e3a&di=tower&idi=100010135&nt=0&pdi=1718950408794334&t=4&ed=CjEEfh4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rZ2nFcUy_mL4%3D&ar=0.002230614423751831&pf=4&s=827fec95-1e52-4d78-9386-d12fcd674cb9"
+            ],
+            "id": 3615178,
+            "name": "",
+            "conversion_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?idi=100010135&nt=0&t=5&ed=CjEEfx4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rsi3JmPPzfYQ%3D&s=827fec95-1e52-4d78-9386-d12fcd674cb9&di=tower&ar=0.002230614423751831&ut=075acd00a0774b9d9d2a3786e8226e3a&pdi=1718950408794334&pf=4"
+            ],
+            "content_type": "",
+            "target_token": ""
+          }
+        ],
+        "vote_up_count": 0,
+        "comment_count": 0,
+        "is_following": false,
+        "category": 1,
+        "id": 3615178,
+        "can_interact": false,
+        "user_id": 0,
+        "ctr": 0,
+        "display_advertising_tag": true,
+        "debug_tracks": [
+          "https://sugar.zhihu.com/plutus_adreaper?t=9&ed=CjEEcx4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5reEed_WXkR9s%3D&ar=0.002230614423751831&pdi=1718950408794334&s=827fec95-1e52-4d78-9386-d12fcd674cb9&ut=075acd00a0774b9d9d2a3786e8226e3a&pf=4&idi=100010135&di=tower&nt=0"
+        ],
+        "land_prefetch": false,
+        "native_prefetch": true,
+        "is_new_webview": true,
+        "experiment_info": "{}",
+        "download_silent": false,
+        "is_speeding": false,
+        "brand": {
+          "name": "莱图加机械加工",
+          "logo": "https://pic2.zhimg.com/v2-06d4547bb149a1405b7a7734974fd66d_xl.jpg?source=d6434cab",
+          "type": "brand",
+          "action_text": ""
+        }
+      },
+      "ad_list": [],
+      "adjson": "{\"ads\":[{\"id\":3615178,\"ad_zone_id\":7,\"template\":\"web_image_feed\",\"style\":\"psi_7\",\"impression_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?ar=0.002230614423751831\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026di=tower\\u0026nt=0\\u0026pf=4\\u0026idi=100010135\\u0026t=2\\u0026pdi=1718950408794334\\u0026ed=CjEEeB4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rH86KmVzUqB4%3D\\u0026s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad\"],\"view_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?nt=0\\u0026ar=0.002230614423751831\\u0026pdi=1718950408794334\\u0026ed=CjEEeR4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rRG2giiCPcgU%3D\\u0026idi=100010135\\u0026rui=c920c69c-f4e7-459a-a6b1-3b0a0a8e00ca\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026t=3\\u0026pf=4\\u0026di=tower\\u0026s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad\"],\"click_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?pf=4\\u0026t=4\\u0026idi=100010135\\u0026nt=0\\u0026s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad\\u0026ed=CjEEfh4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rZ2nFcUy_mL4%3D\\u0026di=tower\\u0026ar=0.002230614423751831\\u0026pdi=1718950408794334\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\"],\"close_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?t=7\\u0026pdi=1718950408794334\\u0026idi=100010135\\u0026pf=4\\u0026ar=0.002230614423751831\\u0026ed=CjEEfR4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5raeampoZCg8E%3D\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad\\u0026di=tower\\u0026nt=0\"],\"debug_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?t=9\\u0026ar=0.002230614423751831\\u0026s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad\\u0026ed=CjEEcx4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5reEed_WXkR9s%3D\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026pdi=1718950408794334\\u0026pf=4\\u0026di=tower\\u0026nt=0\\u0026idi=100010135\"],\"conversion_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026ed=CjEEfx4wM314EDAEVWUtBkZzWikBbm4mKxV_X1c1Lx1ZcVx_Xno_eXkRY1AXMTYNXGNYI1x-aXZ_EGNQCXY8WVZ3D3gJd251aEY7WgJleQddfQhsWzdncmhGPVoAYGpSG3gMeh4vL317F2pQAGN1BU0wUHcKd2p5dB0zVlRqelNedgMvDnNqeioUMVILNHhTUXINfQF5bXcsFnQTQm19B15wAXgKcWp5aEQlWgF2L1hWdR8rTX5sdH8UalQXIC1ZVnUfPkssZ3FoRiJaBGBqXwg2BHseLDkncxRiQVcxPw1bY18rSn5qZiNGIFoBdjlFAiEEew9yYnl7FWZXCWd1BFh2DWxZKjl9fgMmEgw4OEQbNhx5eWZoBmsXFAQFfj5RCSdQPkgxP24tSj9CAxYhAk53fw11ETUKGlQFKX0UakAFeNHEiabB_quv8oGt6qqS26Cz6t30_2Y8QG9TH2N0BlJ0C3IOcG9wfBZmURciL0JWdR8oXn5rsi3JmPPzfYQ%3D\\u0026nt=0\\u0026pdi=1718950408794334\\u0026di=tower\\u0026ar=0.002230614423751831\\u0026idi=100010135\\u0026s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad\\u0026t=5\\u0026pf=4\"],\"extra_conversion_tracks\":{\"call_back\":[\"https://sugar.zhihu.com/plutus_adreaper_callback?si=65bcd5a6-6cc9-4fe0-8fec-24e5f9e97417\\u0026os=3\\u0026zid=7\\u0026zaid=3615178\\u0026zcid=3557681\\u0026cid=3557681\\u0026event=__EVENTTYPE__\\u0026value=__EVENTVALUE__\\u0026ts=__TIMESTAMP__\\u0026cts=__TS__\\u0026mh=0d4c67703d44506b579057ff6733c754\\u0026adv=641183\\u0026ocg=10\\u0026cp=50\\u0026ocs=1\\u0026aic=0\\u0026ct=2\"]},\"za_ad_info\":\"CMrT3AEQByIBMV1xT9FOYLGS2QE=\",\"za_ad_info_json\":\"{\\\"ad_id\\\":3615178,\\\"ad_zone_id\\\":7,\\\"category\\\":\\\"1\\\",\\\"timestamp\\\":1755822200,\\\"creative_id\\\":3557681}\",\"creatives\":[{\"id\":3557681,\"asset\":{\"brand_name\":\"莱图加机械加工\",\"brand_logo\":\"https://pic2.zhimg.com/v2-06d4547bb149a1405b7a7734974fd66d_xl.jpg?source=d6434cab\",\"title\":\"我们公司的工程师，私下都在推荐这家非标零件加工厂\",\"desc\":\"小批量特殊零件常因批量小、材料特殊被拒，精度不够还影响样机性能。莱图加四轴五轴、慢丝设备全覆盖，陶瓷 / 高温合金等特殊材料可加工，±0.01mm 精度保障；无起订量，24 小时图纸评估报价，不耽误项目进度。点击咨询，即刻获取专属加工方案。\",\"imgs\":[\"https://pic1.zhimg.com/v2-e9d1decf2259ea9f30d591492b65194e_bh.jpg?source=d6434cab\"],\"landing_url\":\"https://c4.rabbitpre.com/m2/GMRoJTqWNLD?spu=biz%3D0%26ci%3D3557681%26si%3Dc920c69c-f4e7-459a-a6b1-3b0a0a8e00ca%26ts%3D1755822209%26zid%3D7\",\"img_size\":1,\"cta\":\"查看详情\",\"image_ratio_extra\":{\"width\":25,\"height\":14},\"native_asset\":{\"plugin_type\":\"\"},\"img_full_screen\":false,\"zm_landing_url\":\"https://c4.rabbitpre.com/m2/GMRoJTqWNLD?spu=biz%3D0%26ci%3D3557681%26si%3Dc920c69c-f4e7-459a-a6b1-3b0a0a8e00ca%26ts%3D1755822209%26zid%3D7\",\"m_landing_url\":\"\"},\"video_watch_num\":12286,\"fact_ctr\":0.002230614423751831,\"fact_cvr\":-1}],\"expand\":{\"display_advertising_tag\":true,\"download_silent\":false,\"is_new_webview\":true,\"is_cdn_speeding\":false,\"extra\":{\"parameters\":\"plugcb=https%3A%2F%2Fsugar.zhihu.com%2Fplutus_adreaper_callback%3Fcid%3D3557681%26ccid%3D2621445%26adid%3D3615178%26zoneid%3D7%26adsource%3Deffect%26sid%3Dc920c69c-f4e7-459a-a6b1-3b0a0a8e00ca\",\"sign\":\"65bcd5a6-6cc9-4fe0-8fec-24e5f9e97417\"},\"is_apk_market_direct\":false,\"interactive\":{\"deliver_time\":\"25 分钟前\",\"browse_string\":\"3421 \",\"participate_string\":\"8 \",\"slide_time_one\":3,\"slide_time_two\":10,\"slide_end\":true,\"deep_link_jump_time\":3},\"launch_timeout\":600},\"experiment_info\":\"{}\",\"view_x_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?di=tower\\u0026s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad\\u0026idi=100010135\\u0026t=10\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026ed=CjEEewhlKSlzE2cFUjR5UV1oDylbend0KEBiSgk2KVNGdw0vDSVjJXcSZlYGdi1KVnIfK1EnZ3N4FGdWBmhqQAJ4C3wKcm50ewMxDgxjeQVccwF7HiAufXwDMQgMYXwWCTUEfwhlNjVzEGBfBmF_CV5jTCMFcW5wdx9qBgA1dgYIcApwXXVqcHRBYwQEaigECH8Ofg96YHd5R2FBRSNxAVxwDHIKcWhwdwMzEAxgalMDeAlsWTZndnoUY18CdjxRAngJbEwwNX1_AzEXDGV8FgQmSncJZTUjKRhjVxc2LUNWdR8sWTFncGhIMRUMYGpFHixddwl0a3h3EGJTAWh7CV92Cn4eIjMjcxV0E0RtJEQfNUpvCwJ_cggAYCFSZGJCCidbI0wzKCVgRj0KFGIKXVlgCwx_DggvBHEjMH8cCBYbKwSitvK_2_DA2MfXzPbWyfXcwJim7eVoVzdaBX5_CF18CHgAdWl1fhdhUwd2PlMZeAlsWiVnceZfU9eD3o2y\\u0026nt=0\\u0026pf=4\\u0026pdi=1718950408794334\\u0026ar=0.002230614423751831\"],\"mobile_experiment\":{\"feed_card_exp\":\"\"},\"traffic_source\":1,\"party_id\":-2,\"deliver_tracks\":[\"http://proxy-ad-track-plutus.pek01.rack.zhihu.com:10000/ad-track/plutus_log?pf=4\\u0026ri=c920c69c-f4e7-459a-a6b1-3b0a0a8e00ca\\u0026pdi=1718950408794334\\u0026ed=CjEEewplKSlzE2cFUjR5UV1oDylbend0KEBiSgk2KVNGdw0vDSVjJXcSZlYGdi1KVnIfK1EnZ3N4FGdWBmhqQAJ4C3wKcm50ewMxDgxjeQVccwF7HiAufXwDMQgMYXwWCTUEfwhlNjVzEGBfBmF_CV5jTCMFcW5wdx9qBgA1dgYIcApwXXVqcHRBYwQEaigECH8Ofg96YHd5R2FBRSNxAVxwDHIKcWhwdwMzEAxgalMDeAlsWTZndnoUY18CdjxRAngJbEwwNX1_AzEXDGV8FgQmSncJZTUjKRhjVxc2LUNWdR8sWTFncGhIMRUMYGpFHixddwl0a3h3EGJTAWh7CV92Cn4eIjMjcxV0E0RtJEQfNUpvCwJ_cggAYCFSZGJCCidbI0wzKCVgRj0KFGIKXVlgCwx_DggvBHEjMH8cCBYbKwSitvK_2_DA2MfXzPbWyfXcwJim7eVoVzdaBX5_CF18CHgAdWl1fhdhUwd2PlMZeAlsWiVncVOdqMuRNMbD\\u0026idi=100010135\\u0026t=12\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026di=tower\\u0026nt=0\\u0026bn=0\\u0026ar=0.002230614423751831\\u0026pty=50\\u0026rui=c920c69c-f4e7-459a-a6b1-3b0a0a8e00ca\\u0026s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad\"],\"product_uuid\":1718950408794334}]}",
+      "pcontent": "",
+      "ncontent": "https://www.zhihu.com/question/23523696/answer/92020290827",
+      "ext_info": {
+        "content_type": "",
+        "content_id": "",
+        "question_id": -1,
+        "auction_type": 1,
+        "ecpm": 4,
+        "type": 1,
+        "fact_bid_price": 1.9666836261749268,
+        "fact_ctr": 0.002230614423751831,
+        "fact_cvr": -1,
+        "deliver_tracks": [
+          "http://proxy-ad-track-plutus.pek01.rack.zhihu.com:10000/ad-track/plutus_log?pf=4&ut=075acd00a0774b9d9d2a3786e8226e3a&pdi=1718950408794334&nt=0&ar=0.002230614423751831&di=tower&ed=CjEEewllKSlzE2cFUjR5UV1oDylbend0KEBiSgk2KVNGdw0vDSVjJXcSZlYGdi1KVnIfK1EnZ3N4FGdWBmhqQAJ4C3wKcm50ewMxDgxjeQVccwF7HiAufXwDMQgMYXwWCTUEfwhlNjVzEGBfBmF_CV5jTCMFcW5wdx9qBgA1dgYIcApwXXVqcHRBYwQEaigECH8Ofg96YHd5R2FBRSNxAVxwDHIKcWhwdwMzEAxgalMDeAlsWTZndnoUY18CdjxRAngJbEwwNX1_AzEXDGV8FgQmSncJZTUjKRhjVxc2LUNWdR8sWTFncGhIMRUMYGpFHixddwl0a3h3EGJTAWh7CV92Cn4eIjMjcxV0E0RtJEQfNUpvCwJ_cggAYCFSZGJCCidbI0wzKCVgRj0KFGIKXVlgCwx_DggvBHEjMH8cCBYbKwSitvK_2_DA2MfXzPbWyfXcwJim7eVoVzdaBX5_CF18CHgAdWl1fhdhUwd2PlMZeAlsWiVncep-iM0JQrvl&ft=2&s=62bf40bf-60b6-4fb9-bdb7-7e5ded10b9ad&t=11&idi=100010135"
+        ],
+        "zfeature_content_info": null,
+        "author_id": 0,
+        "parent_id": 0,
+        "title": null,
+        "content_embedding": null,
+        "media_type": null,
+        "party_id": "EFFECT",
+        "creative_id": 3557681
+      }
+    },
+    {
+      "id": "12_1755822209.25",
+      "type": "feed",
+      "offset": 12,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822209,
+      "updated_time": 1755822209,
+      "target": {
+        "id": "92020290827",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/92020290827",
+        "author": {
+          "id": "e175a20d06c2313d25c13598f3993c86",
+          "url": "https://api.zhihu.com/people/e175a20d06c2313d25c13598f3993c86",
+          "user_type": "people",
+          "url_token": "qiu-shui-yan-ling-57",
+          "name": "秋水雁翎",
+          "headline": "迷茫但有点玉玉",
+          "avatar_url": "https://picx.zhimg.com/50/v2-a1b49607370e5c154591ca81a0ef6264_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1549,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1738575732,
+        "updated_time": 1738649412,
+        "voteup_count": 6478,
+        "thanks_count": 2642,
+        "comment_count": 259,
+        "is_copyable": true,
+        "question": {
+          "id": "23523696",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/23523696",
+          "author": {
+            "id": "d190d8b313494fd3c4b22a66145bd669",
+            "url": "https://api.zhihu.com/people/d190d8b313494fd3c4b22a66145bd669",
+            "user_type": "people",
+            "url_token": "li-he-14",
+            "name": "我想回家",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-085ab88aaf0ec33cc061e6d7a06b16cb_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 8,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有哪些鲜为人知的历史照片？",
+          "created": 1398254335,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 29,
+          "bound_topic_ids": [
+            215,
+            285,
+            307,
+            922,
+            1309
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-d60a108c5f625aa534df6c8f5365ed76_720w.jpg?source=b6762063",
+        "excerpt": "本人去年年末校对了余汝信先生的大作《风暴历程》，余汝信先生这本大作不仅搜集的资料多，而且书里也搜集了很多稀见的、全彩的cr历史照片，想想网上缺少这些图片还真是一件憾事，遂把图片提取出来能给各位朋友一观。 （超大量图片警告）",
+        "excerpt_new": "本人去年年末校对了余汝信先生的大作《风暴历程》，余汝信先生这本大作不仅搜集的资料多，而且书里也搜集了很多稀见的、全彩的cr历史照片，想想网上缺少这些图片还真是一件憾事，遂把图片提取出来能给各位朋友一观。 （超大量图片警告）",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"u0qHGA8O\"></p><p data-pid=\"NX0dKOUu\">本人去年年末校对了余汝信先生的大作《风暴历程》，余汝信先生这本大作不仅搜集的资料多，而且书里也搜集了很多稀见的、全彩的cr历史照片，想想网上缺少这些图片还真是一件憾事，遂把图片提取出来能给各位朋友一观。</p><p data-pid=\"VQRlG_uW\">（超大量图片警告）</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c869eb7d6efa219d4a8b76f77477f30c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3005\" data-rawheight=\"2575\" data-original-token=\"v2-2228730d379a88167ccde6d2a99cdd2e\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-b9ade8ffc1128a85ed33c8a26d557955_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3005\" data-original=\"https://pica.zhimg.com/v2-c869eb7d6efa219d4a8b76f77477f30c_r.jpg\"/><figcaption>毛泽东与萧华、杨成武在天安门广场，1966 年 10 月 1 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c2b34d1ed4dab664e3ab72e6d6ce8e46_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3720\" data-rawheight=\"2173\" data-original-token=\"v2-7bf7db0497f1628739aaa643849b2c22\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-8ed03ead25e49407b7b7a906e1a40671_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3720\" data-original=\"https://pica.zhimg.com/v2-c2b34d1ed4dab664e3ab72e6d6ce8e46_r.jpg\"/><figcaption>“五一三事件”三周年，左起李作鹏、邱会作、胡敏、叶群、陈绥圻、吴法宪、黄永胜同游长城纪念，1970 年 5 月 13 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0a211aa6df159a060c10f25848103a82_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2862\" data-rawheight=\"2343\" data-original-token=\"v2-4606720637b84e14063b69d67c2bfba0\" data-default-watermark-src=\"https://pica.zhimg.com/v2-e6cb1c8db5971191ff5285d67ac5dd1e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2862\" data-original=\"https://pic3.zhimg.com/v2-0a211aa6df159a060c10f25848103a82_r.jpg\"/><figcaption>十三大军区分布图（1965-1966</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5beefc0a51b320d562073b9dba918aae_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3752\" data-rawheight=\"2659\" data-original-token=\"v2-7eb72323723ba6c7a17079111c8f47f7\" data-default-watermark-src=\"https://picx.zhimg.com/v2-390fcbefd4c44e59e3ef4c17207e6c6f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3752\" data-original=\"https://pica.zhimg.com/v2-5beefc0a51b320d562073b9dba918aae_r.jpg\"/><figcaption>林彪视察海军旅顺基地，图右男孩为林立果，右下角女孩为林立衡，1961 年 8 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-25ae3ea591c65fa6808a11290a0e8de5_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2038\" data-rawheight=\"2623\" data-original-token=\"v2-908f1342d84b9eba56200d1afaf0bcd9\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-016a769d0f7de134f023ebf9b077f2b6_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2038\" data-original=\"https://pic4.zhimg.com/v2-25ae3ea591c65fa6808a11290a0e8de5_r.jpg\"/><figcaption>毛泽东给林彪的信首页，1963年12月14日</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cf97c8b571bcc6a8b1c3ba9c1d58775b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1519\" data-rawheight=\"1156\" data-original-token=\"v2-da3f22505f0f766de71167fb2b8a3f43\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-f67f50d3e0c135cbd311cfa3cc9044ee_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1519\" data-original=\"https://picx.zhimg.com/v2-cf97c8b571bcc6a8b1c3ba9c1d58775b_r.jpg\"/><figcaption>林彪的形象首次出现在新中国的邮票上，1965年1月31日</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-47810e6354f7e1a2f89ad83889e99d7b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2724\" data-rawheight=\"1532\" data-original-token=\"v2-564f80a6e335485b570b087b6acbed70\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-a17d61eeead992f0c196c8f3503378f2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2724\" data-original=\"https://pic2.zhimg.com/v2-47810e6354f7e1a2f89ad83889e99d7b_r.jpg\"/><figcaption>身穿 65 式军服的将领们。左起：王宏坤、李作鹏、苏振华、杨勇、吴法宪、王树声。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2abe439f088e5f57d5b1a9f1317de28e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"935\" data-rawheight=\"578\" data-original-token=\"v2-6d35ad8565d7fe81557db77554d66990\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-b802fedf8efe15c70061f421762ac2cf_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"935\" data-original=\"https://pic1.zhimg.com/v2-2abe439f088e5f57d5b1a9f1317de28e_r.jpg\"/><figcaption>驻牛田洋陆军第一二二师官兵欢呼毛“五七指示”发表，1966 年 5 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cdab3003dc71ada8eb4f8f31bfbbe29b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3760\" data-rawheight=\"2774\" data-original-token=\"v2-9cb0a45694562e2eac6b011c85e74a9e\" data-default-watermark-src=\"https://picx.zhimg.com/v2-7e508dd96d70e7bcc515f302c0b24659_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3760\" data-original=\"https://picx.zhimg.com/v2-cdab3003dc71ada8eb4f8f31bfbbe29b_r.jpg\"/><figcaption>难得一见的林彪与江青握手的一瞬间，1966 年 9 月 15 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f5c9653cb254f185f9891fc976c703a9_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2198\" data-rawheight=\"3148\" data-original-token=\"v2-0ea6c627f254699058980c58ddfed602\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-7dfa3a40cf4c8600dd65ca18b8f0c519_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2198\" data-original=\"https://picx.zhimg.com/v2-f5c9653cb254f185f9891fc976c703a9_r.jpg\"/><figcaption>首都工作组关于警卫首都的四个师部署调整方案的报告，1966 年 5 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3ad71f24e1190c7a2510a420a99f0b22_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3757\" data-rawheight=\"2713\" data-original-token=\"v2-2116f02411405bd25b2361d0bf40979c\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-49bc3bc4e86a40ce617688ac7d2ec3ae_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3757\" data-original=\"https://pic1.zhimg.com/v2-3ad71f24e1190c7a2510a420a99f0b22_r.jpg\"/><figcaption>林彪视察海军大院，1966 年 9 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0f1f6356cdb0f3e7366aedf584e01544_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1978\" data-rawheight=\"1402\" data-original-token=\"v2-e9b19a54250f37f1ea8d2c98b2a21ca4\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-f42d00f06a1f80b7d7c0a66ca1dbc27c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1978\" data-original=\"https://pic3.zhimg.com/v2-0f1f6356cdb0f3e7366aedf584e01544_r.jpg\"/><figcaption>空防合并后的空军党委常委。前排左起成钧、刘亚楼、吴法宪、刘震，后排左起徐深吉、曹里怀、谭家述、王辉球、常乾坤。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-37b254f26f0579dcea6b849bd22a1dd7_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3771\" data-rawheight=\"2584\" data-original-token=\"v2-9cf46637a2c15883e7bb137fddd11674\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-7e00d7bd26eee2798737be8bc2d88932_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3771\" data-original=\"https://picx.zhimg.com/v2-37b254f26f0579dcea6b849bd22a1dd7_r.jpg\"/><figcaption>左起：毛泽东、周恩来、林彪、刘少奇、朱德在八届十一中全会上，1966 年 8 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-75ab672353cbaed91a8b0381a9d95abf_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2993\" data-rawheight=\"4052\" data-original-token=\"v2-4e51d1250ac7aa3d49994ad8778f1ba3\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-786d927ea99f50082dc9fef6d2169895_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2993\" data-original=\"https://picx.zhimg.com/v2-75ab672353cbaed91a8b0381a9d95abf_r.jpg\"/><figcaption>意气风发的毛林与落寞的刘少奇，1966年11月3日。 </figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e1336ee2d822297858bfc24eafe890cf_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2647\" data-rawheight=\"3510\" data-original-token=\"v2-ee67e5fc2bb40c02903e08d7d1d799d1\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-00a9c79322ce0d46898e2f91626e48b8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2647\" data-original=\"https://picx.zhimg.com/v2-e1336ee2d822297858bfc24eafe890cf_r.jpg\"/><figcaption>林彪坐在天安门城楼上休息晒太阳。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e82184593e954048ce7fedef4d0801d3_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2886\" data-rawheight=\"2249\" data-original-token=\"v2-ad11ba6da1b4248dff0865a363b1c086\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-01686d714a8d203c1a8ee815f375a09e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2886\" data-original=\"https://pic2.zhimg.com/v2-e82184593e954048ce7fedef4d0801d3_r.jpg\"/><figcaption>身穿军装的周恩来、陶铸与江青在天安门城楼上交谈，1966 年 9 月 15 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-79330d7bb07935c011158f66934f149f_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2663\" data-rawheight=\"1326\" data-original-token=\"v2-24f5b32b870b14c5197e71929f496a79\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-e1e2ab7d85b134242ec6d8abb482753d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2663\" data-original=\"https://picx.zhimg.com/v2-79330d7bb07935c011158f66934f149f_r.jpg\"/><figcaption>林彪与新晋政治局常委陶铸及政治局委员徐向前、聂荣臻在天安门城楼休息室，1966年9月15日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-596793e348c7c0bfd0292bde3ce0c728_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2259\" data-rawheight=\"2044\" data-original-token=\"v2-381ece343f8c7abe39e90df0eac23003\" data-default-watermark-src=\"https://pica.zhimg.com/v2-082cc354cd79fc598a3eb0307dcda51e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2259\" data-original=\"https://pic3.zhimg.com/v2-596793e348c7c0bfd0292bde3ce0c728_r.jpg\"/><figcaption>林彪与政治局成员刘伯承、徐向前、聂荣臻、董必武在天安门城楼休息室，1966 年 9 月 15 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3721896dca44823ec1f7f2d1afcca57d_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1759\" data-rawheight=\"1639\" data-original-token=\"v2-823e24b8521ae9bb15a0edfa6af81365\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-889c69aebfb0daf937f61b6f272f88e3_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1759\" data-original=\"https://picx.zhimg.com/v2-3721896dca44823ec1f7f2d1afcca57d_r.jpg\"/><figcaption>揪斗黄新廷，1967 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f85057e32714641b24e6d01bef0ce83b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3695\" data-rawheight=\"2625\" data-original-token=\"v2-80743e62ad76d01b82c7d0cd812c986d\" data-default-watermark-src=\"https://pica.zhimg.com/v2-2dee71e92c3cdadbfbeb63b3dfca9e6a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3695\" data-original=\"https://pic4.zhimg.com/v2-f85057e32714641b24e6d01bef0ce83b_r.jpg\"/><figcaption>右起：萧华、杨成武、江青、刘志坚、张春桥在天安门城楼上，1966 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c1af9605d7d23c5c2cbe90c6b0d78638_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1683\" data-rawheight=\"2993\" data-original-token=\"v2-90e3336ac7ff3f4b1264e6a2b565b336\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-550dfc44468ddd0fdbaeb5d1461be3b7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1683\" data-original=\"https://pic3.zhimg.com/v2-c1af9605d7d23c5c2cbe90c6b0d78638_r.jpg\"/><figcaption>二医大《红色造反报》对叶群讲话的报道，1967 年 2 月 4 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c3dd9d308af660049e717fe9d8358e41_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2793\" data-rawheight=\"2084\" data-original-token=\"v2-a293fce5ff6cfd8257ca52d606af8981\" data-default-watermark-src=\"https://picx.zhimg.com/v2-2d4a4a9252324e363fcda69acf5b3dbf_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2793\" data-original=\"https://picx.zhimg.com/v2-c3dd9d308af660049e717fe9d8358e41_r.jpg\"/><figcaption>左起：叶剑英、杨成武、陈毅、萧华进入全军院校文化大革命动员大会会场,北京工人体育场，1966 年 10 月 5 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-bfe662a9da92a8c0f4c92671da8112dd_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3750\" data-rawheight=\"2846\" data-original-token=\"v2-b55baa99464b505dcf6e12ada6e957fb\" data-default-watermark-src=\"https://picx.zhimg.com/v2-8ff994c52c56b8d626a29292af3b76dd_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3750\" data-original=\"https://pic4.zhimg.com/v2-bfe662a9da92a8c0f4c92671da8112dd_r.jpg\"/><figcaption>周恩来率陶铸、陈毅、贺龙、徐向前、叶剑英等进入在第一次十万人大会会场,北京工人体育场，1966 年 11 月 13 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-43c5bd86ea821ede0c1b8239298d3ccc_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3748\" data-rawheight=\"3880\" data-original-token=\"v2-c190a7d37538b26caf934952532a6e5e\" data-default-watermark-src=\"https://pica.zhimg.com/v2-9bbfb3fb56e5e0702d90bd82a1d7f8b2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3748\" data-original=\"https://pica.zhimg.com/v2-43c5bd86ea821ede0c1b8239298d3ccc_r.jpg\"/><figcaption>周恩来率陈毅、徐向前，叶剑英等进入第二次十万人大会会场，北京工人体育场，1966年 11 月 29 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1ee927f278bc423ebbbd8d6410bfb469_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2918\" data-rawheight=\"1981\" data-original-token=\"v2-51daac0ee8c3c93b865ab0dacca577f3\" data-default-watermark-src=\"https://pica.zhimg.com/v2-6ef974829ddd5e541110bfd601ada1a0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2918\" data-original=\"https://pic4.zhimg.com/v2-1ee927f278bc423ebbbd8d6410bfb469_r.jpg\"/><figcaption>叶剑英与毛同乘一辆敞篷车接见红卫兵，1966 年 11 月 26 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6bd3229d684b726ab0907f8c33b8459a_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3735\" data-rawheight=\"2693\" data-original-token=\"v2-01272430f7bfa724b82176c30df7ac7b\" data-default-watermark-src=\"https://pica.zhimg.com/v2-c641baa414ccea0e76a92efb419e3878_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3735\" data-original=\"https://pic1.zhimg.com/v2-6bd3229d684b726ab0907f8c33b8459a_r.jpg\"/><figcaption>徐向前与林彪、董必武在天安门城楼休息室，1966 年 9 月 15 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-59a8e0a810798ed07d80af9c6030d0eb_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1718\" data-rawheight=\"2237\" data-original-token=\"v2-e7ce30a58e6048c492d1017d515223f9\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-590a50af7cdbb3dfe6c42248d6495c16_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1718\" data-original=\"https://picx.zhimg.com/v2-59a8e0a810798ed07d80af9c6030d0eb_r.jpg\"/><figcaption>李讷与周恩来在天安门城楼上,1966 年 10 月 1 日</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-78732f29584c25a66aad4f22573836f1_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2319\" data-rawheight=\"2048\" data-original-token=\"v2-2c2c4343389b7d6a4d13bc9efeeba961\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-69ad1b0a1bca36cc97198e4bc4a0865f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2319\" data-original=\"https://pic4.zhimg.com/v2-78732f29584c25a66aad4f22573836f1_r.jpg\"/><figcaption>李讷与康生在天安门城楼上，1966 年 10 月 1 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-690a018c917f207e8766f044fbf9363e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3757\" data-rawheight=\"2235\" data-original-token=\"v2-798c84e5883fc6af4e7a8d5d955ebfdc\" data-default-watermark-src=\"https://pica.zhimg.com/v2-44739a68d3208c2c98fd7f1aa4db2468_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3757\" data-original=\"https://pic3.zhimg.com/v2-690a018c917f207e8766f044fbf9363e_r.jpg\"/><figcaption>李讷到海军大院庆祝林彪为海军题词，1967 年 11 月 29 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f0bedab628a62ce8425bc09f2ee66ccd_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3736\" data-rawheight=\"2535\" data-original-token=\"v2-217c66197e0d2e296793747cde940de8\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-45edf57417292fd054fd6eaa19ce5974_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3736\" data-original=\"https://pic2.zhimg.com/v2-f0bedab628a62ce8425bc09f2ee66ccd_r.jpg\"/><figcaption>毛、林与贺龙同乘敞篷车接见红卫兵，1966 年 8 月 31 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8643e82784ddafaa7d039c324bb376dc_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1349\" data-rawheight=\"1902\" data-original-token=\"v2-fc0314e4f027534e61947a28682226ec\" data-default-watermark-src=\"https://pica.zhimg.com/v2-c568cd1ffcf30f8a67e17b12a1fc9b62_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1349\" data-original=\"https://pic3.zhimg.com/v2-8643e82784ddafaa7d039c324bb376dc_r.jpg\"/><figcaption>批斗杨勇，1967 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-750347a76b4093042353971d3dc55852_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2906\" data-rawheight=\"1384\" data-original-token=\"v2-da68b5dbf0fa2d9d739a16bc313e728a\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-dffa770f13eed8901fa7ced8c0740065_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2906\" data-original=\"https://pica.zhimg.com/v2-750347a76b4093042353971d3dc55852_r.jpg\"/><figcaption>毛林周与负责接见红卫兵组织工作的郑维山，1966 年 11 月 10 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-406989d382820919e1711ad11dbc1d16_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3631\" data-rawheight=\"2188\" data-original-token=\"v2-1d29fb4e22ade4ea195435b78d066432\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-ea4c329688209eb2b6d4860794ec4abe_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3631\" data-original=\"https://pic1.zhimg.com/v2-406989d382820919e1711ad11dbc1d16_r.jpg\"/><figcaption>毛泽东接见参加军委碰头会扩大会议的高级将领，北京人民大会堂，1967 年 1 月 22 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-708e7626d89761c159fb4017a2a5d099_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2270\" data-rawheight=\"2715\" data-original-token=\"v2-eac6e011d4f6793a097a229a81cb78c2\" data-default-watermark-src=\"https://picx.zhimg.com/v2-cbdf5976d7b1fde385bb39aa11198537_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2270\" data-original=\"https://pic4.zhimg.com/v2-708e7626d89761c159fb4017a2a5d099_r.jpg\"/><figcaption>批斗王昭，1967 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-38d3f9e871513a98b09a2f6dd40bde89_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1203\" data-rawheight=\"1624\" data-original-token=\"v2-a09848776a9e0305165e6885b269770f\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-2677bb618b6282dd9287b2d67af0f5c6_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1203\" data-original=\"https://pic2.zhimg.com/v2-38d3f9e871513a98b09a2f6dd40bde89_r.jpg\"/><figcaption>批斗张爱萍，1967 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b353d51c94a9f2852eead7351bace310_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1850\" data-rawheight=\"1400\" data-original-token=\"v2-9ccc0757ad65923c6906ef4c7e0c2560\" data-default-watermark-src=\"https://pica.zhimg.com/v2-61880cd07e84387d598914037950c2c2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1850\" data-original=\"https://pic1.zhimg.com/v2-b353d51c94a9f2852eead7351bace310_r.jpg\"/><figcaption>用箩筐将罗瑞卿抬出来批斗，1967 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f99695d8923f88ddcb29cf10011b5fe4_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1580\" data-rawheight=\"2286\" data-original-token=\"v2-f544d18b8b5141739cb48c127f9e6da0\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-78b47c723002b8577c764f9402320718_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1580\" data-original=\"https://pica.zhimg.com/v2-f99695d8923f88ddcb29cf10011b5fe4_r.jpg\"/><figcaption>批斗彭德怀，1967 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9d7340d328fce48eee2fa2518fe7c407_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2706\" data-rawheight=\"3068\" data-original-token=\"v2-4d9bdc6f1c83b54ff9289d5b7329a29c\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-5fec2c6f20c1cc21a6cacaf579138f1d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2706\" data-original=\"https://pic4.zhimg.com/v2-9d7340d328fce48eee2fa2518fe7c407_r.jpg\"/><figcaption>李作鹏在海司办公楼里观看大字报。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2d61ee3ec6944962e3258269e463c435_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1574\" data-rawheight=\"1295\" data-original-token=\"v2-d40fe41b9a574deffe278a43f3f790fa\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-4d1f63b569ecb45112bfd1066c8f1a8f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1574\" data-original=\"https://pic4.zhimg.com/v2-2d61ee3ec6944962e3258269e463c435_r.jpg\"/><figcaption>批斗许光达，1967年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-dff86cd9a4442398480119838ab59d4b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3164\" data-rawheight=\"1133\" data-original-token=\"v2-512406892b6a33cd934bfa300fd9d2ea\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-618a6930b5e17501576c62dc09371f17_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3164\" data-original=\"https://pic4.zhimg.com/v2-dff86cd9a4442398480119838ab59d4b_r.jpg\"/><figcaption>左：批斗罗瑞卿、苏振华，1967 年 5 月 12 日。右：批斗刘志坚、王尚荣，1967 年 5 月 12 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d70d8273d1081bfd3c289e24a206aab5_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2019\" data-rawheight=\"1472\" data-original-token=\"v2-2ea94c69d50095a9dd66931f3710f5d8\" data-default-watermark-src=\"https://pica.zhimg.com/v2-f3baedf6a92402c4b833a180ebae7d9c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2019\" data-original=\"https://pic4.zhimg.com/v2-d70d8273d1081bfd3c289e24a206aab5_r.jpg\"/><figcaption>毛泽东接见左起：梁兴初、张西挺、张国华、刘结挺，北京，1968 年 5 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f5f0d36b2e6f0e82a0621ef6b6dde109_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3343\" data-rawheight=\"2374\" data-original-token=\"v2-b6132d6000a46ab397999d793df73bd8\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-607399a4b4ed8d9c475951787b7b45e9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3343\" data-original=\"https://pic2.zhimg.com/v2-f5f0d36b2e6f0e82a0621ef6b6dde109_r.jpg\"/><figcaption>叶群将她树立的学毛著典型顾阿桃介绍给毛，右为林立衡，1966 年 10 月 1 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ff16f00aa9734dfdcfa1af19c6e6fb72_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2185\" data-rawheight=\"1294\" data-original-token=\"v2-8692c94ed21d69f368d092c8c4415507\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-e34bb821f1347129ca42b64375f01c95_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2185\" data-original=\"https://pic3.zhimg.com/v2-ff16f00aa9734dfdcfa1af19c6e6fb72_r.jpg\"/><figcaption>李作鹏、王宏坤、张秀川在毛塑像落成典礼主席台上，1968 年 7月 1 日。</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-86a21780509ea2bef09d275ef0fb700f_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2116\" data-rawheight=\"1997\" data-original-token=\"v2-bea3b3022d3d97b0c90a89244f0debb3\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-59e794ac90b3778e750f96cd49277ea0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2116\" data-original=\"https://pic4.zhimg.com/v2-86a21780509ea2bef09d275ef0fb700f_r.jpg\"/><figcaption>海军直属机关庆祝毛塑像落成典礼会场,1968 年 7 月 1 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-15c9f5868711c8bd0be6533516e75be9_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2568\" data-rawheight=\"3360\" data-original-token=\"v2-8e809d9c13c49b449f2904692f0c8fb3\" data-default-watermark-src=\"https://pica.zhimg.com/v2-b384fdcb0197314fd9a10101135dbca0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2568\" data-original=\"https://pic2.zhimg.com/v2-15c9f5868711c8bd0be6533516e75be9_r.jpg\"/><figcaption>中央关于对中央广播事业局实行军事管制的决定，1967 年 12 月 7 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-51ebd53e43cb29009ca452c3db899173_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2699\" data-rawheight=\"1564\" data-original-token=\"v2-0fe29cd53fb13e6b5664be60967f59de\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-8d438c458673ccfda62ca99114cacc1d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2699\" data-original=\"https://picx.zhimg.com/v2-51ebd53e43cb29009ca452c3db899173_r.jpg\"/><figcaption>cr中步步高升的李德生</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-39faadc526317fa35c5038bc74d55842_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2163\" data-rawheight=\"2648\" data-original-token=\"v2-b7b009b325deb0d9c750ada2a734198f\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-625d5d64e677e5fb4f0f8438005b44ce_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2163\" data-original=\"https://pic1.zhimg.com/v2-39faadc526317fa35c5038bc74d55842_r.jpg\"/><figcaption>批斗萧华，京西宾馆,1967 年 8 月 16 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7639479ed025b480f5148d9e831bbfb8_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2699\" data-rawheight=\"1917\" data-original-token=\"v2-e55bf53f612d1fa86721f9249cba039a\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-d731b6abdc73cd37776c97e32d6a21d4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2699\" data-original=\"https://pic3.zhimg.com/v2-7639479ed025b480f5148d9e831bbfb8_r.jpg\"/><figcaption>批斗萧华，京西宾馆，1967 年 8 月 16 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d6309da285274d3c22f89002ad786fc8_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2159\" data-rawheight=\"2461\" data-original-token=\"v2-1c4fd39a101713b2070c99f212a3c195\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-b213d68573b689bf7f1d9c072db01d5e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2159\" data-original=\"https://pica.zhimg.com/v2-d6309da285274d3c22f89002ad786fc8_r.jpg\"/><figcaption>批斗萧华，京西宾馆，1967 年 8 月 16 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1278bb11ee82137b634f80dd625298c9_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3136\" data-rawheight=\"2263\" data-original-token=\"v2-ec4aedc64b14a2c40d31bb5768b10b75\" data-default-watermark-src=\"https://pica.zhimg.com/v2-27e85c15fca9fd14acaeeb3fd96f7d32_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3136\" data-original=\"https://pic2.zhimg.com/v2-1278bb11ee82137b634f80dd625298c9_r.jpg\"/><figcaption>右起：王效禹、谢胡与杨保华，青岛，1967 年 10 月 6 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-672c8c350e869a81d21f93cac219c25e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1998\" data-rawheight=\"1372\" data-original-token=\"v2-7795fdc7b8b713c8c07600eb71c9c2b9\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-eaf516c122796f0fe8c855261b10e587_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1998\" data-original=\"https://pic1.zhimg.com/v2-672c8c350e869a81d21f93cac219c25e_r.jpg\"/><figcaption>李再含在贵州省革委会成立大会上，贵阳，1967 年 2 月 14 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-43b139aa0a9396d7b484fb26a7b79984_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2516\" data-rawheight=\"3344\" data-original-token=\"v2-c435816fc16c783a91f3386f9f37c0b7\" data-default-watermark-src=\"https://picx.zhimg.com/v2-353104637c1309c3ae0b7fafa4968ed9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2516\" data-original=\"https://pica.zhimg.com/v2-43b139aa0a9396d7b484fb26a7b79984_r.jpg\"/><figcaption>兰州军区批准临夏市成立革委会的文件，1968 年 1 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-43c51fcb14f599627567ce597df6f7fe_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3689\" data-rawheight=\"2433\" data-original-token=\"v2-16ab9924d5989a282e2ca6fed3443b00\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-0d5ccf44b95de7bf76b04c346aa517b2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3689\" data-original=\"https://pic1.zhimg.com/v2-43c51fcb14f599627567ce597df6f7fe_r.jpg\"/><figcaption>广州军区领导与丁盛到林彪家拜年，前排左起：邱国光、丁盛、任思忠、林彪、黄永胜、叶群、项辉方，中排左一林立果，1968 年春节。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-dfd4962d57c12f10fcbce148c8117604_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3224\" data-rawheight=\"1613\" data-original-token=\"v2-ba69ec9f9ffffd7bc0f4ff17164b259e\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-ed59143db043e331dff9154958477402_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3224\" data-original=\"https://pic1.zhimg.com/v2-dfd4962d57c12f10fcbce148c8117604_r.jpg\"/><figcaption>苏州武斗现场的标语。向孝书时为驻苏陆军第七十九师师长，迟浩田时为该师副政委，1967 年 8 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3f9ee41d3e4273882049b32b1f4c9689_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2299\" data-rawheight=\"1734\" data-original-token=\"v2-793f91b953b8eb0ccb9e234628013315\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-2e29b3ce29b879b89369f48db6cd4c18_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2299\" data-original=\"https://picx.zhimg.com/v2-3f9ee41d3e4273882049b32b1f4c9689_r.jpg\"/><figcaption>陈锡联与毛远新在沈阳，1968 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d6fdc4bc61b3b30b56d7a74f6627dacd_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1967\" data-rawheight=\"2789\" data-original-token=\"v2-819c7b2c8114c3a511f8926cbb093a0c\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-049d35d9145ed8658f0c194dbd6f1e15_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1967\" data-original=\"https://pic2.zhimg.com/v2-d6fdc4bc61b3b30b56d7a74f6627dacd_r.jpg\"/><figcaption>沈阳军区炮兵批准部分单位革委会成立</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-38830b4d4eedf2042e328223ea388f65_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1885\" data-rawheight=\"2075\" data-original-token=\"v2-4fa7e6cfb29af836b6aaadd213099457\" data-default-watermark-src=\"https://picx.zhimg.com/v2-cc688aa89141adb0900a7a37633d4639_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1885\" data-original=\"https://pic4.zhimg.com/v2-38830b4d4eedf2042e328223ea388f65_r.jpg\"/><figcaption>谭甫仁在云南省革委会成立大会上，1968 年 8 月 13 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-843ca8cf321e6694a1b6a90e4caf0cb3_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1361\" data-rawheight=\"1015\" data-original-token=\"v2-db806bfd1830d458ec810a59bfd9158f\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-375c9215d605474ee87c05ac79ec2d9d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1361\" data-original=\"https://picx.zhimg.com/v2-843ca8cf321e6694a1b6a90e4caf0cb3_r.jpg\"/><figcaption>庆祝西藏自治区军管会成立，拉萨，1967 年 5 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f012e8a122bddf524ede301c5c691158_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1367\" data-rawheight=\"1002\" data-original-token=\"v2-2da25fbca37fccaeefd8dddb3145ba04\" data-default-watermark-src=\"https://picx.zhimg.com/v2-cc80d5cb45b1999c783d6998d0e8cdf5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1367\" data-original=\"https://pic1.zhimg.com/v2-f012e8a122bddf524ede301c5c691158_r.jpg\"/><figcaption>cr初期张国华在西藏拉萨，1966 年 8 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d02d9f86a079bc1f4928e8553b025e8d_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3306\" data-rawheight=\"2207\" data-original-token=\"v2-919beb6485b04af1133962e91ea82a11\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-4330f9d0fb3097be269c6b7340bbfdf0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3306\" data-original=\"https://pic4.zhimg.com/v2-d02d9f86a079bc1f4928e8553b025e8d_r.jpg\"/><figcaption>在北京召开的解决新疆问题会议与会者，前排左起：裴周玉、郭鹏、赛福鼎、丁盛、王恩茂、张希钦、徐国贤、何家产、曾如清，京西宾馆，1968 年 5 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-24ff0c4ce79db8bebda8c01dbef44117_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3225\" data-rawheight=\"2228\" data-qrcode-action=\"none\" data-original-token=\"v2-45b7d317566fc55063bec7f5192359da\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-888bbe82e406c4053721b5ad1efccfa4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3225\" data-original=\"https://picx.zhimg.com/v2-24ff0c4ce79db8bebda8c01dbef44117_r.jpg\"/><figcaption>毛泽东与杨成武、余立金在巡视途中交谈，1967 年 9 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-dd5f3971127592f341ab01f8045e1512_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3461\" data-rawheight=\"3608\" data-original-token=\"v2-d9bf39011e818b4a090538131775c773\" data-default-watermark-src=\"https://picx.zhimg.com/v2-b5d7c8e47dfc1266bb609bfdaaa2d1c7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3461\" data-original=\"https://pic3.zhimg.com/v2-dd5f3971127592f341ab01f8045e1512_r.jpg\"/><figcaption>毛泽东与陈伯达中间的是傅崇碧，1966 年 9 月 15 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-29b76d058f310547ea5bc11efb766ce1_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2502\" data-rawheight=\"1799\" data-original-token=\"v2-7a80e5ded799785fa066017a88bbd360\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-07fbf20f7a9217e4cd7264a833741455_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2502\" data-original=\"https://pic4.zhimg.com/v2-29b76d058f310547ea5bc11efb766ce1_r.jpg\"/><figcaption>在新疆库车陆军第四师农场“接受再教育”的大学生，1970 年 9 月-1972 年 4 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-825003405f215e778edf67e77c399043_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3728\" data-rawheight=\"2336\" data-original-token=\"v2-f76e65dc89c2d0fc9ec1653148736868\" data-default-watermark-src=\"https://picx.zhimg.com/v2-e8b8db7fc99971a480993fb85cfb4443_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3728\" data-original=\"https://pic2.zhimg.com/v2-825003405f215e778edf67e77c399043_r.jpg\"/><figcaption>在牛田洋陆军第二一九师锻炼的大学生，1970 年 3 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4d72025c253f7a83251f3529fd269d95_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3707\" data-rawheight=\"2570\" data-original-token=\"v2-43fb67a22d98a1781931524f553f147f\" data-default-watermark-src=\"https://picx.zhimg.com/v2-90e6009e8523622e5157502fa7e3fe5d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3707\" data-original=\"https://pic4.zhimg.com/v2-4d72025c253f7a83251f3529fd269d95_r.jpg\"/><figcaption>左起：温玉成、刘贤权、邱会作、吴法宪、黄永胜、李作鹏、李德生在西山军委前指，1969 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ce1028b97e8e5576a1afa3bee2ed7641_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3755\" data-rawheight=\"2403\" data-original-token=\"v2-5eedecb7086d3d7dc11b8576e2ae824f\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-81fdb03d4af7bcf5f0b0377031acfb2f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3755\" data-original=\"https://pic2.zhimg.com/v2-ce1028b97e8e5576a1afa3bee2ed7641_r.jpg\"/><figcaption>中排左起：刘贤权、邱会作、吴法宪、黄永胜、李作鹏、李德生、温玉成与工作人员在西山军委前指，1969 年。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d9e2d2375822cbe4b7c4c7dd13ccc4f8_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3501\" data-rawheight=\"3885\" data-original-token=\"v2-1dc9136de59c4373a834bffc95d5bc4d\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-53e15cb9a04f0d7d26bef26b8c049ebd_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3501\" data-original=\"https://pic1.zhimg.com/v2-d9e2d2375822cbe4b7c4c7dd13ccc4f8_r.jpg\"/><figcaption>左起：董其采、胡敏、李作鹏、叶群、黄永胜、吴法宪、邱会作、项辉方、陈绥圻在京西宾馆前。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9f78572bf29b01ef6ad387b1ae614979_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1376\" data-rawheight=\"904\" data-original-token=\"v2-63369582e056509c0d664adf581fee05\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-672c8228274d3529ada19caddf9b88d8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1376\" data-original=\"https://pic4.zhimg.com/v2-9f78572bf29b01ef6ad387b1ae614979_r.jpg\"/><figcaption>视察海军战时指挥所，站立者前排左起：吴瑞林、温玉成、李德生、萧劲光、吴法宪、黄永胜、李作鹏、邱会作、刘贤权、王宏坤，1969 年 11 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a60e63006fbded8567763cbd85af6963_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3757\" data-rawheight=\"2463\" data-original-token=\"v2-db7bf52aa2fa2f5d48ec164b08dc0f0e\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-c5c130339d672e534606d9201fbb3677_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3757\" data-original=\"https://pic4.zhimg.com/v2-a60e63006fbded8567763cbd85af6963_r.jpg\"/><figcaption>黄、吴、李、邱在九江机场为林彪送行，1970 年 9 月 7 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-aed4f2a562505a3a75fa7dfc923a6e72_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2069\" data-rawheight=\"2625\" data-original-token=\"v2-6a365adb3f2800ceab4fc9e13db9328e\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-90ca3d0c03b7b6b9c8098beec1bad0ae_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2069\" data-original=\"https://pic1.zhimg.com/v2-aed4f2a562505a3a75fa7dfc923a6e72_r.jpg\"/><figcaption>“小舰队”的灵魂人物周宇驰。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d82d762f83c896e99c5d2ce89115633c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2210\" data-rawheight=\"3135\" data-original-token=\"v2-8b920b856f719da9c1890846d25c5e72\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-bf01b0ea55696b772727ebc3f5b250c8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2210\" data-original=\"https://pic3.zhimg.com/v2-d82d762f83c896e99c5d2ce89115633c_r.jpg\"/><figcaption>《“571 工程“纪要》首页，为于新野手迹。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-64de38fbce2779eb68ff536c8c926611_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2214\" data-rawheight=\"3144\" data-original-token=\"v2-d8206a0c1a011442f0cfb68e6fb3443b\" data-default-watermark-src=\"https://picx.zhimg.com/v2-73f119a70bd0e1d720f2c6f6fb37cc49_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2214\" data-original=\"https://pic2.zhimg.com/v2-64de38fbce2779eb68ff536c8c926611_r.jpg\"/><figcaption>《“571 工程“纪要》第二页</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d94c85ea6a88bbf7391028f418d3df31_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3496\" data-rawheight=\"2567\" data-original-token=\"v2-76b7b7d158e63c10b0093ee63083a502\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-4d7fcd280fc9fed8e279a0b83303fe3a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3496\" data-original=\"https://picx.zhimg.com/v2-d94c85ea6a88bbf7391028f418d3df31_r.jpg\"/><figcaption>林彪给他的信稿。信稿由林彪口述，于运深记录，李根清誊清。   从毛家湾抄出的信稿没有落款署名及日期。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d6808ce67d757dfdec56243e27030a32_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1377\" data-rawheight=\"1049\" data-original-token=\"v2-ba6db8231ed6e4b0178db6ad2f5d58b4\" data-default-watermark-src=\"https://pica.zhimg.com/v2-2d509ea62480007d7d35e11ec931592e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1377\" data-original=\"https://pic1.zhimg.com/v2-d6808ce67d757dfdec56243e27030a32_r.jpg\"/><figcaption>在湖南韶山整理毛南巡谈话，前排左起：丁盛、华国锋、刘兴元、韦国清、卜占亚，1971 年 9 月初。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-26f78637c944f7e0a1c0cfed9a119d9c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2337\" data-rawheight=\"3008\" data-original-token=\"v2-dc4e9b09154afe481c1798a03ef447dd\" data-default-watermark-src=\"https://pica.zhimg.com/v2-58853f2483076fc09e8730546c610d2c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2337\" data-original=\"https://pic3.zhimg.com/v2-26f78637c944f7e0a1c0cfed9a119d9c_r.jpg\"/><figcaption>林立衡与周思来在天安门城楼上，1966 年 10 月 1 日。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b3369c5edbfdead81e516b4fb4818731_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2382\" data-rawheight=\"2915\" data-original-token=\"v2-1a6146208aa9873ae6b982e0e9901863\" data-default-watermark-src=\"https://pica.zhimg.com/v2-c3679a1d87c7e8d4f3935729e117dd4c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2382\" data-original=\"https://picx.zhimg.com/v2-b3369c5edbfdead81e516b4fb4818731_r.jpg\"/><figcaption>林彪出逃所用256 号专机外逃航线还原图</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5800ce8ece65a873dd9fdcc283c9f087_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2702\" data-rawheight=\"2002\" data-original-token=\"v2-b52a37ae93b44194cb2936beb85d1bb0\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-416f3d4404de93be2b9ea9aecde93620_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2702\" data-original=\"https://pic4.zhimg.com/v2-5800ce8ece65a873dd9fdcc283c9f087_r.jpg\"/><figcaption>林彪出逃所用256 号飞机坠毁残骸。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d3f9a35cee87ef5866171107ddc2e495_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3645\" data-rawheight=\"2570\" data-original-token=\"v2-66713e8a61e08a5bdb8dca2c686473f0\" data-default-watermark-src=\"https://picx.zhimg.com/v2-6f6c32754e1e6bbbda9916b62928dc95_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3645\" data-original=\"https://pic2.zhimg.com/v2-d3f9a35cee87ef5866171107ddc2e495_r.jpg\"/><figcaption>林彪出逃用256号机坠毁事件的蒙古官方调查报告首页及签名页。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f4bc3ee52b8c6406332836da12d51e65_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3158\" data-rawheight=\"2046\" data-original-token=\"v2-bd8f147190ef4cdb4a4dfcd02e5d382a\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-26f1247554f563606a6dfd4aace8f4e4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3158\" data-original=\"https://pic2.zhimg.com/v2-f4bc3ee52b8c6406332836da12d51e65_r.jpg\"/><figcaption>九大后的海军主要领导，左起：张秀川、萧劲光、李作鹏、王宏坤、吴瑞林，1969 年 5 月。其中李作鹏、吴瑞林、张秀川均因“九一三事件”牵连受审查。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-31d87e7bfb4aa6f653822d85a3dd01b7_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1379\" data-rawheight=\"892\" data-qrcode-action=\"none\" data-original-token=\"v2-c951667908699fadb392fa8c8c484419\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-053aad324bbef20617a5e67403e832dc_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1379\" data-original=\"https://picx.zhimg.com/v2-31d87e7bfb4aa6f653822d85a3dd01b7_r.jpg\"/><figcaption>周恩来在广州接见广州军区主要负责人，二排右五起：孔石泉、丁盛、周恩来、任思忠，1972 年 4 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ae621d3fdf8176ffc33b5be68cb855da_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3753\" data-rawheight=\"2113\" data-original-token=\"v2-11fc9c64e6d8d2326d1b75e2a7916948\" data-default-watermark-src=\"https://picx.zhimg.com/v2-3bf81326be3b438ea6c3f1cead697289_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3753\" data-original=\"https://pic3.zhimg.com/v2-ae621d3fdf8176ffc33b5be68cb855da_r.jpg\"/><figcaption>王洪文在中共十大上作关于修改党章的报告，1973 年 8 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-244a6b2ca6a17aa0f2e031965666ca7c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3760\" data-rawheight=\"1904\" data-original-token=\"v2-0602e07d8bcd8fc37cbe445a0133a440\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-4fc6a10a0a987e1f20dfffe3465e202f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3760\" data-original=\"https://pic3.zhimg.com/v2-244a6b2ca6a17aa0f2e031965666ca7c_r.jpg\"/><figcaption>广州、南京军区司令员对调交接时与两军区及广东、江苏两省领导在南京长江大桥前，左起：萧永银、任思忠、韦国清、丁盛、田普、许世友、孟文虹、杜平、刘教湛、王首道、吴大胜、彭冲，1974 年 1 月。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fce60b5ef67bceea047180b135fc8e14_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3058\" data-rawheight=\"1603\" data-original-token=\"v2-73215855131fa85076c5e69afecdff58\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-10129a46e25c5f56e28e8b99ca14fb2a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3058\" data-original=\"https://pic1.zhimg.com/v2-fce60b5ef67bceea047180b135fc8e14_r.jpg\"/><figcaption>粉碎“四人帮”后的华国锋、叶剑英与邓小平，1977 年 8 月 1 日。</figcaption></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 506041,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-d60a108c5f625aa534df6c8f5365ed76_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-97d48594c1b3156372e1942a8d78b446_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0bb589e8dc2617732de2fa90b4d43bd4_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d0ac739f950d1aea3809ea2f72e4ef61_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b770ff598f4bd79862ee2bbeb88f6adf_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-52ea5c0958e9dbae973cd35a9ceb3598_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-267a75bfceb55c8125160c30b3baf387_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-d1ece6af25549bc21c69c2acb3903281_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-82372380e5d3d60dabb4221005120957_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-85dff29c4e1470f52b4bbfd34a19120d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-62879613b3f7282a3d34a19e27ef0c46_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-78872e328184b15923b82ad5aa3d7985_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-320fdae1fa51f1d4a025843daf0795df_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3c173e94f878f0a1fdd5ba8622489830_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-15af7d2ed9a399356a3d1166411e6427_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e72df4dce306b9bc1348d42948c1c79b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-52089c82a53fdd165d70a7699d60275d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-73dfba2458dd94253a02e00a7a4f9cbc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c60800117ae60f1024c50d6153dddcf4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-92c04aca2e2b2cca4bb97f0b61c0f6f2_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-f6c5a9f4b24b6caecce7b7c8e6409b68_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-00d0124acf4b3bed4599dfeb23cc2086_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-aaf7e9606a2359369a5cebfa825d9472_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-3a3af6c6bce5ed009afff789a699d69c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-91015e4ef1560c8c8c18946b931e7b47_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ad11273fe509ea30ab97d4460870a426_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4e3483561c013d06d21ab75e96964aea_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b72e0f2f2823f3994de03e9b45af85ef_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-2ae6edc6e8fb1af319004833698dfb60_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-50aee00abbca5e7024e2f0f1f6197c3c_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-9e3a8e5f24ba000c6ddf7f10a40d30b2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-349e1134edba263088d1af31162776af_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0919677037dd99f14090efad0e687804_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-349fcd5d52445ce733be243d9cdbfc6b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-fa878131a63a98943320043916274cef_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f16b84fa819289dde4850ec630b61ef7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3ab16a97b39bdaf6d3aef95c0d6bb369_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6abb9e1acc5e3151696e87153be0e379_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-0899cc8db9cfc1517c03dcf785cba9eb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b4e764ad7fda858a54640d12cc55ea62_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b7b05ea1d5c844f310b7490ba8c4050f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ea720bbe1bce5572a58ab5ee0a579b2d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2d07dbee6df0b89a8870a9bda8e3cacc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-33b1c1f08f69cdcaa5218cae82d43988_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-054608a778b394e2d15aaa140982a443_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-eef24fe44fc00efd221ff69c1f43efc6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a1ca640b5f9de9b6f6d9721fb6460707_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-b7f7500c9fdb8d574fbf04df55420c3b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-70046e4ee892e3f64fb1acb57a172439_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5cf8674118159ff851f8d408f5430169_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-caa7c81298bf3927d1e371b48141fbd5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a0b7ff5e0260bd03f6d8988e3e6b796f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2bd0f272e96b29730132151403c6278a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7743e04a1435cb3e7da54eaf3af2b3d0_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-66ad289de5d9358cf1135ff9884e58d5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f1786c227636d75720362acf8fc39f74_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-68dc000275990f066822a861188c3fc9_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c597764d0c27d52d25a421ebd03fe4ab_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-37751434cf1825f0dd4fc09cb5e07a7e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-aa7ab7b5497b0eb4dab5328b6d49f55f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2e86462d136dfd2ae41d2c072998d7f0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-61e174f1c9e0e3bb44d28d01d6dc1c54_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-76b9c63acc127699567047974a312a80_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5da2b9c476a01741d5a23470f905bf97_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c06520431eca3b308cee4469119f1922_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1653a2bcaa8427b446b88c24c631f6cc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c4e697b3ed2e895b919f1c78002db98d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4d42fdc1f9d3381ad811aa05edd39b40_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-b5858d384bd4f56e9fe1d777c71a146a_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-286d9993db61c5b2078ab7c542a7bfe5_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-f944dfbaaf0d62a3296637692f8b7ab2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3213b3baad1baddd43d81a351bd1d08e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-bbccf7eff241c534e46eb09bf3f38edd_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-db781d23d065b09f8348aa827d57679b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3b88e858556786887f4098bc5e4042f3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d70133449202b4c62cf5b52a00791a06_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-38ada1528a7e24fc879a764252636ad4_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-75106121037e7246d165d2f77fa8ff17_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-27863992ce57dc1bf999bd6d58226287_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a5a102d6b373a6c037b1929b19b85fbe_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-36be1da349c7b44f68c999b984e91081_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4f5bd5cac0fb13b67ddc49aa84343aed_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 9489,
+        "answer_type": "normal",
+        "reaction_instruction": {
+          "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 92020290827}",
+      "attached_info": "Cu0jCJSyj67EgsKSuQEQBBoJNzExNTE5MTM0IPSegr0GKM4yMIMCQAxKIAoVVFNfU09VUkNFX1RIRU1FX01FUkdFEgEwGAAgADoAWgcxNTkwODM5YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ILOTIwMjAyOTA4MjeKAQgyMzUyMzY5NqoBCXJlY29tbWVuZMIBIGUxNzVhMjBkMDZjMjMxM2QyNWMxMzU5OGYzOTkzYzg28gEKCAwSBk5vcm1hbPIBKAgKEiQzZDAwOTU5My1iNmFjLTQxOTctYWY1OC1hZTIxMmQ0ODg4ZjbyAQUICxIBM4ICAIgCz/Wi+YwzkgIgZTE3NWEyMGQwNmMyMzEzZDI1YzEzNTk4ZjM5OTNjODaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWUmV2aXNpdFZhbHVlV2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCFVRTX1NPVVJDRV9USEVNRV9NRVJHRegCAvoCC05PUk1BTF9GTE9XigMgZmFlMWVjY2ViYzY2NGFjZWIzZjdkMGU4MmM2ODNlY2GaAw0KAnYyEAAaBW90aGVyqAO58R7YAwDqAxtUaGVtZU1lcmdlTmV3VjFQb29sUmVjYWxsZXL6A9weEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQvRcYjxQiI3YyLTIyMjg3MzBkMzc5YTg4MTY3Y2NkZTZkMmE5OWNkZDJlOi0IAxCIHRj9ECIjdjItN2JmN2RiMDQ5N2YxNjI4NzM5YWFhNjQzODQ5YjJjMjI6LQgCEK4WGKcSIiN2Mi00NjA2NzIwNjM3Yjg0ZTE0MDYzYjY5ZDY3YzJiZmJhMDotCAMQqB0Y4xQiI3YyLTdlYjcyMzIzNzIzYmE2YzdhMTcwNzkxMTFjOGY0N2Y3Oi0IAhD2Dxi/FCIjdjItOTA4ZjEzNDJkODRiOWViYTU2MjAwZDFhZmFmMGJjZDk6LQgDEO8LGIQJIiN2Mi1kYTNmMjI1MDVmMGY3NjZkZTcxMTY3ZmIyYjhhM2Y0MzotCAIQpBUY/AsiI3YyLTU2NGY4MGE2ZTMzNTQ4NWI1NzBiMDg3YjZhY2JlZDcwOi0IAxCnBxjCBCIjdjItNmQzNWFkODU2NWQ3ZmU4MTU1N2RiNzc1NTRkNjY5OTA6LQgDELAdGNYVIiN2Mi05Y2IwYTQ1Njk0NTYyZTJlYWM2YjAxMWM4NWU3NGE5ZTotCAIQlhEYzBgiI3YyLTBlYTZjNjI3ZjI1NDY5OTA1ODk4MGM1OGRkZmVkNjAyOi0IAxCtHRiZFSIjdjItMjExNmYwMjQxMTQwNWJkMjViMjM2MWQwYmY0MDk3OWM6LQgCELoPGPoKIiN2Mi1lOWIxOWE1NDI1MGYzN2YxZWE4ZDJjOThiMmEyMWNhNDotCAMQux0YmBQiI3YyLTljZjQ2NjM3YTJjMTU4ODNlN2JiMTM3ZmRkZDExNjc0Oi0IAxCxFxjUHyIjdjItNGU1MWQxMjUwYWM3YWEzZDQ5OTk0YWQ4Nzc4ZjFiYTM6LQgDENcUGLYbIiN2Mi1lZTY3ZTVmYzJiYjQwYzAyOTAzZTA4ZDdkMWQ3OTlkMTotCAMQxhYYyREiI3YyLWFkMTFiYTZkYTFiNDI0OGRmZjA4NjVhMzYzYjFjMDg2Oi0IAhDnFBiuCiIjdjItMjRmNWIzMmI4NzBiMTRjNTE5N2U3MTkyOWY0OTZhNzk6LQgDENMRGPwPIiN2Mi0zODFlY2UzNDNmOGM3YWJlMzllOTBkZjBlYWMyMzAwMzotCAMQ3w0Y5wwiI3YyLTgyM2UyNGI4NTIxYWU5YmIxNWEwZWRmYTZhZjgxMzY1Oi0IAhDvHBjBFCIjdjItODA3NDNlNjJhZDc2ZDAxYjgyYzdkMGNkODEyYzk4NmQ6LQgCEJMNGLEXIiN2Mi05MGUzMzM2YWM3ZmYzZjRiMTI2NGU2YTJiNTY1YjMzNjotCAMQ6RUYpBAiI3YyLWEyOTNmY2U1ZmY2Y2ZkODI1N2NhNTJkNjA2YWY4OTgxOi0IAxCmHRieFiIjdjItYjU1YmFhOTk0NjRiNTA1ZGNmNmUxMmFkYTZlOTU3ZmI6LQgDEKQdGKgeIiN2Mi1jMTkwYTdkMzc1MzhiMjZjYWY5MzQ5NTI1MzJhNmU1ZTotCAMQ5hYYvQ8iI3YyLTUxZGFhYzBlZThjM2M5M2I4NjVhYjBkYWNjYTU3N2YzOi0IAxCXHRiFFSIjdjItMDEyNzI0MzBmN2JmYTcyNGI4MjE3NmMzMGRmN2FjN2I6LQgDELYNGL0RIiN2Mi1lN2NlMzBhNThlNjA0OGM0OTJkMTAxN2Q1MTUyMjNmOTotCAMQjxIYgBAiI3YyLTJjMmM0MzQzMzg5YjdkNmE0ZDEzYmM5ZWZlZWJhOTYxOi0IAxCtHRi7ESIjdjItNzk4Yzg0ZTU4ODNmYzZhZjRlN2E4ZDVkOTU1ZWJmZGM6LQgDEJgdGOcTIiN2Mi0yMTdjNjYxOTdlMGQyZTI5Njc5Mzc0N2NkZTk0MGRlODotCAIQxQoY7g4iI3YyLWZjMDMxNGU0ZjAyNzUzNGU2MTk0N2EyODY4MjIyNmVjOi0IAxDaFhjoCiIjdjItZGE2OGI1ZGJmMGZhMmQ5ZDczOWExNmJjMzEzZTcyOGE6LQgCEK8cGIwRIiN2Mi0xZDI5ZmI0ZTIyYWRlNGVhMTk1NDM1Yjc4ZDA2NjQzMjotCAIQ3hEYmxUiI3YyLWVhYzZlMDExZDRmNjc5M2EwOTdhMjI5YTgxY2I3OGMyOi0IAhCzCRjYDCIjdjItYTA5ODQ4Nzc2YTllMDMwNTE2NWU2ODg1YjI2OTc3MGY6LQgCELoOGPgKIiN2Mi05Y2NjMDc1N2FkNjU5MjNjNjkwNmVmNGM3ZTBjMjU2MDotCAMQrAwY7hEiI3YyLWY1NDRkMThiOGI1MTQxNzM5Y2I0OGMxMjdmOWU2ZGEwOi0IAhCSFRj8FyIjdjItNGQ5YmRjNmYxYzgzYjU0ZmY5Mjg5ZDViNzMyOWEyOWM6LQgCEKYMGI8KIiN2Mi1kNDBmZTQxYjlhNTc0ZGVmZmUyNzhhNDNmM2Y3OTBmYTotCAIQ3BgY7QgiI3YyLTUxMjQwNjg5MmI2YTMzY2Q5MzRiZmEzMDBmZDlkMmVhOi0IAhDjDxjACyIjdjItMmVhOTRjNjlkNTAwOTVhOWRkNjY5MzFmMzcxMGY1ZDg6LQgCEI8aGMYSIiN2Mi1iNjEzMmQ2MDAwYTQ2YWIzOTc5OTlkNzkzZGY3M2JkODotCAIQiREYjgoiI3YyLTg2OTJjOTRlZDIxZDY5ZjM2OGQwOTJjOGM0NDE1NTA3Oi0IAxDEEBjNDyIjdjItYmVhM2IzMDIyZDNkOTdiMGM5MGE4OTI0NGYwZGViYjM6LQgCEIgUGKAaIiN2Mi04ZTgwOWQ5YzEzYzQ5YjQ0OWYyOTA0NjkyZjBjOGZiMzotCAMQixUYnAwiI3YyLTBmZTI5Y2Q1M2ZiMTNlNmI1NjY0YmU2MDk2N2Y1OWRlOi0IAhDzEBjYFCIjdjItYjdiMDA5YjMyNWRlYjBkOWM3NTBhZGEyYTczNDE5OGY6LQgDEIsVGP0OIiN2Mi1lNTViZjUzZjYxMmQxZmE4NjcyMWY5MjQ5Y2JhMDM5YTotCAIQ7xAYnRMiI3YyLTFjNGZkMzlhMTAxNzEzYjIwNzBjOTlmMjEyYTNjMTk1Oi0IAhDAGBjXESIjdjItZWM0YWVkYzY0YjE0YTJjNDBkMzFiYjU3NjhiMTBiNzU6LQgCEM4PGNwKIiN2Mi03Nzk1ZmRjN2I4YjcxM2M4YzA3NjAwZWI3MWM5YzJiOTotCAIQ1BMYkBoiI3YyLWM0MzU4MTZmYzE2Yzc4M2E5MWYzMzg2ZjlmMzdjMGI3Oi0IAhDpHBiBEyIjdjItMTZhYjk5MjRkNTk4OWEyODJlMmNhNmZlZDM0NDNiMDA6LQgCEJgZGM0MIiN2Mi1iYTY5ZWM5ZjlmZmZmZDdiYzBmNGZmMTcxNjRiMjU5ZTotCAMQ+xEYxg0iI3YyLTc5M2Y5MWI5NTNiOGViMGNjYjllMjM0NjI4MDEzMzE1Oi0IAhCvDxjlFSIjdjItODE5YzdiMmM4MTE0YzNhNTExZjg5MjZjYmIwOTNhMGM6LQgCEN0OGJsQIiN2Mi00ZmE3ZTZjZmIyOWFmODM2YjZhYWFkZDIxMzA5OTQ1NzotCAMQ0QoY9wciI3YyLWRiODA2YmZkMTgzMGQ0NThlYzgxMGE1OWJmZDkxNThmOi0IAxDXChjqByIjdjItMmRhMjVmYmNhMzdmY2NhZWVmZDhkZGRiMzE0NWJhMDQ6LQgDEOoZGJ8RIiN2Mi05MTliZWI2NDg1YjA0YWYxMTMzOTYyZTkxZWE4MmExMTotCAMQmRkYtBEiI3YyLTQ1YjdkMzE3NTY2ZmM1NTA2M2JlYzdmNTE5MjM1OWRhOi0IAxCFGxiYHCIjdjItZDliZjM5MDExZTgxOGI0YTA5MDUzODEzMTc3NWM3NzM6LQgCEMYTGIcOIiN2Mi03YTgwZTVkZWQ3OTk3ODVmYTA2NjAxN2E4OGJiZDM2MDotCAIQkB0YoBIiI3YyLWY3NmU2NWRjODljMmQwZmM5ZWMxNjUzMTQ4NzM2ODY4Oi0IAxD7HBiKFCIjdjItNDNmYjY3YTIyZDk4YTE3ODE5MzE1MjRmNTUzZjE0N2Y6LQgCEKsdGOMSIiN2Mi01ZWVkZWNiNzA4NmQzZDdkYzExYjg1NzZlMmFlODI0ZjotCAMQrRsYrR4iI3YyLTFkYzkxMzZkZTU5YzQzNzNhODM0YmZmYzk1ZDViYzRkOi0IAxDgChiIByIjdjItNjMzNjk1ODJlMDU2NTA5YzBkNjY0YWRmNTgxZmVlMDU6LQgCEK0dGJ8TIiN2Mi1kYjdiZjUyYWEyZmEyZjVkNDhlYzE2NGIwOGRjMGYwZTotCAIQlRAYwRQiI3YyLTZhMzY1YWRiM2YyODAwY2VhYjRmYzllMTNkYjkzMjhlOi0IAhCiERi/GCIjdjItOGI5MjBiODU2ZjcxOWRhOWMxODkwODQ2ZDI1YzVlNzI6LQgCEKYRGMgYIiN2Mi1kODIwNmEwYzFhMDExNDQyZjBjZmI2OGU2ZmIzNDQzYjotCAIQqBsYhxQiI3YyLTc2YjdiN2QxNThlNjNjMTBiMDA5M2VlNjMwODNhNTAyOi0IAxDhChiZCCIjdjItYmE2ZGI4MjMxZWQ2ZTRiMDE3OGRiNmFkMmY1ZDU4YjQ6LQgDEKESGMAXIiN2Mi1kYzRlOWIwOTE1NGFmZTQ4MWMxNzk4YTAzZWY0NDdkZDotCAMQzhIY4xYiI3YyLTFhNjE0NjIwOGFhOTg3M2FlNmI5ODJlMGU5OTAxODYzOi0IAxCOFRjSDyIjdjItYjUyYTM3YWU5M2I0NDE5NGNiMjkzNmJlYjg1ZDFiYjA6LQgCEL0cGIoUIiN2Mi02NjcxM2U4YTYxZTA4YTViZGI4ZGNhMmM2ODY0NzNmMDotCAMQ1hgY/g8iI3YyLWJkOGYxNDcxOTBlZjRjZGI0YTRkZmNkMDJlNWQzODJhOi0IAxDjChj8BiIjdjItYzk1MTY2NzkwODY5OWZhZGIzOTJmYThjOGM0ODQ0MTk6LQgDEKkdGMEQIiN2Mi0xMWZjOWM2NGU2ZDhkMjMyNmQxYjc1ZTJhNzkxNjk0ODotCAIQsB0Y8A4iI3YyLTA2MDJlMDdkOGJjZDhmYzM3Y2JlNDQ1YTAxMzNhNDQwOi0IAxDyFxjDDCIjdjItNzMyMTU4NTUxMzFmYTg1MDc2YzVlNjlhZmVjZGZmNTiABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTYwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAFvK4P4EFAAAAAAAAAACJBW3o8qRKh9c/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQOQBgCgBg6oBgOSAiYKCTcxMTUxOTEzNBILOTIwMjAyOTA4MjcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "13_1755822209.597",
+      "type": "feed",
+      "offset": 13,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822209,
+      "updated_time": 1755822209,
+      "target": {
+        "id": "1941622845143749465",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941622845143749465",
+        "author": {
+          "id": "8400d6c4de681c0c4fc930d7d54e0f0a",
+          "url": "https://api.zhihu.com/people/8400d6c4de681c0c4fc930d7d54e0f0a",
+          "user_type": "people",
+          "url_token": "tan-ji-dong-38",
+          "name": "济东杂谈",
+          "headline": "这是一个没什么梦想的人文博主，渴望缀拾遗珠抱玉。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-97dc7f9ce807496637d6f254ac31a583_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "super_activity",
+              "description": "知势榜社科人文领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "软件开发行业 工程师"
+            }
+          ],
+          "followers_count": 24146,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755698959,
+        "updated_time": 1755817026,
+        "voteup_count": 98,
+        "thanks_count": 2,
+        "comment_count": 13,
+        "is_copyable": false,
+        "question": {
+          "id": "11923568898",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/11923568898",
+          "author": {
+            "id": "42dc370ff6ae19be2de85e7fe559944c",
+            "url": "https://api.zhihu.com/people/42dc370ff6ae19be2de85e7fe559944c",
+            "user_type": "people",
+            "url_token": "57-22-81-40",
+            "name": "一个两个",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-93790dcca79047dc9376be740378d83a_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "在唐僧不念紧箍咒的时候，孙悟空为什么不偷偷打死他?",
+          "created": 1739263770,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 32,
+          "bound_topic_ids": [
+            2279,
+            7675,
+            10867,
+            331174,
+            154582
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-60f186a639c41ff80f97c57b24e07a89_720w.jpg?source=b6762063",
+        "excerpt": "猴哥刚戴上紧箍儿的时候，恼羞成怒确实是想杀唐僧。 但唐僧立刻就暗示了，是别人给他的，让孙悟空猜出是观音。那么冤有仇，债有主，这个 怨结在了观音身上。猴子正要找观音理论，唐僧又 补了一句：“此法既是他授与我，他必然先晓得了。你若寻他，他念起来，你却不是死了？”你看唐僧这句话， 既展示了善心，又做出了提醒：观音也会。这是个 很重要很重要的提醒，告诉了猴子单杀唐僧是无济于事的。如果猴子杀了唐僧，观音一样能…",
+        "excerpt_new": "猴哥刚戴上紧箍儿的时候，恼羞成怒确实是想杀唐僧。 但唐僧立刻就暗示了，是别人给他的，让孙悟空猜出是观音。那么冤有仇，债有主，这个 怨结在了观音身上。猴子正要找观音理论，唐僧又 补了一句：“此法既是他授与我，他必然先晓得了。你若寻他，他念起来，你却不是死了？”你看唐僧这句话， 既展示了善心，又做出了提醒：观音也会。这是个 很重要很重要的提醒，告诉了猴子单杀唐僧是无济于事的。如果猴子杀了唐僧，观音一样能…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"TE9xOvLb\">猴哥刚戴上紧箍儿的时候，恼羞成怒确实是想杀唐僧。</p><p data-pid=\"Oi5xFhxh\">但唐僧立刻就暗示了，是别人给他的，让孙悟空猜出是观音。那么冤有仇，债有主，这个<b>怨结在了观音身上</b>。</p><p data-pid=\"LyUBDi3L\">猴子正要找观音理论，唐僧又<b>补</b>了一句：</p><blockquote data-pid=\"x8grZtfS\">“<b>此法既是他授与我，他必然先晓得了</b>。你若寻他，他念起来，你却不是死了？”</blockquote><p data-pid=\"hWJHN-Db\">你看唐僧这句话，<b>既展示了善心</b>，<b>又做出了提醒：观音也会</b>。</p><p data-pid=\"6D6_IlTH\">这是个<b>很重要</b>很重要的<b>提醒</b>，告诉了猴子单杀唐僧是无济于事的。</p><p data-pid=\"kQKK4erV\">如果猴子杀了唐僧，观音一样能靠紧箍咒<b>轻松</b>收拾猴子。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b96d1ddf7a9bf42c555d28f5fb9e40b9_1440w.jpg\" data-rawwidth=\"660\" data-rawheight=\"441\" data-size=\"normal\" data-original-token=\"v2-fc09a3defaf0ff2f5800eef42d993aba\" data-default-watermark-src=\"https://pica.zhimg.com/v2-6c06279992506bfc1a08ce87d5191102_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"660\" data-original=\"https://picx.zhimg.com/v2-b96d1ddf7a9bf42c555d28f5fb9e40b9_r.jpg\"/></figure><p data-pid=\"iZwUncXi\">过去很多人总觉得唐僧只是个镀金的“佛二代”，是团队里最没本事的人。</p><p data-pid=\"3eRCTUqb\">可唐僧作为一个凡夫俗子，跟三个徒弟比起来就像蝼蚁一样，却能领导取经团队<b>十多年不散伙</b>，且<b>不生记恨之心</b>。</p><p data-pid=\"zA6NrUh6\">这种不显山不露水的管理能力，已经是相当难得了。</p><p data-pid=\"QktHRCA2\">等师徒四人到达灵山凌云渡时，唐僧诚心感谢三个徒弟。孙悟空回话说道：</p><blockquote data-pid=\"FVbrb9vB\"><b>两不相谢</b>，<b>彼此皆扶持</b>也。我等亏师父解脱，借门路修功，幸成了正果；师父也赖我等保护，秉教伽持，喜脱了凡胎。</blockquote><p data-pid=\"DIYC8TKd\">你看，悟空其实根本就不记恨唐僧，人家是<b>“彼此扶持，共成正果”</b>。</p><p data-pid=\"jSlCGHCa\"><b>甚至孙悟空最后都成佛了，还管唐僧叫师父</b>：</p><blockquote data-pid=\"NkSDy1dH\">孙行者却又对唐僧道：“<b>师父</b>，此时我已成佛，与你一般，莫成还戴金箍儿，你还念甚么《紧箍咒》儿掯勒我？趁早儿念个松箍儿咒，脱下来，打得粉碎，切莫叫<b>那甚么菩萨</b>再去捉弄他人。</blockquote><p data-pid=\"qeAkYqlz\">这句话里，悟空<b>对唐僧的态度</b>，与<b>对观音的态度</b>差别，是截然不同的。</p><p data-pid=\"_SnXqq7O\">哪怕悟空对紧箍仍耿耿于怀，那也是观音坏。人师徒俩才是<b>真感情</b>。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e384a7a816dfd4e40e3521567308ae67_1440w.jpg\" data-rawwidth=\"773\" data-rawheight=\"500\" data-size=\"normal\" data-original-token=\"v2-038bea4f83655a97d1593c52cd206b13\" data-default-watermark-src=\"https://pica.zhimg.com/v2-87b2594628028123086516fb8ee1f018_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"773\" data-original=\"https://pic4.zhimg.com/v2-e384a7a816dfd4e40e3521567308ae67_r.jpg\"/></figure><p data-pid=\"sScXb86T\">事实上，在西行路途中，每当唐僧遇难时，都是猴子哭的<b>最痛心</b>。</p><ul><li data-pid=\"X2n4cK6k\">唐僧赶猴子走时，猴子跑珞珈山忍不住哭了；</li><li data-pid=\"Lm0v7vMZ\">唐僧被黄眉抓去后，猴子又忍不住流泪；</li><li data-pid=\"zCfW7p-4\">听说唐僧被狮驼岭三魔吃了，猴子又泪如泉涌；</li><li data-pid=\"_i2wwUeN\">豹子精拿人头冒充唐僧，猴子辨别不出真假，又哭了；</li></ul><p data-pid=\"stdlCuYr\"><b>你想想，猴子当年大闹天宫，是何等英雄。如今频频为了一个凡人落泪，这不是真情是什么？</b></p><p data-pid=\"9qzdSG-c\">而在豹子精这关时，孙悟空甚至<b>因为唐僧</b>开始出现了“<b>算法错误</b>”：</p><blockquote data-pid=\"25vjzblH\">长老道：“徒弟，快来解解绳儿，绑坏我了！”行者道：“师父不要忙，等我打杀妖精，再来解你。”急抽身跑至中堂。<b>正举棍要打，又滞住手道：“不好！等解了师父来打。”复至园中，又思量道：“等打了来救。”如此者两三番</b>，却才跳跳舞舞的到园里。长老见了，悲中作喜……</blockquote><p data-pid=\"EcVi9OwH\">在孙悟空的理性算法里，紧要度最高的事是先杀妖怪；在悟空对感性算法里，紧要度最高的是先救师父。</p><p data-pid=\"4-sqz7Rb\">然后悟空就傻了，<b>脑袋指令互相冲突</b>，来回走来走去。<b>最终感性压倒了理性，选择了先救师父。</b></p><p data-pid=\"wnyjZQs_\">就这个画面，如果有过生活经历的朋友一定会很熟悉。</p><p data-pid=\"CE5bOfSO\">像不像你为了见自己朝思暮想的对象时，把衣柜的衣服换了一件又一件，却愣是没决定好穿什么？</p><p data-pid=\"g4DddR-z\">情至浓时，很多原本无所谓的东西，也会让你开始<b>纠结</b>。<b>太过在乎对方</b>，脑袋就会开始打架，出现猴子的这种来回不定症状。</p><p data-pid=\"38oHPTB8\">所以面对这样的一对真情师徒，你却想的是在唐僧念咒前偷袭杀害对方。不觉得有点<b>破坏氛围</b>吗？</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3c7e2afe025eab6827c697c2bbb0fdf7_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"944\" data-size=\"normal\" data-original-token=\"v2-60f186a639c41ff80f97c57b24e07a89\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-9aa65a1d28a94ffc5b2fb6f628f9b672_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://picx.zhimg.com/v2-3c7e2afe025eab6827c697c2bbb0fdf7_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 3523,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-60f186a639c41ff80f97c57b24e07a89_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 14,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941622845143749465}",
+      "attached_info": "CqkHCJSyj67EgsKSuQEQBBoJNzQzMTYyNzAwII+ul8UGKGIwDUANSkoKLVRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX09QRVJBVE9SXzIwSU1QX0FMTBITMzQ1ODc2NDUxMzgyMzM4OTIyNhgAIAA6AFoJMTEzMzYwNTQ4YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTYyMjg0NTE0Mzc0OTQ2NYoBCzExOTIzNTY4ODk4qgEJcmVjb21tZW5kwgEgODQwMGQ2YzRkZTY4MWMwYzRmYzkzMGQ3ZDU0ZTBmMGHyAQoIDBIGTm9ybWFs8gEoCAoSJGRkNzUxYzNiLWUxZWYtNDM4OS05MzgwLTRjOGQ3NTJjNDFhZfIBBQgLEgEzggIAiALP9aL5jDOSAiA4NDAwZDZjNGRlNjgxYzBjNGZjOTMwZDdkNTRlMGYwYZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIWRmVlZENvbnRyb2xCcmVha0luUnVsZdoCLVRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX09QRVJBVE9SXzIwSU1QX0FMTOgCBPoCC05PUk1BTF9GTE9XigMgZmFlMWVjY2ViYzY2NGFjZWIzZjdkMGU4MmM2ODNlY2GaAw0KAnYyEAAaBW90aGVyqAPDG9gDAOoDH0NvbnRyb2xJbnRlcmVzdE9wZXJhdG9yMjBJbXBBbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQlAUYuQMiI3YyLWZjMDlhM2RlZmFmMGZmMmY1ODAwZWVmNDJkOTkzYWJhOi0IAxCFBhj0AyIjdjItMDM4YmVhNGY4MzY1NWE5N2QxNTkzYzUyY2QyMDZiMTM6LQgDEOwJGLAHIiN2Mi02MGYxODZhNjM5YzQxZmY4MGY5N2M1N2IyNGUwN2E4OYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBJvNygL5BAAAAMAP2Yc/gQUAAAAAAAAAAIkFbejypEqH1z+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFFOAFAOgFAPAFA5AGAKAGD6gGAZICLgoJNzQzMTYyNzAwEhMxOTQxNjIyODQ1MTQzNzQ5NDY1GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "14_1755822209.808",
+      "type": "feed",
+      "offset": 14,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822209,
+      "updated_time": 1755822209,
+      "target": {
+        "id": "1941996246547011470",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941996246547011470",
+        "author": {
+          "id": "303090da1e6fc24bb2c5b91e9f42d9ac",
+          "url": "https://api.zhihu.com/people/303090da1e6fc24bb2c5b91e9f42d9ac",
+          "user_type": "people",
+          "url_token": "xin-zang-ma-bi-75",
+          "name": "Ggfcqffdsdcvvggd",
+          "headline": "目标是火星",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-71d62a1b87da271695e956439c788520_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 92,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755787985,
+        "updated_time": 1755789107,
+        "voteup_count": 2,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "574785659",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/574785659",
+          "author": {
+            "id": "b9840c983f4f7e7aedb10e6b0ad126fc",
+            "url": "https://api.zhihu.com/people/b9840c983f4f7e7aedb10e6b0ad126fc",
+            "user_type": "people",
+            "url_token": "qiu-sheng-23-64",
+            "name": "秋生",
+            "headline": "秋天见。",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-30fd59dc505e7275f2d955c2169a6195_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 277,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么学完了 C 语言觉得自己什么都干不了？",
+          "created": 1672034143,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 28,
+          "bound_topic_ids": [
+            707,
+            1354,
+            3807
+          ],
+          "is_following": true,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "以前我也被这个问题所困，这是一个瓶颈。我选择继续学《编译原理》，《计算机图形学》，《数字逻辑电路》，之后豁然开朗。 学完《编译原理》，你可以跳出编程语言的束缚，java,c,c++,go,python，本质上都差不多，你可以开始思考，什么问题能通过计算机解决？ 学完《计算机图形学》，你不会再被那些精美的图形框架所迷惑，那就是一堆像素点，需要操作系统确定每个像素点的值，不是魔法。 学完《数字逻辑电路》，触及了计算机的核…",
+        "excerpt_new": "以前我也被这个问题所困，这是一个瓶颈。我选择继续学《编译原理》，《计算机图形学》，《数字逻辑电路》，之后豁然开朗。 学完《编译原理》，你可以跳出编程语言的束缚，java,c,c++,go,python，本质上都差不多，你可以开始思考，什么问题能通过计算机解决？ 学完《计算机图形学》，你不会再被那些精美的图形框架所迷惑，那就是一堆像素点，需要操作系统确定每个像素点的值，不是魔法。 学完《数字逻辑电路》，触及了计算机的核…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"O8npiq-0\">以前我也被这个问题所困，这是一个瓶颈。我选择继续学《编译原理》，《计算机图形学》，《数字逻辑电路》，之后豁然开朗。</p><p data-pid=\"oXKwOkGI\">学完《编译原理》，你可以跳出编程语言的束缚，java,c,c++,go,python，本质上都差不多，你可以开始思考，什么问题能通过计算机解决？</p><p data-pid=\"2wysUMj0\">学完《计算机图形学》，你不会再被那些精美的图形框架所迷惑，那就是一堆像素点，需要操作系统确定每个像素点的值，不是魔法。</p><p data-pid=\"sSbgxrSm\">学完《数字逻辑电路》，触及了计算机的核心：cpu，你真正知道了计算机的真正功能是3个，数学运算，符号逻辑，以及控制流：顺序循环选择。</p><p data-pid=\"H3gvzMW9\">学完了c语言，就相当于学了微积分，线性代数，概率论这些基础数学，你已经可以做很多事，只不过你不知道，因为你没继续往后研究，没有从广度和深度上研究数学的意义，没有掌握这些工具的本质。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 280,
+        "favorite_count": 23,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941996246547011470}",
+      "attached_info": "CrMFCJSyj67EgsKSuQEQBBoJNzQzMzM2ODE2INHlnMUGKAIwAEAOSjIKIFRTX1NPVVJDRV9GT0xMT1dfUVVFU1RJT05fQU5TV0VSEgg5MDAxMTc4MxgAIAA6AFoIOTAwMTE3ODNiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxOTk2MjQ2NTQ3MDExNDcwigEJNTc0Nzg1NjU5qgEJcmVjb21tZW5kwgEgMzAzMDkwZGExZTZmYzI0YmIyYzViOTFlOWY0MmQ5YWPyAQoIDBIGTm9ybWFs8gEoCAoSJDZiMTBiZDBjLWI1YzktNDFmYy1hNWM5LWMwNTk5OTkxNTM5ZPIBBQgLEgEzggIAiALP9aL5jDOSAiAzMDMwOTBkYTFlNmZjMjRiYjJjNWI5MWU5ZjQyZDlhY5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAiBUU19TT1VSQ0VfRk9MTE9XX1FVRVNUSU9OX0FOU1dFUugCAvoCC05PUk1BTF9GTE9XigMgZmFlMWVjY2ViYzY2NGFjZWIzZjdkMGU4MmM2ODNlY2GaAw0KAnYyEAAaBW90aGVyqAOYAtgDAOoDGGZvbGxvdy1xdWVzdGlvbi1yZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKAWc7g/gQUAAAAAAAAAAIkFbejypEqH1z+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFA5AGAKAGEKgGAJICLgoJNzQzMzM2ODE2EhMxOTQxOTk2MjQ2NTQ3MDExNDcwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "15_1755822209.179",
+      "type": "feed",
+      "offset": 15,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822209,
+      "updated_time": 1755822209,
+      "target": {
+        "id": "1940030429932558293",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1940030429932558293",
+        "author": {
+          "id": "d038e13b49b7411d468e414412ef054a",
+          "url": "https://api.zhihu.com/people/d038e13b49b7411d468e414412ef054a",
+          "user_type": "people",
+          "url_token": "wen-yi-zai-dao-7",
+          "name": "鞭临天下",
+          "headline": "用爱发电，爱看不看，随时停更。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-9c3886256908fe75077aa82eca4c0d76_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 23825,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755319298,
+        "updated_time": 1755319698,
+        "voteup_count": 107,
+        "thanks_count": 8,
+        "comment_count": 13,
+        "is_copyable": false,
+        "question": {
+          "id": "644250497",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/644250497",
+          "author": {
+            "id": "615521e69f7e4a89457866e4ae4ec00b",
+            "url": "https://api.zhihu.com/people/615521e69f7e4a89457866e4ae4ec00b",
+            "user_type": "people",
+            "url_token": "yang-xian-sheng-44-37",
+            "name": "杨先生",
+            "headline": "狗带",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "大量刷短视频，会让大脑变笨拙吗?",
+          "created": 1707837383,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 37,
+          "bound_topic_ids": [
+            458,
+            5633,
+            20858,
+            23174,
+            109251
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "在当代社会，很少有一种媒介能像短视频这样迅速而彻底地改变人类的认知习惯。几年前，它还只是零散的娱乐消遣，而今天，它已经成为绝大多数人每天花费最长时间的内容形式。 很多人都有过类似的感受： 短视频很有趣，但看多了，思维却好像越来越迟钝，耐心越来越差，甚至长文都读不下去。 这种越来越笨的感觉，并不是错觉，而是有深刻的心理学和社会学根源。 短视频的逻辑，首先是极端的即时满足。你能够在几秒钟里就能获得笑点、…",
+        "excerpt_new": "在当代社会，很少有一种媒介能像短视频这样迅速而彻底地改变人类的认知习惯。几年前，它还只是零散的娱乐消遣，而今天，它已经成为绝大多数人每天花费最长时间的内容形式。 很多人都有过类似的感受： 短视频很有趣，但看多了，思维却好像越来越迟钝，耐心越来越差，甚至长文都读不下去。 这种越来越笨的感觉，并不是错觉，而是有深刻的心理学和社会学根源。 短视频的逻辑，首先是极端的即时满足。你能够在几秒钟里就能获得笑点、…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"EjlSr2dr\">在当代社会，很少有一种媒介能像短视频这样迅速而彻底地改变人类的认知习惯。几年前，它还只是零散的娱乐消遣，而今天，它已经成为绝大多数人每天花费最长时间的内容形式。</p><p data-pid=\"u3nVfiHK\">很多人都有过类似的感受：</p><p data-pid=\"-dZwSWw8\">短视频很有趣，但看多了，思维却好像越来越迟钝，耐心越来越差，甚至长文都读不下去。</p><p data-pid=\"2rE9XwF-\"><b>这种越来越笨的感觉，并不是错觉，而是有深刻的心理学和社会学根源。</b></p><p data-pid=\"0m-DBkNs\"><b>短视频的逻辑，首先是极端的即时满足。</b></p><p data-pid=\"rfX4575c\">你能够在几秒钟里就能获得笑点、爽点或猎奇感，算法会捕捉你眼球停留的瞬间，然后源源不断推送类似内容。大脑在这个过程中分泌多巴胺，形成刷到一个爽点就获得一次奖励的神经通路。</p><p data-pid=\"bDMbm8HV\"><b>长期沉浸其中，大脑会被训练成习惯于频繁的即时刺激，而难以忍受延迟回报。</b></p><p data-pid=\"Nt799Pul\">从神经科学的角度进一步观察，这种爽感正在重写大脑的奖励系统。</p><p data-pid=\"EurGluho\">研究表明，大脑的可塑性极强，长期沉迷于短视频会让多巴胺分泌阈值提高，也就是说普通的学习和阅读越来越难以给大脑带来快感。</p><p data-pid=\"FQ047AC3\">这就像一个人习惯了高糖饮食，清淡的蔬菜就会显得寡淡无味。<b>短视频塑造的是一种快感饱和，使人难以从慢节奏的知识活动中获得满足。</b></p><p data-pid=\"ADkrsJuR\"><b>这个机制让人不是智力下降，而是认知能力钝化，难以进入深度思考的状态。</b></p><p data-pid=\"FQVxITU-\">这直接削弱了人的耐心和专注力。</p><p data-pid=\"RriNXuTF\">这时候一个习惯了短视频的人，在面对需要长时间阅读、深度思考的任务时，就会感到极端痛苦，因为大脑已经适应了快节奏的喂养，任何缓慢展开的叙述都会显得非常枯燥乏味。</p><p data-pid=\"BptTBdKF\"><b>耐心的削弱，还伴随着思维方式的重塑。</b></p><p data-pid=\"b5FL5PlT\">短视频强调视觉化和情绪化，它通过画面和音效直击感官，很少给观众留出推理和想象的空间。</p><p data-pid=\"jVgsQbDP\">人们逐渐习惯于用图像、情绪的方式理解世界，而不是文字、逻辑。这种转变让人更容易被直观的刺激牵动，却更难去构建复杂的逻辑链条。</p><p data-pid=\"jF2id8qs\">比如，看一个成功学技巧的视频，可能瞬间觉得受用，但真正要写一篇论文去论证这些技巧为什么有效时，却会发现难以展开，因为大脑并没有练习过把零散的刺激转化为系统知识。</p><p data-pid=\"iodq3dtS\"><b>除了这些，更深层的问题还有一种叫做知识幻觉。</b></p><p data-pid=\"RJ6of0_D\">短视频平台上充斥着大量知识号，一分钟讲完一个历史事件，三十秒总结一本书，十秒给出一个人生道理。</p><p data-pid=\"dtpMe3fL\">这些内容往往极具传播力，因为它们把复杂问题压缩成简明扼要的结论，观众在几秒钟里获得了我懂了的快感。</p><p data-pid=\"VQaXplAV\"><b>但这种懂了，只是幻觉。</b></p><p data-pid=\"i39BwfNP\">真正的理解是需要论证、背景、因果链和反思，而短视频剥夺了这些环节，只留下一个精致的结论。</p><p data-pid=\"qTVYp15J\">人们长期接受这种输入，会逐渐丧失对知识深度的判断力，以为自己看过、听过就等于掌握了。</p><p data-pid=\"rXOoj2qL\">结果是，你知道的结论越来越多，但思维骨架越来越空洞，无法独立重建逻辑。</p><p data-pid=\"1M0R9t7b\"><b>教育领域里，这个问题表现得尤为明显。</b></p><p data-pid=\"C3lDJySp\">传统的深度阅读和系统学习，要求学生建立长时段的注意力，从而支撑批判性思考和创造性思维。</p><p data-pid=\"wVcSXOFq\">但在短视频环境中成长的一代人，他们的阅读曲线可能严重下滑。老师布置一篇五千字的阅读材料，学生可能读不到三分之一就开始烦躁，宁愿去找同款知识讲解视频。<b>这意味着教育正在失去培养深度思维的土壤，而社会逐渐走向浅表化的认知结构。</b></p><p data-pid=\"uAOVSqVg\"><b>另外，短视频不仅改变个体大脑，也改变集体理性。</b></p><p data-pid=\"eq6nB72Z\">在公共舆论中，它可以让议题传播的速度极快，但深度极浅。</p><p data-pid=\"bEcpdxtB\">一个情绪化的片段就可能在短短几分钟内引发几百万次转发，这种人们的立场往往不是建立在信息的完整性上，而是被一瞬间的愤怒、悲伤或猎奇所驱动。</p><p data-pid=\"5RBF6EX7\">算法会推送你爱看的东西，进一步加深信息茧房。</p><p data-pid=\"dBEL_Gbe\"><b>这种结果就会变成，舆论越来越情绪化，理性讨论空间越来越小。群体心理变得像被操纵的波浪，起伏强烈，却缺乏方向。</b></p><p data-pid=\"CVwa1K-y\">这正是短视频重塑社会理性的危险所在：</p><p data-pid=\"emvjHcaA\">它让公共空间失去了逻辑辩论的耐性，而越来越依赖情绪动员。</p><p data-pid=\"36lUOBs-\">有人可能会说，短视频也能传播知识、普及技能，比如：手工教程、历史故事、科学实验。</p><p data-pid=\"J-_Y11fq\">确实，这类视频有其价值。</p><p data-pid=\"tvZL6aB-\"><b>但问题在于，短视频的传播逻辑决定了它必须抓眼球。</b>即使是知识类视频，也常常不得不以猎奇、夸张或过度简化的方式呈现。观众因此习惯于接受快餐化知识，却很少再去追问更深的背景和复杂的细节。</p><p data-pid=\"lSZVToeg\"><b>久而久之，这种表面上的知识普及实际上助长了肤浅。</b></p><p data-pid=\"dLaj_-dh\"><b>更值得警惕的是，短视频的这种机制正被资本和政治利用。</b></p><p data-pid=\"ViD7b6-0\">平台需要流量，就会不断优化算法去延长用户停留时间。商家需要营销，就会利用短视频的情绪传播特性来塑造消费冲动。政治宣传需要动员，就会用短视频的简化叙事来塑造立场。</p><p data-pid=\"NwZkw3SK\"><b>个体沉浸其中，实际上变成了可预测的流量节点，失去了独立选择信息的能力。这种笨不是自然退化，而是社会结构主动塑造的结果。</b></p><p data-pid=\"nokXCHZZ\">当然，短视频本身并不是洪水猛兽。</p><p data-pid=\"XSWNg-ee\">它和过去的报纸、广播、电视一样，都是一种媒介形式。真正的问题在于，当它成为主要甚至唯一的信息来源时，人们是否还有能力在需要的时候切换到深度模式。</p><p data-pid=\"RlsxitlR\">一个健康的认知结构，应该能在不同层次之间自如切换：</p><p data-pid=\"-VtPeQ9s\"><b>既能享受轻松娱乐，也能在必要时沉下心去理解复杂问题。如果短视频让人失去了这种切换能力，那才是真正的变笨。</b></p><p data-pid=\"y32xxgMU\">解决之道并不是抵制短视频，而是主动培养平衡。</p><p data-pid=\"zMgIAoh6\">比如，每天限定短视频的时间，同时安排至少半小时的深度阅读，让大脑维持对长文的适应力。在观看短视频知识内容时，可以顺手记下关键词，再去查找更系统的资料。在公共舆论中，不要只转发情绪化的视频，而是尝试寻找背景和多角度信息。</p><p data-pid=\"BdjftIgq\"><b>这些训练看似琐碎，却是对抗浅表化的一种自觉努力。</b></p><p data-pid=\"C4RoVI5d\">人类的智力不会因为短视频而消失，但思维方式会因此发生重大转变。我们正在见证的是一种快思维社会的形成，它让人变得聪明却肤浅，灵敏却短视。</p><p data-pid=\"rCBdobzm\">未来的挑战不在于短视频能否被消灭，而在于我们能否在它的洪流中保留深度思考的能力。</p><p data-pid=\"DPIhhiwo\"><b>真正的智慧，不是快与慢的对立，而是能在快中不失深，在慢中积累力。</b></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 3389,
+        "favorite_count": 85,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1940030429932558293}",
+      "attached_info": "CpoFCJSyj67EgsKSuQEQBBoJNzQyNDY1NTQ5IIKYgMUGKGswDUAPSiAKFVRTX1NPVVJDRV9USEVNRV9NRVJHRRIBMBgAIAA6AFoJMTA1NDQ0NDI2YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MDAzMDQyOTkzMjU1ODI5M4oBCTY0NDI1MDQ5N6oBCXJlY29tbWVuZMIBIGQwMzhlMTNiNDliNzQxMWQ0NjhlNDE0NDEyZWYwNTRh8gEKCAwSBk5vcm1hbPIBKAgKEiRmZmNhZGFiYS0yMjU0LTRlOGMtOWMxYi05OWFmYjM2MjRlODHyAQUICxIBM4ICAIgCz/Wi+YwzkgIgZDAzOGUxM2I0OWI3NDExZDQ2OGU0MTQ0MTJlZjA1NGGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIVVFNfU09VUkNFX1RIRU1FX01FUkdF6AIE+gILTk9STUFMX0ZMT1eKAyBmYWUxZWNjZWJjNjY0YWNlYjNmN2QwZTgyYzY4M2VjYZoDDQoCdjIQABoFb3RoZXKoA70a2AMA6gMbVGhlbWVNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4Ec4rz+BBQAAAAAAAAAAiQVt6PKkSofXP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUDkAYAoAYRqAYBkgIuCgk3NDI0NjU1NDkSEzE5NDAwMzA0Mjk5MzI1NTgyOTMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "16_1755822209.988",
+      "type": "feed",
+      "offset": 16,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822209,
+      "updated_time": 1755822209,
+      "target": {
+        "id": "1942108861969457687",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1942108861969457687",
+        "author": {
+          "id": "3026a1bf3bddfa7b95fc67f336d4c857",
+          "url": "https://api.zhihu.com/people/3026a1bf3bddfa7b95fc67f336d4c857",
+          "user_type": "people",
+          "url_token": "28-85-86-13",
+          "name": "momo",
+          "headline": "直性子",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-22dfe7094375e34e38695123acd219db_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 191,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755814835,
+        "updated_time": 1755814835,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "659280739",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/659280739",
+          "author": {
+            "id": "bb1089b5e5fa1ceb35c3ad5fc7732eca",
+            "url": "https://api.zhihu.com/people/bb1089b5e5fa1ceb35c3ad5fc7732eca",
+            "user_type": "people",
+            "url_token": "65-24-39-15",
+            "name": "知乎用户ZPLeKp",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "可以推荐一些有助于文学入门的书籍吗？",
+          "created": 1718726703,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 6,
+          "bound_topic_ids": [
+            53,
+            1164,
+            2058
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "这种东西直接搜中文系关于文学部分的教材不就行了？ 中国当代文学 教材： 洪子诚：《中国当代文学史》（修订版） 参考书目： 洪子诚：《问题与方法》 李 杨：《文学史写作中的现代性问题》 《抗争宿命之路》《50—70年代文学经典再解读》 陈晓明：《无边的挑战》《表意的焦虑》 张颐武：《在边缘处追索》《大转型》（与谢冕合著） 曹文轩：《八十年代文学现象研究》《20世纪末中国文学现象研究》 韩毓海：《锁链上的花环》 邵燕…",
+        "excerpt_new": "这种东西直接搜中文系关于文学部分的教材不就行了？ 中国当代文学 教材： 洪子诚：《中国当代文学史》（修订版） 参考书目： 洪子诚：《问题与方法》 李 杨：《文学史写作中的现代性问题》 《抗争宿命之路》《50—70年代文学经典再解读》 陈晓明：《无边的挑战》《表意的焦虑》 张颐武：《在边缘处追索》《大转型》（与谢冕合著） 曹文轩：《八十年代文学现象研究》《20世纪末中国文学现象研究》 韩毓海：《锁链上的花环》 邵燕…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"SXUKlA1z\">这种东西直接搜中文系关于文学部分的教材不就行了？</p><h2>中国当代文学</h2><p data-pid=\"vPrqPIR1\">  教材：</p><p data-pid=\"aOVXk-SK\">     洪子诚：《中国当代文学史》（修订版）</p><p data-pid=\"mXQQA77f\">  参考书目：</p><p data-pid=\"_5jR6vaS\">     洪子诚：《问题与方法》</p><p data-pid=\"ah3zpekZ\">     李  杨：《文学史写作中的现代性问题》</p><p data-pid=\"tKTCSEIO\">            《抗争宿命之路》《50—70年代文学经典再解读》</p><p data-pid=\"RQXmYYqg\">     陈晓明：《无边的挑战》《表意的焦虑》</p><p data-pid=\"wcApsjl3\">    张颐武：《在边缘处追索》《大转型》（与谢冕合著）</p><p data-pid=\"GyRYbH5L\">     曹文轩：《八十年代文学现象研究》《20世纪末中国文学现象研究》</p><p data-pid=\"fhuGf86P\">     韩毓海：《锁链上的花环》</p><p data-pid=\"Rx8vM5ca\">     邵燕君：《倾斜的文学场》</p><p data-pid=\"5bRPDCTW\">     贺桂梅：《人文学的想象力》</p><p data-pid=\"bMTdIZxT\">     陈思和：《中国新文学整体观》</p><p data-pid=\"PSoLnPDt\">     戴锦华：《隐形书写》</p><p data-pid=\"5ojFZIME\">     王晓明：《二十世纪中国文学史论》</p><p data-pid=\"AJoSzyya\">     陈顺馨：《中国当代文学的叙事与性别》</p><p data-pid=\"FaPcC44u\">     旷新年：《写在当代文学边上》</p><p data-pid=\"XoLm3thW\">     张旭东：《批评的踪迹》</p><p data-pid=\"LuEIsCXb\">     黄子平：《革命·历史·小说》（大陆的《“灰阑”中的叙述》是删节版）</p><p data-pid=\"UOl8jIvJ\">     唐小兵编：《再解读：大众文艺与意识形态》</p><p data-pid=\"bQfmf6ha\">     刘禾：《跨语际实践——文学、民族文化与被译介的现代性（1900~1937）》</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>中国现代文学</h2><p data-pid=\"rB7UVhC-\">  课本：</p><p data-pid=\"hvY6KQGq\">     钱理群 温儒敏 吴福辉：《中国现代文学三十年》</p><p data-pid=\"b7sCU-k1\">  文学史：</p><p data-pid=\"RsHtEYHk\">     王瑶：《中国新文学史稿》</p><p data-pid=\"6oe7hdAN\">     唐弢 严家炎：《中国现代文学史》</p><p data-pid=\"rDYtSZ4L\">     严家炎：《中国现代小说流派史》</p><p data-pid=\"kVnAnMsE\">     孙玉石：《中国现代主义诗潮史论》</p><p data-pid=\"pMWhazhD\">     温儒敏：《中国现代文学批评史》</p><p data-pid=\"ClS8guEp\">  研究著作：</p><p data-pid=\"rba77nWe\">     夏志清：《中国现代小说史》</p><p data-pid=\"E6A9q5Jm\">     钱理群：《1948天地玄黄》 《心灵的探寻》 《1948天地玄黄》</p><p data-pid=\"oawwiyox\">     陈平原：《中国小说叙事模式的转变》</p><p data-pid=\"LI3CUtdp\">     钱理群 黄子平 陈平原：《二十世纪中国文学三人谈 漫说文化》</p><p data-pid=\"j-4qeE0q\">     李欧梵：《上海摩登》</p><p data-pid=\"SnIUxzek\">     王德威：《被压抑的现代性》 </p><p data-pid=\"UCKN4Ton\">     陈平原 王德威：《北京：都市想象与文化记忆》</p><p data-pid=\"MpFb0oQd\">     王晓明：《二十世纪中国文学史论》</p><p data-pid=\"EDNHNRkk\">     戴锦华：《浮出历史地表》 </p><p data-pid=\"e09mv4X2\">     金介甫：《沈从文传》</p><p data-pid=\"tb8tSdTX\">    《中国新文学大系》各集的导言</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>中国古代文学史</h2><p data-pid=\"1M3ORHJY\">  教材：</p><p data-pid=\"NNCljf0k\">     袁行霈主编《中国文学史》四卷，高等教育出版社。</p><p data-pid=\"DvBBn6bM\">     林庚 《中国文学简史》北大、清华出版社都有。一口气可以读完，酣畅淋漓。</p><p data-pid=\"RdppwU6o\">    《中国文学史参考资料简编》上下册  北京大学出版社</p><p data-pid=\"FwkljXoT\">    《先秦文学史参考资料》，《两汉文学史参考资料》《魏晋南北朝文学史参考资料》 北大中文系编，中华书局。</p><p data-pid=\"h-KPyawG\">  作品：</p><p data-pid=\"J5Dn_oyS\">     《古文观止》</p><p data-pid=\"hTcI3_Pp\">     《天下才子必读书》</p><p data-pid=\"i1WImGhY\">     《文选》</p><p data-pid=\"Tmtn3eZt\">     《诗经》《楚辞》</p><p data-pid=\"jugZrXD3\">      沈德潜、《古诗源》 中华书局</p><p data-pid=\"wmWg8EEc\">     《唐诗别裁集》</p><p data-pid=\"tcDtNSFG\">      马茂元 《唐诗选》  </p><p data-pid=\"vA7skJVP\">      俞平伯《唐宋词选释》</p><p data-pid=\"lrhTHqJ5\">      龙榆生《唐宋名家词选》</p><p data-pid=\"jH8SJf7n\">      钱钟书 《宋诗选注》</p><p data-pid=\"-VUvBfq2\">      张鸣《宋诗选》</p><p data-pid=\"_I3B4FZE\">      汪辟疆《唐人小说》</p><p data-pid=\"fEi3hNFs\">      程毅中《宋元小说话本集》</p><p data-pid=\"uxyzm-a9\">     《西厢记》《牡丹亭》、四大名著等。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>中国文学批评史</h2><p data-pid=\"btc9EMU9\">  教材：张少康《中国文学理论批评史教程》</p><p data-pid=\"vZ-KBIOd\">        郭绍虞《历代文论选》</p><p data-pid=\"B8pd-MKN\">参考书目：</p><p data-pid=\"Ox6_k501\">        朱东润《中国文学批评史大纲》，上海古籍出版社</p><p data-pid=\"xZI8vx_x\">        郭绍虞《中国文学批评史》，百花文艺出版社</p><p data-pid=\"y8M6hf1l\">        罗根泽《中国文学批评史》，上海书店出版社</p><p data-pid=\"dDGuviow\">        詹鍈《文心雕龙义证》，上海古籍出版社</p><p data-pid=\"jkqF6WdW\">        刘熙载《艺概》，江苏古籍出版社</p><p data-pid=\"wZF8EnFP\">        郭绍虞、罗根泽主编《中国古典文学理论批评专著选辑》，人民文学出版社</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>西方文学理论史</h2><p data-pid=\"GLNDSLqT\">  教材：董学文主编：《西方文学理论史》 </p><p data-pid=\"QJlBZmg2\">  参考书目：</p><p data-pid=\"jJKE1Ta9\">             朱光潜：《西方美学史》 </p><p data-pid=\"M9_INbz1\">            韦勒克：《近代文学批评史》（8卷） </p><p data-pid=\"YQyHydgg\">            特里·伊格尔顿：《二十世纪西方文学理论》 </p><p data-pid=\"sKGKYgDP\">            拉曼·赛尔登：《文学批评理论——从柏拉图到现在》 </p><p data-pid=\"SghbGdNY\">            胡经之：《西方文学理论名著教程》    </p><p data-pid=\"oHcDcWxZ\">            赵一凡：《欧美新学赏析》 </p><p data-pid=\"FRVru9rc\">            以及大量西方（文学）理论原著，从柏拉图往下，直到福柯、德里达等</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>文学原理</h2><p data-pid=\"_z4PiXD3\">  教材：</p><p data-pid=\"iuNgy6a_\">董学文、张永刚：《文学原理》 </p><p data-pid=\"fxcy5wiv\">  参考书目：</p><p data-pid=\"US538HNC\">            韦勒克、沃伦：《文学理论》 </p><p data-pid=\"0vKuh9W1\">            米克·巴尔：《叙述学：叙事理论导论》 </p><p data-pid=\"dVdqj2dV\">                以及西方文学理论史部分参考书目，还有小说理论著作，如： </p><p data-pid=\"qa7-V5HA\">                米兰·昆德拉：《小说的艺术》、《被背叛的遗嘱》、《帷幕》 </p><p data-pid=\"y66Hjqq1\">                纳博科夫：《文学讲稿》 </p><p data-pid=\"xwMlNZmj\">                略萨： 《给青年小说家的信》 </p><p data-pid=\"-mhiN3rN\">                卡尔维诺《千年文学备忘录》 </p><p data-pid=\"xDMxAanL\">                安伯托·艾柯《优游小说林》 </p><p data-pid=\"P3SONBae\">                张大春：《小说稗类》 </p><p data-pid=\"mLJoM_Zh\">                曹文轩：《小说门》 </p><p class=\"ztext-empty-paragraph\"><br/></p><h2>西方文学史</h2><p data-pid=\"pT-aVNKW\">教材：</p><p data-pid=\"7j5Bade1\">喻天舒：《西方文学概观》</p><p data-pid=\"RBxuJqcU\">参考书目：</p><p data-pid=\"03dw1o-I\">                    罗德·W·霍尔顿、文森特·F·霍普尔：《欧洲文学的背景》 </p><p data-pid=\"wb84zgel\">                    李赋宁：《欧洲文学史》（三卷） </p><p data-pid=\"EQiyZ4cQ\">                    威尔杜兰：《世界文明史》 以及西方文学理论史部分参考书目</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>东方文学史：</h2><p data-pid=\"4Ms97yt8\">教材：</p><p data-pid=\"VoXkddS7\">郁龙余：《东方文学史》</p><p data-pid=\"chTWnyCD\">参考书目：</p><p data-pid=\"_8z1puMJ\">          季羡林：《简明东方文学史》</p><p data-pid=\"DSZXT11c\">          栾文华：《东方现代文学史》</p><p data-pid=\"Ws-V5-10\">          季羡林、刘安武：《东方文学史》</p><p data-pid=\"dyAVPfbG\">          柄谷行人：《日本现代文学的起源》</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>民间文学概论</h2><p data-pid=\"HFIlmFwV\">教材：</p><p data-pid=\"WzmkebDB\">    《民间文学教程》    段宝林 著       高等教育出版社</p><p data-pid=\"7prnqH5H\">参考书目：</p><p data-pid=\"t4jRDTRT\">    《民俗研究》        王  娟 著                       北京大学出版社</p><p data-pid=\"hh2sacB0\">    《民间文学作品选》  高等学校民间文学教材编写组编    上海文艺出版社</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 42,
+        "favorite_count": 1,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1942108861969457687}",
+      "attached_info": "CoEGCJSyj67EgsKSuQEQBBoJNzQzMzU5MzMzILO3nsUGKAAwAEAQSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLwokVFNfU09VUkNFX1dBUk1VUF9UV09UT1dFUl9FWFBWMl9URVhUEgEwGAAgADoAWgkxMDg3ODQ2NDliIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQyMTA4ODYxOTY5NDU3Njg3igEJNjU5MjgwNzM5qgEJcmVjb21tZW5kwgEgMzAyNmExYmYzYmRkZmE3Yjk1ZmM2N2YzMzZkNGM4NTfyAQoIDBIGTm9ybWFs8gEoCAoSJDBiZDM1MDRmLWUxMGUtNDEyYS1hMDg4LTIxYzMyMWYzMWMwZvIBBQgLEgEzggIAiALP9aL5jDOSAiAzMDI2YTFiZjNiZGRmYTdiOTVmYzY3ZjMzNmQ0Yzg1N5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AIC+gILTk9STUFMX0ZMT1eKAyBmYWUxZWNjZWJjNjY0YWNlYjNmN2QwZTgyYzY4M2VjYZoDDQoCdjIQABoFb3RoZXKoAyrYAwDqAy9jb250ZW50V2FybXVwVHdvVG93ZXJUdnBUZXh0Tm9ybWFsRXhwVjJSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGDX35M/gQUAAAAAAAAAAIkFbejypEqH1z+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFA5AGAKAGEqgGAJICLgoJNzQzMzU5MzMzEhMxOTQyMTA4ODYxOTY5NDU3Njg3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "17_1755822209.434",
+      "type": "feed",
+      "offset": 17,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822209,
+      "updated_time": 1755822209,
+      "target": {
+        "id": "1941532331904053875",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941532331904053875",
+        "author": {
+          "id": "bdb96a8e8ee73da6f3fe8cb31f25ba4f",
+          "url": "https://api.zhihu.com/people/bdb96a8e8ee73da6f3fe8cb31f25ba4f",
+          "user_type": "people",
+          "url_token": "xiangzi2019",
+          "name": "溪亭日暮",
+          "headline": "中国计算机学会杰出会员\n知势榜/商业影响力榜单上榜答主",
+          "avatar_url": "https://picx.zhimg.com/50/v2-951905f1774c4d2b1f6cb48961786fb4_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "人工智能话题下的优秀答主",
+              "topic_names": [
+                "人工智能"
+              ],
+              "topic_ids": [
+                350
+              ]
+            }
+          ],
+          "followers_count": 50740,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755677379,
+        "updated_time": 1755696762,
+        "voteup_count": 43,
+        "thanks_count": 5,
+        "comment_count": 3,
+        "is_copyable": false,
+        "question": {
+          "id": "1941499767294244766",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1941499767294244766",
+          "author": {
+            "id": "a5104d566e03dcc95f01a6d8c17edfe1",
+            "url": "https://api.zhihu.com/people/a5104d566e03dcc95f01a6d8c17edfe1",
+            "user_type": "people",
+            "url_token": "ci-che-20",
+            "name": "Restart",
+            "headline": "无极限",
+            "avatar_url": "https://picx.zhimg.com/50/v2-a36d3627e02be81e3ee7354cefc3c316_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "互联网行业 影视营销总监"
+              }
+            ],
+            "followers_count": 20155,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "AutoGLM的出现对agent的意义在什么地方？AI Agent到底有多强？",
+          "created": 1755669615,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            307,
+            350,
+            188574,
+            2624557,
+            2998307
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-656d1fa288de04c9f01d31db58a397b4_720w.jpg?source=b6762063",
+        "excerpt": "AutoGLM出现的最大意义，可能在于它让 agent的属性发生了根本的改变——不再是一种“工具思维”，而成为了用户的“协作伙伴”。它的核心任务是：更像人、更懂人、更会处理复杂的、真实的需求和任务。AutoGLM通过云端虚拟设备架构，实现了对手机、电脑等设备的真实自主控制，将原本需要具备prompt能力才能进行的手工调优过程，转化为近乎“流水线”式的生成，进而实现了对复杂任务的处理，也因此 大幅降低了用户的使用Agent的门槛。…",
+        "excerpt_new": "AutoGLM出现的最大意义，可能在于它让 agent的属性发生了根本的改变——不再是一种“工具思维”，而成为了用户的“协作伙伴”。它的核心任务是：更像人、更懂人、更会处理复杂的、真实的需求和任务。AutoGLM通过云端虚拟设备架构，实现了对手机、电脑等设备的真实自主控制，将原本需要具备prompt能力才能进行的手工调优过程，转化为近乎“流水线”式的生成，进而实现了对复杂任务的处理，也因此 大幅降低了用户的使用Agent的门槛。…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"wulmqwTQ\">AutoGLM出现的最大意义，可能在于它让<b>agent的属性发生了根本的改变——不再是一种“工具思维”，而成为了用户的“协作伙伴”。它的核心任务是：更像人、更懂人、更会处理复杂的、真实的需求和任务。</b></p><p data-pid=\"bSPa30jq\">AutoGLM通过云端虚拟设备架构，实现了对手机、电脑等设备的真实自主控制，将原本需要具备prompt能力才能进行的手工调优过程，转化为近乎“流水线”式的生成，进而实现了对复杂任务的处理，也因此<b>大幅降低了用户的使用Agent的门槛。</b></p><p data-pid=\"fmWNtBrt\">“打开红果视频播放《香雪映宫阙》… 二倍速… ” </p><p data-pid=\"2pI8m4vi\">两句话，两个指令。</p><p data-pid=\"G6K-hanJ\">传统操作一般是唤醒手机-解锁-打开App-搜索-播放-手指一直放在屏幕上保持二倍速，这就是本人追剧时的常规操作。现在你如果用AutoGLM，只需要动动嘴，云端专属的“智能体手机和电脑”就会在几秒钟之内完成所有点击、跳转和信息整合，本地设备丝滑如常。</p><p data-pid=\"YJ55FlO9\"><b>因此一个更大胆的预判是，AutoGLM正试图终结Agent “聊天界面”的竞争，通过端到端的复杂任务处理，让 Agent 变得更加聪明。</b></p><h3>一、革命性底座：“智能体手机和电脑”的云端执行</h3><p data-pid=\"tiTrOz3x\">从技术原理层面来看，当我们试图去创新一个更聪明的 Agent 系统时，我们往往面临的不是一个简单的“调用大模型”问题，而是：</p><ul><li data-pid=\"xfFSlxp1\">要不要流程图？</li><li data-pid=\"rs3woJm2\">要不要状态驱动？</li><li data-pid=\"ndRvAvJq\">要不要 memory？</li><li data-pid=\"ozD_XH0f\">要不要模型自省？</li><li data-pid=\"hhvTU6Nw\">要不要跨步骤协作？</li><li data-pid=\"dIOXLxW_\">要不要失败恢复、重试、降级？</li></ul><p data-pid=\"yzYWd7lR\">这些问题的本质，其实是一个更大的问题：</p><p data-pid=\"xM9YXabs\"><b>“我们希望 Agent 像什么？”</b></p><p data-pid=\"4DzhPGK9\">和传统的Chatbot仅仅支持对话交互不同，AutoGLM 能深度理解自然语言指令，并且基于图形用户界面（GUI）识别技术，自主规划操作路径：在云端虚拟设备中模拟人类点击、滑动、输入等行为，跨应用执行多步骤任务，无论是社交媒体互动、在线购物、还是内容创作，它都还挺游刃有余的。</p><p data-pid=\"sTPy8bX8\"><b>AutoGLM和传统Chatbot的本质区别在于它的 “云端智能体设备”架构，这种架构能够使AutoGLM独立于用户本地设备运行，实现“本地发令 → 云端执行 → 结果返回”的流程。</b>展开来说无论是执行逻辑还是资源占用和隐私保护上，二者都有着质的差别。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6cb4bb374d403149ff3a76a3ba7571ae_1440w.jpg\" data-rawwidth=\"1114\" data-rawheight=\"796\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6cb4bb374d403149ff3a76a3ba7571ae\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-2ff16372c825959389f3e59a9775730f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://pica.zhimg.com/v2-6cb4bb374d403149ff3a76a3ba7571ae_r.jpg\"/></figure><p data-pid=\"LduFWdm-\">类似于语音助手的传统Chatbot，一般只能通过问答形式提供基础性建议，或者是调用本地API，比如“hey siri，请帮我打开小红书”，至于你要在小红书上做什么，那就需要你自己手动来敲了。而AutoGLM则是提供云端专属的虚拟设备模拟真人操作，在云端手机/电脑上执行点击、输入、跳转 App 等端到端任务，比如你说“请帮我在小红书上看看有哪些智能体工具不错”，它就能帮助你去搜索且得出一个结论。</p><p data-pid=\"6WZBqPFl\">除此之外，传统的Chatbot非常依赖设备的算力与权限，尤其是对于小内存的手机，运行时经常会占用内存导致卡顿，并且你需要给它开放无障碍服务等等敏感权限。但是AutoGLM 的运算和操作全在云端虚拟设备完成，本地仅用来接收结果，因此你在使用的同时，完全可以打电话、打游戏或者听歌，不需要安装任何插件或者本地权限授权，既不怕隐私风险，也不怕手机卡顿。</p><p data-pid=\"U68V2Tz3\">这得益于资源分离设计与零安装特性，也就是运算全在云端且无需本地权限，既能够解放硬件资源，又规避隐私风险。</p><p data-pid=\"3ZlKKNMK\">实际上，<b>AutoGLM 在【人-机-应用】之间构建了一个智能调度层，它的意义很简单就是推动了交互从“人操作机器”转向“机器服务人”转变。</b>而它的核心云端架构既是技术底座，也有可能是未来操作系统的雏形。</p><h3>二、多轮对话+长链路执行=跨应用的智能操作</h3><p data-pid=\"FRqfbzlD\"><b>任务完成率是衡量智能体是不是真的好用的硬性标准。</b></p><p data-pid=\"C0HUNX2p\">就沉思而言，多步骤规划和执行能力是我认为的比较重要的能力，所以主要进行了两项任务体验：</p><p data-pid=\"R2qnDKSl\">任务一：一份前沿科技领域的 PPT 制作，侧重于考察深度知识整合能力，也就是它是否能够抓取WAIC最新行业动态，以及对于零散信息是否具备提炼能力；第二个考察点是它是否能够主动拆解“背景-技术-趋势-挑战”框架，并嵌入时效性要求。</p><p data-pid=\"Mucs61Yh\">任务二：生成图片，侧重于对于大模型生成能力的考察，以及是否具备幻觉防控机制，也就是它对于物理规律的隐性约束。</p><p data-pid=\"6W6vbBNR\">针对于任务一我所提供的指令为：“<i>我想做一个关于人形机器人的 PPT，需要介绍其发展背景、主要技术、技术产业趋势和挑战等，并且需要结合最近世界人工智能大会中的相关内容，保证实时性</i>”。可以看到下方的思考过程和执行任务的过程。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-198e24689a99df00e0d0b9925fd5969d_1440w.jpg\" data-rawwidth=\"1705\" data-rawheight=\"480\" data-size=\"normal\" data-original-token=\"v2-198e24689a99df00e0d0b9925fd5969d\" data-default-watermark-src=\"https://picx.zhimg.com/v2-beb8087451e822960f905716f5cdd2fd_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1705\" data-original=\"https://pic4.zhimg.com/v2-198e24689a99df00e0d0b9925fd5969d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bffc1784062d16a88da62e6d0ccf7c7a_1440w.jpg\" data-rawwidth=\"3065\" data-rawheight=\"1640\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-bffc1784062d16a88da62e6d0ccf7c7a\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-281453e14d1c445d8deae01c2e11172d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3065\" data-original=\"https://pic1.zhimg.com/v2-bffc1784062d16a88da62e6d0ccf7c7a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-aa77f6ee61f274184988b3431dab888a_1440w.jpg\" data-rawwidth=\"3060\" data-rawheight=\"1615\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-aa77f6ee61f274184988b3431dab888a\" data-default-watermark-src=\"https://picx.zhimg.com/v2-e48033e215ffabc2bcb836ddc16161ab_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3060\" data-original=\"https://pic1.zhimg.com/v2-aa77f6ee61f274184988b3431dab888a_r.jpg\"/></figure><p data-pid=\"LIUrWypC\">针对任务二我提供的指令为：“<i>用莫奈的印象派风格，画一场雨中的巴黎街景，行人撑着彩色雨伞匆匆走过的画面</i>”。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0f944be14157f1e941deefcd13108f4d_1440w.jpg\" data-rawwidth=\"1106\" data-rawheight=\"392\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-0f944be14157f1e941deefcd13108f4d\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-237bc6f37731b73e98bf3674905d21b9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1106\" data-original=\"https://pic2.zhimg.com/v2-0f944be14157f1e941deefcd13108f4d_r.jpg\"/></figure><p data-pid=\"pf9V2Vpk\">其实上述两项任务印证了一件事，AutoGLM的<b>本质是“认知流水线”的革新</b>。它将Agent从“通用对话应用”升级为生产力工具，从“能回答问题”迈向“能交付专业成果”。</p><p data-pid=\"5Mwrylhb\">小凹作为生活助手，难度更大一些，日常指令的理解和分析是我认为比较重要的能力，所以主要进行了一些日常生活的任务体验，分别在刷剧场景、差旅场景中进行了测试。</p><p data-pid=\"kPKTEVUO\">任务一：通过红果短剧的追剧场景，发出多段指令，体验该部分功能。指令为：“<i>使用红果短剧播古装重生类短剧，并使用二倍速播放</i> 。</p><p data-pid=\"a5ImGk8n\">任务二：购物场景模糊指令，输入交互指令时故意输入错误单词（pocket3输入为poket3），测试其能力，指令为：在京东上搜索大疆poket3，并加入到购物车里。</p><p data-pid=\"EHd6te9y\">首先在红果短剧测试中，连续发出“播古装重生短剧→二倍速”两条指令，系统在搜索框中完成了“古装重生”的搜索，并播放了首个视频，同时也完成了画面加速。</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1941532660573896902\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-e345136dd356793c52027d81009e2386.jpg\" data-lens-id=\"1941532660573896902\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-e345136dd356793c52027d81009e2386.jpg\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1941532660573896902</span></span></a><p data-pid=\"XKyMzfNn\">而在任务二中，可以调起京东搜索得到正确的产品，并加入到购物车里。</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1941532792530899321\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-8752ac58963feedeb2a236000821de0f.jpg\" data-lens-id=\"1941532792530899321\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-8752ac58963feedeb2a236000821de0f.jpg\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1941532792530899321</span></span></a><p data-pid=\"Bhu6b2F7\">当然，在有些场景中仍旧存在一些小问题，比如在小红书上找内容时，执行指令时需要人为接管手机输入账号密码。希望后面可以更加丝滑。</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1941532882603599492\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-547a852df346ff52d0c369e6023bb0ef.jpg\" data-lens-id=\"1941532882603599492\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-547a852df346ff52d0c369e6023bb0ef.jpg\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1941532882603599492</span></span></a><p data-pid=\"yx2BUQ-A\">乐观的是，通过AutoGLM我们可以看到基于基于强大的基础模型，已经可以高效地定制出解决用户“一站式&#34;任务需求的Agent。</p><p data-pid=\"c3-t8ONF\">在大模型和Agent刚刚诞生时，我们总是在“教育”我们的用户，要去学习如何更好地和大模型对话，去学习如何写出更好的promt。实际上“教育”用户，让用户去“学习”的背后逻辑其实是“用户适应产品”。但我们都知道一个好的产品，是应该主动适应用户的，显然AutoGLM从某种程度来说，是让Agent规模化、普及化的扎实一步。</p><h3>三、从智谱“AutoGLM”技术到AGI还有多远？</h3><p data-pid=\"ZfjHnfEg\">归根结底，AutoGLM的背后是智谱GLM-4.5和GLM-4.5V。在过去五年里，大模型学会了常识和知识，习得了编程、数据分析和复杂数学问题上的推理能力。但是，很多模型并不能说是通用模型。而GLM-4.5的出现是力求在一个模型中集成推理、编码和智能体的多种能力。这也是为什么AutoGLM可以做到深刻的变革。</p><p data-pid=\"yI3JG_zT\">AutoGLM的本质并非替代人类，而是重构协作界面，使用户更加专注决策创意，重复操作交由云端智能体无缝执行。显然这与智谱的技术开源与生态布局离不开。</p><p data-pid=\"cOARcDE7\">当然，对于AutoGLM也好还是整个Agent也罢，最重要的是从“能干活”跨越到“干好活”。理想模式是“用户决策+AI执行”，比如旅行规划中，用户选定目的地，AI自动整合交通住宿。而非完全由AI自主安排。</p><p data-pid=\"bjKouiYC\">从这点来看，目前AutoGLM更适标准化、低风险场景，比如导航、订票，而非医疗诊断这种专业决策。智谱联合“一带一路”共建数据节点，正是为弥补垂直领域数据短板。</p><p data-pid=\"-e0ukZT9\">最后，让我们回到最初的那个问题：“我们希望 Agent 像什么？”</p><p data-pid=\"16oNC2Yz\">——是像一台完美的自动售货机，按一个按钮就出结果？</p><p data-pid=\"d7Kxdl9c\">——还是像一个会犯错但会不断成长进步的孩子，慢慢学会如何工作？</p><p data-pid=\"o8x0evw4\">在这两条路之间，可能并没有一个绝对正确的答案，但它们的并存，或许恰恰是 AI 应用走向真实世界、面对真实复杂性的必经之路。</p><p data-pid=\"MxrZKANg\">而真正能穿越寒冬、走向产品化的系统，往往不是最聪明的，也不是最简单的，而是</p><p data-pid=\"nGifDNVL\">在复杂性与稳定性之间找到了最合适的分工点。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 3765,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-656d1fa288de04c9f01d31db58a397b4_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-db29a0ed9ac0107f06f148e941a33848_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-a6a06e22f2661447163c893b1f844bd9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6cb4bb374d403149ff3a76a3ba7571ae_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-bffc1784062d16a88da62e6d0ccf7c7a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-aa77f6ee61f274184988b3431dab888a_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 89,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941532331904053875}",
+      "attached_info": "CvsJCJSyj67EgsKSuQEQBBoJNzQzMTE2NjE1IMOFlsUGKCswA0ARSkgKLFRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX0ZPTExPV19VU0VSX1RXSUNFEhI4NjQ2OTExMjg0NTcxMTU2MzYYACAAOgBKPgoiVFNfU09VUkNFX0NPTlRST0xfSU5URVJFU1RfS09MX0FMTBISODY0NjkxMTI4NDU3MTE1NjM2GAAgADoASjEKIFRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX1RIRU1FEgcxNTkwMDA3GAAgADoASi4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjISATAYACAAOgp7InJhdyI6IiJ9SjEKIFRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX0JBWUVTEgcxNTkwMDA3GAAgADoASisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjISATAYACAAOgp7InJhdyI6IiJ9WgkxMTYyODAzMzRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3aMaBzsqwte34GnITMTk0MTUzMjMzMTkwNDA1Mzg3NYoBEzE5NDE0OTk3NjcyOTQyNDQ3NjaqAQlyZWNvbW1lbmTCASBiZGI5NmE4ZThlZTczZGE2ZjNmZThjYjMxZjI1YmE0ZvIBCggMEgZOb3JtYWzyASgIChIkOTJhMmM4MWUtNTVjMi00M2M3LTk0OWMtNDg1YTliYTNlNWEz8gEFCAsSATOCAgCIAtD1ovmMM5ICIGJkYjk2YThlOGVlNzNkYTZmM2ZlOGNiMzFmMjViYTRmmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFkZlZWRDb250cm9sQnJlYWtJblJ1bGXaAixUU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9GT0xMT1dfVVNFUl9UV0lDRegCBfoCC05PUk1BTF9GTE9XigMgZmFlMWVjY2ViYzY2NGFjZWIzZjdkMGU4MmM2ODNlY2GaAw0KAnYyEAAaBW90aGVyqAO1HdgDAOoDGkNvbnRyb2xJbnRlcmVzdEZvbGxvd1R3aWNl+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDENoIGJwGIiN2Mi02Y2I0YmIzNzRkNDAzMTQ5ZmYzYTc2YTNiYTc1NzFhZTotCAIQqQ0Y4AMiI3YyLTE5OGUyNDY4OWE5OWRmMDBlMGQwYjk5MjVmZDU5NjlkOi0IAhD5FxjoDCIjdjItYmZmYzE3ODQwNjJkMTZhODhkYTYyZTZkMGNjZjdjN2E6LQgCEPQXGM8MIiN2Mi1hYTc3ZjZlZTYxZjI3NDE4NDk4OGIzNDMxZGFiODg4YTotCAIQ0ggYiAMiI3YyLTBmOTQ0YmUxNDE1N2YxZTk0MWRlZWZjZDEzMTA4ZjRkgAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEBm1hbnVhbMIEAzE1NcgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEysTKAvkEAAAAQPlrhD+BBQAAAAAAAAAAiQVt6PKkSofXP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUJ4AUA6AUA8AUDkAYAoAYTqAYAkgIuCgk3NDMxMTY2MTUSEzE5NDE1MzIzMzE5MDQwNTM4NzUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=17&desktop=true&end_offset=19&page_number=4&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=17&desktop=true&end_offset=19&page_number=4&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

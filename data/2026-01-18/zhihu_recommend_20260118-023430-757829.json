@@ -1,0 +1,816 @@
+{
+  "data": [
+    {
+      "id": "108_1768674879.542",
+      "type": "feed",
+      "offset": 108,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674879,
+      "updated_time": 1768674879,
+      "target": {
+        "created_time": 1768614017,
+        "comment_count": 0,
+        "voteup_count": 2,
+        "updated_time": 1768614017,
+        "excerpt": "Python 语句由以下部分组成： 关键字（如 if、def 等）变量（如 a、df 等）常量（如 5、'abc' 等）运算符（如 +、*、/ 等）分隔符（如 ,、; 等）函数（如 print、input 等）一般情况下，每一行代表一条语句，语句结束后不需要添加任何分隔符（如分号）。     Python 会按照从上到下的顺序逐条执行语句。 if d > 60 and d % 20 == 0: nowDate = timetag_to_datetime(ContextInfo.get_bar_timetag(d), '%Y$m%d') print(nowDate) buys, …",
+        "content": "<p data-pid=\"DuyxCnL1\">Python 语句由以下部分组成：</p><ul><li data-pid=\"9KdNB59-\">关键字（如 if、def 等）</li><li data-pid=\"FSEbCQKF\">变量（如 a、df 等）</li><li data-pid=\"P_xuumEY\">常量（如 5、&#39;abc&#39; 等）</li><li data-pid=\"oNo4gksi\">运算符（如 +、*、/ 等）</li><li data-pid=\"CTtNVbxA\">分隔符（如 ,、; 等）</li><li data-pid=\"rs1G9VAf\">函数（如 print、input 等）</li></ul><p data-pid=\"cHOMSK0M\">一般情况下，每一行代表一条语句，语句结束后不需要添加任何分隔符（如分号）。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b6cff89b0032c7c4ed488f6356426b50_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-cc135da491a092281486fe79e70660df\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-b6cff89b0032c7c4ed488f6356426b50_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1b6a6db64d0623fd0473622986473926_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"674\" data-original-token=\"v2-0e574ec49289a66f385a2679fae5c918\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-1b6a6db64d0623fd0473622986473926_r.jpg\"/></figure><p data-pid=\"nzz22M1y\">Python 会按照从上到下的顺序逐条执行语句。</p><div class=\"highlight\"><pre><code class=\"language-text\">if d &gt; 60 and d % 20 == 0:\nnowDate = timetag_to_datetime(ContextInfo.get_bar_timetag(d), &#39;%Y$m%d&#39;)\nprint(nowDate)\nbuys, sells = signal(ContextInfo)\norder = {}\nfor k in list(buys.keys()):\nif buys[k] == 1:\nrank1[k] = ext_data_rank(&#39;str&#39;,k[-2:]+k[0:6],0,ContextInfo)\nrank2[k] = ext_data_rank(&#39;adtm&#39;,k[-2:]+k[0:6],0,ContextInfo)\n#print\n rank1[k], rank2[k]\nrank_total[k] = 1.0 * rank1[k]\nprint (1111111, rank1[k])</code></pre></div><p data-pid=\"25J6TS1J\">运行代码时，Python 会按照从上到下的顺序逐条执行语句。那么，可能会有一些内容，我们只是为了给相关代码做一个说明或记录，不想让 Python 执行，这怎么办呢？这就需要用到注释行，Python 有单行注释和多行注释。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-999995ce882e27af65e4e5520b0e325c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-503337e943e92316fd1197f3adcd6e53\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-999995ce882e27af65e4e5520b0e325c_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fe8e692bcc9c1a22e70a01c1e7e650b8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"400\" data-original-token=\"v2-a1479b0147ec2ce2e4b45ed535d696b1\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic1.zhimg.com/v2-fe8e692bcc9c1a22e70a01c1e7e650b8_r.jpg\"/></figure><p data-pid=\"s4fYpsxC\">注释用于对代码进行说明，不会被 Python 执行。</p><p data-pid=\"sPo3Dfd7\"><b>单行注释</b></p><p data-pid=\"_RBBbj84\">以 # 开头，后面接注释内容。</p><p data-pid=\"MU4Xcp6R\">可以独占一行，也可以接在语句后面。</p><div class=\"highlight\"><pre><code class=\"language-text\">#print rank1[k], rank2[k]</code></pre></div><p data-pid=\"SL8y-w5M\"><b>多行注释</b></p><p data-pid=\"akEjm9wJ\">以 &#34;&#34;&#34; 开头和结尾，中间为注释内容。</p><p data-pid=\"B0iIEKHi\">示例（如下）：</p><div class=\"highlight\"><pre><code class=\"language-text\">#coding</code></pre></div><p data-pid=\"y68xw9y8\">注意：第1行 #coding:gbk 是一个特例，用于指定文件编码格式，防止乱码。</p><p data-pid=\"2-GVtcZG\"><b>模块</b></p><p data-pid=\"RcPmJkY-\">通俗地讲，模块就是其他的 Python 文件，因为你不能把所有的代码都写到一个 Python 文件中，那样会太长了。所以，一般是用不同的 Python 文件提供不同的功能，Python 文件之间可以互相导入。如下图，这个示例中，导入了橙色框中的模块。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-126683850804019713036d6cb8ecfac7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"745\" data-rawheight=\"443\" data-original-token=\"v2-ebf09f29aff17a053cc300f1721c1ce6\" class=\"origin_image zh-lightbox-thumb\" width=\"745\" data-original=\"https://picx.zhimg.com/v2-126683850804019713036d6cb8ecfac7_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vB5Rt-TE\">一般会引用到模块中的函数来实现一些功能。引用函数的时候，前面要加入模块的名称和“.”，如下图中的 np.std，就是引用了 numpy 库（导入的时候缩写为 np 了）中的 std 函数和 array 函数。</p><p data-pid=\"fDG9LsBZ\">模块即其他 Python 文件，用于将代码按功能拆分，便于管理和复用。</p><p data-pid=\"RbIeezzo\">一个 Python 文件可以导入另一个模块，并使用其中的函数或变量。</p><p data-pid=\"r59czkld\">导入模块示例</p><div class=\"highlight\"><pre><code class=\"language-text\">import numpy as np</code></pre></div><p data-pid=\"Y0kgoUX9\">np.std 表示调用 numpy 模块中的 std 函数。</p><p data-pid=\"yvUIPw1v\">np.array 表示调用 numpy 模块中的 array 函数。</p><p data-pid=\"-yvLhjNS\"><b>习题</b></p><p data-pid=\"iPqfFy9S\">判断：Python 语句结束后，要用分号表示结束。</p><p data-pid=\"_SiSHNDL\">判断：单行注释必须独占一行。</p><p data-pid=\"2Gkd2JCu\">判断：使用 Python 标准库时（如 time、math），不需要导入。</p><h2><b>自用指标</b></h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-80685a3c130cc2e9548158c138ab50c3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"489\" data-original-token=\"v2-72943896c5332b8184c5cd52a856c2ff\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-80685a3c130cc2e9548158c138ab50c3_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5fd1f58518198b8e626bec922dd25468_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"480\" data-original-token=\"v2-ed1408aabfb3593b598ab96c0f893429\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-5fd1f58518198b8e626bec922dd25468_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-be383c6ad0d44444983f51c7a425c570_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"455\" data-original-token=\"v2-bf84d472ec6d7b0ad3dafa42e8ff3269\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-be383c6ad0d44444983f51c7a425c570_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-93b96d09ac1a083c3f2b1bf7386b0cdf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1074\" data-rawheight=\"520\" data-original-token=\"v2-28ed8e878700af65a627e693b210286a\" class=\"origin_image zh-lightbox-thumb\" width=\"1074\" data-original=\"https://pic4.zhimg.com/v2-93b96d09ac1a083c3f2b1bf7386b0cdf_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ce95068ea14cd5c5e52886906a42b6a7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1058\" data-rawheight=\"490\" data-original-token=\"v2-5f220a93bdf312682de3b00b903c8bc4\" class=\"origin_image zh-lightbox-thumb\" width=\"1058\" data-original=\"https://pic4.zhimg.com/v2-ce95068ea14cd5c5e52886906a42b6a7_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-558fd06bf6ab8558f707154cb0bdfd15_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"494\" data-original-token=\"v2-98ddf3e6e610dd69cbd7b41745ee41c8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-558fd06bf6ab8558f707154cb0bdfd15_r.jpg\"/></figure><p></p><p></p>",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995792520840503443",
+        "thanks_count": 0,
+        "question": {
+          "type": "question",
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 25,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "20799742",
+          "author": {
+            "id": "437990a9e664ebb9665ce42c565b0a0f",
+            "user_type": "people",
+            "headline": "IT,自动化，音乐，电影，code",
+            "gender": 1,
+            "followers_count": 9,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/437990a9e664ebb9665ce42c565b0a0f",
+            "url_token": "qwinner",
+            "name": "qwinner",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-54d051f57c39d27a3ab4982c861e8218_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "title": "你都用 Python 来做什么？",
+          "created": 1361708840,
+          "question_type": "normal",
+          "bound_topic_ids": [
+            707,
+            872,
+            1354,
+            37027,
+            53655
+          ],
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/20799742",
+          "is_following": false,
+          "excerpt": ""
+        },
+        "visited_count": 91,
+        "is_navigator": false,
+        "author": {
+          "headline": "十七年量化投资经验与程序交易，公众号同名",
+          "followers_count": 771,
+          "is_following": false,
+          "id": "961528f36616746cff7fbc3b79ca5c8f",
+          "url": "https://api.zhihu.com/people/961528f36616746cff7fbc3b79ca5c8f",
+          "user_type": "people",
+          "url_token": "xiu-shen-ming-de-12",
+          "name": "李津的大局观",
+          "avatar_url": "https://picx.zhimg.com/50/v2-369c4ae78a2d9183fabb90274f43f665_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "CFA 特许金融分析师资格证持证人"
+            }
+          ],
+          "is_followed": false
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-0e574ec49289a66f385a2679fae5c918_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "id": "1995792520840503443",
+        "is_copyable": true,
+        "excerpt_new": "Python 语句由以下部分组成： 关键字（如 if、def 等）变量（如 a、df 等）常量（如 5、'abc' 等）运算符（如 +、*、/ 等）分隔符（如 ,、; 等）函数（如 print、input 等）一般情况下，每一行代表一条语句，语句结束后不需要添加任何分隔符（如分号）。     Python 会按照从上到下的顺序逐条执行语句。 if d > 60 and d % 20 == 0: nowDate = timetag_to_datetime(ContextInfo.get_bar_timetag(d), '%Y$m%d') print(nowDate) buys, …",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "thumbnail": "https://picx.zhimg.com/50/v2-0e574ec49289a66f385a2679fae5c918_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 4
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995792520840503443}",
+      "attached_info": "CpIKCIr+qoXDo9nxswEQBBoJNzY1NzY2NTgwIIHRq8sGKAIwAEBsSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AEotCiJUU19TT1VSQ0VfV0FSTV9VUF9ISUdIX0lOVEVSQUNUSU9OEgEwGAAgADoAWgY1MDAzNjdiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1NzkyNTIwODQwNTAzNDQzigEIMjA3OTk3NDKqAQlyZWNvbW1lbmTCASA5NjE1MjhmMzY2MTY3NDZjZmY3ZmJjM2I3OWNhNWM4ZvIBCggMEgZOb3JtYWzyASgIChIkM2E3MjI5YTQtYTI5ZC00OWY3LTlhYzEtMGVkYzQ2NTJjYzI38gEGCAsSAjE5ggIAiAKtzfPpvDOSAiA5NjE1MjhmMzY2MTY3NDZjZmY3ZmJjM2I3OWNhNWM4ZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhpTYW1lQ29udGVudElkSXNvbGF0aW9uUnVsZdoCGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMugCAvoCC05PUk1BTF9GTE9XigMgNDdmNWVmYzFjYzNmNDRlYmJhMDE4ZTg0YmZjYzU1NzCaAw0KAnYyEAAaBW90aGVyqANb2AMA6gMedGV4dF9oaWdoX2ludGVyYWN0aW9uX3JlY2FsbGVy+gOkBBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELgIGOAEIiN2Mi1jYzEzNWRhNDkxYTA5MjI4MTQ4NmZlNzllNzA2NjBkZjotCAIQuAgYogUiI3YyLTBlNTc0ZWM0OTI4OWE2NmYzODVhMjY3OWZhZTVjOTE4Oi0IAhC4CBjgBCIjdjItNTAzMzM3ZTk0M2U5MjMxNmZkMTE5N2YzYWRjZDZlNTM6LQgCEIAFGJADIiN2Mi1hMTQ3OWIwMTQ3ZWMyY2UyZTRiNDVlZDUzNWQ2OTZiMTotCAIQ6QUYuwMiI3YyLWViZjA5ZjI5YWZmMTdhMDUzY2MzMDBmMTcyMWMxY2U2Oi0IAhC4CBjpAyIjdjItNzI5NDM4OTZjNTMzMmI4MTg0YzVjZDUyYTg1NmMyZmY6LQgCELgIGOADIiN2Mi1lZDE0MDhhYWJmYjM1OTNiNTk4YWI5NmMwZjg5MzQyOTotCAIQuAgYxwMiI3YyLWJmODRkNDcyZWM2ZDdiMGFkM2RhZmE0MmU4ZmYzMjY5Oi0IAhCyCBiIBCIjdjItMjhlZDhlODc4NzAwYWY2NWE2MjdlNjkzYjIxMDI4NmE6LQgCEKIIGOoDIiN2Mi01ZjIyMGE5M2JkZjMxMjY4MmRlM2IwMGI5MDNjOGJjNDotCAIQuAgY7gMiI3YyLTk4ZGRmM2U2ZTYxMGRkNjljYmQ3YjQxNzQ1ZWU0MWM4gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgrXOJP4EFAAAAAAAAAACJBeO4xb58SLQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBm6oBgGSAi4KCTc2NTc2NjU4MBITMTk5NTc5MjUyMDg0MDUwMzQ0MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "109_1768674879.328",
+      "type": "feed",
+      "offset": 109,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674879,
+      "updated_time": 1768674879,
+      "target": {
+        "question": {
+          "created": 1766579240,
+          "follower_count": 0,
+          "detail": "",
+          "id": "1987258049723926442",
+          "type": "question",
+          "comment_count": 34,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/1987258049723926442",
+          "author": {
+            "followers_count": 181,
+            "is_following": false,
+            "is_followed": false,
+            "id": "5148582d5b6dcd7276569f8a07b03cc3",
+            "url": "https://api.zhihu.com/people/5148582d5b6dcd7276569f8a07b03cc3",
+            "url_token": "ke-bing-cheng",
+            "name": "柯秉誠",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "user_type": "people",
+            "headline": "冷眼路人",
+            "is_org": false,
+            "gender": -1
+          },
+          "title": "掉下斩杀线的美国人为何不能降低美国用人成本?",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "bound_topic_ids": [
+            472,
+            1899669,
+            2388700,
+            3374128,
+            4270668
+          ],
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "author": {
+          "user_type": "people",
+          "headline": "金融民工、ppt纺织工",
+          "is_org": false,
+          "gender": 0,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "计算机技术与软件专业技术资格证持证人"
+            }
+          ],
+          "is_following": false,
+          "id": "23dac671fe4d801a63e9e05f90e9f9b2",
+          "url": "https://api.zhihu.com/people/23dac671fe4d801a63e9e05f90e9f9b2",
+          "avatar_url": "https://picx.zhimg.com/50/v2-53a519939635bc23050e808139cacdc0_l.jpg?source=b6762063",
+          "followers_count": 11675,
+          "is_followed": false,
+          "url_token": "shida-zhen",
+          "name": "量化仔"
+        },
+        "created_time": 1766730930,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "segment_infos": [
+          {
+            "pid": "WpScsXcw",
+            "text": "马克思本来是犹太人，祖上也是搞法律的，他本来也是学法律，捍卫资本主义法权正义，结果毕业之后，发现穷人不能在富人家族购买的林地里捡树枝烧柴，这是违法的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 9,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992889328897112006"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 4,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 46,
+                "end_index": 75,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993111406065767948"
+                  ],
+                  "is_like": false,
+                  "like_count": 56,
+                  "comment_count": 6,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "b8xmscQm",
+            "text": "这就是斩杀线，穷人冬天没有柴火烧要冻死，可是捡树枝违法，这就是斩杀线。",
+            "marks": [
+              {
+                "start_index": 7,
+                "end_index": 35,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995586467863484153"
+                  ],
+                  "is_like": false,
+                  "like_count": 26,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "mrl3OrVU",
+            "text": "马克思当年遇见的情况，现在也一样，美国人一样不能自己在家收集雨水，你去砍树也是违法的。你自己在家养鸡也是违法的，自己在家种菜也是违法的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 41,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988101093109014939"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 43,
+                "end_index": 67,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991907982624180098"
+                  ],
+                  "is_like": false,
+                  "like_count": 54,
+                  "comment_count": 42,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "tROxKfU3",
+            "text": "可以说你所有降低成本的机会都是违法的。你降成本就是给资本家添堵，资本家不可能接受。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 41,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988101093109014939"
+                  ],
+                  "is_like": false,
+                  "like_count": 59,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "6pErXWB2",
+            "text": "于是马克思想利用自己的法学知识，反抗强权，最后不但没斗过，还被驱逐出境。他非常痛苦，开始研究资本主义法权的本质，以及什么叫正义。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 64,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993224184160080122"
+                  ],
+                  "is_like": false,
+                  "like_count": 80,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "FvYgoTWq",
+            "text": "研究的结果就是资本主义法权外面包着神权外衣，里边基础是私有制，资本主义法律本质都是是对人权的践踏。",
+            "marks": [
+              {
+                "start_index": 7,
+                "end_index": 49,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988169963312280772"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "69CmyBiL",
+            "text": "他后来加入了一个正义者联盟，写了个共产主义宣言，然后成立第一国际，都是从对这个制造了斩杀线的资本主义法律不信任开始的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 59,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988311528366167343"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Y-8yl8Zq",
+            "text": "有些人一辈子也没理解到马克思为什么能这么想的这个点，而你已经摸到门了。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988325013816885703"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "8avZqKY6",
+            "text": "说句政治课本上的话，根源都怪私有制，其实就是私有制的最后，资本主义自我调节失控，任何正向发展都不可能了。生产关系阻碍生产力发展。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 64,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993224184160080122"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "excerpt_new": "恭喜你，你终于开始理解马克思了。 马克思本来是犹太人，祖上也是搞法律的，他本来也是学法律，捍卫资本主义法权正义，结果毕业之后，发现穷人不能在富人家族购买的林地里捡树枝烧柴，这是违法的。 也就是穷人如果没钱买煤，降低生活成本，他想省钱就去树林里捡树枝，捡落叶，结果，这事儿要判刑。 这就是斩杀线，穷人冬天没有柴火烧要冻死，可是捡树枝违法，这就是斩杀线。 马克思当年遇见的情况，现在也一样，美国人一样不能自…",
+        "is_navigator": false,
+        "reshipment_settings": "disallowed",
+        "visited_count": 502356,
+        "id": "1987894285127947120",
+        "url": "https://api.zhihu.com/answers/1987894285127947120",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "content": "<p data-pid=\"asZQbolN\">恭喜你，你终于开始理解马克思了。</p><p data-pid=\"WpScsXcw\">马克思本来是犹太人，祖上也是搞法律的，他本来也是学法律，捍卫资本主义法权正义，结果毕业之后，发现穷人不能在富人家族购买的林地里捡树枝烧柴，这是违法的。</p><p data-pid=\"w605dWZB\">也就是穷人如果没钱买煤，降低生活成本，他想省钱就去树林里捡树枝，捡落叶，结果，这事儿要判刑。</p><p data-pid=\"b8xmscQm\">这就是斩杀线，穷人冬天没有柴火烧要冻死，可是捡树枝违法，这就是斩杀线。</p><p data-pid=\"mrl3OrVU\">马克思当年遇见的情况，现在也一样，美国人一样不能自己在家收集雨水，你去砍树也是违法的。你自己在家养鸡也是违法的，自己在家种菜也是违法的。</p><p data-pid=\"tROxKfU3\">可以说你所有降低成本的机会都是违法的。你降成本就是给资本家添堵，资本家不可能接受。</p><p data-pid=\"zJycfYF-\">这些掉下斩杀线的人，在资本家眼里也不值钱了。因为你已经被抛弃出可工作人口了。美国斩杀线实际上是美国资本主义的一部分，甚至是核心部分。</p><p data-pid=\"yMa9D4VR\">要知道，富人只会雇佣他们认为有价值的人去自己的林地里伐木砍柴，抓无家可归者的雇工，也是在斩杀线之上的人。</p><p data-pid=\"GIhCAAA9\">这事太邪门了，马克思开始反思。</p><p data-pid=\"6pErXWB2\">于是马克思想利用自己的法学知识，反抗强权，最后不但没斗过，还被驱逐出境。他非常痛苦，开始研究资本主义法权的本质，以及什么叫正义。</p><p data-pid=\"FvYgoTWq\">研究的结果就是资本主义法权外面包着神权外衣，里边基础是私有制，资本主义法律本质都是是对人权的践踏。</p><p data-pid=\"69CmyBiL\">他后来加入了一个正义者联盟，写了个共产主义宣言，然后成立第一国际，都是从对这个制造了斩杀线的资本主义法律不信任开始的。</p><p data-pid=\"Y-8yl8Zq\">有些人一辈子也没理解到马克思为什么能这么想的这个点，而你已经摸到门了。</p><p data-pid=\"8avZqKY6\">说句政治课本上的话，根源都怪私有制，其实就是私有制的最后，资本主义自我调节失控，任何正向发展都不可能了。生产关系阻碍生产力发展。</p><p data-pid=\"HPs4MmsQ\">我经常说，马克思是需要悟性非常高的人才能懂的，这个论断，在我这个问题下，又一次证明了。</p>",
+        "favorite_count": 3085,
+        "voteup_count": 9660,
+        "thanks_count": 450,
+        "preview_type": "default",
+        "preview_text": "",
+        "allow_segment_interaction": true,
+        "excerpt": "恭喜你，你终于开始理解马克思了。 马克思本来是犹太人，祖上也是搞法律的，他本来也是学法律，捍卫资本主义法权正义，结果毕业之后，发现穷人不能在富人家族购买的林地里捡树枝烧柴，这是违法的。 也就是穷人如果没钱买煤，降低生活成本，他想省钱就去树林里捡树枝，捡落叶，结果，这事儿要判刑。 这就是斩杀线，穷人冬天没有柴火烧要冻死，可是捡树枝违法，这就是斩杀线。 马克思当年遇见的情况，现在也一样，美国人一样不能自…",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "comment_count": 1125,
+        "is_copyable": false,
+        "type": "answer",
+        "updated_time": 1767283937
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1987894285127947120}",
+      "attached_info": "CvEGCIr+qoXDo9nxswEQBBoJNzYyNzYzNDI5ILLZuMoGKLxLMOUIQG1KRQogVFNfU09VUkNFX1NPQ0lBTF9GT0xMT1dfTkVBUkxJTkUSG25lYXJsaW5lQ29udGVudFYyOjI3MjEyNDg4OBgAIAA6AEpHCiJUU19TT1VSQ0VfU09DSUFMX0FGRklOSVRZX05FQVJMSU5FEhtuZWFybGluZUNvbnRlbnRWMjoyNzIxMjQ4ODgYACAAOgBaCTExNzgzMDY3NWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5ODc4OTQyODUxMjc5NDcxMjCKARMxOTg3MjU4MDQ5NzIzOTI2NDQyqgEJcmVjb21tZW5kwgEgMjNkYWM2NzFmZTRkODAxYTYzZTllMDVmOTBlOWY5YjLyAQoIDBIGTm9ybWFs8gEoCAoSJGFkYjc3MTk1LWE3ZmMtNDdlMS1hNDk5LTI5ZjJjOTM1YTY1YvIBBggLEgIxOYICAIgCrs3z6bwzkgIgMjNkYWM2NzFmZTRkODAxYTYzZTllMDVmOTBlOWY5YjKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhpTYW1lQ29udGVudElkSXNvbGF0aW9uUnVsZdoCIFRTX1NPVVJDRV9TT0NJQUxfRk9MTE9XX05FQVJMSU5F6AIC+gILTk9STUFMX0ZMT1eKAyA0N2Y1ZWZjMWNjM2Y0NGViYmEwMThlODRiZmNjNTU3MJoDDQoCdjIQABoFb3RoZXKoA9TUHtgDAOoDFmZvbGxvd2VkTmVhckxpbmVSZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgl5uZP4EFAAAAAAAAAACJBeO4xb58SLQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBm+oBgOSAi4KCTc2Mjc2MzQyORITMTk4Nzg5NDI4NTEyNzk0NzEyMBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "110_1768674879.259",
+      "type": "feed",
+      "offset": 110,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674879,
+      "updated_time": 1768674879,
+      "target": {
+        "is_copyable": true,
+        "question": {
+          "title": "什么叫穷人思维？",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            1351,
+            184433,
+            390214
+          ],
+          "is_following": false,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/458970752",
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "author": {
+            "id": "68d3775d205dfe0254bd6d62a9635b24",
+            "url_token": "he-jia-yong-12",
+            "name": "82拉菲老六",
+            "headline": "没有回答就没有认知，没有了解就不知道认知之外",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-8d16559bdf0a314c77dccae63ab5749a_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/68d3775d205dfe0254bd6d62a9635b24",
+            "user_type": "people",
+            "followers_count": 46
+          },
+          "created": 1620777044,
+          "answer_count": 0,
+          "comment_count": 89,
+          "detail": "",
+          "id": "458970752"
+        },
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"0GaO8bzo\">前几天，跟一个发小吃饭。</p><p data-pid=\"v2Wq3MIt\">我们十几年的交情，一起光屁股长大，后来他留在老家，我在外面闯。</p><p data-pid=\"WqyYBpdk\">每次回去，只要有空，都会叫上他，喝两杯。</p><p data-pid=\"Tg3g01Yv\">他这些年过得不算好。</p><p data-pid=\"FZ4zo2cE\">做过小生意，亏了。去厂里打过工，嫌累。</p><p data-pid=\"JXcsN_3K\">现在在跑本地的网约车，一个月挣个四五千块，不好不坏，饿不死，也发不了财。</p><p data-pid=\"LwzVBDcC\">席间，他老婆打来电话，语气很冲。</p><p data-pid=\"GiB2Uv_1\">大概意思是，为了给孩子报个暑期游泳班，两口子吵架了。</p><p data-pid=\"VvwA6Z-h\">一个暑假，1200块钱，他觉得太贵，没必要，孩子自己去河里扑腾两下就会了，他们小时候都这么过来的。</p><p data-pid=\"bpbC4WOv\">他老婆不干，说现在谁家孩子不是琴棋书画游泳马术，别人家孩子都在学，我们家的不去，以后同学聚会都抬不起头。</p><p data-pid=\"s6GTvcNB\">他在电话里吼：，“钱钱钱，你就知道钱！1200块，我得跑多少趟活儿？油钱不要钱啊？</p><p data-pid=\"Kkbt8L3x\">车子损耗不要钱啊？你以为钱是大风刮来的？”</p><p data-pid=\"iyODUD8p\">挂了电话，他闷头喝了一大杯酒，跟我诉苦。</p><p data-pid=\"_zQcIumM\">说家里开销大，孩子要花钱，人情往来要花钱，车子要保养，房贷还没还完，他每天睁开眼就是一屁股账，压得他喘不过气。</p><p data-pid=\"Rbc_vG6m\">他说，康啊，你说这日子怎么就这么难呢？</p><p data-pid=\"TQkVP1WC\">我也不懒，一天到晚在外面跑，怎么就存不下钱，怎么就越过越紧巴呢？</p><p data-pid=\"VKxsvo98\">我看着他被酒精和生活熬得通红的眼睛，一时间不知道该说什么。</p><p data-pid=\"-mYXMyNI\">他不是懒，甚至比很多人都勤奋。每天早上六点出车，晚上十一二点才回家，铁打的身体也熬不住。</p><p data-pid=\"vmi0A3pK\">他也不是笨，读书时成绩比我好，脑子活络得很。</p><p data-pid=\"eCJflp5A\">但他就像陷进了一个泥潭，越是用力扑腾，陷得越深。</p><p data-pid=\"edUb4xYU\">吃完饭，我开车送他回家。路过市中心一个新开的商场，他说，你停一下，我去个洗手间。</p><p data-pid=\"PU4-PyS8\">我把车停在路边等他。过了快二十分钟，他才回来，手里提着一个超市的购物袋，一脸喜气。</p><p data-pid=\"I4BQRn4g\">他说：“刚才进去，看到那家大超市搞活动，鸡蛋原价5块8一斤，现在凭会员卡只要3块9毛9，每人限购两斤。</p><p data-pid=\"ZtApgL1J\">我赶紧办了张卡，排了十五分钟队，抢了两斤。</p><p data-pid=\"JpAhaNwZ\">嘿，一下子省了将近四块钱！”</p><p data-pid=\"SlV4xixv\">看着他因为省下四块钱而洋溢着满足感的脸，我心里五味杂陈。</p><p data-pid=\"J7fM0M9w\">我突然就明白了症结所在。</p><p data-pid=\"E03EzjDu\">我这位发小，他不是穷在物质上，而是穷在思维的“操作系统”上。</p><p data-pid=\"Z3-hiMWH\">什么是「穷人思维」？</p><p data-pid=\"kjmHbLs3\">它不是指没钱的人的想法，而是一种在长期资源稀缺状态下，被“驯化”出来的，以“节省”和“获取”为核心的、自动化的生存心智模式。</p><p data-pid=\"1_ymCuI7\">这种模式，在物质极度匮乏的年代，是生存的智慧。</p><p data-pid=\"XrK1uO3L\">但在今天，它成了一个无形的牢笼，锁死了无数人向上的可能性。</p><p data-pid=\"GFgCuJs6\">它有三个最典型的特征，像三道无形的墙，把人困在原地。</p><p data-pid=\"CaEQETnx\"><b>第一道墙：时间的“超额贴现”。</b></p><p data-pid=\"0Fp-utLN\">什么意思？</p><p data-pid=\"8Rua2GZT\">就是极度看重眼前的、确定的、微小的利益，而严重忽略长远的、不确定的、巨大的价值。</p><p data-pid=\"eZCDjvNj\">就像我那个发小。</p><p data-pid=\"WYNXoslS\">他为了省下4块钱的鸡蛋钱，心甘情愿地付出了什么？</p><p data-pid=\"zyym_4_A\">20分钟的时间。</p><p data-pid=\"uU5eVVMZ\">办会员卡的精力。</p><p data-pid=\"EnV2xHNg\">排队时的情绪消耗。</p><p data-pid=\"nZtsC1CR\">更重要的是，他把自己的“注意力”这种最宝贵的稀缺资源，毫不犹豫地投注在了“如何省下4块钱”这件小事上。</p><p data-pid=\"6sRUjLgn\">他觉得值。因为这4块钱是立刻到手的，是确定的，是看得见摸得着的。</p><p data-pid=\"lB8iQNQ5\">而这20分钟，如果用来在车里安静地思考一下，今天接单的哪个时间段效率最高？</p><p data-pid=\"pJG9dDJy\">哪个区域的客户打车去机场的概率更大？</p><p data-pid=\"Ab6bKOeW\">或者，干脆闭目养神，恢复一下精力，好让自己在晚高峰时段多接两单。</p><p data-pid=\"FEuoLwR5\">这些思考和休息，能带来的收益是多少？</p><p data-pid=\"hK6iELm9\">不确定。可能是20块，可能是50块，也可能什么都没有。</p><p data-pid=\"tbiQnlnU\">面对“确定的4块钱”和“不确定的50块钱”，他的大脑会毫不犹豫地选择前者。</p><p data-pid=\"zly_5sui\">这就是时间的“超额贴现”。把未来的、不确定的收益，打了一个极低的折扣。</p><p data-pid=\"XZgmFUEi\">这种思维模式，反映在人生所有的重大选择上，后果是灾难性的。</p><p data-pid=\"IpWoN5jG\">找工作时，会优先选择那个月薪高500块，但没有晋升空间的岗位；</p><p data-pid=\"g0ZtZhS0\">而不是那个起薪低一点，但三年后能成为部门主管的岗位。</p><p data-pid=\"XhirkCVi\">学习提升时，会觉得花几千块报个技能培训班是“浪费钱”，还不如把钱存起来实在；</p><p data-pid=\"wVTMDDna\">却看不到这个技能可能在未来几年里，给他带来几十万的收入增长。</p><p data-pid=\"wDbT67aR\">教育孩子时，会认为1200块的游泳班是“天价”，是“乱花钱”；</p><p data-pid=\"7iLdOZyS\">却意识不到，这1200块不仅是教会孩子一项生存技能，更是给了他一个社交的平台，一种自信的体验，一种“我跟别人一样”的归属感。这种无形的价值，是多少个“4块钱”都换不来的。</p><p data-pid=\"H35vhtoU\">长期用这种“贴现率”来决策的人，他的人生，就像一个不断捡芝麻而丢西瓜的猴子。</p><p data-pid=\"ZZOa9AlN\">他每天都在忙碌，每天都在“赚钱”，每天都在“节省”，但他的单位时间产出，始终在一个极低的水平线上徘徊。</p><p data-pid=\"i5CBvN_3\">他的人生，被切割成了一个个孤立的“当下”，每一个当下都在追求“最优解”，但连接起来，却是一条不断向下的曲线。</p><p data-pid=\"RdR49_j_\">他用战术上的勤奋，掩盖了战略上的懒惰。</p><p data-pid=\"5JF4SvYP\"><b>第二道墙：认知的“隧道视野”。</b></p><p data-pid=\"Yx8ocK8m\">心理学上有一个著名的实验。</p><p data-pid=\"1DhJ7gEF\">让两组人玩一个电脑游戏，屏幕上会随机出现一些目标，用鼠标点中目标就能得分。</p><p data-pid=\"cXv2T4iL\">A组的人，每次点击都有充足的时间，不慌不忙。</p><p data-pid=\"pMRraUkB\">B组的人，每隔一段时间，屏幕就会闪烁红光，提醒他们“时间快到了”，制造一种紧迫感。</p><p data-pid=\"lRyiR_SD\">实验结果很有趣。</p><p data-pid=\"iJiBl9N-\">在紧迫感压力下的B组，虽然点击目标的平均速度更快，但他们的总得分，却远远低于从容不迫的A组。</p><p data-pid=\"xMlJql1F\">为什么？</p><p data-pid=\"VXTg5X4n\">因为巨大的压力，让他们进入了一种“隧道视野”（Tunnel Vision）。</p><p data-pid=\"5fgZ49bY\">他们的眼睛里，只能看到那个最紧急、最迫切需要点击的目标，而完全忽略了屏幕上那些虽然不紧急，但分值更高的目标。</p><p data-pid=\"lA-9n30J\">他们变得“专注”，也变得“短视”。</p><p data-pid=\"z9E1ck_l\">资源稀缺，无论是时间稀缺还是金钱稀缺，都会把人强行推入这种“隧道视野”。</p><p data-pid=\"_f0GvgDr\">一个每天被账单追着跑的人，他的全部心智带宽，都会被“今天如何搞到500块钱”这个问题给占满。</p><p data-pid=\"IH_nQlzH\">他会去研究哪个平台的信用卡可以套现，手续费最低。</p><p data-pid=\"IoVp3Kvi\">他会去盘算找哪个亲戚朋友开口借钱，最容易成功。</p><p data-pid=\"8Ad-6a2e\">他会去计算，跑几个小时的网约车，才能凑够这5500块钱。</p><p data-pid=\"iofb9piT\">这时候，你跟他谈职业规划，谈学习成长，谈长期价值，他听不进去。</p><p data-pid=\"sSbw7cIj\">不是他不想，而是他的大脑CPU已经被眼前的“生存危机”100%占用了，没有一点剩余的算力，去思考那些“远方的大事”。</p><p data-pid=\"rNeWAF5w\">就像一个快要溺水的人，你跟他讲游泳的姿势再标准，他也学不会。</p><p data-pid=\"uuMpAgR7\">他唯一能做的，就是胡乱扑腾，抓住任何一根能救命的稻草。</p><p data-pid=\"K9pahQ8X\">这种“隧道视野”，会让人在重大决策上，持续性地犯错。</p><p data-pid=\"BVzZ8ySZ\">因为缺钱，所以会选择利息高得吓人的网络贷，饮鸩止渴。</p><p data-pid=\"mDwbUpYw\">因为缺时间，所以三餐都用最便宜的泡面和快餐解决，牺牲了最宝贵的健康。</p><p data-pid=\"ferAau4O\">因为缺爱，所以会轻易抓住一个对自己稍微好一点的人，哪怕明知对方是火坑，也奋不顾身地跳下去。</p><p data-pid=\"bhAzI1H2\">当一个人长期处于“救火队员”的状态，他的人生，就成了一场永无止境的“救火”。</p><p data-pid=\"nw2ygs0E\">他永远在处理紧急的事，而从没有机会去做那些重要的事。</p><p data-pid=\"yacamUDn\">日复一日，年复一年，当他终于有一天，把眼前所有的火都扑灭了，回头一看，才发现自己的生命，已经烧成了一片废墟。</p><p data-pid=\"9IkNxb15\"><b>第三道墙：资源的“恶性捆绑”。</b></p><p data-pid=\"wa_B9JUP\">我见过很多人，他们的人生，就像一团被缠死的毛线球，所有的东西都纠缠在一起，动弹不得。</p><p data-pid=\"XInzryge\">他们的时间、金钱、精力、人情、情绪，这五种人生最核心的资源，是恶性捆绑在一起的。</p><p data-pid=\"iVDt2jzr\">为了省2块钱的公交车费，宁愿花半小时走路。</p><p data-pid=\"4DEOodEU\">——这是用“时间”去换取微不足道的“金钱”。</p><p data-pid=\"3fbOvWg7\">为了一个几百块的单子，陪客户喝酒喝到胃出血。</p><p data-pid=\"P7eTZTF5\">——这是用“健康”（精力）去换取有限的“金钱”。</p><p data-pid=\"lg1Mv0cV\">为了让朋友帮自己砍一刀，拿到十几块的优惠券，不惜消耗宝贵的“人情”。</p><p data-pid=\"FSaSJqV9\">——这是用“人情”去换取不值一提的“金钱”。</p><p data-pid=\"WsXo7mm-\">为了跟小贩争论几毛钱的菜价，气得半天缓不过来。</p><p data-pid=\"SttZI8eR\">——这是用“情绪”的稳定，去换取可以忽略不计的“金钱”。</p><p data-pid=\"g87iqZFK\">在他们的世界里，金钱是唯一的价值尺度，是至高无上的“神”。</p><p data-pid=\"8pdJFw84\">所以，他们愿意献祭自己所有的一切——时间、健康、人脉、心情，去换取这个“神”的垂青。</p><p data-pid=\"s-V2ebxo\">他们看似在“精打细算”，实际上，是在做一笔最亏本的买卖。</p><p data-pid=\"Vqi5VMRf\">因为他们没有意识到，这五种资源，价值是完全不对等的。</p><p data-pid=\"Y7Uge29b\">时间，是不可再生的。</p><p data-pid=\"NjmWdzAQ\">健康，是人生所有0前面的那个1。</p><p data-pid=\"HFwyGNRU\">人情，是用一次少一次的“储蓄”。</p><p data-pid=\"wILoWwnv\">情绪，是你内在能量场的“风水”。</p><p data-pid=\"dEyLsjbb\">只有金钱，是可再生的，是价值最低的，是流动性最强的。</p><p data-pid=\"xzyBlWtB\">一个真正高层次的人，他的思维方式是反过来的。</p><p data-pid=\"Uur5qQ1A\">他会毫不犹豫地用“金钱”去购买别人的“时间”和“专业”，来解放自己的时间。</p><p data-pid=\"PmdcuNuS\">他会毫不犹豫地用“金钱”去投资自己的“健康”，比如办健身卡，买高品质的食材。</p><p data-pid=\"hA2eb3dP\">他会毫不犹豫地用“金钱”去维护“人情”，能用红包解决的事，绝不轻易开口求人。</p><p data-pid=\"7n7vWPkO\">他会毫不犹豫地用“金钱”去换取“好心情”，比如一次舒适的旅行，一件心仪已久的礼物。</p><p data-pid=\"AFEmDQUf\">他把金钱当成工具，用来撬动和放大其他四种资源的价值。</p><p data-pid=\"Vz9Kjt8h\">而穷人思维，是把金钱当成目的，把自己活成了金钱的奴隶，最终，满盘皆输。</p><p data-pid=\"60Jw2cZa\">那么，如何打破这三道墙，走出这个思维的牢笼？</p><p data-pid=\"2NbbchvA\">这不是靠打鸡血，不是靠喊口号，甚至不是靠简单的“努力”就能实现的。</p><p data-pid=\"lKh3qnAG\">它需要的是一次“认知上”的“系统重装”。</p><p data-pid=\"eW0OH0rb\">你要彻底卸载掉那个在稀缺环境下形成的、以“节省”和“获取”为核心的旧系统，然后安装一个在富足环境下运行的、以“投资”和“创造”为核心的新系统。</p><p data-pid=\"R3F64lP3\">这个过程，极其艰难，因为它是在跟你过去几十年形成的大脑本能对抗。</p><p data-pid=\"PCkdPZ5k\">你需要一套精准的“思想手术刀”，一把把地割掉那些已经长在你肉里的、错误的思维模型。</p><p data-pid=\"e1vxxlwM\">比如，如何从科学上理解我们大脑的“短视”倾向？</p><p data-pid=\"nYiLq8yY\">你要知道「双曲贴现模型」，它会告诉你，为什么我们总是抵挡不住眼前的诱惑。</p><p data-pid=\"MZt2v2cO\">比如，如何对抗“隧道视野”？</p><p data-pid=\"dBd0uVng\">你需要建立一个“决策矩阵”，在做任何决定前，强迫自己从“重要性”和“紧急性”两个维度去评估，而不是只盯着那个最“紧急”的选项。</p><p data-pid=\"b7EUjI8v\">再比如，如何解开资源的“恶性捆绑”？</p><p data-pid=\"-g8eqEHK\">你需要引入“机会成本”的概念，时刻问自己：我花时间做这件事，我放弃的、价值最高的那件事是什么？</p><p data-pid=\"tZMXYu-5\">这些，都不是空洞的道理，而是一个个具体的、可操作的、能改变你大脑回路的“思维模型”。</p><p data-pid=\"U9wwPYd2\">我花了十几年的时间，去观察、去思考、去验证，最终将这些能帮助普通人完成“认知跃迁”的底层逻辑，沉淀了下来。</p><p data-pid=\"ihmELrcN\">我把它们系统化，写进了我的电子书《格物之道》里。</p><p data-pid=\"QVMk-Prn\">这本书里，没有一句废话，没有一句鸡汤。</p><p data-pid=\"wXEaNlUX\">它就像一个“思维工具箱”，里面有50把锋利无比的“思想之刃”，比如前面提到的“奥卡姆剃刀”、“第一性原理”、“逆向思维”、“反脆弱模型”等等，你可以在下方专栏订阅。          </p><a href=\"https://www.zhihu.com/column/c_1968769706925200929\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"《格物之道》50个顶级思维心法与模型！\" data-draft-cover=\"https://picx.zhimg.com/v2-a4ae0103dc009749dc415147f09a6bf9_r.jpg?source=172ae18b\" class=\"internal\">《格物之道》50个顶级思维心法与模型！</a><p data-pid=\"6fPnaUGD\">每一把“刀”，都直指一个常见的认知陷阱。</p><p data-pid=\"ERcBlIkB\">它不是教你如何赚钱的“术”，而是帮你重塑大脑操作系统的“道”。</p><p data-pid=\"oQNATsMg\">它不会给你任何答案，但它会赋予你“看穿问题本质”的能力。</p><p data-pid=\"1ezWFpl8\">我不敢说它能让你一夜暴富，但我可以确定，如果你能真正理解并运用其中的一两个模型，就足以让你的人生，打开一个全新的局面。</p><p data-pid=\"W1UKoxAj\">你将开始用“概率”而不是“感觉”来做决策。</p><p data-pid=\"gSrAReXg\">你将开始用“系统”而不是“线性”的眼光来看待世界。</p><p data-pid=\"1QCTJYql\">你将开始懂得，如何把时间、精力、金钱这些有限的资源，配置到能产生“复利效应”的地方。</p><p data-pid=\"58EMRaTc\">这才是走出“穷人思维”的唯一正途。</p><p data-pid=\"5aK70jke\">饭局的最后，发小半开玩笑地问我，康啊，你说，我要是哪天中了五百万，是不是就能摆脱现在这种日子了？</p><p data-pid=\"umgT2TKu\">我看着他，认真地摇了摇头。</p><p data-pid=\"yGxTK6hK\">我说，不，如果你不改变思维，给你五千万，你也会在几年内把它败光，然后回到比现在更糟的境地。</p><p data-pid=\"EJr16pwM\">因为，财富的本质，是你认知能力的变现。</p><p data-pid=\"2FRM7LX4\">一个人，永远赚不到超出他认知范围的钱。</p><p data-pid=\"olXOqmh_\">靠运气赚来的钱，最后往往又会靠实力亏掉。这是一种必然。</p><p data-pid=\"_lEpP_kE\">真正的改变，不是你口袋里有多少钱，而是你脑子里装了什么。</p><p data-pid=\"XAVVFNmW\">当你开始为自己的大脑投资，为自己的认知升级付费时，你才算真正踏上了摆脱贫穷的第一步。</p><p data-pid=\"Hy4cwS7s\">这条路，很长，也很难。</p><p data-pid=\"ku65xclK\">但路的尽头，是真正的自由。</p><p data-pid=\"OCHKke8_\">我是少康，每天更新深度长文，让你实现认知跃迁！</p><p data-pid=\"lJ9YE0Rb\">已写《格物之道》《五行读书方法论》《五行写作方法论》认知跃迁三部曲110万字。</p>",
+        "navigator_vote": false,
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-f3616641f6e5ef15c23b4801414794af_l.jpg?source=b6762063",
+          "followers_count": 1268,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/10a8364f8badd76db26f833758e1cdb1",
+          "user_type": "people",
+          "name": "少康",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "id": "10a8364f8badd76db26f833758e1cdb1",
+          "url_token": "29-42-72-13-89",
+          "headline": "众公号“诺亚书房”订阅《格物之道》！"
+        },
+        "voteup_count": 13,
+        "thanks_count": 0,
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1994459982142395578",
+        "created_time": 1768296315,
+        "excerpt_new": "前几天，跟一个发小吃饭。 我们十几年的交情，一起光屁股长大，后来他留在老家，我在外面闯。 每次回去，只要有空，都会叫上他，喝两杯。 他这些年过得不算好。 做过小生意，亏了。去厂里打过工，嫌累。 现在在跑本地的网约车，一个月挣个四五千块，不好不坏，饿不死，也发不了财。 席间，他老婆打来电话，语气很冲。 大概意思是，为了给孩子报个暑期游泳班，两口子吵架了。 一个暑假，1200块钱，他觉得太贵，没必要，孩子自己去…",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "visited_count": 4509,
+        "favorite_count": 18,
+        "allow_segment_interaction": true,
+        "id": "1994459982142395578",
+        "updated_time": 1768296315,
+        "preview_text": "",
+        "preview_type": "default",
+        "answer_type": "normal",
+        "is_navigator": false,
+        "type": "answer",
+        "comment_count": 3,
+        "excerpt": "前几天，跟一个发小吃饭。 我们十几年的交情，一起光屁股长大，后来他留在老家，我在外面闯。 每次回去，只要有空，都会叫上他，喝两杯。 他这些年过得不算好。 做过小生意，亏了。去厂里打过工，嫌累。 现在在跑本地的网约车，一个月挣个四五千块，不好不坏，饿不死，也发不了财。 席间，他老婆打来电话，语气很冲。 大概意思是，为了给孩子报个暑期游泳班，两口子吵架了。 一个暑假，1200块钱，他觉得太贵，没必要，孩子自己去…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994459982142395578}",
+      "attached_info": "CqEGCIr+qoXDo9nxswEQBBoJNzY1MjU2MzQ3IPuemMsGKA0wA0BuSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg2NDI3Mzk0OWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTQ0NTk5ODIxNDIzOTU1NziKAQk0NTg5NzA3NTKqAQlyZWNvbW1lbmTCASAxMGE4MzY0ZjhiYWRkNzZkYjI2ZjgzMzc1OGUxY2RiMfIBCggMEgZOb3JtYWzyASgIChIkNTU3ZTc3ZTYtNTA2NC00YzZlLTgzNjYtMmZhYTcwYzZlNTc08gEGCAsSAjE5ggIAiAKuzfPpvDOSAiAxMGE4MzY0ZjhiYWRkNzZkYjI2ZjgzMzc1OGUxY2RiMZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXKAhpTYW1lQ29udGVudElkSXNvbGF0aW9uUnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgP6AgtOT1JNQUxfRkxPV4oDIDQ3ZjVlZmMxY2MzZjQ0ZWJiYTAxOGU4NGJmY2M1NTcwmgMNCgJ2MhAAGgVvdGhlcqgDnSPYAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQASjoT+BBQAAAAAAAAAAiQXjuMW+fEi0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZwqAYAkgIuCgk3NjUyNTYzNDcSEzE5OTQ0NTk5ODIxNDIzOTU1NzgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "111_1768674879.251",
+      "type": "feed",
+      "offset": 111,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674879,
+      "updated_time": 1768674879,
+      "target": {
+        "is_navigator": false,
+        "comment_count": 4,
+        "preview_text": "",
+        "navigator_vote": false,
+        "type": "answer",
+        "content": "<p data-pid=\"9xgKbcnW\">学习欣赏国画，最好的方式是通过例子</p><p data-pid=\"QifLD7KS\">我们先来看看两张图</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-86b15c589b8188c293f0985dd5af2d99_1440w.jpg\" data-rawwidth=\"401\" data-rawheight=\"741\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-c4e745ac1ed24e816b943ddc1b157b0a\" class=\"content_image\" width=\"401\"/></figure><p data-pid=\"YNfS1JRV\">这是齐白石画的虾</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-08e0c23e77683c7d8191f5dd7bd3cb96_1440w.jpg\" data-rawwidth=\"366\" data-rawheight=\"350\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-61da6d868ea9bce61354d33a8b8815d7\" class=\"content_image\" width=\"366\"/></figure><p data-pid=\"xQXLtQh4\">这是我在网上随便找的一张虾的素描图</p><p data-pid=\"xi8INU51\">你是不是也觉得明明齐白石画的也不像虾，但你就是觉得那是虾，而且好像能看到水从它的身上流过的场景。</p><p data-pid=\"qgSCwBLg\">我们每个人看到一幅画，都会有属于自己的独一无二的感受，这是每个人的天赋。但是要把自己的感受表达出来，具体说说它好在哪里，还是需要系统的学习，掌握一些方法的。</p><p data-pid=\"EIzi1EL5\">今天就以东晋大画家顾恺之的《洛神赋图》为例子，讲一讲怎样来欣赏一幅国画。</p><p data-pid=\"zZ5U1LVL\">为什么选这幅图呢？</p><p data-pid=\"nM8M-aYn\">因为它代表了中国绘画最初的样子，在它之前，中国的绘画要么出现在壁画上，要么出现在器物上，比如陶器，甚至棺材</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c9e751119a114a54a280ab7a0373a4b1_1440w.jpg\" data-rawwidth=\"419\" data-rawheight=\"429\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-14934c099850c9dc3d18ea47cf43d0c3\" class=\"content_image\" width=\"419\"/></figure><p data-pid=\"7n8TM2Cp\">这是长沙马王堆出土的朱地彩绘棺的截图。</p><p data-pid=\"CCdoF1Jv\">《洛神赋图》则第一次让绘画作为一门独立的艺术登上历史舞台，画面里的山水、植物、人物，笔法，构图都代表了国画最初的样子，很适合初学者理解。</p><p data-pid=\"M3XJlVvM\">《洛神赋图》是顾恺之根据曹植的《洛神赋》所画。</p><p data-pid=\"c7_Do0M6\">洛神第一次出现是在屈原的《楚辞》中，被描绘成一位神秘、浪漫而又美丽的女子。从此成为了无数中国文人心中的女神，人人都和洛神有过一次约会，但曹植的《洛神赋》是最有名的。</p><p data-pid=\"jLBh_0Bd\">顾恺之将《洛神赋》的内容用画画的形式展现出来，是一幅长卷，总长度接近6米，将故事情节像画连环画似的串在一幅画里。全图是这样</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e7562bf07257921f6505b09105b0f70e_1440w.jpg\" data-rawwidth=\"1500\" data-rawheight=\"88\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-e7562bf07257921f6505b09105b0f70e\" class=\"origin_image zh-lightbox-thumb\" width=\"1500\" data-original=\"https://pic1.zhimg.com/v2-e7562bf07257921f6505b09105b0f70e_r.jpg\"/></figure><p data-pid=\"zzB1S59u\">这是中国最独特的画画方式，也被称为“手卷”。看的时候右手按着右边往里卷，左手展开画卷，一边看一边卷，等你看完了，话也就卷好了。</p><p data-pid=\"CZd05-QN\">第一个场景就是故事的开头，曹植和洛神初遇</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-45c919e863fda04fabb5f81f8740c5ac_1440w.jpg\" data-rawwidth=\"1204\" data-rawheight=\"561\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-49abc5e27263c81ef1150ab201b08b8d\" class=\"origin_image zh-lightbox-thumb\" width=\"1204\" data-original=\"https://pic1.zhimg.com/v2-45c919e863fda04fabb5f81f8740c5ac_r.jpg\"/></figure><p data-pid=\"1vtZrklT\">曹植带着一众随从，从京城洛阳返回封地，途径洛水时稍作休息。在古代绘画中，一定会给重要人物做标记，这里伞就是标记，所以可以很快确定哪一位是曹植。</p><p data-pid=\"O2Unxk_T\">曹植在恍惚间，一位仙女衣带翩跹，乘风而来。他是这样描写仙女的美貌——“翩若惊鸿，宛若游龙”。顾恺之还把惊鸿和游龙也画上去了，参看图中标记。</p><p data-pid=\"ZoM9EtI9\">这里顾恺之对人物的画法采用的是春‌蚕吐丝描（也称高古游丝描），线条细韧均匀、连绵不断，这是顾恺之独创的秘籍，用来表现衣服的褶皱，用线条营造立体的感觉。和之前马王堆彩棺上完全平面的线条已经有了很大的不同。</p><p data-pid=\"Toz9COEG\">特点是用中锋笔尖匀速勾勒，粗细一致，像春蚕吐丝般匀速流畅，无顿挫感。</p><p data-pid=\"lQLxpT7b\">具体大概像这样</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ff198bfc7ddbd6c5c64d149dd7f779d1_1440w.jpg\" data-rawwidth=\"1524\" data-rawheight=\"1438\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-3285378ce877322fd8aea6bced2efcc4\" class=\"origin_image zh-lightbox-thumb\" width=\"1524\" data-original=\"https://pic2.zhimg.com/v2-ff198bfc7ddbd6c5c64d149dd7f779d1_r.jpg\"/></figure><p data-pid=\"OR1stDPo\">国画的工具是毛笔，要画出这样细长飘逸的线条并不容易，稍有迟疑，就会晕墨，用力稍重，线条就会太粗。</p><p data-pid=\"6xkGPoma\">初学者画的大概是这样</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bc7af3627f33a7585ad5640a9f80cf42_1440w.jpg\" data-rawwidth=\"2096\" data-rawheight=\"1438\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-fa06a7891dec2a2c43a15cd46c343219\" class=\"origin_image zh-lightbox-thumb\" width=\"2096\" data-original=\"https://pic1.zhimg.com/v2-bc7af3627f33a7585ad5640a9f80cf42_r.jpg\"/></figure><p data-pid=\"o8N3BqKC\">线条是国画的魂，我们看一幅国画画的好不好，线条可以作为一个切入点。</p><p data-pid=\"dOgEMmvR\">接下来，才子佳人一见钟情，女神高兴了，呼朋唤友飞来飞去开起了派对。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e2d7d12c1d6903f1142cd7d42d89d6a9_1440w.jpg\" data-rawwidth=\"1161\" data-rawheight=\"499\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88c936d4e2d2cda0581e71222f983c96\" class=\"origin_image zh-lightbox-thumb\" width=\"1161\" data-original=\"https://picx.zhimg.com/v2-e2d7d12c1d6903f1142cd7d42d89d6a9_r.jpg\"/></figure><p data-pid=\"bkWGHSUT\">这里女性角色多了起来，发型长相服饰也都差不多，怎样判断哪个是洛神呢？</p><p data-pid=\"vRP_5Gf2\">注意看拿着扇子的仙女，这里扇子就是标记。</p><p data-pid=\"xnLQyAuO\">这种扇子叫麈尾扇。在魏晋时期，麈尾扇是名士清谈时的雅器，手执麈尾者被认为是领袖群伦的大名士，象征了尊贵和权威。据说诸葛亮指挥三军时所拿的扇子也是麈尾扇呢。</p><p data-pid=\"IWTDhOwc\">曹植在《洛神赋》里这样描述此时情景，“体讯飞凫，飘忽若神，凌波微步，罗袜生尘”。原来凌波微步的发明者是曹植，而不是金庸呀。</p><p data-pid=\"cdvKnxfo\">在古代的神话故事里，人神相恋都有一个共同的问题，就是人神有别，不能相守。为烘托离别的氛围，顾恺之召唤出《山海经》里众多神仙，开了一场音乐会。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-45719610f2cdc2f5d7c18b96a2457827_1440w.jpg\" data-rawwidth=\"901\" data-rawheight=\"474\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-359b16501e80debceec0b1ed3ace5abd\" class=\"origin_image zh-lightbox-thumb\" width=\"901\" data-original=\"https://picx.zhimg.com/v2-45719610f2cdc2f5d7c18b96a2457827_r.jpg\"/></figure><p data-pid=\"Cq6YGhTz\">长得像怪兽的风神屏翳大口把风吸进肚子，拿着鱼竿的水神川后施法让水流停下来，一时间风平浪静。黄河水神冯夷鸣起鼓，女娲也唱起了歌。</p><p data-pid=\"jgVWXiJO\">离歌唱响，终有一别，气氛烘托到这，终于迎来最悲伤的一幕。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7737c24939ae67979bf8b3f4a206b490_1440w.jpg\" data-rawwidth=\"1390\" data-rawheight=\"579\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-f573779686adbc7157df8df54d60ea58\" class=\"origin_image zh-lightbox-thumb\" width=\"1390\" data-original=\"https://pic1.zhimg.com/v2-7737c24939ae67979bf8b3f4a206b490_r.jpg\"/></figure><p data-pid=\"nw_c6R8K\">一片巨大的云雾升腾而起，洛神坐在六条龙驾驭的云车里，频频回望。旁边紧跟着鲸鲵、文鱼等神兽，护卫着洛神远去。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-22ede1c455fd5f6b1b7e98f8d03fad06_1440w.jpg\" data-rawwidth=\"1410\" data-rawheight=\"580\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-4f0840edb36ecdcd58590a1637685255\" class=\"origin_image zh-lightbox-thumb\" width=\"1410\" data-original=\"https://pic3.zhimg.com/v2-22ede1c455fd5f6b1b7e98f8d03fad06_r.jpg\"/></figure><p data-pid=\"DwZanevF\">曹植驾着轻舟逆流而上，想追赶云车再见洛神一面，可是洛神早已无影无踪。</p><p data-pid=\"PR1cIeRZ\">曹植彻夜难免，在洛水边等待至天明。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-602dbc43b894370267e06966344ae0b8_1440w.jpg\" data-rawwidth=\"990\" data-rawheight=\"575\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-3994ef6019553c45f286daee22e4af1d\" class=\"origin_image zh-lightbox-thumb\" width=\"990\" data-original=\"https://pica.zhimg.com/v2-602dbc43b894370267e06966344ae0b8_r.jpg\"/></figure><p data-pid=\"3reyL2Bf\">最后，在返回封地途中，曹植还在不停回头望，依依不舍。</p><p data-pid=\"Z-r6TCtg\">整幅画中景物和人的比例并不写实，人物是主角，画的很大，景物仅仅作为陪衬，有点像舞台的布景。</p><p data-pid=\"6LKXLaVr\">这和后世的画作有很大不同。经常被拿来对比的是隋朝展子虔的《春游图》</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-be4ed1229f509f18bea5650a5003337c_1440w.jpg\" data-rawwidth=\"719\" data-rawheight=\"569\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-a60ddd8b625bacb0d8e62afecd87edeb\" class=\"origin_image zh-lightbox-thumb\" width=\"719\" data-original=\"https://pica.zhimg.com/v2-be4ed1229f509f18bea5650a5003337c_r.jpg\"/></figure><p data-pid=\"MgWAWtoM\">这个时候的山水和人有了正常的比例，山水变成了主角。</p><p data-pid=\"O0kgr7O5\">山石树木的画法都是先勾线再敷色，直到五代十国时期才出现皴擦技法，用干笔蘸浓墨在纸或者绢上擦出山石树木的纹理。</p><p data-pid=\"NNqMiTb_\">这一点可以用来判断画作的年代，不过非常遗憾是现存的《洛神赋图》，均为唐代宋代摹本，真迹已不知所踪。</p><p data-pid=\"Ixo5nQ4x\">虽然这是一千多年前的画，虽然现在的画家有了无数新的技法可以画出更多厉害的作品，但经典永不过时，这是我在书架上随手抽了儿童绘本拍的照，</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-abcada352093c7a9e334b840a909b697_1440w.jpg\" data-rawwidth=\"1920\" data-rawheight=\"1058\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6f29e1d1e764ba7f851ecf573b7c877f\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-abcada352093c7a9e334b840a909b697_r.jpg\"/></figure><p data-pid=\"SvHAzVWS\">人和景也没有正常的比例，树和山的画法更加简单，但不影响它美。</p><p data-pid=\"rmUCYma2\">总之，看画也不仅仅是看画，名作带给我们的体验也不局限在视觉上，了解绘画的基本知识和画作诞生的前生今世，不仅能让我们自信的侃侃而谈，也能让我们自己置身于不同的维度，沉浸式体验艺术之美。</p>",
+        "favorite_count": 9,
+        "voteup_count": 10,
+        "excerpt_new": "学习欣赏国画，最好的方式是通过例子 我们先来看看两张图   这是齐白石画的虾   这是我在网上随便找的一张虾的素描图 你是不是也觉得明明齐白石画的也不像虾，但你就是觉得那是虾，而且好像能看到水从它的身上流过的场景。 我们每个人看到一幅画，都会有属于自己的独一无二的感受，这是每个人的天赋。但是要把自己的感受表达出来，具体说说它好在哪里，还是需要系统的学习，掌握一些方法的。 今天就以东晋大画家顾恺之的《洛神赋图》…",
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/1992217022101221653",
+        "author": {
+          "followers_count": 97,
+          "is_following": false,
+          "is_followed": false,
+          "avatar_url": "https://picx.zhimg.com/50/v2-45b0e11a7a7f0f7672bf54bdc6ad6834_l.jpg?source=b6762063",
+          "gender": 0,
+          "user_type": "people",
+          "url_token": "luo-lian-72",
+          "name": "摸鱼匠",
+          "headline": "生活美学分享者，羊毛毡爱好者，热爱生活，热爱自然",
+          "is_org": false,
+          "badge": [
+            {
+              "description": "执业药师资格证持证人",
+              "type": "identity_people"
+            }
+          ],
+          "id": "dd795c56737db9ab93d6f0f33a77ec02",
+          "url": "https://api.zhihu.com/people/dd795c56737db9ab93d6f0f33a77ec02"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-3285378ce877322fd8aea6bced2efcc4_720w.jpg?source=b6762063",
+        "excerpt": "学习欣赏国画，最好的方式是通过例子 我们先来看看两张图   这是齐白石画的虾   这是我在网上随便找的一张虾的素描图 你是不是也觉得明明齐白石画的也不像虾，但你就是觉得那是虾，而且好像能看到水从它的身上流过的场景。 我们每个人看到一幅画，都会有属于自己的独一无二的感受，这是每个人的天赋。但是要把自己的感受表达出来，具体说说它好在哪里，还是需要系统的学习，掌握一些方法的。 今天就以东晋大画家顾恺之的《洛神赋图》…",
+        "id": "1992217022101221653",
+        "is_copyable": true,
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "vote_next_step": "vote",
+        "thanks_count": 0,
+        "question": {
+          "created": 1764126765,
+          "is_following": false,
+          "bound_topic_ids": [
+            2521,
+            8190,
+            9984,
+            12405,
+            13576
+          ],
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/1976971625242055576",
+          "title": "欣赏一幅国画，普通观众应该关注哪些方面？",
+          "comment_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "1976971625242055576",
+          "type": "question",
+          "answer_count": 0,
+          "detail": "",
+          "author": {
+            "url_token": "61-4-63-4-2",
+            "name": "灵感调色盘",
+            "is_org": false,
+            "followers_count": 6,
+            "is_following": false,
+            "is_followed": false,
+            "id": "446ae664a348d0a9dd5422c3162f0ba9",
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-e31a905a279c1432005022c1f3716c9c_l.jpg?source=b6762063",
+            "gender": -1,
+            "url": "https://api.zhihu.com/people/446ae664a348d0a9dd5422c3162f0ba9"
+          },
+          "follower_count": 0,
+          "excerpt": ""
+        },
+        "is_labeled": false,
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "visited_count": 337,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-3285378ce877322fd8aea6bced2efcc4_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-fa06a7891dec2a2c43a15cd46c343219_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6f29e1d1e764ba7f851ecf573b7c877f_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "created_time": 1767761551,
+        "updated_time": 1767761551
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1992217022101221653}",
+      "attached_info": "CogLCIr+qoXDo9nxswEQBBoJNzY0Mzg4MzY3II/N98oGKAowBEBvSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCTExNzQ3ODI1MmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTIyMTcwMjIxMDEyMjE2NTOKARMxOTc2OTcxNjI1MjQyMDU1NTc2qgEJcmVjb21tZW5kwgEgZGQ3OTVjNTY3MzdkYjlhYjkzZDZmMGYzM2E3N2VjMDLyAQoIDBIGTm9ybWFs8gEoCAoSJDllY2Y5YzhmLTk2YzAtNGUwYS04ZDk2LTJlOTc4ZDc1MDBhMPIBBggLEgIxOYICAIgCrs3z6bwzkgIgZGQ3OTVjNTY3MzdkYjlhYjkzZDZmMGYzM2E3N2VjMDKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgL6AgtOT1JNQUxfRkxPV4oDIDQ3ZjVlZmMxY2MzZjQ0ZWJiYTAxOGU4NGJmY2M1NTcwmgMNCgJ2MhAAGgVvdGhlcqgD0QLYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A7AFEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQkQMY5QUiI3YyLWM0ZTc0NWFjMWVkMjRlODE2Yjk0M2RkYzFiMTU3YjBhOi0IAxDuAhjeAiIjdjItNjFkYTZkODY4ZWE5YmNlNjEzNTRkMzNhOGI4ODE1ZDc6LQgDEKMDGK0DIiN2Mi0xNDkzNGMwOTk4NTBjOWRjM2QxOGVhNDdjZjQzZDBjMzosCAMQ3AsYWCIjdjItZTc1NjJiZjA3MjU3OTIxZjY1MDViMDkxMDViMGY3MGU6LQgDELQJGLEEIiN2Mi00OWFiYzVlMjcyNjNjODFlZjExNTBhYjIwMWIwOGI4ZDotCAMQ9AsYngsiI3YyLTMyODUzNzhjZTg3NzMyMmZkOGFlYTZiY2VkMmVmY2M0Oi0IAhCwEBieCyIjdjItZmEwNmE3ODkxZGVjMmEyYzQzYTE1Y2Q0NmMzNDMyMTk6LQgDEIkJGPMDIiN2Mi04OGM5MzZkNGUyZDJjZGEwNTgxZTcxMjIyZjk4M2M5NjotCAMQhQcY2gMiI3YyLTM1OWIxNjUwMWU4MGRlYmNlZWMwYjFlZDNhY2U1YWJkOi0IAxDuChjDBCIjdjItZjU3Mzc3OTY4NmFkYmM3MTU3ZGY4ZGY1NGQ2MGVhNTg6LQgDEIILGMQEIiN2Mi00ZjA4NDBlZGIzNmVjZGNkNTg1OTBhMTYzNzY4NTI1NTotCAMQ3gcYvwQiI3YyLTM5OTRlZjYwMTk1NTNjNDVmMjg2ZGFlZTIyZTRhZjFkOi0IAxDPBRi5BCIjdjItYTYwZGRkOGI2MjViYWNiMGQ4ZTYyYWZlY2Q4N2VkZWI6LQgDEIAPGKIIIiN2Mi02ZjI5ZTFkMWU3NjRiYTdmODUxZWNmNTczYjdjODc3ZoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQGiKjT+BBQAAAAAAAAAAiQXjuMW+fEi0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZxqAYAkgIuCgk3NjQzODgzNjcSEzE5OTIyMTcwMjIxMDEyMjE2NTMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "112_1768674879.742",
+      "type": "feed",
+      "offset": 112,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674879,
+      "updated_time": 1768674879,
+      "target": {
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-424a623d77923092053d3caacd54d944_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 13259,
+          "is_followed": false,
+          "user_type": "people",
+          "url": "https://api.zhihu.com/people/7019a1316154e36f1854ccf5eb6e498c",
+          "url_token": "guo-hao-38-25",
+          "name": "郭豪",
+          "headline": "有原则丨有礼貌丨有趣的人",
+          "is_org": false,
+          "is_following": false,
+          "id": "7019a1316154e36f1854ccf5eb6e498c"
+        },
+        "created_time": 1768634719,
+        "content": "<blockquote data-pid=\"xG8xR2G2\">爱，是一种极为神秘的现象，我们很难给出确切的定义，也很难接触到其本质。爱，是为了促进自我和他人心智成熟，而具有的一种自我完善的意愿。 首先，爱与不爱最显著的区别之一，在于当事人的意识思维和潜意识思维的目标是否一致。如果不一致，就不是真正的爱。 其次，爱是长期的和渐进的过程。爱是自我完善，意味着心智不断成熟。爱，能够帮助他人进步，也会使自我更加成熟。换言之，我们付出爱的努力，不仅能让他人的心智成熟，自己也同样获益。 第三，真正意义上的爱，既是爱自己，也是爱他人。爱，可以使自我和他人感觉到进步。不爱自己的人，绝不可能去爱他人。父母缺少自律，就不可能让孩子懂得什么是自我完善。我们推动他人心智的成熟，自己的心智也不会停滞不前。我们为他人着想而自我完善，这与自我约束不会产生对立。我们强化自身成长的力量，才能成为他人力量的源泉。我们终归会意识到，爱自己与爱他人，其实是并行不悖的两条轨道，二者之间越来越近，其界限最后模糊不清，甚至完全泯灭。第四，爱是自我完善，也是帮助他人完善。它意味着持续努力，超越自我界限。爱，不能停留在口头上，而要付诸行动。我们爱某人或爱某种事物，就不可能坐享其成，而是要持续地努力，帮助自己和他人获得成长。 <br/>人人都有爱他人的欲望，但很多人只停留在想法和口头上。爱的愿望不等于爱的行动，真正的爱是行动，是基于灵魂的行动。你认为自己爱他人却没有躬身实践，就等于从未爱过。与此同时，不管是爱自己还是爱他人，为心智的成熟而贡献力量，也须出于自主的选择，也就是爱的选择。</blockquote><hr/><p data-pid=\"gv3twdZV\">人生苦难重重。这是个伟大的真理，是世界上最伟大的真理之一。它的伟大，在于我们一旦想通了它，就能实现人生的超越。只要我们知道人生是艰难的－－只要我们真正理解并接受这一点，那么我们就再也不会对人生的苦难耿耿于怀了。</p><p data-pid=\"2WrN8vj6\">解决人生的首要方案，乃是自律，缺少了这一环，你不可能解决任何麻烦和困难。局部的自律只能解决局部的问题，完整的自律才能解决所有的问题。 </p><p data-pid=\"Pn_yIluF\">人生是一个面对问题并解决问题的过程。问题能启发我们的智慧，激发我们的勇气；问题是我们成功与失败的分水岭。为解决问题而付出的努力，能使思想和心智不断成熟。 </p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a8ff1d6a19912eeed311761f50428e7f_1440w.jpg\" data-rawwidth=\"600\" data-rawheight=\"848\" data-size=\"normal\" data-original-token=\"v2-e3623048a991db27bed491a36dad6c26\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-a8ff1d6a19912eeed311761f50428e7f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f1ebfd9c62d9d8b093e9660d5d949be6_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1566\" data-size=\"normal\" data-original-token=\"v2-0f3030790e04eced7ffddbbe37bea578\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-f1ebfd9c62d9d8b093e9660d5d949be6_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f9f72f05a407ff02f11d22f5876ed4cb_1440w.jpg\" data-rawwidth=\"404\" data-rawheight=\"584\" data-size=\"normal\" data-original-token=\"v2-9066831b9a4f1cb1fa50d673f0dc1c63\" class=\"content_image\" width=\"404\"/></figure><p></p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-0f3030790e04eced7ffddbbe37bea578_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "navigator_vote": false,
+        "id": "1995879354681537523",
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "preview_text": "",
+        "allow_segment_interaction": true,
+        "is_navigator": false,
+        "question": {
+          "answer_count": 0,
+          "bound_topic_ids": [
+            1164,
+            1745
+          ],
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "id": "647197401",
+          "type": "question",
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/647197401",
+          "is_following": false,
+          "follower_count": 0,
+          "comment_count": 1,
+          "author": {
+            "is_org": false,
+            "followers_count": 0,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/4771b14457e08334a27279d9559a1547",
+            "user_type": "people",
+            "name": "李知恩",
+            "headline": "",
+            "is_following": false,
+            "id": "4771b14457e08334a27279d9559a1547",
+            "url_token": "da-qiang-ge-8-38",
+            "avatar_url": "https://picx.zhimg.com/50/v2-4e838311651596e2429c2ce55e1f5e00_l.jpg?source=b6762063",
+            "gender": -1
+          },
+          "title": "有没有超级推荐的好书？",
+          "created": 1709638446
+        },
+        "excerpt_new": "爱，是一种极为神秘的现象，我们很难给出确切的定义，也很难接触到其本质。爱，是为了促进自我和他人心智成熟，而具有的一种自我完善的意愿。 首先，爱与不爱最显著的区别之一，在于当事人的意识思维和潜意识思维的目标是否一致。如果不一致，就不是真正的爱。 其次，爱是长期的和渐进的过程。爱是自我完善，意味着心智不断成熟。爱，能够帮助他人进步，也会使自我更加成熟。换言之，我们付出爱的努力，不仅能让他人的心智成熟，…",
+        "preview_type": "default",
+        "favorite_count": 0,
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "is_labeled": false,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995879354681537523",
+        "updated_time": 1768634719,
+        "excerpt": "爱，是一种极为神秘的现象，我们很难给出确切的定义，也很难接触到其本质。爱，是为了促进自我和他人心智成熟，而具有的一种自我完善的意愿。 首先，爱与不爱最显著的区别之一，在于当事人的意识思维和潜意识思维的目标是否一致。如果不一致，就不是真正的爱。 其次，爱是长期的和渐进的过程。爱是自我完善，意味着心智不断成熟。爱，能够帮助他人进步，也会使自我更加成熟。换言之，我们付出爱的努力，不仅能让他人的心智成熟，…",
+        "voteup_count": 0,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-0f3030790e04eced7ffddbbe37bea578_720w.jpg?source=b6762063",
+        "reshipment_settings": "allowed",
+        "visited_count": 26
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995879354681537523}",
+      "attached_info": "CtUHCIr+qoXDo9nxswEQBBoJNzY1ODA3MDkxIN/yrMsGKAAwAEBwSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMDYwOTkxMDFiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1ODc5MzU0NjgxNTM3NTIzigEJNjQ3MTk3NDAxqgEJcmVjb21tZW5kwgEgNzAxOWExMzE2MTU0ZTM2ZjE4NTRjY2Y1ZWI2ZTQ5OGPyAQoIDBIGTm9ybWFs8gEoCAoSJDY1MGY3M2I3LTQ3NzctNDQ2NS05Y2Q5LTE4ZDAzMDk1M2VmN/IBBggLEgIxOYICAIgCrs3z6bwzkgIgNzAxOWExMzE2MTU0ZTM2ZjE4NTRjY2Y1ZWI2ZTQ5OGOaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIaQ29udGVudFdhcm1VcElzb2xhdGlvblJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCA/oCC05PUk1BTF9GTE9XigMgNDdmNWVmYzFjYzNmNDRlYmJhMDE4ZTg0YmZjYzU1NzCaAw0KAnYyEAAaBW90aGVyqAMa2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ2AQY0AYiI3YyLWUzNjIzMDQ4YTk5MWRiMjdiZWQ0OTFhMzZkYWQ2YzI2Oi0IAhC4CBieDCIjdjItMGYzMDMwNzkwZTA0ZWNlZDdmZmRkYmJlMzdiZWE1Nzg6LQgCEJQDGMgEIiN2Mi05MDY2ODMxYjlhNGYxY2IxZmE1MGQ2NzNmMGRjMWM2M4AEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIAmMkT+BBQAAAAAAAAAAiQXjuMW+fEi0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZyqAYBkgIuCgk3NjU4MDcwOTESEzE5OTU4NzkzNTQ2ODE1Mzc1MjMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "113_1768674879.479",
+      "type": "feed",
+      "offset": 113,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674879,
+      "updated_time": 1768674879,
+      "target": {
+        "voteup_count": 562,
+        "thanks_count": 22,
+        "excerpt": "历史上，应对这种情况最擅长且自如的当属毛主席，他一生收服的刺头猛将不计其数，其中最经典的一例就是处理许世友。 要是放在私企，给他一顿臭骂批评，不行就扣绩效，直到末位淘汰掉。 但题主问的是国企，那这套逻辑根本行不通。 这里的人和体制内单位一样，开不掉骂不走，硬顶硬管只会让自己下不来台，显得毫无水平，还容易露洋相。 遇到这种事，庸医上来就动刀子，想着怎么处理人杀一儆百；但真正懂管人的领导会像老中医那样，…",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"uCS_xmWv\">历史上，应对这种情况最擅长且自如的当属毛主席，他一生收服的刺头猛将不计其数，其中最经典的一例就是处理许世友。</p><hr/><p data-pid=\"YRzG4Nfq\">要是放在私企，给他一顿臭骂批评，不行就扣绩效，直到末位淘汰掉。</p><p data-pid=\"NlMFC9JN\">但题主问的是国企，那这套逻辑根本行不通。</p><p data-pid=\"M1xrmHJm\">这里的人和体制内单位一样，开不掉骂不走，硬顶硬管只会让自己下不来台，显得毫无水平，还容易露洋相。</p><p data-pid=\"AQGOhsS0\">遇到这种事，庸医上来就动刀子，想着怎么处理人杀一儆百；但真正懂管人的领导会像老中医那样，先不急着说话，退后一步眯着眼睛给他号号脉。</p><p data-pid=\"K0wZ31BF\">下属的不服管从来不是简单的态度问题，那都是病，得治。</p><h3><b>得先诊断，他得的是什么病？病根在哪？</b></h3><p data-pid=\"ZuXKmzpQ\">历史上，把这种诊断学玩到极致的当属毛主席，他一生收服的刺头猛将不计其数，其中最经典的一例就是处理许世友。</p><p data-pid=\"WSsokSJj\">许世友是什么人？</p><p data-pid=\"2ayR2NB-\">少林寺出身，一身武艺，性格刚烈如火，打起仗来是猛虎，但认死理脑子一根筋，是张国焘从鄂豫皖带出来的嫡系，张国焘对他有知遇之恩。</p><p data-pid=\"usBVC2k7\">1937年，红军西路军在河西走廊几乎全军覆没，损失惨重。消息传回延安，全D震动，开始清算张国焘的分裂主义路线。</p><p data-pid=\"9c8slkAA\">这下算是捅了马蜂窝。</p><p data-pid=\"s4guy48V\">许世友觉得这是要清算他们红四方面军的所有人，是要把脏水全泼到他们这些卖命的人身上，他憋了一肚子火，在延安抗大的批斗会上不仅公开顶撞毛主席，还当场直接骂娘。</p><p data-pid=\"yE9clhwe\">这还不算完，他还干了件要掉脑袋的事。</p><p data-pid=\"RO0WwqUl\">他暗中串联了三十多个红四方面军的老部下，准备拉杆子跑路，回四川老家打游击去，这在当时跟叛变只有一线之隔。</p><p data-pid=\"tNTVdoTL\">后来事情败露，人被抓了，按军法枪毙一百回都够了，当时延安的高层很多人都主张杀，不杀不足以正军纪。</p><p data-pid=\"ouO8dxO3\">如果是普通领导可能早就顺水推舟，杀鸡儆猴了。</p><p data-pid=\"Q0YT2XbL\">但毛主席不这么看，他开始给许世友号脉。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-029a114294a34b1449d7f0cc00fea492_1440w.jpg\" data-rawwidth=\"660\" data-rawheight=\"588\" data-size=\"normal\" data-original-token=\"v2-175b9d79b47d1463801b1a5d44c23fe0\" class=\"origin_image zh-lightbox-thumb\" width=\"660\" data-original=\"https://pic1.zhimg.com/v2-029a114294a34b1449d7f0cc00fea492_r.jpg\"/><figcaption>铁血悍将许世友</figcaption></figure><h3>先望闻问切，诊断病因</h3><p data-pid=\"7Nhnogxr\"><b>望其出身</b>，许世友是草莽英雄，大字不识几个，但重义气，他对张国焘有愚忠，是朴素的知恩图报思想，这是旧病。</p><p data-pid=\"v3mw3oE5\"><b>闻其声</b>，他为什么闹？核心诉求是怕被清算，怕自己和手下那帮弟兄们的前途没了，这是心病，是恐惧。</p><p data-pid=\"D9MvyuH7\"><b>问其志</b>，把他关起来，看他反应。许世友在牢里破口大骂，但嚷嚷着要见毛主席，这就说明他心里那杆秤还没完全倒向张国焘，他还认延安这个中央、还认毛主席这个最高权威，这就还有得救。</p><p data-pid=\"xFWIIycz\"><b>切其脉</b>，病根找到并明确了：恐惧和愚忠交织。</p><h3>病因诊断清楚了，接下来就是开药方</h3><p data-pid=\"ZuXihK5g\">庸医开的方子，往往是头痛医头脚痛医脚。不服？那就开大会批判、写检查，让他颜面扫地，让他认服为止。</p><p data-pid=\"9GVHT9BF\">但毛主席开的是中药，讲究调理、直攻心脉。</p><p data-pid=\"mxfGyBdv\">他没有去说教，也没搞什么思想教育，干了一件让所有人都没想到的事：<b>亲自去看望被关押的许世友。</b></p><p data-pid=\"5-_WDw5_\">而且不是一次，是一连去了好几次。</p><p data-pid=\"T-cArqyK\">他跟许世友聊家常，聊大别山的风土人情，聊他以前打过的那些硬仗、恶仗，就是绝口不提反叛二字。</p><p data-pid=\"MVcWZLyP\">有一次去，看到许世友的铺盖薄，还亲自把自己的军大衣脱下来给他盖上。</p><p data-pid=\"wqecBn0R\"><b>这是什么？</b></p><p data-pid=\"ZnMpOz8h\"><b>这就是政治。</b></p><p data-pid=\"YzhUrkI9\">毛主席在用行动告诉许世友，我没有把你当犯人，更没有把你当敌人。我依然把你当同志，当一个我十分器重的将才。</p><p data-pid=\"jMVFi8Iz\">这副药下去，许世友心里那堵最硬的墙，已经开始松动了。</p><p data-pid=\"ctc7bY7S\"><b>但光有温情还不够，还得有猛药。</b></p><p data-pid=\"gfopn6rv\">在许世友最绝望觉得自己必死无疑的时候，毛主席跟他交了底。</p><p data-pid=\"h6mLVDko\">他说，你是个将才，仗打得好，我们还是要用你的，我们清算的是张国焘的路线错误，不是要清算红四方面军的每一个干部。</p><p data-pid=\"2YoZdtHk\">这句话，直接击穿了许世友的心理防线。</p><p data-pid=\"sB4gtMUU\">他要的是什么？</p><p data-pid=\"JfUshKBt\">不就是这句话吗，一个前途的保证，一个对过去功劳的认可。</p><p data-pid=\"vF-pmQpi\">恐惧解除了，心结打开了，许世友当场就哭了，说以后这条命就是主席的。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1513693fe253336f88a7cd7f666521f4_1440w.jpg\" data-rawwidth=\"495\" data-rawheight=\"580\" data-size=\"normal\" data-original-token=\"v2-40e058c205322c4a27510de10f60cee3\" class=\"origin_image zh-lightbox-thumb\" width=\"495\" data-original=\"https://pic1.zhimg.com/v2-1513693fe253336f88a7cd7f666521f4_r.jpg\"/><figcaption>毛主席和许世友上将的合影，许世友自称是毛主席的“匣中宝剑”</figcaption></figure><p data-pid=\"AIVZEpXb\"><b>攻心为上啊，同志们。</b></p><p data-pid=\"9GXpzVNa\">后来，许世友成了毛主席手下最忠诚也最敢讲真话的猛将之一，甚至在特殊时期，很多人不敢说话，只有许世友敢带着枪去见主席、当面反映问题。</p><p data-pid=\"cV3rhCbu\">一个差点被枪毙的叛将就这么被毛主席硬生生从鬼门关拉了回来，变成了一个死心塌地的亲信。</p><p data-pid=\"dAFl_qTG\">这就是顶级领导的管理手段。</p><p data-pid=\"WN3k53Xw\">回到现代职场里。</p><p data-pid=\"kiEwcCGC\">手下那个不服你的人，他跟你闹，背后一定有他的病因。</p><p data-pid=\"Z1Xg4q6P\"><b>是因为他是前任领导留下的旧人，心里还想着老领导？</b> </p><p data-pid=\"sRSreiNO\">这叫忠心错付，你不能骂人家不忠，反而要肯定他的品格，然后再慢慢学毛主席攻他的心、把他争取过来。</p><p data-pid=\"9AtnDZbX\"><b>还是身怀绝技的老黄牛，觉得你是外行领导内行？</b></p><p data-pid=\"u0YWbTZH\">这是恃才傲物，你就不能跟他比技术，要跟他比格局，要让他明白，你能坐在这个位置上，靠的不是懂细节、懂技术，而是懂方向，懂资源。</p><p data-pid=\"Rw16Vnrb\"><b>或是单位里出了名的滚刀肉，谁的话都不听？</b> </p><p data-pid=\"0nd95NSf\">这种人无欲则刚，没啥追求，还不怕穿小鞋。对付他，不能用高压，得用捧杀和道德绑架，给他戴高帽，让他负责一些无关痛痒但听起来很重要的事，让他觉得自己有作用，让他觉得要对得起你的信任。</p><p data-pid=\"FEyO7JSk\"><b>还是因为他是个没摸清门道的新兵蛋子，觉得一腔热血被泼了冷水？</b> </p><p data-pid=\"lui3lOi7\">这是认知错位，他把单位当成象牙塔，你就得让他知道这里是江湖，要敲打但更要点拨，让他知道规矩是什么。</p><p data-pid=\"oYhUJxlj\">这些都得靠你去望闻问切，去观察，去琢磨，去一对一地拆解。</p><p data-pid=\"G4aVRzAt\"><b>别急着开会，先私下吃个饭；<br/>别直接谈工作，先聊聊家常；<br/>别讲大道理，先听他发牢骚。</b></p><p data-pid=\"xjTeohrZ\"><b>毛主席总讲，调查研究是第一步</b>。</p><p data-pid=\"LlvX1ooy\">如果连他为什么不服你都搞不清楚，凭什么去管他？</p><p data-pid=\"eqpxoqGX\">等病因诊断清楚了，开药方就简单了。</p><p data-pid=\"88IY3qcM\"><b>缺认同的，给足面子，</b>在公开场合多表扬，让他觉得你懂他的价值。</p><p data-pid=\"s5X6LxDi\"><b>缺资源的，就给足支持，</b>他推不动的项目，你亲自出面去协调，人心都是肉长的，你为他扛过事，他自然会为你卖命。</p><p data-pid=\"JnMw7vSI\"><b>缺安全感的，给个定心丸，</b>明确告诉他，只要好好干，你的位置稳如泰山甚至还有机会更进一步。</p><p data-pid=\"p2n5BcW_\"><b>实在什么都不缺，纯缺德的，那就得用点手段了。</b></p><p data-pid=\"e7naNSeY\">国企里开除人难，但让一个人难受的办法有很多。</p><p data-pid=\"aNHN907k\">可以让他去负责最繁琐但最不出成绩的活，比如档案、信访。</p><p data-pid=\"jAmYqgmb\">可以在绩效考核上，永远给他一个将将及格的分数，在每一次评优评先的时候，都以还要再考察考察为由把他晾在一边。</p><p data-pid=\"CPYQi5pC\">还可以大张旗鼓地奖勤罚懒，把导向树得明明白白。</p><p data-pid=\"420ffaed\"><b>这叫团结大多数，孤立极少数。</b></p><p data-pid=\"33vMdbzw\">当他发现，整个部门的人都跟你一条心，只有他被孤立起来的时候，他自己就会开始掂量。</p><p data-pid=\"jbjqhL97\">当然，这是最后的手段。</p><p data-pid=\"gES4GA8a\">作为一个领导，尤其在国企，如果不是万不得已，尽量别把事情做太绝。</p><p data-pid=\"a0hBAsvJ\"><b>水至清则无鱼，人至察则无徒。</b></p><p data-pid=\"pd_Ubam8\">队伍里有个别不听话的刺头，未必是坏事，有时候，他们能让你听到一些真话，能让你保持警惕。</p><p data-pid=\"s8W1EGdn\">真正厉害的领导，不把所有人都变成自己的应声虫。</p><p data-pid=\"Uubi5GKo\">而是能把孙悟空这样的刺头，都牢牢地摁在取经的路上，让他一边骂骂咧咧一边还能奋力地降妖除魔。</p><p data-pid=\"EG0u--_Y\">这才是真本事。</p><p data-pid=\"8Y-eJUrR\"><b>别把下属不服你当成是对你权威的挑战。</b></p><p data-pid=\"S-MIE18d\">把它当成一道组织给你出的考题，这道题考的不是你的权力有多大、手段有多狠，而是你的政治智慧有多深。</p><p data-pid=\"-IBlD73r\">考过了，不仅能收服一个人心，还能让整个团队都看到手腕和格局，这不比开一百次会、喊一万句口号更管用？</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/dee9f7c9d1844ea794913841d3fd7ed8",
+          "headline": "收藏再看丨资深半体制",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c948b117ba8e0c274e06d166e05c50e6_l.jpg?source=b6762063",
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "地铁话题下的优秀答主",
+              "topic_names": [
+                "地铁"
+              ],
+              "topic_ids": [
+                1717
+              ]
+            }
+          ],
+          "followers_count": 83247,
+          "id": "dee9f7c9d1844ea794913841d3fd7ed8",
+          "user_type": "people",
+          "url_token": "densen",
+          "name": "Kaiser",
+          "is_org": false
+        },
+        "allow_segment_interaction": true,
+        "vote_next_step": "vote",
+        "visited_count": 56573,
+        "favorite_count": 980,
+        "answer_type": "normal",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1985105697801801739",
+        "updated_time": 1766103424,
+        "comment_count": 55,
+        "is_copyable": false,
+        "excerpt_new": "历史上，应对这种情况最擅长且自如的当属毛主席，他一生收服的刺头猛将不计其数，其中最经典的一例就是处理许世友。 要是放在私企，给他一顿臭骂批评，不行就扣绩效，直到末位淘汰掉。 但题主问的是国企，那这套逻辑根本行不通。 这里的人和体制内单位一样，开不掉骂不走，硬顶硬管只会让自己下不来台，显得毫无水平，还容易露洋相。 遇到这种事，庸医上来就动刀子，想着怎么处理人杀一儆百；但真正懂管人的领导会像老中医那样，…",
+        "preview_type": "default",
+        "is_labeled": false,
+        "id": "1985105697801801739",
+        "question": {
+          "created": 1558282194,
+          "answer_count": 0,
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "id": "325156471",
+          "title": "如果你的下属不服从你得管理，你会怎么办？",
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/325156471",
+          "is_following": false,
+          "comment_count": 8,
+          "bound_topic_ids": [
+            1018,
+            18990
+          ],
+          "type": "question",
+          "author": {
+            "url": "https://api.zhihu.com/people/41ca59b1eebe380e802f5a1dc2831ba9",
+            "name": "爱看书Super Man",
+            "avatar_url": "https://picx.zhimg.com/50/v2-613232f16dd80035fad45d1e93dfca77_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "41ca59b1eebe380e802f5a1dc2831ba9",
+            "user_type": "people",
+            "url_token": "gao-fu-shuai-18-98",
+            "headline": "岂能尽如人意，但求无愧我心",
+            "gender": 1
+          }
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "created_time": 1766066079
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1985105697801801739}",
+      "attached_info": "CvQGCIr+qoXDo9nxswEQBBoJNzYxNjU2NTEyIJ+PkMoGKLIEMDdAcUovCgZJdGVtQ0YSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDc1NzUzMTkxNgoYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDM0NTMyNjQ5YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk4NTEwNTY5NzgwMTgwMTczOYoBCTMyNTE1NjQ3MaoBCXJlY29tbWVuZMIBIGRlZTlmN2M5ZDE4NDRlYTc5NDkxMzg0MWQzZmQ3ZWQ48gEKCAwSBk5vcm1hbPIBKAgKEiQ5YzE3N2JmOC05NWQ4LTQ3NTYtODMwYi1jOGM1NGMxODYyMGHyAQYICxICMTmCAgCIAq7N8+m8M5ICIGRlZTlmN2M5ZDE4NDRlYTc5NDkxMzg0MWQzZmQ3ZWQ4mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gIGSXRlbUNG6AIF+gILTk9STUFMX0ZMT1eKAyA0N2Y1ZWZjMWNjM2Y0NGViYmEwMThlODRiZmNjNTU3MJoDDQoCdjIQABoFb3RoZXKoA/25A9gDAOoDFXRleHRBbGxTaXRlTXZJdGVtQ0ZWMvoDfRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEJQFGMwEIiN2Mi0xNzViOWQ3OWI0N2QxNDYzODAxYjFhNWQ0NGMyM2ZlMDotCAMQ7wMYxAQiI3YyLTQwZTA1OGMyMDUzMjJjNGEyNzUxMGRlMTBmNjBjZWUzgAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAR2SYP4EFAAAAAAAAAACJBeO4xb58SLQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBnOoBgCSAi4KCTc2MTY1NjUxMhITMTk4NTEwNTY5NzgwMTgwMTczORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=113&desktop=true&end_offset=115&page_number=20&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=113&desktop=true&end_offset=115&page_number=20&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

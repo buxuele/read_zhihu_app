@@ -1,0 +1,108 @@
+{% extends "base.html" %} 
+{% block title %}我的收藏 - {{ super() }}{% endblock %} 
+{% block page_title %}{% endblock %} 
+
+{% block content %}
+<!-- 顶部信息栏 -->
+<div class="d-flex justify-content-between align-items-center mb-3 top-control-bar">
+  <div class="pool-stats-inline">
+    共收藏 {{ total_favorites }} 篇内容
+  </div>
+  <div>
+    <a href="/" class="btn btn-outline-secondary btn-sm">返回首页</a>
+  </div>
+</div>
+
+<!-- 收藏内容区域 -->
+{% if favorites %}
+  {% for item_data in favorites %}
+  <div class="card mb-3 shadow-sm card-custom">
+    <div class="card-body">
+      <h3 class="card-title h5">
+        <span class="item-index">{{ loop.index }}</span>
+        <a
+          href="{{ item_data.url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="item-title-link"
+        >
+          {{ item_data.title }} 
+          {% if item_data.type == 'answer' %}
+          <span class="badge bg-custom-answer-badge ms-2">回答</span>
+          {% elif item_data.type == 'article' %}
+          <span class="badge bg-custom-article-badge ms-2">文章</span>
+          {% else %}
+          <span class="badge bg-secondary ms-2">{{ item_data.type }}</span>
+          {% endif %}
+        </a>
+        <span
+          class="text-muted ms-3"
+          style="font-size: 0.9em; font-weight: normal"
+        >
+          作者: {{ item_data.author or '未知作者' }}
+        </span>
+      </h3>
+      {% if item_data.excerpt %}
+      <p
+        class="card-text text-secondary mb-2"
+        style="font-size: 0.95em; line-height: 1.4"
+      >
+        {{ item_data.excerpt }}
+      </p>
+      {% endif %}
+      <p class="card-text text-muted small mb-0 d-flex align-items-center">
+        <span><strong>{{ item_data.upvotes }}</strong> 赞</span>
+        <span class="ms-4"
+          >发布时间: {{ item_data.created | timestamp_to_datetime_str }}</span
+        >
+
+        <!-- 取消收藏按钮 -->
+        <span class="ms-auto">
+          <button 
+            class="btn btn-sm btn-warning favorite-btn"
+            data-url="{{ item_data.url }}"
+            onclick="toggleFavorite(this)"
+          >
+            已收藏
+          </button>
+        </span>
+      </p>
+    </div>
+  </div>
+  {% endfor %}
+{% else %}
+  <div class="alert alert-info text-center" role="alert">
+    <h4>暂无收藏内容</h4>
+    <p>去<a href="/">首页</a>收藏一些喜欢的内容吧！</p>
+  </div>
+{% endif %}
+
+{% endblock %} 
+
+{% block extra_js %}
+<script>
+  function toggleFavorite(button) {
+    const url = button.dataset.url;
+    
+    fetch('/api/toggle_favorite', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url: url })
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === 'success') {
+        showToast('已取消收藏', 'info');
+        // 延迟刷新，让用户看到提示
+        setTimeout(() => window.location.reload(), 800);
+      } else {
+        showToast('操作失败: ' + data.message, 'danger');
+      }
+    })
+    .catch(error => {
+      console.error('错误:', error);
+      showToast('取消收藏时发生错误', 'danger');
+    });
+  }
+</script>
+{% endblock %}

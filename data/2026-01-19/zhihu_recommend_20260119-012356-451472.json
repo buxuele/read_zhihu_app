@@ -1,0 +1,584 @@
+{
+  "data": [
+    {
+      "id": "84_1768757046.480",
+      "type": "feed",
+      "offset": 84,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757046,
+      "updated_time": 1768757046,
+      "target": {
+        "id": "1995952569827222982",
+        "title": "2026年AI变局？IBM说透了|长文干货",
+        "voting": 0,
+        "comment_count": 0,
+        "preview_text": "",
+        "is_navigator": false,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "favorite_count": 8,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1995952569827222982",
+        "created": 1768652383,
+        "voteup_count": 1,
+        "excerpt": "2026年将重塑AI与科技世界的趋势IBM解读（简体中文译文） 原文：The trends that will shape AI and tech in 2026（IBM） 发布时间：2026年1月1日 作者：Anabelle Nicoud（IBM Think 专栏作者） 本文由ChatGPT+特立独行的猫（本人）联合翻译。 在科技行业里，一年往往像其他行业的十年。 想想看：一年前，我们还在讨论 ChatGPT 连“strawberry”里有几个字母“r”都数不清。来自中国前沿实验室的推理模型（例如 [DeepSeek-R1]）…",
+        "content": "<h2>2026年将重塑AI与科技世界的趋势</h2><p data-pid=\"MbBReSy6\">IBM解读（简体中文译文）</p><p data-pid=\"fl2PMv4z\">原文：The trends that will shape AI and tech in 2026（IBM）</p><p data-pid=\"njz3Pi9o\">发布时间：2026年1月1日</p><p data-pid=\"So4E1p9W\">作者：Anabelle Nicoud（IBM Think 专栏作者）</p><p data-pid=\"WWlX0Hyt\">本文由ChatGPT+特立独行的猫（本人）联合翻译。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6vjDeVGd\">在科技行业里，一年往往像其他行业的十年。</p><p data-pid=\"kaG2q1xT\">想想看：一年前，我们还在讨论 ChatGPT 连“strawberry”里有几个字母“r”都数不清。来自中国前沿实验室的推理模型（例如 [DeepSeek-R1]）还没有席卷全球；开源的推理型智能体也还没真正走红。</p><p data-pid=\"VldagQOh\">那时，Claude 的专用编程智能体还不存在。IBM 的 [Granite 3.0] 刚刚问世。关于“智能体（[agentic]）”的讨论也才刚开始：协议 [MCP] 在春季才刚有起色，并得到 Sam Altman 的一次“重量级背书”。</p><p data-pid=\"a3OEy1gk\">与此同时，在基础设施层面，芯片与算力资源开始变得稀缺，这让一些拥有资源的新地区获得了竞争优势。</p><p data-pid=\"ZsFaOh0S\">过去几周里，IBM Think 采访了十多位科技领域专家——研究人员、创业者，以及来自 IBM 和其他机构的领导者——请他们预测来年的关键趋势。大家有一个共同判断：2026 年的创新速度不会放慢。</p><p data-pid=\"jyHGbzqu\">IBM 苏黎世研究院（Zurich Laboratory）的首席研究人员 Peter Staar 说：“这是一个疯狂的时代，而且只会越来越快。”</p><p data-pid=\"y79AJmnb\">新的“智能体能力”会带来新的商业与个人机会。IBM 杰出工程师 Chris Hay 说，他在 AI 创作上看到了类似音乐制作人 Rick Rubin 的影子：“我不把它局限在写代码。我觉得我们都会变成‘AI 作曲家’——无论你是市场人员、程序员，还是产品经理（PM）。 ”</p><p data-pid=\"05_fMMKl\">很多人认为，“效率”会成为新的前沿。IBM 首席研究科学家 Kaoutar El Maghraoui 在节目《Mixture of Experts》中表示：“[GPU] 仍然会是主力，但基于 [ASIC] 的加速器、[chiplet]（小芯片拼接）设计、模拟推理（[analog inference]），甚至量子辅助优化器（[quantum-assisted optimizers]）都会成熟。也许还会出现专为智能体工作负载设计的一类新芯片。”</p><p data-pid=\"3Ho14RU2\">在经历了对 AI 投资回报率（[ROI]）的长期怀疑之后，AI 能力会为企业业务开创新的做法。开源的推理模型与智能体也会继续“试探边界”，推动企业 AI 更快落地。</p><p data-pid=\"bHgntWVk\">同时，随着越来越多企业关注“AI 主权（[AI sovereignty]）”，信任与安全会成为更高优先级。</p><p data-pid=\"BXpf0YHv\">以上只是序幕。接下来是 18 条专家预测，带你看清 2026 年企业科技的大方向。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"EtjlQP-h\"><b>从量子到效率：新的算力前沿</b></p><p data-pid=\"5-0LUwmH\">•\t量子计算将首次在某些任务上胜过经典计算机 | Jamie Garcia（IBM）</p><p data-pid=\"md31EXXa\">IBM 公开表示：2026 年将是一个关键节点——第一次出现这样一种情况：某台 [量子计算机] 能在某个问题上“总体上优于”任何纯经典方法（也就是超过传统计算机能做到的最好水平）。</p><p data-pid=\"jeRkTQ2p\">IBM 认为，这一里程碑将有机会推动药物研发、材料科学、金融优化等领域的突破——这些行业普遍面临“组合爆炸”式的复杂难题。</p><p data-pid=\"RTZE8R53\">IBM 战略增长与量子合作伙伴负责人 Jamie Garcia 说：“我们已经从理论阶段走出来了。今天我们正在用业内最先进的量子计算机做真实用例。虽然还不是生产级规模的问题，但这些都是‘价值信号’：随着量子技术成熟，价值会继续提升。我们在药物研发、材料发现、以及金融和物流优化的研究上都看到非常快的进展。”</p><p data-pid=\"UdfdMTbS\">她还强调了 AI 与量子计算的融合：像 [Qiskit Code Assistant] 这样的工具，已经在帮助开发者自动生成量子代码。IBM 也在打造一种“以量子为核心的超级计算架构”，把量子计算与高性能计算（[HPC]）和 AI 基础设施结合起来，并由 [CPU]、[GPU] 等多种计算引擎协同支持。</p><p data-pid=\"p3Lp9SO4\">此外，AMD 与 IBM 正在探索如何把 AMD 的 CPU、GPU 和 [FPGA] 与 IBM 的量子计算机结合，以更高效地加速一类新兴算法——这些算法在“只靠经典计算”或“只靠量子计算”的单一范式下都还难以触达。</p><p data-pid=\"9OkEU5hf\">•\t硬件效率将成为新的“规模化”策略 | Kaoutar El Maghraoui（IBM）</p><p data-pid=\"B3HbpYqr\">El Maghraoui 认为：2026 年会出现“前沿模型 vs. 高效模型”两条路线并行的格局。一边是拥有数十亿参数的超大模型；另一边是更“硬件友好”的高效模型，它们能在相对普通的加速器上跑得更好、更省资源。</p><p data-pid=\"oVuLr_AY\">她的核心判断是：“我们不能无限制地继续堆算力，所以行业必须改为‘规模化效率’。”</p><p data-pid=\"KDOM4fNz\">2025 年，算力需求超过供应链能力，迫使企业围绕算力可得性做优化。硬件策略因此分化：要么用更强的“超级芯片”做纵向扩展（scale-up，例如 H200、B200、GB200 等）；要么做横向扩展（scale-out），通过边缘侧优化、量化（[quantization]）突破和小型大语言模型（[small LLMs]）来降低成本。</p><p data-pid=\"MMVB5CZH\">这也意味着“边缘 AI（[edge AI]）”会从口号变成现实。并且硬件竞赛不再只看 GPU：GPU 仍是主力，但 ASIC 加速器、chiplet 设计、模拟推理、甚至量子辅助优化都会走向成熟。她还预测：可能会出现专为智能体任务设计的新型芯片。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Ej-6BzMp\"><b>不止是模型：AI 系统与智能体的崛起</b></p><p data-pid=\"xi1BwaQ2\">•\tAI 的胜负将由“系统”决定，而不是模型 | Gabe Goodhart（IBM）</p><p data-pid=\"A0azW7Xf\">Goodhart 认为：到 2026 年，AI 模型本身会逐渐“商品化”。也就是说，买方可以更容易地选择适合自己场景的模型，模型不再是最核心的差异点。</p><p data-pid=\"Unnrf6F7\">真正决定竞争力的是“系统层面的编排（[orchestration]）”：把不同模型、工具与工作流组合起来，形成可持续运转的整体。</p><p data-pid=\"8r7y00tn\">他解释说：“当你在用 ChatGPT 时，你其实不是在和某个‘模型’对话，而是在和一个软件系统互动。它包含网页搜索等工具、各种脚本化任务，通常还有一个智能体循环（[agentic loop]）。”</p><p data-pid=\"P-DnYozU\">他预测会出现更“协作式的模型路由（[model routing]）”：小模型负责大量日常工作，必要时把复杂任务交给大模型。谁能把这种系统级集成做得最好，谁就更可能塑造市场。</p><p data-pid=\"nVvERJH8\">•\t“智能体式解析”将取代单体文档处理 | Brian Raymond（Unstructured）</p><p data-pid=\"xB0IO2vl\">Raymond 认为：2026 年的文档处理不会再是“一个模型吃掉整份文件”的单体做法。相反，系统会把文档拆解成不同元素（标题、段落、表格、图片等），再把每一类元素交给最擅长理解它的模型。</p><p data-pid=\"Fi0nhKlQ\">这样做能在降低计算成本的同时提升准确度，因为每个元素都由更合适的“模型类别”来解读。Unstructured 的业务是把 [非结构化数据（unstructured data）] 转成适合 AI 使用的“干净数据”。</p><p data-pid=\"SF6FyaI_\">他把这个趋势称为“合成解析流水线（synthetic parsing pipelines）”：最终形成一层“灵活的重建层”，在尽量保持原文结构、来源链路（[lineage]）与语义一致性的前提下，重建出更精确的文档表示。</p><p data-pid=\"TSW6skfd\">Unstructured 近期把 IBM Research 的 [Docling] 的目标检测能力（[object detection]）整合进来，以提高整体准确率。</p><p data-pid=\"7z9wnjg-\">下一步是“智能体式解析（agentic parsing）”：你可以把它想成一支由 AI 智能体组成的“领域专家团队”，持续扫描企业语料库，建立更深的语义画像，并在一个多维图（[multidimensional graph]）上为所有内容建立索引。这样一来，搜索可以同时跨越意图、结构、内容与元数据，让原本难以触达的内部知识能实时被调用。</p><p data-pid=\"iew-DoGK\">这些进展共同指向一种“更自觉”的企业数据系统，为 2026 年更快决策与更智能的工作流打基础。</p><p data-pid=\"ImAq-IbR\">•\t跨部门、跨渠道的“超级智能体”将出现 | Chris Hay（IBM）</p><p data-pid=\"frjgVHYS\">Hay 表示，我们已经走出“单一用途智能体”的时代。2024 年的智能体往往很小、很专门：写邮件的、做调研的。如今随着推理能力增强，智能体能规划、调用工具并完成更复杂任务。</p><p data-pid=\"vFl-0tGb\">他把下一阶段称为“超级智能体（super agent）”。</p><p data-pid=\"EqJlQxa4\">他预测：2026 年会出现“智能体控制平面（agent control planes）”和“多智能体仪表盘（multi-agent dashboards）”。你从一个入口启动任务，智能体就能在多个环境里协作——浏览器、编辑器、收件箱——而你不必再分别管理一堆工具。</p><p data-pid=\"8xjb6FRp\">界面（UI）也会更“可变形”：不再是静态软件，而是可按场景自适应的应用，让每个用户都像“AI 作曲家”。Hay 说：“谁掌握了超级智能体的入口，谁就更可能塑造市场。”</p><p data-pid=\"-Y-cN3pM\">•\tAI 智能体将从“个人助手”变成“AI 统筹的团队”，普通人也会成为智能体构建者 | Kevin Chung（Writer）</p><p data-pid=\"YaRUvej9\">Writer 的首席战略官 Kevin Chung 认为：2026 年会由三股趋势推动 AI 走出“个人效率工具”阶段。</p><p data-pid=\"4purKkrg\">第一，AI 会从个人使用转向“团队与工作流编排（workflow orchestration）”：跨部门连接数据，把项目从想法推进到落地。</p><p data-pid=\"0d8OpWRY\">第二，推理能力增强后，系统不只是“照指令做”，还会更主动地预测需求。这会把 AI 从被动助手变成能参与问题解决与决策的合作伙伴。</p><p data-pid=\"MKfv5o-v\">第三，也是最令人兴奋的一点：智能体的创建会被“平民化”。设计和部署智能体的能力，将从开发者扩展到普通业务人员。技术门槛下降后，最能解決真实问题的人会驱动一波新创新。</p><p data-pid=\"kls17DHo\">•\t在工程与 IT 中，AI 将从工具变成队友 | Ismael Faro（IBM Research）</p><p data-pid=\"qkioJCsK\">Faro 认为：2025 年的智能体系统，让大语言模型与编程助手变得更“动态”。而这只是开始。</p><p data-pid=\"CaUDo7Nm\">他预测软件实践会从“氛围式写代码（vibe coding）”走向一种更结构化的方法：用户先定义目标，再进行验证；一组自主智能体负责执行，并在关键节点请求人类审批。</p><p data-pid=\"PFz4PMZ9\">他把这种工作方式称为“目标-验证协议（Objective-Validation Protocol）”。这会催生新的“智能体运行时（agentic runtimes）”，用于执行复杂工作流并提供控制机制；智能体的行为也会从静态、写死的输出，转向在策略驱动的架构（policy-driven schemas）下动态适配，在灵活性和可控性之间取得平衡。</p><p data-pid=\"_iOgKvYm\">他进一步提出一种“智能体操作系统（Agentic Operating System, AOS）”的概念：它将标准化智能体群（agent swarms）的编排、安全、合规与资源治理。只要企业在安全、资源管理、合规和运维上保持纪律，就能利用“专家型系统智能体”在关键任务计算中重新获得领导力。</p><p data-pid=\"U7iZL9T8\">•\t多模态 AI 将像人类一样“理解世界” | Aaron Baughman（IBM）</p><p data-pid=\"9PnrgKoQ\">Baughman 表示，生成式模型需要具备多感官能力（[multimodal AI]），才能像人类一样理解世界，甚至捕捉我们容易忽略的信号。</p><p data-pid=\"Ipae0q2y\">他在体育领域使用多模态 AI，并参与 IBM 与美国网球公开赛（US Open）、ESPN Fantasy Football、以及高尔夫大师赛（The Masters）的相关项目。</p><p data-pid=\"z22wDLzP\">他认为 2026 年我们会更常看到多模态 AI：它能把语言、视觉与行动串联起来，在一个更接近现实世界的环境里“感知并行动”。未来甚至可能出现“多模态数字员工”，能够自主完成多种任务，例如帮助解读复杂的医疗案例。</p><p data-pid=\"XIKkN7lJ\">但自主并不意味着取消人类监督。他强调“人类参与回路（human-in-the-loop）”的重要性：人类可以不断微调与让AI 改变技能边界。</p><p data-pid=\"P1VBUOiO\">•\t智能体与智能体之间的通信将走向主流 | Kate Blair（IBM Research）</p><p data-pid=\"YbD8jhfn\">距离 Anthropic 推出 [MCP] 还不到一年，IBM 也有 [ACP]，Google 则有 [A2A]。Blair 认为：如果 2025 年是“智能体之年”，2026 年将是多智能体系统进入生产环境的一年。关键在于协议的成熟与趋同。</p><p data-pid=\"Yl9emcTt\">她领导 IBM 的 BeeAI 与 Agent Stack 项目，这两个项目都已贡献给 Linux Foundation。她提到 Linux Foundation 近期宣布成立 Agentic AI Foundation，并接收了 Anthropic 贡献的 MCP。她认为开放治理的社区标准，将释放更多创造力、创新和解决方案。</p><p data-pid=\"Mv4e2N5L\">她表示 A2A 项目即将迎来首次重要发布，而且 A2A 与 MCP 正在合作，尝试用“一张统一卡片（unified card）”描述实体：无论该实体在 MCP 中是工具/资源，还是在 A2A 中是智能体。</p><p data-pid=\"qNSCeHLM\">这类统一描述会推动互操作性（[interoperability]），让不同体系的智能体共享注册表、发现机制和使用方式。她期待 2026 年看到更多“广泛落地的生产级用例”，让智能体真正能和智能体对话协作。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"whROlxqj\"><b>企业AI：将被重新被发明</b></p><p data-pid=\"51oNhzYF\">•\tAI 将带来真实 ROI……并且要“安全地做到” | David Lanstein（Atolio）</p><p data-pid=\"ZcOoBfyn\">Atolio 为企业提供安全、私有的 AI 平台。他们观察到：客户既想快速试验新技术，又担心失去对 AI 数据的控制。</p><p data-pid=\"Mu7q_qe6\">Lanstein 认为：明年的关键趋势，是企业从“尝鲜与兴奋”转向“私有且安全的部署”，同时对 ROI 提出更现实、更严格的要求。</p><p data-pid=\"6ErzQMbZ\">他指出，数据泄露持续侵蚀企业信任，而生产环境中“提示注入攻击（[prompt injection]）”仍是未完全解决的难题。因此，“数据主权（[data sovereignty]）”与一等的权限管理（[first-class permissioning]）将成为不可谈判的要求。</p><p data-pid=\"NqR3VSr2\">他认为答案不在“更大的模型”，而在“更聪明的数据”：用高质量、带权限约束的结构化数据喂给模型，才能产出更智能、更相关、更可信的回答。</p><p data-pid=\"ghNlkntB\">他对未来的兴奋点在于：要实现这一点，必须出现多方面的融合——对安全的重新重视、更懂上下文与用户需求的解决方案，以及 MCP 生态的持续演进。</p><p data-pid=\"U0gCBt37\">•\t智能体普及将迫使企业重做“身份与访问管理”策略 | Shlomi Yanai（AuthMind）</p><p data-pid=\"4CTsJSIH\">AuthMind 专注解决网络安全里的难题：让企业近实时地看清每个“身份”的访问权限与活动，从而在攻击发生前阻断。</p><p data-pid=\"hASvwg7g\">Yanai 预测：未来几年，组织里的“非人类身份”（例如 AI 智能体等）数量将显著超过人类用户。</p><p data-pid=\"jHiL1JlW\">这会重塑企业安全与治理，并上升为董事会级别的议题：企业必须确保每个智能体都被记录在案，并按照预期方式行动，同时提升生产力与安全性。</p><p data-pid=\"gpNcYQHr\">因此企业要回答三个问题：我们是否知道组织里存在的每一个 AI 智能体？它们在访问什么？当它们访问系统时，我们是否确信它们做的事情是正确且合规的？</p><p data-pid=\"9k_ytPsX\">对所有“身份”（不仅是人类，也包括 AI 智能体）进行发现、观察与防护，将成为负责任、安全采用 AI 的基础能力。</p><p data-pid=\"M6dl3bSU\">•\t“机器自动化”将真正成型 | Steven Aberle（Rohirrim）</p><p data-pid=\"raY_YnKp\">Aberle 认为：明年最强的趋势，是 AI 开始处理复杂的企业工作流——不再只是概念验证，而是能端到端执行深度任务的可靠系统。</p><p data-pid=\"AOeovS3E\">生成式与智能体系统将能理解意图，在庞大的网络中搜索信息，选择合适工具，并持续推进直到达成结果。他认为这会催生全新的平台类别，甚至新的市场，因为我们不再受限于单个人或单个应用能“记住”的东西。</p><p data-pid=\"JySYPfBq\">他强调 Transformer 架构的作用：它让系统能够吸收海量文本、代码与历史，并在有效护栏（[guardrails]）下给出更细腻、更精准的回应。我们正在进入一个时代：AI 不仅回答问题，还会直接影响结果。</p><p data-pid=\"qP8V-Ymq\">以采购（procurement）为例，这意味着能追踪需求、提前发现缺口并给出修复建议，让专业人士更快、更清晰地做出更公平、更高效的决策。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3pSTUVec\"><b>开源塑造未来</b></p><p data-pid=\"7QQsOwyy\">•\t开源 AI 将继续在“规模与国家/地区”上多元化 | Matt White（PyTorch Foundation）</p><p data-pid=\"_wXcqxt4\">PyTorch Foundation 执行董事 Matt White 表示：行业已验证“小而专”的模型会成为核心。蒸馏（[distillation]）、量化（quantization）和更省内存的运行时（memory-efficient runtimes）推动推理（[inference]）下沉到边缘集群与嵌入式设备，背后驱动因素包括成本、延迟与数据主权。</p><p data-pid=\"ueUctCDD\">他认为 2026 年开源 AI 的三股关键力量是：</p><p data-pid=\"Iq8JC2HL\">（1）全球模型多元化——尤其是来自中国的多语言与推理强化模型发布；</p><p data-pid=\"0auReaZW\">（2）互操作性成为竞争轴——框架与运行时围绕共享标准对齐；</p><p data-pid=\"mBEMjwUF\">（3）治理更“硬”——安全审计的发布流程与透明的数据管线。</p><p data-pid=\"7bzwxmCY\">随着智能体系统出现，PyTorch 作为训练、仿真与编排的通用基底角色会更重要。开发者需要多模态推理、记忆组件与安全对齐评测的灵活工具，而这正是开源的优势所在。</p><p data-pid=\"DRtdCnG1\">•\t规模化扩张会受限，实体 AI 将加速 | Peter Staar（IBM Research Zurich）</p><p data-pid=\"IIqRWBB-\">Staar 预测：2026 年 AI 研究会更偏向“可触摸的现实”。他认为机器人与“实体AI（physical AI）”会明显升温。</p><p data-pid=\"Ew8VTRLR\">虽然大语言模型仍会主导，但单纯扩大规模带来的边际收益在下降。“人们开始厌倦规模化扩张，转而寻找新想法。”</p><p data-pid=\"NIQElpAE\">他看好能在真实环境中感知、行动并学习的 AI——这会成为下一轮创新的技术难点与前沿。</p><p data-pid=\"Dd3sPJ19\">同时，开源仍会影响竞争格局。他用一句话概括：“领先者更想封闭，追赶者更倾向开放。”</p><p data-pid=\"-t_rKGwT\">他还提到 NVIDIA 正在推动开放生态——因为它的商业模式更依赖 GPU 的广泛采用，而不是把模型做成私有壁垒。随着 AI 从屏幕走向现实世界，合作可能会更快加速。</p><p data-pid=\"8fXpitU0\">•\tAI 将从“巨型通用模型”转向“领域推理系统” | Anthony Annunziata（IBM / AI Alliance）</p><p data-pid=\"F0YtXGlM\">Annunziata 认为：开源 AI 在 2024 年末迎来高光（例如 Meta 的 [Llama]）。此后生态继续扩张，小而专的领域模型表现越来越强，例如 IBM 的 Granite、Ai2 的 [Olmo 3]，以及 DeepSeek 的模型。这个趋势会在 2026 年加速。</p><p data-pid=\"g5ImzYz7\">他预测我们会看到更小的推理模型，同时具备多模态能力，也更容易为特定领域做微调（[finetuning]）。强化学习（[reinforcement learning]）等方法的进步，也会让企业更愿意采用开源 AI，从而进一步提升对“小而高效模型”的需求。</p><p data-pid=\"qdlWrNQc\">他强调：未来不会是“一招鲜吃遍天”的巨型模型，而是多个更小、更高效、在特定场景下甚至更准确的模型组合。</p><p data-pid=\"vAfwEgKw\">在智能体方面，他认为通用智能体不够用：法律、医疗或制造业需要“领域增强”的模型与架构，能反映专业工作流。</p><p data-pid=\"6eIRfsoN\">他主张开源是“必要条件”：如果未来是自动化 AI 能力大量承担工作，那么交互标准必须开放，否则就会出现割裂的资讯孤岛，或者赢家通吃的平台垄断。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pPTY0Rt-\"><b>把“信任”当成战略</b></p><p data-pid=\"j0EiQZKW\">•\t去中心化 AI 将走出原型阶段 | Tomás Hernando Kofman（Not Diamond）</p><p data-pid=\"nAuJT3hW\">Kofman 认为：企业“钟形曲线中间的大多数”会从实验走向生产级系统。</p><p data-pid=\"pLPBnuVj\">但转型不容易：AI 团队需要在评估（evaluation）、可靠性（reliability）、优化（optimization）、效率、可扩张性（scalability）和可维护性（maintainability）上投入大量资源。</p><p data-pid=\"NxKURAPO\">如果不投入，就会陷入“卡住”的循环：能力不足导致系统没用，而没用又让企业更难争取资源继续投入。</p><p data-pid=\"IbxW6Vsj\">在前沿领域，挑战又不同。他认为将面临三大难题：持续学习（continuous learning）、记忆（memory）与可扩张性。因此，我们在模型架构层面和智能体系统层面都会继续投入。</p><p data-pid=\"S2fqE11S\">他预测会出现“去中心化的智能体网络”：智能体彼此学习、共享信息，并在很长时间尺度上保留重要知识（数周、数月甚至数年）。这类系统能更持续地自我改进，也允许智能体与模型精进更高效、更专注的能力。</p><p data-pid=\"glMyIEL9\">•\t协作式防御将对抗 AI的武器化 | Ben Colman（Reality Defender）</p><p data-pid=\"PM0uzGCc\">Reality Defender 提供深度伪造（[deepfake]）检测工具。Colman 表示：在深度伪造与“被武器化的 AI”危机面前，没有任何单一机构能独自解决问题。尤其在今年末尾出现了新的威胁向量，例如“被武器化的 AI 智能体”。</p><p data-pid=\"ygkXDDGJ\">因此，战略合作伙伴关系是必要的——不仅为了增强防御，也是为了预判下一波更复杂的模型与行业特定漏洞。</p><p data-pid=\"3At6r6Y2\">他观察到安全正在走向“分层防护”：把多种防线叠加起来，一个层面的缺口可以被另一个层面覆盖，从而形成更难被突破的整体。</p><p data-pid=\"Y0Ck3LP2\">他认为下一阶段的关键是“集成”：当这些新技术与检测平台耦合，就能形成“纵深防御（defense in depth）”策略，使组织在所有媒体形式、入口点、用例和工具链上都受到保护，而不是依赖单点方案。</p><p data-pid=\"dxXPlqZM\">•\tAI 韧性将成为关键能力 | Anthony Marshall（IBM Institute for Business Value, IBV）</p><p data-pid=\"0XvE5-ca\">Marshall 表示：组织不能承受 AI 项目被打断，但企业能控制的因素有限。因此，“AI 主权（AI sovereignty）”——即在不依赖外部实体的情况下治理 AI 系统、数据和基础设施——正在变成关键任务。</p><p data-pid=\"7GnDQ1mt\">IBV 的调研显示：93% 的受访高管认为，到 2026 年必须把 AI 主权纳入商业战略。这不是再“可选项”，而是实质性风险管理。</p><p data-pid=\"7JhPUwN7\">一半高管担心对特定地区算力资源过度依赖（在中东和亚太尤为明显），因为这会带来数据泄露、数据访问受限、以及知识产权被盗等风险。</p><p data-pid=\"BYJg7TyC\">透明与信任仍是优先事项：监管者和消费者都要求组织解释 AI 智能体是如何得出某个结论。企业必须设计能“展示推理过程”的智能体，即使输出非常复杂。</p><p data-pid=\"XZc6nsN4\">为此，企业需要通过“模块化”构建主权：构建一个让工作负载、数据和智能体能在可信地区与可信供应商之间切换的AI 环境。</p><p data-pid=\"ecZxnwJc\">最后，持续监控也必不可少，用于在 [模型漂移（model drift）] 影响性能或引入偏差（bias）之前及时发现并纠正。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fBtliXSl\">文末：名词与机构简明解释（按出现顺序）</p><p data-pid=\"u2z0MUoD\">[AI]：人工智能。文中主要指生成式 AI 与“智能体系统”。</p><p data-pid=\"PabgYSxQ\">[推理模型 / reasoning model]：更强调“多步推理、计划与自我校验”的模型类型。</p><p data-pid=\"EdEbVln-\">[智能体 / agent / agentic]：能自主规划、调用工具、分解任务并在多步骤中推进目标的 AI 系统。</p><p data-pid=\"BdkM6uUK\">[IBM Think]：IBM 的内容/观点平台与专栏。</p><p data-pid=\"5JbbuhN7\">[DeepSeek-R1]：来自中国前沿实验室的推理模型（文中作为例子提及）。</p><p data-pid=\"OHMviMLW\">[Claude]：Anthropic 公司的 AI 助手/模型系列。</p><p data-pid=\"03lUxO2j\">[Granite 3.0]：IBM 的 Granite 系列模型/版本（文中作为例子提及）。</p><p data-pid=\"gXKjfzx5\">[MCP]：Anthropic 推出的一个智能体/工具交互协议（Model Context Protocol 的常用简称）。</p><p data-pid=\"CcmlrWaJ\">Sam Altman：OpenAI 的领导者之一（文中提及其对 MCP 的认可）。</p><p data-pid=\"jBSxOatQ\">[GPU]：图形处理器，广泛用于 AI 训练与推理。</p><p data-pid=\"caP6kD8Z\">[ASIC]：专用集成电路，面向特定任务定制的芯片。</p><p data-pid=\"gUipFtMy\">[chiplet]：把多个小芯片模块化组合的设计方式。</p><p data-pid=\"hMzAdev3\">[analog inference]：模拟电路/模拟计算用于推理，以提升能效（概念性描述）。</p><p data-pid=\"VRkSbGpe\">[quantum-assisted optimizers]：借助量子计算或量子思想辅助的优化器/优化方法。</p><p data-pid=\"o4WEwTYd\">[ROI]：投资回报率（Return on Investment）。</p><p data-pid=\"fDS-sBzx\">[AI sovereignty]：AI 主权：在数据、模型、基础设施等方面保持可控与可治理。</p><p data-pid=\"wfbWdP_P\">[量子计算机]：利用量子力学特性进行计算的计算机。</p><p data-pid=\"Jnp-0C2W\">[Qiskit Code Assistant]：IBM 相关的量子开发辅助工具，用于生成/辅助量子代码。</p><p data-pid=\"t0I0hAO_\">[HPC]：高性能计算（High-Performance Computing）。</p><p data-pid=\"NoKeeYaX\">[CPU]：中央处理器。</p><p data-pid=\"-_2r-Iv0\">[FPGA]：现场可编程门阵列，可在硬件层面重新配置。</p><p data-pid=\"rt1KrzBl\">AMD：半导体公司，生产 CPU、GPU 等。</p><p data-pid=\"UGTwQ8CA\">[edge AI]：在边缘设备/边缘服务器上运行的 AI（不依赖远端云端）。</p><p data-pid=\"fc8SdKwv\">[quantization]：量化：用更低精度表示权重/激活以降低算力与内存成本。</p><p data-pid=\"kJ5nfPT3\">[LLM]：大语言模型（Large Language Model）。</p><p data-pid=\"8eiO0Y9t\">[orchestration]：编排：把模型、工具、流程组合成可运行的系统。</p><p data-pid=\"PpDXYA3X\">[agentic loop]：智能体循环：规划-执行-评估-再规划的多步闭环。</p><p data-pid=\"4IO93efP\">[model routing]：模型路由：按任务把请求分配给不同模型。</p><p data-pid=\"JAom34u-\">Unstructured：公司/项目名称，提供把非结构化数据转为可用数据的能力。</p><p data-pid=\"fzjqG4LV\">[unstructured data]：非结构化数据，如文档、PDF、图片、邮件等。</p><p data-pid=\"jz0RdWNd\">[Docling]：IBM Research 相关的文档解析/理解技术（文中提及其目标检测能力）。</p><p data-pid=\"u-6IxT1E\">[object detection]：目标检测：识别图片/页面中对象的位置与类别。</p><p data-pid=\"7VQLz1HD\">[multidimensional graph]：多维图结构，用于表达复杂关系与多种索引维度。</p><p data-pid=\"p2K8gskd\">Writer：企业 AI 平台公司（文中作为受访者公司）。</p><p data-pid=\"H0-yNQU5\">[human-in-the-loop]：人类参与回路：关键步骤由人类审核/干预。</p><p data-pid=\"PgVuD5Fd\">[vibe coding]：较随意、依赖感觉的写代码方式（文中用来对比更结构化的方式）。</p><p data-pid=\"O9GQ-mzs\">Objective-Validation Protocol：文中提出的工作方式：先设目标再验证，由智能体执行。</p><p data-pid=\"IMoozsW5\">[AOS]：Agentic Operating System：用于管理智能体群的“操作系统式”框架概念。</p><p data-pid=\"15AL8xkJ\">[multimodal AI]：多模态 AI：同时处理语言、图像、音频、视频等多种信息。</p><p data-pid=\"VMn7-6wi\">Anthropic：AI 公司，推出 Claude 与 MCP。</p><p data-pid=\"YTXtjHTS\">[ACP]：IBM 提及的智能体/协议相关项目缩写（文中作为并列例子）。</p><p data-pid=\"2ACDauct\">Google [A2A]：Google 的 agent-to-agent（智能体到智能体）相关项目缩写。</p><p data-pid=\"0ubchVXO\">Linux Foundation / Agentic AI Foundation：Linux 基金会及其相关的智能体 AI 基金会项目（文中提及）。</p><p data-pid=\"Jj3jRl8f\">[interoperability]：互操作性：不同系统/协议之间能协同工作。</p><p data-pid=\"WAcJIoQC\">Atolio：企业 AI 平台公司（文中受访者公司）。</p><p data-pid=\"oeYN4bPN\">[prompt injection]：提示注入：通过恶意提示诱导系统泄露信息或执行不当行为。</p><p data-pid=\"qBkENwQe\">[data sovereignty]：数据主权：数据的存储、访问与治理可由组织自主掌控。</p><p data-pid=\"lE-Ixjoa\">AuthMind：网络安全公司（文中受访者公司）。</p><p data-pid=\"EU4SQtF-\">Identity &amp; Access Management（IAM）：身份与访问管理：管理账号、权限与访问审计的体系。</p><p data-pid=\"LBSw3N-C\">Rohirrim：企业工作流/采购领域的 AI 创业公司（文中受访者公司）。</p><p data-pid=\"_ZUiMycy\">Transformers：深度学习架构，现代大语言模型的基础之一。</p><p data-pid=\"7j-tFd6_\">[guardrails]：护栏：对模型/系统进行约束以降低风险、提高可靠性。</p><p data-pid=\"qjNzZ-Gt\">PyTorch Foundation：PyTorch 开源生态的基金会组织。</p><p data-pid=\"0ToZU2tT\">[distillation]：蒸馏：把大模型知识压缩到小模型。</p><p data-pid=\"RMUfbtDP\">[inference]：推理：模型在部署阶段生成输出的过程。</p><p data-pid=\"Y07Z9p2r\">[physical AI]：实体AI：能在现实世界中感知、行动与学习的 AI（常与机器人相关）。</p><p data-pid=\"NMwv5bB0\">NVIDIA：半导体公司，GPU 生态的重要推动者。</p><p data-pid=\"HIX78URd\">Meta [Llama]：Meta 的开源/开放权重模型系列 Llama。</p><p data-pid=\"lxNk_Ed1\">Ai2 [Olmo 3]：Allen Institute for AI（Ai2）的模型系列之一（文中提及）。</p><p data-pid=\"5i6kpc4q\">[finetuning]：微调：在特定数据上继续训练以适配特定任务。</p><p data-pid=\"clV_VBZ9\">[reinforcement learning]：强化学习：通过奖励信号优化行为/策略。</p><p data-pid=\"wysj78gW\">AI Alliance：IBM 等参与的 AI 联盟组织（文中提及）。</p><p data-pid=\"yArv8f44\">Not Diamond：多模型 AI 基础设施平台公司（文中受访者公司）。</p><p data-pid=\"hGT4YUo4\">Reality Defender：提供深度伪造检测的网络安全公司（文中受访者公司）。</p><p data-pid=\"h8x1kYT7\">[deepfake]：深度伪造：用生成式模型合成的音视频/图像伪造内容。</p><p data-pid=\"5OWfKPKj\">defense in depth：纵深防御：多层防线叠加的安全策略。</p><p data-pid=\"U3zuz_KF\">IBM Institute for Business Value（IBV）：IBM 的商业价值研究机构，发布调研与洞察。</p><p data-pid=\"W2VWVSCq\">[model drift]：模型漂移：数据分布变化导致模型性能随时间下降的现象。</p><p data-pid=\"YqAtrYsw\">注：本文为面向非技术读者的易读型译写。为保持专业准确性，关键术语在首次出现时用方括号标注，并在文末集中解释。</p>",
+        "article_type": "normal",
+        "is_labeled": false,
+        "visited_count": 153,
+        "type": "article",
+        "author": {
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 2,
+          "avatar_url": "https://picx.zhimg.com/50/v2-5bf98d91b86dadbf7f799689276fbccd_l.jpg?source=b6762063",
+          "is_following": false,
+          "id": "a76c8b23377af375d16314cf2acc0a5a",
+          "url": "https://api.zhihu.com/people/a76c8b23377af375d16314cf2acc0a5a",
+          "user_type": "people",
+          "url_token": "te-li-du-xing-de-mao-67-66",
+          "name": "特立独行的猫",
+          "headline": "",
+          "is_followed": false
+        },
+        "comment_permission": "all",
+        "updated": 1768652747,
+        "excerpt_new": "2026年将重塑AI与科技世界的趋势IBM解读（简体中文译文） 原文：The trends that will shape AI and tech in 2026（IBM） 发布时间：2026年1月1日 作者：Anabelle Nicoud（IBM Think 专栏作者） 本文由ChatGPT+特立独行的猫（本人）联合翻译。 在科技行业里，一年往往像其他行业的十年。 想想看：一年前，我们还在讨论 ChatGPT 连“strawberry”里有几个字母“r”都数不清。来自中国前沿实验室的推理模型（例如 [DeepSeek-R1]）…",
+        "preview_type": "default",
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995952569827222982}",
+      "attached_info": "CoYFCPGU2uzeg8/CkgEQBxoJMjY5MTc2ODA1IN/8rcsGKAEwAEBUSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AEoiChdUU19TT1VSQ0VfV0FSTVVQX1JVQ0VORRIBMBgAIAA6AGIgZjk4MGI2MTA1YzE1YTc4ODY2MWVkN2E5NjRiOGQzMmRyEzE5OTU5NTI1Njk4MjcyMjI5ODKqAQlyZWNvbW1lbmTCASBhNzZjOGIyMzM3N2FmMzc1ZDE2MzE0Y2YyYWNjMGE1YfIBCggMEgZOb3JtYWzyASgIChIkMDk2N2VjOTYtZjI5YS00ODljLWEyYTEtNDBlYTMzYTNkOGYz8gEGCAsSAjE1ggIAiAK31YqRvTOSAiBhNzZjOGIyMzM3N2FmMzc1ZDE2MzE0Y2YyYWNjMGE1YZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDLoAgP6AgtOT1JNQUxfRkxPV4oDIDQ3MTNkZWJjZWVmMTRmNzFiN2U4ZWMyZTRmYjQxYTQxmgMNCgJ2MhAAGgVvdGhlcqgDmQHYAwDqAwt0ZXh0X3J1Y2VuZfoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOBzgX0/gQUAAAAAAAAAAIkF2O6FI5Xdsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGVqgGAZICLgoJMjY5MTc2ODA1EhMxOTk1OTUyNTY5ODI3MjIyOTgyGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "85_1768757046.132",
+      "type": "feed",
+      "offset": 85,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757046,
+      "updated_time": 1768757046,
+      "target": {
+        "excerpt": "干战斗修女！干女机械神甫！干女行商浪人！干女审判官！干女星界军军官！干寂静修女！干刺客庭女刺客！干法务部女条子！干行政部女官员！干星语厅女星语者！干女导航者！干巢都黑帮女性！干女禁军！干白豆芽！干黑豆芽！干活圣人！干色孽神选！干色孽恶魔亲王！干钛妹！干！！！！！不管你们来多少人，我都是一样的屮啊！！！ 打绿皮！踩屁精脚趾头然后看它哭最后把它塞进坦爆小子的炮筒里！一拳把绿皮小子揍得满面桃花开然后把…",
+        "question": {
+          "type": "question",
+          "comment_count": 0,
+          "bound_topic_ids": [
+            83330,
+            732575,
+            2792959
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "title": "如果你成为了《战锤40000》里的行商浪人，你会做什么？",
+          "is_following": false,
+          "id": "634813235",
+          "answer_count": 0,
+          "follower_count": 0,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/634813235",
+          "author": {
+            "id": "a75ec9b2e5199c131e7f8c671c0be546",
+            "user_type": "people",
+            "avatar_url": "https://picx.zhimg.com/50/v2-54d75634dceecf4a2ef5c829a0df6480_l.jpg?source=b6762063",
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/a75ec9b2e5199c131e7f8c671c0be546",
+            "url_token": "tai-shi-gong-er-shi",
+            "name": "太史公二世",
+            "headline": "相看气息望君（莫塔里安）怜，谁（死亡寿衣）能含羞不自前？",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 2983
+          },
+          "created": 1702530955,
+          "excerpt": ""
+        },
+        "comment_count": 85,
+        "preview_type": "default",
+        "segment_infos": [
+          {
+            "pid": "A_yhUhAS",
+            "text": "干战斗修女！干女机械神甫！干女行商浪人！干女审判官！干女星界军军官！干寂静修女！干刺客庭女刺客！干法务部女条子！干行政部女官员！干星语厅女星语者！干女导航者！干巢都黑帮女性！干女禁军！干白豆芽！干黑豆芽！干活圣人！干色孽神选！干色孽恶魔亲王！干钛妹！干！！！！！不管你们来多少人，我都是一样的屮啊！！！",
+            "marks": [
+              {
+                "start_index": 73,
+                "end_index": 79,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994969929175277977"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 81,
+                "end_index": 86,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994970024155317193"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 92,
+                "end_index": 97,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994970101674431794"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "is_labeled": false,
+        "visited_count": 48177,
+        "answer_type": "normal",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1993875242800669404",
+        "author": {
+          "gender": 1,
+          "followers_count": 998,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/b043e5a2777fab5a5f5545a90ab07bb7",
+          "url_token": "xie-zhi-yuan-62",
+          "name": "怨恨锁链",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "单机游戏话题下的优秀答主",
+              "topic_names": [
+                "单机游戏"
+              ],
+              "topic_ids": [
+                1172
+              ]
+            }
+          ],
+          "is_followed": false,
+          "id": "b043e5a2777fab5a5f5545a90ab07bb7",
+          "user_type": "people",
+          "headline": "个人公众号：怨恨锁链随笔，欢迎关注喵🥰",
+          "avatar_url": "https://picx.zhimg.com/50/v2-97416ccaa80b6c99d70ccbab784f26a0_l.jpg?source=b6762063"
+        },
+        "voteup_count": 473,
+        "thanks_count": 14,
+        "preview_text": "",
+        "content": "<p data-pid=\"A_yhUhAS\">干战斗修女！干女机械神甫！干女行商浪人！干女审判官！干女星界军军官！干寂静修女！干刺客庭女刺客！干法务部女条子！干行政部女官员！干星语厅女星语者！干女导航者！干巢都黑帮女性！干女禁军！干白豆芽！干黑豆芽！干活圣人！干色孽神选！干色孽恶魔亲王！干钛妹！干！！！！！不管你们来多少人，我都是一样的屮啊！！！</p><p data-pid=\"TC75gfJ9\">打绿皮！踩屁精脚趾头然后看它哭最后把它塞进坦爆小子的炮筒里！一拳把绿皮小子揍得满面桃花开然后把他掉了一地的大牙用锤子砸稀碎！指着碎骨者告诉他亚瑞克政委从未把你当成过对手，因为你不配！解血斧氏族的军靴鞋带！偷死颅氏族的战利品！砸断高夫氏族的砍刀！毒死蛇咬氏族的毒蛇！扎爆邪日氏族的轮胎！炸了恶月氏族的军火库！连史咕嗝我都给它做成蘑菇汤！</p><p data-pid=\"_620xvxA\">灭绝所有弱小异形种族！赫鲁德？灭！蛇人？灭！拉克戈尔？灭！打不过主流异形我还打不过你吗？什么这那的？让我看到你，蛋都给你摇散黄！你没实力还敢把自己势力暴露在我眼里？我必须告诉告诉你恐怖直立猿当年是怎么成为超越食物链的究极生物的！！</p><p data-pid=\"GJP3Vuq7\">抢！混沌不是爱在黑市交易吗？哥们玩的就是黑吃黑！我去黑市直接平等的抢劫每一个在场的人！破财消灾，给货也行，实在不行拿枪和链锯剑抵债也成！</p><p data-pid=\"hRYr85sD\">贷！阿斯塔特战团穷，没人？找我啊！我专门给每一个缺钱的战团发钱，代价只是派两个战斗兄弟保护我欸！难道不是很划算吗！有这几位兄弟在我身边，我到底要怎么样才能被人迫害？！</p><p data-pid=\"fgyOYt9r\">以上纯属扯淡，大家切勿当真！你要是去了战锤40K还这么干，那你下一个场景肯定就是火刑架上了！</p>",
+        "favorite_count": 124,
+        "id": "1993875242800669404",
+        "updated_time": 1768156902,
+        "excerpt_new": "干战斗修女！干女机械神甫！干女行商浪人！干女审判官！干女星界军军官！干寂静修女！干刺客庭女刺客！干法务部女条子！干行政部女官员！干星语厅女星语者！干女导航者！干巢都黑帮女性！干女禁军！干白豆芽！干黑豆芽！干活圣人！干色孽神选！干色孽恶魔亲王！干钛妹！干！！！！！不管你们来多少人，我都是一样的屮啊！！！ 打绿皮！踩屁精脚趾头然后看它哭最后把它塞进坦爆小子的炮筒里！一拳把绿皮小子揍得满面桃花开然后把…",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "created_time": 1768156902,
+        "is_copyable": false,
+        "reshipment_settings": "disallowed",
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993875242800669404}",
+      "attached_info": "Cs8FCPGU2uzeg8/CkgEQBBoJNzY1MDE1MDIxIObdj8sGKNkDMFVAVUpcCh9UU19TT1VSQ0VfSE9UX0NST1NTX05FV19DT05URU5UEjNob3RfcmVjYWxsXzMwZDpuZXc3ZDptYWxlOmJpZ3lvdW5nc3RlcjrkuIDnur/ln47luIIYACAAOgBaCTEwMzM0ODA2NGIgZjk4MGI2MTA1YzE1YTc4ODY2MWVkN2E5NjRiOGQzMmRyEzE5OTM4NzUyNDI4MDA2Njk0MDSKAQk2MzQ4MTMyMzWqAQlyZWNvbW1lbmTCASBiMDQzZTVhMjc3N2ZhYjVhNWY1NTQ1YTkwYWIwN2JiN/IBCggMEgZOb3JtYWzyASgIChIkOGM3NjY1NTctYzYzZi00MWI4LWIyMzEtMTZiNmViYWUzZTIy8gEGCAsSAjE1ggIAiAK31YqRvTOSAiBiMDQzZTVhMjc3N2ZhYjVhNWY1NTQ1YTkwYWIwN2JiN5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAh9UU19TT1VSQ0VfSE9UX0NST1NTX05FV19DT05URU5U6AID+gILTk9STUFMX0ZMT1eKAyA0NzEzZGViY2VlZjE0ZjcxYjdlOGVjMmU0ZmI0MWE0MZoDDQoCdjIQABoFb3RoZXKoA7H4AtgDAOoDH2hvdENyb3NzTWVyZ2VOZXdDb250ZW50UmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACAeq1kP4EFAAAAAAAAAACJBdjuhSOV3bM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBleoBgOSAi4KCTc2NTAxNTAyMRITMTk5Mzg3NTI0MjgwMDY2OTQwNBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "86_1768757046.978",
+      "type": "feed",
+      "offset": 86,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757046,
+      "updated_time": 1768757046,
+      "target": {
+        "content": "<h2>      曾几何时我在老家有个小花园，因为喜欢养花，就楼上和楼下露台满满的种了花。至今回忆起来，还是觉得那是人生最美好的阶段之一。不过，种花时如何用肥、用药防治病虫害，确实是个小学问。</h2><p data-pid=\"Q6oFHukM\">      每当我沉浸式种花时，心思会变得简单纯净，所有工作的压力都能一扫而光。加之我从事农业植保防治工作已有 20 年，对于病虫害防治还是颇有心得。</p><p data-pid=\"jKZTLbtq\">      先给大家分享我过去在老家的花园照片，然后再把病害的防治方案写出来供大家参考。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-97496fc2d694470851e24714c359ba69_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"6000\" data-rawheight=\"4000\" data-original-token=\"v2-15c5f7e60a83b45b96492f30d4c9f607\" class=\"origin_image zh-lightbox-thumb\" width=\"6000\" data-original=\"https://pic4.zhimg.com/v2-97496fc2d694470851e24714c359ba69_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-253c1e171b05e9945e70866b7f994870_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1620\" data-rawheight=\"1080\" data-original-token=\"v2-b0491dd109022132bb36dcf346da61af\" class=\"origin_image zh-lightbox-thumb\" width=\"1620\" data-original=\"https://pica.zhimg.com/v2-253c1e171b05e9945e70866b7f994870_r.jpg\"/></figure><p data-pid=\"N6weqF81\">下面就实实在在地跟大家聊聊几种阳台花最常见的、要命的毛病怎么认、怎么救、怎么防。</p><h2><b>养花急救总原则</b></h2><p data-pid=\"MvNuQZ5c\"><b>1.</b> <b>勤观察早下手</b>：每天花一两分钟，翻翻叶子正反面，看看茎杆根部和盆土干湿。越早发现不对劲，越好治。</p><p data-pid=\"rxoh8F_W\"><b>2.</b> <b>赶紧隔离病号</b>：发现哪盆花病了，马上挪开，离其他健康的花远点，别传染。</p><p data-pid=\"oN_igskc\"><b>3.</b> <b>保持干净卫生</b>：掉下来的病叶、烂花、枯枝赶紧捡走扔掉，别堆在盆土上。</p><p data-pid=\"W7lG7vw5\"><b>4.</b> <b>工具消毒别偷懒</b>：剪过病枝烂叶的剪刀、刀子，用之前用之后，都得拿 75% 酒精擦擦，或者用火燎一下。</p><p data-pid=\"XIJV-9qK\"><b>5.</b> <b>做好记录心里有数</b>：啥时候发现毛病的？最近浇没浇多水？施没施肥？天气咋样？用了啥药？效果如何？简单记下来，以后好参考。</p><p data-pid=\"vr6LH1z6\"><b>第一大麻烦：叶子发黄（黄叶症）——</b> <b>找准原因才能救</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a9b4f77e53128bbcc15b41e751bc9271_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1394\" data-original-token=\"v2-9e5c84dcfcf068b700589190ce0d3162\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-a9b4f77e53128bbcc15b41e751bc9271_r.jpg\"/></figure><p data-pid=\"K541tFBT\">叶子黄了，原因很多，得看准了再下手：</p><p data-pid=\"0jvqJP3u\"><b>•</b> <b>水浇多了（水黄）</b>：老叶子先发黄、发软、耷拉脑袋。盆土摸着总是湿漉漉、粘乎乎的，严重的拔出来看根，都发褐发黑烂了。关键判断：盆土长期湿涝！</p><p data-pid=\"qam9-muu\"><b>•</b> <b>水浇少了（旱黄）</b>：老叶子从底下开始变黄、干枯、变脆脱落。盆土干得硬邦邦，甚至裂开。关键判断：长期没浇透水，或者只浇了半截水（上面湿下面干）。</p><p data-pid=\"GHXasQU-\"><b>•</b> <b>肥上多了（肥黄）</b>：新长出来的叶子又厚又卷曲，叶边焦枯。老叶子也焦黄脱落。关键判断：最近施肥太勤或者浓度太高。</p><p data-pid=\"rvXkjQqp\"><b>•</b> <b>缺营养了（比如缺铁）</b>：新叶子叶肉发黄，但叶脉还是绿的（像网格一样）。栀子花、茉莉、杜鹃这类喜欢酸性土的花特别容易这样。</p><p data-pid=\"dfsuhxM6\"><b>•</b> <b>光照不合适（光黄）</b>：大太阳直晒，叶子尖和边容易晒焦发黄。长期放太暗的地方，整棵花叶子颜色变浅发黄，杆子又细又长（徒长）。</p><h3><b>怎么救？</b></h3><p data-pid=\"YDLBKd6z\"><b>•</b> <b>先停水</b> <b>/</b> <b>停肥</b>：如果是水多或者肥多引起的黄叶，先停手！</p><p data-pid=\"FbaMDTQe\"><b>•</b> <b>检查盆土和根</b>：</p><p data-pid=\"seWyy3aQ\">◦ 手指头插进盆土 3-5 厘米深，感觉下干湿。</p><p data-pid=\"up7kij3a\">◦ 黄得厉害或者整棵蔫了，就得脱盆看看根。好根是白色或浅褐色、有弹性的。病根是黑褐色、软烂、一捏就碎的。</p><p data-pid=\"Sk-TDu_7\"><b>•</b> <b>对症处理</b>：</p><p data-pid=\"Vsfh2wfR\"><b>◦</b> <b>水黄</b>：</p><p data-pid=\"sJRu4sCk\">i. 脱盆，把发黑腐烂的根都剪干净。</p><p data-pid=\"YKFs_CHZ\">ii. 用多菌灵药水（按 1:1000 兑水）泡根 20 分钟。</p><p data-pid=\"-twj4z2O\">iii. 把根晾晾，等伤口有点干缩了。</p><p data-pid=\"rapW0dWE\">iv. 换全新的、透气的土（比如普通营养土里多掺 30% 的珍珠岩或蛭石）。</p><p data-pid=\"XxhcEgsj\">v. 用有点潮气的土种上。</p><p data-pid=\"gV-98i6K\">vi. 种好后管住手，少浇水！加强通风。</p><p data-pid=\"U2sqMri5\"><b>◦</b> <b>旱黄</b>：用浸盆法（把整个花盆泡水里，等盆土表面湿了就拿起来）或者小水慢浇，多浇几次直到浇透。然后搬到阴凉通风的地方缓着。</p><p data-pid=\"_aGnDlMH\"><b>◦</b> <b>肥黄</b>：用大量清水反复浇透盆土（3-4 次），冲掉多余的肥。特别严重的就换土洗根。之后至少一个月别施肥。</p><p data-pid=\"Hh39PRMW\"><b>◦</b> <b>缺铁黄</b>：用螯合铁（比如 EDTA-Fe，按说明书浓度）浇根 + 喷叶子，7-10 天一次，连用 2-3 次。喜欢酸性的花，可以同时用点硫酸亚铁 + 柠檬酸水调调土壤酸度。</p><p data-pid=\"_5ZnO1b0\"><b>◦</b> <b>光黄</b>：挪挪地方，晒狠了的搬到散射光好的地方，太暗的搬到光线明亮点的地方。</p><h3><b>好了以后怎么预防？</b></h3><p data-pid=\"5nK3exAy\"><b>•</b> <b>浇水口诀</b>：“不干不浇，浇就浇透”。拿不准就手指插土里试试，或者掂掂花盆重量（轻了再浇）。</p><p data-pid=\"dj9cxchN\"><b>•</b> <b>施肥原则</b>：“薄肥勤施”。花在长的时候，用均衡的肥料（比如氮磷钾 20-20-20 的水溶肥），浓度比说明减半，按说明的频率来。太热或太冷的时候别施肥。</p><p data-pid=\"CkD6dTgI\"><b>•</b> <b>光照管理</b>：搞清楚你的花喜欢晒太阳（全日照）、半阴还是耐阴。隔段时间转转盆，让它长得匀称。</p>",
+        "is_labeled": true,
+        "updated": 1754915726,
+        "comment_count": 0,
+        "author": {
+          "name": "蔚蓝下天空",
+          "followers_count": 2222,
+          "is_followed": false,
+          "id": "d4fc0db822d27448aed99704e0ecf553",
+          "user_type": "people",
+          "url_token": "li-jian-45-62-91",
+          "headline": "探索哲学、文学与时代精神/ 每周更新深度书评/文化观察",
+          "avatar_url": "https://picx.zhimg.com/50/v2-934f8fe4a3fb696fe972884dc77d7370_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/d4fc0db822d27448aed99704e0ecf553"
+        },
+        "column": {
+          "title": "蔚蓝天空下的花园与蔬菜种养心得分享",
+          "imageUrl": "https://picx.zhimg.com/v2-b0491dd109022132bb36dcf346da61af_720w.jpg?source=d16d100b",
+          "updated": 1754959223,
+          "is_following": false,
+          "id": "c_1938336926429054283",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1938336926429054283",
+          "author": {
+            "followers_count": 0,
+            "is_following": false,
+            "id": "",
+            "user_type": "people",
+            "name": "匿名用户",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "url": "",
+            "url_token": "",
+            "headline": "",
+            "gender": -1,
+            "is_followed": false
+          },
+          "comment_permission": "private",
+          "intro": "我曾在老家有个小花园和菜园，满是花草。结合 20 年农业植保经验，分享黄叶、白粉病等常见问题的识别、救治与预防办法，助你养好花，享受这份生活的美好。"
+        },
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "article_type": "paid_column_content",
+        "allow_segment_interaction": true,
+        "id": "1938332639695184497",
+        "url": "https://api.zhihu.com/articles/1938332639695184497",
+        "excerpt_new": "曾几何时我在老家有个小花园，因为喜欢养花，就楼上和楼下露台满满的种了花。至今回忆起来，还是觉得那是人生最美好的阶段之一。不过，种花时如何用肥、用药防治病虫害，确实是个小学问。 每当我沉浸式种花时，心思会变得简单纯净，所有工作的压力都能一扫而光。加之我从事农业植保防治工作已有 20 年，对于病虫害防治还是颇有心得。 先给大家分享我过去在老家的花园照片，然后再把病害的防治方案写出来供大家参考。     下面就实实…",
+        "paid_info": {
+          "content": "<h2>      曾几何时我在老家有个小花园，因为喜欢养花，就楼上和楼下露台满满的种了花。至今回忆起来，还是觉得那是人生最美好的阶段之一。不过，种花时如何用肥、用药防治病虫害，确实是个小学问。</h2><p data-pid=\"Q6oFHukM\">      每当我沉浸式种花时，心思会变得简单纯净，所有工作的压力都能一扫而光。加之我从事农业植保防治工作已有 20 年，对于病虫害防治还是颇有心得。</p><p data-pid=\"jKZTLbtq\">      先给大家分享我过去在老家的花园照片，然后再把病害的防治方案写出来供大家参考。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-97496fc2d694470851e24714c359ba69_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"6000\" data-rawheight=\"4000\" data-original-token=\"v2-15c5f7e60a83b45b96492f30d4c9f607\" class=\"origin_image zh-lightbox-thumb\" width=\"6000\" data-original=\"https://pic4.zhimg.com/v2-97496fc2d694470851e24714c359ba69_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-253c1e171b05e9945e70866b7f994870_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1620\" data-rawheight=\"1080\" data-original-token=\"v2-b0491dd109022132bb36dcf346da61af\" class=\"origin_image zh-lightbox-thumb\" width=\"1620\" data-original=\"https://pica.zhimg.com/v2-253c1e171b05e9945e70866b7f994870_r.jpg\"/></figure><p data-pid=\"N6weqF81\">下面就实实在在地跟大家聊聊几种阳台花最常见的、要命的毛病怎么认、怎么救、怎么防。</p><h2><b>养花急救总原则</b></h2><p data-pid=\"MvNuQZ5c\"><b>1.</b> <b>勤观察早下手</b>：每天花一两分钟，翻翻叶子正反面，看看茎杆根部和盆土干湿。越早发现不对劲，越好治。</p><p data-pid=\"rxoh8F_W\"><b>2.</b> <b>赶紧隔离病号</b>：发现哪盆花病了，马上挪开，离其他健康的花远点，别传染。</p><p data-pid=\"oN_igskc\"><b>3.</b> <b>保持干净卫生</b>：掉下来的病叶、烂花、枯枝赶紧捡走扔掉，别堆在盆土上。</p><p data-pid=\"W7lG7vw5\"><b>4.</b> <b>工具消毒别偷懒</b>：剪过病枝烂叶的剪刀、刀子，用之前用之后，都得拿 75% 酒精擦擦，或者用火燎一下。</p><p data-pid=\"XIJV-9qK\"><b>5.</b> <b>做好记录心里有数</b>：啥时候发现毛病的？最近浇没浇多水？施没施肥？天气咋样？用了啥药？效果如何？简单记下来，以后好参考。</p><p data-pid=\"vr6LH1z6\"><b>第一大麻烦：叶子发黄（黄叶症）——</b> <b>找准原因才能救</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a9b4f77e53128bbcc15b41e751bc9271_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1394\" data-original-token=\"v2-9e5c84dcfcf068b700589190ce0d3162\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-a9b4f77e53128bbcc15b41e751bc9271_r.jpg\"/></figure><p data-pid=\"K541tFBT\">叶子黄了，原因很多，得看准了再下手：</p><p data-pid=\"0jvqJP3u\"><b>•</b> <b>水浇多了（水黄）</b>：老叶子先发黄、发软、耷拉脑袋。盆土摸着总是湿漉漉、粘乎乎的，严重的拔出来看根，都发褐发黑烂了。关键判断：盆土长期湿涝！</p><p data-pid=\"qam9-muu\"><b>•</b> <b>水浇少了（旱黄）</b>：老叶子从底下开始变黄、干枯、变脆脱落。盆土干得硬邦邦，甚至裂开。关键判断：长期没浇透水，或者只浇了半截水（上面湿下面干）。</p><p data-pid=\"GHXasQU-\"><b>•</b> <b>肥上多了（肥黄）</b>：新长出来的叶子又厚又卷曲，叶边焦枯。老叶子也焦黄脱落。关键判断：最近施肥太勤或者浓度太高。</p><p data-pid=\"rvXkjQqp\"><b>•</b> <b>缺营养了（比如缺铁）</b>：新叶子叶肉发黄，但叶脉还是绿的（像网格一样）。栀子花、茉莉、杜鹃这类喜欢酸性土的花特别容易这样。</p><p data-pid=\"dfsuhxM6\"><b>•</b> <b>光照不合适（光黄）</b>：大太阳直晒，叶子尖和边容易晒焦发黄。长期放太暗的地方，整棵花叶子颜色变浅发黄，杆子又细又长（徒长）。</p><h3><b>怎么救？</b></h3><p data-pid=\"YDLBKd6z\"><b>•</b> <b>先停水</b> <b>/</b> <b>停肥</b>：如果是水多或者肥多引起的黄叶，先停手！</p><p data-pid=\"FbaMDTQe\"><b>•</b> <b>检查盆土和根</b>：</p><p data-pid=\"seWyy3aQ\">◦ 手指头插进盆土 3-5 厘米深，感觉下干湿。</p><p data-pid=\"up7kij3a\">◦ 黄得厉害或者整棵蔫了，就得脱盆看看根。好根是白色或浅褐色、有弹性的。病根是黑褐色、软烂、一捏就碎的。</p><p data-pid=\"Sk-TDu_7\"><b>•</b> <b>对症处理</b>：</p><p data-pid=\"Vsfh2wfR\"><b>◦</b> <b>水黄</b>：</p><p data-pid=\"sJRu4sCk\">i. 脱盆，把发黑腐烂的根都剪干净。</p><p data-pid=\"YKFs_CHZ\">ii. 用多菌灵药水（按 1:1000 兑水）泡根 20 分钟。</p><p data-pid=\"-twj4z2O\">iii. 把根晾晾，等伤口有点干缩了。</p><p data-pid=\"rapW0dWE\">iv. 换全新的、透气的土（比如普通营养土里多掺 30% 的珍珠岩或蛭石）。</p><p data-pid=\"XxhcEgsj\">v. 用有点潮气的土种上。</p><p data-pid=\"gV-98i6K\">vi. 种好后管住手，少浇水！加强通风。</p><p data-pid=\"U2sqMri5\"><b>◦</b> <b>旱黄</b>：用浸盆法（把整个花盆泡水里，等盆土表面湿了就拿起来）或者小水慢浇，多浇几次直到浇透。然后搬到阴凉通风的地方缓着。</p><p data-pid=\"_aGnDlMH\"><b>◦</b> <b>肥黄</b>：用大量清水反复浇透盆土（3-4 次），冲掉多余的肥。特别严重的就换土洗根。之后至少一个月别施肥。</p><p data-pid=\"Hh39PRMW\"><b>◦</b> <b>缺铁黄</b>：用螯合铁（比如 EDTA-Fe，按说明书浓度）浇根 + 喷叶子，7-10 天一次，连用 2-3 次。喜欢酸性的花，可以同时用点硫酸亚铁 + 柠檬酸水调调土壤酸度。</p><p data-pid=\"_5ZnO1b0\"><b>◦</b> <b>光黄</b>：挪挪地方，晒狠了的搬到散射光好的地方，太暗的搬到光线明亮点的地方。</p><h3><b>好了以后怎么预防？</b></h3><p data-pid=\"5nK3exAy\"><b>•</b> <b>浇水口诀</b>：“不干不浇，浇就浇透”。拿不准就手指插土里试试，或者掂掂花盆重量（轻了再浇）。</p><p data-pid=\"dj9cxchN\"><b>•</b> <b>施肥原则</b>：“薄肥勤施”。花在长的时候，用均衡的肥料（比如氮磷钾 20-20-20 的水溶肥），浓度比说明减半，按说明的频率来。太热或太冷的时候别施肥。</p><p data-pid=\"CkD6dTgI\"><b>•</b> <b>光照管理</b>：搞清楚你的花喜欢晒太阳（全日照）、半阴还是耐阴。隔段时间转转盆，让它长得匀称。</p>"
+        },
+        "voting": 0,
+        "visited_count": 246,
+        "preview_type": "default",
+        "title": "蔚蓝天空下的小花园和凉台的养花种菜病虫害防治心得",
+        "created": 1754915726,
+        "excerpt": "曾几何时我在老家有个小花园，因为喜欢养花，就楼上和楼下露台满满的种了花。至今回忆起来，还是觉得那是人生最美好的阶段之一。不过，种花时如何用肥、用药防治病虫害，确实是个小学问。 每当我沉浸式种花时，心思会变得简单纯净，所有工作的压力都能一扫而光。加之我从事农业植保防治工作已有 20 年，对于病虫害防治还是颇有心得。 先给大家分享我过去在老家的花园照片，然后再把病害的防治方案写出来供大家参考。     下面就实实…",
+        "preview_text": "",
+        "favorite_count": 6,
+        "navigator_vote": false,
+        "type": "article",
+        "comment_permission": "all",
+        "voteup_count": 6,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-15c5f7e60a83b45b96492f30d4c9f607_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b0491dd109022132bb36dcf346da61af_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9e5c84dcfcf068b700589190ce0d3162_720w.jpg?source=b6762063"
+        ],
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1938332639695184497}",
+      "attached_info": "CtYGCPGU2uzeg8/CkgEQBxoJMjYxNTYzMTE1II7H58QGKAYwAEBWSjkKJFRTX1NPVVJDRV9QQUlEX0NPTFVNTl9UV09fVE9XRVJfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCDEzNzI1NzIyYiBmOTgwYjYxMDVjMTVhNzg4NjYxZWQ3YTk2NGI4ZDMyZHITMTkzODMzMjYzOTY5NTE4NDQ5N4oBFWNfMTkzODMzNjkyNjQyOTA1NDI4M6oBCXJlY29tbWVuZMIBIGQ0ZmMwZGI4MjJkMjc0NDhhZWQ5OTcwNGUwZWNmNTUz8gEKCAwSBk5vcm1hbPIBKAgKEiQzY2JjZDI2Ny1mMmZhLTQzOGMtODJhZC0zMmRhNGRiODI4OGLyAQYICxICMTWCAgCIArjVipG9M5ICIGQ0ZmMwZGI4MjJkMjc0NDhhZWQ5OTcwNGUwZWNmNTUzmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIkVFNfU09VUkNFX1BBSURfQ09MVU1OX1RXT19UT1dFUl9URVhU6AIC+gILTk9STUFMX0ZMT1eKAyA0NzEzZGViY2VlZjE0ZjcxYjdlOGVjMmU0ZmI0MWE0MZoDDQoCdjIQABoFb3RoZXKoA/YB2AMA6gMWcGFpZENvbHVtblRleHRUd29Ub3dlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxDwLhigHyIjdjItMTVjNWY3ZTYwYTgzYjQ1Yjk2NDkyZjMwZDRjOWY2MDc6LQgEENQMGLgIIiN2Mi1iMDQ5MWRkMTA5MDIyMTMyYmIzNmRjZjM0NmRhNjFhZjotCAIQuAgY8goiI3YyLTllNWM4NGRjZmNmMDY4YjcwMDU4OTE5MGNlMGQzMTYygAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAkCaEP4EFAAAAAAAAAACJBdjuhSOV3bM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBlioBgCSAi4KCTI2MTU2MzExNRITMTkzODMzMjYzOTY5NTE4NDQ5NxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "87_1768757046.180",
+      "type": "feed",
+      "offset": 87,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757046,
+      "updated_time": 1768757046,
+      "target": {
+        "is_copyable": true,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-640c2dd372942e00e962a2cde9826219_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-bd5e64c93868b76931202ba6ca883638_720w.jpg?source=b6762063"
+        ],
+        "question": {
+          "author": {
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-0ce3aaf710088cf7457fa6eeba8b3935_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "dccdae9c9a54afb82ea6481f65ac3b48",
+            "url": "https://api.zhihu.com/people/dccdae9c9a54afb82ea6481f65ac3b48",
+            "name": "CFPD",
+            "followers_count": 3683,
+            "user_type": "people",
+            "url_token": "xu-ba-95",
+            "is_org": false
+          },
+          "created": 1420888830,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "id": "27513493",
+          "url": "https://api.zhihu.com/questions/27513493",
+          "answer_count": 0,
+          "comment_count": 134,
+          "bound_topic_ids": [
+            119,
+            307,
+            1309,
+            9323
+          ],
+          "is_following": false,
+          "type": "question",
+          "title": "努力学习的意义到底在哪里？",
+          "follower_count": 0,
+          "excerpt": ""
+        },
+        "excerpt": "两年前买了极米的投影仪，用了几次因为支架安装不慎，螺丝拧死在了底座，各种方法都拧不出来。干脆放弃，设备尘封。 一天心血来潮，想拔掉螺丝，启动这尘封的设备，再试各种工具还是不行。百度各种查，淘宝各种搜，各种攻略采购各种小工具各种试，然后是各种退货，各种失败告终。 找到极米售后公众号，客服说没有实体店，产品要寄回厂家，顺丰物流来回自付。因为产品已经没有外包装，担心路途机器颠簸受损，不甘心还是想再试试。…",
+        "preview_text": "",
+        "is_labeled": false,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "comment_count": 5,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 140,
+        "answer_type": "normal",
+        "updated_time": 1768640885,
+        "content": "<p data-pid=\"5g-0NzO5\">    两年前买了极米的投影仪，用了几次因为支架安装不慎，螺丝拧死在了底座，各种方法都拧不出来。干脆放弃，设备尘封。</p><p data-pid=\"kf5hJnWH\">    一天心血来潮，想拔掉螺丝，启动这尘封的设备，再试各种工具还是不行。百度各种查，淘宝各种搜，各种攻略采购各种小工具各种试，然后是各种退货，各种失败告终。</p><p data-pid=\"Emkeyq07\">     找到极米售后公众号，客服说没有实体店，产品要寄回厂家，顺丰物流来回自付。因为产品已经没有外包装，担心路途机器颠簸受损，不甘心还是想再试试。</p><p data-pid=\"2z5fml6C\">     找到京东服务下单，师傅说上门弄也不好说，怕弄不出来，我又微信上问修过电脑的师傅，他们说够呛，可能要电焊再拧开，没有把握。</p><p data-pid=\"XhUSU9Wy\">    找到以前用过的电工师傅，师傅说他可以试试，我忙问用什么工具，他说活动钳试试。我说会再和他约时间，放下电话赶快淘宝找活动钳下单，根据螺丝的尺寸买了不同的活动钳。</p><p data-pid=\"1Oi8rMyt\">     第一个活动钳不行退货，第二个，我的天，成功了耶! 前后试了一个月，终于成功了，无限感慨，耐心真的非常重要，难倒几位专业人士的不过就是一把活动钳，也许是因为他们觉得这生意不赚钱吗？真知来自实践，来自不断的尝试和试错。但是电工师傅还是靠谱哦，他说的活动钳真就好使了呢。</p><p data-pid=\"e28DUqJJ\">     你说学习是不是件有趣的事情啊？是不是相信自己比相信专家更有前途啊? 但是专家的想法也要听听哈，不然怎么知道还有长成这样的活动钳呢，毕竟咱以前没见过啊！也感谢神奇的淘宝，只有想不到没有找不到。</p><p data-pid=\"t6Sq1AFa\">    再有，就是拧螺丝的时候一定小心，不要再拧进去出不来哦，这叫吃一堑长一智。所以，解决问题，必须要找到合适的工具和方法，只要工具正确，方法到位，一定手到擒来，最漫长的过程是寻找工具和方法的过程，真正解决问题三分钟，当正确的方法和工具到位。</p><p data-pid=\"3alIX2f_\">   所以，还在苦读的莘莘学子们，读书很苦，更苦的是死磕，如果没有找到正确和适合你的工具和方法。这其实是一个不断探索的过程，一个不断试错的过程，看似漫长，但它本身就是一个学习的过程，所以不要急，沉住气，去找一把合适的活动钳，然后再解锁一个个难题，胜利最终一定会属于你。记住，合适的方法和工具是你获得真知的金钥匙，一定要找到他们。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b191dd94fad29c1df9e920404828b83b_1440w.jpg\" data-rawwidth=\"701\" data-rawheight=\"1560\" data-size=\"normal\" data-original-token=\"v2-640c2dd372942e00e962a2cde9826219\" class=\"origin_image zh-lightbox-thumb\" width=\"701\" data-original=\"https://picx.zhimg.com/v2-b191dd94fad29c1df9e920404828b83b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-076f883cf5c89f9b643a527e6e76aadf_1440w.jpg\" data-rawwidth=\"701\" data-rawheight=\"1560\" data-size=\"normal\" data-original-token=\"v2-bd5e64c93868b76931202ba6ca883638\" class=\"origin_image zh-lightbox-thumb\" width=\"701\" data-original=\"https://pic4.zhimg.com/v2-076f883cf5c89f9b643a527e6e76aadf_r.jpg\"/></figure><p></p>",
+        "vote_next_step": "vote",
+        "id": "1995905213849171800",
+        "url": "https://api.zhihu.com/answers/1995905213849171800",
+        "thanks_count": 0,
+        "thumbnail": "https://picx.zhimg.com/50/v2-640c2dd372942e00e962a2cde9826219_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "type": "answer",
+        "excerpt_new": "两年前买了极米的投影仪，用了几次因为支架安装不慎，螺丝拧死在了底座，各种方法都拧不出来。干脆放弃，设备尘封。 一天心血来潮，想拔掉螺丝，启动这尘封的设备，再试各种工具还是不行。百度各种查，淘宝各种搜，各种攻略采购各种小工具各种试，然后是各种退货，各种失败告终。 找到极米售后公众号，客服说没有实体店，产品要寄回厂家，顺丰物流来回自付。因为产品已经没有外包装，担心路途机器颠簸受损，不甘心还是想再试试。…",
+        "author": {
+          "name": "太极猫拳",
+          "avatar_url": "https://picx.zhimg.com/50/v2-09b1538126b91566ef75e42ec5142c6b_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 225,
+          "url": "https://api.zhihu.com/people/e368ef1893bb9e064cb4d2b71f5fd2c5",
+          "url_token": "men-97-11",
+          "headline": "认知科学，成长，治愈和触动灵魂的输出",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "id": "e368ef1893bb9e064cb4d2b71f5fd2c5",
+          "user_type": "people"
+        },
+        "created_time": 1768640885,
+        "voteup_count": 4,
+        "favorite_count": 0,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995905213849171800}",
+      "attached_info": "CpwGCPGU2uzeg8/CkgEQBBoJNzY1ODE4MzU1IPWircsGKAQwBUBXSicKHFRTX1NPVVJDRV9DT05DRVBUX1dPUkRfTUVSR0USATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaBzMxODgxOTdiIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTk1OTA1MjEzODQ5MTcxODAwigEIMjc1MTM0OTOqAQlyZWNvbW1lbmTCASBlMzY4ZWYxODkzYmI5ZTA2NGNiNGQyYjcxZjVmZDJjNfIBCggMEgZOb3JtYWzyASgIChIkYmM2M2RhOTMtMWZjMi00ZDBhLWExMTgtNzY4NjkzMzdlZWZi8gEGCAsSAjE1ggIAiAK41YqRvTOSAiBlMzY4ZWYxODkzYmI5ZTA2NGNiNGQyYjcxZjVmZDJjNZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAhxUU19TT1VSQ0VfQ09OQ0VQVF9XT1JEX01FUkdF6AID+gILTk9STUFMX0ZMT1eKAyA0NzEzZGViY2VlZjE0ZjcxYjdlOGVjMmU0ZmI0MWE0MZoDDQoCdjIQABoFb3RoZXKoA4wB2AMA6gMhQ29uY2VwdFdvcmRNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQvQUYmAwiI3YyLTY0MGMyZGQzNzI5NDJlMDBlOTYyYTJjZGU5ODI2MjE5Oi0IAxC9BRiYDCIjdjItYmQ1ZTY0YzkzODY4Yjc2OTMxMjAyYmE2Y2E4ODM2MziABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGCJEpk/gQUAAAAAAAAAAIkF2O6FI5Xdsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGWagGAJICLgoJNzY1ODE4MzU1EhMxOTk1OTA1MjEzODQ5MTcxODAwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "88_1768757046.947",
+      "type": "feed",
+      "offset": 88,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757046,
+      "updated_time": 1768757046,
+      "target": {
+        "question": {
+          "id": "652524870",
+          "question_type": "normal",
+          "type": "question",
+          "author": {
+            "id": "0eebc9b425a88e87408729eec9f09be4",
+            "user_type": "organization",
+            "url_token": "zhi-hu-ren-wen",
+            "is_org": true,
+            "gender": -1,
+            "badge": [
+              {
+                "type": "identity_org",
+                "description": "已认证机构号"
+              }
+            ],
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/0eebc9b425a88e87408729eec9f09be4",
+            "name": "知乎人文",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-9d32504a466dd11bcc87a749ceb4d3b9_l.jpg?source=b6762063",
+            "followers_count": 60035,
+            "is_following": false
+          },
+          "answer_count": 0,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/652524870",
+          "title": "有哪些书籍兼顾了娱乐性和知识性？",
+          "comment_count": 1,
+          "is_following": false,
+          "detail": "",
+          "created": 1712754883,
+          "bound_topic_ids": [
+            113,
+            1164
+          ],
+          "excerpt": ""
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "id": "1996355458739495940",
+        "type": "answer",
+        "updated_time": 1768748231,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 0,
+        "url": "https://api.zhihu.com/answers/1996355458739495940",
+        "created_time": 1768748231,
+        "is_copyable": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "author": {
+          "gender": 0,
+          "followers_count": 36,
+          "is_followed": false,
+          "user_type": "people",
+          "name": "吾问西东",
+          "is_org": false,
+          "headline": "想到哪写到哪。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-2274ee60384dd2be21a7494359202410_l.jpg?source=b6762063",
+          "is_following": false,
+          "id": "6dc010a1aa8f061452a0927c83ae4aee",
+          "url": "https://api.zhihu.com/people/6dc010a1aa8f061452a0927c83ae4aee",
+          "url_token": "wu-xiao-yin-51"
+        },
+        "content": "<p data-pid=\"6-igKTtb\"><b>《万历十五年》黄仁宇</b></p><p data-pid=\"ho8uUzgC\">颠覆你对历史书的认知。通过万历皇帝、海瑞、戚继光等六个典型人物的命运，剖析明朝中后期的制度性症结。读起来像看一场深刻的戏剧，却能理解“大历史观”。</p><p data-pid=\"CqqIsntV\"><b>《显微镜下的大明》马伯庸</b></p><p data-pid=\"oNXMwj3n\">亲王从明代民间档案中挖掘出六个真实的基层政治事件。比如《学霸必须死——徽州丝绢案始末》，从一个数学问题引发一场持续十年的民间骚乱。情节之精彩堪比小说，让你看到最真实、最生动的明代社会运作细节。</p><p data-pid=\"WSy-Smmx\"><b>《人类简史》尤瓦尔·赫拉利</b></p><p data-pid=\"Dwxm9RIh\">宏大叙事的天花板。用非常生动的语言和脑洞，讲清楚人类从动物到“上帝”的全程。娱乐性在于其独特的视角和比喻（如“八卦理论”、“小麦驯服人类”），知识性在于融汇了历史学、生物学、社会学等多学科前沿观点。</p>",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "comment_count": 0,
+        "excerpt": "《万历十五年》黄仁宇颠覆你对历史书的认知。通过万历皇帝、海瑞、戚继光等六个典型人物的命运，剖析明朝中后期的制度性症结。读起来像看一场深刻的戏剧，却能理解“大历史观”。 《显微镜下的大明》马伯庸亲王从明代民间档案中挖掘出六个真实的基层政治事件。比如《学霸必须死——徽州丝绢案始末》，从一个数学问题引发一场持续十年的民间骚乱。情节之精彩堪比小说，让你看到最真实、最生动的明代社会运作细节。 《人类简史》尤…",
+        "excerpt_new": "《万历十五年》黄仁宇颠覆你对历史书的认知。通过万历皇帝、海瑞、戚继光等六个典型人物的命运，剖析明朝中后期的制度性症结。读起来像看一场深刻的戏剧，却能理解“大历史观”。 《显微镜下的大明》马伯庸亲王从明代民间档案中挖掘出六个真实的基层政治事件。比如《学霸必须死——徽州丝绢案始末》，从一个数学问题引发一场持续十年的民间骚乱。情节之精彩堪比小说，让你看到最真实、最生动的明代社会运作细节。 《人类简史》尤…",
+        "reshipment_settings": "disallowed",
+        "visited_count": 13
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996355458739495940}",
+      "attached_info": "CtIFCPGU2uzeg8/CkgEQBBoJNzY1OTcxMzk0IMfps8sGKAAwAEBYSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMDcyODI5MTJiIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTk2MzU1NDU4NzM5NDk1OTQwigEJNjUyNTI0ODcwqgEJcmVjb21tZW5kwgEgNmRjMDEwYTFhYThmMDYxNDUyYTA5MjdjODNhZTRhZWXyAQoIDBIGTm9ybWFs8gEoCAoSJGYwYWE4M2EwLThiYjAtNDViZC1hNGI0LWYxZDZiMTEzYjk3YfIBBggLEgIxNYICAIgCuNWKkb0zkgIgNmRjMDEwYTFhYThmMDYxNDUyYTA5MjdjODNhZTRhZWWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCAvoCC05PUk1BTF9GTE9XigMgNDcxM2RlYmNlZWYxNGY3MWI3ZThlYzJlNGZiNDFhNDGaAw0KAnYyEAAaBW90aGVyqAMN2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACA9JyAP4EFAAAAAAAAAACJBdjuhSOV3bM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBlqoBgGSAi4KCTc2NTk3MTM5NBITMTk5NjM1NTQ1ODczOTQ5NTk0MBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "89_1768757046.371",
+      "type": "feed",
+      "offset": 89,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757046,
+      "updated_time": 1768757046,
+      "target": {
+        "voting": 0,
+        "excerpt": "几乎所有经历过认知跃迁的人，都会在某个阶段发现一个很奇怪的变化： 当你看到别人成功、自由、闪光的人生， 你不再羡慕了。 这并不是麻木，也不是自我安慰，更不是“看开了”。 而是一种非常安静、非常确定的状态： 那不是我想要的。 ⸻ 一、羡慕，本质上来自“未完成的自我定位” 羡慕从来不是因为别人过得好。 而是因为你还没有完成对自己人生的定位。 当一个人还不清楚下面的问题： 自己真正想解决什么问题？ 自己适合承载什…",
+        "favorite_count": 377,
+        "navigator_vote": false,
+        "title": "《为什么你开始不再羡慕任何人的人生？》",
+        "created": 1768280681,
+        "comment_count": 53,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "几乎所有经历过认知跃迁的人，都会在某个阶段发现一个很奇怪的变化： 当你看到别人成功、自由、闪光的人生， 你不再羡慕了。 这并不是麻木，也不是自我安慰，更不是“看开了”。 而是一种非常安静、非常确定的状态： 那不是我想要的。 ⸻ 一、羡慕，本质上来自“未完成的自我定位” 羡慕从来不是因为别人过得好。 而是因为你还没有完成对自己人生的定位。 当一个人还不清楚下面的问题： 自己真正想解决什么问题？ 自己适合承载什…",
+        "preview_type": "default",
+        "column": {
+          "intro": "从身体、形式与认知三个层面，记录系统如何失去响应性，又如何被重新理解。理解的结构｜理解为何失效身体的结构｜抗衰老系列形式的结构｜微积分与变化这个专栏并不提供快速结论，也不试图说服任何人。它记录的是一件更基础的事情：当一个系统开始失效时，我们通常不是缺少努力，而是误解了结构。你会在这里看到三条相互独立、但底层一致的写作主线。可以按兴趣阅读，也可以交叉阅读。一、如果你关心身体、健康与衰老从 【身体的结构｜抗衰老系列】 开始。这个系列关注的不是“吃什么、练什么”，而是身体为什么会对同样的刺激，产生完全不同的反应。当恢复能力、节律与能量分配发生变化，很多看似正确的健康建议，会自然失效。推荐从这一类文章入手。二、如果你经常对“已经被解释的问题”感到困惑从 【理解的结构｜理解为何失效】 开始。这个系列讨论的，是解释本身：为什么很多解释看起来完整，却对个体几乎没用？为什么努力在某些阶段会变成噪音？为什么共识有时会遮蔽问题？如果你更关心“理解是如何出错的”，可以从这里开始。三、如果你对数学、变化与抽象结构感兴趣从 【形式的结构｜微积分与变化】 开始。这里不强调解题技巧，而是尝试理解：人类如何用数学语言，去描述变化本身。如果你对“为什么这样定义”比“怎么算”更感兴趣，这一部分更适合你。一个重要说明这个专栏不输出立场，也不提供标准答案。如果你期待的是结论、建议或确定性，这里可能并不适合你。但如果你愿意花一点时间，重新检查那些被默认接受的解释，也许会在这里找到一些不同的视角。⸻理解结构，不是为了站在正确的一边，而是为了在复杂世界中，不被“看起来完整的答案”过早安抚。— metasoul lab理解结构，才能理解世界。",
+          "updated": 1766418589,
+          "is_following": false,
+          "type": "column",
+          "author": {
+            "is_org": false,
+            "gender": -1,
+            "id": "",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "name": "匿名用户",
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false,
+            "url": "",
+            "user_type": "people",
+            "url_token": ""
+          },
+          "title": "metasoul lab｜结构研究笔记",
+          "imageUrl": "https://picx.zhimg.com/v2-a9dac97126c1bb87fa0fcfa1104ab05e_720w.jpg?source=d16d100b",
+          "comment_permission": "public",
+          "id": "c_1984271090743259996",
+          "url": "https://api.zhihu.com/columns/c_1984271090743259996"
+        },
+        "is_labeled": false,
+        "id": "1991498145859912187",
+        "comment_permission": "censor",
+        "article_type": "normal",
+        "visited_count": 16310,
+        "voteup_count": 271,
+        "preview_text": "",
+        "author": {
+          "is_followed": false,
+          "id": "d5252365a8423a1485d6d6711d9e9381",
+          "url": "https://api.zhihu.com/people/d5252365a8423a1485d6d6711d9e9381",
+          "user_type": "people",
+          "headline": "理解结构，你才真正理解世界。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-496697894c3be4de01c8438182472e07_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 1368,
+          "url_token": "liang-shi-qiang-53",
+          "name": "MetaSoul Lab",
+          "gender": 1,
+          "is_following": false
+        },
+        "updated": 1768377803,
+        "content": "<p data-pid=\"zmWKzovE\">几乎所有经历过认知跃迁的人，都会在某个阶段发现一个很奇怪的变化：</p><p data-pid=\"7znBmr97\">当你看到别人成功、自由、闪光的人生，</p><p data-pid=\"ICzu91yk\">你不再羡慕了。</p><p data-pid=\"LEAyyfb9\">这并不是麻木，也不是自我安慰，更不是“看开了”。</p><p data-pid=\"7hYvCvMz\">而是一种非常安静、非常确定的状态：</p><p data-pid=\"D86ojkUw\">那不是我想要的。</p><p data-pid=\"j_iAGX32\">⸻</p><p data-pid=\"zqR6VvJw\">一、羡慕，本质上来自“未完成的自我定位”</p><p data-pid=\"M3Pzdp9R\">羡慕从来不是因为别人过得好。</p><p data-pid=\"r4KgPw57\">而是因为你还没有完成对自己人生的定位。</p><p data-pid=\"CbM5SWIR\">当一个人还不清楚下面的问题：</p><p data-pid=\"6ZU2dZIO\">自己真正想解决什么问题？</p><p data-pid=\"cwzTqtt8\">自己适合承载什么样的压力？</p><p data-pid=\"vOGYwIb1\">自己的人生坐标系在哪里？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yH6E3vUJ\">他就只能借用外部样本来判断价值。于是就会发生这种事：</p><p data-pid=\"xnstkzdp\">你看到别人赚钱，会怀疑自己的选择，</p><p data-pid=\"C50vNgCc\">看到别人稳定，会质疑自己的冒险，</p><p data-pid=\"Pk2l_6Mx\">看到别人自由，会否定自己的投入。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kkJaADkV\">羡慕，其实是一种借用他人人生，暂时代替自己判断的行为。</p><p data-pid=\"dF0_CXNt\">⸻</p><p data-pid=\"UGqW3Gwr\">二、跃迁发生后，你不再需要“外部参照系”</p><p data-pid=\"0iisGCDu\">当认知跃迁真正完成，一个核心变化是：</p><p data-pid=\"pmiA0TA3\">你开始拥有一个内部一致的人生评价系统。</p><p data-pid=\"gePNq5_G\">你不再用社会主流标准、同龄人进度、可见结果排序</p><p data-pid=\"wmvHyMhW\">等标准来判断自己。</p><p data-pid=\"0p3hE9M0\">你开始启用的标准是：</p><p data-pid=\"MW5vRwov\">\t•\t我的结构是否在增长？</p><p data-pid=\"vPVBUKDo\">\t•\t我的选择是否自洽？</p><p data-pid=\"9TlEjyr7\">\t•\t我的能量是否在正确的方向上消耗？</p><p data-pid=\"9Y0oDfxN\">一旦当你建立起这个系统，对他人的羡慕会自然失效。</p><p data-pid=\"TaPxwtfP\">因为羡慕，本质上是在用别人的坐标系，评估自己的人生。</p><p data-pid=\"0FSvPDnJ\">⸻</p><p data-pid=\"fm45zs7F\">三、你不是看不见差距，而是不再误读差距</p><p data-pid=\"TaqkeHZY\">不再羡慕，并不意味着你看不见现实差距。</p><p data-pid=\"ZRDIGzjk\">你依然能清楚地看到：</p><p data-pid=\"BuweMzsT\">别人赚得更多或者走得更快、别人阶段性成果更亮眼</p><p data-pid=\"z-KX7YpF\">但这其中的本质区别在于：</p><p data-pid=\"sx4Av7sd\">你不再把“差距”自动翻译成“我落后了”。</p><p data-pid=\"rpkYujRH\">因为你已经知道这些差距的本质：</p><p data-pid=\"vl3s2bfx\">\t•不同路径的风险结构不同</p><p data-pid=\"ob4FFOqV\">\t•不同选择的时间曲线不同</p><p data-pid=\"SwKH36yB\">\t•不同人生，根本不在同一个优化函数里</p><p data-pid=\"b-4uFk05\">你也终于明白了一件事：</p><p data-pid=\"VGiJgtpU\">同样的结果，对不同的人来说，代价完全不同。</p><p data-pid=\"5HA6bYNY\">⸻</p><p data-pid=\"X4I4mgha\">四、羡慕消失的真正原因：你开始为自己的选择负责</p><p data-pid=\"P5iy1M64\">这是一个非常关键、也非常残酷的转折点。</p><p data-pid=\"hUPuy85h\">当一个人真正为自己的人生负责时，他会意识到：</p><p data-pid=\"rgCKdiF7\">羡慕，其实是一种逃避责任的方式。</p><p data-pid=\"Qquzq7nf\">因为只要你还在羡慕，就可以暗暗假设：</p><p data-pid=\"lv4vitgG\">“如果我当初选了那条路，现在也会这样”</p><p data-pid=\"7yHIej5O\">就可以把现实的不确定性，归因给“没走对路”。</p><p data-pid=\"bXaPCf-H\">而当你真正完成跃迁之后，你会接受一个事实：</p><p data-pid=\"l3rTFq1g\">你现在的人生，是你在已知条件下，</p><p data-pid=\"v6vZ8GGA\">主动选择并持续承担的结果。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"x4Iz866l\">一旦你站在这个位置上，羡慕会显得多余，甚至有点失真。</p><p data-pid=\"FtWksXyu\">⸻</p><p data-pid=\"zj9G8Ioa\">五、你开始看清“别人光鲜人生”的完整成本</p><p data-pid=\"yoJXBD4f\">羡慕消失，还有一个非常现实的原因：</p><p data-pid=\"INzUw-jb\">你开始自动看到完整的全貌，而不是片面的局部。</p><p data-pid=\"wCUBLCQ1\">你不再只看结果：收入、地位、自由度</p><p data-pid=\"_NvswNnV\">你会同时看到：</p><p data-pid=\"7t3rubQZ\">他长期承受的压力类型、他必须维持的社会角色</p><p data-pid=\"Ro3yPiF6\">他无法回避的风险敞口、他为了那个位置，放弃了什么</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"z33RnUQR\">于是你会非常清楚地知道：</p><p data-pid=\"1-eoomtK\">那个结果，不是免费赠送的。</p><p data-pid=\"lYUm1yWO\">而你不羡慕，并不是因为你做不到，</p><p data-pid=\"3pJO1OIY\">而是因为你已经判断过：那个交换，我不想做。</p><p data-pid=\"xH_4_4LU\">⸻</p><p data-pid=\"R9_CnH1i\">六、不再羡慕的真正标志：你不再幻想“另一种人生”</p><p data-pid=\"3VNx1pti\">很多人以为成熟，是“接受现实”。</p><p data-pid=\"lisr1Ee4\">但跃迁之后出现的，其实是另一种状态：</p><p data-pid=\"wA_k87t7\">你不再反复幻想</p><p data-pid=\"kl280_nO\">“如果我当初选了另一条路，会不会更好”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OLpKKSsC\">因为你已经意识到：</p><p data-pid=\"ktSTsMCx\">所谓“另一种人生”，并不存在，每一种人生，都是一整套连锁选择，没有只拿好处、不付代价的版本。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yRdFbj0G\">当这种认知真正落地，羡慕会像一个过期程序一样，被系统自动卸载。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OlX30YK-\">结尾：</p><p data-pid=\"UqrFgNRX\">不再羡慕，是你终于站回自己人生的中心</p><p data-pid=\"roeVnOFq\">如果你发现：</p><p data-pid=\"gRRPfWqe\">你仍然欣赏他人、仍然尊重差异、仍然愿意学习</p><p data-pid=\"7R6-yYWK\">但你却不再希望“成为他们”——</p><p data-pid=\"ojrXfMc_\">那很可能意味着：</p><p data-pid=\"9N9Soyz0\">你已经不再借用别人的人生，来对冲自己内在的不确定性。</p><p data-pid=\"GkxMgo6q\">你开始真正地住进自己的人生，承担自己的选择，并接受自己的节奏。</p><p data-pid=\"NAobzX3W\">而当一个人完全站回自己的人生中心时，</p><p data-pid=\"mVIkJogW\">羡慕这种情绪，是没有立足之地的。</p><p data-pid=\"ibtTegTO\">不是你变得无欲无求了，而是你终于知道：</p><p data-pid=\"HdOfW_Pk\">你的人生，不需要与任何人交换。</p><p data-pid=\"6JGazj4P\">——End</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_u0MnRHe\">MetaSoul Lab | 结构研究笔记</p><p data-pid=\"2-X_rZra\">理解结构，才能理解世界！</p>",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1991498145859912187"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991498145859912187}",
+      "attached_info": "CusFCPGU2uzeg8/CkgEQBxoJMjY4NTgzNDExIOmkl8sGKI8CMDVAWUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUouChlUU19TT1VSQ0VfRkVFRFJFX01TX0hRX1YzEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMTM4MDY0NDViIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTkxNDk4MTQ1ODU5OTEyMTg3igEVY18xOTg0MjcxMDkwNzQzMjU5OTk2qgEJcmVjb21tZW5kwgEgZDUyNTIzNjVhODQyM2ExNDg1ZDZkNjcxMWQ5ZTkzODHyAQoIDBIGTm9ybWFs8gEoCAoSJDUxMjg3YTAzLWE3YTAtNGM4OC1hZjFmLWU0ZmRlODIwNmExOPIBBggLEgIxNYICAIgCuNWKkb0zkgIgZDUyNTIzNjVhODQyM2ExNDg1ZDZkNjcxMWQ5ZTkzODGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCA/oCC05PUk1BTF9GTE9XigMgNDcxM2RlYmNlZWYxNGY3MWI3ZThlYzJlNGZiNDFhNDGaAw0KAnYyEAAaBW90aGVyqAO2f9gDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQIJhkD+BBQAAAAAAAAAAiQXY7oUjld2zP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUPkAYAoAZbqAYAkgIuCgkyNjg1ODM0MTESEzE5OTE0OTgxNDU4NTk5MTIxODcYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=89&desktop=true&end_offset=91&page_number=16&session_token=f980b6105c15a788661ed7a964b8d32d",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=89&desktop=true&end_offset=91&page_number=16&session_token=f980b6105c15a788661ed7a964b8d32d",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

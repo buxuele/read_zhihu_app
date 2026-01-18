@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% block title %}知乎内容导航{% endblock %}</title>
+    <title>{% block title %}内容导航{% endblock %}</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,7 +16,61 @@
     />
   </head>
   <body>
-    <div class="container mt-0 mb-4 main-content-area">
+    <!-- 消息提示容器 -->
+    <div id="toastContainer" style="position: fixed; top: 70px; right: 20px; z-index: 9999; min-width: 300px;"></div>
+    
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-custom navbar-compact">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">知乎阅读</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon navbar-toggler-icon-custom"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">首页</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/favorites">收藏</a>
+            </li>
+          </ul>
+          
+          <!-- 设置区域 -->
+          <div class="d-flex align-items-center gap-3">
+            <!-- 爬虫按钮 -->
+            <button id="crawlerBtn" class="btn btn-sm btn-success" onclick="startCrawler()">
+              爬取今日数据
+            </button>
+            
+            <!-- 数据源选择 -->
+            <div class="d-flex align-items-center">
+              <label for="dataDirSelect" class="form-label mb-0 me-2" style="white-space: nowrap;">数据源:</label>
+              <select id="dataDirSelect" class="form-select form-select-sm" style="width: auto;">
+                {% if available_dirs %}
+                  {% for dir in available_dirs %}
+                    <option value="{{ dir }}" {% if current_data_dir and dir in current_data_dir %}selected{% endif %}>{{ dir }}</option>
+                  {% endfor %}
+                {% endif %}
+              </select>
+            </div>
+            
+            <!-- 阈值设置 -->
+            <div class="d-flex align-items-center">
+              <label for="thresholdInput" class="form-label mb-0 me-2" style="white-space: nowrap;">最低赞数:</label>
+              <input type="number" id="thresholdInput" class="form-control form-control-sm" 
+                     style="width: 80px;" min="0" max="10000" step="100" 
+                     value="{{ current_threshold if current_threshold else 100 }}">
+            </div>
+            
+            <!-- 应用按钮 -->
+            <button id="applySettings" class="btn btn-sm btn-outline-custom-back">应用</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-3 mb-4 main-content-area">
       {% if self.page_title() and self.page_title()|striptags|trim %}
       <header class="page-header mb-4">
         <h1 class="display-5">{% block page_title %}{% endblock %}</h1>
@@ -27,8 +81,7 @@
     </div>
 
     <footer class="py-4 bg-custom-footer text-center">
-      <!-- 修改页脚背景 -->
-      <p class="mb-0 footer-text">© {{ now.year }} 内容导航应用</p>
+      <!-- <p class="mb-0 footer-text">© {{ now.year }} 内容导航应用</p> -->
     </footer>
 
     <script
@@ -36,6 +89,136 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    
+    <!-- 设置更新脚本 -->
+    <script>
+      // 消息提示函数
+      function showToast(message, type = 'info') {
+        const container = document.getElementById('toastContainer');
+        const toast = document.createElement('div');
+        toast.className = `alert alert-${type} alert-dismissible fade show`;
+        toast.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+        toast.innerHTML = `
+          ${message}
+          <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        `;
+        
+        container.appendChild(toast);
+        
+        // 3秒后自动消失
+        setTimeout(() => {
+          toast.classList.remove('show');
+          setTimeout(() => toast.remove(), 150);
+        }, 3000);
+      }
+      
+      // 爬虫功能
+      let crawlerCheckInterval = null;
+      
+      function startCrawler() {
+        const btn = document.getElementById('crawlerBtn');
+        const icon = document.getElementById('crawlerIcon');
+        
+        if (btn.disabled) return;
+        
+        btn.disabled = true;
+        btn.innerHTML = '<span class="spinner-border spinner-border-sm me-1"></span>启动中...';
+        
+        fetch('/api/start_crawler', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' }
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.status === 'success') {
+            showToast('爬虫已启动，正在爬取数据...', 'info');
+            // 开始轮询状态
+            checkCrawlerStatus();
+            crawlerCheckInterval = setInterval(checkCrawlerStatus, 2000);
+          } else {
+            showToast('启动失败: ' + data.message, 'danger');
+            btn.disabled = false;
+            btn.innerHTML = '爬取今日数据';
+          }
+        })
+        .catch(error => {
+          console.error('错误:', error);
+          showToast('启动爬虫时发生错误', 'danger');
+          btn.disabled = false;
+          btn.innerHTML = '爬取今日数据';
+        });
+      }
+      
+      function checkCrawlerStatus() {
+        fetch('/api/crawler_status')
+        .then(response => response.json())
+        .then(data => {
+          const btn = document.getElementById('crawlerBtn');
+          
+          if (data.is_running) {
+            btn.innerHTML = `<span class="spinner-border spinner-border-sm me-1"></span>${data.message}`;
+          } else {
+            // 爬虫已停止
+            if (crawlerCheckInterval) {
+              clearInterval(crawlerCheckInterval);
+              crawlerCheckInterval = null;
+            }
+            
+            btn.disabled = false;
+            btn.innerHTML = '爬取今日数据';
+            
+            if (data.message && data.message.includes('成功')) {
+              showToast(data.message + ' 页面即将刷新...', 'success');
+              setTimeout(() => window.location.reload(), 2000);
+            } else if (data.message && data.message.includes('错误')) {
+              showToast(data.message, 'danger');
+            }
+          }
+        })
+        .catch(error => {
+          console.error('状态检查错误:', error);
+        });
+      }
+      
+      // 设置更新
+      document.getElementById('applySettings')?.addEventListener('click', function() {
+        const dataDir = document.getElementById('dataDirSelect').value;
+        const threshold = parseInt(document.getElementById('thresholdInput').value);
+        
+        if (isNaN(threshold) || threshold < 0) {
+          showToast('请输入有效的阈值（大于等于0）', 'warning');
+          return;
+        }
+        
+        // 显示加载提示
+        this.disabled = true;
+        this.textContent = '加载中...';
+        
+        fetch('/api/update_settings', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ data_dir: dataDir, threshold: threshold })
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.status === 'success') {
+            showToast(`设置已更新！找到 ${data.total_items} 篇高质量内容`, 'success');
+            setTimeout(() => window.location.reload(), 1500);
+          } else {
+            showToast('更新失败: ' + data.message, 'danger');
+            this.disabled = false;
+            this.textContent = '应用';
+          }
+        })
+        .catch(error => {
+          console.error('错误:', error);
+          showToast('更新设置时发生错误', 'danger');
+          this.disabled = false;
+          this.textContent = '应用';
+        });
+      });
+    </script>
+    
     {% block extra_js %}{% endblock %}
   </body>
 </html>

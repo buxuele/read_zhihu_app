@@ -1,0 +1,750 @@
+{
+  "data": [
+    {
+      "id": "42_1768675028.649",
+      "type": "feed",
+      "offset": 42,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675028,
+      "updated_time": 1768675028,
+      "target": {
+        "preview_text": "",
+        "is_labeled": false,
+        "type": "article",
+        "visited_count": 15936,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "如果你跟我一样，手里有几台散落在不同地方的设备——比如家里的NAS、公司的开发机、自己随身的笔记本——那你肯定也折腾过怎么让它们方便地互相访问。 这事儿我折腾了好几年。 最开始，我用 frp 这类内网穿透工具。这东西很强，但有个绕不开的前提：你得有台公网服务器。为了这个“中转站”，我得花钱买服务器、操心续费、还得花时间配置和维护它。后来我又试了 ZeroTier 和 Tailscale，它们确实方便了很多，不用自己买服务器了…",
+        "preview_type": "default",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/articles/1925956150219768606",
+        "title": "别再折腾FRP了！我用这个开源神器，让你无需公网IP，也能随时随地访问家里的任何设备",
+        "voting": 0,
+        "comment_permission": "all",
+        "image_url": "https://pic1.zhimg.com/v2-b4342b867dfe24a3a1bea7c8af39b5ed.jpg?source=7e7ef6e2&needBackground=1",
+        "created": 1751963801,
+        "updated": 1751963801,
+        "comment_count": 41,
+        "excerpt": "如果你跟我一样，手里有几台散落在不同地方的设备——比如家里的NAS、公司的开发机、自己随身的笔记本——那你肯定也折腾过怎么让它们方便地互相访问。 这事儿我折腾了好几年。 最开始，我用 frp 这类内网穿透工具。这东西很强，但有个绕不开的前提：你得有台公网服务器。为了这个“中转站”，我得花钱买服务器、操心续费、还得花时间配置和维护它。后来我又试了 ZeroTier 和 Tailscale，它们确实方便了很多，不用自己买服务器了…",
+        "favorite_count": 954,
+        "id": "1925956150219768606",
+        "author": {
+          "url": "https://api.zhihu.com/people/0be093335ae6e25db7fd6693a1d817ba",
+          "user_type": "people",
+          "url_token": "ye-xu-huan-hui-ai-13",
+          "name": "一只会飞的旺旺",
+          "is_followed": false,
+          "id": "0be093335ae6e25db7fd6693a1d817ba",
+          "headline": "一只会飞的旺旺",
+          "avatar_url": "https://picx.zhimg.com/50/v2-6a75ce45db6a95a63617eaf36a309554_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 118,
+          "is_following": false
+        },
+        "article_type": "normal",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "voteup_count": 174,
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-b4342b867dfe24a3a1bea7c8af39b5ed.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-8d1b6e73c9cce42f55e6c80d10d23fad_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-af12686f89e61baa4f7a45940e76380f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a6ca2e105c6299637b103c2a84db2e1c_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-f905b4fe333b0054d5295255b044568d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-288eec284c70e5053e13b3e4c07554e8_720w.jpg?source=b6762063"
+        ],
+        "content": "<p></p><p data-pid=\"p8lExI_g\">如果你跟我一样，手里有几台散落在不同地方的设备——比如家里的NAS、公司的开发机、自己随身的笔记本——那你肯定也折腾过怎么让它们方便地互相访问。</p><p data-pid=\"VxKKx596\">这事儿我折腾了好几年。</p><p data-pid=\"o0Ez6Lox\">最开始，我用 frp 这类内网穿透工具。这东西很强，但有个绕不开的前提：你得有台公网服务器。为了这个“中转站”，我得花钱买服务器、操心续费、还得花时间配置和维护它。后来我又试了 ZeroTier 和 Tailscale，它们确实方便了很多，不用自己买服务器了，在官网点点鼠标就能组网。</p><p data-pid=\"AWoUsxgo\">但用久了还是觉得“差点意思”。ZeroTier 的免费节点在国外，有时候连接慢得像上世纪的拨号上网。想快？可以自建 Moon 中继，但这不又回到了“我得有台公网服务器”的原点吗？Tailscale 也是同理，官方的控制台虽好用，但想完全掌控，就得去折腾 Headscale 自建。</p><p data-pid=\"sZlTHCec\">我就是想简单地把<b>我自己的几台设备</b>连起来，仅此而已，为什么总要依赖一个“中心”？</p><p data-pid=\"9MNctfgm\">直到我扒拉 GitHub 的时候，翻到了 <b>EasyTier</b>。它的简介就一句话：一个用 Rust 写的 P2P 组网工具。我试了一下，好家伙，这正是我要找的“简单粗暴”的解决方案。</p><h3><b>一、动手前，先想明白一件事：你是要“开店”还是“回家”？</b></h3><p data-pid=\"wCqP8VdG\">在折腾这些工具之前，我踩过最大的坑就是没分清需求。其实就两类：</p><ol><li data-pid=\"0wixkumo\">1. <b>开店迎客 (服务发布):</b> 你想把内网的某个网站或服务，让<b>任何人</b>都能通过一个域名访问到。这时候你用 <b>frp、natapp、Cloudflare Tunnel</b> 这类工具最合适。它们就像是给你在内网的小店，在互联网这条商业街上租了个临街门面。</li><li data-pid=\"vw1nRYMp\">2. <b>配一把家门钥匙 (设备组网):</b> 你只想让你<b>自己的设备</b>（或者和你信得过的朋友）能互相访问，形成一个私密的圈子。这时候 <b>ZeroTier、Tailscale、EasyTier</b> 才是正解。它们等于给了你一套加密的对讲机，只有在同一个频道的人才能通话。</li></ol><p data-pid=\"cIw263ng\">对于大多数“个人使用”场景，我们真正需要的是<b>设备组网</b>，而不是把家里的服务暴露给全世界。明确了这一点，我们再来看看今天的主角 EasyTier。</p><h3><b>主流工具横向对比：Easytier到底牛在哪？</b></h3><p data-pid=\"K3j_ccXj\">废话不多说，直接上表格，让你一目了然。</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>特性</td><td>Easytier</td><td>ZeroTier / Tailscale</td><td>FRP / Natapp</td><td>Cloudflare Tunnel</td></tr><tr><td>核心原理</td><td>P2P虚拟局域网</td><td>P2P虚拟局域网</td><td>端口转发</td><td>端口转发/虚拟网络</td></tr><tr><td>配置复杂度</td><td>极低</td><td>低</td><td>高</td><td>中等</td></tr><tr><td>依赖公网IP</td><td>需要（但可共用）</td><td>不需要</td><td>需要</td><td>不需要</td></tr><tr><td>中心化依赖</td><td>完全去中心化</td><td>依赖官方控制器</td><td>自建服务端，半中心化</td><td>依赖Cloudflare</td></tr><tr><td>安全性/隐私</td><td>极高（流量端到端加密）</td><td>高（依赖官方）</td><td>中等（取决于自己配置）</td><td>高（依赖Cloudflare）</td></tr><tr><td>使用场景</td><td>个人/小团队私有网络</td><td>个人/企业级便捷组网</td><td>将内网服务暴露到公网</td><td>将服务接入CF生态</td></tr><tr><td>我的评价</td><td>简单、私密、自由</td><td>最方便，但有束缚</td><td>功能强大，但太折腾</td><td>免费用户的福音，但有绑定</td></tr></tbody></table><p data-pid=\"o7IrmXyc\"><b>一句话总结：</b></p><ul><li data-pid=\"BISb1mEr\">• <b>FRP</b>：适合需要将服务（如网站）明确暴露到公网的场景。</li><li data-pid=\"IxwczKcD\">• <b>ZeroTier/Tailscale</b>：追求极致方便，不介意依赖第三方服务的个人和团队首选。</li><li data-pid=\"71GQ6CD-\">• <b>Cloudflare Tunnel</b>：如果你已经是Cloudflare用户，用它整合服务体验极佳。</li><li data-pid=\"SodJFgpK\">• <b>Easytier</b>：<b>想要ZeroTier的方便，又想要FRP的自主可控，那么Easytier就是为你量身定做的。</b></li></ul><h3><b>二、Easytier 实战：三步搭建你的专属私有网络</b></h3><p data-pid=\"5OnC2wP9\"><b>项目地址</b>: <a href=\"https://link.zhihu.com/?target=https%3A//easytier.cn\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">easytier.cn</span><span class=\"invisible\"></span></a></p><ul><li data-pid=\"QxycbcPa\">•  ️安装 CLI 页面 可查看安装命令行工具的方法。</li><li data-pid=\"idZld3SN\">•  ️安装 GUI 页面 可查看安装图形界面工具的方法。</li><li data-pid=\"qGdTVuGs\">• ⬇️下载页面 可获取最新版本 EasyTier 的下载链接。</li></ul><p data-pid=\"QuNXgSg3\">以GUI为例,我们下载之后安装即可</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b4342b867dfe24a3a1bea7c8af39b5ed_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1145\" data-rawheight=\"740\" data-original-token=\"v2-b4342b867dfe24a3a1bea7c8af39b5ed\" class=\"origin_image zh-lightbox-thumb\" width=\"1145\" data-original=\"https://pic2.zhimg.com/v2-b4342b867dfe24a3a1bea7c8af39b5ed_r.jpg\"/><figcaption>image-20250629122714749</figcaption></figure><p data-pid=\"bRuSd4e3\">我们只需要配置一个网络名称和密码,保持默认的公共服务器配置,点击运行网络,就完成操作了!</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-da9470a7419e14e59a4034b0b9c319da_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"720\" data-original-token=\"v2-da9470a7419e14e59a4034b0b9c319da\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-da9470a7419e14e59a4034b0b9c319da_r.jpg\"/><figcaption>image-20250629122832070</figcaption></figure><p data-pid=\"_ATpVUTi\">然后,我们在另外一个设备上执行同样的操作,如手机上!APP也在刚刚的地址进行下载!</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b2197f5c7c41a3551604dca1b4999539_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1440\" data-rawheight=\"3168\" data-original-token=\"v2-b2197f5c7c41a3551604dca1b4999539\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://picx.zhimg.com/v2-b2197f5c7c41a3551604dca1b4999539_r.jpg\"/><figcaption>image-20250629123220272</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9f9fe29f12ba7729c7f0c6efbabf29ee_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"720\" data-original-token=\"v2-9f9fe29f12ba7729c7f0c6efbabf29ee\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-9f9fe29f12ba7729c7f0c6efbabf29ee_r.jpg\"/><figcaption>image-20250629123229453</figcaption></figure><p data-pid=\"2h3-Entz\">这样组网就成功了,我们就可以用这个虚拟的ipv4地址互相连接了! 比如我用手机通过虚拟IP远程电脑!</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-31536823cd06864f817e443974ab53ef_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"415\" data-rawheight=\"783\" data-original-token=\"v2-31536823cd06864f817e443974ab53ef\" class=\"content_image\" width=\"415\"/><figcaption>image-20250629123616788</figcaption></figure><h3><b>三、搭建共享节点</b></h3><p data-pid=\"WrU4wATH\">你已经学会了最基础的“一个介绍人（Server） + N个客户端（Client）”模式，这对于大多数场景已经够用。但如果你是下面这几种人：</p><ul><li data-pid=\"Hi1yT0_u\">• <b>极致的掌控者：</b> 不希望自己的网络依赖于任何单一的服务器。</li><li data-pid=\"-xI38kdf\">• <b>高可用追求者：</b> 万一那台唯一的公网VPS挂了怎么办？整个网络就瘫痪了！</li><li data-pid=\"N2YSmTn2\">• <b>乐于分享者：</b> 想和几个朋友共建一个稳定、互备的网络基础设施。</li></ul><p data-pid=\"NoDb9VaI\">那么，欢迎来到Easytier的精髓所在：<b>自建高可用、去中心化的“根”节点网络</b>。</p><p data-pid=\"GiBNMQpE\">官方提供了一些共享节点,<b>地址</b> : <a href=\"https://link.zhihu.com/?target=https%3A//easytier.gd.nkbpal.cn/status/easytier\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">easytier.gd.nkbpal.cn/s</span><span class=\"invisible\">tatus/easytier</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"PblJPJLh\">同样的,如果你有云服务器,也可以选择自建节点,执行下面两个命令</p><div class=\"highlight\"><pre><code class=\"language-text\">wget -O /tmp/easytier.sh &#34;https://raw.githubusercontent.com/EasyTier/EasyTier/main/script/install.sh&#34; &amp;&amp; bash /tmp/easytier.sh install\neasytier-core --ipv4 10.144.144.1</code></pre></div><p data-pid=\"k5_3O_jt\">然后一个自用的服务器,就搭建好了,只需要在GUI界面调整为自己服务器的IP,端口默认是11010,如下图.</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0042f8fd7d377802a8c5a1ec258aadb3_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"720\" data-original-token=\"v2-0042f8fd7d377802a8c5a1ec258aadb3\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://picx.zhimg.com/v2-0042f8fd7d377802a8c5a1ec258aadb3_r.jpg\"/><figcaption>image-20250629124834143</figcaption></figure><p data-pid=\"XEhUlwHu\">就可以正常使用了!针对这款软件的更多高级配置,可以前往官方查看教程!</p><h3><b>四、常见问题 FAQ</b></h3><p data-pid=\"H5EsQVZA\"><b>Q1: 我没有公网服务器怎么办？</b><br/><b>A:</b> Easytier的精髓就在于P2P直连，服务器只做“牵线”。你可以和三五好友合租一台最便宜的境外VPS，成本极低。或者，直接使用官方提供的公共服务器!</p><p data-pid=\"bi1DR95y\"><b>Q2: 连接上了，但是ping不通，速度很慢？</b><br/><b>A:</b> 99%的可能性是P2P打洞失败，流量正在通过你的低配服务器进行转发。检查：</p><ol><li data-pid=\"MIzYFm-a\">1. 客户端所在的网络防火墙是否限制了UDP通信（比如某些严格的公司网络）。</li><li data-pid=\"gKkvgeHa\">2. NAT类型是否过于严格（比如多层NAT）。<br/>不过，即使转发，基本的功能访问也是没问题的，只是速度慢一些。</li></ol><p data-pid=\"6M0ehuxb\"><b>Q3: Easytier安全吗？</b><br/><b>A:</b> 非常安全。首先，你的网络是完全私有的，由你自己的密码保护。其次，所有节点之间的通信都经过了端到端加密。只要你的服务器和密码不泄露，这就是你的专属加密通道。</p><p data-pid=\"qg2U0kv0\"><b>Q4: 和ZeroTier相比，它到底有什么杀手级优势？</b><br/><b>A:</b> <b>自主可控！</b> 你的网络拓扑、成员、IP分配，所有的一切都由那个小小的 <code>easytier</code> 程序在你自己的服务器上处理，不经过任何第三方。对于有数据洁癖和想深入理解网络原理的人来说，这种掌控感是无价的。</p><h3><b>总结：哪一个才是你的菜？</b></h3><p data-pid=\"z9Mh1YOq\">工具没有最好的，只有最合适的。</p><ul><li data-pid=\"CXO77HFV\">• 如果你需要<b>对外发布服务</b>，让公网用户访问，请选择 <b>frp</b> 或 <b>Cloudflare Tunnel</b>。</li><li data-pid=\"ix3OeN4S\">• 如果你是<b>个人开发者或数码爱好者</b>，只想简单、快速地将自己的几台电脑、服务器、NAS组成一个“私有互联网”，并且<b>极其看重简单性</b>，讨厌复杂的配置，那么 <b>EasyTier</b> 绝对值得一试。它的去中心化理念和极简的上手体验，能为你节省大量时间。</li><li data-pid=\"iKh20H6s\">• 如果你在寻找一个<b>功能全面、生态成熟、有商业支持</b>的团队或企业级组网方案，或者你需要频繁在手机端使用，那么 <b>Tailscale</b> 和 <b>ZeroTier</b> 依然是当前最稳妥、最强大的选择。</li></ul><p data-pid=\"GBSpAlsr\">对我个人而言，EasyTier 已经成为我个人设备组网的首选工具。它完美地满足了我对“简单、可靠、自己掌控”的需求。希望这篇文章能帮你理清思路，找到最适合你的那个“它”。</p><p></p>"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1925956150219768606}",
+      "attached_info": "CusICOvt8cy4t4ySrAEQBxoJMjYwMDY0NzA5IJmxs8MGKK4BMClAKkowCgZJdGVtQ0YSIGRvY190eXBlOiBBcnRpY2xlCmlkOiAyNDQ0NDQyNjIKGAAgADoAYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTkyNTk1NjE1MDIxOTc2ODYwNoIBX2h0dHBzOi8vcGljMS56aGltZy5jb20vdjItYjQzNDJiODY3ZGZlMjRhM2ExYmVhN2M4YWYzOWI1ZWQuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xqgEJcmVjb21tZW5kwgEgMGJlMDkzMzM1YWU2ZTI1ZGI3ZmQ2NjkzYTFkODE3YmHyAQoIDBIGTm9ybWFs8gEoCAoSJDFmMzJlYTQyLTk2ZDQtNDFhYS1iNmFkLWRiNGE0MmJiNGI0NvIBBQgLEgE4ggIAiALa2fzpvDOSAiAwYmUwOTMzMzVhZTZlMjVkYjdmZDY2OTNhMWQ4MTdiYZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCBkl0ZW1DRugCAvoCC05PUk1BTF9GTE9XigMgNmMyNTE0ZjI0ZDJjNGUyYzllODg1ZDkzOGIwZTVjYTSaAw0KAnYyEAAaBW90aGVyqAPAfNgDAOoDFXRleHRBbGxTaXRlTXZJdGVtQ0ZWMvoDuQISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhD5CBjkBSIjdjItYjQzNDJiODY3ZGZlMjRhM2ExYmVhN2M4YWYzOWI1ZWQ6LQgCEKAGGNAFIiN2Mi1kYTk0NzBhNzQxOWUxNGU1OWE0MDM0YjBiOWMzMTlkYTotCAIQoAsY4BgiI3YyLWIyMTk3ZjVjN2M0MWEzNTUxNjA0ZGNhMWI0OTk5NTM5Oi0IAhCgBhjQBSIjdjItOWY5ZmUyOWYxMmJhNzcyOWM3ZjBjNmVmYmFiZjI5ZWU6LQgCEJ8DGI8GIiN2Mi0zMTUzNjgyM2NkMDY4NjRmODE3ZTQ0Mzk3NGFiNTNlZjotCAIQoAYY0AUiI3YyLTAwNDJmOGZkN2QzNzc4MDJhOGM1YTFlYzI1OGFhZGIzgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwMUxiT+BBQAAAAAAAAAAiQXwmeaauBKzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIkAYAoAYqqAYBkgIuCgkyNjAwNjQ3MDkSEzE5MjU5NTYxNTAyMTk3Njg2MDYYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "43_1768675028.969",
+      "type": "feed",
+      "offset": 43,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675028,
+      "updated_time": 1768675028,
+      "target": {
+        "thanks_count": 77,
+        "question": {
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/283586476",
+          "created": 1530518585,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "user_type": "people",
+            "url_token": "peng-yan-24-50",
+            "headline": "工科研究生",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-cc3356557a8f671b4813e0c459f6fbb3_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/fbc6a76eeadd4a1a54d69313e4b210dd",
+            "is_followed": false,
+            "name": "彭炎",
+            "is_org": false,
+            "id": "fbc6a76eeadd4a1a54d69313e4b210dd"
+          },
+          "answer_count": 0,
+          "comment_count": 29,
+          "is_following": false,
+          "question_type": "normal",
+          "id": "283586476",
+          "title": "为什么有人说《平凡的世界》是被过誉的名著？",
+          "bound_topic_ids": [
+            99,
+            307,
+            1309,
+            2058,
+            13322
+          ],
+          "excerpt": "",
+          "detail": ""
+        },
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "segment_infos": [
+          {
+            "pid": "L8ReUeOf",
+            "text": "路遥平凡的世界这本书所有的问题，其实都绕不过这样一个词：控制欲。不是故事真不真，不是人物动不动人，而是整本书的叙述视角、价值判断、人物命运、语言情绪，都被一只极其强势的作者之手牢牢攥着。外面看去，这是一部体量庞大的现实主义长篇小说，拆开来看，却是所有内容都在很生硬的配合这只手的意志运行。",
+            "marks": [
+              {
+                "start_index": 116,
+                "end_index": 144,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995149496733165386"
+                  ],
+                  "is_like": false,
+                  "like_count": 10,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "zl2aSupY",
+            "text": "这样做就等于把人物复杂性全部消磨了。真正有深度的人物，是那种你一时抓不住他的底牌的人。他可以整体上是善良的，但在某一刻为了一个目的也会做出让自己都羞耻的事。他可以一边担当，一边在心里厌烦那些被他担当的人。",
+            "marks": [
+              {
+                "start_index": 18,
+                "end_index": 102,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993811185825515200"
+                  ],
+                  "is_like": false,
+                  "like_count": 9,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bFQlHFA4",
+            "text": "于是整部小说里的角色呈现出一种泾渭分明的分布：主角们好得很一致，配角们坏得很随便。路遥直接把主角身上同样可能存在的自私、算计、恶意，很大一部分被挪到了配角身上。主角也会犯错，但那些错通常不会真正脏到让人厌恶，最多只能算阶段性的迷失、环境压迫下的糊涂。这样直接处理的直接好处，是读者很容易爱上这些人、信任这些人，把他们当作应该如何做人的样本。代价则是，人性的灰度地带被作者清理得过于干净，人物的复杂性被道德工程完全盖了过去。",
+            "marks": [
+              {
+                "start_index": 23,
+                "end_index": 41,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994383040261157977"
+                  ],
+                  "is_like": false,
+                  "like_count": 9,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "-m7O-dx0",
+            "text": "但是平凡的世界到这里选择了第三条路：洪水。洪水并不是完全失真，它在中国乡村语境下完全说得过去，但它在叙事结构中太过恰到好处，甚至可以说十分刻意。洪水来的时间，刚好卡在感情最炽烈、双方都还没表现出任何犹豫的时候。来的方式，也刚好赋予了田晓霞最高强度、最毋庸置疑的崇高死亡：舍己救人，在第一线、在工作中。这场洪水一举做了三件事：第一，它一次性切掉了所有绕不开的现实难题：家庭施压、单位阻力、舆论眼光、婚后生活的琐碎磨损，都在这一刻统统不必面对。第二，它把一段具体的感情升华成了纯粹的理想。只要两个人活着，哪怕再相爱的恋人，也免不了走到鸡毛蒜皮的琐碎里去。死在巅峰，意味着以后的现实永远碰不到这段爱情，它永远停留在最热烈、最完美的状态。第三，它把孙少平的命运强行按回苦难—升华的轨道。原本如果顺着现实写下去，他有可能通过晓霞获得新的平台、新的身份，会变成另外一种新故事。洪水把这一切通通夺走，让他在失去爱情、背负巨大创伤的前提下，继续以矿工和底层劳动者的身份往前活，更适合被写成那种在最黑暗的地方仍然保持着尊严的精神符号。",
+            "marks": [
+              {
+                "start_index": 275,
+                "end_index": 315,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995076064175749097"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Bew_okts",
+            "text": "但这场洪水，也标志着路遥对整部小说的彻底失去控制，从这里开始，我相信很多读者就已经开始不想读下去了，接下来的小说明显从生活推着人物走偏向人物替作者完成道德任务。少平身上的人物感被惨白的道德挤压，后面的一系列安排——金秀的告白、他选择留下矿井、他一次次拒绝更轻松体面的路径，都带着很强烈的配合设定的味道。你不难被这些情节感动，可你同时也非常清楚地意识到：他之所以这样活，不再只是因为生活只能给他这条路，而是因为作者需要他维持在这个位置上。人物的动向，此后越来越不像被生活逼出来的必然选择，而更像为了配合既定精神轨道的安排。圣徒感开始压过活人感，人物命运开始为作者的价值工程让路。",
+            "marks": [
+              {
+                "start_index": 176,
+                "end_index": 288,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994510885025244179"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "0FjjHWZG",
+            "text": "把这些东西串在一起，其实就能看清楚，平凡的世界的问题在哪里了，这本书的主要问题都根在同一条线上：作者对叙述权、对人物命运、对情绪节奏，有一种极强的一种掌控欲。他真诚、用力、投入，把自己相信的一切都压在这部小说里，但也正因为这份过分用力，他不太愿意把空间让给人物，让给读者，让给那些脏污、暧昧、无法轻易说清的地带。对很多读者来说，这种过度控制带来了无脑的阅读感，带来了被人生教育的畅快感。站在小说本身的角度，它则带来了叙述者抢戏、人物灰度不足、关键情节补丁感太重、语言持续高烧、结构冗长松散这些一处一处看得见的裂缝。可以说，从励志角度来看，它当然好看、真诚、有力量，但就文学性来说，离一部在叙事艺术上无懈可击的经典，还有相当的距离。",
+            "marks": [
+              {
+                "start_index": 79,
+                "end_index": 156,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995326403495892400"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "updated_time": 1768119570,
+        "comment_count": 109,
+        "excerpt": "路遥平凡的世界这本书所有的问题，其实都绕不过这样一个词：控制欲。不是故事真不真，不是人物动不动人，而是整本书的叙述视角、价值判断、人物命运、语言情绪，都被一只极其强势的作者之手牢牢攥着。外面看去，这是一部体量庞大的现实主义长篇小说，拆开来看，却是所有内容都在很生硬的配合这只手的意志运行。 小说最刺眼的地方，是叙述者的不断现身说法。 通常的长篇叙事，是人物领着读者不断往前走：人物在前面演义各种故事，…",
+        "excerpt_new": "路遥平凡的世界这本书所有的问题，其实都绕不过这样一个词：控制欲。不是故事真不真，不是人物动不动人，而是整本书的叙述视角、价值判断、人物命运、语言情绪，都被一只极其强势的作者之手牢牢攥着。外面看去，这是一部体量庞大的现实主义长篇小说，拆开来看，却是所有内容都在很生硬的配合这只手的意志运行。 小说最刺眼的地方，是叙述者的不断现身说法。 通常的长篇叙事，是人物领着读者不断往前走：人物在前面演义各种故事，…",
+        "reshipment_settings": "disallowed",
+        "author": {
+          "url_token": "wen-yi-zai-dao-7",
+          "gender": 1,
+          "followers_count": 65174,
+          "id": "d038e13b49b7411d468e414412ef054a",
+          "url": "https://api.zhihu.com/people/d038e13b49b7411d468e414412ef054a",
+          "user_type": "people",
+          "is_org": false,
+          "badge": [
+            {
+              "topic_ids": [
+                2058
+              ],
+              "type": "best_answerer",
+              "description": "文学话题下的优秀答主",
+              "topic_names": [
+                "文学"
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜社科人文领域影响力榜答主"
+            }
+          ],
+          "is_following": false,
+          "is_followed": false,
+          "name": "鞭临天下",
+          "headline": "用爱发电，爱看不看，请勿关注，随时停更。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9c3886256908fe75077aa82eca4c0d76_l.jpg?source=b6762063"
+        },
+        "voteup_count": 806,
+        "navigator_vote": false,
+        "id": "1993668804031561782",
+        "url": "https://api.zhihu.com/answers/1993668804031561782",
+        "preview_text": "",
+        "content": "<p data-pid=\"L8ReUeOf\">路遥平凡的世界这本书所有的问题，其实都绕不过这样一个词：控制欲。不是故事真不真，不是人物动不动人，而是整本书的叙述视角、价值判断、人物命运、语言情绪，都被一只极其强势的作者之手牢牢攥着。外面看去，这是一部体量庞大的现实主义长篇小说，拆开来看，却是所有内容都在很生硬的配合这只手的意志运行。</p><p data-pid=\"uUL_tcMK\">小说最刺眼的地方，是叙述者的不断现身说法。</p><p data-pid=\"PdecH9lN\">通常的长篇叙事，是人物领着读者不断往前走：人物在前面演义各种故事，读者跟在后面看，叙述者在读者背后悄悄掌舵——偶尔提醒你哪里需要多看一眼，但不会每一步都站出来讲解。</p><p data-pid=\"sa7vW5e9\">而在这本书里，很少有这种克制，叙述者更像站在舞台中央的人：一会儿招呼这个人物上台，一会儿转过头对观众说你们看看，这就是人生。前面铺一段生活，后面接一大截讲解。</p><p data-pid=\"slh3NpUF\">比如孙少平在县中学打饭那段，他端着丙等饭，故意挑人少的时间去，排队时眼睛盯着地面，生怕别人看到自己的饭盆，明明饿得慌，却要装出若无其事的样子，假装只是随便吃一口。这几笔已经很有力量了：贫穷的窘迫、自尊的敏感、少年特有的要强，都埋在这个动作里。如果往下顺着写，可以让读者通过他在对某些话题的躲闪，对社会某些东西的羡慕，慢慢体会这个少年在贫穷和羞耻之间挣扎的状态。</p><p data-pid=\"sBODw_Iq\">但书中的处理方式，往往是紧接着插入一大段类似贫穷对一个少年的摧残、这种孩子往往会怎样怎样的议论。叙述者跳出来，直接把这件事的意义抽象成某类人某个阶段的必然体验，甚至顺手给出一套应该如何理解他们的态度。读者还没有来得及在这个画面里多停两秒，人物也还没来得及用自己的后续行为说话，叙述者已经把这件事的正确解读方式提前抛出来了。</p><p data-pid=\"bZbqP_rp\">这种讲解在少平失恋那一段尤其明显。郝红梅投向顾养民之后，他一个人在黄昏的河滩上乱走，心里既屈辱又愤怒，既怨别人又嫌自己。按理说，这里完全可以留出一段长一点的空白时间：让他在接下来几天里表现出一些极端的冷淡、怪异的沉默，或者某种报复心态，让读者自己去推断主人公的内心走势。可是小说非常着急地安排叙述者站出来安慰读者——也是安慰人物：原谅他吧，想想我们十七八岁的时候，青春就是这样，火山喷发式的情感，总要闹出一点糊涂事，不必太严厉苛责。</p><p data-pid=\"TXnQtEUF\">类似的语气在书里一再出现，几乎成了一种固定模板：一旦人物在小说里出现较了比较难看的一面，叙述者就会主动跳出来火速出来替他求情、替他解释，再顺手上升到人生阶段的高度。</p><p data-pid=\"XSRspci7\">这样一来，首先是抢戏。本可以让人物用更长时间自己消化的情绪，被叙述者抢先替他拉直。本可以通过行为展现的内心演变，被几句说得通的人生哲理打包概括。读者原本可以在细节里琢磨，他为什么这样做、他下一步可能会怎样，现在不用想了，叙述者已经替你打好了草稿答案。</p><p data-pid=\"2T1IPd2N\">其次是磨灭了小说的想象空间。</p><p data-pid=\"IYs1bFk7\">小说里很多场景本来可以故意保持模糊：一个人被羞辱之后，是更容易恨别人，还是更容易自我厌弃。一个少年被抛弃之后，会在心底对爱情到底生出什么样的暗影，这些东西完全可以不去完全说破，留给读者和人物共享。</p><p data-pid=\"ZkK9ZXrw\">但现身说法的叙述习惯，总是要替这些模糊处下结论——青春期都是这样的，任何人在那种环境里都会犯错，只要后来成长起来就好。这种处理方式很容易让读者舒坦，毕竟不用去动脑子了，因为它替每一段狼狈都找到了合理解释，同时也让小说本来可以尖锐的、难堪的、无法轻易和解的部分，被提前抚平了。</p><p data-pid=\"zl2aSupY\">这样做就等于把人物复杂性全部消磨了。真正有深度的人物，是那种你一时抓不住他的底牌的人。他可以整体上是善良的，但在某一刻为了一个目的也会做出让自己都羞耻的事。他可以一边担当，一边在心里厌烦那些被他担当的人。</p><p data-pid=\"6pu5YbmT\">这种冲突感越强，人就越立体。而在平凡的世界里，主角身上刚露出一点这种危险的苗头，叙述者就会用谁在那种情况下不这样和他很快就醒悟了把它掩饰回去。人物起心动念的部分，没有被让出来足够的空间，很多东西是在还没来得及长成问题之前就被解释成问题已经解决了。</p><p data-pid=\"0pQeKNtl\">叙述者这种强势的控制欲，顺势延伸到了人物塑造上。</p><p data-pid=\"2QkAXXDH\">你把书里几个最重要的人物摊开，同时看一看，很难不发现一个共同的底色：他们都被路遥毫无分别塑造成了同一种值得敬重的好人。孙少平自尊、敏感、倔强，不肯向权势低头，不肯靠讨好获得机会，有羞耻心，有理想感，肯吃苦。孙少安条件不同，但也是那种肯背家庭、扛风险的人，在金钱与脸面之间，在自己轻松和家里撑得住之间，往往选后者。田晓霞作为城市青年，有知识，有平台，写稿子敢说真话，既不装腔作势，也不玩姿态，对农民和矿工发自内心尊重。田福军有权力，在官场里尽量保持清醒，不愿完全沦为冷漠的机器，真心想在政策空间里尽量为农民争取一点好处，不愿完全被权力和私利吞没。</p><p data-pid=\"x_PV7zKt\">换一个说法，他们都是：</p><p data-pid=\"2qFztTFU\">能吃苦、有担当、有羞耻心、讲道理、愿意为别人牺牲的人。区别主要是站在哪个位置上，而不是内心结构截然不同。他们当然各有失败和困惑的时刻，可这些所谓的失败和困惑，很少真正把他们往阴暗处推。真正小肚鸡肠的、真正想走捷径的、真正恶毒的念头，在这些主角身上通常只是一闪而过，转瞬就被叙述者解释成人在这种境况下难免如此、稍微想一想他又后悔了。人物的阴影尚未展开成一条独立的线，就已经被收回、洗净。</p><p data-pid=\"TigVvVA-\">与此相对，小说里那些反面人物则被高度工具化。村里总要有人负责搬弄是非，县里总要有人负责仗势欺人，矿里总要有人负责贪小便宜、抢功劳。</p><p data-pid=\"lj9M6m5K\">他们出场时功能非常明确：在这个节点给主角一记打击，在那个节点挡主角一条路。等任务完成之后，这个人常常就完全退到背景里，不再出现，很少再被当作一个复杂的人去写。你很难记住他们，除了记得这是那个欺负过谁谁谁的人。</p><p data-pid=\"bFQlHFA4\">于是整部小说里的角色呈现出一种泾渭分明的分布：主角们好得很一致，配角们坏得很随便。路遥直接把主角身上同样可能存在的自私、算计、恶意，很大一部分被挪到了配角身上。主角也会犯错，但那些错通常不会真正脏到让人厌恶，最多只能算阶段性的迷失、环境压迫下的糊涂。这样直接处理的直接好处，是读者很容易爱上这些人、信任这些人，把他们当作应该如何做人的样本。代价则是，人性的灰度地带被作者清理得过于干净，人物的复杂性被道德工程完全盖了过去。</p><p data-pid=\"mmNrIzJ0\">在这样的道德氛围里，最棘手的问题集中到了一点上：</p><p data-pid=\"uPpA6qtP\">田晓霞要怎么办。</p><p data-pid=\"jOk9zJfV\">她一出场，就明显被安排在了小说理想化的位置：作为记者，她有敏锐的观察力，有同情心，有勇气跑到最艰苦的地方采访。作为城市人，她却不轻蔑农村，不轻视矿工，能和孙少平平视相对。作为年轻女性，她在情感上干净利落，不玩欲擒故纵，不拿身份做筹码。在这样的设定下，她和孙少平之间的感情，很自然地带上了超出个人的意味：那其实不只是一个农村小伙子和城里姑娘的恋爱，它象征着底层与上层之间一种罕见的平等对话，一种跨阶层的互相看见。</p><p data-pid=\"iE8225Vk\">也正因为如此，这条线如果顺着生活逻辑往下走，会立刻触到一团作者非常不好处理的现实。假如这段感情顺利走向婚姻，孙少平的阶层位置会发生根本性的变化：他不再只是一个矿工，而是通过婚姻直接连接到了一个有权力、有渠道、有话语的圈层。这样一来，他的典型性就会动摇，平凡世界的一员变成了某种意义上的幸运儿。小说前面极力强调的那种在原有位置上靠人格和劳作挣来的尊严，就会遭到读者质疑：少平后来的人生路，到底是靠自己的劳动打开的，还是靠这段跨阶层的亲密关系？反过来，如果让他们因为家庭出身、单位压力等现实因素最终分手，那就必须写田晓霞的退缩、妥协、分裂，而她作为理想人格象征的光环就会开始动摇。她可能要像很多我们现实中的青年一样，在父母的强势要求、体制的隐性规则面前一步步让步，这样一来，她就不再是那个干净通透的带有光环的象征，而是一个和别人一样被结构挤压的人。</p><p data-pid=\"pqcVWhUM\">这两条路，无论走哪一条，都要求作者以同样的力度对待田晓霞、对待阶层、对待亲密关系的现实缠绕。</p><p data-pid=\"-m7O-dx0\">但是平凡的世界到这里选择了第三条路：洪水。洪水并不是完全失真，它在中国乡村语境下完全说得过去，但它在叙事结构中太过恰到好处，甚至可以说十分刻意。洪水来的时间，刚好卡在感情最炽烈、双方都还没表现出任何犹豫的时候。来的方式，也刚好赋予了田晓霞最高强度、最毋庸置疑的崇高死亡：舍己救人，在第一线、在工作中。这场洪水一举做了三件事：第一，它一次性切掉了所有绕不开的现实难题：家庭施压、单位阻力、舆论眼光、婚后生活的琐碎磨损，都在这一刻统统不必面对。第二，它把一段具体的感情升华成了纯粹的理想。只要两个人活着，哪怕再相爱的恋人，也免不了走到鸡毛蒜皮的琐碎里去。死在巅峰，意味着以后的现实永远碰不到这段爱情，它永远停留在最热烈、最完美的状态。第三，它把孙少平的命运强行按回苦难—升华的轨道。原本如果顺着现实写下去，他有可能通过晓霞获得新的平台、新的身份，会变成另外一种新故事。洪水把这一切通通夺走，让他在失去爱情、背负巨大创伤的前提下，继续以矿工和底层劳动者的身份往前活，更适合被写成那种在最黑暗的地方仍然保持着尊严的精神符号。</p><p data-pid=\"Bew_okts\">但这场洪水，也标志着路遥对整部小说的彻底失去控制，从这里开始，我相信很多读者就已经开始不想读下去了，接下来的小说明显从生活推着人物走偏向人物替作者完成道德任务。少平身上的人物感被惨白的道德挤压，后面的一系列安排——金秀的告白、他选择留下矿井、他一次次拒绝更轻松体面的路径，都带着很强烈的配合设定的味道。你不难被这些情节感动，可你同时也非常清楚地意识到：他之所以这样活，不再只是因为生活只能给他这条路，而是因为作者需要他维持在这个位置上。人物的动向，此后越来越不像被生活逼出来的必然选择，而更像为了配合既定精神轨道的安排。圣徒感开始压过活人感，人物命运开始为作者的价值工程让路。</p><p data-pid=\"SzHyX58r\">看到了这里，我们接下来就可以牵出平凡的世界这本书最大的问题，就是结构构造的失败。</p><p data-pid=\"ScEUmd38\">在写人生的时候，路遥已经形成了一条非常清晰的叙事路径：乡村出身的青年，被扔到城乡交界，一面是感情，一面是前途，中间有尊严和脸面，一场又一场选择，最后在重击下获得某种精神意义上的醒悟。</p><p data-pid=\"iKSGUJ9F\">在中篇里，这条路径刚好够用：人物密度适中，矛盾集中，篇幅不长，感情起伏和结构收束都可以控制在一个合理范围内。到了平凡的世界，这条路径并没有被根本重写，而是被极大地放大和复制：</p><p data-pid=\"D1FC3nJy\">一个兄弟留在农村，经营土地、办砖厂、撑起一家老小。一个兄弟走向城市与矿区，在读书、打工、下井、恋爱之间来回拉扯。他们的决定牵动一大串亲戚、同学、干部、村民，周围人物轮番登场。如果在这个设定基础上，叙事视角、结构设计、冲突类型都随之升级，体量增大可以变成优势：一个时代的纹理可以更细腻地展现出来。</p><p data-pid=\"epSmiK7B\">但在这部书里，你会明显感觉到：基本叙事模式是在原地打转，只是不断被拉长、套用在不同人物身上。</p><p data-pid=\"MPimkcBU\">贫穷——受辱——咬牙——起念头——遭挫败——再咬牙——再试一次。</p><p data-pid=\"6ktd7-_D\">这条链条，对任何一个人物来说，前一两轮是有力量的。但当同一套链条在几十万字的范围内被一遍遍铺开，而叙述者又几乎从不放过每一个抒情、议论的机会时，节奏问题就不可避免。</p><p data-pid=\"Q5hfTasO\">读者的主观感受很简单：前紧后松。</p><p data-pid=\"2TbAyTEW\">前几百页，围绕吃饭、上学、进城写得非常扎实：每一个生活困境都有具体折射，每一场受辱都有真实逻辑。你能感觉到人物确实被环境一步步往前逼。越往后，人物线大量展开，冲突类型却高度同质：谁又要离开村子，谁又陷入婚姻纠葛，谁又被提拔，谁又受挫——结构上往往是一通铺陈，再加上一段或长或短的人生感悟。叙述者舍不得放弃任何一个可以上升到意义的节点，于是小说不断膨胀，情节密度却未必同步上升。</p><p data-pid=\"kAOucFxi\">而且整部小说的语言，又会越来越加剧这种疲劳感，很多人说平凡的世界的语言描述质朴、有乡土味儿，这当然不错：里面的大量叠词、大量口语句、大量带着方言习气的表达，让很多段落读起来就像陕北人坐在你对面慢慢唠。什么天气是细蒙蒙的，雨丝是纷纷淋淋的，村子冷得冷冷清清，风刮得呼呼啦啦，人冻得直哆嗦，这些词本身就非常带画面。生活场景和劳动场景里的描写，都很加分。</p><p data-pid=\"FeJze4Cu\">但问题在于，路遥的语言叙述能力过热，过满。一遇到情绪节点，笔调就很容易往高处拨：叠词、比喻、排比、感叹，一个接一个上，几乎不给情绪降温的机会。叙述者已经在前面现身说法、下判断，语言本身又在节奏和修辞上把强度推高。一段挫折之后很少有安静发呆的几天、麻木做事的几行，更多是紧接着进入一句句翻江倒海、心潮澎湃和泪水夺眶而出的抒情。人物从受打击到重新振作起来，往往只是几段话的事，而这些话本身又写得饱满而热烈。对读者来说，最直观的体验就是：很容易被推着掉眼泪，很难在冷静状态下自己细细品味。这时候，小说的语言就不再只是记录，而成了一个巨大的扩音喇叭，把整部书推向一种近乎持续高烧的状态。</p><p data-pid=\"tbTF22K6\">久而久之，你不再那种非看下去不可的紧迫感，转而更容易意识到：这是作者在坚持把一部早就立意好的大书写完，而不是故事本身自然走到了非要写这么多的地步。路遥要写巨著本身不构成问题，问题在于：体量和叙事模式之间没有找到新的平衡点。模式被拉到极限，却没有增加相应的结构复杂度和视角变化，结果就是：厚度有了，张力却在后半程不断泄气。</p><p data-pid=\"0FjjHWZG\">把这些东西串在一起，其实就能看清楚，平凡的世界的问题在哪里了，这本书的主要问题都根在同一条线上：作者对叙述权、对人物命运、对情绪节奏，有一种极强的一种掌控欲。他真诚、用力、投入，把自己相信的一切都压在这部小说里，但也正因为这份过分用力，他不太愿意把空间让给人物，让给读者，让给那些脏污、暧昧、无法轻易说清的地带。对很多读者来说，这种过度控制带来了无脑的阅读感，带来了被人生教育的畅快感。站在小说本身的角度，它则带来了叙述者抢戏、人物灰度不足、关键情节补丁感太重、语言持续高烧、结构冗长松散这些一处一处看得见的裂缝。可以说，从励志角度来看，它当然好看、真诚、有力量，但就文学性来说，离一部在叙事艺术上无懈可击的经典，还有相当的距离。</p>",
+        "visited_count": 34428,
+        "is_copyable": false,
+        "is_navigator": false,
+        "type": "answer",
+        "created_time": 1768107683,
+        "preview_type": "default",
+        "favorite_count": 457,
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993668804031561782}",
+      "attached_info": "CpoGCOvt8cy4t4ySrAEQBBoJNzY0OTM5ODk1IKPdjMsGKKYGMG1AK0orChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUo/CipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU0SATAYACAAOgp7InJhdyI6IiJ9WggyNTI5NTQ2NGIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTM2Njg4MDQwMzE1NjE3ODKKAQkyODM1ODY0NzaqAQlyZWNvbW1lbmTCASBkMDM4ZTEzYjQ5Yjc0MTFkNDY4ZTQxNDQxMmVmMDU0YfIBCggMEgZOb3JtYWzyASgIChIkZTNmOGFhZjYtMzZjZS00ZDEzLTkwZjAtNTFhMGNmYTllMjc58gEFCAsSATiCAgCIAtvZ/Om8M5ICIGQwMzhlMTNiNDliNzQxMWQ0NjhlNDE0NDEyZWYwNTRhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjPoAgT6AgtOT1JNQUxfRkxPV4oDIDZjMjUxNGYyNGQyYzRlMmM5ZTg4NWQ5MzhiMGU1Y2E0mgMNCgJ2MhAAGgVvdGhlcqgD/IwC2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADg4dKbP4EFAAAAAAAAAACJBfCZ5pq4ErM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBiuoBgOSAi4KCTc2NDkzOTg5NRITMTk5MzY2ODgwNDAzMTU2MTc4MhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "44_1768675028.592",
+      "type": "feed",
+      "offset": 44,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675028,
+      "updated_time": 1768675028,
+      "target": {
+        "updated_time": 1768472062,
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "navigator_vote": false,
+        "reshipment_settings": "allowed",
+        "visited_count": 3896,
+        "vote_next_step": "vote",
+        "created_time": 1768471861,
+        "thanks_count": 0,
+        "excerpt": "最新话，越看伊姆的逼格越低，不足以支撑为全漫画的最后大BOSS。 我猜测，伊姆背后还有合作方（或是控制伊姆的人，伊姆实际上自己也被契约了）。 就目前伊姆表现出来的能力，洛基都能跟祂碰一碰，祂在故事中的定位，越来越不像是幕后的策划者，而是执行者。 后面还有一个【角色】，是这个人命令伊姆干这些事。 至于为什么这个【角色】自己不出手呢？ 可能是被封印了，可能是死了，需要被复活。 （大筒木辉夜：没错，就是我，是我…",
+        "excerpt_new": "最新话，越看伊姆的逼格越低，不足以支撑为全漫画的最后大BOSS。 我猜测，伊姆背后还有合作方（或是控制伊姆的人，伊姆实际上自己也被契约了）。 就目前伊姆表现出来的能力，洛基都能跟祂碰一碰，祂在故事中的定位，越来越不像是幕后的策划者，而是执行者。 后面还有一个【角色】，是这个人命令伊姆干这些事。 至于为什么这个【角色】自己不出手呢？ 可能是被封印了，可能是死了，需要被复活。 （大筒木辉夜：没错，就是我，是我…",
+        "content": "<p data-pid=\"eA4Sfmrh\">最新话，越看伊姆的逼格越低，不足以支撑为全漫画的最后大BOSS。</p><p data-pid=\"S64DndZg\">我猜测，伊姆背后还有合作方（或是控制伊姆的人，伊姆实际上自己也被契约了）。</p><p data-pid=\"ZysDSdR3\">就目前伊姆表现出来的能力，洛基都能跟祂碰一碰，祂在故事中的定位，越来越不像是幕后的策划者，而是执行者。</p><p data-pid=\"_wdPnoy1\">后面还有一个【角色】，是这个人命令伊姆干这些事。</p><p data-pid=\"fNAqOwCZ\">至于为什么这个【角色】自己不出手呢？</p><p data-pid=\"yD6Ofxxr\">可能是被封印了，可能是死了，需要被复活。</p><p data-pid=\"vTYxSWFS\">（大筒木辉夜：没错，就是我，是我控制了伊姆，最终目的就是复活，降临海贼世界种树！）</p><p data-pid=\"t2K3KlRW\">————</p><p data-pid=\"tJWleTnY\">如果尾田不要脸一点，甚至可能画出【星际海盗】，是宇宙来的一支海贼团，毕竟这玩意漫画里也有过出场，完全有可能整出这种抽象的活。</p>",
+        "is_labeled": false,
+        "allow_segment_interaction": true,
+        "voteup_count": 16,
+        "comment_count": 14,
+        "question": {
+          "type": "question",
+          "title": "如何评价《海贼王》漫画第1171话情报呢?",
+          "answer_count": 0,
+          "author": {
+            "is_following": false,
+            "user_type": "people",
+            "headline": "",
+            "gender": 0,
+            "followers_count": 4,
+            "avatar_url": "https://pic1.zhimg.com/50/v2-9cbfa206eb6f81b14db5a64318a740f6_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false,
+            "id": "24877766eb6ee05033a2334c4e6af6ac",
+            "url": "https://api.zhihu.com/people/24877766eb6ee05033a2334c4e6af6ac",
+            "url_token": "1-84-94-46-1",
+            "name": "永远的1岁"
+          },
+          "bound_topic_ids": [
+            392,
+            163041,
+            396543,
+            2591833
+          ],
+          "is_following": false,
+          "detail": "",
+          "follower_count": 0,
+          "comment_count": 1,
+          "excerpt": "",
+          "question_type": "normal",
+          "id": "1994541040850449459",
+          "url": "https://api.zhihu.com/questions/1994541040850449459",
+          "created": 1768315640,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "preview_type": "default",
+        "is_copyable": true,
+        "preview_text": "",
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "id": "1995196279324709534",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995196279324709534",
+        "author": {
+          "id": "35d89c88ed648006569cd62a10ebb7ce",
+          "user_type": "people",
+          "url_token": "duo-li-duo-te",
+          "name": "朵莉朵特",
+          "avatar_url": "https://picx.zhimg.com/50/v2-a26accdbd66d9c7a309445511f58b268_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 71,
+          "url": "https://api.zhihu.com/people/35d89c88ed648006569cd62a10ebb7ce",
+          "headline": "",
+          "gender": -1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995196279324709534}",
+      "attached_info": "CtoFCOvt8cy4t4ySrAEQBBoJNzY1NTU1ODUyILX6ossGKBAwDkAsSjMKHlRTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTU19WMxIBMBgAIAA6CnsicmF3IjoiIn1aCTExODA1NzQ4MGIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTUxOTYyNzkzMjQ3MDk1MzSKARMxOTk0NTQxMDQwODUwNDQ5NDU5qgEJcmVjb21tZW5kwgEgMzVkODljODhlZDY0ODAwNjU2OWNkNjJhMTBlYmI3Y2XyAQoIDBIGTm9ybWFs8gEoCAoSJDQ1ZWIwMDBjLTFkYmQtNDcwNi1hZTA2LTQ4OWRkZDc2ZmIwOPIBBQgLEgE4ggIAiALb2fzpvDOSAiAzNWQ4OWM4OGVkNjQ4MDA2NTY5Y2Q2MmExMGViYjdjZZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAh5UU19TT1VSQ0VfRkVFRFJFX1RJTUVMSU5FU1NfVjPoAgL6AgtOT1JNQUxfRkxPV4oDIDZjMjUxNGYyNGQyYzRlMmM5ZTg4NWQ5MzhiMGU1Y2E0mgMNCgJ2MhAAGgVvdGhlcqgDuB7YAwDqAxRmZWVkcmVfdGltZWxpbmVzc192M/oDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGBOj3A/gQUAAAAAAAAAAIkF8JnmmrgSsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGLKgGAJICLgoJNzY1NTU1ODUyEhMxOTk1MTk2Mjc5MzI0NzA5NTM0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "45_1768675028.424",
+      "type": "feed",
+      "offset": 45,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675028,
+      "updated_time": 1768675028,
+      "target": {
+        "answer_type": "normal",
+        "segment_infos": [
+          {
+            "pid": "Do9ltuaB",
+            "text": "我想长时间坚持做一件事的最大体验或者效果，就是能够有效增强个人对自我及生活的一种掌控感，特别是在现在生活节奏如此之快，人们处于疲于接受各种信息，不少人处在各种因不确定性所引起的焦虑不安状态，给你一种踏踏实实的掌控感，一种不断有正向反馈的成就感。总之，能够有效提高个人自信心。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 137,
+                "seg_info": {
+                  "seg_ids": [
+                    "1856639322557640705"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "created_time": 1735370280,
+        "question": {
+          "author": {
+            "headline": "",
+            "followers_count": 0,
+            "name": "匿名用户",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "is_following": false,
+            "is_followed": false
+          },
+          "bound_topic_ids": [
+            9671,
+            155709,
+            1833036
+          ],
+          "created": 1449925702,
+          "answer_count": 0,
+          "is_following": false,
+          "question_type": "normal",
+          "id": "38455082",
+          "title": "长时间坚持做一件事是种怎样的体验？",
+          "comment_count": 166,
+          "detail": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/38455082",
+          "follower_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "content": "<p data-pid=\"uKRbxbp0\">一年来坚持做一件事，深蹲。感触颇深，具体如下，也推荐给朋友们！</p><p data-pid=\"4XudONBs\"><b>一，具体做法</b></p><p data-pid=\"sljvv-2c\">每天坚持做200个无负重深蹲，早上起床50个，中午，下午饭前各50个，晚上睡觉前50个，合计200个深蹲。</p><p data-pid=\"jC9_gJQu\"><b>二，选择考虑</b></p><p data-pid=\"hbL3U2IQ\">1.很多健身博主，健身科普书上都不约而同推荐深蹲，被称为健身最全面的单一动作之一，可以尽可能多的调动全身肌肉。</p><p data-pid=\"1F7odyNG\">2.动作特别简单，不受时间，空间限制，没有噪音，不需要特殊装备，随时随地可以做。</p><p data-pid=\"Sfq007LZ\">3.属于经典抗压练肌动作，对锻炼全身肌肉耐力，特别是廋腿效果明显。</p><p data-pid=\"TrgQYm_I\">4.30+的年龄，据说这个也是男性健身最佳动作之一，谁练谁知道，谁练谁享受。</p><p data-pid=\"rMPkTOpz\"><b>三，实施心法</b></p><p data-pid=\"wgKHzvvl\">刚开始，跟着视频学做了标准的深蹲，一天分了三次，每次各做30个，当天轻轻松松没事，第二天起床大腿内侧肌肉相当酸痛，就像小时后突然某天做了几十个蛙跳或者爬了一次山，第二天腿部全身肌肉的酸爽感觉，这种肌肉酸痛连续了有一周时间，甚至下楼梯腿都是打直下去的。经常运动朋友肯定有这个经验，一个运动项目要练下去，必须扛过这个肌肉酸痛期，即便是后面的几天肌肉酸痛，还是每天早中晚各做30个深蹲，大概一周后肌肉不再明显酸痛，后来慢慢增加数量，到了一个月后稳定并形成习惯每天早中下晚各50个深蹲，一天200个。如何长期坚持下去，我这有两个小窍门。一个是在心理上，提醒告诫自己，一定要每天坚持做，不然停下来几天，后面再做起，又要经历那酸爽的一周左右肌肉酸痛期。另一个是怎么做到有规律的去做，肯定有人会说缺乏一个人的空间，做起来不方便，我这边的经验就是去有独立蹲厕的洗手间，这个任何时间都好实现，养成习惯，在早中下午饭前去洗手间关起门做50个深蹲。晚上睡觉前再做50个。这样不会干扰影响到任何人，也可以让自己养成习惯轻松完成。</p><p data-pid=\"_8QHPyxC\"><b>四，效果感受</b></p><p data-pid=\"sajH3bcm\">1.腿部肌肉明显紧致，之前个人大腿肉要松垮一些，现在整个腿上肉紧绷。</p><p data-pid=\"jeyU80Os\">2.剧烈运动后不再出现第二天早上起床腰酸背痛等肌肉酸痛状况，实际体验报告，心血来潮跑个十公里，打两三个小时高强度篮球，来回爬个山等，都不会明显出现第二天起床后肌肉酸痛的状况。</p><p data-pid=\"a9bCn5l_\">3.体重控制的好多了，人的精神状态也好多了，力量感满满。</p><p data-pid=\"6oR354wN\">4.在等待人，无聊的时候，没精打采的时候，压力大，心情不好的时候，就有了一种调节缓解压力或消磨时间的方式，去做50-100个深蹲，随着额头微微出汗，做完几个深呼吸调整，心情心态明显好转，同时也锻炼了身体，给予身体正向反馈，也会感染到心理变的轻松愉悦。</p><p data-pid=\"pVKE-vFr\">5.几乎每天清晨出现晨勃，持续时间长，同时血糖血药血脂等都不同程度有所降低，身体核心指标都有正向反馈。</p><p data-pid=\"C6KZON1g\">6.小小的一个动作，能够坚持下来，并且对个人从身体机能到心理状态等一些正向影响，提高了自己对生活的掌控感，真切的感受到坚持做一件事的价值意义，也就是成就感，以此为契机和激励，在同样心法指导下，后面陆续养成了每天晚上睡觉不将手机带上床，走路不看手机等小的习惯，同样也有大大的正向反馈。</p><p data-pid=\"zSODc0rI\">默默坚持做一件事，后来惊艳所有人，我想这是对怎么去自我提高，惊艳所有人的一个好的解题思路。</p><p data-pid=\"Do9ltuaB\"><i><b>我想长时间坚持做一件事的最大体验或者效果，就是能够有效增强个人对自我及生活的一种掌控感，特别是在现在生活节奏如此之快，人们处于疲于接受各种信息，不少人处在各种因不确定性所引起的焦虑不安状态，给你一种踏踏实实的掌控感，一种不断有正向反馈的成就感。总之，能够有效提高个人自信心。</b></i></p>",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "id": "66082258405",
+        "visited_count": 336750,
+        "favorite_count": 5137,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "url": "https://api.zhihu.com/answers/66082258405",
+        "is_copyable": true,
+        "updated_time": 1735436985,
+        "voteup_count": 2774,
+        "excerpt": "一年来坚持做一件事，深蹲。感触颇深，具体如下，也推荐给朋友们！ 一，具体做法每天坚持做200个无负重深蹲，早上起床50个，中午，下午饭前各50个，晚上睡觉前50个，合计200个深蹲。 二，选择考虑1.很多健身博主，健身科普书上都不约而同推荐深蹲，被称为健身最全面的单一动作之一，可以尽可能多的调动全身肌肉。 2.动作特别简单，不受时间，空间限制，没有噪音，不需要特殊装备，随时随地可以做。 3.属于经典抗压练肌动作，对锻…",
+        "excerpt_new": "一年来坚持做一件事，深蹲。感触颇深，具体如下，也推荐给朋友们！ 一，具体做法每天坚持做200个无负重深蹲，早上起床50个，中午，下午饭前各50个，晚上睡觉前50个，合计200个深蹲。 二，选择考虑1.很多健身博主，健身科普书上都不约而同推荐深蹲，被称为健身最全面的单一动作之一，可以尽可能多的调动全身肌肉。 2.动作特别简单，不受时间，空间限制，没有噪音，不需要特殊装备，随时随地可以做。 3.属于经典抗压练肌动作，对锻…",
+        "navigator_vote": false,
+        "type": "answer",
+        "thanks_count": 131,
+        "comment_count": 320,
+        "is_navigator": false,
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "id": "a9371786b206b2b94cfc12ee9d2ad504",
+          "name": "追光者",
+          "url_token": "qin-feng-gu-yong",
+          "headline": "",
+          "gender": 1,
+          "followers_count": 539,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/a9371786b206b2b94cfc12ee9d2ad504",
+          "user_type": "people"
+        },
+        "preview_type": "default",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 66082258405}",
+      "attached_info": "CvMFCOvt8cy4t4ySrAEQBBoJNzA2MzMxNTQxIKjMvrsGKNYVMMACQC1KPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifVoHNzU4OTQxOWIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyCzY2MDgyMjU4NDA1igEIMzg0NTUwODKqAQlyZWNvbW1lbmTCASBhOTM3MTc4NmIyMDZiMmI5NGNmYzEyZWU5ZDJhZDUwNPIBCggMEgZOb3JtYWzyASgIChIkZjc0ZDE5NmMtMjA5NS00NmIwLTg2NGEtYjU0N2Y4OTE1MWM18gEFCAsSATiCAgCIAtvZ/Om8M5ICIGE5MzcxNzg2YjIwNmIyYjk0Y2ZjMTJlZTlkMmFkNTA0mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU3oAgL6AgtOT1JNQUxfRkxPV4oDIDZjMjUxNGYyNGQyYzRlMmM5ZTg4NWQ5MzhiMGU1Y2E0mgMNCgJ2MhAAGgVvdGhlcqgD7sYU2AMA6gMQbmV3YmllX2ZlZWRyZV92MvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTYwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADATyykP4EFAAAAAAAAAACJBfCZ5pq4ErM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBi2oBgCSAiYKCTcwNjMzMTU0MRILNjYwODIyNTg0MDUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "46_1768675028.223",
+      "type": "feed",
+      "offset": 46,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675028,
+      "updated_time": 1768675028,
+      "target": {
+        "voteup_count": 1,
+        "is_copyable": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-a6ee7d87cb2ac78e173d44c5f5bfca14_720w.jpg?source=b6762063",
+        "excerpt_new": "千万别每次挡枪背锅，就和领导争论责任，或者和领导沟通，越是如此，越会被吃定没别的本事，只会愤怒沟通。 老话不好听，但道理是对的，“咬人的不叫唤，叫唤的不咬人”，沟通一次即可，多次沟通就露馅。 蛇打七寸是精准致胜，需要找到七寸的位置，就先要分析领导的心理，知己知彼。 另外，自古以来攻击敌人，都讲求出其不意攻其不备，这种以下对上的矛盾，稍有不慎满盘皆输。   一、领导喜欢推卸责任的心理 ①越是领导，越是怕字…",
+        "allow_segment_interaction": true,
+        "updated_time": 1768666501,
+        "thanks_count": 0,
+        "visited_count": 12,
+        "vote_next_step": "vote",
+        "reshipment_settings": "allowed",
+        "id": "1996012658298730027",
+        "url": "https://api.zhihu.com/answers/1996012658298730027",
+        "excerpt": "千万别每次挡枪背锅，就和领导争论责任，或者和领导沟通，越是如此，越会被吃定没别的本事，只会愤怒沟通。 老话不好听，但道理是对的，“咬人的不叫唤，叫唤的不咬人”，沟通一次即可，多次沟通就露馅。 蛇打七寸是精准致胜，需要找到七寸的位置，就先要分析领导的心理，知己知彼。 另外，自古以来攻击敌人，都讲求出其不意攻其不备，这种以下对上的矛盾，稍有不慎满盘皆输。   一、领导喜欢推卸责任的心理 ①越是领导，越是怕字…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "answer_type": "normal",
+        "created_time": 1768666501,
+        "comment_count": 1,
+        "preview_text": "",
+        "favorite_count": 2,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "type": "answer",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-1511ef304126c98151ab9579110e9faa_l.jpg?source=b6762063",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "id": "58c54d8781a161e03cbac494de9460e9",
+          "url": "https://api.zhihu.com/people/58c54d8781a161e03cbac494de9460e9",
+          "headline": "离了歪斜这么久了，就这么招吧。",
+          "is_org": false,
+          "followers_count": 336,
+          "user_type": "people",
+          "url_token": "88-40-86-8",
+          "name": "离了歪斜的鸟窝儿"
+        },
+        "question": {
+          "title": "职场中直属领导喜欢推卸责任怎么办？",
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/1905930298220351821",
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            2566
+          ],
+          "detail": "",
+          "author": {
+            "followers_count": 74,
+            "avatar_url": "https://picx.zhimg.com/50/v2-b96bf03f0b2315a4f9a4c506bab141ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "id": "c2a066eab2f43443ffa7dafe65de4121",
+            "url": "https://api.zhihu.com/people/c2a066eab2f43443ffa7dafe65de4121",
+            "user_type": "people",
+            "url_token": "hua-ji-de-rou-rou",
+            "name": "繁花",
+            "headline": "开心就好啦",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "id": "1905930298220351821",
+          "type": "question",
+          "created": 1747189193,
+          "answer_count": 0,
+          "is_following": false
+        },
+        "preview_type": "default",
+        "content": "<p data-pid=\"pjndI_cb\">千万别每次挡枪背锅，就和领导争论责任，或者和领导沟通，越是如此，越会被吃定没别的本事，只会愤怒沟通。</p><p data-pid=\"o7frKykK\">老话不好听，但道理是对的，“咬人的不叫唤，叫唤的不咬人”，沟通一次即可，多次沟通就露馅。</p><p data-pid=\"y8j8cJ34\">蛇打七寸是精准致胜，需要找到七寸的位置，就先要分析领导的心理，知己知彼。</p><p data-pid=\"Z25FqBkr\">另外，自古以来攻击敌人，都讲求出其不意攻其不备，这种以下对上的矛盾，稍有不慎满盘皆输。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-852c4df8a0701669ec785c162c917821_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"810\" data-size=\"normal\" data-original-token=\"v2-a6ee7d87cb2ac78e173d44c5f5bfca14\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-852c4df8a0701669ec785c162c917821_r.jpg\"/></figure><h2><b>一、领导喜欢推卸责任的心理</b></h2><p data-pid=\"9YK_Iug-\"><b>①越是领导，越是怕字心头悬。</b></p><p data-pid=\"30cHEu6c\">职场上看似领导有权有势，在自己的地盘上呼风唤雨，其实领导上面还有领导，领导比谁都怕，怕丢位置。</p><p data-pid=\"0zePmU75\">作为领导，本应该权责一体，但权利越大，利益越多，欲望越膨胀，悬在领导心头的怕，就越强烈，这是人趋利避害本性。</p><p data-pid=\"BHl2h0XN\"><b>②权衡利弊，让损失最小化</b>。</p><p data-pid=\"hnfdW_Y2\">当面对担责结果时，一边是领导的位置，一边是下属背锅，在领导心里，这天平毫无悬念地倾斜下属背锅。</p><p data-pid=\"EwH1chmX\">而且在这种领导理念中，下属是领导权利覆盖下的小人物，即使背锅有情绪，也翻不出大浪，影响不了领导的位置。</p><p data-pid=\"-jWn0slv\">说白了，领导认为自己有权利，下属应该无条件服从领导，以领导需求为核心，让你背锅就必须背，还不能有怨言。</p><p data-pid=\"Hypu2eQn\"><b>③出于考验或打压等另类考量。</b></p><p data-pid=\"Eor_OP9D\">还有一些喜欢推卸责任的领导，思维回路清奇，专门用推卸责任，来考验下属是否能成为心腹，或者用来打压排除异己。</p><p data-pid=\"6_Y1PnWA\">如果是考验心腹，那相应的会打个巴掌，回头再给个甜枣，一边考验一边再安抚，下属可以自己感受一下背锅前后经历。</p><p data-pid=\"q3V8o3Um\">如果是打压排除异己，那领导往往是越难干，越有风险的工作，越是专门分给同一个人，每次背锅的还是这个干活的人。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-46fccf5b899d135803c6c4ceb22f4931_1440w.jpg\" data-rawwidth=\"2276\" data-rawheight=\"1024\" data-size=\"normal\" data-original-token=\"v2-a088b12d9dc48e8dbbd7925f92693194\" class=\"origin_image zh-lightbox-thumb\" width=\"2276\" data-original=\"https://picx.zhimg.com/v2-46fccf5b899d135803c6c4ceb22f4931_r.jpg\"/></figure><h2>二、依据推卸责任心理制定措施</h2><p data-pid=\"EBtchzEU\"><b>职场上水能载舟，亦能覆舟。</b></p><p data-pid=\"-ZSDQhRM\">虽是领导眼中不起眼的下属，但只要把喜欢推卸责任的领导心理摸清楚，蛇打七寸，让领导心理颤一颤也不是不可能。</p><p data-pid=\"Sg3GqYps\"><b>①领导怕，下属也怕，比比谁更怕</b>。</p><p data-pid=\"LdcDSruZ\">领导怕丢位置，那下属天天背锅，背久了，背次数多了，也是要丢饭碗的。</p><p data-pid=\"gW4_c_ht\">既然都怕丢位置，那就比比看看谁更怕。</p><p data-pid=\"w-_e2-qz\">◈一位喜欢推卸责任的领导，自然不会只有一次推卸责任，所以从现在开始，凡是与这位主管领导对接工作，一律完整留痕。</p><p data-pid=\"n0_BH8BD\">留痕包括但不限于，与领导交流的录音，记录与领导的对话内容，领导的批示签字，以及项目过程完整资料等等。</p><p data-pid=\"DocqTCry\">◈凡是主管领导交代的工作，严格执行领导指令，对于模糊指令，必须和领导多次确认，过程也必须坚持每日汇报请示。</p><p data-pid=\"AU3ByTCw\">切记严格执行主管领导指令，不能有自己的想法，更不能超出领导指令擅自做主。</p><p data-pid=\"Gx0LdsEV\">◈剩下的就是坐等钓鱼，等按领导指令执行的项目，出现问题后，就是收杆敲黑板了。</p><ul><li data-pid=\"LsFEAguP\">领导推卸责任前，整理好所有过程见证材料，确保指向主管领导的证据完整。</li><li data-pid=\"alwK_eyL\">在按领导指令执行项目出问题追责前，拿上资料找主管领导沟通，资料越完整指向，沟通效果越完美。</li><li data-pid=\"NC5CIF2C\">要一次把黑板敲明白，看看到底谁更怕?让领导懂得，兔子急了还咬人呢。</li></ul><p data-pid=\"kHFQswUS\"><b>②职场也是社会，社会就有人言可畏。</b></p><p data-pid=\"wvk_htE4\">职场中，领导是有权，但是下属也有嘴，该说的不该说的，有时候可以按需求错位。</p><p data-pid=\"ywxvIIxG\">◈人言可畏的前提，一定是可信。要让喜欢推卸责任的领导，感受人言可畏，不再请示下属的小宇宙力量，先要建立信任度。</p><p data-pid=\"Qu5Mknm0\">日常职场人际关系，以及与同事工作对接，或者团队配合过程中，要以诚信为本，言必行，行必果。</p><p data-pid=\"28Jlwut-\">◈在自身职场信任值满足时，出现被领导推卸责任的情况，可以学会传播信息，让舆论之风在下属之间，慢慢渗透。</p><p data-pid=\"bEP1B19e\">用让人信任的语言，婉转地将一位喜欢推卸责任的领导形象，刻入同事思想中，就像播了种子一样，让大家慢慢去感受。</p><p data-pid=\"GzZ8s9ZJ\">◈领导者的权威，从下属们对推卸责任行为的内心不认可开始，会慢慢出现裂缝，出现对领导的不信任，最终演变成不愿跟随。</p><p data-pid=\"OBtqTV_I\">主管领导越喜欢推卸责任，这场针对权利者的信任危机，也将越来越膨胀，结果走向不可想象。</p><p data-pid=\"OcUFKLTv\">拥有权利的领导者，与看似微小的下属之间，究竟如何选择，才是损失最小的正确选择，就让领导亲身感受一下人言可畏再选。</p><p data-pid=\"gISHPAg5\"><b>③是考验，还是打压，都要见招拆招。</b></p><p data-pid=\"0sM2WAmy\">◈如果是在考验下属，立即明确地，向这种领导表态，自己能力配不上喜欢推卸责任的领导，远离吧，这种领导是人品问题。</p><p data-pid=\"hv-UFol9\">◈如果是感受到领导故意打压，先复盘领导打压的原因，自己是否在什么事情上，犯了领导的忌讳。</p><p data-pid=\"rDJrQaKX\">有一说一，如果犯了忌讳，或者确实有做得不到位的情况，一定要和领导解释清楚，误会能解开就别拧巴着配合。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4114c68b91ca5c0c11aeaa6449734dab_1440w.jpg\" data-rawwidth=\"2276\" data-rawheight=\"1024\" data-size=\"normal\" data-original-token=\"v2-94477459a36c521a925ff2f0a8f4d404\" class=\"origin_image zh-lightbox-thumb\" width=\"2276\" data-original=\"https://picx.zhimg.com/v2-4114c68b91ca5c0c11aeaa6449734dab_r.jpg\"/></figure><h2>三、结束语</h2><p data-pid=\"1OZk_bdf\">在职场中，处于相对弱势的下属，应对直属领导推卸责任，最大的难度在于，如果没有实现以弱对强的胜利，很大概率会被打压。</p><p data-pid=\"2BrIvaSU\">所以，要翻身，且必须一击必中地翻身！</p><p data-pid=\"03zQNDfQ\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/7da508b3129cef2b0105fc704dd7249d\" data-hash=\"7da508b3129cef2b0105fc704dd7249d\" data-hovercard=\"p$b$7da508b3129cef2b0105fc704dd7249d\">@知乎职场</a> </p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-a6ee7d87cb2ac78e173d44c5f5bfca14_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a088b12d9dc48e8dbbd7925f92693194_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-94477459a36c521a925ff2f0a8f4d404_720w.jpg?source=b6762063"
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996012658298730027}",
+      "attached_info": "CqIHCOvt8cy4t4ySrAEQBBoJNzY1ODYwNzkwIIXrrssGKAEwAUAuSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMTQ5MzIzNTZiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk2MDEyNjU4Mjk4NzMwMDI3igETMTkwNTkzMDI5ODIyMDM1MTgyMaoBCXJlY29tbWVuZMIBIDU4YzU0ZDg3ODFhMTYxZTAzY2JhYzQ5NGRlOTQ2MGU58gEKCAwSBk5vcm1hbPIBKAgKEiQ4OGM5NWFkYS03N2ExLTQ4MzctYmNkNC0xNWUzNDg1ZTEyMmHyAQUICxIBOIICAIgC29n86bwzkgIgNThjNTRkODc4MWExNjFlMDNjYmFjNDk0ZGU5NDYwZTmaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCA/oCC05PUk1BTF9GTE9XigMgNmMyNTE0ZjI0ZDJjNGUyYzllODg1ZDkzOGIwZTVjYTSaAw0KAnYyEAAaBW90aGVyqAMM2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgYqgYiI3YyLWE2ZWU3ZDg3Y2IyYWM3OGUxNzNkNDRjNWY1YmZjYTE0Oi0IAxDkERiACCIjdjItYTA4OGIxMmQ5ZGM0OGU4ZGJiZDc5MjVmOTI2OTMxOTQ6LQgDEOQRGIAIIiN2Mi05NDQ3NzQ1OWEzNmM1MjFhOTI1ZmYyZjBhOGY0ZDQwNIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAACfCfz+BBQAAAAAAAAAAiQXwmeaauBKzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIkAYAoAYuqAYBkgIuCgk3NjU4NjA3OTASEzE5OTYwMTI2NTgyOTg3MzAwMjcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "47_1768675028.473",
+      "type": "feed",
+      "offset": 47,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675028,
+      "updated_time": 1768675028,
+      "target": {
+        "created_time": 1767928798,
+        "updated_time": 1767929569,
+        "preview_text": "",
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-860727838c08bcafeba74936c40d832c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2aa43d038c08e5b66bbc2a0a2208beca_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-58012645a3f711e80d106124851b7476_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-5f3bed62402354ae3844e051e344a021_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3163c3ce70982404c127055f5db1555f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-126e102e4482bc22aa6bab9b613976c6_720w.jpg?source=b6762063"
+        ],
+        "thumbnail": "https://picx.zhimg.com/50/v2-860727838c08bcafeba74936c40d832c_720w.jpg?source=b6762063",
+        "excerpt_new": "养花多年的心得告诉我，养花绝对让人心情愉悦！养花其实是个体力劳动，大家根据家的空间量力而行！   我现在这个小家阳台不大，只有几盆不断复开的石斛兰、蝴蝶兰和铁海棠、三角梅等其他几盆绿植！       插了一周的雪柳，陆陆续续开出小白花，每天提心吊胆三只猫星人嚯嚯它！   我是大半辈子跟花打交道之人！花人提一回当年勇吧，印象最深刻的那次是要交付两个大单的插花，我的工作花艺坊当年运营得比较出色，谁叫老板娘人美心善又勤劳…",
+        "content": "<p data-pid=\"xp2DB2iD\">养花多年的心得告诉我，养花绝对让人心情愉悦！养花其实是个体力劳动，大家根据家的空间量力而行！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5d04144fab8927b934e71b999d5975a0_1440w.jpg\" data-rawwidth=\"3000\" data-rawheight=\"4000\" data-size=\"normal\" data-original-token=\"v2-860727838c08bcafeba74936c40d832c\" class=\"origin_image zh-lightbox-thumb\" width=\"3000\" data-original=\"https://pica.zhimg.com/v2-5d04144fab8927b934e71b999d5975a0_r.jpg\"/></figure><p data-pid=\"ekpvyK3Y\">我现在这个小家阳台不大，只有几盆不断复开的石斛兰、蝴蝶兰和铁海棠、三角梅等其他几盆绿植！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7a178909c68fe0b8b15d70ab7964d1b2_1440w.jpg\" data-rawwidth=\"3000\" data-rawheight=\"4000\" data-size=\"normal\" data-original-token=\"v2-2aa43d038c08e5b66bbc2a0a2208beca\" class=\"origin_image zh-lightbox-thumb\" width=\"3000\" data-original=\"https://pica.zhimg.com/v2-7a178909c68fe0b8b15d70ab7964d1b2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-900faded48aa4e47177d47249acbce1a_1440w.jpg\" data-rawwidth=\"3000\" data-rawheight=\"4000\" data-size=\"normal\" data-original-token=\"v2-58012645a3f711e80d106124851b7476\" class=\"origin_image zh-lightbox-thumb\" width=\"3000\" data-original=\"https://pic1.zhimg.com/v2-900faded48aa4e47177d47249acbce1a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-089d655f7b4dbe8dc3f3d009333c1d0d_1440w.jpg\" data-rawwidth=\"3000\" data-rawheight=\"4000\" data-size=\"normal\" data-original-token=\"v2-5f3bed62402354ae3844e051e344a021\" class=\"origin_image zh-lightbox-thumb\" width=\"3000\" data-original=\"https://pic4.zhimg.com/v2-089d655f7b4dbe8dc3f3d009333c1d0d_r.jpg\"/></figure><p data-pid=\"KI_xvgQT\">插了一周的雪柳，陆陆续续开出小白花，每天提心吊胆三只猫星人嚯嚯它！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9eca295610acafd131268c9049a26ec6_1440w.jpg\" data-rawwidth=\"3000\" data-rawheight=\"4000\" data-size=\"normal\" data-original-token=\"v2-3163c3ce70982404c127055f5db1555f\" class=\"origin_image zh-lightbox-thumb\" width=\"3000\" data-original=\"https://pica.zhimg.com/v2-9eca295610acafd131268c9049a26ec6_r.jpg\"/></figure><p data-pid=\"Fchk7_BR\">我是大半辈子跟花打交道之人！花人提一回当年勇吧，印象最深刻的那次是要交付两个大单的插花，我的工作花艺坊当年运营得比较出色，谁叫老板娘人美心善又勤劳呢？我的客户群还是比较高端的，因为我的花材也是A级货，哎，这一行光是花材的成本差异是蛮大的。</p><p data-pid=\"q55xH2uD\">那次是深圳电视台搞一个大型活动跟会展中心的一次大展同时砸大单到我头上，几十盆会议插花、一百多个艺术花篮和几百个商业花蓝。每年搞几次类似的活动，工作完后我一定是体力不支要去医院挂吊瓶的，那还是我年轻的时候，换成现在的体力精力，我就算拼了老命赚也没命花这些钱的。</p><p data-pid=\"58Fh78LG\">切花插花讲究时效和新鲜，干大活儿我会请来七八名插花师，那次，他们帮活儿整整二十四个小时，我与员工前后得忙三十个小时+，中途就靠咖啡、浓茶、外卖、面包、牛肉干等零食续命！当然我这人相当大方，付工钱是会超出对方预期的，每当有大活儿，一呼百应！</p><p data-pid=\"SzyckXIE\">回到家养花植，养上几盆自己心仪的花植，每天浇水、偶尔施肥或换个盆，四季更迭，花开花落，只要你有心观察，就会照见美丽心情！</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-7fcd070c3f61afc4e030bebeea99836d_1440w.jpg\" data-rawwidth=\"3000\" data-rawheight=\"4000\" data-size=\"normal\" data-original-token=\"v2-126e102e4482bc22aa6bab9b613976c6\" class=\"origin_image zh-lightbox-thumb\" width=\"3000\" data-original=\"https://pic4.zhimg.com/v2-7fcd070c3f61afc4e030bebeea99836d_r.jpg\"/></figure><p></p>",
+        "visited_count": 555,
+        "segment_infos": [
+          {
+            "pid": "ekpvyK3Y",
+            "text": "我现在这个小家阳台不大，只有几盆不断复开的石斛兰、蝴蝶兰和铁海棠、三角梅等其他几盆绿植！",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 44,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993636389997269511"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "SzyckXIE",
+            "text": "回到家养花植，养上几盆自己心仪的花植，每天浇水、偶尔施肥或换个盆，四季更迭，花开花落，只要你有心观察，就会照见美丽心情！",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 60,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993756296348967860"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "answer_type": "normal",
+        "id": "1992918506212185254",
+        "url": "https://api.zhihu.com/answers/1992918506212185254",
+        "voteup_count": 39,
+        "preview_type": "default",
+        "type": "answer",
+        "author": {
+          "is_followed": false,
+          "headline": "育儿愈己的鬼马八星级煮妇",
+          "avatar_url": "https://pica.zhimg.com/50/v2-5598f59093fdae3b68aa2d07d274de24_l.jpg?source=b6762063",
+          "user_type": "people",
+          "url_token": "40-4-23-60-13",
+          "name": "梅山猫太",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 1623,
+          "id": "22c6d1173cfa3307a8155190ddcd7321",
+          "url": "https://api.zhihu.com/people/22c6d1173cfa3307a8155190ddcd7321",
+          "is_following": false
+        },
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "is_copyable": true,
+        "excerpt": "养花多年的心得告诉我，养花绝对让人心情愉悦！养花其实是个体力劳动，大家根据家的空间量力而行！   我现在这个小家阳台不大，只有几盆不断复开的石斛兰、蝴蝶兰和铁海棠、三角梅等其他几盆绿植！       插了一周的雪柳，陆陆续续开出小白花，每天提心吊胆三只猫星人嚯嚯它！   我是大半辈子跟花打交道之人！花人提一回当年勇吧，印象最深刻的那次是要交付两个大单的插花，我的工作花艺坊当年运营得比较出色，谁叫老板娘人美心善又勤劳…",
+        "favorite_count": 3,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "thanks_count": 9,
+        "comment_count": 54,
+        "question": {
+          "excerpt": "",
+          "detail": "",
+          "type": "question",
+          "author": {
+            "is_following": false,
+            "id": "75d572ad8828b5fcce2269fad823d3b6",
+            "url_token": "cybfjx",
+            "avatar_url": "https://picx.zhimg.com/50/v2-14522df92aea8872698b54214d6a0540_l.jpg?source=b6762063",
+            "gender": 0,
+            "is_org": false,
+            "followers_count": 7,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/75d572ad8828b5fcce2269fad823d3b6",
+            "user_type": "people",
+            "name": "星鸢",
+            "headline": ""
+          },
+          "follower_count": 0,
+          "bound_topic_ids": [
+            10824,
+            1968806,
+            2104587
+          ],
+          "comment_count": 1,
+          "answer_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "id": "1922941421616370878",
+          "url": "https://api.zhihu.com/questions/1922941421616370878",
+          "title": "养花真的会心情好吗？",
+          "created": 1751244961
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1992918506212185254}",
+      "attached_info": "CrsICOvt8cy4t4ySrAEQBBoJNzY0NjY5NzgyIN7ngcsGKCcwNkAvSigKHVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX01FUkdFEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTU2MTY4MjBiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTkyOTE4NTA2MjEyMTg1MjU0igETMTkyMjk0MTQyMTYxNjM3MDg3OKoBCXJlY29tbWVuZMIBIDIyYzZkMTE3M2NmYTMzMDdhODE1NTE5MGRkY2Q3MzIx8gEKCAwSBk5vcm1hbPIBKAgKEiRhOTdiMGEzZS00M2NmLTQxYjAtODAxYy1lZDViMjcxMDA5MDfyAQUICxIBOIICAIgC29n86bwzkgIgMjJjNmQxMTczY2ZhMzMwN2E4MTU1MTkwZGRjZDczMjGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAh1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9NRVJHRegCA/oCC05PUk1BTF9GTE9XigMgNmMyNTE0ZjI0ZDJjNGUyYzllODg1ZDkzOGIwZTVjYTSaAw0KAnYyEAAaBW90aGVyqAOrBNgDAOoDIkludGVyZXN0V29yZE1lcmdlVjFOZXdQb29sUmVjYWxsZXL6A7kCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQuBcYoB8iI3YyLTg2MDcyNzgzOGMwOGJjYWZlYmE3NDkzNmM0MGQ4MzJjOi0IBBC4FxigHyIjdjItMmFhNDNkMDM4YzA4ZTViNjZiYmMyYTBhMjIwOGJlY2E6LQgDELgXGKAfIiN2Mi01ODAxMjY0NWEzZjcxMWU4MGQxMDYxMjQ4NTFiNzQ3NjotCAQQuBcYoB8iI3YyLTVmM2JlZDYyNDAyMzU0YWUzODQ0ZTA1MWUzNDRhMDIxOi0IBBC4FxigHyIjdjItMzE2M2MzY2U3MDk4MjQwNGMxMjcwNTVmNWRiMTU1NWY6LQgDELgXGKAfIiN2Mi0xMjZlMTAyZTQ0ODJiYzIyYWE2YmFiOWI2MTM5NzZjNoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoJL4mz+BBQAAAAAAAAAAiQXwmeaauBKzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIkAYAoAYvqAYAkgIuCgk3NjQ2Njk3ODISEzE5OTI5MTg1MDYyMTIxODUyNTQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=47&desktop=true&end_offset=47&page_number=9&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=47&desktop=true&end_offset=47&page_number=9&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

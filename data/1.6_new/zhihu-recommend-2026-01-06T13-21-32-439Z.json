@@ -1,0 +1,615 @@
+{
+  "data": [
+    {
+      "id": "186_1767705754.777",
+      "type": "feed",
+      "offset": 186,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705754,
+      "updated_time": 1767705754,
+      "target": {
+        "visited_count": 121263,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1991109812734427401",
+        "author": {
+          "id": "1af44dc30c3bf7a947f9c272201dd63e",
+          "user_type": "people",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "followers_count": 8,
+          "url": "https://api.zhihu.com/people/1af44dc30c3bf7a947f9c272201dd63e",
+          "url_token": "qi-you-89-60-65",
+          "name": "不吃肉丸的鱼",
+          "headline": "四爱，有老婆，耶",
+          "avatar_url": "https://picx.zhimg.com/50/v2-571a219633a66dfa07f3adfb548b1ff3_l.jpg?source=b6762063"
+        },
+        "comment_count": 111,
+        "excerpt": "如果你对什么东西上瘾，那一定是你没有把它变成工作",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "updated_time": 1767497572,
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "answer_type": "normal",
+        "created_time": 1767497572,
+        "voteup_count": 843,
+        "thanks_count": 17,
+        "question": {
+          "answer_count": 0,
+          "is_following": false,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1988059467368137943",
+          "author": {
+            "headline": "众妙之门，玄之又玄。 吾心安处是吾乡。对世界不要失去希望。",
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "运输/仓储/邮政业 从业人员"
+              }
+            ],
+            "followers_count": 2999,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/5fa0b6fcb850888f4c413eedfeff362d",
+            "url_token": "wo-de-tuan-83",
+            "name": "妙哉",
+            "avatar_url": "https://pica.zhimg.com/50/v2-40a835d38c6201b30554108d29834dbe_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "id": "5fa0b6fcb850888f4c413eedfeff362d",
+            "user_type": "people"
+          },
+          "bound_topic_ids": [
+            237,
+            1576,
+            2057,
+            2293
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1766770313,
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "id": "1988059467368137943",
+          "title": "真的有“性瘾”一说吗？",
+          "comment_count": 0
+        },
+        "is_labeled": false,
+        "content": "<p data-pid=\"ynD6o9_Y\">如果你对什么东西上瘾，那一定是你没有把它变成工作</p>",
+        "favorite_count": 81,
+        "navigator_vote": false,
+        "id": "1991109812734427401",
+        "type": "answer",
+        "is_copyable": true,
+        "excerpt_new": "如果你对什么东西上瘾，那一定是你没有把它变成工作",
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991109812734427401}",
+      "attached_info": "CoUGCPbaj9rW6IiMvQEQBBoJNzYzOTIxMTcxIOS+58oGKMsGMG9AugFKYgopVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlQSL2hvdF9yZWNhbGxfcmVhbHRpbWVfdDpuZXc3ZDoyMDI2LTAxLTA2OnJlc2VhcmNoGAAgADoAWgkxMTc4NTg0MDFiIGVhZWE1NDA2NmM4MTlhNmE3OWI5ZmNiZTFkOTIyMzM0chMxOTkxMTA5ODEyNzM0NDI3NDAxigETMTk4ODA1OTQ2NzM2ODEzNzk0M6oBCXJlY29tbWVuZMIBIDFhZjQ0ZGMzMGMzYmY3YTk0N2Y5YzI3MjIwMWRkNjNl8gEKCAwSBk5vcm1hbPIBKAgKEiQ3MDEwZGQ4MS1iMWVmLTQ3OGUtYWZlMS04MGI5YTEzNGM1YzTyAQYICxICMzKCAgCIAuvy5Ju5M5ICIDFhZjQ0ZGMzMGMzYmY3YTk0N2Y5YzI3MjIwMWRkNjNlmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gIpVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlToAgL6AgtOT1JNQUxfRkxPV4oDIDZlZWE2ZDVmZjJmNjRmNDg4NzE2YzkwM2YwMWQ1YjY4mgMNCgJ2MhAAGgVvdGhlcqgDr7MH2AMA6gMiaG90Q3Jvc3NSZWFsVGltZU5ld0NvbnRlbnRSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAD9MLQ/gQUAAAAAAAAAAIkF6/r1rzaNsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFIJAGAKAGuwGoBgGSAi4KCTc2MzkyMTE3MRITMTk5MTEwOTgxMjczNDQyNzQwMRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "187_1767705754.305",
+      "type": "feed",
+      "offset": 187,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705754,
+      "updated_time": 1767705754,
+      "target": {
+        "comment_count": 354,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "type": "answer",
+        "thanks_count": 30,
+        "visited_count": 140413,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-3dab631e3b2716d26073cf92905663e9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3fa7c7707118a584d37848d893b38156_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6a6ba000b394f359139d9b48b5105e02_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0b3756a5442f63e7aed05a810d847309_720w.jpg?source=b6762063"
+        ],
+        "created_time": 1767416990,
+        "voteup_count": 156,
+        "excerpt": "看这身材，你要是有机会想不想娶？   哪怕是一群人站在一起，她的身材就是最好。   再看这脸，想不想？说实话！   这是人家跟范冰冰同台   以及，在我记忆里，黑人女性只要不发福，身材比例普遍都不错，倒是那些黑人男性，感觉一个比一个丑。",
+        "vote_next_step": "vote",
+        "id": "1990771828684260967",
+        "is_copyable": true,
+        "preview_text": "",
+        "content": "<p data-pid=\"44jHPaPS\">看这身材，你要是有机会想不想娶？</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0794879fb092386149d862d7d1d4c9bd_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"1441\" data-size=\"normal\" data-original-token=\"v2-3dab631e3b2716d26073cf92905663e9\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic2.zhimg.com/v2-0794879fb092386149d862d7d1d4c9bd_r.jpg\"/></figure><p data-pid=\"KnaS-w8k\">哪怕是一群人站在一起，她的身材就是最好。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-49970dc9aa0b3695ca96cb09a3614f48_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"1280\" data-size=\"normal\" data-original-token=\"v2-3fa7c7707118a584d37848d893b38156\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic3.zhimg.com/v2-49970dc9aa0b3695ca96cb09a3614f48_r.jpg\"/></figure><p data-pid=\"px9Ta3QY\">再看这脸，想不想？说实话！</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b728ce53d1a3fca774d13bb6116041f4_1440w.jpg\" data-rawwidth=\"606\" data-rawheight=\"808\" data-size=\"normal\" data-original-token=\"v2-e96f1b589dc4a9a14b23d1911d8ddd5f\" class=\"origin_image zh-lightbox-thumb\" width=\"606\" data-original=\"https://pic1.zhimg.com/v2-b728ce53d1a3fca774d13bb6116041f4_r.jpg\"/></figure><p data-pid=\"Yn3CR-nP\">这是人家跟范冰冰同台</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ddd4ee206ad3bd8c70e7bbb39a7c663f_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"1280\" data-size=\"normal\" data-original-token=\"v2-6a6ba000b394f359139d9b48b5105e02\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic4.zhimg.com/v2-ddd4ee206ad3bd8c70e7bbb39a7c663f_r.jpg\"/></figure><p data-pid=\"5XSZbVjU\">以及，在我记忆里，黑人女性只要不发福，身材比例普遍都不错，倒是那些黑人男性，感觉一个比一个丑。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-777ec47f4948ae12d6c73b3ad0cc14df_1440w.jpg\" data-rawwidth=\"894\" data-rawheight=\"1214\" data-size=\"normal\" data-original-token=\"v2-0b3756a5442f63e7aed05a810d847309\" class=\"origin_image zh-lightbox-thumb\" width=\"894\" data-original=\"https://pic4.zhimg.com/v2-777ec47f4948ae12d6c73b3ad0cc14df_r.jpg\"/></figure><p></p>",
+        "navigator_vote": false,
+        "question": {
+          "answer_count": 0,
+          "type": "question",
+          "is_following": false,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/1919517137485165977",
+          "author": {
+            "followers_count": 2,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/9cbc3e82bef609a5eaa2447e53bac2da",
+            "headline": "我是一块孤独的饼干，孤独的呆在盘子中",
+            "avatar_url": "https://pica.zhimg.com/50/v2-6d5a02273618944d6ffc7f8cec087f01_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "is_followed": false,
+            "id": "9cbc3e82bef609a5eaa2447e53bac2da",
+            "user_type": "people",
+            "url_token": "bzfrpf",
+            "name": "假龙"
+          },
+          "title": "真的会有中国男人娶非洲女人吗？",
+          "follower_count": 0,
+          "comment_count": 7,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "id": "1919517137485165977",
+          "bound_topic_ids": [
+            982,
+            1096,
+            12816,
+            152970,
+            2216462
+          ],
+          "created": 1750428548
+        },
+        "allow_segment_interaction": true,
+        "updated_time": 1767418761,
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "is_navigator": false,
+        "is_labeled": false,
+        "favorite_count": 52,
+        "url": "https://api.zhihu.com/answers/1990771828684260967",
+        "excerpt_new": "看这身材，你要是有机会想不想娶？   哪怕是一群人站在一起，她的身材就是最好。   再看这脸，想不想？说实话！   这是人家跟范冰冰同台   以及，在我记忆里，黑人女性只要不发福，身材比例普遍都不错，倒是那些黑人男性，感觉一个比一个丑。",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-dc735332765b5faca2c7140b36a08aed_l.jpg?source=b6762063",
+          "gender": -1,
+          "is_following": false,
+          "id": "3b0d2812943a080ec4303c23f367a1a9",
+          "user_type": "people",
+          "name": "刘铁蛋",
+          "headline": "",
+          "is_org": false,
+          "followers_count": 23,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/3b0d2812943a080ec4303c23f367a1a9",
+          "url_token": "liu-tie-dan-16-25"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-3dab631e3b2716d26073cf92905663e9_720w.jpg?source=b6762063",
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990771828684260967}",
+      "attached_info": "Cs4HCPbaj9rW6IiMvQEQBBoJNzYzNzg4MDg0IJ7J4soGKJwBMOICQLsBSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9WgkxMTU0Nzg3NjFiIGVhZWE1NDA2NmM4MTlhNmE3OWI5ZmNiZTFkOTIyMzM0chMxOTkwNzcxODI4Njg0MjYwOTY3igETMTkxOTUxNzEzNzQ4NTE2NTk3N6oBCXJlY29tbWVuZMIBIDNiMGQyODEyOTQzYTA4MGVjNDMwM2MyM2YzNjdhMWE58gEKCAwSBk5vcm1hbPIBKAgKEiRmNTgxYmUzYy00OTkxLTQxMTAtOTFiOC1hMjRkOGRiZDM2ZWLyAQYICxICMzKCAgCIAuzy5Ju5M5ICIDNiMGQyODEyOTQzYTA4MGVjNDMwM2MyM2YzNjdhMWE5mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIWUmV2aXNpdFZhbHVlV2VpZ2h0UnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjPoAgL6AgtOT1JNQUxfRkxPV4oDIDZlZWE2ZDVmZjJmNjRmNDg4NzE2YzkwM2YwMWQ1YjY4mgMNCgJ2MhAAGgVvdGhlcqgD/cgI2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6A4oCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAUQwAcYoQsiI3YyLTNkYWI2MzFlM2IyNzE2ZDI2MDczY2Y5MjkwNTY2M2U5Oi0IAhDABxiACiIjdjItM2ZhN2M3NzA3MTE4YTU4NGQzNzg0OGQ4OTNiMzgxNTY6LQgDEN4EGKgGIiN2Mi1lOTZmMWI1ODlkYzRhOWExNGIyM2QxOTExZDhkZGQ1ZjotCAMQwAcYgAoiI3YyLTZhNmJhMDAwYjM5NGYzNTkxMzlkOWI0OGI1MTA1ZTAyOi0IAxD+Bhi+CSIjdjItMGIzNzU2YTU0NDJmNjNlN2FlZDA1YTgxMGQ4NDczMDmABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKBSwrQ/gQUAAAAAAAAAAIkF6/r1rzaNsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFIJAGAKAGvAGoBgOSAi4KCTc2Mzc4ODA4NBITMTk5MDc3MTgyODY4NDI2MDk2NxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "188_1767705754.114",
+      "type": "feed",
+      "offset": 188,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705754,
+      "updated_time": 1767705754,
+      "target": {
+        "id": "1989720241840886006",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1989720241840886006",
+        "voteup_count": 1309,
+        "comment_count": 78,
+        "question": {
+          "id": "1913982784646673062",
+          "title": "你最喜欢毛选里的那一句段话？",
+          "is_following": false,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1913982784646673062",
+          "author": {
+            "headline": "实践观点是马克思主义首要的和基本的观点",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-23112487ea602d208860e0098695f6c5_l.jpg?source=b6762063",
+            "is_org": false,
+            "url": "https://api.zhihu.com/people/f5f548ae86470de424b67be7c533f037",
+            "user_type": "people",
+            "url_token": "material-object",
+            "name": "学药的",
+            "gender": -1,
+            "followers_count": 2108,
+            "is_following": false,
+            "is_followed": false,
+            "id": "f5f548ae86470de424b67be7c533f037"
+          },
+          "comment_count": 5,
+          "bound_topic_ids": [
+            10715,
+            23320,
+            176995,
+            2928410
+          ],
+          "created": 1749109055,
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "不是毛选的，是西行漫记里记录的教员说过的话。",
+        "preview_text": "",
+        "content": "<p data-pid=\"Y7czyCld\">不是毛选的，是西行漫记里记录的教员说过的话。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ea895337159839899a5ee253101887ae_1440w.jpg\" data-rawwidth=\"1178\" data-rawheight=\"271\" data-size=\"normal\" data-original-token=\"v2-eb6ec24888d1d8125a53f7cb736fbb4f\" class=\"origin_image zh-lightbox-thumb\" width=\"1178\" data-original=\"https://pic3.zhimg.com/v2-ea895337159839899a5ee253101887ae_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "is_labeled": false,
+        "favorite_count": 170,
+        "author": {
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/7f4aafa384a90d08f739f64199ad62e2",
+          "url_token": "ai-chi-xiao-ye-de-pang-zi",
+          "name": "爱吃宵夜的胖子",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-a74fbbff18eb7d17e70c3201794b0bcc_l.jpg?source=b6762063",
+          "is_followed": false,
+          "id": "7f4aafa384a90d08f739f64199ad62e2",
+          "user_type": "people",
+          "is_org": false,
+          "followers_count": 9,
+          "is_following": false
+        },
+        "is_copyable": true,
+        "preview_type": "default",
+        "navigator_vote": false,
+        "created_time": 1767166272,
+        "updated_time": 1767166272,
+        "thanks_count": 16,
+        "excerpt_new": "不是毛选的，是西行漫记里记录的教员说过的话。",
+        "reshipment_settings": "allowed",
+        "visited_count": 106884
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989720241840886006}",
+      "attached_info": "CtkFCPbaj9rW6IiMvQEQBBoJNzYzNDY0MDExIMCi08oGKJ0KME5AvAFKKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1aCTExNTI1MDM5OWIgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE5ODk3MjAyNDE4NDA4ODYwMDaKARMxOTEzOTgyNzg0NjQ2NjczMDYyqgEJcmVjb21tZW5kwgEgN2Y0YWFmYTM4NGE5MGQwOGY3MzlmNjQxOTlhZDYyZTLyAQoIDBIGTm9ybWFs8gEoCAoSJDJiY2NiYmMxLWQyN2MtNDM1Yi1hNTI3LTkxMTQ2OWM1MDdiZfIBBggLEgIzMoICAIgC7PLkm7kzkgIgN2Y0YWFmYTM4NGE5MGQwOGY3MzlmNjQxOTlhZDYyZTKaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AIC+gILTk9STUFMX0ZMT1eKAyA2ZWVhNmQ1ZmYyZjY0ZjQ4ODcxNmM5MDNmMDFkNWI2OJoDDQoCdjIQABoFb3RoZXKoA4TDBtgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQmgkYjwIiI3YyLWViNmVjMjQ4ODhkMWQ4MTI1YTUzZjdjYjczNmZiYjRmgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgHJywP4EFAAAAAAAAAACJBev69a82jbI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBSCQBgCgBr0BqAYAkgIuCgk3NjM0NjQwMTESEzE5ODk3MjAyNDE4NDA4ODYwMDYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "189_1767705754.493",
+      "type": "feed",
+      "offset": 189,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705754,
+      "updated_time": 1767705754,
+      "target": {
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"0BQ0V3i0\">卖过一个电火锅，原价好像68，好久没用了，就挂20，自提。后来一个女大学生拍下了，拿回去之后说调节温度的档位坏了，我说要不退你10块？她说行！然后顺利成交！</p><p data-pid=\"PutZpJmR\">对我们普通卖家来说，本来就不是奔着赚钱去，可有些买家觉得自己是上帝，一上来就狠狠砍一刀不说，还语气特别生硬！让人反感：我儿子秋季运动校服穿了一年（实际穿的天数不超过30天），很新，扔了可惜，我就挂了上去，两件160（新的单件180，还包含两件羽绒内胆，不确定是不是羽绒，买的时候120一件）。挂上去之后，一家长砍到70。我以为是一件，我说70买一件也行，你自己来取吧！那家长张口就来：想啥呢？两件一共70！爱卖不卖！一看，这种傻13再搭理他自己就是傻13了！立马拉黑！</p><p></p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "favorite_count": 15,
+        "navigator_vote": false,
+        "id": "1991187604926907388",
+        "excerpt_new": "卖过一个电火锅，原价好像68，好久没用了，就挂20，自提。后来一个女大学生拍下了，拿回去之后说调节温度的档位坏了，我说要不退你10块？她说行！然后顺利成交！ 对我们普通卖家来说，本来就不是奔着赚钱去，可有些买家觉得自己是上帝，一上来就狠狠砍一刀不说，还语气特别生硬！让人反感：我儿子秋季运动校服穿了一年（实际穿的天数不超过30天），很新，扔了可惜，我就挂了上去，两件160（新的单件180，还包含两件羽绒内胆，不…",
+        "preview_text": "",
+        "is_labeled": false,
+        "visited_count": 80163,
+        "allow_segment_interaction": true,
+        "voteup_count": 136,
+        "excerpt": "卖过一个电火锅，原价好像68，好久没用了，就挂20，自提。后来一个女大学生拍下了，拿回去之后说调节温度的档位坏了，我说要不退你10块？她说行！然后顺利成交！ 对我们普通卖家来说，本来就不是奔着赚钱去，可有些买家觉得自己是上帝，一上来就狠狠砍一刀不说，还语气特别生硬！让人反感：我儿子秋季运动校服穿了一年（实际穿的天数不超过30天），很新，扔了可惜，我就挂了上去，两件160（新的单件180，还包含两件羽绒内胆，不…",
+        "preview_type": "default",
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "created_time": 1767516119,
+        "updated_time": 1767665973,
+        "comment_count": 50,
+        "thanks_count": 5,
+        "is_copyable": true,
+        "question": {
+          "id": "376872656",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-8315c20d4d87dc2edd921b2c3350466a_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_following": false,
+            "id": "420db63fca3672f50d72534d58b8f9c1",
+            "url": "https://api.zhihu.com/people/420db63fca3672f50d72534d58b8f9c1",
+            "user_type": "people",
+            "url_token": "nightwf",
+            "is_followed": false,
+            "name": "络溪谷",
+            "headline": "传播一些有价值的东西",
+            "is_org": false,
+            "followers_count": 14
+          },
+          "created": 1583371626,
+          "answer_count": 0,
+          "comment_count": 4,
+          "is_following": false,
+          "excerpt": "",
+          "title": "闲鱼上有多少人是真正出闲置的？",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            5131,
+            29107,
+            110963
+          ],
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/376872656",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "is_navigator": false,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1991187604926907388",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-553f1128bc6e8dafd8ffbe6fc5f33d3d_l.jpg?source=b6762063",
+          "followers_count": 822,
+          "is_followed": false,
+          "url_token": "shenwei0419",
+          "url": "https://api.zhihu.com/people/1c67feeadba7b5c7d53cdc1a2fabb2ca",
+          "user_type": "people",
+          "name": "蚂蚁牙黑黑",
+          "headline": "▇▇▇▇▇刮开有石墨烯！",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "id": "1c67feeadba7b5c7d53cdc1a2fabb2ca"
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991187604926907388}",
+      "attached_info": "Cr8FCPbaj9rW6IiMvQEQBBoJNzYzOTY5NzkwINfP6MoGKIgBMDJAvQFKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1aCDQ2MDI3NjMzYiBlYWVhNTQwNjZjODE5YTZhNzliOWZjYmUxZDkyMjMzNHITMTk5MTE4NzYwNDkyNjkwNzM4OIoBCTM3Njg3MjY1NqoBCXJlY29tbWVuZMIBIDFjNjdmZWVhZGJhN2I1YzdkNTNjZGMxYTJmYWJiMmNh8gEKCAwSBk5vcm1hbPIBKAgKEiQ1YzljOWQxYi0zYzY0LTRiYzYtYTcwZS1hMWY0MDE4MTM1YTfyAQYICxICMzKCAgCIAuzy5Ju5M5ICIDFjNjdmZWVhZGJhN2I1YzdkNTNjZGMxYTJmYWJiMmNhmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxl2gITVFNfU09VUkNFX0ZFRURSRV9WNegCAvoCC05PUk1BTF9GTE9XigMgNmVlYTZkNWZmMmY2NGY0ODg3MTZjOTAzZjAxZDViNjiaAw0KAnYyEAAaBW90aGVyqAOj8gTYAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4CoqtD+BBQAAAAAAAAAAiQXr+vWvNo2yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUgkAYAoAa+AagGAJICLgoJNzYzOTY5NzkwEhMxOTkxMTg3NjA0OTI2OTA3Mzg4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "190_1767705754.194",
+      "type": "feed",
+      "offset": 190,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705754,
+      "updated_time": 1767705754,
+      "target": {
+        "thanks_count": 1,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1991832873372767038",
+        "updated_time": 1767670874,
+        "reshipment_settings": "allowed",
+        "content": "<h3><b>老段只是随手晒晒，让大家感受一下，什么是买股票就是买公司，什么是主要看商业模式，什么是复利的力量。</b></h3><p data-pid=\"oR_OsoZC\">段永平回忆当年和巴菲特吃午餐时，学到的最重要的一课，那就是“商业模式比什么都重要”。</p><p data-pid=\"-nYaWX4W\">在智能手机开始的时代，买入苹果的股票，长期持有，是段永平践行价值投资选择的最好体现。</p><p data-pid=\"F_iKQYkM\">苹果是智能手机行业的领导者，iPhone在当时也是无敌的存在。</p><p data-pid=\"eb_4o4e6\">iPhone拥有着极佳的产品，还有ios生态系统，这些构成了其护城河，在短期内很难被模仿。</p><p data-pid=\"Z7MLt3Hc\">OV也做手机，但他们那时候还是功能机，后面想要转型，学的对象就是苹果，也做智能手机，但是走的是安卓路线。</p><p data-pid=\"bfWhVKPD\">段永平对于安卓手机和苹果手机之间的区别，可太懂了。</p><p data-pid=\"CsmOvEPE\">苹果均价是安卓的N倍，销量还能常年保持稳定，行业80%的利润都被苹果赚走了。</p><p data-pid=\"sV4N12VR\">iPhone的流畅度和交互体验，在当时是断档领先的，一个能打的都没有。</p><p data-pid=\"MjzqUOPh\">在这些商业模式和护城河等的优势下，段永平帮代管的账号（高尔夫球友的），直接买入苹果公司的股票，放上个14年。</p><p data-pid=\"K_9ppnCF\">然后神奇的事情就发生了，两个账号的年化复合收益率，一个30%，一个28%，就问还有谁？</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-22404a876c8f4428ff5eaaa37a5a9b9c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"657\" data-rawheight=\"191\" data-original-token=\"v2-bd9f98b50ac4dec3965769a023e124a0\" class=\"origin_image zh-lightbox-thumb\" width=\"657\" data-original=\"https://pic1.zhimg.com/v2-22404a876c8f4428ff5eaaa37a5a9b9c_r.jpg\"/></figure><h3>对于不那么懂的普通人来说，全仓买入一家公司的风险是比较高的，因为一旦看走眼，就没了。</h3><p data-pid=\"LLXtbMIG\">但对于真正懂公司的人来说，集中带来的只有高收益。</p><p data-pid=\"BPsv1Y2M\">我看很多人都说这两个账号太小了，不算什么，就是随便玩玩，晒出来的账号是他帮朋友代管的账号，所以就买入最放心的公司，长期持有。</p><p data-pid=\"fagfEkAx\">段永平的持仓也是需要经常披露的。苹果依旧是他的第一大重仓，且集中度非常高，Q1的时候高达63.33%，市值为76.02亿美元。后面逐渐增大了伯克希尔的权重，相信老巴的智慧和绝佳的风控能力。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-25ff5969263d03f2c7db2c469b8647ef_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"660\" data-rawheight=\"517\" data-original-token=\"v2-6f19e75983ebe8ee0dec34bb988e2cdf\" class=\"origin_image zh-lightbox-thumb\" width=\"660\" data-original=\"https://pic2.zhimg.com/v2-25ff5969263d03f2c7db2c469b8647ef_r.jpg\"/></figure><p data-pid=\"53n0I5S8\">买入伟大公司后，你需要做的，就是什么都不做。</p><p data-pid=\"P3ww0ElF\">在那个年代的苹果，其实已经涨过很多次了，虽然已经涨了很多了，但当时仍然处于智能手机时代的早期。</p><p data-pid=\"M7cpM9Ar\">段显然是看到了智能手机会是一个长期发展的事物，所以在那个时候就重仓买入了很多苹果公司的股票。</p><p data-pid=\"iYI8BcrG\">后来据说还和老巴提起过苹果的商业模式比可口可乐更优秀，巴菲特后面投资的时候，苹果的护城河已经非常宽了，属于消费属性更强一些的科技公司。</p><p data-pid=\"1wIt-t-v\">其实从老段投苹果这波操作中，可以学到很多东西：</p><p data-pid=\"XDI14zK7\">1）买入伟大公司，长期持有，享受时间的复利；</p><p data-pid=\"MoW2K1c4\">2）增强对新事物的理解，早接触，早感受，去思考未来的发展；</p><p data-pid=\"NcdyV0-z\">3）真正好的投资，是非常无聊的，就是买了，放那不管，等待时间的复利即可。</p><p data-pid=\"ejOBR__j\">以上，希望大家都能够赚到时间的复利，都能够躺着成为百万、千万富翁~</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6111cf0d0eee38395279103a756d5a72_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"1067\" data-original-token=\"v2-b050b2cee4a5cedde2b309dd38d6d47b\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pica.zhimg.com/v2-6111cf0d0eee38395279103a756d5a72_r.jpg\"/></figure><p></p>",
+        "thumbnail": "https://pica.zhimg.com/50/v2-b050b2cee4a5cedde2b309dd38d6d47b_720w.jpg?source=b6762063",
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-b050b2cee4a5cedde2b309dd38d6d47b_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "id": "1991832873372767038",
+        "created_time": 1767669963,
+        "voteup_count": 37,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-ed4241504aec6cbfb1298e19bb97b671_l.jpg?source=b6762063",
+          "gender": 1,
+          "badge": [
+            {
+              "description": "Android 手机等 4 个话题下的优秀答主",
+              "topic_names": [
+                "Android 手机",
+                "小米手机",
+                "手机",
+                "汽车"
+              ],
+              "topic_ids": [
+                2042,
+                25405,
+                488,
+                570
+              ],
+              "type": "best_answerer"
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜数码领域影响力榜答主"
+            }
+          ],
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "wang-xiang-yu-59-47",
+          "headline": "乡村做题家！自由赛高！梦想不会终结！",
+          "is_org": false,
+          "followers_count": 384887,
+          "is_followed": false,
+          "id": "a0fb50809009d32e706c8825920f6063",
+          "url": "https://api.zhihu.com/people/a0fb50809009d32e706c8825920f6063",
+          "name": "王之葵托利"
+        },
+        "is_navigator": false,
+        "is_copyable": true,
+        "preview_type": "default",
+        "excerpt": "老段只是随手晒晒，让大家感受一下，什么是买股票就是买公司，什么是主要看商业模式，什么是复利的力量。段永平回忆当年和巴菲特吃午餐时，学到的最重要的一课，那就是“商业模式比什么都重要”。 在智能手机开始的时代，买入苹果的股票，长期持有，是段永平践行价值投资选择的最好体现。 苹果是智能手机行业的领导者，iPhone在当时也是无敌的存在。 iPhone拥有着极佳的产品，还有ios生态系统，这些构成了其护城河，在短期内很难…",
+        "excerpt_new": "老段只是随手晒晒，让大家感受一下，什么是买股票就是买公司，什么是主要看商业模式，什么是复利的力量。段永平回忆当年和巴菲特吃午餐时，学到的最重要的一课，那就是“商业模式比什么都重要”。 在智能手机开始的时代，买入苹果的股票，长期持有，是段永平践行价值投资选择的最好体现。 苹果是智能手机行业的领导者，iPhone在当时也是无敌的存在。 iPhone拥有着极佳的产品，还有ios生态系统，这些构成了其护城河，在短期内很难…",
+        "is_labeled": false,
+        "favorite_count": 21,
+        "comment_count": 6,
+        "question": {
+          "url": "https://api.zhihu.com/questions/1991189102696091881",
+          "answer_count": 0,
+          "is_following": false,
+          "id": "1991189102696091881",
+          "author": {
+            "is_org": true,
+            "is_followed": false,
+            "user_type": "organization",
+            "name": "每日经济新闻",
+            "headline": "新闻决定影响力",
+            "avatar_url": "https://pica.zhimg.com/50/v2-3c85f145c803f8c734e586243f171a50_l.jpg?source=b6762063",
+            "badge": [
+              {
+                "type": "identity_org",
+                "description": "已认证机构号"
+              }
+            ],
+            "followers_count": 698807,
+            "is_following": false,
+            "id": "6f173fa827813aa9855c0950f914835d",
+            "url": "https://api.zhihu.com/people/6f173fa827813aa9855c0950f914835d",
+            "url_token": "mei-ri-jing-ji-xin-wen",
+            "gender": -1
+          },
+          "comment_count": 11,
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "follower_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "title": "段永平再晒苹果持仓，14 年累计收益率超 16 倍，狂赚超 3400 万美元，具有哪些参考性？",
+          "created": 1767516476,
+          "bound_topic_ids": [
+            395,
+            520,
+            1740,
+            3217,
+            105508
+          ]
+        },
+        "visited_count": 3937
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991832873372767038}",
+      "attached_info": "CuEGCPbaj9rW6IiMvQEQBBoJNzY0MjIzNjc2IMuB8soGKCUwBkC+AUowChtUU19TT1VSQ0VfRkVFRFJFX1RJTUVMSU5FU1MSATAYACAAOgp7InJhdyI6IiJ9WgkxMTc5NTExOTViIGVhZWE1NDA2NmM4MTlhNmE3OWI5ZmNiZTFkOTIyMzM0chMxOTkxODMyODczMzcyNzY3MDM4igETMTk5MTE4OTEwMjY5NjA5MTg4MaoBCXJlY29tbWVuZMIBIGEwZmI1MDgwOTAwOWQzMmU3MDZjODgyNTkyMGY2MDYz8gEKCAwSBk5vcm1hbPIBKAgKEiQyOGMzMTE5MC02YjQ0LTQ2MTQtOWYxOC0xYzc0ZmU4MDI2NzTyAQYICxICMzKCAgCIAuzy5Ju5M5ICIGEwZmI1MDgwOTAwOWQzMmU3MDZjODgyNTkyMGY2MDYzmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxl2gIbVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNT6AIE+gILTk9STUFMX0ZMT1eKAyA2ZWVhNmQ1ZmYyZjY0ZjQ4ODcxNmM5MDNmMDFkNWI2OJoDDQoCdjIQABoFb3RoZXKoA+Ee2AMA6gMUZmVlZHJlX3RpbWVsaW5lc3NfdjL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQkQUYvwEiI3YyLWJkOWY5OGI1MGFjNGRlYzM5NjU3NjlhMDIzZTEyNGEwOi0IAhCUBRiFBCIjdjItNmYxOWU3NTk4M2ViZThlZTBkZWMzNGJiOTg4ZTJjZGY6LQgFEKAGGKsIIiN2Mi1iMDUwYjJjZWU0YTVjZWRkZTJiMzA5ZGQzOGQ2ZDQ3YoAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAICBYqD+BBQAAAAAAAAAAiQXr+vWvNo2yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUgkAYAoAa/AagGAZICLgoJNzY0MjIzNjc2EhMxOTkxODMyODczMzcyNzY3MDM4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "191_1767705754.747",
+      "type": "feed",
+      "offset": 191,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705754,
+      "updated_time": 1767705754,
+      "target": {
+        "id": "1965789424035010369",
+        "url": "https://api.zhihu.com/answers/1965789424035010369",
+        "favorite_count": 145,
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "content": "<p data-pid=\"CIkiYTmf\">不请自来!</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1965789251959526374\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-f08ce62b9adca0db656dc08963d71541_720w.jpg?source=ccfced1a\" data-lens-id=\"1965789251959526374\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-f08ce62b9adca0db656dc08963d71541_720w.jpg?source=ccfced1a\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1965789251959526374</span></span></a>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-f08ce62b9adca0db656dc08963d71541_720w.jpg?source=b6762063"
+        ],
+        "voteup_count": 145,
+        "comment_count": 34,
+        "visited_count": 151142,
+        "author": {
+          "user_type": "people",
+          "headline": "别光收藏啊，顺手点点关注 ◔.̮◔✧",
+          "followers_count": 414,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/7564ea78f046a74bf044e4fb46cda49b",
+          "url_token": "xing-kong-4-60-81",
+          "name": "小作坊里下猛料",
+          "avatar_url": "https://pica.zhimg.com/50/v2-614f0b9199c3548b15ad37e095782c3b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "is_following": false,
+          "id": "7564ea78f046a74bf044e4fb46cda49b"
+        },
+        "question": {
+          "title": "有哪些女主让你觉得真是「人间尤物」？",
+          "comment_count": 11,
+          "id": "660710248",
+          "question_type": "normal",
+          "author": {
+            "user_type": "people",
+            "url_token": "chen-tong-xue-you-shuai-liao",
+            "name": "陳同学又帅了",
+            "is_org": false,
+            "is_followed": false,
+            "id": "8c314b21565a9b35a828396eb8c2e5cf",
+            "url": "https://api.zhihu.com/people/8c314b21565a9b35a828396eb8c2e5cf",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-13d160accbc8c491f29e7aaf19665d27_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 47,
+            "is_following": false
+          },
+          "created": 1720076066,
+          "follower_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/660710248",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            1307,
+            4728,
+            19898,
+            40671,
+            184412
+          ],
+          "excerpt": "",
+          "detail": ""
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-f08ce62b9adca0db656dc08963d71541_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "preview_text": "",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "is_copyable": true,
+        "excerpt_new": "不请自来! [视频]",
+        "type": "answer",
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "created_time": 1761460721,
+        "updated_time": 1761460721,
+        "thanks_count": 11,
+        "excerpt": "不请自来! [视频]"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1965789424035010369}",
+      "attached_info": "CooGCPbaj9rW6IiMvQEQBBoJNzUzNjAzNzYwIPGD98cGKJEBMCJAvwFKLwoGSXRlbUNGEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3NTc2NTE5MzkKGAAgADoAWgkxMDkxMDIwNDliIGVhZWE1NDA2NmM4MTlhNmE3OWI5ZmNiZTFkOTIyMzM0aOan0JKN3fijG3ITMTk2NTc4OTQyNDAzNTAxMDM2OYoBCTY2MDcxMDI0OKoBCXJlY29tbWVuZMIBIDc1NjRlYTc4ZjA0NmE3NGJmMDQ0ZTRmYjQ2Y2RhNDli8gEKCAwSBk5vcm1hbPIBKAgKEiQ1OTBlMDBjNS1hYjQ5LTQ5YjctYmIyNi0zZTBhNTU1MmM0ZjLyAQYICxICMzKCAgCIAuzy5Ju5M5ICIDc1NjRlYTc4ZjA0NmE3NGJmMDQ0ZTRmYjQ2Y2RhNDlimgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVnVsZ2FyVGhlbWVXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAgZJdGVtQ0boAgL6AgtOT1JNQUxfRkxPV4oDIDZlZWE2ZDVmZjJmNjRmNDg4NzE2YzkwM2YwMWQ1YjY4mgMNCgJ2MhAAGgVvdGhlcqgD5pwJ2AMA6gMVdGV4dEFsbFNpdGVNdkl0ZW1DRlYy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQJZPuD+BBQAAAAAAAAAAiQXr+vWvNo2yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUgkAYAoAbAAagGAJICLgoJNzUzNjAzNzYwEhMxOTY1Nzg5NDI0MDM1MDEwMzY5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=191&desktop=true&end_offset=192&page_number=33&session_token=eaea54066c819a6a79b9fcbe1d922334",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=191&desktop=true&end_offset=192&page_number=33&session_token=eaea54066c819a6a79b9fcbe1d922334",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

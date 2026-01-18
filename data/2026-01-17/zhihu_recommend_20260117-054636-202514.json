@@ -1,0 +1,710 @@
+{
+  "data": [
+    {
+      "id": "36_1768600004.854",
+      "type": "feed",
+      "offset": 36,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600004,
+      "updated_time": 1768600004,
+      "target": {
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1995164560345302993",
+        "author": {
+          "gender": 0,
+          "user_type": "people",
+          "url": "https://api.zhihu.com/people/d2269f54804234972714908a1bed87f7",
+          "url_token": "45-73-72-24",
+          "name": "一直很懒的小强",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-bf1f7ff64679fefa04a8c41c859406ae_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 30,
+          "id": "d2269f54804234972714908a1bed87f7",
+          "is_followed": false,
+          "is_following": false
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-2350e74e906bfa7ea9ea9536a12af730_720w.jpg?source=b6762063",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "updated_time": 1768464299,
+        "question": {
+          "author": {
+            "is_org": false,
+            "followers_count": 16,
+            "is_following": false,
+            "id": "f48eace01473a800aa7904a65f526e15",
+            "url": "https://api.zhihu.com/people/f48eace01473a800aa7904a65f526e15",
+            "user_type": "people",
+            "name": "Chris_Woo",
+            "is_followed": false,
+            "url_token": "chris-woo-6",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-62f4b08020f5d3dd794a2fc0b5b823dc_l.jpg?source=b6762063",
+            "gender": -1
+          },
+          "is_following": false,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1992268656592299582",
+          "title": "被称为开源版 ClaudeCode 的Opencode 狂飙Star，其爆火原因和影响是什么？",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            350,
+            4170,
+            5265,
+            5288,
+            4011148
+          ],
+          "id": "1992268656592299582",
+          "comment_count": 1,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "created": 1767773862,
+          "answer_count": 0
+        },
+        "favorite_count": 4,
+        "voteup_count": 3,
+        "excerpt_new": "回到最初的问题：OpenCode的火爆代表了什么？答案并不简单。 对于个人开发者和创业团队来说，OpenCode提供了一个有吸引力的选项，自由、灵活、可控。如果你有一定的技术深度、不介意折腾、关心数据隐私，那么OpenCode值得一试。 对于大型企业来说，OpenCode可能更多是一个信号而非实际工具。而且它做的那么好用吗？这真的要打一个问号，比如这位网友提出了质疑。 并且也说出了一个目前共同的事实，Claude code领先！       还有很犀利的…",
+        "preview_text": "",
+        "content": "<p data-pid=\"spqjIpyU\">回到最初的问题：OpenCode的火爆代表了什么？答案并不简单。<br/><br/>对于个人开发者和创业团队来说，OpenCode提供了一个有吸引力的选项，自由、灵活、可控。如果你有一定的技术深度、不介意折腾、关心数据隐私，那么OpenCode值得一试。<br/><br/>对于大型企业来说，OpenCode可能更多是一个信号而非实际工具。</p><p data-pid=\"-RPv0JB5\">而且它做的那么好用吗？这真的要打一个问号，比如这位网友提出了质疑。<br/><br/>并且也说出了一个目前共同的事实，Claude code领先！</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c87ac33c5492e8e66d47acdfedd4c89b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1053\" data-rawheight=\"1012\" data-original-token=\"v2-2350e74e906bfa7ea9ea9536a12af730\" class=\"origin_image zh-lightbox-thumb\" width=\"1053\" data-original=\"https://picx.zhimg.com/v2-c87ac33c5492e8e66d47acdfedd4c89b_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8ada466cb0bb40ea796078a704beb709_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1139\" data-rawheight=\"1048\" data-original-token=\"v2-2c08a46ccf7b6038c9bbecf7b05198ed\" class=\"origin_image zh-lightbox-thumb\" width=\"1139\" data-original=\"https://picx.zhimg.com/v2-8ada466cb0bb40ea796078a704beb709_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3495783cf781947899c366c151d25485_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"644\" data-rawheight=\"195\" data-original-token=\"v2-0fdc71c883fc9804c815de67355a8a75\" class=\"origin_image zh-lightbox-thumb\" width=\"644\" data-original=\"https://pic4.zhimg.com/v2-3495783cf781947899c366c151d25485_r.jpg\"/></figure><p data-pid=\"VUFFfnQs\">还有很犀利的评论。<br/><br/>回到最初的问题：OpenCode的火爆代表了什么？答案并不简单。</p><p data-pid=\"E09E8r7J\">对于个人开发者和创业团队来说，OpenCode提供了一个有吸引力的选项——自由、灵活、可控。如果你有一定的技术深度、不介意折腾、关心数据隐私，那么OpenCode值得一试。<br/><br/>对于大型企业来说，OpenCode可能更多是一个信号而非实际工具。它代表了开源社区对AI编程工具的重新定义，警示商业产品不能在隐私、成本、可控性上过度妥协。<br/><br/>对于那些&#34;只想要好用的编程助手&#34;的人来说，ClaudeCode、Droid这样的成熟方案仍然是更安全的选择。OpenCode还需要时间证明自己。<br/><br/>真正的意义在于打破垄断<br/><br/>OpenCode火爆的真正意义，其实不在于它能否打败ClaudeCode，而在于它打破了某种&#34;唯一答案&#34;的垄断格局。<br/><br/>在OpenCode出现之前，AI编程工具的市场基本被商业公司占据——Cursor的ClaudeCode、Jetbrains的IDE集成、GitHub Copilot的垄断地位。</p><p data-pid=\"JHEf9h1Q\">这些工具确实好用，但它们都遵循着同一套商业逻辑：中心化、闭源、按量收费、数据上云。<br/><br/>OpenCode代表了另一种可能：去中心化、开源、透明、自主。虽然它目前的稳定性还不够，用户体验也还有差距。</p><p data-pid=\"EMAAB-fF\">但它打开了一扇门。在这扇门后面，开发者们看到了另一种AI编程工具的可能性。<br/><br/>这也解释了为什么OpenCode会快速火爆——不是因为它比ClaudeCode更好用（暂时还不是）。</p><p data-pid=\"ZUHCLtBP\">而是因为它代表了一个被压抑已久的诉求：<b>我想要一个真正属于我的、我能完全控制的、不被锁定的AI编程工具。<br/><br/></b>如果还不会使用Claude code，可以去使用0011.ai，它是国内比较出名的CC和Codex中转，而且还是积分制的，两个都可以使用。 🫱🫱🫱<a href=\"https://link.zhihu.com/?target=https%3A//0011.ai/i/AIG\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">0011.ai/i/AIG</span><span class=\"invisible\"></span></a></p>",
+        "is_navigator": false,
+        "created_time": 1768464299,
+        "thanks_count": 0,
+        "is_copyable": true,
+        "excerpt": "回到最初的问题：OpenCode的火爆代表了什么？答案并不简单。 对于个人开发者和创业团队来说，OpenCode提供了一个有吸引力的选项，自由、灵活、可控。如果你有一定的技术深度、不介意折腾、关心数据隐私，那么OpenCode值得一试。 对于大型企业来说，OpenCode可能更多是一个信号而非实际工具。而且它做的那么好用吗？这真的要打一个问号，比如这位网友提出了质疑。 并且也说出了一个目前共同的事实，Claude code领先！       还有很犀利的…",
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-2350e74e906bfa7ea9ea9536a12af730_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-2c08a46ccf7b6038c9bbecf7b05198ed_720w.jpg?source=b6762063"
+        ],
+        "type": "answer",
+        "visited_count": 444,
+        "vote_next_step": "vote",
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "id": "1995164560345302993",
+        "comment_count": 0,
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995164560345302993}",
+      "attached_info": "CpEHCOinv+z7rtSJvgEQBBoJNzY1NTM3NTE2IKu/ossGKAMwAEAkSicKHFRTX1NPVVJDRV9DT05DRVBUX1dPUkRfTUVSR0USATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNzk4NzEzMWIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTUxNjQ1NjAzNDUzMDI5OTOKARMxOTkyMjY4NjU2NTkyMjk5NTgyqgEJcmVjb21tZW5kwgEgZDIyNjlmNTQ4MDQyMzQ5NzI3MTQ5MDhhMWJlZDg3ZjfyAQoIDBIGTm9ybWFs8gEoCAoSJDA4ZGFiOWUwLWNlNDktNGY0Mi05ZWVlLTA0ZWNkZGI4YTg5MvIBBQgLEgE3ggIAiALEzJnGvDOSAiBkMjI2OWY1NDgwNDIzNDk3MjcxNDkwOGExYmVkODdmN5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhxUU19TT1VSQ0VfQ09OQ0VQVF9XT1JEX01FUkdF6AID+gILTk9STUFMX0ZMT1eKAyBhNDFiYzQ2OGRlN2M0Y2M2ODk2NThhODNiMzMwZjkxZpoDDQoCdjIQABoFb3RoZXKoA7wD2AMA6gMhQ29uY2VwdFdvcmRNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEJ0IGPQHIiN2Mi0yMzUwZTc0ZTkwNmJmYTdlYTllYTk1MzZhMTJhZjczMDotCAIQ8wgYmAgiI3YyLTJjMDhhNDZjY2Y3YjYwMzhjOWJiZWNmN2IwNTE5OGVkOi0IAhCEBRjDASIjdjItMGZkYzcxYzg4M2ZjOTgwNGM4MTVkZTY3MzU1YThhNzWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEAoBZs/gQUAAAAAAAAAAIkFM/r3bT/dsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFB5AGAKAGJqgGAZICLgoJNzY1NTM3NTE2EhMxOTk1MTY0NTYwMzQ1MzAyOTkzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "37_1768600004.321",
+      "type": "feed",
+      "offset": 37,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600004,
+      "updated_time": 1768600004,
+      "target": {
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-2a6b5699a62829714eec8cfce071c8e5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a4889bb74401765a8c8b74b57bef9cb6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b0e8fe345f5680d4635eb92789dc2c02_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "excerpt_new": "林园、段永平 15年毕业，17年一个偶然的机会读到林园07年在北大那次演讲的文字稿，把他认为好生意的标准说的清清楚楚，结合我的工作经验马上就意识到他说的是对的，说的就是最好的生意模式。我当时的感受是，只用了10分钟我就理解了股票投资的本质，那种感觉就好像找到了一个自己本就很熟悉很认可的东西，非常美妙。从那时起，在这个基本认知上我从未动摇过。再后来，18-19年陆续读到了段永平多年前在网易博客里给网友的回答，核…",
+        "thanks_count": 0,
+        "comment_count": 4,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-2a6b5699a62829714eec8cfce071c8e5_720w.jpg?source=b6762063",
+        "id": "1995180043572384456",
+        "visited_count": 3952,
+        "answer_type": "normal",
+        "preview_text": "",
+        "voteup_count": 64,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "question": {
+          "comment_count": 9,
+          "excerpt": "",
+          "id": "459457199",
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "title": "炒股这么久，你最感谢的人是谁？",
+          "bound_topic_ids": [
+            3217,
+            12287,
+            19800,
+            34354,
+            126555
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1620998211,
+          "answer_count": 0,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/459457199",
+          "author": {
+            "id": "7d8cb65617c38785f341b278b28ea541",
+            "url_token": "shu-sheng-36-2",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 17489,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/7d8cb65617c38785f341b278b28ea541",
+            "user_type": "people",
+            "name": "博弈论者",
+            "headline": "个人公众号：博弈论者，股市、财经专家！",
+            "avatar_url": "https://picx.zhimg.com/50/v2-2ef72c6cd1fadad1fee445548f157044_l.jpg?source=b6762063",
+            "badge": [
+              {
+                "description": "投资顾问执业证持证人",
+                "type": "identity_people"
+              }
+            ],
+            "is_following": false
+          }
+        },
+        "created_time": 1768467991,
+        "updated_time": 1768577838,
+        "is_copyable": false,
+        "excerpt": "林园、段永平 15年毕业，17年一个偶然的机会读到林园07年在北大那次演讲的文字稿，把他认为好生意的标准说的清清楚楚，结合我的工作经验马上就意识到他说的是对的，说的就是最好的生意模式。我当时的感受是，只用了10分钟我就理解了股票投资的本质，那种感觉就好像找到了一个自己本就很熟悉很认可的东西，非常美妙。从那时起，在这个基本认知上我从未动摇过。再后来，18-19年陆续读到了段永平多年前在网易博客里给网友的回答，核…",
+        "content": "<p data-pid=\"VgU76CdB\">林园、段永平</p><p data-pid=\"moWmUNLl\">15年毕业，17年一个偶然的机会读到林园07年在北大那次演讲的文字稿，把他认为好生意的标准说的清清楚楚，结合我的工作经验马上就意识到他说的是对的，说的就是最好的生意模式。我当时的感受是，只用了10分钟我就理解了股票投资的本质，那种感觉就好像找到了一个自己本就很熟悉很认可的东西，非常美妙。从那时起，在这个基本认知上我从未动摇过。再后来，18-19年陆续读到了段永平多年前在网易博客里给网友的回答，核心的就是股票投资是啥。他俩说的其实是一回事，买股票就是买公司，选的公司得是好的生意。这话有千钧之力，但如人饮水冷暖自知，懂得自然就懂。两人有一些区别，林园讲的有更多实操，段永平更多是底层逻辑，同时他讲的涵盖的范畴更大，可作为青年人的人生指导，不止是投资。</p><p data-pid=\"cixgoj9m\">后来18年全国还在抢省会城市的房子，同时特朗普第一次搞贸易战引起A股恐慌下跌。当时人还在长春，我模糊的觉得所有人都看到的机会就不是机会，同时也看到很多省会城市房价太离谱了，土地财政的经济模式已经难以维系，股市是我们这一代人最好的机会，于是在18年年底入市，到今天收益颇丰。最重要的是，从一开始我就走上了价值投资的路，没有折腾过，始终关注公司关注生意本身，作为一个普通工科生，对金融完全外行，完全是两位的启发。这一点要深深感谢林园、段永平两位大神。段总曾在博客里写到，希望以后能有一些小猴子受他博客内容的影响能成长起来，我算是受益人之一吧，哈哈。年轻的朋友，去认真读一读雪球里段永平的发言，别急着争辩，认真想一想，照着去做，时间久了，就会有大效果。</p><p data-pid=\"5S1VBO8t\">18年是毕业第四年，做了决定不再考虑买房，把钱投入股市，记得当时内心还是挺焦虑的，写了篇备忘录给自己打气，贴在这里作为分享。也贴一下我的收益率增加点说服力。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-69271c39a515eb19c267396594f8645e_1440w.jpg\" data-rawwidth=\"750\" data-rawheight=\"1334\" data-size=\"normal\" data-original-token=\"v2-2a6b5699a62829714eec8cfce071c8e5\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pica.zhimg.com/v2-69271c39a515eb19c267396594f8645e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f439824ce973f6552b8cbd0c5919eeee_1440w.jpg\" data-rawwidth=\"750\" data-rawheight=\"1334\" data-size=\"normal\" data-original-token=\"v2-a4889bb74401765a8c8b74b57bef9cb6\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pic3.zhimg.com/v2-f439824ce973f6552b8cbd0c5919eeee_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a1b29b49becaa3a62c2567950939f717_1440w.jpg\" data-rawwidth=\"1198\" data-rawheight=\"1217\" data-size=\"normal\" data-original-token=\"v2-b0e8fe345f5680d4635eb92789dc2c02\" class=\"origin_image zh-lightbox-thumb\" width=\"1198\" data-original=\"https://pic4.zhimg.com/v2-a1b29b49becaa3a62c2567950939f717_r.jpg\"/></figure><p></p>",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995180043572384456",
+        "author": {
+          "is_followed": false,
+          "user_type": "people",
+          "name": "朽木自雕379",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "followers_count": 106,
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "id": "ce8a3dcaf8ee4dfdf4f91f2d97bea5c4",
+          "url": "https://api.zhihu.com/people/ce8a3dcaf8ee4dfdf4f91f2d97bea5c4",
+          "url_token": "lan-hei-jun-tuan-379",
+          "headline": "投资和读书，是我当前的主要兴趣"
+        },
+        "is_labeled": false,
+        "favorite_count": 98,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995180043572384456}",
+      "attached_info": "CpEHCOinv+z7rtSJvgEQBBoJNzY1NTQ3MTI4IJfcossGKEAwBEAlSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg2NDM4MTg4MGIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTUxODAwNDM1NzIzODQ0NTaKAQk0NTk0NTcxOTmqAQlyZWNvbW1lbmTCASBjZThhM2RjYWY4ZWU0ZGZkZjRmOTFmMmQ5N2JlYTVjNPIBCggMEgZOb3JtYWzyASgIChIkYzYxMTUzMjEtNTg3Yy00MDFiLTgwM2EtMzQ3MWFhM2Y3ODA18gEFCAsSATeCAgCIAsTMmca8M5ICIGNlOGEzZGNhZjhlZTRkZmRmNGY5MWYyZDk3YmVhNWM0mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgP6AgtOT1JNQUxfRkxPV4oDIGE0MWJjNDY4ZGU3YzRjYzY4OTY1OGE4M2IzMzBmOTFmmgMNCgJ2MhAAGgVvdGhlcqgD8B7YAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEO4FGLYKIiN2Mi0yYTZiNTY5OWE2MjgyOTcxNGVlYzhjZmNlMDcxYzhlNTotCAIQ7gUYtgoiI3YyLWE0ODg5YmI3NDQwMTc2NWE4YzhiNzRiNTdiZWY5Y2I2Oi0IAhCuCRjBCSIjdjItYjBlOGZlMzQ1ZjU2ODBkNDYzNWViOTI3ODlkYzJjMDKABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAID9v6U/gQUAAAAAAAAAAIkFM/r3bT/dsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFB5AGAKAGJ6gGA5ICLgoJNzY1NTQ3MTI4EhMxOTk1MTgwMDQzNTcyMzg0NDU2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "38_1768600004.455",
+      "type": "feed",
+      "offset": 38,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600004,
+      "updated_time": 1768600004,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1995225222052336158",
+        "voteup_count": 29,
+        "thumbnail": "https://picx.zhimg.com/50/v2-1d6cc67205fdaf38b77b4a903c393057_720w.jpg?source=b6762063",
+        "excerpt_new": "说真的， 《甲种本》才是真正王者级别的教材！最直观的感受就是甲种本教材的 知识点密集、例题直给、全是干货！不像现在的教材给人一种绕来绕去讲不明白的感觉！其中 重点高中用的甲种本全套数学教材是公认的最好的一套教材，唯一美中不足的是缺少平面向量，算法初步等知识点，但这并不影响它在教育史上的至尊地位。而现在的教材么减负却把知识点切割得支离破碎. 代数主要把三角函数积化和差, 和差化积, 万能公式等都删了, 反三…",
+        "is_navigator": false,
+        "preview_text": "",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "created_time": 1768478762,
+        "updated_time": 1768478762,
+        "question": {
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1755122344,
+          "title": "为什么国家要在教材上设置反自学模式，难道非要老师教吗？就不能自己学吗？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "detail": "",
+          "author": {
+            "id": "9d50feb2d089345014b3fdba9f000e27",
+            "url": "https://api.zhihu.com/people/9d50feb2d089345014b3fdba9f000e27",
+            "user_type": "people",
+            "url_token": "--59-78-2-38",
+            "name": "顶风作案",
+            "avatar_url": "https://pica.zhimg.com/50/v2-d61f49284d1924450cffca4d6be442ae_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 538,
+            "is_following": false,
+            "is_followed": false,
+            "headline": "18岁在知乎赚学费的苦逼少年(ಥ_ಥ)",
+            "gender": 1
+          },
+          "url": "https://api.zhihu.com/questions/1939204343371928254",
+          "type": "question",
+          "comment_count": 21,
+          "bound_topic_ids": [
+            801,
+            988,
+            2019,
+            2265,
+            4848
+          ],
+          "question_type": "normal",
+          "id": "1939204343371928254"
+        },
+        "excerpt": "说真的， 《甲种本》才是真正王者级别的教材！最直观的感受就是甲种本教材的 知识点密集、例题直给、全是干货！不像现在的教材给人一种绕来绕去讲不明白的感觉！其中 重点高中用的甲种本全套数学教材是公认的最好的一套教材，唯一美中不足的是缺少平面向量，算法初步等知识点，但这并不影响它在教育史上的至尊地位。而现在的教材么减负却把知识点切割得支离破碎. 代数主要把三角函数积化和差, 和差化积, 万能公式等都删了, 反三…",
+        "content": "<p data-pid=\"ewf4mJWx\">说真的，<b>《甲种本》才是真正王者级别的教材！</b></p><p data-pid=\"RYnD1_ZB\">最直观的感受就是甲种本教材的<b>知识点密集、例题直给、全是干货</b>！不像现在的教材给人一种绕来绕去讲不明白的感觉！</p><p data-pid=\"AyPP7hhO\">其中<b>重点高中用的甲种本全套数学教材是公认的最好的一套教材</b>，唯一美中不足的是缺少平面向量，算法初步等知识点，但这并不影响它在教育史上的至尊地位。</p><p data-pid=\"-oaOEPOY\">而现在的教材么减负却把知识点切割得支离破碎. 代数主要把三角函数积化和差, 和差化积, 万能公式等都删了, 反三角函数也么得了, 复数现在也没有以前深入。</p><p data-pid=\"FBvR_qdu\"><a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV12LkcBJEUj/%3Fvd_source%3D6214844e6baf189ce5f0d6fcb17ec991\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">网友芬享《甲种本》合集教材资源</a></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fb0eb6230343ea63933035faabdcc597_1440w.jpg\" data-rawwidth=\"1051\" data-rawheight=\"796\" data-size=\"normal\" data-original-token=\"v2-1d6cc67205fdaf38b77b4a903c393057\" class=\"origin_image zh-lightbox-thumb\" width=\"1051\" data-original=\"https://pic4.zhimg.com/v2-fb0eb6230343ea63933035faabdcc597_r.jpg\"/></figure><p></p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-1d6cc67205fdaf38b77b4a903c393057_720w.jpg?source=b6762063"
+        ],
+        "comment_count": 2,
+        "reshipment_settings": "disallowed",
+        "author": {
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-93790dcca79047dc9376be740378d83a_l.jpg?source=b6762063",
+          "is_following": false,
+          "id": "3cd143a3b664eb03aade005ac9e69ed7",
+          "user_type": "people",
+          "url_token": "84-52-50-87-57",
+          "gender": 0,
+          "followers_count": 25,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/3cd143a3b664eb03aade005ac9e69ed7",
+          "name": "王小卤",
+          "is_org": false
+        },
+        "preview_type": "default",
+        "is_labeled": false,
+        "id": "1995225222052336158",
+        "thanks_count": 1,
+        "is_copyable": false,
+        "favorite_count": 90,
+        "answer_type": "normal",
+        "type": "answer",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 1597
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995225222052336158}",
+      "attached_info": "CrkGCOinv+z7rtSJvgEQBBoJNzY1NTY3ODQwIKqwo8sGKB0wAkAmSjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE2MjAxMzYxYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NTIyNTIyMjA1MjMzNjE1OIoBEzE5MzkyMDQzNDMzNzE5MjgyNTSqAQlyZWNvbW1lbmTCASAzY2QxNDNhM2I2NjRlYjAzYWFkZTAwNWFjOWU2OWVkN/IBCggMEgZOb3JtYWzyASgIChIkNjBlNmQ4MzQtYWRjOC00ZGNhLWI1NzAtZTA3OGVkNWUxZDBl8gEFCAsSATeCAgCIAsTMmca8M5ICIDNjZDE0M2EzYjY2NGViMDNhYWRlMDA1YWM5ZTY5ZWQ3mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyBhNDFiYzQ2OGRlN2M0Y2M2ODk2NThhODNiMzMwZjkxZpoDDQoCdjIQABoFb3RoZXKoA70M2AMA6gMWZmVlZHJlX2ZpcnN0X3NjcmVlbl92MvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEJsIGJwGIiN2Mi0xZDZjYzY3MjA1ZmRhZjM4Yjc3YjRhOTAzYzM5MzA1N4AEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwPC5pj+BBQAAAAAAAAAAiQUz+vdtP92yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUHkAYAoAYoqAYAkgIuCgk3NjU1Njc4NDASEzE5OTUyMjUyMjIwNTIzMzYxNTgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "39_1768600004.861",
+      "type": "feed",
+      "offset": 39,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600004,
+      "updated_time": 1768600004,
+      "target": {
+        "updated_time": 1768545958,
+        "vote_next_step": "vote",
+        "id": "1995507062273238589",
+        "url": "https://api.zhihu.com/answers/1995507062273238589",
+        "created_time": 1768545958,
+        "is_labeled": false,
+        "favorite_count": 21,
+        "allow_segment_interaction": true,
+        "is_copyable": false,
+        "excerpt": "因为懒，而且懒得有道理。 先说RESTful那套理论按照教科书的说法，GET获取资源、POST创建资源、PUT更新资源、DELETE删除资源。URL设计成 /users/123这种风格，一眼看去就知道是操作用户123。优雅，规范，面试的时候能吹。 但实际写业务的时候你会发现： 这套东西用起来真TM累。RESTful在现实中的尴尬来，给我设计几个接口： 用户登录批量删除订单查询用户最近30天的消费统计把购物车里的商品移到收藏夹你告诉我，这几个该用什么…",
+        "preview_text": "",
+        "excerpt_new": "因为懒，而且懒得有道理。 先说RESTful那套理论按照教科书的说法，GET获取资源、POST创建资源、PUT更新资源、DELETE删除资源。URL设计成 /users/123这种风格，一眼看去就知道是操作用户123。优雅，规范，面试的时候能吹。 但实际写业务的时候你会发现： 这套东西用起来真TM累。RESTful在现实中的尴尬来，给我设计几个接口： 用户登录批量删除订单查询用户最近30天的消费统计把购物车里的商品移到收藏夹你告诉我，这几个该用什么…",
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 2581,
+        "type": "answer",
+        "thanks_count": 1,
+        "question": {
+          "bound_topic_ids": [
+            98,
+            225,
+            1125,
+            3646,
+            25340
+          ],
+          "created": 1564021352,
+          "answer_count": 0,
+          "title": "公司规定所有接口都用 post 请求，这是为什么？",
+          "excerpt": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/336797348",
+          "question_type": "normal",
+          "id": "336797348",
+          "relationship": {
+            "is_author": false
+          },
+          "comment_count": 33,
+          "is_following": false,
+          "detail": "",
+          "author": {
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "user_type": "people",
+            "name": "小小打更人",
+            "url_token": "lgm-99-75",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-be1d6ac615fbf1ed0df7452037bc59f1_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 0,
+            "id": "5cbd491bc7bd9673e036a7b3a43ab780",
+            "url": "https://api.zhihu.com/people/5cbd491bc7bd9673e036a7b3a43ab780"
+          },
+          "follower_count": 0
+        },
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "content": "<p data-pid=\"2X_kOQj5\">因为懒，而且懒得有道理。</p><h2>先说RESTful那套理论</h2><p data-pid=\"xeFkJysZ\">按照教科书的说法，GET获取资源、POST创建资源、PUT更新资源、DELETE删除资源。URL设计成<code>/users/123</code>这种风格，一眼看去就知道是操作用户123。</p><p data-pid=\"52PTeKxu\">优雅，规范，面试的时候能吹。</p><p data-pid=\"je1Qxe1o\">但实际写业务的时候你会发现：<b>这套东西用起来真TM累</b>。</p><h2>RESTful在现实中的尴尬</h2><p data-pid=\"s_ETqwjw\">来，给我设计几个接口：</p><ul><li data-pid=\"VsqSif0F\">用户登录</li><li data-pid=\"wXk7rQM4\">批量删除订单</li><li data-pid=\"sDG7QY41\">查询用户最近30天的消费统计</li><li data-pid=\"CZspSPLH\">把购物车里的商品移到收藏夹</li></ul><p data-pid=\"fotvFBev\">你告诉我，这几个该用什么方法？URL该怎么写？</p><p data-pid=\"J_hXBtQ1\">用户登录是GET还是POST？密码放URL里？ 批量删除是DELETE吗？一堆ID放哪里？ 消费统计是GET吗？参数太多URL写不下怎么办？ 移动商品算什么操作？PUT？PATCH？POST？</p><p data-pid=\"gXgL_N0p\">硬套RESTful，你会发现自己在和规范较劲，而不是在写业务。</p><p data-pid=\"8qvOKnZr\">现实业务不是简单的增删改查，大部分接口是”执行某个动作”，RESTful那套资源操作的思想不好套。</p><h2>全用POST图什么</h2><p data-pid=\"5lCmks84\">图省心。</p><p data-pid=\"CqQl7pE1\">所有接口都是POST + JSON body，开发的时候不用纠结”这个该用什么方法”，前端也不用记哪个接口GET哪个POST。统一就完事了。别小看这点，团队大了以后，规范统一比规范正确更重要。</p><p data-pid=\"_I8zSgGm\">还有参数问题。GET请求参数在URL里，有长度限制，复杂查询参数多了URL能写到几百字符，又长又丑。POST的body没这限制，参数再多也塞得下，JSON结构还清晰。</p><p data-pid=\"eoPcvMNw\">安全性也好一点。GET请求的参数会出现在浏览器地址栏、浏览器历史、服务器日志、Referer头。你要是不小心把敏感信息放URL里，泄露渠道一大堆。POST的body抓包能看到，但至少不会被这些地方”顺手”记下来。</p><p data-pid=\"GT7vCw4_\">缓存也可控。GET请求默认会被浏览器、CDN缓存，有时候你改了数据用户刷新还是老的，查半天发现是缓存问题。POST默认不缓存，想缓存自己加，不想缓存也不会被中间层坑。</p><h2>代价也得说</h2><p data-pid=\"NBG8MCpo\">语义不清是真的。单看HTTP方法不知道这接口是查还是改，不过URL命名好一点可以弥补，<code>/user/query</code>和<code>/user/delete</code>一眼也能看懂。</p><p data-pid=\"T6uzZY1d\">不能白嫖HTTP缓存也是真的。纯查询接口用GET可以让浏览器和CDN帮你缓存，全用POST就得自己在业务层实现。</p><p data-pid=\"gVFVCN51\">还有就是面试的时候说”我们全用POST”，可能会被问”为什么不RESTful”。你得有理由圆回来，不然显得不专业。</p><h2>什么时候该遵循RESTful</h2><p data-pid=\"9_0lBO7N\"><b>对外开放的API</b>。</p><p data-pid=\"TqDm69PD\">如果你的接口是给第三方用的，老老实实按RESTful来。因为对方可能是任何技术栈，他们期望你的接口符合通用规范。</p><p data-pid=\"UpfEIZAn\">GitHub API、微信开放平台、支付宝开放平台，都是RESTful风格。</p><p data-pid=\"rHPDaEWF\">但如果是内部系统、前后端分离的业务接口，全用POST真的香。</p><h2>其实大厂也这么干</h2><p data-pid=\"pNSJOWV9\">别以为只有小公司图省事。</p><p data-pid=\"CGG7YlVQ\">很多大厂内部系统也是全POST。有的甚至更激进：所有接口走一个URL，靠body里的<code>action</code>字段区分操作，类似RPC的风格。</p><p data-pid=\"I7M02FqL\">因为内部系统追求的是<b>开发效率和统一规范</b>，不是炫技。RESTful那套在CRUD场景下挺好，但业务复杂了以后，硬套反而是负担。</p><h2>说到底</h2><p data-pid=\"gs_6IHEr\">全用POST不是什么野路子，是很多团队踩过坑之后的务实选择。</p><p data-pid=\"E4MBADdn\">GET/POST/PUT/DELETE那套，理论上正确，实践中麻烦。内部业务系统，统一POST + JSON，开发效率高，规范好执行，安全性也更好控制。</p><p data-pid=\"LchBFMEx\">当然，如果你司有严格的RESTful规范并且执行得很好，那也挺好。但如果没有，别觉得全用POST就是low，这是一种trade-off，不是技术倒退。</p><p data-pid=\"k8P5PpxA\">那些批评”全用POST不规范”的人，多半没维护过十几个人的团队、几十个接口的项目。等他维护过了，可能也会真香。</p>",
+        "is_navigator": false,
+        "author": {
+          "followers_count": 750,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/c7f11adf921b01d27581509dcd945ba3",
+          "name": "花宝宝",
+          "gender": -1,
+          "headline": " 后端老兵 | 星空组网 starvpn.cn",
+          "avatar_url": "https://picx.zhimg.com/50/v2-0219880294532f607ee7e1bdcb3c541d_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "id": "c7f11adf921b01d27581509dcd945ba3",
+          "user_type": "people",
+          "url_token": "hua-bao-bao-88-53"
+        },
+        "voteup_count": 25,
+        "comment_count": 3
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995507062273238589}",
+      "attached_info": "CpsGCOinv+z7rtSJvgEQBBoJNzY1NjcwNzA3IKa9p8sGKBkwA0AnSioKH1RTX1NPVVJDRV9USEVNRV9MTE1fR1JBUEhfTUVSR0USATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDM3MTIwNzQxYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NTUwNzA2MjI3MzIzODU4OYoBCTMzNjc5NzM0OKoBCXJlY29tbWVuZMIBIGM3ZjExYWRmOTIxYjAxZDI3NTgxNTA5ZGNkOTQ1YmEz8gEKCAwSBk5vcm1hbPIBKAgKEiRjZGM0ZDA3My1iODE3LTQxN2EtOWNmYi00N2M4NGMxMDhlMWHyAQUICxIBN4ICAIgCxMyZxrwzkgIgYzdmMTFhZGY5MjFiMDFkMjc1ODE1MDlkY2Q5NDViYTOaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gIfVFNfU09VUkNFX1RIRU1FX0xMTV9HUkFQSF9NRVJHRegCA/oCC05PUk1BTF9GTE9XigMgYTQxYmM0NjhkZTdjNGNjNjg5NjU4YTgzYjMzMGY5MWaaAw0KAnYyEAAaBW90aGVyqAOVFNgDAOoDI1RoZW1lTExNR3JhcGhNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIKYLpz+BBQAAAAAAAAAAiQUz+vdtP92yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUHkAYAoAYpqAYAkgIuCgk3NjU2NzA3MDcSEzE5OTU1MDcwNjIyNzMyMzg1ODkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "40_1768600004.887",
+      "type": "feed",
+      "offset": 40,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600004,
+      "updated_time": 1768600004,
+      "target": {
+        "is_navigator": false,
+        "created_time": 1768574446,
+        "is_copyable": true,
+        "visited_count": 22,
+        "excerpt_new": "不用逼自己硬变外向，也不用凑那些浑身不自在的社交局，找对法子，一个人的大学生活也能过得有滋有味。这里分享我总结的3个办法，全是踩坑踩出来的经验，内向懒癌党直接抄作业就行！ 1. 先认怂：接纳尴尬，别被“社交焦虑”架着走   我最开始不敢一个人出门，压根不是怕独处，就是怕别人的眼光！第一次独自去食堂，端着餐盘绕了三圈才找着位置，全程头埋得快钻进碗里，耳朵还竖得老高，总觉得旁边人都在偷偷议论“她怎么一个人”，…",
+        "question": {
+          "url": "https://api.zhihu.com/questions/59322112",
+          "comment_count": 105,
+          "bound_topic_ids": [
+            6733,
+            140679
+          ],
+          "excerpt": "",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "59322112",
+          "type": "question",
+          "title": "怎么学会一个人生活？",
+          "created": 1493781348,
+          "question_type": "normal",
+          "author": {
+            "id": "5c97255b06d1b4c78795a2239fc4e945",
+            "user_type": "people",
+            "url_token": "yoogle-73",
+            "gender": 0,
+            "followers_count": 14,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/5c97255b06d1b4c78795a2239fc4e945",
+            "name": "想改变自己的废人",
+            "headline": "白痴大学生",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-d8754be7e7c0f0671bff0ba4bee352fb_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "follower_count": 0,
+          "is_following": false
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-ee315d495ef4db48dd84bd7da7ff9f5b_720w.jpg?source=b6762063",
+        "excerpt": "不用逼自己硬变外向，也不用凑那些浑身不自在的社交局，找对法子，一个人的大学生活也能过得有滋有味。这里分享我总结的3个办法，全是踩坑踩出来的经验，内向懒癌党直接抄作业就行！ 1. 先认怂：接纳尴尬，别被“社交焦虑”架着走   我最开始不敢一个人出门，压根不是怕独处，就是怕别人的眼光！第一次独自去食堂，端着餐盘绕了三圈才找着位置，全程头埋得快钻进碗里，耳朵还竖得老高，总觉得旁边人都在偷偷议论“她怎么一个人”，…",
+        "updated_time": 1768574446,
+        "answer_type": "normal",
+        "preview_text": "",
+        "allow_segment_interaction": true,
+        "voteup_count": 1,
+        "comment_count": 0,
+        "preview_type": "default",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-ee315d495ef4db48dd84bd7da7ff9f5b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f7feab7be6484c44c99f94848fa810b1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9c9ccc428e17543c94f606632ee67fc2_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995626550918399535",
+        "content": "<p data-pid=\"XUg-mAcM\">不用逼自己硬变外向，也不用凑那些浑身不自在的社交局，找对法子，一个人的大学生活也能过得有滋有味。这里分享我总结的3个办法，全是踩坑踩出来的经验，内向懒癌党直接抄作业就行！</p><h3><br/>1. 先认怂：接纳尴尬，别被“社交焦虑”架着走</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-64a6439c7e915f83dc80dd7f9268159c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1880\" data-rawheight=\"1254\" data-original-token=\"v2-ee315d495ef4db48dd84bd7da7ff9f5b\" class=\"origin_image zh-lightbox-thumb\" width=\"1880\" data-original=\"https://pic3.zhimg.com/v2-64a6439c7e915f83dc80dd7f9268159c_r.jpg\"/></figure><p data-pid=\"VbGYR651\"><br/>我最开始不敢一个人出门，压根不是怕独处，就是怕别人的眼光！第一次独自去食堂，端着餐盘绕了三圈才找着位置，全程头埋得快钻进碗里，耳朵还竖得老高，总觉得旁边人都在偷偷议论“她怎么一个人”，吃一口都浑身不自在，恨不得扒两口饭就赶紧溜。<br/>后来才知道，这就是典型的<b>社交焦虑</b>——说白了就是自己给自己加戏，下意识放大自己的存在感，总觉得所有人都在盯着自己，其实大家都忙着顾自己的饭、刷自己的手机，谁有空管你是不是一个人呀。你琢磨琢磨，你看到一个人吃饭，会特意多看两眼、瞎琢磨吗？大概率不会，顶多扫一眼就专心干自己的事了。<br/>我是这么慢慢克服的：先从那些“没人在意你”的小事练起。比如一个人去超市买零食，目标明确直奔货架，拿完就结账，全程不抬头瞎瞟，主打一个速战速决；再到傍晚去操场散散步，戴个耳机听播客，眼里只有路和晚霞，慢慢就忘了“自己是一个人”这回事，自在多了。<br/>心理学里还有个<b>独处效能感</b>，简单说就是一个人也能把日子过明白、玩开心的能力。不用一开始就挑战高难度，先把这些“低压力小事”做好，每完成一次就多一分底气，慢慢就会发现：原来一个人出门，真的没什么大不了的！</p><h3><br/>2. 对付懒癌：用“微行动”破局，别给自己定大目标</h3><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ce234ddce4d04fae82d02876030c49c8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1880\" data-rawheight=\"1057\" data-original-token=\"v2-f7feab7be6484c44c99f94848fa810b1\" class=\"origin_image zh-lightbox-thumb\" width=\"1880\" data-original=\"https://pic1.zhimg.com/v2-ce234ddce4d04fae82d02876030c49c8_r.jpg\"/></figure><p data-pid=\"XydwXS4L\"><br/>我太懂“待在宿舍就不想动”的feel了！床一躺、手机一拿，一天时间唰地就没了。但越宅越丧，越丧越不想动，妥妥的死循环。后来我总算想通了，逼自己“每天泡图书馆8小时”根本不现实，反而会因为做不到而自责内耗，不如从“踮踮脚就能完成”的微行动开始。<br/>比如我给自己定的第一个小目标：每天出门10分钟就行。不用去多远的地方，下楼取个快递顺便绕宿舍楼走一圈；或者去食堂买杯热奶茶，打包回宿舍慢慢喝；傍晚天凉快了，去操场坐5分钟吹吹风，看看别人跑步打球，也算没白出门。<br/>这就是心理学上说的<b>登门槛效应</b>，先完成一个极小的目标，攒够成就感，再慢慢提高难度。等我适应了每天出门，就试着“一个人去图书馆待半小时”，不带手机只带一本书，慢慢就进入状态了。现在我每周能固定去3次图书馆，再也不是那个一躺一整天的宅女啦。<br/>关键是别跟自己较劲，懒的时候就允许自己懒一天，但千万别连续懒三天。哪怕只是下楼扔个垃圾，也算打破了“宿舍瘫”的惯性，总比一直耗着强。</p><h3><br/>3. 给独处找乐子：定个“正向锚点”，别让无聊缠上你</h3><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e94e08967392d44c3b5d393af69537a9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"866\" data-rawheight=\"650\" data-original-token=\"v2-9c9ccc428e17543c94f606632ee67fc2\" class=\"origin_image zh-lightbox-thumb\" width=\"866\" data-original=\"https://pic2.zhimg.com/v2-e94e08967392d44c3b5d393af69537a9_r.jpg\"/></figure><p data-pid=\"mE0x9nSy\"><br/>其实不喜欢一个人，本质就是觉得“一个人没事干，太无聊了”。以前我一个人待着就刷短视频，越刷越空虚，后来才明白，得给独处找个“能沉进去”的事，也就是<b>正向锚点</b>——一件能让你忘记时间、还能收获满足感的事。<br/>我试了好几种事，最后留了两个低成本又好坚持的：一是在B站学PS，跟着免费教程做海报、修图，一开始手忙脚乱，慢慢就能做出像样的图，每次做好一张都忍不住发朋友圈炫耀，成就感直接拉满；二是泡图书馆看闲书，不碰专业课，就挑自己喜欢的小说、散文，找个靠窗的位置，晒着太阳看一下午，那种不被打扰的自在，比硬凑社交局舒服多了。<br/>想跟你说，内向的人真不用逼自己交很多朋友。我们本来就不适合热闹的大圈子，不如专注于<b>深度社交</b>，有1-2个能聊得来的朋友就够了。我现在的好朋友，就是选修课上偶然认识的，我俩都喜欢悬疑小说，随口聊了一句就慢慢熟了，平时不用天天见面，但周末会约着一起去图书馆，这种慢热型的关系，反而更踏实舒服。</p><p data-pid=\"ZD5_4gBB\"><br/>最后想跟你唠句真心话，大二真不用急着“逼自己变外向”。内向从来不是缺点，独处也不是什么惩罚，反而能让你有更多时间跟自己相处，慢慢摸清自己喜欢什么。<br/>所以呀，慢慢来，别逼自己。试着接纳自己的内向和小懒惰，用小行动一点点调整，你会发现，一个人的大学生活，也能过得超精彩～</p>",
+        "favorite_count": 0,
+        "id": "1995626550918399535",
+        "author": {
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "jiang-yi-51-86-70",
+          "name": "七月心理学",
+          "headline": "边学习英语边了解我们身边那些心理学知识吧！",
+          "gender": 1,
+          "is_following": false,
+          "id": "c0362fedd3e7a9a5dc42cc270606335e",
+          "url": "https://api.zhihu.com/people/c0362fedd3e7a9a5dc42cc270606335e",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d0603f1b15c9e53427e8e47ee74e7246_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 2
+        },
+        "is_labeled": true,
+        "thanks_count": 0,
+        "reshipment_settings": "allowed",
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995626550918399535}",
+      "attached_info": "CvgGCOinv+z7rtSJvgEQBBoJNzY1NzMwODE2IO6bqcsGKAEwAEAoSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWggxNTk1MTQxMWIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTU2MjY1NTA5MTgzOTk1MzWKAQg1OTMyMjExMqoBCXJlY29tbWVuZMIBIGMwMzYyZmVkZDNlN2E5YTVkYzQyY2MyNzA2MDYzMzVl8gEKCAwSBk5vcm1hbPIBKAgKEiRiODNhNDljZC02ZTA4LTRmZDktYTM4MC05OGFhYzVmZDQzMmXyAQUICxIBN4ICAIgCxMyZxrwzkgIgYzAzNjJmZWRkM2U3YTlhNWRjNDJjYzI3MDYwNjMzNWWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCA/oCC05PUk1BTF9GTE9XigMgYTQxYmM0NjhkZTdjNGNjNjg5NjU4YTgzYjMzMGY5MWaaAw0KAnYyEAAaBW90aGVyqAMW2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ2A4Y5gkiI3YyLWVlMzE1ZDQ5NWVmNGRiNDhkZDg0YmQ3ZGE3ZmY5ZjViOi0IBBDYDhihCCIjdjItZjdmZWFiN2JlNjQ4NGM0NGM5OWY5NDg0OGZhODEwYjE6LQgEEOIGGIoFIiN2Mi05YzljY2M0MjhlMTc1NDNjOTRmNjA2NjMyZWU2N2ZjMoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4Ey2jj+BBQAAAAAAAAAAiQUz+vdtP92yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUHkAYAoAYqqAYBkgIuCgk3NjU3MzA4MTYSEzE5OTU2MjY1NTA5MTgzOTk1MzUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "41_1768600004.160",
+      "type": "feed",
+      "offset": 41,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600004,
+      "updated_time": 1768600004,
+      "target": {
+        "voteup_count": 35208,
+        "question": {
+          "bound_topic_ids": [
+            12222,
+            12706,
+            26930
+          ],
+          "created": 1714015338,
+          "comment_count": 32,
+          "detail": "",
+          "question_type": "normal",
+          "id": "654052183",
+          "author": {
+            "is_following": false,
+            "id": "35d988452bc4eae7503be0fa8c60598e",
+            "url": "https://api.zhihu.com/people/35d988452bc4eae7503be0fa8c60598e",
+            "url_token": "su-che-80-96",
+            "name": "苏澈",
+            "gender": 1,
+            "followers_count": 4,
+            "user_type": "people",
+            "headline": "赚钱  早睡  健身",
+            "avatar_url": "https://picx.zhimg.com/50/v2-00447bc18fb61ea6db24d2af207b8a17_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false
+          },
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "follower_count": 0,
+          "is_following": false,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/654052183",
+          "title": "为什么现在的年轻人活的都很通透？",
+          "answer_count": 0
+        },
+        "is_labeled": false,
+        "visited_count": 2025410,
+        "favorite_count": 5906,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "created_time": 1714485132,
+        "content": "<p data-pid=\"Ylclum2i\">现在的国人，已经越来越清醒了。之前有一位网红在网上发布了一条呼吁保护北极熊的视频，他说，北极熊的落脚点越来越少了，但他游不动了，就再也没有北极熊了。</p><p data-pid=\"ZS4U8kRx\">那一开始听到这话，心里都会产生了一种罪恶感，但是看到一位网友的评论，就突然间悟了。</p><p data-pid=\"ZwTQEpry\">这位网友说，房价高涨，貌似我也变成了漂泊的北极熊，没有落脚之处，买不起房，买不起车，不舍得开空调的我，却需要承担全球变暖的责任。</p><p data-pid=\"z0cgsS2b\">海边一次没有去过，海岸的垃圾却成了我的错。小时候提倡不吃鱼翅，可是唯一一次见过鱼翅啊，也是在电视广告里。</p><p data-pid=\"DKifpW4b\">那究竟是谁让北极熊流浪，又是谁让我无处落脚呢？</p><p data-pid=\"3sBCficp\">我只是平凡的生活在我的一亩三分地，那为什么罪恶却要我来平摊？</p><p data-pid=\"HaqvPCa1\">3%的全球富豪消耗了65%的资源，就呼吁97%的普通人节约资源，那最后节省呢？给富豪们使用？那有网友说啊，我节约了20年的水都没有他们一次高尔夫草坪保养用的水多，那当我知道卡戴珊家的水龙头从来不关的时候啊，节约用水跟我就已经没有半毛钱关系了啊，这叫什么？</p><p data-pid=\"rIEmb8dI\">这叫富贵不能共享，罪恶啊，却要平摊。</p><p></p>",
+        "url": "https://api.zhihu.com/answers/3484139693",
+        "excerpt": "现在的国人，已经越来越清醒了。之前有一位网红在网上发布了一条呼吁保护北极熊的视频，他说，北极熊的落脚点越来越少了，但他游不动了，就再也没有北极熊了。 那一开始听到这话，心里都会产生了一种罪恶感，但是看到一位网友的评论，就突然间悟了。 这位网友说，房价高涨，貌似我也变成了漂泊的北极熊，没有落脚之处，买不起房，买不起车，不舍得开空调的我，却需要承担全球变暖的责任。 海边一次没有去过，海岸的垃圾却成了我…",
+        "excerpt_new": "现在的国人，已经越来越清醒了。之前有一位网红在网上发布了一条呼吁保护北极熊的视频，他说，北极熊的落脚点越来越少了，但他游不动了，就再也没有北极熊了。 那一开始听到这话，心里都会产生了一种罪恶感，但是看到一位网友的评论，就突然间悟了。 这位网友说，房价高涨，貌似我也变成了漂泊的北极熊，没有落脚之处，买不起房，买不起车，不舍得开空调的我，却需要承担全球变暖的责任。 海边一次没有去过，海岸的垃圾却成了我…",
+        "navigator_vote": false,
+        "updated_time": 1714485132,
+        "thanks_count": 1525,
+        "is_copyable": false,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "id": "3484139693",
+        "type": "answer",
+        "comment_count": 1174,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "author": {
+          "user_type": "people",
+          "headline": "谎言并不可怕，真相才是快刀。✔(AK2015308)",
+          "is_org": false,
+          "gender": 1,
+          "is_followed": false,
+          "is_following": false,
+          "id": "cf91d0eb38b24debf851f8f0a64d7684",
+          "url": "https://api.zhihu.com/people/cf91d0eb38b24debf851f8f0a64d7684",
+          "url_token": "mu-yan-5-36-45",
+          "name": "人间清醒",
+          "avatar_url": "https://picx.zhimg.com/50/v2-e722f29a98ae99cde6ed1047a2ff4a34_l.jpg?source=b6762063",
+          "followers_count": 44364
+        },
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "segment_infos": [
+          {
+            "pid": "ZwTQEpry",
+            "text": "这位网友说，房价高涨，貌似我也变成了漂泊的北极熊，没有落脚之处，买不起房，买不起车，不舍得开空调的我，却需要承担全球变暖的责任。",
+            "marks": [
+              {
+                "start_index": 2,
+                "end_index": 64,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992670771106042492"
+                  ],
+                  "is_like": false,
+                  "like_count": 218,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "z0cgsS2b",
+            "text": "海边一次没有去过，海岸的垃圾却成了我的错。小时候提倡不吃鱼翅，可是唯一一次见过鱼翅啊，也是在电视广告里。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 52,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994489207960396678"
+                  ],
+                  "is_like": false,
+                  "like_count": 85,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "3sBCficp",
+            "text": "我只是平凡的生活在我的一亩三分地，那为什么罪恶却要我来平摊？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 30,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992670802420717189"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "HaqvPCa1",
+            "text": "3%的全球富豪消耗了65%的资源，就呼吁97%的普通人节约资源，那最后节省呢？给富豪们使用？那有网友说啊，我节约了20年的水都没有他们一次高尔夫草坪保养用的水多，那当我知道卡戴珊家的水龙头从来不关的时候啊，节约用水跟我就已经没有半毛钱关系了啊，这叫什么？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 127,
+                "seg_info": {
+                  "seg_ids": [
+                    "1899805047254131111",
+                    "1992670839473193222",
+                    "1993429336959771640",
+                    "1993441758558827645",
+                    "1994014671439677124",
+                    "1812633140918878208",
+                    "1790145969960136705",
+                    "1851898535852781568",
+                    "1806787349838962688"
+                  ],
+                  "is_like": false,
+                  "like_count": 435,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "rIEmb8dI",
+            "text": "这叫富贵不能共享，罪恶啊，却要平摊。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1899805047254131111",
+                    "1992670839473193222",
+                    "1993429336959771640",
+                    "1993441758558827645",
+                    "1994014671439677124",
+                    "1812633140918878208",
+                    "1790145969960136705",
+                    "1851898535852781568",
+                    "1806787349838962688"
+                  ],
+                  "is_like": false,
+                  "like_count": 435,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3484139693}",
+      "attached_info": "CpQGCOinv+z7rtSJvgEQBBoJNjYzNTUyNjY4IIzvw7EGKIiTAjCWCUApSj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1aCTEwNzYyMjc3N2IgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyCjM0ODQxMzk2OTOKAQk2NTQwNTIxODOqAQlyZWNvbW1lbmTCASBjZjkxZDBlYjM4YjI0ZGViZjg1MWY4ZjBhNjRkNzY4NPIBCggMEgZOb3JtYWzyASgIChIkOGVmOWM0N2YtYWRkOS00OWQwLTlmM2UtOTE0ZjY0NTJhYTc38gEFCAsSATeCAgCIAsTMmca8M5ICIGNmOTFkMGViMzhiMjRkZWJmODUxZjhmMGE2NGQ3Njg0mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU3oAgL6AgtOT1JNQUxfRkxPV4oDIGE0MWJjNDY4ZGU3YzRjYzY4OTY1OGE4M2IzMzBmOTFmmgMNCgJ2MhAAGgVvdGhlcqgDws972AMA6gMQbmV3YmllX2ZlZWRyZV92MvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTU3yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgNJe3P4EFAAAAAAAAAACJBTP6920/3bI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQeQBgCgBiuoBgCSAiUKCTY2MzU1MjY2OBIKMzQ4NDEzOTY5MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=41&desktop=true&end_offset=43&page_number=8&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=41&desktop=true&end_offset=43&page_number=8&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,566 @@
+{
+  "data": [
+    {
+      "id": "60_1768675033.245",
+      "type": "feed",
+      "offset": 60,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675033,
+      "updated_time": 1768675033,
+      "target": {
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "updated_time": 1768637523,
+        "comment_count": 2,
+        "is_copyable": false,
+        "question": {
+          "id": "28242527",
+          "bound_topic_ids": [
+            534,
+            119106,
+            132891,
+            92979,
+            32797
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/28242527",
+          "follower_count": 0,
+          "is_following": false,
+          "detail": "",
+          "created": 1424189078,
+          "answer_count": 0,
+          "excerpt": "",
+          "author": {
+            "url_token": "li-chu-wen-40",
+            "name": "李楚文",
+            "headline": "知乎首席逼格官",
+            "avatar_url": "https://pic1.zhimg.com/50/6e01953f58b0a1e1beb72c42a9e367a8_l.jpg?source=b6762063",
+            "is_org": false,
+            "id": "217ee60757f4997f8c2a66200f880984",
+            "url": "https://api.zhihu.com/people/217ee60757f4997f8c2a66200f880984",
+            "user_type": "people",
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false,
+            "followers_count": 7550
+          },
+          "title": "自媒体本质是什么？",
+          "comment_count": 0,
+          "question_type": "normal"
+        },
+        "excerpt": "把公众号、知乎之类的平台，想象成 万达、砂之船之类的商场，星巴克、麦当劳、优衣库之类的商家，就是那些 千万级大V，每天成千上万顾客穿梭在各大实体or虚拟商场，这就是所谓的 流量，只不过实体商场是实实在在的 人流量，虚拟商场是用户的停留时长，为什么新开一家商场， 要出各种优惠政策，吸引那些知名品牌开连锁店？因为这些品牌自带流量， 同理，各大平台会寻找那些 自带流量的作家、明星，以及大V，以各种优惠吸引其加盟…",
+        "preview_type": "default",
+        "answer_type": "paid_column_content",
+        "paid_info": {
+          "content": "<p data-pid=\"1DE0AFh1\">把公众号、知乎之类的平台，想象成<b>万达、砂之船</b>之类的商场，</p><p data-pid=\"qmdR8Y-p\">星巴克、麦当劳、优衣库之类的商家，就是那些<b>千万级大V</b>，</p><p data-pid=\"qybCeb22\">每天成千上万顾客穿梭在各大实体or虚拟商场，这就是所谓的<b>流量</b>，</p><p data-pid=\"jX9QE6vR\">只不过实体商场是实实在在的<b>人流量</b>，虚拟商场是用户的<b>停留时长</b>，</p><p data-pid=\"pn6RbMF1\">为什么新开一家商场，<b>要出各种优惠政策，吸引那些知名品牌开连锁店</b>？</p><p data-pid=\"M2wcB_8S\">因为这些品牌自带流量，</p><p data-pid=\"loTrenIC\">同理，各大平台会寻找那些<b>自带流量的作家、明星，以及大V</b>，以各种优惠吸引其加盟，让他在这座虚拟商场开一家分店，</p><p data-pid=\"pXjKHfNv\">互惠共赢。</p><p data-pid=\"G5xrc80N\">那么<b>普通自媒体创作者</b>是什么？</p><p data-pid=\"DcXJ2BC5\">是<b>白手起家的商贩</b>，是<b>难以谋取最佳位置、只能躲在商场一角的不知名小店</b>，</p><p data-pid=\"X0JTBkEH\">因为你没有名气，不能为商场吸引流量，那就只能分到不起眼的位置，听天由命，</p><p data-pid=\"BH8-26Ez\">很残酷，很现实，却也合理。</p><p data-pid=\"lHSLaXbu\">若你在努力+机遇加持下，一朝暴得大名，恭喜，你也会成为自带流量的IP，你将成为各大平台的座上宾，在显眼的位置指点江山，享受万众瞩目。</p><p data-pid=\"7shdKn4k\"><b>为什么很多人不理解自媒体的本质？</b></p><p data-pid=\"UWAMXXp0\">因为没有理解一个概念——<b>虚拟产品</b>。</p><p data-pid=\"6qNt15gX\">提到曾经逛过的万达商场，所有人都理解人流量、品牌加盟之类的逻辑，</p><p data-pid=\"AVGHN59l\">可提到虚拟空间中的商场，便不能察觉相似的底层逻辑。</p><p data-pid=\"YBHiyCdj\">先理解一组概念，<b>实体产品</b>与<b>虚拟产品</b>，这是做好自媒体的前提。</p><p data-pid=\"L0Bhca30\">此外几篇文章，已经聊了微信、OICQ（QQ的前身）等虚拟产品，</p><p data-pid=\"vlE-Ku6y\">专栏第四十二篇，聊聊<b>QQ的两种衍生功能——QQ群和QQ秀</b>，</p><p data-pid=\"VaECRoeT\">这两种颠覆性虚拟产品，对理解自媒体的底层逻辑，有重要意义。</p><h2><b>1、QQ群：</b></h2><p data-pid=\"R6khK6Q8\">2002年8月25日，QQ更新版本，该版本第一次出现群聊功能，</p><p data-pid=\"bKoIAETg\">群聊的灵感出自腾讯内部<b>“饭友团”文化</b>（类似现在的饭搭子），</p><p data-pid=\"TaC_7NaF\">那时腾讯内部有很多“饭友团”，中午下班前大家<b>通过邮件讨论</b>决定午餐如何解决，</p><p data-pid=\"_lHnFMoW\">然而邮件存在延迟，且容易遗漏人员，意见也比较混乱，很难迅速达成一致。</p><p data-pid=\"a4SW3UPw\">于是有人提出设想：<b>能否在QQ上建立一个固定的人员列表，所有人可同时参与讨论</b>？</p><p data-pid=\"kMoAgnX0\">腾讯及时抓住了这个灵感，推出群聊功能，</p><p data-pid=\"XhfSLFkl\">即，<b>用户可以自主建立QQ群，邀请好友加入</b>，群内可分享文件、图片和音乐，</p><p data-pid=\"jhrhRvx8\">此外还有群动态、群备注、群聊精华、群成员名片等多项<b>展示性、互动性</b>功能。</p><p data-pid=\"_uH0QsIT\">在功能定义中，CTO张志东写道：</p><p data-pid=\"D81jBIgv\">“<i>QQ群是为QQ用户中<b>拥有共性的小群体</b>建立的一个即时通信平台，比如可创建‘我的大学同学’、‘我的同事’等群，群内成员有着密切关系</i>。”</p><p data-pid=\"IvxvqN3P\">“<i>QQ群功能的实现，一下子改变了您的网络生活方式，<b>您不再一个人孤独地待在QQ上</b>，而是在一个拥有密切关系的群内，共同体验网络带来的精彩</i>。”</p><p data-pid=\"28KvkNg0\">QQ群的出现，到底意味着什么？</p><p data-pid=\"TiHU4ncH\">意味着<b>传统的一对一关系升级为多对多的交叉关系，社交可能性极大提升</b>，</p><p data-pid=\"D8IJcMHy\">意味着社交网络概念在中国的出现，这比Facebook要早18个月。</p><p data-pid=\"Geb0CsYk\">类熟人社区自此开始登上中文互联网舞台，QQ用户的活跃度极大提升。</p><p data-pid=\"7FFONRjg\">当你的产品中出现一个类熟人虚拟社区，<b>你该如何以此盈利？</b></p><p data-pid=\"w15VPWSS\">这是ICQ未曾做到的事情，是腾讯需要自行探索的未知区域。</p><p data-pid=\"m2MeR7yx\">他们开辟了一条道路——<b>为虚拟社区赋予人格化特质，藉此盈利</b>。</p><p data-pid=\"cokVD0iy\">这段话给我最大的启发，是<b>“涌现”（emergence）</b>的概念，</p><p data-pid=\"RPUTVuwO\">简言之，涌现是这样一种现象——许多小实体相互作用后产生大实体，而这个大实体展现出<b>组成它的小实体所不具备的特性</b>，</p><p data-pid=\"f2L84BVb\">比如，人类意识便是化学层次上的涌现结果。</p><p data-pid=\"N1QMc-jo\">当QQ群出现，当即时通信工具一对一关系升级为多对多关系，当虚拟社交网络开始出现，<b>很多意想不到的东西已经开始萌芽，涌现只是时间问题</b>。</p><p data-pid=\"iv-RBCzZ\">后文提到的QQ秀，便是一例。</p><p data-pid=\"dOhDznf9\">我有一个观点，<b>创作这件事具备复利效应</b>，涌现的概念便可解释这个观点，</p><p data-pid=\"SHAhx3JR\">当你写到一百万字后，再写一篇千字文章，文字如水般流淌，</p><p data-pid=\"UQkVY88c\">写作过程中，<b>会有很多意想不到的东西从你脑海中蹦出来</b>，也许是一个比喻，也许是一个巧妙的联想，</p><p data-pid=\"hzndTGrR\">这些意外惊喜，是创作过程中涌现出来的东西，是支持那些资深创作者每天乐此不疲保持创作的秘密。</p><p data-pid=\"swwSi2Jv\">而产生涌现的前提是<b>足够复杂</b>，</p><p data-pid=\"UbuaBSL8\">在QQ这样的虚拟社区，当用户数量发展到一定程度，早晚会有人想到发展多对多的关系，</p><p data-pid=\"M2Qduwz-\">对内容创作者而言，<b>只有当你已有的工作量大到一定程度，才能享受涌现带来的福利</b>。</p><hr/><h2><b>2、QQ秀：</b></h2><p data-pid=\"VdRMGORh\">2002年下半年，腾讯员工关注到韩国的一个社区网站开发出的功能——“阿凡达”，</p><p data-pid=\"b_ckkemL\">在这里，用户可以根据喜好，<b>更换虚拟角色的造型，包括服装、发型、表情等，这些都要付费购买</b>，</p><p data-pid=\"XuglX8XV\">这一功能深受韩国年轻人欢迎，韩国排名前五的聊天和社交网站均已推出相应功能，</p>"
+        },
+        "url": "https://api.zhihu.com/answers/1995891114092302474",
+        "preview_text": "",
+        "navigator_vote": false,
+        "id": "1995891114092302474",
+        "type": "answer",
+        "excerpt_new": "把公众号、知乎之类的平台，想象成 万达、砂之船之类的商场，星巴克、麦当劳、优衣库之类的商家，就是那些 千万级大V，每天成千上万顾客穿梭在各大实体or虚拟商场，这就是所谓的 流量，只不过实体商场是实实在在的 人流量，虚拟商场是用户的停留时长，为什么新开一家商场， 要出各种优惠政策，吸引那些知名品牌开连锁店？因为这些品牌自带流量， 同理，各大平台会寻找那些 自带流量的作家、明星，以及大V，以各种优惠吸引其加盟…",
+        "visited_count": 204,
+        "is_navigator": false,
+        "author": {
+          "url_token": "ke-ke-neng-xing",
+          "headline": "理解芯片，理解经济",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "id": "2ddc134b2d6bcde89f883e4c051f1bc2",
+          "user_type": "people",
+          "name": "晏北",
+          "avatar_url": "https://picx.zhimg.com/50/v2-a0874375d3926d8580eec8f4e8de3ce1_l.jpg?source=b6762063",
+          "badge": [
+            {
+              "description": "职场话题下的优秀答主",
+              "topic_names": [
+                "职场"
+              ],
+              "topic_ids": [
+                2566
+              ],
+              "type": "best_answerer"
+            },
+            {
+              "type": "super_activity",
+              "description": "优秀圈子主理人"
+            }
+          ],
+          "followers_count": 18955,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/2ddc134b2d6bcde89f883e4c051f1bc2"
+        },
+        "thanks_count": 0,
+        "content": "<p data-pid=\"1DE0AFh1\">把公众号、知乎之类的平台，想象成<b>万达、砂之船</b>之类的商场，</p><p data-pid=\"qmdR8Y-p\">星巴克、麦当劳、优衣库之类的商家，就是那些<b>千万级大V</b>，</p><p data-pid=\"qybCeb22\">每天成千上万顾客穿梭在各大实体or虚拟商场，这就是所谓的<b>流量</b>，</p><p data-pid=\"jX9QE6vR\">只不过实体商场是实实在在的<b>人流量</b>，虚拟商场是用户的<b>停留时长</b>，</p><p data-pid=\"pn6RbMF1\">为什么新开一家商场，<b>要出各种优惠政策，吸引那些知名品牌开连锁店</b>？</p><p data-pid=\"M2wcB_8S\">因为这些品牌自带流量，</p><p data-pid=\"loTrenIC\">同理，各大平台会寻找那些<b>自带流量的作家、明星，以及大V</b>，以各种优惠吸引其加盟，让他在这座虚拟商场开一家分店，</p><p data-pid=\"pXjKHfNv\">互惠共赢。</p><p data-pid=\"G5xrc80N\">那么<b>普通自媒体创作者</b>是什么？</p><p data-pid=\"DcXJ2BC5\">是<b>白手起家的商贩</b>，是<b>难以谋取最佳位置、只能躲在商场一角的不知名小店</b>，</p><p data-pid=\"X0JTBkEH\">因为你没有名气，不能为商场吸引流量，那就只能分到不起眼的位置，听天由命，</p><p data-pid=\"BH8-26Ez\">很残酷，很现实，却也合理。</p><p data-pid=\"lHSLaXbu\">若你在努力+机遇加持下，一朝暴得大名，恭喜，你也会成为自带流量的IP，你将成为各大平台的座上宾，在显眼的位置指点江山，享受万众瞩目。</p><p data-pid=\"7shdKn4k\"><b>为什么很多人不理解自媒体的本质？</b></p><p data-pid=\"UWAMXXp0\">因为没有理解一个概念——<b>虚拟产品</b>。</p><p data-pid=\"6qNt15gX\">提到曾经逛过的万达商场，所有人都理解人流量、品牌加盟之类的逻辑，</p><p data-pid=\"AVGHN59l\">可提到虚拟空间中的商场，便不能察觉相似的底层逻辑。</p><p data-pid=\"YBHiyCdj\">先理解一组概念，<b>实体产品</b>与<b>虚拟产品</b>，这是做好自媒体的前提。</p><p data-pid=\"L0Bhca30\">此外几篇文章，已经聊了微信、OICQ（QQ的前身）等虚拟产品，</p><p data-pid=\"vlE-Ku6y\">专栏第四十二篇，聊聊<b>QQ的两种衍生功能——QQ群和QQ秀</b>，</p><p data-pid=\"VaECRoeT\">这两种颠覆性虚拟产品，对理解自媒体的底层逻辑，有重要意义。</p><h2><b>1、QQ群：</b></h2><p data-pid=\"R6khK6Q8\">2002年8月25日，QQ更新版本，该版本第一次出现群聊功能，</p><p data-pid=\"bKoIAETg\">群聊的灵感出自腾讯内部<b>“饭友团”文化</b>（类似现在的饭搭子），</p><p data-pid=\"TaC_7NaF\">那时腾讯内部有很多“饭友团”，中午下班前大家<b>通过邮件讨论</b>决定午餐如何解决，</p><p data-pid=\"_lHnFMoW\">然而邮件存在延迟，且容易遗漏人员，意见也比较混乱，很难迅速达成一致。</p><p data-pid=\"a4SW3UPw\">于是有人提出设想：<b>能否在QQ上建立一个固定的人员列表，所有人可同时参与讨论</b>？</p><p data-pid=\"kMoAgnX0\">腾讯及时抓住了这个灵感，推出群聊功能，</p><p data-pid=\"XhfSLFkl\">即，<b>用户可以自主建立QQ群，邀请好友加入</b>，群内可分享文件、图片和音乐，</p><p data-pid=\"jhrhRvx8\">此外还有群动态、群备注、群聊精华、群成员名片等多项<b>展示性、互动性</b>功能。</p><p data-pid=\"_uH0QsIT\">在功能定义中，CTO张志东写道：</p><p data-pid=\"D81jBIgv\">“<i>QQ群是为QQ用户中<b>拥有共性的小群体</b>建立的一个即时通信平台，比如可创建‘我的大学同学’、‘我的同事’等群，群内成员有着密切关系</i>。”</p><p data-pid=\"IvxvqN3P\">“<i>QQ群功能的实现，一下子改变了您的网络生活方式，<b>您不再一个人孤独地待在QQ上</b>，而是在一个拥有密切关系的群内，共同体验网络带来的精彩</i>。”</p><p data-pid=\"28KvkNg0\">QQ群的出现，到底意味着什么？</p><p data-pid=\"TiHU4ncH\">意味着<b>传统的一对一关系升级为多对多的交叉关系，社交可能性极大提升</b>，</p><p data-pid=\"D8IJcMHy\">意味着社交网络概念在中国的出现，这比Facebook要早18个月。</p><p data-pid=\"Geb0CsYk\">类熟人社区自此开始登上中文互联网舞台，QQ用户的活跃度极大提升。</p><p data-pid=\"7FFONRjg\">当你的产品中出现一个类熟人虚拟社区，<b>你该如何以此盈利？</b></p><p data-pid=\"w15VPWSS\">这是ICQ未曾做到的事情，是腾讯需要自行探索的未知区域。</p><p data-pid=\"m2MeR7yx\">他们开辟了一条道路——<b>为虚拟社区赋予人格化特质，藉此盈利</b>。</p><p data-pid=\"cokVD0iy\">这段话给我最大的启发，是<b>“涌现”（emergence）</b>的概念，</p><p data-pid=\"RPUTVuwO\">简言之，涌现是这样一种现象——许多小实体相互作用后产生大实体，而这个大实体展现出<b>组成它的小实体所不具备的特性</b>，</p><p data-pid=\"f2L84BVb\">比如，人类意识便是化学层次上的涌现结果。</p><p data-pid=\"N1QMc-jo\">当QQ群出现，当即时通信工具一对一关系升级为多对多关系，当虚拟社交网络开始出现，<b>很多意想不到的东西已经开始萌芽，涌现只是时间问题</b>。</p><p data-pid=\"iv-RBCzZ\">后文提到的QQ秀，便是一例。</p><p data-pid=\"dOhDznf9\">我有一个观点，<b>创作这件事具备复利效应</b>，涌现的概念便可解释这个观点，</p><p data-pid=\"SHAhx3JR\">当你写到一百万字后，再写一篇千字文章，文字如水般流淌，</p><p data-pid=\"UQkVY88c\">写作过程中，<b>会有很多意想不到的东西从你脑海中蹦出来</b>，也许是一个比喻，也许是一个巧妙的联想，</p><p data-pid=\"hzndTGrR\">这些意外惊喜，是创作过程中涌现出来的东西，是支持那些资深创作者每天乐此不疲保持创作的秘密。</p><p data-pid=\"swwSi2Jv\">而产生涌现的前提是<b>足够复杂</b>，</p><p data-pid=\"UbuaBSL8\">在QQ这样的虚拟社区，当用户数量发展到一定程度，早晚会有人想到发展多对多的关系，</p><p data-pid=\"M2Qduwz-\">对内容创作者而言，<b>只有当你已有的工作量大到一定程度，才能享受涌现带来的福利</b>。</p><hr/><h2><b>2、QQ秀：</b></h2><p data-pid=\"VdRMGORh\">2002年下半年，腾讯员工关注到韩国的一个社区网站开发出的功能——“阿凡达”，</p><p data-pid=\"b_ckkemL\">在这里，用户可以根据喜好，<b>更换虚拟角色的造型，包括服装、发型、表情等，这些都要付费购买</b>，</p><p data-pid=\"XuglX8XV\">这一功能深受韩国年轻人欢迎，韩国排名前五的聊天和社交网站均已推出相应功能，</p>",
+        "reshipment_settings": "disallowed",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "voteup_count": 8,
+        "favorite_count": 6,
+        "created_time": 1768637523,
+        "is_labeled": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995891114092302474}",
+      "attached_info": "CrEGCPCujOWavrnV1QEQBBoJNzY1ODEyMTE3INOIrcsGKAgwAkA8SjsKKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQ1JFQVRFEgg1OTM1MTAyMhgAIAA6AEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoHMzQ3OTU4OGIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTU4OTExMTQwOTIzMDI0NzSKAQgyODI0MjUyN6oBCXJlY29tbWVuZMIBIDJkZGMxMzRiMmQ2YmNkZTg5Zjg4M2U0YzA1MWYxYmMy8gEKCAwSBk5vcm1hbPIBKAgKEiQwZjQ0ZTg5Zi1lZWU3LTQ0OTYtYTdlMy0wZmI1NTgyMzgyYzfyAQYICxICMTGCAgCIAp+E/em8M5ICIDJkZGMxMzRiMmQ2YmNkZTg5Zjg4M2U0YzA1MWYxYmMymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIpVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9DUkVBVEXoAgT6AgtOT1JNQUxfRkxPV4oDIGY0M2I0MTViYWZmZjQ1M2I4MGM3MjY2YjdlNWZkZjM1mgMNCgJ2MhAAGgVvdGhlcqgDzAHYAwDqAx1maXJzdERlZ3JlZVVzZXJDcmVhdGVSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMBHspU/gQUAAAAAAAAAAIkF96WcSDPrsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFC5AGAKAGPKgGAZICLgoJNzY1ODEyMTE3EhMxOTk1ODkxMTE0MDkyMzAyNDc0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "61_1768675033.364",
+      "type": "feed",
+      "offset": 61,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675033,
+      "updated_time": 1768675033,
+      "target": {
+        "type": "article",
+        "author": {
+          "avatar_url": "https://pica.zhimg.com/50/v2-0ecd74b1b34fd63a2126d469cfec0414_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "中国科学院大学 计算机科学与技术博士"
+            },
+            {
+              "type": "zhihu_yearly_answerer",
+              "description": "新知答主"
+            },
+            {
+              "type": "best_answerer",
+              "description": "人工智能话题下的优秀答主",
+              "topic_names": [
+                "人工智能"
+              ],
+              "topic_ids": [
+                350
+              ]
+            }
+          ],
+          "followers_count": 19639,
+          "id": "75fda91f6da58179585c79ce086ddb45",
+          "url_token": "zhou-shu-chang-45",
+          "name": "周舒畅",
+          "headline": "AI 研究员；小鹏、阶跃、旷视、Google",
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/75fda91f6da58179585c79ce086ddb45",
+          "user_type": "people"
+        },
+        "voteup_count": 45,
+        "preview_type": "default",
+        "content": "<p data-pid=\"h1jTW4K8\"><b>牛顿森教授</b> <i>（热情）</i>：欢迎大家！今天，我们将讨论一种解决约束优化问题的有趣方法：镜像梯度下降法。这种方法通过在不同的 spaces 中工作，提供了一种优雅的方式来处理约束。让我们从回忆一般的约束优化问题开始。我们有兴趣解决：</p><p data-pid=\"7XW3JsP-\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cmin_%7Bx+%5Cin+%5Cmathcal%7BX%7D%7D+f%28x%29+\" alt=\" \\min_{x \\in \\mathcal{X}} f(x) \" eeimg=\"1\"/> </p><p data-pid=\"U9MOqh8L\">其中， <img src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BX%7D+%5Csubseteq+%5Cmathbb%7BR%7D%5En\" alt=\"\\mathcal{X} \\subseteq \\mathbb{R}^n\" eeimg=\"1\"/> 是一个凸集， <img src=\"https://www.zhihu.com/equation?tex=f%3A+%5Cmathbb%7BR%7D%5En+%5Crightarrow+%5Cmathbb%7BR%7D\" alt=\"f: \\mathbb{R}^n \\rightarrow \\mathbb{R}\" eeimg=\"1\"/> 是一个凸函数。</p><p data-pid=\"BjfU970H\"><b>埃琳娜博士</b> <i>（勤奋且热衷）</i>：没错，牛顿森教授。约束优化问题在许多领域中频繁出现，包括机器学习、经济学和工程学。其中一个挑战是确保优化过程的每一步都保持在可行集 <img src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BX%7D\" alt=\"\\mathcal{X}\" eeimg=\"1\"/> 内。传统的方法如投影梯度下降通过取梯度步长然后投影回集合 $\\mathcal{X}$ 来处理这个问题。</p><p data-pid=\"uyDzDMtr\"><img src=\"https://www.zhihu.com/equation?tex=+x_%7Bt%2B1%7D+%3D+%5CPi_%7B%5Cmathcal%7BX%7D%7D+%5Cleft%28+x_t+-+%5Ceta+%5Cnabla+f%28x_t%29+%5Cright%29+\" alt=\" x_{t+1} = \\Pi_{\\mathcal{X}} \\left( x_t - \\eta \\nabla f(x_t) \\right) \" eeimg=\"1\"/> </p><p data-pid=\"N6uR5X67\">其中，$\\Pi_{\\mathcal{X}}$ 是到集合 $\\mathcal{X}$ 的投影算子，$\\eta$ 是步长， <img src=\"https://www.zhihu.com/equation?tex=%5Cnabla+f%28x_t%29\" alt=\"\\nabla f(x_t)\" eeimg=\"1\"/> 是 $f$ 在 $x_t$ 处的梯度。</p><p data-pid=\"g9y0_YhV\"><b>图灵教授</b> <i>（反思）</i>：投影可能会很耗时，尤其是对于复杂的集合 $\\mathcal{X}$。镜像梯度下降，或镜像下降，通过在对偶空间中工作提供了一种替代方法，这可以简化投影步骤。首先，我们需要引入一些关键概念，从一个称为 prox-function 的凸函数开始。</p><p data-pid=\"fsHRyzSN\"><b>埃琳娜博士</b> <i>（在笔记本上写）</i>：一个 prox-function <img src=\"https://www.zhihu.com/equation?tex=%5Cphi%3A+%5Cmathcal%7BX%7D+%5Crightarrow+%5Cmathbb%7BR%7D\" alt=\"\\phi: \\mathcal{X} \\rightarrow \\mathbb{R}\" eeimg=\"1\"/> 是一个关于某个范数 $| \\cdot |$ 的强凸函数。即，存在一个常数 $L &gt; 0$，使得对于所有 $x, y \\in \\mathcal{X}$，</p><p data-pid=\"vQ5x72xP\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cphi%28y%29+%5Cgeq+%5Cphi%28x%29+%2B+%5Cnabla+%5Cphi%28x%29%5E%7B%5Ctop%7D+%28y+-+x%29+%2B+%5Cfrac%7B1%7D%7B2L%7D+%5C%7C+y+-+x+%5C%7C%5E2.+\" alt=\" \\phi(y) \\geq \\phi(x) + \\nabla \\phi(x)^{\\top} (y - x) + \\frac{1}{2L} \\| y - x \\|^2. \" eeimg=\"1\"/> </p><p data-pid=\"LZYrtV1W\">$\\phi$ 的一个常见选择是欧几里得距离函数，它以某个点 <img src=\"https://www.zhihu.com/equation?tex=a+%5Cin+%5Cmathcal%7BX%7D\" alt=\"a \\in \\mathcal{X}\" eeimg=\"1\"/> 为中心：</p><p data-pid=\"2_Z0EP-h\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cphi%28x%29+%3D+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+x+-+a+%5C%7C%5E2.+\" alt=\" \\phi(x) = \\frac{1}{2} \\| x - a \\|^2. \" eeimg=\"1\"/> </p><p data-pid=\"lAXu5253\"><b>凯文博士</b> <i>（专攻高级优化技术）</i>：prox-function <img src=\"https://www.zhihu.com/equation?tex=%5Cphi\" alt=\"\\phi\" eeimg=\"1\"/> 诱导了一个 Bregman 散度，它推广了平方距离的概念。与 $\\phi$ 相关的 Bregman 散度定义为：</p><p data-pid=\"Rb9a_Lbh\"><img src=\"https://www.zhihu.com/equation?tex=+V_%7B%5Cphi%7D%28y%2C+x%29+%3D+%5Cphi%28y%29+-+%5Cphi%28x%29+-+%5Cnabla+%5Cphi%28x%29%5E%7B%5Ctop%7D+%28y+-+x%29.+\" alt=\" V_{\\phi}(y, x) = \\phi(y) - \\phi(x) - \\nabla \\phi(x)^{\\top} (y - x). \" eeimg=\"1\"/> </p><p data-pid=\"KJR2tFk2\">对于欧几里得距离函数，Bregman 散度简化为：</p><p data-pid=\"fs766WZO\"><img src=\"https://www.zhihu.com/equation?tex=+V_%7B%5Cphi%7D%28y%2C+x%29+%3D+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+y+-+x+%5C%7C%5E2.+\" alt=\" V_{\\phi}(y, x) = \\frac{1}{2} \\| y - x \\|^2. \" eeimg=\"1\"/> </p><p data-pid=\"07R0A0ba\"><b>牛顿森教授</b> <i>（点头）</i>：Bregman 散度通过函数 $\\phi$ 测量了点 $x$ 和 $y$ 之间的“距离”。现在，让我们引入对偶空间的概念。给定 prox-function $\\phi$，我们定义梯度映射 <img src=\"https://www.zhihu.com/equation?tex=%5Cnabla+%5Cphi%3A+%5Cmathcal%7BX%7D+%5Crightarrow+%5Cmathbb%7BR%7D%5En\" alt=\"\\nabla \\phi: \\mathcal{X} \\rightarrow \\mathbb{R}^n\" eeimg=\"1\"/> ，及其逆 <img src=\"https://www.zhihu.com/equation?tex=%5Cnabla+%5Cphi%5E%7B-1%7D\" alt=\"\\nabla \\phi^{-1}\" eeimg=\"1\"/> 。</p><p data-pid=\"NBqXM-Oa\"><b>埃琳娜博士</b> <i>（严谨）</i>：镜像下降算法在对偶或“参数”空间中运行。我们不直接更新点 $x_t$，而是维护一个相应的点 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_t\" alt=\"\\theta_t\" eeimg=\"1\"/> 在对偶空间中，其中 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_t+%3D+%5Cnabla+%5Cphi%28x_t%29\" alt=\"\\theta_t = \\nabla \\phi(x_t)\" eeimg=\"1\"/> 。镜像下降的更新规则可以描述如下：</p><ol><li data-pid=\"GISz46SL\">从初始点 <img src=\"https://www.zhihu.com/equation?tex=x_0+%5Cin+%5Cmathcal%7BX%7D\" alt=\"x_0 \\in \\mathcal{X}\" eeimg=\"1\"/> 开始，设 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_0+%3D+%5Cnabla+%5Cphi%28x_0%29\" alt=\"\\theta_0 = \\nabla \\phi(x_0)\" eeimg=\"1\"/> 。</li><li data-pid=\"f7XAQLSt\">在迭代 $t$ 时，给定 $\\theta_t$，通过在原始空间中取梯度步长并映射回对偶空间来计算下一个点 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_%7Bt%2B1%7D\" alt=\"\\theta_{t+1}\" eeimg=\"1\"/> ：</li></ol><p data-pid=\"w9y-lzEr\"><img src=\"https://www.zhihu.com/equation?tex=+%5Ctheta_%7Bt%2B1%7D+%3D+%5Cnabla+%5Cphi%28x_t%29+-+%5Ceta+%5Cnabla+f%28x_t%29.+\" alt=\" \\theta_{t+1} = \\nabla \\phi(x_t) - \\eta \\nabla f(x_t). \" eeimg=\"1\"/> </p><ol><li data-pid=\"_aE41Po1\">将 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_%7Bt%2B1%7D\" alt=\"\\theta_{t+1}\" eeimg=\"1\"/> 映射回原始空间以获得 <img src=\"https://www.zhihu.com/equation?tex=x_%7Bt%2B1%7D\" alt=\"x_{t+1}\" eeimg=\"1\"/> ：</li></ol><p data-pid=\"_JR65ewn\"><img src=\"https://www.zhihu.com/equation?tex=+x_%7Bt%2B1%7D+%3D+%5Cnabla+%5Cphi%5E%2A+%28%5Ctheta_%7Bt%2B1%7D%29%2C+\" alt=\" x_{t+1} = \\nabla \\phi^* (\\theta_{t+1}), \" eeimg=\"1\"/> </p><p data-pid=\"-wY9FMYO\">其中，$\\phi^*$ 是 $\\phi$ 的凸共轭。</p><p data-pid=\"XTpBCJf2\"><b>图灵教授</b> <i>（好奇）</i>：你能详细解释一下凸共轭 $\\phi^*$ 及其在算法中的作用吗？</p><p data-pid=\"NVO7dVEP\"><b>埃琳娜博士</b> <i>（热衷于解释）</i>：当然。函数 $\\phi$ 的凸共轭 <img src=\"https://www.zhihu.com/equation?tex=%5Cphi%5E%2A%3A+%5Cmathbb%7BR%7D%5En+%5Crightarrow+%5Cmathbb%7BR%7D\" alt=\"\\phi^*: \\mathbb{R}^n \\rightarrow \\mathbb{R}\" eeimg=\"1\"/> 定义为：</p><p data-pid=\"IY6RBaF3\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cphi%5E%2A%28%5Ctheta%29+%3D+%5Csup_%7Bx+%5Cin+%5Cmathcal%7BX%7D%7D+%5Cleft%5C%7B+%5Ctheta%5E%7B%5Ctop%7D+x+-+%5Cphi%28x%29+%5Cright%5C%7D.+\" alt=\" \\phi^*(\\theta) = \\sup_{x \\in \\mathcal{X}} \\left\\{ \\theta^{\\top} x - \\phi(x) \\right\\}. \" eeimg=\"1\"/> </p><p data-pid=\"3T0Rt9cv\">对于欧几里得情况，其中 <img src=\"https://www.zhihu.com/equation?tex=%5Cphi%28x%29+%3D+%5Cfrac%7B1%7D%7B2%7D+%7C+x+-+a+%7C%5E2\" alt=\"\\phi(x) = \\frac{1}{2} | x - a |^2\" eeimg=\"1\"/> ，我们可以推导出 $\\phi^*$。让我们逐步计算。我们想解决：</p><p data-pid=\"FEfWP9iS\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cphi%5E%2A%28%5Ctheta%29+%3D+%5Csup_%7Bx+%5Cin+%5Cmathcal%7BX%7D%7D+%5Cleft%5C%7B+%5Ctheta%5E%7B%5Ctop%7D+x+-+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+x+-+a+%5C%7C%5E2+%5Cright%5C%7D.+\" alt=\" \\phi^*(\\theta) = \\sup_{x \\in \\mathcal{X}} \\left\\{ \\theta^{\\top} x - \\frac{1}{2} \\| x - a \\|^2 \\right\\}. \" eeimg=\"1\"/> </p><p data-pid=\"g4Opqv1d\">为了找到上确界，我们对 $x$ 求导并设为零：</p><p data-pid=\"1ZUP_zWi\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cnabla_x+%5Cleft%28+%5Ctheta%5E%7B%5Ctop%7D+x+-+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+x+-+a+%5C%7C%5E2+%5Cright%29+%3D+%5Ctheta+-+%28x+-+a%29+%3D+0.+\" alt=\" \\nabla_x \\left( \\theta^{\\top} x - \\frac{1}{2} \\| x - a \\|^2 \\right) = \\theta - (x - a) = 0. \" eeimg=\"1\"/> </p><p data-pid=\"slRG387x\">解出 $x$，我们得到：</p><p data-pid=\"CqM8vVNf\"><img src=\"https://www.zhihu.com/equation?tex=+x+%3D+%5Ctheta+%2B+a.+\" alt=\" x = \\theta + a. \" eeimg=\"1\"/> </p><p data-pid=\"A9CXNJCz\">将 <img src=\"https://www.zhihu.com/equation?tex=x+%3D+%5Ctheta+%2B+a\" alt=\"x = \\theta + a\" eeimg=\"1\"/> 代入 <img src=\"https://www.zhihu.com/equation?tex=%5Cphi%5E%2A%28%5Ctheta%29\" alt=\"\\phi^*(\\theta)\" eeimg=\"1\"/> 的表达式中：</p><p data-pid=\"aCTho9Fh\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cphi%5E%2A%28%5Ctheta%29+%3D+%5Ctheta%5E%7B%5Ctop%7D+%28%5Ctheta+%2B+a%29+-+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+%5Ctheta+%2B+a+-+a+%5C%7C%5E2+%3D+%5Ctheta%5E%7B%5Ctop%7D+%5Ctheta+%2B+%5Ctheta%5E%7B%5Ctop%7D+a+-+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+%5Ctheta+%5C%7C%5E2+%3D+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+%5Ctheta+%5C%7C%5E2+%2B+%5Ctheta%5E%7B%5Ctop%7D+a.+\" alt=\" \\phi^*(\\theta) = \\theta^{\\top} (\\theta + a) - \\frac{1}{2} \\| \\theta + a - a \\|^2 = \\theta^{\\top} \\theta + \\theta^{\\top} a - \\frac{1}{2} \\| \\theta \\|^2 = \\frac{1}{2} \\| \\theta \\|^2 + \\theta^{\\top} a. \" eeimg=\"1\"/> </p><p data-pid=\"bUyL9w9U\">所以，凸共轭是：</p><p data-pid=\"N1RjMuH_\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cphi%5E%2A%28%5Ctheta%29+%3D+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+%5Ctheta+%5C%7C%5E2+%2B+%5Ctheta%5E%7B%5Ctop%7D+a.+\" alt=\" \\phi^*(\\theta) = \\frac{1}{2} \\| \\theta \\|^2 + \\theta^{\\top} a. \" eeimg=\"1\"/> </p><p data-pid=\"nl7g8N7M\"><b>凯文博士</b> <i>（添加见解）</i>：从原始空间到对偶空间的映射至关重要。给定 $\\theta$，我们可以通过 <img src=\"https://www.zhihu.com/equation?tex=%5Cnabla+%5Cphi%5E%2A%28%5Ctheta%29\" alt=\"\\nabla \\phi^*(\\theta)\" eeimg=\"1\"/> 映射回原始空间。对于我们的欧几里得示例：</p><p data-pid=\"ESNRI0b_\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cnabla+%5Cphi%5E%2A%28%5Ctheta%29+%3D+%5Cnabla_%7B%5Ctheta%7D+%5Cleft%28+%5Cfrac%7B1%7D%7B2%7D+%5C%7C+%5Ctheta+%5C%7C%5E2+%2B+%5Ctheta%5E%7B%5Ctop%7D+a+%5Cright%29+%3D+%5Ctheta+%2B+a.+\" alt=\" \\nabla \\phi^*(\\theta) = \\nabla_{\\theta} \\left( \\frac{1}{2} \\| \\theta \\|^2 + \\theta^{\\top} a \\right) = \\theta + a. \" eeimg=\"1\"/> </p><p data-pid=\"ZboTGLr3\">这告诉我们 <img src=\"https://www.zhihu.com/equation?tex=x+%3D+%5Ctheta+%2B+a\" alt=\"x = \\theta + a\" eeimg=\"1\"/> ，它是 <img src=\"https://www.zhihu.com/equation?tex=%5Cnabla+%5Cphi%28x%29+%3D+x+-+a\" alt=\"\\nabla \\phi(x) = x - a\" eeimg=\"1\"/> 的逆映射。</p><p data-pid=\"0vO0PVPL\"><b>牛顿森教授</b> <i>（总结）</i>：将所有内容放在一起，镜像下降更新可以写为：</p><ol><li data-pid=\"aVu8CloF\">从 <img src=\"https://www.zhihu.com/equation?tex=x_0+%5Cin+%5Cmathcal%7BX%7D%5C%3B+%E5%92%8C%5C%3B%5Ctheta_0+%3D+%5Cnabla+%5Cphi%28x_0%29+%3D+x_0+-+a\" alt=\"x_0 \\in \\mathcal{X}\\; 和\\;\\theta_0 = \\nabla \\phi(x_0) = x_0 - a\" eeimg=\"1\"/> 开始。</li><li data-pid=\"K94a2EvI\"> 在迭代 $t$ 时：<br/> </li></ol><ul><li data-pid=\"cM_MsnM9\">计算当前点的梯度<img src=\"https://www.zhihu.com/equation?tex=%5Cnabla+f%28x_t%29\" alt=\"\\nabla f(x_t)\" eeimg=\"1\"/>。</li><li data-pid=\"PWFCE3AO\">更新对偶变量：</li></ul><p data-pid=\"ri9XzwWY\"><img src=\"https://www.zhihu.com/equation?tex=+%5Ctheta_%7Bt%2B1%7D+%3D+%5Ctheta_t+-+%5Ceta+%5Cnabla+f%28x_t%29.+\" alt=\" \\theta_{t+1} = \\theta_t - \\eta \\nabla f(x_t). \" eeimg=\"1\"/> <br/> </p><ul><ul><li data-pid=\"3QkWVzkD\">映射回原始空间：</li></ul></ul><p data-pid=\"1mxC3CFk\"><img src=\"https://www.zhihu.com/equation?tex=+x_%7Bt%2B1%7D+%3D+%5Cnabla+%5Cphi%5E%2A%28%5Ctheta_%7Bt%2B1%7D%29+%3D+%5Ctheta_%7Bt%2B1%7D+%2B+a.+\" alt=\" x_{t+1} = \\nabla \\phi^*(\\theta_{t+1}) = \\theta_{t+1} + a. \" eeimg=\"1\"/> <br/> </p><p data-pid=\"CChDNFTC\">将 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_%7Bt%2B1%7D\" alt=\"\\theta_{t+1}\" eeimg=\"1\"/> 代入，我们得到：</p><p data-pid=\"Lzul8aWn\"><img src=\"https://www.zhihu.com/equation?tex=+x_%7Bt%2B1%7D+%3D+%28+%5Ctheta_t+-+%5Ceta+%5Cnabla+f%28x_t%29+%29+%2B+a.+\" alt=\" x_{t+1} = ( \\theta_t - \\eta \\nabla f(x_t) ) + a. \" eeimg=\"1\"/> </p><p data-pid=\"5kWV3lXY\">由于 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_t+%3D+x_t+-+a\" alt=\"\\theta_t = x_t - a\" eeimg=\"1\"/> ，我们代入 $\\theta_t$：</p><p data-pid=\"s69pvafB\"><img src=\"https://www.zhihu.com/equation?tex=+x_%7Bt%2B1%7D+%3D+%28x_t+-+a%29+-+%5Ceta+%5Cnabla+f%28x_t%29+%2B+a+%3D+x_t+-+%5Ceta+%5Cnabla+f%28x_t%29.+\" alt=\" x_{t+1} = (x_t - a) - \\eta \\nabla f(x_t) + a = x_t - \\eta \\nabla f(x_t). \" eeimg=\"1\"/> </p><p data-pid=\"Gd0_Ihnt\"><b>埃琳娜博士</b> <i>（注意到简单性）</i>：对于欧几里得情况，更新似乎简化为标准梯度下降步长。然而，当我们为特定的约束集 $\\mathcal{X}$ 选择不同的 prox-functions $\\phi$ 时，镜像下降的真正力量就显现出来了。让我们考虑一个例子，其中 $\\mathcal{X}$ 是单纯形：</p><p data-pid=\"x_d0wzhU\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cmathcal%7BX%7D+%3D+%5Cleft%5C%7B+x+%5Cin+%5Cmathbb%7BR%7D%5En+%5Cmid+x+%5Cgeq+0%2C+%5Csum_%7Bi%3D1%7D%5En+x_i+%3D+1+%5Cright%5C%7D.+\" alt=\" \\mathcal{X} = \\left\\{ x \\in \\mathbb{R}^n \\mid x \\geq 0, \\sum_{i=1}^n x_i = 1 \\right\\}. \" eeimg=\"1\"/> </p><p data-pid=\"o0vRqx4U\"><b>凯文博士</b> <i>（知识渊博）</i>：当 $\\mathcal{X}$ 是单纯形时，prox-function 的一个常见选择是负熵函数：</p><p data-pid=\"vhkLkfI4\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cphi%28x%29+%3D+%5Csum_%7Bi%3D1%7D%5En+x_i+%5Clog+x_i+-+%5Csum_%7Bi%3D1%7D%5En+x_i.+\" alt=\" \\phi(x) = \\sum_{i=1}^n x_i \\log x_i - \\sum_{i=1}^n x_i. \" eeimg=\"1\"/> </p><p data-pid=\"w9j2pn2t\"><b>埃琳娜博士</b> <i>（计算）</i>：让我们为这个 $\\phi$ 的选择推导 Bregman 散度和映射。首先，我们计算 $\\phi$ 的梯度：</p><p data-pid=\"44qkgtJd\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cnabla+%5Cphi%28x%29+%3D+%5Cleft%28+%5Clog+x_1%2C+%5Clog+x_2%2C+%5Cldots%2C+%5Clog+x_n+%5Cright%29%5E%7B%5Ctop%7D.+\" alt=\" \\nabla \\phi(x) = \\left( \\log x_1, \\log x_2, \\ldots, \\log x_n \\right)^{\\top}. \" eeimg=\"1\"/> </p><p data-pid=\"TYC4UpNh\">对偶变量 $\\theta_t$ 则是：</p><p data-pid=\"S1TNLxMq\"><img src=\"https://www.zhihu.com/equation?tex=+%5Ctheta_t+%3D+%5Cnabla+%5Cphi%28x_t%29+%3D+%5Cleft%28+%5Clog+x_%7Bt%2C1%7D%2C+%5Clog+x_%7Bt%2C2%7D%2C+%5Cldots%2C+%5Clog+x_%7Bt%2Cn%7D+%5Cright%29%5E%7B%5Ctop%7D.+\" alt=\" \\theta_t = \\nabla \\phi(x_t) = \\left( \\log x_{t,1}, \\log x_{t,2}, \\ldots, \\log x_{t,n} \\right)^{\\top}. \" eeimg=\"1\"/> </p><p data-pid=\"3MsET2WU\">接下来，我们需要凸共轭 <img src=\"https://www.zhihu.com/equation?tex=%5Cphi%5E%2A%28%5Ctheta%29\" alt=\"\\phi^*(\\theta)\" eeimg=\"1\"/> 。根据定义：</p><p data-pid=\"26Mb36bR\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cphi%5E%2A%28%5Ctheta%29+%3D+%5Csup_%7Bx+%5Cin+%5Cmathcal%7BX%7D%7D+%5Cleft%5C%7B+%5Ctheta%5E%7B%5Ctop%7D+x+-+%5Csum_%7Bi%3D1%7D%5En+x_i+%5Clog+x_i+%2B+%5Csum_%7Bi%3D1%7D%5En+x_i+%5Cright%5C%7D.+\" alt=\" \\phi^*(\\theta) = \\sup_{x \\in \\mathcal{X}} \\left\\{ \\theta^{\\top} x - \\sum_{i=1}^n x_i \\log x_i + \\sum_{i=1}^n x_i \\right\\}. \" eeimg=\"1\"/> </p><p data-pid=\"1aAUw16k\">为了找到这个，我们形成拉格朗日函数以结合约束 <img src=\"https://www.zhihu.com/equation?tex=%5Csum_%7Bi%3D1%7D%5En+x_i+%3D+1\" alt=\"\\sum_{i=1}^n x_i = 1\" eeimg=\"1\"/> ：</p><p data-pid=\"VpJUnnDd\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cmathcal%7BL%7D%28x%2C+%5Clambda%29+%3D+%5Ctheta%5E%7B%5Ctop%7D+x+-+%5Csum_%7Bi%3D1%7D%5En+x_i+%5Clog+x_i+%2B+%5Csum_%7Bi%3D1%7D%5En+x_i+%2B+%5Clambda+%5Cleft%28+%5Csum_%7Bi%3D1%7D%5En+x_i+-+1+%5Cright%29.+\" alt=\" \\mathcal{L}(x, \\lambda) = \\theta^{\\top} x - \\sum_{i=1}^n x_i \\log x_i + \\sum_{i=1}^n x_i + \\lambda \\left( \\sum_{i=1}^n x_i - 1 \\right). \" eeimg=\"1\"/> </p><p data-pid=\"3i4nIk_5\">对 $x_i$ 求导并设为零：</p><p data-pid=\"qhV3qCoC\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cfrac%7B%5Cpartial+%5Cmathcal%7BL%7D%7D%7B%5Cpartial+x_i%7D+%3D+%5Ctheta_i+-+%5Clog+x_i+-+1+%2B+1+%2B+%5Clambda+%3D+0+%5Cimplies+%5Ctheta_i+-+%5Clog+x_i+%2B+%5Clambda+%3D+0+%5Cimplies+%5Clog+x_i+%3D+%5Ctheta_i+%2B+%5Clambda.+\" alt=\" \\frac{\\partial \\mathcal{L}}{\\partial x_i} = \\theta_i - \\log x_i - 1 + 1 + \\lambda = 0 \\implies \\theta_i - \\log x_i + \\lambda = 0 \\implies \\log x_i = \\theta_i + \\lambda. \" eeimg=\"1\"/> </p><p data-pid=\"cjislCrK\">因此，</p><p data-pid=\"B_2nswpY\"><img src=\"https://www.zhihu.com/equation?tex=+x_i+%3D+e%5E%7B%5Ctheta_i+%2B+%5Clambda%7D.+\" alt=\" x_i = e^{\\theta_i + \\lambda}. \" eeimg=\"1\"/> </p><p data-pid=\"ePty68ey\">使用约束 <img src=\"https://www.zhihu.com/equation?tex=%5Csum_%7Bi%3D1%7D%5En+x_i+%3D+1\" alt=\"\\sum_{i=1}^n x_i = 1\" eeimg=\"1\"/> ：</p><p data-pid=\"J1Hu7GUD\"><img src=\"https://www.zhihu.com/equation?tex=+%5Csum_%7Bi%3D1%7D%5En+e%5E%7B%5Ctheta_i+%2B+%5Clambda%7D+%3D+1+%5Cimplies+e%5E%7B%5Clambda%7D+%5Csum_%7Bi%3D1%7D%5En+e%5E%7B%5Ctheta_i%7D+%3D+1+%5Cimplies+e%5E%7B%5Clambda%7D+%3D+%5Cfrac%7B1%7D%7B%5Csum_%7Bi%3D1%7D%5En+e%5E%7B%5Ctheta_i%7D%7D.+\" alt=\" \\sum_{i=1}^n e^{\\theta_i + \\lambda} = 1 \\implies e^{\\lambda} \\sum_{i=1}^n e^{\\theta_i} = 1 \\implies e^{\\lambda} = \\frac{1}{\\sum_{i=1}^n e^{\\theta_i}}. \" eeimg=\"1\"/> </p><p data-pid=\"E-VCPExx\">因此，</p><p data-pid=\"-c9n3wh9\"><img src=\"https://www.zhihu.com/equation?tex=+x_i+%3D+%5Cfrac%7Be%5E%7B%5Ctheta_i%7D%7D%7B%5Csum_%7Bj%3D1%7D%5En+e%5E%7B%5Ctheta_j%7D%7D.+\" alt=\" x_i = \\frac{e^{\\theta_i}}{\\sum_{j=1}^n e^{\\theta_j}}. \" eeimg=\"1\"/> </p><p data-pid=\"l6eLoL1h\">这表明 <img src=\"https://www.zhihu.com/equation?tex=%5Cnabla+%5Cphi%5E%2A%28%5Ctheta%29\" alt=\"\\nabla \\phi^*(\\theta)\" eeimg=\"1\"/> 是 softmax 函数：</p><p data-pid=\"VMcRTxpN\"><img src=\"https://www.zhihu.com/equation?tex=+%5Cnabla+%5Cphi%5E%2A%28%5Ctheta%29+%3D+%5Cleft%28+%5Cfrac%7Be%5E%7B%5Ctheta_1%7D%7D%7B%5Csum_%7Bj%3D1%7D%5En+e%5E%7B%5Ctheta_j%7D%7D%2C+%5Cfrac%7Be%5E%7B%5Ctheta_2%7D%7D%7B%5Csum_%7Bj%3D1%7D%5En+e%5E%7B%5Ctheta_j%7D%7D%2C+%5Cldots%2C+%5Cfrac%7Be%5E%7B%5Ctheta_n%7D%7D%7B%5Csum_%7Bj%3D1%7D%5En+e%5E%7B%5Ctheta_j%7D%7D+%5Cright%29%5E%7B%5Ctop%7D.+\" alt=\" \\nabla \\phi^*(\\theta) = \\left( \\frac{e^{\\theta_1}}{\\sum_{j=1}^n e^{\\theta_j}}, \\frac{e^{\\theta_2}}{\\sum_{j=1}^n e^{\\theta_j}}, \\ldots, \\frac{e^{\\theta_n}}{\\sum_{j=1}^n e^{\\theta_j}} \\right)^{\\top}. \" eeimg=\"1\"/> </p><p data-pid=\"vEOyU29U\"><b>图灵教授</b> <i>（反思）</i>：有了这些映射，我们可以为 $\\mathcal{X}$ 是单纯形且 $\\phi(x)$ 是负熵的情况写下镜像下降更新。从初始点 <img src=\"https://www.zhihu.com/equation?tex=x_0+%5Cin+%5Cmathcal%7BX%7D\" alt=\"x_0 \\in \\mathcal{X}\" eeimg=\"1\"/> 开始，我们有 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_0+%3D+%5Cnabla+%5Cphi%28x_0%29+%3D+%28%5Clog+x_%7B0%2C1%7D%2C+%5Clog+x_%7B0%2C2%7D%2C+%5Cldots%2C+%5Clog+x_%7B0%2Cn%7D%29%5E%7B%5Ctop%7D\" alt=\"\\theta_0 = \\nabla \\phi(x_0) = (\\log x_{0,1}, \\log x_{0,2}, \\ldots, \\log x_{0,n})^{\\top}\" eeimg=\"1\"/> 。迭代过程如下：</p><ol><li data-pid=\"4Dz0NY4G\">在迭代 $t$ 时，给定 $x_t$ 和 <img src=\"https://www.zhihu.com/equation?tex=%5Ctheta_t+%3D+%5Cnabla+%5Cphi%28x_t%29\" alt=\"\\theta_t = \\nabla \\phi(x_t)\" eeimg=\"1\"/> ，计算下一个对偶变量：</li></ol><p data-pid=\"Qd-jhExy\"><img src=\"https://www.zhihu.com/equation?tex=+%5Ctheta_%7Bt%2B1%7D+%3D+%5Ctheta_t+-+%5Ceta+%5Cnabla+f%28x_t%29.+\" alt=\" \\theta_{t+1} = \\theta_t - \\eta \\nabla f(x_t). \" eeimg=\"1\"/> </p><ol><li data-pid=\"QA3SQdCg\">使用 softmax 函数将 $\\theta_{t+1}$ 映射回原始空间：</li></ol><p data-pid=\"3ynQupqt\"><img src=\"https://www.zhihu.com/equation?tex=+x_%7Bt%2B1%7D+%3D+%5Cnabla+%5Cphi%5E%2A%28%5Ctheta_%7Bt%2B1%7D%29+%3D+%5Cleft%28+%5Cfrac%7Be%5E%7B%5Ctheta_%7Bt%2B1%2C1%7D%7D%7D%7B%5Csum_%7Bj%3D1%7D%5En+e%5E%7B%5Ctheta_%7Bt%2B1%2Cj%7D%7D%7D%2C+%5Cfrac%7Be%5E%7B%5Ctheta_%7Bt%2B1%2C2%7D%7D%7D%7B%5Csum_%7Bj%3D1%7D%5En+e%5E%7B%5Ctheta_%7Bt%2B1%2Cj%7D%7D%7D%2C+%5Cldots%2C+%5Cfrac%7Be%5E%7B%5Ctheta_%7Bt%2B1%2Cn%7D%7D%7D%7B%5Csum_%7Bj%3D1%7D%5En+e%5E%7B%5Ctheta_%7Bt%2B1%2Cj%7D%7D%7D+%5Cright%29%5E%7B%5Ctop%7D.+\" alt=\" x_{t+1} = \\nabla \\phi^*(\\theta_{t+1}) = \\left( \\frac{e^{\\theta_{t+1,1}}}{\\sum_{j=1}^n e^{\\theta_{t+1,j}}}, \\frac{e^{\\theta_{t+1,2}}}{\\sum_{j=1}^n e^{\\theta_{t+1,j}}}, \\ldots, \\frac{e^{\\theta_{t+1,n}}}{\\sum_{j=1}^n e^{\\theta_{t+1,j}}} \\right)^{\\top}. \" eeimg=\"1\"/> </p><p data-pid=\"mG9r7stL\"><b>埃琳娜博士</b> <i>（热衷于实现）</i>：这在理论上很棒。让我们看看如何在 Python 中实现它。我们将考虑一个简单的例子，其中我们在单纯形上最小化一个凸函数 $f(x)$。</p><p data-pid=\"r4B8fVIP\">首先，我们需要定义函数 $f$、其梯度 $\\nabla f$ 和负熵函数的具体映射。</p><p data-pid=\"_VzCxiPt\"><b>牛顿森教授</b> <i>（乐于助人）</i>：这是一个好主意。让我们为 $f$ 选择一个简单的凸函数。如何选择 <img src=\"https://www.zhihu.com/equation?tex=f%28x%29+%3D+%5Cfrac%7B1%7D%7B2%7D+x%5E%7B%5Ctop%7D+Q+x+-+b%5E%7B%5Ctop%7D+x\" alt=\"f(x) = \\frac{1}{2} x^{\\top} Q x - b^{\\top} x\" eeimg=\"1\"/> ，其中 $Q$ 是一个正定矩阵，$b$ 是一个给定的向量。这是一个二次函数，通常用于优化示例。</p><p data-pid=\"grDV4J5z\"><b>埃琳娜博士</b> <i>（写代码大纲）</i>：完美。让我们从导入必要的库和定义函数及其梯度开始。</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"kn\">import</span> <span class=\"nn\">numpy</span> <span class=\"kn\">as</span> <span class=\"nn\">np</span>\n\n<span class=\"k\">def</span> <span class=\"nf\">f</span><span class=\"p\">(</span><span class=\"n\">x</span><span class=\"p\">,</span> <span class=\"n\">Q</span><span class=\"p\">,</span> <span class=\"n\">b</span><span class=\"p\">):</span>\n    <span class=\"s2\">&#34;&#34;&#34;\n</span><span class=\"s2\">    目标函数：f(x) = 0.5 * x^T Q x - b^T x\n</span><span class=\"s2\">    &#34;&#34;&#34;</span>\n    <span class=\"k\">return</span> <span class=\"mf\">0.5</span> <span class=\"o\">*</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">dot</span><span class=\"p\">(</span><span class=\"n\">x</span><span class=\"o\">.</span><span class=\"n\">T</span><span class=\"p\">,</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">dot</span><span class=\"p\">(</span><span class=\"n\">Q</span><span class=\"p\">,</span> <span class=\"n\">x</span><span class=\"p\">))</span> <span class=\"o\">-</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">dot</span><span class=\"p\">(</span><span class=\"n\">b</span><span class=\"o\">.</span><span class=\"n\">T</span><span class=\"p\">,</span> <span class=\"n\">x</span><span class=\"p\">)</span>\n\n<span class=\"k\">def</span> <span class=\"nf\">grad_f</span><span class=\"p\">(</span><span class=\"n\">x</span><span class=\"p\">,</span> <span class=\"n\">Q</span><span class=\"p\">,</span> <span class=\"n\">b</span><span class=\"p\">):</span>\n    <span class=\"s2\">&#34;&#34;&#34;\n</span><span class=\"s2\">    目标函数的梯度：∇f(x) = Qx - b\n</span><span class=\"s2\">    &#34;&#34;&#34;</span>\n    <span class=\"k\">return</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">dot</span><span class=\"p\">(</span><span class=\"n\">Q</span><span class=\"p\">,</span> <span class=\"n\">x</span><span class=\"p\">)</span> <span class=\"o\">-</span> <span class=\"n\">b</span></code></pre></div><p data-pid=\"1CyJQjAx\">接下来，我们实现带有负熵函数的镜像下降算法，用于在单纯形上最小化。</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"k\">def</span> <span class=\"nf\">mirror_descent</span><span class=\"p\">(</span><span class=\"n\">Q</span><span class=\"p\">,</span> <span class=\"n\">b</span><span class=\"p\">,</span> <span class=\"n\">x0</span><span class=\"p\">,</span> <span class=\"n\">eta</span><span class=\"p\">,</span> <span class=\"n\">num_iterations</span><span class=\"o\">=</span><span class=\"mi\">1000</span><span class=\"p\">):</span>\n    <span class=\"s2\">&#34;&#34;&#34;\n</span><span class=\"s2\">    用于在单纯形上最小化 f(x) 的镜像下降算法。\n</span><span class=\"s2\">\n</span><span class=\"s2\">    参数：\n</span><span class=\"s2\">    - Q: 正定矩阵\n</span><span class=\"s2\">    - b: 向量\n</span><span class=\"s2\">    - x0: 单纯形中的初始点\n</span><span class=\"s2\">    - eta: 步长\n</span><span class=\"s2\">    - num_iterations: 迭代次数\n</span><span class=\"s2\">\n</span><span class=\"s2\">    返回：\n</span><span class=\"s2\">    - x: 经过 num_iterations 次迭代后的最终点\n</span><span class=\"s2\">    &#34;&#34;&#34;</span>\n    <span class=\"n\">x</span> <span class=\"o\">=</span> <span class=\"n\">x0</span>\n    <span class=\"n\">theta</span> <span class=\"o\">=</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">log</span><span class=\"p\">(</span><span class=\"n\">x</span><span class=\"p\">)</span>  <span class=\"c1\"># 初始对偶变量</span>\n\n    <span class=\"k\">for</span> <span class=\"n\">_</span> <span class=\"ow\">in</span> <span class=\"nb\">range</span><span class=\"p\">(</span><span class=\"n\">num_iterations</span><span class=\"p\">):</span>\n        <span class=\"c1\"># 在当前点 x 处计算 f 的梯度</span>\n        <span class=\"n\">grad</span> <span class=\"o\">=</span> <span class=\"n\">grad_f</span><span class=\"p\">(</span><span class=\"n\">x</span><span class=\"p\">,</span> <span class=\"n\">Q</span><span class=\"p\">,</span> <span class=\"n\">b</span><span class=\"p\">)</span>\n\n        <span class=\"c1\"># 更新对偶变量</span>\n        <span class=\"n\">theta</span> <span class=\"o\">=</span> <span class=\"n\">theta</span> <span class=\"o\">-</span> <span class=\"n\">eta</span> <span class=\"o\">*</span> <span class=\"n\">grad</span>\n\n        <span class=\"c1\"># 使用 softmax 函数映射回原始空间</span>\n        <span class=\"n\">x</span> <span class=\"o\">=</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">exp</span><span class=\"p\">(</span><span class=\"n\">theta</span><span class=\"p\">)</span> <span class=\"o\">/</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">sum</span><span class=\"p\">(</span><span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">exp</span><span class=\"p\">(</span><span class=\"n\">theta</span><span class=\"p\">))</span>\n\n    <span class=\"k\">return</span> <span class=\"n\">x</span></code></pre></div><p data-pid=\"lGqu22Xg\">要使用这个，我们需要确保初始点 $x_0$ 在单纯形中，并选择一个合适的步长 $\\eta$。让我们将所有内容放在一起，使用一个具体的例子。</p><p data-pid=\"8SWSsh8p\"><b>凯文博士</b> <i>（提供额外背景）</i>：在选择步长 $\\eta$ 时，通常有用的是让它随着时间的推移而减小，尤其是如果我们不知道梯度的 Lipschitz 常数。一个常见的选择是 <img src=\"https://www.zhihu.com/equation?tex=%5Ceta_t+%3D+%5Cfrac%7Bc%7D%7B%5Csqrt%7Bt%2B1%7D%7D\" alt=\"\\eta_t = \\frac{c}{\\sqrt{t+1}}\" eeimg=\"1\"/> ，其中 $c$ 是一个常数。然而，为了简单起见，如果我们知道它适用于手头的问题，我们可以使用一个恒定的步长。</p><p data-pid=\"KK7Y2ebX\"><b>埃琳娜博士</b> <i>（实现示例）</i>：让我们设置一个简单的例子。我们将选择一个随机的正定矩阵 $Q$、一个随机向量 $b$，以及一个在单纯形中的初始点 $x_0$。</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"k\">def</span> <span class=\"nf\">generate_random_positive_definite</span><span class=\"p\">(</span><span class=\"n\">n</span><span class=\"p\">):</span>\n    <span class=\"s2\">&#34;&#34;&#34;\n</span><span class=\"s2\">    生成一个大小为 n x n 的随机正定矩阵\n</span><span class=\"s2\">    &#34;&#34;&#34;</span>\n    <span class=\"n\">A</span> <span class=\"o\">=</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">random</span><span class=\"o\">.</span><span class=\"n\">rand</span><span class=\"p\">(</span><span class=\"n\">n</span><span class=\"p\">,</span> <span class=\"n\">n</span><span class=\"p\">)</span>\n    <span class=\"n\">Q</span> <span class=\"o\">=</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">dot</span><span class=\"p\">(</span><span class=\"n\">A</span><span class=\"p\">,</span> <span class=\"n\">A</span><span class=\"o\">.</span><span class=\"n\">T</span><span class=\"p\">)</span>\n    <span class=\"k\">return</span> <span class=\"n\">Q</span>\n\n<span class=\"k\">def</span> <span class=\"nf\">generate_initial_simplex</span><span class=\"p\">(</span><span class=\"n\">n</span><span class=\"p\">):</span>\n    <span class=\"s2\">&#34;&#34;&#34;\n</span><span class=\"s2\">    生成单纯形中的一个随机初始点\n</span><span class=\"s2\">    &#34;&#34;&#34;</span>\n    <span class=\"n\">x0</span> <span class=\"o\">=</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">random</span><span class=\"o\">.</span><span class=\"n\">dirichlet</span><span class=\"p\">(</span><span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">ones</span><span class=\"p\">(</span><span class=\"n\">n</span><span class=\"p\">),</span> <span class=\"n\">size</span><span class=\"o\">=</span><span class=\"mi\">1</span><span class=\"p\">)</span><span class=\"o\">.</span><span class=\"n\">T</span>\n    <span class=\"k\">return</span> <span class=\"n\">x0</span>\n\n<span class=\"c1\"># 问题设置</span>\n<span class=\"n\">n</span> <span class=\"o\">=</span> <span class=\"mi\">3</span>  <span class=\"c1\"># 维度</span>\n<span class=\"n\">Q</span> <span class=\"o\">=</span> <span class=\"n\">generate_random_positive_definite</span><span class=\"p\">(</span><span class=\"n\">n</span><span class=\"p\">)</span>\n<span class=\"n\">b</span> <span class=\"o\">=</span> <span class=\"n\">np</span><span class=\"o\">.</span><span class=\"n\">random</span><span class=\"o\">.</span><span class=\"n\">rand</span><span class=\"p\">(</span><span class=\"n\">n</span><span class=\"p\">,</span> <span class=\"mi\">1</span><span class=\"p\">)</span>\n\n<span class=\"c1\"># 单纯形中的初始点</span>\n<span class=\"n\">x0</span> <span class=\"o\">=</span> <span class=\"n\">generate_initial_simplex</span><span class=\"p\">(</span><span class=\"n\">n</span><span class=\"p\">)</span>\n\n<span class=\"c1\"># 步长和迭代次数</span>\n<span class=\"n\">eta</span> <span class=\"o\">=</span> <span class=\"mf\">0.1</span>\n<span class=\"n\">num_iterations</span> <span class=\"o\">=</span> <span class=\"mi\">1000</span>\n\n<span class=\"c1\"># 运行镜像下降算法</span>\n<span class=\"n\">x_opt</span> <span class=\"o\">=</span> <span class=\"n\">mirror_descent</span><span class=\"p\">(</span><span class=\"n\">Q</span><span class=\"p\">,</span> <span class=\"n\">b</span><span class=\"p\">,</span> <span class=\"n\">x0</span><span class=\"p\">,</span> <span class=\"n\">eta</span><span class=\"p\">,</span> <span class=\"n\">num_iterations</span><span class=\"p\">)</span>\n\n<span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s2\">&#34;优化后的 x:&#34;</span><span class=\"p\">,</span> <span class=\"n\">x_opt</span><span class=\"p\">)</span></code></pre></div><p data-pid=\"pdN2Tl1A\"><b>图灵教授</b> <i>（反思）</i>：这个实现应该能够很好地在单纯形上最小化二次函数。负熵函数的选择通过 softmax 函数简化了投影到单纯形的过程，这通常比直接投影回单纯形更高效。</p><p data-pid=\"CMB3ScTx\"><b>埃琳娜博士</b> <i>（热衷）</i>：确实如此。总结一下，镜像下降是一种用于约束优化的通用方法，它使用 prox-function 在对偶空间中工作。这可以简化投影步骤，并使优化更加高效，尤其是对于复杂的约束集。该算法维护一个对偶变量 $\\theta_t$，使用目标函数的梯度更新它，并将其映射回原始空间以获得下一个迭代点 <img src=\"https://www.zhihu.com/equation?tex=x_%7Bt%2B1%7D\" alt=\"x_{t+1}\" eeimg=\"1\"/> 。</p><p data-pid=\"-6e9U5jn\">对于欧几里得情况，更新简化为标准梯度下降，但对于其他 $\\phi$ 的选择，如单纯形的负熵，镜像下降提供了一种高效处理约束的方法。</p><p data-pid=\"AYklFWCv\"><b>牛顿森教授</b> <i>（总结）</i>：感谢大家参与这次富有洞察力的讨论。镜像下降是一种强大的技术，展示了优化理论的美丽。通过仔细选择 prox-function $\\phi$，我们可以高效地处理各种约束集。该方法不仅具有理论保证，还具有实际实现，如我们的 Python 示例所示。</p>",
+        "is_labeled": true,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/articles/30919264447",
+        "comment_count": 0,
+        "preview_text": "",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "is_navigator": false,
+        "comment_permission": "all",
+        "created": 1742255688,
+        "updated": 1742255688,
+        "excerpt": "牛顿森教授 （热情）：欢迎大家！今天，我们将讨论一种解决约束优化问题的有趣方法：镜像梯度下降法。这种方法通过在不同的 spaces 中工作，提供了一种优雅的方式来处理约束。让我们从回忆一般的约束优化问题开始。我们有兴趣解决： [公式] 其中， [公式] 是一个凸集， [公式] 是一个凸函数。 埃琳娜博士 （勤奋且热衷）：没错，牛顿森教…",
+        "excerpt_new": "牛顿森教授 （热情）：欢迎大家！今天，我们将讨论一种解决约束优化问题的有趣方法：镜像梯度下降法。这种方法通过在不同的 spaces 中工作，提供了一种优雅的方式来处理约束。让我们从回忆一般的约束优化问题开始。我们有兴趣解决： [公式] 其中， [公式] 是一个凸集， [公式] 是一个凸函数。 埃琳娜博士 （勤奋且热衷）：没错，牛顿森教…",
+        "visited_count": 2586,
+        "article_type": "normal",
+        "id": "30919264447",
+        "title": "镜像梯度下降法（python）",
+        "voting": 0,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "column": {
+          "id": "c_1877122530092908544",
+          "updated": 1740321713,
+          "is_following": false,
+          "imageUrl": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "comment_permission": "public",
+          "intro": "AI 写文字短剧，承认有幻觉的前提下，尽量科学",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1877122530092908544",
+          "author": {
+            "is_followed": false,
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 0,
+            "is_following": false,
+            "id": "",
+            "url": "",
+            "url_token": "",
+            "name": "匿名用户",
+            "gender": -1
+          },
+          "title": "AI 短剧"
+        },
+        "favorite_count": 139
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 30919264447}",
+      "attached_info": "CvwGCPCujOWavrnV1QEQBxoJMjU1MjA2NTExIMjs4r4GKC0wAEA9SnYKKlRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX0xPTkdfVEVSTV9UT1BJQxITMTQ0MTE1MTg4MDc2MDg2ODcyMRgAIAA6L3sibWVkaWFfdHlwZSI6IklNQUdFX1RFWFQiLCJwaW5fbWVkaWFfdHlwZSI6IiJ9WggxMzYzNzI0MWIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyCzMwOTE5MjY0NDQ3igEVY18xODc3MTIyNTMwMDkyOTA4NTQ0qgEJcmVjb21tZW5kwgEgNzVmZGE5MWY2ZGE1ODE3OTU4NWM3OWNlMDg2ZGRiNDXyAQoIDBIGTm9ybWFs8gEoCAoSJDhkOGQwMzk0LTE0YWUtNDJmMS1iMzQ2LWI3NGU3ZjlkZTRlNPIBBggLEgIxMYICAIgCn4T96bwzkgIgNzVmZGE5MWY2ZGE1ODE3OTU4NWM3OWNlMDg2ZGRiNDWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCFkZlZWRDb250cm9sQnJlYWtJblJ1bGXaAipUU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9MT05HX1RFUk1fVE9QSUPoAgX6AgtOT1JNQUxfRkxPV4oDIGY0M2I0MTViYWZmZjQ1M2I4MGM3MjY2YjdlNWZkZjM1mgMNCgJ2MhAAGgVvdGhlcqgDmhTYAwDqAxxDb250cm9sSW50ZXJlc3RMb25nVGVybVRvcGlj+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAZtYW51YWzCBAMxNzDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBIK4igL5BAAAAADOhHc/gQUAAAAAAAAAAIkF96WcSDPrsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFD+AFAOgFAPAFC5AGAKAGPagGA5ICJgoJMjU1MjA2NTExEgszMDkxOTI2NDQ0NxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "62_1768675033.228",
+      "type": "feed",
+      "offset": 62,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675033,
+      "updated_time": 1768675033,
+      "target": {
+        "voting": 0,
+        "comment_count": 22,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_type": "default",
+        "is_labeled": false,
+        "reaction_instruction": {
+          "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+        },
+        "article_type": "normal",
+        "title": "在中央政治局扩大会议上的讲话（1966年5月18日）（三）",
+        "voteup_count": 238,
+        "excerpt": "总之，要斗。这次我们斗了彭真、罗瑞卿、陆定一和他的老婆，还有杨尚昆，是马克思主义的行为，是辩证唯物主义的行为，是重大的政治措施，是防止反革命颠覆的措施。不然，我们得了天下，要丧失天下，创了业不能守业。我国人民一百多年来，几十年来为革命前仆后继，无数先烈所流的血，统统付之东流，我们就成历史的罪人，成为机会主义者。 我们同他们斗，但内部要团结，要以毛主席为中心来团结，以毛泽东思想为中心来团结。他们这…",
+        "favorite_count": 326,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "id": "1994303127734727506",
+        "author": {
+          "name": "陈群2019",
+          "headline": "蛮荒时代是我的理想国",
+          "avatar_url": "https://picx.zhimg.com/50/v2-2af0422d9824c7a1a26eb1d8bbc708a5_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 22794,
+          "user_type": "people",
+          "url_token": "chen-qun-2019",
+          "is_following": false,
+          "is_followed": false,
+          "id": "71e784c5fe783a915224d495822dd049",
+          "url": "https://api.zhihu.com/people/71e784c5fe783a915224d495822dd049"
+        },
+        "preview_text": "",
+        "is_navigator": false,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1994303127734727506",
+        "comment_permission": "all",
+        "created": 1768258959,
+        "updated": 1768258959,
+        "excerpt_new": "总之，要斗。这次我们斗了彭真、罗瑞卿、陆定一和他的老婆，还有杨尚昆，是马克思主义的行为，是辩证唯物主义的行为，是重大的政治措施，是防止反革命颠覆的措施。不然，我们得了天下，要丧失天下，创了业不能守业。我国人民一百多年来，几十年来为革命前仆后继，无数先烈所流的血，统统付之东流，我们就成历史的罪人，成为机会主义者。 我们同他们斗，但内部要团结，要以毛主席为中心来团结，以毛泽东思想为中心来团结。他们这…",
+        "content": "<p data-pid=\"3UbBstZO\">总之，要斗。这次我们斗了彭真、罗瑞卿、陆定一和他的老婆，还有杨尚昆，是马克思主义的行为，是辩证唯物主义的行为，是重大的政治措施，是防止反革命颠覆的措施。不然，我们得了天下，要丧失天下，创了业不能守业。我国人民一百多年来，几十年来为革命前仆后继，无数先烈所流的血，统统付之东流，我们就成历史的罪人，成为机会主义者。</p><p data-pid=\"sEDE6SJG\">我们同他们斗，但内部要团结，要以毛主席为中心来团结，以毛泽东思想为中心来团结。他们这些家伙的共同点，就是反毛主席、反毛泽东思想。无论是彭真、陆定一、罗瑞卿、杨尚昆、邓拓、吴晗、廖沫沙等等，都是这样。材料太多了。他们或者明目张胆，或者暗中影射，采取不同的语言，不同的体裁，不同的手段，恶毒地反对毛主席，反对毛泽东思想。</p><p data-pid=\"g-T_R7Ti\">毛主席是我们党的缔造者，是我国革命的缔造者，是我们党和国家的伟大领袖，是当代最伟大的马克思列宁主义者。毛主席天才地、创造性地、全面地继承、捍卫和发展了马克思列宁主义，把马克思列宁主义提高到一个崭新的阶段。毛泽东思想是在帝国主义走向全面崩溃，社会主义走向全世界胜利时代的马克思列宁主义。毛泽东思想是全党全国一切工作的指导方针。我们一定要把毛泽东思想在全国人民面前端出来，同全国人民更广泛地见面，同全国人民更广泛地结合，让毛泽东思想更加深入人心，促进全国人民思想进一步革命化。我们要以毛泽东思想为武器，批判揭露各种修正主义，批判揭露各个战线、各个部门的资产阶级代表人物，批判揭露为资本主义复辟鸣锣开道的资产阶级思想，把无产阶级文化大革命进行到底，把社会主义革命进行到底。这样，就能保证我们防止修正主义，避免资本主义复辟。这是最最根本的关键问题。很多党内的坏家伙，他们反对学习毛主席著作，他们是反党分子。陆定一控制的中宣部就反对学习毛主席著作，诬蔑这是简单化、庸俗化、实用主义。他们不宣传毛泽东思想，宣传资产阶级思想。不宣传革命思想，宣传反动思想，不是把革命推向前进，而是拉着革命倒退。别人宣传毛泽东思想，他们就冷嘲热骂，千方百计加以压制，加以攻击，加以反对。</p><p data-pid=\"hq4JwUmq\">马克思主义者起码应该知道，存在决定意识，物质是第一性的，精神是第二性的，同时，意识又有巨大的能动作用。物质变精神，精神变物质。毛主席说，“人的正确思想是从哪里来的？是从天上掉下来的吗？不是。是自己头脑里固有的吗？不是。人的正确思想，只能从社会实践中来，只能从社会的生产斗争、阶级斗争和科学实验这三项实践中来。人们的社会存在，决定人们的思想。而代表先进阶级的正确思想，一旦被群众掌握，就会变成改造社会、改造世界的物质力量。”马克思列宁主义和毛泽东同志的认识论观点就是这样。我们要很好地运用毛泽东思想，就能大大地前进。精神潜力大得很。</p><p data-pid=\"gHBYJlOR\">几十年来，毛主席经常阐明了精神变物质这两方面的辩证关系。马克思主义的核心是辩证法。毛主席对辩证法运用自如，渗透一切，在每个问题上都体现了辩证唯物论和无产阶级哲学基础。毛主席全面地创造性地发展了马克思主义的辩证法。</p><p data-pid=\"0c6oVFr5\">毛主席所经历的事情，比马克思、恩格斯、列宁都多得多。当然，马克思、恩格斯、列宁是伟大的人物。马克思活了六十四岁，恩格斯活了七十五岁。他们有很高的预见，他们继承了人类先进的思想，预见到人类社会的发展。可是他们没有亲身领导过无产阶级革命，没有像毛主席那样，亲临前线指挥那么多的重大的政治战役，特别是军事战役。列宁只活了五十四岁，十月革命胜利以后六年就去世了。他也没有经历过像毛主席那样长期、那样复杂、那样激烈、那样多方面的斗争。中国人口比德国多十倍，比俄国多三倍。革命经验之丰富，没有哪一个能超过。毛主席在全国，在全世界有最高的威望，是最卓越、最伟大的人物。毛主席的言论、文章和革命实践都表现出他的伟大的无产阶级的天才。有些人不承认天才，这不是马克思主义。不能不承认天才。恩格斯说，十八世纪的天才是黑格尔、圣西门，十九世纪的天才是马克思。他说，马克思比我们一切人都站得高些，看得远些，观察得多些和快些，他是天才。列宁也承认天才。他说要有十几个天才的领袖，才能领导俄国取得革命的胜利。毛主席是天才。我们同毛主席哪一点不同？一起搞斗争，有些人年龄比他老，我们没有他老，但经历的事也不少。书我们也读，但我们读不懂，或者不很懂，毛主席读懂了。我看到很多人读书圈圈点点，把书都圈满了，证明他没有读懂，不知什么是中心，什么是主次。辩证法的核心，毛主席在几十年前就懂了，我们没有懂。他不但懂了，而且还会熟练地运用。从懂到用，有很大的距离，懂了未必会用。打乒乓球，你懂得了规则，你也打不过庄则栋、徐寅生。打仗也一样，你懂一点书本上的军事知识，打的时候不一定能打胜利。毛泽东思想全部贯穿着唯物辩证法。毛主席广泛地运用和发展了马克思列宁主义理论，在当代世界上没有第二个人。十九世纪的天才是马克思、恩格斯，二十世纪的天才是列宁和毛泽东同志。不要不服气，不行就不行。不承认这一点，我们就会犯大错误。不看到这一点，就不晓得把无产阶级最伟大的天才舵手选为我们的领袖。</p><p data-pid=\"qC4Smkk5\">人和一般动物的根本区别是，人是能够制造工具的动物。人在劳动过程中，逐步发展自己的头脑，能够去思想。思想是人的最大特点之一。思想在一定条件下起决定作用。我们应该重视先进思想的作用，重视社会主义时代先进思想的作用。重视毛泽东思想的作用，不重视思想的作用，是庸俗的唯物论，机械的唯物论。在社会主义时代，在财产公有的条件下，忽视先进思想的作用，搞物质刺激，是不行的，是非常危险的。我们同修正主义不同，我们不能象他们那样靠物质刺激。资产阶级的物质刺激这条路，我们是决不能走的。我们必须用毛泽东思想，用伟大的正义的事业，来激发人民的热情，放开眼界看未来，坚定不移向前进，摆脱几千年来一切剥削阶级传统和习惯势力的影响，从这种狭隘的影响下解放出来，表现出强大的力量，发生强大的作用。</p><p data-pid=\"MbqaoXcd\">文化、思想战线被坏家伙控制了。彭真、陆定一控制的中宣部是为资产阶级服务的宣传部。他们控制的文化部是为资产阶级服务的文化部。他们仇视毛泽东思想，他们阻碍毛泽东思想的传播。毛泽东思想一定要最广泛地同人民群众见面，不同人民群众见面，我们国家的面貌就不能改变。我们一定要把毛泽东思想深入到人民群众中去。毛泽东思想和人民一结合，无论哪一方面，就会发生很快的变化。</p><p data-pid=\"QabuaMKk\">毛泽东思想是无产阶级思想集中的表现，是同私有制思想、剥削阶级思想根本对立的。我们反对私有制和私有观念。私有制和私有观念是产生修正主义的重大因素。这种因素非常广泛。农村有自留地、有集体的地。一筐粪，是先送自留地，还是先送集体的地，都是有斗争的。这是两个阶级的心理，是两个阶级的思想，是两条道路的表现，是阶级斗争的表现。我们不用马克思列宁主义、毛泽东思想去战斗，资产阶级思想就会占领阵地，引起蜕化变质，出乱子。匈牙利不就有裴多菲俱乐部这批学阀吗？在他们的煽动下，二十万人包围着国会，要纳吉当政。我们党内这些坏家伙，就是纳吉。一旦有事，他们振臂一呼，就会有些人跟着跑。幸亏过去几年各个击破，打掉了一批纳吉，打掉了高岗、彭德怀、张闻天。这次又打掉了一批纳吉，一批赫鲁晓夫修正主义分子。这场斗争以后，不要存太平观念。有些人，私有观念、剥削阶级观念根深蒂固，渗透到每一个细胞。他们随时都要搞鬼，还得提高警惕。人的脑子是存在的反映，是有矛盾的，是有阶级性的。我们社会主义社会也不例外。就拿革命队伍里的人来说，脑子里也有正确思想同错误思想的矛盾，有无产阶级思想同资产阶级思想的矛盾，有集体主义、共产主义同个人主义的矛盾，有真马克思主义同假马克思主义的矛盾，有走群众路线同反对群众路线的矛盾，等等。这一系列的矛盾，不断在脑子里发生斗争，不是这个克服那个，就是那个克服这个。</p><p data-pid=\"LjOy4tbc\">还有一些人的脑子里，甚至有革命思想同反革命思想的矛盾。要随时开展斗争，两军对战，消灭隐蔽的反革命思想。</p><p data-pid=\"0OEufoz9\">要看到地球在运动，万物在发展的现象，要看清历史发展的规律，不要做违背历史前进的事。做这种事，害人害己，身败名裂。毛主席提出保持无产阶级晚节，就是这个问题。老同志也要按照毛主席提出的无产阶级革命事业接班人的五个条件，严格要求自己，认真改造自己。不看清楚这个大形势，打个人小算盘，必然会犯大错误，甚至会参加卑鄙无耻的阴谋反党集团。</p><p data-pid=\"dqH0ji5s\">我们现在拥护毛主席，毛主席百年之后我们也拥护毛主席。毛泽东思想要永远流传下去。毛泽东思想是真正的马克思列宁主义，是高度同实际相结合的马克思列宁主义，是全国人民最好的教科书和必修课，是全国劳动人民团结和革命的共同思想基础，是全国人民行动的指南。毛泽东思想是人类的灯塔，是世界革命的最锐利的武器，是放之四海而皆准的普遍真理。毛泽东思想能够改变人的思想面貌，能够改变祖国的面貌，能够使中国人民在全世界人民面前站起来，永远站起来。能够使全世界被压迫、被剥削的人民站起来，永远站起来。毛主席活到哪一天，九十岁、一百多岁，都是我们党的最高领袖，他的话都是我们行动的准则。谁反对他，全党共诛之，全国共讨之。在他身后，如果有谁做赫鲁晓夫那样的秘密报告，一定是野心家，一定是大坏蛋，全党共诛之，全国共讨之。</p><p data-pid=\"tOXt5mvq\">毛泽东思想永远是普遍真理，永远是我们行动的指南，是中国人民和世界革命人民的共同财富，是永放光辉的。解放军把毛主席著作作为全军干部战士的课本，不是我高明，而是必须这样做。用毛泽东思想统一全军、全党，什么问题都可以解决。毛主席的话，句句是真理，一句超过我们一万句。对毛主席的著作，我领会得很不够，今后还要好好学习。我们一定要抓住政治不放，抓住活学活用毛主席著作不放。这是革命的需要。是形势的需要，是对敌斗争的需要，是战备的需要，是彻底取得无产阶级文化大革命胜利的需要，是防止和反对修正主义的需要，是防止资本主义复辟的需要。那些坏家伙攻击我们是实用主义。这绝不是实用主义，是行之有效、符合实际的客观真理。什么是实用主义？实用主义就是资产阶级的主观唯心论。在他们看来，对资产阶级有利的就是真理，对资产阶级不利的就不是真理。我们抓突出政治，活学活用毛主席著作，是符合社会主义社会发展规律的真理，是符合自然界发展规律的真理，是符合无产阶级革命需要的真理。如果不根据革命的需要去指导我们的行动，就必然犯大错误，必然要失败。</p>",
+        "visited_count": 24406
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994303127734727506}",
+      "attached_info": "CqIGCPCujOWavrnV1QEQBxoJMjY4OTMwNjA0II/7lcsGKO4BMBZAPkqAAQopVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlQSTWhvdF9yZWNhbGxfcmVhbHRpbWVfdDpuZXc3ZDoyMDI2LTAxLTE3Om1hbGU6YmlneW91bmdzdGVyOuS4gOe6v+WfjuW4gjptb250aGx5GAAgADoAYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NDMwMzEyNzczNDcyNzUwNqoBCXJlY29tbWVuZMIBIDcxZTc4NGM1ZmU3ODNhOTE1MjI0ZDQ5NTgyMmRkMDQ58gEKCAwSBk5vcm1hbPIBKAgKEiQ1ZjAxYjlhNy1jOWYyLTRjYjMtOWQzMS0wNzc4M2I5OTE4MWHyAQYICxICMTGCAgCIAp+E/em8M5ICIDcxZTc4NGM1ZmU3ODNhOTE1MjI0ZDQ5NTgyMmRkMDQ5mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIpVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlToAgL6AgtOT1JNQUxfRkxPV4oDIGY0M2I0MTViYWZmZjQ1M2I4MGM3MjY2YjdlNWZkZjM1mgMNCgJ2MhAAGgVvdGhlcqgD1r4B2AMA6gMiaG90Q3Jvc3NSZWFsVGltZU5ld0NvbnRlbnRSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIByppI/gQUAAAAAAAAAAIkF96WcSDPrsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFC5AGAKAGPqgGAJICLgoJMjY4OTMwNjA0EhMxOTk0MzAzMTI3NzM0NzI3NTA2GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "63_1768675033.227",
+      "type": "feed",
+      "offset": 63,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675033,
+      "updated_time": 1768675033,
+      "target": {
+        "updated_time": 1768189275,
+        "is_copyable": false,
+        "reshipment_settings": "need_payment",
+        "url": "https://api.zhihu.com/answers/1994011026568537324",
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "comment_count": 35,
+          "bound_topic_ids": [
+            1,
+            2566,
+            3204,
+            31833,
+            2084586
+          ],
+          "is_following": false,
+          "question_type": "normal",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-50c4f3fc3d500c3b741011c80707c1b2_l.jpg?source=b6762063",
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "CIA 国际注册内部审计师资格证持证人"
+              }
+            ],
+            "is_following": false,
+            "id": "a6b97a920c3d4de5135b0c5d87ca1bd9",
+            "url": "https://api.zhihu.com/people/a6b97a920c3d4de5135b0c5d87ca1bd9",
+            "url_token": "jia-fei-ai-shang-qing-tian",
+            "headline": "⭐️ 18年+ 资深财务FP&amp;A\n 日常分享财务知识！",
+            "followers_count": 222,
+            "is_followed": false,
+            "user_type": "people",
+            "name": "特特的资料库",
+            "is_org": false,
+            "gender": 0
+          },
+          "title": "为什么很多公司因为「降本增效」而倒闭了？",
+          "created": 1737255085,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/9987220611",
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "detail": "",
+          "id": "9987220611"
+        },
+        "excerpt_new": "彼得・德鲁克早在《管理的实践》中就给出了答案：企业优先的是效能，而非效率。效能是“做对的事”；效率是“把事做对”。效能关注“做哪些事能产生最大价值”；效率关注“如何用最少的资源做事”。对企业而言，效能永远优先于效率！放到存量竞争时代，这个逻辑更显关键：降本只是 “优化效率” 的手段之一，而增效的核心是 “先明确‘对的事’（效能），再用高效的方式落地（效率）”。如果跳过 “定方向” 直接谈降本，很可…",
+        "preview_type": "default",
+        "created_time": 1768189275,
+        "excerpt": "彼得・德鲁克早在《管理的实践》中就给出了答案：企业优先的是效能，而非效率。效能是“做对的事”；效率是“把事做对”。效能关注“做哪些事能产生最大价值”；效率关注“如何用最少的资源做事”。对企业而言，效能永远优先于效率！放到存量竞争时代，这个逻辑更显关键：降本只是 “优化效率” 的手段之一，而增效的核心是 “先明确‘对的事’（效能），再用高效的方式落地（效率）”。如果跳过 “定方向” 直接谈降本，很可…",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "allow_segment_interaction": true,
+        "voteup_count": 10,
+        "preview_text": "",
+        "content": "<p data-pid=\"fbY3Uj_S\"><b>彼得・德鲁克早在《管理的实践》中就给出了答案：企业优先的是效能，而非效率。</b>效能是“做对的事”；效率是“把事做对”。效能关注“做哪些事能产生最大价值”；效率关注“如何用最少的资源做事”。对企业而言，效能永远优先于效率！放到存量竞争时代，这个逻辑更显关键：降本只是 “优化效率” 的手段之一，而增效的核心是 “先明确‘对的事’（效能），再用高效的方式落地（效率）”。</p><p data-pid=\"o4kzJ7zf\">如果跳过 “定方向” 直接谈降本，很可能把 “该花的钱也砍了”，导致 “越降本越低效”；只有先找准 “能产生增量的事”，再围绕这件事优化成本、提升效率，才能实现 “降本与增长的双赢”。</p><p data-pid=\"lqMTi1cY\">在企业经营中，成本（包括成本的识别、计量和控制）是研究最透（但愿不是过度研究）的一个领域。在这方“田地”耕耘的人最多，最勤勉，装备也最齐全，其中不乏会计师、工业工程师、方法分析师、运营研究人员之类的专业人员。</p><p data-pid=\"evdn0xBN\">大多数企业的年度“降本运动”总会像春季的伤风感冒一样如期而至，人们似乎还有些乐此不疲。但往往6个月过后，成本又恢复到了原有水平，企业又开始为下一轮“降本运动”做准备。</p><p data-pid=\"xOij_ozL\"><b>总而言之，集中资源去获取成果才是最佳且最有效的成本控制方法。毕竟，成本本身是不存在的，它是为获取成果而发生的，至少意欲如此</b>。因此，重要的不是成本的绝对水平，而是投入与成果之比。无论一项投入多么低廉或多么高效，只要没有成果，那就都不能算是成本，而是浪费。如果迟迟未见成果，那么这项投入从一开始就是白白浪费。</p><p data-pid=\"way8KY6z\"><b>因此，争取机会最大化才是提高投入与成果之比的主要途径，也才能控制和降低成本。</b>机会最大化必须摆在首要位置，其他成本控制措施只是补充而已，并非主导。降本增效：什么是人力成本？</p><p data-pid=\"iMiDaE47\">然而，即使企业能够有条不紊地将工夫和资源投向机会与成果，它也需要成本分析和成本控制</p><p data-pid=\"TBjPJVNX\"><b>一、组织常见的几种改善的方式</b></p><p data-pid=\"o3OpPPMC\">彼得・德鲁克曾言：“管理的本质，是激发善意与效能。” 降本增效作为企业经营的永恒命题，本质是通过资源优化配置实现价值最大化，而非简单的成本削减。<b>然而现实中，许多企业将其异化为 “砍预算、裁人员、降标准” 的粗放操作，陷入 “越降越亏、越效越低” 的恶性循环。据精益管理协会调研，70% 的企业降本增效失败源于认知偏差与执行误区，真正的成功者往往懂得在成本、效率、价值三者间寻找动态平衡。</b></p><p data-pid=\"778vfZv1\"><b>1、企业常见的错误</b></p><p data-pid=\"8Mc7pVKm\"><b>组织要采取自我控制的管理方式，就必须彻底反省我们运用报告、程序和表格的方式。</b>报告和程序都是管理上的必需工具，但是我们也很少看到任何工具会如此轻易地被误用，而且造成这么大的伤害。因为当报告和程序被误用时，就不再是管理工具，而成了邪恶的统治手段。</p><p data-pid=\"vUU9kkxA\"><b>第一，一般人普遍相信程序是道德规范的工具，其实不然。</b>企业制定<b>程序</b>时，根据的完全是<b>经济法则</b>，程序绝对不会规定应该做什么，只会规定怎么做能最快速完成。我们永远也不可能靠制定程序来规范行为；相反，正确行为也绝不可能靠程序来建立。</p><p data-pid=\"lmHWHLTW\"><b>第二个误用方式是以为程序可以取代判断。</b>事实上，只有在不需要判断的地方，程序才能发挥效用，也就是说，<b>只有在早已经过判断和检验的重复性作业上，程序才派得上用场</b>。西方文明十分迷信制式表格的神奇效用，而当我们试图用程序来规范例外状况时，就是这种迷信危害最严重的时候。事实上，能否在看似例行的程序中，迅速分辨出目前的状况并不适用于标准程序，而需要特别处理，需要根据判断来做决定，才是检验良好程序的有效方法。</p><p data-pid=\"T6iy_Fu5\">但是<b>，最常见的误用方式是把报告和程序当作上级控制下属的工具，尤其是纯为提供信息给高级主管而交的每天例行报告更是如此。</b>常见的情况是，工厂主管每天必须填20张表格，提供会计师、工程师或总公司的幕僚人员连他自己都不需要的信息。可能还有几千个类似的例子。</p><p data-pid=\"r06TUJDU\">结果，管理者没有办法把注意力集中在自己的工作上，在他眼中，公司为了达到控制目的而要求他做的种种事情，反映了公司对他的要求，成为他工作中最重要的部分；尽管心里愤愤不平，但是他只好把力气花在处理报表上，而不是专注于自己的工作。最后，甚至连他的上司都为这些程序所误导。</p><p data-pid=\"Ai2yyeJO\">几年前，有一家大型保险公司推动了一项“经营改善”大计划，并且还为此特地建立了强有力的中央组织，专门处理有关续约率、理赔、销售成本、销售方式等事宜。这个组织表现卓越，高层对于保险公司的经营学到了宝贵的经验。但从那时候开始，这家公司的实际经营绩效就一路下滑。</p><p data-pid=\"9HrLWYVe\">因为专业管理者必须花越来越多的时间写报告，越来越没有时间把工作做好。更糟糕的是，他们很快就知道<b>“漂亮的报告”比实际绩效还重要</b>，因此不只绩效一落千丈，内部风气更是日益败坏。专业管理者开始视公司高层和他们身边的幕僚为必须智取的敌人，不是阳奉阴违，就是敬而远之。</p><p data-pid=\"dVnBsiME\">类似的故事简直不胜枚举，几乎在每个产业、在大大小小的公司里，都可以看到同样的故事上演。就某个程度而言，这种情况可说是<b>错误的“幕僚”观念</b>所造成的。但是，<b>最重要的仍然是误把程序当成控制工具所带来的后果</b>。</p><p data-pid=\"o74U3tfv\"><b>企业应该把报告和程序保持在最低限度，只有当报告和程序能节省时间和人力时，才运用这项工具，并且应该尽可能简化。华为的经验告诉你：组织如何构筑供应链的成本优势？</b></p><p data-pid=\"BJ9dKxGe\">有一家大公司的总裁说了这样一个亲身经历的故事。15年前，他在洛杉矶为公司买了一座小工厂。工厂每年有25万美元的利润，他也以这样的获利状况为基础来开价购买。当他和原来的工厂老板（他留下来担任厂长）一起巡视工厂时，他问：“你们当初都是怎么决定价格的？”这位前老板回答：“很简单，我们每1000个单位要比你们便宜0.1美元。”他又问道：“那么，你们怎么控制成本呢？”他回答：“很简单，我们知道总共花了多少成本在原料和人工上，也知道应该有多大的产量才能赚回我们花出去的钱。”他最后问道：“那么，你们如何控制管理费用呢？”“我们不操心这个问题。”</p><p data-pid=\"KqJuF-zK\">这位总裁想，嗯，只要引进我们的制度，实施彻底的全面控制，肯定能为工厂省下很多钱。但是一年后，这座工厂的利润下滑为125000美元；尽管销售量不变，价格也相同，但是复杂的报表程序却吃掉了一半的利润。</p><p data-pid=\"1_JrP1S0\"><b>每一家企业都应该定期检视是否真的需要那么多报告和程序，至少应该每5年检讨公司内部表格一次。</b>我有一次不得不建议一家公司采取激烈的手段来进行内部整顿，因为他们的报表就像亚马孙流域的热带雨林一样茂盛，已经深深危及这家老公司的生存。我建议他们暂停所有的报告两个月，等到过了两个月不看报告的日子以后，管理者仍然要求使用的报告才可以恢复使用。如此一来，居然淘汰了3/4的报告和表格。</p><p data-pid=\"sFK7K-ZH\"><b>企业应该只采用达到关键领域的绩效所必需的报告和程序。意图“控制”每件事情，就等于控制不了任何事情。而试图控制不相干的事情，总是会误导方向。</b></p><p data-pid=\"Ox5GkpPQ\">最后输出<b>报告和程序应该是填表者的工具，而不能用来衡量他们的绩效</b>。管理者绝对不可根据部属填写报表的品质来评估他的绩效，除非这位部属刚好是负责这些表格的职员。而要确保管理者不会犯下这个错误，唯一的办法就是除非报表和工作绩效密切相关，否则不要随便要求下属填任何表格，交任何报告。</p><p data-pid=\"JrYstO00\"><b>2、降本的目标设定</b></p><p data-pid=\"wooFZSVP\">关于降本目标的设定，建议从行业价值链、公司价值链、运营作业链三个层面发掘成本节约的机会。</p><p data-pid=\"mMsDjoLg\">通过采购支出数据分析，找到降本关键品类、降本关键物料和影响成本的关键成本构成点，采用原材料市场波动预测、采购量的变化、历史价格趋势、成本构成分析等方法，确定物料层级的降本目标，然后进行汇总，从而得出供应商降本目标和总体降本目标。</p><p data-pid=\"hOkeXvHj\">有了目标，然后制定降本计划，确定责任人和每项工作的开始及完成时间，并且注重降本过程的跟进，并根据原材料市场波动、行业发展变化，通过一定时期内加权分析，进行降本目标的修正。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b3ae21928f22f1b2950363d26729bf0c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1594\" data-rawheight=\"894\" data-original-token=\"v2-65c28ef61fad7173a5bf2497a1210cb4\" class=\"origin_image zh-lightbox-thumb\" width=\"1594\" data-original=\"https://pic3.zhimg.com/v2-b3ae21928f22f1b2950363d26729bf0c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"RXWOPk5E\"><b>二、牛人马斯克的降本措施</b></p><p data-pid=\"Z1FetePd\"><b>先看一个“降本增效”的最经典案例，可以说是前无古人，那就钢铁侠-埃隆马斯克和推特的故事。</b></p><p data-pid=\"vLEDe_gK\">最后最重要的一点，是成本大幅度降低。之前推特使用的是AWS服务，也就是“云计算”，马斯克收购推特后开始实行下云（CloudExit）措施，转而在本地配置数据中心，重新配置服务器，使X平台每月的云成本足足降低了60%。</p><p data-pid=\"vsAKyDmJ\">虽然数据都是来自X工程团队的自述，也就是“自卖自夸”，但仅凭马斯克收购推特后其中一项降本措施：员工数量从8000人缩减到1500人，裁员比例高达81.25%！再看看措施后的效果：月活用户数从2022年的3.68亿增长至2024年5月的6亿，增长了63%！</p><p data-pid=\"NsYzdQJy\"><b>马斯克对推特进行改组的关键动作：</b></p><ul><li data-pid=\"x5dp8eN0\"><b>摸清核心事务并进行量化（人工效能），根据目标任务分解核算所需人数：</b>他让亲信根据工程师的代码量来评判其是否合格，以此为依据进行能力判定和标准制定，前后共进行五轮裁员，从高管、正式工、合同工、不能硬核员工、半年后再次审查的方式，最终筛选出硬核员工，原公司20%不到的精英！</li><li><br/></li><li data-pid=\"vQw2iSIP\"><b>成本压缩：</b>优化云服务使用、退租办公室，将更多工作负载迁往本地基础设施，使Twitter的云数据存储量降低了60%，云数据处理成本降低了75%，月度云成本降低了60%。此外，一次意外发现，发现了“幽灵员工”，通过清查“幽灵员工”及削减冗余软件许可费等措施节省了开支。</li><li><br/></li><li data-pid=\"wF2BXiO7\"><b>技术架构优化：</b>亲自领导团队对Twitter的技术架构进行了全面优化。完全重建“For You”服务和排名系统，将代码行数从70万行缩减至7万行，精简比例高达90%，计算占用量降低50%，帖子吞吐量增长了80%。同时，重构技术堆栈的API中间件层，删除超10万行代码和数千个未使用的内部端点，使全局API超时错误减少了90%，元数据获取延迟降低了50%。</li></ul><p data-pid=\"eAhmFd43\"><b>下面分别从员工、经营者的角度分析一下：</b></p><p data-pid=\"_xYx2lAD\"><b>首先，作为员工从自身入手</b></p><p data-pid=\"6yMfGeV_\"><b>①站位高一点。</b>从马斯克改组推特案例，可以看出，如不能有与公司共存亡的心态和站位，老板会干死你的，迟早的事。</p><p data-pid=\"fiz0Kx85\"><b>②专注、持续提高，掌握核心竞争力。</b>对待工作，要一丝不苟，像做自己的事一样处理，解决问题，专注，才会持续提高，能力的提高，才是避免被裁员的最高护城河，或者即使被裁员，只要掌握核心竞争力，才有此处不留爷，必有留爷处的自信。</p><p data-pid=\"wXoiY8J4\"><b>③结果和价值导向。</b>遇到问题，以总体利益最大化，损失最小化为出发点，从经营者的角度，以关系自己利益的切入点去考虑问题，以团队效益为先。企业盈利了对每一个员工都是有利的，大河水涨小河满嘛。</p><p data-pid=\"htxLZPGX\"><b>其次，从经营者的角度，意识到“人是第一生产力”，只要“以人为本”，就不会出现如下问题：</b></p><ul><li data-pid=\"aTr7Suns\">“一刀切” 式降本：盲目削减研发、培训、客户服务等 “有效成本”，导致产品竞争力下降、人才流失、客户满意度降低。</li><li><br/></li><li data-pid=\"lz_s8lKS\">忽视员工体验：单纯通过裁员、降薪降本，导致员工积极性受挫、离职率上升，反而增加招聘和培训的隐性成本。</li><li><br/></li><li data-pid=\"rpZphuFT\">技术投入盲目化：为 “数字化” 而数字化，引入不匹配企业需求的昂贵系统，却未配套流程和人员能力提升，导致技术无法落地，沦为 “沉没成本”。</li></ul><p data-pid=\"mZA2Wr6z\"><b>相反，越是在困难时期，越要和员工一起，调动他们的积极性，给他们信心，同心协力，努力增值，共克时艰！</b></p><p data-pid=\"xkmhYlbi\"><b>马斯克的降本哲学，从不是“压价”或“削减”，而是通过领导层的直接参与，把成本控制提升为企业战略核心。</b></p><ul><li data-pid=\"Tid4_ZUM\"><b>CEO亲自带队：打破层级壁垒，</b>他直接接管推进器部门，主持设计评审会议，任何不符合成本目标的方案，当场否决。</li><li data-pid=\"XR4jnGIC\"><b>建立“成本—权力”联动机制：</b>SpaceX的晋升考核体系中，成本改进与技术创新并列，降本成果成为工程师最重要的“战绩”。</li><li data-pid=\"egiSH987\"><b>不切实际的目标——锚定效应：</b>马斯克提出“一年降90%”，并非盲目冒进。他深知，在极高目标的锚定下，团队会逼迫自己打破路径依赖，重新定义“可行性”。心理学称之为<b>锚定效应</b>：</li></ul><p data-pid=\"FfKPMYxv\"><b>当你设定一个“看似不可能”的目标，人的思维会被迫延展至原本不会探索的维度。“如果你设定降本10%，最后可能只做到5%；但如果设定90%，即使只完成70%，也是成功。”这就是马斯克式管理的精髓：用极限目标驱动结构性突破。</b></p><p data-pid=\"Nayyw4_y\">成功的 “降本增效” 是企业<b>战略层面</b>的全面统筹，是系统工程。需要结合 “组织架构、技术工具、流程优化、员工能力” 多维度推进，核心是 “让每一分钱都花在‘能产生价值’的地方，让每一份资源都能产出‘更高价值’”。它不是 “一次性运动”，而是企业长期运营的 “核心能力”。</p><p data-pid=\"eaCKlE4k\">越是市场竞争激烈，“降本增效” 能力越强的企业，越能占据优势。</p><p data-pid=\"8sp640ZG\"><b>三、总结</b></p><p data-pid=\"zWwkTKtG\"><b>针对浪费。</b>浪费是不怎么需要分析的。哪项成本产生不了成果，一般都是明摆着的，至于我们能否加以改善，则另当别论。但是浪费往往很难被发现，无所事事的成本很容易被埋没在财务数字里。</p><p data-pid=\"CimcpNyE\">发现浪费现象的最佳方法是去寻找它，切记要问“我们在哪些地方为无所事事和毫无成果的活动花费了时间，资金和人力。对于那些造成浪费的活动”，唯一明智的做法就是丢弃他们。</p><p data-pid=\"2uWfS2TU\">但是很多制造浪费的活动是很难摆脱的，有时企业必须大动干戈，重新规划整个业务才能做到更多时候，他要求企业在操作惯例，设备和规章制度上做出彻彻底底的改变。然而这些工作完全超出了惯常的成本控制和成本削减方法的范畴。</p><p data-pid=\"wgp7RRYn\">做这些工作需要企业付出长期艰巨的努力，事实上，许多令企业付出最昂贵代价的浪费现象往往存在于企业的各种禁区中，而正是巨大的发展潜力所在，企业应该将其转化为机遇。<b>大多数削减成本的举措连浪费现象的标都没出到，更不用说全面削减成本了，然而在每一家企业中，浪费都是一个名副其实的成本要素。</b></p><p data-pid=\"mJOF3ISO\"><b>成本管理与成果区域管理和资源管理一样，也应采用系统性的有组织的方法，我们应该解决什么问题，从何处入手？想达到什么目标，再对成本加以分析后，这些问题的答案自然会浮现出来，他们应该成为我们所了解的企业全貌的一部分，并成为使企业充分发挥成效的综合计划的一部分。</b></p><p data-pid=\"7MP1RvMw\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/mp/appmsgalbum%3Faction%3Dgetalbum%26__biz%3DMzU5MTk1NjI4Mg%3D%3D%26scene%3D1%26album_id%3D2705035997826514949%26count%3D3%26sessionid%3D-218461628%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我们长期专注世界级一流企业的科学管理方法论！目前拥有30余位来自原华为、IBM、阿里、字节跳动等全球头部企业的实战管理咨询专家，平均拥有15年以上的一流企业工作经验，构建出15大系列模块课题，向一流企业学经营管理系列研修班，从流程变革、战略、营销MTL、LTC、IPD研发、供应链战略直达绩效、人岗匹配的任职资格、项目管理、干部管理与人才梯队、组织绩效与激励、财经管理等，围绕组织业务增长为主线，课程内容系统、接地气。另根据企业需求定制化训战赋能与深度咨询，长期陪跑服务，业绩对赌协议等，构建以业务为驱动的端到端管理体系，打造企业在极具竞争力的商业环境中去实现完美的人效管理。</a></p>",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-65c28ef61fad7173a5bf2497a1210cb4_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "id": "1994011026568537324",
+        "type": "answer",
+        "author": {
+          "name": "华新学社",
+          "avatar_url": "https://picx.zhimg.com/50/v2-7221bcbcc31e1684d825dccc777242dd_l.jpg?source=b6762063",
+          "followers_count": 874,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/065b51d01a924ab1549f1b04ab817952",
+          "user_type": "people",
+          "url_token": "jian-jie-chuan-mei",
+          "gender": 1,
+          "is_following": false,
+          "id": "065b51d01a924ab1549f1b04ab817952",
+          "headline": "专注对标华为学管理系列研修班，训战，咨询陪跑！",
+          "is_org": false
+        },
+        "favorite_count": 21,
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "thanks_count": 0,
+        "comment_count": 0,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-65c28ef61fad7173a5bf2497a1210cb4_720w.jpg?source=b6762063",
+        "visited_count": 1244,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994011026568537324}",
+      "attached_info": "CsYGCPCujOWavrnV1QEQBBoJNzY1MDU4MzcyINvakcsGKAowAEA/Si4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9WgkxMTI5NzM1MjFiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk0MDExMDI2NTY4NTM3MzI0igEKOTk4NzIyMDYxMaoBCXJlY29tbWVuZMIBIDA2NWI1MWQwMWE5MjRhYjE1NDlmMWIwNGFiODE3OTUy8gEKCAwSBk5vcm1hbPIBKAgKEiQwNTE0YTc0Yi05ZWVlLTRiNzktYjczYi04ZjdjYzc2NzQyZTnyAQYICxICMTGCAgCIAp+E/em8M5ICIDA2NWI1MWQwMWE5MjRhYjE1NDlmMWIwNGFiODE3OTUymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIZVFNfU09VUkNFX0ZFRURSRV9NU19IUV9WM+gCA/oCC05PUk1BTF9GTE9XigMgZjQzYjQxNWJhZmZmNDUzYjgwYzcyNjZiN2U1ZmRmMzWaAw0KAnYyEAAaBW90aGVyqAPcCdgDAOoDGWZlZWRyZV9tc19nYXRlX3YzX29ubHlfaHH6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxC6DBj+BiIjdjItNjVjMjhlZjYxZmFkNzE3M2E1YmYyNDk3YTEyMTBjYjSABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGAA1JM/gQUAAAAAAAAAAIkF96WcSDPrsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFC5AGAKAGP6gGAJICLgoJNzY1MDU4MzcyEhMxOTk0MDExMDI2NTY4NTM3MzI0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "64_1768675033.79",
+      "type": "feed",
+      "offset": 64,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675033,
+      "updated_time": 1768675033,
+      "target": {
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "visited_count": 26,
+        "is_navigator": false,
+        "voteup_count": 0,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995821862349980061",
+        "question": {
+          "url": "https://api.zhihu.com/questions/19604606",
+          "bound_topic_ids": [
+            1365,
+            20864
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "type": "question",
+          "follower_count": 0,
+          "answer_count": 0,
+          "title": "SEO 前途在哪里？",
+          "comment_count": 11,
+          "author": {
+            "is_followed": false,
+            "id": "ca40adb091fba092a3ce33c0b91b790f",
+            "url": "https://api.zhihu.com/people/ca40adb091fba092a3ce33c0b91b790f",
+            "name": "Lauren Pan",
+            "avatar_url": "https://pica.zhimg.com/50/6ca52efd0_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 121,
+            "user_type": "people",
+            "url_token": "lauren-pan",
+            "headline": "热爱互联网的NGO信徒",
+            "is_org": false,
+            "is_following": false
+          },
+          "created": 1303204768,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "id": "19604606"
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "favorite_count": 5,
+        "answer_type": "normal",
+        "id": "1995821862349980061",
+        "allow_segment_interaction": true,
+        "updated_time": 1768621012,
+        "excerpt": "*这是免费YouTube教程 的第二章第3节内容*一个好的频道简介，不只是介绍你是谁，更是告诉YouTube： “我是谁？我做什么？要把我的视频推荐给谁？” 想要和麦克一起交流？欢迎加入YouTube出海视频交流圈 一、频道简介的重要性在观众的眼里，YouTube频道简介 可能位于2个不同的位置：1是频道首页的“关于”栏里面，2是头像右侧点击“更多”，就能看到你的频道介绍区域。 它的作用有三个： 1、向观众介绍频道价值 观众第一次点进你的…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "created_time": 1768621012,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "excerpt_new": "*这是免费YouTube教程 的第二章第3节内容*一个好的频道简介，不只是介绍你是谁，更是告诉YouTube： “我是谁？我做什么？要把我的视频推荐给谁？” 想要和麦克一起交流？欢迎加入YouTube出海视频交流圈 一、频道简介的重要性在观众的眼里，YouTube频道简介 可能位于2个不同的位置：1是频道首页的“关于”栏里面，2是头像右侧点击“更多”，就能看到你的频道介绍区域。 它的作用有三个： 1、向观众介绍频道价值 观众第一次点进你的…",
+        "content": "<p data-pid=\"vPU8jDiT\"><i>*这是<a href=\"https://link.zhihu.com/?target=https%3A//www.waimaomike.com/youtube-system-free.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">免费YouTube教程</a>的第二章第3节内容*</i></p><p data-pid=\"kp6zVn17\">一个好的频道简介，不只是介绍你是谁，更是告诉YouTube：</p><p data-pid=\"VHxpYJd9\">“我是谁？我做什么？要把我的视频推荐给谁？”</p><p data-pid=\"-hEkSX-t\"><b>想要和麦克一起交流？</b></p><a href=\"https://link.zhihu.com/?target=https%3A//www.waimaomike.com/youtube-quanzi.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"欢迎加入YouTube出海视频交流圈\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">欢迎加入YouTube出海视频交流圈</a><h2><b>一、频道简介的重要性</b></h2><p data-pid=\"ITcoONB_\">在观众的眼里，YouTube频道简介<b>可能位于2个不同的位置</b>：</p><p data-pid=\"_M_yiJjt\">1是频道首页的“关于”栏里面，2是头像右侧点击“更多”，就能看到你的频道介绍区域。</p><p data-pid=\"c7dpb6g_\">它的作用有三个：</p><p data-pid=\"zIhYstdA\">1、向观众介绍频道价值</p><p data-pid=\"bJOQ_U4v\">观众第一次点进你的主页，会从这里判断：“这个频道是不是我想要的？”</p><p data-pid=\"eiLWmqi5\">2、帮助算法识别频道主题</p><p data-pid=\"uRGBahw5\">YouTube系统通过简介里的关键词，判断你频道的类别和推荐方向。</p><p data-pid=\"_BVINpzQ\">3、提升搜索可见度</p><p data-pid=\"gM5jPNQd\">观众在搜索栏输入“减脂 Vlog”或“AI副业”，如果你的简介里有这些关键词，就更容易被系统收录。</p><p data-pid=\"7yAEUhNR\"><b>对于YouTube博主来说，要在这里编辑“频道简介”：</b></p><p data-pid=\"pjKiEkP3\">访问YouTube工作室，点击左侧的 自定义 - 个人资料，下拉到“说明”区域。</p><h2><b>二、频道简介的基本结构（三段式写法）</b></h2><p data-pid=\"Xl8--HHL\">你可以把简介想成一份“频道推介稿”，一份清晰的简介，通常包含三部分：</p><p data-pid=\"6oE9fD4A\">第一段：一句话说明你是谁、做什么</p><p data-pid=\"TuXu2qF-\">“本频道专注分享普通人如何从零开始做YouTube频道。”</p><p data-pid=\"D-75oiGg\">“我是一名独立创作者，记录健康减脂的真实生活与心路历程。”</p><p data-pid=\"eED-SdOx\">“分享AI副业、数字产品和个人成长的实战经验。”</p><p data-pid=\"X8cX0P7R\">目标：5秒让观众知道你是谁 + 为什么要看你的内容。</p><p data-pid=\"phVTdcre\">第二段：具体内容 + 更新频率</p><p data-pid=\"vuHeOfwn\">“这里有每周更新的实战教程、工具测评与操作指南，让你少走弯路，从零开始打造自己的频道与副业收入。”</p><p data-pid=\"5G36m8RT\">“每周我都会分享7天减脂Vlog，记录饮食、运动、心态调整，帮助想健康减重的你找到可持续的方式。”</p><p data-pid=\"1f3WpkXQ\">目标：清楚说明观众能获得什么价值。</p><p data-pid=\"Lt4JkE57\">第三段：行动引导 + 联系方式</p><p data-pid=\"ylcu4RqW\">“订阅频道，和我一起成长，合作与交流请联系：abc123@waimaomike.com”</p><p data-pid=\"La0hluOc\">目标：引导订阅 + 提供联系方式，增强专业感。</p><h2><b>三、频道简介写作模板（可直接套用）</b></h2><p data-pid=\"UF_vV7YJ\">模板1：教学类频道</p><p data-pid=\"DKvw0yOE\">本频道分享【主题关键词】的实战技巧，让【目标观众】也能轻松入门、掌握核心方法。</p><p data-pid=\"4pss5cC-\">每周更新【视频类型】，包含【3个关键词或主题】。</p><p data-pid=\"n9d6ut4E\">订阅我，让你的【目标结果】更快实现！</p><p data-pid=\"TEYoHyV8\">例子：</p><p data-pid=\"WHUUx4Dv\">本频道分享AI副业与数字产品变现技巧，帮助普通人掌握AI工具、实现网络被动收入。</p><p data-pid=\"6AkGfzjc\">每周更新实战教程与案例分析，订阅我，让你从零开始打造可持续副业！</p><p data-pid=\"hbD2gg9Q\">模板2：生活Vlog类频道</p><p data-pid=\"j85u8WZP\">这里记录我【身份/人生阶段】的真实生活，包括【内容主题1】、【主题2】、【主题3】。</p><p data-pid=\"Y_G5QJM7\">希望通过我的故事，给同样在路上的你一点力量。</p><p data-pid=\"_YuqdFOn\">每周更新【频率】，欢迎订阅！</p><p data-pid=\"mAhuVlua\">例子：</p><p data-pid=\"L2ATTiH7\">我是一名35岁的全职减肥博主，记录我的日常饮食、运动与情绪调整，分享真实的中年减脂生活。</p><p data-pid=\"OF6OFxVR\">每周更新7天Vlog，欢迎订阅，一起健康变瘦！</p><h2><b>四、关键词优化技巧（SEO重点）</b></h2><p data-pid=\"JWXn9HK-\">很多初学者在简介中“有真情实感”，没问题，但如果你想让频道更容易被算法识别、获得推荐，就必须埋入关键词。</p><p data-pid=\"82cLy4z8\">1、什么是关键词？</p><p data-pid=\"Gsl055NI\">关键词就是别人会在YouTube上输入的“搜索词”，例如：</p><p data-pid=\"TUv3WJkC\">做YouTube</p><p data-pid=\"d1AyzbDf\">减脂</p><p data-pid=\"SJ7sT7lY\">AI赚钱</p><p data-pid=\"WnUDMFbp\">跨境电商</p><p data-pid=\"vxDzGXWR\">这些词越自然地出现在你的简介中，算法越容易理解你的频道主题。</p><p data-pid=\"pIKx6ytP\">2、怎么找关键词？</p><p data-pid=\"0bsggIfs\">方法一：直接在YouTube搜索框输入主题，看自动联想出的词。</p><p data-pid=\"OujSqDpt\">例如输入 “AI副业”，系统会自动出现：</p><p data-pid=\"fRYVJ5wv\">“AI副业赚钱”、“AI副业项目”、“AI副业教程”</p><p data-pid=\"6h8_6sRy\">这些都是热门搜索关键词，系统已经帮你列出来了。</p><p data-pid=\"UmN9iL_5\">方法二：用关键词工具</p><p data-pid=\"7pyTCFGL\">vidIQ</p><p data-pid=\"48NKklQE\">TubeBuddy</p><p data-pid=\"ACehNscY\">输入你的主题，就能看到搜索热度与竞争程度。</p><p data-pid=\"eRmM2zwW\">3、关键词布局方法</p><p data-pid=\"wZzP8bnh\">频道简介建议控制在 50–200字以内，关键词自然融入句子中即可。</p><p data-pid=\"-DlVXsy6\">举例（AI副业频道）：</p><p data-pid=\"_bfR6P5P\">本频道专注分享AI副业与数字产品变现的实战经验，</p><p data-pid=\"e-6PBRS_\">包括AI赚钱项目、ChatGPT副业、Notion模板制作等内容。</p><p data-pid=\"iZ2Dpogy\">帮助普通人用AI工具打造稳定的网络收入。</p><p data-pid=\"vOShHDEx\">每周更新AI教程与案例分析，欢迎订阅！</p><p data-pid=\"_c_j9sHi\">举例（减脂Vlog频道）：</p><p data-pid=\"oX2IP5eh\">我是一名35岁的全职减肥博主，</p><p data-pid=\"UnAcD2u2\">记录我的减脂Vlog、健康饮食和运动计划，</p><p data-pid=\"nOztQYmh\">分享真实可执行的中年减重经验。</p><p data-pid=\"oY6Vr1H6\">如果你也想轻松瘦下来，记得订阅频道！</p><h2><b>五、频道关键词设置（后台操作）</b></h2><p data-pid=\"dVctlRua\">除了简介文字外，YouTube后台也有“频道关键词”字段，帮助系统更精准推荐。</p><p data-pid=\"4RwOXN8Y\">设置方法：</p><p data-pid=\"0-3dq6hJ\">1、打开 YouTube工作室<br/>2、点击左下角 设置<br/>3、选择 频道 - 基本信息<br/>4、在 关键词 栏输入关键词，</p><p data-pid=\"wSs8Vv-T\">用<b>英文逗号</b>分隔，比如：</p><p data-pid=\"A2lx50XI\">YouTube教学, 初学者指南, AI副业, 数字产品, 在线赚钱, YouTube赚钱</p><p data-pid=\"257mrr5J\">下面是我YouTube频道的关键字设置：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f0a8c3f64b1b3c4a3a7ee0a2c99cf8dc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"931\" data-rawheight=\"486\" data-original-token=\"v2-f39e7f3229440e605424a506b94bea10\" class=\"origin_image zh-lightbox-thumb\" width=\"931\" data-original=\"https://pic1.zhimg.com/v2-f0a8c3f64b1b3c4a3a7ee0a2c99cf8dc_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4F-RoMHL\">提示：</p><p data-pid=\"2aNQRVzV\">每个关键词3–5个字最佳</p><p data-pid=\"n-PoAgxF\">不要乱堆砌，保持与频道内容相关</p><p data-pid=\"qYpYJNiy\">建议填写10–20个关键词（不是越多越好！）</p><h2><b>六、频道描述中的禁忌</b></h2><p data-pid=\"8duOyIIw\">过量使用广告词（比如“保证赚钱”、“100%成功”）</p><p data-pid=\"92gmd1J0\">塞满标签或#号（容易被系统视为垃圾信息）</p><p data-pid=\"e31NXf7e\">不相关内容（算法识别不到主题）</p><p data-pid=\"x-b9tZfP\">太长太散，没有重点</p><h2><b>七、小结与行动建议</b></h2><p data-pid=\"0X9Oa_4f\">用“三段式简介结构”写出清晰频道定位</p><p data-pid=\"HwtJEKkZ\">自然埋入关键词，提高推荐率</p><p data-pid=\"CFq_yju_\">在后台填写频道关键词字段</p><p data-pid=\"VFGA1Bgf\">定期检查和优化简介（每3–6个月更新一次）</p><p data-pid=\"RqT9eBC9\">你的频道简介，是YouTube算法了解你的“身份证”。</p><p data-pid=\"jQJuxSA0\"><b>写得清晰、聚焦，系统就更愿意把你的视频推荐给对的人。</b></p><p data-pid=\"GUf_eTuc\"><b>下一节内容：2.4 </b></p><a href=\"https://link.zhihu.com/?target=https%3A//www.waimaomike.com/youtube-system-2-4.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"YouTube 账号安全与权限设置\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">YouTube 账号安全与权限设置</a><p data-pid=\"4uYfXIdF\"><b>回到教程总目录：</b></p><a href=\"https://link.zhihu.com/?target=https%3A//www.waimaomike.com/youtube-system-free.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"免费YouTube新手教程从0到1做油管长视频\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">免费YouTube新手教程从0到1做油管长视频</a><p data-pid=\"eymPgmQZ\"><b>想要和麦克一起交流？</b></p><a href=\"https://link.zhihu.com/?target=https%3A//www.waimaomike.com/youtube-quanzi.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"欢迎加入YouTube出海视频交流圈\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">欢迎加入YouTube出海视频交流圈</a><p></p>",
+        "author": {
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/067eb040a93ee44e68497ef8a2a36b56",
+          "name": "外贸麦克",
+          "headline": "Shopify YouTube和联盟Affiliate干货",
+          "avatar_url": "https://pica.zhimg.com/50/v2-a970a7956a41c297ac0addc1efdba0fe_l.jpg?source=b6762063",
+          "is_org": false,
+          "id": "067eb040a93ee44e68497ef8a2a36b56",
+          "user_type": "people",
+          "url_token": "waimaomike",
+          "followers_count": 31575
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995821862349980061}",
+      "attached_info": "Co0GCPCujOWavrnV1QEQBBoJNzY1NzgyMDE3INSHrMsGKAAwAEBASiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBaBTIxODAzYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NTgyMTg2MjM0OTk4MDA2MYoBCDE5NjA0NjA2qgEJcmVjb21tZW5kwgEgMDY3ZWIwNDBhOTNlZTQ0ZTY4NDk3ZWY4YTJhMzZiNTbyAQoIDBIGTm9ybWFs8gEoCAoSJDEyODg5ZTA3LWI2OWYtNGU1Zi04NTE0LWI0NmMxMzIzZjkyN/IBBggLEgIxMYICAIgCn4T96bwzkgIgMDY3ZWIwNDBhOTNlZTQ0ZTY4NDk3ZWY4YTJhMzZiNTaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCAvoCC05PUk1BTF9GTE9XigMgZjQzYjQxNWJhZmZmNDUzYjgwYzcyNjZiN2U1ZmRmMzWaAw0KAnYyEAAaBW90aGVyqAMa2AMA6gMgd2FybXVwVHdvVG93ZXJUZXh0Tm9ybWFsUmVjYWxsZXL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCjBxjmAyIjdjItZjM5ZTdmMzIyOTQ0MGU2MDU0MjRhNTA2Yjk0YmVhMTCABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAACAJ1Hc/gQUAAAAAAAAAAIkF96WcSDPrsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFC5AGAKAGQKgGAZICLgoJNzY1NzgyMDE3EhMxOTk1ODIxODYyMzQ5OTgwMDYxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "65_1768675033.494",
+      "type": "feed",
+      "offset": 65,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675033,
+      "updated_time": 1768675033,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1995712133388857398",
+        "is_copyable": true,
+        "preview_type": "default",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "author": {
+          "id": "6b7a33897afa313ad552d1ffa934d4f3",
+          "name": "歪理战士",
+          "headline": "棋盘定乾坤，欧美吃大瘪！Win！",
+          "gender": -1,
+          "is_org": false,
+          "followers_count": 5396,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/6b7a33897afa313ad552d1ffa934d4f3",
+          "user_type": "people",
+          "url_token": "52-23-54-92",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d598a0e9eff04e4a1b4d1443237fe610_l.jpg?source=b6762063"
+        },
+        "created_time": 1768594851,
+        "question": {
+          "title": "如何最低成本的移民到欧洲？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "id": "39613363",
+          "type": "question",
+          "author": {
+            "user_type": "people",
+            "headline": "",
+            "is_org": false,
+            "avatar_url": "https://pic1.zhimg.com/50/6dbd0c7049fa9e27c462d994f58437af_l.jpg?source=b6762063",
+            "gender": 1,
+            "followers_count": 3,
+            "is_following": false,
+            "id": "9ab773a6b4fa6ebdac6286c676ce5dd0",
+            "url": "https://api.zhihu.com/people/9ab773a6b4fa6ebdac6286c676ce5dd0",
+            "url_token": "liu-jun-peng-72",
+            "name": "janiel",
+            "is_followed": false
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/39613363",
+          "created": 1453122168,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            7973
+          ]
+        },
+        "excerpt_new": "这个回答下多是国内中介想发家致富的，而我不一样，免费告诉你们低成本方法。 自己科学上网慢慢找欧洲雇主，能找到的话你基本只要签证费加机票钱就能过来。 找不到雇主收你怎么办？没关系，你直接找申根区内东欧国家本地的劳务中介，花个小几百欧元就能买一整套包括工作许可在内的工签必需文件，你签证过了后本地劳务还会帮你安排工作。工作一段时间后，拿到了居留卡，你要是不喜欢东欧，就可以找机会到西欧，有了申根区的居留卡…",
+        "reshipment_settings": "allowed",
+        "preview_text": "",
+        "content": "<p data-pid=\"DQ_pSel6\">这个回答下多是国内中介想发家致富的，而我不一样，免费告诉你们低成本方法。</p><p data-pid=\"1Uqk1E7I\">自己科学上网慢慢找欧洲雇主，能找到的话你基本只要签证费加机票钱就能过来。</p><p data-pid=\"eSpvVOEk\">找不到雇主收你怎么办？没关系，你直接找申根区内东欧国家本地的劳务中介，花个小几百欧元就能买一整套包括工作许可在内的工签必需文件，你签证过了后本地劳务还会帮你安排工作。工作一段时间后，拿到了居留卡，你要是不喜欢东欧，就可以找机会到西欧，有了申根区的居留卡，难度比你在国内直接去西欧低多了。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 2807,
+        "favorite_count": 153,
+        "is_labeled": false,
+        "answer_type": "normal",
+        "id": "1995712133388857398",
+        "updated_time": 1768597094,
+        "voteup_count": 102,
+        "thanks_count": 3,
+        "comment_count": 11,
+        "excerpt": "这个回答下多是国内中介想发家致富的，而我不一样，免费告诉你们低成本方法。 自己科学上网慢慢找欧洲雇主，能找到的话你基本只要签证费加机票钱就能过来。 找不到雇主收你怎么办？没关系，你直接找申根区内东欧国家本地的劳务中介，花个小几百欧元就能买一整套包括工作许可在内的工签必需文件，你签证过了后本地劳务还会帮你安排工作。工作一段时间后，拿到了居留卡，你要是不喜欢东欧，就可以找机会到西欧，有了申根区的居留卡…",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995712133388857398}",
+      "attached_info": "CoUGCPCujOWavrnV1QEQBBoJNzY1NzQ5NjMzIKO7qssGKGYwC0BBSkcKIlRTX1NPVVJDRV9TT0NJQUxfQUZGSU5JVFlfTkVBUkxJTkUSG25lYXJsaW5lQ29udGVudFYyOjI3MjEyNDg4OBgAIAA6AFoHODA1MjY3NGIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTU3MTIxMzMzODg4NTczOTiKAQgzOTYxMzM2M6oBCXJlY29tbWVuZMIBIDZiN2EzMzg5N2FmYTMxM2FkNTUyZDFmZmE5MzRkNGYz8gEKCAwSBk5vcm1hbPIBKAgKEiQyMGYwZDdlNy01N2ExLTRkZjEtODczZC1jNGViZmRmMjFiNmXyAQYICxICMTGCAgCIAp+E/em8M5ICIDZiN2EzMzg5N2FmYTMxM2FkNTUyZDFmZmE5MzRkNGYzmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIiVFNfU09VUkNFX1NPQ0lBTF9BRkZJTklUWV9ORUFSTElORegCAvoCC05PUk1BTF9GTE9XigMgZjQzYjQxNWJhZmZmNDUzYjgwYzcyNjZiN2U1ZmRmMzWaAw0KAnYyEAAaBW90aGVyqAP3FdgDAOoDFmFmZmluaXR5TmVhckxpbmVSZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADApLmJP4EFAAAAAAAAAACJBfelnEgz67M/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQuQBgCgBkGoBgCSAi4KCTc2NTc0OTYzMxITMTk5NTcxMjEzMzM4ODg1NzM5OBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=65&desktop=true&end_offset=65&page_number=12&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=65&desktop=true&end_offset=65&page_number=12&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

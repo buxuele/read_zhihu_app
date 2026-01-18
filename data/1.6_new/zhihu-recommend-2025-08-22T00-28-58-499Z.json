@@ -1,0 +1,559 @@
+{
+  "data": [
+    {
+      "id": "324_1755822584.268",
+      "type": "feed",
+      "offset": 324,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822584,
+      "updated_time": 1755822584,
+      "target": {
+        "id": "1917201278704006163",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1917201278704006163",
+        "author": {
+          "id": "0d94afdd3bb7bbe193d9d5c27b67916d",
+          "url": "https://api.zhihu.com/people/0d94afdd3bb7bbe193d9d5c27b67916d",
+          "user_type": "people",
+          "url_token": "icon-meh",
+          "name": "icon-meh",
+          "headline": "小厂程序员，PM，私信请说\"嗨，美女\"，别总问\"在吗，大哥\"",
+          "avatar_url": "https://pica.zhimg.com/50/v2-a1a09172c07903a6109151c1fb9e58d1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 3400,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1749876404,
+        "updated_time": 1749876404,
+        "voteup_count": 318,
+        "thanks_count": 23,
+        "comment_count": 116,
+        "is_copyable": true,
+        "question": {
+          "id": "1914971844215301715",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1914971844215301715",
+          "author": {
+            "id": "1795173c551624a53c3767e2367b1879",
+            "url": "https://api.zhihu.com/people/1795173c551624a53c3767e2367b1879",
+            "user_type": "people",
+            "url_token": "ark-2-16",
+            "name": "Sana",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-d5e7da90438c0060c69d209de61e01f5_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么java被部分开发者认为是低端技术？",
+          "created": 1749344866,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 8,
+          "bound_topic_ids": [
+            3646
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-a32288ffe0e59886057b721e82c3807d_720w.jpg?source=b6762063",
+        "excerpt": "Linus Torvalds，软件工程师， Linux 内核的创建者和首席开发人员，他还创建了分布式版本控制系统 Git。   I mean Java I really don't care about. What a horrible language. 我不在乎 JAVA，这门语言太烂了。...... William Kahan，数学家和计算机科学家，曾获图灵奖。   Java’s Floating Point Hurts Everyone, Everywhere. Java 的浮点运算无处不在地伤害着每个人。...... Steve Yegge，程序员，知名博主，一堆大厂背景。   Hell…",
+        "excerpt_new": "Linus Torvalds，软件工程师， Linux 内核的创建者和首席开发人员，他还创建了分布式版本控制系统 Git。   I mean Java I really don't care about. What a horrible language. 我不在乎 JAVA，这门语言太烂了。...... William Kahan，数学家和计算机科学家，曾获图灵奖。   Java’s Floating Point Hurts Everyone, Everywhere. Java 的浮点运算无处不在地伤害着每个人。...... Steve Yegge，程序员，知名博主，一堆大厂背景。   Hell…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"lZhHY529\">Linus Torvalds，软件工程师， Linux 内核的创建者和首席开发人员，他还创建了分布式版本控制系统 Git。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-31dd4c9b4e741d62a7267d5deb193847_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1050\" data-rawheight=\"814\" data-original-token=\"v2-82e689747de1b32ff0528b751742fadf\" data-default-watermark-src=\"https://pica.zhimg.com/v2-564cb6cb60afaeb63eb5d67854b54886_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1050\" data-original=\"https://pic2.zhimg.com/v2-31dd4c9b4e741d62a7267d5deb193847_r.jpg\"/></figure><blockquote data-pid=\"dFmd6jX6\">I mean Java I really don&#39;t care about. What a horrible language.<br/>我不在乎 JAVA，这门语言太烂了。</blockquote><p data-pid=\"NgOQuJ9S\">......</p><p data-pid=\"lSDcyzw_\">William Kahan，数学家和计算机科学家，曾获图灵奖。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a808d99c73122a86bb88a21af8152470_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1077\" data-rawheight=\"352\" data-original-token=\"v2-7b9ad5593b292758c0144023d53942c5\" data-default-watermark-src=\"https://pica.zhimg.com/v2-506e85119f2b0a325be36a1dbfee9416_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1077\" data-original=\"https://pic1.zhimg.com/v2-a808d99c73122a86bb88a21af8152470_r.jpg\"/></figure><blockquote data-pid=\"uOsbjwK1\">J<span class=\"nolink\">ava’s Floating Point Hurts Everyone, Everywhere</span>.<br/>Java 的浮点运算无处不在地伤害着每个人。</blockquote><p data-pid=\"o1WfBP6j\">......</p><p data-pid=\"qItARVFl\">Steve Yegge，程序员，知名博主，一堆大厂背景。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9e700ce81c72c5e22eecab9b36b2d2e1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"853\" data-rawheight=\"354\" data-original-token=\"v2-affef052e169a71ab259bb20468d5f83\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-12d0c6a6c8133c597cc64823e1e620b9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"853\" data-original=\"https://picx.zhimg.com/v2-9e700ce81c72c5e22eecab9b36b2d2e1_r.jpg\"/></figure><blockquote data-pid=\"EFQOZ_h1\">Hello, world! Today we&#39;re going to hear the story of Evil King Java......<br/>今天，我们将聆听 “邪恶之王 Java” 的故事......</blockquote><p data-pid=\"DCd5cnOl\">......</p><p data-pid=\"SWqbwnrm\">Joel Spolsky，软件工程师和作家，项目管理软件 Trello 的创造者。曾担任 Microsoft Excel 团队的项目经理，与 Jeff Atwood 合作推出了 Stack Overflow。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d13bd911d4a638c984a80e389a1fd5ec_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"625\" data-original-token=\"v2-ca97fa1fb8a55e6b8481ed320ebc04e5\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-6f52eee7bf9219c05f16fbc0a3f226d6_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://pic3.zhimg.com/v2-d13bd911d4a638c984a80e389a1fd5ec_r.jpg\"/></figure><blockquote data-pid=\"HftGtrkl\">...... Java is not...... a hard enough programming language that it can be used to discriminate between great programmers and mediocre programmers......<br/>Java 不是一门足够难的编程语言，以至于无法区分优秀程序员和平庸程序员......<br/>（你也可以这么理解，Java 太简单了，让人无法理解其背后的原理，这是罪！）</blockquote><p data-pid=\"WtiVx3jj\">......</p><p data-pid=\"XGTqx20L\">Alan Kay，计算机科学家，领导了 Smalltalk 的开发，创造了 “面向对象” 一词，拿过图灵奖。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-28589829410ad8e8f74d869207beceb4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"685\" data-rawheight=\"281\" data-original-token=\"v2-e467f4a95be700c81a94739047929daa\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-1631cbf3e30a8848cafa6a1ef2a54b79_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"685\" data-original=\"https://pica.zhimg.com/v2-28589829410ad8e8f74d869207beceb4_r.jpg\"/></figure><blockquote data-pid=\"i_-JOny6\">Java and C++ make you think that the new ideas are like the old ones. Java is the most distressing thing to hit computing since MS-DOS.<br/>Java 和 C++ 会让你觉得新的想法和旧的想法没什么两样。Java 是自 MS-DOS 以来计算机领域最令人沮丧的东西。</blockquote><p data-pid=\"WmSWvNMa\">......</p><p data-pid=\"y6dDMisR\">我再提供一个网站：<a href=\"https://link.zhihu.com/?target=https%3A//tech.jonathangardner.net/wiki/Why_Java_Sucks%23You.27re_an_idiot\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Why_Java_Sucks</a></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-70b9a96013118bdaaa15d7670a82d12a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1149\" data-rawheight=\"1034\" data-original-token=\"v2-dc08a7321176d5edae5390a3f8cfee15\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-d8e47736c57d425a043c297e7e2de093_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1149\" data-original=\"https://pica.zhimg.com/v2-70b9a96013118bdaaa15d7670a82d12a_r.jpg\"/></figure><p data-pid=\"CKzF7Tjy\">如此，论点、论据都有了，只需要挑个角度，然后开始自由论证吧！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-78ddd976e8868783a9ee5ae526a0eb66_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"597\" data-rawheight=\"321\" data-original-token=\"v2-9d0c6aba59351f1fcedeaaa8476f2a27\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-b5c5cdb2e76d3f4a5624f7957678f5e1_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"597\" data-original=\"https://pica.zhimg.com/v2-78ddd976e8868783a9ee5ae526a0eb66_r.jpg\"/></figure><p data-pid=\"qf7al4YZ\">365 天，天天都可以不重样儿！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 63077,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-a32288ffe0e59886057b721e82c3807d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e1765a796082da100b42a9a3c4ddae34_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 215,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1917201278704006163}",
+      "attached_info": "CrcICM/rnNu41Z+wvgEQBBoJNzMyMTU1ODU1ILT9s8IGKL4CMHRAxAJKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNTI4OTIxNmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MTcyMDEyNzg3MDQwMDYxNjOKARMxOTE0OTcxODQ0MjE1MzAxNzE1qgEJcmVjb21tZW5kwgEgMGQ5NGFmZGQzYmI3YmJlMTkzZDlkNWMyN2I2NzkxNmTyAQoIDBIGTm9ybWFs8gEoCAoSJDUzZWVhZjRhLTRhMjEtNDNiMi1hZjI5LTg2NTliYzc5Njg5NfIBBggLEgI1NYICAIgC7ua5+YwzkgIgMGQ5NGFmZGQzYmI3YmJlMTkzZDlkNWMyN2I2NzkxNmSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDIwN2ViMGFlZjljMzRhM2JiZGUzYzY3OTM1NzQxYTZkmgMNCgJ2MhAAGgVvdGhlcqgD5ewD2AMA+gPoAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEJoIGK4GIiN2Mi04MmU2ODk3NDdkZTFiMzJmZjA1MjhiNzUxNzQyZmFkZjotCAIQtQgY4AIiI3YyLTdiOWFkNTU5M2IyOTI3NThjMDE0NDAyM2Q1Mzk0MmM1Oi0IAhDVBhjiAiIjdjItYWZmZWYwNTJlMTY5YTcxYWIyNTliYjIwNDY4ZDVmODM6LQgCENoIGPEEIiN2Mi1jYTk3ZmExZmI4YTU1ZTZiODQ4MWVkMzIwZWJjMDRlNTotCAIQrQUYmQIiI3YyLWU0NjdmNGE5NWJlNzAwYzgxYTk0NzM5MDQ3OTI5ZGFhOi0IAhD9CBiKCCIjdjItZGMwOGE3MzIxMTc2ZDVlZGFlNTM5MGEzZjhjZmVlMTU6LQgDENUEGMECIiN2Mi05ZDBjNmFiYTU5MzUxZjFmY2VkZWFhYTg0NzZmMmEyN4AEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAClXL8/gQUAAAAAAAAAAIkFPIq4IUlV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFN5AGAKAGyAKoBgGSAi4KCTczMjE1NTg1NRITMTkxNzIwMTI3ODcwNDAwNjE2MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "325_1755822584.94",
+      "type": "feed",
+      "offset": 325,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822584,
+      "updated_time": 1755822584,
+      "target": {
+        "id": "1939370248991122167",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939370248991122167",
+        "author": {
+          "id": "6318aad0dca177029f7ef7f0cae69978",
+          "url": "https://api.zhihu.com/people/6318aad0dca177029f7ef7f0cae69978",
+          "user_type": "people",
+          "url_token": "fang-cun-mei-shi",
+          "name": "方寸",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 65,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755161899,
+        "updated_time": 1755161899,
+        "voteup_count": 6871,
+        "thanks_count": 107,
+        "comment_count": 297,
+        "is_copyable": true,
+        "question": {
+          "id": "590274596",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/590274596",
+          "author": {
+            "id": "60dec6d0e33f37950a2cbd5c79d06623",
+            "url": "https://api.zhihu.com/people/60dec6d0e33f37950a2cbd5c79d06623",
+            "user_type": "people",
+            "url_token": "91-16-20-8",
+            "name": "向前看",
+            "headline": "走在路上",
+            "avatar_url": "https://picx.zhimg.com/50/v2-b99405f4818dfa912f83c0790a2cd5d3_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "怎么知道女人动了真情?",
+          "created": 1679064835,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 64,
+          "bound_topic_ids": [
+            50529
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "如果你撩拨一个人妻，她含糊不清，没有明确的拒绝，那就基本是答应了。 如果你追一个女孩，她含糊不清，没有明确的答应，那就是拒绝了。",
+        "excerpt_new": "如果你撩拨一个人妻，她含糊不清，没有明确的拒绝，那就基本是答应了。 如果你追一个女孩，她含糊不清，没有明确的答应，那就是拒绝了。",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"htwhdng_\">如果你撩拨一个人妻，她含糊不清，没有明确的拒绝，那就基本是答应了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lpGH_i5T\">如果你追一个女孩，她含糊不清，没有明确的答应，那就是拒绝了。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 449277,
+        "favorite_count": 1543,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939370248991122167}",
+      "attached_info": "CpEHCM/rnNu41Z+wvgEQBBoJNzQyMTgxNjY1IKvK9sQGKNc1MKkCQMUCSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjISATAYACAAOgp7InJhdyI6IiJ9Sj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1KMAobVFNfU09VUkNFX0JBU0lDX0lORk9fUkVDQUxMEgEwGAAgADoKeyJyYXciOiIifVoIOTM0NTM2ODViIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTM5MzcwMjQ4OTkxMTIyMTY3igEJNTkwMjc0NTk2qgEJcmVjb21tZW5kwgEgNjMxOGFhZDBkY2ExNzcwMjlmN2VmN2YwY2FlNjk5NzjyAQoIDBIGTm9ybWFs8gEoCAoSJDA3OTYzN2JkLTM2YTEtNDgxYy1hYjc1LWNiN2ViNjMyYzkwNvIBBggLEgI1NYICAIgC7ua5+YwzkgIgNjMxOGFhZDBkY2ExNzcwMjlmN2VmN2YwY2FlNjk5NziaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhJDbGlwUGVha1dlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDIwN2ViMGFlZjljMzRhM2JiZGUzYzY3OTM1NzQxYTZkmgMNCgJ2MhAAGgVvdGhlcqgD/bUb2AMA6gMOZmVlZHJlX21zX2dhdGX6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE1N8gEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwFqwxT+BBQAAAAAAAAAAiQU8irghSVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AU3kAYAoAbJAqgGA5ICLgoJNzQyMTgxNjY1EhMxOTM5MzcwMjQ4OTkxMTIyMTY3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "326_1755822584.854",
+      "type": "feed",
+      "offset": 326,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822584,
+      "updated_time": 1755822584,
+      "target": {
+        "id": "1933552496820872357",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1933552496820872357",
+        "author": {
+          "id": "64d5bca5b00462e5e0b27d6f1e5cea7a",
+          "url": "https://api.zhihu.com/people/64d5bca5b00462e5e0b27d6f1e5cea7a",
+          "user_type": "people",
+          "url_token": "betty-la-la",
+          "name": "Betty 辣辣",
+          "headline": "飞行那些年，那些事儿，如果你有兴趣，听我慢慢说给你听",
+          "avatar_url": "https://picx.zhimg.com/50/v2-11334d03cb3184727cdd7799c7fb4c00_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 12734,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1753774838,
+        "updated_time": 1753775881,
+        "voteup_count": 1805,
+        "thanks_count": 25,
+        "comment_count": 210,
+        "is_copyable": true,
+        "question": {
+          "id": "599869056",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/599869056",
+          "author": {
+            "id": "b9840c983f4f7e7aedb10e6b0ad126fc",
+            "url": "https://api.zhihu.com/people/b9840c983f4f7e7aedb10e6b0ad126fc",
+            "user_type": "people",
+            "url_token": "qiu-sheng-23-64",
+            "name": "秋生",
+            "headline": "秋天见。",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-30fd59dc505e7275f2d955c2169a6195_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 277,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么一般人不建议住别墅?",
+          "created": 1683582953,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 74,
+          "bound_topic_ids": [
+            473,
+            3865,
+            63259
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-efab82a4e069d29673782bd217f236a3_720w.jpg?source=b6762063",
+        "excerpt": "我们小区业主群里新鲜出炉的聊天记录，发给大家看个热闹",
+        "excerpt_new": "我们小区业主群里新鲜出炉的聊天记录，发给大家看个热闹",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"3r3u3XCd\">我们小区业主群里新鲜出炉的聊天记录，发给大家看个热闹</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-81457b14958892dbbd0938d1166b8791_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"2532\" data-size=\"normal\" data-original-token=\"v2-841951830e13fa0646050e95be123c83\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-c34237134329c08c8ab3bc382eb0366d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://pic4.zhimg.com/v2-81457b14958892dbbd0938d1166b8791_r.jpg\"/></figure><p data-pid=\"QPqODhhW\"></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 775160,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-efab82a4e069d29673782bd217f236a3_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 159,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1933552496820872357}",
+      "attached_info": "CvgGCM/rnNu41Z+wvgEQBBoJNzM5NDQ0ODM2IPb1ocQGKI0OMNIBQMYCSkQKIFRTX1NPVVJDRV9TT0NJQUxfRk9MTE9XX05FQVJMSU5FEhpuZWFybGluZUNvbnRlbnRWMjo1NzA1MzgyNBgAIAA6AFoIOTU1ODQ3NDRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTMzNTUyNDk2ODIwODcyMzU3igEJNTk5ODY5MDU2qgEJcmVjb21tZW5kwgEgNjRkNWJjYTViMDA0NjJlNWUwYjI3ZDZmMWU1Y2VhN2HyAQoIDBIGTm9ybWFs8gEoCAoSJDgxZjg1ZjllLTE4NDktNDk1Mi04ZmNiLTcxY2VjOWQ3Njk5MvIBBggLEgI1NYICAIgC7+a5+YwzkgIgNjRkNWJjYTViMDA0NjJlNWUwYjI3ZDZmMWU1Y2VhN2GaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhJDbGlwUGVha1dlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCIFRTX1NPVVJDRV9TT0NJQUxfRk9MTE9XX05FQVJMSU5F6AIC+gILTk9STUFMX0ZMT1eKAyAyMDdlYjBhZWY5YzM0YTNiYmRlM2M2NzkzNTc0MWE2ZJoDDQoCdjIQABoFb3RoZXKoA/inL9gDAOoDFmZvbGxvd2VkTmVhckxpbmVSZWNhbGz6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCSCRjkEyIjdjItODQxOTUxODMwZTEzZmEwNjQ2MDUwZTk1YmUxMjNjODOABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAYafGP4EFAAAAAAAAAACJBTyKuCFJVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBTeQBgCgBsoCqAYAkgIuCgk3Mzk0NDQ4MzYSEzE5MzM1NTI0OTY4MjA4NzIzNTcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "327_1755822584.162",
+      "type": "feed",
+      "offset": 327,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822584,
+      "updated_time": 1755822584,
+      "target": {
+        "id": "1941030567572379117",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941030567572379117",
+        "author": {
+          "id": "66a3d2653cea6beb0823df16ab8a327c",
+          "url": "https://api.zhihu.com/people/66a3d2653cea6beb0823df16ab8a327c",
+          "user_type": "people",
+          "url_token": "jw60322",
+          "name": "核子可乐",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2163,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755557749,
+        "updated_time": 1755580394,
+        "voteup_count": 876,
+        "thanks_count": 43,
+        "comment_count": 45,
+        "is_copyable": true,
+        "question": {
+          "id": "1934353542279329688",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1934353542279329688",
+          "author": {
+            "id": "2bcb237ee67f1ae3b2b33503ef7628c9",
+            "url": "https://api.zhihu.com/people/2bcb237ee67f1ae3b2b33503ef7628c9",
+            "user_type": "people",
+            "url_token": "nancy-43-86",
+            "name": "Nancy",
+            "headline": "亲子情感，家庭关系，擅长写小说",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-2a581380ed96972761db16cd45835c38_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "老年人/残疾人养护行业 从业人员"
+              }
+            ],
+            "followers_count": 539,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何评价淘宝闪购这匹黑马？",
+          "created": 1753965823,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 4,
+          "bound_topic_ids": [
+            735,
+            3965258
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "任何混过大公司中下层，也就是带两三个员工的小manager职位的人都明白 公司里面最难的一件事，不是做好你自己的事 而是让大家一起做你想做的事 即使你是CEO也不例外 因为公司还有董事，还有其他O，O下面还有VP，VP下面还有D，D下面还有M，M下面还有虾兵蟹将 其中任何一个人不听使唤 你这件事情要么无限延期，要么漏洞百出 所以混公司最难的一件事情 就是为了做好一件事情，而需要精准平衡，妥善分配各种权力，利益，责任 ... 很…",
+        "excerpt_new": "任何混过大公司中下层，也就是带两三个员工的小manager职位的人都明白 公司里面最难的一件事，不是做好你自己的事 而是让大家一起做你想做的事 即使你是CEO也不例外 因为公司还有董事，还有其他O，O下面还有VP，VP下面还有D，D下面还有M，M下面还有虾兵蟹将 其中任何一个人不听使唤 你这件事情要么无限延期，要么漏洞百出 所以混公司最难的一件事情 就是为了做好一件事情，而需要精准平衡，妥善分配各种权力，利益，责任 ... 很…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"jrh28Zcn\">任何混过大公司中下层，也就是带两三个员工的小manager职位的人都明白</p><p data-pid=\"Y38k67SP\">公司里面最难的一件事，不是做好你自己的事</p><p data-pid=\"hUj9xps_\">而是让大家一起做你想做的事</p><p data-pid=\"lvhDNJJf\">即使你是CEO也不例外</p><p data-pid=\"Ih5rNFjP\">因为公司还有董事，还有其他O，O下面还有VP，VP下面还有D，D下面还有M，M下面还有虾兵蟹将</p><p data-pid=\"f_4wrf6w\">其中任何一个人不听使唤</p><p data-pid=\"qdwc-J8B\">你这件事情要么无限延期，要么漏洞百出</p><p data-pid=\"qZkgKtts\">所以混公司最难的一件事情</p><p data-pid=\"oHI6N4k_\">就是为了做好一件事情，而需要精准平衡，妥善分配各种权力，利益，责任 ... </p><p data-pid=\"8duEZb3L\">很多小白都在说蒋凡厉害，抓住这个风口那个风口</p><p data-pid=\"C8wQ4FK5\">你只要上过几天班就能知道，这个世界真的不缺聪明人</p><p data-pid=\"qdKTz7tp\">这种风口谁都能看到</p><p data-pid=\"kLsemwBJ\">真正厉害的是，在阿里这种用脚趾头都可以想到有着无数错综复杂的关系和利益网络的巨型公司里，我不知道他作为一个非创业元老，背后到底有多大的力量在支持他</p><p data-pid=\"Sr3pgqNq\">让他可以统一思想，排除异己，自上而下地，把这件事情做成，把这个风口抓住</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 100297,
+        "favorite_count": 226,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941030567572379117}",
+      "attached_info": "Cr4GCM/rnNu41Z+wvgEQBBoJNzQyODYxMjQwIPXejsUGKOwGMC1AxwJKMAobVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTEgEwGAAgADoKeyJyYXciOiIifUowChtUU19TT1VSQ0VfQkFTSUNfSU5GT19SRUNBTEwSATAYACAAOgp7InJhdyI6IiJ9WgkxMTYwMjYyOTFiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxMDMwNTY3NTcyMzc5MTE3igETMTkzNDM1MzU0MjI3OTMyOTY4OKoBCXJlY29tbWVuZMIBIDY2YTNkMjY1M2NlYTZiZWIwODIzZGYxNmFiOGEzMjdj8gEKCAwSBk5vcm1hbPIBKAgKEiRiNjA1YmIxOC04MjE1LTQzNzQtOTExMi0zNzRmNWY1MDUwZDXyAQYICxICNTWCAgCIAu/mufmMM5ICIDY2YTNkMjY1M2NlYTZiZWIwODIzZGYxNmFiOGEzMjdjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIbVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNT6AIC+gILTk9STUFMX0ZMT1eKAyAyMDdlYjBhZWY5YzM0YTNiYmRlM2M2NzkzNTc0MWE2ZJoDDQoCdjIQABoFb3RoZXKoA8mPBtgDAOoDFGZlZWRyZV90aW1lbGluZXNzX3Yy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEDaXbo/gQUAAAAAAAAAAIkFPIq4IUlV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFN5AGAKAGywKoBgCSAi4KCTc0Mjg2MTI0MBITMTk0MTAzMDU2NzU3MjM3OTExNxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "328_1755822584.485",
+      "type": "feed",
+      "offset": 328,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822584,
+      "updated_time": 1755822584,
+      "target": {
+        "id": "1941941758599599275",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941941758599599275",
+        "author": {
+          "id": "731be8694497f01325882e63e7e17900",
+          "url": "https://api.zhihu.com/people/731be8694497f01325882e63e7e17900",
+          "user_type": "people",
+          "url_token": "kimzhoushch",
+          "name": "慎公子",
+          "headline": "律师 桌游爱好者 跑团玩家 茶佬 球迷",
+          "avatar_url": "https://picx.zhimg.com/50/v2-524b7ca18f1de6a0214e0c59f9b437d4_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 232,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755774994,
+        "updated_time": 1755774994,
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "1941217886489253109",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1941217886489253109",
+          "author": {
+            "id": "bd1f6c52937940f47651c9a3dd14d43a",
+            "url": "https://api.zhihu.com/people/bd1f6c52937940f47651c9a3dd14d43a",
+            "user_type": "people",
+            "url_token": "alifujun",
+            "name": "Small蓝书",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-d7cb9273918e0c9cfce05743fe6a62b2_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 18,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "你很爱看但并不知名的一本书是什么？",
+          "created": 1755602410,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            1164,
+            33144
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "《非洲归来，不必远方》 一本我曾经一个很好的朋友送给我的书 作者文字功底非常好，有一种简单的流畅美。虽然我还是对非洲这片大陆有恐惧感，但能通过文字阅读别人眼中这块土地的美好，岂不就是读书的意义吗？",
+        "excerpt_new": "《非洲归来，不必远方》 一本我曾经一个很好的朋友送给我的书 作者文字功底非常好，有一种简单的流畅美。虽然我还是对非洲这片大陆有恐惧感，但能通过文字阅读别人眼中这块土地的美好，岂不就是读书的意义吗？",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"KGvAuwEV\">《非洲归来，不必远方》</p><p data-pid=\"JMoTYPHN\">一本我曾经一个很好的朋友送给我的书</p><p data-pid=\"H-IyxG7y\">作者文字功底非常好，有一种简单的流畅美。虽然我还是对非洲这片大陆有恐惧感，但能通过文字阅读别人眼中这块土地的美好，岂不就是读书的意义吗？</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 19,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941941758599599275}",
+      "attached_info": "Ct0FCM/rnNu41Z+wvgEQBBoJNzQzMzEwNzkxIJKAnMUGKAEwAEDIAkokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwyEgEwGAAgADoASiIKF1RTX1NPVVJDRV9XQVJNVVBfUlVDRU5FEgEwGAAgADoAWgkxMTYyNzEzNzViIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxOTQxNzU4NTk5NTk5Mjc1igETMTk0MTIxNzg4NjQ4OTI1MzEwOaoBCXJlY29tbWVuZMIBIDczMWJlODY5NDQ5N2YwMTMyNTg4MmU2M2U3ZTE3OTAw8gEKCAwSBk5vcm1hbPIBKAgKEiRhOWNjNWJjYi1kM2EwLTRmZTAtYmRiMi1kM2FmOGI1NmI1OTnyAQYICxICNTWCAgCIAu/mufmMM5ICIDczMWJlODY5NDQ5N2YwMTMyNTg4MmU2M2U3ZTE3OTAwmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgL6AgtOT1JNQUxfRkxPV4oDIDIwN2ViMGFlZjljMzRhM2JiZGUzYzY3OTM1NzQxYTZkmgMNCgJ2MhAAGgVvdGhlcqgDE9gDAOoDC3RleHRfcnVjZW5l+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAKvwhT+BBQAAAAAAAAAAiQU8irghSVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AU3kAYAoAbMAqgGAZICLgoJNzQzMzEwNzkxEhMxOTQxOTQxNzU4NTk5NTk5Mjc1GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "329_1755822584.460",
+      "type": "feed",
+      "offset": 329,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822584,
+      "updated_time": 1755822584,
+      "target": {
+        "id": "1941812618143700856",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941812618143700856",
+        "author": {
+          "id": "0a3d4c4750ebf4f0a509bf76aaad0a5c",
+          "url": "https://api.zhihu.com/people/0a3d4c4750ebf4f0a509bf76aaad0a5c",
+          "user_type": "people",
+          "url_token": "chuyunhuan",
+          "name": "我清水",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 492,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755744205,
+        "updated_time": 1755744205,
+        "voteup_count": 501,
+        "thanks_count": 15,
+        "comment_count": 122,
+        "is_copyable": true,
+        "question": {
+          "id": "1940135346391225659",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1940135346391225659",
+          "author": {
+            "id": "c5fa1bc88343a115f38019f58fa2162d",
+            "url": "https://api.zhihu.com/people/c5fa1bc88343a115f38019f58fa2162d",
+            "user_type": "people",
+            "url_token": "mc-34-57",
+            "name": "大师兄MC",
+            "headline": "心安则灵",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-25ac7c0d6225fc37e7f4419d75895b22_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么好多人支持乌克兰，乌克兰的输赢与我们有关系吗？",
+          "created": 1755344312,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            30738
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "有关系，乌克兰赢了，世界回归正轨，你的工资至少上涨百分之五十，还能保证你每周双休的权利，各种福利会慢慢增加。 罗刹赢了，世界不久以后，就会陷入战争，你在有生之年会亲身经历二战那样的战争，军费会翻几倍的涨，你的收入会下降，你的精神会高度紧张。 你应该感谢乌克兰没有在俄罗斯偷袭开战的一个月内投降，或者沦陷，不然你会在2022年的六七月份就开始经历战争了。那次有一个会议，很重要。 别听那些所谓的大旗论，那些…",
+        "excerpt_new": "有关系，乌克兰赢了，世界回归正轨，你的工资至少上涨百分之五十，还能保证你每周双休的权利，各种福利会慢慢增加。 罗刹赢了，世界不久以后，就会陷入战争，你在有生之年会亲身经历二战那样的战争，军费会翻几倍的涨，你的收入会下降，你的精神会高度紧张。 你应该感谢乌克兰没有在俄罗斯偷袭开战的一个月内投降，或者沦陷，不然你会在2022年的六七月份就开始经历战争了。那次有一个会议，很重要。 别听那些所谓的大旗论，那些…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"UG87HjUs\">有关系，乌克兰赢了，世界回归正轨，你的工资至少上涨百分之五十，还能保证你每周双休的权利，各种福利会慢慢增加。</p><p data-pid=\"X9rVnKcr\">罗刹赢了，世界不久以后，就会陷入战争，你在有生之年会亲身经历二战那样的战争，军费会翻几倍的涨，你的收入会下降，你的精神会高度紧张。</p><p data-pid=\"Sp_Adz5e\">你应该感谢乌克兰没有在俄罗斯偷袭开战的一个月内投降，或者沦陷，不然你会在2022年的六七月份就开始经历战争了。那次有一个会议，很重要。</p><p data-pid=\"xPB5ejMk\">别听那些所谓的大旗论，那些玩意，真的和你无关。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 21454,
+        "favorite_count": 54,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941812618143700856}",
+      "attached_info": "CugGCM/rnNu41Z+wvgEQBBoJNzQzMjI2MzM0IM2PmsUGKPUDMHpAyQJKMAobVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTEgEwGAAgADoKeyJyYXciOiIifVoJMTE2MjM0MzAxYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTgxMjYxODE0MzcwMDg1NooBEzE5NDAxMzUzNDYzOTEyMjU2NTmqAQlyZWNvbW1lbmTCASAwYTNkNGM0NzUwZWJmNGYwYTUwOWJmNzZhYWFkMGE1Y/IBCggMEgZOb3JtYWzyASgIChIkNTdhMGRmMDAtMzY3Ny00MWVkLWE5NjEtYzZjOWFiNDdiMGI18gEGCAsSAjU1ggIAiALv5rn5jDOSAiAwYTNkNGM0NzUwZWJmNGYwYTUwOWJmNzZhYWFkMGE1Y5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIWUmV2aXNpdFZhbHVlV2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFEhvdENvbnRlbnRXZWlnaHRSdWxl2gIbVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNT6AIC+gILTk9STUFMX0ZMT1eKAyAyMDdlYjBhZWY5YzM0YTNiYmRlM2M2NzkzNTc0MWE2ZJoDDQoCdjIQABoFb3RoZXKoA86nAdgDAOoDFGZlZWRyZV90aW1lbGluZXNzX3Yy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNTfIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMDIx7s/gQUAAAAAAAAAAIkFPIq4IUlV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFN4oGQgo3CPHmlAcSFeS5jOWFi+WFsOeUt+WtkOiiq+aNlRjl3pvFBiDShD0oADC9sLY3MNfauTc4+hpAABIHCAEVAACAP5AGAKAGzQKoBgCSAi4KCTc0MzIyNjMzNBITMTk0MTgxMjYxODE0MzcwMDg1NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=329&desktop=true&end_offset=333&page_number=56&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=329&desktop=true&end_offset=333&page_number=56&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

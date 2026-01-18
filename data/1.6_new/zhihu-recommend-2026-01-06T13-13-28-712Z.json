@@ -1,0 +1,652 @@
+{
+  "data": [
+    {
+      "id": "132_1767705266.147",
+      "type": "feed",
+      "offset": 132,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705266,
+      "updated_time": 1767705266,
+      "target": {
+        "is_labeled": false,
+        "is_navigator": false,
+        "question": {
+          "id": "632527702",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            3324,
+            27388,
+            39834
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "detail": "",
+          "type": "question",
+          "created": 1701263834,
+          "question_type": "normal",
+          "follower_count": 0,
+          "url": "https://api.zhihu.com/questions/632527702",
+          "author": {
+            "name": "行修",
+            "headline": "",
+            "followers_count": 1,
+            "is_followed": false,
+            "avatar_url": "https://pic1.zhimg.com/50/v2-5bbe1d73aa9fde5fecc29ba9cf725aff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "is_following": false,
+            "id": "676a3b969f0940b6d75cac40a80375fd",
+            "url": "https://api.zhihu.com/people/676a3b969f0940b6d75cac40a80375fd",
+            "user_type": "people",
+            "url_token": "94-26-45-4"
+          },
+          "title": "先问下有什么比较推荐的经济学入门书籍?",
+          "comment_count": 0,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "preview_type": "default",
+        "content": "<p data-pid=\"fGkmjEMG\">这两天，感觉挺无趣。</p><p data-pid=\"o4TqDxHH\">显卡在跑图的时候，我开始重温曼昆的《经济学原理》（这真是本好书，推荐！），最大的感触不是书里的图表多精美，而是觉得<b>经济学本质上是一门关于“系统优化”的学科</b>。</p><p data-pid=\"S9AED0zC\">如果把生活看作一个庞大的操作系统，曼昆开篇提到的前四大原理，我觉得这就是写在这个系统底层的四行核心代码。</p><p data-pid=\"jQ2MXJOW\">读懂了这四点，你不会突然发财，但我发现能修补很多日常决策中的 Bug。</p><p data-pid=\"SSVZhp1V\"><b>1. 关于权衡取舍 (Trade-offs)：算力是有限的</b></p><p data-pid=\"spOK8F0l\">很多人痛苦的根源在于“既要又要”。 在渲染中，你不可能同时要求极速的渲染时间和极致的画面精度。同理，生活也是一种资源配置。你想在大厂拿高薪，往往就要献祭自由和头发；你想安逸稳定，就得忍受薪资的平庸。 <b>经济学第一课：承认资源稀缺。</b> 不做选择本身也是一种选择，完美的方案不存在，存在的只有“取舍”。</p><p data-pid=\"ccoLgs2R\"><b>2. 关于机会成本 (Opportunity Cost)：平行的可能性</b></p><p data-pid=\"yEasQZHu\">这是很多人的思维盲区。 比如纠结是否辞职考研。大多数人只计算了“学费”和“生活费”。 但在经济学视角下，<b>成本 = 显性支出 + 你放弃的最大潜在收益</b>。 你读研这两年原本能赚到的工资、积累的行业经验、可能的晋升机会，统统都是你的成本。每一个选择背后，都有一个被你删掉的“平行宇宙”在支付代价。不算清这笔账，决策永远是亏的。</p><p data-pid=\"ZVoqLsSP\"><b>3. 关于边际量 (Marginal Thinking)：停止死循环</b></p><p data-pid=\"dmihBFze\">理性人通常是在“边际”上做决策的。 通俗点说：<b>只看当下这一步的投入产出比，不要因为之前的投入而甚至死磕。</b> 自助餐为了回本吃到胃痛、电影看了 20 分钟发现是烂片还要硬着头皮看完，这些都是典型的“非理性行为”。 在计算机里，如果一个进程卡死且占用过高，最优解是 Kill Process（强制结束）。在生活中也一样，一旦<b>边际成本 &gt; 边际收益</b>（多做一点的痛苦 &gt; 快乐），立刻止损，哪怕沉没成本再高。</p><p data-pid=\"Z6xQpIXU\"><b>4. 关于激励 (Incentives)：系统后门的指令</b></p><p data-pid=\"j-yxeFlY\">人是会对激励做出反应的。 当你控制不住想在直播间下单“限时秒杀”，或者为了凑单满减买了一堆无用之物时，要意识到：这不仅仅是你的冲动，而是商家作为系统管理员，输入了一行“激励代码”。 他们利用价格机制在编程，诱导作为“理性人”的你执行购买指令。</p><hr/><p data-pid=\"VebmhQ0s\"><b>最后给普通人的几条 Debug 建议</b></p><p data-pid=\"3K2JMU4e\">作为一个习惯了和数据打交道的人，建议大家尝试建立一种“经济学直觉”：</p><ol><li data-pid=\"_-9F_GoQ\"><b>货币劳动化：</b> 消费前，把价格换算成你的时薪，甚至是“忍受老板唠叨的时长”。一旦痛感具象化，你的钱包就安全了。</li><li data-pid=\"2ygJApky\"><b>切割沉没成本：</b> 钱花错了就花错了，那是历史数据。不要为了弥补历史错误，把当下的时间（算力）也搭进去。</li><li data-pid=\"VTmVa35x\"><b>看透激励：</b> 面对优惠，永远问自己一句：“如果恢复原价，这东西对我还有用吗？”如果答案是否定的，那就是系统陷阱。</li></ol><p data-pid=\"PKHRO4c1\">曼昆这本书，名为经济学，实则是<b>决策学</b>。它无法保证你成功，但能保证你在面对混乱的生活时，保持一份底层的清醒。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c836772fd9ce724a3af47c83050076fa_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3000\" data-rawheight=\"4000\" data-original-token=\"v2-68f5bc356ee42def747324042e0b52a5\" class=\"origin_image zh-lightbox-thumb\" width=\"3000\" data-original=\"https://pic3.zhimg.com/v2-c836772fd9ce724a3af47c83050076fa_r.jpg\"/><figcaption>好书，强烈推荐！</figcaption></figure><p></p>",
+        "preview_text": "",
+        "is_copyable": false,
+        "visited_count": 1194,
+        "allow_segment_interaction": true,
+        "comment_count": 3,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "voteup_count": 16,
+        "thumbnail": "https://pica.zhimg.com/50/v2-68f5bc356ee42def747324042e0b52a5_720w.jpg?source=b6762063",
+        "excerpt": "这两天，感觉挺无趣。 显卡在跑图的时候，我开始重温曼昆的《经济学原理》（这真是本好书，推荐！），最大的感触不是书里的图表多精美，而是觉得 经济学本质上是一门关于“系统优化”的学科。如果把生活看作一个庞大的操作系统，曼昆开篇提到的前四大原理，我觉得这就是写在这个系统底层的四行核心代码。 读懂了这四点，你不会突然发财，但我发现能修补很多日常决策中的 Bug。 1. 关于权衡取舍 (Trade-offs)：算力是有限的很多人…",
+        "excerpt_new": "这两天，感觉挺无趣。 显卡在跑图的时候，我开始重温曼昆的《经济学原理》（这真是本好书，推荐！），最大的感触不是书里的图表多精美，而是觉得 经济学本质上是一门关于“系统优化”的学科。如果把生活看作一个庞大的操作系统，曼昆开篇提到的前四大原理，我觉得这就是写在这个系统底层的四行核心代码。 读懂了这四点，你不会突然发财，但我发现能修补很多日常决策中的 Bug。 1. 关于权衡取舍 (Trade-offs)：算力是有限的很多人…",
+        "favorite_count": 33,
+        "id": "1991256533816853964",
+        "author": {
+          "followers_count": 3,
+          "is_followed": false,
+          "id": "8462582115d611412a0c79e5f17302c0",
+          "url_token": "kai-xin-kai-xin-kai-xin-3",
+          "avatar_url": "https://picx.zhimg.com/50/v2-5962bdd5cdc15243e47c6a1b260917cc_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/8462582115d611412a0c79e5f17302c0",
+          "user_type": "people",
+          "name": "渲染间隙读本书",
+          "headline": "赛博朋克读书人"
+        },
+        "created_time": 1767532553,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-68f5bc356ee42def747324042e0b52a5_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "thanks_count": 0,
+        "reshipment_settings": "need_payment",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1991256533816853964",
+        "updated_time": 1767532553
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991256533816853964}",
+      "attached_info": "CuIGCMTDu4ab7I3/pQEQBBoJNzY0MDAzMDc4IInQ6coGKBAwA0CEAUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUouChlUU19TT1VSQ0VfRkVFRFJFX01TX0hRX1YzEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTAyODQwMzkzYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk5MTI1NjUzMzgxNjg1Mzk2NIoBCTYzMjUyNzcwMqoBCXJlY29tbWVuZMIBIDg0NjI1ODIxMTVkNjExNDEyYTBjNzllNWYxNzMwMmMw8gEKCAwSBk5vcm1hbPIBKAgKEiQ5M2U0MTZlNC03MzJhLTQ4MjYtYmM4Yy1jODk4MzhhM2ZkOWTyAQYICxICMjOCAgCIAu6Tx5u5M5ICIDg0NjI1ODIxMTVkNjExNDEyYTBjNzllNWYxNzMwMmMwmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AID+gILTk9STUFMX0ZMT1eKAyBmZDk0YThkYmQyM2E0YjA0YjRiN2MwMDEyYjNlZDZmZZoDDQoCdjIQABoFb3RoZXKoA6oJ2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBC4FxigHyIjdjItNjhmNWJjMzU2ZWU0MmRlZjc0NzMyNDA0MmUwYjUyYTWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKCZH4Q/gQUAAAAAAAAAAIkFuQVd9rGMsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFF5AGAKAGhAGoBgGSAi4KCTc2NDAwMzA3OBITMTk5MTI1NjUzMzgxNjg1Mzk2NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "133_1767705266.236",
+      "type": "feed",
+      "offset": 133,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705266,
+      "updated_time": 1767705266,
+      "target": {
+        "voteup_count": 148,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "url": "https://api.zhihu.com/answers/1987134339725665902",
+        "question": {
+          "author": {
+            "followers_count": 2406,
+            "id": "7a3fbce026c3b79f0d432d1ad18da25d",
+            "url": "https://api.zhihu.com/people/7a3fbce026c3b79f0d432d1ad18da25d",
+            "user_type": "people",
+            "url_token": "21-41-25-68",
+            "name": "马老虎",
+            "is_org": false,
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false,
+            "headline": "一个曾经的老兵，一个曾经的商业经营者",
+            "avatar_url": "https://picx.zhimg.com/50/v2-93790dcca79047dc9376be740378d83a_l.jpg?source=b6762063"
+          },
+          "follower_count": 0,
+          "comment_count": 10,
+          "bound_topic_ids": [
+            570,
+            11915,
+            12332,
+            60628,
+            4188322
+          ],
+          "id": "1935860756613674447",
+          "is_following": false,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/1935860756613674447",
+          "created": 1754325170,
+          "answer_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "title": "和十几年前相比，如今的汽车大降价了，是不是材料被“偷工减料”了，品质大不如以前了？",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "excerpt_new": "为现在的车越来越便宜了？先给你们一个悲观的结论，2021年到2026年，你们买到的车，几乎是史上质量最差的，偷工减料最严重的这期视频可能会得罪很多的车企，不确定能坚持多久，但我提到的那些坑大家尽量要避开。首先汽车底盘就是车企偷工减料的重灾区，原来底盘用的是钛合金钢，这里直接给你换成了普通的钢，双层冲压的，换成单层的，反正你开三、四年也是没有问题的，而之后什么羊角断裂、底盘生锈、油门踏板断裂等等全部都来了…",
+        "preview_text": "",
+        "excerpt": "为现在的车越来越便宜了？先给你们一个悲观的结论，2021年到2026年，你们买到的车，几乎是史上质量最差的，偷工减料最严重的这期视频可能会得罪很多的车企，不确定能坚持多久，但我提到的那些坑大家尽量要避开。首先汽车底盘就是车企偷工减料的重灾区，原来底盘用的是钛合金钢，这里直接给你换成了普通的钢，双层冲压的，换成单层的，反正你开三、四年也是没有问题的，而之后什么羊角断裂、底盘生锈、油门踏板断裂等等全部都来了…",
+        "favorite_count": 82,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "created_time": 1766549745,
+        "answer_type": "normal",
+        "thanks_count": 10,
+        "is_navigator": false,
+        "content": "<p data-pid=\"clnZoCx3\">为现在的车越来越便宜了？先给你们一个悲观的结论，2021年到2026年，你们买到的车，几乎是史上质量最差的，偷工减料最严重的这期视频可能会得罪很多的车企，不确定能坚持多久，但我提到的那些坑大家尽量要避开。首先汽车底盘就是车企偷工减料的重灾区，原来底盘用的是钛合金钢，这里直接给你换成了普通的钢，双层冲压的，换成单层的，反正你开三、四年也是没有问题的，而之后什么羊角断裂、底盘生锈、油门踏板断裂等等全部都来了，这开在路上就非常要命了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ee6e07175e9d833c2f85b42102a5f1de_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"457\" data-size=\"normal\" data-original-token=\"v2-bfc64bf223f2ab06588f4f23cb99f5b0\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-ee6e07175e9d833c2f85b42102a5f1de_r.jpg\"/></figure><p data-pid=\"r0016jVs\">相信很多人都会有一样的疑惑，当初那些叱咤风云的B级车都要卖20多万，现如今甚至不到15万就能入手，其中的差价得有十万左右，这会不会导致车企偷工减料？按实际的表现来看，价格战确实对于汽车品质有一些影响，就拿日系车来说，90年代的进口日系车，虽然贵，但质量非常过硬，因为生产标准高，加上配件用的都是世界大牌，因此创造了很多几十万公里不修车的神话，日系车的口碑，其实是那个时候打下来的。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-cb1a785613ba2c35865f036664a0770c_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1025\" data-size=\"normal\" data-original-token=\"v2-916344ca1980d6b796472441830a89fc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-cb1a785613ba2c35865f036664a0770c_r.jpg\"/></figure><p data-pid=\"K4V0vHI5\">底盘方面，也是车企“偷工减料”发力的重点。因为，大部分消费者是看不到的，可能买车到卖车，基本上都看不到自己车的底盘长啥样。所以说，车企就算减配了，消费者也看不到。具体手段包括不限于，将底盘的高强度钢板或镀锌钢板，改用更薄、更低强度的材料，使底盘使用寿命大幅缩短。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-293686fbf6c12fc972449903ef9cba6e_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"827\" data-size=\"normal\" data-original-token=\"v2-5bb38969ce14ee9167cb1aea862c175d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-293686fbf6c12fc972449903ef9cba6e_r.jpg\"/></figure><p data-pid=\"XsVO4DYd\">如果车企在这里减薄材料（有的汽车悬架已被戏称为“筷子悬架”）、降低强度、减少冗余设计，就很可能在意外冲击下直接失效，导致“断轴脱轮”。而近年来，随着行业竞争白热化，降价成为车企的普遍选择。消费者能看见的，是大屏幕、氛围灯、电动尾门这些配置；消费者看不见的，却是底盘等车身零件是否偷工减料。成本压力之下，有的厂商确实把手伸向了“看不见的地方”。当然，厂商的回应往往是“这是交通事故导致的”，似乎与质量无关。但问题在于，真正负责任的设计，不是仅能应付日常小磕小碰，而是要在极端情况下也尽量保持结构的安全冗余。撞上马路牙子这种情况，不可谓罕见，任何一辆车都可能遇到。豪华车与普通车的差别，正是在于豪华车愿意在看不见的地方花钱，留出一条安全底线，而不是轻易让司乘人员面临二次风险。</p><p data-pid=\"XEho3N0J\">2021年到2022年的时候，正值特殊时期，新能源汽车的两大核心部件电池和芯片都遭遇到了短缺，动力电池的核心原材料碳酸锂在2022年的售价一度高达60万元/吨，而当时一颗平常售价20元的芯片，也被炒到了3000元左右的水平，而且一辆新能源汽车，不可能只用到一颗芯片。当时很多合资品牌甚至只为新车配一把机械钥匙，大众等品牌部分车型中控屏直接“开天窗”，都是芯片短缺，价格暴涨的结果。按照一块100度电池用0.07吨的碳酸锂来计算，在2022年的时候，光用到的碳酸锂成本就高达4.2万元，如今碳酸锂价格约为6万元/吨，也就是说，现在同样的一块动力电池，碳酸锂的成本只需要4200块钱，省了将近4万元。同样以前3000块钱的芯片，现在也已经回归到了20块钱的正常价格，光这两样，2022年的成本就比现在高了四五万。</p><p data-pid=\"b7fuQge-\">在这其中，投诉量最多的，也是最致命的汽车质量问题，就是车机系统频繁死机。</p><p data-pid=\"zPF5VkgK\">为了降成本，车厂可以把四五千元的车规级芯片，换成了一千来块钱的手机、平板用的消费级芯片。</p><p data-pid=\"UhBkjY-q\">要知道，车规级芯片寿命可能有10年，但消费级芯片通常两三年就会出现性能退化、卡顿、死机频繁等情况。</p><p data-pid=\"WxtFV333\">像之前新闻里报道的自动停车撞墙这种事，还是小事。</p><p data-pid=\"VD-fxcbZ\">但你想想，如果是辅助驾驶系统失效，那可就事关一家人的生命安全了。</p><p data-pid=\"vLcbhlxJ\">所以，计划买车的朋友们，咱们在买车的时候，不能只看车企官方公布出来的配置，更得看它没公布的。</p>",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-916344ca1980d6b796472441830a89fc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5bb38969ce14ee9167cb1aea862c175d_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "is_copyable": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-916344ca1980d6b796472441830a89fc_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "allow_segment_interaction": true,
+        "updated_time": 1766549745,
+        "comment_count": 50,
+        "visited_count": 33781,
+        "id": "1987134339725665902",
+        "author": {
+          "is_org": false,
+          "gender": 0,
+          "is_followed": false,
+          "id": "2e4d51e8b5803fef926a2b49ab8d52c3",
+          "url_token": "29-2-1-53-8",
+          "name": "心灵鸡汤学",
+          "headline": "一个对汽车专业非常热爱的自媒体专业者。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-47fef94c14a5cb1b0f1b99ad8f95d46d_l.jpg?source=b6762063",
+          "followers_count": 29830,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/2e4d51e8b5803fef926a2b49ab8d52c3",
+          "user_type": "people"
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1987134339725665902}",
+      "attached_info": "CpsICMTDu4ab7I3/pQEQBBoJNzYyNDQxMTM4IPHRrcoGKJQBMDJAhQFKVQopVFNfU09VUkNFX1RBR19CQVNFRF9URVhUX1RIRU1FX0NMSUNLX1BBSVISInRoZW1lOmRldGVjdDpjb250ZW50OnRoZW1lOmlkOjUwOTQYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNjA4MDA1OWIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5ODcxMzQzMzk3MjU2NjU5MDKKARMxOTM1ODYwNzU2NjEzNjc0NDQ3qgEJcmVjb21tZW5kwgEgMmU0ZDUxZThiNTgwM2ZlZjkyNmEyYjQ5YWI4ZDUyYzPyAQoIDBIGTm9ybWFs8gEoCAoSJDA2Zjk1NWVhLTVlNjUtNGNiYi1hNmQ1LWQ2MTlmZmRkZjI2ZvIBBggLEgIyM4ICAIgC75PHm7kzkgIgMmU0ZDUxZThiNTgwM2ZlZjkyNmEyYjQ5YWI4ZDUyYzOaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAilUU19TT1VSQ0VfVEFHX0JBU0VEX1RFWFRfVEhFTUVfQ0xJQ0tfUEFJUugCA/oCC05PUk1BTF9GTE9XigMgZmQ5NGE4ZGJkMjNhNGIwNGI0YjdjMDAxMmIzZWQ2ZmWaAw0KAnYyEAAaBW90aGVyqAP1hwLYAwDqAyFUaGVtZURldGVjdFRoZW1lQ2xpY2tQYWlyUmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgYyQMiI3YyLWJmYzY0YmYyMjNmMmFiMDY1ODhmNGYyM2NiOTlmNWIwOi0IBBC4CBiBCCIjdjItOTE2MzQ0Y2ExOTgwZDZiNzk2NDcyNDQxODMwYTg5ZmM6LQgDELgIGLsGIiN2Mi01YmIzODk2OWNlMTRlZTkxNjdjYjFhZWE4NjJjMTc1ZIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEAdIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwIOjkD+BBQAAAAAAAAAAiQW5BV32sYyyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUB8AUXkAYAoAaFAagGA5ICLgoJNzYyNDQxMTM4EhMxOTg3MTM0MzM5NzI1NjY1OTAyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "134_1767705266.884",
+      "type": "feed",
+      "offset": 134,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705266,
+      "updated_time": 1767705266,
+      "target": {
+        "question": {
+          "type": "question",
+          "bound_topic_ids": [
+            3204,
+            5619,
+            19171,
+            2092688,
+            3037938
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "question_type": "normal",
+          "id": "589964007",
+          "title": "如何评价「世界是一个草台班子」？",
+          "created": 1678954243,
+          "follower_count": 0,
+          "url": "https://api.zhihu.com/questions/589964007",
+          "answer_count": 0,
+          "comment_count": 33,
+          "author": {
+            "is_org": false,
+            "gender": 1,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/67cab9b2c196307b04ff473e47d133ce",
+            "user_type": "people",
+            "name": "赵福田康夫",
+            "headline": "谨言慎行",
+            "avatar_url": "https://picx.zhimg.com/50/v2-79336ef9c19505b73bd843fb2ba906f2_l.jpg?source=b6762063",
+            "followers_count": 7,
+            "is_following": false,
+            "id": "67cab9b2c196307b04ff473e47d133ce",
+            "url_token": "jasonIdea"
+          },
+          "detail": ""
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "reshipment_settings": "allowed",
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "author": {
+          "followers_count": 8011,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/cc0d6aadbce3308474acd3b781c14c45",
+          "url_token": "chen-fu-sheng-47-73",
+          "headline": "DJ阿Q，drop the beat。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-f765ba021b7aa71f89a7256fd99cf6ac_l.jpg?source=b6762063",
+          "is_org": false,
+          "id": "cc0d6aadbce3308474acd3b781c14c45",
+          "user_type": "people",
+          "name": "MC鲁迅",
+          "gender": 1
+        },
+        "updated_time": 1767037970,
+        "content": "<p data-pid=\"299q6dYv\">本人大学时候上过江苏卫视，</p><p data-pid=\"mraiQoJz\">给非诚勿扰当过托。</p><p data-pid=\"g-LHs0Ld\">报酬是300块钱加一个两荤两素盒饭。</p><p data-pid=\"UBTvp-J8\">我想说娱乐圈更是一个草台班子。</p><p data-pid=\"-X8jgsJh\">主持功底是假的，是提词器是不断的卡不断的补录不断的骂脏话瞎扯重来排练。</p><p data-pid=\"iQsBmkv7\">导师水平是假的，是写好的台词是语无伦次是车轱辘话加满嘴跑火车开黄腔。</p><p data-pid=\"WRindW0W\">男女嘉宾是假的，是事先准备好的剧本，是演员是人设是全靠临场发挥。</p><p data-pid=\"ljoJPzmZ\">导演编导制片出品后台更是假的不能再假，前面在录制后面在喝大酒玩骰子，心情好跑摄像机前面盯两眼，心情不好直接把一群女嘉宾像训狗一样，拉倒黑幕隔板间骂。</p><p data-pid=\"KcFEpWrS\">一场节目我的镜头本来只有七分钟，</p><p data-pid=\"xM3R9uJX\">但在演播厅蹲了整整18个小时。</p><p data-pid=\"n4YCQ4IO\">给我的人设是什么IT海归痴情男，</p><p data-pid=\"7KoY-4iT\">让我上去就给6号女嘉宾下跪。</p><p data-pid=\"CAiy49mY\">那个装斯文的沙茶眼睛，</p><p data-pid=\"yD0zDL0R\">录到一半镜片都掉了。</p><p data-pid=\"A9zEUylm\">虽然后来说我表情太木讷不会吵架，把我卡了，但是好歹钱给了。</p><p data-pid=\"zgCsJSDk\">这是我唯一庆幸的地方。</p>",
+        "favorite_count": 1543,
+        "thanks_count": 291,
+        "excerpt": "本人大学时候上过江苏卫视， 给非诚勿扰当过托。 报酬是300块钱加一个两荤两素盒饭。 我想说娱乐圈更是一个草台班子。 主持功底是假的，是提词器是不断的卡不断的补录不断的骂脏话瞎扯重来排练。 导师水平是假的，是写好的台词是语无伦次是车轱辘话加满嘴跑火车开黄腔。 男女嘉宾是假的，是事先准备好的剧本，是演员是人设是全靠临场发挥。 导演编导制片出品后台更是假的不能再假，前面在录制后面在喝大酒玩骰子，心情好跑摄像机…",
+        "preview_text": "",
+        "is_labeled": false,
+        "visited_count": 696778,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "id": "1989182100545499213",
+        "voteup_count": 7939,
+        "preview_type": "default",
+        "segment_infos": [
+          {
+            "pid": "ljoJPzmZ",
+            "text": "导演编导制片出品后台更是假的不能再假，前面在录制后面在喝大酒玩骰子，心情好跑摄像机前面盯两眼，心情不好直接把一群女嘉宾像训狗一样，拉倒黑幕隔板间骂。",
+            "marks": [
+              {
+                "start_index": 47,
+                "end_index": 74,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989349592274334469"
+                  ],
+                  "is_like": false,
+                  "like_count": 80,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7KoY-4iT",
+            "text": "让我上去就给6号女嘉宾下跪。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 14,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989500297735844877"
+                  ],
+                  "is_like": false,
+                  "like_count": 105,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "url": "https://api.zhihu.com/answers/1989182100545499213",
+        "created_time": 1767037970,
+        "is_copyable": true,
+        "answer_type": "normal",
+        "comment_count": 613,
+        "excerpt_new": "本人大学时候上过江苏卫视， 给非诚勿扰当过托。 报酬是300块钱加一个两荤两素盒饭。 我想说娱乐圈更是一个草台班子。 主持功底是假的，是提词器是不断的卡不断的补录不断的骂脏话瞎扯重来排练。 导师水平是假的，是写好的台词是语无伦次是车轱辘话加满嘴跑火车开黄腔。 男女嘉宾是假的，是事先准备好的剧本，是演员是人设是全靠临场发挥。 导演编导制片出品后台更是假的不能再假，前面在录制后面在喝大酒玩骰子，心情好跑摄像机…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989182100545499213}",
+      "attached_info": "CtIGCMTDu4ab7I3/pQEQBBoJNzYzMjQwMTMxIJK4y8oGKIM+MOUEQIYBSk8KHFRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTFRJTUUSKWhvdF9yZWNhbGxfcmVhbHRpbWVfdDpub3JtYWw6MjAyNi0wMS0wNjozGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg5MzM4NDY2NGIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5ODkxODIxMDA1NDU0OTkyMTOKAQk1ODk5NjQwMDeqAQlyZWNvbW1lbmTCASBjYzBkNmFhZGJjZTMzMDg0NzRhY2QzYjc4MWMxNGM0NfIBCggMEgZOb3JtYWzyASgIChIkYzVhN2VkZWYtNjk4Ny00NTJlLWE2ZTQtMTA1YjhjYWJjODY28gEGCAsSAjIzggIAiALvk8ebuTOSAiBjYzBkNmFhZGJjZTMzMDg0NzRhY2QzYjc4MWMxNGM0NZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCEkNsaXBQZWFrV2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIcVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMVElNRegCAvoCC05PUk1BTF9GTE9XigMgZmQ5NGE4ZGJkMjNhNGIwNGI0YjdjMDAxMmIzZWQ2ZmWaAw0KAnYyEAAaBW90aGVyqAPKwyrYAwDqAx9ob3RDcm9zc1JlYWxUaW1lQ29udGVudFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgFAWlz+BBQAAAAAAAAAAiQW5BV32sYyyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUXkAYAoAaGAagGAJICLgoJNzYzMjQwMTMxEhMxOTg5MTgyMTAwNTQ1NDk5MjEzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "135_1767705266.556",
+      "type": "feed",
+      "offset": 135,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705266,
+      "updated_time": 1767705266,
+      "target": {
+        "answer_type": "normal",
+        "created_time": 1767595300,
+        "updated_time": 1767595300,
+        "thumbnail": "https://pica.zhimg.com/50/v2-442d0c606dfce4341addedcce555c4f4_720w.jpg?source=b6762063",
+        "visited_count": 671,
+        "question": {
+          "detail": "",
+          "bound_topic_ids": [
+            1280,
+            16657,
+            22882,
+            24774,
+            131959
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "id": "68291081",
+          "type": "question",
+          "title": "如何装修房子最省钱？",
+          "answer_count": 0,
+          "comment_count": 12,
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/68291081",
+          "author": {
+            "avatar_url": "https://pic1.zhimg.com/50/v2-a2cc6736dbae4c08eb9aeac491115acd_l.jpg?source=b6762063",
+            "url_token": "xiao-yuan-hui-lang",
+            "name": "小院回廊",
+            "headline": "",
+            "is_org": false,
+            "gender": 1,
+            "id": "7c5f045f5700d03e93fe53f54eef9d16",
+            "url": "https://api.zhihu.com/people/7c5f045f5700d03e93fe53f54eef9d16",
+            "user_type": "people",
+            "followers_count": 158,
+            "is_following": false,
+            "is_followed": false
+          },
+          "created": 1510973149,
+          "follower_count": 0,
+          "question_type": "normal"
+        },
+        "comment_count": 2,
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-da4213559d3cb1daf7d02a681aafc373_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"892\" data-rawheight=\"648\" data-original-token=\"v2-442d0c606dfce4341addedcce555c4f4\" class=\"origin_image zh-lightbox-thumb\" width=\"892\" data-original=\"https://pic2.zhimg.com/v2-da4213559d3cb1daf7d02a681aafc373_r.jpg\"/></figure><p data-pid=\"e6ovIgkJ\">装修真的太烧钱了！</p><p data-pid=\"OTIvV4oZ\">当初我家装修时没经验，总觉得 “贵的就是好的”，在不少地方花了大价钱，结果入住后发现全是 “智商税”—— </p><p data-pid=\"hKSbTPrk\">有的东西华而不实，用几次就闲置；</p><p data-pid=\"kKMlr3x2\">有的纯粹是跟风乱买，根本不适合日常居住；</p><p data-pid=\"AmMbVyP0\">还有的花了钱却没提升半点居住体验，想想都心疼。</p><p data-pid=\"-6BS1MUZ\">后来跟身边装修过的朋友聊了一圈，再结合自己的踩坑经历，整理出 24 个装修最不值得花钱的地方，都是实打实的真心话，分享给正在装修或准备装修的朋友们，咱们把钱花在刀刃上，不做冤大头～</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-527f20c525f4b7d1e8ad1f4455992480_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-af1011c57ef8d38e1f3bb6aedbd4655d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-527f20c525f4b7d1e8ad1f4455992480_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b487cbf5a52f4c9c659e0d47771a07c0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-090abbdae836a0833786d91e66edd3dc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-b487cbf5a52f4c9c659e0d47771a07c0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1189b0c16c7fb95ea902671692ab7449_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-ae0230c3228856a1ea97be332005c68b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-1189b0c16c7fb95ea902671692ab7449_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-fed03360fe17cde67d15eee4978cefde_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-7ea23d07f1a023f4fb3ff32c91d7e4aa\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-fed03360fe17cde67d15eee4978cefde_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e0aac955d6abcfe17efcd5a725a49103_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-b8fcd64cc5886c96888c5c4411e36876\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-e0aac955d6abcfe17efcd5a725a49103_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6d7f5f958e8c3b2fdf0248068d7f3fac_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-55e1ffcf4cd0a604a12fa2e717d1df22\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-6d7f5f958e8c3b2fdf0248068d7f3fac_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1928684239ea64c5e3bb9004a562a4ad_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-c510b7de31db27a106f1df8965f5de7e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-1928684239ea64c5e3bb9004a562a4ad_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0316c6a01677995b2d4796e74673e7b9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-a8d7b2cbe81e52e62aca66defbd73563\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-0316c6a01677995b2d4796e74673e7b9_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p> <p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-432c0471b8e30d1f2cfe4589790f9dd2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-04b6b15e6a6a27c569c9d4626f1cc6c9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-432c0471b8e30d1f2cfe4589790f9dd2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fe310b676a88159697cab2bce82ae74d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-edf0862960b42bd4025a436415f6e4a6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-fe310b676a88159697cab2bce82ae74d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4da6747ad30f6b91c1677d8cff5f1577_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-2421eeb8e894381aea656b2ec8e527e4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-4da6747ad30f6b91c1677d8cff5f1577_r.jpg\"/></figure><p data-pid=\"Is6NKqiI\">其实装修的核心是 “实用为王”，没必要为了面子、跟风或者商家的噱头多花冤枉钱。</p><p data-pid=\"hrffprkN\">这 24 个地方省下来的钱，完全可以投入到家电、五金、防水这些影响居住舒适度和耐用度的关键地方，住着才更舒心。</p><p data-pid=\"J_AAc_Vv\">希望大家能避开这些 “花钱不讨好” 的坑，花最少的钱装出最合心意的家，既省钱又不降低生活品质，越住越满意呀～</p>",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-442d0c606dfce4341addedcce555c4f4_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-af1011c57ef8d38e1f3bb6aedbd4655d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-090abbdae836a0833786d91e66edd3dc_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-ae0230c3228856a1ea97be332005c68b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7ea23d07f1a023f4fb3ff32c91d7e4aa_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b8fcd64cc5886c96888c5c4411e36876_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-55e1ffcf4cd0a604a12fa2e717d1df22_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c510b7de31db27a106f1df8965f5de7e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-a8d7b2cbe81e52e62aca66defbd73563_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-04b6b15e6a6a27c569c9d4626f1cc6c9_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-edf0862960b42bd4025a436415f6e4a6_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-2421eeb8e894381aea656b2ec8e527e4_720w.jpg?source=b6762063"
+        ],
+        "url": "https://api.zhihu.com/answers/1991519712354510724",
+        "thanks_count": 0,
+        "id": "1991519712354510724",
+        "excerpt": "装修真的太烧钱了！ 当初我家装修时没经验，总觉得 “贵的就是好的”，在不少地方花了大价钱，结果入住后发现全是 “智商税”—— 有的东西华而不实，用几次就闲置； 有的纯粹是跟风乱买，根本不适合日常居住； 还有的花了钱却没提升半点居住体验，想想都心疼。 后来跟身边装修过的朋友聊了一圈，再结合自己的踩坑经历，整理出 24 个装修最不值得花钱的地方，都是实打实的真心话，分享给正在装修或准备装修的朋友们，咱们把钱花…",
+        "excerpt_new": "装修真的太烧钱了！ 当初我家装修时没经验，总觉得 “贵的就是好的”，在不少地方花了大价钱，结果入住后发现全是 “智商税”—— 有的东西华而不实，用几次就闲置； 有的纯粹是跟风乱买，根本不适合日常居住； 还有的花了钱却没提升半点居住体验，想想都心疼。 后来跟身边装修过的朋友聊了一圈，再结合自己的踩坑经历，整理出 24 个装修最不值得花钱的地方，都是实打实的真心话，分享给正在装修或准备装修的朋友们，咱们把钱花…",
+        "is_navigator": false,
+        "reshipment_settings": "allowed",
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "voteup_count": 3,
+        "is_copyable": true,
+        "preview_type": "default",
+        "vote_next_step": "vote",
+        "author": {
+          "followers_count": 15271,
+          "is_followed": false,
+          "url_token": "wo-xiang-jing-jing-63-34",
+          "name": "圆圆赵",
+          "headline": "建面 118 套内87的小家 7万硬装",
+          "avatar_url": "https://picx.zhimg.com/50/v2-8696aad007d54242a86616fe75974f65_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "id": "a6f54932c70352dcadc8a5f791eb8403",
+          "url": "https://api.zhihu.com/people/a6f54932c70352dcadc8a5f791eb8403",
+          "user_type": "people"
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 27,
+        "navigator_vote": false,
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991519712354510724}",
+      "attached_info": "CowKCMTDu4ab7I3/pQEQBBoJNzY0MTAxMTgyIKS67coGKAMwAkCHAUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifVoIMTk1NDUyNDdiIGE0ZTkwYzU3OTg3MTU2YmE5MWIwMjVhOTMxYWNlMTA4chMxOTkxNTE5NzEyMzU0NTEwNzI0igEINjgyOTEwODGqAQlyZWNvbW1lbmTCASBhNmY1NDkzMmM3MDM1MmRjYWRjOGE1Zjc5MWViODQwM/IBCggMEgZOb3JtYWzyASgIChIkYTc1ZWRmODQtNGY5OC00ZmQ4LTk3YTktNTViMmZiNzdiYTRh8gEGCAsSAjIzggIAiALvk8ebuTOSAiBhNmY1NDkzMmM3MDM1MmRjYWRjOGE1Zjc5MWViODQwM5oCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCBPoCC05PUk1BTF9GTE9XigMgZmQ5NGE4ZGJkMjNhNGIwNGI0YjdjMDAxMmIzZWQ2ZmWaAw0KAnYyEAAaBW90aGVyqAOfBdgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gPTBBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEPwGGIgFIiN2Mi00NDJkMGM2MDZkZmNlNDM0MWFkZGVkY2NlNTU1YzRmNDotCAIQuAgYoAsiI3YyLWFmMTAxMWM1N2VmOGQzOGUxZjNiYjZhZWRiZDQ2NTVkOi0IAhC4CBigCyIjdjItMDkwYWJiZGFlODM2YTA4MzM3ODZkOTFlNjZlZGQzZGM6LQgCELgIGKALIiN2Mi1hZTAyMzBjMzIyODg1NmExZWE5N2JlMzMyMDA1YzY4YjotCAIQuAgYoAsiI3YyLTdlYTIzZDA3ZjFhMDIzZjRmYjNmZjMyYzkxZDdlNGFhOi0IAhC4CBigCyIjdjItYjhmY2Q2NGNjNTg4NmM5Njg4OGM1YzQ0MTFlMzY4NzY6LQgCELgIGKALIiN2Mi01NWUxZmZjZjRjZDBhNjA0YTEyZmEyZTcxN2QxZGYyMjotCAIQuAgYoAsiI3YyLWM1MTBiN2RlMzFkYjI3YTEwNmYxZGY4OTY1ZjVkZTdlOi0IAhC4CBigCyIjdjItYThkN2IyY2JlODFlNTJlNjJhY2E2NmRlZmJkNzM1NjM6LQgCELgIGKALIiN2Mi0wNGI2YjE1ZTZhNmEyN2M1NjljOWQ0NjI2ZjFjYzZjOTotCAIQuAgYoAsiI3YyLWVkZjA4NjI5NjBiNDJiZDQwMjVhNDM2NDE1ZjZlNGE2Oi0IAhC4CBigCyIjdjItMjQyMWVlYjhlODk0MzgxYWVhNjU2YjJlYzhlNTI3ZTSABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIBykXY/gQUAAAAAAAAAAIkFuQVd9rGMsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFF5AGAKAGhwGoBgCSAi4KCTc2NDEwMTE4MhITMTk5MTUxOTcxMjM1NDUxMDcyNBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "136_1767705266.391",
+      "type": "feed",
+      "offset": 136,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705266,
+      "updated_time": 1767705266,
+      "target": {
+        "type": "answer",
+        "created_time": 1767616589,
+        "vote_next_step": "vote",
+        "comment_count": 95,
+        "reshipment_settings": "allowed",
+        "visited_count": 81434,
+        "is_navigator": false,
+        "voteup_count": 624,
+        "answer_type": "normal",
+        "is_copyable": true,
+        "question": {
+          "url": "https://api.zhihu.com/questions/669850659",
+          "answer_count": 0,
+          "detail": "",
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "is_following": false,
+          "excerpt": "",
+          "author": {
+            "url": "https://api.zhihu.com/people/2636ea7a0d3f667d7dc6f5cbb980fab3",
+            "url_token": "yi-pin-rong-cheng-xiu",
+            "followers_count": 11,
+            "is_following": false,
+            "gender": -1,
+            "is_followed": false,
+            "id": "2636ea7a0d3f667d7dc6f5cbb980fab3",
+            "user_type": "people",
+            "name": "一品蓉城秀",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "title": "这次A股牛市真的要来了吗？",
+          "comment_count": 5,
+          "bound_topic_ids": [
+            922,
+            6723,
+            56234,
+            589569,
+            2092957
+          ],
+          "question_type": "normal",
+          "id": "669850659",
+          "created": 1727398668,
+          "follower_count": 0
+        },
+        "excerpt_new": "我把绝大部分回答都看了，一个正确回答都没有。 正确答案，只要上面想，10个交易日内，随时能引爆进入牛市。没有量？5个交易日直接成交额历史新高，6个交易日干出了3.5万亿的天量，从924开始，9个交易日干出了2004-2006一共3年的成交额。港股干出了5000亿的历史最高成交额，而过去日均成交额最高不过1500亿。没有涨幅？创业板9天指数涨幅60%你怕不怕？5个交易日沪深300收复4000点你怕不怕？股指期货连续涨停你怕不怕？ 只要央行…",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 1008,
+        "allow_segment_interaction": true,
+        "author": {
+          "user_type": "people",
+          "name": "星辰",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "id": "48d0cb8078c9becdc10605271f8e73e5",
+          "url_token": "51-66-35-11",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-2e068c276db2f74a4444781b3bb05933_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 173,
+          "url": "https://api.zhihu.com/people/48d0cb8078c9becdc10605271f8e73e5"
+        },
+        "updated_time": 1767616589,
+        "thanks_count": 16,
+        "content": "<p data-pid=\"IhN6YU1B\">我把绝大部分回答都看了，一个正确回答都没有。</p><p data-pid=\"l2dkkRwd\">正确答案，只要上面想，10个交易日内，随时能引爆进入牛市。没有量？5个交易日直接成交额历史新高，6个交易日干出了3.5万亿的天量，从924开始，9个交易日干出了2004-2006一共3年的成交额。港股干出了5000亿的历史最高成交额，而过去日均成交额最高不过1500亿。没有涨幅？创业板9天指数涨幅60%你怕不怕？5个交易日沪深300收复4000点你怕不怕？股指期货连续涨停你怕不怕？</p><p data-pid=\"X8pGcu23\">只要央行，金融监管总局，证监会，财政部，国税总局，发改委在国务院的带领下一起发力，A股能随时直冲5178点，6124点，这次只是稍稍展示了一下威力。过去搞了4万亿，也搞过棚改去库存，凭什么不能再搞一次？</p><p data-pid=\"fZ703kkm\">最大的问题在意识形态，上面极度反感一切不增加物质财富的行为，有极其强烈的意识形态导向，让每个有劳动能力的人都去创造价值，尤其是要创造能留存的物质财富，因此强刺激一直不愿意给，非生产的消费刺激更是坚决不愿意给。</p><p data-pid=\"n_efeWrz\">但这预判政策必须要足够精确的时间才有意义，才可能用来赚钱。2022年9月你自行放开可能会被抓，2023年3月才知道以后真不管了那连屎都吃不上。</p><p data-pid=\"J0Kfg0bh\">这轮牛市的底层逻辑就是化债、涨价去库存。</p><p data-pid=\"1Mf_9YFH\">gov和bank把不良资产打包塞给上市企业，再通过二级市场重新估值。</p><p data-pid=\"RtuUxHpY\">比如某私人企业A垮了，欠银行3000w，剩了个厂房银行评估值2000w，但市场冷，1500w都没人接盘。</p><p data-pid=\"ep_wG2dr\">现在地方有个gzw下面的上市企业，市值80e，gov撮合下，银行把这类资产打包，打个2折卖给该企业，题材就可以发酵了，增产、扩产能、预期增收、涨价等等各种利好。</p><p data-pid=\"Zbyutv8m\">两个月股价翻了一倍，操盘的事不担心，有散户接盘，这部分收益间接把债化了，gov和bank还有得赚。</p><p data-pid=\"lhq0DZeJ\">所以重点关注地方企业+落后产能+反内卷。</p><p data-pid=\"XnxDzVsJ\">就目前时间节点，2026年，1月5日，未来几个月，至少到这个月底，1月，无论发生啥事，一定要忍耐，煎熬，耐心持股。绝不轻易换股，松手，被震荡出局。</p><p data-pid=\"XTADDvll\">股市基本是震荡提升，这波牛市预计会冲到7000～8000左右，然后回调至4000。</p><p data-pid=\"un14p7eW\">散户不要贪多，不然A股会教你做人。记得提前布局军工类股票和基金，横盘一年后，会有一波小牛，冲到七千回调到5000。</p><p data-pid=\"xqV3xQph\">随后继续稳步震荡提升在5800左右，之后横盘四年，消化台湾，稳步震荡筑底在7000。</p><p data-pid=\"c16nKr_5\">只有当你身处这个赌场中间，并且一直占据了座位，并且正在持续下注，你才有可能会成为一个赢家。如果你身在场外，或者只是围在旁边当看客，你顶多只是参与瞎起哄，你是不会从赌局中获利的。</p><p data-pid=\"ceqq7AfM\">比如本次股指暴涨，无论是你尚未开户，或者已经开了户但是因为前段时间行情太差而抛光了股票出了金做壁上观，还是钱还在账户内，却买了国债逆回购的人，都没机会从本轮突然的暴涨当中获利，因为你空仓，只是这个突发事件的看客，而非场内参与者。</p><p data-pid=\"zZVn6Tkm\">受益的，只能是尚在场内继续坚持下注博弈的参与者，只有他们手里有股票，股指或个股上涨，直接带动了他们的市值上升。</p><p data-pid=\"fxNVy9FO\">但这又涉及到另一个悖论。因为其一直在现场博弈下注，是真正的市场参与者，也是真正的股指上涨受益者，但正因为他们一直都在下注博弈，没有放弃也没有错过，可是因为他们一直在下注，也意味着此前的熊途博弈当中他们都是一直处于亏损被套的状态的，亦即本次股指的回升只是减低了他们的损失，缩小了他们的账面亏损而已，并无法使他们及时获利。</p><p data-pid=\"fpK7bD4n\">这就是普通人参与投资博弈的现实困境。</p><p data-pid=\"FCZAyGkI\"><span class=\"nolink\">如何判断牛市什么时候结束呢？</span></p><p data-pid=\"uIQcnFLx\">列几点：</p><p data-pid=\"_1V8_8OS\">1、央行加息</p><p data-pid=\"j6oNfGtZ\">2、官媒提示风险，社保、保险等大资金卖股票上新闻</p><p data-pid=\"8_c9hzJj\">3、公募基金总规模历史新高</p><p data-pid=\"WTt2-W_U\">4、有私募清盘退还投资人本金</p><p data-pid=\"aGugOLOx\">5、大盘年线，5周期均线死叉10周期，有点慢，必要条件</p><p data-pid=\"qKDIiEWg\">6、大盘周线跌破60日线</p><p data-pid=\"em7hmchT\">7、本轮，某一单日，成交额突破3.5万亿，极值4万亿以上，不排除5万亿甚至6万亿</p><p data-pid=\"SIHTAeOg\">8、一个从不谈股票的朋友开始给你推荐股票</p><p data-pid=\"gK6YDZst\">上述出现后，还能持续个把月。</p><p data-pid=\"gYmQD0bW\">出1条就可以考虑慢慢卖了，3条以上减重仓，5条以上清仓。</p><p data-pid=\"vDCx4SC8\">比较慢的条件是为确认，拿来做清仓条件止盈感受不太好。</p><p data-pid=\"LNXPPZTB\">以上内容仅供学 习交 流，不构成投 资建议，不作为投 资决 策的依 据，据 此 操 作，风 险自 担，股 市有风 险，投 资需谨 慎！</p>",
+        "id": "1991609008579167466",
+        "url": "https://api.zhihu.com/answers/1991609008579167466",
+        "excerpt": "我把绝大部分回答都看了，一个正确回答都没有。 正确答案，只要上面想，10个交易日内，随时能引爆进入牛市。没有量？5个交易日直接成交额历史新高，6个交易日干出了3.5万亿的天量，从924开始，9个交易日干出了2004-2006一共3年的成交额。港股干出了5000亿的历史最高成交额，而过去日均成交额最高不过1500亿。没有涨幅？创业板9天指数涨幅60%你怕不怕？5个交易日沪深300收复4000点你怕不怕？股指期货连续涨停你怕不怕？ 只要央行…",
+        "preview_text": "",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "fZ703kkm",
+            "text": "最大的问题在意识形态，上面极度反感一切不增加物质财富的行为，有极其强烈的意识形态导向，让每个有劳动能力的人都去创造价值，尤其是要创造能留存的物质财富，因此强刺激一直不愿意给，非生产的消费刺激更是坚决不愿意给。",
+            "marks": [
+              {
+                "start_index": 11,
+                "end_index": 104,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991914235178006198"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991609008579167466}",
+      "attached_info": "CuoGCMTDu4ab7I3/pQEQBBoJNzY0MTUwMzk0IM3g7soGKPAEMF9AiAFKKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KMQomVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjESATAYACAAOgBKMAobVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTEwNzkwOTgwYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk5MTYwOTAwODU3OTE2NzQ2NooBCTY2OTg1MDY1OaoBCXJlY29tbWVuZMIBIDQ4ZDBjYjgwNzhjOWJlY2RjMTA2MDUyNzFmOGU3M2U18gEKCAwSBk5vcm1hbPIBKAgKEiRiOTNjZTdmMi04M2RmLTQ5OTctYjJkYy02OWNmYzlmNTEyY2TyAQYICxICMjOCAgCIAu+Tx5u5M5ICIDQ4ZDBjYjgwNzhjOWJlY2RjMTA2MDUyNzFmOGU3M2U1mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AIC+gILTk9STUFMX0ZMT1eKAyBmZDk0YThkYmQyM2E0YjA0YjRiN2MwMDEyYjNlZDZmZZoDDQoCdjIQABoFb3RoZXKoA5r8BNgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwH7JfT+BBQAAAAAAAAAAiQW5BV32sYyyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUXkAYAoAaIAagGAZICLgoJNzY0MTUwMzk0EhMxOTkxNjA5MDA4NTc5MTY3NDY2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "137_1767705266.392",
+      "type": "feed",
+      "offset": 137,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705266,
+      "updated_time": 1767705266,
+      "target": {
+        "comment_count": 189,
+        "question": {
+          "id": "13625683385",
+          "type": "question",
+          "excerpt": "",
+          "bound_topic_ids": [
+            26930
+          ],
+          "question_type": "normal",
+          "created": 1740712321,
+          "answer_count": 0,
+          "comment_count": 6,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/13625683385",
+          "author": {
+            "url": "https://api.zhihu.com/people/f8ff1f625b57fe12e6f2c219367dd2d2",
+            "user_type": "people",
+            "name": "南方经典款",
+            "is_org": false,
+            "is_followed": false,
+            "followers_count": 23,
+            "is_following": false,
+            "id": "f8ff1f625b57fe12e6f2c219367dd2d2",
+            "url_token": "nan-fang-jing-dian-kuan",
+            "headline": "阵亡了5个了",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "gender": 1
+          },
+          "title": "00后富一代为什么销号了？",
+          "follower_count": 0
+        },
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/112593858401",
+        "is_copyable": true,
+        "content": "<p data-pid=\"WiwIxEqU\">不是销号了而是被封号了……</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a5223df5f21e224afd6fce82082a6931_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"628\" data-size=\"normal\" data-original-token=\"v2-916f79699c2a7cbc868656d266b8990f\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-e2c3f42cc67d56b03f158e243e5cb6cc_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-a5223df5f21e224afd6fce82082a6931_r.jpg\"/></figure><p data-pid=\"zfIUGyqM\">完全理解不了，虽然我本人在个人意识形态方面与vida颇有不同，但他所宣扬的向上积极的进取心态和分享出来了赚钱alpha堪称中文互联网质量最高。</p><p data-pid=\"GOl0AsIc\">去推关注他吧各位，另外切记，下次看见高质量回答一定一定要保存，这几天有太多高质量答主消失了。</p>",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "excerpt": "不是销号了而是被封号了……   完全理解不了，虽然我本人在个人意识形态方面与vida颇有不同，但他所宣扬的向上积极的进取心态和分享出来了赚钱alpha堪称中文互联网质量最高。 去推关注他吧各位，另外切记，下次看见高质量回答一定一定要保存，这几天有太多高质量答主消失了。",
+        "excerpt_new": "不是销号了而是被封号了……   完全理解不了，虽然我本人在个人意识形态方面与vida颇有不同，但他所宣扬的向上积极的进取心态和分享出来了赚钱alpha堪称中文互联网质量最高。 去推关注他吧各位，另外切记，下次看见高质量回答一定一定要保存，这几天有太多高质量答主消失了。",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "id": "112593858401",
+        "type": "answer",
+        "updated_time": 1740713824,
+        "voteup_count": 986,
+        "thanks_count": 52,
+        "favorite_count": 976,
+        "author": {
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 93,
+          "is_following": false,
+          "user_type": "people",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-a1120316768427c86a4588f4a789f508_l.jpg?source=b6762063",
+          "name": "金月悬",
+          "is_followed": false,
+          "id": "03d2277936c94fbf740f8da5475b6033",
+          "url": "https://api.zhihu.com/people/03d2277936c94fbf740f8da5475b6033",
+          "url_token": "65-36-55-14-63"
+        },
+        "created_time": 1740713824,
+        "preview_type": "default",
+        "preview_text": "",
+        "visited_count": 230370
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 112593858401}",
+      "attached_info": "CtgGCMTDu4ab7I3/pQEQBBoJNzE1NjMyOTgwIODehL4GKNoHML0BQIkBSkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDc0NTY5MjUyOQoYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExMzcwMDU1MGIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyDDExMjU5Mzg1ODQwMYoBCzEzNjI1NjgzMzg1qgEJcmVjb21tZW5kwgEgMDNkMjI3NzkzNmM5NGZiZjc0MGY4ZGE1NDc1YjYwMzPyAQoIDBIGTm9ybWFs8gEoCAoSJDc3NmFlNjExLTExNTEtNDY1MS04MjAwLTYxMThjNjM2NTgxZPIBBggLEgIyM4ICAIgC75PHm7kzkgIgMDNkMjI3NzkzNmM5NGZiZjc0MGY4ZGE1NDc1YjYwMzOaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIfVFNfU09VUkNFX1pSRUNBTExfSVRFTUNGX1VQVk9URegCAvoCC05PUk1BTF9GTE9XigMgZmQ5NGE4ZGJkMjNhNGIwNGI0YjdjMDAxMmIzZWQ2ZmWaAw0KAnYyEAAaBW90aGVyqAPihw7YAwDqAxl0ZXh0QWxsU2l0ZUFjdGlvbkl0ZW1DRlYy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgY9AQiI3YyLTkxNmY3OTY5OWMyYTdjYmM4Njg2NTZkMjY2Yjg5OTBmgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAIHplD+BBQAAAAAAAAAAiQW5BV32sYyyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUXkAYAoAaJAagGAJICJwoJNzE1NjMyOTgwEgwxMTI1OTM4NTg0MDEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=137&desktop=true&end_offset=137&page_number=24&session_token=a4e90c57987156ba91b025a931ace108",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=137&desktop=true&end_offset=137&page_number=24&session_token=a4e90c57987156ba91b025a931ace108",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,569 @@
+{
+  "data": [
+    {
+      "id": "492_1755822780.491",
+      "type": "feed",
+      "offset": 492,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822780,
+      "updated_time": 1755822780,
+      "target": {
+        "id": "93202218090",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/93202218090",
+        "author": {
+          "id": "23c7eb3e2f720cc933a68499a18d48fd",
+          "url": "https://api.zhihu.com/people/23c7eb3e2f720cc933a68499a18d48fd",
+          "user_type": "people",
+          "url_token": "chengxumiao",
+          "name": "程序喵大人",
+          "headline": "C++编程指南 chengxumiaodaren.com",
+          "avatar_url": "https://picx.zhimg.com/50/v2-2f0e242228bbb0445c6f6ce4cd18baba_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 17743,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1738729509,
+        "updated_time": 1738937012,
+        "voteup_count": 78,
+        "thanks_count": 6,
+        "comment_count": 21,
+        "is_copyable": false,
+        "question": {
+          "id": "652290896",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/652290896",
+          "author": {
+            "id": "3bc9f4b1c36ac39d471409369e2939a1",
+            "url": "https://api.zhihu.com/people/3bc9f4b1c36ac39d471409369e2939a1",
+            "user_type": "people",
+            "url_token": "13-24-95-32",
+            "name": "他拉了",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-e1b6192aa0d8dcf140ba189dea518a4c_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "c/c++中最挣钱的方向是哪个？",
+          "created": 1712589437,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            11569,
+            17215,
+            137223,
+            183396
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-eff2390409bf91be6d58af27971411c3_720w.jpg?source=b6762063",
+        "excerpt": "有个朋友做 C++ cuda 方向，年薪 250w有个朋友做 C++ 广告 方向，年薪180w有个朋友做 QT 方向，年薪 80w有个朋友做 音视频方向，年薪120w，也有年薪300w的。有个朋友做 量化方向，年薪100w有个朋友做 自动驾驶方向，年薪120w有个朋友做 游戏引擎方向，年薪100+还有些朋友也做上述方向，有年薪二三十万的，也有年薪十几万的，甚至还有更低的。 其它方向应该也有很多高薪的，比如编译器，嵌入式之类的，但我没有熟人，不太了解具体…",
+        "excerpt_new": "有个朋友做 C++ cuda 方向，年薪 250w有个朋友做 C++ 广告 方向，年薪180w有个朋友做 QT 方向，年薪 80w有个朋友做 音视频方向，年薪120w，也有年薪300w的。有个朋友做 量化方向，年薪100w有个朋友做 自动驾驶方向，年薪120w有个朋友做 游戏引擎方向，年薪100+还有些朋友也做上述方向，有年薪二三十万的，也有年薪十几万的，甚至还有更低的。 其它方向应该也有很多高薪的，比如编译器，嵌入式之类的，但我没有熟人，不太了解具体…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<ul><li data-pid=\"8Ujhpvd6\"><b>有个朋友做 C++ cuda 方向，年薪 250w</b></li><li data-pid=\"WY5SXO08\"><b>有个朋友做 C++ 广告 方向，年薪180w</b></li><li data-pid=\"mTrQpbn5\"><b>有个朋友做 QT 方向，年薪 80w</b></li><li data-pid=\"h3sL4fxK\"><b>有个朋友做 音视频方向，年薪120w，也有年薪300w的。</b></li><li data-pid=\"6FydsYyK\"><b>有个朋友做 量化方向，年薪100w</b></li><li data-pid=\"tkKoVZ0U\"><b>有个朋友做 自动驾驶方向，年薪120w</b></li><li data-pid=\"MwzDuCQm\"><b>有个朋友做 游戏引擎方向，年薪100+</b></li></ul><p data-pid=\"bE7VCqDL\">还有些朋友也做上述方向，有年薪二三十万的，也有年薪十几万的，甚至还有更低的。</p><p data-pid=\"9fUOqOAi\">其它方向应该也有很多高薪的，比如编译器，嵌入式之类的，但我没有熟人，不太了解具体行情。</p><p data-pid=\"b1IlwO1J\">总结下来</p><ul><li data-pid=\"SSMygG-7\"><b>C++ 很多方向都能赚比较多的钱，不用太纠结于方向，当然最好能往热度更高的方向去，热度越高，资本越容易向这块倾斜，比如AI。</b></li><li data-pid=\"YVXwcI8X\"><b>赚多少钱更多的还取决于你的能力，以及你的运气，以及你的背景。</b></li><li data-pid=\"YIlfEvfF\"><b>其它语言也一样，也能赚很多钱，我认识有做前端的也年薪接近200w。</b></li></ul><p data-pid=\"_ml_j5mH\"><b>补充</b></p><p data-pid=\"adVL7TNM\"><b>刚随手上Boss上搜的岗位薪资。</b></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b94d9b02d3c80a8b9ae997973e4f997b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1152\" data-rawheight=\"1879\" data-original-token=\"v2-1ae858f93c934ee1fd067b79b27d0390\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-a053f4901ac77c04f35271ebe90c3ce1_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://pic4.zhimg.com/v2-b94d9b02d3c80a8b9ae997973e4f997b_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 35982,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-eff2390409bf91be6d58af27971411c3_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 207,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 93202218090}",
+      "attached_info": "CvIGCJvXw+Pbucq0mAEQBBoJNzExNzU2MDQwIKXQi70GKE4wFUDsA0orChZUU19TT1VSQ0VfRkVFRFJFX01TX1YyEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTA3MjMxMDgwYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ILOTMyMDIyMTgwOTCKAQk2NTIyOTA4OTaqAQlyZWNvbW1lbmTCASAyM2M3ZWIzZTJmNzIwY2M5MzNhNjg0OTlhMThkNDhmZPIBCggMEgZOb3JtYWzyASgIChIkYzFiZDIwYTktZmE5My00OTljLThmNWMtNTYxZGQxYzgzMjk48gEGCAsSAjgzggIAiAKn4sX5jDOSAiAyM2M3ZWIzZTJmNzIwY2M5MzNhNjg0OTlhMThkNDhmZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCFVF1ZXN0aW9uSXNvbGF0aW9uUnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDQ3ZjQ5ZjkwYWRlNzQ5OWNhNDUzY2ViN2RiMzc5MWNkmgMNCgJ2MhAAGgVvdGhlcqgDjpkC2AMA6gMOZmVlZHJlX21zX2dhdGX6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCACRjXDiIjdjItMWFlODU4ZjkzYzkzNGVlMWZkMDY3Yjc5YjI3ZDAzOTCABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgHJnHP4EFAAAAAAAAAACJBfeN3beTVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVOQBgCgBvADqAYBkgImCgk3MTE3NTYwNDASCzkzMjAyMjE4MDkwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "493_1755822780.554",
+      "type": "feed",
+      "offset": 493,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822780,
+      "updated_time": 1755822780,
+      "target": {
+        "id": "3562723870",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3562723870",
+        "author": {
+          "id": "1b150e32e4bd06a3b6c86fd835a6417e",
+          "url": "https://api.zhihu.com/people/1b150e32e4bd06a3b6c86fd835a6417e",
+          "user_type": "people",
+          "url_token": "zcc-36-77",
+          "name": "zCC",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/48b2b2a00d3fcae5e26d9340fcc7fe80_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "风景园林施工工程师证书持证人"
+            }
+          ],
+          "followers_count": 98,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1721033611,
+        "updated_time": 1721033611,
+        "voteup_count": 11511,
+        "thanks_count": 453,
+        "comment_count": 1110,
+        "is_copyable": true,
+        "question": {
+          "id": "327862406",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/327862406",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "谈彩礼快谈崩了，我该怎么办？",
+          "created": 1559648332,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 281,
+          "bound_topic_ids": [
+            982,
+            99628
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-33de81843b6d4be19293a2d4c5d82925_720w.jpg?source=b6762063",
+        "excerpt": "借用这个老哥的答案，可能会让大家醍醐灌顶，也会有少部分人感到不适",
+        "excerpt_new": "借用这个老哥的答案，可能会让大家醍醐灌顶，也会有少部分人感到不适",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"GYr8WRvG\">借用这个老哥的答案，可能会让大家醍醐灌顶，也会有少部分人感到不适</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-792657ff5883d84c666f0c9f18ce6ab9_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"1710\" data-size=\"normal\" data-original-token=\"v2-956c44dadfbb30e4d2cfea1a6c87bad4\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-f5f8247c4341d48ee58a5064cb59cc99_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://picx.zhimg.com/v2-792657ff5883d84c666f0c9f18ce6ab9_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0208835d58d8acb2300fc4e2242e6607_1440w.jpg\" data-rawwidth=\"1169\" data-rawheight=\"1642\" data-size=\"normal\" data-original-token=\"v2-bb5d79238646304c9f359b461a20f853\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-cc1072f9ccaa55c4ca503a7a269e18f5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1169\" data-original=\"https://pic4.zhimg.com/v2-0208835d58d8acb2300fc4e2242e6607_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 815285,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-33de81843b6d4be19293a2d4c5d82925_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-1d7d2208816faa22007024e7a8654aa9_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 5421,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3562723870}",
+      "attached_info": "CrMGCJvXw+Pbucq0mAEQBBoJNjc3ODM5MDE1IIvH07QGKPdZMNYIQO0DSjAKG1RTX1NPVVJDRV9CQVNJQ19JTkZPX1JFQ0FMTBIBMBgAIAA6CnsicmF3IjoiIn1aCDM1MTM0ODQ2YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IKMzU2MjcyMzg3MIoBCTMyNzg2MjQwNqoBCXJlY29tbWVuZMIBIDFiMTUwZTMyZTRiZDA2YTNiNmM4NmZkODM1YTY0MTdl8gEKCAwSBk5vcm1hbPIBKAgKEiRhMDc4NzY4Yy0wNTI1LTQ3ZjQtYTBiNS01NTAwY2RmZjMxMzfyAQYICxICODOCAgCIAqjixfmMM5ICIDFiMTUwZTMyZTRiZDA2YTNiNmM4NmZkODM1YTY0MTdlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIbVFNfU09VUkNFX0JBU0lDX0lORk9fUkVDQUxM6AIC+gILTk9STUFMX0ZMT1eKAyA0N2Y0OWY5MGFkZTc0OTljYTQ1M2NlYjdkYjM3OTFjZJoDDQoCdjIQABoFb3RoZXKoA7XhMdgDAOoDEWJhc2ljX2luZm9fcmVjYWxs+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQkgkYrg0iI3YyLTk1NmM0NGRhZGZiYjMwZTRkMmNmZWExYTZjODdiYWQ0Oi0IAhCRCRjqDCIjdjItYmI1ZDc5MjM4NjQ2MzA0YzlmMzU5YjQ2MWEyMGY4NTOABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTYwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAhlG0P4EFAAAAAAAAAACJBfeN3beTVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVOQBgCgBvEDqAYDkgIlCgk2Nzc4MzkwMTUSCjM1NjI3MjM4NzAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "494_1755822780.392",
+      "type": "feed",
+      "offset": 494,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822780,
+      "updated_time": 1755822780,
+      "target": {
+        "id": "3612706843",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3612706843",
+        "author": {
+          "id": "b545477e0d3a8c000d4db0913a48e176",
+          "url": "https://api.zhihu.com/people/b545477e0d3a8c000d4db0913a48e176",
+          "user_type": "people",
+          "url_token": "zhang-wei-84-27-5",
+          "name": "云卷天舒",
+          "headline": "为己之学，为而不争||B站ID：说话的小屋",
+          "avatar_url": "https://picx.zhimg.com/50/v2-24345058e69de3b3141e3c7854e43f5c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "super_activity",
+              "description": "知势榜社科人文领域影响力榜答主"
+            }
+          ],
+          "followers_count": 25186,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1725184871,
+        "updated_time": 1725464081,
+        "voteup_count": 2744,
+        "thanks_count": 163,
+        "comment_count": 160,
+        "is_copyable": false,
+        "question": {
+          "id": "665738775",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/665738775",
+          "author": {
+            "id": "418c9d1ee98329601b1ea860fcc2f00e",
+            "url": "https://api.zhihu.com/people/418c9d1ee98329601b1ea860fcc2f00e",
+            "user_type": "people",
+            "url_token": "r3st9m",
+            "name": "创业学",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-ad982ace176031a89876eef9a4f16d68_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "长沙市联泰水质净化有限公司 员工"
+              }
+            ],
+            "followers_count": 412,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "三十岁以后，人与人之间还有真正的纯友谊吗？",
+          "created": 1725024246,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 10,
+          "bound_topic_ids": [
+            15958
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "看了一圈其他答主 我只有一个结论： 在现代性社会中谈人际关系纯粹就是个皇帝新装的笑话……。 我老娘现在70多岁，真实的文化水平用她自嘲的话是小学三年级。 但她出去吹牛的时候，从来都说自己是“半个知识分子”，毕竟人家可是考过高级技工的，虽然我甚是怀疑她考试的时候打过小抄，但碍于我老娘说不过我就动手的习惯，我一直没敢在她面前哪怕大声嘟囔过这个怀疑。 对于她来说，如果一个人都要“健健身”、“喝喝茶”、“看看…",
+        "excerpt_new": "看了一圈其他答主 我只有一个结论： 在现代性社会中谈人际关系纯粹就是个皇帝新装的笑话……。 我老娘现在70多岁，真实的文化水平用她自嘲的话是小学三年级。 但她出去吹牛的时候，从来都说自己是“半个知识分子”，毕竟人家可是考过高级技工的，虽然我甚是怀疑她考试的时候打过小抄，但碍于我老娘说不过我就动手的习惯，我一直没敢在她面前哪怕大声嘟囔过这个怀疑。 对于她来说，如果一个人都要“健健身”、“喝喝茶”、“看看…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"YrFdiuD8\">看了一圈其他答主</p><p data-pid=\"g2hrMehg\">我只有一个结论：</p><p data-pid=\"VE5YoeP9\">在现代性社会中谈人际关系纯粹就是个皇帝新装的笑话……。</p><p data-pid=\"jMDnf1J1\">我老娘现在70多岁，真实的文化水平用她自嘲的话是小学三年级。</p><p data-pid=\"mk44jxPi\">但她出去吹牛的时候，从来都说自己是“半个知识分子”，毕竟人家可是考过高级技工的，虽然我甚是怀疑她考试的时候打过小抄，但碍于我老娘说不过我就动手的习惯，我一直没敢在她面前哪怕大声嘟囔过这个怀疑。</p><p data-pid=\"aAxZcdpm\">对于她来说，如果一个人都要“健健身”、“喝喝茶”、“看看书”还能没有社交简直是不可思议的事</p><p data-pid=\"nEpK5GH-\">难道健身都是在自己房子？</p><p data-pid=\"SPnhPjGQ\">难道喝茶从来不去茶馆？</p><p data-pid=\"ca1e7fh0\">难道看到好书就能忍住不找人吹吹牛？</p><p data-pid=\"MjNELHD3\">对于从她那个年代过来的人，她会对一切有可能进入“公共场所”的行为，却不产生社交而非常困惑。</p><p data-pid=\"QSlkc0S4\">那么她生活在什么年代呢？</p><p data-pid=\"wtTyuUCl\">大单位的年代</p><p data-pid=\"O2jowzxu\">在改革开放之前，中国的工厂、医院、军区、学校这样的单位其实并没有高度社会化。</p><p data-pid=\"4t1W2L_K\">什么意思？</p><p data-pid=\"O6vauEe3\">就是说，这些单位并没有通过效率原则，将自身的效用放入一个更大的社会分工之中。</p><p data-pid=\"vH7bY9Pp\">比如今天，几乎只有非常少的顶级的单位才会有自己的幼儿园，而过去几乎最普通的工厂都要在工厂内部解决自己的“子弟问题”。</p><p data-pid=\"-Mh4OR32\">房屋是分配的，左右邻居都是一个单位的</p><p data-pid=\"Bhyu2oLt\">你是刚进厂的小年轻，第一次分房你可能就得和某个熟人“合住”一套两室一厅</p><p data-pid=\"_OPHuWsA\">更不用说筒子楼之类的，楼道里做个饭，谁过来都不得骚扰一句：做饭啦？</p><p data-pid=\"MrcE9-mN\">于是在聚居上，就出现了一个有趣的前现代遗产——熟人社会。</p><p data-pid=\"LF94E5nW\">熟人社会的最大特点，就是绝不可能没有“人际”。</p><p data-pid=\"wwSoRBzU\">你这边刚跟你老公红个脖子，邻居就冲进来凑热闹了。</p><p data-pid=\"q0uhekSw\">关系好的来拉架，关系不好的就站在过道里看笑话了。</p><p data-pid=\"RaW_rBmc\">上下级领导的关系也很难只是“工作关系”</p><p data-pid=\"IEoS1d4Y\">一个大院就意味着，你年轻的时候他可能给你介绍对象，你有了孩子了他是看着长大的，你们后辈闹个矛盾，不管是不是工作内部的事情，他可能要么乐呵呵的，要么不情愿的，甚至焦头烂额的管一管。</p><p data-pid=\"ETun9iC5\">这一切的七大姑八大姨，就造成了单位大院成了某种“宗族化”的拟像。</p><p data-pid=\"hrcPaT56\">而只有在这个拟像中，我们才感觉到了——人情味。</p><hr/><p data-pid=\"mpRdZVSJ\">我啰里啰嗦的说这么一堆看起来不着边际的东西，和题主追求的有共同语言的友谊有什么关系？</p><p data-pid=\"nTJDev5M\">我想说的是：</p><h2>一切追求所谓“共同语言”的友谊，都是注定不会产生人际关系的。</h2><p data-pid=\"jUeRh7S-\"><b>共同语言——如果放弃了我们前面提到的，那个混杂了世俗甚至市侩的人情味——就注定了只是一种反人际的——工业化社交。</b></p><p data-pid=\"GF4x5Uua\">在这里，共同语言其实是一种基于效率原则的社会规范</p><p data-pid=\"aANNPlBf\">我们日常中间的说话，一切可以称之为“沟通”的交流，从来都不建立在一种“辩论规则”式的，演播室的情境之中。</p><p data-pid=\"M6SGaMZe\">说话并不会建立“话题”，并不会要求“切题”</p><p data-pid=\"UKgqIeu7\">而共同语言其实就是一个典型的，演播室的话题原则。</p><p data-pid=\"-14OlVpK\">当然，我能理解这个原则为什么会在现代社会中被迫切的提出</p><p data-pid=\"7sZR0VvE\">其根本理由就是，前现代的“社交”是建立在直接的人与人构成关系（熟人）中形成的。</p><p data-pid=\"4S2uQxBp\">大量的对话，实际上首先会构建“熟人”，在成为熟人之后才会构建友谊。</p><p data-pid=\"dI8fxdsx\">但熟人是需要一个真正的可以聚集的公共场所的。</p><p data-pid=\"pgtXFPOY\">这就像苏格拉底的广场或者村头的大榕树，亦或是大院的幼儿园门口，这些场所奠定了一切熟人可以存在的“<b>场域</b>”。</p><p data-pid=\"TWIyRHxk\">但现代社会拒绝一切可以模糊的，破碎的，非效率化的——公共场所</p><p data-pid=\"PonoUPGI\">工业化逻辑让“公共场所”成为了一个城市的——功能空间——而不是场域。</p><p data-pid=\"AVl2N_nY\">这个功能化，就使公共场所被抽象成为了一个“非私人”的场地，成为了连接一切其他场地（办公、娱乐、居住……）的过渡环节。</p><p data-pid=\"a0uFhb4l\">一个现代人的生活，早已经被功能化为一个个机械分解的“工业组件”，</p><p data-pid=\"iJjOUaSU\">于是，假如我们需要“友谊”，那么功能化的现代社会就会为友谊提供一个装配——建立共同语言组件的——演播室。</p><h2>所以，共同语言其实纯粹是一个——新闻用语。</h2><p data-pid=\"TefbXJgq\">它的根本属性就是“匿名化”</p><p data-pid=\"rQXsfR2m\">几乎所有的社交软件都是以——寻找共同语言为其根本的吸引力的。</p><p data-pid=\"WuBCLqwy\">说白了，消除“熟人——人情味”，却还想要奢求友谊，则注定了一切友谊都只能成为共同语言的牺牲品。</p><p data-pid=\"-ApoMy48\">于是，工业化开始高效率的生产共同语言的——<b>标准件</b>。</p><p data-pid=\"wW1iwfkX\">你是炮友吗？</p><p data-pid=\"nYyNToZR\">你是网左吗？</p><p data-pid=\"jBZaITX8\">你是国学爱好者吗？</p><p data-pid=\"U8wLRR44\">你是哪种人格？</p><p data-pid=\"nxJ29PZW\">你的星象是什么？</p><p data-pid=\"z_-IIgCc\">八字？</p><p data-pid=\"yKOYjvA8\">资产？</p><p data-pid=\"oGMGy9Tk\">阅历？</p><p data-pid=\"iUz9E3-X\">人脉？</p><p data-pid=\"_NxqUNzm\">……</p><p data-pid=\"t__xQLiK\">很遗憾，一切基于共同语言原则的“纯友谊”最终都只能是一种——商品分类。</p><p data-pid=\"WVa4sZhB\">说白了，现代社会的生产原则，唯一追求的就是“高效率”的——生产</p><h2>所以，当共同语言被寻找到，你会发现一种强烈的同质化的贫乏</h2><p data-pid=\"H7YWI-RG\">作为一种商品分类的共同语言，最终只能带来一种无差别的——消费主义。</p><p data-pid=\"SOaaAO-F\">所以，我想说一个可能对一些朋友来说非常残忍的话。</p><p data-pid=\"DsmWMB_r\">那就是今天一切对“共同语言”的奢求，几乎是所谓纯友谊都充满了虚假人设的根本原因。</p><h2>真正的友谊——这个人际关系的产物，从来都不能成为追求共同语言的——产物。</h2><p data-pid=\"q1D0Pdkz\">我再拿我老娘举个例子</p><p data-pid=\"8NTenXTx\">她跟我来到了湖州，因为工作原因我在那里呆了几年</p><p data-pid=\"J0jGy75F\">住的地方其实人生地不熟，没几个老人</p><p data-pid=\"9Q4jQ7mX\">我甚是担心习惯了吹牛的他老人家，可别憋出毛病来</p><p data-pid=\"v3i5rfYW\">可谁想到，她竟然和小区里比我年龄还小一圈的一群小姑娘成了朋友</p><p data-pid=\"c4FbtiU_\">成天都有一群小丫头片子在楼底下叫我老娘下去压马路，对我这种现代社会的孤独症患者是一件非常匪夷所思的事情。</p><p data-pid=\"BoClBWG0\">直到我因为工作的原因搬到了成都，都过去两三年的现在，只要我老娘哪一天没在朋友圈上发她那一堆花里胡哨图片的早安贴，这群丫头片子都会因为担心她的健康，而把她的微信短暂的呼叫成了bp机（因为她耳朵不好，那个手机收信息的声音调的贼大）。</p><p data-pid=\"6eLbZquj\">我老娘跟人沟通从来没有什么“共同语言”，她只是表现出了她的开朗、热情、好奇和善意。</p><p data-pid=\"Sz2bVCqX\">这不是说她不会自私、暴脾气和小心眼儿，不会因为和你意见不合而说一些刻薄的话。</p><p data-pid=\"cpd8gCzl\">只是我老娘这种在大院里住了一辈子的“普通工人”，她有一种淳朴的对人与人友谊的——想当然。</p><p data-pid=\"EsfrBgtE\">她从来没有考虑过一个现代化的问题——</p><h2>友谊是什么？什么才是纯粹的友谊？</h2><p data-pid=\"MbeVIeMt\">她只有一个非常前现代的思想：</p><h2>人需要友谊难道不就跟吃饭、睡觉、生娃一样自然吗？</h2><p data-pid=\"iQpQcuYI\">如果不是非常讨厌——为什么人和人能没有友谊呢？</p><p data-pid=\"_8cS5dbz\">当我们受制于“共同语言”的前置，同时又苛刻的要求“纯度”</p><p data-pid=\"xe1bvIDX\">友谊——还存在吗？</p><p data-pid=\"c8sVV2x6\">这个建立与人与人模糊的、琐碎的、世俗的、乃至——市侩的人情味上的友谊，</p><p data-pid=\"hmTx2-u8\">在它被现代社会提纯之后，除了成为“社交商品”之外，还能有什么结局呢？</p><hr/><p data-pid=\"jyj3yHS2\">鉴于这个回答突然间有点儿小火，有一些提问和质疑，我想就直接在回答里做个补充吧。</p><p data-pid=\"VkKJRfSl\">首先，我们眼下真实的社会并不是一个<b>纯粹的</b>“现代社会”。</p><p data-pid=\"VMMwbs9M\">什么意思呢？</p><p data-pid=\"50Z7JYeh\">用柄谷行人在《世界史的构造》里的观点就是，从原始社会到当今世界一共存在三种交换结构：</p><h2>馈赠、服从、商品化</h2><p data-pid=\"t-FgDgiJ\">商品化是<b>现代</b>性的，而馈赠、服从是<b>前现代</b>的。</p><p data-pid=\"RePXwF1U\">但柄谷行人自己也非常明确的表示，这三个分类在历史上的演化关系，并不代表这三个分类是一个继承关系。</p><p data-pid=\"GICXRmWE\">就是说现代社会虽然表现出了大量的“商品化”，但其实它的内部也混杂着服从、馈赠的旧交换结构。</p><p data-pid=\"BYpFSsq8\">所以，我对商品化的批判，并不是说具体的“现代社会”不可能产生“真正的友谊”，我是说<b>一个过度排斥前现代交换结构的理念，是不可能产生真正的友谊的</b>。</p><p data-pid=\"PBiGxSBh\">因为<b>服从—保障</b>背后是人与人等级关系中间的“非暴力”，没有了这层关系，统治就是纯粹占有奴隶的物化。</p><p data-pid=\"6c2iyVYT\">而<b>馈赠—交流</b>则是一切人类在友谊中追求真善美的——组织保障，没有了这层关系，最有效的利益诉求就变成了纯粹的劫掠。</p><p data-pid=\"gvZslRH5\">所以，如果我们不能认清楚纯粹的，排斥前现代的，现代理念一定是“去人际化”的商品—物化理念</p><p data-pid=\"UjfACIox\">我们就不会尊重、呵护并且宽容我们生活中的前现代结构的存在。</p><p data-pid=\"YusriraP\">当然，纯粹的前现代——比如纯粹的服从——也并不是好的选择</p><p data-pid=\"W-99ogx-\">但要想哪怕尝试克服商品化的“孤独”，我们也需要珍视前现代中有价值的东西</p><p data-pid=\"o_ogxIoE\">这也是为什么柄谷行人认为，现代社会必须学会<b>在现代性之外</b>，重新找回“馈赠”这个古老的前现代的交换结构，是我们这个世界未来能够走向一个更好形态的——使命。</p><p data-pid=\"v0XBsPMX\">所以，说一千道一万，这个回答并不是想说在真实的——也就是不纯粹的——现代社会中不存在友谊，</p><h2>而是想说如果我们在现代社会中过度的追求人际关系的“现代性”，而把一切前现代都鄙视为“老旧”、“腐朽”或者“压迫”，那么我们这些现代人的生活很可能就只能在原子化的孤独感中，越来越紧迫，越来越迷茫……。</h2><p></p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 108901,
+        "favorite_count": 2699,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3612706843}",
+      "attached_info": "CpQGCJvXw+Pbucq0mAEQBBoJNjg2OTI1NzE1IOf20LYGKLgVMKABQO4DSkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDU2NTM0MTAzMwoYACAAOgBaCTExMDIxOTUxNmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCjM2MTI3MDY4NDOKAQk2NjU3Mzg3NzWqAQlyZWNvbW1lbmTCASBiNTQ1NDc3ZTBkM2E4YzAwMGQ0ZGIwOTEzYTQ4ZTE3NvIBCggMEgZOb3JtYWzyASgIChIkOGQ0ZTIwMmItZTRhMi00ODNhLWE0ZDItMmI4N2I3MDE3YWNl8gEGCAsSAjgzggIAiAKo4sX5jDOSAiBiNTQ1NDc3ZTBkM2E4YzAwMGQ0ZGIwOTEzYTQ4ZTE3NpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIfVFNfU09VUkNFX1pSRUNBTExfSVRFTUNGX1VQVk9URegCA/oCC05PUk1BTF9GTE9XigMgNDdmNDlmOTBhZGU3NDk5Y2E0NTNjZWI3ZGIzNzkxY2SaAw0KAnYyEAAaBW90aGVyqAPl0gbYAwDqAxl0ZXh0QWxsU2l0ZUFjdGlvbkl0ZW1DRlYy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMAfzbE/gQUAAAAAAAAAAIkF943dt5NU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFU5AGAKAG8gOoBgCSAiUKCTY4NjkyNTcxNRIKMzYxMjcwNjg0MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "495_1755822780.352",
+      "type": "feed",
+      "offset": 495,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822780,
+      "updated_time": 1755822780,
+      "target": {
+        "id": "1941286652698927344",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941286652698927344",
+        "author": {
+          "id": "552aa16df0e1f63473ed3815f4bdb842",
+          "url": "https://api.zhihu.com/people/552aa16df0e1f63473ed3815f4bdb842",
+          "user_type": "people",
+          "url_token": "xiao-feng-tong-xue-41-35",
+          "name": "小风同学",
+          "headline": "演员",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d0305032c71ae6a91dd256148a20b9cd_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 617,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755618805,
+        "updated_time": 1755618805,
+        "voteup_count": 261,
+        "thanks_count": 2,
+        "comment_count": 323,
+        "is_copyable": true,
+        "question": {
+          "id": "616417915",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/616417915",
+          "author": {
+            "id": "4f6e51c02b652840628f896fb1b41cc9",
+            "url": "https://api.zhihu.com/people/4f6e51c02b652840628f896fb1b41cc9",
+            "user_type": "people",
+            "url_token": "chang-chang-you-yu",
+            "name": "常常犹豫",
+            "headline": "自在~",
+            "avatar_url": "https://picx.zhimg.com/50/v2-06a512ed277e151bf3fa0ee12a909a8b_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 4,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "郭德纲和郭麒麟关系不好吗？",
+          "created": 1691570900,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 8,
+          "bound_topic_ids": [
+            6134,
+            6354,
+            176153
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "人到中年，讲理说，能理解郭德纲了～ 他早年落魄的时候，前妻把孩子丢给他，然后一走了之 后来他遇到了后面这个妻子王惠，一个唱京东大鼓的角 你说一个男人，长相不出众，离异带孩子，兜里穷得分币没有，这时候有个白富美就相中你了，她肯定你的才华，自带嫁妆，奋不顾身地跟你在一起，陪你白手起家，征战四方，干下偌大的家业，又给你生了一个儿子 是你，你是不是也无以为报呢？所有的钱和爱甚至是命，你都想给她和她为你生的儿…",
+        "excerpt_new": "人到中年，讲理说，能理解郭德纲了～ 他早年落魄的时候，前妻把孩子丢给他，然后一走了之 后来他遇到了后面这个妻子王惠，一个唱京东大鼓的角 你说一个男人，长相不出众，离异带孩子，兜里穷得分币没有，这时候有个白富美就相中你了，她肯定你的才华，自带嫁妆，奋不顾身地跟你在一起，陪你白手起家，征战四方，干下偌大的家业，又给你生了一个儿子 是你，你是不是也无以为报呢？所有的钱和爱甚至是命，你都想给她和她为你生的儿…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"VOmoExMc\">人到中年，讲理说，能理解郭德纲了～</p><p data-pid=\"txrPcQgU\">他早年落魄的时候，前妻把孩子丢给他，然后一走了之</p><p data-pid=\"ndplZZvp\">后来他遇到了后面这个妻子王惠，一个唱京东大鼓的角</p><p data-pid=\"_wWa7yFP\">你说一个男人，长相不出众，离异带孩子，兜里穷得分币没有，这时候有个白富美就相中你了，她肯定你的才华，自带嫁妆，奋不顾身地跟你在一起，陪你白手起家，征战四方，干下偌大的家业，又给你生了一个儿子</p><p data-pid=\"ACnut-UU\">是你，你是不是也无以为报呢？所有的钱和爱甚至是命，你都想给她和她为你生的儿子～</p><p data-pid=\"pbH_IQAf\">有后妈就有后爹，这句话不是假的～郭德纲其实早年对前妻肯定是怨怼的，而这份怨怼，自然转移到了郭麒麟身上～</p><p data-pid=\"pIqOtKw7\">难免苛刻对待他，高标准严要求，这也造就出了大家喜欢的郭麒麟～</p><p data-pid=\"Y5hXz-HE\">说实话，老郭是幸运的，因为郭麒麟没长歪，真的长成了个好孩子，但是所有人都知道，他什么也给不了这儿子了，他能给的东西早已给了后面的妻子和孩子了～</p><p data-pid=\"HMTV1t4s\">他难道不知道学相声又苦又枯燥吗？他舍不得二儿子吃这份苦了，又给不了郭麒麟什么，所以就干脆，把自己的衣钵传给郭麒麟吧，有这身本事，没有钱，郭麒麟也能赚到～总不至于过得落魄了</p><p data-pid=\"KItyKQYX\">郭德纲不是个坏人，他其实只是一个有才华的普通人，普通人的喜爱憎恶他都有，人间百态一路疾苦也没少吃，他幸运的遇到了第二任妻子，他也做到了什么都给她，可是唯独，苦了这大儿子～但是他也没有办法，因为他不能对不起王惠～</p><p data-pid=\"Tjrpayxz\">郭麒麟其实也很幸运，有个好师父（这是郭德纲给的）虽然没有一个好家庭，但是到底是学了一身好本事，（这也是郭德纲给的）在那样的家庭氛围里，高情商也是练出来了～才有了后面那个人见人爱的郭麒麟</p><p data-pid=\"EU-US5qA\">老郭把自己赚得东西都给了王惠和二儿子，但是把自己的衣钵和最厉害的人脉关系可是给了郭麒麟了！</p><p data-pid=\"b_7g_Va5\">老话讲，授人以鱼不如授人以渔～他把毕生钓的鱼给了王惠和二儿子，把怎么钓鱼给了大儿子</p><p data-pid=\"nYVxqFhT\">人不到岁数是理解不到这些东西的，老郭是爱他的大儿子的，只是他也不得已，只有当有一天，郭麒麟经历的足够多了，他才能明白老父亲的一点苦心和对他的爱，至于这个时候郭德纲还在不在，其实都两说了～</p><p data-pid=\"3NKkaRuU\">不过我相信，以郭麒麟的心性，大概在他40岁左右一定能想明白这些东西～</p><p data-pid=\"S1wp_nTG\">老郭是个聪明人，他这么做，王惠不会说什么，小儿子不会说什么～郭麒麟难免有怨怼，但是他的好朋友于谦，会帮他和他的大儿子的～</p><p data-pid=\"oF3jOfPC\">讲理说，换个人易地而处，能做到老郭这两下子都不容易，难保家里鸡飞狗跳～作为一个公众人物，老郭也知道，他这么做，肯定挨骂，他也受着了～如果早些年的处理有问题，那现在为什么不补偿一下大儿子呢？这就说明，这些事都在他心里，他是有意为之的～</p><p data-pid=\"5zxkULns\">所以，能混到他这个地步的人，哪有糊涂蛋啊！心里早都明镜一样了～他和郭麒麟，才是典型的中式父子关系～好与不好，他知道，郭麒麟现在也许不知道，但是以后会知道～</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 75529,
+        "favorite_count": 76,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941286652698927344}",
+      "attached_info": "CuQFCJvXw+Pbucq0mAEQBBoJNzQzMDA5MDExIPW7ksUGKIUCMMMCQO8DSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjISATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg5OTI2MTk5NWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDEyODY2NTI2OTg5MjczNDSKAQk2MTY0MTc5MTWqAQlyZWNvbW1lbmTCASA1NTJhYTE2ZGYwZTFmNjM0NzNlZDM4MTVmNGJkYjg0MvIBCggMEgZOb3JtYWzyASgIChIkYjRhZTAwM2YtOTlhMy00NWI4LThlNDYtMmIxNGNkM2IyYjUw8gEGCAsSAjgzggIAiAKo4sX5jDOSAiA1NTJhYTE2ZGYwZTFmNjM0NzNlZDM4MTVmNGJkYjg0MpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yy6AID+gILTk9STUFMX0ZMT1eKAyA0N2Y0OWY5MGFkZTc0OTljYTQ1M2NlYjdkYjM3OTFjZJoDDQoCdjIQABoFb3RoZXKoA4nOBNgDAOoDDmZlZWRyZV9tc19nYXRl+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEBHDrY/gQUAAAAAAAAAAIkF943dt5NU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFU5AGAKAG8wOoBgCSAi4KCTc0MzAwOTAxMRITMTk0MTI4NjY1MjY5ODkyNzM0NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "496_1755822780.519",
+      "type": "feed",
+      "offset": 496,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822780,
+      "updated_time": 1755822780,
+      "target": {
+        "id": "1941901692514834025",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1941901692514834025",
+        "author": {
+          "id": "60203af309fb30cc155c9c603f336f52",
+          "url": "https://api.zhihu.com/people/60203af309fb30cc155c9c603f336f52",
+          "user_type": "people",
+          "url_token": "huang-zhu-53-74-52",
+          "name": "顶级摸鱼大师",
+          "headline": "大模型学习终极文档",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-31d38bb3c1a78e206d1056b0dca203a4_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "互联网行业 员工"
+            }
+          ],
+          "followers_count": 160,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "万字长文！从 0 到 1 搭建基于 LangGraph 的 AI Agent",
+        "comment_permission": "all",
+        "created": 1755766282,
+        "updated": 1755766282,
+        "voteup_count": 1,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "前言   本节课中，我们迈出关键一步，引入当前 Agent 生态中非常热门的框架—— LangGraph。它基于“有向图”模型，将 Agent 的运行流程抽象为“节点 + 状态流转”，具备结构清晰、易扩展、原生支持多工具/多轮调用等显著优势。通过与手写 Agent 的对比学习，你将切实体会到：借助 LangGraph，我们可以用更高效、更优雅的方式构建复杂智能体系统。LangGraph 简介LangGraph 最核心的设计理念就是 将智能体流程图形化建模。在 LangGra…",
+        "excerpt_new": "前言   本节课中，我们迈出关键一步，引入当前 Agent 生态中非常热门的框架—— LangGraph。它基于“有向图”模型，将 Agent 的运行流程抽象为“节点 + 状态流转”，具备结构清晰、易扩展、原生支持多工具/多轮调用等显著优势。通过与手写 Agent 的对比学习，你将切实体会到：借助 LangGraph，我们可以用更高效、更优雅的方式构建复杂智能体系统。LangGraph 简介LangGraph 最核心的设计理念就是 将智能体流程图形化建模。在 LangGra…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<h2><b>前言</b></h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-16ddb35cdf86b87677f5d7f9d28a6805_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"930\" data-rawheight=\"940\" data-original-token=\"v2-aacd21692545a7359f51e5bb85c8d908\" class=\"origin_image zh-lightbox-thumb\" width=\"930\" data-original=\"https://picx.zhimg.com/v2-16ddb35cdf86b87677f5d7f9d28a6805_r.jpg\"/></figure><p data-pid=\"ClWTtGge\">本节课中，我们迈出关键一步，引入当前 Agent 生态中非常热门的框架——<b>LangGraph</b>。它基于“有向图”模型，将 Agent 的运行流程抽象为“节点 + 状态流转”，具备<b>结构清晰、易扩展、原生支持多工具/多轮调用</b>等显著优势。通过与手写 Agent 的对比学习，你将切实体会到：借助 LangGraph，我们可以用更高效、更优雅的方式构建复杂智能体系统。</p><h2><b>LangGraph 简介</b></h2><p data-pid=\"dISitOxJ\">LangGraph 最核心的设计理念就是<b>将智能体流程图形化建模</b>。在 LangGraph 中，每一个操作单元（比如大模型调用、函数执行、判断逻辑）都是一个 <b>节点（Node）</b>，节点之间通过 <b>边（Edge）</b> 相连接，构成了完整的智能体工作流。特别是，它支持 <b>条件边（Conditional Edges）</b>，可以根据状态决定分支路径，类似于传统的 if-else 语句。这样构建出来的智能体，就像画流程图一样简单、直观，极大地增强了结构可视性与逻辑解耦能力。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-57bfeb1aed2770a33d84758391f392ba_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"933\" data-rawheight=\"716\" data-original-token=\"v2-09d69ce503f079cd66bed72aadf4cad3\" class=\"origin_image zh-lightbox-thumb\" width=\"933\" data-original=\"https://pic3.zhimg.com/v2-57bfeb1aed2770a33d84758391f392ba_r.jpg\"/></figure><p data-pid=\"rdxw5Oy1\">另外，LangGraph 并不只是“把流程画出来”这么简单，它还原生支持三个非常重要的功能：</p><ul><li data-pid=\"f4kgcDFF\">✅ <b>Cyclic Graphs（循环图）</b>：支持智能体在不同节点之间循环跳转，方便实现多轮思考与行动；</li><li data-pid=\"bFC8HtNS\">✅ <b>Persistence（状态持久化）</b>：图中状态可以随时保存、恢复，支持断点续跑与回溯；</li><li data-pid=\"EaQR93dJ\">✅ <b>Human-in-the-loop（人类参与环节）</b>：支持在流程中插入人工确认、反馈或干预节点，增强系统可控性。</li></ul><p data-pid=\"v1oag4H5\">这些功能，若在传统实现中靠代码维护会非常复杂，而 LangGraph 提供了<b>图层级的原生支持</b>，几乎开箱即用。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b634d4aa96ec1a24976c8cbb9a2dd5b9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"864\" data-rawheight=\"759\" data-original-token=\"v2-b4edcc8dd3fe681eb5534e1a1aa50652\" class=\"origin_image zh-lightbox-thumb\" width=\"864\" data-original=\"https://pic4.zhimg.com/v2-b634d4aa96ec1a24976c8cbb9a2dd5b9_r.jpg\"/></figure><h2><b>代码实战</b></h2><h2><b>前期准备</b></h2><p data-pid=\"_hE97b4-\">首先我们可以沿用上一节课创建的环境（没看过的小伙伴可以点击链接查阅一下），但是我们需要额外在终端安装以下这些库：</p><div class=\"highlight\"><pre><code class=\"language-text\">pip install langgraph langchain langchain-openai langchain-community pygraphviz\n</code></pre></div><p data-pid=\"6tx0ir1b\">然后我们还可以配置好大模型的环境，我们只需要写入api_key的信息即可：</p><div class=\"highlight\"><pre><code class=\"language-text\">from langchain_openai import ChatOpenAI\naliyun_api_key = &#39;你的api_key&#39;\nmodel = ChatOpenAI(\n    model=&#34;qwen-plus&#34;,  # 或其他你在 DashScope 控制台启用的模型名\n    openai_api_key=aliyun_api_key,\n    openai_api_base=&#34;https://dashscope.aliyuncs.com/compatible-mode/v1&#34;\n)\n</code></pre></div><p data-pid=\"_E17kGe-\">假如在国外的朋友可以照着原本教程的代码配置Tavily Search，这个API密钥我们可以通过链接（(<a href=\"https://link.zhihu.com/?target=https%3A//www.tavily.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">tavily.com/</span><span class=\"invisible\"></span></a>）去获取。</p><div class=\"highlight\"><pre><code class=\"language-text\">from langchain_community.tools.tavily_search import TavilySearchResults\nimport os\nos.environ[&#34;TAVILY_API_KEY&#34;] = &#34;你的api_key&#34;\ntool = TavilySearchResults(max_results=4) #increased number of results\nprint(type(tool))\nprint([tool.name](http://tool.name/))\n</code></pre></div><p data-pid=\"tuJpu7L7\">但是由于国内无法直接使用，因此这里我们可以替换成国内可用的一个搜查工具——博查。博查算是我发现国内可用里面比较方便快捷的网络搜索工具了，其他百度啊Bing这种用起来都比较复杂，博查算是充值就能用的了。我们可以在博查的官网（<a href=\"https://link.zhihu.com/?target=https%3A//open.bochaai.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">open.bochaai.com/</span><span class=\"invisible\"></span></a>）注册一个账号（可以直接微信登录）。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1eb729b1c9d83dd8c5d184ea98a869bf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"834\" data-rawheight=\"515\" data-original-token=\"v2-c0fb18d15663c47ad1e424a3715a7dce\" class=\"origin_image zh-lightbox-thumb\" width=\"834\" data-original=\"https://pic2.zhimg.com/v2-1eb729b1c9d83dd8c5d184ea98a869bf_r.jpg\"/></figure><p data-pid=\"P9PxF5Eg\">进去后就可以点击右上角的控制台找到账号充值的位置，然后充值10块钱进去尝试一下（真希望广告主能看看我们，这要是个广告位就不用我花钱了）。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-77beb0c5a25b3d9fbf2740c8eabbace3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"911\" data-rawheight=\"631\" data-original-token=\"v2-2772bca8eae59c8b4a9319aa90163e51\" class=\"origin_image zh-lightbox-thumb\" width=\"911\" data-original=\"https://picx.zhimg.com/v2-77beb0c5a25b3d9fbf2740c8eabbace3_r.jpg\"/></figure><p data-pid=\"QZgqfsUE\">然后再点击右边的API KEY管理生成一个属于我们自己的API KEY。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-02f03d4489d1e5bba669d2b454c4d3a0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"926\" data-rawheight=\"627\" data-original-token=\"v2-08eff7c3a379135686d183c6c221f156\" class=\"origin_image zh-lightbox-thumb\" width=\"926\" data-original=\"https://pic1.zhimg.com/v2-02f03d4489d1e5bba669d2b454c4d3a0_r.jpg\"/></figure><p data-pid=\"TLYVzhgY\">拿到这个API KEY以后呢，我们再点击开发文档（<a href=\"https://link.zhihu.com/?target=https%3A//bocha-ai.feishu.cn/wiki/HmtOw1z6vik14Fkdu5uc9VaInBb\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">bocha-ai.feishu.cn/wiki</span><span class=\"invisible\">/HmtOw1z6vik14Fkdu5uc9VaInBb</span><span class=\"ellipsis\"></span></a>）里看看怎么去获取到对应的信息和内容。博查里面其实有好几种不同的搜索方式，这里演示我就使用最普通的Web Search好了。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-fa7f74dd266ca5f611c68e41674a9fb4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"587\" data-rawheight=\"497\" data-original-token=\"v2-eb5dcb66b70fec6e64babbbf8039e52f\" class=\"origin_image zh-lightbox-thumb\" width=\"587\" data-original=\"https://pica.zhimg.com/v2-fa7f74dd266ca5f611c68e41674a9fb4_r.jpg\"/></figure><p data-pid=\"0HiWRG37\">拿到了这个代码内容以后呢，我们其实就要把这个调用的方式封装成LangGraph支持的格式了。这里其实我们就可以去求助一下AI，让其帮我们改一下。那AI哐哧哐哧就写了一个工具出来（当然这里也要几轮的交互，最重要的其实是要把返回的数据结构给到AI，就是真正的通过上面的代码调用一次，把返回的数据结构传给AI，那AI就知道要怎么写了）。我们只需要在最下面写入API_KEY并看看返回的结果即可。</p><div class=\"highlight\"><pre><code class=\"language-text\">from typing import Type\nfrom pydantic import BaseModel, Field, PrivateAttr\nfrom langchain_core.tools import BaseTool\nimport requests\n\n# 输入参数定义\nclass BoChaSearchInput(BaseModel):\n    query: str = Field(..., description=&#34;搜索的查询内容&#34;)\n\n# LangChain Tool 定义\nclass BoChaSearchResults(BaseTool):\n    name: str = &#34;bocha_web_search&#34;\n    description: str = &#34;使用博查API进行网络搜索，可以用来查找实时信息或新闻&#34;\n    args_schema: Type[BaseModel] = BoChaSearchInput\n\n    # 私有属性，用于保存调用参数\n    _api_key: str = PrivateAttr()\n    _count: int = PrivateAttr()\n    _summary: bool = PrivateAttr()\n    _freshness: str = PrivateAttr()\n\n    # 初始化方法\n    def __init__(self, api_key: str, count: int = 5, summary: bool = True, freshness: str = &#34;noLimit&#34;, **kwargs):\n        super().__init__(**kwargs)\n        self._api_key = api_key\n        self._count = count\n        self._summary = summary\n        self._freshness = freshness\n\n    # Tool 实际运行逻辑\n    def _run(self, query: str) -&gt; str:\n        url = &#34;https://api.bochaai.com/v1/web-search&#34;\n        headers = {\n            &#34;Authorization&#34;: f&#34;Bearer {self._api_key}&#34;,\n            &#34;Content-Type&#34;: &#34;application/json&#34;\n        }\n        payload = {\n            &#34;query&#34;: query,\n            &#34;summary&#34;: self._summary,\n            &#34;freshness&#34;: self._freshness,\n            &#34;count&#34;: self._count\n        }\n\n        try:\n            response = requests.post(url, headers=headers, json=payload, timeout=10)\n            response.raise_for_status()\n            data = response.json()\n\n            # ✅ 正确解析返回值中的搜索结果位置\n            results = data.get(&#34;data&#34;, {}).get(&#34;webPages&#34;, {}).get(&#34;value&#34;, [])\n            ifnot results:\n                returnf&#34;未找到相关内容。\\n[DEBUG] 返回数据：{data}&#34;\n\n            # 格式化输出结果\n            output = &#34;&#34;\n            for i, item in enumerate(results[:self._count]):\n                title = item.get(&#34;name&#34;, &#34;无标题&#34;)\n                snippet = item.get(&#34;snippet&#34;, &#34;无摘要&#34;)\n                url = item.get(&#34;url&#34;, &#34;&#34;)\n                output += f&#34;{i+1}. {title}\\n{snippet}\\n链接: {url}\\n\\n&#34;\n\n            return output.strip()\n\n        except Exception as e:\n            returnf&#34;搜索失败: {e}&#34;\n\ntool = BoChaSearchResults(api_key=&#34;你的博查API Key&#34;, count=4)\n\n# 单次使用（模拟 Agent 工具调用）\nresult = tool.invoke({&#34;query&#34;: &#34;阿里巴巴2024年的ESG报告&#34;})\nprint(result)\n</code></pre></div><p data-pid=\"4DB7-Pwd\">测试完没问题以后，我们下面就正式开始关于LangGraph的Agent构件了！</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-15fb6da846647eec062ef4c9323cc9fb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"200\" data-original-token=\"v2-0fe43a109c0c59585a637caf7570c5ba\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-15fb6da846647eec062ef4c9323cc9fb_r.jpg\"/></figure><blockquote data-pid=\"lYo_zgCO\">温馨提示一下，大家测试完记得把单次使用的代码删掉或者注释掉，不然每运行一次都返回结果的话也会浪费token的！</blockquote><h2><b>LangGraph Agent 构建</b></h2><p data-pid=\"TzbTC1df\">无论是节点（node）还是条件边（conditional edge），它们之所以能够实现特定功能，归根结底都依赖于函数的逻辑驱动来完成：</p><ul><li data-pid=\"tfD0MOiP\">  <b>蓝色圆形节点</b> 代表大模型的调用，例如 <code>llm: call_openai</code></li><li data-pid=\"e5ZQcebF\">  <b>橙色圆形节点</b> 表示工具的执行，例如 <code>action: take_action</code></li><li data-pid=\"9_wSm6Gn\">  <b>菱形条件节点</b> 通过函数 <code>exists_action</code> 判断下一步是调用工具还是结束流程</li><li data-pid=\"-uYpxpVM\">⚫ <b>黑色终止节点</b> 表示流程终点（<code>END</code>）</li><li data-pid=\"HCdTPde7\">  <b>蓝色长方形框</b> 表示智能体的“状态存储”（<code>Agent State</code>），用于在每一轮中保留对话历史和工具调用等关键信息</li></ul><p data-pid=\"XMyHKOIw\">基于下图这个简洁示例，我们可以直观理解 LangGraph 的运行机制：用户提出问题 → 调用 LLM → 判断是否需要执行工具 → 如需执行则调用工具并将结果返回给 LLM → 重复判断，直到流程结束，将最终答案返回给用户。这个过程清晰高效，充分体现了 LangGraph 在构建多轮智能体流程中的优势。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a6abd2f9af911431cb146fb926f0b0b6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"851\" data-rawheight=\"364\" data-original-token=\"v2-2de1d44294d2605ac00bd70507e389ea\" class=\"origin_image zh-lightbox-thumb\" width=\"851\" data-original=\"https://pica.zhimg.com/v2-a6abd2f9af911431cb146fb926f0b0b6_r.jpg\"/></figure><h3><b>AgentState 构建</b></h3><p data-pid=\"lEx7T4_l\">在 LangGraph 中，图的运行围绕一个统一的<b>Agent State</b>进行。这个状态结构可以是简单的消息列表（如 <code>messages</code>），也可以是你自定义的复杂结构，包含：</p><ul><li data-pid=\"pCexOfhm\">用户输入内容（input）；</li><li data-pid=\"NANgMwsZ\">对话历史（chat_history）；</li><li data-pid=\"2vNP4RGE\">中间步骤与工具调用记录（intermediate_steps）；</li><li data-pid=\"ppCmZDI6\">逻辑判断需要的标志位等。</li></ul><p data-pid=\"rOfpA2HL\">每个节点都可以读取或修改这个状态，从而实现智能体行为的记忆、调整与追踪。这种显式的状态流，不仅便于调试与维护，也为多轮对话、任务跟踪等高级功能打下了基础。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8ff889398579884a1fdc81182e477e9d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"834\" data-rawheight=\"951\" data-original-token=\"v2-801bbec3292d97de53e060935b9fa19b\" class=\"origin_image zh-lightbox-thumb\" width=\"834\" data-original=\"https://picx.zhimg.com/v2-8ff889398579884a1fdc81182e477e9d_r.jpg\"/></figure><p data-pid=\"sR6MudjZ\">在实际构建 LangGraph 智能体时，我们首先需要定义一个 <code>AgentState</code> 类，用于描述图中各节点在运行过程中共享和修改的“状态结构”。最简单的 <code>AgentState</code> 定义如下，它只包含一个字段 <code>messages</code>，用于存储当前的消息列表：</p><div class=\"highlight\"><pre><code class=\"language-text\">class AgentState(TypedDict):\n    messages: Annotated[list[AnyMessage], operator.add]\n</code></pre></div><p data-pid=\"ZYlnHr9d\">我们来仔细分析这一段代码的含义。</p><p data-pid=\"ozX5evUu\">首先，<code>AgentState</code> 继承自 <code>TypedDict</code>，这是 Python 中用于描述“字典结构”的一种类型注解方式，能够让每个字段拥有明确的名称和类型。默认情况下，Python 的字典是动态的，可以存放任意键值对，例如：</p><div class=\"highlight\"><pre><code class=\"language-text\">data = {&#34;name&#34;: &#34;小明&#34;, &#34;age&#34;: 18}\n</code></pre></div><p data-pid=\"VJjWT2jA\">虽然这种写法很灵活，但当我们构建一个空字典、或者用于多人协作时，别人很难一眼看出这个字典中应该包含哪些字段、每个字段又应该是什么类型。这时就可以通过 <code>TypedDict</code> 来提前约定字典结构，例如告诉开发者：“这个字典中必须有一个 <code>messages</code> 字段，它是一个列表，并且列表中的元素都是 <code>AnyMessage</code> 类型”。</p><p data-pid=\"nLZ8wgHD\">来看字段定义部分：</p><div class=\"highlight\"><pre><code class=\"language-text\">messages: Annotated[list[AnyMessage], operator.add]\n</code></pre></div><p data-pid=\"kgA7rFvw\">其中 <code>messages</code> 是字典的键，右侧的 <code>Annotated[...]</code> 是这个字段的类型说明。<code>Annotated</code> 是 Python 的类型提示工具，它允许我们在基本类型的基础上附加额外的元信息，这些信息虽然不会被 Python 自身使用，但可以被像 LangGraph 或 FastAPI 这样的框架所读取和利用。</p><p data-pid=\"k9WZIuGT\">比如下面的例子：</p><div class=\"highlight\"><pre><code class=\"language-text\">name: Annotated[str, &#34;这是用户输入的名字&#34;]\n</code></pre></div><p data-pid=\"iDkQnGA3\">它本质上和 <code>name: str</code> 是等价的，但在此基础上，我们还给这个变量增加了注释信息，让外部工具能够识别“这个字段是做什么的”。</p><p data-pid=\"POIPDtxj\">在 LangGraph 中，这个 <code>Annotated</code> 的作用非常关键。它告诉框架：如果多个节点都返回 <code>messages</code> 字段的内容，请使用 <code>operator.add</code> 来合并它们。而 <code>operator.add</code> 则是 Python 的内置函数，作用等价于 <code>+</code>，在这里主要用于列表的拼接操作：</p><div class=\"highlight\"><pre><code class=\"language-text\">operator.add([1, 2], [3, 4])  # 返回 [1, 2, 3, 4]\n</code></pre></div><p data-pid=\"5xPuEYix\">所以当多个节点输出了消息列表时，LangGraph 就会自动将这些列表合并为一个完整的消息历史。</p><p data-pid=\"yu0lJKLL\">其中 <code>list[AnyMessage]</code> 表示消息列表，<code>AnyMessage</code> 是 LangChain 中对所有消息类型的统一封装，它可以是用户消息（<code>HumanMessage</code>）、AI 回复（<code>AIMessage</code>）、系统提示（<code>SystemMessage</code>）或工具调用信息（<code>ToolMessage</code>）等。</p><p data-pid=\"5PdlWQ5y\">通过这种机制，我们可以将每一步交互的上下文（包括系统提示、用户提问、AI 回复等）都保存在 <code>AgentState[&#34;messages&#34;]</code> 中，从而让整个智能体始终保持清晰连贯的对话历史。</p><p data-pid=\"BXyeFVxJ\">例如，在一次典型的调用过程中，<code>AgentState</code> 可能如下变化：</p><div class=\"highlight\"><pre><code class=\"language-text\"># 第一步：初始化系统提示词\nAgentState = {\n    &#34;messages&#34;: [SystemMessage(content=&#34;你是一个有用的人工智能助手&#34;)]\n}\n\n# 第二步：用户发起提问\nAgentState = {\n    &#34;messages&#34;: [\n        SystemMessage(content=&#34;你是一个有用的人工智能助手&#34;),\n        HumanMessage(content=&#34;你好&#34;)\n    ]\n}\n\n# 第三步：AI 生成回复\nAgentState = {\n    &#34;messages&#34;: [\n        SystemMessage(content=&#34;你是一个有用的人工智能助手&#34;),\n        HumanMessage(content=&#34;你好&#34;),\n        AIMessage(content=&#34;你好，我是通义千问大模型&#34;)\n    ]\n}\n</code></pre></div><p data-pid=\"DvkjwJ0J\">这样每次 LangGraph 中的节点运行时，都可以通过完整的消息历史做出更有上下文感知的判断或回应。</p><p data-pid=\"AOc_22jG\">当然，<code>AgentState</code> 并不一定只包含 <code>messages</code> 一个字段。我们也可以根据需要拓展为更复杂的结构，例如：</p><div class=\"highlight\"><pre><code class=\"language-text\">class AgentState(TypedDict):\n    input: str\n    chat_history: list[BaseMessage]\n    agent_outcome: Union[AgentAction, AgentFinish, None]\n    intermediate_steps: Annotated[list[tuple[AgentAction, str]], operator.add]\n</code></pre></div><p data-pid=\"WI1Ah9Is\">通过这种方式，我们就能更精准地控制智能体的中间状态、处理逻辑和返回结果。</p><p data-pid=\"5jzVW866\">另外，除了<code>operate.add</code>这一种操作的方式以外，其实还有其他的操作方式，比如说我们可以自己设置一个函数，让AgentState里每种类型的信息只保留一条，比如有新的<code>AIMessage</code>进来就只保留新的<code>AIMessage</code>，旧的就删掉这样。最后我们再在AgentState中的<code>operate.add</code>替换为<code>reduce_message</code>即可，具体的代码如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">from uuid import uuid4\nfrom langchain_core.messages import AnyMessage, SystemMessage, HumanMessage, AIMessage\n\n&#34;&#34;&#34;\n在之前的示例中，我们通常为 `messages` 这个状态字段设置默认的合并方式 `operator.add`（也就是使用 `+`），\n它的作用是每次都将新消息追加到原来的消息列表末尾。\n\n现在，为了支持“替换已有消息”的能力，我们为 `messages` 字段指定了一个自定义的合并函数 `reduce_messages`。\n这个函数的功能是：如果新消息中有某条消息的 id 与已有消息重复，就用新消息替换旧的；否则就将其追加到末尾。\n&#34;&#34;&#34;\n\n# 自定义消息合并函数\ndef reduce_messages(left: list[AnyMessage], right: list[AnyMessage]) -&gt; list[AnyMessage]:\n    # 为新传入的消息设置唯一 id（如果还没有的话）\n    for message in right:\n        ifnot message.id:\n            message.id = str(uuid4())  # 生成一个唯一的 UUID 作为 id\n\n    # 拷贝一份旧的消息列表，用于合并操作\n    merged = left.copy()\n\n    # 遍历新消息\n    for message in right:\n        # 检查该新消息是否和旧消息中的某条 id 相同\n        for i, existing in enumerate(merged):\n            if existing.id == message.id:\n                # 如果 id 相同，则用新消息替换旧消息\n                merged[i] = message\n                break\n        else:\n            # 如果没有重复 id，则将新消息追加到末尾\n            merged.append(message)\n\n    return merged\n\n# 定义 Agent 的状态结构，使用自定义合并函数来处理 messages 字段\nclass AgentState(TypedDict):\n    messages: Annotated[list[AnyMessage], reduce_messages]\n</code></pre></div><p data-pid=\"9xF-JwX3\">综上所述，<code>AgentState</code> 的本质就是构建智能体“流程图”中的状态存储核心。它通过类型约束明确字段结构，通过 <code>Annotated</code> 机制指导 LangGraph 的状态合并行为，是整个智能体正常运作的关键基础之一。接下来我们会进一步看看其他组件是如何与 <code>AgentState</code> 配合完成智能体任务流程的。</p><h3><b>创建 Agent 框架</b></h3><p data-pid=\"1zvKgRVu\">所谓创建框架，其实就是我们需要按照下面图片的样子搭建起Agent的基本节点内容：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-63929ea5b50b131749cc6e9c58d30be6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"851\" data-rawheight=\"364\" data-original-token=\"v2-d62e226265a5a01ac93e22ecc976fc89\" class=\"origin_image zh-lightbox-thumb\" width=\"851\" data-original=\"https://pica.zhimg.com/v2-63929ea5b50b131749cc6e9c58d30be6_r.jpg\"/></figure><p data-pid=\"XmoAQ14O\">这一切的起点，就是创建一个名为 <code>Agent</code> 的类，并在其中定义一个构造方法（<code>def __init__:</code>）。这个构造方法会在我们每次实例化 <code>Agent</code> 时自动被调用，用于<b>初始化这个 Agent 的内部状态</b>。我们后续要实现的节点配置、交互逻辑等核心内容，都会在这个构造方法中逐步完善。</p><div class=\"highlight\"><pre><code class=\"language-text\">class Agent:\n    def __init__(self):\n</code></pre></div><p data-pid=\"2FAF5YtO\">这里的 <code>self</code> 是 Python 中类的一个关键字，代表“当前实例对象的引用”。借助 <code>self</code>，我们可以在类的方法中<b>访问并修改这个对象自身的属性或方法</b>。</p><p data-pid=\"NU0o7gTG\">举个例子，如果我们希望为 Agent 设置一个系统提示词 <code>system</code>（默认为空字符串），就可以这样写：</p><div class=\"highlight\"><pre><code class=\"language-text\">class Agent:\n    def __init__(self, system=&#34;&#34;):\n      self.system = system\n\nabot = Agent(&#34;你是一个友好的机器人&#34;)\nprint(abot.system)  # 输出：你是一个友好的机器人\n</code></pre></div><p data-pid=\"S_R6kvdb\">这里的 <code>self.system = system</code> 就是说：把这个<code>system</code> 储存在当前的 <code>Agent</code> 对象里，这样以后我们就可以通过 <code>abot.name</code> 来访问这个值。</p><p data-pid=\"lkTjwBPU\">接下来，我们将基于 LangGraph 来构建<b>状态驱动的智能体流程图（graph）</b>。这个流程图是智能体运行的核心框架，它由多个节点组成，每个节点都共享一个统一的状态结构。</p><p data-pid=\"e70OsoJM\">构建流程图的第一步，就是使用 LangGraph 中的 <code>StateGraph</code> 类。它的初始化需要传入一个状态定义，也就是我们在上一节中构建好的 <code>AgentState</code> 类型结构。具体示例如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">from langgraph.graph import StateGraph\nclass Agent:\n    def __init__(self, system=&#34;&#34;):\n      self.system = system\n      graph = StateGraph(AgentState)\n</code></pre></div><p data-pid=\"GyS9qA7t\">当我们完成了 <code>graph</code> 的定义之后，接下来的工作，就是往这个流程图中逐步添加各类节点，定义它们之间的连接关系与状态流转逻辑。下面是一个典型的智能体初始化结构，我们在其中依次添加了几个关键节点：</p><div class=\"highlight\"><pre><code class=\"language-text\">from langgraph.graph import StateGraph, END\n\nclass Agent:\n    def __init__(self, system=&#34;&#34;):\n        self.system = system\n        graph = StateGraph(AgentState)\n\n        # 添加大模型调用节点\n        graph.add_node(&#34;llm&#34;, self.call_openai)\n\n        # 添加工具执行节点\n        graph.add_node(&#34;action&#34;, self.take_action)\n\n        # 添加条件跳转逻辑：\n        # 如果 llm 的输出中包含 tool_calls，就跳转到 action 节点执行；\n        # 否则直接结束流程（END）\n        graph.add_conditional_edges(\n            &#34;llm&#34;,\n            self.exists_action,\n            {True: &#34;action&#34;, False: END}\n        )\n\n        # 执行完 action 节点后，再回到 llm 节点继续处理对话\n        graph.add_edge(&#34;action&#34;, &#34;llm&#34;)\n\n</code></pre></div><p data-pid=\"gvB3eLDC\">我们来逐条解释一下这些步骤的作用：</p><ul><li data-pid=\"rQD0GrYi\"><br/>✅ <b>添加节点</b>：使用 <code>graph.add_node(&#34;节点名称&#34;, 对应函数)</code> 的方式，将某个逻辑单元注册为图中的一个节点。这里的 <code>&#34;llm&#34;</code> 和 <code>&#34;action&#34;</code> 就分别对应模型调用和工具调用两个核心逻辑。<br/></li><li data-pid=\"3vmhT4Oj\"><br/>  <b>添加条件跳转</b>：通过 <code>graph.add_conditional_edges(...)</code> 方法，我们可以为某个节点添加“判断分支”。这个方法接受三个参数：<br/>其中 <code>END</code> 是 LangGraph 中的流程终止标志，表示不再进入其他节点。<br/></li></ul><ol><li data-pid=\"nJJkgIDx\">当前节点名（如 <code>&#34;llm&#34;</code>）；</li><li data-pid=\"qjL0wIL8\">判断函数（如 <code>self.exists_action</code>），返回 <code>True</code> 或 <code>False</code>；</li><li data-pid=\"NF3hs0MA\">判断结果对应的下一跳分支，用字典表示，例如 <code>{True: &#34;action&#34;, False: END}</code>。</li></ol><li data-pid=\"oZk6MFOW\"><br/>  <b>添加普通边</b>：除了条件跳转外，我们还可以用 <code>graph.add_edge(&#34;前一节点&#34;, &#34;后一节点&#34;)</code> 来添加常规的线性连接，比如将 <code>&#34;action&amp;</code>quot; 节点执行完后回到 <code>&#34;llm&amp;</code>quot; 节点，继续对话。<br/></li><p data-pid=\"HinhpoNy\">通过以上这几个步骤，我们就可以用代码将一个完整的对话流程以图的方式搭建起来了。LangGraph 会根据你定义的节点和边，自动控制整个智能体在运行时的流程调度。接下来我们将继续构建这些节点的具体功能函数，让它们真正动起来。</p><p data-pid=\"lFfbcA8N\">除了设置节点以外，其实我需要设置一些其他的内容，比如说我们要设置一下graph的起始点，不然代码就知道从哪开始了。还有就是我们现在的graph对象还只是一个草图，假如想要让其成为一个可执行的版本，我们还需要通过<code>.compile()</code>方法使其<b>“编译”成最终执行版本。</b>然后我们也需要去将所有能够使用的工具以及作为Agent大脑的模型接入进来，这样才能完整的构造出一个可真正被使用的模型。</p><div class=\"highlight\"><pre><code class=\"language-text\">class Agent:\n    def __init__(self, model, tools, system=&#34;&#34;):\n        self.system = system\n        graph = StateGraph(AgentState)\n        graph.add_node(&#34;llm&#34;, self.call_openai)\n        graph.add_node(&#34;action&#34;, self.take_action)\n        graph.add_conditional_edges(\n            &#34;llm&#34;,\n            self.exists_action,\n            {True: &#34;action&#34;, False: END}\n        )\n        graph.add_edge(&#34;action&#34;, &#34;llm&#34;)\n        graph.set_entry_point(&#34;llm&#34;)\n        self.graph = graph.compile()\n        self.tools = {t.name: t for t in tools}\n        self.model = model.bind_tools(tools)\n</code></pre></div><p data-pid=\"BU6vMqEk\">那我具体来讲讲新的这两部分：</p><ul><li data-pid=\"9RmSxSSr\"><code>self.tools = {t.name: t for t in tools}</code></li></ul><p data-pid=\"k7DTLZa2\">那在LangChain当中，一般来说我们传入工具都是一个列表，比如说长这样：</p><div class=\"highlight\"><pre><code class=\"language-text\">tools = [\n    Tool(name=&#34;search_weather&#34;, func=search_weather_func),\n    Tool(name=&#34;calculate&#34;, func=calculator_func)\n]\n</code></pre></div><p data-pid=\"OAUKJ8TW\">那么这一句执行完后，<code>self.tools</code> 就是：</p><div class=\"highlight\"><pre><code class=\"language-text\">{\n    &#34;search_weather&#34;: Tool(...),\n    &#34;calculate&#34;: Tool(...)\n}\n</code></pre></div><p data-pid=\"XeNNKlHH\"><b>这个字典的作用</b>是在工具调用节点（例如 <code>take_action()</code>）中，通过：</p><div class=\"highlight\"><pre><code class=\"language-text\">tool = self.tools[t[&#39;name&#39;]]\nresult = tool.invoke(t[&#39;args&#39;])\n</code></pre></div><p data-pid=\"fmSmuex9\">快速从名字找到对应工具并调用。</p><ul><li data-pid=\"VPM8l26n\"><code>self.model = model.bind_tools(tools)</code></li></ul><p data-pid=\"xImUdrk3\">这句话的作用就是把这些工具“绑定”到语言模型中，让模型在推理时<b>知道可以调用哪些工具</b>，并在需要时<b>自动生成调用指令（tool_calls）</b>。</p><p data-pid=\"nXgq2Q_M\">在没有绑定工具前，模型只会生成纯文本回复：</p><div class=\"highlight\"><pre><code class=\"language-text\">AI: 今天天气晴，25度。\n</code></pre></div><p data-pid=\"woiVAD-w\">绑定工具后，模型可以生成结构化调用：</p><div class=\"highlight\"><pre><code class=\"language-text\">{\n  &#34;tool_calls&#34;: [\n    {\n      &#34;name&#34;: &#34;search_weather&#34;,\n      &#34;args&#34;: {\n        &#34;city&#34;: &#34;北京&#34;\n      }\n    }\n  ]\n}\n</code></pre></div><p data-pid=\"Hu_XbzaL\">所以这就是在初始阶段将model和tools进行绑定，告诉模型在后续的流程中到底有哪些工具可以进行使用。</p><p data-pid=\"CTJEftlB\">这样我们初始的Agent就搭建完成啦！我们根据下图构建了控制整体内部记忆的AgentState，并且也构建起传入llm然后根据conditional_edge判断是否执行的流程，这样只需要我们将三个函数补充起来，我们就可以开启Agent的判定和使用啦！</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c2679730ab5508910a78363c00c2a8b5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"851\" data-rawheight=\"364\" data-original-token=\"v2-837843f40e530cb6c68ae49c6ee96251\" class=\"origin_image zh-lightbox-thumb\" width=\"851\" data-original=\"https://pic4.zhimg.com/v2-c2679730ab5508910a78363c00c2a8b5_r.jpg\"/></figure><h3><b>大语言模型调用(call_openai)</b></h3><p data-pid=\"e0THvxtP\">我们接下来要编写的是智能体中“大模型调用”的逻辑函数，也就是 <code>call_openai</code> 方法，它的核心职责是：<b>根据当前对话状态，调用语言模型并返回回复消息。</b></p><div class=\"highlight\"><pre><code class=\"language-text\">    def call_openai(self, state: AgentState):\n        messages = state[&#39;messages&#39;]\n        if self.system:\n            messages = [SystemMessage(content=self.system)] + messages\n        message = self.model.invoke(messages)\n        return {&#39;messages&#39;: [message]}\n\n</code></pre></div><p data-pid=\"lo5xS7yc\">由于我们在 <code>Agent</code> 类的初始化过程中，已经传入并绑定好了语言模型 <code>model</code>，同时也完成了工具注册，因此这里我们<b>无需再额外配置模型调用方式</b>，只需要负责整理输入信息，并将其传递给模型即可。</p><p data-pid=\"yohL5D4s\">以下是该方法的几个关键点说明：</p><ul><li data-pid=\"IP4UwHQg\"><code>state: AgentState</code> ：</li></ul><p data-pid=\"Smuj9wyu\">大家可能会好奇，这是干嘛呢？怎么又有state又有AgentState，难道这不是重复了吗？</p><p data-pid=\"3S-wd5Ts\">那学过函数的可能都知道，我们一般在这个括号里写入的是变量。这里其实就是代表函数输入有两个变量，一个是内部变量self，另一个就是需要传入的变量state。</p><p data-pid=\"4imI10LC\">这个冒号其实代表的含义是<b>要传入一个和 AgentState 定义的结构相同的字典对象</b>才行，否则编辑器或类型检查器（如 mypy）会报错。</p><ul><li data-pid=\"2PVUFO8x\"><code>messages = state[&#39;messages&#39;]</code></li></ul><p data-pid=\"8iTOHyYD\">这段代码其实就是字典检索的方法，根据<code>&#39;messages&#39;</code>这个键，把对应后面<b>所有存有对话记录的列表获取出来</b>。最后将其保存在变量messages里面，这时候messages里就存放了一个列表了。</p><ul><li data-pid=\"sqaGwsq7\"><code>messages = [SystemMessage(content=self.system)] + messages</code></li></ul><p data-pid=\"qiUdhGpC\">这一段是判断我们在初始化 <code>Agent</code> 时是否提供了系统提示词 <code>self.system</code>。如果有，就将其封装成一个 <code>SystemMessage</code> 对象，并添加到 <code>messages</code> 列表的最前面，确保语言模型在生成回复时，能优先读取这一指导信息。</p><p data-pid=\"Qj3nGKYW\">举个例子，假设当前 <code>messages</code> 是空的，<code>self.system = &#34;你是一个友好的人工智能助手&#34;</code>，那执行完后结果如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">messages = []\nif True:\n  messages = [SystemMessage(content=&#39;你是一个友好的人工智能助手&#39;)] + messages\n  \n# 最后的messages将变成:\nmessages = [SystemMessage(content=&#39;你是一个友好的人工智能助手&#39;)]\n</code></pre></div><ul><li data-pid=\"gMaP6uh2\"><code>message = self.model.invoke(messages)</code></li></ul><p data-pid=\"w_n4Jqhi\">最后呢，我们就可以调用存好在内部变量<code>self</code>里面的<code>model</code>，并使用LangChain常用的调用方法<code>.invoke()</code>进行调用，同时将添加了系统提示词的所有信息放入，最终让大模型生成回复。</p><p data-pid=\"0NBRU0jp\">最终返回的内容其实是一个LangChain格式的AIMessage，最后我们return回来的东西其实就是可以用于符合AgentState格式定义的<code>{&#39;messages&#39;: [message]}</code>。后续就可以把这部分信息给添加到AgentState中。</p><p data-pid=\"2na-5NLL\">这样，我们就完成了一个完整的语言模型调用流程： 从输入 <code>state</code> 提取上下文 → 整理消息 → 模型调用 → 生成并返回新消息，整个过程简洁高效。</p><h3><b>工具使用判定（exists_action）</b></h3><p data-pid=\"73Cv5bu9\">在这个conditional_edge里，我们需要判断是要执行action节点。那我们怎么知道要不要执行工具呢？其实还是通过存在AgentState里面的内容来进行判定。</p><p data-pid=\"ZcAEdEhL\">还记得我们前面讲过，大模型的返回内容里如果包含工具调用的提示，那就说明它打算用工具，那我们就跳转去执行 <code>action</code> 节点；反之则结束流程，走向 <code>END</code>。</p><div class=\"highlight\"><pre><code class=\"language-text\">    def exists_action(self, state: AgentState):\n        result = state[&#39;messages&#39;][-1]\n        return len(result.tool_calls) &gt; 0\n</code></pre></div><p data-pid=\"C--D6u3c\">那从这个代码里也能看出，我们也是找到<code>AgentState</code>里最后一条传入的信息（<code>[-1]</code>就代表找的是最新的一条），然后使用LangGraph里的<code>.tool_calls</code>的方法去看到底有几条方法可以调用。</p><p data-pid=\"WtXZYraV\">只要其数量（用<code>len()</code>函数来计算）大于0，那就返回<code>True</code>。要是等于0的话（当然不可能＜0），那就返回<code>False</code>。这样我们也就算是实现了控制了。</p><p data-pid=\"pxhgdguI\">那我们可以重点看看这里的<code>.tool_calls</code>是干嘛用的：</p><p data-pid=\"VrgcaKI9\">其实<code>.tool_calls</code> 是大模型<b>请求调用外部工具时，生成的结构化调用指令</b>。也就是说，<b>模型不仅能说话，还能“指挥”工具运行</b>，它通过 <code>.tool_calls</code> 来告诉你。比如我们可以让通过提示词AI返回的内容写成下面的格式：</p><div class=\"highlight\"><pre><code class=\"language-text\">AIMessage(\n    content=&#34;&#34;,  # 如果模型想调用工具，这里一般是空\n    tool_calls=[\n        {\n            &#34;id&#34;: &#34;tool_call_1&#34;,\n            &#34;name&#34;: &#34;search_weather&#34;,\n            &#34;args&#34;: {&#34;city&#34;: &#34;北京&#34;}\n        }\n    ]\n)\n</code></pre></div><p data-pid=\"E9OWBFnR\">这里面的content就是模型回复的文本内容，假如调用工具的时候就不回复文本内容而是返回<code>tool_calls</code>的内容。那这个时候我们去看<code>result.tool_calls</code>其实就是获取了以下这个列表：</p><div class=\"highlight\"><pre><code class=\"language-text\">[\n        {\n            &#34;id&#34;: &#34;tool_call_1&#34;,\n            &#34;name&#34;: &#34;search_weather&#34;,\n            &#34;args&#34;: {&#34;city&#34;: &#34;北京&#34;}\n        }\n    ]\n)\n</code></pre></div><p data-pid=\"NuhMlwuR\">只要这个列表里的字典数量大于0，那就返回True，不然就返回False。很显然这里出现了一个，所以返回的<code>len(result.tool_calls)</code>应该就等于1，那1&gt;0自然返回的就是True，去执行action节点了！</p><h3><b>执行模型（take_action）</b></h3><p data-pid=\"Q6TXQ5cj\">那最后一个我们需要写的函数就是执行模型了，其实和上面类似，第一步我们还是要获取到底哪些工具需要被调用。然后一个个去执行并获取结果。假如工具不存在，那就返回警告信息，假如没有问题就正常拿去执行即可。</p><div class=\"highlight\"><pre><code class=\"language-text\">def take_action(self, state: AgentState):\n    # 从当前状态中取出最新一条消息的 tool_calls（即模型请求调用的工具列表）\n    tool_calls = state[&#39;messages&#39;][-1].tool_calls\n    results = []  # 用于存放每个工具调用的执行结果（最终会作为 ToolMessage 返回）\n\n    # 遍历每一个工具调用请求\n    for t in tool_calls:\n        print(f&#34;Calling: {t}&#34;)  # 打印当前调用的信息，便于调试观察\n\n        # 如果调用的工具名称不在 self.tools 中，说明模型调用了一个无效的工具\n        ifnot t[&#39;name&#39;] in self.tools:\n            print(&#34;\\n ....bad tool name....&#34;)  # 打印警告信息\n            result = &#34;bad tool name, retry&#34;    # 返回提示信息，通知模型重试\n        else:\n            # 调用注册的实际工具函数，并传入模型提供的参数\n            result = self.tools[t[&#39;name&#39;]].invoke(t[&#39;args&#39;])\n\n        # 将执行结果打包成一个 ToolMessage（LangChain 约定格式），用于反馈给模型\n        results.append(\n            ToolMessage(\n                tool_call_id=t[&#39;id&#39;],  # 对应这次调用的 ID\n                name=t[&#39;name&#39;],        # 工具名称\n                content=str(result)    # 工具返回的结果（转成字符串）\n            )\n        )\n\n    print(&#34;Back to the model!&#34;)  # 调用结束，准备将结果送回模型进行下一轮回复\n    return {&#39;messages&#39;: results}  # 返回格式为一个包含 ToolMessage 列表的 dict，LangGraph 会自动加进 state[&#39;messages&#39;]\n</code></pre></div><p data-pid=\"keym2Fxz\">最后我们返回的内容就是一个ToolMessage的列表，展示其完整的情况。</p><p data-pid=\"rJSOqyJ2\">这里可以举一个简单的例子，假设我们获取到的工具就是像上面一样的搜索温度的例子：</p><div class=\"highlight\"><pre><code class=\"language-text\">tool_calls = [\n    {\n        &#34;id&#34;: &#34;call1&#34;,\n        &#34;name&#34;: &#34;search_weather&#34;,\n        &#34;args&#34;: {&#34;city&#34;: &#34;北京&#34;}\n    }\n]\n\n</code></pre></div><p data-pid=\"KSdZIBFH\">查找工具 <code>search_weather</code>，执行：</p><div class=\"highlight\"><pre><code class=\"language-text\">search_weather(&#34;北京&#34;)  → &#34;北京 今天晴，气温26℃\n</code></pre></div><p data-pid=\"nm8eR213\">然后包装成 <code>ToolMessage</code>：</p><div class=\"highlight\"><pre><code class=\"language-text\">ToolMessage(\n    tool_call_id=&#34;call1&#34;,\n    name=&#34;search_weather&#34;,\n    content=&#34;北京 今天晴，气温26℃&#34;\n)\n</code></pre></div><p data-pid=\"1FdN73mu\">最后这个信息也将保存到AgentState中等待进一步的运行。</p><h3><b>实例创建及可视化</b></h3><p data-pid=\"aRK3gBEv\">在我们构建出来这个Agent的框架以后，就可以进行创建了。当然在此之前我们需要先配置好提示词prompt。</p><div class=\"highlight\"><pre><code class=\"language-text\">prompt = &#34;&#34;&#34;你是一名聪明的科研助理。可以使用搜索引擎查找信息。\n你可以多次调用搜索（可以一次性调用，也可以分步骤调用）。\n只有当你确切知道要找什么时才去检索信息。\n如果在提出后续问题之前需要先检索信息，你也可以这样做！\n&#34;&#34;&#34;\n</code></pre></div><p data-pid=\"zjJTvznN\">然后就可以将创建Agent类必要的三个内容一并传入：</p><div class=\"highlight\"><pre><code class=\"language-text\">abot = Agent(model, [tool], system=prompt)\n</code></pre></div><p data-pid=\"LN06CRnP\">然后假如是在Juypter Notebook去运行的话可以运行下面的代码打印出当前Agent的整体框架图：</p><div class=\"highlight\"><pre><code class=\"language-text\">from IPython.display import Image\n\nImage(abot.graph.get_graph().draw_png())\n</code></pre></div><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-03794b52d71c4ed9e37403fb902273d2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"355\" data-rawheight=\"365\" data-original-token=\"v2-7555a7a3d3005c4877c4974e3be1cffb\" class=\"content_image\" width=\"355\"/></figure><p data-pid=\"jdo0bvgc\">假如本地运行安装不了pygraphviz库的话我们可以通过以下代码简单看到其整体的框架：</p><div class=\"highlight\"><pre><code class=\"language-text\">ascii_diagram = abot.graph.get_graph().draw_ascii()\nprint(ascii_diagram)\n</code></pre></div><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-259de6939b02cfe18ff8b4a846dd0f32_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"921\" data-rawheight=\"429\" data-original-token=\"v2-8daf6e2072e810421c7dd36449700506\" class=\"origin_image zh-lightbox-thumb\" width=\"921\" data-original=\"https://pic1.zhimg.com/v2-259de6939b02cfe18ff8b4a846dd0f32_r.jpg\"/></figure><h3><b>实际调用</b></h3><p data-pid=\"dftoFFS_\">在确保我们的模型创建好了以后，我们可以开始进行实际调用的环节了。</p><p data-pid=\"FiKL4DFL\">首先我们需要通过<code>HumanMessage</code>写入我们的问题，然后也是通过abot.graph.inoke的方式传入我们的问题给到我们创建的Agent类，最终我们可以打印出对应的结果：</p><div class=\"highlight\"><pre><code class=\"language-text\">messages = [HumanMessage(content=&#34;What is the weather in sf?&#34;)]\nresult = abot.graph.invoke({&#34;messages&#34;: messages})\nprint(result[&#39;messages&#39;][-1].content)\n</code></pre></div><p data-pid=\"NBd3T0kj\">我们可以看到，模型并未虚构了一个气候的信息给我们，相反其真的调用了我们设置的工具bocha_web_search，并且得到了准确的信息！因此我们可以看到这个Agent流程是真实可用的！</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-85d3bc3f2ba685b99ba678cb32d45756_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"251\" data-original-token=\"v2-7ed94c558f0fe7785de24c3a4e81914d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-85d3bc3f2ba685b99ba678cb32d45756_r.jpg\"/></figure><p data-pid=\"ZRwYuR8U\">完整代码如下所示：</p><div class=\"highlight\"><pre><code class=\"language-text\">from langgraph.graph import StateGraph, END\nfrom typing import TypedDict, Annotated, Type\nimport operator\nfrom langchain_core.messages import AnyMessage, SystemMessage, HumanMessage, ToolMessage\nfrom langchain_openai import ChatOpenAI\nfrom pydantic import BaseModel, Field, PrivateAttr\nfrom langchain_core.tools import BaseTool\nimport requests\n\n# ----------------------------- Tool 定义 -----------------------------\nclass BoChaSearchInput(BaseModel):\n    query: str = Field(..., description=&#34;搜索的查询内容&#34;)\n\nclass BoChaSearchResults(BaseTool):\n    name: str = &#34;bocha_web_search&#34;\n    description: str = &#34;使用博查API进行网络搜索，可用来查找实时信息或新闻&#34;\n    args_schema: Type[BaseModel] = BoChaSearchInput\n\n    _api_key: str = PrivateAttr()\n    _count: int = PrivateAttr()\n    _summary: bool = PrivateAttr()\n    _freshness: str = PrivateAttr()\n\n    def __init__(self, api_key: str, count: int = 5, summary: bool = True, freshness: str = &#34;noLimit&#34;, **kwargs):\n        super().__init__(**kwargs)\n        self._api_key = api_key\n        self._count = count\n        self._summary = summary\n        self._freshness = freshness\n\n    def _run(self, query: str) -&gt; str:\n        url = &#34;https://api.bochaai.com/v1/web-search&#34;\n        headers = {\n            &#34;Authorization&#34;: f&#34;Bearer {self._api_key}&#34;,\n            &#34;Content-Type&#34;: &#34;application/json&#34;\n        }\n        payload = {\n            &#34;query&#34;: query,\n            &#34;summary&#34;: self._summary,\n            &#34;freshness&#34;: self._freshness,\n            &#34;count&#34;: self._count\n        }\n\n        try:\n            response = requests.post(url, headers=headers, json=payload, timeout=10)\n            response.raise_for_status()\n            data = response.json()\n\n            results = data.get(&#34;data&#34;, {}).get(&#34;webPages&#34;, {}).get(&#34;value&#34;, [])\n            ifnot results:\n                returnf&#34;\\u672a\\u627e\\u5230\\u76f8\\u5173\\u5185\\u5bb9\\u3002\\n[DEBUG] \\u8fd4\\u56de\\u6570\\u636e\\uff1a{data}&#34;\n\n            output = &#34;&#34;\n            for i, item in enumerate(results[:self._count]):\n                title = item.get(&#34;name&#34;, &#34;\\u65e0\\u6807\\u9898&#34;)\n                snippet = item.get(&#34;snippet&#34;, &#34;\\u65e0\\u6458\\u8981&#34;)\n                url = item.get(&#34;url&#34;, &#34;&#34;)\n                output += f&#34;{i+1}. {title}\\n{snippet}\\n\\u94fe\\u63a5: {url}\\n\\n&#34;\n\n            return output.strip()\n\n        except Exception as e:\n            returnf&#34;\\u641c\\u7d22\\u5931\\u8d25: {e}&#34;\n\n# ----------------------------- 智能体状态定义 -----------------------------\nclass AgentState(TypedDict):\n    messages: Annotated[list[AnyMessage], operator.add]\n\n# ----------------------------- Agent 实现 -----------------------------\nclass Agent:\n\n    def __init__(self, model, tools, system=&#34;&#34;):\n        self.system = system\n        graph = StateGraph(AgentState)\n        graph.add_node(&#34;llm&#34;, self.call_openai)\n        graph.add_node(&#34;action&#34;, self.take_action)\n        graph.add_conditional_edges(&#34;llm&#34;, self.exists_action, {True: &#34;action&#34;, False: END})\n        graph.add_edge(&#34;action&#34;, &#34;llm&#34;)\n        graph.set_entry_point(&#34;llm&#34;)\n        self.graph = graph.compile()\n        self.tools = {t.name: t for t in tools}\n        self.model = model.bind_tools(tools)\n\n    def exists_action(self, state: AgentState):\n        result = state[&#39;messages&#39;][-1]\n        return len(result.tool_calls) &gt; 0\n\n    def call_openai(self, state: AgentState):\n        messages = state[&#39;messages&#39;]\n        if self.system:\n            messages = [SystemMessage(content=self.system)] + messages\n        message = self.model.invoke(messages)\n        return {&#39;messages&#39;: [message]}\n\n    def take_action(self, state: AgentState):\n        tool_calls = state[&#39;messages&#39;][-1].tool_calls\n        results = []\n        for t in tool_calls:\n            print(f&#34;Calling: {t}&#34;)\n            ifnot t[&#39;name&#39;] in self.tools:\n                print(&#34;\\n ....bad tool name....&#34;)\n                result = &#34;bad tool name, retry&#34;\n            else:\n                result = self.tools[t[&#39;name&#39;]].invoke(t[&#39;args&#39;])\n            results.append(ToolMessage(tool_call_id=t[&#39;id&#39;], name=t[&#39;name&#39;], content=str(result)))\n        print(&#34;Back to the model!&#34;)\n        return {&#39;messages&#39;: results}\n\n# ----------------------------- 模型和启动 -----------------------------\nprompt = &#34;&#34;&#34;\\\n你是一名聪明的科研助理。可以使用搜索引擎查找信息。\n你可以多次调用搜索（可以一次性调用，也可以分步骤调用）。\n只有当你确切知道要找什么时，才去检索信息。\n如果在提出后续问题之前需要先检索信息，你也可以这样做！\n&#34;&#34;&#34;\n\naliyun_api_key = &#39;你的api_key&#39;\nmodel = ChatOpenAI(\n    model=&#34;qwen-plus&#34;,\n    openai_api_key=aliyun_api_key,\n    openai_api_base=&#34;https://dashscope.aliyuncs.com/compatible-mode/v1&#34;\n)\n\ntool = BoChaSearchResults(api_key=&#34;你的api_key&#34;, count=4)\nabot = Agent(model, [tool], system=prompt)\n# 绘制当前的 Graph\n# ascii_diagram = abot.graph.get_graph().draw_ascii()\n# print(ascii_diagram)\n# ----------------------------- 测试使用 -----------------------------\nmessages = [HumanMessage(content=&#34;What is the weather in sf?&#34;)]\nresult = abot.graph.invoke({&#34;messages&#34;: messages})\nprint(result[&#39;messages&#39;][-1].content)\n</code></pre></div><h2><b>总结</b></h2><p data-pid=\"m_RC4Mcm\">在本节课中，我们成功将传统手搓 Agent 流程迁移到了 LangGraph 框架中，通过节点（Node）、边（Edge）和条件（Conditional Edge）构建出一个结构清晰、逻辑闭环的智能体流程图。所有对话状态被统一封装在 <code>AgentState</code> 中，实现了消息上下文的自动累积；工具调用与模型推理被分离为专职节点，大大提升了流程的可控性与可扩展性。同时，通过 <code>model.bind_tools()</code>，我们实现了模型自动识别何时该调用工具（如博查搜索），真正迈入了“让大模型主动思考再行动”的智能体范式。</p><p data-pid=\"Jt2Rrvoc\">其实平心而论，相比上节课我们手搓的Agent，其实LangGraph的流程显得是更复杂一些，因为里面用到的一些方法并不是我们日常学习的一些简单的方法。</p><p data-pid=\"IaDV1kX8\">全套的 AI 大模型学习资源已经整理打包，有需要的可以<b>点击下方知乎小卡片前往免费获取↓</b>↓↓↓</p><a href=\"https://zhuanlan.zhihu.com/p/1938650842937942448\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">2025大模型全套入门学习教程：免费分享AI大模型入门学习教程</a><p></p>",
+        "is_labeled": false,
+        "visited_count": 69,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-aacd21692545a7359f51e5bb85c8d908_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-09d69ce503f079cd66bed72aadf4cad3_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b4edcc8dd3fe681eb5534e1a1aa50652_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-801bbec3292d97de53e060935b9fa19b_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 7,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1941901692514834025}",
+      "attached_info": "CpoLCJvXw+Pbucq0mAEQBxoJMjYyMDY0MzA2IIq8m8UGKAEwAEDwA0ojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDESATAYACAAOgBKLQoiVFNfU09VUkNFX1dBUk1fVVBfSElHSF9JTlRFUkFDVElPThIBMBgAIAA6AGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE5MDE2OTI1MTQ4MzQwMjWqAQlyZWNvbW1lbmTCASA2MDIwM2FmMzA5ZmIzMGNjMTU1YzljNjAzZjMzNmY1MvIBCggMEgZOb3JtYWzyASgIChIkYzM2YWRiNTctNzY5Zi00NTlkLWE0NzQtYjZlMjhhMTBiNTI28gEGCAsSAjgzggIAiAKo4sX5jDOSAiA2MDIwM2FmMzA5ZmIzMGNjMTU1YzljNjAzZjMzNmY1MpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDHoAgP6AgtOT1JNQUxfRkxPV4oDIDQ3ZjQ5ZjkwYWRlNzQ5OWNhNDUzY2ViN2RiMzc5MWNkmgMNCgJ2MhAAGgVvdGhlcqgDRdgDAOoDHnRleHRfaGlnaF9pbnRlcmFjdGlvbl9yZWNhbGxlcvoD4AUSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCiBxisByIjdjItYWFjZDIxNjkyNTQ1YTczNTlmNTFlNWJiODVjOGQ5MDg6LQgCEKUHGMwFIiN2Mi0wOWQ2OWNlNTAzZjA3OWNkNjZiZWQ3MmFhZGY0Y2FkMzotCAIQ4AYY9wUiI3YyLWI0ZWRjYzhkZDNmZTY4MWViNTUzNGUxYTFhYTUwNjUyOi0IAhDCBhiDBCIjdjItYzBmYjE4ZDE1NjYzYzQ3YWQxZTQyNGEzNzE1YTdkY2U6LQgCEI8HGPcEIiN2Mi0yNzcyYmNhOGVhZTU5YzhiNGE5MzE5YWE5MDE2M2U1MTotCAIQngcY8wQiI3YyLTA4ZWZmN2MzYTM3OTEzNTY4NmQxODNjNmMyMjFmMTU2Oi0IAhDLBBjxAyIjdjItZWI1ZGNiNjZiNzBmZWM2ZTY0YmFiYmJmODAzOWU1MmY6LQgCELgIGMgBIiN2Mi0wZmU0M2ExMDljMGM1OTU4NWE2MzdjYWY3NTcwYzViYTotCAIQ0wYY7AIiI3YyLTJkZTFkNDQyOTRkMjYwNWFjMDBiZDcwNTA3ZTM4OWVhOi0IAhDCBhi3ByIjdjItODAxYmJlYzMyOTJkOTdkZTUzZTA2MDkzNWI5ZmExOWI6LQgCENMGGOwCIiN2Mi1kNjJlMjI2MjY1YTVhMDFhYzkzZTIyZWNjOTc2ZmM4OTotCAIQ0wYY7AIiI3YyLTgzNzg0M2Y0MGU1MzBjYjZjNjhhZTQ5YzZlZTk2MjUxOi0IAxDjAhjtAiIjdjItNzU1NWE3YTNkMzAwNWM0ODc3YzQ5NzRlM2JlMWNmZmI6LQgCEJkHGK0DIiN2Mi04ZGFmNmUyMDcyZTgxMDQyMWM3ZGQzNjQ0OTcwMDUwNjotCAMQuAgY+wEiI3YyLTdlZDk0YzU1OGYwZmU3Nzg1ZGUyNGMzYTRlODE5MTRkgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACA03SEP4EFAAAAAAAAAACJBfeN3beTVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVOQBgCgBvQDqAYBkgIuCgkyNjIwNjQzMDYSEzE5NDE5MDE2OTI1MTQ4MzQwMjUYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "497_1755822780.17",
+      "type": "feed",
+      "offset": 497,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822780,
+      "updated_time": 1755822780,
+      "target": {
+        "id": "1894864050317415008",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1894864050317415008",
+        "author": {
+          "id": "d673bc88590e533ba4e16bfb400faa5e",
+          "url": "https://api.zhihu.com/people/d673bc88590e533ba4e16bfb400faa5e",
+          "user_type": "people",
+          "url_token": "rongjieAI",
+          "name": "荣姐聊AI",
+          "headline": "专注AI学习，AI智能体，AI编程",
+          "avatar_url": "https://picx.zhimg.com/50/v2-a2d672efc6ac82fe1fce63f94937f25e_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "CISSP 注册信息系统安全认证专家证书持证人"
+            }
+          ],
+          "followers_count": 1441,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "别再造轮子了！Dify+MCP+DeepSeek开发实战保姆级教程",
+        "comment_permission": "all",
+        "created": 1744550929,
+        "updated": 1744550994,
+        "voteup_count": 101,
+        "voting": 0,
+        "comment_count": 26,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "之前分享过几篇关于MCP的文章，但都是在客户端中调用的，比如Cherry Studio，比如Cline，但它们都有一个共同的局限：当我在这些平台上调用MCP Server时，这些操作都仅限于我的本地环境，无法分享给他人，也无法在我们构建的Agent中使用。 这就像是建造了一座华丽的城堡，却没有桥梁让他人前来参观。 我当时一直在想，要是Coze或Dify能支持MCP调用就好了！这样我们就可以在工作流中轻松调用MCP，实现更加复杂和强大的功能。 Dify…",
+        "excerpt_new": "之前分享过几篇关于MCP的文章，但都是在客户端中调用的，比如Cherry Studio，比如Cline，但它们都有一个共同的局限：当我在这些平台上调用MCP Server时，这些操作都仅限于我的本地环境，无法分享给他人，也无法在我们构建的Agent中使用。 这就像是建造了一座华丽的城堡，却没有桥梁让他人前来参观。 我当时一直在想，要是Coze或Dify能支持MCP调用就好了！这样我们就可以在工作流中轻松调用MCP，实现更加复杂和强大的功能。 Dify…",
+        "preview_type": "default",
+        "preview_text": "",
+        "column": {
+          "id": "c_1842328497697189888",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1842328497697189888",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "AI工具",
+          "imageUrl": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "intro": "介绍好用的AI工具，分析自己实操过程",
+          "updated": 1732025342,
+          "is_following": false
+        },
+        "content": "<p data-pid=\"n-MeFfFR\">之前分享过几篇关于MCP的文章，但都是在客户端中调用的，比如Cherry Studio，比如Cline，但它们都有一个共同的局限：当我在这些平台上调用MCP Server时，这些操作都仅限于我的本地环境，无法分享给他人，也无法在我们构建的Agent中使用。</p><p data-pid=\"dLCsY-k-\">这就像是建造了一座华丽的城堡，却没有桥梁让他人前来参观。</p><p data-pid=\"Ucy0pwN6\">我当时一直在想，要是Coze或Dify能支持MCP调用就好了！这样我们就可以在工作流中轻松调用MCP，实现更加复杂和强大的功能。</p><p data-pid=\"gNvNS8NQ\">Dify这次还是真的给力，很快就有了相应的插件出来了。</p><p data-pid=\"ZaUuYbba\">今天给大家分享一下Dify中使用MCP Server的用法。<b>需要注意的是目前Dify中支持的是通过SSE接入的MCP Server，</b>我们在使用的时候需要注意一下。</p><p data-pid=\"8wSxqD0D\">SSE 是一种基于 HTTP 协议的、<b>服务器向客户端单向推送事件</b>的技术。你可以把它想象成一个“只听不说”的广播频道。当 Agent 需要调用一个 MCP 工具并等待可能持续一段时间的反馈时（比如复杂的计算或实时数据流），MCP Server 可以通过 SSE 通道，持续地将处理状态、中间结果或最终答案“推送”给 Agent，而不需要 Agent 反复去“询问”服务器“好了没有”。这种方式相比传统的轮询请求，效率更高，也更适合处理流式或异步的响应。</p><p data-pid=\"und90bGU\"><b>废话不多说了，下面给大家拆解一下在 Dify 中集成支持 SSE 接入的高德地图 MCP 服务，并结合 DeepSeek 大模型的实际案例。</b></p><p data-pid=\"yFM_Cqjl\"><b>一、Dify安装插件</b></p><p data-pid=\"UoMi7BVn\">1、点击右上角插件，选择从Marketplace中安装，搜索mcp，找到&#34;MCP_SSE&#34;，点击安装。</p><p data-pid=\"aTLT4x2a\"><b>MCP SSE：</b>一种可与一个或多个 MCP Server 通信的工具类型插件，用于在 Agent 类型应用中实现外部工具的“发现”与“调用”能力，采用 HTTP + Server-Sent Events (SSE) 传输机制。</p><p data-pid=\"YOxoOiTV\"><b>MCP Agent Strategy：</b>通过 Agent 策略将 MCP 协议直接整合进 Workflow 的 Agent 节点，使 Agent 能根据 MCP 协议逻辑自由调用外部工具，实现“AI 自主决策 + 动态调用工具”的能力。</p><p data-pid=\"LNHa9g84\">本示例用MCP SSE插件就足够了。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-af0eabd3594ff5902d899a62ba2262d9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2546\" data-rawheight=\"794\" data-original-token=\"v2-f47c1d47a0cf9773dbd64f13627f0faf\" class=\"origin_image zh-lightbox-thumb\" width=\"2546\" data-original=\"https://picx.zhimg.com/v2-af0eabd3594ff5902d899a62ba2262d9_r.jpg\"/></figure><p data-pid=\"zOSq8DeC\">2、给插件授权</p><p data-pid=\"wpWuRlPh\">在插件中找到刚才安装的&#34;MCP_SSE&#34;，鼠标单击，选择去授权。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9b1990376325af1ee6a983efe6ae640f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2488\" data-rawheight=\"964\" data-original-token=\"v2-4d623d8fea916afaa9f9a1c003522d89\" class=\"origin_image zh-lightbox-thumb\" width=\"2488\" data-original=\"https://pic4.zhimg.com/v2-9b1990376325af1ee6a983efe6ae640f_r.jpg\"/></figure><p data-pid=\"6zWBPlhD\">把ulr更改为我们要设置的MCP Server的SSE地址。</p><p data-pid=\"9ZGMpf-R\">今天荣姐以高德地图为例，所以要更改为高德地图的SSE地址。</p><div class=\"highlight\"><pre><code class=\"language-json\"><span class=\"p\">{</span>  \n<span class=\"nt\">&#34;server_name&#34;</span><span class=\"p\">:</span>\n <span class=\"p\">{</span>    \n<span class=\"nt\">&#34;url&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;https://mcp.amap.com/sse?key=你的高德API KEY&#34;</span><span class=\"p\">,</span> \n<span class=\"nt\">&#34;headers&#34;</span><span class=\"p\">:</span> <span class=\"p\">{},</span> \n<span class=\"nt\">&#34;timeout&#34;</span><span class=\"p\">:</span> <span class=\"mi\">60</span><span class=\"p\">,</span>    \n<span class=\"nt\">&#34;sse_read_timeout&#34;</span><span class=\"p\">:</span> <span class=\"mi\">300</span>  <span class=\"p\">}</span>\n<span class=\"p\">}</span></code></pre></div><p data-pid=\"OCMF_TOn\"><b>二、获取高度地图API KEY</b></p><p data-pid=\"QBRkyEKE\">1、打开高德开放平台：<a href=\"https://link.zhihu.com/?target=https%3A//lbs.amap.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">lbs.amap.com/</span><span class=\"invisible\"></span></a></p><p data-pid=\"ZZzBordl\">从官网上看到高德地图已支持SSE解决方案了。SSE接入方式无需本地安装环境。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-806d9eb8d5fae96a48fbcca19400987e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2328\" data-rawheight=\"822\" data-original-token=\"v2-d287c0f2de4b60faf3a065827ae527f2\" class=\"origin_image zh-lightbox-thumb\" width=\"2328\" data-original=\"https://pic3.zhimg.com/v2-806d9eb8d5fae96a48fbcca19400987e_r.jpg\"/></figure><p data-pid=\"XTX5tK4M\">点击立即使用，点击右侧SSE方式接入MCP服务，可以看到这个url地址了。</p><p data-pid=\"w8LLZBbe\">&#34;url&#34;: &#34;<a href=\"https://link.zhihu.com/?target=https%3A//mcp.amap.com/sse%3Fkey%3D\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">mcp.amap.com/sse?</span><span class=\"invisible\">key=</span><span class=\"ellipsis\"></span></a>您在高德官网上申请的key&#34;</p><p data-pid=\"MZASQAvH\">这个地址就是我们需要在Dify的插件中授权需要更换的地址。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9bd1044590e8260fd15aa680e8012509_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2507\" data-rawheight=\"901\" data-original-token=\"v2-39290bc8215eabeed3ea028f05312a42\" class=\"origin_image zh-lightbox-thumb\" width=\"2507\" data-original=\"https://picx.zhimg.com/v2-9bd1044590e8260fd15aa680e8012509_r.jpg\"/></figure><p data-pid=\"I43cBLec\">2、点击右上角登录网站，可以使用短信登录方式。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a8abbbc735dbe15a6b55c0be0bf9e1a1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1321\" data-rawheight=\"646\" data-original-token=\"v2-fba8d4696b661066bb02ead5659c43d2\" class=\"origin_image zh-lightbox-thumb\" width=\"1321\" data-original=\"https://picx.zhimg.com/v2-a8abbbc735dbe15a6b55c0be0bf9e1a1_r.jpg\"/></figure><p data-pid=\"KBPZrZpd\">3、点击控制台。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2f9b0fe166324f45776448188c5395cc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2284\" data-rawheight=\"636\" data-original-token=\"v2-11ba86aae40c13601de7d4cef59ea2ef\" class=\"origin_image zh-lightbox-thumb\" width=\"2284\" data-original=\"https://pic3.zhimg.com/v2-2f9b0fe166324f45776448188c5395cc_r.jpg\"/></figure><p data-pid=\"yAyBpAv3\">4、注册成为开发者。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8ec2f2f8de6855416b97df744d1ac8f3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1657\" data-rawheight=\"951\" data-original-token=\"v2-c7537bb676b6c8c40772786f36073ec2\" class=\"origin_image zh-lightbox-thumb\" width=\"1657\" data-original=\"https://pic4.zhimg.com/v2-8ec2f2f8de6855416b97df744d1ac8f3_r.jpg\"/></figure><p data-pid=\"5kuexq1E\">5、填写邮箱及验证码，使用支付宝进行实名认证。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-26859e9f462df06eb83acf67f2ae8236_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1192\" data-rawheight=\"1217\" data-original-token=\"v2-5815151a8b4f3c503b07b0ad16fe0740\" class=\"origin_image zh-lightbox-thumb\" width=\"1192\" data-original=\"https://pic1.zhimg.com/v2-26859e9f462df06eb83acf67f2ae8236_r.jpg\"/></figure><p data-pid=\"HpIQHdaZ\">6、在控制台中选择应用管理-&gt;我的应用，点击创建新应用。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-983b38f7356965595567c155ac8b7b24_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2560\" data-rawheight=\"1000\" data-original-token=\"v2-c1fa959f41a9b12a1889da6a88ff5942\" class=\"origin_image zh-lightbox-thumb\" width=\"2560\" data-original=\"https://pic3.zhimg.com/v2-983b38f7356965595567c155ac8b7b24_r.jpg\"/></figure><p data-pid=\"xiPsZwy8\">7、填写应用名称及应用类型。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d243c7d502cc697fa6b2aa79749f5ff2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"871\" data-rawheight=\"389\" data-original-token=\"v2-0aba95df48023535e3e401d466f32de9\" class=\"origin_image zh-lightbox-thumb\" width=\"871\" data-original=\"https://pica.zhimg.com/v2-d243c7d502cc697fa6b2aa79749f5ff2_r.jpg\"/></figure><p data-pid=\"RqMkL7z4\">8、点击添加key</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-679bd66a58e414d79a18c5b9e2dc3079_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2210\" data-rawheight=\"435\" data-original-token=\"v2-425509afeaae3f026a397809c3338191\" class=\"origin_image zh-lightbox-thumb\" width=\"2210\" data-original=\"https://pic2.zhimg.com/v2-679bd66a58e414d79a18c5b9e2dc3079_r.jpg\"/></figure><p data-pid=\"vAI8o30B\">填写Key的名称及服务平台，如果需要开启IP白名单，可以进行设置。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d5342352ed878101c5a9b40b88d74fdf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1061\" data-rawheight=\"1245\" data-original-token=\"v2-50168bd6e72222d88461d149f2441f89\" class=\"origin_image zh-lightbox-thumb\" width=\"1061\" data-original=\"https://pic4.zhimg.com/v2-d5342352ed878101c5a9b40b88d74fdf_r.jpg\"/></figure><p data-pid=\"-w9Jzntz\">提交后再我的应用中可以看到Key的值了。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6795b2e374fde9e2455dda05b31c09c1_1440w.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2217\" data-rawheight=\"355\" data-original-token=\"v2-6795b2e374fde9e2455dda05b31c09c1\" class=\"origin_image zh-lightbox-thumb\" width=\"2217\" data-original=\"https://pic2.zhimg.com/v2-6795b2e374fde9e2455dda05b31c09c1_r.jpg\"/></figure><p data-pid=\"5vFc-LBr\">9、费用问题，高德地图API Key都提供每日免费配额，大部分是每日5000次，够用了。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1c31b5e2771c8c7ae040c0cf2c040fe5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2184\" data-rawheight=\"1589\" data-original-token=\"v2-db25548e67b607ab60ed6fe11a5e97e4\" class=\"origin_image zh-lightbox-thumb\" width=\"2184\" data-original=\"https://picx.zhimg.com/v2-1c31b5e2771c8c7ae040c0cf2c040fe5_r.jpg\"/></figure><p data-pid=\"sXotHV9M\">10、现在我们可以拼接高德地图SSE地址的完整URL了。</p><p data-pid=\"kth2MCmD\"><b>三、Dify测试</b></p><p data-pid=\"2K8Fl5yJ\">先在插件中进行授权。</p><p data-pid=\"LO8ai33Y\">1、新建一个空白应用，选择Agent类型。填写应用名称和描述。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fdefd89a463054bb1cc86c5a806661d1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1125\" data-rawheight=\"1073\" data-original-token=\"v2-9d7eccb8d5daacbb7d93630321033b7d\" class=\"origin_image zh-lightbox-thumb\" width=\"1125\" data-original=\"https://pic4.zhimg.com/v2-fdefd89a463054bb1cc86c5a806661d1_r.jpg\"/></figure><p data-pid=\"ArSk6weT\">2、Agent配置</p><p data-pid=\"1dvyI-f1\">添加MCP工具，选择“通过SSE发现和调用MCP工具”，把【获取MCP工具列表】和【调用MCP工具】都添加进去。</p><p data-pid=\"2XTRePNt\">大模型选择了DeepSeek R1。提示词中最好明确提出调用MCP工具。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9492cdfdd9bd549c52fb61ff34121fd2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2528\" data-rawheight=\"1074\" data-original-token=\"v2-dff6d956613de5df9c3b9c8f279b35f9\" class=\"origin_image zh-lightbox-thumb\" width=\"2528\" data-original=\"https://pic1.zhimg.com/v2-9492cdfdd9bd549c52fb61ff34121fd2_r.jpg\"/></figure><p data-pid=\"zlZgC6zH\">3、测试任务：查询北京望京到故宫的交通路线。</p><p data-pid=\"8oCoXQRT\">最终结果如下：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cd67adbec2e272f45dc51d84de4a6109_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1120\" data-rawheight=\"948\" data-original-token=\"v2-faf3ec0ee424b61e23fe2ec99997f956\" class=\"origin_image zh-lightbox-thumb\" width=\"1120\" data-original=\"https://picx.zhimg.com/v2-cd67adbec2e272f45dc51d84de4a6109_r.jpg\"/></figure><p data-pid=\"tWpCz8pO\">可以对比一下高德地图查询的结果：</p><p data-pid=\"tKXaUVEA\">北京望京地铁既可以乘坐14号线，也可以乘坐15号线。</p><p data-pid=\"Qe3ipGbS\">从地铁15号线的行程来看，都是15号线转8号线，在奥林匹克公园换乘，内容基本一致。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c44a8b0dae798c4b4409c1b0acc6525f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"524\" data-rawheight=\"1334\" data-original-token=\"v2-4d9c4bbf06658aba8862739f7931d4d6\" class=\"origin_image zh-lightbox-thumb\" width=\"524\" data-original=\"https://pic4.zhimg.com/v2-c44a8b0dae798c4b4409c1b0acc6525f_r.jpg\"/></figure><p data-pid=\"G4Xvp1a6\"><b>四、调用流程详解</b></p><p data-pid=\"abB1L9iZ\">在执行的过程中才可以看到整个的思考过程。</p><p data-pid=\"QS4W925v\">DeepSeek R1果然还是深度思考最值得借鉴。</p><p data-pid=\"woOfz47I\">还记得之前在Agent里面添加工具吗，里面添加了两个工具：</p><p data-pid=\"nuJ_ijC5\"><b>获取MCP工具列表（mcp_sse_list_tools）：通过 HTTP with SSE 传输来获取 MCP 服务端的工具列表。</b></p><p data-pid=\"9ex_lEr8\"><b>调用MCP工具（mcp_sse_call_tool）：通过 HTTP with SSE 传输来调用 MCP服务端工具。</b></p><p data-pid=\"itXEi5us\"><b>所以其实第一步就是执行获取工具列表，先去查看mcp中可用工具列表。</b>如下图，返回了高德地图中所有可用的工具列表。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8ac6d7c45c11f2a40fb61369f0409317_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"962\" data-rawheight=\"658\" data-original-token=\"v2-54f18990e041f304473346bdb21e23da\" class=\"origin_image zh-lightbox-thumb\" width=\"962\" data-original=\"https://picx.zhimg.com/v2-8ac6d7c45c11f2a40fb61369f0409317_r.jpg\"/></figure><p data-pid=\"fMjHaMjq\">工具列表拿到后，DeepSeek R1思考接下来需要怎么做的过程。</p><p data-pid=\"0IneQ9vP\">首先是确定任务中北京望京和北京故宫的经纬度，通过调用maps_geo来获取地点的经纬度信息。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-729f33c4edffa6633c05aeba80295f1c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"900\" data-rawheight=\"771\" data-original-token=\"v2-29c8cf0b09cf576c6bf11a63104a0133\" class=\"origin_image zh-lightbox-thumb\" width=\"900\" data-original=\"https://pic1.zhimg.com/v2-729f33c4edffa6633c05aeba80295f1c_r.jpg\"/></figure><p data-pid=\"SigmtOCc\">获取经纬度过程：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0a8f94a21fce27136673e9e8aa605858_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"876\" data-rawheight=\"368\" data-original-token=\"v2-c9fc4d2fa722dceebe5e0b31a6e3344e\" class=\"origin_image zh-lightbox-thumb\" width=\"876\" data-original=\"https://pic3.zhimg.com/v2-0a8f94a21fce27136673e9e8aa605858_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-bf61947d80447316dcb6365005331f2e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"834\" data-rawheight=\"243\" data-original-token=\"v2-abf95a630ad316fc7f136d50a7462498\" class=\"origin_image zh-lightbox-thumb\" width=\"834\" data-original=\"https://pic3.zhimg.com/v2-bf61947d80447316dcb6365005331f2e_r.jpg\"/></figure><p data-pid=\"dFwFzQEk\">然后调用公交路径规划函数maps_direction_transit_integrated获取具体的路径信息。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3905d4c4bdcc9cc06c12e7dddf647187_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"971\" data-rawheight=\"891\" data-original-token=\"v2-be9498a3e07022a97be24e2e7ec4295c\" class=\"origin_image zh-lightbox-thumb\" width=\"971\" data-original=\"https://pic4.zhimg.com/v2-3905d4c4bdcc9cc06c12e7dddf647187_r.jpg\"/></figure><p data-pid=\"0_wioPS3\">最后显示了DeepSeek R1最终汇总出来的结果。</p><p data-pid=\"ApDtw42V\">比较贴心的是还给出了故宫每周一闭馆，提前通过小程序预约的提示。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cd67adbec2e272f45dc51d84de4a6109_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1120\" data-rawheight=\"948\" data-original-token=\"v2-faf3ec0ee424b61e23fe2ec99997f956\" class=\"origin_image zh-lightbox-thumb\" width=\"1120\" data-original=\"https://picx.zhimg.com/v2-cd67adbec2e272f45dc51d84de4a6109_r.jpg\"/></figure><p data-pid=\"i3O-GT3n\">观察DeepSeek R1如何一步步规划并多次调用MCP工具的过程，不禁让我陷入深思：技术的进步不仅仅是功能的叠加，更是思维方式的革新。</p><p data-pid=\"nifjis4U\">MCP协议的出现，就像是给AI开发者们提供了一套标准化的&#34;乐高积木&#34;。我们不再需要从零开始构建每一个功能，不再需要重复造轮子，而是可以像搭积木一样，将各种现成的能力组合起来，打造出千变万化的AI应用。</p><p data-pid=\"Wu2z-QZM\">想象一下，如果将高德地图、天气预报、票务查询、酒店预订等MCP服务组合起来，我们就能轻松构建一个完整的旅行助手；结合企业内部数据和外部信息源，我们可以打造强大的决策支持系统；甚至可以将专业领域的知识和工具整合起来，创造出垂直行业的AI专家。</p><p data-pid=\"VBbPI9WU\"><b>这是一种全新的&#34;组合式开发&#34;范式</b>，它将大幅降低AI应用的开发成本和门槛，让更多人能够参与到AI创新的浪潮中来。我坚信，随着MCP生态的不断丰富，我们将看到更多令人惊叹的AI应用涌现。</p><p data-pid=\"av81us4H\">而Dify与DeepSeek的完美结合，则为这一切提供了坚实的基础设施支持。通过简单的配置，我们就能够让AI大模型灵活调用各种外部工具，实现真正的&#34;思考+行动&#34;能力。</p><p data-pid=\"RJ2C3QJg\">对于开发者而言，这意味着我们可以将更多精力放在业务逻辑和用户体验上，而不是重复开发基础功能；对于用户而言，这意味着他们将获得更加智能、更加实用的AI助手。</p><p data-pid=\"yfRZqqH1\"><b>所以，别再造轮子了！</b> 拥抱MCP，拥抱这个开放互联的AI新时代。</p>",
+        "is_labeled": false,
+        "visited_count": 20824,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-5f54c4a8c7a543b85345f6e33d371424_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-22bb32f214bcff1638889780dd985c28_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b9ef306f20183ee4857d9112a1809c16_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8577decc34f0e0c4b587c34539f370f5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c9d03971d246c6b781000f861fe7cbf0_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-e7e2b23d40c1b945cf775ff8e96f4c82_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-34c5ee7508bc13e454a6280d7b97fc71_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f090b022a631a5198a7693cf0b03245a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8c3b1420ff1e277ed41cf86ad85378fb_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-8744765aa5aa37c7437c4a44aa8fec49_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-414b7dc010fa744a8b15021d510e9fae_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e7c21b8d1b1ed6a0e2a2acff8fe1085f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-688e3a5f3c1906582bed5f91067935a2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-be26ececf3a2e1d7ec2515158cd19582_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2c516f4375e2e7a26ea73a075503b21d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-aff344ce93420556ff50f74bd4a97b2f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-688e3a5f3c1906582bed5f91067935a2_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 405,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1894864050317415008}",
+      "attached_info": "CrUPCJvXw+Pbucq0mAEQBxoJMjU2MzYxMDI1IJH47r8GKGUwGkDxA0oxCiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMRIBMBgAIAA6AEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMTM1OTU0NTRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxODk0ODY0MDUwMzE3NDE1MDA4igEVY18xODQyMzI4NDk3Njk3MTg5ODg4qgEJcmVjb21tZW5kwgEgZDY3M2JjODg1OTBlNTMzYmE0ZTE2YmZiNDAwZmFhNWXyAQoIDBIGTm9ybWFs8gEoCAoSJGMwMzAyNDI3LWQyMjUtNGVjYy04MmI1LWVlZDg0ZGQzYjUwNfIBBggLEgI4M4ICAIgCqOLF+YwzkgIgZDY3M2JjODg1OTBlNTMzYmE0ZTE2YmZiNDAwZmFhNWWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCF1NhbWVBdXRob3JJc29sYXRpb25SdWxl2gImVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjHoAgP6AgtOT1JNQUxfRkxPV4oDIDQ3ZjQ5ZjkwYWRlNzQ5OWNhNDUzY2ViN2RiMzc5MWNkmgMNCgJ2MhAAGgVvdGhlcqgD2KIB2AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6A4cJEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ8hMYmgYiI3YyLWY0N2MxZDQ3YTBjZjk3NzNkYmQ2NGYxMzYyN2YwZmFmOi0IAhC4ExjEByIjdjItNGQ2MjNkOGZlYTkxNmFmYWE5ZjlhMWMwMDM1MjJkODk6LQgCEJgSGLYGIiN2Mi1kMjg3YzBmMmRlNGI2MGZhZjNhMDY1ODI3YWU1MjdmMjotCAIQyxMYhQciI3YyLTM5MjkwYmM4MjE1ZWFiZWVkM2VhMDI4ZjA1MzEyYTQyOi0IAxCpChiGBSIjdjItZmJhOGQ0Njk2YjY2MTA2NmJiMDJlYWQ1NjU5YzQzZDI6LQgDEOwRGPwEIiN2Mi0xMWJhODZhYWU0MGMxMzYwMWRlN2Q0Y2VmNTllYTJlZjotCAIQ+QwYtwciI3YyLWM3NTM3YmI2NzZiNmM4YzQwNzcyNzg2ZjM2MDczZWMyOi0IAhCoCRjBCSIjdjItNTgxNTE1MWE4YjRmM2M1MDNiMDdiMGFkMTZmZTA3NDA6LQgCEIAUGOgHIiN2Mi1jMWZhOTU5ZjQxYTliMTJhMTg4OWRhNmE4OGZmNTk0MjotCAIQ5wYYhQMiI3YyLTBhYmE5NWRmNDgwMjM1MzVlM2U0MDFkNDY2ZjMyZGU5Oi0IAhCiERizAyIjdjItNDI1NTA5YWZlYWFlM2YwMjZhMzk3ODA5YzMzMzgxOTE6LQgCEKUIGN0JIiN2Mi01MDE2OGJkNmU3MjIyMmQ4ODQ2MWQxNDlmMjQ0MWY4OTotCAIQqREY4wIiI3YyLTY3OTViMmUzNzRmZGU5ZTI0NTVkZGEwNWIzMWMwOWMxOi0IAhCIERi1DCIjdjItZGIyNTU0OGU2N2I2MDdhYjYwZWQ2ZmUxMWE1ZTk3ZTQ6LQgCEOUIGLEIIiN2Mi05ZDdlY2NiOGQ1ZGFhY2JiN2Q5MzYzMDMyMTAzM2I3ZDotCAMQ4BMYsggiI3YyLWRmZjZkOTU2NjEzZGU1ZGY5YzNiOWM4ZjI3OWIzNWY5Oi0IAhDgCBi0ByIjdjItZmFmM2VjMGVlNDI0YjYxZTIzZmUyZWM5OTk5N2Y5NTY6LQgCEIwEGLYKIiN2Mi00ZDljNGJiZjA2NjU4YWJhODg2MjczOWY3OTMxZDRkNjotCAIQwgcYkgUiI3YyLTU0ZjE4OTkwZTA0MWYzMDQ0NzMzNDZiZGIyMWUyM2RhOi0IAhCEBxiDBiIjdjItMjljOGNmMGIwOWNmNTc2YzZiZjExYTYzMTA0YTAxMzM6LQgCEOwGGPACIiN2Mi1jOWZjNGQyZmE3MjJkY2VlYmU1ZTBiMzFhNmUzMzQ0ZTotCAIQwgYY8wEiI3YyLWFiZjk1YTYzMGFkMzE2ZmM3ZjEzNmQ1MGE3NDYyNDk4Oi0IAhDLBxj7BiIjdjItYmU5NDk4YTNlMDcwMjJhOTdiZTI0ZTJlN2VjNDI5NWM6LQgCEOAIGLQHIiN2Mi1mYWYzZWMwZWU0MjRiNjFlMjNmZTJlYzk5OTk3Zjk1NoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNzDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIDea5w/gQUAAAAAAAAAAIkF943dt5NU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFU5AGAKAG9QOoBgCSAi4KCTI1NjM2MTAyNRITMTg5NDg2NDA1MDMxNzQxNTAwOBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=497&desktop=true&end_offset=501&page_number=84&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=497&desktop=true&end_offset=501&page_number=84&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

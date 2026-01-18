@@ -1,0 +1,713 @@
+{
+  "data": [
+    {
+      "id": "126_1768674886.578",
+      "type": "feed",
+      "offset": 126,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674886,
+      "updated_time": 1768674886,
+      "target": {
+        "excerpt": "你知道吗？我上周又接到了那个电话。 凌晨三点，服务器挂了。 接着便是那熟悉的流程，先是被吵醒，而后手忙脚乱地去登录机器，再接着去查日志，随后重启服务。那手指在冰冷的键盘之上进行敲击活动，而脑子里则是一片混沌不清的状态。这已然是这个月的第三次这般情况了。 那开发团队那儿如何呢？，他们于昨天下午递交的新功能，从理论上来说应当在这周上线。然而当下，谁都无暇顾及 。 你对这般场景熟悉不？开发以及运维，仿佛是…",
+        "allow_segment_interaction": true,
+        "voting": 0,
+        "is_labeled": false,
+        "favorite_count": 6,
+        "is_navigator": false,
+        "comment_count": 0,
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "article_type": "normal",
+        "navigator_vote": false,
+        "type": "article",
+        "author": {
+          "name": "坐忘道2条",
+          "headline": "什么是悲剧?悲剧就是善的冲突",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/a0c36022bc650d4e5775a16a7500352f",
+          "url_token": "jianqian-93",
+          "is_org": false,
+          "gender": 1,
+          "id": "a0c36022bc650d4e5775a16a7500352f",
+          "user_type": "people"
+        },
+        "created": 1768559146,
+        "updated": 1768559146,
+        "vote_next_step": "vote",
+        "voteup_count": 1,
+        "excerpt_new": "你知道吗？我上周又接到了那个电话。 凌晨三点，服务器挂了。 接着便是那熟悉的流程，先是被吵醒，而后手忙脚乱地去登录机器，再接着去查日志，随后重启服务。那手指在冰冷的键盘之上进行敲击活动，而脑子里则是一片混沌不清的状态。这已然是这个月的第三次这般情况了。 那开发团队那儿如何呢？，他们于昨天下午递交的新功能，从理论上来说应当在这周上线。然而当下，谁都无暇顾及 。 你对这般场景熟悉不？开发以及运维，仿佛是…",
+        "preview_type": "default",
+        "preview_text": "",
+        "id": "1995561602536211952",
+        "url": "https://api.zhihu.com/articles/1995561602536211952",
+        "title": "Jenkins+K8S自动化部署实战，告别深夜运维故障与手动发布",
+        "comment_permission": "all",
+        "content": "<p data-pid=\"IJvnidUf\">你知道吗？我上周又接到了那个电话。</p><p data-pid=\"FNB4W4FD\">凌晨三点，服务器挂了。</p><p data-pid=\"HcvL49nG\">接着便是那熟悉的流程，先是被吵醒，而后手忙脚乱地去登录机器，再接着去查日志，随后重启服务。那手指在冰冷的键盘之上进行敲击活动，而脑子里则是一片混沌不清的状态。这已然是这个月的第三次这般情况了。</p><p data-pid=\"E5BrM7pz\">那开发团队那儿如何呢？，他们于昨天下午递交的新功能，从理论上来说应当在这周上线。然而当下，谁都无暇顾及 。</p><p data-pid=\"xR1N5eqD\">你对这般场景熟悉不？开发以及运维，仿佛是两个始终在进行拔河的世界。一边不顾一切地想要快，另一个一边不顾一切地谋求稳。中间所隔着的，乃是一堵厚厚的墙，并且还有无数个如同我这般于深夜之时挣扎着的人 。</p><p data-pid=\"WQWGeuNr\">但今天，我不想再聊这种痛苦了。</p><p data-pid=\"VjKVV0Ee\">我想要展开交流，关于我们是怎样把那堵围墙拆毁的，怎样借助一些看上去并非新颖奇特的工具，也就是Jenkins和K8S，将这种传统运维的令人恐惧至极的状况，消除了99%。</p><p data-pid=\"PXqvDRas\">真的，不夸张。</p><p data-pid=\"_RPf4H0P\"><b>DevOps流水线到底是什么？</b></p><p data-pid=\"eprJQTBA\">别被那些看起来高端大气上档次的定义给吓得不知所措，实际上，它就是一套具备自动功能的流水作业线，就是这样 。</p><p data-pid=\"uPeQxpLc\">想象一下汽车制造厂。</p><p data-pid=\"M_JFdGM-\">传统模式呈现出这样的情况：开发团队精心制成发动机（代码），而后将其抛过墙去。接着，运维团队费尽心力地思索如何把发动机安置到车里，进行测试，之后才能够上路行驶。一旦任何一个零件出现问题，那么整条生产线就得停止运行。</p><p data-pid=\"z2FaSeu6\">那么，DevOps流水线究竟是怎样的呢？它将设计环节连通，关联制造流程，衔接组装步骤，融合测试过程，直至出货环节全部实现贯通。自一开始提交代码时起，代码便踏上了这条自动化连续性的通行轨道。它会自动予以编译，自动开展测试，自动完成打包形成如同集装箱特质状的特定资源（Docker镜像），自动运输抵达目标地点（K8S集群设置端位点），最终自动达成上线运行状态。</p><p data-pid=\"J89VO7Xq\">人们究竟需要去做些什么呢？于流水线的起始之处，将代码予以放置上去。于流水线的末尾之处，查看一下报表，而后点击确认 。</p><p data-pid=\"Q6QEEwbK\">剩下的，交给机器。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-81f4c8cf908b4c2bc481177bec7f0310_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"664\" data-rawheight=\"440\" data-original-token=\"v2-38c0df57959a14944ca6b66edfca1d3e\" class=\"origin_image zh-lightbox-thumb\" width=\"664\" data-original=\"https://pica.zhimg.com/v2-81f4c8cf908b4c2bc481177bec7f0310_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oBUvRhjN\">听起来像乌托邦？但它正在发生。</p><p data-pid=\"IjZl4k13\"><b>Jenkins在DevOps流水线中起什么作用？</b></p><p data-pid=\"n0x_G7Op\">你可以把它理解成这条自动化流水线的“总控台”和“大脑”。</p><p data-pid=\"I1UBlz8u\">曾经，我们编写诸多脚本，有构建脚本，有测试脚本，还有部署脚本，它们分散于各处，运行需靠人工触发，日志要凭肉眼筛查，显得杂乱如一团相互缠绕的耳机线。</p><p data-pid=\"4K8R6gJi\">Jenkins Pipeline的现身，赋予了我们一项“编排”的本领，它准许我们运用一种近似于编写代码的形式（Groovy），去界定整个软件交付的生命周期，即何时拉取代码，何时运行单元测试，何时构建镜像，以及何时部署至哪个环境 。</p><p data-pid=\"_q-IeBKW\">关键是，它把这一切可视化了出来。</p><p data-pid=\"QM9C2rwE\">不再处于黑盒状态。此刻，你能够明晰地瞧见一个“构建”，如列车一般，发出哐当哐当的声响，依次经过“代码拉取站”，接着途经“测试站”，随后路过“打包站”，最后通过“部署站”。一旦其中某个环节出现卡顿，红灯便会即刻亮起。</p><p data-pid=\"FTGuyw97\">这种具备“看见”特质的能力，对于团队信心而言是具有革命性意义，开发人员敢于频繁进行提交了，原因在于其能够即刻知晓自身所编写的代码是否致使事物出现问题，运维人员敢于安心休息了，缘由是部署已然不再是那种复杂的需依靠手工操作的技艺方法，而是转变为能够重复进行、可以回滚的标准化作业流程了。</p><p data-pid=\"1VHJMdPZ\"><b>Kubernetes如何与Jenkins配合？</b></p><p data-pid=\"PxFB9m4R\">对于Jenkins而言，若它被视作大脑以及神经，那么K8S就是那样一个具备强大特性、富有弹性且任劳任怨的“躯体”呀。</p><p data-pid=\"Mgqzu0Q_\">传统Jenkins存在这样一个挺令人困扰问题：构建代理也就是Agent它是处于静态状态的，你预先准备好若干台虚拟机，在这些虚拟机上面安装好各种各样的用来构建的环境，当项目数量增多之后，那就会出现需要排队等待的现象，要是构建环境发生了变化，那就得重新进行安装，至于资源利用率方面呢？其结果简直是糟糕透顶。</p><p data-pid=\"rVxsMJ1J\">K8S为Jenkins赋予了助力，Jenkins Master若要构建一个Java项目，它无需寻觅一台固定的、安装了Maven的机器，而是借助Kubernetes插件，向K8S集群发出指令：“嘿，给我一个Pod，其中需具备Java和Maven环境。” 。</p><p data-pid=\"3etq2ap9\">在短短几秒钟的时间之内，K8S毫无征兆地凭空“变”出了一个用于专门执行此次构建的容器，当任务完成之后，该容器随即被销毁，相关资源也随之进行回收。</p><p data-pid=\"ThWsOEXK\">这种“动态Agent”的模式，太美妙了。它意味着：</p><p data-pid=\"WkbPkT3K\"><b>资源极致利用</b>：没有空闲的构建机在烧电费。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b852c831fb61d35dde5482845fa395b1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"817\" data-rawheight=\"500\" data-original-token=\"v2-f25486c6415c35c0b98047d0c30a005c\" class=\"origin_image zh-lightbox-thumb\" width=\"817\" data-original=\"https://picx.zhimg.com/v2-b852c831fb61d35dde5482845fa395b1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VK58PF1M\"><b>环境绝对纯净</b>每一次进行构建的时候，都是从那种干净的镜像着手开始的，要跟“在我机器上面是呈现良好状态的”这种毫无根据的假话告别 。</p><p data-pid=\"zEqD2vQ9\"><b>并发能力爆炸</b>：只要集群资源够，你可以同时跑几十个构建，而不是排队。</p><p data-pid=\"u5vIXLCT\">更为关键的要点在于，所进行的部署目标恰恰就是K8S自身。经由Jenkins构建而成的Docker镜像，在推送至仓库之后，能够直接借助<code>kubectl</code>来达成，或者通过更新K8S的YAML文件的方式，借此毫无缝隙地部署到同一个集群当中，亦或是不同的集群里。从构建的起始阶段一直到运行的整个过程，生态已然形成了完整的闭环状态。</p><p data-pid=\"rxAcSUA5\"><b>基于Jenkins和K8S的流水线有什么优势？</b></p><p data-pid=\"_ghUnlPF\">除了上面说的，我再讲几个切肤之痛的对比。</p><p data-pid=\"SI0GwW-t\"><b>1. 部署速度：从天到分钟</b></p><p data-pid=\"DVrKg4pn\">以往一个大版本上线之时，需得准备部署方面的文档，召开上线相关的会议，运维人员进行手动操作，前后端展开相应协调，从下午延续直至后半夜乃是常见之事。如今却不同，开发人员将代码合并至特定分支之后，流水线会自动触发，二十到三十分钟过后，服务已然在线上运行了。发布转变成为一件平常且低风险的事情。</p><p data-pid=\"B8bVsEJK\"><b>2. 回滚：从恐慌到点击</b></p><p data-pid=\"rsi_Ig08\">是否出现问题了呢？传统的运维方式需要去翻阅部署记录，寻找上一个版本的包，还要手动去恢复配置以及数据库，搞得人心惊胆战。如今，在Jenkins上能够找到上一次成功的构建，点击“回滚”按钮。流水线便会自动把K8S中的工作负载镜像版本替换为上一个稳定版本。仅仅几十秒的时间，一切就恢复平静了。</p><p data-pid=\"qIOAqv0u\"><b>3. 一致性：从“玄学”到科学</b></p><p data-pid=\"SWLeVFPZ\">那“测试环境没出现问题，为何到了生产就崩溃了呢”，这般情况属于经典的运维甩锅或者背锅的场景。当下，从着手构建镜像开始，一直到部署至测试环境，再到预发环境，最后到生产环境，所采用的皆是同一个Docker镜像呀，而且是同一套K8S部署定义呢（仅仅是配置存在不同罢了）。如此一来，环境之间的差异被降低到了最低程度。</p><p data-pid=\"wFAzt_kJ\"><b>4. 解放人力：从救火到优化</b></p><p data-pid=\"eF6BfC29\">我们团队之内的那个运维工程师，往昔百分之八十之时间用于处理部署，用于处理监控，用于处理救火事宜。如今，他大部分时间所从事之事为何呢？在于优化流水线自身，在于探寻更佳的监控告警方式，在于为开发团队开展培训。由从事重复劳动的“操作工”转变成为提升效能的“工程师” 。</p><p data-pid=\"yWQDpIiX\">难道这不算把传统运维给干掉掉吗？被干掉的是那般低价值的，重复着的，易引发错误的体力劳动呀。</p><p data-pid=\"nJj3FeIW\"><b>如何开始构建自己的DevOps流水线？</b></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7e435cc67f31d09c597e3bd855352f58_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"710\" data-rawheight=\"500\" data-original-token=\"v2-3dc17004b5011d3ebadf1d2b929832cc\" class=\"origin_image zh-lightbox-thumb\" width=\"710\" data-original=\"https://pic3.zhimg.com/v2-7e435cc67f31d09c597e3bd855352f58_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4vmXlATO\">别想着一步登天，那会吓死自己。我们从最简单的开始，就四步。</p><p data-pid=\"ZwxV3ik1\"><b>第一步：容器化你的应用</b></p><p data-pid=\"3W-L3fu1\">这属于基石哟，不论你运用的是Java，或者是Go，又或者是Python，去撰写一个Dockerfile，进而能够让你的应用在容器当中得以运行起来，别先行理会K8S，仅仅在本地借助Docker达成运行通畅，当这一步成功达成之后，你便已然摆脱了“环境依赖”的那般噩梦了。</p><p data-pid=\"RLEBOeFv\"><b>第二步：在K8S上玩转Jenkins</b></p><p data-pid=\"dy76Ppqt\">不要再借助传统虚拟机这种安装方式了，而是直接将其放置于K8S当中去部署。网络上相关教程数量众多，其重点核心主要是几个YAML文件，分别为PersistentVolumeClaim（<a href=\"https://link.zhihu.com/?target=http%3A//instincz.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">instincz.com</span><span class=\"invisible\"></span></a>），Deployment，Service。当完成这些操作之后，你便拥有了一个自身具备弹性以及拥有高度可用性潜力的CI大脑。</p><p data-pid=\"Isaxt1K2\"><b>第三步：打造你的第一条Pipeline</b></p><p data-pid=\"WYEBBv9d\">忘掉繁杂的多分支、多环境，先撰写一个最为简单的Jenkinsfile，放置于工程根目录之中。其内部存有四个阶段，即拉代码、编译打包、构建Docker镜像、推送到镜像仓库。使其能够成功运行一次，当目睹那个蓝色的流水线视图亮起之际，你会萌生出些许小激动之情。</p><p data-pid=\"xSGMh_aw\"><b>第四步：连接最后一步——部署到K8S</b></p><p data-pid=\"lesDCkuu\">于Pipeline之中添加上作为最后一个之称的Stage，依循<code>kubectl set image</code>这一命令，或者借助更新YAML文件的方式，将刚刚推送至仓库之崭新镜像予以部署部署投放至K8S的名为测试的命名空间里，当成在浏览器那里进行刷新页面之操作，瞅见新增出现具出的功能已然在未曾敲下任何一条有关于部署的命令的情形下悄然上线之时——那般感觉，没错了。</p><p data-pid=\"xBK6A27c\">就是这条路。</p><p data-pid=\"TubzgT_W\">可想而知，后续存在着接踵而至的众多难题部分：凭证管理，还有流水线共享该库，以及测试自动化集成，包括安全全面扫描，再有质量门禁等等……然而那些均属于令人欣喜的困扰，是在效率提升至特定程度之后，对于更为优质的一种追求。</p><p data-pid=\"2w39tyKx\">然而起步，仅需你下定决心，告别那深夜里接连不断此起彼伏的手机铃声，告别那全无创造性的重复劳动。</p><p data-pid=\"GUz6WCsG\">将自动化运用起来，把自身从那“运维”的艰难困苦之海洋里解救出来，进而去从事更具价值、更值得投入精力去做的事情 。</p><p data-pid=\"bnHqWdEZ\">那剩余的1%传统运维到底是什么？大概是去处理硬件方面出现的故障，又或者，是当所有那看上去堪称完美的自动化系统忽然出现状况时，所特存的那份能够读懂日志、精准定位根本原因的智慧以及冷静。</p><p data-pid=\"ZmuVtFkG\">但那已经完全不同了，不是吗？</p>",
+        "visited_count": 64
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995561602536211952}",
+      "attached_info": "CtYGCPDs9tTg+NurrwEQBxoJMjY5MTI5MzU4IKqkqMsGKAEwAEB+SiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AGIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU1NjE2MDI1MzYyMTE5NTKqAQlyZWNvbW1lbmTCASBhMGMzNjAyMmJjNjUwZDRlNTc3NWExNmE3NTAwMzUyZvIBCggMEgZOb3JtYWzyASgIChIkN2MyY2E1NWYtMTZkZS00NGE1LTk3NzAtNWIyNWZjMTFhZWZm8gEGCAsSAjIyggIAiALgg/TpvDOSAiBhMGMzNjAyMmJjNjUwZDRlNTc3NWExNmE3NTAwMzUyZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIYVFNfU09VUkNFX1dBUk1fVVBfQk9PU1Qy6AID+gILTk9STUFMX0ZMT1eKAyA4YzU3MzQzZTIxYWE0YjcwYjNlMGZmOTNiZGNkZDQ5OZoDDQoCdjIQABoFb3RoZXKoA0DYAwDqAx93YXJtdXBUd29Ub3dlclRleHRCb29zdFJlY2FsbGVy+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEJgFGLgDIiN2Mi0zOGMwZGY1Nzk1OWExNDk0NGNhNmI2NmVkZmNhMWQzZTotCAIQsQYY9AMiI3YyLWYyNTQ4NmM2NDE1YzM1YzBiOTgwNDdkMGMzMGEwMDVjOi0IAxDGBRj0AyIjdjItM2RjMTcwMDRiNTAxMWQzZWJhZGYxZDJiOTI5ODMyY2OABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKAJOWs/gQUAAAAAAAAAAIkFpy1wAEdLtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFpAGAKAGgAGoBgGSAi4KCTI2OTEyOTM1OBITMTk5NTU2MTYwMjUzNjIxMTk1MhgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "127_1768674886.429",
+      "type": "feed",
+      "offset": 127,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674886,
+      "updated_time": 1768674886,
+      "target": {
+        "comment_count": 10,
+        "excerpt": "我其实一开始很不能理解，为什么名教授之女、书香门第之家的一个大家闺秀，最后居然会落魄到嫁给陕西一位目不识丁的老农？ 遭受时代洪流裹挟必然是主要原因，但从小到大她母亲的重男轻女，特别是文革“大疏散”时其母的拒绝收留，貌似也起了部分原因： 最先送走的是原籍有亲人又肯接收的，女就业人员多数是跟着丈夫回乡了…… 遣送就业人员也有干部亲自送去的。男马队长送一个七十多岁的汪伪官员去苏州，他儿子肯接收。回来后男…",
+        "preview_type": "default",
+        "content": "<p data-pid=\"SY-c6JIq\">我其实一开始很不能理解，为什么名教授之女、书香门第之家的一个大家闺秀，最后居然会落魄到嫁给陕西一位目不识丁的老农？</p><p data-pid=\"c0fAwpKK\">遭受时代洪流裹挟必然是主要原因，但从小到大她母亲的重男轻女，特别是文革“大疏散”时其母的拒绝收留，貌似也起了部分原因：</p><blockquote data-pid=\"u8YOLlVC\">最先送走的是原籍有亲人又肯接收的，女就业人员多数是跟着丈夫回乡了……<br/><br/>遣送就业人员也有干部亲自送去的。男马队长送一个七十多岁的汪伪官员去苏州，他儿子肯接收。回来后男马队长把我叫到办公室，说他由苏州就到了南京，落实我的出路，已经把我的户口迁到我妈妈处，但我妈妈不接收，说还是由政府监督改造更好些。<br/><br/>马队长复述了他们的对话：<br/><br/>“你若是不肯接收，我们只好把她放到农村去了。”<br/><br/>“放到农村也很好，我女儿就是学农的，到农村可以有更多为农民服务的机会。”<br/><br/>“下放到农村生活就艰难了，恐怕经济上都维持不了。”<br/><br/>“经济上我可以负担，政府不必顾虑，许燕吉的改造还是由政府安排，我没有任何意见。”<br/><br/>马队长复述完后说：“你母亲实在不肯接收你，而且自己去派出所把你的户口销掉，还给了我。我们实在也再没什么办法了。”<br/><br/>我说：“我明白马队长是为我好，可我也实在不愿意去我妈那里，不但会给我妈造成不好的影响，我自己也不会愉快。我愿意去农村，我身体好，能养活自己。”<br/><br/>马队长点了点头，没说什么。</blockquote><p data-pid=\"bkfnxmzd\">监狱出来的时候，队长给她把户口转到南京母亲处，没想到母亲不接收，还直接去派出所把女儿的户口给销了。如果当时其母收留她，她的命运也许会好一些吧。</p>",
+        "favorite_count": 15,
+        "url": "https://api.zhihu.com/answers/1994778600927429351",
+        "created_time": 1768372279,
+        "voteup_count": 50,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "is_navigator": false,
+        "type": "answer",
+        "updated_time": 1768440463,
+        "question": {
+          "follower_count": 0,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/556373007",
+          "title": "如何评价许燕吉的《我是落花生的女儿》？",
+          "bound_topic_ids": [
+            53,
+            113,
+            1164,
+            1745
+          ],
+          "excerpt": "",
+          "detail": "",
+          "id": "556373007",
+          "answer_count": 0,
+          "created": 1664437126,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "author": {
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/6dff30119600eeeb312165d4d02ceca6",
+            "url_token": "ling-hu-qiu-bai",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-b4bad4a37bd9cee976185b95834779a9_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 99,
+            "is_following": false,
+            "id": "6dff30119600eeeb312165d4d02ceca6",
+            "user_type": "people",
+            "name": "书店君",
+            "headline": "",
+            "gender": 1
+          },
+          "comment_count": 0,
+          "is_following": false
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "allow_segment_interaction": true,
+        "id": "1994778600927429351",
+        "is_copyable": true,
+        "excerpt_new": "我其实一开始很不能理解，为什么名教授之女、书香门第之家的一个大家闺秀，最后居然会落魄到嫁给陕西一位目不识丁的老农？ 遭受时代洪流裹挟必然是主要原因，但从小到大她母亲的重男轻女，特别是文革“大疏散”时其母的拒绝收留，貌似也起了部分原因： 最先送走的是原籍有亲人又肯接收的，女就业人员多数是跟着丈夫回乡了…… 遣送就业人员也有干部亲自送去的。男马队长送一个七十多岁的汪伪官员去苏州，他儿子肯接收。回来后男…",
+        "visited_count": 9287,
+        "author": {
+          "followers_count": 5744,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/7cd6b232cb3d15ffd6de333800205ac2",
+          "user_type": "people",
+          "url_token": "mang-guo-hui-zou-lu",
+          "headline": "生而肥美 懒惰自由",
+          "is_org": false,
+          "gender": 0,
+          "id": "7cd6b232cb3d15ffd6de333800205ac2",
+          "name": "是酱小油呀",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-fc83be18388eb9b942d1751c0153c869_l.jpg?source=b6762063",
+          "is_following": false
+        },
+        "thanks_count": 3,
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994778600927429351}",
+      "attached_info": "CvsFCPDs9tTg+NurrwEQBBoJNzY1Mzc1NzY5ILfwnMsGKDIwCkB/SkUKH1RTX1NPVVJDRV9IT1RfQ1JPU1NfTkVXX0NPTlRFTlQSHGhvdF9yZWNhbGxfN2Q6bmV3N2Q6cmVzZWFyY2gYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDg1OTIxMDY1YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NDc3ODYwMDkyNzQyOTM1MYoBCTU1NjM3MzAwN6oBCXJlY29tbWVuZMIBIDdjZDZiMjMyY2IzZDE1ZmZkNmRlMzMzODAwMjA1YWMy8gEKCAwSBk5vcm1hbPIBKAgKEiQxZjAzNzQwNC05ODRmLTQxZjAtODRjOS01NTI0N2FiZmMxYmXyAQYICxICMjKCAgCIAuCD9Om8M5ICIDdjZDZiMjMyY2IzZDE1ZmZkNmRlMzMzODAwMjA1YWMymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCH1RTX1NPVVJDRV9IT1RfQ1JPU1NfTkVXX0NPTlRFTlToAgL6AgtOT1JNQUxfRkxPV4oDIDhjNTczNDNlMjFhYTRiNzBiM2UwZmY5M2JkY2RkNDk5mgMNCgJ2MhAAGgVvdGhlcqgDx0jYAwDqAx9ob3RDcm9zc01lcmdlTmV3Q29udGVudFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4POYkT+BBQAAAAAAAAAAiQWnLXAAR0u0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUWkAYAoAaBAagGA5ICLgoJNzY1Mzc1NzY5EhMxOTk0Nzc4NjAwOTI3NDI5MzUxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "128_1768674886.711",
+      "type": "feed",
+      "offset": 128,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674886,
+      "updated_time": 1768674886,
+      "target": {
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1995495579036431565",
+        "author": {
+          "id": "941ef6349309b8723ba24603ff6dee58",
+          "name": "海蛎子加芥末",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-844f55bccc1d535988910e67172c56dc_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 24,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/941ef6349309b8723ba24603ff6dee58",
+          "user_type": "people",
+          "url_token": "28-51-56-19",
+          "headline": "",
+          "gender": 1
+        },
+        "voteup_count": 1,
+        "excerpt_new": "一、需求计划场景（Demand Planning Scenario） SAP S/4HANA中 物料管理与运营（Materials Management &amp; Operations） 中的计划解决方案。✅ 需求计划是供应链规划的核心环节，目标是： 准确预测未来客户需求，并据此制定生产、采购和库存策略。二、关键概念：需求计划如何运作？✅ 1. 预测（Forecasting）可使用多种工具：SAP Integrated Business Planning (IBP)：高级预测平台（支持实时数据）SAP S/4HANA 内置工具：灵活…",
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "type": "article",
+        "preview_type": "default",
+        "content": "<h2>一、需求计划场景（Demand Planning Scenario）</h2><p data-pid=\"gi0nM81U\"><b>SAP S/4HANA</b>中 <b>物料管理与运营（Materials Management &amp; Operations）</b> 中的计划解决方案。</p><p data-pid=\"31BE64c2\">✅ 需求计划是供应链规划的核心环节，目标是：<br/><b>准确预测未来客户需求，并据此制定生产、采购和库存策略。</b></p><hr/><h2>二、关键概念：需求计划如何运作？</h2><h3>✅ 1. 预测（Forecasting）</h3><ul><li data-pid=\"mHtyEBZP\">可使用多种工具：</li><ul><li data-pid=\"OarBTYkx\"><b>SAP Integrated Business Planning (IBP)</b>：高级预测平台（支持实时数据）</li><li data-pid=\"1VMmEJe5\"><b>SAP S/4HANA 内置工具</b>：</li><ul><li data-pid=\"-LszCH09\">灵活计划（Flexible Planning）</li><li data-pid=\"lwx1SH4k\">标准 SOP（Standard Sales and Operations Planning）</li></ul></ul></ul><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-188b7989c2c2b7b4d502a51ace78e7dc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1756\" data-rawheight=\"964\" data-original-token=\"v2-9b0fe283686bee74178da02b139013cb\" class=\"origin_image zh-lightbox-thumb\" width=\"1756\" data-original=\"https://pic1.zhimg.com/v2-188b7989c2c2b7b4d502a51ace78e7dc_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"0DXzH3gm\">⚠️ 注意：SAP S/4HANA 的传统计划工具将逐步被 SAP IBP 替代，建议优先使用 IBP 进行现代需求预测。</blockquote><h3>📌 预测结果 → 转化为 <b>计划独立需求（Planned Independent Requirements, PIRs）</b></h3><ul><li data-pid=\"ZfVKqK6C\">PIR 是系统中用于触发生产和采购的“虚拟需求”</li><li data-pid=\"lTBRPgaR\">可基于历史销售数据 + 市场情报（如展会、促销）生成</li></ul><hr/><h3>✅ 2. 需求管理（Demand Management）</h3><h2>核心定义</h2><p data-pid=\"zIJyhbV6\">✅ <b>需求管理</b> 是对 <b>独立需求（Independent Requirements）</b> 的规划与控制，目的是确保生产计划能够准确响应未来客户需求。</p><blockquote data-pid=\"qyuQqmeh\">📌 独立需求是指不依赖于其他物料或订单的需求，例如：</blockquote><ul><li data-pid=\"-wADtuFg\">计划独立需求（PIR）</li><li data-pid=\"zM0aQx0G\">销售订单</li><li data-pid=\"EsYLHu66\">库存调拨请求（Stock Transfer）</li></ul><h2>关键机制：行为由什么决定？</h2><p data-pid=\"ylAqRwZi\">在 SAP MRP 中，独立需求的行为（如是否触发生产、是否会消耗其他需求）取决于两个配置要素：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>元素</th><th>说明</th></tr><tr><td>需求类（Requirement Class）</td><td>定义该需求在 MRP 中如何被处理（如是否参与计划、是否可被销售订单消耗）</td></tr><tr><td>计划策略（Planning Strategy）</td><td>决定需求是按库存生产（MTS）、按订单装配（FAO），还是按订单生产（MTO）</td></tr></tbody></table><p data-pid=\"Qq_V87Hq\">📌 示例：<br/>一个 PIR 若属于“按库存生产”策略（如策略 10），则会直接触发生产；若属于“按订单生产”（如策略 30），则不会自动触发，需等待销售订单。</p><hr/><h2>三、SAP IBP：新一代实时集成供应链计划平台</h2><h2>核心定位</h2><p data-pid=\"FdY69B2r\">✅ <b>SAP Integrated Business Planning (IBP)</b> 是 SAP 推出的<b>下一代端到端供应链规划平台</b>，专为云原生环境设计（基于 SAP HANA），目标是实现：</p><blockquote data-pid=\"rJvhP7JL\">🎯 <b>统一、实时、智能的供应链计划决策</b></blockquote><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-986e44d631cb117218f6ef527a304564_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1662\" data-rawheight=\"946\" data-original-token=\"v2-9845b666b97dc51a63e3f96487c1d98e\" class=\"origin_image zh-lightbox-thumb\" width=\"1662\" data-original=\"https://pica.zhimg.com/v2-986e44d631cb117218f6ef527a304564_r.jpg\"/></figure><h2>关键特性与功能模块</h2><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>模块</th><th>功能说明</th></tr><tr><td>✅ 销售与运营计划（S&amp;OP）</td><td>整合业务目标与资源能力，制定可执行的年度/季度计划</td></tr><tr><td>✅ 需求计划（Demand Planning）</td><td>基于历史数据 + 市场情报 + AI预测模型，生成高精度未来需求（如 PIRs）</td></tr><tr><td>✅ 库存计划（Inventory Planning）</td><td>优化安全库存、周转率和缺货风险，实现“少而精”的库存策略</td></tr><tr><td>✅ 响应与供应计划（Response &amp; Supply Planning）</td><td>自动平衡产能、采购与物流，快速应对波动需求</td></tr><tr><td>✅ 供应链控制塔（Supply Chain Control Tower）</td><td>提供可视化仪表盘，实时监控整个供应链绩效（如交付准时率、库存健康度）</td></tr></tbody></table><p data-pid=\"_HyZ5I2O\">📌 所有模块都支持 <b>跨组织、跨产品线、跨时间维度</b> 的统一分析与协同。</p><hr/><h2>需求计划概览（Demand Planning Overview）</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f180797962d24d977b5b8af5f77811be_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1729\" data-rawheight=\"943\" data-original-token=\"v2-26565b15b4c16c4117aa6c78a256d68d\" class=\"origin_image zh-lightbox-thumb\" width=\"1729\" data-original=\"https://pic3.zhimg.com/v2-f180797962d24d977b5b8af5f77811be_r.jpg\"/></figure><h2>核心定义</h2><p data-pid=\"jQzTut9c\">✅ <b>需求计划</b> 是一种通过分析历史数据、市场趋势和业务因素，预测未来客户需求的方法。<br/>它不仅是“预测”，更是为生产、采购、库存等后续环节提供决策依据的<b>战略输入</b>。</p><h2>1. 计划类型：数量 vs. 价值</h2><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>类型</th><th>说明</th><th>示例</th></tr><tr><td>数量型计划（Quantity-Based）</td><td>按产品单位（件、托盘、千克等）规划需求</td><td>预计下月销售 500 辆自行车</td></tr><tr><td>价值型计划（Value-Based）</td><td>按货币金额（欧元、美元等）规划需求</td><td>预计下月销售额 100,000 欧元</td></tr></tbody></table><p data-pid=\"5U0JKAqo\">📌 企业可根据管理目标灵活选择：</p><ul><li data-pid=\"kKcLMDgX\">财务部门偏好数值型（便于预算控制）</li><li data-pid=\"UShVVwjV\">运营部门偏好数量型（便于物料准备）</li></ul><h2>2. 规划层级（Planning Levels）</h2><p data-pid=\"hgk44l34\">✅ 支持多维度拆分与聚合，实现精细化管理：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>层级维度</th><th>说明</th><th>应用场景</th></tr><tr><td>客户级别</td><td>为特定客户制定专属需求计划</td><td>如大客户定制订单优先保障</td></tr><tr><td>区域/国家</td><td>按地理区域划分需求</td><td>北美 vs. 欧洲市场需求差异</td></tr><tr><td>销售组织</td><td>按销售团队或渠道划分</td><td>线上商城 vs. 实体门店的需求差异</td></tr><tr><td>产品类别</td><td>按产品线或型号分类</td><td>自行车 vs. 电动滑板车的需求对比</td></tr></tbody></table><p class=\"ztext-empty-paragraph\"><br/></p><h2>3. 时间桶（Time Bucket Profile）</h2><p data-pid=\"DYBnEt8W\">✅ 定义计划周期粒度，支持滚动更新：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>时间桶类型</th><th>适用场景</th><th>示例</th></tr><tr><td>日</td><td>高频波动产品（如快消品）</td><td>每日补货计划</td></tr><tr><td>周</td><td>中等波动产品（如季节性商品）</td><td>每周库存调整</td></tr><tr><td>月</td><td>稳定产品（如工业零部件）</td><td>季度生产排程</td></tr></tbody></table><h2>4. 关键概念：特征值 &amp; 关键指标（Key Figures）</h2><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>概念</th><th>说明</th><th>示例</th></tr><tr><td>特征值（Characteristic Values）</td><td>用于聚合/拆分数据的维度标签（如客户编号、地区代码）</td><td>“德国”、“客户A”、“产品B”</td></tr><tr><td>关键指标（Key Figures）</td><td>存储实际数值的字段，代表计划结果</td><td>投影销量（500 辆）、预计收入（€100,000）</td></tr></tbody></table><hr/><h2>预测技术概览</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2abfef496bdc3b3650bfd3a428ada75c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2009\" data-rawheight=\"1024\" data-original-token=\"v2-cd8f9adbd363dfd70c733ee11e0b2d13\" class=\"origin_image zh-lightbox-thumb\" width=\"2009\" data-original=\"https://pic3.zhimg.com/v2-2abfef496bdc3b3650bfd3a428ada75c_r.jpg\"/></figure><h2>核心目标</h2><p data-pid=\"fNhjOFv_\">✅ 通过分析历史数据，预测未来需求趋势，为生产、采购和库存计划提供可靠依据。</p><h2>一、可预测的数据类型（Key Figures）</h2><p data-pid=\"jaH80Acc\">你可以在 SAP 系统中对任意关键指标进行预测，包括但不限于：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>数据类型</th><th>说明</th><th>示例</th></tr><tr><td>物料消耗量</td><td>生产过程中使用的原材料数量</td><td>车架每月消耗 500 个</td></tr><tr><td>来单数量</td><td>已接收但未完成的订单数量</td><td>每月新增销售订单 200 笔</td></tr><tr><td>开票数量</td><td>已确认收入的销售数量</td><td>每月发票数量 180 辆自行车</td></tr><tr><td>销售收入</td><td>销售金额（欧元/美元等）</td><td>每月销售额 €100,000</td></tr></tbody></table><h2>二、常用预测模型（Forecasting Models）</h2><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>模型</th><th>适用场景</th><th>特点</th></tr><tr><td>移动平均法（Moving Average）</td><td>需求波动较小的产品</td><td>平滑短期波动，适合稳定产品（如标准配件）</td></tr><tr><td>常数模型（Constant Model）</td><td>历史数据几乎不变</td><td>如基础件、无明显趋势或季节性变化的产品</td></tr><tr><td>趋势模型（Trend Model）</td><td>存在持续上升或下降趋势</td><td>如电动车销量逐年增长（线性/指数趋势）</td></tr><tr><td>季节模型（Seasonal Model）</td><td>明显周期性波动</td><td>冰淇淋、复活节糖果、圣诞灯饰等季节性商品</td></tr><tr><td>线性回归（Linear Regression）</td><td>多变量影响因素（价格、广告投入等）</td><td>支持复杂因果关系建模</td></tr></tbody></table><h2>三、增强功能（高级优化选项）</h2><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>功能</th><th>说明</th><th>作用</th></tr><tr><td>平滑处理（Smoothing）</td><td>减少异常波动对预测的影响</td><td>提高预测稳定性（如去除某月极端高销量）</td></tr><tr><td>时间加权（Time-Dependent Weighting）</td><td>近期数据权重更高</td><td>更关注最新市场变化（如促销后销量激增）</td></tr><tr><td>异常值修正（Outlier Correction）</td><td>自动识别并修正错误数据</td><td>如录入错误、突发事件导致的非正常峰值</td></tr></tbody></table><h2>四、实际应用示例</h2><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>场景</th><th>使用模型</th><th>目标</th></tr><tr><td>冰淇淋销售预测（夏季高峰）</td><td>季节模型 + 时间加权</td><td>确保旺季备货充足，避免断货</td></tr><tr><td>工业齿轮年用量预测</td><td>趋势模型 + 平滑处理</td><td>控制长期库存水平，降低呆滞风险</td></tr><tr><td>新品上市初期销量预测</td><td>常数模型 + 异常值修正</td><td>快速建立初始计划，适应不确定性</td></tr></tbody></table><hr/><h2>需求计划循环</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1b601a20a7f54c783c777fe49d4d3819_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1957\" data-rawheight=\"1002\" data-original-token=\"v2-129e9aa57bde734890ffb62e5d0737d3\" class=\"origin_image zh-lightbox-thumb\" width=\"1957\" data-original=\"https://pic2.zhimg.com/v2-1b601a20a7f54c783c777fe49d4d3819_r.jpg\"/></figure><h2>核心价值</h2><p data-pid=\"vvdi5l6X\">✅ <b>需求计划循环</b> 是整个供应链管理的起点与核心，它将历史数据、市场情报和实时订单融合，驱动从预测到执行的闭环流程。</p><h2>🔄 循环步骤详解（按顺序）</h2><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>步骤</th><th>说明</th><th>关键输入/输出</th></tr><tr><td>1. 基于历史销售数据预测</td><td>分析过去销售订单数量，识别趋势与模式</td><td>✅ 历史销量、季节性波动、客户偏好</td></tr><tr><td>2. 加入市场情报与事件因素</td><td>引入外部信息增强预测准确性（如展会、促销、经济变化）</td><td>✅ 市场调研、行业报告、特殊活动（如自行车展）</td></tr><tr><td>3. 创建并发布需求计划（PIRs）</td><td>将预测结果转化为系统可识别的“计划独立需求”（Planned Independent Requirements）</td><td>✅ PIRs：用于触发生产或采购的虚拟需求</td></tr><tr><td>4. 新销售订单到来 → 消耗 PIRs</td><td>实际订单自动“吃掉”部分计划需求，减少库存压力</td><td>✅ 销售订单 → 自动覆盖 PIR，实现柔性响应</td></tr></tbody></table><p data-pid=\"dLoQ3xyY\">📌 这个循环确保：</p><ul><li data-pid=\"h-fkFyRf\">✅ <b>提前准备</b>：用 PIR 提前安排生产，缩短交付周期</li><li data-pid=\"YfEgUTY6\">✅ <b>灵活应对</b>：新订单直接消耗 PIR，避免过度生产或缺货</li></ul><h2>示例：自行车公司场景</h2><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>时间点</th><th>行动</th><th>结果</th></tr><tr><td>上月</td><td>销售订单共 150 辆车</td><td>系统记录为真实需求</td></tr><tr><td>本月初</td><td>分析过去6个月销量 + 展会信息</td><td>预测下月需生产 200 辆车</td></tr><tr><td>发布 PIR</td><td>创建 200 辆车的 PIR</td><td>MRP 自动生成生产订单，提前备料</td></tr><tr><td>下旬</td><td>收到客户订单 80 辆</td><td>自动消耗 80 个 PIR，剩余 120 个继续用于后续计划</td></tr></tbody></table><hr/><h2>需求程序</h2><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3d970143357438c3e55f446e02ece2c5_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1669\" data-rawheight=\"1197\" data-original-token=\"v2-0f58787b3b9658b647dc10b4dc177e5e\" class=\"origin_image zh-lightbox-thumb\" width=\"1669\" data-original=\"https://pic4.zhimg.com/v2-3d970143357438c3e55f446e02ece2c5_r.jpg\"/><figcaption>需求管理（Demand Management）的核心目标是整合所有独立需求，形成清晰的“需求计划”（Demand Program），并指导后续物料需求计划（MRP）的执行。</figcaption></figure><h3>🔍 详细解释：</h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>需求类型</th><th>说明</th><th>在需求管理中的作用</th></tr><tr><td>计划独立需求（Planned Independent Requirements, PIRs）</td><td>基于预测生成的虚拟需求，用于提前安排生产或采购</td><td>是主动驱动生产的“计划信号”</td></tr><tr><td>销售订单（Sales Orders）</td><td>客户实际下单产生的真实需求</td><td>是最优先级的需求，可能直接消耗 PIR</td></tr><tr><td>库存转移需求（Stock Transfer Requirements）</td><td>来自其他工厂/仓库的调拨请求（如分销中心要货）</td><td>影响本地需求计划，需纳入整体平衡</td></tr></tbody></table><p data-pid=\"LYobbc-g\">📌 所有这些需求在 SAP 系统中被统一归集为一个 <b>“需求程序”（Demand Program）</b>，作为 MRP 的输入。</p><h3>🔄 MRP 如何处理这些需求？</h3><p data-pid=\"F2ApnhaG\">在物料需求计划运行时，系统会自动判断：</p><ul><li data-pid=\"_QTRL-fO\">✅ 是否通过 <b>自制生产</b>（In-house Production）满足需求</li><li data-pid=\"p_s13fE4\">✅ 是否需要 <b>外部采购</b>（External Procurement）</li><li data-pid=\"3W2MkZuV\">✅ 是否可通过 <b>内部调拨</b>（Stock Transfer）解决</li></ul><blockquote data-pid=\"koUxsB3A\">⚙️ 这个过程由 <b>计划策略（Planning Strategy）</b> 和 <b>需求类（Requirement Class）</b> 控制行为逻辑（例如：PIR 是否可被销售订单消耗）</blockquote><hr/><h2>基本需求类型（Basic Types of Requirements）</h2><p data-pid=\"N9KqIqFo\">有两种基本类型的独立需求是针对一个工厂的，还有一种具有跨工厂行为。让我们通过自行车公司的例子来了解这些类型：</p><h3>1. 计划独立需求（Planned Independent Requirements, PIRs）</h3><ul><li data-pid=\"DQDPAVrF\">PIR 是库存需求，并且在没有销售订单的情况下也可以触发采购或生产。</li><li data-pid=\"0CB6djFo\">这些针对某个工厂中某种物料的需求来源于对未来需求情况的预测，或者可以手动创建。</li></ul><p data-pid=\"nLCVjUZT\">在自行车公司示例中：</p><ul><li data-pid=\"PQ7oZo7v\">使用过去的销售订单数量来预测未来 200 辆自行车的需求。</li><li data-pid=\"U2jnMvLE\">市场情报和展会等活动也对预测有贡献。</li><li data-pid=\"CNV0EAwK\">基于需求计划，创建了计划独立需求，用于指导采购和生产计划。</li></ul><p data-pid=\"QVO14MUx\">例如，预测结果可以从 SAP Integrated Business Planning (IBP)、SAP Supply Chain Management (SCM/APO) 或 SAP S/4HANA（灵活计划或标准 SOP）中释放。它们随后作为 PIR 被传递到物料需求计划中。</p><h3>2. 销售订单（Sales Orders）</h3><ul><li data-pid=\"Mg42UCxr\">销售订单由销售部门为交货工厂录入。</li></ul><p data-pid=\"kZ5VtKT3\">例如，自行车公司收到一份来自客户的销售订单，客户要求在其购买的自行车车架上印制自己的标志。此需求在生产过程中需要特殊处理。</p><h3>3. 库存转移需求（Stock Transfer Requirements）</h3><ul><li data-pid=\"ofMHsM3D\">库存转移需求来自您自身网络中的其他地点（如配送中心）。</li><li data-pid=\"Fm4xQsAa\">和销售订单一样，它们也需要纳入需求计划中。</li></ul><p data-pid=\"jwUcBKQV\">例如，自行车公司有一个配送中心，需要 50 辆自行车来满足其本地客户订单。自行车公司的生产工厂对该产品有 100 辆的独立需求。</p><p data-pid=\"debFWSJV\">自行车公司将所有这些需求合并到他们的需求计划中。总需求量为 150 辆自行车。</p><hr/><h2>计划策略</h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-618c7b42d8da9d942421f298eec08987_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1584\" data-rawheight=\"963\" data-original-token=\"v2-ef07ca59bac0f6970d2045b05cb6a79d\" class=\"origin_image zh-lightbox-thumb\" width=\"1584\" data-original=\"https://picx.zhimg.com/v2-618c7b42d8da9d942421f298eec08987_r.jpg\"/></figure><p data-pid=\"qxngocqq\">在计划策略方面，大致可分为三类——用于按订单生产（Make-to-Order）的策略、用于按订单装配（Final Assembly Based on Sales Orders）的策略，以及用于按库存生产（Make-to-Stock）的策略。</p><h3>按库存生产策略（Make-to-Stock Production Strategies）</h3><p data-pid=\"Xpm9VHoR\">如果你使用按库存生产策略，系统会同时考虑两种需求：PIRs 和现有销售订单。PIRs 可用于提前创建仓库库存。收到的销售订单可以使用这些库存来满足。因此，可以确保较短的交货时间。通过按库存生产，还可以尽可能保持生产过程稳定，而不受当前需求的影响。</p><h3>组件级按库存生产策略（Subassembly Planning Strategies）</h3><p data-pid=\"lzyY5-Sj\">按库存生产也可以在组件层面执行。在这种情况下，采购所需的组件，而不是将成品生产到库存中。对于成品的销售订单可以快速满足，因为只需执行最终装配即可。组件已经处于库存中。</p><h3>按订单生产策略（Make-to-Order Production Strategies）</h3><p data-pid=\"aIMwecYG\">只有在收到实际销售订单时才启动生产和采购。按订单生产也可以与组件层面的计划结合使用，以尽可能缩短交货时间。</p><p data-pid=\"Ojtu10Dc\">每种计划策略都有其自身的优点和考虑因素。选择哪种策略取决于产品的性质。</p>",
+        "visited_count": 40,
+        "navigator_vote": false,
+        "comment_permission": "all",
+        "voting": 0,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-9b0fe283686bee74178da02b139013cb_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-9845b666b97dc51a63e3f96487c1d98e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-26565b15b4c16c4117aa6c78a256d68d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cd8f9adbd363dfd70c733ee11e0b2d13_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-129e9aa57bde734890ffb62e5d0737d3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0f58787b3b9658b647dc10b4dc177e5e_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-ef07ca59bac0f6970d2045b05cb6a79d_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 5,
+        "article_type": "normal",
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "excerpt": "一、需求计划场景（Demand Planning Scenario） SAP S/4HANA中 物料管理与运营（Materials Management &amp; Operations） 中的计划解决方案。✅ 需求计划是供应链规划的核心环节，目标是： 准确预测未来客户需求，并据此制定生产、采购和库存策略。二、关键概念：需求计划如何运作？✅ 1. 预测（Forecasting）可使用多种工具：SAP Integrated Business Planning (IBP)：高级预测平台（支持实时数据）SAP S/4HANA 内置工具：灵活…",
+        "is_labeled": false,
+        "id": "1995495579036431565",
+        "title": "需求计划的原理",
+        "created": 1768545376,
+        "updated": 1768546057,
+        "comment_count": 0,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995495579036431565}",
+      "attached_info": "CvoHCPDs9tTg+NurrwEQBxoJMjY5MTEwNDU3IOC4p8sGKAEwAECAAUojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDISATAYACAAOgBiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1NDk1NTc5MDM2NDMxNTY1qgEJcmVjb21tZW5kwgEgOTQxZWY2MzQ5MzA5Yjg3MjNiYTI0NjAzZmY2ZGVlNTjyAQoIDBIGTm9ybWFs8gEoCAoSJGQwNzExNjY0LWM3OTYtNGU4Ni1iZDIyLTE5ZWRhODAxYzQ4MfIBBggLEgIyMoICAIgC4YP06bwzkgIgOTQxZWY2MzQ5MzA5Yjg3MjNiYTI0NjAzZmY2ZGVlNTiaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIYVFNfU09VUkNFX1dBUk1fVVBfQk9PU1Qy6AID+gILTk9STUFMX0ZMT1eKAyA4YzU3MzQzZTIxYWE0YjcwYjNlMGZmOTNiZGNkZDQ5OZoDDQoCdjIQABoFb3RoZXKoAyjYAwDqAx93YXJtdXBUd29Ub3dlclRleHRCb29zdFJlY2FsbGVy+gPoAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCENwNGMQHIiN2Mi05YjBmZTI4MzY4NmJlZTc0MTc4ZGEwMmIxMzkwMTNjYjotCAIQ/gwYsgciI3YyLTk4NDViNjY2Yjk3ZGM1MWE2M2UzZjk2NDg3YzFkOThlOi0IBBDBDRivByIjdjItMjY1NjViMTViNGMxNmM0MTE3YWE2Yzc4YTI1NmQ2OGQ6LQgCENkPGIAIIiN2Mi1jZDhmOWFkYmQzNjNkZmQ3MGM3MzNlZTExZTBiMmQxMzotCAMQpQ8Y6gciI3YyLTEyOWU5YWE1N2JkZTczNDg5MGZmYjYyZTVkMDczN2QzOi0IAhCFDRitCSIjdjItMGY1ODc4N2IzYjk2NThiNjQ3ZGMxMGI0ZGMxNzdlNWU6LQgCELAMGMMHIiN2Mi1lZjA3Y2E1OWJhYzBmNjk3MGQyMDQ1YjA1Y2I2YTc5ZIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAINIVbT+BBQAAAAAAAAAAiQWnLXAAR0u0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUWkAYAoAaCAagGAJICLgoJMjY5MTEwNDU3EhMxOTk1NDk1NTc5MDM2NDMxNTY1GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "129_1768674886.183",
+      "type": "feed",
+      "offset": 129,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674886,
+      "updated_time": 1768674886,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1994898372281275358",
+        "favorite_count": 82,
+        "excerpt": "有时，能够活着就很好了。两年前，我养的狗子在冬天的时候下了一窝狗崽，一起五只。因为平时我和老公都喜欢钓鱼，所以冰箱里面有很多冷冻的鲫鱼。 母狗生下狗崽后，我每天熬鲫鱼汤给它喝。有时是鲫鱼汤泡饭，有时鱼肉多，它就喝汤吃鱼肉饱了。半个月不到，狗崽被狗妈喂得胖嘟嘟的。   天气好的时候，我白天把它们放在用稻草编织的垫子上晒太阳。傍晚又把它们抱回屋里的狗窝。在这五只狗崽里，有两只黑色的会偏小一点。 再后来另外…",
+        "excerpt_new": "有时，能够活着就很好了。两年前，我养的狗子在冬天的时候下了一窝狗崽，一起五只。因为平时我和老公都喜欢钓鱼，所以冰箱里面有很多冷冻的鲫鱼。 母狗生下狗崽后，我每天熬鲫鱼汤给它喝。有时是鲫鱼汤泡饭，有时鱼肉多，它就喝汤吃鱼肉饱了。半个月不到，狗崽被狗妈喂得胖嘟嘟的。   天气好的时候，我白天把它们放在用稻草编织的垫子上晒太阳。傍晚又把它们抱回屋里的狗窝。在这五只狗崽里，有两只黑色的会偏小一点。 再后来另外…",
+        "reshipment_settings": "disallowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "id": "1994898372281275358",
+        "voteup_count": 577,
+        "thumbnail": "https://picx.zhimg.com/50/v2-d155f7f31ba70249828ba67772667fcf_720w.jpg?source=b6762063",
+        "author": {
+          "gender": 0,
+          "id": "faafacb1163c4ddaee06dc5cc6ce2d8a",
+          "url_token": "72-28-75-22-42",
+          "headline": "你的善良里，一定藏着你的好运气。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-6704fe2e564a95d64d2f6315f32a0395_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/faafacb1163c4ddaee06dc5cc6ce2d8a",
+          "user_type": "people",
+          "name": "柠檬膏",
+          "followers_count": 304,
+          "is_following": false
+        },
+        "updated_time": 1768490889,
+        "content": "<p data-pid=\"J0GxG1lq\">有时，能够活着就很好了。两年前，我养的狗子在冬天的时候下了一窝狗崽，一起五只。因为平时我和老公都喜欢钓鱼，所以冰箱里面有很多冷冻的鲫鱼。</p><p data-pid=\"6wnJU9yb\">母狗生下狗崽后，我每天熬鲫鱼汤给它喝。有时是鲫鱼汤泡饭，有时鱼肉多，它就喝汤吃鱼肉饱了。半个月不到，狗崽被狗妈喂得胖嘟嘟的。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-60d5e9d5d1f62ac1bc4008cbe72b0d07_1440w.jpg\" data-rawwidth=\"1440\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-d155f7f31ba70249828ba67772667fcf\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic2.zhimg.com/v2-60d5e9d5d1f62ac1bc4008cbe72b0d07_r.jpg\"/></figure><p data-pid=\"wdqk4hwR\">天气好的时候，我白天把它们放在用稻草编织的垫子上晒太阳。傍晚又把它们抱回屋里的狗窝。在这五只狗崽里，有两只黑色的会偏小一点。</p><p data-pid=\"uYa4I83W\">再后来另外一只黑色的狗崽也慢慢追上来了。可右边这只头上有一小撮白毛的狗崽一直瘦瘦小小的，我给它取名小笼包。</p><p data-pid=\"IMOFgzVl\">不知道是小笼包太瘦弱还是其他的原因，狗妈竟然嫌弃它，排斥它。甚至在狗崽吃奶的时候，狗妈都不想给它吃。</p><p data-pid=\"hLNXaHeJ\">我看着心里气，小笼包本就瘦弱，狗妈还不愿意给它吃。我每每看到这情况时，都会骂两句狗妈。可是，狗妈依然我行我素，就是不乐意给它吃。</p><p data-pid=\"YQIDe4Mn\">其他四只狗崽大块头，有力气，每次都会把小笼包挤到一边，加上狗妈不待见它，所以小笼包经常吃不到母乳。</p><p data-pid=\"popmFV7c\">半个月后，其他四只狗崽都睁开眼睛，会爬出窝外边玩了。小笼包还是呼呼睡觉，不怎么会爬，眼睛也没有睁开。我有时按着狗妈让它给小笼包吃奶，有时给小笼包喂羊奶粉。</p><p data-pid=\"HXNbn5DW\">随着时间过去，小笼包和其他四只狗崽的差距越来越大。其他四只狗崽会走路会跑了，它后肢没力站不起来。我检查发现它前肢正常，后肢没力。</p><p data-pid=\"Zk4pTD6O\">我上网查，说它是母胎缺营养，身体弱导致的。需要补维生素AD滴丸，我又买回来喂它。然后每天额外给它加餐。在我的细心照顾下，它也渐渐的好起来。</p><p data-pid=\"WKI8gbN4\">正在我为它高兴时，灾难降临到它身上。有一天早上五点多，老公起来送孩子上学，他看到小笼包在狗窝外面冻硬了。</p><p data-pid=\"4rOHLvRA\">那一晚很冷很冷。室外的温度零下三度，早上有霜冻。狗窝是在一楼室内，地板是瓷砖，冰凉冰凉的。老公把小笼包抱起来，发现它还有呼吸，但是身体已经僵硬。</p><p data-pid=\"NtQuRSL9\">他抱着小笼包跑到房间里找我。我一骨碌从床上爬起来，接过小笼包，然后拿来吹风机，把毛毯裹在小笼包身上，接着用吹风机对着小笼包全身吹。</p><p data-pid=\"vwCIdsjG\">因为有毛毯包裹，吹风机吹出来的暖风一直在小笼包身边围绕。我吹了好一会，小笼包僵硬的身体开始渐渐变暖。我没敢松懈，还是一直对着它吹。直到小笼包的四肢和身体恢复温度。</p><p data-pid=\"SMrvglgi\">这时，我才感到后背凉嗖嗖的。原来，我前面着急小笼包。身上只穿着薄款睡衣，我找来夹棉的厚睡衣穿上。又把小笼包抱在膝盖上，看着它身体恢复温暖，呼吸正常。我冲了半杯羊奶给它喝。</p><p data-pid=\"7DD6v2NQ\">小笼包之所以在狗窝外冻僵，是它爬到狗窝外面拉屎，接过没力气爬回去窝里。狗妈也没有出窝把它叼回去，也不知道它被冻了多久，可怜的小家伙。</p><p data-pid=\"_Cy-SDO2\">当天晚上，我把小笼包放在我的房间里，单独给它铺了一个新的狗窝，我怕它出窝不方便，特意用矮矮的毛毯狗窝。</p><p data-pid=\"zI4OUgF7\">满月后，其他的四只狗崽被亲戚领养。我留着小笼包，当时也有人要领养小笼包，但我不放心。因为它的后肢还是没多大力气，走路只能靠前肢。</p><p data-pid=\"fOXVRpMk\">而且其他四只狗崽满月后都有五到六斤多，小笼包还不到两斤。我和老公商量，等它再大一点，买点钙片给它补。另外维生素AD滴丸一直有喂。</p><p data-pid=\"NsVLrzsn\">四只大的狗崽都被领养走，我想着狗妈只有小笼包了，应该会对它好一点。我把小笼包放回一楼的狗窝，让它吃狗妈的母乳。</p><p data-pid=\"5SvljVTR\">狗妈还是不怎么乐意给它吃，有时我是按着狗妈躺下来喂小笼包。一个多月后，小笼包的后肢还是没多大进步，它走路是用前肢拖着后肢走。走十来步，它就累了，需要停下来休息。</p><p data-pid=\"9zS3xjim\">每次看它这样走路，我心里不好受。狗妈对它不理不睬的。我老公说狗妈是看到小笼包体弱，放弃它了。</p><p data-pid=\"w_GFNwjs\">可我没有放弃。我还是给它喂羊奶，喂维生素AD滴丸。我想着只要它能够正常走路，即使慢一点也没关系。</p><p data-pid=\"zNJOX7gs\">可是，这个愿望没有实现。</p><p data-pid=\"fc6Su2H8\">有一天，我和小笼包在晒太阳，它突然抽搐，口吐白沫。然后永远的离开了。我和老公把小笼包裹着毛毯埋到屋子前面的竹林里。因为那里离家不远，我站在二楼的阳台就可以看到竹林。</p><p data-pid=\"CsPxWJzJ\">在小笼包离开后，我上网查原因。说它是先天性体弱，并伴有神经性疾病。狗妈放弃它，是狗妈知道它活不久。狗妈想把更多的资源留给其他强壮的狗崽。</p><p data-pid=\"8bUgR_6Q\">在狗妈都嫌弃放弃的情况下，小笼包依然顽强努力的活了将近两个月。甚至在冻僵硬后依然靠着顽强的生命力活了下来，可它最终逃不过命运。它来人间走了一趟，看了看，也许是不喜欢，所以走了。</p>",
+        "preview_type": "default",
+        "is_labeled": false,
+        "created_time": 1768400835,
+        "is_copyable": false,
+        "question": {
+          "is_following": false,
+          "type": "question",
+          "follower_count": 0,
+          "comment_count": 323,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "title": "谁能告诉我活着是为了什么？",
+          "created": 1489420967,
+          "bound_topic_ids": [
+            478,
+            634,
+            12262
+          ],
+          "detail": "",
+          "id": "57065901",
+          "url": "https://api.zhihu.com/questions/57065901",
+          "author": {
+            "id": "6ea7dc05f7f9e10d08558e9256a211c9",
+            "user_type": "people",
+            "headline": "学生",
+            "gender": -1,
+            "is_followed": false,
+            "followers_count": 86,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/6ea7dc05f7f9e10d08558e9256a211c9",
+            "url_token": "yi-jiu-na-yao-ke-ai-de-cheng-cheng",
+            "name": "Z-czz",
+            "avatar_url": "https://picx.zhimg.com/50/v2-8975dd2246cfc2e55c916ebc1de1c1f0_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "answer_count": 0
+        },
+        "preview_text": "",
+        "navigator_vote": false,
+        "visited_count": 33348,
+        "segment_infos": [
+          {
+            "pid": "8bUgR_6Q",
+            "text": "在狗妈都嫌弃放弃的情况下，小笼包依然顽强努力的活了将近两个月。甚至在冻僵硬后依然靠着顽强的生命力活了下来，可它最终逃不过命运。它来人间走了一趟，看了看，也许是不喜欢，所以走了。",
+            "marks": [
+              {
+                "start_index": 63,
+                "end_index": 88,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995431217743562724"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "thanks_count": 19,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-d155f7f31ba70249828ba67772667fcf_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "type": "answer",
+        "comment_count": 112
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994898372281275358}",
+      "attached_info": "CpgGCPDs9tTg+NurrwEQBBoJNzY1NDM2MzUxIMPPnssGKMEEMHBAgQFKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDE1MDQ2NzUzYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NDg5ODM3MjI4MTI3NTM1OIoBCDU3MDY1OTAxqgEJcmVjb21tZW5kwgEgZmFhZmFjYjExNjNjNGRkYWVlMDZkYzVjYzZjZTJkOGHyAQoIDBIGTm9ybWFs8gEoCAoSJDEyNjhlMDYzLTNlZDUtNGYzMC05OTRkLTdiYzljY2M1NWRjZPIBBggLEgIyMoICAIgC4YP06bwzkgIgZmFhZmFjYjExNjNjNGRkYWVlMDZkYzVjYzZjZTJkOGGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gITVFNfU09VUkNFX0ZFRURSRV9WNegCAvoCC05PUk1BTF9GTE9XigMgOGM1NzM0M2UyMWFhNGI3MGIzZTBmZjkzYmRjZGQ0OTmaAw0KAnYyEAAaBW90aGVyqAPEhALYAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQoAsYoAsiI3YyLWQxNTVmN2YzMWJhNzAyNDk4MjhiYTY3NzcyNjY3ZmNmgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgdGanP4EFAAAAAAAAAACJBactcABHS7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRaQBgCgBoMBqAYAkgIuCgk3NjU0MzYzNTESEzE5OTQ4OTgzNzIyODEyNzUzNTgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "130_1768674886.496",
+      "type": "feed",
+      "offset": 130,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674886,
+      "updated_time": 1768674886,
+      "target": {
+        "thanks_count": 0,
+        "excerpt": "有时候工作烦躁了或在闲暇时，很多人都想休息摸鱼偷偷懒，但碍于在公司总不能明目张胆地走掉吧，所以坐在工位上看看小说读读书换个心情也是不错的。话说“上班摸鱼一时爽，一直摸鱼，一直爽”。虽然偷懒不是那么好，但部分公司确实工作不多，却又在执行 996 或者有加班文化的存在，即便工作完成了也不能随便早走。这时，借助看书摸鱼神器，偷偷看部小说轻松一下也是未尝不可的。1. CSDN风格布局 - 最强伪装模式整个界面完全还原…",
+        "favorite_count": 0,
+        "allow_segment_interaction": true,
+        "preview_text": "",
+        "is_labeled": false,
+        "question": {
+          "url": "https://api.zhihu.com/questions/315745108",
+          "answer_count": 0,
+          "detail": "",
+          "relationship": {
+            "is_author": false
+          },
+          "title": "你有哪些高超的摸鱼技巧?",
+          "created": 1552458966,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            99,
+            505,
+            2566,
+            136098,
+            400821
+          ],
+          "is_following": false,
+          "id": "315745108",
+          "type": "question",
+          "author": {
+            "id": "6b341c349d80c5e6b5add8ecf02f7927",
+            "user_type": "people",
+            "headline": "杯汝来钱！！！",
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/6b341c349d80c5e6b5add8ecf02f7927",
+            "url_token": "hu-tu-xiao-jia",
+            "name": "应如是",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-903c2f93720d966416164261da9a1d72_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 215,
+            "is_following": false
+          },
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "visited_count": 10,
+        "navigator_vote": false,
+        "type": "answer",
+        "is_copyable": true,
+        "preview_type": "default",
+        "vote_next_step": "vote",
+        "updated_time": 1768657376,
+        "comment_count": 0,
+        "content": "<p data-pid=\"XPlh8Wvz\"><b>有时候工作烦躁了或在闲暇时，很多人都想休息摸鱼偷偷懒，但碍于在公司总不能明目张胆地走掉吧，所以坐在工位上看看小说读读书换个心情也是不错的。话说“上班摸鱼一时爽，一直摸鱼，一直爽”。虽然偷懒不是那么好，但部分公司确实工作不多，却又在执行 996 或者有加班文化的存在，即便工作完成了也不能随便早走。这时，借助看书摸鱼神器，偷偷看部小说轻松一下也是未尝不可的。</b></p><h3>1. CSDN风格布局 - 最强伪装模式</h3><p data-pid=\"wkD8_K_y\">整个界面完全还原了CSDN技术博客的风格： <a href=\"https://link.zhihu.com/?target=https%3A//duanwuqiufenmao.top/%3Fcode%3DREF1_0d9894dc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">CSDN技术博客 - 最强办公室摸鱼伪装工具</a></p><ul><li data-pid=\"cjlNHfhi\"><b>左侧边栏</b>：作者信息、推荐文章、热门标签</li><li data-pid=\"sh0DrMwQ\"><b>中间主内容区</b>：技术文章格式，小说内容完美镶嵌其中</li><li data-pid=\"H5tJ55Jr\"><b>右侧边栏</b>：文章目录、相关文章、在线聊天，趣味小游戏，在线对战，股票查看  </li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3f383233bae3376bf7736f14b8ba92a1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3420\" data-rawheight=\"2008\" data-original-token=\"v2-ee15d61cca91ca29ecf3a2e91e9a541d\" class=\"origin_image zh-lightbox-thumb\" width=\"3420\" data-original=\"https://picx.zhimg.com/v2-3f383233bae3376bf7736f14b8ba92a1_r.jpg\"/></figure><p></p>",
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1995974381738940380",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-73260a95d7aebc360eee18fd22957571_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 7,
+          "is_following": false,
+          "is_followed": false,
+          "id": "47a7831e992c43526a952765fdd96be6",
+          "user_type": "people",
+          "url_token": "lin-qin-keng-shi-fu",
+          "name": "asyman",
+          "headline": "一个前端",
+          "is_org": false,
+          "url": "https://api.zhihu.com/people/47a7831e992c43526a952765fdd96be6"
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-ee15d61cca91ca29ecf3a2e91e9a541d_720w.jpg?source=b6762063"
+        ],
+        "voteup_count": 0,
+        "thumbnail": "https://pica.zhimg.com/50/v2-ee15d61cca91ca29ecf3a2e91e9a541d_720w.jpg?source=b6762063",
+        "excerpt_new": "有时候工作烦躁了或在闲暇时，很多人都想休息摸鱼偷偷懒，但碍于在公司总不能明目张胆地走掉吧，所以坐在工位上看看小说读读书换个心情也是不错的。话说“上班摸鱼一时爽，一直摸鱼，一直爽”。虽然偷懒不是那么好，但部分公司确实工作不多，却又在执行 996 或者有加班文化的存在，即便工作完成了也不能随便早走。这时，借助看书摸鱼神器，偷偷看部小说轻松一下也是未尝不可的。1. CSDN风格布局 - 最强伪装模式整个界面完全还原…",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "id": "1995974381738940380",
+        "created_time": 1768657376
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995974381738940380}",
+      "attached_info": "CrsGCPDs9tTg+NurrwEQBBoJNzY1ODQ0OTY4IOCjrssGKAAwAECCAUokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwxEgEwGAAgADoASiwKIVRTX1NPVVJDRV9XQVJNVVBfWkhJX0ZJTkVUVU5FX0kySRIBMBgAIAA6AFoIMzI0NDIwODJiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1OTc0MzgxNzM4OTQwMzgwigEJMzE1NzQ1MTA4qgEJcmVjb21tZW5kwgEgNDdhNzgzMWU5OTJjNDM1MjZhOTUyNzY1ZmRkOTZiZTbyAQoIDBIGTm9ybWFs8gEoCAoSJDhjZWRkMjU4LTM0OTgtNDRlMS1iMjEzLTc3Y2M4NjI2ZjdkNvIBBggLEgIyMoICAIgC4YP06bwzkgIgNDdhNzgzMWU5OTJjNDM1MjZhOTUyNzY1ZmRkOTZiZTaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCAvoCC05PUk1BTF9GTE9XigMgOGM1NzM0M2UyMWFhNGI3MGIzZTBmZjkzYmRjZGQ0OTmaAw0KAnYyEAAaBW90aGVyqAMK2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhDcGhjYDyIjdjItZWUxNWQ2MWNjYTkxY2EyOWVjZjNhMmU5MWU5YTU0MWSABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAADF+oA/gQUAAAAAAAAAAIkFpy1wAEdLtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFpAGAKAGhAGoBgGSAi4KCTc2NTg0NDk2OBITMTk5NTk3NDM4MTczODk0MDM4MBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "131_1768674886.413",
+      "type": "feed",
+      "offset": 131,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674886,
+      "updated_time": 1768674886,
+      "target": {
+        "allow_segment_interaction": true,
+        "id": "1993693055602164220",
+        "updated_time": 1768572127,
+        "is_labeled": false,
+        "is_navigator": false,
+        "preview_type": "default",
+        "content": "<p data-pid=\"DsCMZmoM\">2023年面对AI奇点，因为美国禁运而被高性能显卡锁死在AI时代的中国人民，会否回想起2000年禁止游戏主机的那一夜。</p><blockquote data-pid=\"-cv5NMut\">为了防止青少年沉迷游戏，2000年6月，<a href=\"https://link.zhihu.com/?target=https%3A//baike.baidu.com/item/%25E5%259B%25BD%25E5%258A%25A1%25E9%2599%25A2%25E5%258A%259E%25E5%2585%25AC%25E5%258E%2585/468516%3FfromModule%3Dlemma_inlink\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">国务院办公厅</a>转发文化部等7部门《关于开展电子游戏经营场所专项治理的意见》，开始了针对国内游戏机市场的治理工作。在该《意见》中，规定“自本意见发布之日起，面向国内的电子游戏设备及其零、附件生产、销售即行停止。任何企业、个人不得再从事面向国内的电子游戏设备及其零、附件的生产、销售活动。”</blockquote><p data-pid=\"ye3i_xiv\">自此之后，从2000年至2017年，是整个游戏行业的灰色地带，当时家用机的中国游戏市场占比约为0.5%。整个行业已经死亡。</p><p data-pid=\"QtzM1nUc\">科技的发展偶然又似乎暗含着必然。人类逃避枯燥生活发明的游戏机与之需求的高性能显卡，让AI时代的到来给人类能逃脱重复和乏味的生产，从而让人更进一步来获得闲暇和摆脱枯燥乏味的流水线工作。</p><p data-pid=\"QMUlq-eT\">1990年日本任天堂发布红白机，1993年中国通过采用台湾的芯片方案就能制造山寨红白机。山寨游戏机霸主小霸王在1992年销售额过亿元，净利润超过800万元；1993年，销售额超过2亿；1994年超过4亿元，销量突破百万，占据国内80%市场份额。1994年，任天堂决定进入中国大陆市场，一个很大的原因是市场调研了解到：中国大陆“FC兼容机”的粗估保有量约有2000万台。而红白机最终统计全球销量6191万台。</p><p data-pid=\"JQeAj-XE\">与之同时，某游戏杂志估计提供山寨机红白机芯片的联华向大陆的厂商提供了3000万枚FC兼容芯片UA6527。可以说，我国山寨游戏机撑起了台湾芯片业的生存与繁荣。2004年联华已经能量产12寸芯片。虽然最终因为激烈的技术斗争无法更进一步，但毫无疑问联华当初崛起的主因就是中国庞大的山寨游戏机消费市场。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-89787ffe3be4ccc150e4683644b03592_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1216\" data-rawheight=\"962\" data-original-token=\"v2-89787ffe3be4ccc150e4683644b03592\" class=\"origin_image zh-lightbox-thumb\" width=\"1216\" data-original=\"https://pica.zhimg.com/v2-89787ffe3be4ccc150e4683644b03592_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0df26575b9d4bf58671054382d0db750_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1723\" data-rawheight=\"919\" data-original-token=\"v2-0df26575b9d4bf58671054382d0db750\" class=\"origin_image zh-lightbox-thumb\" width=\"1723\" data-original=\"https://pic1.zhimg.com/v2-0df26575b9d4bf58671054382d0db750_r.jpg\"/></figure><p data-pid=\"PUGKTyhq\">那我国在2000年的时间节点是不是没有芯片技术制造水平呢？完全不是。因为中芯国际2000年建厂，<b>2001年试投产，</b>中芯国际拥有了<b>4条8寸产线和1条12英寸生产线，</b>做到90纳米集成电路线宽。<b>2004年上市后成为全球第四大芯片制造厂。</b>这3年，把大陆芯片产业拉快了30年。</p><p data-pid=\"V7wjOXRw\">那么我国当时的芯片设计就是IC不行，所以导致落后么？完全不是。</p><p data-pid=\"IQD5E7aZ\">举个例子：1999年因为国家教委宣布：今后大、中、小学生的外语教学和考试将侧重于学生的口语、听力综合水平后。复读机市场被国家政策迅速孵化为一个容量上千万台的成熟市场。据统计，中国市场1998年、1999年和2000年复读机的销量分别为50万台、300万台和800万台，2001年复读机的销量超过1000万台，2002年达到1300万台</p><p data-pid=\"SEWw99zR\">看到庞大市场的瑞芯微2001年开始做复读机的MCU编程。2002年，实现了大客户步步高需求后的瑞芯微一年之内就赚到了数千万的净利润，净利率高达60%，而当时公司只有不过13个人。一举超越台湾芯片设计公司排名第四的凌阳科技（Sunplus）。</p><p data-pid=\"RAJLau1c\">2003年，瑞芯微完成了一片8bit MCU（3 Stage Pipeline MCU）芯片的研发工作，采用8英寸0.35微米数模混合工艺制程，开始从嵌入式软件的开发方案公司转型成为芯片设计公司。</p><p data-pid=\"HJ2cXMRO\">随着电脑的发展，2005年复读机市场开始迅速衰落。</p><p data-pid=\"FQSI2jkg\">另一个例子就是MP3芯片，2001年苹果公司靠MP3（ipod）重新成为消费级电子王者。随着中国MP3的迅速发展。采用价格低廉而性能卓越的珠海炬力芯片成为各个中国MP3制造商首选。</p><p data-pid=\"GeDbkR7Y\">在2004年第二季度，炬力MP3芯片累计出货量突破100万片，2005年第一季度突破1,000万片，2006年第三季度突破1亿片。珠海炬力于2005年正式登陆美国纳斯达克，2006年，珠海炬力成为全球MP3芯片最大供货商。当时，基本上苹果卖一个iPod，珠海炬力就会提供3颗芯片。全球的MP3市场，美国占领高端，中国占领中低端。</p><p data-pid=\"3HGyjTzY\">其实我们发现，中国大陆的芯片公司的成立时间，和第三次信息革命的时间并不差太多。珠海亚力（1993年），华为集成电路设计中心（海思前身）1998年。瑞芯微（2001年）。</p><p data-pid=\"zBK9eyHe\">从张汝京通过基督教徒身份找到了美国五大教会，保证所创办的企业将来生产的芯片产品只用于工业民用，才取得从美国进口半导体设备的出口许可开始，我国大陆的芯片根本不可能有成规模的军用市场。不可能通过军用设备的消费令大陆晶圆生产进入迭代升级的正循环。但即使如日中天的苏联，最简单的INTEL 8080/8086CPU芯片，苏联也未能两场。而美国的芯片因为个人电脑的繁荣通过消费市场完成了消费迭代升级。</p><p data-pid=\"OdogC7pv\">时间回到2016年，AMD犹如<span class=\"nolink\">冢中枯骨</span>，市值只有50亿美金左右。旗下的CPU处理器已经5年没有更新。商业CPU的状况就是一发布就落后。还未倒闭的主要原因可能是因为intel怕反垄断（当然不是）。显卡的情况好点，但也只占市场份额20%左右，其余被英伟达占领。这个节点AMD通过卖总部大楼和在中国卖ryzen芯片设计筹钱研发。</p><p data-pid=\"UwiS65pL\">最后AMD能活下来的原因就是索尼的PS4和微软的Xbox one都选择用AMD的CPU和GPU做主机芯片。凭借庞大的游戏主机消费，AMD最终筹够了钱，发布了影响芯片史的ryzen处理器。主机业务稳定的几亿美金现金流，拯救了AMD贫弱的研发现金流。现在AMD市值1500亿，intel只有1200亿。而且因为intel路线错误，AMD在服务器领域已经稳压intel。</p><p data-pid=\"henkYv9x\">即使显卡王者英伟达也推出过不适合市场的显卡芯片：Tegra X1。20nm制程功耗感人。主推的平板市场既不需要这么强大的游戏性能，续航血崩而且成本贵。最引以为傲的GPU技术，和同年的A9X拉不开差距。Tegra项目被砍已经是板上钉钉的事情。</p><p data-pid=\"_0gmvmvk\">直到日本的<a href=\"https://www.zhihu.com/search?q=%E4%BB%BB%E5%A4%A9%E5%A0%82switch&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2881819255%7D\" class=\"internal\" target=\"_blank\">任天堂switch</a>掌机救了Tegra团队。2017年到2022年，卖了1.14亿台的<span class=\"nolink\">siwtch掌机</span>带来了同等数量的芯片销售。Tegra X1不但有资金升级到<a href=\"https://www.zhihu.com/search?q=16nm%E5%88%B6%E7%A8%8B&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2881819255%7D\" class=\"internal\" target=\"_blank\">16nm制程</a>，下一代的Tegra 239也顺利得到资金迭代升级中。下一代的任天堂siwtch2毫无疑问也是用Tegra方案。switch直至2023年销量是<b>1.2亿台</b>。</p><p data-pid=\"wGROvS-U\">这就是一个庞大的主机市场拯救了2个落后芯片项目的例子。</p><p data-pid=\"qB1RUjFG\">消费级市场对芯片bug问题是非常宽容的。2008年Xbox出现三红事件，数百万台xbox主机报废，导致微软输了主机战争。但最后，xbox生命周期依然卖了8500万台。面对工业消费市场，基本没一个资本家会弃用成熟的芯片方案，因为芯片出问题整个生产线的浪费一天以十万甚至百万起步，资本家根本承受不起这样的潜在损失。如果不是特朗普封禁芯片出口，我国的工业国产芯片消费市场完全起不来。可以说国产芯片在没有强力的补贴和美国封锁下，根本打不开工业级消费市场。</p><p data-pid=\"_eaHBZRJ\">而主机玩家，是可以忍受3，4年的落后。因为游戏面对千万级的单一配置主机，可以做非常细致的优化。直至今天，最后生还者重制版移植到PC，4070显卡还回出现卡帧。而PS5的配置相当于同一芯片制造商AMD的5700XT，N卡的2060 SUPER。PS4美洲豹架构处理器是28纳米，同年的intel i34100是22纳米。因为数千万台的游戏主机市场，游戏开发者可以针对优化。根本看不出差别。</p><p data-pid=\"ytsih4aF\">即使在生涯末期2020年，PS4销量是1300万台左右。而2020年发布的20系显卡制程是12纳米。两者之间的制程更是相差数代（28VS12）。除了主机市场，没有任何一个细分市场能满足：容忍落后制程，中等性能图形计算，能通过文化产品制造壁垒（独占策略）。</p><p data-pid=\"WZ7kUApx\">每一个地区的人民，都会倾向消费地区特色的文化产品。本国的文化产品天然就吸引本国人群。在2014年凭借先进的视觉特效技术屠杀全球电影市场的好莱坞。法国2014年的票房冠军却是《岳父岳母真难当》。讲述法国人在全球化之中和外来文化的冲突。而2014年全球票房榜的排名是《变形金刚4》、《霍比特人五军之战》、《银河护卫队》、《沉睡魔咒》。而最近的例子是2022年中国香港票房冠军是《毒舌大状》。也许电影来说它只是一部7分左右的质量。但是里面含有的文化特色能触动中国香港地区的观众来消费。</p><p data-pid=\"eQ4bkB9o\">索尼和任天堂都曾凭借独占策略，在主机战争中脱颖而出。如果不是任天堂出了塞尔达传说旷野之息这种历史级高分游戏作品。可能任天堂也会因为落后的游戏性成为主机游戏史一段失败的注脚。PS4在和xbox的主机战争胜出，也是凭借美国末日，神秘海域，战神这类第一方独占作品。</p><p data-pid=\"w6yl4hLy\">无独有偶，中国电子词典的霸主文曲星。在2000年推出了革命性的新产品CC800。这一代产品最核心的功能是：支持 GVBasic 语言编程并能直接在机器上运行，使其在应用的支持上远远领先于同时期的竞争产品。当中诞生了许多可以算是独占的游戏。以及之后每一代都会内置的游戏《英雄坛说》。文曲星的游戏和应用带动销量令金远见举办了第一届Gvmaker 大赛。到了2003年，文曲星累计销量超过了2000万台。</p><p data-pid=\"VpGnJGUN\">1994年，用台湾兼容芯片方案的红白山寨机能能有3000万台的销量。那么2001年更富有的中国人，到底能卖出多少台主机，而数千万的游戏主机市场，足以养活一个高性能显卡公司。在2000年，我国的芯片设计和芯片制造只和国际主流落后3~5年。如果不是主机游戏市场的消失。那么在2023年被制裁的中国，能留下一个起码不至于太落后的图形显卡公司的火种。因为即使2023年，中国能造出DDR4国产内存，主流消费级别的固态硬盘，只落后intel3~4年左右的龙芯CPU3A5000（2021年发布）。</p><p data-pid=\"1HIPnFGH\"><b>但高性能显卡诞生的唯一和主要目的只为了打游戏而生。没有其他任何的用途，没有其他任何意义。</b></p><p data-pid=\"eaWL_AF4\"><b>但是2000年6月，这个市场死了，彻底死了。</b></p><p data-pid=\"P8xEPBMJ\">AI，是因为显卡为了满足游戏的逼真画面和乳摇动态计算后的不断升级后，直至满足了梯度算法的算力门槛诞生出来的人类的奇点科技。</p><p data-pid=\"M7UNqA3E\">主流价值观就好像美联储用过去数年的数据得出来的经济模型通过货币工具指导未来数年的发展一样荒谬可笑。用过去所谓的美德来锁死了未来发展的需要付出的必要成本。就像三体里不可逾越的低光速黑域。安全声明的代价就是锁死一切向外发展的空间。</p><p data-pid=\"zwmTTQD8\">不是娱乐至死，而是娱乐最为崇高。驴子拉磨拉到死也发展不出来科技。而人类为了不拉磨发明了水力磨坊，水力磨坊的金属机器零件又提供了蒸汽机所需要的轴承。如果没有人们远行和去郊区的娱乐性需求，第二次工业革命的汽车根本不能发展。因为内燃机一开始只有数十匹马力，人们离工作的地方只是走步的距离。汽车本来就是上流阶级的玩物。福特为了让更多人买汽车，更是发展出了8小时工作制。因为只有8小时闲暇的人才会买汽车出远门娱乐（工业革命消费学派观点）。</p><p data-pid=\"MIiMgP2o\">这是一个无数玩家们玩出了工业革命，玩出了未来社会的故事，这个故事是如此瑰奇壮丽，堪称一段无数普通人共同谱写的史诗，然而很遗憾我们并不身处其中。</p><p data-pid=\"6WM12MyF\">一切选择都有代价，一切行为都有后果，非常公平。</p><p><br/> </p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 278798,
+        "segment_infos": [
+          {
+            "pid": "QMUlq-eT",
+            "text": "1990年日本任天堂发布红白机，1993年中国通过采用台湾的芯片方案就能制造山寨红白机。山寨游戏机霸主小霸王在1992年销售额过亿元，净利润超过800万元；1993年，销售额超过2亿；1994年超过4亿元，销量突破百万，占据国内80%市场份额。1994年，任天堂决定进入中国大陆市场，一个很大的原因是市场调研了解到：中国大陆“FC兼容机”的粗估保有量约有2000万台。而红白机最终统计全球销量6191万台。",
+            "marks": [
+              {
+                "start_index": 25,
+                "end_index": 40,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995850664841074324"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "zBK9eyHe",
+            "text": "从张汝京通过基督教徒身份找到了美国五大教会，保证所创办的企业将来生产的芯片产品只用于工业民用，才取得从美国进口半导体设备的出口许可开始，我国大陆的芯片根本不可能有成规模的军用市场。不可能通过军用设备的消费令大陆晶圆生产进入迭代升级的正循环。但即使如日中天的苏联，最简单的INTEL 8080/8086CPU芯片，苏联也未能两场。而美国的芯片因为个人电脑的繁荣通过消费市场完成了消费迭代升级。",
+            "marks": [
+              {
+                "start_index": 156,
+                "end_index": 163,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994536505507615665"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WZ7kUApx",
+            "text": "每一个地区的人民，都会倾向消费地区特色的文化产品。本国的文化产品天然就吸引本国人群。在2014年凭借先进的视觉特效技术屠杀全球电影市场的好莱坞。法国2014年的票房冠军却是《岳父岳母真难当》。讲述法国人在全球化之中和外来文化的冲突。而2014年全球票房榜的排名是《变形金刚4》、《霍比特人五军之战》、《银河护卫队》、《沉睡魔咒》。而最近的例子是2022年中国香港票房冠军是《毒舌大状》。也许电影来说它只是一部7分左右的质量。但是里面含有的文化特色能触动中国香港地区的观众来消费。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996028424477745681"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "1HIPnFGH",
+            "text": "但高性能显卡诞生的唯一和主要目的只为了打游戏而生。没有其他任何的用途，没有其他任何意义。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 44,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995760801202586481"
+                  ],
+                  "is_like": false,
+                  "like_count": 19,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "P8xEPBMJ",
+            "text": "AI，是因为显卡为了满足游戏的逼真画面和乳摇动态计算后的不断升级后，直至满足了梯度算法的算力门槛诞生出来的人类的奇点科技。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 61,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995957305301292091"
+                  ],
+                  "is_like": false,
+                  "like_count": 32,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "M7UNqA3E",
+            "text": "主流价值观就好像美联储用过去数年的数据得出来的经济模型通过货币工具指导未来数年的发展一样荒谬可笑。用过去所谓的美德来锁死了未来发展的需要付出的必要成本。就像三体里不可逾越的低光速黑域。安全声明的代价就是锁死一切向外发展的空间。",
+            "marks": [
+              {
+                "start_index": 49,
+                "end_index": 112,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996009208961836128"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "zwmTTQD8",
+            "text": "不是娱乐至死，而是娱乐最为崇高。驴子拉磨拉到死也发展不出来科技。而人类为了不拉磨发明了水力磨坊，水力磨坊的金属机器零件又提供了蒸汽机所需要的轴承。如果没有人们远行和去郊区的娱乐性需求，第二次工业革命的汽车根本不能发展。因为内燃机一开始只有数十匹马力，人们离工作的地方只是走步的距离。汽车本来就是上流阶级的玩物。福特为了让更多人买汽车，更是发展出了8小时工作制。因为只有8小时闲暇的人才会买汽车出远门娱乐（工业革命消费学派观点）。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995911408571933213"
+                  ],
+                  "is_like": false,
+                  "like_count": 35,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 33,
+                "end_index": 214,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995231718630778823"
+                  ],
+                  "is_like": false,
+                  "like_count": 43,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "MIiMgP2o",
+            "text": "这是一个无数玩家们玩出了工业革命，玩出了未来社会的故事，这个故事是如此瑰奇壮丽，堪称一段无数普通人共同谱写的史诗，然而很遗憾我们并不身处其中。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 71,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995886180974212232"
+                  ],
+                  "is_like": false,
+                  "like_count": 28,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "question": {
+          "answer_count": 0,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            2143,
+            5582,
+            10809,
+            167735,
+            1378159
+          ],
+          "is_following": false,
+          "title": "为什么突破性的技术总是最先发生在西方？",
+          "comment_count": 186,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "592459442",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/592459442",
+          "detail": "",
+          "author": {
+            "id": "",
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "url": "",
+            "url_token": "",
+            "name": "匿名用户",
+            "followers_count": 0,
+            "is_followed": false
+          },
+          "created": 1680014381,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "excerpt": "2023年面对AI奇点，因为美国禁运而被高性能显卡锁死在AI时代的中国人民，会否回想起2000年禁止游戏主机的那一夜。 为了防止青少年沉迷游戏，2000年6月，国务院办公厅 转发文化部等7部门《关于开展电子游戏经营场所专项治理的意见》，开始了针对国内游戏机市场的治理工作。在该《意见》中，规定“自本意见发布之日起，面向国内的电子游戏设备及其零、附件生产、销售即行停止。任何企业、个人不得再从事面向国内的电子游戏设备及其…",
+        "preview_text": "",
+        "author": {
+          "headline": "提供优越又有道理的情绪价值",
+          "followers_count": 1684,
+          "is_following": false,
+          "is_followed": false,
+          "id": "25efa50919de49b27953ad7d71586119",
+          "name": "双拳无敌加菲猫",
+          "url_token": "22-78-55-47-74",
+          "avatar_url": "https://picx.zhimg.com/50/v2-230b49d89b077be604bdd860a72a50e4_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "url": "https://api.zhihu.com/people/25efa50919de49b27953ad7d71586119",
+          "user_type": "people"
+        },
+        "excerpt_new": "2023年面对AI奇点，因为美国禁运而被高性能显卡锁死在AI时代的中国人民，会否回想起2000年禁止游戏主机的那一夜。 为了防止青少年沉迷游戏，2000年6月，国务院办公厅 转发文化部等7部门《关于开展电子游戏经营场所专项治理的意见》，开始了针对国内游戏机市场的治理工作。在该《意见》中，规定“自本意见发布之日起，面向国内的电子游戏设备及其零、附件生产、销售即行停止。任何企业、个人不得再从事面向国内的电子游戏设备及其…",
+        "navigator_vote": false,
+        "thanks_count": 299,
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/1993693055602164220",
+        "created_time": 1768113465,
+        "comment_count": 587,
+        "thumbnail": "https://pica.zhimg.com/50/v2-89787ffe3be4ccc150e4683644b03592_720w.jpg?source=b6762063",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-89787ffe3be4ccc150e4683644b03592_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0df26575b9d4bf58671054382d0db750_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 1449,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "voteup_count": 3449
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993693055602164220}",
+      "attached_info": "CtgHCPDs9tTg+NurrwEQBBoJNzY0OTQ5OTI5ILmKjcsGKPkaMMsEQIMBSjkKJ1RTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfUkVBRBIIMTIxNDQ2MzcYACAAOgBKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1aCDkzOTM5MzQ1YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5MzY5MzA1NTYwMjE2NDIyMIoBCTU5MjQ1OTQ0MqoBCXJlY29tbWVuZMIBIDI1ZWZhNTA5MTlkZTQ5YjI3OTUzYWQ3ZDcxNTg2MTE58gEKCAwSBk5vcm1hbPIBKAgKEiRmZTA2NzU4OC04YjZlLTQwZjEtYmI2My1kYmVkZjVjYWNmNjPyAQYICxICMjKCAgCIAuGD9Om8M5ICIDI1ZWZhNTA5MTlkZTQ5YjI3OTUzYWQ3ZDcxNTg2MTE5mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxl2gInVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9SRUFE6AID+gILTk9STUFMX0ZMT1eKAyA4YzU3MzQzZTIxYWE0YjcwYjNlMGZmOTNiZGNkZDQ5OZoDDQoCdjIQABoFb3RoZXKoA46CEdgDAOoDG2ZpcnN0RGVncmVlVXNlclJlYWRSZWNhbGxlcvoDfRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEMAJGMIHIiN2Mi04OTc4N2ZmZTNiZTRjY2MxNTBlNDY4MzY0NGIwMzU5MjotCAMQuw0YlwciI3YyLTBkZjI2NTc1YjlkNGJmNTg2NzEwNTQzODJkMGRiNzUwgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgc5WbP4EFAAAAAAAAAACJBactcABHS7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRaQBgCgBoUBqAYAkgIuCgk3NjQ5NDk5MjkSEzE5OTM2OTMwNTU2MDIxNjQyMjAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=131&desktop=true&end_offset=133&page_number=23&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=131&desktop=true&end_offset=133&page_number=23&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

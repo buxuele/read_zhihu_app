@@ -1,0 +1,615 @@
+{
+  "data": [
+    {
+      "id": "78_1767705236.803",
+      "type": "feed",
+      "offset": 78,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705236,
+      "updated_time": 1767705236,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1991421739415135006",
+        "author": {
+          "id": "85fd7a5db77dca43f01e59eceb3f05f2",
+          "is_org": false,
+          "followers_count": 2353,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/85fd7a5db77dca43f01e59eceb3f05f2",
+          "user_type": "people",
+          "url_token": "animabear",
+          "name": "零一猴子",
+          "headline": "后端/前端/AI/游戏/独立开发",
+          "avatar_url": "https://pica.zhimg.com/50/v2-bde9fcdf5712e8330904f3d4c67a974a_l.jpg?source=b6762063",
+          "gender": 1
+        },
+        "excerpt_new": "推荐免费的 TRAE CN 或者 Claude Code + GLM 4.7。 1. 免费方案：TRAE IDE / TRAE 插件 + GLM-4.7目前国内模型里编码能力最强的应该是 GLM-4.7 了，这个不是我说的，是国内外社区的一个共识（自 GLM-4.6 开始就形成的共识）。   TRAE 是字节的 AI Coding IDE，也提供了 IDE 插件，功能挺全的。我自己倾向于常规 IDE（VSCode 或 JetBrains 系）+ TRAE 插件的工作方式，既能充分利用原生 IDE 的能力，又能薅到 TRAE 的羊毛。 当然，…",
+        "preview_text": "",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-dd5f8e9c0b3da7f5a921a703c456fc15_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-18d03810747ac0c97c424ef9b823b39d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3a13e64f84c362790e9bbb3232d72d2a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9390e55c6a93d4c0e527c8e7870b0f6c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-54a6b2a445dc9f9b7e75bca9c43f13d1_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-dd5f8e9c0b3da7f5a921a703c456fc15_720w.jpg?source=b6762063",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "favorite_count": 35,
+        "type": "answer",
+        "excerpt": "推荐免费的 TRAE CN 或者 Claude Code + GLM 4.7。 1. 免费方案：TRAE IDE / TRAE 插件 + GLM-4.7目前国内模型里编码能力最强的应该是 GLM-4.7 了，这个不是我说的，是国内外社区的一个共识（自 GLM-4.6 开始就形成的共识）。   TRAE 是字节的 AI Coding IDE，也提供了 IDE 插件，功能挺全的。我自己倾向于常规 IDE（VSCode 或 JetBrains 系）+ TRAE 插件的工作方式，既能充分利用原生 IDE 的能力，又能薅到 TRAE 的羊毛。 当然，…",
+        "vote_next_step": "vote",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"XEmx29MS\">推荐免费的 TRAE CN 或者 Claude Code + GLM 4.7。</p><p data-pid=\"wJiBsorN\"><b>1. 免费方案：TRAE IDE / TRAE 插件 + GLM-4.7</b></p><p data-pid=\"frm8ij9m\">目前国内模型里编码能力最强的应该是 GLM-4.7 了，这个不是我说的，是国内外社区的一个共识（自 GLM-4.6 开始就形成的共识）。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7fea8994a0adc987bc7f8ae80e926489_1440w.jpg\" data-rawwidth=\"2554\" data-rawheight=\"840\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-dd5f8e9c0b3da7f5a921a703c456fc15\" class=\"origin_image zh-lightbox-thumb\" width=\"2554\" data-original=\"https://picx.zhimg.com/v2-7fea8994a0adc987bc7f8ae80e926489_r.jpg\"/></figure><p data-pid=\"kIL-kB7P\">TRAE 是字节的 AI Coding IDE，也提供了 IDE 插件，功能挺全的。我自己倾向于常规 IDE（VSCode 或 JetBrains 系）+ TRAE 插件的工作方式，既能充分利用原生 IDE 的能力，又能薅到 TRAE 的羊毛。</p><p data-pid=\"Ub_SPn-l\">当然，如果你对 IDE 没有那么执着，也可以直接用 TRAE 的 IDE（本身是 VSCode 套壳）。</p><p data-pid=\"JV9lugTR\">TRAE CN，也就是 TRAE 国内版（包括插件），<b>提供的模型都是免费的</b>，虽然没有 Claude、Gemini 这些海外模型，但国内的顶流编程模型（GLM、Kimi、Qwen）基本都有。</p><p data-pid=\"y_yL8CoF\">目前 TRAE IDE 已经支持 GLM-4.7 了，TRAE 插件估计过段时间就会支持。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e9127be42db8a8849132c4985f095cb1_1440w.jpg\" data-rawwidth=\"1070\" data-rawheight=\"896\" data-size=\"normal\" data-original-token=\"v2-18d03810747ac0c97c424ef9b823b39d\" class=\"origin_image zh-lightbox-thumb\" width=\"1070\" data-original=\"https://picx.zhimg.com/v2-e9127be42db8a8849132c4985f095cb1_r.jpg\"/><figcaption>TRAE IDE</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8e0e8b6d5680e0a2f15725843c968fb5_1440w.jpg\" data-rawwidth=\"1028\" data-rawheight=\"986\" data-size=\"normal\" data-original-token=\"v2-3a13e64f84c362790e9bbb3232d72d2a\" class=\"origin_image zh-lightbox-thumb\" width=\"1028\" data-original=\"https://pic4.zhimg.com/v2-8e0e8b6d5680e0a2f15725843c968fb5_r.jpg\"/><figcaption>VSCode 中的 TRAE 插件</figcaption></figure><p data-pid=\"T5SHlZUV\"><b>2. 便宜方案：Claude Code / Claude Code 插件 + GLM-4.7</b></p><p data-pid=\"bh7af7gD\">Claude Code 是一个命令行形式的 AI Coding Agent，本身是免费的，可以对接很多模型，包括官方自己的 Claude 系列模型，也可以对接国内的一些模型。</p><p data-pid=\"mufXc9zU\">Claude Code 在工程设计上有很多巧思，前面提到的 TRAE 本质也是一个 AI Coding Agent，在对接相同模型的情况下，Claude Code 的执行效果要好一些。<b>如果你的场景比较复杂，或者追求更好的效果，那么建议选 Claude Code + GLM 4.7。</b></p><p data-pid=\"XHXFN8Fv\">前面提到 GLM-4.7 代码能力在国内算是顶流了，GLM 官方也支持了接入 Claude Code：</p><p data-pid=\"HGeFlHMa\"><a href=\"https://link.zhihu.com/?target=https%3A//docs.bigmodel.cn/cn/coding-plan/tool/claude\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.bigmodel.cn/cn/cod</span><span class=\"invisible\">ing-plan/tool/claude</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"9Mpo9geJ\">如果你使用 VSCode 或者 JetBrains 系的 IDE，也可以安装 Claude Code 插件：</p><p data-pid=\"LcPB9zXr\"><a href=\"https://link.zhihu.com/?target=https%3A//docs.bigmodel.cn/cn/coding-plan/tool/claude-for-ide\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.bigmodel.cn/cn/cod</span><span class=\"invisible\">ing-plan/tool/claude-for-ide</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"OjaPL7YP\"><b>这个方案的性价比很高，基本符合一个月 20-30 元的预算</b>，看看 GLM 官方 Coding Plan 的价格就知道：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ec6ea6944cadea293613f631303c4b6e_1440w.jpg\" data-rawwidth=\"2430\" data-rawheight=\"1466\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-9390e55c6a93d4c0e527c8e7870b0f6c\" class=\"origin_image zh-lightbox-thumb\" width=\"2430\" data-original=\"https://pic3.zhimg.com/v2-ec6ea6944cadea293613f631303c4b6e_r.jpg\"/></figure><p data-pid=\"8isBOxfq\"><b>个人用户选 Lite 计划一般就够用了</b>。目前做活动，前 3 个月 54，平均一个月 18 元，后面续费，一个季度 120，平均一个月 40 元。我建议是先买一个季度的，如果用的不错，等后面做活动（比如发布 GLM 4.8），再买一个一年的。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4c604264b9610d38916226139c85d11b_1440w.jpg\" data-rawwidth=\"2516\" data-rawheight=\"790\" data-size=\"normal\" data-original-token=\"v2-54a6b2a445dc9f9b7e75bca9c43f13d1\" class=\"origin_image zh-lightbox-thumb\" width=\"2516\" data-original=\"https://pic2.zhimg.com/v2-4c604264b9610d38916226139c85d11b_r.jpg\"/><figcaption>订阅成功后可以看到订阅计划</figcaption></figure><p data-pid=\"jFZ-aIPX\"><b>注意要从这个 GLM Coding Plan 的入口订阅：</b><a href=\"https://link.zhihu.com/?target=https%3A//www.bigmodel.cn/glm-coding%3Fic%3DQHTPJOZ7PH\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">智谱AI开放平台</a>，不要买资源包，要不然接入 Claude Code 后不生效。（不要问我为什么知道）</p><p data-pid=\"wGpXTAoK\">订阅成功后，参考前面提到的文档配置即可。</p>",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "updated_time": 1767571941,
+        "voteup_count": 10,
+        "thanks_count": 0,
+        "is_labeled": false,
+        "visited_count": 1139,
+        "is_navigator": false,
+        "id": "1991421739415135006",
+        "created_time": 1767571941,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1976414397648876538",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1976414397648876538",
+          "detail": "",
+          "author": {
+            "user_type": "people",
+            "url_token": "31-81-62-84-22",
+            "headline": "",
+            "is_org": false,
+            "gender": 0,
+            "id": "57ae130fb79b43056eddfac25ba6d000",
+            "url": "https://api.zhihu.com/people/57ae130fb79b43056eddfac25ba6d000",
+            "followers_count": 15,
+            "is_following": false,
+            "is_followed": false,
+            "name": "呼呼呼",
+            "avatar_url": "https://picx.zhimg.com/50/v2-25ac7c0d6225fc37e7f4419d75895b22_l.jpg?source=b6762063"
+          },
+          "created": 1763993912,
+          "bound_topic_ids": [
+            39740,
+            2581611
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "comment_count": 0,
+          "is_following": false,
+          "title": "一个月预算20-30元，有什么AI编码工具推荐吗？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991421739415135006}",
+      "attached_info": "CoIICJHwpuzk3/vDnwEQBBoJNzY0MDM5MTgzIOWD7MoGKAowAEBOSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTc0NTg5MTJiIGE0ZTkwYzU3OTg3MTU2YmE5MWIwMjVhOTMxYWNlMTA4chMxOTkxNDIxNzM5NDE1MTM1MDA2igETMTk3NjQxNDM5NzY0ODg3NjUzOKoBCXJlY29tbWVuZMIBIDg1ZmQ3YTVkYjc3ZGNhNDNmMDFlNTllY2ViM2YwNWYy8gEKCAwSBk5vcm1hbPIBKAgKEiQzY2FkYTIzYS1kODc4LTRkOWQtOWUzMy1iMmI3MmFiNWY4Y2LyAQYICxICMTSCAgCIAv2jxZu5M5ICIDg1ZmQ3YTVkYjc3ZGNhNDNmMDFlNTllY2ViM2YwNWYymgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxl2gImVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjHoAgT6AgtOT1JNQUxfRkxPV4oDIDAzMDFhMjBlYjY5MzRkMDI5NzU0NDZhZTE0MDAzZTJjmgMNCgJ2MhAAGgVvdGhlcqgD8wjYAwDqAyNmZWVkLXRleHQtYWxsc2l0ZS1vbmxpbmUtdWNmLXJlY2FsbPoDigISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhD6ExjIBiIjdjItZGQ1ZjhlOWMwYjNkYTdmNWE5MjFhNzAzYzQ1NmZjMTU6LQgCEK4IGIAHIiN2Mi0xOGQwMzgxMDc0N2FjMGM5N2M0MjRlZjliODIzYjM5ZDotCAIQhAgY2gciI3YyLTNhMTNlNjRmODRjMzYyNzkwZTliYmIzMjMyZDcyZDJhOi0IAhD+Ehi6CyIjdjItOTM5MGU1NWM2YTkzZDRjMGU1MjdjOGU3ODcwYjBmNmM6LQgCENQTGJYGIiN2Mi01NGE2YjJhNDQ1ZGM5ZjliN2U3NWJjYTljNDNmMTNkMYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4MQ8gj+BBQAAAAAAAAAAiQV1NWaGBXCyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUOkAYAoAZOqAYBkgIuCgk3NjQwMzkxODMSEzE5OTE0MjE3Mzk0MTUxMzUwMDYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "79_1767705236.305",
+      "type": "feed",
+      "offset": 79,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705236,
+      "updated_time": 1767705236,
+      "target": {
+        "url": "https://api.zhihu.com/articles/1945404189569184741",
+        "updated": 1756600581,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "allow_segment_interaction": true,
+        "title": "资治通鉴：“杀人”易，“诛心”难！",
+        "image_url": "https://pica.zhimg.com/v2-fdeb683c63d979e17c1792eb0daac73a.jpg?source=7e7ef6e2&needBackground=1",
+        "voting": 0,
+        "excerpt_new": "《资治通鉴》第七十卷 魏纪二 曹魏·魏文帝黄初六年（乙己，公元225年） 【原文】汉诸亮至南中，所在战捷。亮由越入，斩雍及高定。使降督益州李恢由益州入，门下督巴西马忠由柯入，击破诸县，复与亮合。孟获收余众以拒亮。获素为夷、汉所服，亮募生致之，既得，使观于劳陈之间，间曰：“此军何如？”获曰：“向者不知虚实，故败。今蒙赐观营陈，若如此，即定易胜耳。”亮笑，纵使更战。七纵七禽而亮犹遣获，获止不去，曰：“公，…",
+        "article_type": "paid_column_content",
+        "author": {
+          "name": "谋略那些事",
+          "headline": "公众号：谋略那些事，另类解读《资治通鉴》，有电子版可领取",
+          "avatar_url": "https://pica.zhimg.com/50/v2-3150de97982e3cb5e8e09b434dd895a3_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false,
+          "id": "96c2135eabf986c6dd01cb49f28ac784",
+          "user_type": "people",
+          "url_token": "si-ji-dao-66",
+          "gender": -1,
+          "followers_count": 292055,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/96c2135eabf986c6dd01cb49f28ac784"
+        },
+        "created": 1756600581,
+        "navigator_vote": false,
+        "comment_permission": "all",
+        "visited_count": 177,
+        "thumbnails": [
+          "https://pica.zhimg.com/v2-fdeb683c63d979e17c1792eb0daac73a.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pica.zhimg.com/50/v2-fdeb683c63d979e17c1792eb0daac73a_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 6,
+        "is_navigator": false,
+        "type": "article",
+        "comment_count": 0,
+        "preview_type": "default",
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "column": {
+          "is_following": false,
+          "type": "column",
+          "imageUrl": "https://pic1.zhimg.com/v2-8670ed0707eeb15c07e9e970c28dfebf_720w.jpg?source=d16d100b",
+          "intro": "当你在职场遭遇 办公室政治 ，是否想过司马光早在九百年前就记载过类似案例？当你为社交关系苦恼时，可知道唐太宗与魏征的互动藏着高段位人际技巧？这不是普通的历史专栏，而是一把解剖人性的手术刀，我们将用《资治通鉴》这部 人类行为百科全书 ，解码那些亘古不变的人性规律。在这里，你将看到：宋太祖 杯酒释兵权 背后的心理操控术武则天从才人到女皇的 上位学 实操手册范睢 远交近攻 策略在商业竞争中的变形应用李斯与韩非的生死博弈揭示的盟友背叛预警信号我们不做学究式的考据，而是像侦探般从292卷文本中提炼出：• 权力博弈中的底层规律• 人性千变万化下不变的逻辑• 人际关系复杂中的核心原则• 职场利益斗争下的你来我往每期选取一个历史切片，用人性、心理、权力博弈等维度解读。从历史照进现实，做到真正鉴古知今，以史为鉴。适合这样的你：✓ 在职场需要破局思维的中高层✓ 对人性本质保持好奇的观察者✓ 想提升认知维度的终身学习者✓ 认为历史不该只是故事的理性派这不是廉价鸡汤，而是硬核生存智慧。太阳底下无新事，但总有人第一次经历这些事。",
+          "updated": 1753801601,
+          "comment_permission": "private",
+          "id": "c_1933664638031077540",
+          "url": "https://api.zhihu.com/columns/c_1933664638031077540",
+          "author": {
+            "gender": -1,
+            "is_followed": false,
+            "url_token": "",
+            "name": "匿名用户",
+            "is_org": false,
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "followers_count": 0,
+            "is_following": false,
+            "id": "",
+            "url": "",
+            "user_type": "people"
+          },
+          "title": "解读《资治通鉴》"
+        },
+        "paid_info": {
+          "content": "<p data-pid=\"fLNTbqx7\">《资治通鉴》第七十卷 魏纪二</p><p data-pid=\"_LPSq9QI\">曹魏·魏文帝黄初六年（乙己，公元225年）</p><h3><b>【原文】</b></h3><blockquote data-pid=\"Zhyy4RHy\">汉诸亮至南中，所在战捷。亮由越入，斩雍及高定。使降督益州李恢由益州入，门下督巴西马忠由柯入，击破诸县，复与亮合。孟获收余众以拒亮。获素为夷、汉所服，亮募生致之，既得，使观于劳陈之间，间曰：“此军何如？”获曰：“向者不知虚实，故败。今蒙赐观营陈，若如此，即定易胜耳。”亮笑，纵使更战。七纵七禽而亮犹遣获，获止不去，曰：“公，天威也，南人不复反矣！”亮遂至滇池。</blockquote><h3><b>【译文】</b></h3><blockquote data-pid=\"VF44sFMA\">蜀汉诸葛亮到达南中，征讨叛乱，所到必胜。诸葛亮从越进兵，斩杀雍柯和高定。派降督、益州人李恢从益州进兵，门下督、巴西人马忠从进兵，击溃南中各县的叛军，再度和诸葛亮会合，孟获收拾雍的残部 抗拒诸葛亮。孟获深得当地汉人和夷族的信赖，诸葛亮要生擒孟获，以后果然将孟获俘获，让他参观了蜀军的军营战阵，问他说：“这样的军队如何？”孟获说：“以前不知道你们的虚实，所以遭到失败。如今蒙您允许我参观你们的军营战阵，如果贵军只是这样的军队，我一定能轻易取胜。”诸葛亮笑了笑，将孟获释放，要他再战。前后把孟获放回七次，又生擒七次，最后诸葛亮仍将孟获释放，孟获却不再走了，对诸葛亮说：“您有天威，南方人不会再反叛了！”于是诸葛亮到达滇池。</blockquote><p data-pid=\"7_UJ3pHk\">【解析】</p><p data-pid=\"5QHNvZId\">上面材料就是七擒七纵孟获典故的出处，看过《三国演义》的朋友对这段相信是耳熟能详。但真实历史和演义还是有比较大的区别。</p><p data-pid=\"bcyEElu7\">刘备去世后，益州豪强雍闿联合土人高定以及朱褒起兵作乱。</p><blockquote data-pid=\"i9N0peD-\">褒因杀颀为乱。益州夷复不从雍闿，雍闿使建宁孟获说夷叟曰</blockquote><p data-pid=\"PtStpU_d\">但益州夷人不愿意跟随作乱，因此乱局局面有限，这是南中之乱的1.0版本。此时的孟获在雍闿手下说是，并且在本地汉人与夷人中有威望影响力，因此雍闿派他去做思想工作。</p><blockquote data-pid=\"irB_94nS\">闿使建宁孟获说夷叟曰：“官欲得乌狗三百头，膺前尽黑，螨脑三斗，斫木构三丈者三千枚，汝能得不？”</blockquote><p data-pid=\"bbEVcvqN\">可见，孟获一开始并不是作乱的头面人物，而从他后续做所作所为来看，孟获是倾向作乱的。甚至来说，雍闿的作乱，孟获就是在其中起到了关键作用。之后，叛军内部爆发冲突，雍闿被杀，孟获顺利接管雍闿的部队，南中之乱进入2.0版本。</p><p data-pid=\"l_ZphxvP\">早在诸葛亮准备平定南中之乱时，马谡就建议攻心为上，但具体怎么个攻心为上却没有说。窃以为，所谓的攻心，其实就是诛心。而诛心的这个并不是针对孟获，而是以孟获为切入点搞定整个西南夷人群体，让其臣服。作为当地夷人和汉人的意见领袖和代表，诸葛亮以其为工具人，玩了七波刷经验，也就是七擒七纵孟获。</p><p data-pid=\"b9VxihYu\">具体怎么搞了七次不是重点，重点是从攻心角度，诸葛亮如此有什么好处，这个才是关键。</p><p data-pid=\"Z9gsrfW9\">其一，对于孟获来说。</p><p data-pid=\"gVJ2Dn7_\">诸葛亮对你七抓七放，彻底把你打得给没脾气了，你孟获但凡有的手段都拿了出来，都被诸葛亮轻飘飘化解。</p><p data-pid=\"MAZhgut2\">心理学上有个概念叫习得性无助，说得是个体经历某种学习后，在面临不可控情境时形成无论怎样努力也无法改变事情结果的不可控认知，继而导致放弃努力的一种心理状态。</p><p data-pid=\"gpr77gYC\">孟获此时肯定也是这种状态。</p><p data-pid=\"YUFJbOuf\">打完七次之后，你让他再造反，他只会疯狂摇头，因为他的信心已经被彻底打崩了。而把孟获搞定，那么当地夷人、汉人最起码有一大部分会跟随孟获而不作乱。</p><p data-pid=\"2cY-ZAgF\">其二，对于孟获找的帮手来说。</p><p data-pid=\"MIgaVIKo\">这个重点是七擒七纵的过程，孟获一次次打光总要找帮手吧。会帮孟获的一定是有反叛倾向的人，而孟获这个反汉斗士，一次次找帮手就把这些人给找出来。这个就和当初曹操打关中有异曲同工之妙，等你们齐了一锅端。而孟获则是一个个把潜在风险给点亮了，并且在连续作战中把这些人的实力消耗一大波。</p><p data-pid=\"y9n5S95-\">这样七擒七纵，与其说是抓放孟获，倒不如说是接着孟获把南中反汉势力给犁地了七边。一番操作下来，就算还有反汉势力也不了什么气候了。</p><p data-pid=\"eBliWb3O\">其三，对于孟获的威望来说。</p><p data-pid=\"Ow-m0ggS\">孟获是当地夷人和汉人的意见领袖，有不小的威望。但诸葛亮对他七擒七纵，如打得他一点脾气都没有，孟获这威望还能剩多少？孟获这威望一散，南中地区的意见领袖呈现碎片化、多极化反而更利于蜀汉的治理。</p><p data-pid=\"TGuS6mQu\">其四，对于蜀汉对当地的影响来说。</p><p data-pid=\"RM-f5jos\">孟获被搞了七次，其实等于蜀汉在当地赢了七次。要是孟获输个一两次，可能还有人会觉得，是孟获不行，换我来怎么滴怎么滴。但结果，南中地区有牌面的夷人轮番上阵都不行。现在还有谁敢挑事？</p><p data-pid=\"OF0ROorp\">就算心里有不服的也会想想那被锤了七次的孟获，更会想一想蜀汉那么勇，看看自己小身板还是算了吧。而那些本就中立和倾向蜀汉的看到蜀汉这么厉害肯定是更加紧紧抱住蜀汉大腿。</p><p data-pid=\"JbPGtuat\">诸葛亮七擒七纵的诛心，一诛孟获之心，二诛背汉者之心，三诛南中所有人之心。</p><p data-pid=\"0S1wn_cH\">见来说就是，放弃幻想，抱我大腿！</p><blockquote data-pid=\"gtIBi6oS\">七纵七禽而亮犹遣获，获止不去，曰：“公，天威也，南人不复反矣！”</blockquote><h3><b>【闲扯】</b></h3><p data-pid=\"HCcZoNCi\">回过头来，什么叫诛心？</p><p data-pid=\"0I1c_Kz_\">个人认为，所谓诛心其实就是改变人的认知，诛灭掉那个心理上持有某种认知的自己。</p><p data-pid=\"FBDNPHoJ\">对于孟获来说，诸葛亮要诛他的“我想反”“我敢反”“我能反”的认知，让他转变为不想、不敢、不能。</p><p data-pid=\"qj3g1YCG\">改变认知或诛心，从来不是温情脉脉的劝说，一定是激烈的碰撞和对抗。</p><p data-pid=\"1IqTOuhU\">用强力的手段或事实摧毁掉原有的认知，这样才能有效果，才能构建新的认知。</p><p data-pid=\"ku3Y-C-f\">就好比，日本二战的一亿玉碎计划，在两个原子弹面前就是笑话，这就是诛心。</p><p data-pid=\"F3f4wSCu\">就好比，马保国说自己功夫厉害，在专业选手面前瞬间KO，这就是诛心。</p><p data-pid=\"AwkTqsQz\">就好比，曹操笑诸葛少智、周瑜无谋，结果转头就杀出赵云和张飞，这也是诛心。</p><p data-pid=\"3Yn5eo-A\">就好比，郭保坤在北齐做间谍，北齐不但全都知道，而且还充分配合，这也是诛心。</p><p data-pid=\"Dg0DsPFs\">就好比，第一次海湾战争，萨达姆的钢铁洪流在现代化战争面前，不堪一击，这还是诛心。</p><p data-pid=\"r3s40LEV\">你和我对着干，我展现强大实力，把你瞬间碾碎。</p><p data-pid=\"uP-Td7Su\">你想阴我，我如上帝视角一样对你全知道，你在我面前就和没穿衣服一样。</p><p data-pid=\"ab8K6mkr\">你反对我，我用强大的逻辑、事实把你辩的体无完肤。</p><p data-pid=\"w1mRkLbP\">这些都是诛心。</p><p data-pid=\"zkiAMUqw\">诛心不是简单几句话就能搞定的，那不过是耍嘴皮子、抖机灵而已。</p><p data-pid=\"vHY9Gc86\">真正的诛心永远建立实力之上。</p>"
+        },
+        "id": "1945404189569184741",
+        "voteup_count": 4,
+        "excerpt": "《资治通鉴》第七十卷 魏纪二 曹魏·魏文帝黄初六年（乙己，公元225年） 【原文】汉诸亮至南中，所在战捷。亮由越入，斩雍及高定。使降督益州李恢由益州入，门下督巴西马忠由柯入，击破诸县，复与亮合。孟获收余众以拒亮。获素为夷、汉所服，亮募生致之，既得，使观于劳陈之间，间曰：“此军何如？”获曰：“向者不知虚实，故败。今蒙赐观营陈，若如此，即定易胜耳。”亮笑，纵使更战。七纵七禽而亮犹遣获，获止不去，曰：“公，…",
+        "content": "<p data-pid=\"fLNTbqx7\">《资治通鉴》第七十卷 魏纪二</p><p data-pid=\"_LPSq9QI\">曹魏·魏文帝黄初六年（乙己，公元225年）</p><h3><b>【原文】</b></h3><blockquote data-pid=\"Zhyy4RHy\">汉诸亮至南中，所在战捷。亮由越入，斩雍及高定。使降督益州李恢由益州入，门下督巴西马忠由柯入，击破诸县，复与亮合。孟获收余众以拒亮。获素为夷、汉所服，亮募生致之，既得，使观于劳陈之间，间曰：“此军何如？”获曰：“向者不知虚实，故败。今蒙赐观营陈，若如此，即定易胜耳。”亮笑，纵使更战。七纵七禽而亮犹遣获，获止不去，曰：“公，天威也，南人不复反矣！”亮遂至滇池。</blockquote><h3><b>【译文】</b></h3><blockquote data-pid=\"VF44sFMA\">蜀汉诸葛亮到达南中，征讨叛乱，所到必胜。诸葛亮从越进兵，斩杀雍柯和高定。派降督、益州人李恢从益州进兵，门下督、巴西人马忠从进兵，击溃南中各县的叛军，再度和诸葛亮会合，孟获收拾雍的残部 抗拒诸葛亮。孟获深得当地汉人和夷族的信赖，诸葛亮要生擒孟获，以后果然将孟获俘获，让他参观了蜀军的军营战阵，问他说：“这样的军队如何？”孟获说：“以前不知道你们的虚实，所以遭到失败。如今蒙您允许我参观你们的军营战阵，如果贵军只是这样的军队，我一定能轻易取胜。”诸葛亮笑了笑，将孟获释放，要他再战。前后把孟获放回七次，又生擒七次，最后诸葛亮仍将孟获释放，孟获却不再走了，对诸葛亮说：“您有天威，南方人不会再反叛了！”于是诸葛亮到达滇池。</blockquote><p data-pid=\"7_UJ3pHk\">【解析】</p><p data-pid=\"5QHNvZId\">上面材料就是七擒七纵孟获典故的出处，看过《三国演义》的朋友对这段相信是耳熟能详。但真实历史和演义还是有比较大的区别。</p><p data-pid=\"bcyEElu7\">刘备去世后，益州豪强雍闿联合土人高定以及朱褒起兵作乱。</p><blockquote data-pid=\"i9N0peD-\">褒因杀颀为乱。益州夷复不从雍闿，雍闿使建宁孟获说夷叟曰</blockquote><p data-pid=\"PtStpU_d\">但益州夷人不愿意跟随作乱，因此乱局局面有限，这是南中之乱的1.0版本。此时的孟获在雍闿手下说是，并且在本地汉人与夷人中有威望影响力，因此雍闿派他去做思想工作。</p>",
+        "is_labeled": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1945404189569184741}",
+      "attached_info": "CvAGCJHwpuzk3/vDnwEQBxoJMjYyNDY1NDMyIIWyzsUGKAQwAEBPSjkKJFRTX1NPVVJDRV9QQUlEX0NPTFVNTl9UV09fVE9XRVJfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCDEzNzE4ODYwYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk0NTQwNDE4OTU2OTE4NDc0MYIBX2h0dHBzOi8vcGljYS56aGltZy5jb20vdjItZmRlYjY4M2M2M2Q5NzllMTdjMTc5MmViMGRhYWM3M2EuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xigEVY18xOTMzNjY0NjM4MDMxMDc3NTQwqgEJcmVjb21tZW5kwgEgOTZjMjEzNWVhYmY5ODZjNmRkMDFjYjQ5ZjI4YWM3ODTyAQoIDBIGTm9ybWFs8gEoCAoSJDUzNWI1ZmM5LTI1MGQtNDhjYi1iZDQ5LWQyZGFmODZhZTdmYfIBBggLEgIxNIICAIgC/aPFm7kzkgIgOTZjMjEzNWVhYmY5ODZjNmRkMDFjYjQ5ZjI4YWM3ODSaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCJFRTX1NPVVJDRV9QQUlEX0NPTFVNTl9UV09fVE9XRVJfVEVYVOgCA/oCC05PUk1BTF9GTE9XigMgMDMwMWEyMGViNjkzNGQwMjk3NTQ0NmFlMTQwMDNlMmOaAw0KAnYyEAAaBW90aGVyqAOxAdgDAOoDFnBhaWRDb2x1bW5UZXh0VHdvVG93ZXL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxCADxi4CCIjdjItZmRlYjY4M2M2M2Q5NzllMTdjMTc5MmViMGRhYWM3M2GABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMBm43w/gQUAAAAAAAAAAIkFdTVmhgVwsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGT6gGA5ICLgoJMjYyNDY1NDMyEhMxOTQ1NDA0MTg5NTY5MTg0NzQxGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "80_1767705236.934",
+      "type": "feed",
+      "offset": 80,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705236,
+      "updated_time": 1767705236,
+      "target": {
+        "created": 1767603880,
+        "comment_count": 10,
+        "visited_count": 6153,
+        "id": "1991555106131423779",
+        "url": "https://api.zhihu.com/articles/1991555106131423779",
+        "excerpt": "开头先来说说市场。 今天高开高走， 4000点看样子不会是收费站了。因为不管是题材，还是消费医药，今天的表现都特别好，这种级别的普涨真的很久都没看到过了。 4000多家上涨，每个人的手上基本都是红的。而且成交量今天预计在2.5万亿左右，如果下午再放量，那就有可能2.8万亿以上了，这已经是明显放量。 在4000这种整数关口突破，放量是好事，这意味着筹码的交换，意味着未来上涨的基础更扎实。 我觉得2026年都有机会去摸一下500…",
+        "is_labeled": false,
+        "article_type": "normal",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "voting": 0,
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "updated": 1767603880,
+        "voteup_count": 78,
+        "excerpt_new": "开头先来说说市场。 今天高开高走， 4000点看样子不会是收费站了。因为不管是题材，还是消费医药，今天的表现都特别好，这种级别的普涨真的很久都没看到过了。 4000多家上涨，每个人的手上基本都是红的。而且成交量今天预计在2.5万亿左右，如果下午再放量，那就有可能2.8万亿以上了，这已经是明显放量。 在4000这种整数关口突破，放量是好事，这意味着筹码的交换，意味着未来上涨的基础更扎实。 我觉得2026年都有机会去摸一下500…",
+        "preview_type": "default",
+        "preview_text": "",
+        "column": {
+          "url": "https://api.zhihu.com/columns/c_1357643494010548224",
+          "imageUrl": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "intro": "投资笔记",
+          "id": "c_1357643494010548224",
+          "author": {
+            "followers_count": 0,
+            "is_following": false,
+            "id": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "gender": -1,
+            "is_followed": false
+          },
+          "title": "清河_投资笔记",
+          "updated": 1616467433,
+          "is_following": false,
+          "type": "column"
+        },
+        "type": "article",
+        "author": {
+          "user_type": "people",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "id": "d6039dc7b02c096a5cdd0a61c6d14d40",
+          "url": "https://api.zhihu.com/people/d6039dc7b02c096a5cdd0a61c6d14d40",
+          "url_token": "ling-zi-chen-39",
+          "name": "Mask的小酒馆",
+          "headline": "「Mask的小酒馆」每日复盘",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-791aa77f3813e87ad394374cc7b11cd5_l.jpg?source=b6762063",
+          "followers_count": 108873,
+          "is_followed": false
+        },
+        "vote_next_step": "vote",
+        "content": "<p data-pid=\"JzcuM6pj\">开头先来说说市场。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JT1uGAz6\">今天高开高走，<b>4000点看样子不会是收费站了。</b>因为不管是题材，还是消费医药，今天的表现都特别好，这种级别的普涨真的很久都没看到过了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3NI20BeA\"><b>4000多家上涨，每个人的手上基本都是红的。</b>而且成交量今天预计在2.5万亿左右，如果下午再放量，那就有可能2.8万亿以上了，这已经是明显放量。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Yw-l2IVc\">在4000这种整数关口突破，放量是好事，这意味着筹码的交换，意味着未来上涨的基础更扎实。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2uj6gFBi\"><b><i><u>我觉得2026年都有机会去摸一下5000点，而且不说多了，4400肯定是能到的。</u></i></b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CUzfi0vJ\"><b><u>所以现在的思路就是看多做多嘛。</u>比如说之前跌了很久的医药，都可以继续拿着，今天这根大阳线出来，就是一个底部区间的信号，未来会再慢慢涨上去的。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"peO5C5FV\">比如港股那边的创新药更猛，<b><u>港股通医疗ETF富国（159506）</u></b>今天都是6个点。医药就是这样，板块要起来都是整体起来，不会说单独丢下某一个人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Fd9QKZcp\">至于仓位，可以看看我前几天写的这篇文章：「<u><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIzMDIxNDY4NA%3D%3D%26mid%3D2247508464%26idx%3D1%26sn%3Dcf5ccbeb24a0bda13216ef3040f9dec9%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">调仓报告</a></u>」，里面介绍了十几个基金，都比较详细，今天应该都是涨的，回头看看今天组合的涨幅。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wyHoC9is\">而且除了A股，国际上的金子表现得也不错。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JdXQf1CV\">金子和A股的关系不大，但是和地缘的关系会大一点。这几天大家也可能看到了美国一小时速通南美某国，具体的大家可以去搜索，我这里就不展开了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"O53rvCSc\">美国速通确实强大，但是这个事情也暴露出来了一个问题，那就是未来全球的安全感都会越来越缺失。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8zShhEeu\">因为美国亲手撕毁了自己制定的联合国宪章，也亲手打破了二战后的百年秩序。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NZ3M2IrH\">而当地缘问题频繁的时候，投资者第一时间想到的是什么？黄金！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nKeRZDO8\">为什么？因为黄金不会说谎，不会违约，不会被冻结。这就是为什么2025年黄金的涨幅已经说明了一切。各国央行正在拼命买入黄金，而且美国他出手得越多，全球的不安就会以黄金的涨幅来呈现。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FJi39Shb\">比如<b><u>金ETF(518680，A：009504，C：009505)</u></b>这一段时间已经起飞了。它是什么？它是跟踪上海金规模最大的产品。上海金是上海黄金交易所推出的人民币计价黄金基准价格，是国内黄金市场定价体系的核心。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"b6Q1tcY_\">他不仅是目前跟踪上海金规模最大的产品，<b>而且他的管理费只有0.15%，</b>属于同类产品最低的一档。它的跟踪误差极低，紧密跟随上海金价格。金价涨,它就涨。金价跌，它就跌。简单、透明、高效。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bRmgldOi\">现在美国在南美出手，这就是一个信号。相关国家的的石油出口已经因为美国的封锁而全面瘫痪，这会带来能源价格波动、通胀预期上升、地缘风险溢价持续。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"EaEJ4I0-\">美国不停手，我觉得大宗商品也不会消停！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xDODc3M1\">...............</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wh6qmKMM\">很多人不知道，黄金白银的大涨只是一个开胃菜。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XSpbrzkI\"><b>因为大宗商品的超级周期要到了，</b>看懂了你就能够抓住下一个周期的财富密码！</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8d96224783f3fafe711e97487e0d8a21_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"446\" data-original-token=\"v2-95a2bd26dc083c896fa0cf3ba4e6ffaa\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic2.zhimg.com/v2-8d96224783f3fafe711e97487e0d8a21_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lcBb9ngK\"><b><i><u>点赞收藏，这可能是你能看到的最真实的大宗商品的分析！</u></i></b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wO2SJpye\">先说一下这次黄金白银上涨最直接的原因，<b>那就是G7国家的债务扛不住了</b>。尤其是日本和美国，日本债务占GDP的比率是229%，美国是125%。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5f4de2699dadadffb45eb6da8667b194_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"448\" data-original-token=\"v2-6c1bb0e92f3db45673fe5d8fd1df254e\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-5f4de2699dadadffb45eb6da8667b194_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jqOIfZGo\">G7国家为了应对新冠超发了天量的债务，可现在疫情过去了，但是主要的G7国家，<b>特别是美国没有去削减债务，反而继续加超发货币。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0a94cdd17d6c484cc366b29a4bae9017_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"832\" data-rawheight=\"418\" data-original-token=\"v2-76e978f764762c9fe437e10e3a34d081\" class=\"origin_image zh-lightbox-thumb\" width=\"832\" data-original=\"https://pic2.zhimg.com/v2-0a94cdd17d6c484cc366b29a4bae9017_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"msGhbFHr\">为什么？因为他们如果不印钱，债务就会违约，金融系统就会崩溃。继续印钱，债务会越滚越大，但至少能再撑一段时间。<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-57703bdf9268ce79e8c8ca446eb01232_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"456\" data-original-token=\"v2-779f238d58e6fea12b4b5a8e9a205cb9\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-57703bdf9268ce79e8c8ca446eb01232_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"loWKHmfe\">可印出来的钱不会消失，只会转移。转移到哪里？<b>转移到大宗商品。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"52Sbq2Ue\">大宗商品是这些天量货币的蓄水池。因为几乎所有的大宗商品都以美元计价。这意味着什么？<b>意味着钱印得越多，大宗商品涨得越快。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0bb794237076d5786e7cddf032b04b18_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"446\" data-original-token=\"v2-a53bc47adfa856c74fc402dc05d25e06\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic1.zhimg.com/v2-0bb794237076d5786e7cddf032b04b18_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nJ4aWhNC\">历史上这个逻辑被验证过很多次。最典型的就是1971年。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3jLd8uTT\">那一年，美元与黄金脱钩，布雷顿森林体系瓦解。<b>美元彻底摆脱了黄金的约束，变成了可以随意印刷的纸币。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-55b1af9b493fb59847681ce9f7a193bf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"452\" data-original-token=\"v2-bb7aaee259995568be29113041066003\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic4.zhimg.com/v2-55b1af9b493fb59847681ce9f7a193bf_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dYbxrUCR\">接下来发生了什么？石油价格从1973年的平均每桶3美元飙升至1980年的每桶36美元，涨了12倍。黄金更猛，从1971 年 35 美元一盎司涨到 1980 年 850 美元一盎司，涨幅高达 24倍。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"DYS9nDG-\"><b>而现在美元贬值的逻辑又回来了。美国能印得出美元，但是印不出哪怕一滴石油，哪怕一克黄金。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0cGSvpYF\">而且更有意思的是，2022年俄罗斯的外汇储备直接被冻结了。这使得所有新兴市场国家的财政部长们都开始重新思考一个问题——<b>把钱放在别人的银行系统里，到底安不安全？</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5005002a6624d059ee90259135184e40_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"444\" data-original-token=\"v2-83bbd1d46d7542915e4f47ec59dc748e\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic1.zhimg.com/v2-5005002a6624d059ee90259135184e40_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"w-to4eup\"><b>答案是：不安全。说冻结就冻结了。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"amuJS0RO\">但黄金不一样。黄金就放在自己的金库里，谁也动不了。铜、石油、粮食也一样，这些实物资产是真正属于自己的东西。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qkUSlR9R\">所以现在各国央行都在拼命囤金。而且很多国家的黄金储备占比其实还很低，跟那些发达国家比差得远。<b>这意味着什么？意味着他们还会继续买。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"txWVYIlW\">更重要的是，<b>对全世界来说，钱是无限的，但是黄金白银是有限的，油田储量是有限的，农田面积也是有限的。你不可能像印钞票一样，想要多少就印多少。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0lj5QDlt\">2000年到2011年的大宗商品超级周期就是最好的例子。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"eSjAwit9\">那个时候美联储长期维持1%的超低利率，流动性泛滥，美元指数从120下跌到80，贬值超过33%。<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-acaaafad0df7d5e6f76839afbba9a85b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"832\" data-rawheight=\"460\" data-original-token=\"v2-c7e1c64bf5bbfc265c73c64005664999\" class=\"origin_image zh-lightbox-thumb\" width=\"832\" data-original=\"https://pic2.zhimg.com/v2-acaaafad0df7d5e6f76839afbba9a85b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vX8N97F6\">但这只是一个方面。另一个方面是新兴市场国家，特别是中国的工业化进程，创造了巨大的需求。铜、铁矿石、石油，这些工业原材料的需求暴涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"DW9pxTf4\"><b>需求暴涨，但矿山产能开发却需要十几年，而供给跟不上，价格就会疯涨。</b>大宗商品价格在2008年达到历史高点，涨幅惊人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bVgk8Q6o\">现在呢？全球经济正在复苏，AI数据中心、新能源、电动车，这些新兴产业对铜、铝、电力的需求在暴涨。但矿山产能开发周期长达十几年，短期内根本无法快速增加供应。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oY--LNJ8\"><b>供给受限，需求上升，价格必然暴涨。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6FRdaNNT\">而这一次和以前一样，所有的条件都具备了，<b>货币超发、美元贬值、实体需求上升、供给受限。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-908b97cb980a57dace74260abe884172_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"432\" data-original-token=\"v2-d13fea7b545dab180ab2b7cdb2bedd8d\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pica.zhimg.com/v2-908b97cb980a57dace74260abe884172_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"a3GBWKKs\"><b>历史不会简单的重复，但总是押着相同的韵脚。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"35uTLeE2\">当然，大宗商品不会同时涨。它们有可能会按照<b>金融属性、工业属性、消费属性的顺序</b>，分四个波次依次上涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5bbbc17339bbdca4ab3414361b451776_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"460\" data-original-token=\"v2-3c2c220fb5d0893fddfd82e8b06c8b3c\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-5bbbc17339bbdca4ab3414361b451776_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"eSCFCB-b\"><b>第一波：贵金属先行。</b>黄金白银为什么先涨？因为它们的金融属性最强。当货币超发、通胀预期上升时，资金第一时间会涌向黄金白银避险。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ce71477eec1834f735ae8494d5e1e6b0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"456\" data-original-token=\"v2-84484e4050d49c17d04487f53108550f\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-ce71477eec1834f735ae8494d5e1e6b0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"DtT96l_0\"><br/>2025年黄金的涨幅已经说明了一切。各国央行正在拼命买入黄金，而且这个趋势还会继续。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"abnhxvu5\">黄金白银先涨，这是第一波。但这只是开始。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"N2Q1-5Zo\"><b>第二波：工业金属跟进。</b>印出来的钞票，不会只停在黄金上，它会慢慢流向整个大宗商品市场。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ybsL4Bae\">工业金属为什么是第二波？因为经济开始复苏，工业生产恢复，基建投资加大，对工业金属的需求就会上升。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-531999bbed90b2092ef874df2485ae79_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"832\" data-rawheight=\"454\" data-original-token=\"v2-99ab46c07b228cf5e48dee0835448df4\" class=\"origin_image zh-lightbox-thumb\" width=\"832\" data-original=\"https://pic4.zhimg.com/v2-531999bbed90b2092ef874df2485ae79_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Dm6Up--c\">比如过去几年，铜的价格就出现了大幅度的上涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fnTls9xx\">你看看现在到处都在干什么——建数据中心、搞新能源、推电动车、升级电网。这些东西最吃铜了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8WbOq6-d\">特别是AI数据中心，这玩意儿是真正的电老虎。一个大型数据中心的耗电量，相当于一个小城市。而要把电送到数据中心，要建多少配套设施？铜线、铜管、铜排，到处都要用铜。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"isWEqRHJ\">但铜矿的开发周期很长，动辄十几年。现在矿山产能跟不上，短期内根本没法快速增加供应。一边是需求暴涨，一边是供应受限，价格能不涨吗？</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f0c36b1db1c8cfccfa147c81ca550801_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"456\" data-original-token=\"v2-81c61bc6b171d759680ac6c8cce4d22b\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://picx.zhimg.com/v2-f0c36b1db1c8cfccfa147c81ca550801_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"g4CaAKf2\">铜已经开始涨了。但这还没完。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"S5L-w32I\"><b>铝也开始蠢蠢欲动了。</b><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a83f4860d7c9437799611b3a838ace6d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"458\" data-original-token=\"v2-becc466b24b1001cf9720733ca49fb7b\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic2.zhimg.com/v2-a83f4860d7c9437799611b3a838ace6d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"37A0M8YR\">铝是高耗能产业。能源价格一涨，铝的生产成本就会大幅上升。成本推动价格，这是必然的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vVDkZQy8\">而且需求端也在增长。新能源汽车要轻量化，要用铝。光伏支架要用铝。建筑节能改造要用铝。航空航天更是用铝的大户。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1dKKQFwX\">铝价已经蠢蠢欲动了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BBxEvXmq\"><b>除了铝以外，锌、镍、铅这些工业金属也不会缺席，他们和铜铝的涨价逻辑是一样的。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"R6iY2rpe\"><b>工业金属涨完，能源就该接棒了。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8T3UfElZ\">因为经济活动加速，对能源的需求就会激增。现在油价起不来的主要原因是疫情前那些大型油田项目陆续投产了，以及OPEC也在慢慢放松减产。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ee259be3921d26d4307253f88e353eca_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"448\" data-original-token=\"v2-7221d09a7f4903334403bffd2cbbb46c\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-ee259be3921d26d4307253f88e353eca_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MWNQdGVy\">但是从2020年开始，全球石油行业的上游投资大幅削减。等疫情前的产能释放完，石油的供应增长会明显放缓。而需求端，却会随着经济复苏会持续增长。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tUe1viye\"><b>供需关系会逆转，油价会重新上涨。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NsShT1JW\">天然气也是同样的逻辑，全球能源转型的大趋势在那里。各国减少煤炭，天然气作为清洁能源需求会持续增长。而且可再生能源越发展，越需要天然气发电来调峰。这部分需求是刚性的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"17ERoeG0\"><b>能源涨价之后，下一个就是化工产品。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xLzYPSga\">石油涨价，石化产品就涨价。农药的主要原料是石油化工产品，石油涨了，农药能不涨吗？农业用的塑料薄膜也是石油化工产品，价格也会跟着涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d144e49bc3319796c3eca65aedb36095_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"587\" data-original-token=\"v2-03eabaa6e3ec665e2d49c2faeaf65d18\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-d144e49bc3319796c3eca65aedb36095_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yFH-Mf2V\">天然气涨价，化肥就涨价。氮肥的主要原料就是天然气，天然气价格占氮肥生产成本的70%以上。天然气涨了，化肥价格必然上涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dmBhZEPL\"><b>而化工产品的涨价，叠加经济复苏带动的食品消费增加，又会使得大豆、玉米、小麦这些农产品，在最后一个阶段跟涨。</b>不过由于我们对农产品的调控很严，所以农产品的涨价对我们来说影响不大，就比如日本吃20多块一斤的大米的时候，我们还吃的是两三块一斤的大米。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"e3Mahx6R\">那这就是完整的涨价链条：<b><u>贵金属→工业金属→能源→化工产品→农产品。</u></b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8e80982ef111d3ea0d1d8b860c995a44_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"458\" data-original-token=\"v2-1348d97f85260343a5b21d3f44955122\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-8e80982ef111d3ea0d1d8b860c995a44_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FgyeccKJ\">每一个环节都环环相扣，最终所有的大宗商品都会涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5UOaXUp5\">人生发财靠周期。大宗商品的上涨，也是周期的一环。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FsLZRHTn\"><b>风险提示：</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nJzOlDjV\"><b>以上为个人观点，仅供参考。短期涨跌不预示未来，如提及个股或基金不代表投资建议。投资需谨慎。</b></p>",
+        "navigator_vote": false,
+        "favorite_count": 134,
+        "title": "大宗商品的超级周期要来了",
+        "comment_permission": "all"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991555106131423779}",
+      "attached_info": "CtIMCJHwpuzk3/vDnwEQBxoJMjY4NTk3NTU2IKj97coGKE4wCkBQSi4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9SjAKG1RTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTUxIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1aCDEyNTcwMDE2YiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk5MTU1NTEwNjEzMTQyMzc3OYoBFWNfMTM1NzY0MzQ5NDAxMDU0ODIyNKoBCXJlY29tbWVuZMIBIGQ2MDM5ZGM3YjAyYzA5NmE1Y2RkMGE2MWM2ZDE0ZDQw8gEKCAwSBk5vcm1hbPIBKAgKEiQ3ZDQxNTk3NC1hY2QwLTRlNjUtOGI1ZS0wMmMwYjc4NmU5YzbyAQYICxICMTSCAgCIAv2jxZu5M5ICIGQ2MDM5ZGM3YjAyYzA5NmE1Y2RkMGE2MWM2ZDE0ZDQwmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxl2gIZVFNfU09VUkNFX0ZFRURSRV9NU19IUV9WM+gCAvoCC05PUk1BTF9GTE9XigMgMDMwMWEyMGViNjkzNGQwMjk3NTQ0NmFlMTQwMDNlMmOaAw0KAnYyEAAaBW90aGVyqAOJMNgDAOoDGWZlZWRyZV9tc19nYXRlX3YzX29ubHlfaHH6A74GEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQvgYYvgMiI3YyLTk1YTJiZDI2ZGMwODNjODk2ZmEwY2YzYmE0ZTZmZmFhOi0IAhC+BhjAAyIjdjItNmMxYmIwZTkyZjNkYjQ1NjczZmU1ZDhmZDFkZjI1NGU6LQgCEMAGGKIDIiN2Mi03NmU5NzhmNzY0NzYyYzlmZTQzN2UxMGUzYTM0ZDA4MTotCAQQvgYYyAMiI3YyLTc3OWYyMzhkNThlNmZlYTEyYjRiNWE4ZTlhMjA1Y2I5Oi0IAhC+Bhi+AyIjdjItYTUzYmM0N2FkZmE4NTZjNzRmYzQwMmRjMDVkMjVlMDY6LQgCEL4GGMQDIiN2Mi1iYjdhYWVlMjU5OTk1NTY4YmUyOTExMzA0MTA2NjAwMzotCAIQvgYYvAMiI3YyLTgzYmJkMWQ0NmQ3NTQyOTE1ZTRmNDdlYzU5ZGM3NDhlOi0IBBDABhjMAyIjdjItYzdlMWM2NGJmNWJiZmMyNjVjNzNjNjQwMDU2NjQ5OTk6LQgCEL4GGLADIiN2Mi1kMTNmZWE3YjU0NWRhYjE4MGFiMmI3Y2RiMmJlZGQ4ZDotCAIQvgYYzAMiI3YyLTNjMmMyMjBmYjVkMDg5M2ZkZGZkODJlOGIwNmM4YjNjOi0IAhC+BhjIAyIjdjItODQ0ODRlNDA1MGQ0OWMxN2QwNDQ4N2Y1MzEwODU1MGY6LQgCEMAGGMYDIiN2Mi05OWFiNDZjMDdiMjI4Y2Y1ZTQ4ZGVlMDgzNTQ0OGRmNDotCAIQvgYYyAMiI3YyLTgxYzYxYmM2YjE3MWQ3NTk2ODBhYzZjOGNjZTRkMjJiOi0IBBC+BhjKAyIjdjItYmVjYzQ2NmIyNGIxMDAxY2Y5NzIwNzMzY2E0OWZiN2I6LQgCEL4GGMADIiN2Mi03MjIxZDA5YTdmNDkwMzMzNDQwM2JmZmQyY2JiYjQ2YzotCAIQuAgYywQiI3YyLTAzZWFiYWE2ZTNlYzY2NWUyZDQ5YzJmYWVhZjY1ZDE4Oi0IBBC+BhjKAyIjdjItMTM0OGQ5N2Y4NTI2MDM0M2E1YjIxZDNmNDQ5NTUxMjKABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGC9/IM/gQUAAAAAAAAAAIkFdTVmhgVwsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGUKgGAJICLgoJMjY4NTk3NTU2EhMxOTkxNTU1MTA2MTMxNDIzNzc5GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "81_1767705236.272",
+      "type": "feed",
+      "offset": 81,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705236,
+      "updated_time": 1767705236,
+      "target": {
+        "preview_type": "default",
+        "visited_count": 175131,
+        "is_navigator": false,
+        "excerpt_new": "自2017年始，五年间，一名银行女经理通过暗中操纵储户的账户等方式，将数十名储户的数千万元存款，全部转到了自己的亲友名下，然后挥霍一空。 最终（2025 年 4 月），这名银行女经理在家中上吊身亡。 四个月后，她的丈夫（同案犯）也自杀身亡，留下了一地鸡毛。   这个胆大妄为的银行女经理，名叫王X珊（化名），是商丘某邮储银行的一名客户经理，今年 36 岁。 很多人都在追问：这个女经理是怎么成功地长期卷走客户的大笔钱而没有…",
+        "reshipment_settings": "disallowed",
+        "content": "<p></p><p></p><p data-pid=\"U3rkdsRm\">自2017年始，五年间，一名银行女经理通过暗中操纵储户的账户等方式，将数十名储户的数千万元存款，全部转到了自己的亲友名下，然后挥霍一空。</p><p data-pid=\"tRrAGQtX\">最终（2025 年 4 月），这名银行女经理在家中上吊身亡。</p><p data-pid=\"0pyCGHNg\">四个月后，她的丈夫（同案犯）也自杀身亡，留下了一地鸡毛。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b80d3104a35a2efaadc70403576280fa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"814\" data-rawheight=\"835\" data-original-token=\"v2-b80d3104a35a2efaadc70403576280fa\" class=\"origin_image zh-lightbox-thumb\" width=\"814\" data-original=\"https://pic3.zhimg.com/v2-b80d3104a35a2efaadc70403576280fa_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"stwSwRLe\">这个胆大妄为的银行女经理，名叫王X珊（化名），是商丘某邮储银行的一名客户经理，今年 36 岁。</p><p data-pid=\"Msf8IxCu\">很多人都在追问：这个女经理是怎么成功地长期卷走客户的大笔钱而没有被单位、储户以及审计人员发现的？</p><p data-pid=\"4T1-V-ek\">银行设置的种种密码、人脸核验等等措施，只是针对老实人吗？对内部别有用心的懂行的人就没有一点难度吗？</p><p data-pid=\"GULVwaYX\">银行经理怎么就可以完美避开监控、如同探囊取物式的盗走储户的存款？</p><p data-pid=\"FM_fNTMv\">首先，王X珊形象亲和，嘴甜会说话，特别会忽悠人。其次，受害储户普遍都是心思简单（容易上当）、没有金融专业常识的普通人和老年人——也就是说，王X珊忽悠的对象，都是不会用网银的、对银行业务员不了解的人。</p><p data-pid=\"BMk9g8Or\">比如受害储户中有一个摆摊卖大肉的 42 岁大姐，被王X珊轻而易举卷走了 78万。</p><p data-pid=\"yEs3z-iA\">最早的一笔钱被盗，出现在2019年。</p><p data-pid=\"MnG9AEP2\">当时，这个大姐用购物袋拎着80万现金到该银行存钱，一进门就被王X珊盯上了。</p><p data-pid=\"7lFHHxY5\">王X珊没花几分钟，就成功忽悠大姐办了一张“白金卡”，把这 80 万存了进去。</p><p data-pid=\"EcSCALLR\">大姐还以为自己遇到了一个热心肠的银行工作人员，乐呵呵拿着金卡走了。</p><p data-pid=\"vUt0rMfG\">等她一走，王X珊立刻把这笔钱转到了自己家人的卡里，然后再提现出来，用于个人消费、购买理财。</p><p data-pid=\"aBys9k7P\">而大姐不会用网银，对自己的账户变动毫无知觉。</p><p data-pid=\"oC25IXKC\">此后，她还不断地把辛苦赚来的钱存进这家银行。每笔款只要一到账，就会立刻被王X珊转走。</p><p data-pid=\"Fd48qqNC\">因为王X珊知道大姐的卡号和密码，而且王X珊给大姐办卡的时候，留的是她本人（王X珊）的电话。万一大姐做生意需要用钱，必须提前一天给王X珊打招呼，方便她再从别的储户卡里偷钱出来。</p><p data-pid=\"Cia37KMq\">这样一来，大姐根本不会发现自己的卡里平时根本没有什么钱。王X珊这人也真是心理强大，一点都不怕露馅。</p><p data-pid=\"OIOI-OqJ\">最终，这个做小买卖的大姐在今年4月18日接到了银行人员的通知： 快来看看你的钱还在不在？</p><p data-pid=\"Y-HPhhLs\">等到大姐到了银行，工作人员告诉她：“王X珊死了。”然后帮她打开她的账户查看，大姐才发现她的78万血汗钱，只剩下4519元！</p><p data-pid=\"y_TFRntF\">除了盗取客户的密码，王X珊还有一个绝门秘籍：避开同事，在银行VIP室，用平板电脑对受害人进行人脸识别，进入其账户操作转账，或者帮他们设置密码等等。</p><p data-pid=\"K-q6Ro74\"><b>不想被骗的人注意了：以后你们去银行办业务，一定要在柜台办理！不要听信任何客户经理的鬼话，不要私自把钱交给他们处理！</b></p><p data-pid=\"labgfp_W\"><b>因为银行业务经理是管理岗，不是业务岗，经理一般负责的是业务中出现的各种问题，不会亲自上手为储户办理储蓄业务——这是柜台人员的业务。</b></p><p data-pid=\"sxHbP289\">72岁的陈大妈夫妻俩，则被王X珊盗走了167万。得知真相，大妈的老公在银行当场脑溢血，几个月后含恨离世。</p><p data-pid=\"E_UojnCc\">2022年，陈大妈夫妻俩到这家银行存了 22 万元，这笔钱在第二天就被王X珊盗走，转到了自己的丈夫老孟的卡上。</p><p data-pid=\"TH5dMppk\">2023年5月9日，陈大妈夫妻俩再次到这家银行存钱，10万元到他们账户不到 15 分钟，又被王X珊转到了丈夫老孟的卡上。</p><p data-pid=\"SkRGCCLn\">其后几次类似操作，王X珊总共偷走这对老夫妻的167万，只给他们的账户上留了600多元。</p><p data-pid=\"vkimX4_p\">钱被偷走，丈夫被气死，陈大妈的损失，谁来弥补？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ApUxYMYy\">以类似方式被骗的，还有87岁的老许夫妇。</p><p data-pid=\"gZUm-KEZ\">他们一个常年得病，另一个得了脑梗，儿子还没有工作。仅有的 18 万元继续被王X珊的丈夫偷走给游戏充值了。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-bee0b829b03a1adb9f965a0b6616fbdf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"746\" data-rawheight=\"863\" data-original-token=\"v2-bee0b829b03a1adb9f965a0b6616fbdf\" class=\"origin_image zh-lightbox-thumb\" width=\"746\" data-original=\"https://pic4.zhimg.com/v2-bee0b829b03a1adb9f965a0b6616fbdf_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JkdLHM2T\">被王X珊坑 S的，都是苦命人。</p><p data-pid=\"9Wb8OnkD\">70多岁的老曹夫妇，住的是窝棚，儿子车祸离世，老两口现在靠种菜谋生。</p><p data-pid=\"PwVAYqXP\">他们把40万元交给了王X珊，现在分文不剩。</p><p data-pid=\"qMlJs5JC\">这笔钱，一部分是村里发的拆迁款，一部分是他们的大儿子的车祸赔偿金。</p><p data-pid=\"R9ECPw6K\">王X珊把其中一部分受害储户的钱偷走，预定了一辆价值 189 万元的豪车。</p><p data-pid=\"kM41726s\">结果豪车还没到家，她自己先上吊了。</p><p data-pid=\"ByzhWxZA\">原因是省行要来人查营业所的“二次工资分配问题”，所有工作人员都要“拉账户流水”。</p><p data-pid=\"ODZoCq4O\">王X珊慌了，意识到自己的问题快要暴露了，她一查账，发现自己盗取的储户存款已经高达 3000 多万，她选择一死了之，把烂摊子丢给喜欢打游戏的丈夫老孟。</p><p data-pid=\"KCMANATh\">老孟没少花老婆偷来的钱，犹豫了 4 个月之后，也死了。</p><p data-pid=\"Z8zVfC-H\">他俩彻底解脱了，3000 万巨额债务丢给了父母和女儿们。</p><p data-pid=\"59u3vLBF\">那些身无分文的储户们怎么办呢？</p><p></p><p></p><p></p><p></p>",
+        "vote_next_step": "vote",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1988311843496809974",
+        "comment_count": 492,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "favorite_count": 286,
+        "created_time": 1766830484,
+        "thanks_count": 25,
+        "is_copyable": false,
+        "thumbnail": "https://picx.zhimg.com/50/v2-b80d3104a35a2efaadc70403576280fa_720w.jpg?source=b6762063",
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-b80d3104a35a2efaadc70403576280fa_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-bee0b829b03a1adb9f965a0b6616fbdf_720w.jpg?source=b6762063"
+        ],
+        "segment_infos": [
+          {
+            "pid": "K-q6Ro74",
+            "text": "不想被骗的人注意了：以后你们去银行办业务，一定要在柜台办理！不要听信任何客户经理的鬼话，不要私自把钱交给他们处理！",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 57,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988500433245868359"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "labgfp_W",
+            "text": "因为银行业务经理是管理岗，不是业务岗，经理一般负责的是业务中出现的各种问题，不会亲自上手为储户办理储蓄业务——这是柜台人员的业务。",
+            "marks": [
+              {
+                "start_index": 13,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1988435015974003171"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "updated_time": 1766830663,
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "id": "1988234311569265156",
+          "url": "https://api.zhihu.com/questions/1988234311569265156",
+          "title": "银行经理和丈夫自杀，曾转走储户钱款涉案金额达 3000 多万元，储户的钱款还能追回吗？银行需要负责吗？",
+          "follower_count": 0,
+          "comment_count": 34,
+          "question_type": "normal",
+          "type": "question",
+          "author": {
+            "id": "74695e9c8f045368e5a3a3cc28679782",
+            "url": "https://api.zhihu.com/people/74695e9c8f045368e5a3a3cc28679782",
+            "url_token": "92-41-41-28-86",
+            "is_following": false,
+            "is_followed": false,
+            "gender": -1,
+            "followers_count": 27,
+            "user_type": "people",
+            "name": "笼岛千葵",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-a8682d5f786b0ae6db468b07e520842b_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "answer_count": 0,
+          "excerpt": "",
+          "detail": "",
+          "created": 1766811999,
+          "bound_topic_ids": [
+            215,
+            1826,
+            1895,
+            25475,
+            2388766
+          ],
+          "is_following": false
+        },
+        "excerpt": "自2017年始，五年间，一名银行女经理通过暗中操纵储户的账户等方式，将数十名储户的数千万元存款，全部转到了自己的亲友名下，然后挥霍一空。 最终（2025 年 4 月），这名银行女经理在家中上吊身亡。 四个月后，她的丈夫（同案犯）也自杀身亡，留下了一地鸡毛。   这个胆大妄为的银行女经理，名叫王X珊（化名），是商丘某邮储银行的一名客户经理，今年 36 岁。 很多人都在追问：这个女经理是怎么成功地长期卷走客户的大笔钱而没有…",
+        "id": "1988311843496809974",
+        "author": {
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "Amy667",
+          "name": "沸闻",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-37b5997ccc79fde38e9823eecc9a2d84_l.jpg?source=b6762063",
+          "gender": -1,
+          "followers_count": 9644,
+          "id": "a580a16dd961c4a8cbf46dd860ffbb50",
+          "url": "https://api.zhihu.com/people/a580a16dd961c4a8cbf46dd860ffbb50",
+          "headline": "热闻热议（言家国有遗事，拾而论之）",
+          "is_org": false,
+          "is_followed": false
+        },
+        "voteup_count": 856,
+        "preview_text": "",
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988311843496809974}",
+      "attached_info": "CrIGCJHwpuzk3/vDnwEQBBoJNzYyOTIxMzA0IJTjvsoGKNgGMOwDQFFKMAobVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTEgEwGAAgADoKeyJyYXciOiIifVoJMTE3ODYzMjM3YiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk4ODMxMTg0MzQ5NjgwOTk3NIoBEzE5ODgyMzQzMTE1NjkyNjUxNTaqAQlyZWNvbW1lbmTCASBhNTgwYTE2ZGQ5NjFjNGE4Y2JmNDZkZDg2MGZmYmI1MPIBCggMEgZOb3JtYWzyASgIChIkYTNkYWU5OGItNWI0MS00YzcxLTgxY2EtZDBiZmEwNmIzNTkz8gEGCAsSAjE0ggIAiAL9o8WbuTOSAiBhNTgwYTE2ZGQ5NjFjNGE4Y2JmNDZkZDg2MGZmYmI1MJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZdoCG1RTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTU+gCAvoCC05PUk1BTF9GTE9XigMgMDMwMWEyMGViNjkzNGQwMjk3NTQ0NmFlMTQwMDNlMmOaAw0KAnYyEAAaBW90aGVyqAOb2ArYAwDqAxRmZWVkcmVfdGltZWxpbmVzc192MvoDfRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEK4GGMMGIiN2Mi1iODBkMzEwNGEzNWEyZWZhYWRjNzA0MDM1NzYyODBmYTotCAQQ6gUY3wYiI3YyLWJlZTBiODI5YjAzYTFhZGI5Zjk2NWEwYjY2MTZmYmRmgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgQmSQP4EFAAAAAAAAAACJBXU1ZoYFcLI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ6QBgCgBlGoBgCSAi4KCTc2MjkyMTMwNBITMTk4ODMxMTg0MzQ5NjgwOTk3NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "82_1767705236.15",
+      "type": "feed",
+      "offset": 82,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705236,
+      "updated_time": 1767705236,
+      "target": {
+        "created_time": 1767588612,
+        "visited_count": 108,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1991491662007010068",
+        "excerpt": "群里总有朋友问，即梦（Dreamina）生成的图质量很高，但每次都得打开网页点点点，能不能搞进 n8n 实现自动化，主打一个不浪费每天送的积分。 我花时间研究了一下，还在 Github 上翻到一个开源项目，确实能行。 不过在落地的过程中踩了个坑，本地部署的 Docker 服务互相通信时，网络配置稍微有点绕。好在折腾通了，顺便把这套流程拆解出来，给各位避避坑。 先看最终效果在 n8n 里输入提示词，这边即梦的后台就在生成，完事儿直接…",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "updated_time": 1767588612,
+        "voteup_count": 1,
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "is_labeled": false,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "thumbnail": "https://pica.zhimg.com/50/v2-18c78f2749d3a4110ec3f403203bcec8_720w.jpg?source=b6762063",
+        "navigator_vote": false,
+        "preview_type": "default",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "id": "1991491662007010068",
+        "is_copyable": true,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-18c78f2749d3a4110ec3f403203bcec8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2e178496af8adade3256419bd49aaeb0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-30cd32ce6c8f461695275b9375e413dd_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-88c2bd72e50958fd33154f70e00403a8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-12d5b52a3f7df49e6c795248109ae1d7_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7ebdc3213aa6cbb6c3b0c1a916c56ba0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-192f723b91937083a30c86df4b2efee9_720w.jpg?source=b6762063"
+        ],
+        "author": {
+          "id": "77c1f7e58cda6a772af433e11dcefb76",
+          "user_type": "people",
+          "headline": "n8n/Coze/智能体 实战博主",
+          "followers_count": 68,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/77c1f7e58cda6a772af433e11dcefb76",
+          "url_token": "20-61-64-30",
+          "name": "曹工不加班",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-d89d8c64cf3d0bd1c2563bdcc865be19_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1
+        },
+        "question": {
+          "type": "question",
+          "comment_count": 0,
+          "excerpt": "",
+          "id": "1983836276663800546",
+          "follower_count": 0,
+          "detail": "",
+          "bound_topic_ids": [
+            8011,
+            15540,
+            4004605,
+            4010155,
+            4164375
+          ],
+          "url": "https://api.zhihu.com/questions/1983836276663800546",
+          "author": {
+            "url_token": "23-75-20-83-13",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-ca10ae7ff2546307db9491aa8fce5961_l.jpg?source=b6762063",
+            "is_following": false,
+            "id": "1105101bf8323e6a43aa531c3c042a76",
+            "url": "https://api.zhihu.com/people/1105101bf8323e6a43aa531c3c042a76",
+            "user_type": "people",
+            "followers_count": 8,
+            "is_followed": false,
+            "name": "吧旎",
+            "is_org": false,
+            "gender": -1
+          },
+          "created": 1765763426,
+          "answer_count": 0,
+          "title": "n8n2.0 版本更新带来了哪些颠覆性突破，解决了传统使用场景中的哪些痛点？",
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "content": "<p data-pid=\"3fGBCWEO\">群里总有朋友问，即梦（Dreamina）生成的图质量很高，但每次都得打开网页点点点，能不能搞进 n8n 实现自动化，主打一个不浪费每天送的积分。</p><p data-pid=\"uqH1Hr8E\">我花时间研究了一下，还在 Github 上翻到一个开源项目，确实能行。</p><p data-pid=\"eYT8rziy\">不过在落地的过程中踩了个坑，本地部署的 Docker 服务互相通信时，网络配置稍微有点绕。好在折腾通了，顺便把这套流程拆解出来，给各位避避坑。</p><h3>先看最终效果</h3><p data-pid=\"WrknbWbR\">在 n8n 里输入提示词，这边即梦的后台就在生成，完事儿直接把图转成二进制文件存下来，全程不用打开浏览器。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-22b00bd313541f3aa9a380e8bd52898b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2420\" data-rawheight=\"1434\" data-original-token=\"v2-18c78f2749d3a4110ec3f403203bcec8\" class=\"origin_image zh-lightbox-thumb\" width=\"2420\" data-original=\"https://picx.zhimg.com/v2-22b00bd313541f3aa9a380e8bd52898b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>搞定本地 API 服务</h3><p data-pid=\"FWzbBC9g\">要实现这个，核心得有个能把网页生成图片这个动作转换成 API 供 n8n 调用。Github 找到一个叫 <code>jimeng-api</code> 的项目，提交记录比较新，说明有人在维护而且大概率是能适配最新的即梦网页端，它能模拟浏览器的行为，把我们的请求转发给即梦。</p><div class=\"highlight\"><pre><code class=\"language-text\">https://github.com/iptag/jimeng-api</code></pre></div><p data-pid=\"ahcywup4\">部署这个最省事的方法就是 Docker。在你的电脑（需要提前安装好 docker 环境）或者 NAS 里跑一下这行命令，服务就起来了。</p><div class=\"highlight\"><pre><code class=\"language-text\">docker run -d --name jimeng-api -p 5100:5100 iptag/jimeng-api</code></pre></div><p data-pid=\"qyK-arMV\">这一步搞定后，你的电脑上就多了一个在 <code>5100</code> 端口监听的服务。</p><h3>获取 SessionID</h3><p data-pid=\"vzQoiPey\">即梦毕竟是商业软件，不可能随便谁都能调。我们需要把自己的登录凭证拿给 API 服务用，这个凭证就是 <code>sessionid</code>。</p><p data-pid=\"5iJp_bI2\">很多朋友卡在这里，其实也不复杂，跟着我看一遍。</p><p data-pid=\"gjgbf4sL\">你需要用浏览器（推荐 Chrome 或 Edge）打开即梦官网并登录。</p><p data-pid=\"7rZjN-bX\">登录成功后，按下键盘上的 <code>F12</code> 键，或者在页面空白处右键选择“检查”，这时候会弹出一个开发者工具栏。</p><p data-pid=\"kHqo8zTL\">在工具栏上方找到 <code>Application</code>（应用）这个标签页。如果屏幕小没看到，就点那个 <code>&gt;&gt;</code> 的箭头找找。</p><p data-pid=\"JJAqc5Uf\">在左侧菜单栏里展开 <code>Storage</code> 下面的 <code>Cookies</code>，点击即梦的域名 <code>https://jimeng.jianying.com</code>。</p><p data-pid=\"PBKV6_Hl\">这时候右边会出现密密麻麻的列表，不用管别的，只找 <code>sessionid</code> 这一行。它对应的那串很长的字符，就是我们要的东西。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c45b2ec82ad6cb86a693716e26d17d83_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3160\" data-rawheight=\"1420\" data-original-token=\"v2-2e178496af8adade3256419bd49aaeb0\" class=\"origin_image zh-lightbox-thumb\" width=\"3160\" data-original=\"https://picx.zhimg.com/v2-c45b2ec82ad6cb86a693716e26d17d83_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"q56I3YAJ\">把它复制下来，后面要填到 n8n 里。</p><h3>搭建 n8n 自动化流程</h3><p data-pid=\"Xg8SBcxE\">有了 API 服务，有了凭证，接下来就是用 n8n 把它们串起来。</p><p data-pid=\"KGFveTvU\">我自己搭了一个工作流，逻辑很简单：手动触发 -&gt; 调用 API 生成图片 -&gt; 处理返回数据 -&gt; 下载为二进制文件。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d499e5d8275a84e6fbaed9e37f471057_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2338\" data-rawheight=\"1086\" data-original-token=\"v2-30cd32ce6c8f461695275b9375e413dd\" class=\"origin_image zh-lightbox-thumb\" width=\"2338\" data-original=\"https://picx.zhimg.com/v2-d499e5d8275a84e6fbaed9e37f471057_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"DWC4Yga1\">这里有个稍微复杂的点是网络通信。</p><p data-pid=\"lwkiTTU4\">如果你的 n8n 也是用 Docker 部署的，在配置 HTTP 请求节点时，URL 不能写 <code>localhost:5100</code>。因为在 n8n 的容器眼里，<code>localhost</code> 指的是它自己，而不是你的电脑宿主机。</p><p data-pid=\"JLQsu_Bq\">你需要填宿主机的局域网 IP。比如我的电脑 IP 是 <code>192.168.1.9</code>，那 URL 就得填 <code>http://192.168.1.9:5100/v1/images/generations</code>。</p><p data-pid=\"Mw6c4uBZ\"><b>核心配置参数如下：</b></p><ul><li data-pid=\"JDBFK-EK\"><b>Method：</b> POST</li><li data-pid=\"JgFY6V7e\"><b>Header：</b> 需要加一个 <code>Authorization</code>，值为 <code>Bearer</code> 加上刚才复制的 <code>sessionid</code>（注意中间有个空格）。</li><li data-pid=\"hjWJYuu6\"><b>Body：</b> 这里填生成参数，比如模型 <code>jimeng-4.5</code>，提示词 <code>prompt</code> 等。</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-16921a2edac2fcb067ed6cf3e1d0f79d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2222\" data-rawheight=\"2492\" data-original-token=\"v2-88c2bd72e50958fd33154f70e00403a8\" class=\"origin_image zh-lightbox-thumb\" width=\"2222\" data-original=\"https://picx.zhimg.com/v2-16921a2edac2fcb067ed6cf3e1d0f79d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8_IAix9M\">这里顺带提一嘴扣费逻辑，走 API 调用和你在网页上点是一模一样的。</p><p data-pid=\"Kf0CqMAY\">如果你像我一样选了 jimeng-4.5 模型，单张图是 3 积分，一次请求默认会生成 4 张图。这一波操作下去，12 积分就直接扣没了（普通模型是 1 积分一张）。大家调试的时候悠着点，别代码跑通了，号里的积分被循环跑空了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ba9c391bae22bf01f5382c6a0c9fbaf0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1186\" data-rawheight=\"682\" data-original-token=\"v2-12d5b52a3f7df49e6c795248109ae1d7\" class=\"origin_image zh-lightbox-thumb\" width=\"1186\" data-original=\"https://pic1.zhimg.com/v2-ba9c391bae22bf01f5382c6a0c9fbaf0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IcE-Zpkz\">请求发出去后，即梦返回的数据通常是一组图片链接。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1a1815cf7bd5499ccb865b62ba2c8bea_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2668\" data-rawheight=\"1548\" data-original-token=\"v2-7ebdc3213aa6cbb6c3b0c1a916c56ba0\" class=\"origin_image zh-lightbox-thumb\" width=\"2668\" data-original=\"https://pica.zhimg.com/v2-1a1815cf7bd5499ccb865b62ba2c8bea_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Uk-NGF0P\">我在工作流里加了一个 <code>Split Out</code> 节点，把返回的图片数组拆成单条数据。接着通过 <code>Loop Over Items</code> 循环节点，配合 HTTP Request 节点把图片链接转化为<b>二进制文件</b>（Binary）。</p><p data-pid=\"doLaI3YH\">这边要用循环节点是因为我想单独命名每个二进制文件为 <code>data_index</code>, 但是 http request 节点似乎有 bug ，无法准确获取 index 命名。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7a3c75b12a02105f14457f88b8aaabaa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1356\" data-rawheight=\"890\" data-original-token=\"v2-192f723b91937083a30c86df4b2efee9\" class=\"origin_image zh-lightbox-thumb\" width=\"1356\" data-original=\"https://pic1.zhimg.com/v2-7a3c75b12a02105f14457f88b8aaabaa_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3pZ7Cjas\">只要拿到了二进制数据，后面你想把它存到硬盘、发到飞书还是传给其他系统，就都很方便了。</p><h3>场景延伸</h3><p data-pid=\"EaQ2iR3m\">这套东西跑通了，能玩的花样就多了。</p><p data-pid=\"n69KmxZ4\">你可以接一个定时任务，每天早上自动生成一组早安海报素材。</p><p data-pid=\"DLXEkKsK\">或者配合现在的 DeepSeek、ChatGPT，先把文章扔进去提炼画面描述，再传给即梦生成配图，最后自动发到社交媒体，全自动流水线就齐活了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a1fc4bab8efd017f704a2a2127f58837_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"559\" data-original-token=\"v2-02fcbb297f5dc02882dad93fd2cc779a\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic2.zhimg.com/v2-a1fc4bab8efd017f704a2a2127f58837_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>稍微聊两句</h3><p data-pid=\"kDYdJhaI\">最后得严肃说一句，这套方案分享出来是为了方便大家学习技术原理和工作流搭建，<b>请勿用于任何非法用途</b>。技术工具本身是中性的，但在怎么用这事儿上，心里得有杆秤。</p><p data-pid=\"m60ByyuH\">即梦 api + n8n 的工作流 JSON 文件，我已经导出来了。如果你想试一试这个方法，关注公众号“<b>曹工不加班</b>”发送“<b>即梦</b>”即可获取工作流。</p><p data-pid=\"KGuNq11Y\">当然，如果你在获取 Cookie 或者 Docker 网络配置上还有疑问，也可以在后台留言，加入交流群一起探讨。</p>",
+        "favorite_count": 5,
+        "type": "answer",
+        "excerpt_new": "群里总有朋友问，即梦（Dreamina）生成的图质量很高，但每次都得打开网页点点点，能不能搞进 n8n 实现自动化，主打一个不浪费每天送的积分。 我花时间研究了一下，还在 Github 上翻到一个开源项目，确实能行。 不过在落地的过程中踩了个坑，本地部署的 Docker 服务互相通信时，网络配置稍微有点绕。好在折腾通了，顺便把这套流程拆解出来，给各位避避坑。 先看最终效果在 n8n 里输入提示词，这边即梦的后台就在生成，完事儿直接…",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991491662007010068}",
+      "attached_info": "CsUICJHwpuzk3/vDnwEQBBoJNzY0MDg1Nzg1IISG7coGKAEwAEBSSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AFoJMTE3NzE2NDEwYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk5MTQ5MTY2MjAwNzAxMDA2OIoBEzE5ODM4MzYyNzY2NjM4MDA1NDaqAQlyZWNvbW1lbmTCASA3N2MxZjdlNThjZGE2YTc3MmFmNDMzZTExZGNlZmI3NvIBCggMEgZOb3JtYWzyASgIChIkZjVlN2U2NGEtYWRjMy00ZDM5LWFkNGEtMWM1ZjllMTdmMWFm8gEGCAsSAjE0ggIAiAL9o8WbuTOSAiA3N2MxZjdlNThjZGE2YTc3MmFmNDMzZTExZGNlZmI3NpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDLoAgL6AgtOT1JNQUxfRkxPV4oDIDAzMDFhMjBlYjY5MzRkMDI5NzU0NDZhZTE0MDAzZTJjmgMNCgJ2MhAAGgVvdGhlcqgDbNgDAOoDH3dhcm11cFR3b1Rvd2VyVGV4dEJvb3N0UmVjYWxsZXL6A5cDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ9BIYmgsiI3YyLTE4Yzc4ZjI3NDlkM2E0MTEwZWMzZjQwMzIwM2JjZWM4Oi0IAhDYGBiMCyIjdjItMmUxNzg0OTZhZjhhZGFkZTMyNTY0MTliZDQ5YWFlYjA6LQgDEKISGL4IIiN2Mi0zMGNkMzJjZTZjOGY0NjE2OTUyNzViOTM3NWU0MTNkZDotCAIQrhEYvBMiI3YyLTg4YzJiZDcyZTUwOTU4ZmQzMzE1NGY3MGUwMDQwM2E4Oi0IAhCiCRiqBSIjdjItMTJkNWI1MmEzZjdkZjQ5ZTZjNzk1MjQ4MTA5YWUxZDc6LQgCEOwUGIwMIiN2Mi03ZWJkYzMyMTNhYTZjYmI2YzNiMGMxYTkxNmM1NmJhMDotCAIQzAoY+gYiI3YyLTE5MmY3MjNiOTE5MzcwODNhMzBjODZkZjRiMmVmZWU5Oi0IBBCACBivBCIjdjItMDJmY2JiMjk3ZjVkYzAyODgyZGFkOTNmZDJjYzc3OWGABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKCNV3c/gQUAAAAAAAAAAIkFdTVmhgVwsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGUqgGAZICLgoJNzY0MDg1Nzg1EhMxOTkxNDkxNjYyMDA3MDEwMDY4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "83_1767705236.945",
+      "type": "feed",
+      "offset": 83,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705236,
+      "updated_time": 1767705236,
+      "target": {
+        "thanks_count": 0,
+        "preview_text": "",
+        "visited_count": 75,
+        "navigator_vote": false,
+        "id": "1991556299264123899",
+        "type": "answer",
+        "updated_time": 1767604023,
+        "voteup_count": 4,
+        "is_copyable": true,
+        "content": "<p data-pid=\"Qd4-UnSL\"><b>穷人为什么喜欢打工而不是创业？网友：不是喜欢打工，而是输不起</b></p><p data-pid=\"VzcCC8Bq\"><b>网友1</b>我爸贵州人，十五岁到中山打工，混了三十多年，目前存款为一千块，在穷这个领域，他确实能算是佼佼者了。他一个月前还有两万存款，因为创业失败现在只剩下一千。</p><p data-pid=\"8dOex4OE\"><br/><b>网友2</b>我们家在县城开过馆子，生意不错。听说后来关门的原因是：生意最好的时候家里的麦子熟了，我妈硬要全家一起回去收麦子。没了老客，自然就黄了。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3d794440173f8b44f910f4895b56f458_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"845\" data-rawheight=\"413\" data-original-token=\"v2-6efe31e17ec7b6cc0f179dae45c8b571\" class=\"origin_image zh-lightbox-thumb\" width=\"845\" data-original=\"https://pic3.zhimg.com/v2-3d794440173f8b44f910f4895b56f458_r.jpg\"/></figure><p data-pid=\"gw14YSyA\"><b>网友3</b>我就是你口中的穷人，我不是喜欢打工，我只是没有资本创业，前怕狼后怕虎，没有人给我兜底，我怕我一夜回到解放前。有钱人赔几十万几百万不影响吃不影响喝，搁我，赔几万都能吃不下睡不着，别跟我说什么格局，我舍不得吃舍不得喝，两三千的手机用了五年，打王者都卡了，电池也存不住电了，我觉得他还能再坚持一年，就这也存不到六万。都说钱不值钱了，得分怎么花。我不能拿生活中最基本的保障去赌我能不能成功！我承受不了失败，宁可固守清贫。</p><p data-pid=\"9_4guxXq\"><br/><br/><b>网友4</b>穷人之所以更倾向于打工而不是创业，根本不是因为他们“没胆量”或“不爱钱”，而是因为他们“输不起”—— 创业那套游戏规则，从起跑线开始就没给他们留下什么犯错的空间。真的是玩不起啊，等我还完贷款，存款50的时候，我也该老了，也无心创业了。<br/><br/><br/><b>网友5</b>节假日出来玩的，差不多都是打工的在玩，管你是体制内还是体制外。创业当老板的一般都没有闲心情出来玩，他们想到的是趁节假日的机会大赚一笔。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7ac9f3cdd9c71d14bc305863bb2f60d8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"841\" data-rawheight=\"445\" data-original-token=\"v2-0271f417e07882f5bdf11964512f31c6\" class=\"origin_image zh-lightbox-thumb\" width=\"841\" data-original=\"https://pic1.zhimg.com/v2-7ac9f3cdd9c71d14bc305863bb2f60d8_r.jpg\"/></figure><p data-pid=\"aiW_-wo6\"><b>网友6</b>打工每月有固定的收入，就拿进厂来说吧，每天不被风吹雨打太阳晒，大多数厂包吃包住，有的还给买五险。无投资，无风险，不操心。人之所以称为穷人，就是因为没有钱，一方面是因为赚的少，一方面是负债累累，但是每月的基本开销都是需要花费的，这对于穷人来说，每月生活花销就已经压的他们喘不过气了，哪来的精力再去创业呢，巨大的经济压力导致穷人根本无心创业。<br/><br/><b>网友7</b>其实，大多数人的一生，就是被稳定和安全这两个词给毁掉了，而往往那些能从底层翻身的人，都是不追求稳定的，喜欢乱搞的。就比如我，我可以说是一个典型的从底层穷人家庭翻身，靠自己翻身的例子。因为我内心有那股拼劲。后来你就会发现，凡是能从底层翻身的人，大多都是仇恨底层人的，就是特别排斥底层环境的，不然的话，你没有这股劲，这股狠劲，你根本没有办法挺过来创业时期的艰难。<br/><br/><br/><b>网友8</b>创业需要本钱啊，我等穷人只有先打工挣本钱，待有合适机会时可以考虑创业。再说，现在这行情，凡事鼓动你创业的，跟男人热衷的两件事无异：劝失足女上岸，劝良家妇女下海，都是用心极其不纯的想法，打工还能赚固定工资，创业要是失败了，血本无归 倾家荡产，想东山再起，又不知道猴年马月。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e986cfff4e45025564562016527c8e7d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"839\" data-rawheight=\"499\" data-original-token=\"v2-c1c5716d0f994c7bb21d59cd5dd7dd8e\" class=\"origin_image zh-lightbox-thumb\" width=\"839\" data-original=\"https://pic4.zhimg.com/v2-e986cfff4e45025564562016527c8e7d_r.jpg\"/></figure><p data-pid=\"XLpQdU7-\"><b>网友9</b>你要是肯定自己能中奖，你也会喜欢买彩票的。至于没关系的老百姓，买彩票就是智商税。哪有什么肯定能创业成功的，都是九死一生，只不过有的人输得起，甚至可以输好几次，有的人输不起</p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "url": "https://api.zhihu.com/answers/1991556299264123899",
+        "created_time": 1767604023,
+        "comment_count": 3,
+        "excerpt": "穷人为什么喜欢打工而不是创业？网友：不是喜欢打工，而是输不起 网友1我爸贵州人，十五岁到中山打工，混了三十多年，目前存款为一千块，在穷这个领域，他确实能算是佼佼者了。他一个月前还有两万存款，因为创业失败现在只剩下一千。 网友2我们家在县城开过馆子，生意不错。听说后来关门的原因是：生意最好的时候家里的麦子熟了，我妈硬要全家一起回去收麦子。没了老客，自然就黄了。   网友3我就是你口中的穷人，我不是喜欢打工，…",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "author": {
+          "headline": "这里只分享对大家有用的互联网干货，不讲大道理。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-bbd71f27b24e02b1cae927a388fb4f1e_l.jpg?source=b6762063",
+          "is_following": false,
+          "is_followed": false,
+          "id": "a57e2ac046671006b55956845cb10528",
+          "url": "https://api.zhihu.com/people/a57e2ac046671006b55956845cb10528",
+          "name": "海棠花开",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 295,
+          "user_type": "people",
+          "url_token": "20-58-57-29-18"
+        },
+        "question": {
+          "question_type": "normal",
+          "title": "穷人为什么喜欢打工而不是创业呢？",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            344,
+            14812,
+            15948,
+            2829206
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "author": {
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false,
+            "url_token": "o-28-98-96",
+            "gender": 0,
+            "user_type": "people",
+            "name": "o泡果奶",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-4926a04de40d48b902a9e1f29cf4986f_l.jpg?source=b6762063",
+            "is_org": false,
+            "id": "3a6d426b21467e632aa69101a27b5a38",
+            "url": "https://api.zhihu.com/people/3a6d426b21467e632aa69101a27b5a38"
+          },
+          "comment_count": 63,
+          "answer_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "detail": "",
+          "id": "655366182",
+          "url": "https://api.zhihu.com/questions/655366182",
+          "created": 1715164637
+        },
+        "excerpt_new": "穷人为什么喜欢打工而不是创业？网友：不是喜欢打工，而是输不起 网友1我爸贵州人，十五岁到中山打工，混了三十多年，目前存款为一千块，在穷这个领域，他确实能算是佼佼者了。他一个月前还有两万存款，因为创业失败现在只剩下一千。 网友2我们家在县城开过馆子，生意不错。听说后来关门的原因是：生意最好的时候家里的麦子熟了，我妈硬要全家一起回去收麦子。没了老客，自然就黄了。   网友3我就是你口中的穷人，我不是喜欢打工，…",
+        "preview_type": "default",
+        "is_labeled": false,
+        "favorite_count": 1,
+        "is_navigator": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991556299264123899}",
+      "attached_info": "CvkGCJHwpuzk3/vDnwEQBBoJNzY0MTI0OTIyILf+7coGKAQwA0BTSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCTEwNzkxNDQ3OGIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5OTE1NTYyOTkyNjQxMjM4OTmKAQk2NTUzNjYxODKqAQlyZWNvbW1lbmTCASBhNTdlMmFjMDQ2NjcxMDA2YjU1OTU2ODQ1Y2IxMDUyOPIBCggMEgZOb3JtYWzyASgIChIkM2E5NWExMjAtM2U3OS00NTIzLWFkY2MtMmI2MjIwOWE3NmY08gEGCAsSAjE0ggIAiAL9o8WbuTOSAiBhNTdlMmFjMDQ2NjcxMDA2YjU1OTU2ODQ1Y2IxMDUyOJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCAvoCC05PUk1BTF9GTE9XigMgMDMwMWEyMGViNjkzNGQwMjk3NTQ0NmFlMTQwMDNlMmOaAw0KAnYyEAAaBW90aGVyqANL2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEM0GGJ0DIiN2Mi02ZWZlMzFlMTdlYzdiNmNjMGYxNzlkYWU0NWM4YjU3MTotCAIQyQYYvQMiI3YyLTAyNzFmNDE3ZTA3ODgyZjViZGYxMTk2NDUxMmYzMWM2Oi0IAhDHBhjzAyIjdjItYzFjNTcxNmQwZjk5NGM3YmIyMWQ1OWNkNWRkN2RkOGWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGDaJYo/gQUAAAAAAAAAAIkFdTVmhgVwsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGU6gGAJICLgoJNzY0MTI0OTIyEhMxOTkxNTU2Mjk5MjY0MTIzODk5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=83&desktop=true&end_offset=83&page_number=15&session_token=a4e90c57987156ba91b025a931ace108",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=83&desktop=true&end_offset=83&page_number=15&session_token=a4e90c57987156ba91b025a931ace108",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

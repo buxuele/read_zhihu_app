@@ -1,0 +1,744 @@
+{
+  "data": [
+    {
+      "id": "102_1767704425.707",
+      "type": "feed",
+      "offset": 102,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704425,
+      "updated_time": 1767704425,
+      "target": {
+        "created": 1767083982,
+        "voteup_count": 15,
+        "comment_count": 0,
+        "type": "article",
+        "comment_permission": "all",
+        "updated": 1767084008,
+        "preview_type": "default",
+        "excerpt": "一、前言在分布式系统架构中，消息队列如同畅通的“信息神经网络”，承担着解耦、削峰与异步通信的核心使命。在众多成熟方案中，RocketMQ凭借其阿里巴巴与Apache双重基因，以卓越的金融级可靠性、万亿级消息堆积能力和灵活的分布式特性脱颖而出，成为构建高可用、高性能数据流转枢纽的关键技术选型。本文将深入解析RocketMQ的核心架构、设计哲学与实践要义。 二、RocketMQ架构总览官网图片   RocketMQ架构上主要分为四部分，如上…",
+        "content": "<h2>一、前言</h2><p data-pid=\"-AFIBIpO\">在分布式系统架构中，消息队列如同畅通的“信息神经网络”，承担着解耦、削峰与异步通信的核心使命。在众多成熟方案中，RocketMQ凭借其阿里巴巴与Apache双重基因，以卓越的金融级可靠性、万亿级消息堆积能力和灵活的分布式特性脱颖而出，成为构建高可用、高性能数据流转枢纽的关键技术选型。本文将深入解析RocketMQ的核心架构、设计哲学与实践要义。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>二、RocketMQ架构总览</h2><p data-pid=\"NN5JWfIw\">官网图片</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-be620d2fd985bfa8350254ad6d05d39c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"480\" data-original-token=\"v2-be620d2fd985bfa8350254ad6d05d39c\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic1.zhimg.com/v2-be620d2fd985bfa8350254ad6d05d39c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kQk71bxe\">RocketMQ架构上主要分为四部分，如上图所示: </p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FkNMJaGP\">RocketMQ作为一款高性能、高可用的分布式消息中间件，其核心架构采用了经典的四组件协同设计，实现了消息生产、存储、路由与消费的全链路解耦与高效协同。<b>四大组件——生产者（Producer）、消费者（Consumer）、路由中心（NameServer）和代理服务器（Broker）——各司其职，共同构建了其坚实的基石。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7yJoY17G\"><b>生产者（Producer）</b>作为消息的源头，负责将业务消息高效、可靠地发布到系统中。它支持分布式集群部署，并通过内置的智能负载均衡机制，自动选择最优的Broker节点与队列进行投递。</p><p data-pid=\"jG8Q6yD7\"><b>消费者（Consumer）</b>是消息的处理终端，同样以集群化方式工作，支持推送（Push）和拉取（Pull）两种消息获取模式。它提供了集群消费与广播消费两种模式，并能动态维护其订阅关系。</p><p data-pid=\"8vg1gvcM\"><b>路由中心（NameServer）</b>是整个架构的“注册中心”，扮演着轻量级服务发现的角色。所有Broker节点都会向NameServer注册，并通过定期心跳汇报健康状态。生产者与消费者则从NameServer获取实时的主题路由与Broker信息，从而实现消息寻址的完全解耦。</p><p data-pid=\"IX4UJR2B\"><b>代理服务器（Broker）</b>是消息存储与流转的核心，负责消息的持久化存储、投递与查询。为了保障高可用性，Broker通常采用主从（Master-Slave）部署架构，确保数据与服务在故障时能无缝切换。其内部集成了通信处理、存储引擎、索引服务和高可用复制等核心模块。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>三、核心组件深度解析</h2><h2>NameServer：轻量级服务发现枢纽</h2><p data-pid=\"zG4HxAc1\">NameServer是RocketMQ的<b>轻量级服务发现与路由中心，</b>其核心目标是<b>实现生产消费与Broker服务的解耦。</b>它不存储消息数据，仅管理路由元数据。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bCq1Eir4\">核心是一张的路由表 HashMap&lt;String/* Topic */, List&lt;QueueData&gt;&gt;，记录了每个Topic对应在哪些Broker的哪些队列上。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gZetvbVA\">客户端内置了故障规避机制。如果从某个NameServer获取路由失败，或根据路由信息访问Broker失败，会自动重试其他NameServer或Broker。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fsJEBkii\">1. <b>核心角色与设计哲学：</b> NameServer的设计哲学是 <b>“简单、无状态、最终一致” 。</b>每个NameServer节点独立运行，<b>节点间互不通信，</b>这使其具备极强的水平扩展能力和极高的可用性。客户端会配置所有NameServer地址，并向其广播请求。</p><p data-pid=\"u08wFYBI\">2. <b>核心工作机制：</b>其运作围绕路由信息的生命周期展开，可通过下图一览其核心流程：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4953ea0a24a296ab3a1b94b24a73c09c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"543\" data-rawheight=\"704\" data-original-token=\"v2-4953ea0a24a296ab3a1b94b24a73c09c\" class=\"origin_image zh-lightbox-thumb\" width=\"543\" data-original=\"https://pic1.zhimg.com/v2-4953ea0a24a296ab3a1b94b24a73c09c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mLhnF6Vs\"><b>3. 和kafka注册中心对比</b></p><ul><li data-pid=\"C50lh593\"><b>NameServer </b>采用 <b>“去中心化”</b> 和 <b>“最终一致”</b> 思想，<b>追求极致的简单、轻量和水平扩展，</b>牺牲了强一致性，以换取架构的简洁和高可用。这非常适合路由信息变动不频繁、客户端具备容错能力的消息场景。</li><li data-pid=\"3uNPYhx1\"><b>Kafka (KRaft)</b> 采用<b> “中心化” </b>和 <b>“强一致” </b>思想，<b>追求数据的精确和系统的自包含。</b>它将元数据管理深度内化，通过共识协议保证全局一致，但代价是架构复杂度和运维成本更高。</li></ul><p data-pid=\"HL6QnNBs\"><b>优劣分析：</b>NameServer在<b>运维简易性、集群扩展性、无外部依赖</b>上占优；而Kafka KRaft在<b>元数据强一致性、系统自包含、架构统一性</b>上更胜一筹。选择取决于你对<b>一致性、复杂度、运维成本</b>的具体权衡。</p><h2>Broker：消息存储与转发的核心引擎</h2><p data-pid=\"QWnVzEaI\"><b>解密存储文件设计</b></p><p data-pid=\"xo9cBT9j\">Broker目录下的文件结构</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8cd045b7c6329283340de1871bc10d42_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1018\" data-rawheight=\"191\" data-original-token=\"v2-8cd045b7c6329283340de1871bc10d42\" class=\"origin_image zh-lightbox-thumb\" width=\"1018\" data-original=\"https://pic3.zhimg.com/v2-8cd045b7c6329283340de1871bc10d42_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QFFjGsBx\">所有核心存储文件均位于Broker节点的 <b>${storePathRootDir}/store/ </b>目录下（默认路径为 ~/store/），其下各子目录职责分明：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>目录/文件</td><td>核心职责</td><td>关键设计说明</td></tr><tr><td>commitlog/</td><td>消息实体存储库</td><td>• 设计：所有Topic的消息顺序混合追加写入。• 文件：以起始物理偏移量命名（20位数字），默认每个1GB。lock文件确保同一时刻只有一个进程写入，保障严格顺序写。</td></tr><tr><td>consumequeue/</td><td>逻辑消费队列索引</td><td>• 结构：按 {Topic}/{QueueId}/三级目录组织。 • 文件：存储定长记录（20字节/条），包含物理偏移量、长度和Tag哈希码。 • 作用：为消费者提供按Topic和队列分组的逻辑视图，实现高效拉取。</td></tr><tr><td>index/</td><td>消息键哈希索引</td><td>• 文件：以创建时间戳命名（如20240515080000000）。 • 结构：采用 “哈希槽 + 链表” 结构。 • 用途：支持根据 Message Key 或时间范围进行消息查询，用于运维排查。</td></tr><tr><td>config/</td><td>运行时元数据</td><td>• 存储Broker运行期间生成的动态数据，如所有Topic的配置、消费者组的消费进度（offset） 等。</td></tr><tr><td>checkpoint</td><td>状态检查点文件</td><td>• 记录 commitlog、consumequeue、index等文件最后一次刷盘的时间戳，用于崩溃恢复时确定数据恢复的起点。</td></tr><tr><td>abort</td><td>异常关闭标志文件</td><td>• 该文件存在即表明Broker上一次是非正常关闭，重启时会触发恢复流程。</td></tr><tr><td>lock</td><td>锁文件</td><td>• lock文件确保同一时刻只有一个进程写入，保障严格顺序写。</td></tr></tbody></table><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sphceEMb\"><b>commitLog</b></p><p data-pid=\"Ggyd8mGw\"><b>消息主体以及元数据的存储主体，</b>存储Producer端写入的消息主体内容，消息内容<b>不是定长的。</b>单个文件大小默认1G， 文件名长度为20位，左边补零，剩余为<b>起始偏移量，</b>比如00000000000000000000代表了第一个文件，起始偏移量为0，文件大小为1G=1073741824；当第一个文件写满了，第二个文件为00000000001073741824，起始偏移量为1073741824，以此类推。消息主要是顺序写入日志文件，当文件满了，写入下一个文件；</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-57697f5aa1376ca506618fc4db82b8d1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"241\" data-original-token=\"v2-57697f5aa1376ca506618fc4db82b8d1\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://picx.zhimg.com/v2-57697f5aa1376ca506618fc4db82b8d1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lUTSP922\">当我们消息发送到RocketMQ以后，消息在commitLog中，因为body大小是不固定的，所以每个消息的长度也是不固定的，其存储格式如下：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-39401d5e97eee77000c6d19d82d15ac0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"263\" data-original-token=\"v2-39401d5e97eee77000c6d19d82d15ac0\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pica.zhimg.com/v2-39401d5e97eee77000c6d19d82d15ac0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XInpNOvv\">下面每个表格列举了每个字段的含义</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>字段</td><td>字段名</td><td>数据类型</td><td>字节数</td><td>说明与用途</td></tr><tr><td>1</td><td>MsgLen / TOTALSIZE</td><td>int</td><td>4</td><td>消息总长度，即从本字段开始到结束的总字节数，是解析消息的起点。</td></tr><tr><td>2</td><td>MagicCode</td><td>int</td><td>4</td><td>魔术字，固定值（如 0xdaa320a7），用于标识这是一个有效的消息存储起始点，也用于区分消息体和文件末尾空白填充区。</td></tr><tr><td>3</td><td>BodyCRC</td><td>int</td><td>4</td><td>消息体内容的CRC校验码，用于校验消息体在存储过程中是否损坏。</td></tr><tr><td>4</td><td>QueueId</td><td>int</td><td>4</td><td>队列ID，标识此消息属于Topic下的哪个逻辑队列。</td></tr><tr><td>5</td><td>Flag</td><td>int</td><td>4</td><td>消息标志位，供应用程序自定义使用，RocketMQ内部未使用。</td></tr><tr><td>6</td><td>QueueOffset</td><td>long</td><td>8</td><td>消费队列偏移量，即此消息在其对应ConsumeQueue中的顺序索引，是连续的。</td></tr><tr><td>7</td><td>PhysicalOffset</td><td>long</td><td>8</td><td>物理偏移量，即此消息在所有CommitLog文件中的起始字节偏移量。由于消息长度不定，此偏移量不是连续的。</td></tr><tr><td>8</td><td>SysFlag</td><td>int</td><td>4</td><td>系统标志位，是一个二进制组合值，用于标识消息特性，如：是否压缩、是否为事务消息、是否等待事务提交等。</td></tr><tr><td>9</td><td>BornTimestamp</td><td>long</td><td>8</td><td>消息生成时间戳，由Producer客户端在发送时生成。</td></tr><tr><td>10</td><td>BornHost</td><td>8字节</td><td>8</td><td>消息发送者地址。其编码并非简单字符串，而是将IP的4个段和端口号的2个字节，共6个字节，按大端序组合并填充到8字节中。</td></tr><tr><td>11</td><td>StoreTimestamp</td><td>long</td><td>8</td><td>消息存储时间戳，即Broker收到消息并写入内存的时间。</td></tr><tr><td>12</td><td>StoreHost</td><td>8字节</td><td>8</td><td>Broker存储地址，编码方式同BornHost。</td></tr><tr><td>13</td><td>ReconsumeTimes</td><td>int</td><td>4</td><td>消息重试消费次数，用于死信队列判断。</td></tr><tr><td>14</td><td>PreparedTransationOffset</td><td>long</td><td>8</td><td>事务消息专用，存储与之关联的事务日志（Transaction Log）的偏移量。</td></tr><tr><td>15</td><td>BodyLength</td><td>int</td><td>4</td><td>消息体实际长度，后跟Body内容。</td></tr><tr><td>16</td><td>Body</td><td>byte[]</td><td>不定</td><td>消息体内容，即Producer发送的原始业务数据。</td></tr><tr><td>17</td><td>TopicLength</td><td>byte</td><td>1</td><td>Topic名称的长度（1字节，因此Topic名不能超过255字符）。</td></tr><tr><td>18</td><td>Topic</td><td>byte[]</td><td>不定</td><td>Topic名称的字节数组。</td></tr><tr><td>19</td><td>PropertiesLength</td><td>short</td><td>2</td><td>消息属性长度，后跟Properties内容。</td></tr><tr><td>20</td><td>Properties</td><td>byte[]</td><td>不定</td><td>消息属性，用于存储用户自定义的Key-Value扩展信息。在编码时，Key和Value之间用特殊不可见字符（如\\u0001）分隔，因此属性中不能包含这些字符。</td></tr></tbody></table><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Cmxa8rpQ\"><b>ConsumeQueue</b></p><p data-pid=\"eXSht6BF\">消息消费索引，<b>引入的目的主要是提高消息消费的性能。</b>由于RocketMQ是基于主题topic的订阅模式，消息消费是针对主题进行的，如果要遍历commitlog文件，<b>根据topic检索消息是非常低效的。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Eo8kWH9L\">为了解决这个问题中，提高消费时候的速度，RocketMQ会启动后台的 dispatch 线程源源不断的将消息从 commitLog 取出消息在 CommitLog 中的物理偏移量，消息长度以及 Tag Hash 等信息作为单条消息的索引，分发到对应的消费队列，构成了对 CommitLog 的引用。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jxcK8aKF\">consumer可根据ConsumeQueue来查找待消费的消息。其中，ConsumeQueue作为消费消息的索引，保存了指定Topic下的队列消息在CommitLog中的起始<b>物理偏移量offset，消息大小size和消息Tag的HashCode值。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fcjd51pR\"><b>consumequeue文件可以看成是基于topic的commitlog索引文件，</b>故consumequeue文件夹的组织方式如下：</p><p data-pid=\"dN72MFT3\">$HOME/store/consumequeue/{topic}/{queueId}/{fileName}</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ogln0p9Y\"><b>consumequeue文件采取定长设计，</b>每一个条目共20个字节，前8字节的commitlog物理偏移量、中间4字节的消息长度、8字节tag的hashcode。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0c3b49cb537e36a7954cfd7116041ba6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1330\" data-rawheight=\"570\" data-original-token=\"v2-0c3b49cb537e36a7954cfd7116041ba6\" class=\"origin_image zh-lightbox-thumb\" width=\"1330\" data-original=\"https://pic3.zhimg.com/v2-0c3b49cb537e36a7954cfd7116041ba6_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GK0Wt37s\"><b>indexFile</b></p><p data-pid=\"mwwlgKt5\">RocketMQ的IndexFile索引文件提供了通过消息Key或时间区间查询消息的能力，其存储路径为$HOME/store/index/{fileName}，其中文件名以创建时间戳命名。单个IndexFile文件大小固定约为400M，可保存2000W个索引，其底层采用类HashMap的哈希索引结构实现。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pweQ7lCd\">IndexFile是一个<b>固定大小</b>的文件（约400MB），其物理结构由三部分组成</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-2f2384db6546cd873387a7bc5751450d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1272\" data-rawheight=\"284\" data-original-token=\"v2-2f2384db6546cd873387a7bc5751450d\" class=\"origin_image zh-lightbox-thumb\" width=\"1272\" data-original=\"https://picx.zhimg.com/v2-2f2384db6546cd873387a7bc5751450d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GfPDpiQV\">1.IndexHeader（索引头，40字节）</p><p data-pid=\"U_M0Bhm1\"><b>beginTimestamp：</b>第一条消息存储时间</p><p data-pid=\"CAT6Z-gS\"><b>endTimestamp：</b>最后一条消息存储时间</p><p data-pid=\"ZFH6nGMk\"><b>beginPhyoffset：</b>第一条消息在CommitLog中的物理偏移量</p><p data-pid=\"Szz-Gw5x\"><b>endPhyoffset：</b>最后一条消息在CommitLog中的物理偏移量</p><p data-pid=\"xx3C9syD\"><b>hashSlotCount：</b>已使用的哈希槽数量</p><p data-pid=\"MkKsTI_q\"><b>indexCount：</b>索引单元总数</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-dba6c030029cb849ce49163805d5ae48_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1048\" data-rawheight=\"178\" data-original-token=\"v2-dba6c030029cb849ce49163805d5ae48\" class=\"origin_image zh-lightbox-thumb\" width=\"1048\" data-original=\"https://pic3.zhimg.com/v2-dba6c030029cb849ce49163805d5ae48_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"V3LMT37Z\">2.Slots（哈希槽）</p><p data-pid=\"sADAVKnF\">每个IndexFile包含500万个哈希槽位,每个Slot槽位（4字节）存储的是链式索引的第一个索引序号，每个槽位可挂载多个索引单元，形成链式结构。</p><ul><li data-pid=\"kjSWy5Xp\">如果Slot值为0：表示该槽位没有索引链</li><li data-pid=\"icVrGoBp\">如果Slot值为N：表示该槽位对应的索引链头节点索引序号为N</li></ul><p data-pid=\"tHaYDeY0\">3.Indexes（索引单元，20字节/个）</p><p data-pid=\"1WgmjRoW\">每个索引单元包含以下字段：</p><ul><li data-pid=\"43TiNqjx\"><b>keyHash：</b>消息Key的哈希值</li><li data-pid=\"G0V3Q6dx\"><b>phyOffset：</b>消息在CommitLog中的物理偏移量</li><li data-pid=\"3DaOYqiT\"><b>timeDiff：</b>消息存储时间与IndexFile创建时间的差值</li><li data-pid=\"Y91cPLJl\"><b>preIndexNo：</b>同一哈希槽中前一个索引单元的序号</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b5a8f59e06000dcc0bf3d37ce5c9303e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"515\" data-original-token=\"v2-b5a8f59e06000dcc0bf3d37ce5c9303e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-b5a8f59e06000dcc0bf3d37ce5c9303e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"G_-GGm5D\">这个结构和hashmap结构很像，但是支持每个key通过时间排序，就可以进行时间范围的检索。</p><p data-pid=\"rIlYVDOj\">通过定长索引结构和整体设计可以通过key快速定位索引数据，拿到真实数据的物理偏移量。</p><p data-pid=\"6KrD2ahf\">4.索引查询流程</p><p data-pid=\"uQHpPGlc\">消费者通过消息Key查询时，执行以下步骤：</p><p class=\"ztext-empty-paragraph\"><br/></p><ol><li data-pid=\"TqJwAwlb\">计算槽位序号slot序号 = key哈希值 % 500万</li><li data-pid=\"tsqISech\">定位槽位地址slot位置 = 40 + (slot序号 - 1) × 4</li><li data-pid=\"DwEsJTrt\">获取首个索引位置index位置 = 40 + 500万 × 4 + (索引序号 - 1) × 20</li><li data-pid=\"PsJFPEMz\">遍历索引链从槽位指向的索引开始，沿preIndexNo链式查找，匹配目标Key并校验时间范围</li><li data-pid=\"_z2e_hNS\">获取物理偏移量从匹配的索引单元中读取phyOffset，最终从CommitLog获取完整消息内容</li></ol><p data-pid=\"ItRGhZs3\">通过此机制，IndexFile实现了基于Key的高效点查和基于时间范围的快速检索。</p><p data-pid=\"2M9xf6LR\"><b>整体流程</b></p><p data-pid=\"ljOfeye0\">RocketMQ 高性能存储的核心，在于其 <b>“混合存储”</b>架构，这正是一种精妙的<b>存储层读写分离</b>设计。</p><p data-pid=\"5jQdFvv3\">其工作流程可以这样理解：</p><p class=\"ztext-empty-paragraph\"><br/></p><ol><li data-pid=\"sUXTjH2Y\"><b>统一写入，保证极致性能：</b>所有消息顺序追加写入一个统一的 CommitLog 文件。这种单一的顺序写操作，是它能承受海量消息写入的根本。</li><li data-pid=\"C5sF4N_u\"><b>异步构建，优化读取路径：</b>消息一旦持久化至 CommitLog，即视为安全。随后，后台服务线程会异步地构建出专供消费的 ConsumerQueue（逻辑队列索引）和用于查询的 IndexFile。这相当于为数据建立了高效的“目录”。</li><li data-pid=\"WX0H0tsv\"><b>消费消息：</b>消费者实际拉取消息时，是先读取 ConsumerQueue 找到消息在 CommitLog 中的物理位置，再反查 CommitLog 获取完整消息内容。</li><li data-pid=\"oRstw2xp\"><b>可靠的消费机制：</b>基于上述持久化保障，配合消费者自身的偏移量管理及Broker的长轮询机制，共同实现了消息的可靠投递与高效获取。</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dFU66slf\">这种<b>“读写分离”</b>设计的好处在于：将耗时的写操作（顺序写CommitLog）与复杂的读操作（构建索引、分散查询）解耦，让两者可以异步、独立地进行优化，从而在整体上获得更高的吞吐量和更低的延迟。这体现了“各司其职，异步协同”的经典架构思想。</p><p data-pid=\"QhUkO1DS\">下图是官方文档的流程图</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bef4227549b404d2620707453bb30f18_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"783\" data-original-token=\"v2-bef4227549b404d2620707453bb30f18\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic1.zhimg.com/v2-bef4227549b404d2620707453bb30f18_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dRCKxE6G\">写入流程</p><p data-pid=\"5eobYorJ\"><b>1.消息预处理</b></p><p data-pid=\"4SaoS9gg\"><b>基础校验：</b>检查Topic名称、消息体长度等是否合法。</p><p data-pid=\"FF6BEbN4\"><b>生成唯一ID：</b>结合Broker地址和CommitLog偏移量等，生成全局唯一的MsgID。</p><p data-pid=\"uRMaQWpR\"><b>设置系统标志：</b>根据消息属性（如是否事务消息、是否压缩）设置SysFlag。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"g1MEKOPc\"><b>2.CommitLog核心写入</b></p><p data-pid=\"EoNKJz7C\"><b>获取MappedFile：</b>根据当前写入位置，定位或创建对应的1GB内存映射文件。这里采用双重检查锁模式来保证性能和安全。</p><p data-pid=\"EL2JGppg\"><b>串行加锁写入：</b>获取全局或文件级锁（PutMessageLock），确保同一时刻只有一个线程写入文件，严格保证<b>顺序性。</b></p><p data-pid=\"hEL8dFk1\"><b>序列化与追加：</b>将消息按照之前分析的<b>二进制协议，</b>序列化到MappedByteBuffer中，并更新写入指针。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"I4J85Dnz\"><b>3.刷盘（Flush）</b></p><p data-pid=\"WlEeFlvf\"><b>同步刷盘：</b>消息写入内存映射区后，会创建一个GroupCommitRequest并放入请求组。写入线程会等待，直到<b>刷盘线程</b>完成该请求对应文件的物理刷盘后，才返回成功给Producer。<b>数据最可靠，但延迟较高。</b></p><p data-pid=\"S3UiKtUT\"><b>异步刷盘（默认）：</b>消息写入内存映射区后，立即返回成功给Producer。同时唤醒<b>异步刷盘线程，</b>该线程会定时或当PageCache中待刷盘数据积累到一定量时，执行一次批量刷盘。<b>性能高，但有宕机丢数风险。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uk2dajPO\"><b>4.异步索引构建</b></p><p data-pid=\"05Es07Wu\">由独立的ReputMessageService线程处理。它不断检查CommitLog中是否有新消息到达。</p><p data-pid=\"QEQJDGwt\">一旦有<b>新消息被确认持久化</b>（对于同步刷盘是已落盘，对于异步刷盘是已写入映射区），该线程就会读取消息内容。</p><p data-pid=\"ewn23QkY\">随后，它会为这条消息在对应的consumequeue目录下构建<b>消费队列索引</b>（记录CommitLog物理偏移量和消息长度），更新index索引文件。</p><p data-pid=\"66y6lZP0\">消费流程</p><p data-pid=\"0b4t5-uD\"><b>1.启动与负载均衡</b></p><p data-pid=\"kgqVWHKf\">消费者启动后，会向<b>NameServer</b>获取Topic的路由信息（包含哪些队列、分布在哪些Broker上）。</p><p data-pid=\"QyHQCVko\">如果消费者组内有多个实例，会触发<b>队列负载均衡</b>（默认策略是平均分配）。例如，一个Topic有8个队列，两个消费者实例，则通常每个消费者负责消费4个队列。这一步决定了每个消费者“认领”了哪些消息队列。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"78RB1WsQ\"><b>2.拉取消息循环</b></p><p data-pid=\"2l8_Y9u6\">每个消费者实例内部都有一个PullMessageService线程，它循环从一个PullRequest队列中获取任务。</p><p data-pid=\"YYo-7uK1\">PullRequest包含了拉取目标（如Broker-A， 队列3）以及<b>下一次要拉取的位点（offset）。</b></p><p data-pid=\"96Sa7CE-\">消费者向指定的Broker发送网络请求，请求体中就携带了这个offset。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4MEF0R8s\"><b>3.Broker端处理与返回</b></p><p data-pid=\"lJDye6P_\">Broker收到请求后，根据Topic、队列ID和offset，去查询对应的<b>ConsumeQueue索引文件。</b></p><p data-pid=\"UYrAnR-k\">ConsumeQueue中存储的是定长（20字节）的记录，包含消息在<b>CommitLog中的物理偏移量和长度。</b></p><p data-pid=\"xGvsAukY\">Broker根据物理偏移量，从<b>CommitLog文件</b>中读取完整的消息内容，通过网络返回给消费者。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Cq2TcPNu\"><b>4.消息处理与位点提交</b></p><p data-pid=\"wgKaWa8J\">消费者将拉取到的消息提交到内部的<b>消费线程池</b>进行处理，你的业务逻辑就在这里执行。</p><p data-pid=\"nEluPlNk\"><b>消费位点的管理至关重要：</b></p><p data-pid=\"yFugsdMc\"><b>位点存储：</b>位点由OffsetStore管理。在<b>集群模式（CLUSTER）</b> 下，消费位点存储在Broker上；在<b>广播模式（BROADCAST） </b>下，位点存储在本地。</p><p data-pid=\"6Afzv2f_\"><b>位点提交：</b>消费成功后，消费者会<b>异步</b>（默认方式）向Broker提交已消费的位点。Broker将其持久化到store/config/consumerOffset.json文件中。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1Ew65JXx\"><b>5.消息重试与死信</b></p><p data-pid=\"Z5qx6ajH\">如果消息消费<b>失败</b>（抛出异常或超时未返回CONSUME_SUCCESS），RocketMQ会触发<b>重试机制。</b></p><p data-pid=\"SGChbCtH\">对于普通消息，消息会被发回Broker上一个特殊的<b>重试主题</b>（%RETRY%&lt;ConsumerGroup&gt;），延迟一段时间（延迟级别：1s、5s、10s…）后再被原消费者组拉取。</p><p data-pid=\"QGHvp8vl\">如果<b>重试超过最大次数</b>（默认16次），消息会被投递到<b>死信主题</b>（%DLQ%&lt;ConsumerGroup&gt;），等待人工干预。死信队列中的消息不会再被自动消费。</p><h2>一体与分离：Kafka和RocketMQ的核心架构博弈</h2><p data-pid=\"S2ahc_oS\">说起RocketMQ就不能不提起Kafka了，两者都是消息中间件这个领域的霸主，但它们的核心<b>架构设计差异，</b>直接决定了各自不同的性能特性和适用场景，这也是技术选型时必须深入理解的重点。</p><p data-pid=\"gTCVPD9d\"><b>核心架构设计差异</b></p><p data-pid=\"LuhQhE0D\"><b>Kafka：读写一体的“分区日志”模型，</b>Kafka的架构哲学是<b>极简与统一。</b>它将每个主题分区抽象为一个<b>仅追加（append-only）的物理日志文件。</b>生产者和消费者都直接与这个日志文件交互：生产者顺序写入尾部，消费者通过维护偏移量顺序读取。这种设计下，<b>数据的读写路径完全一致，</b>逻辑与物理结构高度统一。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1976gyn3\"><b>RocketMQ：读写分离的“二级制”模型 ，</b>RocketMQ的架构哲学是<b>分工与优化。</b>它采用了<b>物理CommitLog + 逻辑ConsumeQueue的二级结构。</b>所有消息都顺序写入一个统一的<b>CommitLog</b>物理文件，实现磁盘的最高效顺序写。同时，为每个消息队列异步构建一个轻量级的<b>ConsumeQueue</b>索引文件，消费者读取时先查询内存中的ConsumeQueue定位，再到CommitLog中获取消息体。这是一种<b>逻辑与物理分离</b>的设计。</p><p data-pid=\"--Kz6arI\"><b>优劣势对比</b></p><p data-pid=\"d4zPm2gK\">基于上述架构设计根本差异，两者在关键指标上各显优劣：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>维度</td><td>Kafka（读写一体）</td><td>RocketMQ（读写分离）</td></tr><tr><td>核心优势</td><td>极致吞吐与低延迟：读写同路径，数据写入后立即可读，端到端延迟极低。架构简单：无中间状态，副本同步、故障恢复逻辑清晰。</td><td>高并发读与丰富功能：索引与数据分离，支持海量消费者并发读。业务友好：原生支持事务消息、定时/延时消息、消息轨迹查询。</td></tr><tr><td>存储效率</td><td>磁盘顺序IO最大化：生产和消费都是严格顺序IO，尤其适合机械硬盘。</td><td>写性能极致化：所有消息顺序写CommitLog，但存在“写放大”，一条消息需写多次（1次CommitLog + N次ConsumeQueue）。</td></tr><tr><td>读性能</td><td>消费者落后时可能触发随机读：若消费者要读取非尾部历史数据，可能需磁盘寻道。但现代SSD和预读机制已大大缓解此问题。</td><td>读路径优化：ConsumeQueue小而固定，可全量缓存至内存，读操作变为“内存寻址 + CommitLog顺序/随机读”。在PageCache命中率高时表现优异。</td></tr><tr><td>扩展性与成本</td><td>文件句柄（inode）开销大：每个分区都是独立目录和文件，海量分区时运维成本高。</td><td>存储成本与效率更优：多Topic共享CommitLog，文件数少，特别适合中小消息体、多Topic的场景。</td></tr><tr><td>典型场景</td><td>日志流、指标监控、实时流处理：作为大数据管道，与Flink/Spark生态无缝集成。</td><td>电商交易、金融业务、异步解耦：需要严格顺序、事务保障、业务查询的在线业务场景。</td></tr></tbody></table><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YEqgmPnO\">总而言之，Kafka像一个设计精良的<b>高速公路系统，</b>核心目标是让数据车辆（消息）能够高吞吐、低延迟地持续流动，并方便地引向各个处理工厂（流计算）。而RocketMQ则像一个高度可靠的<b>快递网络，</b>不仅确保包裹（消息）准确送达，还提供预约配送（定时）、签收确认（事务）、异常重投（重试）等一系列服务于业务逻辑的增值功能。</p><h2>RocketMQ对于随机读取的优化</h2><p data-pid=\"VlhFKhkR\">RocketMQ在消费时候的流程</p><div class=\"highlight\"><pre><code class=\"language-text\">消费者请求 → ConsumeQueue（内存/顺序）获取commitlog上的物理偏移量 → 根据物理偏移量定位CommitLog（磁盘/随机） → 返回消息</code></pre></div><p data-pid=\"PDsmIZy4\">从ConsumeQueue获取到消息在commitlog中的偏移量的时候，回查时候可能产生随机IO</p><p class=\"ztext-empty-paragraph\"><br/></p><ol><li data-pid=\"9O3tYFAv\"><b>第一次随机IO：</b>根据ConsumeQueue中的物理偏移量，在CommitLog中定位消息位置</li><li data-pid=\"OLYrEFUr\"><b>可能的连续随机IO：</b>如果一次拉取多条消息，这些消息在CommitLog中可能物理不连续</li></ol><p data-pid=\"0oS73i4g\">为了保证RocketMQ的高性能，采用一些优化措施，尽量避免随机IO</p><p data-pid=\"HxSRu5C9\"><b>1. ConsumeQueue的内存映射优化</b></p><p data-pid=\"lhOpmPts\">实际上，RocketMQ将ConsumeQueue映射到内存,每个ConsumeQueue约5.72MB，可完全放入PageCache,读索引操作几乎是内存操作。</p><div class=\"highlight\"><pre><code class=\"language-text\">public class ConsumeQueue {\n    private MappedFile mappedFile;  // 内存映射文件\n    // 20字节每条：8(offset) + 4(size) + 8(tagHashCode)\n}</code></pre></div><p data-pid=\"jfgEXaQs\"><b>2. PageCache的充分利用</b></p><p data-pid=\"SHOlyPWh\">Linux PageCache工作流程： </p><ol><li data-pid=\"Ac3Wgrni\">消息写入CommitLog → 进入PageCache</li><li data-pid=\"7HVJS_Qx\">消费者读取 → 优先从PageCache获取</li><li data-pid=\"yahBusip\">如果PageCache命中：内存速度（≈100ns）</li><li data-pid=\"U1bP1reZ\">如果PageCache未命中：磁盘随机读取（≈10ms）</li></ol><p data-pid=\"ROC0Fcwq\"><b>3. 批量读取优化</b></p><div class=\"highlight\"><pre><code class=\"language-text\">// DefaultMessageStore.java\npublic GetMessageResult getMessage(...) {\n    // 一次读取多条消息（默认最多32条）\n    // 即使这些消息物理不连续，通过批量读取减少IO次数\n    for (int i = 0; i &lt; maxMsgNums; i++) {\n        // 使用同一个文件channel批量读取\n        readMessage(ctx, msgId, consumerGroup);\n    }\n}</code></pre></div><p data-pid=\"-spdXUlF\"><b>4. 读取顺序性的保持</b></p><p data-pid=\"SgaOHV5J\">虽然CommitLog中不同Topic的消息是随机存放的，但同一个Queue的消息在CommitLog中是基本连续的：</p><div class=\"highlight\"><pre><code class=\"language-text\">Queue1: | Msg1 | Msg3 | Msg5 | ... | 在ConsumeQueue中连续\n        ↓      ↓      ↓\nCommitLog: | Msg1 | Msg2(T2) | Msg3 | Msg4(T3) | Msg5 |\n          ↑_________________________↑\n          物理上相对连续，减少磁头寻道</code></pre></div><h2>高可用设计：双轨并行的可靠性架构</h2><p data-pid=\"6qIVgOcw\"><b>主从架构（Master-Slave）</b></p><p data-pid=\"9YhRKQ7l\"><b>经典主从模式：</b>RocketMQ早期采用Master-Slave架构，Master处理所有读写请求，Slave仅作为热备份。这种模式下，<b>故障切换依赖人工干预或半自动脚本，</b>恢复时间通常在分钟级别。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6sPHDtdW\"><b>Dledger高可用集群：</b>RocketMQ 4.5引入的Dledger基于Raft协议实现<b>真正的主从自动切换。</b>当Master故障时，集群能在秒级（通常2-10秒）内自动选举新Leader，期间消息仍可写入（写入请求会阻塞至新Leader选出）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MBpKl6oo\"><b>多副本机制：</b>现代部署中，建议采用<b>2主2从或3主3从</b>架构。例如在阿里云上，每个Broker组包含1个Master和2个Slave，形成<b>跨可用区的三副本，</b>单机房故障不影响服务可用性。</p><p data-pid=\"A1qp-XfF\"><b>同步/异步复制</b></p><p data-pid=\"iEgNIw-R\">同步复制保证强一致（消息不丢失），异步复制追求更高性能。</p><div class=\"highlight\"><pre><code class=\"language-text\">// Broker配置示例\nbrokerRole = SYNC_MASTER\n// 生产者发送消息后，必须等待至少一个Slave确认\n// 确保即使Master宕机，消息也不会丢失</code></pre></div><ul><li data-pid=\"VFq9pFHD\">强一致性保证：消息写入Master后，同步复制到Slave才返回成功</li><li data-pid=\"JsgHddP1\">性能代价：延迟增加约30-50%，TPS下降约20-40%</li><li data-pid=\"-aUtIFnA\">适用场景：金融交易、资金变动等对数据一致性要求极高的业务</li></ul><p data-pid=\"OQHx3Rpj\"><b>同步/异步刷盘</b></p><p data-pid=\"kZiohxyR\">同步刷盘保证消息持久化不丢失，异步刷盘提升吞吐。</p><div class=\"highlight\"><pre><code class=\"language-text\">brokerRole = ASYNC_MASTER\n// 消息写入Master即返回成功，Slave异步复制\n// 存在极短时间的数据丢失风险</code></pre></div><ul><li data-pid=\"B20I2MCH\"><b>高性能模式：</b>延迟降低，吞吐量接近单节点性能</li><li data-pid=\"nKBcJJup\"><b>风险窗口：</b>Master宕机且数据未同步时，最近几秒消息可能丢失</li><li data-pid=\"vO9ge0WE\"><b>适用场景：</b>日志收集、监控数据、可容忍微量丢失的业务消息</li></ul><h2>刷盘策略的工程优化</h2><p data-pid=\"trxFLOxW\"><b>同步刷盘（SYNC_FLUSH）</b></p><div class=\"highlight\"><pre><code class=\"language-text\">生产者 → Broker内存 → 磁盘强制刷盘 → 返回成功</code></pre></div><ul><li data-pid=\"nBcH-dZk\"><b>零数据丢失：</b>即使机器掉电，消息也已持久化到磁盘</li><li data-pid=\"B4rJTMql\"><b>性能瓶颈：</b>每次写入都触发磁盘IO，机械硬盘下TPS通常&lt;1000</li><li data-pid=\"RI6Hsjyj\"><b>优化手段：</b>使用SSD硬盘可大幅提升性能</li></ul><p data-pid=\"aohp9T_0\"><b>异步刷盘（ASYNC_FLUSH）</b></p><div class=\"highlight\"><pre><code class=\"language-text\">生产者 → Broker内存 → 立即返回成功 → 异步批量刷盘</code></pre></div><ul><li data-pid=\"O3OPyRe3\"><b>高性能选择：</b>依赖PageCache，SSD下TPS可达数万至数十万</li><li data-pid=\"A8lvYh6A\"><b>可靠性依赖：</b>依赖操作系统的刷盘机制（通常5秒刷盘一次）</li><li data-pid=\"PpU6rDmt\"><b>配置调优：</b></li></ul><div class=\"highlight\"><pre><code class=\"language-text\"># 调整刷盘参数\nflushCommitLogLeastPages = 4    # 至少4页（16KB）才刷盘\nflushCommitLogThoroughInterval = 10000  # 10秒强制刷盘一次</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><h2>四、Producer与Consumer：高效的生产与消费模型</h2><h2>Producer</h2><p data-pid=\"rutm6LEa\"><b>消息路由策略：</b></p><div class=\"highlight\"><pre><code class=\"language-text\">// 内置多种队列选择算法\nDefaultMQProducer producer = new DefaultMQProducer(&#34;ProducerGroup&#34;);\n// 1. 轮询（默认）：均匀分布到所有队列\n// 2. 哈希：相同Key的消息路由到同一队列，保证局部顺序\n// 3. 机房就近：优先选择同机房的Broker\nproducer.send(msg, new MessageQueueSelector() {\n    @Override\n    public MessageQueue select(List&lt;MessageQueue&gt; mqs, Message msg, Object arg) {\n        // 自定义路由逻辑\n        return mqs.get(arg.hashCode() % mqs.size());\n    }\n});</code></pre></div><p data-pid=\"hPH8ANrm\"><b>发送模式对比：</b></p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>模式</td><td>特点</td><td>性能</td><td>适用场景</td></tr><tr><td>同步发送</td><td>阻塞等待Broker响应</td><td>TPS约5000-20000</td><td>重要业务消息，需立即知道发送结果</td></tr><tr><td>异步发送</td><td>回调通知结果</td><td>TPS可达50000+</td><td>高并发场景，如日志、监控数据</td></tr><tr><td>单向发送</td><td>发送后不等待</td><td>TPS最高（100000+）</td><td>可容忍少量丢失的非关键数据</td></tr></tbody></table><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yt7z_-tu\"><b>失败重试与熔断：</b></p><ul><li data-pid=\"G6HTAHcp\"><b>智能重试：</b>发送失败时自动重试（默认2次），可配置退避策略</li><li data-pid=\"-gFo10UN\"><b>故障规避：</b>自动检测Broker可用性，故障期间路由到健康节点</li><li data-pid=\"LkjR2ggF\"><b>慢请求熔断：</b>统计发送耗时，自动隔离响应慢的Broker</li></ul><h2>Consumer</h2><p data-pid=\"cs8sYQ47\"><b>负载均衡策略：</b></p><div class=\"highlight\"><pre><code class=\"language-text\">// 集群模式：同一ConsumerGroup内消费者均分队列\nconsumer.setMessageModel(MessageModel.CLUSTERING);\n// 广播模式：每个消费者消费全量队列\nconsumer.setMessageModel(MessageModel.BROADCASTING);</code></pre></div><p data-pid=\"MWQvofQF\"><b>消费进度管理：</b></p><p data-pid=\"3xvuCG1u\"><b>Broker托管：</b>默认方式，消费进度存储在Broker</p><p data-pid=\"tsqJ6XsE\"><b>本地维护：</b>某些场景下可自主管理offset（如批量处理）</p><p data-pid=\"F7aJ995W\"><b>重置策略：</b></p><div class=\"highlight\"><pre><code class=\"language-text\">// 支持多种消费起点\nconsumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_LAST_OFFSET);  // 从最后\nconsumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_FIRST_OFFSET); // 从头\nconsumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_TIMESTAMP);    // 从时间点</code></pre></div><p data-pid=\"GhvGpipx\"><b>并发控制优化：</b></p><div class=\"highlight\"><pre><code class=\"language-text\">// 关键并发参数\nconsumer.setConsumeThreadMin(20);     // 最小消费线程数\nconsumer.setConsumeThreadMax(64);     // 最大消费线程数\nconsumer.setPullBatchSize(32);        // 每次拉取消息数\nconsumer.setConsumeMessageBatchMaxSize(1); // 批量消费大小\n// 流控机制\nconsumer.setPullThresholdForQueue(1000);  // 队列堆积阈值\nconsumer.setPullInterval(0);              // 拉取间隔（0为长轮询）</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><h2>五、核心流程与特性背后的架构支撑</h2><p data-pid=\"cebE0pjH\">1<b>.顺序消息如何保证？</b></p><p data-pid=\"VgzCqO-4\"><b>全局顺序：</b>单Topic单队列（牺牲并发）。</p><p data-pid=\"h0A_8c-4\"><b>分区顺序：</b>通过<b>MessageQueue选择器</b>确保同一业务键（如订单ID）的消息发往同一队列，Consumer端按队列顺序消费。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3CQYYZPD\"><b>2.事务消息的两阶段提交</b></p><p data-pid=\"00WRZaN_\"><b>流程详解：</b>Half Message -&gt; 执行本地事务 -&gt; Commit/Rollback。</p><p data-pid=\"ioK3Ag2T\"><b>架构支撑：</b>Op消息回查机制，解决分布式事务的最终一致性，是架构设计中“状态可回溯”思想的体现。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jbgL3UTE\"><b>3.延时消息的实现奥秘</b></p><p data-pid=\"1X59dfZg\"><b>并非真正延迟投递：</b>为不同延迟级别预设<b>独立的SCHEDULE_TOPIC，</b>定时任务扫描到期后投递至真实Topic。</p><p data-pid=\"ixCvGliF\"><b>设计权衡：</b>以存储和计算换取功能的灵活与可靠。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>六、其他性能优化关键技术点</h2><ol><li data-pid=\"W6WoBaLM\"><b>零拷贝（Zero-copy）：</b>通过sendfile或mmap+write方式，减少内核态与用户态间数据拷贝，大幅提升网络发送与文件读写效率。</li><li data-pid=\"n3PrnNoA\"><b>堆外内存与内存池：</b>避免JVM GC对大数据块处理的影响，实现高效的内存管理。</li><li data-pid=\"xJQqy_Eo\"><b>文件预热：</b>启动时将存储文件映射到内存并写入“假数据”，避免运行时缺页中断。</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><h2>七、总结：RocketMQ架构设计的启示</h2><p data-pid=\"hHhmJvUj\">RocketMQ的架构设计，尤其是其在简洁性、高性能和云原生演进方面的平衡，为构建现代分布式系统提供了许多宝贵启示。</p><p class=\"ztext-empty-paragraph\"><br/></p><ol><li data-pid=\"m-j3koaO\"><b>在简单与完备间权衡：</b>RocketMQ没有采用强一致性的ZooKeeper，而是自研了极其简单的NameServer。这说明在非核心路径上，牺牲一定的功能完备性来换取简单性和高可用性，可能也是个不错的选择。</li><li data-pid=\"teTbXJVe\"><b>以写定存储，以读优查询：</b>其存储架构是典型的写优化设计。所有消息顺序追加写入，保证了最高的写入性能。而针对消费和查询这两种主要的“读”场景，则分别通过异步构建索引数据结构（ConsumeQueue和IndexFile）来优化。</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><h2>八、参考资料</h2><ul><li data-pid=\"2_TjhVed\">[RocketMQ官方文档](为什么选择RocketMQ | RocketMQ <a href=\"https://link.zhihu.com/?target=https%3A//rocketmq.apache.org/zh/docs/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">rocketmq.apache.org/zh/</span><span class=\"invisible\">docs/</span><span class=\"ellipsis\"></span></a>)</li><li data-pid=\"q8o-Wj3M\">[RocketMQ中文社区](Apache RocketMQ 原理和架构 <a href=\"https://link.zhihu.com/?target=https%3A//rocketmq-learning.com/course/baseLearn/rocketmq_learning-framework/%3Fspm%3D5176.29160081.0.0.a2807833VzCxtS%26source%3Dhome\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">rocketmq-learning.com/c</span><span class=\"invisible\">ourse/baseLearn/rocketmq_learning-framework/?spm=5176.29160081.0.0.a2807833VzCxtS&amp;source=home</span><span class=\"ellipsis\"></span></a>)</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><h2>往期回顾</h2><p data-pid=\"dN2sPhSc\">1.PAG在得物社区S级活动的落地</p><p data-pid=\"3Wbc_t0E\">2.Ant Design 6.0 尝鲜：上手现代化组件开发｜得物技术 </p><p data-pid=\"DYrZGN5q\">3.Java 设计模式：原理、框架应用与实战全解析｜得物技术</p><p data-pid=\"YcBz7oUB\">4.Go语言在高并发高可用系统中的实践与解决方案｜得物技术</p><p data-pid=\"HnCEd0mp\">5.从0到1搭建一个智能分析OBS埋点数据的AI Agent｜得物技术</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>文 /磊子</h2><p data-pid=\"KvBKwf47\">关注得物技术，每周更新技术干货</p><p data-pid=\"VILlTwrz\">要是觉得文章对你有帮助的话，欢迎评论转发点赞～</p><p data-pid=\"v07Dwdt_\">未经得物技术许可严禁转载，否则依法追究法律责任。</p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-3aa0977c3931f3e6a39b5295a939aab3.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-bef4227549b404d2620707453bb30f18_720w.jpg?source=b6762063"
+        ],
+        "article_type": "normal",
+        "url": "https://api.zhihu.com/articles/1989289917403112040",
+        "author": {
+          "name": "SmartCode得物技术",
+          "gender": -1,
+          "id": "a7c46ab6081e049e39ee159917831162",
+          "url": "https://api.zhihu.com/people/a7c46ab6081e049e39ee159917831162",
+          "user_type": "organization",
+          "url_token": "smartcodede-wu-ji-zhu",
+          "is_following": false,
+          "is_followed": false,
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-a631530c92f18fd1b095733b744f22a1_l.jpg?source=b6762063",
+          "is_org": true,
+          "followers_count": 11179
+        },
+        "image_url": "https://picx.zhimg.com/v2-3aa0977c3931f3e6a39b5295a939aab3.jpg?source=7e7ef6e2&needBackground=1",
+        "excerpt_new": "一、前言在分布式系统架构中，消息队列如同畅通的“信息神经网络”，承担着解耦、削峰与异步通信的核心使命。在众多成熟方案中，RocketMQ凭借其阿里巴巴与Apache双重基因，以卓越的金融级可靠性、万亿级消息堆积能力和灵活的分布式特性脱颖而出，成为构建高可用、高性能数据流转枢纽的关键技术选型。本文将深入解析RocketMQ的核心架构、设计哲学与实践要义。 二、RocketMQ架构总览官网图片   RocketMQ架构上主要分为四部分，如上…",
+        "favorite_count": 70,
+        "visited_count": 559,
+        "vote_next_step": "vote",
+        "title": "RocketMQ高性能揭秘：承载万亿级流量的架构奥秘｜得物技术",
+        "navigator_vote": false,
+        "id": "1989289917403112040",
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "preview_text": "",
+        "voting": 0,
+        "is_navigator": false,
+        "is_labeled": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1989289917403112040}",
+      "attached_info": "CtEKCL/O9O3Clq+0pgEQBxoJMjY4MzYyODAxIM6fzsoGKA8wAEBmSkkKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSIGRvY190eXBlOiBBcnRpY2xlCmlkOiAyNjczOTM3NzYKGAAgADoAYiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXITMTk4OTI4OTkxNzQwMzExMjA0MIIBX2h0dHBzOi8vcGljeC56aGltZy5jb20vdjItM2FhMDk3N2MzOTMxZjNlNmEzOWI1Mjk1YTkzOWFhYjMuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xqgEJcmVjb21tZW5kwgEgYTdjNDZhYjYwODFlMDQ5ZTM5ZWUxNTk5MTc4MzExNjLyAQoIDBIGTm9ybWFs8gEoCAoSJDhmMWZkMzkxLTJlNDktNGNmZS04OTFmLWRkODQxN2MwMjA3NPIBBggLEgIxOIICAIgCzOOTm7kzkgIgYTdjNDZhYjYwODFlMDQ5ZTM5ZWUxNTk5MTc4MzExNjKaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEXoAgT6AgtOT1JNQUxfRkxPV4oDIDJiZDk4MDI3NTZhODRmZWE4MDdlM2RmNTY1NTA1OWU3mgMNCgJ2MhAAGgVvdGhlcqgDrwTYAwDqAxl0ZXh0QWxsU2l0ZUFjdGlvbkl0ZW1DRlYy+gOkBBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEOgHGOADIiN2Mi1iZTYyMGQyZmQ5ODViZmE4MzUwMjU0YWQ2ZDA1ZDM5YzotCAIQnwQYwAUiI3YyLTQ5NTNlYTBhMjRhMjk2YWIzYTFiOTRiMjRhNzNjMDljOi0IAxD6Bxi/ASIjdjItOGNkMDQ1YjdjNjMyOTI4MzM0MGRlMTg3MWJjMTBkNDI6LQgCEOgHGPEBIiN2Mi01NzY5N2Y1YWExMzc2Y2E1MDY2MThmYzRkYjgyYjhkMTotCAIQ6AcYhwIiI3YyLTM5NDAxZDVlOTdlZWU3NzAwMGM2ZDE5ZDgyZDE1YWMwOi0IAhCyChi6BCIjdjItMGMzYjQ5Y2I1MzdlMzZhNzk1NGNmZDcxMTYwNDFiYTY6LQgCEPgJGJwCIiN2Mi0yZjIzODRkYjY1NDZjZDg3MzM4N2E3YmM1NzUxNDUwZDotCAIQmAgYsgEiI3YyLWRiYTZjMDMwMDI5Y2I4NDljZTQ5MTYzODA1ZDVhZTQ4Oi0IBBC4CBiDBCIjdjItYjVhOGY1OWUwNjAwMGRjYzBiZjNkMzdjZTVjOTMwM2U6LQgDEOgHGI8GIiN2Mi1iZWY0MjI3NTQ5YjQwNGQyNjIwNzA3NDUzYmIzMGYxODotCAMQhAcY/wIiI3YyLTNhYTA5NzdjMzkzMWYzZTZhMzliNTI5NWE5MzlhYWIzgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAvyx1P4EFAAAAAAAAAACJBY9QALj+h7I/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRKQBgCgBmeoBgGSAi4KCTI2ODM2MjgwMRITMTk4OTI4OTkxNzQwMzExMjA0MBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "103_1767704425.433",
+      "type": "feed",
+      "offset": 103,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704425,
+      "updated_time": 1767704425,
+      "target": {
+        "favorite_count": 1362,
+        "segment_infos": [
+          {
+            "pid": "xK0MBrhz",
+            "text": "有的人可能说周星驰很擅长人情世故啊，他那是练出来的。很明显只要有的选，他根本完全不想和任何人打交道。不要说什么人情世故大家都是被逼的，人是社会化动物，绝大部分人本身多少都是享受社交的。但周星驰是完全的不喜欢。",
+            "marks": [
+              {
+                "start_index": 75,
+                "end_index": 104,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991144188557955323"
+                  ],
+                  "is_like": false,
+                  "like_count": 27,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "iEASN_an",
+            "text": "周星驰叫贤叔的时候，心里绝对是——傻逼东西，搞上下等级这一套，等我混上去了狠狠打你们的脸。",
+            "marks": [
+              {
+                "start_index": 14,
+                "end_index": 45,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991184813269475499"
+                  ],
+                  "is_like": false,
+                  "like_count": 19,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "b-f8oGLA",
+            "text": "我并不觉得李修贤对不起周星驰，包括其他很多人，我觉得他们对周星驰都算对得起的。重点在于周星驰对于社会，和社会中的人的态度。他就是极端的恨，他就是鄙视，他怨这个世界为什么不能靠实力说话，非得靠酒桌上喝酒吃饭拉关系才能走到他想要的位置，直到三十岁才成名，而之前不得不受尽屈辱。",
+            "marks": [
+              {
+                "start_index": 39,
+                "end_index": 136,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991244885630682130"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "0UmS-w2T",
+            "text": "周星驰的社交能力不差，但他是完全当做工具来使用，甚至可以说，他越擅长社交，就越恨这个必须让他擅长社交的社会。更准确的说，他极其厌恶社会化的人，也就是典型“正常人”“会来事儿”“会交往”的人。其实擅长人情世故的人未必是坏人，但一定有算计的一面，但周星驰不想理解这么多。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 133,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991157525236705002"
+                  ],
+                  "is_like": false,
+                  "like_count": 39,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "CjmeVBU3",
+            "text": "所以偶尔看到周星驰善意和温暖的时刻，都是他面对非社会化的人，比如和小孩子在一起，为啥我知道这些呢，因为我就是阿斯伯格。",
+            "marks": [
+              {
+                "start_index": 51,
+                "end_index": 58,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991175678893245808"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "is_copyable": true,
+        "preview_type": "default",
+        "vote_next_step": "vote",
+        "type": "answer",
+        "updated_time": 1767449207,
+        "excerpt": "因为周星驰深刻的恨着这个社会。 国内对精神卫生方面了解太少了，周星驰是非常明显和典型的高功能自闭症（阿斯伯格），这种人的核心特征就是有社交障碍，他们信奉直接了当的办事做事，对人情世故既不擅长，也嗤之以鼻。 有的人可能说周星驰很擅长人情世故啊，他那是练出来的。很明显只要有的选，他根本完全不想和任何人打交道。不要说什么人情世故大家都是被逼的，人是社会化动物，绝大部分人本身多少都是享受社交的。但周星驰是…",
+        "created_time": 1767448740,
+        "is_labeled": false,
+        "thanks_count": 172,
+        "comment_count": 344,
+        "content": "<p data-pid=\"bHs42ZnR\">因为周星驰深刻的恨着这个社会。</p><p data-pid=\"M0Sa7oN9\">国内对精神卫生方面了解太少了，周星驰是非常明显和典型的高功能自闭症（阿斯伯格），这种人的核心特征就是有社交障碍，他们信奉直接了当的办事做事，对人情世故既不擅长，也嗤之以鼻。</p><p data-pid=\"xK0MBrhz\">有的人可能说周星驰很擅长人情世故啊，他那是练出来的。很明显只要有的选，他根本完全不想和任何人打交道。不要说什么人情世故大家都是被逼的，人是社会化动物，绝大部分人本身多少都是享受社交的。但周星驰是完全的不喜欢。</p><p data-pid=\"iSuUsE5y\">你再回头看周星驰“辜负”，恶评周星驰的都是哪类人——几乎无一例外都是那种长袖善舞，超级爱社交的人——向太，王晶，李修贤，陈百祥。其中李修贤的例子最明显了，他说自己最早被说叔之后被说哥最后被说小李，从李那面看是后生仔白眼狼，但是换个角度看呢？这不就是典型的老登酒桌文化。</p><p data-pid=\"iEASN_an\">周星驰叫贤叔的时候，心里绝对是——傻逼东西，搞上下等级这一套，等我混上去了狠狠打你们的脸。</p><p data-pid=\"b-f8oGLA\">我并不觉得李修贤对不起周星驰，包括其他很多人，我觉得他们对周星驰都算对得起的。重点在于周星驰对于社会，和社会中的人的态度。他就是极端的恨，他就是鄙视，他怨这个世界为什么不能靠实力说话，非得靠酒桌上喝酒吃饭拉关系才能走到他想要的位置，直到三十岁才成名，而之前不得不受尽屈辱。</p><p data-pid=\"0UmS-w2T\">周星驰的社交能力不差，但他是完全当做工具来使用，甚至可以说，他越擅长社交，就越恨这个必须让他擅长社交的社会。更准确的说，他极其厌恶社会化的人，也就是典型“正常人”“会来事儿”“会交往”的人。其实擅长人情世故的人未必是坏人，但一定有算计的一面，但周星驰不想理解这么多。</p><p data-pid=\"TeK-1jhE\">他一旦察觉到对方有算计感，他就会把对方打入“大傻逼”“大恶人”的那波，做事毫不留情。甚至我觉得，他心里带着一丝惩罚和报复的快感。</p><p data-pid=\"CjmeVBU3\">所以偶尔看到周星驰善意和温暖的时刻，都是他面对非社会化的人，比如和小孩子在一起，为啥我知道这些呢，因为我就是阿斯伯格。</p>",
+        "answer_type": "normal",
+        "id": "1990904997949491090",
+        "author": {
+          "url_token": "yi-xiang-yi",
+          "headline": "微博：院艹，豆瓣也叫掉线。",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "cd035f59b7c6a7ea3bef669272145c57",
+          "url": "https://api.zhihu.com/people/cd035f59b7c6a7ea3bef669272145c57",
+          "user_type": "people",
+          "followers_count": 13076,
+          "name": "掉线",
+          "avatar_url": "https://picx.zhimg.com/50/v2-cd62a937012a7e5b6f58b446dca7eae9_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "visited_count": 151881,
+        "voteup_count": 2317,
+        "excerpt_new": "因为周星驰深刻的恨着这个社会。 国内对精神卫生方面了解太少了，周星驰是非常明显和典型的高功能自闭症（阿斯伯格），这种人的核心特征就是有社交障碍，他们信奉直接了当的办事做事，对人情世故既不擅长，也嗤之以鼻。 有的人可能说周星驰很擅长人情世故啊，他那是练出来的。很明显只要有的选，他根本完全不想和任何人打交道。不要说什么人情世故大家都是被逼的，人是社会化动物，绝大部分人本身多少都是享受社交的。但周星驰是…",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "url": "https://api.zhihu.com/answers/1990904997949491090",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "question": {
+          "answer_count": 0,
+          "detail": "",
+          "follower_count": 0,
+          "type": "question",
+          "author": {
+            "url": "https://api.zhihu.com/people/d3ef3c9e9ff498356e1ede0b14ff1ae0",
+            "name": "NalandaSalome",
+            "avatar_url": "https://picx.zhimg.com/50/v2-80245503a11163e9ada57f41a14651c0_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_followed": false,
+            "id": "d3ef3c9e9ff498356e1ede0b14ff1ae0",
+            "user_type": "people",
+            "url_token": "nalandasalome",
+            "headline": "",
+            "is_org": false,
+            "followers_count": 3,
+            "is_following": false
+          },
+          "created": 1490990209,
+          "bound_topic_ids": [
+            11874,
+            89051,
+            166374
+          ],
+          "is_following": false,
+          "id": "57899715",
+          "url": "https://api.zhihu.com/questions/57899715",
+          "title": "为什么说周星驰的性格极难相处？",
+          "question_type": "normal",
+          "comment_count": 22,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990904997949491090}",
+      "attached_info": "CqsGCL/O9O3Clq+0pgEQBBoJNzYzODUwMDk1IKTB5MoGKI0SMNgCQGdKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifVoIMTUzODA4ODBiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTkwOTA0OTk3OTQ5NDkxMDkwigEINTc4OTk3MTWqAQlyZWNvbW1lbmTCASBjZDAzNWY1OWI3YzZhN2VhM2JlZjY2OTI3MjE0NWM1N/IBCggMEgZOb3JtYWzyASgIChIkNDg4YzViMmEtMGIyYi00NTY4LWFmNTUtNTc3OTc0ZGM5NzQy8gEGCAsSAjE4ggIAiALM45ObuTOSAiBjZDAzNWY1OWI3YzZhN2VhM2JlZjY2OTI3MjE0NWM1N5oCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgL6AgtOT1JNQUxfRkxPV4oDIDJiZDk4MDI3NTZhODRmZWE4MDdlM2RmNTY1NTA1OWU3mgMNCgJ2MhAAGgVvdGhlcqgDyaIJ2AMA6gMZZmVlZHJlV2FybVN1Y2Nlc3NSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAACUopM/gQUAAAAAAAAAAIkFj1AAuP6Hsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEpAGAKAGaKgGA5ICLgoJNzYzODUwMDk1EhMxOTkwOTA0OTk3OTQ5NDkxMDkwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "104_1767704425.64",
+      "type": "feed",
+      "offset": 104,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704425,
+      "updated_time": 1767704425,
+      "target": {
+        "is_navigator": false,
+        "thumbnail": "https://picx.zhimg.com/50/v2-c158f058dab51589a839fc7bde645f23_720w.jpg?source=b6762063",
+        "voteup_count": 4,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "updated_time": 1765289187,
+        "author": {
+          "id": "010d26d363afc0fcb37a26a87725b787",
+          "url": "https://api.zhihu.com/people/010d26d363afc0fcb37a26a87725b787",
+          "user_type": "people",
+          "url_token": "tan-a-wen-92",
+          "headline": "用绘画讲故事，用故事讲绘画。",
+          "is_following": false,
+          "name": "彩色的煤球",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-8f9d8db79a0ae547f43024203c8c9c07_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 741,
+          "is_followed": false
+        },
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-c158f058dab51589a839fc7bde645f23_720w.jpg?source=b6762063"
+        ],
+        "id": "1981847176905786880",
+        "thanks_count": 4,
+        "is_copyable": false,
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"tvtpufbF\">古代中国广泛使用纸糊窗户，主要源于材料特性、经济成本、气候适应与文化审美的多重结合，是农耕文明背景下一种高度实用且富有智慧的选择。</p><p data-pid=\"eQkfV3O9\">中国虽在战国时期已能制造玻璃“琉璃”，但长期属于奢侈品，透明度低且易碎，无法大规模用于民居。</p><p data-pid=\"m3pHqOCd\">西方玻璃窗技术在明清时期才逐步传入，但价格昂贵，仅用于皇宫、教堂或富商宅邸。</p><p data-pid=\"zKbCGOHp\">汉代以后，造纸技术不断发展，唐宋时期纸张产量大增，成本降低。造纸原料，例如树皮、竹麻等容易得到，使纸张成为平民可承担的建材。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9d916e7626d1c77a3e444dcc632ee613_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1356\" data-size=\"normal\" data-original-token=\"v2-c158f058dab51589a839fc7bde645f23\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-9d916e7626d1c77a3e444dcc632ee613_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e40e46b28fece6f95ae99e341789d3f7_1440w.jpg\" data-rawwidth=\"852\" data-rawheight=\"552\" data-size=\"normal\" data-original-token=\"v2-6ad24056074667dd7a626fab3a9350cf\" class=\"origin_image zh-lightbox-thumb\" width=\"852\" data-original=\"https://picx.zhimg.com/v2-e40e46b28fece6f95ae99e341789d3f7_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c0fb23977585e7d78b89b703badb1dca_1440w.jpg\" data-rawwidth=\"581\" data-rawheight=\"455\" data-size=\"normal\" data-original-token=\"v2-d113a37b4eaf41d03aa31eb26b1ec9e8\" class=\"origin_image zh-lightbox-thumb\" width=\"581\" data-original=\"https://pic3.zhimg.com/v2-c0fb23977585e7d78b89b703badb1dca_r.jpg\"/></figure><p data-pid=\"yD67Slf0\">传统窗户纸多用楮树皮纸或竹纸，经桐油、米浆等浸涂处理，增强韧性、防水性和透光性。糊纸后的木格窗既能引入柔和的自然光，又可阻挡大部分寒风，可以适应中国大部分地区的温带气候。</p><p data-pid=\"FeIkuXNs\">纸张的微孔隙允许空气缓慢流通，避免室内完全密闭，有助于调节湿度。夏季可局部撕换或搭配纱帘，增加通风。</p><p data-pid=\"EbnOYoX_\">窗户纸破损后，重新裱糊成本极低，普通家庭可自行修补，符合小农经济的节俭原则。</p><p data-pid=\"k5wIFwkh\">纸窗并非“落后”的象征，而是古代中国在特定技术条件下，将自然资源、实用需求与文化审美巧妙结合的产物。</p><p data-pid=\"aUihYegE\">它的存在反映了农耕社会的生活智慧，用最经济的材料，解决采光、保温、通风的基本需求，同时赋予生活空间以诗意。</p><p data-pid=\"U-n1vMIZ\">直至玻璃工业兴起前，纸窗在东亚地区持续了千年的生命力，至今仍在传统建筑与文化记忆中占有一席之地。</p><p></p><p></p>",
+        "vote_next_step": "vote",
+        "created_time": 1765289187,
+        "excerpt_new": "古代中国广泛使用纸糊窗户，主要源于材料特性、经济成本、气候适应与文化审美的多重结合，是农耕文明背景下一种高度实用且富有智慧的选择。 中国虽在战国时期已能制造玻璃“琉璃”，但长期属于奢侈品，透明度低且易碎，无法大规模用于民居。 西方玻璃窗技术在明清时期才逐步传入，但价格昂贵，仅用于皇宫、教堂或富商宅邸。 汉代以后，造纸技术不断发展，唐宋时期纸张产量大增，成本降低。造纸原料，例如树皮、竹麻等容易得到，…",
+        "allow_segment_interaction": true,
+        "excerpt": "古代中国广泛使用纸糊窗户，主要源于材料特性、经济成本、气候适应与文化审美的多重结合，是农耕文明背景下一种高度实用且富有智慧的选择。 中国虽在战国时期已能制造玻璃“琉璃”，但长期属于奢侈品，透明度低且易碎，无法大规模用于民居。 西方玻璃窗技术在明清时期才逐步传入，但价格昂贵，仅用于皇宫、教堂或富商宅邸。 汉代以后，造纸技术不断发展，唐宋时期纸张产量大增，成本降低。造纸原料，例如树皮、竹麻等容易得到，…",
+        "question": {
+          "title": "古代为什么用纸做窗户？",
+          "follower_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "author": {
+            "url": "https://api.zhihu.com/people/1d0a595412d7d9b9ab27904ce3e509e5",
+            "url_token": "robince",
+            "followers_count": 168,
+            "id": "1d0a595412d7d9b9ab27904ce3e509e5",
+            "user_type": "people",
+            "name": "看过未来的先森",
+            "headline": "从事英语培训，兼长心理疏导，爱好钻研企业分析和股市",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-40a93c908bd8e1fbbc90f5f954c305fd_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "detail": "",
+          "created": 1725324478,
+          "answer_count": 0,
+          "comment_count": 0,
+          "question_type": "normal",
+          "bound_topic_ids": [
+            2749
+          ],
+          "excerpt": "",
+          "id": "666062027",
+          "url": "https://api.zhihu.com/questions/666062027"
+        },
+        "preview_text": "",
+        "url": "https://api.zhihu.com/answers/1981847176905786880",
+        "comment_count": 0,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "type": "answer",
+        "visited_count": 169,
+        "favorite_count": 8,
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1981847176905786880}",
+      "attached_info": "Cr4HCL/O9O3Clq+0pgEQBBoJNzYwMzA4Mjk1IOPZ4MkGKAQwAEBoSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExMDI5MTY0OWIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5ODE4NDcxNzY5MDU3ODY4ODCKAQk2NjYwNjIwMjeqAQlyZWNvbW1lbmTCASAwMTBkMjZkMzYzYWZjMGZjYjM3YTI2YTg3NzI1Yjc4N/IBCggMEgZOb3JtYWzyASgIChIkYmNlYzM5NzgtNWY4MS00ODZhLWJjNjgtMWQxOWU0MDMzMWUx8gEGCAsSAjE4ggIAiALN45ObuTOSAiAwMTBkMjZkMzYzYWZjMGZjYjM3YTI2YTg3NzI1Yjc4N5oCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIE+gILTk9STUFMX0ZMT1eKAyAyYmQ5ODAyNzU2YTg0ZmVhODA3ZTNkZjU2NTUwNTllN5oDDQoCdjIQABoFb3RoZXKoA6kB2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDELgIGMwKIiN2Mi1jMTU4ZjA1OGRhYjUxNTg5YTgzOWZjN2JkZTY0NWYyMzotCAMQ1AYYqAQiI3YyLTZhZDI0MDU2MDc0NjY3ZGQ3YTYyNmZhYjNhOTM1MGNmOi0IAxDFBBjHAyIjdjItZDExM2EzN2I0ZWFmNDFkMDNhYTMxZWIyNmIxZWM5ZTiABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGCwOIo/gQUAAAAAAAAAAIkFj1AAuP6Hsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEpAGAKAGaagGAJICLgoJNzYwMzA4Mjk1EhMxOTgxODQ3MTc2OTA1Nzg2ODgwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "105_1767704425.877",
+      "type": "feed",
+      "offset": 105,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704425,
+      "updated_time": 1767704425,
+      "target": {
+        "vote_next_step": "vote",
+        "preview_text": "",
+        "thanks_count": 12,
+        "is_copyable": true,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1991570270419448457",
+        "question": {
+          "url": "https://api.zhihu.com/questions/1975169251124982664",
+          "created": 1763697046,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            388,
+            2926,
+            16290,
+            4188182,
+            4203047
+          ],
+          "follower_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "title": "2025年，你去过最美的地方是哪里？",
+          "comment_count": 4,
+          "detail": "",
+          "question_type": "normal",
+          "id": "1975169251124982664",
+          "author": {
+            "followers_count": 7,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/145513719cc7a2bd9fd3c964c7bef2d5",
+            "headline": "",
+            "gender": -1,
+            "name": "炒生菜别放姜",
+            "avatar_url": "https://picx.zhimg.com/50/v2-6575aec24e350f51ea9eb5def0a3ab26_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "id": "145513719cc7a2bd9fd3c964c7bef2d5",
+            "user_type": "people",
+            "url_token": "95-49-65-56-96"
+          },
+          "excerpt": ""
+        },
+        "answer_type": "normal",
+        "type": "answer",
+        "author": {
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 116956,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/295eccd43e343f65cb9f66afbc6e8a11",
+          "url_token": "wu-zheng-90-77",
+          "name": "霸霸",
+          "avatar_url": "https://picx.zhimg.com/50/v2-7b49ff232a0d223925fdef3664508d80_l.jpg?source=b6762063",
+          "is_followed": false,
+          "id": "295eccd43e343f65cb9f66afbc6e8a11",
+          "user_type": "people",
+          "headline": "旅行达人，技术型吃货中式烹调师三级 头像不是本人",
+          "badge": [
+            {
+              "topic_names": [
+                "美食",
+                "烹饪"
+              ],
+              "topic_ids": [
+                304,
+                532
+              ],
+              "type": "best_answerer",
+              "description": "美食等 2 个话题下的优秀答主"
+            }
+          ]
+        },
+        "updated_time": 1767610653,
+        "navigator_vote": false,
+        "id": "1991570270419448457",
+        "comment_count": 48,
+        "preview_type": "default",
+        "created_time": 1767607354,
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"ZbqtO2kr\">我每年自驾大概1万公里左右，今年去到了一个很特别的地方，有点小众，我很喜欢。</p><p data-pid=\"_GOt0SSM\">风景优美，物价低，游客不多。</p><p data-pid=\"XWoDyj-n\"><b>重庆奉节</b></p><p data-pid=\"3FtPR0_K\"><b>奉节属于重庆市</b></p><p data-pid=\"6neDnUKo\">古称夔州，这里是长江三峡第一峡，瞿塘峡的门户。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5b8422e21fa1b15b78c92d26a8159209_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-efda36d0669d0945ca3487c47b3f5a69\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pic2.zhimg.com/v2-5b8422e21fa1b15b78c92d26a8159209_r.jpg\"/></figure><p data-pid=\"LcG4ctlr\">我特别喜欢的是三峡之巅</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f1b841685acda3fdbee3554a3da7e72b_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-0b44a172cc644403be5f489cc1158568\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://picx.zhimg.com/v2-f1b841685acda3fdbee3554a3da7e72b_r.jpg\"/></figure><p data-pid=\"yHImefSn\">这里是长江三峡的最高处，登上山巅可以俯瞰长江和瞿塘峡</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-63dac7f8d55323268bf5026e7d95f368_1440w.jpg\" data-rawwidth=\"4032\" data-rawheight=\"3024\" data-size=\"normal\" data-original-token=\"v2-291a599facf69bea3d35de410331bb85\" class=\"origin_image zh-lightbox-thumb\" width=\"4032\" data-original=\"https://pica.zhimg.com/v2-63dac7f8d55323268bf5026e7d95f368_r.jpg\"/></figure><p data-pid=\"27dkSahX\">据说某个人民币上的景色也是在这里取景的</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8a36b16c476a42fa80375e1d9363cf9f_1440w.jpg\" data-rawwidth=\"4032\" data-rawheight=\"3024\" data-size=\"normal\" data-original-token=\"v2-0b0f6cee891fce9ecd456cf429d9199e\" class=\"origin_image zh-lightbox-thumb\" width=\"4032\" data-original=\"https://pic4.zhimg.com/v2-8a36b16c476a42fa80375e1d9363cf9f_r.jpg\"/></figure><p data-pid=\"ZxcRCh3N\">霞光穿越云层，万丈光芒落在下面的山水，心情非常愉悦</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ebcc2a8ed481f9def4a5f1b61ab83195_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-4d898ab59a2726bb2b551542efdb0132\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://picx.zhimg.com/v2-ebcc2a8ed481f9def4a5f1b61ab83195_r.jpg\"/></figure><p data-pid=\"0le7CCo9\">夕阳西下，气象万千，一直在这里流连徘徊，久久不肯离去。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-1e31b19a6d36db3ac3b901679fb22bc2_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-69280eb835321a9763d2fb20c787e515\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pic3.zhimg.com/v2-1e31b19a6d36db3ac3b901679fb22bc2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f3621fdf72c508083cf921c0c090fe8f_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-55d5337f24d5e3644aa8e5f9f647abb5\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pic2.zhimg.com/v2-f3621fdf72c508083cf921c0c090fe8f_r.jpg\"/></figure><p data-pid=\"-gt9ShDo\">我觉得这个小县城是可以玩几天的，吃饭也便宜，住宿也不贵，我是夏天去的，周末人相对多一点，如果是平时在这里住着，非常悠闲。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3e50a185245997ed6fa654b705e1e371_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-22c77d836875ee51543343ec3d3ba069\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://picx.zhimg.com/v2-3e50a185245997ed6fa654b705e1e371_r.jpg\"/></figure><p data-pid=\"ODZbjAMA\">最喜欢这里的美食，是蛊子鸡，有点像云南的汽锅鸡，不加一滴水，只收集水蒸气来熬成鸡汤，里面加了川渝地区特有的腊肉，肉很肥美，汤也非常的鲜。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-32c2d9b0d2e79bdb989396f3431f646a_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-87c2a42720f462e96ba2e053edbd04f3\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pic3.zhimg.com/v2-32c2d9b0d2e79bdb989396f3431f646a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ada1e6502fd35168d813db8c37395069_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-fe07fa2926ab3d7f7f28503763ddbdf6\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://picx.zhimg.com/v2-ada1e6502fd35168d813db8c37395069_r.jpg\"/></figure><p data-pid=\"mMhYKblh\">奉节适合懒懒散散的游玩，从这里可以坐船游览三峡中的瞿塘峡和巫峡，船票很便宜。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0505754f37eecaa4c8181a04b68ecffd_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-b3acd9aabbf03030e6c3dc258b483c50\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pic4.zhimg.com/v2-0505754f37eecaa4c8181a04b68ecffd_r.jpg\"/></figure><p data-pid=\"DC_GtfTg\">两岸的景色</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e9ce36416d4c57c816ebd8d41f79cbe9_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-af199268b99c2e76449f1a9a81feae5d\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pic2.zhimg.com/v2-e9ce36416d4c57c816ebd8d41f79cbe9_r.jpg\"/></figure><p data-pid=\"-AvaszEw\">坐着船沿长江，可以到重庆下面的另外一个县巫山县，这里据说是烤鱼的发源地。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-64202561aad716ae18dc8988ea477398_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-0f2b6478905fd37c1e03b772856a8bde\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pica.zhimg.com/v2-64202561aad716ae18dc8988ea477398_r.jpg\"/></figure><p data-pid=\"gmD4vuuE\">只是我这个长期居住在广东的人吃辣的能力实在不行，只能要个微微辣，先被老板说浪费了味道，又被旁边的小妹妹嘲笑一番。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a47218b463111d6c982d9362b9ed53f0_1440w.jpg\" data-rawwidth=\"3072\" data-rawheight=\"4096\" data-size=\"normal\" data-original-token=\"v2-c9d74bf0b4c5b78f09ed0a73cc828c60\" class=\"origin_image zh-lightbox-thumb\" width=\"3072\" data-original=\"https://pic1.zhimg.com/v2-a47218b463111d6c982d9362b9ed53f0_r.jpg\"/></figure><p data-pid=\"RMDFE_P5\">回到奉节，这里还有一个美食，就是长江的团鱼，这个不辣，真的很好吃，汤浓，鱼鲜美又肥嫩。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-83dc59b6d22f296e43b6c7f82a55c219_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-d653cacc1778b6dbea719e5be3b624e3\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://picx.zhimg.com/v2-83dc59b6d22f296e43b6c7f82a55c219_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-663d113c49dc7246639fd2ae54fc2ea2_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-5b10e9e14ef3ed28eec11822dc21b469\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pica.zhimg.com/v2-663d113c49dc7246639fd2ae54fc2ea2_r.jpg\"/></figure><p data-pid=\"vvhCG_xQ\">对了，还有一个挺好玩的，奉节的《归来三峡》大型演出，是张艺谋执导的。以唐诗为主题，我咋知道这么多唐诗都是这些诗人在奉节写的。</p><p data-pid=\"3mcWEIN2\">让我觉得最爽的是这么大型的剧门票特别特别便宜，好像才20来块钱，我都感觉好像记错了。反正就是超便宜，整个布景和表演都很细致，精心，看起来非常震撼。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ed33a01ef549965a4da704073d68a343_1440w.jpg\" data-rawwidth=\"3072\" data-rawheight=\"4096\" data-size=\"normal\" data-original-token=\"v2-609aa650540040749fd55c62f00a6d90\" class=\"origin_image zh-lightbox-thumb\" width=\"3072\" data-original=\"https://pic2.zhimg.com/v2-ed33a01ef549965a4da704073d68a343_r.jpg\"/></figure><p data-pid=\"Fqb81K8E\">豌杂面也很好吃。</p><p data-pid=\"v5WkRZXf\">总之这个地方太爽了，好想再来一次住个3、5天，坐坐船，逛逛街，吃吃火锅，悠悠闲闲。</p><p data-pid=\"oWv-7eFQ\">巴适得很。</p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-efda36d0669d0945ca3487c47b3f5a69_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-0b44a172cc644403be5f489cc1158568_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-291a599facf69bea3d35de410331bb85_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0b0f6cee891fce9ecd456cf429d9199e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-4d898ab59a2726bb2b551542efdb0132_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-69280eb835321a9763d2fb20c787e515_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-55d5337f24d5e3644aa8e5f9f647abb5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-22c77d836875ee51543343ec3d3ba069_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-87c2a42720f462e96ba2e053edbd04f3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fe07fa2926ab3d7f7f28503763ddbdf6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b3acd9aabbf03030e6c3dc258b483c50_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-af199268b99c2e76449f1a9a81feae5d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0f2b6478905fd37c1e03b772856a8bde_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c9d74bf0b4c5b78f09ed0a73cc828c60_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d653cacc1778b6dbea719e5be3b624e3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5b10e9e14ef3ed28eec11822dc21b469_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-609aa650540040749fd55c62f00a6d90_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 190,
+        "excerpt": "我每年自驾大概1万公里左右，今年去到了一个很特别的地方，有点小众，我很喜欢。 风景优美，物价低，游客不多。 重庆奉节 奉节属于重庆市古称夔州，这里是长江三峡第一峡，瞿塘峡的门户。   我特别喜欢的是三峡之巅   这里是长江三峡的最高处，登上山巅可以俯瞰长江和瞿塘峡   据说某个人民币上的景色也是在这里取景的   霞光穿越云层，万丈光芒落在下面的山水，心情非常愉悦   夕阳西下，气象万千，一直在这里流连徘徊，久久不肯离去。     …",
+        "voteup_count": 135,
+        "thumbnail": "https://pica.zhimg.com/50/v2-efda36d0669d0945ca3487c47b3f5a69_720w.jpg?source=b6762063",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 9853,
+        "allow_segment_interaction": true,
+        "excerpt_new": "我每年自驾大概1万公里左右，今年去到了一个很特别的地方，有点小众，我很喜欢。 风景优美，物价低，游客不多。 重庆奉节 奉节属于重庆市古称夔州，这里是长江三峡第一峡，瞿塘峡的门户。   我特别喜欢的是三峡之巅   这里是长江三峡的最高处，登上山巅可以俯瞰长江和瞿塘峡   据说某个人民币上的景色也是在这里取景的   霞光穿越云层，万丈光芒落在下面的山水，心情非常愉悦   夕阳西下，气象万千，一直在这里流连徘徊，久久不肯离去。     …"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991570270419448457}",
+      "attached_info": "CsYMCL/O9O3Clq+0pgEQBBoJNzY0MTMzMTI5ILqY7soGKIcBMDBAaUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNzQxNTU4NWIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5OTE1NzAyNzA0MTk0NDg0NTeKARMxOTc1MTY5MjUxMTI0OTgyNjY0qgEJcmVjb21tZW5kwgEgMjk1ZWNjZDQzZTM0M2Y2NWNiOWY2NmFmYmM2ZThhMTHyAQoIDBIGTm9ybWFs8gEoCAoSJDU0N2U0M2RiLTM4MGUtNDMxZS05Nzk2LWE3MDJhYjkxYzkzN/IBBggLEgIxOIICAIgCzeOTm7kzkgIgMjk1ZWNjZDQzZTM0M2Y2NWNiOWY2NmFmYmM2ZThhMTGaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AIE+gILTk9STUFMX0ZMT1eKAyAyYmQ5ODAyNzU2YTg0ZmVhODA3ZTNkZjU2NTUwNTllN5oDDQoCdjIQABoFb3RoZXKoA/1M2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6A74GEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQgCAYgBgiI3YyLWVmZGEzNmQwNjY5ZDA5NDVjYTM0ODdjNDdiM2Y1YTY5Oi0IBBCAIBiAGCIjdjItMGI0NGExNzJjYzY0NDQwM2JlNWY0ODljYzExNTg1Njg6LQgEEMAfGNAXIiN2Mi0yOTFhNTk5ZmFjZjY5YmVhM2QzNWRlNDEwMzMxYmI4NTotCAQQwB8Y0BciI3YyLTBiMGY2Y2VlODkxZmNlOWVjZDQ1NmNmNDI5ZDkxOTllOi0IAxCAIBiAGCIjdjItNGQ4OThhYjU5YTI3MjZiYjJiNTUxNTQyZWZkYjAxMzI6LQgEEIAgGIAYIiN2Mi02OTI4MGViODM1MzIxYTk3NjNkMmZiMjBjNzg3ZTUxNTotCAQQgCAYgBgiI3YyLTU1ZDUzMzdmMjRkNWUzNjQ0YWE4ZTVmOWY2NDdhYmI1Oi0IAxCAIBiAGCIjdjItMjJjNzdkODM2ODc1ZWU1MTU0MzM0M2VjM2QzYmEwNjk6LQgEEIAgGIAYIiN2Mi04N2MyYTQyNzIwZjQ2MmU5NmJhMmUwNTNlZGJkMDRmMzotCAQQgCAYgBgiI3YyLWZlMDdmYTI5MjZhYjNkN2Y3ZjI4NTAzNzYzZGRiZGY2Oi0IBBCAIBiAGCIjdjItYjNhY2Q5YWFiYmYwMzAzMGU2YzNkYzI1OGI0ODNjNTA6LQgDEIAgGIAYIiN2Mi1hZjE5OTI2OGI5OWMyZTc2NDQ5ZjFhOWE4MWZlYWU1ZDotCAQQgCAYgBgiI3YyLTBmMmI2NDc4OTA1ZmQzN2MxZTAzYjc3Mjg1NmE4YmRlOi0IBBCAGBiAICIjdjItYzlkNzRiZjBiNGM1Yjc4ZjA5ZWQwYTczY2M4MjhjNjA6LQgDEIAgGIAYIiN2Mi1kNjUzY2FjYzE3NzhiNmRiZWE3MTllNWJlM2I2MjRlMzotCAMQgCAYgBgiI3YyLTViMTBlOWUxNGVmM2VkMjhlZWMxMTgyMmRjMjFiNDY5Oi0IBBCAGBiAICIjdjItNjA5YWE2NTA1NDAwNDA3NDlmZDU1YzYyZjAwYTZkOTCABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMCzrZI/gQUAAAAAAAAAAIkFj1AAuP6Hsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEpAGAKAGaqgGAJICLgoJNzY0MTMzMTI5EhMxOTkxNTcwMjcwNDE5NDQ4NDU3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "106_1767704425.484",
+      "type": "feed",
+      "offset": 106,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704425,
+      "updated_time": 1767704425,
+      "target": {
+        "url": "https://api.zhihu.com/articles/1981316667926672119",
+        "author": {
+          "followers_count": 27773,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/17808ad4067e8072a219e97c9ae44de0",
+          "user_type": "people",
+          "url_token": "riao-11",
+          "name": "逛逛GitHub",
+          "headline": "公众号 逛逛GitHub，每日优质项目推送。",
+          "id": "17808ad4067e8072a219e97c9ae44de0",
+          "avatar_url": "https://picx.zhimg.com/50/v2-9710ad05dd4a075185003198135dd37c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false
+        },
+        "voting": 0,
+        "comment_count": 2,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-7315c1f3d1dad3c805281a4f1d405825_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8ec5a0328de063463608b34e77d9e72e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b526d6406fca608be9a69d009afd8048_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c9b47c220b66bbf29fa5a72d62b01b07_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-bd9bdb0e3c1957358e8562e0a0266c39_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-dea8f905ac8d42771d78da9747d38e42_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-f980b27f851856f1e47aee3e4047e094_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-a58f28239d3f94b575b88a0ad568dc73_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-405dccfd83ef8181a216e610ac4f6c64_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d38a7831d1c029a74ed95ab7f6582898_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "id": "1981316667926672119",
+        "created": 1765165638,
+        "updated": 1765165638,
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "preview_type": "default",
+        "is_labeled": false,
+        "article_type": "normal",
+        "vote_next_step": "vote",
+        "type": "article",
+        "allow_segment_interaction": true,
+        "excerpt": "01、Awesome Nano Banana Pro Awesome Nano Banana Pro 是一个精选资源列表。 一般某个模型或者方向火了后，GitHub 上会立马出现一个该方向的 Awesome 合集。 这个开源项目目前拥有 2800 颗 Star，精心收集了大量高质量的提示词、图像生成案例以及相关教程。   内容涵盖了从 照片级写实风格、创意实验、电商虚拟摄影，到室内设计、社交媒体营销素材等多个领域。 每一个案例通常都附带了原始图片、生成结果以及详细的提示词参数，方…",
+        "excerpt_new": "01、Awesome Nano Banana Pro Awesome Nano Banana Pro 是一个精选资源列表。 一般某个模型或者方向火了后，GitHub 上会立马出现一个该方向的 Awesome 合集。 这个开源项目目前拥有 2800 颗 Star，精心收集了大量高质量的提示词、图像生成案例以及相关教程。   内容涵盖了从 照片级写实风格、创意实验、电商虚拟摄影，到室内设计、社交媒体营销素材等多个领域。 每一个案例通常都附带了原始图片、生成结果以及详细的提示词参数，方…",
+        "preview_text": "",
+        "visited_count": 5066,
+        "favorite_count": 406,
+        "is_navigator": false,
+        "voteup_count": 130,
+        "comment_permission": "all",
+        "content": "<h3>01、<b>Awesome Nano Banana Pro</b></h3><p data-pid=\"qigoOCgj\"><br/>Awesome Nano Banana Pro 是一个精选资源列表。<br/>一般某个模型或者方向火了后，GitHub 上会立马出现一个该方向的 Awesome 合集。<br/>这个开源项目目前拥有 2800 颗 Star，<b>精心收集了大量高质量的提示词、图像生成案例以及相关教程。</b></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-165688bd1754db91c99f66b86ae55202_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"620\" data-original-token=\"v2-165688bd1754db91c99f66b86ae55202\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-165688bd1754db91c99f66b86ae55202_r.jpg\"/></figure><p data-pid=\"XQzr_xKj\">内容涵盖了从<b>照片级写实风格、创意实验、电商虚拟摄影，到室内设计、社交媒体营销素材</b>等多个领域。<br/>每一个案例通常都附带了原始图片、生成结果以及详细的提示词参数，方便你<b>直接复制使用或进行微调。</b></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-bed5d33d709a606ee70ec098dbce7153_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"558\" data-rawheight=\"1090\" data-original-token=\"v2-bed5d33d709a606ee70ec098dbce7153\" class=\"origin_image zh-lightbox-thumb\" width=\"558\" data-original=\"https://pic4.zhimg.com/v2-bed5d33d709a606ee70ec098dbce7153_r.jpg\"/></figure><p data-pid=\"Euapg_Qc\">对于 AI 绘画爱好者、提示词工程师以及希望挖掘 Nano Banana Pro 模型潜力的开发者来说，这是一个必看的知识库。<br/>挑几个好玩的 Case，分享给大家。<br/><b>白板艺术画</b><br/><i><u>提示词：Create a photo of vagabonds musashi praying drawn on a glass whiteboard in a slightly faded green marker</u></i></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-70ff022466de796a5c740e33573fcda2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"590\" data-original-token=\"v2-70ff022466de796a5c740e33573fcda2\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-70ff022466de796a5c740e33573fcda2_r.jpg\"/></figure><p data-pid=\"J1LSxG71\"><b>加个眼睛和手手</b><br/><i><u>提示词：Add illustrated googly eyes and stick hands on the (object/animal/ your bff) in an exaggerated comedic pose</u></i></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9de2297a7c8ef285cd2b72de7a30f933_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"594\" data-rawheight=\"1200\" data-original-token=\"v2-9de2297a7c8ef285cd2b72de7a30f933\" class=\"origin_image zh-lightbox-thumb\" width=\"594\" data-original=\"https://pic4.zhimg.com/v2-9de2297a7c8ef285cd2b72de7a30f933_r.jpg\"/></figure><p data-pid=\"q14j_5mO\"><b>天气卡片</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7315c1f3d1dad3c805281a4f1d405825_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1935\" data-original-token=\"v2-7315c1f3d1dad3c805281a4f1d405825\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-7315c1f3d1dad3c805281a4f1d405825_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8ec5a0328de063463608b34e77d9e72e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1935\" data-original-token=\"v2-8ec5a0328de063463608b34e77d9e72e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-8ec5a0328de063463608b34e77d9e72e_r.jpg\"/></figure><p data-pid=\"tbH1T346\"><b>年龄变化</b><br/><i><u>提示词：&#34;Generate the holiday photo of this person through the ages up to 80 years old&#34;</u></i><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b526d6406fca608be9a69d009afd8048_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"858\" data-rawheight=\"1294\" data-original-token=\"v2-b526d6406fca608be9a69d009afd8048\" class=\"origin_image zh-lightbox-thumb\" width=\"858\" data-original=\"https://pic1.zhimg.com/v2-b526d6406fca608be9a69d009afd8048_r.jpg\"/></figure><p data-pid=\"v5e6Pwcx\"><b>递归图片</b><br/><i><u>提示词：recursive image of an orange cat sitting in an office chair holding up an iPad. On the iPad is the same cat in the same scene holding up the same iPad. Repeated on each iPad.</u></i></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c9b47c220b66bbf29fa5a72d62b01b07_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"803\" data-original-token=\"v2-c9b47c220b66bbf29fa5a72d62b01b07\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-c9b47c220b66bbf29fa5a72d62b01b07_r.jpg\"/></figure><p data-pid=\"ewhmXdik\"><b>地理坐标图片</b><br/><i><u>提示词：35.6586° N, 139.7454° E at 19:00</u></i><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-bd9bdb0e3c1957358e8562e0a0266c39_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"806\" data-original-token=\"v2-bd9bdb0e3c1957358e8562e0a0266c39\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-bd9bdb0e3c1957358e8562e0a0266c39_r.jpg\"/></figure><p data-pid=\"8LorZv1I\"><b>工程师眼中的建筑</b><br/><i><u>提示词：How engineers see the San Francisco Bridge</u></i><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-dea8f905ac8d42771d78da9747d38e42_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"806\" data-original-token=\"v2-dea8f905ac8d42771d78da9747d38e42\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-dea8f905ac8d42771d78da9747d38e42_r.jpg\"/></figure><p data-pid=\"B__tHXHi\"><b>图解应用漫画</b><br/><i><u>提示词：Create a detailed {{pet store}} scene with English vocabulary labels for all objects. The format for labeling is: Line 1: English word, Line 2: IPA pronunciation, Line 3: Chinese translation</u></i><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-85d6d029eccc42fc3e5341d160a4ab59_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"603\" data-original-token=\"v2-85d6d029eccc42fc3e5341d160a4ab59\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-85d6d029eccc42fc3e5341d160a4ab59_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f980b27f851856f1e47aee3e4047e094_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"900\" data-rawheight=\"672\" data-original-token=\"v2-f980b27f851856f1e47aee3e4047e094\" class=\"origin_image zh-lightbox-thumb\" width=\"900\" data-original=\"https://pica.zhimg.com/v2-f980b27f851856f1e47aee3e4047e094_r.jpg\"/></figure><p data-pid=\"RQZGcIsL\">开源地址：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/ZeroLu/awesome-nanobanana-pro02\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/ZeroLu/aweso</span><span class=\"invisible\">me-nanobanana-pro02</span><span class=\"ellipsis\"></span></a><br/><b>小红书创作工具</b><br/>RedInk 是一个专为小红书创作者打造的<b> AI 图文生成工具</b>，现在已经拥有 1900+ 的 Star。<br/><br/>它非常适合自媒体博主、营销人员以及希望快速制作精美图文内容的用户。<b>这个开源项目的核心卖点是：一句话、一张图生成小红书图文。</b><br/>比如使用这个 GitHub 开源项目，输入：<i><u>秋季显白美甲，图片是我的小红书主页，符合我的风格生成。</u></i></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0736e79efde3b3820aee9d235175bc3c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"618\" data-original-token=\"v2-0736e79efde3b3820aee9d235175bc3c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-0736e79efde3b3820aee9d235175bc3c_r.jpg\"/></figure><p data-pid=\"4Ir6Z_k8\">然后等待 10-20 秒后，就会有每一页的大纲，大家可以根据的自己的需求去调整页面顺序，自定义每一个页面的内容。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-12cc6c0ba2c0876e74635cfabf7274b6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"618\" data-original-token=\"v2-12cc6c0ba2c0876e74635cfabf7274b6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-12cc6c0ba2c0876e74635cfabf7274b6_r.jpg\"/></figure><p data-pid=\"e5a7_1ZQ\">首先生成的是封面图：<br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7ab363de61d763f8d50de753754408bb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"618\" data-original-token=\"v2-7ab363de61d763f8d50de753754408bb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-7ab363de61d763f8d50de753754408bb_r.jpg\"/></figure><p data-pid=\"CbFrrFTi\">然后稍等一会儿后，会生成后面的所有页面：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0e84379c52f31afb84100603709c9988_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"618\" data-original-token=\"v2-0e84379c52f31afb84100603709c9988\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-0e84379c52f31afb84100603709c9988_r.jpg\"/></figure><p data-pid=\"VRjmYIHD\">你只需输入一个主题或一句话，系统就能自动生成<b>包含封面、大纲和正文页面的完整图文内容。</b><br/>它支持并发生成，最高 25 页，你可以上传参考图片以保持个人风格，并且支持对生成的大纲和每一页的内容进行自定义编辑，生成的图片风格统一且文字准确。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a58f28239d3f94b575b88a0ad568dc73_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1071\" data-original-token=\"v2-a58f28239d3f94b575b88a0ad568dc73\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-a58f28239d3f94b575b88a0ad568dc73_r.jpg\"/></figure><p data-pid=\"zOO1Q8Cg\">在技术实现上，RedInk 后端使用 Python 3.11+ 和 Flask 框架，利用 Google Gemini 3 模型生成文案，并调用 Nano Banana Pro 模型生成图片。<br/>前端则基于 Vue 3、TypeScript 和 Vite 构建，使用 Pinia 进行状态管理。<br/>项目还支持 Docker 部署，方便用户在本地或服务器上快速搭建自己的 AI 创作助手。<br/></p><p data-pid=\"0DipPnqp\">开源地址：https:<i>//<a href=\"https://link.zhihu.com/?target=http%3A//github.com/HisMax/RedInk\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">github.com/HisMax/RedIn</span><span class=\"invisible\">k</span><span class=\"ellipsis\"></span></a></i>03</p><p data-pid=\"kcTom2kI\"><br/><b>自拍传送门</b><br/>SelfieAt 是一个基于 Nano Banana Pro 的自拍传送门应用。<br/>你只需<b>上传一张自拍照片，并输入世界上的任意地点，应用就会利用 Nano Banana Pro AI 模型将用户自然地融合到新的场景中。</b><br/><br/>它支持摄像头实时拍摄或图片上传，并且能够同时生成多个地点的变体图片，生成的图像还带有精美的动效展示和水印处理。<br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-405dccfd83ef8181a216e610ac4f6c64_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1180\" data-original-token=\"v2-405dccfd83ef8181a216e610ac4f6c64\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-405dccfd83ef8181a216e610ac4f6c64_r.jpg\"/></figure><p data-pid=\"6tzY6FTn\">项目采用了非常前沿的前端技术栈，包括 React 19、TypeScript、Vite 7 和 Tailwind CSS 4（线性风格设计）。<br/>在后端，它使用 Express 作为 API 代理来安全地处理密钥。<br/>核心的 AI 能力通过 @fal-ai/client 调用 Nano Banana Pro 模型实现。整个项目结构清晰，涵盖了从前端 UI 组件到后端服务代理的完整流程。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d38a7831d1c029a74ed95ab7f6582898_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"713\" data-original-token=\"v2-d38a7831d1c029a74ed95ab7f6582898\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-d38a7831d1c029a74ed95ab7f6582898_r.jpg\"/></figure><p data-pid=\"gE4UJMHj\">开源地址：https:<i>//<a href=\"https://link.zhihu.com/?target=http%3A//github.com/amrrs/selfieat-nanobanana-pro\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">github.com/amrrs/selfie</span><span class=\"invisible\">at-nanobanana-pro</span><span class=\"ellipsis\"></span></a></i>04</p>",
+        "title": "推荐 GitHub 上 3 个 牛牛牛 Nano Banana Pro 开源项目。"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1981316667926672119}",
+      "attached_info": "CvIMCL/O9O3Clq+0pgEQBxoJMjY3MzQ3MjQ0IMaU2ckGKIIBMAJAakpAChdUU19TT1VSQ0VfQVVUSE9SX0dDRl9IURIfZG9jX3R5cGU6IE1lbWJlcgppZDogMjE4MTE5MzM4ChgAIAA6AGIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5ODEzMTY2Njc5MjY2NzIxMTmqAQlyZWNvbW1lbmTCASAxNzgwOGFkNDA2N2U4MDcyYTIxOWU5N2M5YWU0NGRlMPIBCggMEgZOb3JtYWzyASgIChIkNzdjN2ZjZmUtMzQyOS00YWFkLWFhOWEtMWI4YWE1ZWIxMmI18gEGCAsSAjE4ggIAiALN45ObuTOSAiAxNzgwOGFkNDA2N2U4MDcyYTIxOWU5N2M5YWU0NGRlMJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxl2gIXVFNfU09VUkNFX0FVVEhPUl9HQ0ZfSFHoAgP6AgtOT1JNQUxfRkxPV4oDIDJiZDk4MDI3NTZhODRmZWE4MDdlM2RmNTY1NTA1OWU3mgMNCgJ2MhAAGgVvdGhlcqgDyifYAwDqAxlnY2ZLbm5BdXRob3JIaWdoUG9zUmVjYWxs+gOcBxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgAELgIGOwEIiN2Mi0xNjU2ODhiZDE3NTRkYjkxYzk5ZjY2Yjg2YWU1NTIwMjotCAAQrgQYwggiI3YyLWJlZDVkMzNkNzA5YTYwNmVlNzBlYzA5OGRiY2U3MTUzOi0IABC4CBjOBCIjdjItNzBmZjAyMjQ2NmRlNzk2YTVjNzQwZTMzNTczZmNkYTI6LQgAENIEGLAJIiN2Mi05ZGUyMjk3YTdjOGVmMjg1Y2QyYjcyZGU3YTMwZjkzMzotCAAQuAgYjw8iI3YyLTczMTVjMWYzZDFkYWQzYzgwNTI4MWE0ZjFkNDA1ODI1Oi0IABC4CBiPDyIjdjItOGVjNWEwMzI4ZGUwNjM0NjM2MDhiMzRlNzdkOWU3MmU6LQgAENoGGI4KIiN2Mi1iNTI2ZDY0MDZmY2E2MDhiZTlhNjlkMDA5YWZkODA0ODotCAAQuAgYowYiI3YyLWM5YjQ3YzIyMGI2NmJiZjI5ZmE1YTcyZDYyYjAxYjA3Oi0IABC4CBimBiIjdjItYmQ5YmRiMGUzYzE5NTczNThlODU2MmUwYTAyNjZjMzk6LQgAELgIGKYGIiN2Mi1kZWE4ZjkwNWFjOGQ0Mjc3MWQ3OGRhOTc0N2QzOGU0MjotCAAQuAgY2wQiI3YyLTg1ZDZkMDI5ZWNjYzQyZmMzZTUzNDFkMTYwYTRhYjU5Oi0IABCEBxigBSIjdjItZjk4MGIyN2Y4NTE4NTZmMWU0N2FlZTNlNDA0N2UwOTQ6LQgAELgIGOoEIiN2Mi0wNzM2ZTc5ZWZkZTNiMzgyMGFlZTlkMjM1MTc1YmMzYzotCAAQuAgY6gQiI3YyLTEyY2M2YzBiYTJjMDg3NmU3NDYzNWNmYWJmNzI3NGI2Oi0IABC4CBjqBCIjdjItN2FiMzYzZGU2MWQ3NjNmOGQ1MGRlNzUzNzU0NDA4YmI6LQgAELgIGOoEIiN2Mi0wZTg0Mzc5YzUyZjMxYWZiODQxMDA2MDM3MDljOTk4ODotCAAQuAgYrwgiI3YyLWE1OGYyODIzOWQzZjk0YjU3NWI4OGEwYWQ1NjhkYzczOi0IABC4CBicCSIjdjItNDA1ZGNjZmQ4M2VmODE4MWEyMTZlNjEwYWM0ZjZjNjQ6LQgAELgIGMkFIiN2Mi1kMzhhNzgzMWQxYzAyOWE3NGVkOTVhYjdmNjU4Mjg5OIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgMysdj+BBQAAAAAAAAAAiQWPUAC4/oeyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUSkAYAoAZrqAYBkgIuCgkyNjczNDcyNDQSEzE5ODEzMTY2Njc5MjY2NzIxMTkYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "107_1767704425.81",
+      "type": "feed",
+      "offset": 107,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704425,
+      "updated_time": 1767704425,
+      "target": {
+        "reshipment_settings": "disallowed",
+        "is_labeled": false,
+        "url": "https://api.zhihu.com/answers/1984260737007378687",
+        "updated_time": 1765864625,
+        "question": {
+          "follower_count": 0,
+          "bound_topic_ids": [
+            1497,
+            8412,
+            162815,
+            192212
+          ],
+          "excerpt": "",
+          "author": {
+            "gender": 1,
+            "badge": [
+              {
+                "type": "best_answerer",
+                "description": "法律话题下的优秀答主",
+                "topic_names": [
+                  "法律"
+                ],
+                "topic_ids": [
+                  215
+                ]
+              },
+              {
+                "type": "identity_people",
+                "description": "复旦大学 法学理论博士"
+              }
+            ],
+            "followers_count": 81045,
+            "id": "c36d8fe3d8eaa5f35c1c4f5c501ee8c3",
+            "url_token": "jiang-wei-1",
+            "name": "Karl Ernst",
+            "headline": "一个经常跑偏的法律人",
+            "avatar_url": "https://pica.zhimg.com/50/a705fa7c316920fc3b65755fa19477f7_l.jpg?source=b6762063",
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/c36d8fe3d8eaa5f35c1c4f5c501ee8c3",
+            "user_type": "people",
+            "is_org": false
+          },
+          "answer_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/294268027",
+          "is_following": false,
+          "created": 1536674682,
+          "comment_count": 3,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "title": "《大明王朝1566》中的严世蕃跟他爹严嵩比差在哪里？",
+          "id": "294268027"
+        },
+        "excerpt": "我补充一点：用人。 当过领导的人都知道，只要不是造芯片造火箭这种工作，用人最重要的并不是业务能力，而是能否跟你一条心。 老严用人代表是胡宗宪，小严用人代表是罗龙文和鄢懋卿。从罗龙文和鄢懋卿长期在严家的临场应变能力来看，再结合鄢懋卿巡盐能让那么多严党成员把吃到嘴里的肥肉吐出来来看，这两人脑子未必比胡宗宪差。 所以这两类人之间的差距不能简单概括为人才和马屁精，核心差距在“你在为什么工作？” 胡宗宪做官，…",
+        "visited_count": 75023,
+        "navigator_vote": false,
+        "type": "answer",
+        "comment_count": 60,
+        "is_copyable": false,
+        "preview_text": "",
+        "favorite_count": 481,
+        "voteup_count": 723,
+        "thanks_count": 53,
+        "excerpt_new": "我补充一点：用人。 当过领导的人都知道，只要不是造芯片造火箭这种工作，用人最重要的并不是业务能力，而是能否跟你一条心。 老严用人代表是胡宗宪，小严用人代表是罗龙文和鄢懋卿。从罗龙文和鄢懋卿长期在严家的临场应变能力来看，再结合鄢懋卿巡盐能让那么多严党成员把吃到嘴里的肥肉吐出来来看，这两人脑子未必比胡宗宪差。 所以这两类人之间的差距不能简单概括为人才和马屁精，核心差距在“你在为什么工作？” 胡宗宪做官，…",
+        "vote_next_step": "vote",
+        "id": "1984260737007378687",
+        "segment_infos": [
+          {
+            "pid": "KT3t23sJ",
+            "text": "严党干的都是高风险高收益的业务，老严用人最绝的一点，在于他用了一个即使风险暴露也要避免让风险波及领导的人。",
+            "marks": [
+              {
+                "start_index": 28,
+                "end_index": 53,
+                "seg_info": {
+                  "seg_ids": [
+                    "1984699063199896308"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "KQ1icNcj",
+            "text": "对于为钱做官的人，你可以拿钱买他的情绪价值，可以拿钱让他做牛做马，但别指望给了钱就能让他扛住风险。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 49,
+                "seg_info": {
+                  "seg_ids": [
+                    "1984950938948089254"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WWp67Ma8",
+            "text": "小人因利而聚，也必将因利而散。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 15,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989344995002578788"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "eNuCEa3C",
+            "text": "君之视臣如手足，则臣视君如腹心；君之视臣如犬马，则臣视君如国人；君之视臣如草芥，则臣视君如寇仇。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 48,
+                "seg_info": {
+                  "seg_ids": [
+                    "1984587568889734881"
+                  ],
+                  "is_like": false,
+                  "like_count": 10,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "answer_type": "normal",
+        "is_navigator": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "author": {
+          "url": "https://api.zhihu.com/people/ac45d02198b823b70720c7b075016024",
+          "gender": 0,
+          "is_following": false,
+          "name": "古月记",
+          "headline": "喜欢老书老剧",
+          "avatar_url": "https://picx.zhimg.com/50/v2-77e47bba5f56b54468cc61effc6efbed_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 3487,
+          "id": "ac45d02198b823b70720c7b075016024",
+          "user_type": "people",
+          "url_token": "luo-shu-9-19",
+          "is_followed": false
+        },
+        "created_time": 1765864625,
+        "content": "<p data-pid=\"i81UmiSY\">我补充一点：用人。</p><p data-pid=\"_Kk9Z4cf\">当过领导的人都知道，只要不是造芯片造火箭这种工作，用人最重要的并不是业务能力，而是能否跟你一条心。</p><p data-pid=\"xg0mhxVR\"><b>老严用人代表是胡宗宪，小严用人代表是罗龙文和鄢懋卿。</b></p><p data-pid=\"6EnakctL\">从罗龙文和鄢懋卿长期在严家的临场应变能力来看，再结合鄢懋卿巡盐能让那么多严党成员把吃到嘴里的肥肉吐出来来看，这两人脑子未必比胡宗宪差。</p><p data-pid=\"BZLqEIRz\">所以这两类人之间的差距不能简单概括为人才和马屁精，核心差距在“你在为什么工作？”</p><p data-pid=\"YmicfkG1\"><b>胡宗宪做官，为的是良心，一是对朝廷的良心，二是对恩师的良心。</b></p><p data-pid=\"fYvGlcRj\">所以这种人顾大局也能扛事，毁堤淹田案，他捂住了，浙江贪墨案，他宁愿自己顶住大BOSS嘉靖的压力也要力劝嘉靖不宜倒严。当李时珍劝他倒严青史留名的时候，他说“天下人都可以倒严，唯独我胡宗宪不能倒严”。</p><p data-pid=\"KT3t23sJ\"><b>严党干的都是高风险高收益的业务，老严用人最绝的一点，在于他用了一个即使风险暴露也要避免让风险波及领导的人。</b></p><p data-pid=\"YGsI0lgR\">如果你当过领导，你就知道这种人绝对是一笔巨大的职场财富。</p><p data-pid=\"ncAW8zbv\"><b>罗龙文和鄢懋卿做官，为的是钱，不管谁的钱都是钱。</b></p><p data-pid=\"X9pfnqbQ\">所以鄢懋卿巡盐之后，悄咪咪地把一船银子运回了自己家。老严也曾质问这两人有没有在浙江的搞钱事业中入股，我相信老严的怀疑是基于过往事实的合理推理。</p><p data-pid=\"KQ1icNcj\">对于为钱做官的人，你可以拿钱买他的情绪价值，可以拿钱让他做牛做马，但别指望给了钱就能让他扛住风险。</p><p data-pid=\"pHPxfj8B\">物以类聚，罗龙文举荐郑泌昌，鄢懋卿举荐何茂才，老严说过郑、何二人在挖何家的坟，果然，死到临头来还不愿吐钱出来，被关起来没多久就把上级全供出来了。</p><p data-pid=\"ylvHe6ur\"><b>罗龙文和鄢懋卿也好，郑泌昌和何茂才也罢，都是那种平时为了钱可以把良心卖给领导，但一有风吹草动就把风险向上传导的人。</b></p><p data-pid=\"WWp67Ma8\"><b>小人因利而聚，也必将因利而散。</b></p><p data-pid=\"M9n1BLuW\">当过领导的人都知道，小严用的人都好找，也能用，但不能用在高风险业务上。</p><p data-pid=\"9aBJsZ5y\">当然，我想表达的不是小严比老严倒霉被底下人坑了，因为用什么人、怎么用人是他自己选的。</p><p data-pid=\"VdbvF7Km\">那为什么小严用的全是狗，老严用的是人才呢？</p><p data-pid=\"tVpIjKui\">因为小严把属下当狗，老严把人才当国士。</p><p data-pid=\"Djv02P_y\">你看看小严是怎么对待下属的：发言不对就破口大骂，一旦决策就不容置疑，鄢懋卿和罗龙文只能像哈巴狗一样附和着摇尾巴。</p><p data-pid=\"Tvv4tGXx\">再看看老严是怎么对待下属的：胡宗宪奉嘉靖之命，带着沈一石账册去试探老严的时候，老严不管是真心还是假意，至少对待人才的态度是到位了，关心人才有没有吃饭，尊重人才的意见，还不忘提醒人才做事注意方法……我相信在过往的那些日子里，老严是真的让胡宗宪感受到了来自恩师的尊重的关心。</p><p data-pid=\"GSYx66kJ\">其实小严不是没有遇到过人才，比如对老严死心塌地的胡宗宪完全可以同时作为小严的人才，但毁堤淹田事件后，小严一封辞职信+一顿语言攻击+三个巴掌，彻底寒了胡宗宪的心。</p><p data-pid=\"fc3XaXLX\">东南抗倭胜利之后，胡宗宪选择了归隐，因为他从小严身上，看到了严党的末日。他可以不倒严，但他不能再助纣为虐。</p><p data-pid=\"mWdS_etG\">胡宗宪很清楚，老严那封让他不要平定倭寇的信，是为了给把严党带入深渊的小严擦屁股才写的，过去的严党无非是对内杀人和搞钱，然如今的严党已经到了需要“对外养寇”才能某生存的境地。</p><p data-pid=\"eNuCEa3C\"><b>君之视臣如手足，则臣视君如腹心；君之视臣如犬马，则臣视君如国人；君之视臣如草芥，则臣视君如寇仇。</b></p><p data-pid=\"dwQlh3Fo\"><b>老严和小严的差距，就在于一个是下属的“腹心”，一个是下属的“寇仇”。</b></p><p data-pid=\"5TaFEK6U\"><b>不会收买人心的领导，做不好领导。</b></p>"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1984260737007378687}",
+      "attached_info": "Cq8FCL/O9O3Clq+0pgEQBBoJNzYxMjczMzkwILHpg8oGKNMFMDxAa0onChxUU19TT1VSQ0VfQ09OQ0VQVF9XT1JEX01FUkdFEgEwGAAgADoAWggyNzY2OTk5MmIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5ODQyNjA3MzcwMDczNzg2ODeKAQkyOTQyNjgwMjeqAQlyZWNvbW1lbmTCASBhYzQ1ZDAyMTk4YjgyM2I3MDcyMGM3YjA3NTAxNjAyNPIBCggMEgZOb3JtYWzyASgIChIkODk4MGNhNjItMjhlZC00MzNiLWJkYWMtNzE2OWFmZDdhOWY48gEGCAsSAjE4ggIAiALN45ObuTOSAiBhYzQ1ZDAyMTk4YjgyM2I3MDcyMGM3YjA3NTAxNjAyNJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCHFRTX1NPVVJDRV9DT05DRVBUX1dPUkRfTUVSR0XoAgP6AgtOT1JNQUxfRkxPV4oDIDJiZDk4MDI3NTZhODRmZWE4MDdlM2RmNTY1NTA1OWU3mgMNCgJ2MhAAGgVvdGhlcqgDj8oE2AMA6gMhQ29uY2VwdFdvcmRNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoGYphz+BBQAAAAAAAAAAiQWPUAC4/oeyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUSkAYAoAZsqAYAkgIuCgk3NjEyNzMzOTASEzE5ODQyNjA3MzcwMDczNzg2ODcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=107&desktop=true&end_offset=108&page_number=19&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=107&desktop=true&end_offset=108&page_number=19&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

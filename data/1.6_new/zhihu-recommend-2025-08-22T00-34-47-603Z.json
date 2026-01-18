@@ -1,0 +1,574 @@
+{
+  "data": [
+    {
+      "id": "618_1755822933.234",
+      "type": "feed",
+      "offset": 618,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822933,
+      "updated_time": 1755822933,
+      "target": {
+        "id": "27341017331",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/27341017331",
+        "author": {
+          "id": "9c2eb6ef3a8cff3ab594800c6e0539e4",
+          "url": "https://api.zhihu.com/people/9c2eb6ef3a8cff3ab594800c6e0539e4",
+          "user_type": "people",
+          "url_token": "xialongandy",
+          "name": "老龙友",
+          "headline": "不要长篇大论，只要言简意赅",
+          "avatar_url": "https://picx.zhimg.com/50/ed4fecc3c525e2de37bc083d873f960e_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 4239,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1731172241,
+        "updated_time": 1731172241,
+        "voteup_count": 72,
+        "thanks_count": 0,
+        "comment_count": 13,
+        "is_copyable": true,
+        "question": {
+          "id": "630942240",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/630942240",
+          "author": {
+            "id": "c33d1acda1dd700ca7ec70b9f8d98f14",
+            "url": "https://api.zhihu.com/people/c33d1acda1dd700ca7ec70b9f8d98f14",
+            "user_type": "people",
+            "url_token": "rookie-38-42",
+            "name": "rookie",
+            "headline": "JAVA小白",
+            "avatar_url": "https://pica.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "公司老板不想续费3w一年的云服务器，合理吗？",
+          "created": 1700461461,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 35,
+          "bound_topic_ids": [
+            1452,
+            3307,
+            4253,
+            21927
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "我看好多回答都在秀，认为自己只需要两三千预算就能搞定，凸现自己的技术能力多强，多么能用各种奇淫技巧来用最小的硬件成本来搞定。 这就是典型的技术人员思维。 真正的IT负责人，如果按照这些答主说的去做，会被坑死。 一个IT负责人，一定要清楚地理解老板要的是什么。 老板要的是系统『能运行』么？ No。 老板要的是系统能『稳定地运行』。 那些回答用个NAS就能搞定的，回答随便往电房里一放的。 考虑过服务器硬件坏了怎么办…",
+        "excerpt_new": "我看好多回答都在秀，认为自己只需要两三千预算就能搞定，凸现自己的技术能力多强，多么能用各种奇淫技巧来用最小的硬件成本来搞定。 这就是典型的技术人员思维。 真正的IT负责人，如果按照这些答主说的去做，会被坑死。 一个IT负责人，一定要清楚地理解老板要的是什么。 老板要的是系统『能运行』么？ No。 老板要的是系统能『稳定地运行』。 那些回答用个NAS就能搞定的，回答随便往电房里一放的。 考虑过服务器硬件坏了怎么办…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"8DK3Ce_E\">我看好多回答都在秀，认为自己只需要两三千预算就能搞定，凸现自己的技术能力多强，多么能用各种奇淫技巧来用最小的硬件成本来搞定。</p><p data-pid=\"Et0Zzj6Z\">这就是典型的技术人员思维。</p><p data-pid=\"zk0is8KX\">真正的IT负责人，如果按照这些答主说的去做，会被坑死。</p><p data-pid=\"B2rBczYF\">一个IT负责人，一定要清楚地理解老板要的是什么。</p><p data-pid=\"HQyVWvP-\">老板要的是系统『能运行』么？</p><p data-pid=\"jjyj8k-D\">No。</p><p data-pid=\"Umo-1YM3\">老板要的是系统能『稳定地运行』。</p><p data-pid=\"Q19q4HCV\">那些回答用个NAS就能搞定的，回答随便往电房里一放的。</p><p data-pid=\"Ava0qZLG\">考虑过服务器硬件坏了怎么办么？</p><p data-pid=\"-kNSyzyB\">考虑过停电怎么办么？</p><p data-pid=\"HOAm8hIO\">一个公司如果有三四十个员工，年销售额一般都在大几千万。如果是承载业务的系统，哪怕停一天，损失都超过一万。</p><p data-pid=\"1OnWy9MR\">小公司，没有自己的机房，没有双机热备，没有UPS，最节省成本（是管理成本，不是硬件成本）的方式，就是上云。</p><p data-pid=\"-GVSMmJR\">大公司，有机房，有热备，有UPS，才值得自己建服务器。</p><p data-pid=\"X6gg52mX\">老板不懂，你一个搞IT的也不懂么？</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 13710,
+        "favorite_count": 5,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 27341017331}",
+      "attached_info": "CpoGCJTCzJXlnfSMkwEQBBoJNjk4NTgzODcwIJGvvrkGKEgwDUDqBEoqCh9UU19TT1VSQ0VfVEhFTUVfTExNX0dSQVBIX01FUkdFEgEwGAAgADoAWgkxMDI0ODgyMjBiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgsyNzM0MTAxNzMzMYoBCTYzMDk0MjI0MKoBCXJlY29tbWVuZMIBIDljMmViNmVmM2E4Y2ZmM2FiNTk0ODAwYzZlMDUzOWU08gEKCAwSBk5vcm1hbPIBKAgKEiQ2MDM5NjAzNS1kNzc2LTRlZmMtODk4ZC00N2I5N2QyNTkwZWHyAQcICxIDMTA0ggIAiAKyi8/5jDOSAiA5YzJlYjZlZjNhOGNmZjNhYjU5NDgwMGM2ZTA1MzllNJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCH1RTX1NPVVJDRV9USEVNRV9MTE1fR1JBUEhfTUVSR0XoAgL6AgtOT1JNQUxfRkxPV4oDIDMzZWViOWQ0NmU0NDQwZDg5OGFhNmJmYzhjNDlkZGQwmgMNCgJ2MhAAGgVvdGhlcqgDjmvYAwDqAyNUaGVtZUxMTUdyYXBoTWVyZ2VOZXdWMVBvb2xSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAAPjrw/gQUAAAAAAAAAAIkFYua6CAZU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFaJAGAKAG8ASoBgGSAiYKCTY5ODU4Mzg3MBILMjczNDEwMTczMzEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "619_1755822933.948",
+      "type": "feed",
+      "offset": 619,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822933,
+      "updated_time": 1755822933,
+      "target": {
+        "id": "1938897161531160204",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1938897161531160204",
+        "author": {
+          "id": "c4fc43be7292599cd7d61cc195b5c145",
+          "url": "https://api.zhihu.com/people/c4fc43be7292599cd7d61cc195b5c145",
+          "user_type": "people",
+          "url_token": "Khazix",
+          "name": "数字生命卡兹克",
+          "headline": "反复横跳于不同的AI领域，努力分享一些很酷的AI干货。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9767bdf72d2d5087f1e1e22673327ff9_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "super_activity",
+              "description": "知势榜科技互联网领域影响力榜答主"
+            }
+          ],
+          "followers_count": 20788,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "一个邪修方法，帮你把用Agent的钱省掉80%。",
+        "image_url": "https://picx.zhimg.com/v2-5fb9604b9477b76e15788c5c943eb834.jpg?source=7e7ef6e2&needBackground=1",
+        "comment_permission": "all",
+        "created": 1755049260,
+        "updated": 1755049260,
+        "voteup_count": 31,
+        "voting": 0,
+        "comment_count": 1,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "之前我分享过一个Agent，Minimax的那个，因为我觉得Agent能力，是真的很棒，东西好用也是真的好用。 用完这个Agent，你会觉得ChatGPT Agent真的是个傻子。 但文章发出去之后，评论区里最多的声音，几乎都指向了同一个字： 贵。     我自己光在MiniMax Agent上，就已经快干了250多刀了。 跑一次不满意，钱也照样扣，肉疼。 想法很好，但这个试错成本，普通人根本承受不起。 说实话，我觉得大家说的都对。因为我也觉得贵，贵到肉疼。 …",
+        "excerpt_new": "之前我分享过一个Agent，Minimax的那个，因为我觉得Agent能力，是真的很棒，东西好用也是真的好用。 用完这个Agent，你会觉得ChatGPT Agent真的是个傻子。 但文章发出去之后，评论区里最多的声音，几乎都指向了同一个字： 贵。     我自己光在MiniMax Agent上，就已经快干了250多刀了。 跑一次不满意，钱也照样扣，肉疼。 想法很好，但这个试错成本，普通人根本承受不起。 说实话，我觉得大家说的都对。因为我也觉得贵，贵到肉疼。 …",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"nwcf3up4\">之前我分享过一个Agent，Minimax的那个，因为我觉得Agent能力，是真的很棒，东西好用也是真的好用。</p><p data-pid=\"batCV5_a\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyMzA5NjEyMA%3D%3D%26mid%3D2647673226%26idx%3D1%26sn%3Dc13f5dd2f41952f4e85271f93feddc65%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">用完这个Agent，你会觉得ChatGPT Agent真的是个傻子。</a></p><p data-pid=\"Uv2vf0_a\">但文章发出去之后，评论区里最多的声音，几乎都指向了同一个字：</p><p data-pid=\"b_CzTU_M\"><b>贵。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6200773173ece1775f61f7e3e206c525_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"197\" data-original-token=\"v2-6200773173ece1775f61f7e3e206c525\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-6200773173ece1775f61f7e3e206c525_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1f837e558ec74fa15869fdce0e5a7bd2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"669\" data-rawheight=\"99\" data-original-token=\"v2-1f837e558ec74fa15869fdce0e5a7bd2\" class=\"origin_image zh-lightbox-thumb\" width=\"669\" data-original=\"https://pica.zhimg.com/v2-1f837e558ec74fa15869fdce0e5a7bd2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zhiCSNMr\">我自己光在MiniMax Agent上，就已经快干了250多刀了。</p><p data-pid=\"J-qDwAlp\">跑一次不满意，钱也照样扣，肉疼。 想法很好，但这个试错成本，普通人根本承受不起。</p><p data-pid=\"UHt96SK8\">说实话，我觉得大家说的都对。因为我也觉得贵，贵到肉疼。</p><p data-pid=\"hpURiZ8y\">后来我也发了一个文字推文，聊了聊我对于Agent收费模式的想法。</p><p data-pid=\"jPtz-yum\">原文我就不放了，大概说一下我的意思。</p><p data-pid=\"Olw1hP9-\">我们用Agent，期望的是买一个确定的解决方案，但现实是，我们往往在为一连串不确定的、甚至可能完全失败的过程买单。</p><p data-pid=\"pe1knYOm\">说到底，我觉得还是现在AI发展的一个阶段性阵痛。</p><p data-pid=\"skwR15qd\">现在绝大多数的Agent，其商业模式的底层逻辑，都是按token计费。你输入的每一个字，AI思考的每一步，它调用的每一次工具，都是明码标价的token消耗。</p><p data-pid=\"snjBUbyH\">不管最终结果是金子还是垃圾，这个过程中的每一步，钱都得照付。</p><p data-pid=\"If7L1TWf\">但我觉得一个真正健康的、可持续的商业模式，肯定是以结果为导向的。</p><p data-pid=\"CpVzwV6p\">你帮我把事情做成了，我心甘情愿地付钱，甚至给你加奖金。你把事情做砸了，凭什么让我一个人承担所有的成本？至少逻辑上应该是这样。</p><p data-pid=\"cwykCVpy\">当然，我也理解服务商的苦衷。目前大模型的推理成本依然高昂，Agent的成功率也没那么稳定。如果让服务商完全承担所有失败的风险，那可能融来的钱，几个月就烧光了。所以在这个尴尬的阶段，大家只能不约而同地选择把风险转嫁给最弱势的一方：用户。</p><p data-pid=\"AA9pA44u\">这就好像你去一家餐厅吃饭，不管菜最终能不能端上来，厨师每挥一下锅铲，餐厅都要收你一次钱。这无论怎么想，都是荒唐的。</p><p data-pid=\"DfCU1Chz\">但好消息是，这种荒唐的状况，似乎真的开始改变了。</p><p data-pid=\"ANN4QTXd\">还是MiniMax Agent，他们除了不断正常的在优化Token消耗之外。</p><p data-pid=\"_e9oX1X6\">我还看到了一个非常非常非常有意思且邪修的做法。</p><p data-pid=\"mjhrTilx\"><b>Publish to Gallery &amp; Remix。</b></p><p data-pid=\"GqT7BHWg\">这个功能，是我在他们的更新日志里看到的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cf9bc5326748360dae35cf7cb848852f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1071\" data-rawheight=\"920\" data-original-token=\"v2-cf9bc5326748360dae35cf7cb848852f\" class=\"origin_image zh-lightbox-thumb\" width=\"1071\" data-original=\"https://picx.zhimg.com/v2-cf9bc5326748360dae35cf7cb848852f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dZPyWA9H\">用户现在可以将项目发布到作品集（Gallery），以增加可见性和账户曝光度，并且可以Remix（再创作）其他用户已发布的项目，而无需从头开始。</p><p data-pid=\"ZKxsh6Js\">MiniMax用一种极其邪修的方式，同时解决了省钱和赚钱这两个核心痛点。</p><p data-pid=\"uOw_9vs-\">这太有意思了。</p><p data-pid=\"8LbWBy2F\">给大家举个例子。</p><p data-pid=\"se3H1rDs\">我们在首页上，可以看到很多人发布的项目。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f3057f74eae11cfd9527698bf513951f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"598\" data-original-token=\"v2-f3057f74eae11cfd9527698bf513951f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-f3057f74eae11cfd9527698bf513951f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mqOeG_qW\">你觉得好的，就可以把鼠标移动到那个位置。</p><p data-pid=\"qWqdc2pW\">比如我真的很喜欢第一个网页，是模仿的奈飞，但是我想把他改成任天堂的所有游戏展示，但是风格差不多。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d9746de11a1c364ff3b8f3983bedf19a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"372\" data-original-token=\"v2-d9746de11a1c364ff3b8f3983bedf19a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-d9746de11a1c364ff3b8f3983bedf19a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_jjQO4Fy\">我们就可以点击Remix。</p><p data-pid=\"h-ewSvdK\">这时候，最重要的来了，你会收到一个弹窗。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-641b6088a789debc07f55025e9cb823c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"619\" data-rawheight=\"201\" data-original-token=\"v2-641b6088a789debc07f55025e9cb823c\" class=\"origin_image zh-lightbox-thumb\" width=\"619\" data-original=\"https://pic1.zhimg.com/v2-641b6088a789debc07f55025e9cb823c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FRdARaOm\">固定的100积分，可以Remix一个项目，而且这个积分，会奖励给我想Remix的作者。</p><p data-pid=\"zUSIBQYg\">在你消耗了积分，把100积分交易给创作者之后。</p><p data-pid=\"_6An9hKi\">我们就可以来Remix这个项目了。</p><p data-pid=\"wCCxkoIO\">比如这个奈飞官网设计，我直接可以说：</p><p data-pid=\"bCx_0DIz\"><b>把它改成“任天堂”的游戏官网展示页面。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ef870a2e84d597ffb8f81d0d792f3dea_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"598\" data-original-token=\"v2-ef870a2e84d597ffb8f81d0d792f3dea\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-ef870a2e84d597ffb8f81d0d792f3dea_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SVXBAme8\">嗯，我是任豚，是老任的死忠粉。</p><p data-pid=\"DzXacgLH\">然后正常发送过去，你就能看到，基于原来的项目，MiniMax Agent会开始嘟嘟嘟的修改了。</p><p data-pid=\"TQqwdJqv\">老样子，还是先列计划，我说完同意以后，开整。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b596e2aeb696fe3accf443b3c6302c2c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"596\" data-original-token=\"v2-b596e2aeb696fe3accf443b3c6302c2c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-b596e2aeb696fe3accf443b3c6302c2c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Jd41Eg-k\">大概十分钟以后，项目跑完了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8594ace8baa2b29f952e532f2610f02d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"606\" data-original-token=\"v2-8594ace8baa2b29f952e532f2610f02d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-8594ace8baa2b29f952e532f2610f02d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"E0TZOK_4\">最后，整体的项目跑完，除了最开始花100积分买了Remix权利之外，在过程中，一共消耗了500多积分，跑完了全部的页面。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f821b0126fa3d2a2afef05bd4ba0b2cb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"603\" data-original-token=\"v2-f821b0126fa3d2a2afef05bd4ba0b2cb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-f821b0126fa3d2a2afef05bd4ba0b2cb_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e2ef8ae57dc4926d85cdaf77793ae322_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"598\" data-original-token=\"v2-e2ef8ae57dc4926d85cdaf77793ae322\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-e2ef8ae57dc4926d85cdaf77793ae322_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1--0EQf8\">除了第一张那个林克有点糊之外，其他的都超级酷。</p><p data-pid=\"15u_rOIJ\">而且，可控性、完成度都很高，而消耗量，也比正常从0到1开始跑，低多了。</p><p data-pid=\"APLQXt1L\">记得上次跑网页，几乎都是几千起步，尼玛。。。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2efd5285ba6cb1c41de20b8b3e520fdd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"912\" data-rawheight=\"331\" data-original-token=\"v2-2efd5285ba6cb1c41de20b8b3e520fdd\" class=\"origin_image zh-lightbox-thumb\" width=\"912\" data-original=\"https://pic2.zhimg.com/v2-2efd5285ba6cb1c41de20b8b3e520fdd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uzI9FLoP\">Remix这个功能，真的有点意思。</p><p data-pid=\"YbWWzDfi\">当我，看到你展出的特别棒的项目时，我不再需要从零开始，去重复你所有痛苦的试错过程。我只需要给你100积分，就可以买下这个项目，然后一键Remix你的这个项目。</p><p data-pid=\"mmb0iHHG\">这也意味着我直接得到了你那份已经被验证过无数次的、成功的配方。我可以在你的基础上，进行微调。</p><p data-pid=\"ZVmCNKz5\">比如，你分析的是A股，我想分析美股，我只需要修改你配方里关于数据源的部分，而不用重新搭建整个复杂的分析框架。</p><p data-pid=\"HpqvLkSk\"><b>这是一种很有意思的范式转移。</b></p><p data-pid=\"nqjsUwrk\"><b>它把Agent的创造，从一种高风险的、原子化的个人劳动，变成了一种低风险的、可迭代的集体智慧。</b></p><p data-pid=\"pmqp3aDO\">这让我想起了一个非常著名的网站。</p><p data-pid=\"oDSrnwdl\">GitHub。</p><p data-pid=\"gxhqpVGj\">在GitHub出现之前，大部分的程序员都在自己的电脑上造轮子。</p><p data-pid=\"EXhET54t\">而在GitHub出现之后，整个软件开发的世界被改变了，你想做一个网站，你不需要从零开始写一个React框架，你只需要fork它，然后在巨人的肩膀上开始你的工作。</p><p data-pid=\"yEcuGGbs\">这个Remix是同理的。</p><p data-pid=\"rBwhDMLA\">游戏领域也是一样的，当年一个伟大的游戏，魔兽争霸3，它的生命力，并不仅仅来自于暴雪官方设计的战役。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-657d516cd8b752b13d11c78f156146f2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"551\" data-rawheight=\"315\" data-original-token=\"v2-657d516cd8b752b13d11c78f156146f2\" class=\"origin_image zh-lightbox-thumb\" width=\"551\" data-original=\"https://pica.zhimg.com/v2-657d516cd8b752b13d11c78f156146f2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Xb8j8Id6\">它真正的辉煌，来自于那个由无数玩家创造的、诞生了Dota、澄海3C等无数神作的地图编辑器。</p><p data-pid=\"c3nurFFo\">而Dota，也催生出一整个moba赛道，在这个赛道中，诞生了《英雄联盟》、《王者荣耀》这样的超级游戏。</p><p data-pid=\"k2lozUrK\">那个地图编辑器，就是当年的Remix功能。它把创造的权力，赋予了每一个普通的玩家。</p><p data-pid=\"Bn6-akCa\">可以看出来，MiniMax想从一个单纯的AI工具提供商，向一个AI生态营造者转变。</p><p data-pid=\"bF0hCSTY\">而且，确实有用。</p><p data-pid=\"M26ZYZvf\">而且在几乎所有的AI绘图或者视频网站中，Remix基本就是标配。</p><p data-pid=\"SRlyzRcw\">一个简单的Remix功能，在我看来撬动了三个的杠杆：</p><p data-pid=\"e1hRb2zh\">1. 成本杠杆：通过复用成功经验，极大地降低了用户的试错成本。</p><p data-pid=\"SocWD5fc\">2. 智慧杠杆：让少数人的成功，可以被无数人学习和放大，形成了集体智慧的飞轮。</p><p data-pid=\"gYG9IPTa\">3. 生产力杠杆：让每一个人的生产力都能被裂变和重组，从一个单纯的工具使用者，变成一个生产力节点。</p><p data-pid=\"EAK_gYN9\">非常的有意思。</p><p data-pid=\"q5tPqnsH\">但是坦诚的讲，功能设计和整体思路，是特别棒的，包括Remix和交易，但是在产品和交互设计上，确实还是有点粗糙了。</p><p data-pid=\"cHdusv8o\">比如我做了一个很好玩的东西。</p><p data-pid=\"MOvKLdOd\">真的，我觉得特别好玩。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e87c48bc96ac8004221eedc5c1a18807_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"574\" data-original-token=\"v2-e87c48bc96ac8004221eedc5c1a18807\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-e87c48bc96ac8004221eedc5c1a18807_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7f0e9246a7b07c4e377c9b94e7ef6d33_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"620\" data-original-token=\"v2-7f0e9246a7b07c4e377c9b94e7ef6d33\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-7f0e9246a7b07c4e377c9b94e7ef6d33_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"o1yXA0Mz\">你们可以去这个网页上体验一下：</p><p data-pid=\"5H9ghJ--\"><a href=\"https://link.zhihu.com/?target=https%3A//omaklzq34tfs.space.minimax.io\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">omaklzq34tfs.space.minimax.io</span><span class=\"invisible\"></span></a></p><p data-pid=\"1gpcaDn7\">真的，特别好玩。</p><p data-pid=\"-Ylb557R\">我把他发布到了Gallery上，这里还还有个很有意思的点，就是，你可以加你自己的社交媒体链接，给自己引流。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4cb21bea863aa34f6fc72af7200aa2c5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"624\" data-rawheight=\"171\" data-original-token=\"v2-4cb21bea863aa34f6fc72af7200aa2c5\" class=\"origin_image zh-lightbox-thumb\" width=\"624\" data-original=\"https://pic4.zhimg.com/v2-4cb21bea863aa34f6fc72af7200aa2c5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bOO9FQkY\">可惜的就是，公众号没有公开链接，就很蛋疼。</p><p data-pid=\"fXkA8z-4\">然后我还发现了一个产品设计上很呆逼的问题，就是，我想把这个项目，分享给我的朋友，让他们也来Remix玩，但是。。。</p><p data-pid=\"PcyuKBwc\">我不知道怎么分享给我的朋友们，完全没有路径= =</p><p data-pid=\"yrZ54Ovz\">大家只能在首页随缘刷了。。。就，如果你们看到了一个坤坤的Vscode风格简历，记得那是我做的。。。</p><p data-pid=\"7rRWchoM\">项目链接在此：<a href=\"https://link.zhihu.com/?target=https%3A//agent.minimax.io/share/300474460274847\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">agent.minimax.io/share/</span><span class=\"invisible\">300474460274847</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"gTGNLD96\">你们可以尽情的Remix，Remix成任何有趣的人和事。</p><p data-pid=\"sbJxcxLe\">最后，说一个我发现的非常好玩的事。</p><p data-pid=\"MiiavMfI\">就是，在首页上，他们搞了个15万奖金（美元）的比赛。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-549169556ba192d64ab6e961c0baa0b0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"720\" data-original-token=\"v2-549169556ba192d64ab6e961c0baa0b0\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-549169556ba192d64ab6e961c0baa0b0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Xh0HF2td\">然后我点进去看了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8819e967b56082cf2487a4d2b11781bc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"566\" data-original-token=\"v2-8819e967b56082cf2487a4d2b11781bc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-8819e967b56082cf2487a4d2b11781bc_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-FuqXAGc\">一切都挺正常的。</p><p data-pid=\"Y-cwwhxJ\">15万美元奖金，原创赛道和Remix赛道，8月11号到25号。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-beded2af76781d7cfda4c2400428d5f3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"650\" data-original-token=\"v2-beded2af76781d7cfda4c2400428d5f3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-beded2af76781d7cfda4c2400428d5f3_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"EQbr2enG\">直到，我看到这个比赛的网址：<br/></p><p data-pid=\"e52mtIeF\"><a href=\"https://link.zhihu.com/?target=https%3A//minimax-agent-hackathon.space.minimax.io/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">minimax-agent-hackathon.space.minimax.io</span><span class=\"invisible\">/</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"geYhEv4e\"><a href=\"https://link.zhihu.com/?target=http%3A//space.minimax.io\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">space.minimax.io</span><span class=\"invisible\"></span></a>，这玩意我太熟了，这不就是MiniMax Agent生成出来的网页网址的后缀吗。。。</p><p data-pid=\"a7TBznuB\">然后，我再定睛一看。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e462bc2ce8959ff45ba9dbb1c2083331_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"389\" data-original-token=\"v2-e462bc2ce8959ff45ba9dbb1c2083331\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-e462bc2ce8959ff45ba9dbb1c2083331_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nEkcWFeP\">尼玛，果然。</p><p data-pid=\"9kxqDR4E\">这个比赛的官网，适用MiniMax Agent生成的。</p><p data-pid=\"lN-fjt0t\">这很Agent。</p><p data-pid=\"5_TdJ0ia\">他们心也是真大，也是真自信。</p><p data-pid=\"ILY2dtJK\">最后，祝愿我们所有的朋友。</p><p data-pid=\"vdZVhMBj\">都能在Agent里。</p><p data-pid=\"n4SC0byd\">玩的开心。</p><p data-pid=\"8Z0M6SZi\">找到自己的那个，神之一手。</p><p data-pid=\"ZqLvobQi\"><b>以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧，如果想第一时间收到推送，也可以给我个星标⭐～谢谢你看我的文章，我们，下次再见。</b></p><p data-pid=\"nLCSwlsi\">&gt;/ 作者：卡兹克</p><p data-pid=\"Ycp9BL8n\">&gt;/ 投稿或爆料，请联系邮箱：wzglyay@virxact.com</p><p></p>",
+        "is_labeled": false,
+        "visited_count": 1017,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-5fb9604b9477b76e15788c5c943eb834.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-cf9bc5326748360dae35cf7cb848852f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-549169556ba192d64ab6e961c0baa0b0_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-beded2af76781d7cfda4c2400428d5f3_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 33,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1938897161531160204}",
+      "attached_info": "CoUOCJTCzJXlnfSMkwEQBxoJMjYxNjMzNDQ4IKza78QGKB8wAUDrBEpECiBUU19TT1VSQ0VfU09DSUFMX0ZPTExPV19ORUFSTElORRIabmVhcmxpbmVDb250ZW50VjI6MTUwODAzOTUYACAAOgBiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTM4ODk3MTYxNTMxMTYwMjA0ggFfaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi01ZmI5NjA0Yjk0NzdiNzZlMTU3ODhjNWM5NDNlYjgzNC5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASBjNGZjNDNiZTcyOTI1OTljZDdkNjFjYzE5NWI1YzE0NfIBCggMEgZOb3JtYWzyASgIChIkNWIzMTkzZTctNTRiZC00Y2UyLWE5YTgtMjJhMTU2N2I1YjNi8gEHCAsSAzEwNIICAIgCsovP+YwzkgIgYzRmYzQzYmU3MjkyNTk5Y2Q3ZDYxY2MxOTViNWMxNDWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAiBUU19TT1VSQ0VfU09DSUFMX0ZPTExPV19ORUFSTElORegCBfoCC05PUk1BTF9GTE9XigMgMzNlZWI5ZDQ2ZTQ0NDBkODk4YWE2YmZjOGM0OWRkZDCaAw0KAnYyEAAaBW90aGVyqAP5B9gDAOoDFmZvbGxvd2VkTmVhckxpbmVSZWNhbGz6A/kHEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuAgYxQEiI3YyLTYyMDA3NzMxNzNlY2UxNzc1ZjYxZjdlM2UyMDZjNTI1OiwIAhCdBRhjIiN2Mi0xZjgzN2U1NThlYzc0ZmExNTg2OWZkY2UwZTVhN2JkMjotCAIQrwgYmAciI3YyLWNmOWJjNTMyNjc0ODM2MGRhZTM1Y2Y3Y2I4NDg4NTJmOi0IAhC4CBjWBCIjdjItZjMwNTdmNzRlYWUxMWNmZDk1Mjc2OThiZjUxMzk1MWY6LQgDELgIGPQCIiN2Mi1kOTc0NmRlMTFhMWMzNjRmZjNiOGYzOTgzYmVkZjE5YTotCAIQ6wQYyQEiI3YyLTY0MWI2MDg4YTc4OWRlYmMwN2Y1NTAyNWU5Y2I4MjNjOi0IAhC4CBjWBCIjdjItZWY4NzBhMmU4NGQ1OTdmZmI4ZjgxZDBkNzkyZjNkZWE6LQgCELgIGNQEIiN2Mi1iNTk2ZTJhZWI2OTZmZTNhY2NmNDQzYjNjNjMwMmMyYzotCAIQuAgY3gQiI3YyLTg1OTRhY2U4YmFhMmIyOWY5NTJlNTMyZjI2MTBmMDJkOi0IAhC4CBjbBCIjdjItZjgyMWIwMTI2ZmEzZDJhMmFmZWYwNWJkNGJhMGIyY2I6LQgCELgIGNYEIiN2Mi1lMmVmOGFlNTdkYzQ5MjZkODVjZGFmNzc3OTNhZTMyMjotCAIQkAcYywIiI3YyLTJlZmQ1Mjg1YmE2Y2IxYzQxZGUyMGI4YjNlNTIwZmRkOi0IAxCnBBi7AiIjdjItNjU3ZDUxNmNkOGI3NTJiMTNkMTFjNzhmMTU2MTQ2ZjI6LQgCELgIGL4EIiN2Mi1lODdjNDhiYzk2YWM4MDA0MjIxZWVkYzVjMWExODgwNzotCAIQuAgY7AQiI3YyLTdmMGU5MjQ2YTdiMDdjNGUzNzdjOWI5NGU3ZWY2ZDMzOi0IAhDwBBirASIjdjItNGNiMjFiZWE4NjNhYTM0ZjZmYzcyYWY3MjAwYWEyYzU6LQgCELgIGNAFIiN2Mi01NDkxNjk1NTZiYTE5MmQ2NGFiNmU5NjFjMGJhYTBiMDotCAMQuAgYtgQiI3YyLTg4MTllOTY3YjU2MDgyY2YyNDg3YTRkMmIxMTc4MWJjOi0IAxC4CBiKBSIjdjItYmVkZWQyYWY3Njc4MWQ3Y2ZkYTRjMjQwMDQyOGQ1ZjM6LQgCELgIGIUDIiN2Mi1lNDYyYmMyY2U4OTU5ZmY0NWJhOWRiYjFjMjA4MzMzMTotCAMQmQgYvgMiI3YyLTVmYjk2MDRiOTQ3N2I3NmUxNTc4OGM1Yzk0M2ViODM0gAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgsguVP4EFAAAAAAAAAACJBWLmuggGVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBWiQBgCgBvEEqAYDkgIuCgkyNjE2MzM0NDgSEzE5Mzg4OTcxNjE1MzExNjAyMDQYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "620_1755822933.784",
+      "type": "feed",
+      "offset": 620,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822933,
+      "updated_time": 1755822933,
+      "target": {
+        "id": "110463117732",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/110463117732",
+        "author": {
+          "id": "a057d2edd3b1b10d3551f4f5a0128f6e",
+          "url": "https://api.zhihu.com/people/a057d2edd3b1b10d3551f4f5a0128f6e",
+          "user_type": "people",
+          "url_token": "wang-lin-cheng-96",
+          "name": "巨浪的蛋",
+          "headline": "动漫/游戏/社科/日本\neggnineteen.com",
+          "avatar_url": "https://picx.zhimg.com/50/v2-3cd85c10b87156be21bbd16ce171fad5_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "单机游戏话题下的优秀答主",
+              "topic_names": [
+                "单机游戏"
+              ],
+              "topic_ids": [
+                1172
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜游戏动漫领域成长力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "电子游戏行业 版权经理"
+            }
+          ],
+          "followers_count": 7838,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1740504658,
+        "updated_time": 1744386471,
+        "voteup_count": 6,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "22442088",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/22442088",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "视频行业的版权如何运作？",
+          "created": 1388768267,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            413,
+            648,
+            12942,
+            81252,
+            104539
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "到25年为止我在内容行业工作了10年。其中对接视频平台有8年，这8年主要是关于日本动画/电视剧的——这就是视频版权。 我相信我懂的知识会给希望了解这个行业的人一些启发。 通过这篇文章你能获得的是： 对视频内容版权基础知识的把握。对视频内容版权基础商务模式的把握。一部分我个人作为从业者对视频内容版权的体悟。下面我们就开始吧。   视频内容版权的基础知识要了解视频内容版权的运作方式，必须要先从理解一些基础的概念开…",
+        "excerpt_new": "到25年为止我在内容行业工作了10年。其中对接视频平台有8年，这8年主要是关于日本动画/电视剧的——这就是视频版权。 我相信我懂的知识会给希望了解这个行业的人一些启发。 通过这篇文章你能获得的是： 对视频内容版权基础知识的把握。对视频内容版权基础商务模式的把握。一部分我个人作为从业者对视频内容版权的体悟。下面我们就开始吧。   视频内容版权的基础知识要了解视频内容版权的运作方式，必须要先从理解一些基础的概念开…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"WlJB5QbP\">到25年为止我在内容行业工作了10年。其中对接视频平台有8年，这8年主要是关于日本动画/电视剧的——这就是视频版权。</p><p data-pid=\"dLBOj4JM\">我相信我懂的知识会给希望了解这个行业的人一些启发。</p><p data-pid=\"C9RqSqgp\">通过这篇文章你能获得的是：</p><ul><li data-pid=\"njoND2Qt\">对视频内容版权基础知识的把握。</li><li data-pid=\"jxaOlqZB\">对视频内容版权基础商务模式的把握。</li><li data-pid=\"zXvZ1uwg\">一部分我个人作为从业者对视频内容版权的体悟。</li></ul><p data-pid=\"NKcKsc3o\">下面我们就开始吧。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9d062fec7f527ab679693e2cbc466964_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"701\" data-original-token=\"v2-d371c5320a5d04c67e41f8d74a5fa2b0\" data-default-watermark-src=\"https://pica.zhimg.com/v2-36d3fd0ee6e48a85367821732226da38_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-9d062fec7f527ab679693e2cbc466964_r.jpg\"/></figure><h2>视频内容版权的基础知识</h2><p data-pid=\"CujBQYed\">要了解视频内容版权的运作方式，必须要先从理解一些基础的概念开始。</p><h3>信息网络传播权利</h3><p data-pid=\"wVJtwLCm\">视频平台在手机上，在电脑上，在平板上提供可以通过网络观看的动画/剧时，平台是在行使哪一种权利呢？通常这种权利是视频内容的“信息网络传播权”。</p><p data-pid=\"FrX4rRdC\">这是一种有别于电视媒体的“广播权”的权利。区别主要在于传输方式和用户接收方式。</p><a href=\"https://link.zhihu.com/?target=https%3A//baike.baidu.com/item/%25E4%25BF%25A1%25E6%2581%25AF%25E7%25BD%2591%25E7%25BB%259C%25E4%25BC%25A0%25E6%2592%25AD%25E6%259D%2583/1938146\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">信息网络传播权</a><p data-pid=\"Tz8gUUEo\">在商务（以及法务）层面上会经常接触这两个不同的权利。有时候也会有碟片相关的权利出现在商谈中。</p><h3>独占/非独占</h3><p data-pid=\"n1Dcy8XE\">又称“排他”和“非排他”。在视频内容的语境下，一般指在授权条件内是将权利仅授予对象视频平台A一家，还是保留可授权其他家（例如视频平台B）的权利。</p><h3>授权期/地域/语言</h3><p data-pid=\"vg_2IZpR\">是版权（授权）合作需要约定的基础商务条件内容。通常需要在初期就约定，并明确在合同中。</p><p data-pid=\"Jod_Eiru\">【授权期】指内容可供被授权方使用的时间区间。在许多时候，被授权方可能会要求以含糊的文言记载在合同中。比如类似“视频内容通过审核并上线开始～3年”。然而这是不利于版权方进行版权管理的，是容易产生纠纷，损害版权方利益的。在多数情况下（特别是与日本版权方的case中），会需要“xxxx年x月x日至xxxx年x月x日”这样的明确记载。</p><p data-pid=\"2M-cYU1o\">【地域】指内容可供被授权方在哪些地域使用。通常不容易出幺蛾子。但需要规范的地域约定和记载。不能是模糊的“东南亚”这样的记载，且最为保险的方式是在文书中使用地域的全称。</p><p data-pid=\"xc0oa7dH\">【语言】指被授权方可以使用哪种语言版本的内容。海外内容的情况下，有可能会精细到将“字幕”“语音”以及两者的结合情况进行规定。例如“日语语音+汉语字幕”“汉语语音+汉语字幕”。</p><h3>转授权</h3><p data-pid=\"hUQa3n1X\">转授权是指，在版权方（授权方）将某种权利授权给被授权方（比如A）后，A将其再次授权给另一家公司B的行为。</p><p data-pid=\"XeDQEdvI\">“转授权”是一个比较容易起争议的地方。</p><p data-pid=\"Mem_NWPH\">站在版权方的角度来看，这关系到自己的视频内容是不是会被滥用，造成机会成本丧失。而站在被授权方的角度来看，这有关系到拿到手的内容是否能在自己这里发挥最大的商业价值。所以转授权很可能会成为商务层面的争议焦点。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 879,
+        "favorite_count": 7,
+        "answer_type": "paid_column_content",
+        "paid_info": {
+          "content": "<p data-pid=\"WlJB5QbP\">到25年为止我在内容行业工作了10年。其中对接视频平台有8年，这8年主要是关于日本动画/电视剧的——这就是视频版权。</p><p data-pid=\"dLBOj4JM\">我相信我懂的知识会给希望了解这个行业的人一些启发。</p><p data-pid=\"C9RqSqgp\">通过这篇文章你能获得的是：</p><ul><li data-pid=\"njoND2Qt\">对视频内容版权基础知识的把握。</li><li data-pid=\"jxaOlqZB\">对视频内容版权基础商务模式的把握。</li><li data-pid=\"zXvZ1uwg\">一部分我个人作为从业者对视频内容版权的体悟。</li></ul><p data-pid=\"NKcKsc3o\">下面我们就开始吧。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9d062fec7f527ab679693e2cbc466964_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"701\" data-original-token=\"v2-d371c5320a5d04c67e41f8d74a5fa2b0\" data-default-watermark-src=\"https://pica.zhimg.com/v2-36d3fd0ee6e48a85367821732226da38_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-9d062fec7f527ab679693e2cbc466964_r.jpg\"/></figure><h2>视频内容版权的基础知识</h2><p data-pid=\"CujBQYed\">要了解视频内容版权的运作方式，必须要先从理解一些基础的概念开始。</p><h3>信息网络传播权利</h3><p data-pid=\"wVJtwLCm\">视频平台在手机上，在电脑上，在平板上提供可以通过网络观看的动画/剧时，平台是在行使哪一种权利呢？通常这种权利是视频内容的“信息网络传播权”。</p><p data-pid=\"FrX4rRdC\">这是一种有别于电视媒体的“广播权”的权利。区别主要在于传输方式和用户接收方式。</p><a href=\"https://link.zhihu.com/?target=https%3A//baike.baidu.com/item/%25E4%25BF%25A1%25E6%2581%25AF%25E7%25BD%2591%25E7%25BB%259C%25E4%25BC%25A0%25E6%2592%25AD%25E6%259D%2583/1938146\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">信息网络传播权</a><p data-pid=\"Tz8gUUEo\">在商务（以及法务）层面上会经常接触这两个不同的权利。有时候也会有碟片相关的权利出现在商谈中。</p><h3>独占/非独占</h3><p data-pid=\"n1Dcy8XE\">又称“排他”和“非排他”。在视频内容的语境下，一般指在授权条件内是将权利仅授予对象视频平台A一家，还是保留可授权其他家（例如视频平台B）的权利。</p><h3>授权期/地域/语言</h3><p data-pid=\"vg_2IZpR\">是版权（授权）合作需要约定的基础商务条件内容。通常需要在初期就约定，并明确在合同中。</p><p data-pid=\"Jod_Eiru\">【授权期】指内容可供被授权方使用的时间区间。在许多时候，被授权方可能会要求以含糊的文言记载在合同中。比如类似“视频内容通过审核并上线开始～3年”。然而这是不利于版权方进行版权管理的，是容易产生纠纷，损害版权方利益的。在多数情况下（特别是与日本版权方的case中），会需要“xxxx年x月x日至xxxx年x月x日”这样的明确记载。</p><p data-pid=\"2M-cYU1o\">【地域】指内容可供被授权方在哪些地域使用。通常不容易出幺蛾子。但需要规范的地域约定和记载。不能是模糊的“东南亚”这样的记载，且最为保险的方式是在文书中使用地域的全称。</p><p data-pid=\"xc0oa7dH\">【语言】指被授权方可以使用哪种语言版本的内容。海外内容的情况下，有可能会精细到将“字幕”“语音”以及两者的结合情况进行规定。例如“日语语音+汉语字幕”“汉语语音+汉语字幕”。</p><h3>转授权</h3><p data-pid=\"hUQa3n1X\">转授权是指，在版权方（授权方）将某种权利授权给被授权方（比如A）后，A将其再次授权给另一家公司B的行为。</p><p data-pid=\"XeDQEdvI\">“转授权”是一个比较容易起争议的地方。</p><p data-pid=\"Mem_NWPH\">站在版权方的角度来看，这关系到自己的视频内容是不是会被滥用，造成机会成本丧失。而站在被授权方的角度来看，这有关系到拿到手的内容是否能在自己这里发挥最大的商业价值。所以转授权很可能会成为商务层面的争议焦点。</p>"
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 110463117732}",
+      "attached_info": "Cv0FCJTCzJXlnfSMkwEQBBoJNzE1MjA3MDQzINL8970GKAYwAEDsBEo5CiRUU19TT1VSQ0VfUEFJRF9DT0xVTU5fVFdPX1RPV0VSX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgcxMTU3NzExYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IMMTEwNDYzMTE3NzMyigEIMjI0NDIwODiqAQlyZWNvbW1lbmTCASBhMDU3ZDJlZGQzYjFiMTBkMzU1MWY0ZjVhMDEyOGY2ZfIBCggMEgZOb3JtYWzyASgIChIkODNiYWQwMWEtOTcxYy00ODAzLWE5NmQtODIwZjA2MTU3YjE38gEHCAsSAzEwNIICAIgCsovP+YwzkgIgYTA1N2QyZWRkM2IxYjEwZDM1NTFmNGY1YTAxMjhmNmWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAiRUU19TT1VSQ0VfUEFJRF9DT0xVTU5fVFdPX1RPV0VSX1RFWFToAgT6AgtOT1JNQUxfRkxPV4oDIDMzZWViOWQ0NmU0NDQwZDg5OGFhNmJmYzhjNDlkZGQwmgMNCgJ2MhAAGgVvdGhlcqgD7wbYAwDqAxZwYWlkQ29sdW1uVGV4dFR3b1Rvd2Vy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ9AMYvQUiI3YyLWQzNzFjNTMyMGE1ZDA0YzY3ZTQxZjhkNzRhNWZhMmIwgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgih+aP4EFAAAAAAAAAACJBWLmuggGVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBWiQBgCgBvIEqAYAkgInCgk3MTUyMDcwNDMSDDExMDQ2MzExNzczMhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "621_1755822933.485",
+      "type": "feed",
+      "offset": 621,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822933,
+      "updated_time": 1755822933,
+      "target": {
+        "id": "1939366556476891941",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939366556476891941",
+        "author": {
+          "id": "150429438fafd91d2143e9a4f727b75a",
+          "url": "https://api.zhihu.com/people/150429438fafd91d2143e9a4f727b75a",
+          "user_type": "people",
+          "url_token": "mao-mao-ai-ruan-jian",
+          "name": "HR猫姐",
+          "headline": "帆软HRBP|人力资源总监",
+          "avatar_url": "https://pica.zhimg.com/50/v2-7295ffb13826d7d961ddf3ae401b7990_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "人力资源（HR）等 2 个话题下的优秀答主",
+              "topic_names": [
+                "人力资源（HR）",
+                "职场"
+              ],
+              "topic_ids": [
+                1657,
+                2566
+              ]
+            }
+          ],
+          "followers_count": 81561,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755161018,
+        "updated_time": 1755161018,
+        "voteup_count": 4,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "21459906",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/21459906",
+          "author": {
+            "id": "fb96a7872103fc1468907a99f347b364",
+            "url": "https://api.zhihu.com/people/fb96a7872103fc1468907a99f347b364",
+            "user_type": "people",
+            "url_token": "a-hun",
+            "name": "阿混",
+            "headline": "电动车狂热爱好者，市面上主流电动车基本都开过。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-7655011fbf4a047e85aeee130ce0de6e_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 32831,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有哪些好的软件 Mac 下有，而 Windows 下没有？",
+          "created": 1376133918,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 3,
+          "bound_topic_ids": [
+            377
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-7a485c2a51404d1b4cfa609467455479_720w.jpg?source=b6762063",
+        "excerpt": "这篇文章为大家总结了多款在 Windows 和 Mac 上装机必备的 高效率文件管理软件，以及一些超方便的跨平台文件传输工具！话不多说，干货上场！01 Alfred （仅限 macOS）Alfred 是我在 Mac 上用过的效率工具里，最常用的启动器之一。 它的核心功能很简单： 通过快捷键调出输入框，就能搜索文件、打开应用或者网页。相比 Finder，自带搜索框响应更快，尤其是当文件量大的时候，速度明显优势。我个人最常用的功能是 Workflows。它可以…",
+        "excerpt_new": "这篇文章为大家总结了多款在 Windows 和 Mac 上装机必备的 高效率文件管理软件，以及一些超方便的跨平台文件传输工具！话不多说，干货上场！01 Alfred （仅限 macOS）Alfred 是我在 Mac 上用过的效率工具里，最常用的启动器之一。 它的核心功能很简单： 通过快捷键调出输入框，就能搜索文件、打开应用或者网页。相比 Finder，自带搜索框响应更快，尤其是当文件量大的时候，速度明显优势。我个人最常用的功能是 Workflows。它可以…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"MHt0ljj6\">这篇文章为大家总结了多款在 Windows 和 Mac 上装机必备的<b>高效率文件管理软件，以及一些超方便的跨平台文件传输工具！</b>话不多说，干货上场！</p><h2>01 <a href=\"https://link.zhihu.com/?target=https%3A//www.alfredapp.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Alfred</a>（仅限 macOS）</h2><p data-pid=\"75il7JD7\">Alfred 是我在 Mac 上用过的效率工具里，最常用的启动器之一。</p><p data-pid=\"j6mlBvln\">它的核心功能很简单：<b>通过快捷键调出输入框，就能搜索文件、打开应用或者网页。</b>相比 Finder，自带搜索框响应更快，尤其是当文件量大的时候，速度明显优势。</p><p data-pid=\"ZFsg0gf7\">我个人最常用的功能是 Workflows。它可以把一些重复操作打包成一键执行，比如批量打开工作用的几个文件夹、整理下载文件夹或者执行固定网页搜索。</p><p data-pid=\"nez7F-6a\"><b>设置上有一定学习成本，但设置好之后，日常操作可以节省不少时间。</b></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-98d4898b1c2db8c9e669ca01bc46e648_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1440\" data-rawheight=\"910\" data-original-token=\"v2-7a485c2a51404d1b4cfa609467455479\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic3.zhimg.com/v2-98d4898b1c2db8c9e669ca01bc46e648_r.jpg\"/></figure><p data-pid=\"d7BcoQfW\">Alfred 还有剪贴板历史和 Snippet 管理功能。</p><ul><li data-pid=\"ap9Uwit0\">剪贴板可以记录最近复制的内容，方便查找和复用；</li><li data-pid=\"2dQG15_I\">Snippet 可以存一些固定文本，工作中回复邮件或填表格时用得上。</li></ul><blockquote data-pid=\"L844TvQ6\">注意：Alfred 仅支持 macOS，如果你用 Windows，就需要找替代工具。</blockquote><h2><b>02 </b><a href=\"https://link.zhihu.com/?target=http%3A//hapigo.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hapigo</a>（仅限 macOS）</h2><p data-pid=\"gFJOrJ4-\">Hapigo可以理解为 Alfred 的国产化版本，界面全中文，上手比 Alfred 更快一些。</p><p data-pid=\"KBz_Q2Sb\">基本功能差不多：<b>文件搜索、应用搜索、网页搜索都支持，还能在右侧直接预览文件内容。</b></p><p data-pid=\"c_t5ACiW\">我用下来最大的感觉是，它对中文环境的适配更好。</p><p data-pid=\"7jeOEyE9\">内置了国内常用网站的搜索入口，比如直接搜知乎、百度或者 B 站，操作上比 Alfred 更直观，不需要自己设置 Workflows 就能用上这些搜索功能。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1550b7cba15716315aa3228f10316813_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1929\" data-rawheight=\"1158\" data-original-token=\"v2-ae459abd7d3834c247bcfe672718e2dc\" class=\"origin_image zh-lightbox-thumb\" width=\"1929\" data-original=\"https://pic2.zhimg.com/v2-1550b7cba15716315aa3228f10316813_r.jpg\"/></figure><p data-pid=\"yz0FTQfQ\">Hapigo 也支持自定义快捷键和一些简单的操作流程，但相比 Alfred 的 Workflows，它的扩展性稍弱，如果你的需求只是日常搜索和快速打开文件，它已经够用。</p><p data-pid=\"FjeKl4Jt\">但如果想做复杂自动化，可能 Alfred 更灵活。</p><h2>03  <a href=\"https://link.zhihu.com/?target=http%3A//www.wox.one/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Wox</a>（仅限 Windows）</h2><p data-pid=\"WrpGtH5L\">Windows 上比较成熟的启动器工具，可以理解为 Windows 版本的 Alfred。它的核心功能也是<b>快速搜索应用、文件和网页，并支持插件扩展。</b></p><p data-pid=\"znpRZAc1\">我用 Wox 的体验是：</p><ul><li data-pid=\"x81-0QTO\">启动速度快，按下快捷键就能调出搜索框，输入文件名或者应用名几乎秒出结果，比系统自带的搜索框要流畅。</li><li data-pid=\"aWRQGKyk\">插件丰富，比如可以直接在 Wox 里搜索谷歌、翻译、计算器等，扩展了很多功能。</li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3a1d26f19e358e1a79f7ac353e002081_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"374\" data-original-token=\"v2-ad26d60dcde12b19bcc1fee3727520d5\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://picx.zhimg.com/v2-3a1d26f19e358e1a79f7ac353e002081_r.jpg\"/></figure><p data-pid=\"xvo5gWGl\">Wox 的配置略微有点复杂，尤其是安装插件和自定义主题，需要花一些时间摸索。但一旦配置好，日常使用非常方便。</p><h2><b>04 </b><a href=\"https://link.zhihu.com/?target=https%3A//www.jiandaoyun.com/%3Futm_src%3Dfazxzhmzhseo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">简道云</a><b>（网页工具，通用）</b></h2><p data-pid=\"6_HvvflE\">一款低代码/零代码的平台，主要用来搭建企业内部的数据管理和业务流程系统。</p><p data-pid=\"xlAeZqDN\"><b>我自己用它来做日常的数据收集、分析、报表管理和审批流程，感受是灵活性和上手门槛都比较友好。</b></p><p data-pid=\"QQwdKaD-\">核心优势在于：</p><ul><li data-pid=\"ZO9KOmnM\"><b>表单和数据管理</b>：可以快速搭建各类表单，收集数据后自动汇总，减少手工整理表格的时间。</li><li data-pid=\"5SlI-F6n\"><b>自动化流程</b>：支持审批、提醒、任务流转等功能，简单配置就能把重复性流程自动化。</li><li data-pid=\"ufs7vpl6\"><b>报表与可视化</b>：数据可以直接生成图表和看板，方便管理层和团队随时查看关键指标。</li><li data-pid=\"er1ibl0m\"><b>跨平台</b>：支持网页和客户端，团队成员随时随地都能访问和操作。</li></ul><p data-pid=\"UVODWf7P\">使用感受上，它适合中小企业或者团队，需要快速搭建内部管理工具，不想花大量时间开发系统。</p><p data-pid=\"unmM821K\">缺点是，如果业务逻辑特别复杂，低代码平台可能需要一些 workaround 才能满足，但对于大部分日常管理场景，已经很够用了。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4f9c1d15b29884674bb546d33ef9ee47_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1132\" data-rawheight=\"743\" data-original-token=\"v2-4f9c1d15b29884674bb546d33ef9ee47\" data-thumbnail=\"https://pic4.zhimg.com/v2-4f9c1d15b29884674bb546d33ef9ee47_b.jpg\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-4f9c1d15b29884674bb546d33ef9ee47_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1132\" data-original=\"https://pic4.zhimg.com/v2-4f9c1d15b29884674bb546d33ef9ee47_r.jpg\"/></figure><h2><b>05 </b><a href=\"https://link.zhihu.com/?target=https%3A//eagle.cool/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Eagle</a>（Windows &amp; macOS）</h2><p data-pid=\"wjB5h86C\">Eagle 是我用过的素材管理工具里比较完整的一款，<b>特别适合需要整理大量图片、素材的创意工作者。</b></p><p data-pid=\"5jw6Eken\">它的核心功能是收集和分类素材，无论是<b>网页图片、设计稿还是文档，都能统一管理</b>。</p><p data-pid=\"ayPa8Fnx\">我最常用的是网页抓图和素材整理功能：</p><ul><li data-pid=\"d5-a9iOL\">安装浏览器插件后，可以一键抓取网页上的图片，即使是受限的图片也能通过 Alt+右键（mac 为 Option+右键）提取。</li><li data-pid=\"EuXhNWog\">素材导入后，Eagle 会显示预览，并支持批量导出、格式转换，像 PSD、Word、PDF 都能直接浏览，减少了频繁打开软件的步骤。</li></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8e65f455939cc1e1ea66951fd21dd9bf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1700\" data-rawheight=\"1070\" data-original-token=\"v2-7bebcf01e66701588676e80413bf36b1\" class=\"origin_image zh-lightbox-thumb\" width=\"1700\" data-original=\"https://pic2.zhimg.com/v2-8e65f455939cc1e1ea66951fd21dd9bf_r.jpg\"/></figure><p data-pid=\"dM-fFVkv\">“智能文件夹”功能可以根据自定义标准自动归类，比如按颜色、格式或标签整理素材，非常适合素材量大的情况。相比手动分类，节省了不少时间。</p><h2>06 <a href=\"https://link.zhihu.com/?target=https%3A//learn.microsoft.com/en-us/windows/powertoys/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Microsoft PowerToys</a>（仅限 Windows）</h2><p data-pid=\"95IpEMmZ\">微软官方提供的一整套生产力工具集合，我平时在 Windows 上主要用它来提升多窗口操作效率和文件管理效率。</p><p data-pid=\"DQRTc6_w\">它包含的功能比较杂，但用起来很实用，我常用的几个功能：</p><ul><li data-pid=\"wyDlDW3X\"><b>FancyZones</b>：可以自定义窗口布局，把多个应用固定到屏幕不同区域，多任务处理的时候很方便。</li><li data-pid=\"XaFxuCN6\"><b>文件资源预览</b>：无需打开应用就能预览文件内容，类似 macOS 的空格键预览，查文件时能节省不少时间。</li><li data-pid=\"pgFKldCZ\"><b>PowerRename</b>：批量重命名工具，支持正则表达式和搜索替换，用来处理大量文件名很省事。</li><li data-pid=\"BeTBR4Kb\"><b>颜色选取器</b>：按 Win + Shift + C 可以获取屏幕上任意颜色的色值，做设计或 PPT 时很方便。</li></ul><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a7679e93dbdfa9ff47ad8d7b33f3e4a6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"513\" data-original-token=\"v2-ef27b39ca684b720703377e616ddab1c\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pica.zhimg.com/v2-a7679e93dbdfa9ff47ad8d7b33f3e4a6_r.jpg\"/></figure><p data-pid=\"JQrey0no\">我个人体验下来，PowerToys 更像是工具合集，每个功能独立使用就能带来效率提升，但如果不常用多任务或文件批处理的人，可能只会用其中一两个功能。</p><h2>07 Fences（仅限 Windows，付费）</h2><p data-pid=\"73AMn3no\">一款专注于桌面图标整理的工具，我用它主要是为了让桌面看起来更清爽，也方便快速找到常用文件和应用。</p><p data-pid=\"nroiTYxX\">它的核心功能是自动给桌面图标分区，可以自定义分组，例如<b>“工作文档”“设计素材”“工具软件”等，桌面一目了然。</b></p><p data-pid=\"BUwGkQHF\">使用体验上，Fences 的分类比较智能：新加的图标可以自动归类到相应分区，也可以隐藏不常用的图标，让桌面保持整洁。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6ec0147334a39eb411c66c33bc883f18_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"848\" data-rawheight=\"648\" data-original-token=\"v2-fc5735de4e6177be535a7bfbb23e7282\" class=\"origin_image zh-lightbox-thumb\" width=\"848\" data-original=\"https://pic3.zhimg.com/v2-6ec0147334a39eb411c66c33bc883f18_r.jpg\"/></figure><p data-pid=\"EGNfVxIk\">不过Fences 是付费软件，目前买断价格大概 49 人民币（官方渠道可能略有差异）。功能比 Goodesker 更丰富，尤其是在自动分组和桌面隐藏方面，但如果你只是想做基础整理，付费就没有必要了。</p><h2>08  <a href=\"https://link.zhihu.com/?target=https%3A//www.coodesker.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Goodesker</a>（仅限 Windows，免费）</h2><p data-pid=\"frxUYUiU\">Goodesker 是一款轻量级的桌面整理工具，相比 Fences 功能简单一些，但完全免费。它的主要功能是给<b>桌面图标自动分区整理，并支持自定义分组。</b></p><p data-pid=\"j9IkKdD4\">我用下来发现，它适合追求简洁、桌面图标不算特别多的用户。</p><blockquote data-pid=\"u22Phy_i\"><b>分区和图标排序基本能满足日常整理需求，而且占用系统资源很低，不会影响其他办公或设计软件的运行。</b></blockquote><p data-pid=\"Q2sOJVry\">和 Fences 比较，Goodesker 没有自动隐藏图标和更多高级设置，也不支持双击桌面收起图标，但胜在上手快，配置简单，即装即用。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f0a113a81dce66a35ec3991093b42dd7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"620\" data-rawheight=\"286\" data-original-token=\"v2-a4b84142c745b04538b3f304dd8d7781\" class=\"origin_image zh-lightbox-thumb\" width=\"620\" data-original=\"https://pic4.zhimg.com/v2-f0a113a81dce66a35ec3991093b42dd7_r.jpg\"/></figure><p data-pid=\"pSESTzSu\">对于只想让桌面看起来整洁、有序，而不需要复杂功能的人来说，Goodesker 已经够用。</p><h2>09 <a href=\"https://link.zhihu.com/?target=http%3A//www.dropitproject.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Dropit</a>（仅限 Windows）</h2><p data-pid=\"CGbXZNMS\">一款小巧但功能比较全面的文件分类工具，我用它主要是处理下载文件夹里堆积的一堆文件。</p><p data-pid=\"mTwfg7pC\">它<b>的核心功能是按规则自动分类和移动文件，还支持重命名、压缩、解压等操作，总共有 21 项功能。</b></p><p data-pid=\"XDLOy1Te\">使用体验上，我自己设置了几条规则：</p><ul><li data-pid=\"n6o0cGIB\">比如把 PDF 自动移动到“文档”文件夹</li><li data-pid=\"wWmmCuBr\">把图片归类到“素材”文件夹</li><li data-pid=\"2YXXdW_z\">视频归到“视频”文件夹</li></ul><p data-pid=\"mjt6JejH\">每天只要把新文件拖到 Dropit 的窗口里，它就会根据规则自动处理，对于下载文件夹或临时文件多的人，能节省不少整理时间。</p><p data-pid=\"wWuTyeGJ\">界面比较朴素，但功能够用，适合追求实用而不是花哨界面的用户。</p><h2>10 Assetizr（Windows &amp; macOS）</h2><p data-pid=\"pQDB0LOj\">一款专注于图片无损压缩的工具，我主要用它处理素材库和网站图片。</p><p data-pid=\"Rbg5gJEh\">它支持常见格式，比如 JPEG、PNG、WebP、AVIF、SVG 等，操作也很简单：<b>直接把文件拖进去就能压缩。</b></p><p data-pid=\"vZbQF6wC\">它的优势就是快速和高保真——压缩后图片体积明显变小，但画质几乎没有损失，非常适合批量处理图片、节省存储空间或者优化网页加载速度。</p><p data-pid=\"c1jfUCo9\">相比一些在线压缩工具，<b>Assetizr 不依赖网络，也能一次处理大量文件，效率更高。</b></p><p data-pid=\"aZpxmak5\">界面直观，上手几乎不需要学习成本，唯一的局限是，<b>它只做图片压缩，如果还需要做其他文件类型的处理，就需要搭配其他工具。</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0f8089c2212557553ec6fb1bb4909fb5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"450\" data-original-token=\"v2-69249f516dbbb58ecdd53ab38de91c54\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-0f8089c2212557553ec6fb1bb4909fb5_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1273,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-7a485c2a51404d1b4cfa609467455479_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ae459abd7d3834c247bcfe672718e2dc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-39a13d7233684ce734ec61dd6f9bba41_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-7bebcf01e66701588676e80413bf36b1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fc5735de4e6177be535a7bfbb23e7282_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 15,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939366556476891941}",
+      "attached_info": "CpcJCJTCzJXlnfSMkwEQBBoJNzQyMTc4OTU1ILrD9sQGKAQwAEDtBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgY3NjQ2NzliIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTM5MzY2NTU2NDc2ODkxOTQxigEIMjE0NTk5MDaqAQlyZWNvbW1lbmTCASAxNTA0Mjk0MzhmYWZkOTFkMjE0M2U5YTRmNzI3Yjc1YfIBCggMEgZOb3JtYWzyASgIChIkM2VmNjE1MWMtZGFhMS00NDljLTk5MjYtN2VkZjY5M2JkMTk08gEHCAsSAzEwNIICAIgCs4vP+YwzkgIgMTUwNDI5NDM4ZmFmZDkxZDIxNDNlOWE0ZjcyN2I3NWGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDMzZWViOWQ0NmU0NDQwZDg5OGFhNmJmYzhjNDlkZGQwmgMNCgJ2MhAAGgVvdGhlcqgD+QnYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gPGAxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEKALGI4HIiN2Mi03YTQ4NWMyYTUxNDA0ZDFiNGNmYTYwOTQ2NzQ1NTQ3OTotCAQQiQ8YhgkiI3YyLWFlNDU5YWJkN2QzODM0YzI0N2JjZmU2NzI3MThlMmRjOi0IAhD0Axj2AiIjdjItYWQyNmQ2MGRjZGUxMmIxOWJjYzFmZWUzNzI3NTIwZDU6LQgAEOwIGOcFIiN2Mi00ZjljMWQxNWIyOTg4NDY3NGJiNTQ2ZDMzZWY5ZWU0NzotCAQQpA0YrggiI3YyLTdiZWJjZjAxZTY2NzAxNTg4Njc2ZTgwNDEzYmYzNmIxOi0IAxCAChiBBCIjdjItZWYyN2IzOWNhNjg0YjcyMDcwMzM3N2U2MTZkZGFiMWM6LQgDENAGGIgFIiN2Mi1mYzU3MzVkZTRlNjE3N2JlNTM1YTdiZmJiMjNlNzI4MjotCAMQ7AQYngIiI3YyLWE0Yjg0MTQyYzc0NWIwNDUzOGIzZjMwNGRkOGQ3NzgxOi0IAhDYBBjCAyIjdjItNjkyNDlmNTE2ZGJiYjU4ZWNkZDUzYWIzOGRlOTFjNTSABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGC1YZU/gQUAAAAAAAAAAIkFYua6CAZU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFaJAGAKAG8wSoBgCSAi4KCTc0MjE3ODk1NRITMTkzOTM2NjU1NjQ3Njg5MTk0MRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "622_1755822933.308",
+      "type": "feed",
+      "offset": 622,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822933,
+      "updated_time": 1755822933,
+      "target": {
+        "id": "1941805750650401165",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941805750650401165",
+        "author": {
+          "id": "616859806328857a26503731c7f1b8c0",
+          "url": "https://api.zhihu.com/people/616859806328857a26503731c7f1b8c0",
+          "user_type": "people",
+          "url_token": "ajie33",
+          "name": "方方五",
+          "headline": "知其要者，一言而终",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 63,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755742567,
+        "updated_time": 1755742567,
+        "voteup_count": 4,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1941638296775132478",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1941638296775132478",
+          "author": {
+            "id": "772436d45d0ea1e155ae32fc444f2f88",
+            "url": "https://api.zhihu.com/people/772436d45d0ea1e155ae32fc444f2f88",
+            "user_type": "people",
+            "url_token": "47-71-75-38-61",
+            "name": "超凡地吃货",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-25ac7c0d6225fc37e7f4419d75895b22_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何正确去读一本书？",
+          "created": 1755702643,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            28605,
+            138771,
+            2196801
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "带着问题去读书。 1、我想从这本书里，学到什么知识，解决什么疑问，获得哪方面的成长？ 2、观点论述的角度、思考的逻辑，与我有什么不同？有哪些值得我学习，拓展了我的思维？ 3、作者介绍的理论、方法、成功经验，是在什么社会文化背景、经济环境、家庭环境、教育体系下产生的？这些理论、成功经验在当下的时代是否依然有效？ 然后去实践，再回头读一遍来验证。 举个例子：读段永平投资问答录《大道》 段永平是成功投资了小霸…",
+        "excerpt_new": "带着问题去读书。 1、我想从这本书里，学到什么知识，解决什么疑问，获得哪方面的成长？ 2、观点论述的角度、思考的逻辑，与我有什么不同？有哪些值得我学习，拓展了我的思维？ 3、作者介绍的理论、方法、成功经验，是在什么社会文化背景、经济环境、家庭环境、教育体系下产生的？这些理论、成功经验在当下的时代是否依然有效？ 然后去实践，再回头读一遍来验证。 举个例子：读段永平投资问答录《大道》 段永平是成功投资了小霸…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"DtT6nVQU\">带着问题去读书。</p><p data-pid=\"q6mO16Hf\">1、我想从这本书里，学到什么知识，解决什么疑问，获得哪方面的成长？</p><p data-pid=\"uq0Z_b3G\">2、观点论述的角度、思考的逻辑，与我有什么不同？有哪些值得我学习，拓展了我的思维？</p><p data-pid=\"BRG2gSvG\">3、作者介绍的理论、方法、成功经验，是在什么社会文化背景、经济环境、家庭环境、教育体系下产生的？这些理论、成功经验在当下的时代是否依然有效？</p><p data-pid=\"jXQqgkSL\">然后去实践，再回头读一遍来验证。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yttWKguX\">举个例子：读段永平投资问答录《大道》</p><p data-pid=\"FVyaTTiA\">段永平是成功投资了小霸王、步步高、小天才、OPPO、VIVO、拼多多、极兔速递的传奇人物。</p><p data-pid=\"0N2k4Fr7\">读这本书之前带着的问题：</p><p data-pid=\"rRbE7sI2\">1、了解段永平的投资理念。他投资一家公司前，是如何分析、决策的？</p><p data-pid=\"pA6HfEID\">2、他为什么可以连续成功？底层思维是什么？</p><p data-pid=\"_M-auGa-\">3、他的投资理念是否可以复制，我是否能借鉴这些经验在当下去参照投资？</p><p data-pid=\"aVN4uX3w\">看书的时候，直接奔着问题去，看目录直接跳到问题点的章节，不必须逐页逐字去读。觉得逻辑无法理解，再前后文细读。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jsu_GdhO\">以上是个人的读书方法，供参考。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 63,
+        "favorite_count": 10,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941805750650401165}",
+      "attached_info": "CowGCJTCzJXlnfSMkwEQBBoJNzQzMjIwNjcwIOeCmsUGKAQwAEDuBEojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDISATAYACAAOgBKLwokVFNfU09VUkNFX1dBUk1VUF9UV09UT1dFUl9FWFBWMl9URVhUEgEwGAAgADoAWgkxMTYyODczNDJiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxODA1NzUwNjUwNDAxMTY1igETMTk0MTYzODI5Njc3NTEzMjQ3OKoBCXJlY29tbWVuZMIBIDYxNjg1OTgwNjMyODg1N2EyNjUwMzczMWM3ZjFiOGMw8gEKCAwSBk5vcm1hbPIBKAgKEiRjMjcwMWIxYS1jYmJhLTQ2NzMtYmUxNy04MTk2YzMwNDNlMmPyAQcICxIDMTA0ggIAiAKzi8/5jDOSAiA2MTY4NTk4MDYzMjg4NTdhMjY1MDM3MzFjN2YxYjhjMJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDLoAgL6AgtOT1JNQUxfRkxPV4oDIDMzZWViOWQ0NmU0NDQwZDg5OGFhNmJmYzhjNDlkZGQwmgMNCgJ2MhAAGgVvdGhlcqgDP9gDAOoDLmNvbnRlbnRXYXJtdXBUd29Ub3dlclR2cFRleHRCb29zdEV4cFYyUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABA3nKfP4EFAAAAAAAAAACJBWLmuggGVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBWiQBgCgBvQEqAYBkgIuCgk3NDMyMjA2NzASEzE5NDE4MDU3NTA2NTA0MDExNjUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "623_1755822933.766",
+      "type": "feed",
+      "offset": 623,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822933,
+      "updated_time": 1755822933,
+      "target": {
+        "id": "1939653132431913363",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939653132431913363",
+        "author": {
+          "id": "33998db66213ede69b79f01839ee74d5",
+          "url": "https://api.zhihu.com/people/33998db66213ede69b79f01839ee74d5",
+          "user_type": "people",
+          "url_token": "zheng-yu-lun-7",
+          "name": "古纪G8",
+          "headline": "无",
+          "avatar_url": "https://picx.zhimg.com/50/8e1a75821b6f1b0a0c7295d1b4fbbab8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 658,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755229343,
+        "updated_time": 1755744940,
+        "voteup_count": 7199,
+        "thanks_count": 1192,
+        "comment_count": 853,
+        "is_copyable": true,
+        "question": {
+          "id": "506692385",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/506692385",
+          "author": {
+            "id": "c8022a3e39138a46e7195d2596c16363",
+            "url": "https://api.zhihu.com/people/c8022a3e39138a46e7195d2596c16363",
+            "user_type": "people",
+            "url_token": "yi-yi-87-47-85-50",
+            "name": "哎嗨喂喂",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "猫被打出屎了，还是哈人和低吼，太倔强了怎么办？",
+          "created": 1639726093,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 21,
+          "bound_topic_ids": [
+            1570
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "哈基米这种生物本质上就是低级脊椎动物，和鱼类差不了多少。 哈基米的绝大部分行为都是由脊椎控制的，大脑基本没几个褶子， 科学家做过实验，即使把猫脑屏蔽掉，哈基米也能正常进行走路，进食等一系列动作， 这也是为什么哈基米经常攻击自己的身体部分，因为它就没有“自我”这个概念，基本就是由一系列设定好的程序运行的生物，最终目的就是吃，睡，焦培。 以下例子均有实际视频出处，并非我个人臆想虚构↓举例1：在挠痒痒的时…",
+        "excerpt_new": "哈基米这种生物本质上就是低级脊椎动物，和鱼类差不了多少。 哈基米的绝大部分行为都是由脊椎控制的，大脑基本没几个褶子， 科学家做过实验，即使把猫脑屏蔽掉，哈基米也能正常进行走路，进食等一系列动作， 这也是为什么哈基米经常攻击自己的身体部分，因为它就没有“自我”这个概念，基本就是由一系列设定好的程序运行的生物，最终目的就是吃，睡，焦培。 以下例子均有实际视频出处，并非我个人臆想虚构↓举例1：在挠痒痒的时…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"yUFkOWPq\">哈基米这种生物本质上就是低级脊椎动物，和鱼类差不了多少。</p><p data-pid=\"h7wdpMv2\">哈基米的绝大部分行为都是由脊椎控制的，大脑基本没几个褶子，</p><p data-pid=\"plgZqZ4b\">科学家做过实验，即使把猫脑屏蔽掉，哈基米也能正常进行走路，进食等一系列动作，</p><p data-pid=\"Avvh-9pc\">这也是为什么哈基米经常攻击自己的身体部分，因为它就没有“自我”这个概念，基本就是由一系列设定好的程序运行的生物，最终目的就是吃，睡，焦培。</p><p data-pid=\"wHOr4p32\"><b>以下例子均有实际视频出处，并非我个人臆想虚构↓</b></p><p data-pid=\"F_mh7zmB\">举例1：在挠痒痒的时候不小心触发了攻击程序，导致基腿蹬了自己的脸→判定眼前这个东西正在攻击自己，触发反击程序，开始咬自己的腿→咬自己的腿咬痛了，进一步判定自己正在受到攻击，触发蹬腿反击程序→腿和自己打了起来。</p><p data-pid=\"WeMXrfrX\">举例2：看到哈基人在身后→扭头哈气→扭头时扭得太狠把脖子扭脱臼了→系统判定：歪头不动=需要挠痒→后腿开始挠痒</p><p data-pid=\"FGGiNLSM\">举例3：发癫痫→系统一片混乱，不知道该执行那个程序→发癫过程中毛上沾了水→优先触发舔毛代码→舔毛代码覆盖其他进程→无事发生，该干啥干啥。</p><p data-pid=\"1ENJ_pqH\">举例4：哈基米在水泥地上拉屎→触发埋屎代码→爪子巴拉后回头看见自己的屎→由于已经执行过埋屎代码，因此面前这坨东西是突然出现在自己身后的→判定自己的屎为入侵者，开始哈气→哈气无效，开始攻击自己的屎。</p><p data-pid=\"cgsfSFc0\">举例5：遇到大运开过来→哈气威慑→威慑无效，对方体型过于庞大→执行躲避程序→躲避程序判定结果：阴暗处最安全→往车轮底下钻。</p><p data-pid=\"cdcI7Y_K\">举例6：自己被网缠住了→对网哈气→攻击网，导致自己被缠得更狠→看见哈基人来了，判定为攻击我的元凶→奋力攻击，哈气循环→哈基人给自己解开了网，顺手给哈基人一爪子，逃跑→姐妹们哈气真的有用！</p><p data-pid=\"FSP0OqkE\">举例7：发现桌上有杯子→手贱→打翻杯子，水溅到自己身上→触发应激代码→满屋子乱窜→打翻更多东西→继续触发应激代码</p><p data-pid=\"sjG76lD1\">举例8：把小猫抱在怀里舔毛→感应到有东西在自己肚子附近→触发蹬腿反击代码→一边舔小猫一边蹬小猫</p><p data-pid=\"CoyC6JQs\">↑（这个行为被很多爱猫人士解读为教育小猫，但实际上就是单纯触发了蹬腿本能，猫妈妈因为触发各种奇怪的代码把小猫害死的事数不胜数，比如用嘴叼着小猫的时候莫名触发捕猎代码，把小猫当做猎物玩弄，然后又突然意识到这是小猫，开始左右脑互搏。你不能指望一个幼崽被人摸过就有可能认不出幼崽而把幼崽咬死的生物会有“教育”的意识。也别说什么有猫妈妈教育的小猫更听话，流浪猫二代都是猫妈妈带出来的，也没见这些二代流浪猫性格有多好，性格好的猫基本都是从小在人的教育下长大，通过人为一代一代选拔出来的，比如暹罗猫。）</p><p data-pid=\"hFTk2I5X\">举例9：看见哈基米的尸体趴在马路上→触发焦培代码→和哈基米的尸体焦培（开玩笑的，哈基米并没有冰恋的爱好，只是单纯连活物和尸体都分不清罢啦，我们哈基米的智商真是太高啦。）</p><p data-pid=\"_dT0_keY\">举例10：哈基米远远看见哈基狮→根据近大远小定理，判定为体型差不多大的同类（冷知识：哈基米对于距离和物体大小的判断力非常差，不然也不会动不动跳楼，狗都知道不要从高处往下跳，但是哈基米往往判断不了高度。）→开启棘背龙形态，原地哈气→哈基狮开始捕猎哈基米，哈基米这才发现对方体型远在自己之上→逃跑，但为时已晚→回头哈气</p><p data-pid=\"CHH9g0h7\">举例11：两只哈基米产生地盘冲突，开始互相哈气→哈基人用一个障碍物挡住两只哈基米的视线→对手消失，威胁解除→哈基人将障碍物挪开→对手出现，继续哈气</p><p data-pid=\"jMxFvLxD\">（在哈基米的世界里，看不见=不存在，这也是为什么哈基米被追到穷途末路时，会跑到一些犄角旮旯的地方，或者水管后面，把自己的视线挡住，因为看不见威胁=威胁不存在。）</p><p data-pid=\"12YoAzQb\">举例12：哈基米撞到玻璃门→尝试逃向另一个方向，撞到玻璃墙→尝试逃向另一个方向，撞到同一个玻璃门→尝试逃向另一个方向，撞到同一面玻璃墙→尝试逃向另一个方向，再次撞到同一玻璃门→循环数次之后，哈基人看不下去过来打开玻璃门→撞向打开的玻璃门。</p><p data-pid=\"nDn-Z3b_\">（不好意思，开头还说哈基米和鱼类差不多，但我还没见过鱼缸里的鱼会反复撞玻璃差点把自己撞死的。）</p><p data-pid=\"bIMMt-vp\">说真的，在自然界的脊椎动物里，已经很少能找到比哈基米还要低能的物种了，在所有常见宠物里，哈基米也是唯一一个特别交代要封窗的宠物，因为这种生物就是会蠢到不管几楼直接往外面跳，就这还有一堆人给这种生物唱赞歌，还共情上了，真不知道怎么想的。</p><hr/><p data-pid=\"86RUPoCW\">其实人类也有类似的不受自己控制的底层代码，比如呕吐，人类的身体很容易把一些不相关的现象判定为食物中毒，从而引发呕吐，比如坐车的时候眼睛和身体感受不一致，又或者左爱时过于兴奋，又或者只是单纯看到了一些恶心的东西，并没有吃下去，但也会引发呕吐。</p><p data-pid=\"UsV3sLSq\">但总的来说，高智商动物是可以一定程度上抑制这些本能，根据实际情况来做出判断的，然而哈基米绝大部分行为都是受本能影响，自己大脑判断的情况很少，虽然也不排除有不少聪明的猫，这类猫在群体里面已经是出类拔萃的了，但即使最聪明的猫，也就和犬类的平均智商差不多，别天天看萌宠视频看入脑了，去问问那些UP主，就会知道发出来的视频基本都是自家猫最乖的时候。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 523564,
+        "favorite_count": 2340,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939653132431913363}",
+      "attached_info": "CvMFCJTCzJXlnfSMkwEQBBoJNzQyMzAwMDI2IJ/Z+sQGKJ84MNUGQO8ESigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASlsKKVRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTF9USU1FX05FV19DT05URU5UEihob3RfcmVjYWxsX3JlYWx0aW1lX3Q6bmV3N2Q6MjAyNS0wOC0yMjoyGAAgADoAWgg3NDg4MDAyN2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5Mzk2NTMxMzI0MzE5MTMzNjOKAQk1MDY2OTIzODWqAQlyZWNvbW1lbmTCASAzMzk5OGRiNjYyMTNlZGU2OWI3OWYwMTgzOWVlNzRkNfIBCggMEgZOb3JtYWzyASgIChIkYzA1OGQ5OTMtZWE2Yi00YzQ1LThjZjktMzc0NjliNTI3NmVl8gEHCAsSAzEwNIICAIgCs4vP+YwzkgIgMzM5OThkYjY2MjEzZWRlNjliNzlmMDE4MzllZTc0ZDWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgP6AgtOT1JNQUxfRkxPV4oDIDMzZWViOWQ0NmU0NDQwZDg5OGFhNmJmYzhjNDlkZGQwmgMNCgJ2MhAAGgVvdGhlcqgDrPof2AMA+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNTfIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGB5u6E/gQUAAAAAAAAAAIkFYua6CAZU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFaJAGAKAG9QSoBgCSAi4KCTc0MjMwMDAyNhITMTkzOTY1MzEzMjQzMTkxMzM2MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=623&desktop=true&end_offset=629&page_number=105&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=623&desktop=true&end_offset=629&page_number=105&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

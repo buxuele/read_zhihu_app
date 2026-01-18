@@ -1,0 +1,677 @@
+{
+  "data": [
+    {
+      "id": "150_1768600319.380",
+      "type": "feed",
+      "offset": 150,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600319,
+      "updated_time": 1768600319,
+      "target": {
+        "title": "【大数据 & AI】Flink Agents 源码解读 --- (7) ---  AgentsExecutionEnvironment",
+        "updated": 1768485773,
+        "excerpt": "【大数据 &amp; AI】Flink Agents 源码解读 --- (7) --- AgentsExecutionEnvironment0x00 概要 0x01 基础知识 1.1 定义 1.2 功能 1.3 与原生 Flink Environment 的区别 0x02 LocalExecutionEnvironment 2.1 定义 2.2 LocalRunner 2.3 LocalRunnerContext 0x03 RemoteExecutionEnvironment 3.1 核心特色 3.2 与原生 Flink RemoteEnvironment 的对比 3.3 如何使用 ActionExecutionOperator 3.4 典型流程 3.5 交互逻辑 3.6 实现 0xFF 参考 0x00 概要Agent…",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-8cf0b9d3bb27827f9e96729c0095de26_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3e7283817ca5ee8371753e44eebbd019_720w.jpg?source=b6762063"
+        ],
+        "comment_count": 0,
+        "content": "<p data-pid=\"VOh5EZth\"><b>【大数据 &amp; AI】Flink Agents 源码解读 --- (7) ---  AgentsExecutionEnvironment</b></p><ul><li data-pid=\"1JQlAjOu\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">0x00 概要</a></li><li data-pid=\"1xfiLBDT\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">0x01 基础知识</a></li><ul><li data-pid=\"7QtycfMX\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">1.1 定义</a></li><li data-pid=\"QEIAvPdR\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">1.2 功能</a></li><li data-pid=\"GbVH3oRZ\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">1.3 与原生 Flink Environment 的区别</a></li></ul><li data-pid=\"6LXzkF-w\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">0x02 LocalExecutionEnvironment</a></li><ul><li data-pid=\"NT62Nn3T\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">2.1 定义</a></li><li data-pid=\"khhNQsCx\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">2.2 LocalRunner</a></li><li data-pid=\"pGbXa-JS\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">2.3 LocalRunnerContext</a></li></ul><li data-pid=\"jy3d8V_i\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">0x03 RemoteExecutionEnvironment</a></li><ul><li data-pid=\"eNaI5JRr\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">3.1 核心特色</a></li><li data-pid=\"EHxjt3SJ\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">3.2 与原生 Flink RemoteEnvironment 的对比</a></li><li data-pid=\"dcieSmvL\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">3.3 如何使用 ActionExecutionOperator</a></li><li data-pid=\"fvc9Pt6g\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">3.4 典型流程</a></li><li data-pid=\"pD1qam4-\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">3.5 交互逻辑</a></li><li data-pid=\"T3E5wScS\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">3.6 实现</a></li></ul><li data-pid=\"twB8TA87\"><a href=\"https://zhuanlan.zhihu.com/p/1995253521096921344/edit\" class=\"internal\" target=\"_blank\">0xFF 参考</a></li></ul><h2><b>0x00 概要</b></h2><p data-pid=\"U-EFca4n\">AgentsExecutionEnvironment 是在Flink基础上构建的一个更高层次的执行环境，专门为Agent而设计，同时保留了与原生 Flink API 的兼容性。</p><h2><b>0x01 基础知识</b></h2><p data-pid=\"JdPyG8Bc\">可以把 Flink 原生的 <code>StreamExecutionEnvironment</code> / <code>TableEnvironment</code> 理解成“Agent 话题里所说的<b>执行环境</b>（Execution Environment）”，但是其无法直接被 Agent 使用。因此需要在其上做一些封装和适配，这就是 AgentsExecutionEnvironment。</p><ol><li data-pid=\"xjBprIIB\">Flink Environment = 纯粹的<b>计算资源与运行时容器</b> </li></ol><ul><li data-pid=\"wLRyQsKw\">负责申请 Slot、管理 Checkpoint、调度算子链、网络 Shuffle</li><li data-pid=\"qa1gc-6L\">对“业务语义”一无所知，也不管用户写的是 ETL、CEP 还是 AI 推理</li><li data-pid=\"Kxn81vj9\">对应 Agent 词汇表里的“Runtime / Cluster / Engine”这一层</li></ul><li data-pid=\"uUNamlGO\">Agent Environment = 在 Flink Runtime 之上包了一层<b>语义抽象</b> </li><ul><li data-pid=\"VysOCGvi\">替用户注册 Chat Model、Tools、Memory、Actions、Event Schema</li><li data-pid=\"_2gA3-jB\">把“用户消息”或“传感器事件”封装成 Event，按 AgentPlan 去调大模型、执行业务动作</li><li data-pid=\"sn4FgCBV\">内部仍然用 <code>StreamExecutionEnvironment</code> 去提交算子，只是看不到显式的 <code>keyBy()</code> 和 <code>process()</code>——框架帮用户生成了 <code>ActionExecutionOperator</code></li></ul><p data-pid=\"tFK0fRt7\">类比关系如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">传统 Flink 程序\n├─ StreamExecutionEnvironment   ← 纯运行时\n├─ your ProcessFunction         ← 用户的业务逻辑\n└─ DataStream\n\nFlink Agents 程序\n├─ AgentsExecutionEnvironment   ← Agent 语义环境，内部仍持有 StreamExecutionEnvironment\n├─ AgentPlan（your business）   ← 定义“遇到啥事件该干啥”\n└─ ActionExecutionOperator     ← 框架替用户生成的算子，负责调大模型、更新记忆\n</code></pre></div><h3><b>1.1 定义</b></h3><p data-pid=\"MjK0lwam\">AgentsExecutionEnvironment 的代码如下。</p><div class=\"highlight\"><pre><code class=\"language-text\">/**\n * Base class for agent execution environment.\n *\n * &lt;p&gt;This class provides the main entry point for integrating Flink Agents with different types of\n * Flink data sources (DataStream, Table, or simple lists).\n */\npublic abstract class AgentsExecutionEnvironment {\n    protected final Map&lt;ResourceType, Map&lt;String, Object&gt;&gt; resources;\n\n    protected AgentsExecutionEnvironment() {\n        this.resources = new HashMap&lt;&gt;();\n        for (ResourceType type : ResourceType.values()) {\n            this.resources.put(type, new HashMap&lt;&gt;());\n        }\n    }\n    \n    /**\n     * Get agents execution environment.\n     *\n     * &lt;p&gt;Factory method that creates an appropriate execution environment based on the provided\n     * StreamExecutionEnvironment. If no environment is provided, a local execution environment is\n     * returned for testing and development.\n     *\n     * &lt;p&gt;When integrating with Flink DataStream/Table APIs, users should pass the Flink\n     * StreamExecutionEnvironment to enable remote execution capabilities.\n     *\n     * @param env Optional StreamExecutionEnvironment for remote execution. If null, a local\n     *     execution environment will be created.\n     * @param tEnv Optional StreamTableEnvironment for table-to-stream conversion.\n     * @return AgentsExecutionEnvironment appropriate for the execution context.\n     */\n    public static AgentsExecutionEnvironment getExecutionEnvironment(\n            StreamExecutionEnvironment env, @Nullable StreamTableEnvironment tEnv) {\n        if (env == null) {\n            // Return local execution environment for testing/development\n            try {\n                Class&lt;?&gt; localEnvClass =\n                        Class.forName(                                &#34;org.apache.flink.agents.runtime.env.LocalExecutionEnvironment&#34;);\n                return (AgentsExecutionEnvironment)\n                        localEnvClass.getDeclaredConstructor().newInstance();\n            } catch (Exception e) {\n                throw new RuntimeException(&#34;Failed to create LocalExecutionEnvironment&#34;, e);\n            }\n        } else {\n            // Return remote execution environment for Flink integration\n            try {\n                Class&lt;?&gt; remoteEnvClass =\n                        Class.forName(                                &#34;org.apache.flink.agents.runtime.env.RemoteExecutionEnvironment&#34;);\n                return (AgentsExecutionEnvironment)\n                        remoteEnvClass\n                                .getDeclaredConstructor(\n                                        StreamExecutionEnvironment.class,\n                                        StreamTableEnvironment.class)\n                                .newInstance(env, tEnv);\n            } catch (Exception e) {\n                throw new RuntimeException(&#34;Failed to create RemoteExecutionEnvironment&#34;, e);\n            }\n        }\n    }    \n</code></pre></div><h3><b>1.2 功能</b></h3><p data-pid=\"xT9D34EU\">AgentsExecutionEnvironment 的功能如下：</p><ul><li data-pid=\"r9yw46ai\">统一入口： </li><ul><li data-pid=\"-2-0YQi6\">提供getExecutionEnvironment()系列静态工厂方法，可以依据是否传入Flink的 StreamExecutionEnvironment来创建本地或远程执行环境。</li><li data-pid=\"Vk5DUcMF\">支持从不同数据源构建构建Agent管道，包括List，DataStream和Table。</li></ul><li data-pid=\"VsVaSu-1\">资源配置管理： </li><ul><li data-pid=\"tsREQP-e\">内置 resources 映射结构，支持按照资源类型管理各种资源。</li><li data-pid=\"3nkjPj_6\">提供 addResource() 方法注册可序列化的资源或者资源描述符。</li></ul><li data-pid=\"KHnsVYNc\">多输入源支持： </li><ul><li data-pid=\"6F6xZpFl\">fromList()：支持从简单列表创建本地执行环境。</li><li data-pid=\"d2Oa5e7e\">fromDataStream()：集成Flink DataStream API</li><li data-pid=\"B7j3ykyy\">fromTable()：集成Flink Table API</li></ul><li data-pid=\"jszF23GU\">配置管理： </li><ul><li data-pid=\"w27UQA58\">提供getConfig()抽象方法获取可写的配置对象。</li></ul></ul><h3><b>1.3 与原生 Flink Environment 的区别</b></h3><ul><li data-pid=\"tKbFfivA\">抽象层级更高：AgentExecutionEnvrionment是对Flink原生环境的封装，在其之上提供了面向Agent的编程模型。主要用于运行Agent，而非 直接处理数据流。</li><li data-pid=\"oPk_Cw_6\">执行模式：AgentExecutionEnvrionment 通过 LocalExecutionEnvironment 和 RemoteExecutionEnvironment 分别支持本地测试和远程集群执行。原生 Flink 主要通过配置参数控制执行模式。</li><li data-pid=\"38LD2HcD\">资源管理机制：AgentExecutionEnvrionment 内置了专门的资源注册和管理机制，支持按类型分类管理支援。原生 Flink 没有这种结构化的资源管理方式。</li><li data-pid=\"UGEmbkUy\">API 设计目标：面向 Agent 编程范式，强调事件驱动的自主行为体模型。原生Flink 更关注数据流处理和批处理操作。</li></ul><h2><b>0x02 LocalExecutionEnvironment</b></h2><p data-pid=\"tmjIWPPh\">LocalExecutionEnvironment 是 AgentsExecutionEnvironment 的一种实现形式。</p><div class=\"highlight\"><pre><code class=\"language-text\">Class&lt;?&gt; localEnvClass = Class.forName(                                &#34;org.apache.flink.agents.runtime.env.LocalExecutionEnvironment&#34;);\n                return (AgentsExecutionEnvironment)\n                        localEnvClass.getDeclaredConstructor().newInstance();\n</code></pre></div><p data-pid=\"qn8GBLiL\">LocalExecutionEnvironment  主要用于</p><ul><li data-pid=\"FnxvT--s\">开发阶段的快速测试和调试</li><li data-pid=\"Aodw_2I4\">无需 Flink 集群即可验证代理逻辑</li><li data-pid=\"tU2D9j4p\">简化Agent应用的本地开发流程</li><li data-pid=\"CbQiXgVs\">它与远程执行环境形成对比，后者支持完整的 Flink DataStream 和 Table API 集成。</li></ul><h3><b>2.1 定义</b></h3><h3><b>2.1.1 主要功能</b></h3><p data-pid=\"n28t29-c\">LocalExecutionEnvironment  的主要功能如下：</p><ul><li data-pid=\"hLIL-lWS\">本地执行环境实现 </li><ul><li data-pid=\"Y6H7qP-P\">集成自 AgentExecutionEnvrionment，为本地测试和开发提供执行环境</li><li data-pid=\"6RESU6dS\">不依赖 Flink 集群，可以在本地环境中运行和调试代理</li></ul><li data-pid=\"lXCEqtZ1\">数据源支持 </li><ul><li data-pid=\"u13GXD2t\">通过from_list方法支持从列表数据源读取输入数据</li><li data-pid=\"SLsTKzYW\">不支持 Flink 的DataStream 和 Table API（这些在远程执行环境中使用）</li></ul><li data-pid=\"vGi67Ami\">资源配置和管理 </li><ul><li data-pid=\"Mg3cpoZA\">存储和管理通过 add_resource 方法注册的资源</li><li data-pid=\"9Oi5ZVxR\">在构建Agent时，将环境中的资源注入到Agent实例中</li></ul><li data-pid=\"YvYadlfg\">代理执行管理 </li><ul><li data-pid=\"MnCECqxi\">通过  set_agent 方法设置待执行的Agent、输入和输出</li><li data-pid=\"Qex4fy_v\">使用 LocalRunner  在本地执行代理逻辑</li><li data-pid=\"IqWJLELi\">通过 execute 方法触发代理执行</li></ul><li data-pid=\"i0EahIOV\">结果收集 </li><ul><li data-pid=\"G55gu7UD\">收集Agent执行的输出结果</li><li data-pid=\"yyelASI-\">通过 to_list  方法返回执行结果</li></ul></ul><p data-pid=\"IffEw2S0\">根据代码分析， execute 函数在以下情况下被调用：</p><ul><li data-pid=\"AyYU6khX\">用户手动调用。当用户完成代理配置和输入数据设置后，需要显式调用execute()  方法来启动Agent 执行流程，这通常式配置完所有必要组件后的最后一步。</li></ul><h3><b>2.1.2 代码</b></h3><p data-pid=\"AbKLbRXi\">LocalExecutionEnvironment 的定义如下，其中 LocalRunner 是核心。</p><div class=\"highlight\"><pre><code class=\"language-text\">class LocalExecutionEnvironment(AgentsExecutionEnvironment):\n    &#34;&#34;&#34;Implementation of AgentsExecutionEnvironment for local execution environment.&#34;&#34;&#34;\n\n    __input: List[Dict[str, Any]] = None\n    __output: List[Any] = None\n    __runner: LocalRunner = None\n    __executed: bool = False\n    __config: AgentConfiguration = AgentConfiguration()\n        \n    def set_agent(self, input: list, output: list, runner: LocalRunner) -&gt; None:\n        &#34;&#34;&#34;Set agent input, output and runner.&#34;&#34;&#34;\n        self.__input = input\n        self.__runner = runner\n        self.__output = output\n\n    def execute(self) -&gt; None:\n        &#34;&#34;&#34;Execute agent individually.&#34;&#34;&#34;\n        if self.__executed:\n            err_msg = (\n                &#34;LocalExecutionEnvironment doesn&#39;t support execute multiple times.&#34;\n            )\n            raise RuntimeError(err_msg)\n        self.__executed = True\n        for input in self.__input:\n            self.__runner.run(**input)\n        outputs = self.__runner.get_outputs()\n        for output in outputs:\n            self.__output.append(output)        \n</code></pre></div><h3><b>2.1.3 执行流程</b></h3><p data-pid=\"GeolaA1z\">在 LocalExecutionEnvironment 中，execute 方法会：</p><ul><li data-pid=\"Non_RGjB\">遍历所有输入数据项</li><li data-pid=\"2Z1tsPGF\">对每个输入调用 LocalRunner  的run方法进行处理</li><li data-pid=\"c0d9gnHF\">收集所有输出结果</li></ul><p data-pid=\"q2nswhlf\">典型的调用序列如下：</p><div class=\"highlight\"><pre><code class=\"language-text\"># 1. 获取执行环境\nenv = StreamExecutionEnvironment.get_execution_environment()\n# 2. 添加所需资源\nenv.add_resource(...)\n# 3. 设置输入数据\noutput_data = env.from_list(input_data) \n# 4. 应用代理\nbuilder.apply(agent) \n# 5. 执行代理\nenv.execute()\n# 6. 获取结果\nresults = builder.to_list()\n</code></pre></div><p data-pid=\"jyeatFEg\">关键特点：</p><ul><li data-pid=\"CdvND6MD\">手动触发： execute() 不会自动调用，必须由用户显式调用</li><li data-pid=\"8-fWmW-g\">一次性执行：只能调用一次，多次调用会抛出异常</li><li data-pid=\"rX8pW1uy\">阻塞操作：在本地环境中，这是个同步阻塞操作，会等待所有输入处理完成</li></ul><h3><b>2.1.4 组件关系</b></h3><p data-pid=\"dyLXucgJ\">组件关系图如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">LocalExecutionEnvironmet\n    ↓\n    ↓ creates\nLocalAgentBuilder\n    ↓\n    ↓ creates\nLocalRunner\n    ↓\n    ↓ creates &amp; run(data)\nLocalRunnerContext\n</code></pre></div><p data-pid=\"H5k8MHup\">关系说明：</p><ul><li data-pid=\"J098thNS\">LocalExecutionEnvironmet 是入口点，管理整个执行环境。通过 from_list() 创建LocalAgentBuilder</li><li data-pid=\"yPJ1ozkq\">LocalAgentBuilder 负责构建Agent 执行管道，通过 apply() 创建 LocalRunner</li><li data-pid=\"uRxmxG0y\">LocalRunner 是实际的执行器</li><li data-pid=\"0S_x7WQO\">LocalRunner 为每个处理的记录创建 LocalRunnerContext</li></ul><h3><b>2.2 LocalRunner</b></h3><p data-pid=\"rMGqKKtY\">LocalRunner 是本地执行环境中的核心执行器，负责实际运行Agent逻辑。LocalRunner 提供了一个完整的本地执行环境，模拟了Flink 流处理的行为，使得Agent可以在本地进行开发和测试。</p><h3><b>2.2.1 LocalRunner 的主要功能</b></h3><p data-pid=\"VcHiz6eK\">LocalRunner 的主要功能：</p><ul><li data-pid=\"Q5rCFe4g\">代理执行：将Agent转换为可执行的计划并执行</li><li data-pid=\"mzHAenmr\">上下文管理：为每个处理单元创建和管理 LocalRunnerContext</li><li data-pid=\"PQue0PXs\">事件处理：管理事件队列并驱动Agent的执行流程</li><li data-pid=\"uwHw7efs\">结果收集：收集和存储Agent执行的输出结果</li></ul><p data-pid=\"tQw82fwZ\">run函数是LocalRunner的核心方法，负责处理单个输入记录：</p><ul><li data-pid=\"7yUnabHE\">从输入数据中提取键值，用于上下文管理</li><li data-pid=\"cK1qpBP_\">为每个键创建或复用 LocalRunnerContext</li><li data-pid=\"aTxpZtUv\">将输入数据包装成 InputEvent 并发送到事件队列</li><li data-pid=\"Ik9yRZFW\">事件循环处理，LocalRunner 的 run 函数使用 while 循环是为了处理事件驱动的代理执行模型。这种设计反映了代理执行的核心机制 </li><ul><li data-pid=\"wB9XPZ2z\">持续处理事件队列直到为空</li><li data-pid=\"MTUlOlLc\">如果是输出事件、收集结果</li><li data-pid=\"-p3DDu7k\">根据事件类型查找对应的动作</li><li data-pid=\"w34p7Tcw\">执行动作</li><li data-pid=\"XrwgUJBX\">处理异步处理结果</li></ul></ul><div class=\"highlight\"><pre><code class=\"language-text\">    @override\n    def run(self, **data: Dict[str, Any]) -&gt; Any:\n        &#34;&#34;&#34;Execute the agent to process the given data.\n\n        Parameters\n        ----------\n        **data : dict[str, Any]\n            input record from upstream.\n\n        Returns:\n        -------\n        key\n            The key of the input that was processed.\n        &#34;&#34;&#34;\n        if &#34;key&#34; in data:\n            key = data[&#34;key&#34;]\n        elif &#34;k&#34; in data:\n            key = data[&#34;k&#34;]\n        else:\n            key = uuid.uuid4()\n\n        if key not in self.__keyed_contexts:\n            self.__keyed_contexts[key] = LocalRunnerContext(self.__agent_plan, key, self.__config)\n        context = self.__keyed_contexts[key]\n\n        if &#34;value&#34; in data:\n            input_event = InputEvent(input=data[&#34;value&#34;])\n        elif &#34;v&#34; in data:\n            input_event = InputEvent(input=data[&#34;v&#34;])\n        else:\n            msg = &#34;Input data must be dict has &#39;v&#39; or &#39;value&#39; field&#34;\n            raise RuntimeError(msg)\n\n        context.send_event(input_event)\n\n        while len(context.events) &gt; 0:\n            event = context.events.popleft()\n            if isinstance(event, OutputEvent):\n                self.__outputs.append({key: event.output})\n                continue\n            event_type = f&#34;{event.__class__.__module__}.{event.__class__.__name__}&#34;\n            for action in self.__agent_plan.get_actions(event_type):\n                context.action_name = action.name\n                func_result = action.exec(event, context)\n                if isinstance(func_result, Generator):\n                    try:\n                        for _ in func_result:\n                            pass\n                    except Exception:\n                        logger.exception(&#34;Error in async execution&#34;)\n                        raise\n        return key\n</code></pre></div><h3><b>2.2.2 事件驱动执行模型</b></h3><p data-pid=\"iCrLXNL8\">在 Flink Agents 框架中，代理的执行是基于事件的。每个动作 (action)处理一个事件并可能产生新的事件，这些新事件又会触发其他动作的执行。因此需要一个循环来持续处理事件队列中的事件，直到没有更多事件需要处理。</p><p data-pid=\"sPbkKCrL\">这种设计使得代理可以处理复杂的、多步骤的交互过程，而不需要预先确定执行步骤的数量。<code>while</code> 循环确保所有相关的事件都被处理完毕，形成了一个完整的事件处理链：</p><ul><li data-pid=\"PlbCPyVG\">持续从事件队列 context.events 中取出事件进行处理</li><li data-pid=\"inZFCgZN\">每个事件可能触发一个或多个动作的执行</li><li data-pid=\"PhsirYkd\">动作执行可能产生新的事件，这些事件被添加回队列</li></ul><p data-pid=\"A_cpvHqp\">递归事件处理：</p><ul><li data-pid=\"vhXbn-e9\">初始时只有一个 InputEvent</li><li data-pid=\"yHildOUa\">动作处理 InputEvent 可能产生 ChatRequestEvent 等中间事件</li><li data-pid=\"3lJlF7iR\">中间事件可能触发其他动作，产生更多事件</li><li data-pid=\"BbclUClz\">最终产生 OutputEvent 完成处理</li></ul><p data-pid=\"BfpOfrF5\">完整处理链：</p><div class=\"highlight\"><pre><code class=\"language-text\">InputEvent  → →   start_action  → →   ChatRequestEvent  →  →  LLM处理  → →  ChatResponseEvent  → →   stop_action  → →   OutputEvent\n</code></pre></div><p data-pid=\"VLpNfvNO\">具体执行流程</p><ul><li data-pid=\"MZh7czOa\">初始化：</li><ul><li data-pid=\"fJG3RQQ-\">将输入数据包装成 InputEvent 并添加到事件队列</li></ul><li data-pid=\"WSguvnJa\">循环处理：</li><ul><li data-pid=\"cQIKAQ3F\">从队列取出事件</li><li data-pid=\"UgxCM1LO\">根据事件类型找到对应的 actions</li><li data-pid=\"Op59lLSc\">执行所有监听该事件类型的动作</li><li data-pid=\"PTG0zQRt\">动作可能通过 send_event 发送新事件到队列</li></ul><li data-pid=\"0qii9WtK\">终止条件：</li><ul><li data-pid=\"GV3bW77Q\">当事件队列为空时，处理完成</li></ul></ul><h3><b>2.2.3 AgentPlan 和 LocalRunner 的关系</b></h3><ul><li data-pid=\"_Y6591Z1\">LocalRunner 在初始化时候使用 AgentPlan</li><li data-pid=\"lSSa-x5R\">在执行过程中，LocalRunnerContext 通过 AgentPlan 获取资源和动作</li><li data-pid=\"PvzJQfGo\">在事件处理中查找对应的动作</li></ul><p data-pid=\"ehU8bcm2\">具体为：LocalRunner 在初始化时候使用 AgentPlan</p><div class=\"highlight\"><pre><code class=\"language-text\">class LocalRunner(AgentRunner):\n    &#34;&#34;&#34;Agent runner implementation for local execution, which is\n    convenient for debugging.\n\n    Attributes:\n    ----------\n    __agent_plan : AgentPlan\n        Internal agent plan.\n    __keyed_contexts : dict[Any, LocalRunnerContext]\n        Dictionary of active contexts indexed by key.\n    __outputs:\n        Outputs generated by agent execution.\n    __config:\n        Internal configration.\n    &#34;&#34;&#34;\n\n    __agent_plan: AgentPlan\n    __keyed_contexts: Dict[Any, LocalRunnerContext]\n    __outputs: List[Dict[str, Any]]\n    __config: AgentConfiguration\n\n    def __init__(self, agent: Agent, config: AgentConfiguration) -&gt; None:\n        &#34;&#34;&#34;Initialize the runner with the provided agent.\n\n        Parameters\n        ----------\n        agent : Agent\n            The agent class to convert and run.\n        &#34;&#34;&#34;\n        self.__agent_plan = AgentPlan.from_agent(agent, config)\n        self.__keyed_contexts = {}\n        self.__outputs = []\n        self.__config = config\n\n\n</code></pre></div><p data-pid=\"zovVR7pL\">具体为：在执行过程中，LocalRunnerContext 通过 AgentPlan 获取资源和动作</p><div class=\"highlight\"><pre><code class=\"language-text\">class LocalRunnerContext(RunnerContext):\n    &#34;&#34;&#34;Implementation of RunnerContext for local agent execution.\n\n    Attributes:\n    ----------\n    __agent_plan : AgentPlan\n        Internal agent plan for this context.\n    __key : Any\n        Unique identifier for the context, correspond to the key in flink KeyedStream.\n    events : deque[Event]\n        Queue of events to be processed in this context.\n    action_name: str\n        Name of the action being executed.\n    &#34;&#34;&#34;\n\n    __agent_plan: AgentPlan\n    __key: Any\n    events: deque[Event]\n    action_name: str\n    _store: dict[str, Any]\n    _short_term_memory: MemoryObject\n    _config: AgentConfiguration\n\n    def __init__(self, agent_plan: AgentPlan, key: Any, config: AgentConfiguration) -&gt; None:\n        &#34;&#34;&#34;Initialize a new context with the given agent and key.\n\n        Parameters\n        ----------\n        agent_plan : AgentPlan\n            Agent plan used for this context.\n        key : Any\n            Unique context identifier, which is corresponding to the key in flink\n            KeyedStream.\n        &#34;&#34;&#34;\n        self.__agent_plan = agent_plan\n        self.__key = key\n        self.events = deque()\n        self._store = {}\n        self._short_term_memory = LocalMemoryObject(\n            self._store, LocalMemoryObject.ROOT_KEY\n        )\n        self._config = config\n        \n    @override\n    def get_resource(self, name: str, type: ResourceType) -&gt; Resource:\n        return self.__agent_plan.get_resource(name, type)        \n\n\n</code></pre></div><p data-pid=\"7k5aHvge\">具体为：在事件处理中查找对应的动作</p><div class=\"highlight\"><pre><code class=\"language-text\">for action in self.__agent_plan.get_actions(event_type):\n                context.action_name = action.name\n                func_result = action.exec(event, context) # 执行\n                if isinstance(func_result, Generator):\n                    try:\n                        for _ in func_result:\n                            pass\n                    except Exception:\n                        logger.exception(&#34;Error in async execution&#34;)\n                        raise\n\n</code></pre></div><h3><b>2.2.4 为什么要为每种 key 维护独立的上下文</b></h3><p data-pid=\"mfr8nN3p\">在 LocalRunner 中，每种 key 都有自己独立的上下文是为了模拟 Flink 流处理环境中 keyed state 的行为，并支持状态隔离和并发处理。</p><ul><li data-pid=\"d1JhbisV\"><b>状态隔离</b>：每个 key 对应的数据流需要维护自己的状态，避免不同 key 的数据相互干扰：</li></ul><div class=\"highlight\"><pre><code class=\"language-text\"># 不同 key 的状态完全隔离\nkey1_context.short_term_memory.set(&#34;user_name&#34;, &#34;Alice&#34;)\nkey2_context.short_term_memory.set(&#34;user_name&#34;, &#34;Bob&#34;)\n# 两个 key 有不同的状态值，互不影响\n\n\n</code></pre></div><ul><li data-pid=\"bOJEhl5V\"><b>模拟 Flink 的 KeyedStream 行为</b>：在 Flink 中，当使用 <code>keyBy()</code> 操作时，每个 key 会有独立的状态管理。LocalRunner 通过这种方式模拟了相同的行为：<br/> </li><ul><li data-pid=\"H4aBGOEV\">相同 key 的事件会在同一个上下文中处理</li><li data-pid=\"ms52FDkN\">不同 key 的事件拥有各自独立的内存和事件队列</li></ul></ul><p data-pid=\"8idBkVJC\"> 这样保证了本地调试环境与实际 Flink 环境的一致性<br/> </p><ul><li data-pid=\"yrpfxL2h\"><b>支持并发处理</b>：虽然 LocalRunner 是单线程运行的，但它模拟了多 key 并发处理的情况：<br/> </li><li data-pid=\"wA34nKoK\"><b>支持并发处理</b>：虽然 LocalRunner 是单线程运行的，但它模拟了多 key 并发处理的情况：<br/> </li></ul><div class=\"highlight\"><pre><code class=\"language-text\"># 可以同时处理多个 key 的数据\nfor input_record in inputs:\n    runner.run(**input_record)  # 每个 key 有独立上下文</code></pre></div><ul><li data-pid=\"FltGJiMx\"><b>事件队列隔离</b>：每个 key 都有自己的事件队列（events），这样可以保证：</li><ul><li data-pid=\"c44XBSgR\">同一 key 的事件按顺序处理</li><li data-pid=\"uDdbQiHB\">不同 key 的事件不会互相影响处理顺序</li><li data-pid=\"lIXQEm6M\">每个 key 可以独立地维护待处理事件队列</li></ul><li data-pid=\"aXV_IWoy\"><b>内存状态管理</b>：每个 LocalRunnerContext 都有自己的短期记忆对象（_short_term_memory），允许：</li></ul><div class=\"highlight\"><pre><code class=\"language-text\"># 每个 key 可以存储和检索自己的状态\ncontext.short_term_memory.set(&#34;step_count&#34;, 1)\ncontext.short_term_memory.get(&#34;step_count&#34;)  # 获取该 key 特定的状态</code></pre></div><h3><b>2.2.5 实际应用场景示例</b></h3><p data-pid=\"akhix8K5\">考虑一个客户服务聊天机器人应用：</p><div class=\"highlight\"><pre><code class=\"language-text\"># 用户 Alice 和 Bob 的对话分别用不同的 key 处理\nrunner.run(key=&#34;user_alice&#34;, value={&#34;message&#34;: &#34;Hello&#34;})\nrunner.run(key=&#34;user_bob&#34;, value={&#34;message&#34;: &#34;Hi there&#34;})\n# 每个用户的对话历史和状态都独立保存\n# Alice 的上下文不会影响 Bob 的上下文，反之亦然\n\n</code></pre></div><p data-pid=\"0zVF9WK9\">这种设计使 LocalRunner 能够准确模拟真实分布式环境中的行为，方便开发者在本地测试和调试复杂的状态依赖型代理应用。</p><h3><b>2.3 LocalRunnerContext</b></h3><p data-pid=\"BsYOAIb4\">LocalRunnerContext 是 Flink Agents 框架中用于本地执行环境的运行上下文实现。它的主要功能是为每个 key 提供独立的执行环境，模拟 Flink 分布式环境中 keyed state 的行为，确保了在本地环境中能够准确模拟基于 key 的状态管理和事件处理流程。</p><h3><b>2.3.1 设计目的</b></h3><p data-pid=\"pzI-XjJE\">LocalRunnerContext 的设计主要是为了：</p><ul><li data-pid=\"plIRIzHe\">本地调试：在本地环境中模拟 Flink 分布式执行的行为</li><li data-pid=\"xGNlUglE\">状态隔离：确保不同 key 的处理状态完全隔离，避免相互干扰</li><li data-pid=\"cnE-C5tb\">行为一致性：保证本地测试环境与实际 Flink 执行环境的行为一致</li><li data-pid=\"pFh4lX5B\">简化开发：提供与生产环境相同的 API 接口，方便开发者测试和调试</li></ul><h3><b>2.3.2 主要功能</b></h3><ul><li data-pid=\"MOHDb6j-\">状态管理 </li><ul><li data-pid=\"QwQX7lwT\">为每个 key 维护独立的短期内存状态（_short_term_memory）</li><li data-pid=\"9rafjVAM\">提供内存对象的读写操作，确保不同 key 的状态隔离</li></ul><li data-pid=\"zY4N_CRi\">事件处理 </li><ul><li data-pid=\"5DpquNKw\">维护每个 key 的事件队列（events）</li><li data-pid=\"A0V2wd7x\">提供 send_event 方法将事件添加到处理队列中</li><li data-pid=\"nh_wgsx1\">记录事件处理日志，便于调试</li></ul><li data-pid=\"Pc5hFkbs\">资源访问 </li><ul><li data-pid=\"xarZt1Tp\">提供 get_resource 方法访问 agent 所需的资源（如模型、工具等）</li><li data-pid=\"w9p_JkWq\">根据资源名称和类型获取相应的资源实例</li></ul><li data-pid=\"hhKQQwLC\">配置管理 </li><ul><li data-pid=\"UkYxdNoB\">提供对 action 配置的访问（action_config, get_action_config_value）</li><li data-pid=\"qrMWUg_H\">提供全局配置信息（config）</li></ul><li data-pid=\"8DDP2OSx\">度量和监控 </li><ul><li data-pid=\"nkNhyJ_t\">提供度量组访问接口（agent_metric_group, action_metric_group）</li><li data-pid=\"5rXO7icA\">目前在本地环境中尚未完全实现</li></ul><li data-pid=\"Tug-SWwC\">异步执行支持 </li><ul><li data-pid=\"2-_bOUf7\">提供 execute_async 方法支持异步函数执行</li><li data-pid=\"qGKhBBMm\">在本地环境中降级为同步执行并给出警告</li></ul></ul><h3><b>2.3.3 定义</b></h3><div class=\"highlight\"><pre><code class=\"language-text\">class LocalRunnerContext(RunnerContext):\n    &#34;&#34;&#34;Implementation of RunnerContext for local agent execution.\n\n    Attributes:\n    ----------\n    __agent_plan : AgentPlan\n        Internal agent plan for this context.\n    __key : Any\n        Unique identifier for the context, correspond to the key in flink KeyedStream.\n    events : deque[Event]\n        Queue of events to be processed in this context.\n    action_name: str\n        Name of the action being executed.\n    &#34;&#34;&#34;\n\n    __agent_plan: AgentPlan\n    __key: Any\n    events: deque[Event]\n    action_name: str\n    _store: dict[str, Any]\n    _short_term_memory: MemoryObject\n    _config: AgentConfiguration\n\n    def __init__(self, agent_plan: AgentPlan, key: Any, config: AgentConfiguration) -&gt; None:\n        &#34;&#34;&#34;Initialize a new context with the given agent and key.\n\n        Parameters\n        ----------\n        agent_plan : AgentPlan\n            Agent plan used for this context.\n        key : Any\n            Unique context identifier, which is corresponding to the key in flink\n            KeyedStream.\n        &#34;&#34;&#34;\n        self.__agent_plan = agent_plan\n        self.__key = key\n        self.events = deque()\n        self._store = {}\n        self._short_term_memory = LocalMemoryObject(\n            self._store, LocalMemoryObject.ROOT_KEY\n        )\n        self._config = config\n\n    @property\n    def key(self) -&gt; Any:\n        &#34;&#34;&#34;Get the unique identifier for this context.\n\n        Returns:\n        -------\n        Any\n            The unique identifier for this context.\n        &#34;&#34;&#34;\n        return self.__key\n\n    @override\n    def send_event(self, event: Event) -&gt; None:\n        &#34;&#34;&#34;Send an event to the context&#39;s event queue and log it.\n\n        Parameters\n        ----------\n        event : Event\n            The event to be added to the queue.\n        &#34;&#34;&#34;\n        logger.info(&#34;key: %s, send_event: %s&#34;, self.__key, event)\n        self.events.append(event)\n\n    @override\n    def get_resource(self, name: str, type: ResourceType) -&gt; Resource:\n        return self.__agent_plan.get_resource(name, type)\n\n    @property\n    @override\n    def action_config(self) -&gt; Dict[str, Any]:\n        &#34;&#34;&#34;Get config of the action.&#34;&#34;&#34;\n        return self.__agent_plan.get_action_config(action_name=self.action_name)\n\n    @override\n    def get_action_config_value(self, key: str) -&gt; Any:\n        &#34;&#34;&#34;Get config option value of the key.&#34;&#34;&#34;\n        return self.__agent_plan.get_action_config_value(\n            action_name=self.action_name, key=key\n        )\n\n    @property\n    @override\n    def short_term_memory(self) -&gt; MemoryObject:\n        &#34;&#34;&#34;Get the short-term memory object associated with this context.\n\n        Returns:\n        -------\n        MemoryObject\n            The root object of the short-term memory.\n        &#34;&#34;&#34;\n        return self._short_term_memory\n\n    @property\n    @override\n    def agent_metric_group(self) -&gt; MetricGroup:\n        # TODO: Support metric mechanism for local agent execution.\n        err_msg = &#34;Metric mechanism is not supported for local agent execution yet.&#34;\n        raise NotImplementedError(err_msg)\n\n    @property\n    @override\n    def action_metric_group(self) -&gt; MetricGroup:\n        # TODO: Support metric mechanism for local agent execution.\n        err_msg = &#34;Metric mechanism is not supported for local agent execution yet.&#34;\n        raise NotImplementedError(err_msg)\n\n    def execute_async(\n        self,\n        func: Callable[[Any], Any],\n        *args: Tuple[Any, ...],\n        **kwargs: Dict[str, Any],\n    ) -&gt; Any:\n        &#34;&#34;&#34;Asynchronously execute the provided function. Access to memory\n        is prohibited within the function.\n        &#34;&#34;&#34;\n        logger.warning(\n            &#34;Local runner does not support asynchronous execution; falling back to synchronous execution.&#34;\n        )\n        func_result = func(*args, **kwargs)\n        yield\n        return func_result\n\n    @property\n    @override\n    def config(self) -&gt; AgentConfiguration:\n        return self._config\n\n</code></pre></div><h2><b>0x03 RemoteExecutionEnvironment</b></h2><p data-pid=\"38uDpwyn\"><code>RemoteExecutionEnvironment</code> 是 Flink Agents 对原生 Flink <code>RemoteEnvironment</code> 的封装（适配 Agent 语义），是 Agent（智能体）与 Flink 集群融合的核心载体，核心目标是让 Agent 能够在 Flink 集群中处理 DataStream 和 Table 类型的流式数据，具体承担以下关键职责：</p><ul><li data-pid=\"yQLWG1PI\"><code>RemoteExecutionEnvironment</code> 是 Flink Agents 实现 Agent 远程执行的核心环境组件，封装了远程集群连接、作业提交、资源管理等能力；<br/> </li><li data-pid=\"wxXJChCY\">核心价值是<b>屏蔽 Flink 远程执行的底层细节</b>，让用户聚焦 Agent 逻辑定义，而非集群操作；<br/> </li><li data-pid=\"Q4NRxwjz\">关键特性是兼容本地调试与远程执行，同时适配 Agent 特有的状态、事件、资源需求，是 Flink Agents 从 “本地单机” 走向 “分布式集群” 的核心支撑。<br/> </li><li data-pid=\"0R9SJtYB\">桥接 Agent 框架与 Flink 运行时：将 Agent 的执行逻辑嵌入 Flink 的 StreamExecutionEnvironment/StreamTableEnvironment，使 Agent 能利用 Flink 的分布式计算能力处理流式数据；<br/> </li><li data-pid=\"JTs9JDOJ\">标准化 Agent 执行流程：提供统一的入口（fromDataStream/fromTable）、处理（apply Agent）、输出（toDataStream/toTable）接口，规范 Agent 在 Flink 中的数据处理链路；<br/> </li><li data-pid=\"5zgebld4\">配置管理：加载 Flink 集群中 Agent 的专属配置文件（config.yaml），为 Agent 执行提供环境配置支撑；<br/> </li><li data-pid=\"7C7mjvnP\">执行调度：最终触发 Flink 作业的执行（env.execute ()），完成 Agent 处理逻辑的分布式运行。<br/> </li></ul><h3><b>3.1 核心特色</b></h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>特色维度</th><th>具体说明</th></tr><tr><td>环境适配性</td><td>专门面向 Flink 集群的远程执行场景设计，依赖 Flink 的流执行环境（StreamExecutionEnvironment）和表环境（StreamTableEnvironment），而非本地执行；</td></tr><tr><td>数据类型聚焦</td><td>仅支持 Flink 原生的 DataStream/Table 作为输入输出，明确禁用本地场景的 List 类型（fromList/toList），贴合流式计算场景；</td></tr><tr><td>分层设计</td><td>采用 “环境类（RemoteExecutionEnvironment）+ 构建器类（RemoteAgentBuilder）” 分层模式：环境类管控全局配置和 Flink 环境，构建器类聚焦单个 Agent 的执行链路；</td></tr><tr><td>灵活的 Key 选择</td><td>支持自定义 KeySelector 对输入数据分片，无自定义 Key 时默认使用数据自身作为 Key，适配不同的分布式处理需求；</td></tr><tr><td>配置解耦</td><td>从 Flink 配置目录加载 Agent 专属配置，配置文件与代码解耦，便于集群环境下的配置管理；</td></tr><tr><td>容错与校验</td><td>包含关键流程校验（如调用 toDataStream 前必须先 apply Agent）、空值处理（TableEnvironment 懒加载）、异常封装（配置加载 / Agent 执行异常统一抛出 RuntimeException）；</td></tr><tr><td>表与流互通</td><td>支持 Table 与 DataStream 的双向转换（Table 转 DataStream 作为 Agent 输入、DataStream 转 Table 作为输出），适配 Flink SQL / 流处理双场景；</td></tr><tr><td>资源关联</td><td>为 Agent 绑定运行时资源（resources），保障 Agent 执行所需的资源依赖；</td></tr></tbody></table><h3><b>3.2 与原生 Flink RemoteEnvironment 的对比</b></h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>特性</th><th>Flink 原生 RemoteEnvironment</th><th>Flink Agents RemoteExecutionEnvironment</th></tr><tr><td>核心定位</td><td>通用 Flink Job 的远程执行环境</td><td>Agent 语义专属的远程执行环境</td></tr><tr><td>封装层级</td><td>底层 Flink Job 提交</td><td>上层 Agent/AgentPlan 提交</td></tr><tr><td>核心适配</td><td>无 Agent 语义，仅处理通用 JobGraph</td><td>适配 AgentPlan → JobGraph 编译、Agent 状态管理</td></tr><tr><td>资源管理</td><td>通用 Slot / 资源分配</td><td>按 Agent 实例隔离资源，适配工具 / 动作资源需求</td></tr><tr><td>事件 / 状态处理</td><td>无内置事件语义</td><td>封装 Agent 事件（Event）的跨集群传输、状态序列化</td></tr></tbody></table><h3><b>3.3 如何使用 ActionExecutionOperator</b></h3><p data-pid=\"S_d5bL99\">RemoteExecutionEnvironment 通过 Python 层的 RemoteAgentBuilder.to_datastream() 方法间接使用ActionExecutionOperator，过程为：</p><ul><li data-pid=\"25LhXt_q\">用户定义了一个Agent并应用到执行环境中</li><li data-pid=\"T-ZsD8L0\">调用 to_datastream() 方法触发实际的操作符创建</li><li data-pid=\"5llqLvLb\">通过 JNI 调用 Java 层的 CompileUtils.connectToAgent() 方法</li><li data-pid=\"UBgpuuzu\">最终在 Flink 作业图中创建并配置  ActionExecutionOperator</li></ul><p data-pid=\"X4NihunZ\">connectToAgent()中会：</p><ul><li data-pid=\"1dtV18w1\">接收输入的 Java DATa Stream 对象</li><li data-pid=\"yutiGRN5\">接收序列化的 AgentPlan（包含所有动作和资源配置）</li><li data-pid=\"OXoLi85V\">创建并连接 ActionExecutionOperator 到数据流处理图中</li></ul><div class=\"highlight\"><pre><code class=\"language-text\">// ============================ basic ====================================\n    /**\n     * Connects the given KeyedStream to the Flink Agents agent.\n     *\n     * &lt;p&gt;This method accepts a keyed DataStream and applies the specified agent plan to it. The\n     * source of the input stream determines the data format: Java streams provide Objects, while\n     * Python streams use serialized byte arrays.\n     *\n     * @param keyedInputStream The input keyed DataStream.\n     * @param agentPlan The agent plan to be executed.\n     * @param inputIsJava A flag indicating whether the input stream originates from Java. - If\n     *     true, input and output types are Java Objects. - If false, input and output types are\n     *     byte[].\n     * @param &lt;K&gt; The type of the key used in the keyed DataStream.\n     * @param &lt;IN&gt; The type of the input data (Object or byte[]).\n     * @param &lt;OUT&gt; The type of the output data (Object or byte[]).\n     * @return The processed DataStream as the result of the agent.\n     */\n    private static &lt;K, IN, OUT&gt; DataStream&lt;OUT&gt; connectToAgent(\n            KeyedStream&lt;IN, K&gt; keyedInputStream,\n            AgentPlan agentPlan,\n            TypeInformation&lt;OUT&gt; outTypeInformation,\n            boolean inputIsJava) {\n        return (DataStream&lt;OUT&gt;)\n                keyedInputStream\n                        .transform(\n                                &#34;action-execute-operator&#34;,\n                                outTypeInformation,\n                                new ActionExecutionOperatorFactory(agentPlan, inputIsJava))\n                        .setParallelism(keyedInputStream.getParallelism());\n    }\n\n</code></pre></div><h3><b>3.4 典型流程</b></h3><p data-pid=\"xUgfy68s\">当用户编写基于 RemoteExecutionEnvironment  的应用程序时，典型流程如下：</p><div class=\"highlight\"><pre><code class=\"language-text\"># 获取Flink执行环境\nenv = StreamExecutionEnvironment.get_execution_environment()\n# 创建 Agent 执行环境\nagent_env = AgentsExecutionEnvironment.get_execution_environment(env)\n# 添加所需资源\nagent_env.add_resource(...)\n# 设置输入数据流到Agent\ninput_stream = agent_env.from_Collection(input_data) \nbuilder = agent_env.from_datastream(input_stream)\n# 应用代理逻辑\nagent = MyCustomAgent()\nbuilder.apply(agent) \n# 执行代理\noutput_stream = builder.to_datastream()\nenv.execute()\n\n</code></pre></div><h3><b>3.5 交互逻辑</b></h3><p data-pid=\"amil5lZD\">RemoteExecutionEnvironment、ActionExecutionOperator 和 ActionTask 之间的交互逻辑如下。</p><p data-pid=\"pUe96zNh\">这三个组件在 Flink Agents 框架中扮演不同的角色，协同工作来执行 Agent 逻辑：</p><ul><li data-pid=\"QTqHUyib\"><b>RemoteExecutionEnvironment</b>：提供远程执行环境，负责构建和连接 Agent 到 Flink 数据流</li><li data-pid=\"FiL-siie\"><b>ActionExecutionOperator</b>：Flink 流处理操作符，实际执行 Agent 的动作逻辑</li><li data-pid=\"dPYgUK1o\"><b>ActionTask</b>：表示单个动作执行任务的抽象概念</li></ul><p data-pid=\"DHdvkR9G\"><b>交互流程图解</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7424d341780b7232612364237bd3f097_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"463\" data-rawheight=\"487\" data-original-token=\"v2-8f1db2fafc606095b0a9abaf5ac2a6a8\" class=\"origin_image zh-lightbox-thumb\" width=\"463\" data-original=\"https://pic2.zhimg.com/v2-7424d341780b7232612364237bd3f097_r.jpg\"/><figcaption>Flink-7-1</figcaption></figure><p data-pid=\"YvouiWn2\">详细交互流程如下：</p><ol><li data-pid=\"ThX8droH\">初始化阶段</li></ol><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-09291cbc1d1cea6b8adadf565a71960c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"821\" data-original-token=\"v2-8cf0b9d3bb27827f9e96729c0095de26\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pica.zhimg.com/v2-09291cbc1d1cea6b8adadf565a71960c_r.jpg\"/><figcaption>Flink-7-2</figcaption></figure><ol><li data-pid=\"AF4FJ1_D\">运行时事件处理流程</li></ol><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f7569f9a1cae9df549a35e6c16773a13_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1192\" data-rawheight=\"2744\" data-original-token=\"v2-3e7283817ca5ee8371753e44eebbd019\" class=\"origin_image zh-lightbox-thumb\" width=\"1192\" data-original=\"https://pic4.zhimg.com/v2-f7569f9a1cae9df549a35e6c16773a13_r.jpg\"/><figcaption>Flink-7-3</figcaption></figure><h3><b>3.6 实现</b></h3><p data-pid=\"T_CtUmbz\">RemoteAgentBuilder 的代码如下</p><div class=\"highlight\"><pre><code class=\"language-text\">class RemoteAgentBuilder(AgentBuilder):\n    &#34;&#34;&#34;RemoteAgentBuilder for integrating datastream/table and agent.&#34;&#34;&#34;\n\n    __input: DataStream\n    __agent_plan: AgentPlan = None\n    __output: DataStream = None\n    __t_env: StreamTableEnvironment\n    __config: AgentConfiguration\n    __resources: Dict[ResourceType, Dict[str, Any]] = None\n\n    def __init__(\n        self,\n        input: DataStream,\n        config: AgentConfiguration,\n        t_env: StreamTableEnvironment | None = None,\n        resources: Dict[ResourceType, Dict[str, Any]] | None = None,\n    ) -&gt; None:\n        &#34;&#34;&#34;Init method of RemoteAgentBuilder.&#34;&#34;&#34;\n        self.__input = input\n        self.__t_env = t_env\n        self.__config = config\n        self.__resources = resources\n\n    @property\n    def t_env(self) -&gt; StreamTableEnvironment:\n        &#34;&#34;&#34;Get or crate table environment.&#34;&#34;&#34;\n        if self.__t_env is None:\n            self.__t_env = StreamTableEnvironment.create(\n                stream_execution_environment=self.__env\n            )\n        return self.__t_env\n\n    def apply(self, agent: Agent) -&gt; &#34;AgentBuilder&#34;:\n        &#34;&#34;&#34;Set agent of execution environment.\n\n        Parameters\n        ----------\n        agent : Agent\n            The agent user defined to run in execution environment.\n        &#34;&#34;&#34;\n        if self.__agent_plan is not None:\n            err_msg = &#34;RemoteAgentBuilder doesn&#39;t support apply multiple agents yet.&#34;\n            raise RuntimeError(err_msg)\n\n        # inspect refer actions and resources from env to agent.\n        for type, name_to_resource in self.__resources.items():\n            agent.resources[type] = name_to_resource | agent.resources[type]\n\n        self.__agent_plan = AgentPlan.from_agent(agent, self.__config)\n\n        return self\n\n    def to_datastream(self, output_type: TypeInformation | None = None) -&gt; DataStream:\n        &#34;&#34;&#34;Get output datastream of agent execution.\n\n        Returns:\n        -------\n        DataStream\n            Output datastream of agent execution.\n        &#34;&#34;&#34;\n        if self.__agent_plan is None:\n            err_msg = &#34;Must apply agent before call to_datastream/to_table.&#34;\n            raise RuntimeError(err_msg)\n\n        # return the same output datastream when call to_datastream multiple.\n        if self.__output is None:\n            j_data_stream_output = invoke_method(\n                None,\n                &#34;org.apache.flink.agents.runtime.CompileUtils&#34;,\n                &#34;connectToAgent&#34;,\n                [\n                    self.__input._j_data_stream,\n                    self.__agent_plan.model_dump_json(serialize_as_any=True),\n                ],\n                [\n                    &#34;org.apache.flink.streaming.api.datastream.KeyedStream&#34;,\n                    &#34;java.lang.String&#34;,\n                ],\n            )\n            output_stream = DataStream(j_data_stream_output)\n            self.__output = output_stream.map(\n                lambda x: cloudpickle.loads(x), output_type=output_type\n            )\n        return self.__output\n\n    def to_table(self, schema: Schema, output_type: TypeInformation) -&gt; Table:\n        &#34;&#34;&#34;Get output Table of agent execution.\n\n        Parameters\n        ----------\n        schema : Schema\n            Indicate schema of the output table.\n        output_type : TypeInformation\n            Indicate schema corresponding type information.\n\n        Returns:\n        -------\n        Table\n            Output Table of agent execution.\n        &#34;&#34;&#34;\n        return self.t_env.from_data_stream(self.to_datastream(output_type), schema)\n\n    def to_list(self) -&gt; List[Dict[str, Any]]:\n        &#34;&#34;&#34;Get output list of agent execution.\n\n        This method is not supported for remote execution environments.\n        &#34;&#34;&#34;\n        msg = &#34;RemoteAgentBuilder does not support to_list.&#34;\n        raise NotImplementedError(msg)\n\n\n</code></pre></div><p data-pid=\"6VjcHCVV\">RemoteExecutionEnvironment 的代码如下。</p><div class=\"highlight\"><pre><code class=\"language-text\">class RemoteExecutionEnvironment(AgentsExecutionEnvironment):\n    &#34;&#34;&#34;Implementation of AgentsExecutionEnvironment for execution with DataStream.&#34;&#34;&#34;\n\n    __env: StreamExecutionEnvironment\n    __t_env: StreamTableEnvironment\n    __config: AgentConfiguration\n\n    def __init__(\n        self,\n        env: StreamExecutionEnvironment,\n        t_env: StreamTableEnvironment | None = None,\n    ) -&gt; None:\n        &#34;&#34;&#34;Init method of RemoteExecutionEnvironment.&#34;&#34;&#34;\n        super().__init__()\n        self.__env = env\n        self.__t_env = t_env\n        self.__config = AgentConfiguration()\n        self.__load_config_from_flink_conf_dir()\n\n    @property\n    def t_env(self) -&gt; StreamTableEnvironment:\n        &#34;&#34;&#34;Get or crate table environment.&#34;&#34;&#34;\n        if self.__t_env is None:\n            self.__t_env = StreamTableEnvironment.create(\n                stream_execution_environment=self.__env\n            )\n        return self.__t_env\n\n    def get_config(self, path: str | None = None) -&gt; AgentConfiguration:\n        &#34;&#34;&#34;Get the writable configuration for flink agents.\n\n        Returns:\n        -------\n        LocalConfiguration\n            The configuration for flink agents.\n        &#34;&#34;&#34;\n        return self.__config\n\n    @staticmethod\n    def __process_input_datastream(\n        input: DataStream, key_selector: KeySelector | Callable | None = None\n    ) -&gt; KeyedStream:\n        if isinstance(input, KeyedStream):\n            return input\n        else:\n            if key_selector is None:\n                msg = &#34;KeySelector must be provided.&#34;\n                raise RuntimeError(msg)\n            input = input.key_by(key_selector)\n            return input\n\n    def from_datastream(\n        self, input: DataStream, key_selector: KeySelector | Callable | None = None\n    ) -&gt; RemoteAgentBuilder:\n        &#34;&#34;&#34;Set input datastream of agent.\n\n        Parameters\n        ----------\n        input : DataStream\n            Receive a DataStream as input.\n        key_selector : KeySelector\n            Extract key from each input record, must not be None when input is\n            not KeyedStream.\n        &#34;&#34;&#34;\n        input = self.__process_input_datastream(input, key_selector)\n\n        return RemoteAgentBuilder(\n            input=input,\n            config=self.__config,\n            t_env=self.__t_env,\n            resources=self.resources,\n        )\n\n    def from_table(\n        self,\n        input: Table,\n        key_selector: KeySelector | Callable | None = None,\n    ) -&gt; AgentBuilder:\n        &#34;&#34;&#34;Set input Table of agent.\n\n        Parameters\n        ----------\n        input : Table\n            Receive a Table as input.\n        key_selector : KeySelector\n            Extract key from each input record.\n        &#34;&#34;&#34;\n        input = self.t_env.to_data_stream(table=input)\n\n        input = input.map(lambda x: x, output_type=PickledBytesTypeInfo())\n\n        input = self.__process_input_datastream(input, key_selector)\n        return RemoteAgentBuilder(\n            input=input,\n            config=self.__config,\n            t_env=self.t_env,\n            resources=self.resources,\n        )\n\n    def from_list(self, input: List[Dict[str, Any]]) -&gt; &#34;AgentsExecutionEnvironment&#34;:\n        &#34;&#34;&#34;Set input list of agent execution.\n\n        This method is not supported for remote execution environments.\n        &#34;&#34;&#34;\n        msg = &#34;RemoteExecutionEnvironment does not support from_list.&#34;\n        raise NotImplementedError(msg)\n\n    def execute(self) -&gt; None:\n        &#34;&#34;&#34;Execute agent.&#34;&#34;&#34;\n        self.__env.execute()\n\n\n    def __load_config_from_flink_conf_dir(self) -&gt; None:\n        &#34;&#34;&#34;Load agent configuration from FLINK_CONF_DIR if available.&#34;&#34;&#34;\n        flink_conf_dir = os.environ.get(&#34;FLINK_CONF_DIR&#34;)\n        if flink_conf_dir is None:\n            return\n\n        # Try to find config file, with fallback to legacy name\n        config_path = self.__find_config_file(flink_conf_dir)\n\n        if config_path is None:\n            logging.error(f&#34;Config file not found in {flink_conf_dir}&#34;)\n        else:\n            self.__config.load_from_file(str(config_path))\n\n    def __find_config_file(self, flink_conf_dir: str) -&gt; Path | None:\n        &#34;&#34;&#34;Find config file in the given directory, checking both new and legacy names.\n\n        Parameters\n        ----------\n        flink_conf_dir : str\n            Directory to search for config files.\n\n        Returns:\n        -------\n        Path | None\n            Path to the config file if found, None otherwise.\n        &#34;&#34;&#34;\n        # Try legacy config file name first\n        legacy_config_path = Path(flink_conf_dir).joinpath(_LEGACY_CONFIG_FILE_NAME)\n        if legacy_config_path.exists():\n            logging.warning(\n                f&#34;Using legacy config file {_LEGACY_CONFIG_FILE_NAME}&#34;\n            )\n            return legacy_config_path\n\n        # Try new config file name as fallback\n        primary_config_path = Path(flink_conf_dir).joinpath(_CONFIG_FILE_NAME)\n        if primary_config_path.exists():\n            return primary_config_path\n\n        return None\n\n</code></pre></div><h2><b>0xFF 参考</b></h2>",
+        "favorite_count": 3,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_type": "default",
+        "comment_permission": "all",
+        "url": "https://api.zhihu.com/articles/1995253521096921344",
+        "vote_next_step": "vote",
+        "article_type": "normal",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "preview_text": "",
+        "visited_count": 26,
+        "created": 1768485773,
+        "id": "1995253521096921344",
+        "author": {
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 1299,
+          "id": "5ebda142a069dd2d3c2fc82c089d88ec",
+          "user_type": "people",
+          "name": "罗西的思考",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-558a3f8e2aed917084ca9b20ae93d3b2_l.jpg?source=b6762063",
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/5ebda142a069dd2d3c2fc82c089d88ec",
+          "url_token": "RossiXYZ",
+          "headline": "",
+          "is_following": false
+        },
+        "voteup_count": 0,
+        "voting": 0,
+        "excerpt_new": "【大数据 &amp; AI】Flink Agents 源码解读 --- (7) --- AgentsExecutionEnvironment0x00 概要 0x01 基础知识 1.1 定义 1.2 功能 1.3 与原生 Flink Environment 的区别 0x02 LocalExecutionEnvironment 2.1 定义 2.2 LocalRunner 2.3 LocalRunnerContext 0x03 RemoteExecutionEnvironment 3.1 核心特色 3.2 与原生 Flink RemoteEnvironment 的对比 3.3 如何使用 ActionExecutionOperator 3.4 典型流程 3.5 交互逻辑 3.6 实现 0xFF 参考 0x00 概要Agent…",
+        "column": {
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1987257542129252240",
+          "author": {
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false,
+            "name": "匿名用户",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "is_org": false,
+            "followers_count": 0,
+            "id": ""
+          },
+          "title": "大数据 & AI",
+          "imageUrl": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "updated": 1766579119,
+          "id": "c_1987257542129252240",
+          "intro": "数据和AI结合的一些文章",
+          "is_following": false
+        },
+        "type": "article",
+        "is_labeled": false,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995253521096921344}",
+      "attached_info": "CuAGCPvO96DHx8XarAEQBxoJMjY5MDgyMDQ2II3no8sGKAAwAECWAUojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDISATAYACAAOgBaCDEzODEwMDE0YiAxMTU4NTQwYWY5NDYyOGNlOTQ0YzhkYzY4Nzc2NDgzMXITMTk5NTI1MzUyMTA5NjkyMTM0NIoBFWNfMTk4NzI1NzU0MjEyOTI1MjI0MKoBCXJlY29tbWVuZMIBIDVlYmRhMTQyYTA2OWRkMmQzYzJmYzgyYzA4OWQ4OGVj8gEKCAwSBk5vcm1hbPIBKAgKEiQ1ZGU0YjUwMC03MmU4LTRjYTMtYWRjYi0wY2Y1YzU2OTE4ZGPyAQYICxICMjaCAgCIAuHsrMa8M5ICIDVlYmRhMTQyYTA2OWRkMmQzYzJmYzgyYzA4OWQ4OGVjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMugCAvoCC05PUk1BTF9GTE9XigMgYWIyYjY0OGNjNWExNDc1Mzk1NGRmNDBiNzI0ODg0ZjKaAw0KAnYyEAAaBW90aGVyqAMa2AMA6gMfd2FybXVwVHdvVG93ZXJUZXh0Qm9vc3RSZWNhbGxlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhDPAxjnAyIjdjItOGYxZGIyZmFmYzYwNjA5NWIwYTlhYmFmNWFjMmE2YTg6LQgCENAFGLUGIiN2Mi04Y2YwYjlkM2JiMjc4MjdmOWU5NjcyOWMwMDk1ZGUyNjotCAIQqAkYuBUiI3YyLTNlNzI4MzgxN2NhNWVlODM3MTc1M2U0NGVlYmJkMDE5gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACA/SphP4EFAAAAAAAAAACJBdY/wACXp7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRqQBgCgBpgBqAYBkgIuCgkyNjkwODIwNDYSEzE5OTUyNTM1MjEwOTY5MjEzNDQYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "151_1768600319.667",
+      "type": "feed",
+      "offset": 151,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600319,
+      "updated_time": 1768600319,
+      "target": {
+        "updated_time": 1731749217,
+        "reshipment_settings": "disallowed",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "author": {
+          "url_token": "le-guan-de-bei-guan-zhe-86",
+          "name": "乐观的悲观者",
+          "headline": "可是我总是出于本能的，去追寻一颗看不见的星星",
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "南京师范大学 伦理学博士"
+            }
+          ],
+          "followers_count": 19114,
+          "id": "a0f2e18372c90c18d4ff064eef8f189a",
+          "url": "https://api.zhihu.com/people/a0f2e18372c90c18d4ff064eef8f189a",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-023faaccacd9fce564e85a2125a40d99_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/32959222546",
+        "preview_type": "default",
+        "preview_text": "",
+        "visited_count": 219404,
+        "allow_segment_interaction": true,
+        "created_time": 1731745014,
+        "voteup_count": 3376,
+        "comment_count": 561,
+        "answer_type": "normal",
+        "segment_infos": [
+          {
+            "pid": "kG2XlQf-",
+            "text": "所以很尴尬的是，曾经在某个历史时期，为了构建自主体系而发生在自然科学上的笑话，也必然的会在人文社会科学上重现，甚至已经出现了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 63,
+                "seg_info": {
+                  "seg_ids": [
+                    "1841427566663176195",
+                    "1993002326269642623",
+                    "1911320343982867803"
+                  ],
+                  "is_like": false,
+                  "like_count": 67,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bC9zXWYF",
+            "text": "虽然从初中教科书就在反复强调我们要反对“孤立静止片面的形而上学”，但构建自主知识体系的努力注定只有在形而上学领域才能获得成功。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 63,
+                "seg_info": {
+                  "seg_ids": [
+                    "1841427566663176195",
+                    "1993002326269642623",
+                    "1911320343982867803"
+                  ],
+                  "is_like": false,
+                  "like_count": 67,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "q1fsyJHD",
+            "text": "如果因为我们在同一个地球所以自然科学研究不会有例外的话；为什么不能因为我们都是人类，所以人文科学研究也没有什么例外呢？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 59,
+                "seg_info": {
+                  "seg_ids": [
+                    "1841427649525846016"
+                  ],
+                  "is_like": false,
+                  "like_count": 29,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "id": "32959222546",
+        "excerpt": "太阳底下没有新鲜事。 有趣的是一定把“建构中国自主的知识体系”压缩在“哲学社会科学领域”。 为什么不拓展到物理学等自然科学领域呢？又不是做不到。 答案也是心知肚明的，因为曾经某个历史时期做过这种努力，然后彻底失败甚至成为笑柄了。 于是在当代发生了退却，把自然科学让出去了，专注耕耘于哲学社会科学。 且不说这样让哲学社会科学变得像神棍，也不说自然科学领域的落后是不是与这种区分有关，单谈谈哲学社会科学本身…",
+        "content": "<p data-pid=\"noQ3p1RD\">太阳底下没有新鲜事。</p><p data-pid=\"Xb--Ybs4\">有趣的是一定把“建构中国自主的知识体系”压缩在“哲学社会科学领域”。</p><p data-pid=\"bSjNBUPQ\">为什么不拓展到物理学等自然科学领域呢？又不是做不到。</p><p data-pid=\"C41UrdvH\">答案也是心知肚明的，因为曾经某个历史时期做过这种努力，然后彻底失败甚至成为笑柄了。</p><p data-pid=\"lx-2KmIg\">于是在当代发生了退却，把自然科学让出去了，专注耕耘于哲学社会科学。</p><p data-pid=\"d9f1ubRi\">且不说这样让哲学社会科学变得像神棍，也不说自然科学领域的落后是不是与这种区分有关，单谈谈哲学社会科学本身。</p><p data-pid=\"qDFDE4Yi\">今天的哲学社会科学也在努力像自然科学靠拢，哲学中对数理逻辑、语言分析的引入，近些年还出现了实验哲学。社会学、历史学等学科都在尝试引入定量研究，可以对这些努力提出质疑，但不可能否认这些方向目前取得的成就。</p><p data-pid=\"MC_IumFz\">当然还有更明显的学科——经济学。经济学自诞生之初就表达了模仿牛顿力学体系的愿望，并且到了今天，它在这一点上是越来越成功的，虽然人们会对经济学为什么无法预测未来抱有疑问，但经济学仍然是人文学科中严密性极高的一门，更不提当代的计量经济学、行为经济学等方向了。</p><p data-pid=\"kG2XlQf-\">所以很尴尬的是，曾经在某个历史时期，为了构建自主体系而发生在自然科学上的笑话，也必然的会在人文社会科学上重现，甚至已经出现了。</p><p data-pid=\"bC9zXWYF\">虽然从初中教科书就在反复强调我们要反对“孤立静止片面的形而上学”，但构建自主知识体系的努力注定只有在形而上学领域才能获得成功。</p><p data-pid=\"C-32DNe-\">当然，对于老百姓来说，哲学、社会学、人类学甚至历史学等领域争论些什么，出了什么逆天结论一般不那么直观，也很难感受到。</p><p data-pid=\"vaqMFqIW\">但经济学或是法学却不然，它们敏感且直观的多，于是这两个学科出的笑话和逆天结论往往最容易被老百姓察觉，也最难被攻克。相应的，每次要找反贼、查身份、抓立场的时候，总是这两个学科的学者首当其冲，都快成新时代的叶哲泰了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"q1fsyJHD\">如果因为我们在同一个地球所以自然科学研究不会有例外的话；为什么不能因为我们都是人类，所以人文科学研究也没有什么例外呢？</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 801,
+        "thanks_count": 201,
+        "excerpt_new": "太阳底下没有新鲜事。 有趣的是一定把“建构中国自主的知识体系”压缩在“哲学社会科学领域”。 为什么不拓展到物理学等自然科学领域呢？又不是做不到。 答案也是心知肚明的，因为曾经某个历史时期做过这种努力，然后彻底失败甚至成为笑柄了。 于是在当代发生了退却，把自然科学让出去了，专注耕耘于哲学社会科学。 且不说这样让哲学社会科学变得像神棍，也不说自然科学领域的落后是不是与这种区分有关，单谈谈哲学社会科学本身…",
+        "is_copyable": false,
+        "question": {
+          "type": "question",
+          "author": {
+            "id": "60812bd3d84dfdb89136aa49cc76bf2f",
+            "user_type": "people",
+            "headline": "",
+            "followers_count": 342,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/60812bd3d84dfdb89136aa49cc76bf2f",
+            "url_token": "causality-50",
+            "name": "Causality",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1
+          },
+          "excerpt": "",
+          "id": "2571377396",
+          "title": "如何看待中国学界提出的“建构中国自主的知识体系”？",
+          "created": 1730270651,
+          "is_following": false,
+          "detail": "",
+          "answer_count": 0,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            478,
+            10272,
+            12230
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/2571377396",
+          "comment_count": 77,
+          "question_type": "normal"
+        },
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 32959222546}",
+      "attached_info": "CtsGCPvO96DHx8XarAEQBBoJNjk5NzA4MTgwIPap4bkGKLAaMLEEQJcBSmwKIFRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX0JBWUVTEhMxNDQxMTUxODgwNzYwODY4NzIxGAAgADoveyJtZWRpYV90eXBlIjoiSU1BR0VfVEVYVCIsInBpbl9tZWRpYV90eXBlIjoiIn1aCTExMTQ5MDg4OWIgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyCzMyOTU5MjIyNTQ2igEKMjU3MTM3NzM5NqoBCXJlY29tbWVuZMIBIGEwZjJlMTgzNzJjOTBjMThkNGZmMDY0ZWVmOGYxODlh8gEKCAwSBk5vcm1hbPIBKAgKEiQwZmRkMmUyZC1kZGQzLTQwYWEtYmJiYy1jZDExZTc4MGY5NDLyAQYICxICMjaCAgCIAuHsrMa8M5ICIGEwZjJlMTgzNzJjOTBjMThkNGZmMDY0ZWVmOGYxODlhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhZGZWVkQ29udHJvbEJyZWFrSW5SdWxl2gIgVFNfU09VUkNFX0NPTlRST0xfSU5URVJFU1RfQkFZRVPoAgP6AgtOT1JNQUxfRkxPV4oDIGFiMmI2NDhjYzVhMTQ3NTM5NTRkZjQwYjcyNDg4NGYymgMNCgJ2MhAAGgVvdGhlcqgDjLIN2AMA6gMUQ29udHJvbEludGVyZXN0QmF5ZXP6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEBm1hbnVhbMIEAzE2MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEgriKAvkEAAAAQOMVhj+BBQAAAAAAAAAAiQXWP8AAl6e0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUP4AUA6AUA8AUakAYAoAaZAagGA5ICJgoJNjk5NzA4MTgwEgszMjk1OTIyMjU0NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "152_1768600319.552",
+      "type": "feed",
+      "offset": 152,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600319,
+      "updated_time": 1768600319,
+      "target": {
+        "thumbnail": "https://pica.zhimg.com/50/v2-58c037a1d11cfe1c5592c767c5f207a3_720w.jpg?source=b6762063",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 46,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "updated_time": 1768273240,
+        "voteup_count": 3,
+        "favorite_count": 7,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1994363201077396265",
+        "question": {
+          "question_type": "normal",
+          "excerpt": "",
+          "detail": "",
+          "answer_count": 0,
+          "is_following": false,
+          "author": {
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 16,
+            "url": "https://api.zhihu.com/people/ad5d45a0bf39afdec9d091aafab24832",
+            "user_type": "people",
+            "name": "Stella",
+            "headline": "还很幼稚",
+            "avatar_url": "https://pic1.zhimg.com/50/2ee87ed3d_l.jpg?source=b6762063",
+            "id": "ad5d45a0bf39afdec9d091aafab24832",
+            "url_token": "chen-shi-jia-51",
+            "is_following": false,
+            "is_followed": false
+          },
+          "created": 1350127838,
+          "bound_topic_ids": [
+            2293,
+            2521,
+            4848,
+            5361,
+            34085
+          ],
+          "id": "20529292",
+          "url": "https://api.zhihu.com/questions/20529292",
+          "follower_count": 0,
+          "comment_count": 6,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "title": "如何自学水彩画？"
+        },
+        "excerpt_new": "左手是温莎牛顿、史明克这些掌握着百年话语权的传统巨头，右手是工厂端排山倒海的低价白牌，国产美术用品在海外的生存空间似乎窄得像一张画纸。 但Funto这个来自中国的品牌，偏偏在最狭窄的缝隙里，用一套“便携水彩”跑出了让同行惊叹的增长曲线。 在亚马逊Art Paints类目中，凭借多款 4.5 星以上、评论破万的长青产品，Funto稳稳占据了中高端生态位，它究竟是怎么做到的呢？ 在SocialBook看来，Funto的成功主要来自于品牌敏锐…",
+        "reshipment_settings": "allowed",
+        "created_time": 1768273240,
+        "thanks_count": 0,
+        "excerpt": "左手是温莎牛顿、史明克这些掌握着百年话语权的传统巨头，右手是工厂端排山倒海的低价白牌，国产美术用品在海外的生存空间似乎窄得像一张画纸。 但Funto这个来自中国的品牌，偏偏在最狭窄的缝隙里，用一套“便携水彩”跑出了让同行惊叹的增长曲线。 在亚马逊Art Paints类目中，凭借多款 4.5 星以上、评论破万的长青产品，Funto稳稳占据了中高端生态位，它究竟是怎么做到的呢？ 在SocialBook看来，Funto的成功主要来自于品牌敏锐…",
+        "preview_type": "default",
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ccfd3feba9398c06479205fa49eb552b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1456\" data-original-token=\"v2-58c037a1d11cfe1c5592c767c5f207a3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-ccfd3feba9398c06479205fa49eb552b_r.jpg\"/></figure><p data-pid=\"MuiNXVtK\">左手是温莎牛顿、史明克这些掌握着百年话语权的传统巨头，右手是工厂端排山倒海的低价白牌，国产美术用品在海外的生存空间似乎窄得像一张画纸。</p><p data-pid=\"93orqOFV\">但Funto这个来自中国的品牌，偏偏在最狭窄的缝隙里，用一套“便携水彩”跑出了让同行惊叹的增长曲线。</p><p data-pid=\"XZWxzLEb\">在亚马逊Art Paints类目中，凭借多款 4.5 星以上、评论破万的长青产品，Funto稳稳占据了中高端生态位，它究竟是怎么做到的呢？</p><p data-pid=\"zn9Toixm\">在SocialBook看来，Funto的成功主要来自于品牌敏锐地捕捉到了疫情后全球范围内兴起的“解压经济”与“户外手绘”的市场趋势。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-167c2ac7292f93889d105766cc1ead78_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-fc2f33e04cd56cc160a41bb4fd3f9aef\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-167c2ac7292f93889d105766cc1ead78_r.jpg\"/></figure><p data-pid=\"BqNtKTbA\">根据 Google Trends 数据显示，过去三年内，关于“Watercolor for beginners”和“Travel art kit”的搜索热度增长了 40%。为此，Funto避开了与传统美术巨头在专业领域的正面竞争，转而服务于那些追求生活美学、希望随时随地记录灵感的“艺术爱好者”。</p><p data-pid=\"LpkS13Fg\">毕竟，只要品类足够细分，即使是最小众的品类也能跑出亮眼的营收。</p><h2><b>一、以需求为准，哪怕看起来“反常识”</b></h2><p data-pid=\"p35WqdBf\">如果从传统绘画用品的视角来看，Funto的产品规划几乎是“反常识”的。</p><p data-pid=\"I4TWAGZg\">水彩，是一个专业化的品类。传统的颜料，从颗粒、耐光性、配色体系，都是围绕“长期创作”和“专业训练”来设计的。相应地，主流品牌的用户画像也非常清晰——美院学生、职业画师、插画师。</p><p data-pid=\"joyvl0rl\">但问题在于，这套体系对大多数普通人来说，门槛太高了。让那些<b>只是想要“随便画一画”的人，被迫在第一步就选择放弃。</b></p><p data-pid=\"oiveW9pK\">而Funto正是从这里切入的。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-fdd4490acd53928b50c1cc5243ca80d1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"796\" data-rawheight=\"1024\" data-original-token=\"v2-583b311a501c9c1a501b2a0bc1baed6a\" class=\"origin_image zh-lightbox-thumb\" width=\"796\" data-original=\"https://picx.zhimg.com/v2-fdd4490acd53928b50c1cc5243ca80d1_r.jpg\"/></figure><p data-pid=\"_Od7Vi51\">它并没有试图说服用户“你也可以成为专业画家”，而是换了一个更有接受度的理由：“<b>如果你在旅行、散步、露营的时候，突然想画点什么呢</b>？”</p><p data-pid=\"NYIRaavX\">围绕这个问题，Funto的所有产品设计才显得合理。</p><p data-pid=\"KJAAKedW\">便携并不是为了炫技，而是为了让创作这件事不再需要提前规划；“一整套”的组合也不是为了显得超值，而是为了消除新手在选择上的焦虑。让普通用户不需要理解水彩体系，只需要打开包、加点水，就可以开始画画。</p><p data-pid=\"8zLR8nAP\">这也是为什么 Funto 的定价策略并没有走极端低价。20–40 美元的区间，既不像专业画材那样让人犹豫，也避免了廉价套装“买来就闲置”的命运。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-81c67ab34c988edb4331ea0aaceb48b5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"436\" data-original-token=\"v2-9070f178ad77cf2f63e1837b1b65c838\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-81c67ab34c988edb4331ea0aaceb48b5_r.jpg\"/></figure><p data-pid=\"FPeWAndq\">从竞争关系看，Funto 也从不与 Winsor &amp; Newton 这样的专业品牌正面交锋。它瞄准的，是那些原本“可能永远不会购买水彩工具”的用户——旅行者、手帐爱好者、内容创作者，甚至是单纯想找一份有质感礼物的人。</p><p data-pid=\"LsPgzy09\">在这个意义上，Funto 的产品并不是在解决“画得好不好”的问题，而是在解决一个更基础的商业问题：<b>如何让创作这件事，变得足够轻，以至于更多人愿意开始。</b></p><p data-pid=\"KhGYxsn5\">而一旦“开始”变得容易，后续的分享、社交传播和复购，才有发生的可能。这也为它后续在社交媒体上的内容策略，埋下了一个非常关键的前提。</p><h2><b>二、把“创作瞬间”变成可被传播的内容</b></h2><p data-pid=\"6OuwPwlI\">Funto的社媒打法一点也不激进。</p><p data-pid=\"AofGw_OT\">它没有频繁地制造促销活动，也不追逐平台热点。在 TikTok、Instagram 上，品牌的内容节奏相当克制，更新频率不算高。</p><p data-pid=\"JPOAACz-\">但正是这种克制，反而让品牌在一个高度同质化的创作者赛道里，显得异常稳定。</p><p data-pid=\"OEjp0oAm\">原因很简单，水彩创作本身就具备天然的传播优势：过程可视化强、结果高度个性化。</p><p data-pid=\"J4AEthgn\">Funto所做的，只是把内容重心牢牢放在了“开始—过程—完成”这条最短路径上。一支典型的视频，往往只是打开包装盒、加水、上色、画画、合上画本，没有任何多余的内容，但却极具沉浸感。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0c0ed4795e4057b843e557dd939b05b3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"639\" data-original-token=\"v2-bc4131f1a171fe8e613540f46845c83e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-0c0ed4795e4057b843e557dd939b05b3_r.jpg\"/></figure><p data-pid=\"q0-G_c6F\">在这里，产品并不是主角，而是“道具”。真正被放大的，是<b>一种理想化的生活切片</b>：在旅途中、在咖啡馆、在户外草地上，创作因为Funto的帮助，成为了一种随时可以开始的状态。</p><p data-pid=\"tu39AOFX\">这恰恰与Funto的价值主张形成闭环——创作不需要准备。</p><p data-pid=\"Jk1F8vmu\">这种内容逻辑，也直接影响了 Funto 对红人的选择方式。品牌并不优先合作“画得最好”的艺术博主，而更倾向于那些<b>具备生活方式表达能力</b>的创作者——旅行、手绘以及其他可以为品牌带来增量的领域。</p><p data-pid=\"M1xduEH6\">活跃在Instagram的二次元板绘博主@animatorroseoak就是其中一个非常典型的例子。这位博主的内容基本上都是自己原创设计的二次元角色，最近两年还增加了3D打印。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-990db3146ca574c82b876df77e3a2f6c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"629\" data-original-token=\"v2-6304ff2b5422b5291ac9c76d12b882da\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-990db3146ca574c82b876df77e3a2f6c_r.jpg\"/></figure><p data-pid=\"XibRIRsd\">其15.6万粉丝基本上都是二次元迷，该群体中会手绘的人数占比很高，但和水彩几乎没有任何联系，一旦转化就能为Funto带来非常可观的用户增量。</p><p data-pid=\"7YeMAb7H\">因此，品牌和该红人的合作是以“用Funto为3D打印出来的作品上色”推进的。视频虽然有点短，但是字幕和简介处的用词都非常正面，“no joke these are the best I’ve used（不开玩笑，这绝对是我用过最好的）、and they work great on paper, 3d printed material, walls, etc you name it（你可以在各种材质上完美上色）......”。</p><p data-pid=\"0I5uYtc_\">你可能会觉得这说得有点夸张了，但二次元迷们恰恰最吃这一套，因为动漫人物也是这样表达情感的。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b177b8dfc3cefff5c5c0fe39637bdf3b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1155\" data-original-token=\"v2-670dbfb40caf74d5cd1918acf963541c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-b177b8dfc3cefff5c5c0fe39637bdf3b_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a9e046a06f8a3fbe0537bb6b275ea241_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1155\" data-original-token=\"v2-ea82c0edff4c9adac17775189134182c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-a9e046a06f8a3fbe0537bb6b275ea241_r.jpg\"/></figure><p data-pid=\"ZsZkdhOM\">最终，这条合作视频收获了21.5万次播放、2.2万次点赞和86条评论，数据反馈非常优秀，考虑到@animatorroseoak的粉丝画像，本次合作为Funto带来了超出预期的、来自非传统领域的用户，在一定程度上破了圈。</p><h2><b>三、总结</b></h2><p data-pid=\"skaZR2jr\">对于大多数跨境品牌而言，Funto 的作业看起来好抄，实则不然。品牌的核心壁垒并不是具体的产品，而是背后的洞察以及与之匹配的营销打法。</p><p data-pid=\"3WEaSvKx\">许多出海品牌和跨境商家在尝试类似路径时，往往会陷入两个误区：要么迷信“头部红人”，认为砸钱就能换来声量，却忽略了美术、手帐这类圈层的排外性；要么广撒网找“白牌博主”，最后产出的内容像廉价开箱，不仅没转化，还透支了品牌调性。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ebb724b5314d7da7a2f7582956afd2e9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"970\" data-rawheight=\"600\" data-original-token=\"v2-8974ffa02fdd967f11fdb0993349352b\" class=\"origin_image zh-lightbox-thumb\" width=\"970\" data-original=\"https://picx.zhimg.com/v2-ebb724b5314d7da7a2f7582956afd2e9_r.jpg\"/></figure><p data-pid=\"X0sj8GR8\">Funto的聪明之处在于，它筛选出的博主通常具备极强的“背书”能力。这些博主的粉丝量最多不过一、二十万，但他们的内容能拉近产品和用户的距离。这种筛选博主的眼光，本质上是对海外社媒生态的深耕。</p><p data-pid=\"JAHv70TA\"><b>但对大多数正处于扩张期的中小品牌来说，这种“眼光”极度依赖于核心团队的审美直觉，很难规模化复刻。</b></p><p data-pid=\"WJRYz-vP\">而且对于很多新锐品牌和中小商家而言，困难主要集中在执行端，面对海量的腰尾部红人，如何筛选到符合心意的红人都是一个难题，更不用说后续的建联、沟通、合作以及验收了。</p><p data-pid=\"t0oN62YM\">对此，SocialBook将通过自研的红人营销平台——Product Launcher来帮助大家解决问题。我们相信这个平台的出现，能让低预算、小团队不再成为阻碍红人营销的借口。</p><p data-pid=\"-goQBidu\"><b>SocialBook Product Launcher 浪起出海为您解决红人营销难题！</b></p><p data-pid=\"2rAu3nLd\">Product Launcher（浪起出海）是由 SocialBook 打造、拥有18万注册海外红人、由商家与红人共同助力的推广合作平台。 </p><p data-pid=\"sX-7Vrlf\"><b>“简单来说，注册账号就能免费发布产品招募信息， 红人就会自己找上门来求合作。”</b></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-972823ad0f0f1071168f00096bb071c8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2250\" data-rawheight=\"9868\" data-original-token=\"v2-5221dc00e534b4b528443a3e1477fb1e\" class=\"origin_image zh-lightbox-thumb\" width=\"2250\" data-original=\"https://pica.zhimg.com/v2-972823ad0f0f1071168f00096bb071c8_r.jpg\"/></figure><p></p>",
+        "preview_text": "",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-58c037a1d11cfe1c5592c767c5f207a3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-583b311a501c9c1a501b2a0bc1baed6a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-670dbfb40caf74d5cd1918acf963541c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ea82c0edff4c9adac17775189134182c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5221dc00e534b4b528443a3e1477fb1e_720w.jpg?source=b6762063"
+        ],
+        "comment_count": 1,
+        "vote_next_step": "vote",
+        "id": "1994363201077396265",
+        "author": {
+          "followers_count": 4469,
+          "url": "https://api.zhihu.com/people/3a350318bdf8abbedc71ca417e829944",
+          "url_token": "starry-58-41",
+          "name": "SocialBook",
+          "is_org": false,
+          "gender": 0,
+          "is_followed": false,
+          "id": "3a350318bdf8abbedc71ca417e829944",
+          "user_type": "people",
+          "headline": "全球2亿+海外网红营销平台SocialBook   ",
+          "avatar_url": "https://picx.zhimg.com/50/v2-6413b137cbfce6de90095373d9bc92eb_l.jpg?source=b6762063",
+          "is_following": false
+        },
+        "is_copyable": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994363201077396265}",
+      "attached_info": "CpIKCPvO96DHx8XarAEQBBoJNzY1MTk4MTg1INjqlssGKAMwAUCYAUpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9SkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aBjM5MjIwNmIgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5OTQzNjMyMDEwNzczOTYyNjWKAQgyMDUyOTI5MqoBCXJlY29tbWVuZMIBIDNhMzUwMzE4YmRmOGFiYmVkYzcxY2E0MTdlODI5OTQ08gEKCAwSBk5vcm1hbPIBKAgKEiRmN2MwOGI1Mi1iNWNkLTRhMjAtODFmNS04YjEyZjEzN2I0ODbyAQYICxICMjaCAgCIAuHsrMa8M5ICIDNhMzUwMzE4YmRmOGFiYmVkYzcxY2E0MTdlODI5OTQ0mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCBPoCC05PUk1BTF9GTE9XigMgYWIyYjY0OGNjNWExNDc1Mzk1NGRmNDBiNzI0ODg0ZjKaAw0KAnYyEAAaBW90aGVyqAMu2AMA6gMfdGV4dEZlZWRUd29Ub3dlcldhcm11cFN1Y2Nlc3NWMfoD9QMSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBC4CBiwCyIjdjItNThjMDM3YTFkMTFjZmUxYzU1OTJjNzY3YzVmMjA3YTM6LQgDELgIGOAEIiN2Mi1mYzJmMzNlMDRjZDU2Y2MxNjBhNDFiYjRmZDNmOWFlZjotCAUQnAYYgAgiI3YyLTU4M2IzMTFhNTAxYzljMWE1MDFiMmEwYmMxYmFlZDZhOi0IAxC4CBi0AyIjdjItOTA3MGYxNzhhZDc3Y2YyZjYzZTE4MzdiMWI2NWM4Mzg6LQgDELgIGP8EIiN2Mi1iYzQxMzFmMWExNzFmZThlNjEzNTQwZjQ2ODQ1YzgzZTotCAQQuAgY9QQiI3YyLTYzMDRmZjJiNTQyMmI1MjkxYWM5Yzc2ZDEyYjg4MmRhOi0IAhC4CBiDCSIjdjItNjcwZGJmYjQwY2FmNzRkNWNkMTkxOGFjZjk2MzU0MWM6LQgCELgIGIMJIiN2Mi1lYTgyYzBlZGZmNGM5YWRhYzE3Nzc1MTg5MTM0MTgyYzotCAIQygcY2AQiI3YyLTg5NzRmZmEwMmZkZDk2N2YxMWZkYjA5OTMzNDkzNTJiOi0IAhDKERiMTSIjdjItNTIyMWRjMDBlNTM0YjRiNTI4NDQzYTNlMTQ3N2ZiMWWABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIC1jno/gQUAAAAAAAAAAIkF1j/AAJentD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFGpAGAKAGmgGoBgCSAi4KCTc2NTE5ODE4NRITMTk5NDM2MzIwMTA3NzM5NjI2NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "153_1768600319.602",
+      "type": "feed",
+      "offset": 153,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600319,
+      "updated_time": 1768600319,
+      "target": {
+        "visited_count": 513,
+        "comment_permission": "all",
+        "updated": 1768386536,
+        "voteup_count": 12,
+        "comment_count": 4,
+        "preview_type": "default",
+        "content": "<p data-pid=\"icfoRc4-\">对网文新人来说，选平台比埋头写更重要——2026年七猫和番茄都更新了规则，核心逻辑更清晰：番茄拼“快节奏爆点”，七猫走“稳保底成长”。这篇指南不讲空话，只拆解实操要点，帮你根据自己的情况精准选择。</p><p data-pid=\"kCY_pu3E\"><br/><b>一、2026年两大平台核心规则对比（新人必看）</b><br/>先把最关键的规则讲透，避开“签了没收益、写了没流量”的坑，所有信息均对应2026年1月最新政策。</p><p data-pid=\"2Q5EOrDh\"><br/><b>（一）番茄小说：流量为王，快进快出赚短期收益</b><br/>番茄背靠抖音流量池，2026年规则调整后，更侧重“创作稳定性”和“内容原创性”，对能冲量、造爆点的新人友好。</p><ul><li data-pid=\"JWIEDBdX\"><b>签约门槛</b>：极低，开篇2万字即可后台自助申请，通过率超60%。但新增严格原创审核——纯AI生成作品永久封禁，AI辅助创作需提交人工底稿，原创度必须100%，新手别抱侥幸心理。</li><li data-pid=\"d7VbpDiY\"><b>收益规则</b>：取消原“阅读量挂钩全勤”，改为纯“码字全勤”，基础稿费提升80%。核心要求：作品满10万字次月起，日更4000字以上、月听读分成≥500元，就能拿600元基础全勤；日更6000字可拿800元进阶全勤，还能叠加流量补贴。收益主要靠广告分成，新人初期分成可能极低，全勤是基础保障。</li><li data-pid=\"r-mgpqWZ\"><b>文风与流量</b>：只认强情绪、快节奏爽文——男频优先都市战神、赘婿、玄幻脑洞，女频主打萌宝、虐渣、年代甜宠，每章末尾必须留钩子，慢热铺垫基本无流量。新人新书前10万字有流量扶持期，首秀数据定生死，爆款能快速变现，扑街则难有后续曝光。</li><li data-pid=\"IJhP4O_W\"><b>隐藏要求</b>：断更易导致流量清零，每月仅能申请1天请假；同一作者每月仅1部作品享全勤，保底作品未超保底则无法参与全勤评选。</li></ul><p data-pid=\"4nb-s7Xi\"><b>（二）七猫小说：保底护航，循序渐进走精品路线</b><br/>七猫2026年新增“新人训练营”，降低了新手入门门槛，同时保留“精品保底”优势，适合想稳扎稳打的新人。</p><ul><li data-pid=\"FuH-DPqq\"><b>签约模式</b>：分两种，新人优先选“新人训练营”——零门槛，3万字可申请签约，无创作经验也能报名，前两个月无更新要求，还能获编辑一对一指导；常规保底签约门槛高，需完整大纲+优质开篇，千字20元起，新手通过率不足10%，规则无调整。</li><li data-pid=\"XjP3Uia-\"><b>收益规则</b>：新人训练营签约即享10元/千字奖学金，第三个月起日更4000字可续领；毕业作品达标可升级保底签约，优秀者获3000-5000元毕业奖学金。新增短剧定制文赛道，保底3-10万/部，适合剧情紧凑、冲突密集的作品。收益稳定但初期金额不高，核心靠保底+后期分成。</li><li data-pid=\"NsHWgNPd\"><b>文风与流量</b>：全品类覆盖，重点扶持都市新媒体文、古言女强、末世基建，短剧改编文是新风口。流量机制为人工+算法结合，前10万字有“扶摇计划”流量包，完读率＞30%可升级推荐位，竞争压力比番茄小，但小众题材难获流量倾斜。</li><li data-pid=\"l4481WFW\"><b>隐藏要求</b>：新人训练营有毕业考核，并非所有新人都能升级保底；签约作品需独家首发，帐号仅限本人使用，笔名长期不更新可能被重置。</li></ul><p data-pid=\"K_zk-OM1\"><b>二、新人精准选择：看自身条件对号入座</b><br/>没有最好的平台，只有最适配的。用三个维度快速判断，避免盲目试错。</p><p data-pid=\"hVZKioCM\"><br/><b>（一）优先选番茄的3类新人</b></p><ol><li data-pid=\"h2euIMLG\">全职冲量型：能保证日均4000字以上更新，不怕断更影响流量，想快速验证作品市场性、赌爆款分成。</li><li data-pid=\"oOukI7IM\">爽文擅长型：会写情绪爆点，能做到三章一小高潮、每章留钩子，不擅长细腻文笔和慢热铺垫。</li><li data-pid=\"lroJkNCH\">急性子试水型：纯新人没写过长篇，想2万字快速签约攒信心，能接受前期低收益甚至零收益的波动。</li></ol><p data-pid=\"Xg-soGYb\"><b>（二）优先选七猫的3类新人</b></p><ol><li data-pid=\"bb2CoKEj\">稳扎稳打型：兼职写作、更新不稳定，想靠保底规避收入风险，愿意花时间打磨作品。</li><li data-pid=\"wOG01pup\">需要指导型：零经验纯新人，希望有编辑带教梳理剧情、优化文风，目标走精品路线而非短期爆火。</li><li data-pid=\"qtDahiAo\">题材适配型：擅长古言、末世、年代等传统主流题材，能驾驭剧情紧凑的内容，想冲击短剧改编红利。</li></ol><p data-pid=\"dfj9mRdB\"><b>三、2026年新人实操落地指南（从签约到起步）</b><br/>选好平台后，按步骤推进，少踩坑、快起步。</p><p data-pid=\"60LlFtTb\"><br/><b>（一）通用准备：先搞定2件事，提高签约率</b></p><ol><li data-pid=\"NR1wiamt\">打磨开篇黄金三章：无论哪个平台，开篇都要抓核心——番茄前三章必须出爽点、埋钩子；七猫前三章要立住人设、交代核心冲突，避免冗长铺垫。</li><li data-pid=\"y0MuEfIm\">做好原创合规：不用纯AI写文，AI辅助创作时留存人工底稿（番茄需提交审核），避免抄袭、洗稿，标题和笔名别重复（七猫笔名重复会被重置）。</li></ol><p data-pid=\"gxdMRYSs\"><b>（二）番茄实操步骤</b></p><ol><li data-pid=\"a49IulNN\">写满2万字正文+简单大纲，后台自助申请签约，若一次未过，优化开篇爽点后可再申请（共3次机会）。</li><li data-pid=\"pxeM_2gY\">签约后全力冲10万字：优先保证日更4000字，利用首秀流量扶持期提升完读率，重点优化前10万字的章节钩子，避免读者流失。</li><li data-pid=\"sRlpYd3x\">盯紧数据：后台重点看“跳出章节”，若某章节流失率高，及时修改剧情节奏；月听读分成尽量达标500元，锁定全勤保障。</li></ol><p data-pid=\"nCnLM9L4\"><b>（三）七猫实操步骤</b></p><ol><li data-pid=\"fMQ-AWY0\">纯新人直接报名“新人训练营”，写满3万字正文+完整大纲申请签约，大纲要明确主支线、人设和结局，提高过稿率。</li><li data-pid=\"tKzIYDtn\">签约后前两个月打磨内容：利用无更新要求的缓冲期，跟着编辑指导优化剧情，不用盲目冲量，重点提升完读率。</li><li data-pid=\"gUGlGfHK\">冲刺毕业升级：第三个月起稳定日更4000字，瞄准短剧改编赛道打磨剧情，争取毕业升级保底，解锁更高收益。</li></ol><p data-pid=\"TXIyaN--\"><b>四、2026年额外提醒：避开这些坑</b></p><ul><li data-pid=\"xQouS0Sd\">流量焦虑：番茄流量波动大，扶持期结束后可能断层，别因短期数据差放弃；七猫流量慢热，耐心打磨到10万字后再看效果。</li><li data-pid=\"a6nUVB_N\">收益预期：番茄新人单月可能赚几千也可能颗粒无收，七猫新人初期奖学金仅够补贴，别抱“一夜暴富”心态。</li><li data-pid=\"8DnY3K1Z\">工具使用：AI仅能当辅助（如拆热梗、填卡文漏洞），别直接套用成品，否则过不了原创审核，还会丢失个人文风。</li></ul><p data-pid=\"mPGxi1CW\">最后总结：2026年番茄适合“冲”，七猫适合“稳”。新人可以先按自己的文风写2-3万字，分别试投（注意非独家签约规则），看哪个平台反馈更好，再深耕其中一个。比起纠结选择，持续产出符合平台调性的内容，才是最快的成长路径。</p>",
+        "is_labeled": false,
+        "article_type": "normal",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1994837748784333753",
+        "voting": 0,
+        "column": {
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1984400311062910127",
+          "title": "长短篇小说写作素材",
+          "intro": "长短篇小说写作素材",
+          "updated": 1765897902,
+          "is_following": false,
+          "id": "c_1984400311062910127",
+          "author": {
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_followed": false,
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_following": false,
+            "id": "",
+            "name": "匿名用户",
+            "headline": ""
+          },
+          "imageUrl": "https://pica.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "comment_permission": "private"
+        },
+        "favorite_count": 10,
+        "id": "1994837748784333753",
+        "title": "七猫vs番茄，写小说平台26年新方向",
+        "created": 1768386536,
+        "vote_next_step": "vote",
+        "type": "article",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-52a314caa7357f43bdadd8c35423722f_l.jpg?source=b6762063",
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "北方工业大学 工商管理硕士"
+            }
+          ],
+          "is_following": false,
+          "id": "b2b0c0be997e227b78944763545c3512",
+          "url": "https://api.zhihu.com/people/b2b0c0be997e227b78944763545c3512",
+          "user_type": "people",
+          "url_token": "wx91bd5bb143da1a98",
+          "name": "道花猫",
+          "is_followed": false,
+          "headline": "学习强国",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 36
+        },
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "excerpt": "对网文新人来说，选平台比埋头写更重要——2026年七猫和番茄都更新了规则，核心逻辑更清晰：番茄拼“快节奏爆点”，七猫走“稳保底成长”。这篇指南不讲空话，只拆解实操要点，帮你根据自己的情况精准选择。 一、2026年两大平台核心规则对比（新人必看） 先把最关键的规则讲透，避开“签了没收益、写了没流量”的坑，所有信息均对应2026年1月最新政策。 （一）番茄小说：流量为王，快进快出赚短期收益 番茄背靠抖音流量池，2026…",
+        "excerpt_new": "对网文新人来说，选平台比埋头写更重要——2026年七猫和番茄都更新了规则，核心逻辑更清晰：番茄拼“快节奏爆点”，七猫走“稳保底成长”。这篇指南不讲空话，只拆解实操要点，帮你根据自己的情况精准选择。 一、2026年两大平台核心规则对比（新人必看） 先把最关键的规则讲透，避开“签了没收益、写了没流量”的坑，所有信息均对应2026年1月最新政策。 （一）番茄小说：流量为王，快进快出赚短期收益 番茄背靠抖音流量池，2026…",
+        "preview_text": "",
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994837748784333753}",
+      "attached_info": "CuQFCPvO96DHx8XarAEQBxoJMjY5MDE5NTI4IOjfncsGKAwwBECZAUo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1aCDEzODA2NjQyYiAxMTU4NTQwYWY5NDYyOGNlOTQ0YzhkYzY4Nzc2NDgzMXITMTk5NDgzNzc0ODc4NDMzMzc1M4oBFWNfMTk4NDQwMDMxMTA2MjkxMDEyN6oBCXJlY29tbWVuZMIBIGIyYjBjMGJlOTk3ZTIyN2I3ODk0NDc2MzU0NWMzNTEy8gEKCAwSBk5vcm1hbPIBKAgKEiQwOGI1Yzc1Yi04ZTUyLTQyZDQtOGU1ZS01Y2Y4MDNiYWYwYjjyAQYICxICMjaCAgCIAuHsrMa8M5ICIGIyYjBjMGJlOTk3ZTIyN2I3ODk0NDc2MzU0NWMzNTEymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1Yy6AID+gILTk9STUFMX0ZMT1eKAyBhYjJiNjQ4Y2M1YTE0NzUzOTU0ZGY0MGI3MjQ4ODRmMpoDDQoCdjIQABoFb3RoZXKoA4EE2AMA6gMWZmVlZHJlX2ZpcnN0X3NjcmVlbl92MvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGDbB3I/gQUAAAAAAAAAAIkF1j/AAJentD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFGpAGAKAGmwGoBgCSAi4KCTI2OTAxOTUyOBITMTk5NDgzNzc0ODc4NDMzMzc1MxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "154_1768600319.650",
+      "type": "feed",
+      "offset": 154,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600319,
+      "updated_time": 1768600319,
+      "target": {
+        "type": "answer",
+        "comment_count": 0,
+        "excerpt": "1，我曾以为有情可以解世间一切遗憾，到如今方晓，令真情难解之事，恰是情之本身。（我真的挺喜欢西施情限的这句话的） 2，真正属于我的命中注定，再找500年又怕什么。 不开心，长生不老也没用~开心，就算活几天也足够。 此回缘分未果，来日再训所爱。 你我都要相信，放下也是一种天意。 故事的结局还远着呢。（因为白晶晶的台词才买的皮肤虽然我不会芈月🌚） 3，一定要记住：不要在饥饿的时候逛超市，不要在孤独的时候谈恋爱，…",
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "navigator_vote": false,
+        "author": {
+          "headline": "窝在云南的蘑菇，一个一般的相貌，一个一般的生活",
+          "avatar_url": "https://pica.zhimg.com/50/v2-ab55ea2dc6d0dd00bcbc45e6380a9af3_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 18,
+          "id": "2b0aee500fc71eb1a3b51b4a93379aeb",
+          "url": "https://api.zhihu.com/people/2b0aee500fc71eb1a3b51b4a93379aeb",
+          "user_type": "people",
+          "name": "饿而二额呃",
+          "is_following": false,
+          "is_followed": false,
+          "url_token": "91-53-21-62",
+          "is_org": false
+        },
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"YVjpDgBT\">1，我曾以为有情可以解世间一切遗憾，到如今方晓，令真情难解之事，恰是情之本身。（我真的挺喜欢西施情限的这句话的）</p><p data-pid=\"B0WksS0G\">2，真正属于我的命中注定，再找500年又怕什么。  不开心，长生不老也没用~开心，就算活几天也足够。  此回缘分未果，来日再训所爱。  你我都要相信，放下也是一种天意。    故事的结局还远着呢。（因为白晶晶的台词才买的皮肤虽然我不会芈月🌚）</p><p data-pid=\"hXU_l2wn\">3，一定要记住：不要在饥饿的时候逛超市，不要在孤独的时候谈恋爱，不要在冲动的时候做决定。我的意思就是人在饥饿的时候会选择不喜欢的食物，人在寂寞的时候会选择不爱的人，人在绝望的时候会抓住身边的一切，但这并这不是你真正想要的。所谓饥不择食、寒不择衣、慌不择路、贫不择妻。留下一句人间清醒，我只希望你能得到真正想要的。（记不得从哪抄的了）</p><p data-pid=\"eMpxY0vf\">目前能想到的就这些，以后有了再补充🌝🌝🌝</p>",
+        "is_labeled": false,
+        "favorite_count": 0,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1995704166593615785",
+        "created_time": 1768592951,
+        "thanks_count": 0,
+        "question": {
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "266057628",
+          "created": 1516714898,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            73,
+            113,
+            668,
+            2058,
+            5086
+          ],
+          "author": {
+            "is_followed": false,
+            "headline": "天道酬勤",
+            "avatar_url": "https://picx.zhimg.com/50/v2-e38a6d070ff6ed109cf1d46178077ac2_l.jpg?source=b6762063",
+            "is_org": false,
+            "id": "aff85fa5505d498ac7755a49b54d2b25",
+            "url": "https://api.zhihu.com/people/aff85fa5505d498ac7755a49b54d2b25",
+            "user_type": "people",
+            "url_token": "yu-han-8-51-48",
+            "name": "取什么名字好呢",
+            "gender": 0,
+            "followers_count": 4,
+            "is_following": false
+          },
+          "title": "有哪些你第一眼就钟情的佳句？",
+          "answer_count": 0,
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/266057628",
+          "comment_count": 81,
+          "detail": "",
+          "excerpt": ""
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 3,
+        "id": "1995704166593615785",
+        "updated_time": 1768592951,
+        "voteup_count": 0,
+        "is_copyable": true,
+        "excerpt_new": "1，我曾以为有情可以解世间一切遗憾，到如今方晓，令真情难解之事，恰是情之本身。（我真的挺喜欢西施情限的这句话的） 2，真正属于我的命中注定，再找500年又怕什么。 不开心，长生不老也没用~开心，就算活几天也足够。 此回缘分未果，来日再训所爱。 你我都要相信，放下也是一种天意。 故事的结局还远着呢。（因为白晶晶的台词才买的皮肤虽然我不会芈月🌚） 3，一定要记住：不要在饥饿的时候逛超市，不要在孤独的时候谈恋爱，…",
+        "preview_text": "",
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995704166593615785}",
+      "attached_info": "CqYGCPvO96DHx8XarAEQBBoJNzY1NzQ5MDQ2ILesqssGKAAwAECaAUokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwxEgEwGAAgADoASiwKIVRTX1NPVVJDRV9XQVJNVVBfWkhJX0ZJTkVUVU5FX0kySRIBMBgAIAA6AFoIMjA4NTQ5NjRiIDExNTg1NDBhZjk0NjI4Y2U5NDRjOGRjNjg3NzY0ODMxchMxOTk1NzA0MTY2NTkzNjE1Nzg1igEJMjY2MDU3NjI4qgEJcmVjb21tZW5kwgEgMmIwYWVlNTAwZmM3MWViMWEzYjUxYjRhOTMzNzlhZWLyAQoIDBIGTm9ybWFs8gEoCAoSJDljMjc0M2QzLWFmNDMtNDBlMi1iNDNlLTg1M2FkYjA5ZTg1M/IBBggLEgIyNoICAIgC4eysxrwzkgIgMmIwYWVlNTAwZmM3MWViMWEzYjUxYjRhOTMzNzlhZWKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxlygIaQ29udGVudFdhcm1VcElzb2xhdGlvblJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AIC+gILTk9STUFMX0ZMT1eKAyBhYjJiNjQ4Y2M1YTE0NzUzOTU0ZGY0MGI3MjQ4ODRmMpoDDQoCdjIQABoFb3RoZXKoAwPYAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOBx+H0/gQUAAAAAAAAAAIkF1j/AAJentD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFGpAGAKAGnAGoBgGSAi4KCTc2NTc0OTA0NhITMTk5NTcwNDE2NjU5MzYxNTc4NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "155_1768600319.725",
+      "type": "feed",
+      "offset": 155,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600319,
+      "updated_time": 1768600319,
+      "target": {
+        "is_copyable": true,
+        "is_labeled": false,
+        "favorite_count": 3434,
+        "navigator_vote": false,
+        "voteup_count": 10679,
+        "content": "<figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-110480d2a679e357938ad5abe518ddf7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"328\" data-original-token=\"v2-8eef577430d609930d4c1a98f34841ba\" data-default-watermark-src=\"https://picx.zhimg.com/v2-2a8aaec37a7dacc1edf131214957a5f7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://picx.zhimg.com/v2-110480d2a679e357938ad5abe518ddf7_r.jpg\"/></figure><p data-pid=\"ATM6HaNX\">2017年8月14日，39岁的退伍军人、独立研究者殷敏鸿向中国外交部提交信息公开申请。他在申请中要求外交部公开“中苏(俄)是否就唐努乌梁海地区归属问题签约、中蒙是否就唐努乌梁海地区划定边界”等信息。<br/>　　殷敏鸿说，他申请信息公开是希望中国当局“正本清源”，从法理上说明唐努乌梁海现在是否还是中国未放弃的领土，是否有希望“收复”。<br/>　　殷敏鸿口中的唐努乌梁海位于新疆以北、蒙古国西北，其大致领域位于现在俄罗斯的图瓦共和国(Tuva)附近，距新疆阿勒泰地区直线距离约200公里，但并不与现在地图上的中国国界线接壤。<br/>　　在历史上，唐努乌梁海长期归蒙古人管辖，17世纪成为清朝版图的一部分。但在1911年辛亥革命后，俄军进驻该地，自此逐渐沦为俄国属地。<br/>　　二战时，该地独立成为共和国，但仅苏联和蒙古承认其地位。苏联解体后，该国作为自治共和国，留在俄罗斯联邦内。</p><p data-pid=\"9nTeP0FD\"><b>　　“涉密”的边界</b></p><p data-pid=\"rT57UqDI\">　　在殷敏鸿递交信息公开申请的一个月后，他收到外交部寄来的复函。复函中称，“根据《中华人民共和国政府信息公开条例》第14条和第21条，你申请的信息涉密，不属于政府信息公开范畴。”</p><p data-pid=\"ob_cvRM6\">　　2018年3月，殷敏鸿向北京第三中级人民法院提起行政上诉，但法院决定不予立案。</p><p data-pid=\"2ymw_oQs\">　　记者在中国官方裁判文书平台“裁判文书网”上找到了北京第三中级人民法院发还殷敏鸿的行政裁定书。裁定书称，“此问题涉及中俄国家之间领土、边界问题，属于外交国家行为，不属于行政诉讼受案范围。故殷敏鸿的起诉不符合法律规定的起诉条件。”</p><p data-pid=\"0kztQR3Z\">　　殷敏鸿不服，向北京高级人民法院提起上诉，但北京高院9月10日作出最终裁定，维持原判。</p><p data-pid=\"b7Xi0TOA\">　　“这样的裁定不符合依法治国原则，”殷敏鸿说。“签订边界领土条约属外交国家行为，但已经签订的条约则属于政府信息。”</p><p data-pid=\"BZZgry4q\"><b>　“看不懂了，为了钓鱼岛几平方公里的土地可以全国反日，唐努乌梁海十几万平方公里的领土却和我们说知道的权力都没有，”</b>一名网友评论道。</p><p data-pid=\"jhpvYusf\">　　上海大邦律师事务所斯伟江律师表示，根据中国的保密制度，一个文件属不属于机密，可以由文件单位决定，也可以由保密局决定。“但是像国家疆域和边界信息每个公民应该有权知道，”斯伟江说。</p><p data-pid=\"E2s4tdES\">　　“高原上安静躺卧著的，像菊花一般清澈的湖水啊，萨彦岭下是我们失落了的库苏古泊。”</p><p data-pid=\"bi4qUalI\">　　蒙古族台湾诗人席慕蓉曾用诗歌表达对唐努乌梁海逝去的不舍。</p><p data-pid=\"0cbqLAhc\"><b>　根据公开资料，历史上的唐努乌梁海地区面积约17万平方公里，大致相当于北京面积的10倍，台湾的4.7倍。</b></p><p data-pid=\"XteM4odH\"><b>　　“我曾翻阅民国时期的一些老报纸，那时候还有要求收回唐努乌梁海的运动。但现在这段时间已经基本上没听到了，”历史学者章立凡回忆道。</b></p>",
+        "segment_infos": [
+          {
+            "pid": "rT57UqDI",
+            "text": " 在殷敏鸿递交信息公开申请的一个月后，他收到外交部寄来的复函。复函中称，“根据《中华人民共和国政府信息公开条例》第14条和第21条，你申请的信息涉密，不属于政府信息公开范畴。”",
+            "marks": [
+              {
+                "start_index": 66,
+                "end_index": 75,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993822897152757796"
+                  ],
+                  "is_like": false,
+                  "like_count": 47,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "BZZgry4q",
+            "text": "　“看不懂了，为了钓鱼岛几平方公里的土地可以全国反日，唐努乌梁海十几万平方公里的领土却和我们说知道的权力都没有，”一名网友评论道。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 65,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993325489285259370"
+                  ],
+                  "is_like": false,
+                  "like_count": 223,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "url": "https://api.zhihu.com/people/e90f6d52857e70ed943f3e8cd32d1784",
+          "name": "momo",
+          "followers_count": 1737,
+          "avatar_url": "https://pic1.zhimg.com/50/v2-230afcb19c87a9e1ec772078b4040e21_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "id": "e90f6d52857e70ed943f3e8cd32d1784",
+          "user_type": "people",
+          "url_token": "alexei-dg",
+          "headline": "自由、平等、公正、法治",
+          "is_followed": false
+        },
+        "excerpt_new": "2017年8月14日，39岁的退伍军人、独立研究者殷敏鸿向中国外交部提交信息公开申请。他在申请中要求外交部公开“中苏(俄)是否就唐努乌梁海地区归属问题签约、中蒙是否就唐努乌梁海地区划定边界”等信息。 殷敏鸿说，他申请信息公开是希望中国当局“正本清源”，从法理上说明唐努乌梁海现在是否还是中国未放弃的领土，是否有希望“收复”。 殷敏鸿口中的唐努乌梁海位于新疆以北、蒙古国西北，其大致领域位于现在俄罗斯的图瓦共和国(…",
+        "preview_text": "",
+        "is_navigator": false,
+        "question": {
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "title": "中国和俄罗斯到底有没有领土争议？",
+          "follower_count": 0,
+          "comment_count": 25,
+          "author": {
+            "url": "https://api.zhihu.com/people/b1a6bcb3a096267fa5c336d01133ea05",
+            "headline": "",
+            "gender": 1,
+            "followers_count": 6,
+            "is_following": false,
+            "is_followed": false,
+            "id": "b1a6bcb3a096267fa5c336d01133ea05",
+            "user_type": "people",
+            "url_token": "tt-26-20",
+            "name": "知乎用户tt",
+            "avatar_url": "https://picx.zhimg.com/50/v2-ff4f58f0b8ef3d0e125f47601833dbfc_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "url": "https://api.zhihu.com/questions/1917945526009202029",
+          "answer_count": 0,
+          "detail": "",
+          "id": "1917945526009202029",
+          "created": 1750053847,
+          "bound_topic_ids": [
+            5548,
+            12230,
+            13519
+          ],
+          "excerpt": "",
+          "type": "question"
+        },
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1920886621311590503",
+        "created_time": 1750755058,
+        "updated_time": 1750755105,
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "thanks_count": 526,
+        "excerpt": "2017年8月14日，39岁的退伍军人、独立研究者殷敏鸿向中国外交部提交信息公开申请。他在申请中要求外交部公开“中苏(俄)是否就唐努乌梁海地区归属问题签约、中蒙是否就唐努乌梁海地区划定边界”等信息。 殷敏鸿说，他申请信息公开是希望中国当局“正本清源”，从法理上说明唐努乌梁海现在是否还是中国未放弃的领土，是否有希望“收复”。 殷敏鸿口中的唐努乌梁海位于新疆以北、蒙古国西北，其大致领域位于现在俄罗斯的图瓦共和国(…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "reaction_instruction": {
+          "REACTION_COMMENT_NEWEST_LIST": "HIDE"
+        },
+        "vote_next_step": "vote",
+        "id": "1920886621311590503",
+        "comment_count": 1764,
+        "preview_type": "default",
+        "visited_count": 598457,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1920886621311590503}",
+      "attached_info": "Cv4GCPvO96DHx8XarAEQBBoJNzMzNzkzNDIwIPLN6cIGKLdTMOQNQJsBSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTU0MTA1MTliIDExNTg1NDBhZjk0NjI4Y2U5NDRjOGRjNjg3NzY0ODMxchMxOTIwODg2NjIxMzExNTkwNTAzigETMTkxNzk0NTUyNjAwOTIwMjAyOaoBCXJlY29tbWVuZMIBIGU5MGY2ZDUyODU3ZTcwZWQ5NDNmM2U4Y2QzMmQxNzg08gEKCAwSBk5vcm1hbPIBKAgKEiQ2ZmZkODkwYi1jNWFjLTQ2N2UtODE5Zi1jYzEyZTAwOTAxZGbyAQYICxICMjaCAgCIAuHsrMa8M5ICIGU5MGY2ZDUyODU3ZTcwZWQ5NDNmM2U4Y2QzMmQxNzg0mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gImVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjHoAgL6AgtOT1JNQUxfRkxPV4oDIGFiMmI2NDhjYzVhMTQ3NTM5NTRkZjQwYjcyNDg4NGYymgMNCgJ2MhAAGgVvdGhlcqgDucMk2AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhD0AxjIAiIjdjItOGVlZjU3NzQzMGQ2MDk5MzBkNGMxYTk4ZjM0ODQxYmGABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTU3yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAwnWQP4EFAAAAAAAAAACJBdY/wACXp7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRqQBgCgBp0BqAYAkgIuCgk3MzM3OTM0MjASEzE5MjA4ODY2MjEzMTE1OTA1MDMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=155&desktop=true&end_offset=157&page_number=27&session_token=1158540af94628ce944c8dc687764831",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=155&desktop=true&end_offset=157&page_number=27&session_token=1158540af94628ce944c8dc687764831",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

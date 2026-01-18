@@ -1,0 +1,635 @@
+{
+  "data": [
+    {
+      "id": "12_1768599998.438",
+      "type": "feed",
+      "offset": 12,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768599998,
+      "updated_time": 1768599998,
+      "target": {
+        "updated_time": 1766390987,
+        "question": {
+          "id": "1972623600809902653",
+          "type": "question",
+          "title": "自然界中，哪些植物的「生存智慧」最让你感到惊叹？",
+          "created": 1763090116,
+          "comment_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "author": {
+            "user_type": "people",
+            "name": "真理方程式",
+            "gender": -1,
+            "followers_count": 33,
+            "is_followed": false,
+            "id": "9fc9f53305df81d4ebf25ab00969a3a8",
+            "url": "https://api.zhihu.com/people/9fc9f53305df81d4ebf25ab00969a3a8",
+            "url_token": "15-68-53-56-6",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-0215f3ab7fadabbceeea5627a13de9fa_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false
+          },
+          "answer_count": 0,
+          "follower_count": 0,
+          "url": "https://api.zhihu.com/questions/1972623600809902653",
+          "bound_topic_ids": [
+            1540,
+            21516,
+            32859,
+            3603738,
+            3914378
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "preview_text": "",
+        "segment_infos": [
+          {
+            "pid": "mZjv8SR9",
+            "text": "自然界中存在许多拟态大师，如枯叶蝶或兰花螳螂，但它们终其一生只能模仿一种固定的对象。避役藤的恐怖之处在于它的“流动性”。当它爬上叶片圆润的树木时，它的叶子就会变得圆润。当它攀附在叶片细长的灌木上时，它的叶子就会拉长。2014年，科学家野外调查记录显示，该物种能够模拟超过20种不同科属的木本植物，涵盖了从阔叶树到针叶树的广泛形态[2]。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 168,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995477525284005015"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "url": "https://api.zhihu.com/answers/1986468457504601120",
+        "is_labeled": false,
+        "type": "answer",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-b9946cb882d680bc5e7c0ece16bc09b6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2549130c8f39ab986361cb5c9dc8264d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d3e62215d8f6921c184c02f84c653448_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-961633cf0e2a4a06ee99f9336ba64c2b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9271d050c2d04064d9ad2137833e1f5a_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "author": {
+          "gender": 1,
+          "followers_count": 765035,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/8a1c76b59c16aabf62352b58cff6d34a",
+          "headline": "自然科学/分享动物们的小秘密/Animalonearth",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-a828256341663bc1234f028f047f576d_l.jpg?source=b6762063",
+          "name": "苏澄宇",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "super_activity",
+              "description": "知势榜科学工程领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "浙江自然博物院 员工"
+            },
+            {
+              "type": "zhihu_yearly_answerer",
+              "description": "新知答主"
+            },
+            {
+              "type": "zhihu_10years_answerer",
+              "description": "新知答主"
+            },
+            {
+              "type": "best_answerer",
+              "description": "猫等 3 个话题下的优秀答主",
+              "topic_names": [
+                "猫",
+                "动物学",
+                "科普"
+              ],
+              "topic_ids": [
+                1570,
+                22767,
+                458
+              ]
+            }
+          ],
+          "id": "8a1c76b59c16aabf62352b58cff6d34a",
+          "user_type": "people",
+          "url_token": "su-cheng-yu"
+        },
+        "comment_count": 64,
+        "id": "1986468457504601120",
+        "created_time": 1766390987,
+        "excerpt_new": "看过科幻电影《湮灭》（ Annihilation）吗？   电影中有一处令人毛骨悚然的设定：在一个被称为“闪光”（The Shimmer）的神秘区域内，外星力量像棱镜折射光线一样“折射”了生物的DNA。探险队在旷野中看到了一组像人类一样站立的灌木，它们不仅仅是修剪成了人的形状，而是植物本身的生长结构就在模仿人类的形态。简直不能更诡异了。   如果告诉你，这种近乎魔幻的“形态复制”能力在现实中是真实存在的，你会怎么想？ 在南美洲智利和…",
+        "preview_type": "default",
+        "content": "<p data-pid=\"UzKfQXuQ\">看过科幻电影《湮灭》（<i>Annihilation</i>）吗？</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b9946cb882d680bc5e7c0ece16bc09b6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"834\" data-original-token=\"v2-b9946cb882d680bc5e7c0ece16bc09b6\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pic3.zhimg.com/v2-b9946cb882d680bc5e7c0ece16bc09b6_r.jpg\"/></figure><p data-pid=\"0NtOGxFs\">电影中有一处令人毛骨悚然的设定：在一个被称为“闪光”（The Shimmer）的神秘区域内，外星力量像棱镜折射光线一样“折射”了生物的DNA。探险队在旷野中看到了一组像人类一样站立的灌木，它们不仅仅是修剪成了人的形状，而是植物本身的生长结构就在模仿人类的形态。简直不能更诡异了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8ae20cbfcdd12b054062b179d07ebc38_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"709\" data-rawheight=\"399\" data-original-token=\"v2-8ae20cbfcdd12b054062b179d07ebc38\" class=\"origin_image zh-lightbox-thumb\" width=\"709\" data-original=\"https://pic1.zhimg.com/v2-8ae20cbfcdd12b054062b179d07ebc38_r.jpg\"/></figure><p data-pid=\"JPdXIXT4\">如果告诉你，这种近乎魔幻的“形态复制”能力在现实中是真实存在的，你会怎么想？</p><p data-pid=\"NZhU2ai9\">在南美洲智利和阿根廷的温带雨林深处，就潜伏着这样一种打破了生物学常识的植物：避役藤（<i>Boquila trifoliolata</i>）<sup data-text=\"\" data-url=\"https://en.wikipedia.org/wiki/Boquila\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。</p><p data-pid=\"Wx369v9n\">是不是看上去平平无奇？</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2549130c8f39ab986361cb5c9dc8264d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2432\" data-rawheight=\"3072\" data-original-token=\"v2-2549130c8f39ab986361cb5c9dc8264d\" class=\"origin_image zh-lightbox-thumb\" width=\"2432\" data-original=\"https://pic4.zhimg.com/v2-2549130c8f39ab986361cb5c9dc8264d_r.jpg\"/></figure><p data-pid=\"p9v3SLzy\">这种被称为“变色龙藤”的植物，拥有着与电影中“闪光”区域生物极其相似的能力。它是一种攀援藤本植物，通过缠绕其他树木向上生长。为了躲避草食动物的啃食，它演化出了一种极为罕见的策略：将自己的叶子长得和宿主树的叶子一模一样。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d07cbd9513f34dfc0ccdb0126649fada_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"610\" data-rawheight=\"458\" data-original-token=\"v2-d07cbd9513f34dfc0ccdb0126649fada\" class=\"origin_image zh-lightbox-thumb\" width=\"610\" data-original=\"https://pic1.zhimg.com/v2-d07cbd9513f34dfc0ccdb0126649fada_r.jpg\"/></figure><p data-pid=\"mZjv8SR9\">自然界中存在许多拟态大师，如枯叶蝶或兰花螳螂，但它们终其一生只能模仿一种固定的对象。避役藤的恐怖之处在于它的“流动性”。当它爬上叶片圆润的树木时，它的叶子就会变得圆润。当它攀附在叶片细长的灌木上时，它的叶子就会拉长。2014年，科学家野外调查记录显示，该物种能够模拟超过20种不同科属的木本植物，涵盖了从阔叶树到针叶树的广泛形态<sup data-text=\"\" data-url=\"https://pubmed.ncbi.nlm.nih.gov/24768053/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"EsRpwhpv\">避役藤模仿其他植物叶子的例子。黄色箭头指向避役藤的叶子，它们在 A-G 中模仿其他物种。图片 H 显示了避役藤的叶子在不模仿其他植物时的样子：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d3e62215d8f6921c184c02f84c653448_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"808\" data-qrcode-action=\"none\" data-original-token=\"v2-d3e62215d8f6921c184c02f84c653448\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-d3e62215d8f6921c184c02f84c653448_r.jpg\"/></figure><p data-pid=\"7J1Yqs-a\">更令人惊叹的是，如果一根藤条同时跨越了两三棵不同的树，它能在同一根茎上依次长出两三种截然不同的叶子，分别对应每一位宿主的特征 。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fec78ec9b9e5d841f7dc92d686d0e83e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"769\" data-rawheight=\"577\" data-original-token=\"v2-fec78ec9b9e5d841f7dc92d686d0e83e\" class=\"origin_image zh-lightbox-thumb\" width=\"769\" data-original=\"https://pic1.zhimg.com/v2-fec78ec9b9e5d841f7dc92d686d0e83e_r.jpg\"/></figure><p data-pid=\"zhi5eBg1\">这就好比一个人的左手皮肤像树皮，右手皮肤像鱼鳞，完全取决于手放在哪里。这种在个体层面上实时改变物理形态的能力，被称为“拟态多态性”，在植物界是独一无二的。</p><p data-pid=\"FF3S3djK\">这种伪装极其有效。研究表明，成功模仿了宿主的避役藤，其叶片被昆虫或蜗牛啃食的概率显著降低<sup data-text=\"\" data-url=\"https://pubmed.ncbi.nlm.nih.gov/24768053/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。它就像一个隐形的间谍，通过彻底融入背景来确保存活。</p><p data-pid=\"7mc45qpr\">长久以来，科学家试图用传统的“化学嗅探”理论来解释这一现象。主流观点认为，宿主植物会释放挥发性有机化合物（VOCs），避役藤通过“闻”到这些气味信号来调控自身的基因表达 。也有人猜测是细菌充当了搬运工，在植物间进行了基因水平转移。</p><p data-pid=\"x1ZlV0G5\">然而，2021年的一项研究让事情变得更加科幻<sup data-text=\"\" data-url=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC8903786/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，甚至触及了“植物智能”的边界。研究人员雅各布·怀特（Jacob White）和费利佩·山下（Felipe Yamashita）进行了一个大胆的实验：他们让避役藤攀爬完全人造的塑料植物。塑料不会释放植物的化学信号，也没有基因可供窃取。</p><p data-pid=\"CD2cC4-R\">下图中，四株避役藤并排摆放在窗前，上面有塑料叶片（红色标注），中间有架子隔开作为对比：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a6a6517608980585c8c1b9d2085fb3f6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"581\" data-original-token=\"v2-a6a6517608980585c8c1b9d2085fb3f6\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic3.zhimg.com/v2-a6a6517608980585c8c1b9d2085fb3f6_r.jpg\"/></figure><p data-pid=\"65mlgQbk\">结果令人咋舌，藤蔓竟然尝试模仿了塑料叶子的形状和颜色。这项发现直接挑战了化学信号假说，并为两人赢得了2024年的搞笑诺贝尔植物学奖。</p><p data-pid=\"E5osJflD\">下图中，A是非模仿叶片，B是模仿叶片，C是塑料叶片：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9ca601ee39caaf6d55776c425d00687f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"584\" data-rawheight=\"267\" data-original-token=\"v2-9ca601ee39caaf6d55776c425d00687f\" class=\"origin_image zh-lightbox-thumb\" width=\"584\" data-original=\"https://pic4.zhimg.com/v2-9ca601ee39caaf6d55776c425d00687f_r.jpg\"/></figure><p data-pid=\"GVxBluUv\">如果植物能模仿塑料，唯一的解释似乎指向了一个百年前就被提出、但在现代生物学中一直处于边缘的理论：植物视觉<sup data-text=\"\" data-url=\"https://www.nature.com/articles/s41599-024-03154-7\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-7e7caf6e8100635841ece3e26d3908d3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"685\" data-rawheight=\"330\" data-original-token=\"v2-7e7caf6e8100635841ece3e26d3908d3\" class=\"origin_image zh-lightbox-thumb\" width=\"685\" data-original=\"https://pic4.zhimg.com/v2-7e7caf6e8100635841ece3e26d3908d3_r.jpg\"/></figure><p data-pid=\"H5-ZtK-d\">早在1905年，植物学家戈特利布·哈伯兰特就提出了“植物单眼”假说，认为表皮细胞的透镜状结构可以聚焦光线，使植物能够感知模糊的形状和阴影<sup data-text=\"\" data-url=\"https://www.mdpi.com/2223-7747/12/1/61\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup> 。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-961633cf0e2a4a06ee99f9336ba64c2b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3305\" data-rawheight=\"2135\" data-original-token=\"v2-961633cf0e2a4a06ee99f9336ba64c2b\" class=\"origin_image zh-lightbox-thumb\" width=\"3305\" data-original=\"https://picx.zhimg.com/v2-961633cf0e2a4a06ee99f9336ba64c2b_r.jpg\"/><figcaption>衣藻的眼点</figcaption></figure><p data-pid=\"M3ikp-y7\">虽然主流科学界对“植物能看见形状”这一结论仍持保留态度，并指出实验方法存在争议，但避役藤的存在本身就已经足够震撼。所以，尽管生态功能得到了确认，但这种植物究竟如何感知宿主特征并启动形态改变，至今仍是植物学界的未解之谜。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9271d050c2d04064d9ad2137833e1f5a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"963\" data-original-token=\"v2-9271d050c2d04064d9ad2137833e1f5a\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic1.zhimg.com/v2-9271d050c2d04064d9ad2137833e1f5a_r.jpg\"/></figure><p></p>",
+        "navigator_vote": false,
+        "excerpt": "看过科幻电影《湮灭》（ Annihilation）吗？   电影中有一处令人毛骨悚然的设定：在一个被称为“闪光”（The Shimmer）的神秘区域内，外星力量像棱镜折射光线一样“折射”了生物的DNA。探险队在旷野中看到了一组像人类一样站立的灌木，它们不仅仅是修剪成了人的形状，而是植物本身的生长结构就在模仿人类的形态。简直不能更诡异了。   如果告诉你，这种近乎魔幻的“形态复制”能力在现实中是真实存在的，你会怎么想？ 在南美洲智利和…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 661,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "reshipment_settings": "disallowed",
+        "voteup_count": 834,
+        "thanks_count": 60,
+        "is_copyable": false,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-b9946cb882d680bc5e7c0ece16bc09b6_720w.jpg?source=b6762063",
+        "visited_count": 28095,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1986468457504601120}",
+      "attached_info": "Cs0JCOTciaeo3qyU2gEQBBoJNzYyMTYyOTg1IMv5o8oGKMIGMEBADEogChVUU19TT1VSQ0VfVEhFTUVfTUVSR0USATAYACAAOgBaCTExNzMyOTAzNmIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5ODY0Njg0NTc1MDQ2MDExMjCKARMxOTcyNjIzNjAwODA5OTAyNjUzqgEJcmVjb21tZW5kwgEgOGExYzc2YjU5YzE2YWFiZjYyMzUyYjU4Y2ZmNmQzNGHyAQoIDBIGTm9ybWFs8gEoCAoSJGUwZTE1ODk5LTE4OWYtNDE4ZC04MjE3LWQ1ZDBiMDBmZjQ4NvIBBQgLEgEzggIAiAKeopnGvDOSAiA4YTFjNzZiNTljMTZhYWJmNjIzNTJiNThjZmY2ZDM0YZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhVUU19TT1VSQ0VfVEhFTUVfTUVSR0XoAgX6AgtOT1JNQUxfRkxPV4oDIGRjOGJhYWQ3YjA1OTQ2ODY4ZThmNTljMzc5ZTY3M2RlmgMNCgJ2MhAAGgVvdGhlcqgDv9sB2AMA6gMbVGhlbWVNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gOkBBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDENAPGMIGIiN2Mi1iOTk0NmNiODgyZDY4MGJjNWU3YzBlY2UxNmJjMDliNjotCAMQxQUYjwMiI3YyLThhZTIwY2JmY2RkMTJiMDU0MDYyYjE3OWQwN2ViYzM4Oi0IAxCAExiAGCIjdjItMjU0OTEzMGM4ZjM5YWI5ODYzNjFjYjVjOWRjODI2NGQ6LQgCEOIEGMoDIiN2Mi1kMDdjYmQ5NTEzZjM0ZGZjMGNjZGIwMTI2NjQ5ZmFkYTotCAMQuAgYqAYiI3YyLWQzZTYyMjE1ZDhmNjkyMWMxODRjMDJmODRjNjUzNDQ4Oi0IAxCBBhjBBCIjdjItZmVjNzhlYzliOWU1ZDg0MWY3ZGM5MmQ2ODZkMGU4M2U6LQgCEKAGGMUEIiN2Mi1hNmE2NTE3NjA4OTgwNTg1YzhjMWI5ZDIwODVmYjNmNjotCAQQyAQYiwIiI3YyLTljYTYwMWVlMzljYWFmNmQ1NTc3NmM0MjVkMDA2ODdmOi0IAhCtBRjKAiIjdjItN2U3Y2FmNmU4MTAwNjM1ODQxZWNlM2UyNmQzOTA4ZDM6LQgCEOkZGNcQIiN2Mi05NjE2MzNjZjBlMmE0YTA2ZWU5OWY5MzM2YmE2NGMyYjotCAQQgAgYwwciI3YyLTkyNzFkMDUwYzJkMDQwNjRkOWFkMjEzNzgzM2UxZjVhgAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACAqNOUP4EFAAAAAAAAAACJBWdL/32u1ao/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQOQBgCgBg2oBgGSAi4KCTc2MjE2Mjk4NRITMTk4NjQ2ODQ1NzUwNDYwMTEyMBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "13_1768599998.561",
+      "type": "feed",
+      "offset": 13,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768599998,
+      "updated_time": 1768599998,
+      "target": {
+        "navigator_vote": false,
+        "id": "1993695647191298207",
+        "voteup_count": 24,
+        "excerpt": "如果从战略和战术两个角度来看， 高手的“高”，主要体现在“眼光高”和“手法高”这两点上。 具体来说的话， 1）眼光高，不是“看得远”，而是“看得透”，这是“战略”层面。高手能够跳过表面现象，直接找到问题的关键所在。 他们不是只看眼前发生了什么，而是会思考，这件事背后的根本原因是什么？哪些因素真正起决定作用？ 就好比下棋，普通人看三步，高手看的是整盘棋的“势”，哪块棋该弃，哪块该保，心里格外清楚。 高手…",
+        "excerpt_new": "如果从战略和战术两个角度来看， 高手的“高”，主要体现在“眼光高”和“手法高”这两点上。 具体来说的话， 1）眼光高，不是“看得远”，而是“看得透”，这是“战略”层面。高手能够跳过表面现象，直接找到问题的关键所在。 他们不是只看眼前发生了什么，而是会思考，这件事背后的根本原因是什么？哪些因素真正起决定作用？ 就好比下棋，普通人看三步，高手看的是整盘棋的“势”，哪块棋该弃，哪块该保，心里格外清楚。 高手…",
+        "preview_type": "default",
+        "preview_text": "",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "author": {
+          "id": "b7e5f469957ad8a6aa55a377029389f7",
+          "url_token": "laogeliaojishu",
+          "avatar_url": "https://pica.zhimg.com/50/v2-cf191ba34178ba36639361131dc0fad4_l.jpg?source=b6762063",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "计算机技术与软件专业技术资格证持证人"
+            }
+          ],
+          "followers_count": 13856,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/b7e5f469957ad8a6aa55a377029389f7",
+          "user_type": "people",
+          "name": "老哥聊技术",
+          "headline": "15年互联网大厂经验，资深架构师，热爱运动，技术让生活更美好",
+          "gender": 1,
+          "is_following": false
+        },
+        "created_time": 1768114083,
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "is_labeled": true,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "updated_time": 1768591021,
+        "is_copyable": false,
+        "question": {
+          "created": 1605412607,
+          "comment_count": 3,
+          "bound_topic_ids": [
+            119,
+            3946,
+            4848,
+            5361,
+            7907
+          ],
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/430346306",
+          "answer_count": 0,
+          "question_type": "normal",
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "430346306",
+          "type": "question",
+          "author": {
+            "id": "9e3c984b18a14640fcc554c92b1ad14c",
+            "url": "https://api.zhihu.com/people/9e3c984b18a14640fcc554c92b1ad14c",
+            "name": "认识你自己",
+            "avatar_url": "https://picx.zhimg.com/50/v2-537dee662e23020642ca4494e441a49e_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "yan-luo-wang-48",
+            "headline": "胜人者有力，自胜者强？",
+            "is_org": false,
+            "followers_count": 171,
+            "is_following": false
+          },
+          "title": "高手和弱者之间的根本差距是什么？",
+          "excerpt": ""
+        },
+        "content": "<p data-pid=\"dk03gYka\">如果从战略和战术两个角度来看，</p><p data-pid=\"4_TifoYG\">高手的“高”，主要体现在“眼光高”和“手法高”这两点上。</p><p data-pid=\"sHpqIoN1\">具体来说的话，</p><p data-pid=\"sAOmXQ6T\"><b>1）眼光高，不是“看得远”，而是“看得透”，这是“战略”层面。</b></p><p data-pid=\"6MLZ9gUO\">高手能够跳过表面现象，直接找到问题的关键所在。</p><p data-pid=\"uRpDnIkJ\">他们不是只看眼前发生了什么，而是会思考，这件事背后的根本原因是什么？哪些因素真正起决定作用？</p><p data-pid=\"Sp7sFBv1\">就好比下棋，普通人看三步，高手看的是整盘棋的“势”，哪块棋该弃，哪块该保，心里格外清楚。</p><p data-pid=\"Tjw73lW1\">高手的习惯，是从最基础的原理出发，去分析问题，也就是所谓的“第一性原理”。</p><p data-pid=\"oT9IMOjL\">他们会不断问自己，“这件事最本质的需求或规律是什么？”</p><p data-pid=\"Xhk6nJkk\">而不是被现有的做法、惯例或表面信息带着走。</p><p data-pid=\"_YlbNqoA\">举个栗子，</p><p data-pid=\"Y7fWiskG\">在工作中，普通人会关注，“别人怎么做”或“流程怎么规定”，而高手会先想清楚，用户真正需要解决的是什么？问题的核心卡点在哪里？目标到底是什么？</p><p data-pid=\"5HyazVD1\">他们更容易做出有效决策，知道该投入精力在哪里，该忽略什么，也很少被干扰项带偏。</p><p data-pid=\"QUw5BxHo\"><b>2）手法高，讲究的是“分寸感”，这是“战术”层面。</b></p><p data-pid=\"zDrt6g5N\">不是一味用力，而是清楚什么时候该快、什么时候该慢，哪里值得投入、哪里可以简化。</p><p data-pid=\"nHFvVjiS\">这种精准的判断力，来自于对事情内在规律的理解。</p><p data-pid=\"sex4mT0q\">因为有些环节效率优先，可以加快节奏；有些地方质量关键，必须花时间打磨。</p><p data-pid=\"7k9NzO1c\">“高手”，不会一刀切地追求速度，也不会无差别地死磕细节。</p><p data-pid=\"hmVGyPCZ\">举栗来说，</p><p data-pid=\"yZghU1pt\">在管理上，他们不会靠盯考勤来管人，而是通过机制设计，让团队成员自己愿意主动做事。</p><p data-pid=\"Z-7tZnsI\">在做产品时，也不会盲目加功能，而是集中精力，把最能打动用户的核心体验做到位。</p><hr/><p data-pid=\"VHlYQa07\">总结就是，</p><p data-pid=\"_LtKb782\"><b>「高手和普通人的根本差距，在管理自身精力和情绪的方式上」。</b></p><p data-pid=\"G5PIEHuk\">高手在压力下，不容易崩溃。</p><p data-pid=\"Vifbd3h1\">他们遇到困难时，会主动调整状态，比如，休息、复盘、寻求支持，尽快恢复行动力。</p><p data-pid=\"xVdkv8PH\">而普通人更容易被挫折困住，反复纠结“为什么是我”、“是不是我不行”，消耗大量心理能量，却没法推进问题解决。</p><p data-pid=\"4krKAF7h\">这种差异的关键，在于思维方式和应对策略的不同。</p><p data-pid=\"_g24FqpD\">高手习惯用更系统、更灵活的方式，看待问题，能同时考虑多个因素，接受不确定性，并且根据情况调整方法。</p><p data-pid=\"EADOSp2N\">而思维模式较简单的人，只会按照固定的套路应对，一旦情况复杂或是计划被打乱，就容易卡住。</p><p data-pid=\"qrzKJcy5\">虽然这种能力不是天生的，可以通过有意识的练习来提升。</p><p data-pid=\"ofQo59aa\">但前提是，</p><p data-pid=\"umgZsptC\">你要先意识到，自己现在的思考和应对方式有局限，需要学习更有效的策略。</p><p data-pid=\"dU8vAxPZ\">这恰恰也是大多数普通人，意识不到的。</p><p data-pid=\"DcL_IfcN\">以上，个人之见，供参考。</p><p data-pid=\"D7K1o--r\">---End---</p>",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1993695647191298207",
+        "thanks_count": 1,
+        "comment_count": 6,
+        "reshipment_settings": "disallowed",
+        "visited_count": 552,
+        "favorite_count": 40
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993695647191298207}",
+      "attached_info": "Cr4HCOTciaeo3qyU2gEQBBoJNzY0OTUwOTU4IKOPjcsGKBgwBkANSnkKLVRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX09QRVJBVE9SXzIwSU1QX0FMTBITMzQ1ODc2NDUxMzgyMzM4OTIyNhgAIAA6L3sibWVkaWFfdHlwZSI6IklNQUdFX1RFWFQiLCJwaW5fbWVkaWFfdHlwZSI6IiJ9SnEKMVRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX0xPTkdfVEVSTV9DT05DRVBUX1dPUkQSBzEzODAwMjUYACAAOi97Im1lZGlhX3R5cGUiOiJJTUFHRV9URVhUIiwicGluX21lZGlhX3R5cGUiOiIifVoINTc5MTE3MzJiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTkzNjk1NjQ3MTkxMjk4MjA3igEJNDMwMzQ2MzA2qgEJcmVjb21tZW5kwgEgYjdlNWY0Njk5NTdhZDhhNmFhNTVhMzc3MDI5Mzg5ZjfyAQoIDBIGTm9ybWFs8gEoCAoSJGI4ZTMwODhlLWFlOTMtNGI0Mi04NjJkLTE0MGY0NjJjYTBjZfIBBQgLEgEzggIAiAKfopnGvDOSAiBiN2U1ZjQ2OTk1N2FkOGE2YWE1NWEzNzcwMjkzODlmN5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhZGZWVkQ29udHJvbEJyZWFrSW5SdWxl2gItVFNfU09VUkNFX0NPTlRST0xfSU5URVJFU1RfT1BFUkFUT1JfMjBJTVBfQUxM6AIE+gILTk9STUFMX0ZMT1eKAyBkYzhiYWFkN2IwNTk0Njg2OGU4ZjU5YzM3OWU2NzNkZZoDDQoCdjIQABoFb3RoZXKoA6gE2AMA6gMfQ29udHJvbEludGVyZXN0T3BlcmF0b3IyMEltcEFsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBKWy4QL5BAAAAODpn3w/gQUAAAAAAAAAAIkFZ0v/fa7Vqj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFFOAFAOgFAPAFA5AGAKAGDqgGA5ICLgoJNzY0OTUwOTU4EhMxOTkzNjk1NjQ3MTkxMjk4MjA3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "14_1768599998.280",
+      "type": "feed",
+      "offset": 14,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768599998,
+      "updated_time": 1768599998,
+      "target": {
+        "type": "answer",
+        "voteup_count": 1195,
+        "question": {
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1968270931534251593",
+          "answer_count": 0,
+          "follower_count": 0,
+          "author": {
+            "id": "ebbb38a385442e888b922e28507f7885",
+            "user_type": "people",
+            "name": "syber",
+            "is_following": false,
+            "followers_count": 269,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/ebbb38a385442e888b922e28507f7885",
+            "url_token": "syber-23-20",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1
+          },
+          "created": 1762052358,
+          "bound_topic_ids": [
+            1309,
+            3615,
+            7678,
+            15317,
+            54587
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "1968270931534251593",
+          "title": "认知低的人有哪些特征？",
+          "comment_count": 4,
+          "is_following": false,
+          "excerpt": ""
+        },
+        "excerpt": "对毫不了解的事侃侃而谈 对素未谋面的人恨之入骨 对从未参与的事沾沾自喜 对虚无缥缈的事感恩戴德 对高高在上的人五体投地 对平凡普通的人呲牙咧嘴 对远在天边的事情运筹帷幄 对近在眼前的事情装聋作哑",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "visited_count": 110120,
+        "answer_type": "normal",
+        "author": {
+          "headline": "请不要随地大小评论，谢谢！\n\n当前被夹回答数：524",
+          "avatar_url": "https://pica.zhimg.com/50/v2-73658abcf48a942466b9a83a788717cc_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "ge_zhe",
+          "name": "歌者",
+          "gender": 1,
+          "followers_count": 16931,
+          "is_following": false,
+          "id": "332eebc83ab0fa3a6fad8b7a7936e2ad",
+          "url": "https://api.zhihu.com/people/332eebc83ab0fa3a6fad8b7a7936e2ad"
+        },
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "created_time": 1763703155,
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "content": "<p data-pid=\"ZF4eyvtB\">对毫不了解的事侃侃而谈</p><p data-pid=\"HYj5NuBb\">对素未谋面的人恨之入骨</p><p data-pid=\"36Ud3uoE\">对从未参与的事沾沾自喜</p><p data-pid=\"XlAqjIKh\">对虚无缥缈的事感恩戴德</p><p data-pid=\"4IyrIN9R\">对高高在上的人五体投地</p><p data-pid=\"kiasRVRM\">对平凡普通的人呲牙咧嘴</p><p data-pid=\"R7K7BeMQ\">对远在天边的事情运筹帷幄</p><p data-pid=\"IBHA03ET\">对近在眼前的事情装聋作哑</p>",
+        "url": "https://api.zhihu.com/answers/1975194874203615613",
+        "is_copyable": true,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "comment_count": 105,
+        "excerpt_new": "对毫不了解的事侃侃而谈 对素未谋面的人恨之入骨 对从未参与的事沾沾自喜 对虚无缥缈的事感恩戴德 对高高在上的人五体投地 对平凡普通的人呲牙咧嘴 对远在天边的事情运筹帷幄 对近在眼前的事情装聋作哑",
+        "favorite_count": 445,
+        "segment_infos": [
+          {
+            "pid": "4IyrIN9R",
+            "text": "对高高在上的人五体投地",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 11,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991086018003235164"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "id": "1975194874203615613",
+        "updated_time": 1763703155,
+        "thanks_count": 31,
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1975194874203615613}",
+      "attached_info": "CuoFCOTciaeo3qyU2gEQBBoJNzU3NTQ5NDI4IPPy/8gGKKsJMGlADkogChVUU19TT1VSQ0VfVEhFTUVfTUVSR0USATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNzE3NTg4N2IgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5NzUxOTQ4NzQyMDM2MTU2MTOKARMxOTY4MjcwOTMxNTM0MjUxNTkzqgEJcmVjb21tZW5kwgEgMzMyZWViYzgzYWIwZmEzYTZmYWQ4YjdhNzkzNmUyYWTyAQoIDBIGTm9ybWFs8gEoCAoSJGZkNWE0YTUyLTM5OTAtNGJmYS05NzhmLTY3ZTk4MTQ4NGE1YvIBBQgLEgEzggIAiAKfopnGvDOSAiAzMzJlZWJjODNhYjBmYTNhNmZhZDhiN2E3OTM2ZTJhZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCFVRTX1NPVVJDRV9USEVNRV9NRVJHRegCAvoCC05PUk1BTF9GTE9XigMgZGM4YmFhZDdiMDU5NDY4NjhlOGY1OWMzNzllNjczZGWaAw0KAnYyEAAaBW90aGVyqAOo3AbYAwDqAxtUaGVtZU1lcmdlTmV3VjFQb29sUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADguXOiP4EFAAAAAAAAAACJBWdL/32u1ao/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQOQBgCgBg+oBgCSAi4KCTc1NzU0OTQyOBITMTk3NTE5NDg3NDIwMzYxNTYxMxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "15_1768599998.934",
+      "type": "feed",
+      "offset": 15,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768599998,
+      "updated_time": 1768599998,
+      "target": {
+        "id": "1994933866125882575",
+        "preview_type": "default",
+        "preview_text": "",
+        "is_labeled": false,
+        "created": 1768409638,
+        "voteup_count": 85,
+        "comment_count": 31,
+        "is_navigator": false,
+        "type": "article",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "comment_permission": "all",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "牢A登上了《求是》《纽约时报》的杂志首页，美媒集体认证斩杀线， 不久后据说他是在外面的时候，被人找上家门了，被他朋友看到了。告诉他之后，他家都没敢回直接找大使馆了。 据说报道他的作者就是代表性的精美份子，他动了太多搞移民相关产业人的蛋糕了。 好消息是目前牢A已已经被传送回国了     （*图来自网络，今日6公主放的电影也是一如既往的紧跟时事） 我写公众号都被在国内某些不知道什么成分的人和在美在澳不知成分的华人，…",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-cf09e5e6e5c9047005a0b244e24dedcd_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1994933866125882575",
+        "author": {
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 133,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/952e8ef5881af5d90ce6fb09b0e3ded7",
+          "user_type": "people",
+          "url_token": "zai-lu-shang-81-20-40",
+          "name": "在路上",
+          "headline": "随便吧  佛系状态（公众号：懒人成长记）",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-1bf5324b93a52b59cc98139ba9b648d4_l.jpg?source=b6762063",
+          "is_followed": false,
+          "id": "952e8ef5881af5d90ce6fb09b0e3ded7"
+        },
+        "title": "牢A谈西雅图尸骨冢/牢真谈海鸥叼眼球、人包子",
+        "updated": 1768409638,
+        "column": {
+          "title": "牢a牢真故事集",
+          "intro": "",
+          "id": "c_1994585803909775376",
+          "url": "https://api.zhihu.com/columns/c_1994585803909775376",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "gender": -1,
+            "followers_count": 0,
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false
+          },
+          "updated": 1768326321,
+          "is_following": false,
+          "type": "column",
+          "imageUrl": "https://pica.zhimg.com/v2-20b8d0efb03087b9612e32565c8e1573_720w.jpg?source=d16d100b",
+          "comment_permission": "private"
+        },
+        "content": "<p data-pid=\"RJotaKPW\">牢A登上了《求是》《纽约时报》的杂志首页，美媒集体认证斩杀线， 不久后据说他是在外面的时候，被人找上家门了，被他朋友看到了。告诉他之后，他家都没敢回直接找大使馆了。</p><p data-pid=\"6QOChPg1\">据说报道他的作者就是代表性的精美份子，他动了太多搞移民相关产业人的蛋糕了。</p><p data-pid=\"JHZM2eLm\">好消息是目前牢A已已经被传送回国了</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3d40db0dfdf1a38aa1fd564f63e4ebc8_1440w.jpg\" data-rawwidth=\"824\" data-rawheight=\"548\" data-size=\"normal\" data-original-token=\"v2-3f120287176069337cf4fb13f2a514c7\" class=\"origin_image zh-lightbox-thumb\" width=\"824\" data-original=\"https://pica.zhimg.com/v2-3d40db0dfdf1a38aa1fd564f63e4ebc8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-bd77bdc49394c950c9e5d43c1075ebe7_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"568\" data-size=\"normal\" data-original-token=\"v2-9949cdb7b26c436b70d4740689ced7e6\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic4.zhimg.com/v2-bd77bdc49394c950c9e5d43c1075ebe7_r.jpg\"/></figure><p data-pid=\"-LLDZCvh\">（*图来自网络，今日6公主放的电影也是一如既往的紧跟时事）</p><p data-pid=\"IYzWSLRQ\">我写公众号都被在国内某些不知道什么成分的人和在美在澳不知成分的华人，各种否认，诅咒我下阿鼻地狱，被追着“杀”，不敢想这还是在国内，我还仅仅只是转述者，还不是揭露者，所以牢a在那样一个乱的环境有生命威胁是不可避免的事。</p><hr/><h2>                                正题</h2><p data-pid=\"WVuReAX5\">已知流浪汉的生活很痛苦，他们需要大量的麻醉品来麻醉自己，酒也好强化剂也好，买这些麻醉品需要钱，自己又没钱，这个苦难的循环就开始了，对流浪汉来说很简单，举个例子，西大那边会去发食品券，物资等各式各样的东西给街头的穷人可怜人，比如一张食品卡面值500美元，食品卡只能换食品不能换成钱，想换成钱，找黑帮，500美元的食品卷换成200美元的钱，这200美元就拿来买酒买强化剂。</p><h2>什么叫尸骨冢？</h2><p data-pid=\"jfNmnTqk\">第一种尸骨冢</p><p data-pid=\"WA3no3eK\">尸骨冢就是发生在帐篷里的各种各样死法的尸体</p><p data-pid=\"D8uR7LYS\">几个流浪汉齐聚一个帐篷，一起碰杯吸强化剂，甚至在里头排泄呕吐，或者搞一些其他的活动，流浪汉买到的强化剂质量不一样，浓度也不一样，越是小作坊越是敢下狠料，买便宜的他能多买点，放纵的吃喝，第二天早晨很容易的发现老汤姆死了，老汤姆死的真惨但昨天就数他吸得最多，他走的很安详，别的流浪汉也不客气，把老汤姆的尸首弄出去找人来卖了。这个过程中，如果老汤姆是正常吸死的还不错，被卖了也还行。</p><p data-pid=\"VC492A4u\">有的时候流浪汉们会坐地起价：</p><p data-pid=\"Aiop5Olt\">越是奇奇怪怪的药过量吸死的尸体，他越值钱，毒理学和药理学这种尸体都很值钱。死了后尸体会被其他活着的流浪汉坐地起价，说看，这个老汤姆死的很惨，这会儿就不说安详了，就会说吸什么吸死的，这可是个狠货啊，最新的狠货，刚上市小作坊出货死的挺惨，你们一定喜欢，开价吧，得加钱。牢A收尸体的时候为了得到完整的尸体就会加价，加价就能买到这还算好的，老汤姆真是吸死的，走的还算安详。</p><p data-pid=\"KHgZmqHG\">第二种尸骨冢</p><p data-pid=\"_XF-uhyn\">你们知道为什么叫尸骨冢吗，现在大家都知道尸体值钱了，那就会产生黑暗森林法则，有些人不是真的吸死的，是直接弄死的。干嘛还得非要等到吸强化剂死掉，把药就给自己不好吗，也怪费钱的，然后流浪汉几个做局把一个弄死，死道友不死贫道，把人弄到小帐篷里，开黑抢，一般没有抢，就是弄死，流浪汉也没有什么好的手法，说是吸死的，一看那尸体创口不用做尸检就知道不是吸死的，那脖子上的创口都赶上碗大了。</p><p data-pid=\"DQGBWiGX\">有人说不把流浪汉抓了判刑吗，警察都懒得碰他们，为什么呢，警察也要创收，他们不死警察怎么创收，不要把那边警察当好人，他也要吃饭，挣的又少，反正又没证据。也不会有人大半夜的去流浪汉帐篷里监测有没有流浪汉杀其他的流浪汉。而且流浪汉不怕坐牢，既管饭还有张床，最起码的温饱能保证，那边几乎是没有死刑的，没有司法机关愿意花费法律资源去审判一个流浪汉有没有杀另一个流浪汉，还是在没有监控的情况下，进牢里还享福了，在街头杀人，进监狱是纯纯享福，反正又没有死刑，所以流浪汉根本不怕进监狱，也不怕死，这种谋杀类的还算好的。</p><p data-pid=\"7vfQQxwk\">第三种尸骨冢</p><p data-pid=\"fWuwmmLY\">也是最最常见的，第三种的尸骨冢就是大家都死了，就是控制药量的时候没控制好，大家全都嗨死了。</p><p data-pid=\"fWASwOM-\">牢A他们捡到个帐篷，里边都是死人，墨黑色的尸水，墨绿色的和橙黄色的脓液都混合在一块，从那个帐篷的那四个角里往外渗，帐篷里都是蚊蝇，尸体是爆开的，人的腹腔里那个肚子爆开的时候肠子会喷挂在灯上面，爆开的血浆脏器，各种组织液，会溅到帐篷四周篷布上，这些东西帐篷好吸收，苍蝇就会扑到皮上面去，刚进去的时候牢a他们以为帐篷里面的四周篷壁是黑的，灯光很暗，后来发现不是，拿手电筒一打，发现墙壁在蠕动，嗡嗡响，上面都是苍蝇，糊满了整个帐篷壁，蠕动的时候感觉就像一面黑色的墙在蠕动，更恐怖的是，拿灯一照，那个苍蝇像黑云一般，从帐篷口冲出来，冲人脸，牢a他们即使带着防毒面具，也感受到了很强的冲击力。</p><p data-pid=\"xo1MM2oI\">然后苍蝇们瞬间从帐篷里飞走了，地上就是半溶解的尸身泡在脓液里，蛆虫狂欢，就是迪斯科米在脓液里血肉上骨骼上翻涌，一拱一拱的，它们吃的特别肥，法医里有个定区推时，就是要鉴定蛆的发育周期，通过这个来推断人是什么时候死的，需要牢a用手去捞一扔那个在脓液里或者血肉里的蛆，捧一捧活体的蠕动的蛆，脓液渗在手套上，黏腻的那种脓液在手里滑行，这种尸体还有回收价值吗，那可太有了，从脓液里去捡骨头的时候，那个肉是脱骨的，血肉直接从骨头上掉下去了，（牢a调侃到，现在你们知道我为什么写小说会被毙了吗，我写过好几回小说，写完之后就被编辑删毙了）所以现在描述的是一种什么样的情况，为什么这个帐篷没有人来处理，偶尔有的时候也不是就只有流浪汉关心这个东西，西大街头就有这种东西，牢a说这种尸骨冢还是流浪汉内部或者是互害或者是喝酒喝死的或者是吸强化剂吸死的，这都是他们内部的事。</p><p data-pid=\"2WISl7bR\">第四种尸骨冢</p><p data-pid=\"iRwEWx36\">美国是有变态的，美国的变态会用那种小口径碘N²简装药的那种手枪，还装了消音器然后专门去虐杀流浪汉，牢a他们在大量的金属弹片里找到少量碎肉，他们为了能多杀几回还给流浪汉嗑药，会“好心”请流浪汉喝强力麻醉品，然后再开枪虐杀，你们都想象不到他们的尸体里有多少子弹碎片，几乎是在所有能开枪的地方都开了，在骨头缝里卡了很多弹片碎片，牢a他们属于是从弹药碎片中找到了少量碎肉，开枪都算文明的。</p><p data-pid=\"qxUVu1qy\">第五种尸骨冢</p><p data-pid=\"Vv2vHO5e\">这种尸骨冢就是切碎了的，有拿斧头切的，有拿砍刀电锯切的，拿电锯sha人，电锯会卡在骨头里，电锯实际上不好用，人骨头还是很硬的，骨头的碎片，肉的碎片肠子什么的会把锯片给绞住，它没那么快。有些黑帮的变态分子，想虐杀ren的时候，碎尸的时候用电锯，不是很好看，骨头崩一地，用斧头的都算好的，切的还算行，这也是碎尸骨冢。</p><p data-pid=\"dZvp14pE\">第六种尸骨冢</p><p data-pid=\"hnK7Zf1_\">在尸骨冢帐篷里，有时候收到的尸体是没有每脏的，胸腔是打开的，内脏是没有的，内脏都被摘走了，狗吃的话，那个切口不会那么好，欧美是一直有模仿剪刀手爱德华或者开膛手的，买卖器官是不可能直接用的，是需要做配型的，大概率是拿去吃了，手法有的摘的很粗糙，有的摘的很精致，旧的档案里都有记录。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5Y4InqL2\">在街头，每打开一个帐篷，里边就有不同的惊喜，最难过的是，这些被切碎的尸体需要牢a他们拼回去，需要尽可能的把每个尸体碎块拿回去，这种切口创面可是很少见的，有些位置100年也不一定能遇到一个创口切在这的。这可得好好研究研究，死法很凄惨，惨到一定程度都能上gui wen的（不懂这是什么意思，只能打拼音了），美剧都是美化，而不是拍的真实，现实就是比《识骨寻踪》离谱（作者有话要说，这个剧很好看的）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OC3sr8uc\">第七种尸骨冢</p><p data-pid=\"I9vUWaRE\">还有一种情况就是，骨头会被抽走，他也不是碎尸，他是解剖，也不知道骨头去哪了，牢真补充说骨头被拿走了一般是做祭品的。牢a继续讲，说刚才说的都是现代冲击的，还有原始冲击的，就是如果这个流浪汉的帐篷够偏的话，那个尸体会引来猫猫狗狗野狼，会去吃尸体，尸体都是磕嗨了磕大了的，它们吃了这些尸体也嗨了，它们会咬人。</p><p data-pid=\"olTBNxCa\">警察接到过一个流浪汉报警，报警完后警察就转给牢a他们，去了流浪汉没死，是被咬没了半张脸，半个手，还活着，流浪汉和牢a他们说他被野狼野狗野猫袭击了。</p><p data-pid=\"JAkIgvjc\">磕嗨了的狗眼珠子红彤彤的，口吐白沫，流着口水疯狂的乱咬乱叫，发出的声音让人很不舒服，狗嘴里牙缝之间还有ren肉，跟生化危机里的丧尸犬没区别。这些狗怎么处理，如果是被动保组织发现了，肯定是杀不掉了；如果是没发现可以枪毙，有的时候打麻醉针拿回去做实验。</p><h2>                          海鸥叼眼球</h2><p data-pid=\"iZ9huGoG\">第八种尸骨冢</p><p data-pid=\"YRE7Ae24\">西雅图是个海港城市，有海鸥有海鸽海鸟，这种鸟类对腥味很敏感，有的流浪汉死的时候会吸引来这些海鸟，海鸟由于生理结构，它们的力气不是很大，它们只能啄击脆弱的部分，啄下来吃，就是眼球。</p><p data-pid=\"rdHBq-Eh\">接到电话说海港区某某地方有又被虐杀的流浪汉，去看一下吧，看见尸体的一瞬间，很多海鸟就站在流浪汉的头上，嘴里叼着一个圆圆的东西后边还带个柄，海鸥背着人的，一甩脸转过来嘴角全是血，明黄色的喙混着各种颜色的液体，嘴里的眼球还看着你，晦暗的天空，弥漫着海雾的空气，特别惊悚，非常的恐怖。眼球还不是透明色的，往往流浪汉死的时候眼球是猩红色的。</p><p data-pid=\"HaSm1gmB\">牢a说有些傻子来西雅图玩还很喜欢和这些海鸟互动，觉得海鸥很可爱。牢a觉看着觉得很好玩。</p><p data-pid=\"iWUmyRTz\">让牢a特别难受的点是，咸腥的海风带着海雾吹到人脸上，混合着港口区海鲜的味道，再混合着咖啡浓烈的香味，再混合着尸体的味道，非常受刺激。</p><p data-pid=\"Agx0OnNG\">除了眼球以外，嘴唇也最软，尸体的嘴被海鸥啄食后，👄会形成一个很诡异的微笑的形状，空洞的双眼，嘴角被扯成诡异的微笑。</p><p data-pid=\"JnOpjPpZ\">第九种尸骨冢</p><p data-pid=\"1MskXylu\">这种尸骨冢是最恐怖的，是让牢a做过噩梦的，就是屠户，帐篷里一打开，本来是挂灯的地方，挂横梁的地方都是铁钩子，那个人虽然也是被切碎死的，他不是被随随便便切的，是像肉羊肉牛一样被肢解好的。</p><p data-pid=\"sb9WQUtT\">牢a讲那边他们的人口是不涨的，抛开移民，合法的非法的，人口实际上在减少。合法人口，就是合法报警的一年失踪56万这是23年的统计，人口去哪了呢？</p><h2>               这期直播中牢真讲的内容</h2><h2>                             人包子</h2><p data-pid=\"4FWbXTq6\">牢真讲西大那块在料理人这一方面，做人这一方面，非常厉害，坏的环境里边不一定全是坏人，也有亚裔华裔，有些厨子手艺是真不错，做的像模像样的，他们不跟你说，你都不知道这是人做的，杂肝汤里的肝片。</p><p data-pid=\"qqAHBRz1\">牢真说当年他的一个朋友是警官，在边境戒过du，他是大腿上一个伤，小腿上一个抢伤，左右胳膊各一个刀伤，肩膀被子弹射过，这么一个狠人，说了一个过去的故事，说他当年再西大吃过一次包子，说ren的这个肉的口感，他的形容是比pig肉要细腻，比羊肉还嫩，油脂丰富，口感绵密，相当好吃，说他后来再没吃过用大葱料做的那么好吃包子馅了。</p><p data-pid=\"c3vu3bEF\">牢真说当年的西大包子案应该有些人知道，</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a5eb0b1bdeb4960a43e060aef10bf211_1440w.jpg\" data-rawwidth=\"859\" data-rawheight=\"1527\" data-size=\"normal\" data-original-token=\"v2-cf09e5e6e5c9047005a0b244e24dedcd\" class=\"origin_image zh-lightbox-thumb\" width=\"859\" data-original=\"https://pic4.zhimg.com/v2-a5eb0b1bdeb4960a43e060aef10bf211_r.jpg\"/></figure><p data-pid=\"Jd7WoQBp\">（*图片来源于网络）</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7DtLz8pC\">如果对我呈现的感兴趣，请关注我👇，我将呈现更多精彩</p>",
+        "favorite_count": 60,
+        "article_type": "normal",
+        "voting": 0,
+        "excerpt_new": "牢A登上了《求是》《纽约时报》的杂志首页，美媒集体认证斩杀线， 不久后据说他是在外面的时候，被人找上家门了，被他朋友看到了。告诉他之后，他家都没敢回直接找大使馆了。 据说报道他的作者就是代表性的精美份子，他动了太多搞移民相关产业人的蛋糕了。 好消息是目前牢A已已经被传送回国了     （*图来自网络，今日6公主放的电影也是一如既往的紧跟时事） 我写公众号都被在国内某些不知道什么成分的人和在美在澳不知成分的华人，…",
+        "visited_count": 10793
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994933866125882575}",
+      "attached_info": "CvsGCOTciaeo3qyU2gEQBxoJMjY5MDMzNTIzIKaUn8sGKFUwH0APSjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMTM4MTg4MjRiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk0OTMzODY2MTI1ODgyNTc1igEVY18xOTk0NTg1ODAzOTA5Nzc1Mzc2qgEJcmVjb21tZW5kwgEgOTUyZThlZjU4ODFhZjVkOTBjZTZmYjA5YjBlM2RlZDfyAQoIDBIGTm9ybWFs8gEoCAoSJDBkMjNkMjgwLTVhYzUtNGE1OS1iMDBhLWNjYjk3ZTVkNTVlNfIBBQgLEgEzggIAiAKfopnGvDOSAiA5NTJlOGVmNTg4MWFmNWQ5MGNlNmZiMDliMGUzZGVkN5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMugCA/oCC05PUk1BTF9GTE9XigMgZGM4YmFhZDdiMDU5NDY4NjhlOGY1OWMzNzllNjczZGWaAw0KAnYyEAAaBW90aGVyqAOpVNgDAOoDFmZlZWRyZV9maXJzdF9zY3JlZW5fdjL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuAYYpAQiI3YyLTNmMTIwMjg3MTc2MDY5MzM3Y2Y0ZmIxM2YyYTUxNGM3Oi0IAxCAChi4BCIjdjItOTk0OWNkYjdiMjZjNDM2YjcwZDQ3NDA2ODljZWQ3ZTY6LQgCENsGGPcLIiN2Mi1jZjA5ZTVlNmU1YzkwNDcwMDVhMGIyNDRlMjRkZWRjZIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYC5Yrj+BBQAAAAAAAAAAiQVnS/99rtWqP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUDkAYAoAYQqAYAkgIuCgkyNjkwMzM1MjMSEzE5OTQ5MzM4NjYxMjU4ODI1NzUYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "16_1768599998.615",
+      "type": "feed",
+      "offset": 16,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768599998,
+      "updated_time": 1768599998,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1995635033491404713",
+        "updated_time": 1768576469,
+        "thumbnail": "https://picx.zhimg.com/50/v2-85f3a65a62a056921236fa3bb8e9628f_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"GBFmSufC\">那些我读过的书，最终成了我现在的样子。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-01ccaf16d929454ef47020411bd9ea47_1440w.jpg\" data-rawwidth=\"2320\" data-rawheight=\"1535\" data-size=\"normal\" data-original-token=\"v2-85f3a65a62a056921236fa3bb8e9628f\" class=\"origin_image zh-lightbox-thumb\" width=\"2320\" data-original=\"https://picx.zhimg.com/v2-01ccaf16d929454ef47020411bd9ea47_r.jpg\"/></figure><p data-pid=\"wq_104eH\">确实读过许多许多书，各种类型的都有所涉猎，中学时代酷爱金庸古龙等武侠小说，图书馆这一类书被借过遍，直到管理员阿姨看到我去开始远远喊到:新书还没来！！！但内容真的记得不多，只记得几个印象深刻的主角……大学时学教育学，酷爱中外教育史，更在网上搜索各种各样的相关野史，好像现在也忘光啦……工作后读心理学，得学会自我调整，可回想具体方法策略好像也一无所知……</p><p data-pid=\"EVTnDqKS\">确实，我们读过的书，会忘记具体句子、段落甚至全部内容，但不会真的消失，什么都没留下。</p><p data-pid=\"8rEDTikm\">它会变成我为人处事时的分寸感——遇到争执时，不会急着辩驳，想得更多的是站在对方的立场，自己会怎么想怎么做；面对得失时，会难过，但不会大喜大悲，多了的一份坦然自持是曾经读过的书。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b8abb0cf4adac8e984b7a340a3d1675d_1440w.jpg\" data-rawwidth=\"2336\" data-rawheight=\"1535\" data-size=\"normal\" data-original-token=\"v2-0bd19b050e5a2ada3216667f50f12565\" class=\"origin_image zh-lightbox-thumb\" width=\"2336\" data-original=\"https://picx.zhimg.com/v2-b8abb0cf4adac8e984b7a340a3d1675d_r.jpg\"/></figure><p data-pid=\"UU7RURCF\">它会藏在我言谈举止间的气质里——不必堆砌辞藻，话语里自有逻辑与温度；不必刻意张扬，举手投足间自有一种从容不迫的笃定。</p><p data-pid=\"bkxi8G5p\">它会化作我化解烦恼的钝感力——读过的道理与故事，当我陷入纠结时，它会悄悄帮我拨开情绪的迷雾，守住内心的平和。</p><p data-pid=\"0yLM3DM-\">它会赋予我独处时的自洽力——哪怕无人相伴，也能在书中的世界里找到慰藉，不慌不忙地与自己相处。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c716c32aadb4562c337c20efbcc6c49e_1440w.jpg\" data-rawwidth=\"2317\" data-rawheight=\"1535\" data-size=\"normal\" data-original-token=\"v2-897d6f3d21d37e5043c4ec3b784b9b54\" class=\"origin_image zh-lightbox-thumb\" width=\"2317\" data-original=\"https://pic1.zhimg.com/v2-c716c32aadb4562c337c20efbcc6c49e_r.jpg\"/></figure><p data-pid=\"1kRe7eCB\">它是我面对选择时的判断力——看过足够多的人生样本，便不会在人生岔路口茫然失措，能更清醒地做出适合自己的决定。</p><p data-pid=\"HHtWzhHE\">它是我看不见的底气——我在人潮里不盲从，在困境中不慌张，在琐碎的日常里，依然能看见生活的辽阔与深意。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"43noej2B\">那些书本里的道理、视角与温度，早已悄悄融进我们的骨血。所以不必忧心，尽情热爱阅读吧，让自己成为自己的底气，越来越好！</p><p></p>",
+        "id": "1995635033491404713",
+        "thanks_count": 0,
+        "visited_count": 5,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "comment_count": 0,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "type": "answer",
+        "is_labeled": false,
+        "question": {
+          "detail": "",
+          "id": "1976120753834443272",
+          "url": "https://api.zhihu.com/questions/1976120753834443272",
+          "follower_count": 0,
+          "comment_count": 31,
+          "bound_topic_ids": [
+            1400687,
+            1956042
+          ],
+          "is_following": false,
+          "created": 1763923902,
+          "excerpt": "",
+          "title": "我读过很多书，但后来大部分都被我忘记了，那阅读的意义是什么？",
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "author": {
+            "id": "386a58bb65bfe6a0a5ddf46f62fdd200",
+            "name": "浅吟花未央",
+            "headline": "你是属于天意，那种命中注定。",
+            "followers_count": 656,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/386a58bb65bfe6a0a5ddf46f62fdd200",
+            "user_type": "people",
+            "url_token": "qian-yi-wang-xi-33",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-2016705c06262302e5045090f78cebed_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "is_following": false
+          },
+          "answer_count": 0,
+          "question_type": "normal"
+        },
+        "preview_text": "",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-85f3a65a62a056921236fa3bb8e9628f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0bd19b050e5a2ada3216667f50f12565_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-897d6f3d21d37e5043c4ec3b784b9b54_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "author": {
+          "followers_count": 315,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/a8b994e9e88adaad40e54abe3dea8738",
+          "url_token": "93-16-81-20",
+          "name": "白瞎看世界",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-1abe7b115ea0ab9e5dfe334d5a1fef38_l.jpg?source=b6762063",
+          "gender": 0,
+          "is_following": false,
+          "id": "a8b994e9e88adaad40e54abe3dea8738",
+          "user_type": "people",
+          "headline": "侃天侃地侃自己",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "教师资格证持证人"
+            }
+          ]
+        },
+        "excerpt": "那些我读过的书，最终成了我现在的样子。   确实读过许多许多书，各种类型的都有所涉猎，中学时代酷爱金庸古龙等武侠小说，图书馆这一类书被借过遍，直到管理员阿姨看到我去开始远远喊到:新书还没来！！！但内容真的记得不多，只记得几个印象深刻的主角……大学时学教育学，酷爱中外教育史，更在网上搜索各种各样的相关野史，好像现在也忘光啦……工作后读心理学，得学会自我调整，可回想具体方法策略好像也一无所知…… 确实，我…",
+        "excerpt_new": "那些我读过的书，最终成了我现在的样子。   确实读过许多许多书，各种类型的都有所涉猎，中学时代酷爱金庸古龙等武侠小说，图书馆这一类书被借过遍，直到管理员阿姨看到我去开始远远喊到:新书还没来！！！但内容真的记得不多，只记得几个印象深刻的主角……大学时学教育学，酷爱中外教育史，更在网上搜索各种各样的相关野史，好像现在也忘光啦……工作后读心理学，得学会自我调整，可回想具体方法策略好像也一无所知…… 确实，我…",
+        "vote_next_step": "vote",
+        "created_time": 1768576469,
+        "favorite_count": 3,
+        "voteup_count": 0,
+        "is_copyable": true,
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995635033491404713}",
+      "attached_info": "CtwGCOTciaeo3qyU2gEQBBoJNzY1NzM0NDQ0INWrqcsGKAAwAEAQSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBaCTExNzQ0NzUwOGIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTU2MzUwMzM0OTE0MDQ3MTOKARMxOTc2MTIwNzUzODM0NDQzMjcyqgEJcmVjb21tZW5kwgEgYThiOTk0ZTllODhhZGFhZDQwZTU0YWJlM2RlYTg3MzjyAQoIDBIGTm9ybWFs8gEoCAoSJDc5MDI1Y2IwLWRiYmMtNDNmMi1iZTE5LWRjNGY3YjBkYjQ2YfIBBQgLEgEzggIAiAKfopnGvDOSAiBhOGI5OTRlOWU4OGFkYWFkNDBlNTRhYmUzZGVhODczOJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AID+gILTk9STUFMX0ZMT1eKAyBkYzhiYWFkN2IwNTk0Njg2OGU4ZjU5YzM3OWU2NzNkZZoDDQoCdjIQABoFb3RoZXKoAwXYAwDqAyB3YXJtdXBUd29Ub3dlclRleHROb3JtYWxSZWNhbGxlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxCQEhj/CyIjdjItODVmM2E2NWE2MmEwNTY5MjEyMzZmYTNiYjhlOTYyOGY6LQgDEKASGP8LIiN2Mi0wYmQxOWIwNTBlNWEyYWRhMzIxNjY2N2Y1MGYxMjU2NTotCAMQjRIY/wsiI3YyLTg5N2Q2ZjNkMjFkMzdlNTA0M2M0ZWMzYjc4NGI5YjU0gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAg0q2VP4EFAAAAAAAAAACJBWdL/32u1ao/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQOQBgCgBhGoBgGSAi4KCTc2NTczNDQ0NBITMTk5NTYzNTAzMzQ5MTQwNDcxMxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "17_1768599998.159",
+      "type": "feed",
+      "offset": 17,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768599998,
+      "updated_time": 1768599998,
+      "target": {
+        "id": "1993641768093230697",
+        "type": "article",
+        "voting": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "先说下我的经历，有6年大厂算法工程师的经验，2022年前主要做CV和NLP，2023年全面转向大模型方向。平均每年负责三个大模型相关项目，也参与组内其他项目。无论是作为面试官还是候选人，这前前后后的经历我都积累了不少。今天纯粹是个人经验分享，没有任何广告，可能带有我的个人视角，大家批判参考就好。 我的目标很明确：告诉你 最少、最必要、能让你真正干起来的知识是什么。现在网上的课程和文章很多，内容很全，但往往列出一…",
+        "content": "<p data-pid=\"9y2HXHPS\">先说下我的经历，有6年大厂算法工程师的经验，2022年前主要做CV和NLP，2023年全面转向大模型方向。平均每年负责三个大模型相关项目，也参与组内其他项目。无论是作为面试官还是候选人，这前前后后的经历我都积累了不少。今天纯粹是个人经验分享，没有任何广告，可能带有我的个人视角，大家批判参考就好。</p><p data-pid=\"LyGCk_a3\">我的目标很明确：告诉你<b>最少、最必要、能让你真正干起来</b>的知识是什么。现在网上的课程和文章很多，内容很全，但往往列出一个长长的清单，容易让人无从下手甚至焦虑。我想帮你聚焦在那些<b>绕不开、面试必问、实际干活必需</b>的核心点上。如果你想系统地、学术化地打基础，我的方法可能显得太功利；但如果你想快速摸到门槛，知道劲该往哪里使，那今天的内容就是为你准备的。</p><p data-pid=\"8YkSh7AG\">我把这些必须掌握的知识分成五大块：<b>数学基础、深度学习基础、大模型核心、计算机基础、数据工程</b>。其中最重要、最急迫的是第三块——<b>大模型核心知识</b>，这也是和过去AI工程师区别最大的地方。</p><hr/><h2>第一，大模型核心，重中之重是Transformer</h2><p data-pid=\"-EYHFmRU\">你必须彻底理解这个架构。我强烈建议你动手。我在B站发过一个视频，就是教你怎么用自己电脑的CPU，去调试一个迷你版的大模型。真正动手“跑”一遍，看着数据怎么流动、参数怎么更新，比你读十篇教程都管用。它内部的数学核心，尤其是<b>自注意力机制</b>，你必须搞懂它的计算过程和为什么它如此强大。Transformer主要衍生出两个方向：以BERT为代表的<b>Encoder-only</b>架构，和以GPT系列为代表的<b>Decoder-only</b>架构。当前行业的主流是Decoder-only，你需要重点理解它如何通过“掩码”实现单向生成。</p><p data-pid=\"WVIJ6cdm\">除了架构本身，还要理解<b>位置编码</b>和<b>词嵌入</b>这些基础组件是干什么的，它们是怎么让模型理解顺序和语义的。</p><p data-pid=\"3pcgWDzO\">工具生态上，<b>Hugging Face</b> 和它的 <b>Transformers库</b> 是你未来最亲密的工具，尤其是Huggingface，所有一流的开源的数据集和模型都会放在上面。必须玩熟。这就像Python程序员要熟悉pip一样，它是获取开源模型、数据集和工具链的第一站，你要熟练掌握如何搜索、加载、使用和贡献。</p><p data-pid=\"PI2UhjCj\">在技术流程上，<b>预训练</b>和<b>指令微调</b>的原理要清楚。实话实说，很多人（包括我）都没机会参与从头预训练一个千亿参数模型的项目，这需要巨大的资源。但<b>微调</b>是你几乎必然要接触的。有哪些主流微调方法（全参数、LoRA、QLoRA等）？它们各自适用什么场景？这些面试120%会问。同时，<b>混合精度训练</b>和<b>DeepSpeed</b> 这类框架的基本思想也要懂，它们是为了解决大模型训练中显存不足和速度慢的核心技术。</p><p data-pid=\"dzPrh8cD\">与训练紧密相关的还有<b>显存与规模估算</b>。这是非常实在的工程能力。给你一个几B参数的模型，你大概要估算需要多少显存，怎么设置<code>batch_size</code>，要不要用梯度累积，大概需要几张卡才跑得起来。面试官很喜欢问这类问题，比如“训练一个13B的模型，在A100上大概要怎么配置？” 这背后涉及到你对模型参数量、激活值、优化器状态的内存占用，以及数据并行、张量并行等基础分布式的理解。</p><p data-pid=\"b9iROIoS\">对齐技术方面，你不用去啃强化学习教材，但必须知道<b>DPO、PPO</b>这些方法是怎么被应用到大模型“对齐”上的，核心思想是什么。最好能亲手跑过一个简单的对齐代码项目，了解整个流程。</p><p data-pid=\"AAmH4JcU\">推理阶段，<b>KV Cache</b>和<b>模型量化</b>是当前加速推理、降低部署成本的核心手段，你得明白它们解决了什么问题，以及大概是怎么实现的。</p><p data-pid=\"faEZXbbX\"><b>评估和测评</b>同样关键。模型训好了，怎么向老板或团队证明它有效？你需要知道常见的评估指标。在文本生成任务中，<b>ROUGE、BLEU</b>这些自动指标虽然不完美，但依然是汇报依据。而对于模型本身的困惑度<b>PPL</b>，则是内部评估语言建模能力的重要标准。理解这些指标的含义和局限，是必备技能。对于分类任务，召回率、精确率、准确率、混淆矩阵无比重要。对于检测任务，MAP系列是基础中的基础。</p><p data-pid=\"R2rtH6LZ\"><b>RAG</b>是解决模型知识幻觉和私有化问题的<b>关键应用范式，在应用中很重要，必须掌握一两个最基本的RAG方法。</b></p><h2>第二，深度学习基础</h2><p data-pid=\"w_U8l2Rl\"><b>梯度下降</b>及其变种是训练的基石。<b>损失函数</b>是模型的“指挥棒”，你得理解交叉熵、均方误差这些常见损失函数，以及它们如何引导模型学习。<b>Dropout、层归一化、残差连接、各种优化器、学习率调度</b>这些经典概念也必须牢牢掌握，它们是构建和稳定深度网络的工具箱。<b>卷积神经网络</b>的基础也要了解，因为在多模态模型中，处理图像的部分其骨干网络可能还是CNN的变体或受其启发。</p><p data-pid=\"dlVtsFU0\">至于<b>RNN和LSTM</b>，我的建议是，你不必再花大量时间深究其代码实现和复杂公式，但建议<b>了解其基本思想和工作机制</b>。因为面试中一个非常经典的问题是：“为什么Transformer能几乎取代RNN？” 这时候，如果你能从<b>并行计算能力</b>和<b>长程依赖建模</b>这两个根本痛点出发，对比解释Transformer的优势，会显得你的理解非常深刻。了解旧技术，是为了更懂新技术的革命性。</p><p data-pid=\"9nTMlTW7\">传统机器学习，比如<b>支持向量机、线性/逻辑回归</b>，在我的大模型研发项目里确实没有直接用过，面试中也极少被问到。但这很可能是一种<b>幸存者偏差</b>。如果你时间极度紧张，急于入门，可以先跳过它们的实现细节；但我强烈建议你在之后，抽空了解一下<b>支持向量机</b>这类经典算法的核心思想（比如“最大间隔”），这对你形成完整的机器学习直觉非常有好处。</p><h2>第三，数学基础</h2><p data-pid=\"zuXLBSbI\">我默认你大学里学过微积分、线性代数、概率论，并且考试通过了。但“学过”和“在AI中能用”是两码事，你必须重新激活并熟练运用以下核心：</p><ul><li data-pid=\"DaxF0OEi\"><b>线性代数</b>：重点是<b>矩阵乘法、转置、求逆</b>等运算，以及<b>张量</b>的概念。我们的模型参数、输入数据、中间激活值全都是张量，这是所有计算的载体。</li><li data-pid=\"5IxoZART\"><b>概率论</b>：这是我认为最重要的数学分支。<b>条件概率、贝叶斯定理、常见概率分布（如正态分布）</b>，这些思想在理解模型的不确定性、生成过程、损失函数设计时无处不在。</li><li data-pid=\"v7AFcneW\"><b>微积分</b>：核心是<b>求导和链式法则</b>。这是<b>梯度下降和反向传播</b>的理论根基，是所有模型赖以训练和优化的基础。</li></ul><h2>第四，计算机与工程基础</h2><p data-pid=\"EzBYqLal\">四件套：<b>Python、PyTorch、Git、Linux</b>。Linux是模型训练和部署的主流环境，基本的文件操作、进程管理、环境配置命令必须熟练。<b>CUDA和显卡</b>的基础知识也要了解，起码要知道你的代码是怎么在GPU上加速的，如何监控GPU利用率和显存使用，这是效率分析和问题排查的前提。</p><h2>第五，数据工程</h2><p data-pid=\"cxjtzH-x\">还有一个极其重要但常被新手忽视的方面：<b>数据工程</b>。在实际项目中，你可能要花50%甚至更多的时间在和数据打交道：高质量的训练数据从哪里来？怎么清洗和过滤低质文本？如何对海量数据进行高效去重？构造指令对时，指令和回复怎么配比效果更好？这部分经验非常依赖实践，是最难通过理论课教授的，往往需要在真实工作中踩坑积累。但你必须意识到它的重要性，它直接决定了模型性能的上限。</p><h2>补充：关于读论文</h2><p data-pid=\"sof_Ys98\">面对层出不穷的新论文，不必每篇都逐字精读，可以善用<b>大模型帮你总结摘要和核心贡献</b>，保持对领域动向的敏感，在需要时再深入阅读原文。</p><h2>补充：关于Agent</h2><p data-pid=\"rIDns-le\"><b>Agent（智能体）</b>，在我个人的定位里，它们更偏向 <b>“大模型应用工程师”</b> 的核心技能，和我聚焦的 <b>“大模型算法工程师”</b> 侧重点有区别：</p><ul><li data-pid=\"0paPXwgt\"><b>算法工程师（我视频聚焦的）</b>：更偏向 <b>“炼模型”</b>。核心是<b>怎么训练/微调/对齐一个更好的模型基座</b>，研究的是模型本身的能力边界、Scaling Law、高效训练和底层优化。这是所有上层应用的地基。</li><li data-pid=\"mXbrXQqH\"><b>应用/Agent工程师</b>：更偏向 <b>“用模型”</b>。核心是<b>怎么基于现有模型基座（比如调用API或开源模型），结合外部工具（搜索、代码、API）和知识（RAG），构建出能自动完成复杂任务的智能体系统</b>。这是在地基上盖高楼。</li></ul><p data-pid=\"QQDYoMP4\">当然，这个界限正在模糊。<b>优秀的算法工程师必须懂应用方向</b>（否则不知道优化目标），<b>优秀的应用工程师也必须懂算法基础</b>（否则不会调优模型）。</p><h2>总结</h2><p data-pid=\"qnCcOfUA\">以上我谈到的所有知识点，包括更详细的原理、实践案例、代码实现和避坑指南，我都会系统地写进我正在创作的《大模型算法工程师自学手册》里（我现在正在写两本书，第一本书是《概率论自学手册》，已经通过出版社审批，预计很快就会和大家见面；第二本书是《大模型算法工程师自学手册》，正在筹划，准备开始写）。同时，我的B站频道也会持续更新相关的免费视频内容，基本上能做到每周至少一更，未来也计划做成一个完整的系列课程，希望能陪伴大家从入门到精通。</p><p data-pid=\"1Nm_jXsK\"><b>总结一下</b>，最少必要的知识就是：<b>吃透Transformer，玩转PyTorch和Hugging Face生态，搞懂微调/对齐/评估的完整流程，掌握显存估算和数据工程意识，激活核心数学，熟练Python+Linux四件套</b>。</p>",
+        "is_labeled": false,
+        "article_type": "normal",
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/articles/1993641768093230697",
+        "title": "成为大模型算法工程师“最少”应该掌握哪些知识？来自一线算法工程师的经验",
+        "comment_permission": "all",
+        "created": 1768102491,
+        "allow_segment_interaction": true,
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "b9f8da41c54915f96f415154e1348737",
+          "url": "https://api.zhihu.com/people/b9f8da41c54915f96f415154e1348737",
+          "url_token": "fffar",
+          "name": "武辰",
+          "avatar_url": "https://picx.zhimg.com/50/v2-7b8d84e4f9b138aa3fa72878b321d3e7_l.jpg?source=b6762063",
+          "followers_count": 23141,
+          "user_type": "people",
+          "headline": "",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "description": "数学话题下的优秀答主",
+              "topic_names": [
+                "数学"
+              ],
+              "topic_ids": [
+                1291
+              ],
+              "type": "best_answerer"
+            }
+          ]
+        },
+        "updated": 1768402256,
+        "comment_count": 3,
+        "favorite_count": 201,
+        "is_navigator": false,
+        "voteup_count": 77,
+        "excerpt": "先说下我的经历，有6年大厂算法工程师的经验，2022年前主要做CV和NLP，2023年全面转向大模型方向。平均每年负责三个大模型相关项目，也参与组内其他项目。无论是作为面试官还是候选人，这前前后后的经历我都积累了不少。今天纯粹是个人经验分享，没有任何广告，可能带有我的个人视角，大家批判参考就好。 我的目标很明确：告诉你 最少、最必要、能让你真正干起来的知识是什么。现在网上的课程和文章很多，内容很全，但往往列出一…",
+        "preview_type": "default",
+        "preview_text": "",
+        "visited_count": 2108,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1993641768093230697}",
+      "attached_info": "Cs4FCOTciaeo3qyU2gEQBxoJMjY4ODU1MjU2INu0jMsGKE0wA0ARSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoAYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5MzY0MTc2ODA5MzIzMDY5N6oBCXJlY29tbWVuZMIBIGI5ZjhkYTQxYzU0OTE1Zjk2ZjQxNTE1NGUxMzQ4NzM38gEKCAwSBk5vcm1hbPIBKAgKEiQ5ZDc2NWZjMC1mZmZkLTQ1MTYtOWRlMS03NTQzMjFkMDU0Y2LyAQUICxIBM4ICAIgCn6KZxrwzkgIgYjlmOGRhNDFjNTQ5MTVmOTZmNDE1MTU0ZTEzNDg3MzeaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gImVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjHoAgX6AgtOT1JNQUxfRkxPV4oDIGRjOGJhYWQ3YjA1OTQ2ODY4ZThmNTljMzc5ZTY3M2RlmgMNCgJ2MhAAGgVvdGhlcqgDvBDYAwDqAyNmZWVkLXRleHQtYWxsc2l0ZS1vbmxpbmUtdWNmLXJlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAE1oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAODZao4/gQUAAAAAAAAAAIkFZ0v/fa7Vqj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFA5AGAKAGEqgGAJICLgoJMjY4ODU1MjU2EhMxOTkzNjQxNzY4MDkzMjMwNjk3GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=17&desktop=true&end_offset=18&page_number=4&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=17&desktop=true&end_offset=18&page_number=4&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,528 @@
+{
+  "data": [
+    {
+      "id": "42_1768757033.381",
+      "type": "feed",
+      "offset": 42,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757033,
+      "updated_time": 1768757033,
+      "target": {
+        "author": {
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/714ccbff03f702a41b64321d914f8719",
+          "url_token": "luo-gan-5-62",
+          "name": "小奶球",
+          "headline": "计算机火石与哲学燧发枪",
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "计算机技术与软件专业技术资格证持证人"
+            }
+          ],
+          "is_following": false,
+          "id": "714ccbff03f702a41b64321d914f8719",
+          "user_type": "people",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9da0f9f832b85405a1796406d4c7e470_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2190
+        },
+        "comment_count": 20,
+        "question": {
+          "comment_count": 0,
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "id": "1996139713501881650",
+          "url": "https://api.zhihu.com/questions/1996139713501881650",
+          "author": {
+            "user_type": "people",
+            "name": "小奶球",
+            "avatar_url": "https://picx.zhimg.com/50/v2-9da0f9f832b85405a1796406d4c7e470_l.jpg?source=b6762063",
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "计算机技术与软件专业技术资格证持证人"
+              }
+            ],
+            "is_followed": false,
+            "gender": 1,
+            "followers_count": 2190,
+            "is_following": false,
+            "id": "714ccbff03f702a41b64321d914f8719",
+            "url": "https://api.zhihu.com/people/714ccbff03f702a41b64321d914f8719",
+            "url_token": "luo-gan-5-62",
+            "headline": "计算机火石与哲学燧发枪",
+            "is_org": false
+          },
+          "follower_count": 0,
+          "type": "question",
+          "created": 1768696794,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            225,
+            769,
+            2598
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "title": "如何评价jQuery在诞生二十年之际发布4.0.0版本？",
+          "is_following": false
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-5653fc273e5283f81c565f4077f808d0_720w.jpg?source=b6762063",
+        "type": "answer",
+        "preview_type": "default",
+        "preview_text": "",
+        "is_labeled": false,
+        "is_navigator": false,
+        "id": "1996151891328012998",
+        "updated_time": 1768699697,
+        "is_copyable": true,
+        "excerpt": "元素选择器、AJAX和JSONP，如果你是十年老前端肯定对这些jQuery名词不陌生，但如今却只能成为嘲笑老登的谈资。 自2006年诞生以来，jQuery一直扮演着浏览器内置js解释器功能扩展的角色。它提供了丰富的html元素操作、css动画和js语法糖的功能，以及一套成熟的后端请求方法AJAX。在没有axios和fetch的年代，开发者不需要翻烂参考手册，操着冗余复杂的XMLHttpRequest对象艰难的发起请求，简简单单的$就能解决所有网络问题。 七年之…",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-5653fc273e5283f81c565f4077f808d0_720w.jpg?source=b6762063"
+        ],
+        "url": "https://api.zhihu.com/answers/1996151891328012998",
+        "excerpt_new": "元素选择器、AJAX和JSONP，如果你是十年老前端肯定对这些jQuery名词不陌生，但如今却只能成为嘲笑老登的谈资。 自2006年诞生以来，jQuery一直扮演着浏览器内置js解释器功能扩展的角色。它提供了丰富的html元素操作、css动画和js语法糖的功能，以及一套成熟的后端请求方法AJAX。在没有axios和fetch的年代，开发者不需要翻烂参考手册，操着冗余复杂的XMLHttpRequest对象艰难的发起请求，简简单单的$就能解决所有网络问题。 七年之…",
+        "answer_type": "normal",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"lyJh_pEb\">元素选择器、AJAX和JSONP，如果你是十年老前端肯定对这些jQuery名词不陌生，但如今却只能成为嘲笑老登的谈资。</p><p data-pid=\"2apebh1U\">自2006年诞生以来，jQuery一直扮演着浏览器内置js解释器功能扩展的角色。它提供了丰富的html元素操作、css动画和js语法糖的功能，以及一套成熟的后端请求方法AJAX。在没有axios和fetch的年代，开发者不需要翻烂参考手册，操着冗余复杂的XMLHttpRequest对象艰难的发起请求，简简单单的$就能解决所有网络问题。</p><p data-pid=\"FL86DLYT\">七年之后，jQuery发布了第二个大版本，激进的废除了IE6-8的支持。虽然对于现在浮躁的前端圈而言，废除一个老旧残缺的规范是极其政治正确的选择，但对于那个时候还是一次勇敢的尝试。</p><p data-pid=\"XKKRP044\">短短三年之后的2016年，前端进入高速发展时期，jQuery发布第三个大版本。当年es6规范颁布，jQuery也紧跟步伐加入了Promise等异步特性。同时Vue发布了首个大版本更新，jQuery的竞争对手变成框架级的工具。</p><p data-pid=\"hPfV69ls\">如今在AI的冲击下，大家都聚焦于前端已死的热点话题的时候，jQuery悄无声息发布了第四个大版本。这个版本的jQuery改动并没有之前多，包括移除了IE11的支持、添加了trusted type和csp打包支持。这些不痛不痒的改动并不能挑起前端开发者的神经，但却向世人昭示了“我还活的好好的”信息。</p><p data-pid=\"UQSf_4I1\">今天是jQuery的二十岁生日，但可能已经没有人关注这个古老的工具，也鲜有公司赞助这个老登云集的团队。但是不得不承认jQuery在前端发展过程中起着举足轻重的作用，甚至影响了浏览器api。前端能发展到今天离不开像John Resig这样的开发者默默无闻的贡献着一砖一瓦。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5653fc273e5283f81c565f4077f808d0_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1542\" data-size=\"normal\" data-original-token=\"v2-5653fc273e5283f81c565f4077f808d0\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic3.zhimg.com/v2-5653fc273e5283f81c565f4077f808d0_r.jpg\"/></figure><p></p>",
+        "thanks_count": 5,
+        "favorite_count": 15,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "visited_count": 6169,
+        "voteup_count": 68,
+        "navigator_vote": false,
+        "created_time": 1768699697
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996151891328012998}",
+      "attached_info": "CukFCNn6hfz1kor+hQEQBBoJNzY1ODg1MTYzILHusMsGKEQwFEAqSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTgxMDUwOTViIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTk2MTUxODkxMzI4MDEyOTk4igETMTk5NjEzOTcxMzUwMTg4MTY1MKoBCXJlY29tbWVuZMIBIDcxNGNjYmZmMDNmNzAyYTQxYjY0MzIxZDkxNGY4NzE58gEKCAwSBk5vcm1hbPIBKAgKEiQyNDZhNjQ4ZC04OTA0LTQ5NzctYjljYy1hMDkyM2E4NTMyMmXyAQUICxIBOIICAIgCyvGJkb0zkgIgNzE0Y2NiZmYwM2Y3MDJhNDFiNjQzMjFkOTE0Zjg3MTmaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gITVFNfU09VUkNFX0ZFRURSRV9WNegCBPoCC05PUk1BTF9GTE9XigMgZWZkYzE1ZmZjMzg4NDM0MmJhZWU1ZmRhZjJkM2U4ODGaAw0KAnYyEAAaBW90aGVyqAOZMNgDAOoDGWZlZWRyZVdhcm1TdWNjZXNzUmVjYWxsZXL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBCAEBiGDCIjdjItNTY1M2ZjMjczZTUyODNmODFjNTY1ZjQwNzdmODA4ZDCABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAACB30aM/gQUAAAAAAAAAAIkF/rCKFMy3sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGLKgGAZICLgoJNzY1ODg1MTYzEhMxOTk2MTUxODkxMzI4MDEyOTk4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "43_1768757033.976",
+      "type": "feed",
+      "offset": 43,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757033,
+      "updated_time": 1768757033,
+      "target": {
+        "url": "https://api.zhihu.com/articles/1994103211871728642",
+        "title": "新概念，背完这21篇直接封神！！",
+        "updated": 1768211310,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "excerpt_new": "陪小葡萄学完新概念一册，前前后后花了快两年时间，相应地收获了些经验，分享给同样在自鸡的家长❤️ 最开始只是想帮娃打牢英语基础，没想到一路坚持下来，娃不仅能流畅读课文，校内成绩也一直稳定在班级前五。这两年里，我们试过很多学习方法，但结果很多都是花大量时间浪费了，今天就把亲测有用、值得重点背诵的课文整理出来，希望能帮到同样陪娃学新概念的家长。 需要重点背诵的篇目如下： 1.第1课:be动词和一般疑问句。 2.第…",
+        "content": "<p data-pid=\"3zC_on6Q\">陪小葡萄学完新概念一册，前前后后花了快两年时间，相应地收获了些经验，分享给同样在自鸡的家长❤️</p><p data-pid=\"OybOLiks\">最开始只是想帮娃打牢英语基础，没想到一路坚持下来，娃不仅能流畅读课文，校内成绩也一直稳定在班级前五。这两年里，我们试过很多学习方法，但结果很多都是花大量时间浪费了，今天就把亲测有用、值得重点背诵的课文整理出来，希望能帮到同样陪娃学新概念的家长。</p><p data-pid=\"6iIfMb9-\"> 需要重点背诵的篇目如下：</p><p data-pid=\"ZNMEa-MQ\">1.第1课:be动词和一般疑问句。</p><p data-pid=\"B1p4SGa_\">2.第3课:be动词的否定形式。</p><p data-pid=\"iY_lraPe\">3.第7课:特殊疑问句的学习。</p><p data-pid=\"55L6iACF\">4.第11课:名词所有格的用法。</p><p data-pid=\"SoA9jXY2\">5.第15课:名词单复数的变化。</p><p data-pid=\"00ITkzy_\">6.第23课:which的用法。</p><p data-pid=\"C3W_EcQO\">7.第27课:therebe句型的应用。</p><p data-pid=\"wevuKgSb\">8.第29课:祈使句。</p><p data-pid=\"UKZqBE07\">9.第31课:be+doing现在进行时。</p><p data-pid=\"bV2XygXD\">10.第35课：概括了35课之前的所有句式内容，很多实用的话术。</p><p data-pid=\"-LaZRwjw\">11.第37课:一般将来时。</p><p data-pid=\"TACxFIcZ\">12.第41课:不可数名词的用法。</p><p data-pid=\"ALJUtyul\">13.第45课:情态动词can的用法。</p><p data-pid=\"TxZ7z1oO\">14.第55课和57课：一般现在时的重要一课。</p><p data-pid=\"bZK2FabW\">15.第61、63、65课:复习1-65课的内容。</p><p data-pid=\"IMM8dH0B\">16.第73课：不规则动词过去式和副词的最好文章。</p><p data-pid=\"hvNGwhM_\">17.第83、85、87、89课：现在完成时以及清晰掌握相关的句式和常用词汇。</p><p data-pid=\"ayWoU0Me\">18.第121课：学习定语从句的最好课文，很重要的一项语法。</p><p data-pid=\"_Wn7MKFX\">19.第144和143课：被动语态，了解主语从句的用法。</p><p data-pid=\"iBU0X2zv\">这些课文覆盖了新概念一册中大部分基础语法和日常场景，背熟了能帮娃快速建立英语表达框架。</p><p data-pid=\"5uhFIUgx\"> 我们的背诵步骤，不是让娃直接死记硬背，而是一步步引导：</p><p data-pid=\"DLwf6xBs\">（1）让娃跟着音频读 2-3 遍，熟悉课文节奏和发音，遇到不认识的单词先圈出来，提前熟悉遍课文；</p><p data-pid=\"1y5dxlWf\">（2）让娃跟着课文讲解去理解每句话的句型和语法点，最后完成课后的习题，保证所有的知识点都学透；</p><p data-pid=\"vJZyizQj\">（3）逐句跟读，给娃播放一遍课文音频，跟着读一句，争取把发音都读正确了；</p><p data-pid=\"iekeIxs-\">（4）先分段熟读流利，最后再让娃试着脱稿背全文，背完后再跟着音频核对一遍，错误的地方再多背几遍巩固。</p><p data-pid=\"UxOuvMik\">普娃学新概念，最忌讳的就是贪多求快。我们一开始也试过每天背一篇，结果娃记了新的忘了旧的，后来调整节奏，一周重点攻克1-2篇，每篇按上面的步骤慢慢来，反而效果更好~</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-61c6ca52189cf905a3345debc7563106_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-0fc48e377cb9ff91cbea0c518ec962c3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-61c6ca52189cf905a3345debc7563106_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6335d0acd761cd41f595704c0545c5b2_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-de0b27d3a0f3f0413a3c8bc71b42803d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-6335d0acd761cd41f595704c0545c5b2_r.jpg\"/></figure>",
+        "is_labeled": false,
+        "favorite_count": 228,
+        "id": "1994103211871728642",
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "8355fd8f9875cdcdd5bcb78d30ed0f3f",
+          "url": "https://api.zhihu.com/people/8355fd8f9875cdcdd5bcb78d30ed0f3f",
+          "url_token": "53-14-37-5",
+          "name": "家有毛豆",
+          "headline": "",
+          "gender": 0,
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-bd4432a2d3d7c7f0a2d7678b401e3d7c_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 5
+        },
+        "comment_permission": "all",
+        "created": 1768211309,
+        "voting": 0,
+        "visited_count": 1947,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-de0b27d3a0f3f0413a3c8bc71b42803d_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "type": "article",
+        "comment_count": 1,
+        "excerpt": "陪小葡萄学完新概念一册，前前后后花了快两年时间，相应地收获了些经验，分享给同样在自鸡的家长❤️ 最开始只是想帮娃打牢英语基础，没想到一路坚持下来，娃不仅能流畅读课文，校内成绩也一直稳定在班级前五。这两年里，我们试过很多学习方法，但结果很多都是花大量时间浪费了，今天就把亲测有用、值得重点背诵的课文整理出来，希望能帮到同样陪娃学新概念的家长。 需要重点背诵的篇目如下： 1.第1课:be动词和一般疑问句。 2.第…",
+        "preview_type": "default",
+        "article_type": "normal",
+        "is_navigator": false,
+        "voteup_count": 23,
+        "preview_text": "",
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994103211871728642}",
+      "attached_info": "CoEGCNn6hfz1kor+hQEQBxoJMjY4OTE0Nzg4IO2Gk8sGKBcwAUArSi4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAYiBmOTgwYjYxMDVjMTVhNzg4NjYxZWQ3YTk2NGI4ZDMyZHITMTk5NDEwMzIxMTg3MTcyODY0MqoBCXJlY29tbWVuZMIBIDgzNTVmZDhmOTg3NWNkY2RkNWJjYjc4ZDMwZWQwZjNm8gEKCAwSBk5vcm1hbPIBKAgKEiRlNzY3ZWRhMy1jMGUwLTQ3NWYtYmEwNi05N2VhY2UyN2M3ODHyAQUICxIBOIICAIgCyvGJkb0zkgIgODM1NWZkOGY5ODc1Y2RjZGQ1YmNiNzhkMzBlZDBmM2aaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gIZVFNfU09VUkNFX0ZFRURSRV9NU19IUV9WM+gCA/oCC05PUk1BTF9GTE9XigMgZWZkYzE1ZmZjMzg4NDM0MmJhZWU1ZmRhZjJkM2U4ODGaAw0KAnYyEAAaBW90aGVyqAObD9gDAOoDGWZlZWRyZV9tc19nYXRlX3YzX29ubHlfaHH6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhC4CBigCyIjdjItZGUwYjI3ZDNhMGYzZjA0MTNhM2M4YmM3MWI0MjgwM2SABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKD875U/gQUAAAAAAAAAAIkF/rCKFMy3sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGLagGA5ICLgoJMjY4OTE0Nzg4EhMxOTk0MTAzMjExODcxNzI4NjQyGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "44_1768757033.753",
+      "type": "feed",
+      "offset": 44,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757033,
+      "updated_time": 1768757033,
+      "target": {
+        "author": {
+          "gender": 1,
+          "badge": [
+            {
+              "description": "地铁话题下的优秀答主",
+              "topic_names": [
+                "地铁"
+              ],
+              "topic_ids": [
+                1717
+              ],
+              "type": "best_answerer"
+            }
+          ],
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "headline": "收藏再看丨资深半体制",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c948b117ba8e0c274e06d166e05c50e6_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 83402,
+          "id": "dee9f7c9d1844ea794913841d3fd7ed8",
+          "url": "https://api.zhihu.com/people/dee9f7c9d1844ea794913841d3fd7ed8",
+          "url_token": "densen",
+          "name": "Kaiser"
+        },
+        "created_time": 1768731020,
+        "is_copyable": false,
+        "question": {
+          "type": "question",
+          "excerpt": "",
+          "question_type": "normal",
+          "detail": "",
+          "author": {
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 0,
+            "id": "6e47296f4cae737d5583df4679ac09d7",
+            "url": "https://api.zhihu.com/people/6e47296f4cae737d5583df4679ac09d7",
+            "url_token": "qian-yu-24-37-96",
+            "name": "知乎用户YekshA",
+            "headline": "",
+            "user_type": "people",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "follower_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "answer_count": 0,
+          "comment_count": 50,
+          "bound_topic_ids": [
+            1117,
+            14812,
+            183396,
+            666618
+          ],
+          "id": "619658479",
+          "url": "https://api.zhihu.com/questions/619658479",
+          "title": "打工并不能致富 ，为什么还有很多打工人？",
+          "created": 1693281477
+        },
+        "preview_text": "",
+        "favorite_count": 23,
+        "navigator_vote": false,
+        "excerpt": "问你一个问题，在这个充满变数的年头，你觉得兜里得揣着多少现金，才敢彻底把老板炒了，回家舒舒服服地躺平？ 很多人可能会说，我有300万存银行吃利息就够了。 但我可以告诉你，真等你有了300万，你也大概率不敢躺，因为你会担心通货膨胀把钱毛了，会担心父母或者自己突然一场大病把家底掏空了，你还可能会担心结婚、孩子的教育是个填不满的坑…… 那个你以为自己可以安心躺平的数字，就像挂在驴前面的胡萝卜，你跑的同时它也永…",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "answer_type": "normal",
+        "id": "1996283268002248557",
+        "type": "answer",
+        "thanks_count": 0,
+        "excerpt_new": "问你一个问题，在这个充满变数的年头，你觉得兜里得揣着多少现金，才敢彻底把老板炒了，回家舒舒服服地躺平？ 很多人可能会说，我有300万存银行吃利息就够了。 但我可以告诉你，真等你有了300万，你也大概率不敢躺，因为你会担心通货膨胀把钱毛了，会担心父母或者自己突然一场大病把家底掏空了，你还可能会担心结婚、孩子的教育是个填不满的坑…… 那个你以为自己可以安心躺平的数字，就像挂在驴前面的胡萝卜，你跑的同时它也永…",
+        "content": "<p data-pid=\"kzdDLqp9\">问你一个问题，在这个充满变数的年头，你觉得兜里得揣着多少现金，才敢彻底把老板炒了，回家舒舒服服地躺平？</p><p data-pid=\"ElQK2PQm\">很多人可能会说，我有300万存银行吃利息就够了。</p><p data-pid=\"lY0F4lyy\">但我可以告诉你，真等你有了300万，你也大概率不敢躺，因为你会担心通货膨胀把钱毛了，会担心父母或者自己突然一场大病把家底掏空了，你还可能会担心结婚、孩子的教育是个填不满的坑……</p><p data-pid=\"x9pQKKHY\">那个你以为自己可以安心躺平的数字，就像挂在驴前面的胡萝卜，你跑的同时它也永远在往前跑。</p><p data-pid=\"IC12Tv1d\">这才是最荒诞的地方，我们以为自己在为了致富而打工，其实是在为了填补内心那个永远填不满的安全感黑洞而打工；只要我们对未来的恐惧还在，即使年薪百万也停不下来，甚至比一穷二白时更害怕停下来。</p><p data-pid=\"Sld7tPwg\">这背后的逻辑是我们都被一套更深的系统给锁住了。</p><p data-pid=\"t1DwLhwP\">签劳动合同的时候，谁心里也没指望靠着那点死工资能发家致富，大家心里都清楚这就是一份糊口的差事，可为什么还是有那么多人包括那些绝顶聪明的海龟高材生，依然前赴后继地挤进写字楼、机关大院，甘愿在格子里耗尽青春？</p><p data-pid=\"jZh3DGuf\"><b>这首先就是因为怂，是大家一种刻在骨子里的对不确定性的恐惧。</b></p><p data-pid=\"YUWqsPXy\">从经济学的角度看，打工的本质，其实是我们向掌握资本的人购买了一份名为确定性的保险。</p><p data-pid=\"sEv212m7\">致富这件事本质上是对风险的补偿，创业也好，投资也罢，那都是九死一生的博弈，你得拿出身家性命去赌那个极低的概率，赢了会所嫩模，输了下海干活，而绝大多数普通人的家庭底子，根本经不起哪怕一次的伤筋动骨一夜返贫。</p><p data-pid=\"MDH6gNtI\">所以我们选择了妥协，把自己的时间低价批发给老板，让老板去承担卖不出去货的风险，去承担发不出工资的焦虑，而我们只要求在一个固定的日子，收到一笔虽然不多但绝对稳妥的现金流。</p><p data-pid=\"R3A3MNr1\">这笔工资，说白了就是我们为了睡个安稳觉，而支付给这个世界的安全税。</p><p data-pid=\"IO4lIRAJ\"><b>再往深了看，这其实是一场精密的社会分工设计。</b></p><p data-pid=\"k6tEJpSQ\">整个工业文明的运转，需要的从来不是成千上万个有想法、想发财的操盘手、创业者，它需要的是无数个听话、耐造、标准化生产的燃料。</p><p data-pid=\"sKGIvaHv\">回想一下从小受到的教育，学校教了微积分，教了外语，教了大家怎么做个听话勤奋的社会栋梁之才，唯独没有教怎么搞钱、怎么识别商业陷阱和怎么利用杠杆。</p><p data-pid=\"3zTO_Ppj\">这套严丝合缝的教育及社会体系，从一开始就是为了把人打磨成一颗合格的螺丝钉，好塞进那个巨大的机器里去维持运转，一旦脱离了这个体系，很多人会发现自己竟然丧失了独立生存的能力，连社保怎么交、合同怎么签都两眼一抹黑。</p><p data-pid=\"eq9zgOSY\">还有一点，也是最扎心的一点，打工虽然给不了富贵，但它给了一个人在这世上安身立命的锚点。</p><p data-pid=\"afWOP-kF\">人是社会性动物，最怕的其实不是穷，而是失联，是那种被群体抛弃的虚无感。</p><p data-pid=\"CDI_mYUQ\">工作就横空出世，强行填满了我们的时间，构建了我们的社交圈子，给了我们一个虽然不高但清晰的社会身份，让我们觉得自己还属于这个世界、还是个有用的人。</p><p data-pid=\"ktHsF6Um\">你知道诈骗局、杀猪盘里占比最多的受害者是哪个群体吗?就是那些不用工作的人，包括是退休的大爷大妈、全职带孩子的妈妈等。</p><p data-pid=\"ZrPVWe0P\">试想一下，如果现在给你一笔够吃够喝的钱，但代价是让你十年不许工作，不许见人，只能关在屋子里发呆，大部分人哪怕不疯，也会废掉。</p><p data-pid=\"oZTk2UFB\">所以别太讨厌那份工作，它虽然像一根绳子拴住了你的肉身，但也某种层面上护住了你的心智，让你在这个混乱无序的世界里，不至于彻底漂泊。</p><p data-pid=\"3BpewroB\"><b>既然看透了这层逻辑，那我们是不是就该两手一摊，彻底躺平了？</b></p><p data-pid=\"yCa7D_Fx\">恰恰相反，正因为我们看透了打工是一场用时间换取生存权的交易，才更要打起十二分的精神，把这场交易做得划算，把这个不得不跳的火坑，变成我们日后飞升的垫脚石。</p><p data-pid=\"Mve0kzsq\">很多打工人最大的悲哀，不是穷，而是陷入了那只老鼠赛跑的怪圈，工资发下来就立马还信用卡，交房租。再买点好的吃点好的犒劳自己，还没到月底兜里比脸还干净，然后不得不为了下个月的账单继续出卖时间，周而复始，至死方休。</p><p data-pid=\"NZk_fHxk\"><b>这才是系统最阴毒但高明的设计，它给你的钱刚好够你活下去，又刚好不够你逃离。</b></p><p data-pid=\"czPoslAw\">要想破这个局，必须得在心里完成一次视角的切换。</p><p data-pid=\"Ct8gWupd\">不要把老板当成衣食父母，要把老板当成你的天使投资人，他在出钱资助你学习行业规则，资助你积累人脉，资助你磨练技能，而你只需要付出一部分劳动作为回报，剩下的那些经验、资源、见识，全是你白赚的。</p><p data-pid=\"UYkptP8E\">这里有几条实实在在的干货，不是教怎么升职加薪，而是教大家怎么策划一场完美的越狱。</p><p data-pid=\"lhzMHOn3\"><b>一，千万不要掉入消费主义陷阱</b></p><p data-pid=\"7gf47Ddl\">这听起来很老土，但却是资本原始积累唯一的笨办法，千万别一涨工资就换手机、一发奖金就要说走就走的旅行，这些是消费主义给我们设的套，目的就是让我们永远在这个循环里打转。</p><p data-pid=\"_UwrXGJ2\">一旦你觉得自己进入了某个阶层或者某个圈子，你就必须持续用消费来维持在那个阶层或者圈子。</p><p data-pid=\"pdhTsQhf\">要强制储蓄，然后把每一分省下来的钱，变成能下蛋的鸡，变成资产，而不是变成过段时间就贬值的垃圾。当你靠稳健的投资产生的被动收入，能基本覆盖掉每个月的房租水电和最低生存需要的那一刻（比如你每个月最低生存需求是3000元，年化收益能做到3%，那你需要存够120万；如果你能做到5%，那只需存够72万），你就瞬间拥有了对老板说不的底气，那个时刻，才是你人格真正独立的开始。</p><p data-pid=\"1LQQnBTt\"><b>二，别光顾着拉磨，要学会抬头看路</b></p><p data-pid=\"j6Q24nQh\">大部分人打工，只盯着自己手头那点螺丝钉的活儿，把自己修练成了行业里最好的螺丝，这没什么用，因为螺丝是可以随时被替换的，也是技术变革浪潮下第一批被拍死在沙滩上的。</p><p data-pid=\"hJnQt2fp\">要用心去观察，要去研究人，这家公司是怎么赚到钱的，流量从哪来，客户怎么搞定，成本怎么控制，风险怎么规避，把这套赚钱的底层逻辑学到手，这才是最核心的生产资料，哪怕将来不创业，去独自操盘自己的副业、运作自己的自媒体等等也能派上用场。</p><p data-pid=\"JhVmStku\"><b>最后，把工作当手段，别当目的。</b></p><p data-pid=\"9-zhK6uw\">千万别把工作的成败，当成自己人生的成败。</p><p data-pid=\"prI8N9o5\">太多人在工作上的负面情绪都是来源于自己和工作已经骨肉相连，把那件戏服嵌进了皮肤里。</p><p data-pid=\"z9xoHUlU\">工作本来就只是我们在这个阶段谋生的工具，用完即走，别把太多的情绪、尊严、自我价值都投射进去。</p><p data-pid=\"z6-UUiaQ\">在八小时之内，专业、靠谱、一手交钱一手交货，在八小时之外，必须立刻切断，把所有的精力都用来滋养自己的身心，去发展一个真正属于自己的爱好，去构建一个脱离了行业或者单位的平台依然存在的社交网络。</p><p data-pid=\"mQLDyaMw\">打工的最高境界，不是在这个体系里爬到多高的位置，因为即使在金字塔尖的风光也是暂时的，也是摇摇欲坠的。</p><p data-pid=\"hHNtU6GT\">真正的赢家，是那些利用打工的这段时间，积攒了足够的本钱，偷学了足够的本事，看透了足够的人性，然后在一个风和日丽的下午，平静地收拾好东西，走出写字楼，去过一种完全由自己掌控的、不再需要出卖时间换取生存的生活。</p><p data-pid=\"UgNZ9_K-\">我们如此努力地打工，就是为了有朝一日，能不再打工。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 730,
+        "url": "https://api.zhihu.com/answers/1996283268002248557",
+        "updated_time": 1768732680,
+        "voteup_count": 25,
+        "comment_count": 1,
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996283268002248557}",
+      "attached_info": "CtoFCNn6hfz1kor+hQEQBBoJNzY1OTQyMTcxIIzjsssGKBkwAUAsSjkKKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQ1JFQVRFEgY3NjUxODgYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDk5OTgxODYxYiBmOTgwYjYxMDVjMTVhNzg4NjYxZWQ3YTk2NGI4ZDMyZHITMTk5NjI4MzI2ODAwMjI0ODU1N4oBCTYxOTY1ODQ3OaoBCXJlY29tbWVuZMIBIGRlZTlmN2M5ZDE4NDRlYTc5NDkxMzg0MWQzZmQ3ZWQ48gEKCAwSBk5vcm1hbPIBKAgKEiQxOGYyM2Q2Mi1iMDlmLTQyMzctOWQ3Mi1mODcyMmJhOGM3YzbyAQUICxIBOIICAIgCyvGJkb0zkgIgZGVlOWY3YzlkMTg0NGVhNzk0OTEzODQxZDNmZDdlZDiaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gIpVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9DUkVBVEXoAgX6AgtOT1JNQUxfRkxPV4oDIGVmZGMxNWZmYzM4ODQzNDJiYWVlNWZkYWYyZDNlODgxmgMNCgJ2MhAAGgVvdGhlcqgD2gXYAwDqAx1maXJzdERlZ3JlZVVzZXJDcmVhdGVSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAE1oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAC5pps/gQUAAAAAAAAAAIkF/rCKFMy3sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGLqgGAJICLgoJNzY1OTQyMTcxEhMxOTk2MjgzMjY4MDAyMjQ4NTU3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "45_1768757033.222",
+      "type": "feed",
+      "offset": 45,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757033,
+      "updated_time": 1768757033,
+      "target": {
+        "updated": 1768632741,
+        "type": "article",
+        "comment_permission": "all",
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-d924800c8b068f96097e64d5b204e24a.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-d6d3000fb3fcdb21ee0bf377553e667e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-68c882c81a2d257eee3bb1eb1681b278_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d924800c8b068f96097e64d5b204e24a_720w.jpg?source=b6762063"
+        ],
+        "article_type": "normal",
+        "id": "1995868471515427300",
+        "voteup_count": 258,
+        "preview_type": "default",
+        "favorite_count": 98,
+        "title": "罗永浩回应贾国龙，一场全方位的碾压",
+        "excerpt": "文：魏春亮 01 昨天，贾国龙突然发疯，又是发文呼吁管管罗永浩和网友的恶劣行径，又是要直播做一个全面回应。 原本的风平浪静被打破，两人有来有回，唇枪舌剑，眼看就要狭路相逢，微博直接把他们两人的账号都给禁言了。   我在昨天的文章《贾国龙，这是要不死不休啊》中说，在贾国龙身上，我看到了一种古老而顽固的思维习惯和行为模式： 忽略战术层面的考量，一味沉迷于道德叙事，从而把一切纷争简化为忠奸善恶之战。 说白了，就…",
+        "excerpt_new": "文：魏春亮 01 昨天，贾国龙突然发疯，又是发文呼吁管管罗永浩和网友的恶劣行径，又是要直播做一个全面回应。 原本的风平浪静被打破，两人有来有回，唇枪舌剑，眼看就要狭路相逢，微博直接把他们两人的账号都给禁言了。   我在昨天的文章《贾国龙，这是要不死不休啊》中说，在贾国龙身上，我看到了一种古老而顽固的思维习惯和行为模式： 忽略战术层面的考量，一味沉迷于道德叙事，从而把一切纷争简化为忠奸善恶之战。 说白了，就…",
+        "column": {
+          "is_following": false,
+          "id": "c_1434091993501233153",
+          "author": {
+            "id": "",
+            "url": "",
+            "url_token": "",
+            "headline": "",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false,
+            "user_type": "people",
+            "name": "匿名用户",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063"
+          },
+          "title": "当代文本细读",
+          "comment_permission": "private",
+          "intro": "",
+          "updated": 1634694175,
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1434091993501233153",
+          "imageUrl": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b"
+        },
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1995868471515427300",
+        "author": {
+          "name": "魏春亮",
+          "is_org": false,
+          "id": "b0319f223782525a2cedcdc172e733a7",
+          "url": "https://api.zhihu.com/people/b0319f223782525a2cedcdc172e733a7",
+          "user_type": "people",
+          "url_token": "wei-chun-liang",
+          "followers_count": 56295,
+          "is_following": false,
+          "is_followed": false,
+          "headline": "时事、读书博主，公众号“亮见”创始人",
+          "avatar_url": "https://pica.zhimg.com/50/v2-3aa0737cceceb7dfdea66fc5cf75c5fe_l.jpg?source=b6762063",
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "南京大学 文学硕士"
+            }
+          ]
+        },
+        "created": 1768632741,
+        "content": "<p data-pid=\"Dbm1Ezq7\"><b>文：魏春亮</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IOuYwVKG\"><b>01</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pzsWPC8N\">昨天，贾国龙突然发疯，又是发文呼吁管管罗永浩和网友的恶劣行径，又是要直播做一个全面回应。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"k0_cJkrC\">原本的风平浪静被打破，两人有来有回，唇枪舌剑，眼看就要狭路相逢，微博直接把他们两人的账号都给禁言了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d6d3000fb3fcdb21ee0bf377553e667e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2015\" data-original-token=\"v2-d6d3000fb3fcdb21ee0bf377553e667e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-d6d3000fb3fcdb21ee0bf377553e667e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aHRmkBHB\">我在昨天的文章《贾国龙，这是要不死不休啊》中说，在贾国龙身上，我看到了一种古老而顽固的思维习惯和行为模式：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9afvvCKH\"><b>忽略战术层面的考量，一味沉迷于道德叙事，从而把一切纷争简化为忠奸善恶之战</b>。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0K4DEx7e\">说白了，就算回应，你也得讲究逻辑结构和语言技巧，而不是觉得自己一身正气，就自然而然地获得了道德的制高点。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4_5Cd2mw\">刚好在贾国龙发文之后，罗永浩也发了一个长篇回应，所以今天我就来拆解一下罗永浩的文章技巧，免费给贾国龙提供一点借鉴。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yrrbqa7v\">让我们<b>多研究些技术，少谈些道德。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-68c882c81a2d257eee3bb1eb1681b278_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"690\" data-rawheight=\"2640\" data-original-token=\"v2-68c882c81a2d257eee3bb1eb1681b278\" class=\"origin_image zh-lightbox-thumb\" width=\"690\" data-original=\"https://pic3.zhimg.com/v2-68c882c81a2d257eee3bb1eb1681b278_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"W4XFRqwx\"><b>02</b></p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"58vIBHGn\">锤子科技做了五年，集中被黑就有足足四年。锤子科技是被我做倒闭的，后期上千名同事的团队被裁、被转让，都是我的原因，跟被黑没什么关系。我这辈子也没有见过一个企业没犯别的错误，仅仅是因为被黑，就能倒闭的。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3va9cbF0\">罗永浩一上来就是一记大招，甚至是釜底抽薪的大招。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"m3tR0ohl\">贾国龙字里行间都在暗示，这次西贝关闭的102家店，都是因为罗永浩及网友网暴造成的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"s0-AMxXI\">罗永浩拿自己做例子，承认自己的企业也失败了，且“防御性诚实”地承认是自己的问题，这一下子就剥离了外因，那你只能在自己身上找原因，别想把锅甩给我。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fEhRkRoe\">罗永浩不但承认自己的企业经营不善，还承认自己的企业也被黑，甚至被黑的时间比你西贝还长，这一招有两个目的：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"iUTa_YDo\">一是，和“锤子科技是被我做倒闭的”相配合，表明“被黑”没有那么大的杀伤力。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fEB7h-8q\">二是，在承认第一点的基础上，直接从逻辑上粉碎了贾国龙“你黑我导致我生意受损/员工失业”的受害者叙事。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Voa9bL8R\">而且，罗永浩还在措辞上压了贾国龙一头，我们被黑四年，你们这125天算什么？我扛过千人大厂的倒闭，你这点风波算什么？在气势上就瞬间压倒对方。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"o1WfjF7n\">罗永浩以退为进，表明自己经历过和贾国龙相似但却更严重的问题，但却敢于承担自己的问题，来暗示贾国龙没有担当，只会甩锅。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JIjymFJV\">用这一招，<b>罗永浩既摆脱了自己的责任，又粉碎了贾国龙的悲情叙事，甚至暗示他没有担当</b>。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dO7S2lFw\">罗永浩太狠了，狠到连自己都刀。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"oVu3FynD\">食品工业的朋友们跟我说，冷冻西兰花成本确实更高，所以西兰花的问题在某种程度上是冤枉的(其他的基本都不冤，甚至不能算&#34;黑&#34;，因为他家大部分就是预制菜!!!这个事实，靠撒谎、偷换概念，请黑公关都改变不了)，但西兰花被大家攻击，是乱搞开放厨房后失控发生的，在那个急需对公众澄清的时候，他们的公关在哪里呢?估计是实在劝不住老板，也不能未经老板发声，只好来央求我们的同事，说能不能请你们老罗高抬贵手?我两次主动收手，其实跟这个也有一定的关系。另外，发现对方严重认知失调，当众往死里自残而不自知时，谁好意思继续跟这种人掰扯道理呢?</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IGuSlS_F\">罗永浩先承认西兰花成本确实高，而且还是从食品工业的朋友们那里知道的，来展示自己是一个讲道理的人，而且还真的了解过。这就给自己树立了一个理智的人设，不像贾国龙那样被愤怒冲昏了头脑。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ouY193Ma\">罗永浩承认在西兰花这小细节上的小瑕疵，其实是为了换取在预制菜这个大方向上的绝对发言权。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9Jg_BIm_\">但罗永浩只做了有限的承认，马上就表示其他的菜都是预制菜，且西兰花的问题，是你们自己“开放厨房”搞砸的，把责任又还了回去。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TrCv5ymx\">撇清自己的关系后，罗永浩又爆料内幕，说西贝公关曾来求情，且自己两次收手，这一招太狠辣了：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"80X7pK0_\">它证明了罗永浩掌握着主动权，想打就打，想停就停。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7N0ztD3w\">它也证明了对方理亏，不然你为什么来求我呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"am8Qqe5B\">它甚至还暗示了罗永浩收手的原因，不是怕你贾国龙，而是可怜劝不住老板的员工。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pZGYoTc_\">更重要的是，罗永浩要用这个事情来埋汰贾国龙。有了前面的收手，才好接一句“<b>谁好意思继续跟这种人掰扯道理呢</b>”，这是一种高高在上的嫌弃，简直比直接骂人还伤人，因为它暗示双方根本不在同一个段位，而我又不愿意跟你一般见识。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AkwYR0rQ\">真是杀人诛心啊。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aEtTlsF2\"><b>03</b></p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"K-Wa6q-j\">如果真担心员工失业，一个有上万名员工的企业家，一开始就不能胡来(还说什么&#34;我生意可以不做，但官司一定要打!&#34;)这一点，我这么生性顽劣的人都知道，但一些跟真实世界脱节，活在自己宇宙里的老一辈企业家不知道，所以这一切可能都是注定的......只希望不要变得更糟糕吧。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Odaa1WSh\">贾国龙一直在展示自己对员工的关爱和责任感，并暗示“罗永浩黑我导致员工失业”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZoFNAEqe\">这是贾国龙这几天对罗永浩的最新指控，但罗永浩却以此反将一军，以子之矛攻子之盾，若真担心员工失业，一开始就不应该胡来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"U3XC4lO8\">那句“<b>我生意可以不做，但官司一定要打</b>”，可是贾国龙之前就说过的赌气话。别管这句话是不是真的，他曾经说过这句话，就已经打了自己的脸。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dly0n0rr\">而“跟真实世界脱节”“活在自己宇宙里”的评价，更是把贾国龙作为现代企业家的认知和心智，给彻底否定了，并暗示可能会更糟。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9kKRAENe\">好一招反客为主。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"g1r0m_XY\">多数发达国家的预制菜都比我国预制菜的市场份额要高，但这些国家的大部分预制菜都去了消费者市场和快餐业，而不是像在我们这里:去了正式的餐厅冒充现做的饭菜(否则也解释不了我们的餐饮业为什么会有锅气香精这么变态的&#34;科技狠活儿&#34;)<br/><br/>国家支持发展预制菜工业，是为了让中国人吃得更方便、更卫生，更健康，不是为了让餐馆老板用料理包骗同胞(之前有媒体报道说他家的海外店就不用预制菜，操!)不是为了让成千上万受过训练的厨师下岗，被&#34;微波炉操作师&#34;和&#34;料理包加热师&#34;替代。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9ac9vOsU\">罗永浩讲完自己和西贝的恩怨后，又荡开一笔，去说预制菜的市场和规范问题。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rbyZF6fH\">不过，罗永浩在这里还是在重复之前的论调，他没有无脑反对预制菜，而是承认其方便、卫生和健康。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YNuU3I_M\">攻击预制菜，会显得你反科技，罗永浩攻击的是“用预制菜骗人”。预制菜冒充现做，这可是涉及商业诚信的大问题。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Jf-LeMob\">罗永浩抓住这个痛点下狠手，甚至说西贝海外店不用预制菜，制造西贝区别对待同胞的形象，以此来激发网友的愤怒。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AY3PPLes\">我觉得更妙的是，罗永浩还在谈论西贝用预制菜的时候，顺带讽刺了一下贾国龙和西贝其实并不真正关心员工就业，西贝用预制菜，不但欺骗顾客，也让成千上万受过训练的厨师下岗，更加突出了西贝用预制菜的过错。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HRDVTNXz\">这一部分，罗永浩格局拉满，高屋建瓴，不但谈论国家发展预制菜的战略规划，又试图激起顾客对预制菜冒充现做的厌恶和愤怒。可谓高度和情绪都拿捏得稳稳的。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"er_AML_P\">虽然倍感莫名其妙和疲惫不堪，中途甚至也感觉到过不安全，但我仍然觉得这件注定发生的事，老天借我的手让它爆发出来，可能是更好的选择，如果换了别人，可能早就被谭秦东了。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KhX17Z5V\">就像很多人说的那样，西贝不可能像某药酒抓谭秦东一样抓罗永浩，但这其实并不重要，吵架的目的并不在于保证事实的可能性，而是情绪的精准传达。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hTeMtbov\">把自己和谭秦东相提并论，是在自我神圣化，但因为这件事只是“可能事件”，无从印证，罗永浩说起来就特别安全。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gpN9ENxt\">而且，这么一说，还暗示了贾国龙和西贝可能采取某些不可告人的措施，虽然从没有任何证据可以证明贾国龙和西贝有这种意向，但这个暗示只要存在万分之一的可能，你就没法完全否认。毕竟，感觉到不安全是人家罗永浩的主观感受，我们没有办法质疑。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"X9cPyDIx\">另外，罗永浩把自己塑造成了“天选之子”，暗示不是我在搞你们，而是老天看不过去，选择了罗永浩让事情爆发出来。这个表述简直太厉害了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tIF5ZIOx\">注意这里的用词，如果是别人写，很容易写成“<b>老天借我的手惩罚你们</b>”。这种高高在上的姿态是不受欢迎的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GRRSLiVP\">你看罗永浩多聪明，他说的是“<b>老天借我的手让它爆发出来</b>”，这就是说，我只是个客观中立的中间物，我在这里的唯一作用就是让它爆发，其他一切都和我无关。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7aiuRmGO\">换句话说，你们的问题被曝光，是早晚的事；而且没有我也会有别人。就算把我拿下，你们的问题依然存在。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"V-uVCIdg\">我曝光了一件本质上和我无关的事，虽然“<b>倍感莫名其妙和疲惫不堪</b>”，但我依然甘心为此承担可能的风险，那你觉得我伟大不？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NLaioIsY\">太伟大了，泪目了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NaFt82tR\"><b>04</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FFDFNtlD\">纵观罗永浩的整个回复，逻辑链条分成了四个层次：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"caP4QEKV\">第一层（事实）：承认无关紧要的事实，建立客观形象。</p><p data-pid=\"6WbE-AWR\">第二层（逻辑）：指出对方逻辑漏洞，证明对方蠢。</p><p data-pid=\"iILVJ2nD\">第三层（价值）：上升到道德、行业或公众利益，证明对方坏。</p><p data-pid=\"jYTBS0Vo\">第四层（情感）：自我神圣化，建立自己为公义的形象，并激起最广泛的共情。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YWXeC_Ko\">四个层次，层层递进，回环往复，加上逻辑缜密，用词精准，无论是在逻辑、情感和认知上，都构成了全方位无死角的碾压，堪称降维打击。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QN9krOjI\">反观贾国龙的回应，只有对“公关”偏见和鄙夷，落后于时代的思维，不顾大众情感的宣泄，毫无章法，只想着靠道德来打败敌人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NTvAggsm\">我还是那句话，贾国龙贾总，<b>多研究些技术，少谈些道德。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"c6DUlSfW\">我真的非常希望贾国龙如果还不消停，最起码可以向“敌人”学习学习，能够真正吵出水平。</p>",
+        "visited_count": 14751,
+        "is_navigator": false,
+        "image_url": "https://pic1.zhimg.com/v2-d924800c8b068f96097e64d5b204e24a.jpg?source=7e7ef6e2&needBackground=1",
+        "comment_count": 92,
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "voting": 0,
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995868471515427300}",
+      "attached_info": "CswJCNn6hfz1kor+hQEQBxoJMjY5MTY0MDA2IKXjrMsGKIICMFxALUouChlUU19TT1VSQ0VfRkVFRFJFX01TX0hRX1YzEgEwGAAgADoKeyJyYXciOiIifUo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KMwoeVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTX1YzEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMTI4MTUzMTliIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTk1ODY4NDcxNTE1NDI3MzAwggFfaHR0cHM6Ly9waWMxLnpoaW1nLmNvbS92Mi1kOTI0ODAwYzhiMDY4Zjk2MDk3ZTY0ZDViMjA0ZTI0YS5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGKARVjXzE0MzQwOTE5OTM1MDEyMzMxNTOqAQlyZWNvbW1lbmTCASBiMDMxOWYyMjM3ODI1MjVhMmNlZGNkYzE3MmU3MzNhN/IBCggMEgZOb3JtYWzyASgIChIkYzY1N2Q1MjEtYTI4Yi00YTYzLWI1ZGItMmE1NDJiZTI4OWFm8gEFCAsSATiCAgCIAsrxiZG9M5ICIGIwMzE5ZjIyMzc4MjUyNWEyY2VkY2RjMTcyZTczM2E3mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjPoAgL6AgtOT1JNQUxfRkxPV4oDIGVmZGMxNWZmYzM4ODQzNDJiYWVlNWZkYWYyZDNlODgxmgMNCgJ2MhAAGgVvdGhlcqgDn3PYAwDqAxlmZWVkcmVfbXNfZ2F0ZV92M19vbmx5X2hx+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELgIGN8PIiN2Mi1kNmQzMDAwZmIzZmNkYjIxZWUwYmYzNzc1NTNlNjY3ZTotCAIQsgUY0BQiI3YyLTY4Yzg4MmM4MWEyZDI1N2VlZTNiYjFlYjE2ODFiMjc4Oi0IAhCyBRiYByIjdjItZDkyNDgwMGM4YjA2OGY5NjA5N2U2NGQ1YjIwNGUyNGGABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEA/tKo/gQUAAAAAAAAAAIkF/rCKFMy3sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCIoGeAptCNy/2AcSJOi0vuWbvem+meWbnuW6lOe9l+awuOa1qeaxoeiUkeivveiwpBjnhajLBiDPhD0oATCs4ag4MKTgpzgwwcmnODDPwac4MI67pzgwpLynODDLvKc4MKTspjgw6LenODCNzKc4OABAABIHCAAVAOA3P5AGAKAGL6gGAJICLgoJMjY5MTY0MDA2EhMxOTk1ODY4NDcxNTE1NDI3MzAwGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "46_1768757033.70",
+      "type": "feed",
+      "offset": 46,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757033,
+      "updated_time": 1768757033,
+      "target": {
+        "visited_count": 9,
+        "favorite_count": 1,
+        "vote_next_step": "vote",
+        "updated_time": 1768724503,
+        "thanks_count": 0,
+        "author": {
+          "url_token": "da-jiu-80-41",
+          "is_org": false,
+          "gender": -1,
+          "is_following": false,
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "followers_count": 23,
+          "is_followed": false,
+          "id": "38baded2888a6f617d9ddb4b812b2144",
+          "url": "https://api.zhihu.com/people/38baded2888a6f617d9ddb4b812b2144",
+          "user_type": "people",
+          "name": "大酒"
+        },
+        "excerpt_new": "你认为阅读和旅行哪个更能增长见识？我觉得旅行其实并不能增长什么见识，大多数人旅行都是走马观花，去当地博物馆连讲解员都不一定花钱；还有就是旅行也一样，如果是上车呼呼睡觉，下车咔咔拍照，听导游胡说八道，再买点乱七八糟，那还真不如在家呆着，研究一下吃饺子是蘸白糖好还是蘸酱油好。",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"DZLP854a\">你认为阅读和旅行哪个更能增长见识？我觉得旅行其实并不能增长什么见识，大多数人旅行都是走马观花，去当地博物馆连讲解员都不一定花钱；还有就是旅行也一样，如果是上车呼呼睡觉，下车咔咔拍照，听导游胡说八道，再买点乱七八糟，那还真不如在家呆着，研究一下吃饺子是蘸白糖好还是蘸酱油好。</p>",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "id": "1996255934251553772",
+        "type": "answer",
+        "question": {
+          "answer_count": 0,
+          "bound_topic_ids": [
+            113,
+            444,
+            988,
+            120286,
+            4228648
+          ],
+          "excerpt": "",
+          "detail": "",
+          "type": "question",
+          "author": {
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-9fc2b33816081a1c30bb3a3593ee463d_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 72,
+            "is_followed": false,
+            "id": "404b8a58016c19713d029ffa4a994428",
+            "user_type": "people",
+            "url_token": "23-28-70-91",
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/404b8a58016c19713d029ffa4a994428",
+            "name": "擅长发呆的阿波连",
+            "gender": 1
+          },
+          "comment_count": 4,
+          "is_following": false,
+          "title": "你认为阅读和旅行哪个更能增长见识？",
+          "created": 1767583806,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "id": "1991471506753083082",
+          "url": "https://api.zhihu.com/questions/1991471506753083082"
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1996255934251553772",
+        "comment_count": 0,
+        "is_copyable": true,
+        "excerpt": "你认为阅读和旅行哪个更能增长见识？我觉得旅行其实并不能增长什么见识，大多数人旅行都是走马观花，去当地博物馆连讲解员都不一定花钱；还有就是旅行也一样，如果是上车呼呼睡觉，下车咔咔拍照，听导游胡说八道，再买点乱七八糟，那还真不如在家呆着，研究一下吃饺子是蘸白糖好还是蘸酱油好。",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "answer_type": "normal",
+        "created_time": 1768724503,
+        "voteup_count": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996255934251553772}",
+      "attached_info": "CrMFCNn6hfz1kor+hQEQBBoJNzY1OTMxNDg5IJewsssGKAAwAEAuSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBaCTExNzk1OTQwOGIgZjk4MGI2MTA1YzE1YTc4ODY2MWVkN2E5NjRiOGQzMmRyEzE5OTYyNTU5MzQyNTE1NTM3NzKKARMxOTkxNDcxNTA2NzUzMDgzMDgyqgEJcmVjb21tZW5kwgEgMzhiYWRlZDI4ODhhNmY2MTdkOWRkYjRiODEyYjIxNDTyAQoIDBIGTm9ybWFs8gEoCAoSJDlhMzc0MzgxLTk2NjEtNDE5MC05MTdkLTBlYzY4YTAxNjljOPIBBQgLEgE4ggIAiALK8YmRvTOSAiAzOGJhZGVkMjg4OGE2ZjYxN2Q5ZGRiNGI4MTJiMjE0NJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AIC+gILTk9STUFMX0ZMT1eKAyBlZmRjMTVmZmMzODg0MzQyYmFlZTVmZGFmMmQzZTg4MZoDDQoCdjIQABoFb3RoZXKoAwnYAwDqAyB3YXJtdXBUd29Ub3dlclRleHROb3JtYWxSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGBfyoo/gQUAAAAAAAAAAIkF/rCKFMy3sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGMKgGAZICLgoJNzY1OTMxNDg5EhMxOTk2MjU1OTM0MjUxNTUzNzcyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "47_1768757033.640",
+      "type": "feed",
+      "offset": 47,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757033,
+      "updated_time": 1768757033,
+      "target": {
+        "url": "https://api.zhihu.com/articles/1995606852617117788",
+        "author": {
+          "url": "https://api.zhihu.com/people/a37912db205fefdd16cdc87c29831aec",
+          "url_token": "7zszs",
+          "name": "软件商评",
+          "headline": "",
+          "is_org": false,
+          "id": "a37912db205fefdd16cdc87c29831aec",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-10b20470e80a6274affe25aeba407dce_l.jpg?source=b6762063",
+          "gender": -1,
+          "followers_count": 13,
+          "is_following": false,
+          "is_followed": false
+        },
+        "voting": 0,
+        "visited_count": 1633,
+        "type": "article",
+        "title": "中国企业软件为什么赚钱这么难？",
+        "navigator_vote": false,
+        "article_type": "normal",
+        "allow_segment_interaction": true,
+        "comment_permission": "all",
+        "excerpt": "南金蝶，北用友，这对中国企业软件市场的“绝代双骄”，最近几年的财报简直是惨不忍睹。金蝶从2020年开始亏损，到2024年，累计亏损13.78亿元；用友从2023年开始亏损，到2025年，累计亏损近44亿元。 如果你盯着这两家老牌巨头的账本看，你会产生一种极其强烈的幻灭感：做软件的，难道真的不如卖奶茶的？为什么在数字化浪潮席卷全球的今天，在人工智能大模型喊得震天响的2025年，中国最顶尖的软件公司，竟然还在盈利线的泥潭里垂死…",
+        "excerpt_new": "南金蝶，北用友，这对中国企业软件市场的“绝代双骄”，最近几年的财报简直是惨不忍睹。金蝶从2020年开始亏损，到2024年，累计亏损13.78亿元；用友从2023年开始亏损，到2025年，累计亏损近44亿元。 如果你盯着这两家老牌巨头的账本看，你会产生一种极其强烈的幻灭感：做软件的，难道真的不如卖奶茶的？为什么在数字化浪潮席卷全球的今天，在人工智能大模型喊得震天响的2025年，中国最顶尖的软件公司，竟然还在盈利线的泥潭里垂死…",
+        "preview_type": "default",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-436e1808dd2bb44630cbb602cc616a98_720w.jpg?source=b6762063"
+        ],
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "preview_text": "",
+        "content": "<p data-pid=\"vpx63erG\">南金蝶，北用友，这对中国企业软件市场的“绝代双骄”，最近几年的财报简直是惨不忍睹。金蝶从2020年开始亏损，到2024年，累计亏损13.78亿元；用友从2023年开始亏损，到2025年，累计亏损近44亿元。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"T_U0RTNu\">如果你盯着这两家老牌巨头的账本看，你会产生一种极其强烈的幻灭感：做软件的，难道真的不如卖奶茶的？为什么在数字化浪潮席卷全球的今天，在人工智能大模型喊得震天响的2025年，中国最顶尖的软件公司，竟然还在盈利线的泥潭里垂死挣扎？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"g4V7V5Eb\">这不科学。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vBapmKtQ\">美国一个Salesforce，市值能打掉几个波音；一个微软，靠软件授权和云服务能富可敌国。可到了中国，软件公司活得像个“讨饭的”，程序员敲着最贵的代码，公司却拿着最微薄的利润，老板还得去给甲方陪酒。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9481b7c0a68557dfd6767245669d4798_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"1536\" data-size=\"normal\" data-original-token=\"v2-436e1808dd2bb44630cbb602cc616a98\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic3.zhimg.com/v2-9481b7c0a68557dfd6767245669d4798_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HMLFkwc5\">中国企业软件，到底被谁下了降头？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6YZJ0O5s\">一、 免费模式的“原罪”：是谁杀死了软件的价值？我们要聊中国软件的困境，就必须先挖开它的坟墓，看看那颗被毒死的种子。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KA2-d3px\">大家还记得当年周鸿祎和他的360吗？ 那是一场互联网精神的狂欢，却也是中国B端软件商业逻辑毁灭的开始。360用一己之力，把杀毒软件从“收费时代”强行拽进了“免费时代”。从此，中国人的潜意识里刻下了一钢印：软件，就应该是免费的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"avSlDxk9\">这种“羊毛出在狗身上，让鸡付费”的奇葩模式，在C端互联网玩得转，因为有流量变现，有广告割韭菜。可当这种逻辑渗透进B端企业市场时，悲剧发生了。客户会为了价值千万的服务器硬件大笔一挥，却在几十万的软件授权费面前跟你抠搜半天。在很多老板眼里，硬件是“资产”，软件只是“光盘”，甚至是买硬件的“赠品”。这种重“硬”轻“软”的文化偏见，是中国软件的第一重枷锁。如果知识和代码不值钱，那创新的动力在哪？如果“白嫖”成了共识，那软件公司的尊严在哪？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YFncsZqp\">二、 “定制化”的黑洞：你以为在做产品，其实在搬砖如果你觉得观念问题能靠教育解决，那接下来的这个深坑，足以埋掉90%的中国软件公司——定制化陷阱。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zeUOcW4Q\">中国企业的数字化水平，简直是两个极端。有的企业已经快进到了AI决策，有的企业连Excel都还没玩明白。这种极度不均衡的现状，导致了一个极其残酷的商业现实：标准化产品，根本卖不动。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XOcDr7rD\">你去跟甲方谈标准化，甲方会指着你的鼻子说：“我这个业务流程是全中国独一无二的，你得按我的改！”为了拿单，软件公司只能屈服。于是，你原本指望“一次研发、万次销售”的规模效应，变成了“一人一套、推倒重来”的人力密集型生意。你的CTO变成了包工头，你的高级架构师变成了驻场维修工。这哪是高科技公司？这分明是披着软件外衣的“劳务派遣公司”！ </p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FJZDLNYr\">当边际成本无法趋向于零，当每一个新项目都要配一套人马去“手工作坊”式开发，你做得越大，你就亏得越惨。这种规模效应的丧失，是中国软件无法做大的“致命伤”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zNi90cKC\">三、 销售链路的“迷宫”：人情社会的获客</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"J8820-5s\">成本再说说中国市场的“特色”——人情与权力。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VofHv3vr\">在美国，卖软件可能只需要一份精美的说明书和一个好用的试用版；在中国，卖软件可能需要你有一副好肝和一张善于察言观色的嘴。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SWmzNW6h\">中国企业软件的销售链路之长、决策之复杂，简直是商业史上的迷宫。 你要搞定基层的业务员，要安抚中层的技术经理，要讨好高层的采购总监，最后还得看那个可能根本不懂技术的老板，那天心情好不好。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xMCgBSbA\">这种极高的获客成本（CAC），把软件公司的利润吃得干干净净。你会发现，很多软件公司的报表里，销售费用率高得惊人，往往能占到营收的40%甚至50%。 搞技术的赚不到钱，搞关系的盆满钵满。这种畸形的结构，让中国软件在创新面前显得疲惫不堪。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8RqhVlWF\">四、 内卷的末路：同质化与价格战的“慢性自杀”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NmpXlKnI\">中国式的内卷，在软件行业体现得淋漓尽致。你会做一个ERP，我立马能做一个长得差不多的。既然产品拉不开差距，那就只能拼价格。你报100万，我就敢报50万；你报50万，我就敢先试用一年，不满意不收钱。这种杀敌八百自损一千的玩法，让整个行业的毛利被持续压缩。这种竞争格局下，大家不是比谁的产品更专业，而是在比谁的底线更低，比谁更能熬。这种价格战的背后，是整个行业生态的崩塌。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mKyAn3NJ\">请问，在一个连研发成本都覆盖不了的毛利空间里，拿什么去搞研发？拿什么去和国际巨头硬碰硬？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sBZ1a-7X\">五、 转型阵痛与人才红利的消失</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KefnTC1e\">现在的软件巨头们，还面临一个巨大的财务黑洞：从传统许可向云/SaaS迁移的“阵痛”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FQTMahCx\">过去卖软件，一手交钱一手交货，现金流好得不得了。现在搞云订阅，钱得一分一分地收。这在财务报表上表现为：投入是当下的，收入是未来的。这种模式的转换，直接导致了用友、金蝶等公司在报表上的连年亏损。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QTSjSWrE\">更糟糕的是，人才红利消失了。 随着人力成本的刚性上涨，软件公司最核心的成本——研发与交付人才的价格在疯狂飙升。左手是收不上来的订阅费，右手是必须要发的高薪水，中间还夹着日益挑剔的甲方，中国软件老板们的头发能不白吗？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mU5c6Ny1\">六、 最后的一公里：验收与回款的“死缓”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AII_hCP-\">如果以上这些你都忍了，那最后的这根稻草，绝对能压死骆驼：回款。在中国做软件项目，最怕听到的两个词叫“验收”和“回款”。软件不是实物，甲方总有理由说你这里不行那里不顺。于是，项目做完了，人撤不走；尾款拖着，一拖就是两三年。很多软件公司表面上营收几十亿，翻开资产负债表一看，全是应收账款。这种回款机制的后置，让软件公司背负了沉重的财务成本。你以为你在做软件，其实你在给甲方当长期无息贷款银行。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sCHGl6YF\">结语：中国软件的生机，到底在哪？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ME9h_VV3\">盘点了这么多，大家可能会问：中国软件难道真的没戏了吗？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kew5bLzI\">不。正是因为赚钱难，才逼得我们必须去思考：为什么我们要一直活在低水平重复的泥潭里？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"cgYWM7d_\">2025年是一个分水岭。我们看到信创国产化进入了深水区，我们看到AI大模型开始重塑软件的生产力，我们看到一些软件公司开始果断砍掉不赚钱的定制化业务，转向标准化的高价值赛道。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zBjmwA6Z\">赚钱难，是因为我们正在经历从“劳动力红利”向“技术红利”转型的极寒之夜。什么时候，我们的企业不再觉得软件是买电脑的赠品？什么时候，我们的老板愿意为“效率”和“数据”支付溢价？什么时候，我们的软件公司敢于对“垃圾订单”说不？那一天，才是中国软件真正站着把钱挣了的日子。</p>",
+        "id": "1995606852617117788",
+        "created": 1768569932,
+        "updated": 1768569932,
+        "voteup_count": 15,
+        "comment_count": 3,
+        "is_labeled": false,
+        "favorite_count": 15,
+        "is_navigator": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995606852617117788}",
+      "attached_info": "CowGCNn6hfz1kor+hQEQBxoJMjY5MTM1OTQ3IMz4qMsGKA8wA0AvSjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AGIgZjk4MGI2MTA1YzE1YTc4ODY2MWVkN2E5NjRiOGQzMmRyEzE5OTU2MDY4NTI2MTcxMTc3ODiqAQlyZWNvbW1lbmTCASBhMzc5MTJkYjIwNWZlZmRkMTZjZGM4N2MyOTgzMWFlY/IBCggMEgZOb3JtYWzyASgIChIkMTJiODNiN2YtN2IzZS00NjQ2LWI1OWEtNzliYTBkOGRiZWQw8gEFCAsSATiCAgCIAsrxiZG9M5ICIGEzNzkxMmRiMjA1ZmVmZGQxNmNkYzg3YzI5ODMxYWVjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyBlZmRjMTVmZmMzODg0MzQyYmFlZTVmZGFmMmQzZTg4MZoDDQoCdjIQABoFb3RoZXKoA+EM2AMA6gMWZmVlZHJlX2ZpcnN0X3NjcmVlbl92MvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEIAMGIAMIiN2Mi00MzZlMTgwOGRkMmJiNDQ2MzBjYmI2MDJjYzYxNmE5OIAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgB0zmT+BBQAAAAAAAAAAiQX+sIoUzLeyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIkAYAoAYxqAYAkgIuCgkyNjkxMzU5NDcSEzE5OTU2MDY4NTI2MTcxMTc3ODgYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=47&desktop=true&end_offset=49&page_number=9&session_token=f980b6105c15a788661ed7a964b8d32d",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=47&desktop=true&end_offset=49&page_number=9&session_token=f980b6105c15a788661ed7a964b8d32d",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

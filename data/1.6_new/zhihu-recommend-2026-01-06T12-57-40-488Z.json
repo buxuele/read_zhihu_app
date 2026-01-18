@@ -1,0 +1,1858 @@
+{
+  "data": [
+    {
+      "id": "12_1767704321.8",
+      "type": "feed",
+      "offset": 12,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704321,
+      "updated_time": 1767704321,
+      "target": {
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "type": "answer",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "id": "1987222708522599368",
+        "url": "https://api.zhihu.com/answers/1987222708522599368",
+        "question": {
+          "comment_count": 10,
+          "bound_topic_ids": [
+            1576
+          ],
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/601286348",
+          "title": "为什么越聪明的人越单纯？",
+          "created": 1684223327,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "601286348",
+          "author": {
+            "url": "https://api.zhihu.com/people/6ec8936aec14d60f3c451ff7f9c9b2b4",
+            "user_type": "people",
+            "url_token": "fuck-15-38-62",
+            "name": "米开朗",
+            "headline": "",
+            "is_org": false,
+            "gender": 1,
+            "id": "6ec8936aec14d60f3c451ff7f9c9b2b4",
+            "is_followed": false,
+            "followers_count": 0,
+            "is_following": false,
+            "avatar_url": "https://picx.zhimg.com/50/v2-10b20470e80a6274affe25aeba407dce_l.jpg?source=b6762063"
+          },
+          "answer_count": 0,
+          "is_following": false,
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "excerpt": ""
+        },
+        "voteup_count": 4070,
+        "comment_count": 210,
+        "reshipment_settings": "disallowed",
+        "segment_infos": [
+          {
+            "pid": "BzG6wfHF",
+            "text": "他们那不是单纯，是看透后懒得伺候你的情绪。智力过剩的人，对无效社交有生理厌恶。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 39,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987458135556904385"
+                  ],
+                  "is_like": false,
+                  "like_count": 56,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "PaB4tdtU",
+            "text": "社交中最大的精明，是彻底放弃精明。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 17,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987454451338986624"
+                  ],
+                  "is_like": false,
+                  "like_count": 48,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "y7phgJmM",
+            "text": "他们省下内耗的时间，直接就去拿结果了。",
+            "marks": [
+              {
+                "start_index": 10,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987615097577824661"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "fLmnI8aa",
+            "text": "错了就认，不懂就问。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 10,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987513138585831416"
+                  ],
+                  "is_like": false,
+                  "like_count": 22,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "sRxvgQaS",
+            "text": "他并非感觉不到周围的暗潮涌动，而是处理那些东西所需要消耗的能量，对他来说太昂贵了，他不愿意付出。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 48,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987615295716741665"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "_QwvDY1W",
+            "text": "他把自身那珍贵的能量都保存了下来，用来倾注在他真正痴迷的东西上。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987615295716741665"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7p8QTb3X",
+            "text": "你怕说错话得罪人，他更怕说假话违背事实。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987513672474595642"
+                  ],
+                  "is_like": false,
+                  "like_count": 16,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "LzS0Bfp-",
+            "text": "你怕显得笨拙被嘲笑，他更怕因为不敢问蠢问题而错过真理。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 27,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987513701432047447"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "DsLnlC7k",
+            "text": "你怕挑战权威被穿小鞋，他更怕顺从错误导致全盘皆输。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987513737826031342"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7t8D0Srm",
+            "text": "因为他知道，即使他在你的人际关系里得了零分，甚至负分，只要他在自己的价值体系里——比如做出了极具实用性和建设性的方案，达成了极具成就感的进步，发现了惊为天人的运转规则——他依然是满分。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 92,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987457632798270316"
+                  ],
+                  "is_like": false,
+                  "like_count": 30,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "4VRKctL6",
+            "text": "他的天地不在这里，而在另一个地方。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 17,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987454451338986624"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "xZVpbiwe",
+            "text": "他不是来压抑自己的，他是路过你的天地，看了一眼，然后继续赶自己的路。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987456184303784145"
+                  ],
+                  "is_like": false,
+                  "like_count": 20,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "0el9hCC-",
+            "text": "他坐在旁边，一开始可能没看懂，等他看明白了，他可能觉得这规则……有点无聊，而且低效。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987623321945281994"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "m9kFafNm",
+            "text": "于是，在某个关键时刻，他会突然伸手，把整个桌子给直接掀了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987623321945281994"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "p0P-SmE1",
+            "text": "他会直接说出皇帝没穿新衣，会直接点破那个大家回避的核心矛盾，会用最朴实的大白话把台面下的东西拿到台面上来。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 53,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987456313375077799"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WZeFAXdQ",
+            "text": "场面一度非常尴尬。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 9,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987456326171897875"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "E7AW1_kM",
+            "text": "所有人都愣住了，觉得他破坏了规则，是个“异类”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987456336385050540"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "VqtiIvKE",
+            "text": "但往往，也正是这一下，僵局被打破了，真正的问题开始被讨论。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987614137279329103"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WNCsV5CR",
+            "text": "他掀桌子，不是因为他愤怒，而很可能是因为他觉得：“我们别整这套绕来绕去的了，直接办正事吧。” ",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 12,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987614137279329103"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              },
+              {
+                "start_index": 13,
+                "end_index": 46,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987613854667146917"
+                  ],
+                  "is_like": false,
+                  "like_count": 9,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "m3fToVIp",
+            "text": "他用一种近乎粗暴的单纯，撕开了人际交往的茧房。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 23,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987514060552569248"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "tkGhsh9P",
+            "text": "他用这种模式，迅速处理掉生活中占比巨大的、不重要也不深刻的连接。",
+            "marks": [
+              {
+                "start_index": 7,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987613969557526319"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "8hZb3075",
+            "text": "他把那些需要消耗巨量情感和心智的“复杂状态”，留给了极少数的人与事。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987613969557526319"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ex6rhkNb",
+            "text": "这需要勇气。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 5,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987560124051633734"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "gBqZdT-_",
+            "text": "但这更需要强大的自信。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 11,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987560177692595809"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "name": "扶疏",
+          "avatar_url": "https://pica.zhimg.com/50/v2-62ea69052b741f62f9936cecf2fed415_l.jpg?source=b6762063",
+          "id": "01bf9bcb86b1cb203a60ab47b33fc021",
+          "user_type": "people",
+          "headline": "记录，是一种对痛苦的剥离。",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 7677,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/01bf9bcb86b1cb203a60ab47b33fc021",
+          "url_token": "38-18-91-37"
+        },
+        "allow_segment_interaction": true,
+        "thanks_count": 463,
+        "is_copyable": false,
+        "excerpt": "他们那不是单纯，是看透后懒得伺候你的情绪。智力过剩的人，对无效社交有生理厌恶。社交中最大的精明，是彻底放弃精明。 他们省下内耗的时间，直接就去拿结果了。 聪明人的单纯，是他看穿了你那套规则后，懒得遵守的从容。 最根本的一点是：聪明人眼里的世界，和大多数人看到的，可能根本就不是同一个世界。你看到的是一个由人情、关系、面子、潜规则构成的体系。 一件事该怎么做，一个人该怎么评价，你下意识地会把这些错综复杂…",
+        "visited_count": 188372,
+        "navigator_vote": false,
+        "updated_time": 1766570814,
+        "excerpt_new": "他们那不是单纯，是看透后懒得伺候你的情绪。智力过剩的人，对无效社交有生理厌恶。社交中最大的精明，是彻底放弃精明。 他们省下内耗的时间，直接就去拿结果了。 聪明人的单纯，是他看穿了你那套规则后，懒得遵守的从容。 最根本的一点是：聪明人眼里的世界，和大多数人看到的，可能根本就不是同一个世界。你看到的是一个由人情、关系、面子、潜规则构成的体系。 一件事该怎么做，一个人该怎么评价，你下意识地会把这些错综复杂…",
+        "created_time": 1766570814,
+        "content": "<p data-pid=\"BzG6wfHF\"><b>他们那不是单纯，是看透后懒得伺候你的情绪。智力过剩的人，对无效社交有生理厌恶。</b></p><p data-pid=\"PaB4tdtU\">社交中最大的精明，是彻底放弃精明。</p><p data-pid=\"y7phgJmM\">他们省下内耗的时间，直接就去拿结果了。</p><p data-pid=\"n2U4799G\">聪明人的单纯，是他看穿了你那套规则后，懒得遵守的从容。</p><h2>最根本的一点是：聪明人眼里的世界，和大多数人看到的，可能根本就不是同一个世界。</h2><p data-pid=\"Jy-Ui69K\">你看到的是一个由人情、关系、面子、潜规则构成的体系。</p><p data-pid=\"tiP_bJoF\">一件事该怎么做，一个人该怎么评价，你下意识地会把这些错综复杂的因素全都考虑进去，权衡利弊，计算得失。</p><p data-pid=\"mUZooevR\">这没错，这是社会运行环节中的、一项重要的生存技能。</p><p data-pid=\"PHfjJiCL\">但那些聪明人，他可能天生或者后来训练出一种能力：自动屏蔽这些“无关杂念”。</p><p data-pid=\"sI2bt4ZX\">他的视线始终如一，只会落在事物本来的样子上。</p><p data-pid=\"gnnT-OK6\">比如，他看一个方案，看到的是逻辑是否自洽，数据是否可靠。</p><p data-pid=\"_9ANGBhT\">他看一个人，首先看到的是对方的能力边界和合作价值。</p><p data-pid=\"bC42Eu7r\"><b>至于那些包裹在事情外面的情绪、立场、言外之意，对他而言，就如同是玻璃上的雾气般，他随手就擦掉了，或者干脆视而不见。</b></p><p data-pid=\"2mj1_WHZ\">这并不是他傲慢，也不是他冷漠，这很可能是一种生理和心理上的“节能状态”。</p><p data-pid=\"Z2bje7MC\">因为人的大脑处理信息的能力是有限的，他的大脑把绝大部分思绪都分配给了“理解事物本质”这个核心任务。</p><p data-pid=\"EbpiIWHG\">剩下的那点思绪，只够他以最直接、最本能的方式回应人际互动：</p><p data-pid=\"i4bbyZHg\">你问什么，我答什么。</p><p data-pid=\"1r-UIReu\">你要什么，我给什么。</p><p data-pid=\"fLmnI8aa\">错了就认，不懂就问。</p><p data-pid=\"L7XqUARn\">仅此而已。</p><p data-pid=\"sRxvgQaS\"><b>他并非感觉不到周围的暗潮涌动，而是处理那些东西所需要消耗的能量，对他来说太昂贵了，他不愿意付出。</b></p><p data-pid=\"_QwvDY1W\"><b>他把自身那珍贵的能量都保存了下来，用来倾注在他真正痴迷的东西上。</b></p><h2>更重要的一点在于：他的个人价值评估体系，和你的也完全不一样。</h2><p data-pid=\"02RaCIgd\">你的价值感，可能很大程度上来自于社会的反馈、他人的认可、在关系链条中的位置。</p><p data-pid=\"k5N692JK\">你需要通过复杂的互动来确认自己的存在，来获取安全感。</p><p data-pid=\"WTaRrsfL\">但他不是。</p><p data-pid=\"nluBq4v4\">他的价值感是向内生长的，如一棵树般，根扎在自己的专业领域、思维成果或者创造的世界里。</p><p data-pid=\"7TczHz4F\">他的安全感来源于“我能解决什么问题”、“我能创造出什么”、“我理解了什么规律”。</p><p data-pid=\"G85vBewZ\">这棵树长得足够粗壮，他就能获得一种近乎“心理豁免权”的东西。</p><p data-pid=\"-v2AoUJ5\">这意味着什么？</p><p data-pid=\"3Ja-ZgOU\">意味着你们害怕的东西，他可能不怕。</p><p data-pid=\"7p8QTb3X\">你怕说错话得罪人，他更怕说假话违背事实。</p><p data-pid=\"LzS0Bfp-\">你怕显得笨拙被嘲笑，他更怕因为不敢问蠢问题而错过真理。</p><p data-pid=\"DsLnlC7k\">你怕挑战权威被穿小鞋，他更怕顺从错误导致全盘皆输。</p><p data-pid=\"7t8D0Srm\"><b>因为他知道，即使他在你的人际关系里得了零分，甚至负分，只要他在自己的价值体系里——比如做出了极具实用性和建设性的方案，达成了极具成就感的进步，发现了惊为天人的运转规则——他依然是满分。</b></p><p data-pid=\"4VRKctL6\">他的天地不在这里，而在另一个地方。</p><p data-pid=\"011ck5jg\">所以，他对你们人际往来中的那些规则习惯，就显得漫不经心，甚至笨拙不堪。</p><p data-pid=\"xZVpbiwe\">他不是来压抑自己的，他是路过你的天地，看了一眼，然后继续赶自己的路。</p><h2>这就会导致一种很有趣的外在表现：他常常会无意识地“掀桌子”。</h2><p data-pid=\"h6D7BWYM\">你们一群人坐在一起，融入在一种名叫“职场话术”或者“社交礼仪”的环境氛围中。</p><p data-pid=\"_F4OjnCt\">大家心照不宣，遵循着复杂的规则，说话留三分，听话听弦音。</p><p data-pid=\"8g6Z64Nb\">其中遵循得好的，被称赞为“高情商”。</p><p data-pid=\"0el9hCC-\">他坐在旁边，一开始可能没看懂，等他看明白了，他可能觉得这规则……有点无聊，而且低效。</p><p data-pid=\"m9kFafNm\">于是，在某个关键时刻，他会突然伸手，把整个桌子给直接掀了。</p><p data-pid=\"p0P-SmE1\">他会直接说出皇帝没穿新衣，会直接点破那个大家回避的核心矛盾，会用最朴实的大白话把台面下的东西拿到台面上来。</p><p data-pid=\"WZeFAXdQ\">场面一度非常尴尬。</p><p data-pid=\"E7AW1_kM\">所有人都愣住了，觉得他破坏了规则，是个“异类”。</p><p data-pid=\"VqtiIvKE\">但往往，也正是这一下，僵局被打破了，真正的问题开始被讨论。</p><p data-pid=\"WNCsV5CR\">他掀桌子，不是因为他愤怒，而很可能是因为他觉得：“我们别整这套绕来绕去的了，直接办正事吧。” </p><p data-pid=\"m3fToVIp\">他用一种近乎粗暴的单纯，撕开了人际交往的茧房。</p><h2>然后，我就不得不谈论到一个有些残酷的视角：你觉得他单纯，有时候，是因为你还没有达到需要他动用“复杂”的层次。</h2><p data-pid=\"pTPY1qYX\">他对所有人都这样吗？</p><p data-pid=\"xu6AvJHH\">很可能不是。</p><p data-pid=\"Y8fHc-KN\"><b>在他的核心圈层里，面对他真正尊重的对手或挚友，讨论他视若生命的事业时，他展现出的状态可能截然不同：机敏、警觉、寸步不让、心思缜密，甚至会有你想象不到的谋略和韧性。</b></p><p data-pid=\"MiajaXK2\"><b>他的“单纯状态”，某种程度上是一种人际往来中的过滤，一种省心、省力的社交行为模式。</b></p><p data-pid=\"tkGhsh9P\">他用这种模式，迅速处理掉生活中占比巨大的、不重要也不深刻的连接。</p><p data-pid=\"8hZb3075\">他把那些需要消耗巨量情感和心智的“复杂状态”，留给了极少数的人与事。</p><h2>小孩子的单纯，是因为没见过复杂，世界对他们而言是天然的简单。</h2><h2>但他的这种“单纯”，是见过了足够多的复杂、算计、虚与委蛇之后，打心眼里产生的“厌倦”。</h2><p data-pid=\"AX-PlIGR\">他见识过也分析过那些复杂的规则，他知道怎么操作，他甚至可能短暂地试过。</p><p data-pid=\"GqZJkK_T\">但他最后发现，那样活着太累了，太扭曲了，太背离他真正感兴趣的东西了。</p><p data-pid=\"IL8csx9F\"><b>于是他做了一个决定：我要在我的生活里，尽可能地剔除这些不必要的复杂。我要建立一种更干净、更直接、更遵循本质的活法。</b></p><p data-pid=\"ex6rhkNb\">这需要勇气。</p><p data-pid=\"tN8A9h1w\">因为这意味着他要承受别人的误解，要被贴上“不懂事”“不合群”的标签，要放弃通过人情练达可能获得的某些捷径和好处。</p><p data-pid=\"gBqZdT-_\">但这更需要强大的自信。</p><p data-pid=\"RGroFDKH\">他相信自己靠那身实实在在的本事，就能走出一条路。</p><p data-pid=\"p7OUiLUQ\">他相信真诚和直接从长远看，损耗更低。</p><p data-pid=\"bkPcHrOa\">他相信世界上终归有更重要、更值得探索的东西，等着他去发现。</p><p data-pid=\"sP32jNKS\">因此，当你再看他，觉得他“单纯”得仿佛是不属于这个世界时，或许可以换个角度想想：</p><p data-pid=\"Sl0s6o3_\">他不是世界的异类，他或许是试图在一条浑浊的河流里，为自己开辟出一段清澈水道的人。</p><p data-pid=\"lyZft_Pp\">他用一种看似笨拙、不变通的姿态，践行着自己内心最珍视的那种干净、专注、追求真理的行为准则。</p><p data-pid=\"vvlJym6Q\">他的“单纯”，不是缺陷，不是无知。</p><p data-pid=\"SzmNxAxI\">那是一种深思熟虑后的坚守，一种删繁就简的智慧，一种敢于用自己真实面目去面对世界的、强大的温柔。</p><p data-pid=\"U_JWY0Gk\">我们看着他，笑他傻气的时候，心底深处，或许也藏着一点不易察觉的羡慕：羡慕他那种仿佛活在自己节奏里的自由，羡慕他那种不必时刻权衡算计的轻松，羡慕他眼里依然还能为纯粹的事物闪耀的光。</p><p></p><p></p>",
+        "is_labeled": false,
+        "favorite_count": 4366,
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1987222708522599368}",
+      "attached_info": "CqEGCMTj+5m+tvW1owEQBBoJNzYyNDk0MDM4IL72rsoGKOYfMNIBQAxKQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoIOTU4OTk2NzFiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTg3MjIyNzA4NTIyNTk5MzY4igEJNjAxMjg2MzQ4qgEJcmVjb21tZW5kwgEgMDFiZjliY2I4NmIxY2IyMDNhNjBhYjQ3YjMzZmMwMjHyAQoIDBIGTm9ybWFs8gEoCAoSJDFlZTNiNmI1LTc4OTUtNDM3Ni1iYjU1LTM0Y2VhZGM0YjU5YvIBBQgLEgEzggIAiALqvo2buTOSAiAwMWJmOWJjYjg2YjFjYjIwM2E2MGFiNDdiMzNmYzAyMZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIGM4YWI0OWU0YzVmNzQyNTZiMzQzYzUwMDEyYjU3MTlkmgMNCgJ2MhAAGgVvdGhlcqgD1L8L2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAGKFpD+BBQAAAAAAAAAAiQXIOasFPqGmP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUDkAYAoAYNqAYBkgIuCgk3NjI0OTQwMzgSEzE5ODcyMjI3MDg1MjI1OTkzNjgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "13_1767704321.563",
+      "type": "feed",
+      "offset": 13,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704321,
+      "updated_time": 1767704321,
+      "target": {
+        "is_copyable": true,
+        "navigator_vote": false,
+        "thanks_count": 5,
+        "preview_text": "",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "is_navigator": false,
+        "created_time": 1767512571,
+        "visited_count": 19676,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1991172723133665569",
+        "comment_count": 63,
+        "excerpt_new": "河南许昌农村，一个山窝窝里面的小村子，整个村子不到50户人，里面也是老人居多，家里有年轻人的五个手指头都数的过来。   几乎家家户户都是老人，一到冬天，用三轮车拉煤球几乎是惯例，毕竟老人一个月养老金就那么点，还是农村家庭怎么舍得开空调和电暖扇。一到冬天口罩帽子围巾是必备的，家里空调还是贫困补贴500块钱买的，超级费电，别说是冬天，连夏天快40度的高温都有点舍不得开。   除此之外，就是烧树根，烧木头，烧庄稼杆，…",
+        "vote_next_step": "vote",
+        "voteup_count": 154,
+        "content": "<p data-pid=\"xofCOdNI\">河南许昌农村，一个山窝窝里面的小村子，整个村子不到50户人，里面也是老人居多，家里有年轻人的五个手指头都数的过来。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b862cdfb48a629a32c066545fd170238_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1549\" data-original-token=\"v2-033c1497cde55e852c7e5ad8a8570df6\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-b862cdfb48a629a32c066545fd170238_r.jpg\"/></figure><p data-pid=\"bnPMRmGf\">几乎家家户户都是老人，一到冬天，用三轮车拉煤球几乎是惯例，毕竟老人一个月养老金就那么点，还是农村家庭怎么舍得开空调和电暖扇。一到冬天口罩帽子围巾是必备的，家里空调还是贫困补贴500块钱买的，超级费电，别说是冬天，连夏天快40度的高温都有点舍不得开。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2e24e9b7415be641aa2d342c375b1cd2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1066\" data-rawheight=\"1312\" data-original-token=\"v2-f7935be1b13a7b295b32bede181212ee\" class=\"origin_image zh-lightbox-thumb\" width=\"1066\" data-original=\"https://pic1.zhimg.com/v2-2e24e9b7415be641aa2d342c375b1cd2_r.jpg\"/></figure><p data-pid=\"LNxUnqnA\">除此之外，就是烧树根，烧木头，烧庄稼杆，烧垃圾，都是老人趁春天、夏天、秋天一天天去庄稼地里捡的，还有之前剥完玉米的玉米杆子舍不得扔，就屯在家里的墙角到了冬天拿来烧，不费一点钱，一点着火，一个村子的几个老婆婆就一起围着开始烤，一坐就是一整天。</p><p data-pid=\"nK5xsCFL\">有时候自家不点火，就跑去别家里蹭火取暖，要不然没钱、没人的农村还能怎么取暖呢</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8af3e2998a04b4136458094125ee146b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1593\" data-original-token=\"v2-8bf0cfaa5b8e05b48c1043b7fb8f8670\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic4.zhimg.com/v2-8af3e2998a04b4136458094125ee146b_r.jpg\"/></figure><p></p>",
+        "favorite_count": 12,
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "1d755b21686a2454013885f358c765ad",
+          "url": "https://api.zhihu.com/people/1d755b21686a2454013885f358c765ad",
+          "user_type": "people",
+          "name": "笨笨乳酪",
+          "followers_count": 1,
+          "url_token": "70-67-32-56-45",
+          "headline": "一枚蹲在生活边角写故事的记录者，主打现实向短篇",
+          "avatar_url": "https://picx.zhimg.com/50/v2-3c087d19c157a2a68206cdf3e409e537_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0
+        },
+        "updated_time": 1767512571,
+        "question": {
+          "id": "347144659",
+          "comment_count": 53,
+          "detail": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/347144659",
+          "title": "现在农村不允许烧煤了，大家都如何取暖呢？",
+          "created": 1569065243,
+          "answer_count": 0,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            1709,
+            9758,
+            9946
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "author": {
+            "url": "https://api.zhihu.com/people/cd896252e3b2be726dc73b3cdfade5ef",
+            "url_token": "yi-xiao-qing-cheng-26-34",
+            "gender": 1,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false,
+            "id": "cd896252e3b2be726dc73b3cdfade5ef",
+            "user_type": "people",
+            "name": "一笑",
+            "headline": "这个时代很好，阻止不了我们的闪耀，也永远盖住不了别人的光芒。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-0a5ffb28599c2045dbd7358937829796_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "is_following": false
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-033c1497cde55e852c7e5ad8a8570df6_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-033c1497cde55e852c7e5ad8a8570df6_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-f7935be1b13a7b295b32bede181212ee_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8bf0cfaa5b8e05b48c1043b7fb8f8670_720w.jpg?source=b6762063"
+        ],
+        "excerpt": "河南许昌农村，一个山窝窝里面的小村子，整个村子不到50户人，里面也是老人居多，家里有年轻人的五个手指头都数的过来。   几乎家家户户都是老人，一到冬天，用三轮车拉煤球几乎是惯例，毕竟老人一个月养老金就那么点，还是农村家庭怎么舍得开空调和电暖扇。一到冬天口罩帽子围巾是必备的，家里空调还是贫困补贴500块钱买的，超级费电，别说是冬天，连夏天快40度的高温都有点舍不得开。   除此之外，就是烧树根，烧木头，烧庄稼杆，…",
+        "type": "answer",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "id": "1991172723133665569"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991172723133665569}",
+      "attached_info": "CocICMTj+5m+tvW1owEQBBoJNzYzOTYwMzI3IPuz6MoGKJoBMD9ADUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUooChNUU19TT1VSQ0VfRkVFRFJFX1Y1EgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMzk0MjEyNDNiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTkxMTcyNzIzMTMzNjY1NTY5igEJMzQ3MTQ0NjU5qgEJcmVjb21tZW5kwgEgMWQ3NTViMjE2ODZhMjQ1NDAxMzg4NWYzNThjNzY1YWTyAQoIDBIGTm9ybWFs8gEoCAoSJDRlMDZiZmFiLWJhMDEtNDQ2YS04ZWI0LWNhNDc2M2U1ZDkzYfIBBQgLEgEzggIAiALrvo2buTOSAiAxZDc1NWIyMTY4NmEyNDU0MDEzODg1ZjM1OGM3NjVhZJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCAvoCC05PUk1BTF9GTE9XigMgYzhhYjQ5ZTRjNWY3NDI1NmIzNDNjNTAwMTJiNTcxOWSaAw0KAnYyEAAaBW90aGVyqAPcmQHYAwDqAxFmZWVkcmVfbXNfZ2F0ZV92M/oDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBCAChiNDCIjdjItMDMzYzE0OTdjZGU1NWU4NTJjN2U1YWQ4YTg1NzBkZjY6LQgEEKoIGKAKIiN2Mi1mNzkzNWJlMWIxM2E3YjI5NWIzMmJlZGUxODEyMTJlZTotCAMQgAoYuQwiI3YyLThiZjBjZmFhNWI4ZTA1YjQ4YzEwNDNiN2ZiOGY4NjcwgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgezq7P4EFAAAAAAAAAACJBcg5qwU+oaY/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQOQBgCgBg6oBgOSAi4KCTc2Mzk2MDMyNxITMTk5MTE3MjcyMzEzMzY2NTU2ORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "14_1767704321.78",
+      "type": "feed",
+      "offset": 14,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704321,
+      "updated_time": 1767704321,
+      "target": {
+        "visited_count": 319756,
+        "url": "https://api.zhihu.com/answers/1893480457322095374",
+        "created_time": 1744220920,
+        "favorite_count": 4912,
+        "is_copyable": true,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "updated_time": 1744220920,
+        "is_labeled": false,
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thanks_count": 1258,
+        "comment_count": 212,
+        "excerpt": "我在读高中和大学的时候，最爱上虎扑和微博。 爱玩这些文字媒体的原因，不是我天天要发什么“大作”，就是好一口与人争辩。 当时无论是什么话题，是什么大V的评论区。我总要插上几句，经常都能成为热评，动不动几千上万赞。无论有什么人来质疑我，或者跟我“杠上加杠”，我都能怼到别人无力还击。 犹记得当时在微博的一次敏感话题下，遭到十几个女生的围攻，可我就是“不服周”。争论七八个小时后，她们大都散去，其中一个还跑来…",
+        "preview_text": "",
+        "id": "1893480457322095374",
+        "excerpt_new": "我在读高中和大学的时候，最爱上虎扑和微博。 爱玩这些文字媒体的原因，不是我天天要发什么“大作”，就是好一口与人争辩。 当时无论是什么话题，是什么大V的评论区。我总要插上几句，经常都能成为热评，动不动几千上万赞。无论有什么人来质疑我，或者跟我“杠上加杠”，我都能怼到别人无力还击。 犹记得当时在微博的一次敏感话题下，遭到十几个女生的围攻，可我就是“不服周”。争论七八个小时后，她们大都散去，其中一个还跑来…",
+        "answer_type": "normal",
+        "type": "answer",
+        "voteup_count": 6168,
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"Z9rf_7g2\">我在读高中和大学的时候，最爱上虎扑和微博。</p><p data-pid=\"BMBMktsb\">爱玩这些文字媒体的原因，不是我天天要发什么“大作”，就是好一口与人争辩。</p><p data-pid=\"7XLFu-yz\">当时无论是什么话题，是什么大V的评论区。我总要插上几句，经常都能成为热评，动不动几千上万赞。无论有什么人来质疑我，或者跟我“杠上加杠”，我都能怼到别人无力还击。</p><p data-pid=\"HxG5jp7n\">犹记得当时在微博的一次敏感话题下，遭到十几个女生的围攻，可我就是“不服周”。争论七八个小时后，她们大都散去，其中一个还跑来私信我“虽然我不赞成你，但你的言辞真犀利”。最后她还关注了我。当时，我觉得自己老厉害了。</p><p data-pid=\"yKQa4XFO\">当时的我，真的有很深的知识储备，能自立新说吗？并不是，高中大学时我已经很久不爱看书了。最大的爱好是打LOL，去酒吧。顶多剩点小时候爱读书的“老本”，可能比同龄人强，但绝对称不上大拿。</p><p data-pid=\"BeVeLqPH\">可即便这样，私下里我从小到大都是十里八乡的争辩能手。只要话题最后不上升到人身攻击的情况下，无论我是正方还是反方，我都能笑到最后。以至于大家都知道我口若悬河，就不爱跟我争辩了。曾经我还颇为得意。</p><p data-pid=\"XcxqKq_R\">从这里，大家应该能猜出我线上线下都爱与人争辩的动机了。我自豪于一窥他人语言体系的端倪，并抓住漏洞将其撕成碎片，最后归功于自身逻辑体系的战利品。</p><p data-pid=\"dVYei2xO\">可是后来，我毕业了，接触文字工作。尤其在我重新习得阅读习惯的时候。</p><p data-pid=\"8-sdzzoZ\">我变得不爱与人在网上争辩了，也不爱寻得醒目的评论区占山为王。写的文章总是不满意，总觉得有漏洞，总是想填补。可是补后又觉得“水满则溢”。</p><p data-pid=\"SjSg_-cX\">管理账号的时候，遇到偷换概念或者人身攻击的言论，通常删除了事极少与之争论。放之以前，我绝对会与他们大战三百回合。</p><p data-pid=\"nsdbjID6\">在现实中，我会被老朋友形容成“吞吞吐吐”，新圈子会觉得我不爱说话。到了新单位，甚至大家普遍认为我沉默寡言，是比较谨慎稳重的人。这前后的人设转变，云泥之别。</p><p data-pid=\"t8yGDvON\">这其实是我年岁和阅历的增加，和认知体系的深化以及重构。逐渐明白两个道理。</p><p data-pid=\"AXCRhp0O\">第一，知识存在一个悖论。知识了解的越多，就会觉得自己明白的越少。人永远无法同时获得知识的洗礼，和用其装逼的感受。</p><p data-pid=\"izNy3H0Z\">第二，语言一开口，便有漏洞。人永远无法用语言，阐释所有的真理。</p><p data-pid=\"3U7pmfD7\">首先，第一点比较好理解。知识的确立，会随着认知维度的丰满，变得难以简单概括。可能繁密的举证推理，才能讲明白一个平易朴实的道理。</p><p data-pid=\"NSAxAf4t\">就像历史周期律之于中国历史，至今互联网上都有很多人爱言之凿凿的用一个变量盖棺定论。说什么朝代因为什么什么兴起，又因为什么什么灭亡。最爱扯到某个人，和某个特定事件上。我少不更事时曾是这种论述的忠实拥趸。主要是装逼有奇效。一通报菜名式的贯口，通常能把看客唬得一愣一愣的。</p><p data-pid=\"p-Qi23x_\">可随着我长大后，读的书越多，就越发现这种逻辑根本站不住脚。人类文明史不过占了地球几十亿年历史中的几千年，相当于眨眼一瞬。人类作为“新手玩家”，这么短时间怎么可能知道整个地球服务器的逻辑？这个服务器里，怎么可能有只属于“新手村”的独立规律？</p><p data-pid=\"ut-xr2ny\">而且越读历史，越觉得历史是一门时空学科。历史上所发生的一切，都与其时空中存在的自然地理、人文脉络等学科不无关联。更与人类至今尚未发觉，尚未总结出来的学科类目利害攸关。</p><p data-pid=\"ktSCCvH5\">所以，你要我总结比较客观的历史经验，我可以回答。可你要我在时空里划一条不变的历史铁律，我可能一辈子都做不到。因为人类对事物的观测方式总是有限的，如果能对事物产生全知视角。也就意味着人类文明会一直进步，人类不会犯错。这显然是不可能的。</p><p data-pid=\"G5HwLY1h\">所以，书读的越多，对知识的认知越充分。越想完美地形容一件事物，越觉得语言的匮乏。</p><p data-pid=\"FuUQLvOi\">而说到语言的匮乏，这就延伸到我说的第二点。为什么我说“人只要一开口，语言便会存在漏洞”。</p><p data-pid=\"6HbmGtor\">这就像为什么我曾经线上线下，辩论中永远处于上风一样。无论我处于什么立场之下，总能从别人的语句中找出一两个关联点串成一片，对别人整篇或整段理论体系进行解构。</p><p data-pid=\"l-_scal-\">比如你推崇功利主义，我以前会用“社会发展应该存在人文关怀”进行还击。比如你推崇道德，我也会用“文明解释权，道德解释权”等对其进行稀释。</p><p data-pid=\"LakFO4Gc\">明眼人都知道，这种争辩都存在偷换概念之嫌，于问题的价值意义不大。可辩论老手也知道，这种对言辞的锱铢必较，就是能获得语势上的胜利。赢得满堂彩。</p><p data-pid=\"GUrNhM0c\">其实这些乱象，都源于人类的感官只能欣赏并理解有节奏感的信息。一个事物承载的信息，有轻有重，有疾有徐，才是人们追求的事物表现形式。</p><p data-pid=\"wU93UTc9\">就像一篇文章，全是精美的修辞，人们只会看得视觉疲劳。不会有人觉得文笔很好。一首歌的副歌再好听，整首曲目都回荡这种旋律，只会觉得庸俗。</p><p data-pid=\"se4kI7h1\">反之，若是文章和音乐都做到节奏上的“留白”，可能大受欢迎。人类对于信息和美学的追求，就是这种“留白”，接受有用的信息后进行想象力的补足。</p><p data-pid=\"pJy0ZsPG\">而人类对真正完美，面面俱到的信息媒介无感，也难直接吸收营养。就像百科全书，都知道有用，但没人会当日常消遣。只在查阅资料时翻翻有用的几页。</p><p data-pid=\"F_avkqm6\">所以，文章立论和演讲论述也是一样的逻辑。</p><p data-pid=\"aiUv3V2G\">文章和演讲，要表现得有感染力。那必须在信息上有所取舍，有轻重缓急的节奏，才能实现情绪递进。煽动情绪，感染更多人。</p><p data-pid=\"9HOsEhHT\">可这又会给好事者处处留梯子，让他们总能找到角落往墙里扔砖头。</p><p data-pid=\"iv9yhbzJ\">但要是你把文章和演讲搞得东一榔头西一棒槌，啥都提了却唯独没有主题。那更是被认为毫无逻辑，没人看。</p><p data-pid=\"350jT4z0\">所以，语言的真相是一旦只顾着面面俱到，就无法拥有串成一片的逻辑体系。而有了掷地有声有的放矢的观点，那在理论空间上就会有透气的窗口。</p><p data-pid=\"U1NlLiK7\">铺垫了这么久，现在我们再把这两个道理放在口才与对马斯克的认知上。</p><p data-pid=\"dVGS07zI\">可以发现，口才本质与之展现的形象是背道而驰的。口才好的人往往被认为是高知深邃著称，可往往口才的应用空间都是点到即止的。没有人会因为“核战争”发生争辩，为了争输赢，对整套核武器的研究理论进行当下复盘。因为在此之前，就已经分出了胜负。</p><p data-pid=\"q47LpFPb\">因为现实中的辩论强弱，很多时候就是看语言上的气势，个人的整体形象，以及对受众的煽动。这也是为什么国际辩论队往往对形象要求很高，政客们西装革领重复同一个单词引得选民山呼海啸，人就是对信息的接受和营养不能兼顾。</p><p data-pid=\"3WI7Y5mM\">从这一点看，马斯克并不是不擅长口舌之争，爱逞口舌之利的人。这看似冲突，其实是马斯克在不同场景的应用。</p><p data-pid=\"Nn1Ezc_Z\">在为maga助选时，讲台下浩浩荡荡几千人，我见马斯克说话从来不磕巴。他明白面对选民不是来讨论真理的，而是简单直接的单词重复就能直接煽动情绪。</p><p data-pid=\"3akYCPmk\">可是在一些学术论坛，或者比较私人的深度访谈时。马斯克则会经常出现斟酌用词后，前后语句逻辑不连贯，频繁删改的说话习惯。</p><p data-pid=\"6sCsRGsz\">这说明，马斯克自身对世界的见解是有很强立场的，对自己的学识是有追求的。他不认为在进行深度探讨时，他说的话就是金句良言，而是尽量用精确的语言表达自己的观点。</p><p data-pid=\"dYM_5_0n\">这自然说明马斯克的两面。一面是商人，一面是自诩有学术追求的科学家。</p><p data-pid=\"PbTyR-66\">把这两面合二为一，可能才反映一个完整的事实。人不能在追求认同感的同时，把自己穷尽认知的世界阐述完整。而是需要分段式实现。</p><p data-pid=\"xvyzoLAE\">马斯克身上流淌的这种“挣扎”，可能就是我们人类该有的人性光辉。</p><p data-pid=\"KHWTo8JQ\">我不喜欢马斯克。我觉得他被过于神化了，商人色彩过重。</p><p data-pid=\"Z1zXAJTN\">但我觉得人人都求快，在贩卖一眼就懂的“巧利”商品，他还愿意保持对知识和语言的“笨拙”是难得可贵的。</p><p data-pid=\"8u8cCao8\">就像我们的社会，长期追求平稳而显得压抑。因此任何醒目的人格标签，只要不被归类为坏，通常就被定义为好。你的口才往往没被人厌弃，就同时意味着你在被人推崇。现实中，滔滔不绝纸上谈兵的人不是“烦人精”，通常就是“万人迷”。</p><p data-pid=\"6iALfzTh\">这种“非好即坏”的功利思维，在我们的社会，只要你表现得人畜无害，你的小优点就能无限被放大一本万利。这样的结果是，我们社会出现了大量认知浅尝辄止的“平庸精英”。</p><p data-pid=\"5qHPqtXk\">他们对前人智慧鹦鹉学舌，当当信息搬运工，或者直接从外网腾挪。我们就能极为宽容，接纳他们的成功。他们如今在短视频里，电视中，现实中身居高位的比比皆是。</p><p data-pid=\"Hf8x7Y-I\">他们或许在某个特定的历史阶段，需要大规模工业化或者教育普及的时候，是具有积极意义的。他们的集体出现，能带动国民素质。</p><p data-pid=\"Gb2EHzUF\">可是新的时代来了。未来我们的社会不需要这种“才华”，而是宁愿多一些口齿不伶俐，说话不利索却敢于为每一句话负责，一生求真的人，为社会添砖加瓦。他们成为社会的主流，我们的社会才能沉淀出我们的风采。</p><p></p>",
+        "author": {
+          "name": "李清幽",
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "90-38-19-57",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-aa8cb22aa0433db9a880badb1ceff842_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 18404,
+          "is_followed": false,
+          "id": "1e6f075b945a45ab7b541f1df5f26d68",
+          "url": "https://api.zhihu.com/people/1e6f075b945a45ab7b541f1df5f26d68"
+        },
+        "question": {
+          "answer_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "author": {
+            "followers_count": 1,
+            "url": "https://api.zhihu.com/people/2cc53f23021e4008ed89871032b60b9c",
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false,
+            "id": "2cc53f23021e4008ed89871032b60b9c",
+            "url_token": "liang-meng-77-83",
+            "name": "lulu",
+            "is_org": false
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "id": "1893074157748593983",
+          "title": "为什么埃隆·马斯克讲话磕磕巴巴？",
+          "comment_count": 17,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            962
+          ],
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1893074157748593983",
+          "created": 1744124050
+        },
+        "is_navigator": false,
+        "segment_infos": [
+          {
+            "pid": "XcxqKq_R",
+            "text": "从这里，大家应该能猜出我线上线下都爱与人争辩的动机了。我自豪于一窥他人语言体系的端倪，并抓住漏洞将其撕成碎片，最后归功于自身逻辑体系的战利品。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 71,
+                "seg_info": {
+                  "seg_ids": [
+                    "1897744087395836981"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "8-sdzzoZ",
+            "text": "我变得不爱与人在网上争辩了，也不爱寻得醒目的评论区占山为王。写的文章总是不满意，总觉得有漏洞，总是想填补。可是补后又觉得“水满则溢”。",
+            "marks": [
+              {
+                "start_index": 30,
+                "end_index": 67,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893567051819382423"
+                  ],
+                  "is_like": false,
+                  "like_count": 98,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "nsdbjID6",
+            "text": "在现实中，我会被老朋友形容成“吞吞吐吐”，新圈子会觉得我不爱说话。到了新单位，甚至大家普遍认为我沉默寡言，是比较谨慎稳重的人。这前后的人设转变，云泥之别。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 77,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893754079940964681"
+                  ],
+                  "is_like": false,
+                  "like_count": 80,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "AXCRhp0O",
+            "text": "第一，知识存在一个悖论。知识了解的越多，就会觉得自己明白的越少。人永远无法同时获得知识的洗礼，和用其装逼的感受。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 56,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893853877998178367"
+                  ],
+                  "is_like": false,
+                  "like_count": 169,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "izNy3H0Z",
+            "text": "第二，语言一开口，便有漏洞。人永远无法用语言，阐释所有的真理。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 31,
+                "seg_info": {
+                  "seg_ids": [
+                    "1899775779606356024"
+                  ],
+                  "is_like": false,
+                  "like_count": 133,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "NSAxAf4t",
+            "text": "就像历史周期律之于中国历史，至今互联网上都有很多人爱言之凿凿的用一个变量盖棺定论。说什么朝代因为什么什么兴起，又因为什么什么灭亡。最爱扯到某个人，和某个特定事件上。我少不更事时曾是这种论述的忠实拥趸。主要是装逼有奇效。一通报菜名式的贯口，通常能把看客唬得一愣一愣的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 40,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893754441007600010"
+                  ],
+                  "is_like": false,
+                  "like_count": 27,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 55,
+                "end_index": 133,
+                "seg_info": {
+                  "seg_ids": [
+                    "1965173867665400680"
+                  ],
+                  "is_like": false,
+                  "like_count": 63,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "p-Qi23x_",
+            "text": "可随着我长大后，读的书越多，就越发现这种逻辑根本站不住脚。人类文明史不过占了地球几十亿年历史中的几千年，相当于眨眼一瞬。人类作为“新手玩家”，这么短时间怎么可能知道整个地球服务器的逻辑？这个服务器里，怎么可能有只属于“新手村”的独立规律？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 119,
+                "seg_info": {
+                  "seg_ids": [
+                    "1926670022685747127"
+                  ],
+                  "is_like": false,
+                  "like_count": 60,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ut-xr2ny",
+            "text": "而且越读历史，越觉得历史是一门时空学科。历史上所发生的一切，都与其时空中存在的自然地理、人文脉络等学科不无关联。更与人类至今尚未发觉，尚未总结出来的学科类目利害攸关。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 56,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893853877998178367"
+                  ],
+                  "is_like": false,
+                  "like_count": 23,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 57,
+                "end_index": 83,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893754565339365420"
+                  ],
+                  "is_like": false,
+                  "like_count": 20,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ktSCCvH5",
+            "text": "所以，你要我总结比较客观的历史经验，我可以回答。可你要我在时空里划一条不变的历史铁律，我可能一辈子都做不到。因为人类对事物的观测方式总是有限的，如果能对事物产生全知视角。也就意味着人类文明会一直进步，人类不会犯错。这显然是不可能的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 116,
+                "seg_info": {
+                  "seg_ids": [
+                    "1899448615841292961"
+                  ],
+                  "is_like": false,
+                  "like_count": 24,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "G5HwLY1h",
+            "text": "所以，书读的越多，对知识的认知越充分。越想完美地形容一件事物，越觉得语言的匮乏。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 40,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893754441007600010"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "FuUQLvOi",
+            "text": "而说到语言的匮乏，这就延伸到我说的第二点。为什么我说“人只要一开口，语言便会存在漏洞”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 44,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893754718372725528"
+                  ],
+                  "is_like": false,
+                  "like_count": 25,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "6HbmGtor",
+            "text": "这就像为什么我曾经线上线下，辩论中永远处于上风一样。无论我处于什么立场之下，总能从别人的语句中找出一两个关联点串成一片，对别人整篇或整段理论体系进行解构。",
+            "marks": [
+              {
+                "start_index": 26,
+                "end_index": 77,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893754927861441478"
+                  ],
+                  "is_like": false,
+                  "like_count": 17,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "l-_scal-",
+            "text": "比如你推崇功利主义，我以前会用“社会发展应该存在人文关怀”进行还击。比如你推崇道德，我也会用“文明解释权，道德解释权”等对其进行稀释。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 67,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893754992403408094"
+                  ],
+                  "is_like": false,
+                  "like_count": 25,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "LakFO4Gc",
+            "text": "明眼人都知道，这种争辩都存在偷换概念之嫌，于问题的价值意义不大。可辩论老手也知道，这种对言辞的锱铢必较，就是能获得语势上的胜利。赢得满堂彩。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 70,
+                "seg_info": {
+                  "seg_ids": [
+                    "1978586671940392057"
+                  ],
+                  "is_like": false,
+                  "like_count": 23,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "GUrNhM0c",
+            "text": "其实这些乱象，都源于人类的感官只能欣赏并理解有节奏感的信息。一个事物承载的信息，有轻有重，有疾有徐，才是人们追求的事物表现形式。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 64,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893621433789302058"
+                  ],
+                  "is_like": false,
+                  "like_count": 37,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "wU93UTc9",
+            "text": "就像一篇文章，全是精美的修辞，人们只会看得视觉疲劳。不会有人觉得文笔很好。一首歌的副歌再好听，整首曲目都回荡这种旋律，只会觉得庸俗。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 66,
+                "seg_info": {
+                  "seg_ids": [
+                    "1901038868473545468"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "se4kI7h1",
+            "text": "反之，若是文章和音乐都做到节奏上的“留白”，可能大受欢迎。人类对于信息和美学的追求，就是这种“留白”，接受有用的信息后进行想象力的补足。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 68,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893755765220680354"
+                  ],
+                  "is_like": false,
+                  "like_count": 16,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "pJy0ZsPG",
+            "text": "而人类对真正完美，面面俱到的信息媒介无感，也难直接吸收营养。就像百科全书，都知道有用，但没人会当日常消遣。只在查阅资料时翻翻有用的几页。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 27,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893665153825875651"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 30,
+                "end_index": 68,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893755784392865677"
+                  ],
+                  "is_like": false,
+                  "like_count": 11,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "aiUv3V2G",
+            "text": "文章和演讲，要表现得有感染力。那必须在信息上有所取舍，有轻重缓急的节奏，才能实现情绪递进。煽动情绪，感染更多人。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 56,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893853877998178367"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "9HOsEhHT",
+            "text": "可这又会给好事者处处留梯子，让他们总能找到角落往墙里扔砖头。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 30,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893755819788592054"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "iv9yhbzJ",
+            "text": "但要是你把文章和演讲搞得东一榔头西一棒槌，啥都提了却唯独没有主题。那更是被认为毫无逻辑，没人看。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 48,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893755857537303684"
+                  ],
+                  "is_like": false,
+                  "like_count": 16,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "350jT4z0",
+            "text": "所以，语言的真相是一旦只顾着面面俱到，就无法拥有串成一片的逻辑体系。而有了掷地有声有的放矢的观点，那在理论空间上就会有透气的窗口。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 65,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893748736187953481"
+                  ],
+                  "is_like": false,
+                  "like_count": 37,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "dVGS07zI",
+            "text": "可以发现，口才本质与之展现的形象是背道而驰的。口才好的人往往被认为是高知深邃著称，可往往口才的应用空间都是点到即止的。没有人会因为“核战争”发生争辩，为了争输赢，对整套核武器的研究理论进行当下复盘。因为在此之前，就已经分出了胜负。",
+            "marks": [
+              {
+                "start_index": 5,
+                "end_index": 58,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893757296657532064"
+                  ],
+                  "is_like": false,
+                  "like_count": 10,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "q47LpFPb",
+            "text": "因为现实中的辩论强弱，很多时候就是看语言上的气势，个人的整体形象，以及对受众的煽动。这也是为什么国际辩论队往往对形象要求很高，政客们西装革领重复同一个单词引得选民山呼海啸，人就是对信息的接受和营养不能兼顾。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893757356770305955"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 63,
+                "end_index": 103,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893757397551515380"
+                  ],
+                  "is_like": false,
+                  "like_count": 18,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Nn1Ezc_Z",
+            "text": "在为maga助选时，讲台下浩浩荡荡几千人，我见马斯克说话从来不磕巴。他明白面对选民不是来讨论真理的，而是简单直接的单词重复就能直接煽动情绪。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 70,
+                "seg_info": {
+                  "seg_ids": [
+                    "1978586671940392057"
+                  ],
+                  "is_like": false,
+                  "like_count": 10,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "3akYCPmk",
+            "text": "可是在一些学术论坛，或者比较私人的深度访谈时。马斯克则会经常出现斟酌用词后，前后语句逻辑不连贯，频繁删改的说话习惯。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 58,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893757477000022016"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "6sCsRGsz",
+            "text": "这说明，马斯克自身对世界的见解是有很强立场的，对自己的学识是有追求的。他不认为在进行深度探讨时，他说的话就是金句良言，而是尽量用精确的语言表达自己的观点。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 77,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893754079940964681"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "dYM_5_0n",
+            "text": "这自然说明马斯克的两面。一面是商人，一面是自诩有学术追求的科学家。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893757550895276154"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "PbTyR-66",
+            "text": "把这两面合二为一，可能才反映一个完整的事实。人不能在追求认同感的同时，把自己穷尽认知的世界阐述完整。而是需要分段式实现。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 60,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893855235354653415",
+                    "1893758006841283007",
+                    "1965082805190004738"
+                  ],
+                  "is_like": false,
+                  "like_count": 24,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Z1zXAJTN",
+            "text": "但我觉得人人都求快，在贩卖一眼就懂的“巧利”商品，他还愿意保持对知识和语言的“笨拙”是难得可贵的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 49,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893758057386864689"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "8u8cCao8",
+            "text": "就像我们的社会，长期追求平稳而显得压抑。因此任何醒目的人格标签，只要不被归类为坏，通常就被定义为好。你的口才往往没被人厌弃，就同时意味着你在被人推崇。现实中，滔滔不绝纸上谈兵的人不是“烦人精”，通常就是“万人迷”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 107,
+                "seg_info": {
+                  "seg_ids": [
+                    "1960281722827542673"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "6iALfzTh",
+            "text": "这种“非好即坏”的功利思维，在我们的社会，只要你表现得人畜无害，你的小优点就能无限被放大一本万利。这样的结果是，我们社会出现了大量认知浅尝辄止的“平庸精英”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 79,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893758118980199973"
+                  ],
+                  "is_like": false,
+                  "like_count": 11,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "5qHPqtXk",
+            "text": "他们对前人智慧鹦鹉学舌，当当信息搬运工，或者直接从外网腾挪。我们就能极为宽容，接纳他们的成功。他们如今在短视频里，电视中，现实中身居高位的比比皆是。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 74,
+                "seg_info": {
+                  "seg_ids": [
+                    "1893758142636065246"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Gb2EHzUF",
+            "text": "可是新的时代来了。未来我们的社会不需要这种“才华”，而是宁愿多一些口齿不伶俐，说话不利索却敢于为每一句话负责，一生求真的人，为社会添砖加瓦。他们成为社会的主流，我们的社会才能沉淀出我们的风采。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 96,
+                "seg_info": {
+                  "seg_ids": [
+                    "1961485054518723696"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1893480457322095374}",
+      "attached_info": "CuEGCMTj+5m+tvW1owEQBBoJNzIyMTE3NzgxIPjl2r8GKJgwMNQBQA5KOAotVFNfU09VUkNFX0lOVEVSRVNUX1dPUkRfQ09OVEVOVF9WQUxVRV9MRVZFTF9DEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTQzOTc2NDRiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxODkzNDgwNDU3MzIyMDk1Mzc0igETMTg5MzA3NDE1Nzc0ODU5Mzk4M6oBCXJlY29tbWVuZMIBIDFlNmYwNzViOTQ1YTQ1YWI3YjU0MWYxZGY1ZjI2ZDY48gEKCAwSBk5vcm1hbPIBKAgKEiQ2NDQ4ZjliNy1hNTg5LTQ4ZmUtODBjMi02MmE5ODdkOGVjYTDyAQUICxIBM4ICAIgC676Nm7kzkgIgMWU2ZjA3NWI5NDVhNDVhYjdiNTQxZjFkZjVmMjZkNjiaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0PoAgP6AgtOT1JNQUxfRkxPV4oDIGM4YWI0OWU0YzVmNzQyNTZiMzQzYzUwMDEyYjU3MTlkmgMNCgJ2MhAAGgVvdGhlcqgDjMIT2AMA6gMqSW50ZXJlc3RXb3JkQ29udGVudFZhbHVlTGV2ZWxDUG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAABgirE/gQUAAAAAAAAAAIkFyDmrBT6hpj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFA5AGAKAGD6gGAJICLgoJNzIyMTE3NzgxEhMxODkzNDgwNDU3MzIyMDk1Mzc0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "15_1767704321.61",
+      "type": "feed",
+      "offset": 15,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704321,
+      "updated_time": 1767704321,
+      "target": {
+        "vote_next_step": "vote",
+        "question": {
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1962091493020917783",
+          "created": 1760579065,
+          "excerpt": "",
+          "id": "1962091493020917783",
+          "author": {
+            "followers_count": 289,
+            "is_following": false,
+            "user_type": "people",
+            "url_token": "fang-ming-guang",
+            "name": "无忧专利",
+            "headline": "双证专利律师，2013年 - ",
+            "is_org": false,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "法律职业资格证持证人"
+              }
+            ],
+            "id": "e03a5bad1b78fc49d71d2ac000e4dc12",
+            "url": "https://api.zhihu.com/people/e03a5bad1b78fc49d71d2ac000e4dc12",
+            "avatar_url": "https://picx.zhimg.com/50/v2-ac78f3fb07afc6c89a7e7ddbf34b47a6_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_followed": false
+          },
+          "follower_count": 0,
+          "comment_count": 14,
+          "detail": "",
+          "question_type": "normal",
+          "title": "微信朋友圈要凉了吗？",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            140,
+            1417,
+            60751,
+            173172
+          ],
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "content": "<p data-pid=\"5VLe8DdH\">不是微信朋友圈要凉，而是普通人之间的社会关系要凉。</p><p data-pid=\"rC9M90Im\">随着近几年经济下行，一个不成文的习惯成为了大部分社会人的共同认知</p><p data-pid=\"PJN-3vKt\">“不能炫耀自己过的好，否则会被借钱或者被评价为太装。也不能埋怨自己过得差，否则会被人鄙视或者被评价为负能量”</p><p data-pid=\"rveezypS\">那一个普通人朋友圈能发什么内容？无非是分享下好吃的好玩的好看的，记录下旅游度假之类的。现在好了，过得好了不敢秀，都在这憋着。真想吐槽了也不敢发，只能线下念叨几句。久而久之，就只剩下广告可以发了。</p><p data-pid=\"92K-ujf0\">人与人之间界限越来越分明是原子化社会的必然结果，11区珠玉在前，我们紧随其后，不一定是坏事，但人情味肯定是越来越淡。</p><p data-pid=\"-CetTdp9\">快进到“读空气”成为简中互联网上的热梗。</p>",
+        "answer_type": "normal",
+        "comment_count": 237,
+        "url": "https://api.zhihu.com/answers/1990400632100775838",
+        "author": {
+          "headline": "拒绝一切形式的双重标准",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "name": "饭饭",
+          "avatar_url": "https://picx.zhimg.com/50/v2-8204d3789996ccb45cdd104110bf17ab_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 722,
+          "id": "2b490e6d52dce272debb170916b9e5cf",
+          "url": "https://api.zhihu.com/people/2b490e6d52dce272debb170916b9e5cf",
+          "user_type": "people",
+          "url_token": "76-43-69-71-42"
+        },
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "5VLe8DdH",
+            "text": "不是微信朋友圈要凉，而是普通人之间的社会关系要凉。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991469604216783179"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "PJN-3vKt",
+            "text": "“不能炫耀自己过的好，否则会被借钱或者被评价为太装。也不能埋怨自己过得差，否则会被人鄙视或者被评价为负能量”",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 54,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991943040009540154"
+                  ],
+                  "is_like": false,
+                  "like_count": 63,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "favorite_count": 620,
+        "is_navigator": false,
+        "id": "1990400632100775838",
+        "excerpt": "不是微信朋友圈要凉，而是普通人之间的社会关系要凉。 随着近几年经济下行，一个不成文的习惯成为了大部分社会人的共同认知 “不能炫耀自己过的好，否则会被借钱或者被评价为太装。也不能埋怨自己过得差，否则会被人鄙视或者被评价为负能量” 那一个普通人朋友圈能发什么内容？无非是分享下好吃的好玩的好看的，记录下旅游度假之类的。现在好了，过得好了不敢秀，都在这憋着。真想吐槽了也不敢发，只能线下念叨几句。久而久之，…",
+        "preview_type": "default",
+        "visited_count": 150745,
+        "type": "answer",
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "updated_time": 1767328490,
+        "thanks_count": 119,
+        "reshipment_settings": "allowed",
+        "allow_segment_interaction": true,
+        "created_time": 1767328490,
+        "voteup_count": 1984,
+        "excerpt_new": "不是微信朋友圈要凉，而是普通人之间的社会关系要凉。 随着近几年经济下行，一个不成文的习惯成为了大部分社会人的共同认知 “不能炫耀自己过的好，否则会被借钱或者被评价为太装。也不能埋怨自己过得差，否则会被人鄙视或者被评价为负能量” 那一个普通人朋友圈能发什么内容？无非是分享下好吃的好玩的好看的，记录下旅游度假之类的。现在好了，过得好了不敢秀，都在这憋着。真想吐槽了也不敢发，只能线下念叨几句。久而久之，…",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990400632100775838}",
+      "attached_info": "CpgHCMTj+5m+tvW1owEQBBoJNzYzNjY5MzczIOqV3coGKMAPMO0BQA9KPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUooChNUU19TT1VSQ0VfRkVFRFJFX1Y1EgEwGAAgADoKeyJyYXciOiIifUo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1aCTExNjk3MTAxNWIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5OTA0MDA2MzIxMDA3NzU4MziKARMxOTYyMDkxNDkzMDIwOTE3NzgzqgEJcmVjb21tZW5kwgEgMmI0OTBlNmQ1MmRjZTI3MmRlYmIxNzA5MTZiOWU1Y2byAQoIDBIGTm9ybWFs8gEoCAoSJDgyMWRmMWZiLWJkNzctNDNjOS05ZTY0LTIzOGJmYTJiNjVhN/IBBQgLEgEzggIAiALrvo2buTOSAiAyYjQ5MGU2ZDUyZGNlMjcyZGViYjE3MDkxNmI5ZTVjZpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVN6AIC+gILTk9STUFMX0ZMT1eKAyBjOGFiNDllNGM1Zjc0MjU2YjM0M2M1MDAxMmI1NzE5ZJoDDQoCdjIQABoFb3RoZXKoA9mZCdgDAOoDEG5ld2JpZV9mZWVkcmVfdjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACAlwG4P4EFAAAAAAAAAACJBcg5qwU+oaY/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQOQBgCgBhCoBgCSAi4KCTc2MzY2OTM3MxITMTk5MDQwMDYzMjEwMDc3NTgzOBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "16_1767704321.575",
+      "type": "feed",
+      "offset": 16,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704321,
+      "updated_time": 1767704321,
+      "target": {
+        "id": "1987356976615794341",
+        "question": {
+          "type": "question",
+          "author": {
+            "name": "喵喵士兵",
+            "headline": "",
+            "is_org": false,
+            "is_following": false,
+            "id": "f42ab1c727de9aa90ba1851b58ff2ea8",
+            "url": "https://api.zhihu.com/people/f42ab1c727de9aa90ba1851b58ff2ea8",
+            "user_type": "people",
+            "url_token": "explorer-92-85",
+            "is_followed": false,
+            "avatar_url": "https://pic1.zhimg.com/50/v2-6575b559334c59b149fb9f0b1e718cf1_l.jpg?source=b6762063",
+            "gender": 0,
+            "followers_count": 0
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "comment_count": 4,
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "id": "1941154755620611466",
+          "answer_count": 0,
+          "created": 1755587358,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            1986954
+          ],
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/1941154755620611466",
+          "title": "钓鱼佬最接受不了什么？"
+        },
+        "visited_count": 29624,
+        "voteup_count": 235,
+        "preview_text": "",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-93da48594297dcf9e5d7bda413f87713_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-93a7ae3bf41ab0a7772a856255cfab87_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-87aa5c353f2400386608c7bbd42561b5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a2347c3c264737e550d713834c32a74f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f4ea8e68b7df8ba47e415c7f15208924_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-26055ddd0941904f8e027ccf6a436397_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5d2d938a0e4b6f9046ea2e34bcfb16d8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f9290e845b25224ad0077b2ad6d9962e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ae74c3eaa37835c7a038b4d94b552830_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-1c4d01934af894b8252afc5b7725fd7a_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-1dadc43fe5a4799bcb8a320d63cfe32e_720w.jpg?source=b6762063"
+        ],
+        "created_time": 1766602826,
+        "thanks_count": 23,
+        "thumbnail": "https://pica.zhimg.com/50/v2-93da48594297dcf9e5d7bda413f87713_720w.jpg?source=b6762063",
+        "is_labeled": false,
+        "favorite_count": 49,
+        "is_copyable": false,
+        "reshipment_settings": "disallowed",
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "updated_time": 1766602826,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "comment_count": 46,
+        "content": "<p data-pid=\"pwMDB1Vi\">在钓鱼圈，流传着这样一个神话，钓鱼佬的一生中有“八大宿敌”，如果能够成功遇到五个以上，说明已经是一名合格的钓鱼佬了。</p><p data-pid=\"8Vo_oVAL\">但是如果有幸遇到过七个以上，那完全已经可以算是钓鱼界的老将了。</p><p data-pid=\"KjYKtNl6\">那么是什么“八大宿敌”这么神奇，让我们拭目以待吧。</p><p data-pid=\"9YUbNNHR\"><b>第八名：银鮈、蛇鮈</b></p><p data-pid=\"rigzWqV-\">很多人都知道一种鱼，叫船钉子，是很多钓鱼佬都很讨厌的一种鱼，因为个体比较小，还属于底栖鱼种，并且成群活动，所以，我们在钓鱼的时候，一旦遇到一条船钉子鱼上钩，后面就有钓不完的船钉子。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b7cbaf82697eb500b30ab78867de94b5_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1156\" data-size=\"normal\" data-original-token=\"v2-93da48594297dcf9e5d7bda413f87713\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-b7cbaf82697eb500b30ab78867de94b5_r.jpg\"/></figure><p data-pid=\"xvy6h2b1\">但是我们所说的船钉子主要分为两种鱼，一种叫蛇鮈，另一种叫银鮈。</p><p data-pid=\"j0xYTSyD\">两种鱼长的非常像，蛇鮈比银鮈要更细更长，这也导致了蛇鮈没有银鮈好吃。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-99fe1b934aceefe924f7187060bcad92_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1434\" data-size=\"normal\" data-original-token=\"v2-93a7ae3bf41ab0a7772a856255cfab87\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-99fe1b934aceefe924f7187060bcad92_r.jpg\"/></figure><p data-pid=\"TNBy4niO\">如果我们把思路转换一下，既然钓到了船钉子，想要在不换钓位的情况下避开它还是很难的，如果我们转变以下思路，换上短竿细线，把目标鱼直接定为船钉子的话，那么晚上定是要加个菜。</p><p data-pid=\"g0LfaGYP\">不管是银鮈还是蛇鮈，油炸之后，味道可要比白条鱼强的多，与其气得咬牙切齿，不如直接钓船钉子。</p><p data-pid=\"qoyrF-Va\"><b>第七名：太阳鱼、罗非鱼</b></p><p data-pid=\"Ivl-Vj1E\">把它们两个归为一类，是因为它们都是外来入侵物种。</p><p data-pid=\"Im9MmcjD\">如果钓到的都是巴掌一样大的，那还完全没有资格成为钓鱼佬的“公敌”，但是关键点就在于它们的娃娃有这个实力。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4b8100e3cf5e80c4285fc3a5b6211ff6_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1238\" data-size=\"normal\" data-original-token=\"v2-87aa5c353f2400386608c7bbd42561b5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-4b8100e3cf5e80c4285fc3a5b6211ff6_r.jpg\"/><figcaption>罗非鱼</figcaption></figure><p data-pid=\"tkiehzSD\">指甲大的太阳鱼和罗非鱼，就已经开始出来闯荡江湖了，这还没完，它们成群结队、拉帮结派，不仅能迅速清空钓鱼佬的窝料，还能把钓鱼佬折磨的钩不落底。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7ffd6f7861d62b39056706451ccb5c37_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1058\" data-size=\"normal\" data-original-token=\"v2-a2347c3c264737e550d713834c32a74f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-7ffd6f7861d62b39056706451ccb5c37_r.jpg\"/><figcaption>太阳鱼</figcaption></figure><p data-pid=\"PSFqFmVA\">钓了一天鱼，浮漂没有坐稳过，乍眼一看，全是指甲非，或者指甲大小的太阳鱼。</p><p data-pid=\"YzqdusE7\"><b>第六名：渔政、护鱼员、管理员、保安</b></p><p data-pid=\"6FGlmty2\">尤其是渔政，坐那钓着鱼，看见他们过来，心中就有一种要跑路的感觉。</p><p data-pid=\"2E2CcYl3\">虽然现在很多地方都管理都比较人性化，但是作为一个到处跑着钓鱼，被没收过渔具的人来说，心里多少会没有点阴影？</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-11ccfc7eadae988df37928dc4fb30d1a_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"749\" data-size=\"normal\" data-original-token=\"v2-f4ea8e68b7df8ba47e415c7f15208924\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-11ccfc7eadae988df37928dc4fb30d1a_r.jpg\"/></figure><p data-pid=\"k_RBYQ6-\">而很多城市公园修建的人工湖，没有明令禁止钓鱼，但是却总有保安巡逻，阻止钓鱼人钓鱼。</p><p data-pid=\"wtXOHXfD\">很多钓鱼佬无奈，只能趁着夜色去“偷钓”。</p><p data-pid=\"DJtq0Myz\">但是机智的保安也找到了应对的方案，那就是换班导，一天二十四小时巡逻，爱岗敬业，大街上要都和他们一样，就不会再有盗窃行为发生了。</p><p data-pid=\"KfVWLWrp\">执着的钓鱼佬秉着“永不放弃”的精神，和保安人员斗智斗勇，最终研制出了一种叫做“跑毒”的钓法，说简单点，就是边跑边钓，用极其简单的装备，和保安玩赛跑。</p><p data-pid=\"vXd0jpYk\"><b>第五名：棒花鱼</b></p><p data-pid=\"nXY9yb3M\">说到棒花鱼，很多新入坑的钓鱼佬总会把棒花鱼和虾虎鱼分不清楚，其实它们之间的区别太大了，首先我们看尾巴，棒花鱼是叉尾，虾虎鱼是圆尾。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ed8666c6cdf816197f39d798d885f382_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1049\" data-size=\"normal\" data-original-token=\"v2-26055ddd0941904f8e027ccf6a436397\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-ed8666c6cdf816197f39d798d885f382_r.jpg\"/><figcaption>麦穗鱼、棒花鱼</figcaption></figure><p data-pid=\"Lfipgj5v\">并且棒花鱼的嘴是朝下长的，还有两根小胡子。</p><p data-pid=\"uZXZwVAA\">棒花鱼是底栖鱼类，并且吞掉钩后，它会涮饵。</p><p data-pid=\"TlQnTV1q\">和鲫鱼涮饵有所不同，如果我们钓的是下钩落底，上钩悬浮，那么鲫鱼只要吞掉任何一个饵，都会出现送漂的漂相。</p><p data-pid=\"qv94ma10\">而棒花鱼不会吞上钩，它趴在河底，用嘴轻轻触碰到下钩后，开始轻轻吸食上面的饵料，浮漂不会有丝毫的反应。</p><p data-pid=\"13xciyR7\">我们用的钩子和棒花鱼的嘴差不多大时，棒花鱼在吸食饵料时，咬到钩子无法吐出时，它才会感到恐惧，拉着钩子逃窜，我们才能看到漂相。</p><p data-pid=\"TjWOxK3K\"><b>第四名：鱼界四大神兽——白条鱼</b></p><p data-pid=\"zSnq_QNn\">个人始终不愿意把白条鱼归结到“八大公敌”的行列，因为白条鱼一直为钓鱼人守护着最后的尊严。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d6d10e604c18b83ff74d47fd0d40682c_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1250\" data-size=\"normal\" data-original-token=\"v2-5d2d938a0e4b6f9046ea2e34bcfb16d8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-d6d10e604c18b83ff74d47fd0d40682c_r.jpg\"/></figure><p data-pid=\"NDqZQJSs\">钓鱼佬想要空军，只要有白条鱼在，那就绝不允许这种事情发生。</p><p data-pid=\"KGqrfx32\">并且，白条鱼油炸之后，味道的确不错，厨艺高的，炸完之后再红烧，小刺炒软后，味道一绝。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b74aa4712bb1ea0355d5577bfb137c53_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"757\" data-size=\"normal\" data-original-token=\"v2-f9290e845b25224ad0077b2ad6d9962e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-b74aa4712bb1ea0355d5577bfb137c53_r.jpg\"/></figure><p data-pid=\"ah7bE0nC\">但是白条鱼有它的烦人之处，那就是我们窝子中聚集了很多目标鱼的时候，它们硬生生的把钓鱼佬的目标鱼保护起来，抛出十竿，它们能拦截下来九竿，导致延误战机，鱼获不够理想。</p><p data-pid=\"1cRFhOI2\"><b>第三名：鱼界四大神兽——虾虎鱼（趴地虎）</b></p><p data-pid=\"cLe0FasY\">我们钓鱼人经常遇到的虾虎鱼学名叫子陵吻虾虎鱼，是一个十足的贪吃鬼，它们也是鱼苗杀手。</p><p data-pid=\"_NBhMKwo\">河南小浪底钓鱼，有一个众所周知的事情，那就是小浪底鱼小浪大还挂底，其中鱼小，说的就是子陵吻虾虎。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a2dd37ec5f3157cc7801128a39a25055_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"720\" data-size=\"normal\" data-original-token=\"v2-ae74c3eaa37835c7a038b4d94b552830\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-a2dd37ec5f3157cc7801128a39a25055_r.jpg\"/></figure><p data-pid=\"DzsQwBvl\">钓鱼佬即便是钓到四米的水深，也难逃它的“血盆大口”，这种小不点为了吃口钓鱼佬的饵，能潜伏到四米深水，实在不合常理。</p><p data-pid=\"wf9srrOl\">虾虎鱼的品类比较多，除了我们钓鱼佬的“公敌”子陵吻虾虎鱼之外，几乎所有虾虎鱼都能当做观赏鱼养殖，尤其是会“狮吼功”的那几种虾虎，非常具备观赏性。</p><p data-pid=\"TV_08A0y\"><b>第二名：鱼界四大神兽——鳑鲏鱼</b></p><p data-pid=\"aDKQEty_\">鳑鲏鱼的种类非常庞大，几乎都可以当做观赏鱼来养殖。</p><p data-pid=\"chZupFmn\">鳑鲏鱼繁殖是非常有意思的，它们离不开河蚌，当然，河蚌也离不开它们，成熟后的鳑鲏鱼会把后代产进河蚌体内，利用河蚌孵化。</p><p data-pid=\"QJl2IYfF\">而河蚌也在鳑鲏鱼甩籽的时候，把后代“种”在鳑鲏鱼身上。</p><p data-pid=\"pLzZ9DFO\">令钓鱼佬抓狂的鳑鲏鱼叫高体鳑鲏，是鳑鲏鱼中分布最为广泛的一种。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1fdaf99496a591137a00531baa9e00a9_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1264\" data-size=\"normal\" data-original-token=\"v2-1c4d01934af894b8252afc5b7725fd7a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-1fdaf99496a591137a00531baa9e00a9_r.jpg\"/></figure><p data-pid=\"6ZNcaHv_\">而最大的鳑鲏鱼钓鱼佬也会经常钓到，最大的个体有手掌那么大，颜色就没有其它鳑鲏鱼那样艳丽了，它的名字叫大鳍鱊，也有人根据它宽扁的身体称它为猪耳朵。</p><p data-pid=\"u3QyqtlJ\"><b>第一名：鱼界四大神兽——麦穗鱼</b></p><p data-pid=\"E8RXpeFE\">麦穗鱼是杂鱼中的王者，是钓鱼佬最头疼的存在，“公敌之王”实至名归。</p><p data-pid=\"KLzkLkSd\">不管钓鱼佬用什么饵料，对于不挑食的麦穗鱼来说，都是美味。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9fd197109288f9536e545ef99c2f698f_1440w.jpg\" data-rawwidth=\"864\" data-rawheight=\"951\" data-size=\"normal\" data-original-token=\"v2-1dadc43fe5a4799bcb8a320d63cfe32e\" class=\"origin_image zh-lightbox-thumb\" width=\"864\" data-original=\"https://picx.zhimg.com/v2-9fd197109288f9536e545ef99c2f698f_r.jpg\"/></figure><p data-pid=\"4U0lfLpP\">并且麦穗鱼的嘴很小，吃饵的时候像是小鸟啄食一样，很难吞掉钩子，不仅如此，麦穗鱼还是群居的鱼种，一旦闹窝，很难驱赶走。</p><p data-pid=\"5CwA0fmd\">它们胆子还大，即便用砖头驱赶，它们也毫不畏惧。</p><p data-pid=\"XOL8UJH9\">关键一点是麦穗鱼能制造出各种漂相，满足钓鱼佬的各种想象，以为是鲫鱼，扬竿，麦穗。以为是鲤鱼，扬竿，麦穗。以为是草鱼，扬竿，还是麦穗……</p><p data-pid=\"RHFcen9C\">作为钓鱼佬的您，碰到过多少“宿敌”？您怎么处理的呢？一起讨论一下吧！</p><p data-pid=\"My56PAXX\">享受当下的快乐，因为这一刻正是你的人生。我是独钓寒江雪，一个沉迷于江河湖泊的钓鱼人。</p>",
+        "vote_next_step": "vote",
+        "excerpt": "在钓鱼圈，流传着这样一个神话，钓鱼佬的一生中有“八大宿敌”，如果能够成功遇到五个以上，说明已经是一名合格的钓鱼佬了。 但是如果有幸遇到过七个以上，那完全已经可以算是钓鱼界的老将了。 那么是什么“八大宿敌”这么神奇，让我们拭目以待吧。 第八名：银鮈、蛇鮈很多人都知道一种鱼，叫船钉子，是很多钓鱼佬都很讨厌的一种鱼，因为个体比较小，还属于底栖鱼种，并且成群活动，所以，我们在钓鱼的时候，一旦遇到一条船钉子…",
+        "preview_type": "default",
+        "url": "https://api.zhihu.com/answers/1987356976615794341",
+        "author": {
+          "id": "fdd7df2154610f0164934f2835d8c5b6",
+          "headline": "没有定力的人，越聪明越平庸。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-93657ce18f233b0e20a3c900ad87f9d7_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 6258,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/fdd7df2154610f0164934f2835d8c5b6",
+          "user_type": "people",
+          "url_token": "37-57-62-5-60",
+          "name": "五味子",
+          "is_following": false
+        },
+        "excerpt_new": "在钓鱼圈，流传着这样一个神话，钓鱼佬的一生中有“八大宿敌”，如果能够成功遇到五个以上，说明已经是一名合格的钓鱼佬了。 但是如果有幸遇到过七个以上，那完全已经可以算是钓鱼界的老将了。 那么是什么“八大宿敌”这么神奇，让我们拭目以待吧。 第八名：银鮈、蛇鮈很多人都知道一种鱼，叫船钉子，是很多钓鱼佬都很讨厌的一种鱼，因为个体比较小，还属于底栖鱼种，并且成群活动，所以，我们在钓鱼的时候，一旦遇到一条船钉子…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1987356976615794341}",
+      "attached_info": "CtUKCMTj+5m+tvW1owEQBBoJNzYyNTQxMjQwIMrwsMoGKOsBMC5AEEonChxUU19TT1VSQ0VfQ09OQ0VQVF9XT1JEX01FUkdFEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTYyNjc4ODdiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTg3MzU2OTc2NjE1Nzk0MzQxigETMTk0MTE1NDc1NTYyMDYxMTQ2NqoBCXJlY29tbWVuZMIBIGZkZDdkZjIxNTQ2MTBmMDE2NDkzNGYyODM1ZDhjNWI28gEKCAwSBk5vcm1hbPIBKAgKEiQ5NGQzOTlhOS1mNjFlLTQ5NmUtOWNmMC1kZDFhODQwNmQ0NjPyAQUICxIBM4ICAIgC676Nm7kzkgIgZmRkN2RmMjE1NDYxMGYwMTY0OTM0ZjI4MzVkOGM1YjaaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAhxUU19TT1VSQ0VfQ09OQ0VQVF9XT1JEX01FUkdF6AID+gILTk9STUFMX0ZMT1eKAyBjOGFiNDllNGM1Zjc0MjU2YjM0M2M1MDAxMmI1NzE5ZJoDDQoCdjIQABoFb3RoZXKoA7jnAdgDAOoDIUNvbmNlcHRXb3JkTWVyZ2VOZXdWMVBvb2xSZWNhbGxlcvoDpAQSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxC4CBiECSIjdjItOTNkYTQ4NTk0Mjk3ZGNmOWU1ZDdiZGE0MTNmODc3MTM6LQgEELgIGJoLIiN2Mi05M2E3YWUzYmY0MWFiMGE3NzcyYTg1NjI1NWNmYWI4NzotCAQQuAgY1gkiI3YyLTg3YWE1YzM1M2YyNDAwMzg2NjA4YzdiYmQ0MjU2MWI1Oi0IBBC4CBiiCCIjdjItYTIzNDdjM2MyNjQ3MzdlNTUwZDcxMzgzNGMzMmE3NGY6LQgEELgIGO0FIiN2Mi1mNGVhOGU2OGI3ZGY4YmE0N2U0MTVjN2YxNTIwODkyNDotCAQQuAgYmQgiI3YyLTI2MDU1ZGRkMDk0MTkwNGY4ZTAyN2NjZjZhNDM2Mzk3Oi0IAxC4CBjiCSIjdjItNWQyZDkzOGEwZTRiNmY5MDQ2ZWEyZTM0YmNmYjE2ZDg6LQgEELgIGPUFIiN2Mi1mOTI5MGU4NDViMjUyMjRhZDAwNzdiMmFkNmQ5OTYyZTotCAQQuAgY0AUiI3YyLWFlNzRjM2VhYTM3ODM1YzdhMDM4YjRkOTRiNTUyODMwOi0IAxC4CBjwCSIjdjItMWM0ZDAxOTM0YWY4OTRiODI1MmFmYzViNzcyNWZkN2E6LQgDEOAGGLcHIiN2Mi0xZGFkYzQzZmU1YTQ3OTliY2I4YTMyMGQ2M2NmZTMyZYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoEbpsT+BBQAAAAAAAAAAiQXIOasFPqGmP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUDkAYAoAYRqAYBkgIuCgk3NjI1NDEyNDASEzE5ODczNTY5NzY2MTU3OTQzNDEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "17_1767704321.205",
+      "type": "feed",
+      "offset": 17,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704321,
+      "updated_time": 1767704321,
+      "target": {
+        "voteup_count": 361,
+        "navigator_vote": false,
+        "thanks_count": 26,
+        "comment_count": 24,
+        "question": {
+          "answer_count": 0,
+          "excerpt": "",
+          "created": 1648704615,
+          "follower_count": 0,
+          "comment_count": 65,
+          "bound_topic_ids": [
+            1351,
+            1575,
+            14565,
+            38800
+          ],
+          "id": "525200257",
+          "type": "question",
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/525200257",
+          "author": {
+            "name": "人性情感书单",
+            "gender": 0,
+            "is_followed": false,
+            "headline": "专注人性思维智慧、情感、读书成长。 关注我免费领取引流和变现",
+            "avatar_url": "https://pica.zhimg.com/50/v2-ad25c1602c24a65d545bd0ac2f438df3_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 4019,
+            "id": "5977e5cf46691f880bc5956a8a5ab19b",
+            "url": "https://api.zhihu.com/people/5977e5cf46691f880bc5956a8a5ab19b",
+            "user_type": "people",
+            "url_token": "tong-tong-88-45-21",
+            "is_following": false
+          },
+          "title": "什么是顶级的思维？"
+        },
+        "excerpt_new": "上帝视角： 1.利大于情 2.所有人都在表演 3.痛苦的本质是失控 4.历史不重复，但押韵 5.人最大的敌人是自己 6.任何模式都有实效的那天 7.时间不是敌人，是筛选池 8.多数人的观点，通常是错误的。 9.一切竞争最终都是效率的竞争 10.信息不对称是最大的财富差。 11.所有的问题背后都是资源分配不均 12.大多数噪音，是为了掩盖少数真相 13.你以为的常识，可能是被重复的谎言 14.资源的唯一流动原则：向不可替代性聚拢 15.你的问题，9…",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "created_time": 1765183124,
+        "updated_time": 1765183124,
+        "vote_next_step": "vote",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 1294,
+        "is_labeled": false,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "author": {
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/e2aff89d8d226f41b040b42b7f4e05b3",
+          "user_type": "people",
+          "url_token": "wang-hong-fei-32-110",
+          "headline": "摧枯拉朽自我格式化中心，心理摩擦局局长！",
+          "followers_count": 300,
+          "is_following": false,
+          "is_followed": false,
+          "id": "e2aff89d8d226f41b040b42b7f4e05b3",
+          "name": "王鸿飞",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-035287250c5cfeeedb3118deacbb2436_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "is_copyable": true,
+        "excerpt": "上帝视角： 1.利大于情 2.所有人都在表演 3.痛苦的本质是失控 4.历史不重复，但押韵 5.人最大的敌人是自己 6.任何模式都有实效的那天 7.时间不是敌人，是筛选池 8.多数人的观点，通常是错误的。 9.一切竞争最终都是效率的竞争 10.信息不对称是最大的财富差。 11.所有的问题背后都是资源分配不均 12.大多数噪音，是为了掩盖少数真相 13.你以为的常识，可能是被重复的谎言 14.资源的唯一流动原则：向不可替代性聚拢 15.你的问题，9…",
+        "preview_type": "default",
+        "content": "<p data-pid=\"p5mh-nJJ\">上帝视角：</p><p data-pid=\"hCajqJi6\">1.利大于情</p><p data-pid=\"BPAIToex\">2.所有人都在表演</p><p data-pid=\"6Zj8TZPc\">3.痛苦的本质是失控</p><p data-pid=\"3S7UgEWb\">4.历史不重复，但押韵</p><p data-pid=\"D1AQBk8-\">5.人最大的敌人是自己</p><p data-pid=\"EmBxmn_b\">6.任何模式都有实效的那天</p><p data-pid=\"J-kDo80a\">7.时间不是敌人，是筛选池</p><p data-pid=\"TUp2m5LE\">8.多数人的观点，通常是错误的。</p><p data-pid=\"IBc2JAPq\">9.一切竞争最终都是效率的竞争</p><p data-pid=\"22kKGDG2\">10.信息不对称是最大的财富差。</p><p data-pid=\"GzvpswiI\">11.所有的问题背后都是资源分配不均</p><p data-pid=\"yLD7s5zv\">12.大多数噪音，是为了掩盖少数真相</p><p data-pid=\"Dm6tQ7Oy\">13.你以为的常识，可能是被重复的谎言</p><p data-pid=\"iKV4WDt0\">14.资源的唯一流动原则：向不可替代性聚拢</p><p data-pid=\"LNdWyod0\">15.你的问题，90%源于“不知道”或“不承认”现实</p><p data-pid=\"M36wwcfh\">16.人性最喜欢确定性，但也最害怕确定性</p><p data-pid=\"V6tXI1Bi\">17.没有人愿意为你的存在买单，只有价值才值得付费</p><p data-pid=\"yTqQAQY0\">18.人只服力量，不一定是暴力，但一定是实际力量</p><p data-pid=\"SZuQ_aLx\">19.一切竞争的终点是认知，而不是能力</p><p data-pid=\"sO0cIRDk\">20.人这种物种，只有俩个动机，逃避痛苦，追求利益！</p>",
+        "visited_count": 13414,
+        "is_navigator": false,
+        "id": "1981402314351867063",
+        "url": "https://api.zhihu.com/answers/1981402314351867063"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1981402314351867063}",
+      "attached_info": "CsMFCMTj+5m+tvW1owEQBBoJNzYwMTExMzQ3IJSd2skGKOkCMBhAEUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoINzg5OTI1NDNiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTgxNDAyMzE0MzUxODY3MDYzigEJNTI1MjAwMjU3qgEJcmVjb21tZW5kwgEgZTJhZmY4OWQ4ZDIyNmY0MWIwNDBiNDJiN2Y0ZTA1YjPyAQoIDBIGTm9ybWFs8gEoCAoSJDFkOGVlZGFlLTZkNjQtNGYxMS1iZDVmLTY5ZjYwNDQxMjcxM/IBBQgLEgEzggIAiALrvo2buTOSAiBlMmFmZjg5ZDhkMjI2ZjQxYjA0MGI0MmI3ZjRlMDViM5oCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIGM4YWI0OWU0YzVmNzQyNTZiMzQzYzUwMDEyYjU3MTlkmgMNCgJ2MhAAGgVvdGhlcqgD5mjYAwD6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAG2SiP4EFAAAAAAAAAACJBcg5qwU+oaY/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQOQBgCgBhKoBgCSAi4KCTc2MDExMTM0NxITMTk4MTQwMjMxNDM1MTg2NzA2MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=17&desktop=true&end_offset=18&page_number=4&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=17&desktop=true&end_offset=18&page_number=4&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

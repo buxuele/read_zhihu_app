@@ -1,0 +1,743 @@
+{
+  "data": [
+    {
+      "id": "108_1767704427.85",
+      "type": "feed",
+      "offset": 108,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704427,
+      "updated_time": 1767704427,
+      "target": {
+        "voteup_count": 6,
+        "comment_count": 2,
+        "visited_count": 1689,
+        "favorite_count": 4,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "name": "麻番薯了",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-1249d8ce5d83d0814752d1d02ea76a5a_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 31,
+          "is_following": false,
+          "is_followed": false,
+          "id": "c72e57b7de199d7782b75f2fa39f3311",
+          "url": "https://api.zhihu.com/people/c72e57b7de199d7782b75f2fa39f3311",
+          "user_type": "people",
+          "url_token": "90-78-95-91",
+          "is_org": false
+        },
+        "created": 1766458595,
+        "excerpt": "2025 年 11 月底，Ant Design 正式发布了 v6 版本。 回顾过去，从 v3 到 v4 的断崖式升级，到 v5 引入 CSS-in-JS 带来的心智负担和性能压力，很多前端同学一提到“升级”就条件反射般护住发际线。但这一次，Ant Design 团队明显听到了社区的呼声。 v6 没有为了“创新”而搞大刀阔斧的重构，而是聚焦于 解决长期痛点、提升开发体验和平滑迁移。本文结合一线业务开发中的真实场景，聊聊 v6 的核心变化，以及这次升级到底值不值得升…",
+        "preview_text": "",
+        "navigator_vote": false,
+        "id": "1986751453902164192",
+        "voting": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_type": "default",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "comment_permission": "all",
+        "url": "https://api.zhihu.com/articles/1986751453902164192",
+        "title": "从 v5 到 v6：这次 Ant Design 升级真的香",
+        "updated": 1766458595,
+        "excerpt_new": "2025 年 11 月底，Ant Design 正式发布了 v6 版本。 回顾过去，从 v3 到 v4 的断崖式升级，到 v5 引入 CSS-in-JS 带来的心智负担和性能压力，很多前端同学一提到“升级”就条件反射般护住发际线。但这一次，Ant Design 团队明显听到了社区的呼声。 v6 没有为了“创新”而搞大刀阔斧的重构，而是聚焦于 解决长期痛点、提升开发体验和平滑迁移。本文结合一线业务开发中的真实场景，聊聊 v6 的核心变化，以及这次升级到底值不值得升…",
+        "content": "<p data-pid=\"4LI8IAyh\">2025 年 11 月底，Ant Design 正式发布了 v6 版本。</p><p data-pid=\"lROFdrD8\">回顾过去，从 v3 到 v4 的断崖式升级，到 v5 引入 CSS-in-JS 带来的心智负担和性能压力，很多前端同学一提到“升级”就条件反射般护住发际线。但这一次，Ant Design 团队明显听到了社区的呼声。</p><p data-pid=\"OynUti3p\">v6 没有为了“创新”而搞大刀阔斧的重构，而是聚焦于<b>解决长期痛点</b>、<b>提升开发体验</b>和<b>平滑迁移</b>。本文结合一线业务开发中的真实场景，聊聊 v6 的核心变化，以及这次升级到底值不值得升。</p><h2>样式覆盖不再是“玄学”</h2><p data-pid=\"_a6SbG2x\">你一定深有体会：设计师要求改 <code>Select</code> 下拉框背景色、调整 <code>Modal</code> 头部内边距，或者给 <code>Table</code> 的某个单元格加特殊样式。在 v5 及之前，你只能打开控制台，一层层扒 DOM 结构，找到类似 <code>.ant-select-selector</code> 的 class，然后用 <code>:global</code> 或 <code>!important</code> 暴力覆盖。一旦组件库内部 DOM 微调，你的样式就崩了。</p><p data-pid=\"9_QFHKTq\"><b>全量 DOM 语义化 + 细粒度 classNames / styles API</b></p><p data-pid=\"joc1tzMj\">v6 对所有组件进行了 <b>DOM 语义化改造</b>（如用 <code>&lt;header&gt;</code>、<code>&lt;main&gt;</code> 等代替无意义的 <code>&lt;div&gt;</code>），更重要的是引入了复数形式的 <code>classNames</code> 和 <code>styles</code> 属性，让你直接通过语义化的 key 来定制关键区域。</p><div class=\"highlight\"><pre><code class=\"language-text\">// v6 写法：精准、安全、健壮\n&lt;Modal\n  title=&#34;业务配置&#34;\n  open={true}\n  classNames={{\n    header: &#39;my-modal-header&#39;,\n    body: &#39;my-modal-body&#39;,\n    footer: &#39;my-modal-footer&#39;,\n    mask: &#39;glass-blur-mask&#39;, // 甚至能直接控制遮罩\n    content: &#39;my-modal-content&#39;,\n  }}\n  styles={{\n    header: { borderBottom: &#39;1px solid #eee&#39;, padding: &#39;16px 24px&#39; },\n    body: { padding: &#39;24px&#39; },\n  }}\n&gt;\n  &lt;p&gt;内容区域...&lt;/p&gt;\n&lt;/Modal&gt;</code></pre></div><p data-pid=\"V6kmLbfs\"><b>v5 vs v6 对比（Modal 头部样式定制）</b>：</p><div class=\"highlight\"><pre><code class=\"language-text\">// v5（hack 写法，易崩）\nimport { global } from &#39;antd&#39;; // 或直接写 less\n:global(.ant-modal-header) {\n  border-bottom: 1px solid #eee !important;\n}</code></pre></div><p data-pid=\"qpLCSibp\"><b>v6 技术价值</b></p><ul><li data-pid=\"VyLkm845\"><b>不再依赖内部 class 名</b>：官方承诺这些 key（如 header、body）的存在，即使未来 DOM 结构变化，你的样式依然有效。</li><li data-pid=\"Tq04KxjH\"><b>支持动态样式</b>：<code>styles</code> 属性接受对象，方便结合主题或 props 动态生成。</li></ul><h2>原生 CSS 变量全面回归</h2><p data-pid=\"ot3kdqox\">v5 的 CSS-in-JS 方案虽然解决了按需加载和动态主题，但在大型后台系统里，运行时生成样式的 JS 开销仍然明显，尤其在低端设备上切换主题或路由时容易掉帧、闪烁。</p><p data-pid=\"7gf5sv-N\"><b>v6 的解法：零运行时（Zero-runtime）CSS 变量模式</b><br/>彻底抛弃 CSS-in-JS，默认使用原生 CSS Variables（Custom Properties）。</p><ul><li data-pid=\"QLabHYaS\"><b>体积更小</b>：CSS 文件显著减小（官方称部分场景下减少 30%+）。</li><li data-pid=\"_g9za5Wd\"><b>响应更快</b>：主题切换只需修改 CSS 变量值，浏览器原生处理，毫秒级生效，无需重新生成哈希类名。</li><li data-pid=\"AHZy9DEn\"><b>暗黑模式友好</b>：直接通过 <code>--antd-color-primary</code> 等变量实现全局主题切换。</li></ul><p data-pid=\"fIuxKbUO\">这对需要支持多品牌色、暗黑模式的 SaaS 平台来说，是巨大的性能红利。</p><h2>高频场景官方接管</h2><p data-pid=\"oeLXSg-a\">瀑布流布局、Drawer 拖拽调整大小、InputNumber 加减按钮等，都是业务中常见需求，但之前往往需要引入第三方库或自己手写，增加维护成本和打包体积。</p><p data-pid=\"XG2ORKVy\"><b>v6 的解法：新增实用组件 &amp; 交互优化</b></p><ul><li data-pid=\"rQV10cR-\"><b>Masonry 瀑布流</b>（内置）</li></ul><div class=\"highlight\"><pre><code class=\"language-text\">import { Masonry } from &#39;antd&#39;;\n\n&lt;Masonry columns={{ xs: 1, sm: 2, md: 3, lg: 4 }} gutter={16}&gt;\n  {items.map(item =&gt; (\n    &lt;Card key={item.id} cover={&lt;img src={item.cover} /&gt;} {...item} /&gt;\n  ))}\n&lt;/Masonry&gt;</code></pre></div><ul><li data-pid=\"lbrEbSiC\"><b>Drawer 支持拖拽</b>：原生支持拖拽改变宽度，无需自己写 resize 逻辑。</li><li data-pid=\"wmvgCsVx\"><b>InputNumber 支持 spinner 模式</b>：加减按钮直接在输入框两侧，像购物车那样。</li><li data-pid=\"2BsXEnmB\"><b>其他</b>：Tooltip 支持平移（panning）、弹层默认支持模糊蒙层（blur mask）等交互优化。</li></ul><p data-pid=\"cJh6dsI7\">这些补齐了业务高频场景，减少了“自己造轮子”的痛苦。</p><h2>升级建议：这次真的“平滑”吗？</h2><p data-pid=\"dLoXoGJL\"><b>v6 迁移关键事实</b></p><ul><li data-pid=\"FOQ69sTx\"><b>React 版本要求</b>：必须升级到 <b>React 18+</b>（不再支持 React 17 及以下）。</li><li data-pid=\"uWBs8mJN\"><b>破坏性变更</b>：部分 API 被废弃（如 <code>bordered</code> → <code>variant</code>、<code>headStyle</code> → <code>styles.header</code> 等），v7 将彻底移除。</li><li data-pid=\"b7wNfRIj\"><b>兼容性</b>：v5 项目绝大多数业务逻辑代码无需改动，但若大量使用了深层 hack 样式，可能需要调整。</li><li data-pid=\"F5GBOJw9\"><b>推荐工具</b>：官方提供 Codemod 迁移脚本，可自动化处理大部分废弃 API。</li></ul><p data-pid=\"f8ZPRqX4\"><b>建议</b></p><ol><li data-pid=\"d8yUObgA\"><b>新项目</b>：直接上 v6，享受更好的性能、体验和未来维护性。</li><li data-pid=\"Nt7qOvWl\"><b>v5 项目</b>：先在 dev 分支尝试升级。无大量 hack 样式的话，成本很低。</li><li data-pid=\"ABKdSKaO\"><b>v4 及更老项目</b>：跨度较大，建议先逐步迁移到 v5，再升 v6；或在新模块中使用 v6（配合微前端或包隔离）。</li><li data-pid=\"XQQUMRp3\"><b>升级前检查</b>： </li></ol><ul><li data-pid=\"w1jF7Uvl\">确认 React ≥ 18</li><li data-pid=\"k1Q6Aeld\">运行官方 Codemod</li><li data-pid=\"kQHv3BLF\">验证目标浏览器支持 CSS 变量（IE 彻底不支持）</li></ul><h2>总结</h2><p data-pid=\"ZsNMpFma\">Ant Design v6 是一次**“返璞归真”**的升级。它把控制权还给开发者（语义化 API），用现代浏览器特性解决性能问题（零运行时 CSS 变量），并补齐了业务高频组件。</p><p data-pid=\"J8tkHDgE\"><b>升级核心收益</b></p><ul><li data-pid=\"N_59uSSL\">更少的 hack 代码，更健壮的样式</li><li data-pid=\"sQATbFDm\">显著的性能提升（主题切换、渲染速度）</li><li data-pid=\"8b9rJ3Kc\">官方接管高频业务组件，减少第三方依赖</li><li data-pid=\"L7Ost2Pj\">平滑迁移路径，真正降低了“升级火葬场”的风险</li></ul><p data-pid=\"lZ_zDIeJ\">对于业务开发者来说，这意味着：<b>更少的加班、更快的页面、更早下班</b>。</p>",
+        "article_type": "normal",
+        "type": "article"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1986751453902164192}",
+      "attached_info": "CpcGCNG/2+miyr7YpQEQBxoJMjY4MDU2ODk5IOOJqMoGKAYwAkBsSkkKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSIGRvY190eXBlOiBBcnRpY2xlCmlkOiAyNjczOTM3NzYKGAAgADoASkkKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSIGRvY190eXBlOiBBcnRpY2xlCmlkOiAyNjczOTM3NzYKGAAgADoAYiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXITMTk4Njc1MTQ1MzkwMjE2NDE5MqoBCXJlY29tbWVuZMIBIGM3MmU1N2I3ZGUxOTlkNzc4MmI3NWYyZmEzOWYzMzEx8gEKCAwSBk5vcm1hbPIBKAgKEiQ4N2RjODViZS1kNDdlLTRjYTAtYTJmNi1iMzZlYzVkZTZlZWTyAQYICxICMTmCAgCIAvT5k5u5M5ICIGM3MmU1N2I3ZGUxOTlkNzc4MmI3NWYyZmEzOWYzMzExmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIfVFNfU09VUkNFX1pSRUNBTExfSVRFTUNGX1VQVk9URegCA/oCC05PUk1BTF9GTE9XigMgOTY1YjBmMjUwMzA2NGFkY2EzNTZmYzg3MTk1NWJmYmKaAw0KAnYyEAAaBW90aGVyqAOZDdgDAOoDGXRleHRBbGxTaXRlQWN0aW9uSXRlbUNGVjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgdeB/P4EFAAAAAAAAAACJBb9FLTX2ibI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBm2oBgGSAi4KCTI2ODA1Njg5ORITMTk4Njc1MTQ1MzkwMjE2NDE5MhgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "109_1767704427.458",
+      "type": "feed",
+      "offset": 109,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704427,
+      "updated_time": 1767704427,
+      "target": {
+        "comment_count": 46,
+        "question": {
+          "id": "48789167",
+          "type": "question",
+          "author": {
+            "url": "https://api.zhihu.com/people/8629caf78bf9a59405e2d8bf24855ff7",
+            "url_token": "moseder",
+            "avatar_url": "https://picx.zhimg.com/50/v2-198f2eb32cfe67ae5fb0e3c317a00ce3_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "id": "8629caf78bf9a59405e2d8bf24855ff7",
+            "user_type": "people",
+            "name": "Strange dream",
+            "headline": "此号已死，有事烧纸,不一定回魂",
+            "gender": 0,
+            "followers_count": 184
+          },
+          "title": "在中国古代，藏书家们为何不把自己的藏书刊印出来，让孤本不孤？",
+          "bound_topic_ids": [
+            10141,
+            23486,
+            2440060,
+            4184920
+          ],
+          "is_following": false,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/48789167",
+          "created": 1469199724,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "excerpt": "这个问题应该一分为三的来看。 首先要承认，一部分藏书家的确不愿意将自己的孤本公开，原因很简单：物以稀为贵。天壤间独有这一本，这一本在我这儿——这种占有欲的充分满足，相信大家都能理解。 其次我们应该看到，许多留存至今的古籍，都是古代的藏书家们刊刻出来的，其中很多就是以他们所藏的孤本作为底本。正因为他们刊刻出来了，所以这些孤本就不再是孤本。 第三，还有一部分藏书家是愿意将孤本刊印出来的，以使得孤本不孤…",
+        "excerpt_new": "这个问题应该一分为三的来看。 首先要承认，一部分藏书家的确不愿意将自己的孤本公开，原因很简单：物以稀为贵。天壤间独有这一本，这一本在我这儿——这种占有欲的充分满足，相信大家都能理解。 其次我们应该看到，许多留存至今的古籍，都是古代的藏书家们刊刻出来的，其中很多就是以他们所藏的孤本作为底本。正因为他们刊刻出来了，所以这些孤本就不再是孤本。 第三，还有一部分藏书家是愿意将孤本刊印出来的，以使得孤本不孤…",
+        "preview_text": "",
+        "id": "1971917875930456449",
+        "updated_time": 1763049326,
+        "voteup_count": 95,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1971917875930456449",
+        "created_time": 1762921858,
+        "thanks_count": 9,
+        "favorite_count": 51,
+        "answer_type": "normal",
+        "type": "answer",
+        "preview_type": "default",
+        "visited_count": 3142,
+        "content": "<p data-pid=\"fPR1fw4L\">这个问题应该一分为三的来看。</p><p data-pid=\"rTH_HP9_\">首先要承认，一部分藏书家的确不愿意将自己的孤本公开，原因很简单：物以稀为贵。天壤间独有这一本，这一本在我这儿——这种占有欲的充分满足，相信大家都能理解。</p><p data-pid=\"9H4N1OX7\">其次我们应该看到，许多留存至今的古籍，都是古代的藏书家们刊刻出来的，其中很多就是以他们所藏的孤本作为底本。正因为他们刊刻出来了，所以这些孤本就不再是孤本。</p><p data-pid=\"X-w0nq2Q\">第三，还有一部分藏书家是愿意将孤本刊印出来的，以使得孤本不孤，佳惠士林。但他们要面对一个非常现实的问题，那就是刻书的资金从何而来？因为在古代，刻书是一件非常昂贵的事。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-532e4abb7d66ce591a40f43a9e88c3f6_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"562\" data-original-token=\"v2-78c0a36723584adb8b18131e37c23453\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic3.zhimg.com/v2-532e4abb7d66ce591a40f43a9e88c3f6_r.jpg\"/><figcaption>《汲古阁图》</figcaption></figure><h2><b>刻书有多难？</b> </h2><p data-pid=\"sfyx9b5X\">刻书有多难，看看明末的毛晋和清中期的鲍廷博就能知道，这两位应该是明清时期最著名的刻书家了。</p><h3>1：毛晋</h3><p data-pid=\"0aw7UKIr\">毛晋（1599-1659），字子晋，江苏常熟人，一生藏书、抄书、刻书，先后刻书600多种，其中最著名的有《十三经注疏》《十七史》《文选李注》《汉魏六朝百三名家集》《津逮秘书》等，是历代私家刻书最多的人，他刻的不少书，都是以孤本作为底本的。</p><p data-pid=\"InLnqGZk\">毛晋刻书，是举全家之力而为之，家里的儿子、奴仆全部要参与刻书。友人陈瑚曾作《为毛潜在隐居乞言小传》，小传中称毛晋“垂髫时节即好锓书”，锓书就是刻书的意思。毛晋家里所有的资金都用于买书、刻书，这让身边的人都为他担心：</p><blockquote data-pid=\"hd8Ppve1\">客有言于虚吾者曰：公拮据半生以成厥家，今有子不事生产，日召梓工弄刀笔，不急是务，家殖将落。母戈孺人解之曰：即不幸锓书废家，犹贤于樗蒲六博也。乃出囊中金助成之。</blockquote><p data-pid=\"PYmeN-vV\">这段话中的“虚吾者”是指毛晋的父亲毛清，其字虚吾。“不事生产”是说毛晋不去挣钱养家，反而整天刻书。有人跑到毛晋的父亲那里去说，毛晋再这样下去，家产都会败光的。但是毛晋的母亲却说：就算因为刻书而败家，也好过因赌博败家。母亲非但没有阻止毛晋刻书，还拿出钱去帮助他刻书。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-cad83468f439dacc262e0c70f4f8365f_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"484\" data-rawheight=\"700\" data-original-token=\"v2-f417813186676a3705461ade118b6a4f\" class=\"origin_image zh-lightbox-thumb\" width=\"484\" data-original=\"https://pic2.zhimg.com/v2-cad83468f439dacc262e0c70f4f8365f_r.jpg\"/><figcaption>古书里面的毛晋肖像</figcaption></figure><p data-pid=\"6WOyZmpA\">毛晋的妻子严氏也是一位贤内助，还拿出自己的妆奁去帮助丈夫刻书。毛晋的儿子毛扆后来也继续刻书，在两代人的努力之下，一些孤本都由此而化身百千，让寻常人家也能够读到，由此有了“毛氏之书走天下”之说。</p><p data-pid=\"1JauBJY3\">胡震亨在毛晋所刻《津逮秘书》的题辞中谈及毛晋时，专门写到了毛晋对于刻书和孤本的态度：</p><blockquote data-pid=\"R_X8pRGb\">人得异书，私为帐中,秘不示人,非真好书者。真好书者如好饮,然独饮不适也。宁挟一编自赏,不与人赏耶？余友虞山子晋毛君,读书成癖,其好以书行,令人得共读，亦成癖。所镌大典,册积如山,诸稗官小说家言,亦不啻数百十种,惧购者零杂难举,欲统为一函。……<br/>余尝谓世上书,虽不易尽其存者,亦自有数。我江南得如子晋数辈,广搜异本,各称物力,举匠锲工传之。不数年,遗藏尽发,四部可大备。愚公欲移山,人咸笑之,而公谓不难,尽刻人间书故难,当不难移山也。</blockquote><p data-pid=\"NAjIZhS7\">后来真的如那位担心者所言，毛家为刻书耗尽了家资，家境渐渐衰落，以致后来毛扆生病时，不得不卖书治病。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e130580ed00f6fbe792d72ce8eb430b3_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"514\" data-rawheight=\"800\" data-original-token=\"v2-3c4393d1f133c17ab46e9a9e4c0161fa\" class=\"origin_image zh-lightbox-thumb\" width=\"514\" data-original=\"https://pic4.zhimg.com/v2-e130580ed00f6fbe792d72ce8eb430b3_r.jpg\"/><figcaption>黄丕烈刻《汲古阁珍藏秘本书目》</figcaption></figure><h3>2：鲍廷博 </h3><p data-pid=\"QO3m33Op\">鲍廷博（1728-1814），字以文，号渌饮，安徽歙县人，但主要活动在杭州。一生以书为命。乾隆修《四库全书》时向全国征书，各地献书最多的四家中，其中之一就是鲍廷博，其藏书之富可想而知。</p><p data-pid=\"GE01H3Ds\">但鲍廷博之所以名垂青史，并不是因为献书，而是因为刻书。</p><p data-pid=\"RAjOF_6-\">鲍廷博的堂号是“知不足斋”，他刻的书中，以《知不足斋丛书》名气最响，这套丛书共30集，240册，刻入书籍207种，781卷。这套丛书刻到第27集时，鲍廷博去世，儿子鲍士恭继续完成父亲的事业，刻完了这套丛书。这套丛书里面也有不少底本都是孤本。</p><p data-pid=\"LwPZSf53\">鲍廷博也在刻书事业上投入了大量资金，稍微攒到点钱，立即就拿去刻书。翁广平在《鲍渌饮传》中说他“稍有蓄积，为刊书所尽”。卢文弨则说他：“枣梨既精，剞劂亦良，以是毁其家，不恤也。”类似的记载还有很多。到了鲍廷博晚年，家境其实已经很拮据了，但他仍然刻书，直到去世。</p><p data-pid=\"Z28JOdlH\">仅从毛晋、鲍廷博这两例，就不能说古代的藏书家们不愿意把孤本刊印出来。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e3cb8727cf6ef0398e4a7882b17b86ac_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"451\" data-rawheight=\"800\" data-original-token=\"v2-ff44f420e5dd54853514d0990937ea68\" class=\"origin_image zh-lightbox-thumb\" width=\"451\" data-original=\"https://pic3.zhimg.com/v2-e3cb8727cf6ef0398e4a7882b17b86ac_r.jpg\"/><figcaption>知不足斋丛书本《相台书塾刊正九经三传沿革例》</figcaption></figure><h2><b>刻书面临的风险</b></h2><p data-pid=\"-i6KkMz6\">刻书需要大量的资金和人力不说，有时还会面临不可预知的政.治风险。这方面最典型的例子就是清初的庄廷鑨案。</p><p data-pid=\"HkxODPiU\">清顺治、康熙年间，庄廷鑨得到了明末宰相朱国祯的明史遗稿，这可是不折不扣的孤本。他召集了一些学者对遗稿进行增补修订，然后定名为《明史辑略》，出资刊行。</p><p data-pid=\"3EjhS9Mm\">然而因为书中仍然使用了明朝年号，以及一些在清室看来不敬的字句，该书被人告发，最终发展成了震惊全国的“《明史》案”。已经去世的庄廷鑨被刨棺戮尸，家人被捕死于狱中，参与此书出版的作序者、校对者、刻字工人、卖书的、买书的，甚至地方官员，前后被处死的有七十余人，数百人被流放。</p><p data-pid=\"IzqfbLeg\">相对于这种政.治风险而言，刻书资金的不足，就显得不算什么了。但无论哪种困难，都说明刻书是一件艰难的事。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3ac9b99288d6a191ad34496ba18fb18d_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"399\" data-rawheight=\"614\" data-original-token=\"v2-3b6d202a2282b5ecd7f42f6041923566\" class=\"content_image\" width=\"399\"/><figcaption>庄廷鑨《明史钞略》</figcaption></figure><h2><b>大部分藏书家是愿意刻书的</b></h2><p data-pid=\"VX9_SzDu\">事实上，大部分的藏书家都是愿意将孤本刊刻出来的，他们需要面对的具体问题是：</p><p data-pid=\"CBx0B4jB\">财力、人力、技术、时间、政治环境。</p><p data-pid=\"7xxx9Eee\">对财力的需求，前面已经说过了。在人力上，他们需要专业的学者和工人进行写校、刻、印、装订等多重工序。在技术上，需要工人有熟悉的刻字能力。在时间上，一部大书往往动辄十几年，甚至几十年，《知不足斋丛书》就是跨越了两代人才完成。最后，在政治上需要有宽松的文化氛围，这一点从历代的文字狱可以反推而知。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-28725ed5b0251aeb06d52bf77f170703_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"418\" data-rawheight=\"700\" data-original-token=\"v2-65a78697bf8f66f5cd20eab1208a6b52\" class=\"content_image\" width=\"418\"/><figcaption>毛晋刻《范德机诗》</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-64e0c37609138bf851f9c8b5e8eb2657_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"474\" data-rawheight=\"800\" data-original-token=\"v2-e1ddc00aa3e855ed4d9deea7bbf53f67\" class=\"origin_image zh-lightbox-thumb\" width=\"474\" data-original=\"https://pic2.zhimg.com/v2-64e0c37609138bf851f9c8b5e8eb2657_r.jpg\"/><figcaption>知不足斋刻《列女传》</figcaption></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "is_org": false,
+          "followers_count": 1486,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/b55f8c6b836a658c22c6781ea09395e2",
+          "user_type": "people",
+          "url_token": "25-9-16-75",
+          "name": "禄琳琅",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-4bf1775798df85cb0f0dfec0826a669f_l.jpg?source=b6762063",
+          "id": "b55f8c6b836a658c22c6781ea09395e2",
+          "headline": "百代之过客",
+          "gender": 0,
+          "is_following": false
+        },
+        "is_copyable": true,
+        "reshipment_settings": "allowed"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1971917875930456449}",
+      "attached_info": "Co8JCNG/2+miyr7YpQEQBBoJNzU2MTQxMzkwIIKb0MgGKF8wLkBtSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDExNzMxMzkzYiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXITMTk3MTkxNzg3NTkzMDQ1NjQ0OYoBCDQ4Nzg5MTY3qgEJcmVjb21tZW5kwgEgYjU1ZjhjNmI4MzZhNjU4YzIyYzY3ODFlYTA5Mzk1ZTLyAQoIDBIGTm9ybWFs8gEoCAoSJDllN2RlOWMyLWIzOGMtNDMyZS04MTM3LTk4NzUxZjRhZjBhZvIBBggLEgIxOYICAIgC9PmTm7kzkgIgYjU1ZjhjNmI4MzZhNjU4YzIyYzY3ODFlYTA5Mzk1ZTKaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIE+gILTk9STUFMX0ZMT1eKAyA5NjViMGYyNTAzMDY0YWRjYTM1NmZjODcxOTU1YmZiYpoDDQoCdjIQABoFb3RoZXKoA8YY2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gPoAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEKAGGLIEIiN2Mi03OGMwYTM2NzIzNTg0YWRiOGIxODEzMWUzN2MyMzQ1MzotCAMQ5AMYvAUiI3YyLWY0MTc4MTMxODY2NzZhMzcwNTQ2MWFkZTExOGI2YTRmOi0IAhCCBBigBiIjdjItM2M0MzkzZDFmMTMzYzE3YWI0NmU5YTllNGMwMTYxZmE6LQgDEMMDGKAGIiN2Mi1mZjQ0ZjQyMGU1ZGQ1NDg1MzUxNGQwOTkwOTM3ZWE2ODotCAIQjwMY5gQiI3YyLTNiNmQyMDJhMjI4MmI1ZWNkN2Y0MmY2MDQxOTIzNTY2Oi0IAxCiAxi8BSIjdjItNjVhNzg2OTdiZjhmNjZmNWNkMjBlYWIxMjA4YTZiNTI6LQgCENoDGKAGIiN2Mi1lMWRkYzAwYWEzZTg1NWVkNGQ5ZGVlYTdiYmY1M2Y2N4AEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwILFkT+BBQAAAAAAAAAAiQW/RS019omyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZuqAYDkgIuCgk3NTYxNDEzOTASEzE5NzE5MTc4NzU5MzA0NTY0NDkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "110_1767704427.116",
+      "type": "feed",
+      "offset": 110,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704427,
+      "updated_time": 1767704427,
+      "target": {
+        "url": "https://api.zhihu.com/articles/1981782426087878931",
+        "comment_permission": "all",
+        "visited_count": 386,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "updated": 1765275543,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "26岁，纽约六位数年薪，每天下班路过星巴克不敢进门Pat Walls，26岁纽约程序员，年薪六位数，表面光鲜。 但他每天下班路过同一家星巴克，告诉自己&#34;今天要进去开始做副业&#34;，然后走过去，回家看6小时Netflix。 这个循环持续了数月。直到他读了一本书，与自己签了一份契约，走进那家星巴克，每天2小时，6年后年入百万美元。 核心洞察： 成功不是靠更好的想法，是靠每天出现在同一个地方。背景故事：星巴克代表的恐惧表面成功，内心…",
+        "preview_type": "default",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-858e3fdac26cc4ba82bdfaf866fc296a_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "type": "article",
+        "voteup_count": 1,
+        "voting": 0,
+        "excerpt_new": "26岁，纽约六位数年薪，每天下班路过星巴克不敢进门Pat Walls，26岁纽约程序员，年薪六位数，表面光鲜。 但他每天下班路过同一家星巴克，告诉自己&#34;今天要进去开始做副业&#34;，然后走过去，回家看6小时Netflix。 这个循环持续了数月。直到他读了一本书，与自己签了一份契约，走进那家星巴克，每天2小时，6年后年入百万美元。 核心洞察： 成功不是靠更好的想法，是靠每天出现在同一个地方。背景故事：星巴克代表的恐惧表面成功，内心…",
+        "preview_text": "",
+        "content": "<h2>26岁，纽约六位数年薪，每天下班路过星巴克不敢进门</h2><p data-pid=\"i8Y2KBzQ\">Pat Walls，26岁纽约程序员，年薪六位数，表面光鲜。</p><p data-pid=\"NeZpn-wK\">但他每天下班路过同一家星巴克，告诉自己&#34;今天要进去开始做副业&#34;，然后走过去，回家看6小时Netflix。</p><p data-pid=\"j-iBnQn6\"><b>这个循环持续了数月。</b></p><p data-pid=\"u95hU1Vw\">直到他读了一本书，与自己签了一份契约，走进那家星巴克，每天2小时，6年后年入百万美元。</p><p data-pid=\"bnSYPWCU\"><b>核心洞察：</b> 成功不是靠更好的想法，是靠每天出现在同一个地方。</p><hr/><h2>背景故事：星巴克代表的恐惧</h2><h3>表面成功，内心空虚</h3><p data-pid=\"tLVy-Av0\">2017年，Pat Walls 26岁。</p><p data-pid=\"uIMXAlid\"><b>工作日常：</b></p><ul><li data-pid=\"wM6IJvJs\">早上打卡</li><li data-pid=\"B33T-UdX\">几个Zoom会议</li><li data-pid=\"oMFke-ZQ\">吃午饭</li><li data-pid=\"ji8mRCQ_\">写几行代码</li><li data-pid=\"7b4ToJiT\">下班打卡</li></ul><p data-pid=\"GzqlYH3H\">这份工作让他感觉<b>空虚</b>。</p><p data-pid=\"GtK388Oj\">每天重复同样的事，为别人的梦想工作。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-839719166cc6cea9089153988cd2ff1d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-f73a8a748bf394e7002c78418750fdcf\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-839719166cc6cea9089153988cd2ff1d_r.jpg\"/></figure><hr/><h3>秘密梦想：我想创业，但不知道从哪开始</h3><p data-pid=\"WUyjxMUS\">Pat秘密读商业书籍，幻想辞职创业。</p><p data-pid=\"PN7V64yQ\"><b>但他被困住了：</b></p><ul><li data-pid=\"2kgruzQd\">如何找到好想法？</li><li data-pid=\"BSqXsVs0\">如何验证想法能赚钱？</li><li data-pid=\"skrfnog1\">如何迈出第一步？</li></ul><p data-pid=\"Tu5xwxR6\">互联网上找不到答案。</p><p data-pid=\"f8u5XDnr\">所有内容都是关于VC独角兽如何融资亿，而不是如何从0到$5000/月。</p><hr/><h3>灵光一现：把问题本身变成产品</h3><p data-pid=\"0hVFP7a9\"><b>Pat的顿悟：</b></p><p data-pid=\"8j1QKNf4\">“如果我把这些问题本身变成产品呢？”</p><p data-pid=\"u8rEam15\"><b>想法：</b></p><ul><li data-pid=\"NwBD4W4g\">研究成功的企业</li><li data-pid=\"AHlVVpHN\">写案例拆解博客</li><li data-pid=\"l9vSFjE6\">分享给其他想创业的人</li></ul><p data-pid=\"6914LWYe\">他没想这会是个大事业。</p><p data-pid=\"9_X9eLIk\">只是genuinely interested in this stuff（真的对这个感兴趣）。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-780a89fc966e96c1768e032e693e8fb9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"535\" data-original-token=\"v2-765e53063000bafe7ac3f957b0711afe\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-780a89fc966e96c1768e032e693e8fb9_r.jpg\"/></figure><hr/><h3>关键障碍：每天路过星巴克，但从不进去</h3><p data-pid=\"1oZwByzQ\"><b>Pat的地图：</b></p><ul><li data-pid=\"h7NIaj1_\">这是他住的地方（纽约）</li><li data-pid=\"9UYM2Lad\">这是他的公司</li><li data-pid=\"Ahv4kwX4\"><b>这是那家星巴克</b></li></ul><p data-pid=\"dwAX-Rng\">每天下班，Pat走同一条路。</p><p data-pid=\"_EEEgIX6\">每天路过星巴克。</p><p data-pid=\"t4uC9d4O\">每天告诉自己：“今天我要进去，点杯咖啡，坐下来，开始做这个项目。”</p><p data-pid=\"8ZUrI25B\"><b>然后每天：</b></p><ul><li data-pid=\"t3LAa7Du\">看一眼星巴克</li><li data-pid=\"oC_gqJGP\">继续走</li><li data-pid=\"8xPMazKY\">回家</li><li data-pid=\"7SfEHXkn\">看6小时Netflix</li><li data-pid=\"MzHc26e5\">睡觉</li></ul><p data-pid=\"e_nNVCrW\"><b>这个循环持续了数月。</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4d6b5054841259c100300b2b2a1a9b41_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"499\" data-original-token=\"v2-0988fc12fbd02d8bf7b0bff3685f6838\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-4d6b5054841259c100300b2b2a1a9b41_r.jpg\"/></figure><hr/><h3>星巴克=未知=恐惧</h3><p data-pid=\"2KuLOmeD\"><b>Pat后来意识到：</b></p><p data-pid=\"95kFn1Ke\">“那家星巴克代表着未知，它太可怕了，我不敢面对。”</p><p data-pid=\"-amWvvVE\">不是星巴克本身可怕。</p><p data-pid=\"-ftOO7A4\">是<b>开始</b>这个动作太可怕。</p><hr/><h2>转折点：一本书 + 一份契约</h2><h3>《深度工作》：专注力的觉醒</h3><p data-pid=\"_4bG0fU5\">Pat读到Cal Newport的《深度工作》（Deep Work）。</p><p data-pid=\"S8IckqT0\"><b>核心观点：</b></p><p data-pid=\"NNe024tV\">深度工作是一种专注状态，如果你想做困难的事情，你必须学会它。</p><p data-pid=\"g82Pk04k\"><b>Pat的自我诊断：</b></p><p data-pid=\"2-__EegA\">“我完全缺乏专注力。”</p><p data-pid=\"cIv3TCWn\">他意识到，不是想法不够好，是<b>他从未给自己足够的专注时间</b>。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b54886ced2588cf423ec398e3a97fb91_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"495\" data-original-token=\"v2-bc382b9ce91d04827c2ff76ce7c651bb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-b54886ced2588cf423ec398e3a97fb91_r.jpg\"/></figure><hr/><h3>与自己的契约</h3><p data-pid=\"jvPqD6g3\">Pat拿出纸，写下一份契约：</p><p data-pid=\"P-2zhcEq\"><b>明天我要：</b></p><ol><li data-pid=\"KM9d0oaY\">走进那家星巴克</li><li data-pid=\"bO_KOK-U\">点一杯咖啡</li><li data-pid=\"zvwIXFTP\">坐下来</li><li data-pid=\"YS36h1W0\">设定2小时计时器</li><li data-pid=\"U_2PR4do\"><b>只专注工作</b></li></ol><p data-pid=\"Hmd4yJFI\">不是&#34;我要开始创业&#34;。</p><p data-pid=\"lFCYir79\">而是<b>“我要坐在那里2小时”</b>。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d56ffeac0a14468bf12da92c19038720_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"548\" data-original-token=\"v2-968a2e032088c035fa8993db6ec65169\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-d56ffeac0a14468bf12da92c19038720_r.jpg\"/></figure><hr/><h3>Day 1：计时器响了，2小时飞快过去</h3><p data-pid=\"jRgHJ-vu\">第二天，Pat走进星巴克。</p><p data-pid=\"63UQ_xCL\">点了咖啡。</p><p data-pid=\"O00sTvfK\">坐下。</p><p data-pid=\"NVnRLlzG\">设定计时器：<b>2小时</b>。</p><p data-pid=\"pcmLvasS\">开始工作。</p><p data-pid=\"pDqDwuk8\"><b>突然，计时器响了。</b></p><p data-pid=\"T86DVKAH\">Pat抬头：“天哪，2小时？感觉只过了20分钟！”</p><p data-pid=\"h4FsxZ8L\"><b>他进入了心流状态（Flow State）。</b></p><p data-pid=\"aXZjvhQX\">他真的在做深度工作。</p><hr/><h3>Day 2, 3, 4…：从未停止</h3><p data-pid=\"cT4J_oCQ\"><b>Day 2：</b> 走进星巴克，再做一次。</p><p data-pid=\"hXjRpyOa\"><b>Day 3：</b> 再做一次。</p><p data-pid=\"W7VO_BPa\"><b>Day 4, 5, 6…：</b> 从未停止。</p><p data-pid=\"gU7HEkfK\">每天下班，走进星巴克，2小时。</p><p data-pid=\"gO6Qt285\"><b>然后他升级了：</b></p><p data-pid=\"aFcqM1Rh\">开始早上<b>6点起床</b>，全职工作开始前，先做2小时深度工作。</p><p data-pid=\"nUxQUy3D\"><b>现在他每天有4小时专注时间。</b></p><p data-pid=\"gOVTjvUR\">感觉毫不费力。</p><hr/><h2>实操拆解：从0到年入百万美元的180天</h2><h3>第1个月：从0到1</h3><p data-pid=\"-KUoU0e_\"><b>进展：</b></p><ul><li data-pid=\"47LLxcSB\">✅ 想出名字：<b>Starter Story</b></li><li data-pid=\"qmkP1AOS\">✅ 注册域名：<a href=\"https://link.zhihu.com/?target=http%3A//starterstory.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">starterstory.com</span><span class=\"invisible\"></span></a>（<b>$12/年</b>）</li><li data-pid=\"DyH4odG8\">✅ 发布最初几个案例故事</li><li data-pid=\"oxflfAZE\">✅ 几百人访问网站</li></ul><p data-pid=\"SFp4wvfU\"><b>收入：$0</b></p><p data-pid=\"YUviR0Qs\">但Pat不在乎，他只专注于<b>出现在星巴克，做他的2小时</b>。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-29fae4beabf4c4d5d9af005396f336b4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"590\" data-original-token=\"v2-1fcf16d44e08b38742e57285fb89dea5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-29fae4beabf4c4d5d9af005396f336b4_r.jpg\"/></figure><hr/><h3>第2个月：建立routine</h3><p data-pid=\"CYNFyRgt\"><b>进展：</b></p><ul><li data-pid=\"hqbLAg2v\">✅ 发布几十个案例故事</li><li data-pid=\"CDZh4eci\">✅ 找到内容节奏</li><li data-pid=\"13XkFStd\">✅ 启动Newsletter</li><li data-pid=\"wH5XrCVt\">✅ 拿到前<b>100个订阅者</b></li></ul><p data-pid=\"wXWotLi3\"><b>收入：$0</b></p><p data-pid=\"F0QemVmE\">业务还不赚钱，但开始建立小受众。</p><hr/><h3>第4个月：第一次验证</h3><p data-pid=\"tQrHvDe2\"><b>进展：</b></p><ul><li data-pid=\"ZICZRjmG\">✅ 开始做营销</li><li data-pid=\"aUrsCMvY\">✅ 一个故事在<b>Reddit上爆火</b></li><li data-pid=\"6Vn1PtyG\">✅ <b>数千人</b>涌入网站</li><li data-pid=\"p6VuddIz\">✅ 服务器崩溃（流量太大）</li><li data-pid=\"zICxHK-n\">✅ Newsletter订阅暴涨</li></ul><p data-pid=\"62OjDE1w\"><b>Pat的心态转变：</b></p><p data-pid=\"WbxotuAa\">“我的想法得到验证了！”</p><p data-pid=\"GzXspOLT\">这是第一次，有大量陌生人主动找到他的内容。</p><hr/><h3>第6个月：第一次变现</h3><p data-pid=\"KU82eW3x\"><b>进展：</b></p><ul><li data-pid=\"YdVkia_f\">✅ 开始思考monetization</li><li data-pid=\"vcuEqfYf\">✅ Newsletter赞助</li><li data-pid=\"vpItQSuS\">✅ 联盟营销（affiliate）收入</li><li data-pid=\"Rfnu7pm8\">✅ 开始赚&#34;一些钱&#34;</li></ul><p data-pid=\"TAz68quo\"><b>Pat的心态：</b></p><p data-pid=\"cVB-jJCv\">“我开始有信心了，觉得我真的有点懂这个游戏怎么玩了。”</p><p data-pid=\"HSwcxyf_\">“而且，我在过程中很开心。”</p><hr/><h2>关键转折：收到$12,000的那一刻</h2><h3>CEO的邮件</h3><p data-pid=\"PvV-ffad\">某天，Pat收到一封邮件。</p><p data-pid=\"kQISyATP\">发件人：<b>Klaviyo的CEO</b>（当时Klaviyo还是小公司，现在是巨头）</p><p data-pid=\"WaYHC6Gs\"><b>邮件内容：</b></p><blockquote data-pid=\"vWAl3SN1\">“Hi Pat,我喜欢Starter Story和你正在做的事情。无论是故事本身还是你分享的进展，都很棒。继续加油！”</blockquote><p data-pid=\"pMqgtkRe\">Pat觉得这是一封nice email，但没多想。</p><p data-pid=\"At7k95Qj\"><b>然后对话继续。</b></p><p data-pid=\"eXVfadQr\">他们开始讨论<b>Newsletter赞助</b>的可能性。</p><p data-pid=\"ybO1fw1P\">然后CEO给了一个数字：</p><p data-pid=\"CaMeoeRw\"><b>$12,000。</b></p><hr/><h3>我不敢相信</h3><p data-pid=\"tXDsnCjh\">Pat看到这个数字时，完全不敢相信。</p><p data-pid=\"U20Outax\"><b>当时的Pat：</b></p><ul><li data-pid=\"U3snVz_I\">靠薪水过活（paycheck to paycheck）</li><li data-pid=\"9DtAAor4\">积蓄很少</li><li data-pid=\"LL0wfAqD\"><b>$12,000是他一生中从未见过的钱</b></li></ul><p data-pid=\"oFhLGwkD\">他提交了银行信息。</p><p data-pid=\"YyvVhVS-\">几天后，钱到账了。</p><hr/><h3>在星巴克收到通知</h3><p data-pid=\"6Kn1bOSA\">Pat人在星巴克。</p><p data-pid=\"SksycVUV\">手机收到银行通知：<b>$12,000已入账</b>。</p><p data-pid=\"OjJNMuaW\"><b>他的反应：</b></p><ul><li data-pid=\"5IrjiO3u\">心跳加速</li><li data-pid=\"3BR_kTAo\">从椅子上站起来</li><li data-pid=\"9yHMNlUA\">离开星巴克</li><li data-pid=\"K8qELT7Y\">绕着街区走了一圈</li></ul><p data-pid=\"i2_PjDXe\"><b>脑子里充满情绪：</b></p><p data-pid=\"iWCl4uKx\">“这太疯狂了！”</p><p data-pid=\"SRfH5Mae\">“我收到$12,000，因为我建造了一些东西！”</p><p data-pid=\"gOdCnd5D\">“那些早上6点起床、每天2小时深度工作的日子，直接换来了$12,000！”</p><p data-pid=\"gjnQ31jF\"><b>“我感觉自己成了百万富翁。”</b></p><hr/><h3>兴奋变成恐惧</h3><p data-pid=\"EoM5B96K\">兴奋的情绪很快变成恐惧。</p><p data-pid=\"RJ2TsIC3\"><b>Pat开始怀疑：</b></p><ul><li data-pid=\"MZOqHC5Y\">“这是意外吗？”</li><li data-pid=\"x1Ke7lSs\">“我只是走运了吗？”</li><li data-pid=\"F3bvOVap\">“下一个$12,000会来吗？”</li></ul><p data-pid=\"_GlxrG9Z\"><b>这$12,000代表一个决定：</b></p><p data-pid=\"Pm9ZRgDz\"><b>我应该继续安全的全职工作，还是All in Starter Story？</b></p><hr/><h2>决策时刻：辞职 vs 保持安全</h2><h3>内心的恶魔和天使</h3><p data-pid=\"q-V-_8JA\"><b>恶魔（左肩）：</b> “All in！辞职！这是机会！”</p><p data-pid=\"gDQL8EHL\"><b>天使（右肩）：</b> “别冒险，保持安全，继续拿薪水。”</p><p data-pid=\"NBBSrPk1\">Pat在这两个声音之间<b>犹豫了数月</b>。</p><hr/><h3>想起初心：为什么开始</h3><p data-pid=\"YEp669vD\">某一天，Pat想起他为什么开始这个项目。</p><p data-pid=\"-h-X5CSB\"><b>初心：</b></p><p data-pid=\"Sevj4n12\">“我想为自己而不是别人的梦想工作。”</p><p data-pid=\"JzJuzkaU\"><b>他意识到：</b></p><p data-pid=\"1Jacx7m5\">“如果我现在不做这个决定，我可能永远都不会做。”</p><p data-pid=\"hgdn95jv\">“我可能会变老，回首往事，然后想：<b>‘如果当初…’</b>”</p><hr/><h3>走进公司，递交辞呈</h3><p data-pid=\"QEQEMqIv\">Pat走进公司。</p><p data-pid=\"RLsgpkAl\">递交辞呈。</p><p data-pid=\"URxaxoIX\"><b>辞职了。</b></p><p data-pid=\"WV01_Uet\">决定全力以赴Starter Story。</p><p data-pid=\"E0HMxXNw\"><b>剩下的就是历史了。</b></p><hr/><h2>5年后：年入百万美元</h2><h3>从未回头</h3><p data-pid=\"d0VxJIQj\">那是Pat最后一次拿工资。</p><p data-pid=\"E-n5jVVi\"><b>之后：</b></p><ul><li data-pid=\"DRYxBAPY\">从未回头</li><li data-pid=\"yGmuh4Ix\">从未停止建设</li><li data-pid=\"DhFAu7Yz\">持续失败，但也持续成长</li></ul><p data-pid=\"WWpogj4N\"><b>5年后的结果：</b></p><p data-pid=\"jgzckD5k\">Starter Story年收入：<b>超过$100万美元</b></p><p data-pid=\"dNr7_15K\">现在有<b>4000+案例研究</b>，帮助数万创业者找到方向。</p><hr/><h2>商业逻辑：为什么Starter Story能赚钱？</h2><h3>变现模式：多元化收入</h3><p data-pid=\"Oucc9h1A\"><b>1. Newsletter赞助</b></p><ul><li data-pid=\"b3GEcqdU\">第一个$12k来自Klaviyo</li><li data-pid=\"os4GYZmM\">后来陆续有其他B2B SaaS赞助</li><li data-pid=\"CXW2c0m_\">创业工具公司愿意为精准受众付费</li></ul><p data-pid=\"YcvbwUWp\"><b>2. 联盟营销（Affiliate）</b></p><ul><li data-pid=\"2P5tAaPR\">推荐工具（Shopify, Stripe, 域名注册等）</li><li data-pid=\"qmrVRVwr\">用户购买后分成</li><li data-pid=\"8qbj8Ngv\">被动收入</li></ul><p data-pid=\"xHrQiUto\"><b>3. 会员订阅</b></p><ul><li data-pid=\"yTdmRnZT\">Starter Story Premium</li><li data-pid=\"GEQ8et0f\">深度案例访问</li><li data-pid=\"OeExc7vi\">独家资源和社区</li></ul><hr/><h3>目标客群：想创业但不知道从哪开始的人</h3><p data-pid=\"t5YuLVfZ\"><b>他们的痛点：</b></p><ul><li data-pid=\"sqArbfK5\">不知道如何找到好想法</li><li data-pid=\"t_yYyJjU\">不知道如何验证想法能赚钱</li><li data-pid=\"o_qW9S9v\">所有信息都是关于VC独角兽，不是关于&#34;从到5k/月&#34;</li></ul><p data-pid=\"bE2WEZ2M\"><b>Starter Story的价值：</b></p><ul><li data-pid=\"kIzuEn5h\">展示&#34;比你领先几步&#34;的真实案例</li><li data-pid=\"aocGVH1L\">不是马斯克，是普通人的创业路径</li><li data-pid=\"dg_CJMzv\"><b>可复制、可学习</b></li></ul><hr/><h3>增长渠道：复利效应</h3><p data-pid=\"7O8ic6i_\"><b>Reddit爆火（第4个月）：</b></p><ul><li data-pid=\"3BHbcG9u\">一个故事病毒式传播</li><li data-pid=\"WBdGBiK3\">数千人涌入</li><li data-pid=\"i7Ud-INg\">Newsletter订阅暴涨</li><li data-pid=\"dQu5Cbph\"><b>第一次验证</b></li></ul><p data-pid=\"dVHizanR\"><b>SEO长尾流量：</b></p><ul><li data-pid=\"L_OnQM_e\">每个案例=一篇长文</li><li data-pid=\"I1h3MsRP\">目标长尾关键词：“如何开始[某种业务]”</li><li data-pid=\"CDuEmGcw\">持续带来自然流量</li></ul><p data-pid=\"hR-5lNVO\"><b>口碑传播（创业者社区）：</b></p><ul><li data-pid=\"XZeueCKE\">创业者互相推荐</li><li data-pid=\"wQvB188D\">在Twitter、Indie Hackers分享</li><li data-pid=\"_9XRUwfH\">自然增长</li></ul><p data-pid=\"lxMMykN_\"><b>YouTube（后期爆发）：</b></p><ul><li data-pid=\"iLZjBlhB\">Pat开始做视频</li><li data-pid=\"BTJEcMII\">讲述自己的故事</li><li data-pid=\"UCJpldpY\">进一步扩大受众</li></ul><hr/><h3>市场验证策略：数据驱动决策</h3><p data-pid=\"kxozqGGQ\">在决定深耕案例拆解这个赛道前，Pat研究了类似网站的表现。</p><p data-pid=\"Sq7cz-rk\"><b>如果今天复制这个模式：</b></p><p data-pid=\"P5Cee5Wb\">创业者会使用<b>SiteData查看目标网站的流量趋势、DR、主要广告商和AdSense关联站点</b>，以确认这个市场是否值得投入，并作为增长策略的重要参考。</p><p data-pid=\"aCTOqwLn\">这种数据驱动的决策，帮助避免在错误方向上浪费时间。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9890221e8b19fda3bfe55bd13e64f610_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"675\" data-original-token=\"v2-858e3fdac26cc4ba82bdfaf866fc296a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-9890221e8b19fda3bfe55bd13e64f610_r.jpg\"/></figure><hr/><h3>核心优势：解决信息不对称</h3><p data-pid=\"q2ha0sL4\"><b>传统创业内容：</b></p><ul><li data-pid=\"LfQUL1FC\">VC独角兽如何融资$1亿</li><li data-pid=\"lvjSy07y\">科技巨头的成功故事</li><li data-pid=\"edfYvTEn\"><b>普通人学不到任何东西</b></li></ul><p data-pid=\"Snqpi_8q\"><b>Starter Story：</b></p><ul><li data-pid=\"BqApxoAV\">展示普通人如何从到5k/月</li><li data-pid=\"LaUHzRi4\">展示真实数字、真实挑战</li><li data-pid=\"CEqL1faI\"><b>可复制的路径</b></li></ul><p data-pid=\"pajjFCiO\"><b>Pat的洞察：</b></p><p data-pid=\"EWdohr2v\">“人们不想知道如何成为马斯克，他们想知道如何赚到第一个$5000。”</p><hr/><h2>技术栈清单</h2><p data-pid=\"GnUj3Rq6\"><b>Starter Story的技术栈：</b></p><ul><li data-pid=\"rrlQi7U0\"><b>网站框架：</b> Ruby on Rails / Next.js（后期迁移）</li><li data-pid=\"H6moYs8q\"><b>Newsletter：</b> ConvertKit / Substack</li><li data-pid=\"fRZ6iF9D\"><b>支付处理：</b> Stripe</li><li data-pid=\"e6x87k-L\"><b>数据分析：</b> Google Analytics + Mixpanel</li><li data-pid=\"qKR7h2pO\"><b>SEO工具：</b> SiteData + Ahrefs + SEMrush</li><li data-pid=\"-F5y8fWS\"><b>内容管理：</b> Notion</li><li data-pid=\"vU_UBXtV\"><b>邮件自动化：</b> Mailchimp / ConvertKit</li><li data-pid=\"u1mr89PS\"><b>社交分享：</b> Buffer</li></ul><hr/><h2>SOP总结：你可以立刻开始执行的7个步骤</h2><h3>Step 1: 建立你的深度工作契约</h3><p data-pid=\"Kwlcgy4z\"><b>不要：</b></p><ul><li data-pid=\"pKWYg9B-\">❌ “我要开始创业”（太模糊）</li><li data-pid=\"2h_A7KSu\">❌ “有空就做”（永远没空）</li><li data-pid=\"5UCEUflx\">❌ 靠意志力（意志力会耗尽）</li></ul><p data-pid=\"uhlXCB-4\"><b>要做：</b></p><ul><li data-pid=\"p8Uqsx08\">✅ 找到你的&#34;星巴克&#34;（固定地点）</li><li data-pid=\"_RDX1H6c\">✅ 固定时间（每天早6点 / 下班后）</li><li data-pid=\"LnpWALDh\">✅ 固定时长（2小时，不多不少）</li><li data-pid=\"p-tGKIo4\">✅ 写下契约，可视化明天的动作</li></ul><p data-pid=\"vLjb6QDB\"><b>为什么有效：</b></p><p data-pid=\"9NUcFNld\">仪式感 &gt; 意志力。</p><p data-pid=\"WTMWTIAA\">你不是在&#34;决定做&#34;，你是在&#34;执行契约&#34;。</p><hr/><h3>Step 2: 选择你的&#34;星巴克&#34;（物理或虚拟）</h3><p data-pid=\"p_RnKwtZ\"><b>物理空间：</b></p><ul><li data-pid=\"ojmIVaqN\">咖啡馆（像Pat）</li><li data-pid=\"xW94AOba\">图书馆</li><li data-pid=\"NlzN3I5x\">共享办公空间</li><li data-pid=\"xALxXn17\">家里的固定角落（但要与生活区隔离）</li></ul><p data-pid=\"ZTfc8uyx\"><b>虚拟空间：</b></p><ul><li data-pid=\"eBoKwxKW\">Focus Timer App（Forest, Toggl）</li><li data-pid=\"rsjNMT45\">白噪音/Lo-fi音乐（信号：现在是深度工作时间）</li><li data-pid=\"buJ4oWrE\">关闭所有通知</li></ul><p data-pid=\"crmg6Thm\"><b>关键：</b></p><p data-pid=\"SmXWejf0\"><b>同一时间 + 同一地点 + 同一时长 = 仪式感</b></p><hr/><h3>Step 3: 设计你的2小时时间块</h3><p data-pid=\"rlHuBNQo\"><b>Pat的2小时分配：</b></p><p data-pid=\"Rqw6nEQb\"><b>前30分钟：</b> 规划 + 准备</p><ul><li data-pid=\"QUl5abQG\">今天要完成什么？</li><li data-pid=\"m9IY45OD\">打开需要的工具/文档</li><li data-pid=\"jLJOogHr\">关闭手机/社交媒体</li></ul><p data-pid=\"5ejSBN8Y\"><b>中间1小时：</b> 核心工作</p><ul><li data-pid=\"xSynomkd\">写文章 / 写代码 / 做设计</li><li data-pid=\"BiAYNG3Y\">完全专注，不查邮件</li></ul><p data-pid=\"OvWGvzjQ\"><b>最后30分钟：</b> 收尾 + 记录</p><ul><li data-pid=\"_yBSQiow\">完成当天任务</li><li data-pid=\"GZpMye0q\">记录进展（日志/Twitter）</li><li data-pid=\"hRV9-4lS\">规划明天</li></ul><p data-pid=\"Z6fiSccy\"><b>为什么2小时？</b></p><p data-pid=\"qo5zDep_\">不太短（没法进入心流）。</p><p data-pid=\"qVqa4rOo\">不太长（容易疲劳）。</p><p data-pid=\"Np5PAF16\">刚好够完成一个&#34;有意义的单元&#34;。</p><hr/><h3>Step 4: 内容复利的积累</h3><p data-pid=\"hjhQitiK\"><b>Pat的策略：</b></p><p data-pid=\"bAE4Glf3\"><b>Day 1-30：</b> 发布最初的案例（质量不完美，但发布）</p><p data-pid=\"FQ3dGYu5\"><b>Day 31-60：</b> 持续发布，找到节奏</p><p data-pid=\"WLF_-EIX\"><b>Day 61-90：</b> 启动Newsletter，转化读者为订阅者</p><p data-pid=\"SU-d-xhF\"><b>Day 91-120：</b> 尝试营销（Reddit, Twitter, Indie Hackers）</p><p data-pid=\"VohUUNSh\"><b>Day 121-180：</b> 病毒式增长 + 第一次变现</p><p data-pid=\"diUOdpIT\"><b>关键：</b></p><p data-pid=\"rgdbP2CR\">每天的2小时，看起来很少。</p><p data-pid=\"zwiOe3ca\">但180天 = <b>360小时专注时间</b>。</p><p data-pid=\"KbgYzX7K\">这是绝大多数人一生都做不到的。</p><hr/><h3>Step 5: Newsletter从0到100订阅者</h3><p data-pid=\"lGAb55z8\"><b>为什么Newsletter重要？</b></p><ul><li data-pid=\"kg4pK7kp\">订阅者=你的护城河</li><li data-pid=\"6gmwxKxZ\">不依赖平台算法</li><li data-pid=\"jUztJ42L\">可以直接触达</li><li data-pid=\"JckzZvVE\"><b>是变现的基础</b></li></ul><p data-pid=\"UoL1w3lO\"><b>如何拿到前100订阅者：</b></p><p data-pid=\"9VsZPkQT\"><b>第1-10个：</b> 朋友 + 家人（求他们订阅）</p><p data-pid=\"5SMgBTyR\"><b>第11-50个：</b> 在文章结尾加订阅框（“想要更多案例？订阅Newsletter”）</p><p data-pid=\"f5dDs41o\"><b>第51-100个：</b> 在Reddit/Twitter分享内容，引导订阅</p><p data-pid=\"To6Dz9sb\"><b>第101-1000个：</b> 病毒式增长（一个爆款内容）</p><p data-pid=\"wFWEGwEf\"><b>Pat的教训：</b></p><p data-pid=\"Hdv6VdMV\">“前100个订阅者是最难的，但也是最重要的。”</p><p data-pid=\"H0PEwg-X\">“他们证明了有人真的在乎你在做什么。”</p><hr/><h3>Step 6: 何时开始变现？</h3><p data-pid=\"fkc0ewzS\"><b>错误做法：</b></p><ul><li data-pid=\"ih4dO1ZX\">❌ Day 1就想着赚钱（太早）</li><li data-pid=\"VrVOvBe7\">❌ 等到10万粉丝再变现（太晚）</li></ul><p data-pid=\"8ZHf-70e\"><b>Pat的时间线：</b></p><ul><li data-pid=\"QcyANsmU\">前6个月：<b>不考虑赚钱</b>，只专注内容和受众</li><li data-pid=\"trb2hWIW\">第6个月：开始尝试变现（联盟营销 + 赞助）</li><li data-pid=\"0qBllo4d\">第6-12个月：优化变现策略</li></ul><p data-pid=\"k8bNn_zQ\"><b>何时可以开始变现？</b></p><p data-pid=\"wn4v3-UJ\">当你有了<b>100-1000个真正engagement的订阅者</b>。</p><p data-pid=\"dAwi9Uzb\">不是僵尸粉，是真正回复你邮件、点击链接的人。</p><hr/><h3>Step 7: 如何识别&#34;All in&#34;的信号？</h3><p data-pid=\"vFsSFs86\"><b>Pat的信号：</b></p><p data-pid=\"bOIwujhh\">收到第一个$12,000。</p><p data-pid=\"fLTPgTXx\"><b>你的信号可能是：</b></p><ul><li data-pid=\"2SFNYZLH\">第一个陌生人付费</li><li data-pid=\"FAC8bDk8\">第一个月赚到$1000（足够覆盖生活成本）</li><li data-pid=\"CNGmrlqf\">第一个客户主动续费</li><li data-pid=\"_wzy8W4U\">有人说&#34;你的东西改变了我的生活&#34;</li></ul><p data-pid=\"E8L62mRH\"><b>关键问题：</b></p><p data-pid=\"T_Gydqg-\">“如果我All in，失败了，我能承受后果吗？”</p><p data-pid=\"VrhGYNa4\"><b>Pat的答案：</b></p><p data-pid=\"eF7OQVF0\">“如果我不All in，老了会后悔吗？”</p><p data-pid=\"Dt9o_vAt\"><b>“后悔比失败更可怕。”</b></p><hr/><h2>核心洞察：反常识的3个真相</h2><h3>真相1：成功不是靠更好的想法</h3><p data-pid=\"RO2gRH9u\"><b>常识：</b> 我要找到完美的idea才能开始。</p><p data-pid=\"KWBM8IiC\"><b>真相：</b> Pat的idea（案例拆解博客）一点都不新。</p><p data-pid=\"KwlNV02L\"><b>真正重要的：</b> 每天出现在同一个地方，做你的2小时。</p><p data-pid=\"tXvA6JU8\"><b>Pat的话：</b></p><p data-pid=\"Kw6_l09Y\">“我给了自己一个变得幸运的机会。”</p><p data-pid=\"I8A41LID\">“我做了几个月，然后幸运来了（$12k的邮件）。”</p><p data-pid=\"MFQjd_62\">“但如果我没有每天出现在星巴克，这个幸运永远不会发生。”</p><hr/><h3>真相2：赚第一个比赚第一个1M更重要</h3><p data-pid=\"7ttzttmI\"><b>常识：</b> 目标是年入$1M。</p><p data-pid=\"iru76lRg\"><b>真相：</b> 第一个$12k证明了这条路是通的。</p><p data-pid=\"Ge_T6Q11\"><b>为什么重要：</b></p><ul><li data-pid=\"RqNxj6JZ\">它让你相信&#34;这不是白日梦&#34;</li><li data-pid=\"UV04gOx1\">它给了你All in的勇气</li><li data-pid=\"pRAUS6Fr\">它打破了&#34;打工才有钱&#34;的信念</li></ul><p data-pid=\"oDZ1Anz3\"><b>Pat的教训：</b></p><p data-pid=\"v3KN3h4a\">“那$12k改变了我的人生，不是因为钱本身，而是因为它证明了：<b>我可以为自己工作。</b>”</p><hr/><h3>真相3：Newsletter订阅者不是虚荣指标</h3><p data-pid=\"8JhRavm4\"><b>常识：</b> 订阅者越多越好。</p><p data-pid=\"5Ub0Eugg\"><b>真相：</b> 100个真正engagement的订阅者 &gt; 10000个僵尸粉。</p><p data-pid=\"WVJ7RArq\"><b>为什么：</b></p><ul><li data-pid=\"L1g7CI2o\">订阅者=你的护城河（不依赖平台）</li><li data-pid=\"mLJPQk3q\">订阅者=变现基础（Newsletter赞助）</li><li data-pid=\"6HwN9gVX\">订阅者=反馈来源（知道你在做对的事）</li></ul><p data-pid=\"nHj6GHzJ\"><b>Pat的策略：</b></p><p data-pid=\"3RM8T1HI\">前6个月，唯一目标：拿到前<b>1000个订阅者</b>。</p><p data-pid=\"QW7Z3kjI\">不是流量，是订阅者。</p><hr/><h2>最后一句话</h2><p data-pid=\"9Tr2lkIc\"><b>Pat Walls的故事不是关于天才，是关于每天出现。</b></p><p data-pid=\"5UxnLpIy\">他不是技术天才。</p><p data-pid=\"2g05AmDp\">他不是营销大师。</p><p data-pid=\"hHOSNQZn\">他只是一个26岁的程序员，每天路过星巴克不敢进去。</p><p data-pid=\"iJLsS-FK\"><b>直到他读了一本书，签了一份契约，走了进去。</b></p><p data-pid=\"uZKUEc8G\"><b>2小时 × 180天 = 年入百万美元的起点。</b></p><p data-pid=\"Ze9fRz5C\">如果你也想做副业、想创业、想为自己工作：</p><p data-pid=\"lgnQJdDp\"><b>不要等&#34;完美的想法&#34;。</b></p><p data-pid=\"CpJSu83z\"><b>找到你的星巴克，坐下来，设定2小时计时器。</b></p><p data-pid=\"vj4Rbr_0\"><b>明天也一样。</b></p><p data-pid=\"QsLG1zcW\"><b>后天也一样。</b></p><p data-pid=\"VeRb0gF0\"><b>180天后，你会惊讶于自己建造了什么。</b></p><hr/>",
+        "article_type": "normal",
+        "id": "1981782426087878931",
+        "author": {
+          "url_token": "yi-jie-xi-30",
+          "avatar_url": "https://pica.zhimg.com/50/v2-8d76b4b98c3cb5b30d951a83a6aa8377_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 135,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/5a0973f2227a8482e3da5e2ed03683c2",
+          "user_type": "people",
+          "headline": "公号「饭特稀 AI」，SiteData 出海必备插件",
+          "gender": -1,
+          "is_followed": false,
+          "id": "5a0973f2227a8482e3da5e2ed03683c2",
+          "name": "饭特稀"
+        },
+        "title": "26岁程序员星巴克每天蹭网2小时，6个月从0到年入百万美元：我扒出了他的\"深度工作\"造富SOP",
+        "created": 1765273806,
+        "is_labeled": false,
+        "favorite_count": 14
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1981782426087878931}",
+      "attached_info": "CvkHCNG/2+miyr7YpQEQBxoJMjY3NDE5NTQ1IM7h38kGKAEwAEBuSjAKBkl0ZW1DRhIgZG9jX3R5cGU6IEFydGljbGUKaWQ6IDI2NzI1MjUzNQoYACAAOgBiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTgxNzgyNDI2MDg3ODc4OTMxqgEJcmVjb21tZW5kwgEgNWEwOTczZjIyMjdhODQ4MmUzZGE1ZTJlZDAzNjgzYzLyAQoIDBIGTm9ybWFs8gEoCAoSJDE1YzYwMmQyLTUzY2MtNGUzZS1hYzU0LWUzZDFmYjcwYTBkMvIBBggLEgIxOYICAIgC9fmTm7kzkgIgNWEwOTczZjIyMjdhODQ4MmUzZGE1ZTJlZDAzNjgzYzKaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIGSXRlbUNG6AID+gILTk9STUFMX0ZMT1eKAyA5NjViMGYyNTAzMDY0YWRjYTM1NmZjODcxOTU1YmZiYpoDDQoCdjIQABoFb3RoZXKoA4ID2AMA6gMVdGV4dEFsbFNpdGVNdkl0ZW1DRlYy+gPoAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDELgIGOAEIiN2Mi1mNzNhOGE3NDhiZjM5NGU3MDAyYzc4NDE4NzUwZmRjZjotCAMQuAgYlwQiI3YyLTc2NWU1MzA2MzAwMGJhZmU3YWMzZjk1N2IwNzExYWZlOi0IAxC4CBjzAyIjdjItMDk4OGZjMTJmYmQwMmQ4YmY3YjBiZmYzNjg1ZjY4Mzg6LQgDELgIGO8DIiN2Mi1iYzM4MmI5Y2U5MWQwNDgyN2MyZmY3NmNlN2M2NTFiYjotCAMQuAgYpAQiI3YyLTk2OGEyZTAzMjA4OGMwMzVmYTg5OTNkYjZlYzY1MTY5Oi0IAhC4CBjOBCIjdjItMWZjZjE2ZDQ0ZTA4YjM4NzQyZTU3Mjg1ZmI4OWRlYTU6LQgCELgIGKMFIiN2Mi04NThlM2ZkYWMyNmNjNGJhODJiZGZhZjg2NmZjMjk2YYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAHQakT+BBQAAAAAAAAAAiQW/RS019omyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZvqAYAkgIuCgkyNjc0MTk1NDUSEzE5ODE3ODI0MjYwODc4Nzg5MzEYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "111_1767704427.668",
+      "type": "feed",
+      "offset": 111,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704427,
+      "updated_time": 1767704427,
+      "target": {
+        "thanks_count": 24411,
+        "content": "<p data-pid=\"QXeUu8bK\"><b>见过世面后的坦荡与克制。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"71lhnIbh\">我在大学里学的是俄语专业。</p><p data-pid=\"XVh6cb00\">上学期有堂课，学俄语中的谚语。有一句我记得特别清晰：у природы нет плохой погоды. 意思是：在大自然里没有坏天气。无论天气是风和日丽、春和景明还是大雪纷飞、阴雨雷鸣，都是大自然给人类的馈赠，各样的天气有各样的好，无须抱怨，我们认真生活就是。</p><p data-pid=\"iTTxGm8o\">用一句更传统的东方的语言解释我觉得更为精妙：不以物喜，不以己悲。</p><p data-pid=\"xaNg3GPG\">一个人怎样才算见过世面？</p><p data-pid=\"xhKDSNtU\">吃牛排时知道右手拿刀左手拿叉？身处繁华都市经历过各种新鲜事物？朋友圈里结交的都是娱乐明星商业精英或是处长部长? 感情经历丰富甚至谈过外国女友？留洋海外有硕士博士学历？</p><p data-pid=\"vceYsZnE\">还是去过顶尖的场所，见体面的人，喝不同的酒，观赏世界各地不同的风景，住不同的酒店，看不同的书，吃不同美食，去不同的国度，有不同的见解？</p><p data-pid=\"ZLVaTfyv\">是这些吗？</p><p data-pid=\"NYetjP9w\"> 读小学时，我羡慕那些幽默搞怪在女生中出尽风头的男生；读初中时，我羡慕叛逆早恋抽烟喝酒有许多朋友的男生；读高中时，我羡慕长得高长得帅会读书学习好会打篮球会弹琴唱歌的男生；到了大学，我又羡慕那些当上了学生会部长主席在人群中高谈阔论侃侃而谈的男生。</p><p data-pid=\"d72IRtAx\">我曾以为，这些就是见过世面。</p><p data-pid=\"VKqYot8e\">然而在年岁渐长中我才明白，这些不是。</p><p data-pid=\"1E3mMSWU\">原来真正的见过世面，不是吃过昂贵上流的松露、鱼子酱，看过莫斯科大剧院的芭蕾舞剧，家中私藏异宝奇珍追溯千年……</p><p data-pid=\"8bMLfcvU\">也不是见识过多少毫无底线的欺诈，承受过多少难以言喻的苦难，拥有过多么卑贱或者高贵的身份地位，看到过多少嫌贫媚富的嘴脸……</p><p data-pid=\"zU2DIN3r\">不是在于人的眼、耳、鼻、舌、身、意……经受过多么强烈的感官刺激，以至于面对日常生活中的一切都无谓淡然。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8k7IkFhT\">而是，</p><p data-pid=\"uhnPwr7x\">能体会囊中羞涩的窘迫，能理解穷人乍富的傲慢，能想象井底之蛙的短浅，能宽容吹嘘者的外强中干……</p><p data-pid=\"aaYeOSS-\">能理解这一切的无知、偏见、自大、虚荣、傲慢、自卑，</p><p data-pid=\"09M1Shup\">众生百态皆有其缘由。</p><p data-pid=\"4tejEZTN\">不艳羡富人，也不怜悯穷人，不媚不欺，不卑不亢。知世界之大，知自己渺小，知时间之长，知得失去留皆常态。“不以物喜，不以己悲”。</p><p data-pid=\"n1pQ5Wno\">能明白所有的见解都被自己的情绪影响，所有的评价都依个人的理解和现有的见识而判定，并时常包含着自大与蔑视，这是世人常态。见过世面的人应该要在最大范畴上明白，人脑根本上是必然主观的，于是并没有绝对的是非。在相对小些的范畴上，多谈喜好，少谈是非。在更小的日常范畴上，坚持自定且自恰的道德和行为规范，并对他人他物进行价值判断表现得较为克制、收敛。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"D1rgcnmR\"><b>已识乾坤大，犹怜草木青。</b>见过世面的人都会有矢志不渝的少年气。永远年轻，永远热泪盈眶。永远不会向生活屈服，不会长大后觉得提“梦想”是一件很幼稚的事情，不会自嘲“努力不一定会成功，但不努力一定会很舒服”，不会为了融入环境盲目从众。</p><p data-pid=\"OxcbJWoi\" class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Hl-stPm9\"><b>“每逢你想要批评别人的时候，你就要记得，这个世界上并不是人人拥有你的优越条件。”</b></p><p data-pid=\"AIi7fbzm\">见过世面的人会明白芸芸众生的异同，能理解众生为何会有百相，会变得包容豁达懂悲悯。有人住高楼也有人处深沟，有人喜欢去健身房撸铁也有人喜欢在家宅着撸猫，有人喜欢日漫二次元也有人喜欢漫威美剧，有人向往北上广的繁华陆离也有人热爱山村里的斜阳炊烟，有人喜欢lo裙也有人喜欢汉服，有的人变性，有的人女装，有的人不婚，有的人同性恋，这皆是众生活着的千百万种姿态。见过世面的人会懂得如何包容这世间的一切。</p><p data-pid=\"bo_abVxQ\">见过世面后不是博学广识，而是坦荡与温柔。</p><p data-pid=\"5Bfghj8x\">偏偏越温柔的人越难驯服。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lF6X3jWW\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/6c13a29920be2aedf36057f59abe108c\" data-hash=\"6c13a29920be2aedf36057f59abe108c\" data-hovercard=\"p$b$6c13a29920be2aedf36057f59abe108c\">@一只湖</a> </p><hr/><p data-pid=\"eTMkueuF\">small red book上有个视频借用了本文的部分内容。</p><p data-pid=\"8WjVy3OK\">未经授权，但无所谓，</p><p data-pid=\"zSZJ3_UJ\">“能理解这一切的自大、虚荣、傲慢、自卑，</p><p data-pid=\"5X_LmQzu\">众生百态皆有其缘由。”</p><p data-pid=\"A0kjTtlM\">所以不用再私信我或者在评论区留言啦。</p><p data-pid=\"yGJzd-S-\">另，</p><a href=\"https://www.zhihu.com/answer/1953673414\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">一只湖：孤独真的能毁掉一个人吗？</a><p class=\"ztext-empty-paragraph\"><br/></p><a href=\"https://www.zhihu.com/answer/1918038819\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">一只湖：放下一个很爱的人是什么心情？</a><p></p><p></p>",
+        "vote_next_step": "vote",
+        "id": "1838775226",
+        "type": "answer",
+        "preview_text": "",
+        "favorite_count": 86905,
+        "updated_time": 1660988398,
+        "voteup_count": 83272,
+        "comment_count": 1688,
+        "is_labeled": false,
+        "excerpt_new": "见过世面后的坦荡与克制。 我在大学里学的是俄语专业。 上学期有堂课，学俄语中的谚语。有一句我记得特别清晰：у природы нет плохой погоды. 意思是：在大自然里没有坏天气。无论天气是风和日丽、春和景明还是大雪纷飞、阴雨雷鸣，都是大自然给人类的馈赠，各样的天气有各样的好，无须抱怨，我们认真生活就是。 用一句更传统的东方的语言解释我觉得更为精妙：不以物喜，不以己悲。 一个人怎样才算见过世…",
+        "is_navigator": false,
+        "author": {
+          "url": "https://api.zhihu.com/people/6c13a29920be2aedf36057f59abe108c",
+          "name": "我是湖",
+          "headline": "浅薄无知，虚有其表",
+          "is_following": false,
+          "is_followed": false,
+          "id": "6c13a29920be2aedf36057f59abe108c",
+          "user_type": "people",
+          "url_token": "yi-zhi-hu-28-31",
+          "avatar_url": "https://picx.zhimg.com/50/v2-40efc6d474ad7b79c0b7aa5dc1fc52c9_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 25620
+        },
+        "preview_type": "default",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "question": {
+          "answer_count": 0,
+          "bound_topic_ids": [
+            307,
+            1576,
+            3946,
+            16208
+          ],
+          "question_type": "normal",
+          "author": {
+            "id": "",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "followers_count": 0,
+            "url": "",
+            "user_type": "people",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "created": 1520132125,
+          "comment_count": 68,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/268163243",
+          "follower_count": 0,
+          "detail": "",
+          "id": "268163243",
+          "type": "question",
+          "title": "你最欣赏的性格是什么样的？",
+          "excerpt": ""
+        },
+        "visited_count": 2263040,
+        "answer_type": "normal",
+        "reaction_instruction": {
+          "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+        },
+        "segment_infos": [
+          {
+            "pid": "XVh6cb00",
+            "text": "上学期有堂课，学俄语中的谚语。有一句我记得特别清晰：у природы нет плохой погоды. 意思是：在大自然里没有坏天气。无论天气是风和日丽、春和景明还是大雪纷飞、阴雨雷鸣，都是大自然给人类的馈赠，各样的天气有各样的好，无须抱怨，我们认真生活就是。",
+            "marks": [
+              {
+                "start_index": 26,
+                "end_index": 133,
+                "seg_info": {
+                  "seg_ids": [
+                    "1540205591565262848"
+                  ],
+                  "is_like": false,
+                  "like_count": 14,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "iTTxGm8o",
+            "text": "用一句更传统的东方的语言解释我觉得更为精妙：不以物喜，不以己悲。",
+            "marks": [
+              {
+                "start_index": 22,
+                "end_index": 31,
+                "seg_info": {
+                  "seg_ids": [
+                    "1528157965848297472"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "zU2DIN3r",
+            "text": "不是在于人的眼、耳、鼻、舌、身、意……经受过多么强烈的感官刺激，以至于面对日常生活中的一切都无谓淡然。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 51,
+                "seg_info": {
+                  "seg_ids": [
+                    "1539557327631474688",
+                    "1549017242678816768"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "8k7IkFhT",
+            "text": "而是，",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 3,
+                "seg_info": {
+                  "seg_ids": [
+                    "1539557327631474688",
+                    "1549017242678816768"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "uhnPwr7x",
+            "text": "能体会囊中羞涩的窘迫，能理解穷人乍富的傲慢，能想象井底之蛙的短浅，能宽容吹嘘者的外强中干……",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 46,
+                "seg_info": {
+                  "seg_ids": [
+                    "1539557327631474688",
+                    "1549017242678816768"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "aaYeOSS-",
+            "text": "能理解这一切的无知、偏见、自大、虚荣、傲慢、自卑，",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1539557327631474688",
+                    "1549017242678816768"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "09M1Shup",
+            "text": "众生百态皆有其缘由。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 10,
+                "seg_info": {
+                  "seg_ids": [
+                    "1539557327631474688",
+                    "1549017242678816768"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "n1pQ5Wno",
+            "text": "能明白所有的见解都被自己的情绪影响，所有的评价都依个人的理解和现有的见识而判定，并时常包含着自大与蔑视，这是世人常态。见过世面的人应该要在最大范畴上明白，人脑根本上是必然主观的，于是并没有绝对的是非。在相对小些的范畴上，多谈喜好，少谈是非。在更小的日常范畴上，坚持自定且自恰的道德和行为规范，并对他人他物进行价值判断表现得较为克制、收敛。",
+            "marks": [
+              {
+                "start_index": 100,
+                "end_index": 119,
+                "seg_info": {
+                  "seg_ids": [
+                    "1525610001930850304"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 147,
+                "end_index": 169,
+                "seg_info": {
+                  "seg_ids": [
+                    "1525610134139531264"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "D1rgcnmR",
+            "text": "已识乾坤大，犹怜草木青。见过世面的人都会有矢志不渝的少年气。永远年轻，永远热泪盈眶。永远不会向生活屈服，不会长大后觉得提“梦想”是一件很幼稚的事情，不会自嘲“努力不一定会成功，但不努力一定会很舒服”，不会为了融入环境盲目从众。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 30,
+                "seg_info": {
+                  "seg_ids": [
+                    "1536440470581985280"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bo_abVxQ",
+            "text": "见过世面后不是博学广识，而是坦荡与温柔。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1540819747293126657"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "5Bfghj8x",
+            "text": "偏偏越温柔的人越难驯服。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 12,
+                "seg_info": {
+                  "seg_ids": [
+                    "1540819747293126657"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          }
+        ],
+        "url": "https://api.zhihu.com/answers/1838775226",
+        "created_time": 1618570850,
+        "is_copyable": true,
+        "excerpt": "见过世面后的坦荡与克制。 我在大学里学的是俄语专业。 上学期有堂课，学俄语中的谚语。有一句我记得特别清晰：у природы нет плохой погоды. 意思是：在大自然里没有坏天气。无论天气是风和日丽、春和景明还是大雪纷飞、阴雨雷鸣，都是大自然给人类的馈赠，各样的天气有各样的好，无须抱怨，我们认真生活就是。 用一句更传统的东方的语言解释我觉得更为精妙：不以物喜，不以己悲。 一个人怎样才算见过世…",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1838775226}",
+      "attached_info": "CsQFCNG/2+miyr7YpQEQBBoJMzY0NDAxOTI3IOLc5YMGKMiKBTCYDUBvSi8KBkl0ZW1DRhIfZG9jX3R5cGU6IEFuc3dlcgppZDogNjYyNzEyNzA0ChgAIAA6AFoIMjE2OTg1OTViIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5cgoxODM4Nzc1MjI2igEJMjY4MTYzMjQzqgEJcmVjb21tZW5kwgEgNmMxM2EyOTkyMGJlMmFlZGYzNjA1N2Y1OWFiZTEwOGPyAQoIDBIGTm9ybWFs8gEoCAoSJGZiYjJmYTViLWE5NDUtNDk4MS1iMDczLTdlNTlkZjRlYzYxZvIBBggLEgIxOYICAIgC9fmTm7kzkgIgNmMxM2EyOTkyMGJlMmFlZGYzNjA1N2Y1OWFiZTEwOGOaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIGSXRlbUNG6AID+gILTk9STUFMX0ZMT1eKAyA5NjViMGYyNTAzMDY0YWRjYTM1NmZjODcxOTU1YmZiYpoDDQoCdjIQABoFb3RoZXKoA4CQigHYAwDqAxV0ZXh0QWxsU2l0ZU12SXRlbUNGVjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEBm1hbnVhbMIEAzE2MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoAHajT+BBQAAAAAAAAAAiQW/RS019omyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZwqAYAkgIlCgkzNjQ0MDE5MjcSCjE4Mzg3NzUyMjYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "112_1767704427.310",
+      "type": "feed",
+      "offset": 112,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704427,
+      "updated_time": 1767704427,
+      "target": {
+        "visited_count": 233,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "url": "https://api.zhihu.com/articles/1975271455471207698",
+        "voting": 0,
+        "favorite_count": 3,
+        "comment_count": 0,
+        "excerpt": "“Vibe Coding”（氛围编程）像摇滚明星一样闯进了开发者圈子。那时候，大家都在谈论抛弃僵化的架构图，关掉烦人的 Linter（代码检查器），跟着直觉走。甚至有人鼓吹：别管什么设计模式，让 AI 和你的直觉带飞，写代码应该像玩爵士乐一样随性。 这听起来太诱人了：像写开源项目一样自由，像原型开发一样极速。 但半年过去了，香槟的气泡散尽，宿醉开始袭来。开发者们逐渐意识到：Vibe Coding 确实让起步变得无比丝滑，但当项目进…",
+        "preview_text": "",
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-3ac38054b71871e19f1474c30516f56a.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-3ac38054b71871e19f1474c30516f56a_720w.jpg?source=b6762063"
+        ],
+        "comment_permission": "all",
+        "author": {
+          "id": "9ec1f6af117abd0ed12de36f62ac27a1",
+          "url": "https://api.zhihu.com/people/9ec1f6af117abd0ed12de36f62ac27a1",
+          "user_type": "people",
+          "url_token": "xing-yun-guang-shi",
+          "is_following": false,
+          "followers_count": 2,
+          "is_followed": false,
+          "name": "星陨光逝",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-055f839369773bbd0ee264130326b571_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1
+        },
+        "created": 1763721575,
+        "content": "<h2>“Vibe Coding”（氛围编程）像摇滚明星一样闯进了开发者圈子。</h2><p data-pid=\"ErmKi31O\">那时候，大家都在谈论抛弃僵化的架构图，关掉烦人的 Linter（代码检查器），跟着直觉走。甚至有人鼓吹：别管什么设计模式，让 AI 和你的直觉带飞，写代码应该像玩爵士乐一样随性。</p><p data-pid=\"zrmmH1_b\">这听起来太诱人了：像写开源项目一样自由，像原型开发一样极速。</p><p data-pid=\"WQqN_50a\">但半年过去了，香槟的气泡散尽，宿醉开始袭来。开发者们逐渐意识到：Vibe Coding 确实让起步变得无比丝滑，但当项目进入深水区，它留下的烂摊子也是史诗级的。</p><p data-pid=\"Q8hsHKkd\">我不是来给这个趋势泼冷水的，也不是来唱赞歌的。作为技术人，我们需要通过现象看本质：<b>Vibe Coding 到底在哪儿好用？在哪儿会崩盘？当我们在生产环境里“跟着感觉走”时，到底会发生什么？</b></p><hr/><h3>为什么它一开始让人上头？</h3><p data-pid=\"utpudgRO\">Vibe Coding 刚出现时，简直是“企业级开发疲劳”的解药。</p><p data-pid=\"wZPxsMRX\">在一个充满了 Jira 门票、繁琐流程和“每一行代码都要像发射火箭一样严谨”的世界里，Vibe Coding 对你说：“嘿，放松点，玩起来。”</p><p data-pid=\"YxTD8o1_\">它给了开发者一个宣泄口。你不需要一开始就想清楚所有的边缘情况，你可以把半成品的想法扔进编辑器，让 Copilot 帮你补全，像即兴演奏一样把功能堆出来。这种 <b>“Vibey Commits”（氛围感提交）</b> 一度成了某种叛逆的勋章——甚至比传统的敏捷开发还要敏捷。</p><p data-pid=\"TbUzxYOa\">对于被大厂流程压得喘不过气的一线工程师，或者想快速验证想法的独立开发者，这种自由感是无价的。那一刻，代码似乎重新变回了艺术，而不仅仅是产品。</p><hr/><h3>裂痕出现在哪里？</h3><p data-pid=\"nR-W74Zk\">好景不长。当项目从“Demo”走向“1.0”，裂痕就出现了。</p><p data-pid=\"l56eBdRV\"><b>混乱带来的债务，是要还的。</b></p><p data-pid=\"6f4K1TMt\">那些在截图里看起来很酷的代码，到了凌晨两点的 Debug 现场，就变成了灾难。当你的团队试图理清分散在 10 个临时文件里的逻辑时，没人觉得这很“Playful”。</p><p data-pid=\"ae46ibzF\">重构的时候，代价更是肉眼可见：</p><ul><li data-pid=\"7yKVOyeI\"><b>依赖关系不明</b>：这里引一个包，那里调一个库，毫无章法。<br/></li><li data-pid=\"uN7oyYpg\"><b>命名随意</b>：变量名充满了当时的“灵机一动”，而不是语义化。<br/></li><li data-pid=\"CIq5i41q\"><b>架构像胶带粘的</b>：也就是我们常说的“屎山”雏形。</li></ul><p data-pid=\"jadWZ8D4\">最致命的是，那种让 Vibe Coding 充满魅力的“松散感”，恰恰是阻碍系统扩展的元凶。很多开发者在前期享受了极速开发的快感，后期却不得不花费三倍的时间去“还债”，甚至被迫重写核心模块。</p><p data-pid=\"svI7Vvex\">更别提这种模式下，对 AI 辅助编码工具的过度依赖，有时会引入未经验证的安全漏洞。所谓的“直觉”，在安全审计面前往往不堪一击。</p><hr/><h3>Vibe Coding 的真正甜区：原型与探索</h3><p data-pid=\"pagHMUR8\">批判归批判，Vibe Coding 就一无是处吗？当然不是。它有一个绝对的统治领域：<b>原型设计（Prototyping）</b>。</p><p data-pid=\"oG3Jy-s4\">如果你现在的目标是：</p><ul><li data-pid=\"zEXvX0-u\">探索一个模糊的想法<br/></li><li data-pid=\"tQYja5ud\">验证某个技术方案是否可行<br/></li><li data-pid=\"OmP-UJxP\">搞 Hackathon（黑客松）<br/></li><li data-pid=\"9gC9Hody\">写一个阅后即焚的一次性脚本<br/></li></ul><p data-pid=\"xMPAU7GD\">在这些场景下，Vibe Coding 是无敌的。它鼓励你快速迭代，一上午尝试十种不同的写法。这时候，<b>过早的优化（Premature Optimization）才是万恶之源</b>。</p><p data-pid=\"Z-pHyUhw\">把它想象成画家在定稿前的铅笔草图——草图乱一点没关系，重要的是捕捉灵感。</p><p data-pid=\"iQPzAq--\">但危险在于，很多人把“草图”直接当成了“工程图纸”去施工。</p><p data-pid=\"GwGumG8O\"><b>Vibe Coding 的强项是帮你找路，一旦路找到了，就该切换回严谨的工程模式。</b></p><hr/><h3>为什么“氛围”难以规模化？</h3><blockquote data-pid=\"2Bc_lVRt\"> “我的混乱是我的捷径，但对你来说就是迷宫。”</blockquote><p data-pid=\"5iBM5MXn\">Vibe Coding 本质上是一种极其个人化的体验。一个人单兵作战时，你可以容忍自己的烂代码，因为你脑子里有上下文。但一旦团队超过三个人，协作就需要协议、文档和规范。</p><p data-pid=\"3Qvy0rpa\">当大家都在“跟着感觉走”，没有统一的命名规范，没有一致的数据处理逻辑，所谓的“氛围”就会迅速衰退成“熵增”。</p><p data-pid=\"LIDVPxgZ\">其表现包括：</p><ul><li data-pid=\"53lXPhiZ\"><b>沟通成本爆炸</b>：<br/>“你这一块逻辑为什么要这么写？”<br/>“当时感觉这样比较顺。”<br/>——这种对话是团队协作的杀手。</li><li data-pid=\"do0bFn0m\"><b>Deadline 是氛围粉碎机</b>：<br/>周日在大脑多巴胺分泌旺盛时写代码是享受；<br/>周五面临交付压力时，面对一堆缺乏结构的代码，只会让人血压升高。</li></ul><hr/><h3>极客的生存之道：混合模式</h3><p data-pid=\"X-12qNI9\">经过半年的洗礼，最聪明的开发者已经不再追求纯粹的 Vibe Coding，而是进化出了 <b>混合流（Hybrid Workflow）</b>。</p><h3>1. 分离“探索期”与“交付期”</h3><p data-pid=\"WTKUOU6G\">给自己设定专门的 “Vibe Time”。在这个阶段，随便写、随便试。一旦核心逻辑跑通，立刻进入重构阶段，把“草图”变成正规军代码。</p><h3>2. 分支策略</h3><p data-pid=\"WZ7-QKps\">一些团队甚至建立了专门的 <code>experimental</code> 分支用于 Vibe Coding。在这个分支里，linter 规则可以放宽，代码审查可以从简。</p><p data-pid=\"wa5LAilB\">但如果要合并回 <code>main</code>，必须经过严格的清洗和格式化。</p><h3>3. 轻量级护栏</h3><p data-pid=\"J8KzfcBb\">即使是“乱写”，也要保留底线。比如：</p><ul><li data-pid=\"mfpdf5Iq\">核心的命名约定不能乱<br/></li><li data-pid=\"DWKPrVbI\">模块的边界要清晰<br/></li></ul><p data-pid=\"3xLnA0CC\">就像在爵士乐即兴演奏中，大家至少要在“大调”和“小调”上达成一致。</p><hr/><h3>总结</h3><p data-pid=\"ag6kPBaz\">Vibe Coding 的蜜月期结束了，这其实是件好事。</p><p data-pid=\"1UROfOAB\">这意味着我们不再把它视为一种“神学”或“革命”，而是回归到工具的本质。<b>它不是用来替代软件工程的，它是用来加速早期灵感捕获的。</b></p><p data-pid=\"HumtbWLT\">如果你能分清什么时候该 <b>“Vibe”（探索）</b>，什么时候该 <b>“Build”（构建）</b>，你就掌握了这种新范式的精髓。</p><p data-pid=\"NIyp-unv\"><b>少一点 hype（炒作），多一点工程诚实。这才是极客该有的样子。</b></p>",
+        "id": "1975271455471207698",
+        "allow_segment_interaction": true,
+        "is_labeled": false,
+        "voteup_count": 4,
+        "excerpt_new": "“Vibe Coding”（氛围编程）像摇滚明星一样闯进了开发者圈子。那时候，大家都在谈论抛弃僵化的架构图，关掉烦人的 Linter（代码检查器），跟着直觉走。甚至有人鼓吹：别管什么设计模式，让 AI 和你的直觉带飞，写代码应该像玩爵士乐一样随性。 这听起来太诱人了：像写开源项目一样自由，像原型开发一样极速。 但半年过去了，香槟的气泡散尽，宿醉开始袭来。开发者们逐渐意识到：Vibe Coding 确实让起步变得无比丝滑，但当项目进…",
+        "type": "article",
+        "preview_type": "default",
+        "article_type": "normal",
+        "title": "Vibe Coding：蜜月期过了，该聊聊“技术债”了",
+        "image_url": "https://picx.zhimg.com/v2-3ac38054b71871e19f1474c30516f56a.jpg?source=7e7ef6e2&needBackground=1",
+        "updated": 1763721575,
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1975271455471207698}",
+      "attached_info": "CrwGCNG/2+miyr7YpQEQBxoJMjY2NjkyNTY1IOeCgckGKAQwAEBwSi4KBkl0ZW1DRhIeZG9jX3R5cGU6IEFydGljbGUKaWQ6IDYxNjcyNzEKGAAgADoAYiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXITMTk3NTI3MTQ1NTQ3MTIwNzY5OIIBX2h0dHBzOi8vcGljeC56aGltZy5jb20vdjItM2FjMzgwNTRiNzE4NzFlMTlmMTQ3NGMzMDUxNmY1NmEuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xqgEJcmVjb21tZW5kwgEgOWVjMWY2YWYxMTdhYmQwZWQxMmRlMzZmNjJhYzI3YTHyAQoIDBIGTm9ybWFs8gEoCAoSJDk0MTQ3MGI2LWE3YTYtNGI4ZC04ZTA3LTVjZmU5OWQ1MzlhMfIBBggLEgIxOYICAIgC9fmTm7kzkgIgOWVjMWY2YWYxMTdhYmQwZWQxMmRlMzZmNjJhYzI3YTGaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCElRoZW1lSXNvbGF0aW9uUnVsZdoCBkl0ZW1DRugCA/oCC05PUk1BTF9GTE9XigMgOTY1YjBmMjUwMzA2NGFkY2EzNTZmYzg3MTk1NWJmYmKaAw0KAnYyEAAaBW90aGVyqAPpAdgDAOoDFXRleHRBbGxTaXRlTXZJdGVtQ0ZWMvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEMAKGIAGIiN2Mi0zYWMzODA1NGI3MTg3MWUxOWYxNDc0YzMwNTE2ZjU2YYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIPiTfT+BBQAAAAAAAAAAiQW/RS019omyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZxqAYBkgIuCgkyNjY2OTI1NjUSEzE5NzUyNzE0NTU0NzEyMDc2OTgYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "113_1767704427.728",
+      "type": "feed",
+      "offset": 113,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704427,
+      "updated_time": 1767704427,
+      "target": {
+        "thanks_count": 48,
+        "visited_count": 39985,
+        "answer_type": "normal",
+        "id": "1988874836060165750",
+        "url": "https://api.zhihu.com/answers/1988874836060165750",
+        "question": {
+          "id": "36201711",
+          "excerpt": "",
+          "question_type": "normal",
+          "author": {
+            "url": "https://api.zhihu.com/people/4fc4ffb01307eb0547cbdf1ed041d52e",
+            "url_token": "qin-wen-qing-5",
+            "is_org": false,
+            "followers_count": 9,
+            "is_followed": false,
+            "id": "4fc4ffb01307eb0547cbdf1ed041d52e",
+            "name": "是小胖几啊",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-c641f77a277d60f98dff271e4c336a10_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_following": false,
+            "user_type": "people"
+          },
+          "created": 1444032587,
+          "comment_count": 5,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/36201711",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            99,
+            307,
+            4447,
+            5956,
+            20223
+          ],
+          "is_following": false,
+          "detail": "",
+          "title": "有哪些笑话 可以笑一年？",
+          "answer_count": 0
+        },
+        "content": "<p data-pid=\"qn-OLVrB\">1、以后再也不敢出去洗脚了...</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-842aab9e23c716eb49eac377e1f51c79_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1620\" data-original-token=\"v2-9d35f2716dae404c5f069964f5a1e522\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-842aab9e23c716eb49eac377e1f51c79_r.jpg\"/></figure><p data-pid=\"XVVvEvUA\">2、“最后的午餐”</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4b82eb93d3835285702b3067379f2846_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1625\" data-original-token=\"v2-9d29bca2cf6b8227441fb8669b93e8c3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-4b82eb93d3835285702b3067379f2846_r.jpg\"/></figure><p data-pid=\"1wtihZfO\">3、哈哈哈哈脑子不好使，买这么小</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9946481e310e1b25aa379c83f2eaea7f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1519\" data-original-token=\"v2-408e6a66f1252e9cba13cc24a12ef157\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-9946481e310e1b25aa379c83f2eaea7f_r.jpg\"/></figure><p data-pid=\"1sPYEXB_\">4、牙:跟着你也是享受上了!</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9778ad466646b0b4886db1e50d6d7868_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1976\" data-qrcode-action=\"none\" data-original-token=\"v2-067e6204b28f945c3ca219fc00d049ba\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-9778ad466646b0b4886db1e50d6d7868_r.jpg\"/></figure><p data-pid=\"f5M-4s2U\">5、减速带:这辈子也没想到自己能被归类到母婴用品</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e2c26b0e8802ebc7029b15e48690b62e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1719\" data-original-token=\"v2-56adbdd2862a4560b9515c5e8189aa2f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-e2c26b0e8802ebc7029b15e48690b62e_r.jpg\"/></figure><p data-pid=\"lWWzCtpi\">6、小哥:外卖老人:催债?小哥:美团外卖老人:组团催债?</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-bcd98266afd91217d52fbd96456a15b2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1707\" data-original-token=\"v2-6a8a53d80de6d9040deba5594f0d677c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-bcd98266afd91217d52fbd96456a15b2_r.jpg\"/></figure><p data-pid=\"qxn2NrZu\">7、开不开口?不开口后面还有七个疗程</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-89ddb16329089d5e110271d0d51b0443_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1350\" data-original-token=\"v2-a26754934d8908a78495c5540b7d5c29\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-89ddb16329089d5e110271d0d51b0443_r.jpg\"/></figure><p data-pid=\"jKmXYMIU\">8、我以为他们都看不见我，这下尴尬了</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3d41cb86507cda31f719177af045c83f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1591\" data-original-token=\"v2-d4af72182ca7efd9f5903fcf9baf0632\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-3d41cb86507cda31f719177af045c83f_r.jpg\"/></figure><p data-pid=\"qhUklIT7\">9、密密麻麻是我的自尊</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-73f3437bf922fac8fa723cf145e5a1c9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1611\" data-qrcode-action=\"none\" data-original-token=\"v2-37d403468c3ecc4b0b6ed85098b14ca6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-73f3437bf922fac8fa723cf145e5a1c9_r.jpg\"/></figure><p data-pid=\"AGe1Zkeh\">10、对不起 宝宝我喜欢薄肌  可你越练越大就别怪我不客气了</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b18f9feb17210e211c08fc0c01d08c34_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1825\" data-original-token=\"v2-4133d9e1860b3c0417ba6e6f9457cbfb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-b18f9feb17210e211c08fc0c01d08c34_r.jpg\"/></figure><p data-pid=\"_MekGVWA\">11、一天做完暑假作业，谁的一辈子</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6b8488cc886a8223c6a0279af311461a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1799\" data-original-token=\"v2-3a082293fd5ed2a292b65817e5c1080f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-6b8488cc886a8223c6a0279af311461a_r.jpg\"/></figure><p data-pid=\"Xf-RrYnW\">12、这一刻你俩必须在一起</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6aa59f05a54d16150696bf2e07447dd1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1525\" data-original-token=\"v2-02c42ce00fe60f47442806275065cd72\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-6aa59f05a54d16150696bf2e07447dd1_r.jpg\"/></figure><p data-pid=\"ysb22BIv\">13、出发前8杯咖啡，飞机上不停掐大腿!</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-71c5bc3db452e6b966b25d8be323d814_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1633\" data-original-token=\"v2-659a55584e9f04f94a3580327e0a9c8f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-71c5bc3db452e6b966b25d8be323d814_r.jpg\"/></figure><p data-pid=\"Q4-Qhoa-\">14、朋友:南方蟑 螂 那 么 大 你 都 怎么 抓</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e732b7af48ac07763a3e4b9550b12583_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1510\" data-original-token=\"v2-05a680128ea2d6fc5efab927616e7589\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-e732b7af48ac07763a3e4b9550b12583_r.jpg\"/></figure><p data-pid=\"rbxGCrk0\">15、用这个捞饭啊</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f14ee44a4e3ed1473d92a7373543e8b6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1619\" data-original-token=\"v2-89c620538b9a8312277433bd8acc4768\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-f14ee44a4e3ed1473d92a7373543e8b6_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-84927aa035e8af84b20aeea8959dcf41_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1220\" data-rawheight=\"1619\" data-original-token=\"v2-95bf23c673fde2f1074b258cabcb34b5\" class=\"origin_image zh-lightbox-thumb\" width=\"1220\" data-original=\"https://pic4.zhimg.com/v2-84927aa035e8af84b20aeea8959dcf41_r.jpg\"/></figure><p data-pid=\"QzSU0Mre\"><b>快乐打包了，不妨花一秒钟点赞＋关注鼓励一下。❤️❤️❤️</b></p><p data-pid=\"v4lJL0JL\">16、腰间盘突出合作伙伴</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d30446f179ab0df622a8ba6278cf1aa1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1531\" data-original-token=\"v2-a85f05a00af04ddf89c7bc1211e31612\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-d30446f179ab0df622a8ba6278cf1aa1_r.jpg\"/></figure><p data-pid=\"LSQ_N1Tr\">17、我还以为是糕点</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6d7de1432ea249d12e9e79505afa03aa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1451\" data-original-token=\"v2-d8251c78f4b26578b0cc76cf60425b79\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-6d7de1432ea249d12e9e79505afa03aa_r.jpg\"/></figure><p data-pid=\"zaatCxUA\">18、嗯对，就是这个味道</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1d2b90712fb67fb9d8ff822334786328_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1602\" data-original-token=\"v2-2fb78fb9d667d770065451f85431e0d4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-1d2b90712fb67fb9d8ff822334786328_r.jpg\"/></figure><p data-pid=\"q-zdp8DG\">19、我老婆问我哭啥:是不是门口的洗脚小姐妹死了</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f0af6235599d5f534d0ce01e682259d9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1554\" data-original-token=\"v2-f04217712b8231bb7aded243721fa66a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-f0af6235599d5f534d0ce01e682259d9_r.jpg\"/></figure><p data-pid=\"pwdcJj1F\">20、“亲麻烦您退货退款  ”   “不用了我将就着用吧”</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-425bf2ab7549cfd84266085a7a4d8647_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1495\" data-original-token=\"v2-9b8052fe883da152497a50760112c17f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-425bf2ab7549cfd84266085a7a4d8647_r.jpg\"/></figure><p data-pid=\"v2s5Uvnd\">21、一下子添了个新毛病，羞耻症来了</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-35d6b6bfaae61e49068475b21aa54b4b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1642\" data-original-token=\"v2-ee6731304587aa45b87a8b092ab4374c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-35d6b6bfaae61e49068475b21aa54b4b_r.jpg\"/></figure><p data-pid=\"xFCVRRMO\">22、我跟我妹差10岁，从她有记忆起，我就一直住校 导致她现在以为我是亲戚</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d8c90c05aee6ba49dd327663fb214e5a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1787\" data-original-token=\"v2-78b72701396a48c4a5a4e330567dadc5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-d8c90c05aee6ba49dd327663fb214e5a_r.jpg\"/></figure><p data-pid=\"E8QZtS9G\">23、每条看似离谱的规定，背后肯定有一定的道理!</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b47d1012986a2581e041ede0731e683e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1974\" data-original-token=\"v2-709e945e47f1eb80ccc38b45a8c723b9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-b47d1012986a2581e041ede0731e683e_r.jpg\"/></figure><p data-pid=\"PdquAYFJ\">24、谁家好狗半夜打嗝还得进卧室坐床边啊</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-dc33c3d79196bd9f11cd773ec51498ce_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1709\" data-original-token=\"v2-26e1f7b494eac24a9f58dd48578daebd\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-dc33c3d79196bd9f11cd773ec51498ce_r.jpg\"/></figure><p data-pid=\"opv79fA8\">25、导盲犬:给你一次重新组织语言的机会</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-238b465c29fadaa853c7bb7961a2d8fa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1933\" data-original-token=\"v2-887d6439bde34b9937cbdb45fa02b602\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-238b465c29fadaa853c7bb7961a2d8fa_r.jpg\"/></figure><p data-pid=\"EnJPk2qA\">26、到底是谁，出来</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0d95477049aded07f4efb7efcb83bf9a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1914\" data-original-token=\"v2-44cb6b4a5562d07803a924afe3287c29\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-0d95477049aded07f4efb7efcb83bf9a_r.jpg\"/></figure><p data-pid=\"pcIi9Run\">27、建议购买</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ab49dfbb09cd5ed1320eafeff924076e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1549\" data-original-token=\"v2-6d4be88e1fac9c86303fc13ff8bd920d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-ab49dfbb09cd5ed1320eafeff924076e_r.jpg\"/></figure><p data-pid=\"xTtGQI5k\">28、老板，切一斤超瘦</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c52b0d36d621c944d2fd0ec0496816fb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1593\" data-original-token=\"v2-b17451a788f580746a7811975d3e91a6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-c52b0d36d621c944d2fd0ec0496816fb_r.jpg\"/></figure><p data-pid=\"DTTNCfGS\">29、移动事故现场</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-546c36511934c08765528924c18d07ae_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1186\" data-original-token=\"v2-b793e91f46b9932a48f5f6e590dea948\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-546c36511934c08765528924c18d07ae_r.jpg\"/></figure><p data-pid=\"Qdaf0_5f\">30、护士长:别管他，他在玩呢</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-654fc4dda33f1b79901dfa5f20de0220_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1761\" data-original-token=\"v2-7b2f19a52702b47884d79abd4ebbedf1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-654fc4dda33f1b79901dfa5f20de0220_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1b20fa053d0d4ab07e6d2ffdfaeb8f59_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"426\" data-rawheight=\"240\" data-original-token=\"v2-1b20fa053d0d4ab07e6d2ffdfaeb8f59\" data-thumbnail=\"https://pic4.zhimg.com/v2-1b20fa053d0d4ab07e6d2ffdfaeb8f59_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"426\" data-original=\"https://pic4.zhimg.com/v2-1b20fa053d0d4ab07e6d2ffdfaeb8f59_r.jpg\"/></figure><p data-pid=\"WtyL3c0l\"><b>如果你觉得这篇文章分享的还不错，不妨交个朋友吧，点点关注，近我者富！！！！</b></p><p data-pid=\"8s8CYmQC\"><b>往期精选，更多搞笑段子点击跳转</b></p><a href=\"https://zhuanlan.zhihu.com/p/1988697880005985221\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">有哪些你一辈子也不会忘记的笑话?</a><p data-pid=\"c16FsSzS\">（图文源于网络，侵删致歉）</p>",
+        "preview_text": "",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "created_time": 1766964712,
+        "is_copyable": false,
+        "comment_count": 0,
+        "is_labeled": false,
+        "author": {
+          "user_type": "people",
+          "gender": 0,
+          "followers_count": 283,
+          "is_following": false,
+          "id": "380a46ecac8645b5fc91417f65b526a3",
+          "url_token": "53-60-32-45-63",
+          "name": "安宁",
+          "headline": "好物推荐 ‖ 搞笑图片 ‖ 治愈文案",
+          "avatar_url": "https://picx.zhimg.com/50/v2-2f1413a6806a4bda2d567fbc3b55178e_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/380a46ecac8645b5fc91417f65b526a3"
+        },
+        "voteup_count": 245,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-9d35f2716dae404c5f069964f5a1e522_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-9d29bca2cf6b8227441fb8669b93e8c3_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-408e6a66f1252e9cba13cc24a12ef157_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-067e6204b28f945c3ca219fc00d049ba_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-56adbdd2862a4560b9515c5e8189aa2f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6a8a53d80de6d9040deba5594f0d677c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a26754934d8908a78495c5540b7d5c29_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d4af72182ca7efd9f5903fcf9baf0632_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-37d403468c3ecc4b0b6ed85098b14ca6_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-4133d9e1860b3c0417ba6e6f9457cbfb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3a082293fd5ed2a292b65817e5c1080f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-02c42ce00fe60f47442806275065cd72_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-659a55584e9f04f94a3580327e0a9c8f_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-05a680128ea2d6fc5efab927616e7589_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-89c620538b9a8312277433bd8acc4768_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-95bf23c673fde2f1074b258cabcb34b5_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-a85f05a00af04ddf89c7bc1211e31612_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d8251c78f4b26578b0cc76cf60425b79_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-2fb78fb9d667d770065451f85431e0d4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f04217712b8231bb7aded243721fa66a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9b8052fe883da152497a50760112c17f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ee6731304587aa45b87a8b092ab4374c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-78b72701396a48c4a5a4e330567dadc5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-709e945e47f1eb80ccc38b45a8c723b9_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-26e1f7b494eac24a9f58dd48578daebd_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-887d6439bde34b9937cbdb45fa02b602_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-44cb6b4a5562d07803a924afe3287c29_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6d4be88e1fac9c86303fc13ff8bd920d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b17451a788f580746a7811975d3e91a6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b793e91f46b9932a48f5f6e590dea948_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7b2f19a52702b47884d79abd4ebbedf1_720w.jpg?source=b6762063"
+        ],
+        "updated_time": 1766964712,
+        "excerpt_new": "1、以后再也不敢出去洗脚了...   2、“最后的午餐”   3、哈哈哈哈脑子不好使，买这么小   4、牙:跟着你也是享受上了!   5、减速带:这辈子也没想到自己能被归类到母婴用品   6、小哥:外卖老人:催债?小哥:美团外卖老人:组团催债?   7、开不开口?不开口后面还有七个疗程   8、我以为他们都看不见我，这下尴尬了   9、密密麻麻是我的自尊   10、对不起 宝宝我喜欢薄肌 可你越练越大就别怪我不客气了   11、一天做完暑假作业，谁的一辈子   12、这一刻你俩…",
+        "reshipment_settings": "disallowed",
+        "favorite_count": 23,
+        "type": "answer",
+        "excerpt": "1、以后再也不敢出去洗脚了...   2、“最后的午餐”   3、哈哈哈哈脑子不好使，买这么小   4、牙:跟着你也是享受上了!   5、减速带:这辈子也没想到自己能被归类到母婴用品   6、小哥:外卖老人:催债?小哥:美团外卖老人:组团催债?   7、开不开口?不开口后面还有七个疗程   8、我以为他们都看不见我，这下尴尬了   9、密密麻麻是我的自尊   10、对不起 宝宝我喜欢薄肌 可你越练越大就别怪我不客气了   11、一天做完暑假作业，谁的一辈子   12、这一刻你俩…",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-9d35f2716dae404c5f069964f5a1e522_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988874836060165750}",
+      "attached_info": "CpYSCNG/2+miyr7YpQEQBBoJNzYzMDk1MTg1IOj7xsoGKPUBMABAcUpSCiZUU19TT1VSQ0VfVEFHX0JBU0VEX1RFWFRfQUlfVVNFUl9USEVNRRIidGhlbWU6ZGV0ZWN0OmNvbnRlbnQ6dGhlbWU6aWQ6NTA2OBgAIAA6AFoHNjY4NzY2NGIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5ODg4NzQ4MzYwNjAxNjU3NTCKAQgzNjIwMTcxMaoBCXJlY29tbWVuZMIBIDM4MGE0NmVjYWM4NjQ1YjVmYzkxNDE3ZjY1YjUyNmEz8gEKCAwSBk5vcm1hbPIBKAgKEiQ4YmYyNjJhZC02MDg3LTRmNGEtYjUyMS1hZTAyMTc4MmI5MTjyAQYICxICMTmCAgCIAvX5k5u5M5ICIDM4MGE0NmVjYWM4NjQ1YjVmYzkxNDE3ZjY1YjUyNmEzmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCJlRTX1NPVVJDRV9UQUdfQkFTRURfVEVYVF9BSV9VU0VSX1RIRU1F6AIC+gILTk9STUFMX0ZMT1eKAyA5NjViMGYyNTAzMDY0YWRjYTM1NmZjODcxOTU1YmZiYpoDDQoCdjIQABoFb3RoZXKoA7G4AtgDAOoDJVRoZW1lRGV0ZWN0VGhlbWVSZWxhdGVkTWVtYmVyUmVjYWxsZXL6A/8LEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgY1AwiI3YyLTlkMzVmMjcxNmRhZTQwNGM1ZjA2OTk2NGY1YTFlNTIyOi0IBBC4CBjZDCIjdjItOWQyOWJjYTJjZjZiODIyNzQ0MWZiODY2OWI5M2U4YzM6LQgEELgIGO8LIiN2Mi00MDhlNmE2NmYxMjUyZTljYmExM2NjMjRhMTJlZjE1NzotCAIQuAgYuA8iI3YyLTA2N2U2MjA0YjI4Zjk0NWMzY2EyMTlmYzAwZDA0OWJhOi0IAhC4CBi3DSIjdjItNTZhZGJkZDI4NjJhNDU2MGI5NTE1YzVlODE4OWFhMmY6LQgCELgIGKsNIiN2Mi02YThhNTNkODBkZTZkOTA0MGRlYmE1NTk0ZjBkNjc3YzotCAIQuAgYxgoiI3YyLWEyNjc1NDkzNGQ4OTA4YTc4NDk1YzU1NDBiN2Q1YzI5Oi0IAhC4CBi3DCIjdjItZDRhZjcyMTgyY2E3ZWZkOWY1OTAzZmNmOWJhZjA2MzI6LQgCELgIGMsMIiN2Mi0zN2Q0MDM0NjhjM2VjYzRiMGI2ZWQ4NTA5OGIxNGNhNjotCAIQuAgYoQ4iI3YyLTQxMzNkOWUxODYwYjNjMDQxN2JhNmU2Zjk0NTdjYmZiOi0IAhC4CBiHDiIjdjItM2EwODIyOTNmZDVlZDJhMjkyYjY1ODE3ZTVjMTA4MGY6LQgCELgIGPULIiN2Mi0wMmM0MmNlMDBmZTYwZjQ3NDQyODA2Mjc1MDY1Y2Q3MjotCAIQuAgY4QwiI3YyLTY1OWE1NTU4NGU5ZjA0Zjk0YTM1ODAzMjdlMGE5YzhmOi0IAhC4CBjmCyIjdjItMDVhNjgwMTI4ZWEyZDZmYzVlZmFiOTI3NjE2ZTc1ODk6LQgDELgIGNMMIiN2Mi04OWM2MjA1MzhiOWE4MzEyMjc3NDMzYmQ4YWNjNDc2ODotCAIQxAkY0wwiI3YyLTk1YmYyM2M2NzNmZGUyZjEwNzRiMjU4Y2FiY2IzNGI1Oi0IAxC4CBj7CyIjdjItYTg1ZjA1YTAwYWYwNGRkZjg5YzdiYzEyMTFlMzE2MTI6LQgDELgIGKsLIiN2Mi1kODI1MWM3OGY0YjI2NTc4YjBjYzc2Y2Y2MDQyNWI3OTotCAIQuAgYwgwiI3YyLTJmYjc4ZmI5ZDY2N2Q3NzAwNjU0NTFmODU0MzFlMGQ0Oi0IAhC4CBiSDCIjdjItZjA0MjE3NzEyYjgyMzFiYjdhZGVkMjQzNzIxZmE2NmE6LQgCELgIGNcLIiN2Mi05YjgwNTJmZTg4M2RhMTUyNDk3YTUwNzYwMTEyYzE3ZjotCAIQuAgY6gwiI3YyLWVlNjczMTMwNDU4N2FhNDViODdhOGIwOTJhYjQzNzRjOi0IAhC4CBj7DSIjdjItNzhiNzI3MDEzOTZhNDhjNGE1YTRlMzMwNTY3ZGFkYzU6LQgCELgIGLYPIiN2Mi03MDllOTQ1ZTQ3ZjFlYjgwY2NjMzhiNDVhOGM3MjNiOTotCAIQuAgYrQ0iI3YyLTI2ZTFmN2I0OTRlYWMyNGE5ZjU4ZGQ0ODU3OGRhZWJkOi0IAhC4CBiNDyIjdjItODg3ZDY0MzliZGUzNGI5OTM3Y2JkYjQ1ZmEwMmI2MDI6LQgCELgIGPoOIiN2Mi00NGNiNmI0YTU1NjJkMDc4MDNhOTI0YWZlMzI4N2MyOTotCAIQuAgYjQwiI3YyLTZkNGJlODhlMWZhYzljODYzMDNmYzEzZmY4YmQ5MjBkOi0IAxC4CBi5DCIjdjItYjE3NDUxYTc4OGY1ODA3NDZhNzgxMTk3NWQzZTkxYTY6LQgCELgIGKIJIiN2Mi1iNzkzZTkxZjQ2Yjk5MzJhNDhmNWY2ZTU5MGRlYTk0ODotCAAQuAgY4Q0iI3YyLTdiMmYxOWE1MjcwMmI0Nzg4NGQ3OWFiZDRlYmJlZGYxOi0IABCqAxjwASIjdjItMWIyMGZhMDUzZDBkNGFiMDdlNmQyZmZkZmFlYjhmNTmABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBAHSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEBQqKs/gQUAAAAAAAAAAIkFv0UtNfaJsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAfAFE5AGAKAGcqgGAJICLgoJNzYzMDk1MTg1EhMxOTg4ODc0ODM2MDYwMTY1NzUwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=113&desktop=true&end_offset=114&page_number=20&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=113&desktop=true&end_offset=114&page_number=20&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

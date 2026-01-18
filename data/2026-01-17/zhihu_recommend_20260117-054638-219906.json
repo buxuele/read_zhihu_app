@@ -1,0 +1,676 @@
+{
+  "data": [
+    {
+      "id": "42_1768600005.766",
+      "type": "feed",
+      "offset": 42,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600005,
+      "updated_time": 1768600005,
+      "target": {
+        "is_labeled": false,
+        "favorite_count": 32,
+        "excerpt_new": "Rust 是一门系统 编程语言，专注于安全，尤其是并发安全，支持函数式和命令式以及泛型等编程范式的多范式语言。Rust 在语法上和 C++ 类似，设计者想要在保证性能的同时提供更好的内存安全。 Rust 最初是由 Mozilla研究院的 Graydon Hoare 设计创造，然后在 Dave Herman, Brendan Eich 以及很多其他人的贡献下逐步完善的。2025年5月15日，Rust团队在荷兰乌得勒支举办的“Rust十周年庆典”现场，正式发布了Rust 1.87.0版本！ 这不…",
+        "visited_count": 560,
+        "title": "15个硬核Rust开源项目，霸榜Github！",
+        "image_url": "https://picx.zhimg.com/v2-f9b3003ef4f0cd63093ed8d36e0df127.jpg?source=7e7ef6e2&needBackground=1",
+        "comment_permission": "all",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "Rust 是一门系统 编程语言，专注于安全，尤其是并发安全，支持函数式和命令式以及泛型等编程范式的多范式语言。Rust 在语法上和 C++ 类似，设计者想要在保证性能的同时提供更好的内存安全。 Rust 最初是由 Mozilla研究院的 Graydon Hoare 设计创造，然后在 Dave Herman, Brendan Eich 以及很多其他人的贡献下逐步完善的。2025年5月15日，Rust团队在荷兰乌得勒支举办的“Rust十周年庆典”现场，正式发布了Rust 1.87.0版本！ 这不…",
+        "updated": 1768542605,
+        "voting": 0,
+        "preview_type": "default",
+        "author": {
+          "is_followed": false,
+          "id": "45466a8314a53c7cfb6653344beb7d73",
+          "url": "https://api.zhihu.com/people/45466a8314a53c7cfb6653344beb7d73",
+          "url_token": "88-3-18-34-49",
+          "headline": "专注开源项目、最新技术资讯！",
+          "followers_count": 1494,
+          "is_following": false,
+          "user_type": "people",
+          "name": "玩转Github",
+          "avatar_url": "https://pica.zhimg.com/50/v2-3199a25e1c034c0e15af61a6c6353563_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1
+        },
+        "created": 1768542605,
+        "voteup_count": 6,
+        "comment_count": 0,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-f9b3003ef4f0cd63093ed8d36e0df127.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pica.zhimg.com/50/v2-66d475f199ab7a4ae13d0127ddb953f6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-010d054b4cf613454c21084a234d76ff_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-882a5eb7b263edd0ccec9d4b186d328c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-db0f564538a25b0f30a4d155a930cb5a_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-65945fb2569debc1496a7ec37c1af39e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-12d5c541726ecd432d8cf163d3b2c7e4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-aec7be8fa4fa52950a66c2c2c225d884_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d262d918abf8a66eb6569df10ab2b0c0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-71b81c97739dcc048f47bcb376ee4659_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-767dca43cf70aab81eaae8a84afd83ff_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fd280b782f6928a4b778610f357527ac_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-074d6e1fc1b5df73d9975258753ea2a0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f861be39b43fc8008c900fac21e67c0f_720w.jpg?source=b6762063"
+        ],
+        "article_type": "normal",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1987172588326233188",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "id": "1987172588326233188",
+        "is_navigator": false,
+        "preview_text": "",
+        "content": "<p data-pid=\"CSc1dbeq\">Rust 是一门系统<span class=\"nolink\">编程语言</span>，专注于安全，尤其是并发安全，支持函数式和<span class=\"nolink\">命令式</span>以及<span class=\"nolink\">泛型</span>等编程范式的多范式语言。Rust 在语法上和 C++ 类似，设计者想要在保证性能的同时提供更好的<span class=\"nolink\">内存安全</span>。</p><p data-pid=\"rl-FUCDM\"> Rust 最初是由<span class=\"nolink\">Mozilla</span>研究院的 Graydon Hoare 设计创造，然后在 Dave Herman, Brendan Eich 以及很多其他人的贡献下逐步完善的。</p><blockquote data-pid=\"ZqoLYvig\">2025年5月15日，Rust团队在荷兰乌得勒支举办的“Rust十周年庆典”现场，正式发布了Rust 1.87.0版本！ 这不仅是Rust语言的又一次重大升级，更标志着Rust已经陪伴开发者们走过了整整十年。从1.0到1.87，每一次更新都带来了可靠性与高效性的提升，也见证了Rust社区的飞速成长。</blockquote><p data-pid=\"CJM-f0E9\">这里盘点15个优质的Rust开源项目，如有帮助，<b>点赞收藏</b>一下吧！</p><h3>1、Rustdesk</h3><p data-pid=\"mvEd37rz\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/rustdesk/rustdesk\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/rustdesk/rus</span><span class=\"invisible\">tdesk</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-bcb10fb6d8dc7edd68a5bafc597eac34_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"287\" data-original-token=\"v2-778b6128c441e5ff551a060359550fcf\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pica.zhimg.com/v2-bcb10fb6d8dc7edd68a5bafc597eac34_r.jpg\"/></figure><p data-pid=\"hkXJQ5gC\">基于Rust语言开发的开源远程桌面软件，旨在为用户提供安全、高效的自托管解决方案。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e29ae792eb7d8675fdcd8f0a165b09e4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1229\" data-rawheight=\"893\" data-original-token=\"v2-66d475f199ab7a4ae13d0127ddb953f6\" class=\"origin_image zh-lightbox-thumb\" width=\"1229\" data-original=\"https://pic3.zhimg.com/v2-e29ae792eb7d8675fdcd8f0a165b09e4_r.jpg\"/></figure><p data-pid=\"h88qWuFG\">作为TeamViewer等商业软件的替代品，RustDesk凭借其89.1k的GitHub星标和12.6k的fork数，已成为开源社区中最受欢迎的远程桌面工具之一。</p><p data-pid=\"ibQeVga8\">RustDesk支持多个平台，并且“安装包”只有8~9MB，相当<b>轻量</b> 了。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d357b6cf55b2c0846c9944bbe64868d8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"946\" data-rawheight=\"170\" data-original-token=\"v2-40a3bf2c9f66b320fc2a10451be39ac8\" class=\"origin_image zh-lightbox-thumb\" width=\"946\" data-original=\"https://pica.zhimg.com/v2-d357b6cf55b2c0846c9944bbe64868d8_r.jpg\"/></figure><p data-pid=\"uHDdWu9d\">而且，这款软件属于半便携式，无需安装和配置，<b>开箱即用</b> 。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3835d1713f782c35f96a4ca4fb4fbb7a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"761\" data-original-token=\"v2-010d054b4cf613454c21084a234d76ff\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-3835d1713f782c35f96a4ca4fb4fbb7a_r.jpg\"/></figure><p data-pid=\"dkN2Cp9H\">用户界面也是非常直观、简单：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3272d6c0e4203d7d1cc1eb3af3db36c2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"930\" data-rawheight=\"605\" data-original-token=\"v2-300370d5074e024576ae0502d6d9bc16\" class=\"origin_image zh-lightbox-thumb\" width=\"930\" data-original=\"https://pica.zhimg.com/v2-3272d6c0e4203d7d1cc1eb3af3db36c2_r.jpg\"/></figure><p data-pid=\"rMl3-k_B\">RustDesk采用的是<b>加密直连</b> ，先尝试打洞直连，帮助两者建立连接，如果失败再通过服务器转发。</p><p data-pid=\"bjYjMaI0\">它支持<b>跨平台传输</b> 文件。比如，Mac和Windows电脑之间进行文件传输时，界面长这样：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-84563a9caa019f5613fc83bf64b947eb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"586\" data-original-token=\"v2-c3aa92180c64d7cb6a1e2225677362f8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-84563a9caa019f5613fc83bf64b947eb_r.jpg\"/></figure><p data-pid=\"fhIMxy-g\">其实从去年开始，作者已经开始更新软件版本。不少网友表示：软件体积小、界面简洁，比Teamviewer香~</p><p data-pid=\"x3E_3Kmb\">不过也有人基于安全性提出质疑。作者在V2EX上表示，已经在GitHub上开源了90%的代码（算上总代码量），但是保留了服务器代码以及移动端。</p><p data-pid=\"va3ZzOPm\">此外，由于存在内网穿透失败而连接很慢的情况，RustDesk还支持<b>自建中继服务器</b> ，并且提供了教程。</p><h3>2、网页生成App</h3><p data-pid=\"U7ND7ldX\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/tw93/Pake\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/tw93/Pake</span><span class=\"invisible\"></span></a></p><p data-pid=\"u6BHwBiL\">使用 Rust 轻松将任何网页变成桌面应用程序，这个开源项目支持 Mac、Windows 和 Linux。</p><p data-pid=\"ksWpcmfV\">目前Github标星38.6K，足以说明这个开源项目的热度还是蛮高的。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-494d79291ac5e350471a5f65df5e0518_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1215\" data-rawheight=\"867\" data-original-token=\"v2-882a5eb7b263edd0ccec9d4b186d328c\" class=\"origin_image zh-lightbox-thumb\" width=\"1215\" data-original=\"https://pica.zhimg.com/v2-494d79291ac5e350471a5f65df5e0518_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2910c2ba95b9d6bf322c7389ebcfc94c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"698\" data-original-token=\"v2-db0f564538a25b0f30a4d155a930cb5a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-2910c2ba95b9d6bf322c7389ebcfc94c_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5d6c7e5e92e86df5cf036eae147cbcc8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"721\" data-original-token=\"v2-65945fb2569debc1496a7ec37c1af39e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-5d6c7e5e92e86df5cf036eae147cbcc8_r.jpg\"/></figure><p data-pid=\"1vgsBkRS\"> 相比传统的 Electron 套壳打包，要小将近 20 倍，5M 上下。<b> Pake 的底层使用的 Rust Tauri 框架，性能体验较 JS 框架要轻快不少，内存小很多。</b></p><p data-pid=\"6bwiYbmz\">不是单纯打包，实现了快捷键的透传、沉浸式的窗口、拖动、样式改写、去广告、产品的极简风格定制。只是一个很简单的小玩具，用 Tauri 替代之前套壳网页打包的老思路，其实 PWA 也很好。</p><h3>3、DumpSync</h3><p data-pid=\"5p0t5L-I\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/kremilly/DumpSync\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/kremilly/Dum</span><span class=\"invisible\">pSync</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"oTUQmUYK\">一个用Rust开发的轻量级工具，旨在有效地转储和恢复MySQL数据库。无论是需要创建备份，恢复数据库，还是在服务器之间传输数据，DumpSync都提供了一个简单而自动化的解决方案。</p><p data-pid=\"O2BGqOF0\">使用场景</p><ul><li data-pid=\"ut4oNq_D\">‌<b>创建备份</b>‌：用户可以通过DumpSync轻松创建MySQL数据库的备份，确保数据安全。</li><li data-pid=\"nkFefbTv\">‌<b>恢复数据库</b>‌：当需要恢复数据库时，DumpSync提供快速恢复功能，减少停机时间。</li><li data-pid=\"fuTcumsS\">‌<b>数据迁移</b>‌：在服务器迁移或数据同步场景中，DumpSync能够帮助用户高效地转移数据。</li></ul><h3>4、NPing</h3><p data-pid=\"YTXdtOQ3\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/hanshuaikang/Nping\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/hanshuaikang</span><span class=\"invisible\">/Nping</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"EffuRnEn\">NPing 诞生于 Nmap 项目生态，是一个专注于网络探测与分析的高效工具。它不仅能像传统 Ping 工具一样检测主机存活和延迟，还支持 <b>TCP/UDP/ICMP 多协议探测</b>、<b>ARP 攻击模拟</b>，甚至能自定义数据包头部字段进行深度测试。</p><p data-pid=\"DL5WdiGc\">最大亮点在于 <b>实时可视化图表</b>：通过终端内的折线图和表格，延迟、抖动、丢包率等指标一目了然，堪称网络工程师的“数据驾驶舱”。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8102de92b05cbd77848406a56807518a_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1078\" data-rawheight=\"554\" data-original-token=\"v2-8102de92b05cbd77848406a56807518a\" data-thumbnail=\"https://pica.zhimg.com/v2-8102de92b05cbd77848406a56807518a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1078\" data-original=\"https://pica.zhimg.com/v2-8102de92b05cbd77848406a56807518a_r.jpg\"/></figure><p data-pid=\"JSWkc9Tq\"><b>Windows</b>直接下载预编译的 exe文件，无需安装，解压即用。</p><p data-pid=\"rKJHQlHc\">使用场景：</p><p data-pid=\"OkKJBC5S\">公司内网延迟飙升，但传统 Ping 工具的输出像天书一样难以分析？或是需要同时检测多个服务器的网络状态，却不得不在多个终端窗口来回切换？</p><p data-pid=\"0xYPg9-Z\">NPing 不仅支持多种协议，只需轻轻一点就能在 TCP、UDP 和 ICMP 探测模式之间自由切换，适应各种复杂网络场景。</p><p data-pid=\"32G3Y29R\">它的使用门槛极低，图表化的结果展示让没有技术背景的用户也能迅速识别出网络中的瓶颈所在。</p><p data-pid=\"eCe90AYs\">同时，作为一个开源项目，它采用了 MIT 协议，并基于 Rust 语言开发，天然具备内存安全优势，有效避免了常见的安全漏洞。</p><h3>5、Rudis</h3><p data-pid=\"3jO1OwiO\"><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/rudis/rudis\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/rudis/rudis</span><span class=\"invisible\"></span></a></p><p data-pid=\"toqw4-WM\">一个采用 Rust 语言编写得高性能键值存储系统，旨在利用 Rust 语言的优势来重新复现 Redis 的核心功能，以满足用户对高性能、可靠性和安全性的需求，同时保证与 Redis API 的兼容。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3dd754643c67dded84704d301f347248_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"725\" data-original-token=\"v2-12d5c541726ecd432d8cf163d3b2c7e4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-3dd754643c67dded84704d301f347248_r.jpg\"/></figure><h3>6、NeoHtop</h3><p data-pid=\"gnTVit-X\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/Abdenasser/neohtop\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/Abdenasser/n</span><span class=\"invisible\">eohtop</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"zgIgBRnG\">一个使用Rust开发的现代化的进程监控工具，它结合了基于终端的系统监视器的功能，以及使用Svelte Rust/Tauri构建的干净的桌面原生UI。</p><p data-pid=\"9OS5Ie60\">在linux上我们top应该是最熟悉的命令之一，有些同学可能还用过htop，但是neohtop更酷炫，更强大。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e7df71d17eb305044fe5e9bdf737500a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2784\" data-rawheight=\"2024\" data-original-token=\"v2-aec7be8fa4fa52950a66c2c2c225d884\" class=\"origin_image zh-lightbox-thumb\" width=\"2784\" data-original=\"https://pica.zhimg.com/v2-e7df71d17eb305044fe5e9bdf737500a_r.jpg\"/></figure><p data-pid=\"_69lnbKs\">功能特性</p><ul><li data-pid=\"0nU5Q8ln\"><b>实时进程监控</b>：可以实时监控系统中的所有进程。</li><li data-pid=\"4PqRIMxK\"><b>CPU 和内存使用跟踪</b>：提供详细的 CPU 和内存使用信息。</li><li data-pid=\"z6YnEtu3\"><b>现代化用户界面</b>：拥有美观的现代化界面，支持暗黑和亮色主题。</li><li data-pid=\"qcpZ0Ukk\"><b>高级进程搜索和过滤</b>：支持通过名称、命令或 PID 进行进程搜索，还支持正则表达式进行高级过滤。</li><li data-pid=\"m2SHLEic\"><b>进程管理</b>：可以杀死不必要的进程。</li><li data-pid=\"bzWUzj3F\"><b>排序功能</b>：可以按任何列进行排序。</li><li data-pid=\"38ph13ku\"><b>自动刷新系统统计</b>：系统统计信息会自动刷新。</li><li data-pid=\"dZr0BVQ6\"><b>跨平台兼容</b>：支持 macOS、Linux 和 Windows 等多个平台。</li></ul><p data-pid=\"NdU-Cgzq\">安装包作者已经打包放置在release中，我们只需要下载对应平台的安装包，然后解压运行即可。</p><p data-pid=\"6jVOxcsu\">该工具还支持搜索，你可以参考如下来快速搜索进程。支持按照名称、命令或者pid进行搜索，还支持正则表达式。</p><h3>7、Web 后端框架</h3><p data-pid=\"kCvGqSU8\"><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/salvo-rs/salvo\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/salvo-rs/salv</span><span class=\"invisible\">o</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"-KoWRwRT\">Salvo(赛风) 是一个极其简单且功能强大的 Rust Web 后端框架。仅仅需要基础 Rust 知识即可开发后端服务。</p><p data-pid=\"wA-eY0pO\">这是国人开发的 web 框架，它最大的特点应该是易用，也可能是最适合新手入门的框架。它文档比较全面，还有很多功能是开箱即用的，推荐新手入门。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-57f788d27a8d5e402421f84572619c82_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"798\" data-rawheight=\"295\" data-original-token=\"v2-dd645698c70803f54d2f852472ef2080\" class=\"origin_image zh-lightbox-thumb\" width=\"798\" data-original=\"https://pic3.zhimg.com/v2-57f788d27a8d5e402421f84572619c82_r.jpg\"/></figure><p data-pid=\"9pUIjaDp\"> 功能特色</p><ul><li data-pid=\"pTw5j0jr\">基于 <span class=\"nolink\">Hyper 1</span>, <span class=\"nolink\">Tokio</span> 开发;</li><li data-pid=\"hPWQnFbr\">支持 HTTP1, HTTP2 和 <b>HTTP3</b>;</li><li data-pid=\"JFu2YSn0\">统一的中间件和句柄接口;</li><li data-pid=\"ScnnlpGT\">路由可以无限嵌套，并且可以在任何路由中附加多个中间件;</li><li data-pid=\"3XAnXMiX\">集成 Multipart 表单处理;</li><li data-pid=\"mNW4Ur52\">支持 WebSocket, WebTransport;</li><li data-pid=\"W1iJG5YP\">支持 OpenAPI;</li><li data-pid=\"6tXD0zhE\">支持 Acme, 自动从 <span class=\"nolink\">let&#39;s encrypt</span>获取 TLS 证书。</li><li data-pid=\"LIl_JrDl\">支持 Tower Service 和 Layer.</li></ul><h3>8、组装式应用开发框架</h3><p data-pid=\"Fz510Ojg\"><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/photino/zino\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/photino/zino</span><span class=\"invisible\"></span></a></p><p data-pid=\"4rjMXcu5\">Zino 致力于打造基于 Rust 语言的新一代组装式应用开发框架， 提供一站式跨平台多端解决方案，可用于后端API开发、桌面应用开发等。</p><p data-pid=\"8EtDLc8F\"><b>功能特色：</b></p><ul><li data-pid=\"s2yw8O3R\">🚀 用于快速应用程序开发的开箱即用功能。</li><li data-pid=\"baF61nlD\">🎨 最小设计、可组合架构和高级抽象。</li><li data-pid=\"zZtqAIRN\">🌐 采用 API 优先的开发方法，采用开放标准。</li><li data-pid=\"QuJhBEUt\">⚡ 采用实用的约定以获得最佳性能。</li><li data-pid=\"vWLxA3cX\">💎 基于 <a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/link%3Ftarget%3Dhttps%253A%252F%252Fcrates.io%252Fcrates%252Fsqlx\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">sqlx</a> 的 MySQL、PostgreSQL 和 SQLite 的富有表现力的 ORM。</li><li data-pid=\"_CMeJKFn\">✨ 查询填充、字段转换和模型钩子方面的创新。</li><li data-pid=\"xcaloy9_\">📅 用于同步和异步 cron 作业的轻量级调度程序。</li><li data-pid=\"Hza7jw5E\">💠 统一访问存储服务、数据源和 LLM。</li><li data-pid=\"SStZj1o6\">📊 对<a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/link%3Ftarget%3Dhttps%253A%252F%252Fcrates.io%252Fcrates%252Ftracing\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">跟踪</a>、<a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/link%3Ftarget%3Dhttps%253A%252F%252Fcrates.io%252Fcrates%252Fmetrics\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">指标</a>和日志记录的内置支持。</li><li data-pid=\"neGsJ3Qz\">💖 与 <a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/link%3Ftarget%3Dhttps%253A%252F%252Fcrates.io%252Fcrates%252Factix-web\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">actix-web</a>、<a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/link%3Ftarget%3Dhttps%253A%252F%252Fcrates.io%252Fcrates%252Faxum\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">axum</a>、<a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/link%3Ftarget%3Dhttps%253A%252F%252Fcrates.io%252Fcrates%252Fdioxus\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">dioxus</a> 等完全集成。</li></ul><h3>9、Linux网易云</h3><p data-pid=\"N5eGq72-\"><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/gmg137/netease-cloud-music-gtk\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/gmg137/neteas</span><span class=\"invisible\">e-cloud-music-gtk</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"GX2cHpeo\">基于 GTK4 + Libadwaita 构造的网易云音乐播放器，专为 Linux 系统打造，已在 openSUSE Tumbleweed + GNOME 环境下测试。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-38ff5de6f308e5de987b8a3ad3cce48c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1282\" data-rawheight=\"942\" data-original-token=\"v2-d262d918abf8a66eb6569df10ab2b0c0\" class=\"origin_image zh-lightbox-thumb\" width=\"1282\" data-original=\"https://pic3.zhimg.com/v2-38ff5de6f308e5de987b8a3ad3cce48c_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8cc76865415dcd0d4f1b5646e5a55164_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1282\" data-rawheight=\"942\" data-original-token=\"v2-71b81c97739dcc048f47bcb376ee4659\" class=\"origin_image zh-lightbox-thumb\" width=\"1282\" data-original=\"https://pic1.zhimg.com/v2-8cc76865415dcd0d4f1b5646e5a55164_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-92f3d6e239375cf3e8c71d695157e131_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1282\" data-rawheight=\"942\" data-original-token=\"v2-767dca43cf70aab81eaae8a84afd83ff\" class=\"origin_image zh-lightbox-thumb\" width=\"1282\" data-original=\"https://picx.zhimg.com/v2-92f3d6e239375cf3e8c71d695157e131_r.jpg\"/></figure><p data-pid=\"k9xHVuKr\">功能特点</p><ul><li data-pid=\"CGmI-ABf\">稳定：专为 Linux 系统打造，相比官方版本拥有更好的兼容与稳定性。</li><li data-pid=\"28oVBM-o\">极速：相比 Node/python 版，Rust + GTK 带给你如丝般的顺滑体验。</li><li data-pid=\"d4WttzqY\">可靠：除了断网或网易 API 限制，不会出现运行时问题。</li><li data-pid=\"vsE_MglR\">简洁：仿 GNOME Music 风格，GTK 原生界面，纯粹得令人发指。</li><li data-pid=\"wI9NloSC\">轻量：安装文件不到 3 M，只需最简单的运行时依赖。</li></ul><h3>10、Redis可视化工具</h3><p data-pid=\"C2oy-L3u\"><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/fuyoo/bs\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/fuyoo/bs</span><span class=\"invisible\"></span></a></p><p data-pid=\"qAb7OlYR\">一个基于 rust+tauri 的精简小巧的 redis 桌面端可视化工具。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-827289ec7f5150d8e69d0bf25fd8dd8a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"860\" data-rawheight=\"600\" data-original-token=\"v2-11539106d989ed785af7333b3bbdd56c\" class=\"origin_image zh-lightbox-thumb\" width=\"860\" data-original=\"https://pica.zhimg.com/v2-827289ec7f5150d8e69d0bf25fd8dd8a_r.jpg\"/></figure><h3>11、IRC客户端Halloy</h3><p data-pid=\"zTCO7mBD\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/squidowl/halloy\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/squidowl/hal</span><span class=\"invisible\">loy</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"WoMXbj5X\">用Rust编写的免费开源IRC客户端，使用iced库制作GUI桌面。它简单快速，支持 Mac、Linux和Windows多个平台 。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c44f1927b591aa315599474e500d41a9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1456\" data-rawheight=\"500\" data-original-token=\"v2-97255779647381f4bb1a5d118b3b28c2\" class=\"origin_image zh-lightbox-thumb\" width=\"1456\" data-original=\"https://pic2.zhimg.com/v2-c44f1927b591aa315599474e500d41a9_r.jpg\"/></figure><blockquote data-pid=\"A63Rfdvj\">IRC全称Internet Relay Chat，是因特网中继聊天。由芬兰人Jarkko Oikarinen 于1988年首创的一种网络聊天协议。 IRC的工作原理非常简单，您只要在自己的PC上运行客户端软件，然后通过因特网以IRC协议连接到一台IRC服务器上即可。它的特点是速度非常快，聊天时几乎没有延迟的现象，并且只占用很小的带宽资源。 所有用户可以在一个称为频道（Channel）的地方就某一个话题进行交谈。 每个IRC的使用者都有一个昵称（Nickname），它比使用电子邮件或新闻组等联络沟通方式更具吸引力。 IRC可以设置单独的频道，在这个频道内，输出的文字可供所有人都看到。</blockquote><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-01f98bf6f6233bf7dd6b9e755d0305f2_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"743\" data-rawheight=\"497\" data-original-token=\"v2-01f98bf6f6233bf7dd6b9e755d0305f2\" data-thumbnail=\"https://pica.zhimg.com/v2-01f98bf6f6233bf7dd6b9e755d0305f2_b.jpg\" data-default-watermark-src=\"https://pica.zhimg.com/v2-01f98bf6f6233bf7dd6b9e755d0305f2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"743\" data-original=\"https://pica.zhimg.com/v2-01f98bf6f6233bf7dd6b9e755d0305f2_r.jpg\"/></figure><p data-pid=\"00Nay0Ea\">要开始使用Halloy，你需要连接到至少一个IRC服务器。模板配置文件已经在Libera服务器上设置。还有很多其他可用的服务器，例如OFTC，Undernet，EFnet，QuakeNet等等。</p><p data-pid=\"6ZoaujPj\">Halloy可以同时连接到多个服务器。</p><h3>12、密码管理器</h3><p data-pid=\"fDmX94UJ\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/dani-garcia/vaultwarden\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/dani-garcia/</span><span class=\"invisible\">vaultwarden</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"Av2u7iMC\">Vaultwarden是一款开源密码管理器，通过Rust编写并基于Bitwarden API实现。</p><p data-pid=\"NgyeuPPt\">它可将所有密码<a href=\"https://link.zhihu.com/?target=https%3A//www.smzdm.com/ju/s2qrjnp/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">存储</a>于<a href=\"https://link.zhihu.com/?target=https%3A//www.smzdm.com/fenlei/fuwuqi/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">服务器</a>上，且相较于Bitwarden，它的<b>硬件要求极低</b>（测试过512M搬瓦工的VPS都能轻松跑起来），兼容Bitwarden官方客户端，支持几乎所有密码管理器（1password等）的数据导入导出。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4fa4360869d69ed2b1a4b8739eaf544d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1013\" data-rawheight=\"727\" data-original-token=\"v2-fd280b782f6928a4b778610f357527ac\" class=\"origin_image zh-lightbox-thumb\" width=\"1013\" data-original=\"https://picx.zhimg.com/v2-4fa4360869d69ed2b1a4b8739eaf544d_r.jpg\"/></figure><p data-pid=\"GZD5-X-Q\">目前Github标星44.8K。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f5e9d0e8d9d055e319ed5f4da1c554a8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"722\" data-rawheight=\"508\" data-original-token=\"v2-2c5af327a594f63cd931ff163a7287e7\" class=\"origin_image zh-lightbox-thumb\" width=\"722\" data-original=\"https://pic3.zhimg.com/v2-f5e9d0e8d9d055e319ed5f4da1c554a8_r.jpg\"/></figure><h3>13、Web开发框架Yew</h3><p data-pid=\"jBoYk7eY\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/yewstack/yew\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/yewstack/yew</span><span class=\"invisible\"></span></a></p><p data-pid=\"l9HeeasX\">Yew 是一个 Rust 框架，用于使用 WebAssembly 构建多线程前端 Web 应用程序。</p><p data-pid=\"liUgNH55\">它允许开发者通过编写 Rust 代码并将 Rust 代码转换为 WASM，从而在任何支持 WASM 的设备上运行。</p><p data-pid=\"TmrDjn9B\">目前Github标星31.6K，通过 Apache-2.0、MTI 协议开源，代码贡献者 376+，是一个值得长期保持关注的明星项目。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c82c1871f8d22bec9a4a6e2aed246017_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1048\" data-rawheight=\"973\" data-original-token=\"v2-074d6e1fc1b5df73d9975258753ea2a0\" class=\"origin_image zh-lightbox-thumb\" width=\"1048\" data-original=\"https://pic4.zhimg.com/v2-c82c1871f8d22bec9a4a6e2aed246017_r.jpg\"/></figure><p data-pid=\"QVqXIV9O\">Yew 采用类似于 React 和 Eml 的基于组件架构，支持多线程，具有 与 JavaScript 的互操作性，并与虚拟 DOM 和差异算法的优化下提供高效的渲染能力。如果你想试着用 Rust 来做一些炫酷的网页应用的话，Yew 可以是你的优先选择之一。</p><h3>14、Fluxus </h3><p data-pid=\"6hEPRD_J\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/lispking/fluxus\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/lispking/flu</span><span class=\"invisible\">xus</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"bW6HtiGQ\">开源的 Fluxus 流处理引擎。</p><p data-pid=\"iHvivqEn\">以 Rust 的高性能与安全性为基石，为实时数据处理场景注入强劲动力！无论是追求极致效率的开发者，还是热衷探索前沿技术的极客，这里都有你的舞台！</p><p data-pid=\"5bH0EnI_\">Fluxus 功能特点：</p><p data-pid=\"yYiynUVH\"> 多核并行处理 与 类型安全 API ，轻松驾驭高并发数据流； </p><p data-pid=\"7pi-CAwY\">灵活窗口操作 适配多样化业务场景，从物联网设备监控到金融市场分析，从日志异常检测到用户行为洞察，它都能游刃有余。</p><p data-pid=\"SkZjfwbP\">项目代码结构清晰、扩展性强，为每位贡献者铺设了顺畅的参与路径。</p><h3>1‌5、Actix Web‌</h3><p data-pid=\"OvVZbCuy\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/actix/actix-web\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/actix/actix-</span><span class=\"invisible\">web</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"qRdtUvQK\">‌Actix Web‌ 是一个高性能、基于Actor模型的Rust Web框架，以其高并发、高性能和可靠性著称。</p><p data-pid=\"GmtJoNmZ\">它最初来源于Actix框架，但现在已经发展成为一个独立的、功能强大的Web开发工具。</p><p data-pid=\"C26yxCim\">国外开发者用得最多的应该是 actix-web。你能在很多 rust 的开源高星项目中找到他的影子，我觉得他也是最快的框架之一。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cc19c39c953e529482c7c48b2069b0f9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1040\" data-rawheight=\"999\" data-original-token=\"v2-f861be39b43fc8008c900fac21e67c0f\" class=\"origin_image zh-lightbox-thumb\" width=\"1040\" data-original=\"https://picx.zhimg.com/v2-cc19c39c953e529482c7c48b2069b0f9_r.jpg\"/></figure><p data-pid=\"_eLPH-03\"><b>高性能‌：</b>Actix Web利用Rust的并发模型，提供高效的处理能力，适合处理高并发请求。</p><p data-pid=\"flvfSZIn\"><b>‌高可靠性‌：</b>框架设计考虑了错误处理和资源管理，确保应用的稳定运行。</p><p data-pid=\"JYI4goNx\"><b>‌易用性‌：</b>提供了简洁的API和直观的路由系统，使得开发过程更加顺畅。</p><p data-pid=\"5zg2pOPV\">如有帮助，<b>点赞记录</b>一下吧！</p>",
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1987172588326233188}",
+      "attached_info": "CpgPCP/pjJCmlZKEARAHGgkyNjgxMTg0NTUgjaOnywYoBjAAQCpKMQomVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjESATAYACAAOgBiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTg3MTcyNTg4MzI2MjMzMTg4ggFfaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi1mOWIzMDAzZWY0ZjBjZDYzMDkzZWQ4ZDM2ZTBkZjEyNy5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASA0NTQ2NmE4MzE0YTUzYzdjZmI2NjUzMzQ0YmViN2Q3M/IBCggMEgZOb3JtYWzyASgIChIkYmU1Mzc4MmMtYzcyMy00MWMxLWE4ZDMtMWY1Zjg2NjgyMmRi8gEFCAsSATiCAgCIAqPVmca8M5ICIDQ1NDY2YTgzMTRhNTNjN2NmYjY2NTMzNDRiZWI3ZDczmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1Yx6AID+gILTk9STUFMX0ZMT1eKAyAzMjFmMTVhOTliZWY0MzFhYjZmMjg2YWViZWNmNDFmYpoDDQoCdjIQABoFb3RoZXKoA7AE2AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6A4cJEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ6AcYnwIiI3YyLTc3OGI2MTI4YzQ0MWU1ZmY1NTFhMDYwMzU5NTUwZmNmOi0IAhDNCRj9BiIjdjItNjZkNDc1ZjE5OWFiN2E0YWUxM2QwMTI3ZGRiOTUzZjY6LQgDELIHGKoBIiN2Mi00MGEzYmYyYzlmNjZiMzIwZmMyYTEwNDUxYmUzOWFjODotCAIQuAgY+QUiI3YyLTAxMGQwNTRiNGNmNjEzNDU0YzIxMDg0YTIzNGQ3NmZmOi0IAhCiBxjdBCIjdjItMzAwMzcwZDUwNzRlMDI0NTc2YWUwNTAyZDZkOWJjMTY6LQgCELgIGMoEIiN2Mi1jM2FhOTIxODBjNjRkN2NiNmExZTIyMjU2NzczNjJmODotCAIQvwkY4wYiI3YyLTg4MmE1ZWI3YjI2M2VkZDBjY2VjOWQ0YjE4NmQzMjhjOi0IAxC4CBi6BSIjdjItZGIwZjU2NDUzOGEyNWIwZjMwYTRkMTU1YTkzMGNiNWE6LQgCELgIGNEFIiN2Mi02NTk0NWZiMjU2OWRlYmMxNDk2YTdlYzM3YzFhZjM5ZTotCAAQtggYqgQiI3YyLTgxMDJkZTkyYjA1Y2JkNzc4NDg0MDZhNTY4MDc1MThhOi0IAhC4CBjVBSIjdjItMTJkNWM1NDE3MjZlY2Q0MzJkOGNmMTYzZDNiMmM3ZTQ6LQgCEOAVGOgPIiN2Mi1hZWM3YmU4ZmE0ZmE1Mjk1MGE2NmMyYzJjMjI1ZDg4NDotCAMQngYYpwIiI3YyLWRkNjQ1Njk4YzcwODAzZjU0ZDJmODUyNDcyZWYyMDgwOi0IAhCCChiuByIjdjItZDI2MmQ5MThhYmY4YTY2ZWI2NTY5ZGYxMGFiMmIwYzA6LQgEEIIKGK4HIiN2Mi03MWI4MWM5NzczOWRjYzA0OGY0N2JjYjM3NmVlNDY1OTotCAQQggoYrgciI3YyLTc2N2RjYTQzY2Y3MGFhYjgxZWFhZThhODRhZmQ4M2ZmOi0IAhDcBhjYBCIjdjItMTE1MzkxMDZkOTg5ZWQ3ODVhZjczMzNiM2JiZGQ1NmM6LQgDELALGPQDIiN2Mi05NzI1NTc3OTY0NzM4MWY0YmIxYTVkMTE4YjNiMjhjMjotCAAQ5wUY8QMiI3YyLTAxZjk4YmY2ZjYyMzNiZjdkZDZiOWU3NTVkMDMwNWYyOi0IAhD1BxjXBSIjdjItZmQyODBiNzgyZjY5MjhhNGI3Nzg2MTBmMzU3NTI3YWM6LQgDENIFGPwDIiN2Mi0yYzVhZjMyN2E1OTRmNjNjZDkzMWZmMTYzYTcyODdlNzotCAIQmAgYzQciI3YyLTA3NGQ2ZTFmYzFiNWRmNzNkOTk3NTI1ODc1M2VhMmEwOi0IAhCQCBjnByIjdjItZjg2MWJlMzliNDNmYzgwMDhjOTAwZmFjMjFlNjdjMGY6LQgCEO8HGNcCIiN2Mi1mOWIzMDAzZWY0ZjBjZDYzMDkzZWQ4ZDM2ZTBkZjEyN4AEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIIBpiT+BBQAAAAAAAAAAiQXTs/i7o26zP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIkAYAoAYsqAYBkgIuCgkyNjgxMTg0NTUSEzE5ODcxNzI1ODgzMjYyMzMxODgYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "43_1768600005.658",
+      "type": "feed",
+      "offset": 43,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600005,
+      "updated_time": 1768600005,
+      "target": {
+        "is_navigator": false,
+        "navigator_vote": false,
+        "comment_count": 104,
+        "favorite_count": 94,
+        "question": {
+          "type": "question",
+          "follower_count": 0,
+          "question_type": "normal",
+          "author": {
+            "is_following": false,
+            "user_type": "organization",
+            "name": "大河财立方",
+            "is_org": true,
+            "followers_count": 208811,
+            "avatar_url": "https://pic1.zhimg.com/50/v2-6a274162c61d2bc8ee881170501f5b97_l.jpg?source=b6762063",
+            "gender": -1,
+            "badge": [
+              {
+                "type": "identity_media_org",
+                "description": "已认证机构号"
+              }
+            ],
+            "is_followed": false,
+            "id": "2e8657cf796c5b201e8649e681818b3d",
+            "url": "https://api.zhihu.com/people/2e8657cf796c5b201e8649e681818b3d",
+            "url_token": "da-he-cai-li-fang",
+            "headline": "智慧财媒 千企千面"
+          },
+          "answer_count": 0,
+          "comment_count": 71,
+          "excerpt": "",
+          "created": 1768554952,
+          "bound_topic_ids": [
+            2276,
+            12973,
+            105508,
+            185051,
+            624852
+          ],
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "1995544786623562937",
+          "url": "https://api.zhihu.com/questions/1995544786623562937",
+          "title": "贾国龙称「就罗永浩的重大污蔑诽谤一一回应」，并要求其对西贝、宝妈、餐饮行业道歉，如何看待这一发声？"
+        },
+        "excerpt_new": "非常的黑色幽默以及荒诞。 论对西贝造成的伤害，所有人打包一块都不如他一个人输出高。 最恨西贝的人，也想不出贾老师的操作。 一开始只是罗永浩随口一个吐槽，其目的甚至是为了展示自己可以坐飞机（暗示没有限高），完全可以不理会，不理会啥事没有。 但他不，他跳出来说生意不要了也要刚到底。 然后罗永浩跟他刚上了预制菜标准以及价格问题，他可以见招拆招，也可以坚决告罗永浩。 但他不，他跳出来邀请一堆记者进后厨，没有任…",
+        "thanks_count": 41,
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "segment_infos": [
+          {
+            "pid": "RavOCWnp",
+            "text": "论对西贝造成的伤害，所有人打包一块都不如他一个人输出高。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995676884328011034"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ePPe0ntZ",
+            "text": "但他不，他跳出来说生意不要了也要刚到底。",
+            "marks": [
+              {
+                "start_index": 4,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995678046636761790"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "R5ZYJ0r3",
+            "text": "那你别管。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 5,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995665873034301525"
+                  ],
+                  "is_like": false,
+                  "like_count": 11,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "excerpt": "非常的黑色幽默以及荒诞。 论对西贝造成的伤害，所有人打包一块都不如他一个人输出高。 最恨西贝的人，也想不出贾老师的操作。 一开始只是罗永浩随口一个吐槽，其目的甚至是为了展示自己可以坐飞机（暗示没有限高），完全可以不理会，不理会啥事没有。 但他不，他跳出来说生意不要了也要刚到底。 然后罗永浩跟他刚上了预制菜标准以及价格问题，他可以见招拆招，也可以坚决告罗永浩。 但他不，他跳出来邀请一堆记者进后厨，没有任…",
+        "answer_type": "normal",
+        "type": "answer",
+        "is_copyable": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 55768,
+        "id": "1995568028646142142",
+        "author": {
+          "headline": "我看诸君皆装x，料诸君看我应如是",
+          "gender": 1,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/ec7b66af7cd513fd3659d3c3ee347a77",
+          "user_type": "people",
+          "url_token": "banfoxianren",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "zhihu_yearly_answerer",
+              "description": "新知答主"
+            },
+            {
+              "type": "best_answerer",
+              "description": "互联网话题下的优秀答主",
+              "topic_names": [
+                "互联网"
+              ],
+              "topic_ids": [
+                99
+              ]
+            }
+          ],
+          "followers_count": 1902118,
+          "is_following": false,
+          "id": "ec7b66af7cd513fd3659d3c3ee347a77",
+          "name": "半佛仙人",
+          "avatar_url": "https://pica.zhimg.com/50/v2-0bba785e2b3b4038aa4cceb646b2d571_l.jpg?source=b6762063"
+        },
+        "created_time": 1768560493,
+        "voteup_count": 1185,
+        "url": "https://api.zhihu.com/answers/1995568028646142142",
+        "updated_time": 1768560493,
+        "preview_type": "default",
+        "content": "<p data-pid=\"U01Vkgzz\">非常的黑色幽默以及荒诞。</p><p data-pid=\"RavOCWnp\">论对西贝造成的伤害，所有人打包一块都不如他一个人输出高。</p><p data-pid=\"f5XVoQgE\">最恨西贝的人，也想不出贾老师的操作。</p><p data-pid=\"doBNDmPO\">一开始只是罗永浩随口一个吐槽，其目的甚至是为了展示自己可以坐飞机（暗示没有限高），完全可以不理会，不理会啥事没有。</p><p data-pid=\"ePPe0ntZ\">但他不，他跳出来说生意不要了也要刚到底。</p><p data-pid=\"gU51Y6_7\">然后罗永浩跟他刚上了预制菜标准以及价格问题，他可以见招拆招，也可以坚决告罗永浩。</p><p data-pid=\"HwwGWX4Z\">但他不，他跳出来邀请一堆记者进后厨，没有任何人让他这么干，罗永浩也没让他这么干，他就这么干了。</p><p data-pid=\"WW7xeKY7\">然后一堆记者进后厨采访厨师直播后厨，各种西兰花的梗就开始出来了，他可以不讲话。</p><p data-pid=\"qMeJ92Vy\">但他不，他跳出来教育消费者，把事情彻底搞大。</p><p data-pid=\"l4If78-I\">然后这个事情就闹得很离奇了，当然，同时也发生了其他几个离奇的新闻，相当于这个事情啥都不管，默默的就过去了。</p><p data-pid=\"y6AxesHS\">但他不，他跳出来说罗永浩是网络黑社会，罗永浩直接邀请他上直播辩论，他又不讲话了。</p><p data-pid=\"Aa4Byvri\">到这里，这个事情已经非常的荒诞了，理论上他也不应该再做什么了，慢慢的让风波过去就好了，罗永浩也不理他了。</p><p data-pid=\"Dl0ERv7k\">但他不，西贝下面的官号开始发各种诡异的鸡汤，其中就有经典的毛毛文学，又一次爆梗。</p><p data-pid=\"MGvl5C3d\">到这里，西贝已经不得不降价了，那慢慢的正常的降价，继续运营就好了。</p><p data-pid=\"h8WDS7hY\">但他不，这时候华与华又蹦出来骂罗永浩，诞生了录音门。</p><p data-pid=\"6OY-NMtq\">到这里，西贝的名声已经变得非常诡异了，关闭一些门店属于不得已的事情，刚好可以示弱。</p><p data-pid=\"J7IYfR3O\">但他不，他又蹦出来力挺华与华，教育消费者不懂预制菜，又提他那个西兰花，同时还把自家公关骂了一顿。</p><p data-pid=\"ZBXZhulB\">到这里，他的公关都已经离职了，应该消停一点了吧。</p><p data-pid=\"8aOFGxzt\">但他不，他又蹦出来骂罗永浩，并且今晚要直播怼罗永浩。</p><p data-pid=\"ufQBWa4C\">整套操作下来，每一步都伤害最大化，利益最小化。</p><p data-pid=\"LBPP3c_R\">他自己还一副要面对一切困难的态度。</p><p data-pid=\"9EoYo3ZA\">至于这些困难是谁惹出来的。</p><p data-pid=\"R5ZYJ0r3\">那你别管。</p><p></p>",
+        "allow_segment_interaction": true,
+        "is_labeled": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995568028646142142}",
+      "attached_info": "CuQFCP/pjJCmlZKEARAEGgk3NjU3MDY1Nzkg7a6oywYooQkwaEArSigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTgwODg4OTdiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1NTY4MDI4NjQ2MTQyMTQyigETMTk5NTU0NDc4NjYyMzU2MjkzN6oBCXJlY29tbWVuZMIBIGVjN2I2NmFmN2NkNTEzZmQzNjU5ZDNjM2VlMzQ3YTc38gEKCAwSBk5vcm1hbPIBKAgKEiRiY2ZjYzc2Zi01ODg3LTRjNzQtOTA0MS1mNmM2NjVlMzU0OGTyAQUICxIBOIICAIgCpNWZxrwzkgIgZWM3YjY2YWY3Y2Q1MTNmZDM2NTlkM2MzZWUzNDdhNzeaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgP6AgtOT1JNQUxfRkxPV4oDIDMyMWYxNWE5OWJlZjQzMWFiNmYyODZhZWJlY2Y0MWZimgMNCgJ2MhAAGgVvdGhlcqgD2LMD2AMA+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4D0npz+BBQAAAAAAAAAAiQXTs/i7o26zP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIigZHCjwIsb/YBxIb6LS+5Zu96b6Z5YaN5o6A5YWs5YWz6aOO5rOiGIzWp8sGIM+EPSgAMKS8pzgwpOymODgAQAASBwgAFQAg6D6QBgCgBi2oBgOSAi4KCTc2NTcwNjU3ORITMTk5NTU2ODAyODY0NjE0MjE0MhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "44_1768600005.933",
+      "type": "feed",
+      "offset": 44,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600005,
+      "updated_time": 1768600005,
+      "target": {
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "gender": -1,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/b641be49a7246e25f10344460e55f200",
+          "user_type": "people",
+          "url_token": "charlie-9-44-64",
+          "name": "charlie",
+          "headline": "",
+          "id": "b641be49a7246e25f10344460e55f200",
+          "is_org": false,
+          "followers_count": 6,
+          "is_following": false
+        },
+        "preview_type": "default",
+        "favorite_count": 36,
+        "preview_text": "",
+        "visited_count": 49308,
+        "answer_type": "normal",
+        "thumbnail": "https://picx.zhimg.com/50/v2-58a137bd6cfb289400d621630ba64309_720w.jpg?source=b6762063",
+        "content": "<p data-pid=\"s6vuugEv\">刚发生的事，与几个好友在上海cp静安商场聚完餐后，大概晚上10点多，我独自回家的路上，碰见一位骑着单车的女子在斑马线附近叫住我并停下车来。我以为她是找我问路的，结果开口和我说：“帅哥能给我买点吃的吗，我在这找工作还没找到。。。你看方不方便给我支付宝转30 50块钱？”</p><p data-pid=\"A6pwbUBr\">这个姑娘我没仔细看人面容，操着一口外地口音（非歧视 我也不是上海本地人），在1月份的上海穿着略微有些单薄。我是比较乐于助人的，但是也懂得直接要钱的有可能是骗子，如果是真的需要帮助的人，肯定不如给人家买点吃的好。刚好边上就是个便利店，我就说带她来买点吃的得了。她犹豫了一下说好。这个过程中她也在问我是不是刚下班啥的，工作多久了等等。进了便利店，她问我可不可以再买点洗漱用品。我想着买个牙刷牙膏啥的也就小几十，加上吃的也不会太贵，这点我还是无所谓的。也没有仔细看她拿了啥，在便利店门口结账的地方等着。</p><p data-pid=\"nIsYuDmy\">她没多久抱来了一些吃的，和一个小白罐子看着像洗面奶的东西。最后一结账：</p><p data-pid=\"ALtF53HB\">187块！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7395f4e3e81d29e939813b049694cea6_1440w.jpg\" data-rawwidth=\"1320\" data-rawheight=\"2407\" data-size=\"normal\" data-original-token=\"v2-58a137bd6cfb289400d621630ba64309\" class=\"origin_image zh-lightbox-thumb\" width=\"1320\" data-original=\"https://pica.zhimg.com/v2-7395f4e3e81d29e939813b049694cea6_r.jpg\"/></figure><p data-pid=\"gcgAHESA\">这点钱对我来说虽然不是大钱，但也浑身不舒服，心里第一反应就是：我靠遇到骗子/职业讹钱的了！如果是我落魄了，碰到一个好心人帮我，我肯定不会狮子大开口买那么多东西。但是我属于脸皮比较薄的人，此刻答应了帮人也不好意思反悔说不行，主要还是一切发生的太快了也没时间给我做反应，或者想一些拒绝的说辞。我这时候眉头已经皱起来了，但也心想着破财消灾算了，200元不到也就我玩游戏买个皮肤的钱。于是掏出付款码，结了帐后跟女子说：“你自己拿着东西吧我先走了”。然后留下了一个自认为潇洒的背影。</p><p data-pid=\"mtdJ4I7U\">但是还没完，当我在便利店门口的路口等红绿灯的时候，这个女子抱着东西跑到我身边，和我说：“帅哥你别走这么快！是这样的我确实没找到工作，不知道你是不是住这边上，房子里有空余床铺的话可不可以让我留宿2天？”</p><p data-pid=\"5Xu9VISQ\">这下真的踩到我的底线了，讹上我了是吧，没完没了了。我明确告诉了她不太方便。于是她又问我可不可以给她支付宝一两百块钱，她去边上找个小旅馆住一下就好。在我明确拒绝了几次后，她还是有点不罢休。她看我有点不理她，说我怎么不看着她。</p><p data-pid=\"21l0x7_e\">我此时带着被当成烂好人的怒气，大声告诉她：“这里马路斜对面就是静安人民政府，另一边就是个军区大营，有需要帮助可以找他们或者警察！”（在上海静安欧莱雅上班的朋友应该知道这个事情在哪了）。</p><p data-pid=\"weWqAqg5\">此时她没等我说完，连连说好的好的，谢谢你，然后就朝着我身后方向走了。我回家的路上真的越想越气，久久难以忘怀，觉得自己就是被当冤大头了，可能这个女子就是专门蹲在这个路口来找人买单东西的。哎，破财消灾，破财消灾，不知道以后碰到这种情况我还会不会主动帮助他们，真的是熄灭了我对他人的信任。</p><p data-pid=\"OsIe6vWb\">我平时基本从来不在公开平台发帖子，昨晚纯属心血来潮还是准备把这段经历写下来。但是发朋友圈的话实在感觉有点丢人，所以就发到这边来了，没想到浏览量还挺多，也感谢各位的热情回复。这个题目关于底层人的话题也是我随手找的一个略有相关的就开始写了，不过对方也确实是以底层人的形象和身份赚取了我最开始的同情。也希望让看到这个帖子但没经历过这个事情的朋友一定要谨慎，即使决定愿意帮他人买吃的，也一定要自己挑选简单裹腹的即可。对面不答应就爱要不要拔腿就走就好。</p>",
+        "is_copyable": true,
+        "excerpt_new": "刚发生的事，与几个好友在上海cp静安商场聚完餐后，大概晚上10点多，我独自回家的路上，碰见一位骑着单车的女子在斑马线附近叫住我并停下车来。我以为她是找我问路的，结果开口和我说：“帅哥能给我买点吃的吗，我在这找工作还没找到。。。你看方不方便给我支付宝转30 50块钱？” 这个姑娘我没仔细看人面容，操着一口外地口音（非歧视 我也不是上海本地人），在1月份的上海穿着略微有些单薄。我是比较乐于助人的，但是也懂得直接…",
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "voteup_count": 205,
+        "question": {
+          "url": "https://api.zhihu.com/questions/853504106",
+          "detail": "",
+          "question_type": "normal",
+          "id": "853504106",
+          "comment_count": 171,
+          "is_following": false,
+          "excerpt": "",
+          "answer_count": 0,
+          "author": {
+            "id": "6c160ee971cd0a15bd0893ac1f7dfd74",
+            "url_token": "50-33-70-33-27",
+            "name": "一点墨",
+            "followers_count": 6,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/6c160ee971cd0a15bd0893ac1f7dfd74",
+            "user_type": "people",
+            "headline": "我与我周旋久，宁作我。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-c4ea77f842f8a4c703edb9c36b8ca2ef_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "is_followed": false
+          },
+          "title": "为什么要远离社会底层？",
+          "created": 1728805639,
+          "bound_topic_ids": [
+            404,
+            5497,
+            5582,
+            5619,
+            13740
+          ],
+          "type": "question",
+          "relationship": {
+            "is_author": false
+          },
+          "follower_count": 0
+        },
+        "id": "1995279667347874279",
+        "url": "https://api.zhihu.com/answers/1995279667347874279",
+        "thanks_count": 5,
+        "comment_count": 214,
+        "navigator_vote": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-58a137bd6cfb289400d621630ba64309_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "created_time": 1768491743,
+        "updated_time": 1768556860,
+        "excerpt": "刚发生的事，与几个好友在上海cp静安商场聚完餐后，大概晚上10点多，我独自回家的路上，碰见一位骑着单车的女子在斑马线附近叫住我并停下车来。我以为她是找我问路的，结果开口和我说：“帅哥能给我买点吃的吗，我在这找工作还没找到。。。你看方不方便给我支付宝转30 50块钱？” 这个姑娘我没仔细看人面容，操着一口外地口音（非歧视 我也不是上海本地人），在1月份的上海穿着略微有些单薄。我是比较乐于助人的，但是也懂得直接…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995279667347874279}",
+      "attached_info": "CtAGCP/pjJCmlZKEARAEGgk3NjU1OTA2OTYg35WkywYozQEw1gFALEooChNUU19TT1VSQ0VfRkVFRFJFX1Y1EgEwGAAgADoKeyJyYXciOiIifUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifVoJMTExMTIyMTIxYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NTI3OTY2NzM0Nzg3NDI3OYoBCTg1MzUwNDEwNqoBCXJlY29tbWVuZMIBIGI2NDFiZTQ5YTcyNDZlMjVmMTAzNDQ0NjBlNTVmMjAw8gEKCAwSBk5vcm1hbPIBKAgKEiRlOWMyNTI1OC1hZDg2LTQ3ZjUtYjhmZC0yZGE2MzEyNTc5YWHyAQUICxIBOIICAIgCpNWZxrwzkgIgYjY0MWJlNDlhNzI0NmUyNWYxMDM0NDQ2MGU1NWYyMDCaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gITVFNfU09VUkNFX0ZFRURSRV9WNegCAvoCC05PUk1BTF9GTE9XigMgMzIxZjE1YTk5YmVmNDMxYWI2ZjI4NmFlYmVjZjQxZmKaAw0KAnYyEAAaBW90aGVyqAOcgQPYAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQqAoY5xIiI3YyLTU4YTEzN2JkNmNmYjI4OTQwMGQ2MjE2MzBiYTY0MzA5gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAhyTHP4EFAAAAAAAAAACJBdOz+LujbrM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBi6oBgCSAi4KCTc2NTU5MDY5NhITMTk5NTI3OTY2NzM0Nzg3NDI3ORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "45_1768600005.263",
+      "type": "feed",
+      "offset": 45,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600005,
+      "updated_time": 1768600005,
+      "target": {
+        "id": "1995134112248375027",
+        "type": "answer",
+        "question": {
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "id": "538420966",
+          "type": "question",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            34008,
+            120922,
+            129934
+          ],
+          "author": {
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-35f3a497db672f2c0c7ec3c5e161965e_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 2,
+            "id": "36f3ef6d79a649abbd6a173f496e9538",
+            "url": "https://api.zhihu.com/people/36f3ef6d79a649abbd6a173f496e9538",
+            "url_token": "9gtba4",
+            "name": "知乎用户9GTbA4",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有什么可以做的手工推荐?",
+          "is_following": false,
+          "detail": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/538420966",
+          "created": 1655599159,
+          "answer_count": 0,
+          "comment_count": 0
+        },
+        "content": "<p data-pid=\"FiaiZisy\">要是说起空闲时间干点啥，我最大的乐趣可不在屋里待着，而是喜欢去公园拾荒。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1acfdfcd7c7561903ec9db870d454fd6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"790\" data-rawheight=\"1054\" data-original-token=\"v2-1acfdfcd7c7561903ec9db870d454fd6\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://pica.zhimg.com/v2-1acfdfcd7c7561903ec9db870d454fd6_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-bd6a52e79eae76e427f6822eae56a147_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-bd6a52e79eae76e427f6822eae56a147\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-bd6a52e79eae76e427f6822eae56a147_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-20add25c51c877e8d0a71ed76d4ed029_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"790\" data-rawheight=\"1054\" data-original-token=\"v2-20add25c51c877e8d0a71ed76d4ed029\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://picx.zhimg.com/v2-20add25c51c877e8d0a71ed76d4ed029_r.jpg\"/></figure><p data-pid=\"RWkBMLtQ\">说好听点是亲近自然，通俗点说，我就是那个在公园绿化带里低头找宝的人。别人逛公园是看花看景，我是盯着地上的草堆和树根，看有没有什么能捡回来的宝贝。</p><p data-pid=\"V00P37fZ\">这种<b>捡种子</b>的快乐，真的只有试过的人才懂：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-abb1be77323c76f43c2ac4b0811b6b80_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-abb1be77323c76f43c2ac4b0811b6b80\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-abb1be77323c76f43c2ac4b0811b6b80_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e1a2ae9a14133741ff6be3405c07347a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-e1a2ae9a14133741ff6be3405c07347a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-e1a2ae9a14133741ff6be3405c07347a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9db32ec734ce4eb13e47994607979b25_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-9db32ec734ce4eb13e47994607979b25\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-9db32ec734ce4eb13e47994607979b25_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-21914e3c4a132fee093583c08724860d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-21914e3c4a132fee093583c08724860d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-21914e3c4a132fee093583c08724860d_r.jpg\"/></figure><p data-pid=\"GisxbtU3\">其实大自然真的挺大方的，满地都是不要钱的原材料：</p><p data-pid=\"qn-N5F_2\"><b>无患子：</b> 捡回来把外面那层皮剥了，洗干净，那黑色的小圆核油光发亮的，比外边买的塑料珠子高级多了，拿来穿手串最合适。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-de850870a348b3649fd773876d0fa97b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-de850870a348b3649fd773876d0fa97b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-de850870a348b3649fd773876d0fa97b_r.jpg\"/></figure><p data-pid=\"dFvPNWBb\"><b>橡果（栎树果）：</b> 带着个小帽子，特别像童话里的小人儿，光是看着心都能化了。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4a74943a4c4a703c2dedb66c0eee878a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-4a74943a4c4a703c2dedb66c0eee878a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-4a74943a4c4a703c2dedb66c0eee878a_r.jpg\"/></figure><p data-pid=\"SuKh5qPV\"><b>南酸枣：</b> 剥开肉，里面的核上有五个小孔，咱们圈子里叫“五眼六通”，捡到品相好的，能开心一下午。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-04fe82e4410398894398ab338bb7cbd8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-04fe82e4410398894398ab338bb7cbd8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-04fe82e4410398894398ab338bb7cbd8_r.jpg\"/></figure><p data-pid=\"-7RGFRSV\"><b>枫香果：</b> 像个带刺的小流星锤，把它处理好了挂在包上，那叫一个个性。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-47ce0b47c067c31ccf24defded745d91_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"790\" data-rawheight=\"1054\" data-original-token=\"v2-47ce0b47c067c31ccf24defded745d91\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://picx.zhimg.com/v2-47ce0b47c067c31ccf24defded745d91_r.jpg\"/></figure><hr/><p data-pid=\"Il26keJW\">把这些捡回来的种子带回家，摊在一桌子上，先清洗、晾干，然后拿个小钻头钻孔，再挑喜欢的绳子给它穿起来。</p><p data-pid=\"jUTaA2jY\">做成<b>手串</b>，没事就在手里盘它，越盘越亮；</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5de706f3178d159bdc1eca2abb76d68d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"790\" data-rawheight=\"1054\" data-original-token=\"v2-5de706f3178d159bdc1eca2abb76d68d\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://pic2.zhimg.com/v2-5de706f3178d159bdc1eca2abb76d68d_r.jpg\"/></figure><p data-pid=\"js5JUbx3\">凑一堆穿个<b>葡萄串</b>挂件，颜色深浅不一，特有层次感；</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e6fe0833f7dcd67193393599b71a64c0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"790\" data-rawheight=\"1054\" data-original-token=\"v2-e6fe0833f7dcd67193393599b71a64c0\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://pic3.zhimg.com/v2-e6fe0833f7dcd67193393599b71a64c0_r.jpg\"/></figure><p data-pid=\"1dG0jG7i\">还有那<b>摇铃</b>，摇起来清清脆脆的，全是木头和种子的声音，比手机里的电子乐好听。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7953ac876c265c14a98edc54f955405f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-7953ac876c265c14a98edc54f955405f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-7953ac876c265c14a98edc54f955405f_r.jpg\"/></figure><hr/><p data-pid=\"W0qFIHZf\">做手工的时候，手里忙活着钻孔、打结，心里那些乱七八糟的琐事——不管是家里的矛盾还是外头的烦恼，全都能给关在门外。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e49f59a7715d79c7246895f462c1c9ae_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"790\" data-rawheight=\"1054\" data-original-token=\"v2-e49f59a7715d79c7246895f462c1c9ae\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://pica.zhimg.com/v2-e49f59a7715d79c7246895f462c1c9ae_r.jpg\"/></figure><p data-pid=\"WXyxHMq4\">在那一刻，我不是谁的儿媳，也不是谁的员工，我就是一个跟种子对话的手艺人。哪怕只是用银杏核做一个简单的耳环，或者把布迪椰子磨一磨，那种<b>把废品变艺术品</b>的成就感，真的特别治愈。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e64772778ccad9e7f0303d0e576c5402_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"790\" data-rawheight=\"1054\" data-original-token=\"v2-e64772778ccad9e7f0303d0e576c5402\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://pic3.zhimg.com/v2-e64772778ccad9e7f0303d0e576c5402_r.jpg\"/></figure><p data-pid=\"Ta2fHDh7\">现在我出门，兜里总习惯揣个小塑料袋，看见好看的种子就想往回捡。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f31fdebb560d2cf753c8c57f492bfa08_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"790\" data-rawheight=\"1054\" data-original-token=\"v2-f31fdebb560d2cf753c8c57f492bfa08\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://pic3.zhimg.com/v2-f31fdebb560d2cf753c8c57f492bfa08_r.jpg\"/></figure><hr/><p></p>",
+        "favorite_count": 8,
+        "author": {
+          "user_type": "people",
+          "name": "祈澈菇凉",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-135ba73f4bfd0fd36ea336aae4bd1bb0_l.jpg?source=b6762063",
+          "followers_count": 13480,
+          "is_following": false,
+          "is_followed": false,
+          "id": "5cc4fcea8bbc19b1095af0f5d61074f4",
+          "url": "https://api.zhihu.com/people/5cc4fcea8bbc19b1095af0f5d61074f4",
+          "url_token": "wang-ting-83-68-20",
+          "is_org": false,
+          "gender": 0
+        },
+        "updated_time": 1768457040,
+        "comment_count": 2,
+        "excerpt": "要是说起空闲时间干点啥，我最大的乐趣可不在屋里待着，而是喜欢去公园拾荒。       说好听点是亲近自然，通俗点说，我就是那个在公园绿化带里低头找宝的人。别人逛公园是看花看景，我是盯着地上的草堆和树根，看有没有什么能捡回来的宝贝。 这种 捡种子的快乐，真的只有试过的人才懂：         其实大自然真的挺大方的，满地都是不要钱的原材料： 无患子： 捡回来把外面那层皮剥了，洗干净，那黑色的小圆核油光发亮的，比外边买的塑料珠子高级…",
+        "reshipment_settings": "allowed",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-1acfdfcd7c7561903ec9db870d454fd6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-bd6a52e79eae76e427f6822eae56a147_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-20add25c51c877e8d0a71ed76d4ed029_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-abb1be77323c76f43c2ac4b0811b6b80_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e1a2ae9a14133741ff6be3405c07347a_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-9db32ec734ce4eb13e47994607979b25_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-21914e3c4a132fee093583c08724860d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-de850870a348b3649fd773876d0fa97b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4a74943a4c4a703c2dedb66c0eee878a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-04fe82e4410398894398ab338bb7cbd8_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-47ce0b47c067c31ccf24defded745d91_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5de706f3178d159bdc1eca2abb76d68d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e6fe0833f7dcd67193393599b71a64c0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7953ac876c265c14a98edc54f955405f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e49f59a7715d79c7246895f462c1c9ae_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e64772778ccad9e7f0303d0e576c5402_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f31fdebb560d2cf753c8c57f492bfa08_720w.jpg?source=b6762063"
+        ],
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "url": "https://api.zhihu.com/answers/1995134112248375027",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "excerpt_new": "要是说起空闲时间干点啥，我最大的乐趣可不在屋里待着，而是喜欢去公园拾荒。       说好听点是亲近自然，通俗点说，我就是那个在公园绿化带里低头找宝的人。别人逛公园是看花看景，我是盯着地上的草堆和树根，看有没有什么能捡回来的宝贝。 这种 捡种子的快乐，真的只有试过的人才懂：         其实大自然真的挺大方的，满地都是不要钱的原材料： 无患子： 捡回来把外面那层皮剥了，洗干净，那黑色的小圆核油光发亮的，比外边买的塑料珠子高级…",
+        "is_navigator": false,
+        "created_time": 1768457040,
+        "voteup_count": 11,
+        "thumbnail": "https://picx.zhimg.com/50/v2-1acfdfcd7c7561903ec9db870d454fd6_720w.jpg?source=b6762063",
+        "visited_count": 279,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "thanks_count": 1,
+        "preview_type": "default",
+        "preview_text": "",
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995134112248375027}",
+      "attached_info": "CvkLCP/pjJCmlZKEARAEGgk3NjU1MTk1MTIg0IaiywYoCzACQC1KQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoIODE5MzExMzRiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1MTM0MTEyMjQ4Mzc1MDI3igEJNTM4NDIwOTY2qgEJcmVjb21tZW5kwgEgNWNjNGZjZWE4YmJjMTliMTA5NWFmMGY1ZDYxMDc0ZjTyAQoIDBIGTm9ybWFs8gEoCAoSJDVlYmI3NDkwLTFjNGUtNDEzZS1hMDc0LTYyNTlkZDc0YTM4NfIBBQgLEgE4ggIAiAKk1ZnGvDOSAiA1Y2M0ZmNlYThiYmMxOWIxMDk1YWYwZjVkNjEwNzRmNJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDMyMWYxNWE5OWJlZjQzMWFiNmYyODZhZWJlY2Y0MWZimgMNCgJ2MhAAGgVvdGhlcqgDlwLYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gO+BhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEJYGGJ4IIiN2Mi0xYWNmZGZjZDdjNzU2MTkwM2VjOWRiODcwZDQ1NGZkNjotCAQQuAgYoAsiI3YyLWJkNmE1MmU3OWVhZTc2ZTQyN2Y2ODIyZWFlNTZhMTQ3Oi0IBBCWBhieCCIjdjItMjBhZGQyNWM1MWM4NzdlOGQwYTcxZWQ3NmQ0ZWQwMjk6LQgEELgIGKALIiN2Mi1hYmIxYmU3NzMyM2M3NmY0M2MyYWM0YjA4MTFiNmI4MDotCAQQuAgYoAsiI3YyLWUxYTJhZTlhMTQxMzM3NDFmZjZiZTM0MDVjMDczNDdhOi0IBBC4CBigCyIjdjItOWRiMzJlYzczNGNlNGViMTNlNDc5OTQ2MDc5NzliMjU6LQgEELgIGKALIiN2Mi0yMTkxNGUzYzRhMTMyZmVlMDkzNTgzYzA4NzI0ODYwZDotCAQQuAgYoAsiI3YyLWRlODUwODcwYTM0OGIzNjQ5ZmQ3NzM4NzZkMGZhOTdiOi0IBBC4CBigCyIjdjItNGE3NDk0M2E0YzRhNzAzYzJkZWRiNjZjMGVlZTg3OGE6LQgEELgIGKALIiN2Mi0wNGZlODJlNDQxMDM5ODg5NDM5OGFiMzM4YmI3Y2JkODotCAQQlgYYnggiI3YyLTQ3Y2UwYjQ3YzA2N2MzMWNjZjI0ZGVmZGVkNzQ1ZDkxOi0IBBCWBhieCCIjdjItNWRlNzA2ZjMxNzhkMTU5YmRjMWVjYTJhYmI3NmQ2OGQ6LQgEEJYGGJ4IIiN2Mi1lNmZlMDgzM2Y3ZGNkNjcxOTMzOTM1OTliNzFhNjRjMDotCAQQuAgYoAsiI3YyLTc5NTNhYzg3NmMyNjVjMTRhOThlZGM1NGY5NTU0MDVmOi0IBBCWBhieCCIjdjItZTQ5ZjU5YTc3MTVkNzljNzI0Njg5NWY0NjJjMWM5YWU6LQgDEJYGGJ4IIiN2Mi1lNjQ3NzI3NzhjY2FkOWU3ZjAzMDNkMGU1NzZjNTQwMjotCAQQlgYYnggiI3YyLWYzMWZkZWJiNTYwZDJjZjc1M2M4YzU3ZjQ5MmJmYTA4gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACASAmWP4EFAAAAAAAAAACJBdOz+LujbrM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBi+oBgCSAi4KCTc2NTUxOTUxMhITMTk5NTEzNDExMjI0ODM3NTAyNxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "46_1768600005.226",
+      "type": "feed",
+      "offset": 46,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600005,
+      "updated_time": 1768600005,
+      "target": {
+        "type": "answer",
+        "comment_count": 0,
+        "question": {
+          "is_following": false,
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "author": {
+            "is_org": false,
+            "followers_count": 9,
+            "url": "https://api.zhihu.com/people/de1ddc717c0c41f90bfde38431de588c",
+            "name": "彳亍",
+            "headline": "对生活感兴趣",
+            "avatar_url": "https://picx.zhimg.com/50/v2-c1f529dffc08f879a3184d7e6fa7fc4b_l.jpg?source=b6762063",
+            "is_following": false,
+            "is_followed": false,
+            "id": "de1ddc717c0c41f90bfde38431de588c",
+            "user_type": "people",
+            "url_token": "jia-shun-39-56",
+            "gender": 1
+          },
+          "url": "https://api.zhihu.com/questions/543211216",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "543211216",
+          "title": "为啥说“换个角度看问题”?",
+          "created": 1657764612,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            119,
+            478,
+            5361
+          ]
+        },
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "navigator_vote": false,
+        "id": "1995603389703288514",
+        "favorite_count": 1,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "thanks_count": 0,
+        "is_copyable": true,
+        "excerpt": "有谚语说：“条条大路通罗马”。这个谚语是说去罗马的路多得很，不要一条道走到黑，意思是达到目的方法多得很。无论你是骑马，开私家车还是坐高铁，最终都能到达罗马。通常我们总是习惯人云亦云，觉得很多事情天经地义就是这样的，但是，如果你换个角度看问题，或许又能找到不一样的感觉。思考问题要多元化，要独立思考，更要学会逻辑思考，这一点很有用。 春秋战国时期有个叫“列御寇”的人写了一本书叫《列子.汤问》，里面讲了…",
+        "excerpt_new": "有谚语说：“条条大路通罗马”。这个谚语是说去罗马的路多得很，不要一条道走到黑，意思是达到目的方法多得很。无论你是骑马，开私家车还是坐高铁，最终都能到达罗马。通常我们总是习惯人云亦云，觉得很多事情天经地义就是这样的，但是，如果你换个角度看问题，或许又能找到不一样的感觉。思考问题要多元化，要独立思考，更要学会逻辑思考，这一点很有用。 春秋战国时期有个叫“列御寇”的人写了一本书叫《列子.汤问》，里面讲了…",
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "author": {
+          "url_token": "shang-pin-fei-cui-79",
+          "avatar_url": "https://picx.zhimg.com/50/v2-7b67755ce62fb5f7dd08f306ea070bb5_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 15,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/176668032ad4b5e7c8a4703abc8c34bd",
+          "user_type": "people",
+          "name": "假装仁波切",
+          "headline": "卖翡翠的摄影爱好者",
+          "gender": 1,
+          "is_followed": false,
+          "id": "176668032ad4b5e7c8a4703abc8c34bd"
+        },
+        "created_time": 1768568924,
+        "updated_time": 1768568924,
+        "voteup_count": 0,
+        "preview_text": "",
+        "content": "<p></p><p data-pid=\"8kc1diIn\">有谚语说：“条条大路通罗马”。这个谚语是说去罗马的路多得很，不要一条道走到黑，意思是达到目的方法多得很。无论你是骑马，开私家车还是坐高铁，最终都能到达罗马。通常我们总是习惯人云亦云，觉得很多事情天经地义就是这样的，但是，如果你换个角度看问题，或许又能找到不一样的感觉。思考问题要多元化，要独立思考，更要学会逻辑思考，这一点很有用。</p><p data-pid=\"gWr9gReN\">春秋战国时期有个叫“列御寇”的人写了一本书叫《列子.汤问》，里面讲了一个神话故事“愚公移山”。说是愚公的家门口有两座大山挡住了出去的路，愚公很生气，由于愚公脑子一根筋，他一不高兴就带领家人每天挖山，要把山挖掉。（搞不明白愚公一家不种地吃啥）后来感动了天神，就派神仙把山搬走了。</p><p data-pid=\"Be7xSSAC\">“铁棒磨成针”这个故事据说出自宋朝祝穆《方舆胜览》一书，讲的是李白逃课，路上遇见个老太太磨一个铁棒子，李白好奇老太太磨铁棒子干什么？老太太告诉李白：只要功夫深，铁棒磨成针。李白很受感动，于是就回去好好读书了，最后成了大诗人。但因出身不济，最终没能当上官。晚年好不容易做了一回官，结果加入的是叛军，没被杀头就不错了，流放途中皇上大赦天下，住叔叔家没几年就死在安徽马鞍山附近的当涂了。</p><p data-pid=\"xI8l_wqc\">唐代大诗人韩愈有诗曰：“蚍蜉撼大树，可笑不自量”。讽刺了本事不够还企图去做自己力量所做不到的事情。蚍蜉就是蚂蚁，蚂蚁竟然想去撼动大树，这根本就是不自量力。</p><p data-pid=\"mR6rqpC5\">上面三个故事表面上看，风马牛不相及，实际上这三个故事讲的都是一个类型的事。愚公移山，蚍蜉撼树和铁棒磨成针从本质上是一样的，他们都在做一件自己力所不能及的事情，但是，愚公移山就被弘扬光大了，蚍蜉撼树就被讽刺了，铁棒磨成针更是成了一种精神了，仔细一想真的是自相矛盾。</p><p data-pid=\"9DY9JojJ\">我在想愚公和磨铁棒的老太太绝对是一路人。我们赞扬愚公的时候，自认为和愚公是一伙的，自认为我们正在做一件伟大的事情；我们嘲笑蚂蚁的时候，我们又自认为是和大树一伙的，蚂蚁在我们眼里是多么的自不量力。然而在大山的眼里，我们又何尝不是跟蚂蚁一样渺小？往往我们在嘲笑蚂蚁的时候，却忘记了自己面对大山时所处的位置。</p><p data-pid=\"iDnmjDhj\">愚公之所以叫愚公，说明他脑子确实不灵光。家门口被两座大山挡住了去路，就要把山挖掉，您老人家有挖山的功夫，修一条路到山外不好吗？这工程量也比挖山要小的多呀。再不然就搬家到山外的平原去，这可就一劳永逸地解决了出行的问题了。愚公对挖山信心十足，对智叟说：我死了还有儿子，儿子死了还有孙子，我家子子孙孙是无穷尽的。上帝听了以后感动的眼泪哗哗的，为了愚公家的子子孙孙无穷尽，上帝就派了许多神仙帮愚公生孩子了。</p><p data-pid=\"szSg9f8a\">其实大家都明白把山挖没了这是不可能的，于是上帝只好派神仙来把大山搬走了。这个问题看上去好像是解决了，可仔细一琢磨，这不是损人利己吗?大山搬到别的地方，别的地方的人也就倒霉了，平白无故的来了两座山，这里的人出行也就和愚公家一样了。这神仙也就是转移了矛盾，根本就没解决问题。有利了愚公，祸害了别人，这神仙也是个脑子不灵光的东西。</p><p data-pid=\"8RIOvp90\">磨铁棒的老太太应该和愚公是一家人，认死理，脑子同样不灵光。舍不得花钱买针，就要用铁棒子磨针，唐朝到现在一千多年过去了，大概这针还没磨好吧，如果要等着用这根针缝衣服，那老太太的晚辈就只好光屁股了。当然了拿一大块布中间掏个窟窿套身上也行，也挺时髦的，如今的模特儿走秀就有这么干的，为了一根针，领先时尚一千多年，想想也值了。</p><p data-pid=\"3rkUEYss\">中国有句老话叫：“千里之堤，毁于蚁穴”，这说明蚂蚁的力量还是很大的。难不成毁千里之堤比撼树还容易吗？所以也不要小看蚂蚁，从小窟窿开始了，最终会导致大堤崩溃。所以不要瞧不起小事情，小事情最终会导致大结果。大明朝的覆灭就源于一个邮递员的下岗，起因却是京城的一个官员娶了一个小妾，官员的老婆吃醋了，本来这两件小事相互之间也没啥关联，可当某种巧合把这两件小事一不小心掺和到一起的时候，最终的结果就是崇祯上了煤山。这可是当初崇祯也是万万没想到的了。</p><p data-pid=\"E8y9SDVT\">挖山也好，磨铁棒也罢，这是皇上最乐意看见的。假如当年李自成和黄巢一个忙着挖山，一个忙着磨铁棒，哪还有工夫造反呢？那唐朝和明朝还不定怎么样了呢。当然历史是不能假设的，天底下也没有卖后悔药的。</p><p data-pid=\"xC_p1S3f\">古人常说：“吃得苦中苦，方为人上人”。这其实也是愚公挖山和铁棒磨针的翻版。孔子说：“学而优则仕”。古代的书生苦练“头悬梁，锥刺股”的功夫，目的就是为了进编制，做人上人。一旦做了人上人，那就“一年清知府，十万雪花银”了。挖山很苦，铁棒磨针也很苦，但是方向不对再苦也是无用功。死读书也很苦，但是“万般皆下品，惟有读书高”。只有拼命地读书才能做人上人。所以说：吃尽苦中苦是拿自己不当人，方为人上人是不把别人当人。几千年来，老祖宗们宣扬的就是这种文化，要么吃尽苦中苦被人欺负，吃尽苦的目的就是要做人上人，做了人上人好去欺负别人，这种价值观祸害了国人几千年。读书就是为了做官，做官就是人上人了，那还有谁是读书为了研究自然科学呢？因为研究自然科学不仅做不了官，而且连功名利禄都没了，在世人眼里，这人也就算是废了。有人说，老祖宗其实一直都领先世界，只是从近代开始才落后了。真的是这样的吗？在一个“万般皆下品，惟有读书高”的大地上，在一个读书就是为做官的朝代里，怎能产生科学思想的萌芽呢？当然更产生不了科技文明。</p><p data-pid=\"OMyWEOej\">埋头苦干或许是一种精神，然而一旦方向错了，那埋头苦干是不是一种傻呢？愚公和磨铁棒子的老太太都在埋头苦干，但凡他们动动脑子，都不会做这样的蠢事。马车是老祖宗们用了几千年的交通工具了，但是几千年来，一直都是两轮的，极少有四轮的。为什么呢？因为四轮马车转向和减震的问题得不到解决，老祖宗们也没有人愿意动脑筋去解决一个万向轴的问题。历代工匠们都埋头苦干把精力用在如何做出更好的两轮马车了。据牛津大学出版的《技术史.》一书记载，罗马在公元一世纪就发明了马车转向装置了，后来因罗马帝国的解体而失传了。一直到十五世纪又被英国人发掘出来，普及了四轮马车。四轮马车的转向装置也是现代汽车转向装置的鼻祖。如今你去曲阜，可以在孔庙附近的大街上看见许多四轮马车，马车是古老的，转向轴却是现代化的了。所以说，思想个好东西，只有解放思想才会有科技创新，禁锢的思想里是产生不出来科学与新知的。</p><p data-pid=\"-o9ei3UH\">鲁迅笔下的阿Q也自豪地说过：“我们先前比你阔得多，你算什么东西！”阿Q的自豪，源于一种无知的自信，当然他的无知也源于知识的贫乏和思想的禁锢。“精神胜利法”也是阿Q最愚昧无知的体现。井底之蛙永远认为它所在的那口井是世界上最伟大的井，它看到的天永远只有井口那么大。即使有了互联网，全世界的井底之蛙们也就是相互论证了全世界的天都只有井口那么大。认知的落后是最根本的落后，这就好比罗盘发明后人家都用于大航海，发现新大陆，而国人却把罗盘拿来看风水。鲁迅先生对这种国民劣根性的批判是很深刻的，《阿Q正传》出版已经过去了一百多年了，现在读起来的时候，仿佛阿Q依旧活生生的就在眼前。</p>",
+        "visited_count": 14,
+        "url": "https://api.zhihu.com/answers/1995603389703288514"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995603389703288514}",
+      "attached_info": "CogGCP/pjJCmlZKEARAEGgk3NjU3MjA5NTEg3PCoywYoADAAQC5KJAoZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMhIBMBgAIAA6AEosCiFUU19TT1VSQ0VfV0FSTVVQX1pISV9GSU5FVFVORV9JMkkSATAYACAAOgBaCDgyOTk1OTAwYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NTYwMzM4OTcwMzI4ODUxNIoBCTU0MzIxMTIxNqoBCXJlY29tbWVuZMIBIDE3NjY2ODAzMmFkNGI1ZTdjOGE0NzAzYWJjOGMzNGJk8gEKCAwSBk5vcm1hbPIBKAgKEiQwNDNiNjY4ZS1iOTFhLTRjNTgtYTgzNS1kOWEzNzcxNjA4Y2byAQUICxIBOIICAIgCpNWZxrwzkgIgMTc2NjY4MDMyYWQ0YjVlN2M4YTQ3MDNhYmM4YzM0YmSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCA/oCC05PUk1BTF9GTE9XigMgMzIxZjE1YTk5YmVmNDMxYWI2ZjI4NmFlYmVjZjQxZmKaAw0KAnYyEAAaBW90aGVyqAMO2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABACeqDP4EFAAAAAAAAAACJBdOz+LujbrM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBjCoBgGSAi4KCTc2NTcyMDk1MRITMTk5NTYwMzM4OTcwMzI4ODUxNBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "47_1768600005.863",
+      "type": "feed",
+      "offset": 47,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600005,
+      "updated_time": 1768600005,
+      "target": {
+        "author": {
+          "id": "d6039dc7b02c096a5cdd0a61c6d14d40",
+          "url_token": "ling-zi-chen-39",
+          "headline": "「Mask的小酒馆」每日复盘",
+          "avatar_url": "https://picx.zhimg.com/50/v2-791aa77f3813e87ad394374cc7b11cd5_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "url": "https://api.zhihu.com/people/d6039dc7b02c096a5cdd0a61c6d14d40",
+          "user_type": "people",
+          "name": "Mask的小酒馆",
+          "followers_count": 109154,
+          "is_following": false,
+          "is_followed": false
+        },
+        "updated_time": 1768548073,
+        "comment_count": 5,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "bcyGd35E",
+            "text": "很多人不知道，黄金白银的大涨只是一个开胃菜。",
+            "marks": [
+              {
+                "start_index": 7,
+                "end_index": 22,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995636084877572015"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "type": "answer",
+        "created_time": 1768548073,
+        "is_labeled": false,
+        "visited_count": 6191,
+        "id": "1995515932295058388",
+        "preview_text": "",
+        "thanks_count": 3,
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "voteup_count": 63,
+        "excerpt": "大宗商品的超级周期要到了 很多人不知道，黄金白银的大涨只是一个开胃菜。 因为大宗商品的超级周期要到了，看懂了你就能够抓住下一个周期的财富密码！   点赞收藏，这可能是你能看到的最真实的大宗商品的分析！ 先说一下这次黄金白银上涨最直接的原因， 那就是G7国家的债务扛不住了。尤其是日本和美国，日本债务占GDP的比率是229%，美国是125%。   G7国家为了应对新冠超发了天量的债务，可现在疫情过去了，但是主要的G7国家， 特别…",
+        "excerpt_new": "大宗商品的超级周期要到了 很多人不知道，黄金白银的大涨只是一个开胃菜。 因为大宗商品的超级周期要到了，看懂了你就能够抓住下一个周期的财富密码！   点赞收藏，这可能是你能看到的最真实的大宗商品的分析！ 先说一下这次黄金白银上涨最直接的原因， 那就是G7国家的债务扛不住了。尤其是日本和美国，日本债务占GDP的比率是229%，美国是125%。   G7国家为了应对新冠超发了天量的债务，可现在疫情过去了，但是主要的G7国家， 特别…",
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1995515932295058388",
+        "content": "<p data-pid=\"v3sP8YXA\">大宗商品的超级周期要到了</p><p data-pid=\"bcyGd35E\">很多人不知道，黄金白银的大涨只是一个开胃菜。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aDaXAohF\"><b>因为大宗商品的超级周期要到了，</b>看懂了你就能够抓住下一个周期的财富密码！</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8d96224783f3fafe711e97487e0d8a21_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"446\" data-original-token=\"v2-95a2bd26dc083c896fa0cf3ba4e6ffaa\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic2.zhimg.com/v2-8d96224783f3fafe711e97487e0d8a21_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1sG-UEAg\"><b><i><u>点赞收藏，这可能是你能看到的最真实的大宗商品的分析！</u></i></b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0h0ACxLY\">先说一下这次黄金白银上涨最直接的原因，<b>那就是G7国家的债务扛不住了</b>。尤其是日本和美国，日本债务占GDP的比率是229%，美国是125%。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5f4de2699dadadffb45eb6da8667b194_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"448\" data-original-token=\"v2-6c1bb0e92f3db45673fe5d8fd1df254e\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-5f4de2699dadadffb45eb6da8667b194_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BcEC7TIV\">G7国家为了应对新冠超发了天量的债务，可现在疫情过去了，但是主要的G7国家，<b>特别是美国没有去削减债务，反而继续加超发货币。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0a94cdd17d6c484cc366b29a4bae9017_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"832\" data-rawheight=\"418\" data-original-token=\"v2-76e978f764762c9fe437e10e3a34d081\" class=\"origin_image zh-lightbox-thumb\" width=\"832\" data-original=\"https://pic2.zhimg.com/v2-0a94cdd17d6c484cc366b29a4bae9017_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8_8JcRvn\">为什么？因为他们如果不印钱，债务就会违约，金融系统就会崩溃。继续印钱，债务会越滚越大，但至少能再撑一段时间。<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-57703bdf9268ce79e8c8ca446eb01232_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"456\" data-original-token=\"v2-779f238d58e6fea12b4b5a8e9a205cb9\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-57703bdf9268ce79e8c8ca446eb01232_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kHJ0iGvU\">可印出来的钱不会消失，只会转移。转移到哪里？<b>转移到大宗商品。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3REpTMXq\">大宗商品是这些天量货币的蓄水池。因为几乎所有的大宗商品都以美元计价。这意味着什么？<b>意味着钱印得越多，大宗商品涨得越快。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0bb794237076d5786e7cddf032b04b18_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"446\" data-original-token=\"v2-a53bc47adfa856c74fc402dc05d25e06\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic1.zhimg.com/v2-0bb794237076d5786e7cddf032b04b18_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1p-bD6-W\">历史上这个逻辑被验证过很多次。最典型的就是1971年。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sW2YY5o6\">那一年，美元与黄金脱钩，布雷顿森林体系瓦解。<b>美元彻底摆脱了黄金的约束，变成了可以随意印刷的纸币。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-55b1af9b493fb59847681ce9f7a193bf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"452\" data-original-token=\"v2-bb7aaee259995568be29113041066003\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic4.zhimg.com/v2-55b1af9b493fb59847681ce9f7a193bf_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7Vye9RJy\">接下来发生了什么？石油价格从1973年的平均每桶3美元飙升至1980年的每桶36美元，涨了12倍。黄金更猛，从1971 年 35 美元一盎司涨到 1980 年 850 美元一盎司，涨幅高达 24倍。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BPqXBITa\"><b>而现在美元贬值的逻辑又回来了。美国能印得出美元，但是印不出哪怕一滴石油，哪怕一克黄金。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rbhcen6q\">而且更有意思的是，2022年俄罗斯的外汇储备直接被冻结了。这使得所有新兴市场国家的财政部长们都开始重新思考一个问题——<b>把钱放在别人的银行系统里，到底安不安全？</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5005002a6624d059ee90259135184e40_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"444\" data-original-token=\"v2-83bbd1d46d7542915e4f47ec59dc748e\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic1.zhimg.com/v2-5005002a6624d059ee90259135184e40_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"i8zRMHju\"><b>答案是：不安全。说冻结就冻结了。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XgIRSlhp\">但黄金不一样。黄金就放在自己的金库里，谁也动不了。铜、石油、粮食也一样，这些实物资产是真正属于自己的东西。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"A7grbq5d\">所以现在各国央行都在拼命囤金。而且很多国家的黄金储备占比其实还很低，跟那些发达国家比差得远。<b>这意味着什么？意味着他们还会继续买。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"k4w7nSm_\">更重要的是，<b>对全世界来说，钱是无限的，但是黄金白银是有限的，油田储量是有限的，农田面积也是有限的。你不可能像印钞票一样，想要多少就印多少。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lH5p-uYO\">2000年到2011年的大宗商品超级周期就是最好的例子。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"r_Ux2gkY\">那个时候美联储长期维持1%的超低利率，流动性泛滥，美元指数从120下跌到80，贬值超过33%。<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-acaaafad0df7d5e6f76839afbba9a85b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"832\" data-rawheight=\"460\" data-original-token=\"v2-c7e1c64bf5bbfc265c73c64005664999\" class=\"origin_image zh-lightbox-thumb\" width=\"832\" data-original=\"https://pic2.zhimg.com/v2-acaaafad0df7d5e6f76839afbba9a85b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gBPw7WnK\">但这只是一个方面。另一个方面是新兴市场国家，特别是中国的工业化进程，创造了巨大的需求。铜、铁矿石、石油，这些工业原材料的需求暴涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3fRcny_X\"><b>需求暴涨，但矿山产能开发却需要十几年，而供给跟不上，价格就会疯涨。</b>大宗商品价格在2008年达到历史高点，涨幅惊人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FZzTryb0\">现在呢？全球经济正在复苏，AI数据中心、新能源、电动车，这些新兴产业对铜、铝、电力的需求在暴涨。但矿山产能开发周期长达十几年，短期内根本无法快速增加供应。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"M-btzgQo\"><b>供给受限，需求上升，价格必然暴涨。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uyfWX2XS\">而这一次和以前一样，所有的条件都具备了，<b>货币超发、美元贬值、实体需求上升、供给受限。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-908b97cb980a57dace74260abe884172_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"432\" data-original-token=\"v2-d13fea7b545dab180ab2b7cdb2bedd8d\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pica.zhimg.com/v2-908b97cb980a57dace74260abe884172_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vkpZAJuT\"><b>历史不会简单的重复，但总是押着相同的韵脚。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TtROI3r3\">当然，大宗商品不会同时涨。它们有可能会按照<b>金融属性、工业属性、消费属性的顺序</b>，分四个波次依次上涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5bbbc17339bbdca4ab3414361b451776_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"460\" data-original-token=\"v2-3c2c220fb5d0893fddfd82e8b06c8b3c\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-5bbbc17339bbdca4ab3414361b451776_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"T9JWhh22\"><b>第一波：贵金属先行。</b>黄金白银为什么先涨？因为它们的金融属性最强。当货币超发、通胀预期上升时，资金第一时间会涌向黄金白银避险。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ce71477eec1834f735ae8494d5e1e6b0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"456\" data-original-token=\"v2-84484e4050d49c17d04487f53108550f\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-ce71477eec1834f735ae8494d5e1e6b0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"itsN3f7a\"><br/>2025年黄金的涨幅已经说明了一切。各国央行正在拼命买入黄金，而且这个趋势还会继续。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bS1fbGW7\">黄金白银先涨，这是第一波。但这只是开始。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"msqT3Wvg\"><b>第二波：工业金属跟进。</b>印出来的钞票，不会只停在黄金上，它会慢慢流向整个大宗商品市场。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"a56oaLhm\">工业金属为什么是第二波？因为经济开始复苏，工业生产恢复，基建投资加大，对工业金属的需求就会上升。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-531999bbed90b2092ef874df2485ae79_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"832\" data-rawheight=\"454\" data-original-token=\"v2-99ab46c07b228cf5e48dee0835448df4\" class=\"origin_image zh-lightbox-thumb\" width=\"832\" data-original=\"https://pic4.zhimg.com/v2-531999bbed90b2092ef874df2485ae79_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"U7yQmsOm\">比如过去几年，铜的价格就出现了大幅度的上涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5sxE3sb5\">你看看现在到处都在干什么——建数据中心、搞新能源、推电动车、升级电网。这些东西最吃铜了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rF174tVL\">特别是AI数据中心，这玩意儿是真正的电老虎。一个大型数据中心的耗电量，相当于一个小城市。而要把电送到数据中心，要建多少配套设施？铜线、铜管、铜排，到处都要用铜。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UYVrFbiU\">但铜矿的开发周期很长，动辄十几年。现在矿山产能跟不上，短期内根本没法快速增加供应。一边是需求暴涨，一边是供应受限，价格能不涨吗？</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f0c36b1db1c8cfccfa147c81ca550801_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"456\" data-original-token=\"v2-81c61bc6b171d759680ac6c8cce4d22b\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://picx.zhimg.com/v2-f0c36b1db1c8cfccfa147c81ca550801_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aWvyxFLi\">铜已经开始涨了。但这还没完。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8qlLDIo0\"><b>铝也开始蠢蠢欲动了。</b><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a83f4860d7c9437799611b3a838ace6d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"458\" data-original-token=\"v2-becc466b24b1001cf9720733ca49fb7b\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic2.zhimg.com/v2-a83f4860d7c9437799611b3a838ace6d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rQQLkih0\">铝是高耗能产业。能源价格一涨，铝的生产成本就会大幅上升。成本推动价格，这是必然的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TbmE_FaA\">而且需求端也在增长。新能源汽车要轻量化，要用铝。光伏支架要用铝。建筑节能改造要用铝。航空航天更是用铝的大户。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Y2UYTaP3\">铝价已经蠢蠢欲动了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hAA0OnSB\"><b>除了铝以外，锌、镍、铅这些工业金属也不会缺席，他们和铜铝的涨价逻辑是一样的。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3kaGuqff\"><b>工业金属涨完，能源就该接棒了。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"s0ncRp0A\">因为经济活动加速，对能源的需求就会激增。现在油价起不来的主要原因是疫情前那些大型油田项目陆续投产了，以及OPEC也在慢慢放松减产。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ee259be3921d26d4307253f88e353eca_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"448\" data-original-token=\"v2-7221d09a7f4903334403bffd2cbbb46c\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-ee259be3921d26d4307253f88e353eca_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IC1yrrDa\">但是从2020年开始，全球石油行业的上游投资大幅削减。等疫情前的产能释放完，石油的供应增长会明显放缓。而需求端，却会随着经济复苏会持续增长。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1U3sLlwb\"><b>供需关系会逆转，油价会重新上涨。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"F5gqMIxB\">天然气也是同样的逻辑，全球能源转型的大趋势在那里。各国减少煤炭，天然气作为清洁能源需求会持续增长。而且可再生能源越发展，越需要天然气发电来调峰。这部分需求是刚性的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lktpbN9l\"><b>能源涨价之后，下一个就是化工产品。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xfKtlMD8\">石油涨价，石化产品就涨价。农药的主要原料是石油化工产品，石油涨了，农药能不涨吗？农业用的塑料薄膜也是石油化工产品，价格也会跟着涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d144e49bc3319796c3eca65aedb36095_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"587\" data-original-token=\"v2-03eabaa6e3ec665e2d49c2faeaf65d18\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-d144e49bc3319796c3eca65aedb36095_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mYZiEzXk\">天然气涨价，化肥就涨价。氮肥的主要原料就是天然气，天然气价格占氮肥生产成本的70%以上。天然气涨了，化肥价格必然上涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rHK7a5Dl\"><b>而化工产品的涨价，叠加经济复苏带动的食品消费增加，又会使得大豆、玉米、小麦这些农产品，在最后一个阶段跟涨。</b>不过由于我们对农产品的调控很严，所以农产品的涨价对我们来说影响不大，就比如日本吃20多块一斤的大米的时候，我们还吃的是两三块一斤的大米。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ah2RacpU\">那这就是完整的涨价链条：<b><u>贵金属→工业金属→能源→化工产品→农产品。</u></b></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8e80982ef111d3ea0d1d8b860c995a44_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"830\" data-rawheight=\"458\" data-original-token=\"v2-1348d97f85260343a5b21d3f44955122\" class=\"origin_image zh-lightbox-thumb\" width=\"830\" data-original=\"https://pic3.zhimg.com/v2-8e80982ef111d3ea0d1d8b860c995a44_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_bJ6csa_\">每一个环节都环环相扣，最终所有的大宗商品都会涨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rumgUWBH\">人生发财靠周期。大宗商品的上涨，也是周期的一环。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"WgFsXECH\"><b>风险提示：</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"RG1RHFYF\"><b>以上为个人观点，仅供参考。短期涨跌不预示未来，如提及个股或基金不代表投资建议。投资需谨慎。</b></p><p></p>",
+        "question": {
+          "bound_topic_ids": [
+            3217,
+            6723,
+            1408536,
+            2259261,
+            3134573
+          ],
+          "excerpt": "",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "id": "1995152408863597328",
+          "author": {
+            "is_org": false,
+            "user_type": "people",
+            "url_token": "ba-bu-dou-5-7",
+            "name": "巴布豆",
+            "avatar_url": "https://picx.zhimg.com/50/v2-017668c09747155f0cb384004bf11702_l.jpg?source=b6762063",
+            "followers_count": 768,
+            "is_following": false,
+            "is_followed": false,
+            "id": "92b20b1e3a746d31e3f46d1fa6a6dd1e",
+            "url": "https://api.zhihu.com/people/92b20b1e3a746d31e3f46d1fa6a6dd1e",
+            "headline": "悔人，悔事，悔心，悔过",
+            "gender": 1
+          },
+          "title": "怎么看待2026年1月16日A股行情？",
+          "created": 1768461402,
+          "comment_count": 0,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/1995152408863597328",
+          "follower_count": 0,
+          "type": "question"
+        },
+        "favorite_count": 159
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995515932295058388}",
+      "attached_info": "CuQMCP/pjJCmlZKEARAEGgk3NjU2NzYyMDEg6c2nywYoPzAFQC9KWwopVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlQSKGhvdF9yZWNhbGxfcmVhbHRpbWVfdDpuZXc3ZDoyMDI2LTAxLTE3OjEYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExODA3NjM2MGIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTU1MTU5MzIyOTUwNTgzODiKARMxOTk1MTUyNDA4ODYzNTk3MzI4qgEJcmVjb21tZW5kwgEgZDYwMzlkYzdiMDJjMDk2YTVjZGQwYTYxYzZkMTRkNDDyAQoIDBIGTm9ybWFs8gEoCAoSJGI1NThmYTJmLWRiZDYtNGI3YS04NzBkLWViMDU0YjdiNGI3ZfIBBQgLEgE4ggIAiAKk1ZnGvDOSAiBkNjAzOWRjN2IwMmMwOTZhNWNkZDBhNjFjNmQxNGQ0MJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVOgCA/oCC05PUk1BTF9GTE9XigMgMzIxZjE1YTk5YmVmNDMxYWI2ZjI4NmFlYmVjZjQxZmKaAw0KAnYyEAAaBW90aGVyqAOvMNgDAOoDImhvdENyb3NzUmVhbFRpbWVOZXdDb250ZW50UmVjYWxsZXL6A74GEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQvgYYvgMiI3YyLTk1YTJiZDI2ZGMwODNjODk2ZmEwY2YzYmE0ZTZmZmFhOi0IAhC+BhjAAyIjdjItNmMxYmIwZTkyZjNkYjQ1NjczZmU1ZDhmZDFkZjI1NGU6LQgCEMAGGKIDIiN2Mi03NmU5NzhmNzY0NzYyYzlmZTQzN2UxMGUzYTM0ZDA4MTotCAQQvgYYyAMiI3YyLTc3OWYyMzhkNThlNmZlYTEyYjRiNWE4ZTlhMjA1Y2I5Oi0IAhC+Bhi+AyIjdjItYTUzYmM0N2FkZmE4NTZjNzRmYzQwMmRjMDVkMjVlMDY6LQgCEL4GGMQDIiN2Mi1iYjdhYWVlMjU5OTk1NTY4YmUyOTExMzA0MTA2NjAwMzotCAIQvgYYvAMiI3YyLTgzYmJkMWQ0NmQ3NTQyOTE1ZTRmNDdlYzU5ZGM3NDhlOi0IARDABhjMAyIjdjItYzdlMWM2NGJmNWJiZmMyNjVjNzNjNjQwMDU2NjQ5OTk6LQgCEL4GGLADIiN2Mi1kMTNmZWE3YjU0NWRhYjE4MGFiMmI3Y2RiMmJlZGQ4ZDotCAIQvgYYzAMiI3YyLTNjMmMyMjBmYjVkMDg5M2ZkZGZkODJlOGIwNmM4YjNjOi0IAhC+BhjIAyIjdjItODQ0ODRlNDA1MGQ0OWMxN2QwNDQ4N2Y1MzEwODU1MGY6LQgCEMAGGMYDIiN2Mi05OWFiNDZjMDdiMjI4Y2Y1ZTQ4ZGVlMDgzNTQ0OGRmNDotCAIQvgYYyAMiI3YyLTgxYzYxYmM2YjE3MWQ3NTk2ODBhYzZjOGNjZTRkMjJiOi0IBBC+BhjKAyIjdjItYmVjYzQ2NmIyNGIxMDAxY2Y5NzIwNzMzY2E0OWZiN2I6LQgCEL4GGMADIiN2Mi03MjIxZDA5YTdmNDkwMzMzNDQwM2JmZmQyY2JiYjQ2YzotCAIQuAgYywQiI3YyLTAzZWFiYWE2ZTNlYzY2NWUyZDQ5YzJmYWVhZjY1ZDE4Oi0IBBC+BhjKAyIjdjItMTM0OGQ5N2Y4NTI2MDM0M2E1YjIxZDNmNDQ5NTUxMjKABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIBWUJo/gQUAAAAAAAAAAIkF07P4u6Nusz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGMagGAJICLgoJNzY1Njc2MjAxEhMxOTk1NTE1OTMyMjk1MDU4Mzg4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=47&desktop=true&end_offset=49&page_number=9&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=47&desktop=true&end_offset=49&page_number=9&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

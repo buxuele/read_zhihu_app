@@ -1,0 +1,745 @@
+{
+  "data": [
+    {
+      "id": "84_1767705271.354",
+      "type": "feed",
+      "offset": 84,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705271,
+      "updated_time": 1767705271,
+      "target": {
+        "allow_segment_interaction": true,
+        "preview_text": "",
+        "content": "<p data-pid=\"2Tag4u1H\"><b><i>XXL-JOB 正在角逐 “2025 年度Gitee最受欢迎的开源软件”，期待您投出宝贵一票，你的认可对我们很重要</i></b>🌹🌹🌹～</p><ul><li data-pid=\"GmFnQoIr\"><b>投票链接</b>👉👉👉：<a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/activity/2025opensource%3Fident%3DISLBOH\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/activity/2025</span><span class=\"invisible\">opensource?ident=ISLBOH</span><span class=\"ellipsis\"></span></a></li></ul><h3>Release Notes</h3><ul><li data-pid=\"yD4qCaPM\">1、【优化】优雅停机：调度中心停机，检测时间轮非空时主动等待调度完成；客户端停机，检测存在运行中任务时，停止接收新任务并主动等待任务执行完成；</li><li data-pid=\"E2OYHhu9\">2、【新增】新增 Docker Compose 配置，支持一键配置启动调度中心集群；</li></ul><p data-pid=\"hmSW5PB-\">Docker Compose启动步骤：          ```     // 下载 XXL-JOB     git clone --branch &#34;$(curl -s <a href=\"https://link.zhihu.com/?target=https%3A//api.github.com/repos/xuxueli/xxl-job/releases/latest\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">api.github.com/repos/xu</span><span class=\"invisible\">xueli/xxl-job/releases/latest</span><span class=\"ellipsis\"></span></a> | jq -r .tag_name)&#34; <a href=\"https://link.zhihu.com/?target=https%3A//github.com/xuxueli/xxl-job.git\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/xuxueli/xxl-</span><span class=\"invisible\">job.git</span><span class=\"ellipsis\"></span></a>     // 构建 XXL-JOB     mvn clean package -Dmaven.test.skip=true     // 启动 XXL-JOB     MYSQL_PATH={自定义数据库持久化目录} docker compose up -d     // 停止 XXL-JOB     docker compose down     ``` </p><ul><li data-pid=\"Wc0IAYFP\">3、【优化】调度中心操作体验优化：表格交互调整为单行选中模式；禁用分页循环；优化分页限制文案；</li><li data-pid=\"T1UzteAd\">4、【优化】调度线程事务提交逻辑调整，避免边界条件下线程异常退出，增强健壮性；</li><li data-pid=\"Al1QFmSH\">5、【优化】调度日志列表排序逻辑优化，提升易读性；</li><li data-pid=\"cH2WbxVb\">6、【优化】调度中心OpenAPI通讯token调整为非必填；合并PR-3892；</li><li data-pid=\"7tRK27oa\">7、【优化】执行器详情接口权限调整，支持普通用户查看注册节点；合并PR-3882；</li><li data-pid=\"kMwbPL9w\">8、【优化】任务参数LogDateTime生成逻辑调整，分片广播场景下保障同一批调度一致；</li><li data-pid=\"HKgMvIfX\">9、【升级】升级多项maven依赖至较新版本，如 spring、netty、xxl-sso、xxl-tool 等；</li><li data-pid=\"wpxOFDdQ\">10、【优化】统一项目依赖管理结构，依赖版本统一到父级pom提升可维护性；</li></ul><h3>任务开发示例</h3><p data-pid=\"8XhpsMTB\">XXL-JOB支持多模式任务，下文以简单的“Bean模式任务”为例介绍，三步快速开发接入。</p><h3>步骤一：执行器，开发Job方法</h3><div class=\"highlight\"><pre><code class=\"language-text\">@XxlJob(&#34;demoJobHandler&#34;)\n public void demoJobHandler() throws Exception {\n    XxlJobHelper.log(&#34;XXL-JOB, Hello World.&#34;);\n}</code></pre></div><h3>步骤二：调度中心，新建调度任务</h3><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d01ef8bd52908bafff9ce576b2e09230_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1200\" data-rawheight=\"1017\" data-original-token=\"v2-2d9d16ba1802e32ebfa30bfe81951034\" class=\"origin_image zh-lightbox-thumb\" width=\"1200\" data-original=\"https://pic3.zhimg.com/v2-d01ef8bd52908bafff9ce576b2e09230_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>步骤三：任务执行，查看任务进度及日志</h3><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3b5271d3cbe90ef9f018f2ad11f58084_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1200\" data-rawheight=\"348\" data-original-token=\"v2-a0fda1eca768b741c2c48099515abd01\" class=\"origin_image zh-lightbox-thumb\" width=\"1200\" data-original=\"https://pica.zhimg.com/v2-3b5271d3cbe90ef9f018f2ad11f58084_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>简介</h3><p data-pid=\"SDq0gl0j\">XXL-JOB是一个轻量级分布式任务调度平台，其核心设计目标是开发迅速、学习简单、轻量级、易扩展。现已开放源代码并接入多家公司线上产品线，开箱即用。</p><ul><li data-pid=\"kUUOdS-F\"><a href=\"https://link.zhihu.com/?target=http%3A//www.xuxueli.com/xxl-job/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">中文文档：http://www.xuxueli.com/xxl-job/ </a></li><li data-pid=\"vufEZIIH\"><a href=\"https://link.zhihu.com/?target=http%3A//www.xuxueli.com/page/community.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">社区交流：http://www.xuxueli.com/page/community.html </a></li></ul><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-df0d854f611751a04b4ac9f500f4285d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1200\" data-rawheight=\"631\" data-original-token=\"v2-1eb3c6e7874cfdea213d25f02806cb98\" class=\"origin_image zh-lightbox-thumb\" width=\"1200\" data-original=\"https://picx.zhimg.com/v2-df0d854f611751a04b4ac9f500f4285d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>特性</h3><ul><li data-pid=\"h526EakK\">1、简单：支持通过Web页面对任务进行CRUD操作，操作简单，一分钟上手；</li><li data-pid=\"Ey7mms4L\">2、动态：支持动态修改任务状态、启动/停止任务，以及终止运行中任务，即时生效；</li><li data-pid=\"KHTP567f\">3、调度中心HA（中心式）：调度采用中心式设计，“调度中心”自研调度组件并支持集群部署，可保证调度中心HA；</li><li data-pid=\"mlRHd3_i\">4、执行器HA（分布式）：任务分布式执行，任务”执行器”支持集群部署，可保证任务执行HA；</li><li data-pid=\"hcGhh1dH\">5、注册中心: 执行器会周期性自动注册任务, 调度中心将会自动发现注册的任务并触发执行。同时，也支持手动录入执行器地址；</li><li data-pid=\"ZS5tcBce\">6、弹性扩容缩容：一旦有新执行器机器上线或者下线，下次调度时将会重新分配任务；</li><li data-pid=\"H8KnTh68\">7、触发策略：提供丰富的任务触发策略，包括：Cron触发、固定间隔触发、固定延时触发、API（事件）触发、人工触发、父子任务触发；</li><li data-pid=\"qlLGhuXW\">8、调度过期策略：调度中心错过调度时间的补偿处理策略，包括：忽略、立即补偿触发一次等；</li><li data-pid=\"Yenx1Iga\">9、阻塞处理策略：调度过于密集执行器来不及处理时的处理策略，策略包括：单机串行（默认）、丢弃后续调度、覆盖之前调度；</li><li data-pid=\"l6N_iDru\">10、任务超时控制：支持自定义任务超时时间，任务运行超时将会主动中断任务；</li><li data-pid=\"yNkplXU9\">11、任务失败重试：支持自定义任务失败重试次数，当任务失败时将会按照预设的失败重试次数主动进行重试；其中分片任务支持分片粒度的失败重试；</li><li data-pid=\"aGOJWlAM\">12、任务失败告警；默认提供邮件方式失败告警，同时预留扩展接口，可方便的扩展短信、钉钉等告警方式；</li><li data-pid=\"j4g6IXbl\">13、路由策略：执行器集群部署时提供丰富的路由策略，包括：第一个、最后一个、轮询、随机、一致性HASH、最不经常使用、最近最久未使用、故障转移、忙碌转移等；</li><li data-pid=\"MLZybYUg\">14、分片广播任务：执行器集群部署时，任务路由策略选择”分片广播”情况下，一次任务调度将会广播触发集群中所有执行器执行一次任务，可根据分片参数开发分片任务；</li><li data-pid=\"6GWYN6gl\">15、动态分片：分片广播任务以执行器为维度进行分片，支持动态扩容执行器集群从而动态增加分片数量，协同进行业务处理；在进行大数据量业务操作时可显著提升任务处理能力和速度。</li><li data-pid=\"Y6rg4qpQ\">16、故障转移：任务路由策略选择”故障转移”情况下，如果执行器集群中某一台机器故障，将会自动Failover切换到一台正常的执行器发送调度请求。</li><li data-pid=\"BeFg4Q9o\">17、任务进度监控：支持实时监控任务进度；</li><li data-pid=\"-LbopYqn\">18、Rolling实时日志：支持在线查看调度结果，并且支持以Rolling方式实时查看执行器输出的完整的执行日志；</li><li data-pid=\"K81OiHjN\">19、GLUE：提供Web IDE，支持在线开发任务逻辑代码，动态发布，实时编译生效，省略部署上线的过程。支持30个版本的历史版本回溯。</li><li data-pid=\"GjhVCqOr\">20、脚本任务：支持以GLUE模式开发和运行脚本任务，包括Shell、Python、NodeJS、PHP、PowerShell等类型脚本;</li><li data-pid=\"HR23x9L-\">21、命令行任务：原生提供通用命令行任务Handler（Bean任务，”CommandJobHandler”）；业务方只需要提供命令行即可；</li><li data-pid=\"YvF3kF8j\">22、任务依赖：支持配置子任务依赖，当父任务执行结束且执行成功后将会主动触发一次子任务的执行, 多个子任务用逗号分隔；</li><li data-pid=\"lxGpYEYq\">23、一致性：“调度中心”通过DB锁保证集群分布式调度的一致性, 一次任务调度只会触发一次执行；</li><li data-pid=\"op4tbFP0\">24、自定义任务参数：支持在线配置调度任务入参，即时生效；</li><li data-pid=\"Y9wLoOQN\">25、调度线程池：调度系统多线程触发调度运行，确保调度精确执行，不被堵塞；</li><li data-pid=\"Y671j2BW\">26、数据加密：调度中心和执行器之间的通讯进行数据加密，提升调度信息安全性；</li><li data-pid=\"IW9_beXS\">27、邮件报警：任务失败时支持邮件报警，支持配置多邮件地址群发报警邮件；</li><li data-pid=\"aBBKyhfL\">28、推送maven中央仓库: 将会把最新稳定版推送到maven中央仓库, 方便用户接入和使用;</li><li data-pid=\"Q6Pnof-1\">29、运行报表：支持实时查看运行数据，如任务数量、调度次数、执行器数量等；以及调度报表，如调度日期分布图，调度成功分布图等；</li><li data-pid=\"V540pTc5\">30、全异步：任务调度流程全异步化设计实现，如异步调度、异步运行、异步回调等，有效对密集调度进行流量削峰，理论上支持任意时长任务的运行；</li><li data-pid=\"wXL-wA_b\">31、跨语言/OpenAPI：调度中心与执行器提供语言无关的 OpenApi（RESTful 格式），第三方任意语言可据此对接调度中心或者实现执行器，实现多语言支持。除此之外，还提供了 “多任务模式”和“httpJobHandler”等其他跨语言方案；</li><li data-pid=\"5bWbsPDd\">32、国际化：调度中心支持国际化设置，提供中文、英文两种可选语言，默认为中文；</li><li data-pid=\"WXl2CFJG\">33、容器化：提供官方docker镜像，并实时更新推送dockerhub，进一步实现产品开箱即用；</li><li data-pid=\"XAwYagbD\">34、线程池隔离：调度线程池进行隔离拆分，慢任务自动降级进入”Slow”线程池，避免耗尽调度线程，提高系统稳定性；</li><li data-pid=\"8tf9LYDs\">35、用户管理：支持在线管理系统用户，存在管理员、普通用户两种角色；</li><li data-pid=\"GnR8yh45\">36、权限控制：执行器维度进行权限控制，管理员拥有全量权限，普通用户需要分配执行器权限后才允许相关操作；</li><li data-pid=\"66G69iMN\">37、AI任务：原生提供AI执行器，并内置多个AI任务Handler，与spring-ai、ollama、dify等集成打通，支持快速开发AI类任务。</li><li data-pid=\"DMoBGmu4\">38、审计日志：记录任务操作敏感信息，用于系统监控、审计和安全分析，可快速追溯异常行为以及定位排查问题。</li><li data-pid=\"KcJ4WCKJ\">39、优雅停机：调度中心停机，检测时间轮非空时主动等待调度完成；客户端停机，检测存在运行中任务时，停止接收新任务并主动等待任务执行完成；</li></ul>",
+        "is_labeled": false,
+        "visited_count": 111,
+        "is_navigator": false,
+        "author": {
+          "id": "1bea6326cf8ac023344386b96850703a",
+          "user_type": "people",
+          "name": "许雪里",
+          "headline": "微信公众号：许雪里       \n官网：www.xuxueli.com",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c09aebba3689139708ae47a9e86c8b0c_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/1bea6326cf8ac023344386b96850703a",
+          "url_token": "xuxueli",
+          "is_org": false,
+          "followers_count": 970,
+          "is_following": false
+        },
+        "preview_type": "default",
+        "vote_next_step": "vote",
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "id": "1991190121165367255",
+        "url": "https://api.zhihu.com/articles/1991190121165367255",
+        "comment_permission": "all",
+        "created": 1767516757,
+        "voteup_count": 0,
+        "excerpt": "XXL-JOB 正在角逐 “2025 年度Gitee最受欢迎的开源软件”，期待您投出宝贵一票，你的认可对我们很重要🌹🌹🌹～投票链接👉👉👉：https://gitee.com/activity/2025opensource?ident=ISLBOH Release Notes1、【优化】优雅停机：调度中心停机，检测时间轮非空时主动等待调度完成；客户端停机，检测存在运行中任务时，停止接收新任务并主动等待任务执行完成；2、【新增】新增 Docker Compose 配置，支持一键配置启动调度中心集群；Docker Compose启动步骤： `…",
+        "excerpt_new": "XXL-JOB 正在角逐 “2025 年度Gitee最受欢迎的开源软件”，期待您投出宝贵一票，你的认可对我们很重要🌹🌹🌹～投票链接👉👉👉：https://gitee.com/activity/2025opensource?ident=ISLBOH Release Notes1、【优化】优雅停机：调度中心停机，检测时间轮非空时主动等待调度完成；客户端停机，检测存在运行中任务时，停止接收新任务并主动等待任务执行完成；2、【新增】新增 Docker Compose 配置，支持一键配置启动调度中心集群；Docker Compose启动步骤： `…",
+        "favorite_count": 5,
+        "navigator_vote": false,
+        "type": "article",
+        "title": "XXL-JOB v3.3.2 发布 | 优雅停机、Docker Compose、健壮性增强",
+        "updated": 1767516757,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-2d9d16ba1802e32ebfa30bfe81951034_720w.jpg?source=b6762063"
+        ],
+        "article_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991190121165367255}",
+      "attached_info": "CrcHCNaOyNupq+CmtgEQBxoJMjY4NTUwMDE5INXU6MoGKAAwAEBUSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AEpJCh9UU19TT1VSQ0VfWlJFQ0FMTF9JVEVNQ0ZfVVBWT1RFEiBkb2NfdHlwZTogQXJ0aWNsZQppZDogMjY3MzkzNzc2ChgAIAA6AGIgNTNjMzVhNmZhOTQxNjI1YWY3NDQxN2NiNDY0MDA4MmJyEzE5OTExOTAxMjExNjUzNjcyNTWqAQlyZWNvbW1lbmTCASAxYmVhNjMyNmNmOGFjMDIzMzQ0Mzg2Yjk2ODUwNzAzYfIBCggMEgZOb3JtYWzyASgIChIkNjNlODdiOGUtMjIwMS00ZmJkLWJlODUtMjJjZWIxMzgyNWVi8gEGCAsSAjE1ggIAiALYt8ebuTOSAiAxYmVhNjMyNmNmOGFjMDIzMzQ0Mzg2Yjk2ODUwNzAzYZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDLoAgL6AgtOT1JNQUxfRkxPV4oDIGQ1YzUxZWU4MWMyYjRmZTg4OTlhOWM5MjAwZDEyOWVlmgMNCgJ2MhAAGgVvdGhlcqgDb9gDAOoDH3dhcm11cFR3b1Rvd2VyVGV4dEJvb3N0UmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQsAkY+QciI3YyLTJkOWQxNmJhMTgwMmUzMmViZmEzMGJmZTgxOTUxMDM0Oi0IAhCwCRjcAiIjdjItYTBmZGExZWNhNzY4Yjc0MWMyYzQ4MDk5NTE1YWJkMDE6LQgCELAJGPcEIiN2Mi0xZWIzYzZlNzg3NGNmZGVhMjEzZDI1ZjAyODA2Y2I5OIAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYG+Xgj+BBQAAAAAAAAAAiQWwxW4VtHmyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUPkAYAoAZVqAYBkgIuCgkyNjg1NTAwMTkSEzE5OTExOTAxMjExNjUzNjcyNTUYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "85_1767705271.245",
+      "type": "feed",
+      "offset": 85,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705271,
+      "updated_time": 1767705271,
+      "target": {
+        "id": "1989141881922287165",
+        "excerpt": "在繁忙的生活中，有幸找了一处院子住下来，开启身心安放的生活。 记得打造院子的时候，一定要在院子里种上一棵开花的树，你的院子才会注入“灵魂”。 一棵开花的树，比家里添置一套名贵的家具更值得，比打理一院的花草更省心。从春到冬，你会感觉生活充满希望和浪漫。   春天，开门见花，心情会好上一整天开花的树，在春天里是藏不住的。 只要天气稍一回暖，院子里的植物像得到了信号一样，钻出土、抽出芽、开出了花。 樱花，红的…",
+        "preview_type": "default",
+        "navigator_vote": false,
+        "comment_count": 1,
+        "is_labeled": false,
+        "article_type": "normal",
+        "url": "https://api.zhihu.com/articles/1989141881922287165",
+        "comment_permission": "all",
+        "created": 1767028381,
+        "updated": 1767028381,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-821c09446a3b935370f80f00af1395eb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0e83e6d782e45ffff51ee705d9404c1a_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-746af56e9dd57a0af02dda9c569153ce_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8ba3f03774950fd877a6361f73c692cf_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a017cf70992a07525ce8b7d3037a8628_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 0,
+        "allow_segment_interaction": true,
+        "type": "article",
+        "excerpt_new": "在繁忙的生活中，有幸找了一处院子住下来，开启身心安放的生活。 记得打造院子的时候，一定要在院子里种上一棵开花的树，你的院子才会注入“灵魂”。 一棵开花的树，比家里添置一套名贵的家具更值得，比打理一院的花草更省心。从春到冬，你会感觉生活充满希望和浪漫。   春天，开门见花，心情会好上一整天开花的树，在春天里是藏不住的。 只要天气稍一回暖，院子里的植物像得到了信号一样，钻出土、抽出芽、开出了花。 樱花，红的…",
+        "preview_text": "",
+        "content": "<p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"204\" data-rawwidth=\"976\" data-size=\"normal\" src=\"https://pic1.zhimg.com/v2-faef798cb95a4a06013cc4a7c3cc0024_1440w.jpg\" data-original-token=\"v2-faef798cb95a4a06013cc4a7c3cc0024\" class=\"origin_image zh-lightbox-thumb\" width=\"976\" data-original=\"https://pic1.zhimg.com/v2-faef798cb95a4a06013cc4a7c3cc0024_r.jpg\"/></figure></p><p data-pid=\"PeBsf-6i\">在繁忙的生活中，有幸找了一处院子住下来，开启身心安放的生活。</p><p data-pid=\"ADS3TL7m\">记得打造院子的时候，一定要在院子里种上一棵开花的树，你的院子才会注入“灵魂”。</p><p data-pid=\"v3Q-F5gb\">一棵开花的树，比家里添置一套名贵的家具更值得，比打理一院的花草更省心。从春到冬，你会感觉生活充满希望和浪漫。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1310\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://pic4.zhimg.com/v2-821c09446a3b935370f80f00af1395eb_1440w.jpg\" data-original-token=\"v2-821c09446a3b935370f80f00af1395eb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-821c09446a3b935370f80f00af1395eb_r.jpg\"/></figure></p><p data-pid=\"yif3gt8F\"><b><u>春天，开门见花，心情会好上一整天</u></b></p><p data-pid=\"xXrviZw3\">开花的树，在春天里是藏不住的。</p><p data-pid=\"-Oex9Xlk\">只要天气稍一回暖，院子里的植物像得到了信号一样，钻出土、抽出芽、开出了花。</p><p data-pid=\"FXC6rxSI\">樱花，红的、白的，簇拥在枝头，远远的，就如彩霞一般。那粉粉的红白像少女的衣裙，裹着让人迷醉的柔情。</p><p data-pid=\"rBZHw_Hy\">风吹过，雨下了，便是一地的花瓣。粘在柔软的泥地上，有种说不出的甜。忍不住地回想埋在心底的她，和关于她的往事。</p><p data-pid=\"GdVCzynG\">压弯枝丫的海棠，让人迷恋。它不借香气争春，只是那胭脂红的颜色，就让人沉醉。</p><p data-pid=\"OKSFuDPb\">最喜爱垂丝海棠，低垂的枝条，多了几分妩媚；风轻撩，则添了一些慵懒，几点娇羞。再坚硬的心，也会在此刻，柔软了下来。</p><p data-pid=\"n4fS_TY-\">如灯盏的玉兰花，从屋檐处探出头。在料峭春风里，轻轻晃荡着。</p><p data-pid=\"XXjaXbiq\">那种淡雅的香，像薄雾绕在鼻尖，忍不住去深吸、去品味。</p><p data-pid=\"nJjItb-a\">待在压抑的办公室里，总想着逃回小院，去探寻这满院春色的花；去设想，推开门，见到一树春花的喜悦。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1283\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://pic1.zhimg.com/v2-0e83e6d782e45ffff51ee705d9404c1a_1440w.jpg\" data-original-token=\"v2-0e83e6d782e45ffff51ee705d9404c1a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-0e83e6d782e45ffff51ee705d9404c1a_r.jpg\"/></figure></p><p data-pid=\"S_WD37pE\"><b><u>夏天，浓密树荫，自带清凉</u></b></p><p data-pid=\"IwSWfkAi\">不必像李清照那般伤春，什么“绿肥红瘦”、“连天衰草，望断归来路”。</p><p data-pid=\"fDUFw_9H\">春去了，花落了，便是一树枝叶。</p><p data-pid=\"6JTfDYuG\">树的温柔一如往常，嫩绿的，像一把硕大的伞，守在院子里，守住了一处阴凉。</p><p data-pid=\"Vgk2d77T\">人工搭成的遮阳棚，远不及这绿油油的天然大伞。层层叠叠的叶子，将夏日烈阳挡得严严实实。</p><p data-pid=\"ery8G0kl\">偶尔有一处光，调皮地穿过树叶缝隙，在地上留下斑驳的影子，有一丝柔情和乐趣。</p><p data-pid=\"hyrMhvng\">最爱煮一壶清茶，躺在树下的藤椅上，听声声蝉鸣，看呼呼叶动。不一会，便也香甜地睡去。</p><p data-pid=\"_qEYn8RY\">老黄狗最会找地，伸长四肢，平躺在树根处，肚皮起伏；即便有蚊蝇骚扰，也不为所动。</p><p data-pid=\"cK8q42Qr\">空气里都是树木的香味，风慢悠悠地，云也闲散了起来。</p><p data-pid=\"PiamzS-Y\">在这样的院子里，心会安定很多、从容不少。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1291\" data-rawwidth=\"1074\" data-size=\"normal\" src=\"https://pic3.zhimg.com/v2-746af56e9dd57a0af02dda9c569153ce_1440w.jpg\" data-original-token=\"v2-746af56e9dd57a0af02dda9c569153ce\" class=\"origin_image zh-lightbox-thumb\" width=\"1074\" data-original=\"https://pic3.zhimg.com/v2-746af56e9dd57a0af02dda9c569153ce_r.jpg\"/></figure></p><p data-pid=\"6iRCjC4B\"><b><u>秋天，树会在院子里，写下大大的“静”</u></b></p><p data-pid=\"Ijm9cbsv\">开过花的树，在秋日里，总是不让人失望的。</p><p data-pid=\"p4Dx1lsO\">有的，结了果，小小的金桔挂在枝头，不去采摘它，也是一道绕不开的风景。</p><p data-pid=\"iXyEDXA8\">挂满枝头的石榴果，火红的像一个个小太阳，点缀在干净的黛色屋瓦上，有一种韵味，沉浸在秋风里。</p><p data-pid=\"szHW_Y9h\">不结果的树，则被秋染成了满树的金黄、火红。进院门，似花不是花，它就这样静静地，不言不语。</p><p data-pid=\"Wkyxr2uL\">秋风摇落下的叶子，饱含着大地对它的思念。树下的土地变了模样和神态，锦绣一片。踩上去，柔柔的，沙沙作响。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1265\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://picx.zhimg.com/v2-8ba3f03774950fd877a6361f73c692cf_1440w.jpg\" data-original-token=\"v2-8ba3f03774950fd877a6361f73c692cf\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-8ba3f03774950fd877a6361f73c692cf_r.jpg\"/></figure></p><p data-pid=\"NOYV_N1_\"><b><u>冬天里，卸下叶子和花果的树，是院子坚韧的守护</u></b></p><p data-pid=\"J8DyjW5n\">有人说，冬天里，萧瑟北风一阵吹，院子会显得非常冷清。</p><p data-pid=\"jEOiYZ8q\">但，因为有树，则会多了一些生气。</p><p data-pid=\"N4e4HPBZ\">即便落尽了叶片，但只要那些枝条还在，遒劲地支棱在院子里，就好似有了力量和希望。</p><p data-pid=\"gzryku3v\">映在冬天的蓝天里，有了水墨山水画的样子。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1333\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://pica.zhimg.com/v2-a017cf70992a07525ce8b7d3037a8628_1440w.jpg\" data-original-token=\"v2-a017cf70992a07525ce8b7d3037a8628\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-a017cf70992a07525ce8b7d3037a8628_r.jpg\"/></figure></p><p data-pid=\"0cyzvnEY\">下雪了，枝桠处堆满了雪，枝条上也包裹上了一圈白。此刻的树，比春日里开出的花更有味道，霎那间，有一种风骨灵韵的美感。</p><p data-pid=\"e0KMuxdI\">在院子里，种上一棵树，是明智的。不用选那些所谓名贵的，喜欢的，就好。</p><p data-pid=\"zA7-5dNx\">树不同于其他花草，只要种下，它就会在年复一年的四季里，给平淡的生活增添希望和浪漫。</p>",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "visited_count": 146,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "author": {
+          "url_token": "peak-53-23",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-af0fe96c7caa8b5c961a303bdc608518_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 245,
+          "url": "https://api.zhihu.com/people/3b764f68409581d159db94b5b21143ff",
+          "user_type": "people",
+          "headline": "一个对车、乡村、文学有情怀，对酒店和营销有见解的屌丝",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "3b764f68409581d159db94b5b21143ff",
+          "name": "困在山谷的狼"
+        },
+        "title": "有了院子，听我的，开花的树一定要种一棵",
+        "voteup_count": 8,
+        "voting": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1989141881922287165}",
+      "attached_info": "CuwHCNaOyNupq+CmtgEQBxoJMjY4MzUwNTQxIJ3tysoGKAgwAUBVSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1iIDUzYzM1YTZmYTk0MTYyNWFmNzQ0MTdjYjQ2NDAwODJichMxOTg5MTQxODgxOTIyMjg3MTY1qgEJcmVjb21tZW5kwgEgM2I3NjRmNjg0MDk1ODFkMTU5ZGI5NGI1YjIxMTQzZmbyAQoIDBIGTm9ybWFs8gEoCAoSJGU4MWJiZGJkLTViOGItNGIxOS05NGNiLTQ5Y2ZlYWU3NDViMvIBBggLEgIxNYICAIgC2LfHm7kzkgIgM2I3NjRmNjg0MDk1ODFkMTU5ZGI5NGI1YjIxMTQzZmaaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCA/oCC05PUk1BTF9GTE9XigMgZDVjNTFlZTgxYzJiNGZlODg5OWE5YzkyMDBkMTI5ZWWaAw0KAnYyEAAaBW90aGVyqAOSAdgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoDuQISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhDQBxjMASIjdjItZmFlZjc5OGNiOTVhNGEwNjAxM2NjNGE3YzNjYzAwMjQ6LQgEELgIGJ4KIiN2Mi04MjFjMDk0NDZhM2I5MzUzNzBmODBmMDBhZjEzOTVlYjotCAQQuAgYgwoiI3YyLTBlODNlNmQ3ODJlNDVmZmZmNTFlZTcwNWQ5NDA0YzFhOi0IBBCyCBiLCiIjdjItNzQ2YWY1NmU5ZGQ1N2EwYWYwMmRkYTljNTY5MTUzY2U6LQgDELgIGPEJIiN2Mi04YmEzZjAzNzc0OTUwZmQ4NzdhNjM2MWY3M2M2OTJjZjotCAQQuAgYtQoiI3YyLWEwMTdjZjcwOTkyYTA3NTI1Y2U4YjdkMzAzN2E4NjI4gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAACvGWP4EFAAAAAAAAAACJBbDFbhW0ebI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBlaoBgOSAi4KCTI2ODM1MDU0MRITMTk4OTE0MTg4MTkyMjI4NzE2NRgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "86_1767705271.570",
+      "type": "feed",
+      "offset": 86,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705271,
+      "updated_time": 1767705271,
+      "target": {
+        "id": "1988984580972233537",
+        "excerpt_new": "这个牢a有讲过，华人之所以不被其他族裔待见的原因之一，就是华人有点难杀。一是没有学贷医疗这些debuff，大部分华人想治病直接回国就行（凤姐没法回国所以她只是没有学贷）。二是唐人街有很多包吃住的打工（睡地板），可以让掉到线下的华人快速积累起重回线上的资本。 华人在美国就类似于魔兽世界里的燃烧军团，被打死了回扭曲虚空呆一段时间就满血复活了，白人是真看不懂。你不按人家的规则玩游戏，人家自然就不愿意待见你。 …",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "R3RghxRW",
+            "text": "这个牢a有讲过，华人之所以不被其他族裔待见的原因之一，就是华人有点难杀。一是没有学贷医疗这些debuff，大部分华人想治病直接回国就行（凤姐没法回国所以她只是没有学贷）。二是唐人街有很多包吃住的打工（睡地板），可以让掉到线下的华人快速积累起重回线上的资本。",
+            "marks": [
+              {
+                "start_index": 29,
+                "end_index": 52,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989827079810880293"
+                  ],
+                  "is_like": false,
+                  "like_count": 47,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 85,
+                "end_index": 128,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989827095011030776"
+                  ],
+                  "is_like": false,
+                  "like_count": 60,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WwSefyTl",
+            "text": "华人在美国就类似于魔兽世界里的燃烧军团，被打死了回扭曲虚空呆一段时间就满血复活了，白人是真看不懂。你不按人家的规则玩游戏，人家自然就不愿意待见你。",
+            "marks": [
+              {
+                "start_index": 49,
+                "end_index": 73,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991152999947580289"
+                  ],
+                  "is_like": false,
+                  "like_count": 9,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "updated_time": 1767406586,
+        "content": "<p data-pid=\"R3RghxRW\">这个牢a有讲过，华人之所以不被其他族裔待见的原因之一，就是华人有点难杀。一是没有学贷医疗这些debuff，大部分华人想治病直接回国就行（凤姐没法回国所以她只是没有学贷）。二是唐人街有很多包吃住的打工（睡地板），可以让掉到线下的华人快速积累起重回线上的资本。</p><p data-pid=\"WwSefyTl\">华人在美国就类似于魔兽世界里的燃烧军团，被打死了回扭曲虚空呆一段时间就满血复活了，白人是真看不懂。你不按人家的规则玩游戏，人家自然就不愿意待见你。</p><p data-pid=\"B0NQfny-\">补充一个观点，华人的难杀本质上是有祖国在兜底，而美国大部分族裔是没有美国以外的足够富强的祖国的。</p>",
+        "favorite_count": 701,
+        "url": "https://api.zhihu.com/answers/1988984580972233537",
+        "author": {
+          "url_token": "xue-ye-he-zi",
+          "headline": "隐藏立场的价值判断都是pua。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9ace678a51bf1572d85bb25853973df8_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 11166,
+          "is_following": false,
+          "is_followed": false,
+          "id": "11c1e2f05200c6579b0cda2d51d691ab",
+          "url": "https://api.zhihu.com/people/11c1e2f05200c6579b0cda2d51d691ab",
+          "user_type": "people",
+          "name": "雪夜喵子",
+          "is_org": false
+        },
+        "voteup_count": 7580,
+        "type": "answer",
+        "is_copyable": false,
+        "question": {
+          "id": "1988652943004702108",
+          "bound_topic_ids": [
+            472,
+            15061,
+            34899,
+            4270668
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "title": "凤姐为何现在还没落入斩杀线？",
+          "created": 1766911809,
+          "answer_count": 0,
+          "url": "https://api.zhihu.com/questions/1988652943004702108",
+          "author": {
+            "user_type": "people",
+            "name": "深森",
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "b50ac26e56e1712a010590cc938a5534",
+            "url": "https://api.zhihu.com/people/b50ac26e56e1712a010590cc938a5534",
+            "url_token": "shen-sen-86-1",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/40357a2df2a285e8abfb6255fc0eb7b5_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 2
+          },
+          "excerpt": "",
+          "question_type": "normal",
+          "follower_count": 0,
+          "comment_count": 15,
+          "is_following": false,
+          "detail": ""
+        },
+        "created_time": 1766990877,
+        "excerpt": "这个牢a有讲过，华人之所以不被其他族裔待见的原因之一，就是华人有点难杀。一是没有学贷医疗这些debuff，大部分华人想治病直接回国就行（凤姐没法回国所以她只是没有学贷）。二是唐人街有很多包吃住的打工（睡地板），可以让掉到线下的华人快速积累起重回线上的资本。 华人在美国就类似于魔兽世界里的燃烧军团，被打死了回扭曲虚空呆一段时间就满血复活了，白人是真看不懂。你不按人家的规则玩游戏，人家自然就不愿意待见你。 …",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "thanks_count": 181,
+        "comment_count": 524,
+        "is_labeled": false,
+        "allow_segment_interaction": true,
+        "reshipment_settings": "disallowed",
+        "preview_type": "default",
+        "preview_text": "",
+        "visited_count": 500399
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988984580972233537}",
+      "attached_info": "CoEGCNaOyNupq+CmtgEQBBoJNzYzMTU5OTcwIJ3IyMoGKJw7MIwEQFZKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNzg3NTQ4M2IgNTNjMzVhNmZhOTQxNjI1YWY3NDQxN2NiNDY0MDA4MmJyEzE5ODg5ODQ1ODA5NzIyMzM1MzeKARMxOTg4NjUyOTQzMDA0NzAyMTA4qgEJcmVjb21tZW5kwgEgMTFjMWUyZjA1MjAwYzY1NzliMGNkYTJkNTFkNjkxYWLyAQoIDBIGTm9ybWFs8gEoCAoSJGVkNmIyMTU5LWU0MDMtNGIyYi05NTNhLTdlMWY3MjkzYjdlNfIBBggLEgIxNYICAIgC2LfHm7kzkgIgMTFjMWUyZjA1MjAwYzY1NzliMGNkYTJkNTFkNjkxYWKaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhJDbGlwUGVha1dlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgL6AgtOT1JNQUxfRkxPV4oDIGQ1YzUxZWU4MWMyYjRmZTg4OTlhOWM5MjAwZDEyOWVlmgMNCgJ2MhAAGgVvdGhlcqgDr8Ue2AMA6gMZZmVlZHJlV2FybVN1Y2Nlc3NSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAACmM5U/gQUAAAAAAAAAAIkFsMVuFbR5sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGV6gGAJICLgoJNzYzMTU5OTcwEhMxOTg4OTg0NTgwOTcyMjMzNTM3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "87_1767705271.732",
+      "type": "feed",
+      "offset": 87,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705271,
+      "updated_time": 1767705271,
+      "target": {
+        "title": "这是中国最后一次机会",
+        "preview_text": "",
+        "visited_count": 1129785,
+        "favorite_count": 12454,
+        "url": "https://api.zhihu.com/articles/1978751799717549298",
+        "updated": 1764555320,
+        "voteup_count": 25547,
+        "is_labeled": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/d2f53aeb9cb66d27eb90f0174cb6da4e",
+          "user_type": "people",
+          "headline": "公众号：之乎者野记",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-63fb61fdf49d61298b404db28106a1fb_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "topic_names": [
+                "金融"
+              ],
+              "topic_ids": [
+                19800
+              ],
+              "type": "best_answerer",
+              "description": "金融话题下的优秀答主"
+            }
+          ],
+          "id": "d2f53aeb9cb66d27eb90f0174cb6da4e",
+          "url_token": "liao-zhu-41",
+          "name": "牧之野",
+          "followers_count": 307064,
+          "is_following": false
+        },
+        "created": 1764553087,
+        "excerpt": "我绝不担心我们的实力，我只担心我们的仁慈。我不知道多少人能清晰意识到。 当前，我们正在经历的这一段时期，是中国最后一次机会。 但西方有识之士已经意识到了，即便再次回到全球化，深层国家控制之下的美国，再也回不到全球之巅，整个西方的体系，也不可能再回到过去的荣耀。 这是他们最后的困兽斗，最后的窗口期，最后一搏，倾尽全力，不惜用最残忍的方式。 他们绝对不会再给中国任何机会。从几年前的资本撤离，我就发文提醒…",
+        "id": "1978751799717549298",
+        "comment_count": 135,
+        "excerpt_new": "我绝不担心我们的实力，我只担心我们的仁慈。我不知道多少人能清晰意识到。 当前，我们正在经历的这一段时期，是中国最后一次机会。 但西方有识之士已经意识到了，即便再次回到全球化，深层国家控制之下的美国，再也回不到全球之巅，整个西方的体系，也不可能再回到过去的荣耀。 这是他们最后的困兽斗，最后的窗口期，最后一搏，倾尽全力，不惜用最残忍的方式。 他们绝对不会再给中国任何机会。从几年前的资本撤离，我就发文提醒…",
+        "preview_type": "default",
+        "voting": 0,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "comment_permission": "censor",
+        "article_type": "normal",
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "aWeV0q4d",
+            "text": "当然，我们不怕，我们有自己的自给自足，自己的产业链重构。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1978931546057622609"
+                  ],
+                  "is_like": false,
+                  "like_count": 38,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "AB5FyHYZ",
+            "text": "依然手下留情，依然顾忌颜面，依然权衡利弊，依然走走看看，依然有侥幸心理。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 36,
+                "seg_info": {
+                  "seg_ids": [
+                    "1983578139436282517"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "CFt96qQ6",
+            "text": "我们被国家保护得太好了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 12,
+                "seg_info": {
+                  "seg_ids": [
+                    "1979178733437985332"
+                  ],
+                  "is_like": false,
+                  "like_count": 26,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "99PTgNmT",
+            "text": "我们现在，必须要扔掉各种道德的束缚，想尽一切办法，要赢。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1978931546057622609"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "xm3CiMNU",
+            "text": "中国如果没了，世界也没有存在的必要和意义。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 21,
+                "seg_info": {
+                  "seg_ids": [
+                    "1986134236592350746"
+                  ],
+                  "is_like": false,
+                  "like_count": 154,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "fUA5-w1a",
+            "text": "大家知道，日本，现在，在中国有多少间谍、内应吗？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1983577781112690345"
+                  ],
+                  "is_like": false,
+                  "like_count": 10,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "pjyzzfu7",
+            "text": "建议开展为期两年，针对日本、台湾省在中国间谍、情报（含商业）人员以及境外资金支持的专业人士的专项打击活动。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 53,
+                "seg_info": {
+                  "seg_ids": [
+                    "1979838169735255516"
+                  ],
+                  "is_like": false,
+                  "like_count": 49,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "dR-uMSBc",
+            "text": "而是毁灭性的打击，严重的损害，甚至包括对我最核心指挥枢纽的打击。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1978846781786834561"
+                  ],
+                  "is_like": false,
+                  "like_count": 34,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Z9obLtSx",
+            "text": "不择一切手段要赢。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 9,
+                "seg_info": {
+                  "seg_ids": [
+                    "1979825186225268155"
+                  ],
+                  "is_like": false,
+                  "like_count": 54,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "z1iJGIBo",
+            "text": "历史是胜利者书写的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 9,
+                "seg_info": {
+                  "seg_ids": [
+                    "1979825186225268155"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "exfMTSxt",
+            "text": "希望我们真的打起十二分精神，不要想当然，不要轻敌，实事求是，战略上藐视敌人，战术上全力重视敌人。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 48,
+                "seg_info": {
+                  "seg_ids": [
+                    "1980960515456013682"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "type": "article",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "content": "<blockquote data-pid=\"IycwK2Pi\"><b>我绝不担心我们的实力，我只担心我们的仁慈。</b></blockquote><p data-pid=\"gz_5e_bd\">我不知道多少人能清晰意识到。</p><p data-pid=\"GOxG6bKu\">当前，我们正在经历的这一段时期，是中国最后一次机会。</p><p data-pid=\"VQWNjXzm\">但西方有识之士已经意识到了，即便再次回到全球化，深层国家控制之下的美国，再也回不到全球之巅，整个西方的体系，也不可能再回到过去的荣耀。</p><p data-pid=\"-JFgAgob\">这是他们最后的困兽斗，最后的窗口期，最后一搏，倾尽全力，不惜用最残忍的方式。</p><p data-pid=\"FBhuZEWk\"><b>他们绝对不会再给中国任何机会。</b></p><p data-pid=\"KBlhWNP4\">从几年前的资本撤离，我就发文提醒：</p><p data-pid=\"9qvDXWnM\">这次，和以前的美元潮汐完全不一样。</p><p data-pid=\"FGgn04fJ\">性质变了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-91a9788bb784d4ef8f6a069db04069f0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1003\" data-rawheight=\"1246\" data-original-token=\"v2-fde5d6d98cdb173a01892c88187ad95e\" class=\"origin_image zh-lightbox-thumb\" width=\"1003\" data-original=\"https://pic1.zhimg.com/v2-91a9788bb784d4ef8f6a069db04069f0_r.jpg\"/></figure><p data-pid=\"xKaKDWHK\">这不仅仅是疫情、资本、市场、脱钩等现实考虑，而是大范围的协同，背后的合意我们并不了解。</p><p data-pid=\"aWeV0q4d\">当然，我们不怕，我们有自己的自给自足，自己的产业链重构。</p><p data-pid=\"u931izpA\">当然，如果我们赢了，他们可能会再回来。</p><p data-pid=\"rp4YEmAw\">但，如果输了，万劫不复。</p><p data-pid=\"JFu-5PKf\">虽然，我们的推动构建人类命运共同体，站到了人类道德制高点，但是，旧秩序绝对不会心甘情愿地退场。</p><p data-pid=\"3ccepBxe\">它们是一定要毁灭你的。</p><p data-pid=\"kzFX1QyV\">米尔斯海默反复提醒中国，千万不要低估美国的残暴。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d38b1094bf88707d4f0fbed32f1f6db8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"602\" data-rawheight=\"758\" data-original-token=\"v2-3acd82b4fb1d1e43f93442822e4fea7a\" class=\"origin_image zh-lightbox-thumb\" width=\"602\" data-original=\"https://pic3.zhimg.com/v2-d38b1094bf88707d4f0fbed32f1f6db8_r.jpg\"/></figure><p data-pid=\"nz-aLc-u\">可是，至今为止。</p><p data-pid=\"Ujmpd_Fr\">除了极少数顶层设计的人，大多数老百姓，大多数中国所谓的“精英阶层”，依然是莺歌燕舞，孩子往外送，人往外润，嘴里骂骂咧咧。</p><p data-pid=\"DnQOrUtj\">我们甚至对于日本突然的行为，感到惊诧。</p><p data-pid=\"T4-APO-f\"><b>“我们把你们想得太好了”。</b></p><p data-pid=\"yfLJUl4a\">这不仅仅只是对美国，知道吗？而是，一遍一遍不相信，这世界原来没有任何底线，因为中国人骨子里的善良，食草性。</p><p data-pid=\"1bmBXvqW\">说下自己真实的经历。</p><p data-pid=\"DaWIdXt6\">前段时间，在高市放话，还没有实质性行动时，和一些我很尊敬的老师聊起国际形势，说到日本，绝大多数都认为：</p><p data-pid=\"kWtbfAIL\">不至于。</p><p data-pid=\"G2Fxbz89\">他们根本不相信，以日本现在的军事实力，敢来偷袭中国，敢直接跟中国硬刚。</p><p data-pid=\"9Q_UzAq4\">他们认为，我们要大方一点，宽容一点，就当是右翼政客胡说，别计较。</p><p data-pid=\"HyA_QbBV\">因为都是很好的学者，出于礼貌和尊重，所以关于这个话题，我没有直接表达观点。</p><p data-pid=\"IefOP5LA\">但我真的很生气。</p><p data-pid=\"54odqQM3\">真心觉得，中国人真的是太善良、太仁慈了。</p><p data-pid=\"5ypWCi-n\">在我们的骨子里，就是要以德报怨，就是不开第一枪，就是要忍，永远觉得来日方长，觉得时间在我。</p><p data-pid=\"c7bgw7qW\">离那次谈话时间过去两个多星期了，不知道看到下面这些新闻，他们会不会有新的感受。</p><blockquote data-pid=\"ZTyVQmqH\">日本共同社24日报道称，日本防卫大臣小泉进次郎23日到访日本最西端的冲绳县与那国町，就将导弹部队部署在靠近中国台湾的西南岛屿发表言论。中国外交部发言人24日表示，日方在与中国台湾邻近的西南诸岛部署进攻性武器，刻意制造地区紧张、挑动军事对立。<br/><br/>此次日防相所指部署中程防空导弹的与那国岛距中国台湾仅110公里。2016年，日本在该岛设立陆上自卫队驻地。日本防卫省2022年透露计划在此处部署地对空导弹部队。今年1月，日媒爆料防卫省计划在该岛部署03式中程地对空导弹。03式中程地对空导弹射程约为50公里，其改进型射程可达80至100公里。<br/>据红星新闻11月27日报道，日本近期密集推进的后勤保障动作，正彻底撕开其“专守防卫”的虚伪面纱——从研发战场“万能血浆”、制定战时战俘管理规则，到在西南诸岛狂建130座弹药库，多维度系统性动作拼凑出清晰的全面战争准备图景。<br/><br/>高市早苗政府叫嚣的“台湾有事即日本有事”绝非空谈，而是建立在法律、军事、医疗等领域的精准备战之上，其突破战后秩序、重拾扩张野心的图谋已昭然若揭。</blockquote><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d0a2d6e866a1575bc4cd82a0d2138a19_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1042\" data-rawheight=\"766\" data-original-token=\"v2-3cc980a71c7706402d91a4b78c9f784d\" class=\"origin_image zh-lightbox-thumb\" width=\"1042\" data-original=\"https://pic2.zhimg.com/v2-d0a2d6e866a1575bc4cd82a0d2138a19_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a25721af336e062e10f3971cd847b104_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"384\" data-original-token=\"v2-cb35cbbcb4131b12f1009e9d45c2ec92\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic3.zhimg.com/v2-a25721af336e062e10f3971cd847b104_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-443a545dbaa9b22d2f764e415b1448a3_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"758\" data-rawheight=\"519\" data-original-token=\"v2-515638df909103afd0f23aab762bf218\" class=\"origin_image zh-lightbox-thumb\" width=\"758\" data-original=\"https://picx.zhimg.com/v2-443a545dbaa9b22d2f764e415b1448a3_r.jpg\"/><figcaption>（图片来自网络，未必一一对应）</figcaption></figure><p data-pid=\"59nHNnbk\">我们要感谢高市早苗。</p><p data-pid=\"XklsVsuA\">如果不是因为她的鲁莽，提前3-5年暴露了计划，我们有多少人，还蒙在鼓里。</p><p data-pid=\"8RI0RfL2\">有多少人还在认为，日本根本不会主动打中国。</p><p data-pid=\"Yw3eudCn\">从技术上讲，偷袭的难本不可能偷袭中国，根度很大，但是，日本军国主义偷袭的理念和思维，从来从来，就没有消除过。</p><p data-pid=\"-bG9Bps-\">这不是我们自己说的，中国人会觉得这样做脑子坏掉了。</p><p data-pid=\"f04TCCZS\">这是人家日本前首相石破茂最近采访里说的。</p><p data-pid=\"XUZdgUGt\">原话。</p><blockquote data-pid=\"GuhBIGro\">石破茂：当年（二战时期）<b>日本和美国的国力相差十倍，明知道打不过美国还要打。东条英机那句不试试怎么知道</b>，像一把刀，刺穿了理智。没人敢拦，拦了就是软蛋，同意开战反倒成了胆识。明知是悬崖，还要跳下去，只因害怕被嘲笑后退。石破茂的目光沉重，语气里藏着警告：如今面对中国，若还是这股试试看的冲动，后果可能比七十年前更惨。</blockquote><p data-pid=\"y65YJMPs\">而到现在为止，我们虽然有一些反制，但依然没有下决心对日本下重手，逼高市下台。</p><p data-pid=\"AB5FyHYZ\"><b>依然手下留情，依然顾忌颜面，依然权衡利弊，依然走走看看，依然有侥幸心理。</b></p><p data-pid=\"NuudO7Tr\">其实，从延缓战争的目的看，我们经济、外交和其它方面的反制越严厉，越压制军国主义，发生战争的时间就越晚。</p><p data-pid=\"PydSZph6\">到近期，我们才历史上第一次演练军港被偷袭。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4455ff59a23eb616d18973c4ae81c03c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"640\" data-original-token=\"v2-640b8e9ff5031d575002161a7e176424\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-4455ff59a23eb616d18973c4ae81c03c_r.jpg\"/></figure><p data-pid=\"L-zv2O7U\">而在这之前，很多人，大概都想不到这回事。</p><p data-pid=\"CFt96qQ6\"><b>我们被国家保护得太好了。</b></p><p data-pid=\"1X37GrDh\">出于对社会稳定的考虑，我们大多数事情，是只做不说，或者提前都在准备，但怕引起民众恐慌，一直都没动员。</p><p data-pid=\"2dWWJz_T\">但，我想到现在，该改变了。</p><p data-pid=\"Ba-5WZCY\">我们不要被特朗普想要搞“新门罗主义”，退回美洲骗了。</p><p data-pid=\"BUYr-ef2\">我们不要以为欧洲和美国，真的是表面看起来的在对着干。</p><p data-pid=\"-wyncxnJ\">个人认为：</p><p data-pid=\"nSo2Kdm2\"><b>美国等国家背后的深层国家、利益集团，已经达成了交易的一致，就是毕其功于一役，要把中国扼杀在现在，就这几年，不会很远。</b></p><p data-pid=\"4BbEkGaQ\">他们绝对不会允许中国在亚洲起主导作用，不是像希拉里说的，划分三个势力区域。</p><p data-pid=\"4HaxfZX9\">都是假的。</p><p data-pid=\"n76kxqLc\">如果我们意识不到，国家当下已经走到了外部环境很恶劣的境地，那么，当西方獠牙露出来的时候，必然措手不及。</p><p data-pid=\"KmKmCM2p\">他们真的已经下定了决心，只是在评估失败的代价和成本。西方文明中的相当部分，在靠拢，在联合，在谋划，目标是一致的，方式还有分歧。</p><p data-pid=\"cN7_D7kH\">虽然不是铁板一块，但少有当前这种高度一致。</p><p data-pid=\"0_nzEhFv\">一旦他们找到破绽，必然倾尽所有，毕其功于一役。</p><p data-pid=\"dBW2L4mt\">绝对不会再给中国一点机会。</p><p data-pid=\"CGJY1kd7\">那个时候，没有什么联合国，没有道义，没有正义，只有借口，只有舆论控制。</p><p data-pid=\"fwQ5HkHz\">为什么我们不能心慈手软，不能讲道义。</p><p data-pid=\"bh5RMyv4\"><b>因为中国要是垮了，这个世界其他国家就没指望了。</b></p><p data-pid=\"0kDbLlJX\">狗屁公平新国际秩序，玩蛋去，资本再次控制全球。</p><p data-pid=\"99PTgNmT\">我们现在，必须要扔掉各种道德的束缚，想尽一切办法，要赢。</p><p data-pid=\"Zirq4lBU\">我们赢了，才有人类命运共同体。</p><p data-pid=\"xm3CiMNU\"><b>中国如果没了，世界也没有存在的必要和意义。</b></p><p data-pid=\"CTNZxkNL\">当前，如果日本铤而走险，就是如他们所说，达成了目的。</p><p data-pid=\"TJFRd82o\">我们必然会元气大伤，因为我们没有证据的情况下，绝对不会去打美国。</p><blockquote data-pid=\"93mWjYzm\">日本媒体报道称，日本自卫队内部人员称，如果福建舰在台湾采取军事行动，日本和美国有能力击沉福建舰。</blockquote><p data-pid=\"vey6AkKm\">这就是我所说的，仁慈。</p><p data-pid=\"fUA5-w1a\">大家知道，日本，现在，在中国有多少间谍、内应吗？</p><p data-pid=\"Pubuxfn7\">你难以想象范围之广、级别之高、人数之多、隐藏之深、时间之长。</p><blockquote data-pid=\"-Xwl25_H\">近年来，安全机关敢斗善斗、积极作为，破获了一批日本间谍情报机关针对中国的渗透窃密间谍案件，有力维护了国家核心秘密安全，坚决捍卫了国家主权、安全、发展利益。</blockquote><p data-pid=\"8zo_SdBu\">2022年抓的《光明日报》的评论部副主任董郁玉，毕业于北京大学的资深媒体人，从1987年入职《光明日报》到2022年落马，潜伏时间长达30年，距离退休仅剩6个月时才落网。</p><p data-pid=\"2oUUJZMd\">我可以说，我们身边，不少。</p><p data-pid=\"3mSKO_-C\">提一个建议，希望有关部门看到：</p><p data-pid=\"pjyzzfu7\"><b><u>建议开展为期两年，针对日本、台湾省在中国间谍、情报（含商业）人员以及境外资金支持的专业人士的专项打击活动。</u></b></p><p data-pid=\"oiRdAvGo\">过去，可能是照顾到双边关系，要留一些情面，要以德报怨。</p><p data-pid=\"YCfuq0Km\">但如今，日本已经明确开始全面准备中等规模以上战争，如果任由内部这些人继续活动，必然对我国家利益产生严重损害。</p><p data-pid=\"dmtCdg_1\">鉴于此，该收网了。</p><p data-pid=\"S35pMn7L\">我们也应积极考虑，修改核武器使用原则，从防守转为主动战略威慑。</p><p data-pid=\"QJc2sqrJ\">中国人爱好和平，绝对不会想着去发动战争，但日本此次军国主义复辟的最终目标是：</p><p data-pid=\"SjvN2bCG\"><b>拥核。</b></p><p data-pid=\"EaE5aZdg\">如果看不到这个核心点，那就是重大失误。</p><p data-pid=\"go-6NRFw\"><b>现在的一切外交、经济等行动，都要围绕阻止其拥核。</b></p><p data-pid=\"304dP1zL\">不是开玩笑。</p><p data-pid=\"4ciKtJFB\">别觉得我言重了，大家好好想想，三个月前，有几个人思考过日本会这么搞？过五年，你回头看我这篇文章。</p><p data-pid=\"KB20O3JN\">不要等着别人打第一枪，对我们造成伤害了，我们再“师出有名”。</p><p data-pid=\"DGArfx63\">现代战争，第一枪不再是卢沟桥那样象征意义。</p><p data-pid=\"dR-uMSBc\">而是毁灭性的打击，严重的损害，甚至包括对<b>我最核心指挥枢纽的打击</b>。</p><p data-pid=\"SytkCxMw\">那都是，我们想都不会去想的事。</p><p data-pid=\"8DgCdmkX\">中国最后一次机会。</p><p data-pid=\"P_5T445e\">我个人旗帜鲜明：</p><p data-pid=\"Z9obLtSx\"><b>不择一切手段要赢。</b></p><p data-pid=\"oVQeLIrC\">因为我们才是真正为人民服务，为全人类福祉服务，是人类最后的希望。</p><p data-pid=\"z1iJGIBo\">历史是胜利者书写的。</p><p data-pid=\"HHMT7mAt\">这最后一次，既是最严峻挑战，也是最重大机遇。</p><p data-pid=\"exfMTSxt\">希望我们真的打起十二分精神，不要想当然，不要轻敌，实事求是，战略上藐视敌人，战术上全力重视敌人。</p><p data-pid=\"ZcHatKxz\">历史没有如果。</p><p data-pid=\"0FHv9Dpx\">而这样的文章，我也不想再写第二次。</p><p data-pid=\"5DsFbnD6\"><b>日本重大转向专辑序列：</b></p><p data-pid=\"RF9BAREp\"><b>1.2020年9月日《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkyNzUyNDEzNw%3D%3D%26mid%3D2247491212%26idx%3D1%26sn%3D77d69bdd4f7e400cd61c2a211e5c3964%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">纪念抗日战争胜利75周年，我们须谨记日本从未服输中国的原因</a>》</b></p><p data-pid=\"g-hqzPMr\"><b>2.2021年3月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247484344%26idx%3D1%26sn%3D05472148b04aa02e51253d5e8adb5481%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">当日本亮出獠牙</a>》</b></p><p data-pid=\"pHkf5xlO\"><b>3.2021年12月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247484904%26idx%3D1%26sn%3D3c7c1d568326a0449aa4844e17f63d77%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">日本在赌国运，中国这个邻居比美国危险多了</a>》</b></p><p data-pid=\"wgVSYAuo\"><b>4.2022年8月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247486025%26idx%3D1%26sn%3D4b332acc21ab881383442a3c20b2849b%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">要做好日本可能拥有核武器的充分准备</a>》</b></p><p data-pid=\"LU9Uyp97\"><b>5.2022年10月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247486308%26idx%3D1%26sn%3D79c0d9be736d19b016ee4d534ad7845a%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">武装日本</a>》</b></p><p data-pid=\"54ZdlIhW\"><b>6.2024年1月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247488499%26idx%3D1%26sn%3D333b302c07479d3b0592a0f882f2fde2%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">盯紧日本</a>》</b></p><p data-pid=\"zP4fc30G\"><b>7.2024年9月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247490249%26idx%3D1%26sn%3D0d4c6d7e17f2ffd9e19a1c21212430e9%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">你们看到的只是0：7，日本看到的却是北洋水师</a>》</b></p><p data-pid=\"eZ1Rx3B8\"><b>8.2025年11月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247493673%26idx%3D1%26sn%3Dfbffe28b331e641b7b83f1b1ac79d7f2%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">危险的信号</a>》</b></p><p data-pid=\"VQ0ZStRK\"><b>9.2025年11月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247493681%26idx%3D1%26sn%3D8f5eb92b75a79c39ace78dc41cc1c667%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这次没有回头路</a>》</b></p><p data-pid=\"UyGE3IRa\"><b>10.2025年11月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247493710%26idx%3D1%26sn%3Da6377a88c9d3ac14886966ff1715229e%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">说两个思考</a>》</b></p><p data-pid=\"05iFGps0\"><b>11.2025年11月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247493717%26idx%3D1%26sn%3D0b9986eb26a666b55402e8ea5b940fee%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">死路一条</a>》</b></p><p data-pid=\"Tbcht7sp\"><b>12.2025年11月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247493738%26idx%3D1%26sn%3D422bba4940ad7ee6289ca6baacca2102%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">凭什么不能开第一枪</a>》</b></p><p data-pid=\"YK2oi9-i\"><b>12.2025年11月《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzU1MTExMTE2NQ%3D%3D%26mid%3D2247493748%26idx%3D1%26sn%3D37d923cbbcbcc9b43254c541b67f7e4f%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">到了吃劲的时候</a>》</b></p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-fde5d6d98cdb173a01892c88187ad95e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3cc980a71c7706402d91a4b78c9f784d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-640b8e9ff5031d575002161a7e176424_720w.jpg?source=b6762063"
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1978751799717549298}",
+      "attached_info": "CrEICNaOyNupq+CmtgEQBxoJMjY3MDQ5Mzc3IP/is8kGKMvHATCHAUBXSnQKHFRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTFRJTUUSTmhvdF9yZWNhbGxfcmVhbHRpbWVfdDpub3JtYWw6MjAyNi0wMS0wNjptYWxlOmJpZ3lvdW5nc3RlcjrkuIDnur/ln47luII6bW9udGhseRgAIAA6AGIgNTNjMzVhNmZhOTQxNjI1YWY3NDQxN2NiNDY0MDA4MmJyEzE5Nzg3NTE3OTk3MTc1NDkyOTiqAQlyZWNvbW1lbmTCASBkMmY1M2FlYjljYjY2ZDI3ZWI5MGYwMTc0Y2I2ZGE0ZfIBCggMEgZOb3JtYWzyASgIChIkYTljNGU5MTUtZDExZC00ZjljLWE5ZTYtZGQ1ZGRmZGFmNGE18gEGCAsSAjE1ggIAiALYt8ebuTOSAiBkMmY1M2FlYjljYjY2ZDI3ZWI5MGYwMTc0Y2I2ZGE0ZZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHFRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTFRJTUXoAgT6AgtOT1JNQUxfRkxPV4oDIGQ1YzUxZWU4MWMyYjRmZTg4OTlhOWM5MjAwZDEyOWVlmgMNCgJ2MhAAGgVvdGhlcqgDufpE2AMA6gMfaG90Q3Jvc3NSZWFsVGltZUNvbnRlbnRSZWNhbGxlcvoDuQISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhDrBxjeCSIjdjItZmRlNWQ2ZDk4Y2RiMTczYTAxODkyYzg4MTg3YWQ5NWU6LQgCENoEGPYFIiN2Mi0zYWNkODJiNGZiMWQxZTQzZjkzNDQyODIyZTRmZWE3YTotCAIQkggY/gUiI3YyLTNjYzk4MGE3MWM3NzA2NDAyZDkxYTRiNzhjOWY3ODRkOi0IAxCABRiAAyIjdjItY2IzNWNiYmNiNDEzMWIxMmYxMDA5ZTlkNDVjMmVjOTI6LQgFEPYFGIcEIiN2Mi01MTU2MzhkZjkwOTEwM2FmZDBmMjNhYWI3NjJiZjIxODotCAQQuAgYgAUiI3YyLTY0MGI4ZTlmZjUwMzFkNTc1MDAyMTYxYTdlMTc2NDI0gAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACA5iipP4EFAAAAAAAAAACJBbDFbhW0ebI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBlioBgCSAi4KCTI2NzA0OTM3NxITMTk3ODc1MTc5OTcxNzU0OTI5OBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "88_1767705271.855",
+      "type": "feed",
+      "offset": 88,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705271,
+      "updated_time": 1767705271,
+      "target": {
+        "url": "https://api.zhihu.com/articles/1991549926988083799",
+        "updated": 1767602652,
+        "visited_count": 2677,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-169b1cb4e8e5a55f3e9c52b0c2e3d860.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pic1.zhimg.com/50/v2-a0f21d1d303e84421f0a832338c0562e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-735feffd0a281f1e89d2a168886528af_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-169b1cb4e8e5a55f3e9c52b0c2e3d860_720w.jpg?source=b6762063"
+        ],
+        "comment_permission": "censor",
+        "comment_count": 0,
+        "preview_type": "default",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "type": "article",
+        "title": "杨立昆自曝离开Meta内幕：与扎克伯格不合，对29岁新上司不满，力挺“世界模型”遭冷落",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "preview_text": "",
+        "favorite_count": 22,
+        "article_type": "normal",
+        "id": "1991549926988083799",
+        "excerpt_new": "近日，图灵奖得主、深度学习三巨头之一的杨立昆（Yann LeCun）在巴黎的一家米其林餐厅内，首次面对《金融时报》谈及自己离开 Meta 背后的内幕。 这位曾一手建立起 Meta AI 帝国的元老级人物，如今身份已变更为初创公司 AMI Labs（Advanced Machine Intelligence Labs）的执行董事长。 在三个多小时的独家专访中，杨立昆不仅确认了外界关于他离职的种种猜测，更以罕见的坦率揭开了过去一年 Meta 内部在 AI 战略转型期间发生的剧烈…",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "voteup_count": 44,
+        "image_url": "https://picx.zhimg.com/v2-169b1cb4e8e5a55f3e9c52b0c2e3d860.jpg?source=7e7ef6e2&needBackground=1",
+        "voting": 0,
+        "excerpt": "近日，图灵奖得主、深度学习三巨头之一的杨立昆（Yann LeCun）在巴黎的一家米其林餐厅内，首次面对《金融时报》谈及自己离开 Meta 背后的内幕。 这位曾一手建立起 Meta AI 帝国的元老级人物，如今身份已变更为初创公司 AMI Labs（Advanced Machine Intelligence Labs）的执行董事长。 在三个多小时的独家专访中，杨立昆不仅确认了外界关于他离职的种种猜测，更以罕见的坦率揭开了过去一年 Meta 内部在 AI 战略转型期间发生的剧烈…",
+        "content": "<p data-pid=\"X2WCt9MV\">近日，图灵奖得主、深度学习三巨头之一的杨立昆（Yann LeCun）在巴黎的一家米其林餐厅内，首次面对《金融时报》谈及自己离开 Meta 背后的内幕。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7JcTLa9t\">这位曾一手建立起 Meta AI 帝国的元老级人物，如今身份已变更为初创公司 AMI Labs（Advanced Machine Intelligence Labs）的执行董事长。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"X7KTJCOP\">在三个多小时的独家专访中，杨立昆不仅确认了外界关于他离职的种种猜测，更以罕见的坦率揭开了过去一年 Meta 内部在 AI 战略转型期间发生的剧烈动荡——从 Llama 4 模型涉嫌“刷榜”的诚信危机，到公司豪掷百亿引入 29 岁新高管引发的权力更迭，直至最后因技术信仰不同而彻底分道扬镳。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b9c161321bc69e670c13934a019ccc63_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-b9c161321bc69e670c13934a019ccc63\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-b9c161321bc69e670c13934a019ccc63_r.jpg\"/><figcaption>（来源：Financial Times）</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YJa93k3W\">这场分裂的伏笔，最早可以追溯到 2025 年 4 月 Meta 发布的 Llama 4 系列模型。当时，Meta 推出了一款代号为“Maverick”的模型版本，该模型在行业内最具权威的 Chatbot Arena（聊天机器人竞技场）排行榜上一鸣惊人，以 1,417 分的成绩高居第二，一度压倒了当时的行业标杆 GPT-4o。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a0f21d1d303e84421f0a832338c0562e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"921\" data-original-token=\"v2-a0f21d1d303e84421f0a832338c0562e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-a0f21d1d303e84421f0a832338c0562e_r.jpg\"/><figcaption>（来源：X）</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"luP85thd\">对于一直致力于通过开源重夺 AI 话语权的 Meta 来说，这本应是一场胜利。然而，开源社区的独立研究者们很快发现了异常。在 Reddit 论坛上，大量技术分析指出，Meta 提交给榜单测试的并非公开发布的通用版本，而是一个经过特殊微调的“针对对话场景优化的实验性版本”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HDt4J2pg\">据分析，这个“特供版”模型被专门训练以生成冗长的回答和频繁使用表情符号，这种风格在当时的评分算法中极易获得高分。当 Chatbot Arena 平台方引入“风格控制”机制，剥离了格式带来的红利后，Llama 4 Maverick 的真实排名瞬间从第二跌至第五。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"O2sMcfZQ\">在这次采访中，杨立昆不再为前东家遮掩，他直言不讳地承认 Llama 4 的测试结果“确实被修饰了一点”。他透露，团队当时确实采取了用不同模型应对不同测试的策略，以博取更好的账面成绩。他表示，作为科学家，他的职业操守无法允许自己继续为这种行为背书。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LCkI4QXz\">如果说“刷榜”事件动摇了杨立昆对 Meta 价值观的信任，那么随后的高层人事巨变则直接导致了他在公司内部位置的边缘化。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"J7wcn3np\">2025 年 6 月，面对 Llama 4 市场反馈平平以及 OpenAI 持续领先的压力，Meta 首席执行官扎克伯格做出了一项令业界咋舌的决定。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_kDuMnVY\">他宣布斥资约 143 亿美元收购数据标注巨头 Scale AI 49% 的股份——目标直指 Scale AI 的创始人、当时年仅 28 岁的 Alexandr Wang。在管理层看来，通过海量数据堆叠和算力扩张，暴力破解通往通用人工智能（AGI）的道路是唯一可行的商业逻辑。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-522bbf2c54dcbcc0e63c3e58624d1c05_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"757\" data-rawheight=\"549\" data-original-token=\"v2-522bbf2c54dcbcc0e63c3e58624d1c05\" class=\"origin_image zh-lightbox-thumb\" width=\"757\" data-original=\"https://pic2.zhimg.com/v2-522bbf2c54dcbcc0e63c3e58624d1c05_r.jpg\"/><figcaption>（来源：Startups）</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ce5UA9bt\">作为交易的一部分，Alexandr Wang 空降 Meta，出任公司历史上首位“首席 AI 官”（Chief AI Officer, CAIO），并全面接管了包括 FAIR 在内的所有 AI 研究与产品部门。随后，Meta 成立了新的“超级智能实验室”（Meta Superintelligence Labs, MSL），将此前分散的研究力量统一收归 Wang 的麾下。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dwOEdmdw\">这一调整意味着，65 岁的杨立昆需要向比自己年轻 37 岁、且缺乏深厚科研背景的 Wang 汇报工作。尽管杨立昆在采访中试图表现得对此并不介意，称自己习惯了与年轻人共事，并提到 Facebook 早期工程师平均年龄仅为 27 岁，但言语间仍流露出对这种外行指挥内行模式的不满。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SpuWmf_a\">杨立昆认为尽管 Wang 学得快，也清楚自己不专业的领域……但他缺乏研究经验，不懂如何开展研究、如何操作。也不明白什么会吸引研究者或者什么让他们感到排斥。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5R7viyb_\">此外，他强调指出，当年的年轻工程师并不会指挥他如何做研究，“你不能指挥一个研究员做什么，尤其不能指挥像我这样的研究员。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NYnfKdsP\">这种管理摩擦，很快演变为更为深刻的技术路线之争。Wang 上任后，迅速将 Meta 的 AI 战略锁定在“大语言模型（LLM）驱动的超级智能”这一单一路径上。扎克伯格随即发布内部备忘录，提出了“为每个人构建个人超级智能”的激进目标，要求全公司资源向 LLM 倾斜。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"U4y3n8yA\">然而，这与杨立昆的学术信仰背道而驰。作为卷积神经网络的发明者，杨立昆一直对目前主流的 LLM 技术路径持鲜明的怀疑态度。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"L3BKdNSo\">此前，他多次在公开场合及内部会议中指出，大语言模型本质上只是“自回归的预测机”，它们通过概率预测下一个单词，却缺乏对物理世界运作规律的真正理解，不具备因果推理能力和持久记忆，因此无论参数规模如何扩大，都无法通向真正的超级智能。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"M9WoVAET\">他将这一路径比作“通向超级智能路上的死胡同”，并讥讽目前的 AI 系统“甚至没有猫聪明”。他主张“世界模型”，通过 V-JEPA（联合嵌入预测架构）让 AI 像人类一样通过观察视频和环境来学习物理常识，并进行预测和规划。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fd6dab54cafd2c26457fff4de15c9279_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"607\" data-original-token=\"v2-fd6dab54cafd2c26457fff4de15c9279\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-fd6dab54cafd2c26457fff4de15c9279_r.jpg\"/><figcaption>（来源：Meta）</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Q63ASuzA\">据知情人士透露，在一次关于 MSL 未来规划的高层会议上，这种理念分歧爆发了激烈的正面冲突。当杨立昆试图阐述长期基础研究的重要性，并警告过度依赖 LLM 的风险时，Alexandr Wang 粗鲁地打断了他，并抛出了一句：“我们是在开发超级智能，不是在辩论哲学。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4PRFggbt\">这句话不仅让会议陷入尴尬的沉默，也标志着以杨立昆为代表的“学术派”与以 Wang 为代表的“工程落地派”决裂。杨立昆在采访中表示，Meta 的管理层和新团队已经完全“被大语言模型洗脑了”（LLM-pilled），他们听不进任何关于技术局限性的警告，只顾着在基准测试分数上追赶竞争对手。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0Yacx9eU\">这种战略转向迅速传导至执行层面，导致了 Meta 内部科研文化的剧变。在 Wang 的主导下，曾被视为全球 AI 研究圣地的 FAIR 实验室失去了往日的学术自由。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jXYYft5i\">“我们有很多新想法和非常酷的东西，他们应该去实现。但他们只是追求那些本质上安全且经过验证的事情，”他说。“可这样做就会落后。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZJ756MLk\">2025 年 10 月，MSL 实施了一项严苛的新政策：FAIR 研究人员在发表任何学术论文之前，必须先将草稿提交给 Wang 直接领导的核心产品部门 TBD Lab 进行审查。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xeTHyYRO\">只有被认定具有“重大商业价值”的研究才被允许发表，且研究人员必须先协助将成果转化到 Meta 的产品中，才能回归日常研究。对于习惯了开放交流、视发表论文为核心价值的科学家们来说，这无异于一种限制。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"D8uLVojm\">随之而来的是大规模的人才流失和裁员。2025 年 10 月，Meta 启动了一轮针对 AI 部门的裁员，约 600 名员工被解雇，受影响最严重的正是 FAIR 及相关基础设施团队，而 Wang 亲自组建的 TBD Lab 则毫发无损并继续扩招。这种明显的“清洗”信号也加速了团队顶尖人才的逃离。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qQABvocQ\">杨立昆形容，他在 Meta 的最后日子里感到“政治上越来越困难”。尽管扎克伯格个人仍对他的世界模型研究表示支持，但在公司整体急功近利的氛围下，这种支持显得苍白无力。杨立昆意识到，继续留在 Meta 意味着要不断在一个不再相信他判断的体系中进行无谓的消耗。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"y27hu0LZ\">他坦言：“如果我为了保住职位而改变我的科学观点，那我就没有正直可言了。我没有错，我不会因为某个家伙觉得我错了就改变观点。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6hwTVXTP\">最终，这位 65 岁的科学家选择了出走。在巴黎的新起点，他创办了 AMI Labs。杨立昆表示，新机构将致力于“增加这个世界的智能”，继续探索那些在科技巨头商业化竞争中被搁置的科学路径。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YlN5YKld\">AMI Labs 预计首轮融资 5 亿欧元，估值已高达 30 亿欧元。值得注意的是，杨立昆并未担任 CEO，而是出任执行主席，将管理运营交给了法国 AI 创业老兵 Alex LeBrun，自己则回归到最纯粹的科学家角色。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-735feffd0a281f1e89d2a168886528af_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"720\" data-original-token=\"v2-735feffd0a281f1e89d2a168886528af\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic2.zhimg.com/v2-735feffd0a281f1e89d2a168886528af_r.jpg\"/><figcaption>图｜Alex Lebrun, 同时担任法国 AI 医疗独角兽 Nabla 的 CEO（来源：Linkedin）</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NPkL_Omi\">“我是科学家，是个有远见的人。我能激励人们去做有趣的事情。我很擅长猜测哪种技术能用，什么样的技术不行。但我不能当 CEO，”杨立昆说，“因为我太没条理而且年纪大了。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3p1LdKqG\">参考链接：</p><p data-pid=\"Sx3ctfOY\">1.<a href=\"https://link.zhihu.com/?target=https%3A//www.ft.com/content/e3c4c2f6-4ea7-4adf-b945-e58495f836c2\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">ft.com/content/e3c4c2f6</span><span class=\"invisible\">-4ea7-4adf-b945-e58495f836c2</span><span class=\"ellipsis\"></span></a></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Yw2PzY17\">运营/排版：何晨龙</p>",
+        "navigator_vote": false,
+        "author": {
+          "is_org": true,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "科技话题下的优秀答主",
+              "topic_names": [
+                "科技"
+              ],
+              "topic_ids": [
+                2143
+              ]
+            }
+          ],
+          "followers_count": 300427,
+          "is_followed": false,
+          "id": "b5379f1a6ed18db1d60c50fdf71b469b",
+          "user_type": "organization",
+          "url_token": "deeptech-shen-ke-ji",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-5ed8ecc713f71e8ba838ec3791406fd8_l.jpg?source=b6762063",
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/b5379f1a6ed18db1d60c50fdf71b469b",
+          "name": "DeepTech深科技",
+          "headline": "科学、技术、产业。",
+          "gender": -1
+        },
+        "created": 1767602558
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991549926988083799}",
+      "attached_info": "CpMJCNaOyNupq+CmtgEQBxoJMjY4NTk2MTQzIP7y7coGKCwwAEBYSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9SjAKG1RTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTUxIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBiIDUzYzM1YTZmYTk0MTYyNWFmNzQ0MTdjYjQ2NDAwODJichMxOTkxNTQ5OTI2OTg4MDgzNzk5ggFfaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi0xNjliMWNiNGU4ZTVhNTVmM2U5YzUyYjBjMmUzZDg2MC5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASBiNTM3OWYxYTZlZDE4ZGIxZDYwYzUwZmRmNzFiNDY5YvIBCggMEgZOb3JtYWzyASgIChIkOGExYzZjNTktYmMxOC00MzUyLTk3ZmUtZmM1MzJmY2ZlNjQy8gEGCAsSAjE1ggIAiALYt8ebuTOSAiBiNTM3OWYxYTZlZDE4ZGIxZDYwYzUwZmRmNzFiNDY5YpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCE0VtYlNpbUlzb2xhdGlvblJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCBfoCC05PUk1BTF9GTE9XigMgZDVjNTFlZTgxYzJiNGZlODg5OWE5YzkyMDBkMTI5ZWWaAw0KAnYyEAAaBW90aGVyqAP1FNgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gO5AhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEELgIGOAEIiN2Mi1iOWMxNjEzMjFiYzY5ZTY3MGMxMzkzNGEwMTljY2M2MzotCAIQuAgYmQciI3YyLWEwZjIxZDFkMzAzZTg0NDIxZjBhODMyMzM4YzA1NjJlOi0IAxD1BRilBCIjdjItNTIyYmJmMmM1NGRjYmNjMGU2M2MzZTU4NjI0ZDFjMDU6LQgCELgIGN8EIiN2Mi1mZDZkYWI1NGNhZmQyYzI2NDU3ZmZmNGRlMTVjOTI3OTotCAMQ0AUY0AUiI3YyLTczNWZlZmZkMGEyODFmMWU4OWQyYTE2ODg4NjUyOGFmOi0IBBDzCRjJBSIjdjItMTY5YjFjYjRlOGU1YTU1ZjNlOWM1MmIwYzJlM2Q4NjCABACIBACSBAZOb3JtYWyaBAE1oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIBzgoo/gQUAAAAAAAAAAIkFsMVuFbR5sj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGWagGAZICLgoJMjY4NTk2MTQzEhMxOTkxNTQ5OTI2OTg4MDgzNzk5GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "89_1767705271.65",
+      "type": "feed",
+      "offset": 89,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705271,
+      "updated_time": 1767705271,
+      "target": {
+        "author": {
+          "followers_count": 13069,
+          "is_followed": false,
+          "id": "dfd18f312d5211bc280bddc5188a8ff2",
+          "url": "https://api.zhihu.com/people/dfd18f312d5211bc280bddc5188a8ff2",
+          "headline": "公众号「韦海生」，一个比较正经的读书号。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-cc25c65d30efc8cad9823e870ad35fda_l.jpg?source=b6762063",
+          "is_org": false,
+          "user_type": "people",
+          "url_token": "weihaisheng",
+          "name": "韦海生",
+          "gender": 1,
+          "is_following": false
+        },
+        "voteup_count": 5,
+        "thanks_count": 1,
+        "comment_count": 2,
+        "is_copyable": false,
+        "question": {
+          "url": "https://api.zhihu.com/questions/598887649",
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "598887649",
+          "title": "有没有一本讲透中国人情世故，可以拿来学习的书？",
+          "answer_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            53,
+            113,
+            3946,
+            8977,
+            492349
+          ],
+          "type": "question",
+          "follower_count": 0,
+          "is_following": false,
+          "author": {
+            "gender": -1,
+            "followers_count": 6,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/def01e65e4943a89fe697b0c451782fd",
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-ee782c63c37bcb80e2c961c5c3c5fc53_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "id": "def01e65e4943a89fe697b0c451782fd",
+            "url_token": "gui-dao-yi-kai-15",
+            "name": "蒙古骑兵"
+          },
+          "created": 1683119235,
+          "question_type": "normal"
+        },
+        "excerpt": "有一个朋友在体制内工作，他不太懂职场上的人情世故，即使工作很多年了也还是刚毕业时的书生气。正因为做不到左右逢源，导致他很难得到升职加薪。 聊到这个话题时，他说自己不是当官的料，早知道当初考博做学问就好了。我跟他说，有人的地方就有江湖，即使在一撮亲戚当中，你不懂人情世故，也是不受欢迎的那一个。 他说，我看你天天推荐书，你就给我找一本书吧，我想改一改，能改多少就多少。 我给他推荐的是洪应明的《菜根谭》…",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "excerpt_new": "有一个朋友在体制内工作，他不太懂职场上的人情世故，即使工作很多年了也还是刚毕业时的书生气。正因为做不到左右逢源，导致他很难得到升职加薪。 聊到这个话题时，他说自己不是当官的料，早知道当初考博做学问就好了。我跟他说，有人的地方就有江湖，即使在一撮亲戚当中，你不懂人情世故，也是不受欢迎的那一个。 他说，我看你天天推荐书，你就给我找一本书吧，我想改一改，能改多少就多少。 我给他推荐的是洪应明的《菜根谭》…",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "favorite_count": 18,
+        "id": "1990084961185850713",
+        "content": "<p data-pid=\"mXCmkDvh\">有一个朋友在体制内工作，他不太懂职场上的人情世故，即使工作很多年了也还是刚毕业时的书生气。正因为做不到左右逢源，导致他很难得到升职加薪。</p><p data-pid=\"CBLUxI7T\">聊到这个话题时，他说自己不是当官的料，早知道当初考博做学问就好了。我跟他说，有人的地方就有江湖，即使在一撮亲戚当中，你不懂人情世故，也是不受欢迎的那一个。</p><p data-pid=\"bUuySeRn\">他说，我看你天天推荐书，你就给我找一本书吧，我想改一改，能改多少就多少。<b>我给他推荐的是洪应明的《菜根谭》</b>，还告诉他，你死磕这本书就够了，这本才适合中国人读。</p><p data-pid=\"WYpZDgJo\">关于作者洪应明这个人，我没有去查他的详细资料，只是大概知道他是一个看透了官场热闹，最后躲到山里去生活的隐士。</p><p data-pid=\"MWVjrhhQ\">而他写的《菜根谭》，就是自己一辈子对人、对事、对世道的琢磨，都写成了简短的话，一条一条的，就像写微博一样，<b>可是讲的全是做人做事的道理</b>。</p><p data-pid=\"luUPaUBc\">你不要看到这本书是古人写的，就以为里面都是难懂的古文，其实读起来是比较好懂的。比如它讲到怎么管好自己，怎么和别人打交道，怎么看待得失，怎么在热闹里保持清净等。</p><p data-pid=\"YbM9oRdx\">也就是说，这本书把儒家、道家、佛家一些有用的思想，加上作者自己吃过的亏、悟出来的道理，混杂在一起，就像一锅「处世鸡汤」。不过这这鸡汤并不油腻，就像书名「菜根」一样，嚼着有点硬，但能让人懂得人情世故。</p><p data-pid=\"KdsPu6Xt\">比如书中有这样一句话：「<b>待小人不难于严，而难于不恶。</b>」它的意思是，对待那些品行不端的小人，你对他严厉、跟他划清界限不难，难的是你内心不憎恨他们。</p><p data-pid=\"qx634QVv\">我以前遇到那种爱占便宜、说话阴阳怪气的人，心里总是憋着一肚子火，脸上虽然尽量保持平静，但是心里早就骂开了，这种情绪让我活得累，在处理事情时也容易情绪化。</p><p data-pid=\"LTAGg86e\">我就是读了这句话我才想通的，于是就开始在生活中磨炼这一点，努力把这种对小人的怨气，从心里慢慢化解掉，<b>我现在对待小人坏人，心里已经没有怨气了</b>，还是像平常人一样去相处，真的少惹了很多麻烦。</p><p data-pid=\"OxzJJh6x\">当然了，这句话不是让你变成烂好人，或者心里明明不喜欢人家，却装出嬉皮笑脸的样子，而是不要让别人的不好，变成你自己心里的毒——你不放在心里，不起分别心就好了，对你也没有什么损失。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5f6b9ca1ce8a16d032e496ea2a930f5c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"708\" data-rawheight=\"273\" data-original-token=\"v2-46d38146544a2a8f7c8f48b0dc4a471a\" class=\"origin_image zh-lightbox-thumb\" width=\"708\" data-original=\"https://pic3.zhimg.com/v2-5f6b9ca1ce8a16d032e496ea2a930f5c_r.jpg\"/></figure><p data-pid=\"eat0_1TZ\">你读懂了这一点，就试着去调整自己，以后再遇到讨厌的人，可以这样提醒自己：「别动气，他怎么做是他的事，我不能跟着陷进去，也不要让他知道我讨厌他……」慢慢地，我就发现自己的心态松了不少，该拒绝时拒绝，该合作时合作，你就没那么大的情绪负担了。</p><p data-pid=\"FGkCHPz7\">书中类似的道理太多了，有360条，你一天琢磨一条，一年之后你一定脱胎换骨。</p><p data-pid=\"yjGPZuZ_\">因此，我建议不懂人情世故的朋友，死磕这本书就好了。因为《菜根谭》讲的「人情世故」，根本不是教你怎么溜须拍马、搞关系，它恰恰是反着来的。</p><p data-pid=\"lWAdbWSB\">它教你的是，你先把自己立稳了，书里就反复说，你心地要干净，做事要踏实，脾气要收敛。比如它讲「<b>处世让一步为高，退步即进步的张本</b>」，不是让你当受气包，而是说，争一时口舌之快没意思，你让一步，空间大了，后面的路反而好走。</p><p data-pid=\"QUn1B9Ro\">它又说「<b>念头宽厚的，如春风煦育，万物遭之而生</b>」，如果你心里宽厚一点，待人的感觉就像春风，大家自然就愿意靠近你，你要是心里尖刻，就算脸上在笑，别人也觉得冷飕飕的。</p><p data-pid=\"1LHtZFt0\">你可以这样理解，这本书把复杂的「人情」问题，归结到最根本的「修自己」上面。<b>你把自己炼明白了，情绪稳定了，明白是非了，你知道什么该争、什么该放，那些让你头疼的人际关系，自然就理顺了</b>——这，不就是懂人情世故了吗？</p><p data-pid=\"RQDU7PlS\">换句话说，别人怎么对你，很多时候是你自己散发出的气场引来的，不是别人无缘无故为难你。这本书教你的是，把你从抱怨「别人怎么这样」，拉回到反思「我该怎么调」上面来。</p><p data-pid=\"pmJA5oCM\">说白了，我让你死磕这本书，死磕的不是琢磨怎么搞定别人，而是怎么安顿好自己。当你把自己摆正了，你走正道了，你没有心眼，你没有表现出厌恶别人的表情了，别人就会以同样的态度去回应你。</p><p data-pid=\"vnT5NFwU\">说点简单的，<b>你每天都是微笑着面对别人，别人也不会对你有多大的恶意，是不是？</b></p><p data-pid=\"SwUk1PUj\">当你因为人际关系感到困惑、委屈或者愤怒的时候，我真心建议你把《菜根谭》拿出来翻几条看看，它就像一个清醒的长辈在旁边提醒你：缓一缓，别急，先看看自己做得对不对。</p><p data-pid=\"ot7xmU0r\">当然，这本书不像现在国外那些满是理论的情商类书籍一样，跟你讲那么多理论，而是直接给你答案，而是还很懂中国人的人情世故，不管男女老少都值得认真读一读。</p>",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1990084961185850713",
+        "created_time": 1767253228,
+        "updated_time": 1767253228,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 406,
+        "answer_type": "normal",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990084961185850713}",
+      "attached_info": "CqYGCNaOyNupq+CmtgEQBBoJNzYzNTc3ODk1IOzJ2MoGKAUwAkBZSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDk1MzY2NjI4YiA1M2MzNWE2ZmE5NDE2MjVhZjc0NDE3Y2I0NjQwMDgyYnITMTk5MDA4NDk2MTE4NTg1MDcxM4oBCTU5ODg4NzY0OaoBCXJlY29tbWVuZMIBIGRmZDE4ZjMxMmQ1MjExYmMyODBiZGRjNTE4OGE4ZmYy8gEKCAwSBk5vcm1hbPIBKAgKEiRiZDVmMWQwYS0wNjhlLTQyMjQtODZlYS0xMDc3MmFiYmIyMGXyAQYICxICMTWCAgCIAtm3x5u5M5ICIGRmZDE4ZjMxMmQ1MjExYmMyODBiZGRjNTE4OGE4ZmYymgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIE+gILTk9STUFMX0ZMT1eKAyBkNWM1MWVlODFjMmI0ZmU4ODk5YTljOTIwMGQxMjllZZoDDQoCdjIQABoFb3RoZXKoA5YD2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQxAUYkQIiI3YyLTQ2ZDM4MTQ2NTQ0YTJhOGY3YzhmNDhiMGRjNGE0NzFhgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgweqJP4EFAAAAAAAAAACJBbDFbhW0ebI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBlqoBgCSAi4KCTc2MzU3Nzg5NRITMTk5MDA4NDk2MTE4NTg1MDcxMxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=89&desktop=true&end_offset=90&page_number=16&session_token=53c35a6fa941625af74417cb4640082b",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=89&desktop=true&end_offset=90&page_number=16&session_token=53c35a6fa941625af74417cb4640082b",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

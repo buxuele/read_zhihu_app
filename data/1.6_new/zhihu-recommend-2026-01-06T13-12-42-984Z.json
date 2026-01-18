@@ -1,0 +1,599 @@
+{
+  "data": [
+    {
+      "id": "42_1767705223.181",
+      "type": "feed",
+      "offset": 42,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705223,
+      "updated_time": 1767705223,
+      "target": {
+        "column": {
+          "id": "c_1688226351407210496",
+          "author": {
+            "is_followed": false,
+            "user_type": "people",
+            "name": "匿名用户",
+            "url_token": "",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "id": "",
+            "url": "",
+            "is_following": false
+          },
+          "imageUrl": "https://pic1.zhimg.com/v2-d67ce58e7f59750428eb5e0200d2c4c7_720w.jpg?source=d16d100b",
+          "intro": "探索前沿的AIGC技术，工具和资讯",
+          "is_following": false,
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1688226351407210496",
+          "title": "AIGC探索",
+          "comment_permission": "private",
+          "updated": 1740145252
+        },
+        "type": "article",
+        "title": "耗时 8 天，我用 Claude Code 开发了 AI 漫剧 APP，并开源了。",
+        "voting": 0,
+        "comment_count": 1,
+        "preview_type": "default",
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-5459e9c63a55674616d2d533030885d9.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-56004c7a183c6b0d4f8a021ce09ceb95_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7ce54b75eadadc4f7b983fd9872df6ac_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-74549966428610f9048175902c201aa9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-aefa4fd779b3c241fe98eae9975c35dd_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e4ec81cfc18d17b810dcf3e4b170e95c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-4a942a31e562252cd00825ecafb70518_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-aec4b184232b6dd125dd9409f4c1fe20_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e8a17fca29ceb4b2d85d930c93cd9b58_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3275df357e316a24ef90aa2eddb9ba02_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ba6a1c29cd9bcc22e66d37e660ccfe5e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ba91afcbcc09f913462d38605c1e0288_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-716bce822b775ec9a7916e8b5df929c2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0b9a2148d0059de4bce90a6da39f83fd_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-07b41793e8ba1b5d610faa2f6acfa297_720w.jpg?source=b6762063"
+        ],
+        "url": "https://api.zhihu.com/articles/1991659846852956746",
+        "article_type": "normal",
+        "excerpt_new": "这是苍何的第 468 篇原创！ 大家好，我是热爱编程的苍何。 去年底的时候，我写过 2 篇 AI 漫剧的文章，感兴趣的还挺多的。   也认识了非常多做 AI 漫剧的朋友，我们武汉 AI 圈也举办了 AI 漫剧沙龙，来了超级多的感兴趣的圈友。   听了很多的干货分享，当时脑海中只想快速上手来做漫剧。 但我看了很多的平台目前还只能在电脑 web 上操作，手机随时创作我还没找到什么好的 APP。 当时就有一股冲动，要不自己来尝试搞一个？当我和老婆…",
+        "allow_segment_interaction": true,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "preview_text": "",
+        "comment_permission": "all",
+        "is_navigator": false,
+        "excerpt": "这是苍何的第 468 篇原创！ 大家好，我是热爱编程的苍何。 去年底的时候，我写过 2 篇 AI 漫剧的文章，感兴趣的还挺多的。   也认识了非常多做 AI 漫剧的朋友，我们武汉 AI 圈也举办了 AI 漫剧沙龙，来了超级多的感兴趣的圈友。   听了很多的干货分享，当时脑海中只想快速上手来做漫剧。 但我看了很多的平台目前还只能在电脑 web 上操作，手机随时创作我还没找到什么好的 APP。 当时就有一股冲动，要不自己来尝试搞一个？当我和老婆…",
+        "author": {
+          "is_followed": false,
+          "id": "e208b67f429582d071d584b12d90cfe0",
+          "url": "https://api.zhihu.com/people/e208b67f429582d071d584b12d90cfe0",
+          "user_type": "people",
+          "url_token": "canghecode",
+          "name": "苍何",
+          "gender": 1,
+          "followers_count": 12413,
+          "headline": "程序员/技术管理/AI 探索者，公众号《苍何》主理人",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-3bf256e64c99b1921efb1c559ba991d5_l.jpg?source=b6762063",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "支付宝（中国）网络技术有限公司 员工"
+            }
+          ],
+          "is_following": false
+        },
+        "created": 1767628787,
+        "favorite_count": 34,
+        "content": "<p data-pid=\"gDpViVsV\">这是苍何的第 468 篇原创！</p><p data-pid=\"iBtySvXM\">大家好，我是热爱编程的苍何。</p><p data-pid=\"a-nXKtQ0\">去年底的时候，我写过 2 篇 AI 漫剧的文章，感兴趣的还挺多的。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5979b9ff28a0dbde51a7234d548df6f9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"386\" data-original-token=\"v2-f3f230bf1679c2fceea52c9912fb13b3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-5979b9ff28a0dbde51a7234d548df6f9_r.jpg\"/></figure><p data-pid=\"abSTGBIP\">也认识了非常多做 AI 漫剧的朋友，我们武汉 AI 圈也举办了 AI 漫剧沙龙，来了超级多的感兴趣的圈友。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-5a8e7fd5626fccf87a267b90bd8d42f7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"810\" data-original-token=\"v2-56004c7a183c6b0d4f8a021ce09ceb95\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-5a8e7fd5626fccf87a267b90bd8d42f7_r.jpg\"/></figure><p data-pid=\"1wD4kySP\">听了很多的干货分享，当时脑海中只想快速上手来做漫剧。</p><p data-pid=\"Sh6IGZBh\">但我看了很多的平台目前还只能在电脑 web 上操作，手机随时创作我还没找到什么好的 APP。</p><p data-pid=\"rb13BKZk\">当时就有一股冲动，要不自己来尝试搞一个？当我和老婆说这个想法的时候，她说我一定疯了。</p><p data-pid=\"YCbaY6me\">为了证明我不是疯子，我还是咬牙决定尝试，毕竟不留遗憾才是我的人生主旋律。</p><p data-pid=\"UhewnQTW\">耗时 8 天，今天终于可以拿出来和大家分享了，<b>一个可以在手机端创建漫剧的 app，我给它起名叫做漫导</b>，没错就是这么通俗易懂；制作漫剧的导演。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a7653fd6d1e353f4a45151dd54bef7e6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1080\" data-original-token=\"v2-7ce54b75eadadc4f7b983fd9872df6ac\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-a7653fd6d1e353f4a45151dd54bef7e6_r.jpg\"/></figure><p data-pid=\"x0rPnMdZ\">它能根据灵感一句话创建剧本、角色、场景，然后自动生成分镜图片和分镜视频，最后根据分镜视频来合成一个完整的漫剧视频。</p><p data-pid=\"hnw_SqYk\">我录了个视频给大家做个展示：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-247580ae0c5bd80940c0c3206a4ed88b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"491\" data-rawheight=\"1063\" data-original-token=\"v2-704b552d404bf2e6bbda8824c3752d88\" class=\"origin_image zh-lightbox-thumb\" width=\"491\" data-original=\"https://pic4.zhimg.com/v2-247580ae0c5bd80940c0c3206a4ed88b_r.jpg\"/></figure><p data-pid=\"KonqGSW_\">8 天时间出来一个 AI 漫剧 APP 的 MVP 版本（这其中还不包括元旦放假 3 天），我自己已经相当满意了，人物一致性已经完成的很高了👍</p><p data-pid=\"6mxIUfRZ\">最后说一下声音为啥不是中文，抱歉还没来得及约束😄。忍不住想分享了。</p><p data-pid=\"LbHut-CK\">而且你可能想象不到的是，整个 APP 的开发，我用的是最近很火的智谱的 GLM 4.7 模型。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2cf28b9c60526a1b07c8006eee27d935_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1037\" data-original-token=\"v2-74549966428610f9048175902c201aa9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-2cf28b9c60526a1b07c8006eee27d935_r.jpg\"/></figure><p data-pid=\"j0Yg90Cb\">你看我的 token 消耗量，这里面包含了两部分，一部分是开发 app 使用的量，一部分是使用 app 规划剧本使用的量。说实话没想到这么多。</p><p data-pid=\"Pp8rVS7e\">再看看账单。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a7a6db73feb6d364befffc6d9661b61c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"348\" data-original-token=\"v2-76251f51562afd9a8cdecffdf13d356f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-a7a6db73feb6d364befffc6d9661b61c_r.jpg\"/></figure><p data-pid=\"Ks5fDS-t\"><br/>没错 20RMB。哦对了，我还在他们搞活动的时候薅了一杯奶茶。有点大薅特薅的感觉；</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-39e7f9aab10bb129998beee55bad51d9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1439\" data-original-token=\"v2-aefa4fd779b3c241fe98eae9975c35dd\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-39e7f9aab10bb129998beee55bad51d9_r.jpg\"/></figure><p data-pid=\"gbgaIawS\">我已经把这个 AI 漫剧 APP 开源了，后面也希望有更多的开发者参与到我们的共建中来。</p><blockquote data-pid=\"1B13imt4\">开源地址（求 star）：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/freestylefly/director_ai\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/freestylefly</span><span class=\"invisible\">/director_ai</span><span class=\"ellipsis\"></span></a></blockquote><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-40e76e00021269dff042c8dc0d47a910_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"790\" data-original-token=\"v2-e4ec81cfc18d17b810dcf3e4b170e95c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-40e76e00021269dff042c8dc0d47a910_r.jpg\"/></figure><p data-pid=\"17HRGOK6\">这一篇文章呢，我主要是想和你分享一下我的开发历程，也顺带来拷打 GLM 4.7 进行 AI Coding 的能力边界。</p><p data-pid=\"rPIS-r97\">我总结了一下大概的流程是这样子的：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d4a75a9043739be7efe198d32c13c17f_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"852\" data-rawheight=\"480\" data-original-token=\"v2-d4a75a9043739be7efe198d32c13c17f\" data-thumbnail=\"https://picx.zhimg.com/v2-d4a75a9043739be7efe198d32c13c17f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"852\" data-original=\"https://picx.zhimg.com/v2-d4a75a9043739be7efe198d32c13c17f_r.jpg\"/></figure><p data-pid=\"9H8P5iOQ\">其中，我比较关心的是人物一致性解决方案：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c4a57cd95a8b2d4dfb6dd6792160868b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"393\" data-original-token=\"v2-54326ae34498d8936ed8222e52bb1e56\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-c4a57cd95a8b2d4dfb6dd6792160868b_r.jpg\"/></figure><p data-pid=\"wVpNlOIe\">在对应场景的配置默认是给了 7 个，角色是给了 2 个，然后这些我都设置成可配置的了。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-886e434f008cc65d7ae34c665e023a0b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"275\" data-original-token=\"v2-517ef911e9943113e11708097f8603f5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-886e434f008cc65d7ae34c665e023a0b_r.jpg\"/></figure><p data-pid=\"9lTYpZ-z\">下面分享下我的开发历程，可能会显得文章会有些长，建议点赞收藏，转发给需要的朋友👭</p><h2>工具选择</h2><p data-pid=\"Mp_4susI\">这次的任务有点重，工具选择很重要，终端的话就选最近全网又在喷火的 Claude Code，模型用智谱 GLM 4.7。</p><p data-pid=\"ObYqWgSX\">几方面考虑，一个是能力，一个是价格。</p><p data-pid=\"P6Jxmo0D\">能力侧，先来看一张时间取自于 2025 年 12 月 22日的模型榜单图，可以看到和 Claude Opus 4.5 打的有来有回。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-11915b2985143cac7e9c72f26ae1325e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"425\" data-original-token=\"v2-aaec1855493b777ac2c3cb9a7fe40292\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-11915b2985143cac7e9c72f26ae1325e_r.jpg\"/></figure><p data-pid=\"ezAn-0Jx\">再看看最关心的价格，这是 Claude 的：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d907ed681694a7b14d4901a9f81b4f11_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"519\" data-original-token=\"v2-0fa42cc150f37bc2f3ee1ac6fe7a641b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-d907ed681694a7b14d4901a9f81b4f11_r.jpg\"/></figure><p data-pid=\"g5EBGc27\">这个是 GLM Coding 的套餐，不想说啥了，没有对比就没有伤害啊。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e2e32f0c9304eee2eea8fc49e3a543fd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"537\" data-original-token=\"v2-01e7de1be6e32cf27433347e3232a5b5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-e2e32f0c9304eee2eea8fc49e3a543fd_r.jpg\"/></figure><p data-pid=\"S9DcZR17\">虽然我看了非常多网上的测评，但一开始对 GLM 4.7 做漫剧 APP 这件事，本身是抱有怀疑态度的，后面证明，他真的行，而且超出了我的预期。</p><h2>开发历程</h2><p data-pid=\"ovk3irLa\">首先直接编写提示词告知要做什么，这个很重要。</p><div class=\"highlight\"><pre><code class=\"language-text\">提示词：现在帮我编写一个安卓软件，用途是制作AI 漫剧，和用户对话的方式来了解用户想制作什么样子的漫剧，对话大模型使用的是 glm 4.7,相关的接口文档都保存在这个目录下面\ndirector_ai/docs/图像生成API接口文档.md\ndirector_ai/docs/视频处理全集.md\n这里的接口文档是我去网站上下载来了的。</code></pre></div><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-133ad47ab717805c967a3dcec446ff93_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"268\" data-original-token=\"v2-6a40050ccb99ac7c958b5cd37514e891\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-133ad47ab717805c967a3dcec446ff93_r.jpg\"/></figure><p data-pid=\"1apHIykg\">Claude Code 像打了鸡血一样，吭哧吭哧的干货。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e472170ab3b3406ca0de547e72ca82f5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"515\" data-original-token=\"v2-219756a03368b7b0ededbc5185cd7044\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-e472170ab3b3406ca0de547e72ca82f5_r.jpg\"/></figure><p data-pid=\"nfHLbs74\">这里最好给 GLM 4.7 规划下架构，防止跑偏：</p><div class=\"highlight\"><pre><code class=\"language-text\">提示词：\n核心技术栈推荐\n为了最快速度出原型（MVP）且适配安卓：\n\n开发工具 (IDE/Agent): Claude Code (基于 CLI 的全能编程助手)。\n\n前端框架: Flutter (Dart)。\n\n理由： Claude 对 Flutter 代码生成的准确度极高，且 Flutter 开发安卓应用速度快、UI 效果好，能够轻松处理异步网络请求（API 调用）。\n\n核心大脑: GLM-4.7 (通过 API 调用)。\n\n理由： 负责理解用户意图，拆解步骤，输出 JSON 格式的指令。\n\n多模态接口: tu-zi.com (你提供的 Gemini 绘图 + Veo 视频接口)。</code></pre></div><p data-pid=\"nwaVMKRM\">架构设计这里我采用 ReAct 模式 (Reasoning + Acting)：</p><div class=\"highlight\"><pre><code class=\"language-text\">架构设计：ReAct 模式 (Reasoning + Acting)\n为了凸显 GLM-4.7 的规划能力，不能把代码写死（硬编码）。我们需要实现一个简单的 ReAct (Reason-Act) 循环。\n\n流程逻辑：\n\n用户输入: &#34;帮我做一个熊猫吃竹子的视频，要可爱的风格。&#34;\n\nGLM-4.7 (规划层): 思考并输出：&#34;我需要先生成文案，然后生成图片，最后生成视频。&#34; -&gt; 输出第一个工具调用指令。\n\nApp (执行层): 解析指令，调用绘图 API。\n\nApp (反馈层): 将图片 URL 喂回给 GLM-4.7。\n\nGLM-4.7 (规划层): &#34;收到图片，现在调用视频生成接口。&#34;\n\nApp (执行层): 调用 Veo 视频接口。</code></pre></div><p data-pid=\"mCAdXhsf\">小白不用管，就是一蹲乱七八糟的基础搭建，我一路yes 就行。本身我也不懂 App 开发，此时我选择相信 GLM 4.7;</p><p data-pid=\"OLw0fgbU\">接下来解释 Coding 时刻，大概用了十分钟，一个由零到一的 APP 雏形诞生了，这是使用的 token 量。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e410f1a0e2256f772bca3da6c7766766_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"344\" data-original-token=\"v2-e1c99c2bff091db2ba7871d548351d77\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-e410f1a0e2256f772bca3da6c7766766_r.jpg\"/></figure><p data-pid=\"DQddT_BJ\">电脑调试启动那一刻我惊呆了。真的出来了，看看界面，美学也还很不错。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0959b0de553d900cce03d3d488732458_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"1470\" data-original-token=\"v2-4a942a31e562252cd00825ecafb70518\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pica.zhimg.com/v2-0959b0de553d900cce03d3d488732458_r.jpg\"/></figure><p data-pid=\"IFUMHCbJ\">聊天框，正常的 ai 聊天，居然还支持了相机图片上传牛掰，UI 界面简约，正和我心意，还细心的加了了彩色边框，真的是完全可用啊。</p><p data-pid=\"61mIejfR\">还贴心的加上了对话记录：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8bb0034a8120013aa4d17f5d48d9503b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"714\" data-rawheight=\"1470\" data-original-token=\"v2-aec4b184232b6dd125dd9409f4c1fe20\" class=\"origin_image zh-lightbox-thumb\" width=\"714\" data-original=\"https://pic2.zhimg.com/v2-8bb0034a8120013aa4d17f5d48d9503b_r.jpg\"/></figure><p data-pid=\"tlcWZDb3\">666 想的真周到</p><p data-pid=\"JfoQl_ey\">接着试试生成视频的功能怎么样？</p><p data-pid=\"QTZ_z3Rv\">最近喜欢吃草莓蛋糕，那就生成一个“做草莓蛋糕的视频”：</p><div class=\"highlight\"><pre><code class=\"language-text\">prompt： 生成一个小姐姐做草莓蛋糕的视频 </code></pre></div><p data-pid=\"bqZtoKis\">可以看到漫导 APP 先会创建剧本：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-80dd5ecccaebb89ef115a29ddf5fd7a4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"716\" data-rawheight=\"528\" data-original-token=\"v2-3a85cf235545543b50c76b3d7a05c513\" class=\"origin_image zh-lightbox-thumb\" width=\"716\" data-original=\"https://pica.zhimg.com/v2-80dd5ecccaebb89ef115a29ddf5fd7a4_r.jpg\"/></figure><p data-pid=\"t_5udKYq\">很快就生成了剧本：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4d315a42a7d9c1f62468a35a449c504c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"714\" data-rawheight=\"3695\" data-original-token=\"v2-e8a17fca29ceb4b2d85d930c93cd9b58\" class=\"origin_image zh-lightbox-thumb\" width=\"714\" data-original=\"https://pic1.zhimg.com/v2-4d315a42a7d9c1f62468a35a449c504c_r.jpg\"/></figure><p data-pid=\"h_EJXzPX\">接着是生成角色图，能生成人物三视图，我们都知道漫剧最难的就是人物一致性，确定主角的三视图，贯穿整个剧本主角。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ae6b2583e8c37d9ea8976ba0afd11e2e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"722\" data-rawheight=\"778\" data-original-token=\"v2-3275df357e316a24ef90aa2eddb9ba02\" class=\"origin_image zh-lightbox-thumb\" width=\"722\" data-original=\"https://pic3.zhimg.com/v2-ae6b2583e8c37d9ea8976ba0afd11e2e_r.jpg\"/></figure><p data-pid=\"myz7rFvJ\">太细节了还有情感钩子：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3c5387907bcf807619b7c50802086619_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"712\" data-rawheight=\"1056\" data-original-token=\"v2-ba6a1c29cd9bcc22e66d37e660ccfe5e\" class=\"origin_image zh-lightbox-thumb\" width=\"712\" data-original=\"https://pic4.zhimg.com/v2-3c5387907bcf807619b7c50802086619_r.jpg\"/></figure><p data-pid=\"0UhFxUjF\">要是用这个写个霸道总裁爱上我的故事也不错吧，哈哈哈哈。</p><p data-pid=\"gty5nBRk\">接下来看看具体的场景：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7a8b5eacc831a69e74c7fd4c679a15c8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"714\" data-rawheight=\"3695\" data-original-token=\"v2-ba91afcbcc09f913462d38605c1e0288\" class=\"origin_image zh-lightbox-thumb\" width=\"714\" data-original=\"https://pic1.zhimg.com/v2-7a8b5eacc831a69e74c7fd4c679a15c8_r.jpg\"/></figure><p data-pid=\"grSQ35cJ\">展开一个场景看看它是怎么规划的：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-eb7e2b414864dddf23e2260d22e48b90_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"716\" data-rawheight=\"1935\" data-original-token=\"v2-716bce822b775ec9a7916e8b5df929c2\" class=\"origin_image zh-lightbox-thumb\" width=\"716\" data-original=\"https://pic3.zhimg.com/v2-eb7e2b414864dddf23e2260d22e48b90_r.jpg\"/></figure><p data-pid=\"XwiMEkC2\">好的现在确认剧本，回到页面看到直接有任务在执行：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e5f027c894a447eb4c3f85464ae8b240_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"714\" data-rawheight=\"5506\" data-original-token=\"v2-0b9a2148d0059de4bce90a6da39f83fd\" class=\"origin_image zh-lightbox-thumb\" width=\"714\" data-original=\"https://pica.zhimg.com/v2-e5f027c894a447eb4c3f85464ae8b240_r.jpg\"/></figure><p data-pid=\"aCfx3b8j\">看了流程后不得不感叹，真🐔儿把老己当成导演了；</p><p data-pid=\"KV6gqI66\">先生成不同的场景，每个根据有前面主角的三视图和提示词生成的分镜图，再由分镜图和视频提示词生成分镜视频。有点导演味道了。</p><p data-pid=\"EkCG31Qv\">看看具体的场景分镜是怎么规划的：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9bf8d8165aec8800788f8ad61e4e5afa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"712\" data-rawheight=\"1204\" data-original-token=\"v2-07b41793e8ba1b5d610faa2f6acfa297\" class=\"origin_image zh-lightbox-thumb\" width=\"712\" data-original=\"https://pic1.zhimg.com/v2-9bf8d8165aec8800788f8ad61e4e5afa_r.jpg\"/></figure><p data-pid=\"PxAZJTcn\">确实可以，视频提示词部分，规划了主角的言语和镜头方式。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-fdeaa84c56170ac9aa4cc31295c730cd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"132\" data-original-token=\"v2-250839f284b804ed28acf1d5796d035f\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://picx.zhimg.com/v2-fdeaa84c56170ac9aa4cc31295c730cd_r.jpg\"/></figure><p data-pid=\"wdACjgt7\">不用担心失败，还会重试，这个大概就是有些视频 api 会触发公共安全，会失败任务，此时 GLM 4.7 会根据提示弱化提示词，我看了一下日志大概是这样.</p><div class=\"highlight\"><pre><code class=\"language-text\">suspension&gt; [ ] I/flutter ( 3052): ❌ [22:55:29] [场景重试] 场景 1 重试失败: Exception: 视频生成失败: {code: generation_failed, message: check status failed:\n{&#34;name&#34;:&#34;c39408d4117fcedb3a89153dc5006a7904&#34;,&#34;error&#34;:{&#34;code&#34;:3,&#34;message&#34;:&#34;PUBLIC_ERROR_AUDIO_FILTERED&#34;}}}\n</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fYHq94ee\">场景1重试失败的根本原因是 <code>PUBLIC_ERROR_AUDIO_FILTERED</code>（音频被过滤）——平台审核判定你场景1提示词中的<b>语音/音效描述违规</b>，直接拦截了音频生成，进而导致整个视频生成流程终止（和画面描述无关，只卡音频环节）。</p><p data-pid=\"0f9wl2au\">最终确定场景1最终合规版提示词（彻底规避音频过滤）：</p><div class=\"highlight\"><pre><code class=\"language-text\">Anime style, manga art, 2D animation, cel shaded.\nSoft wide shot with gentle slow pan to the right, gradually revealing a tidy kitchen counter and fresh ingredients. A 17-year-old Japanese girl (anime style, Asian features) arranges eggs and flour softly on the counter, turns to the camera with a gentle warm smile, and says &#34;今天要做个草莓蛋糕&#34; in a soft warm tone (female voice, quiet whisper, low volume, calm mild speech).\nWarm soft gentle lighting, peaceful and cozy kitchen atmosphere, no loud sounds, only soft gentle voice.</code></pre></div><p data-pid=\"83HSOxnu\">然后基本上出错后，再让 Claude Code 配合 GLM 4.7，不断调整，最终出来了，我们想要的效果。</p><h2>写在最后</h2><p data-pid=\"xtQd2067\">如果非要较真，漫导 APP 和实际上的 AI 漫剧还有点距离，但可以想象通过多次的迭代和优化，一定可以更好。</p><p data-pid=\"4lAXSsqY\">要知道，这个 APP 实际耗时还没到 5 天啊，这放在以前，就这 MVP 版本，没个把星期开发不出来。</p><p data-pid=\"yzs7r9UA\">同时也验证了一个观点，现在 AI Coding，真的并非 Claude 不可，不给用还死贵，但凡有像 GLM 4.7 这样高性价比的模型取代，谁还用 Claude 啊？</p><p data-pid=\"uTUHaUGB\">这个 APP，我已经开源到 GitHub 了，你可以加上自己的 API，按照教程来玩一玩。</p><p data-pid=\"rOXK4mub\">当然了如果你是开发者或者 AI Coder，欢迎来 PR，把他做好。</p><p data-pid=\"icGlQENg\">好啦，谢谢你看我的文章，如果喜欢可以点赞转发给需要的朋友，我们下一期再见。</p>",
+        "is_labeled": false,
+        "visited_count": 638,
+        "vote_next_step": "vote",
+        "id": "1991659846852956746",
+        "updated": 1767628787,
+        "voteup_count": 8,
+        "navigator_vote": false,
+        "image_url": "https://pic1.zhimg.com/v2-5459e9c63a55674616d2d533030885d9.jpg?source=7e7ef6e2&needBackground=1"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991659846852956746}",
+      "attached_info": "CpMRCOvk25zCsfngjQEQBxoJMjY4NjExNTMxIPO/78oGKAgwAUAqSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9SjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifVoIMTMzNzAxMDliIGE0ZTkwYzU3OTg3MTU2YmE5MWIwMjVhOTMxYWNlMTA4chMxOTkxNjU5ODQ2ODUyOTU2NzQ2ggFfaHR0cHM6Ly9waWMxLnpoaW1nLmNvbS92Mi01NDU5ZTljNjNhNTU2NzQ2MTZkMmQ1MzMwMzA4ODVkOS5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGKARVjXzE2ODgyMjYzNTE0MDcyMTA0OTaqAQlyZWNvbW1lbmTCASBlMjA4YjY3ZjQyOTU4MmQwNzFkNTg0YjEyZDkwY2ZlMPIBCggMEgZOb3JtYWzyASgIChIkYmRlM2I1NjUtMGYxNy00ZWUxLWEyYWUtZTRjODdlZTY3NGRm8gEFCAsSATiCAgCIAoPExJu5M5ICIGUyMDhiNjdmNDI5NTgyZDA3MWQ1ODRiMTJkOTBjZmUwmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCAvoCC05PUk1BTF9GTE9XigMgODcxZWFiZWNkMTA5NGE4MWJhM2U4YjY5MWI5ODZkY2KaAw0KAnYyEAAaBW90aGVyqAP+BNgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gPyChIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELgIGIIDIiN2Mi1mM2YyMzBiZjE2NzljMmZjZWVhNTJjOTkxMmZiMTNiMzotCAMQuAgYqgYiI3YyLTU2MDA0YzdhMTgzYzZiMGQ0ZjhhMDIxY2UwOWNlYjk1Oi0IBBC4CBi4CCIjdjItN2NlNTRiNzVlYWRhZGM0ZjdiOTgzZmQ5ODcyZGY2YWM6LQgDEOsDGKcIIiN2Mi03MDRiNTUyZDQwNGJmMmU2YmJkYTg4MjRjMzc1MmQ4ODotCAIQuAgYjQgiI3YyLTc0NTQ5OTY2NDI4NjEwZjkwNDgxNzU5MDJjMjAxYWE5Oi0IAhC4CBjcAiIjdjItNzYyNTFmNTE1NjJhZmQ5YThjZGVjZmZkZjEzZDM1NmY6LQgCELgIGJ8LIiN2Mi1hZWZhNGZkNzc5YjNjMjQxZmU5OGVhZTk5NzVjMzVkZDotCAIQuAgYlgYiI3YyLWU0ZWM4MWNmYzE4ZDE3YjgxMGRjZjNlNGIxNzBlOTVjOi0IABDUBhjgAyIjdjItZDRhNzVhOTA0MzczOWJlN2VmZTE5OGQzMmMxM2MxN2Y6LQgCELgIGIkDIiN2Mi01NDMyNmFlMzQ0OThkODkzNmVkODIyMmU1MmJiMWU1NjotCAIQuAgYkwIiI3YyLTUxN2VmOTExZTk5NDMxMTNlMTE3MDgwOTdmODYwM2Y1Oi0IAhC4CBipAyIjdjItYWFlYzE4NTU0OTNiNzc3YWMyYzNjYjlhN2ZlNDAyOTI6LQgCELgIGIcEIiN2Mi0wZmE0MmNjMTUwZjM3YmMyZjNlZTFhYzZmZTdhNjQxYjotCAIQuAgYmQQiI3YyLTAxZTdkZTFiZTZlMzJjZjI3NDMzMzQ3ZTMyMzJhNWI1Oi0IAxC4CBiMAiIjdjItNmE0MDA1MGNjYjk5YWM3Yzk1OGI1Y2QzNzUxNGU4OTE6LQgCELgIGIMEIiN2Mi0yMTk3NTZhMDMzNjhiN2IwZWRlZGJjNTE4NWNkNzA0NDotCAIQuAgY2AIiI3YyLWUxYzk5YzJiZmYwOTFkYjJiYTc4NzFkNTQ4MzUxZDc3Oi0IAhDQBRi+CyIjdjItNGE5NDJhMzFlNTYyMjUyY2QwMDgyNWVjYWZiNzA1MTg6LQgDEMoFGL4LIiN2Mi1hZWM0YjE4NDIzMmI2ZGQxMjVkZDk0MDlmNGMxZmUyMDotCAIQzAUYkAQiI3YyLTNhODVjZjIzNTU0NTU0M2I1MGM3NmIzZDdhMDVjNTEzOi0IAhDKBRjvHCIjdjItZThhMTdmY2EyOWNlYjRiMmQ4NWQ5MzBjOTNjZDliNTg6LQgCENIFGIoGIiN2Mi0zMjc1ZGYzNTdlMzE2YTI0ZWY5MGFhMmVkZGI5YmEwMjotCAIQyAUYoAgiI3YyLWJhNmExYzI5Y2Q5YmNjMjJlNjZkMzdlNjYwY2NmZTVlOi0IAhDKBRjvHCIjdjItYmE5MWFmY2JjYzA5ZjkxMzQ2MmQzODYwNWMxZTAyODg6LQgCEMwFGI8PIiN2Mi03MTZiY2U4MjJiNzc1ZWM5YTc5MTZlOGI1ZGY5MjljMjotCAIQygUYgisiI3YyLTBiOWEyMTQ4ZDAwNTlkZTRiY2U5MGE2ZGEzOWY4M2ZkOi0IAhDIBRi0CSIjdjItMDdiNDE3OTNlOGJhMWI1ZDYxMGZhYTJmNmFjZmEyOTc6LQgCENAFGIQBIiN2Mi0yNTA4MzlmMjg0YjgwNGVkMjhhY2YxZDU3OTZkMDM1ZjotCAMQgAoYoQQiI3YyLTU0NTllOWM2M2E1NTY3NDYxNmQyZDUzMzAzMDg4NWQ5gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgW9uEP4EFAAAAAAAAAACJBZsfU07uU7E/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBiqoBgGSAi4KCTI2ODYxMTUzMRITMTk5MTY1OTg0Njg1Mjk1Njc0NhgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "43_1767705223.443",
+      "type": "feed",
+      "offset": 43,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705223,
+      "updated_time": 1767705223,
+      "target": {
+        "thanks_count": 0,
+        "excerpt": "东北人小时候吃的10种野果，小时候暑假的水果就靠它们了，童年的回忆，如今都成为了稀罕物 秋季，是丰收的季节，山坡上，草地边，很多野果也都成熟了，在东北小时候常吃的这几样野果不知道你们还记得不，在过去这些野果漫山遍野都有，可是如今它们都成为了稀罕物，年轻一代的东北人很多都没见过的。 东北人小时候吃的10种野果，童年的回忆，你吃过几种？哪种最好吃？   山丁子   山里红，就是野生的小山楂，山里红果实酸甜可口，能…",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "OlxrAiE2",
+            "text": "秋季，是丰收的季节，山坡上，草地边，很多野果也都成熟了，在东北小时候常吃的这几样野果不知道你们还记得不，在过去这些野果漫山遍野都有，可是如今它们都成为了稀罕物，年轻一代的东北人很多都没见过的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991661675120697931"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "url": "https://api.zhihu.com/people/76d4eff23adcc800a4e18b01568cb2bf",
+          "user_type": "people",
+          "headline": "天天吃外卖吃腻了，跟我学做几道家常菜吧",
+          "gender": 1,
+          "is_following": false,
+          "followers_count": 4856,
+          "is_followed": false,
+          "id": "76d4eff23adcc800a4e18b01568cb2bf",
+          "url_token": "zhu-zhao-hui-32-29",
+          "name": "冬至雪夜",
+          "avatar_url": "https://picx.zhimg.com/50/v2-2fd0b8cb5c0a9e29efadecd9793d2755_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "preview_text": "",
+        "favorite_count": 3,
+        "id": "1989063304753197931",
+        "is_copyable": false,
+        "answer_type": "normal",
+        "type": "answer",
+        "comment_count": 1,
+        "excerpt_new": "东北人小时候吃的10种野果，小时候暑假的水果就靠它们了，童年的回忆，如今都成为了稀罕物 秋季，是丰收的季节，山坡上，草地边，很多野果也都成熟了，在东北小时候常吃的这几样野果不知道你们还记得不，在过去这些野果漫山遍野都有，可是如今它们都成为了稀罕物，年轻一代的东北人很多都没见过的。 东北人小时候吃的10种野果，童年的回忆，你吃过几种？哪种最好吃？   山丁子   山里红，就是野生的小山楂，山里红果实酸甜可口，能…",
+        "preview_type": "default",
+        "content": "<p data-pid=\"wit0JZBK\">东北人小时候吃的10种野果，小时候暑假的水果就靠它们了，童年的回忆，如今都成为了稀罕物</p><p data-pid=\"OlxrAiE2\">秋季，是丰收的季节，山坡上，草地边，很多野果也都成熟了，在东北小时候常吃的这几样野果不知道你们还记得不，在过去这些野果漫山遍野都有，可是如今它们都成为了稀罕物，年轻一代的东北人很多都没见过的。</p><p data-pid=\"UyGF_4Vg\">东北人小时候吃的10种野果，童年的回忆，你吃过几种？哪种最好吃？</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-27ea36ee57ce592c5f7f301b507a07a4_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1500\" data-original-token=\"v2-ae4b8b7e5095dc83ac2aa999457c1a2e\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pica.zhimg.com/v2-27ea36ee57ce592c5f7f301b507a07a4_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"5f2oY-4b\"><b>山丁子</b></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-64d99501beee69c0872a59c803dd6d21_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1500\" data-original-token=\"v2-09eacb041a53fd1ff5130f15795247c1\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://picx.zhimg.com/v2-64d99501beee69c0872a59c803dd6d21_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"v71Y-LIR\"><b>山里红，就是野生的小山楂，</b>山里红果实酸甜可口，能生津止渴，亦可入药，有消食化积、活血散瘀的功效。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e84ccaf925a1e7273144964f798403ab_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1500\" data-original-token=\"v2-5668f9beba4a96241112ecd6a5a8faf4\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pic2.zhimg.com/v2-e84ccaf925a1e7273144964f798403ab_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"81jo9lsD\"><b>山葡萄、野葡萄  </b>熟透后紫红色，外表有白色果霜，可生食或酿酒。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-551d2998e6e9e4d9ee4a676bc633f91f_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1500\" data-original-token=\"v2-18baa8c0a1b4183cb5e8dec052c61e9b\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pic2.zhimg.com/v2-551d2998e6e9e4d9ee4a676bc633f91f_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"Pn1qrKA5\"><b>山梨子  </b>野生状态的个头较小，且质地坚硬，须摘下捂几个月变软之后才好吃，味道酸中带甜。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-56b82cc2de5b3d4992c302beabb682b5_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1500\" data-original-token=\"v2-16ce477fd7c8595b0a6e3a47889b6195\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://picx.zhimg.com/v2-56b82cc2de5b3d4992c302beabb682b5_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"rlkTVLWL\"><b>软枣子 圆枣子 俗称狗枣子 </b>“圆枣”或是“软枣”之东北发音。果圆球形或长圆形，无毛，成熟时绿黄色或紫红色，如同缩小版的无毛猕猴桃。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1b5aea47311285c4b8b693b21348160a_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1500\" data-original-token=\"v2-adc3c8930fb809ec8fbe4baa75a57a84\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pica.zhimg.com/v2-1b5aea47311285c4b8b693b21348160a_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"ZNX43vVg\"><b>托盘儿、树莓、覆盆子 </b>果实味酸甜，可鲜食，制果酱，果酒，果汁等。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b59987c51c50fa0e2d0e2600326d044b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"563\" data-original-token=\"v2-4f1181140814abe45f6c4d05f74d34c6\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://picx.zhimg.com/v2-b59987c51c50fa0e2d0e2600326d044b_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"4kBSVQaV\"><b>都柿、野生蓝莓、笃斯 </b>纯粹的东北特产野果，酸甜味佳，可用以酿酒及制果酱，也可制成饮料。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4d62830c86bbda2bccb7d562aab0a57c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"687\" data-rawheight=\"942\" data-original-token=\"v2-b25d2481c843f53c7f8af0e47420d683\" class=\"origin_image zh-lightbox-thumb\" width=\"687\" data-original=\"https://pica.zhimg.com/v2-4d62830c86bbda2bccb7d562aab0a57c_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"wpw_0DQA\"><b>菇娘 </b>也称小酸浆.果实浑圆 ,熟后呈金黄色 ,酸甜 ,是天然绿色食品.</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-28ba2cfc60836eaf3f9c669e949d5122_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1500\" data-original-token=\"v2-e54087b5e5061ef9e01691f739bb2e69\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pic3.zhimg.com/v2-28ba2cfc60836eaf3f9c669e949d5122_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"7H_NhxIF\"><b>天星星、黑天天、黑星星   </b>熟透呈紫黑色，微酸甜。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-27bfe2a12468d7aa6d80c211f3e3b73f_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1500\" data-original-token=\"v2-ce14187571e29ce441cce75f2634e82c\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pic4.zhimg.com/v2-27bfe2a12468d7aa6d80c211f3e3b73f_r.jpg\"/><figcaption>true</figcaption></figure><p data-pid=\"mDwl98Fm\"><b>灯笼果  </b>通常呈青绿色，奇酸无比，口感嘎嘣脆，熟透后会变红变软，酸度会随之下降。</p><p data-pid=\"Auf-qHig\"><b>喜欢这篇文章，别忘了点赞、收藏、转发，也欢迎在评论区发表您的看法，或者分享您的做法，欢迎关注：冬至雪夜，每天都会发布原创家常美食做法。</b></p>",
+        "is_labeled": false,
+        "created_time": 1767009646,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1989063304753197931",
+        "updated_time": 1767009646,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-ae4b8b7e5095dc83ac2aa999457c1a2e_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-09eacb041a53fd1ff5130f15795247c1_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5668f9beba4a96241112ecd6a5a8faf4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-18baa8c0a1b4183cb5e8dec052c61e9b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-16ce477fd7c8595b0a6e3a47889b6195_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-adc3c8930fb809ec8fbe4baa75a57a84_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b25d2481c843f53c7f8af0e47420d683_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e54087b5e5061ef9e01691f739bb2e69_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ce14187571e29ce441cce75f2634e82c_720w.jpg?source=b6762063"
+        ],
+        "thumbnail": "https://pica.zhimg.com/50/v2-ae4b8b7e5095dc83ac2aa999457c1a2e_720w.jpg?source=b6762063",
+        "reshipment_settings": "disallowed",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "visited_count": 179,
+        "allow_segment_interaction": true,
+        "voteup_count": 8,
+        "question": {
+          "created": 1741484087,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/14471969531",
+          "title": "哪些乡村野果承载了你的童年记忆？",
+          "comment_count": 0,
+          "bound_topic_ids": [
+            307,
+            1709,
+            2171
+          ],
+          "detail": "",
+          "id": "14471969531",
+          "type": "question",
+          "answer_count": 0,
+          "follower_count": 0,
+          "author": {
+            "url": "https://api.zhihu.com/people/5e1aab571b65eaf66e6a608b0952a056",
+            "url_token": "xiao-que-xing-95-26",
+            "headline": "“我希望你被簇拥包围，走过的路要繁花盛开，要人声鼎沸”",
+            "followers_count": 256,
+            "id": "5e1aab571b65eaf66e6a608b0952a056",
+            "user_type": "people",
+            "name": "小确幸",
+            "avatar_url": "https://picx.zhimg.com/50/v2-f224688975f7aa07c445720b03c1d7aa_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "question_type": "normal"
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989063304753197931}",
+      "attached_info": "CugJCOvk25zCsfngjQEQBBoJNzYzMjAzNzQ5IO7aycoGKAgwAUArSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCTExMzg3MDg5OWIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5ODkwNjMzMDQ3NTMxOTc5MzGKAQsxNDQ3MTk2OTUzMaoBCXJlY29tbWVuZMIBIDc2ZDRlZmYyM2FkY2M4MDBhNGUxOGIwMTU2OGNiMmJm8gEKCAwSBk5vcm1hbPIBKAgKEiQwMzhmMDVhZS05MTc5LTRlMzYtODc1Yy04NDEzNGYzNThjMzXyAQUICxIBOIICAIgCg8TEm7kzkgIgNzZkNGVmZjIzYWRjYzgwMGE0ZTE4YjAxNTY4Y2IyYmaaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCBPoCC05PUk1BTF9GTE9XigMgODcxZWFiZWNkMTA5NGE4MWJhM2U4YjY5MWI5ODZkY2KaAw0KAnYyEAAaBW90aGVyqAOzAdgDAOoDH3RleHRGZWVkVHdvVG93ZXJXYXJtdXBTdWNjZXNzVjH6A/UDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQ0A8Y3AsiI3YyLWFlNGI4YjdlNTA5NWRjODNhYzJhYTk5OTQ1N2MxYTJlOi0IBBDQDxjcCyIjdjItMDllYWNiMDQxYTUzZmQxZmY1MTMwZjE1Nzk1MjQ3YzE6LQgDENAPGNwLIiN2Mi01NjY4ZjliZWJhNGE5NjI0MTExMmVjZDZhNWE4ZmFmNDotCAMQ0A8Y3AsiI3YyLTE4YmFhOGMwYTFiNDE4M2NiNWU4ZGVjMDUyYzYxZTliOi0IBBDQDxjcCyIjdjItMTZjZTQ3N2ZkN2M4NTk1YjBhNmUzYTQ3ODg5YjYxOTU6LQgEENAPGNwLIiN2Mi1hZGMzYzg5MzBmYjgwOWVjOGZiZTRiYWE3NWE1N2E4NDotCAMQ7gUYswQiI3YyLTRmMTE4MTE0MDgxNGFiZTQ1ZjZjNGQwNWY3NGQzNGM2Oi0IBBCvBRiuByIjdjItYjI1ZDI0ODFjODQzZjUzYzdmOGFmMGU0NzQyMGQ2ODM6LQgDENAPGNwLIiN2Mi1lNTQwODdiNWU1MDYxZWY5ZTAxNjkxZjczOWJiMmU2OTotCAMQ0A8Y3AsiI3YyLWNlMTQxODc1NzFlMjljZTQ0MWNjZTc1ZjI2MzRlODJjgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgSqCRP4EFAAAAAAAAAACJBZsfU07uU7E/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBiuoBgOSAi4KCTc2MzIwMzc0ORITMTk4OTA2MzMwNDc1MzE5NzkzMRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "44_1767705223.323",
+      "type": "feed",
+      "offset": 44,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705223,
+      "updated_time": 1767705223,
+      "target": {
+        "author": {
+          "is_followed": false,
+          "id": "92f464b12ba5f54a05aa80ed0560a357",
+          "url": "https://api.zhihu.com/people/92f464b12ba5f54a05aa80ed0560a357",
+          "user_type": "people",
+          "url_token": "53-42-46-72-41",
+          "is_org": false,
+          "followers_count": 527,
+          "name": "李子汐",
+          "headline": "很菜但很喜欢聊历史（公众号：子汐读史）",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-095367341f2f9dc7c7fe75ad7eae194e_l.jpg?source=b6762063",
+          "gender": 0,
+          "is_following": false
+        },
+        "voteup_count": 101,
+        "preview_type": "default",
+        "excerpt_new": "据说，很多人读《左传》都被里面的人名搞崩溃了。有些人名看起来不像人名，像正文不说。上一秒这个人和那个人在对话，下一秒又换个名字在对话了，甚至同一个名的有好几个姓，他们是一个人还是几个人？这搞得读者有点懵啊！ 觉得懵才是对的，懵说明在思考，如果不懵，要么是大佬，要么就没看进去。读《左传》多思考，趣味是会更大的。 先大致捋一捋春秋时期人的命名规矩： 01首先，春秋时期的普通人是没有名字和姓氏的。就左传这…",
+        "content": "<p data-pid=\"F7-jx0gn\">据说，很多人读《左传》都被里面的人名搞崩溃了。有些人名看起来不像人名，像正文不说。上一秒这个人和那个人在对话，下一秒又换个名字在对话了，甚至同一个名的有好几个姓，他们是一个人还是几个人？这搞得读者有点懵啊！</p><p data-pid=\"H3hqDt1F\">觉得懵才是对的，懵说明在思考，如果不懵，要么是大佬，要么就没看进去。读《左传》多思考，趣味是会更大的。</p><p data-pid=\"MnQ1BKgJ\">先大致捋一捋春秋时期人的命名规矩：</p><p data-pid=\"3m5ecq7K\"><b>01</b></p><p data-pid=\"0L2q3V53\">首先，春秋时期的普通人是没有名字和姓氏的。就左传这本书里，男人和女人的命名规矩似乎不大相同，有名字记载的女性一般都是出嫁过的：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9169bfabdc9dd9347d94fe10d6a589cd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"599\" data-rawheight=\"575\" data-original-token=\"v2-9169bfabdc9dd9347d94fe10d6a589cd\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-61e93b54cb5539e449e05c171e7ffca8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"599\" data-original=\"https://picx.zhimg.com/v2-9169bfabdc9dd9347d94fe10d6a589cd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OVWzOrIP\"><b>女子，一般以夫为姓，以父姓为名。</b></p><p data-pid=\"Z7FOmQ_P\">比如有名的几个女子：</p><p data-pid=\"eBo9SJd4\">武姜、庄姜、夏姬、秦穆姬、怀嬴、文嬴、息妫、孟子、仲子等等。</p><p data-pid=\"sOcNPSMl\">嬴、妫、子这几个特殊一看就知道是哪国人——嬴是秦姓、妫是陈姓、子是宋姓，姬就比较复杂，周天子分封出去的兄弟叔伯都姓姬，而夏姬是郑国公主，秦穆姬是晋国公主。姜姓的分布也有好几处，一般情况下是齐姓，但申、纪也是姜姓诸侯，只不过这俩被灭得早。虽然灭得早，但，著名的武姜是申国公主，庄姜是齐国公主。</p><p data-pid=\"_6fDucfO\">武姜、庄姜、怀嬴、文嬴几个人都是以作为国君的丈夫得谥号做姓的，武姜是郑武公的夫人，庄姜是卫庄公的夫人，怀嬴是晋怀公的女人，文嬴是晋文公的夫人。息妫不同，她原是息侯的夫人，后来被楚王抢了去，息国也被灭了。</p><p data-pid=\"pN93kU6r\">其实，我感觉这些夫人原都是没有姓的，因为谥号是人死后才有的，所以其实他们的姓大概是后人为了记载，把她们贯以夫姓，且大部分都是第一任丈夫的姓。比如，息夫人，哪怕后来为楚王生儿育女，也依旧是息妫，夏姬第一任丈夫是陈国的夏御叔，后来她跟了四五任，历史对她的记载依旧是夏姬。</p><p data-pid=\"jTwWonKu\">至于孟子为啥不叫惠子？那估计是因为鲁惠公先后娶了宋国老大（孟）、老二（仲）这俩姐妹做夫人，为了方便辨别就用大小排序来做姓了。这也就更能佐证“这些女子的姓是后来人给安上”的观点了。</p><p data-pid=\"f5Atpzvj\"><b>02</b></p><p data-pid=\"qwyRgADN\">男子的姓名来源就比较复杂。</p><p data-pid=\"V2lZN4G7\">先说说姓。</p><p data-pid=\"RbCQtcsW\">姓的来源其实挺多的，不同于现在的人基本一生就只有一个姓，古代士人男子的姓甚至可以有好几个。</p><p data-pid=\"1fFygciU\"><b>姓的来源有封地、官职、身份、甚至是老祖宗的字。</b></p><p data-pid=\"KfaVLpiO\">比如下面两张地图上漆黑的单字，是地名，也是这个地方的士人的姓。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-dfa191b905002372585453ded60750a9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1305\" data-rawheight=\"849\" data-original-token=\"v2-dfa191b905002372585453ded60750a9\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-3b0a80183acb56843178cd1d88333468_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1305\" data-original=\"https://pic2.zhimg.com/v2-dfa191b905002372585453ded60750a9_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0e67cc55a8b9326ae252f94e464ee275_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1482\" data-rawheight=\"899\" data-original-token=\"v2-0e67cc55a8b9326ae252f94e464ee275\" data-default-watermark-src=\"https://pica.zhimg.com/v2-03e2148d2aac3b7ba61ae8b2ef998344_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1482\" data-original=\"https://pic4.zhimg.com/v2-0e67cc55a8b9326ae252f94e464ee275_r.jpg\"/></figure><p data-pid=\"EBLueGXX\"><b>啥叫以身份为姓？</b>如果这人是国君的儿子，就叫公子某某，孙子就叫公孙某某。公孙的儿子用啥姓呢，很奇葩，用的就是祖父的字。左传隐公八年记载，司空无亥死的时候，国人为他请个族名，最后大臣们讨论下来的结果是：司空无亥是展族，后世子孙都姓展。</p><p data-pid=\"Yn3nr5Vh\">司空无亥的祖父就是公子展，所以展是公子展这一族的族名。事实上，司空也是姓，是无亥的官职。</p><p data-pid=\"P9s2njSa\">春秋时期，太史、司空、司城、司寇、司徒、等等都是官职，也是这些官员的姓，因为那时候，官职大多是世袭的。</p><blockquote data-pid=\"L8tb-hdI\">隐公元年，三月，公及邾仪父盟于蔑，邾子克也。</blockquote><p data-pid=\"vi0znCXc\">这里面的邾仪父与邾子克是同一个人，这句话其实是解释春秋<b>“公及邾仪父盟于蔑”</b>这句话里面的邾仪父是谁，以及为什么这么称呼。</p><p data-pid=\"lWk-FyEU\">邾仪父很明显是邾国的国君，但是因为在当时，邾国还不受周天子承认，没有封爵，所以记载的时候，至记载了名字。邾国国君称邾子，子是“公侯伯子男爵”的“子”，与后来的“孔子”“孟子”是不同的。</p><p data-pid=\"B47x3SeW\"><b>一般情况下，国名后面带个子的，比如楚子、纪子、莒子，都是代表国君。</b></p><p data-pid=\"q631qIPV\"><b>国名+子+某某的，这个某某就是国君的名。</b></p><p data-pid=\"rg-ZHpk9\">比如邾子克，纪子帛，楚子越椒等等。</p><p data-pid=\"VaQ5zRkB\">而对一个人的敬称一般不称名，而称字。比如，邾国国君，虽然没有封爵，按理说记载邾克，但鲁国史官为表尊敬，记载的是邾仪父，仪父是字。</p><p data-pid=\"RTm6v0UM\">同样的，一般情况下，左传第一次出现的人物，都是用全名，再次出现时，可能会用字，也可能会用别名。左传的原则是，名字能不重复尽量不重复。</p><p data-pid=\"NDGBcNrQ\">比如，《郑伯克段于鄢》里面，有一段，太叔要求和郑庄公公用两条边疆，公子吕说不行，郑庄公说：你别管，他会自作自受！”然后太叔又把公用的这两条边境作为自己独有的。子封说：“可以了！再给他就完了。”</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e6d28a79a47f5bb65718eb7dd3467815_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4030\" data-rawheight=\"801\" data-original-token=\"v2-e6d28a79a47f5bb65718eb7dd3467815\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-d92c589e5b76f38a2269cc2a210d62c9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"4030\" data-original=\"https://pic4.zhimg.com/v2-e6d28a79a47f5bb65718eb7dd3467815_r.jpg\"/></figure><p data-pid=\"n19xnAJ4\">这里，前面和郑庄公说话的是公子吕，怎么转眼又变成了子封？关键这两个名字和郑庄公说的是同一件事的递进关系。所以这俩就是一个人，而子封很明显是一个人的字。所以，子封就是公子吕的字。</p><p data-pid=\"Jj06aahM\">用这个公式去看另外一段：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1ee63638c58833d19bbafce80ed392be_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3153\" data-rawheight=\"1049\" data-original-token=\"v2-1ee63638c58833d19bbafce80ed392be\" data-default-watermark-src=\"https://pica.zhimg.com/v2-adb79135445e4d59b82463c7c1642d90_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3153\" data-original=\"https://pic1.zhimg.com/v2-1ee63638c58833d19bbafce80ed392be_r.jpg\"/></figure><p data-pid=\"_UU-4TRQ\">晋惠公被秦穆公俘虏，他让郤乞把瑕吕饴甥叫来秦国和秦穆公交涉便接他回去。子金教他：“把晋国人召集起来，对他们就说是国君要赏赐所有人，并且对他们说：‘我就算回来，也是令社稷蒙羞，你们还是挑个吉利日子，准备让圉代替我吧。’”国人听到这番话那是感动得痛哭流涕，吕甥这时候就说了：“国君都不担心自己被囚在外，却担心你们，这是最大的恩惠了，你们要如何报答国君啊？”大家就问：“你说怎么做吧？”他回答说：“加征赋，修政军队来辅助孺子，诸侯听到晋国虽然失去了国君，但是已经有了备选国君，且群臣一心，军队还更多更强了，喜欢我们的人会高兴，讨厌我们的会害怕，不是更好吗？”大家说，好！于是按吕甥说的做。</p><p data-pid=\"ioaVKa6A\">这里面，有三段对话，后两段是同一个人说的，这没问题，问题是前面有一个子金教人如何在国内替国君笼络人心，后面却是吕甥在前人笼络人心后，立马开始煽动国人为国君能顺利回国做准备。这很明显，是同一个人的思路，是一个连环计。</p><p data-pid=\"GOJHoKtp\">子金和吕甥是同一人。而这一段话的开始是晋惠公让郤齐找瑕吕饴甥来捞人，那么瑕吕饴甥就是主角，子金看上去就是一个人的字，便是瑕吕饴甥的字。而吕甥这个人的另一个叫法。</p><p data-pid=\"KM0oRqnS\"><b>这么分析，虽然啰嗦了些，但是思路应该是没问题的。大家以后看到同一个段落里面有名字，有像字的，还有同一个名的，不凡猜猜这些是不是同一个人。然后再用这种假设去验证他们说的话做的事情是否合理，是否有关联。也许就没那么懵啦。</b></p><p data-pid=\"nVItshl3\">说到瑕吕饴甥，就不得不再说说关于地名+名的名字形式是怎么回事。</p><p data-pid=\"T96Ulo1q\">前面说过，对于普通的士人，他的名字一般是地方名+名。比如《古文观止》名篇《烛之武退秦师》，这个烛之武，其实又叫烛武，是烛地的武。而最有名的孝子颍考叔，他是颍谷封人（颍地一个管疆界的官）。</p><p data-pid=\"ZJppMVYH\">这些地名，我们甚至可以在地图上轻松找到：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-271613f27855eb3303a275c120276f49_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1150\" data-rawheight=\"765\" data-original-token=\"v2-271613f27855eb3303a275c120276f49\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-6ce55d53029e1467c9be13b387dd233d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1150\" data-original=\"https://picx.zhimg.com/v2-271613f27855eb3303a275c120276f49_r.jpg\"/></figure><p data-pid=\"b1ms3qMY\">除了哪个地方出生的人，姓以地名贯，还有一种就是拥有封地的人，也以封地做姓。比如祭仲的“祭”便是祭地的”祭“，他的食邑是祭。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0d36b59cf3725cf869ec273eab39317c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1306\" data-rawheight=\"797\" data-original-token=\"v2-0d36b59cf3725cf869ec273eab39317c\" data-default-watermark-src=\"https://pica.zhimg.com/v2-e9c14a0afb82d437a64505c2b05f8a88_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1306\" data-original=\"https://pic3.zhimg.com/v2-0d36b59cf3725cf869ec273eab39317c_r.jpg\"/></figure><p data-pid=\"A-7RvZcK\">瑕吕饴甥的名字很多，叫瑕甥、吕甥、瑕饴甥、吕饴甥，又叫阴饴甥。那是因为他有三块封地，瑕、吕和阴。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-92953100b7d34896144c8d5234a35b64_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"991\" data-rawheight=\"811\" data-original-token=\"v2-92953100b7d34896144c8d5234a35b64\" data-default-watermark-src=\"https://pica.zhimg.com/v2-bc934c311a2cc9bd76641cece56b8e3a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"991\" data-original=\"https://pic3.zhimg.com/v2-92953100b7d34896144c8d5234a35b64_r.jpg\"/></figure><p data-pid=\"awzhWzWL\">另外，我还发现，《左传》在记载一个人的事迹时，他的名字也会随着身份的改变而改变。但是第一次出现时还是会用通用的名字。</p><p data-pid=\"NyseLd5c\">比如，第一个反派角色公叔段，他第一次出现就是这个名字。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2107d6916b692542514eca116de428bc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2183\" data-rawheight=\"1515\" data-original-token=\"v2-2107d6916b692542514eca116de428bc\" data-default-watermark-src=\"https://picx.zhimg.com/v2-10f3ff8c16ee678568b2aa8b5bf916b5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2183\" data-original=\"https://pica.zhimg.com/v2-2107d6916b692542514eca116de428bc_r.jpg\"/></figure><p data-pid=\"35siPyr5\">但是后来庄公把京给了公叔段，公叔段就被人称为京城太（‘大’通‘太’）叔，之后作者再提到共叔段时便会用太叔来指代，直到太叔逃到“共”这个地方，都没变过指代。</p><p data-pid=\"gUSSd3bT\">我怀疑，公叔段之所以叫这个名字，便是因为他最后逃到的是“共”地。</p><blockquote data-pid=\"EeXevcbv\">大叔完聚，缮甲兵，具卒乘，将袭郑，夫人将启之。公闻其期，曰：“可矣！”命子封帅车二百乘以伐京。京叛大叔段，段入于鄢，公伐诸鄢。五月辛丑，大叔出奔共。</blockquote><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f0aba706499fc47ee2b89c4a5f9af9cf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1016\" data-rawheight=\"811\" data-original-token=\"v2-f0aba706499fc47ee2b89c4a5f9af9cf\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-d2c26ea2cebb2c8a19e274261210a664_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1016\" data-original=\"https://pic2.zhimg.com/v2-f0aba706499fc47ee2b89c4a5f9af9cf_r.jpg\"/></figure><p data-pid=\"nztmACzY\">其实左传中人名令人头疼的地方还有许多，但是搞清楚逻辑——遇到令人头疼的人名时稍微停下来捋一捋，就可以轻松读懂一大半了。</p><p data-pid=\"3exkuzzp\">关于人名障碍，暂时分享到这里啦！要是以后遇到其它的再补充吧，希望这篇分析对大家有点用！</p><p data-pid=\"CYxlSFMi\">.....................................................分割线...........................</p><p data-pid=\"X9BK-666\">补充：</p><p data-pid=\"8HdTdONc\">手动捉虫：</p><p data-pid=\"vqs38Z5p\">感谢评论区友友的解惑：</p><p data-pid=\"VU3GsAWP\">这里面姓和氏是不同的，姓呢比较少。“姬、妫、姜、芈、嬴”这些是姓。</p><p data-pid=\"R9bouU9R\">其它的，比如官名、地名，封地、食邑、公子、公孙、祖宗的字这些冠名的都不叫姓叫氏。氏是荣耀，所以别人一般正式场合都是氏+名，比如“公孙侨”，亲切一点叫他的字“子产”，他和别人聊天时自称自己的名“侨”，长辈可以叫他“侨”，但是同辈小辈却只能叫他“子产”，这涉及到古代的称谓礼仪了。</p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-9e3ef527268521dc48e011c783da3333_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-f6cef6777cb49644496c48c4263ba7b3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-310a8cc061bb86a0dfa306ee923e27ca_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-32c9834e3445d5fb107b8aab8cc5c0f5_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-72d0591ca7bc7f11ae839e6f4164abc5_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-46e25dab88cb20e0837da907804507f1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-138f707a3d662eb69857249a337a6b3f_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-7356dc577eafe8427f0a9b68358ac7a0_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c2a517eae1a0eff3fbe2a5cc77211b3b_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "navigator_vote": false,
+        "type": "answer",
+        "reshipment_settings": "disallowed",
+        "favorite_count": 278,
+        "url": "https://api.zhihu.com/answers/1897070346118602782",
+        "created_time": 1745076816,
+        "thumbnail": "https://picx.zhimg.com/50/v2-9e3ef527268521dc48e011c783da3333_720w.jpg?source=b6762063",
+        "is_labeled": true,
+        "comment_count": 17,
+        "question": {
+          "detail": "",
+          "question_type": "normal",
+          "title": "读《左传》如何克服人名障碍？",
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "id": "92f464b12ba5f54a05aa80ed0560a357",
+            "user_type": "people",
+            "is_org": false,
+            "gender": 0,
+            "is_following": false,
+            "followers_count": 527,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/92f464b12ba5f54a05aa80ed0560a357",
+            "url_token": "53-42-46-72-41",
+            "name": "李子汐",
+            "headline": "很菜但很喜欢聊历史（公众号：子汐读史）",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-095367341f2f9dc7c7fe75ad7eae194e_l.jpg?source=b6762063"
+          },
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/1897068629880726293",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            3305959
+          ],
+          "answer_count": 0,
+          "comment_count": 0,
+          "id": "1897068629880726293",
+          "type": "question",
+          "created": 1745076407
+        },
+        "excerpt": "据说，很多人读《左传》都被里面的人名搞崩溃了。有些人名看起来不像人名，像正文不说。上一秒这个人和那个人在对话，下一秒又换个名字在对话了，甚至同一个名的有好几个姓，他们是一个人还是几个人？这搞得读者有点懵啊！ 觉得懵才是对的，懵说明在思考，如果不懵，要么是大佬，要么就没看进去。读《左传》多思考，趣味是会更大的。 先大致捋一捋春秋时期人的命名规矩： 01首先，春秋时期的普通人是没有名字和姓氏的。就左传这…",
+        "preview_text": "",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "answer_type": "normal",
+        "id": "1897070346118602782",
+        "updated_time": 1745395318,
+        "thanks_count": 4,
+        "visited_count": 6932,
+        "allow_segment_interaction": true,
+        "is_copyable": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1897070346118602782}",
+      "attached_info": "CqsKCOvk25zCsfngjQEQBBoJNzIzNjc2ODI1INCEj8AGKGUwEUAsSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNDU4NTQ0MGIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE4OTcwNzAzNDYxMTg2MDI3ODKKARMxODk3MDY4NjI5ODgwNzI2MjkzqgEJcmVjb21tZW5kwgEgOTJmNDY0YjEyYmE1ZjU0YTA1YWE4MGVkMDU2MGEzNTfyAQoIDBIGTm9ybWFs8gEoCAoSJGQxNDc0MmFlLTc3OTAtNDQ4ZC04OWNmLTdlYzBmMWI5Y2RjNPIBBQgLEgE4ggIAiAKDxMSbuTOSAiA5MmY0NjRiMTJiYTVmNTRhMDVhYTgwZWQwNTYwYTM1N5oCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgT6AgtOT1JNQUxfRkxPV4oDIDg3MWVhYmVjZDEwOTRhODFiYTNlOGI2OTFiOTg2ZGNimgMNCgJ2MhAAGgVvdGhlcqgDlDbYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A/UDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ1wQYvwQiI3YyLTkxNjliZmFiZGM5ZGQ5MzQ3ZDk0ZmUxMGQ2YTU4OWNkOi0IAxCZChjRBiIjdjItZGZhMTkxYjkwNTAwMjM3MjU4NTQ1M2RlZDYwNzUwYTk6LQgDEMoLGIMHIiN2Mi0wZTY3Y2M1NWE4YjkzMjZhZTI1MmY5NGU0NjRlZTI3NTotCAIQvh8YoQYiI3YyLWU2ZDI4YTc5YTQ3ZjViYjY1NzE4ZWI3ZGQzNDY3ODE1Oi0IAhDRGBiZCCIjdjItMWVlNjM2MzhjNTg4MzNkMTliYmFmY2U4MGVkMzkyYmU6LQgDEP4IGP0FIiN2Mi0yNzE2MTNmMjc4NTVlYjMzMDNhMjc1YzEyMDI3NmY0OTotCAMQmgoYnQYiI3YyLTBkMzZiNTljZjM3MjVjZjg2OWVjMjczZWFiMzkzMTdjOi0IAxDfBxirBiIjdjItOTI5NTMxMDBiN2QzNDg5NjE0NGM4ZDUyMzRhMzViNjQ6LQgCEIcRGOsLIiN2Mi0yMTA3ZDY5MTZiNjkyNTQyNTE0ZWNhMTE2ZGU0MjhiYzotCAMQ+AcYqwYiI3YyLWYwYWJhNzA2NDk5ZmM0N2VlMmI4OWM0YTVmOWFmOWNmgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoCBnlj+BBQAAAAAAAAAAiQWbH1NO7lOxP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUIkAYAoAYsqAYAkgIuCgk3MjM2NzY4MjUSEzE4OTcwNzAzNDYxMTg2MDI3ODIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "45_1767705223.71",
+      "type": "feed",
+      "offset": 45,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705223,
+      "updated_time": 1767705223,
+      "target": {
+        "preview_type": "default",
+        "article_type": "normal",
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/articles/1979289560551793927",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "id": "1979289560551793927",
+        "type": "article",
+        "comment_count": 15,
+        "excerpt": "2021年下半年的一个深夜，我坐在电脑前看着账上的数字，内心五味杂陈。 创业半年多了，企业微信推广没起色，标品项目也找不到突破口。现金流一直为负，更要命的是，我们几个技术人都30+了，离35越来越近。创业不成功，重新找工作也不好找。家里的开支还要支付，多重压力聚在一起，那种&#34;时间不等人&#34;的焦虑感，真的让人夜不能寐。 那段时间，我们几个合伙人经常聊到深夜。标品方向？感觉该有的都有了，对小企业来说基本都是红海了…",
+        "author": {
+          "headline": "10年技术+产品经验，分享成长心法与高效工具",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c37f93f2bb79327a1e41e7fe492474c4_l.jpg?source=b6762063",
+          "is_org": false,
+          "id": "004b281d43c722662e8abfa67889c0cc",
+          "url": "https://api.zhihu.com/people/004b281d43c722662e8abfa67889c0cc",
+          "user_type": "people",
+          "url_token": "ahzmr",
+          "name": "山娃寒松记",
+          "is_following": false,
+          "gender": 1,
+          "followers_count": 152,
+          "is_followed": false
+        },
+        "created": 1764679553,
+        "voteup_count": 27,
+        "comment_permission": "all",
+        "updated": 1764679553,
+        "allow_segment_interaction": true,
+        "excerpt_new": "2021年下半年的一个深夜，我坐在电脑前看着账上的数字，内心五味杂陈。 创业半年多了，企业微信推广没起色，标品项目也找不到突破口。现金流一直为负，更要命的是，我们几个技术人都30+了，离35越来越近。创业不成功，重新找工作也不好找。家里的开支还要支付，多重压力聚在一起，那种&#34;时间不等人&#34;的焦虑感，真的让人夜不能寐。 那段时间，我们几个合伙人经常聊到深夜。标品方向？感觉该有的都有了，对小企业来说基本都是红海了…",
+        "visited_count": 1499,
+        "navigator_vote": false,
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "voting": 0,
+        "column": {
+          "id": "c_1975236646627731241",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1975236646627731241",
+          "author": {
+            "user_type": "people",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_following": false,
+            "id": "",
+            "url": "",
+            "headline": "",
+            "is_org": false,
+            "followers_count": 0,
+            "is_followed": false,
+            "url_token": "",
+            "name": "匿名用户"
+          },
+          "imageUrl": "https://picx.zhimg.com/v2-743ce726a75ceeae9fb68e1406f882b7_720w.jpg?source=d16d100b",
+          "intro": "给有创业想法的技术人看的真实复盘2020-2022年，我尝试了技术人创业的几乎所有路径： • 单打独斗开发产品 → 个人英雄主义的破灭• 找市场合伙人组队 → 能力匹配的残酷真相 • 做标准化产品 → 从想象到现实的落差 • 接外包项目求生存 → 技术人的最后挣扎每一次失败，都是一堂昂贵的商业课。每一个教训，都是用真金白银换来的认知。我不是要打击你的创业热情，而是希望你能少走一些弯路。毕竟，我们技术人创业的试错成本，真的很高。",
+          "updated": 1765290674,
+          "title": "创业2年后，我把踩过的坑都写下来了",
+          "comment_permission": "public",
+          "is_following": false
+        },
+        "content": "<p data-pid=\"krvg7YTh\">2021年下半年的一个深夜，我坐在电脑前看着账上的数字，内心五味杂陈。</p><p data-pid=\"ofRMXXrR\">创业半年多了，企业微信推广没起色，标品项目也找不到突破口。现金流一直为负，更要命的是，我们几个技术人都30+了，离35越来越近。创业不成功，重新找工作也不好找。家里的开支还要支付，多重压力聚在一起，那种&#34;时间不等人&#34;的焦虑感，真的让人夜不能寐。</p><p data-pid=\"vPMXkW8J\">那段时间，我们几个合伙人经常聊到深夜。标品方向？感觉该有的都有了，对小企业来说基本都是红海了。继续尝试下去？压力实在太大。</p><p data-pid=\"Va7mxBDu\">最终我们达成了共识：现在只有做外包能让公司先活着。虽然都知道外包又苦又累，但没办法。</p><p data-pid=\"VCexfN3C\">为了给自己打气，我们还自嘲：&#34;挣钱嘛，不寒蝉。&#34;</p><h2>华为飞常准的美好幻想</h2><p data-pid=\"dK1UUrKG\">说实话，一开始我们对外包是有心理阻碍的。</p><p data-pid=\"eupnIH7_\">谁都知道做外包挣的是苦力钱，但我们也看过不少创业发家文章，像华为、飞常准这些公司都是从外包起家的。先做外包积累经验和客户关系，后来发展为自主产品公司。</p><p data-pid=\"AQ55O-Cu\">这给了我们一些信心。我们制定了一个看起来很&#34;理性&#34;的计划：先通过接外包，接触真实客户和真实需求，在这个过程中逐步发现可以做标品的需求，再考虑做标品、做定制、做服务。</p><p data-pid=\"bUwzo-rX\">计划很美好：技术这边以外包为重心，改善现金流；市场合伙人可以一个专门做外包，另两个做一部分外包的同时继续探索其他业务。边做外包边探索标品，两不误。</p><p data-pid=\"a4WOJr6q\">那时候我们觉得这是最稳妥的出路：以外包过渡，最终做标品。感觉终于找到了方向，又有干劲了。</p><h2>理想与现实的激烈碰撞</h2><p data-pid=\"wzD8kJ61\">一开始确实很顺利，这让我们更加坚信路径是对的。</p><p data-pid=\"BILDSWHT\">第一个项目是教育方面的，为他们做二次开发。虽然技术栈不熟，但我和另一位技术合伙人经验都很丰富，只要没有特别的技术难点，编程语言和框架的限制对我们不构成问题。项目做得很好，客户很满意。</p><p data-pid=\"OFBjqLDg\">接着我们为一个钢厂做了他们十周年庆的小程序，这个项目从沟通到交付都很愉快。期间还洽谈了很多项目，比如船舶相关的、数字孪生相关的。通过洽谈和做demo，我们发现这些项目我们都能胜任。</p><p data-pid=\"OcDBLYaZ\">那段时间真的挺有成就感的。每次成功交付一个项目，看到客户满意的笑容，我们就觉得这条路是对的。<b>技术人创业，从解决问题开始。</b></p><p data-pid=\"slnZ0Q8h\">但很快，现实开始露出獠牙。</p><p data-pid=\"zfPlYa8i\">商会小程序项目让我印象很深。我们和甲方都很看好这个方向，商会现在挺多的，市场应该不小。我们直接做成了SaaS版本，准备之后推广到更多商会。项目做得很成功，功能完善，用户体验也不错。但推广的时候，无论是甲方还是我们的市场人员，都没能推出去。</p><p data-pid=\"zLCmiuVw\">还有企业资质类的项目管理系统，这个项目让我第一次意识到问题的严重性。他们的需求太依赖自己公司的流程了，根本不直接适用于其他公司。如果要做成标品，要么做简版需要教育用户，要么做定制版，开发量太大。</p><p data-pid=\"Moyf1Twg\">另外，项目对接过程中也开始暴露出小企业主的沟通问题。他们对产品往往没有什么概念，我们及时做好了设计确认和原型确认，现场演示沟通时他们都觉得没问题。但在实际交付时，又提出很多新问题，有的甚至和之前确认的内容相冲突。</p><p data-pid=\"kDWO5pMA\">我们本想以德服人，但最终还是要据理力争。他们给的价格本来就是压缩成本的妥协方案，验收时却希望按照最好的方案来验收。这种项目通常钱少事多，沟通成本很高。</p><p data-pid=\"QTeIzuDx\">这两个项目过后，我开始怀疑：&#34;通过外包做标品&#34;这个路径，是不是有些理想化了？</p><p data-pid=\"ymki_o6e\">最让我们受伤的是船舶项目。从接洽到系统方案设计，包括准备签合同环节，沟通都很顺利。我们的技术方案表现是最好的，现场演示效果也很棒，甲方的技术对接人都夸我们专业。</p><p data-pid=\"6whVPmeh\">但最后还是没有中标，原因是友商开出了非常低的价格。我们核算了一下，除非他们有现成产品经过适当改造就能实现，否则这个价格基本是亏本的。</p><p data-pid=\"xorAPK4Y\">后来通过关系打听，确实如此。那个项目交付过程中出现了很多问题，最后还加价了，最终价格比我们当时的报价还高。但时间已经过去了，机会也不再属于我们。</p><p data-pid=\"-6q5cwX5\">这种&#34;先拿单再加价&#34;的恶性竞争，让我第一次感受到了市场的血腥。</p><h2>理性调整中的短暂平静</h2><p data-pid=\"yoBkCrDM\">我意识到外包真不是我们的出路，再加上手上的项目越来越多，精力也不够用了，我们还是要做调整，为做精做深和做标品蓄力。</p><p data-pid=\"eNyU9yvM\">那时我们几个合伙人坐下来深度复盘，发现最大的问题是：外包一旦真正启动，由于制度是提成制的，技术团队也被卷入了外包的工作量中，市场团队也开始追逐眼前的效益，结果探索标品的计划完全被搁置了。</p><p data-pid=\"9WF4QIHd\"><b>事与愿违，我们成了纯粹的外包公司。</b></p><p data-pid=\"h835xX87\">于是我们重新分配精力：</p><ul><li data-pid=\"4YD4I5aC\">六七成的精力，专注于公司生存的项目，暂时不考虑能不能做标品</li><li data-pid=\"zAnORuPg\">两三成的精力还是尽量去拓展有前景、能够找到新方向的项目</li><li data-pid=\"nYH9qeVB\">一成的精力用于管理和复盘，每周开周会，大家一起过项目</li></ul><p data-pid=\"3Fl8KRm5\">这样，我们后面也过滤了一些技术与回报都不高的项目，我们也适应了这样的节奏。</p><p data-pid=\"Z_DcQ_5r\">这个阶段我们接了很多项目，比如政府相关类的、高校老师和学术类的项目。其中有一个让我们很自豪的项目，就是为高校做的FaaS平台——函数即服务平台。</p><p data-pid=\"RFxD-d84\">这个项目对我们来说很有挑战，但也非常令人兴奋。我们认真做了，满足了产品经理的要求，同时也突破了自己。让我们对K8S和持续集成有了更深的认识，也比较创新地融合了很多技术才把它变成了现实。</p><p data-pid=\"2njo4dP1\">那段时间，我们几个技术人真的很有成就感。每天讨论技术方案，攻克一个又一个难点，那种感觉就像是在做一件伟大的事情。</p><p data-pid=\"mLU72Fb8\">可结果很残酷。虽然达到了乙方产品经理的要求，但因为这是个三手项目，也是探索型项目，需求并不明确，但交付的时候甲方不满意，要再加很多功能，但乙方是研发项目，不准备加预算，后来就不了了之了。</p><p data-pid=\"94FQYkqK\">本来觉得这个项目很有技术含量，能发挥很大价值，也很有市场竞争力，但实际却难产了，那种失落感让人很难受。</p><h2>身心俱疲中的现实觉醒</h2><p data-pid=\"1OOqHuiO\">随着项目越来越多，我们越来越疲惫。</p><p data-pid=\"xL2yfdHM\">我们接到的项目往往都比较紧急，人力有限，经常要一人当三人用，但压力真的很大。项目高峰期的时候，经常是各自负责一两个项目，虽然也能保证交付，但那种状态真的不健康。</p><p data-pid=\"hXeu5-VX\">最疲惫的那次，我连续高强度工作两三周后，又连续加班三四天到晚上22点多。在刚出公司的创新大道的一个路口，我闯过红灯过去后才反应过来，之前脑子里还一直在想项目调试的问题。</p><p data-pid=\"j1akWhuI\">那一刻我突然意识到：这样下去真的会出问题。</p><p data-pid=\"E1ujKU5O\">更让我困惑的是，我们也做过一些很优质的项目，双方合作得很愉快。比如为车企办活动的小程序，对接的是最专业的对接人，沟通非常顺畅，相互启发，最终做出的产品也得到了他们的认可，也顺利辅助活动的举办。</p><p data-pid=\"0kQ54Nlf\">但这种项目大多属于活动类、临时性的，做完就没有后续了。而且这种项目的情况越来越少。</p><p data-pid=\"DvZ6Dwte\">那时是2021年下半年到2022年，疫情还很严重，很多企业预算都很紧张，小企业之间的竞争变得更加恶劣。价格战比比皆是，先拿单再加价的套路层出不穷，整个市场充满了劣币驱逐良币的氛围。</p><p data-pid=\"UU4KFlA1\"><b>我们想要的客户，和能找到我们的客户，根本不是同一批人。</b></p><h2>深度反思中的知行合一</h2><p data-pid=\"CDvM7mYp\">通过13个项目、6-7个行业的实战，我们逐渐认清了一个残酷的现实：</p><p data-pid=\"2O0CekEe\">我们的处境很尴尬。如果客户预算充足，他们往往会选择讯飞、泛微等这些大公司。在网上虽然可以接触更多人，但竞争非常激烈，那些专业团队数据已经很好了，追上他们还要些时间。</p><p data-pid=\"WcgAU7fY\">我们主要依靠线下渠道接项目，但接的单子主要是小企业的或三四手项目，利润空间不大。而且很多项目要求很急，往往是之前技术团队搞不定，需要重新找人来做的。</p><p data-pid=\"RuqcMcP0\">那些用得好我们系统的客户，往往把它当作自己的重要竞争力，自己好好用，不会去推荐给同行。你想把他们说服，把方案做成标品让更多人用，往往说不动他们。</p><p data-pid=\"GwrD5EIQ\"><b>小而美，在这个市场里根本不被认可。大家更喜欢大而全、有保障的公司。</b></p><p data-pid=\"jWlWGTQv\">2022年下半年，我开始认真考虑一个问题：这条路真的能走通吗？一年多时间，我们既没有探索出明确方向，也没有找到有效方法。这样下去，很可能要一直为了生存而做外包，熬5年都不一定能熬出头。</p><p data-pid=\"ER64Na1r\">那种感觉很痛苦，就像有力使不上一样。我试了很多方向，我们技术很好了，很多项目都能做，都能很好地交付，但一直没找到可持续的方向或渠道，每次都像是一个新的开始。</p><p data-pid=\"HQzjIn5y\">我每天晚上都在反思：问题到底出在哪里？</p><p data-pid=\"Bi7IXmWv\">其实&#34;市场是1，技术是0&#34;这个道理我之前也认同，但直到那一刻，我才深深地体悟到市场是分从0到1，和从1到100，这两者是完全不同的。<b>没有前面的1，有再多0也没用。</b>这不是理论，而是用血泪换来的真实感受。</p><h2>艰难的告别</h2><p data-pid=\"1AxZ5uLP\">恰逢那时，我之前的同学公司转型成功了，他们正要开发供应链系统，需要技术支持，这对我来说是一个很好的新机会。</p><p data-pid=\"2HeV_tfj\">做出放弃创业决定的过程很痛苦，但我知道必须面对现实。</p><p data-pid=\"Bn5zJ2iW\">我一个一个合伙人谈，深刻分析了我们的情况和未来可能面临的困境。我们合伙人都是理性的人，也都看到了问题所在。</p><p data-pid=\"9Q7Zpist\">只有大市场合伙人有些不舍，他说：&#34;熬下去，后面一切会好的。&#34;</p><p data-pid=\"DMSCL4a0\">我很认真地回他：&#34;我们一年多就是这样，既没有探索出方向，也没有找到方法。这样下去很可能一直这样。&#34;</p><p data-pid=\"XxJYveJm\">说这话的时候，我心里也很难受。毕竟我们一起奋斗了这么久，一起经历了那么多项目，有过成功的喜悦，也有过失败的沮丧。</p><p data-pid=\"y5Y5TZoH\">但我知道，感情用事解决不了问题。他后来也理解了我的想法，尊重了我的决定。</p><h2>外包创业的三个残酷真相</h2><p data-pid=\"CfYKVy3S\">现在回头看这段经历，我想跟还在纠结外包创业的技术朋友们分享三个残酷真相：</p><h3>真相一：外包客户≠标品客户，这是个伪命题</h3><p data-pid=\"WpWlz2O_\">最大的误区是以为通过外包能发现标品机会。现实是，能找到你的往往不是你期望的目标群体。</p><p data-pid=\"2_5yRIta\">真正能成为标品的需求，往往早就被大公司做成标品了。没能成为标品的，往往是因为客户不愿意改变习惯来适应标品，而是希望项目符合自己的特殊需求。</p><p data-pid=\"zTqA77J1\">而且一旦外包启动，提成制度会让整个团队都被卷入外包工作量，探索标品的计划很容易被搁置。事与愿违，你会发现自己成了纯粹的外包公司。</p><h3>真相二：小而美不被市场认可，恶性竞争很残酷</h3><p data-pid=\"897LZStV\">技术人习惯追求&#34;小而美&#34;，但市场不买账。</p><p data-pid=\"tW_fCmQF\">客户预算充足时，会选择讯飞、泛微等这些有保障的大公司。而小企业主面临生存压力时，价格战成了常态，先拿单再加价的恶性竞争层出不穷，整个市场充满了劣币驱逐良币的氛围。</p><p data-pid=\"uBLbBtq3\">我们夹在中间最尴尬：想做的客户被大公司服务了，接的单子主要是小企业的或三四手项目，利润微薄，事多难沟通，要求还急。</p><h3>真相三：没有市场合伙人，就不要全职外包创业</h3><p data-pid=\"f_kOgfvv\">技术人最大的短板就是市场能力。如果只是想做点副业，外包没问题。但如果准备全职创业，一定要有真正厉害的市场合伙人。</p><p data-pid=\"10ocmBed\">不是那种说&#34;我有资源&#34;、&#34;我认识很多人&#34;的，而是有现成销售渠道、跑通销售流程的。否则哪怕你项目做得再好，也很难突破要做什么，又怎么销售出去。</p><h2>写给还在纠结的技术人</h2><p data-pid=\"YHtsqjwx\">如果你也正在考虑外包创业，我想问你一个核心问题：</p><p data-pid=\"v_579ztw\"><b>你做外包，到底是为了什么？</b></p><p data-pid=\"xHLymDVJ\">如果只是把外包当作通往标品的过渡，我的建议是直接放弃。这个路径在实践中很难走通，你最终会发现自己成了纯粹的外包公司，离初衷越来越远。</p><p data-pid=\"OhpqWqdb\">如果你确实想做外包，那就要解决三个基本问题：有没有靠谱的市场合伙人？有没有稳定的客户渠道？有没有商务谈判能力？如果这些都没有，建议先把外包当副业试试水。</p><p data-pid=\"igSmP4ar\">最重要的是，要认清一个朴素的道理：<b>技术不是万能的。再强的技术能力，如果不知道做什么，依然改变不了现状。</b></p><p data-pid=\"NRGAYyqZ\">这不是一句空话，而是我从天真到觉醒、用一年多时间、13个项目换来的深刻体悟。</p><p data-pid=\"o3nPB9nd\">毕竟，我们都还年轻，还有机会重新选择。认清现实，比盲目坚持更重要。</p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-7ebe33922a577b7c6c5e644b0ce4e8c4.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pic1.zhimg.com/50/v2-7ebe33922a577b7c6c5e644b0ce4e8c4_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 44,
+        "title": "做了13个外包项目后我才明白技术人创业的残酷真相",
+        "image_url": "https://picx.zhimg.com/v2-7ebe33922a577b7c6c5e644b0ce4e8c4.jpg?source=7e7ef6e2&needBackground=1",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1979289560551793927}",
+      "attached_info": "CooICOvk25zCsfngjQEQBxoJMjY3MTMxMTAyIIG/u8kGKBswD0AtSj4KF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREh1kb2NfdHlwZTogTWVtYmVyCmlkOiAyMTM5NjI1ChgAIAA6AEo/ChhUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUFYSHWRvY190eXBlOiBNZW1iZXIKaWQ6IDIxMzk2MjUKGAAgADoASjAKBkl0ZW1DRhIgZG9jX3R5cGU6IEFydGljbGUKaWQ6IDI2NzI1MjUzNQoYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDEzNzk1ODM2YiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk3OTI4OTU2MDU1MTc5MzkyN4IBX2h0dHBzOi8vcGljeC56aGltZy5jb20vdjItN2ViZTMzOTIyYTU3N2I3YzZjNWU2NDRiMGNlNGU4YzQuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xigEVY18xOTc1MjM2NjQ2NjI3NzMxMjQxqgEJcmVjb21tZW5kwgEgMDA0YjI4MWQ0M2M3MjI2NjJlOGFiZmE2Nzg4OWMwY2PyAQoIDBIGTm9ybWFs8gEoCAoSJDQ1Yzc0ZjMyLWMzZTUtNDY0Ni05ZjEzLWJhOGI0MDViYTg4YfIBBQgLEgE4ggIAiAKDxMSbuTOSAiAwMDRiMjgxZDQzYzcyMjY2MmU4YWJmYTY3ODg5YzBjY5oCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIXVFNfU09VUkNFX0FVVEhPUl9HQ0ZfSFHoAgP6AgtOT1JNQUxfRkxPV4oDIDg3MWVhYmVjZDEwOTRhODFiYTNlOGI2OTFiOTg2ZGNimgMNCgJ2MhAAGgVvdGhlcqgD2wvYAwDqAxlnY2ZLbm5BdXRob3JIaWdoUG9zUmVjYWxs+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQwBUYgAwiI3YyLTdlYmUzMzkyMmE1NzdiN2M2YzVlNjQ0YjBjZTRlOGM0gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAA8W6IP4EFAAAAAAAAAACJBZsfU07uU7E/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBi2oBgCSAi4KCTI2NzEzMTEwMhITMTk3OTI4OTU2MDU1MTc5MzkyNxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "46_1767705223.369",
+      "type": "feed",
+      "offset": 46,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705223,
+      "updated_time": 1767705223,
+      "target": {
+        "answer_type": "normal",
+        "id": "1987822296929436167",
+        "url": "https://api.zhihu.com/answers/1987822296929436167",
+        "thanks_count": 0,
+        "excerpt": "在深圳这么多年，我在各种大小聚会上听到最多的两个字是：搞钱。因为在这里谈钱不伤感情，搞钱也不是一件庸俗的事。 不过说搞钱，也不是每个人都能赚到的，而且赚到的也有多有少，还有的不仅赚不到钱，还亏钱。为什么做同一件事，不同的人却得到不同的结果。 我一直认为赚到钱的人靠的是眼光和胆量，后来我读了 摩根·豪泽尔的《金钱心理学》，才发现自己一直以来的想法可能错了。这本书里讲了一个很有意思的故事。有一个叫罗纳…",
+        "preview_text": "",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "is_labeled": false,
+        "is_navigator": false,
+        "created_time": 1766713767,
+        "allow_segment_interaction": true,
+        "comment_count": 0,
+        "excerpt_new": "在深圳这么多年，我在各种大小聚会上听到最多的两个字是：搞钱。因为在这里谈钱不伤感情，搞钱也不是一件庸俗的事。 不过说搞钱，也不是每个人都能赚到的，而且赚到的也有多有少，还有的不仅赚不到钱，还亏钱。为什么做同一件事，不同的人却得到不同的结果。 我一直认为赚到钱的人靠的是眼光和胆量，后来我读了 摩根·豪泽尔的《金钱心理学》，才发现自己一直以来的想法可能错了。这本书里讲了一个很有意思的故事。有一个叫罗纳…",
+        "content": "<p data-pid=\"3hzQUqwQ\">在深圳这么多年，我在各种大小聚会上听到最多的两个字是：搞钱。因为在这里谈钱不伤感情，搞钱也不是一件庸俗的事。</p><p data-pid=\"BkV4922R\">不过说搞钱，也不是每个人都能赚到的，而且赚到的也有多有少，还有的不仅赚不到钱，还亏钱。为什么做同一件事，不同的人却得到不同的结果。</p><p data-pid=\"1igjmj-W\">我一直认为赚到钱的人靠的是眼光和胆量，后来我读了<b>摩根·豪泽尔的《金钱心理学》</b>，才发现自己一直以来的想法可能错了。</p><p data-pid=\"LbBuz_IG\">这本书里讲了一个很有意思的故事。有一个叫罗纳德·里德的美国人，他在加油站当了25年的汽车修理工，又在百货公司扫了17年的地。</p><p data-pid=\"6c5hbq0l\">在很多人看来，他这辈子肯定过得很苦。结果他去世的时候，名下竟然有800多万美元的资产。而他没有中彩票，也没有继承遗产，只是把省下来的钱买了股票，然后耐心地等了几十年。</p><p data-pid=\"COYEbvEI\">与此同时，有一个毕业于哈佛大学、在华尔街当高管的天才，却因为挥霍无度、胡乱借债，最后破产了。这两个人的结局完全颠倒了过来。这让我意识到，一个人能不能赚到钱，和他有多聪明关系不大，而是和行为习惯有关。</p><p data-pid=\"RFsdeMq6\">如果你现在也觉得生活压力大，想通过赚钱翻身，那么我觉得这本书里的思维方式非常值得你学一学，尤其是书中的三个富人思维。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-65c65ec7923027375e683c9274aa9fe0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"395\" data-original-token=\"v2-8b0c858e10f52105e99d5ec15cd97a39\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic1.zhimg.com/v2-65c65ec7923027375e683c9274aa9fe0_r.jpg\"/></figure><h3><b>一、把时间当成最厉害的武器</b></h3><p data-pid=\"SDpxqJ6w\">很多人总是急于求成，恨不得今天投资了一点钱，明天就能翻倍。这种心态其实就是典型的穷人思维。而富人思维里最重要的一点，就是理解复利的巨大力量。</p><p data-pid=\"ZDyK7G4v\">你看巴菲特现在的身家有好几百亿美元，可你不知道的是，他90%以上的财富都是在65岁以后赚到的。如果他年轻时赚了一笔钱就收手，或者中途因为贪心搞砸了，他绝对不会有今天的成就。</p><p data-pid=\"KNh3XBxh\">书中用冰河期做了一个比喻，我觉得非常形象。冰河期的形成并不是因为冬天特别冷，而是因为夏天的阳光不够强烈，没能把上一个冬天留下的积雪全部融化。这些没融化的雪到了明年就会吸引更多的降雪，最后才慢慢滚雪球变成了覆盖地球的冰原。</p><p data-pid=\"9clfHjdn\">赚钱也是这个道理。里德之所以能存下800万美元，就是因为他从年轻时就开始买股票，并且持有了几十年，让复利发挥了作用。他没有追求什么惊人的回报率，他只是做到了「一直持有」。</p><p data-pid=\"ibN0byDf\">你要明白，一个好的投资方案，并不一定意味着回报率最高。那些回报率特别高的项目，往往是一次性的，很难重复。</p><p data-pid=\"iyzwQ7LO\"><b>真正能让你翻身的，是那些你可以长期坚持下去、回报率还算不错的项目</b>。只要你留在这个游戏里的时间足够长，复利就会帮你创造奇迹。</p><p data-pid=\"hzlWqObF\">所以，别再天天盯着那些短期暴利的项目了。你需要找一个稳妥的方法，然后耐心地等下去。因为时间才是你通往财富自由路上最硬的靠山。</p><h3><b>二、守住财富比赚到钱更重要</b></h3><p data-pid=\"Hq172Vil\">我发现很多朋友在行情好时都能赚到钱，但行情一变，很快就亏回去了。<b>这就是因为他们只学会「致富」，却没有学会「守富」</b>。</p><p data-pid=\"BO778Ajt\">书中就讲了一个悲剧。杰西·利弗莫尔是当时美国最厉害的股票交易员，1929年股市大崩盘的时候，他一天就赚到了相当于现在的30亿美元。在那个人人想跳楼的时候，他成了世界上最富有的人之一。</p><p data-pid=\"YA2jqMwZ\">但他太自负了，觉得自己战无不胜，于是下的赌注越来越大，最后不仅亏光了所有钱，还自杀了。</p><p data-pid=\"dKQ40fFM\">利弗莫尔很擅长致富，但他完全不擅长守富。致富需要你有冒险精神、有乐观的心态，还要敢于放手一搏，但是守富恰恰相反，它需要你保持谦虚，还有一点敬畏之心，以及承认运气在成功中占了不小的比例。</p><p data-pid=\"lIXDeiaA\">我觉得<b>富人成功的核心其实只有两个字，那就是「生存」</b>。你要保证自己无论遇到什么样的经济危机，都能活下来。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d0675602fc7202047facde1decf30bc3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"700\" data-rawheight=\"354\" data-original-token=\"v2-a54b07291650357a52caeb3b475ae83e\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://picx.zhimg.com/v2-d0675602fc7202047facde1decf30bc3_r.jpg\"/></figure><p data-pid=\"UJDdhICt\">你看很多公司看起来很风光，其实每10年就有20%的公司从富豪榜上消失，原因就是他们不懂得防范风险。富人思维里有一个很重要的点，就是时刻保持警惕，时刻防备那些可能阻碍你走向未来的变故。</p><p data-pid=\"_HRI24Kr\">比如，我建议你一定要存一些看起来「没用」的现金。在牛市的时候，手里拿着现金可能让你觉得很亏。</p><p data-pid=\"1Kz7gRgQ\">但如果熊市来了，这份现金就能保证你不用被迫卖掉手里的股票去抵债。这种生存下来的能力，才是财富能长期增长的基础。</p><p data-pid=\"1rdWoTge\">你只需记住一点，在这个世界上没有任何收益值得你拿命去赌。只有一直留在牌桌上，你才有翻身的机会。</p><h3><b>三、追求合乎情理，而不是绝对理性</b></h3><p data-pid=\"ej4pkHdN\">很多理财书都会教你如何计算最优的回报，怎么用公式选股，可是有些投资方法在数学上看起来是完美的，在现实中却根本没法执行。</p><p data-pid=\"BvtHHLZX\">假如有人建议你通过贷款去买股票，你敢买吗？虽然这个方法回报高，但是风险太大了，根本行不通。</p><p data-pid=\"eZdiYasX\">所以，这个富人思维告诉你，在做投资决策时，<b>你不要去追求那个「绝对理性」的最优解，而要找一个对自己来说「合乎情理」的平衡点</b>。</p><p data-pid=\"2sDCGJkb\">什么是合乎情理？就是这个决策可以让你在晚上睡个踏实觉。如果你买了一只股票，天天提心吊胆看行情，工作也干不好，觉也睡不香，那么这个投资就不适合你。</p><p data-pid=\"9vE7BKQQ\">我认为一个好的投资方案，应该给你留出足够的容错空间。就像玩扑克牌一样，你不需要每次都猜对，只需在自己猜错的时候，还有资本重新开始就够了。</p><p data-pid=\"9emso8ml\">所以，你得给自己留一条后路。存钱不一定是为了买车买房，存钱是为了让自己有一份闲钱。当你手里有余钱的时候，你就有了在遇到突发状况时说「不」的权利。</p><p data-pid=\"pb5DfovZ\">你不要总觉得自己做得不够好，也不要盲目去模仿那些看起来很有钱的人。你要做的，就是找到适合自己的生活节奏，通过赚钱存钱来获取属于自己的自由。</p><p data-pid=\"fYNa9v3s\">当你能把心态摆正，学会几个有用的富人思维，即便你现在处于低谷，翻身也只是时间问题。</p>",
+        "visited_count": 444,
+        "favorite_count": 25,
+        "navigator_vote": false,
+        "reshipment_settings": "disallowed",
+        "type": "answer",
+        "author": {
+          "url": "https://api.zhihu.com/people/dfd18f312d5211bc280bddc5188a8ff2",
+          "user_type": "people",
+          "url_token": "weihaisheng",
+          "name": "韦海生",
+          "is_org": false,
+          "is_followed": false,
+          "id": "dfd18f312d5211bc280bddc5188a8ff2",
+          "headline": "公众号「韦海生」，一个比较正经的读书号。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-cc25c65d30efc8cad9823e870ad35fda_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 13069,
+          "is_following": false
+        },
+        "updated_time": 1766713767,
+        "voteup_count": 12,
+        "is_copyable": false,
+        "question": {
+          "id": "23021337",
+          "follower_count": 0,
+          "comment_count": 32,
+          "bound_topic_ids": [
+            403,
+            27777
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "created": 1394634288,
+          "answer_count": 0,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/23021337",
+          "title": "富人都有哪些思考方式？",
+          "is_following": false,
+          "excerpt": "",
+          "author": {
+            "gender": 1,
+            "is_followed": false,
+            "url_token": "a-mi-dong",
+            "name": "啊蜜東",
+            "user_type": "people",
+            "headline": "rì jìn dǒu jīn！~",
+            "avatar_url": "https://picx.zhimg.com/50/5032e0b24_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 20,
+            "is_following": false,
+            "id": "5f5564fc46d02829496f44a8809ead88",
+            "url": "https://api.zhihu.com/people/5f5564fc46d02829496f44a8809ead88"
+          },
+          "detail": ""
+        },
+        "preview_type": "default",
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1987822296929436167}",
+      "attached_info": "CogHCOvk25zCsfngjQEQBBoJNzYyNzE2NzA4IKfTt8oGKAwwAEAuSigKHVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX01FUkdFEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgcxMzg5NDAyYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk4NzgyMjI5NjkyOTQzNjE2N4oBCDIzMDIxMzM3qgEJcmVjb21tZW5kwgEgZGZkMThmMzEyZDUyMTFiYzI4MGJkZGM1MTg4YThmZjLyAQoIDBIGTm9ybWFs8gEoCAoSJDNhMmUyNDdhLTE1MTMtNDRlNC05MGQ0LWM4ZjM5Yzk3Mjk0NfIBBQgLEgE4ggIAiAKDxMSbuTOSAiBkZmQxOGYzMTJkNTIxMWJjMjgwYmRkYzUxODhhOGZmMpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gIdVFNfU09VUkNFX0lOVEVSRVNUX1dPUkRfTUVSR0XoAgP6AgtOT1JNQUxfRkxPV4oDIDg3MWVhYmVjZDEwOTRhODFiYTNlOGI2OTFiOTg2ZGNimgMNCgJ2MhAAGgVvdGhlcqgDvAPYAwDqAyJJbnRlcmVzdFdvcmRNZXJnZVYxTmV3UG9vbFJlY2FsbGVy+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ0AUYiwMiI3YyLThiMGM4NThlMTBmNTIxMDVlOTlkNWVjMTVjZDk3YTM5Oi0IAhC8BRjiAiIjdjItYTU0YjA3MjkxNjUwMzU3YTUyY2FlYjNiNDc1YWU4M2WABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKBF3ZI/gQUAAAAAAAAAAIkFmx9TTu5TsT+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCJAGAKAGLqgGAZICLgoJNzYyNzE2NzA4EhMxOTg3ODIyMjk2OTI5NDM2MTY3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "47_1767705223.125",
+      "type": "feed",
+      "offset": 47,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705223,
+      "updated_time": 1767705223,
+      "target": {
+        "updated": 1766373879,
+        "voting": 0,
+        "preview_type": "default",
+        "preview_text": "",
+        "visited_count": 985,
+        "vote_next_step": "vote",
+        "id": "1986396196688909584",
+        "comment_permission": "all",
+        "title": "我常用的6种爬虫软件，值得收藏～",
+        "excerpt": "公众号后台经常有人私信要抓取某某网页数据，该怎么办？巧妇难为无米之炊，确实现在数据采集已经是最最常见的业务需求了，所以很多人想学python来写爬虫，以为爬虫只是HTTP请求-&gt;HTML解析-&gt;结构化数据储存，但其实爬虫远比想象的难。   比如想研究跨境电商商品数据，看看国外的流行趋势，好不容易写个爬虫，结果网站全是验证码，甚至连网页都打不开。 因为现在的网站基本都会采用React、Vue或Angular等前端框架进行异步加载（AJAX…",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-b0dd63b3dce3558e874e60fe1e3b7cd6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3ae6107832103c0dfeefabfd14359ea4_720w.jpg?source=b6762063"
+        ],
+        "article_type": "normal",
+        "is_navigator": false,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1986396196688909584",
+        "voteup_count": 13,
+        "comment_count": 1,
+        "content": "<p data-pid=\"u5IPmKnr\">公众号后台经常有人私信要抓取某某网页数据，该怎么办？巧妇难为无米之炊，确实现在数据采集已经是最最常见的业务需求了，所以很多人想学python来写爬虫，以为爬虫只是HTTP请求-&gt;HTML解析-&gt;结构化数据储存，但其实爬虫远比想象的难。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3e062eee1b1236f16d90b8bef3f196de_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-ee9a36ea8389c71e40d9bb471c4ec9f6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-3e062eee1b1236f16d90b8bef3f196de_r.jpg\"/></figure><p data-pid=\"jvaQuyQd\">比如想研究跨境电商商品数据，看看国外的流行趋势，好不容易写个爬虫，结果网站全是验证码，甚至连网页都打不开。</p><p data-pid=\"cAa_jvzM\">因为现在的网站基本都会采用React、Vue或Angular等前端框架进行异步加载（AJAX），并大量使用无限滚动、阴影DOM（Shadow DOM）以及各种设备指纹识别技术来阻断自动化访问 。</p><p data-pid=\"Y2ETgkpJ\">这种高难度反爬机制下，单纯的HTTP请求已难以满足采集需求，你需要有完整浏览器渲染能力、智能代理调度和行为模拟功能，才能请求到网页数据。</p><p data-pid=\"6vNuJmP5\">对于一般的非技术童鞋，可以直接用现成的爬虫工具，不需要自己写代码，这些爬虫工具主要分三大类，无代码/低代码采集工具、网页API接口、半自动化爬虫框架。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-dc8ee17ba4f98494d221eb88e8adff77_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"609\" data-rawheight=\"319\" data-original-token=\"v2-73da91b2600bb2621907f7fa70d637c1\" class=\"origin_image zh-lightbox-thumb\" width=\"609\" data-original=\"https://pic4.zhimg.com/v2-dc8ee17ba4f98494d221eb88e8adff77_r.jpg\"/></figure><p data-pid=\"DzcpDg1t\">这里推荐6个适合大家用的爬虫工具，可以按照需求来选择合适的技术方案。</p><h2><b>八爪鱼采集器 (Octoparse)</b></h2><p data-pid=\"WhLzFjD-\">八爪鱼是无脑式的数据采集器，通过可视化的拖拉拽操作，实现对网页的数据采集，它的核心逻辑是模拟人的操作（点击、输入和滚动），你打开它的内置浏览器，鼠标点哪里，它就记录哪里。</p><p data-pid=\"sbd_vx5s\"><a href=\"https://link.zhihu.com/?target=https%3A//affiliate.bazhuayu.com/gzhsyy\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">affiliate.bazhuayu.com/</span><span class=\"invisible\">gzhsyy</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ed81acc7ce40ef8a807b55563f0c8ab6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"673\" data-original-token=\"v2-b0dd63b3dce3558e874e60fe1e3b7cd6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-ed81acc7ce40ef8a807b55563f0c8ab6_r.jpg\"/></figure><p data-pid=\"kl14ZFfj\">八爪鱼引入了AI辅助的识别算法，用户只需输入目标网址，系统即可自动解析页面结构，识别出列表项、翻页按钮以及核心数据字段 。这种机制极大地减少了手动配置XPath的时间。</p><p data-pid=\"TrkX2WMD\">另外它的界面采用了逻辑清晰的流程图设计。每一个操作（如打开网页、循环、点击、提取数据）都被表现为一个可配置的节点 。这种设计不仅降低了门槛，也方便用户进行复杂的逻辑调试。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b001a3f781503d128ca17393e87d7a24_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"858\" data-original-token=\"v2-3ae6107832103c0dfeefabfd14359ea4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-b001a3f781503d128ca17393e87d7a24_r.jpg\"/></figure><p data-pid=\"T7wuvy4k\">对于频繁跳出的验证码，八爪鱼可以通过集成第三方验证码识别接口以及设置合理的行为间隔，能够有效降低触发验证码的频率。在最新版本中，还增加了验证码弹窗自动提醒及手动干预设置 。</p><p data-pid=\"qjZY10d1\">你可以自定义设置，让八爪鱼导出结构化的csv、excel数据类型，或者存储到云上，都非常的方便。</p><p data-pid=\"PRAuSGFv\">下载：<a href=\"https://link.zhihu.com/?target=https%3A//affiliate.bazhuayu.com/gzhsyy\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">affiliate.bazhuayu.com/</span><span class=\"invisible\">gzhsyy</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9c3d8a0d1f007a279016eb518866e8f4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"567\" data-original-token=\"v2-67ab226c5989f172649a47bb29bceeaa\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-9c3d8a0d1f007a279016eb518866e8f4_r.jpg\"/></figure><h2><b>亮数据 (Bright Data)</b></h2><p data-pid=\"JvKCYp1D\">亮数据则是专门用来采集复杂网页数据的集成化工具，它有专门的抓取API接口，可以处理各种反爬机制，能直接请求到结构化的数据。</p><p data-pid=\"n8eFJcWl\"><a href=\"https://link.zhihu.com/?target=https%3A//get.brightdata.com/webscra\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">get.brightdata.com/webs</span><span class=\"invisible\">cra</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-311adaf74364719630708cc6fc618560_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"420\" data-original-token=\"v2-96b5d6e2b61de0fad3cabf15c2927964\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-311adaf74364719630708cc6fc618560_r.jpg\"/></figure><p data-pid=\"YKoKPMYo\"><br/>做跨境电商或海外数据抓取的朋友都知道，最痛苦的不是抓取，而是被封 IP或者无限验证码，亮数据就是专门用来处理这类场景的，它有几个比较使用的功能。</p><p data-pid=\"0uQHN2Sl\">1、Web Unlocker (网页解锁器)：当你遇到那种怎么都过不去的验证码或IP封锁时，它的解锁器能自动模拟真实的浏览器指纹、自动轮换全球 IP，成功率极高。</p><p data-pid=\"ReNX3AS6\">2、Scraping Browser：这是一种运行在亮数据云端的“有头”浏览器。开发者无需在本地管理Puppeteer或Playwright镜像，只需一行代码即可连接到亮数据。该浏览器内置了所有顶级的解封技术，包括自动解决CAPTCHA、解析复杂的Canvas指纹以及模拟真实的鼠标轨迹。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-734d0a64df168797509c138edbe49fdb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"599\" data-original-token=\"v2-55a32a97ac5e4279581e1e07730307f9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-734d0a64df168797509c138edbe49fdb_r.jpg\"/></figure><p data-pid=\"IU3oVqzH\">3、Brightdata-mcp：这是亮数据专门用来对接大模型的MCP服务，可以通过prompt直接采集数据，不需要任何的配置和开发。</p><p data-pid=\"FE4aF4eb\">所以你可以用亮数据来实现跨境电商选品、全球机票酒店比价、金融数据分析等场景。</p><p data-pid=\"h1cSUZrH\">下载：<a href=\"https://link.zhihu.com/?target=https%3A//get.brightdata.com/webscra\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">get.brightdata.com/webs</span><span class=\"invisible\">cra</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-389ff9fce553ab9cd0910167ebf7af79_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"318\" data-rawheight=\"159\" data-original-token=\"v2-ff76640abc64cac361c253a1faac7acf\" class=\"content_image\" width=\"318\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>Web Scraper (Chrome 插件)</b></h2><p data-pid=\"QWr-wJG8\">Web Scraper是一款免费、轻量的爬虫浏览器插件，它基于“Sitemap”概念，用户通过定义选择器路径，让浏览器本身按照预设逻辑执行抓取。</p><p data-pid=\"QoX29EbD\">当然，Web Scraper适合临时性的、非高频率的轻量级数据获取。虽然没有云端调度，但其零成本、易上手的特点使其在个人开发者中极具人气 。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9230b215d47e2c7800ac6db714c16216_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"675\" data-qrcode-action=\"none\" data-original-token=\"v2-defd7f82d4c746f48ea64a2f2110cf57\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-9230b215d47e2c7800ac6db714c16216_r.jpg\"/></figure><h2><b>后羿采集器</b></h2><p data-pid=\"Gn-cLYY7\">既然提到了八爪鱼，就不得不提后羿，两者逻辑很像，都是可视化操作的爬虫工具，它在跨平台（支持 Mac/Windows/Linux）支持上做得不错，且免费功能的开放度在某些版本上比较良心。</p><h2><b>Scrapy (Python 框架)</b></h2><p data-pid=\"hV_8QYgC\">Scrapy是最受欢迎的Python开源爬虫框架，它基于Twisted异步I/O库，能够以极高的效率并行处理成千上万个请求。</p><p data-pid=\"YWhUwzqt\">它的优势是极强的模块化设计（Spiders, Middlewares, Pipelines），可以精准控制数据从下载、解析到存储的每一个微秒 。</p><p data-pid=\"C6cFi6Py\">而且现在的Scrapy生态已与Playwright高度集成，能够完美处理单页面应用（SPA）的渲染问题 。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-85f688e97d4e50b030025aae40b99670_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"974\" data-rawheight=\"478\" data-original-token=\"v2-c18159ceaa6967a2491820d5574b6be4\" class=\"origin_image zh-lightbox-thumb\" width=\"974\" data-original=\"https://pica.zhimg.com/v2-85f688e97d4e50b030025aae40b99670_r.jpg\"/></figure><h2><b>Selenium / Playwright（自动化工具）</b></h2><p data-pid=\"83nDa-kU\">Selenium / Playwright其实是自动化测试工具，但经常被用来做爬虫，它们能控制浏览器进行点击、滚动、输入。对于那些全是动态加载（AJAX）的网页，比如翻页、滑动等，Scrapy 搞不定时，它们就能派上用场。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-98a1f71c06ae68afc8db10a42312f47d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1068\" data-rawheight=\"536\" data-original-token=\"v2-2380e9ed7d7b2fd24b5b72b8cd7c6a4c\" class=\"origin_image zh-lightbox-thumb\" width=\"1068\" data-original=\"https://picx.zhimg.com/v2-98a1f71c06ae68afc8db10a42312f47d_r.jpg\"/></figure><p data-pid=\"J97dqPaH\">其实工具没有绝对的好坏，只有适不适合，如果你只是想偶尔抓个数据做个表，八爪鱼或 Web Scraper就足够了。如果你是做出海业务，想稳定的采集电商数据，则适合用亮数据。如果你想深入技术开发， 自己掌握爬虫框架，则适合Scrapy / Selenium / Playwright</p><p data-pid=\"jrZkR2W4\">虽然网页爬虫技术本身是中性的，但需要注意遵守 Robots.txt 协议，只采集公开数据，控制访问频率，保持合规性。</p>",
+        "is_labeled": false,
+        "favorite_count": 76,
+        "navigator_vote": false,
+        "author": {
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/658acd00382565081dac63a99fee4cc2",
+          "user_type": "people",
+          "url_token": "pydatalysis",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "Python话题下的优秀答主",
+              "topic_names": [
+                "Python"
+              ],
+              "topic_ids": [
+                872
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜科技互联网领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "汽车制造业 数据分析师"
+            }
+          ],
+          "followers_count": 131394,
+          "id": "658acd00382565081dac63a99fee4cc2",
+          "name": "朱卫军",
+          "headline": "世界是编码的",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d45547b53ad8fcc2b0fb7d0c734e78df_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_following": false
+        },
+        "created": 1766373878,
+        "allow_segment_interaction": true,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "公众号后台经常有人私信要抓取某某网页数据，该怎么办？巧妇难为无米之炊，确实现在数据采集已经是最最常见的业务需求了，所以很多人想学python来写爬虫，以为爬虫只是HTTP请求-&gt;HTML解析-&gt;结构化数据储存，但其实爬虫远比想象的难。   比如想研究跨境电商商品数据，看看国外的流行趋势，好不容易写个爬虫，结果网站全是验证码，甚至连网页都打不开。 因为现在的网站基本都会采用React、Vue或Angular等前端框架进行异步加载（AJAX…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1986396196688909584}",
+      "attached_info": "CrIJCOvk25zCsfngjQEQBxoJMjY3OTg4OTUwIPbzosoGKA0wAUAvSkAKF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREh9kb2NfdHlwZTogTWVtYmVyCmlkOiAxNTUwNzYwMDQKGAAgADoAYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk4NjM5NjE5NjY4ODkwOTU4NKoBCXJlY29tbWVuZMIBIDY1OGFjZDAwMzgyNTY1MDgxZGFjNjNhOTlmZWU0Y2My8gEKCAwSBk5vcm1hbPIBKAgKEiQ1M2QzOGRkZi0wNjEyLTQ4YWEtOWVhZi03NTM4ZTQ1MTNiOTnyAQUICxIBOIICAIgCg8TEm7kzkgIgNjU4YWNkMDAzODI1NjUwODFkYWM2M2E5OWZlZTRjYzKaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAhdUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUegCBfoCC05PUk1BTF9GTE9XigMgODcxZWFiZWNkMTA5NGE4MWJhM2U4YjY5MWI5ODZkY2KaAw0KAnYyEAAaBW90aGVyqAPZB9gDAOoDGWdjZktubkF1dGhvckhpZ2hQb3NSZWNhbGz6A/UDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQuAgY4AQiI3YyLWVlOWEzNmVhODM4OWM3MWU0MGQ5YmI0NzFjNGVjOWY2Oi0IAxDhBBi/AiIjdjItNzNkYTkxYjI2MDBiYjI2MjE5MDdmN2ZhNzBkNjM3YzE6LQgCELgIGKEFIiN2Mi1iMGRkNjNiM2RjZTM1NThlODc0ZTYwZmUxZTNiN2NkNjotCAIQuAgY2gYiI3YyLTNhZTYxMDc4MzIxMDNjMGRmZWVmYWJmZDE0MzU5ZWE0Oi0IAhC4CBi3BCIjdjItNjdhYjIyNmM1OTg5ZjE3MjY0OWE0N2JiMjliY2VlYWE6LQgCELgIGKQDIiN2Mi05NmI1ZDZlMmI2MWRlMGZhZDNjYWJmMTVjMjkyNzk2NDotCAIQuAgY1wQiI3YyLTU1YTMyYTk3YWM1ZTQyNzk1ODFlMWUwNzczMDMwN2Y5Oi0IAhC+AhifASIjdjItZmY3NjY0MGFiYzY0Y2FjMzYxYzI1M2ExZmFhYzdhY2Y6LQgCEM4HGN4DIiN2Mi1jMTgxNTljZWFhNjk2N2EyNDkxODIwZDU1NzRiNmJlNDotCAIQrAgYmAQiI3YyLTIzODBlOWVkN2Q3YjJmZDI0YjViNzJiOGNkN2M2YTRjgAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgaimOP4EFAAAAAAAAAACJBZsfU07uU7E/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQiQBgCgBi+oBgCSAi4KCTI2Nzk4ODk1MBITMTk4NjM5NjE5NjY4ODkwOTU4NBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=47&desktop=true&end_offset=47&page_number=9&session_token=a4e90c57987156ba91b025a931ace108",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=47&desktop=true&end_offset=47&page_number=9&session_token=a4e90c57987156ba91b025a931ace108",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

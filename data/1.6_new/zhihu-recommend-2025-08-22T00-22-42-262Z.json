@@ -1,0 +1,606 @@
+{
+  "data": [
+    {
+      "id": "AD_3539435_17558222083720",
+      "type": "feed_advert",
+      "brief": "{\"source\":\"PR\",\"type\":\"feed_advert\",\"id\":3539435}",
+      "action_text": "",
+      "attached_info": "CqgBCLqotJbtuM2njQFABpABAdoBJGE3ZjliZjY0LWQ4NzMtNGIzZS04YzM1LTQyYzc2M2JlYjliZvIBBggMEgJBZIgC9Oqi+Ywz+gILQURWRVJUX0ZMT1eKAyBmODUwMWI5NjkyNzU0MTU1OGMyMDc3ZWM2ZGIzMWQyNIAEAZIEC0J1c2luZXNzX0Fk+QQAAAAAAADwP4EFAAAAAADAZkCyBQExoAYGqAYBMhQtODI2NDMyNzY2MzE0NTExODY2Mg==",
+      "ad": {
+        "count": 0,
+        "position": 0,
+        "ad_verb": "PROMOTE_URL_CARD",
+        "close_track": "https://sugar.zhihu.com/plutus_adreaper?pf=4&s=725fc749-a31a-4147-847b-970d22dc8783&ut=075acd00a0774b9d9d2a3786e8226e3a&nt=0&ed=CjEEfR4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMU3EEgucwDtik%3D&idi=100010062&ar=0.0018213391304016113&pdi=1720689004062518&di=tower&t=7",
+        "revert_close_track": "https://sugar.zhihu.com/plutus_adreaper?idi=100010062&s=725fc749-a31a-4147-847b-970d22dc8783&ar=0.0018213391304016113&ut=075acd00a0774b9d9d2a3786e8226e3a&nt=0&t=8&pdi=1720689004062518&di=tower&ed=CjEEch4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUgqKp6jKlU-4%3D&pf=4",
+        "template": "web_image_feed",
+        "load_tracks": [
+          "https://sugar.zhihu.com/plutus_adreaper?idi=100010062&ed=CjEEeB4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUTDCFLUwxLis%3D&pf=4&ar=0.0018213391304016113&ut=075acd00a0774b9d9d2a3786e8226e3a&t=2&nt=0&s=725fc749-a31a-4147-847b-970d22dc8783&pdi=1720689004062518&di=tower"
+        ],
+        "creatives": [
+          {
+            "landing_url": "https://click.aliyun.com/m/1000399752/?spu=biz%3D0%26ci%3D3464224%26si%3Da7f9bf64-d873-4b3e-8c35-42c763beb9bf%26ts%3D1755822207%26zid%3D7",
+            "image": "https://pic1.zhimg.com/v2-01a8d7f57bd34f8408be9d12c3718fc8_bh.jpg?source=d6434cab",
+            "image_2x": "",
+            "title": "阿里云上云优选的「薅羊毛」指南速收",
+            "description": "阿里云「上云优选」精准拿捏需求！云服务器 38 元 / 年起，轻松搭建个人项目；AI 大模型限时免费领千万 tokens，开发、创作都能用。高性价比上云 + AI 资源一步到位，点击即刻解锁省钱又高效的用云新姿势～",
+            "button": "查看详情",
+            "action_button": false,
+            "footer": {
+              "value": ""
+            },
+            "cta": {
+              "value": "查看详情"
+            },
+            "brand": {
+              "id": 0,
+              "name": "阿里云",
+              "logo": "https://pic4.zhimg.com/v2-1c5da37aa83c6231c6cd1540923243da_xl.jpg?source=d6434cab"
+            },
+            "app_promotion_url": "",
+            "native_url": "",
+            "deep_url": "",
+            "video_watch_num": 9829,
+            "za_ad_info": "COuD2AEQByIBMV1xT9FOYKC40wE=",
+            "za_ad_info_json": "{\"ad_id\":3539435,\"ad_zone_id\":7,\"category\":\"1\",\"timestamp\":1755822200,\"creative_id\":3464224}",
+            "external_click_url": "",
+            "impression_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?t=3&rui=a7f9bf64-d873-4b3e-8c35-42c763beb9bf&idi=100010062&pf=4&ed=CjEEeR4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUSHBZ_p4Cw-s%3D&ar=0.0018213391304016113&di=tower&nt=0&pdi=1720689004062518&ut=075acd00a0774b9d9d2a3786e8226e3a&s=725fc749-a31a-4147-847b-970d22dc8783"
+            ],
+            "click_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?pdi=1720689004062518&t=4&ut=075acd00a0774b9d9d2a3786e8226e3a&di=tower&idi=100010062&ar=0.0018213391304016113&s=725fc749-a31a-4147-847b-970d22dc8783&ed=CjEEfh4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUmzu7iHu5WT0%3D&nt=0&pf=4"
+            ],
+            "id": 3539435,
+            "name": "",
+            "conversion_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?s=725fc749-a31a-4147-847b-970d22dc8783&t=5&ed=CjEEfx4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUac-0uH49r6k%3D&idi=100010062&pdi=1720689004062518&ut=075acd00a0774b9d9d2a3786e8226e3a&di=tower&nt=0&ar=0.0018213391304016113&pf=4"
+            ],
+            "content_type": "",
+            "target_token": ""
+          }
+        ],
+        "vote_up_count": 0,
+        "comment_count": 0,
+        "is_following": false,
+        "category": 1,
+        "id": 3539435,
+        "can_interact": false,
+        "user_id": 0,
+        "ctr": 0,
+        "display_advertising_tag": true,
+        "debug_tracks": [
+          "https://sugar.zhihu.com/plutus_adreaper?idi=100010062&ut=075acd00a0774b9d9d2a3786e8226e3a&ed=CjEEcx4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUQ7g2m2BObaQ%3D&s=725fc749-a31a-4147-847b-970d22dc8783&pf=4&pdi=1720689004062518&di=tower&nt=0&ar=0.0018213391304016113&t=9"
+        ],
+        "land_prefetch": false,
+        "native_prefetch": true,
+        "is_new_webview": true,
+        "experiment_info": "{}",
+        "download_silent": false,
+        "is_speeding": false,
+        "brand": {
+          "name": "阿里云",
+          "logo": "https://pic4.zhimg.com/v2-1c5da37aa83c6231c6cd1540923243da_xl.jpg?source=d6434cab",
+          "type": "brand",
+          "action_text": ""
+        }
+      },
+      "ad_list": [],
+      "adjson": "{\"ads\":[{\"id\":3539435,\"ad_zone_id\":7,\"template\":\"web_image_feed\",\"style\":\"psi_7\",\"impression_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0\\u0026di=tower\\u0026idi=100010062\\u0026nt=0\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026t=2\\u0026ed=CjEEeB4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUTDCFLUwxLis%3D\\u0026ar=0.0018213391304016113\\u0026pf=4\\u0026pdi=1720689004062518\"],\"view_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?t=3\\u0026ed=CjEEeR4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUSHBZ_p4Cw-s%3D\\u0026rui=a7f9bf64-d873-4b3e-8c35-42c763beb9bf\\u0026di=tower\\u0026pdi=1720689004062518\\u0026ar=0.0018213391304016113\\u0026s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026pf=4\\u0026idi=100010062\\u0026nt=0\"],\"click_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?di=tower\\u0026pf=4\\u0026nt=0\\u0026pdi=1720689004062518\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026ed=CjEEfh4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUmzu7iHu5WT0%3D\\u0026ar=0.0018213391304016113\\u0026s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0\\u0026idi=100010062\\u0026t=4\"],\"close_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?t=7\\u0026ed=CjEEfR4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMU3EEgucwDtik%3D\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0\\u0026pdi=1720689004062518\\u0026nt=0\\u0026di=tower\\u0026pf=4\\u0026idi=100010062\\u0026ar=0.0018213391304016113\"],\"debug_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?idi=100010062\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026di=tower\\u0026ed=CjEEcx4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUQ7g2m2BObaQ%3D\\u0026nt=0\\u0026s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0\\u0026ar=0.0018213391304016113\\u0026pdi=1720689004062518\\u0026pf=4\\u0026t=9\"],\"conversion_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0\\u0026pf=4\\u0026idi=100010062\\u0026di=tower\\u0026pdi=1720689004062518\\u0026ed=CjEEfx4wM316F2sDBmF7VEZyW30Bbm54fxZ_XgYzLx0IJwArDiZrJHcVMQQXMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIaWIFUnMLewtya3l3HGFSFzI8DVp1CWxUNmd1fB1lVgJpeRYeLAR4DHNjenZEYwILZi8FWH9cfAhzYCR_RmddVWQvClxxDnMCdG0ifQMmFAxhewVefQt4CnNtZi9Sb1cXMyQNW2NYPwV1bnV4EWJBQTElDVtjTTlXfmtmLVVvVxc_L0NWdR8lWyRncGhDMxQMYGpWCjcEeh4uOTJzFXQSRDkoDVpwAHoIcW1zfhxiUAFjewJNJFApBXN8NDsYOhNFID8VWAQceH5maAYtSTsEWn4tXAI8TCQWIDUtaxcUChRiCgFbdQl5AXptdXwAYCEXICINgt2Go7_PvvrfAyACDGF0AkV0CnkBcmlwehVjUQBhfxYZJkt3CGU4JnMUac-0uH49r6k%3D\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026nt=0\\u0026t=5\\u0026ar=0.0018213391304016113\"],\"extra_conversion_tracks\":{\"call_back\":[\"https://sugar.zhihu.com/plutus_adreaper_callback?si=429d717d-7b79-4813-97cc-cb9a6e1d90cc\\u0026os=3\\u0026zid=7\\u0026zaid=3539435\\u0026zcid=3464224\\u0026cid=3464224\\u0026event=__EVENTTYPE__\\u0026value=__EVENTVALUE__\\u0026ts=__TIMESTAMP__\\u0026cts=__TS__\\u0026mh=0d4c67703d44506b579057ff6733c754\\u0026adv=645640\\u0026ocg=0\\u0026cp=0\\u0026ocs=0\\u0026aic=0\\u0026ct=0\"]},\"za_ad_info\":\"COuD2AEQByIBMV1xT9FOYKC40wE=\",\"za_ad_info_json\":\"{\\\"ad_id\\\":3539435,\\\"ad_zone_id\\\":7,\\\"category\\\":\\\"1\\\",\\\"timestamp\\\":1755822200,\\\"creative_id\\\":3464224}\",\"creatives\":[{\"id\":3464224,\"asset\":{\"brand_name\":\"阿里云\",\"brand_logo\":\"https://pic4.zhimg.com/v2-1c5da37aa83c6231c6cd1540923243da_xl.jpg?source=d6434cab\",\"title\":\"阿里云上云优选的「薅羊毛」指南速收\",\"desc\":\"阿里云「上云优选」精准拿捏需求！云服务器 38 元 / 年起，轻松搭建个人项目；AI 大模型限时免费领千万 tokens，开发、创作都能用。高性价比上云 + AI 资源一步到位，点击即刻解锁省钱又高效的用云新姿势～\",\"imgs\":[\"https://pic1.zhimg.com/v2-01a8d7f57bd34f8408be9d12c3718fc8_bh.jpg?source=d6434cab\"],\"landing_url\":\"https://click.aliyun.com/m/1000399752/?spu=biz%3D0%26ci%3D3464224%26si%3Da7f9bf64-d873-4b3e-8c35-42c763beb9bf%26ts%3D1755822207%26zid%3D7\",\"img_size\":1,\"cta\":\"查看详情\",\"image_ratio_extra\":{\"width\":25,\"height\":14},\"native_asset\":{\"plugin_type\":\"\"},\"img_full_screen\":false,\"zm_landing_url\":\"https://click.aliyun.com/m/1000399752/?spu=biz%3D0%26ci%3D3464224%26si%3Da7f9bf64-d873-4b3e-8c35-42c763beb9bf%26ts%3D1755822207%26zid%3D7\",\"m_landing_url\":\"\"},\"video_watch_num\":9829,\"fact_ctr\":0.0018213391304016113,\"fact_cvr\":-1}],\"expand\":{\"display_advertising_tag\":true,\"download_silent\":false,\"is_new_webview\":true,\"is_cdn_speeding\":false,\"extra\":{\"parameters\":\"plugcb=https%3A%2F%2Fsugar.zhihu.com%2Fplutus_adreaper_callback%3Fcid%3D3464224%26ccid%3D2547860%26adid%3D3539435%26zoneid%3D7%26adsource%3Deffect%26sid%3Da7f9bf64-d873-4b3e-8c35-42c763beb9bf\",\"sign\":\"429d717d-7b79-4813-97cc-cb9a6e1d90cc\"},\"is_apk_market_direct\":false,\"interactive\":{\"deliver_time\":\"25 分钟前\",\"browse_string\":\"997 \",\"participate_string\":\"2 \",\"slide_time_one\":3,\"slide_time_two\":10,\"slide_end\":true,\"deep_link_jump_time\":3},\"launch_timeout\":600},\"experiment_info\":\"{}\",\"view_x_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026nt=0\\u0026ar=0.0018213391304016113\\u0026ed=CjEEewhlKSlzEWBeVWd9Bw9oDigPend0dhRhSghnL1NGJltzWXU_cSocYgRSdi1KVnIfK1EnZ3N7FmtTAmVqQAJ4C38MdGJ2fgMxDgxjeAZfdwt-HiAufX4DMQgMaXUeXnwPeAlwa3F3HGtUBHYuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4CnFqd2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkLemtzfhFiVgdhfQNNN1o4BXN8IigYY_AZ0jvpVXHz\\u0026s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0\\u0026t=10\\u0026pf=4\\u0026idi=100010062\\u0026di=tower\\u0026pdi=1720689004062518\"],\"mobile_experiment\":{\"feed_card_exp\":\"\"},\"traffic_source\":1,\"party_id\":-2,\"deliver_tracks\":[\"http://proxy-ad-track-plutus.pek01.rack.zhihu.com:10000/ad-track/plutus_log?nt=0\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026bn=0\\u0026idi=100010062\\u0026pty=50\\u0026ar=0.0018213391304016113\\u0026rui=a7f9bf64-d873-4b3e-8c35-42c763beb9bf\\u0026ri=a7f9bf64-d873-4b3e-8c35-42c763beb9bf\\u0026pf=4\\u0026pdi=1720689004062518\\u0026t=12\\u0026s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0\\u0026di=tower\\u0026ed=CjEEewplKSlzEWBeVWd9Bw9oDigPend0dhRhSghnL1NGJltzWXU_cSocYgRSdi1KVnIfK1EnZ3N7FmtTAmVqQAJ4C38MdGJ2fgMxDgxjeAZfdwt-HiAufX4DMQgMaXUeXnwPeAlwa3F3HGtUBHYuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4CnFqd2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkLemtzfhFiVgdhfQNNN1o4BXN8IigYY0TJkqKVnuyV\"],\"product_uuid\":1590027309070372}]}",
+      "pcontent": "",
+      "ncontent": "https://zhuanlan.zhihu.com/p/1932492921954874446",
+      "ext_info": {
+        "content_type": "",
+        "content_id": "",
+        "question_id": -1,
+        "auction_type": 1,
+        "ecpm": 182,
+        "type": 1,
+        "fact_bid_price": 100,
+        "fact_ctr": 0.0018213391304016113,
+        "fact_cvr": -1,
+        "deliver_tracks": [
+          "http://proxy-ad-track-plutus.pek01.rack.zhihu.com:10000/ad-track/plutus_log?ar=0.0018213391304016113&ut=075acd00a0774b9d9d2a3786e8226e3a&di=tower&ed=CjEEewllKSlzEWBeVWd9Bw9oDigPend0dhRhSghnL1NGJltzWXU_cSocYgRSdi1KVnIfK1EnZ3N7FmtTAmVqQAJ4C38MdGJ2fgMxDgxjeAZfdwt-HiAufX4DMQgMaXUeXnwPeAlwa3F3HGtUBHYuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4CnFqd2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkLemtzfhFiVgdhfQNNN1o4BXN8IigYY-O-RzIKDV0w&pf=4&pdi=1720689004062518&idi=100010062&t=11&ft=2&nt=0&s=2dc210a6-9b61-4ad3-b88a-7efeba2572c0"
+        ],
+        "zfeature_content_info": null,
+        "author_id": 0,
+        "parent_id": 0,
+        "title": null,
+        "content_embedding": null,
+        "media_type": null,
+        "party_id": "EFFECT",
+        "creative_id": 3464224
+      }
+    },
+    {
+      "id": "6_1755822208.742",
+      "type": "feed",
+      "offset": 6,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822208,
+      "updated_time": 1755822208,
+      "target": {
+        "id": "1932492921954874446",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1932492921954874446",
+        "author": {
+          "id": "b256c47b6e62afa0bd4a3aacfffdcc0d",
+          "url": "https://api.zhihu.com/people/b256c47b6e62afa0bd4a3aacfffdcc0d",
+          "user_type": "people",
+          "url_token": "59-75-87-22-92",
+          "name": "天涯奇谈馆",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-8817e87ab817d4aa950b9826021a229a_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 682,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "天涯神贴：中国正在上演经济史上最诡异的一幕",
+        "comment_permission": "all",
+        "created": 1753522291,
+        "updated": 1753522291,
+        "voteup_count": 648,
+        "voting": 0,
+        "comment_count": 96,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "中国正在上演经济史上最诡异的一幕，越没用的东西卖的越贵，越是虚无的需求市场越大。一个塑料玩偶拉布布拍出了108万的天价，中老年人看土味短剧一年烧掉504亿，悄悄超过了年轻人看电影的425亿。有人月薪5000却花2000养猫，有人凌晨排队只为了一个盲盒。所有人都在问中国人是不是钱太多了？恰恰相反就证明中国人的钱太少了，少到只能用来买一样东西情绪。继续分享天涯神帖系列中国经济的隐秘革命，作者九哥答案藏在两个数字里。…",
+        "excerpt_new": "中国正在上演经济史上最诡异的一幕，越没用的东西卖的越贵，越是虚无的需求市场越大。一个塑料玩偶拉布布拍出了108万的天价，中老年人看土味短剧一年烧掉504亿，悄悄超过了年轻人看电影的425亿。有人月薪5000却花2000养猫，有人凌晨排队只为了一个盲盒。所有人都在问中国人是不是钱太多了？恰恰相反就证明中国人的钱太少了，少到只能用来买一样东西情绪。继续分享天涯神帖系列中国经济的隐秘革命，作者九哥答案藏在两个数字里。…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"beuFC02T\">中国正在上演经济史上最诡异的一幕，越没用的东西卖的越贵，越是虚无的需求市场越大。一个塑料玩偶拉布布拍出了108万的天价，中老年人看土味短剧一年烧掉504亿，悄悄超过了年轻人看电影的425亿。有人月薪5000却花2000养猫，有人凌晨排队只为了一个盲盒。所有人都在问中国人是不是钱太多了？恰恰相反就证明中国人的钱太少了，少到只能用来买一样东西情绪。继续分享天涯神帖系列中国经济的隐秘革命，作者九哥答案藏在两个数字里。中国单身人口已经达到2.4亿，预计明年突破3亿，60岁以上的人口刚突破3.1亿，两群人加起来约6亿，接近总人口的一半。这6亿人创造了中国历史上从未有过的现象，他们是第一批可以为自己花钱的中国人。要理解这个现象得从中国人的钱包革命来说起，几千年前中国人的钱都被锁在四个字里养家糊口，你赚的每一份钱都有明确的孝敬父母、养育子女、人情往来，最后轮到自己呢？没了。但这6亿人打破了循环，3亿单身的没有家要养，3亿老人的家已经养完了，他们的收入第一次可以完全自主支配。这看似是个人的选择，实则是生产关系变革的必然。先来说一说3亿单身大军的形成，很多人以为是因为穷，大错特错，却是ha。现在结婚的成本百万起步，但过去的人更穷，为什么反而结婚的人更多？真相就藏在了生产方式的变革当中。农业社会婚姻是生产单位夫妻合作，中低工业社会每个人都成了独立的打工者，婚姻从生产工具变成了消费负担。关键是女性地位的革命，1980年城镇女性就业率仅为30%，现在超过了60%。当女性经济独立了，那么传统分工的基础就崩塌了。与此同时，在男性996的压榨之下也无力承担养家重任。所以3亿人单身其实是生产关系变革的必然结果，这也直接改写了消费逻辑。他们创造了二元消费法则：生存消费极度压缩，情绪消费极度膨胀。那这都是什么意思？同一个人买生活必需品抠门到极致，50块的外卖得比加半小时10块钱运费也舍不得。但买情绪产品一掷千金，为了抽中隐藏款盲盒平均要花8496元，给宠物买的进口粮比自己吃的还贵。这不是分裂，是精明。现代社会维持基本生存成本很低，省下来的钱就全投入到快乐生产。所以我们就看到了几个疯狂增长的市场，宠物经济已经达到了2793亿，预计到2026年将突破3600亿元。为什么？在高压社会里人与人的关系充满变数，只有宠物提供无条件的情感回报，这种确定性是稀缺资源。一人式经济蓬勃发展，单人火锅、迷你家电、小份装饰品不是因为吃不起大份，而是一人生活成了主流生活方式。虚拟陪伴产业的崛起、爱聊天、虚拟偶像、线上社群，这些看似虚无的东西却在填补现实中的情感空白。咱们再来看看3亿银发族，他们的消费觉醒更具有革命性，这是中国历史上第一代真正意义的退休阶层。过去的老人要么劳作到死，要么成为子女的免费保姆。但这批60后、70后不同，他们赶上了改革开放的红利，退休金有积蓄，子女已得独立。突然间他们发现自己有了人生中从未有过的东西，自由支配的时间和金钱，然后补偿性的消费就爆发了。 90%老人选择线上学习，月均消费几千元。学什么？钢琴、书法、舞蹈、唱歌，所有年轻时想学而不能学的东西，这不是简单的兴趣爱好，而是对被耽搁的青春的补偿。中老年短剧。为什么能烧掉504亿？因为那些看似荒诞的剧情，霸总穿越暴富，恰恰满足了他们年轻时被压抑的幻想，当了一辈子的螺丝钉，过分吗？6亿人的消费值向同一个核心情绪价值。那什么是情绪价值？传统经济学只承认使用价值和交换价值，但现在出现了第三种价值，情绪价值，即商品带给人的心理满足。就比如说拉布布让你觉得与众不同，蜜雪冰城让你觉得便宜也快乐，线上课程让你觉得还在进步，这些产品物质价值趋近于零，情绪价值趋近于无限，这就是全新的价值创造方式。那为什么是现在？因为三重变革同时爆发。还有很多朋友不知道怎么看全文和神贴合集，可以点进我头像查看简介，加入九哥的小圈子。 · 第一经济基础的质变，人均GDP突破1万美元，物质需求饱和，精神需求爆发。 · 第二消费主体的革命，6亿人摆脱家庭经济束缚，成为独立消费单元，这种规模是史无前例的。 · 第三技术条件的成熟，大数据精准识别情绪需求，算法精准推送情绪，可以标准化生产。然而资本的嗅觉是最灵敏的，早已经重兵布局银发经济，现在的规模已经突破了12万亿，预计2025年近50万亿，占GDP的12%，对比房地产巅峰期16%，情绪经济几乎就是下一个房地产。但这不仅仅是一个商业机会，更是一次深刻的社会变革。但要理解这场变革，必须理解6亿人的孤独的根源。改革开放40年，本质上就是一场社会结构的解体与重构。人从土地上解放出来，获得了流动自由；从单位体制解放出来，获得了择业自由；从家庭束缚当中解放出来，获得了生活自由。但自由是有代价的，过去你被束缚，也被保护，村庄是安全网，单位是保护伞，家族是后盾。现在这些都没了，每个人都成了都市丛林里的独行侠。这种原子化是现代化必然代价，工业化需要劳动力流动，市场经济需要打破人性束缚，个人主义需要摆脱集体依附</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/aQa-kBf7DuuLakjsBphamw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">天涯神帖领取入口</a><p></p>",
+        "is_labeled": false,
+        "visited_count": 94257,
+        "favorite_count": 957,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1932492921954874446}",
+      "attached_info": "CrMGCLqotJbtuM2njQEQBxoJMjYwODYzNzYzIPPAksQGKIgFMGBABko/CipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU0SATAYACAAOgp7InJhdyI6IiJ9YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzMjQ5MjkyMTk1NDg3NDQ0NqoBCXJlY29tbWVuZMIBIGIyNTZjNDdiNmU2MmFmYTBiZDRhM2FhY2ZmZmRjYzBk8gEKCAwSBk5vcm1hbPIBKAgKEiRmN2FmMWUzOS0xOGJjLTRlMjMtYjRiYi1iYTgzMGYyNWUxZDjyAQUICxIBMoICAIgC9Oqi+YwzkgIgYjI1NmM0N2I2ZTYyYWZhMGJkNGEzYWFjZmZmZGNjMGSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1NhbWVBdXRob3JJc29sYXRpb25SdWxl2gIqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVN6AIC+gILTk9STUFMX0ZMT1eKAyBmODUwMWI5NjkyNzU0MTU1OGMyMDc3ZWM2ZGIzMWQyNJoDDQoCdjIQABoFb3RoZXKoA7HgBdgDAOoDEG5ld2JpZV9mZWVkcmVfdjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAN6WwD+BBQAAAAAAAAAAiQVPyQ52D+rWP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUCkAYAoAYHqAYAkgIuCgkyNjA4NjM3NjMSEzE5MzI0OTI5MjE5NTQ4NzQ0NDYYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "7_1755822208.278",
+      "type": "feed",
+      "offset": 7,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822208,
+      "updated_time": 1755822208,
+      "target": {
+        "id": "1938589547647735288",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1938589547647735288",
+        "author": {
+          "id": "128ace5da8a2cbdeff85dc24530a1082",
+          "url": "https://api.zhihu.com/people/128ace5da8a2cbdeff85dc24530a1082",
+          "user_type": "people",
+          "url_token": "xi-bei-lao-yi-80-63",
+          "name": "西北老汉",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-89aa3704e48a3e5d05f677aa8cdc8586_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 14,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754975765,
+        "updated_time": 1754975765,
+        "voteup_count": 762,
+        "thanks_count": 30,
+        "comment_count": 152,
+        "is_copyable": true,
+        "question": {
+          "id": "620384096",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/620384096",
+          "author": {
+            "id": "efb5c8ac1fda6d16cb09a883f82a75ff",
+            "url": "https://api.zhihu.com/people/efb5c8ac1fda6d16cb09a883f82a75ff",
+            "user_type": "people",
+            "url_token": "71-49-72-21-76",
+            "name": "河东之夏",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-33c36cbf41b4d5a83a42510fbaf62fa4_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 486,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "你看过的电影中，有哪个女演员让你眼前一亮？",
+          "created": 1693731043,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 22,
+          "bound_topic_ids": [
+            68,
+            2191,
+            6261
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-6e265a965e08dac425bb62474c27c851_720w.jpg?source=b6762063",
+        "excerpt": "有没有大哥知道这个的，当时真心觉得好看",
+        "excerpt_new": "有没有大哥知道这个的，当时真心觉得好看",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a4b7b652f1ba397b9505e3ddaa0f5cb0_1440w.jpg\" data-rawwidth=\"1344\" data-rawheight=\"1123\" data-size=\"normal\" data-original-token=\"v2-6e265a965e08dac425bb62474c27c851\" data-default-watermark-src=\"https://picx.zhimg.com/v2-2c61138d15b417f9a8a70fc964e247b5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1344\" data-original=\"https://pica.zhimg.com/v2-a4b7b652f1ba397b9505e3ddaa0f5cb0_r.jpg\"/></figure><p data-pid=\"Kb-DEYkM\">有没有大哥知道这个的，当时真心觉得好看</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 388815,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-6e265a965e08dac425bb62474c27c851_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 1478,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1938589547647735288}",
+      "attached_info": "CsMGCLqotJbtuM2njQEQBBoJNzQxNzk1NTE5IJWc68QGKPoFMJgBQAdKLgodVFNfU09VUkNFX0ZFRURfVVNFUl9FWFBFUlRfQ0YSBzcxMTU1NzAYACAAOgBaCTEwMDE0Mjg0MWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5Mzg1ODk1NDc2NDc3MzUyODiKAQk2MjAzODQwOTaqAQlyZWNvbW1lbmTCASAxMjhhY2U1ZGE4YTJjYmRlZmY4NWRjMjQ1MzBhMTA4MvIBCggMEgZOb3JtYWzyASgIChIkMzkzMDU2NjYtMzhmNC00MTBiLWJmYTItYmU3NDU1OTliOTVh8gEFCAsSATKCAgCIAvTqovmMM5ICIDEyOGFjZTVkYThhMmNiZGVmZjg1ZGMyNDUzMGExMDgymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIdVFNfU09VUkNFX0ZFRURfVVNFUl9FWFBFUlRfQ0boAgL6AgtOT1JNQUxfRkxPV4oDIGY4NTAxYjk2OTI3NTQxNTU4YzIwNzdlYzZkYjMxZDI0mgMNCgJ2MhAAGgVvdGhlcqgDz90X2AMA6gMQYWlHcmFwaEVtYlVzZXJDRvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEMAKGOMIIiN2Mi02ZTI2NWE5NjVlMDhkYWM0MjViYjYyNDc0YzI3Yzg1MYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIDT6cg/gQUAAAAAAAAAAIkFT8kOdg/q1j+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFApAGAKAGCKgGAZICLgoJNzQxNzk1NTE5EhMxOTM4NTg5NTQ3NjQ3NzM1Mjg4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "8_1755822208.582",
+      "type": "feed",
+      "offset": 8,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822208,
+      "updated_time": 1755822208,
+      "target": {
+        "id": "1940490696759943322",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1940490696759943322",
+        "author": {
+          "id": "dba7bd49287a61e7e3eb267cd258a70c",
+          "url": "https://api.zhihu.com/people/dba7bd49287a61e7e3eb267cd258a70c",
+          "user_type": "people",
+          "url_token": "tian-cai-yan-gao-zhuang-shi",
+          "name": "污水处理药剂PAC",
+          "headline": "污水处理药剂厂家PAC、PAM",
+          "avatar_url": "https://picx.zhimg.com/50/v2-3d2484e30fa931d7d5d0a0d8ec85c3f9_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 32,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755429034,
+        "updated_time": 1755429034,
+        "voteup_count": 543,
+        "thanks_count": 8,
+        "comment_count": 127,
+        "is_copyable": true,
+        "question": {
+          "id": "661702091",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/661702091",
+          "author": {
+            "id": "d4b8bbed1353420c7429a9fd08f97f2e",
+            "url": "https://api.zhihu.com/people/d4b8bbed1353420c7429a9fd08f97f2e",
+            "user_type": "people",
+            "url_token": "xjbwzyb66",
+            "name": "啦啦怪",
+            "headline": "阿巴阿巴阿巴巴，勇做世界大玩家",
+            "avatar_url": "https://pica.zhimg.com/50/v2-3efc33cef918417dfc542aebcddbf4b3_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 107,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "什么样的女主才能叫做「人间尤物」？",
+          "created": 1721056514,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 35,
+          "bound_topic_ids": [
+            663,
+            4186,
+            13086,
+            24736,
+            128069
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-93d0dc2ec520e5ef031e797ca7a7055f_720w.jpg?source=b6762063",
+        "excerpt": "统一了东西方男人的审美～ [视频]",
+        "excerpt_new": "统一了东西方男人的审美～ [视频]",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"36KT7lxN\">统一了东西方男人的审美～</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1940490581747939007\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-93d0dc2ec520e5ef031e797ca7a7055f.jpg\" data-lens-id=\"1940490581747939007\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-93d0dc2ec520e5ef031e797ca7a7055f.jpg\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1940490581747939007</span></span></a>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 274738,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-93d0dc2ec520e5ef031e797ca7a7055f_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 313,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1940490696759943322}",
+      "attached_info": "CvQHCLqotJbtuM2njQEQBBoJNzQyNjQ0MzU2IKrxhsUGKJ8EMH9ACEpGCiJUU19TT1VSQ0VfU09DSUFMX0FGRklOSVRZX05FQVJMSU5FEhpuZWFybGluZUNvbnRlbnRWMjo1NzA1MzgyNBgAIAA6AEorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YyEgEwGAAgADoKeyJyYXciOiIifUo/CipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU0SATAYACAAOgp7InJhdyI6IiJ9SkQKIFRTX1NPVVJDRV9TT0NJQUxfRk9MTE9XX05FQVJMSU5FEhpuZWFybGluZUNvbnRlbnRWMjo1NzA1MzgyNBgAIAA6AFoJMTA5MzIyNzUxYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN2i/7c648ryA9xpyEzE5NDA0OTA2OTY3NTk5NDMzMjKKAQk2NjE3MDIwOTGqAQlyZWNvbW1lbmTCASBkYmE3YmQ0OTI4N2E2MWU3ZTNlYjI2N2NkMjU4YTcwY/IBCggMEgZOb3JtYWzyASgIChIkMmQ5YjNhODYtNmIxMy00ODBlLWJhMWItZDE3YzYzN2I1YmJi8gEFCAsSATKCAgCIAvTqovmMM5ICIGRiYTdiZDQ5Mjg3YTYxZTdlM2ViMjY3Y2QyNThhNzBjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIiVFNfU09VUkNFX1NPQ0lBTF9BRkZJTklUWV9ORUFSTElORegCAvoCC05PUk1BTF9GTE9XigMgZjg1MDFiOTY5Mjc1NDE1NThjMjA3N2VjNmRiMzFkMjSaAw0KAnYyEAAaBW90aGVyqAOy4hDYAwDqAxZhZmZpbml0eU5lYXJMaW5lUmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIC2hNY/gQUAAAAAAAAAAIkFT8kOdg/q1j+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFApAGAKAGCagGAJICLgoJNzQyNjQ0MzU2EhMxOTQwNDkwNjk2NzU5OTQzMzIyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "9_1755822208.138",
+      "type": "feed",
+      "offset": 9,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822208,
+      "updated_time": 1755822208,
+      "target": {
+        "id": "1937889533766119722",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1937889533766119722",
+        "author": {
+          "id": "a068b645b0888de92ba9f601427ff67f",
+          "url": "https://api.zhihu.com/people/a068b645b0888de92ba9f601427ff67f",
+          "user_type": "people",
+          "url_token": "zhi-yi-96-42",
+          "name": "醒身计划",
+          "headline": "希望多多分享正能量，分享我觉得值得看的书，值得学习的牛人！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ac4b0036d8ac6fec934dca4ec4b1399a_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "好书推荐——张宏杰的《曾国藩传》",
+        "comment_permission": "all",
+        "created": 1754808923,
+        "updated": 1754808923,
+        "voteup_count": 1,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "之所以对曾国藩感兴趣，是因为梁启超的一句：中国历史上有“两个半圣人”，一个是孔子，一个是王阳明，另外半个是曾国藩。 曾国藩因何可以称为半个圣人呢？之前对曾国藩了解只不过是历史课本上，曾国藩参加洋务运动云云，和圣人相去尚远。（中国的历史教育大抵有这样的问题，粗暴的展现结论，缺乏详细的时代背景介绍，避免让人觉得枯燥、难以理解，失去了很多历史的乐趣。） 张宏杰的《曾国藩传》我觉得主要讲述了曾国藩一生中最…",
+        "excerpt_new": "之所以对曾国藩感兴趣，是因为梁启超的一句：中国历史上有“两个半圣人”，一个是孔子，一个是王阳明，另外半个是曾国藩。 曾国藩因何可以称为半个圣人呢？之前对曾国藩了解只不过是历史课本上，曾国藩参加洋务运动云云，和圣人相去尚远。（中国的历史教育大抵有这样的问题，粗暴的展现结论，缺乏详细的时代背景介绍，避免让人觉得枯燥、难以理解，失去了很多历史的乐趣。） 张宏杰的《曾国藩传》我觉得主要讲述了曾国藩一生中最…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"NaYp2ZUM\">之所以对曾国藩感兴趣，是因为梁启超的一句：中国历史上有“两个半圣人”，一个是孔子，一个是王阳明，另外半个是曾国藩。</p><p data-pid=\"VPg8Qdf8\">曾国藩因何可以称为半个圣人呢？之前对曾国藩了解只不过是历史课本上，曾国藩参加洋务运动云云，和圣人相去尚远。（中国的历史教育大抵有这样的问题，粗暴的展现结论，缺乏详细的时代背景介绍，避免让人觉得枯燥、难以理解，失去了很多历史的乐趣。）</p><p data-pid=\"gMSsx4vM\">张宏杰的《曾国藩传》我觉得主要讲述了曾国藩一生中最重要的4件事：考科举当京官，创立湘军镇压太平天国，参加洋务运动以及外交，以及培养人才跟对子孙的教育。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-07a8a337b4fb5cf0cb3acaa1eb7040ad_1440w.jpg\" data-rawwidth=\"474\" data-rawheight=\"655\" data-size=\"normal\" data-original-token=\"v2-0790fed5a5a1f20f37ebc2854b8d8fb9\" class=\"origin_image zh-lightbox-thumb\" width=\"474\" data-original=\"https://pic4.zhimg.com/v2-07a8a337b4fb5cf0cb3acaa1eb7040ad_r.jpg\"/></figure><p data-pid=\"n4hX5nfJ\">曾国藩起点并不高，无论是身世、智商还是身体素质。家族往前追溯五六百年都没有一个读书人，几十代都是农民。他的父亲第十七次参加科举才中了秀才。而自己也是六次未中，并还被作为“文理欠通”的典范，但曾国藩却流淌着跟父亲一样的倔强之气。纵使身体从三十来岁开始就毛病不断，他依旧凭借这股倔强之气达到了多数人都无法企及的人生高度。</p><p data-pid=\"wIUNpzFj\">凭借着自己的不断付出、越挫越勇以及脚踏实地，不走捷进，终于高中进士。这是曾国藩实现人生飞跃的起点，同时读书高考也是时至今日，大多数人能实现解决阶级跃迁的重要方式。</p><p data-pid=\"La2tQAfE\">到了翰林院，曾国藩没有松懈，在别人都沉迷玩乐的时候，他还是专心学业，从而使自己在人群中崭露头角，迎来了大展身手的机会。当然，曾国藩也是普通人，他也有缺点，他浮躁、傲慢、好色，但在京师开阔视野之后给自己定下了成为圣人的高远志向。所以，我们要不断开阔自己的视野，与优秀的人同行，大格局决定大志向，我们的人生才能走的更远。曾国藩是行动派，为了改掉自己的缺点，成为圣人，他通过记日记的方式将自己不良的行为举止都一一记录在案，不断反省自己，并通过给亲朋友好观看的方式来约束自己,狠人就是狠人！正是通过一系列的PDCA，“愚人”曾国藩实现了人生的螺旋式上升。十年七迁，连升十级，一下子变成了礼部右侍郎，成了副部长。</p><p data-pid=\"ZYzAXa-1\">后来，太平天国起义爆发。曾国藩又从一介文官摇身一变开始创建湘军，领兵打仗。他从军饷、征兵以及选人等制度上做了反思及改革，从而建立起了真正具备战斗力的军队。曾国藩的跨界成功，有一次说明了成事的方法其实都是相通的，战略相似，只不过战术有别罢了。曾国藩的战术方法也很有意思，叫做“结硬寨、打呆仗”，通过在城池周围挖沟结寨，使城中断粮或是围城打援，从而反客为主。正是使用这样的笨办法，他跟滴滴曾国荃等花了十二年时间才最终打败了太平天国，攻陷了天津。</p><p data-pid=\"mP3Zlyv2\">内忧解决了，还有外患。在经过第二次鸦片战争后，曾国藩意识到一个新的时代即将到来。他积极创办江南制造局，推动幼童留美，参与重要外交。当天津教案发生，资本主义与封建主义发生思想冲突之时，纵使本无责任，他也是从民族利益角度出发挺身而出，左右调停，背上“卖国贼”的名号，抑郁余生，这是曾国藩的大义，也是时代的无奈。</p><p data-pid=\"FcsiTr4W\">在培养人才上，曾国藩也是不遗余力，纵使有何桂清、左宗棠等人在羽翼丰满后恩将仇报的，但也培养了李鸿章作为接班人。他以自己的身体力行，感染身边的每一个人，所以他才能培养出这么多优秀的人才，并让无数人为之倾佩。但也正是这种笨拙，让他成了陈年的美酒，之后经过岁月的沉淀，才让人觉得愈久弥香。他没有给子孙后代留下金银财宝，却留给了他们“快乐学习”、鼓励式教育、平等相处、以身作则等宝贵财富，从而让后代中不断涌现出杰出人才，继续为国家、为社会发光发热。</p><p data-pid=\"2iWyNTX0\">当然，他的一生也不是完美的。他也有自己的妥协，他并不是海瑞这般绝对的清官，也有“曾剃头”凶狠以及扶持兄弟的私欲，他懂得如何在腐朽的政权下“和光同尘”，更好的实现人生理想。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7a4ba760acb387f635cefd2f00a35020_1440w.jpg\" data-rawwidth=\"563\" data-rawheight=\"763\" data-size=\"normal\" data-original-token=\"v2-83af77d9ce21164e427231d68cc855ac\" class=\"origin_image zh-lightbox-thumb\" width=\"563\" data-original=\"https://pica.zhimg.com/v2-7a4ba760acb387f635cefd2f00a35020_r.jpg\"/></figure><p data-pid=\"bC1lWFJ8\">张宏杰的评价，曾国藩的一生是成功的，他完成了立功、立德、立言的儒家三不朽，但他的一生也是失败的，他拼尽一生，也未能挽回大清的颓势，这不是他一个人的失败，而是整个腐朽政权的失败。他用自己的一生，证明了意志力所能达到的高度，同时也证明了一个人意志力的局限。</p><p data-pid=\"TluYRdGh\">就如璀璨的烟花，一瞬间很壮美，可最终也归于平淡。这是曾国藩的遗憾，也是人生的遗憾。</p><p></p>",
+        "is_labeled": false,
+        "visited_count": 48,
+        "favorite_count": 0,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1937889533766119722}",
+      "attached_info": "CvsHCLqotJbtuM2njQEQBxoJMjYxNTA0OTQyINuE4cQGKAEwAEAJSokBCiZUU19TT1VSQ0VfRkVFRF9UV09fVE9XRVJfTFRfUkVDQUxMX0FVRxIBMBgAIAA6WHsicmF3Ijoie1wiY2FyZHNob3dcIjozMTYsXCJjdHJcIjowLjA3MjgsXCJsZXZlbFwiOlwiMlwiLFwibW9kXCI6MSxcImNvbnRlbnRsZXZlbFwiOjN9In1iIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTM3ODg5NTMzNzY2MTE5NzIyqgEJcmVjb21tZW5kwgEgYTA2OGI2NDViMDg4OGRlOTJiYTlmNjAxNDI3ZmY2N2byAQoIDBIGTm9ybWFs8gEoCAoSJDdhZTNiZDg3LWNhNjctNGMzYS05NDg4LWUxZTg0YWQyZmJmYfIBBQgLEgEyggIAiAL06qL5jDOSAiBhMDY4YjY0NWIwODg4ZGU5MmJhOWY2MDE0MjdmZjY3ZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCE0VtYlNpbUlzb2xhdGlvblJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAiZUU19TT1VSQ0VfRkVFRF9UV09fVE9XRVJfTFRfUkVDQUxMX0FVR+gCA/oCC05PUk1BTF9GTE9XigMgZjg1MDFiOTY5Mjc1NDE1NThjMjA3N2VjNmRiMzFkMjSaAw0KAnYyEAAaBW90aGVyqAMw2AMA6gMlRkVFRF9UV09fVE9XRVJfUkVDQUxMX0FVR19URVhUX0xUX0FMTPoDfRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCENoDGI8FIiN2Mi0wNzkwZmVkNWE1YTFmMjBmMzdlYmMyODU0YjhkOGZiOTotCAMQswQY+wUiI3YyLTgzYWY3N2Q5Y2UyMTE2NGU0MjcyMzFkNjhjYzg1NWFjgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACA8R6/P4EFAAAAAAAAAACJBU/JDnYP6tY/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQKQBgCgBgqoBgGSAi4KCTI2MTUwNDk0MhITMTkzNzg4OTUzMzc2NjExOTcyMhgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "10_1755822208.68",
+      "type": "feed",
+      "offset": 10,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822208,
+      "updated_time": 1755822208,
+      "target": {
+        "id": "1941973653282619800",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941973653282619800",
+        "author": {
+          "id": "782195fd388fc2b88c9688ca9d6f5360",
+          "url": "https://api.zhihu.com/people/782195fd388fc2b88c9688ca9d6f5360",
+          "user_type": "people",
+          "url_token": "90-4-14-6-45",
+          "name": "烟雨浮尘",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-fe267f9acceb57b56bf629700203c4f1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 12,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755782599,
+        "updated_time": 1755782599,
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "661556394",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/661556394",
+          "author": {
+            "id": "0b6243d1a718a028bcd628ac8ce32ebb",
+            "url": "https://api.zhihu.com/people/0b6243d1a718a028bcd628ac8ce32ebb",
+            "user_type": "people",
+            "url_token": "-mio-20",
+            "name": "星野澪_Mio",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-61e9d856c068081ffcf7efeca3648c00_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 102,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "不确定性的交易中，确定的是什么？",
+          "created": 1720909331,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 3,
+          "bound_topic_ids": [
+            5422,
+            11700,
+            38191,
+            76477,
+            95926
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "悟道这个词在交易市场当中经常提到，尤其对那些痴迷交易的人来说，经常把这个词儿挂在嘴边，中国古代先哲老子首先提到道这个字，道是什么意思呢，就是事物的本源，放在交易市场，也就是说悟透了市场的本质。透过现象看透了事物内在的因素，面对非凡复杂的市场波动，找出市场可能波动的方向，让一切都变得简单起来。 悟道不但是对市场的开悟，也是对自己的开悟。明白市场的不确定性。市面上的各种各样的分析方法。每种方法都有它…",
+        "excerpt_new": "悟道这个词在交易市场当中经常提到，尤其对那些痴迷交易的人来说，经常把这个词儿挂在嘴边，中国古代先哲老子首先提到道这个字，道是什么意思呢，就是事物的本源，放在交易市场，也就是说悟透了市场的本质。透过现象看透了事物内在的因素，面对非凡复杂的市场波动，找出市场可能波动的方向，让一切都变得简单起来。 悟道不但是对市场的开悟，也是对自己的开悟。明白市场的不确定性。市面上的各种各样的分析方法。每种方法都有它…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"No757uZ_\">悟道这个词在交易市场当中经常提到，尤其对那些痴迷交易的人来说，经常把这个词儿挂在嘴边，中国古代先哲老子首先提到道这个字，道是什么意思呢，就是事物的本源，放在交易市场，也就是说悟透了市场的本质。透过现象看透了事物内在的因素，面对非凡复杂的市场波动，找出市场可能波动的方向，让一切都变得简单起来。</p><p data-pid=\"VIqH6EZG\">悟道不但是对市场的开悟，也是对自己的开悟。明白市场的不确定性。市面上的各种各样的分析方法。每种方法都有它的可取之处。技术分析的目的就是为了看透市场的本质。通过技术分析判断出市场未来的方向，涨或者下跌。技术分析方法很多种，当一个交易者懂得放弃，然后钻研一门技术，并且使之精通，那其实就是在悟道。在经过多年的磨砺之后，一眼就能看出市场在某个位置可能发生方向的转变，这就是悟道的一个表现。</p><p data-pid=\"nFus8QYN\">市场波动是不确定的，分析和市场的走势没有必然的关系。大家看看那些基金公司他们的分析报告，做的非常漂亮，各种信息都考虑到了。但是最终的结果和他们的分析没有任何关系。市场该怎么走还是怎么走。认识到市场的不确定性就是悟道的一个表现。面对不确定的市场，投资者也不能说不管不顾，任由市场的发展。首先要树立顺势而为的理念，同时做好风险管理。当你认识到市场的不确定性，并且在风险管理上下功夫的时候，这就是在另外一个层次悟道了，这一步的跨越也需要好多年的磨练，不是一蹴而就的。</p><p data-pid=\"xT3d4a3e\">技术及风险管理的完善，应该算是悟道的初级阶段。随着交易的深入，个人情绪对交易的影响非常大，可以简单的理解为心态这个问题。知行合一，不管是交易还是在生活当中，能做到知行合一的人很少。各种各样的因素影响，让人在做选择的时候，并不能顺从自己内心的想法。比如说你制定一个交易策略，未来在某一个价位买入某一只股票，等股价跌到这个位置的时候，当时的股价表现为快速的下跌，多数投资者可能会被这种情况给吓住，不敢入场。在后来的表现当中，股价就按照他此前制定的策略反转，他又不敢往里追了，从而错失后面的利润。这是知行不能合一的表现。止损策略，当你设定在某一个价位止损，也就是意味着可能到了止损位，市场的方向可能会发生转变。有多数投资者不愿意看到浮亏变成真正的亏损。因为趋利避害是人的本性，这是人性的弱点，非常难以克服。有多数投资者在股价跌至止损位附近的时候，手动去掉止损。类似冷水煮青蛙一样，最后小亏变成大亏，大亏最后只能割肉。这就是与人性进行斗争，克服人性的弱点是悟道，是更高级的层次悟道。做到了知行合一，那么交易之路将有可能会变得非常顺利。</p><p data-pid=\"vSfnL0nB\">技术关，风险管理关，知行合一关，关关难过关关过。悟道的过程，不是一帆风顺的。各种坑都可能要去踩一遍，将这些完善好了，交易之路才能顺利走下去。</p><p data-pid=\"2UEMfTQS\">然而要真正驾驭这条道路，我们需要在&#34;确定性&#34;与&#34;不确定性&#34;之间找到平衡支点——就像古代先贤所说的&#34;知其白守其黑&#34;，这或许才是交易之道的最高境界。</p><h3>交易当中的确定性是什么</h3><p data-pid=\"Z5dJpD30\">交易当中有确定性，也有不确定性。那么有哪些是确定的，这里简单聊聊。</p><p data-pid=\"sk97RKxJ\">首先，市场波动是随机的，这句话是确定的。这句话看起来好像是句废话，对，确实是极其正确的废话。但是有部分交易者认为市场不是随机的，并且花费大量精力，去证明市场是可以被预测的。</p><p data-pid=\"BIBoy-YT\">其次，在交易当中涨多了就会跌，跌多了就会涨，这是确定的。但是拐点的寻找极其困难，不要让自己沉迷于寻找拐点的错误道路上。拐点是多空斗争的结果，而不是猜测出来的。</p><p data-pid=\"zuGh7Lj2\">第三，市场的波动，有可能是基本面在驱动，也有可能是技术面在驱动，这是确定的，寻找市场波动背后的因素固然重要，但不是必要的，因为这很难猜的准，基本上做不到。</p><p data-pid=\"xP5iMl1l\">第四，交易者会时常犯错误，这是确定的。不要去苛责自己，自己毕竟不是神，要允许自己犯错。</p><p data-pid=\"tUm3rgib\">第五，在交易当中损失多少是可以确定的，这里就必须强调止损的使用。如果不重视止损的使用，那就相当于将命运交给别人去主宰，这样极其不明智。</p><p data-pid=\"gJhY7d8p\">第六，你的交易系统可以是确定的，交易系统的确定需要很长时间的磨炼，这个不是一两句话就可以说清楚的。用确定的系统，在不确定的交易市场捕捉适合自己的机会。</p><p data-pid=\"wQBc6w6p\">当然很有其他的一些确定性的东西，这里就不赘述了，把握好自己能把握的，主动放弃自己无法掌控的。</p><p data-pid=\"T9Mg35nV\">正如前文所述，市场确实存在某些亘古不变的确定性法则：价格围绕价值波动的钟摆效应、止损保护的重要性、交易系统的可优化性，这些确定性就像黑夜中的北斗七星，为迷途的交易者指明方向。但值得注意的是，这些确定性要素往往需要通过&#34;悟道&#34;过程中提到的技术关和风控关才能被真正掌握。</p><h3>交易当中的不确定性是什么？</h3><p data-pid=\"CaLDRC8d\">在交易市场，有很多东西是不确定的，根据我多年的交易经验，这里简单聊聊我个人理解的市场当中的不确定性。 </p><p data-pid=\"qSEVqyhk\">首先，在交易当中，市场波动是不确定的。未来是上行还是下行，是不确定的。也就是说，市场的波动是随机的，技术分析的诞生，是帮助投资者更好的理解市场，至于去预判未来的走势，我个人觉得可能性不大，甚至根本就不可能。 </p><p data-pid=\"_hAv-TUK\">其次，影响市场波动的因素是不确定的，将来会发生什么样的事情，是无法预料的。即使即将公布的数据你能预测出来，但市场怎么反应，仍然是未知数。</p><p data-pid=\"ujjm6izi\">第三，盈利多少是不确定的，比如你持有黄金多单，未来黄金能涨多少，是不确定的，你能盈利多少，就要看市场的脸色。</p><p data-pid=\"bAOd37-0\">第四，交易策略的不确定性，每个交易者使用的分析方法不同，对未来的盈利预期不同，那么制定的策略也不同，另外市场波动的随机性，使得策略也是有一定时效性，或者说是不确定的。</p><p data-pid=\"_jC0A6hw\">还有其他的一些不确定性的东西，交易市场的波动是随机的，各种不确定性都有可能发生。每个交易者必须树立起不确定的信念，喜欢上市场的不确定性，接受世事无常，才能放平心态，才能在这个市场生存。</p><p data-pid=\"5zOZ1W23\">而真正的交易智慧在于，当我们牢牢把握这些确定性时，更要清醒认识到市场本质上仍是充满不确定性的混沌系统。价格的随机漫步特征、突发事件的不可预测性、盈利空间的弹性变化，这些不确定性恰恰构成了市场的魅力所在。</p><p data-pid=\"x07zJ3f2\">最高明的交易者，往往能像文中最前面强调的那样，在承认不确定性的前提下，通过知行合一的修炼，将确定性法则转化为应对不确定市场的利器。</p><p data-pid=\"DMc4BW2O\">至此我们终于明白：交易之道如同阴阳太极，确定性是阴，不确定性是阳，而悟道就是让两者和谐共生的修炼过程。当投资者既能恪守止损纪律，又能坦然接受意外波动，更能在关键时刻践行交易计划，才算真正触摸到了交易艺术的精髓。</p><p data-pid=\"p8FDF-X9\"><b>祝好！！！</b></p><h3>声明：仅供参考，仅代表个人观点，不做任何投资意见，股市有风险，投资需谨慎！</h3>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 62,
+        "favorite_count": 1,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941973653282619800}",
+      "attached_info": "CoEGCLqotJbtuM2njQEQBBoJNzQzMzI1Njc4IMe7nMUGKAEwAEAKSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLwokVFNfU09VUkNFX1dBUk1VUF9UV09UT1dFUl9FWFBWMl9URVhUEgEwGAAgADoAWgkxMDkyOTAyOTdiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxOTczNjUzMjgyNjE5ODAwigEJNjYxNTU2Mzk0qgEJcmVjb21tZW5kwgEgNzgyMTk1ZmQzODhmYzJiODhjOTY4OGNhOWQ2ZjUzNjDyAQoIDBIGTm9ybWFs8gEoCAoSJDJlNzE2ZDY5LWZiODktNDRmOC1iYmYxLWQ3NGMzN2FlMGRjOfIBBQgLEgEyggIAiAL06qL5jDOSAiA3ODIxOTVmZDM4OGZjMmI4OGM5Njg4Y2E5ZDZmNTM2MJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AID+gILTk9STUFMX0ZMT1eKAyBmODUwMWI5NjkyNzU0MTU1OGMyMDc3ZWM2ZGIzMWQyNJoDDQoCdjIQABoFb3RoZXKoAz7YAwDqAy9jb250ZW50V2FybXVwVHdvVG93ZXJUdnBUZXh0Tm9ybWFsRXhwVjJSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAICU/Iw/gQUAAAAAAAAAAIkFT8kOdg/q1j+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFApAGAKAGC6gGAJICLgoJNzQzMzI1Njc4EhMxOTQxOTczNjUzMjgyNjE5ODAwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "11_1755822208.737",
+      "type": "feed",
+      "offset": 11,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822208,
+      "updated_time": 1755822208,
+      "target": {
+        "id": "1941054309585367827",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941054309585367827",
+        "author": {
+          "id": "cdfe2661c6c55faf81e64f402cf4bb21",
+          "url": "https://api.zhihu.com/people/cdfe2661c6c55faf81e64f402cf4bb21",
+          "user_type": "people",
+          "url_token": "ke-li-ang-53-75",
+          "name": "柯里昂",
+          "headline": "Java开发",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 8,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755563410,
+        "updated_time": 1755563410,
+        "voteup_count": 101,
+        "thanks_count": 10,
+        "comment_count": 20,
+        "is_copyable": true,
+        "question": {
+          "id": "47684138",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/47684138",
+          "author": {
+            "id": "d960811ea092072ea60a2e4bc5b63458",
+            "url": "https://api.zhihu.com/people/d960811ea092072ea60a2e4bc5b63458",
+            "user_type": "people",
+            "url_token": "stephenchan",
+            "name": "即墨",
+            "headline": "找苹果手机顾问级侦探【欢迎私信苹果钓鱼链接给我】",
+            "avatar_url": "https://picx.zhimg.com/50/3c599dca9_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 525,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "一个人能做出什么开源项目？",
+          "created": 1466550840,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 11,
+          "bound_topic_ids": [
+            866,
+            4170,
+            5265,
+            26161,
+            782563
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "2023年开始搞的，做了一个Redis桌面工具，把基本功能都实现了，但是不够完善，以为没人用，就暂停维护了很长时间。2025年打起精神继续维护更新，哈哈，现在居然有人用了，我觉得很给劲儿。会持续维护把它做好。 https://github.com/tanhuang2016/RedisFX 如果想把一个程序做好，还是得花很多时间精力，很多人说我这个桌面应用不好看，内存占用大等等问题。这些都会解决，进一步优化的，但是不要骂人好吗。",
+        "excerpt_new": "2023年开始搞的，做了一个Redis桌面工具，把基本功能都实现了，但是不够完善，以为没人用，就暂停维护了很长时间。2025年打起精神继续维护更新，哈哈，现在居然有人用了，我觉得很给劲儿。会持续维护把它做好。 https://github.com/tanhuang2016/RedisFX 如果想把一个程序做好，还是得花很多时间精力，很多人说我这个桌面应用不好看，内存占用大等等问题。这些都会解决，进一步优化的，但是不要骂人好吗。",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"kMxY4-gc\">2023年开始搞的，做了一个Redis桌面工具，把基本功能都实现了，但是不够完善，以为没人用，就暂停维护了很长时间。2025年打起精神继续维护更新，哈哈，现在居然有人用了，我觉得很给劲儿。会持续维护把它做好。</p><p data-pid=\"4bMMgCpP\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/tanhuang2016/RedisFX\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/tanhuang2016</span><span class=\"invisible\">/RedisFX</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"MdG9u7qg\">如果想把一个程序做好，还是得花很多时间精力，很多人说我这个桌面应用不好看，内存占用大等等问题。这些都会解决，进一步优化的，但是不要骂人好吗。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 21112,
+        "favorite_count": 29,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941054309585367827}",
+      "attached_info": "CpYHCLqotJbtuM2njQEQBBoJNzQyODY5NDc0IJKLj8UGKGUwFEALSjAKHVRTX1NPVVJDRV9GRUVEX1VTRVJfRVhQRVJUX0NGEgkxMzc2NjU2MjYYACAAOgBKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KcAocVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMVElNRRJKaG90X3JlY2FsbF9yZWFsdGltZV90Om5vcm1hbDoyMDI1LTA4LTIyOm1hbGU6bWlkZGxleW91bmdzdGVyOm90aGVyOm1vbnRobHkYACAAOgBaCDExMjg4NzYzYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTA1NDMwOTU4NTM2NzgyN4oBCDQ3Njg0MTM4qgEJcmVjb21tZW5kwgEgY2RmZTI2NjFjNmM1NWZhZjgxZTY0ZjQwMmNmNGJiMjHyAQoIDBIGTm9ybWFs8gEoCAoSJGM0YmI1OTU5LWM1ZDctNDIxMC04YTU3LWJmOThlYWUyNTk1MvIBBQgLEgEyggIAiAL06qL5jDOSAiBjZGZlMjY2MWM2YzU1ZmFmODFlNjRmNDAyY2Y0YmIyMZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIWUmV2aXNpdFZhbHVlV2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCHVRTX1NPVVJDRV9GRUVEX1VTRVJfRVhQRVJUX0NG6AIC+gILTk9STUFMX0ZMT1eKAyBmODUwMWI5NjkyNzU0MTU1OGMyMDc3ZWM2ZGIzMWQyNJoDDQoCdjIQABoFb3RoZXKoA/ikAdgDAOoDEGFpR3JhcGhFbWJVc2VyQ0b6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE1OcgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQHH5uj+BBQAAAAAAAAAAiQVPyQ52D+rWP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUCkAYAoAYMqAYAkgIuCgk3NDI4Njk0NzQSEzE5NDEwNTQzMDk1ODUzNjc4MjcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=11&desktop=true&end_offset=12&page_number=3&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=11&desktop=true&end_offset=12&page_number=3&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

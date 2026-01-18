@@ -1,0 +1,571 @@
+{
+  "data": [
+    {
+      "id": "84_1768600015.122",
+      "type": "feed",
+      "offset": 84,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600015,
+      "updated_time": 1768600015,
+      "target": {
+        "preview_text": "",
+        "content": "<p data-pid=\"KP3Q-w_2\">刚入门Python的宝子是不是经常懵？明明只想写段代码，却冒出一堆陌生名词——Anaconda、Python、PyCharm、VSCode、Jupyter Notebook到底啥用？它们之间是“替代关系”还是“合作关系”？今天分点拆解，看完再也不 confusion！</p><p data-pid=\"w0mkfQHN\">另外我整理了<b>机器学习和深度学习的基础书籍以及学习路线思维导图</b>，感兴趣的dd！</p><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/lOykmh7bXbw3JB1sqa6PwQ\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">原文、姿料 这里</a><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e5f0735094e3bc80b354962212155216_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"849\" data-rawheight=\"580\" data-original-token=\"v2-a0dd7b18611fbf349af201f8ea0a8d55\" class=\"origin_image zh-lightbox-thumb\" width=\"849\" data-original=\"https://pica.zhimg.com/v2-e5f0735094e3bc80b354962212155216_r.jpg\"/></figure><h3>一、先搞懂核心：Python——一切的“地基”</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b468ef627a18e105fc4a008954d04e16_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"616\" data-rawheight=\"256\" data-original-token=\"v2-53f9fbf4d66ddfb8250438eec9111cda\" class=\"origin_image zh-lightbox-thumb\" width=\"616\" data-original=\"https://pica.zhimg.com/v2-b468ef627a18e105fc4a008954d04e16_r.jpg\"/><figcaption>python</figcaption></figure><p data-pid=\"jh5lNkyF\">首先要明确：<b>Python是编程语言本身</b>，就像“英语”“汉语”一样，是一套写代码的语法规则（比如用<code>print()</code>输出、用<code>for</code>循环遍历）。<br/>但光有“语法”没用，得有能识别语法、执行代码的工具——这就是“Python解释器”（比如我们常说的Python 3.8、3.11版本，本质是不同版本的解释器）。<br/>简单说：没有Python，后面所有工具都成了“空壳”，它是所有操作的核心基础。 </p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6ce9e215a3ad01ce9d948c3c5282ee05_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"520\" data-rawheight=\"490\" data-original-token=\"v2-44c84d599a7095f40eb0ec709184f115\" class=\"origin_image zh-lightbox-thumb\" width=\"520\" data-original=\"https://picx.zhimg.com/v2-6ce9e215a3ad01ce9d948c3c5282ee05_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>二、Anaconda——Python的“全家桶安装包”，新手救星</h3><p data-pid=\"rVxBgdF2\">很多人装Python时会踩坑：装完解释器，还得手动装<code>numpy</code>（数据分析）、<code>matplotlib</code>（画图）、<code>pandas</code>（数据处理）等常用库，甚至会遇到“版本不兼容”“装了用不了”的问题。<br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4fb2124f67206b6d547d5d18b8fb2055_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"926\" data-rawheight=\"259\" data-original-token=\"v2-407637e2d25ba66b4a5f67d15ebfdddc\" class=\"origin_image zh-lightbox-thumb\" width=\"926\" data-original=\"https://picx.zhimg.com/v2-4fb2124f67206b6d547d5d18b8fb2055_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3WZE5JUw\"><b>Anaconda就是帮你解决这些麻烦的“集成工具”</b>：</p><ol><li data-pid=\"rposkdTV\">自带Python解释器：装Anaconda时，会自动帮你装好对应版本的Python（不用单独下载Python）；</li><li data-pid=\"GVGFcuyX\">预装200+常用库：数据分析、机器学习需要的<code>numpy</code>、<code>pandas</code>、<code>scikit-learn</code>等全包含，开箱即用；</li><li data-pid=\"NnUCDfIU\">管理环境：支持创建“独立环境”（比如一个环境用Python 3.8跑老项目，另一个用3.11跑新项目），避免不同项目的库版本冲突。<br/>一句话：Anaconda不是替代Python，而是“打包了Python+常用库+环境管理工具”的便捷套装。</li></ol><h3>三、PyCharm/VSCode——写代码的“专业工作台”（IDE/编辑器）</h3><p data-pid=\"PDtirQRZ\">有了Python（或Anaconda），接下来需要“写代码、运行代码、调试代码”的地方——这就是PyCharm和VSCode的作用，它们是“代码编辑器/集成开发环境（IDE）”。</p><h3>1. PyCharm：Python专属“全能选手”</h3><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-949da444fba95dc4d6e13d59606b295f_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"925\" data-rawheight=\"485\" data-original-token=\"v2-23acbfadd293cbc1e9e5686d6b587d46\" class=\"origin_image zh-lightbox-thumb\" width=\"925\" data-original=\"https://pic4.zhimg.com/v2-949da444fba95dc4d6e13d59606b295f_r.jpg\"/><figcaption>pycharm</figcaption></figure><ul><li data-pid=\"-Zz20933\">定位：专门为Python设计的IDE，功能“开箱即用”，不用自己折腾配置；</li><li data-pid=\"WK8y85HT\">核心优势：<br/>✅ 调试功能强：能一步步看代码执行过程，轻松找bug；<br/>✅ 支持项目管理：比如做一个Python网站、数据分析项目，能清晰管理文件、依赖库；<br/>✅ 自带很多Python工具：比如连接数据库、支持Django（PythonWeb框架）等；</li><li data-pid=\"RanfFjNU\">适合人群：新手（不用配置，直接用）、做复杂Python项目的人（比如开发、大数据）。 </li></ul><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6bae11b2b90aed3fcab66771495ba352_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"470\" data-rawheight=\"294\" data-original-token=\"v2-7f208e44fe07cdddbbd8e3ef470f8153\" class=\"origin_image zh-lightbox-thumb\" width=\"470\" data-original=\"https://pica.zhimg.com/v2-6bae11b2b90aed3fcab66771495ba352_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>2. VSCode：“轻量多面手”，不止能写Python</h3><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-482b589abd0af3d91eac9f291c6d99eb_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"518\" data-rawheight=\"184\" data-original-token=\"v2-4f43ec23cdcad144c57efd4447ff32c9\" class=\"origin_image zh-lightbox-thumb\" width=\"518\" data-original=\"https://picx.zhimg.com/v2-482b589abd0af3d91eac9f291c6d99eb_r.jpg\"/><figcaption>vscode</figcaption></figure><ul><li data-pid=\"qSTK01l9\">定位：微软出的轻量级编辑器，支持Python、Java、前端等多种语言（靠“插件”实现）；</li><li data-pid=\"fnbRbBLe\">核心优势：<br/>✅ 体积小、启动快：比PyCharm轻便，不占太多电脑内存；<br/>✅ 灵活度高：装个“Python插件”就能写Python，装“Jupyter插件”就能跑 Notebook，还能自定义主题、快捷键；<br/>✅ 跨平台：Windows、Mac、Linux都能用，而且免费；</li><li data-pid=\"NdDuSK3V\">适合人群：喜欢轻量工具的人、同时写多种语言的人（比如又写Python又写前端）、需要自定义配置的人。</li></ul><h3>四、Jupyter Notebook：“边写边展示”的神器，适合数据分析/教学</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b5450c8449109046bb61dba6d8a96b78_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"985\" data-rawheight=\"310\" data-original-token=\"v2-3c8b7bb2ac6b7226f58839b721c1103f\" class=\"origin_image zh-lightbox-thumb\" width=\"985\" data-original=\"https://pic3.zhimg.com/v2-b5450c8449109046bb61dba6d8a96b78_r.jpg\"/><figcaption>Jupyter Notebook</figcaption></figure><p data-pid=\"3KNN5NC-\">很多人用Python做数据分析时，需要“写一段代码、出一个结果（比如图表）、加一段文字说明”——Jupyter Notebook就是干这个的，它是“交互式笔记本工具”。</p><ul><li data-pid=\"omMq11CZ\">核心特点：“单元格”模式，每个单元格可以是代码（运行后出结果）、文字（Markdown格式，用来写注释、报告）、图片等，写完后能导出成HTML、PDF、Python文件；</li><li data-pid=\"YwV0foEl\">怎么用？：它需要依赖Python环境（比如你装了Anaconda，里面会自带Jupyter），可以直接在Anaconda里打开，也能在PyCharm/VSCode里装插件后使用（比如VSCode装“Jupyter插件”，就能在编辑器里新建Notebook）；</li><li data-pid=\"dAVSYune\">适合场景：数据分析（边写代码边看图表，还能写分析思路）、教学（比如老师一步步演示代码，加文字讲解）、分享成果（导出成报告发给别人）。</li></ul><h3>五、一句话理清它们的关系：谁依赖谁？谁和谁是搭档？</h3><ol><li data-pid=\"AGPwCR6Z\"><b>基础层</b>：Python解释器（Anaconda里自带，也能单独装）→ 所有工具都依赖它才能运行；</li><li data-pid=\"QM3o-7Kx\"><b>辅助层</b>：Anaconda → 帮你管理Python环境和常用库，相当于“给Python配了后勤”；</li><li data-pid=\"bdkPsQaE\"><b>编写层</b>：PyCharm/VSCode → 是“写代码的工作台”，你在这两个工具里调用Python解释器运行代码，也能在里面打开Jupyter Notebook；</li><li data-pid=\"42N1EVlw\"><b>特殊场景层</b>：Jupyter Notebook → 是“展示/交互工具”，不是替代PyCharm/VSCode，而是在“需要边写边展示”的场景下更方便（比如数据分析），它需要依附Python环境，也能在PyCharm/VSCode里用。</li></ol><h3>最后给新手的建议：</h3><ul><li data-pid=\"0L6q9-ux\">想少折腾，直接装<b>Anaconda</b>（自带Python+Jupyter），再装<b>PyCharm社区版</b>（免费），从基础到项目都够用；</li><li data-pid=\"ydOlZ8CK\">喜欢轻量工具，装<b>Python</b>（单独装）+ <b>VSCode</b>（装Python和Jupyter插件），灵活又不占内存；</li><li data-pid=\"F1FFu-sM\">做数据分析，优先用<b>Jupyter Notebook</b>（Anaconda里自带，或VSCode装插件），边写边出结果超爽！</li></ul><p data-pid=\"jzTOTKqg\">看完是不是清晰多了？如果还有工具使用疑问，比如“Anaconda怎么创建环境”“VSCode怎么装Python插件”，可以评论区问～</p>",
+        "is_labeled": false,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1961110811981386545",
+        "voting": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "刚入门Python的宝子是不是经常懵？明明只想写段代码，却冒出一堆陌生名词——Anaconda、Python、PyCharm、VSCode、Jupyter Notebook到底啥用？它们之间是“替代关系”还是“合作关系”？今天分点拆解，看完再也不 confusion！ 另外我整理了 机器学习和深度学习的基础书籍以及学习路线思维导图，感兴趣的dd！原文、姿料 这里   一、先搞懂核心：Python——一切的“地基”   首先要明确： Python是编程语言本身，就像“英语”“汉语”一…",
+        "allow_segment_interaction": true,
+        "is_navigator": false,
+        "id": "1961110811981386545",
+        "updated": 1760345337,
+        "excerpt": "刚入门Python的宝子是不是经常懵？明明只想写段代码，却冒出一堆陌生名词——Anaconda、Python、PyCharm、VSCode、Jupyter Notebook到底啥用？它们之间是“替代关系”还是“合作关系”？今天分点拆解，看完再也不 confusion！ 另外我整理了 机器学习和深度学习的基础书籍以及学习路线思维导图，感兴趣的dd！原文、姿料 这里   一、先搞懂核心：Python——一切的“地基”   首先要明确： Python是编程语言本身，就像“英语”“汉语”一…",
+        "visited_count": 1721,
+        "article_type": "normal",
+        "comment_count": 1,
+        "preview_type": "default",
+        "favorite_count": 81,
+        "vote_next_step": "vote",
+        "navigator_vote": false,
+        "author": {
+          "headline": "公众号【机器学习ing】,专注机器学习纯干货,无废话分享!",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f05aa39cf80e3c626a988238847416e8_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "id": "6e784b48162bc47d6cea26fbefa715c9",
+          "url": "https://api.zhihu.com/people/6e784b48162bc47d6cea26fbefa715c9",
+          "user_type": "people",
+          "url_token": "ing-58-66",
+          "name": "机器学习ing",
+          "gender": 0,
+          "followers_count": 112
+        },
+        "title": "搞懂Python工具全家桶！Anaconda、Python、PyCharm、VSCode、Jupyter关系一次说清！",
+        "comment_permission": "all",
+        "created": 1760345337,
+        "voteup_count": 21
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1961110811981386545}",
+      "attached_info": "CrMICIrUnauVkezorwEQBxoJMjY0MTQ4MjY1IPn5sscGKBUwAUBUSjAKBkl0ZW1DRhIgZG9jX3R5cGU6IEFydGljbGUKaWQ6IDI1NjAzMTgxNwoYACAAOgBiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTYxMTEwODExOTgxMzg2NTQ1qgEJcmVjb21tZW5kwgEgNmU3ODRiNDgxNjJiYzQ3ZDZjZWEyNmZiZWZhNzE1YznyAQoIDBIGTm9ybWFs8gEoCAoSJDU0ZTk4NDlmLWJmMzAtNDc5Yy1iMzczLWE2OGE0NTlkZDdhYfIBBggLEgIxNYICAIgCwaSaxrwzkgIgNmU3ODRiNDgxNjJiYzQ3ZDZjZWEyNmZiZWZhNzE1YzmaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAgZJdGVtQ0boAgP6AgtOT1JNQUxfRkxPV4oDIGUxNTExYWEzZjZiMzQ1OTY5Mzg0NTE3YTNkZjFlYWRjmgMNCgJ2MhAAGgVvdGhlcqgDuQ3YAwDqAxV0ZXh0QWxsU2l0ZU12SXRlbUNGVjL6A5cDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ0QYYxAQiI3YyLWEwZGQ3YjE4NjExZmJmMzQ5YWYyMDFmOGVhMGE4ZDU1Oi0IAxDoBBiAAiIjdjItNTNmOWZiZjRkNjZkZGZiODI1MDQzOGVlYzkxMTFjZGE6LQgCEIgEGOoDIiN2Mi00NGM4NGQ1OTlhNzA5NWY0MGViMGVjNzA5MTg0ZjExNTotCAIQngcYgwIiI3YyLTQwNzYzN2UyZDI1YmE2NmI0YTVmNjdkMTVlYmZkZGRjOi0IAxCdBxjlAyIjdjItMjNhY2JmYWRkMjkzY2JjMWU5ZTU2ODZkNmI1ODdkNDY6LQgCENYDGKYCIiN2Mi03ZjIwOGU0NGZlMDdjZGRkYmJkOGUzZWY0NzBmODE1MzotCAIQhgQYuAEiI3YyLTRmNDNlYzIzY2RjYWQxNDRjNTdlZmQ0NDQ3ZmYzMmM5Oi0IAhDZBxi2AiIjdjItM2M4YjdiYjJhYzZiNzIyNmY1ODgzOWI3MjFjMTEwM2aABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMAb/4g/gQUAAAAAAAAAAIkF8JAd6GyUtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGVqgGAZICLgoJMjY0MTQ4MjY1EhMxOTYxMTEwODExOTgxMzg2NTQ1GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "85_1768600015.310",
+      "type": "feed",
+      "offset": 85,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600015,
+      "updated_time": 1768600015,
+      "target": {
+        "created_time": 1768144339,
+        "voteup_count": 3,
+        "is_copyable": true,
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "id": "1993822548840969102",
+        "url": "https://api.zhihu.com/answers/1993822548840969102",
+        "content": "<p data-pid=\"Yc6Kew2b\">所有需要自己动手的咖啡器具，无论手冲、法压壶、摩卡壶、虹吸壶，半自动、全自动咖啡机，胶囊咖啡机，都需要时间，都需要你能在这些步骤中获得仪式感！如果不能，劝退！不仅是摩卡壶，任何咖啡器具都别买，街边9.9最适合你！</p><p data-pid=\"CqUYn5Qc\">那剩下的都是劝买：</p><p data-pid=\"coFF_2cD\">不喜欢速溶咖啡的</p><p data-pid=\"6M4qBoa6\">喜欢现磨咖啡的</p><p data-pid=\"xnEHOBgO\">喜欢奶咖的</p><p data-pid=\"1mO7qZwH\">宿舍、办公室不方便用咖啡机的</p><p data-pid=\"otHxKQgN\">甚至，每个地方都配一把摩卡壶和手摇磨豆机！</p><p data-pid=\"Qx42HFgh\">我家里有半自动，但对摩卡壶做出来的奶咖，也很痴迷，反正。一天3杯摩卡壶奶咖是没问题的！</p>",
+        "visited_count": 747,
+        "comment_count": 5,
+        "preview_type": "default",
+        "updated_time": 1768144339,
+        "excerpt": "所有需要自己动手的咖啡器具，无论手冲、法压壶、摩卡壶、虹吸壶，半自动、全自动咖啡机，胶囊咖啡机，都需要时间，都需要你能在这些步骤中获得仪式感！如果不能，劝退！不仅是摩卡壶，任何咖啡器具都别买，街边9.9最适合你！ 那剩下的都是劝买： 不喜欢速溶咖啡的 喜欢现磨咖啡的 喜欢奶咖的 宿舍、办公室不方便用咖啡机的 甚至，每个地方都配一把摩卡壶和手摇磨豆机！ 我家里有半自动，但对摩卡壶做出来的奶咖，也很痴迷，反正…",
+        "preview_text": "",
+        "is_navigator": false,
+        "type": "answer",
+        "author": {
+          "url": "https://api.zhihu.com/people/19135749ab61d0cb884486abd863f030",
+          "url_token": "92460-47",
+          "name": "虑得先生",
+          "headline": "数据分析、流程梳理",
+          "gender": 1,
+          "id": "19135749ab61d0cb884486abd863f030",
+          "user_type": "people",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "excerpt_new": "所有需要自己动手的咖啡器具，无论手冲、法压壶、摩卡壶、虹吸壶，半自动、全自动咖啡机，胶囊咖啡机，都需要时间，都需要你能在这些步骤中获得仪式感！如果不能，劝退！不仅是摩卡壶，任何咖啡器具都别买，街边9.9最适合你！ 那剩下的都是劝买： 不喜欢速溶咖啡的 喜欢现磨咖啡的 喜欢奶咖的 宿舍、办公室不方便用咖啡机的 甚至，每个地方都配一把摩卡壶和手摇磨豆机！ 我家里有半自动，但对摩卡壶做出来的奶咖，也很痴迷，反正…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "thanks_count": 0,
+        "question": {
+          "id": "666995619",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/666995619",
+          "follower_count": 0,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            3457,
+            11290,
+            119133
+          ],
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "created": 1726176254,
+          "excerpt": "",
+          "detail": "",
+          "author": {
+            "id": "a566edf03c107ea01f10f5c661b0a422",
+            "url_token": "50-8-83-52-63",
+            "name": "天煞与孤星",
+            "headline": "",
+            "gender": 1,
+            "followers_count": 41,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/a566edf03c107ea01f10f5c661b0a422",
+            "user_type": "people",
+            "avatar_url": "https://picx.zhimg.com/50/v2-7e53eb6a7a7b154ba1729a0578172eaa_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "title": "摩卡壶有没有必要买？为什么？",
+          "comment_count": 0
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993822548840969102}",
+      "attached_info": "CrwFCIrUnauVkezorwEQBBoJNzY1MDAyNDkxINP7jssGKAMwBUBVSiAKFVRTX1NPVVJDRV9USEVNRV9NRVJHRRIBMBgAIAA6AFoJMTEwNDk4OTkyYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5MzgyMjU0ODg0MDk2OTEwMooBCTY2Njk5NTYxOaoBCXJlY29tbWVuZMIBIDE5MTM1NzQ5YWI2MWQwY2I4ODQ0ODZhYmQ4NjNmMDMw8gEKCAwSBk5vcm1hbPIBKAgKEiQ3YmJhOGNiNC1lYWZmLTQ2NzMtOTFlZC0zNGRhOTQ1NzZlZDnyAQYICxICMTWCAgCIAsGkmsa8M5ICIDE5MTM1NzQ5YWI2MWQwY2I4ODQ0ODZhYmQ4NjNmMDMwmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCFVRTX1NPVVJDRV9USEVNRV9NRVJHRegCAvoCC05PUk1BTF9GTE9XigMgZTE1MTFhYTNmNmIzNDU5NjkzODQ1MTdhM2RmMWVhZGOaAw0KAnYyEAAaBW90aGVyqAPrBdgDAOoDG1RoZW1lTWVyZ2VOZXdWMVBvb2xSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAAxFYE/gQUAAAAAAAAAAIkF8JAd6GyUtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGV6gGA5ICLgoJNzY1MDAyNDkxEhMxOTkzODIyNTQ4ODQwOTY5MTAyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "86_1768600015.855",
+      "type": "feed",
+      "offset": 86,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600015,
+      "updated_time": 1768600015,
+      "target": {
+        "preview_text": "",
+        "visited_count": 172495,
+        "author": {
+          "user_type": "people",
+          "headline": "我想爱，想吃，还想在一瞬间变成天上半明半暗的云。",
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "教师资格证持证人"
+            }
+          ],
+          "followers_count": 3482,
+          "is_following": false,
+          "is_followed": false,
+          "id": "6b6a8139c7bd342a31b20215874a9c02",
+          "url": "https://api.zhihu.com/people/6b6a8139c7bd342a31b20215874a9c02",
+          "avatar_url": "https://pica.zhimg.com/50/v2-dc6606189827d318c51b51bdf43af01d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "url_token": "wang-tao-59-67",
+          "name": "新鲜的咸鱼"
+        },
+        "excerpt": "范进外出讲学回来，满身疲惫，母亲、妻子都很高兴。正要起锅做饭，只见岳父大人提着一条石斑鱼和一瓶茅台，走了进来。 范进连忙起身招待、倒茶，彼此坐下。 岳父道：“你看看你，人到中年了还这么不讲究，天天邋里邋遢的，我女儿嫁给你十来年了，可怜到现在也没享福，天天操持家务，不少受罪。”“要不是我上下运作，给你弄了省科技进步一等奖，我女儿不知还要受多少苦，今天也来给你庆祝一下。”范进唯唯诺诺，感谢的话不知道说…",
+        "is_copyable": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "content": "<p data-pid=\"nwMDo4eM\">范进外出讲学回来，满身疲惫，母亲、妻子都很高兴。正要起锅做饭，只见岳父大人提着一条石斑鱼和一瓶茅台，走了进来。</p><p data-pid=\"OJdx1YWZ\">范进连忙起身招待、倒茶，彼此坐下。</p><p data-pid=\"0ixjdckN\">岳父道：“你看看你，人到中年了还这么不讲究，天天邋里邋遢的，我女儿嫁给你十来年了，可怜到现在也没享福，天天操持家务，不少受罪。”“要不是我上下运作，给你弄了省科技进步一等奖，我女儿不知还要受多少苦，今天也来给你庆祝一下。”范进唯唯诺诺，感谢的话不知道说了几箩筐，连忙叫妻子母亲下厨，做几样好菜庆贺，自己小心陪着岳父说话。</p><p data-pid=\"GRMSc9Jq\">岳父又说：“你现在也是学术带头人了，以后做事要有章法。比如我日常往来的都是有头有脸的人物，最差也是厅级干部，在我面前，你也得规矩点，以后别跟那些旧时的同学朋友去地摊上喝酒了，没的丢了我的脸面。你从小在乡里长大，这些事情我不得不教你，免得被人笑话。”</p><p data-pid=\"TXe_DV1V\">范进道：“岳父说的是。”</p><p data-pid=\"vFFvsBVy\">岳父道：“亲家也赶紧来吃饭吧，平时不少操劳，女儿也来喝两杯吧，这些年也受苦了，可怜！可怜！”</p><p data-pid=\"GUEZAdEz\">说罢，一家四口坐在一起吃了饭，孩子在住宿学校，所以没在家。</p><p data-pid=\"ckI0ltFD\">吃完饭，岳父在客房小憩一会儿，醉醺醺的走了。</p><p data-pid=\"tfGQdfxe\">范进跟在后面千恩万谢，不住打躬作揖。</p><p data-pid=\"6OyP6_wi\">次日，范进少不得找学院领导汇报工作，表示感谢，又约了领导请吃饭，几个课题组的同事也胡乱庆贺，吵着要酒喝。</p><p data-pid=\"iNadmbcn\">隔壁学校的李教授又约了一起参加学术会议，又是去外地做讲座，着实忙了一段。</p><p data-pid=\"y_VBGKW7\">不觉到了年底，学校动员范进报长江学者。范进因工资奖金都用来买房买车购置实验仪器了，没有资金活动，特意找岳父借钱，被岳父一口啐到脸上，骂了一个狗血喷头。</p><p data-pid=\"5WDCYJef\">岳父道：“也不撒泡尿看看你什么德行，刚得了一个省科技进步一等奖就癞蛤蟆想吃天鹅肉起来！要不是我舍了老脸帮你上下活动，你能得一等奖？如今痴心就想起中长江学者来！那些评上长江学者的，不是有留学经历，就是导师是院士，要不亲戚是院士。像你这尖嘴猴腮，祖上三代贫农，连个211都没上过，导师也寂寂无名的，也该撒抛尿自己照照！不三不四，就想天鹅屁吃！趁早收了这心，踏踏实实多申请几个横向课题，养活你老婆孩子跟课题组是正经！上次评一等奖，我已经花了上百万进去，现在又想评长江学者，你怕不是想我全家老小喝西北风去！”</p><p data-pid=\"4jnG7BJE\">一顿夹七夹八，骂的范进摸门不着。辞了岳父回来，范进心里寻思：“院长说了让我申请，我不申请以后难免被穿小鞋，得罪了院长还能有好果子吃？上一个得罪了院长的老教师退休了都没评上教授，逢人就说自己的悲惨遭遇，如同现代版祥林嫂。这次院长答应帮我解决一半的活动经费，不去试一试怎么好。”</p><p data-pid=\"ywmm1SZE\">于是范进瞒着岳父，报了名，开始上下活动，不知赔了多少笑脸、喝了多少酒、欠下多少人情。</p><p data-pid=\"o-Ux2Dju\">到底被岳父知道，挨了一顿骂。</p><p data-pid=\"6l-fD44c\">到了出结果这天，范进正在给学生上课，学生玩手机的、睡觉的、谈恋爱的、吃零食的，就是没有听课的，范进瞪着眼睛在讲台上气得七窍生烟，直叹朽木不可雕、烂泥扶不上墙！</p><p data-pid=\"azkUyxWo\">这时手机响了，是科技处处长，范进扫了一眼，没接。</p><p data-pid=\"sM7eKK4M\">等下又响了，是院长的电话，范进还是没接。</p><p data-pid=\"gaA16oH8\">又过了一会儿，教室门外吵吵嚷嚷，学生也坐不住了，开始东张西望，好奇发生了什么事。</p><p data-pid=\"MFtAEOAR\">范进勉强讲到下课铃响，还未来得及说“下课”，一群人就冲了进来。</p><p data-pid=\"48mx4q7v\">“恭喜范教授高中长江学者！”吵嚷声一片，周围一片贺喜之声。</p><p data-pid=\"0F3YMGqn\">范进懵了，好不容易回到家里，打开电脑一看，公示名单上赫然有自己的大名。</p><p data-pid=\"m_WppHrA\">范进不看便罢，看了一遍，又念一遍，自己把两手拍了一下，笑了一声，道：“噫！好了！我中了！”说着，往后一跤跌倒，牙关咬紧，不省人事。</p><p data-pid=\"sUnEtrpk\">妻子连忙掐人中，又灌了几口开水，刚要打120，范进醒转过来，又拍着手大笑道：“噫！好！我中了！”笑着，不由分说，就往门外飞跑，把家人唬了一跳。</p><p data-pid=\"zytzf1Ln\">走出家门就是校园，范进在校园里绕着操场疯跑，边跑边喊“中了！”</p><p data-pid=\"fo7_31hd\">保卫处的人跟在后面死活追不上。</p><p data-pid=\"QXCOCJIc\">老太太急坏了，“他四十多的人了，心脏还不好，哪里经得起这样跑，你们快拦住他。”</p><p data-pid=\"rzX24ZYB\">妻子也哭哭啼啼的，不知如何是好。</p><p data-pid=\"iuVdCzo9\">这时院长、科技处处长等人也赶到了，保卫处的人好不容易拦住了范进，把他抬进了校医院。</p><p data-pid=\"SNP8i-Tl\">众人一筹莫展，不知如何是好。</p><p data-pid=\"dvdsV5th\">这时岳父也赶过来了，众人都说，范进平日最怕岳父，如今只消岳父吓他一吓，保证便好。</p><p data-pid=\"LN02aCbh\">岳父心内也嘀咕，当着众人的面，不好把平日的嚣张样拿出来。</p><p data-pid=\"otAvmpT-\">眼见女儿眼泪汪汪的看着自己，只得装出平时的凶样，大喝一声，“你在这叫什么？中了什么就在这里大喊大叫！”说完拍了范进后脑勺一把。</p><p data-pid=\"jEbN1Hxm\">范进被一吓，迷糊过来，说道：“我怎么坐在这里？”又道：“我这半日，昏昏沉沉，如在梦里一般。”</p><p data-pid=\"NQVzE3yF\">众人方才恭喜他，中了长江学者。</p><p data-pid=\"3pzEFMcc\">范进此时已清醒了，知道刚才出乖露丑，连忙一一向周围人道谢。</p><p data-pid=\"Dj5Vjuvp\">众人方七嘴八舌热闹起来。</p><p data-pid=\"G9hjoLqF\">岳父道：“我常说，我这个女婿，人品又好、才学又高，我早就看出他不是池中之物，凭着天赋和努力，迟早要成大器的，今日果然。否则，我那女儿都三十多了，多少青年才俊要攀附，我都没答应，想着必要嫁给一个人物，今日果然不错。”说完哈哈大笑。范进老婆红了脸，偷偷白了岳父一眼。</p><p data-pid=\"70ghNDmk\">众人不禁偷笑。</p><p data-pid=\"FKPGN7_K\">大家看范进已好，渐渐散去，岳父也陪着女婿女儿亲家母回家，一路上看女婿的西服后襟皱了，低着头替他扯了几十回。</p><p data-pid=\"bkXdlolS\">第二日刚到办公室，只见副校长带着科技处处长、院长、后勤处处长一群人涌了进来。</p><p data-pid=\"R3kP6KV4\">副校长先是贺喜一番，后来看看简陋狭小的办公室，不由点头，“我们的范教授在这么艰苦的条件下，做出了这么出众的成绩，真是不容易啊！”众人忙点头称是。</p><p data-pid=\"CrqOaFUh\">随后又去实验室看了看，实验仪器多有没钱维修扔在地上的，几个研究生破衣烂衫，眯着眼睛正在做实验，突然看到一群人冲了进来，不知如何是好。</p><p data-pid=\"PZZ3GEQy\">副校长当场拍板，学校出钱把范教授的实验室和办公室全面整修一番，实验仪器能修的修，不能修的全部换新，另外再拨两间实验室给范教授。</p><p data-pid=\"gQU-uUfc\">后勤处长在旁边点头如鸡啄米，拍胸脯保证马上落实。</p><p data-pid=\"WhaQszDY\">范进千恩万谢，有说了几句，将副校长一群人送走。</p><p data-pid=\"mz9Rt76Z\">接下来，又是一众同僚的贺喜，或真或假，又约着晚上去哪庆贺，很是忙乱了几日。</p>",
+        "preview_type": "default",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "created_time": 1751619760,
+        "thanks_count": 132,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1924513442196324635",
+        "updated_time": 1751683186,
+        "excerpt_new": "范进外出讲学回来，满身疲惫，母亲、妻子都很高兴。正要起锅做饭，只见岳父大人提着一条石斑鱼和一瓶茅台，走了进来。 范进连忙起身招待、倒茶，彼此坐下。 岳父道：“你看看你，人到中年了还这么不讲究，天天邋里邋遢的，我女儿嫁给你十来年了，可怜到现在也没享福，天天操持家务，不少受罪。”“要不是我上下运作，给你弄了省科技进步一等奖，我女儿不知还要受多少苦，今天也来给你庆祝一下。”范进唯唯诺诺，感谢的话不知道说…",
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "5WDCYJef",
+            "text": "岳父道：“也不撒泡尿看看你什么德行，刚得了一个省科技进步一等奖就癞蛤蟆想吃天鹅肉起来！要不是我舍了老脸帮你上下活动，你能得一等奖？如今痴心就想起中长江学者来！那些评上长江学者的，不是有留学经历，就是导师是院士，要不亲戚是院士。像你这尖嘴猴腮，祖上三代贫农，连个211都没上过，导师也寂寂无名的，也该撒抛尿自己照照！不三不四，就想天鹅屁吃！趁早收了这心，踏踏实实多申请几个横向课题，养活你老婆孩子跟课题组是正经！上次评一等奖，我已经花了上百万进去，现在又想评长江学者，你怕不是想我全家老小喝西北风去！”",
+            "marks": [
+              {
+                "start_index": 79,
+                "end_index": 113,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995553242101325835"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "4jnG7BJE",
+            "text": "一顿夹七夹八，骂的范进摸门不着。辞了岳父回来，范进心里寻思：“院长说了让我申请，我不申请以后难免被穿小鞋，得罪了院长还能有好果子吃？上一个得罪了院长的老教师退休了都没评上教授，逢人就说自己的悲惨遭遇，如同现代版祥林嫂。这次院长答应帮我解决一半的活动经费，不去试一试怎么好。”",
+            "marks": [
+              {
+                "start_index": 100,
+                "end_index": 109,
+                "seg_info": {
+                  "seg_ids": [
+                    "1925058191097599793"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "G9hjoLqF",
+            "text": "岳父道：“我常说，我这个女婿，人品又好、才学又高，我早就看出他不是池中之物，凭着天赋和努力，迟早要成大器的，今日果然。否则，我那女儿都三十多了，多少青年才俊要攀附，我都没答应，想着必要嫁给一个人物，今日果然不错。”说完哈哈大笑。范进老婆红了脸，偷偷白了岳父一眼。",
+            "marks": [
+              {
+                "start_index": 62,
+                "end_index": 82,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995497311959269394"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "CrqOaFUh",
+            "text": "随后又去实验室看了看，实验仪器多有没钱维修扔在地上的，几个研究生破衣烂衫，眯着眼睛正在做实验，突然看到一群人冲了进来，不知如何是好。",
+            "marks": [
+              {
+                "start_index": 27,
+                "end_index": 66,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995151539506017103"
+                  ],
+                  "is_like": false,
+                  "like_count": 58,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "type": "answer",
+        "question": {
+          "comment_count": 2,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "type": "question",
+          "author": {
+            "id": "77a9cbe73ce9a9b4c53c46eb9dc4cf96",
+            "url": "https://api.zhihu.com/people/77a9cbe73ce9a9b4c53c46eb9dc4cf96",
+            "user_type": "people",
+            "name": "catarvnia",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_following": false,
+            "url_token": "qiao-hang-9",
+            "headline": "",
+            "is_org": false,
+            "followers_count": 4,
+            "is_followed": false
+          },
+          "title": "被评上长江学者是怎么样的一个体验？",
+          "bound_topic_ids": [
+            1161,
+            30384,
+            99114,
+            151800,
+            164560
+          ],
+          "excerpt": "",
+          "question_type": "normal",
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "id": "53303069",
+          "url": "https://api.zhihu.com/questions/53303069",
+          "created": 1480900587
+        },
+        "reshipment_settings": "disallowed",
+        "favorite_count": 610,
+        "navigator_vote": false,
+        "id": "1924513442196324635",
+        "voteup_count": 2689,
+        "comment_count": 141
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1924513442196324635}",
+      "attached_info": "CosGCIrUnauVkezorwEQBBoJNzM1NDE0MjkzILCxnsMGKIEVMI0BQFZKPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifVoIMTM1Mzk4NTJiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTI0NTEzNDQyMTk2MzI0NjM1igEINTMzMDMwNjmqAQlyZWNvbW1lbmTCASA2YjZhODEzOWM3YmQzNDJhMzFiMjAyMTU4NzRhOWMwMvIBCggMEgZOb3JtYWzyASgIChIkNTVlNDFkOTMtODQ5NC00ZTBmLWE4YzAtOTk1YWVmMGExY2Zm8gEGCAsSAjE1ggIAiALBpJrGvDOSAiA2YjZhODEzOWM3YmQzNDJhMzFiMjAyMTU4NzRhOWMwMpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXKAiFTdG9yeUJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU3oAgP6AgtOT1JNQUxfRkxPV4oDIGUxNTExYWEzZjZiMzQ1OTY5Mzg0NTE3YTNkZjFlYWRjmgMNCgJ2MhAAGgVvdGhlcqgDz8MK2AMA6gMQbmV3YmllX2ZlZWRyZV92MvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQGbWFudWFswgQDMTU3yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAPJWQP4EFAAAAAAAAAACJBfCQHehslLQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBlioBgCSAi4KCTczNTQxNDI5MxITMTkyNDUxMzQ0MjE5NjMyNDYzNRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "87_1768600015.793",
+      "type": "feed",
+      "offset": 87,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600015,
+      "updated_time": 1768600015,
+      "target": {
+        "id": "1994728769223669163",
+        "url": "https://api.zhihu.com/articles/1994728769223669163",
+        "title": "最近很火的“活人感”，这本书每页都在诠释",
+        "excerpt_new": "最近，越来越多人在谈“活人感”，其实书也一样，这套书，想拉着你的手走进历史。 它用小人物的命运引出大历史，再加上150余幅地图、300余幅插图，真正实现了沉浸式阅读。           这就是在欧美已畅销20余年的《穿越西方文明》，它最大的特色，就是在宏大叙事之外，用“左图右史”的形式 大量融入那些可感的细节。   封面设计也充分彰显“活人感” 在这里，普通人的生活不再只是作为背景板，比如讲述地理大发现时，一些书侧重于航线或…",
+        "preview_type": "default",
+        "content": "<p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"342\" data-rawwidth=\"1077\" data-size=\"normal\" src=\"https://pic4.zhimg.com/v2-ddbcff25266963e288a4138e96ac65cd_1440w.gif\" data-thumbnail=\"https://pic4.zhimg.com/v2-ddbcff25266963e288a4138e96ac65cd_b.jpg\" data-original-token=\"v2-ddbcff25266963e288a4138e96ac65cd\" class=\"origin_image zh-lightbox-thumb\" width=\"1077\" data-original=\"https://pic4.zhimg.com/v2-ddbcff25266963e288a4138e96ac65cd_r.jpg\"/></figure></p><p data-pid=\"ckiKxHCx\">最近，越来越多人在谈“活人感”，其实书也一样，这套书，想拉着你的手走进历史。</p><p data-pid=\"VNBLU2ai\">它用小人物的命运引出大历史，再加上150余幅地图、300余幅插图，真正实现了沉浸式阅读。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1080\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://picx.zhimg.com/v2-e13ece88901ac34316d4d9101de719cf_1440w.jpg\" data-original-token=\"v2-e13ece88901ac34316d4d9101de719cf\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-e13ece88901ac34316d4d9101de719cf_r.jpg\"/></figure></p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1080\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://pic4.zhimg.com/v2-a34df49268b31e9427206f75239030c3_1440w.jpg\" data-original-token=\"v2-a34df49268b31e9427206f75239030c3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-a34df49268b31e9427206f75239030c3_r.jpg\"/></figure></p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1080\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://pic1.zhimg.com/v2-a449dc98ebcb8273a9bd2bd7011048ea_1440w.jpg\" data-original-token=\"v2-a449dc98ebcb8273a9bd2bd7011048ea\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-a449dc98ebcb8273a9bd2bd7011048ea_r.jpg\"/></figure></p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1080\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://pic3.zhimg.com/v2-9c220624be0d2e5eb61e53d678f5e44e_1440w.jpg\" data-original-token=\"v2-9c220624be0d2e5eb61e53d678f5e44e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-9c220624be0d2e5eb61e53d678f5e44e_r.jpg\"/></figure></p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1080\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://picx.zhimg.com/v2-34472cf7ce626f9921bd522745caff37_1440w.jpg\" data-original-token=\"v2-34472cf7ce626f9921bd522745caff37\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-34472cf7ce626f9921bd522745caff37_r.jpg\"/></figure></p><p data-pid=\"nLNiEtLu\">这就是在欧美已畅销20余年的《穿越西方文明》，它最大的特色，就是在宏大叙事之外，用“左图右史”的形式<strong>大量融入那些可感的细节。</strong></p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"837\" data-rawwidth=\"1000\" data-size=\"normal\" src=\"https://pic1.zhimg.com/v2-7632a6c28109bc0020cf32669d859e74_1440w.jpg\" data-original-token=\"v2-7632a6c28109bc0020cf32669d859e74\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic1.zhimg.com/v2-7632a6c28109bc0020cf32669d859e74_r.jpg\"/></figure></p><p data-pid=\"uy8RVwvn\">封面设计也充分彰显“活人感”</p><p data-pid=\"4kMMrXbD\">在这里，普通人的生活不再只是作为背景板，比如讲述地理大发现时，一些书侧重于航线或条约，但这本书会带你进入<strong>欧洲人的厨房</strong>：看他们的饮食有多寡淡，仅有的几种本土调料如大蒜、藏红花与食盐早已令人厌倦。而几种人们离不开的香料，尤其是丁香、肉桂、胡椒，通通产自遥远的东方。</p><p data-pid=\"pa5qidJS\">后来，“味觉的改变”还推动了跨大西洋奴隶贸易。为了满足欧洲人对甜食的成瘾，成千上万的非洲人被运往加勒比种植园。这里，<strong>个</strong><strong>人的感官享受与全球性的剥削系统</strong>被直接挂钩。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"544\" data-rawwidth=\"922\" data-size=\"normal\" src=\"https://pic1.zhimg.com/v2-b9632e1ec03b053b4cde87ae941f462c_1440w.jpg\" data-original-token=\"v2-b9632e1ec03b053b4cde87ae941f462c\" class=\"origin_image zh-lightbox-thumb\" width=\"922\" data-original=\"https://pic1.zhimg.com/v2-b9632e1ec03b053b4cde87ae941f462c_r.jpg\"/></figure></p><p data-pid=\"hs9nfkjZ\">非洲甘蔗种植园（1667）。欧洲人将原产于埃及的甘蔗移植到所有气候适宜的殖民地，以保障甘蔗和朗姆酒产量。</p><p data-pid=\"Hi8g8zsA\">除了日常饮食，《穿越西方文明》还常常把镜头推向那个年代人们的内心。在讲述文艺复兴时期时，它专门讲述了科学背后的“<strong>伪科学”</strong>。</p><p data-pid=\"bWfFC_20\">占星术风靡一时，有些教皇甚至雇佣专职占星师。1456年哈雷彗星划过夜空，还引发欧洲社会集体恐慌。一位信奉人文主义的医生，把梅毒的爆发归因于土星、木星与火星连成了巨蟹座的形状……</p><p data-pid=\"mZP8n07W\">科学与伪科学、理性与神秘并存的矛盾，塑造了一个充满张力的世界。这些今天看似荒诞的行为，正是当时人们强烈探索欲望的真实写照。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1129\" data-rawwidth=\"918\" data-size=\"normal\" src=\"https://pica.zhimg.com/v2-dfef4d66259f9b9a1bc73d83b6341f08_1440w.jpg\" data-original-token=\"v2-dfef4d66259f9b9a1bc73d83b6341f08\" class=\"origin_image zh-lightbox-thumb\" width=\"918\" data-original=\"https://pica.zhimg.com/v2-dfef4d66259f9b9a1bc73d83b6341f08_r.jpg\"/></figure></p><p data-pid=\"xzIgM5Nm\">事实上，占星术的资金支援了一些天文的研究</p><p data-pid=\"FfQLZnww\">在处理 14 世纪黑死病的灾难时，书中不只列出死亡人数，更讲述了<strong>自笞者</strong>的奇观，他们坚信自我折磨能为世界驱散瘟疫，而由于人口锐减导致劳动力短缺，活下来的人竟然获得了更高的议价能力，这与<strong>“社会结构重组”</strong>又不无关系。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1304\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://picx.zhimg.com/v2-147251ae7e07d7eb31571da52d435b13_1440w.jpg\" data-original-token=\"v2-147251ae7e07d7eb31571da52d435b13\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-147251ae7e07d7eb31571da52d435b13_r.jpg\"/></figure></p><p data-pid=\"UbQaxGrH\">15世纪的自笞者每天以镶嵌着铁丝的皮鞭三次鞭笞自身</p><p data-pid=\"1bLlklbq\">还会在市镇间流动，“以血溅洗教堂的墙壁”</p><p data-pid=\"Q8c9ARnF\">讲工业革命时，它不只讲瓦特的蒸汽机，还讲<strong>时间观念的重塑</strong>。书中探讨了工厂如何强迫习惯了“按季节和日照干活”的农民，转变为“按秒表干活”的工人。它描述了工厂主如何通过罚款、辱骂，来训练工人的“准时”美德。这是对人类行为和心理的深度改造，而不仅仅是单纯的技术进步。</p><p data-pid=\"4ZT7Gzfy\">这本书的特点在于它经常问：<strong>“这件事对当时的普通男女意味着什么？”</strong>在讲<strong>宗教改革</strong>前，它先带你走进16世纪一位比利时女信徒的一生。玛丽·丹提尔读到路德著作后深受感染，毅然离开修道院，与新教徒组建家庭，为新教思想奔走呼号，后来又以《圣经》的名义为女性争取权利……</p><p data-pid=\"-qGs_pUq\">她的经历不仅让我们看到信仰、婚姻与自我认同的全新关系，也提醒我们：大变革的时代，个人的勇气与选择，同样能为历史写下注脚。宗教改革带来的，不只是教义争论，更有无数人的生活和观念的转变。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"670\" data-rawwidth=\"958\" data-size=\"normal\" src=\"https://pica.zhimg.com/v2-1a442b352b59defe65ed06b5f42db232_1440w.jpg\" data-original-token=\"v2-1a442b352b59defe65ed06b5f42db232\" class=\"origin_image zh-lightbox-thumb\" width=\"958\" data-original=\"https://pica.zhimg.com/v2-1a442b352b59defe65ed06b5f42db232_r.jpg\"/></figure></p><p data-pid=\"TvpY9Qq3\">修道院一度为女性提供了除妻子和母亲之外的另一种选择</p><p data-pid=\"TFpX2NNt\">宗教改革后一些修女被强行驱逐出修道院</p><p data-pid=\"pGSCRWeg\">再比如在讲述<strong>第一次世界大战</strong>时，它会带你走进充斥着泥浆、老鼠、死尸、虫子、垃圾、毒气的战壕，去看看战壕之间的地带：荒芜一人、满目疮痍，到处是烂泥和死亡。</p><p data-pid=\"0XVQuovh\">在政治家和将军们都因为担心伤亡白费，不取得彻底胜利就不停止屠杀时，它告诉你军队并不如此固执，有时士兵们甚至跨出战壕一起唱歌，允许对方进餐或在无人区收敛尸体……1917年，当法军指挥官尼韦勒下令再进攻时，前线甚至一半的士兵拒绝执行命令。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"499\" data-rawwidth=\"800\" data-size=\"normal\" src=\"https://pic2.zhimg.com/v2-6797ddbe949d5cd696d2aba05d808ae5_1440w.jpg\" data-original-token=\"v2-6797ddbe949d5cd696d2aba05d808ae5\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic2.zhimg.com/v2-6797ddbe949d5cd696d2aba05d808ae5_r.jpg\"/></figure></p><p data-pid=\"vDTjSe--\">1914年圣诞节期间，在西线战场发生了非正式休战，英德士兵自发走出战壕，在“无人区”握手、交换香烟和食物，甚至举行了足球赛，这种行为令后方的将军们大为恼火，并威胁要处以重刑。</p><p data-pid=\"Fcc3fa1i\">历史书上轻轻翻过的一页，便是一个人波澜壮阔的一生。历史从不是遥远的年表和抽象的体制，而是由无数真实的人，推动、感受、反抗、创造的生活现场。换个角度和方式读历史，你会有更多切身的收获。</p><p data-pid=\"ijFLCHhg\"><strong>今日</strong><strong>· 活动</strong></p><p data-pid=\"x06ykbfQ\">文中提到的这些故事你之前听过吗？</p><p data-pid=\"OMgwL0Ko\">你还知道西方文明史上的哪些趣事？</p><p data-pid=\"nONZ1OW5\">又渴望从这本书看到哪些相关内容？</p><p data-pid=\"eWarIdBp\">欢迎在留言区畅所欲言</p><p data-pid=\"0zqLS2tc\">点赞最高的留言读者将获赠这套书</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XsV7NdAi\">穿越时空，身临其境</p><p data-pid=\"AlI-to5b\">透过新史学和全球视野走进西方文明</p><p data-pid=\"FlArbeXe\">限量彩绘刷边版  </p><p data-pid=\"he90j1ha\">推荐阅读·好书上新</p><p data-pid=\"M92AHoYf\">一部俯瞰地球的别开生面的“我们”的历史  </p>",
+        "is_labeled": false,
+        "favorite_count": 15,
+        "type": "article",
+        "created": 1768360399,
+        "updated": 1768360399,
+        "voteup_count": 6,
+        "comment_count": 1,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "voting": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "最近，越来越多人在谈“活人感”，其实书也一样，这套书，想拉着你的手走进历史。 它用小人物的命运引出大历史，再加上150余幅地图、300余幅插图，真正实现了沉浸式阅读。           这就是在欧美已畅销20余年的《穿越西方文明》，它最大的特色，就是在宏大叙事之外，用“左图右史”的形式 大量融入那些可感的细节。   封面设计也充分彰显“活人感” 在这里，普通人的生活不再只是作为背景板，比如讲述地理大发现时，一些书侧重于航线或…",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-e13ece88901ac34316d4d9101de719cf_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a34df49268b31e9427206f75239030c3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a449dc98ebcb8273a9bd2bd7011048ea_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9c220624be0d2e5eb61e53d678f5e44e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-34472cf7ce626f9921bd522745caff37_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7632a6c28109bc0020cf32669d859e74_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-dfef4d66259f9b9a1bc73d83b6341f08_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-147251ae7e07d7eb31571da52d435b13_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1a442b352b59defe65ed06b5f42db232_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "author": {
+          "is_followed": false,
+          "id": "958b9834688b6d25cd0beedc057037fd",
+          "url": "https://api.zhihu.com/people/958b9834688b6d25cd0beedc057037fd",
+          "headline": "微信号：北京大学出版社 | 用阅读对抗焦虑。",
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_org",
+              "description": "已认证机构号"
+            },
+            {
+              "type": "best_answerer",
+              "description": "文学话题下的优秀答主",
+              "topic_names": [
+                "文学"
+              ],
+              "topic_ids": [
+                2058
+              ]
+            }
+          ],
+          "followers_count": 189331,
+          "user_type": "organization",
+          "url_token": "pkupress",
+          "name": "北京大学出版社",
+          "avatar_url": "https://picx.zhimg.com/50/v2-e13bab4a73ae5a6c31c271a3bb3059bd_l.jpg?source=b6762063",
+          "is_org": true,
+          "is_following": false
+        },
+        "comment_permission": "all",
+        "preview_text": "",
+        "visited_count": 227,
+        "article_type": "normal",
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994728769223669163}",
+      "attached_info": "Co4KCIrUnauVkezorwEQBxoJMjY4OTkzMDUwIM+TnMsGKAYwAUBXSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1iIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk0NzI4NzY5MjIzNjY5MTYzqgEJcmVjb21tZW5kwgEgOTU4Yjk4MzQ2ODhiNmQyNWNkMGJlZWRjMDU3MDM3ZmTyAQoIDBIGTm9ybWFs8gEoCAoSJGIzZmE1MzAyLTI0OWItNGE2Ny1hMDNmLTA0YmJhZDBlOGVmZfIBBggLEgIxNYICAIgCwqSaxrwzkgIgOTU4Yjk4MzQ2ODhiNmQyNWNkMGJlZWRjMDU3MDM3ZmSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIF+gILTk9STUFMX0ZMT1eKAyBlMTUxMWFhM2Y2YjM0NTk2OTM4NDUxN2EzZGYxZWFkY5oDDQoCdjIQABoFb3RoZXKoA+MB2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gPTBBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgAELUIGNYCIiN2Mi1kZGJjZmYyNTI2Njk2M2UyODhhNDEzOGU5NmFjNjVjZDotCAIQuAgYuAgiI3YyLWUxM2VjZTg4OTAxYWMzNDMxNmQ0ZDkxMDFkZTcxOWNmOi0IAhC4CBi4CCIjdjItYTM0ZGY0OTI2OGIzMWU5NDI3MjA2Zjc1MjM5MDMwYzM6LQgCELgIGLgIIiN2Mi1hNDQ5ZGM5OGViY2I4MjczYTliZDJiZDcwMTEwNDhlYTotCAIQuAgYuAgiI3YyLTljMjIwNjI0YmUwZDJlNWViNjFlNTNkNjc4ZjVlNDRlOi0IAhC4CBi4CCIjdjItMzQ0NzJjZjdjZTYyNmY5OTIxYmQ1MjI3NDVjYWZmMzc6LQgEEOgHGMUGIiN2Mi03NjMyYTZjMjgxMDliYzAwMjBjZjMyNjY5ZDg1OWU3NDotCAMQmgcYoAQiI3YyLWI5NjMyZTFlYzAzYjA1M2I0Y2RlODdhZTk0MWY0NjJjOi0IAxCWBxjpCCIjdjItZGZlZjRkNjYyNTlmOWI5YTFiYzczZDgzYjYzNDFmMDg6LQgDELgIGJgKIiN2Mi0xNDcyNTFhZTdlMDdkN2ViMzE1NzFkYTUyZDQzNWIxMzotCAMQvgcYngUiI3YyLTFhNDQyYjM1MmI1OWRlZmU2NWVkMDZiNWY0MmRiMjMyOi0IAxCgBhjzAyIjdjItNjc5N2RkYmU5NDlkNWNkNjk2ZDJhYmEwNWQ4MDhhZTWABACIBACSBAZOb3JtYWyaBAE1oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOATMoY/gQUAAAAAAAAAAIkF8JAd6GyUtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFD5AGAKAGWagGAJICLgoJMjY4OTkzMDUwEhMxOTk0NzI4NzY5MjIzNjY5MTYzGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "88_1768600015.40",
+      "type": "feed",
+      "offset": 88,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600015,
+      "updated_time": 1768600015,
+      "target": {
+        "id": "1995454580025218167",
+        "url": "https://api.zhihu.com/answers/1995454580025218167",
+        "created_time": 1768533445,
+        "updated_time": 1768533445,
+        "question": {
+          "detail": "",
+          "question_type": "normal",
+          "author": {
+            "url_token": "shanshan41",
+            "avatar_url": "https://picx.zhimg.com/50/v2-cc82edd58dc3983549e876e386795356_l.jpg?source=b6762063",
+            "is_org": false,
+            "id": "a4ef13385b5cd714b3df33798fd8275e",
+            "url": "https://api.zhihu.com/people/a4ef13385b5cd714b3df33798fd8275e",
+            "user_type": "people",
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false,
+            "name": "爱菠萝的老奶奶",
+            "headline": "生活需要内力。",
+            "gender": 0
+          },
+          "answer_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            350,
+            368,
+            3547,
+            6381
+          ],
+          "id": "277593101",
+          "url": "https://api.zhihu.com/questions/277593101",
+          "created": 1526567937,
+          "follower_count": 0,
+          "type": "question",
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "title": "如何成为AI产品经理？",
+          "is_following": false
+        },
+        "excerpt_new": "正在寻求入行或转型的产品经理朋友们，面对 AI Agent 席卷而来的浪潮，你是否也在焦虑： 企业对 Agent 产品经理有哪些能力要求？ 做传统产品的能力还适用吗？ 我没有项目经验是不是没有机会了？ 现在入行/转型还来的及吗？ 这些疑问不仅是你的心声，更是当前行业处于技术驱动早期阶段的真实写照。为了帮你打碎信息差，我深度拆解了包括字节、腾讯、蚂蚁、OpenAI、Anthropic 等14 家国内外顶级企业的54份 JD。 这份基于真金白银招…",
+        "reshipment_settings": "allowed",
+        "visited_count": 23,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "thanks_count": 0,
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "is_labeled": false,
+        "favorite_count": 1,
+        "voteup_count": 0,
+        "excerpt": "正在寻求入行或转型的产品经理朋友们，面对 AI Agent 席卷而来的浪潮，你是否也在焦虑： 企业对 Agent 产品经理有哪些能力要求？ 做传统产品的能力还适用吗？ 我没有项目经验是不是没有机会了？ 现在入行/转型还来的及吗？ 这些疑问不仅是你的心声，更是当前行业处于技术驱动早期阶段的真实写照。为了帮你打碎信息差，我深度拆解了包括字节、腾讯、蚂蚁、OpenAI、Anthropic 等14 家国内外顶级企业的54份 JD。 这份基于真金白银招…",
+        "type": "answer",
+        "author": {
+          "user_type": "people",
+          "name": "辛康在进化",
+          "is_org": false,
+          "gender": 1,
+          "is_followed": false,
+          "id": "82f85bf5ca2aea1147b044adf2b1aaac",
+          "url": "https://api.zhihu.com/people/82f85bf5ca2aea1147b044adf2b1aaac",
+          "url_token": "a-sa-tuo-si-77-66",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-43cabfd8d5b6fea9ec117c17b82ee9a4_l.jpg?source=b6762063",
+          "followers_count": 7,
+          "is_following": false
+        },
+        "comment_count": 0,
+        "is_copyable": true,
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"nHIBN-WA\">正在寻求入行或转型的产品经理朋友们，面对 AI Agent 席卷而来的浪潮，你是否也在焦虑：</p><p data-pid=\"eGE2aP3O\">企业对 Agent 产品经理有哪些能力要求？</p><p data-pid=\"kKj9VU14\">做传统产品的能力还适用吗？</p><p data-pid=\"PsEw2j41\">我没有项目经验是不是没有机会了？</p><p data-pid=\"lPGOeN7P\">现在入行/转型还来的及吗？</p><p data-pid=\"Cvo6ZxOI\">这些疑问不仅是你的心声，更是当前行业处于技术驱动早期阶段的真实写照。为了帮你打碎信息差，我深度拆解了包括字节、腾讯、蚂蚁、OpenAI、Anthropic 等14 家国内外顶级企业的54份 JD。</p><p data-pid=\"hltuaqJa\">这份基于真金白银招聘需求的深度调研，将为你揭示企业对 Agent 人才的真实颗粒度要求，帮你精准对齐职业赛道。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-bca530217d75b99b99400dd848a07999_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"458\" data-original-token=\"v2-eab8159b8b00ce425fef567c477f5bd2\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-bca530217d75b99b99400dd848a07999_r.jpg\"/></figure><p data-pid=\"r7ScOpvk\">发现一：通用产品核心能力依然是职场护城河</p><p data-pid=\"Z2RzLo28\">发现二：AI 产品经理职能正在 Agent 化转型</p><p data-pid=\"_9Y8u7eA\">发现三：Agent 专岗与核心环节专项岗正在崛起</p><p data-pid=\"DXmL_Q3l\">发现四：当前招聘 AI Agent 产品经理能力与经验要求（重点）</p><p data-pid=\"oBkt0aIQ\">发现五：行业处于强技术驱动阶段，能力标准正在精细化</p><p data-pid=\"DjsiY0MU\">发现六：2026 年是转型与入行的黄金窗口</p><h2><b>发现一：通用产品核心能力依然是职场护城河</b></h2><p data-pid=\"stnpl3Z5\">在国内外顶级企业的 JD 中，通用产品核心能力被定义为产品经理在任何技术范式下都需具备的底层通用素质。这些能力是确保 AI 技术能够平稳落地为商业价值的定海神针。</p><p data-pid=\"MvCzn6vu\">根据资料显示，这些核心能力可以细化为以下五个维度：</p><p data-pid=\"AjsDh3cF\">1. 产品全生命周期管理与战略规划：负责产品从概念、规划、路线图制定到上线迭代的全过程。</p><p data-pid=\"NXF3Sjdn\">2. 深度的需求洞察与业务抽象：在模糊的场景中挖掘痛点，并将其转化为清晰的产品设计方案。</p><p data-pid=\"oFbEFFQC\">3. 项目管理能力和协同推动：协调算法、工程、设计、测试、运营等跨职能团队，高质量交付。</p><p data-pid=\"Xl4L_Eyt\">4. 数据驱动的决策：建立和完善产品数据监控与分析体系，通过数据驱动产品迭代和运营策略优化。</p><p data-pid=\"F_BEKsZT\">5. 高管级沟通与影响力：具备出色的叙事能力，能够向高管、客户展示产品愿景并驱动共识。</p><p data-pid=\"B859X8q4\">别被 Agent、RAG、MCP、Context Engineering 这些新词汇搞焦虑了。AI Agent 只是实现解决方案的工具之一，而你作为产品经理，深度理解业务、在模糊场景中定义问题、拆解任务和整合资源的通用核心能力，才是 AI 永远无法取代的底座。</p><h2><b>发现二：AI 产品经理职能的 Agent 化转型</b></h2><p data-pid=\"pTH5sZ5W\">目前，市场已形成一种共识：Agent 设计能力不再是特种岗位的专利，而是所有 AI 产品经理在进行场景落地时的通用底层能力。 企业在招聘 AI 产品经理（特别是应用与策略方向）时，虽然职衔依然是 AI PM，但工作内容已完全围绕 Agent 的核心逻辑展开。</p><p data-pid=\"KDOHjwch\">比如以下岗位，它们虽然未直接命名为 AI Agent产品经理，但 Agent 能力是其核心支柱：</p><p data-pid=\"SyWbo4Gf\"><i>字节跳动｜AI 产品经理（C端）-体验与服务：通过 Prompt 工程、知识库、工作流及 Agent 系统优化手段提升回答能力。</i></p><p data-pid=\"7S0hFCVF\"><i>美团｜AI 产品经理（消费医疗方向）：熟悉大模型应用开发全流程，具备 Prompt 工程、RAG、Agent 测评标准输出经验。</i></p><p data-pid=\"ixk3ovJ9\"><i>腾讯｜元宝-AI 策略产品经理：优化 Agent 能力，通过 RAG、Tools、Memory 等方式提升体验。</i></p><p data-pid=\"bLWgpxAP\"><i>阿里巴巴｜天猫-商家平台 AI 产品经理：识别 AI Agent 相关能力在经营场景（如客服、供应链）的应用点。</i></p><p data-pid=\"GgLuWjYk\"><i>阿里巴巴｜AI 产品经理：设计基于 Agent 架构的意图识别、回复生成、能力调用等功能模块。</i></p><p data-pid=\"zW30Oqlc\"><i>微软｜Senior Product Manager (M365)：为智能体制定战略、需求与路线图，开发 AI 评估系统用于智能体检测。</i></p><p data-pid=\"8BC3yEDv\"><i>OpenAI｜PM, Countries &amp; Governments：定义并交付Agent核心模块，包括模型与工具编排、安全护栏。</i></p><p data-pid=\"ESAFVxRF\"><i>Manus｜Product Manager - 增长方向：将 LLM/Agent 能力转化为可靠、可扩展且适合用户使用的产品功能。</i></p><p data-pid=\"MmfNsMA3\">如果你还在纠结要不要做 Agent 产品经理，那你已经落后了。因为在头部公司眼中，不会做 Agent 的 AI PM 根本无法处理复杂的业务场景。</p><h2><b>发现三：Agent 专岗与核心环节专项岗正在崛起</b></h2><p data-pid=\"Z_GjNG7P\">随着 AI Agent 技术的复杂化，领先企业不再仅招聘宽泛的 AI PM，而是根据 Agent 的生命周期（训练-编排-评测-应用）设立了高度专业化的职能岗位。</p><p data-pid=\"ICVQ7TWl\"><b>智能体全栈/平台类专岗</b></p><p data-pid=\"-Sx4sOD0\">这类岗位侧重于底层基础设施的搭建，要求 PM 具备架构师思维，定义 Agent 的核心运行逻辑。</p><p data-pid=\"Qht8I-QJ\">1. 智能体平台/Agent Infra 产品经理 (京东/腾讯/Salesforce)</p><p data-pid=\"3P0gZ5oQ\">概述：负责构建 PaaS 级智能体开发平台，对标世界一流 Agent Infra。</p><p data-pid=\"uZnEJa6K\">核心职责：定义 Agent 创作愿景，规划多角色协作构建流程、低代码/全代码开发工具链，以及多智能体（Multi-Agent）系统的编排与路由逻辑。</p><p data-pid=\"fT4c2jok\">2. ToB/企业级 Agent 产品经理 (智谱 AI/OpenAI/Salesforce)</p><p data-pid=\"8cs09032\">概述：专注于将 Agent 能力转化为企业级解决方案，解决高风险工作流中的确定性问题。</p><p data-pid=\"W77PhK4U\">核心职责：挖掘高价值工作流，定义预置 Agent 能力与定制开发的边界，主导 Agent 的定价、包装及商业化落地。</p><p data-pid=\"JCTVOfzd\"><b>垂直领域 Agent 应用专岗</b></p><p data-pid=\"s_qTeKbQ\">将 Agent 技术与特定行业 Know-how 深度结合的专家岗位。</p><p data-pid=\"rGg_yNLh\">1. 教育/营销/金融智能体 PM (商汤/蚂蚁)：负责教育智能体、营销智能体或金融智能体的全生命周期管理，要求深刻理解 RAG、Workflow 与垂直业务逻辑的结合。</p><p data-pid=\"C1T4NVL5\">2. 智能运维 Agent PM (腾讯)：聚焦于 Agent 在智能告警、根因分析、自动化排障等核心场景的策划与架构设计。</p><p data-pid=\"K2Gxjc-y\">3. 知识库/三农智能体 PM (腾讯)：专注于特定领域（如三农、法律）语料库、知识库的策划与模型适配优化。</p><p data-pid=\"UJwL1XDz\"><b>核心环节专项岗</b></p><p data-pid=\"YAiaSyTS\">领先企业（如字节、腾讯、微软、OpenAI）已经开始针对 Agent 的核心技术环节拆分出专门的 PM 岗位：</p><p data-pid=\"sinAIFrk\">1. 训练与对齐专项岗</p><p data-pid=\"fEQ1sHQW\">典型岗位：Code Agent 训练产品经理 (字节)、模型行为产品经理 (OpenAI)。</p><p data-pid=\"EjUt19-_\">概述：专注于 Agent 底座能力的塑造。</p><p data-pid=\"4s5QUug6\">核心职责：负责 Agent 在特定场景（如代码、政府服务）下的对齐训练（SFT/RLHF），设计合成数据策略，定义并引领模型在实际应用中的行为方向。</p><p data-pid=\"a0Bc_ln6\">2. 评测与实验体系专项岗</p><p data-pid=\"xYUrZ7HG\">典型岗位：大模型评测产品经理 (腾讯)、下一代 AI 实验评估体系 PM (腾讯)、AI 安全评估 PM (微软)。</p><p data-pid=\"GC9WDZp-\">概述：专门解决非确定性输出的评估难题，建立 Agent 的质量护栏。</p><p data-pid=\"IiCu2Rud\">核心职责：构建自动化评测体系，设计细粒度的评测指标，建立训练-实验-发布的闭环管理体系。</p><p data-pid=\"zm5NNejS\">3. context与语言工程专项岗</p><p data-pid=\"ddbl7MY2\">典型岗位：语言工程师 (Language Engineer, 微软)。</p><p data-pid=\"eBw-BAiM\">概述：这是极度垂直的岗位，专注于 Agent 的沟通大脑。</p><p data-pid=\"JqU04RL5\">核心职责：设计并优化用于引导、训练和评估语言模型的Context &amp; Prompt，管理上下文窗口，编写模型评分器来评估响应质量。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"b3bYDXEa\">Agent PM 的职能正在从面向点纵深发展。这种分化说明 Agent 领域已具备足够的技术深度，需要系统性的人才培养机制。</p><h2><b>发现四：Agent 产品经理能力画像与经验要求</b></h2><p data-pid=\"wpZLTiLs\">目前的招聘需求显示，企业对 Agent 产品经理的要求已从单纯的需求分析转向了技术架构理解、数据策略驱动、以及非确定性输出评估的综合能力。</p><p data-pid=\"IWR_ihQP\"><b>技术架构与组件设计能力</b></p><p data-pid=\"1kJM3K6j\">产品经理需深度参与 Agent 运行逻辑的设计，而不只是界面布局。</p><p data-pid=\"NyfDHN3P\">基础要求：深刻理解 LLM 与 AIGC 的技术边界、基本原理及典型应用场景。</p><p data-pid=\"TCvxAaoa\">进阶要求：熟悉并能实际应用 RAG、Tools/Function Calling、插件编排及模型微调方案。</p><p data-pid=\"eRF4eFjT\">专家级要求：掌握 Multi-Agent、推理模型、多模态 AI、Memory设计，以及探索 MCP 等前沿开放协议。</p><p data-pid=\"f6T1XXi2\"><b>Context &amp; Prompt Engineering 能力</b></p><p data-pid=\"oM09bv2j\">Agent 的执行深度取决于 PM 对模型沟通逻辑的掌握。</p><p data-pid=\"eYwK0qvf\">基础要求：具备 Prompt 设计与优化实操经验，提升回答的准确性与用户体验。</p><p data-pid=\"tAFDUddd\">进阶要求：具备 Context Engineering 认知，能够管理 Context Window，甚至编写模型评分器来评估响应质量。</p><p data-pid=\"J_sT809N\"><b>数据策略与模型对齐能力</b></p><p data-pid=\"eut2HOSE\">Agent 的表现高度依赖于数据策略，PM 需负责数据的生产与闭环。</p><p data-pid=\"Vt5tQ6Cn\">基础要求：负责模型训练数据的收集、构造和效果评估，建立数据标注与反馈机制。</p><p data-pid=\"RITzedTs\">进阶要求：掌握 SFT（监督微调）、RLHF（强化学习对齐） 及合成数据策略，设计自动化数据生产链路。</p><p data-pid=\"RGkRsb5s\">专家级要求：定义并引领模型在实际应用中的行为方向，在用户需求、安全合规与技术创新之间建立平衡。</p><p data-pid=\"cU9l9ofb\"><b>评估与实验体系构建能力</b></p><p data-pid=\"SN5wOpFc\">针对 Agent 输出的非确定性，PM 需建立严谨的质量评价标准。</p><p data-pid=\"ND-V5pEi\">基础要求：建立核心指标体系，如诊断准确率、建议采纳率、客户效果提升度等。</p><p data-pid=\"QxEoTUSt\">进阶要求：构建自动化评估体系及高质量 Benchmark，复现与改造评测集，解决非确定性输出的评估难题。</p><p data-pid=\"guq-1tH6\">专家级要求：对齐 OpenAI 等业界前沿评测标准，打通“训练-实验-发布”全链路，实现模型迭代的闭环管理。</p><p data-pid=\"jzaBknS2\"><b>业务建模与场景交互设计能力</b></p><p data-pid=\"lhyQ8317\">场景挖掘：深入理解垂直行业（如法律、金融、供应链）的复杂工作流，识别高价值 AI Agent 应用场景，区分预置能力与定制开发的边界。</p><p data-pid=\"5BAcPGYq\">交互设计：定义 AI 与用户的交互范式，包括对话流、意图识别逻辑、任务执行链路及多模态反馈设计。</p><p data-pid=\"kpqxa9zc\"><b>实操工具应用与代码背景</b></p><p data-pid=\"NrAnVAYp\">企业倾向于能够快速原型验证的产品经理。</p><p data-pid=\"_Ns7LlZq\">低代码/无代码平台：熟练使用 Coze、Dify、Microsoft Copilot Studio 等工具搭建复杂 Workflow 与 Agent。</p><p data-pid=\"t-f-pC4L\">现代开发框架与工具：熟悉 LangChain、Hugging Face 等框架，并能使用 Replit、Cursor 进行快速开发。</p><p data-pid=\"Yh91nhz8\"><b>项目经验分层要求</b></p><p data-pid=\"DcuXmB1X\">根据资料，企业对候选人项目经验的筛选优先级如下：</p><p data-pid=\"IJef4enS\">首选：主导过 AI Agent 或大模型应用产品的全生命周期管理，有从 0 到 1 的成功落地案例。</p><p data-pid=\"HxvDLLBf\">次选：具备 AI 驱动型产品（如搜索策略、推荐策略、算法产品）经验。</p><p data-pid=\"zFliXP15\">补充：自身是主流 AI 产品的重度用户，或在低代码平台上积累了丰富的 Agent 搭建经验。</p><p data-pid=\"Jffm70pu\"><b>行业动态追踪要求</b></p><p data-pid=\"3Gx21yzT\">这是一项被明确列入多份 JD 岗位职责的要求。</p><p data-pid=\"vPran-oc\">具体职责：必须能持续跟踪并研究前沿 AIGC 与 Agent 技术趋势，包括阅读最新的技术论文和技术报告，为团队提供专业的技术洞察与应用建议。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GfTAANCL\">传统的 PM 核心工作是设计 GUI 和确定的业务逻辑，但在 Agent 时代，你的工作对象变成了非确定性的模型行为，设计和实现智能体工程的能力与经典软件工程区别非常大。</p><p data-pid=\"zqg24mal\">在 Agent 领域，能够做出来已经不再是壁垒，证明它好用且可靠才是真正的护栏。</p><p data-pid=\"dEuroNsm\">JD 中频繁出现的词汇不再是精通 Axure，而是阅读最新论文、动手写代码原型、黑客思维，胜任力在于你面对技术突变时的进化速度。</p><h2><b>发现五：行业处于强技术驱动阶段，能力标准正在精细化</b></h2><p data-pid=\"4wQso5wo\">目前的 Agent 领域仍处于强技术驱动阶段。从 JD 中可以看出，企业的招聘要求呈现出两极分化的特点：</p><p data-pid=\"J5cuZiog\">通用化转化：许多岗位核心要求是将前沿的 AI 技术转化为可落地的产品方案。</p><p data-pid=\"PxM3IOY0\">具体技术栈深挖：越来越多的 JD 提出了对 RAG、Prompt Engineering、工具调用、Memory及多智能体系统等具体技术细节的深刻理解要求。</p><p data-pid=\"_WOeJuJS\">专项环节成熟：在领先企业中，针对评测体系、数据对齐训练及模型行为管理等特定环节，已经分化出了职责非常精细的专业岗位。</p><p data-pid=\"J2sxIb5z\">未来趋势：随着业务侧和产品侧实践的不断深入，未来对于 Agent PM 的人才培养和能力要求必将从目前的模糊探索向体系化、标准化和精细化快速演进。</p><h2><b>发现六：2026 年是转型与入行的黄金窗口</b></h2><p data-pid=\"x2aDekXW\">正是由于领域尚处于早期，目前企业对 Agent PM 的要求展现出一种能者居之的包容性。</p><p data-pid=\"Nohx7L6M\">门槛相对宽松：JD 显示，除了硬性的技术背景外，企业极度看重候选人在模糊的0-1场景中定义问题的能力和学无止境的成长型思维。</p><p data-pid=\"Ai38OMtf\">经验背景多元：无论是主导过 AI 驱动型项目的资深 PM，还是在 Coze、Dify 等低代码平台上积累了丰富实操经验的产品黑客，甚至是 AI 产品的重度使用者，目前都有机会进入核心战场。</p><p data-pid=\"DF-4SWJT\">战略判断：随着各行各业都在加速 Agent 化，2026 年将是入行或转型的最佳战略契机。</p><h2><b>最后的话</b></h2><p data-pid=\"uz6J8LsV\">下一期，我将通过一份 AI PRD 模板，探讨一下经典软件工程与智能体工程在产品视角下的本质差异。我们不再仅仅讨论需要学哪些技术栈，而是聚焦于产品核心交付物的变化。</p>",
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995454580025218167}",
+      "attached_info": "CpEGCIrUnauVkezorwEQBBoJNzY1NjQwOTMxIMXbpssGKAAwAEBYSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBaCDIzOTYzMDU1YiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NTQ1NDU4MDAyNTIxODE2N4oBCTI3NzU5MzEwMaoBCXJlY29tbWVuZMIBIDgyZjg1YmY1Y2EyYWVhMTE0N2IwNDRhZGYyYjFhYWFj8gEKCAwSBk5vcm1hbPIBKAgKEiQwOTViZjMxNi03NjA1LTRjNjMtOGRkMi01MTYxYjc2MWY4NTPyAQYICxICMTWCAgCIAsKkmsa8M5ICIDgyZjg1YmY1Y2EyYWVhMTE0N2IwNDRhZGYyYjFhYWFjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgL6AgtOT1JNQUxfRkxPV4oDIGUxNTExYWEzZjZiMzQ1OTY5Mzg0NTE3YTNkZjFlYWRjmgMNCgJ2MhAAGgVvdGhlcqgDF9gDAOoDIHdhcm11cFR3b1Rvd2VyVGV4dE5vcm1hbFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuAgYygMiI3YyLWVhYjgxNTliOGIwMGNlNDI1ZmVmNTY3YzQ3N2Y1YmQygAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgw0Z0P4EFAAAAAAAAAACJBfCQHehslLQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ+QBgCgBlqoBgGSAi4KCTc2NTY0MDkzMRITMTk5NTQ1NDU4MDAyNTIxODE2NxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "89_1768600015.276",
+      "type": "feed",
+      "offset": 89,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600015,
+      "updated_time": 1768600015,
+      "target": {
+        "vote_next_step": "vote",
+        "comment_permission": "all",
+        "comment_count": 4,
+        "excerpt": "Apache Maven 作为 Java 生态中最重要的构建与依赖管理工具，自 Maven 3 发布至今已经十多年。表面上看，Maven 依然“能用”，但在大型工程、模块化体系、CI/CD 环境中，它的设计局限早已暴露无遗。 Maven 4 并不是一次激进的重写，而是一场 针对构建模型本身的系统性重构。它解决的不是“语法是否更简洁”，而是长期困扰 Java 工程的结构性问题：构建语义混乱、模块扩展困难、生命周期僵化，以及对现代 Java 特性的支持不足。原…",
+        "preview_text": "",
+        "is_labeled": false,
+        "id": "1995499525780042056",
+        "author": {
+          "gender": 0,
+          "name": "T-专家",
+          "is_org": false,
+          "user_type": "people",
+          "url_token": "t--6-30",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-d651091ff340988a8657c48cb994d5fc_l.jpg?source=b6762063",
+          "followers_count": 7,
+          "is_following": false,
+          "id": "6a9bd3c55a9a9aaf82d0ccb021b81c42",
+          "url": "https://api.zhihu.com/people/6a9bd3c55a9a9aaf82d0ccb021b81c42",
+          "is_followed": false
+        },
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "is_navigator": false,
+        "voting": 0,
+        "excerpt_new": "Apache Maven 作为 Java 生态中最重要的构建与依赖管理工具，自 Maven 3 发布至今已经十多年。表面上看，Maven 依然“能用”，但在大型工程、模块化体系、CI/CD 环境中，它的设计局限早已暴露无遗。 Maven 4 并不是一次激进的重写，而是一场 针对构建模型本身的系统性重构。它解决的不是“语法是否更简洁”，而是长期困扰 Java 工程的结构性问题：构建语义混乱、模块扩展困难、生命周期僵化，以及对现代 Java 特性的支持不足。原…",
+        "favorite_count": 6,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1995499525780042056",
+        "created": 1768544279,
+        "updated": 1768544279,
+        "voteup_count": 1,
+        "article_type": "normal",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "title": "Maven 4 GA 即将发布：一个为未来十年 Java 项目准备的构建工具，你一定要看看这次重大变更做了什么",
+        "preview_type": "default",
+        "content": "<p data-pid=\"yVqLrTiu\">Apache Maven 作为 Java 生态中最重要的构建与依赖管理工具，自 Maven 3 发布至今已经十多年。表面上看，Maven 依然“能用”，但在大型工程、模块化体系、CI/CD 环境中，它的设计局限早已暴露无遗。</p><p data-pid=\"-3ZX0jLg\">Maven 4 并不是一次激进的重写，而是一场<b>针对构建模型本身的系统性重构</b>。它解决的不是“语法是否更简洁”，而是长期困扰 Java 工程的结构性问题：构建语义混乱、模块扩展困难、生命周期僵化，以及对现代 Java 特性的支持不足。</p><p data-pid=\"CzK197Mz\">原文地址：<a href=\"https://link.zhihu.com/?target=https%3A//zhiliaole.top/archives/1768543912795\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">zhiliaole.top/archives/</span><span class=\"invisible\">1768543912795</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"snIdRKu4\">更多文章：<a href=\"https://link.zhihu.com/?target=https%3A//zhiliaole.top/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://zhiliaole.top</a></p><hr/><h2>一、为什么 Maven 4 必须重来一次</h2><p data-pid=\"G3jaTRo4\">在 Maven 3 时代，一个 POM 文件同时承担了三种职责：</p><ol><li data-pid=\"8OXi1Xxn\">描述项目如何构建</li><li data-pid=\"NMo0mb0e\">描述项目对外暴露的依赖关系</li><li data-pid=\"FHlOoegW\">描述多模块工程的结构</li></ol><p data-pid=\"5j-5ceXX\">这种设计在小项目中问题不大，但在大型工程中会带来明显副作用：</p><ul><li data-pid=\"ElnQw3Tq\">发布到仓库的 POM 包含大量构建插件和内部 profile</li><li data-pid=\"54cLk1vn\">依赖消费者需要解析与自身无关的信息</li><li data-pid=\"RDSfZd2n\">多模块工程维护成本随规模线性增长</li></ul><p data-pid=\"XNuEBCq0\">与此同时，Java 生态本身也发生了变化：模块化（JPMS）、注解处理器、并行构建、可复现构建、供应链安全，都对构建工具提出了更高要求。</p><p data-pid=\"Ct-4PKoD\">Maven 4 的核心目标只有一个：<b>让 Maven 的“模型”重新变得清晰和可推理</b>。</p><hr/><h2>二、POM 模型升级：4.1.0 不只是一个版本号</h2><p data-pid=\"MSU7vL1H\">Maven 4 引入了新的 POM 模型版本 4.1.0。这一变化看似简单，实则意义重大。</p><div class=\"highlight\"><pre><code class=\"language-text\">&lt;project xmlns=&#34;http://maven.apache.org/POM/4.1.0&#34;&gt;\n    &lt;modelVersion&gt;4.1.0&lt;/modelVersion&gt;\n&lt;/project&gt;</code></pre></div><p data-pid=\"yYWlvncN\">4.1.0 的引入，为 Maven 后续一系列改进提供了语义空间，使 Maven 可以在保持向后兼容的前提下，引入更清晰的结构划分。</p><p data-pid=\"mRvOeG9s\">需要强调的是：<br/><b>升级到 Maven 4 并不强制你立刻修改所有 POM</b>，但只有在 4.1.0 模型下，Maven 才能完整表达新的构建与依赖语义。</p><hr/><h2>三、构建 POM 与 Consumer POM 分离：真正解决“POM 臃肿”的问题</h2><p data-pid=\"nLyg4sKc\">这是 Maven 4 最重要、也最具架构价值的改动之一。</p><p data-pid=\"Nd-GVvwX\">在 Maven 3 中，发布到仓库的 POM 与本地构建使用的是同一份文件，这意味着：</p><ul><li data-pid=\"nBMi2kCh\">插件配置会被传播</li><li data-pid=\"n2JazSYn\">内部构建 profile 会被继承</li><li data-pid=\"FNtivlUr\">消费者需要解析大量无关内容</li></ul><p data-pid=\"_skSmyOR\">Maven 4 明确区分了两类 POM：</p><ul><li data-pid=\"Fh7qFHhu\"><b>Build POM</b>：用于本地构建，包含完整构建逻辑</li><li data-pid=\"uamz4Oj_\"><b>Consumer POM</b>：发布到仓库，仅保留依赖与对外语义</li></ul><p data-pid=\"JOBf7KMa\">在构建时，Maven 可以生成并发布一个精简后的 Consumer POM：</p><div class=\"highlight\"><pre><code class=\"language-text\">mvn install -Dmaven.consumer.pom.flatten=true</code></pre></div><p data-pid=\"ReaId6O5\">这一机制带来的价值非常直接：</p><ul><li data-pid=\"Xpgm-Gvh\">仓库中的 POM 更小、更清晰</li><li data-pid=\"bxlXbYDE\">依赖解析更快</li><li data-pid=\"POt2m7XE\">构建细节不再泄露</li></ul><p data-pid=\"1judyke0\">从工程视角看，这是 Maven 向“构建工具”和“依赖描述语言”职责分离迈出的关键一步。</p><hr/><h2>四、Artifact 类型扩展：让依赖“说清楚自己是什么”</h2><p data-pid=\"Q3CqjHMm\">长期以来，Maven 对依赖的理解过于粗糙，一个 <code>jar</code> 到底意味着什么，完全依赖插件和编译器去猜。</p><p data-pid=\"NmwAH7HG\">Maven 4 引入了更细粒度的 artifact 类型，用<b>类型本身表达语义</b>，尤其是在模块化和注解处理器场景中。</p><p data-pid=\"HYr-0D5R\">例如，注解处理器可以被明确声明为 processor 类型：</p><div class=\"highlight\"><pre><code class=\"language-text\">&lt;dependency&gt;\n    &lt;groupId&gt;org.projectlombok&lt;/groupId&gt;\n    &lt;artifactId&gt;lombok&lt;/artifactId&gt;\n    &lt;type&gt;processor&lt;/type&gt;\n&lt;/dependency&gt;</code></pre></div><p data-pid=\"AKbNBKBY\">这种设计带来的好处是：</p><ul><li data-pid=\"hVQtDLRB\">不再依赖插件私有约定</li><li data-pid=\"q8wYyj4W\">构建行为更加可预测</li><li data-pid=\"aCm-f-sE\">Java 模块化工程配置显著简化</li></ul><p data-pid=\"SAr5qvaD\">从长期来看，这为 Maven 更好地适配 JPMS、AOT 编译、原生镜像等技术奠定了基础。</p><hr/><h2>五、多模块工程的根本改进：Subprojects 与结构推断</h2><p data-pid=\"WDTyl0SH\">如果你维护过大型 Maven 多模块项目，一定对 <code>&lt;modules&gt;</code> 的维护成本深有体会。</p><p data-pid=\"uFIlGnNb\">Maven 4 用 <code>&lt;subprojects&gt;</code> 重新定义了多模块工程的结构语义：</p><div class=\"highlight\"><pre><code class=\"language-text\">&lt;subprojects&gt;\n    &lt;subproject&gt;module-a&lt;/subproject&gt;\n    &lt;subproject&gt;module-b&lt;/subproject&gt;\n&lt;/subprojects&gt;</code></pre></div><p data-pid=\"-dJu6gSe\">但变化并不止于此：</p><ul><li data-pid=\"ZKZkZFOl\">Maven 可以自动发现子项目</li><li data-pid=\"8mhxPhl7\">子项目的父关系和版本可以被推断</li><li data-pid=\"fPU9iauw\">子模块增删不再需要反复修改父 POM</li></ul><p data-pid=\"paAOiQ-m\">这使父 POM 更接近“工程逻辑根”，而不是配置堆积场所。</p><p data-pid=\"EDXzRhcL\">对于大型工程而言，这一改动显著降低了结构维护成本，也让 Maven 的“约定优于配置”第一次在多模块场景中真正成立。</p><hr/><h2>六、生命周期模型重构：从线性执行到结构化调度</h2><p data-pid=\"HATUzp2n\">Maven 3 的生命周期本质是线性的，插件只能绑定到固定阶段，复杂构建往往需要“挤阶段”。</p><p data-pid=\"f2WSGxyl\">Maven 4 将生命周期视为一个<b>有依赖关系的执行结构</b>，而不是简单顺序列表：</p><ul><li data-pid=\"I1BwwXeH\">模块之间形成执行依赖树</li><li data-pid=\"u18gHACE\">满足条件即可并行执行</li><li data-pid=\"22CoDKP2\">生命周期更贴近真实构建过程</li></ul><p data-pid=\"X415DhPe\">同时，引入了更清晰的 before / after 钩子语义：</p><div class=\"highlight\"><pre><code class=\"language-text\">&lt;execution&gt;\n    &lt;phase&gt;before:compile&lt;/phase&gt;\n&lt;/execution&gt;</code></pre></div><p data-pid=\"hHm1n2iU\">这使插件作者和构建工程师能够更精确地表达“在什么之前或之后执行”，而不再依赖隐含顺序。</p><hr/><h2>七、配置模型的整体收紧：更严格，但更安全</h2><p data-pid=\"V6bqXN_G\">Maven 4 在多个细节上体现了一个明确态度：<b>宁可早失败，也不要静默出错</b>。</p><p data-pid=\"LX2QRv_w\">典型变化包括：</p><ul><li data-pid=\"1vrQnZ4Q\">默认情况下，启用不存在的 profile 会直接失败</li><li data-pid=\"XTsRBc9w\">构建参数和结构配置更明确</li><li data-pid=\"ccQqJuR4\">对非标准行为的容忍度降低</li></ul><p data-pid=\"4gYT2oUM\">这些改动在短期内可能让部分项目“感觉更严格”，但在 CI/CD 和团队协作环境中，能显著降低隐性风险。</p><hr/><h2>八、迁移 Maven 4 的现实建议</h2><p data-pid=\"j0BHPMPz\">从工程实践角度看，升级 Maven 4 并不需要“一步到位”：</p><ul><li data-pid=\"WeQ_81pN\">现有 Maven 3 项目通常可以直接在 Maven 4 下构建</li><li data-pid=\"H62O_ZS1\">新特性可以按需逐步启用</li><li data-pid=\"zDDhxa5w\">多模块和 Consumer POM 的收益在中大型项目中尤为明显</li></ul><p data-pid=\"OCaYyK6Q\">更重要的是，Maven 4 的设计方向非常明确：<br/><b>它在为未来十年的 Java 构建体系做准备，而不是解决短期语法问题。</b></p><hr/><h2>九、结语：Maven 4 的真正价值</h2><p data-pid=\"YYxi1Ez4\">Maven 4 并不是一次表层优化，而是一场针对构建模型、依赖语义和工程结构的系统性修复。</p><p data-pid=\"4WPsl9ls\">它解决的核心问题包括：</p><ul><li data-pid=\"9AaK_OVX\">构建与依赖语义混杂</li><li data-pid=\"ERVpZUpL\">多模块工程维护成本过高</li><li data-pid=\"s5u5hwhV\">生命周期扩展能力不足</li><li data-pid=\"xdH7jgmU\">对现代 Java 特性的支持不自然</li></ul><p data-pid=\"Hf2HMCxh\">如果你维护的是中大型 Java 项目，Maven 4 不再是“要不要用”的问题，而是<b>什么时候开始评估、如何逐步引入的问题</b>。</p><p data-pid=\"IoolNy9q\">从这个意义上说，Maven 4 是一次迟到的升级，但它来得正是时候。</p><p data-pid=\"qyREKP_1\">原文地址：<a href=\"https://link.zhihu.com/?target=https%3A//zhiliaole.top/archives/1768543912795\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">zhiliaole.top/archives/</span><span class=\"invisible\">1768543912795</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"2ANWWjIr\">更多文章：<a href=\"https://link.zhihu.com/?target=https%3A//zhiliaole.top/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://zhiliaole.top</a></p>",
+        "visited_count": 507
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995499525780042056}",
+      "attached_info": "Cu4FCIrUnauVkezorwEQBxoJMjY5MTExNTgxIJewp8sGKAEwBEBZSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoAYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NTQ5OTUyNTc4MDA0MjA1NqoBCXJlY29tbWVuZMIBIDZhOWJkM2M1NWE5YTlhYWY4MmQwY2NiMDIxYjgxYzQy8gEKCAwSBk5vcm1hbPIBKAgKEiQyOWQ3MTE0MS03ZjljLTRmNjQtYTFkOS05NWZkYzdjNTZlOWLyAQYICxICMTWCAgCIAsKkmsa8M5ICIDZhOWJkM2M1NWE5YTlhYWY4MmQwY2NiMDIxYjgxYzQymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMegCAvoCC05PUk1BTF9GTE9XigMgZTE1MTFhYTNmNmIzNDU5NjkzODQ1MTdhM2RmMWVhZGOaAw0KAnYyEAAaBW90aGVyqAP7A9gDAOoDI2ZlZWQtdGV4dC1hbGxzaXRlLW9ubGluZS11Y2YtcmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQNpUbz+BBQAAAAAAAAAAiQXwkB3obJS0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUPkAYAoAZbqAYAkgIuCgkyNjkxMTE1ODESEzE5OTU0OTk1MjU3ODAwNDIwNTYYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=89&desktop=true&end_offset=91&page_number=16&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=89&desktop=true&end_offset=91&page_number=16&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

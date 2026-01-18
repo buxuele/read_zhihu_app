@@ -1,0 +1,1003 @@
+{
+  "data": [
+    {
+      "id": "144_1768600317.205",
+      "type": "feed",
+      "offset": 144,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600317,
+      "updated_time": 1768600317,
+      "target": {
+        "favorite_count": 39,
+        "thanks_count": 7,
+        "is_copyable": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-d96ad5e347c534182ed2fc29b29aa403_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "is_navigator": false,
+        "excerpt": "抱着偷代码的想法，我认真分析了Linus的AudioNoise项目。 众所周知，FFmpeg有比较齐全的音频编解码，有音频重采样和格式转换，但是在音效这块，也就是libavfilter里的audio filter，做得非常基础——有相应功能，但是算法偏老旧，没人更新。 据我观察，音频处理的从业人员偏低层硬件，做上层应用的少，而FFmpeg的生态位还是偏上层一些，虽然嵌入式实时系统上也能跑。 于是，我想看看Linus写了什么音效，能不能搬到FFmpeg libavfi…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "excerpt_new": "抱着偷代码的想法，我认真分析了Linus的AudioNoise项目。 众所周知，FFmpeg有比较齐全的音频编解码，有音频重采样和格式转换，但是在音效这块，也就是libavfilter里的audio filter，做得非常基础——有相应功能，但是算法偏老旧，没人更新。 据我观察，音频处理的从业人员偏低层硬件，做上层应用的少，而FFmpeg的生态位还是偏上层一些，虽然嵌入式实时系统上也能跑。 于是，我想看看Linus写了什么音效，能不能搬到FFmpeg libavfi…",
+        "content": "<p data-pid=\"pp6y4yTp\">抱着偷代码的想法，我认真分析了Linus的AudioNoise项目。</p><p data-pid=\"23i-ntQj\">众所周知，FFmpeg有比较齐全的音频编解码，有音频重采样和格式转换，但是在音效这块，也就是libavfilter里的audio filter，做得非常基础——有相应功能，但是算法偏老旧，没人更新。</p><p data-pid=\"73308hO-\">据我观察，音频处理的从业人员偏低层硬件，做上层应用的少，而FFmpeg的生态位还是偏上层一些，虽然嵌入式实时系统上也能跑。</p><p data-pid=\"JhLtA1v5\">于是，我想看看Linus写了什么音效，能不能搬到FFmpeg libavfilter里。</p><p data-pid=\"zNFUlTzn\">看完发现，Linus真的是写着玩啊……FFmpeg的audio filter糙是糙了点，还是能用的。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-582f896053ae675b9769f29126b1a501_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1976\" data-rawheight=\"702\" data-original-token=\"v2-d96ad5e347c534182ed2fc29b29aa403\" class=\"origin_image zh-lightbox-thumb\" width=\"1976\" data-original=\"https://picx.zhimg.com/v2-582f896053ae675b9769f29126b1a501_r.jpg\"/><figcaption>&amp;quot; data-size=</figcaption></figure><p data-pid=\"XJ0R3LcV\">看回声音效是怎么跑起来的：</p><div class=\"highlight\"><pre><code class=\"language-console\">AudioNoise$ make echo\nffmpeg -y -v fatal -i BassForLinus.mp3 -f s32le -ar 48000 -ac 1 input.raw\ngcc -Wall -O2 -ffast-math -fsingle-precision-constant     gensin.c  -lm -o gensin\n./gensin &gt; gensin.h\ngcc -Wall -O2 -ffast-math -fsingle-precision-constant    -c -o convert.o convert.c\ngcc   convert.o  -lm -o convert\n./convert echo 0.3 0.3 0.3 0.3 &lt; input.raw &gt; output.raw\nPlaying echo(0.300000,0.300000,0.300000,0.300000)\necho: delay=300 ms lfo=1.2 ms feedback=0.3\nffmpeg -y -v fatal -f s32le -ar 48000 -ac 1 -i output.raw -f mp3 echo.mp3\nffplay -v fatal -nodisp -autoexit -f s32le -ar 48000 -ch_layout mono -i pipe:0 &lt; output.raw</code></pre></div><p data-pid=\"KzOiDZFM\">1、用ffmpeg把mp3解码成S32LE格式PCM</p><p data-pid=\"I_rYlFLg\"><code>ffmpeg -y -v fatal -i BassForLinus.mp3 -f s32le -ar 48000 -ac 1 input.raw</code> </p><p data-pid=\"sieqGgnA\">2、编译convert程序</p><p data-pid=\"157dwEcR\">3、convert处理音频裸数据，输出音频裸数据</p><p data-pid=\"QUAiNhkh\"><code>./convert echo 0.3 0.3 0.3 0.3 &lt; input.raw &gt; output.raw</code></p><p data-pid=\"vRvEUExI\">4、把输出的音频裸数据编码成mp3</p><p data-pid=\"t69TbcXr\"><code>ffmpeg -y -v fatal -f s32le -ar 48000 -ac 1 -i output.raw -f mp3 echo.mp3</code></p><p data-pid=\"w_HWGRfG\">5、播放音频裸数据</p><p data-pid=\"Va3Qg10z\">ffplay -v fatal -nodisp -autoexit -f s32le -ar 48000 -ch_layout mono -i pipe:0 &lt; output.raw</p><p data-pid=\"urovz-VY\">convert实现了这几个“音效”：<code>effects = flanger echo fm phaser discont am</code>，其中fm和am 还不是真的音效，是音效发生器，只输出，不需要输入。</p><p data-pid=\"ZgLUGmKr\">FFmpeg libavfilter里有flanger, aecho, aphaser滤镜（a前缀代表audio）</p><div class=\"highlight\"><pre><code class=\"language-text\">$ ffmpeg -hide_banner -filters |egrep  &#39;(flanger)|(echo)|(phaser)|(discont)&#39;\n .. aecho             A-&gt;A       Add echoing to the audio.\n .. aphaser           A-&gt;A       Add a phasing effect to the audio.\n .. flanger           A-&gt;A       Apply a flanging effect to the audio.</code></pre></div><hr/><p data-pid=\"VYyQ11dc\">项目是写着玩的，项目重点是convert工具实现的几个音效，其他的编码、解码和播放都是拿ffmpeg命令行实现的，至于可视化这种测试属性的小工具，当然是怎么容易怎么做。</p><p data-pid=\"NVs8wMCe\">我的观点有两个：</p><ul><li data-pid=\"KWkVSM0C\"><b>AI是编程的工具，哪天彻底替代程序员不好说，但今天于我来说是工具</b></li><li data-pid=\"BJu4LX2f\"><b>我需要为代码负责，包括AI给我生成的代码</b></li></ul><p data-pid=\"YfoZxnKU\">在玩具项目里用AI这个工具来写小工具，符合上述两个观点，玩具项目随便玩。</p><p data-pid=\"ZvUgLTde\">有些东西够用就行，在家穿个屁股破洞的裤子没人笑话，但是穿到大街上不合适。</p><p data-pid=\"1uOiixmE\">我用AI做了几个辅助FFmpeg开发的小工具，好坏只影响我自己，最多误删个home目录。如果是拿AI生成的代码在FFmpeg里拉屎就不妙了。</p>",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1994928700068747055",
+        "thumbnail": "https://picx.zhimg.com/50/v2-d96ad5e347c534182ed2fc29b29aa403_720w.jpg?source=b6762063",
+        "updated_time": 1768408386,
+        "is_labeled": false,
+        "comment_count": 7,
+        "navigator_vote": false,
+        "id": "1994928700068747055",
+        "reshipment_settings": "disallowed",
+        "preview_type": "default",
+        "visited_count": 11084,
+        "author": {
+          "url_token": "quinkblack",
+          "headline": "FFmpeg Maintainer",
+          "followers_count": 5675,
+          "is_following": false,
+          "is_followed": false,
+          "id": "74f4aa58123b627550b53a1cd6f87af6",
+          "url": "https://api.zhihu.com/people/74f4aa58123b627550b53a1cd6f87af6",
+          "user_type": "people",
+          "name": "quink",
+          "avatar_url": "https://picx.zhimg.com/50/v2-b4b6bc2e1c27fc2498a27480a9eb3714_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1
+        },
+        "question": {
+          "bound_topic_ids": [
+            350,
+            1355,
+            2941838,
+            3903772,
+            4107392
+          ],
+          "is_following": false,
+          "id": "1993833102485788460",
+          "created": 1768146855,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "excerpt": "",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-933c7ea946be2eb907e8949e2492c166_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "id": "ea6ca64ab11a5bb705f86b682a8f5f39",
+            "url": "https://api.zhihu.com/people/ea6ca64ab11a5bb705f86b682a8f5f39",
+            "user_type": "people",
+            "url_token": "freude-86",
+            "is_followed": false,
+            "name": "哎想想",
+            "headline": "人不应被定义，但又不得不被定义。",
+            "followers_count": 121
+          },
+          "comment_count": 5,
+          "title": "如何评价Linux之父Linus Torvalds在最新项目中开始使用vibe coding？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "detail": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1993833102485788460"
+        },
+        "voteup_count": 102,
+        "preview_text": "",
+        "type": "answer",
+        "created_time": 1768408066
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994928700068747055}",
+      "attached_info": "CqkGCOenjN61iZuSsgEQBBoJNzY1NDQ3NzU3IIKIn8sGKGYwB0CQAUozCh5UU19TT1VSQ0VfRkVFRFJFX1RJTUVMSU5FU1NfVjMSATAYACAAOgp7InJhdyI6IiJ9WgkxMTgwMzUxNjViIDExNTg1NDBhZjk0NjI4Y2U5NDRjOGRjNjg3NzY0ODMxchMxOTk0OTI4NzAwMDY4NzQ3MDU1igETMTk5MzgzMzEwMjQ4NTc4ODQ2MKoBCXJlY29tbWVuZMIBIDc0ZjRhYTU4MTIzYjYyNzU1MGI1M2ExY2Q2Zjg3YWY28gEKCAwSBk5vcm1hbPIBKAgKEiRiNzQ1MTQzOS03MWQzLTRjMDItYjBhNS0yY2UwNGZiNGFjNTnyAQYICxICMjWCAgCIArHfrMa8M5ICIDc0ZjRhYTU4MTIzYjYyNzU1MGI1M2ExY2Q2Zjg3YWY2mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gIeVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTX1Yz6AID+gILTk9STUFMX0ZMT1eKAyBhM2YzMWRlZmVkZDk0Y2RkYTBjMTc1NDUyZjFkY2UxNJoDDQoCdjIQABoFb3RoZXKoA8xW2AMA6gMUZmVlZHJlX3RpbWVsaW5lc3NfdjP6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxC4Dxi+BSIjdjItZDk2YWQ1ZTM0N2M1MzQxODJlZDJmYzI5YjI5YWE0MDOABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIAAL5k/gQUAAAAAAAAAAIkFiaOk73intD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFGZAGAKAGkgGoBgGSAi4KCTc2NTQ0Nzc1NxITMTk5NDkyODcwMDA2ODc0NzA1NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "145_1768600317.126",
+      "type": "feed",
+      "offset": 145,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600317,
+      "updated_time": 1768600317,
+      "target": {
+        "author": {
+          "id": "210aab8097f1a6f01504f575c40a6d7d",
+          "user_type": "people",
+          "url_token": "da-pao-niao",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-43f9748bdbcd3b2fe5752a2edd44a7ba_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 7504,
+          "url": "https://api.zhihu.com/people/210aab8097f1a6f01504f575c40a6d7d",
+          "name": "大炮鸟",
+          "headline": "",
+          "gender": -1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "voteup_count": 1463,
+        "comment_count": 116,
+        "excerpt": "当年我哥们在机房里面巡检，看到一个设备的光纤标签没有粘好，很多都已经不太粘了。 本着负责的心理，他重新写了一套，然后给换了。 结果有两个贴反了。而且还那么寸，其中一条是跨省的。 过了半年做割接，同事夜班值机，到时间也没有查台帐，一个直接跑到机架那里。 看标签找到，然后一拔…… 机房里面警铃大作，另一个大喊赶快插回去赶快插回去。 就停了不到10秒，不到一分钟电话就过来了。 不到半小时，分管领导穿着睡衣已经…",
+        "excerpt_new": "当年我哥们在机房里面巡检，看到一个设备的光纤标签没有粘好，很多都已经不太粘了。 本着负责的心理，他重新写了一套，然后给换了。 结果有两个贴反了。而且还那么寸，其中一条是跨省的。 过了半年做割接，同事夜班值机，到时间也没有查台帐，一个直接跑到机架那里。 看标签找到，然后一拔…… 机房里面警铃大作，另一个大喊赶快插回去赶快插回去。 就停了不到10秒，不到一分钟电话就过来了。 不到半小时，分管领导穿着睡衣已经…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 187,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "id": "1992874020434112994",
+        "type": "answer",
+        "created_time": 1767918192,
+        "updated_time": 1767918192,
+        "thanks_count": 27,
+        "reshipment_settings": "allowed",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "question": {
+          "excerpt": "",
+          "created": 1720434269,
+          "bound_topic_ids": [
+            523,
+            16857,
+            19901,
+            22035,
+            30252
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "id": "661071288",
+          "is_following": false,
+          "comment_count": 100,
+          "url": "https://api.zhihu.com/questions/661071288",
+          "follower_count": 0,
+          "title": "谁能告诉我体制内的好处，1条就行？",
+          "answer_count": 0,
+          "detail": "",
+          "type": "question",
+          "author": {
+            "gender": -1,
+            "followers_count": 240,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/dfe3727429137f806397e441f5ec8dbd",
+            "user_type": "people",
+            "url_token": "ni-shi-zhen-72-9",
+            "headline": "",
+            "is_following": false,
+            "id": "dfe3727429137f806397e441f5ec8dbd",
+            "name": "逆时针",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-ff13ed72a3b48d6020eb8f99f0d9a7c8_l.jpg?source=b6762063",
+            "is_org": false
+          }
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"mdkOUUho\">当年我哥们在机房里面巡检，看到一个设备的光纤标签没有粘好，很多都已经不太粘了。</p><p data-pid=\"mrqLV3-E\">本着负责的心理，他重新写了一套，然后给换了。</p><p data-pid=\"stTqAZL0\">结果有两个贴反了。而且还那么寸，其中一条是跨省的。</p><p data-pid=\"al2lR0Jp\">过了半年做割接，同事夜班值机，到时间也没有查台帐，一个直接跑到机架那里。</p><p data-pid=\"yD4Sy9zH\">看标签找到，然后一拔……</p><p data-pid=\"43dfPhta\">机房里面警铃大作，另一个大喊赶快插回去赶快插回去。</p><p data-pid=\"4hen3PE_\">就停了不到10秒，不到一分钟电话就过来了。</p><p data-pid=\"wvUzvkwg\">不到半小时，分管领导穿着睡衣已经到了机房。</p><p data-pid=\"L3oC1ADT\">陆陆续续所有机房人员和领导，半夜两点站了一堆。</p><p data-pid=\"3hr_7TLl\">分管领导说今天不复盘清楚谁都不许走。</p><p data-pid=\"Su9X9Q7-\">事情挺简单，前因后果很快就明白了。</p><p data-pid=\"5jC8KB-g\">但是把事情搞清之后，分管领导没说什么，让机房主任写个东西，叮嘱一定要严厉，要在机房管理制度上找根源。</p><p data-pid=\"QOM6H1uM\">其实就是把个人原因尽量摘了出去，最后弄了半天，贴标签的和拔的也就通报批评，扣了两个月奖金。机房主任扣了一个月的，搞了一个月制度大检查。</p><p data-pid=\"qzDJqtAz\">如果是在普通企业，不说判刑，第二天直接开除是最基本的。</p>",
+        "visited_count": 226461,
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/1992874020434112994",
+        "is_copyable": true,
+        "is_labeled": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1992874020434112994}",
+      "attached_info": "CvgFCOenjN61iZuSsgEQBBoJNzY0NjM4NjM2IPCUgcsGKLcLMHRAkQFKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1aCTEwOTE4MjMzMGIgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5OTI4NzQwMjA0MzQxMTI5OTSKAQk2NjEwNzEyODiqAQlyZWNvbW1lbmTCASAyMTBhYWI4MDk3ZjFhNmYwMTUwNGY1NzVjNDBhNmQ3ZPIBCggMEgZOb3JtYWzyASgIChIkNmM3MWRiNzQtNDUzMS00MDMyLTlmZTctM2U2Y2ZhMzI3ZDcy8gEGCAsSAjI1ggIAiAKx36zGvDOSAiAyMTBhYWI4MDk3ZjFhNmYwMTUwNGY1NzVjNDBhNmQ3ZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gITVFNfU09VUkNFX0ZFRURSRV9WNegCAvoCC05PUk1BTF9GTE9XigMgYTNmMzFkZWZlZGQ5NGNkZGEwYzE3NTQ1MmYxZGNlMTSaAw0KAnYyEAAaBW90aGVyqAOd6Q3YAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4Bzsrz+BBQAAAAAAAAAAiQWJo6TveKe0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUZkAYAoAaTAagGA5ICLgoJNzY0NjM4NjM2EhMxOTkyODc0MDIwNDM0MTEyOTk0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "146_1768600317.863",
+      "type": "feed",
+      "offset": 146,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600317,
+      "updated_time": 1768600317,
+      "target": {
+        "url": "https://api.zhihu.com/answers/56204925691",
+        "question": {
+          "id": "539192753",
+          "author": {
+            "is_org": false,
+            "id": "ad4b67d7e745d0c96e2e43fae6702aa8",
+            "name": "慕容秋霜",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-97bb2480ff73d62909bf15b614867a52_l.jpg?source=b6762063",
+            "gender": 1,
+            "followers_count": 209,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/ad4b67d7e745d0c96e2e43fae6702aa8",
+            "user_type": "people",
+            "url_token": "gao-sheng-37-96"
+          },
+          "comment_count": 333,
+          "is_following": false,
+          "type": "question",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/539192753",
+          "title": "为什么韩国明明是发达国家却总是一副吃不起肉的样子？",
+          "excerpt": "",
+          "question_type": "normal",
+          "created": 1655987570,
+          "answer_count": 0,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            1169,
+            21081
+          ]
+        },
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "type": "answer",
+        "updated_time": 1734285895,
+        "comment_count": 2063,
+        "vote_next_step": "vote",
+        "excerpt": "大问题永远比小问题好回答，比如问你大坝质量好不好，肯定回答好。我问你水泥用的什么强度，你就开始支支吾吾。最后问你具体某个检测做了没数据在哪，你就要动手打我了。 韩国人吃不吃得起肉，是一个比较大的问题。我帮你拆成小问题: 。韩国人中位数年收入是多少? 房租和医保支出多少? 。韩国一年进口多少肉，对应到人均是多少? 主要进口企业是哪些? 。韩国首尔最大连锁品牌超市铺货量最大的冰鲜牛肋排肉种类斤价多少? 同理，很…",
+        "excerpt_new": "大问题永远比小问题好回答，比如问你大坝质量好不好，肯定回答好。我问你水泥用的什么强度，你就开始支支吾吾。最后问你具体某个检测做了没数据在哪，你就要动手打我了。 韩国人吃不吃得起肉，是一个比较大的问题。我帮你拆成小问题: 。韩国人中位数年收入是多少? 房租和医保支出多少? 。韩国一年进口多少肉，对应到人均是多少? 主要进口企业是哪些? 。韩国首尔最大连锁品牌超市铺货量最大的冰鲜牛肋排肉种类斤价多少? 同理，很…",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"3FluiA7v\">大问题永远比小问题好回答，比如问你大坝质量好不好，肯定回答好。我问你水泥用的什么强度，你就开始支支吾吾。最后问你具体某个检测做了没数据在哪，你就要动手打我了。</p><p data-pid=\"x5otVyL6\">韩国人吃不吃得起肉，是一个比较大的问题。我帮你拆成小问题:</p><p data-pid=\"Twmwxoze\">。韩国人中位数年收入是多少? 房租和医保支出多少?</p><p data-pid=\"mJpPGNsr\">。韩国一年进口多少肉，对应到人均是多少? 主要进口企业是哪些?</p><p data-pid=\"baEE60dh\">。韩国首尔最大连锁品牌超市铺货量最大的冰鲜牛肋排肉种类斤价多少?  </p><p data-pid=\"iEVL3aBQ\">同理，很多事情可以这样拆，我再给你举个例子。美国是否已经没有工业能力了——这是一个大问题，需要拆成小问题。</p><p data-pid=\"hkzjpQfM\">。美国涉及工业企业有多少家，总价值多少?</p><p data-pid=\"dsF6ShxM\">。美国2024年输出工业品类数量，涉及行业数量，输出总价值多少?</p><p data-pid=\"M2Q4jXZt\">。美国工程技术类论文产出占比?</p><p data-pid=\"UI951VCR\">人生总是回答大问题，就代表你很远离现实，一个个小问题堆积起来才是当下。大问题定义宽泛，自己骗自己的空间很大。</p>",
+        "is_navigator": false,
+        "segment_infos": [
+          {
+            "pid": "3FluiA7v",
+            "text": "大问题永远比小问题好回答，比如问你大坝质量好不好，肯定回答好。我问你水泥用的什么强度，你就开始支支吾吾。最后问你具体某个检测做了没数据在哪，你就要动手打我了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 79,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987038485396333662"
+                  ],
+                  "is_like": false,
+                  "like_count": 624,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "UI951VCR",
+            "text": "人生总是回答大问题，就代表你很远离现实，一个个小问题堆积起来才是当下。大问题定义宽泛，自己骗自己的空间很大。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 54,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992568509453058736"
+                  ],
+                  "is_like": false,
+                  "like_count": 20,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "name": "cocojiang",
+          "headline": "要在有尊严的地方做有尊严的人。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-77dd2151c04c013ac29386fcbc45ed2f_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 4028,
+          "id": "f5150e40b6099083a31d98161ebc19dd",
+          "url": "https://api.zhihu.com/people/f5150e40b6099083a31d98161ebc19dd",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "cocojiang-58",
+          "gender": -1,
+          "is_followed": false
+        },
+        "is_labeled": false,
+        "is_copyable": true,
+        "visited_count": 1649856,
+        "navigator_vote": false,
+        "created_time": 1734285895,
+        "thanks_count": 2365,
+        "voteup_count": 39751,
+        "preview_type": "default",
+        "answer_type": "normal",
+        "id": "56204925691",
+        "favorite_count": 21064,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 56204925691}",
+      "attached_info": "CucFCOenjN61iZuSsgEQBBoJNzA0MzU2Njc2IMe0/LoGKMe2AjCPEECSAUovCgZJdGVtQ0YSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDY3NTM0MjE4MAoYACAAOgBaCDgyMTAyNDk1YiAxMTU4NTQwYWY5NDYyOGNlOTQ0YzhkYzY4Nzc2NDgzMXILNTYyMDQ5MjU2OTGKAQk1MzkxOTI3NTOqAQlyZWNvbW1lbmTCASBmNTE1MGU0MGI2MDk5MDgzYTMxZDk4MTYxZWJjMTlkZPIBCggMEgZOb3JtYWzyASgIChIkOGFjOTEzOWYtNDYzMC00NGU4LTllOTEtODE2NjJhOWYyOTA38gEGCAsSAjI1ggIAiAKy36zGvDOSAiBmNTE1MGU0MGI2MDk5MDgzYTMxZDk4MTYxZWJjMTlkZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAgZJdGVtQ0boAgL6AgtOT1JNQUxfRkxPV4oDIGEzZjMxZGVmZWRkOTRjZGRhMGMxNzU0NTJmMWRjZTE0mgMNCgJ2MhAAGgVvdGhlcqgDwNlk2AMA6gMVdGV4dEFsbFNpdGVNdkl0ZW1DRlYy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKBjNqI/gQUAAAAAAAAAAIkFiaOk73intD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFGZAGAKAGlAGoBgCSAiYKCTcwNDM1NjY3NhILNTYyMDQ5MjU2OTEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "147_1768600317.70",
+      "type": "feed",
+      "offset": 147,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600317,
+      "updated_time": 1768600317,
+      "target": {
+        "id": "1992386817346012264",
+        "updated_time": 1767802034,
+        "thanks_count": 168,
+        "allow_segment_interaction": true,
+        "created_time": 1767802034,
+        "excerpt": "因为那些被毒打后棱角更锋利的人，早看透了：圆滑所换来的东西，根本付不起背叛自己的代价。 他们发现，讨好换来的利益其实标着价码，早晚得用更珍贵的东西去赎。你得理解，他所感受到的“疼”，和你感受到的，可能不是同一种疼。你可能会觉得，被当众批评，丢面子，疼。 奖金少了，肉疼。 升不上去，前途渺茫，焦虑的疼。 这些疼，是现实的、具体的、大家都认可的“疼”。 为了逃避这些疼，你愿意去做很多事：说软话，赔笑脸，…",
+        "excerpt_new": "因为那些被毒打后棱角更锋利的人，早看透了：圆滑所换来的东西，根本付不起背叛自己的代价。 他们发现，讨好换来的利益其实标着价码，早晚得用更珍贵的东西去赎。你得理解，他所感受到的“疼”，和你感受到的，可能不是同一种疼。你可能会觉得，被当众批评，丢面子，疼。 奖金少了，肉疼。 升不上去，前途渺茫，焦虑的疼。 这些疼，是现实的、具体的、大家都认可的“疼”。 为了逃避这些疼，你愿意去做很多事：说软话，赔笑脸，…",
+        "is_labeled": false,
+        "visited_count": 42871,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "type": "answer",
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-f4b512dc3a29d408d1cf17a0bf525678_l.jpg?source=b6762063",
+          "followers_count": 1020,
+          "is_followed": false,
+          "id": "98e8590c610591463b16de0fd151b5d6",
+          "url": "https://api.zhihu.com/people/98e8590c610591463b16de0fd151b5d6",
+          "user_type": "people",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "url_token": "11-95-35-70",
+          "name": "椿子酒树",
+          "headline": "对未来的真正慷慨，是把一切都献给现在。"
+        },
+        "comment_count": 98,
+        "preview_text": "",
+        "favorite_count": 1699,
+        "vote_next_step": "vote",
+        "question": {
+          "type": "question",
+          "follower_count": 0,
+          "question_type": "normal",
+          "title": "为什么有些人明明遭受了社会毒打依旧保持棱角分明？",
+          "detail": "",
+          "id": "654316450",
+          "url": "https://api.zhihu.com/questions/654316450",
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "author": {
+            "id": "3fb501967b1f3f84d4ad96c7250a5c28",
+            "user_type": "people",
+            "name": "Lucky女神",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/3fb501967b1f3f84d4ad96c7250a5c28",
+            "url_token": "hhhh-7-79-86",
+            "headline": "专注个人成长",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-c6ae2676207cba1eb30a99e8a05bd4a8_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 49
+          },
+          "created": 1714228677,
+          "answer_count": 0,
+          "comment_count": 40,
+          "bound_topic_ids": [
+            994,
+            3946,
+            16208,
+            21182,
+            36014
+          ]
+        },
+        "preview_type": "default",
+        "voteup_count": 1514,
+        "is_navigator": false,
+        "segment_infos": [
+          {
+            "pid": "C9dPqvap",
+            "text": "因为那些被毒打后棱角更锋利的人，早看透了：圆滑所换来的东西，根本付不起背叛自己的代价。",
+            "marks": [
+              {
+                "start_index": 21,
+                "end_index": 43,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993006039965123908"
+                  ],
+                  "is_like": false,
+                  "like_count": 25,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "E1PZSK_y",
+            "text": "他们发现，讨好换来的利益其实标着价码，早晚得用更珍贵的东西去赎。",
+            "marks": [
+              {
+                "start_index": 5,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992952422876854003"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "S3CFb84v",
+            "text": "那种疼叫“自我背叛”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 11,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992952454006998391"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "EJQBxXCv",
+            "text": "当他强迫自己去做那些迎合、奉承、把黑说成白的事情时，他会在那个瞬间，感到一种强烈的自我撕裂。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 46,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994358080411038827"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "03nFszk_",
+            "text": "那种裂开的滋味，是瞬间的羞耻，和之后漫长而隐蔽的自我厌弃。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992866452508807816"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "hbTq1sPP",
+            "text": "因此，他的选择与其说是“勇敢”，我认为更像是一种“两害相权取其轻”的脆弱。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 37,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992746833122972681"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "PsJrz4Cj",
+            "text": "他是回头看过了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 8,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992952596072265654"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "CdVxOo6Q",
+            "text": "他想要的，不过是走到一个自己认得的、心里干干净净的地方。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992952632487191801"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "9mZKviZl",
+            "text": "每一次他们头破血流地坚持下来，都是在心里一遍遍加固这种定义：我还是我。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 35,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994358388323271625"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "TYEGPg72",
+            "text": "他们通过不断的“拒绝”，来雕刻和确认自我的形状。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994572939098601333"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "HW_yJrqd",
+            "text": "于是，一个奇妙的循环产生了：因为他不改，所以环境被筛选成了适合他这个样子存在的样子。而环境越适合，他就越不需要改变。时间长了，这不再是痛苦的坚持，而变成了一种自洽的生态。他就在这个自己无意中构建的小生态里，活得挺好。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 108,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994358567122272285"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "lWgu9pmt",
+            "text": "但他们无意中，可能找到了另一种权力，叫做“定义自我价值的权力”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994358631815214340"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "z18lPFwc",
+            "text": "在这个瞬息万变、令人无比焦虑的时代，这种安定感，某种程度上就是一种巨大的、难以被剥夺的财富。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 46,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994358080411038827"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "HT14Bi7j",
+            "text": "他可能很早就意识到，大多数我们奋力追逐的东西——那些光环、头衔、圈子里的优越感，最终都可能烟消云散，留不下什么真正的痕迹。",
+            "marks": [
+              {
+                "start_index": 10,
+                "end_index": 61,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992952902256452901"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "JbnHNNEv",
+            "text": "如果终究是一场空，那么至少，我要按照自己喜欢的样子空掉，而不是变成一个自己都厌恶的扭曲形状再空掉。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 49,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992952925354488078"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "4_Hwxol8",
+            "text": "可他站在这里，能看见最真实的天地间，也能照见那个没有变形模糊的自己。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992953013313245588"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "QTb1V54s",
+            "text": "但他完成了一件对自己而言极其重要的事：他做到了对自己最大的诚实，并承担了这份诚实带来的全部代价。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 48,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994780648796349555"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "t1BxyqvM",
+            "text": "这，大概就是他遍体鳞伤之后，依旧棱角分明的最深根源：他用自己的方式，跟这个世界，也跟自己，达成了最终的和解。 这个和解的条件很苛刻，但他接受了。然后，他就这样，带着一身伤痕和棱角，自顾自地，活下去了。",
+            "marks": [
+              {
+                "start_index": 26,
+                "end_index": 100,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994291205211715485"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/1992386817346012264",
+        "is_copyable": false,
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"C9dPqvap\"><b>因为那些被毒打后棱角更锋利的人，早看透了：圆滑所换来的东西，根本付不起背叛自己的代价。</b></p><p data-pid=\"E1PZSK_y\"><b>他们发现，讨好换来的利益其实标着价码，早晚得用更珍贵的东西去赎。</b></p><h2>你得理解，他所感受到的“疼”，和你感受到的，可能不是同一种疼。</h2><p data-pid=\"z0ZcjQKA\">你可能会觉得，被当众批评，丢面子，疼。</p><p data-pid=\"5Ky1jMpo\">奖金少了，肉疼。</p><p data-pid=\"XFtI0Rzg\">升不上去，前途渺茫，焦虑的疼。</p><p data-pid=\"ssIwb1RJ\">这些疼，是现实的、具体的、大家都认可的“疼”。</p><p data-pid=\"Gk0OyqFk\"><b>为了逃避这些疼，你愿意去做很多事：说软话，赔笑脸，干点违心的活儿。</b></p><p data-pid=\"yetdWAYA\">但他那里，有一种更尖锐、更让他无法忍受的疼。</p><p data-pid=\"S3CFb84v\"><b>那种疼叫“自我背叛”。</b></p><p data-pid=\"EJQBxXCv\"><b>当他强迫自己去做那些迎合、奉承、把黑说成白的事情时，他会在那个瞬间，感到一种强烈的自我撕裂。</b></p><p data-pid=\"lAH2ktJe\">就如同心里有个东西，忽然裂开了一道缝般。</p><p data-pid=\"03nFszk_\">那种裂开的滋味，是瞬间的羞耻，和之后漫长而隐蔽的自我厌弃。</p><p data-pid=\"twmH1dsa\">比如，晚上躺下，那个瞬间会闪回。</p><p data-pid=\"pHxXuxKw\">洗澡时，那种感觉会泛上来。</p><p data-pid=\"5klH3fn7\"><b>这是一种连绵不绝的、腐蚀内心的疼。</b></p><p data-pid=\"jYa57xdz\">这两种疼摆在他面前：</p><p data-pid=\"_ATy6vkD\">一种是外部的、社会公认的“失败之疼”。</p><p data-pid=\"7DxwLoEl\">一种是内部的、只有他自己知道的“崩溃之疼”。</p><p data-pid=\"g1wYM--l\">他权衡之后，选择了承受前者。</p><p data-pid=\"StR3E9Rj\">因为前者总有过去的时候，可后者，一旦开了头，会把自己给逐渐侵染成一个怎么也瞧不起的、陌生、丑陋、召来无穷厌恶、恶心的罪恶自我。</p><p data-pid=\"9Cx473OE\">那份侵染痕迹更会始终残留在心底，永远也摆脱不掉了。</p><p data-pid=\"hbTq1sPP\"><b>因此，他的选择与其说是“勇敢”，我认为更像是一种“两害相权取其轻”的脆弱。</b></p><h2>在主流观念下，我们都相信“条条大路通罗马”，相信人要灵活，要能屈能伸，这条路堵了，就换一条。</h2><p data-pid=\"aGN8S6Kb\"><b>我们把这叫做“智慧”。</b></p><p data-pid=\"Zhv97GLq\">可这种人，他们仿佛从一开始就认准了一条在外界看来最窄、也最难走的山路。</p><p data-pid=\"02uA4Emk\">旁边就是悬崖，他就闷着头在那走。</p><p data-pid=\"N2LmiZKe\">摔了跤，爬起来，拍拍土，还走那条。</p><p data-pid=\"OFQ1b2bQ\">旁人跟他说“旁边有阳关道”，他仿佛听不见。</p><p data-pid=\"kkbkElee\">他并非是听不见。</p><p data-pid=\"PsJrz4Cj\">他是回头看过了。</p><p data-pid=\"llGQMG7W\">他看过阳关道上摩肩接踵的人，每个人都笑容标准，步履匆匆，但也眼神疲惫，面目模糊。</p><p data-pid=\"E73riygt\">于是，他开始问自己：我走到他们的“罗马”，我还是我吗？那个“罗马”，是我要的吗？</p><p data-pid=\"nJ-TkokB\"><b>他发现自己要的不是那个热热闹闹的、被所有人承认的“罗马”。</b></p><p data-pid=\"CdVxOo6Q\"><b>他想要的，不过是走到一个自己认得的、心里干干净净的地方。</b></p><p data-pid=\"cbz8rq2Z\"><b>那条窄路，是唯一能通向那里的途径。</b></p><p data-pid=\"dIbYpq-_\">所以，他不换路，并非是倔，是因为他要去的地方，只有这一条路。</p><p data-pid=\"ebP_TeGF\">换了，就永远到不了了。</p><h2>此外，你会发现，他们用来定义自己的东西，也和主流观念有所冲突：他们是在用 “我没做什么” 来定义自己。</h2><p data-pid=\"vhUZj_8B\">比如，我没说那句违心的话。</p><p data-pid=\"Vqgb8XCh\">我没巴结那个人。</p><p data-pid=\"83YmIqRq\">我没在原则问题上装瞎。</p><p data-pid=\"7SXwik71\">我没变成自己小时候讨厌的那种大人。</p><p data-pid=\"9mZKviZl\"><b>每一次他们头破血流地坚持下来，都是在心里一遍遍加固这种定义：我还是我。</b></p><p data-pid=\"4q0TvkHH\">这种自我确认带来的满足感和坚实感，是升一次职、发一笔奖金根本无法替代的。</p><p data-pid=\"TYEGPg72\">他们通过不断的“拒绝”，来雕刻和确认自我的形状。</p><p data-pid=\"iyciLqpn\">你让他圆滑，就等于把他辛辛苦苦雕刻出来的自我砸碎，重新揉成一团模糊的泥。</p><p data-pid=\"Krkpe4Fw\">这对他来说，是真正意义上的“死亡”。</p><h2>还有个很关键的点在于，他们的这种坚持，会在时间的见证下，最终缓慢塑造出一个只属于他们的闭环世界。</h2><p data-pid=\"YEqi9z_C\">比如，在开始时，他因为这样吃亏，被边缘化。</p><p data-pid=\"i5vXflX6\">但慢慢地，这会形成一个筛选机制。</p><p data-pid=\"r3JwDyD8\"><b>在他本就具备着足够强大业务能力的前提之下，</b>那些受不了他的人都离开了，能留下的，都是至少能容忍他、甚至欣赏他这一面的人。</p><p data-pid=\"mX8b8d77\">他的工作、圈子、生活环境，会被自动调整到一个相对适配他的状态。</p><p data-pid=\"HW_yJrqd\"><b>于是，一个奇妙的循环产生了：因为他不改，所以环境被筛选成了适合他这个样子存在的样子。而环境越适合，他就越不需要改变。时间长了，这不再是痛苦的坚持，而变成了一种自洽的生态。他就在这个自己无意中构建的小生态里，活得挺好。</b></p><p data-pid=\"eGyZQ4JK\">外人看着觉得他还在“受苦”，其实人家早就进入了新的平衡。</p><h2>而我认为，其中更为根本的一点是：他们可能找到了一种更隐秘的权力来源。</h2><p data-pid=\"VTdn_GbM\">这个社会的主流权力，是钱、是职位、是话语权。</p><p data-pid=\"d0lIGzee\">大家争夺这些，为此愿意付出很多。</p><p data-pid=\"lWgu9pmt\">但他们无意中，可能找到了另一种权力，叫做“定义自我价值的权力”。</p><p data-pid=\"QmZSND2l\"><b>当一个人不再把评判自己的定义权交给老板、交给社会、交给主流，全都紧紧攥在自己手里时，他就获得了一种惊人的内在自由。</b></p><p data-pid=\"CXxVD9Br\">比如，老板可以批评他，但无法让他从心底否定自己。</p><p data-pid=\"U-tOX78P\">主流可以忽略他，但无法让他觉得自己落伍。</p><p data-pid=\"_jkdq7et\">别人可以嘲笑他不懂变通，但无法动摇他对自己方向的确认。</p><p data-pid=\"_6Daxe-H\">这种“权力”无法兑换成利益，但它能提供一种稳如磐石的内心安定。</p><p data-pid=\"z18lPFwc\">在这个瞬息万变、令人无比焦虑的时代，这种安定感，某种程度上就是一种巨大的、难以被剥夺的财富。</p><h2>还有个挺残酷的角度，这一点我之前在别的回答中也提到过：他或许比你更早地窥见了一种“虚无的尽头感”。</h2><p data-pid=\"HT14Bi7j\">他可能很早就意识到，大多数我们奋力追逐的东西——那些光环、头衔、圈子里的优越感，最终都可能烟消云散，留不下什么真正的痕迹。</p><p data-pid=\"s26WKxDn\">在这样一种宏观模式下，他认为，唯一有点意义的，就是在整个过程里，自己是个什么形状的人。</p><p data-pid=\"JbnHNNEv\"><b>如果终究是一场空，那么至少，我要按照自己喜欢的样子空掉，而不是变成一个自己都厌恶的扭曲形状再空掉。</b></p><p data-pid=\"EUGUhaOj\"><b>这种想法很悲观，但也催生出了一种极致的坦诚和勇敢：既然都是徒劳，那我至少要在徒劳中，保持自己形象的笔直。</b></p><h2>他可能比你更清醒，更早地看透了生活的底牌。他知道生活是一场漫长的交换，而他早早地选定了自己绝不拿来交换的东西——那个内核稳定的、真实的自己。</h2><p data-pid=\"PCKRlr8P\">他走的是一条人迹罕至的路，注定孤独，颠簸，甚至狼狈。</p><p data-pid=\"ChQRh0cs\">他选择的道路，入口极其狭窄，布满了荆棘，所有人都告诉他此路不通。</p><p data-pid=\"cfBBJVsu\">但他走着走着，竟然也踩出了一条歪歪扭扭的小径。</p><p data-pid=\"DSfE_JLy\">这条路上没有鲜花掌声，只有呼啸的风和冰冷的石子。</p><p data-pid=\"4_Hwxol8\">可他站在这里，能看见最真实的天地间，也能照见那个没有变形模糊的自己。</p><p data-pid=\"FZkyFofK\">他可能永远得不到你们拥有的那些热闹和光滑。</p><p data-pid=\"bSk0egX7\"><b>但他拥有了一样东西：在每一次世界想把他捏成另一种形状的时候，他都用尽全力，从指缝里漏了出来，还保有着自己最初那副有点扎人的轮廓。</b></p><p data-pid=\"EAlwTpLi\">这未必是好事，但这是一种存在。</p><p data-pid=\"ZZCYgtTA\">一种响亮地、带刺地存在着的方式。</p><p data-pid=\"AEmKn1Fr\">某种程度上，他其实是用自己这一辈子，在做着一种漫长、孤独，甚至带着几分悲壮意味的人生尝试：<b>如果一个人拒绝被修剪成标准的形状，如果他就是想带着自己原生的枝枝杈杈活下去，到底能活成什么样？</b></p><p data-pid=\"3R9slMNC\">因此，从某种角度上看，人生这场漫长的、看似个人选择的坚持，其实映照出的是两种截然不同的人生哲学<b>（我个人主观所认为的，仅供参考）</b>：</p><p data-pid=\"ecVxCaAJ\">一种哲学在于，人生是一个不断被世界塑造的过程，融入洪流，获取资源，是终极的智慧。</p><p data-pid=\"5UkUwvqB\">另一种哲学则在于，人生是一场对世界的轻微抵抗。是在洪流中，尽可能保持自己原来的重量和形状。哪怕最后被冲刷得只剩下一小块坚硬的核，那也是“我”的核。</p><p data-pid=\"4ljoVSst\">他没有赢。</p><p data-pid=\"e_GIOGcy\"><b>他可能永远也获得不了世俗意义上的巨大成功。</b></p><p data-pid=\"QTb1V54s\"><b>但他完成了一件对自己而言极其重要的事：他做到了对自己最大的诚实，并承担了这份诚实带来的全部代价。</b></p><p data-pid=\"wmi_wwLO\">他如同是走在一条狭窄的独木桥上，桥下是汹涌的激流（现实的损失和压力），他走得摇摇晃晃，随时可能掉下去。</p><p data-pid=\"F20MeteW\">而我们大多数人，选择走在旁边宽阔平坦的大路上。</p><p data-pid=\"7pBA1EW9\">我们看着他，替他捏把汗，觉得他傻。</p><p data-pid=\"8qqOKNoC\">但我们没有看到，他每走一步，眼睛都看着前方属于自己的山巅。</p><p data-pid=\"jc_zw0pi\">而我们脚下这条平坦大路，通向哪里，我们常常茫然不知。</p><p data-pid=\"NH5yFOWy\">他未必快乐，但他有一种深沉的平静。</p><p data-pid=\"jCuDs7fc\">那是一种把所有代价都提前支付清楚之后，了无牵挂的平静。</p><p data-pid=\"aYLZbpbK\">是一种“我知道我是谁，我知道我选了哪条路，结果我都能认”的平静。</p><p data-pid=\"t1BxyqvM\">这，大概就是他遍体鳞伤之后，依旧棱角分明的最深根源：<b>他用自己的方式，跟这个世界，也跟自己，达成了最终的和解。 这个和解的条件很苛刻，但他接受了。然后，他就这样，带着一身伤痕和棱角，自顾自地，活下去了。</b></p><p data-pid=\"_i8e1ab4\">这世间，熙熙攘攘，大多数人都忙着把自己镶嵌进一个公认的模子里，以求得严丝合缝的安全。</p><p data-pid=\"g3VSkHiY\">可总得有人不肯就范，坚定地卡在那里，并让后来的人看到：那模子之外，还有着这样一种活法。</p><p data-pid=\"0TixICn1\">他们的存在，给这个过于光滑的世界，留下了一点不一样的、粗粝的质感。</p><p data-pid=\"38ybfmkH\">我们大多数人，没有勇气，或者没有条件走这条路。</p><p data-pid=\"uY5-n-Pu\">但这不妨碍我们会在某些疲惫不堪的深夜，会在某个酒桌上说着言不由衷的漂亮话的瞬间，突然想起他，心里猛地一颤，然后闪过一个念头：那个傻子，他会不会……才是真正活着的？</p><p data-pid=\"BG1U0CZD\">那一瞬间的悸动，就是他存在的全部意义，也是我们所有人内心，那点未曾完全熄灭的、关于“专一纯粹、从心而为、一生无憾”的念想。</p><p data-pid=\"y7Deozpe\"><b>这种人，更如同是在用自己身上那全部的境遇，去验证一个答案：一个人，究竟能不能在不变成自己讨厌的模样下，依然活下去，甚至活出一点属于自己的意味来？</b></p><p data-pid=\"B-MmNKdj\">有些人，走着走着，最后竟真的走出了一片最高的天来。</p><p data-pid=\"ewXDKjlt\">这是件非常了不起的事。</p><p data-pid=\"YzLtE7by\">也是种真正能够算得上是浓墨重彩、灿若舒锦般的夺目人生。</p><p data-pid=\"2Ia1jirq\">你会发现，古往今来，那些没有被淹没、没有被同化在这千篇一律平庸世俗中的、特立独行、眼里有光、人格上棱角分明的顶级成功者们，他们基本全都是从这条路上走出来的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hxX4jWC-\">（ps：有感而发，修修改改写了近六个小时，算是我近期唯二最用心的一篇内容了，大家如果觉得有所收获，就给个赞和藏吧。）</p>"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1992386817346012264}",
+      "attached_info": "CrYGCOenjN61iZuSsgEQBBoJNzY0NDczMTE5ILKJ+soGKOoLMGJAkwFKNAopVFNfU09VUkNFX0lOVEVSRVNUX0VYUEFORF9DV19HQ0ZfUkVDQUxMRVISATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTEwNzY4MTM5NmIgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5OTIzODY4MTczNDYwMTIyNjSKAQk2NTQzMTY0NTCqAQlyZWNvbW1lbmTCASA5OGU4NTkwYzYxMDU5MTQ2M2IxNmRlMGZkMTUxYjVkNvIBCggMEgZOb3JtYWzyASgIChIkNjRlMmIzNzgtYjQ0ZC00OWY4LTlkOGUtMGRjMjVjMDhmZDUz8gEGCAsSAjI1ggIAiAKy36zGvDOSAiA5OGU4NTkwYzYxMDU5MTQ2M2IxNmRlMGZkMTUxYjVkNpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAilUU19TT1VSQ0VfSU5URVJFU1RfRVhQQU5EX0NXX0dDRl9SRUNBTExFUugCAvoCC05PUk1BTF9GTE9XigMgYTNmMzFkZWZlZGQ5NGNkZGEwYzE3NTQ1MmYxZGNlMTSaAw0KAnYyEAAaBW90aGVyqAP3zgLYAwDqAydjb25jZXB0X3dvcmRfZ2NmX2ludGVyZXN0X2V4cGFuZF9yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgD2iVP4EFAAAAAAAAAACJBYmjpO94p7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRmQBgCgBpUBqAYAkgIuCgk3NjQ0NzMxMTkSEzE5OTIzODY4MTczNDYwMTIyNjQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "148_1768600317.740",
+      "type": "feed",
+      "offset": 148,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600317,
+      "updated_time": 1768600317,
+      "target": {
+        "is_labeled": true,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "created_time": 1768541553,
+        "question": {
+          "id": "1992493975517561961",
+          "comment_count": 0,
+          "excerpt": "",
+          "question_type": "normal",
+          "bound_topic_ids": [
+            1351,
+            2026,
+            8222,
+            16004,
+            31944
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1992493975517561961",
+          "answer_count": 0,
+          "follower_count": 0,
+          "title": "这样培养自己的系统思维能力，你认为有用吗？",
+          "created": 1767827582,
+          "author": {
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/f4f20ebba6cd820162e54f3218017f1f",
+            "url_token": "62-42-75-49-91",
+            "headline": "不固步自封，也不随波逐流",
+            "is_org": false,
+            "followers_count": 20,
+            "id": "f4f20ebba6cd820162e54f3218017f1f",
+            "user_type": "people",
+            "name": "知乎用户",
+            "avatar_url": "https://picx.zhimg.com/50/v2-8ad3d9f84724cb020a297138fcc89e82_l.jpg?source=b6762063",
+            "gender": 0
+          },
+          "is_following": false,
+          "detail": ""
+        },
+        "excerpt_new": "它只能做到这些 这种训练方式“有用”，但它只能培养“结构化整理能力”，而不是你所说所想象的系统思维能力。因为这种思维方式非常擅长防止低级混乱，但没办法触及复杂系统真正致命的地方： 系统是如何生成、如何改变、以及为何会失效的。你列出的两大要件： 概念必须被严格定义；判断必须组成逻辑树；这对以下人群非常有用： 思维长期处于模糊、混杂状态的人；容易在讨论中偷换概念的人；被语言带着走、无法稳定表达的人。这一…",
+        "reshipment_settings": "disallowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "allow_segment_interaction": true,
+        "visited_count": 96,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "author": {
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/ac31ca11c319b6aec88d013760847c1a",
+          "url_token": "longsoulgroup",
+          "name": "龙华韶光",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 65,
+          "id": "ac31ca11c319b6aec88d013760847c1a",
+          "user_type": "people",
+          "headline": "蚂蚁社会为何永远只是个蚂蚁窝？\n命运的本质是什么？",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-712f12da7b2704ee29069bdfebac8efd_l.jpg?source=b6762063",
+          "is_followed": false
+        },
+        "voteup_count": 2,
+        "thanks_count": 0,
+        "comment_count": 1,
+        "updated_time": 1768588834,
+        "preview_text": "",
+        "is_navigator": false,
+        "content": "<h3>它只能做到这些</h3><p data-pid=\"5JH2MDfT\"><b>这种训练方式“有用”，但它只能培养“结构化整理能力”，</b>而不是你所说所想象的系统思维能力。</p><p data-pid=\"j0SBPiEZ\">因为这种思维方式非常擅长防止低级混乱，但没办法触及复杂系统真正致命的地方：<b>系统是如何生成、如何改变、以及为何会失效的</b>。</p><p data-pid=\"mQ2CERJM\">你列出的两大要件：</p><ul><li data-pid=\"0KmKkbU4\">概念必须被严格定义；</li><li data-pid=\"vTMqeUzX\">判断必须组成逻辑树；</li></ul><p data-pid=\"X89mxtQC\">这对以下人群非常有用：</p><ul><li data-pid=\"bDBtCetD\">思维长期处于模糊、混杂状态的人；</li><li data-pid=\"GYEL9Siq\">容易在讨论中偷换概念的人；</li><li data-pid=\"3LcMXFiY\">被语言带着走、无法稳定表达的人。</li></ul><p data-pid=\"XhAmeEDb\">这一套规则可以显著降低“鸡同鸭讲”、显著减少概念漂移，让讨论至少在同一平面上进行。</p><p data-pid=\"qJwgVOY8\">作为“思维清洁剂”，它是合格的，对低阶混乱有极强的抑制作用。</p><h3>这只是在训练“静态结构一致性”</h3><p data-pid=\"wrJq7zsS\">你得注意看<b>这整套方法隐含的能力指向</b>：</p><ul><li data-pid=\"D3Z3JDFb\">明确定义 → 稳定对象；</li><li data-pid=\"7du981Zf\">六个找准 → 完整分类；</li><li data-pid=\"HZROM-x5\">逻辑树 → 无歧义结构。</li></ul><p data-pid=\"MxgycVCc\"><b>这实际上是在训练一种能力：在【既定前提】下，把一个对象拆分、归类、放置到结构中。</b></p><p data-pid=\"eIMXAoYL\">这在很多场景下非常重要，比如：</p><ul><li data-pid=\"jwHRsf1x\">法律条文；</li><li data-pid=\"F7WstZ-6\">教科书知识；</li><li data-pid=\"P63Cl0X7\">成熟学科内部的学习与整理。</li></ul><p data-pid=\"uORnu5-A\">问题恰恰出在“在既定前提下”，这玩意<b>默认了一个非常危险的前提：</b></p><ul><li data-pid=\"Vx7VrTRb\"><b>“问题是已经给定的，</b></li><li data-pid=\"D-3Ukosq\"><b>概念是可以被稳定定义的，</b></li><li data-pid=\"iscRTsif\"><b>系统只是一个需要被理清的结构。”</b></li></ul><p data-pid=\"t7EGG2Zw\">问题在于宇宙一切都是生成的：</p><ul><li data-pid=\"G-MYaYBO\">问题本身是被生成的，</li><li data-pid=\"oPLdhlBl\">概念本身是生成过程中的暂态产物，</li><li data-pid=\"VROIwKYH\">系统并非先在结构，而是在约束下生成结构。</li></ul><p data-pid=\"HdOFa-1B\">所以这玩意和你想要的能够更好理解宇宙的那种“完全的系统思维能力”根本不在一个逻辑层级上。</p><p data-pid=\"kdxl2jdj\">关于“核心概念必须有明确、准确的定义”，这在【静态系统】中是对的。</p><p data-pid=\"iBf3D7Kj\">但在真实复杂系统中，恰恰存在：</p><ul><li data-pid=\"lVKND7b_\">概念的可塑性；</li><li data-pid=\"Lpq6ptLL\">概念的历史依赖性；</li><li data-pid=\"pRsxM6Fa\">概念在不同约束下必然发生漂移。</li></ul><p data-pid=\"KZxksmGY\"><b>拟合、本质、表达，在原生智慧中必然是混合表达。（本质认知结论，此处不做解释）</b></p><p data-pid=\"Xvtiqj9_\">那么问题来了：</p><ul><li data-pid=\"pHizZbYO\"><b>当概念本身处于生成中，</b></li><li data-pid=\"tz4XIZPW\"><b>你如何给它一个“明确、准确”的定义？</b></li></ul><p data-pid=\"kVJOx7ho\">答案是：</p><ul><li data-pid=\"gkoyedO0\"><b>你只能给阶段性、适用范围受限的定义；</b></li><li data-pid=\"1dRfzUNY\"><b>但这套方法把定义当作起点，而不是产物。</b></li></ul><p data-pid=\"CzAeERdH\"><b>这是根本性错位。</b></p><h3>九项定义规则的隐含前提</h3><p data-pid=\"KT_476y3\">这些规则在人类逻辑学层面几乎无可挑剔，但它们<b>隐含了一个致命的假设：</b></p><p data-pid=\"Vv1cOs_R\"><b>被定义对象的外延是稳定的。</b></p><p data-pid=\"PnLQUYut\">而在复杂系统中：</p><ul><li data-pid=\"Vyv0fy3G\">外延会随环境变化；</li><li data-pid=\"sic9Q8c8\">内涵会随交互变化；</li><li data-pid=\"ZZVw3Z-Z\">“主要共同特征”本身是回溯性总结。</li></ul><p data-pid=\"7xRwtUTi\">也就是说：<b>这些规则只“完全”适用于“已经死掉的系统”，而不能“完全”适用于“正在活着的系统”。</b></p><ul><li data-pid=\"yEcWxQHP\">比如我用来描述的一些词句在你看来“每个字都认知、但是却能表示出超出他人理解范围的含义”；</li><li data-pid=\"isYuElwD\">比如简单的点明“讨论内容中难以察觉的隐含前提”，可以使你快速明了“问题出在哪里”。</li><li data-pid=\"xMxEYZlX\">当然，这种跳出边界的内容也容易带来“转眼间遗忘、记不清”的现象，不过这是另外话题了。</li><li data-pid=\"VY-71a4U\">这里啰嗦这些只是为了便于理解为什么“你说的这些规则只适用于已经死掉的系统”。</li></ul><h3> “六个找准”的逻辑树问题最明显</h3><p data-pid=\"yAhRiNXf\">逻辑树要求：</p><ul><li data-pid=\"KTrrwyCQ\">上下层清晰；</li><li data-pid=\"AdqMzhW9\">并列关系完备；</li><li data-pid=\"tNiJprVW\">整体/分体可穷尽。</li></ul><p data-pid=\"o527uqW-\">但真实系统往往是：</p><ul><li data-pid=\"YM8FEAy0\">非树状；</li><li data-pid=\"CSjyGQZ1\">存在回路；</li><li data-pid=\"KTjSEfX0\">存在跨层耦合；</li><li data-pid=\"uaEmGKU7\">存在涌现。</li></ul><p data-pid=\"NyWimBZo\">比如哥德尔、黑格尔、后期的维特根斯坦，他们之所以重要，恰恰是因为他们都撞到了“逻辑树无法闭合”的地方。</p><h3>这玩意的实际能力与会导致的必然性</h3><p data-pid=\"QsVHZCcU\">所以，如果用一句非常准确的话来说：</p><p data-pid=\"y9HjO9V9\"><b>这套方法培养的是“在既有认知边界内保持一致性的能力”，而不是“识别、穿越、重构认知边界的能力”。</b></p><p data-pid=\"KeW4D29o\">但是这会带来一个非常关键、也非常残酷的必然性：</p><p data-pid=\"8X4b02KL\">如果一个人只学会了这套方法，但没有更高一层意识，他会——</p><ul><li data-pid=\"IqWv21pB\">非常自信；</li><li data-pid=\"gt2J_HdK\">非常“条理清晰”；</li><li data-pid=\"b0wG0Icz\">非常难被说服；</li><li data-pid=\"hiYuo2W-\">也非常容易在错误前提下一路“继续正确下去”。</li></ul><p data-pid=\"uAIAr8Xd\"><b>“逻辑正确，但整体错误。”</b></p><h3>这种思维方式的正确使用方式与总结</h3><p data-pid=\"35qgFerr\">这玩意的“正确的使用方式”是必须被降级使用，它只能是表达与整理工具，而不是认知生成工具。</p><p data-pid=\"seDm1wIW\">也就是说：</p><ul><li data-pid=\"vWs8KzAR\">在你已经看清本源 / 本质 / 形成逻辑之后，</li><li data-pid=\"MTCiP_Nj\">用它来整理表达结果；</li><li data-pid=\"xJqHYI0Y\">而绝不能用它来“发现问题本身”。</li></ul><p data-pid=\"MvfAn7Od\">如果要给个简单总结：</p><ul><li data-pid=\"IaBCxmcp\"><b>这套方法对整理已有认知非常有效，</b></li><li data-pid=\"luoOMx7A\"><b>但它并不能产生真正的系统思维，</b></li><li data-pid=\"348MR6R3\"><b>因为它默认系统是静态。</b></li><li data-pid=\"cuPPlZbI\"><b>因此它只能适用于“正在活着的系统”的“局部限制性切片”，</b></li><li data-pid=\"Im5LgLbC\"><b>一旦“完全”适用于“正在活着的系统”，你将不自知的受限于其逻辑围栏，导致逻辑正确、但整体结论错误。</b></li></ul><p data-pid=\"MmfOxkcb\">关于认知的逻辑围栏，或者按照现有的说法“理性限制”、“认知边界”，你看完这篇内容再去看别的回答，自己对比下就知道“这个逻辑围栏大概什么样了”。</p>",
+        "navigator_vote": false,
+        "id": "1995488588012488083",
+        "url": "https://api.zhihu.com/answers/1995488588012488083",
+        "is_copyable": false,
+        "excerpt": "它只能做到这些 这种训练方式“有用”，但它只能培养“结构化整理能力”，而不是你所说所想象的系统思维能力。因为这种思维方式非常擅长防止低级混乱，但没办法触及复杂系统真正致命的地方： 系统是如何生成、如何改变、以及为何会失效的。你列出的两大要件： 概念必须被严格定义；判断必须组成逻辑树；这对以下人群非常有用： 思维长期处于模糊、混杂状态的人；容易在讨论中偷换概念的人；被语言带着走、无法稳定表达的人。这一…",
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995488588012488083}",
+      "attached_info": "CpcGCOenjN61iZuSsgEQBBoJNzY1NjYwNDc4IPGap8sGKAIwAUCUAUokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwyEgEwGAAgADoASiwKIVRTX1NPVVJDRV9XQVJNVVBfWkhJX0ZJTkVUVU5FX0kySRIBMBgAIAA6AFoJMTE3OTkyNzU0YiAxMTU4NTQwYWY5NDYyOGNlOTQ0YzhkYzY4Nzc2NDgzMXITMTk5NTQ4ODU4ODAxMjQ4ODA4M4oBEzE5OTI0OTM5NzU1MTc1NjE5NjGqAQlyZWNvbW1lbmTCASBhYzMxY2ExMWMzMTliNmFlYzg4ZDAxMzc2MDg0N2MxYfIBCggMEgZOb3JtYWzyASgIChIkZWNjOWJkNzQtMzU0Zi00YTFkLWFlZTUtMzczMTcwZGI2MTZl8gEGCAsSAjI1ggIAiAKy36zGvDOSAiBhYzMxY2ExMWMzMTliNmFlYzg4ZDAxMzc2MDg0N2MxYZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AID+gILTk9STUFMX0ZMT1eKAyBhM2YzMWRlZmVkZDk0Y2RkYTBjMTc1NDUyZjFkY2UxNJoDDQoCdjIQABoFb3RoZXKoA2DYAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAACBXk3E/gQUAAAAAAAAAAIkFiaOk73intD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFGZAGAKAGlgGoBgGSAi4KCTc2NTY2MDQ3OBITMTk5NTQ4ODU4ODAxMjQ4ODA4MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "149_1768600317.237",
+      "type": "feed",
+      "offset": 149,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600317,
+      "updated_time": 1768600317,
+      "target": {
+        "is_copyable": false,
+        "thumbnail": "https://picx.zhimg.com/50/v2-4fb1193a91b85f15bf293b5dc81df8ee_720w.jpg?source=b6762063",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 682,
+        "preview_type": "default",
+        "is_labeled": true,
+        "is_navigator": false,
+        "id": "1986846066981761069",
+        "type": "answer",
+        "comment_count": 337,
+        "question": {
+          "title": "为什么现在的国产剧越来越没有生活了？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 52,
+          "is_following": false,
+          "detail": "",
+          "id": "569734390",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/569734390",
+          "created": 1669779851,
+          "bound_topic_ids": [
+            2102,
+            5510,
+            44844,
+            2392947
+          ],
+          "excerpt": "",
+          "question_type": "normal",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-0c6ba2e8b9566e119ec07d835886f9ee_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_following": false,
+            "id": "b6b217fb98dece2ba3179645ec88a991",
+            "url": "https://api.zhihu.com/people/b6b217fb98dece2ba3179645ec88a991",
+            "url_token": "fan-ting-ting-71-29",
+            "name": "番石榴",
+            "headline": "不求甚解",
+            "user_type": "people",
+            "is_org": false,
+            "followers_count": 1626,
+            "is_followed": false
+          },
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "reshipment_settings": "disallowed",
+        "visited_count": 135478,
+        "thanks_count": 50,
+        "content": "<p data-pid=\"o9-WR4YM\">原因很简单，一句话回答就是，当今国产编剧们的社会化程度普遍不足。</p><p data-pid=\"Sf8fRdep\">稍微展开一下就是，国产编剧们的不接地气和笔下人物的虚浮虚假，头脑可笑，缺乏活人感和不会闲聊天，已是制约当今影视剧观赏程度的最大命门。</p><p data-pid=\"jvK2Y6hR\">这一切的一切都是因为现在的国产编剧们（也包括编导演团队）社会化严重不足。</p><p data-pid=\"PPRpWLuY\">最近网上有个比较火的说法“<b>一个人的社会化程度，首先看有没有闲聊的能力</b>”。</p><p data-pid=\"uabjEnAt\">闲聊能力在很大程度上确实可以反映一个人的社会化程度。它是我们避免尴尬，关系润滑，氛围调适的情绪粉底液和量场隔热层。</p><p data-pid=\"TbJQ07oL\"><b>而我们现在的国产编剧团队，大量的都是家庭条件优渥（艺考生一般家庭条件都不差）的独生子女一代，从小没有亲戚邻居交往，没有物质金钱亏缺，完全在原生家庭管窥蠡测的人际竖井长大</b>。他们的人群画像普遍是中产i人，冷僻文青，一个人闷着，谁都不想搭理，长辈来了屁股沉得都不知道站一站的人均不懂礼数没有教养的形象，扔在陌生人群中，普遍缺乏闲聊能力和寒暄热场子属性。</p><p data-pid=\"k9YAStoT\">然后大学期间，他们的同学家庭背景多样性也严重不够，深度趋同（同为中产以上）。所以从团队画像来说，等于我们的国产编剧团队大部分都是家庭优渥，未经世事，社会化严重不足的中产阶级子女构成，<b>本科毕业未经足够社会化就直接入行出道，他们或者当上枪手，或者进大编剧的分包班底，当下层的码字民工，总之握笔产出时，是完全的缺乏横向生态链接和深度社会化的竖井产品。</b></p><p data-pid=\"ht91mJOW\"><b>而信息和人际竖井，对创作者来说是致命的。</b></p><p data-pid=\"CLERRJxE\"><b>他们写的剧，因为缺失生活细节和社会化的闲白儿填充，就像画一个只有羽毛没有绒毛的鸟。又丑又尬。羽毛再漂亮，没有底下的绒毛填充和过渡，也是个尴尬的丑八怪和吓人的怪胎。</b></p><p data-pid=\"ZeJnXxBo\">这些从小在人际竖井里长大，完全没有机会生长在多样性的真实世俗生活中，甚至哪怕传统的接地气的邻里交往、亲友互帮、乃至家族欢宴、白事聚餐等生活经验都普遍缺乏。</p><p data-pid=\"dNhcZiDi\">这帮毕业后就直接从象牙塔里的艺术院校入组写剧的国产主力编剧们社会化严重不足，甚至i人成群棍扫一大片。很多人之所以在大学里选择文字专业，从事文字工作，本身就是因为厌倦人际，躲避social，悦纳自己的社恐，希图靠写剧画地自己的舒适区。凭这帮人，有几个有闲聊的能力？</p><p data-pid=\"i78tCi8g\">她们（原谅我用了“她们”，因为一般来说“她们”比“他们”社会化程度更差）天生就缺乏对人情世故、世态风俗的感知融入和历练。闲聊的能力，社会化的过程普遍缺乏。她们稚嫩的笔触强凹出来的生活流作品，自然也就干巴巴，直愣愣，不润滑，其人物矛盾点设置就很容易生拉硬扯莫名其妙，剧情冲突的原逻辑很容易陷入自说自话缺乏现实生活归因，人物对话很容易虚胖浮肿成一戳就倒的文青病，整个作品所有细节，只要细究细，自然就尬出天际。那种生硬生冷生造的费力蹩脚和尴尬，活像小学生模仿电视散文的语气强凹文艺青年的冷酷造型。</p><p data-pid=\"EwyLXaf7\">沪漂文青邵艺辉的《爱情神话》被捧为中年爱情圣经，沪语电影宝典。但是片中的小区门口修鞋大爷，满口潮牌奢侈品牌吉米舅“jimmy choo”的市井闲白总是透着一种架空感和虚浮感。我知道他是大陆最洋气的城市魔都上海的修鞋匠，但是上海的修鞋大爷，随便就能张口跟你聊潮奢品牌？</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1aa8338e8df9738156929632d0d554bd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1309\" data-rawheight=\"765\" data-original-token=\"v2-052b319606247e652a572f9dc7ebf879\" class=\"origin_image zh-lightbox-thumb\" width=\"1309\" data-original=\"https://picx.zhimg.com/v2-1aa8338e8df9738156929632d0d554bd_r.jpg\"/></figure><p data-pid=\"tZxiEFTJ\">为什么《爱情神话》里修鞋匠老大爷（哪怕他是上海滩的鞋匠），随便张口就是满嘴吉米舅？那是因为这部电影的编剧导演邵艺辉，在沪漂无业成名前，就敢在上海租每月2万元的房子。创作者以这样的消费水平，生活模式，生活体验，那么在其编导兼能的作品里鞋匠大爷，不满嘴吉米舅，又能说什么呢？奥康皮鞋？飞跃大博文胶鞋？<b>就飞跃大博文这个品牌，无业沪漂还住得起月租2万的房子的山西沪漂文艺青年邵艺辉她知道这个品牌吗</b>？</p><p data-pid=\"pKtahnwO\">后面几个沪上中年们分享人生，讲述故事的情节，就更架空。<b>周野芒老师扮演的老乌张嘴就是意大利著名银星索菲亚.罗兰。</b>直接架空到文艺青年意象圣殿里最高逼格的段位了。一个中国小伙，和一个意大利著名性感影星一夜风流的故事。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e2b9b353036be2d64323e1373d0b09dc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"664\" data-original-token=\"v2-eed99ada3f9bf30d9d9de9501700efde\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic1.zhimg.com/v2-e2b9b353036be2d64323e1373d0b09dc_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d2b537c6103e964e1659cd00f0c12ca7_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"690\" data-rawheight=\"934\" data-original-token=\"v2-9ac031eba91c8c717432e727e3bdeb8c\" class=\"origin_image zh-lightbox-thumb\" width=\"690\" data-original=\"https://picx.zhimg.com/v2-d2b537c6103e964e1659cd00f0c12ca7_r.jpg\"/><figcaption>索菲亚罗兰，你能想象她和周野芒一夜风流吗</figcaption></figure><p data-pid=\"9EgtvK4Z\">无论是周野芒和索菲亚罗兰的一夜情还是修鞋大爷满嘴吉米舅，这些故事和台词都是极其悬浮架空，非常文青调调的典型的国产编剧人际竖井人生历程，消费主义+罗曼蒂克+文青幻想订制化出产的典型内容。</p><p data-pid=\"TgmRBLnA\">换句话说，国产编剧笔下大量的人物角色和人物对话，很像那些孤傲孤僻的架空在消费主义和文青调调理的象牙塔i人强行装社牛的尬聊。</p><p data-pid=\"Cnox28qY\">而当今国产编剧的普遍社会化不足，不接地气和笔下的人物的虚浮虚假，头脑可笑，缺乏活人感和不会闲聊天，已是制约当今影视剧观赏程度的最大命门。</p><p data-pid=\"aWlAGi6w\"><b>郭德纲说单口相声的时候，每回开场都要聊20多分钟的闲白儿</b>，天南海北，插科打诨，观众互动，分享风尘见闻和人情体味。<b>郭德纲对此还颇为自矜</b>，<b>认为能说闲白儿却不冷场的才是真功夫，才是说书和单口相声艺人的真本事</b>。一个评书艺人或者单口相声演员一开场，就背书，讲趟子，照本宣科那不叫本事。说明社会化不足，功夫不到家。</p><p data-pid=\"ZFH1SnhI\"><b>《乡村爱情》系列艺术水准最高的第一部开</b>头，当象牙山村第一个大学生谢永强从大学毕业回村等着分配去县教育局报道的短暂赋闲期，谢永强妈妈去准亲家王老七家买豆腐，就这么一个寻常的买豆腐的段落，大概两分钟的戏，里面永强妈妈、王小蒙妈妈、王老七三个充分社会化了的中年人对话中那种赤脚踩在泥土中，地热源源导上来的烟火气和活人感，简直60部《爱情神话》（爱情神话我是喜欢的）也比不了。</p><p data-pid=\"VfBwv8S8\">下面咱们一起来欣赏下乡村爱情一，永强妈妈买豆腐这段戏，里面东北农村三个充分社会化的中年人闲聊天儿，假客套，又暗含一点秀优越和阶层打压的能力和境界。</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1986844718051635512\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"true\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-4fb1193a91b85f15bf293b5dc81df8ee.jpeg\" data-lens-id=\"1986844718051635512\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-4fb1193a91b85f15bf293b5dc81df8ee.jpeg\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1986844718051635512</span></span></a><p data-pid=\"ZrWKrIIj\">就上面这段一分半钟买豆腐的戏，无论是台词闲白的质朴接地气，还是对话气口儿，动作走位，都不是人际竖井里长大的艺术院校未社会化的孤僻i人和冷傲文青们能够得着的境界。</p><p data-pid=\"oUW2n3Ro\">无他。在此就想劝劝国产众编剧，入行之前，咱们还是先学会人话，先学会闲聊吧。</p>",
+        "answer_type": "normal",
+        "created_time": 1766481016,
+        "navigator_vote": false,
+        "updated_time": 1766637136,
+        "excerpt_new": "原因很简单，一句话回答就是，当今国产编剧们的社会化程度普遍不足。 稍微展开一下就是，国产编剧们的不接地气和笔下人物的虚浮虚假，头脑可笑，缺乏活人感和不会闲聊天，已是制约当今影视剧观赏程度的最大命门。 这一切的一切都是因为现在的国产编剧们（也包括编导演团队）社会化严重不足。 最近网上有个比较火的说法“ 一个人的社会化程度，首先看有没有闲聊的能力”。闲聊能力在很大程度上确实可以反映一个人的社会化程度。它…",
+        "url": "https://api.zhihu.com/answers/1986846066981761069",
+        "voteup_count": 1524,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-4fb1193a91b85f15bf293b5dc81df8ee_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-052b319606247e652a572f9dc7ebf879_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-eed99ada3f9bf30d9d9de9501700efde_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9ac031eba91c8c717432e727e3bdeb8c_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "author": {
+          "url": "https://api.zhihu.com/people/e4890d4661f5b5c3c87a5f72e959a22b",
+          "user_type": "people",
+          "headline": "对丑女无感，跟帅哥有仇。",
+          "gender": 1,
+          "followers_count": 155160,
+          "is_following": false,
+          "is_followed": false,
+          "id": "e4890d4661f5b5c3c87a5f72e959a22b",
+          "url_token": "zhou-tong-52",
+          "name": "马丁.Success",
+          "avatar_url": "https://picx.zhimg.com/50/v2-31facc9db668f3f3ee16b90ee1a9ea88_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "excerpt": "原因很简单，一句话回答就是，当今国产编剧们的社会化程度普遍不足。 稍微展开一下就是，国产编剧们的不接地气和笔下人物的虚浮虚假，头脑可笑，缺乏活人感和不会闲聊天，已是制约当今影视剧观赏程度的最大命门。 这一切的一切都是因为现在的国产编剧们（也包括编导演团队）社会化严重不足。 最近网上有个比较火的说法“ 一个人的社会化程度，首先看有没有闲聊的能力”。闲聊能力在很大程度上确实可以反映一个人的社会化程度。它…",
+        "preview_text": "",
+        "segment_infos": [
+          {
+            "pid": "PPRpWLuY",
+            "text": "最近网上有个比较火的说法“一个人的社会化程度，首先看有没有闲聊的能力”。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 36,
+                "seg_info": {
+                  "seg_ids": [
+                    "1986865387166529344"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1986846066981761069}",
+      "attached_info": "Ct8HCOenjN61iZuSsgEQBBoJNzYyMzMxMzM3IPi4qcoGKPQLMNECQJUBSj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDg4ODkwMTQyYiAxMTU4NTQwYWY5NDYyOGNlOTQ0YzhkYzY4Nzc2NDgzMWi44tDa6JesyRtyEzE5ODY4NDYwNjY5ODE3NjEwNjmKAQk1Njk3MzQzOTCqAQlyZWNvbW1lbmTCASBlNDg5MGQ0NjYxZjViNWMzYzg3YTVmNzJlOTU5YTIyYvIBCggMEgZOb3JtYWzyASgIChIkZGM2ZmNjM2EtZTE1Yi00YWNkLTk5ZGUtZWQzYTJhZmEzZTQy8gEGCAsSAjI1ggIAiAKy36zGvDOSAiBlNDg5MGQ0NjYxZjViNWMzYzg3YTVmNzJlOTU5YTIyYpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU3oAgT6AgtOT1JNQUxfRkxPV4oDIGEzZjMxZGVmZWRkOTRjZGRhMGMxNzU0NTJmMWRjZTE0mgMNCgJ2MhAAGgVvdGhlcqgDtqII2AMA6gMQbmV3YmllX2ZlZWRyZV92MvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBCdChj9BSIjdjItMDUyYjMxOTYwNjI0N2U2NTJhNTcyZjlkYzdlYmY4Nzk6LQgDEOgHGJgFIiN2Mi1lZWQ5OWFkYTNmOWJmMzBkOWQ5ZGU5NTAxNzAwZWZkZTotCAMQsgUYpgciI3YyLTlhYzAzMWViYTkxYzhjNzE3NDMyZTcyN2UzYmRlYjhjgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEBm1hbnVhbMIEAzExMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoITBqj+BBQAAAAAAAAAAiQWJo6TveKe0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUZkAYAoAaXAagGAJICLgoJNzYyMzMxMzM3EhMxOTg2ODQ2MDY2OTgxNzYxMDY5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=149&desktop=true&end_offset=151&page_number=26&session_token=1158540af94628ce944c8dc687764831",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=149&desktop=true&end_offset=151&page_number=26&session_token=1158540af94628ce944c8dc687764831",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

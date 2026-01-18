@@ -1,0 +1,623 @@
+{
+  "data": [
+    {
+      "id": "30_1767704760.850",
+      "type": "feed",
+      "offset": 30,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704760,
+      "updated_time": 1767704760,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1990150499283014081",
+        "id": "1990150499283014081",
+        "voteup_count": 60,
+        "vote_next_step": "vote",
+        "author": {
+          "followers_count": 10,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/258ec87eedf6f97692da735704591ffb",
+          "user_type": "people",
+          "url_token": "a-a-a-74-46-83",
+          "name": "啊啊啊",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "id": "258ec87eedf6f97692da735704591ffb",
+          "headline": "",
+          "gender": -1,
+          "is_following": false
+        },
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "id": "271551679",
+          "type": "question",
+          "comment_count": 7,
+          "detail": "",
+          "question_type": "normal",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            307,
+            388,
+            488,
+            645,
+            8600
+          ],
+          "is_following": false,
+          "answer_count": 0,
+          "url": "https://api.zhihu.com/questions/271551679",
+          "title": "你手机里最舍不得删的视频是哪个？",
+          "created": 1523200971,
+          "author": {
+            "id": "ddd6d8bd2d1d6d8b409acc041ac1f475",
+            "url": "https://api.zhihu.com/people/ddd6d8bd2d1d6d8b409acc041ac1f475",
+            "user_type": "people",
+            "name": "项清欢",
+            "gender": 0,
+            "url_token": "xqx1128",
+            "headline": "什么都会一点儿",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-561d566f59a80720e8eb951155c9c65f_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 396,
+            "is_following": false,
+            "is_followed": false
+          },
+          "excerpt": ""
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "updated_time": 1767268854,
+        "thanks_count": 5,
+        "excerpt_new": "这个，惊为天人 [视频]",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-4f0f22f642982d7d67414986557ab018_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "created_time": 1767268854,
+        "comment_count": 98,
+        "is_copyable": true,
+        "is_labeled": false,
+        "type": "answer",
+        "excerpt": "这个，惊为天人 [视频]",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "visited_count": 99747,
+        "thumbnail": "https://picx.zhimg.com/50/v2-4f0f22f642982d7d67414986557ab018_720w.jpg?source=b6762063",
+        "content": "<p data-pid=\"4fYFfAp1\">这个，惊为天人</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1990150390482740376\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-5f0b421618dca1afd18178482364951d_720w.jpg?source=ccfced1a\" data-lens-id=\"1990150390482740376\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-5f0b421618dca1afd18178482364951d_720w.jpg?source=ccfced1a\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1990150390482740376</span></span></a>",
+        "favorite_count": 59,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990150499283014081}",
+      "attached_info": "CoQHCKPzk8C3hPj7oAEQBBoJNzYzNjAwODYyIPbD2coGKDwwYkAeSkcKIlRTX1NPVVJDRV9TT0NJQUxfQUZGSU5JVFlfTkVBUkxJTkUSG25lYXJsaW5lQ29udGVudFYyOjc2OTI3NzQwNRgAIAA6AEpFCiBUU19TT1VSQ0VfU09DSUFMX0ZPTExPV19ORUFSTElORRIbbmVhcmxpbmVDb250ZW50VjI6NzY5Mjc3NDA1GAAgADoAWggyMjYxOTc2NGIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNomMnQksbnm88bchMxOTkwMTUwNDk5MjgzMDE0MDgxigEJMjcxNTUxNjc5qgEJcmVjb21tZW5kwgEgMjU4ZWM4N2VlZGY2Zjk3NjkyZGE3MzU3MDQ1OTFmZmLyAQoIDBIGTm9ybWFs8gEoCAoSJGQ0YWEyMjIzLWVmZjUtNDcyNy1iNTFlLWVjZDBlODc3ODFmNfIBBQgLEgE2ggIAiAKAoqibuTOSAiAyNThlYzg3ZWVkZjZmOTc2OTJkYTczNTcwNDU5MWZmYpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIiVFNfU09VUkNFX1NPQ0lBTF9BRkZJTklUWV9ORUFSTElORegCAvoCC05PUk1BTF9GTE9XigMgNGE2NzliMzllZThhNDMzYTlmYWM4MmNhZGNiNTI0NzKaAw0KAnYyEAAaBW90aGVyqAOjiwbYAwDqAxZhZmZpbml0eU5lYXJMaW5lUmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4NatuT+BBQAAAAAAAAAAiQWPe97KpuevP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYeqAYBkgIuCgk3NjM2MDA4NjISEzE5OTAxNTA0OTkyODMwMTQwODEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "31_1767704760.58",
+      "type": "feed",
+      "offset": 31,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704760,
+      "updated_time": 1767704760,
+      "target": {
+        "comment_count": 290,
+        "excerpt": "虽然在河北待了三十多年，我还是头一次 这么真切的感知到河北的钢铁产能多到了什么程度。   就这一套铸铁的灶＋锅，是我姐99块钱买了五提卫生纸送的。",
+        "reshipment_settings": "allowed",
+        "id": "1991120584394949164",
+        "voteup_count": 2130,
+        "vote_next_step": "vote",
+        "is_labeled": false,
+        "visited_count": 247519,
+        "thumbnail": "https://picx.zhimg.com/50/v2-0325b2efa6e90cea06928dbf51243c78_720w.jpg?source=b6762063",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-0325b2efa6e90cea06928dbf51243c78_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 0,
+        "is_navigator": false,
+        "is_copyable": true,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1991120584394949164",
+        "question": {
+          "id": "648573938",
+          "follower_count": 0,
+          "comment_count": 137,
+          "excerpt": "",
+          "author": {
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-e5aeb4872c80f1b3edccc46617dfe3de_l.jpg?source=b6762063",
+            "followers_count": 0,
+            "is_following": false,
+            "id": "26a83a1cce6a2faf79bf6cc90530f3b1",
+            "user_type": "people",
+            "url_token": "wbr3q3",
+            "name": "知乎用户wBr3Q3",
+            "is_org": false,
+            "gender": 0,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/26a83a1cce6a2faf79bf6cc90530f3b1"
+          },
+          "bound_topic_ids": [
+            464,
+            153117
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1710416359,
+          "answer_count": 0,
+          "is_following": false,
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/648573938",
+          "title": "工业克苏鲁什么意思?"
+        },
+        "excerpt_new": "虽然在河北待了三十多年，我还是头一次 这么真切的感知到河北的钢铁产能多到了什么程度。   就这一套铸铁的灶＋锅，是我姐99块钱买了五提卫生纸送的。",
+        "preview_text": "",
+        "content": "<p data-pid=\"HdQGjHN9\">虽然在河北待了三十多年，我还是头一次</p><p data-pid=\"ciwVFI18\">这么真切的感知到河北的钢铁产能多到了什么程度。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0325b2efa6e90cea06928dbf51243c78_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-0325b2efa6e90cea06928dbf51243c78\" class=\"content_image\"/></figure><p data-pid=\"omhJtxKJ\">就这一套铸铁的灶＋锅，是我姐99块钱买了五提卫生纸送的。</p>",
+        "navigator_vote": false,
+        "type": "answer",
+        "created_time": 1767500140,
+        "updated_time": 1767500140,
+        "preview_type": "default",
+        "author": {
+          "url": "https://api.zhihu.com/people/e33977e760015889336f0343bb4c21f8",
+          "url_token": "li-han-15",
+          "headline": "专业市场营销，略懂IT、金融",
+          "gender": 1,
+          "is_followed": false,
+          "id": "e33977e760015889336f0343bb4c21f8",
+          "user_type": "people",
+          "name": "李晗",
+          "avatar_url": "https://picx.zhimg.com/50/2fc611451_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 14,
+          "is_following": false
+        },
+        "thanks_count": 28
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991120584394949164}",
+      "attached_info": "CusFCKPzk8C3hPj7oAEQBBoJNzYzOTI4NzQ1IOzS58oGKNIQMKICQB9KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1aCTEwNjQwNDk4NmIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5OTExMjA1ODQzOTQ5NDkxNjSKAQk2NDg1NzM5MziqAQlyZWNvbW1lbmTCASBlMzM5NzdlNzYwMDE1ODg5MzM2ZjAzNDNiYjRjMjFmOPIBCggMEgZOb3JtYWzyASgIChIkOTVhNjdiNGItOTEyMC00YjY2LWIxZWItZmRmOGMyMjgzYmIz8gEFCAsSATaCAgCIAoGiqJu5M5ICIGUzMzk3N2U3NjAwMTU4ODkzMzZmMDM0M2JiNGMyMWY4mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCAvoCC05PUk1BTF9GTE9XigMgNGE2NzliMzllZThhNDMzYTlmYWM4MmNhZGNiNTI0NzKaAw0KAnYyEAAaBW90aGVyqAPfjQ/YAwDqAxFmZWVkcmVfbXNfZ2F0ZV92M/oDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEIAYGIAgIiN2Mi0wMzI1YjJlZmE2ZTkwY2VhMDY5MjhkYmY1MTI0M2M3OIAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwLWxnj+BBQAAAAAAAAAAiQWPe97KpuevP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYfqAYDkgIuCgk3NjM5Mjg3NDUSEzE5OTExMjA1ODQzOTQ5NDkxNjQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "32_1767704760.552",
+      "type": "feed",
+      "offset": 32,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704760,
+      "updated_time": 1767704760,
+      "target": {
+        "excerpt": "谢邀。 在AI这行折腾了快十年了，从给推荐系统手写特征，到玩BERT预训练，再到现在带团队搞大模型应用落地，基本把这几年的坑踩了个遍。Agent这波浪潮起来后，我司内部也搞过几个poc（Proof of Concept），从智能客服到代码生成助手，说实话，水很深，远比外面那些demo看起来复杂。 所以看到你这个问题，我特别有共鸣。因为我也让我手下几个新人去找课程学，结果他们发我的链接，我点开看了几个，要么是LangChain的API速通，要么…",
+        "preview_text": "",
+        "visited_count": 552,
+        "vote_next_step": "vote",
+        "title": "有没有质量高一点的ai agent开发课程？",
+        "comment_count": 2,
+        "preview_type": "default",
+        "content": "<p data-pid=\"t8sgUyp_\">谢邀。<br/>在AI这行折腾了快十年了，从给推荐系统手写特征，到玩BERT预训练，再到现在带团队搞大模型应用落地，基本把这几年的坑踩了个遍。Agent这波浪潮起来后，我司内部也搞过几个poc（Proof of Concept），从智能客服到代码生成助手，说实话，水很深，远比外面那些demo看起来复杂。<br/>所以看到你这个问题，我特别有共鸣。因为我也让我手下几个新人去找课程学，结果他们发我的链接，我点开看了几个，要么是LangChain的API速通，要么就是讲几个ReAct、CoT的名词，然后跑个hello world。这么说吧，这些课程99%都是垃圾，浪费时间。<br/>为什么现在的AI Agent课程质量普遍这么糟？<br/>原因很简单：<b>这玩意儿太新了，根本就没形成一套成熟的、可以被称之为“课程”的知识体系。</b><br/>现在的技术栈，每周都在变。今天LangChain发个新版本，明天LlamaIndex就重构了核心模块，后天OpenAI又给你整个Function Calling v2。那些录播课，讲师录完的时候技术都可能是过时的。他们教的，顶多算是对某个时间点上，某个框架的API文档的“视频翻译”。<br/>这玩意儿的核心，压根就不是调API。调API一个实习生学一天就会了。真正的难点，那些课程根本没讲，或者说讲师自己也没搞明白。<br/>那么一个靠谱的AI Agent到底要学什么？或者说，如果你想成为一个能做出东西而不是只能跑demo的人，你应该走什么样的路径？我给你梳理一下，这基本也是我带新人的路线。<br/><b>第一阶段：打好地基</b><br/>想直接学Agent，就像没学过C语言就想上手写操作系统内核，纯属做梦。地基不牢，上层建筑就是空中楼阁。<br/><b>对LLM本身要有体感。</b> 这不是让你去研究Transformer的每一个数学细节，而是你要明白它的能力边界和“脾气”。<br/></p><ul><ul><li data-pid=\"gCb_pOzt\"><b>Prompt Engineering:</b> 这不是玄学，是一门手艺。Few-shot, Chain-of-Thought, Self-Consistency这些基本功必须得会。你得知道怎么跟LLM“说话”才能让它最大概率给你吐出想要的结果。吴恩达和OpenAI官方合作的那几门短课就挺好，花个一下午就能过完，主要是建立一个基本认知。<b>《ChatGPT Prompt Engineering for Developers》</b>，免费，实在。</li><li data-pid=\"V8LKQns0\"><b>RAG (Retrieval-Augmented Generation):</b> 这是目前90%以上Agent应用的核心。你必须搞懂RAG的全流程：文档加载(Loading)、切分(Splitting)、向量化(Embedding)、存储(Storing)、检索(Retrieving)。每个环节用什么技术，有什么优缺点，你心里得有数。比如，文本切分按固定长度切、按句子切、还是按markdown标题切，效果天差地别。检索也不是只有向量相似度，多路检索、混合检索、重排(rerank)这些都得懂。如果你想搞清楚大模型怎么跟外部知识库结合、怎么在实际业务里用起来，字节RAG实践手册就是很好的参考。<b>它不是只讲概念，还从工程实践的角度拆了整个流程：数据怎么准备、知识库怎么构建、检索和生成怎么配合、性能和延迟怎么优化</b>。</li><li data-pid=\"HAkWUceo\"><b>Fine-tuning:</b> 知道什么时候该用微调，什么时候不该用。别动不动就说“我拿我的业务数据fine-tune一个模型”，成本高，效果还不一定好。多数情况下，一个好的RAG系统比一个草率的微调模型效果好得多。想要搞懂微调，，它能让你看到字节在一线的探索，这个手册里结合了<b>抖音、飞书、电商、智能客服等 50 多个真实业务场景，</b>总结了<b>SFT、ReFT、Adapter、LoRA</b>等方法在千亿甚至万亿参数模型上的应用实践，还特别关注低资源和零资源场景下的微调策略，把微调方法、模型评估、部署监控全流程都搞清楚了。</li></ul></ul><p data-pid=\"hzK7x2f0\">这个阶段，你的目标是能不依赖任何框架，手撸一个简单的RAG问答机器人。就用OpenAI的API，自己用FAISS或者Chroma建个向量库，自己管理prompt，跑通整个流程。当你能做到这一点，你对LLM应用的理解就上了一个台阶。<br/><b>第二阶段：让框架成为你趁手的工具</b><br/>地基打好了，现在可以开始用框架来提高效率了。但切记，框架是帮你干活的，不是来束缚你的。<br/><b>LangChain:</b> 这玩意儿就是个大杂烩，什么都有。好处是生态好，你想集成的东西基本都有现成的connector。坏处也很明显，封装太深，像个黑箱，出了问题很难debug。很多人学Agent就是上来就 <code>from langchain.agents import initialize_agent</code>，然后跑不通就懵了。<br/><b>我的建议是：</b> 把LangChain当成一个“胶水层”和“组件库”来用，而不是一个“全家桶”。比如它的文档加载器(Document Loaders)、文本切分器(Text Splitters)就很好用，可以直接拿来。但核心的Agent逻辑，比如ReAct的循环，我更建议你自己写，这样你才能完全掌控整个流程。LangChain的源码值得一读，你会发现很多所谓的“神奇”功能，底层实现其实很简单。<br/><b>LlamaIndex:</b> 这哥们儿一开始就专注于RAG，所以在这方面做得比LangChain更深入、更专业。它的数据结构、索引策略、查询引擎都设计得非常精巧。如果你做的Agent是重度依赖知识库查询的，LlamaIndex可能是更好的选择。<br/><b>其他新秀：</b> 比如微软的<b>AutoGen</b>，专注于多Agent协作，让不同的Agent扮演不同角色来完成复杂任务。还有像<b>CrewAI</b>，它在AutoGen的基础上提供了一个更结构化的框架来定义Agent和任务。这些都可以关注，但别贪多，先精通一个。<br/>这个阶段的核心是，<b>理解框架的设计哲学，而不是背API</b>。你要知道它帮你解决了什么问题，以及它可能带来什么新问题。<br/><b>第三阶段：从“能跑”到“能用”，这才是真正的鸿沟</b><br/>99%的课程就到第二阶段为止了。但实际工作中，能跑通demo和产品能上线之间，隔着一条马里亚纳海沟。这部分才是真正值钱的经验。<br/><b>评估 (Evaluation):</b> 这是Agent开发中最最最重要，也最最最头疼的一环。你怎么知道你的Agent做得好不好？光靠自己手动测几个case是远远不够的。<br/>我们之前做过一个内部的运维知识库问答Agent。一开始的版本，大家随便问几个问题，感觉回答得还行。但一上线，各种问题就来了。用户问“服务器崩了怎么办？”，它可能因为检索到了一个十年前的文档，给出了一个早就弃用的解决方案。<br/><b>怎么办？</b> 我们建了一个评估集，包含了上百个真实的、有标准答案的运维问题。然后用<b>RAGAS</b>、<b>ARES</b>这类框架，从答案的相关性(Faithfulness)、准确性(Answer Relevancy)、上下文召回率(Context Recall)等多个维度对Agent的每次修改进行打分。这样，我们对模型的改进才是数据驱动的，而不是凭感觉。任何不谈评估的Agent开发，都是自娱自乐。<br/><b>可观测性 (Observability) 和 调试 (Debugging):</b> LLM的输出是不确定的。当你的Agent给出了一个错误的答案，你需要能追溯回去，到底是哪一步出了问题？是知识库没检索到相关内容？是Prompt写得有歧义？还是LLM自己产生了幻觉？像<b>LangSmith</b>这样的工具就是干这个的，它能把Agent的每一步思考链、工具调用、LLM输入输出都记录下来，方便你复盘。<br/><b>稳定性与成本控制：</b> Agent可能会陷入无限循环，或者调用昂贵的工具/API。你怎么设计熔断机制？怎么监控token消耗？这些都是工程上必须考虑的问题。<br/>这部分内容，基本没有课程会教。你只能通过两种方式学习：<br/></p><ol><li data-pid=\"aL00XHlT\"><b>去读顶尖公司和团队的博客。</b> 比如OpenAI、A16Z、Lilian Weng的博客，他们会分享一些工程实践的思考。</li><li data-pid=\"P1F22r96\"><b>自己动手做项目，疯狂踩坑。</b> 没有什么比亲手解决一个棘手的问题更能让你成长了。</li><li data-pid=\"40JU8_r8\">如果你想真正理解agent技术是怎么落地的，那<b>肯定是要去关注业内最顶尖的公司的实际落地场景</b>。字节也是一个很好的关注对象，因为它的版图足够大，所以它的agent手册就可以覆盖agent从底层技术（<b>大模型、工具调用、API 集成、架构设计</b>）到各种泛业务场景（<b>办公、电商、内容创作、教育</b>）的全链路案例。下载地址：<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/ycv50L8GALZz3ea_P2GHzg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">字节内部Agent实践手册.pdf</a></li></ol><p data-pid=\"bFZOgZR3\"><br/><b>我学过一些靠谱的资源推荐（别再看那些速成课了）</b><br/><b>基础入门（建立体感）</b><br/>吴恩达的DeepLearning.AI系列短课： 《ChatGPT Prompt Engineering for Developers》和《Building Systems with the ChatGPT API》。免费，精炼，快速上手。<br/>Lilian Weng的博客文章《LLM Powered Autonomous Agents》： 这篇文章可以说是Agent领域的开山之作，系统性地梳理了Agent的核心组成部分和挑战。必读。<br/><b>进阶实战（深入框架）</b><br/>官方文档： LangChain和LlamaIndex的官方文档永远是最新、最权威的学习资料。别看二手视频了，直接啃官方的Cookbook和API Reference。<br/>源码： 当你对某个功能感到困惑时，最好的办法就是Cmd+B（或者Ctrl+B）点进去看源码。你会发现很多魔法背后都是朴素的实现。<br/><b>高手之路（系统思维）</b><br/>Full Stack LLM Bootcamp: 这是一个非常硬核的课程/社区，内容涵盖从底层模型部署到前端应用的全链路，讲师都是行业一线大佬。质量极高，但需要你有一定的基础。<br/>各类AI相关的论文： 每天花点时间刷刷arXiv，看看ReAct、Chain-of-Thought、Tree of Thoughts (ToT)、Self-Correction这些开创性工作的原文。理解其思想，远比调几个API重要。<br/><b>总结一下我的观点：</b><br/>别再浪费时间找什么“AI Agent开发高质量课程”了，尤其是那种成体系的，目前压根就不存在。这个领域最好的学习方式就是“干中学”（Learning by Doing）。<br/><b>我的建议路径是：</b><br/></p><ol><li data-pid=\"lBieJw9Y\">通过吴恩达的短课和自己手撸小项目，<b>建立对LLM和RAG的扎实体感</b>。</li><li data-pid=\"_xweXJOa\">选择一个主流框架（比如LangChain），<b>把它当成工具箱，深入理解其设计思想，而不是背API</b>。</li><li data-pid=\"YeIlgsaq\">找一个你感兴趣的、真实的场景，<b>从头到尾做一个Agent项目</b>。哪怕很小，但一定要经历<b>需求定义-&gt;技术选型-&gt;开发-&gt;评估-&gt;迭代优化</b>的全过程。</li><li data-pid=\"hrNNyfIC\">在这个过程中，你会遇到无数在课程里根本看不到的问题。<b>解决这些问题的过程，才是你真正成长的过程。</b></li></ol><p data-pid=\"UdRCYK_1\">如果你想真正理解agent技术是怎么落地的，那<b>肯定是要去关注业内最顶尖的公司的实际落地场景</b>。它的agent手册就可以覆盖agent从底层技术的全链路案例。下载：<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/ycv50L8GALZz3ea_P2GHzg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">字节内部Agent实践手册.pdf</a><br/>这个手册里面字节的agent案例就可以有一套完整的框架和思路，从而收获一个比较全景的视角。比如<b>飞书里的智能办公</b> agent怎么自动排会生成会议纪要；<b>抖音电商的agent怎么实现库存监控、智能客服、定价优化</b>；内容创作的agent怎么辅助创作者构思脚本和选素材；<b>教育场景的agent 怎么给学生定制学习计划和实时答疑</b><br/>这个过程会很痛苦，会踩很多坑，但相信我，这比你看一百个速成视频管用得多。课程是别人给你装骨架，源码和实战才是长肉的地方。这行就是这样，没什么捷径，拼的就是动手能力和解决问题的能力。<br/>就这样。</p>",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "comment_permission": "all",
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "author": {
+          "id": "2eea904ead3f3b1b691e6a4248aabdc1",
+          "url_token": "bo-yi-53-30-84",
+          "is_org": false,
+          "is_followed": false,
+          "gender": 0,
+          "followers_count": 246,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/2eea904ead3f3b1b691e6a4248aabdc1",
+          "user_type": "people",
+          "name": "程序员波仔",
+          "headline": "一个领悟，少走3年弯路！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-b03bdf201eeab409f7c4ec9c64e9d241_l.jpg?source=b6762063"
+        },
+        "excerpt_new": "谢邀。 在AI这行折腾了快十年了，从给推荐系统手写特征，到玩BERT预训练，再到现在带团队搞大模型应用落地，基本把这几年的坑踩了个遍。Agent这波浪潮起来后，我司内部也搞过几个poc（Proof of Concept），从智能客服到代码生成助手，说实话，水很深，远比外面那些demo看起来复杂。 所以看到你这个问题，我特别有共鸣。因为我也让我手下几个新人去找课程学，结果他们发我的链接，我点开看了几个，要么是LangChain的API速通，要么…",
+        "favorite_count": 51,
+        "article_type": "normal",
+        "id": "1991174641620906427",
+        "type": "article",
+        "updated": 1767513067,
+        "voteup_count": 16,
+        "voting": 0,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1991174641620906427",
+        "created": 1767513067
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991174641620906427}",
+      "attached_info": "CoQFCKPzk8C3hPj7oAEQBxoJMjY4NTQ2MTg1IOu36MoGKBAwAkAgSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9YiA2NTIwZjVmMjhjNWY3NjNmMTk0ZDg2ZjEyMzQ5Zjg4M3ITMTk5MTE3NDY0MTYyMDkwNjQyN6oBCXJlY29tbWVuZMIBIDJlZWE5MDRlYWQzZjNiMWI2OTFlNmE0MjQ4YWFiZGMx8gEKCAwSBk5vcm1hbPIBKAgKEiRmMDk1ODc4YS03OWExLTRhZGYtODczZS1jMjdkOTY5MjU4NDTyAQUICxIBNoICAIgCgaKom7kzkgIgMmVlYTkwNGVhZDNmM2IxYjY5MWU2YTQyNDhhYWJkYzGaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AID+gILTk9STUFMX0ZMT1eKAyA0YTY3OWIzOWVlOGE0MzNhOWZhYzgyY2FkY2I1MjQ3MpoDDQoCdjIQABoFb3RoZXKoA6gE2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACASqN9P4EFAAAAAAAAAACJBY973sqm568/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiCoBgCSAi4KCTI2ODU0NjE4NRITMTk5MTE3NDY0MTYyMDkwNjQyNxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "33_1767704760.516",
+      "type": "feed",
+      "offset": 33,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704760,
+      "updated_time": 1767704760,
+      "target": {
+        "answer_type": "normal",
+        "comment_count": 15,
+        "question": {
+          "created": 1757286642,
+          "question_type": "normal",
+          "id": "1948282069311549603",
+          "type": "question",
+          "title": "领导提拔你的最根本的原因是什么？",
+          "bound_topic_ids": [
+            2566,
+            2157689,
+            2426471
+          ],
+          "is_following": false,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "author": {
+            "url": "https://api.zhihu.com/people/c7307558b010b0d790b8cfeb0b98f9c5",
+            "user_type": "people",
+            "name": "问题还是问题",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false,
+            "id": "c7307558b010b0d790b8cfeb0b98f9c5",
+            "gender": -1,
+            "followers_count": 52,
+            "is_following": false,
+            "url_token": "rinabc"
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/1948282069311549603",
+          "excerpt": "",
+          "detail": ""
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "vote_next_step": "vote",
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"1xkbwxIz\">看完这四个用人相关的故事就能把这事琢磨透了。</p><p data-pid=\"9QXq3Dw5\"><b>先看人民的名义里领导怎么用人。</b></p><p data-pid=\"Fy_X2H3X\">李达康是改革狂人，要搞GDP，要拆迁，要搞开发区。</p><p data-pid=\"PB6wudUI\">这种事必然得罪人，必然面临巨大的执行阻力，李达康自己不能天天拿着铲子去铲地，也不能天天带着手铐去抓人。</p><p data-pid=\"OnnOln49\">赵东来是公安局长，他就是李达康手里的刀，谁敢拦路，赵东来就去清理障碍，连省厅的祁厅长也敢斗。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-24d9d8be8bf274232bd0e296235f0f74_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2396\" data-original-token=\"v2-6d892f090a18b607b535a07ae56345ac\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-24d9d8be8bf274232bd0e296235f0f74_r.jpg\"/></figure><p data-pid=\"vZkbTKRD\">而新来的省委书记沙瑞金最后相中了易学习，他任劳任怨但不懂政治也不站队，插在开发区就是根定海神针，指哪他打哪，哪怕是顶着雷拆迁这种累活，易学习眉头都不皱一下。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e58567388f56ce0cfa2a81d0ad903e8c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1058\" data-rawheight=\"594\" data-original-token=\"v2-0c5efd51eee717822d83a091665c7de4\" class=\"origin_image zh-lightbox-thumb\" width=\"1058\" data-original=\"https://pica.zhimg.com/v2-e58567388f56ce0cfa2a81d0ad903e8c_r.jpg\"/></figure><p data-pid=\"Db99mvmx\">他们俩能被提拔，是因为领导需要推土机和开路刀。</p><p data-pid=\"QF3RfXen\">这两个人的能力能直接转化成领导的政绩，<b>这叫业绩代偿。</b></p><p data-pid=\"1wd2cUte\"><b>再看《沧浪之水》里的马厅长和池大为。</b></p><p data-pid=\"Blt2u8JJ\">池大为本来是个清高的知识分子，看不起马厅长那一套，结果被边缘化坐了几年冷板凳，连孩子看病都难。</p><p data-pid=\"JjOk8wNR\">他后来是怎么翻身的？</p><p data-pid=\"ailj0-qw\">在他彻底跪下去的那一刻。</p><p data-pid=\"FgzyVIKG\">马厅长家里的下水道堵了，池大为二话不说，卷起袖子，趴在地上用手去掏那些污秽之物。</p><p data-pid=\"5UVt8AlR\">那一刻，他不再是那个自尊心极强的博士，他成了马厅长的影子，成了马厅长的家奴。</p><p data-pid=\"TsJTR97h\">马厅长提拔池大为，就是因为他交出了自尊作为投名状。</p><p data-pid=\"5TjEqmCn\">这种人格上的彻底依附，让领导享受到了权力的顶级快感和私人的极致便利。</p><p data-pid=\"E75qOss9\"><b>我们再往前，看大明王朝里的嘉靖和严嵩。</b></p><p data-pid=\"LflLmd7q\">严嵩贪不贪，坏不坏，嘉靖心里跟明镜似的。</p><p data-pid=\"nTp-vAUz\">那为什么嘉靖还独宠严嵩二十年，让他把持朝政？</p><p data-pid=\"z7M4uTU3\">因为嘉靖要修道，要修宫殿，花钱如流水。但他自己是万岁爷，是圣人，不能落下搜刮民财的骂名。</p><p data-pid=\"7gI4in_-\">这时候就需要严嵩。</p><p data-pid=\"Tl6fDkI3\">严嵩负责在前面刮地三尺，把钱弄来给皇上花；严嵩负责在前面杀人放火，把反对派搞掉。</p><p data-pid=\"jgJlXlbB\">所有的骂名严嵩背，所有的脏钱严嵩弄。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-53ab59c7c1c044a6034d5f2519500ea0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"672\" data-rawheight=\"900\" data-original-token=\"v2-ef14a1d0a4b902e5dd553488524498f1\" class=\"origin_image zh-lightbox-thumb\" width=\"672\" data-original=\"https://pic1.zhimg.com/v2-53ab59c7c1c044a6034d5f2519500ea0_r.jpg\"/></figure><p data-pid=\"MUhrDF0l\">嘉靖提拔严嵩是因为他需要一道遮风挡雨的墙，严嵩的存在让嘉靖既享受了实惠，又保住了体面，<b>这叫风险隔离。</b></p><p data-pid=\"oWdstTCI\"><b>最后看刘邦和樊哙。</b></p><p data-pid=\"SFCKQheX\">鸿门宴那是生死关头，项羽磨刀霍霍。</p><p data-pid=\"Fb4t8jn8\">刘邦身边的谋士张良脑子够好使吧，但在那种绝对暴力的威胁下，脑子派不上用场了。</p><p data-pid=\"v1I8_ksv\">樊哙是个杀狗的，粗鲁，没文化，但他一听说刘邦有难，拿着盾牌就冲进去了，当着项羽的面吃生猪肉，瞪着眼珠子护主。</p><p data-pid=\"Xfpzk585\">刘邦到死都信任樊哙，甚至吕后掌权的时候樊哙也能安然无恙。</p><p data-pid=\"vg6V0LBA\">因为在所有聪明人都在算计利弊的时候，樊哙这种莽夫提供了领导最稀缺的东西，<b>安全感</b>。</p><p data-pid=\"jLzgtcYs\">提拔樊哙，是因为在关键时刻，他能拿命去填，<b>这就叫绝对忠诚。</b></p><h3><b>看懂了这四个故事，就明白了提拔的底层逻辑。</b></h3><p data-pid=\"c0TN0UVI\">这就像是一个生态位的填补游戏。</p><p data-pid=\"OmD4ln4j\">每个领导无论大小，他的权力版图里都有缺口。</p><p data-pid=\"2kBlrIve\">他可能缺一个干脏活的白手套，也可能缺一个出政绩的苦力，或是缺一件挡子弹的防弹衣，甚至只是缺一个伺候起居的跪垫。</p><p data-pid=\"zODSW4mr\">谁能最精准地卡进这个缺口里，谁就能上去。</p><p data-pid=\"FvHGpMAp\"><b>这跟人品无关，跟才华无关，甚至跟努力无关，这只跟功能有关。</b></p><p data-pid=\"OXxu4BeL\">很多人当了一辈子老黄牛，天天加班，任劳任怨，结果提拔的时候总没份。</p><p data-pid=\"EaWGn055\">因为老黄牛的功能太单一了，<b>只有使用价值，没有交换价值。</b></p><p data-pid=\"xEJmvulh\">而且，老黄牛太好用了，把他提拔了，谁来干具体的活？</p><p data-pid=\"4MXVK2xl\">为了系统的利益最大化，把老牛焊死在基层，让他干一辈子的活，才是最理性的选择。</p><p data-pid=\"UoSU2vdx\">想通了这一层，也就别有什么怨气了，职场就是这么个残酷的全力江湖。</p><p data-pid=\"JrCcEIzK\">只是既然看透了这层逻辑，要想打破那个无形的玻璃天花板，就得换个玩法。</p><p data-pid=\"T61nRylq\">别再傻乎乎地只顾着低头拉车，得学会抬头看路，看领导缺什么，看这个权力结构里哪块砖是松动的。</p><p data-pid=\"6FWltPTg\">有几条实实在在的建议，或许能帮你在这个复杂的局里找到自己的位置。</p><h3><b>第一，学会做精准的缺口分析</b></h3><p data-pid=\"hsx2bG-g\">在职场里混了这么多年，我发现很多人干工作是盲目的。</p><p data-pid=\"tBZPukaT\">领导布置什么就干什么，甚至领导没布置的小事也抢着干，还以为这就叫积极，其实这在战略上是懒惰的。</p><p data-pid=\"f-aa3XFw\">得把眼睛盯在领导身上，去琢磨他现在的处境。</p><p data-pid=\"NIfar7mi\">他刚来，立足未稳，急需打开局面，这时候他缺的是赵东来那样的刀，得帮他去砍那几块难啃的硬骨头，帮他立威。</p><p data-pid=\"dABlVzBg\">如果他已经坐稳了，想往上再走一步，急需亮眼的政绩，这时候他缺的是易学习那样的推土机，得帮他把数据做上去，把项目落地。</p><p data-pid=\"8NPnmalE\">或者他现在四面楚歌，有人在搞他，这时候他缺的是严嵩那样的盾牌，得帮他挡枪，帮他把那些暗箭拦下来。</p><p data-pid=\"3o1AeyiC\">只有把自己的能力精准地对接上领导当下的核心痛点，这份努力才会被看见，才会被记在账上。</p><p data-pid=\"fEtbuP-2\">不要做万金油，要做特效药。</p><p data-pid=\"MGA3ghFO\">饭我们每天都得吃，但没人会感激饭，觉得那是理所应当的。</p><p data-pid=\"cCLpkqVP\">而药只有病了才吃，但人在大病时愿意花重金买药，对医生和感恩戴德。</p><p data-pid=\"mkpI2Ptb\">要被提拔，就得让自己成为领导那个痛点的唯一解药。</p><h3>第二，建立私密性的信任连接</h3><p data-pid=\"yHTR9z3X\">光靠公事公办，是很难走进核心圈的。</p><p data-pid=\"fbnK5T0j\">事办得再好，那也是组织给的薪水买断的，是应尽的义务。</p><p data-pid=\"EuAAhcES\">要想成为自己人，得纳投名状。</p><p data-pid=\"g0YPQ8X4\">这个投名状不是要去替领导干什么缺德事，而是要想办法去干一些只有你能干且带有一定私密性或者额外担当的事。</p><p data-pid=\"1gi3SIXE\">比如领导家里有点私事不方便出面，像池大为那样，把身段放下来，把事办得妥妥帖帖，还不让第三个人知道。</p><p data-pid=\"qJdUyVyg\">或者在某个关键决策上，领导犹豫不决，怕担责任时，你敢站出来挑大梁，写个专业的分析报告，把利弊讲清楚，并且表态愿意承担执行层面的责任。</p><p data-pid=\"wWjrk2vf\">这种共谋关系或者深度依附关系，才是提拔的快车道。</p><p data-pid=\"yOcJWH74\"><b>领导用人，第一原则永远是安全。</b></p><p data-pid=\"ITzX6ulD\">只有当他觉得这个人跟他是绑在一根绳上的蚂蚱，一荣俱荣，一损俱损的时候，他才敢把更大的权力交出去给内。</p><h3>第三，适度展示钝感和缺陷</h3><p data-pid=\"0_18F3D_\">太聪明的人，往往很难被重用。</p><p data-pid=\"W7fovj0P\">因为如果一个人能力极强，人际关系极好，滴水不漏，完美无缺，领导看着会害怕。</p><p data-pid=\"a6wsCUZl\">他会想，这人是不是野心太大，以后会不会管不住，甚至会不会有天取代了自己。</p><p data-pid=\"pcZ6rjO6\">韩信作为大将军就是死在太完美、太能干上。</p><p data-pid=\"anLeOlkk\">要想上去，就得学学樊哙，在展示能力的同时，适度暴露一点短板。</p><p data-pid=\"QOjQuh3L\">比如性格有点急躁或者像易学习这样只懂业务不懂政治，这些就是在向领导释放安全信号。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7b3564362eb99350292f240bc8444f2c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-1f85cbe4f5683afe232e33b04722d80f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-7b3564362eb99350292f240bc8444f2c_r.jpg\"/></figure><p data-pid=\"bnbPAwBp\">意思是告诉领导，我有缺点，离不开你的把控，只能依附于你。</p><p data-pid=\"nSwXzBJl\">这种可控感，是领导用人的心理底线。</p><p data-pid=\"pFQPtGgU\">让他觉得你是把很好用的刀，但只有握在他手里才安全。</p><h3>第四，预判需求，做在指令之前</h3><p data-pid=\"s8ZCR5lY\">等领导开口了再去干，那顶多只能叫执行。</p><p data-pid=\"GWfD91hr\">领导还没开口，但你预判到了他的意图，提前把路铺好了，那就叫贴心。</p><p data-pid=\"JFsRJHJK\">就像李达康还没发火，赵东来就已经把抓捕方案做好了；再比如，嘉靖还没说缺钱，严嵩就已经把搜刮的名单拟好了。</p><p data-pid=\"Gp5a1Kbf\">这当然需要极强的政治敏感度。</p><p data-pid=\"2hplQgFl\">要想练就这个敏感度，就要多琢磨领导在会上强调了什么，多看看他最近在关注什么文件，多听听他在饭桌上抱怨了什么。</p><p data-pid=\"QTTaw5Fq\">把这些碎片信息拼起来，就能还原出他内心的真实渴望。</p><p data-pid=\"BBE4Y87O\">然后不动声色地把事做在前面。</p><p data-pid=\"di6Oi9RI\">等他想起来要办的时候，你把成果递上去，那一刻，你就成了他肚子里的蛔虫。</p><h3>最后，得有个清醒的认识</h3><p data-pid=\"L39a-qWb\">职场就是一场巨大的拼图游戏。</p><p data-pid=\"Y36w4RGZ\">长得再好看、再有才华没用，得长得刚好能卡进领导权力版图的那个缺口里才有机会往上走。</p><p data-pid=\"HRiBBk_L\">有时候一直不被提拔，不是因为不行，而是因为那个缺口还没出现，或者那个缺口已经被别人填满了。</p><p data-pid=\"K9aLXNvg\">这时候，要么忍，苦练内功，等待时局变化，等待领导换人或者遇到难处；要么滚，换个有缺口的地方去填。</p><p data-pid=\"QLZbRVlh\">最没意义的就在那儿自怨自艾，悲叹怀才不遇。</p><p data-pid=\"iqoTKFv_\"><b>在所有的权力结构里，没有怀才不遇，只有供需错配。</b></p>",
+        "excerpt_new": "看完这四个用人相关的故事就能把这事琢磨透了。 先看人民的名义里领导怎么用人。李达康是改革狂人，要搞GDP，要拆迁，要搞开发区。 这种事必然得罪人，必然面临巨大的执行阻力，李达康自己不能天天拿着铲子去铲地，也不能天天带着手铐去抓人。 赵东来是公安局长，他就是李达康手里的刀，谁敢拦路，赵东来就去清理障碍，连省厅的祁厅长也敢斗。   而新来的省委书记沙瑞金最后相中了易学习，他任劳任怨但不懂政治也不站队，插在开发…",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-6d892f090a18b607b535a07ae56345ac_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-ef14a1d0a4b902e5dd553488524498f1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1f85cbe4f5683afe232e33b04722d80f_720w.jpg?source=b6762063"
+        ],
+        "id": "1991535582229312154",
+        "excerpt": "看完这四个用人相关的故事就能把这事琢磨透了。 先看人民的名义里领导怎么用人。李达康是改革狂人，要搞GDP，要拆迁，要搞开发区。 这种事必然得罪人，必然面临巨大的执行阻力，李达康自己不能天天拿着铲子去铲地，也不能天天带着手铐去抓人。 赵东来是公安局长，他就是李达康手里的刀，谁敢拦路，赵东来就去清理障碍，连省厅的祁厅长也敢斗。   而新来的省委书记沙瑞金最后相中了易学习，他任劳任怨但不懂政治也不站队，插在开发…",
+        "visited_count": 12153,
+        "is_copyable": false,
+        "is_labeled": false,
+        "segment_infos": [
+          {
+            "pid": "f-aa3XFw",
+            "text": "得把眼睛盯在领导身上，去琢磨他现在的处境。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 21,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991800365587398675"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "fEtbuP-2",
+            "text": "不要做万金油，要做特效药。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 13,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991801133656723827"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "2hplQgFl",
+            "text": "要想练就这个敏感度，就要多琢磨领导在会上强调了什么，多看看他最近在关注什么文件，多听听他在饭桌上抱怨了什么。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 54,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991802396544886048"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "type": "answer",
+        "updated_time": 1767660628,
+        "thanks_count": 24,
+        "created_time": 1767599083,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-6d892f090a18b607b535a07ae56345ac_720w.jpg?source=b6762063",
+        "preview_text": "",
+        "favorite_count": 410,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1991535582229312154",
+        "author": {
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "densen",
+          "name": "Kaiser",
+          "headline": "收藏再看丨资深半体制内人员",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c948b117ba8e0c274e06d166e05c50e6_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "地铁话题下的优秀答主",
+              "topic_names": [
+                "地铁"
+              ],
+              "topic_ids": [
+                1717
+              ]
+            }
+          ],
+          "id": "dee9f7c9d1844ea794913841d3fd7ed8",
+          "url": "https://api.zhihu.com/people/dee9f7c9d1844ea794913841d3fd7ed8",
+          "followers_count": 80850,
+          "is_followed": false
+        },
+        "voteup_count": 216
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991535582229312154}",
+      "attached_info": "CuAHCKPzk8C3hPj7oAEQBBoJNzY0MTExMzk3IOvX7coGKNgBMA9AIUo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1aCTExNjUwNzY4MGIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5OTE1MzU1ODIyMjkzMTIxNTSKARMxOTQ4MjgyMDY5MzExNTQ5NjAzqgEJcmVjb21tZW5kwgEgZGVlOWY3YzlkMTg0NGVhNzk0OTEzODQxZDNmZDdlZDjyAQoIDBIGTm9ybWFs8gEoCAoSJGNiZGM1Y2UxLWQwZmMtNDA0Ni05ZWRlLTIyNmJmMTFlZjQ3MPIBBQgLEgE2ggIAiAKBoqibuTOSAiBkZWU5ZjdjOWQxODQ0ZWE3OTQ5MTM4NDFkM2ZkN2VkOJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXaAiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMugCBfoCC05PUk1BTF9GTE9XigMgNGE2NzliMzllZThhNDMzYTlmYWM4MmNhZGNiNTI0NzKaAw0KAnYyEAAaBW90aGVyqAP5XtgDAOoDFmZlZWRyZV9maXJzdF9zY3JlZW5fdjL6A9sBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAUQuAgY3BIiI3YyLTZkODkyZjA5MGExOGI2MDdiNTM1YTA3YWU1NjM0NWFjOi0IAxCiCBjSBCIjdjItMGM1ZWZkNTFlZWU3MTc4MjJkODNhMDkxNjY1YzdkZTQ6LQgDEKAFGIQHIiN2Mi1lZjE0YTFkMGE0YjkwMmU1ZGQ1NTM0ODg1MjQ0OThmMTotCAMQuAgYoAsiI3YyLTFmODVjYmU0ZjU2ODNhZmUyMzJlMzNiMDQ3MjJkODBmgAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgVBikP4EFAAAAAAAAAACJBY973sqm568/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiGoBgCSAi4KCTc2NDExMTM5NxITMTk5MTUzNTU4MjIyOTMxMjE1NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "34_1767704760.784",
+      "type": "feed",
+      "offset": 34,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704760,
+      "updated_time": 1767704760,
+      "target": {
+        "excerpt": "中国崇洋媚外，就是满清造成的。把鞑清当成中国正常朝代后，鞑清这么烂，中国人觉得自己人种不行，外国人就是人种好，各种高大上。 中国人要恢复自信，必须和鞑清做切割。鞑清防汉压制汉人限制国家发展。这个锅不该由中华汉人来背。",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-2b50f878a1b4130dbcddcc2ced2a43db_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 122,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "excerpt_new": "中国崇洋媚外，就是满清造成的。把鞑清当成中国正常朝代后，鞑清这么烂，中国人觉得自己人种不行，外国人就是人种好，各种高大上。 中国人要恢复自信，必须和鞑清做切割。鞑清防汉压制汉人限制国家发展。这个锅不该由中华汉人来背。",
+        "author": {
+          "followers_count": 993,
+          "id": "a1137181fe02e3db3126135e84051185",
+          "url": "https://api.zhihu.com/people/a1137181fe02e3db3126135e84051185",
+          "url_token": "xiong-tian-52",
+          "name": "西优修",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-95e2e8157a2c402c117b523c1eead302_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "gender": -1
+        },
+        "preview_type": "default",
+        "comment_count": 192,
+        "thumbnail": "https://picx.zhimg.com/50/v2-2b50f878a1b4130dbcddcc2ced2a43db_720w.jpg?source=b6762063",
+        "id": "1963268055393099885",
+        "question": {
+          "url": "https://api.zhihu.com/questions/652826210",
+          "author": {
+            "id": "08d9e231cc400ff5be0029dc4258aafd",
+            "headline": "未曾谋面的也终将会相遇",
+            "avatar_url": "https://picx.zhimg.com/50/v2-03ec41ebf2730b7046ee2684915dadb3_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 1,
+            "url": "https://api.zhihu.com/people/08d9e231cc400ff5be0029dc4258aafd",
+            "user_type": "people",
+            "url_token": "kun-xian-sen-56",
+            "name": "坤先森",
+            "is_following": false,
+            "is_followed": false
+          },
+          "answer_count": 0,
+          "bound_topic_ids": [
+            11895,
+            3153566
+          ],
+          "detail": "",
+          "excerpt": "",
+          "question_type": "normal",
+          "title": "这些巴基斯坦留学生到底想干什么?",
+          "created": 1713001698,
+          "is_following": false,
+          "comment_count": 39,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "652826210",
+          "type": "question",
+          "follower_count": 0
+        },
+        "allow_segment_interaction": true,
+        "voteup_count": 1981,
+        "content": "<p data-pid=\"sSCWij0w\">中国崇洋媚外，就是满清造成的。把鞑清当成中国正常朝代后，鞑清这么烂，中国人觉得自己人种不行，外国人就是人种好，各种高大上。</p><p data-pid=\"TpaEHli3\">中国人要恢复自信，必须和鞑清做切割。鞑清防汉压制汉人限制国家发展。这个锅不该由中华汉人来背。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8d841c7689757e056b86295f061872f4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"960\" data-rawheight=\"1236\" data-original-token=\"v2-8d841c7689757e056b86295f061872f4\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic1.zhimg.com/v2-8d841c7689757e056b86295f061872f4_r.jpg\"/></figure><p></p>",
+        "url": "https://api.zhihu.com/answers/1963268055393099885",
+        "thanks_count": 38,
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 55650,
+        "navigator_vote": false,
+        "type": "answer",
+        "created_time": 1760859580,
+        "updated_time": 1760859580,
+        "preview_text": "",
+        "reshipment_settings": "allowed"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1963268055393099885}",
+      "attached_info": "CtwGCKPzk8C3hPj7oAEQBBoJNzUyNTU3MTE4ILyr0scGKL0PMMABQCJKRwoiVFNfU09VUkNFX1NPQ0lBTF9BRkZJTklUWV9ORUFSTElORRIbbmVhcmxpbmVDb250ZW50VjI6NTM2NzQwMzQ0GAAgADoASkUKIFRTX1NPVVJDRV9TT0NJQUxfRk9MTE9XX05FQVJMSU5FEhtuZWFybGluZUNvbnRlbnRWMjo1MzY3NDAzNDQYACAAOgBaCTEwNzM1MDE4NWIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5NjMyNjgwNTUzOTMwOTk4ODWKAQk2NTI4MjYyMTCqAQlyZWNvbW1lbmTCASBhMTEzNzE4MWZlMDJlM2RiMzEyNjEzNWU4NDA1MTE4NfIBCggMEgZOb3JtYWzyASgIChIkNzNiYTlhMmQtYjg1Mi00NWMzLTllNDQtMzRlMTNhNjFmZTI58gEFCAsSATaCAgCIAoGiqJu5M5ICIGExMTM3MTgxZmUwMmUzZGIzMTI2MTM1ZTg0MDUxMTg1mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAiJUU19TT1VSQ0VfU09DSUFMX0FGRklOSVRZX05FQVJMSU5F6AIC+gILTk9STUFMX0ZMT1eKAyA0YTY3OWIzOWVlOGE0MzNhOWZhYzgyY2FkY2I1MjQ3MpoDDQoCdjIQABoFb3RoZXKoA+KyA9gDAOoDFmFmZmluaXR5TmVhckxpbmVSZWNhbGz6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxDABxjUCSIjdjItOGQ4NDFjNzY4OTc1N2UwNTZiODYyOTVmMDYxODcyZjSABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTU5yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAANZaiP4EFAAAAAAAAAACJBY973sqm568/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiKoBgGSAi4KCTc1MjU1NzExOBITMTk2MzI2ODA1NTM5MzA5OTg4NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "35_1767704760.174",
+      "type": "feed",
+      "offset": 35,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704760,
+      "updated_time": 1767704760,
+      "target": {
+        "thanks_count": 0,
+        "is_copyable": true,
+        "favorite_count": 3,
+        "type": "answer",
+        "content": "<h2><b>1、蜡梅不是梅</b></h2><p data-pid=\"RURwDPez\">蜡梅和梅都是相继在寒冬腊月或早春时节开花，而且花形、花香相近似，所以常被人们误认为是同种。</p><p data-pid=\"Ef-E2ILQ\">蜡梅并非梅类，两者亲缘甚远。</p><p data-pid=\"JxDvKe0t\">蜡梅为蜡梅科蜡梅属植物，而梅花则是蔷薇科李属植物。</p><p data-pid=\"LQWyofRf\">蜡梅为灌木，枝丛生，高2-4米；</p><p data-pid=\"FR1YDzrP\">而梅花则为小乔木，有主干，高4-10米。</p><p data-pid=\"EbTLaO5h\">蜡梅花都是以黄色为主，但梅花有白、粉、深红、紫红等多种颜色，但绝无黄色。</p><p data-pid=\"Hv_ntEsG\">蜡梅花期一般要比梅花早，江南地区蜡梅花期一般在11月至翌年2月，梅花花期一般在2月至3月。</p><p data-pid=\"21r3mglq\">总之，蜡梅不是梅，蜡梅和梅除都叫梅之外，没有任何关系。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7fac2933f5467391996eed3f02b59396_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"1706\" data-size=\"normal\" data-original-token=\"v2-59fba27ba868bdbffe8fd1d0a88d7f8c\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-7fac2933f5467391996eed3f02b59396_r.jpg\"/></figure><p data-pid=\"488t5Uy6\">上图是梅花</p><p data-pid=\"rwA7KKnr\">下图是蜡梅</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-83b6f8778eab64e0396e39952e949fc4_1440w.jpg\" data-rawwidth=\"3072\" data-rawheight=\"4096\" data-size=\"normal\" data-original-token=\"v2-24ac941f8fc24a328f98956386c0dadf\" class=\"origin_image zh-lightbox-thumb\" width=\"3072\" data-original=\"https://pic3.zhimg.com/v2-83b6f8778eab64e0396e39952e949fc4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>2、蜡梅的三大品种</h2><p data-pid=\"Jhd-ihgm\">通过区分花色将蜡梅分为两大类：素心和荤心两种。</p><p data-pid=\"nt2VDAdm\">素心是指花瓣和花心都是黄色的。</p><p data-pid=\"WOQSKnSO\">荤心是指外轮花瓣是黄色，花心却是紫色的。</p><p data-pid=\"MBCTFphU\">腊梅的品种大体上有五种，如素心梅、虎蹄梅、磬口梅、金钟梅和狗牙梅，其实我们常见的可能也就以下三类，我们把这三类辨识清楚就差不多了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3OlDGifk\">01素心蜡梅：最经典也最好认</p><p data-pid=\"uZhCYdz1\">素心蜡梅的花瓣是纯净的金黄色，没有一丝杂色，格外素雅，这也是它名字的由来。花瓣呈椭圆形，香气清新，从12月能开到次年2月，不管是庭院种植还是剪枝插瓶，都是首选。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Dy5KRIxO\">02磬（qing）口蜡梅：花型最大气</p><p data-pid=\"hKmc6VuC\">磬口蜡梅的“磬”字是古代的一种乐器，形状像大口的碗，它的花朵就像磬一样，花口张开得很大，显得格外大气。</p><p data-pid=\"XoS4Neo-\">它的花瓣颜色比素心稍深，是深金黄色，花心部分呈紫色或紫红色，所以也叫檀香梅。</p><p data-pid=\"vFSmZJ_Y\">香气比素心更醇厚浓烈，距离很远就能闻到，深受人们喜爱，它和素心梅都是腊梅中比较名贵的品种。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uJsydpCg\">03狗牙蜡梅：最“接地气”</p><p data-pid=\"SGQ506UX\">狗牙蜡梅是蜡梅里的原始品种，也叫“狗蝇梅”。</p><p data-pid=\"gl3ThWwR\">其花瓣细长狭窄，像狗的牙齿。</p><p data-pid=\"Z7PO6S9R\">外层花瓣颜色偏浅，淡黄色或黄绿色，里层花瓣常带有紫色条纹或斑点。香气清淡，因为生命力顽强，常被用作砧木。</p><p data-pid=\"kPSuoofP\">除了上面三种经典品种，还有几种蜡梅也很受欢迎。比如“小花蜡梅”，花朵小巧玲珑；“虎蹄蜡梅”，花瓣边缘呈圆弧形，像老虎的蹄子，花型独特；“早黄蜡梅”，是开花最早的品种，11月就能绽放。</p><p data-pid=\"Wn0-gXb6\">其实所谓蜡梅品种，也只是大体归类，比如狗蝇花小瓣尖味淡，素心没有紫色，磬口开口微收，至于虎蹄蜡梅的边界就更加模糊了，只能说“像老虎的蹄子”，怎么个像法，大家自己去悟吧。</p><h2><b>蜡梅姓“蜡”不姓“腊”</b></h2><p data-pid=\"35HNyirx\">究竟应该是“蜡梅”还是“腊梅”，上千年来争执不断。</p><p data-pid=\"M6Bunv1D\">理论上讲，“蜡”说的是花瓣质感，“腊”指的是开花时间，都对。</p><p data-pid=\"EQnkRJdU\">而且历代诗词典籍，二者都有用到。</p><p data-pid=\"ZTjtV939\">不过，现在植物学上用的是“蜡”梅。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7dc6d876532220da04e6c5f403f5fe92_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1439\" data-size=\"normal\" data-original-token=\"v2-dbe28be677183857598354729749faa9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-7dc6d876532220da04e6c5f403f5fe92_r.jpg\"/></figure><p data-pid=\"wC5IokoY\">上面蜡梅品种，你能分辨出来吗？</p>",
+        "navigator_vote": false,
+        "excerpt_new": "1、蜡梅不是梅蜡梅和梅都是相继在寒冬腊月或早春时节开花，而且花形、花香相近似，所以常被人们误认为是同种。 蜡梅并非梅类，两者亲缘甚远。 蜡梅为蜡梅科蜡梅属植物，而梅花则是蔷薇科李属植物。 蜡梅为灌木，枝丛生，高2-4米； 而梅花则为小乔木，有主干，高4-10米。 蜡梅花都是以黄色为主，但梅花有白、粉、深红、紫红等多种颜色，但绝无黄色。 蜡梅花期一般要比梅花早，江南地区蜡梅花期一般在11月至翌年2月，梅花花期一般…",
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "created_time": 1767420298,
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-59fba27ba868bdbffe8fd1d0a88d7f8c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-24ac941f8fc24a328f98956386c0dadf_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-dbe28be677183857598354729749faa9_720w.jpg?source=b6762063"
+        ],
+        "comment_count": 3,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "voteup_count": 15,
+        "updated_time": 1767420298,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-59fba27ba868bdbffe8fd1d0a88d7f8c_720w.jpg?source=b6762063",
+        "preview_text": "",
+        "is_navigator": false,
+        "id": "1990785701290190494",
+        "allow_segment_interaction": true,
+        "visited_count": 68,
+        "author": {
+          "headline": "以撷趣之心， 拾生活之光。",
+          "is_following": false,
+          "id": "f4c87097e56e8634cf5d0e71bd486664",
+          "url": "https://api.zhihu.com/people/f4c87097e56e8634cf5d0e71bd486664",
+          "user_type": "people",
+          "url_token": "myvsh5",
+          "followers_count": 1649,
+          "is_followed": false,
+          "name": "撷趣拾光",
+          "avatar_url": "https://picx.zhimg.com/50/v2-4f1c12ae36485599bb0a3dec18c16d18_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0
+        },
+        "question": {
+          "answer_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "title": "在寒冷冬日，蜡梅处处盛开，它与梅花常被混淆，从植物学角度看，两者有何区别与联系？",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            12217,
+            22518,
+            68139,
+            210538,
+            3223935
+          ],
+          "is_following": false,
+          "question_type": "normal",
+          "id": "1990430592416887845",
+          "url": "https://api.zhihu.com/questions/1990430592416887845",
+          "author": {
+            "url_token": "jx-0521",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-ada3862a21509f450a74a03d08913938_l.jpg?source=b6762063",
+            "gender": 0,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/69ddbcf8acab3fb5aef27b6ec6a0e040",
+            "user_type": "people",
+            "is_org": false,
+            "followers_count": 47,
+            "is_followed": false,
+            "id": "69ddbcf8acab3fb5aef27b6ec6a0e040",
+            "name": "JX-0521"
+          },
+          "created": 1767335633,
+          "comment_count": 0,
+          "detail": ""
+        },
+        "excerpt": "1、蜡梅不是梅蜡梅和梅都是相继在寒冬腊月或早春时节开花，而且花形、花香相近似，所以常被人们误认为是同种。 蜡梅并非梅类，两者亲缘甚远。 蜡梅为蜡梅科蜡梅属植物，而梅花则是蔷薇科李属植物。 蜡梅为灌木，枝丛生，高2-4米； 而梅花则为小乔木，有主干，高4-10米。 蜡梅花都是以黄色为主，但梅花有白、粉、深红、紫红等多种颜色，但绝无黄色。 蜡梅花期一般要比梅花早，江南地区蜡梅花期一般在11月至翌年2月，梅花花期一般…",
+        "url": "https://api.zhihu.com/answers/1990785701290190494"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990785701290190494}",
+      "attached_info": "CrIHCKPzk8C3hPj7oAEQBBoJNzYzNzk0MTUzIIrj4soGKA8wA0AjSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoJMTE3OTI5MTM1YiA2NTIwZjVmMjhjNWY3NjNmMTk0ZDg2ZjEyMzQ5Zjg4M3ITMTk5MDc4NTcwMTI5MDE5MDQ5NIoBEzE5OTA0MzA1OTI0MTY4ODc4NDWqAQlyZWNvbW1lbmTCASBmNGM4NzA5N2U1NmU4NjM0Y2Y1ZDBlNzFiZDQ4NjY2NPIBCggMEgZOb3JtYWzyASgIChIkZjEwOTNkYTYtMDU5NS00OGU0LTllNTAtYjhmMjdiMDBjMjEx8gEFCAsSATaCAgCIAoGiqJu5M5ICIGY0Yzg3MDk3ZTU2ZTg2MzRjZjVkMGU3MWJkNDg2NjY0mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyA0YTY3OWIzOWVlOGE0MzNhOWZhYzgyY2FkY2I1MjQ3MpoDDQoCdjIQABoFb3RoZXKoA0TYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEIAKGKoNIiN2Mi01OWZiYTI3YmE4NjhiZGJmZmU4ZmQxZDBhODhkN2Y4YzotCAMQgBgYgCAiI3YyLTI0YWM5NDFmOGZjMjRhMzI4Zjk4OTU2Mzg2YzBkYWRmOi0IAxC4CBifCyIjdjItZGJlMjhiZTY3NzE4Mzg1NzU5ODM1NDcyOTc0OWZhYTmABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOBHNYU/gQUAAAAAAAAAAIkFj3veyqbnrz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFBpAGAKAGI6gGAJICLgoJNzYzNzk0MTUzEhMxOTkwNzg1NzAxMjkwMTkwNDk0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=35&desktop=true&end_offset=35&page_number=7&session_token=6520f5f28c5f763f194d86f12349f883",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=35&desktop=true&end_offset=35&page_number=7&session_token=6520f5f28c5f763f194d86f12349f883",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

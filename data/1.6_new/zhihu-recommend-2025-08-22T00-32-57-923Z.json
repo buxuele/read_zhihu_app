@@ -1,0 +1,614 @@
+{
+  "data": [
+    {
+      "id": "AD_3539435_17558228240380",
+      "type": "feed_advert",
+      "brief": "{\"source\":\"PR\",\"type\":\"feed_advert\",\"id\":3539435}",
+      "action_text": "",
+      "attached_info": "CqoBCIi5ioLSpJTfigFAkASQAQHaASQ3MzljMWRhNi04OGZhLTQ0NTMtYTdjMi1kZTI2MjNmNGFmYzHyAQYIDBICQWSIAua0yPmMM/oCC0FEVkVSVF9GTE9XigMgNWZlOGJmZmIzYWZhNDQ2OWJhNjlkODYyZTAzZWRiZWGABAGSBAtCdXNpbmVzc19BZPkEAAAAAAAA8D+BBQAAAAAAwGZAsgUBMaAGlASoBgEyFC04NDQ5MjI2NjMxMDAzNTk1NjQw",
+      "ad": {
+        "count": 0,
+        "position": 0,
+        "ad_verb": "PROMOTE_URL_CARD",
+        "close_track": "https://sugar.zhihu.com/plutus_adreaper?nt=0&s=11f9fb82-64b2-451c-bdfc-fda94d408f53&t=7&pdi=1720689004062518&pf=4&idi=100010062&ut=075acd00a0774b9d9d2a3786e8226e3a&ar=0.0018213987350463867&di=tower&ed=CjEEfR4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY7pUBf3Q_o-5",
+        "revert_close_track": "https://sugar.zhihu.com/plutus_adreaper?ar=0.0018213987350463867&s=11f9fb82-64b2-451c-bdfc-fda94d408f53&ed=CjEEch4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY3UaTYTkLvTu&pdi=1720689004062518&di=tower&idi=100010062&pf=4&nt=0&t=8&ut=075acd00a0774b9d9d2a3786e8226e3a",
+        "template": "web_image_feed",
+        "load_tracks": [
+          "https://sugar.zhihu.com/plutus_adreaper?ar=0.0018213987350463867&t=2&ed=CjEEeB4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY7B88E9YYo3P&ut=075acd00a0774b9d9d2a3786e8226e3a&di=tower&idi=100010062&pdi=1720689004062518&s=11f9fb82-64b2-451c-bdfc-fda94d408f53&pf=4&nt=0"
+        ],
+        "creatives": [
+          {
+            "landing_url": "https://click.aliyun.com/m/1000399752/?spu=biz%3D0%26ci%3D3464224%26si%3D739c1da6-88fa-4453-a7c2-de2623f4afc1%26ts%3D1755822823%26zid%3D7",
+            "image": "https://pic1.zhimg.com/v2-01a8d7f57bd34f8408be9d12c3718fc8_bh.jpg?source=d6434cab",
+            "image_2x": "",
+            "title": "阿里云上云优选的「薅羊毛」指南速收",
+            "description": "阿里云「上云优选」精准拿捏需求！云服务器 38 元 / 年起，轻松搭建个人项目；AI 大模型限时免费领千万 tokens，开发、创作都能用。高性价比上云 + AI 资源一步到位，点击即刻解锁省钱又高效的用云新姿势～",
+            "button": "查看详情",
+            "action_button": false,
+            "footer": {
+              "value": ""
+            },
+            "cta": {
+              "value": "查看详情"
+            },
+            "brand": {
+              "id": 0,
+              "name": "阿里云",
+              "logo": "https://pic4.zhimg.com/v2-1c5da37aa83c6231c6cd1540923243da_xl.jpg?source=d6434cab"
+            },
+            "app_promotion_url": "",
+            "native_url": "",
+            "deep_url": "",
+            "video_watch_num": 9832,
+            "za_ad_info": "COuD2AEQByIBMV12T9FOYKC40wE=",
+            "za_ad_info_json": "{\"ad_id\":3539435,\"ad_zone_id\":7,\"category\":\"1\",\"timestamp\":1755822800,\"creative_id\":3464224}",
+            "external_click_url": "",
+            "impression_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?idi=100010062&nt=0&ed=CjEEeR4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYYz4cZHRsfB5E&rui=739c1da6-88fa-4453-a7c2-de2623f4afc1&di=tower&ut=075acd00a0774b9d9d2a3786e8226e3a&pf=4&pdi=1720689004062518&ar=0.0018213987350463867&t=3&s=11f9fb82-64b2-451c-bdfc-fda94d408f53"
+            ],
+            "click_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?ut=075acd00a0774b9d9d2a3786e8226e3a&pf=4&s=11f9fb82-64b2-451c-bdfc-fda94d408f53&ed=CjEEfh4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY8gVRAOjTAGI&di=tower&nt=0&t=4&ar=0.0018213987350463867&idi=100010062&pdi=1720689004062518"
+            ],
+            "id": 3539435,
+            "name": "",
+            "conversion_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?idi=100010062&ut=075acd00a0774b9d9d2a3786e8226e3a&t=5&ar=0.0018213987350463867&pdi=1720689004062518&pf=4&nt=0&s=11f9fb82-64b2-451c-bdfc-fda94d408f53&ed=CjEEfx4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY39hgEiPWGrL&di=tower"
+            ],
+            "content_type": "",
+            "target_token": ""
+          }
+        ],
+        "vote_up_count": 0,
+        "comment_count": 0,
+        "is_following": false,
+        "category": 1,
+        "id": 3539435,
+        "can_interact": false,
+        "user_id": 0,
+        "ctr": 0,
+        "display_advertising_tag": true,
+        "debug_tracks": [
+          "https://sugar.zhihu.com/plutus_adreaper?ut=075acd00a0774b9d9d2a3786e8226e3a&t=9&idi=100010062&pdi=1720689004062518&pf=4&s=11f9fb82-64b2-451c-bdfc-fda94d408f53&ed=CjEEcx4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY9Nacyphs3vm&di=tower&nt=0&ar=0.0018213987350463867"
+        ],
+        "land_prefetch": false,
+        "native_prefetch": true,
+        "is_new_webview": true,
+        "experiment_info": "{}",
+        "download_silent": false,
+        "is_speeding": false,
+        "brand": {
+          "name": "阿里云",
+          "logo": "https://pic4.zhimg.com/v2-1c5da37aa83c6231c6cd1540923243da_xl.jpg?source=d6434cab",
+          "type": "brand",
+          "action_text": ""
+        }
+      },
+      "ad_list": [],
+      "adjson": "{\"ads\":[{\"id\":3539435,\"ad_zone_id\":7,\"template\":\"web_image_feed\",\"style\":\"psi_7\",\"impression_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?pf=4\\u0026idi=100010062\\u0026s=3bee0783-3b59-4837-a04e-cfcaabd8d499\\u0026di=tower\\u0026ar=0.0018213987350463867\\u0026t=2\\u0026ed=CjEEeB4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY7B88E9YYo3P\\u0026nt=0\\u0026pdi=1720689004062518\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\"],\"view_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?idi=100010062\\u0026t=3\\u0026pdi=1720689004062518\\u0026ar=0.0018213987350463867\\u0026nt=0\\u0026di=tower\\u0026pf=4\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026s=3bee0783-3b59-4837-a04e-cfcaabd8d499\\u0026rui=739c1da6-88fa-4453-a7c2-de2623f4afc1\\u0026ed=CjEEeR4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYYz4cZHRsfB5E\"],\"click_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?t=4\\u0026ar=0.0018213987350463867\\u0026idi=100010062\\u0026nt=0\\u0026pf=4\\u0026ed=CjEEfh4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY8gVRAOjTAGI\\u0026di=tower\\u0026s=3bee0783-3b59-4837-a04e-cfcaabd8d499\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026pdi=1720689004062518\"],\"close_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?ed=CjEEfR4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY7pUBf3Q_o-5\\u0026pdi=1720689004062518\\u0026nt=0\\u0026pf=4\\u0026idi=100010062\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026di=tower\\u0026ar=0.0018213987350463867\\u0026s=3bee0783-3b59-4837-a04e-cfcaabd8d499\\u0026t=7\"],\"debug_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?nt=0\\u0026ar=0.0018213987350463867\\u0026t=9\\u0026ed=CjEEcx4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY9Nacyphs3vm\\u0026pdi=1720689004062518\\u0026di=tower\\u0026pf=4\\u0026idi=100010062\\u0026s=3bee0783-3b59-4837-a04e-cfcaabd8d499\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\"],\"conversion_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?pdi=1720689004062518\\u0026ar=0.0018213987350463867\\u0026nt=0\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026pf=4\\u0026idi=100010062\\u0026t=5\\u0026s=3bee0783-3b59-4837-a04e-cfcaabd8d499\\u0026di=tower\\u0026ed=CjEEfx4wM319EWZQBjF1A0YkAH4Nbm4hehR_XwlkLx0JcghzDic8d31DMV4XMTYNXGNYI1x-aXV9HGZUBHY8WVZ3DH4Pe2xwaEY7WgJkegRZdw1sWzdncGhGPVoIY2IEXXYJfg9wa3B9E2FUB3YuQFZ0CXoeLy99exdqUABjdQVNMFB3CndqeXQdM1ZUanpTXnYDLw5zanoqFDFSCzR4U1FyDX0BeW13LBZ0E0JtfQdecAF4Cntoc2hEJVoBdi9YVnUfK01-bHR7E2ZXFyAtWVZ1Hz5LLGdxaEYiWgF2I1MYeAlsVyA9fX4DNAZCbXwWDSRLdwhlNyM8GGJBRCUlVFZ0DHMIc2h3fRVrVwZgfwdZY1gjW35qZjpQbw9FJDxDTnZ4bwoFf3IIRj4OUjtiUQcsQD9WbTkvIwBgIVx1fnZadQl6C3pjd3sXd1V3djxeVqyh9dHE1qT0tHQVVG19CFlrCHkBe21zexVmUQJoegdNN1o4BXN8IigYY39hgEiPWGrL\"],\"extra_conversion_tracks\":{\"call_back\":[\"https://sugar.zhihu.com/plutus_adreaper_callback?si=34477a93-a945-4a41-884c-b7196df73fc9\\u0026os=3\\u0026zid=7\\u0026zaid=3539435\\u0026zcid=3464224\\u0026cid=3464224\\u0026event=__EVENTTYPE__\\u0026value=__EVENTVALUE__\\u0026ts=__TIMESTAMP__\\u0026cts=__TS__\\u0026mh=0d4c67703d44506b579057ff6733c754\\u0026adv=645640\\u0026ocg=0\\u0026cp=0\\u0026ocs=0\\u0026aic=0\\u0026ct=0\"]},\"za_ad_info\":\"COuD2AEQByIBMV12T9FOYKC40wE=\",\"za_ad_info_json\":\"{\\\"ad_id\\\":3539435,\\\"ad_zone_id\\\":7,\\\"category\\\":\\\"1\\\",\\\"timestamp\\\":1755822800,\\\"creative_id\\\":3464224}\",\"creatives\":[{\"id\":3464224,\"asset\":{\"brand_name\":\"阿里云\",\"brand_logo\":\"https://pic4.zhimg.com/v2-1c5da37aa83c6231c6cd1540923243da_xl.jpg?source=d6434cab\",\"title\":\"阿里云上云优选的「薅羊毛」指南速收\",\"desc\":\"阿里云「上云优选」精准拿捏需求！云服务器 38 元 / 年起，轻松搭建个人项目；AI 大模型限时免费领千万 tokens，开发、创作都能用。高性价比上云 + AI 资源一步到位，点击即刻解锁省钱又高效的用云新姿势～\",\"imgs\":[\"https://pic1.zhimg.com/v2-01a8d7f57bd34f8408be9d12c3718fc8_bh.jpg?source=d6434cab\"],\"landing_url\":\"https://click.aliyun.com/m/1000399752/?spu=biz%3D0%26ci%3D3464224%26si%3D739c1da6-88fa-4453-a7c2-de2623f4afc1%26ts%3D1755822823%26zid%3D7\",\"img_size\":1,\"cta\":\"查看详情\",\"image_ratio_extra\":{\"width\":25,\"height\":14},\"native_asset\":{\"plugin_type\":\"\"},\"img_full_screen\":false,\"zm_landing_url\":\"https://click.aliyun.com/m/1000399752/?spu=biz%3D0%26ci%3D3464224%26si%3D739c1da6-88fa-4453-a7c2-de2623f4afc1%26ts%3D1755822823%26zid%3D7\",\"m_landing_url\":\"\"},\"video_watch_num\":9832,\"fact_ctr\":0.0018213987350463867,\"fact_cvr\":-1}],\"expand\":{\"display_advertising_tag\":true,\"download_silent\":false,\"is_new_webview\":true,\"is_cdn_speeding\":false,\"extra\":{\"parameters\":\"plugcb=https%3A%2F%2Fsugar.zhihu.com%2Fplutus_adreaper_callback%3Fcid%3D3464224%26ccid%3D2547860%26adid%3D3539435%26zoneid%3D7%26adsource%3Deffect%26sid%3D739c1da6-88fa-4453-a7c2-de2623f4afc1\",\"sign\":\"34477a93-a945-4a41-884c-b7196df73fc9\"},\"is_apk_market_direct\":false,\"interactive\":{\"deliver_time\":\"25 分钟前\",\"browse_string\":\"1000 \",\"participate_string\":\"2 \",\"slide_time_one\":3,\"slide_time_two\":10,\"slide_end\":true,\"deep_link_jump_time\":3},\"launch_timeout\":600},\"experiment_info\":\"{}\",\"view_x_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?nt=0\\u0026s=3bee0783-3b59-4837-a04e-cfcaabd8d499\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026pdi=1720689004062518\\u0026ar=0.0018213987350463867\\u0026ed=CjEEewhlKSlzFmZTBmctCVhoWHMMdnd0LxFjSgloeFNGJw57AXU-JnkWNAQIdi1KVnIfK1EnZ3N7FmtTAmVqQAJ4C38MdGJ2fgMxDgxjeAZfdwt-HiAufX4DMQgMaX8eX3MKegx0aXF-FmRUAmZqUht4CHoIZTY1cxBgXwZhfwleY0wjBXFucHcfagYANXYGCHAKcF11anB0QWMEBGooBAh_Dn4PemB3eUdhQUUjcQFccAxyCnFicn0DMxAMYGpTA3gJbFk2Z3Z6EGRTAXY8UQJ4CWxMMDV9fwMxFwxgal8INgR6Hiw5J3MVdAFQI3EATSNYOAVzfC0tV29XFyU5WQ94CH8Bc2pyeRZiXgFnfANcdx8rUSBncGhRJ1pZJDhAGGAKCx1xHGV8YzELWDMnHgopUDNNLXQjIUh3VXc9aQItdAl6CHBjeXkQYEIDFmpABXjQ0oeq3cyqn8NBQzVxAVN3F3sLemJ3fRBiUwdjdAZcY0spSn5qZixDb1b2Q-YPmwqpCg%3D%3D\\u0026idi=100010062\\u0026t=10\\u0026di=tower\\u0026pf=4\"],\"mobile_experiment\":{\"feed_card_exp\":\"\"},\"traffic_source\":1,\"party_id\":-2,\"deliver_tracks\":[\"http://proxy-ad-track-plutus.pek01.rack.zhihu.com:10000/ad-track/plutus_log?di=tower\\u0026ar=0.0018213987350463867\\u0026pf=4\\u0026rui=739c1da6-88fa-4453-a7c2-de2623f4afc1\\u0026ed=CjEEewplKSlzFmZTBmctCVhoWHMMdnd0LxFjSgloeFNGJw57AXU-JnkWNAQIdi1KVnIfK1EnZ3N7FmtTAmVqQAJ4C38MdGJ2fgMxDgxjeAZfdwt-HiAufX4DMQgMaX8eX3MKegx0aXF-FmRUAmZqUht4CHoIZTY1cxBgXwZhfwleY0wjBXFucHcfagYANXYGCHAKcF11anB0QWMEBGooBAh_Dn4PemB3eUdhQUUjcQFccAxyCnFicn0DMxAMYGpTA3gJbFk2Z3Z6EGRTAXY8UQJ4CWxMMDV9fwMxFwxgal8INgR6Hiw5J3MVdAFQI3EATSNYOAVzfC0tV29XFyU5WQ94CH8Bc2pyeRZiXgFnfANcdx8rUSBncGhRJ1pZJDhAGGAKCx1xHGV8YzELWDMnHgopUDNNLXQjIUh3VXc9aQItdAl6CHBjeXkQYEIDFmpABXjQ0oeq3cyqn8NBQzVxAVN3F3sLemJ3fRBiUwdjdAZcY0spSn5qZixDb1ZQgL9HDr_y-A%3D%3D\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026pty=50\\u0026bn=0\\u0026s=3bee0783-3b59-4837-a04e-cfcaabd8d499\\u0026t=12\\u0026idi=100010062\\u0026pdi=1720689004062518\\u0026ri=739c1da6-88fa-4453-a7c2-de2623f4afc1\\u0026nt=0\"],\"product_uuid\":1590027309070372}]}",
+      "pcontent": "",
+      "ncontent": "https://www.zhihu.com/question/619411087/answer/1939993971280553119",
+      "ext_info": {
+        "content_type": "",
+        "content_id": "",
+        "question_id": -1,
+        "auction_type": 1,
+        "ecpm": 182,
+        "type": 1,
+        "fact_bid_price": 100,
+        "fact_ctr": 0.0018213987350463867,
+        "fact_cvr": -1,
+        "deliver_tracks": [
+          "http://proxy-ad-track-plutus.pek01.rack.zhihu.com:10000/ad-track/plutus_log?t=11&ft=2&di=tower&ar=0.0018213987350463867&pf=4&pdi=1720689004062518&ed=CjEEewllKSlzFmZTBmctCVhoWHMMdnd0LxFjSgloeFNGJw57AXU-JnkWNAQIdi1KVnIfK1EnZ3N7FmtTAmVqQAJ4C38MdGJ2fgMxDgxjeAZfdwt-HiAufX4DMQgMaX8eX3MKegx0aXF-FmRUAmZqUht4CHoIZTY1cxBgXwZhfwleY0wjBXFucHcfagYANXYGCHAKcF11anB0QWMEBGooBAh_Dn4PemB3eUdhQUUjcQFccAxyCnFicn0DMxAMYGpTA3gJbFk2Z3Z6EGRTAXY8UQJ4CWxMMDV9fwMxFwxgal8INgR6Hiw5J3MVdAFQI3EATSNYOAVzfC0tV29XFyU5WQ94CH8Bc2pyeRZiXgFnfANcdx8rUSBncGhRJ1pZJDhAGGAKCx1xHGV8YzELWDMnHgopUDNNLXQjIUh3VXc9aQItdAl6CHBjeXkQYEIDFmpABXjQ0oeq3cyqn8NBQzVxAVN3F3sLemJ3fRBiUwdjdAZcY0spSn5qZixDb1b7vHo3A24qHQ%3D%3D&s=3bee0783-3b59-4837-a04e-cfcaabd8d499&idi=100010062&ut=075acd00a0774b9d9d2a3786e8226e3a&nt=0"
+        ],
+        "zfeature_content_info": null,
+        "author_id": 0,
+        "parent_id": 0,
+        "title": null,
+        "content_embedding": null,
+        "media_type": null,
+        "party_id": "EFFECT",
+        "creative_id": 3464224
+      }
+    },
+    {
+      "id": "528_1755822824.418",
+      "type": "feed",
+      "offset": 528,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822824,
+      "updated_time": 1755822824,
+      "target": {
+        "id": "1939993971280553119",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939993971280553119",
+        "author": {
+          "id": "79916c677298bf79069242142859d659",
+          "url": "https://api.zhihu.com/people/79916c677298bf79069242142859d659",
+          "user_type": "people",
+          "url_token": "69-97-95-29-25",
+          "name": "晶体管笑匠",
+          "headline": "B站/YouTube优质内容分享",
+          "avatar_url": "https://pica.zhimg.com/50/v2-8ba4010090f7390852ab4a27834058ac_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 28,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755310606,
+        "updated_time": 1755310606,
+        "voteup_count": 2,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "619411087",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/619411087",
+          "author": {
+            "id": "445a15fbd806ec58047a29fe70715009",
+            "url": "https://api.zhihu.com/people/445a15fbd806ec58047a29fe70715009",
+            "user_type": "people",
+            "url_token": "nuo-xiao-yan-66",
+            "name": "诺筱言",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-c357577e334cbae140c4c0277c99f569_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 24,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "到底哪个软件适合做个人知识库呀？",
+          "created": 1693137084,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            505,
+            949,
+            206502,
+            2788295
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-249a9c0046603850b33bf2dde5f35916_720w.jpg?source=b6762063",
+        "excerpt": "可以使用 DeepSeek-R1 与 AnythingLLM 搭建本地知识库   今天我将为大家介绍如何利用 DeepSeek-R1 搭建本地知识库。传统上，我们通常通过文本搜索来查询本地笔记内容，但这种方法不仅精确度较低，而且缺乏跨文档知识的整合能力。借助 DeepSeek-R1，我们可以使用自然语言随时从笔记中检索信息。它不仅能够提供答案，还能标注对应的来源文档。此外，众所周知， 大语言模型 有时会产生虚构内容。在本教程中，我将指导大家如何解决这一…",
+        "excerpt_new": "可以使用 DeepSeek-R1 与 AnythingLLM 搭建本地知识库   今天我将为大家介绍如何利用 DeepSeek-R1 搭建本地知识库。传统上，我们通常通过文本搜索来查询本地笔记内容，但这种方法不仅精确度较低，而且缺乏跨文档知识的整合能力。借助 DeepSeek-R1，我们可以使用自然语言随时从笔记中检索信息。它不仅能够提供答案，还能标注对应的来源文档。此外，众所周知， 大语言模型 有时会产生虚构内容。在本教程中，我将指导大家如何解决这一…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<h2>可以使用 DeepSeek-R1 与 AnythingLLM 搭建本地知识库</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c3a9468c2c5e8e69450e0ae45cea1197_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-249a9c0046603850b33bf2dde5f35916\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-b3e1f6cc6d99b3cb9a7d6675e9859893_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://pic2.zhimg.com/v2-c3a9468c2c5e8e69450e0ae45cea1197_r.jpg\"/></figure><p data-pid=\"3nSKMQYJ\">今天我将为大家介绍如何利用 <b>DeepSeek-R1</b> 搭建本地知识库。</p><p data-pid=\"CGmZrxoq\">传统上，我们通常通过文本搜索来查询本地笔记内容，但这种方法不仅精确度较低，而且缺乏跨文档知识的整合能力。借助 <b>DeepSeek-R1</b>，我们可以使用自然语言随时从笔记中检索信息。它不仅能够提供答案，还能标注对应的来源文档。</p><p data-pid=\"xOmlP6kJ\">此外，众所周知，<b>大语言模型</b> 有时会产生虚构内容。在本教程中，我将指导大家如何解决这一问题。当笔记中不存在相关信息时，大模型会如实告知用户。</p><p data-pid=\"I79WPnIX\">特别值得一提的是，所有内容（包括 <b>DeepSeek-R1</b>、笔记和知识库）都存储在本地，无需联网即可使用，彻底摆脱了网络限制。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d873f492a2545d57c08fa06ec0705993_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-6cccfc33f8aacd91ff7268952f41e1d2\" data-default-watermark-src=\"https://pica.zhimg.com/v2-6ae498d2afcbb7986da825598a7afb10_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://picx.zhimg.com/v2-d873f492a2545d57c08fa06ec0705993_r.jpg\"/></figure><p data-pid=\"FA5QRtS4\">搭建过程分为以下几步：</p><ol><li data-pid=\"bgKesC9T\">安装<b>Ollama</b>。这是一个AI模型运行容器，必须使用它才能运行DeepSeek-R1。<br/></li><li data-pid=\"QFYN5SFm\">使用Ollama下载DeepSeek-R1模型。<br/></li><li data-pid=\"4sJeOVxw\">安装并使用<b>AnythingLLM</b>。这是一款知识库管理软件，相比其他类似软件（如DeFi、MaxKB、RegFlow等），它在知识管理效果和操作便捷性之间取得了良好平衡。其安装和操作都很简单，知识管理效果出色，并提供了可配置的聊天模式，能有效解决大模型随意度转的问题，非常适合本地知识库需求。<br/>在浏览器中输入 <b><a href=\"https://link.zhihu.com/?target=http%3A//ollama.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">ollama.com</span><span class=\"invisible\"></span></a></b>，进入Ollama官方网站。进入网站后，点击下方的 <b>Download</b> 按钮，选择对应的操作系统。以Mac为例，其他用户可根据自身系统选择。Ollama的使用方法在各系统上基本一致。<br/>选定系统后，点击下载。下载完成后解压并安装。安装过程因系统而异，但大致相同。安装过程中可能会提示配置命令行环境等选项，按默认设置继续即可。<br/>安装完成后启动Ollama。虽然不会有界面显示，但程序已在后台运行。此时可在浏览器地址栏输入 <b>localhost:11434</b> 并回车访问。<br/>如果界面上显示 <b>Ollama</b> 正在运行，则表明一切正常。接下来，我们再次访问 Ollama 官方网站 <a href=\"https://link.zhihu.com/?target=http%3A//ollama.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">ollama.com</span><span class=\"invisible\"></span></a>，点击页面上方的 <b>“Models”</b> 选项，选择当前排名第一的 <b>DeepSeek-R1</b> 模型。<br/>该模型提供了多种参数规模可供选择，<b>参数量越大效果越好</b>，但对显卡配置的要求也越高。通常来说，<b>7B 参数规模</b>在效果与硬件需求之间能取得较好的平衡，对于知识管理任务已基本够用。因此，这里我们选择 7B 版本。<br/>点击右侧的复制按钮后，打开终端粘贴命令并等待下载完成。</li></ol><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a3ebacbcb310c7ded912d320f13c204c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-eaa8aba663ffc7309c87819148c2913e\" data-default-watermark-src=\"https://picx.zhimg.com/v2-764ca8ae6e6b476af9e9da9f824b29cd_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://pic1.zhimg.com/v2-a3ebacbcb310c7ded912d320f13c204c_r.jpg\"/></figure><p data-pid=\"5VYEIIvx\"><br/>我之前下载过该模型，因此已有缓存，下载过程较快。通常情况下，下载<b>7B大小</b>的模型（约4.7GB）需要等待一段时间。<br/>下载完成后，即可在命令行中使用<b>Ollama</b>进行交互。输入问题后，模型会给出相应回答。若您能正常进行问答交互，则说明运行成功。按<b>Ctrl-C</b>可退出当前对话。<br/>在浏览器中输入 <b><a href=\"https://link.zhihu.com/?target=http%3A//anythingllm.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">anythingllm.com</span><span class=\"invisible\"></span></a></b>，访问 AnythingLLM 官方网站。点击下方的 <b>Download for Desktop</b>，选择对应的操作系统，即可开始下载。下载完成后进行安装。<br/>Windows和macOS的安装方式略有不同，但与常规软件安装流程相似。安装完成后，启动应用程序即可。<br/>点击“Get Started”，首先需要选择<b>LLM</b>。搜索“Ollama”，确认下方模型与之前下载的一致，此处为“DeepSeek-R1 7B”。随后点击两次“下一步”，跳过问卷调查（Scape Survey），输入任意工作区名称，即可进入AnythingLLM主界面，表示启动成功。<br/>AnythingLLM界面左侧为工作区，其中“default”是初始定义的工作区名称；右侧为对话区。可尝试提问，例如询问虚构手机“Quantum X1 Pro”的重量。由于未上传任何文档，多数大模型会生成虚假答案。为避免此问题，可点击工作区左侧的设置按钮，进入“<b>聊天配置</b>”。此处提供两种模式：</p><ol><li data-pid=\"CsJEuQS1\"><b>聊天模式</b>：依赖大模型自身知识生成答案，即使错误也会强行回答。<br/></li><li data-pid=\"FY98fKnj\"><b>查询模式</b>：未找到相关文档时会如实提示“无相关信息”。</li></ol><p data-pid=\"KyJ8MBNC\">将模式切换为查询模式后点击“Update Workspace”更新，再次提问相同问题，系统会返回英文提示“无相关信息”。如需切换为中文，后续将介绍语言配置方法。</p><p data-pid=\"Prat6_3l\">作为<b>知识管理工具</b>，需上传文档。点击工作区右侧的上传按钮，此处准备了两份虚构手机规格文件（含Quantum X1 Pro重量数据），将其拖入AnythingLLM即可。</p><p data-pid=\"5Y2WfQ8x\">全选后点击“<b>Move to Workspace</b>”，文档将出现在下方的工作区区域。接着点击“<b>Save and Embed</b>”进行保存。首次保存可能需要几分钟时间，由于我之前已保存过，因此很快完成。</p><p data-pid=\"91NDMjxu\">返回后重新提问，<b>DeepSeek-R1</b>从上传的文档中识别出手机重量信息，并准确回复为192克。点击“<b>Show Citations</b>”可查看DeepSeek参考的文档列表，选择其中的“QuantumX1 Pro手机规格”文件即可查看具体内容。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-2028e991df0a06638d6058bef8ab4941_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-d1fb5015c14f8ce05f59fda8aec6febe\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-802e55206b0cef98f612eafc32e81291_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://picx.zhimg.com/v2-2028e991df0a06638d6058bef8ab4941_r.jpg\"/></figure><p data-pid=\"7QTpy6B7\">手机的重量为192克。上传的文件已成功生效。</p><p data-pid=\"91Lmun_t\">在AnythingLLM中可以定义多个工作区，每个工作区包含独立上传的文档和聊天模式，彼此相互隔离。</p><p data-pid=\"ODWStrWG\">例如，我们可以创建一个名为“地区介绍”的工作区，用于存放各类地区的介绍内容。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f54a33e745a865fc29468c56d9b95eea_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-6a09e69bf6d5029ef7d9aed43d0d9f29\" data-default-watermark-src=\"https://pica.zhimg.com/v2-531806a5dd9c15c1efadb12fe9cc6856_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://pica.zhimg.com/v2-f54a33e745a865fc29468c56d9b95eea_r.jpg\"/></figure><p data-pid=\"x7QxSmHW\">同样，我们将聊天模式设置为<b>查询模式</b>。询问之前的问题时，回答均为“无相关信息”。由此可见，这两个工作区的文档确实相互隔离。</p><p data-pid=\"bnAOaomL\">接下来，我们向新工作区上传一份文档，文档名称为《<b>AzureBay</b>介绍》。AzureBay是我虚构的一个区域名称。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0660701b8c986be0349eb4ef0c868380_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-dcc611069760d6a002b88636c35ce3ef\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-67a3790b2f6f0a58178ddc7801fe31d3_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://pica.zhimg.com/v2-0660701b8c986be0349eb4ef0c868380_r.jpg\"/></figure><p data-pid=\"uiR_br14\">该区域包含<b>经纬度</b>等信息，均为虚构。我们的目标是验证DeepSeek是否会严格依据文档内容进行回答。</p><p data-pid=\"Es0vCpD3\">文档上传完成后，我们提问Azure Bay的经纬度。结果显示DeepSeek准确找到了答案并提供了文档引用。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-73260499d275d1359f51ad056efd4027_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-dcda0404c216c1be417eb3e54c3f8f14\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-c2e38c91af4851f862bd4970af8a31f4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://picx.zhimg.com/v2-73260499d275d1359f51ad056efd4027_r.jpg\"/></figure><p data-pid=\"Um3Da0pT\">DeepSeek的回答是正确的。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-870bdb5fbc20b16fcb62c62b0b95a023_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-713bfc7160e79f7ae3bf3a8d378baf12\" data-default-watermark-src=\"https://pica.zhimg.com/v2-f7e70b9b1be1566f582cebd77c875f94_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://picx.zhimg.com/v2-870bdb5fbc20b16fcb62c62b0b95a023_r.jpg\"/></figure><p data-pid=\"S1W0RsX8\">当提出的问题在所有文档中均无对应内容时，<b>AnythingLLM</b>会如实告知无法找到相关信息。</p><p data-pid=\"AucaMfEW\">若需将系统回复语言调整为中文，可按以下步骤操作：<br/>1. 首先点击<b>工作区配置</b>按钮，进入聊天配置界面。<br/>2. 将“拒绝响应内容”修改为中文。</p><p data-pid=\"oD7TMBzK\">需要注意的是，界面上方的“聊天提示”同样为英文显示。<b>该提示语用于存在对应文档的情况</b>——AnythingLLM会将用户问题、相关文档内容及聊天提示一并发送给<b>DeepSeek模型</b>，引导其基于文档生成回答。</p><p data-pid=\"thfCXltP\">若聊天提示保持英文状态，DeepSeek可能仍会输出英文回复。因此建议将聊天提示也修改为中文。</p><p data-pid=\"5Hp2L-Ss\">完成所有设置后，点击底部的“<b>更新工作区</b>”按钮，返回问答界面再次测试无文档对应的问题，即可获得中文响应。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f5a8b2cbe1d9430460498f51120099c1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-6000f5ef384a7b2c37179a215513e7ab\" data-default-watermark-src=\"https://picx.zhimg.com/v2-d37db013488255e18fdcd43f530bc7a7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://pic2.zhimg.com/v2-f5a8b2cbe1d9430460498f51120099c1_r.jpg\"/></figure><p data-pid=\"7uKbiyIS\">顺便提一下，我之前也介绍过<b>Google的NotebookLM</b>，相关视频可以在我的频道中找到。它与AnythingLLM类似，同样用于处理知识和笔记。</p><p data-pid=\"W9Ik6Rsb\">NotebookLM在<b>文档解析的准确率</b>和总结效果上优于本地知识库。不过，其最大缺点是数据存储在云端而非本地。感兴趣的朋友可以进一步了解。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-73fe08cb242efcfe3e5dc5a72ee9fc56_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1114\" data-rawheight=\"720\" data-original-token=\"v2-0cdc95466552ceae9255756d5a48f28c\" data-default-watermark-src=\"https://picx.zhimg.com/v2-12fa5f7e0212167e374a348cc240a7f3_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1114\" data-original=\"https://pic3.zhimg.com/v2-73fe08cb242efcfe3e5dc5a72ee9fc56_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 131,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-249a9c0046603850b33bf2dde5f35916_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-6cccfc33f8aacd91ff7268952f41e1d2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-eaa8aba663ffc7309c87819148c2913e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d1fb5015c14f8ce05f59fda8aec6febe_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6a09e69bf6d5029ef7d9aed43d0d9f29_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-dcc611069760d6a002b88636c35ce3ef_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-dcda0404c216c1be417eb3e54c3f8f14_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-713bfc7160e79f7ae3bf3a8d378baf12_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6000f5ef384a7b2c37179a215513e7ab_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0cdc95466552ceae9255756d5a48f28c_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 14,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939993971280553119}",
+      "attached_info": "CqcJCIi5ioLSpJTfigEQBBoJNzQyNDQ1MTkzII7U/8QGKAIwAECQBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9Wgg5OTkyNzAwOWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5Mzk5OTM5NzEyODA1NTMxMTmKAQk2MTk0MTEwODeqAQlyZWNvbW1lbmTCASA3OTkxNmM2NzcyOThiZjc5MDY5MjQyMTQyODU5ZDY1OfIBCggMEgZOb3JtYWzyASgIChIkMTgwNGNhNjktNTljOC00OWFkLTk4YTQtNGNiZDUzOTExN2Rk8gEGCAsSAjg5ggIAiALmtMj5jDOSAiA3OTkxNmM2NzcyOThiZjc5MDY5MjQyMTQyODU5ZDY1OZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgL6AgtOT1JNQUxfRkxPV4oDIDVmZThiZmZiM2FmYTQ0NjliYTY5ZDg2MmUwM2VkYmVhmgMNCgJ2MhAAGgVvdGhlcqgDgwHYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A/UDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ2ggY0AUiI3YyLTI0OWE5YzAwNDY2MDM4NTBiMzNiZjJkZGU1ZjM1OTE2Oi0IAhDaCBjQBSIjdjItNmNjY2ZjMzNmOGFhY2Q5MWZmNzI2ODk1MmY0MWUxZDI6LQgCENoIGNAFIiN2Mi1lYWE4YWJhNjYzZmZjNzMwOWM4NzgxOTE0OGMyOTEzZTotCAIQ2ggY0AUiI3YyLWQxZmI1MDE1YzE0ZjhjZTA1ZjU5ZmRhOGFlYzZmZWJlOi0IAhDaCBjQBSIjdjItNmEwOWU2OWJmNmQ1MDI5ZWY3ZDlhZWQ0M2QwZDlmMjk6LQgCENoIGNAFIiN2Mi1kY2M2MTEwNjk3NjBkNmEwMDJiODg2MzZjMzVjZTNlZjotCAIQ2ggY0AUiI3YyLWRjZGEwNDA0YzIxNmMxYmU0MTdlYjNlNTRjM2Y4ZjE0Oi0IAhDaCBjQBSIjdjItNzEzYmZjNzE2MGU3OWY3YWUzYmYzYThkMzc4YmFmMTI6LQgCENoIGNAFIiN2Mi02MDAwZjVlZjM4NGE3YjJjMzcxNzlhMjE1NTEzZTdhYjotCAIQ2ggY0AUiI3YyLTBjZGM5NTQ2NjU1MmNlYWU5MjU1NzU2ZDVhNDhmMjhjgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADA8umhP4EFAAAAAAAAAACJBTS4WJtrVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVmQBgCgBpUEqAYDkgIuCgk3NDI0NDUxOTMSEzE5Mzk5OTM5NzEyODA1NTMxMTkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "529_1755822824.3",
+      "type": "feed",
+      "offset": 529,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822824,
+      "updated_time": 1755822824,
+      "target": {
+        "id": "1938324623356835813",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1938324623356835813",
+        "author": {
+          "id": "138b68518ef08d7effdb2023a5d86944",
+          "url": "https://api.zhihu.com/people/138b68518ef08d7effdb2023a5d86944",
+          "user_type": "people",
+          "url_token": "linxueli",
+          "name": "子林",
+          "headline": "心理咨询，情感分析，AI应用",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-566ee141ffcf7fd0babd0a9b7424acd4_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "南京理工大学 兵器发射理论与技术硕士"
+            }
+          ],
+          "followers_count": 10812,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754912602,
+        "updated_time": 1754912602,
+        "voteup_count": 28,
+        "thanks_count": 3,
+        "comment_count": 7,
+        "is_copyable": false,
+        "question": {
+          "id": "611053050",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/611053050",
+          "author": {
+            "id": "4c0e17bd13d1feacee2c87a9c79c8111",
+            "url": "https://api.zhihu.com/people/4c0e17bd13d1feacee2c87a9c79c8111",
+            "user_type": "people",
+            "url_token": "qian-shang-mu-xi",
+            "name": "林瑜",
+            "headline": "自由情感导师，公众号“自由情感YA”，欢迎来玩",
+            "avatar_url": "https://picx.zhimg.com/50/v2-c81d5144810d32022e0f70ef26471f1e_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 3066,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "神经系统为什么要自指一个“我”出来指导肉体活动？",
+          "created": 1688807304,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 18,
+          "bound_topic_ids": [
+            404,
+            23174,
+            23429,
+            28375,
+            97181
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-da3f94f176d5efd8ccb87e59943a6d08_720w.jpg?source=b6762063",
+        "excerpt": "这个“我”存在的目的，并不是为了让你运转得更高效，而是为了让你在复杂环境中活得更久。 效率只是局部的指标，而演化追求的是唯一的全局目标——存活概率最大化。 所以，题主把效率当成核心标准，其实是用短视的局部最优，去忽略了长远的全局最优。1. “我”是一个生存模拟器如果神经系统不构建一个自我模型，那么所有的行为都只能是即时反应（刺激—反应），就像单细胞生物或者反射弧。 可问题是，人类面临的是延迟回报、复杂…",
+        "excerpt_new": "这个“我”存在的目的，并不是为了让你运转得更高效，而是为了让你在复杂环境中活得更久。 效率只是局部的指标，而演化追求的是唯一的全局目标——存活概率最大化。 所以，题主把效率当成核心标准，其实是用短视的局部最优，去忽略了长远的全局最优。1. “我”是一个生存模拟器如果神经系统不构建一个自我模型，那么所有的行为都只能是即时反应（刺激—反应），就像单细胞生物或者反射弧。 可问题是，人类面临的是延迟回报、复杂…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<blockquote data-pid=\"OoX_CYHi\"><b>这个“我”存在的目的，并不是为了让你运转得更高效，而是为了让你在复杂环境中活得更久。</b><br/><br/><b>效率只是局部的指标，而演化追求的是唯一的全局目标——存活概率最大化。</b><br/><br/><b>所以，题主把效率当成核心标准，其实是用短视的局部最优，去忽略了长远的全局最优。</b></blockquote><hr/><h2><b>1. “我”是一个生存模拟器</b></h2><p data-pid=\"TQjKqv99\">如果神经系统不构建一个自我模型，那么所有的行为都只能是即时反应（刺激—反应），就像单细胞生物或者反射弧。</p><p data-pid=\"k2DRf0NY\">可问题是，人类面临的是延迟回报、复杂博弈、多层次因果链的环境。</p><p data-pid=\"CID0CKej\">“我”=一个可预测未来的虚拟代理人，它能在脑中提前模拟“如果我这样做，会发生什么”，<b>这比直接去做再死掉要划算得多。</b></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f1614b5af5937422dbf58116e6c9cfb7_1440w.jpg\" data-rawwidth=\"1024\" data-rawheight=\"1024\" data-size=\"normal\" data-original-token=\"v2-da3f94f176d5efd8ccb87e59943a6d08\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-f18517a736d0bd0e2505ac0f33671f8f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic4.zhimg.com/v2-f1614b5af5937422dbf58116e6c9cfb7_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><hr/><h2>2. “我”是多任务整合中心</h2><p data-pid=\"sXa14pNi\">你的身体有成千上万的本能与冲动：饥饿、性欲、社交、逃生、探索……</p><p data-pid=\"jMVOSFUa\">这些东西之间是冲突的。</p><p data-pid=\"MwTgngfL\">“我”是一个整合算法，把它们协调成一个统一的行动策略，否则你可能会一边进食一边逃跑一边交配——然后死得很快。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e3b797039d0bb5c75d60d95681729c25_1440w.jpg\" data-rawwidth=\"1024\" data-rawheight=\"1024\" data-size=\"normal\" data-original-token=\"v2-8000779553c2ef7af031e182f26e4a6b\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-17fa294623a9bcb1bb2a891585e0ebe8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic4.zhimg.com/v2-e3b797039d0bb5c75d60d95681729c25_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><hr/><h2>3. 自我带来的“低效”，是换取了长期高效</h2><p data-pid=\"I_HfKPVM\">你说“我”会产生冲突、焦虑甚至自杀，这是对的，但这些副作用是演化允许的成本。</p><p data-pid=\"KDsQQGet\">因为绝大多数情况下，“我”带来的预测能力、社交能力、长期规划能力，会让你活得更久、基因传得更远。</p><hr/><h2>4. 为什么不是“宇宙最高意志”直接控制？</h2><p data-pid=\"zdZaWeug\">因为演化并不是某个外部“最高意志”在写代码，而是一场盲目的试错优化。</p><p data-pid=\"VvoQaQDg\"><b>如果硬要说有最高意志，那它的名字叫——自然选择。</b></p><p data-pid=\"d8eWrnIJ\">自我模型是试错中涌现出来的一个副产品——它不是最优设计，而是够用的设计。</p><p data-pid=\"rJzF_1h0\">生物进化从来不是追求理论上100%的效率，而是在资源有限、信息不完整、环境不断变化的情况下活下来。</p><hr/><h2>所以，可以这么认为：</h2><p data-pid=\"Bw53H0XU\"> “我”不是为了让你像机器一样最高效地运转，而是为了让你在不可预测的世界里活得更久——哪怕这意味着带着一堆心理Bug运行。</p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><hr/><h2>ps：说一点自己的看法仅供参考</h2><p data-pid=\"ALKVd1vF\">高赞答案反而把一个可以用演化逻辑直说的事，套上了感官错觉实验和自由能原理的外壳。理论没错，但路径冗长、环节脆弱，违背了奥卡姆剃刀——能用最简单假设解释清楚，就不该加这些多余的刀口。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1db52a21b2968e6ca3a7bdcc53208347_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"1024\" data-size=\"normal\" data-original-token=\"v2-424b77dd276d6e2e505667fbf29363bc\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-7c813ac925b740c14159de295c6f3774_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic2.zhimg.com/v2-1db52a21b2968e6ca3a7bdcc53208347_r.jpg\"/></figure><h2>可剃掉的刀口</h2><p data-pid=\"ZxSPAct4\">1. 橡胶手实验</p><p data-pid=\"IgQIB49J\">只能说明短期感官错觉，并不能证明“自我边界可塑”，对解释“为什么要有我”无直接贡献。</p><p data-pid=\"uyyMq84b\">2. 自由能原理（FEP）</p><p data-pid=\"5JQpvWmE\">虽然是正经学术理论，但在这里并非必需，可以用更简单的“预测—降低风险提升存活率”逻辑替代。</p><p data-pid=\"OqYm6svj\">3. 概率模型细节</p><p data-pid=\"WD-ZTckQ\">贝叶斯推断、生成模型这些数学细节，对于这个问题是过度技术化描述，增加了理解负担却不增加说服力。</p><p data-pid=\"I8rOju9x\">4. “我与非我”可塑性论证</p><p data-pid=\"hdtl7uJE\">这是橡胶手实验的延伸推论，本身争议很大，还容易误导读者以为“自我”是完全流动、随意重塑的。</p><p data-pid=\"3VfTUkmu\">实际上，“我”不仅包含身体归属感，还包含价值观、记忆连续性、意志等深层结构，这些核心部分并不会因为几分钟的感官错觉就被改写</p><h2>替代方案</h2><p data-pid=\"mBM1ykRv\">一句话直接解释：</p><p data-pid=\"RI0LTOZL\"><b> 自我模型是演化出的预测与整合机制，用来在复杂环境中提高长期存活概率，这就够了。</b></p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1428,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-da3f94f176d5efd8ccb87e59943a6d08_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8000779553c2ef7af031e182f26e4a6b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-424b77dd276d6e2e505667fbf29363bc_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 78,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1938324623356835813}",
+      "attached_info": "CsYGCIi5ioLSpJTfigEQBBoJNzQxNjg0NzkwINqu58QGKBwwB0CRBEoqCh9UU19TT1VSQ0VfVEhFTUVfTExNX0dSQVBIX01FUkdFEgEwGAAgADoAWgg5ODA3MDM3NGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MzgzMjQ2MjMzNTY4MzU4MTOKAQk2MTEwNTMwNTCqAQlyZWNvbW1lbmTCASAxMzhiNjg1MThlZjA4ZDdlZmZkYjIwMjNhNWQ4Njk0NPIBCggMEgZOb3JtYWzyASgIChIkZGUyMjY3YzItNDU1Zi00MmUxLWFiZjUtNzUzYWM2NWUyYThm8gEGCAsSAjg5ggIAiALmtMj5jDOSAiAxMzhiNjg1MThlZjA4ZDdlZmZkYjIwMjNhNWQ4Njk0NJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAh9UU19TT1VSQ0VfVEhFTUVfTExNX0dSQVBIX01FUkdF6AIE+gILTk9STUFMX0ZMT1eKAyA1ZmU4YmZmYjNhZmE0NDY5YmE2OWQ4NjJlMDNlZGJlYZoDDQoCdjIQABoFb3RoZXKoA5QL2AMA6gMjVGhlbWVMTE1HcmFwaE1lcmdlTmV3VjFQb29sUmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQgAgYgAgiI3YyLWRhM2Y5NGYxNzZkNWVmZDhjY2I4N2U1OTk0M2E2ZDA4Oi0IBBCACBiACCIjdjItODAwMDc3OTU1M2MyZWY3YWYwMzFlMTgyZjI2ZTRhNmI6LQgCEIAMGIAIIiN2Mi00MjRiNzdkZDI3NmQ2ZTJlNTA1NjY3ZmJmMjkzNjNiY4AEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYIWDmD+BBQAAAAAAAAAAiQU0uFiba1TZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVZkAYAoAaWBKgGAJICLgoJNzQxNjg0NzkwEhMxOTM4MzI0NjIzMzU2ODM1ODEzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "530_1755822824.367",
+      "type": "feed",
+      "offset": 530,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822824,
+      "updated_time": 1755822824,
+      "target": {
+        "id": "1938546827768083946",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1938546827768083946",
+        "author": {
+          "id": "2ba0cf0a447986dc0c1c82c4a3ae3147",
+          "url": "https://api.zhihu.com/people/2ba0cf0a447986dc0c1c82c4a3ae3147",
+          "user_type": "people",
+          "url_token": "luo-ke-rou-53",
+          "name": "洛克肉",
+          "headline": "投资",
+          "avatar_url": "https://picx.zhimg.com/50/v2-8522d0927c4e178b8e11c395bdbcc4f6_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 105,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754965580,
+        "updated_time": 1754966811,
+        "voteup_count": 16,
+        "thanks_count": 1,
+        "comment_count": 5,
+        "is_copyable": true,
+        "question": {
+          "id": "1938145551637018595",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1938145551637018595",
+          "author": {
+            "id": "a6059d95e449c7444c3dbc06a94f81ef",
+            "url": "https://api.zhihu.com/people/a6059d95e449c7444c3dbc06a94f81ef",
+            "user_type": "people",
+            "url_token": "cb7idy",
+            "name": "求知",
+            "headline": "抬头关注时事，埋头苦干实事！",
+            "avatar_url": "https://picx.zhimg.com/50/v2-5d3816c4322ac70db49fdcdad0375541_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 283,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "一个好的商业模式最核心、最本质的是什么？",
+          "created": 1754869908,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            1047
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "先说结论：一个好的商业模式最核心、最本质的是拥有定价权。也就是说，在你涨价的时候用户还是会选择你。这里要说明的是，大部分涨价，通常是发生在通货膨胀的情况下，这时候能把通货膨胀后的成本转嫁给消费者而不是自行吸收，是衡量商业模式好坏重要指标。 回答完这个问题，这时候可能有人要问了，什么行业会出现好的商业模式?要说好的商业模式，咱们得先说说什么是不好的商业模式，通常不好的商业模式比较容易出现价格战的地方…",
+        "excerpt_new": "先说结论：一个好的商业模式最核心、最本质的是拥有定价权。也就是说，在你涨价的时候用户还是会选择你。这里要说明的是，大部分涨价，通常是发生在通货膨胀的情况下，这时候能把通货膨胀后的成本转嫁给消费者而不是自行吸收，是衡量商业模式好坏重要指标。 回答完这个问题，这时候可能有人要问了，什么行业会出现好的商业模式?要说好的商业模式，咱们得先说说什么是不好的商业模式，通常不好的商业模式比较容易出现价格战的地方…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"wcdOqsUf\"><b><i>先说结论：一个好的商业模式最核心、最本质的是拥有定价权。</i></b>也就是说，在你涨价的时候用户还是会选择你。这里要说明的是，大部分涨价，通常是发生在通货膨胀的情况下，这时候能把通货膨胀后的成本转嫁给消费者而不是自行吸收，是衡量商业模式好坏重要指标。</p><p data-pid=\"v5N5JkT1\"><b><i>回答完这个问题，这时候可能有人要问了，什么行业会出现好的商业模式?</i></b>要说好的商业模式，咱们得先说说什么是不好的商业模式，通常不好的商业模式比较容易出现价格战的地方。比如现在的外卖补贴，再比如典型的航空公司。航空公司由于原油等大宗商品的涨价和同行的价格竞争很容易出现亏损。<b><i>细心的知友可能发现了，通常不好的商业模式往往出现在功能向的产品和服务，差异化不显著，</i></b>比如奶茶，扫地机器人，投影仪，电脑配件，甚至是安卓手机和汽车。而在满足功能化需求后能够满足用户情绪价值的产品往往是体现差异化的重点特征。这里指的情绪价值的前提是大多数购买的消费者都是为了除功能外的情绪价值买单，极端粉丝不在此列，因为极端粉丝无法影响整个销售大盘。当然别人满足不了的功能和体验也是差异化的一方面，但可能会被追赶。所以好的商业模式往往出现在能提供独特体验的如感官向的可口可乐，茅台。情感向的迪士尼，泡泡玛特。</p><p data-pid=\"PpsW_T2F\"><i><b>最后说一下大家在了解商业模式上比较容易出现的误区</b>，</i>经常有人在讨论某某行业的商业模式很好，其实这是一个非常大的误区，比如茅台的商业模式并不代表白酒的商业模式好，泡泡玛特的商业模式好同样不代表盲盒或潮玩的商业模式好，同理苹果的商业模式好也不代表手机的商业模式好。还有一种情况就是互联网企业做到某个品类的头部，比如知乎吧，貌似问答类APP品类第一，但是还是不赚钱，本质上互联网企业不管在什么品类上都是流量竞争，爱学习的搞不过爱看短视频的。所以抖音的流量大，可能大家要问了，为什么快手的流量不如抖音，这就回到前面的茅台和白酒的问题了。最后了解了好的商业模式的本质，怎么样才能创立一个好的商业模式也许才是大家应该思考的方向吧？</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 576,
+        "favorite_count": 39,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1938546827768083946}",
+      "attached_info": "CsMFCIi5ioLSpJTfigEQBBoJNzQxNzYzNzQyIMzM6sQGKBAwBUCSBEoqCh9UU19TT1VSQ0VfVEhFTUVfTExNX0dSQVBIX01FUkdFEgEwGAAgADoAWgkxMTYxNjA1NTdiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTM4NTQ2ODI3NzY4MDgzOTQ2igETMTkzODE0NTU1MTYzNzAxODU5NaoBCXJlY29tbWVuZMIBIDJiYTBjZjBhNDQ3OTg2ZGMwYzFjODJjNGEzYWUzMTQ38gEKCAwSBk5vcm1hbPIBKAgKEiRjNmRiZjkzNC0xY2YzLTRiODAtYmI4Mi0xZDUyYmQ1YjQwYTTyAQYICxICODmCAgCIAua0yPmMM5ICIDJiYTBjZjBhNDQ3OTg2ZGMwYzFjODJjNGEzYWUzMTQ3mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCH1RTX1NPVVJDRV9USEVNRV9MTE1fR1JBUEhfTUVSR0XoAgP6AgtOT1JNQUxfRkxPV4oDIDVmZThiZmZiM2FmYTQ0NjliYTY5ZDg2MmUwM2VkYmVhmgMNCgJ2MhAAGgVvdGhlcqgDwATYAwDqAyNUaGVtZUxMTUdyYXBoTWVyZ2VOZXdWMVBvb2xSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMBFlpo/gQUAAAAAAAAAAIkFNLhYm2tU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFWZAGAKAGlwSoBgCSAi4KCTc0MTc2Mzc0MhITMTkzODU0NjgyNzc2ODA4Mzk0NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "531_1755822824.518",
+      "type": "feed",
+      "offset": 531,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822824,
+      "updated_time": 1755822824,
+      "target": {
+        "id": "1938859452804596212",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1938859452804596212",
+        "author": {
+          "id": "0654aa7cd7b16bc927a0b8c8b0418fa8",
+          "url": "https://api.zhihu.com/people/0654aa7cd7b16bc927a0b8c8b0418fa8",
+          "user_type": "people",
+          "url_token": "79-75-95-32-97",
+          "name": "循此苦旅",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-d83c8911713347751626298fc72ffa89_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 7,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "今日好书分享《陶庵梦忆》",
+        "comment_permission": "all",
+        "created": 1755040119,
+        "updated": 1755040119,
+        "voteup_count": 4,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "你好吗？我是李蕾。我们今天要讲的书，叫作《陶庵梦忆》。这本书名气很大，但是要理解它，我们需要先了解一点时代背景。我们先来讲一段故事。 如果把时间的指针拨回到公元1629年，发生了什么呢？这一年崇祯皇帝朱由检十八岁，这位少年天子雄心勃勃，想要重振大明。 这一年最让朱由检高兴的事，是他做了父亲。周皇后生下了尊贵的皇长子朱慈烺。这个小孩子非常漂亮，有很富贵的面貌。朱由检非常开心，后来就正式册封这个孩子为皇太…",
+        "excerpt_new": "你好吗？我是李蕾。我们今天要讲的书，叫作《陶庵梦忆》。这本书名气很大，但是要理解它，我们需要先了解一点时代背景。我们先来讲一段故事。 如果把时间的指针拨回到公元1629年，发生了什么呢？这一年崇祯皇帝朱由检十八岁，这位少年天子雄心勃勃，想要重振大明。 这一年最让朱由检高兴的事，是他做了父亲。周皇后生下了尊贵的皇长子朱慈烺。这个小孩子非常漂亮，有很富贵的面貌。朱由检非常开心，后来就正式册封这个孩子为皇太…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"YN_7YpDi\">你好吗？我是李蕾。我们今天要讲的书，叫作《陶庵梦忆》。这本书名气很大，但是要理解它，我们需要先了解一点时代背景。我们先来讲一段故事。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"i6y0PIWp\">如果把时间的指针拨回到公元1629年，发生了什么呢？这一年崇祯皇帝朱由检十八岁，这位少年天子雄心勃勃，想要重振大明。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"208-ctAb\">这一年最让朱由检高兴的事，是他做了父亲。周皇后生下了尊贵的皇长子朱慈烺。这个小孩子非常漂亮，有很富贵的面貌。朱由检非常开心，后来就正式册封这个孩子为皇太子。但是大明帝国已经没有机会再传位给这个孩子了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UcbWNNpG\">崇祯十七年，李自成攻破北京城，朱由检自杀。李自成抓到了皇太子，但没有杀掉这个孩子。后来李自成败退，离开北京，这位皇太子在乱军之中竟然失踪了，下落不明。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"WBbBQJKk\">还是在1629年，朱由检逐步就把工作重点从内政转向最为棘手的辽东问题。皇帝把最大的希望寄托给了袁崇焕。这一年的十月，在完成秋收之后，皇太极聚集了十万大军，绕道蒙古进军北京。双方在北京城下展开了一场殊死决战。这一年是农历己巳年，所以这一战被称为己巳之变。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8ItG535S\">在北京城下双方都退无可退。明军的主力分为两块，一块由满桂率领，在德胜门外；一路由袁崇焕率领，在广渠门外。皇太极也兵分两路，分别攻击满桂和袁崇焕。这一战（广渠门之战）从早到晚，没有什么谋略，也谈不上心机，就是血流成河，刺刀相见。最后明军惨胜。袁崇焕身中数箭像刺猬一样，幸亏他穿了重甲，那个箭并没有射透他。胜利之后的袁崇焕坐在一个箩筐里面，城里面的人用绳子把他吊起来，拉进了北京城。崇祯皇帝召见了袁崇焕，然后把他下狱。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"H6qQbqFC\">己巳之变是明清之间极为惨烈的一战。结果就是明朝守住了北京，但是损失惨重，元气大伤。失去了满桂和赵率教等将领，特别能打的这一批人都在这一战中丧失了性命。皇太极从此以后就打开了“新大门”，每过两三年就派军进入明朝的腹地进行大规模的抢掠。而明朝事实上已经失去了抵抗力，只能眼睁睁地看着后金军队为所欲为，每一次都是满载而归。所以即便没有后来的李自成，明朝也已经离灭亡不远了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Flbt8910\">听到这儿我们就会发现，公元1629年是非常重要的一年，叫作山河变色。时代的巨轮将从很多人身上轰隆隆地碾过。这一年的农历八月十六，江南月色皎洁，江景绝美。一艘游船朝着镇江金山寺驶来。对，就是法海的那个寺庙。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"w6lpdEB3\">寺里的僧人正在沉睡，结果突然被一阵喧天的锣鼓声吵醒。然后迷迷糊糊地起来一看，就看到一群青面獠牙的“鬼怪”在寺内的大殿里面打鼓、掌灯、舞蹈、唱戏。僧人们一时间惊得目瞪口呆。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"L7zZqHT9\">直到东方既白，这些“鬼怪”们把面具揭下来扬长而去。僧人们追着这群人跑到山下，就看到远处有一个游船，一位衣着华贵的年轻公子立在船头，朝着大家哈哈大笑。这位贵公子，就是导演了这出夜半鬼戏的人，也是《陶庵梦忆》的作者张岱。这大半夜扮鬼唱戏的即兴表演，就写在这本书里面，叫作《金山夜戏》。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Iw-aMPpS\">张岱，1597年10月5号，出生于（今）绍兴。他们家世代官宦，日子非常地好。他的高祖是嘉靖年间的进士，他的曾祖是隆庆年间的状元，他的祖父是万历年间的进士。张岱从小容貌俊美，小的时候读书三万卷，被称为神童。他在三岁那年，被诊断患有痰疾，说这个孩子活不长了。结果在两广做官的太外祖父陶大顺，替他去收了几大筐牛黄丸来续命。这些牛黄丸一直吃到张岱十六岁才吃完，那个痰疾也在这泼天宠溺下得以痊愈。所以你看，这是一个没有受过苦的人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"R-A5aL0t\">在明朝后期，朝政弊病丛生，士人阶层就纵情声色，因为政治上面的抱负实现不了了，就放弃，“躺平”。张岱父亲这一代开始，转而崇尚享乐。到了张岱这里，更是把活得有趣玩出了艺术高度。所以张岱被称为晚明第一痴相公，就这个痴情的痴。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"F96_jdvI\">我在讲《红楼梦·缘起》课程的时候，提到过张岱。有一些红学家考据，就认为张岱是贾宝玉的原型。他生于钟鸣鼎食之家，年少的时候是纨绔子弟，极爱繁华。那爱什么呢？他自己曾经总结过，十二种癖好，叫作好精舍，漂亮的房子；好美婢，美人；好娈童；好鲜衣；好美食；好骏马；好华灯；好烟火；好梨园；好鼓吹；好古董；好花鸟。你看，这些所有的爱好，都是精致和无用的。他就是过着贾宝玉式的人生。而且张岱的字叫石公，就是《石头记》。张岱的人生也就像贾宝玉一样，他是在时代的夹缝中生生地被截成了两段，前半生跟后半生落差极大。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YeKSw9uT\">前半生，张岱就过着富贵闲人的日子。在1644年，崇祯皇帝在煤山那棵歪脖子树上吊死，大明王朝完结。随后清军入关，大顺、大西、福王、鲁王、唐王、桂王，各路势力粉墨登场。这个时候没有人能够独善其身。那么张岱的命运就来了个大转弯。危亡时刻，张岱也曾经率众抗清，但是后来他就在那种各方政治势力的博弈之下，被排挤出了鲁王政权。那再以后张岱就自己披发入山，駴駴为野人，就他隐居了。那隐居干什么呢？就跟曹雪芹一样，用文字来追忆往事繁华，字字血泪。这样的人，不能够赴死，又不能够变节，在夹缝中坚守，其实是非常孤独的。然后他就把所有的执着都写成了文字。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3oTcZqfE\">此后四十多年，张岱写了很多东西，包括《夜航船》《石匮书》。就这个名字，“匮”字，是一个方框框，里面一个贵重的贵。它指的就是石头盒子。相传当年，司马迁写《史记》的时候，就把资料藏在石匮里。遭遇宫刑之后，司马迁没有自尽，而是选择隐忍来写《史记》。那么张岱用“石匮”作为书名，应该是在表达自己对于司马迁的崇敬，就虽不能至，心向往之。这也是自己作为一个知识分子的态度。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JUdgUnMg\">这个《石匮书》总共两百二十卷，上起洪武，下至天启，记录了整个明朝的政治、经济、文化等多个方面。它也是明史研究的权威资料，对张岱来说就是一个明朝遗民对于故国最深沉的怀念。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"q_5YRsUo\">我们今天讲的《陶庵梦忆》是一部散文集。陶庵是张岱的号。这本书一共有八卷，一百二十七篇，也是张岱在明朝覆亡之后的回忆录。在写这本书的时候，张岱已经五十多岁了。他在四明山里面避世隐居。张岱的寿命很长，有人说他活了八十多岁，也有人说他活了九十五岁。那无论多少岁，在那个时代都是高寿。张岱究竟是哪一年去世的，大部分人认为是1689年，但这个数字是要打个问号的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HAsZfUOl\">张岱的作品，其实被后人发现得很晚。比如《陶庵梦忆》，直到乾隆四十年，也就是公元1775年，这本书才被世人知道。那么距离这本书写成，已经是一百多年以后的事了。所以张岱写书，肯定不是图生前的名利。那么他要传下来的是什么呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UP9Gyn3N\">张岱有一位知己朋友，叫作祁彪佳。这个人就曾经评价，说别人两百字才能讲明白的事，张岱可能几十个字就能够写尽。我们都知道把事写长，其实比较容易，但是能把事情写短，写精准，是非常考验人的。所以张岱才华很高。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ibSo7c8u\">这位祁彪佳跟张岱一样，也是（今）绍兴人，也非常有才华。在明朝覆亡之后，顺治皇帝曾经广纳天下贤才，就来招揽祁彪佳，但是被这个人拒绝了。有一个晚上，祁彪佳就把张岱约出来，两个人聊了很久。他们聊英雄、聊忠臣、聊烈士，又从烈士聊到山川风月，梦幻泡影。直到酒已经喝尽，张岱沉沉地睡去，祁彪佳却披衣而起，走向水边。天亮的时候，张岱就记下了他所看见的景象，东方微露鱼肚白，微风缓缓地吹过柳堤，柳堤旁边是一个池塘，池塘边有着石头的梯子，石梯旁边似乎有一个淡淡的人影，那正是沉入水中的祁彪佳。他正襟危坐，衣冠周正，连鬓发都没有多少凌乱，脸上还带着笑容。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2vrwY-F6\">这又是属于《陶庵梦忆》里的一个瞬间。让张岱铭记的，不是好友殉国的惨痛，而是那一份从容赴死的坦荡。所以《陶庵梦忆》，忆的是什么？是瞬间。张岱有一种摄取瞬间的超常能力。当一个人久经飘零的时候，他愿意写下的，想写的，可能都不是什么惊天动地的大事，就是这一生中某些真真切切活过的时刻。这就像诗人海子的那句诗，说和所有以梦为马的诗人一样，我借此火得度一生的茫茫黑夜。那就是一个一个的小火种，是他不死的那颗心。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VkmeweFz\">所以我们今天读《陶庵梦忆》，不要只是把它当作一个明末遗民的无尽追思。正是因为有那么多在张岱笔下定格的决定性瞬间，我们才会真正理解历史赋予生命的那种层次感。我常常觉得《陶庵梦忆》是在试图回答一个问题，就是每个人和他一生中所有的瞬间究竟是什么关系。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"74QlWA1g\">大多数人对于张岱和《陶庵梦忆》的印象，来自语文课本那篇著名的《湖心亭看雪》，对吧？文笔很淡，天与云、与山、与水，上下一白。湖上影子，惟长堤一痕，湖心亭一点，与余舟一芥，舟中人两三粒而已。上学的时候，考试的时候，你不一定会喜欢它，但总有一天当你重读张岱，就像重读《红楼梦》一样，你如果读懂了它，就会在读懂它的那一刻心惊肉跳。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NdQVyEZM\">为什么这么说？比如我们都很熟悉的这篇《湖心亭看雪》，好多人说这是课本里最浪漫的一场雪。真的是这样吗？我不这么看。仔细读，这篇文章回忆的是崇祯五年十二月。这是什么时间点呢？这一年李自成已经被“裁员”了，他加入了起义的大军。大明帝国的进度条已经拉到末端了，山雨欲来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QCLuPpZD\">而张岱在明朝灭亡以后，以遗民的身份写下那年那月的西湖游记。他印象最深的是什么呢？首先是寒冷，然后是孤独。大雪三日，湖中人鸟声俱绝。这是有自己的情绪的，就和《红楼梦》最后的结局，白茫茫大地真干净，殊途同归。它是在告诉我们，一切都是在幻灭中的。世事一场大梦，人生几度秋凉。这是张岱作品中挥之不去的梦。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bJ7r1L2b\">那梦醒的时分呢？有人殉国，有人战死，有人颠沛流离，有人忍辱偷生。也有人像张岱和曹雪芹一样，选择我继续往下活。可是我要睁开眼，面对现实世界的坍塌，我要闭上眼，寻求的是精神世界的突围。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8tHEeR1N\">在张岱笔下，那场雪一连下了三天三夜，就像柳宗元描写的那种千山鸟飞绝，万径人踪灭。大雪好像要把一切都隔绝起来。但是张岱偏偏说，我要去湖心亭看雪。这是一个脑洞很大的决定，但是他偏偏又遇到了几个和他一样来看雪的人。我们见到彼此，喝酒，举杯，对酌。这一场酒喝过很快就会分别，此生没有再次邂逅的机会。但是此后的余生中，我们一定都会记得，在那样一个万籁俱寂的夜里，我们竟然遇见了跟自己有一样想法的人。我们一起赏过一场很少有人能够理解的雪。这就是生命中的一点点安慰。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ExjTITUK\">还记得《湖心亭看雪》的结尾吗？及下船，舟子喃喃曰：“莫说相公痴，更有痴似相公者。”这个船夫的嘀咕，腹诽，就很有生活感。他根本不能理解，说这一群怪人都这么怪，就是你已经很怪了，竟然还有人跟你一样，这么冷的天，干点儿啥不好，来看雪，有什么用呢？如果贾宝玉在场，他一定会跟张岱击掌大笑，甚至在雪夜的船上唱个摇滚。他们能够懂得彼此，他们都是不合时宜的人，但他们都是深情的人。这就是痴。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nC_ELrrR\">你看这个痴字，病字头里面一个知，人是知道了才生病呢，还是因为不知道才生病呢？不知道，没有答案。张岱说，人无癖不可与交，以其无深情也。人无疵不可与交，以其无真气也。什么意思呢？就是那些无人喝彩的癖好、深情，在张岱看来，那意味着一种高级趣味的回归。所以人可以无知，不可以无趣，这就是张岱的活法。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SQutaeWw\">在成为自我的这个过程中，要经历漫长的修行。不能够理解他的人，会觉得《陶庵梦忆》没什么劲儿，张岱是个怪人吧。但如果你看懂了他，你就很难再这样评价。在六十九岁的时候，张岱写过一篇《自为墓志铭》，就是自己先给自己写一个墓志铭，总结自己的生平，不让别人来说我。就在这篇墓志铭里面，他说，自己年轻的时候是纨绔子弟，爱极了世间种种繁华，就前面我们说的十二种最爱。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"N-A1OPJx\">但是在明朝覆亡之后，他就隐居在四明山中，鲜衣怒马都没有了，华灯烟火也没有了。他过着什么样的生活呢？破床碎几，折鼎病琴。就是只有几卷残书，一方残破的砚台，然后那个鼎一条腿也就没有了，那个琴可能也断了几根弦。然后张岱就感叹，说回首二十年前的日子，真的好像隔世一般。对，人已经重来了一遍了，重活了一世。可是你还带着前世的记忆，前世你在高点，可是现在你在低谷里，那还能好好活吗？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QIa3veTq\">从这一段里，我们就读出了那个属于张岱的无比悲凉沉重的身世感叹，那是对时代的一声叹息。但是接下来，张岱就洋洋洒洒地续上了一大段自嘲，说我带着前生的记忆，过眼下的贫苦日子，那我身上最重要的秘密，叫作七不可解。什么意思呢？就是我身上藏着七个不能被普通人理解的地方。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rsuSx1iv\">哪七处呢？他就扳着指头给你数，说以前的平民都想向公侯看齐，但是我本来是世家子弟，我却只能自比为乞丐，说我愿意过乞丐日子，这第一处不能理解。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gJ_AnnW7\">第二处，世上有很多发家致富的途径，但是我偏偏选择避世隐居，你不能理解吧？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TG5EGFS1\">第三处不可解就是错乱，好比一个书生非要到战场上打仗，一个将军非要来写文章，不可理解。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VrT2rzFD\">第四处，我可以陪着玉皇大帝的时候也不谄媚他，陪着乞丐的时候也不傲慢，这是不是分不清尊卑高下呢？那我这样的人是不是很怪呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7Kb1xnpz\">第五处，我软弱的时候能够任由唾面自干，你吐在我脸上，没关系，风吹过来自己就干了。可是我刚强的时候，却能单枪匹马，奔赴敌营，是不是很矛盾？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HRSLPYYy\">第六处，我争夺名利的时候，甘愿居人之下，甚至连玩游戏的时候，我都愿意让别人争先，说我不要这些，不稀罕，是不是不能理解？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zajeHsps\">第七处，我赌博下棋的时候分不出输赢，但轮到品茶的时候，倒能分辨出水的来源。那么这到底是聪明呢，还是愚蠢呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BTGjdqvC\">这就是张岱对自己的定义。至于你们对这样的张岱有什么样的评价，在他看来无所谓。众人向前向后，向左又向右，都是时代的风把我们刮来刮去。张岱选择了原地不动，他就是跟这个世道，跟所有的风口格格不入，但是他非常坦然。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KXBN4biA\">所以他发表了这一大通自嘲之后，就说世人怎么称呼我都行，叫我富贵人也可以，叫我贫贱人也可以，叫我聪明人也可以，叫我愚蠢人也可以。毕竟我这一辈子，学书不成，学剑不成，学节义不成，学文章不成，学仙、学佛、学农、学圃，俱不成。既然如此，不如叫我败子，废物，顽民，钝秀才，瞌睡汉，死老魅吧。他就是不管你们怎么说，我有我自己的活法。这个死老魅，就是死妖精的意思。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Iip3MLHj\">我和人都不大一样了。但这可不是“躺平”，在我看来这是“社牛”。当一个人内心无比地自由，他来决定自己生命的质量，生命的活法和生命的高度，那他是非常丰盈的。别人无论怎么说，我依然是我。很少有人能够做到。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"beC7_5UZ\">既然张岱甘愿百无一用，你们都说我没用，我愿意，那世上有没有他在意的东西呢？有，而且很多，就记载在这本《陶庵梦忆》里。美国历史学家史景迁写过一本研究张岱的书，叫作《前朝梦忆：张岱的浮华与苍凉》。他就写道，在张岱眼中，生活大多是光彩耀目的，审美乃是人间至真（就最重要的事就是美）。在精神的世界一如舞台生活，神明的无情操弄和人的螳臂当车之间，并无明显区别。我们所称的真实世界，只不过是人神各显本事，各尽本分的交会之处而已。我觉得他看透了张岱。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MYlvZv19\">所以《陶庵梦忆》就写尽了张岱的深情流露。这本书是一组关于记忆和瞬间的叙事诗。比如其中一篇《西湖七月半》。我们今天说七月半是中元节，就鬼节，大家都会在这一天祭奠离世的人，说你不要太晚回家，要早早地关门，就是不宜夜行。但是张岱那个时候的七月半不是这样。西湖边挤满了人，几乎把这个鬼节过成了属于活人的盛大聚会。那么张岱怎么参与这个盛事呢？他偏偏说，西湖七月半，一无可看。这儿那么多人，那么热闹，可是没什么好看的。然后他话锋一转，说止可看看七月半之人。看人最有意思。都看些什么人呢？可以分为五类。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IbwEY_dm\">书里写，第一类是非常气派的，叫作楼船箫鼓，峨冠盛筵，灯火优傒，声光相乱。这些人他们高冠华服，带着浩浩荡荡的仆从，乘着楼船。这个楼船，就是非常奢华的一种大游船，灯火通明，那个船上的装饰搭成高高的楼阁，有的甚至能达到十多层，就是非常豪华。这一来就不得了了，围着这些人的又是音乐声，又是灯光秀。所以这些人，名为看月而实不见月。张岱说你们是来看月亮的吗？其实你们根本看不见月亮，你就不把月亮放在眼里。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Iuz-MSqo\">那么第二类人也挺气派的，也是乘着楼船，只是没有第一类人那么奢华。他们带着美人，坐在船中的露台上，笑啼杂之，环坐露台，左右盼望。左顾右盼，嬉笑打闹。那么张岱说这些人是，身在月下而实不看月。他们确实已经来到了看月亮的地方，置身于月光之中了，可是他们没有心思看月亮，他们的专注力不在月亮身上。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SM4C4GqN\">第三类人，这些人就比较清雅了，他们没有乘大船，就坐着一个普通的游船，没有带那么多的仆从，就带了一些名妓和闲僧，和这些美人、僧人，浅斟低唱，弱管轻丝，竹肉相发。就是慢慢地饮酒，唱歌，然后那个歌声、琴声、笛声、箫声混在一起，就比较风雅。他们是有审美的，这些人倒是在看月亮，可张岱认为他们欲人看其看月。这个话说得非常有意思，就这些人真实的意图不是来看月亮的，而是让别人来观赏他们看月亮的。也就是说这些人是在表演看月亮，让别人来看，他们就是演员。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"K96up95v\">第四类人很好玩，这些人不乘船，不乘车，不穿长衫，也不戴头巾，酒醉饭饱，呼群三五，跻入人丛，就只等酒足饭饱，就三五成群地挤进人群，然后嘄呼嘈杂，装假醉，唱无腔曲。就高声地叫嚷，胡乱地唱歌，假装发着酒疯，简直不成腔调。张岱说这些人他们是月亦看，看月者亦看，不看月者亦看，而实无一看。就是他们一边看月亮，一边看人，又要看赏月的人，又要看不赏月的人，然后又要让别人看他们，这个既要，又要，还要，其实啥都没看见。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"to-rIgQd\">第五类人，小船轻幌，净几暖炉，茶铛旋煮，素瓷静递。就这些人只坐着小船，船上还挂着帷幔，茶几洁净，茶炉正暖，那他们是乘着船，看着月亮，在月色下面煮茶，这个茶汤煮沸之后，就把净瓷、茶盅，静静地递给旁边的人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UmYe4zCT\">那这旁边的人是谁呢？也不过是好友、家人，至交好友，两三女伴，就这样煮着茶，荡着舟，邀月同坐，或匿影树下，或逃嚣里湖。就是慢慢地赏月，有的时候，那小船隐身在树影的下面，有的时候，就划到西湖深处，避开喧闹。这就真的有点像李白所写的，青天有月来几时，我今停杯一问之。这样的人，在张岱看来，叫看月而人不见其看月之态，亦不作意看月者。他们看月亮，但是别人看不到他们看月亮的样子，他们自己也不刻意地摆出姿态让别人欣赏。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2nZXKVFH\">所以有没有发现，张岱把这五种人分得很清楚，他就揭示了这些人出来赏月，但根本不是看月，而是不同人的不同活法。把这些人区别开的就是审美。所以张岱说，杭州人平常虽然游西湖，但都是上午十点出门，傍晚六点回家，叫避月如避仇，说简直把那个月亮当仇人一样的，避之不及。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-eGA92GL\">可是到了七月半的这一天，直到二更天以前，游人绝对不会散去。就大家都觉得这天的月亮很好看吗？那个场景，人声鼓吹，如沸如撼，如魇如呓，如聋如哑。就是大家都聚在这里，人多到这个程度，游船碰着游船，船桨碰着船桨，每个人大眼瞪小眼。所以张岱就提出一个很犀利的问题，说大家热闹成这个样子，其实根本也看不到什么月亮，那到底是真心看月亮呢，还是来凑热闹呢，或者是来博一个风雅的虚名呢？你说张岱这个人还真是“张怼怼”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XvvB8jo3\">那他自己怎么做呢？我们来说说张岱怎么赏月。他一定要等到筵席都快散了，城门都要关了，人都快要回家的时候，才跟着朋友们一起出现。而且他坐着一个特别小特别小的船，就这个时候，月如镜新磨，山复整妆，湖复颒面。就是月亮像新磨的铜镜，然后因为人少了，那个人肉气也散掉了，乌泱乌泱的喧闹没有了，山峦好像就重新整理了妆容来迎接我，湖水好像重新明澈起来，就是对待着我明镜如洗。而之前和名妓、闲僧、浅斟低唱的那个第三类人，以及和好友、家人一起躲避到树影和西湖深处的第五类人也没有走，他们也会出现。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"frzliIqa\">张岱就带着自己的朋友，划着那个小船跟这两类人同坐，杯筷各安其所，丝竹清喉齐发，就是在断桥上大摆筵席，然后那些人认识不认识呢，没关系，都拉来一通豪饮，直到月色苍凉，东方将白。然后张岱和友人就把小船划到湖上。你说还不回家吗？不回。干什么呢？酣睡于十里荷花之中，香气拍人，清梦甚惬。我吃完了，喝饱了，赏了月了，然后月亮要走了，我就睡了，睡在荷花的香气之中，真是太快意了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HowQ09PY\">这有点像苏东坡在《前赤壁赋》里写的，就和朋友们一同枕在小船里睡着了，不知东方之既白。这其实是很傲娇的，就我和你们都不一样。不一样在哪里呢？是这颗心，是这颗心对于美的感受力不一样。他即便隐居深山，即便处境困窘，也依然拥有一个相对完整的自足的精神世界。而且张岱非常认真地相信它，沉浸其中，认为这活得特别美。这也特别能够看出张岱对于独立的精神世界是非常看重的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CLxnkY4g\">当然也不要被张岱吓住，觉得这个人活得这么精致，活得这么傲娇，甚至有一点点作，可能很难相处。恰恰相反，张岱的癖好一点都不高深莫测，他非常世俗化，人人都可以实践。如果他活在你的身边，你很容易就能跟他交朋友。《陶庵梦忆》里就暴露了他对美食、对戏曲、对斗鸡的偏好，他对这个世界有无限的深情。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1b1uwnnP\">张岱爱旅游，但是他和徐霞客这一类崇尚自然山水的旅行家不同，他更喜欢城市旅行（city walk），就是热衷于到杭州、苏州、扬州、南京这些名城里面打卡。每到一个地方，张岱不是去看景点，不是去探访什么典故，他先去找好吃的。对当地的美食品鉴一番之后，他还要认真地点评烹饪的技巧和体验，就是写攻略。那么你照着攻略就能去。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TSJZxxsG\">在长三角一带张岱最爱的美食是阳澄湖的大闸蟹。每一年到了深秋时节，张岱就要在家中来办一个螃蟹宴，邀请很多朋友，每个人六只大闸蟹，不存在什么蟹太凉，不能多吃，必须吃，而且大醉而归。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UEvfjjwj\">自张岱的祖父那一辈起，张家就有养伶人的传统，就像《红楼梦》里面说我们要养一个小戏班子，或者经常去外面发帖子请人家来唱戏。因为经常看演出，张岱就很懂戏，他还自己上手进行戏曲的创作。他亲自改编创作的戏曲《冰山记》，在上演的时候非常轰动，观众从戏楼前一直围到院墙外，足足有数万人之多。我对这个数字一直非常好奇，怎么会有那么多的人聚集在这里，虽然在晚明的时候已经是人口比较多，很发达了，但是一出戏引得万人轰动，那还是一个盛况。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UnW1mpXg\">张岱十八九岁的时候，他迷上了弹琴，就专门成立了一个艺术社团，叫作丝社，就自己组织了一个乐队。然后他好华灯，好烟火，有一次带着七百多人，拿着好酒、吃的、乐器、软席去爬山，然后爬到这个山顶之后，找到一块平地，大家坐在这儿，尽情地豪饮。然后喝到半夜以后，大家就开始同声高唱“澄湖万顷”，那个动静大得像闹地震，结果导致周围成千的群众也不睡了，赶来围观，说这个地方发生了什么，就相当于一个千人的户外摇滚演唱会。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_Y7dgy7L\">除此之外，张岱还加入了写诗的枫社，就枫树的枫；读史的读史社；以段子逗乐为内容的噱社，噱头的噱。你就看他爱好多么地广泛。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Gh7RrpTX\">在二十多岁的时候，张岱一度迷上了斗鸡，他就跟朋友成立了斗鸡社，还效仿唐朝的王勃，就是写《滕王阁序》的那个，写了一篇《斗鸡檄》，结果这个文章传播得更快，引来不少人带着古董和书画作为赌注来找他斗鸡。最后他的鸡很厉害，把别人都斗赢了，大家不服气，赌友们就给自己的鸡装上金属的爪子，结果装了金属爪子的“半机械鸡”还是输给了张岱的“自然鸡”，这让他特别得意，就把这个事情写下来，记在了《陶庵梦忆》里面。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"v8yOcVwM\">那你说他后来还继续斗鸡吗？不玩了。为什么戒掉了呢？张岱读到了一段野史，说唐玄宗是酉年酉月生的，由于痴迷斗鸡，最后差点导致了亡国。然后张岱就说，我也是酉年酉月生的，然后陡然之间就警醒了，说这个东西玩物丧志，最后会酿成大祸，说戒就戒，从此放弃了这个爱好。所以这个人是很有性情的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OuE9dieG\">《陶庵梦忆》中好几篇文章都在讲张岱对于喝茶的讲究和偏好，就喝茶历来是一个又能俗又能雅的事。开门七件事，琴棋书画诗酒茶，茶排在第七位。那么日常的七件事呢，叫作柴米油盐酱醋茶，那茶也排在这里。所以它可以通天，也接人间地气。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wD81xHbS\">这本书里有一篇叫作《禊泉》，这是一个泉水的名字。张岱就说，自己路过一个叫斑竹庵的寺庙，喝了一口庙里的井水，发现这水清清凉凉的，就像玉一样。然后再细看水的颜色，如秋月霜空，好美的词，以后我们也学会形容了，写作文，秋月霜空，秋月下的天空一般，又如轻岚出岫，缭松迷石，淡淡欲散。如雾如烟，淡淡袅袅，这个水非常地特别。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"evPlyJul\">然后张岱就把这个水取来煮茶，发现它稍稍有一点石腥味，石头的腥味。可是如果把这个水放置三天以后，石腥味就散尽了，再拿来煮茶，茶香非常清晰。所以张岱就在这里给禊泉点赞，然后又拉踩了一下其他泉水，说什么会稽陶溪，杭州虎跑，都没有办法跟禊泉相比，只有惠山泉水与禊泉不分伯仲。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7xUDkmrT\">这个惠山泉是在江苏的无锡，曾经被茶圣陆羽封为天下第二泉。那么在宋朝的时候，惠山泉水还成了朝廷的贡品。可是张岱不信“米其林”评分，他只相信自己的舌头。所以张岱说，惠山泉距离我的家乡绍兴，还是有一定距离的，如果要用这个水来泡茶，就需要水工挑着运输，把这个泉水运到我的家乡来，这就导致，用它来泡茶口感有点发热。所以相比之下，还是禊泉的水口感更新鲜，更胜一筹。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uaFeDuU5\">你这个舌头已经非常精细了，怎么分辨这是不是禊泉水呢？张岱说只能靠尝，轻轻地喝一口，翘起舌头一舔，如果能瞬间吞咽下去，就说明确实是禊泉。真是高级，这个舌头的“颗粒度”这么地细，然后味觉非常地丰富，这也是养出来的。所以张岱的朋友赵介臣就说，都怪你，现在我家里的水都没法喝了，你要还我一个不挑剔的嘴巴。就是看这个书看的，跟张岱在一起吃喝玩乐，就把自己养得就高不就低了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6s-PiRxS\">那么有了好水，好茶叶从哪里来呢？张岱又在《陶庵梦忆》里写了一篇《兰雪茶》。我们就发现，他有了好水，就希望能够泡好茶。可是到处的茶都不合心意，怎么办呢？张岱就苦心研究怎么制茶。他从炒制到冲泡都按照古法来操作，完全成了一个了不起的匠人。但是他始终觉得这还是不理想，没有想象中的香气四溢。后来张岱就参考安徽松萝茶的制作工艺，做出了一道兰雪茶。怎么做呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ThkPItYl\">炒茶叶的时候要加入茉莉花，在冲泡的时候呢，先把茶叶和茉莉花倒入少许沸水，让它慢慢地舒展开。舒展泡开了之后，再用滚沸的禊泉水注入，如此一来那个茶汤翻涌，简直就像兰花伴随着大雪飞泻一样，茶香四溢。这个兰雪茶一推出，立即就成了“网红”，然后人人都希望能够喝一泡兰雪茶。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZPktl5SR\">为了吃一口鲜甜的奶酪，张岱竟然自己养了一头牛。然后他又把牛奶和兰雪茶一道煮沸，这就有了属于张岱的乳酪，就差不多是今天的奶茶了。这是张岱为自己配备的零食。所以读这本书我就常常要感慨，说一个这么爱玩、会玩的人，这么热爱生活，真是一个奇才。如果放在现在，我是拼了命也要认识他的。而且放到现在，张岱这样的人，真的是活得太好了，各个领域里头的顶流。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CWsaiAdl\">在这本书里面会发现，无论是扎制花灯，还是做烟火，这个烟火怎么配比才能够格外地炫目，包括鱼虫花鸟的养育，包括那个富豪之家和文人雅士的精致讲究，书案陈设，都被张岱玩出了极致。这个人，一辈子好像活了别人的一两百世。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tjN1LR26\">有一篇文章叫作《金乳生草花》，张岱就写了一位爱极了花草，甚至有几分传奇色彩的花匠。这个花匠的名字叫金乳生，他很固执，他做花园一定要把花园修在河边，而且要修成长方形，不是方形，也不是圆形。这个长方形里头层层叠叠，修了土墙，修了花栏，而且弯了好几折。里面种上了上百株的花草，每个季节都有不一样的花。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LSbJaYfN\">春天是虞美人、山兰、素馨和决明。到了暮春，就有芍药、萱草、西番莲。夏天是牡丹、蜀葵、茉莉、杜若。秋天有菊花、秋海棠和雁来红。就连冬天也都有水仙和长春。那么墙头屋角还有丁香、蜡梅、西府海棠和茶花。看了这一段，你要是想有一个小小的花园，或者想要种一下苗圃，你就要根据这个书来安排和规划，真的是一个人间花草指南。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5PQ4Imvx\">这位花匠金乳生，他身体不算太好，体弱多病。可是他是个痴人，就张岱喜欢的那种人。他每天早上起来第一件事，不是洗脸刷牙，也不是吃饭，而是趴在墙根下面，在花根叶底捉虫子，除草，就先伺候他的花。张岱写到这里，就为这个故事添了很多传奇的色彩，说后来，青帝因为喜爱金乳生的勤劳和欣赏他的这份痴情，就特意在他的花园里生出了三株灵芝。人间没有的东西，我会给了你。这其实就是张岱所看重的，一个对人间草木用情至深的花匠，他配得上最高级别的奖励。这就是张岱最为欣赏的品质。他自己也是这么一个人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"alf0Yk6V\">书里写张岱曾经与伶人登上城隍庙的山门，只是为了看一眼山顶的皑皑白雪。说万山载雪，明月薄之，月不能光，雪皆呆白。所以我们想要让自己的文笔优美，就可以从《陶庵梦忆》里面来集这些词和句子。多美，明月薄之，雪皆呆白。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6OD_YN5u\">中秋月夜，他登上苏州的虎丘极目远眺，说登高望之，如雁落平沙，霞铺江上。在苏州的城东，他就泛舟荷花盛开的水面，耳边萦绕着小姐姐婉转的歌声，就是那种江南可采莲，莲叶何田田。那么他记得的情景是什么样的呢？大约露帏则千花竞笑，举袂则乱云出峡，挥扇则星流月映，闻歌则雷辊涛趋。真是每一句话，都是多一个字不可以，少一个字也不可以，就像最美的美人不可增减，这就是张岱的文字。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"K9h_4CoE\">然后他带着这些文字，在人世间行走，就像一个浪荡的游子，走走停停，寻幽探僻，采集人世间各色的蜜糖，在苦涩的生命中创造乐趣。你越是能感受到其中的滋味，其实在阅读过程中就越是惊心。就因为书名里那个梦字，一切被张岱所珍惜的、重视的、难忘的，不管是人，还是事，在那个故国覆灭之后，都只能追忆。哪怕后来西湖上还会下雪，哪怕后来七月半的月亮依旧年年圆满，哪怕金山寺的钟声敲打客船，但是张岱告诉你，你不再是原来那个你了，属于你的家国，属于你的记忆，都已经覆灭，一去不复返。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PmMbUz0a\">现实那么沉重，你说做梦的人会醒，醒来以后发现一切都不在了，那这一本书有什么价值呢？张岱一定想到你会这么问。所以他就讲了两个人的小故事。说有一个脚夫，他帮着别人担着一坛酒，走着走着，一不小心摔了一跤，“啪”，那个酒坛就破了。这个脚夫没有办法赔偿，他就在那儿想说，这要是个梦就好了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0MGqRSQV\">还有一个书生，参加科举考试，突然考中了，然后大家请他去赴宴，他这一路上都很恍惚，他总觉得，这不会是个梦吧，然后过于害怕，他就痴痴地咬了自己一口，唯恐这只是一个美梦，唯恐梦醒了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sReoBjHY\">所以张岱说同样都是梦，一个人唯恐那不是梦，一个人唯恐那只是梦。可是说到底，那都是一样的痴人。这就是《陶庵梦忆》的价值。回忆是梦，但感受的却是真。我们都是在别人的故事里看清了自己，这就是痴情。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kG3P1b6k\">在《陶庵梦忆》的自序里，张岱这样写，说鸡鸣枕上，夜气方回，因想余生平，繁华靡丽，过眼皆空，五十年来，总成一梦。读这一段你就会觉得，好感慨，心有戚戚，被他弄得有点伤感。可是接下来正文里他笔锋一转，又接着写，说我住的这个寺庙的后面，我暂时住在这儿，那有十几棵柿子树，上面结的那个柿子特别甜，我发明了一种把这个甜柿子能够保鲜的方法，我现在告诉你，赶紧拿个小本本记下来。太皮了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ltzfYFiw\">他追忆似水流年，但又脚踏实地地过好眼前的生活。这就是张岱的厉害之处，也是人读了很多书之后，独有的一种通透。所以我们可以看到，张岱的这些记录似乎都是碎片，浮光掠影。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6GxX7U1D\">《陶庵梦忆》分了八卷，一会儿在写亭台楼阁、名山大川，一会儿是《湖心亭看雪》那样的游记散文，然后也有《金乳生草花》这样的短篇传记，还有一些小知识点、小故事。那么它到底有没有个主题呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7a02pcR4\">我在想，它很像另外一本书，叫《东京梦华录》。那本书也是回忆体，是靖康之难之后，宋朝人记录当年北宋开封府风物和民俗的笔记体散文。《陶庵梦忆》应该是深受《东京梦华录》影响的。但《东京梦华录》的分卷逻辑非常清晰，它从开封的外城写起，建筑什么样，有什么功能，然后内城又有什么样的建筑，什么好玩的地方，跟它们相关的有什么样的掌故。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"I2u2p4yF\">那本书的作者叫孟元老，他就说，我为什么要写这本书呢？因为我担心跟别人，尤其跟后来的年轻人，谈论起当年开封府的盛况的时候，人家都不相信了，因为一切都不见了，都逝去了。所以孟元老要尽量详实，尽量逻辑清晰，减少遗漏，在纸上还原当年开封府的样子，还原那个《清明上河图》的样子。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5Op5ja23\">但是《陶庵梦忆》不是这样的。这本书的目录也好，分卷也好，是非常私人的。他想到哪儿写到哪儿，他没有一个计划和雄心。我在想，是不是到了明末，张岱已经没有办法再像宋朝的孟元老那样，预设自己有一些后人，预设自己要跟年轻人交代些什么。所以他只能记录，为了自己的记忆而记录。他就可以这么信马由缰，想到哪儿写到哪儿。他是以一己之力去抢救他的个人回忆。这也是《陶庵梦忆》的特别之处。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wS5t-oyA\">这是一份私人地图，上面印着的山河岁月，都是属于一个人的记忆。这一个人的偏爱和深情，这一个人所看重的和他所不介意的。读了这本书，拿着这份地图往前走，我们就是怀揣着它走向张岱。这是我们跟张岱的接头暗号。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jY9_JIaV\">唯一能确定的就是《陶庵梦忆》的一头一尾。开篇的文章是《钟山》，那是明朝兴起的地方。但也正是在明朝末年，张岱看到这里怪象频出，似乎预示着一个王朝的凋亡。这本书结尾的文章是琅嬛福地，这是一个完全虚构的仙境，是张岱在梦中频频造访的一个地方。后来，张岱也试图在现实中找到这样的一个福地，把它作为自己百年后的墓地，但并没有实现。所以谁能分得清楚，这是真相还是梦境呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PFWE1sdf\">作家李敬泽先生在评价张岱的时候，写了一段非常美的文字，说张岱是爱繁华、爱热闹的人，他的一生都是为了凑一场大热闹，所以每次都要挨到热闹散了，繁华尽了。他喜欢深深庭院，眼神波俏的丫鬟，繁花和少年，华丽的衣裳，骏马奔跑的姿态，神奇的灯，烟花在幽蓝的夜空中绽放等等。他也喜欢锣鼓吹打、浩大的人群。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4mh1LxZ1\">张岱好文字，是纨绔子弟的那种好，有点赖皮，不讲道理。他的文字快，喜欢用排比，快的时候直如“大珠小珠落玉盘”，目不暇接。他爱热闹，文字也热闹，眼观六路，下笔如飞，无黏滞，无间断。他行文如操刀，造句如“欺男霸女”，如中国之大古董，永乐之大窑器，则报恩塔是也。这种句子却用一声断喝，挡者披靡。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bQchbrlc\">张岱在文字中注视他的城郭人民，他失去的一切，他权当未曾拥有，竟无怨愤，无哀伤。偶尔会感慨，但也只是一声轻叹。他的没心没肺，有更广大的境界。冬天降临时，凋零的花、殒命的鸟，何曾哭天抢地呢？而这古老文明的荒凉冬天，已经来了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nvQS81n5\">这段写得非常有深意。如果时间是不断侵蚀、不断凿空我们生命的海潮，那么我们的记忆、我们的热情、我们的痴心，我们在这些典故和字句之间投射的趣味，就是载着我们渡过时间之海的方舟。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tSlxnLj5\">希望能够帮助大家多了解一点张岱和他的《陶庵梦忆》。就到这里。</p>",
+        "is_labeled": false,
+        "visited_count": 46,
+        "favorite_count": 5,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1938859452804596212}",
+      "attached_info": "CsEFCIi5ioLSpJTfigEQBxoJMjYxNjI4OTgxIPeS78QGKAQwAECTBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzODg1OTQ1MjgwNDU5NjIxMqoBCXJlY29tbWVuZMIBIDA2NTRhYTdjZDdiMTZiYzkyN2EwYjhjOGIwNDE4ZmE48gEKCAwSBk5vcm1hbPIBKAgKEiRiNTc5YTQ4My0yYmVmLTQwYjItOWNmMy02M2RjNmM3MDE2ZWHyAQYICxICODmCAgCIAua0yPmMM5ICIDA2NTRhYTdjZDdiMTZiYzkyN2EwYjhjOGIwNDE4ZmE4mgIAygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDVmZThiZmZiM2FmYTQ0NjliYTY5ZDg2MmUwM2VkYmVhmgMNCgJ2MhAAGgVvdGhlcqgDLtgDAOoDH3RleHRGZWVkVHdvVG93ZXJXYXJtdXBTdWNjZXNzVjH6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAq5aRP4EFAAAAAAAAAACJBTS4WJtrVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVmQBgCgBpgEqAYBkgIuCgkyNjE2Mjg5ODESEzE5Mzg4NTk0NTI4MDQ1OTYyMTIYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "532_1755822824.529",
+      "type": "feed",
+      "offset": 532,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822824,
+      "updated_time": 1755822824,
+      "target": {
+        "id": "1941519455931852024",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1941519455931852024",
+        "author": {
+          "id": "49b0f6e09d8abf1f34e9c019f15dcbc4",
+          "url": "https://api.zhihu.com/people/49b0f6e09d8abf1f34e9c019f15dcbc4",
+          "user_type": "people",
+          "url_token": "wang-zhi-hu-11-83",
+          "name": "睡前独悟",
+          "headline": "能力越大，舒适圈越大。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f665c3d79cea10c2221e1cf3c8735a0e_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 10770,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "如何快速熟悉一个新赛道？",
+        "comment_permission": "all",
+        "created": 1755791589,
+        "updated": 1755791589,
+        "voteup_count": 0,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "很多人转行失败，不是因为能力不够，而是对新行业一知半解，影响自信发挥，面试时候稍微露怯，就会失去机会。 虽然说每个行业情况不太相同，但大致还是有一些方法，可以帮助你从开始，快速熟悉并摸清一个行业的底细。 第一步，了解行业的宏观数据。 可以从一些数据报告网站上，大概了解行业情况，例如国家统计局、艾瑞咨询、麦肯锡、wind、金十数据，甚至是巨量引擎、小红书千瓜指数、微信指数等等方面，大概了解这个行业的数据…",
+        "excerpt_new": "很多人转行失败，不是因为能力不够，而是对新行业一知半解，影响自信发挥，面试时候稍微露怯，就会失去机会。 虽然说每个行业情况不太相同，但大致还是有一些方法，可以帮助你从开始，快速熟悉并摸清一个行业的底细。 第一步，了解行业的宏观数据。 可以从一些数据报告网站上，大概了解行业情况，例如国家统计局、艾瑞咨询、麦肯锡、wind、金十数据，甚至是巨量引擎、小红书千瓜指数、微信指数等等方面，大概了解这个行业的数据…",
+        "preview_type": "default",
+        "preview_text": "",
+        "column": {
+          "id": "c_1925581904545030808",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1925581904545030808",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "职场新起点：转行那些事",
+          "imageUrl": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "intro": "本专栏将用12期内容，结合身边实例，用大白话讲清楚复杂的道理。每周为你解锁一个别人不愿意分享的职场经验。从职业第二曲线、能力迁移、快速了解新行业，帮你在经济下行周期，找到自己的破局之法，开启职业的第二曲线。我们不仅会剖析真实案例，提供具体可行的工具和方法，更会帮你培养积极的职场心态和持续学习的动力。让你的努力不再白费，真正凭借实力上位，成为职场中不可替代的自己！",
+          "updated": 1754616850,
+          "is_following": false
+        },
+        "content": "<p data-pid=\"7c8rHvbK\">很多人转行失败，不是因为能力不够，而是对新行业一知半解，影响自信发挥，面试时候稍微露怯，就会失去机会。</p><p data-pid=\"8aexowBJ\">虽然说每个行业情况不太相同，但大致还是有一些方法，可以帮助你从开始，快速熟悉并摸清一个行业的底细。</p><p data-pid=\"v1uBT2C6\">第一步，了解行业的宏观数据。</p><p data-pid=\"fVIagIeq\">可以从一些数据报告网站上，大概了解行业情况，例如国家统计局、艾瑞咨询、麦肯锡、wind、金十数据，甚至是巨量引擎、小红书千瓜指数、微信指数等等方面，大概了解这个行业的数据动态和行业趋向。</p><p data-pid=\"Z3jahAXa\">如果对纷乱的数据比较头疼，可以重点关注这几个指标，首先是市场规模，决定了这个盘子的大小，以及你在里面的成长可能。第二是增长率，可以看出这个行业是在增长还是衰退。第三是竞争格局，比如行业前三名占据了多少市场粉盒，比如电商平台，三巨头占比60%以上，说明头部集中，中小玩家没什么机会。</p><p data-pid=\"9JGUt_g6\">除此之外，还可以看看相关的行业政策文件，这方面的东西短期可能没那么快生效，但是基本上决定了未来三到五年的发展情况，可以对局势适当有个判断。</p>",
+        "is_labeled": true,
+        "visited_count": 4,
+        "favorite_count": 2,
+        "paid_info": {
+          "content": "<p data-pid=\"7c8rHvbK\">很多人转行失败，不是因为能力不够，而是对新行业一知半解，影响自信发挥，面试时候稍微露怯，就会失去机会。</p><p data-pid=\"8aexowBJ\">虽然说每个行业情况不太相同，但大致还是有一些方法，可以帮助你从开始，快速熟悉并摸清一个行业的底细。</p><p data-pid=\"v1uBT2C6\">第一步，了解行业的宏观数据。</p><p data-pid=\"fVIagIeq\">可以从一些数据报告网站上，大概了解行业情况，例如国家统计局、艾瑞咨询、麦肯锡、wind、金十数据，甚至是巨量引擎、小红书千瓜指数、微信指数等等方面，大概了解这个行业的数据动态和行业趋向。</p><p data-pid=\"Z3jahAXa\">如果对纷乱的数据比较头疼，可以重点关注这几个指标，首先是市场规模，决定了这个盘子的大小，以及你在里面的成长可能。第二是增长率，可以看出这个行业是在增长还是衰退。第三是竞争格局，比如行业前三名占据了多少市场粉盒，比如电商平台，三巨头占比60%以上，说明头部集中，中小玩家没什么机会。</p><p data-pid=\"9JGUt_g6\">除此之外，还可以看看相关的行业政策文件，这方面的东西短期可能没那么快生效，但是基本上决定了未来三到五年的发展情况，可以对局势适当有个判断。</p>"
+        },
+        "article_type": "paid_column_content",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1941519455931852024}",
+      "attached_info": "CuwFCIi5ioLSpJTfigEQBxoJMjYxOTkwNTM5IOWBncUGKAAwAECUBEokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwxEgEwGAAgADoASigKHVRTX1NPVVJDRV9XQVJNVVBfUFJFVFJBSU5fSTJJEgEwGAAgADoAWggxMzcwNzY2N2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE1MTk0NTU5MzE4NTIwMjSKARVjXzE5MjU1ODE5MDQ1NDUwMzA4MDiqAQlyZWNvbW1lbmTCASA0OWIwZjZlMDlkOGFiZjFmMzRlOWMwMTlmMTVkY2JjNPIBCggMEgZOb3JtYWzyASgIChIkMjkzZTlhNDUtNjA2MC00N2Q4LWFkMzgtZjJhNmI3YTUxOGZh8gEGCAsSAjg5ggIAiALmtMj5jDOSAiA0OWIwZjZlMDlkOGFiZjFmMzRlOWMwMTlmMTVkY2JjNJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AID+gILTk9STUFMX0ZMT1eKAyA1ZmU4YmZmYjNhZmE0NDY5YmE2OWQ4NjJlMDNlZGJlYZoDDQoCdjIQABoFb3RoZXKoAwTYAwDqAxNwcmV0cmFpbl9pMmlfcmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAADkskj+BBQAAAAAAAAAAiQU0uFiba1TZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVZkAYAoAaZBKgGAJICLgoJMjYxOTkwNTM5EhMxOTQxNTE5NDU1OTMxODUyMDI0GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "533_1755822824.414",
+      "type": "feed",
+      "offset": 533,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822824,
+      "updated_time": 1755822824,
+      "target": {
+        "id": "1941103660462478404",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1941103660462478404",
+        "author": {
+          "id": "907532f0dd3e6b3e455a6c03371560ed",
+          "url": "https://api.zhihu.com/people/907532f0dd3e6b3e455a6c03371560ed",
+          "user_type": "people",
+          "url_token": "niq2003",
+          "name": "老码识途AI笔记",
+          "headline": "经验作罗盘，代码为纸笔",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d660238114d310a7da5a9d2248b215ae_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "用了50+个AI工具，这10个我天天在用",
+        "comment_permission": "all",
+        "created": 1755575316,
+        "updated": 1755575316,
+        "voteup_count": 0,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "作为一个AI应用开发者，想记录和分享一下自己在实际项目中用过并筛选出实用的AI工具。   这是一份 真实的工具使用清单，每个都是我亲自测试过的，有好有坏，客观分享。我的AI工具箱（按使用频率排序） 图片处理 - 解决80%的视觉需求工具亮点适用场景Freepik海量素材库自媒体配图、素材搜索Ideogram文字图片渲染Logo、海报、带文字的设计Chatgpt image理解复杂需求概念图、插画、快速出图Canva设计小白友好社交媒体图、PPT模板Cloud…",
+        "excerpt_new": "作为一个AI应用开发者，想记录和分享一下自己在实际项目中用过并筛选出实用的AI工具。   这是一份 真实的工具使用清单，每个都是我亲自测试过的，有好有坏，客观分享。我的AI工具箱（按使用频率排序） 图片处理 - 解决80%的视觉需求工具亮点适用场景Freepik海量素材库自媒体配图、素材搜索Ideogram文字图片渲染Logo、海报、带文字的设计Chatgpt image理解复杂需求概念图、插画、快速出图Canva设计小白友好社交媒体图、PPT模板Cloud…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"KruCa6Oz\">作为一个AI应用开发者，想记录和分享一下自己在实际项目中用过并筛选出实用的AI工具。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f70edc82550c5f1ced31253c97a7d76a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"720\" data-original-token=\"v2-73b5b2399d3c03f783302e05a76e7929\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-f70edc82550c5f1ced31253c97a7d76a_r.jpg\"/></figure><p data-pid=\"44FaKO9l\">这是一份<b>真实的工具使用清单</b>，每个都是我亲自测试过的，有好有坏，客观分享。</p><h2>我的AI工具箱（按使用频率排序）</h2><h3>  图片处理 - 解决80%的视觉需求</h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>工具</td><td>亮点</td><td>适用场景</td></tr><tr><td>Freepik</td><td>海量素材库</td><td>自媒体配图、素材搜索</td></tr><tr><td>Ideogram</td><td>文字图片渲染</td><td>Logo、海报、带文字的设计</td></tr><tr><td>Chatgpt image</td><td>理解复杂需求</td><td>概念图、插画、快速出图</td></tr><tr><td>Canva</td><td>设计小白友好</td><td>社交媒体图、PPT模板</td></tr><tr><td>CloudConvert</td><td>格式转换神奇</td><td>批量处理、格式兼容</td></tr></tbody></table><h3><b>实测心得：</b>Freepik是我用得最多的，素材丰富质量高；Ideogram做文字图片真的绝了；ChatGPT适合快速验证想法；Canva适合批量制作标准化内容。</h3><p data-pid=\"j714Y3-J\"><i>注：所有工具都有免费额度，部分需要科学上网访问。</i></p><h3><b>  创意激发 - 找灵感的好帮手</b></h3><p data-pid=\"VYnXUUVY\"><b>Haisnap (响指)</b></p><ul><li data-pid=\"Lm1pd11Z\"><b>核心能力：AI应用创意激发和快速原型</b></li><li data-pid=\"CTdvbEJE\"><b>实际体验：不是用来做产品，而是用来找灵感、验证想法的</b></li><li data-pid=\"VE7wmugK\"><b>推荐指数：⭐⭐⭐⭐（灵感枯竭时的救星）</b></li></ul><h3><b>  UI设计 - 高保真原型</b></h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>工具</td><td>最大亮点</td><td>适用场景</td></tr><tr><td>Gemini CLI</td><td>命令行AI设计助手</td><td>组件设计、设计规范生成</td></tr><tr><td>Gemcoder Design</td><td>AI生成可交互原型</td><td>产品原型、界面设计</td></tr></tbody></table><h3><b>实测心得：</b>Gemini CLI是我优先选择的，命令行操作很高效，适合技术背景用户；Gemcoder生成的原型质量不错，但交互性有限。</h3><h3><b>  编码工具 - 我的使用历程</b></h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>工具</td><td>最强项</td><td>实用阶段</td></tr><tr><td>Cursor</td><td>多文件智能编辑</td><td>入门首选，易上手</td></tr><tr><td>Kiro</td><td>规范驱动开发</td><td>进阶使用，团队协作</td></tr><tr><td>Claude Code</td><td>代码库深度理解</td><td>目前主力，成本较高</td></tr></tbody></table><p data-pid=\"GCeCMcHR\"><b>使用历程：</b>最开始用Cursor，简单易用；后来试了Kiro，规范化开发很棒；现在主要用Claude Code，虽然成本高但能力最强，能节省大量时间，适合创业者节省人力。</p><h2>工具选择的3个原则</h2><h3>1. 先免费后付费</h3><p data-pid=\"cFMFxp3K\">大部分工具都有免费版，先用起来再决定是否付费升级。</p><h3>2. 效率 &gt; 功能</h3><p data-pid=\"TJBtwnjm\">选择能解决核心问题的工具，易用，不要被花哨功能迷惑。</p><h3>3. 生态 &gt; 独立</h3><p data-pid=\"vE6PgwCV\">优先选择有生态支撑的工具，后续扩展性更好。</p><h2>真实使用感受</h2><p data-pid=\"fSzbsn5g\"><b>最惊喜的工具</b>：Freepik，素材质量超出预期，自媒体必备。</p><p data-pid=\"yIYEn3lJ\"><b>最实用的工具</b>：Gemini CLI，命令行操作简单高效。</p><p data-pid=\"GoZGMajm\"><b>使用最久的工具</b>：Claude Code，虽然成本高但确实好用。</p><p data-pid=\"KUWuT_iD\"><b>最有启发的工具</b>：响指，不是用来做产品，而是激发创意思路。</p><p data-pid=\"JtgcQamt\"><b>最大收获</b>：AI工具是助手不是替代品，人的判断和创意仍然是核心。</p><h2>写在最后</h2><p data-pid=\"nWsBRb2Q\">这些都是我在实际项目中用过的工具，有些已经成为日常必备，有些试用后就放弃了。</p><p data-pid=\"EAsou23L\">记录下来一是为了自己回顾，二是希望能帮到有相同需求的朋友。</p><p data-pid=\"t4chI7P6\">工具在快速迭代，这个清单也会持续更新。</p><p data-pid=\"X_Kg6Ir4\"><b>好工具让开发更高效。</b></p><p data-pid=\"fZNYIyib\"><i>如果这篇分享对你有帮助，记得点赞收藏。有问题欢迎留言交流，我会根据大家的反馈持续更新这个工具清单。</i></p>",
+        "is_labeled": false,
+        "visited_count": 36,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-73b5b2399d3c03f783302e05a76e7929_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 3,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1941103660462478404}",
+      "attached_info": "CocGCIi5ioLSpJTfigEQBxoJMjYxOTI5NjIzIJToj8UGKAAwAECVBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTEwMzY2MDQ2MjQ3ODQwNKoBCXJlY29tbWVuZMIBIDkwNzUzMmYwZGQzZTZiM2U0NTVhNmMwMzM3MTU2MGVk8gEKCAwSBk5vcm1hbPIBKAgKEiQ1ODI3ZDRmYy0zZGMxLTQ2NDMtYmE1Yi0yYWI4OTNlMWM0ZGLyAQYICxICODmCAgCIAua0yPmMM5ICIDkwNzUzMmYwZGQzZTZiM2U0NTVhNmMwMzM3MTU2MGVkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDVmZThiZmZiM2FmYTQ0NjliYTY5ZDg2MmUwM2VkYmVhmgMNCgJ2MhAAGgVvdGhlcqgDJNgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEELgIGNAFIiN2Mi03M2I1YjIzOTlkM2MwM2Y3ODMzMDJlMDVhNzZlNzkyOYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYDvekj+BBQAAAAAAAAAAiQU0uFiba1TZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVZkAYAoAaaBKgGAJICLgoJMjYxOTI5NjIzEhMxOTQxMTAzNjYwNDYyNDc4NDA0GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=533&desktop=true&end_offset=538&page_number=90&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=533&desktop=true&end_offset=538&page_number=90&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

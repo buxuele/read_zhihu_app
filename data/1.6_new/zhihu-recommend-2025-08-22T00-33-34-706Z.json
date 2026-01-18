@@ -1,0 +1,577 @@
+{
+  "data": [
+    {
+      "id": "558_1755822861.351",
+      "type": "feed",
+      "offset": 558,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822861,
+      "updated_time": 1755822861,
+      "target": {
+        "id": "1921609343368958300",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1921609343368958300",
+        "author": {
+          "id": "d175610cd84704f6e6e6705302007fd4",
+          "url": "https://api.zhihu.com/people/d175610cd84704f6e6e6705302007fd4",
+          "user_type": "people",
+          "url_token": "lin-mei-81-26",
+          "name": "杞鋂",
+          "headline": "创业｜职场｜AI Agent 智能体｜写作，1对1定制方案",
+          "avatar_url": "https://picx.zhimg.com/50/v2-83a65b249145b8ea62ed0fb372b7f9f0_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 56233,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1750927369,
+        "updated_time": 1750927369,
+        "voteup_count": 143,
+        "thanks_count": 9,
+        "comment_count": 12,
+        "is_copyable": false,
+        "question": {
+          "id": "628670548",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/628670548",
+          "author": {
+            "id": "4b96fe2b3fca770b393300abdebea7e5",
+            "url": "https://api.zhihu.com/people/4b96fe2b3fca770b393300abdebea7e5",
+            "user_type": "people",
+            "url_token": "mlpod",
+            "name": "机器学习POD",
+            "headline": "MLPOD.COM 公众号：机器学习POD",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-2e77a8d66a53bc03c77b3e4d404cdbf7_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "百度 高级算法工程师"
+              }
+            ],
+            "followers_count": 1157,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "大模型Agent的核心还是prompt？",
+          "created": 1698832783,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            2588468,
+            2951922
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-7d13ca1475648e81857025595bf460ff_720w.jpg?source=b6762063",
+        "excerpt": "不得不说99%想做ai agent的公司，全走错路了。 那agent怎样才能成功？ 就讲在国外车管所（DMV）部署了最新的AI助手，并承诺能够处理驾照更新的简单任务。 但当一位用户询问\"我需要更新驾照\"时，系统陷入了无限循环，不断重复询问相同的问题，最终因内存溢出而崩溃。 为什么这个AI Agent项目是失败的？ 因为： Token预算：限制在500个，无法完成多轮对话记忆设计：没有会话状态管理评估缺失：没人知道它在生产环境的表现架构选择…",
+        "excerpt_new": "不得不说99%想做ai agent的公司，全走错路了。 那agent怎样才能成功？ 就讲在国外车管所（DMV）部署了最新的AI助手，并承诺能够处理驾照更新的简单任务。 但当一位用户询问\"我需要更新驾照\"时，系统陷入了无限循环，不断重复询问相同的问题，最终因内存溢出而崩溃。 为什么这个AI Agent项目是失败的？ 因为： Token预算：限制在500个，无法完成多轮对话记忆设计：没有会话状态管理评估缺失：没人知道它在生产环境的表现架构选择…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"G-UnLyUa\">不得不说99%想做ai agent的公司，全走错路了。</p><p data-pid=\"Yxyzzw6k\">那agent怎样才能成功？</p><p data-pid=\"LgYLy4yI\">就讲在国外车管所（DMV）部署了最新的AI助手，并承诺能够处理驾照更新的简单任务。</p><p data-pid=\"k9OLhrNg\">但当一位用户询问&#34;我需要更新驾照&#34;时，系统陷入了无限循环，不断重复询问相同的问题，最终因内存溢出而崩溃。</p><p data-pid=\"rbwDGRCJ\">为什么这个AI Agent项目是失败的？</p><p data-pid=\"Q-UqRIQY\">因为：</p><ul><li data-pid=\"x_NbRESk\"><b>Token预算</b>：限制在500个，无法完成多轮对话</li><li data-pid=\"0XjZC8mE\"><b>记忆设计</b>：没有会话状态管理</li><li data-pid=\"_w7KpCk7\"><b>评估缺失</b>：没人知道它在生产环境的表现</li><li data-pid=\"zHG2t47b\"><b>架构选择</b>：用聊天机器人架构处理事务性任务</li></ul><p data-pid=\"8FIF445s\">这些都是可以避免的错误。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ac77056eca9b6bd770e69e52129b782a_1440w.jpg\" data-rawwidth=\"1270\" data-rawheight=\"578\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6e50159a621160feb32d717b2f8e4a58\" data-default-watermark-src=\"https://picx.zhimg.com/v2-569530f2ad7f8a80ad0a3fa0209f63d7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1270\" data-original=\"https://pic3.zhimg.com/v2-ac77056eca9b6bd770e69e52129b782a_r.jpg\"/></figure><p data-pid=\"4AGCczAd\">2025年初，Anthropic和Cognition（Devin的开发者）之间爆发了一场关于AI Agent架构的技术争论。</p><p data-pid=\"DKPKNvU2\">这场争论揭示了一个残酷事实：当顶级团队还在为基础架构争论不休时，99%的企业却在盲目跟风部署他们根本不理解的系统。</p><h2>理解AI Agent的本质</h2><p data-pid=\"STsOtQt1\">当你真正理解下面这个等式时，你就已经超越了80%的AI Agent项目：</p><p data-pid=\"sie60Dsi\"><b>AI Agent = LLM（大脑）+ Tools（双手）+ Policy/Memory（神经系统）</b></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-857dd1c5925710c072860b97e99e01b4_1440w.jpg\" data-rawwidth=\"1844\" data-rawheight=\"1410\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-59851f7294e12a47455fa1d9818fb63e\" data-default-watermark-src=\"https://pica.zhimg.com/v2-b04a37ad388c08fff78c911e2e083764_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1844\" data-original=\"https://pic1.zhimg.com/v2-857dd1c5925710c072860b97e99e01b4_r.jpg\"/></figure><p data-pid=\"otDgpXqH\">Anthropic的Deep Research系统采用多Agent架构，能够进行长达数小时的深度研究。而Cognition坚持单Agent方案，认为系统简洁性更重要。这不仅仅是技术路线之争，更反映了对AI Agent本质的不同理解：</p><ul><li data-pid=\"uPiQKxim\"><b>多Agent派</b>：相信通过更多计算资源和复杂协作，可以实现更强大的推理能力</li><li data-pid=\"mUdQoWeA\"><b>单Agent派</b>：认为当前阶段应该优先解决工程稳定性和部署效率</li></ul><p data-pid=\"_p2wKgjl\">理解这场争论，就是理解AI Agent的技术天花板在哪里。</p><div class=\"highlight\"><pre><code class=\"language-text\"># 最小可行AI Agent示例\nclass MinimalAgent:\n    def __init__(self):\n        self.llm = LLM(model=&#34;gpt-4&#34;)  # 大脑\n        self.tools = {                   # 双手\n            &#34;search&#34;: web_search,\n            &#34;calculate&#34;: calculator,\n            &#34;remember&#34;: vector_store\n        }\n        self.memory = ShortTermMemory()  # 神经系统\n    \n    def think_and_act(self, user_query):\n        # 1. 理解意图\n        context = self.memory.get_recent_context()\n        intent = self.llm.analyze(user_query, context)\n        \n        # 2. 制定计划\n        plan = self.llm.create_plan(intent)\n        \n        # 3. 执行行动\n        results = []\n        for step in plan:\n            if step.requires_tool:\n                result = self.tools[step.tool_name](step.params)\n            else:\n                result = self.llm.generate(step.prompt)\n            results.append(result)\n            self.memory.add(result)  # 关键：保持记忆连续性\n        \n        # 4. 综合结果\n        return self.llm.synthesize(results)</code></pre></div><h2>从Token到记忆的系统性失败</h2><p data-pid=\"Y5q_BmWf\">2025年初，一个由AI（Claude Opus）参与撰写的论文震惊了业界。</p><p data-pid=\"d68GjMiV\">Apple声称LLM的推理能力在下降，但Claude Opus用实际数据证明：问题不在模型，而在于Token分配不足。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-36f636e49311ec0817b6ddc9b6a0cff6_1440w.jpg\" data-rawwidth=\"1024\" data-rawheight=\"1532\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-b2a732c2d30f246ad949e34fe607b562\" data-default-watermark-src=\"https://picx.zhimg.com/v2-1875e4beb91225e24d7ac42e54d5bdd5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://pic1.zhimg.com/v2-36f636e49311ec0817b6ddc9b6a0cff6_r.jpg\"/></figure><p data-pid=\"RRq5rXFP\"><b>每个陷阱背后的技术真相</b></p><p data-pid=\"iU6iTYxv\"><b>陷阱1：Token预算的数学困境</b></p><p data-pid=\"OiAcXOK2\">多Agent系统存在的核心原因：更多Token = 更好的推理。这不是浪费，而是必需。当你限制输出Token到1000个时，就像要求数学家用三句话证明费马大定理。</p><p data-pid=\"YnfUjzdG\"><b>陷阱2：记忆架构的工程挑战</b></p><div class=\"highlight\"><pre><code class=\"language-text\"># 错误的记忆设计\nclass BadMemory:\n    def __init__(self):\n        self.buffer = []  # 简单列表\n    \n    def add(self, item):\n        self.buffer.append(item)\n        if len(self.buffer) &gt; 10:  # 任意限制\n            self.buffer.pop(0)\n\n# 正确的记忆设计\nclass GoodMemory:\n    def __init__(self):\n        self.short_term = deque(maxlen=100)\n        self.long_term = VectorStore()\n        self.working_memory = {}\n    \n    def add(self, item, importance_score):\n        self.short_term.append(item)\n        if importance_score &gt; 0.7:\n            self.long_term.add(item)\n        self.update_working_memory(item)</code></pre></div><p data-pid=\"nVTdgJJp\"><b>陷阱3：过时方案的隐形成本</b></p><p data-pid=\"IQEJKNXY\">McKinsey在2025年仍在推荐&#34;Agentic Mesh&#34;这种毫无技术含义的概念，使用已被弃用的Claude Haiku和GPT-2时代的LLaMA 38B。这就像用1990年代的地图导航2025年的城市。</p><p data-pid=\"Uapr1ddO\"><b>陷阱4：评估盲区的复合效应</b></p><p data-pid=\"REF_MRY-\">没有评估就像闭着眼睛开车。你需要监控：</p><ul><li data-pid=\"-1I4LbFu\">模型漂移（Model Drift）</li><li data-pid=\"LUPP7vpt\">指令遵循度（Instruction Adherence）</li><li data-pid=\"LTBAO58U\">记忆准确性（Memory Retention）</li><li data-pid=\"WJathB7w\">任务完成率（Task Success Rate）</li></ul><h2>Agent是构建还是购买？</h2><p data-pid=\"DLFBCAu1\">一家金融科技公司花费6个月和200万美元自建AI Agent系统，最终发现Lindy.ai的现成方案可以满足90%的需求，成本仅为其1/20。</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>决策维度</th><th>购买现成方案</th><th>自建系统</th><th>决策权重</th></tr><tr><td>业务独特性</td><td>标准化流程</td><td>专有流程</td><td>40%</td></tr><tr><td>成本考量</td><td>$1-10K/月</td><td>$100K-1M启动</td><td>25%</td></tr><tr><td>上线时间</td><td>1-2周</td><td>3-6月</td><td>20%</td></tr><tr><td>技术团队</td><td>1-2人运维</td><td>5-10人开发</td><td>15%</td></tr><tr><td>成功案例</td><td>Lindy.ai处理客服&lt;br/&gt;Zapier AI自动化流程</td><td>Anthropic Deep Research&lt;br/&gt;Cognition Devin</td><td>-</td></tr></tbody></table><p data-pid=\"FFhwFGhc\">只有满足以下全部条件时，才应该考虑自建：</p><ol><li data-pid=\"FRivibWN\">你的业务流程真正独特且复杂</li><li data-pid=\"JL3iz7rr\">现有方案无法满足核心需求</li><li data-pid=\"OWTlKGGQ\">你有专业的AI工程团队</li><li data-pid=\"fGvOwSwN\">你准备好了长期投入</li></ol><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0a6b5d73e6156bde7daedb8f73c2bbe0_1440w.jpg\" data-rawwidth=\"452\" data-rawheight=\"1520\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-4dbd7f98e2c20954bb97a275967a8352\" data-default-watermark-src=\"https://picx.zhimg.com/v2-dffc30094f46df7c624bb0e21b678569_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"452\" data-original=\"https://pic3.zhimg.com/v2-0a6b5d73e6156bde7daedb8f73c2bbe0_r.jpg\"/></figure><h2>架构选择的智慧：单Agent vs 多Agent</h2><p data-pid=\"hOUfMeuF\">想象你在管理一个餐厅。单Agent就像一个全能服务员，而多Agent就像一个完整团队（主厨、服务员、收银员）。哪个更好？取决于你是开快餐店还是米其林餐厅。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f02f84a6cb9dc4234287b0ee26013e18_1440w.jpg\" data-rawwidth=\"1518\" data-rawheight=\"1464\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-66aa9c7c7e267289c8ef7b38fe17767d\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-8a64125b0c8b6585259c8a42eb35ce6f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1518\" data-original=\"https://pic1.zhimg.com/v2-f02f84a6cb9dc4234287b0ee26013e18_r.jpg\"/></figure><p data-pid=\"EV7Uy7uv\">多Agent系统的核心价值在于&#34;烧更多计算&#34;。这听起来很浪费，但考虑以下对比：</p><ul><li data-pid=\"S9Rjvbg3\"><b>单Agent处理复杂研究任务</b>：成功率30%，平均Token消耗10K</li><li data-pid=\"dAgqzoeZ\"><b>多Agent处理相同任务</b>：成功率85%，平均Token消耗100K</li></ul><p data-pid=\"ng5v8Y3_\">如果任务价值足够高，10倍的计算成本换取近3倍的成功率是值得的。</p><div class=\"highlight\"><pre><code class=\"language-text\"># 单Agent实现：简洁但能力受限\nclass SimpleResearchAgent:\n    def research(self, topic):\n        # 线性处理流程\n        search_results = self.search(topic)\n        analysis = self.analyze(search_results)\n        report = self.generate_report(analysis)\n        return report\n\n# 多Agent实现：复杂但功能强大\nclass AdvancedResearchSystem:\n    def __init__(self):\n        self.coordinator = CoordinatorAgent()\n        self.researchers = [WebResearcher(), AcademicResearcher()]\n        self.analysts = [DataAnalyst(), TrendAnalyst()]\n        self.writer = ReportWriter()\n    \n    def research(self, topic):\n        # 并行研究阶段\n        research_tasks = self.coordinator.plan_research(topic)\n        research_results = parallel_execute(\n            self.researchers, research_tasks\n        )\n        \n        # 深度分析阶段\n        analysis_tasks = self.coordinator.plan_analysis(research_results)\n        analysis_results = parallel_execute(\n            self.analysts, analysis_tasks\n        )\n        \n        # 报告生成阶段\n        final_report = self.writer.create_report(\n            research_results, analysis_results\n        )\n        \n        return self.coordinator.quality_check(final_report)</code></pre></div><p data-pid=\"cf6Oo84v\">一个AI Agent在测试环境中表现完美，上线后却频繁出错。调查发现：生产环境的输入长度是测试环境的3倍，而系统从未监控过Token使用情况。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0e8477247415d33136d5ed2091b27b41_1440w.jpg\" data-rawwidth=\"1276\" data-rawheight=\"1346\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-27a75082743735d0b2565225f6035f6f\" data-default-watermark-src=\"https://pica.zhimg.com/v2-4455f566d286ca2670a0c185bb7ead8a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1276\" data-original=\"https://pic2.zhimg.com/v2-0e8477247415d33136d5ed2091b27b41_r.jpg\"/></figure><p data-pid=\"F_lMtBA2\">评估不是事后诸葛亮，而是系统设计的一部分。以下是关键原则：</p><ol><li data-pid=\"BbiZsXOZ\"><b>设计时就考虑可观测性</b>：每个决策点都应该被记录</li><li data-pid=\"yMiArV7B\"><b>建立基准线</b>：知道&#34;正常&#34;是什么样的</li><li data-pid=\"lxDUdBB4\"><b>自动化告警</b>：不要等用户投诉才发现问题</li><li data-pid=\"puX7XSvh\"><b>持续优化循环</b>：评估→洞察→改进→再评估</li></ol><div class=\"highlight\"><pre><code class=\"language-text\">class AgentEvaluationSystem:\n    def __init__(self):\n        self.metrics = {\n            &#39;task_success_rate&#39;: RollingAverage(window=1000),\n            &#39;avg_token_usage&#39;: RollingAverage(window=1000),\n            &#39;error_rate&#39;: RollingAverage(window=1000),\n            &#39;user_satisfaction&#39;: RollingAverage(window=100)\n        }\n        self.alerts = AlertSystem()\n    \n    def evaluate_response(self, request, response, ground_truth=None):\n        # 记录基础指标\n        self.metrics[&#39;avg_token_usage&#39;].add(response.token_count)\n        \n        # 评估质量\n        if ground_truth:\n            accuracy = self.calculate_accuracy(response, ground_truth)\n            self.metrics[&#39;task_success_rate&#39;].add(accuracy)\n        \n        # 检查异常\n        if response.error:\n            self.metrics[&#39;error_rate&#39;].add(1)\n            self.alerts.check_threshold(&#39;error_rate&#39;, \n                                      self.metrics[&#39;error_rate&#39;].average)\n        \n        # 返回评估报告\n        return EvaluationReport(\n            success=response.success,\n            quality_score=self.calculate_quality_score(response),\n            recommendations=self.generate_recommendations()\n        )</code></pre></div><p data-pid=\"QLhO65zE\"><b>成功的关键不是成为Anthropic或Cognition</b>，而是：</p><ol><li data-pid=\"y86K6rKf\">理解AI Agent的本质（LLM + Tools + Memory）</li><li data-pid=\"rQuoaJZ_\">认识到计算资源的必要性（Token很贵但必需）</li><li data-pid=\"bgZLMdYu\">选择适合的架构（不是所有任务都需要多Agent）</li><li data-pid=\"4TOk6297\">建立完整的评估体系（你无法改进看不见的东西）</li><li data-pid=\"7FckcCUq\">保持技术清醒（别被&#34;Agentic Mesh&#34;这类空话迷惑）</li></ol><p data-pid=\"8PXh3noQ\">2025年的赢家将是那些最清醒的团队——清楚自己需要什么、什么是真实的、以及愿意走多远。</p><p data-pid=\"n6pyZYQO\">剩下的？那只是Token而已。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 10938,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-7d13ca1475648e81857025595bf460ff_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-c95d84e2ab99e402500414d174982bfc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-90158524454d4c284aeba724a7449fed_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-cb070a94d47d44dac4b31a7fa6695a89_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 392,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1921609343368958300}",
+      "attached_info": "CqAICMPD38i9hav7tAEQBBoJNzM0MTM0MTY4IImQ9MIGKI8BMAxArgRKQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoJMTAxOTgzMTUwYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkyMTYwOTM0MzM2ODk1ODMwMIoBCTYyODY3MDU0OKoBCXJlY29tbWVuZMIBIGQxNzU2MTBjZDg0NzA0ZjZlNmU2NzA1MzAyMDA3ZmQ08gEKCAwSBk5vcm1hbPIBKAgKEiQzYThhODI2Ny04NTM2LTQwMTUtYjNhZC01MWE1ZjJhZDgyOTHyAQYICxICOTSCAgCIAuPUyvmMM5ICIGQxNzU2MTBjZDg0NzA0ZjZlNmU2NzA1MzAyMDA3ZmQ0mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyAwZDNmZmJkMmE2ZDY0MzA5YjhhY2Q3MWRhYjZkMjBhZZoDDQoCdjIQABoFb3RoZXKoA7pV2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gO5AhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEPYJGMIEIiN2Mi02ZTUwMTU5YTYyMTE2MGZlYjMyZDcxN2IyZjhlNGE1ODotCAQQtA4YggsiI3YyLTU5ODUxZjcyOTRlMTJhNDc0NTVmYTFkOTgxOGZiNjNlOi0IAhCACBj8CyIjdjItYjJhNzMyYzJkMzBmMjQ2YWQ5NDllMzRmZTYwN2I1NjI6LQgCEMQDGPALIiN2Mi00ZGJkN2Y5OGUyYzIwOTU0YmI5N2EyNzU5NjdhODM1MjotCAQQ7gsYuAsiI3YyLTY2YWE5YzdjN2UyNjcyODljOGVmN2IzOGZlMTc3NjdkOi0IAxD8CRjCCiIjdjItMjdhNzUwODI3NDM3MzVkMGIyNTY1MjI1ZjYwMzVmNmaABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADA8qaqP4EFAAAAAAAAAACJBWCepWRJVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBV6QBgCgBrQEqAYBkgIuCgk3MzQxMzQxNjgSEzE5MjE2MDkzNDMzNjg5NTgzMDAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "559_1755822861.207",
+      "type": "feed",
+      "offset": 559,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822861,
+      "updated_time": 1755822861,
+      "target": {
+        "id": "1925526775749912503",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1925526775749912503",
+        "author": {
+          "id": "5774b934e0bfa05d99e15f4a4eec32fe",
+          "url": "https://api.zhihu.com/people/5774b934e0bfa05d99e15f4a4eec32fe",
+          "user_type": "people",
+          "url_token": "wu-xin-lei-16",
+          "name": "奶茶新贵",
+          "headline": "生活观察员/生活减法/长期主义",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-30df038fe5055e4c4c3d55f201e1455c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 1368,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1751861357,
+        "updated_time": 1751861357,
+        "voteup_count": 172,
+        "thanks_count": 5,
+        "comment_count": 20,
+        "is_copyable": true,
+        "question": {
+          "id": "626229031",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/626229031",
+          "author": {
+            "id": "697bbc1a4db52c92a9bfbfbd14fba992",
+            "url": "https://api.zhihu.com/people/697bbc1a4db52c92a9bfbfbd14fba992",
+            "user_type": "people",
+            "url_token": "14-88-18-48",
+            "name": "巫紫金",
+            "headline": "优质文案｜好物分享｜职场问答",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-4ee71808468953be1d45fdcdddf72cef_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 116,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "平常在书店总能见到很多人看书，却鲜少看到有人买书，它们是靠什么盈利的呢?",
+          "created": 1697359640,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            264,
+            37996
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "西西弗斯根本没想赚读书人的钱。 很多品牌方聊起用户，总是一头扎进所谓的“核心粉丝”里，觉得把这群人伺候好了，生意就稳了。 但你看西西弗，一个开遍全国的书店，它的创始人金伟竹却公开说，自己从不去自家店买书。 这听着是不是很反常？一个创始人，居然不用自己的产品。 但你要是看懂了西西弗的局，就会发现这才是真正的高手。 它从一开始就没打算把书卖给那些真正的、重度的读书人。它的整套玩法，本质上是在为那些“可读…",
+        "excerpt_new": "西西弗斯根本没想赚读书人的钱。 很多品牌方聊起用户，总是一头扎进所谓的“核心粉丝”里，觉得把这群人伺候好了，生意就稳了。 但你看西西弗，一个开遍全国的书店，它的创始人金伟竹却公开说，自己从不去自家店买书。 这听着是不是很反常？一个创始人，居然不用自己的产品。 但你要是看懂了西西弗的局，就会发现这才是真正的高手。 它从一开始就没打算把书卖给那些真正的、重度的读书人。它的整套玩法，本质上是在为那些“可读…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"rpGp9YBQ\">西西弗斯根本没想赚读书人的钱。</p><p data-pid=\"zWBeF6YD\">很多品牌方聊起用户，总是一头扎进所谓的“核心粉丝”里，觉得把这群人伺候好了，生意就稳了。 </p><p data-pid=\"lcVUHq7Z\">但你看西西弗，一个开遍全国的书店，它的创始人金伟竹却公开说，自己从不去自家店买书。 </p><p data-pid=\"9Ug1F4sC\">这听着是不是很反常？一个创始人，居然不用自己的产品。 </p><p data-pid=\"q36V62wg\">但你要是看懂了西西弗的局，就会发现这才是真正的高手。 </p><p data-pid=\"Qlp0mbmB\">它从一开始就没打算把书卖给那些真正的、重度的读书人。它的整套玩法，本质上是在为那些“可读可不读”的消费者，提供一个“购买文化人设”的解决方案。 </p><p data-pid=\"nbyPUZPY\">我们做品牌，天天喊流量，看西西弗的选址，就是教科书级的流量获取。 </p><p data-pid=\"XNzhkK4A\">它不开在安静的街角，专挑人挤人的大商场。 </p><p data-pid=\"rSe0wyPq\">为什么？因为来商场的人，本来就不是为了买某一本书来的。 </p><p data-pid=\"28VdzZvG\">他们的需求是吃饭、逛街、打发时间。 </p><p data-pid=\"i9m-BiTP\">书店开在这里，不是在等“读者”上门，而是在“拦截”商场的巨大客流。 </p><p data-pid=\"SA6uc8F1\">把一个低频的、目的性很强的“买书”行为，硬生生扭转成了一个高频的、冲动性的“逛店”场景。 </p><p data-pid=\"yZdTwmyf\">**你的用户，是在找你吗？还是你在他们必经的路上等着他们?**这是值得思考的问题。 </p><p data-pid=\"AhMSI6V4\">再看它的选品，简直就是线下版的“信息流推荐算法。</p><p data-pid=\"RO-9odp5\">你以为书店的核心是书的品味？错了，在西西弗核心是“流量标签” 。 </p><p data-pid=\"sU2yjlfo\">莫言的书，标签是“诺贝尔奖”；法医秦明，标签是“大热网剧改编” 。 </p><p data-pid=\"L7Ys3RjU\">这两本书放在一起，在文学爱好者眼里可能风马牛不相及，但在西西弗的逻辑里，它们都有一个共同点：有名，大众都听过。 </p><p data-pid=\"tbxxNKpq\">它把书架变成了算法推荐位。 </p><p data-pid=\"t3gpF2va\">这一排，《漫画中国史》，给那些想让孩子学点东西又怕枯燥的家长。 </p><p data-pid=\"a41NBVN7\">那一排，《打造爆款视频》、《元宇宙》，喂给那些被知识焦虑裹挟的职场人。 </p><p data-pid=\"NkaAmCgl\">还有一排，《她力量》、《断舍离》，恰好地递给那些寻求自我提升的都市女性。 </p><p data-pid=\"6wWWGi9e\">你看，它不是在构建一个书的圣殿，而是在用书这种载体，给不同的人群画像打上标签，然后准确投喂。 </p><p data-pid=\"BUmjZOR8\">这套逻辑，做电商的我们再熟悉不过了。 </p><p data-pid=\"0KaXqGAw\">聊到这，很多品牌方可能会说，白老师，那它靠卖书赚钱吗？ </p><p data-pid=\"xaU6hB7N\">大部分人都觉得书店不赚钱，靠的是咖啡。 </p><p data-pid=\"SCmnIsl2\">这又是一个巨大的误解。 </p><p data-pid=\"Xgo_hXuG\">西西弗店里的书，几乎按标价卖，而它的进货价可能只有标价的五六折，甚至更低。 </p><p data-pid=\"UdOSxpGh\">图书销售，稳稳地占了它总营收的80%左右。 </p><p data-pid=\"AmHmHB9p\">这才是它现金流的压舱石，一个利润很高、被大多数人忽略的业务。 </p><p data-pid=\"4LffPkw0\">那咖啡呢？矢量咖啡一杯拿铁快40块，用的还是全自动咖啡机。 </p><p data-pid=\"RVj_Kx2J\">说实话，那咖啡的品质，可能连很多便利店的都比不上。 </p><p data-pid=\"tqI4bqiD\">但咖啡馆里永远坐满了人，为什么？ </p><p data-pid=\"Tqg9SYgr\">因为没人是真为了那杯咖啡来的。 </p><p data-pid=\"-K_QWS6g\">他们买的，是一个拥有“文化氛围”的空间。 </p><p data-pid=\"bT92nz_K\">一个可以安安静静坐一下午，看起来很有格调， 又不至于像图书馆那么严肃的地方。 </p><p data-pid=\"G5F5_GjK\">花40块，买一个“我在书店里办公/看书”的精致人设，这笔账，对很多中产消费者来说，太划算了。 </p><p data-pid=\"6RdeEqRz\">产品本身好不好，有时候远没有它提供的“情绪价值”和“社交货币”重要。 </p><p data-pid=\"FnmFj3Pg\">有客户问过我，老白，我们产品用料扎实，为什么卖不过那些玩概念的？ </p><p data-pid=\"2VqOFPbE\">我让他去西西弗的咖啡馆坐一个下午，看看那些敲着电脑的人，再看看他们桌上的咖啡。 </p><p data-pid=\"zIxzT_-Q\">答案就在里面。 </p><p data-pid=\"l82zKhD1\">西西弗的成功，是把一个传统的“文化生意” 彻头彻尾地用“零售逻辑”重做了一遍。 </p><p data-pid=\"6qfpfWBf\">它在成本端做到了严苛的控制。 </p><p data-pid=\"JllrQu66\">靠着给商场“提升调性”的功能，用很低的租金甚至免租拿到黄金铺位。 </p><p data-pid=\"7vKuMrT_\">把门店面积控制在500平左右，方便快速复制， </p><p data-pid=\"79AkBI2z\">不像那些动辄几千平的网红书店，开一家就元气大伤。 </p><p data-pid=\"avGlxVOs\">店内员工不需要懂书，只需要按照总部的SOP执行就行，人力成本被压到很低。 </p><p data-pid=\"mpd_mW0K\">1.6万的SKU，只选很畅销的尖货，库存周转很快。 </p><p data-pid=\"X3f1BXSI\">这套成本控制打法，让它不依赖融资，靠着自身现金流就能滚动扩张，活得比谁都滋润。 </p><p data-pid=\"zX1aDu8P\">所以，回到我们做品牌的原点。 </p><p data-pid=\"SZsCbjnG\">西西弗给我们的启发是什么？ </p><p data-pid=\"WtVDo70W\">是不要总盯着你的“核心用户”，你所谓的“核心用户”可能圈层太小，根本撑不起你的野心。 真正的增量市场，在那些“边缘用户”身上。 </p><p data-pid=\"Dh8RSkIq\">那些平时不怎么读书的人，构成了西西弗很稳固的基本盘。 </p><p data-pid=\"4VaqpSW1\">它卖的不是书，而是“一个轻松获得文化体验的解决方案”。它不是在满足需求，而是在创造需求，创造一个让用户“感觉良好”的场景。 你的品牌，究竟是在卖产品功能，还是在卖一种身份认同？是在服务一小撮硬核粉丝，还是在为更广大的泛人群，提供一个“成为理想中的自己”的捷径？ </p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 13010,
+        "favorite_count": 139,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1925526775749912503}",
+      "attached_info": "Cu0FCMPD38i9hav7tAEQBBoJNzM1ODAzNzQyIO2QrcMGKKwBMBRArwRKKgofVFNfU09VUkNFX1RIRU1FX0xMTV9HUkFQSF9NRVJHRRIBMBgAIAA6AFoJMTAxNDQxMDc4YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkyNTUyNjc3NTc0OTkxMjUwM4oBCTYyNjIyOTAzMaoBCXJlY29tbWVuZMIBIDU3NzRiOTM0ZTBiZmEwNWQ5OWUxNWY0YTRlZWMzMmZl8gEKCAwSBk5vcm1hbPIBKAgKEiQyZDUxMWI1OS01MDZlLTQwZTItOTVmZS1hZWYwNzUyOTcxNmPyAQYICxICOTSCAgCIAuTUyvmMM5ICIDU3NzRiOTM0ZTBiZmEwNWQ5OWUxNWY0YTRlZWMzMmZlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIfVFNfU09VUkNFX1RIRU1FX0xMTV9HUkFQSF9NRVJHRegCA/oCC05PUk1BTF9GTE9XigMgMGQzZmZiZDJhNmQ2NDMwOWI4YWNkNzFkYWI2ZDIwYWWaAw0KAnYyEAAaBW90aGVyqAPSZdgDAOoDI1RoZW1lTExNR3JhcGhNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNzDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAACB9h60/gQUAAAAAAAAAAIkFYJ6lZElU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFXpAGAKAGtQSoBgOSAi4KCTczNTgwMzc0MhITMTkyNTUyNjc3NTc0OTkxMjUwMxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "560_1755822861.789",
+      "type": "feed",
+      "offset": 560,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822861,
+      "updated_time": 1755822861,
+      "target": {
+        "id": "1940437720573940726",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1940437720573940726",
+        "author": {
+          "id": "da92602b8d4cc9d0d74a9bb850e825d2",
+          "url": "https://api.zhihu.com/people/da92602b8d4cc9d0d74a9bb850e825d2",
+          "user_type": "people",
+          "url_token": "38-18-88-9",
+          "name": "小棕熊",
+          "headline": "本人是坦克，KV那种级别的，不要问,KV2,152的那种",
+          "avatar_url": "https://picx.zhimg.com/50/v2-fb44d87f392f7a1b75872f83081f891f_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 7117,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755416404,
+        "updated_time": 1755489573,
+        "voteup_count": 1728,
+        "thanks_count": 49,
+        "comment_count": 124,
+        "is_copyable": true,
+        "question": {
+          "id": "25830031",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/25830031",
+          "author": {
+            "id": "c5ff064e2ac4523f71506b76004a9eff",
+            "url": "https://api.zhihu.com/people/c5ff064e2ac4523f71506b76004a9eff",
+            "user_type": "people",
+            "url_token": "lei-jiu-sheng",
+            "name": "雷九盛",
+            "headline": "70后老程序猿",
+            "avatar_url": "https://picx.zhimg.com/50/912b6edfa_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 84,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "《绝命毒师》里的老白是个顶尖的化学家，为什么会沦落到去制冰毒？",
+          "created": 1412722020,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 18,
+          "bound_topic_ids": [
+            316,
+            22515,
+            42280,
+            216980,
+            216984
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "剧情细节（没直接说出来）提到老白1985年卖了灰质公司股份后干了啥事，你们可以自己找证据不说在哪里了。 1986年老白搬家到阿尔布开克，入职桑迪亚国家实验室，参加美国国家级研究项目“质子交换燃料电池研究项目”。 1989年柏林墙倒塌后，美国砍经费，项目终止，大规模改用外包员工顶替正式雇员，老白被裁员。 1990年入职了剧情里虚构的赛托制药公司担任质检员。 1992年虚构的赛托制药由于贿赂FDA官员事件曝光（影射90年代美国…",
+        "excerpt_new": "剧情细节（没直接说出来）提到老白1985年卖了灰质公司股份后干了啥事，你们可以自己找证据不说在哪里了。 1986年老白搬家到阿尔布开克，入职桑迪亚国家实验室，参加美国国家级研究项目“质子交换燃料电池研究项目”。 1989年柏林墙倒塌后，美国砍经费，项目终止，大规模改用外包员工顶替正式雇员，老白被裁员。 1990年入职了剧情里虚构的赛托制药公司担任质检员。 1992年虚构的赛托制药由于贿赂FDA官员事件曝光（影射90年代美国…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"Apqfnfv2\">剧情细节（没直接说出来）提到老白1985年卖了灰质公司股份后干了啥事，你们可以自己找证据不说在哪里了。</p><p data-pid=\"v9TyREz6\">1986年老白搬家到阿尔布开克，入职桑迪亚国家实验室，参加美国国家级研究项目“质子交换燃料电池研究项目”。</p><p data-pid=\"q17Eti8V\">1989年柏林墙倒塌后，美国砍经费，项目终止，大规模改用外包员工顶替正式雇员，老白被裁员。</p><p data-pid=\"HOxQrdRL\">1990年入职了剧情里虚构的赛托制药公司担任质检员。</p><p data-pid=\"b3cWiJ8x\">1992年虚构的赛托制药由于贿赂FDA官员事件曝光（影射90年代美国制药公司大面积腐败问题）加之北美自贸协定制药业生产线向墨西哥转移，老白只干了两年再次被裁员。</p><p data-pid=\"PwKoyOIN\">（剧情明确暗示老白是在担任质检员的时候导致肺部出现癌变）</p><p data-pid=\"SVKd3i0a\">这里补充为何老白不去大学当教授原因</p><p data-pid=\"pOzrOZcl\">1990年冷战胜利后，美国国家科研经费砍了30%，教职岗位全面缩编</p><p data-pid=\"GCR3KPNV\">加之后续美国大学终身教职全面改革，教授编制再次缩编，美国90年代化学博士失业率12.5%，新墨西哥州大学教职空缺为零。</p><p data-pid=\"VQGzowHK\">1993年老白只能做中学化学家教和兼职洗车店洗车工（别看这么惨了，老白还有一辆保时捷911显摆）</p><p data-pid=\"_wcLLsq7\">1994年老白考取教师资格证，在美国社区职业教育大扩张的背景下，终于拿到了稍微体面的工作。</p><p data-pid=\"bFQC48_k\">在剧情虚构的里奥格兰德社区大学（实际可能指中央墨西哥学院）当任短期兼职化学代课老师，经常和学生闹矛盾被投诉</p><p data-pid=\"7YjPBXLg\">1995年小怀特出生</p><p data-pid=\"Xk-hMGm8\">1996年老白最终考虑正式编制，应聘了公立中学化学老师。</p><p data-pid=\"wsoHNMB0\">（到这里可能之前体面工作的存款正式耗尽，尤其小怀特出生后就是残疾加重了这个问题）</p><p data-pid=\"PuurXsbf\">到绝命毒师第一集发生的2008年，老白已经当了12年中学老师</p><p data-pid=\"CG1Y2Ghm\">绝命毒师和绝命律师的每个人背景故事不是乱设定的，都是切合70年代至今美国历史文化写出来的</p><p data-pid=\"3dwhtpba\">再延伸一下，</p><p data-pid=\"NECENb5R\">麦克设定为费城警察以及背后的贪污腐化，可是有现实公开持续不断的新闻报道，80年代费城警察工会还搞集体罢工对抗调查</p><p data-pid=\"Shi8S2ZS\">编剧团队不是乱写的剧本，很多剧情都有背后美国历史和社会文化支撑</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 92269,
+        "favorite_count": 516,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1940437720573940726}",
+      "attached_info": "CosGCMPD38i9hav7tAEQBBoJNzQyNjIxMTM0INSOhsUGKMANMHxAsARKKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMhIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1aBzI1MTQ4NzNiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQwNDM3NzIwNTczOTQwNzI2igEIMjU4MzAwMzGqAQlyZWNvbW1lbmTCASBkYTkyNjAyYjhkNGNjOWQwZDc0YTliYjg1MGU4MjVkMvIBCggMEgZOb3JtYWzyASgIChIkY2Y4YTJjNWItOTg4Yi00OGFlLWEyOTAtNjkyNGVhYWI0OGNh8gEGCAsSAjk0ggIAiALk1Mr5jDOSAiBkYTkyNjAyYjhkNGNjOWQwZDc0YTliYjg1MGU4MjVkMpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yy6AID+gILTk9STUFMX0ZMT1eKAyAwZDNmZmJkMmE2ZDY0MzA5YjhhY2Q3MWRhYjZkMjBhZZoDDQoCdjIQABoFb3RoZXKoA+3QBdgDAOoDDmZlZWRyZV9tc19nYXRl+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAABpfas/gQUAAAAAAAAAAIkFYJ6lZElU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFXpAGAKAGtgSoBgCSAi4KCTc0MjYyMTEzNBITMTk0MDQzNzcyMDU3Mzk0MDcyNhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "561_1755822861.649",
+      "type": "feed",
+      "offset": 561,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822861,
+      "updated_time": 1755822861,
+      "target": {
+        "id": "1937853404241195087",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1937853404241195087",
+        "author": {
+          "id": "a190dcbae14e957b785a45ab64a79876",
+          "url": "https://api.zhihu.com/people/a190dcbae14e957b785a45ab64a79876",
+          "user_type": "people",
+          "url_token": "shen-shui-13-6",
+          "name": "Mr深水聊医史",
+          "headline": "人活着，委培ing，更新不定",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ee2b7377bf0a848646bd00c3293a770a_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 23260,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754800255,
+        "updated_time": 1754800255,
+        "voteup_count": 1546,
+        "thanks_count": 52,
+        "comment_count": 514,
+        "is_copyable": true,
+        "question": {
+          "id": "1937318516446429194",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1937318516446429194",
+          "author": {
+            "id": "cd85d99aef6137e175ef8e596313eb78",
+            "url": "https://api.zhihu.com/people/cd85d99aef6137e175ef8e596313eb78",
+            "user_type": "people",
+            "url_token": "li-da-ye-88-40-49",
+            "name": "giao笑视频",
+            "headline": "愚蠢即罪恶",
+            "avatar_url": "https://picx.zhimg.com/50/v2-0066fd50ffe306ba6ff8c7d4b7520d25_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 53,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "古代中医是如何发现新的中药材的？",
+          "created": 1754672727,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            980,
+            4571,
+            8132,
+            18012,
+            47719
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-9cebd6d6b210d95bdd0b9f410871c122_720w.jpg?source=b6762063",
+        "excerpt": "你知道著名的“安宫牛黄丸”是如何确定其疗效的？ 安宫牛黄丸的发明人，是清代名医吴瑭。吴瑭在自己的著作《温病条辨》里详细介绍了安宫牛黄丸的主要成分、药材用量、适应症，以及——药理逻辑 《温病条辨》里安宫牛黄丸的原文是这么写的： 牛黄(一两)、郁金(一两)、犀角(一两)、黄连(一两)、朱砂(一两)、梅片(二钱五分)、麝香(二钱五分)、真珠(五钱)、山栀(一两)、雄黄(一两)、金箔(一两)、黄芩（一两）而吴瑭给安宫牛黄丸定的…",
+        "excerpt_new": "你知道著名的“安宫牛黄丸”是如何确定其疗效的？ 安宫牛黄丸的发明人，是清代名医吴瑭。吴瑭在自己的著作《温病条辨》里详细介绍了安宫牛黄丸的主要成分、药材用量、适应症，以及——药理逻辑 《温病条辨》里安宫牛黄丸的原文是这么写的： 牛黄(一两)、郁金(一两)、犀角(一两)、黄连(一两)、朱砂(一两)、梅片(二钱五分)、麝香(二钱五分)、真珠(五钱)、山栀(一两)、雄黄(一两)、金箔(一两)、黄芩（一两）而吴瑭给安宫牛黄丸定的…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"QCoU4duQ\">你知道著名的“安宫牛黄丸”是如何确定其疗效的？</p><p data-pid=\"TdQmrpiH\">安宫牛黄丸的发明人，是清代名医吴瑭。吴瑭在自己的著作《温病条辨》里详细介绍了安宫牛黄丸的主要成分、药材用量、适应症，以及——药理逻辑</p><p data-pid=\"FLC9GR70\">《温病条辨》里安宫牛黄丸的原文是这么写的：</p><blockquote data-pid=\"3323eFIU\">牛黄(一两)、郁金(一两)、犀角(一两)、黄连(一两)、朱砂(一两)、梅片(二钱五分)、麝香(二钱五分)、真珠(五钱)、山栀(一两)、雄黄(一两)、金箔(一两)、黄芩（一两）</blockquote><p data-pid=\"T-owgSgH\">而吴瑭给安宫牛黄丸定的药效，有过一个24个字评价：</p><blockquote data-pid=\"knoitvZY\">“芳香化秽而利诸窍、咸寒保肾水而安心体、苦寒通火腑而泻心用”</blockquote><p data-pid=\"dq7nE-dr\">简单来说就是开窍醒神、降温止惊，临床上常用于解暑</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-30bc1ee1ccefc01211e9ccd816cc1555_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"371\" data-original-token=\"v2-30bc1ee1ccefc01211e9ccd816cc1555\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic2.zhimg.com/v2-30bc1ee1ccefc01211e9ccd816cc1555_r.jpg\"/><figcaption>吴瑭，字鞠通</figcaption></figure><p data-pid=\"HYgE1GaY\">那么吴瑭是如何解释安宫牛黄丸疗效背后的药理逻辑的呢？他是否是通过临床试验、又或者是自己亲自尝药得出的呢？</p><p data-pid=\"Skb6djKu\">答案是——压根没有任何试验和尝药。吴瑭对于安宫牛黄丸疗效的来源有过一段非常详尽的描述，老头是这么说的</p><blockquote data-pid=\"vgkRduy3\"><b>牛黄：</b>得日月之精，通心主之神<br/><b>犀角：</b>主治百毒，邪鬼瘴气<br/><b>真珠：</b>得太阴之精，而通神明<br/><b>郁金草、梅片、雄黄石、麝香：</b>合四香以为用，使闭固之邪热温毒深在厥阴之分者，一齐从内透出，邪秽自消，神明可复也<br/><b>黄连：</b>泻心火</blockquote><p data-pid=\"fa7gwSHI\">……</p><p data-pid=\"ivvGNSDp\">这里面可有一丁点儿的“发现”？全部都是臆想</p><p data-pid=\"ROxscOef\">但这并不妨碍安宫牛黄丸成为中药界的明星产品，甚至在今天依然有大量簇拥</p><p data-pid=\"n8F05wWb\">可能你又会问了，就不允许后世中医在用药过程中逐渐收集经验、完善药理，然后得出可靠的疗效来源吗？</p><p data-pid=\"qYpv2N4O\">可以啊，因为后世中医的确对安宫牛黄丸进行过完善。只不过药理部分，这帮中医依然是通过臆想</p><p data-pid=\"dvnCn3Dj\">后世中医里真正第一个发展和完善安宫牛黄丸的人是谁呢？</p><p data-pid=\"UnEBK6NO\">这个人就是绍兴名医——何廉臣</p><p data-pid=\"HAk9-IfC\">可能你不知道何廉臣是谁，但你一定听说过鲁迅在日记里提到自己父亲病重，医生给父亲开成对蟋蟀做药引的那段历史，这也成为后来中医著名的黑历史之一</p><p data-pid=\"hiG2zknr\">而这个给鲁迅父亲开成对蟋蟀的医生，就是何廉臣</p><p data-pid=\"zNzaM857\">何廉臣是第一个调整安宫牛黄丸配方的人，他在《重订广温热论》里将吴瑭的安宫牛黄丸做了“一丢丢”修改，原料改成了：</p><blockquote data-pid=\"2RRB0t9V\">“西牛黄、广郁金、白犀角、小川连、飞辰砂(各一两) ；梅冰、麝香(各二钱五分)； 真珠(五钱)、焦山栀、飞雄黄、青子芩(各一两) ，金箔为衣，蜡护”</blockquote><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8e3f126e411667350b3854f0aeec4d8a_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"429\" data-rawheight=\"629\" data-original-token=\"v2-8e3f126e411667350b3854f0aeec4d8a\" class=\"origin_image zh-lightbox-thumb\" width=\"429\" data-original=\"https://pic3.zhimg.com/v2-8e3f126e411667350b3854f0aeec4d8a_r.jpg\"/><figcaption>何廉臣</figcaption></figure><p data-pid=\"F-hvl1V4\">而且何廉臣不仅改了配方，甚至连药效也给一并改了</p><p data-pid=\"Lfwbrs8p\">在何廉臣的笔下，吴瑭原本用于治疗中暑的安宫牛黄丸，摇身一变被赋予了如下“神效”：</p><blockquote data-pid=\"z8GZQ2DA\">“治飞尸猝厥，五痫中恶，大人小儿痉厥之因于热者”</blockquote><p data-pid=\"0xFF80g1\">这里的“飞尸猝厥”就是“尸厥”，指突然昏倒不省人事，状如昏死，涵盖的可不仅仅是中暑那么简单了，例如脑出血这种急重症也可以被归纳其中</p><p data-pid=\"gqIMvirH\">这才有了安宫牛黄丸可用于“急救”的说法，这才有了后来凤凰卫视记者刘海若车祸后被安宫牛黄丸救命的故事，感兴趣的可以看我此前的科普</p><a href=\"https://www.zhihu.com/question/660502437/answer/3554622315\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">为什么有人觉得中医治疗效果比西医好？</a><p data-pid=\"JfRsVyPy\">所以这就是何廉臣的一家之言，安宫牛黄丸的原作者吴瑭可从来没有说过能用于急救</p><p data-pid=\"L8F2T7-C\">而且人吴瑭并没有说该如何服用安宫牛黄丸，何廉臣又故作聪明自己加戏，给安宫牛黄丸套上了一个送服药物的方法：</p><blockquote data-pid=\"P2GctDkv\">“脉虚者人参汤下，脉实者银花、薄荷汤下”</blockquote><p data-pid=\"bKxoYfyf\">试问今天临床上谁用人参汤送安宫牛黄丸下肚？你何廉臣凭什么这么用药？药理是什么？</p><p data-pid=\"c8jkersX\">一概不知</p><p data-pid=\"XL36Vd0Q\">至于为什么安宫牛黄丸改下配方，就从治疗中暑变成了治疗脑出血等急重症，何廉臣更是只字未提</p><p data-pid=\"fB3Zbosg\">所以你仔细了解了安宫牛黄丸的历史，这事儿就变的很搞笑</p><p data-pid=\"PSDovV1S\">药物原作者压根没说能用于急救，后世中医人没头没脑的给人配方一通乱改，连名字也不带变的就重新赋予了新的急救疗效，还臆造出了一套“神奇”的服用方法</p><p data-pid=\"DLhxAxCb\">这里可有半点儿中医“发现新药材”的事？</p><p data-pid=\"ntAGWbb9\">不过何廉臣还真的提到过安宫牛黄丸里一种成分的药理</p><p data-pid=\"9rG4SvR_\">不知道你有没有发现，在吴瑭与何廉臣两个版本的安宫牛黄丸配料里，都有同一种药材，这就是金箔</p><p data-pid=\"7ctGbsFL\">甚至今天我们销售的成品安宫牛黄丸里，还真有一个版本用的就是“金箔为衣”，称之为“安宫牛黄丸金衣版”</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4648534c40c26ff9d963db4646fb57f9_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"810\" data-original-token=\"v2-9cebd6d6b210d95bdd0b9f410871c122\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-7c1ef38e9282d14b2b000d4cd7b45dc4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-4648534c40c26ff9d963db4646fb57f9_r.jpg\"/><figcaption>金衣版安宫牛黄丸</figcaption></figure><p data-pid=\"-knL6k2y\">吴瑭是拿金箔入药，而何廉臣是拿金箔当药衣，这里的药理何在？又是否科学？</p><p data-pid=\"yHeuNWtW\">科学个der啊，究其原因是因为李时珍</p><p data-pid=\"9X3jTBrK\">因为李时珍这哥们儿在《本草纲目》里给金箔“赋予”了一种神奇的药性，说金箔的药性是：</p><blockquote data-pid=\"zUP0yQii\">“镇精神，坚骨髓，通利五脏邪气”</blockquote><p data-pid=\"gFibX4zQ\">回头吴瑭与何廉臣想都不想试都不试就照单全收，当作药理就给这么用药了</p><p data-pid=\"sVTZRqbJ\">你说这两哥们儿的心是有多大？</p><p data-pid=\"qrQd6KG2\">至于什么刘海若事件、黎德英事件，你仔细去了解这些历史细节都能发现，这又是一个个“我和科比联手砍下82分”的笑话</p><hr/><p data-pid=\"vXImaNwR\">所以学中医不能单纯的捧着专业课学，中医本身就是中国历史层叠的产物，你不了解这个层叠的过程，也就不会明白中医为何是今天这个模样</p><p data-pid=\"7NcQgAEI\">当然也就不会明白为什么中医在今天会衰落至此</p><hr/><p data-pid=\"k3bMVJUd\">资料来源：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-268e1c4e0fceaaec81582120e8774d7a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"728\" data-original-token=\"v2-d8e3862a24f7834332db1e48f82770ba\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-f04438964d6b59b70158a8c4ab1694ad_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic3.zhimg.com/v2-268e1c4e0fceaaec81582120e8774d7a_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 115836,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-9cebd6d6b210d95bdd0b9f410871c122_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 729,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1937853404241195087}",
+      "attached_info": "CvQHCMPD38i9hav7tAEQBBoJNzQxNDYwNTM1IP/A4MQGKIoMMIIEQLEESkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDczODUzMjUwMQoYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNjEzNjY0MWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5Mzc4NTM0MDQyNDExOTUwODeKARMxOTM3MzE4NTE2NDQ2NDI5MTk0qgEJcmVjb21tZW5kwgEgYTE5MGRjYmFlMTRlOTU3Yjc4NWE0NWFiNjRhNzk4NzbyAQoIDBIGTm9ybWFs8gEoCAoSJDcxZTRhODU3LWZhNmYtNDJmZS04NmY3LWM1MTUyNDA0ZWI1MvIBBggLEgI5NIICAIgC5NTK+YwzkgIgYTE5MGRjYmFlMTRlOTU3Yjc4NWE0NWFiNjRhNzk4NzaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAh9UU19TT1VSQ0VfWlJFQ0FMTF9JVEVNQ0ZfVVBWT1RF6AID+gILTk9STUFMX0ZMT1eKAyAwZDNmZmJkMmE2ZDY0MzA5YjhhY2Q3MWRhYjZkMjBhZZoDDQoCdjIQABoFb3RoZXKoA/yIB9gDAOoDGXRleHRBbGxTaXRlQWN0aW9uSXRlbUNGVjL6A9sBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQgAUY8wIiI3YyLTMwYmMxZWUxY2NlZmMwMTIxMWU5Y2NkODE2Y2MxNTU1Oi0IAxCtAxj1BCIjdjItOGUzZjEyNmU0MTE2NjczNTBiMzg1NGYwYWVlYzRkOGE6LQgDELgIGKoGIiN2Mi05Y2ViZDZkNmIyMTBkOTViZGQwYjlmNDEwODcxYzEyMjotCAMQ9AMY2AUiI3YyLWQ4ZTM4NjJhMjRmNzgzNDMzMmRiMWU0OGY4Mjc3MGJhgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEBm1hbnVhbMIEAzE1OcgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAFvbnz+BBQAAAAAAAAAAiQVgnqVkSVTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVekAYAoAa3BKgGAJICLgoJNzQxNDYwNTM1EhMxOTM3ODUzNDA0MjQxMTk1MDg3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "562_1755822861.256",
+      "type": "feed",
+      "offset": 562,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822861,
+      "updated_time": 1755822861,
+      "target": {
+        "id": "1941843732128306674",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941843732128306674",
+        "author": {
+          "id": "138b68518ef08d7effdb2023a5d86944",
+          "url": "https://api.zhihu.com/people/138b68518ef08d7effdb2023a5d86944",
+          "user_type": "people",
+          "url_token": "linxueli",
+          "name": "子林",
+          "headline": "心理咨询，情感分析，AI应用",
+          "avatar_url": "https://picx.zhimg.com/50/v2-566ee141ffcf7fd0babd0a9b7424acd4_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "南京理工大学 兵器发射理论与技术硕士"
+            }
+          ],
+          "followers_count": 10812,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755751623,
+        "updated_time": 1755751623,
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "15173565404",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/15173565404",
+          "author": {
+            "id": "5923937699242cf875a108c007a44fb8",
+            "url": "https://api.zhihu.com/people/5923937699242cf875a108c007a44fb8",
+            "user_type": "people",
+            "url_token": "23-55-64-34",
+            "name": "徐汇区b66cdc",
+            "headline": "承兑汇票，大宗商品。P.0.S  能源590，LNG，原油",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-f1be5ed24936a7311e75da3884b2bd6d_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 50,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "当你看一本书的时候，读到三分之一的时候，发现内容很糟糕，接下来您会怎么办？",
+          "created": 1742186813,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 7,
+          "bound_topic_ids": [
+            192556,
+            2118267,
+            2174287,
+            2318202,
+            3395584
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "我会果断放弃。理由很简单： 1. 条件概率视角当你已经花了三分之一时间，却发现书里大段空洞、堆砌、甚至跑题，那么这不是偶然，而是特征。 在这种情况下，整本书继续烂下去的概率极大幅度提升。就像你走进一家餐厅，前菜就难以下咽，基本不用期待主菜能翻盘。条件概率告诉我们：前1/3是样本，样本已经崩了，母体的希望也不大。2. 沉没成本思维很多人纠结“都读了三分之一，不读完可惜”。但这正是典型的 沉没成本谬误。 在决策…",
+        "excerpt_new": "我会果断放弃。理由很简单： 1. 条件概率视角当你已经花了三分之一时间，却发现书里大段空洞、堆砌、甚至跑题，那么这不是偶然，而是特征。 在这种情况下，整本书继续烂下去的概率极大幅度提升。就像你走进一家餐厅，前菜就难以下咽，基本不用期待主菜能翻盘。条件概率告诉我们：前1/3是样本，样本已经崩了，母体的希望也不大。2. 沉没成本思维很多人纠结“都读了三分之一，不读完可惜”。但这正是典型的 沉没成本谬误。 在决策…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"WCNLUtUT\">我会果断放弃。理由很简单：</p><hr/><h3>1. 条件概率视角</h3><p data-pid=\"_K1YHAL3\">当你已经花了三分之一时间，却发现书里大段空洞、堆砌、甚至跑题，那么这不是偶然，而是特征。<br/> 在这种情况下，整本书继续烂下去的概率极大幅度提升。就像你走进一家餐厅，前菜就难以下咽，基本不用期待主菜能翻盘。<b>条件概率告诉我们：前1/3是样本，样本已经崩了，母体的希望也不大。</b></p><hr/><h3>2. 沉没成本思维</h3><p data-pid=\"sMjjr5pl\">很多人纠结“都读了三分之一，不读完可惜”。但这正是典型的<b>沉没成本谬误</b>。<br/> 在决策科学和行为经济学里，沉没成本指的是<b>已经投入、无法回收的资源</b>（时间、精力、金钱）。<i>理性决策的关键在于：<b>既然这些成本不可逆，就不应再影响后续选择</b>。</i></p><p data-pid=\"l8eAYSJu\">换句话说，你该关注的只有两个变量：</p><ul><li data-pid=\"0g1pdbOt\"><b>未来的边际成本</b>：还要花多少时间和注意力？<br/> </li><li data-pid=\"xD8cisNK\"><b>未来的边际收益</b>：这本书接下来能给你多大概率的收获？<br/> </li></ul><p data-pid=\"3-Fpqbd7\">如果边际成本远大于预期收益，那么继续读下去就是非理性的决策。<br/> 正如在投资领域，没人会因为前一只股票已经亏损，就强行继续加仓；在认知投资里，读书也是一样的。书读到三分之一已经判定质量低劣，那么继续投入，就是把稀缺的注意力资本错配在负资产上。</p><hr/><h3>3. 可选方案</h3><p data-pid=\"Dyg_aWkC\">有人可能说挑着看或硬着头皮读完。问题是：</p><ul><li data-pid=\"iz52f36M\"> 挑着看：如果连基本框架都不靠谱，挑的那点亮点大概率也碎片化，性价比很低。<br/> </li><li data-pid=\"ib4NG3au\"> 硬着头皮：那纯粹是把读书当受罪，浪费生命。<br/> </li></ul><p data-pid=\"7j7w12_I\">读书本质是和作者的心智做交换，如果对方给的只是空话堆砌，那这笔交换就是亏本交易。</p><hr/><h3>结论</h3><p data-pid=\"5v8R35Bz\"><b>直接放弃</b>。<br/> 人生时间有限，你不是来做考古学家挖别人写烂的砖头的。<br/> 一本书读不下去，不是你的问题，而是作者没完成好自己的工作。</p><hr/><h2><br/> <b>烂书唯一的价值，就是教你及时止损。</b></h2>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 29,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941843732128306674}",
+      "attached_info": "CsUFCMPD38i9hav7tAEQBBoJNzQzMjQ4ODAxIMfJmsUGKAEwAECyBEokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwyEgEwGAAgADoAWgkxMTQwMTk1MjFiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxODQzNzMyMTI4MzA2Njc0igELMTUxNzM1NjU0MDSqAQlyZWNvbW1lbmTCASAxMzhiNjg1MThlZjA4ZDdlZmZkYjIwMjNhNWQ4Njk0NPIBCggMEgZOb3JtYWzyASgIChIkZjQwMjhkNWQtOTkxYi00ODRiLTljYjMtZjgyYWUzN2EwYjUw8gEGCAsSAjk0ggIAiALk1Mr5jDOSAiAxMzhiNjg1MThlZjA4ZDdlZmZkYjIwMjNhNWQ4Njk0NJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AID+gILTk9STUFMX0ZMT1eKAyAwZDNmZmJkMmE2ZDY0MzA5YjhhY2Q3MWRhYjZkMjBhZZoDDQoCdjIQABoFb3RoZXKoAx3YAwDqAx90ZXh0XzEyaG91cl91bmlmaW5zaGVkX3JlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgNwTmT+BBQAAAAAAAAAAiQVgnqVkSVTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVekAYAoAa4BKgGAZICLgoJNzQzMjQ4ODAxEhMxOTQxODQzNzMyMTI4MzA2Njc0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "563_1755822861.744",
+      "type": "feed",
+      "offset": 563,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822861,
+      "updated_time": 1755822861,
+      "target": {
+        "id": "1940759624128103499",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1940759624128103499",
+        "author": {
+          "id": "163433f603247c262242e03441d656cf",
+          "url": "https://api.zhihu.com/people/163433f603247c262242e03441d656cf",
+          "user_type": "people",
+          "url_token": "apo-rpa",
+          "name": "阿坡RPA",
+          "headline": "专注于分享AI+RPA提效实战干货，个人成长，全网同名",
+          "avatar_url": "https://pica.zhimg.com/50/v2-3542cfd6aa17335c4f7d4fd9b5eed17c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1497,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755493151,
+        "updated_time": 1755493151,
+        "voteup_count": 3,
+        "thanks_count": 0,
+        "comment_count": 3,
+        "is_copyable": true,
+        "question": {
+          "id": "1930764350865510895",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1930764350865510895",
+          "author": {
+            "id": "118cd8c82d1a5984ea4394a74e0e67ac",
+            "url": "https://api.zhihu.com/people/118cd8c82d1a5984ea4394a74e0e67ac",
+            "user_type": "people",
+            "url_token": "song-pan-39-30",
+            "name": "宋攀",
+            "headline": "投资分析师",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何更好地阅读开源项目?",
+          "created": 1753110093,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            5265
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "可以用AI编程工具帮你读呀，比如Claude code 输入/init，他会帮你通读整个项目，然后把项目架构和模块的整体介绍写入CLAUDE.MD文件内，然后你可以基于这个步骤，基于提问它任何一个文件或者模块，他都能给你解读，非常方便 使用Claude code有门槛，不过可以用claude-code-router将其请求路由到国产大模型，比如qwen3-coder，kimi k2，glm-4.5等国产优秀大模型 [文章: 3 分钟讲透 Win 版 Claude Code部署：整合 Qwen-Coder + GLM-4.5，零翻墙平替 Cursor！]",
+        "excerpt_new": "可以用AI编程工具帮你读呀，比如Claude code 输入/init，他会帮你通读整个项目，然后把项目架构和模块的整体介绍写入CLAUDE.MD文件内，然后你可以基于这个步骤，基于提问它任何一个文件或者模块，他都能给你解读，非常方便 使用Claude code有门槛，不过可以用claude-code-router将其请求路由到国产大模型，比如qwen3-coder，kimi k2，glm-4.5等国产优秀大模型 [文章: 3 分钟讲透 Win 版 Claude Code部署：整合 Qwen-Coder + GLM-4.5，零翻墙平替 Cursor！]",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"yq2YTr7n\">可以用AI编程工具帮你读呀，比如Claude code 输入/init，他会帮你通读整个项目，然后把项目架构和模块的整体介绍写入CLAUDE.MD文件内，然后你可以基于这个步骤，基于提问它任何一个文件或者模块，他都能给你解读，非常方便</p><p data-pid=\"CtTVxzyM\">使用Claude code有门槛，不过可以用claude-code-router将其请求路由到国产大模型，比如qwen3-coder，kimi k2，glm-4.5等国产优秀大模型</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://zhuanlan.zhihu.com/p/1940572974798337908\" class=\"internal\">3 分钟讲透 Win 版 Claude Code部署：整合 Qwen-Coder + GLM-4.5，零翻墙平替 Cursor！</a><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 239,
+        "favorite_count": 5,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1940759624128103499}",
+      "attached_info": "CpIGCMPD38i9hav7tAEQBBoJNzQyNzUxNTA0IJ/misUGKAMwA0CzBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgkxMTU4OTMyNDdiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQwNzU5NjI0MTI4MTAzNDk5igETMTkzMDc2NDM1MDg2NTUxMDg5NaoBCXJlY29tbWVuZMIBIDE2MzQzM2Y2MDMyNDdjMjYyMjQyZTAzNDQxZDY1NmNm8gEKCAwSBk5vcm1hbPIBKAgKEiRlNWE4NGRiOC04N2FkLTQzZDAtYjI5OS1jMzQ3Y2FjYTFjMTfyAQYICxICOTSCAgCIAuTUyvmMM5ICIDE2MzQzM2Y2MDMyNDdjMjYyMjQyZTAzNDQxZDY1NmNmmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgL6AgtOT1JNQUxfRkxPV4oDIDBkM2ZmYmQyYTZkNjQzMDliOGFjZDcxZGFiNmQyMGFlmgMNCgJ2MhAAGgVvdGhlcqgD7wHYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgRMmoP4EFAAAAAAAAAACJBWCepWRJVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBV6QBgCgBrkEqAYAkgIuCgk3NDI3NTE1MDQSEzE5NDA3NTk2MjQxMjgxMDM0OTkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=563&desktop=true&end_offset=569&page_number=95&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=563&desktop=true&end_offset=569&page_number=95&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

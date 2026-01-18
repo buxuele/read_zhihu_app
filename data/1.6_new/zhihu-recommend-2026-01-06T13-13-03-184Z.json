@@ -1,0 +1,603 @@
+{
+  "data": [
+    {
+      "id": "90_1767705242.653",
+      "type": "feed",
+      "offset": 90,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705242,
+      "updated_time": 1767705242,
+      "target": {
+        "excerpt_new": "三年前，面试官筛选候选人时，会特别看重个人项目。简历上如果有这样的作品集：五个代码仓库，每个都有整洁的 README 文件；一个带用户认证的任务管理器，一个界面精美的天气应用，一个集成 Stripe 支付的电商网站克隆版，全部部署上线、功能完备、打磨精致。这样的作品集足以让面试直接结束，当场录用。而今天，你盯着屏幕，心里却在打鼓。据 Bolt.new 的 CEO Eric Simons透露，其平台约 60%–70% 的用户是非技术人员，而 Y Com…",
+        "is_labeled": false,
+        "favorite_count": 85,
+        "article_type": "normal",
+        "allow_segment_interaction": true,
+        "type": "article",
+        "excerpt": "三年前，面试官筛选候选人时，会特别看重个人项目。简历上如果有这样的作品集：五个代码仓库，每个都有整洁的 README 文件；一个带用户认证的任务管理器，一个界面精美的天气应用，一个集成 Stripe 支付的电商网站克隆版，全部部署上线、功能完备、打磨精致。这样的作品集足以让面试直接结束，当场录用。而今天，你盯着屏幕，心里却在打鼓。据 Bolt.new 的 CEO Eric Simons透露，其平台约 60%–70% 的用户是非技术人员，而 Y Com…",
+        "voteup_count": 62,
+        "id": "1990418385142563240",
+        "comment_permission": "all",
+        "voting": 0,
+        "comment_count": 6,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "column": {
+          "comment_permission": "private",
+          "intro": "从数学、物理和计算机科学的视角来看世界。",
+          "updated": 1728092815,
+          "url": "https://api.zhihu.com/columns/c_1573251816665358336",
+          "type": "column",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_following": false,
+            "url": "",
+            "user_type": "people",
+            "name": "匿名用户",
+            "headline": "",
+            "followers_count": 0,
+            "is_followed": false,
+            "id": "",
+            "url_token": "",
+            "is_org": false,
+            "gender": -1
+          },
+          "title": "noinoi的理科世界笔记",
+          "imageUrl": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "is_following": false,
+          "id": "c_1573251816665358336"
+        },
+        "visited_count": 7075,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/articles/1990418385142563240",
+        "title": "个人项目在今天还有什么用",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "updated": 1767336745,
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"nNGBdM9t\">三年前，面试官筛选候选人时，会特别看重个人项目。简历上如果有这样的作品集：五个代码仓库，每个都有整洁的 README 文件；一个带用户认证的任务管理器，一个界面精美的天气应用，一个集成 Stripe 支付的电商网站克隆版，全部部署上线、功能完备、打磨精致。这样的作品集足以让面试直接结束，当场录用。而今天，你盯着屏幕，心里却在打鼓。据 Bolt.new 的 CEO Eric Simons透露，其平台约 60%–70% 的用户是非技术人员，而 Y Combinator 2025 冬季批次中，已有 25% 的初创公司其代码库中 95% 的内容由 AI 生成。</p><p data-pid=\"aTg66nRO\">1973 年，经济学家Michael Spence发表了一篇后来为他赢得诺贝尔奖的论文。他在“劳动力市场信号传递理论”中提出了一个反直觉的原理：文凭之所以有效，并非因为你在其中学到了什么，而是因为获得它需要付出高昂成本。博士学位之所以让人高看一眼，是因为其他人难以承受取得学位所需的长期努力。学位本身反而不如“你熬过了整个过程”这一事实重要，这个逻辑之所以成立，恰恰因为它“难”。</p><p data-pid=\"zCh2moAV\">Spence 的洞见解释了为何个人项目一度成为开发者招聘的黄金标准：当Sebastian McKenzie 还在澳大利亚读高中时，就独立开发了 Babel 编译器，随后被 Meta 录用，尽管他没有大学学位。Kenneth Reitz写了 Python 的 Requests 库，Heroku 直接聘他为“Python Overlord”。Dan Abramov为一次大会演示开发了 Redux，几个月后就被 Facebook 招募。这些故事塑造了一代人的职业信条：“动手去做，交付真实项目。” 这句建议曾行之有效，因为“交付”确实极难。在 AI 时代来临前，构建并部署一个有实质内容的项目至少需要 4–8 周：你需要理解前端、调试后端、配置部署、排查各种故障，过程痛苦而可见，而这种“痛苦”正是其价值所在。</p><p data-pid=\"fjLO2kod\">HackerRank 2018 年对近 4 万名开发者的调查显示：企业高管对 GitHub 项目的重视程度甚至超过工作年限；中小公司更加看重作品集，80% 会仔细审阅，而大公司这一比例为 66%。作品集之所以成为有效信号，正是因为其“生产成本高”，代表了真实付出的劳动。随后，AI 彻底压垮了这一“真才实学的证明”，悄然蜕变为“提示词的证明”。</p><p data-pid=\"WSZZx1zV\">Bolt.new 于 2024 年 10 月上线，短短五个月内ARR已达 4000 万美元，成为史上增速第二快的产品，仅次于 ChatGPT。它的宣传语直白有力：“输入做一个 Spotify 克隆版，60 秒内即可获得一个功能完整的网页应用。” 另一款 AI 编程助手 Cursor 年同比增长达 6400%；MIT 研究发现，使用 AI 辅助的开发者任务完成速度提升 55%。一家 YC 孵化的金融科技公司仅用三周就完成了过去需三至四个月才能构建的 MVP。2025 年 2 月初，Andrej Karpathy发文指出这一转变，并将其命名为 vibe coding。该词迅速传播，几周内就被《韦氏词典》收录。Visa、Reddit、DoorDash 等公司开始在招聘启事中明确要求 vibe coding 技能。这正是Spence理论的逆向演绎：当信号的生产成本趋近于零，信号便不再具有区分度。过去，作品集证明的是坚持力、技术深度与攻克难题的能力。如今，它只证明你能写一句提示词。</p><p data-pid=\"B5ogiYHO\">Goodhart’s Law在此精准应验：当一项指标成为目标，它便不再是好指标。个人项目成了目标，开发者便开始优化交付项目的数量，而非项目本应体现的核心能力。AWS 认证早已走过类似轨迹：从差异化优势，沦为行业标配，最终变成噪音。CloudApper《2025 招聘报告》显示：超过 40% 的招聘人员如今难以区分真实经验与 AI 增强内容，谷歌员工已向管理层提议恢复现场面试，以应对 AI 作弊风险，take-home assignment正在全行业迅速消亡。</p><p data-pid=\"8FRh1L1f\">对刚入行的新人而言尤其残酷。SignalFire 研究显示：2024 年，大型科技公司面向应届毕业生的招聘量同比减少 25%；斯坦福大学“数字经济项目”发现：22–25 岁软件开发者的就业人数较 2022 年峰值下降近 20%；Salesforce CEO Marc Benioff宣布：2025 年将不再新增任何软件工程师岗位，理由是“AI 已大幅提升生产力”。</p><p data-pid=\"Nuwywhsd\">在过去，个人项目是经验尚浅的初级开发者脱颖而出的关键路径。如今，让“交付”变得简单的工具，同时也让初级开发者显得愈发可有可无。YC 孵化公司 Paces 的 CEO James McWalter在 30 天内收到 23,000 份简历应聘 8 个岗位。Spotify 一位工程经理在 15 小时内收到 1700 份申请。一位今年已完成 30+ 招聘的上市金融科技公司招聘官坦言：“主动投递的候选人仅占录用总数的 10% 左右……且他们通过面试轮次的概率远低于我们主动寻访的候选人。”</p><p data-pid=\"T0Gu271J\">Spence的理论不仅解释了“什么失效了”，更指明了“什么依然有效”。若信号的价值源于其成本，那么问题就变成：今天，还有什么仍难以轻易获得？显然不是“交付”，它已近乎免费。<br/>但“交付之后”的一切？那仍需要真实投入。</p><ul><li data-pid=\"hk3WukSO\">在既有复杂系统中工作。从零开始构建项目，如今谁都能靠提示词搞定。但深入 Django 源码贡献、向 Kubernetes 提交 PR、修复 PostgreSQL 中的底层 Bug？这需要你理解非自己设计的系统，在他人设定的约束下工作。</li><li data-pid=\"eEpAvz50\">让真实用户持续使用你的产品。部署已毫无意义，留存才是关键。一个拥有 10 位活跃用户、且用户报出需你亲力修复的 Bug 的项目，其说服力远胜一个零下载、仅靠精美界面撑场面的作品集。人人都能“交付”之后，”有人用“是另一重完全不同的挑战。</li><li data-pid=\"k3CSDkI_\">捕捉 AI 的错误。Stack Overflow《2025 开发者调查》问：什么情况下你仍会选择求助人类而非 AI？75% 的人回答：“当我无法信任 AI 的答案时。” 当 61% 的 AI 生成代码需经重构，能识别问题的人，比生成代码的人更重要。如今，写代码已很简单；判断其是否“可靠”，才是难题。</li><li data-pid=\"ylrSTGb7\">阐释你的思考过程。代码本身廉价，背后的逻辑却昂贵。招聘方不仅想看你构建了什么，更想听你解释“为何如此设计”。能否阐明架构决策、权衡取舍，并与非技术人沟通，这些能力，随着 AI 大规模生成“无文档代码”而愈发珍贵。</li></ul><p data-pid=\"WKoCMzwE\">GitHub 2025 年 12 月发布的《Octoverse 报告》清晰指出了这一转变：“那些最深度驾驭 AI 的开发者，已不再将自己定位为‘代码生产者’，而是‘代码创意总监’，核心技能不再是实现，而是协调与验证。”</p><p data-pid=\"3bIgiwgm\">所以Spence说的信号并未消失，它们只是从起跑线，移到了终点线。“动手去做”这句话没错，只是不够完整。构建项目对学习仍至关重要：调试时的反馈循环、排查故障的顿悟时刻、最终理解“为何出错”的认知跃迁……这个过程，AI 无法真正替代。但仅靠“构建”，已无法让你脱颖而出。</p><p data-pid=\"NKoifMmh\">GitHub CEO Thomas Dohmke 观察到：“我们正步入一个新时代：实习生与初级开发者入职时，已对市面上最顶尖的 AI 代码生成工具运用自如。” 高效使用 AI 已是预期，而非亮点。靠提示词生成可用应用，只是入场券。面试官任然期待打开简历中的那五个项目，全部部署、全部运行正常。但此刻，他在寻找不同的东西：不是你是否交付，而是你是否持续维护。不是代码能否运行，而是你能否解释其架构逻辑。不是你是否起步，而是你是否真正完成。曾用以证明“你能构建”的作品集，如今仅能证明“你曾开始”。任何人都能靠一句提示词抵达起点，而起点之后的一切，才是当下真正重要的事。</p>",
+        "author": {
+          "url": "https://api.zhihu.com/people/0fcc5f28129ce1239e5053ebbf302a0d",
+          "headline": "撸铁达人，一次一段 python script",
+          "gender": 1,
+          "followers_count": 1477,
+          "is_following": false,
+          "id": "0fcc5f28129ce1239e5053ebbf302a0d",
+          "user_type": "people",
+          "url_token": "ji-niu-niu-32",
+          "name": "纪牛牛",
+          "avatar_url": "https://picx.zhimg.com/50/v2-98af7f4fcacb1e1766809c77c4087a68_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false
+        },
+        "created": 1767336745
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1990418385142563240}",
+      "attached_info": "CvkFCNn8rbrnv8nWsAEQBxoJMjY4NDc2NDMwIKnW3coGKD4wBkBaSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWggxMzEyOTQ4NWIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5OTA0MTgzODUxNDI1NjMyNDCKARVjXzE1NzMyNTE4MTY2NjUzNTgzMzaqAQlyZWNvbW1lbmTCASAwZmNjNWYyODEyOWNlMTIzOWU1MDUzZWJiZjMwMmEwZPIBCggMEgZOb3JtYWzyASgIChIkMTkzNTRiN2EtYmVmMy00ODc5LTkwZWEtZDEzMjg1MGYxZDNi8gEGCAsSAjE2ggIAiALR1cWbuTOSAiAwZmNjNWYyODEyOWNlMTIzOWU1MDUzZWJiZjMwMmEwZJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1Yx6AIE+gILTk9STUFMX0ZMT1eKAyBhODkxYThlN2YwNjc0ODNmOTBkNWZkZGZkY2NjY2EwMpoDDQoCdjIQABoFb3RoZXKoA6M32AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACABIZ8P4EFAAAAAAAAAACJBfvNqFA8gLI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRCQBgCgBlqoBgGSAi4KCTI2ODQ3NjQzMBITMTk5MDQxODM4NTE0MjU2MzI0MBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "91_1767705242.204",
+      "type": "feed",
+      "offset": 91,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705242,
+      "updated_time": 1767705242,
+      "target": {
+        "comment_count": 24,
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "id": "1991796114911953883",
+        "author": {
+          "is_following": false,
+          "user_type": "people",
+          "headline": "",
+          "url_token": "qian-yue-69-41",
+          "name": "千月",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-a31296f98bc2d85c6ec58c4253443b0d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 1593,
+          "id": "8e8d0a9eb3abeaa57ab86162642a6429",
+          "url": "https://api.zhihu.com/people/8e8d0a9eb3abeaa57ab86162642a6429",
+          "is_followed": false
+        },
+        "updated_time": 1767661199,
+        "thanks_count": 0,
+        "content": "<p data-pid=\"QyHMjwBc\">在现代战争里，我们见过雇佣兵，见过盟军支援，见过为了钱卖命的，也见过为了所谓普世价值喊口号的。</p><p data-pid=\"qh3RNGU5\">但是，像古巴这样，为了另一个国家的元首，不仅出人，而且是作为最后一道防线去肉搏、去牺牲，甚至是用身体去挡导弹，这是一种什么关系。</p><p data-pid=\"RsvXGUVN\">为什么是古巴人？为什么必须是古巴人？</p><p data-pid=\"sFsyw0kU\">这三十二名牺牲的古巴人，其实映射着拉丁美洲这块魔幻大陆的左翼底色。</p><p data-pid=\"TMLoTeKh\">一）生死契约</p><p data-pid=\"RvdCsS6Y\">委内瑞拉与古巴其实有一套共生系统。</p><p data-pid=\"vhtOl8SN\">上个世纪九十年代，那个时候的古巴，正处在历史上最黑暗的时刻。</p><p data-pid=\"Qa9IJwYp\">苏联解体了，老大哥没了，美国人的封锁像铁桶一样围着古巴岛。</p><p data-pid=\"ZS4aj811\">卡斯特罗就像一个孤独的老船长，守着一艘破败的船，四面八方都是惊涛骇浪。</p><p data-pid=\"6FWxsGxU\">古巴缺油、缺钱、缺朋友，在这个世界上孤立无援。</p><p data-pid=\"aYAc4TrQ\">而就在这个时候，委内瑞拉出现了一个年轻人，叫查韦斯。</p><p data-pid=\"ogbC4jEQ\">一九九四年，查韦斯刚刚出狱，他还是个没权没势的退伍军人，但他要去古巴见卡斯特罗。</p><p data-pid=\"sc3B6Np1\">按照常规的外交礼仪，这种级别的人访问，随便派个官员接待一下就行了。</p><p data-pid=\"52ku7H0w\">但是当查韦斯的飞机降落在哈瓦那机场的时候，扶梯放下来，那个满脸大胡子、穿着绿军装的传奇人物卡斯特罗，亲自站在舷梯下面等着他。</p><p data-pid=\"C-vNzlGC\">卡斯特罗是谁，他是拉美左翼革命的活化石，是反美斗争的神像。</p><p data-pid=\"JYF4TLk-\">他亲自迎接一个当时还名不见经传的查韦斯，这不仅仅是重视，这是一种政治上的认亲。</p><p data-pid=\"wBBuRnQ5\">卡斯特罗看懂了查韦斯，他也看懂了局势。</p><p data-pid=\"1EEtdV0O\">他知道，古巴有的是成熟的左翼革命理论，有的是训练有素的军队和情报人员，更有全世界最好的医生和教师队伍，也就是我们说的软实力和硬安保。</p><p data-pid=\"BcBzeiGS\">但是古巴缺血，这个血就是石油和美元。</p><p data-pid=\"hF6B9hbH\">而委内瑞拉呢，委内瑞拉简直就是坐在金山上。他们有全世界储量最大的石油，但是查韦斯四面楚歌。</p><p data-pid=\"y62VtK7a\">国内的旧贵族恨他，美国的资本家恨他，他手里握着石油这把利剑，但他没有盾牌。</p><p data-pid=\"uKkOwt09\">他缺乏一套能够有效控制社会、防范政变、动员底层的组织体系。</p><p data-pid=\"5zojtBdF\">所以这两个人的拥抱，是一个完美的互补。这也是古巴和委内瑞拉这几十年关系的底层代码。</p><p data-pid=\"zaNEQ_o1\">有人说，这不就是利益交换吗。</p><p data-pid=\"cHksWn0x\">古巴派医生去委内瑞拉扶贫，换取委内瑞拉的石油运到古巴去发电。这就是所谓的石油换医生计划。</p><p data-pid=\"VJdGJY1e\">如果你只看到这一层，那你还是只看到了表面。</p><p data-pid=\"1dBEjsdH\">这笔账表面上看是经济账，实际上是国家安全账，甚至是政权保卫战。</p><p data-pid=\"96An0329\">古巴派去委内瑞拉的，真的只有医生吗。</p><p data-pid=\"ec1hMZ1f\">古巴向委内瑞拉输出的，其实是一整套的国家治理操作系统。这其中包括了军队的训练体系，情报的监控体系，甚至是户籍管理和身份证系统。</p><p data-pid=\"UGlnXqRs\">你想一想，对于一个像委内瑞拉这样时刻面临外部颠覆风险的国家来说，什么最重要。</p><p data-pid=\"sSdlKpzM\">不是石油，是信息。是谁在密谋造反，是哪支部队不听指挥，是哪个街区有骚乱的苗头。</p><p data-pid=\"SlK5FDYN\">在这个领域，古巴人是全世界顶级的专家。</p><p data-pid=\"TaYaV3sl\">古巴被美国情报机构渗透了几十年，早就练就了一身反渗透的绝世武功。</p><p data-pid=\"xTJ0iZ5s\">古巴的情报人员，那是在冷战的刀尖上跳舞活下来的人精。</p><p data-pid=\"1J6ZE7Tu\">所以，当查韦斯，以及后来的马杜罗，把国家的安全大门向古巴打开的时候，他们其实是引入了一套极其高效的防范系统。</p><p data-pid=\"PmZ9KzqY\">那些在委内瑞拉各个社区服务的古巴医生、古巴教师，他们不仅仅是技术人员，他们也是这套免疫系统的末梢神经。</p><p data-pid=\"3TH_dfk1\">他们深入到委内瑞拉社会的毛细血管里，能够感知到最细微的社会脉动。</p><p data-pid=\"u-UZNmMO\">这就解释了为什么这次美国突袭，最后死守在马杜罗身边的会是古巴人。</p><p data-pid=\"-FNo2-o2\">因为在委内瑞拉的权力结构里，古巴力量已经深度嵌入了。</p><p data-pid=\"53YHKqTk\">他们不是外人，他们是这套系统的核心防火墙。</p><p data-pid=\"x4Lb-k_O\">为什么古巴政府愿意派人去卖命？</p><p data-pid=\"8Jb8AS2g\">这里面有一个生存逻辑，那就是命运共同体。</p><p data-pid=\"2D93ivYp\">对于古巴来说，委内瑞拉不是一个普通的贸易伙伴，而是古巴呼吸机上的那根输氧管。</p><p data-pid=\"iRXMi2Ei\">古巴的经济结构非常脆弱，长期的封锁让他们极度依赖外部能源输入。</p><p data-pid=\"orfGZG9t\">委内瑞拉每天运往古巴的数万桶石油，就是哈瓦那街头的灯火，就是古巴工厂的动力，就是古巴老百姓餐桌上的面包。</p><p data-pid=\"TZpUxSUG\">如果委内瑞拉倒下了，如果马杜罗政权崩溃了，如果一个亲美的右翼政府在加拉加斯上台，那么后果是什么呢。</p><p data-pid=\"kL_Gldd0\">后果就是古巴的能源生命线会被立刻切断。</p><p data-pid=\"-v4QTdjs\">古巴将不得不再次面对上世纪九十年代那种甚至连公共交通都瘫痪的特殊时期。</p><p data-pid=\"xfT3X_3F\">那对古巴政权来说，是真正的生存危机。</p><p data-pid=\"8Is6-Q_7\">在这种绑定关系下，古巴政权和委内瑞拉政权其实已经不是两个独立的国家了，他们在某种意义上合成了一个地缘政治的共生体。</p><p data-pid=\"VtzR2KD9\">古巴出脑子，古巴出肌肉的记忆，委内瑞拉出血液，委内瑞拉出能量。</p><p data-pid=\"3ukgoGkl\">在这个共生系统里，没有谁利用谁，只有谁也离不开谁。</p><p data-pid=\"XfO0p7eC\">说到这里，你可能还是会有一个疑问。就算国家利益高度绑定，但具体到马杜罗这个总统个人，为什么他敢把自己的身家性命，完全托付给一群外国人。</p><p data-pid=\"ziqAxcU1\">为什么在生死关头，他身边最信任的不是自己的同胞，而是这群讲着同一种语言但口音完全不同的古巴人？</p><h3>二）御林军的秘密</h3><p data-pid=\"oChhJqWC\">你可能会觉得奇怪，作为一个国家的总统，马杜罗难道不应该最信任自己的国民吗。委内瑞拉有那么多军队，有那么多警察，为什么偏偏要把最重要的贴身安保工作，也就是那道最后防线，交给外国人呢。</p><p data-pid=\"eTrL-wPM\">要回答这个问题，我们首先得重新认识一下马杜罗这个人。</p><p data-pid=\"2jB5VAXv\">在很多媒体的描述里，马杜罗以前是个开公交车的司机，似乎是因为运气好才接了查韦斯的班。</p><p data-pid=\"Rj2zHzzh\">如果你真的这么认为，那你就被表面现象骗了。</p><p data-pid=\"B9-G9Pqt\">马杜罗这个人的底色，是一个拥有纯正哈瓦那基因的革命者。</p><p data-pid=\"9muNDLQj\">早在上个世纪八十年代，年轻的马杜罗就已经去了古巴。</p><p data-pid=\"fggBLjQa\">他在哈瓦那的一所特殊学校里接受过长期的政治培训。那是一所专门为拉美左翼培养干部的学校，你可以把它理解为拉美革命的黄埔军校。</p><p data-pid=\"cKqOrEnl\">在那段岁月里，马杜罗读的是古巴的书，听的是卡斯特罗的演讲，学的是古巴政权的那一套组织原则。</p><p data-pid=\"LTQdUey-\">这意味着什么呢。意味着在思想操作系统上，马杜罗和古巴领导层是完全兼容的。</p><p data-pid=\"g9YSJr44\">对于古巴的高层来说，查韦斯或许是个强有力的盟友，但他毕竟是个半路出家的军人，带有很强的个人英雄主义色彩。</p><p data-pid=\"bf6_dR_-\">而马杜罗不一样，马杜罗在古巴人眼里，那是看着长大的孩子，是亲传弟子，是彻头彻尾的自己人。</p><p data-pid=\"_X1ygXKO\">这种情感上的纽带和思想上的同频，是马杜罗信任古巴人的第一个基础。</p><p data-pid=\"GZ1Lvv33\">但是，光有感情是不够的。</p><p data-pid=\"FoXizKKe\">对于拉美的总统来说，最危险的职业风险从来不是来自外部的入侵，而是来自内部的背叛。</p><p data-pid=\"Jfz23PmO\">拉美政治有一个著名的特产，那就是军事政变。</p><p data-pid=\"5e8YXBsX\">今天你还是总统，明天早上一觉醒来，你的国防部长或者卫队队长就把枪口顶在了你的脑门上。这种情况在南美大陆上演了无数次。</p><p data-pid=\"4u9MJ1vm\">为什么会这样。因为本国的将军和军官，他们是有政治野心的。他们有根基，有亲信，有在本土呼风唤雨的能力。一旦局势动荡，取而代之的诱惑实在是太大了。</p><p data-pid=\"MRs26Jpk\">那么问题来了，如果你是马杜罗，尤其你还是一个没有军方背景的文人总统，当你睡觉的时候，你敢把保卫生命的枪交给谁。</p><p data-pid=\"6tKMggdG\">交给你的同胞吗。那个站在门口站岗的委内瑞拉军官，他心里可能正在想，现在的局势这么乱，反对派开出的价码那么高，如果我把你抓了献出去，我是不是就能成为新的国家英雄，或者至少能发一笔横财。</p><p data-pid=\"7d7YyWZe\">这种猜疑链一旦形成，就是无解的。</p><p data-pid=\"pR8hAEfJ\">但是，如果你把枪交给古巴人，情况就完全不同了。</p><p data-pid=\"5NwWA2bC\">这就像古代皇宫里喜欢用异族人做御林军，或者像教皇只信任瑞士卫队一样。</p><p data-pid=\"Ne_7Zvjv\">这些古巴特种兵，他们在委内瑞拉没有根基，没有社会关系，没有政治野心。他们不可能在委内瑞拉发动政变当总统，因为委内瑞拉老百姓不会接受一个外国人当领袖。</p><p data-pid=\"YDYzxOLz\">马杜罗把身家性命交给古巴人，其实是在做一个风险对冲。他用古巴人的生命，来对冲本国军人的政治野心。</p><h3>三）古巴在拉美左翼中的“教父”地位</h3><p data-pid=\"aQkq6GSN\">如果只谈利益，我们还是无法完全理解那三十二个古巴人为什么会死得那么决绝，也无法理解为什么整个拉美左翼，只要一出事，第一时间看向的地方永远是哈瓦那。</p><p data-pid=\"5x08O7M0\">要理解这一点，我们必须引入一个概念，那就是信仰图腾。</p><p data-pid=\"6c_BvXNW\">古巴的位置在哪？</p><p data-pid=\"P_PHZg6t\">它就像一只细长的鳄鱼，趴在加勒比海里，而它的头顶正上方，仅仅九十海里的地方，就是这个星球上最强大的国家，美利坚合众国。</p><p data-pid=\"KlevWRae\">这就是古巴这个国家最神奇的地方。</p><p data-pid=\"GxzPhzTN\">按照常理，在这个距离上，在如此巨大的实力差距面前，古巴应该早就被美国同化，或者被美国碾碎了。</p><p data-pid=\"CO2v8b8z\">但是，六十年过去了。苏联解体了，东欧剧变了，甚至连柏林墙都倒塌变成了纪念品，但古巴依然在那里。</p><p data-pid=\"g-4pmmbB\">它不仅在那里，而且还保持着那套让美国人恨得牙痒痒的红色制度。</p><p data-pid=\"Ffq99jET\">这就构成了一个神话。</p><p data-pid=\"07OY1RXT\">对于拉丁美洲那些长期遭受贫困、动荡和美国干涉的国家来说，古巴不仅仅是一个岛国，它是拉美反美抗争的精神麦加。</p><p data-pid=\"BppqqmJi\">在反美情绪严重蔓延的拉美国国家里，一个玻利维亚的古柯农，或者一个巴西贫民窟的青年来说，古巴意味着什么？</p><p data-pid=\"q-WAal0d\">古巴意味着在这个世界上，真的有一根硬骨头，是美国人啃不下来的。这种存在本身，就是一种巨大的精神力量。</p><p data-pid=\"F5lGnCT_\">只要古巴的红旗还在飘扬，拉美左翼就觉得自己的奋斗是有希望的。</p><p data-pid=\"qHwzId5M\">所以，古巴在拉美左翼政治版图中的地位，就像是一个带头大哥，或者更准确地说，是一位教父。</p><p data-pid=\"gdeW5Wuo\">这位教父的地位，不是靠钱买来的，是靠他在美国人的炮口下硬扛了六十年换来的。</p><p data-pid=\"W-1jc5bM\">这就是为什么马杜罗，还有之前的查韦斯，甚至巴西的卢拉、玻利维亚的莫拉莱斯，都对古巴有着一种近乎宗教般的崇拜。</p><p data-pid=\"JXIbSjOx\">但是，这位教父并不是只靠卖弄资历混饭吃的。</p><p data-pid=\"gf9wXzbQ\">古巴非常聪明，它随着时代的变迁，也在被迫进行转型。</p><p data-pid=\"VhfZVP9T\">在上个世纪六七十年代，古巴输出的是硬革命。那时候，哈瓦那向整个南美大陆输送的是游击队，是冲锋枪，是像切格瓦拉那样的战士。</p><p data-pid=\"Z615ZTSq\">那时候的逻辑是，我们要把这里变成越南，我们要用战火点燃大陆。</p><p data-pid=\"N32uqiHF\">可是后来，冷战结束了，这套硬碰硬的打法行不通了。古巴迅速调整了策略，从输出武装革命，变成了输出软实力。</p><p data-pid=\"v-_XvdbH\">这就非常高明了。古巴开始向拉美国家输送医生，输送扫盲教师，输送体育教练。</p><p data-pid=\"N-oEe4Vg\">你看上去这是人道主义援助，但实际上，这是一种更深层次的意识形态植入。</p><p data-pid=\"DjV7DlFW\">当一个古巴医生治好了委内瑞拉穷人的病，当一个古巴老师教会了玻利维亚印第安人识字，他们带去的不仅仅是技术，还有古巴的那套价值观，那套关于公平、关于反帝、关于团结的叙事逻辑。</p><p data-pid=\"oDrnhRIb\">古巴从一个单纯的战士，变成了一个战略参谋部。</p><p data-pid=\"pKRe-E3D\">现在的拉美左翼政客，一旦遇到危机，或者在治国理政上遇到了难题，他们习惯性地会去请教哈瓦那。</p><p data-pid=\"ILAWodYi\">因为古巴人见得多了，什么大风大浪没见过，什么美国的制裁手段没领教过。古巴拥有一套全世界最丰富的在逆境中生存的知识库。</p><p data-pid=\"q-thrxcn\">所以，哈瓦那成了拉美左翼的各种思想策源地和战略后方。</p><p data-pid=\"BF4rarv-\">这次三十二名古巴人的牺牲，在某种精神层面上，这是古巴作为教父地位的一次加冕。</p><p data-pid=\"dpfXEzAr\">在平时大家只是嘴上喊兄弟，但在生死关头，古巴人真的上了。他们真的为了保护盟友流尽了血。这种行为在拉美文化中具有极强的感召力。</p><p data-pid=\"9hT8MOIB\">这三十二具灵柩回到哈瓦那的时候，它会向整个拉丁美洲传递一个信号，那就是古巴依然是那个为了理想敢于牺牲的古巴，这位教父依然在保护着他的家族成员。</p><p data-pid=\"ehuONKmD\">这还会强化拉美左翼内部的凝聚力。</p><p data-pid=\"XIJ-yKpO\">本来大家可能被美国吓住了，心散了，但古巴人的血一流，大家的血性反而可能被激出来了。</p><p data-pid=\"E11Ip9ff\">这就是一种血祭。</p><p data-pid=\"qVjlGEdL\">在拉美的政治美学里，牺牲往往比胜利更具有动员能力。</p><h3>四）不死的幽灵</h3><h3>古巴在拉美左翼心中不仅仅是一个国家，它更像是一个精神图腾。</h3><h3>而支撑起这个图腾的，并不是现任的领导人，而是一个已经死去了半个多世纪的男人，切·格瓦拉。</h3><p data-pid=\"yjj7pjuO\">如果不读懂切·格瓦拉，你就读不懂为什么拉美的左翼运动总是带着一股子挥之不去的悲情和浪漫。</p><p data-pid=\"7jykSJSi\">在这个世界上，切·格瓦拉的头像可能是有史以来印刷次数最多的图像之一。你走在纽约、巴黎或者北京的街头，总能看到年轻人穿着印有他头像的T恤。在很多人眼里，他就是一个流行文化的符号，代表着一种很酷的叛逆。</p><p data-pid=\"JxCgHQiY\">他在拉美左翼心中的地位，不是偶像，而是圣徒。</p><p data-pid=\"T0Su3hYq\">为什么这么说呢。因为切·格瓦拉用他的一生，向拉美人演示了一种绝对纯洁的牺牲。</p><p data-pid=\"XDzHX9Fe\">当年的古巴革命成功之后，切·格瓦拉是什么身份。他是开国元勋，他是古巴国家银行行长，他是工业部长。</p><p data-pid=\"iNXXKgei\">按照世俗的标准，他已经通关了。他本可以坐在哈瓦那有空调的办公室里，享受权力和雪茄，安安稳稳地过完下半辈子。</p><p data-pid=\"o2nVCTPz\">但是他怎么做的。他把这一切都扔了。他辞去了所有的官职，放弃了所有的荣誉，甚至放弃了古巴国籍。他给卡斯特罗留了一封信，然后像个苦行僧一样，重新钻进了丛林里。先是去非洲刚果，后来又去了玻利维亚。</p><p data-pid=\"OEuWWCBQ\">最后，他死在了玻利维亚的荒山野岭里。死的时候衣衫褴褛，像个乞丐一样。</p><p data-pid=\"3s7BUItm\">在讲求功利主义的人看来，这简直是疯了。</p><p data-pid=\"F1NA5Ex3\">一个已经在华尔街上市敲钟的创业者，突然净身出户，去街头摆摊，最后饿死街头。这不符合理性人的逻辑。</p><p data-pid=\"C33BxGS4\">但是，恰恰是这种”理想性“，击中了拉美文化的灵魂深处。</p><p data-pid=\"2xTazwYo\">切·格瓦拉向所有人证明了一件事，那就是革命不是为了夺取权力，而是为了革命本身。</p><p data-pid=\"0qkECAxE\">这种纯粹性，让他超越了具体的政治派别，变成了一种道德上的完人。</p><p data-pid=\"xvEQgE5B\">这种精神遗产，对今天的拉美左翼意味着什么呢。</p><p data-pid=\"v9vUiOEi\">它意味着，在拉美的政治语境里，有一种比胜利更高级的价值，那就是为了理想而受难。</p><p data-pid=\"XTGO5F8q\">这种明知不可为而为之的行为，在实用主义者眼里是愚蠢，但在拉美左翼的眼里，这是最高尚的荣光。</p><p data-pid=\"_2MFc9UQ\">这是一种”暴力美学“。</p><p data-pid=\"wsjGSIYt\">这种美学逻辑深入到了这片大陆的骨髓里。</p><p data-pid=\"5RjFY7pS\">你会发现，拉美的左翼领袖，从阿连德哪怕拿着冲锋枪战死在总统府也不投降，到查韦斯在癌症晚期依然高呼战斗，他们都在有意无意地模仿切·格瓦拉。</p><p data-pid=\"J6lFG6m0\">他们都在扮演那个对抗风车的堂吉诃德。</p><p data-pid=\"nen_1YrT\">这种文化心理非常关键。</p><p data-pid=\"o5fTFjm7\">它解释了为什么美国的制裁和军事打击，往往起不到预期的威慑效果。</p><p data-pid=\"Djn6z4Hg\">美国人的逻辑是典型的盎格鲁撒克逊逻辑，也就是成本收益分析。</p><p data-pid=\"fYUerJ_O\">美国人觉得，我只要把枪架在你脖子上，或者把你的经济搞崩溃，你就应该理性地计算得失，然后屈服。</p><p data-pid=\"lU5enjel\">但是拉美人的逻辑是切·格瓦拉式的逻辑。</p><p data-pid=\"8AJCHjTd\">你越是打压我，你越是强大，我反抗你的姿态就越悲壮，而这种悲壮本身就是我存在的意义。哪怕我被打死了，我也赢了，因为我成为了烈士，我成为了传奇。</p><p data-pid=\"CQxFJW_V\">所以啊，全世界唯一一个长期集体性反美舆论占主流的地区的，就是拉美地区。</p><p data-pid=\"2KD-EFAV\">美国人或许可以占领加拉加斯的总统府，或许可以抓走马杜罗，但他们永远无法逮捕这个幽灵。</p><p data-pid=\"kcFQ76Rx\">美国人对拉美用到的手段，什么都用过，不管是输出观念，参与政变，经济制裁，还有各种外交手段，但越这么整，拉美反美意识形态越为强大。</p><p data-pid=\"faQTNa3A\">这个幽灵在南美大陆的上空盘旋了百年，只要左翼意识形态没有被批倒，还在宣传他们认知到的压迫，他们意识形态中的不公，切·格瓦拉就会在某个年轻人的身体里复活。</p><h3>五）拉美左翼思想流行的底层土壤</h3><p data-pid=\"aYC98eCj\">全世界左翼文化最根深蒂固的地方，就是拉美，没有之一。</p><p data-pid=\"pIf1o4IO\">拉丁美洲被很多经济学家称为世界上贫富差距最大的地区之一。这里不缺资源，委内瑞拉有石油，阿根廷有牛肉，智利有铜矿。</p><p data-pid=\"A93L5Tt5\">但问题是，这些财富跟绝大多数普通人没什么关系。</p><p data-pid=\"1Lo-C_mD\">当你走进加拉加斯或者里约热内卢的贫民窟，看到那些层层叠叠的铁皮房子，看到那些没有下水道的街道，你就明白了。</p><p data-pid=\"bEs3PSjx\">左翼大搞平分财产后，右翼又开放一点市场，紧接着又换左翼来分财产，打击生产，不断折腾后，贫富差距越来越大。</p><p data-pid=\"5chkD7qP\">而左翼思想最容易传播的地方，就是这种结构的社会。</p><p data-pid=\"-6MlPi9O\">只要贫民窟还在，只要那种令人绝望的不公平还在，左翼思想就永远有市场。</p><p data-pid=\"fuszsRjG\">但是，光有穷是造不成这么大声势的。</p><p data-pid=\"ZQy4DDHc\">世界上穷的地方多了去了，为什么偏偏是拉美的左翼运动带有如此强烈的宗教般的狂热感。</p><p data-pid=\"5yuMWycX\">还一个观念要素就是解放神学。</p><p data-pid=\"Aq9b0OVg\">我们通常的认知里，西方主流的天主教往往是保守的，甚至在历史上是维护统治阶级的。</p><p data-pid=\"dPAbUb9g\">但是在二十世纪六十年代的拉丁美洲，发生了一次惊天动地的认知翻转。</p><p data-pid=\"m1P_uyHR\">当时的一批拉美神职人员，他们看着满目疮痍的社会，突然对圣经做出了全新的解读。他们提出了一个核心观点，叫作优先眷顾穷人。</p><p data-pid=\"iopRaqaC\">这可不得了。</p><p data-pid=\"A6mOY4Wj\">这意味着神父们不再只是让穷人忍受苦难死后上天堂，而是告诉穷人，反抗压迫、争取社会正义，这就是在行使上帝的旨意。</p><p data-pid=\"GUY7yTz6\">在他们的解读里，耶稣不再是一个高高在上的神，而是一个反抗罗马帝国暴政的革命者，是历史上第一个为了穷人而牺牲的左翼领袖。</p><p data-pid=\"VYp_hW77\">于是，一个世界奇观出现了。在拉美，你经常能看到神父手里拿着的不只是圣经，还有《资本论》。十字架和镰刀，这两个在其他地方可能水火不容的符号，在这里竟然完美地融合在了一起。</p><p data-pid=\"i7uFwvl4\">当马克思主义的阶级斗争理论，遇上了天主教的神圣使命感，它产生了一种核裂变般的能量。</p><p data-pid=\"yQPl6hmd\">这种能量让拉美左翼拥有了一种近乎无敌的道德优越感。</p><p data-pid=\"ljqg1V50\">在拉美左翼看来，这场对抗美国的战争，不仅仅是保卫马杜罗的政治斗争，它甚至带有一点圣战的味道。</p><p data-pid=\"_f16SceL\">他们是在对抗帝国主义这个巨大的恶魔。在这种叙事体系下，牺牲不是失败，而是殉道。</p><p data-pid=\"vLmFrNSG\">这种宗教神圣性，赋予了拉美左翼极其强大的底层动员能力。右翼政客可能能给选民承诺更好的GDP数字，但左翼领袖能给民众提供灵魂的救赎和尊严。</p><p data-pid=\"ahBRe62y\">所以你看，无论是古巴的医生外交，还是马杜罗的强硬反美，背后都有这套深厚的文化土壤在支撑。</p><p data-pid=\"6c5HBGoa\">这片土壤太厚重了，只要稍微给点雨水，左翼的种子就会疯狂生长。美国人可以割掉地上的草，但他们很难铲除地下的根。</p><p data-pid=\"dBl_aKy_\">结语：</p><p data-pid=\"E_gBzb7f\">从战术上讲，美国人赢了。他们展示了无与伦比的军事力量，实施了一次精确的外科手术式打击。</p><p data-pid=\"WTO7VTbh\">就在此时此刻，华盛顿的精英们可能正在举杯庆祝，认为他们终于拔掉了南美这颗眼中钉。</p><p data-pid=\"_VvEKbgW\">但是，如果我们站在历史的高处往下看，这可能只是又一次漫长轮回的开始。</p><p data-pid=\"QDye4iZ-\">拉美左翼是一个怪胎、一个幽灵，他将马克思理论、解放神学和民族主义叙事融合在了一起，在拉美流行了近百年，有无数的拥趸。</p><p data-pid=\"5q2OxyGQ\">美国人带走了一个总统，但他们无法逮捕这个幽灵。</p><p data-pid=\"rg_-BzMf\">这个在南美大陆上空盘旋了百年的幽灵，谁能战胜它，枪炮可以吗？</p><p data-pid=\"Kk5FELdk\">当然是不行的，只有观念才能战胜观念。</p><p data-pid=\"8E_w8CDE\">美国工业自七十年代大转移出美国，却转称到了万里之外的东亚，近在咫尺的拉美，却没有成为工业发达地区。</p><p data-pid=\"9CC788gd\">可悲、可恨啊！</p><p data-pid=\"tsWn3QQl\">没有以正确经济科学为基础的自由主义观念的传播，不能在拉美知识分子群体中批倒这个怪胎，拉美的左翼思想就永远是无敌的，就是不可战胜的。</p><p data-pid=\"LnZZi8ZV\">米莱式的人物，才是拉美这片富饶而又魔幻的土地上唯一的希望。</p><p></p><p></p><p></p>",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "created_time": 1767661199,
+        "excerpt_new": "在现代战争里，我们见过雇佣兵，见过盟军支援，见过为了钱卖命的，也见过为了所谓普世价值喊口号的。 但是，像古巴这样，为了另一个国家的元首，不仅出人，而且是作为最后一道防线去肉搏、去牺牲，甚至是用身体去挡导弹，这是一种什么关系。 为什么是古巴人？为什么必须是古巴人？ 这三十二名牺牲的古巴人，其实映射着拉丁美洲这块魔幻大陆的左翼底色。 一）生死契约 委内瑞拉与古巴其实有一套共生系统。 上个世纪九十年代，那个…",
+        "preview_text": "",
+        "allow_segment_interaction": true,
+        "excerpt": "在现代战争里，我们见过雇佣兵，见过盟军支援，见过为了钱卖命的，也见过为了所谓普世价值喊口号的。 但是，像古巴这样，为了另一个国家的元首，不仅出人，而且是作为最后一道防线去肉搏、去牺牲，甚至是用身体去挡导弹，这是一种什么关系。 为什么是古巴人？为什么必须是古巴人？ 这三十二名牺牲的古巴人，其实映射着拉丁美洲这块魔幻大陆的左翼底色。 一）生死契约 委内瑞拉与古巴其实有一套共生系统。 上个世纪九十年代，那个…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 38,
+        "answer_type": "normal",
+        "preview_type": "default",
+        "visited_count": 20758,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1991796114911953883",
+        "voteup_count": 114,
+        "is_copyable": true,
+        "question": {
+          "id": "1991447127973458979",
+          "type": "question",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            472,
+            36374,
+            110010,
+            3017602,
+            3625751
+          ],
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/1991447127973458979",
+          "created": 1767577994,
+          "answer_count": 0,
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-a1fb27cfe8c8c38f9322cc8fae726419_l.jpg?source=b6762063",
+            "is_org": true,
+            "followers_count": 936665,
+            "is_followed": false,
+            "id": "e728ef9cead4f143e1722ab4f63b88ca",
+            "user_type": "organization",
+            "headline": "看中国新闻，就上中国新闻网",
+            "gender": -1,
+            "badge": [
+              {
+                "type": "identity_org",
+                "description": "已认证机构号"
+              }
+            ],
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/e728ef9cead4f143e1722ab4f63b88ca",
+            "url_token": "zhong-guo-xin-wen-wang-93",
+            "name": "中国新闻网"
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "title": "为什么美国对委内瑞拉行动中，有 32 名古巴军事人员死亡？ 此事或将引发哪些连锁反应？",
+          "comment_count": 25,
+          "excerpt": ""
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991796114911953883}",
+      "attached_info": "Co0GCNn8rbrnv8nWsAEQBBoJNzY0MTk3MjgyII+98coGKHIwGEBbSlMKHFRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTFRJTUUSLWhvdF9yZWNhbGxfcmVhbHRpbWVfdDpub3JtYWw6MjAyNi0wMS0wNjpvdGhlchgAIAA6AEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE3OTU3MjkyYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk5MTc5NjExNDkxMTk1Mzg4M4oBEzE5OTE0NDcxMjc5NzM0NTg5NzmqAQlyZWNvbW1lbmTCASA4ZThkMGE5ZWIzYWJlYWE1N2FiODYxNjI2NDJhNjQyOfIBCggMEgZOb3JtYWzyASgIChIkMzIyMTRlZjQtZmFkMS00ZmFjLWE1NWMtNGQyODk2ZDIwNGU08gEGCAsSAjE2ggIAiALR1cWbuTOSAiA4ZThkMGE5ZWIzYWJlYWE1N2FiODYxNjI2NDJhNjQyOZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCHFRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTFRJTUXoAgL6AgtOT1JNQUxfRkxPV4oDIGE4OTFhOGU3ZjA2NzQ4M2Y5MGQ1ZmRkZmRjY2NjYTAymgMNCgJ2MhAAGgVvdGhlcqgDlqIB2AMA6gMfaG90Q3Jvc3NSZWFsVGltZUNvbnRlbnRSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIDZaoM/gQUAAAAAAAAAAIkF+82oUDyAsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEJAGAKAGW6gGA5ICLgoJNzY0MTk3MjgyEhMxOTkxNzk2MTE0OTExOTUzODgzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "92_1767705242.44",
+      "type": "feed",
+      "offset": 92,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705242,
+      "updated_time": 1767705242,
+      "target": {
+        "excerpt_new": "脱不花问李笑来： “你读了这么多关于脑科学的论文，就是你能不能给我推荐三篇？”李笑来： “……还有一个挺好玩的，这个研究本来是研究长寿的，后来却得到了别的结论。 研究对象是圣母院的修女们，她们贼长寿。 在Notre Dame圣母院，修女们100岁以上很常见，课题组就想研究她们的大脑。 主要是因为 她们不仅健康长寿，还没有脑疾病，就没有老年的那些脑疾病。于是，就找到她们，和她们签约，意思是，等你们去世后，我们想解剖…",
+        "is_navigator": false,
+        "question": {
+          "id": "1915876919628510595",
+          "comment_count": 2,
+          "question_type": "normal",
+          "detail": "",
+          "type": "question",
+          "answer_count": 0,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            139899,
+            2373737,
+            2680789
+          ],
+          "author": {
+            "is_following": false,
+            "headline": "陪伴孩子 也是陪伴那个内心的自己，成长是一个伴随终生的话题。",
+            "gender": 0,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "教师资格证持证人"
+              }
+            ],
+            "url_token": "82-49-46-47",
+            "name": "西西L",
+            "avatar_url": "https://picx.zhimg.com/50/v2-56546252ee2268224a7259050bde349f_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 128,
+            "id": "d8e663f745723ce70eaf838358b1cd11",
+            "url": "https://api.zhihu.com/people/d8e663f745723ce70eaf838358b1cd11",
+            "user_type": "people",
+            "is_followed": false
+          },
+          "created": 1749560652,
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/1915876919628510595",
+          "title": "孩子在家晨读经常不愿意读出声，不喜欢大声朗读，该不该强求？",
+          "is_following": false,
+          "excerpt": ""
+        },
+        "excerpt": "脱不花问李笑来： “你读了这么多关于脑科学的论文，就是你能不能给我推荐三篇？”李笑来： “……还有一个挺好玩的，这个研究本来是研究长寿的，后来却得到了别的结论。 研究对象是圣母院的修女们，她们贼长寿。 在Notre Dame圣母院，修女们100岁以上很常见，课题组就想研究她们的大脑。 主要是因为 她们不仅健康长寿，还没有脑疾病，就没有老年的那些脑疾病。于是，就找到她们，和她们签约，意思是，等你们去世后，我们想解剖…",
+        "voteup_count": 197,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 13805,
+        "favorite_count": 350,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "created_time": 1767540016,
+        "reshipment_settings": "disallowed",
+        "is_labeled": true,
+        "vote_next_step": "vote",
+        "author": {
+          "url_token": "zhu-bu-ji-84",
+          "headline": "自我提升｜好书简介｜干货共享｜心理咨询资格证持证者",
+          "is_org": false,
+          "followers_count": 7293,
+          "is_followed": false,
+          "user_type": "people",
+          "url": "https://api.zhihu.com/people/334f51ca17ab577aa3bcc63466a7a5fc",
+          "name": "可丰",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-b24f7db4a81429cd863db12571ea1452_l.jpg?source=b6762063",
+          "gender": 0,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "互联网/信息技术行业 高级工程师"
+            }
+          ],
+          "is_following": false,
+          "id": "334f51ca17ab577aa3bcc63466a7a5fc"
+        },
+        "is_copyable": false,
+        "updated_time": 1767540016,
+        "thanks_count": 19,
+        "comment_count": 64,
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"YI0C_ZZ1\">脱不花问李笑来：<b>“你读了这么多关于脑科学的论文，就是你能不能给我推荐三篇？”</b></p><p data-pid=\"0gI-YW_n\">李笑来：</p><p data-pid=\"1-SKuKL1\">“……还有一个挺好玩的，这个研究本来是研究长寿的，后来却得到了别的结论。</p><p data-pid=\"k00DD-i_\">研究对象是圣母院的修女们，她们贼长寿。</p><p data-pid=\"lKXe2VWv\">在Notre Dame圣母院，修女们100岁以上很常见，课题组就想研究她们的大脑。</p><p data-pid=\"WRP1B65L\">主要是因为<b>她们不仅健康长寿，还没有脑疾病，就没有老年的那些脑疾病。</b></p><p data-pid=\"SnuaFWjk\">于是，就找到她们，和她们签约，意思是，等你们去世后，我们想解剖你们的大脑。</p><p data-pid=\"rXWsIK-T\">修女们都答应了。</p><p data-pid=\"GXmWgc7a\">解剖的结果很惊人，研究人员发现，这些修女们在世时，虽然没有脑疾病的症状，但大脑内部坏死程度和其他的老人是一样的，</p><p data-pid=\"8JBqG2Jt\">也就是说，就该坏死也坏死了。</p><p data-pid=\"evL8QUtz\">但，为什么她们没有脑疾病症状呢？</p><p data-pid=\"f2wMwety\">因为她们的大脑的其他部分学会了坏死部分的功能。</p><p data-pid=\"CvIgyDiz\">她们的生活习惯和行为使得他们大脑继续在学习，</p><p data-pid=\"rIdWdAiU\">所以，她们没有老人的那种脑疾病症状。</p><p data-pid=\"TKl3SVF5\">现在，最重要的猜想有两个：</p><p data-pid=\"hKW7VYCL\">第一是，适度的体力劳动。</p><p data-pid=\"Db1yxns3\">第二是，长期朗读。</p><p data-pid=\"vIoXEvMK\">她们要读经。全神贯注地读经。</p><h2>因为朗读是大脑的有氧活动。”</h2><p data-pid=\"ZMXMAdzr\">脱不花：“回头你把修女论文扔给我，链接扔我，我特别想看……”</p><p data-pid=\"k-PB8B6l\">李笑来：“还有一个好玩的，美国最穷的一个州，小朋友的阅读能力却是全国最强的。”</p><p data-pid=\"tc9oZ-6p\">脱不花：“因为他们没有电子设备吗？”</p><p data-pid=\"-srH9HL9\">李笑来：</p><p data-pid=\"lyY5YM5N\">“不是，是他们十多年前通过了一项法案，小学三年级结束的时候，阅读考试不合格，不能升入四年级，降级。</p><p data-pid=\"_XI9CFou\">啥时候合格，你啥时候上四年级。</p><p data-pid=\"VCqIcY2O\"><b>它之所以成功，是基于脑科学研究的，阅读能力的分水岭就是在小学三年级四年级，这也是研究调查发现的。</b></p><p data-pid=\"jXekNtMG\">阅读能力差的人，脑子里没声音。”</p><p data-pid=\"Sdc-yw8h\">脱不花：“因为他不朗读吗？”</p><p data-pid=\"wvAvAo9z\">李笑来：</p><p data-pid=\"moqzRHwc\">“我们大脑里，看、听、说，分别会使不同的区域活跃。</p><p data-pid=\"TtCPtlqC\">阅读能力差的人，在阅读的时候，只有负责视觉那个区域活跃</p><p data-pid=\"zNdvpDlq\">而阅读能力强的人，负责看、听、说的三个部分全部是活跃的。</p><p data-pid=\"NZQoABdS\">如果把我们的大脑比作计算机网络的话，那阅读能力差的人就是用一台电脑干活，而阅读能力强的人是三台配合着一块干活，工作水平绝对不一样啊。</p><p data-pid=\"vE4YHmor\">所以说，默读不如朗读。”</p><p data-pid=\"U7auVxO5\">脱不花：“就应该朗读。”</p><p data-pid=\"tYu3345q\">李笑来：“对。”</p><hr/><p data-pid=\"pGO4FvBn\">这些对话，可以更生动一点地讲给孩子听。</p><p data-pid=\"sZGneOz9\">不用强制要求，孩子自己也想变得更好。</p><hr/><p data-pid=\"hIyDWzda\">朗读的好处确实很多。</p><p data-pid=\"EZUjBvEj\">能引导孩子朗读，那就读起来。</p><p data-pid=\"u3vDg_Hs\">先从只读一遍开始。</p><hr/><p data-pid=\"JXvE5vx0\"><b>《为什么精英这样用脑不会累》</b>中，也提到：</p><p data-pid=\"PTCs0dri\">大声朗读对血清素的分泌有刺激作用。</p><p data-pid=\"R9M5sc51\">血清素可是好东西。</p><p data-pid=\"EVSBgTWf\">它是天然的情绪稳定剂，可以帮人们转换心情，使人心情恢复平静。</p><p data-pid=\"8FPPPk7R\">而且，</p><p data-pid=\"hgAvGOGr\">大声朗读还可以促进前额皮质的血液循环，增加血流，<b>对于预防老年性痴呆也有一定的效果。</b></p><p data-pid=\"dc7tZRb5\">哪怕就是读一小段文字，也可以让我们的身体从基本静止的状态进入到轻微运动的状态，心情和头脑都会焕然一新。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c983f963aebc49ab095caf588cd89dc3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"760\" data-rawheight=\"490\" data-original-token=\"v2-6814a626a6b1fab94327231c0c6d1888\" class=\"origin_image zh-lightbox-thumb\" width=\"760\" data-original=\"https://pic4.zhimg.com/v2-c983f963aebc49ab095caf588cd89dc3_r.jpg\"/></figure><p></p>",
+        "id": "1991287836494816337",
+        "url": "https://api.zhihu.com/answers/1991287836494816337",
+        "answer_type": "normal",
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991287836494816337}",
+      "attached_info": "Cu8FCNn8rbrnv8nWsAEQBBoJNzY0MDE2OTk4ILCK6soGKMUBMEBAXEo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1aCTExNTMyODc1OGIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5OTEyODc4MzY0OTQ4MTYzMzeKARMxOTE1ODc2OTE5NjI4NTEwNTk1qgEJcmVjb21tZW5kwgEgMzM0ZjUxY2ExN2FiNTc3YWEzYmNjNjM0NjZhN2E1ZmPyAQoIDBIGTm9ybWFs8gEoCAoSJDM1OTZmNTU5LWFlYWMtNDM3MC1hNTI5LTNmZmUyNzYxYjkyYvIBBggLEgIxNoICAIgC0dXFm7kzkgIgMzM0ZjUxY2ExN2FiNTc3YWEzYmNjNjM0NjZhN2E1ZmOaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMugCBPoCC05PUk1BTF9GTE9XigMgYTg5MWE4ZTdmMDY3NDgzZjkwZDVmZGRmZGNjY2NhMDKaAw0KAnYyEAAaBW90aGVyqAPta9gDAOoDFmZlZWRyZV9maXJzdF9zY3JlZW5fdjL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxD4BRjqAyIjdjItNjgxNGE2MjZhNmIxZmFiOTQzMjcyMzFjMGM2ZDE4ODiABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEBE0Hg/gQUAAAAAAAAAAIkF+82oUDyAsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEJAGAKAGXKgGAJICLgoJNzY0MDE2OTk4EhMxOTkxMjg3ODM2NDk0ODE2MzM3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "93_1767705242.328",
+      "type": "feed",
+      "offset": 93,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705242,
+      "updated_time": 1767705242,
+      "target": {
+        "created": 1766286057,
+        "excerpt": "随着 2024–2025 年 AI Agent 的兴起，业界涌现出多款 Agent 框架。本文对比当前流行的框架，包括 LangChain、LangGraph、AutoGen、CrewAI、smolagents、OpenAI Swarm 和 OpenManus，分析它们的核心能力、功能特性、学习成本，并给出适用场景和推荐使用者类型。希望为想上手 AI Agent 开发的读者提供一份全面的指南。1. LangChain：模块化 LLM 应用开发框架1.1 核心定位与技术栈LangChain 是 2022 年发布的开源框架，最初用于简…",
+        "url": "https://api.zhihu.com/articles/1984725399767376336",
+        "comment_permission": "all",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "comment_count": 1,
+        "column": {
+          "imageUrl": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "intro": "主要是总结Agentic AI的关键技术洞察及企业实践",
+          "is_following": false,
+          "id": "c_1941077845519610252",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "name": "匿名用户",
+            "headline": "",
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "Agentic技术",
+          "updated": 1765858668,
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1941077845519610252",
+          "comment_permission": "public"
+        },
+        "allow_segment_interaction": true,
+        "title": "Agent 框架横向对比：LangChain、LangGraph、AutoGen、CrewAI、smolagents、OpenAI Swarm 和 OpenManus",
+        "excerpt_new": "随着 2024–2025 年 AI Agent 的兴起，业界涌现出多款 Agent 框架。本文对比当前流行的框架，包括 LangChain、LangGraph、AutoGen、CrewAI、smolagents、OpenAI Swarm 和 OpenManus，分析它们的核心能力、功能特性、学习成本，并给出适用场景和推荐使用者类型。希望为想上手 AI Agent 开发的读者提供一份全面的指南。1. LangChain：模块化 LLM 应用开发框架1.1 核心定位与技术栈LangChain 是 2022 年发布的开源框架，最初用于简…",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "type": "article",
+        "author": {
+          "id": "e7976d92502963b3ef946162b58b9147",
+          "name": "笨鸟先飞",
+          "headline": "持续学习～",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d37eb8d225777015cc4f5ff7219bb8c2_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 379,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/e7976d92502963b3ef946162b58b9147",
+          "user_type": "people",
+          "url_token": "wang-cong-51-68",
+          "is_following": false
+        },
+        "visited_count": 3127,
+        "favorite_count": 159,
+        "id": "1984725399767376336",
+        "updated": 1766286057,
+        "voting": 0,
+        "preview_type": "default",
+        "preview_text": "",
+        "is_labeled": false,
+        "voteup_count": 49,
+        "content": "<p data-pid=\"Aw_0SEqw\">随着 2024–2025 年 AI Agent 的兴起，业界涌现出多款 Agent 框架。本文对比当前流行的框架，包括 <b>LangChain、LangGraph、AutoGen、CrewAI、smolagents、OpenAI Swarm 和 OpenManus</b>，分析它们的核心能力、功能特性、学习成本，并给出适用场景和推荐使用者类型。希望为想上手 AI Agent 开发的读者提供一份全面的指南。</p><h2>1. LangChain：模块化 LLM 应用开发框架</h2><h3>1.1 核心定位与技术栈</h3><p data-pid=\"ftm9kTWU\">LangChain 是 2022 年发布的开源框架，最初用于简化 LLM 应用开发。它提供 Python 和 JavaScript 库，模块化封装了与 LLM 集成、提示词管理、对话记忆以及工具使用等功能，方便开发者将大语言模型与外部数据源或软件流程相集成。</p><p data-pid=\"qTLNTyA0\">LangChain 作为通用接口支持几乎所有主流 LLM，通过组合 <b>Prompt、Memory、Tool</b> 等模块，可以快速构建聊天机器人、智能问答等复杂应用。它内置了丰富的工具库（如搜索、计算器、数据库查询等），并支持将多个模型连接起来完成不同子任务。</p><p data-pid=\"kvo5aT8C\">总之，LangChain 提供了一个现成且可扩展的 Agent 开发框架，开发者无需从零实现工具选择、推理循环或提示格式等底层逻辑。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-71b1119212a6a6b9f96b283ad07db7dc_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"982\" data-rawheight=\"457\" data-original-token=\"v2-e90191a642824bce8e4a44edab76e035\" class=\"origin_image zh-lightbox-thumb\" width=\"982\" data-original=\"https://pic3.zhimg.com/v2-71b1119212a6a6b9f96b283ad07db7dc_r.jpg\"/><figcaption>图1. LangChain：模块化 LLM 应用开发框架</figcaption></figure><h3>1.2 功能特性</h3><p data-pid=\"kXj64qvi\">传统的 LangChain Agent 多采用 <b>ReAct 模式</b>，即 LLM 按照「观察-思考-行动」循环调用工具，直到完成任务。</p><p data-pid=\"D9dJCkVw\">多 Agent 支持方面，早期 LangChain 主要是一对一 Agent 执行，但通过将一个 Agent 的输出作为另一个 Agent 的输入，或借助子链，也可以实现多智能体协作。为更好地支持多 Agent 协同、复杂流程和人类审批等高级功能，LangChain 之后推出了独立子框架 <b>LangGraph</b>。</p><p data-pid=\"plDmvyfL\">工具调用是 LangChain 的强项：官方提供了大量现成工具插件，并允许开发者自定义 Tool 接口，使 Agent 能调用外部 API、数据库、代码执行等操作。</p><p data-pid=\"EcJn17Yk\">记忆机制上，LangChain 有短期对话记忆和长期向量库检索等模块，可让 Agent 保持上下文。流程控制则通常通过 <b>Chains</b> 或自行编写控制逻辑实现（如顺序链、条件判断等），在复杂流程上略显局限。LangChain 本身不包含可视化界面，但支持和第三方前端（如 <b>LangFlow</b>）集成；其官方提供的 <b>LangSmith</b> 平台则侧重于 Agent 执行的日志追踪和评估。</p><h3>1.3 代码示例</h3><p data-pid=\"Og1EOyw-\">下面代码创建了一个 LangChain Agent，并配置一个简单的天气查询工具。Agent 使用指定的 LLM 模型，接受用户输入并自动决定是否调用工具来生成答案。</p><div class=\"highlight\"><pre><code class=\"language-text\">from langchain.agents import create_agent\n\n# 定义一个简单工具函数：返回给定城市的天气（这里固定返回晴天字符串）\ndef get_weather(city: str) -&gt; str:\n    &#34;&#34;&#34;Get weather for a given city.&#34;&#34;&#34;\n    return f&#34;It&#39;s always sunny in {city}!&#34;\n\n# 初始化 Agent，指定语言模型、工具列表和系统提示\nagent = create_agent(\n    model=&#34;gpt-4o-mini&#34;,                          # 指定模型（需预先设置好API密钥）\n    tools=[get_weather],                          # 将我们定义的get_weather函数作为工具提供给Agent\n    system_prompt=&#34;You are a helpful assistant&#34;,  # 系统提示：定义Agent的角色和行为\n)\n\n# 运行Agent：传入用户消息，Agent将自动选择是否调用工具并返回答案\nresponse = agent.invoke({\n    &#34;messages&#34;: [{&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: &#34;What is the weather in SF?&#34;}]\n})\nprint(response)</code></pre></div><p data-pid=\"9LT_cyuP\">上述代码中，Agent 会读取系统提示，接收用户提问 “What is the weather in SF?”，并通过推理决定调用我们提供的 get_weather(“SF”) 函数工具。由于该函数简单返回晴天结果，最终 Agent 会回答类似 “It’s always sunny in SF!” 的句子。这个示例演示了 LangChain Agent 基本的工具使用流程：定义工具 -&gt; 初始化 Agent -&gt; 调用 Agent 处理消息。</p><h3>1.4 使用成本与学习曲线</h3><p data-pid=\"8-w8LzuK\">作为最快增长的开源项目之一，LangChain 拥有活跃的社区与详尽的文档教程。这降低了入门门槛，新手可以通过丰富的示例快速上手常见用例。</p><p data-pid=\"VfM5Knqf\">然而，LangChain 功能广泛、模块众多，要真正掌握其最佳实践仍需一定学习成本。对于简单需求，调用几个现有组件即可，但要构建复杂 Agent 系统，开发者需要理解 Prompt 设计、Agent 决策过程以及调优。这使得 LangChain 的学习曲线呈现出一种 “<b>前平后陡</b>” 的特点——入门容易，但精通和排错需要经验积累。幸运的是，社区分享的经验和官方指南有助于缓解这一问题。</p><h3>1.5 典型应用与适用者</h3><p data-pid=\"fVDy9kYs\">凭借丰富的工具生态和稳定的框架，LangChain 适合快速搭建原型和常规的 LLM 应用。例如，利用 LangChain，开发者可以轻松构建一个集成网络搜索和计算器工具的问答 Agent，解决开放领域的问题。</p><p data-pid=\"Wght4MKN\">对于希望快速实现 LLM 调用工具、不涉及复杂多 Agent 交互的场景，LangChain 是理想选择。它适用于对代码能力要求不高的开发者、数据科学家以及希望探索 LLM 应用的入门者。</p><p data-pid=\"L_anrfwo\">总的来说，如果你的任务是<b>单智能体为主、关注工具集成且需要成熟社区支持</b>，LangChain 会是首选方案。</p><h2>2. LangGraph：基于图的高级 Agent 工作流</h2><h3>2.1 核心定位与技术栈</h3><p data-pid=\"NPrGw342\">LangGraph 是 LangChain 官方推出的开源 Agent 编排框架，旨在以有向图结构实现复杂智能体工作流。它建立在 Python 生态之上，可与 LangChain 无缝结合，也可单独使用。</p><p data-pid=\"r4I6rZAk\">LangGraph 引入了 “<b>节点</b>” 和 “<b>边</b>” 的概念：</p><ul><li data-pid=\"lynA_O6x\">每个节点代表一个操作（可以是函数调用、子 Agent 等）</li><li data-pid=\"recke4bA\">边则定义节点之间的执行顺序或条件跳转</li></ul><p data-pid=\"h6va1k6l\">通过这种可循环的图形结构，LangGraph 可以表示复杂的逻辑，包括分支判断和循环回路，突破了传统 LangChain 链式调用线性、无环的限制。</p><p data-pid=\"9fQSnE0v\">其设计理念是在 Agent 工作流中维护一个<b>全局状态对象</b>，让所有节点共享上下文，从而实现持久化和错误恢复。LangGraph 内置了对话记忆（短期 + 长期）的支持，并能够与第三方长时记忆库（如 Zep 向量存储）集成。总体而言，LangGraph 为构建复杂、多步骤、多角色的 Agent 流程提供了强大的基础。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5c7a97d8637e3dde2026ff8287bf0e8a_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"820\" data-rawheight=\"324\" data-original-token=\"v2-1f56cf6ca4d8aae6309155c6d8232241\" class=\"origin_image zh-lightbox-thumb\" width=\"820\" data-original=\"https://pic3.zhimg.com/v2-5c7a97d8637e3dde2026ff8287bf0e8a_r.jpg\"/><figcaption>图2. LangGraph：基于图的高级 Agent 工作流</figcaption></figure><h3>2.2 功能特性</h3><p data-pid=\"O0JTbCk2\">相较于 LangChain 原有 Agents，LangGraph 提供了多项增强：</p><ol><li data-pid=\"mtos6xa7\"><b>结构升级</b>：由线性链变为通用图，支持循环和条件分支。</li><li data-pid=\"XYEBrmyQ\"><b>状态管理</b>：状态管理和持久化由框架自动处理，不再需要人工维护中间结果。</li><li data-pid=\"aP_QVgAa\"><b>人机协同</b>：在图的特定节点插入人工审核步骤，暂停 Agent 执行等待人为确认或编辑，然后再继续流程。</li><li data-pid=\"13X1ipdd\"><b>多 Agent 协作</b>：开发者可以在图中定义多个 Agent 节点，让它们共享状态、互相传递信息。</li></ol><p data-pid=\"DRZTXZmD\">借助这些特性，LangGraph 能优雅地实现诸如：</p><ul><li data-pid=\"JB-axte9\">多轮工具调用（Agent 反复调用工具完善答案）</li><li data-pid=\"9-m3PF_u\">分布式子任务（不同 Agent 负责不同任务链路）</li><li data-pid=\"rj-S-rvp\">人机协同（关键步骤由真人确认）</li></ul><p data-pid=\"Qb95skJD\">等高级场景。这些都是传统 LangChain 实现起来非常繁琐的。</p><h3>2.3 代码示例</h3><p data-pid=\"FxXNpdb_\">下面通过一个最小示例演示 LangGraph 的使用方式。该示例构建了一个简单的有向状态图，包含两个节点，节点之间按固定顺序执行，并通过共享状态在节点间传递数据。</p><div class=\"highlight\"><pre><code class=\"language-text\">from langgraph.graph import START, StateGraph\nfrom typing_extensions import TypedDict\n\n# 定义全局状态结构。LangGraph 使用 State 来描述节点之间流转的数据。\nclass State(TypedDict):\n    text: str\n\n# 定义两个节点函数。每个节点接收当前状态，并返回对状态的增量更新。\ndef node_a(state: State) -&gt; dict:\n    return {&#34;text&#34;: state[&#34;text&#34;] + &#34;a&#34;}\n\ndef node_b(state: State) -&gt; dict:\n    return {&#34;text&#34;: state[&#34;text&#34;] + &#34;b&#34;}\n\n# 构建状态图并注册节点与边关系。执行顺序：先 node_a，后 node_b。\ngraph = StateGraph(State)\ngraph.add_node(&#34;node_a&#34;, node_a)\ngraph.add_node(&#34;node_b&#34;, node_b)\n\ngraph.add_edge(START, &#34;node_a&#34;)\ngraph.add_edge(&#34;node_a&#34;, &#34;node_b&#34;)\n\n# 最后对图进行编译并执行。LangGraph 会按照图结构依次调用节点，并自动合并每一步返回的状态更新。\nresult = graph.compile().invoke({&#34;text&#34;: &#34;&#34;})\nprint(result)\n# {&#39;text&#39;: &#39;ab&#39;}</code></pre></div><p data-pid=\"IVrPW5k1\">这个示例展示了 LangGraph 的核心思想：将执行流程从代码控制流中抽离，显式表示为一个有向图结构，并通过共享状态驱动节点执行。在更复杂的场景中，这种方式可以自然扩展到条件分支、循环、多 Agent 协作等复杂工作流。</p><h3>2.4 使用成本与学习曲线</h3><p data-pid=\"L9Os_Qbh\">由于引入了<b>状态机和图模型</b>，LangGraph 的学习门槛相对高于 LangChain 基础用法。开发者需要熟悉节点 / 边 / 状态等新概念，并掌握 LangGraph 提供的 API（如定义 <code>StateGraph</code>、添加节点和边、编译执行等）。</p><p data-pid=\"Qnm3781j\">不过，LangGraph 的抽象设计清晰，一旦理解图编排思想，对于复杂流程的实现反而简化了代码逻辑。框架提供了一些预构建 Agent（如 ReAct 图模板）来帮助上手。</p><p data-pid=\"rIxcOElM\">目前 LangGraph 的社区规模不及 LangChain 主框架，但官方文档和教程（如 LangChain Academy 专题课程）对关键概念有详细解释。总的来说，掌握曲线略陡，需要一定时间摸索图式工作流的范式，但对于需要应对复杂业务逻辑的开发者来说，这一投入是值得的。</p><h3>2.5 典型应用与适用者</h3><p data-pid=\"RrAIh9vt\">LangGraph 适用于<b>长流程自动化和复杂决策树类的 Agent 场景</b>。例如，在企业流程自动化中，一个任务可能需要多个步骤、多种判断——使用 LangGraph 可以将每个步骤封装为节点，定义条件分支，甚至在关键节点加入人工确认，实现人机协同的流程机器人。</p><p data-pid=\"zUd6G56k\">在技术实践上，LangGraph 常被用于打造多工具交互的智能体，如：</p><blockquote data-pid=\"QP84HzS5\"> 先搜索资料 → 再分析总结 → 复核结果</blockquote><p data-pid=\"dbHw5F3B\">这类需要循环调用工具的任务。</p><p data-pid=\"mT8jl2qy\">对于高级开发者、对 Agent 稳定性和可控性要求很高的项目，以及需要多 Agent 并行协作的场景，LangGraph 是理想选择。它更适合追求精细流程控制的团队（如希望引入 QA 审核、人为验收环节），以及在 LangChain 基础上遇到瓶颈、需要更强大编排能力的用户。</p><h2>3. <b>AutoGen：微软多智能体对话编排框架</b></h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-68fffd2a2544303cc5fee96aa40a16ea_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1042\" data-rawheight=\"706\" data-original-token=\"v2-6869a91b12d84651afe28266fcfbada7\" class=\"origin_image zh-lightbox-thumb\" width=\"1042\" data-original=\"https://pic3.zhimg.com/v2-68fffd2a2544303cc5fee96aa40a16ea_r.jpg\"/><figcaption>图3. AutoGen：微软多智能体对话编排框架</figcaption></figure><h3>3.1 核心定位与技术栈</h3><p data-pid=\"qCdB9Ut4\">AutoGen 是由微软研究院开源的多智能体对话框架，旨在通过让多个 AI Agent 互相对话合作来解决任务。它支持 <b>Python 和 .NET 平台</b>，采用异步事件驱动架构，擅长构建长期运行的复杂 Agent 工作流。</p><p data-pid=\"nT-C9dac\">AutoGen 提供了高级抽象来定义不同类型的 Agent（如用户 Agent、助手 Agent、工具 agent 等），以及它们之间的交互模式。例如开发者可以设定一个“经理” Agent 和多个“专家” Agent，让经理分配任务，专家各自处理后再由经理汇总。</p><p data-pid=\"C4C6g9jN\">在设计理念上，AutoGen 强调<b>灵活性和可扩展性</b>，鼓励使用自然语言对话来驱动 Agent 协作。值得注意的是，AutoGen v0.4 进行了架构重构，引入了更健壮的异步消息通信、插件式组件和跨语言协同等特性。</p><p data-pid=\"ASsJlCgY\">总的来说，AutoGen 是一个偏研究和开发用的平台，方便快速尝试 Agentic AI 新想法，同时具有一定工程能力。</p><h3>3.2 功能特性</h3><p data-pid=\"ljWwxa6h\">AutoGen 最核心的能力在于<b>多 Agent 协同对话</b>。开发者可以轻松创建任意数量的 Agent，让它们在一个对话频道中互发消息、询问与解答，从而共同推进任务。</p><p data-pid=\"Q_VfWdto\">框架内置了几种典型 Agent 角色，例如：</p><ul><li data-pid=\"ByfvxJuw\"><code>AssistantAgent</code>：AI 助手，用于解决问题</li><li data-pid=\"rRDe1ocj\"><code>UserProxyAgent</code>：模拟人类用户</li><li data-pid=\"fB4aJGJf\"><code>CriticAgent</code>：评论员 / 审查者</li></ul><p data-pid=\"D4SnNnra\">这些可以组合出各种对话模式。</p><p data-pid=\"PhTpbn2R\">AutoGen 还支持<b>人类 Agent</b>——可以把真人作为一个特殊 Agent 插入对话，实现实时的人机协同。</p><p data-pid=\"LrAtkslV\">相比其它框架，AutoGen 的一个特色是 <b>对话驱动的工具调用</b>：Agent 可以在对话中请求使用某个工具，由框架捕获并执行，再将结果反馈进对话。通过这种方式，工具使用被自然地融入了多 Agent 对话流程。</p><p data-pid=\"U-abHTzp\">AutoGen v0.4 加强了观察与调试能力，引入 <b>OpenTelemetry 集成</b> 用于监控日志，便于开发者跟踪每个 Agent 的行为。此外，AutoGen 支持<b>分布式部署</b>，可以在多个进程或机器上运行不同 Agent，适应大规模场景。</p><p data-pid=\"rLM0RpSK\">总体而言，AutoGen 提供了高度自由的对话式编排能力，适合复杂交互场景。</p><h3>3.3 代码示例</h3><p data-pid=\"28vqVQ4e\">以下示例使用 AutoGen 定义了两个对话智能体（ConversableAgent），分别扮演名为 Cathy 和 Joe 的喜剧演员角色，然后通过 initiate_chat 方法让其中一个智能体开始与另一个对话。</p><div class=\"highlight\"><pre><code class=\"language-text\">import os\nfrom autogen import ConversableAgent\n\n# 创建第一个Agent，名为 Cathy，扮演喜剧演员角色\ncathy = ConversableAgent(\n    &#34;cathy&#34;,\n    system_message=&#34;Your name is Cathy and you are a part of a duo of comedians.&#34;, \n    llm_config={&#34;config_list&#34;: [\n        {&#34;model&#34;: &#34;gpt-4o-mini&#34;, &#34;temperature&#34;: 0.9, &#34;api_key&#34;: os.environ.get(&#34;OPENAI_API_KEY&#34;)}\n    ]},\n    human_input_mode=&#34;NEVER&#34;  # 不需要人类输入，完全自主\n)\n\n# 创建第二个Agent，名为 Joe，扮演另一位喜剧演员\njoe = ConversableAgent(\n    &#34;joe&#34;,\n    system_message=&#34;Your name is Joe and you are a part of a duo of comedians.&#34;,\n    llm_config={&#34;config_list&#34;: [\n        {&#34;model&#34;: &#34;gpt-4o-mini&#34;, &#34;temperature&#34;: 0.7, &#34;api_key&#34;: os.environ.get(&#34;OPENAI_API_KEY&#34;)}\n    ]},\n    human_input_mode=&#34;NEVER&#34;\n)\n\n# 让 Joe 主动向 Cathy 发起对话，请求讲一个笑话，限制对话来回 2 个回合\nresult = joe.initiate_chat(\n    cathy, message=&#34;Cathy, tell me a joke.&#34;, max_turns=2\n)\nprint(result)</code></pre></div><p data-pid=\"eNnSfu6G\">运行上述代码，joe 会向 cathy 发送消息：“Cathy, tell me a joke.”，两位智能体将自动交流两个回合，各自根据角色产生笑话对话。例如，Cathy 可能回复一个科学笑话，Joe 接着回应自己的笑话，两人来回各讲一个段子。整个对话保存在 result 中。这个例子直观演示了 AutoGen 的多Agent聊天流程：我们定义好每个 Agent 的角色和个性（通过 system message 和参数配置），然后它们就能在无需人类介入的情况下连续对话。AutoGen 能让开发者方便地创建类似“多个GPT在同一房间讨论/合作”的场景，对于复杂任务可以扩展出经理-员工、多专家协作等模式。</p><h3>3.4 使用成本与学习曲线</h3><p data-pid=\"y4zqg_Lp\">作为微软出品的框架，AutoGen 文档相对专业全面，但学习曲线偏陡。特别是在 0.4 版本更新后，框架接口和理念有所调整，开发者需要花时间理解其<b>事件驱动模型和异步编程风格</b>（Agent 通过 async 消息通信）。</p><p data-pid=\"rLMcEH6G\">相比 LangChain，AutoGen 抽象层次更高，封装了很多交互细节，这虽然减少了样板代码，但也让问题排查变得不直观。另外，多 Agent 对话的调试本身就有挑战，需要关注不同智能体间的消息传递。</p><p data-pid=\"k-K7Rk8g\">好在 AutoGen 有活跃的官方交流群，也有微软工程师参与支持。但目前来看，AutoGen 更适合<b>有一定并发编程和 AI 对话系统经验的开发者</b>。</p><h3>3.5 典型应用与适用者</h3><p data-pid=\"di7GjIi_\">AutoGen 的典型用例之一是在<b>代码生成与协作</b>场景：</p><ul><li data-pid=\"Cp3DT9dj\">一个“编程助手” Agent 撰写代码</li><li data-pid=\"Hq2JCKlx\">另一个“审查员” Agent 审校</li><li data-pid=\"Te9q2tq3\">必要时再由人类开发者介入调整<br/></li></ul><p data-pid=\"mAfxiMUY\">最终三方协作完成任务。这种人类 + AI 多智能体协同编程正是 AutoGen 所擅长的。</p><p data-pid=\"1jSBBHHY\">又如构建一个研究型 Agent 系统：让数个 Agent 分别担任检索、摘要、撰稿等角色，协同撰写一篇论文综述。AutoGen 非常适合需要<b>反复讨论、逐步细化方案</b>的任务场景，因为多个 Agent 之间可以通过对话充分交换信息。</p><p data-pid=\"IBmJNvtu\">推荐使用者方面，AutoGen 更适合：</p><ul><li data-pid=\"8Sf906Se\">科研人员或对新技术敏感的开发者</li><li data-pid=\"PfNAhd38\">用于探索前沿的 Agent 协作模式（如自我反思、互相监督等复杂对话）</li></ul><p data-pid=\"dMTspB55\">此外，对于有 .NET 平台需求的企业用户，AutoGen 也提供了跨语言支持。需要强调的是，AutoGen 目前版本仍是开源社区主导，遇到问题可能需要自行解决或等待社区修复，不太适合对稳定性要求极高的纯商业项目。</p><h2>4. CrewAI：类团队协作的多 Agent 编排</h2><h3>4.1 核心定位与技术栈</h3><p data-pid=\"zPNRDFyB\">CrewAI 是一个开源的多智能体编排框架，基于 Python 创建，强调通过<b>角色分工的自主智能体小组（crew）</b>来协作完成任务。</p><p data-pid=\"AYZuS61C\">与很多框架依赖 LangChain 不同，CrewAI 宣称自己是“独立且轻量”的方案，无需大型依赖即可高效运行。它通过 <b>YAML 配置 + Python 装饰器</b> 相结合的方式来定义 Agent 团队：</p><ul><li data-pid=\"uu03cX9O\">在 YAML 配置文件中声明多个 Agent 的角色、目标和背景，以及任务列表</li><li data-pid=\"AK-IkoZq\">在代码中通过装饰器生成这些 Agent 和任务</li><li data-pid=\"GZvpnYkC\">最后编排成一个 Crew 流程执行</li></ul><p data-pid=\"jW67RXg9\">CrewAI 既支持顺序执行的流程，也支持层次化流程：后者会自动生成一个“经理” Agent 来协调多个子任务 Agent，进行任务分配和结果验证。</p><p data-pid=\"OUuL1o5H\">值得一提的是，CrewAI 内置了丰富的工具库，包括对 <b>RAG（检索增强生成）</b> 的支持、自定义搜索工具（如 JSON、GitHub、YouTube 等）以及与 LangChain 工具的集成。</p><p data-pid=\"t8RMX6q2\">总体而言，CrewAI 倾向于提供一个<b>开箱即用的多 Agent 协作框架</b>，以最小的样板代码实现强大的任务自动化。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9996538b93c25b7621ba88aee34186ce_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1042\" data-rawheight=\"396\" data-original-token=\"v2-179d4c9253c69e8cc57263b2756066c7\" class=\"origin_image zh-lightbox-thumb\" width=\"1042\" data-original=\"https://pic3.zhimg.com/v2-9996538b93c25b7621ba88aee34186ce_r.jpg\"/><figcaption>图4. CrewAI：类团队协作的多 Agent 编排</figcaption></figure><h3>4.2 功能特性</h3><p data-pid=\"2lxzYYcI\">CrewAI 的核心在于多 Agent 团队的定义与协调。它鼓励用户将每个 Agent 看作团队中的一个成员，赋予明确的角色和目标。这些 Agent 可以各自使用不同的 LLM 模型和工具，相互之间通过框架内置的通信机制进行任务委派和提问。</p><p data-pid=\"WOYjpSYv\">CrewAI 为 Agent 提供三大属性：</p><ul><li data-pid=\"8mF8HHzW\">角色（<code>role</code>）</li><li data-pid=\"PLp7_Ic_\">目标（<code>goal</code>）</li><li data-pid=\"FsHQ3fSH\">背景（<code>backstory</code>）</li></ul><p data-pid=\"sqt0VqjZ\">确保每个 Agent 都有清晰的 persona。</p><p data-pid=\"jsCgl0i3\">在协作模式上，CrewAI 灵活支持：</p><ul><li data-pid=\"8u0OUvqM\">线性流水线（预定义任务顺序）</li><li data-pid=\"Zbhzkni8\">分层控制（自动加经理 Agent 统筹）</li><li data-pid=\"lhwLkN-J\">自定义流程组合</li></ul><p data-pid=\"7WKC79SG\">框架注重自治行为，允许 Agents 根据需要自主发起与其他 Agent 的交互或任务请求。同时也兼顾可控性，用户可以选择用精确的 Flow 来定义固定的执行顺序。</p><p data-pid=\"XgFDPsap\">记忆管理方面，CrewAI 与 LangChain 集成，提供了内置的记忆对象，可同时处理短期和长期记忆，并对关键信息自动生成嵌入向量，方便 Agent 检索。</p><p data-pid=\"PyqJd5fr\">在工具使用上，CrewAI 既有自己的 Toolkit，也能无缝调用 LangChain 上百种现有工具。值得一提的是，CrewAI 还支持引入人类输入作为流程的一环（官方示例中展示了如何等待人类在执行过程中提供额外信息），体现了一定程度的 <b>human-in-the-loop</b> 能力。</p><p data-pid=\"Z-NrdvG3\">综合来看，CrewAI 以“多人合作”范式重新诠释了 Agentic AI，可看作是在高层抽象上实现了一个模拟人类团队工作的 AI 系统。</p><h3>4.3 代码示例</h3><p data-pid=\"ipxYfCV0\">下面代码演示如何使用 CrewAI 定义一个“研究员”智能体，并赋予它一个简单的网络搜索工具，然后通过 kickoff() 方法直接与该 Agent 互动，让它回答一个问题。</p><div class=\"highlight\"><pre><code class=\"language-text\">from crewai import Agent\nfrom crewai_tools import SerperDevTool\n\n# 创建一个Researcher智能体，具备搜索工具\nresearch_agent = Agent(\n    role=&#34;Research Analyst&#34;,\n    goal=&#34;Find and summarize information about specific topics&#34;,\n    backstory=&#34;You are an experienced researcher with attention to detail.&#34;,\n    tools=[SerperDevTool()],   # 集成谷歌搜索工具（需配置 SERPER_API_KEY 环境变量）\n    verbose=True              # 输出详细日志，便于观察执行过程\n)\n\n# 直接与智能体交互，提问一个问题（让智能体自行利用工具找到答案并总结）\nresult = research_agent.kickoff(&#34;What are the latest developments in AI for 2025?&#34;)\nprint(result)</code></pre></div><p data-pid=\"opZlppDa\">在这个示例中，我们定义了一个角色为“研究分析员”的 Agent，设定了其目标和背景，并给它配备了一个第三方搜索工具。当使用 kickoff() 方法向智能体提出询问时，CrewAI 框架会让该 Agent 自动调用 Serper 搜索API获取最新资料，并整理出结果回答。通过 kickoff 直接交互，我们无需设置完整的任务流程即可测试单个 Agent 的功能。实际应用中，CrewAI 可以将多个此类 Agent 组成一个协作团队（Crew），由一个 Manager 协调多个角色顺序执行。例如，我们可以有一个 Researcher 负责检索数据，交给 Writer 撰写报告，再由 Reviewer 校对——这些都能通过 CrewAI 的流程编排来实现。总之，CrewAI 为多智能体的分工协作提供了灵活的架构，初学者可以先从单Agent工具调用开始，逐步拓展到多Agent协同。</p><h3>4.4 使用成本与学习曲线</h3><p data-pid=\"uiKK7yhM\">CrewAI 强调简洁与开发者体验。借助命令行工具，用户可以通过 <code>crewai create</code> 快速生成项目模板，包含示例 Agents 和任务配置。这种<b>配置驱动</b>的开发方式让初学者易于上手，只需修改 YAML 即可定义自己的 Agent 团队。</p><p data-pid=\"cmeKxOLy\">然而，要充分发挥 CrewAI 威力，仍需理解其装饰器模式和流程机制。例如顺序流程和分层流程在定义和运行上有所区别，需要根据场景选择 <code>Process.sequential</code> 或 <code>Process.hierarchical</code> 等模式。</p><p data-pid=\"oCHahwTe\">总体来看，CrewAI 文档完善，学习曲线中等：有一定 Python 基础的开发者可以较快上手简单应用，但若要设计复杂的自定义流程，仍需仔细研读文档和源码。</p><p data-pid=\"v5LQwl9a\">一个可能的挑战是，CrewAI 虽标榜独立于 LangChain，但在高级功能（如工具集成）上涉及 LangChain 生态，开发者可能需要同时熟悉部分 LangChain 用法。不过，相比直接使用 LangChain 实现多 Agent，CrewAI 已大幅降低了心智负担——正如其开发者所描述，CrewAI 致力于提供<b>简单、灵活且精确可控的多 Agent 编排</b>。</p><h3>4.5 典型应用与适用者</h3><p data-pid=\"otE7ThaG\">CrewAI 适合<b>流程明确的任务协作场景</b>。例如，在客户支持领域，可以构建一个 CrewAI 智能体团队：</p><ul><li data-pid=\"ZzU0AyxE\">“客服 Agent” 与用户对话收集问题</li><li data-pid=\"VQ3505TL\">“专家 Agent” 处理技术问题</li><li data-pid=\"Xb_dMezS\">由 CrewAI 协调整个流程并最终回复用户</li></ul><p data-pid=\"VkFsMtDL\">又如文档分析领域，可以有：</p><ul><li data-pid=\"BJfL0Owq\">“检索 Agent” 负责查找资料</li><li data-pid=\"stIh4bPV\">“总结 Agent” 负责整理要点</li><li data-pid=\"y19J2_VH\">经理 Agent 将结果交由人类审核</li><li data-pid=\"ijbBF_3Y\">“撰稿 Agent” 生成报告</li></ul><p data-pid=\"zSOUgu-x\">这样的多专家协作流程，用 CrewAI 实现会比普通框架简单得多。</p><p data-pid=\"yOqoVJtf\">推荐使用者方面，如果你是一名对多 Agent 自治系统感兴趣的开发者，希望快速构建一个 Agent 团队来自动化复杂任务，CrewAI 会是很好选择。它也适合企业中对流程合规要求高的场景，因为可以在流程中插入审批节点。</p><p data-pid=\"5dW29gLK\">有用户反映 CrewAI 早期版本存在一些不成熟之处（例如可能遇到 Bug 或局限），因此对于关键业务，需充分测试验证。整体而言，CrewAI 更偏向追求高定制、多 Agent 协同的应用，适合有一定编程功底，愿意尝试新兴框架的开发者。</p><h2>5. smolagents：工具即代码的极简 Agent</h2><h3>5.1 核心定位与技术栈</h3><p data-pid=\"YX5B2Pdu\"><b>smolagents（Hugging Face Agents）</b> 是 Hugging Face 在 2023 年推出的 Agent 框架。smolagents 最大的特点是<b>轻量简洁</b>——整个库据称只有约一千行代码，却提供了构建智能体的基本积木。它使用 Python 实现，与 Hugging Face Hub 深度集成。</p><p data-pid=\"eWHw-VIt\">smolagents 的设计理念是：<b>让 LLM 直接编写可执行代码来调用工具，从而解决问题</b>。换言之，在 smolagents 框架中，Agent 的行动不再通过生成 JSON 或特定格式再由框架解析执行，而是直接让模型产出 Python 代码片段，框架立即运行该代码完成工具调用。</p><p data-pid=\"tcDu1_nF\">这种 “Code as Actions” 的模式，使得 Agent 的行为更直观高效，也更贴近当下大模型擅长的编程能力。</p><p data-pid=\"ks8FFe-X\">smolagents 对底层 LLM 没有限制，支持 Hugging Face Hub 上的任意模型以及 OpenAI API 等，通过一个统一接口来驱动 Agent。总的来说，smolagents 是一个面向开发者的极简 Agent 框架，适合快速原型和实验。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5d2caf2318ed79a69a79908a6c2a021b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1042\" data-rawheight=\"486\" data-original-token=\"v2-3b83d96d2e14fd79f7409d71eee78334\" class=\"origin_image zh-lightbox-thumb\" width=\"1042\" data-original=\"https://pic4.zhimg.com/v2-5d2caf2318ed79a69a79908a6c2a021b_r.jpg\"/><figcaption>图5. smolagents：工具即代码的极简 Agent</figcaption></figure><h3>5.2 功能特性</h3><p data-pid=\"fxa-eEG2\">smolagents 聚焦于<b>单 Agent 工具使用</b>场景，同时也支持简单的多 Agent 层次结构（例如让一个 Agent 调用另一个 Agent 作为工具）。</p><p data-pid=\"6ouomvng\">它提供了多模态工具的便利集成，例如：</p><ul><li data-pid=\"YvkXwfBJ\">调用 Hugging Face 上的图像生成模型</li><li data-pid=\"CxA3lrPK\">文本摘要模型</li><li data-pid=\"kmW74Dxv\">其他推理模型</li></ul><p data-pid=\"mm1rYIUy\">这些都已有现成 Tool 封装，可一行代码加载。</p><p data-pid=\"2_XwoP8d\">Agent 本质上是一种特殊的 <b>代码智能体（CodeAgent）</b>，其执行流程是：</p><ol><li data-pid=\"YxK9FH84\">LLM 根据提示生成包含对工具函数调用的代码字符串；</li><li data-pid=\"wzRbOIaf\">框架执行该代码并将结果返回模型；</li><li data-pid=\"hyq4sYJg\">模型再继续生成下一步代码，直至得到最终答案。</li></ol><p data-pid=\"LI3-hp1B\">由于以代码为媒介，Agent 可以灵活地进行逻辑控制，如在生成的代码里使用<b>循环、条件判断、定义子函数</b>等——这些传统 JSON 工具调用模式难以实现的复杂操作，在 smolagents 中水到渠成。</p><p data-pid=\"JQpH0qcs\">安全性方面，smolagents 考虑到执行任意代码的风险，提供了<b>沙箱机制</b>来运行模型产出的代码，防止恶意或错误代码危害系统。</p><p data-pid=\"Mt9Vlv8M\">需要说明的是，smolagents 天生偏向短对话单任务，并未内置像长对话记忆、交互式多轮对话管理等功能，不过开发者可以借助外部存储或让 Agent 将上下文作为变量写入代码来实现记忆。</p><p data-pid=\"Ck1KLZKa\">一句话总结：smolagents 提供了简洁但强大的工具调用能力，充分利用了大模型的编程特长，使得 Agent 像一个“小程序”那样完成任务。</p><h3>5.3 代码示例</h3><p data-pid=\"ASzlCpPE\">下面的示例创建了一个 smolagents 的 CodeAgent，加载 DuckDuckGo 搜索工具和一个 Hugging Face Hub API 模型，然后 Agent 被要求回答一个需要外部知识和推理的问题。</p><div class=\"highlight\"><pre><code class=\"language-text\">from smolagents import CodeAgent, DuckDuckGoSearchTool, HfApiModel\n\n# 初始化 Agent，配置一个DuckDuckGo搜索工具和HuggingFace模型\nagent = CodeAgent(\n    tools=[DuckDuckGoSearchTool()],  # 工具：DuckDuckGo 搜索引擎（无需Google API）\n    model=HfApiModel()              # 使用HuggingFace提供的开放模型API\n)\n\n# 提出问题：智能体需要先搜索Pont des Arts的长度和猎豹速度，再计算时间\nquery = &#34;How many seconds would it take for a leopard at full speed to run through Pont des Arts?&#34;\nresponse = agent.run(query)\nprint(response)</code></pre></div><p data-pid=\"DZaVeTaR\">在此示例中，我们的问题是：“一只猎豹全速跑过巴黎艺术桥需要多少秒？”。这需要先获取<b>Pont des Arts（艺术桥）</b>的长度和猎豹的奔跑速度，再进行计算。smolagents 的 CodeAgent 会将这个任务分解为代码形式的行动，例如调用 DuckDuckGoSearchTool 查询艺术桥长度，然后根据搜索结果计算时间。整个过程中，Agent 的行为逻辑（搜索→计算）是通过让 LLM 生成代码并执行来完成的。因此，我们只需一行 agent.run(query) 调用，就能让 Agent 自主地决定步骤并给出答案。smolagents 框架使这一切变得非常简洁：开发者无需手动编排复杂的 prompt 或循环，Agent 自己会在内部迭代，直至得出最终结果。</p><h3>5.4 使用成本与学习曲线</h3><p data-pid=\"HOtO9zap\">smolagents 以<b>极简 API</b>著称，初学者只需了解几个核心类（如 <code>CodeAgent</code>、<code>Tool</code>）即可开始编写 Agent。例如要创建一个能上网搜索并生成图片的智能体，只需准备对应的搜索和图像生成工具，然后用几行代码实例化 Agent 并运行提示即可。</p><p data-pid=\"-LDLJyCM\">相较于其他框架需要配置复杂的 Prompt 模板或 Agent 逻辑，smolagents 更接近直接操作 LLM，因此学习曲线非常平缓。大多数使用过 HuggingFace Transformers 的开发者可以零门槛上手，因为其范式与调用模型、执行推理相似。</p><p data-pid=\"7Ye-Hn73\">同时，smolagents 社区也在快速增长，官方推出了 Agents 课程和 Cookbook，涵盖从基础到高级的教程。</p><p data-pid=\"2qVpFBYQ\">不过，简洁也意味着功能有限：当需求超出单 Agent 调用工具的范畴时（比如复杂决策、多 Agent 长程交互），开发者可能需要自行扩展 smolagents 或换用更重型的框架。因此：</p><ul><li data-pid=\"qqY7mkoQ\">对于追求极致简单的场景，smolagents 几乎没有学习负担；</li><li data-pid=\"urqk-UgE\">对于复杂场景，则需要有将问题拆解为“LLM + 代码工具”组合的能力。</li></ul><h3>5.5 典型应用与适用者</h3><p data-pid=\"vYpP_DOU\">smolagents 适合<b>轻量级的 AI 助手开发</b>。例如，可以快速实现一个能够上网搜索问题答案、并自动生成相应图片的多模态助手。又或者，一个财经助手可以调用金融 API 获取股票数据然后进行计算，这些都可以通过 LLM 产出代码来完成。</p><p data-pid=\"QYq6OYtc\">由于其对本地模型支持良好，smolagents 也适合离线环境或对数据隐私有要求的应用，开发者可以使用自己的本地模型作为智能体的大脑。</p><p data-pid=\"b4HsxIfQ\">推荐使用者包括：</p><ul><li data-pid=\"Bm3dX3C2\">希望在最短时间内打造 Agent 原型的黑客和研究人员；</li><li data-pid=\"bFqIsziN\">注重定制工具调用逻辑的开发者（因为直接写 Python 代码最灵活）；</li><li data-pid=\"XJR8jyNg\">偏好 Hugging Face 生态（模型和数据集）的从业者。</li></ul><p data-pid=\"Rlwk7CUZ\">如果你的需求是构建一个<b>特定功能助手而非通用 AI</b>，smolagents 提供了恰到好处的简洁和能力。然而对于需要全面对话管理或多 Agent 长期协作的项目，smolagents 并非一站式解决方案，可能需要配合其他工具一起使用。</p><h2>6. OpenAI Swarm：轻量级多智能体编排实验框架</h2><h3>6.1 核心定位与技术栈</h3><p data-pid=\"pEMJ-Syw\"><b>Swarm</b> 是 OpenAI 在 2024 年发布的实验性多 Agent 框架，其目标是提供一种<b>轻量、透明</b>的方式来协调多个智能体协作。</p><p data-pid=\"Nxi6sJKA\">Swarm 基于 Python，实现了一个<b>无状态（stateless）</b>的多 Agent 调度架构：每次运行时，不保留上一次的内部状态，需要由开发者通过“上下文变量”来维护跨步骤的信息。这种设计初衷是追求简单可控，避免复杂的隐式状态导致的不可预测行为。</p><p data-pid=\"suyFeT52\">Swarm 将每个 Agent 定义为包含三个要素：</p><ul><li data-pid=\"YyKYLE0r\">指令（该 Agent 的行为说明）</li><li data-pid=\"wzgMiaRl\">工具函数列表（Agent 可调用的函数集合）</li><li data-pid=\"lY5_COd-\">交接函数（其中一部分工具可用于移交控制权给另一 Agent）</li></ul><p data-pid=\"_Ru5cRsP\">在执行过程中，Swarm 通过 LLM 的函数调用机制，让 Agent 在需要时返回下一个应被激活的 Agent，从而在智能体之间实现动态切换。</p><p data-pid=\"xigCREgR\">由于高度依赖函数调用功能，Swarm 对 LLM 接口的依赖较小，更多逻辑由框架自身管理。</p><p data-pid=\"OPNlJ17-\">需要强调的是，OpenAI 官方明确将 Swarm 定位为<b>教育用途的实验框架</b>，目前并不建议在生产环境中直接使用。它更像是探索多 Agent 接口设计的试验田，因此在功能完备性上可能不及其他成熟框架。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-1b5c50fbf6637221d0a52917dd86c752_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1052\" data-rawheight=\"374\" data-original-token=\"v2-c6c6d9d66a433d506bfbe360f639912e\" class=\"origin_image zh-lightbox-thumb\" width=\"1052\" data-original=\"https://pic3.zhimg.com/v2-1b5c50fbf6637221d0a52917dd86c752_r.jpg\"/><figcaption>图6. OpenAI Swarm：轻量级多智能体编排实验框架</figcaption></figure><h3>6.2 功能特性</h3><p data-pid=\"rdkAJBy3\">Swarm 最大的特点是<b>极简的多 Agent 调用模式</b>。开发者无需设计复杂的调度策略，只需在每个 Agent 的某些函数里通过返回一个特殊值来指明“切换到其他 Agent 处理”，Swarm 就会按照约定完成 Agent 切换。这种显式交接机制保证了协作流程的透明可控。</p><p data-pid=\"etMNEwDv\">Swarm 还支持直接调用 <b>Python 函数作为工具</b>，因此 Agent 可以利用现有代码功能完成任务，而无需额外包装。</p><p data-pid=\"0WOt5hvi\">在内存管理方面，Swarm 使用了显式的 <code>context_variables</code> 参数来在多 Agent 对话中传递共享信息，相当于一种手动维护的全局状态。通过上下文变量，开发者可以在 Agent 之间共享如用户请求、部分中间结果等数据，从而弥补框架本身无状态的限制。</p><p data-pid=\"7VZih5v5\">Swarm 也支持<b>流式响应</b>，可以在 Agent 执行过程中逐步将输出返回给调用方，提升交互的实时性。</p><p data-pid=\"4dh0tR27\">不过总体来说，Swarm 并未提供现成的复杂功能模块，例如：</p><ul><li data-pid=\"M6G1Lqmo\">没有自带工具库</li><li data-pid=\"1I95gflo\">没有内置的长短期记忆模块</li><li data-pid=\"cb4a6Dh4\">不涉及人类参与等高阶特性</li></ul><p data-pid=\"1JZWKPHS\">它追求的是一个最小可行的多 Agent 架构，将复杂度下放给开发者来自行实现。这使其更像一个“框架的框架”，为研究多 Agent 交互提供了一个简单底座。</p><h3>6.3 代码示例</h3><p data-pid=\"N8t6HrOC\">下面示例演示了两个 Agent 的协作：Agent A 接受用户消息，如有需要会调用交接函数把对话控制权交给 Agent B。Agent B 被设定为只能用俳句形式回答。当用户表示想和 B 对话时，A 会将会话转交给 B，最终由 B 给出俳句风格的回复。</p><div class=\"highlight\"><pre><code class=\"language-text\">from swarm import Swarm, Agent\n\nclient = Swarm()  # 初始化Swarm客户端\n\n# 定义一个函数，作用是将对话控制权转移给 agent_b\ndef transfer_to_agent_b():\n    return agent_b\n\n# 创建 Agent A：具备一个函数工具用于交接，职责是帮助用户并在适当时交给 Agent B\nagent_a = Agent(\n    name=&#34;Agent A&#34;,\n    instructions=&#34;You are a helpful agent.&#34;,      # 行为指令：作为一个乐于助人的助手\n    functions=[transfer_to_agent_b]               # 注册可调用函数：用于交接会话\n)\n\n# 创建 Agent B：不包含工具，只负责以俳句形式回应\nagent_b = Agent(\n    name=&#34;Agent B&#34;,\n    instructions=&#34;Only speak in haikus.&#34;         # 行为指令：回答时只能说俳句\n)\n\n# 用户向 Agent A 发送消息，请求与 Agent B 对话\nresponse = client.run(\n    agent=agent_a,\n    messages=[{&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: &#34;I want to talk to agent B.&#34;}]\n)\n# 输出最终回复内容（预期为 Agent B 的俳句回复）\nprint(response.messages[-1][&#34;content&#34;])</code></pre></div><p data-pid=\"HzVJhM3y\">在上述代码中，agent_a 起初接收到用户消息：“I want to talk to agent B.”。根据它的设定，它可以调用 transfer_to_agent_b() 函数，将控制权切换给 agent_b。agent_b 接管后，根据自己的指令（只说俳句）生成回复，例如返回一首俳句风格的回答作为对用户的答复。最终 response.messages[-1] 就是用户收到的来自 Agent B 的消息。</p><h3>6.4 使用成本与学习曲线</h3><p data-pid=\"U2_4-GfX\">由于功能极简，Swarm 本身非常易于理解——浏览其文档和示例代码可以发现，只需要定义好 Agent 列表和函数，然后调用 <code>client.run()</code> 即可开始多 Agent 对话。</p><p data-pid=\"wbkX9wFL\">学习成本主要来自对多 Agent 协作模式的<b>设计</b>，而非框架本身的 API。也就是说，Swarm 降低了实现门槛但提高了设计要求：开发者必须深入思考如何拆分任务到不同 Agent、如何设计交接的时机和条件。如果设计不当，可能出现死循环或智能体间通信不畅等问题。</p><p data-pid=\"OsO9nU9c\">Swarm 官方文档相对简洁，这对新手来说是个挑战。此外，由于是无状态架构，开发者需要自己保障在长流程中的上下文传递，例如要通过函数参数反复传入并返回 context，对于习惯了有状态对话管理的人而言稍嫌繁琐。</p><p data-pid=\"n0gkFpir\">总的来说，Swarm 的入门非常容易，但要用好需要较强的规划和调试能力。对于经验丰富的开发者，Swarm 提供了很高的自由度；而对初学者，可能反而不如用 LangChain 这类高抽象库来得省心。</p><h3>6.5 典型应用与适用者</h3><p data-pid=\"RIdkVHa6\">Swarm 目前更多被用于<b>演示和教学</b>。例如，构造一个简单的客服系统：</p><ul><li data-pid=\"ofU2jSiB\">起始由一个“问候 Agent”处理用户寒暄</li><li data-pid=\"-Be1tuou\">一旦用户询问技术问题则交接给“技术 Agent”</li><li data-pid=\"CsDc3W5e\">若用户咨询销售则交给“销售 Agent”</li></ul><p data-pid=\"pIQTM6ZV\">这种基于规则的多 Agent 对话可以用 Swarm 非常直观地实现。</p><p data-pid=\"AT8lnSF_\">再比如，在游戏场景中，不同 NPC 由不同 Agent 驱动，当需要时通过 Swarm 切换对话控制权，从而实现多角色互动。</p><p data-pid=\"RNY3Ak02\">由于 Swarm 强调显式控制权交接，适合那些<b>流程相对固定且可预先设定切换条件</b>的场景。</p><p data-pid=\"wrRk9jGc\">推荐使用者主要是：</p><ul><li data-pid=\"pqhdQQy1\">对框架底层感兴趣的开发者</li><li data-pid=\"7uARbx9A\">研究多 Agent 交互机制的学者</li><li data-pid=\"n1NuuCKc\">希望打造高度定制化 Agent 系统的团队</li></ul><p data-pid=\"Bj5epvD8\">如果你的应用需要严格可控的 Agent 行为，且愿意自行实现大部分附加功能，那么 Swarm 提供了一个干净的起点。不过，对于一般开发者来说，Swarm 当前的成熟度不高，更现实的做法可能是观摩其理念，然后选用更成熟的框架实践。</p><p data-pid=\"T9FwjrUD\">因此，我们预期 Swarm 更大的价值在于<b>为未来多 Agent 系统提供设计参考，而不是立即用于生产</b>。</p><h2>7. OpenManus</h2><h3>7.1 核心定位与技术栈</h3><p data-pid=\"Pv5HGyQ7\">Manus 是由中国初创团队蝶变科技推出的通用型 LLM Agent。其核心定位并非提供更聪明的对话模型，而是让 AI 能够在大模型能力之上，<b>自主规划并执行复杂任务</b>，将 AI 从“会回答问题”推进到“能够完成事情”。Manus 本体为闭源产品，但社区很快推出了高度复现的开源实现 <b>OpenManus</b>。</p><p data-pid=\"V-jQGIN5\">在技术路线选择上，OpenManus 并未采用端到端的模型微调方案，而是强调 <b>上下文驱动（In-Context Learning）</b> 的 Agent 架构设计。其核心思想是充分利用先进大模型已有的推理与泛化能力，通过提示词工程、上下文组织和多轮交互，让 Agent 快速适配新任务。这种持续试验、反复重构 Agent 框架的过程，被团队内部戏称为“Stochastic Graduate Descend”。</p><p data-pid=\"4At7Adzd\">OpenManus 使用 Python 3.12 开发，支持对接 OpenAI、Claude、Qwen、Llama 等多种大模型后端，并采用模块化设计，将系统拆分为 Agent、LLM、Memory、Tool、Flow、Prompt 等组件。各模块职责清晰，整体设计强调与底层模型解耦，使 Agent 框架能够随模型能力进步持续受益。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6030f8936b41ed96f8ebbfda8eab4c20_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1124\" data-rawheight=\"785\" data-original-token=\"v2-2a5b71ab336c4ab77ab9e5c33242f538\" class=\"origin_image zh-lightbox-thumb\" width=\"1124\" data-original=\"https://pic3.zhimg.com/v2-6030f8936b41ed96f8ebbfda8eab4c20_r.jpg\"/><figcaption>图7. OpenManus</figcaption></figure><h3>7.2 功能特性</h3><p data-pid=\"HMCZmJTN\">在功能设计上，OpenManus 体现了典型的通用 Agent 架构特征。</p><p data-pid=\"NxbpZiIm\">首先是 <b>多 Agent 协同能力</b>。在整体架构中，不同 Agent 可以承担不同角色，例如任务规划、信息检索、代码生成或结果汇总等，通过统一的流程调度机制协作完成复杂任务。OpenManus 虽然实现上更轻量，但仍支持通过 Flow 机制扩展和组合专用 Agent。</p><p data-pid=\"LQL9bUUq\">其次是 <b>工具调用能力</b>。OpenManus 内置丰富的工具接口，涵盖代码执行、网络搜索、网页浏览、文件读写、数据库查询等操作。Agent 采用类似 ReAct 的“思考—行动—观察”循环，根据当前上下文决定是否调用工具以及如何调用，并将执行结果反馈到后续决策中，从而实现与外部环境的持续交互。</p><p data-pid=\"4vM5UJeu\">在 <b>状态管理与记忆机制</b> 方面，OpenManus 通过 Memory 模块维护长链条任务的上下文信息，并结合上下文缓存策略减少重复推理开销。通过尽量保持提示前缀不变、仅追加新状态的方式，提高了大模型调用时的缓存命中率，从而显著降低成本和延迟。</p><p data-pid=\"BfXy-QD8\">在 <b>流程控制与规划</b> 上，OpenManus 支持先规划、再执行的工作模式。Agent 可以先生成多步骤任务计划，并在执行过程中动态检查进度、调整策略。同时通过最大迭代步数限制和专用终止工具，避免任务陷入死循环，确保执行过程可控。</p><p data-pid=\"F1KH0t19\">此外，OpenManus 还提供了较为完善的 <b>调试与可视化支持</b>。Agent 的思考过程、工具调用和执行结果都会被记录并展示，方便开发者理解和调优，这在一定程度上缓解了 Agent 系统“黑箱化”的问题。</p><h3>7.3 代码示例</h3><p data-pid=\"39KC3kEh\">下面通过一个简单示例演示如何使用 OpenManus 框架构建一个问答 Agent，并让其通过工具检索信息后给出答案。例如，我们希望 Agent 回答一个需要查资料的问题：</p><div class=\"highlight\"><pre><code class=\"language-text\">from app.agent.manus import Manus\nfrom app.llm import LLM\n\n# 初始化LLM（将使用默认配置中的模型，例如OpenAI的GPT-4接口）\nllm = LLM()\n\n# 创建Manus通用智能体实例，自动集成预定义的工具（如网络搜索、浏览器、代码执行等）\nagent = Manus(llm=llm)\n\n# 定义用户问题：例如询问2020年以来有哪些女性科学家获得诺贝尔奖及其成就\nuser_query = &#34;2020年以来有哪些女性科学家获得了诺贝尔奖？请简要说明她们的主要成就。&#34;\n\n# 调用智能体执行任务（Agent将自主规划步骤，调用工具搜索信息并生成答案）\nresult = agent.run(user_query)\n\nprint(result)</code></pre></div><p data-pid=\"oKCS8j_Q\">在上述代码中，OpenManus会先分析问题，使用内置工具检索诺贝尔奖获奖名单，然后浏览相关网页，从中提取女性科学家的信息，最后整合出结果并通过Terminate工具结束迭代。整个过程中无需人工干预——开发者只需提供问题，Manus Agent 就能 “思考→行动→观察” 循环执行，最终给出答案。这展示了 Manus 框架如何让 AI Agent 从被动回答，走向主动检索与执行，完成从语言到行动的跨越。</p><h3>7.4 使用成本与学习曲线</h3><p data-pid=\"hL8wnvhN\">从上手难度看，OpenManus 的部署流程较为简单，只需准备 Python 环境并配置大模型 API Key 即可启动。社区还提供了基于 Web 的交互界面，使不习惯命令行的用户也能较为直观地体验 Agent 行为。</p><p data-pid=\"8fe0d3r5\">在学习曲线方面，OpenManus 代码结构清晰、模块职责单一。相较于功能繁多、抽象层级较深的框架，OpenManus 更容易通过阅读源码理解 Agent 的核心执行逻辑。这使其成为学习 LLM Agent 原理和进行二次开发的良好起点。</p><p data-pid=\"i_kYxJN3\">运行成本主要取决于所使用的底层模型和任务复杂度。对于使用云端 API 的场景，复杂任务可能消耗较多 token；而通过接入本地开源模型，则可以在硬件允许的前提下将推理成本降至最低。</p><h3>7.5 典型应用与适用者</h3><p data-pid=\"9vKc7g_B\">OpenManus 适合处理需要 <b>多步骤推理与多工具协作</b> 的复杂任务，例如信息调研与报告生成、数据分析与策略建议、合同审阅、流程自动化以及代码生成与调试等。这类任务的共同特征是：Agent 需要主动获取信息、操作外部工具，并最终产出结构化结果。</p><p data-pid=\"MI-P_X8Q\">在适用人群上，OpenManus 对多个群体均具有吸引力。对于个人开发者和初学者而言，它提供了一个完整且可读性较高的 Agent 示例，有助于理解规划、记忆和工具调用等核心机制。对于 AI 研究人员，OpenManus 可作为验证多 Agent 协作、提示词设计和决策策略的实验平台。而对于企业用户，OpenManus 展示了作为“数字员工”自动化执行流程的潜力，但在关键业务场景中仍需关注可靠性、安全性与合规问题。</p><p data-pid=\"x0HJ_Sz3\">总体来看，OpenManus 的价值在于<b>将现有 Agent 技术工程化整合到可实际使用的程度</b>，清晰展示了通用 AI Agent 从概念走向落地的一种可行路径。</p><h2>8. 关键维度对比表</h2><p data-pid=\"ZWKgN5Cy\">下面通过一个表格，将上述六个框架在主要功能维度上进行对比：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>框架</th><th>核心定位</th><th>多 Agent 支持</th><th>人类协同</th><th>流程控制</th><th>工具调用</th><th>可视化 / 调试</th><th>学习成本</th></tr><tr><td>LangChain</td><td>通用 LLM 应用开发框架</td><td>单 Agent 为主，可通过工具和子链实现“曲线协作”</td><td>-</td><td>线性链式为主，复杂逻辑需靠代码实现</td><td>丰富内置工具，易于扩展自定义</td><td>无UI，提供日志与 LangSmith 集成</td><td>入门易、精通难；社区生态成熟</td></tr><tr><td>LangGraph</td><td>基于状态图的 Agent 编排框架</td><td>√</td><td>√</td><td>图结构流程，可循环、分支跳转，支持状态持久化</td><td>可用 LangChain 工具或自定义函数</td><td>可输出流程图，支持断点续跑与状态回放</td><td>理解状态图需成本，但复杂流程实现更简单</td></tr><tr><td>AutoGen</td><td>多 Agent 对话与协作框架</td><td>天生多 Agent</td><td>√</td><td>自由对话驱动，支持群聊、经理–助手等多种模式</td><td>工具以对话消息方式嵌入调用，插件式扩展</td><td>提供监控追踪能力，与 OpenTelemetry 集成</td><td>接口抽象高、文档复杂、需并发与异步编程经验</td></tr><tr><td>CrewAI</td><td>自主协作的 “AI 团队” 框架</td><td>天生多 Agent</td><td>√</td><td>支持顺序和层次流程，提供 Crew/Flow 两种模式</td><td>内置工具套件，并支持 LangChain 工具</td><td>无 UI，提供日志</td><td>模板化配置降低门槛，但高级用法需理解装饰器与流程机制</td></tr><tr><td>smolagents</td><td>轻量级工具调用 Agent 库</td><td>单 Agent 为主，可嵌套调用子 Agent</td><td>-</td><td>基于模型生成代码顺序执行，无复杂原生流程编排</td><td>“工具即代码调用”，高度自定义；Hub 上有丰富模型 / 工具</td><td>无UI，提供日志</td><td>极易上手，但需开发者自行把控代码安全与复杂逻辑</td></tr><tr><td>Swarm</td><td>实验性多 Agent 编排轻量框架</td><td>通过函数显式移交控制权实现多 Agent 切换</td><td>-</td><td>手动设计交接逻辑，显式控制流程与上下文变量传递</td><td>利用 Python 函数作为工具，工具库需自行实现</td><td>无UI，提供日志与流式输出</td><td>框架本身简单直观，但要用好需较强的任务拆解与调试能力</td></tr><tr><td>OpenManus</td><td>通用任务执行型 Agent</td><td>√</td><td>√</td><td>内置规划 + ReAct 循环</td><td>内置完整工具集</td><td>提供日志与社区 Web UI</td><td>入门友好，偏工程实践</td></tr></tbody></table><h2>9. 总结</h2><p data-pid=\"bRiVo6pz\">AI Agent 框架百花齐放，从单 Agent 调用工具到多 Agent 团队协作，再到人机共创，每种范式都在不同场景下展示威力。</p><p data-pid=\"AT7jiRiT\">对于开发者而言，最重要的不是“追新”，而是：</p><blockquote data-pid=\"ZzBdJrZo\"> 根据自身项目需求和团队能力选择合适的工具。</blockquote><ul><li data-pid=\"tKeeqNy0\">想要<b>快</b>：可以从 LangChain、smolagents 入手；</li><li data-pid=\"oaXV_Ozw\">想要<b>强流程控制</b>：可以考虑 LangGraph、CrewAI、OpenManus；</li><li data-pid=\"nrM7t1yg\">想要<b>玩多 Agent 对话和协作</b>：可以试试 AutoGen、CrewAI；</li><li data-pid=\"P9w7WC8l\">想要<b>研究多 Agent 机制</b>：可以把 Swarm 当成一个概念和代码层面的“参考实现”。</li></ul><p data-pid=\"4DyTpCFC\">希望本文的对比能帮助你在浩如烟海的 Agent 框架中找到方向，打造出令用户满意的智能体应用。</p><h2>参考文献</h2><ol><li data-pid=\"vLL9UphG\">LangChain <a href=\"https://link.zhihu.com/?target=https%3A//github.com/langchain-ai/langchain\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/langchain-ai</span><span class=\"invisible\">/langchain</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//docs.langchain.com/oss/python/langchain/quickstart\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.langchain.com/oss/</span><span class=\"invisible\">python/langchain/quickstart</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//www.ibm.com/think/topics/langchain\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">ibm.com/think/topics/la</span><span class=\"invisible\">ngchain</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//www.geeksforgeeks.org/artificial-intelligence/introduction-to-langchain/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">geeksforgeeks.org/artif</span><span class=\"invisible\">icial-intelligence/introduction-to-langchain/</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"aRxKFWwo\">LangGraph <a href=\"https://link.zhihu.com/?target=https%3A//github.com/langchain-ai/langgraph\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/langchain-ai</span><span class=\"invisible\">/langgraph</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//www.langchain.com/agents\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">langchain.com/agents</span><span class=\"invisible\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//www.getzep.com/ai-agents/langgraph-tutorial\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">getzep.com/ai-agents/la</span><span class=\"invisible\">nggraph-tutorial</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//aisera.com/blog/agentic-ai\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">aisera.com/blog/agentic</span><span class=\"invisible\">-ai</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"q-H9e5-k\">AutoGen <a href=\"https://link.zhihu.com/?target=https%3A//github.com/microsoft/autogen\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/microsoft/au</span><span class=\"invisible\">togen</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//www.microsoft.com/en-us/research/project/autogen\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">microsoft.com/en-us/res</span><span class=\"invisible\">earch/project/autogen</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//microsoft.github.io/autogen/0.2/docs/tutorial/introduction\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">microsoft.github.io/aut</span><span class=\"invisible\">ogen/0.2/docs/tutorial/introduction</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"EgVD8Li0\">CrewAI <a href=\"https://link.zhihu.com/?target=https%3A//github.com/crewAIInc/crewAI\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/crewAIInc/cr</span><span class=\"invisible\">ewAI</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//docs.crewai.com/en/concepts/agents\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.crewai.com/en/conc</span><span class=\"invisible\">epts/agents</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//www.ibm.com/think/topics/crew-ai\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">ibm.com/think/topics/cr</span><span class=\"invisible\">ew-ai</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"NPg2q2Nc\">smolagents <a href=\"https://link.zhihu.com/?target=https%3A//github.com/huggingface/smolagents\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/huggingface/</span><span class=\"invisible\">smolagents</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/blog/smolagents\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">huggingface.co/blog/smo</span><span class=\"invisible\">lagents</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//medium.com/data-science-in-your-pocket/huggingface-smolagents-the-best-multi-agent-framework-so-far-313178ef3c2e\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">medium.com/data-science</span><span class=\"invisible\">-in-your-pocket/huggingface-smolagents-the-best-multi-agent-framework-so-far-313178ef3c2e</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"eWNPqM5p\">OpenAI Swarm <a href=\"https://link.zhihu.com/?target=https%3A//github.com/openai/swarm\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/openai/swarm</span><span class=\"invisible\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//arize.com/blog/comparing-openai-swarm\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">arize.com/blog/comparin</span><span class=\"invisible\">g-openai-swarm</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//medium.com/%40michael_79773/exploring-openais-swarm-an-experimental-framework-for-multi-agent-systems-5ba09964ca18\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">medium.com/@michael_797</span><span class=\"invisible\">73/exploring-openais-swarm-an-experimental-framework-for-multi-agent-systems-5ba09964ca18</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"LYC3XhQL\">OpenManus <a href=\"https://link.zhihu.com/?target=https%3A//github.com/FoundationAgents/OpenManus\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/FoundationAg</span><span class=\"invisible\">ents/OpenManus</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//manus.im/zh-cn/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">manus.im/zh-cn/blog/Con</span><span class=\"invisible\">text-Engineering-for-AI-Agents-Lessons-from-Building-Manus</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//albanna-tutorials.com/openmanus.html\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">albanna-tutorials.com/o</span><span class=\"invisible\">penmanus.html</span><span class=\"ellipsis\"></span></a></li></ol>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-6869a91b12d84651afe28266fcfbada7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-2a5b71ab336c4ab77ab9e5c33242f538_720w.jpg?source=b6762063"
+        ],
+        "article_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1984725399767376336}",
+      "attached_info": "CukICNn8rbrnv8nWsAEQBxoJMjY3Nzk3MDEwIOnFncoGKDEwAUBdSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoAWggxMzczMDI5OGIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5ODQ3MjUzOTk3NjczNzYzMzaKARVjXzE5NDEwNzc4NDU1MTk2MTAyNTKqAQlyZWNvbW1lbmTCASBlNzk3NmQ5MjUwMjk2M2IzZWY5NDYxNjJiNThiOTE0N/IBCggMEgZOb3JtYWzyASgIChIkMWMwNjZlYWItMDY2NC00YjM0LTlmZTEtNzBlZjkwOTc2ZTIy8gEGCAsSAjE2ggIAiALR1cWbuTOSAiBlNzk3NmQ5MjUwMjk2M2IzZWY5NDYxNjJiNThiOTE0N5oCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gImVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjHoAgP6AgtOT1JNQUxfRkxPV4oDIGE4OTFhOGU3ZjA2NzQ4M2Y5MGQ1ZmRkZmRjY2NjYTAymgMNCgJ2MhAAGgVvdGhlcqgDtxjYAwDqAyNmZWVkLXRleHQtYWxsc2l0ZS1vbmxpbmUtdWNmLXJlY2FsbPoD6AISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhDWBxjJAyIjdjItZTkwMTkxYTY0MjgyNGJjZThlNGE0NGVkYWI3NmUwMzU6LQgCELQGGMQCIiN2Mi0xZjU2Y2Y2Y2E0ZDhhYWU2MzA5MTU1YzZkODIzMjI0MTotCAIQkggYwgUiI3YyLTY4NjlhOTFiMTJkODQ2NTFhZmUyODI2NmZjZmJhZGE3Oi0IAxCSCBiMAyIjdjItMTc5ZDRjOTI1M2M2OWU4Y2M1NzI2M2IyNzU2MDY2Yzc6LQgCEJIIGOYDIiN2Mi0zYjgzZDk2ZDJlMTRmZDc5Zjc0MDlkNzFlZWU3ODMzNDotCAIQnAgY9gIiI3YyLWM2YzZkOWQ2NmE0MzNkNTA2YmZiZTM2MGY2Mzk5MTJlOi0IAhDkCBiRBiIjdjItMmE1YjcxYWIzMzZjNGFiNzdhYjllNWMzMzI0MmY1MziABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKA1bHA/gQUAAAAAAAAAAIkF+82oUDyAsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEJAGAKAGXagGAJICLgoJMjY3Nzk3MDEwEhMxOTg0NzI1Mzk5NzY3Mzc2MzM2GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "94_1767705242.993",
+      "type": "feed",
+      "offset": 94,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705242,
+      "updated_time": 1767705242,
+      "target": {
+        "created_time": 1765633761,
+        "excerpt": "我讲一个吧，只要不懒，愿意去干，一个月赚个3000块还是没问题的。无风险，也没啥门槛，新手小白也能做。 知道为啥你的存款总是没增长吗？因为你还停留在消费别人内容的阶段，而不是创造内容赚钱！ 视频号现在就是一个超级流量池。 微信13亿用户，每天打开微信的第一眼就能看到视频号入口，这流量红利太猛了！数据显示，2024年视频号日活已经突破7亿，而带货达人才60万人，这意味着什么？意味着平均一个带货人可以对接11600多用…",
+        "preview_text": "",
+        "is_navigator": false,
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-f5ac58a2b55cefe88cd90538f8d931b9_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 259,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/e130816f0158dfd45e92443a183c557b",
+          "name": "掘金着联盟",
+          "url_token": "65-30-14-89",
+          "headline": "鹏又圈136091613",
+          "is_org": false,
+          "is_following": false,
+          "id": "e130816f0158dfd45e92443a183c557b",
+          "user_type": "people"
+        },
+        "is_labeled": false,
+        "thanks_count": 2,
+        "question": {
+          "title": "有哪些靠谱儿的网上兼职推荐吗?",
+          "comment_count": 8,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "created": 1539787254,
+          "bound_topic_ids": [
+            7371,
+            12908,
+            68370,
+            43134
+          ],
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/298945148",
+          "answer_count": 0,
+          "follower_count": 0,
+          "id": "298945148",
+          "type": "question",
+          "author": {
+            "id": "957e26c27d00609239e1d87c3838501b",
+            "url": "https://api.zhihu.com/people/957e26c27d00609239e1d87c3838501b",
+            "headline": "One.",
+            "is_followed": false,
+            "gender": -1,
+            "followers_count": 7,
+            "is_following": false,
+            "user_type": "people",
+            "url_token": "apache-j",
+            "name": "Head",
+            "avatar_url": "https://picx.zhimg.com/50/v2-818303875fd38f67fca971456ad989d6_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-684bbc0af0420bfd0f42ebb56a397fbc_720w.jpg?source=b6762063",
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 5859,
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "voteup_count": 107,
+        "excerpt_new": "我讲一个吧，只要不懒，愿意去干，一个月赚个3000块还是没问题的。无风险，也没啥门槛，新手小白也能做。 知道为啥你的存款总是没增长吗？因为你还停留在消费别人内容的阶段，而不是创造内容赚钱！ 视频号现在就是一个超级流量池。 微信13亿用户，每天打开微信的第一眼就能看到视频号入口，这流量红利太猛了！数据显示，2024年视频号日活已经突破7亿，而带货达人才60万人，这意味着什么？意味着平均一个带货人可以对接11600多用…",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-684bbc0af0420bfd0f42ebb56a397fbc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-79a494e421df91fb7d17c27194ae5a59_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9749699b8544a322992d72c703452f47_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-1d78e769e69658afae777201edc0936c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-2e08f26e5565eac189f9b0a2d706206f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4388fb0cd11f01f9bfc16a8925427e34_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "id": "1983292424408290057",
+        "preview_type": "default",
+        "comment_count": 21,
+        "favorite_count": 326,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "updated_time": 1765633761,
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"HnKIlz8V\">我讲一个吧，只要不懒，愿意去干，一个月赚个3000块还是没问题的。无风险，也没啥门槛，新手小白也能做。</p><p data-pid=\"GqZz8G-C\">知道为啥你的存款总是没增长吗？因为你还停留在消费别人内容的阶段，而不是创造内容赚钱！</p><p data-pid=\"FQAf2u6I\">视频号现在就是一个超级流量池。</p><p data-pid=\"JImJaEUA\"><b>微信13亿用户，每天打开微信的第一眼就能看到视频号入口，这流量红利太猛了！</b></p><p data-pid=\"z-mn-xxM\">数据显示，2024年视频号日活已经突破7亿，而带货达人才60万人，这意味着什么？意味着平均一个带货人可以对接11600多用户，这赚钱机会不抓住，真是傻到家了！</p><p data-pid=\"ZTZi0mpR\">为啥视频号比其他平台更容易赚钱？</p><p data-pid=\"PX4R4Vd6\">咱就说，视频号有多猛，用数据说话：一条10秒的视频，我一个学员发出去3小时，播放量12.8万，卖了127单，佣金3810元！这在其他平台根本不可能！</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3f7997ad94ad826a635f3564dd78dbd6_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"1036\" data-size=\"normal\" data-original-token=\"v2-684bbc0af0420bfd0f42ebb56a397fbc\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pic1.zhimg.com/v2-3f7997ad94ad826a635f3564dd78dbd6_r.jpg\"/></figure><p data-pid=\"icbEUgGS\"><b>下面我粉三步给大家详细拆解这个项目。</b></p><hr/><p data-pid=\"-Bokt9RA\"><b>第一步：注册账号</b></p><p data-pid=\"JQdhZ0Nx\">打开微信，发现页【视频号】，点击右上角的人形头像，进入【我的视频号】</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ef576a2c7b49c31bf5a4e37410b0e593_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"826\" data-size=\"normal\" data-original-token=\"v2-79a494e421df91fb7d17c27194ae5a59\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pic2.zhimg.com/v2-ef576a2c7b49c31bf5a4e37410b0e593_r.jpg\"/></figure><p data-pid=\"5slPRjIX\">点击右上角...打开创作者中心，点击【带货中心】</p><p data-pid=\"bN9SEoIt\">选择带货方式，没有货源的，可以选择成为带货达人，点第一个【没有货源，选品带货】，去商品中心选择商品售卖</p><p data-pid=\"hjZzmAun\">如果已经有小店，直接关联就行</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-130b18e4ecb36243065fc13984d076ab_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"812\" data-size=\"normal\" data-original-token=\"v2-9749699b8544a322992d72c703452f47\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pic2.zhimg.com/v2-130b18e4ecb36243065fc13984d076ab_r.jpg\"/></figure><p data-pid=\"ud8HuNXM\">目前视频号开通橱窗带货，不需要粉丝，0粉丝就可以开通，按照要求填写基本信息</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-be6ce0a2bc917d5bbc3f36fa87d38a51_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"768\" data-size=\"normal\" data-original-token=\"v2-1d78e769e69658afae777201edc0936c\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pic4.zhimg.com/v2-be6ce0a2bc917d5bbc3f36fa87d38a51_r.jpg\"/></figure><p data-pid=\"2kJ0zlnT\">等平台审核通过，账号就创建好了，就可以发布视频带货赚取佣金了</p><p data-pid=\"VoAk_swu\">需要注意的是，橱窗开通以后，需要缴纳100元的保证金</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c3d06e700b2bd0f74e4a8d8b8d89006d_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"624\" data-size=\"normal\" data-original-token=\"v2-a0f2f41c4f98b45c7c166aa8a7b052be\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pic2.zhimg.com/v2-c3d06e700b2bd0f74e4a8d8b8d89006d_r.jpg\"/></figure><p data-pid=\"7Jx3YyLG\">这个钱不用担心，如果后期注销橱窗，100元是可以原路退还的</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1e8cafc7dc3673275501cda12c40521f_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"1062\" data-size=\"normal\" data-original-token=\"v2-2e08f26e5565eac189f9b0a2d706206f\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://picx.zhimg.com/v2-1e8cafc7dc3673275501cda12c40521f_r.jpg\"/></figure><p data-pid=\"GqgZjHd6\"><b>第二步：选品</b></p><p data-pid=\"BdtZuBl6\">选品很重要，不能选自己喜欢的，要选市场喜欢的。</p><p data-pid=\"HkcfYktI\">因为视频号多半是中老年人再看，我们就要选这类群体喜欢的，比如养生、厨房神器等物件。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f6a676a64279d553f1008ae027244464_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"608\" data-size=\"normal\" data-original-token=\"v2-1d66f45758472d7581c80fed8a5dbd4f\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pica.zhimg.com/v2-f6a676a64279d553f1008ae027244464_r.jpg\"/></figure><p data-pid=\"A0KmO5yn\">可以去抖音搜索【巨量算数】，上面都是别人卖的好的产品，我们跟着去卖准没错。</p><p data-pid=\"uaIg5hFs\">在【带货中心】，点击【选品中心】，选择低粉爆款的产品。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0f9c2c0df6f6cecb0f5995c16ff64aef_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"1478\" data-size=\"normal\" data-original-token=\"v2-4388fb0cd11f01f9bfc16a8925427e34\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pic2.zhimg.com/v2-0f9c2c0df6f6cecb0f5995c16ff64aef_r.jpg\"/></figure><p data-pid=\"mq2RAozx\"><b>第三步：制作视频</b></p><p data-pid=\"6Gsu5DLl\">1.借鉴同行 + 去重</p><p data-pid=\"dEM9VdH5\">如果你不知道怎么拍，可以看看同行的视频，从中找风格和结构。</p><p data-pid=\"nQ8InSCU\">将视频下载，用剪映做简单调整，如：改背景音乐、裁切部分片段、加字幕、调色或调整速度、加一点贴纸或遮罩，就能达到不错的原创度。</p><p data-pid=\"EJO9Y7Ys\">2.用AI自动生成</p><p data-pid=\"j4mKDNqZ\">如果你完全不会写文案，也可以交给AI，AI生成脚本后，可以放进剪映、智影等工具自动生成视频。</p><p data-pid=\"wOelsVLA\">这样就算零基础，也能轻松做出内容。</p><p data-pid=\"zw1S0yZM\"><b>注意事项</b></p><p data-pid=\"FDx8sucp\">发布环节，有几个容易忽略的小细节：</p><p data-pid=\"g8SiW2Mp\">1. 标题要直接表达价值</p><p data-pid=\"xI5kY1i8\">例如：</p><p data-pid=\"609It4Ek\">“腰酸背痛反复？这个护腰真的能缓解。”</p><p data-pid=\"n228R6ba\">“厨房难清洁？这款喷一喷就干净。”</p><p data-pid=\"bpmIoppM\">用户看标题就能知道解决什么问题。</p><p data-pid=\"WlATe6dF\">2. 发布时段选择</p><p data-pid=\"9Iy0xgX2\">视频号用户活跃在以下时间段：</p><p data-pid=\"HuWtNzNV\">6:00 - 8:00</p><p data-pid=\"SThnMlrj\">11:30 - 14:00</p><p data-pid=\"NR3hkx2w\">18:00 - 22:00</p><p data-pid=\"hvzquOzc\">这段时间发布，播放量更容易上涨。</p><p data-pid=\"Z-ghUvsv\">最后</p><p data-pid=\"y6Ftw7uQ\">现在的视频号带货，确实处在一个不错的阶段。</p><p data-pid=\"w5ywWAhS\">平台规则相对宽松，新号也能拿到流量，对新手友好度高。</p><p data-pid=\"16D1b_9v\">以上，就是微信视频号带货的简单介绍，如果你对这个项目感兴趣的话，也可以在知乎找我免费领取一份更详细的视频教程，相信你看完就能马上上手了！</p><p></p>",
+        "url": "https://api.zhihu.com/answers/1983292424408290057"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1983292424408290057}",
+      "attached_info": "CsMJCNn8rbrnv8nWsAEQBBoJNzYwOTAyOTY1IOHd9ckGKGswFUBeSkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDc0ODE4Mjg1OAoYACAAOgBKSAofVFNfU09VUkNFX1pSRUNBTExfSVRFTUNGX1VQVk9URRIfZG9jX3R5cGU6IEFuc3dlcgppZDogNzQ4MTgyODU4ChgAIAA6AFoIMjg3MDg1MjViIGE0ZTkwYzU3OTg3MTU2YmE5MWIwMjVhOTMxYWNlMTA4chMxOTgzMjkyNDI0NDA4MjkwMDU3igEJMjk4OTQ1MTQ4qgEJcmVjb21tZW5kwgEgZTEzMDgxNmYwMTU4ZGZkNDVlOTI0NDNhMTgzYzU1N2LyAQoIDBIGTm9ybWFs8gEoCAoSJDBkM2ZhMzc3LTE0YzQtNDM1My05NWIxLWNjMjg1MDllOWMzZPIBBggLEgIxNoICAIgC0dXFm7kzkgIgZTEzMDgxNmYwMTU4ZGZkNDVlOTI0NDNhMTgzYzU1N2KaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxl2gIfVFNfU09VUkNFX1pSRUNBTExfSVRFTUNGX1VQVk9URegCAvoCC05PUk1BTF9GTE9XigMgYTg5MWE4ZTdmMDY3NDgzZjkwZDVmZGRmZGNjY2NhMDKaAw0KAnYyEAAaBW90aGVyqAPjLdgDAOoDGXRleHRBbGxTaXRlQWN0aW9uSXRlbUNGVjL6A5cDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQvAYYjAgiI3YyLTY4NGJiYzBhZjA0MjBiZmQwZjQyZWJiNTZhMzk3ZmJjOi0IAhC8Bhi6BiIjdjItNzlhNDk0ZTQyMWRmOTFmYjdkMTdjMjcxOTRhZTVhNTk6LQgCELwGGKwGIiN2Mi05NzQ5Njk5Yjg1NDRhMzIyOTkyZDcyYzcwMzQ1MmY0NzotCAIQvAYYgAYiI3YyLTFkNzhlNzY5ZTY5NjU4YWZhZTc3NzIwMWVkYzA5MzZjOi0IAhC8BhjwBCIjdjItYTBmMmY0MWM0Zjk4YjQ1YzdjMTY2YWE4YTdiMDUyYmU6LQgDELwGGKYIIiN2Mi0yZTA4ZjI2ZTU1NjVlYWMxODlmOWIwYTJkNzA2MjA2ZjotCAIQvAYY4AQiI3YyLTFkNjZmNDU3NTg0NzJkNzU4MWM4MGZlZDhhNWRiZDRmOi0IAhC8BhjGCyIjdjItNDM4OGZiMGNkMTFmMDFmOWJmYzE2YTg5MjU0MjdlMzSABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGBMZZ0/gQUAAAAAAAAAAIkF+82oUDyAsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEJAGAKAGXqgGAZICLgoJNzYwOTAyOTY1EhMxOTgzMjkyNDI0NDA4MjkwMDU3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "95_1767705242.134",
+      "type": "feed",
+      "offset": 95,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705242,
+      "updated_time": 1767705242,
+      "target": {
+        "vote_next_step": "vote",
+        "voteup_count": 107,
+        "content": "<p data-pid=\"I2jJcgSI\">英文的出版阅读氛围跟中文社区有明显的不同：</p><ul><li data-pid=\"sG3xvp_q\">中文阅读，普遍鼓励看历史，看经典，看古人智慧，读《史记》相关的书，读各个朝代相关的书，要读哲学经典，要读名著，中文图书榜畅销的书几乎都是经典。</li><li data-pid=\"Gl297Paw\">英语阅读，普遍鼓励看新书，看各个领域最先出版的书，看各个大学教授互相辩论的书，小说从布克奖20本的长名单到6本短名单，小说不讲究经典，而是如何呈现时代风貌，比如今年的布克奖短名单6本书有三本是写男性气概的主题。</li></ul><p data-pid=\"U7y6IIlP\">看英文书，先关注下新书：</p><ol><li data-pid=\"A1FC_0m0\">《人类简史》的作者Yuval Noah Harari，今年出版了<a href=\"https://link.zhihu.com/?target=https%3A//book.douban.com/subject/36910881/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nexus, A Brief History of Information Networks from the Stone Age to AI</a> , 对人工智能持质疑、警惕的态度，很悲观的讨论人工智能的发展。</li><li data-pid=\"_zwHtdmW\"><a href=\"https://link.zhihu.com/?target=https%3A//book.douban.com/subject/37194063/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Superagency</a><b> , </b>作者是知名互联网企业家，领英联合创始人，微软董事会成员。知名风险投资人，OpenAI早期投资人，也曾投资过Facebook、爱彼迎等知名公司。就给了一个跟Harari截然相反的乐观态度，从agency的角度反驳了科技保守主义的担忧，但也并不盲目乐观，而是给出了人工智能发展不可逆的趋势，印刷术、相机、蒸汽机、智能手机，工具的革新产生各种担忧的同时会推动体验的丰富性，即AI把人类积攒的智慧汇聚，能从中提取的东西依然是不可预测的一对一交流，像搜索引擎试一座图书馆可随意检索，AI是基于人类知识与经验产生的intelligence，两位作者属于乐观派中比较中肯的。</li><li data-pid=\"y6JI9ETY\">个人财务管理是每个人都应该持续学习的问题，<a href=\"https://link.zhihu.com/?target=https%3A//book.douban.com/author/4627966\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Morgan Housel</a>今年也出版了新书——<a href=\"https://link.zhihu.com/?target=https%3A//book.douban.com/subject/37379930/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Art of Spending Money</a>，作者20年出版的<a href=\"https://link.zhihu.com/?target=https%3A//book.douban.com/subject/35060020/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Psychology of Money</a>是金融行业从业者的必读书目之一，也是大学生学习个人财务管理的首选。</li><li data-pid=\"nzlFDGwe\">ChatGPT的爆火，<a href=\"https://link.zhihu.com/?target=https%3A//book.douban.com/subject/37298131/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Optimist</a>，大报科技记者的跟踪调查报道，单把Sam Altman跟家人的关系写清楚，都值得一读，为什么他妹妹告她，为什么这样的身价却不能照顾下妹妹的感受，细读能有新的感受。</li><li data-pid=\"wkOEgSTW\">喜欢看小说，布克奖今年短名单六本小说都很贴近生活，男人被妻子出轨后，在这个时代的呈现，心境变化，这样的小说更能引起当代读者的兴趣，也更能引起人的反思与共鸣。</li></ol><p data-pid=\"uAf3gGG9\">双十一图书打折，都是以一些版权过期后能被出版社自由出版的经典名著居多，经典永不过时，但对于语言学习的场景，经典往往应该往后排，应该先读当代小说，真正影响自己生活的讨论，以及各个领域的最新研究。</p><p data-pid=\"Nbr_Yz-v\">比如王达恩今年在美国引起不少讨论的Breakneck，无论是写贵州基建还是讨论计划生育政策，其文笔自然流畅富有节奏感，好写作的典范，平常看惯中文社区那些雅思托福老师堆词藻显文采的臃肿不堪英文，看真正的好英文写熟悉的话题，如沐浴春风（breakneck的文笔写作，而非内容，内容有争议很正常，没争议的内容反而不值得看）。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6c1bba989a38e4ec0445008556f61226_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1290\" data-rawheight=\"2009\" data-original-token=\"v2-6c1bba989a38e4ec0445008556f61226\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic3.zhimg.com/v2-6c1bba989a38e4ec0445008556f61226_r.jpg\"/><figcaption>nytimes的100 notable books</figcaption></figure><p data-pid=\"BItCG8rW\">布克奖的Flesh，我在短名单读到就知道它会获奖，年底各个报刊杂志都要推荐Flesh，过些年作者拿诺贝尔文学奖时还会再有一轮热潮，届时Flesh就变成经典了。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2003478eab49a4cb56e5dfda3c653be2_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1290\" data-rawheight=\"2796\" data-original-token=\"v2-2003478eab49a4cb56e5dfda3c653be2\" class=\"origin_image zh-lightbox-thumb\" width=\"1290\" data-original=\"https://pic3.zhimg.com/v2-2003478eab49a4cb56e5dfda3c653be2_r.jpg\"/><figcaption>自己的年度阅读list</figcaption></figure><p data-pid=\"IHAoHn6C\">建议先Zlib下载电子书浅看，遇到喜欢的再买纸质书读完，布克奖长名单20本小说，并非每本都值得读，要从中挑个人感兴趣的喜欢的主题读，慢慢培养自己的口味，读惯了每年布克奖都是一轮小说盛宴。</p><p data-pid=\"y7JKPw3s\">读不感兴趣的内容，简单中文书同样也很难翻完，看着看着就出神变头疼，跟词汇量语法关系不大；读感兴趣的书，生词再多也乐此不疲的查词往下看，读到生动处耳红脸赤起身体反应或者泪目胸闷惆怅若失，语言本身魅力要从这些情绪中逐渐展开，真正把英语变成自己的语言。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"D3CelXY2\">《<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/Relk9ha9RupxNco9n2j0hg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">最好的英语学习计划</a>》</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-6c1bba989a38e4ec0445008556f61226_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2003478eab49a4cb56e5dfda3c653be2_720w.jpg?source=b6762063"
+        ],
+        "type": "answer",
+        "preview_type": "default",
+        "favorite_count": 213,
+        "answer_type": "normal",
+        "is_copyable": false,
+        "reshipment_settings": "disallowed",
+        "visited_count": 6466,
+        "url": "https://api.zhihu.com/answers/1991470214995522511",
+        "created_time": 1767583499,
+        "excerpt_new": "英文的出版阅读氛围跟中文社区有明显的不同： 中文阅读，普遍鼓励看历史，看经典，看古人智慧，读《史记》相关的书，读各个朝代相关的书，要读哲学经典，要读名著，中文图书榜畅销的书几乎都是经典。英语阅读，普遍鼓励看新书，看各个领域最先出版的书，看各个大学教授互相辩论的书，小说从布克奖20本的长名单到6本短名单，小说不讲究经典，而是如何呈现时代风貌，比如今年的布克奖短名单6本书有三本是写男性气概的主题。看英文…",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "updated_time": 1767617247,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-6c1bba989a38e4ec0445008556f61226_720w.jpg?source=b6762063",
+        "thanks_count": 5,
+        "comment_count": 8,
+        "question": {
+          "title": "买了好多外文原版书，但总是读不下去怎么办？",
+          "comment_count": 2,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "1981317513154406390",
+          "type": "question",
+          "author": {
+            "url_token": "4-66-15-14-1",
+            "name": "历史回声机",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-0c8244aebeb7cdb69e449f1a02cc77e1_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "id": "269fb1f25abcd479dade2f3d1a11d25f",
+            "user_type": "people",
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/269fb1f25abcd479dade2f3d1a11d25f",
+            "followers_count": 40
+          },
+          "url": "https://api.zhihu.com/questions/1981317513154406390",
+          "created": 1765162906,
+          "answer_count": 0,
+          "excerpt": "",
+          "question_type": "normal",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            27490,
+            28605,
+            71821,
+            99235,
+            2396916
+          ],
+          "is_following": false
+        },
+        "excerpt": "英文的出版阅读氛围跟中文社区有明显的不同： 中文阅读，普遍鼓励看历史，看经典，看古人智慧，读《史记》相关的书，读各个朝代相关的书，要读哲学经典，要读名著，中文图书榜畅销的书几乎都是经典。英语阅读，普遍鼓励看新书，看各个领域最先出版的书，看各个大学教授互相辩论的书，小说从布克奖20本的长名单到6本短名单，小说不讲究经典，而是如何呈现时代风貌，比如今年的布克奖短名单6本书有三本是写男性气概的主题。看英文…",
+        "preview_text": "",
+        "is_labeled": false,
+        "id": "1991470214995522511",
+        "author": {
+          "gender": 1,
+          "id": "fa14835a18c410298a67c7e3714f7f80",
+          "url": "https://api.zhihu.com/people/fa14835a18c410298a67c7e3714f7f80",
+          "user_type": "people",
+          "url_token": "learingenglish",
+          "name": "姜小白",
+          "headline": "公众号 / 姜大白，关注我，能让你英语变好。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-408423a514ab1f0d9f951e423f9d9826_l.jpg?source=b6762063",
+          "badge": [
+            {
+              "description": "英语话题下的优秀答主",
+              "topic_names": [
+                "英语"
+              ],
+              "topic_ids": [
+                1100
+              ],
+              "type": "best_answerer"
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜教育校园领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "Sonepar 销售"
+            },
+            {
+              "description": "新知答主",
+              "type": "zhihu_yearly_answerer"
+            }
+          ],
+          "is_following": false,
+          "is_org": false,
+          "followers_count": 245239,
+          "is_followed": false
+        },
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991470214995522511}",
+      "attached_info": "Cr4HCNn8rbrnv8nWsAEQBBoJNzY0MDcxNTY0IIve7MoGKGswCEBfSi4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9SjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE3NjMxMTY0YiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk5MTQ3MDIxNDk5NTUyMjUxMYoBEzE5ODEzMTc1MTMxNTQ0MDYzOTCqAQlyZWNvbW1lbmTCASBmYTE0ODM1YTE4YzQxMDI5OGE2N2M3ZTM3MTRmN2Y4MPIBCggMEgZOb3JtYWzyASgIChIkNzQwNjJkODctMjY2ZC00NTkwLThkMzktYTkxOWIxMzRhYThh8gEGCAsSAjE2ggIAiALR1cWbuTOSAiBmYTE0ODM1YTE4YzQxMDI5OGE2N2M3ZTM3MTRmN2Y4MJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZdoCGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjPoAgT6AgtOT1JNQUxfRkxPV4oDIGE4OTFhOGU3ZjA2NzQ4M2Y5MGQ1ZmRkZmRjY2NjYTAymgMNCgJ2MhAAGgVvdGhlcqgDwjLYAwDqAxlmZWVkcmVfbXNfZ2F0ZV92M19vbmx5X2hx+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQigoY2Q8iI3YyLTZjMWJiYTk4OWEzOGU0ZWMwNDQ1MDA4NTU2ZjYxMjI2Oi0IAhCKChjsFSIjdjItMjAwMzQ3OGVhYjQ5YTRjYjU2ZTVkZmRhM2M2NTNiZTKABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKDup30/gQUAAAAAAAAAAIkF+82oUDyAsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEJAGAKAGX6gGAJICLgoJNzY0MDcxNTY0EhMxOTkxNDcwMjE0OTk1NTIyNTExGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=95&desktop=true&end_offset=95&page_number=17&session_token=a4e90c57987156ba91b025a931ace108",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=95&desktop=true&end_offset=95&page_number=17&session_token=a4e90c57987156ba91b025a931ace108",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,773 @@
+{
+  "data": [
+    {
+      "id": "66_1768674865.123",
+      "type": "feed",
+      "offset": 66,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674865,
+      "updated_time": 1768674865,
+      "target": {
+        "is_labeled": false,
+        "visited_count": 316,
+        "id": "1995412635504632786",
+        "author": {
+          "name": "不剪发的Tony老师",
+          "headline": "《SQL编程思想》作者，PostgreSQL ACE。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-f7cbda650ab6a3e549cb88f9f0fafc9e_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 12066,
+          "is_following": false,
+          "is_followed": false,
+          "id": "1a41feef52d42c4fd084f2cea964ac5a",
+          "user_type": "people",
+          "url_token": "dongxuyang85",
+          "is_org": false,
+          "url": "https://api.zhihu.com/people/1a41feef52d42c4fd084f2cea964ac5a"
+        },
+        "created": 1768523519,
+        "voteup_count": 9,
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "updated": 1768523519,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "content": "<p data-pid=\"0QXbSetV\"><a href=\"https://link.zhihu.com/?target=https%3A//prql-lang.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">PRQL</a>（Pipelined Relational Query Language）是一种现代化的数据转换语言，具有简单、强大、管道式语法等特性，可以作为 SQL 语言的一种替代。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3cb32a4da33c8ca6fe35a5717568cf44_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1908\" data-rawheight=\"1011\" data-original-token=\"v2-2d33f51bc1ab0775b7e32d2233fe836e\" class=\"origin_image zh-lightbox-thumb\" width=\"1908\" data-original=\"https://pica.zhimg.com/v2-3cb32a4da33c8ca6fe35a5717568cf44_r.jpg\"/></figure><p data-pid=\"I3zZ1gJP\">PRQL 是一个开源项目，遵循 Apache 2.0 开源协议，代码托管在 GitHub：</p><p data-pid=\"8ujB71Hw\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/PRQL/prql\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/PRQL/prql</span><span class=\"invisible\"></span></a></p><h3>功能特性</h3><ul><li data-pid=\"AVgqqZBs\"><b>声明式</b>：PRQL 具有和 SQL 一样的简单明了的声明式语法，同时可以被编译成 SQL 语法，从而支持各种数据库，例如 clickhouse、duckdb、glaredb、mysql、postgresql、sqlite、sql server、bigquery、snowflake。</li></ul><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-44881cda6c944b56e34e996156ac611c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1404\" data-rawheight=\"560\" data-original-token=\"v2-d09f5c62fc9b303ba4cc4bb090feae1c\" class=\"origin_image zh-lightbox-thumb\" width=\"1404\" data-original=\"https://pic3.zhimg.com/v2-44881cda6c944b56e34e996156ac611c_r.jpg\"/></figure><ul><li data-pid=\"7I_DQWve\"><b>管道式</b>：PRQL 可以采用管道（Pipeline）方式将查询语句构建成一系列操作的组合，提供更加优雅灵活的数据查询和转换。</li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7cb17b80084848336ceecfaf2dfe55ef_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1404\" data-rawheight=\"560\" data-original-token=\"v2-55e7a2070d3e6b2ab0686d940dd7d87f\" class=\"origin_image zh-lightbox-thumb\" width=\"1404\" data-original=\"https://picx.zhimg.com/v2-7cb17b80084848336ceecfaf2dfe55ef_r.jpg\"/></figure><ul><li data-pid=\"FWIVZROJ\"><b>现代特性</b>：PRQL 提供了许多现代编程语言的特性，例如日期、范围和 f 字符串的语法，以及函数、类型检查和更好的空值处理。</li></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-02b1873463850761689d4dae4bfe07b5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1403\" data-rawheight=\"560\" data-original-token=\"v2-e0ef2bcdf5464f6513800d440e05e3d4\" class=\"origin_image zh-lightbox-thumb\" width=\"1403\" data-original=\"https://pic2.zhimg.com/v2-02b1873463850761689d4dae4bfe07b5_r.jpg\"/></figure><ul><li data-pid=\"JzGd3gXk\"><b>工具集成</b>：PRQL 目前能够与大量的外部工具进行集成，例如 ClickHouse、Jupyter、DuckDB、QStudio、VS Code、PostgreSQL、Databend、Rill 等。</li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ce9fce8167567bca72b3e0073be0d10f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1306\" data-rawheight=\"978\" data-original-token=\"v2-a7d8f9e6a7c648ec071642b2652c6c3a\" class=\"origin_image zh-lightbox-thumb\" width=\"1306\" data-original=\"https://picx.zhimg.com/v2-ce9fce8167567bca72b3e0073be0d10f_r.jpg\"/></figure><p data-pid=\"Q4Z3HuoV\">PRQL 同时还提供了各种编程语言支持，包括 JavaScript、Python、R、Rust、Java、C、C++、Elixir、.NET 以及 PHP。</p><h3>在线体验</h3><p data-pid=\"fPQCfUQq\">PRQL 提供了一个在线的体验环境，可以通过以下网址进行访问：</p><p data-pid=\"vLWc3Mo6\"><a href=\"https://link.zhihu.com/?target=https%3A//prql-lang.org/playground/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">prql-lang.org/playgroun</span><span class=\"invisible\">d/</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c242ca3560b09df96caa6290499c233c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1908\" data-rawheight=\"1011\" data-original-token=\"v2-875afa01e40938b7b6778a7be1f3dab2\" class=\"origin_image zh-lightbox-thumb\" width=\"1908\" data-original=\"https://pic3.zhimg.com/v2-c242ca3560b09df96caa6290499c233c_r.jpg\"/></figure><p data-pid=\"3whflDxO\">用户可以在这里编写或者查看各种 PRQL 示例以及对应的 SQL 语句和查询结果。</p><p data-pid=\"eAcJE6IB\">PRQL 参考文档：<a href=\"https://link.zhihu.com/?target=https%3A//prql-lang.org/book/index.html\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">prql-lang.org/book/inde</span><span class=\"invisible\">x.html</span><span class=\"ellipsis\"></span></a></p><h3>本地安装</h3><p data-pid=\"wbEyaPg8\">PRQL 官方使用 Rust 语言实现了一个编译器 prqlc，下载网址如下：</p><p data-pid=\"pxtDUgYy\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/PRQL/prql/releases\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/PRQL/prql/re</span><span class=\"invisible\">leases</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e55231fb09a095f26da46c4383e4d917_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1293\" data-rawheight=\"849\" data-original-token=\"v2-425c6cb1efc8a0b424ddddd0d3a883a8\" class=\"origin_image zh-lightbox-thumb\" width=\"1293\" data-original=\"https://pic2.zhimg.com/v2-e55231fb09a095f26da46c4383e4d917_r.jpg\"/></figure><p data-pid=\"-6PJPaVu\">选择对应操作系统的文件进行下载，安装或者解压之后，输入一下命令：</p><div class=\"highlight\"><pre><code class=\"language-text\">$ echo &#39;from employees | filter has_dog | select salary&#39; | prqlc compile\n\nSELECT\n  salary\nFROM\n  employees\nWHERE\n  has_dog</code></pre></div><p data-pid=\"9kHjoo9Q\">prqlc 工具参考文档：</p><p data-pid=\"I9ad-ADL\"><a href=\"https://link.zhihu.com/?target=https%3A//prql-lang.org/book/project/integrations/prqlc-cli.html\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">prql-lang.org/book/proj</span><span class=\"invisible\">ect/integrations/prqlc-cli.html</span><span class=\"ellipsis\"></span></a></p>",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "favorite_count": 27,
+        "article_type": "normal",
+        "type": "article",
+        "comment_permission": "all",
+        "voting": 0,
+        "comment_count": 1,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-2d33f51bc1ab0775b7e32d2233fe836e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a7d8f9e6a7c648ec071642b2652c6c3a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-875afa01e40938b7b6778a7be1f3dab2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-425c6cb1efc8a0b424ddddd0d3a883a8_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/articles/1995412635504632786",
+        "title": "PRQL：一种替代SQL的管道式关系查询语言",
+        "excerpt": "PRQL （Pipelined Relational Query Language）是一种现代化的数据转换语言，具有简单、强大、管道式语法等特性，可以作为 SQL 语言的一种替代。   PRQL 是一个开源项目，遵循 Apache 2.0 开源协议，代码托管在 GitHub： https://github.com/PRQL/prql 功能特性声明式：PRQL 具有和 SQL 一样的简单明了的声明式语法，同时可以被编译成 SQL 语法，从而支持各种数据库，例如 clickhouse、duckdb、glaredb、mysql、postgresql、sqlite、sql serve…",
+        "excerpt_new": "PRQL （Pipelined Relational Query Language）是一种现代化的数据转换语言，具有简单、强大、管道式语法等特性，可以作为 SQL 语言的一种替代。   PRQL 是一个开源项目，遵循 Apache 2.0 开源协议，代码托管在 GitHub： https://github.com/PRQL/prql 功能特性声明式：PRQL 具有和 SQL 一样的简单明了的声明式语法，同时可以被编译成 SQL 语法，从而支持各种数据库，例如 clickhouse、duckdb、glaredb、mysql、postgresql、sqlite、sql serve…",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995412635504632786}",
+      "attached_info": "CqMICMyzwYOd8dimrwEQBxoJMjY5MDkyNjQ0IP+NpssGKAkwAUBCSjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU0MTI2MzU1MDQ2MzI3ODaqAQlyZWNvbW1lbmTCASAxYTQxZmVlZjUyZDQyYzRmZDA4NGYyY2VhOTY0YWM1YfIBCggMEgZOb3JtYWzyASgIChIkNjlmMTNhNTUtYTIxNS00YzE2LTlkMTktZTY5NTA3Y2ZkMGY28gEGCAsSAjEyggIAiALE4/LpvDOSAiAxYTQxZmVlZjUyZDQyYzRmZDA4NGYyY2VhOTY0YWM1YZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIgVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjLoAgT6AgtOT1JNQUxfRkxPV4oDIDE5NDM0Yzg5YTRjMDQyZWZhZWFhMTE0YTE2Yzc5Y2Q5mgMNCgJ2MhAAGgVvdGhlcqgDvALYAwDqAxZmZWVkcmVfZmlyc3Rfc2NyZWVuX3Yy+gPoAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEPQOGPMHIiN2Mi0yZDMzZjUxYmMxYWIwNzc1YjdlMzJkMjIzM2ZlODM2ZTotCAIQ/AoYsAQiI3YyLWQwOWY1YzYyZmM5YjMwM2JhNGNjNGJiMDkwZmVhZTFjOi0IAhD8ChiwBCIjdjItNTVlN2EyMDcwZDNlNmIyYWIwNjg2ZDk0MGRkN2Q4N2Y6LQgCEPsKGLAEIiN2Mi1lMGVmMmJjZGY1NDY0ZjY1MTM4MDBkNDQwZTA1ZTNkNDotCAIQmgoY0gciI3YyLWE3ZDhmOWU2YTdjNjQ4ZWMwNzE2NDJiMjY1MmM2YzNhOi0IAhD0DhjzByIjdjItODc1YWZhMDFlNDA5MzhiN2I2Nzc4YTdiZTFmM2RhYjI6LQgCEI0KGNEGIiN2Mi00MjVjNmNiMWVmYzhhMGI0MjRkZGRkZDBkM2E4ODNhOIAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYA32eD+BBQAAAAAAAAAAiQVt3ZKmJgu0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZEqAYBkgIuCgkyNjkwOTI2NDQSEzE5OTU0MTI2MzU1MDQ2MzI3ODYYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "67_1768674865.708",
+      "type": "feed",
+      "offset": 67,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674865,
+      "updated_time": 1768674865,
+      "target": {
+        "url": "https://api.zhihu.com/articles/1995886890495275343",
+        "author": {
+          "id": "93e312d09ad1c9c5222cffe0f655ef5d",
+          "url_token": "qing-shen-yuan-qian-9-88",
+          "name": "浅尝辄止",
+          "headline": "学霸哥哥的学渣妹妹（哥控本控，二货一只。）",
+          "is_org": false,
+          "gender": 0,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/93e312d09ad1c9c5222cffe0f655ef5d",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-e9684be8c03ba438a1b37bb7506fd8d8_l.jpg?source=b6762063",
+          "followers_count": 6870,
+          "is_following": false
+        },
+        "comment_permission": "censor",
+        "updated": 1768640676,
+        "voting": 0,
+        "preview_text": "",
+        "content": "<p data-pid=\"hWdpeZDo\">今天是小西玩知乎、在知乎更文我和哥哥的日常，两年零五天的日子啦。</p><p data-pid=\"iVF4r1vp\">时间过的好快，想想我的第一篇更文，还是小西刚上高一的时候，逃课被我哥狠罚的事情。</p><p data-pid=\"-xaWvtA6\">现在，小西已经快高三毕业了，可不敢再逃课了。</p><p data-pid=\"OfUodjpt\">该说不说，我是真的很久没逃课了呀，所以...</p><p data-pid=\"EN_NmhI4\">诶，不是，等等...我在想什么，哈哈哈哈。</p><p data-pid=\"GTAZL0Je\">回归正题，小西在知乎更文的这两年，有开心、也有忧伤，有顺畅、也有阻碍，有收获、也有失去，但整体都是美好的。</p><p data-pid=\"4p6_oOJB\">因为这一路走来，我有你们～一直支持、喜欢、守护着小西的知友们，谢谢你们对小西的一路陪伴和不离不弃。</p><p data-pid=\"BlRykqAp\">So, 在这两周年之际，小西必须给你们上波福利，哈哈哈哈。</p><p data-pid=\"rKj-_ISW\">—————————————————</p><p data-pid=\"besjJMv3\">之前不久，小西不是拽着我哥，去金街打卡任学长嘛。</p><p data-pid=\"ZLDD9PrE\">当时到了之后，小西对着任学长就是一通狂拍。</p><p data-pid=\"YQchi39f\">然后～</p><p data-pid=\"YitwiKkW\">“哥～，你过去，站到任学长旁边，我给你拍张照。”我转头看着身旁的哥哥，饶有兴致的建议。</p><p data-pid=\"HWQpvEDn\">当然，可想而知，非常不爱拍照的哥哥，必然是拒绝的。</p><p data-pid=\"mmSh6rZC\">“我不拍。”</p><p data-pid=\"XOp7g8KL\">“干嘛不拍。”</p><p data-pid=\"u5CHDIpU\">“我不喜欢拍照，你又不是不知道。”</p><p data-pid=\"9zXYFjqX\">“哎呦～你平时不拍就不拍了，这不是任学长在嘛。”我依旧固执的坚持着自己的建议：“快点，快点啦，哥～，你就过去跟任学长拍一张嘛，就拍一张还不行吗！”</p><p data-pid=\"6ELu_qmS\">但，对于我的坚持，哥哥根本不为之所动，却仍旧拒绝的干脆利索：“不行，我不拍。你给任学长拍吧，或者哥哥帮你跟任学长拍，我就不拍了，听话，小西。”</p><p data-pid=\"v1TMzZXu\">啊～我也真是不明白了，哥哥你帅如王凯，高高瘦瘦的身材也好，咋就一直那么抵触拍照呀。</p><p data-pid=\"wWQNI3Fq\">你...你这简直就是莫名其妙、不可理喻，让人难以理解啊，我真是气死了。</p><p data-pid=\"y33IL3uO\">于是，我没好气的应着哥哥说：“哎呀，你给我拍什么拍，我不都跟任学长拍完了嘛。我说的是给你拍，我给你拍，我就是要给你跟任学长拍嘛！”</p><p data-pid=\"AcSyd9HQ\">哥哥见我没完没了的死缠烂打，也是略有些起急：“我说了我不拍，别强人所难可以吗？任小西，别任性了！”</p><p data-pid=\"9BveCjXg\">“你不也是在任性，哼！！！”我气急败坏的高声回怼了哥哥一句，然后就一下子赌气着蹲在了地上。</p><p data-pid=\"uPpP-EyF\">面对我这突来的举动，哥哥显然是有些错愕。</p><p data-pid=\"IacbfObH\">“不是，任小西，你干嘛？”哥哥的声音夹杂着火气，满是质疑的问。</p><p data-pid=\"FpP0AN3l\">当然，此时的我也没什么好脾气，一腔愤愤的呛着哥哥说：“我生气了啦，咋的，你看不出来啊？！”</p><p data-pid=\"VQ09ksDG\">“生气归生气，但你有啥先给我站起来再说。”哥哥按耐着怒气，压低着声音，板着脸命令：“这是步行商业街，人来人往的，你这蹲着算怎么个事，丢不丢人、尴不尴尬，啊...？！”</p><p data-pid=\"HMKfAs8g\">咋着，这是嫌我给你丢人现眼了！</p><p data-pid=\"fhhU85MY\">行，那我还真就不能起来了！！</p><p data-pid=\"07VSUBxs\">跟你好说歹说说不通，那我必然得给你上些让你不舒服的手段了，哼～臭哥哥！！！</p><p data-pid=\"YKJmO7Eo\">“丢什么人啊，步行街咋了，哪条法律规定，在大庭广众之下，我不能蹲着了？”我仰着个脑袋，满脸犟气的跟哥哥一通胡搅：“再说了，只要我不尴尬，那尴尬就是别人的，与我无关。”</p><p data-pid=\"-0v_6JXI\">“任小西，我警告你，你别给我在这外面散德行！”哥哥听着我的强词夺理，肺都要气炸了，但哥哥毕竟好面儿，所以，他不得不继续压着火气，低沉着声音呵责道：“任小西，你没心没肺，神经大条，不觉着丢人，可以。但这大冷天的，这又是风口，你蹲着不动，那不没多一会儿，你就得让这寒风吹透了。急火攻心，又寒风入体，你不怕生病吗，感冒发烧了，你不难受吗？别废话，赶紧给我起来！”</p><p data-pid=\"XQ2YgriV\">“我不！”我死拧活倔的扯着嗓门子跟哥哥嚷嚷：“除非你答应跟任学长拍照，否则，我还就不起来了，哼！”</p><p data-pid=\"Us2NjKsu\">哥哥显然是没想到，这次我能如此执着，一脸不解的追问我说：“不是，小西，我就不明白了，你今天干嘛非得给我拍照，你之前也不这样啊？”</p><p data-pid=\"KbK3Iaf5\">“因为任学长在呀！因为小齐哥是你唯一喜欢了十多年的偶像啊！”我抬头看着哥哥，委屈又愤愤的说：“任学长好不容易来咱天津了，你跟他拍张照怎么了？呢他这次走了，以后还不知道啥时再来天津了呀！或者说，下次小齐哥再来天津开演唱会，任学长都不一定能来啊！所以，我就是不想让你有遗憾嘛，哥～。”</p><p data-pid=\"lvWPQIDI\">哥哥听着我话说的真切，他的心似乎也有所动容，眼神和语气都柔和了许多：“可是，我并不会为此觉得遗憾啊。小西，你听哥哥说，哥哥对偶像的喜欢方式，跟你不一样。哥哥喜欢齐哥，就支持他的音乐、影视剧、和演唱会就好了，而至于其他的，我真没所谓的。”</p><p data-pid=\"ly_SOKjZ\">啊～这个死心眼儿的理工大直男哥哥，不过就是让你拍个照嘛，你跟我这讲什么方式方法大道理啊，烦死了啦！</p><p data-pid=\"zpiPQcy7\">“那你就当我替你遗憾行不行，我就是会对你过分共情到自作多情，我有病行了吧。”我急赤白脸的跟哥哥又是一通叫嚣，眼泪都快急出来了：“所以，你能不能秉承着一个医生治病救人的职业操守，给我治治好啊？呢你又能不能为了不让你亲妹的人生再多一个遗憾，而勉为其难的去拍张照呀，行不行啊，我的亲哥！”</p><p data-pid=\"FFrTBKoD\">哥哥听完我几近歇斯底里般的“愤慨”，沉默了些许片刻，然后很是无奈的拉长着语调，跟我妥协着说：“行～拍～我拍行了吧，您能起来了嘛，我的亲祖宗。”</p><p data-pid=\"Rj9nPZ9i\">哎呦呦，不容易啊～不容易，哥哥总算是答应了，话说我这蹲的都快累死了啦。</p><p data-pid=\"vSBRWD6v\">其实啊，我是知道哥哥的，只要不是啥原则性问题，我适度的撒撒娇、耍耍赖、闹个小脾气，哥哥一般是都会妥协的。</p><p data-pid=\"vqEckLxh\">尤其是在玩着的、该放松开心的时候，哥哥也是非常不想因为他自己的原因，而让我扫兴不开心的，嘿嘿。</p><p data-pid=\"qWLlBgRy\">“啊～你同意啦，哥，真的吗？诶，不是，呢你早答应不就完了，害我蹲了么久，我的脚都快蹲麻了啊！快快快～哥，赶紧拉我起来啊。”我得了便宜还卖乖的跟哥哥得寸进尺着。</p><p data-pid=\"T9Ciejb8\">“该！”哥哥一边伸出手拉我起来，一边装佯生气的狠骂我。</p><p data-pid=\"UcGlSkFd\">“略略略～”我嬉皮笑脸的跟哥哥做着怪脸。</p><p data-pid=\"RUd5LvP8\">“不过咱可说好啊...”哥哥随即便提出了个附加条件：“拍可以，但我只拍背影，且只拍一张。”</p><p data-pid=\"4JQqKxqI\">“啊？！...只拍背影啊？那...”</p><p data-pid=\"8VWYz93j\">我还想再争取一下，可哥哥却斩钉截铁的说：“那什么那，行就拍，不行就不拍了，你自己看着办。”</p><p data-pid=\"ZaAszxfH\">嘿～你个破哥哥，是我给你拍照好吧，我这咋不仅得求着你，还得被你威胁啊。</p><p data-pid=\"JZ4V1rF7\">我我我...我这往哪说理去呀！！！</p><p data-pid=\"g-eHvkgn\">不过，虽然，但是，哥哥能答应拍就不错了，管他正脸还是背影呢，咱还要啥自行车啊。</p><p data-pid=\"ICimUALX\">“嗯...行吧，行吧，呢就拍背影吧，您老大，听您的。”我打趣的顺口应着哥哥：“呢个...哥，你站到任学长旁边，然后把双手举高，做个欢呼和拥抱世界的姿势呗。”</p><p data-pid=\"6wRxFWUT\">“什么啊，傻不傻呀，不做不做。”哥哥断然拒绝。</p><p data-pid=\"jQ4Xs44F\">啊～不是，哥，我这让你拍个照怎么就这么费劲，简直急死个人了。</p><p data-pid=\"jKZtVk3E\">“什么什么啊...”我又有些小急躁的跟哥哥据理力争：“你本来就只拍个背影，你再不做个pose, 哦～你就打算直愣愣的站在那，跟个电线杆子似的，呢才傻了好不好啊。”</p><p data-pid=\"neXMqiw9\">“不是，小西，你...”</p><p data-pid=\"b-ra2tGu\">“哎呀，你就别磨叽了，哥～”我实在是不想再跟我哥废话了，便直接打断了他的话，说：“你赶紧的吧，趁现在人少，别一会儿人多了，你又尬了呀。”</p><p data-pid=\"P7UxwZqO\">哥哥蹙眉看着我，深出了一口气，啥也没说，转身就站到了任学长旁边。</p><p data-pid=\"p0T86IDo\">且在我的指挥下，脱了外套（因为哥哥穿的卫衣背面，全是小齐哥的歌词，拍出来好看又有意义。），举高了双臂，才拍下了这么一张得来不易的背影照。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6059132daf642e5dbbe58690691efb9e_1440w.jpg\" data-rawwidth=\"3313\" data-rawheight=\"2901\" data-size=\"normal\" data-original-token=\"v2-d14e3b2c1e1e88f697b87afe99648e15\" class=\"origin_image zh-lightbox-thumb\" width=\"3313\" data-original=\"https://pic1.zhimg.com/v2-6059132daf642e5dbbe58690691efb9e_r.jpg\"/></figure><p data-pid=\"A08MGkIT\">知友们，小西为了能给你们多拍些北哥的背影照，呢可真是太难了，简直是使尽浑身解数啊。</p><p data-pid=\"9ARlqwCS\">所以知友们，且看且珍惜吧。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ecc0aeeb47ea892696422eb54cbf7d9b_1440w.jpg\" data-rawwidth=\"2698\" data-rawheight=\"3955\" data-size=\"normal\" data-original-token=\"v2-6bd54953f872db90a00fadc75477231a\" class=\"origin_image zh-lightbox-thumb\" width=\"2698\" data-original=\"https://pic2.zhimg.com/v2-ecc0aeeb47ea892696422eb54cbf7d9b_r.jpg\"/></figure><p data-pid=\"F6PNAicu\">这张是十一假期，我跟哥哥看完周深天津演唱会，散场往外走时，小西偷拍的，哈哈。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3e9571c0d3983041e34bfbb9b77e2ae3_1440w.jpg\" data-rawwidth=\"931\" data-rawheight=\"1409\" data-size=\"normal\" data-original-token=\"v2-ac0ff27871efb46b874b2ab67a9ae17e\" class=\"origin_image zh-lightbox-thumb\" width=\"931\" data-original=\"https://pic2.zhimg.com/v2-3e9571c0d3983041e34bfbb9b77e2ae3_r.jpg\"/></figure><p data-pid=\"9bMTaAx_\">小西的自拍，嘿嘿～。</p><p data-pid=\"6OQCXt7X\">               —————————————————</p><p data-pid=\"yXXBSq2D\">注：本文为作者原创文章，在未经本作者同意允许的情况下，不得以任何形式转载、搬运、盗用、高仿、抄袭到任何平台（包括但不限于知乎快手哔哩哔哩抖音小红书及其他任何平台），否则一经发现，必追责维权，后果自负。</p>",
+        "type": "article",
+        "visited_count": 2418,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "is_labeled": false,
+        "voteup_count": 25,
+        "excerpt": "今天是小西玩知乎、在知乎更文我和哥哥的日常，两年零五天的日子啦。 时间过的好快，想想我的第一篇更文，还是小西刚上高一的时候，逃课被我哥狠罚的事情。 现在，小西已经快高三毕业了，可不敢再逃课了。 该说不说，我是真的很久没逃课了呀，所以... 诶，不是，等等...我在想什么，哈哈哈哈。 回归正题，小西在知乎更文的这两年，有开心、也有忧伤，有顺畅、也有阻碍，有收获、也有失去，但整体都是美好的。 因为这一路走来，我…",
+        "article_type": "normal",
+        "vote_next_step": "vote",
+        "title": "两周年福利篇～",
+        "comment_count": 120,
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "excerpt_new": "今天是小西玩知乎、在知乎更文我和哥哥的日常，两年零五天的日子啦。 时间过的好快，想想我的第一篇更文，还是小西刚上高一的时候，逃课被我哥狠罚的事情。 现在，小西已经快高三毕业了，可不敢再逃课了。 该说不说，我是真的很久没逃课了呀，所以... 诶，不是，等等...我在想什么，哈哈哈哈。 回归正题，小西在知乎更文的这两年，有开心、也有忧伤，有顺畅、也有阻碍，有收获、也有失去，但整体都是美好的。 因为这一路走来，我…",
+        "preview_type": "default",
+        "navigator_vote": false,
+        "id": "1995886890495275343",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-d14e3b2c1e1e88f697b87afe99648e15_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6bd54953f872db90a00fadc75477231a_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ac0ff27871efb46b874b2ab67a9ae17e_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 5,
+        "created": 1768636755
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995886890495275343}",
+      "attached_info": "CpUGCMyzwYOd8dimrwEQBxoJMjY5MTY3NjUzINOCrcsGKBkweEBDSiAKFVRTX1NPVVJDRV9USEVNRV9NRVJHRRIBMBgAIAA6AGIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU4ODY4OTA0OTUyNzUzNDOqAQlyZWNvbW1lbmTCASA5M2UzMTJkMDlhZDFjOWM1MjIyY2ZmZTBmNjU1ZWY1ZPIBCggMEgZOb3JtYWzyASgIChIkZDlmMGMyYWEtOTQ1My00YWM1LTg1ZTQtZjdjNTI2NzJkMDMy8gEGCAsSAjEyggIAiALE4/LpvDOSAiA5M2UzMTJkMDlhZDFjOWM1MjIyY2ZmZTBmNjU1ZWY1ZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhVUU19TT1VSQ0VfVEhFTUVfTUVSR0XoAgP6AgtOT1JNQUxfRkxPV4oDIDE5NDM0Yzg5YTRjMDQyZWZhZWFhMTE0YTE2Yzc5Y2Q5mgMNCgJ2MhAAGgVvdGhlcqgD8hLYAwDqAxtUaGVtZU1lcmdlTmV3VjFQb29sUmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ8RkY1RYiI3YyLWQxNGUzYjJjMWUxZTg4ZjY5N2I4N2FmZTk5NjQ4ZTE1Oi0IAxCKFRjzHiIjdjItNmJkNTQ5NTNmODcyZGI5MGEwMGZhZGM3NTQ3NzIzMWE6LQgEEKMHGIELIiN2Mi1hYzBmZjI3ODcxZWZiNDZiODc0YjJhYjY3YTlhZTE3ZYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgOGfmT+BBQAAAAAAAAAAiQVt3ZKmJgu0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZFqAYDkgIuCgkyNjkxNjc2NTMSEzE5OTU4ODY4OTA0OTUyNzUzNDMYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "68_1768674865.135",
+      "type": "feed",
+      "offset": 68,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674865,
+      "updated_time": 1768674865,
+      "target": {
+        "voteup_count": 18138,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "id": "14058073401",
+        "created_time": 1729795397,
+        "preview_type": "default",
+        "type": "answer",
+        "author": {
+          "id": "6fa96b7afa210af5ddeb9742bbd3fd22",
+          "url_token": "dou-dou-23-21-17",
+          "headline": "",
+          "is_followed": false,
+          "followers_count": 11122,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/6fa96b7afa210af5ddeb9742bbd3fd22",
+          "user_type": "people",
+          "name": "豆豆",
+          "avatar_url": "https://picx.zhimg.com/50/v2-1034b53329ee82428e7ec7d9e6becd1d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1
+        },
+        "excerpt": "范仲淹知道吧，他发迹之后做了一件事情，拿出大量财富买田，不是为自己买，而是为宗族买，也就是公田，这个模式后来成了宋朝之后所有地主家族迈向门阀世家的模板。 范仲淹有钱么，没钱，他可以两袖清风跟你谈心性，一个县都是他家的地，又不是他家的地，类似于金将军，迈巴赫属于全体人民，但是金将军有二十四小时使用权。 范仲淹没钱没田，堪称儒家道德婊率，但是范氏家族有钱有田，后代中如果有读书人种子，宗族就会尽力培养，…",
+        "navigator_vote": false,
+        "preview_text": "",
+        "is_labeled": false,
+        "is_navigator": false,
+        "comment_count": 1156,
+        "is_copyable": false,
+        "excerpt_new": "范仲淹知道吧，他发迹之后做了一件事情，拿出大量财富买田，不是为自己买，而是为宗族买，也就是公田，这个模式后来成了宋朝之后所有地主家族迈向门阀世家的模板。 范仲淹有钱么，没钱，他可以两袖清风跟你谈心性，一个县都是他家的地，又不是他家的地，类似于金将军，迈巴赫属于全体人民，但是金将军有二十四小时使用权。 范仲淹没钱没田，堪称儒家道德婊率，但是范氏家族有钱有田，后代中如果有读书人种子，宗族就会尽力培养，…",
+        "favorite_count": 9466,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/14058073401",
+        "updated_time": 1751169940,
+        "thanks_count": 1056,
+        "content": "<p data-pid=\"_jS4lVVh\">范仲淹知道吧，他发迹之后做了一件事情，拿出大量财富买田，不是为自己买，而是为宗族买，也就是公田，这个模式后来成了宋朝之后所有地主家族迈向门阀世家的模板。</p><p data-pid=\"55awHvMc\">范仲淹有钱么，没钱，他可以两袖清风跟你谈心性，一个县都是他家的地，又不是他家的地，类似于金将军，迈巴赫属于全体人民，但是金将军有二十四小时使用权。</p><p data-pid=\"vYLxBcvo\">范仲淹没钱没田，堪称儒家道德婊率，但是范氏家族有钱有田，后代中如果有读书人种子，宗族就会尽力培养，读书出人头地之后，又回过头来扶持宗族，这就成了一个自循环生态系统。</p><p data-pid=\"OHyFfhy3\">明末清初第一汉奸就是范氏后人，他们家族一边当着朱家的官，一边押宝新崛起的努尔哈赤家族，清朝取代明朝后，他们家族继续辉煌了三百年。</p><p data-pid=\"7jCuEPES\">如果你们看过县志，就会发现有个东西叫做「义田」，我不知道谁发明的这个丧良心的玩意，义田把私有土地公有化，但私人又掌握着土地的分配权，即捐献后土地所有权是官府的，但是土地如何使用，私人说了算。</p><p data-pid=\"IxWwmubw\">给国家交税的时候义田是县学的公田（或者叫民献学田），享受免税政策，哪怕家族没有出进士，捐出去的地也是免税的，往自己家割麦子的时候是私田，交税的时候则变成公田。</p><p data-pid=\"MACTZQT5\">这样的土地我都不知道属于公有制还是私有制，大概算是“灵活所有制”吧！？</p><p data-pid=\"xKpQ8CYa\">这也是明朝后期世家大族大而不倒的原因，哪怕家族暂时没读书人不出进士，也不会影响家族在县里面的话语权，因为他们早就过了土地兼并的阶段，高级玩法是把兼并的一个县的土地全部捐给地方政府，一边享受公田免税政策，一边往自己家割麦子，整个县的读书人还特么的要感谢你，不感谢不行啊，捐多少你说了算，你说收成不好捐的少，他们就要喝西北风。</p><p data-pid=\"X5y_JPFw\">私田捐给官府变成义田，义田的产出捐献给当地县学和私人办学，县学年年拿着大族的捐献，考官们办私学拿着义田的巨额捐献，拿捐给公家的钱给自家后辈上出题人评卷人的学习班，这个叫雅贿。</p><p data-pid=\"OWderE9x\">进士难度大，因为要在一堆世家大族里面卷，大家都是地方豪强。童生秀才完全可以做到批发，主办裁判球员都买通了，闭着眼睛都能考。</p><p data-pid=\"dYDGIaIa\">我把钱都捐给慈善基金，是不是等于我没钱了嘛，同时我拥有慈善基金的运营权，怎么捐，捐给谁，我说了算，大部分慈善基金都是左手捐右手，纯粹是在哄哈儿耍，说起国外的慈善基金多么高大上，其实这玩意早被祖宗们玩烂了，不就是义田这种灵活所有制么？</p><p data-pid=\"Ct2Lx-im\">洛克菲勒家族早就过了拼资产的年代，他们家族开枝散叶之后，已经往门阀士族的方向发展了，所谓的家族信托，本质上就是范仲淹的公田和义田，公田不算个人财产，义田算的是国有资产，个人自然跟首富绝缘。</p><p data-pid=\"YmD-aEfG\">钱对于士族而言，没有意义，钱的本质是资源流通的载体，财富等于调动资源的能力，但是资源调动的能力高于财富，有钱不等于什么都能买，你有钱能买到中国人民银行或者美联储么？</p><p data-pid=\"4hpbUgqI\">钱是比权力低一级的社会资源，比如袁绍，他没有糜芳有钱，但是他调动资源的能力，远远超越糜芳，他不需要钱，四世三公的面子，多少钱都买不来。</p><p data-pid=\"KatqU_Jx\">世家门阀，他们能够调动的资源是普通人无法想象的，世家重要的不是钱，甚至权力都不重要，世家最重要的繁衍出庞大的宗族能够让家族在百年级别的大变局中能保持站队正确，站队正确的意思是把所有的政治势力都站一遍，不论谁赢，他们都是赢家，比如三国的诸葛家，魏蜀吴哪儿都有他。</p><p data-pid=\"WE-qUzPR\">这也是为什么顶级世家在任何一个朝代都是座上宾的原因，包括新中国，世家不仅是新中国的赞助商，也是刮民党的赞助商，同时还是北洋政府的投资者，同时还和冯玉祥阎锡山等地方军阀关系好，洛克菲勒就是这样的世家，不论共和党还是民主党或者地方豪强们，哪儿都有他们家族的影响力。</p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "visited_count": 1861484,
+        "question": {
+          "created": 1421896153,
+          "follower_count": 0,
+          "excerpt": "",
+          "id": "27720407",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/27720407",
+          "author": {
+            "followers_count": 0,
+            "is_followed": false,
+            "id": "",
+            "url": "",
+            "url_token": "",
+            "name": "匿名用户",
+            "gender": -1,
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "comment_count": 10,
+          "bound_topic_ids": [
+            587,
+            922,
+            988,
+            16598
+          ],
+          "is_following": false,
+          "question_type": "normal",
+          "title": "世界首富为什么不是出自洛克菲勒、摩根这样的财阀？",
+          "answer_count": 0
+        },
+        "reshipment_settings": "disallowed",
+        "segment_infos": [
+          {
+            "pid": "55awHvMc",
+            "text": "范仲淹有钱么，没钱，他可以两袖清风跟你谈心性，一个县都是他家的地，又不是他家的地，类似于金将军，迈巴赫属于全体人民，但是金将军有二十四小时使用权。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 73,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987107554615108828",
+                    "1834529847885557762",
+                    "1979851055832519829",
+                    "1963567836275376903",
+                    "1917896675097294798",
+                    "1960102060323243363"
+                  ],
+                  "is_like": false,
+                  "like_count": 129,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "vYLxBcvo",
+            "text": "范仲淹没钱没田，堪称儒家道德婊率，但是范氏家族有钱有田，后代中如果有读书人种子，宗族就会尽力培养，读书出人头地之后，又回过头来扶持宗族，这就成了一个自循环生态系统。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 82,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987107554615108828",
+                    "1834529847885557762",
+                    "1979851055832519829",
+                    "1963567836275376903",
+                    "1917896675097294798",
+                    "1960102060323243363"
+                  ],
+                  "is_like": false,
+                  "like_count": 129,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "OHyFfhy3",
+            "text": "明末清初第一汉奸就是范氏后人，他们家族一边当着朱家的官，一边押宝新崛起的努尔哈赤家族，清朝取代明朝后，他们家族继续辉煌了三百年。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 64,
+                "seg_info": {
+                  "seg_ids": [
+                    "1871673555097370624"
+                  ],
+                  "is_like": false,
+                  "like_count": 86,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7jCuEPES",
+            "text": "如果你们看过县志，就会发现有个东西叫做「义田」，我不知道谁发明的这个丧良心的玩意，义田把私有土地公有化，但私人又掌握着土地的分配权，即捐献后土地所有权是官府的，但是土地如何使用，私人说了算。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 95,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987107608490968018"
+                  ],
+                  "is_like": false,
+                  "like_count": 41,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "MACTZQT5",
+            "text": "这样的土地我都不知道属于公有制还是私有制，大概算是“灵活所有制”吧！？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 35,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987107624727118433"
+                  ],
+                  "is_like": false,
+                  "like_count": 33,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "xKpQ8CYa",
+            "text": "这也是明朝后期世家大族大而不倒的原因，哪怕家族暂时没读书人不出进士，也不会影响家族在县里面的话语权，因为他们早就过了土地兼并的阶段，高级玩法是把兼并的一个县的土地全部捐给地方政府，一边享受公田免税政策，一边往自己家割麦子，整个县的读书人还特么的要感谢你，不感谢不行啊，捐多少你说了算，你说收成不好捐的少，他们就要喝西北风。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 161,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993658022900289694"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "X5y_JPFw",
+            "text": "私田捐给官府变成义田，义田的产出捐献给当地县学和私人办学，县学年年拿着大族的捐献，考官们办私学拿着义田的巨额捐献，拿捐给公家的钱给自家后辈上出题人评卷人的学习班，这个叫雅贿。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 87,
+                "seg_info": {
+                  "seg_ids": [
+                    "1917155065275330662"
+                  ],
+                  "is_like": false,
+                  "like_count": 42,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "dYDGIaIa",
+            "text": "我把钱都捐给慈善基金，是不是等于我没钱了嘛，同时我拥有慈善基金的运营权，怎么捐，捐给谁，我说了算，大部分慈善基金都是左手捐右手，纯粹是在哄哈儿耍，说起国外的慈善基金多么高大上，其实这玩意早被祖宗们玩烂了，不就是义田这种灵活所有制么？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 116,
+                "seg_info": {
+                  "seg_ids": [
+                    "1925930750303245768"
+                  ],
+                  "is_like": false,
+                  "like_count": 28,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Ct2Lx-im",
+            "text": "洛克菲勒家族早就过了拼资产的年代，他们家族开枝散叶之后，已经往门阀士族的方向发展了，所谓的家族信托，本质上就是范仲淹的公田和义田，公田不算个人财产，义田算的是国有资产，个人自然跟首富绝缘。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 94,
+                "seg_info": {
+                  "seg_ids": [
+                    "1918210527429112185"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "YmD-aEfG",
+            "text": "钱对于士族而言，没有意义，钱的本质是资源流通的载体，财富等于调动资源的能力，但是资源调动的能力高于财富，有钱不等于什么都能买，你有钱能买到中国人民银行或者美联储么？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 82,
+                "seg_info": {
+                  "seg_ids": [
+                    "1925877884955887115",
+                    "1960378992503821085",
+                    "1917893320430064523",
+                    "1915673696774894278",
+                    "1833403472843776002",
+                    "1960205857385064084",
+                    "1916593975206319615",
+                    "1833898986563592192",
+                    "1916032520694269106",
+                    "1920747581748802804",
+                    "1833563842485043200",
+                    "1960378963571484143",
+                    "1947834806177104264",
+                    "1915723821303981777",
+                    "1920747604523881779",
+                    "1994426887284490792",
+                    "1993518302098630207",
+                    "1963567997886108248",
+                    "1993518327511946811",
+                    "1927314602087133325",
+                    "1917155221597034113",
+                    "1937155529618195573",
+                    "1915724589029388954"
+                  ],
+                  "is_like": false,
+                  "like_count": 187,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "4hpbUgqI",
+            "text": "钱是比权力低一级的社会资源，比如袁绍，他没有糜芳有钱，但是他调动资源的能力，远远超越糜芳，他不需要钱，四世三公的面子，多少钱都买不来。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 67,
+                "seg_info": {
+                  "seg_ids": [
+                    "1925877884955887115",
+                    "1960378992503821085",
+                    "1917893320430064523",
+                    "1915673696774894278",
+                    "1833403472843776002",
+                    "1960205857385064084",
+                    "1916593975206319615",
+                    "1833898986563592192",
+                    "1916032520694269106",
+                    "1920747581748802804",
+                    "1833563842485043200",
+                    "1960378963571484143",
+                    "1947834806177104264",
+                    "1915723821303981777",
+                    "1920747604523881779",
+                    "1994426887284490792",
+                    "1993518302098630207",
+                    "1963567997886108248",
+                    "1993518327511946811",
+                    "1927314602087133325",
+                    "1917155221597034113",
+                    "1937155529618195573",
+                    "1915724589029388954"
+                  ],
+                  "is_like": false,
+                  "like_count": 187,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "KatqU_Jx",
+            "text": "世家门阀，他们能够调动的资源是普通人无法想象的，世家重要的不是钱，甚至权力都不重要，世家最重要的繁衍出庞大的宗族能够让家族在百年级别的大变局中能保持站队正确，站队正确的意思是把所有的政治势力都站一遍，不论谁赢，他们都是赢家，比如三国的诸葛家，魏蜀吴哪儿都有他。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 130,
+                "seg_info": {
+                  "seg_ids": [
+                    "1925877884955887115",
+                    "1960378992503821085",
+                    "1917893320430064523",
+                    "1915673696774894278",
+                    "1833403472843776002",
+                    "1960205857385064084",
+                    "1916593975206319615",
+                    "1833898986563592192",
+                    "1916032520694269106",
+                    "1920747581748802804",
+                    "1833563842485043200",
+                    "1960378963571484143",
+                    "1947834806177104264",
+                    "1915723821303981777",
+                    "1920747604523881779",
+                    "1994426887284490792",
+                    "1993518302098630207",
+                    "1963567997886108248",
+                    "1993518327511946811",
+                    "1927314602087133325",
+                    "1917155221597034113",
+                    "1937155529618195573",
+                    "1915724589029388954"
+                  ],
+                  "is_like": false,
+                  "like_count": 187,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 14058073401}",
+      "attached_info": "CpUGCMyzwYOd8dimrwEQBBoJNjk1OTI3MzE2IMWq6rgGKNqNATCECUBESjoKJ1RTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfUkVBRBIJMTUyNDAyNDM0GAAgADoAWgczMjcxMTE5YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ILMTQwNTgwNzM0MDGKAQgyNzcyMDQwN6oBCXJlY29tbWVuZMIBIDZmYTk2YjdhZmEyMTBhZjVkZGViOTc0MmJiZDNmZDIy8gEKCAwSBk5vcm1hbPIBKAgKEiQ1NWJlMWZlNi1hZjU5LTQxN2MtODQ3MC03MTdmODJiNGJhNjbyAQYICxICMTKCAgCIAsTj8um8M5ICIDZmYTk2YjdhZmEyMTBhZjVkZGViOTc0MmJiZDNmZDIymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAidUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX1JFQUToAgP6AgtOT1JNQUxfRkxPV4oDIDE5NDM0Yzg5YTRjMDQyZWZhZWFhMTE0YTE2Yzc5Y2Q5mgMNCgJ2MhAAGgVvdGhlcqgD7M5x2AMA6gMbZmlyc3REZWdyZWVVc2VyUmVhZFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAIzMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAOZcsj+BBQAAAAAAAAAAiQVt3ZKmJgu0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZGqAYAkgImCgk2OTU5MjczMTYSCzE0MDU4MDczNDAxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "69_1768674865.656",
+      "type": "feed",
+      "offset": 69,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674865,
+      "updated_time": 1768674865,
+      "target": {
+        "updated": 1766653513,
+        "id": "1987542055304593772",
+        "url": "https://api.zhihu.com/articles/1987542055304593772",
+        "content": "<p data-pid=\"J400vZkA\">     最近，很多家长群都被同一份PPT刷屏了，来源是北京四中的一场家长会。只是几页简单的PPT，引发大家的热议，不愧是名校，关注的都是当前最尖锐的教育问题。</p><p data-pid=\"QbyH39Li\">     这所高中，每年有约300人次在各类竞赛中获奖这所高中，每年高考重点率达到97％以上这所高中，曾位居“中国十大名牌中学”之首......江湖上曾有传言，<i>“考上北京四中，就等于一只脚跨进了清北的大门”</i>。虽然有些夸张，但也确实说明，这所老牌名校在大家心中的分量。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-357aa288fb0f841c5ed629f9abc64c56_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"384\" data-original-token=\"v2-66b9d2ec189dc45c8f1128072483093e\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic1.zhimg.com/v2-357aa288fb0f841c5ed629f9abc64c56_r.jpg\"/></figure><p data-pid=\"PCzcOOkt\">    这份刷屏的PPT，没提什么刷题技巧，也没讲sheng学焦虑，而是用几句话，就说透了当下家庭教育的核心真相，让大家很有收获。在如今的大环境下，快乐教育是对是错？新一代“四无”青年是怎么被培养出来的？是环境太卷了还是孩子适应能力有问题？我们看看这份ppt的这里面的一些看法。</p><p data-pid=\"-raoU4TH\">第一句话的核心：<i>养孩子，别当木匠，要当园丁。</i></p><p data-pid=\"_UM7URdn\">   ppt里面说的：<i>“养育孩子是人类工程中最根本、最深刻、最宝贵的一部分。它不是做木匠活，誓要将孩子按照明确的模样去雕琢。相反，为人父母就像在园子里种花，旨在提供一个营养丰富、安全稳定的环境，让各式各样的鲜花茁壮成长；旨在为孩子提供一个健康、强大、多样的生态系统，让他们自己创造具有无限可能的未来。”</i></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7cf575364a26125195bb050338119b6e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"845\" data-rawheight=\"470\" data-original-token=\"v2-c630a981c5155cad06290a89ee0ef52b\" class=\"origin_image zh-lightbox-thumb\" width=\"845\" data-original=\"https://pic3.zhimg.com/v2-7cf575364a26125195bb050338119b6e_r.jpg\"/></figure><p data-pid=\"nIL8V2Rz\">  父母总怀着某种希望，想向一个标准靠近，似乎达到或超越某个标准，就稳妥了、安全了。</p><p data-pid=\"pophtHLE\"> 但其实每个孩子都是不一样的。</p><p data-pid=\"zJREvtOM\"> 尊重孩子的个性，让他们在相对自由、宽松的环境里，健康快乐地成长。</p><p data-pid=\"Lxq6Gya8\">第二句：警惕没朋友、没社交、没欲望、没感情，新一代“四无”青年的泛滥</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-abe9911e142736db9ad79e543b2cefb5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"948\" data-rawheight=\"480\" data-original-token=\"v2-87341dab616a89ec79016a1e610c75ac\" class=\"origin_image zh-lightbox-thumb\" width=\"948\" data-original=\"https://pic4.zhimg.com/v2-abe9911e142736db9ad79e543b2cefb5_r.jpg\"/></figure><p data-pid=\"hQOy20QP\">    看到这句话，我立刻想到了之前《三联生活周刊》做过的一个专题，叫“没有朋友的青春期”。</p><p data-pid=\"HIXEq22I\">   讲的是现在的孩子们，在学校表现冷淡，没有什么交心的朋友，但在网络中却经营着情感浓度很高的社交关系。视频用一句话总结这种现象：近处无朋友，网上有真情。里面采访了一个初中生，他用“人机”来形容自己：<i>存在感不高，享受不了人际关系，上课不主动发言，下课不参与聊天。有时候觉得自己不是一个活人玩家，而是游戏里面跟人互动的角色。</i></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6d69e62ca766ff5e3b89216dc5322e1c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1765\" data-original-token=\"v2-4c927acce3012abfa8c98437feee5a60\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-6d69e62ca766ff5e3b89216dc5322e1c_r.jpg\"/></figure><p data-pid=\"Vp0Msj3t\">    而且，这已经不是个别孩子的问题了，而是一种正在蔓延的集体性情感困境。我们花那么多心血养大的孩子，在建立真实、温暖、深度的人际关系上，却遇到了各种各样的问题。个人认为主要有以下原因：</p><p data-pid=\"JIYL3eKF\">一是，孩子的时间被填得太满了：这代孩子真的辛苦，早上起得早，晚上睡得晚，周末还被补习班、兴趣班排满日程，或者有一些其他安排。留给他们自由玩耍、自主社交的时间少得可怜。</p><p data-pid=\"fFX5KBk_\">二是，电子产品替代了真实的互动：《2024中国青少年网络使用调研报告》显示，<i>我国青少年网民规模约为1.85亿，未成年人用网呈现低龄化趋势。调查中，31.2%的青少年，日均上网1-3小时；约8.4%的青少年，日均上网3-5小时。</i>当电子设备成了孩子放松和娱乐的主要途径，交友就从“线下一起玩”变成了“线上一起打游戏、聊天”，真实互动自然就减少了。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-374e0c4105b6614a3b8ae14559e11fdd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"521\" data-rawheight=\"332\" data-original-token=\"v2-995004573dc7a9707695ebaa995f88c4\" class=\"origin_image zh-lightbox-thumb\" width=\"521\" data-original=\"https://pic2.zhimg.com/v2-374e0c4105b6614a3b8ae14559e11fdd_r.jpg\"/></figure><p data-pid=\"6BHncYL5\">   在虚拟社交的冲击下，孩子们往往忽视了现实生活中的情感需求。他们过度沉迷于游戏，导致对亲情的淡漠，对友情的忽视，以及对爱情的误解。同时，由于缺乏现实生活中的榜样，他们可能无法建立起正确的价值观和人生观。这种状态持续下去，将对孩子们的成长产生深远的影响。</p><p data-pid=\"ojOXkR9I\">第三条：<i>“有用”的东西保证孩子能站稳当下，“无用”的东西却能让他们走得更远。</i></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8f147e99c802bae37992c5036ef5c29a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"845\" data-rawheight=\"435\" data-original-token=\"v2-5e1a663b3be73eaf85d74f8130137c0d\" class=\"origin_image zh-lightbox-thumb\" width=\"845\" data-original=\"https://pic3.zhimg.com/v2-8f147e99c802bae37992c5036ef5c29a_r.jpg\"/></figure><p data-pid=\"udnUGcPQ\">  “有用”与“无用”并非绝对，而是因家庭观念而异。然而，无论是为孩子提供知识养分，还是让他们在自然中体验生活，这些经历都是孩子成长过程中不可或缺的风景，共同构成了他们丰富多彩的人生。老师的比喻很精妙施肥浇水能让树站稳，风和鸟声让它有姿态。把孩子只喂题海、只喂技巧，等于给他装了履带，但忘了给他看天的能力。现在用脚趾头想都知道，单靠考试成绩打天下的时代已经低配了越来越多岗位更看重经验、学习力和抗压能力，而不是一纸文凭。</p><p data-pid=\"H-h6-QUj\">   在育儿过程中，我们常常会感到焦虑，担心自己的方法不够好，或者孩子的发展不如预期。然而，通过实践“爱与榜样”的方法，我们可以找到内心的平静并缓解这种焦虑。当我们深爱孩子并树立一个良好的榜样时，我们自己会感到更加自信和从容，这种自信和从容也会传递给孩子，让他们在成长过程中更加健康和快乐。  </p><p data-pid=\"nwEef-2I\">   北京四中这份PPT之所以刷屏，绝不只是因为学校的名气，而是它给了所有家长一个最珍贵的提醒。</p><p data-pid=\"H1JOJHEI\">就像这页内容所说：<i>我们应该努力让家和学校，都成为赋予孩子意义感的地方。</i></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-804d34a1c6ae9907205ca36dbb4618a0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"483\" data-original-token=\"v2-76a607630e9a0113ce070a7c80742e0a\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pica.zhimg.com/v2-804d34a1c6ae9907205ca36dbb4618a0_r.jpg\"/></figure><p data-pid=\"0sa-7tTT\">   当大家还在为孩子的分数夜不能寐，把每一分当作未来保险的时候，谁来替他们承担被过度保护后的脆弱和迷茫，把教育还给孩子本身，让他们学会跌倒再爬起？对此你怎么看?</p><p data-pid=\"aCok0UvK\"><br/> </p>",
+        "segment_infos": [
+          {
+            "pid": "Lxq6Gya8",
+            "text": "第二句：警惕没朋友、没社交、没欲望、没感情，新一代“四无”青年的泛滥",
+            "marks": [
+              {
+                "start_index": 4,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989023762822232053"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "type": "article",
+        "author": {
+          "is_org": false,
+          "followers_count": 790,
+          "id": "193da3e03a48806b5bea01a71df64e09",
+          "url": "https://api.zhihu.com/people/193da3e03a48806b5bea01a71df64e09",
+          "user_type": "people",
+          "url_token": "fan-yi-fan-88-25",
+          "name": "花花世界smile",
+          "headline": "爱生活、爱自己，寻找生活中的每一个美",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-3d45bb20156445d520d044f78b7845f9_l.jpg?source=b6762063",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "favorite_count": 1572,
+        "voteup_count": 815,
+        "voting": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "最近，很多家长群都被同一份PPT刷屏了，来源是北京四中的一场家长会。只是几页简单的PPT，引发大家的热议，不愧是名校，关注的都是当前最尖锐的教育问题。 这所高中，每年有约300人次在各类竞赛中获奖这所高中，每年高考重点率达到97％以上这所高中，曾位居“中国十大名牌中学”之首......江湖上曾有传言， “考上北京四中，就等于一只脚跨进了清北的大门”。虽然有些夸张，但也确实说明，这所老牌名校在大家心中的分量。   这份刷…",
+        "preview_text": "",
+        "comment_permission": "all",
+        "comment_count": 175,
+        "visited_count": 214340,
+        "excerpt_new": "最近，很多家长群都被同一份PPT刷屏了，来源是北京四中的一场家长会。只是几页简单的PPT，引发大家的热议，不愧是名校，关注的都是当前最尖锐的教育问题。 这所高中，每年有约300人次在各类竞赛中获奖这所高中，每年高考重点率达到97％以上这所高中，曾位居“中国十大名牌中学”之首......江湖上曾有传言， “考上北京四中，就等于一只脚跨进了清北的大门”。虽然有些夸张，但也确实说明，这所老牌名校在大家心中的分量。   这份刷…",
+        "preview_type": "default",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-4c927acce3012abfa8c98437feee5a60_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "title": "看完“北京四中家长会PPT”个人的一些看法",
+        "created": 1766653513,
+        "is_labeled": false,
+        "article_type": "normal",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1987542055304593772}",
+      "attached_info": "CqoICMyzwYOd8dimrwEQBxoJMjY4MTY5NTE5IMn8s8oGKK8GMK8BQEVKMwoeVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTX1YzEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AGIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5ODc1NDIwNTUzMDQ1OTM3NzKqAQlyZWNvbW1lbmTCASAxOTNkYTNlMDNhNDg4MDZiNWJlYTAxYTcxZGY2NGUwOfIBCggMEgZOb3JtYWzyASgIChIkODAwMjFiOTAtODQyYS00NGJkLTg4MWItMDg5NmE3ODIyYmI58gEGCAsSAjEyggIAiALE4/LpvDOSAiAxOTNkYTNlMDNhNDg4MDZiNWJlYTAxYTcxZGY2NGUwOZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHlRTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTU19WM+gCA/oCC05PUk1BTF9GTE9XigMgMTk0MzRjODlhNGMwNDJlZmFlYWExMTRhMTZjNzljZDmaAw0KAnYyEAAaBW90aGVyqAPEig3YAwDqAxRmZWVkcmVfdGltZWxpbmVzc192M/oD6AISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxCABRiAAyIjdjItNjZiOWQyZWMxODlkYzQ1YzhmMTEyODA3MjQ4MzA5M2U6LQgCEM0GGNYDIiN2Mi1jNjMwYTk4MWM1MTU1Y2FkMDYyOTBhODllZTBlZjUyYjotCAIQtAcY4AMiI3YyLTg3MzQxZGFiNjE2YTg5ZWM3OTAxNmExZTYxMGM3NWFjOi0IAhC4CBjlDSIjdjItNGM5MjdhY2NlMzAxMmFiZmE4Yzk4NDM3ZmVlZTVhNjA6LQgCEIkEGMwCIiN2Mi05OTUwMDQ1NzNkYzdhOTcwNzY5NWViYWE5OTVmODhjNDotCAIQzQYYswMiI3YyLTVlMWE2NjNiM2JlNzNlYWY4NWQ3NGY4MTMwMTM3YzBkOi0IAhCgBhjjAyIjdjItNzZhNjA3NjMwZTlhMDExM2NlMDcwYTdjODA3NDJlMGGABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMDGSaE/gQUAAAAAAAAAAIkFbd2SpiYLtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDJAGAKAGR6gGAJICLgoJMjY4MTY5NTE5EhMxOTg3NTQyMDU1MzA0NTkzNzcyGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "70_1768674865.183",
+      "type": "feed",
+      "offset": 70,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674865,
+      "updated_time": 1768674865,
+      "target": {
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "answer_type": "normal",
+        "voteup_count": 0,
+        "preview_type": "default",
+        "content": "<p data-pid=\"5fooVvrg\">如果是用来学习，我自己用得最多的是 <a href=\"https://link.zhihu.com/?target=http%3A//rtemplate.cn\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">rtemplate.cn</span><span class=\"invisible\"></span></a>。很多已经整理好的学习内容、结构思路和现成范例在这里能直接看到，比从零摸索快很多；就算一时没找到合适的，过一会就有了。</p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "visited_count": 38,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1995895453733110835",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-abdc0f44e2a8947e65b6ddcbd577c843_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 34,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/bdf41633af99f4b28b76a0893585b1a5",
+          "user_type": "people",
+          "url_token": "bai-pei-34",
+          "name": "川上长风",
+          "headline": "",
+          "gender": 1,
+          "is_following": false,
+          "id": "bdf41633af99f4b28b76a0893585b1a5"
+        },
+        "updated_time": 1768638558,
+        "excerpt": "如果是用来学习，我自己用得最多的是 http://rtemplate.cn 。很多已经整理好的学习内容、结构思路和现成范例在这里能直接看到，比从零摸索快很多；就算一时没找到合适的，过一会就有了。",
+        "preview_text": "",
+        "id": "1995895453733110835",
+        "type": "answer",
+        "created_time": 1768638558,
+        "question": {
+          "id": "19986209",
+          "is_following": false,
+          "excerpt": "",
+          "type": "question",
+          "author": {
+            "url": "https://api.zhihu.com/people/aab0ff9c0d1b09fac1b8f7de6bc1b2bf",
+            "user_type": "people",
+            "followers_count": 52,
+            "is_following": false,
+            "is_followed": false,
+            "is_org": false,
+            "gender": -1,
+            "id": "aab0ff9c0d1b09fac1b8f7de6bc1b2bf",
+            "url_token": "fang-bin-70",
+            "name": "方斌",
+            "headline": "心理学爱好者，人力资源关注者；知识产权从业者",
+            "avatar_url": "https://picx.zhimg.com/50/799da9546_l.jpg?source=b6762063"
+          },
+          "title": "大家有什么好的网站可以用来学习呢？",
+          "bound_topic_ids": [
+            119,
+            2083,
+            2547
+          ],
+          "url": "https://api.zhihu.com/questions/19986209",
+          "detail": "",
+          "created": 1324605931,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "excerpt_new": "如果是用来学习，我自己用得最多的是 http://rtemplate.cn 。很多已经整理好的学习内容、结构思路和现成范例在这里能直接看到，比从零摸索快很多；就算一时没找到合适的，过一会就有了。",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "favorite_count": 2
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995895453733110835}",
+      "attached_info": "CocGCMyzwYOd8dimrwEQBBoJNzY1ODE0MDM1IN6QrcsGKAAwAEBGSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgYxNzQ0NzViIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1ODk1NDUzNzMzMTEwODM1igEIMTk5ODYyMDmqAQlyZWNvbW1lbmTCASBiZGY0MTYzM2FmOTlmNGIyOGI3NmEwODkzNTg1YjFhNfIBCggMEgZOb3JtYWzyASgIChIkNmJmNGE5OGYtMDE1NS00MzI1LWFlNTEtZjQwNThlZWRkODIz8gEGCAsSAjEyggIAiALE4/LpvDOSAiBiZGY0MTYzM2FmOTlmNGIyOGI3NmEwODkzNTg1YjFhNZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AIC+gILTk9STUFMX0ZMT1eKAyAxOTQzNGM4OWE0YzA0MmVmYWVhYTExNGExNmM3OWNkOZoDDQoCdjIQABoFb3RoZXKoAybYAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKDMhHk/gQUAAAAAAAAAAIkFbd2SpiYLtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDJAGAKAGSKgGAZICLgoJNzY1ODE0MDM1EhMxOTk1ODk1NDUzNzMzMTEwODM1GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "71_1768674865.384",
+      "type": "feed",
+      "offset": 71,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674865,
+      "updated_time": 1768674865,
+      "target": {
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "excerpt": "前几天跟几个做技术的朋友吃饭，聊着聊着就绕到一个话题上：AI 写代码都这么猛了，咱们到底还学什么？学的东西会不会转眼就过时？ 这焦虑挺普遍的。25 年初扎克伯格在播客里放话，说年底 AI 就能达到中级工程师的水平。看看眼下的情况：Google 四分之一的新代码是 AI 写的；AI 编程工具一轮轮融资，估值蹭蹭往上涨；行业调查显示，七成开发者已经把 AI 融入日常工作了。 我也迷茫过一阵子。这篇文章想聊的，是我这段时间摸索出来…",
+        "excerpt_new": "前几天跟几个做技术的朋友吃饭，聊着聊着就绕到一个话题上：AI 写代码都这么猛了，咱们到底还学什么？学的东西会不会转眼就过时？ 这焦虑挺普遍的。25 年初扎克伯格在播客里放话，说年底 AI 就能达到中级工程师的水平。看看眼下的情况：Google 四分之一的新代码是 AI 写的；AI 编程工具一轮轮融资，估值蹭蹭往上涨；行业调查显示，七成开发者已经把 AI 融入日常工作了。 我也迷茫过一阵子。这篇文章想聊的，是我这段时间摸索出来…",
+        "article_type": "normal",
+        "navigator_vote": false,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1995874107854700583",
+        "updated": 1768635011,
+        "is_labeled": false,
+        "comment_permission": "all",
+        "comment_count": 0,
+        "preview_text": "",
+        "content": "<p data-pid=\"6msPDZQe\">前几天跟几个做技术的朋友吃饭，聊着聊着就绕到一个话题上：AI 写代码都这么猛了，咱们到底还学什么？学的东西会不会转眼就过时？</p><p data-pid=\"TnwlNp0U\">这焦虑挺普遍的。25 年初扎克伯格在播客里放话，说年底 AI 就能达到中级工程师的水平。看看眼下的情况：Google 四分之一的新代码是 AI 写的；AI 编程工具一轮轮融资，估值蹭蹭往上涨；行业调查显示，七成开发者已经把 AI 融入日常工作了。</p><p data-pid=\"voyiAJzm\">我也迷茫过一阵子。这篇文章想聊的，是我这段时间摸索出来的一套学习思路——未必全对，但或许能给大家一点参考。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c85cc13db745e5ea1d656384bdbc7df3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2040\" data-rawheight=\"405\" data-original-token=\"v2-28a97cb810fec3e0cb194d0ad68f7ae2\" class=\"origin_image zh-lightbox-thumb\" width=\"2040\" data-original=\"https://picx.zhimg.com/v2-c85cc13db745e5ea1d656384bdbc7df3_r.jpg\"/></figure><hr/><h2><b>一、技能的贬值与升值</b></h2><p data-pid=\"zVBlFvpF\">先说变化。</p><h3><b>1.1 投入产出比下降的技能</b></h3><p data-pid=\"BXJ_hLed\">有些以前觉得很重要的技能，现在确实不太值钱了。</p><p data-pid=\"Db8iwT6u\">就拿记 API 来说。以前翻文档查参数、记配置项是基本功，现在呢？问一嘴 AI，几秒钟就搞定，比你自己翻文档快得多。</p><p data-pid=\"JqgMT7Jw\">再说 CRUD 开发。增删改查、表单列表这些活儿，以前得写大半天，现在 AI 几分钟就能交差。整理文档、调参数也一样，AI 干得又快又好。</p><p data-pid=\"tLFn-OUf\">这些技能不是彻底没用了，而是投入产出比大打折扣。你花一周时间记下来的东西，AI 眨眼就给你——这投入还划不划算，得掂量掂量。</p><h3><b>1.2 价值上升的能力</b></h3><p data-pid=\"xLY6O1pQ\">但有些能力反而越来越吃香。</p><p data-pid=\"wfp8s2fN\">系统思维就是一个。AI 确实能给你方案，能帮你分析各种架构的利弊，但系统挂了谁扛？需求变了谁拍板？还是你。锅甩不到 AI 头上。</p><p data-pid=\"QpjMdStp\">业务理解也是。AI 不了解你们公司的业务背景，不清楚那些没写在文档里的潜规则，这些只有你自己门儿清。</p><p data-pid=\"Z2TV7MN_\">还有定义问题的能力。AI 特别擅长答题，但它不会发现问题、不会提问题。实际工作中，真正棘手的往往不是解决问题，而是搞清楚问题到底是什么。</p><p data-pid=\"6GiR3Sj_\">决策判断也变得更关键了。技术选型怎么定、架构怎么做，这些决定的后果得人来扛。AI 可以给建议，但拍板的是你。</p><p data-pid=\"RUes98ke\">甚至连人际协作都更重要了。因为技术方案光正确还不行，你得能说服人。这需要沟通，需要摸清不同人的诉求和顾虑。</p><p data-pid=\"EN2blE1C\">Instagram 联合创始人、Anthropic 首席产品官 Mike Krieger 说得挺到位：未来工程师的核心工作，是提出正确的想法、设计用户交互、合理分配任务，以及大规模审查代码。这话我深以为然。</p><h3><b>1.3 系统责任归属</b></h3><p data-pid=\"Bg9HlDHz\">AI 可以辅助系统设计——它能出方案、帮你分析取舍、提供各种模板——但系统最终还是你的责任。</p><p data-pid=\"p7mpXmnC\">AI 能把微服务架构的优缺点说得头头是道，能帮你画架构图、写设计文档，能给你列出各种技术选型的对比。但系统出事了怎么办？需求变了怎么办？资源有限必须取舍怎么办？这些决策，还是你来做。</p><p data-pid=\"j8rC_Ea6\">有句话说得好：系统不是代码的堆砌，而是决策的结果。AI 能帮你分析，但替不了你决策、扛不了你的责任。</p><hr/><h2><b>二、学习方式的转变</b></h2><h3><b>2.1 旧模式：脑子当硬盘</b></h3><p data-pid=\"i9w8vG06\">以前学技术，路子大概是这样：看教程、记笔记、背知识点、考试或面试，然后忘得七七八八，过段时间又得从头学。</p><p data-pid=\"FYPKrRA1\">这个模式有个隐含假设：知识得装进脑子里，用的时候才能调出来。</p><p data-pid=\"XJ9L5LQm\">信息稀缺的年代，这么干没毛病。但现在情况不一样了。</p><p data-pid=\"X8E8gi7p\">想知道 Kafka 的消费者组机制？问 AI，几秒内出答案。想查 Spark 的配置参数？AI 连示例代码都给你写好了。想了解某个开源项目？AI 帮你把 README 和核心源码过一遍。</p><p data-pid=\"Xl2h3P51\">现在的关键变成了：细节可以外包给 AI，但框架得在你脑子里。</p><h3><b>2.2 新模式：脑子当目录</b></h3><p data-pid=\"As_5TTec\">新的学习路径应该是这样：建立框架、知道&#34;有这么回事&#34;、需要时快速定位、借 AI 深入细节、通过实战强化。</p><p data-pid=\"A-vdI1oz\">这就是&#34;快学&#34;的核心：不是要记住所有知识，而是建立知识索引。知道什么技术能解什么问题，需要的时候能快速找到并吃透。</p><p data-pid=\"CC_t7wAP\">打个比方：旧模式是把整本字典背下来，新模式是熟悉字典的结构，需要的时候能迅速翻到那个字。</p><h3><b>2.3 检索能力优于记忆能力</b></h3><p data-pid=\"Ez1BtJxg\">技术圈有个残酷的事实：知识的保质期越来越短。</p><p data-pid=\"dWUCZv7e\">五年前学的框架，可能早过气了。三年前的最佳实践，现在可能成了反面教材。一年前的当红技术，可能已经没人用了。</p><p data-pid=\"XA5XIusY\">与其花大把时间记细节，不如做几件事：吃透底层原理（这些不怎么变）、建立知识框架（知道这个领域的边界在哪、结构是什么）、培养检索能力（能快速找到需要的信息）、积累实战经验（踩过的坑才是真知识）。</p><h3><b>2.4 知识广度的价值重估</b></h3><p data-pid=\"gc4rPyLi\">这个观点值得展开说说。</p><p data-pid=\"IZR5LA-t\">获取知识的成本降到接近于零，代码模板和最佳实践唾手可得，大量&#34;标准问题&#34;都有现成答案——这种情况下，单纯&#34;知道得多&#34;已经不构成核心优势了。</p><p data-pid=\"9hBEkiH2\">但这不代表知识没有价值。我的理解是：浅层知识是入场券，深度知识才是护城河。</p><p data-pid=\"1UBpzpcJ\">你得知道足够多，才能跟 AI 有效配合，才能判断 AI 说的靠不靠谱。但光知道多还不够——在关键领域的深度理解，才是真正的竞争壁垒。</p><hr/><h2><b>三、快学：分层学习体系</b></h2><p data-pid=\"sSnPgMy3\">基于上面的理念，我整理了一套分层学习体系。</p><h3><b>3.1 学习内容分三层</b></h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d1d70f969a757e066d01312bdf178e1a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1115\" data-rawheight=\"196\" data-original-token=\"v2-02b04e39e635daf6687c015cc50453ef\" class=\"origin_image zh-lightbox-thumb\" width=\"1115\" data-original=\"https://pica.zhimg.com/v2-d1d70f969a757e066d01312bdf178e1a_r.jpg\"/></figure><p data-pid=\"wcCCo0g0\">学习内容分三层：</p><p data-pid=\"QC75lfrI\">最上面是&#34;扫一眼&#34;层，对应知识导图，帮你建立核心概念和整体框架，搞清楚有哪些东西。</p><p data-pid=\"KNuKef6g\">中间是&#34;快速了解&#34;层，对应精炼笔记，涵盖原理、场景和要点，让你知道怎么用。</p><p data-pid=\"RgDwzjFl\">最下面是&#34;深入学习&#34;层，对应完整资料，包括细节、配置和源码，让你知道为什么。</p><p data-pid=\"Z50JXYQz\">背后的思路很清晰：导图层投入最小，遇到新名词时扫一眼就够；精炼层投入适中，要用某项技术时快速抓要点；详解层按需投入，碰到具体问题时再深挖。</p><h3><b>3.2 遗忘与唤醒的循环</b></h3><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5ad98c2f5d1c33b8b6e2da776d853e2d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"977\" data-rawheight=\"138\" data-original-token=\"v2-5ad98c2f5d1c33b8b6e2da776d853e2d\" class=\"origin_image zh-lightbox-thumb\" width=\"977\" data-original=\"https://pic2.zhimg.com/v2-5ad98c2f5d1c33b8b6e2da776d853e2d_r.jpg\"/></figure><p data-pid=\"mv1BoQAQ\">光分层还不够，学习应该是个不断循环的过程。</p><p data-pid=\"Q8_47EvG\">简单说：建立索引、遗忘细节、遇到问题、快速唤醒、实战强化，然后周而复始。</p><p data-pid=\"C4k5FM7A\">有几点我想特别强调：</p><p data-pid=\"iKnQyYmy\">忘掉细节是正常的。API 参数、配置项忘了不用慌，能快速查到就行。但如果连核心原理都忘了，那就是危险信号——说明当初就没真正吃透。</p><p data-pid=\"8A3qBVs8\">唤醒比重学快得多。有索引打底，很快就能恢复到能做决策的状态。</p><p data-pid=\"mczhLNEW\">实战才是王道。没实际用过的知识，只是信息而已。判断标准很简单：唤醒之后还是一头雾水，说明得回去重新深入学习。</p><h3><b>3.3 实例：K8s 知识唤醒</b></h3><p data-pid=\"lzof6i7f\">拿 Kubernetes 举个例子。</p><p data-pid=\"oIGlmV7J\">假设三个月前学过 K8s，现在项目要用。</p><p data-pid=\"EtEugY3-\">传统做法：翻出之前的笔记，发现看不懂了，重新看教程/官方文档，折腾老半天才勉强想起来。</p><p data-pid=\"9_kR4d-h\">快学做法就不一样了：</p><p data-pid=\"8kyZFAW1\">先打开 K8s 知识导图，扫一眼核心概念：Pod、Service、Deployment 这些。</p><p data-pid=\"t8_LQ2T-\">再看精炼笔记，快速回顾为什么要用、基本原理、常见场景。</p><p data-pid=\"htyFrBZD\">碰到具体问题，比如 Ingress 配置，翻详解层或者问 AI。</p><p data-pid=\"yHX17L_R\">迅速完成知识唤醒，直接上手干活。</p><h3><b>3.4 从学习到应用的闭环</b></h3><p data-pid=\"V-HJGNR7\">前面的分层递进，解决的是&#34;怎么更快建立框架、定位细节&#34;。但要让学习真正产生复利效应，还需要一套闭环——对抗似懂非懂、对抗 AI 幻觉、让知识可复用。</p><p data-pid=\"HwGu7JvT\">完整的快学链路应该是：定目标 → 建框架 → 动手做 → 验证 → 沉淀 → 唤醒。</p><p data-pid=\"B7H2ZLb8\">目标：先写清楚&#34;学完要能干什么&#34;，别为了输入而输入。比如不是&#34;学 Kafka&#34;，而是&#34;能从现象定位到消费堆积的根因，并给出改造方案&#34;。</p><p data-pid=\"RB04bdgM\">动手做：优先进入真实任务，或者写一个最小可运行的 demo。一旦开始动手，模糊的地方会自动暴露出来。</p><p data-pid=\"-9KR5nLX\">验证：为关键结论设置证据。证据可以是最小实验、可运行代码、监控指标、日志、官方文档对照、源码定位。标准是结论要能证伪，而不是&#34;听起来有道理&#34;。</p><p data-pid=\"k92wnWkr\">沉淀：把知识从&#34;资料&#34;变成&#34;作战手册&#34;。推荐的形式包括排障路径、决策清单、失败模式、常见坑及预防措施。</p><p data-pid=\"vlWIpjxC\">唤醒：用自测或回忆代替反复重读。每周花十五分钟，看着标题问自己&#34;能不能复述、复现、排查？&#34;答不出来再回看对应笔记。</p><p data-pid=\"S4jMtNTs\">一句话：索引解决&#34;找得到&#34;，闭环解决&#34;用得出、靠得住、可复用&#34;。</p><h3><b>3.5 快学的适用边界</b></h3><p data-pid=\"WSjTtqlw\">但必须强调：快学不是万能的。得分清什么场景适合快学，什么场景必须慢下来。</p><p data-pid=\"AA-lp5cW\">了解新技术是什么？适合，建个索引就行。日常业务开发？适合，AI 能大幅提速。工具和框架的使用？适合，查文档加 AI 辅助足够了。</p><p data-pid=\"Ojs9WBnn\">但核心领域深耕不适合，需要传统的深度学习。涉及安全或金融的代码也不适合，必须吃透，不能靠索引。排查复杂 bug 部分适合，但需要深度理解加 AI 辅助。底层原理学习也不适合，必须沉下心来，打牢基础。</p><p data-pid=\"_HgKbMg9\">一句话：快学解决&#34;广度&#34;和&#34;效率&#34;，但替代不了&#34;深度&#34;和&#34;理解&#34;。</p><hr/><h2><b>四、深耕：深度学习的必要性</b></h2><p data-pid=\"T4HIxoq4\">快学解决了广度问题，但没有深度支撑的广度，是脆弱的。</p><h3><b>4.1 广度的脆弱性</b></h3><p data-pid=\"7Op2SZc7\">如果只追求广度，很容易变成只有广度没有深度的一层薄纸。</p><p data-pid=\"CGBaS-Wp\">什么都知道一点，但什么都说不清；能靠 AI 快速出活，但碰到复杂问题就卡壳；没法判断 AI 输出的质量，因为自己也是半懂不懂。</p><p data-pid=\"XqLWvE1M\">核心问题在于：没经历过&#34;痛苦的深度学习&#34;，大脑就练不出处理复杂问题的能力。</p><h3><b>4.2 广度与深度的分工</b></h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a7133c4862dec4ec38eb3cbdfbdb2b8e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"868\" data-rawheight=\"198\" data-original-token=\"v2-4479fa1969f5951235e601ecb7e24579\" class=\"origin_image zh-lightbox-thumb\" width=\"868\" data-original=\"https://pica.zhimg.com/v2-a7133c4862dec4ec38eb3cbdfbdb2b8e_r.jpg\"/></figure><p data-pid=\"pjMdFNW-\">传统的 T 型人才讲究&#34;一专多能&#34;，但 AI 时代需要更激进一些。</p><p data-pid=\"JpU5H9Js\">广度用快学覆盖，知道各领域的边界、能解决什么问题。在广度的基础上，挑一两个极窄的领域，深度穿透，不依赖 AI，用传统的深度学习方法死磕。</p><p data-pid=\"HNbmmWBo\">深耕有几个要求：</p><p data-pid=\"RkDJz0e9\">选择极窄的领域。不是&#34;后端开发&#34;这种大范围，而是&#34;JVM 内存模型&#34;或&#34;MySQL 索引原理&#34;这种很窄的点。</p><p data-pid=\"Wuk_SqC2\">不依赖 AI。逼自己从源码、论文、实验中获取一手认知。</p><p data-pid=\"ZTwAVKx9\">追求穿透。能解释&#34;为什么&#34;，而不只是&#34;怎么做&#34;。</p><h3><b>4.3 深耕的真正价值</b></h3><p data-pid=\"0UJQV-yW\">深耕不是为了记住这个领域的知识，而是为了几个更重要的目的。</p><p data-pid=\"LR99PuID\">训练大脑处理复杂逻辑的能力。这种能力可以迁移，你在深耕领域练出来的本事，能用到别的地方去。</p><p data-pid=\"vOcMd1jm\">建立&#34;什么叫真正理解&#34;的标准。有了这个标杆，才能判断自己在其他领域是不是真的懂了。</p><p data-pid=\"0cOn864o\">提升快学的准确率。一旦你通过深耕掌握了底层逻辑，在其他领域用快学时，判断力会大幅提升。</p><h3><b>4.4 深耕领域的选择</b></h3><p data-pid=\"dV5uJiE-\">我建议选变化慢、原理性强的领域。</p><p data-pid=\"cCZRBhLC\">比如操作系统原理，几十年基本没变，是所有系统的根基。数据库内核，存储、索引、事务的原理高度稳定。网络协议，TCP/IP 协议栈是互联网的基石。编译原理，能帮你理解编程语言的本质。分布式系统基础，CAP、一致性、共识算法这些核心概念。数据结构与算法，永不过时的基本功。</p><p data-pid=\"wa1Z7pMd\">框架和工具层的 API 用法变化快，更适合用快学；但如果你要深耕某个框架，应该聚焦其设计思想和底层原理，比如 React 的调度机制、Vue 的响应式原理，而不是记 API。</p><h3><b>4.5 深耕的方法</b></h3><p data-pid=\"kt5z13XT\">具体怎么深耕？我的建议是这样：</p><p data-pid=\"NEhMZKKW\">选定一个极窄领域，比如 Redis 持久化机制。关掉 AI，从官方文档和源码入手。带着问题去读：这个机制要解决什么问题？有哪些取舍？动手实验：写 demo、做压测、观察行为。最后输出一篇能让别人看懂的深度文章。检验标准很简单：能不能在白板上画出核心流程，并解释每个决策背后的原因。</p><p data-pid=\"B1XBgaHL\">一句话：广度靠快学，深度靠深耕。两者缺一不可。</p><hr/><h2><b>五、代码审查能力</b></h2><p data-pid=\"kaadMeIg\">AI 时代，&#34;写代码&#34;的价值在降，但&#34;审代码&#34;和&#34;调代码&#34;的难度在指数级上升。</p><h3><b>5.1 审核能力的重要性上升</b></h3><p data-pid=\"pA_KOTtd\">AI 生成的代码有个显著特点：表面逻辑没问题，但常常藏着微妙的错误。</p><p data-pid=\"N4meKja-\">我总结了一下，这些错误通常表现为：边界条件处理不到位，比如空值、极值、并发场景；引用不存在或已经过时的库和 API；逻辑看着顺，但性能有坑，比如藏着个 O(n²)；安全漏洞，比如 SQL 注入、XSS、权限问题；跟项目现有的架构和风格格格不入。</p><p data-pid=\"QNweTpaS\">核心矛盾在于：AI 写代码越快，人审代码的压力越大。你要是没能力审核，就会被 AI 的&#34;幻觉&#34;带沟里去。</p><h3><b>5.2 AI 输出验证清单</b></h3><p data-pid=\"IfrlHr-F\">每次用 AI 生成的代码，至少过一遍这几个维度：</p><p data-pid=\"15Pu-MTy\">边界条件：空值处理、极大极小值、空数组空字符串。</p><p data-pid=\"2hImS9rZ\">并发安全：多线程访问、竞态条件、死锁风险。</p><p data-pid=\"3MPSRa-R\">依赖检查：库是否存在、版本是否兼容、API 是否已废弃。</p><p data-pid=\"bX1xTtgS\">安全检查：SQL 注入、XSS、CSRF、权限校验。</p><p data-pid=\"S3Oec66h\">性能检查：时间复杂度、内存泄漏、N+1 查询。</p><p data-pid=\"PF4xH52p\">一致性检查：代码风格、命名规范、架构约定。</p><p data-pid=\"LxfPbv4t\">错误处理：异常捕获、错误恢复、日志记录。</p><h3><b>5.3 通过源码阅读训练直觉</b></h3><p data-pid=\"zncDxeDe\">以前我们读源码是为了学怎么写，现在读源码更多是为了训练审核 AI 产出的能力。</p><p data-pid=\"2vTOuwRb\">我推荐的源码阅读方式：选成熟的开源项目，比如 Redis、Nginx、Linux 内核模块。带着问题去读：这段代码为什么这么写？有什么取舍？关注细节：边界处理、错误恢复、性能优化技巧。拿 AI 做对比：让 AI 实现同样的功能，然后对比差异。记录规律：哪些是 AI 容易忽略的？哪些是人类工程师的经验结晶？</p><h3><b>5.4 调试思路的调整</b></h3><p data-pid=\"HO64ACW2\">AI 生成的代码出问题时，调试思路跟传统调试不太一样。</p><p data-pid=\"Fft_Cram\">别假设 AI 理解了你的意图——重新检查 prompt 是否足够清晰。怀疑优先：先假设代码有问题，逐行验证。最小化复现：把问题代码隔离出来，用最小的 case 测试。对照官方文档：AI 可能用了过时的 API 或错误的用法。检查隐含假设：AI 可能做了你不期望的假设。</p><p data-pid=\"I8Ki5yHB\">一句话：未来的核心技能不是&#34;写代码&#34;，而是&#34;Review 代码&#34;和&#34;Debug 代码&#34;。</p><hr/><h2><b>六、学习策略</b></h2><h3><b>6.1 二八定律的重新理解</b></h3><p data-pid=\"e-ZkqwCO\">传统二八定律说的是：20% 的知识解决 80% 的问题。</p><p data-pid=\"E2BN68oQ\">AI 时代的二八定律得重新理解：80% 的代码可以让 AI 写，但那 20% 的关键代码决定了系统的成败。</p><p data-pid=\"XnwMZyVF\">这 20% 通常是什么？核心算法逻辑、并发控制、错误处理和恢复、安全相关代码、性能关键路径。</p><p data-pid=\"HlMXfSez\">你应该专注的是：需求理解与问题建模、系统设计与决策、质量把关与审查、技术选型与权衡、跨团队沟通协调。</p><p data-pid=\"qOEEO-WI\">AI 可以辅助的是：代码生成与补全、方案分析与对比、测试用例生成、文档整理与查询、配置生成与调参。</p><p data-pid=\"WMyUpx6H\">注意这里有个重要变化：这不是&#34;你干什么，AI 干什么&#34;的简单分工，而是&#34;你负责什么，AI 辅助什么&#34;的协作关系。</p><p data-pid=\"Zf5Mgajt\">AI 可以帮你做系统设计的分析，但设计决策的责任是你的。AI 可以帮你写代码，但代码上线后出了问题，还是你负责。</p><h3><b>6.2 费曼学习法的升级</b></h3><p data-pid=\"flcppgXp\">费曼学习法的核心是用大白话解释复杂概念。能讲清楚，说明真的懂了。</p><p data-pid=\"fXIdYWiE\">AI 时代可以给这个方法升级：让 AI 帮你整理某个技术的核心概念，然后用自己的话重新解释。解释不清楚，说明还没真正理解，那就针对性地深入学习那个点。最后把你的理解记下来，形成自己的知识索引。</p><p data-pid=\"-M7dINub\">这比传统的费曼学习法效率更高，因为 AI 帮你跳过了&#34;收集整理资料&#34;的环节。</p><p data-pid=\"PNhHzGo-\">但有一点要特别注意：别让 AI 替你&#34;理解&#34;。如果只是复述 AI 的输出，却不能用自己的话重新组织，说明还没真正内化。</p><hr/><h2><b>七、核心竞争力</b></h2><p data-pid=\"gD51PpBC\">说了这么多，AI 时代程序员的核心竞争力到底是什么？</p><h3><b>7.1 四项关键能力</b></h3><p data-pid=\"BOSlk7gi\"><b>第一个是逻辑思考与问题建模能力。</b></p><p data-pid=\"xfsmFDLr\">AI 擅长答题，但不擅长出题。</p><p data-pid=\"mip_Rnmf\">现实工程中的问题往往是这样的：需求模糊甚至相互打架、约束条件藏着掖着还不断变化、技术、业务、组织目标搅在一起。</p><p data-pid=\"HIQ-PYKb\">这时候你的核心价值就体现出来了：抽象问题本质、拆解复杂系统、识别关键约束和主要矛盾。</p><p data-pid=\"WaLWFdFS\">逻辑思考能力决定了你向 AI 提问的质量。提问质量的天花板，取决于人的思考深度，而不是模型能力。</p><p data-pid=\"18dW5zCY\"><b>第二个是系统性思维：从&#34;写功能&#34;到&#34;做系统&#34;。</b></p><p data-pid=\"WSxDrv4H\">AI 能写函数、生成模块，但系统的责任仍然在工程师肩上。</p><p data-pid=\"1eUAFoit\">系统性思维体现在几个方面：是否理解组件之间的依赖关系、是否考虑系统的可演进性和维护成本、是否在性能、稳定性、复杂度之间做出合理权衡。</p><p data-pid=\"5Niu0mgo\">优秀的软件工程师关心的是：系统为什么要这样设计、什么条件下会出问题、规模、流量、组织变化时怎么演进。</p><p data-pid=\"0Qib-eso\">系统不是代码的堆砌，而是决策的结果。</p><p data-pid=\"ogRLxCY4\"><b>第三个是与 AI 高效协作的能力。</b></p><p data-pid=\"MYlJIjWT\">这是个新兴但越来越重要的能力。</p><p data-pid=\"Ut6NRwA8\">知道什么任务适合交给 AI、什么得自己来。能写出高质量的 prompt，拿到更好的输出。能快速判断 AI 输出的质量，识别错误和幻觉。能在 AI 辅助下，完成比以前更复杂的任务。</p><p data-pid=\"esqvVaBO\">未来的高手，不是跟 AI 比谁写代码快，而是谁能更好地驾驭 AI。</p><p data-pid=\"cQzfaIZL\"><b>第四个是 AI 审核与调试能力。</b></p><p data-pid=\"yb6dopQ1\">这是前面详细讨论的内容，这里再强调一下它的重要性：能识别 AI 输出中的错误和幻觉、能高效调试 AI 生成的代码、有阅读复杂源码的底子，作为审核的基础。</p><h3><b>7.2 能力的长期价值判断</b></h3><p data-pid=\"tqUXjDoo\">怎么判断一个能力有没有长期价值？问自己两个问题：</p><p data-pid=\"caqmul2m\">这个能力的输出，需要承担责任和后果吗？需要的话，短期内不会被完全替代；不需要的话，可能很快被替代。</p><p data-pid=\"MHJlJNag\">这个能力需要理解上下文和约束吗？需要的话，AI 很难完全覆盖；不需要的话，AI 能做得很好。</p><p data-pid=\"M7WoZSN-\">举几个例子：写一个排序函数，不需要担责，也不需要上下文，AI 能做得很好。整理技术文档，不需要担责，部分需要上下文，AI 能辅助，但人得审核。设计系统架构，需要担责，也需要上下文，AI 能辅助，但人得做决策。技术选型也一样。处理线上故障，需要担责，也需要上下文，AI 能辅助，但人得主导。</p><hr/><h2><b>八、实践指南</b></h2><h3><b>8.1 日常学习工作流</b></h3><p data-pid=\"xvytU86g\">我总结的日常学习工作流是这样的：遇到新技术，先扫一眼知识导图，建立框架认知。需要用的时候，看精炼笔记，抓住核心要点。碰到问题时，问 AI 再查详细资料，按需深入。问题解决后，记录踩坑经验，形成自己的知识资产。定期复习，唤醒遗忘的知识，保持索引有效。持续深耕，在选定领域保持深度学习，每周固定时间投入。</p><h3><b>8.2 不同内容的处理方式</b></h3><p data-pid=\"apsAaxr6\">不同类型的内容，处理方式也不一样。</p><p data-pid=\"dXIjAxbt\">技术新闻：快速浏览，判断是否与自己相关。大多数热点看个标题就够了，但重要的技术趋势和安全公告值得深入了解。</p><p data-pid=\"U2OwDNFH\">入门教程：快速过一遍，建立框架，别逐字逐句记笔记。</p><p data-pid=\"gZjt3bAV\">官方文档：熟悉结构，需要时查阅，别指望全记下来。</p><p data-pid=\"qs6Leh8X\">源码分析：带着问题看，训练审核直觉，别为了看而看。</p><p data-pid=\"UksQzT_S\">实战项目：认真做，记录踩坑经验，别做完就抛脑后。</p><p data-pid=\"CcZqrqLr\">深耕领域：关掉 AI，从源码和论文学，别图省事走捷径。</p><h3><b>8.3 知识管理建议</b></h3><p data-pid=\"xGSPhWG9\">关于知识管理，我有几点建议：</p><p data-pid=\"XLIIAmku\">建立自己的知识索引。不需要记住所有细节，但要知道&#34;这个问题去哪找答案&#34;。</p><p data-pid=\"0Qn5mL-L\">重视踩坑记录。你踩过的坑，才是真正的知识资产。AI 给的答案可能是错的，但你验证过的经验是对的。</p><p data-pid=\"wggnQruZ\">定期清理和更新。过时的知识该归档就归档，别污染当前的认知。核心框架要时常复习，保持清晰。</p><p data-pid=\"VYD9LP7X\">用输出倒逼输入。写博客、做分享、教别人。输出是检验理解程度的最好方式。</p><hr/><h2><b>九、写在最后</b></h2><p data-pid=\"X3vLVtOA\">AI 正在改变我们的工作方式，这是事实。</p><p data-pid=\"cyzZQo_M\">但这不是头一回技术变革了。回顾历史：编译器出现时，有人担心&#34;不需要写汇编了&#34;；高级语言普及时，有人担心&#34;编程门槛太低了&#34;；低代码平台兴起时，有人说&#34;不需要程序员了&#34;；AI 编程工具普及了，又有人说&#34;程序员要被取代了&#34;。</p><p data-pid=\"EYeKsIjN\">结果呢？每一次变革，都是让低价值的工作被替代，高价值的工作变得更重要。</p><p data-pid=\"GQzCdxZf\">AI 时代也一样。正在被替代的是重复性编码、文档搬运、简单配置。正在变得更重要的是系统思维、问题定义、决策判断、跨领域整合。</p><p data-pid=\"dGKyXCDI\">所以与其焦虑&#34;会不会被取代&#34;，不如想想&#34;怎么让自己更有价值&#34;。</p><p data-pid=\"3dvKryNx\">快学的核心理念，就是帮你：用更少的时间建立更完整的知识框架——快学解决广度。在关键领域保持深度穿透——深耕解决深度。具备审核和调试 AI 输出的能力——AI 审核力解决质量。在 AI 的帮助下，成为更有竞争力的技术人。</p><hr/><h2><b>附录：学习资源</b></h2><p data-pid=\"tn3T3svM\">关于学习资源，简单提几点：</p><p data-pid=\"iLxVEsxz\">AI 工具，包括编程助手和对话工具。选适合自己工作流的，关键是用起来。</p><p data-pid=\"4qPCFjvN\">知识管理工具，比如 Obsidian、Notion。建立个人知识库，形成自己的索引体系。</p><p data-pid=\"gQk5-xE8\">框架学习，官方文档加 AI 解读。先用 AI 建立框架，再查文档补细节。</p><p data-pid=\"pfefCW8H\">深度学习，源码阅读加实战项目。深耕领域，关掉 AI，靠时间和实践堆。</p><p data-pid=\"XTCpFnqH\">技术视野，Hacker News、InfoQ 这些。保持对技术趋势的感知，但别被热点牵着鼻子走。</p><p data-pid=\"DACzs_n0\">审核训练，成熟开源项目的源码。Redis、Nginx、Linux 内核，用来磨练审核直觉。</p><hr/><p data-pid=\"qpUaIsHF\">快学不是速成，而是用正确的方式学习。</p><p data-pid=\"e98RMNM6\">广度靠快学，深度靠深耕，质量靠审核。</p><p data-pid=\"a3Lk_LNX\">真正的竞争力，来自你能扛责任、做判断、创造价值的能力。</p><hr/><blockquote data-pid=\"c_vfyP6H\"><i>作者：Wizard | 转载请注明出处</i><br/><i>文章内容仅供参考，如有疏漏或错误，欢迎指正交流。本人深耕互联网大厂多年，专注于大数据开发与架构设计，期待与志同道合的朋友一起探讨技术、共同成长。欢迎关注公众号 【</i>DataEngineering】<i>，获取更多技术干货，也可以在那里找到我的联系方式，随时交流！</i></blockquote>",
+        "visited_count": 30,
+        "id": "1995874107854700583",
+        "created": 1768634196,
+        "voting": 0,
+        "preview_type": "default",
+        "favorite_count": 5,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-b0c6c7736cbb867fb986b6345689549b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 0,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/4a87c8fca2235a333afa670d3fe05ebf",
+          "user_type": "people",
+          "name": "Wizard",
+          "is_followed": false,
+          "id": "4a87c8fca2235a333afa670d3fe05ebf",
+          "url_token": "xiang-shang-36-62",
+          "headline": ""
+        },
+        "title": "AI 时代，技术人怎么学？",
+        "voteup_count": 1
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995874107854700583}",
+      "attached_info": "CtIHCMyzwYOd8dimrwEQBxoJMjY5MTY1MTIzINTurMsGKAEwAEBHSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMRIBMBgAIAA6AEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AGIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU4NzQxMDc4NTQ3MDA1ODOqAQlyZWNvbW1lbmTCASA0YTg3YzhmY2EyMjM1YTMzM2FmYTY3MGQzZmUwNWViZvIBCggMEgZOb3JtYWzyASgIChIkYmUxYWM5MzQtODJhMC00N2Q5LTg3N2ItMGFiZjczM2JmYjJj8gEGCAsSAjEyggIAiALE4/LpvDOSAiA0YTg3YzhmY2EyMjM1YTMzM2FmYTY3MGQzZmUwNWViZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhpDb250ZW50V2FybVVwSXNvbGF0aW9uUnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDHoAgP6AgtOT1JNQUxfRkxPV4oDIDE5NDM0Yzg5YTRjMDQyZWZhZWFhMTE0YTE2Yzc5Y2Q5mgMNCgJ2MhAAGgVvdGhlcqgDHtgDAOoDIHdhcm11cFR3b1Rvd2VyVGV4dE5vcm1hbFJlY2FsbGVy+gPbARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEPgPGJUDIiN2Mi0yOGE5N2NiODEwZmVjM2UwY2IxOTRkMGFkNjhmN2FlMjotCAMQ2wgYxAEiI3YyLTAyYjA0ZTM5ZTYzNWRhZjY2ODdjMDE1Y2M1MDQ1M2VmOi0IAxDRBxiKASIjdjItNWFkOThjMmY1ZDFjMzNiOGI2ZTJkYTc3NmQ4NTNlMmQ6LQgCEOQGGMYBIiN2Mi00NDc5ZmExOTY5ZjU5NTEyMzVlNjAxZWNiN2UyNDU3OYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoD0chz+BBQAAAAAAAAAAiQVt3ZKmJgu0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZJqAYAkgIuCgkyNjkxNjUxMjMSEzE5OTU4NzQxMDc4NTQ3MDA1ODMYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=71&desktop=true&end_offset=73&page_number=13&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=71&desktop=true&end_offset=73&page_number=13&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

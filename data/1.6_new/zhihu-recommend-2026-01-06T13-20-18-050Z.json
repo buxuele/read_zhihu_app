@@ -1,0 +1,773 @@
+{
+  "data": [
+    {
+      "id": "90_1767705679.123",
+      "type": "feed",
+      "offset": 90,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705679,
+      "updated_time": 1767705679,
+      "target": {
+        "voteup_count": 69101,
+        "thanks_count": 4973,
+        "is_copyable": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-b0675e7bb0ee7a1b2bab0e800b09fc66_720w.jpg?source=b6762063",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "reaction_instruction": {
+          "REACTION_COMMENT_NEWEST_LIST": "HIDE"
+        },
+        "url": "https://api.zhihu.com/answers/3365209009",
+        "preview_text": "",
+        "navigator_vote": false,
+        "preview_type": "default",
+        "favorite_count": 23372,
+        "id": "3365209009",
+        "type": "answer",
+        "comment_count": 1934,
+        "excerpt": "不比远了，最近这个说法，你认可吗？",
+        "visited_count": 3340163,
+        "answer_type": "normal",
+        "author": {
+          "is_followed": false,
+          "user_type": "people",
+          "headline": "嘤其鸣矣，求其友声。相彼鸟矣，犹求友声。",
+          "is_org": false,
+          "is_following": false,
+          "avatar_url": "https://picx.zhimg.com/50/v2-63881eddac6f70b58e7b5168c9dd032f_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 846,
+          "id": "86715a530cd08ff2410bdd71f490b52b",
+          "url": "https://api.zhihu.com/people/86715a530cd08ff2410bdd71f490b52b",
+          "url_token": "tian-qi-92-3",
+          "name": "人间清欢"
+        },
+        "updated_time": 1705434075,
+        "question": {
+          "follower_count": 0,
+          "is_following": false,
+          "type": "question",
+          "created": 1672578311,
+          "bound_topic_ids": [
+            1740,
+            28843,
+            183396
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "id": "576129075",
+          "answer_count": 0,
+          "detail": "",
+          "author": {
+            "headline": "接推文       微博同名",
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/49e842c672333512d4a35614b1cc29db",
+            "user_type": "people",
+            "url_token": "--21-43-78-96",
+            "name": "小王贼文静",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-68489c1272aa472c63f95626d9443e68_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "id": "49e842c672333512d4a35614b1cc29db"
+          },
+          "excerpt": "",
+          "comment_count": 66,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/576129075",
+          "title": "十年寒窗苦比不上三代从商吗?"
+        },
+        "excerpt_new": "不比远了，最近这个说法，你认可吗？",
+        "content": "<p data-pid=\"hujMB2Ty\">不比远了，最近这个说法，你认可吗？</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d507bb0e0c422c7bbe573ef9b01e26ee_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1687\" data-size=\"normal\" data-original-token=\"v2-f0816afd4379c28ab084dfc20ff9eb13\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-1a411514e5bee717a57cd54619a75d3f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-d507bb0e0c422c7bbe573ef9b01e26ee_r.jpg\"/></figure><p></p>",
+        "created_time": 1705433747,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-b0675e7bb0ee7a1b2bab0e800b09fc66_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3365209009}",
+      "attached_info": "CqQGCOfporrDn4yvqAEQBBoJNjQxOTMyMTcwIJO1m60GKO2bBDCOD0BaSjkKJ1RTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfUkVBRBIINDE5NDU4MjkYACAAOgBaCDkwMzEwMTQ2YiBlYWVhNTQwNjZjODE5YTZhNzliOWZjYmUxZDkyMjMzNHIKMzM2NTIwOTAwOYoBCTU3NjEyOTA3NaoBCXJlY29tbWVuZMIBIDg2NzE1YTUzMGNkMDhmZjI0MTBiZGQ3MWY0OTBiNTJi8gEKCAwSBk5vcm1hbPIBKAgKEiQ5NTJhYmNiOC1kZjFjLTQ2MTktYmMwNC1lOGNkOGZlYjQwOTDyAQYICxICMTaCAgCIApis4Ju5M5ICIDg2NzE1YTUzMGNkMDhmZjI0MTBiZGQ3MWY0OTBiNTJimgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCJ1RTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfUkVBROgCAvoCC05PUk1BTF9GTE9XigMgMTRhYTA4YTc5NTI4NGUwN2I0YjAyZTdkZmIzOGY1NDeaAw0KAnYyEAAaBW90aGVyqAOD78sB2AMA6gMbZmlyc3REZWdyZWVVc2VyUmVhZFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuAgYlw0iI3YyLWYwODE2YWZkNDM3OWMyOGFiMDg0ZGZjMjBmZjllYjEzgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE1N8gEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgDZftT+BBQAAAAAAAAAAiQVbcQSw/n+yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUQkAYAoAZbqAYBkgIlCgk2NDE5MzIxNzASCjMzNjUyMDkwMDkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "91_1767705679.45",
+      "type": "feed",
+      "offset": 91,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705679,
+      "updated_time": 1767705679,
+      "target": {
+        "favorite_count": 8,
+        "vote_next_step": "vote",
+        "author": {
+          "id": "3efe8b0765307a2e2c87206c3c30e97b",
+          "name": "炼庵",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f91fea35d94bf05f98627b3d6540fb23_l.jpg?source=b6762063",
+          "is_followed": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "教师资格证持证人"
+            }
+          ],
+          "followers_count": 710,
+          "url": "https://api.zhihu.com/people/3efe8b0765307a2e2c87206c3c30e97b",
+          "user_type": "people",
+          "url_token": "24-44-33-23",
+          "headline": "爱写长文，一篇书法干货动辄上万字（创作已超50万字）。",
+          "is_org": false,
+          "gender": -1,
+          "is_following": false
+        },
+        "reshipment_settings": "disallowed",
+        "visited_count": 126,
+        "id": "1990797301007005342",
+        "voteup_count": 6,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-09ff2468a6aecfcd20e99c87814456c2_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-a72095885a47caeb2310c28de8abbc04_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-9a23bb07f0d68a45fc1a8c85e883ff69_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-59e2841e17a9bed33be2c173eaa33578_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f6d3dfd7013256ef81010ce73cb52c4b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-69cdfef0f9dc987a608fafa9ec499501_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-47444dbeaba6c7e02617d680c96600d5_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e356edd33934a8e269f738234d0a8e47_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-033394312cd0a5c3a63d66f99e5b2b5b_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "excerpt": "1.总说 省流：笔法主要分“执笔法”与“用笔法”。其中，执笔法包含：身法、指法、腕法、三要素（高低、松紧、远近）、五把笔；用笔法有：永字八法、张旭九用（即‘用笔腕下起伏之法’，简称‘九用’）[1]（见该引第220页）、用笔十三锋、密论十二法。温馨小提示：该文论约12000字，涉及执笔法（包括身法、指法、腕法等）、用笔法（包括永字八法、张旭九用等）的相关书法理论解析。预计阅读仅需14~23分钟，请读者朋友合理按排时…",
+        "content": "<h2><b>1.总说</b></h2><p data-pid=\"EFSA1yH6\"><b>省流：</b>笔法主要分“<b>执笔法</b>”与“<b>用笔法</b>”。其中，执笔法包含：身法、指法、腕法、三要素（高低、松紧、远近）、五把笔；用笔法有：永字八法、张旭九用（即‘用笔腕下起伏之法’，简称‘九用’）<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\" data-text=\"华东师范大学古籍整理研究室 选编校点《历代书法论文选》，上海书画出版社，2014年，第6-884页。\" data-url=\"\">[1]</sup>（见该引第220页）、用笔十三锋、密论十二法。</p><p data-pid=\"YcSOlFA9\">温馨小提示：该文论约12000字，涉及执笔法（包括身法、指法、腕法等）、用笔法（包括永字八法、张旭九用等）的相关书法理论解析。预计阅读仅需14~23分钟，请读者朋友合理按排时间浏览。<b>笔者建议您先收藏或转发哦</b>。</p><blockquote data-pid=\"wXHEvEnG\">注：文中如“[X]XXX”等标注，其“[X]”为文献序号，而“XXX”为该文献的具体页码，其余引用皆同理（例：[1]11，便是引用文献“1”的第11页原文。若引用未标注具体页码，则该文献仅为笔者参考，文中所引之语为笔者概括之意）。</blockquote><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0b2bc66b93bced9c7c640c940ea47e1b_1440w.jpg\" data-rawwidth=\"720\" data-rawheight=\"47\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-0b2bc66b93bced9c7c640c940ea47e1b\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic2.zhimg.com/v2-0b2bc66b93bced9c7c640c940ea47e1b_r.jpg\"/></figure><h2>2执笔法</h2><h3>2.1身法</h3><p data-pid=\"ajpJ05On\"><b>2.1.1站姿书写</b></p><p data-pid=\"9mGD1VMO\">身体须摆正放松，双脚平放地面，站立桌沿适当距离。双肩自然齐平、不耸肩、不含胸（身体可稍微前倾）。执笔时，一手悬肘悬腕，使笔毫垂直于下，另一手则自然压桌、压纸。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-09ff2468a6aecfcd20e99c87814456c2_1440w.jpg\" data-rawwidth=\"904\" data-rawheight=\"924\" data-size=\"normal\" data-original-token=\"v2-09ff2468a6aecfcd20e99c87814456c2\" class=\"origin_image zh-lightbox-thumb\" width=\"904\" data-original=\"https://pic3.zhimg.com/v2-09ff2468a6aecfcd20e99c87814456c2_r.jpg\"/><figcaption>▲笔者草绘，诸君将就看哈。</figcaption></figure><p data-pid=\"xGxHbqYi\"><b>2.1.2坐姿书写</b></p><p data-pid=\"f4o4hUHZ\">身体摆正放松，双脚平放地面，坐近桌沿，离案约一拳。双肩亦须自然齐平、不耸肩、不含胸（身体稍微前倾）。执笔时，可配用悬腕、提腕或枕腕（见下文2.3腕法）。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a72095885a47caeb2310c28de8abbc04_1440w.jpg\" data-rawwidth=\"1044\" data-rawheight=\"748\" data-size=\"normal\" data-original-token=\"v2-a72095885a47caeb2310c28de8abbc04\" class=\"origin_image zh-lightbox-thumb\" width=\"1044\" data-original=\"https://pic3.zhimg.com/v2-a72095885a47caeb2310c28de8abbc04_r.jpg\"/><figcaption>▲坐姿图示</figcaption></figure><p data-pid=\"u3YajsYX\"><b>2.1.3注意事项</b></p><p data-pid=\"0JjRkNfP\">书写时，双脚重心需分布均匀。颈椎、胸椎、脊柱等不要过度弯曲。站姿书写，桌面不宜过低；坐姿书写时，不要靠在椅背上。同时，无论站姿或坐姿，书写时都切忌弯腰驼背，或身体呆板僵直。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"56\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88bcdf62f083b7496a369dbc64b06719\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_r.jpg\"/></figure><h3>2.2指法（五指执笔法：擫、押、钩、格、抵）</h3><p data-pid=\"ArJXdn65\">宋人钱若水说“古之善书鲜有得笔法者，唐陆希声得之，凡五字：擫（音夜，笔者注）、押、钩、格、抵。自言出自二王，斯与阳冰得之。”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\" data-text=\"宋）朱长文 撰《墨池编》墨池编卷二 《唐陆希声传笔法》，四库全书本，第11-15页。\" data-url=\"\">[2]</sup>（见引文卷二《唐陆希声传笔法》第14-15页）五指搭配共执，即“五指执笔法”。此五字是指法的简称，故而亦称“五字执笔法”（见下图）。</p><p data-pid=\"6XeDyk9Z\"><b>2.2.1擫（音页）法</b></p><p data-pid=\"a4ScNlwS\">《说文》“擫，一指按也。”此处为指头轻按，以拇指作用。即执笔时以拇指之肚贴紧笔管，如按萧孔，如做“比心”手势，由内而外的发力。</p><p data-pid=\"TES_LjRX\"><b>2.2.2押法</b></p><p data-pid=\"sWh-JLCd\">“押”有约束、管束之意，亦作压。以食指作用。即用食指第一指节贴住笔管外侧，和拇指相对配合（亦如“比心”手势），由外向内的发力，约束（捏住）笔管。</p><p data-pid=\"3JTl0Y-L\"><b>2.2.3钩法</b></p><p data-pid=\"gZTlDbAw\">“钩”是以中指作用。即在拇指“擫”，配合食指“押”的前提下，弯曲中指的第一、二指节，如钩般由外向内发力，钩住笔管外侧。</p><p data-pid=\"0t5ThaM5\"><b>2.2.4格法</b></p><p data-pid=\"rB2cJ-Tw\">“格”有格挡之意，亦称揭。以无名指作用。即以无名指弯曲，指甲贴住笔管，由内而外的发力，格挡住中指的“钩”。</p><p data-pid=\"NaeZ11dL\"><b>2.2.5抵法</b></p><p data-pid=\"69IFXZOO\">“抵”有支撑之意，力如擎天。以小指作用。即以小指增加力量，来支撑无名指“格”住中指的“钩”。</p><p data-pid=\"qabGxmXv\"><b>执笔要领：</b>笔者以为，运笔想要稳便、灵活，须得：“直管、实指、虚掌、竖撑、平腕”。直管，即使笔管垂直于纸面、笔毫垂直于下；实指，即虎口张开，五指配合握实笔管（指头之间要相互靠拢，执笔要轻松而不松散）；虚掌，即掌心虚空，如握圆球（五指都不贴到掌心）；竖撑，即手掌自然竖立支撑；平腕，即手腕平行于桌面。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9a23bb07f0d68a45fc1a8c85e883ff69_1440w.jpg\" data-rawwidth=\"780\" data-rawheight=\"768\" data-size=\"normal\" data-original-token=\"v2-9a23bb07f0d68a45fc1a8c85e883ff69\" class=\"origin_image zh-lightbox-thumb\" width=\"780\" data-original=\"https://pic4.zhimg.com/v2-9a23bb07f0d68a45fc1a8c85e883ff69_r.jpg\"/><figcaption>▲五指执笔法：擫、押、钩、格、抵</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"56\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88bcdf62f083b7496a369dbc64b06719\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_r.jpg\"/></figure><h3>2.3腕法</h3><p data-pid=\"b8otg2cf\">枕腕：按“以左手枕右手腕”。通常指执笔手腕枕靠在左手腕上，有时仅以执笔手腕枕靠于桌面，亦或使用“臂搁”（腕枕）协助书写。</p><p data-pid=\"zieY0VFc\">提腕：按“肘著案而虚提手腕”。即以手肘作为支撑，上提执笔手腕，使腕不倚靠任何物体。</p><p data-pid=\"DfMwd98a\">悬腕：按“悬著空中最有力”。即在“提腕”的同时，手肘亦离开桌面，悬于半空。</p><p data-pid=\"CFZa_kwD\">注：以上三“按”皆引自《书史会要》<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\" data-text=\"（元）陶宗仪 撰、（明）朱谋堙 撰《书史会要》书史会要卷九《右指法》，四库全书本，第35页。\" data-url=\"\">[3]</sup> </p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-15253c4397ad95670b274cfbf459a946_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"343\" data-size=\"normal\" data-original-token=\"v2-15253c4397ad95670b274cfbf459a946\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-15253c4397ad95670b274cfbf459a946_r.jpg\"/><figcaption>▲枕腕、提腕、悬腕图示</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"56\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88bcdf62f083b7496a369dbc64b06719\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_r.jpg\"/></figure><h3>2.4执笔三要素</h3><p data-pid=\"CtBn8qIc\">唐人孙过庭《书谱》载“执，谓深浅长短之类是也。”[1]128</p><p data-pid=\"Yj7ZlvB6\">“深浅”即执笔高低。“长短”为执笔的远近。姜夔《续书谱》有“大抵要执之欲紧，运之欲活，不可以指运笔，当以腕运笔。”[1]388之语。米南宫在《自叙帖》中则提到“把笔轻，自然手心虚，振迅天真”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\" data-text=\"（宋）米芾 撰《宝晋英光集》宝晋英光集卷八 《书吕溱事》，四库全书本，第5页。\" data-url=\"\">[4]</sup>。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3814dd48bd644832a84af8dfead9540a_1440w.jpg\" data-rawwidth=\"2042\" data-rawheight=\"1024\" data-size=\"normal\" data-original-token=\"v2-59e2841e17a9bed33be2c173eaa33578\" class=\"origin_image zh-lightbox-thumb\" width=\"2042\" data-original=\"https://pica.zhimg.com/v2-3814dd48bd644832a84af8dfead9540a_r.jpg\"/><figcaption>米芾《自叙帖》（局部）</figcaption></figure><p data-pid=\"01dCqwQj\"><b>2.4.1高低</b></p><p data-pid=\"QFsd8IXR\"><b>执笔的高低，即运用“格”法的无名指与笔头之间的距离</b>。东晋卫夫人说：“若真书，去笔头两寸一分，若行草书，去笔头三寸一分，执之。”[1]22唐虞永兴说：“笔长不过六寸，捉管不过三寸，真一、行二、草三，指实掌虚。”[1]111笔者总结两者所言如下：</p><p data-pid=\"B3oR4o8D\">（1）小楷</p><p data-pid=\"M4O-CE8d\">通常说来，书写字形较小的字，执笔要低一些，约离笔头一寸（约3厘米）左右。这个高度执笔较舒适，自由不拘束（注意点画勿太拥挤）。</p><p data-pid=\"NoQK-cAM\">（2）中楷及大楷</p><p data-pid=\"lMsPljsX\">相较于小楷而言，中、大楷字形范围大，故书写时，执笔应稍高，约二寸（约6厘米）左右。这样的高度有助于把握字形，且有效适应书写范围变化的同时，还能使书写有更多的伸展空间（注意结构勿要过于松散）。</p><p data-pid=\"m1xqVN_U\">（3）行草及大草</p><p data-pid=\"diNziYBB\">行草及大草的执笔得更高些，大约三寸（约9厘米）左右。毕竟较高的执笔位置，可以提供更大的书写空间，便于臂腕的发挥（注意下笔勿显轻浮）。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a4a7d2c7450152d2df85dd7fe0553111_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"305\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-a4a7d2c7450152d2df85dd7fe0553111\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-a4a7d2c7450152d2df85dd7fe0553111_r.jpg\"/></figure><p data-pid=\"Rgs01f6X\"><b>2.4.2松紧</b></p><p data-pid=\"6Ez28LA1\">试举几例，诸君一看便知。《晋书·王羲之传》载，大令幼年习字时“羲之密从后掣其笔不得”，因此王羲之赞叹说：“此儿后当复有大名。”这个典故在后世，被不少人解读成了“执笔要愈紧愈牢才好”的优秀案例。直到唐中期，张敬玄提出了不一样的看法，云“运腕不可太紧，紧则腕不能转，而字体粗细上下不均。”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\" data-text=\"（元）盛熙明 撰《法书考》法书考卷之三 《笔法》，四部丛刊续编景钞本，第1页。\" data-url=\"\">[5]</sup>《拨镫序》中卢肇以“殊不知用笔之力，不在于力；用于力，笔死矣。”[1]289-290表明他也不赞成“用紧”之说；苏轼则更为自由，主张“把笔无定法，要使虚而宽。”[1]314或松或紧，诸君朋友以为该如何？</p><p data-pid=\"3Qdd2Eb2\">其实执笔之松紧，是带有浓烈的书家个人经验与风格的，因人而异，实不好定论。不过笔者以为：<b>执笔须紧</b>，这样才不至于任笔自坠，如董其昌《画禅室随笔》之“提得笔起”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\" data-text=\"李彤 编著《历代经典书论释读》，东南大学出版社，2015年，第248页。\" data-url=\"\">[6]</sup>是也；而<b>使笔须松</b>，这样才能不使字形死板僵硬，如米南宫之“振迅天真”是也。</p><p data-pid=\"Z7v_v8aj\"><b>2.4.3远近</b></p><p data-pid=\"U2L9X7Fg\">执笔的远近，即书写过程中，笔管与掌心的距离（由手指弯曲程度决定）。</p><p data-pid=\"RM2YzsO3\">若执笔远，笔管与掌心的距离较大（呈笔头向前，杆尾向后状），书写的幅度、及运笔的速度会有所提升。这能使字形更加灵动飘逸、自由洒脱。通常可用于行、草书。</p><p data-pid=\"BYQ0SPfD\">若执笔近，笔管与掌心的距离较小（呈笔头向后，杆尾向前状），能更好的控制笔画的力度和准确度。这有助于控制笔画的稳定性，使其显得庄重、淳厚。通常适用于楷书。</p><p data-pid=\"gQItweJ6\">但每人的书写习惯不同，因而实际操作中，当根据个人舒适度来进行微调。愚以为最重要的是：书写时，手和腕都要舒适放松，不疲劳僵硬方能“活笔”。故而可选“适中”距离执笔。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c46b50ead8ba55d6e4ecf6421200eef6_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"454\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-c46b50ead8ba55d6e4ecf6421200eef6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-c46b50ead8ba55d6e4ecf6421200eef6_r.jpg\"/></figure><p data-pid=\"bpH6pXRY\"><b>小结：</b>约言之，执笔的高、低可合理改变字形大小；执笔的松、紧可决定手腕是否灵活，线条是否呆板；执笔的远、近会影响到书写的稳定性和控制性。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"56\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88bcdf62f083b7496a369dbc64b06719\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_r.jpg\"/></figure><h3>2.5五把笔（<b>执管、扌族管、撮管、握管、搦管</b>）</h3><p data-pid=\"arCJG6CU\">（注：“扌族”，音浊。在《康熙字典》中可以查询，但目前输入法不能直接打出该字。韩方明《授笔要说》载“‘扌族’管，亦名拙管。”故以下皆用“拙管”代替。）</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f6d3dfd7013256ef81010ce73cb52c4b_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1605\" data-size=\"normal\" data-original-token=\"v2-f6d3dfd7013256ef81010ce73cb52c4b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-f6d3dfd7013256ef81010ce73cb52c4b_r.jpg\"/><figcaption>▲“扌族”字说明及《授笔要说》图示（见《历代书法论文选》）</figcaption></figure><p data-pid=\"Lsi9z3ow\">韩方明记录了五种执笔的方法，曰：“执管、拙管、撮管、握管、搦（音诺）管”[1]286，简称“五把笔”。（以下除另注外，均引自韩方明《授笔要说》）</p><p data-pid=\"H1hIhPOP\"><b>2.5.1执管</b></p><blockquote data-pid=\"06nN7Omz\">“即以双指苞管，亦当五指共执”。</blockquote><p data-pid=\"s01QhK3W\">释义：“双指苞管”即“双苞”，亦称“双钩”。黄庭坚云：“凡学字时，先当双钩，用两指相叠，蹙笔压无名指。”[1]357即以拇指擫管，食指与中指相叠（押、钩法）钩住笔管，无名指与小指，抵挡与承载住“押、钩”之力。故执管的“五指共执”即是上述“五字执笔法”。韩方明称此法：“妙无所加也”。</p><p data-pid=\"3pKX9h4n\"><b>2.5.2拙管</b></p><blockquote data-pid=\"LkGGmcmI\">“亦名拙管。谓五指共‘扌族’其管末。”</blockquote><p data-pid=\"jK1G6BWA\">释义：此法即五指向下合捉笔管末端，使笔如吊。韩方明告诫：“……无体之书，或起藁（稿）草用之……慎不可效也”。这是打草稿的执笔方法，学书朋友千万谨慎，勿要用于正式书写。</p><p data-pid=\"CXraP7f-\"><b>2.5.3撮管</b></p><blockquote data-pid=\"LeBnV35v\">“谓以五指共撮其管末……亦与拙管同也”。</blockquote><p data-pid=\"BLI19l0o\">释义：《说文》中“一曰，三指撮也。”此法亦用五指头抓取笔管末端，与拙管之法相同。这种执笔法是“惟大草书或书图幛用之”。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-917f947646a506988e5a57fd90c7767c_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"359\" data-size=\"normal\" data-original-token=\"v2-917f947646a506988e5a57fd90c7767c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-917f947646a506988e5a57fd90c7767c_r.jpg\"/><figcaption>▲“执笔”图示一</figcaption></figure><p data-pid=\"ayGOL1A8\"><b>2.5.4握管</b></p><blockquote data-pid=\"LPC2u_0J\">“谓捻拳握管于掌中，悬腕以肘助力书之。”</blockquote><p data-pid=\"M8p62Axk\">释义：握，有“屈指成拳”之义。此法为一把抓住笔管，以肘部运笔，适合书写大字。但韩方明又说：“非书家流所用也”。</p><p data-pid=\"aoxBcPL-\"><b>2.5.5搦管</b></p><blockquote data-pid=\"1j-hh5Ih\">“谓从头指至小指，以管于第一、二指节中搦之，亦是效握管，小异所为。”</blockquote><p data-pid=\"uPsQoea4\">这种方法不过是效仿握管，执法大同小异，不再赘述。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9b1e2c43f793291c36ce66f34797182f_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"359\" data-size=\"normal\" data-original-token=\"v2-9b1e2c43f793291c36ce66f34797182f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-9b1e2c43f793291c36ce66f34797182f_r.jpg\"/><figcaption>▲“执笔”图示二</figcaption></figure><p data-pid=\"23i3S0S9\">小结：以笔者浅见，上述除“执管”外，“拙管、撮管”皆捉管过高。手捉过高，便不易发力，入纸会显漂浮。漂浮便缺乏“筋骨”之体格，文中“无体之书”就是最好的定义；而大草、图幛或可一用，但非日常应用，无长久说服力；捻拳“握管”属掌心紧实，与执笔要领之“虚掌”相背，且运笔时得仰仗臂腕助力，一定状态下会欠缺灵便，力拙之势鲜明。虽南朝王僧虔用之，乃因帝力所迫“异于人故，非本为也”，不可为训；“搦管”更不实用，“亦是效握管，小异所为。”实无可说。<b>简言之，“执管”之外，其余执笔法皆不大实用（或言实际之运用极少），读者朋友只须掌握“执管法”就好，至于其他四法仅作了解即可。</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"56\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88bcdf62f083b7496a369dbc64b06719\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_r.jpg\"/></figure><h2>3用笔说</h2><h3>3.1《永字八法》</h3><p data-pid=\"z8hUKBjX\"><b>3.1.1“八法”总说</b></p><p data-pid=\"ko_BPrel\">（1）起源</p><p data-pid=\"xPj-ZuHt\">“八法”之说，除元人李溥光《雪庵八法》言出自王羲之外，余者皆以为是“起于隶字之始，后汉崔子玉历钟、王已下”[1]219（即崔瑗所创）。</p><p data-pid=\"GL_b1wwD\">文章《永字八法》撰人不祥，而关于“八法”传承的记载，约有三说：</p><p data-pid=\"5oX5IWrR\">一谓张旭“口传手授”（见四库全书本，宋朱长文《墨池编》卷二《张旭传永字八法》）。</p><p data-pid=\"tYz7B2HN\">二盖张怀瓘著书所传（见《墨池编》卷二《唐张怀瓘玉堂禁经》中“用笔法”的记录）。</p><p data-pid=\"XJQfcTwz\">三言智永“授于虞秘监世南”（见四库全书本，宋陈思《书苑菁华》卷二《永字八法》）。</p><p data-pid=\"JJaon62g\">（2）历代“八法”说</p><p data-pid=\"usRv0BJt\">“永字八法”的准确时间不可考，其体系化的发展及完成于唐。张怀瓘说“凡笔大法，点画八体，备于‘永’字。”[1]218李阳冰云“昔逸少工书多载，十五年中偏攻永字，以其备八法之势，能通一切字也。”[1]876北宋朱长文录“张旭唯传‘永’字，后自弘五势，一切字法，无不该矣。”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\" data-text=\"（宋） 朱长文 撰《墨池编》墨池编卷二 《古今传授笔法》，四库全书本，第11-12页。\" data-url=\"\">[7]</sup>陈思载“用笔之术，多于“永”字取法”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\" data-text=\"（宋） 陈思 撰《书苑菁华》书苑菁华卷二十 《翰林转授隐术》，四库全书本，第16页。\" data-url=\"\">[8]</sup>。宋高宗赵构有言：“士于书法，必先学正书者，以八法皆备”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\" data-text=\"（宋） 赵构 撰《思陵翰墨志》，四库全书本，第5页。\" data-url=\"\">[9]</sup>。元僧释溥光“凡习书，必先学永字八法”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"10\" data-text=\"（清） 冯武 撰《书法正传》书法正传卷三 《八法解》，四库全书本，第2页。\" data-url=\"\">[10]</sup>。元佚名《书法三昧》云“凡学必有要，若网在纲，有条而不紊。‘永’字者，众字之纲领也。识乎此，则千万字在是矣。”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"11\" data-text=\"崔尔平 选编校点《历代书法论文选续编》，上海书画出版社2015年版，第213-785页。\" data-url=\"\">[11]</sup>明人丰坊《书诀》有“然后八法完整，左右无病”之说[1]508，清人朱和羹《临池心解》亦有“不能超脱八法之外”[1]736的言语。</p><p data-pid=\"B4s6h1J1\">历代关于“永字八法“的解说恒河沙数般，就上举诸家言论可知，此法具有<b>全面性</b>、<b>实用性</b>、<b>重要性</b>、<b>必要性</b>、以及<b>纲领性</b>。一言以蔽之：“永字八法”实为书学之要塞，是学习书法的必经之路，读者诸君应当重视。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-85e25161fa5992aa2ed552680f70bda8_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"372\" data-size=\"normal\" data-original-token=\"v2-85e25161fa5992aa2ed552680f70bda8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-85e25161fa5992aa2ed552680f70bda8_r.jpg\"/><figcaption>▲“永”字八法图</figcaption></figure><p data-pid=\"ufKvVxGd\"><b>3.1.2“八法”释名（以下引用除另注外，均来自佚名《永字八法》）</b></p><p data-pid=\"7gomIPTK\">永字八法即佚名《永字八法》之：</p><p data-pid=\"M4rgd6NX\">一，点为侧。二，横为勒。三，竖为努。四，挑为趯。五，左上为策。六，左下为掠。七，右上为啄。八，右下为磔……侧不得平其笔，当侧笔就右为之……勒不得卧其笔，中高，两头下，以笔心压之……努不宜直其笔，笔直则无力。立笔左偃而下，最须有力……趯须蹲锋，得势而出，出则暗收锋……策须斫笔，背发而仰收，则背斫仰策也……掠者，拂掠须迅，其锋左出而欲利……意欲畅而婉……啄者如禽之啄物也，卧笔下罨，须疾为胜……磔者……又云䟐笔战行，翻笔转下，而出笔磔之。[1]876-881</p><blockquote data-pid=\"w-D6cVjg\">“一、点为侧，侧不得平其笔，当侧笔就右为之。”</blockquote><p data-pid=\"3z1-4lNW\">释名：“点”在《说文》中解释为“小黑斑”；按《说文》“侧，旁也。”有歪斜之义；“不平其笔右为之”，即指方向是“向右”的。</p><p data-pid=\"Eid5qKws\">简言之：<b>侧笔入纸后，呈现出有方向的小黑斑形态，即为“侧”</b>（左向为“左侧”，右向为“右侧”）。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3d9ab293f57bfb7ddf968d32e9b2a3e1_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"512\" data-size=\"normal\" data-original-token=\"v2-3d9ab293f57bfb7ddf968d32e9b2a3e1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-3d9ab293f57bfb7ddf968d32e9b2a3e1_r.jpg\"/><figcaption>▲“侧”示意图（笔者绘，以下皆是）</figcaption></figure><blockquote data-pid=\"N5MZE4jI\">“二、横为勒，勒不得卧其笔，中高，两头下，以笔心压之。”</blockquote><p data-pid=\"4V3yGhig\">释名：按《说文》“勒，马头络衔也。”乃指马头上系马嚼子的皮革，用于勒马——即拉紧缰绳，使马前奔、缓行、转向、回头、急刹等（有用力、强制、干脆之意）；“不得卧其笔”，即指不偏不倚，直下用笔；笔心压之，指顿笔。</p><p data-pid=\"t3JGNrb2\">简言之：<b>以驭锋（用笔直下）从左往右运笔（须下笔有力，缓而干脆），至端点时顿笔收锋，且与“竖、直、纵”相对的笔画，即为“勒”</b>。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-eb8235cf4586886188b649979c0aef93_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"485\" data-size=\"normal\" data-original-token=\"v2-eb8235cf4586886188b649979c0aef93\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-eb8235cf4586886188b649979c0aef93_r.jpg\"/><figcaption>▲“勒”示意图</figcaption></figure><blockquote data-pid=\"tsxnCJCo\">“三、竖为努，努不宜直其笔，笔直则无力。立笔左偃而下，最须有力。”</blockquote><p data-pid=\"bsJLPLGp\">释名：“竖”在《汉语字典》中，解释为“汉字笔形之一，自上往下。”按《增韵》“努，用力也。”《辞海》中“努”有凸出之义；左偃，即手腕右倾（手腕右转，可目视手心，笔锋自然向左）。</p><p data-pid=\"-col5r7z\">简言之：<b>笔锋入纸时后，手腕右倾自上而下的发力行笔，且使形态有左突出之感的笔画，即为“努”</b>。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-05d96866cecf5b750c274d868b64e67b_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"522\" data-size=\"normal\" data-original-token=\"v2-05d96866cecf5b750c274d868b64e67b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-05d96866cecf5b750c274d868b64e67b_r.jpg\"/><figcaption>▲“努”示意图</figcaption></figure><blockquote data-pid=\"3iG8DLy5\">“四、挑为趯（音替），趯须蹲锋，得势而出，出则暗收锋。”</blockquote><p data-pid=\"2AWRwCiX\">释名：按《说文》“趯，跃也。”有跳跃之义。如人跳跃，必先下蹲，腿部弯曲方能蓄力，故“趯”含蹲锋动作（即笔锋弯曲下按）。且明末冯简缘云“左笔曰趯”，又“永”字的实际书写中“趯”是接在“努”的下方的，笔势更对应了左向出锋。</p><p data-pid=\"kb4XCwuz\">简言之：<b>不能单独出现的、必须依靠其他点画做“蹲锋、存锋”动作的、且出锋方向为左的笔画，即为“趯”</b>。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-003535fce45634b7f24b3635653c7d9c_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"534\" data-size=\"normal\" data-original-token=\"v2-003535fce45634b7f24b3635653c7d9c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-003535fce45634b7f24b3635653c7d9c_r.jpg\"/><figcaption>▲“趯”示意图</figcaption></figure><blockquote data-pid=\"bB9rSiDY\">“五、左上为策，策须斫笔，背发而仰收，则背斫仰策也。”</blockquote><p data-pid=\"yuKKI8Xu\">释名：左上，指明方位从左往上走（见“背、仰”，可知是：往右上行笔）；按《说文》“策，马箠（音垂）也。”即赶马的竹鞭，有挥起之意（即由下往上运动）；《玉篇》“斫，刀斫。”引申为用刀、斧等利器砍击（有用力之义）；背（音贝），有反面、反向之义（指右向）；仰（音养）即朝上，向上，如仰头（有斜义）；简缘又云：“仰笔趯锋，轻抬而进，故曰策。”</p><p data-pid=\"K-VzgphZ\">简言之：<b>下笔以趯锋发力，从左往右上方斜进，边行边提至端点收锋，由此呈现出的笔画形态，即为“策”</b>。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3d3255bc34b2da8279cd525057e2e11b_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"503\" data-size=\"normal\" data-original-token=\"v2-3d3255bc34b2da8279cd525057e2e11b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-3d3255bc34b2da8279cd525057e2e11b_r.jpg\"/><figcaption>▲“策”示意图</figcaption></figure><blockquote data-pid=\"d2y54hGK\">“六、左下为掠，掠者，拂掠须迅，其锋左出而欲利……意欲畅而婉。”</blockquote><p data-pid=\"kr742dS-\">释名：左下即往左下行笔；掠，又名“分发”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"12\" data-text=\"（清） 戈守智 撰、（清） 陆声钟 编《汉溪书法通解》运笔卷第三，乾隆霁云阁刻本，第9页。\" data-url=\"\">[12]</sup>，分发有放、射，分散之义；按《说文》“掠，夺取也。”有快速之义；拂掠有抛、扔之意（指有弧度）；柳子厚《永字八法颂》中“掠，左出而锋轻。”即左下轻快出锋之义；利，指尖锐之义；畅，即没有阻碍地；婉，为柔美。</p><p data-pid=\"5-WcfXTf\">简言之：<b>入纸后果断往左下方轻快出锋，并呈现出分散的，带有顺畅、柔婉之意的弧形笔画，即为“掠”</b>。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-46f59c08a285592d134c78e1fa5edf31_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"495\" data-size=\"normal\" data-original-token=\"v2-46f59c08a285592d134c78e1fa5edf31\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-46f59c08a285592d134c78e1fa5edf31_r.jpg\"/><figcaption>▲“掠”示意图</figcaption></figure><blockquote data-pid=\"_KMwqM1K\">“七、右上为啄，啄者如禽之啄物也，卧笔下罨，须疾为胜。”</blockquote><p data-pid=\"3Qvc5WQK\">释名：冯武《书法正传·八法分论》有“右上左之势为卷啄”之说，即从右上方向左下方行笔；按《说文》“啄，鸟食也。”鸟类用喙取食的动作，含“轻、劲、准”之意境；下罨，即向下掩盖、覆盖之义；《玉篇》“疾，速也。”为快，迅急之义。</p><p data-pid=\"7HlDE4_9\">简言之：<b>从右上方发轻劲、准确之力，快速地向左下行笔出锋，由此呈现出的类似于尖角鸟嘴的笔画，即为“啄”</b>。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-44ed8b63751840cae3006d1097113306_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"519\" data-size=\"normal\" data-original-token=\"v2-44ed8b63751840cae3006d1097113306\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-44ed8b63751840cae3006d1097113306_r.jpg\"/><figcaption>▲“啄”示意图</figcaption></figure><blockquote data-pid=\"f7ffMZSf\">“八、右下为磔（音哲），磔者……又云䟐笔战行，翻笔转下，而出笔磔之。”</blockquote><p data-pid=\"DRkBLqW1\">释名：右下即向右下方行笔；训诂学家段玉裁注《说文》“凡言磔者，开也。张也。”䟐（音利），即轻快行走貌；战，有“颤”义，为抖动（即摇腕铺笔毫）；行，即走或小跑（很快地移动），有前进之义；翻笔，即笔锋换向。</p><p data-pid=\"JQ_gpbYu\">简言之：<b>入纸后笔锋换向，轻快地向右下方摇腕铺毫前进，得出的一个有开、张之势的笔画，即为“磔”</b>。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ae8e7f4f3631d09b1dc7d7b73fd28e9e_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"511\" data-size=\"normal\" data-original-token=\"v2-ae8e7f4f3631d09b1dc7d7b73fd28e9e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-ae8e7f4f3631d09b1dc7d7b73fd28e9e_r.jpg\"/><figcaption>▲“磔”示意图（笔者绘）</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"56\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88bcdf62f083b7496a369dbc64b06719\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_r.jpg\"/></figure><h3>3.2张旭九用</h3><p data-pid=\"Neg43CkF\"><b>注：除另注外，以下“九用”皆引自张怀瓘《玉堂禁经·用笔法》之“用笔腕下起伏之法”（</b>见《历代书法论文选》，上海书画出版社2014年版，第220页<b>）。</b>其中“足存”（音存）字在《康熙字典》中可以查询，但目前输入法不能直接打出该字。故以下皆用“存”字代替。</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-b4cdc5a8097bc0d08438f16d9051c1e7_1440w.jpg\" data-rawwidth=\"312\" data-rawheight=\"140\" data-size=\"small\" data-original-token=\"v2-b4cdc5a8097bc0d08438f16d9051c1e7\" class=\"content_image\" width=\"312\"/><figcaption>▲“足存”字</figcaption></figure><p data-pid=\"IK3m3SpC\"><b>3.2.1顿笔</b></p><blockquote data-pid=\"50gnI2eI\">一曰顿（音盾，笔者注）笔，摧锋骤衄（女六切，笔者注）是也；则弩法下脚用之。</blockquote><p data-pid=\"n7wRXqsc\">解析：在《玉堂禁经》“九用”的记录中，第一个笔法为“顿笔”，可用于竖画的收笔（即“永字八法”中的“努法”）。</p><p data-pid=\"J-paX30-\">按《说文》“顿，下首也。”段玉裁注：“当作顿首也。”即以头叩地，俗称磕头。顿首者先双膝跪下，次手扶地，再以头触地，最后抬头起身站立，就算完成一套磕头动作。简言之，“顿”便是用头对地面做慢速或快速的“下上”运动；《说文》“摧，挤也。”推挤用力之义。又“骤，马疾步也。”有疾速之义。”衄，段玉裁注：“按诸书用挫衄者，缩朒（女六切）字之假借也。缩朒者，退却之意也。”除“退却”（回锋转向）外，朒还有扭义。又“扭”含摇摆转动之义，即四周运动。除此外，“衄”还有住锋暗挼（奴禾切），即停笔揉搓之义（详解见“九用”之六“衄锋”）。</p><p data-pid=\"XUT4BL9v\">简言之，“<b>顿笔</b>”即笔对纸面施力，做快、慢速的提按，或四周摇腕、揉搓等调锋造形动作。此法通常在行笔中途或末尾出现，能使点画更加圆浑有力、饱满流畅。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-927887bcd0aae5a79964210f4c9b7d61_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"601\" data-size=\"normal\" data-original-token=\"v2-927887bcd0aae5a79964210f4c9b7d61\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-927887bcd0aae5a79964210f4c9b7d61_r.jpg\"/><figcaption>▲“顿笔”示意图（笔者绘，以下皆是）</figcaption></figure><p data-pid=\"Vy-XW63A\"><b>3.2.2挫笔</b></p><blockquote data-pid=\"vWOqEK3U\">二曰挫笔，挨锋捷进是也；下三点皆用之。</blockquote><p data-pid=\"Sf4hine5\">解析：在《玉堂禁经》“九用”的记录中，第二个笔法为“挫笔”，可用于下三点。</p><p data-pid=\"lEuz0nU1\">按《说文》“挫，摧也。”段玉裁引《考工记》注：“挫，折也。”又“折，断也。”按《大词典》“挫，同错。”有错开转变位置之义。故“挫”，有用力折断和变向之义；《康熙字典》中，“挨”有拖延，即滞留之义。挨锋即笔锋滞留纸面。《小尔雅》“捷，疾也。”《玉篇•辵部》“进，前也。”捷进，为快速前进；使用挫笔时，顿笔调锋后微提，将笔锋转动至所需方向后顺势挫出。</p><p data-pid=\"QVDvpo0J\">综上，“<b>挫笔</b>”即施力快速断笔，或转向后挫出之用笔动作。挫笔断收时，常如锯齿状（字例如神龙本《兰亭序》“年、禊”二字）。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b1993d235f844bc2d0de941b7d554970_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"595\" data-size=\"normal\" data-original-token=\"v2-b1993d235f844bc2d0de941b7d554970\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-b1993d235f844bc2d0de941b7d554970_r.jpg\"/><figcaption>▲“挫笔”示意图</figcaption></figure><p data-pid=\"OtheFthh\"><b>3.2.3驭锋</b></p><blockquote data-pid=\"zRGYKefk\">三曰驭锋，直撞是也；有点连物，则名暗筑，“目”、“其”是也。</blockquote><p data-pid=\"7DiCcTnd\">解析：在《玉堂禁经》“九用”的记录中，第二个笔法为“驭锋”，常用于书写“目、其”这类多横竖交接的字。</p><p data-pid=\"to0dUraK\">《说文》“驭，使马也。”控制方向与力度之义。直，自上至下之义。撞，含闯、猛冲或突然直下之义。通常用于横竖交接的位置，若将起笔藏于相交的点画之中则称为“暗筑”。</p><p data-pid=\"Jz6WC699\">“<b>驭锋</b>”即书写时，控制好笔锋力度直入纸面之用笔动作。驭锋起笔、连接时，施力垂直下笔。而连接其他笔画时，可暗筑隐藏起笔，使点画形成整体。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-7db5a5523bc46479f837c6c222614cfd_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"590\" data-size=\"normal\" data-original-token=\"v2-7db5a5523bc46479f837c6c222614cfd\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-7db5a5523bc46479f837c6c222614cfd_r.jpg\"/><figcaption>▲“驭锋”示意图</figcaption></figure><p data-pid=\"9nxOE5hS\"><b>3.2.4蹲锋</b></p><blockquote data-pid=\"8Uef8Cgi\">四曰蹲锋，缓毫蹲节，轻重有准是也；‘一’、‘乙’等用之。</blockquote><p data-pid=\"krAqD31B\">解析：在《玉堂禁经》“九用”的记录中，第四个笔法为“蹲锋”，“一、乙”这类字的收尾处，常用“蹲锋”书写（例字见颜真卿《多宝塔碑》）。</p><p data-pid=\"z1zRzEHw\">《康熙字典》“蹲，两腿尽量弯曲，像坐的样子，但臀部不着地。”笔肚逐渐下蹲，便有轻重对比，能有效防止单调和乏味。</p><p data-pid=\"-6KKTwzn\">“<b>蹲锋</b>”即笔尖轻触纸面，向下匀速施力，使笔锋弯曲如蹲之用笔动作。此法施力须轻重有度，方可增加点画间的立体感和层次感，从而筋骨分明。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2f57bb35b9b9ceeb983108944714ce9a_1440w.jpg\" data-rawwidth=\"616\" data-rawheight=\"374\" data-size=\"normal\" data-original-token=\"v2-2f57bb35b9b9ceeb983108944714ce9a\" class=\"origin_image zh-lightbox-thumb\" width=\"616\" data-original=\"https://pica.zhimg.com/v2-2f57bb35b9b9ceeb983108944714ce9a_r.jpg\"/><figcaption>▲“蹲锋”示意图</figcaption></figure><p data-pid=\"XWBsZ5Q9\"><b>3.2.5存锋</b></p><blockquote data-pid=\"YlousLSD\">五曰存锋，驻笔下衄是也；夫有趯者，必先存之，‘刀’、‘乛’（同乙，笔者注）是也。</blockquote><p data-pid=\"j_5_qCB8\">解析：在《玉堂禁经》“九用”的记录中，第五个笔法为“存锋”，“刀、乛（同‘乙’）”的趯就是“存锋”动作写出的。原文“cún”字为“足存”组合字样（今输入法不能打出该字），异体为“蹲”，“蹲”之古文为踆（音村），即踢之意。在“顿笔”中，“衄”为左右摇摆运动，即摇腕。</p><p data-pid=\"dZLu8hEJ\">故“<b>存锋</b>”即落笔稍作停留，摇腕调锋后，将笔势踢出之调锋动作。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-43de25a7e275ff5d4ba3180f2d0e6d01_1440w.jpg\" data-rawwidth=\"1020\" data-rawheight=\"584\" data-size=\"normal\" data-original-token=\"v2-43de25a7e275ff5d4ba3180f2d0e6d01\" class=\"origin_image zh-lightbox-thumb\" width=\"1020\" data-original=\"https://pic2.zhimg.com/v2-43de25a7e275ff5d4ba3180f2d0e6d01_r.jpg\"/><figcaption>▲“存锋”示意图</figcaption></figure><p data-pid=\"Q0xY7kOJ\"><b>3.2.6衄锋</b></p><blockquote data-pid=\"b553bagf\">六曰衄（女六切，笔者注）锋，住锋暗挼（奴禾切，笔者注）是也；烈火用之。</blockquote><p data-pid=\"vI4hK2FP\">解析：在《玉堂禁经》“九用”的记录中，第六个笔法为“衄锋”，烈火二字，为《玉堂禁经》所载“烈火异势”，此势便是用衄锋动作写出。</p><p data-pid=\"f7yuHgCM\">在“九用之一‘顿笔’”中，已知“衄”为左右或四周摇摆运动，譬之书法，即摇腕。《康熙字典》载：“住，表示停顿或静止”。《六书故》中“挼”为“按揉也。”</p><p data-pid=\"kqcJ6Ggd\">故“<b>衄锋</b>”即笔锋稍停的同时，左右或四周摇腕下按，暗地揉搓笔颖之调锋动作。衄锋用于承接上笔和调整下笔，能加大毫毛与纸面的摩擦力，便于表现刚劲、峻拔的书风。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-764de46b4d94122a94e1a2b38fb2bcd1_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"587\" data-size=\"normal\" data-original-token=\"v2-764de46b4d94122a94e1a2b38fb2bcd1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-764de46b4d94122a94e1a2b38fb2bcd1_r.jpg\"/><figcaption>▲“衄锋”示意图</figcaption></figure><p data-pid=\"kXNX8ygE\"><b>3.2.7趯锋</b></p><blockquote data-pid=\"HhFP6gla\">七曰趯（音、义同跃，笔者注）锋，紧御涩进，如锥画石是也。</blockquote><p data-pid=\"Xc2goWeM\">解析：在《玉堂禁经》“九用”的记录中，第七个笔法为“趯锋”，趯（同跃）锋行笔时，就好比拿锥子用力刻画石头一样（即笔与纸面会产生强大的摩擦阻力）。</p><p data-pid=\"oPg6SdNm\">趯，《康熙字典》中“同躍，跳跃。”即笔尖跳动。御，有抵挡之义。《说文解字》“涩，不滑也。”含阻碍之义。</p><p data-pid=\"7f8GgFer\">故“<b>趯锋</b>”即由于施力行笔导致笔锋与纸面产生强大摩擦力，从而使笔毫在纸面留下跳动轨迹（见徐渭草书作品《一篙春水》的“中、人”二字，“中”字更是堪称趯锋典型）。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-69cdfef0f9dc987a608fafa9ec499501_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1044\" data-size=\"normal\" data-original-token=\"v2-69cdfef0f9dc987a608fafa9ec499501\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-69cdfef0f9dc987a608fafa9ec499501_r.jpg\"/><figcaption>▲“趯锋”示意图</figcaption></figure><p data-pid=\"S6M4bHwv\"><b>3.2.8按锋</b></p><blockquote data-pid=\"Aij2FTZE\">八曰按锋，囊锋虚阔，章草磔法用之。</blockquote><p data-pid=\"eUg4Gtj2\">解析：在《玉堂禁经》“九用”的记录中，第八个笔法为“按锋”，这种强调下按、扁平的笔法，在章草及“永字八法”的“磔法”中是常见的。</p><p data-pid=\"ZGC6_NGk\">按，即将物体向下压；囊，有展开之义。笔毫展开即扁平状；虚阔，在蒋骥《续书法论》中，有“运实为虚，实处俱灵；以虚为实，断处仍续”之义，又含清人笪重光《画筌》“无画处皆成妙境”之意。此二君言论即指：笔锋不论展开或收束，都不是散乱的，而是保持一定的形状和控制的。</p><p data-pid=\"blN8ycOe\">故“<b>按锋</b>”即行笔时保持一定的控制力度，有节奏地下按锋铺毫，如同章草书中磔形的用笔动作。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-47444dbeaba6c7e02617d680c96600d5_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1080\" data-size=\"normal\" data-original-token=\"v2-47444dbeaba6c7e02617d680c96600d5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-47444dbeaba6c7e02617d680c96600d5_r.jpg\"/><figcaption>▲“按锋”示意图</figcaption></figure><p data-pid=\"oDwHeLLV\"><b>3.2.9揭笔</b></p><blockquote data-pid=\"apB08Pr3\">九曰揭笔，侧锋平发，‘人’、‘天’脚是也，如鸟爪形。</blockquote><p data-pid=\"2NrhFyv4\">解析：在《玉堂禁经》“九用”的记录中，第九个笔法为“揭笔”，“人、天”这类字的捺脚，就可以用揭笔来表达。</p><p data-pid=\"5RhorEyX\">清人蒋和云：“揭，名指爪肉之际，抬笔管向上。”即提笔之义。侧锋，即笔锋稍侧，以笔肚触纸之义。平发，为笔画平整放出，无起伏歪斜之义。“如鸟爪形”指揭笔时笔锋逐渐平整出锋，且尾部收尖似鸟爪模样。</p><p data-pid=\"extODjwY\">故而“<b>揭笔</b>”即以笔肚触纸后边行边提，行至点画收笔时，顺势以“鸟爪状”平整放出之用笔动作。此法可增加作品的趣味性和多样性。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3fa3883e9227018fc599ca9987b51b29_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"591\" data-size=\"normal\" data-original-token=\"v2-3fa3883e9227018fc599ca9987b51b29\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-3fa3883e9227018fc599ca9987b51b29_r.jpg\"/><figcaption>▲“揭笔”示意图</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"56\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88bcdf62f083b7496a369dbc64b06719\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_r.jpg\"/></figure><h3>3.3用笔十三锋</h3><p data-pid=\"5fENZGkY\">笔法除“永字八法”和张旭“九用”之外，还有如起笔法之藏锋、露锋；行笔法之中锋、侧锋、偏锋、转锋；收笔法之挫笔、顿笔、揭笔。且实际的笔法复合运用中，又有聚锋、开锋、扁锋、跃锋、破锋、散锋、绞锋等。</p><p data-pid=\"gonS9JYc\">（以下除另注外，蔡邕论引自《九势》，姜夔论引自《续书谱》，丰坊论引自《书诀》，宋曹论引自《书法约言》，虞世南论引自《笔髓论》，包世臣论引自《艺舟双辑》）</p><p data-pid=\"CHTOkUJL\"><b>3.3.1藏锋</b></p><p data-pid=\"7IHuzY8r\">（1）引：逸少曰：“第一须存筋藏锋，灭迹隐端。”[1]28颜鲁公说：“自兹乃悟用笔如锥画沙，使其藏锋，画乃沉着。”[1]280宋人赵彦卫《题兰亭帖》亦有“玉笔贵藏锋”之诗句。</p><p data-pid=\"AUtVIdC-\">（2）释义：按《说文》“藏，匿也。”隐匿之义。藏锋即将笔锋隐藏在画中，通常以逆锋起笔、回锋收笔，来实现汉蔡邕的“藏头、护尾”[1]6，及明人丰坊的“起止无迹”[1]505。</p><p data-pid=\"iU8KG_2O\">（3）藏锋特点：藏锋写出的字，内在沉着含蓄、圆润淳朴，常给人一种凝重、厚实的意蕴。</p><p data-pid=\"S4u5G8ii\"><b>3.3.2露锋</b></p><p data-pid=\"GkDTvyIo\">（1）引：姜夔曰：“有锋以耀其精神。”[1]387宋时佚名书论：“势须险策、露锋、飞动为胜。”[1]884清人宋曹载：“露锋以纵其神”[1]564。</p><p data-pid=\"j4sv8Rha\">（2）释义：露锋即笔锋外露。起笔、收笔时将笔锋显露出来，呈尖锐形态。</p><p data-pid=\"_XQrLZIn\">（3）露锋特点：露锋突出点画间的动感与呼应，常呈现爽利、豪放之势。露锋的表现力与视觉冲击力强，能使作品灵动飘逸，给人以朝气蓬勃的同时还带有凌厉之感。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e356edd33934a8e269f738234d0a8e47_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"944\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-e356edd33934a8e269f738234d0a8e47\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-e356edd33934a8e269f738234d0a8e47_r.jpg\"/></figure><p data-pid=\"INFvFEoK\"><b>3.3.3中锋</b></p><p data-pid=\"YEXP0sRW\">（1）引：宋姜夔书论“常欲笔锋在画中，则左右皆无病矣。”[1]388明丰坊有语“用笔无二，必以正锋为主”[1]506清汪沄《书法管见》曰“古人则自落笔以及左右盘旋，甚至一气连三五字，直无毫芒非中。”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"13\" data-text=\"汪沄《书法管见》,清乾隆刻本。\" data-url=\"\">[13]</sup></p><p data-pid=\"SPmtOrV7\">（2）释义：中锋亦称正锋。即笔尖位于笔画的中部，不偏向某侧。如蔡邕说：“令笔心常在点画中行”[1]6能使线条显得厚重有力。</p><p data-pid=\"D-BXi4qY\">（3）中锋特点：笔锋居中，墨汁便均匀渗入纸面，线质则厚实圆润。由于笔尖居中，便避免了浮、躁之感，在视觉上更具立体感和力量感。</p><p data-pid=\"08t8OOiw\"><b>3.3.4侧锋</b></p><p data-pid=\"TSfOw_5J\">（1）引：清人朱和羹说“正锋取劲，侧笔取妍。王羲之书《兰亭》，取妍处时带侧笔。”[1]732清宋曹《书法约言》说“草书时用侧锋而神奇出焉”[1]571；明人汤临初“今观二王落笔处多有侧锋向外者，昧者但谓侧以取妍，不知落笔稍偏，正所以济正锋之不及，未几而卒归于正。”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"14\" data-text=\"毛万宝《中国古代书论类编》，第110页。\" data-url=\"\">[14]</sup></p><p data-pid=\"g688JDcg\">（2）释义：侧，有向旁边歪斜之义。侧锋采用斜执笔，介于中锋和偏锋之间。即指笔锋稍偏一侧，书写时笔肚接触纸面，笔道呈一边光滑一边毛躁。但侧锋并非是独立呈现的，古人就有：“正锋取劲，侧锋取妍”[1]732之语。</p><p data-pid=\"64rq44t2\">（3）特点：侧锋采用逆势切入，分铺（音扑）毫侧和束毫侧。铺侧线条如带状，束侧线条如绳状。由于侧锋动作较随意，每次切入的力度和角度都不尽相同，从而点画间的张力对比明显。侧锋虽是斜入纸面的，但随着点画的进行，笔锋会逐渐转向中锋，或形成交替书写状态。</p><p data-pid=\"yQa5ZFuB\"><b>3.3.5偏锋</b></p><p data-pid=\"o1hxv04q\">（1）引：明王世贞辩：“苏、黄全是偏锋，旭、素时有一二笔，即右军行草中亦不能清废”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"15\" data-text=\"（清） 孙岳颁 纂辑《佩文斋书画谱》卷七，康熙四十七年内府刻本，第36页。\" data-url=\"\">[15]</sup>,清人宋曹云“偶用偏锋亦以取势”[1]564。</p><p data-pid=\"oXFPaWk-\">（2）释义：偏锋对画面平衡具有破坏性。“偏”在《康熙字典》中解释为：“歪，不在中间。”即书写时笔杆倾斜。笔尖偏向一侧，多以笔腹与纸接触。因下笔不完全垂直于纸面，笔道的光滑和毛躁对比感甚强。</p><p data-pid=\"IK_kJ0E2\">（3）特点：笔锋后腹部始终侧抹。点画形状不易掌控。线条上下两边都呈锯齿状。因下笔便无法恢复站立，线条往往显得薄弱、虚浮，缺乏立体感和厚重感，且极容易出现枯笔。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-033394312cd0a5c3a63d66f99e5b2b5b_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"950\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-033394312cd0a5c3a63d66f99e5b2b5b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-033394312cd0a5c3a63d66f99e5b2b5b_r.jpg\"/></figure><p data-pid=\"aS-AR47I\"><b>3.3.6转锋</b></p><p data-pid=\"CiSIGSns\">（1）引：唐虞世南曰“蹙旋转锋，亦如腾猿过树……”[1]112清人包世臣云：“唯管定而锋转，则逆入平出……”[1]645，又说“古人一点一画，皆使锋转笔以成之，非至起至掣曳之处乃用使转。”[1]661</p><p data-pid=\"RE6rJkyV\">（2）释义：转有改換方向之义。即转锋是为改变行笔方向而服务的。转锋方法有摇腕转锋、捻管转锋、推管转锋、提按转锋。转锋形态主要可分为平移转锋和翻绞转锋。</p><p data-pid=\"FGz26KWM\">（3）特点：转锋技法能在各书体中广泛应用。转锋属于圆弧形线条，通过上下左右的平转、翻绞，可使中锋、侧锋、偏锋等运动连成一体，形成复杂的线条轨迹。</p><p data-pid=\"Zf1wVq3d\"><b>3.3.7聚锋</b></p><p data-pid=\"UnU64Nal\">（1）引：虞世南《笔髓论·释草》中有“悬管聚锋”[1]112之说。</p><p data-pid=\"VC9qqWn7\">（2）释义：按《说文》“聚，會也。”有聚集、收拢之义。聚锋即锋颖拢聚一处，形如锥状。聚锋能使线条更加圆润精细，可减少线条的凌乱感，便于控制点画形状，展现书写的丰富感和细腻感。</p><p data-pid=\"y5lNOBvC\">（3）特点：聚锋时，行笔控制力增强，能减少调锋次数。起笔和收笔更加自然流畅、均匀，可提高书写效率。</p><p data-pid=\"tW9JTs6v\"><b>3.3.8开锋</b></p><p data-pid=\"pXuf9HaR\">（1）引：虞世南载逸少云：“每作一点画，皆悬管掉之，令其锋开，自然劲健矣。”</p><p data-pid=\"XOUqLyP_\">（2）释义：开锋即通过摇腕使笔心展开，从而起到丰富线条美感的作用。又一法为调整书写力度和速度，使笔锋在纸面自然展开，达到造形目的。</p><p data-pid=\"NFXm45Lv\">（3）特点：开锋能使线条饱满有力，增强粗细对比的同时，还可体现书家的性情及气韵。</p><p data-pid=\"yBvbSWgK\"><b>3.3.9扁锋</b></p><p data-pid=\"KaV-Jxzf\">（1）引：清人周星莲曰“欲笔笔侧笔，则有意于侧，势必至扁锋而后止。”[1]719清包世臣说“盖行草之笔多环转，若信笔为之，则转卸皆成扁锋，故须暗中取势，换转笔心也。”[1]646今人岳师伦认为“扁锋、侧毫”也具有流贯意气与俊宕<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"16\" data-text=\"岳师伦《翰墨风神：中国书法的意蕴》。\" data-url=\"\">[16]</sup>。</p><p data-pid=\"2mHPvGRi\">（2）释义：《康熙字典》中“扁，物体平而薄。”扁锋即笔根保持圆润，笔锋呈扁平状。</p><p data-pid=\"aXbJLPes\">（3）特点：扁锋可破坏线条的均衡美，时而会显得浮薄无力，缺乏含蓄、浑厚的审美意趣。</p><p data-pid=\"zEQle2bL\"><b>3.3.10跃锋</b></p><p data-pid=\"9dvcRA7Q\">（1）释义：《说文》中：“跃，迅也。”《广雅》“跃，跳也。” 迅速跳起之义，即笔画的运动轨迹像跳跃一样。该法为“九用”之一，下文详答，此不赘述。</p><p data-pid=\"4-lwYoMU\"><b>3.3.11散锋</b></p><p data-pid=\"niwzVFsX\">（1）引：清人陆树声说“一种毫过圆熟者，不能运墨，用之则锋散而墨涨，以供学人作义，易败而售速。”<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"17\" data-text=\"（明） 陆树声 撰《清暑笔谈》清暑笔谈，万历沈氏尚白斋刻本，第8页。\" data-url=\"\">[17]</sup> </p><p data-pid=\"73zRBDkG\">（2）释义：散与聚相对，民初林义光《文源》说“本义当为分散之散”。散锋又称破笔，即锋散不聚。</p><p data-pid=\"qkqZaO_a\">（3）特点：线条时有枯竭、中断、割裂之态。视觉上使点画呈飘逸、轻松、虚灵之势。亦有豪放和洒脱之意境。已故书画家傅抱石的“抱石皴（音村）”便是散锋之大成。</p><p data-pid=\"lWZ4W8eu\"><b>3.3.12破锋</b></p><p data-pid=\"J61eAeaH\">（1）引：民国徐谦载“如《兰亭叙》‘群贤’之‘群’字，原书末笔之垂，非悬针，乃破锋也。唐人临之，不能作破锋，始改为悬针。”[11]785</p><p data-pid=\"OLb39UaV\">（2）释义：《说文》“破，石碎也”含散乱，分散义。破锋亦属散锋之类，但程度更甚。即落笔用力过猛，或小笔写大字，又或缺墨疾书导致笔心过度散乱、分叉。</p><p data-pid=\"3JcpzENp\">（3）特点：具有多样性和变化性，便于抒发老辣、苍劲之意。破锋书写出的线条，缺乏均匀、对称，能突出点画的层次感。但使用不当易产生大块“飞白”，导致线条凌乱破败，即书家所忌之“败笔”。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6d2070a10778c0bcf6b6ff577973f1ac_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"597\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6d2070a10778c0bcf6b6ff577973f1ac\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-6d2070a10778c0bcf6b6ff577973f1ac_r.jpg\"/></figure><p data-pid=\"kzwfcpw7\"><b>3.3.13绞锋</b></p><p data-pid=\"ZWkqm5Un\">（1）引：清末康有为提到过：“圆笔用绞……圆笔不绞则痿……”[1]843。</p><p data-pid=\"rDZE2zJv\">（2）释义：绞锋可为笔心绞、副毫绞、或笔心和副毫一齐绞。绞有缠绕之义，如柳宗元《晋问》中“根绞怪石，不土而植。”绞锋即通过“捻管”使笔锋内或外，或内外一起缠绕。</p><p data-pid=\"onkK9G3u\">（3）特点：需运用手指“捻管”，且与转锋相似。绞锋比转锋过于猛烈，可增强线条动感、丰富点画形态等。但若长期以绞锋书写，很大程度上会减少毛笔的使用寿命，书写不当易会成为“败笔”。</p><p data-pid=\"8i_iOBuq\"><b>小结：</b>运笔过程中，改变笔锋方向的动作便称“换笔心”。而以上所列举诸“锋”，皆来自“换笔心”，其目的是为运笔调锋而服务，如顿笔、衄锋、揭笔等。一般调峰是为达成中锋行笔，以保持笔画的圆润和厚重。通过“换笔心”避免毛笔扭结的同时，还可使作品产生丰富的变化，表现出作品的流畅性和韵律之美。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"56\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-88bcdf62f083b7496a369dbc64b06719\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://picx.zhimg.com/v2-88bcdf62f083b7496a369dbc64b06719_r.jpg\"/></figure><h3>3.4《翰林密论》十二法[1]216</h3><blockquote data-pid=\"_iRuG0K8\">《翰林密论》云：凡攻书之门，有十二种隐笔法，即是迟笔、疾笔、逆笔、顺笔、涩笔、倒笔、转笔、涡笔、提笔、啄笔、罨笔、䟐笔。并用笔生死之法，在于幽隐。迟笔法在于疾，疾笔法在于迟，逆入倒出，取势加攻，诊候调停，偏宜寂静。其于得妙，须在功深，草草求玄，终难得也。</blockquote><p data-pid=\"S8IMjioS\">译文：《翰林密论》这本书里说：学习书法，须该晓得十二种比较深奥的用笔方法，那就是：迟笔、疾笔、逆笔、顺笔、涩笔、倒笔、转笔、涡笔、提笔、啄笔、罨笔、䟐笔。迟笔的妙处，其实在于它暗含着疾笔的势态。疾笔的妙处，恰恰在于它能有迟的根基。起笔逆锋，收笔顺势，通过这种笔法来获取笔势，加强笔力。运用这些笔法时，需要像医生诊病一样仔细斟酌调整，心境尤其要宁静专一。想要掌握其中的奥妙，必须依靠长时间的深厚功力（即实践加理论）。如果只是漫不经心地追求玄理（如以玄解玄），是永远无法真正领悟书法奥秘的。</p><p data-pid=\"95BAxEri\"><b>笔者注：</b></p><p data-pid=\"lr5oMxl6\">“<b>迟笔</b>”非慢而无力，实指：缓慢沉着；“<b>疾笔</b>”非快而浮滑，实指：果断犀利；“<b>逆笔</b>”是逆锋起笔（有藏锋与露锋之别）；“<b>顺笔</b>”是下笔即行走，出锋自然；“<b>涩笔</b>”是注力于笔锋，加大纸与笔的摩擦；“<b>倒笔</b>”是改变行笔方向（即笔势中的“倒笔势”，可参看笔者<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkyMTIwNzQxMQ%3D%3D%26mid%3D2247484481%26idx%3D1%26sn%3D3cbca53d0825b5071337fd03a854ca78%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">“识势”系列</a>）；“<b>转笔</b>”是使点画圆转；“<b>涡笔</b>”是圆转之上又添回环；“<b>提笔</b>”是笔锋轻提，减小入纸面积；“<b>啄笔</b>”即上述永字八法之“啄”，须斜向利落；“<b>罨笔</b>”为铺毫下按，形成厚重之感（“罨”，音掩，为覆盖、遮盖之义）；“<b>䟐笔</b>”即永字八法之“趯”。</p>",
+        "url": "https://api.zhihu.com/answers/1990797301007005342",
+        "thanks_count": 0,
+        "question": {
+          "url": "https://api.zhihu.com/questions/637600946",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            569,
+            6243,
+            25566
+          ],
+          "id": "637600946",
+          "created": 1704168765,
+          "comment_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "title": "哪位书友能讲一讲你所理解的“笔法”究竟是什么？",
+          "follower_count": 0,
+          "type": "question",
+          "author": {
+            "followers_count": 1428,
+            "is_following": false,
+            "id": "2c7cc9bfa9149aa4583c8a901366e1df",
+            "user_type": "people",
+            "url_token": "soldiergun",
+            "name": "无名无我",
+            "headline": "一切有为法，如梦幻泡影，如露亦如电，应作如是观",
+            "gender": 1,
+            "url": "https://api.zhihu.com/people/2c7cc9bfa9149aa4583c8a901366e1df",
+            "avatar_url": "https://picx.zhimg.com/50/v2-1e51ea56256e71781d1081415fd74e31_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false
+          },
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-09ff2468a6aecfcd20e99c87814456c2_720w.jpg?source=b6762063",
+        "excerpt_new": "1.总说 省流：笔法主要分“执笔法”与“用笔法”。其中，执笔法包含：身法、指法、腕法、三要素（高低、松紧、远近）、五把笔；用笔法有：永字八法、张旭九用（即‘用笔腕下起伏之法’，简称‘九用’）[1]（见该引第220页）、用笔十三锋、密论十二法。温馨小提示：该文论约12000字，涉及执笔法（包括身法、指法、腕法等）、用笔法（包括永字八法、张旭九用等）的相关书法理论解析。预计阅读仅需14~23分钟，请读者朋友合理按排时…",
+        "is_labeled": true,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "created_time": 1767423063,
+        "is_copyable": false,
+        "updated_time": 1767423063,
+        "comment_count": 0,
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990797301007005342}",
+      "attached_info": "CswUCOfporrDn4yvqAEQBBoJNzYzNzk5MDM2INf44soGKAYwAEBbSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCTEwMzk2NzQxNWIgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE5OTA3OTczMDEwMDcwMDUzNDKKAQk2Mzc2MDA5NDaqAQlyZWNvbW1lbmTCASAzZWZlOGIwNzY1MzA3YTJlMmM4NzIwNmMzYzMwZTk3YvIBCggMEgZOb3JtYWzyASgIChIkNzliMjE3YTMtMzA4OS00YTc5LThkNTctZTM2NTk5MTk4ZmEx8gEGCAsSAjE2ggIAiAKYrOCbuTOSAiAzZWZlOGIwNzY1MzA3YTJlMmM4NzIwNmMzYzMwZTk3YpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCAvoCC05PUk1BTF9GTE9XigMgMTRhYTA4YTc5NTI4NGUwN2I0YjAyZTdkZmIzOGY1NDeaAw0KAnYyEAAaBW90aGVyqAN+2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gOdDxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LAgDENAFGC8iI3YyLTBiMmJjNjZiOTNiY2VkOWM3YzY0MGM5NDBlYTQ3ZTFiOi0IAxCIBxicByIjdjItMDlmZjI0NjhhNmFlY2ZjZDIwZTk5Yzg3ODE0NDU2YzI6LQgDEJQIGOwFIiN2Mi1hNzIwOTU4ODVhNDdjYWViMjMxMGMyOGRlOGFiYmMwNDosCAMQgAkYOCIjdjItODhiY2RmNjJmMDgzYjc0OTZhMzY5ZGJjNjRiMDY3MTk6LQgCEIwGGIAGIiN2Mi05YTIzYmIwN2YwZDY4YTQ1ZmMxYThjODVlODgzZmY2OTosCAMQgAkYOCIjdjItODhiY2RmNjJmMDgzYjc0OTZhMzY5ZGJjNjRiMDY3MTk6LQgCELgIGNcCIiN2Mi0xNTI1M2M0Mzk3YWQ5NTY3MGIyNzRjZmJmNDU5YTk0NjosCAMQgAkYOCIjdjItODhiY2RmNjJmMDgzYjc0OTZhMzY5ZGJjNjRiMDY3MTk6LQgCEPoPGIAIIiN2Mi01OWUyODQxZTE3YTliZWQzM2JlMmMxNzNlYWEzMzU3ODotCAMQuAgYsQIiI3YyLWE0YTdkMmM3NDUwMTUyZDJkZjg1ZGQ3ZmUwNTUzMTExOi0IAhC4CBjGAyIjdjItYzQ2YjUwZWFkOGJhNTVkNmU0ZWNmNjQyMTIwMGVlZjY6LAgDEIAJGDgiI3YyLTg4YmNkZjYyZjA4M2I3NDk2YTM2OWRiYzY0YjA2NzE5Oi0IAhC4CBjFDCIjdjItZjZkM2RmZDcwMTMyNTZlZjgxMDEwY2U3M2NiNTJjNGI6LQgCELgIGOcCIiN2Mi05MTdmOTQ3NjQ2YTUwNjk4OGU1YTU3ZmQ5MGM3NzY3YzotCAIQuAgY5wIiI3YyLTliMWUyYzQzZjc5MzI5MWMzNmNlNjZmMzQ3OTcxODJmOiwIAxCACRg4IiN2Mi04OGJjZGY2MmYwODNiNzQ5NmEzNjlkYmM2NGIwNjcxOTotCAIQuAgY9AIiI3YyLTg1ZTI1MTYxZmE1OTkyYWEyZWQ1NTI2ODBmNzBiZGE4Oi0IAxC4CBiABCIjdjItM2Q5YWIyOTNmNTdiZmI3ZGRmOTY4ZDMyZTliMmEzZTE6LQgDELgIGOUDIiN2Mi1lYjgyMzVjZjQ1ODY4ODYxODhiNjQ5OTc5YzBhZWY5MzotCAMQuAgYigQiI3YyLTA1ZDk2ODY2Y2VjZjViNzUwYzI3NGQ4NjhiNjRlNjdiOi0IAxC4CBiWBCIjdjItMDAzNTM1ZmNlNDU2MzRiN2YyNGIzNjM1NjUzYzdkOWM6LQgDELgIGPcDIiN2Mi0zZDMyNTViYzM0YjJkYTgyNzljZDUyNTA1N2UyZTExYjotCAMQuAgY7wMiI3YyLTQ2ZjU5YzA4YTI4NTU5MmQxMzRjNzhlMWZhNWVkZjMxOi0IAxC4CBiHBCIjdjItNDRlZDhiNjM3NTE4NDBjYWUzMDA2ZDEwOTcxMTMzMDY6LQgDELgIGP8DIiN2Mi1hZThlN2Y0ZjM2MzFkMDliMWRjN2Q3YjczZmQyOGU5ZTosCAMQgAkYOCIjdjItODhiY2RmNjJmMDgzYjc0OTZhMzY5ZGJjNjRiMDY3MTk6LQgCELgCGIwBIiN2Mi1iNGNkYzVhODA5N2JjMGQwODQzOGYxNmQ5MDUxYzFlNzotCAMQuAgY2QQiI3YyLTkyNzg4N2JjZDBhYWU1YTc5OTY0MjEwZjRjOWI3ZDYxOi0IAxC4CBjTBCIjdjItYjE5OTNkMjM1Zjg0NGJjMmQwZGU5NDFiN2Q1NTQ5NzA6LQgDELgIGM4EIiN2Mi03ZGI1YTU1MjNiYzQ2NDc5ZjgzN2M2YzIyMjYxNGNmZDotCAAQ6AQY9gIiI3YyLTJmNTdiYjM1YjliOWNlZWI5ODMxMDg5NDQ3MTRjZTlhOi0IABD8BxjIBCIjdjItNDNkZTI1YTdlMjc1ZmY1ZDRiYTMxODBmMmQwZTZkMDE6LQgAELgIGMsEIiN2Mi03NjRkZTQ2YjRkOTQxMjJhOTRlMWEyYjM4ZmIyYmNkMTotCAAQuAgYlAgiI3YyLTY5Y2RmZWYwZjlkYzk4N2E2MDhmYWZhOWVjNDk5NTAxOi0IABC4CBi4CCIjdjItNDc0NDRkYmVhYmE2YzdlMDI2MTdkNjgwYzk2NjAwZDU6LQgAELgIGM8EIiN2Mi0zZmEzODgzZTkyMjcwMThmYzU5OWNhOTk4N2I1MWIyOTosCAMQgAkYOCIjdjItODhiY2RmNjJmMDgzYjc0OTZhMzY5ZGJjNjRiMDY3MTk6LQgAELgIGLAHIiN2Mi1lMzU2ZWRkMzM5MzRhOGUyNjlmNzM4MjM0ZDBhOGU0NzotCAAQuAgYtgciI3YyLTAzMzM5NDMxMmNkMGE1YzNhNjNkNjZmOTllNWIyYjViOi0IABC4CBjVBCIjdjItNmQyMDcwYTEwNzc4YzBiY2Y2YjZmZjU3Nzk3M2YxYWM6LAgDEIAJGDgiI3YyLTg4YmNkZjYyZjA4M2I3NDk2YTM2OWRiYzY0YjA2NzE5gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAaVx5P4EFAAAAAAAAAACJBVtxBLD+f7I/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRCQBgCgBlyoBgOSAi4KCTc2Mzc5OTAzNhITMTk5MDc5NzMwMTAwNzAwNTM0MhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "92_1767705679.669",
+      "type": "feed",
+      "offset": 92,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705679,
+      "updated_time": 1767705679,
+      "target": {
+        "id": "1980410194350597981",
+        "url": "https://api.zhihu.com/answers/1980410194350597981",
+        "excerpt_new": "球根类的花非常好养，只记住一条不要浇太多水就行了。看下图，是我养了二十年的葡萄风信子。   2022年我有大半年没有在家，恰逢那年高温，家里的植物几乎全军覆没。 秋天我回家后，满园子一片枯败，如下图     种葡萄风信子的那个花盆里的土干得都能当砖头了。我浇透水后把土混到了别的花盆里，2023年的春天，玫瑰花盆里绽放了那抹熟悉的蓝。   我难以想象它如何熬过四十度连晴三十天的酷暑，植物的生命力让人敬畏。 同样历劫成功的…",
+        "content": "<p data-pid=\"3ICh5jIF\">        球根类的花非常好养，只记住一条不要浇太多水就行了。看下图，是我养了二十年的葡萄风信子。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-38eb60fdb7283b61682f5817f41b89d7_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-c7e7ceae3926c4ca9ffac386044902fa\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-38eb60fdb7283b61682f5817f41b89d7_r.jpg\"/></figure><p data-pid=\"PINqQgsd\">        2022年我有大半年没有在家，恰逢那年高温，家里的植物几乎全军覆没。</p><p data-pid=\"4f4KrtJ-\">        秋天我回家后，满园子一片枯败，如下图</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9a1ef97013dcdf14578e69243345389c_1440w.jpg\" data-rawwidth=\"1440\" data-rawheight=\"1080\" data-size=\"normal\" data-original-token=\"v2-1323e75918f1548d98d74290ce43720c\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pica.zhimg.com/v2-9a1ef97013dcdf14578e69243345389c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-254cdd3c801c91cb04ca8fae2b3fd1e0_1440w.jpg\" data-rawwidth=\"1440\" data-rawheight=\"1080\" data-size=\"normal\" data-original-token=\"v2-90c209ff8ec8ac0605707be9cb9f1710\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pica.zhimg.com/v2-254cdd3c801c91cb04ca8fae2b3fd1e0_r.jpg\"/></figure><p data-pid=\"IhMZ2IhZ\">        种葡萄风信子的那个花盆里的土干得都能当砖头了。我浇透水后把土混到了别的花盆里，2023年的春天，玫瑰花盆里绽放了那抹熟悉的蓝。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c08ab6ded299d94d9666f405016c8050_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-d2e5fab101323a612725e03d9e62462f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-c08ab6ded299d94d9666f405016c8050_r.jpg\"/></figure><p data-pid=\"af5LuLVw\">        我难以想象它如何熬过四十度连晴三十天的酷暑，植物的生命力让人敬畏。</p><p data-pid=\"21EItrdP\">     同样历劫成功的还有小苍兰。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-57df717c81714cbed7e73b10de0ecc7b_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-bff48c743ca1487aa21a0ab68ad88e7a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-57df717c81714cbed7e73b10de0ecc7b_r.jpg\"/></figure><p data-pid=\"0lRSsROE\">       上图 这盆小苍兰也是从硬成板砖的土中挖出的球茎开出的花。相同经历的还有百合。这三种花都是球根类植物。</p><p data-pid=\"u7_yM16D\">        这种生命力如此顽强的花应该算好养了吧。</p>",
+        "type": "answer",
+        "preview_text": "",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-c7e7ceae3926c4ca9ffac386044902fa_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1323e75918f1548d98d74290ce43720c_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-90c209ff8ec8ac0605707be9cb9f1710_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d2e5fab101323a612725e03d9e62462f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-bff48c743ca1487aa21a0ab68ad88e7a_720w.jpg?source=b6762063"
+        ],
+        "author": {
+          "id": "c7f6e466f4e103da2e50008646fe86a2",
+          "url_token": "59-59-82-72",
+          "name": "小婷",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 93,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/c7f6e466f4e103da2e50008646fe86a2",
+          "user_type": "people",
+          "headline": "努力码字的俗人一个",
+          "avatar_url": "https://picx.zhimg.com/50/v2-20d3d9819629774f83da14b645e37d4e_l.jpg?source=b6762063",
+          "is_following": false
+        },
+        "created_time": 1764946584,
+        "updated_time": 1764946584,
+        "thanks_count": 0,
+        "favorite_count": 2,
+        "comment_count": 15,
+        "excerpt": "球根类的花非常好养，只记住一条不要浇太多水就行了。看下图，是我养了二十年的葡萄风信子。   2022年我有大半年没有在家，恰逢那年高温，家里的植物几乎全军覆没。 秋天我回家后，满园子一片枯败，如下图     种葡萄风信子的那个花盆里的土干得都能当砖头了。我浇透水后把土混到了别的花盆里，2023年的春天，玫瑰花盆里绽放了那抹熟悉的蓝。   我难以想象它如何熬过四十度连晴三十天的酷暑，植物的生命力让人敬畏。 同样历劫成功的…",
+        "allow_segment_interaction": true,
+        "answer_type": "normal",
+        "reshipment_settings": "disallowed",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_copyable": false,
+        "question": {
+          "excerpt": "",
+          "detail": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/12918049400",
+          "comment_count": 0,
+          "is_following": false,
+          "question_type": "normal",
+          "id": "12918049400",
+          "author": {
+            "user_type": "people",
+            "url_token": "lolly-41-90",
+            "gender": 1,
+            "is_following": false,
+            "is_org": false,
+            "followers_count": 3,
+            "is_followed": false,
+            "id": "cdc47dd0eb635ee95f1f84826f7df473",
+            "url": "https://api.zhihu.com/people/cdc47dd0eb635ee95f1f84826f7df473",
+            "name": "瑾承",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-dce54da081be4edae878188ef99260ae_l.jpg?source=b6762063"
+          },
+          "title": "有没有什么花非常非常好养?",
+          "created": 1740119288,
+          "answer_count": 0,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-c7e7ceae3926c4ca9ffac386044902fa_720w.jpg?source=b6762063",
+        "visited_count": 1172,
+        "voteup_count": 9,
+        "preview_type": "default",
+        "is_labeled": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1980410194350597981}",
+      "attached_info": "CoEICOfporrDn4yvqAEQBBoJNzU5NzU1NTAyIJjly8kGKAkwD0BcSigKHVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX01FUkdFEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTM1NTkxNTZiIGVhZWE1NDA2NmM4MTlhNmE3OWI5ZmNiZTFkOTIyMzM0chMxOTgwNDEwMTk0MzUwNTk3OTgxigELMTI5MTgwNDk0MDCqAQlyZWNvbW1lbmTCASBjN2Y2ZTQ2NmY0ZTEwM2RhMmU1MDAwODY0NmZlODZhMvIBCggMEgZOb3JtYWzyASgIChIkZWU0OTQ2YTEtMDBlZi00MDM3LWJmODgtMTExZWQwZTJkNTk28gEGCAsSAjE2ggIAiAKYrOCbuTOSAiBjN2Y2ZTQ2NmY0ZTEwM2RhMmU1MDAwODY0NmZlODZhMpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIdVFNfU09VUkNFX0lOVEVSRVNUX1dPUkRfTUVSR0XoAgL6AgtOT1JNQUxfRkxPV4oDIDE0YWEwOGE3OTUyODRlMDdiNGIwMmU3ZGZiMzhmNTQ3mgMNCgJ2MhAAGgVvdGhlcqgDlAnYAwDqAyJJbnRlcmVzdFdvcmRNZXJnZVYxTmV3UG9vbFJlY2FsbGVy+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgAELgIGKALIiN2Mi1jN2U3Y2VhZTM5MjZjNGNhOWZmYWMzODYwNDQ5MDJmYTotCAAQoAsYuAgiI3YyLTEzMjNlNzU5MThmMTU0OGQ5OGQ3NDI5MGNlNDM3MjBjOi0IABCgCxi4CCIjdjItOTBjMjA5ZmY4ZWM4YWMwNjA1NzA3YmU5Y2I5ZjE3MTA6LQgAELgIGKALIiN2Mi1kMmU1ZmFiMTAxMzIzYTYxMjcyNWUwM2Q5ZTYyNDYyZjotCAAQuAgYoAsiI3YyLWJmZjQ4Yzc0M2NhMTQ4N2FhMjFhMGFiNjhhZDg4ZTdhgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgHAOZP4EFAAAAAAAAAACJBVtxBLD+f7I/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRCQBgCgBl2oBgCSAi4KCTc1OTc1NTUwMhITMTk4MDQxMDE5NDM1MDU5Nzk4MRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "93_1767705679.327",
+      "type": "feed",
+      "offset": 93,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705679,
+      "updated_time": 1767705679,
+      "target": {
+        "updated": 1767583871,
+        "content": "<p data-pid=\"ryc-f_Vg\">最近在查资料、刷GitHub的时候，偶然发现了一个挺有意思的项目——<b>Claude Code Workflow Studio</b>。</p><p data-pid=\"e1v1n-yS\">如果你也接触过扣子、Dify或者n8n这一类的工作流自动化工具，是不是有一种很眼熟的感觉。Claude Code Workflow Studio是为Claude Code CLI打造的<b>可视化工作流编辑器</b>，支持拖拽式AI工作流设计，无需编程即可创建和导出自动化流程。</p><p data-pid=\"Ww8AxzSP\">接下来，就让我们看看它跟其它工具之间到底有什么不同？</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1f2ec2c631475e684ff505e437c93f4f_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" data-original-token=\"v2-1f2ec2c631475e684ff505e437c93f4f\" data-thumbnail=\"https://pic2.zhimg.com/v2-1f2ec2c631475e684ff505e437c93f4f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-1f2ec2c631475e684ff505e437c93f4f_r.jpg\"/></figure><h2>它能帮你做什么？</h2><h3>🎯 无代码工作流设计</h3><p data-pid=\"YtQoaw_I\">这是整个工具里最关键的一点。你不用写任何配置代码，只靠可视化界面，就能把一条完整、甚至比较复杂的AI工作流搭出来。</p><ul><li data-pid=\"GQ6bPCcl\"><b>节点系统</b>：内置了多种节点类型，比如Prompt模板、Sub-Agent任务、条件分支、用户决策等，基本覆盖常见场景</li><li data-pid=\"pJKMChUm\"><b>连线操作</b>：通过拖拽节点之间的输入、输出端口，来控制整个流程的执行顺序</li><li data-pid=\"dTw-ud2E\"><b>属性配置</b>：点选节点后，可以在右侧面板里调整对应的参数和细节</li></ul><h3>⚡ 一键导出执行</h3><p data-pid=\"yPdGgKf5\">搭好的工作流可以一键导出成Claude Code能用的格式：</p><ul><li data-pid=\"4FCfSOdG\">自动生成<code>.claude/agents/*.md</code>和<code>.claude/commands/*.md</code>文件</li><li data-pid=\"IoduMwo-\">导出后马上就能用，不用再额外调配置</li><li data-pid=\"JotZpt2A\">支持多语言，会跟随VS Code的语言设置自动切换</li></ul><h3>🔄 AI辅助编辑（最强功能）</h3><p data-pid=\"aTQCilq_\">这可是<b>Claude Code Workflow Studio</b>最特别的地方。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-dfcf3ee5d8e70cb3611ce8818666995f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2074\" data-rawheight=\"1157\" data-original-token=\"v2-4fde71b9170d1f8950f00aa3c3f8d1fc\" class=\"origin_image zh-lightbox-thumb\" width=\"2074\" data-original=\"https://picx.zhimg.com/v2-dfcf3ee5d8e70cb3611ce8818666995f_r.jpg\"/></figure><p data-pid=\"jaL-ABAl\">传统工具改流程通常需要手动移动节点，而在Workflow Studio，你只需要用自然语言描述想要的改动：</p><p data-pid=\"qT2FRGvM\">例如：</p><div class=\"highlight\"><pre><code class=\"language-text\">帮我在开始节点后添加一个验证用户输入的步骤。\n把输出结果改成保存成文件。\n增加一个判断：如果文本超过1000字，就分段处理。</code></pre></div><p data-pid=\"kAHJ1nk1\">AI会根据你的要求自动调整流程、整理节点布局，保证逻辑没问题，而且你随时可以查看、确认或撤销修改。</p><p data-pid=\"N7WV7jhy\"><b>它不仅帮你生成，还能帮你「反复改进」流程。</b></p><h2><b>功能特色</b></h2><ol><li data-pid=\"tDJA9VdT\"><b>可视化拖拽编辑器</b> 只需拖拖拽拽节点（<code>Prompt</code>、<code>Sub-Agent</code>、<code>Skill</code>、<code>MCP</code>、<code>IfElse</code>、<code>AskUserQuestion</code>），就能搭出复杂工作流。</li><li data-pid=\"ctNwSOpQ\"><b>AI辅助迭代优化</b> 用自然语言告诉Claude想改什么，它会帮你一步步调整流程。</li><li data-pid=\"3VcfKaci\"><b>一键导出</b> 动生成<code>.claude/agents/*.md</code>和<code>.claude/commands/*.md</code>文件，导出后即可在CLI里直接跑。</li><li data-pid=\"9pvolhfe\"><b>Slack 集成（Beta）</b> 可以把工作流分享到Slack，也能一键导入别人分享的工作流。</li><li data-pid=\"b3cMhXio\"><b>本地安全执行</b> 除MCP节点需要网络，其他操作都在本地完成，更安全。</li><li data-pid=\"e-FfGE4C\"><b>国际化支持</b> 英语、日语、韩语、简体中文和繁体中文都支持。</li></ol><h2><b>工作流组件详解</b></h2><p data-pid=\"lehhTf4E\">你在VSCode打开Claude Code Workflow Studio后，会看到一个「画布」界面：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-beb2a7d983a7b02b48b518d3a69652e3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2940\" data-rawheight=\"1836\" data-original-token=\"v2-7a4e5429911be4e58a99666adb9af72a\" class=\"origin_image zh-lightbox-thumb\" width=\"2940\" data-original=\"https://pic4.zhimg.com/v2-beb2a7d983a7b02b48b518d3a69652e3_r.jpg\"/></figure><ul><li data-pid=\"fq5ail7g\"><b><code>Prompt Nodes</code></b>：模板化提示词节点，支持变量和动态替换</li><li data-pid=\"B0ZJdWQs\"><b><code>Sub-Agent Nodes</code></b>：独立智能体，可自定义系统提示，支持模型选（<code>Opus</code>、<code>Sonnet</code>、<code>Haiku</code>）</li><li data-pid=\"WjBbg31w\"><b><code>Skill Nodes</code></b>：可引用或创建Claude Code Skills，带YAML元数据的技能模块</li><li data-pid=\"7gfS7Dnp\"><b><code>MCP Tool Nodes</code></b>：基于Model Context Protocol的外部工具集成节点，如数据库、API或Playwright浏览器</li><li data-pid=\"6hvs-CQT\"><b>Conditional Branching</b>：通过<code>IfElse</code>、<code>Switch</code>实现流程分支逻辑</li><li data-pid=\"BwiN9Dqu\"><b><code>AskUserQuestion Nodes</code></b>：用户交互节点，支持多选项分支</li></ul><p data-pid=\"eIBGHTV6\">每个节点通过「线」连接，形成一个完整的自动化工作流。</p><h2>如何安装和使用？</h2><h3>1. 安装依赖</h3><p data-pid=\"gOvH5GeO\">首先你需要安装Claude Code CLI：</p><div class=\"highlight\"><pre><code class=\"language-text\">https://claude.com/claude-code</code></pre></div><p data-pid=\"0WK0oGFu\">安装完成后输入：</p><div class=\"highlight\"><pre><code class=\"language-text\">claude --version</code></pre></div><p data-pid=\"l2dX8j7e\">确认可以正常运行。</p><h3>2. 安装插件</h3><p data-pid=\"MXnVTLYL\">有两种安装方式：</p><p data-pid=\"1CeX6IY4\"><b>方法一：从 VSCode 商店安装</b></p><ol><li data-pid=\"UvX6g9GX\">打开VSCode；</li><li data-pid=\"nhyIuKQ0\">按<code>Ctrl+Shift+X</code>；</li><li data-pid=\"MhCeOwT-\">搜索<b>Claude Code Workflow Studio</b>；</li><li data-pid=\"nU14IUyr\">点击安装。</li></ol><p data-pid=\"lEZ-2i8J\"><b>方法二：从源码安装</b></p><div class=\"highlight\"><pre><code class=\"language-text\">git clone https://github.com/breaking-brake/cc-wf-studio.git\ncd cc-wf-studio\nnpm install\nnpm run build\nnpx vsce package</code></pre></div><p data-pid=\"nj14CdYV\">然后在VSCode扩展管理器中选择「从VSIX安装」。</p><h3>3. 打开编辑器</h3><p data-pid=\"vVo9po3H\">在VSCode命令面板中输入：</p><div class=\"highlight\"><pre><code class=\"language-text\">Claude Code Workflow Studio: Open Editor</code></pre></div><p data-pid=\"7wO3JeJX\">首次使用时，会启动一个<b>交互式教学向导</b>，带演示动画，教你如何添加节点、连线和配置参数。</p><h3>4. 创建一个简单工作流</h3><p data-pid=\"3WXUEqLH\">举个例子：</p><p data-pid=\"b4D0L--U\"><b>目标</b>：创建一个「自动问候」工作流。</p><ol><li data-pid=\"er4KP7NT\">添加一个<code>Prompt Node</code> 内容：你好，我是Claude！</li><li data-pid=\"jzJjjqHt\">添加一个<code>AskUserQuestion</code>节点 内容：你现在感觉如何？（开心 / 忙碌 / 放松）</li><li data-pid=\"OHWD_zoK\">添加一个<code>Sub-Agent</code>节点 根据不同回答生成回应。</li><li data-pid=\"v3uz6CT-\">点击「导出」 自动生成<code>.claude/commands/greeting.md</code>文件。 现在你可以直接用Claude Code CLI执行！</li></ol><h2>实际应用案例</h2><h3>案例1：代码审查自动化</h3><p data-pid=\"9Uc3E1wI\">假设我们要创建一个自动化的代码审查工作流：</p><p data-pid=\"WEIcjYFt\"><b>传统做法：</b> 你得写一大堆配置文件，定义每一步的输入输出，还要处理各种异常，既繁琐又容易出错。</p><p data-pid=\"C-QTN6jX\"><b>Workflow Studio方式：</b></p><ol><li data-pid=\"91afHCL-\"><b>添加节点</b>：从左侧面板拖一个<code>Sub-Agent</code>节点</li><li data-pid=\"crV93dkM\"><b>配置任务</b>：选中它，设置为「代码评审智能体」，配置检查规则</li><li data-pid=\"FLkQiZmY\"><b>添加决策</b>：拖一个<code>AskUserQuestion</code>节点，问一下审查级别</li><li data-pid=\"pq2PlbjU\"><b>条件分支</b>：用<code>IfElse</code>根据用户选择分流</li><li data-pid=\"6xmRktSG\"><b>结果处理</b>：再加一个<code>Sub-Agent</code>节点生成修复建议</li></ol><p data-pid=\"EPoZAQen\">整个流程几分钟就搭好了，还能随时改、随时优化。</p><h3>案例2：文档处理流水线</h3><p data-pid=\"nBOCzHZt\">这是一个稍微复杂一点的例子，展示如何处理PDF文档：</p><ol><li data-pid=\"YN3FVcVA\"><b>输入节点</b>：<code>Prompt</code>节点用来问文档路径</li><li data-pid=\"NMZ4guBS\"><b>PDF提取</b>：<code>Skill</code>节点调用PDF提取技能</li><li data-pid=\"ZrtaWOEq\"><b>用户选择</b>：<code>AskUserQuestion</code>节点问处理类型</li><li data-pid=\"FtEzUXSp\"><b>分支处理</b>：<code>Switch</code>节点根据选择调用不同处理器</li><li data-pid=\"3mD5QJ0E\"><b>格式化输出</b>：<code>Sub-Agent</code>节点生成最终报告</li></ol><p data-pid=\"NEh3S6D5\">整个流程可以灵活应对不同文档类型，用户选择后自动走对应分支。</p><h3>案例3：Web自动化集成</h3><p data-pid=\"lI2LfNxv\">借助MCP工具节点，可以轻松把外部服务接入工作流：</p><ol><li data-pid=\"K2lvtvQG\"><b>输入节点</b>：<code>Prompt</code>节点问用户要操作的目标网站</li><li data-pid=\"fx0fwovq\"><b>网页导航</b>：<code>MCP</code>节点用Playwright打开网页</li><li data-pid=\"nOIeAk3m\"><b>用户交互</b>：<code>AskUserQuestion</code>节点询问要执行的操作</li><li data-pid=\"GT3qwGqC\"><b>执行动作</b>：<code>MCP</code>节点完成点击、截图等任务</li><li data-pid=\"BifJyPgP\"><b>处理结果</b>：<code>Sub-Agent</code>节点分析并整理输出</li></ol><p data-pid=\"saMRnfs1\">这样就能让AI工作流直接和真实网页互动，应用场景更广。</p><h2><b>常见问题</b></h2><p data-pid=\"bJbO_PEs\"><b>Q：我没有编程经验，能使用这个工具吗？</b> </p><p data-pid=\"hUj9dKu1\">A：完全可以！Workflow Studio提供可视化界面，不需要写任何代码。</p><p data-pid=\"5v_TSXOI\"><b>Q：导出后的文件还能手动修改吗？</b> </p><p data-pid=\"fz7aHAD9\">A：可以，它们都是普通Markdown文件，可以自由编辑。</p><p data-pid=\"m4644NKX\"><b>Q：工作流太复杂导出失败？</b> </p><p data-pid=\"hlzaP7_L\">A：检查一下节点数量是否超过50个，或者是否存在命名冲突。</p><p data-pid=\"UBcAbQuq\"><b>Q：MCP连接错误？</b></p><p data-pid=\"kXSMVxtE\">A：确认Claude Code CLI的MCP服务器配置是否正确。</p><p data-pid=\"QWBmPEr8\"><b>Q：可以团队共享技能吗？</b></p><p data-pid=\"Z1KaY0jk\">A：可以，把技能放在<code>.claude/skills/</code>文件夹，然后提交到版本库就行。</p><p data-pid=\"cv3Y1EUj\"><b>Q：工作流保存失败怎么办？</b> </p><p data-pid=\"FdTPvYam\">A：检查工作流名称是否符合规范，并确认所有必填字段都已填写。</p><h2>总结</h2><p data-pid=\"zuDLK00Z\">我们可以看到，<b>Claude Code Workflow Studio</b>是一个让你不用写代码，也能在VS Code里把AI自动化流程搭出来的插件。流程想清楚后，拖拽模块、简单配置一下，再跟AI说明需求，就可以直接运行。</p><p data-pid=\"de-lNgBF\">如果你已经在用Claude Code，或者正打算把一些重复操作自动化，这个项目挺值得一试。去GitHub看看源码和文档，很容易上手，也方便按自己的习惯改。</p><p data-pid=\"QNs7RYUT\"><b>GitHub</b>：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/breaking-brake/cc-wf-studio\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/breaking-bra</span><span class=\"invisible\">ke/cc-wf-studio</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"NFlehkdQ\"><b>既然看到这里了，如果觉得有启发，随手点个赞、推荐、转发三连吧，你的支持是我持续分享干货的动力。</b></p>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-7a4e5429911be4e58a99666adb9af72a.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pic1.zhimg.com/50/v2-1f2ec2c631475e684ff505e437c93f4f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4fde71b9170d1f8950f00aa3c3f8d1fc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7a4e5429911be4e58a99666adb9af72a_720w.jpg?source=b6762063"
+        ],
+        "comment_permission": "all",
+        "is_labeled": false,
+        "article_type": "normal",
+        "comment_count": 0,
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1991470908339143983",
+        "author": {
+          "url": "https://api.zhihu.com/people/ae172db0798253e0b3f3e87ed3f10516",
+          "url_token": "tutunn",
+          "name": "技术极简主义",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c66633fbf9dc8bad26635bb8c20d75cc_l.jpg?source=b6762063",
+          "is_followed": false,
+          "is_following": false,
+          "id": "ae172db0798253e0b3f3e87ed3f10516",
+          "user_type": "people",
+          "headline": "简单就是最美好的技术表现形式",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 46
+        },
+        "image_url": "https://pic1.zhimg.com/v2-7a4e5429911be4e58a99666adb9af72a.jpg?source=7e7ef6e2&needBackground=1",
+        "voting": 0,
+        "excerpt": "最近在查资料、刷GitHub的时候，偶然发现了一个挺有意思的项目—— Claude Code Workflow Studio。如果你也接触过扣子、Dify或者n8n这一类的工作流自动化工具，是不是有一种很眼熟的感觉。Claude Code Workflow Studio是为Claude Code CLI打造的 可视化工作流编辑器，支持拖拽式AI工作流设计，无需编程即可创建和导出自动化流程。接下来，就让我们看看它跟其它工具之间到底有什么不同？   它能帮你做什么？🎯 无代码工作流设计这是…",
+        "preview_type": "default",
+        "type": "article",
+        "excerpt_new": "最近在查资料、刷GitHub的时候，偶然发现了一个挺有意思的项目—— Claude Code Workflow Studio。如果你也接触过扣子、Dify或者n8n这一类的工作流自动化工具，是不是有一种很眼熟的感觉。Claude Code Workflow Studio是为Claude Code CLI打造的 可视化工作流编辑器，支持拖拽式AI工作流设计，无需编程即可创建和导出自动化流程。接下来，就让我们看看它跟其它工具之间到底有什么不同？   它能帮你做什么？🎯 无代码工作流设计这是…",
+        "column": {
+          "id": "c_1986074519547446733",
+          "title": "Claude教程",
+          "imageUrl": "https://picx.zhimg.com/v2-3c923e45545e7574e8d7d147799c3635_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "is_following": false,
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1986074519547446733",
+          "author": {
+            "is_followed": false,
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_following": false,
+            "id": "",
+            "name": "匿名用户",
+            "is_org": false,
+            "followers_count": 0
+          },
+          "intro": "Claude教程系列文章，手把手教你使用Claude",
+          "updated": 1766297159
+        },
+        "is_navigator": false,
+        "title": "推荐一个实用开源工具：Claude Code可视化工作流编辑器",
+        "created": 1767583871,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "favorite_count": 15,
+        "id": "1991470908339143983",
+        "voteup_count": 5,
+        "visited_count": 203,
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991470908339143983}",
+      "attached_info": "Cr8HCOfporrDn4yvqAEQBxoJMjY4NTc4NDg2IP/g7MoGKAUwAEBdSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AFoIMTM4MDg2MjRiIGVhZWE1NDA2NmM4MTlhNmE3OWI5ZmNiZTFkOTIyMzM0chMxOTkxNDcwOTA4MzM5MTQzOTgzggFfaHR0cHM6Ly9waWMxLnpoaW1nLmNvbS92Mi03YTRlNTQyOTkxMWJlNGU1OGE5OTY2NmFkYjlhZjcyYS5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGKARVjXzE5ODYwNzQ1MTk1NDc0NDY3MzOqAQlyZWNvbW1lbmTCASBhZTE3MmRiMDc5ODI1M2UwYjNmM2U4N2VkM2YxMDUxNvIBCggMEgZOb3JtYWzyASgIChIkMTFiNWU3MzQtYmQwZi00ZDM3LWE0YWEtMmI3NGVhNTRlZmVj8gEGCAsSAjE2ggIAiAKYrOCbuTOSAiBhZTE3MmRiMDc5ODI1M2UwYjNmM2U4N2VkM2YxMDUxNpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIYVFNfU09VUkNFX1dBUk1fVVBfQk9PU1Qy6AID+gILTk9STUFMX0ZMT1eKAyAxNGFhMDhhNzk1Mjg0ZTA3YjRiMDJlN2RmYjM4ZjU0N5oDDQoCdjIQABoFb3RoZXKoA8sB2AMA6gMfd2FybXVwVHdvVG93ZXJUZXh0Qm9vc3RSZWNhbGxlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IABCADxi4CCIjdjItMWYyZWMyYzYzMTQ3NWU2ODRmZjUwNWU0MzdjOTNmNGY6LQgCEJoQGIUJIiN2Mi00ZmRlNzFiOTE3MGQxZjg5NTBmMDBhYTNjM2Y4ZDFmYzotCAIQ/BYYrA4iI3YyLTdhNGU1NDI5OTExYmU0ZTU4YTk5NjY2YWRiOWFmNzJhgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgzBVyP4EFAAAAAAAAAACJBVtxBLD+f7I/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRCQBgCgBl6oBgCSAi4KCTI2ODU3ODQ4NhITMTk5MTQ3MDkwODMzOTE0Mzk4MxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "94_1767705679.863",
+      "type": "feed",
+      "offset": 94,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705679,
+      "updated_time": 1767705679,
+      "target": {
+        "allow_segment_interaction": true,
+        "visited_count": 332010,
+        "favorite_count": 1408,
+        "voteup_count": 4819,
+        "preview_text": "",
+        "type": "answer",
+        "updated_time": 1766916353,
+        "excerpt": "短视频有个老头儿，吃饭的时候净唠鬼子嗑儿，鸡蛋叫玉子，海带叫昆布，烤鸡肉串叫烧鸟，还动不动来个味噌汤啥的。 然后不知道从什么时候开始，有人在他评论区发俳句，不乏精品，试举几例如下—— 老头吃昆布/遥想当年遇八路/汉语没记住 玉碎我逃跑/伪造病历去广岛/地方没挑好 神风特攻队/队友俯冲我撤退/傻福才玉碎 玉子吃到饱/遥想当年硫磺岛/战友变烧鸟 玉子是军粮/忆昔曾是昭和郎/一切为天皇 关东煮味好/想起当年硫磺岛/幸亏…",
+        "excerpt_new": "短视频有个老头儿，吃饭的时候净唠鬼子嗑儿，鸡蛋叫玉子，海带叫昆布，烤鸡肉串叫烧鸟，还动不动来个味噌汤啥的。 然后不知道从什么时候开始，有人在他评论区发俳句，不乏精品，试举几例如下—— 老头吃昆布/遥想当年遇八路/汉语没记住 玉碎我逃跑/伪造病历去广岛/地方没挑好 神风特攻队/队友俯冲我撤退/傻福才玉碎 玉子吃到饱/遥想当年硫磺岛/战友变烧鸟 玉子是军粮/忆昔曾是昭和郎/一切为天皇 关东煮味好/想起当年硫磺岛/幸亏…",
+        "content": "<p data-pid=\"MpJAbslT\">短视频有个老头儿，吃饭的时候净唠鬼子嗑儿，鸡蛋叫玉子，海带叫昆布，烤鸡肉串叫烧鸟，还动不动来个味噌汤啥的。</p><p data-pid=\"cZnCIYHq\">然后不知道从什么时候开始，有人在他评论区发俳句，不乏精品，试举几例如下——</p><p data-pid=\"NGe5IdH3\">老头吃昆布/遥想当年遇八路/汉语没记住</p><p data-pid=\"PPJOkbGq\">玉碎我逃跑/伪造病历去广岛/地方没挑好</p><p data-pid=\"Y7SDgpcS\">神风特攻队/队友俯冲我撤退/傻福才玉碎</p><p data-pid=\"hQMcsyXG\">玉子吃到饱/遥想当年硫磺岛/战友变烧鸟</p><p data-pid=\"Vd90yIsG\">玉子是军粮/忆昔曾是昭和郎/一切为天皇</p><p data-pid=\"C1PfwOLJ\">关东煮味好/想起当年硫磺岛/幸亏跑的早</p><p data-pid=\"jgVMxcrQ\">决战中途岛/清酒当然不能少/喝完就开搞</p><p data-pid=\"ciAMsvbq\">当年炸广岛/别人玉碎我逃跑/天皇算个吊</p><p data-pid=\"c0U5vGLh\">味噌配昆布/皇军让我守仓库/半夜遇八路</p><p data-pid=\"btYGTQPG\">皇粮炒鸡蛋/吃得老头胃打转/天皇挨核弹</p><p data-pid=\"UVKew42X\">味噌蛋炒饭/遥想当年东京畔/亲友熟一半</p><p data-pid=\"5mvp2dFu\">回忆从军累/服役国民宪兵队/长官汪精卫</p><p data-pid=\"AKGspF8L\">今天吃昆布/老登听成有八路/爹我是刘路</p><p data-pid=\"zCkIVhKL\">卧底在八路/错把海带叫昆布/今晚就切腹</p><p data-pid=\"F-P3udn2\">品尝油炸蛋/想起广岛天变暗/眼睛直流汗</p><p data-pid=\"vmxkPfBG\">油炸无菌蛋/想起当年广岛恋/全是烤肉饭</p><p data-pid=\"JFz31dBV\">战败八十载/唯有乡音未曾改/梦回日本海</p><p data-pid=\"NNsqTZT3\">老头卷和牛/遥想当年核弹头/欲语泪先流</p><p data-pid=\"bmbr7zZE\">周末床上躺/打开手机火磨坊/俳句看到爽</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HXnvFvoE\">以及——</p><p data-pid=\"l_0tzHCO\">线路一错误/线路二数据繁忙/线路三异常</p><p data-pid=\"G_JGrlHZ\">12345/1234567/12345</p><p data-pid=\"b7rnORBY\">俳句写不出/我是超级大笨猪/呜呜呜呜呜</p>",
+        "url": "https://api.zhihu.com/answers/1987730542532269265",
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "NGe5IdH3",
+            "text": "老头吃昆布/遥想当年遇八路/汉语没记住",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991923065496553444"
+                  ],
+                  "is_like": false,
+                  "like_count": 89,
+                  "comment_count": 5,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "PPJOkbGq",
+            "text": "玉碎我逃跑/伪造病历去广岛/地方没挑好",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991923065496553444"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Y7SDgpcS",
+            "text": "神风特攻队/队友俯冲我撤退/傻福才玉碎",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991923065496553444"
+                  ],
+                  "is_like": false,
+                  "like_count": 74,
+                  "comment_count": 5,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "hQMcsyXG",
+            "text": "玉子吃到饱/遥想当年硫磺岛/战友变烧鸟",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991923065496553444"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ciAMsvbq",
+            "text": "当年炸广岛/别人玉碎我逃跑/天皇算个吊",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991923065496553444"
+                  ],
+                  "is_like": false,
+                  "like_count": 15,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "UVKew42X",
+            "text": "味噌蛋炒饭/遥想当年东京畔/亲友熟一半",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991923065496553444"
+                  ],
+                  "is_like": false,
+                  "like_count": 14,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "F-P3udn2",
+            "text": "品尝油炸蛋/想起广岛天变暗/眼睛直流汗",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991923065496553444"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "l_0tzHCO",
+            "text": "线路一错误/线路二数据繁忙/线路三异常",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991923065496553444"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "is_labeled": false,
+        "is_navigator": false,
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "author": {
+          "headline": "站在天台假装跳，人多我就往下尿！",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 3424,
+          "id": "086ee68051ad1c9f96428ad83bd6c64a",
+          "url": "https://api.zhihu.com/people/086ee68051ad1c9f96428ad83bd6c64a",
+          "name": "知名不具",
+          "avatar_url": "https://picx.zhimg.com/50/v2-4acec30d442c56a642ede67112727a84_l.jpg?source=b6762063",
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "zy921018"
+        },
+        "thanks_count": 303,
+        "comment_count": 445,
+        "preview_type": "default",
+        "id": "1987730542532269265",
+        "question": {
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/317039676",
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "user_type": "people",
+            "url_token": "ming-ri-chi-xin",
+            "followers_count": 0,
+            "is_following": false,
+            "id": "14bd040b382746980b922de478beae02",
+            "url": "https://api.zhihu.com/people/14bd040b382746980b922de478beae02",
+            "name": "Shy swallow",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-43015eebd2e070d2307221eea5ecc237_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_followed": false
+          },
+          "created": 1553253051,
+          "answer_count": 0,
+          "comment_count": 2,
+          "is_following": false,
+          "detail": "",
+          "question_type": "normal",
+          "id": "317039676",
+          "excerpt": "",
+          "title": "有哪些让你一秒笑出来的段子？",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            4447,
+            4453,
+            11772,
+            20223
+          ]
+        },
+        "reshipment_settings": "allowed",
+        "created_time": 1766691891,
+        "navigator_vote": false,
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1987730542532269265}",
+      "attached_info": "CpgGCOfporrDn4yvqAEQBBoJNzYyNjkyMjQ2ILOotsoGKNMlML0DQF5KQwoXVFNfU09VUkNFX1RIRU1FX1dBS0VfVVASInRoZW1lOmRldGVjdDpjb250ZW50OnRoZW1lOmlkOjMxNTMYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDMyNzI5NTU3YiBlYWVhNTQwNjZjODE5YTZhNzliOWZjYmUxZDkyMjMzNHITMTk4NzczMDU0MjUzMjI2OTI2NYoBCTMxNzAzOTY3NqoBCXJlY29tbWVuZMIBIDA4NmVlNjgwNTFhZDFjOWY5NjQyOGFkODNiZDZjNjRh8gEKCAwSBk5vcm1hbPIBKAgKEiQzODNhM2FhZi0yNzA3LTRmMzItYjZiMS0zYmQ0NDBlZjYxYmHyAQYICxICMTaCAgCIApis4Ju5M5ICIDA4NmVlNjgwNTFhZDFjOWY5NjQyOGFkODNiZDZjNjRhmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAhdUU19TT1VSQ0VfVEhFTUVfV0FLRV9VUOgCAvoCC05PUk1BTF9GTE9XigMgMTRhYTA4YTc5NTI4NGUwN2I0YjAyZTdkZmIzOGY1NDeaAw0KAnYyEAAaBW90aGVyqAPqoRTYAwDqAxNUaGVtZVdha2VVcFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoOrXnD+BBQAAAAAAAAAAiQVbcQSw/n+yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUQkAYAoAZfqAYBkgIuCgk3NjI2OTIyNDYSEzE5ODc3MzA1NDI1MzIyNjkyNjUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "95_1767705679.763",
+      "type": "feed",
+      "offset": 95,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705679,
+      "updated_time": 1767705679,
+      "target": {
+        "is_labeled": true,
+        "allow_segment_interaction": true,
+        "excerpt": "这取决于你和领导怎么看「明明」。 曾国藩组建湘军，战功赫赫。最后湖北巡抚大印，却给了他的下属胡林翼。 还把他派到江西攻打起义军，还得自己筹集军饷。江西官场非常不配合，士兵常常是吃了上顿没下顿。 为此，曾国藩非常懊恼。 曾国藩的「明明」是，付出跟回报严重不成正比。 你的“明明”是能力与功绩，但上司的“明明”永远是权力与安全的平衡。再看，咸丰集团的「明明」。 一个侍郎，还是汉人，居然拉出一只战斗力极强的军…",
+        "preview_type": "default",
+        "visited_count": 329,
+        "url": "https://api.zhihu.com/answers/1989965513913282738",
+        "voteup_count": 28,
+        "is_copyable": false,
+        "content": "<p data-pid=\"7g9R-IHS\">这取决于你和领导怎么看「明明」。</p><p data-pid=\"Elwuj0Yx\">曾国藩组建湘军，战功赫赫。最后湖北巡抚大印，却给了他的下属胡林翼。</p><p data-pid=\"BiJcgKqm\">还把他派到江西攻打起义军，还得自己筹集军饷。江西官场非常不配合，士兵常常是吃了上顿没下顿。</p><p data-pid=\"DneOIarh\">为此，曾国藩非常懊恼。</p><p data-pid=\"e-lqtPQj\">曾国藩的「明明」是，付出跟回报严重不成正比。</p><p data-pid=\"b8HM7WDP\"><b>你的“明明”是能力与功绩，但上司的“明明”永远是权力与安全的平衡。</b></p><hr/><p data-pid=\"xJvKfBxE\">再看，咸丰集团的「明明」。</p><p data-pid=\"tK5NH_Hs\">一个侍郎，还是汉人，居然拉出一只战斗力极强的军队。如果再给他湖北巡抚，他就集兵权、财政权、行政权于一身。</p><p data-pid=\"aSldpmIF\">集团内有人建议：“这就好比治水，现在水（湘军）已经很大了，如果再给一块地盘让它流，朝廷就再也控制不住了！”</p><p data-pid=\"vrk5phFX\">咸丰帝忌惮其私兵太强，害怕形成藩王割据局面。</p><p data-pid=\"lUxzu0xd\"><b>职场铁律：当你的能力强大到让系统感到失控时，“防备”会优先于“重用”</b>。</p><hr/><p data-pid=\"VvMOuA9G\">接着看背景。</p><p data-pid=\"QHEbjtYW\">曾国藩虽然也是进士出身，但祖上几代都是农民，没有深厚的满洲贵族背景做靠山。</p><p data-pid=\"bMNGlg4E\">在满洲亲贵眼中，他显得更加“不可控”。</p><p data-pid=\"Vb8vuOYV\">反观胡林翼，岳父是两江总督陶澍，父亲是内阁学士，与满洲权贵文庆关系极好。</p><p data-pid=\"jR_TTy_i\">可见，<b>关键人的信任与支持，可以和光同尘，往往比单纯的能力更容易打开晋升的通道</b>。</p><hr/><p data-pid=\"fhzYua8U\">再看为官风格。</p><p data-pid=\"PTCqrs4y\">为官初期，曾国藩性格刚烈，甚至有些“愤青”。他早年曾上书直言批评咸丰皇帝的过失，在江西又常与地方官员争吵。</p><p data-pid=\"lHllpuwy\">胡林翼却截然不同，他深知朝廷猜忌，主动结交满人总督官文，把功劳分给他。</p><p data-pid=\"dXAcouMK\">这形成了鲜明对比：<b>难以合作、制造麻烦的印象，会严重抵消你专业能力带来的价值；而主动将功劳与关键人物共享，是把个人能力转化为大家都认可的方法。</b></p><hr/><p data-pid=\"8zC4wR4J\">看曾国藩如何破局。</p><p data-pid=\"IjcItH_2\">回乡守孝期间，他痛定思痛，重新反复研读老庄，请求要好的同僚批评指正。</p><p data-pid=\"Plx2r6zC\">在给弟弟的信中写道：“往年自负，以为本领不小……然七年的挫折，让我明白：</p><p data-pid=\"nzVMC1C6\"><b>办事，要多找替手，要懂得顺势</b>。</p><p data-pid=\"o5H4sBif\">咸丰八年复出后，他变了。</p><p data-pid=\"lGNAMzyD\">与地方官交往，不再直接冲突；上奏语气变得谦恭，开始主动为朝廷分忧，甚至举荐满人多隆阿等将领独立领兵。</p><p data-pid=\"YtwKwYLL\">他<b>不再追求“全权掌控”，而是“让权于朝，藏锋于己”。</b></p><p data-pid=\"EujneeSM\">咸丰集团看到他的转变，猜疑稍减。</p><p data-pid=\"CJsC1Low\">加之太平天国势力势头再起，正规的清军缩手缩尾不成事，朝廷不得不更倚重他。</p><p data-pid=\"P3wnr7_f\">时机成熟时，总督之位自然而来。</p><p data-pid=\"HzSaPYmI\">所以，“能力很强却不被重用”往往不是能力问题，而是三个维度没有看明白：</p><p data-pid=\"8JJ0SoYC\"><b>1）上位者的安全感。</b></p><p data-pid=\"eGTFnzGD\">领导首要考虑的是控制与平衡。</p><p data-pid=\"yWKBgVJB\">你的“强”若让他感到威胁或失控，他宁愿用个“听话的80分”，也不会用“刺头的100分”。</p><p data-pid=\"MMUnDdZT\">脱缰的野马，谁敢骑？</p><p data-pid=\"tG-1O1Kw\">在职场：</p><blockquote data-pid=\"hLcz-3zQ\"><b>能力是刀刃，忠诚是刀柄，柄不在手，刀不敢授。</b></blockquote><p data-pid=\"gGtHO7hj\"><b>2）团队的接纳度。</b></p><p data-pid=\"jKvUND5Z\">职场中，有一张利益与人情交织隐形的网。上次同事竞聘管理岗没有成功，事后聊天，他说：“只顾埋头干活儿，没有多主动抬头看路，认可咱的人还是少了！”</p><p data-pid=\"-lz2ZnC7\">个人能力再突出，若无法融入网络，反而会成为团队另类被排斥。</p><p data-pid=\"wMuQU_rL\">胡林翼的成功，本质是：</p><blockquote data-pid=\"dWt-HZQ1\"><b>将个人能力，分散进权力网络可以的兼容框架之中。</b></blockquote><p data-pid=\"Su3FRQjl\"><b>3）时机的成熟度。</b></p><p data-pid=\"Vq6UVaMv\">重大提拔需要“<b>需求、信任、契机</b>”三者同时出现。</p><p data-pid=\"hTAJ0kG1\">前期不重用你，可能只是因为：</p><blockquote data-pid=\"cfOSg4_l\"><b>最高层的信任储备还未存够，或团队的痛点还不够痛。</b></blockquote><hr/><p data-pid=\"p-ccBAlC\">由曾国藩的事例可以得出：</p><p data-pid=\"XgjGqtCO\">前期不被重用，可能是上层在观察你的<b>权力品格</b>——你是否懂得能力的边界，是否理解如何共享，是否能在坚持核心目标的同时，灵活绕过不必要的冲突。</p><p data-pid=\"Ni1lDYVV\"><b>真正的“重用”，从来不是对过去功劳的奖赏，而是对未来可控合作的预期。</b></p><p data-pid=\"7J8EZveN\">学习后期的曾国藩，既展示出不可或缺的价值，又清晰传递出“我与团队同频”的信号，那些曾经紧闭的门，才会一扇接一扇地打开。</p><p data-pid=\"eRv7RLYZ\">职场如江湖，<b>才能让人脱颖而出，但懂得“为何不授”的智慧，才能让人真正走上去。</b></p><p data-pid=\"VlMZbEVp\"> 有时候，不被重用不是路的尽头，而是决策者在等你给出一个让它安心托付的理由，这需要需求、信任和契机同时出现在你面前。</p><p data-pid=\"A4ZU85kN\">我是 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/40f1a425b6d254d2da38c1d629d83779\" data-hash=\"40f1a425b6d254d2da38c1d629d83779\" data-hovercard=\"p$b$40f1a425b6d254d2da38c1d629d83779\">@有头发的光头强</a> <a class=\"member_mention\" href=\"https://www.zhihu.com/people/7da508b3129cef2b0105fc704dd7249d\" data-hash=\"7da508b3129cef2b0105fc704dd7249d\" data-hovercard=\"p$b$7da508b3129cef2b0105fc704dd7249d\">@知乎职场</a> </p>",
+        "thanks_count": 3,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "type": "answer",
+        "author": {
+          "url": "https://api.zhihu.com/people/40f1a425b6d254d2da38c1d629d83779",
+          "headline": "在反卷前线为你摇旗。",
+          "is_following": false,
+          "avatar_url": "https://pic1.zhimg.com/50/v2-0d8b6ae94206af63b4ef95c2be33f300_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 431,
+          "id": "40f1a425b6d254d2da38c1d629d83779",
+          "user_type": "people",
+          "url_token": "80-5-58-30-41",
+          "name": "有头发的光头强",
+          "is_followed": false
+        },
+        "updated_time": 1767224750,
+        "comment_count": 19,
+        "question": {
+          "author": {
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "一级注册消防工程师资格证持证人"
+              }
+            ],
+            "followers_count": 2205,
+            "user_type": "people",
+            "url_token": "rou-bao-zi-41-41",
+            "name": "建筑从业人员",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-e62bef9330f04cbc50dbba72f77f7cfd_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false,
+            "id": "7a8392ca5ab29159466c892b5c3265d2",
+            "url": "https://api.zhihu.com/people/7a8392ca5ab29159466c892b5c3265d2",
+            "headline": "如何成为一个好设计，是一道没答案的题目",
+            "gender": 1,
+            "is_following": false
+          },
+          "is_following": false,
+          "id": "1966433074410660657",
+          "url": "https://api.zhihu.com/questions/1966433074410660657",
+          "created": 1761614179,
+          "follower_count": 0,
+          "comment_count": 4,
+          "detail": "",
+          "type": "question",
+          "title": "为什么你明明能力很强，但就是不受重用？",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            19632,
+            752082
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "excerpt_new": "这取决于你和领导怎么看「明明」。 曾国藩组建湘军，战功赫赫。最后湖北巡抚大印，却给了他的下属胡林翼。 还把他派到江西攻打起义军，还得自己筹集军饷。江西官场非常不配合，士兵常常是吃了上顿没下顿。 为此，曾国藩非常懊恼。 曾国藩的「明明」是，付出跟回报严重不成正比。 你的“明明”是能力与功绩，但上司的“明明”永远是权力与安全的平衡。再看，咸丰集团的「明明」。 一个侍郎，还是汉人，居然拉出一只战斗力极强的军…",
+        "favorite_count": 6,
+        "vote_next_step": "vote",
+        "id": "1989965513913282738",
+        "created_time": 1767224750,
+        "reshipment_settings": "disallowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "preview_text": "",
+        "is_navigator": false,
+        "segment_infos": [
+          {
+            "pid": "Ni1lDYVV",
+            "text": "真正的“重用”，从来不是对过去功劳的奖赏，而是对未来可控合作的预期。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989996170244797688"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989965513913282738}",
+      "attached_info": "CtgFCOfporrDn4yvqAEQBBoJNzYzNTMxOTc3IK7r1soGKBwwE0BfSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCTExNzExNDYzMWIgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE5ODk5NjU1MTM5MTMyODI3MziKARMxOTY2NDMzMDc0NDEwNjYwNjU3qgEJcmVjb21tZW5kwgEgNDBmMWE0MjViNmQyNTRkMmRhMzhjMWQ2MjlkODM3NznyAQoIDBIGTm9ybWFs8gEoCAoSJDVmMTZjM2IzLTBhNzItNDI4MC04MzhjLWJmYzNiNjYzYjllZPIBBggLEgIxNoICAIgCmazgm7kzkgIgNDBmMWE0MjViNmQyNTRkMmRhMzhjMWQ2MjlkODM3NzmaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDE0YWEwOGE3OTUyODRlMDdiNGIwMmU3ZGZiMzhmNTQ3mgMNCgJ2MhAAGgVvdGhlcqgDyQLYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAZEiMP4EFAAAAAAAAAACJBVtxBLD+f7I/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRCQBgCgBmCoBgCSAi4KCTc2MzUzMTk3NxITMTk4OTk2NTUxMzkxMzI4MjczOBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=95&desktop=true&end_offset=96&page_number=17&session_token=eaea54066c819a6a79b9fcbe1d922334",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=95&desktop=true&end_offset=96&page_number=17&session_token=eaea54066c819a6a79b9fcbe1d922334",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

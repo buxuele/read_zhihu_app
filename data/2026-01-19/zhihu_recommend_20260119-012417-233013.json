@@ -1,0 +1,692 @@
+{
+  "data": [
+    {
+      "id": "132_1768757063.379",
+      "type": "feed",
+      "offset": 132,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757063,
+      "updated_time": 1768757063,
+      "target": {
+        "question": {
+          "comment_count": 6,
+          "answer_count": 0,
+          "url": "https://api.zhihu.com/questions/1975905664242034549",
+          "author": {
+            "followers_count": 10682,
+            "url": "https://api.zhihu.com/people/52a1b5862ab3588582f4052513a8256e",
+            "name": "山风不在岚",
+            "headline": "主业冲浪，偶尔搞点自动驾驶算法🚗",
+            "avatar_url": "https://picx.zhimg.com/50/v2-db2acf44d769770cc4fa01f59bbfc3d2_l.jpg?source=b6762063",
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "新加坡国立大学 机械工程硕士"
+              }
+            ],
+            "id": "52a1b5862ab3588582f4052513a8256e",
+            "user_type": "people",
+            "url_token": "zyb-48-91-31",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false
+          },
+          "created": 1763872620,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "1975905664242034549",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            524,
+            139823
+          ],
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "title": "工作多久会对技术祛魅?"
+        },
+        "url": "https://api.zhihu.com/answers/1992304603560169753",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "created_time": 1767782432,
+        "thanks_count": 101,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "updated_time": 1767782432,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "QiZP1Lwk",
+            "text": "和三个东西关系更大：收入、身份、风险感。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992673292767732283"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ub_EFx5D",
+            "text": "“原来技术只是个工具，我卖的还是时间。”",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992673292767732283"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "KA9y3_86",
+            "text": "你写了十年代码，但公司心里，你和三年经验的，只是可替代程度不同。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993334196417102718"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "id": "1992304603560169753",
+        "type": "answer",
+        "voteup_count": 1720,
+        "excerpt_new": "先说结论。 对技术祛魅，和你干了几年没啥关系。 和三个东西关系更大：收入、身份、风险感。 你什么时候会对技术祛魅一般有这几种时间点。 第一段：涨薪停滞那几年刚毕业那几年，技术是有光的。 写几行代码，解决线上故障，团队夸你。 调薪邮件一来，涨了20%，你觉得世界挺公平。 三五年后，你开始算账。 KPI全A，项目也扛了，调薪只有5%。 你看见同届进销售的，平时还老请假见客户，年底一问，年终奖快赶上你全年工资。 这时候…",
+        "content": "<p data-pid=\"5q30xZXd\">先说结论。</p><p data-pid=\"_IrkikJC\">对技术祛魅，和你干了几年没啥关系。</p><p data-pid=\"QiZP1Lwk\">和三个东西关系更大：收入、身份、风险感。</p><h2>你什么时候会对技术祛魅</h2><p data-pid=\"Tv8yCjxr\">一般有这几种时间点。</p><h3>第一段：涨薪停滞那几年</h3><p data-pid=\"_kHqq4ku\">刚毕业那几年，技术是有光的。</p><p data-pid=\"-kwb1DbP\">写几行代码，解决线上故障，团队夸你。</p><p data-pid=\"Rvilkz7E\">调薪邮件一来，涨了20%，你觉得世界挺公平。</p><p data-pid=\"0Rh4TtFb\">三五年后，你开始算账。</p><p data-pid=\"tubFTS5q\">KPI全A，项目也扛了，调薪只有5%。</p><p data-pid=\"5cqiffvs\">你看见同届进销售的，平时还老请假见客户，年底一问，年终奖快赶上你全年工资。</p><p data-pid=\"96wwiFSl\">这时候技术光环就开始掉色。</p><p data-pid=\"VRE9JMob\">技术不会立刻失去意义。</p><p data-pid=\"sRJlfYgR\">但你会第一次明确感受到：</p><p data-pid=\"ub_EFx5D\">“原来技术只是个工具，我卖的还是时间。”</p><h3>第二段：你被第一次“按年龄定价”的时候</h3><p data-pid=\"uLfzF1TY\">大概在30岁往上。</p><p data-pid=\"Sy3FulPA\">你去面一个技术岗，对方很客气。</p><p data-pid=\"Bauz40KG\">简历也夸，项目也夸，最后一句话把你敲醒：</p><p data-pid=\"xMLk-13E\">“你这个经验是不错，就是我们预算……可能更适合招个三到五年的。”</p><p data-pid=\"6MzvbyqV\">你瞬间明白一件事。</p><p data-pid=\"KA9y3_86\">你写了十年代码，但公司心里，你和三年经验的，只是可替代程度不同。</p><p data-pid=\"xQQ5HZAg\">他们评估的是“这个坑的产出 / 成本”，不是“你有多热爱技术”。</p><p data-pid=\"a1zNViNk\">这时候，对技术的那点少年感，开始掉线。</p><p data-pid=\"fE0bs8MC\">你会第一次认真想，“我是不是得学会谈报价，学会站到钱那一边？”</p><h3>第三段：你见过利润怎么来的时候</h3><p data-pid=\"sNpL8kbj\">很多人是从技术转到和钱离得更近的岗位后，才真正祛魅。</p><p data-pid=\"HHMy3BuG\">比如做售前、做解决方案、做技术支持、跟销售一起跑客户。</p><p data-pid=\"BX7DoNPu\">你跟销售一块去见客户。</p><p data-pid=\"SFFBGkOF\">你讲方案，讲得满头大汗，PPT拆到每一个参数。</p><p data-pid=\"QfIsbuuj\">客户点点头，只问一句：“优惠能到什么价？售后谁负责拍板？”</p><p data-pid=\"Z__G30T-\">销售在旁边笑笑：“技术没问题，我们这边肯定给你兜底。”</p><p data-pid=\"SfQeGsw3\">单子签了，提成是销售的，你拿绩效。</p><p data-pid=\"tO0s1WyF\">你那一下午，是“成本”。</p><p data-pid=\"iAr8BjKj\">销售那一下午，是“收益”。</p><p data-pid=\"6pnXFnqk\">这时候你会发现：</p><p data-pid=\"7DvesyKY\">技术是成本，交易是利润。</p><p data-pid=\"xonLo_Xg\">技术必须挂在某个“钱的故事”上，才有价值。</p><p data-pid=\"Qxnsq5XR\">技术本身不产生利润，交易那一下才产生利润。</p><p data-pid=\"jHyYDhXD\">这下你就很难再把技术当信仰了。</p><h2>技术的真用处：保下限，不保上限</h2><p data-pid=\"LeXkIhF-\">别把技术妖魔化，也别神化。</p><p data-pid=\"lkYX0Mxj\">技术有两个很硬的价值：</p><p data-pid=\"vivqPrrf\">你的生存底线</p><p data-pid=\"gbFmOxlG\">你对世界的安全感</p><p data-pid=\"Rh75B6AQ\">你会写代码，会修服务器，会弄PLC，会调网络，这些在任何经济周期里，都是能卖出去的劳动力。</p><p data-pid=\"aLuIXY34\">行情不好，你可能降薪、外包、接散活，但很难直接饿死。</p><p data-pid=\"VnjDrNtM\">你搞纯“会说不懂做”的岗位，行情一差，公司最先砍你。</p><p data-pid=\"WQiG-5PD\">对大部分普通家庭出来的人，技术是起点。</p><p data-pid=\"OgrCfJZc\">它给你第一个稳定现金流。</p><p data-pid=\"KmB1w89W\">它让你不会被老板一个眼神就吓得睡不着。</p><p data-pid=\"xL1Mc6Ci\">但技术的天花板很明显。</p><p data-pid=\"AP8Mi5b2\">越往上，你拼的就不只是“会不会做”，而是“你跟钱的距离有多近”。</p><p data-pid=\"EFnvPPxP\">大部分技术人，祛魅的节点，不是对技术失望。</p><p data-pid=\"qoIUvRYV\">而是发现：</p><p data-pid=\"9Sp6K8VV\">原来我这么多年，只是在给别人的生意打工。</p><p data-pid=\"FL6FTh1Y\">自己从来没站在利润那头想过问题。</p><h2>“过了30还没技能，就别学技术了”这句话，得拆开看</h2><p data-pid=\"MHTaR8_C\">这句话，如果你照单全收，很危险。</p><p data-pid=\"jXQG4pdQ\">但你不听一点，又会继续在原地打转。</p><p data-pid=\"CBR7oLlr\">拆成两句才对：</p><p data-pid=\"Ej6o84Z3\">你30岁了，再指望从零学一门技术，然后走“初级 → 中级 → 高级 → 技术专家 → 财务自由”，时间确实不够用了。</p><p data-pid=\"org_dDHK\">你30岁了，如果连能稳定卖出去的技能都没有，直接去学“赚钱”也很难，因为你手里连能拿出去做筹码的东西都没有。</p><p data-pid=\"Jjrgi4iv\">你看，问题不在“学不学技术”。</p><p data-pid=\"5huGCa7V\">问题在于：你到底想拿技术干嘛。</p><p data-pid=\"qskF2ZvO\">这几种情况，路径完全不一样：</p><p data-pid=\"wUFlt33t\">你已经有一门技术，做了几年了</p><p data-pid=\"oCIJDkxN\">那就两条线并行：</p><p data-pid=\"aAxBiGYe\">一边继续深耕，把自己的小时费率抬高；</p><p data-pid=\"0aUAMEcD\">一边往前靠近钱，去学销售、学谈需求、学怎么自己接单。</p><p data-pid=\"VI7S1wMF\">你35了，啥不会，只在办公室里“跑腿、改表、对接一下”</p><p data-pid=\"2wt82taH\">这时候你确实没必要幻想从零学编程，然后进大厂年包50万。</p><p data-pid=\"d7CCC7dz\">更现实的做法，是选一个离交易近的岗位，当学徒去干：</p><p data-pid=\"xukGcMCM\">电商运营、地推、渠道、采购助理、销售支持。</p><p data-pid=\"fM0hs9LD\">你先混进钱的场里，先学会钱是怎么流的。</p><p data-pid=\"tIFI6Gsp\">这比你闭门苦学技术，要快多了。</p><p data-pid=\"rYJ9ws3U\">你没技能，但有时间，有一定现金流</p><p data-pid=\"b-Z60f-2\">可以考虑“技术+交易”混合路线。</p><p data-pid=\"4LtkRNiX\">比如去接一些简单项目，边学边干，哪怕开始先做体力活。</p><p data-pid=\"1TFdmy1p\">你至少要保证，自己不是在“干完再说钱”，而是在一开始就知道“钱在哪儿，怎么算的”。</p><h2>为什么“赚钱”这门课大学教不了</h2><p data-pid=\"-FV0EjXo\">你在公司也看见了。</p><p data-pid=\"nYU4D5Ys\">写代码，写文档，做测试，全都有规范。</p><p data-pid=\"QuzKbuM7\">有wiki，有SOP，有最佳实践。</p><p data-pid=\"db1QoM-K\">赚钱没有统一答案。</p><p data-pid=\"YHYRJIZf\">今天老板让你压价，明天供应商要你走账。</p><p data-pid=\"yHbMc4Ji\">甲方有时候要低价，有时候要服务，有时候只要面子。</p><p data-pid=\"kLCud4Jd\">你每换一个老板，玩法就变一套。</p><p data-pid=\"ayqkO_i0\">这东西没法写进教科书。</p><p data-pid=\"ItVp6Vdr\">连“教赚钱”的人，也只敢教一小块：</p><p data-pid=\"sQ8kIhFY\">教你怎么做短视频，怎么跑广告，怎么做投放。</p><p data-pid=\"IXrM4KHT\">真挣钱的生意，人家只会给你一个轮廓。</p><p data-pid=\"RhNd1ipK\">你要学的不是“发财秘诀”，而是这些特别土的技能：</p><p data-pid=\"so7UvYzX\">开口说钱不脸红，知道怎么谈</p><p data-pid=\"Zq4FJgeD\">听懂对方真正要什么，不是嘴上说的那个</p><p data-pid=\"nxBlTAoK\">知道哪里可以让步，哪里绝对不能亏</p><p data-pid=\"a_qzk8Cn\">知道一笔生意，谁才是关键人</p><p data-pid=\"v0oZ5k2h\">知道这单不合算，敢说不做</p><p data-pid=\"C6r02-eG\">这些东西，只能在交易场里学。</p><p data-pid=\"3lyNoAa9\">你不进场，永远学不会。</p><h2>技术人真正的出路：离钱近一点</h2><p data-pid=\"3D1eqeov\">你要祛魅的，不是技术。</p><p data-pid=\"6e7TL4HE\">是“只会技术就能赢一辈子”的幻觉。</p><p data-pid=\"UFOa8Ztb\">对于已经在技术岗上的人，更实际的升级路径是：</p><p data-pid=\"HWpRVXtg\">从“只管写代码”变成“能跟业务对话”</p><p data-pid=\"_9I6uiGB\">多问一句：</p><p data-pid=\"dkt9_cXj\">“这个功能到底值多少钱？”</p><p data-pid=\"nLHjvz8T\">“这个需求不做，会损失什么？”</p><p data-pid=\"N_Keg0JA\">“有没有更便宜的实现方案？”</p><p data-pid=\"MnIB9VZu\">从“自己干活”变成“能打包售卖能力”</p><p data-pid=\"rpUY4CBr\">你的技能能不能变成产品、服务、课程、工具？</p><p data-pid=\"XnL7BY9t\">比如做内部工具，顺手变成外部SaaS。</p><p data-pid=\"HqcLvL7q\">做项目的套路，拆成培训课卖给乙方公司。</p><p data-pid=\"8BFWAR8a\">从“只懂电脑”变成“懂人”</p><p data-pid=\"s0hzquU7\">多跟销售、运营、产品混在一起。</p><p data-pid=\"0qHTcKaJ\">看看他们每天怎么接触客户，怎么谈单。</p><p data-pid=\"F8BhDKap\">你迟早要学会站在客户那边，看你的技术。</p><p data-pid=\"U7dZDV5f\">这些事不用一夜之间完成。</p><p data-pid=\"HSTaxOAl\">但你一旦往这个方向走，你对技术的感觉就会变。</p><p data-pid=\"dhvXNaqe\">你不再把技术当“信仰”或者“枷锁”，而是当一个底座。</p><p data-pid=\"K7iXkvrd\">它给你安全感，其它的，靠你自己往前走一步。</p><h2>回到最开始那个问题</h2><p data-pid=\"YJpZ7QKT\">工作多久会对技术祛魅？</p><p data-pid=\"QRtWG2V5\">差不多是你第一次认真算账的时候。</p><p data-pid=\"37-D-gC4\">你开始发现：</p><p data-pid=\"35pgx5IQ\">技术是保命的，不是翻身的全部</p><p data-pid=\"hmidqRVR\">钱在交易那一头，不在机房里</p><p data-pid=\"zd4OCqdt\">你以为在卷技术，老板在算成本</p><p data-pid=\"TKNGNFiY\">什么时候算这笔账都不晚。</p><p data-pid=\"E4WUFj9f\">区别只是，你现在手上，还有多少筹码。</p><p data-pid=\"uQAjW3L-\">你要真是30岁、没技能、没积蓄、压力很大。</p><p data-pid=\"K_MTt8ci\">那就先别空想着“爱好”“热爱技术”。</p><p data-pid=\"O4jAlmRG\">很现实地选一个，能帮你尽快靠近钱的岗位，边干边学。</p><p data-pid=\"8tnMXFJQ\">技术可以慢慢补，现金流不能断。</p><p data-pid=\"71rlEQpu\">反正，就这么回事。</p>",
+        "is_labeled": false,
+        "author": {
+          "user_type": "people",
+          "name": "doit",
+          "headline": "111111111111111111111111111111111111111111",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "gender": -1,
+          "is_following": false,
+          "id": "5f41ee9a4759778a698ee205f3312871",
+          "url": "https://api.zhihu.com/people/5f41ee9a4759778a698ee205f3312871",
+          "url_token": "doit-46-1",
+          "is_org": false,
+          "followers_count": 208,
+          "is_followed": false
+        },
+        "comment_count": 110,
+        "visited_count": 126855,
+        "favorite_count": 2018,
+        "is_copyable": true,
+        "excerpt": "先说结论。 对技术祛魅，和你干了几年没啥关系。 和三个东西关系更大：收入、身份、风险感。 你什么时候会对技术祛魅一般有这几种时间点。 第一段：涨薪停滞那几年刚毕业那几年，技术是有光的。 写几行代码，解决线上故障，团队夸你。 调薪邮件一来，涨了20%，你觉得世界挺公平。 三五年后，你开始算账。 KPI全A，项目也扛了，调薪只有5%。 你看见同届进销售的，平时还老请假见客户，年底一问，年终奖快赶上你全年工资。 这时候…",
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1992304603560169753}",
+      "attached_info": "Cq8FCLPDq+2n2cqTvwEQBBoJNzY0NDM4ODEwIKDw+MoGKLgNMG5AhAFKNQogVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjISATAYACAAOgp7InJhdyI6IiJ9WgkxMTc0NDAyODliIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTkyMzA0NjAzNTYwMTY5NzUzigETMTk3NTkwNTY2NDI0MjAzNDU0OaoBCXJlY29tbWVuZMIBIDVmNDFlZTlhNDc1OTc3OGE2OThlZTIwNWYzMzEyODcx8gEKCAwSBk5vcm1hbPIBKAgKEiQ2N2M5ZmVlOS1iMGY1LTQwNGQtYjRlZC03YzA4NWUxMTUyMjPyAQYICxICMjOCAgCIAo3hi5G9M5ICIDVmNDFlZTlhNDc1OTc3OGE2OThlZTIwNWYzMzEyODcxmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyBmZWYyZGE0M2FhOWI0MjNmYjk2N2FlYjJhOTQyOTEwMJoDDQoCdjIQABoFb3RoZXKoA4ffB9gDAOoDFmZlZWRyZV9maXJzdF9zY3JlZW5fdjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBW90aGVywgQDMzk5yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABASXqYP4EFAAAAAAAAAACJBchLcomN8LM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBReQBgCgBoYBqAYBkgIuCgk3NjQ0Mzg4MTASEzE5OTIzMDQ2MDM1NjAxNjk3NTMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "133_1768757063.380",
+      "type": "feed",
+      "offset": 133,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757063,
+      "updated_time": 1768757063,
+      "target": {
+        "url": "https://api.zhihu.com/articles/1986460465321242825",
+        "author": {
+          "user_type": "people",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-6d7b918264fc435424d82e049df1c253_l.jpg?source=b6762063",
+          "followers_count": 7977,
+          "is_following": false,
+          "is_followed": false,
+          "id": "d864fb97e184eb623f64a4e301226496",
+          "url": "https://api.zhihu.com/people/d864fb97e184eb623f64a4e301226496",
+          "is_org": false,
+          "gender": 1,
+          "url_token": "96-95-10-52",
+          "name": "风桦"
+        },
+        "voteup_count": 627,
+        "voting": 0,
+        "content": "<p data-pid=\"Lweg9oh5\">讲个好玩的事</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"RM9nS-R5\">这两天谷哥在中国选厂，足迹遍布深圳，东莞，上海，成都，镇江，长沙，武汉</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"udguvjIt\">最主要是四个方向，液冷，CPO，电源，还有最重要的就是M9材料，近期审厂主要就是这四个方向</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"b7FlwK_i\">重点的公司：液冷确定主供是英WK，泵是飞龙提供，模组基本中石提供，CPO现在基本是中际与华工，电源是欧炉通与新雷</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NRYnc-YR\"><b>M9材料</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nZsshJFm\">目前主要是东材提供TPU基板材料，32层M9的加工方向，由护电来弄，因为护电本身就是他的PCB一供</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0smyk0GJ\">这就是这两天审厂的一些消息，明年谷歌是中国供应链中增量，谷歌TPU总增量约120-150万颗、同比+40%-50%<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xt1YhAas\">英W达AI GPU总增量约300-400万颗、同比+25%-30%，英W达在出货量、生态与通用场景仍占主导地位</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KGiQK9Fm\">谷哥未来出货与果追平英W达，整个M9的材料，需求量将是巨大的，这里测一下东东公司的树脂明年销量</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hWKvGm_l\">M9树脂销量1200-1500吨、BMI树脂1800-2000吨、光学膜3.2-3.5万吨、PP膜0.8-1万吨，合计销量约4.3-4.8万吨，同比+40%-50%<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZXhnR3iT\">M9树脂单价约100万元/吨，BMI约60万元/吨，价格保持稳定，毛利率分别超45%与35%，整体收入约12.5-14.7亿元，同比+45%-60%，归母净利润约7.3-8.2亿元</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0d5dKh1I\">所以，他现在是240亿左右市值，8亿左右的业绩，PE30倍左右，贵吗？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zd5zoNif\">这里特别说一下，M9树脂与石英布用于批量生产的低轨卫星星上PCB，单星PCB成本降低30%，同时提升通信速率，支撑星网星座等大规模组网需求</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-fYnZPlt\">箭载电子系统采用M9树脂基板，提升数据传输实时性</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"i3Wf8NGW\"><b>再说一下石英布</b></p><p data-pid=\"OdNaw9k4\"><br/>石英布凭借高纯度+耐超高温+低介电损耗+轻量化四大核心性能，成为商业航天热防护、透波/电子、轻量化结构的刚需材料</p><p data-pid=\"Rmex9y7a\"><br/>2026年随低轨星座与可回收火箭规模化，需求将同比增长70%-90%，这东西不仅是M9的必需，是样是商业航天的必需品</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"k2uRDXTp\">从最近研究的情况来看，星链的石英布有三个提供商，JPS，菲菲，材材，未来中国三大星座大概率也是菲菲提供石英布</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"S0Sums0B\"><b>再说一下商业航天的情况</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YKI0BDIm\">现在美国要重新登月，国内商业航天的主要配套商，现在还处于情绪炒作阶段，全场都在等着长征十二甲回收成功</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pausEKCc\">一旦回收成功，明年太空中就要下饺子了，甚至每天七八颗，或者上百颗往天上送，这里注意一下：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8RQGaEjy\">国网卫星制造商，主要是中卫</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qcAb-Ewe\">千帆星座的制造商，主要是护工，星载主要是汉训</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"s1AWQTuH\">鸿鹄星座目前发了已发射并在轨2 颗技术验证星（鸿鹄卫星、鸿鹄二号），目前天线是由通雨提供（他家天经星链，国W，鸿鹄，千帆）四大星座都有</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"A8oWhNKh\">钨的价格现在已经在天下了，钨企主升浪，目前从钨的长单情况来看，半个月之内，钨价下跌的可能性不大，继续看好钨的情况，战略金属</p>",
+        "vote_next_step": "vote",
+        "id": "1986460465321242825",
+        "type": "article",
+        "is_labeled": false,
+        "favorite_count": 1264,
+        "allow_segment_interaction": true,
+        "title": "大瓜！今天切开了",
+        "excerpt_new": "讲个好玩的事 这两天谷哥在中国选厂，足迹遍布深圳，东莞，上海，成都，镇江，长沙，武汉 最主要是四个方向，液冷，CPO，电源，还有最重要的就是M9材料，近期审厂主要就是这四个方向 重点的公司：液冷确定主供是英WK，泵是飞龙提供，模组基本中石提供，CPO现在基本是中际与华工，电源是欧炉通与新雷 M9材料 目前主要是东材提供TPU基板材料，32层M9的加工方向，由护电来弄，因为护电本身就是他的PCB一供 这就是这两天审厂的一些消…",
+        "updated": 1766421651,
+        "comment_count": 70,
+        "preview_type": "default",
+        "preview_text": "",
+        "visited_count": 144040,
+        "article_type": "normal",
+        "comment_permission": "censor",
+        "created": 1766389162,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "讲个好玩的事 这两天谷哥在中国选厂，足迹遍布深圳，东莞，上海，成都，镇江，长沙，武汉 最主要是四个方向，液冷，CPO，电源，还有最重要的就是M9材料，近期审厂主要就是这四个方向 重点的公司：液冷确定主供是英WK，泵是飞龙提供，模组基本中石提供，CPO现在基本是中际与华工，电源是欧炉通与新雷 M9材料 目前主要是东材提供TPU基板材料，32层M9的加工方向，由护电来弄，因为护电本身就是他的PCB一供 这就是这两天审厂的一些消…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1986460465321242825}",
+      "attached_info": "CrUFCLPDq+2n2cqTvwEQBxoJMjY4MDA4NzQzIKrro8oGKPMEMEZAhQFKMwoeVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTX1YzEgEwGAAgADoKeyJyYXciOiIifWIgZjk4MGI2MTA1YzE1YTc4ODY2MWVkN2E5NjRiOGQzMmRyEzE5ODY0NjA0NjUzMjEyNDI4MjWqAQlyZWNvbW1lbmTCASBkODY0ZmI5N2UxODRlYjYyM2Y2NGE0ZTMwMTIyNjQ5NvIBCggMEgZOb3JtYWzyASgIChIkZjk2NjZjMTYtYmU0NS00YjQ0LWIxZDAtNDA1ODY5OTg2ZjI08gEGCAsSAjIzggIAiAKN4YuRvTOSAiBkODY0ZmI5N2UxODRlYjYyM2Y2NGE0ZTMwMTIyNjQ5NpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAh5UU19TT1VSQ0VfRkVFRFJFX1RJTUVMSU5FU1NfVjPoAgP6AgtOT1JNQUxfRkxPV4oDIGZlZjJkYTQzYWE5YjQyM2ZiOTY3YWViMmE5NDI5MTAwmgMNCgJ2MhAAGgVvdGhlcqgDqOUI2AMA6gMUZmVlZHJlX3RpbWVsaW5lc3NfdjP6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgGAGkP4EFAAAAAAAAAACJBchLcomN8LM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBReQBgCgBocBqAYDkgIuCgkyNjgwMDg3NDMSEzE5ODY0NjA0NjUzMjEyNDI4MjUYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "134_1768757063.706",
+      "type": "feed",
+      "offset": 134,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757063,
+      "updated_time": 1768757063,
+      "target": {
+        "created_time": 1768616792,
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "answer_type": "normal",
+        "type": "answer",
+        "author": {
+          "url": "https://api.zhihu.com/people/e616e170b862ebccc184df8e931b4809",
+          "avatar_url": "https://picx.zhimg.com/50/v2-3614f11bca0537774cee13a8dfd6f1fc_l.jpg?source=b6762063",
+          "is_followed": false,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "文化艺术/娱乐业 法定代表人"
+            }
+          ],
+          "id": "e616e170b862ebccc184df8e931b4809",
+          "user_type": "people",
+          "url_token": "mxy0222",
+          "name": "十三",
+          "headline": "感觉老了",
+          "is_org": false,
+          "followers_count": 1418,
+          "is_following": false
+        },
+        "excerpt": "贪官是世界上最高危的体力劳动者。 这不是玩笑。 很多人以为贪官的烦恼是怎么花钱，其实他们最大的烦恼是怎么把钱藏好，以及如何在每一个突如其来的敲门声中保持呼吸均匀。 贪官的一生，是与物理学、生物学和心理学死磕的一生。 当贪腐金额超过1000万时，钱就不再是财富，而是负重。 100万人民币新钞大约11.5公斤。 1个亿就是1.15吨。 国内某能源局司长家里搜出2亿多现金。 那是2.3吨重的纸。 这些纸不能存银行，不能买房产，不…",
+        "reshipment_settings": "disallowed",
+        "content": "<figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f861587bffc388b253d6677b25121b57_1440w.jpg\" data-rawwidth=\"700\" data-rawheight=\"967\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-818443879f558c5fee9b5997a070e009\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://picx.zhimg.com/v2-f861587bffc388b253d6677b25121b57_r.jpg\"/></figure><p data-pid=\"q2KTiSuC\">贪官是世界上最高危的体力劳动者。</p><p data-pid=\"hHpZ-XqF\">这不是玩笑。</p><p data-pid=\"PFPON1Km\">很多人以为贪官的烦恼是怎么花钱，其实他们最大的烦恼是怎么把钱藏好，以及如何在每一个突如其来的敲门声中保持呼吸均匀。</p><p data-pid=\"FF8HEDqH\">贪官的一生，是与物理学、生物学和心理学死磕的一生。</p><p data-pid=\"va2720lc\">当贪腐金额超过1000万时，钱就不再是财富，而是负重。</p><p data-pid=\"2yTDQ6gc\">100万人民币新钞大约11.5公斤。</p><p data-pid=\"kyhZ15SQ\">1个亿就是1.15吨。</p><p data-pid=\"mZ-i-Gyl\">国内某能源局司长家里搜出2亿多现金。</p><p data-pid=\"lgK3bt7g\">那是2.3吨重的纸。</p><p data-pid=\"EvLkGV1m\">这些纸不能存银行，不能买房产，不能随便消费。</p><p data-pid=\"FIRj8qmu\">他只能把它们堆在房间里。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PDTYAMMd\">有反洗钱专家指出，大额现金存放最大的敌人是物理环境。</p><p data-pid=\"EYwh8SGX\">纸张会受潮。</p><p data-pid=\"urKlps_6\">纸张会生虫。</p><p data-pid=\"ibk0RQUZ\">纸张会发霉。</p><p data-pid=\"XrKDtv67\">那种特殊的、陈腐的、混合了油墨和霉菌的气味是藏不住的。</p><p data-pid=\"xIwHB7uS\">他每天下班回到家，第一件事不是吃饭。</p><p data-pid=\"RfFnqOGU\">是给这些钱除湿。</p><p data-pid=\"KFs-G2Ml\">是给这些钱翻身。</p><p data-pid=\"ew2uoBmP\">他像一个守墓人，守着一堆不能花的废纸，吃着几块钱的面条。</p><p data-pid=\"siPOgCq3\">这就是第一个烦恼：财富的物理囚笼。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-g3TYRJg\">这种烦恼在中外是通用的。</p><p data-pid=\"59vRosWq\">网上有一个关于毒枭和腐败官员的文章。</p><p data-pid=\"imaKPQ4d\">一名哥伦比亚的财务人员提到，由于现金太多，每年会有约10%的钱被老鼠咬碎或者烂掉。</p><p data-pid=\"A0llZrNr\">损失以亿为单位。</p><p data-pid=\"4sNsZvaY\">他们不心疼钱，他们心疼的是处理这些烂纸的风险。</p><p data-pid=\"pAyqt2AE\">在数字监控无死角的今天，这种物理性焦虑正在翻倍。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FOZcuQGO\">再看社交关系的原子化。</p><p data-pid=\"BdWfxkRz\">贪官没有朋友。</p><p data-pid=\"FCgf58V_\">只有利益共同体。</p><p data-pid=\"aIEkbsF1\">这种共同体极其脆弱。</p><p data-pid=\"fjDvYw_L\">所以贪官最怕的不是敌人。</p><p data-pid=\"pKhIm7Ea\">是枕边人和亲生骨干。</p><p data-pid=\"fnJfeFFO\">国内很多落马案例显示，情妇反目、夫妻分产、子女炫富是致命伤。</p><p data-pid=\"ePZS5bhM\">他想给儿子买辆法拉利。</p><p data-pid=\"0bmLsD2d\">但他不敢。</p><p data-pid=\"SErQJ3kX\">他甚至不敢让儿子在社交媒体上发一张在高档餐厅吃饭的照片。</p><p data-pid=\"OwIAU2EJ\">某市级官员每天晚上雷打不动地检查全家人的手机。</p><p data-pid=\"_HBe9xIW\">看他们发了什么朋友圈。</p><p data-pid=\"dNWwIqoG\">看他们跟谁聊了天。</p><p data-pid=\"zoy2ejs1\">他在家里装了屏蔽器。</p><p data-pid=\"3LjOcb1A\">他把家庭变成了集中营。</p><p data-pid=\"WQ5iQKB-\">这种对他人的极度不信任，导致了生理上的异化。</p><p data-pid=\"MLCBBU7v\">长期失眠是标配。</p><p data-pid=\"qvQfItjQ\">慢性腹泻是常态。</p><p data-pid=\"XFKFL6gB\">这是纪检部门在审讯中发现的普遍现象。</p><p data-pid=\"I3X4O5nu\">很多人在被带走的那一刻，第一反应竟然是解脱。</p><p data-pid=\"GWL_Owhk\">因为那种“靴子迟迟不落地”的折磨消失了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-rjFHi-x\">中外贪官在这一点上有着微妙的差异。</p><p data-pid=\"U6FGYbLJ\">国外的贪官，比如欧美或者东南亚的一些政客，他们更烦恼的是“合规性”。</p><p data-pid=\"otL0kJWx\">他们有专业的律师和会计师团队。</p><p data-pid=\"nb1qhgqR\">他们的烦恼是法律账单太贵。</p><p data-pid=\"1KN-2BjN\">是信托基金的受益人条款怎么写才能规避税务局IRS的眼睛。</p><p data-pid=\"Y1DWtdV5\">IRS是美国国税局。</p><p data-pid=\"LPPO9lo1\">它是美国最狠的执法机关，不是之一。</p><p data-pid=\"sRA_5vJA\">在美国流传着一句话：你可以杀人放火，但你必须纳税。</p><p data-pid=\"yiAEBqTG\">当年芝加哥黑帮教父阿尔·卡彭，杀人放火无恶不作，警察拿他没办法。</p><p data-pid=\"pVDpNfCb\">最后送他进监狱的是IRS。</p><p data-pid=\"r_25iVAJ\">因为他有巨额不明财产，且没交税。</p><p data-pid=\"1Ph028Hp\">IRS的逻辑很简单：我不管你的钱是怎么来的。</p><p data-pid=\"jVHPL4Af\">你是抢的、偷的、受贿的，那是警察的事。</p><p data-pid=\"jE6KP8K3\">但在我的账本上，你只要有收入，就必须分给我一份。</p><p data-pid=\"jQ4pc0bh\">如果你不给，我就动用一切手段让你消失。</p><p data-pid=\"n5iM6axT\">IRS有自己的武装部队。</p><p data-pid=\"KIpr4kvp\">他们有权不经过法院许可直接冻结你的银行账户。</p><p data-pid=\"HMamzlU2\">他们有权直接收缴你的房产。</p><p data-pid=\"LY3xeGr1\">甚至连你在海外的存款，只要涉及到美元，他们都能顺藤摸瓜。</p><p data-pid=\"28-xFF0q\">对于贪官来说，IRS就是那个永远甩不掉的影子。</p><p data-pid=\"U_nCtOcU\">他们不怕FBI查案。</p><p data-pid=\"LQuHupP0\">因为办案要讲证据，要走漫长的司法程序。</p><p data-pid=\"eOJ3k9q7\">但IRS只看数字。</p><p data-pid=\"wV64YzOH\">你的生活水平是100万，报税收入是10万。</p><p data-pid=\"fFmC-X6D\">中间差的90万，你解释不清楚，你就是重罪。</p><p data-pid=\"6GqTR48w\">这就是IRS。</p><p data-pid=\"Kh1Y_tsA\">一个拿着算盘也拿着枪的催账鬼。</p><p data-pid=\"p1v7lrcQ\">所以IRS是美国贪官的噩梦。</p><p data-pid=\"Bu86kJLF\">哪怕你是黑帮大佬或者是腐败政客，你可以杀人，但你必须纳税。</p><p data-pid=\"Cx8xQl9N\">不纳税，IRS能追到地老天荒。</p><p data-pid=\"uFv647uT\">所以国外的腐败者，其烦恼在于复杂的精算。</p><p data-pid=\"o74vZj7N\">而国内的腐败者，其烦恼在于原始的惊恐。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"10mSxEa1\">大数据是现代贪官的幽灵。</p><p data-pid=\"XpjwRFCF\">以前贪了就贪了，账目一烧，死无对证。</p><p data-pid=\"R9QwRMEG\">现在不行。</p><p data-pid=\"_PaWqi98\">数字是有记忆的。</p><p data-pid=\"mFQ9z6P6\">金税4期。</p><p data-pid=\"wWe22Y3Y\">CRS跨国金融信息交换。</p><p data-pid=\"4NCSIY7U\">20年前的一笔转账，现在依然能查到路径。</p><p data-pid=\"wwNI3kEE\">他们在办公室里看着屏幕。</p><p data-pid=\"abYXL28H\">屏幕上跳动的每一个数据，在他们眼里都是一副手铐。</p><p data-pid=\"2V2UWWXi\">他们开始烦恼“历史的不可修改性”。</p><p data-pid=\"oC35sedN\">某贪官为了平掉十几年前的一笔烂账，需要动用更多的权力去掩盖。</p><p data-pid=\"1rxxphnF\">就像撒一个谎需要一百个谎来圆。</p><p data-pid=\"DaOetToN\">到最后，他发现自己陷入了一个权力的死循环。</p><p data-pid=\"6R0nx-b3\">他为了掩盖100万，不得不去贪1000万来打点。</p><p data-pid=\"pC5L2zqx\">越贪越怕，越怕越贪。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TRVF0akb\">这就引申出了第四个烦恼：权力的边际效用递减。</p><p data-pid=\"EM25uZdu\">当他还是个小科长时，拿1万块钱能高兴半个月。</p><p data-pid=\"Fam1QQva\">当他是厅长时，拿1000万，他只有半分钟的快感。</p><p data-pid=\"IUYW1iNd\">剩下的全是恐惧，这种恐惧是全天候的。</p><p data-pid=\"Zp8jOn72\">他害怕开会。</p><p data-pid=\"YP0Sm89c\">在很多真实的抓捕现场，官员正在台上讲话。</p><p data-pid=\"iG3XHeYZ\">纪委的人从后门进来。</p><p data-pid=\"Xkvhz3PE\">那一瞬间，全场鸦雀无声。</p><p data-pid=\"-jvsxb0q\">他坐在台上，看着那一双双眼睛。</p><p data-pid=\"RbVlgUvo\">他不知道那些眼睛里哪一双是带着任务来的。</p><p data-pid=\"evxdY0B2\">这种对“仪式感”的恐惧，让他们在公开场合表现得极度僵硬。</p><p data-pid=\"VX94BeAO\">你去看那些落马前的视频。</p><p data-pid=\"GkqKsz8F\">他们的眼神是游离的。</p><p data-pid=\"PXehcOQO\">他们的语速是不自然的。</p><p data-pid=\"1_W-Orhg\">他们在对抗自己的本能反应。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-VeFlXXN\">再聊聊“海外乐园”的幻灭。</p><p data-pid=\"oinOk6GZ\">很多官员把资产转移到海外，觉得那里是避风港。</p><p data-pid=\"EAztQ-x4\">事实并非如此。</p><p data-pid=\"RXiCuY-i\">在外网上，有定居海外的人描述过那些“红通”人员的生活。</p><p data-pid=\"LdKQy0zm\">他们不敢去华人餐馆。</p><p data-pid=\"b2QoP-kC\">不敢参加公开社交活动。</p><p data-pid=\"VHwyAGwq\">他们住在豪宅里，窗帘常年拉上。</p><p data-pid=\"EWa0aIrw\">他们害怕任何穿制服的人。</p><p data-pid=\"ZL5ghe4u\">哪怕是查水表的。</p><p data-pid=\"ApKoHLlb\">他们没有合法的身份，无法在当地银行开户。</p><p data-pid=\"yhsFSqG_\">只能靠现金生活。</p><p data-pid=\"velzUMGJ\">在高度数字化的西方社会，只用现金生活的人，本身就是警方的重点关注对象。</p><p data-pid=\"yIbZET3k\">他们成了异乡的囚徒。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"W4iExI9p\">有一个具体的案例。</p><p data-pid=\"21CCBZjM\">某外逃人员，在国内是呼风唤雨的老总。</p><p data-pid=\"V4O9wb3s\">逃到美国后，因为怕被发现，不敢看病。</p><p data-pid=\"3bKNLZUi\">最后在出租屋里因为小病拖成重症。</p><p data-pid=\"Jn1bYjfl\">死的时候，枕头下面全是美元。</p><p data-pid=\"S1C5usBp\">这些美元对他来说，连买一张止痛药片的权利都没有。</p><p data-pid=\"A5SlwT4d\">这种财富与生存权的剥夺，是贪官最深层的烦恼。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FULreQJ_\">中外对比来看，烦恼的内核是一致的。</p><p data-pid=\"yQeQ2-tv\">那就是：所有非法获得的资源，都无法转化为受法律保护的权利。</p><p data-pid=\"QhwJDYU2\">这意味着，他们拥有的越多，他们作为“人”的防御面积就越大。</p><p data-pid=\"A6_cxOKo\">正常人只需要守住自己的底线。</p><p data-pid=\"JPQsGflh\">他们需要守住每一个转账记录，每一个情妇的嘴，每一个下属的忠诚，以及每一张钞票的干爽。</p><p data-pid=\"OVN0fbGc\">这是一个不可能完成的任务。</p><p data-pid=\"M9y7T_Xg\">所以，贪官最大的烦恼，本质上是他们在试图对抗熵增。</p><p data-pid=\"UI9AXXf3\">他们在试图维持一个注定会崩溃的高能耗系统。</p><p data-pid=\"ZZYwxp7_\">这个系统每维持一秒钟，都在消耗他们的寿命、健康和人性。</p><p data-pid=\"hm3QI9dR\">他们坐在金山上。</p><p data-pid=\"MBBcN_0C\">金山下面是随时会塌方的流沙。</p><p data-pid=\"36p_47Uh\">他们不敢动，一动就会陷下去。</p><p data-pid=\"xhKRVOza\">这就是为什么很多贪官在落马后会说：“我终于能睡个好觉了。”</p><p data-pid=\"Z40uT4L6\">这句话一点也不浮夸。</p>",
+        "updated_time": 1768616792,
+        "thanks_count": 16,
+        "id": "1995804162613613029",
+        "url": "https://api.zhihu.com/answers/1995804162613613029",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-818443879f558c5fee9b5997a070e009_720w.jpg?source=b6762063"
+        ],
+        "is_copyable": false,
+        "question": {
+          "url": "https://api.zhihu.com/questions/1972249392355479806",
+          "comment_count": 1,
+          "bound_topic_ids": [
+            597338,
+            1967580,
+            2210679
+          ],
+          "excerpt": "",
+          "question_type": "normal",
+          "id": "1972249392355479806",
+          "type": "question",
+          "author": {
+            "name": "陆一龙",
+            "avatar_url": "https://picx.zhimg.com/50/v2-1cea06bb3faf4e484174e20de7518736_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 1600,
+            "id": "438fb2ea6f6138c69cdc392fff0dd8a4",
+            "url": "https://api.zhihu.com/people/438fb2ea6f6138c69cdc392fff0dd8a4",
+            "user_type": "people",
+            "url_token": "wu-yi-cha-liu-liu-cheng-yin",
+            "headline": "观察生活，品味人生，循理唯实，探求不止。",
+            "is_following": false,
+            "is_followed": false
+          },
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "created": 1763000897,
+          "answer_count": 0,
+          "is_following": false,
+          "title": "贪官最大的烦恼是什么？",
+          "follower_count": 0
+        },
+        "segment_infos": [
+          {
+            "pid": "KFs-G2Ml",
+            "text": "是给这些钱翻身。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 8,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996045491566311120"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "sRA_5vJA",
+            "text": "在美国流传着一句话：你可以杀人放火，但你必须纳税。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996257789509670472"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "visited_count": 44655,
+        "is_navigator": false,
+        "is_labeled": false,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-818443879f558c5fee9b5997a070e009_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "favorite_count": 381,
+        "voteup_count": 535,
+        "excerpt_new": "贪官是世界上最高危的体力劳动者。 这不是玩笑。 很多人以为贪官的烦恼是怎么花钱，其实他们最大的烦恼是怎么把钱藏好，以及如何在每一个突如其来的敲门声中保持呼吸均匀。 贪官的一生，是与物理学、生物学和心理学死磕的一生。 当贪腐金额超过1000万时，钱就不再是财富，而是负重。 100万人民币新钞大约11.5公斤。 1个亿就是1.15吨。 国内某能源局司长家里搜出2亿多现金。 那是2.3吨重的纸。 这些纸不能存银行，不能买房产，不…",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "comment_count": 134,
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995804162613613029}",
+      "attached_info": "CqIGCLPDq+2n2cqTvwEQBBoJNzY1NzcyMjY3INjmq8sGKJcEMIYBQIYBSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9Si4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9WgkxMTczMTQ4MDZiIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTk1ODA0MTYyNjEzNjEzMDI5igETMTk3MjI0OTM5MjM1NTQ3OTgwNqoBCXJlY29tbWVuZMIBIGU2MTZlMTcwYjg2MmViY2NjMTg0ZGY4ZTkzMWI0ODA58gEKCAwSBk5vcm1hbPIBKAgKEiQyMjg0NTFiNS1kZmZkLTQwMjItYTY3YS1lMjg0MGRlMDM3ZjPyAQYICxICMjOCAgCIAo7hi5G9M5ICIGU2MTZlMTcwYjg2MmViY2NjMTg0ZGY4ZTkzMWI0ODA5mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgP6AgtOT1JNQUxfRkxPV4oDIGZlZjJkYTQzYWE5YjQyM2ZiOTY3YWViMmE5NDI5MTAwmgMNCgJ2MhAAGgVvdGhlcqgD79wC2AMA6gMZZmVlZHJlV2FybVN1Y2Nlc3NSZWNhbGxlcvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDELwFGMcHIiN2Mi04MTg0NDM4NzlmNTU4YzVmZWU5YjU5OTdhMDcwZTAwOYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYBg3pj+BBQAAAAAAAAAAiQXIS3KJjfCzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUXkAYAoAaIAagGAJICLgoJNzY1NzcyMjY3EhMxOTk1ODA0MTYyNjEzNjEzMDI5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "135_1768757063.348",
+      "type": "feed",
+      "offset": 135,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757063,
+      "updated_time": 1768757063,
+      "target": {
+        "voting": 0,
+        "excerpt_new": "在 PostgreSQL 中，SQL 查询的解析、执行等全流程的触发，均以应用程序与数据库建立有效连接为前提。 这一连接建立过程看似是简单的交互握手，实则背后蕴含复杂的底层机制——涵盖进程管理、身份认证，以及保障高效通信的二进制协议等核心环节。 深入理解 PostgreSQL 的连接处理机制，不仅能明晰连接池的重要性、掌握连接问题的排查思路，还可厘清其架构与基于线程的数据库的本质差异。下文将完整梳理应用程序与 PostgreSQL 建立…",
+        "url": "https://api.zhihu.com/articles/1994801800956642362",
+        "title": "拆解 PostgreSQL 连接机制：从进程模型到通信协议",
+        "voteup_count": 2,
+        "is_navigator": false,
+        "created": 1768378211,
+        "updated": 1768378211,
+        "preview_type": "default",
+        "visited_count": 84,
+        "allow_segment_interaction": true,
+        "image_url": "https://picx.zhimg.com/v2-8a842e4b64557d505572df29db7edaa8.jpg?source=7e7ef6e2&needBackground=1",
+        "comment_count": 0,
+        "comment_permission": "all",
+        "excerpt": "在 PostgreSQL 中，SQL 查询的解析、执行等全流程的触发，均以应用程序与数据库建立有效连接为前提。 这一连接建立过程看似是简单的交互握手，实则背后蕴含复杂的底层机制——涵盖进程管理、身份认证，以及保障高效通信的二进制协议等核心环节。 深入理解 PostgreSQL 的连接处理机制，不仅能明晰连接池的重要性、掌握连接问题的排查思路，还可厘清其架构与基于线程的数据库的本质差异。下文将完整梳理应用程序与 PostgreSQL 建立…",
+        "content": "<p data-pid=\"QJsnlyZM\">在 PostgreSQL 中，SQL 查询的解析、执行等全流程的触发，均以应用程序与数据库建立有效连接为前提。</p><p data-pid=\"G1db4WFJ\">这一连接建立过程看似是简单的交互握手，实则背后蕴含复杂的底层机制——涵盖进程管理、身份认证，以及保障高效通信的二进制协议等核心环节。</p><p data-pid=\"XNiKq4_M\">深入理解 PostgreSQL 的连接处理机制，不仅能明晰连接池的重要性、掌握连接问题的排查思路，还可厘清其架构与基于线程的数据库的本质差异。下文将完整梳理应用程序与 PostgreSQL 建立连接的全流程。</p><h2>主进程：PostgreSQL 的守护进程</h2><p data-pid=\"VaNCpcn0\">启动 PostgreSQL 时，率先启动的进程为主进程（<b>postmaster</b>）。该进程可视为数据库的接待进程，负责监听传入连接并协调连接的处理方式。</p><p data-pid=\"B6Lei6IX\">主进程并不直接处理查询请求。当客户端发起连接时，主进程会创建一个全新的后端进程，专门用于处理该客户端的相关操作。每个连接均拥有独立的进程，且分配有专用于查询处理的私有内存空间。</p><p data-pid=\"E1B7gecR\">但后端进程并非完全独立运行，所有后端进程均可通过共享内存访问公共资源，其中最关键的资源为共享缓冲区高速缓存，PostgreSQL 会将数据库页面存储于该区域。借助共享内存机制，后端进程能够高效共享数据，无需在各进程中重复存储数据副本。</p><p data-pid=\"pcNcPPSN\">这种连接-进程架构可实现高度隔离。若某后端进程因查询异常崩溃，不会对其他连接产生影响。主进程仅负责连接管理，不涉及共享内存访问或复杂查询处理，因此始终保持轻量与稳定的运行状态。</p><p data-pid=\"9mfszHNH\">该架构的弊端在于，PostgreSQL 创建连接的成本高于基于线程的数据库。创建操作系统进程所需的资源多于生成线程，因此连接池技术对高流量应用的稳定运行至关重要。</p><h2>连接流程：从 TCP 连接到就绪状态</h2><p data-pid=\"-LtaVDLI\">PostgreSQL 连接的建立包含多个明确步骤，具体流程如下。</p><h3>步骤 1：建立 TCP 连接</h3><p data-pid=\"YGSQst47\">应用程序向 PostgreSQL 发起标准 TCP 连接请求，默认端口为 5432。主进程接收该连接请求。此阶段尚未发生任何 PostgreSQL 专属通信，仅完成基础网络连接的搭建。</p><p data-pid=\"lLsNIkNW\">TCP 连接建立后，下一步将进行安全校验。</p><h3>步骤 2：SSL 协商（可选）</h3><p data-pid=\"WH_0pncX\">若配置 SSL 协议，客户端与服务器会进行加密协商。该步骤需提前执行，因其会影响后续所有通信过程。SSL 连接建立后，所有数据传输均通过加密通道完成，可有效防止密码与查询数据被拦截。</p><p data-pid=\"zISRopqc\">此时客户端即可正式请求建立数据库会话。</p><h3>步骤 3：发送启动数据包</h3><p data-pid=\"-GDnlZfJ\">客户端发送的启动数据包包含以下内容：</p><ul><li data-pid=\"qUF4VC7a\"> 客户端使用的 PostgreSQL 协议版本（当前主流版本为 3.0）<br/> </li><li data-pid=\"R3pu48a5\"> 目标数据库名称<br/> </li><li data-pid=\"wUDQNcNw\"> 用户名<br/> </li><li data-pid=\"WD_K0-sE\"> 可选连接参数（时区、字符编码等）<br/> </li></ul><p data-pid=\"SiT4m89o\">该数据包是客户端发起数据库会话请求的正式载体。</p><p data-pid=\"S57VGZ1H\">主进程接收会话请求后，将创建专用进程处理该连接。</p><h3>步骤 4：创建后端进程</h3><p data-pid=\"q4sPzd25\">主进程对启动数据包进行验证，检查请求的数据库是否存在、系统是否能够承载新的连接。验证通过后，主进程将通过操作系统的 fork 机制创建新的后端进程。</p><p data-pid=\"i42ki9TJ\">完成进程创建后，主进程将该连接移交至新的后端进程，随后返回监听状态，等待接收新的连接请求。自此，客户端将直接与专属的后端进程进行通信。</p><p data-pid=\"QccR-tBg\">但在连接投入使用前，还需完成一项关键步骤——客户端身份验证。</p><h3>步骤 5：身份验证</h3><p data-pid=\"cGUIV2uX\">此步骤为安全校验环节。后端进程接管连接后，将依据<code>pg_hba.conf</code>（PostgreSQL 基于主机的身份验证配置文件）中的规则执行身份验证。</p><p data-pid=\"hHGlwxfC\">配置文件中的规则会根据连接来源、访问的数据库以及登录用户这三个维度，确定对应的身份验证方式。</p><p data-pid=\"z5SVNcqg\">PostgreSQL 支持多种身份验证方式，包括信任认证（无需凭据）、基于密码的认证（如 SCRAM-SHA-256 算法）、SSL 证书认证，以及与 LDAP、Kerberos 等外部系统的集成认证。不同场景下可配置的认证方式差异显著，例如本地连接可采用信任认证，而远程连接则需强制使用证书认证。</p><p data-pid=\"bYfJ2HFi\">身份验证通过后，将进入最终步骤。</p><h3>步骤 6：进入查询就绪状态</h3><p data-pid=\"0IC8vT6a\">身份验证成功后，后端进程将切换至就绪状态。此时连接完全建立，客户端与服务器可通过 PostgreSQL 的有线协议通信，实现查询语句与结果集的交互。</p><p data-pid=\"DLowPaeP\">下文将进一步解析该有线协议的定义与工作机制。</p><h2>有线协议：客户端与服务器的通信标准</h2><p data-pid=\"XQTqneCI\">PostgreSQL 有线协议定义了客户端与服务器之间交互查询语句和结果集的通信规范。该协议为二进制协议，具备高效性与可靠性的特性。</p><p data-pid=\"zx8nXYeR\">该协议的核心是一套简洁且高效的消息格式。</p><h3>消息结构</h3><p data-pid=\"4p_8bkgZ\">所有消息均遵循统一的基础格式：</p><ol><li data-pid=\"4bRlG7tE\">长度字段（4 字节）：标识消息的总长度。</li><li data-pid=\"1laYkdyC\">消息类型标识符（1 字节）：通常为 ASCII 字符。</li><li data-pid=\"Tgvob2be\">消息内容（长度可变）。</li></ol><p data-pid=\"9IX10Svn\">这种结构使通信双方能够高效解析消息，可处理从简短命令到大规模结果集的各类数据传输场景。</p><p data-pid=\"aUtUG6tS\">下面将阐述消息如何协同工作以完成查询执行。</p><h3>两种查询执行协议</h3><p data-pid=\"hofM5C7L\">PostgreSQL 提供两种独立的查询执行协议，分别适用于不同的应用场景。</p><h3>简单查询协议</h3><p data-pid=\"1xjdLyds\">简单查询协议采用直接方式：发送完整 SQL 语句并接收执行结果。</p><p data-pid=\"_HWjAStj\">以用户信息查询为例，客户端发送一条包含完整 SQL 语句的 Query 消息：</p><p data-pid=\"v7MscYAw\"><br/> Client → Server: Query (&#39;Q&#39;) + &#34;SELECT name, email FROM users WHERE id = 42&#34;<br/> </p><p data-pid=\"nCwxaAE2\">PostgreSQL 接收该消息后，依次执行 SQL 解析、查询计划生成、语句执行操作，并按顺序返回以下消息：</p><p data-pid=\"zzCtat8C\"><br/> Server → Client: RowDescription (&#39;T&#39;) + column metadata                   - Column 1: &#34;name&#34; (text type)                   - Column 2: &#34;email&#34; (text type)<br/> </p><ol><li data-pid=\"bvdM78kG\"><code>RowDescription</code> 消息用于描述查询结果的列信息，包括列名、数据类型及相关元数据，使客户端能够正确接收并解析后续数据。</li></ol><p data-pid=\"mTIo8jV0\"><br/> Server → Client: DataRow (&#39;D&#39;) + &#34;John Doe&#34;, &#34;john@example.com&#34;<br/> </p><ol><li data-pid=\"53w4BP_a\"><code>DataRow</code> 消息承载实际查询结果数据。对于返回多行结果的查询，PostgreSQL 会为每一行分别发送一条 <code>DataRow</code> 消息。</li></ol><p data-pid=\"m9uLX1rd\"><br/> Server → Client: CommandComplete (&#39;C&#39;) + &#34;SELECT 1&#34;<br/> </p><ol><li data-pid=\"ASIoCGqn\"><code>CommandComplete</code> 表示查询已成功完成，并附带执行结果标识。“<code>SELECT 1</code>” 表示本次查询返回了一行数据。</li></ol><p data-pid=\"8Igu0Mep\"><br/> Server → Client: ReadyForQuery (&#39;Z&#39;) + transaction status<br/> </p><p data-pid=\"2U8NNRiR\"><code>ReadyForQuery</code> 表示服务器已准备好接收下一条命令，同时携带当前事务状态，用于指示连接处于空闲状态、事务块中或失败事务状态。</p><p data-pid=\"W-alTt4m\">简单查询协议适用于一次性或临时执行的查询场景。其局限在于，每次执行都会重新进行 SQL 解析和查询规划，即使查询结构相同、仅参数值不同，仍无法复用已有执行计划。</p><p data-pid=\"Q964zqtY\">针对需要频繁重复执行的查询，PostgreSQL 提供了更为高效的扩展查询协议。</p><h3>扩展查询协议</h3><p data-pid=\"9V2xIf7n\">该协议将查询准备阶段与执行阶段进行分离。</p><p data-pid=\"jeTyJPHf\">与简单查询协议不同，扩展查询协议支持创建预处理语句，无需在每次执行时发送完整的 SQL 语句。</p><p data-pid=\"z8GAwJRb\">下文仍以用户信息查询为例，梳理扩展查询协议的执行流程。该流程相对复杂，但在重复查询场景下的优势十分显著。</p><ol><li data-pid=\"rO8RcP2V\">创建查询模板<br/>客户端发送包含占位符的查询模板：</li></ol><p data-pid=\"A28MfW_j\"> Client → Server: Parse (&#39;P&#39;) + statement name &#34;get_user&#34; +                   &#34;SELECT name, email FROM users WHERE id = $1&#34; +                   parameter types [INTEGER]<br/> </p><p data-pid=\"nKvwPkQh\">Parse 消息用于通知 PostgreSQL 创建名为<code>get_user</code>的预处理语句。SQL 语句中包含占位符$1，用于填充实际用户 ID 参数，同时指定该占位符的数据类型为 INTEGER。PostgreSQL 会对该 SQL 语句进行解析并生成可复用的查询计划。</p><p data-pid=\"RAW9xabb\"> Server → Client: ParseComplete (&#39;1&#39;)<br/> </p><p data-pid=\"5wcd1Z5n\">ParseComplete 消息用于确认预处理语句已创建完成，可投入使用。</p><ol><li data-pid=\"wei-ht3v\">绑定参数值至模板<br/>客户端将具体参数值绑定至查询模板：</li></ol><p data-pid=\"HNTj5_my\"><br/> Client → Server: Bind (&#39;B&#39;) + portal name &#34;user_portal&#34; +                   statement &#34;get_user&#34; +                   parameter values [42]<br/> </p><p data-pid=\"YBKcOENc\">Bind 消息用于创建门户，即填充实际参数值后的预处理语句实例。此步骤将数值 42 绑定至<code>get_user</code>语句的占位符$1，并创建名为<code>user_portal</code>的门户。</p><p data-pid=\"qcLLhmop\"><br/> Server → Client: BindComplete (&#39;2&#39;)<br/> </p><p data-pid=\"SfswXPAF\">BindComplete 消息用于确认门户已创建完成，可执行查询操作。</p><ol><li data-pid=\"2aS_iluO\">执行门户查询<br/>客户端发送门户执行请求：</li></ol><p data-pid=\"PS5DZfJe\"><br/> Client → Server: Execute (&#39;E&#39;) + portal &#34;user_portal&#34;<br/> </p><p data-pid=\"gCPctKxY\">Execute 消息用于触发门户的执行操作。PostgreSQL 返回结果的流程与简单查询协议一致：</p><p data-pid=\"mxbS3CIf\"><br/> Server → Client: RowDescription (&#39;T&#39;) + column metadata                   - Column 1: &#34;name&#34; (text type)                   - Column 2: &#34;email&#34; (text type)  Server → Client: DataRow (&#39;D&#39;) + &#34;John Doe&#34;, &#34;john@example.com&#34;  Server → Client: CommandComplete (&#39;C&#39;) + &#34;SELECT 1&#34;<br/> </p><ol><li data-pid=\"TZpc99k_\">同步会话状态</li></ol><p data-pid=\"rzzhXMnE\"><br/> Client → Server: Sync (&#39;S&#39;)  Server → Client: ReadyForQuery (&#39;Z&#39;) + transaction status<br/> </p><p data-pid=\"4PANEQ7Z\">在重复查询场景下，该协议的优势尤为突出。例如查询用户 ID 为 99 的数据时，可直接跳过解析步骤，基于已创建的<code>get_user</code>模板创建新门户并绑定参数 99，随后执行查询即可。PostgreSQL 可复用已解析的查询计划，大幅提升后续查询的执行效率。</p><p data-pid=\"hHm8xHJb\">此外，扩展查询协议还能增强对 SQL 注入攻击的防护能力。由于参数与 SQL 语句结构分离传输，采用类型化数值而非字符串拼接的方式填充参数，可从根源上避免 SQL 注入风险。</p><p data-pid=\"_no90RLC\">上文已阐述连接建立与通信的完整流程，下文将说明连接终止的相关机制。</p><h2>连接终止机制</h2><p data-pid=\"T3unszov\">PostgreSQL 连接可通过以下几种方式终止。</p><ol><li data-pid=\"tXbf3ChW\"><b>正常断开</b></li></ol><p data-pid=\"prCldjTQ\">客户端发送<code>Terminate</code>消息，后端进程完成未执行的操作，释放占用的资源，随后正常退出。</p><ol><li data-pid=\"EYbHni5o\"><b>空闲超时断开</b></li></ol><p data-pid=\"2HFp_7Et\">PostgreSQL 支持自动关闭长时间处于空闲状态的连接。其中<code>idle_in_transaction_session_timeout</code>参数尤为关键，该参数可防止连接长时间持有数据库锁，避免影响其他操作的执行。</p><ol><li data-pid=\"hXP4sx7p\"><b>管理员强制终止</b></li></ol><p data-pid=\"ZPV_cFN1\">数据库管理员可通过<code>pg_terminate_backend()</code>等命令强制关闭连接。该功能在终止失控查询或强制断开异常应用程序连接时至关重要。</p><ol><li data-pid=\"csklScwp\"><b>进程崩溃终止</b></li></ol><p data-pid=\"PVmfdlh0\">若后端进程崩溃，将无法执行正常的清理操作。主进程会检测到该崩溃事件，并启动恢复流程，确保数据库的一致性。连接-进程架构可将问题隔离在单个后端进程内，避免单个进程崩溃对其他连接造成影响。</p><h2>总结</h2><p data-pid=\"5hgnoKCa\">PostgreSQL 的连接架构以主进程为核心，主进程会为每个客户端连接创建专属的后端进程。连接建立需依次完成六个步骤：建立 TCP 连接、SSL 协商、发送启动数据包、创建后端进程、身份验证、进入就绪状态。</p><p data-pid=\"EyxvvzZr\">连接建立后，客户端与服务器通过有线协议通信，支持两种查询执行方式：适用于临时查询的简单查询协议，以及适用于重复查询的扩展查询协议。扩展查询协议不仅支持查询计划复用，还能有效提升 SQL 注入防护能力。</p><p data-pid=\"2RBc-vUr\">本文已详细解析 PostgreSQL 连接机制的核心原理，下一篇文章将聚焦 SQL 查询的处理流程：解析器。届时将阐述 PostgreSQL 如何将 SQL 文本转换为能够表征查询语义与结构的结构化解析树。</p><p data-pid=\"CjKpQb5u\">作者：Jesús Espino</p><p data-pid=\"KnrkdfIc\">原文链接：</p><p data-pid=\"gNMc3tmx\"><a href=\"https://link.zhihu.com/?target=https%3A//internals-for-interns.com/posts/postgres-connections-and-communication/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">internals-for-interns.com</span><span class=\"invisible\">/posts/postgres-connections-and-communication/</span><span class=\"ellipsis\"></span></a></p><hr/><h2><a href=\"https://link.zhihu.com/?target=https%3A//jsj.top/f/uebqBc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">HOW 2026 议题招募中</a></h2><p data-pid=\"SAk4GyUm\">2026 年 4 月 27-28 日，由 IvorySQL 社区联合 PGEU（欧洲 PG 社区）、PGAsia（亚洲 PG 社区）共同打造的 HOW 2026（IvorySQL &amp; PostgreSQL 技术峰会） 将再度落地济南。届时，PostgreSQL 联合创始人 Bruce Momjian 等顶级大师将亲临现场。</p><p data-pid=\"OTVMcqU4\">自开启征集以来，HOW 2026 筹备组已感受到来自全球 PostgreSQL 爱好者的澎湃热情。为了确保大会议题的深度与广度，我们诚邀您在 2026 年 2 月 27 日截止日期前，提交您的技术见解。</p><p data-pid=\"rqWip__u\">投递链接：<a href=\"https://link.zhihu.com/?target=https%3A//jsj.top/f/uebqBc\" data-draft-title=\"HOW 2026 议题征集\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">HOW 2026 议题征集</a></p>",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "author": {
+          "followers_count": 166,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/1eadf2ea87dc818e8b304a1f704d08a5",
+          "user_type": "people",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-295186acf1ebdae0245622e4f44ce332_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "id": "1eadf2ea87dc818e8b304a1f704d08a5",
+          "url_token": "ivorysql",
+          "name": "IvorySQL",
+          "headline": "一款基于PostgreSQL兼容Oracle的开源数据库。"
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-8a842e4b64557d505572df29db7edaa8.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pic1.zhimg.com/50/v2-8a842e4b64557d505572df29db7edaa8_720w.jpg?source=b6762063"
+        ],
+        "is_labeled": false,
+        "favorite_count": 7,
+        "article_type": "normal",
+        "id": "1994801800956642362",
+        "type": "article",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994801800956642362}",
+      "attached_info": "CqgGCLPDq+2n2cqTvwEQBxoJMjY5MDEwMDkxIOOencsGKAIwAECHAUoxCiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMRIBMBgAIAA6AGIgZjk4MGI2MTA1YzE1YTc4ODY2MWVkN2E5NjRiOGQzMmRyEzE5OTQ4MDE4MDA5NTY2NDIzNjKCAV9odHRwczovL3BpY3guemhpbWcuY29tL3YyLThhODQyZTRiNjQ1NTdkNTA1NTcyZGYyOWRiN2VkYWE4LmpwZz9zb3VyY2U9N2U3ZWY2ZTImbmVlZEJhY2tncm91bmQ9MaoBCXJlY29tbWVuZMIBIDFlYWRmMmVhODdkYzgxOGU4YjMwNGExZjcwNGQwOGE18gEKCAwSBk5vcm1hbPIBKAgKEiQ2NGUzNmM3NS1lM2M5LTQzOWQtOTJlNi02YWY4MTg0OTJiNzHyAQYICxICMjOCAgCIAo7hi5G9M5ICIDFlYWRmMmVhODdkYzgxOGU4YjMwNGExZjcwNGQwOGE1mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1Yx6AID+gILTk9STUFMX0ZMT1eKAyBmZWYyZGE0M2FhOWI0MjNmYjk2N2FlYjJhOTQyOTEwMJoDDQoCdjIQABoFb3RoZXKoA1TYAwDqAyNmZWVkLXRleHQtYWxsc2l0ZS1vbmxpbmUtdWNmLXJlY2FsbPoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEIANGMQFIiN2Mi04YTg0MmU0YjY0NTU3ZDUwNTU3MmRmMjlkYjdlZGFhOIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgN0IaT+BBQAAAAAAAAAAiQXIS3KJjfCzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUXkAYAoAaJAagGAJICLgoJMjY5MDEwMDkxEhMxOTk0ODAxODAwOTU2NjQyMzYyGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "136_1768757063.433",
+      "type": "feed",
+      "offset": 136,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757063,
+      "updated_time": 1768757063,
+      "target": {
+        "type": "answer",
+        "voteup_count": 0,
+        "comment_count": 0,
+        "content": "<h2>《吸引力法则》推荐理由及读后收获</h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c7f761d3107e3f8fd724b10cdb03142d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3072\" data-rawheight=\"4096\" data-original-token=\"v2-a377ca632d0233514200d04224db808d\" class=\"origin_image zh-lightbox-thumb\" width=\"3072\" data-original=\"https://picx.zhimg.com/v2-c7f761d3107e3f8fd724b10cdb03142d_r.jpg\"/></figure><p data-pid=\"2huvnIT8\">《吸引力法则》是一本能重塑思维认知、引导人主动创造理想生活的心理自助类书籍，推荐给希望调整心态、明确目标、提升行动力的人群，尤其适合需要为他人（如中高考学生）做心态辅导的从业者，读后能从思维、心态、行动三个层面获得切实改变。</p><h2>一、推荐理由</h2><ol><li data-pid=\"hfv_6-NT\"><b>颠覆认知，扭转思维定式</b><br/>这本书的核心观点 “<b>你关注什么，就会吸引什么</b>”，打破了 “被动接受命运安排” 的固有思维。它让读者从 “我只能这样” 的受害者心态，转变为 “我可以主动创造” 的创造者心态，这对于需要调整自身状态，或引导学生跳出 “焦虑内耗” 的人来说，极具启发性。</li><li data-pid=\"2wMSjzCd\"><b>实操性强，普通人能快速上手</b><br/>书中并非单纯的理论灌输，而是配套了一系列可落地的练习方法，比如<b>制作愿景板、写感恩日记、正向自我暗示</b>等。这些方法无需专业工具，日常碎片时间就能完成，既适合自我提升，也能直接转化为辅导学生的小技巧。</li><li data-pid=\"4I-PjWPJ\"><b>普适性广，覆盖多场景需求</b><br/>吸引力法则的应用不局限于某一个领域，无论是职业发展中明确目标、人际关系中改善相处模式，还是心态辅导中帮助学生建立自信，都能从中提炼出可借鉴的思路。</li><li data-pid=\"Bqatb6l-\"><b>语言通俗，门槛极低</b><br/>全书没有晦涩的专业术语，用生活化的案例和直白的语言讲解核心逻辑，无论是什么知识背景的读者，都能轻松读懂并理解。</li></ol><h2>二、读后收获</h2><ol><li data-pid=\"d0IlCj5i\"><b>重塑正向思维，减少内耗</b><br/>读完后能学会识别并摒弃 “我不行”“这件事肯定做不好” 这类负面念头，主动用积极的视角看待问题。比如面对工作中的难题，不会先陷入焦虑，而是聚焦 “如何解决”，有效减少自我内耗。</li><li data-pid=\"dPcp-2RW\"><b>提升自我觉察能力</b><br/>会更清晰地感知自己的想法和情绪变化，一旦发现思维偏离目标，就能及时调整。这种觉察能力不仅能帮自己保持良好状态，在辅导学生时，也能更敏锐地捕捉到对方的负面心态，及时引导。</li><li data-pid=\"HIcDWNRJ\"><b>强化目标感，推动行动力</b><br/>通过 “明确愿景 — 聚焦目标 — 正向暗示” 的流程，能把抽象的 “想要” 转化为具体的行动步骤。比如想拓展副业做心态辅导，就可以用吸引力法则的思路，先明确服务对象和核心目标，再拆解成 “学习技巧 — 积累案例 — 对接资源” 等具体行动。</li><li data-pid=\"EGykik7Z\"><b>改善心态，提升幸福感</b><br/>书中的感恩练习能让人更关注生活中的积极面，长期坚持会明显提升幸福感和满足感。同时，自身的正向能量场也会吸引同频的人和事，助力建立更融洽的人际关系和工作协作关系。</li><li data-pid=\"DD8HZiBA\"><b>掌握赋能他人的实用工具</b><br/>对于教育从业者或心态辅导者来说，能将书中的方法转化为辅导工具。比如教学生制作 “提分愿景板”、写 “每日进步日记”，帮助他们摆脱焦虑，聚焦学习目标，提升备考状态。</li></ol>",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-a377ca632d0233514200d04224db808d_720w.jpg?source=b6762063",
+        "answer_type": "normal",
+        "updated_time": 1768745643,
+        "excerpt_new": "《吸引力法则》推荐理由及读后收获   《吸引力法则》是一本能重塑思维认知、引导人主动创造理想生活的心理自助类书籍，推荐给希望调整心态、明确目标、提升行动力的人群，尤其适合需要为他人（如中高考学生）做心态辅导的从业者，读后能从思维、心态、行动三个层面获得切实改变。 一、推荐理由颠覆认知，扭转思维定式 这本书的核心观点 “你关注什么，就会吸引什么”，打破了 “被动接受命运安排” 的固有思维。它让读者从 “我只能…",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-a377ca632d0233514200d04224db808d_720w.jpg?source=b6762063"
+        ],
+        "reshipment_settings": "need_payment",
+        "favorite_count": 0,
+        "question": {
+          "type": "question",
+          "author": {
+            "is_following": false,
+            "avatar_url": "https://pic1.zhimg.com/50/v2-939efb7c39f63a49761128a367fc6573_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "url_token": "15-94-41-94",
+            "name": "天伊星辰",
+            "headline": "",
+            "followers_count": 2,
+            "is_followed": false,
+            "id": "be6f47acdb19c6baae16b0e988120c62",
+            "url": "https://api.zhihu.com/people/be6f47acdb19c6baae16b0e988120c62",
+            "user_type": "people"
+          },
+          "created": 1767242603,
+          "question_type": "normal",
+          "relationship": {
+            "is_author": false
+          },
+          "id": "1990040395393021383",
+          "url": "https://api.zhihu.com/questions/1990040395393021383",
+          "title": "大家有什么好书推荐吗？同时想听听你们推荐的理由，以及读了后会有哪些收获？？",
+          "answer_count": 0,
+          "excerpt": "",
+          "detail": "",
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            53,
+            2165,
+            24979,
+            64559,
+            1944292
+          ],
+          "is_following": false
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "is_labeled": true,
+        "is_navigator": false,
+        "created_time": 1768745643,
+        "thanks_count": 0,
+        "excerpt": "《吸引力法则》推荐理由及读后收获   《吸引力法则》是一本能重塑思维认知、引导人主动创造理想生活的心理自助类书籍，推荐给希望调整心态、明确目标、提升行动力的人群，尤其适合需要为他人（如中高考学生）做心态辅导的从业者，读后能从思维、心态、行动三个层面获得切实改变。 一、推荐理由颠覆认知，扭转思维定式 这本书的核心观点 “你关注什么，就会吸引什么”，打破了 “被动接受命运安排” 的固有思维。它让读者从 “我只能…",
+        "author": {
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "河南师范大学 教育硕士"
+            }
+          ],
+          "is_followed": false,
+          "url_token": "60-44-24-1",
+          "name": "学习治疗燕老师",
+          "gender": 0,
+          "headline": "催眠疗愈师、催眠提分、中高考考试心态指导、学习心态调整",
+          "avatar_url": "https://picx.zhimg.com/50/v2-e4ae0a6aabe22d8aec90bc857bb8a8c9_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 46,
+          "is_following": false,
+          "id": "937f524d03c5c641258fa0df69733f65",
+          "url": "https://api.zhihu.com/people/937f524d03c5c641258fa0df69733f65",
+          "user_type": "people"
+        },
+        "is_copyable": false,
+        "id": "1996344600458183442",
+        "url": "https://api.zhihu.com/answers/1996344600458183442",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "visited_count": 2,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996344600458183442}",
+      "attached_info": "CuUFCLPDq+2n2cqTvwEQBBoJNzY1OTY2NDkyIKvVs8sGKAAwAECIAUokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwxEgEwGAAgADoAWgkxMTc5MTg5MTNiIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTk2MzQ0NjAwNDU4MTgzNDQyigETMTk5MDA0MDM5NTM5MzAyMTM4M6oBCXJlY29tbWVuZMIBIDkzN2Y1MjRkMDNjNWM2NDEyNThmYTBkZjY5NzMzZjY18gEKCAwSBk5vcm1hbPIBKAgKEiQ5NTJhNGU0YS05ZjY5LTQ1ZjEtYTQ1My05MDUzNGE1NTRmYjbyAQYICxICMjOCAgCIAo7hi5G9M5ICIDkzN2Y1MjRkMDNjNWM2NDEyNThmYTBkZjY5NzMzZjY1mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDHoAgP6AgtOT1JNQUxfRkxPV4oDIGZlZjJkYTQzYWE5YjQyM2ZiOTY3YWViMmE5NDI5MTAwmgMNCgJ2MhAAGgVvdGhlcqgDAtgDAOoDIHdhcm11cFR3b1Rvd2VyVGV4dE5vcm1hbFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQgBgYgCAiI3YyLWEzNzdjYTYzMmQwMjMzNTE0MjAwZDA0MjI0ZGI4MDhkgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACARIx0P4EFAAAAAAAAAACJBchLcomN8LM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBReQBgCgBooBqAYBkgIuCgk3NjU5NjY0OTISEzE5OTYzNDQ2MDA0NTgxODM0NDIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "137_1768757063.889",
+      "type": "feed",
+      "offset": 137,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757063,
+      "updated_time": 1768757063,
+      "target": {
+        "type": "answer",
+        "voteup_count": 6306,
+        "thanks_count": 127,
+        "reshipment_settings": "allowed",
+        "is_copyable": true,
+        "question": {
+          "author": {
+            "id": "94c88859df6c38bd72f9877d670ccb58",
+            "user_type": "people",
+            "name": "冷云皓",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-97e977b32d93107533093ad9fd01a2ab_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 44,
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/94c88859df6c38bd72f9877d670ccb58",
+            "url_token": "leng-zu-yong",
+            "headline": "把医生当业余爱好的医生",
+            "is_org": false
+          },
+          "title": "26岁快27岁了，一事无成，这辈子是不是彻底完了？",
+          "answer_count": 0,
+          "comment_count": 16,
+          "bound_topic_ids": [
+            3479,
+            8371,
+            17347,
+            32192,
+            99153
+          ],
+          "id": "602228217",
+          "type": "question",
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/602228217",
+          "created": 1684662820,
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "excerpt": ""
+        },
+        "excerpt": "哎，朋友， 我朋友 ZY 在26岁左右死了，91年的。 小学同学，初中同学。 为什么我称他为朋友，因为以前上学家里经常不管，老去他家混饭。 他吃饭搭棒冰，梦龙知道吧，拌饭吃，他妈的03年的时候梦龙什么档次。 还让我吃，我一个蹭饭的，好意思吗， 他就给我揣一根带路上吃。 就现在，2025年，哪个朋友带你吃饭揣根梦龙给你，不得叫声义父。 但是他死了，车祸，掉修路坑里，三个人一车，他和女朋友死了，还一个开车的也是同学，躺了…",
+        "preview_type": "default",
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 248589,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-ae3ac1c02f4811879a54cb7725d3f970_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "thumbnail": "https://picx.zhimg.com/50/v2-ae3ac1c02f4811879a54cb7725d3f970_720w.jpg?source=b6762063",
+        "excerpt_new": "哎，朋友， 我朋友 ZY 在26岁左右死了，91年的。 小学同学，初中同学。 为什么我称他为朋友，因为以前上学家里经常不管，老去他家混饭。 他吃饭搭棒冰，梦龙知道吧，拌饭吃，他妈的03年的时候梦龙什么档次。 还让我吃，我一个蹭饭的，好意思吗， 他就给我揣一根带路上吃。 就现在，2025年，哪个朋友带你吃饭揣根梦龙给你，不得叫声义父。 但是他死了，车祸，掉修路坑里，三个人一车，他和女朋友死了，还一个开车的也是同学，躺了…",
+        "url": "https://api.zhihu.com/answers/1985004084391060872",
+        "created_time": 1766041853,
+        "content": "<p data-pid=\"DQ0kpZSh\">哎，朋友，</p><p data-pid=\"2rIVsJVM\">我朋友 ZY 在26岁左右死了，91年的。</p><p data-pid=\"IYv5jbL8\">小学同学，初中同学。</p><p data-pid=\"90FRf_jq\">为什么我称他为朋友，因为以前上学家里经常不管，老去他家混饭。</p><p data-pid=\"pOTut6BG\">他吃饭搭棒冰，梦龙知道吧，拌饭吃，他妈的03年的时候梦龙什么档次。</p><p data-pid=\"kjkhlMyN\">还让我吃，我一个蹭饭的，好意思吗，</p><p data-pid=\"pJZhIISM\">他就给我揣一根带路上吃。</p><p data-pid=\"Tzz-eVUe\">就现在，2025年，哪个朋友带你吃饭揣根梦龙给你，不得叫声义父。</p><p data-pid=\"jqDSWCMc\">但是他死了，车祸，掉修路坑里，三个人一车，他和女朋友死了，还一个开车的也是同学，躺了半年吧。</p><p data-pid=\"nQzPSge4\">就封棺的时候我去看了一眼，没感觉，我知道他不会再动了，我当时真就那个表情，</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-92687ff6ac165491a8c8ccbde1067d3a_1440w.jpg\" data-rawwidth=\"2453\" data-rawheight=\"961\" data-size=\"normal\" data-original-token=\"v2-ae3ac1c02f4811879a54cb7725d3f970\" class=\"origin_image zh-lightbox-thumb\" width=\"2453\" data-original=\"https://pic1.zhimg.com/v2-92687ff6ac165491a8c8ccbde1067d3a_r.jpg\"/></figure><p data-pid=\"1eqtxN8A\">看到他就想，你吃不上梦龙拌饭了。</p><p data-pid=\"xs2AstJ1\">笑。</p><p data-pid=\"KoTcNSZc\">然后就是哭。</p><p data-pid=\"_yYy3cBO\">对了，他外婆，就是去蹭饭管他饭的小老太，是做白事纸人的手艺人，给他扎了一个。</p><p data-pid=\"sNAl4aUo\">什么白发人送黑发人，都没这扎人。</p><p data-pid=\"Ap-FSo78\">我还跟他外婆说，外婆，给他扎两个梦龙，就是巧克力棒冰，他嘴馋。</p><p data-pid=\"I5W4u4IT\">外婆说是啊，也不知到在下面能不能买到。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4c0A4qmN\">我就是想告诉你，在你还在发愁，你同龄的，有的人真的死了，</p><p data-pid=\"d20Z_FGU\">管他是不是一事无成，管他是不是牛逼，死了就是死了。</p><p data-pid=\"kt90nf5w\">所以啊，你还活着呢。</p>",
+        "favorite_count": 1148,
+        "allow_segment_interaction": true,
+        "segment_infos": [
+          {
+            "pid": "Ap-FSo78",
+            "text": "我还跟他外婆说，外婆，给他扎两个梦龙，就是巧克力棒冰，他嘴馋。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 10,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993083245802325514"
+                  ],
+                  "is_like": false,
+                  "like_count": 21,
+                  "comment_count": 7,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "d20Z_FGU",
+            "text": "管他是不是一事无成，管他是不是牛逼，死了就是死了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993492680546742676"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "kt90nf5w",
+            "text": "所以啊，你还活着呢。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 10,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993083245802325514"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "headline": "前五星事故处理人员，新进电车死忠，非专业车型推荐人。",
+          "is_org": false,
+          "gender": 1,
+          "is_followed": false,
+          "id": "5c6891e91acaa0b3e6622b6584ba9f1d",
+          "user_type": "people",
+          "name": "Sunny孙",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9b01faf137e0ea7eec3316675b3c1030_l.jpg?source=b6762063",
+          "followers_count": 587,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/5c6891e91acaa0b3e6622b6584ba9f1d",
+          "url_token": "lucky-sun-93"
+        },
+        "updated_time": 1766044294,
+        "navigator_vote": false,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "id": "1985004084391060872",
+        "comment_count": 613,
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1985004084391060872}",
+      "attached_info": "CuYFCLPDq+2n2cqTvwEQBBoJNzYxNjAxODgxIP3RjsoGKKIxMOUEQIkBSkoKIFRTX1NPVVJDRV9TT0NJQUxfRk9MTE9XX05FQVJMSU5FEiBuZWFybGluZUNvbnRlbnRWMjo1MzY3NDAzNDQ6cGFnZRgAIAA6AFoIOTYxMDkwMzdiIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTg1MDA0MDg0MzkxMDYwODcyigEJNjAyMjI4MjE3qgEJcmVjb21tZW5kwgEgNWM2ODkxZTkxYWNhYTBiM2U2NjIyYjY1ODRiYTlmMWTyAQoIDBIGTm9ybWFs8gEoCAoSJGI3NGFmYWIxLTdmZWYtNDBiMy04MWUwLTZjMjc0MDBlZTZmMvIBBggLEgIyM4ICAIgCjuGLkb0zkgIgNWM2ODkxZTkxYWNhYTBiM2U2NjIyYjY1ODRiYTlmMWSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gIgVFNfU09VUkNFX1NPQ0lBTF9GT0xMT1dfTkVBUkxJTkXoAgL6AgtOT1JNQUxfRkxPV4oDIGZlZjJkYTQzYWE5YjQyM2ZiOTY3YWViMmE5NDI5MTAwmgMNCgJ2MhAAGgVvdGhlcqgDjZYP2AMA6gMWZm9sbG93ZWROZWFyTGluZVJlY2FsbPoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEJUTGMEHIiN2Mi1hZTNhYzFjMDJmNDgxMTg3OWE1NGNiNzcyNWQzZjk3MIAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoBKLqz+BBQAAAAAAAAAAiQXIS3KJjfCzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUXkAYAoAaLAagGAJICLgoJNzYxNjAxODgxEhMxOTg1MDA0MDg0MzkxMDYwODcyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=137&desktop=true&end_offset=139&page_number=24&session_token=f980b6105c15a788661ed7a964b8d32d",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=137&desktop=true&end_offset=139&page_number=24&session_token=f980b6105c15a788661ed7a964b8d32d",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

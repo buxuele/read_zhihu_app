@@ -1,0 +1,648 @@
+{
+  "data": [
+    {
+      "id": "66_1767704789.905",
+      "type": "feed",
+      "offset": 66,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704789,
+      "updated_time": 1767704789,
+      "target": {
+        "comment_permission": "all",
+        "voting": 0,
+        "comment_count": 0,
+        "preview_type": "default",
+        "preview_text": "",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-c5a98b14081431a1e9c846d96e459a97_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-9556dcef70c3462515608b89927cda29_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-32894e975d1d03e30ad26942f51dff30_720w.jpg?source=b6762063"
+        ],
+        "type": "article",
+        "author": {
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "itwang-lao-shi",
+          "name": "IT小果子",
+          "followers_count": 231,
+          "is_org": false,
+          "gender": -1,
+          "is_followed": false,
+          "id": "9f64d4a2255c39326a26ad038af500b2",
+          "url": "https://api.zhihu.com/people/9f64d4a2255c39326a26ad038af500b2",
+          "headline": "公众号咖喱酱教你学编程",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-b3017b1943c1035a13b6e9ed923a6b3a_l.jpg?source=b6762063"
+        },
+        "created": 1767492107,
+        "updated": 1767492107,
+        "voteup_count": 1,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "content": "<p data-pid=\"Ojm8QPRU\">人类社会为什么能做大工程？ 靠的是<b>分工协作</b>。<br/>AI世界也是同理。<br/><b>2025年的顶级玩法，不是压榨一个GPT-4，而是组建一个“复仇者联盟”。</b><br/>今天，我带大家用Python和CrewAI框架，在你的电脑里开一家“虚拟软件开发公司”。 我们将雇佣三个AI员工：<br/></p><ol><li data-pid=\"RnhsBZCS\"><b>产品经理（Kevin）</b>：负责把你的这句废话需求变成具体文档。</li><li data-pid=\"dP3DxEPJ\"><b>高级Python开发（Dave）</b>：负责根据文档写出完美代码。</li><li data-pid=\"NjjlsLLd\"><b>测试工程师（Rambo）</b>：负责给代码找茬，不通过就不准上线。</li></ol><p data-pid=\"Uzxdi59x\">而你，只需要做一件事<b>当老板，下命令。</b><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f69d3febbda85d1fc20a30d74f37310f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2291\" data-rawheight=\"1513\" data-original-token=\"v2-c5a98b14081431a1e9c846d96e459a97\" class=\"origin_image zh-lightbox-thumb\" width=\"2291\" data-original=\"https://picx.zhimg.com/v2-f69d3febbda85d1fc20a30d74f37310f_r.jpg\"/></figure><p data-pid=\"097AcTSm\"><br/> 一、 为什么单体Agent已死，多智能体（Multi-Agent）当立？<br/>不管是GPT-4还是DeepSeek，当你给它一个超长任务（比如“写一个贪吃蛇游戏”）时，它往往顾头不顾腚：写了代码忘了写注释，写了逻辑忘了处理边界条件。<br/><b>Multi-Agent（多智能体）的核心逻辑是：让专业的AI做专业的事。</b><br/></p><ul><li data-pid=\"povE4Ng4\">让擅长逻辑的写代码；</li><li data-pid=\"x_C6e9uN\">让擅长挑刺的做测试；</li><li data-pid=\"73wj3ShZ\">让它们<b>互相吵架、互相Review</b>，直到产出完美结果。</li></ul><p data-pid=\"SsyegYcD\">这就是硅谷现在最流行的“Agentic Workflow”。<br/></p><hr/><p data-pid=\"026hJ1yf\"> 二、 招兵买马：构建你的AI团队<br/>我们将使用 。 它相比LangGraph，更强调“角色（Role）”CrewAI<b>和</b>“背景故事（Backstory）”，非常适合这种拟人化的团队搭建。<br/>1. 环境准备<br/><br/></p><div class=\"highlight\"><pre><code class=\"language-text\">    pip install crewai crewai-tools langchain_openai</code></pre></div><p data-pid=\"6_RpUy6p\"><br/>2. 定义你的“员工” (Agents)<br/>新建一个 ，我们先来定义这三位打工人。 注意看 main.py背景故事，这赋予了它们灵魂。<br/><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><div class=\"highlight\"><pre><code class=\"language-text\">    import os\nfrom crewai import Agent, Task, Crew, Process\nfrom langchain_openai import ChatOpenAI\n\n# 配置LLM（这里可以用OpenAI，也可以用本地的大模型）\n# 记得换成你自己的API Key\nllm = ChatOpenAI(model=&#34;gpt-4-turbo&#34;, temperature=0.7)\n\n# 1. 定义产品经理 Agent\nproduct_manager = Agent(\n    role=&#39;资深产品经理&#39;,\n    goal=&#39;分析用户需求，产出清晰、详细的软件需求文档(PRD)&#39;,\n    backstory=&#34;&#34;&#34;你是一名拥有10年经验的互联网产品经理。\n    你擅长挖掘用户痛点，并且能把模糊的一句话需求，拆解成程序员能看懂的技术文档。\n    你对细节要求极高，不允许有逻辑漏洞。&#34;&#34;&#34;,\n    verbose=True, # 让他干活时多唠叨几句，我们在终端能看到\n    allow_delegation=False,\n    llm=llm\n)\n\n# 2. 定义Python开发 Agent\ndeveloper = Agent(\n    role=&#39;首席Python架构师&#39;,\n    goal=&#39;根据需求文档，编写高质量、可运行的Python代码&#39;,\n    backstory=&#34;&#34;&#34;你是一名顶级黑客和Python专家。\n    你只写优雅、高效、符合PEP8规范的代码。\n    你能够解决复杂算法问题，并且会给关键逻辑加上详细注释。&#34;&#34;&#34;,\n    verbose=True,\n    allow_delegation=False,\n    llm=llm\n)\n\n# 3. 定义测试工程师 Agent\nqa_engineer = Agent(\n    role=&#39;质量保证(QA)专家&#39;,\n    goal=&#39;审查代码，寻找Bug，确保代码能完美运行&#39;,\n    backstory=&#34;&#34;&#34;你是一名以“找茬”为乐的测试专家。\n    你会严格审查开发人员的代码，检查是否存在安全隐患、逻辑死循环或语法错误。\n    如果发现问题，你会毫不留情地打回重写。&#34;&#34;&#34;,\n    verbose=True,\n    allow_delegation=False,\n    llm=llm\n)\n</code></pre></div><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-623ffc182ad1ea0ae605b418e784b7f1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"768\" data-original-token=\"v2-9556dcef70c3462515608b89927cda29\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-623ffc182ad1ea0ae605b418e784b7f1_r.jpg\"/></figure><p data-pid=\"1Z0Bfx3c\"><br/> 三、 派发任务 (Tasks)<br/>有了人，还得有活儿。 我们需要定义任务，并指定谁来做。<br/><br/></p><div class=\"highlight\"><pre><code class=\"language-text\">    # 任务1：需求分析\ntask_analysis = Task(\n    description=&#34;&#34;&#34;\n    用户想要一个&#39;基于命令行的贪吃蛇游戏&#39;。\n    请分析该需求，定义游戏规则、控制方式（WASD）、界面布局以及计分规则。\n    产出一份简短但核心逻辑清晰的需求列表。\n    &#34;&#34;&#34;,\n    agent=product_manager,\n    expected_output=&#34;一份包含游戏规则和功能点的需求列表文本。&#34;\n)\n\n# 任务2：编写代码\ntask_coding = Task(\n    description=&#34;&#34;&#34;\n    使用Python的curses库或标准库实现上述贪吃蛇游戏。\n    注意：代码必须是一个完整的、可直接运行的.py文件内容。\n    处理好蛇撞墙、吃到食物变长等逻辑。\n    &#34;&#34;&#34;,\n    agent=developer,\n    expected_output=&#34;完整的Python代码字符串。&#34;\n)\n\n# 任务3：代码审查\ntask_review = Task(\n    description=&#34;&#34;&#34;\n    检查开发人员编写的代码。\n    1. 检查是否有语法错误。\n    2. 检查逻辑是否符合PM的需求。\n    3. 如果代码完美，直接输出代码；如果有问题，列出修改建议。\n    &#34;&#34;&#34;,\n    agent=qa_engineer,\n    expected_output=&#34;经过审查的最终Python代码，或Bug修改建议。&#34;\n)</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"guiGad_q\"> 四、 组建团队并开工 (Crew)<br/>这是最燃的一步。 我们将这些Agent串联起来，组成一个 Crew（团队）。<br/><br/></p><div class=\"highlight\"><pre><code class=\"language-text\">    # 组建团队\ndev_team = Crew(\n    agents=[product_manager, developer, qa_engineer],\n    tasks=[task_analysis, task_coding, task_review],\n    process=Process.sequential, # 顺序执行：PM -&gt; Dev -&gt; QA\n    verbose=True\n)\n\nprint(&#34; 虚拟软件开发团队正在集结...&#34;)\nprint(&#34; 老板发布任务：做一个贪吃蛇游戏&#34;)\n\n# 开工！\nresult = dev_team.kickoff()\n\nprint(&#34;\\n\\n########################&#34;)\nprint(&#34;✅ 最终交付结果：&#34;)\nprint(result)\n  </code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p data-pid=\"SMqi5tEr\"> 五、 见证“无人值守”的魔法<br/>当你运行这段代码，你的终端将会变成一个<b>热闹的聊天室</b>。 你会看到令人起鸡皮疙瘩的一幕：<br/></p><ol><li data-pid=\"-DFhFQU2\"><b>产品经理</b>开始思考：“好的，用户要贪吃蛇。 我需要定义：地图大小、蛇的初始速度、积分规则...”</li><li data-pid=\"6r63C-Ey\"><b>产品经理</b>把文档甩给开发：“@首席Python架构师，这是需求，按这个写。 ”</li><li data-pid=\"ide9ha6o\"><b>开发</b>接单：“收到。 开始构建 类，处理 `KeyBoardInter蛇键盘中断...”</li><li data-pid=\"MfTpoWS-\"><b>开发</b>写完代码，交给测试。</li><li data-pid=\"v-o_HXQq\"><b>质量保证</b>介入：“等等，这里有个逻辑漏洞，蛇撞到自己身体没有判断GameOver。 建议修改...” 。 (CrewAI拥有强大的反思机制，如果是高级配置，他们真的会退回去重写)</li></ol><p data-pid=\"9Ow6Ok5v\">几分钟后，你什么都没干，一份几百行的、逻辑严密的贪吃蛇代码就出现在你的屏幕上。<br/>你直接复制粘贴，运行，<b>它是真的能玩的！</b><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b9ee5718e898a6f64d3dae5c725759ea_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"762\" data-original-token=\"v2-32894e975d1d03e30ad26942f51dff30\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-b9ee5718e898a6f64d3dae5c725759ea_r.jpg\"/></figure><p data-pid=\"TMEFqdKG\"><br/> 六、<b> AI agent学习资料获取方式：转发关注+私信【资料】</b></p><p data-pid=\"1kdQBIR-\"><br/>看完这个Demo，你有什么感觉？<br/>是不是觉得：<b>以后写代码这事儿，可能真的不需要亲自上手了？</b><br/>在未来，程序员的价值将发生巨大的分化：<br/></p><ul><li data-pid=\"RKw3ukKa\"><b>初级程序员</b>：还在纠结 循环怎么写，大概率被取代。对于</li><li data-pid=\"ecciTMde\"><b>超级个体</b>：像我今天演示的这样，<b>一个人就是一家公司</b>。 你不需要精通每一行代码，但你需要懂得如何<b>拆解任务</b>，如何<b>定义角色</b>，如何<b>验收结果</b>。</li></ul><p data-pid=\"tJCR9mv2\">你从 Coder（编码者），晋升成了 Commander（指挥官）。<br/>Python 是你指挥这支 AI 军队的权杖。 CrewAI 是你的练兵场。<br/><b>别等了，现在就去把这个脚本跑起来。 当你第一次看到三个AI在你的终端里为了你的需求而“协作”时，你会听到时代大门打开的声音。</b></p>",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1991086109032202659",
+        "title": "一人成军！用Python招了3个AI Agent，组建了一支不睡觉的开发团队",
+        "excerpt": "人类社会为什么能做大工程？ 靠的是 分工协作。 AI世界也是同理。 2025年的顶级玩法，不是压榨一个GPT-4，而是组建一个“复仇者联盟”。 今天，我带大家用Python和CrewAI框架，在你的电脑里开一家“虚拟软件开发公司”。 我们将雇佣三个AI员工： 产品经理（Kevin）：负责把你的这句废话需求变成具体文档。高级Python开发（Dave）：负责根据文档写出完美代码。测试工程师（Rambo）：负责给代码找茬，不通过就不准上线。而你，只需…",
+        "visited_count": 190,
+        "favorite_count": 10,
+        "article_type": "normal",
+        "navigator_vote": false,
+        "id": "1991086109032202659",
+        "excerpt_new": "人类社会为什么能做大工程？ 靠的是 分工协作。 AI世界也是同理。 2025年的顶级玩法，不是压榨一个GPT-4，而是组建一个“复仇者联盟”。 今天，我带大家用Python和CrewAI框架，在你的电脑里开一家“虚拟软件开发公司”。 我们将雇佣三个AI员工： 产品经理（Kevin）：负责把你的这句废话需求变成具体文档。高级Python开发（Dave）：负责根据文档写出完美代码。测试工程师（Rambo）：负责给代码找茬，不通过就不准上线。而你，只需…",
+        "is_labeled": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991086109032202659}",
+      "attached_info": "CpsGCOngy72u88+nqAEQBxoJMjY4NTI4MjQwIIuU58oGKAEwAEBCSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AGIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5OTEwODYxMDkwMzIyMDI2NTmqAQlyZWNvbW1lbmTCASA5ZjY0ZDRhMjI1NWMzOTMyNmEyNmFkMDM4YWY1MDBiMvIBCggMEgZOb3JtYWzyASgIChIkM2Y3ZTk5N2MtM2ZlZi00MjZhLTkxNDMtMTEyZGU4NmE5MGE18gEGCAsSAjEyggIAiAKRhqqbuTOSAiA5ZjY0ZDRhMjI1NWMzOTMyNmEyNmFkMDM4YWY1MDBiMpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMugCAvoCC05PUk1BTF9GTE9XigMgY2NmMzFmNzA1ODZlNGNiYjlkNzViMDE0NDg0ZDNlOTOaAw0KAnYyEAAaBW90aGVyqAO+AdgDAOoDH3dhcm11cFR3b1Rvd2VyVGV4dEJvb3N0UmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ8xEY6QsiI3YyLWM1YTk4YjE0MDgxNDMxYTFlOWM4NDZkOTZlNDU5YTk3Oi0IAxCAChiABiIjdjItOTU1NmRjZWY3MGMzNDYyNTE1NjA4Yjg5OTI3Y2RhMjk6LQgDEIAKGPoFIiN2Mi0zMjg5NGU5NzVkMWQwM2UzMGFkMjY5NDJmNTFkZmYzMIAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgOotej+BBQAAAAAAAAAAiQWfI+fxaEyyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZCqAYBkgIuCgkyNjg1MjgyNDASEzE5OTEwODYxMDkwMzIyMDI2NTkYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "67_1767704789.886",
+      "type": "feed",
+      "offset": 67,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704789,
+      "updated_time": 1767704789,
+      "target": {
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "voteup_count": 84,
+        "updated_time": 1767371080,
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a5764f8b8300257c22bb5b7d6f478aed_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"1787\" data-size=\"normal\" data-original-token=\"v2-a5764f8b8300257c22bb5b7d6f478aed\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-a5764f8b8300257c22bb5b7d6f478aed_r.jpg\"/></figure><p data-pid=\"Hn6zOzL8\">著名的英国才子王尔德看到这幅画后，大为震撼，精神瞬间共鸣，创作出经典歌剧《莎乐美》。</p><p data-pid=\"LN2_Wwo_\">画幅透着迷人的神秘气息，华贵庄严的装饰布景，象征绝对权力的国王，美丽绝伦的莎乐美，耶稣施洗者约翰，以生命和鲜血为结尾谢幕。</p><p data-pid=\"gNSgYfTP\">复述一下莎乐美故事，以咨读者：</p><p data-pid=\"6hxMDfAM\">“施洗约翰，你是我唯一爱上的男人。</p><p data-pid=\"MbUtGNv4\">别的男人在我看来都十分可憎可厌。</p><p data-pid=\"2tVThowS\">可是你，你是美的化身啊！</p><p data-pid=\"ejL7qjgK\">你的肉体像一根象牙装在银色的管子里。</p><p data-pid=\"G-9Qtazz\">它是一座满是白鸽和银百合的花园。</p><p data-pid=\"ZNlq1FZs\">它是一座镶嵌了象牙骨的银塔。</p><p data-pid=\"SjMzC2fh\">世界上没有任何东西像你的​肉体一样洁白。世界上没有任何东西像你的头发一样漆黑。全世界没有任何东西像你的嘴唇那样艳红。你的声音是一个散发着妙香的香炉，</p><p data-pid=\"TLpVqAuR\">我看着你时能听见奇怪的音乐。”</p><p data-pid=\"a-JPJB7b\">​</p><p data-pid=\"16tTQ37w\">​       《莎乐美》王尔德</p><p data-pid=\"sgDnUKyP\">​</p><p data-pid=\"8hf6epi9\">​美艳绝伦的希律公主“莎乐美”爱上“施洗约翰”，​施洗约翰憎恶莎乐美家族的乱伦行径，严词拒绝了莎乐美的索爱。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NoBii2Kz\">莎乐美的后爹“希律王”，大摆筵席宴请凯撒的使者，对养女身体觊觎已久的希律王多次提出让莎乐美跳舞，莎乐美坚决不愿意。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"H0LqXqco\">希律王愿意答应莎乐美任何要求，只求她跳一支舞蹈。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CI3p5Mtz\">莎乐美下跪：</p><p data-pid=\"LNIY9dYx\">     “我要他们立即给我用大银盘端来……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"x880iZnv\">莎乐美起立：</p><p data-pid=\"ceZBBBbP\">     “施洗约翰的头！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ml48nUMx\">莎乐美​说罢，跳起舞来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7pW1GSX3\">​希律王惊恐万分，他深知施洗约翰在民间的威望，杀了施洗约翰会动摇王国的根基。</p><p data-pid=\"cqDgy3Q5\">酒醉的希律王在痛苦纠结中一片混乱，王后趁机盗取了权印。不一会，施洗约翰的头被放在银盘里端了上来。</p><p data-pid=\"8OUv0bfF\">​</p><p data-pid=\"Z9xDDuvb\">​莎乐美狂喜，她把施洗约翰的头抱起来，热烈的亲吻起来。</p><p data-pid=\"aVy9BAuQ\">      “啊！我吻到你的嘴唇了，施洗约翰。我吻到你的嘴唇了。你的嘴唇有点苦味。这是血的味道吗……？不过这也许是爱情的味吧……人们说爱情有一种苦味……不过那又怎样？那又怎么样呢？我吻到你的嘴唇了，施洗约翰。”</p><p data-pid=\"nYPO6Cxx\">自知闯下滔天大祸的希律王幡然醒悟，当场命令护卫兵用盾牌砸死了莎乐美。</p><p data-pid=\"STcAicox\">国王无知导致悲剧，使他清晰感受到了权利边界。美女爱慕智者，爱而不得心生恨意，肉欲导致的精神混乱与生命、爱情是否永恒？在这一刻被象征主义画家莫罗凝聚成经典之作，令人惊粟之余陷入凛然沉思。</p><p></p>",
+        "is_labeled": false,
+        "visited_count": 7121,
+        "created_time": 1767371080,
+        "url": "https://api.zhihu.com/answers/1990579268820947226",
+        "question": {
+          "title": "哪幅油画让你有一见倾心的感觉？",
+          "author": {
+            "url": "https://api.zhihu.com/people/1be210687b2461d6942224bd93082731",
+            "url_token": "yang-guang-61-46",
+            "avatar_url": "https://picx.zhimg.com/50/20fb8673b_l.jpg?source=b6762063",
+            "gender": 1,
+            "followers_count": 593,
+            "id": "1be210687b2461d6942224bd93082731",
+            "user_type": "people",
+            "name": "祝君好",
+            "headline": "出身汽车行业市场部门，现建材行业市场经理",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false
+          },
+          "answer_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "25258674",
+          "url": "https://api.zhihu.com/questions/25258674",
+          "excerpt": "",
+          "question_type": "normal",
+          "type": "question",
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            69,
+            740,
+            1309,
+            9464,
+            16953
+          ],
+          "detail": "",
+          "created": 1410178749
+        },
+        "excerpt": "著名的英国才子王尔德看到这幅画后，大为震撼，精神瞬间共鸣，创作出经典歌剧《莎乐美》。 画幅透着迷人的神秘气息，华贵庄严的装饰布景，象征绝对权力的国王，美丽绝伦的莎乐美，耶稣施洗者约翰，以生命和鲜血为结尾谢幕。 复述一下莎乐美故事，以咨读者： “施洗约翰，你是我唯一爱上的男人。 别的男人在我看来都十分可憎可厌。 可是你，你是美的化身啊！ 你的肉体像一根象牙装在银色的管子里。 它是一座满是白鸽和银百合的花…",
+        "excerpt_new": "著名的英国才子王尔德看到这幅画后，大为震撼，精神瞬间共鸣，创作出经典歌剧《莎乐美》。 画幅透着迷人的神秘气息，华贵庄严的装饰布景，象征绝对权力的国王，美丽绝伦的莎乐美，耶稣施洗者约翰，以生命和鲜血为结尾谢幕。 复述一下莎乐美故事，以咨读者： “施洗约翰，你是我唯一爱上的男人。 别的男人在我看来都十分可憎可厌。 可是你，你是美的化身啊！ 你的肉体像一根象牙装在银色的管子里。 它是一座满是白鸽和银百合的花…",
+        "is_navigator": false,
+        "id": "1990579268820947226",
+        "author": {
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/c3cfc694d53ad6bc012cebea999e5acc",
+          "url_token": "yue-tong-76-1",
+          "name": "烽火",
+          "headline": "五分钟热度，常有奇思妙想的人生新手",
+          "followers_count": 982,
+          "is_following": false,
+          "is_followed": false,
+          "id": "c3cfc694d53ad6bc012cebea999e5acc",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ad7dcab40b899e9e8d9e2f798e1083d6_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "thanks_count": 0,
+        "comment_count": 10,
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "type": "answer",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-a5764f8b8300257c22bb5b7d6f478aed_720w.jpg?source=b6762063"
+        ],
+        "preview_type": "default",
+        "favorite_count": 67,
+        "thumbnail": "https://pica.zhimg.com/50/v2-a5764f8b8300257c22bb5b7d6f478aed_720w.jpg?source=b6762063",
+        "allow_segment_interaction": true,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990579268820947226}",
+      "attached_info": "CoMGCOngy72u88+nqAEQBBoJNzYzNzM4MDMyIMji38oGKFQwCkBDSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9WgcyMjg2MDQ5YiA2NTIwZjVmMjhjNWY3NjNmMTk0ZDg2ZjEyMzQ5Zjg4M3ITMTk5MDU3OTI2ODgyMDk0NzIyNooBCDI1MjU4Njc0qgEJcmVjb21tZW5kwgEgYzNjZmM2OTRkNTNhZDZiYzAxMmNlYmVhOTk5ZTVhY2PyAQoIDBIGTm9ybWFs8gEoCAoSJDY5NzIwMzE1LTI4N2QtNDc2MC1iYWNkLTAxNmMyYjFlNzk5ZfIBBggLEgIxMoICAIgCkoaqm7kzkgIgYzNjZmM2OTRkNTNhZDZiYzAxMmNlYmVhOTk5ZTVhY2OaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAhNUU19TT1VSQ0VfRkVFRFJFX1Y16AIC+gILTk9STUFMX0ZMT1eKAyBjY2YzMWY3MDU4NmU0Y2JiOWQ3NWIwMTQ0ODRkM2U5M5oDDQoCdjIQABoFb3RoZXKoA9E32AMA6gMZZmVlZHJlV2FybVN1Y2Nlc3NSZWNhbGxlcvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEIAKGPsNIiN2Mi1hNTc2NGY4YjgzMDAyNTdjMjJiYjViN2Q2ZjQ3OGFlZIAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoCStlz+BBQAAAAAAAAAAiQWfI+fxaEyyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZDqAYDkgIuCgk3NjM3MzgwMzISEzE5OTA1NzkyNjg4MjA5NDcyMjYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "68_1767704789.359",
+      "type": "feed",
+      "offset": 68,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704789,
+      "updated_time": 1767704789,
+      "target": {
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-f11df9d0a5ce6dc90c0a04d99f60a9be_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-c6d4e79c05a72064a676eab21a75bf61_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "created_time": 1767110493,
+        "thanks_count": 12,
+        "visited_count": 1520,
+        "url": "https://api.zhihu.com/answers/1989486287971963047",
+        "is_copyable": false,
+        "excerpt_new": "说到红薯的特点，这里有几个冷知识，我把它拆解成三个问题： 到底是什么物质让红薯好吃？有没有提升这些物质含量的农艺方向？如何操作？ 一、红薯为什么好吃 我们都知道，一块生的红薯，要甜味不如柿子，要汁水不如萝卜，要风味不如香蕉，摆在那里，谁也提不起食欲。而一旦放进烤箱，用不了多久，浓烈的香气就会喷薄而出，整个厨房都弥漫着诱人的香味，就算刚吃饱饭的人，也想吃一块。 你要是去网上查，这些香味是怎么来的？它们…",
+        "excerpt": "说到红薯的特点，这里有几个冷知识，我把它拆解成三个问题： 到底是什么物质让红薯好吃？有没有提升这些物质含量的农艺方向？如何操作？ 一、红薯为什么好吃 我们都知道，一块生的红薯，要甜味不如柿子，要汁水不如萝卜，要风味不如香蕉，摆在那里，谁也提不起食欲。而一旦放进烤箱，用不了多久，浓烈的香气就会喷薄而出，整个厨房都弥漫着诱人的香味，就算刚吃饱饭的人，也想吃一块。 你要是去网上查，这些香味是怎么来的？它们…",
+        "answer_type": "normal",
+        "content": "<p data-pid=\"jMRN0jKy\">说到红薯的特点，这里有几个冷知识，我把它拆解成三个问题：</p><p data-pid=\"QAn0iZcx\">到底是什么物质让红薯好吃？有没有提升这些物质含量的农艺方向？如何操作？</p><p data-pid=\"fFd4RoTA\">一、红薯为什么好吃</p><p data-pid=\"h9YiX5la\">我们都知道，一块生的红薯，要甜味不如柿子，要汁水不如萝卜，要风味不如香蕉，摆在那里，谁也提不起食欲。而一旦放进烤箱，用不了多久，浓烈的香气就会喷薄而出，整个厨房都弥漫着诱人的香味，就算刚吃饱饭的人，也想吃一块。</p><p data-pid=\"oADGCDqd\">你要是去网上查，这些香味是怎么来的？它们是什么物质？百分百告诉你。这是在高温下，发生了美拉德反应。</p><p data-pid=\"yPMQUACf\">然而，这不是我们关注的重点，我们真正的疑惑在于，为什么是红薯，而不是土豆？</p><p data-pid=\"V6IdeKna\">答案是：只有红薯含有的那些特殊物质，才能烤出那股子浓郁、温暖、带焦糖感的复合香气，而土豆却不能。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a198d71741fb9e49727ca2ff537605af_1440w.jpg\" data-rawwidth=\"2400\" data-rawheight=\"1489\" data-size=\"normal\" data-original-token=\"v2-f11df9d0a5ce6dc90c0a04d99f60a9be\" class=\"origin_image zh-lightbox-thumb\" width=\"2400\" data-original=\"https://pic4.zhimg.com/v2-a198d71741fb9e49727ca2ff537605af_r.jpg\"/><figcaption>红薯（图片源于网络）</figcaption></figure><p data-pid=\"_zSVlRKt\">让我来揭开这个谜底。</p><p data-pid=\"lILdQffW\">1， 充足的糖分。红薯（尤其是经过糖化的）块根中，麦芽糖、葡萄糖等还原糖含量极高，可达鲜重的4%-8%，而土豆的糖分主要以淀粉形式存在，还原糖含量通常小于 1%，这是美拉德反应的基础底物。</p><p data-pid=\"qvDVIU7C\">2，蛋白质成分，红薯中天冬酰胺和谷氨酰胺含量丰富。它们在反应中特别容易生成烤坚果香、烤面包香的核心物质。土豆的氨基酸组合就不是这个味儿。</p><p data-pid=\"jkhJjKqP\">3，红薯味的灵魂。红薯富含的β-胡萝卜素，加热后会裂解，产生带着花果香和蜂蜜气味，这是「烤红薯味」的灵魂香气。这个成分，土豆压根儿就没有。</p><p data-pid=\"eWo6_1NY\">所以，生的红薯味道寡淡，是因为它所含的物质本身没有香气，只是美拉德反应的前体物质，含量越高，烤出来的风味越浓郁。</p><p data-pid=\"t4hv9ZLm\">那么，我们如何通过种植手段，提升这些物质的含量？</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-14f4b8182b7e9eca44ebe8fcd17beefd_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"552\" data-size=\"normal\" data-original-token=\"v2-1d1cb108a0002896939eff0dd388e8ab\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic2.zhimg.com/v2-14f4b8182b7e9eca44ebe8fcd17beefd_r.jpg\"/><figcaption>红薯（图片源于网络）</figcaption></figure><p data-pid=\"ZHGYpcM5\">二、提升风味的原理：不求个大，只求味浓</p><p data-pid=\"4AiKJIR6\">试想一下，5 克糖加在一杯水里，可能尝不出甜味，要是换成半杯水呢？甜味即刻显现。</p><p data-pid=\"588dMchY\">红薯也是如此。一块红薯大约有1亿到几亿个储藏细胞，薯块的膨大期，就是往这些细胞里填充淀粉和风味物质的过程。如果水肥过足，细胞数量太多或个头太大，宝贵的风味物质就会被稀释。薯块大，却味道淡。</p><p data-pid=\"QBJVgCw5\">要想让红薯甜，就不能让它长大个。</p><p data-pid=\"VPserah5\">实现这一目标的关键，就是精准把控红薯生长的两个阶段：</p><p data-pid=\"CrdKhTRo\">第一阶段（移栽后30～60天）：控制储藏细胞的数量。</p><p data-pid=\"htbtTK9h\">此阶段是储藏细胞疯狂分裂的时期，直接决定了一块红薯最终有多少个储藏细胞。我们要做的，就是在此阶段适当控水、尤其控氮，温和地抑制细胞过度分裂，消除红薯长大块的潜力。</p><p data-pid=\"S_qS1br3\">不用担心限制氮肥会不结红薯，能长几个红薯，在移栽后的 30 天内就基本上确定了，我们控制的，只是每一块红薯的储藏细胞数量。</p><p data-pid=\"c7GpqMb8\">第二阶段（移栽后约90天起）：全力填满精简过的储藏细胞。</p><p data-pid=\"gZMIJuMP\">这个阶段，细胞数量基本稳定，生长进入膨大期。此时，我们要彻底转变策略：加强水肥，特别是增施钾肥。钾能促进淀粉和糖分合成与运输，能确保叶片制造的光合产物，高效转化为糖分和风味物质，并集中输送到那些有限的细胞中去，把它们一个个填满。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e57d5984b363c49d9d104eeed89ab8cd_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"903\" data-size=\"normal\" data-original-token=\"v2-c6d4e79c05a72064a676eab21a75bf61\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic4.zhimg.com/v2-e57d5984b363c49d9d104eeed89ab8cd_r.jpg\"/><figcaption>红薯（图片源于网络）</figcaption></figure><p data-pid=\"1pohoUW2\">三、田间操作：精准实施<b>控前促后</b></p><p data-pid=\"P--F2M2i\">基于前述原理，适于提升风味的种植方案就成型了：</p><p data-pid=\"uy-LAfG4\">1. 前期蹲苗：一定选用壮苗，这是多结薯块的前提。在移栽后一两个月内，除非特别干旱，一般不额外灌水，避免施用高氮肥料，让植株稳健生长，打好风味的结构基础。</p><p data-pid=\"t_UKHCe1\">2. 后期促壮：进入薯块膨大期后，保证水分供应，并重点追施硫酸钾等钾肥，也可以喷施磷酸二氢钾。同时，通过翻蔓修剪，保持藤叶通风透光，以利于β-胡萝卜素的合成。</p><p data-pid=\"yyQYnmzA\">3. 补充微量元素：酌情补充硼、钙等元素。它们能保障糖分运输和细胞壁稳固，让风味物质顺利合成与储存。</p><p data-pid=\"Ga_dtMev\">4. 适时收获：严格把握生长周期（例如150天），及时收获。过早则积累不足；过晚则薯皮老化、易产生裂纹，不利于储藏。</p><p data-pid=\"C-hxHK2Z\">这一切操作，核心就八个字：控前促后，提质浓缩。 它确实会牺牲一部分产量，但换来的，是一颗颗薯皮坚韧、个头匀称、淀粉与糖分高度充盈的风味精品。</p><p data-pid=\"xxOqj0Ze\">结语</p><p data-pid=\"9tX12roj\">我所提供的方案，只适合家庭小面积种植，因为我们不追求产量，只注重风味。而且，并不一定天随人愿，在我们想控水的时候，可能会下雨，这并不重要，重要的是，我们知道了红薯的生长习性，同时，我们力所能及地做出了努力。不管调控的过程如何，这样产出的红薯，一定比为了产量而全程水肥充足的方法，要好吃得多。</p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "type": "answer",
+        "preview_type": "default",
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "author": {
+          "is_org": false,
+          "url_token": "fwh0708",
+          "name": "螭离",
+          "headline": "用我的见解启迪你的智慧。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9f6480cec6c628b44f76a5998249dd28_l.jpg?source=b6762063",
+          "gender": 1,
+          "id": "032d7c904c0822232f442e4baeb5c0b7",
+          "url": "https://api.zhihu.com/people/032d7c904c0822232f442e4baeb5c0b7",
+          "user_type": "people",
+          "followers_count": 3552,
+          "is_following": false,
+          "is_followed": false
+        },
+        "voteup_count": 64,
+        "favorite_count": 25,
+        "id": "1989486287971963047",
+        "reshipment_settings": "disallowed",
+        "allow_segment_interaction": true,
+        "updated_time": 1767110493,
+        "comment_count": 42,
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "QBJVgCw5",
+            "text": "要想让红薯甜，就不能让它长大个。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 16,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989628884845614574"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "question": {
+          "title": "红薯有什么特点呢？",
+          "bound_topic_ids": [
+            37698,
+            583230,
+            779505,
+            2675775
+          ],
+          "question_type": "normal",
+          "detail": "",
+          "id": "1961416161938876223",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "comment_count": 0,
+          "type": "question",
+          "created": 1760418054,
+          "follower_count": 0,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/1961416161938876223",
+          "author": {
+            "url_token": "45-70-63-47",
+            "name": "花开有时",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-6c3a5c909ea14d3ab4b0861b41c24190_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "id": "a58522620757e1fe770aa60ee700744d",
+            "url": "https://api.zhihu.com/people/a58522620757e1fe770aa60ee700744d",
+            "gender": 1,
+            "followers_count": 6239,
+            "user_type": "people",
+            "headline": "用真心感悟人生，用真诚分享生活！"
+          },
+          "is_following": false
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-f11df9d0a5ce6dc90c0a04d99f60a9be_720w.jpg?source=b6762063",
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989486287971963047}",
+      "attached_info": "CrgHCOngy72u88+nqAEQBBoJNzYzMzc4NTkxIN3uz8oGKEAwKkBESkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNjk0NjgzMWIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5ODk0ODYyODc5NzE5NjMwNDeKARMxOTYxNDE2MTYxOTM4ODc2MjIzqgEJcmVjb21tZW5kwgEgMDMyZDdjOTA0YzA4MjIyMzJmNDQyZTRiYWViNWMwYjfyAQoIDBIGTm9ybWFs8gEoCAoSJDIwZjFhOTM3LWMzM2YtNGE2MC04ZDE5LWQyMTgxMDVkOGFhNPIBBggLEgIxMoICAIgCkoaqm7kzkgIgMDMyZDdjOTA0YzA4MjIyMzJmNDQyZTRiYWViNWMwYjeaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgT6AgtOT1JNQUxfRkxPV4oDIGNjZjMxZjcwNTg2ZTRjYmI5ZDc1YjAxNDQ4NGQzZTkzmgMNCgJ2MhAAGgVvdGhlcqgD8AvYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgBEOASGNELIiN2Mi1mMTFkZjlkMGE1Y2U2ZGM5MGMwYTA0ZDk5ZjYwYTliZTotCAQQoAYYqAQiI3YyLTFkMWNiMTA4YTAwMDI4OTY5MzllZmYwZGQzODhlOGFiOi0IAxCgBhiHByIjdjItYzZkNGU3OWMwNWE3MjA2NGE2NzZlYWIyMWE3NWJmNjGABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOD724g/gQUAAAAAAAAAAIkFnyPn8WhMsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDJAGAKAGRKgGAJICLgoJNzYzMzc4NTkxEhMxOTg5NDg2Mjg3OTcxOTYzMDQ3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "69_1767704789.6",
+      "type": "feed",
+      "offset": 69,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704789,
+      "updated_time": 1767704789,
+      "target": {
+        "is_copyable": true,
+        "excerpt_new": "老外交官周斌曾给“四人帮”当过翻译，短暂接触中就发现了四个人不同的性格特点。 周斌1958年从北大东语系日语专业毕业后，分配到外交部工作。在其担任翻译的岁月里，他既为多位党和国家领导人服务过，也为林彪、“四人帮”当过翻译。本文正是他担任“四人帮”翻译工作的回忆。 王洪文 我只为他当过两次翻译，地点都在上海。说真话，从他的谈吐中，我当时并没有感到他是一个社会上纷纷议论的“草包”，反倒觉得这个当过工、农、…",
+        "preview_type": "default",
+        "segment_infos": [
+          {
+            "pid": "28vFUHqm",
+            "text": "当时，我心想这一套本末倒置、非常失礼的程序，肯定是少数“造反派”，为了讨好自己的“司令”刻意安排的，而完全不懂外交的王洪文只是照此行事。后来才从老同志那里了解到，这是根据王洪文本人的指示决定的，而且据说王洪文对此还有一套独特的理论：在外国人面前，中国人以往那种缩头缩脑、卑躬屈膝的时代已经一去不复返了，必须建立全新的“无产阶级外交风格和礼宾制度”。",
+            "marks": [
+              {
+                "start_index": 116,
+                "end_index": 174,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991933136754460313"
+                  ],
+                  "is_like": false,
+                  "like_count": 83,
+                  "comment_count": 5,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "JlFrbuwh",
+            "text": "我曾近距离地见过她几次，但只为她当过一次翻译。见过的几次，几乎都是她一个人大声说话，猛发脾气，内容大都是关于几个样板戏的事情。她不是指名道姓地指责：谁谁谁有意与她过不去；就是批评谁谁谁：当面说一套，背后做一套，玩弄两面派手法。似乎所有人都有错，都欠她的债。",
+            "marks": [
+              {
+                "start_index": 47,
+                "end_index": 63,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991969450208011834"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "6Gy091LK",
+            "text": "江青说，下一步一定要把她改成为一个与村里群众始终保持联系、并不断得到支持、帮助的活生生的人。这才符合革命现实主义的创作原则。",
+            "marks": [
+              {
+                "start_index": 11,
+                "end_index": 62,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991958398237966841"
+                  ],
+                  "is_like": false,
+                  "like_count": 38,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "YroQZscr",
+            "text": "几天后，我陪松山芭蕾舞团去上海演出。当时，由地位仅次于张、姚，号称“徐老三”的徐景贤出面接待。因为“文革”前他就与我相识，为了表示他没有忘记我这个老朋友，一天晚上单独约我在和平饭店顶层叙旧。",
+            "marks": [
+              {
+                "start_index": 31,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991959385438701137"
+                  ],
+                  "is_like": false,
+                  "like_count": 14,
+                  "comment_count": 4,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "2Gv2x2Pj",
+            "text": "此后我一直想不明白，徐景贤为什么会这样做？是他念旧情保护我，还是他内心也赞同我的看法，只是处境不同不敢表白而己？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 56,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991965848789868811"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "id": "1991867443975583166",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "question": {
+          "comment_count": 0,
+          "bound_topic_ids": [
+            120,
+            285,
+            478,
+            2058
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "id": "442704819",
+          "type": "question",
+          "excerpt": "",
+          "created": 1612351628,
+          "is_following": false,
+          "answer_count": 0,
+          "follower_count": 0,
+          "detail": "",
+          "author": {
+            "headline": "通识阅读实践者，小说《不远》作者",
+            "avatar_url": "https://picx.zhimg.com/50/v2-d7e0027f3d4d1682f13163c7e98b765b_l.jpg?source=b6762063",
+            "badge": [
+              {
+                "description": "教育培训行业 法定代表人",
+                "type": "identity_people"
+              }
+            ],
+            "followers_count": 3637,
+            "url": "https://api.zhihu.com/people/d3db7f3797b1843d882f7b060b66b347",
+            "user_type": "people",
+            "name": "行阅·不远",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false,
+            "id": "d3db7f3797b1843d882f7b060b66b347",
+            "url_token": "yiyishuhang",
+            "is_org": false
+          },
+          "title": "能否举出一些以小见大的例子？",
+          "url": "https://api.zhihu.com/questions/442704819"
+        },
+        "content": "<p data-pid=\"XqtoXH9f\">老外交官周斌曾给“四人帮”当过翻译，短暂接触中就发现了四个人不同的性格特点。</p><p data-pid=\"kpdTtdT1\">周斌1958年从北大东语系日语专业毕业后，分配到外交部工作。在其担任翻译的岁月里，他既为多位党和国家领导人服务过，也为林彪、“四人帮”当过翻译。本文正是他担任“四人帮”翻译工作的回忆。</p><p data-pid=\"zzIE1CKE\">王洪文</p><p data-pid=\"dW7B-15B\">我只为他当过两次翻译，地点都在上海。说真话，从他的谈吐中，我当时并没有感到他是一个社会上纷纷议论的“草包”，反倒觉得这个当过工、农、兵，不久前还只是一家棉纺厂保卫科长的“造反司令”，还有点本事，能把那套“文革”理论和上海概况，简明扼要地解释清楚。但他会见外宾的方式，却给我留下了极坏的印象。</p><p data-pid=\"IHHinUjP\">按照起码的外交礼节和习惯，当外宾步入会见厅时，主人至少应该起身迎接，表示欢迎。如果更周到一点，就要像周总理长年一贯坚持的那样，客人到达前，就在会见厅门口等候，并与到达的外宾，一一亲切握手，致意问候。然后再陪着客人，并肩走进室内，各就其位，开始交谈。</p><p data-pid=\"vvZ5w5wk\">但那两次，要求客人先到会见厅等候王洪文的到来。当王的身影出现在会见厅门口时，客人就要站起身来，热烈鼓掌。</p><p data-pid=\"28vFUHqm\">当时，我心想这一套本末倒置、非常失礼的程序，肯定是少数“造反派”，为了讨好自己的“司令”刻意安排的，而完全不懂外交的王洪文只是照此行事。后来才从老同志那里了解到，这是根据王洪文本人的指示决定的，而且据说王洪文对此还有一套独特的理论：在外国人面前，中国人以往那种缩头缩脑、卑躬屈膝的时代已经一去不复返了，必须建立全新的“无产阶级外交风格和礼宾制度”。</p><p data-pid=\"43VjXHhO\">张春桥</p><p data-pid=\"VC3WyqX1\">“文革”前，我陪外宾去上海访问时，就曾多次见到过他。我记得，那时他在意识形态和新闻出版部门任职，已有相当的地位。我对他没有什么特别的印象，只觉得这个人性格比较阴沉，平时不大开口，但偶尔兴致好时，也很健谈，甚至滔滔不绝，有本事把死人说成活人。</p><p data-pid=\"9JWPfPGY\">“文革”时，我在北京只为他当过一次翻译。留下很深印象的，不是会见日本朋友本身，而是会见前发生的一件事情。看上去像是他秘书的一个年轻人，跑到会客厅说， “上海市革委会又来电催问了，他们曾建议周信芳的问题，最终定性为敌我矛盾，但按人民内部矛盾予以宽大处理。为此，两星期前就向您和洪文同志请示过。现在，洪文同志已经表示同意，就请您拍板定案了”。</p><p data-pid=\"g8DVPk_y\">张春桥没有正面回答，只说了下面几句话：“你可以再问问上海的同志们，如果像周信芳这样严重的问题，都可以按人民内部矛盾处理。那么我们为什么要花这么大气力，来进行这场文化大革命呢？”</p><p data-pid=\"aMrPoi3U\">在旁听着，我心里就很不是滋味。首先觉得，一辈子唱京剧的老演员，究竟犯了什么重罪，连按人民内部矛盾处理的“宽大”待遇都不能给他，而非要置他于死地而后快呢？其次，既然生杀大权在你手里，你不同意就说不同意，为什么还要用反问的语气来表达自己的意见呢？这件事使我体会到，大权在握的这个人很不简单。</p><p data-pid=\"7EP6mRhD\">“文革”后许多人说，如果万一“四人帮”夺权成功，此人必定会成为掌控实权的头号人物。我自己内心也是这样想的。</p><p data-pid=\"QnpLE2yE\">江青</p><p data-pid=\"JlFrbuwh\">我曾近距离地见过她几次，但只为她当过一次翻译。见过的几次，几乎都是她一个人大声说话，猛发脾气，内容大都是关于几个样板戏的事情。她不是指名道姓地指责：谁谁谁有意与她过不去；就是批评谁谁谁：当面说一套，背后做一套，玩弄两面派手法。似乎所有人都有错，都欠她的债。</p><p data-pid=\"braQLdxu\">一天晚上，她看完日本松山芭蕾舞团演出《白毛女》后，在谈及如何修改上海芭蕾舞团的《白毛女》时，讲了一大段话。主要意思是，现在的《白毛女》，比五十年代初田华演的电影《白毛女》，已经好了不知多少倍。但还存在一个致命的缺点，就是把喜儿神化了。试问一个贫困农户的女孩子，怎么能在条件极为艰难的荒山老林里独自生活那么多年？这根本是做不到的么。</p><p data-pid=\"6Gy091LK\">江青说，下一步一定要把她改成为一个与村里群众始终保持联系、并不断得到支持、帮助的活生生的人。这才符合革命现实主义的创作原则。</p><p data-pid=\"YroQZscr\">几天后，我陪松山芭蕾舞团去上海演出。当时，由地位仅次于张、姚，号称“徐老三”的徐景贤出面接待。因为“文革”前他就与我相识，为了表示他没有忘记我这个老朋友，一天晚上单独约我在和平饭店顶层叙旧。</p><p data-pid=\"lpZfg7Zy\">席间，我发牢骚说，日前自己在北京听到一种怪论（我没敢点江青的名字，但用了江青的原话），有人主张彻底修改《白毛女》。果真如此，很可能就会葬送这部深受欢迎的经典作品。</p><p data-pid=\"azPUtsV9\">没想到，他只笑着表示，今天老朋友见面，机会难得，只谈友谊，不谈工作，完全回避了这个尖锐的话题。</p><p data-pid=\"icMUN0BR\">更没有想到，我离沪前夕，他派秘书特地转告我：“前晚你谈的对当前文艺界的一些看法，我不便表态。只希望你今后不要再在任何场合、对任何人重复这些观点了。否则，你会吃大亏的。”</p><p data-pid=\"2Gv2x2Pj\">此后我一直想不明白，徐景贤为什么会这样做？是他念旧情保护我，还是他内心也赞同我的看法，只是处境不同不敢表白而己？</p><p data-pid=\"zx6aOMEm\">姚文元</p><p data-pid=\"hIr5QSNz\">我曾多次在人民大会堂见过姚文元。在周总理会见一些日本文艺界访华朋友时，大都只有两个人到场陪见。一个是他，另一个是郭沫若。</p><p data-pid=\"M8gn76SE\">有趣的是在安排座位时，这两位陪客每次都会相互谦让一番，让对方坐在靠近周总理的位置上。不过，他们这种谦让之意，从不使用语言，而是全用动作来表达的。最后还得依靠总理表态来决定。总理的表态常常是：“郭老，你年岁大，文元让你，你就坐下吧。”</p><p data-pid=\"20cVvPR5\">更有趣的是几次陪见，两个人自始至终，都一个表情。不但相互之间没有说过一句话。连总理问话时，他们也只简单回答是与不是，从未说过一句完整的话。只要他在场，郭老和总理也很少交谈。</p><p data-pid=\"FxYlNUqr\">作为现场翻译，从旁看着这种情况，也觉得很有意思。不知道当时这一老一少心里想些什么，更不知道周总理是怎样看待他们，他们又是如何看待对方的。</p><p data-pid=\"ipHQSl0N\">（顺便一提，我以前还讲过周斌的一件趣事，八十年代他受中央电视台邀请翻译了日本动画片《铁臂阿童木》，退休后的华国锋陪孩子观看后很喜欢该片，为此给周斌打过电话，让他十分惊讶。）</p><p data-pid=\"hwis-5GG\">资料来源：《老外交官：给“四人帮”当翻译》，上观新闻</p>",
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "voteup_count": 1135,
+        "comment_count": 176,
+        "reshipment_settings": "allowed",
+        "author": {
+          "id": "ccb7af66408503e1d87d55ac9d01eb1f",
+          "name": "海风",
+          "headline": "忍把浮名，换了浅斟低唱",
+          "is_org": false,
+          "gender": 1,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/ccb7af66408503e1d87d55ac9d01eb1f",
+          "user_type": "people",
+          "url_token": "reseted1593052565520",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f3189ec019c2b2512f55fdbe566c407b_l.jpg?source=b6762063",
+          "followers_count": 32852,
+          "is_following": false
+        },
+        "created_time": 1767678205,
+        "thanks_count": 174,
+        "preview_text": "",
+        "visited_count": 83298,
+        "favorite_count": 643,
+        "navigator_vote": false,
+        "excerpt": "老外交官周斌曾给“四人帮”当过翻译，短暂接触中就发现了四个人不同的性格特点。 周斌1958年从北大东语系日语专业毕业后，分配到外交部工作。在其担任翻译的岁月里，他既为多位党和国家领导人服务过，也为林彪、“四人帮”当过翻译。本文正是他担任“四人帮”翻译工作的回忆。 王洪文 我只为他当过两次翻译，地点都在上海。说真话，从他的谈吐中，我当时并没有感到他是一个社会上纷纷议论的“草包”，反倒觉得这个当过工、农、…",
+        "url": "https://api.zhihu.com/answers/1991867443975583166",
+        "updated_time": 1767693294,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "type": "answer"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991867443975583166}",
+      "attached_info": "CuEFCOngy72u88+nqAEQBBoJNzY0MjQ0NDQxIP3B8soGKO8IMLABQEVKOAonVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9SRUFEEgcyNjQ0MzMwGAAgADoAWgg2MDY1NjY1MWIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5OTE4Njc0NDM5NzU1ODMxNjaKAQk0NDI3MDQ4MTmqAQlyZWNvbW1lbmTCASBjY2I3YWY2NjQwODUwM2UxZDg3ZDU1YWM5ZDAxZWIxZvIBCggMEgZOb3JtYWzyASgIChIkYjJiNDlmYjYtM2FmNS00MjdhLWI3NDYtNmRmOTMxNTc5MGM18gEGCAsSAjEyggIAiAKShqqbuTOSAiBjY2I3YWY2NjQwODUwM2UxZDg3ZDU1YWM5ZDAxZWIxZpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCJ1RTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfUkVBROgCBPoCC05PUk1BTF9GTE9XigMgY2NmMzFmNzA1ODZlNGNiYjlkNzViMDE0NDg0ZDNlOTOaAw0KAnYyEAAaBW90aGVyqAPiigXYAwDqAxtmaXJzdERlZ3JlZVVzZXJSZWFkUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgUOCRP4EFAAAAAAAAAACJBZ8j5/FoTLI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQyQBgCgBkWoBgCSAi4KCTc2NDI0NDQ0MRITMTk5MTg2NzQ0Mzk3NTU4MzE2NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "70_1767704789.176",
+      "type": "feed",
+      "offset": 70,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704789,
+      "updated_time": 1767704789,
+      "target": {
+        "title": "迷茫的时候不妨看一下这100条商业思考",
+        "updated": 1766156340,
+        "voteup_count": 16,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-63d002d4006df0960d4d0baa4ebfbaa3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-36468717ed9d6fb998c327f7e5b098ea_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e82575ffc3e73ec775eb0e91787d1f6f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5a9c5881a58f6f5c46d8e1a0f717b566_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1253aa425d99b88f5ff6d327f4249852_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 60,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "id": "1985475742742631514",
+        "preview_type": "default",
+        "preview_text": "",
+        "visited_count": 767,
+        "vote_next_step": "vote",
+        "type": "article",
+        "voting": 0,
+        "comment_count": 0,
+        "excerpt_new": "1.语言的边界就是思维的边界，使用垃圾语言就会拥有垃圾思维。 2. 赚钱只需要执行力 + 商业模式，很多赚到钱的人都没有认知，甚至智力都不正常。 3. 找对标的本质是降维模仿：当你想达成某个目标时，应该去模仿那些已经超额完成该目标的对象。 4. 如果你愿意去模仿任何对标，那么所有业务都可以是你的对标；如果你只愿意去模仿和你一模一样的对标，那么世界上将没有业务可以成为你的对标。 5. 做自媒体的门槛是要意识到：你可以…",
+        "content": "<p data-pid=\"TMvzJt0f\"><b>1</b>.</p><p data-pid=\"rc37oQd4\">语言的边界就是思维的边界，使用垃圾语言就会拥有垃圾思维。</p><p data-pid=\"__2ND5R1\">2.</p><p data-pid=\"1fEkrnBJ\">赚钱只需要执行力 + 商业模式，很多赚到钱的人都没有认知，甚至智力都不正常。</p><p data-pid=\"k580ZvMS\">3.</p><p data-pid=\"CDV27Qsp\">找对标的本质是降维模仿：当你想达成某个目标时，应该去模仿那些已经超额完成该目标的对象。</p><p data-pid=\"bVEY80_J\">4.</p><p data-pid=\"bz9oYTL2\">如果你愿意去模仿任何对标，那么所有业务都可以是你的对标；如果你只愿意去模仿和你一模一样的对标，那么世界上将没有业务可以成为你的对标。</p><p data-pid=\"YeiFKbIK\">5.</p><p data-pid=\"JxFKlRu8\">做自媒体的门槛是要意识到：你可以通过文字来控制其他人。</p><p data-pid=\"atbKQsA2\">6.</p><p data-pid=\"c6wVYVPE\">顾客需求是购买商品，不是使用商品。商家只关注你买不买，不关注你用不用。</p><p data-pid=\"pFX0MOrX\">7.</p><p data-pid=\"N5pmHDA9\">好的商业模式会逼你成为一个好人，坏的商业模式会逼你成为一个恶人。</p><p data-pid=\"eEm6uKL5\">8.</p><p data-pid=\"mOR2ngz_\">真正有价值的知识，越分享越值钱。</p><p data-pid=\"IHh4DgEj\">9.</p><p data-pid=\"OmvxeTCD\">不问前路，先发 100 条。这里面，前半句其实比后半句重要。</p><p data-pid=\"NNQol7bn\">10.</p><p data-pid=\"CRbyT63K\">绝大多数忙于赚钱却赚不到钱的人，并非不知道正确答案，而是在明知正解的情况下，竭尽全力寻找绕过它的方法。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f41b1e3070858cf03d1f68e56ef81976_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1796\" data-size=\"normal\" data-original-token=\"v2-63d002d4006df0960d4d0baa4ebfbaa3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-f41b1e3070858cf03d1f68e56ef81976_r.jpg\"/></figure><p data-pid=\"27pXed1_\">11.</p><p data-pid=\"HxFEpPAM\">只要你拥有常识，就可以在任何一个行业里打败 90% 的竞争对手。</p><p data-pid=\"QxIH_iN0\">12.</p><p data-pid=\"UwfNk5Km\">商业是最大的慈善，因为互不相欠。免费的帮助，常常滋生仇恨。</p><p data-pid=\"P1uOjkap\">13.</p><p data-pid=\"ojHkFAq7\">人与人之间最完美的距离叫做商品。</p><p data-pid=\"jZXqHKOU\">14.</p><p data-pid=\"FhMn7Mjk\">这世上所有的商品都只是给买家一个转账的理由而已。</p><p data-pid=\"Pmjx-Y0j\">15.</p><p data-pid=\"Y-Wg1CDF\">如果一个人用 AI 写的文字发出来之后被平台限流了，原因不在于 AI 模型能力不行，而在于用 AI 的这个人对于文字没有洁癖。</p><p data-pid=\"_OLf4Rul\">16.</p><p data-pid=\"p7aRFdq3\">所有让你在自媒体上讲「干货」的博主，都是不专业、不入流的。</p><p data-pid=\"zcxmq50J\">17.</p><p data-pid=\"lydqshEJ\">内容需要是差异化的、不能太 low、产品需要是高质量的——这和赚钱有啥关系？这都是商家的心理需求，用户需求是一点不提。</p><p data-pid=\"Fe3BLPIO\">18.</p><p data-pid=\"ZGPgFXoG\">越是新手，越应该推高成本做内容，否则就会进入「内容差 - 没流量 - 希望以量取胜 - 内容更差」的死亡螺旋。</p><p data-pid=\"4QZNeRFX\">19.</p><p data-pid=\"NsnyX4GA\">投入精力 ≠ 内容好。投入精力 × 对内容有正确理解 = 内容好。</p><p data-pid=\"YBf9QKix\">20.</p><p data-pid=\"GO6KuEK1\">我们的目标是摆脱小白的身份，成为领域里的专家。这是第一目标。这是信仰与追求。</p><p data-pid=\"EwZYPq75\">21.</p><p data-pid=\"_gIcZV_v\">万能问题是错误问题，万能答案是错误答案。一个无法精准描述问题的人，是不可能得到答案的。</p><p data-pid=\"iFwIrAeL\">22.</p><p data-pid=\"trze0kZL\">提问的过程就是思考的过程，如果你能提出一个好问题，这个事情就已经解决了 80%。</p><p data-pid=\"CBUn2lDD\">23.</p><p data-pid=\"nBU1itE6\">解决问题的前提是定义问题，这里的「问题」指的是 question，而不是 problem。</p><p data-pid=\"S3h87P2Q\">24.</p><p data-pid=\"o6ZH67eg\">赚钱七字诀是：不问前路直接干。找我的人基本都是：暂时不干我先问问。神仙难助。</p><p data-pid=\"UFnHH_xo\">25.</p><p data-pid=\"7BWsFEjw\">抄生意，分为全抄和半抄。全抄拼执行，半抄拼认知。</p><p data-pid=\"gAyeF8wR\">26.</p><p data-pid=\"3ibeVsrn\">做什么事情都是二八定律。比如直播做到第一，20% 靠我的直播能力，80% 靠我播到凌晨 2：00，把其他人都熬下播。</p><p data-pid=\"lD07gvk0\">27.</p><p data-pid=\"RiTJnpGb\">如果你不能在每天工作 2 小时的情况下维持收入，很可能是你没有找到最正确的那件事情是什么。</p><p data-pid=\"k18MRPwn\">28.</p><p data-pid=\"Xsp9p6WY\">从不认为自己是任何一个行业的从业者。我随时可以去任何行业做任何事。</p><p data-pid=\"OCjcsf8j\">29.</p><p data-pid=\"V9ZbMiKr\">「想赚钱」的意思就是不想赚钱，「正在赚钱」的意思才是想赚钱。</p><p data-pid=\"2jNIWUji\">30.</p><p data-pid=\"Umjz4_H_\">赚钱分两步：1、找到答案；2、执行。如果你现在没有执行，说明你没有找到答案。</p><p data-pid=\"xqeMkyBP\">31.</p><p data-pid=\"yL9B7x17\">这个世界上离钱最远的地方，叫做：想找一个自己擅长的事情去赚钱。</p><p data-pid=\"lONZLVWc\">32.</p><p data-pid=\"KxX830KL\">沉迷于战术，使人既疲惫，又贫穷。</p><p data-pid=\"9varVzN8\">33.</p><p data-pid=\"alRYtVTk\">把「赛道」「行业」这俩词从脑子里删掉，赚钱就会容易一些。</p><p data-pid=\"cnVndeLK\">34.</p><p data-pid=\"JdnIxnxu\">智商决定收入上限，商业模式决定收入下限。</p><p data-pid=\"joEW8rWs\">35.</p><p data-pid=\"WE9dpbqy\">智力低也是可以赚到钱的。缺乏认知和智力，影响赚大钱，但不影响赚到钱。</p><p data-pid=\"874OsLGL\">36.</p><p data-pid=\"U8eL5ecb\">做内容之前，要确保你有产品。如果你不能把你的付款链接发给我，并且让我通过微信或者支付宝付款成功，你就是没有产品。</p><p data-pid=\"UzR_Jh-L\">37.</p><p data-pid=\"4lMzh0Be\">定价即产品，产品即定价。</p><p data-pid=\"ObY-1Nfx\">38.</p><p data-pid=\"8s3FZzD8\">如何判断一个赛道是否拥挤？你就看同行的定价就知道个差不多。</p><p data-pid=\"ObN3TLgH\">39.</p><p data-pid=\"cPLzDcyH\">毛利应该重新定义为「售价 - 营销成本」。在流量为王的时代，营销成本才是真正的「生产成本」。</p><p data-pid=\"YFkgdhyw\">40.</p><p data-pid=\"WN3msFc3\">「卖产品赚钱」不是一件事，是 N 件事。第一层是有人需要这个产品，第二层是有人愿意为这个产品付钱，第三层是有很多人愿意付钱，第四层是我可以持续性地获取流量。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-960a7821ef040057637529182fa255f0_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"804\" data-size=\"normal\" data-original-token=\"v2-36468717ed9d6fb998c327f7e5b098ea\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-960a7821ef040057637529182fa255f0_r.jpg\"/></figure><p data-pid=\"gzYbU52q\">41.</p><p data-pid=\"IDFSfYgw\">小红书 = 内容平台；抖音 = 内容电商平台。</p><p data-pid=\"3SeWvVO1\">42.</p><p data-pid=\"HBbz81_h\">中国真正的播客，不是 podcast，是抖音。</p><p data-pid=\"-dMV36ws\">43.</p><p data-pid=\"iIUbRU7t\">国内的小老板不愿意给美国人 19 美金，最终的结果就是给中国人割 198000 人民币。</p><p data-pid=\"taZ6eubd\">44.</p><p data-pid=\"I_GXPiaL\">知识付费的核心不是缓解焦虑，但是缓解焦虑是知识付费的必要组成部分。</p><p data-pid=\"3kcvuhWy\">45.</p><p data-pid=\"bg25_yUX\">好的「IP 知识付费」应该是围绕「IP」和「付费」做内容，而不是围绕「知识」做内容。</p><p data-pid=\"sCATTYJA\">46.</p><p data-pid=\"wsmRd9D9\">小红书上 1w 粉丝月入 10w 是可以的。前提有二：1. IP 人设差异化内容；2. 内容与产品强匹配，自己卖货，不接广告。</p><p data-pid=\"JtOne_xy\">47.</p><p data-pid=\"FNBmFtya\">有价值的行动，进行积分之后，会变成有价值的商品。</p><p data-pid=\"92C0cs4p\">48.</p><p data-pid=\"86oesQal\">对关键词的理解永无止境。当我们说喝「拿铁」和说喝「咖啡」的时候，我们在说两件事情。</p><p data-pid=\"M9-hKoqk\">49.</p><p data-pid=\"9bOMZIut\">组织内部应该禁用没有定义过的主观词汇。</p><p data-pid=\"RQXBTPQ0\">50.</p><p data-pid=\"8Z1CKqVP\">我们用语言思考，所以语言的边界就成了思维的边界。每个词背后都隐藏着特定的世界观和假设。</p><p data-pid=\"nc0V1GV9\">51.</p><p data-pid=\"P-9MpT2e\">维特根斯坦说：不存在只有我自己能理解的语言，语言必须是公共的、可验证的。</p><p data-pid=\"PE9c2_QL\">52.</p><p data-pid=\"twULS2b5\">哲学书里面，有你需要的所有提示词。哲学家们用了 2000 多年时间研究：如何清晰思考、如何准确表达、如何有效论证。</p><p data-pid=\"C_EyTbD8\">53.</p><p data-pid=\"ht0kEoFG\">要精通 DeepSeek，先把康德、休谟、维特根斯坦读完。不谈哲学就没有入 DeepSeek 的门。</p><p data-pid=\"pdjRZR8j\">54.</p><p data-pid=\"PUGRF7s0\">第一桶金常常会面临生意方向的抉择。路线 1：产品需求强，但是做起来阻力大；路线 2：产品需求弱，没竞争。这个时候一定要坚定选择路线 1。1 的问题是可以努力解决的，2 的问题是神也解决不了的。</p><p data-pid=\"HUCnRPsb\">55.</p><p data-pid=\"57m785hc\">我喜欢做的生意，是和同行在供应链完全没有任何差异的那种。你休想和我在产品上有任何差异化，无处躲藏。</p><p data-pid=\"j8_0TJfq\">56.</p><p data-pid=\"poOYtGhn\">会对标和不会对标的人的区别就是，前者打心底相信「和对标保持一致」这句话是真理。</p><p data-pid=\"1c2KnYFd\">57.</p><p data-pid=\"h4QE4uae\">模仿到极致，就是创新的开始；问题被看透，就是答案的终结。</p><p data-pid=\"YMqgh-DL\">58.</p><p data-pid=\"BNN3mhsR\">如果你看到对方抖音直播间的女主播的袜子上面出现了 3 个线头，而你们女主播的袜子上只有 2 个线头，你就没有模仿对标。</p><p data-pid=\"eXbksG7W\">59.</p><p data-pid=\"xaxIJ5nT\">对标是用来模仿的。如果你愿意模仿任何对象，全世界的生意都可以成为你的对标。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-dfa5da5db8ed66af0d707b0b88700685_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"712\" data-size=\"normal\" data-original-token=\"v2-e82575ffc3e73ec775eb0e91787d1f6f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-dfa5da5db8ed66af0d707b0b88700685_r.jpg\"/></figure><p data-pid=\"NnWd-6II\">60.</p><p data-pid=\"_iFKd-nm\">找对标能解决的是业务逻辑问题，但前提是执行者已经解决了「人的问题」。</p><p data-pid=\"7VMnJt4o\">61.</p><p data-pid=\"NPqEPQVu\">真正的学习不是看书上课，而是完整走完同行的每一个流程，直到你能预测对方的所有行为。</p><p data-pid=\"vZgarFY5\">62.</p><p data-pid=\"XlMZjern\">目标要降维，心态要升维。想月入 10 万，就去模仿月入百万的生意。</p><p data-pid=\"bt9p9CGq\">63.</p><p data-pid=\"vWBn91bV\">量化练习产生质变。看懂 100 条爆款视频能破万粉，看懂 1000 条能破十万粉。</p><p data-pid=\"cM0cI56H\">64.</p><p data-pid=\"GGD47N4c\">学文案、学抖音有个很快的方法，就是你去找一堆爆款视频，不看开头，就从 15s 开始看，然后你想一下这个开头如果是你，你会怎么写。</p><p data-pid=\"IfNuSkAl\">65.</p><p data-pid=\"t3fn7Ryi\">一个人对正确方法了解得越清楚，他逃避的动力就越强。因为清晰的认知意味着无可推诿的责任。</p><p data-pid=\"VaABm7iq\">66.</p><p data-pid=\"CHpQ1tjM\">在信息透明的时代，持续贫穷往往是一种主动选择——选择舒适的自我欺骗，而非艰难的自我实现。</p><p data-pid=\"kHrSKdc5\">67.</p><p data-pid=\"4lGYzdbX\">最大的悲剧不是不知道答案，而是明知答案却选择逃避——因为自由太沉重，牢笼更轻松。</p><p data-pid=\"MS4fkT0a\">68.</p><p data-pid=\"3dhWDcoD\">当你提出了一个问题，是说明你没有看懂这件事情。如果我能让你看懂这件事情，你将没有问题。</p><p data-pid=\"fS3p1i0m\">69.</p><p data-pid=\"okG1KlNo\">我做了个答疑社群给几千人答过疑，我并不是在提供答案，我是在消解问题。</p><p data-pid=\"Yy3XQHaP\">70.</p><p data-pid=\"SB0cWqG0\">我的终极目标并不是要提供所有问题的答案，而是看清楚所有的事情，以至于没有问题可问。</p><p data-pid=\"vaiHf5to\">71.</p><p data-pid=\"43GOahC2\">国内知识付费市场的主流本质是「认知套利」：卖方利用买方的无知获利，而买方用金钱购买心理安慰。</p><p data-pid=\"BwAa0_a4\">72.</p><p data-pid=\"A3_LcrtM\">在国内知识付费市场的主流业态中，业务转化率与受众智力水平呈反比关系。</p><p data-pid=\"Z539tpBq\">73.</p><p data-pid=\"H09yLUf2\">国内这些搞什么 IP 定位智能体的人没有意识到，他们是用 AI 做了一个诈骗业务。干掉你们的不是 claude，是警察。</p><p data-pid=\"Hg1bNEo0\">74.</p><p data-pid=\"3i3NAhB-\">如果一个人抱怨 AI 生成的文案「有 AI 味」时，这种判断往往揭示了一个有趣的现象：评判者将本该由自己承担的审美责任，不自觉地转移给了工具本身。</p><p data-pid=\"G153Gvcy\">75.</p><p data-pid=\"_sG9ATiV\">让 AI 分析爆款文案，是最蠢的方法。爆款文案长啥样，不重要；爆款文案是如何被塑造的，很重要。规则 &amp;gt; 结果。</p><p data-pid=\"x7RVWMAe\">76.</p><p data-pid=\"7bpLEnkm\">为什么 AI 经常会写「请你记住」「真相是 xxx」？因为无能的创作者会频繁使用祈使句制造紧迫感，尝试用语气的强度去代替逻辑的强度。</p><p data-pid=\"ZLrqpK_N\">77.</p><p data-pid=\"5Kl-KII7\">所有「去 AI 味」的提示词，都是不懂文字的人写出来的。因为去 AI 味是伪命题。</p><p data-pid=\"9ZWf2FYY\">78.</p><p data-pid=\"TATFHOwU\">AI 写的东西有没有价值？如果是好内容的话，没人关心这东西是怎么出来的。</p><p data-pid=\"tcwgnDv-\">79.</p><p data-pid=\"65X7KpS1\">关心自己的文案有没有 AI 味的人很多，关心自己的文案好不好的人很少。然而，英雄是不问出处的。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-98c0c2f20e9df4819420f3c8ce3b8668_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1580\" data-size=\"normal\" data-original-token=\"v2-5a9c5881a58f6f5c46d8e1a0f717b566\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-98c0c2f20e9df4819420f3c8ce3b8668_r.jpg\"/></figure><p data-pid=\"zNGUs8o1\">80.</p><p data-pid=\"KoXp6wII\">如果你教的东西别人很容易学会，那无论保留还是公开都赚不到钱。如果你教的东西有真正的难度，即使毫无保留地公开，别人在实践中仍会遇到问题。</p><p data-pid=\"GKbKEKH0\">81.</p><p data-pid=\"cKNyXMtA\">真正的问题不在于你有 1 层储备你要怎么分配，而是你要花多久才能搞到 10 层储备。不要从顾客身上找答案，从自己身上找答案。</p><p data-pid=\"tSK84e6m\">82.</p><p data-pid=\"U9yEG9b4\">如果你有 10 层储备，引流款讲 3 层，利润款讲 3 层，还剩 4 层，不是我不想讲，而是没人对我这套晦涩难懂、不能快速变现的商业本体论感兴趣。</p><p data-pid=\"zSxvW8Vj\">83.</p><p data-pid=\"FGDUhA2W\">有执行力、有探索精神的人是在认同，知识是在实践的过程当中产生的。没有执行力的人，是相信可以在实践之前就拥有知识。</p><p data-pid=\"sAdX9CnC\">84.</p><p data-pid=\"CJ21JPI-\">人们自以为的需求和人们实际上想要的，是两套算法，前者是因果，后者是相关。</p><p data-pid=\"GlKEMHrQ\">85.</p><p data-pid=\"gaQS5vcM\">授人以鱼，可盆满钵满；授人以渔，如杀人放火。</p><p data-pid=\"mWjVHp-E\">86.</p><p data-pid=\"8pSjJ0cY\">做自媒体不要抱怨被骂。如果你骗人了，被骂是理所应当；如果你没骗人，就会被另外 99% 想被骗的人骂。</p><p data-pid=\"V2URWBv3\">87.</p><p data-pid=\"aN9fQsic\">当你的认知高于观众一个段位，他们会关注你；高十个段位，他们就开始辱骂你；高一百个段位，他们会嘲笑你。</p><p data-pid=\"xHcfUGr3\">88.</p><p data-pid=\"zR5YUW8y\">没销售能力的人，都爱拿「精准人群」当遮羞布。</p><p data-pid=\"yW_pi5eJ\">89.</p><p data-pid=\"xLitlqGT\">好的内容产出场所，应该是没有压力的。就是这种自由，能孵化好内容。</p><p data-pid=\"2ufTAJ70\">90.</p><p data-pid=\"Sdk8R7fr\">思维都是涌现出来的，如有雷同，纯属巧合，谈不上竞争与否。</p><p data-pid=\"4mBufwXg\">91.</p><p data-pid=\"GTpWFDRV\">我对绝大多数所谓 AI 社群的评价：如果一条信息，在我需要的时候我唾手可得，而你在不确定我是否需要的时候发给了我，这就是垃圾信息。</p><p data-pid=\"QgwOtts8\">92.</p><p data-pid=\"MHrep3T4\">绝大多数知识博主都在基于有限的、二手的、索然无味的信息差去变现，压根不研究业务，毫无科研精神。</p><p data-pid=\"LnwgDWXY\">93.</p><p data-pid=\"RNIrhuWv\">跨过执行力的心理门槛之后，会发现首先得到的不是钱，而是社会支持。</p><p data-pid=\"laLfiYRd\">94.</p><p data-pid=\"Gp5_JbGv\">绝大多数的「割」都来源于一个点，就是当事人觉得他没能用 AI 写好文案，是他不懂 AI，是他没选对 AI 产品。没意识到这个事情是在于他不懂文案，没理解文字本身。</p><p data-pid=\"7wsa2qZA\">95.</p><p data-pid=\"qC9_Udv-\">如果一个岗位被定义为特定角色的智能体，就一定会失业。如果一个岗位被定义为给人类或者 AI 制定工作流，就不会失业。</p><p data-pid=\"WksbZ2Dd\">96.</p><p data-pid=\"he52Yzo6\">如果你不知道怎么把一个前端交互页面变成钱，就会觉得：Gemini 3 来了，前端已死。如果你知道怎么把一个前端交互页面变成钱，就会觉得：受限于前端成本而被压制的供给，现在可以直接起飞。</p><p data-pid=\"db1JAbFa\">97.</p><p data-pid=\"d6-2rDFe\">知识博主的核心工作只有两个：1、把事情搞清楚；2、把事情说清楚。「把事情搞清楚」是一切的开端。</p><p data-pid=\"WZ0waB5U\">98.</p><p data-pid=\"0B19oa2X\">不要试图正当化不道德的行为，不要试图用数字来计算道德，承认世界的悲剧性，而不是试图通过破坏规则来逃避悲剧。因为一旦规则被破坏，长期来看，所有人都会更糟。</p><p data-pid=\"rTRWho9_\">99.</p><p data-pid=\"X4KhnwKx\">AI 割韭菜项目都是同一个逻辑：买家希望有个神仙级的武器让自己不劳而获，卖家想骗买家，现在加上一个话术叫做「人工智能太 nb 了」。</p><p data-pid=\"Lgu_Bk6Z\">100.</p><p data-pid=\"x4R6h_49\">从「想赚钱」到「正在赚钱」，中间隔着的不是方法，而是你愿不愿意承认：那些你明知道正确却不愿意做的事情，才是你贫穷的真正原因。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-bb595fb1aa964dee3c27d2968a207b14_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1432\" data-size=\"normal\" data-original-token=\"v2-1253aa425d99b88f5ff6d327f4249852\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-bb595fb1aa964dee3c27d2968a207b14_r.jpg\"/></figure>",
+        "article_type": "normal",
+        "url": "https://api.zhihu.com/articles/1985475742742631514",
+        "author": {
+          "followers_count": 11,
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "redemption-11-47-8",
+          "name": "第九片海",
+          "headline": "永远当一匹脱缰的野马",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-e5b54ca10e4df58b2e6a5203520dca9d_l.jpg?source=b6762063",
+          "is_org": false,
+          "id": "6c6591b74d8bb95e2a9a036fdd3f6fef",
+          "url": "https://api.zhihu.com/people/6c6591b74d8bb95e2a9a036fdd3f6fef",
+          "gender": -1,
+          "is_followed": false
+        },
+        "comment_permission": "all",
+        "created": 1766156340,
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "excerpt": "1.语言的边界就是思维的边界，使用垃圾语言就会拥有垃圾思维。 2. 赚钱只需要执行力 + 商业模式，很多赚到钱的人都没有认知，甚至智力都不正常。 3. 找对标的本质是降维模仿：当你想达成某个目标时，应该去模仿那些已经超额完成该目标的对象。 4. 如果你愿意去模仿任何对标，那么所有业务都可以是你的对标；如果你只愿意去模仿和你一模一样的对标，那么世界上将没有业务可以成为你的对标。 5. 做自媒体的门槛是要意识到：你可以…",
+        "is_labeled": false,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1985475742742631514}",
+      "attached_info": "CucHCOngy72u88+nqAEQBxoJMjY3ODkzMzQzILTQlcoGKBAwAEBGSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBiIDY1MjBmNWYyOGM1Zjc2M2YxOTRkODZmMTIzNDlmODgzchMxOTg1NDc1NzQyNzQyNjMxNTE0qgEJcmVjb21tZW5kwgEgNmM2NTkxYjc0ZDhiYjk1ZTJhOWEwMzZmZGQzZjZmZWbyAQoIDBIGTm9ybWFs8gEoCAoSJDk4YjBiMjg4LTBkY2ItNGM3NS04OTlmLTNmMmY5OTA5YjIyZvIBBggLEgIxMoICAIgCkoaqm7kzkgIgNmM2NTkxYjc0ZDhiYjk1ZTJhOWEwMzZmZGQzZjZmZWaaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCA/oCC05PUk1BTF9GTE9XigMgY2NmMzFmNzA1ODZlNGNiYjlkNzViMDE0NDg0ZDNlOTOaAw0KAnYyEAAaBW90aGVyqAP/BdgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoDigISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxC4CBiEDiIjdjItNjNkMDAyZDQwMDZkZjA5NjBkNGQwYmFhNGViZmJhYTM6LQgDELgIGKQGIiN2Mi0zNjQ2ODcxN2VkOWQ2ZmI5OThjMzI3ZjdlNWIwOThlYTotCAMQuAgYyAUiI3YyLWU4MjU3NWZmYzNlNzNlYzc3NWViMGU5MTc4N2QxZjZmOi0IAxC4CBisDCIjdjItNWE5YzU4ODFhNThmNmY1YzQ2ZDhlMWEwZjcxN2I1NjY6LQgDELgIGJgLIiN2Mi0xMjUzYWE0MjVkOTliODhmNWZmNmQzMjdmNDI0OTg1MoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQCsJiD+BBQAAAAAAAAAAiQWfI+fxaEyyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZGqAYBkgIuCgkyNjc4OTMzNDMSEzE5ODU0NzU3NDI3NDI2MzE1MTQYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "71_1767704789.6",
+      "type": "feed",
+      "offset": 71,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704789,
+      "updated_time": 1767704789,
+      "target": {
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-2803cc587cd0c2a4d91ad7035b1a9ce1_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-2e411f1138ff0624956d235c0eb5caf6_720w.jpg?source=b6762063"
+        ],
+        "id": "1972067741092544828",
+        "thumbnail": "https://picx.zhimg.com/50/v2-2803cc587cd0c2a4d91ad7035b1a9ce1_720w.jpg?source=b6762063",
+        "question": {
+          "created": 1529565213,
+          "comment_count": 4,
+          "bound_topic_ids": [
+            872,
+            7388,
+            53655
+          ],
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/281858271",
+          "author": {
+            "name": "游戏天行",
+            "is_org": false,
+            "followers_count": 0,
+            "is_followed": false,
+            "id": "d5797a95b2d1b9ef64b7563fa178ecf8",
+            "url_token": "you-xi-tian-xing",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/d5797a95b2d1b9ef64b7563fa178ecf8",
+            "user_type": "people"
+          },
+          "answer_count": 0,
+          "excerpt": "",
+          "id": "281858271",
+          "title": "Python 打包成 exe，太大了该怎么解决？",
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "type": "question"
+        },
+        "excerpt": "大家好！ PyMe 1.5.3.7正式发布了！ 这次更新优化了纯净环境打包功能，让你的可执行文件体积大幅缩小，效率显著提升！ 在演示视频中，一个典型的工程打包成独立的EXE文件，体积约为 33.9MB。而在全新的1.5.3.7版本中，使用纯净环境打包功能后，同样的工程生成的EXE文件只有17MB！体积直接减少了近50%！ 这不是什么理论上的优化承诺，而是实实在在的、每个用户都能体验到的改变。什么是纯净环境打包？为什么如此重要？ 对于很多Py…",
+        "visited_count": 6760,
+        "created_time": 1762957588,
+        "voteup_count": 35,
+        "preview_text": "",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "id": "9f9be8fc12079e5f78ccf141adb3d1df",
+          "url": "https://api.zhihu.com/people/9f9be8fc12079e5f78ccf141adb3d1df",
+          "user_type": "people",
+          "url_token": "honghaier-19",
+          "headline": "资深游戏程序员，知名引擎技术总监，技术专栏作家。",
+          "is_org": false,
+          "name": "红孩儿工作室",
+          "avatar_url": "https://picx.zhimg.com/50/v2-66ad87e75d81a5282b816af6f58a4c61_l.jpg?source=b6762063",
+          "gender": -1,
+          "followers_count": 10498,
+          "is_following": false,
+          "is_followed": false
+        },
+        "url": "https://api.zhihu.com/answers/1972067741092544828",
+        "updated_time": 1762957588,
+        "thanks_count": 2,
+        "reshipment_settings": "allowed",
+        "type": "answer",
+        "content": "<p data-pid=\"i21uhSLN\">      大家好！<b>PyMe 1.5.3.7正式发布了！</b> 这次更新优化了纯净环境打包功能，让你的可执行文件体积大幅缩小，效率显著提升！</p><p data-pid=\"tL4Xag-A\">    在演示视频中，一个典型的工程打包成独立的EXE文件，体积约为<b>33.9MB</b>。而在全新的1.5.3.7版本中，使用纯净环境打包功能后，同样的工程生成的EXE文件只有<b>17MB</b>！体积直接减少了近<b>50%</b>！ 这不是什么理论上的优化承诺，而是实实在在的、每个用户都能体验到的改变。</p><ul><li data-pid=\"pIHY50jy\">什么是纯净环境打包？为什么如此重要？</li></ul><p data-pid=\"2srRAX81\">    对于很多Python开发者来说，打包过程中最头疼的问题就是“依赖膨胀”。传统的打包方式往往会将开发环境中所有相关的模块、库文件都打包进去，不管这个项目是否真正需要。</p><p data-pid=\"6CLLWsyx\">    这就好比你要出门旅行，本来只需要带几件必需品，结果却把整个衣柜都塞进了行李箱。</p><p data-pid=\"dtH146F7\">    PyMe 1..5.3.7的纯净环境打包功能彻底解决了这个问题。它的工作原理非常巧妙：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6633e0f6f84b42af0e4aec6fa9f88be0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"701\" data-rawheight=\"866\" data-original-token=\"v2-e050569b0d2c471c2374b3ca8b86c9ad\" class=\"origin_image zh-lightbox-thumb\" width=\"701\" data-original=\"https://pic3.zhimg.com/v2-6633e0f6f84b42af0e4aec6fa9f88be0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><ul><li data-pid=\"3dXSDSaq\"><b>重新创建打包环境</b> - 每次打包时，PyMe会自动创建一个全新的、干净的环境，而不是使用你当前的开发环境。</li><li data-pid=\"anu0-GwJ\"><b>精准依赖识别</b> - 系统会智能分析你的项目代码，只识别和安装那些真正必要的模块和依赖。</li><li data-pid=\"Q3OBVzq2\"><b>最小化打包</b> - 基于精准的依赖分析，只将必需的组件打包进最终的EXE文件中。</li></ul><p data-pid=\"l-XlfpGN\">    这个过程确保了“没有多余的脂肪，只有强健的肌肉”，让最终的可执行文件既轻量化又功能完整。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a074a1a0a5ccb309fbe4fb40ae5a2c6b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"806\" data-rawheight=\"486\" data-original-token=\"v2-4358eb98989af79f394e18853840c4db\" class=\"origin_image zh-lightbox-thumb\" width=\"806\" data-original=\"https://picx.zhimg.com/v2-a074a1a0a5ccb309fbe4fb40ae5a2c6b_r.jpg\"/></figure><ul><li data-pid=\"VUU-jRNO\"><b>为什么你应该立即升级？</b></li></ul><p data-pid=\"-FLKHMx_\"><b>因为更小的体积意味着更多的可能：</b></p><ul><li data-pid=\"aoi1QDin\"><b>分发更快捷</b>：无论是通过邮件发送、网盘分享还是内置到其他安装包中，17MB都比34MB要友好得多</li><li data-pid=\"S_AXXM7c\"><b>用户下载体验更好</b>：特别是对于网络环境不佳的用户，体积减半意味着下载时间减半</li><li data-pid=\"ycqZsp4Z\"><b>存储空间友好</b>：对于需要部署多个PyMe应用的场景，节省的存储空间将非常可观</li><li data-pid=\"Y11g4dda\"><b>启动速度提升</b>：更小的体积通常也意味着更快的加载和启动速度</li></ul><p data-pid=\"s6Jm6nov\"><b>不仅仅是体积的优化：</b></p><p data-pid=\"33TsP5Fu\">    除了革命性的纯净环境打包功能，PyMe 1.5.3.7还包含了一系列的性能改进和bug修复，确保你的开发体验更加流畅稳定。</p><ul><li data-pid=\"Td0-b56T\">如何立即体验？</li></ul><p data-pid=\"1BBZOe9k\">升级到PyMe 1.5.3.7非常简单：</p><ol><li data-pid=\"zIenC_qi\">访问PyMe官方网站<a href=\"https://link.zhihu.com/?target=http%3A//www.py-me.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://www.</span><span class=\"visible\">py-me.com</span><span class=\"invisible\"></span></a>下载最新版本的安装包</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0d9d6ad73f32b10252403f47bb132038_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"682\" data-original-token=\"v2-2803cc587cd0c2a4d91ad7035b1a9ce1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-0d9d6ad73f32b10252403f47bb132038_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><ol><li data-pid=\"W_ACvDSj\">直接在PyMe内点击右上角的更新版本提示进行在线更新。</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-78d3aa54977c570d49e1dcade728cda8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"650\" data-original-token=\"v2-2e411f1138ff0624956d235c0eb5caf6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-78d3aa54977c570d49e1dcade728cda8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>结语</h3><p data-pid=\"PabOio9w\">    PyMe一直致力于为Python开发者提供最优质、最高效的打包解决方案。1.5.3.7版本的发布，特别是纯净环境打包功能的完善，标志着我们在这一道路上又迈出了坚实的一步。</p><p data-pid=\"h5OGGYko\"><b>    更小的体积，更高的效率，更好的体验</b> - 这就是PyMe 1.5.3.7带给你的承诺。</p><p data-pid=\"yfrK-NQC\">    不要再让臃肿的打包文件拖慢你的项目效率，立即升级PyMe 1.5.3.7，体验“瘦身”后的畅快感受吧！</p><p></p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "answer_type": "normal",
+        "is_copyable": true,
+        "vote_next_step": "vote",
+        "comment_count": 10,
+        "preview_type": "default",
+        "is_labeled": false,
+        "favorite_count": 185,
+        "is_navigator": false,
+        "excerpt_new": "大家好！ PyMe 1.5.3.7正式发布了！ 这次更新优化了纯净环境打包功能，让你的可执行文件体积大幅缩小，效率显著提升！ 在演示视频中，一个典型的工程打包成独立的EXE文件，体积约为 33.9MB。而在全新的1.5.3.7版本中，使用纯净环境打包功能后，同样的工程生成的EXE文件只有17MB！体积直接减少了近50%！ 这不是什么理论上的优化承诺，而是实实在在的、每个用户都能体验到的改变。什么是纯净环境打包？为什么如此重要？ 对于很多Py…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1972067741092544828}",
+      "attached_info": "CvoHCOngy72u88+nqAEQBBoJNzU2MjI0NTgwIJSy0sgGKCMwCkBHSkAKF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREh9kb2NfdHlwZTogTWVtYmVyCmlkOiAxNjA5OTk4NzQKGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWggyNDkxMTUwOGIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5NzIwNjc3NDEwOTI1NDQ4MjiKAQkyODE4NTgyNzGqAQlyZWNvbW1lbmTCASA5ZjliZThmYzEyMDc5ZTVmNzhjY2YxNDFhZGIzZDFkZvIBCggMEgZOb3JtYWzyASgIChIkYTEwMmRlNjYtYzFmYi00YTVmLWFjZjctYzA1OTBhMGEwMmJi8gEGCAsSAjEyggIAiAKShqqbuTOSAiA5ZjliZThmYzEyMDc5ZTVmNzhjY2YxNDFhZGIzZDFkZpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxl2gIXVFNfU09VUkNFX0FVVEhPUl9HQ0ZfSFHoAgL6AgtOT1JNQUxfRkxPV4oDIGNjZjMxZjcwNTg2ZTRjYmI5ZDc1YjAxNDQ4NGQzZTkzmgMNCgJ2MhAAGgVvdGhlcqgD6DTYAwDqAxlnY2ZLbm5BdXRob3JIaWdoUG9zUmVjYWxs+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEKYGGOYDIiN2Mi00MzU4ZWI5ODk4OWFmNzlmMzk0ZTE4ODUzODQwYzRkYjotCAIQuAgYqgUiI3YyLTI4MDNjYzU4N2NkMGMyYTRkOTFhZDcwMzViMWE5Y2UxOi0IAhC4CBiKBSIjdjItMmU0MTFmMTEzOGZmMDYyNDk1NmQyMzVjMGViNWNhZjaABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMAbxIU/gQUAAAAAAAAAAIkFnyPn8WhMsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDJAGAKAGR6gGAJICLgoJNzU2MjI0NTgwEhMxOTcyMDY3NzQxMDkyNTQ0ODI4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=71&desktop=true&end_offset=71&page_number=13&session_token=6520f5f28c5f763f194d86f12349f883",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=71&desktop=true&end_offset=71&page_number=13&session_token=6520f5f28c5f763f194d86f12349f883",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

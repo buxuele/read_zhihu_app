@@ -1,0 +1,633 @@
+{
+  "data": [
+    {
+      "id": "36_1767704763.391",
+      "type": "feed",
+      "offset": 36,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704763,
+      "updated_time": 1767704763,
+      "target": {
+        "article_type": "normal",
+        "navigator_vote": false,
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "excerpt_new": "一、心概念解析1. MCP (Model Context Protocol) 定义：模型上下文协议，是一个开放标准，用于连接AI模型与外部数据源和工具。 核心特性：标准化接口：统一的协议规范，支持多种数据源工具抽象：将外部功能抽象为工具，供AI模型调用资源管理：管理文件、数据库连接等资源流式支持：支持流式数据处理2. LangChain 定义：一个用于构建LLM应用的框架，提供组件化、可组合的AI应用开发工具。 核心组件：Chains：链式调用多个组件Agents…",
+        "preview_type": "default",
+        "is_labeled": false,
+        "visited_count": 57,
+        "favorite_count": 3,
+        "id": "1991446443349791601",
+        "url": "https://api.zhihu.com/articles/1991446443349791601",
+        "comment_permission": "all",
+        "created": 1767661398,
+        "updated": 1767661398,
+        "vote_next_step": "vote",
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "c6daef37f7744225fc285a70bdcfcca3",
+          "url": "https://api.zhihu.com/people/c6daef37f7744225fc285a70bdcfcca3",
+          "name": "AI大模型Zack",
+          "gender": -1,
+          "followers_count": 656,
+          "user_type": "people",
+          "url_token": "zui-qiang-an-zhuo-cheng-xu-yuan",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-5306258cd9fd73e6d042b2639f3d2693_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "voteup_count": 2,
+        "comment_count": 0,
+        "allow_segment_interaction": true,
+        "is_navigator": false,
+        "type": "article",
+        "title": "大模型开发完全指南：MCP、LangChain、LangGraph技术栈详解！",
+        "voting": 0,
+        "excerpt": "一、心概念解析1. MCP (Model Context Protocol) 定义：模型上下文协议，是一个开放标准，用于连接AI模型与外部数据源和工具。 核心特性：标准化接口：统一的协议规范，支持多种数据源工具抽象：将外部功能抽象为工具，供AI模型调用资源管理：管理文件、数据库连接等资源流式支持：支持流式数据处理2. LangChain 定义：一个用于构建LLM应用的框架，提供组件化、可组合的AI应用开发工具。 核心组件：Chains：链式调用多个组件Agents…",
+        "preview_text": "",
+        "content": "<h2>一、心概念解析</h2><p data-pid=\"Ww--rV00\">1. MCP (Model Context Protocol)</p><p data-pid=\"0DYH0V1O\"><b>定义</b>：模型上下文协议，是一个开放标准，用于连接AI模型与外部数据源和工具。</p><p data-pid=\"zvulD69j\"><b>核心特性</b>：</p><ul><li data-pid=\"Hy__giDm\"><b>标准化接口</b>：统一的协议规范，支持多种数据源</li><li data-pid=\"TsFBQLWG\"><b>工具抽象</b>：将外部功能抽象为工具，供AI模型调用</li><li data-pid=\"Mk9gAIA0\"><b>资源管理</b>：管理文件、数据库连接等资源</li><li data-pid=\"-MQWwBsq\"><b>流式支持</b>：支持流式数据处理</li></ul><p data-pid=\"JHlkcWMK\">2. LangChain</p><p data-pid=\"gMC8G_jW\"><b>定义</b>：一个用于构建LLM应用的框架，提供组件化、可组合的AI应用开发工具。</p><p data-pid=\"RbsXd5xt\"><b>核心组件</b>：</p><ul><li data-pid=\"SBTieZaw\"><b>Chains</b>：链式调用多个组件</li><li data-pid=\"OWDV1Zwp\"><b>Agents</b>：智能体，能够使用工具</li><li data-pid=\"QQIYawkZ\"><b>Tools</b>：工具，执行特定功能</li><li data-pid=\"ukh0VSLS\"><b>Memory</b>：记忆组件，存储对话历史</li><li data-pid=\"v5ZiYJAc\"><b>Callbacks</b>：回调机制，监控执行过程</li></ul><p data-pid=\"hQCfUeAL\">3. LangGraph</p><p data-pid=\"xJ9cNhfh\"><b>定义</b>：基于LangChain的状态图框架，用于构建复杂的多智能体工作流。</p><p data-pid=\"TyMrpgAK\"><b>核心特性</b>：</p><ul><li data-pid=\"fnwnhKJQ\"><b>状态管理</b>：管理智能体间的状态传递</li><li data-pid=\"R_7j8gJG\"><b>条件路由</b>：根据条件决定下一步执行</li><li data-pid=\"ArhwaSqN\"><b>并行处理</b>：支持并行执行多个智能体</li><li data-pid=\"GZ5x-dz0\"><b>可视化</b>：提供工作流图的可视化</li></ul><p data-pid=\"PbBZLxow\">4. MCP Server</p><p data-pid=\"OHw8d0qN\"><b>定义</b>：实现MCP协议的服务器，提供特定数据源或功能的访问接口。</p><p data-pid=\"lej8iBHn\"><b>常见MCP Server</b>：</p><ul><li data-pid=\"SkhMdFEa\"><b>@bytebase/dbhub</b>：数据库连接器（MySQL、PostgreSQL等）</li><li data-pid=\"nhFSAll9\"><b>mcp-server-filesystem</b>：文件系统访问</li><li data-pid=\"5Tjrt9C1\"><b>mcp-server-http</b>：HTTP API访问</li><li data-pid=\"tOTnzjmf\"><b>mcp-server-weather</b>：天气数据服务</li></ul><p data-pid=\"0Q56ms64\">5. MCP Client</p><p data-pid=\"5SE2LiYn\"><b>定义</b>：MCP协议的客户端实现，用于连接和调用MCP Server。</p><p data-pid=\"l5k5-7WI\"><b>主要实现</b>：</p><ul><li data-pid=\"dDWYNzkk\"><b>mcp-python</b>：Python官方客户端</li><li data-pid=\"0Lp7JwJx\"><b>mcp-cli</b>：命令行客户端</li><li data-pid=\"rJa1Lo_E\"><b>langchain-mcp-adapters</b>：LangChain集成客户端</li></ul><p data-pid=\"5sNdOXRJ\">6. langchain-mcp-adapters</p><p data-pid=\"coApAmJz\"><b>定义</b>：LangChain官方提供的MCP适配器，将MCP工具转换为LangChain工具。</p><p data-pid=\"ztpcpFAw\"><b>核心功能</b>：</p><ul><li data-pid=\"r3dOx39j\"><b>工具转换</b>：MCP工具 → LangChain工具</li><li data-pid=\"G4yBFUc_\"><b>服务器管理</b>：管理多个MCP服务器连接</li><li data-pid=\"BtijZAhA\"><b>资源处理</b>：处理MCP资源（文件、数据等）</li><li data-pid=\"REB97BxR\"><b>异步支持</b>：支持异步操作</li></ul><h2>二、技术架构关系</h2><p data-pid=\"g83UljzB\">整体架构图​​​​​​​</p><div class=\"highlight\"><pre><code class=\"language-text\">┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐</code></pre></div><p data-pid=\"pzuT2v7_\">数据流向</p><ol><li data-pid=\"K7c-Ps0u\"><b>LangGraph</b> 编排工作流，调用 <b>LangChain</b> 智能体</li><li data-pid=\"H9Zreph8\"><b>LangChain</b> 智能体通过 <b>MCP Adapters</b> 获取工具</li><li data-pid=\"jqpIkssE\"><b>MCP Adapters</b> 将MCP工具转换为LangChain工具</li><li data-pid=\"LWvEsfXO\"><b>MCP Client</b> 通过协议与 <b>MCP Server</b> 通信</li><li data-pid=\"6sXYldk6\"><b>MCP Server</b> 访问实际的数据源（数据库、API、文件等）</li></ol><h2>三、项目结构概览</h2><p data-pid=\"AqvbKAvK\">核心目录结构​​​​​​​</p><p data-pid=\"yBrz7RnM\">intelligent_modeling2/</p><p data-pid=\"-cxwYfoV\">配置文件说明</p><p data-pid=\"zcKCA2VE\">1. mcp_config.json - MCP服务器配置​​​​​​​</p><p data-pid=\"MI7d0QDc\">2. env.example - 环境变量配置​​​​​​​</p><div class=\"highlight\"><pre><code class=\"language-text\"># LLM模型配置</code></pre></div><h2>四、MCP集成方式</h2><p data-pid=\"khkL3yuu\">方式一：直接使用MCP Python客户端</p><p data-pid=\"gUPolLVp\">优点</p><ul><li data-pid=\"78k1fHSu\"><b>简单直接</b>：无需额外框架</li><li data-pid=\"2StgMqta\"><b>性能好</b>：直接协议通信</li><li data-pid=\"gwbVLCLt\"><b>灵活性高</b>：完全控制通信过程</li></ul><p data-pid=\"25aHOyVM\">缺点</p><ul><li data-pid=\"byH5O5jB\"><b>需要手动管理</b>：工具注册、错误处理等</li><li data-pid=\"eU4lS62I\"><b>集成复杂</b>：需要自己处理与智能体的集成</li></ul><p data-pid=\"7nTqB69o\">实现示例​​​​​​​</p><p data-pid=\"OR0U_hW-\">from mcp import MCPClient</p><p data-pid=\"xJRU-e5p\">方式二：使用langchain-mcp-adapters</p><p data-pid=\"GZ7amJuL\">优点</p><ul><li data-pid=\"t-ZbWsY-\"><b>无缝集成</b>：与LangChain生态系统完美集成</li><li data-pid=\"6SVFD4NR\"><b>工具自动转换</b>：MCP工具自动转换为LangChain工具</li><li data-pid=\"XPPxcTs3\"><b>智能体友好</b>：智能体可以直接使用工具</li><li data-pid=\"poDVdRfn\"><b>标准化</b>：遵循LangChain工具标准</li></ul><p data-pid=\"agAVbWeF\">缺点</p><ul><li data-pid=\"VCSbLEVO\"><b>依赖较重</b>：需要安装LangChain相关包</li><li data-pid=\"Af5DU0_z\"><b>学习成本</b>：需要了解LangChain概念</li></ul><p data-pid=\"K8D0xTSn\">实现示例​​​​​​​</p><div class=\"highlight\"><pre><code class=\"language-text\">from langchain_mcp import MCPToolkit</code></pre></div><h2>五、相关资源</h2><p data-pid=\"97cSsNX9\">官方文档</p><ul><li data-pid=\"QpgpVFYJ\">MCP协议规范</li><li data-pid=\"sdn5fQfm\">LangChain文档</li><li data-pid=\"EVo8jsvL\">LangGraph文档</li><li data-pid=\"GLmoXUA6\">langchain-mcp-adapters</li></ul><p data-pid=\"KU2hiEyh\">常用MCP Server</p><ul><li data-pid=\"Wm3m7IyS\">@bytebase/dbhub - 数据库连接器</li><li data-pid=\"VYAqIu-x\">mcp-server-filesystem - 文件系统</li><li data-pid=\"YjO6Y7PD\">mcp-server-http - HTTP API</li></ul><p data-pid=\"m9TMThau\">示例项目</p><ul><li data-pid=\"WasNfzLe\">MCP Python客户端示例</li><li data-pid=\"13wA3Ppx\">LangChain MCP集成示例</li></ul><h2>六、总结</h2><p data-pid=\"OtIfWDvA\">MCP协议为AI应用提供了强大的数据源集成能力，通过三种不同的集成方式，可以满足不同场景的需求：</p><ol><li data-pid=\"YpMNWBFR\"><b>直接MCP客户端</b>：适合简单、直接的场景</li><li data-pid=\"ZVA59tXm\"><b>langchain-mcp-adapters</b>：适合LangChain生态系统</li><li data-pid=\"w1f_PQIS\"><b>自定义适配器</b>：适合需要深度定制的场景</li></ol><p data-pid=\"96d-oKa4\">选择合适的集成方式，结合最佳实践，可以构建出强大、可靠的AI应用系统。</p><h2><b>七、如何学习大模型 AI ？</b></h2><p data-pid=\"dmJugaCi\">由于新岗位的生产效率，要优于被取代岗位的生产效率，所以实际上整个社会的生产效率是提升的。</p><p data-pid=\"7zmzz3wH\">但是具体到个人，只能说是：</p><p data-pid=\"TZ3h9yDc\">最先掌握AI的人，将会比较晚掌握AI的人有竞争优势。<br/>这句话，放在计算机、互联网、移动互联网的开局时期，都是一样的道理。</p><p data-pid=\"0hE0NzGt\"><b>我在一线互联网企业工作十余年里，指导过不少同行后辈。帮助很多人得到了学习和成长。</b></p><p data-pid=\"4Gtif7pS\">我意识到有很多经验和知识值得分享给大家，也可以通过我们的能力和经验解答大家在人工智能学习中的很多困惑，所以在工作繁忙的情况下还是坚持各种整理和分享。但苦于知识传播途径有限，很多互联网行业朋友无法获得正确的资料得到学习提升，故此将并将重要的AI大模型资料包括AI大模型入门学习思维导图、精品AI大模型学习书籍手册、视频教程、实战学习等录播视频免费分享出来。</p><p data-pid=\"_I5d6imV\"><b>这份完整版的大模型 AI 学习和面试资料，朋友们如果有需要的话可以点击下方卡片免费领取【保证100%免费】</b></p><a href=\"https://zhuanlan.zhihu.com/p/1979585083104051455\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"【2026最新】AI大模型全套资料合集(允许白嫖)！面试真题+书籍PDF+技术报告+学习路线，一般有关大模型的资料都有收录！\" data-draft-cover=\"https://picx.zhimg.com/v2-c3c303f133a6985103bbab224c675926.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">【2026最新】AI大模型全套资料合集(允许白嫖)！面试真题+书籍PDF+技术报告+学习路线，一般有关大模型的资料都有收录！</a>"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991446443349791601}",
+      "attached_info": "CsUFCJyrjsr/7u+EjQEQBxoJMjY4NTcxOTkxINa+8coGKAIwAEAkSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMRIBMBgAIAA6AGIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5OTE0NDY0NDMzNDk3OTE2MDGqAQlyZWNvbW1lbmTCASBjNmRhZWYzN2Y3NzQ0MjI1ZmMyODVhNzBiZGNmY2NhM/IBCggMEgZOb3JtYWzyASgIChIkOGVmZDUzMDctNDI1Ny00ZmU0LWIzNDQtOTM0MGI0MDBhOGJi8gEFCAsSATeCAgCIAva5qJu5M5ICIGM2ZGFlZjM3Zjc3NDQyMjVmYzI4NWE3MGJkY2ZjY2EzmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIYVFNfU09VUkNFX1dBUk1fVVBfQk9PU1Qx6AID+gILTk9STUFMX0ZMT1eKAyBlZGQ2OWM1YTM0OTY0MGYwODVkNmM0OTdiNjVjZDM1MZoDDQoCdjIQABoFb3RoZXKoAznYAwDqAyB3YXJtdXBUd29Ub3dlclRleHROb3JtYWxSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAACDLU2Y/gQUAAAAAAAAAAIkF6jHrjMrCsD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFB5AGAKAGJKgGAZICLgoJMjY4NTcxOTkxEhMxOTkxNDQ2NDQzMzQ5NzkxNjAxGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "37_1767704763.621",
+      "type": "feed",
+      "offset": 37,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704763,
+      "updated_time": 1767704763,
+      "target": {
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-4d167509ec1e771afdbae23744495a3c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-08ade080f6b12b42374440bb7f7aa3bb_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "question": {
+          "url": "https://api.zhihu.com/questions/274033994",
+          "question_type": "normal",
+          "title": "一个人蠢起来能有多蠢？",
+          "created": 1524216079,
+          "comment_count": 29,
+          "detail": "",
+          "author": {
+            "followers_count": 616,
+            "id": "0439fca724593d4755823c49ff5c6beb",
+            "user_type": "people",
+            "name": "随风",
+            "headline": "",
+            "is_org": false,
+            "gender": 0,
+            "url": "https://api.zhihu.com/people/0439fca724593d4755823c49ff5c6beb",
+            "url_token": "sui-feng-5-70-20",
+            "avatar_url": "https://picx.zhimg.com/50/v2-96d4f527a936b0e7f8df568264b3561f_l.jpg?source=b6762063",
+            "is_following": false,
+            "is_followed": false
+          },
+          "answer_count": 0,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            4467,
+            8486,
+            158104,
+            1833036,
+            2109549
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "id": "274033994",
+          "type": "question",
+          "is_following": false
+        },
+        "excerpt_new": "有个大哥在华莱士隔壁开了一家杂牌汉堡店，每天只卖300块钱，但是他不知道是什么原因导致的，所以大哥来找勇哥咨询，提升营业额。   大哥连麦之后，开始诉苦，说开业十多天了，每天只能卖两三百块钱，生意很不好，不像当时总部承诺的那样。 没等大哥说完，主播抬手打断他，声音冷硬：“停，别说了，你右转，旁边是什么？” 大哥将摄像头对准隔壁，淡定回答：“华莱士。” 主播郑重道：“大哥，我问你，你开到旁边，是把华莱士当空…",
+        "segment_infos": [
+          {
+            "pid": "bHd95fiJ",
+            "text": "有个大哥在华莱士隔壁开了一家杂牌汉堡店，每天只卖300块钱，但是他不知道是什么原因导致的，所以大哥来找勇哥咨询，提升营业额。",
+            "marks": [
+              {
+                "start_index": 4,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991918328835507337"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 32,
+                "end_index": 43,
+                "seg_info": {
+                  "seg_ids": [
+                    "1990731253629093547"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "gQG57q-l",
+            "text": "大哥说当时是想加盟塔斯汀，但是没找到官网和电话，然后不知道怎么地，自己的电话就转到澳森堡那去了，他们说塔斯汀饱和了，自己是第四代汉堡，比塔斯汀好。",
+            "marks": [
+              {
+                "start_index": 13,
+                "end_index": 23,
+                "seg_info": {
+                  "seg_ids": [
+                    "1990766008332468962"
+                  ],
+                  "is_like": false,
+                  "like_count": 20,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 33,
+                "end_index": 44,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991899004498355692"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7r-5ZyYj",
+            "text": "大哥说没有。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 5,
+                "seg_info": {
+                  "seg_ids": [
+                    "1990821821306664203"
+                  ],
+                  "is_like": false,
+                  "like_count": 18,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Rf4R1KJx",
+            "text": "主播说完之后，不确定的问：“你······你应该也是有文化、有学历的是不是？”",
+            "marks": [
+              {
+                "start_index": 14,
+                "end_index": 39,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991178724297692548"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "id": "1990606435546072124",
+        "url": "https://api.zhihu.com/answers/1990606435546072124",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-4330fd66f592d4c7faadad5b2cdbf796_l.jpg?source=b6762063",
+          "gender": -1,
+          "url_token": "shen-hong-yu-7",
+          "headline": "",
+          "user_type": "people",
+          "name": "申宏宇",
+          "is_org": false,
+          "followers_count": 18235,
+          "is_following": false,
+          "is_followed": false,
+          "id": "942c1560c5757e111969f70cc34087dd",
+          "url": "https://api.zhihu.com/people/942c1560c5757e111969f70cc34087dd"
+        },
+        "created_time": 1767377557,
+        "is_navigator": false,
+        "thanks_count": 112,
+        "excerpt": "有个大哥在华莱士隔壁开了一家杂牌汉堡店，每天只卖300块钱，但是他不知道是什么原因导致的，所以大哥来找勇哥咨询，提升营业额。   大哥连麦之后，开始诉苦，说开业十多天了，每天只能卖两三百块钱，生意很不好，不像当时总部承诺的那样。 没等大哥说完，主播抬手打断他，声音冷硬：“停，别说了，你右转，旁边是什么？” 大哥将摄像头对准隔壁，淡定回答：“华莱士。” 主播郑重道：“大哥，我问你，你开到旁边，是把华莱士当空…",
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "voteup_count": 2553,
+        "is_copyable": false,
+        "updated_time": 1767405803,
+        "preview_text": "",
+        "is_labeled": false,
+        "visited_count": 453201,
+        "favorite_count": 358,
+        "answer_type": "normal",
+        "comment_count": 510,
+        "thumbnail": "https://picx.zhimg.com/50/v2-4d167509ec1e771afdbae23744495a3c_720w.jpg?source=b6762063",
+        "content": "<p data-pid=\"bHd95fiJ\">有个大哥在华莱士隔壁开了一家杂牌汉堡店，每天只卖300块钱，但是他不知道是什么原因导致的，所以大哥来找勇哥咨询，提升营业额。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4d167509ec1e771afdbae23744495a3c_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1021\" data-size=\"normal\" data-original-token=\"v2-4d167509ec1e771afdbae23744495a3c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-4d167509ec1e771afdbae23744495a3c_r.jpg\"/></figure><p data-pid=\"UDiY7cPN\">大哥连麦之后，开始诉苦，说开业十多天了，每天只能卖两三百块钱，生意很不好，不像当时总部承诺的那样。</p><p data-pid=\"sTSE7X6U\">没等大哥说完，主播抬手打断他，声音冷硬：“停，别说了，你右转，旁边是什么？”</p><p data-pid=\"VSMiw7c5\">大哥将摄像头对准隔壁，淡定回答：“华莱士。”</p><p data-pid=\"yWqCoHfF\">主播郑重道：“大哥，我问你，你开到旁边，是把华莱士当空气吗？。”</p><p data-pid=\"IbSDafI-\">大哥说是总公司的选址老师给选的地方。</p><p data-pid=\"JwHB5LRV\">“哦，公司选的，那我问你，公司选的时候他不知道旁边有个华莱士吗？”</p><p data-pid=\"EnY0SjD8\">大哥说都知道，选址老师选的，连着选了三四个位置，全都挨着华莱士，说能超越它。</p><p data-pid=\"wdEAJINA\">“超他妹啊，我靠，这么大一个品牌顶在旁边看不见啊，哎呀我的天啊。”</p><p data-pid=\"69kQ3uxA\">主播问，这个店开下来多少钱？</p><p data-pid=\"LFKEivMw\">大哥说开店花了四十五万。</p><p data-pid=\"iAgaqhYe\">主播眼睛都快跳出来了，惊讶道：“四十五！那你为什么不在旁边开个塔斯汀呢？”</p><p data-pid=\"gQG57q-l\">大哥说当时是想加盟塔斯汀，但是没找到官网和电话，然后不知道怎么地，自己的电话就转到澳森堡那去了，他们说塔斯汀饱和了，自己是第四代汉堡，比塔斯汀好。</p><p data-pid=\"AbcjLct0\">主播听完之后很好奇，问他前几代汉堡都是什么？</p><p data-pid=\"WFVjWqM8\">大哥说，第三代是塔斯汀，第二代汉堡是华莱士 ，第一代汉堡是肯德基和麦当劳。</p><p data-pid=\"RFOZXQs1\">“哦”，主播恍然大悟：“你们是第四代了，所以你们要把肯德基干掉，把华莱士干掉，开到他旁边都没有关系。”</p><p data-pid=\"J7U0zEmL\">主播问，给了多少加盟费啊？</p><p data-pid=\"VNNK1RcG\">大哥说，给了十五万八加盟费，拿了一个区域代理，又给了物料七万块钱，总共给公司二十多万。</p><p data-pid=\"paDOi7rU\">然后主播问，你觉得这个杂牌汉堡哪里好？</p><p data-pid=\"IRnk_wCL\">大哥说味道好。</p><p data-pid=\"gAXWF95r\">“味道好就需要给十五万八吗？”主播接着问：“那我再问你，你在签合同的时候，周围有没有人告诉你，你不签别人就签了？”</p><p data-pid=\"oAmCH1Mx\">大哥连说对对对，说过这事，就是说时间没有了，马上就剩这么几天了，当时第一天公司让交定金，大哥没同意，第二天赶忙把加盟费交上了。</p><p data-pid=\"_0zijS8K\">之后主播给大哥看了看商圈位置，结果发现店铺位置差得离谱。</p><p data-pid=\"XS8EQDOI\">大哥的杂牌汉堡开在老城区的商场对面，主要客流都在商场里面。</p><p data-pid=\"1q_PLehI\">隔壁的华莱士也只是个外卖店，外卖订单差不多占八成，所有平台加起来只有一百多单。</p><p data-pid=\"vHrSgxu1\">虽然商场与大哥的汉堡店隔了一条路，但就是这条路把客流全都截断了，他们这条街只能吃到对面商场溢出来的客流，俗称捡点剩饭吃。</p><p data-pid=\"dXBPQi41\">大哥这条街都没啥餐饮，一眼望过去只有三家饭店，剩下的就是宠物医院、摄影馆、法律服务······</p><p data-pid=\"JmZaOUfL\">主播看见前面有家律师事务所，对大哥说：“你正好用得上，去咨询过没有？”</p><p data-pid=\"7r-5ZyYj\">大哥说没有。</p><p data-pid=\"aq6DQLzW\">主播看完商圈之后直皱眉，他判断出来隔壁华莱士生意差也是有原因的，于是问：“你对面是不是还有其他汉堡店？”</p><p data-pid=\"wUEHYUSn\">大哥说对，前面三百米有家塔斯汀，就开在商场的正门口，商场一楼还有一家肯德基。</p><p data-pid=\"4OsTDySb\">主播了解完情况以后，对大哥说：“我救不了你，你这个店没啥好改的。”</p><p data-pid=\"oYMon90M\">他说大哥中间很多次都可以及时止损，到总部交完十五万八加盟费，哪怕回来问一问，到处了解一下，都是可以退回来的。</p><p data-pid=\"fMwH2mXe\">到后面选址，还他娘的选在华莱士旁边，这个时候你就应该知道这玩意不靠谱，也可以想办法退钱，减少损失。</p><p data-pid=\"LSfoGLWB\">但是你没有，非得把它开了，开了十几天了，现在终于知道了，这种我很难帮助你解决问题啊。</p><p data-pid=\"vckqvamZ\">“商圈是对面商场，所有的客流都在对面，不在你这边，连你旁边的华莱士加上外卖一天也就一百多单，你开它旁边去，你说怎么弄？”</p><p data-pid=\"-38vSH4E\">主播越说越生气，有些恨铁不成钢：“门头这么小，招牌这么小，就这么个店，你投了四十五万，我的哥，四十五万，干别的不好吗，你要拿来这么折腾。”</p><p data-pid=\"XVZvWF_U\">主播问大哥接下来准备怎么做？</p><p data-pid=\"WMcQfW2R\">大哥说打算去总部要个说法，当初说的好听，现在都没落实。</p><p data-pid=\"S-YRhK8a\">主播说：“能要个什么说法，你要说法他告诉你生死有命富贵在天，生意没做起来是你自己经营的问题，你怎么办？”</p><p data-pid=\"jddWZ7_R\">主播告诉大哥，别去要说法了，赶紧去维权吧，不然过几天这个品牌可能就不见了，又换一个别的名字出来招摇撞骗，你找都找不到。</p><p data-pid=\"N2HpFWiy\">主播建议大哥赶紧把店关了，每天两三百块钱，有什么好开的，该转租转租， 房租能拿回来多少是多少。</p><p data-pid=\"iSSV5-pY\">第二，趁现在尽快找个律师，你这不是几万块钱，是几十万！把材料准备好，发给总部，跟他们协商怎么解决，让他们退钱。</p><p data-pid=\"oaRDVn2a\">总公司肯定不同意，你就联系当地管理部门，该投诉投诉，该举报举报。</p><p data-pid=\"Rf4R1KJx\">主播说完之后，不确定的问：“你······你应该也是有文化、有学历的是不是？”</p><p data-pid=\"fvmd0Aae\">大哥答是。</p><p data-pid=\"2pi3GA1o\">主播斩钉截铁的说：“尽快和公司谈判，谈不拢赶紧起诉。只有这个，没有其他方案，别想着再去拯救你这个店了，你这个店，天王老子来了都没有用。”</p><p data-pid=\"oZD0bUat\">最后大哥听从了主播的话，抓紧去维权了。</p><p data-pid=\"TL3Tp-4T\">有网友慕名前去探店，发现没多长时间就关门了，门上还贴了“旺铺出租”的字。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-08ade080f6b12b42374440bb7f7aa3bb_1440w.jpg\" data-rawwidth=\"1077\" data-rawheight=\"917\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-08ade080f6b12b42374440bb7f7aa3bb\" class=\"origin_image zh-lightbox-thumb\" width=\"1077\" data-original=\"https://pic4.zhimg.com/v2-08ade080f6b12b42374440bb7f7aa3bb_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990606435546072124}",
+      "attached_info": "CsMGCJyrjsr/7u+EjQEQBBoJNzYzNzQzNzMyIJWV4MoGKPkTMP4DQCVKKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDIzMTcxODI4YiA2NTIwZjVmMjhjNWY3NjNmMTk0ZDg2ZjEyMzQ5Zjg4M3ITMTk5MDYwNjQzNTU0NjA3MjEyNIoBCTI3NDAzMzk5NKoBCXJlY29tbWVuZMIBIDk0MmMxNTYwYzU3NTdlMTExOTY5ZjcwY2MzNDA4N2Rk8gEKCAwSBk5vcm1hbPIBKAgKEiQwZTI2ZWI3Yi0yOWMzLTQ0YjAtOWI5OC0yMGE0ZTQ2MjUxMjnyAQUICxIBN4ICAIgC97mom7kzkgIgOTQyYzE1NjBjNTc1N2UxMTE5NjlmNzBjYzM0MDg3ZGSaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AID+gILTk9STUFMX0ZMT1eKAyBlZGQ2OWM1YTM0OTY0MGYwODVkNmM0OTdiNjVjZDM1MZoDDQoCdjIQABoFb3RoZXKoA9HUG9gDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAEQuAgY/QciI3YyLTRkMTY3NTA5ZWMxZTc3MWFmZGJhZTIzNzQ0NDk1YTNjOi0IAhC1CBiVByIjdjItMDhhZGUwODBmNmIxMmI0MjM3NDQ0MGJiN2Y3YWEzYmKABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAACA+t5k/gQUAAAAAAAAAAIkF6jHrjMrCsD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFB5AGAKAGJagGA5ICLgoJNzYzNzQzNzMyEhMxOTkwNjA2NDM1NTQ2MDcyMTI0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "38_1767704763.533",
+      "type": "feed",
+      "offset": 38,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704763,
+      "updated_time": 1767704763,
+      "target": {
+        "image_url": "https://picx.zhimg.com/v2-08740b96c7eccdfb2ce665371e54ba6b.jpg?source=7e7ef6e2&needBackground=1",
+        "created": 1767604677,
+        "vote_next_step": "vote",
+        "title": "2025年游戏技术最大变革：Neural Shader",
+        "comment_permission": "all",
+        "updated": 1767606472,
+        "is_labeled": false,
+        "type": "article",
+        "voting": 0,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-08740b96c7eccdfb2ce665371e54ba6b.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pica.zhimg.com/50/v2-08740b96c7eccdfb2ce665371e54ba6b_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1991557277451305725",
+        "comment_count": 8,
+        "excerpt_new": "2025年好像过得特别快，发生了很多事情。单说游戏引擎技术这块，Neural Shader 为图形管线开启了AI硬件加速，AI正在重构渲染管线，这是最让我震撼的了！ 📹 本文内容视频讲解版 请移步B站：【2025年游戏技术最大变革：Neural Shader】 在 GDC 2025，NVIDIA 和微软联合发布了 Neural Shader。这让我联想起 2018 年的硬件光线追踪（一晃也快10年过去了，那年我还在 SIGGRAPH 现场观看了老黄的演讲）。现在， NVIDIA 更是宣称 Neur…",
+        "preview_text": "",
+        "id": "1991557277451305725",
+        "content": "<p data-pid=\"JcSyZ5Pz\">2025年好像过得特别快，发生了很多事情。单说游戏引擎技术这块，Neural Shader 为图形管线开启了AI硬件加速，AI正在重构渲染管线，这是最让我震撼的了！</p><p data-pid=\"_c3Rx_n_\">📹 本文内容视频讲解版<b>请移步B站：</b><a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1XkiEBAECq/%3Fshare_source%3Dcopy_web%26vd_source%3D34d74b5feab7943c1b9e444fbc23c322\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">【2025年游戏技术最大变革：Neural Shader】</a></p><p data-pid=\"HJy3SRl3\">在 GDC 2025，NVIDIA 和微软联合发布了 Neural Shader。这让我联想起 2018 年的硬件光线追踪（一晃也快10年过去了，那年我还在 SIGGRAPH 现场观看了老黄的演讲）。现在， NVIDIA 更是宣称 Neural Shader 是继 25 年前的可编程渲染管线以来，实时图形技术的又一次重大突破！</p><p data-pid=\"uNOjBanK\">无疑，AI-Powered Graphics 正在蓬勃发展。它不只是硬件光追那样的性能提升，而是会影响整个渲染管线的架构设计。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3d8364cd3cc05bc64a7d39d043f3a491_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-d1440eddb38852a5cc1796f82db145b5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-3d8364cd3cc05bc64a7d39d043f3a491_r.jpg\"/><figcaption>GDC 2025 上发布的 Zorah Demo</figcaption></figure><h2>为什么引入 Neural Shader？</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b4d3bbddc534ed84dc88f838eb11c525_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-ae45104ec03c29f926aa9a5a8cf6e0fb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-b4d3bbddc534ed84dc88f838eb11c525_r.jpg\"/></figure><p data-pid=\"mCc35PYk\">过去十年，实时渲染的性能提升有 1000 倍以上，这主要得益于渲染算法的优化和摩尔定律带来的 GPU 硬件性能提升。但是，现在<b>摩尔定律已经失效了</b>，下一个 1000 倍的提升如何达到？我们需要换一个角度来解决问题，也就是引入 AI，并通过 GPU 进行硬件加速，也就是：Neural Shader 啦！</p><p data-pid=\"Q-7S47fy\">Neural Shader 让游戏引擎像运行普通 Shader 一样，直接调用 GPU 进行神经网络所需的矩阵运算，甚至是训练所需的反向传播。也就是说在图形管线的 Pixel Shader 或者 Vertex Shader 或者 Computer Shader 直接调用 Tensor Core的硬件加速能力，而不需要 CUDA。<b>AI 已经成为实时渲染的&#34;一等公民&#34;。</b></p><h2>Neural Shader 能做什么？</h2><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8ee063d5746ffbfdce771e7f9f8386f7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-25abcaab7af26e0e8c2b0e88c926ff14\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-8ee063d5746ffbfdce771e7f9f8386f7_r.jpg\"/></figure><p data-pid=\"SJju2hSv\">Neural Shader 是一种通用的 GPU 加速计算能力，它能够应用在材质，光影、纹理、模型、角色动画等方方面面。从这个角度说，它确实是比硬件光追影响力更大的一次技术进步。下面就概要的说几个发展最活跃的领域。</p><h3>1. Neural Materials</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ea24aa7ebd5c1b08563f6d7e01f7f7cc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"424\" data-original-token=\"v2-732e37e15214572920afb171886b5d44\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-ea24aa7ebd5c1b08563f6d7e01f7f7cc_r.jpg\"/></figure><p data-pid=\"Z2roIr45\">在与传统材质达到同样效果的情况下，性能提升了 5 倍。</p><h3>2. Neural Texture Compression</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4ce854629f0d4b8c55ee297fec5f8c56_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"463\" data-original-token=\"v2-51a28f1d38846017a73c9e997cdac72d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-4ce854629f0d4b8c55ee297fec5f8c56_r.jpg\"/></figure><p data-pid=\"UB3unwG8\">比传统压缩纹理节省 7 倍的显存。</p><h3>3. Neural Faces &amp; Hair</h3><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4ec64d207a67132c0f965f5ce794d0c3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1024\" data-rawheight=\"576\" data-original-token=\"v2-793b71e30a71139843cba61c462a366a\" class=\"origin_image zh-lightbox-thumb\" width=\"1024\" data-original=\"https://picx.zhimg.com/v2-4ec64d207a67132c0f965f5ce794d0c3_r.jpg\"/></figure><p data-pid=\"ZB3z7EbY\">创建具有逼真视觉效果的游戏角色，跨越恐怖谷。</p><h3>4. Neruial Radiance Caching</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0d8b1f74b7c9f32b877c165007d2f6c0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-f1acc136bd6ca24014a4e1e42072b50b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-0d8b1f74b7c9f32b877c165007d2f6c0_r.jpg\"/></figure><p data-pid=\"JzBNZWYk\">用于路径追踪全局光照。能够在完全动态场景中实时工作的神经辐射缓存系统，对光照、几何和材质不做任何假设。</p><h2>Neural Shader 到底是什么？</h2><p data-pid=\"_TjBL-rY\">那么 Neural Shader 是如何让我们在图形渲染管线中调用 Tensor Core 的加速能力的呢？Neural Shader 的底层是 DirectX 12 或者 Vulkan 新加的<b>Cooperative Vector </b>特性。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-545cb1526148f35cc8914d04c143f0ef_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-70e64ab05813b91a52129d927d6a80de\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-545cb1526148f35cc8914d04c143f0ef_r.jpg\"/></figure><p data-pid=\"Rl5csGmz\"><b>以前：</b>AI 计算只能通过 CUDA，而因为存储异构的原因，我们很难在渲染管线里面调用它。</p><p data-pid=\"uMACnhZt\"><b>现在：</b>通过 Cooperative Vectors，我们可以在渲染管线内直接调用 Tensor Cores，让这些专用硬件真正发挥作用。</p><p data-pid=\"GguEJ8R1\">不过，个人臆测：这本来就不是什么技术障碍，毕竟DLSS早就使用AI加速了，只不过现在老黄想开了，把这个能力开放了出来。</p><h3> 参考资料</h3><p data-pid=\"dXIUbHPz\">1.Müller, et al. (2021). Real-time Neural Radiance Caching for Path Tracing. ACM Transactions on Graphics.</p><p data-pid=\"nQZ4Gnrm\">2.Vaidyanathan, K., et al. (2023). Random-Access Neural Compression of Material Textures. ACM Transactions on Graphics.</p><p data-pid=\"bV8uoyQn\">3.Zeltner, T., et al. (2024). Real-time Neural Appearance Models. ACM Transactions on Graphics.</p><p data-pid=\"1J5ws8cz\">4.Bekin, A., Panteleev, A., &amp; Hargreaves, S. (2025). RTX Neural Shading: Practical Techniques and Applications. GDC 2025.</p><p data-pid=\"rlvK49pX\">5.Duca, N., et al. (2025). An Introduction to Neural Shading. SIGGRAPH Courses 2025.</p>",
+        "visited_count": 5899,
+        "voteup_count": 122,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "article_type": "normal",
+        "navigator_vote": false,
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/98de2606e95a4d1d47577441153a6e37_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 6693,
+          "is_followed": false,
+          "id": "a61d07daeccfe640ea25ca48d3f09a04",
+          "url_token": "neil3d",
+          "name": "房燕良",
+          "headline": "How do you define real?",
+          "url": "https://api.zhihu.com/people/a61d07daeccfe640ea25ca48d3f09a04",
+          "user_type": "people",
+          "is_org": false,
+          "is_following": false
+        },
+        "excerpt": "2025年好像过得特别快，发生了很多事情。单说游戏引擎技术这块，Neural Shader 为图形管线开启了AI硬件加速，AI正在重构渲染管线，这是最让我震撼的了！ 📹 本文内容视频讲解版 请移步B站：【2025年游戏技术最大变革：Neural Shader】 在 GDC 2025，NVIDIA 和微软联合发布了 Neural Shader。这让我联想起 2018 年的硬件光线追踪（一晃也快10年过去了，那年我还在 SIGGRAPH 现场观看了老黄的演讲）。现在， NVIDIA 更是宣称 Neur…",
+        "preview_type": "default",
+        "favorite_count": 220,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991557277451305725}",
+      "attached_info": "CuQJCJyrjsr/7u+EjQEQBxoJMjY4NTk4MDg0IMWD7soGKHowCEAmSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9SjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifWIgNjUyMGY1ZjI4YzVmNzYzZjE5NGQ4NmYxMjM0OWY4ODNyEzE5OTE1NTcyNzc0NTEzMDU3MjWCAV9odHRwczovL3BpY3guemhpbWcuY29tL3YyLTA4NzQwYjk2YzdlY2NkZmIyY2U2NjUzNzFlNTRiYTZiLmpwZz9zb3VyY2U9N2U3ZWY2ZTImbmVlZEJhY2tncm91bmQ9MaoBCXJlY29tbWVuZMIBIGE2MWQwN2RhZWNjZmU2NDBlYTI1Y2E0OGQzZjA5YTA08gEKCAwSBk5vcm1hbPIBKAgKEiRjNzJhY2JjZS02YTY0LTRmNGMtYTQ2NS0yMTEwNjZiY2ExNDXyAQUICxIBN4ICAIgC97mom7kzkgIgYTYxZDA3ZGFlY2NmZTY0MGVhMjVjYTQ4ZDNmMDlhMDSaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AIF+gILTk9STUFMX0ZMT1eKAyBlZGQ2OWM1YTM0OTY0MGYwODVkNmM0OTdiNjVjZDM1MZoDDQoCdjIQABoFb3RoZXKoA4su2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6A8YDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQuAgY4AQiI3YyLWQxNDQwZWRkYjM4ODUyYTVjYzE3OTZmODJkYjE0NWI1Oi0IAhC4CBjgBCIjdjItYWU0NTEwNGVjMDNjMjlmOTI2YWE5YTVhOGNmNmUwZmI6LQgCELgIGOAEIiN2Mi0yNWFiY2FhYjdhZjI2ZTBlOGMyYjBlODhjOTI2ZmYxNDotCAMQuAgYqAMiI3YyLTczMmUzN2UxNTIxNDU3MjkyMGFmYjE3MTg4NmI1ZDQ0Oi0IAxC4CBjPAyIjdjItNTFhMjhmMWQzODg0NjAxN2E3M2M5ZTk5N2NkYWM3MmQ6LQgEEIAIGMAEIiN2Mi03OTNiNzFlMzBhNzExMzk4NDNjYmE2MWM0NjJhMzY2YTotCAMQuAgY4AQiI3YyLWYxYWNjMTM2YmQ2Y2EyNDAxNGE0ZTFlNDIwNzJiNTBiOi0IAhC4CBjgBCIjdjItNzBlNjRhYjA1ODEzYjkxYTUyMTI5ZDkyN2Q2YTgwZGU6LQgEEIAPGLgIIiN2Mi0wODc0MGI5NmM3ZWNjZGZiMmNlNjY1MzcxZTU0YmE2YoAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAZtYW51YWzCBAMxMTDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKApIXE/gQUAAAAAAAAAAIkF6jHrjMrCsD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFB5AGAKAGJqgGAJICLgoJMjY4NTk4MDg0EhMxOTkxNTU3Mjc3NDUxMzA1NzI1GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "39_1767704763.532",
+      "type": "feed",
+      "offset": 39,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704763,
+      "updated_time": 1767704763,
+      "target": {
+        "comment_count": 0,
+        "favorite_count": 13,
+        "is_navigator": false,
+        "id": "1989735225996112187",
+        "thanks_count": 0,
+        "is_copyable": true,
+        "question": {
+          "comment_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/542843803",
+          "follower_count": 0,
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "title": "《孙子兵法》这本书有没有被严重夸大？",
+          "created": 1657593702,
+          "type": "question",
+          "bound_topic_ids": [
+            27349,
+            214040
+          ],
+          "id": "542843803",
+          "author": {
+            "followers_count": 94,
+            "is_followed": false,
+            "headline": "",
+            "is_org": false,
+            "user_type": "people",
+            "url_token": "xialong-liang",
+            "name": "圣母",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-89b8c3a979cc901f62d7d8e4f0cf1d1d_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_following": false,
+            "id": "bd270970333c682214d0613edb13eaa0",
+            "url": "https://api.zhihu.com/people/bd270970333c682214d0613edb13eaa0"
+          }
+        },
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "updated_time": 1767169845,
+        "voteup_count": 6,
+        "excerpt_new": "——通过十字可以定位出一个中心点，基本盘或者说根据地，有了这个中心点基本盘，才不是浮萍与无根树，进而可以讨论中心点（重心）与四方的关系，对于中心与四方关系的布局与策略，便是——计。 真传一句话版：没有，孙子兵法是古代军事思想由谋略向战略转换的代表性作品。前面几篇文章中，我们粗略勾勒了一下孙子兵法的决策面相，即将“兵甲”放在一个社会的政经系统与政经格局之中来观察他们的互动关系，以此作为“兵者，国之…",
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "type": "answer",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-34de285d3c5b76d64feefc50dcef2f7f_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_followed": false,
+          "id": "62391325e889857a4a435bf8574096fd",
+          "name": "永生的史官",
+          "headline": "更多内容在公众号:永生的史官。",
+          "gender": 1,
+          "followers_count": 272,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/62391325e889857a4a435bf8574096fd",
+          "user_type": "people",
+          "url_token": "59-31-60-37-56"
+        },
+        "excerpt": "——通过十字可以定位出一个中心点，基本盘或者说根据地，有了这个中心点基本盘，才不是浮萍与无根树，进而可以讨论中心点（重心）与四方的关系，对于中心与四方关系的布局与策略，便是——计。 真传一句话版：没有，孙子兵法是古代军事思想由谋略向战略转换的代表性作品。前面几篇文章中，我们粗略勾勒了一下孙子兵法的决策面相，即将“兵甲”放在一个社会的政经系统与政经格局之中来观察他们的互动关系，以此作为“兵者，国之…",
+        "content": "<blockquote data-pid=\"vufqpD_c\"><b>——通过十字可以定位出一个中心点，基本盘或者说根据地，有了这个中心点基本盘，才不是浮萍与无根树，进而可以讨论中心点（重心）与四方的关系，对于中心与四方关系的布局与策略，便是——计</b>。</blockquote><p data-pid=\"c-zRekM7\"><b>真传一句话版：没有，孙子兵法是古代军事思想由谋略向战略转换的代表性作品。</b></p><p data-pid=\"28qP24H1\">前面几篇文章中，我们粗略勾勒了一下孙子兵法的决策面相，即将“兵甲”放在一个社会的政经系统与政经格局之中来观察他们的互动关系，以此作为“兵者，国之大事”的注脚。</p><p data-pid=\"gu02kT4d\">在拆解孙子兵法的早期，我们是从地缘关系的角度来看待“死生之地”的。后期拆解太公兵法的过程中，让我们意识到，<b>“地”并非是死的，而是可以作为协同大规模兵团的一种时空坐标，从而解决古代没有即时通信的军队协同作战的协调问题。</b></p><p data-pid=\"C4wulWGw\">顺着这个思路，我们亦开心的发现，<b>这种择时，卜地的理念，或许便是早期古中国建筑规划设计（安营扎寨）的起源</b>。从而为古中国的建筑规划设计在理论上找到了一块更加坚固的磐石。这样两点是我们对“死生之地”的注脚。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2640458236f617b63ae4b014bd8921af_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1066\" data-rawheight=\"595\" data-original-token=\"v2-57e9bbf25f2d90e9c6aec40dd59f0421\" class=\"origin_image zh-lightbox-thumb\" width=\"1066\" data-original=\"https://pic2.zhimg.com/v2-2640458236f617b63ae4b014bd8921af_r.jpg\"/></figure><p data-pid=\"rU0P8qDd\">通过对孙子兵法，太公兵法，史记·货殖列传与吴地后来的命运来看，我们亦总结出来了古中国兵法衍变的轨迹，即兵法在早期呈现出“谋略”的特征，其特点是点状的。兵法的第二个阶段是战略期，其不仅仅涉及兵甲之事，也涉及到兵家与政治，经济，地缘，文化等多方面的关系。</p><p data-pid=\"yS9iiit-\">兵法的第三个时期是专业化的阶段。这个阶段的代表作便是孙子兵法。第四个阶段是兵法中的经验与知识向社会生活领域拓展。这个拓展过程中的关键人物（第一人）是春秋晚期的范蠡。他说到，“<b>计然之策七，越用其五而得意。既已施于国，吾欲用之家</b>”，<b>开启了从宏观的国向微观的家的转变</b>。</p><p data-pid=\"EhCLYpR5\">而这个转变的集大成者是白圭，他说到：<b>吾治生产，犹伊尹、吕尚之谋，孙吴用兵，商鞅行法是也。是故其智不足与权变，勇不足以决断，仁不能以取予，彊不能有所守，虽欲学吾术，终不告之矣</b>。（史记·货殖列传）</p><p data-pid=\"khJpTrgi\">兵法吃掉谋略，经济吃掉兵法，社会生态吃掉经济，这是古中国兵甲观念波澜壮阔的演进与扩散的过程，天生万物，天杀万物，也即历史轨迹当中的“存亡之道”。这是我们对孙子兵法中，存亡之道，不可不察的注脚。</p><p data-pid=\"DEXrml5k\">热身阶段我们暂且写这么多。 今天我们我们来聊一聊“<b>故经之以五事，校之以计，而索其情</b>”这句话。</p><p data-pid=\"GmQ_YvRK\">需要重点说明的是，我们对于孙子兵法的拆解，其中非常重要的一点是建立在古文字的基础之上的。关于古文字，感兴趣的朋友可以参考群内的——《祭器：字的哲学》里面的系列文章。</p><p data-pid=\"4fP9ED4E\">这句话里面有三个关键字，分别是<b>经，计与情</b>，一般的拆解对于这三个字不是很重视。我们先来说下这个计字。现在的语境下，计是容易让人误解的字，跟它搭在一起的也不是特别正面的词，比如说算计，心计，偏中性的一点的则有计策，计划等等。</p><p data-pid=\"buJd8xIl\">一开始我对“计”这个字也并未重视，直到看甲骨文的材料时，看到“巫”字的甲骨文字形，让我对计的理解有一种豁然开朗的感觉，巫字的甲骨文是这样的：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3f71c9e0a330e085c230711c7a055883_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1066\" data-rawheight=\"600\" data-original-token=\"v2-b856eb937812fe5782b7a62f6fb07d9a\" class=\"origin_image zh-lightbox-thumb\" width=\"1066\" data-original=\"https://picx.zhimg.com/v2-3f71c9e0a330e085c230711c7a055883_r.jpg\"/></figure><p data-pid=\"MgvpTLhD\">大家可能还是不太能理解这个“十”（经纬）字的含义，“十”字其实指向的是四个方向，为四方。后面随着原始人类活动的范围以及轨迹越来越复杂，才又形成了所谓的四面八方，在周易的符号体系里面叫做“四正卦与四偏卦”，但是核心是从四方演变而来的。</p><p data-pid=\"iue-WRLe\">我们在拆解《周易》中说过，在原始社会，<b>辨识方位是非常重要的一项技能。</b>在部落社会，无论是外出打猎还是寻找配偶，都需要认识回家的路，因而需要很好的方向感以及时间感。</p><p data-pid=\"3ZSYKPyU\">最早是从太阳作为基准的参照系开始的，人们大概发现，太阳的运动呈现出一定的规律，并且会在高大的山脉以及树木周围留下影子。</p><p data-pid=\"UMIlMtwS\">影子会随着太阳的变化而呈现出方位以及长短的变化，经过长时间的摸索，部落中有一部分人开始掌握影子出现的方位以及长短变化的规律，最早关于时间以及方位的概念就这样形成了。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4b8e8e4508a9542781301aa7f12dc83e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1069\" data-rawheight=\"600\" data-original-token=\"v2-ca984f27ad0cdbbd95d77abefcc6807c\" class=\"origin_image zh-lightbox-thumb\" width=\"1069\" data-original=\"https://pic3.zhimg.com/v2-4b8e8e4508a9542781301aa7f12dc83e_r.jpg\"/></figure><p data-pid=\"JfTrC01P\">再到后来，人们开始制造一些工具来模拟以及观测太阳照射到树木，山脉影子的方位以及长短的变化，就是在地上立一根巨大的木头，这是最早的圭表的来源，立木之地慢慢的也演变成了祭台，越发有神圣的意味。</p><p data-pid=\"s6UY9rjw\">而这种演变并未停止，圭表后来演变成了日晷，日晷一般为圆形，在圆形的外围会画一圈圆，中间立一根柱子，随着材料技术，打磨技术的演变，柱子的材质也有有所不同。</p><p data-pid=\"8lVyUgVb\">太阳照射到柱子上，就会落在在外围的圆形上面，当影子落在某处时，某处便断开了，这便是“阴爻”的起源，阳光直射的地方，线条未断开，这便是“阳爻”的起源。</p><p data-pid=\"tHHP2oaY\">经过长时间的演进，人们的认识又进一步的，开始用八卦来划分这个日晷的格局，来分别表示八个方位，<b>这样人们对于方向与时间的认识就越来越深化以及细致。对于方位以及时位，就变成了中国文化的核心密码之一。</b></p><p data-pid=\"TB4lZ2Cp\">后来就有流派了，有观测太阳的。人们发现，白天是有太阳，晚上可咋办。于是，有人就又观测研究起了星星，开始仰望星空了，这就是紫微斗术的起源了。我们把这二者称之为日者学派与月者学派。</p><p data-pid=\"WxA7rVYr\">对于方位以及时位探索的人群，他们是上古时期最早的知识分子。当然了，这是现代的说话，在圈内，这个群体叫做贞卜集团，或者说巫祝史卜。</p><p data-pid=\"-JNNbyyU\">而随着部落活动方位的扩大，对于地理方位慢慢演变成了一门专门的学问，今天叫地理或者说地缘。我们对于地缘范围最早的想象是“九州理论”（大禹建构的）或者说“十二州”理论（邹衍建构的），我们不深入说，大家知道即可。</p><p data-pid=\"YEaXB48L\">了解以上这些背景知识，我们再来看计这个字。其为左右结构，言+十。主象是十字，辅象是言。十指的是四个方位，后泛指四面八方，再到后面的地缘九州（天下）的地缘情形。</p><p data-pid=\"TCpzs4b0\">孙子兵法中非常核心的一点，其实就是围绕由这个“十”字定义出来的观念上的时间——空间来展开的，是孙武先生建构的兵法世界当中的底座。</p><p data-pid=\"4vkymCZ9\"><b>通过十字可以定位出一个中心点，基本盘或者说根据地，有了这个中心点基本盘，才不是浮萍与无根树，进而可以讨论中心点（重心）与四方的关系，对于中心与四方关系的布局与策略，便是——计</b>。</p><p data-pid=\"3niljQG_\">刘伯温所著的百战奇略的开篇是“计战”，其所列举的案例便是说诸葛丞相建议刘先主以荆州+益州为根据地，有了“根据地”内政外交才有施展的空间，所谓：</p><p data-pid=\"Y6bj8FCZ\">若跨有<b>荆、益</b>，<b>保其岩阻，西和诸戎，南抚夷越，外结好孙权，内修政理</b>；天下有变，则命一上将将荆州之军以向宛、洛，将军身帅益州之众出于秦川，百姓孰敢不箪食壶浆以迎将军者乎？诚如是，霸业可成，汉室可兴矣。（刘伯温·百战奇略）</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f31db1844dd90ced1dac0618723398d1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1065\" data-rawheight=\"598\" data-original-token=\"v2-23369f1db856776d8b18fb9f6399b8fd\" class=\"origin_image zh-lightbox-thumb\" width=\"1065\" data-original=\"https://pic2.zhimg.com/v2-f31db1844dd90ced1dac0618723398d1_r.jpg\"/></figure><p data-pid=\"7cC_eS3c\">建立根据地便是计，人生亦同样需要根据地，才能解决无根树的问题。我们把由十字建构的根据地模型称之为孙武模型，后续我们还会在这个模型上进行拓展，把其称之为孙武拓展。希望对于打击理解孙子兵法有所帮助。</p>",
+        "visited_count": 245,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1989735225996112187",
+        "created_time": 1767169845
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989735225996112187}",
+      "attached_info": "CtcHCJyrjsr/7u+EjQEQBBoJNzYzNDcyNTg3ILW+08oGKAYwAEAnSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoIODI5MTQxMjhiIDY1MjBmNWYyOGM1Zjc2M2YxOTRkODZmMTIzNDlmODgzchMxOTg5NzM1MjI1OTk2MTEyMTg3igEJNTQyODQzODAzqgEJcmVjb21tZW5kwgEgNjIzOTEzMjVlODg5ODU3YTRhNDM1YmY4NTc0MDk2ZmTyAQoIDBIGTm9ybWFs8gEoCAoSJDc5NjNlZTUxLTlhNjMtNDJkZi1iYmExLTAxY2EyNjEzYWU1MfIBBQgLEgE3ggIAiAL3uaibuTOSAiA2MjM5MTMyNWU4ODk4NTdhNGE0MzViZjg1NzQwOTZmZJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCA/oCC05PUk1BTF9GTE9XigMgZWRkNjljNWEzNDk2NDBmMDg1ZDZjNDk3YjY1Y2QzNTGaAw0KAnYyEAAaBW90aGVyqAP1AdgDAOoDH3RleHRGZWVkVHdvVG93ZXJXYXJtdXBTdWNjZXNzVjH6A9sBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQqggY0wQiI3YyLTU3ZTliYmYyNWYyZDkwZTljNmFlYzQwZGQ1OWYwNDIxOi0IAhCqCBjYBCIjdjItYjg1NmViOTM3ODEyZmU1NzgyYjdhNjJmNmZiMDdkOWE6LQgEEK0IGNgEIiN2Mi1jYTk4NGYyN2FkMGNkYmJkOTVkNzdhYmVmY2M2ODA3YzotCAIQqQgY1gQiI3YyLTIzMzY5ZjFkYjg1Njc3NmQ4YjE4ZmI5ZjYzOTliOGZkgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgcO2AP4EFAAAAAAAAAACJBeox64zKwrA/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQeQBgCgBieoBgCSAi4KCTc2MzQ3MjU4NxITMTk4OTczNTIyNTk5NjExMjE4NxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "40_1767704763.413",
+      "type": "feed",
+      "offset": 40,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704763,
+      "updated_time": 1767704763,
+      "target": {
+        "thanks_count": 0,
+        "comment_count": 0,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "id": "1991632921447121587",
+        "created_time": 1767622291,
+        "updated_time": 1767622291,
+        "is_copyable": true,
+        "question": {
+          "follower_count": 0,
+          "is_following": false,
+          "created": 1674877572,
+          "comment_count": 0,
+          "title": "小白如何快速学习 git？",
+          "answer_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/580911780",
+          "bound_topic_ids": [
+            870,
+            1354,
+            5157
+          ],
+          "question_type": "normal",
+          "id": "580911780",
+          "author": {
+            "is_org": false,
+            "is_followed": false,
+            "id": "b9840c983f4f7e7aedb10e6b0ad126fc",
+            "url": "https://api.zhihu.com/people/b9840c983f4f7e7aedb10e6b0ad126fc",
+            "avatar_url": "https://pica.zhimg.com/50/v2-30fd59dc505e7275f2d955c2169a6195_l.jpg?source=b6762063",
+            "headline": "秋天见。",
+            "gender": 0,
+            "followers_count": 276,
+            "is_following": false,
+            "user_type": "people",
+            "url_token": "qiu-sheng-23-64",
+            "name": "秋生"
+          }
+        },
+        "excerpt": "说起Git，估计很多人都有过这样的经历：刚开始接触的时候觉得简单，不就是几个命令嘛，push、pull、commit，有什么难的？结果真正用起来发现处处是坑，代码冲突、分支混乱、历史记录乱七八糟... 我记得刚工作那会儿，因为对Git理解不够深入，曾经把整个项目的提交历史搞得一团糟，最后只能重新建仓库。那次之后我就下定决心要把Git彻底搞明白。 今天就把我这几年使用Git的经验和踩过的坑全部分享出来，相信看完之后你对Git的认识…",
+        "allow_segment_interaction": true,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1991632921447121587",
+        "excerpt_new": "说起Git，估计很多人都有过这样的经历：刚开始接触的时候觉得简单，不就是几个命令嘛，push、pull、commit，有什么难的？结果真正用起来发现处处是坑，代码冲突、分支混乱、历史记录乱七八糟... 我记得刚工作那会儿，因为对Git理解不够深入，曾经把整个项目的提交历史搞得一团糟，最后只能重新建仓库。那次之后我就下定决心要把Git彻底搞明白。 今天就把我这几年使用Git的经验和踩过的坑全部分享出来，相信看完之后你对Git的认识…",
+        "preview_text": "",
+        "visited_count": 65,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "favorite_count": 3,
+        "type": "answer",
+        "author": {
+          "url_token": "dearisyou",
+          "name": "头像我女儿",
+          "is_followed": false,
+          "headline": "个人博客：www.fuzoupyy.work",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-8079941e4b19752e816a1ccbfdc95506_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 470,
+          "id": "b99b56cf7360a8a0696ccd8bdd97d83d",
+          "url": "https://api.zhihu.com/people/b99b56cf7360a8a0696ccd8bdd97d83d",
+          "user_type": "people",
+          "is_following": false
+        },
+        "voteup_count": 1,
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"q5BMWyfp\">说起Git，估计很多人都有过这样的经历：刚开始接触的时候觉得简单，不就是几个命令嘛，push、pull、commit，有什么难的？结果真正用起来发现处处是坑，代码冲突、分支混乱、历史记录乱七八糟...</p><p data-pid=\"NDAvnqK2\">我记得刚工作那会儿，因为对Git理解不够深入，曾经把整个项目的提交历史搞得一团糟，最后只能重新建仓库。那次之后我就下定决心要把Git彻底搞明白。</p><p data-pid=\"TQLNlpv3\">今天就把我这几年使用Git的经验和踩过的坑全部分享出来，相信看完之后你对Git的认识会有一个质的提升。</p><h2><b>先搞清楚Git到底是个啥</b></h2><p data-pid=\"gw7oEMwm\">很多人一上来就开始学命令，但其实理解Git的工作原理更重要。Git本质上就是一个分布式版本控制系统，它会追踪文件的每一次变化，并且可以让多个人协同工作。</p><p data-pid=\"PTkDOTfO\">想象一下你在写一份重要的文档，每次修改前你都会复制一份备份，比如&#34;方案v1.doc&#34;、&#34;方案v2.doc&#34;、&#34;方案最终版.doc&#34;、&#34;方案真的最终版.doc&#34;... 这种做法很熟悉吧？Git做的事情本质上就是这样，只不过它更智能，能够追踪每个字符的变化。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f1dc26c6f5a350fe06dceb971ba6708b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"765\" data-rawheight=\"373\" data-original-token=\"v2-151fb88aa631910fcc9387aa30850dcf\" class=\"origin_image zh-lightbox-thumb\" width=\"765\" data-original=\"https://picx.zhimg.com/v2-f1dc26c6f5a350fe06dceb971ba6708b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"EMn4Rx_4\">Git有几个重要的概念需要理解：</p><ul><li data-pid=\"JRScAsGs\">工作区：就是你能看到的文件</li><li data-pid=\"bOkPrGsP\">暂存区：临时存放待提交的修改</li><li data-pid=\"pv2U9d8z\">仓库：最终保存版本历史的地方</li></ul><p data-pid=\"RXVXQnaf\">这就像是一个生产流水线，你在工作区修改文件，然后把修改放到暂存区等待质检，最后合格的修改才会被送到仓库永久保存。</p><h2><b>基础操作，但很重要</b></h2><h3><b>配置用户信息</b></h3><p data-pid=\"bq4PdBYL\">刚安装Git后第一件事就是配置用户信息，这个步骤很多人会忽略，但非常重要：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git config --global user.name <span class=\"s2\">&#34;你的名字&#34;</span>\ngit config --global user.email <span class=\"s2\">&#34;你的邮箱&#34;</span></code></pre></div><p data-pid=\"IBmOCc8b\">这里有个小技巧，如果你在公司和个人项目中使用不同的邮箱，可以在具体项目中单独设置：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git config user.email <span class=\"s2\">&#34;work@company.com&#34;</span></code></pre></div><h3><b>初始化仓库</b></h3><p data-pid=\"U1K8ii3j\">有两种方式开始一个Git项目：</p><p data-pid=\"cNR94xWH\">方式一：从头开始</p><div class=\"highlight\"><pre><code class=\"language-bash\">mkdir my-project\n<span class=\"nb\">cd</span> my-project\ngit init</code></pre></div><p data-pid=\"Z-m85CzC\">方式二：克隆已有项目</p><div class=\"highlight\"><pre><code class=\"language-bash\">git clone https://github.com/user/repo.git</code></pre></div><p data-pid=\"XL3C4Snr\">我个人更推荐方式二，因为克隆下来的仓库已经配置好了远程仓库地址。</p><h3><b>文件状态管理</b></h3><p data-pid=\"A6aGKtfl\">Git中文件有几种状态，理解这些状态对后续操作很重要：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 查看文件状态</span>\ngit status\n​\n<span class=\"c1\"># 查看具体修改内容</span>\ngit diff\n​\n<span class=\"c1\"># 添加文件到暂存区</span>\ngit add filename\n<span class=\"c1\"># 或者添加所有修改</span>\ngit add .\n​\n<span class=\"c1\"># 提交到仓库</span>\ngit commit -m <span class=\"s2\">&#34;提交说明&#34;</span></code></pre></div><p data-pid=\"pgZHdJ0r\">这里说一个我的习惯，我很少用<code>git add .</code>，而是喜欢一个文件一个文件地添加，这样可以确保每次提交的内容都是我确实想要提交的。</p><div class=\"highlight\"><pre><code class=\"language-bash\">git add src/main.js\ngit add src/utils.js\ngit commit -m <span class=\"s2\">&#34;优化主要逻辑和工具函数&#34;</span></code></pre></div><h3><b>提交信息的艺术</b></h3><p data-pid=\"Po26HJu6\">提交信息可能是很多人最容易忽视的部分，但好的提交信息对项目维护太重要了。我见过太多这样的提交信息：</p><ul><li data-pid=\"CGsbb8Js\">&#34;修复bug&#34;</li><li data-pid=\"5fMw3wlQ\">&#34;更新&#34;</li><li data-pid=\"iNQPhZ1i\">&#34;test&#34;</li><li data-pid=\"FWtzn5Ew\">&#34;临时提交&#34;</li></ul><p data-pid=\"tTh56Ua0\">这种信息等于没有信息。我现在遵循这样的规范：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 格式：类型: 简短描述</span>\ngit commit -m <span class=\"s2\">&#34;feat: 添加用户登录功能&#34;</span>\ngit commit -m <span class=\"s2\">&#34;fix: 修复购物车计算错误&#34;</span>\ngit commit -m <span class=\"s2\">&#34;docs: 更新API文档&#34;</span>\ngit commit -m <span class=\"s2\">&#34;refactor: 重构数据库连接逻辑&#34;</span></code></pre></div><p data-pid=\"y8dCLP32\">类型包括：</p><ul><li data-pid=\"2Lo98qQ3\">feat: 新功能</li><li data-pid=\"AFJcahUE\">fix: 修复bug</li><li data-pid=\"K-QsAzuE\">docs: 文档更新</li><li data-pid=\"hRsZXdnp\">style: 代码格式调整</li><li data-pid=\"0oxoIRyK\">refactor: 重构</li><li data-pid=\"qSng2prr\">test: 测试相关</li><li data-pid=\"HjbXTQrG\">chore: 构建工具、依赖更新等</li></ul><h2><b>分支管理，这是重点</b></h2><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0a07e64f695a12729eb40c9c5d671adf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1011\" data-rawheight=\"478\" data-original-token=\"v2-c6fdba8ba370b3f549d7863daa5ad0bc\" class=\"origin_image zh-lightbox-thumb\" width=\"1011\" data-original=\"https://pic2.zhimg.com/v2-0a07e64f695a12729eb40c9c5d671adf_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6yRucqNQ\">分支是Git最强大的功能之一，但也是最容易出问题的地方。</p><h3><b>基本分支操作</b></h3><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 查看所有分支</span>\ngit branch -a\n​\n<span class=\"c1\"># 创建新分支</span>\ngit branch feature/user-login\n​\n<span class=\"c1\"># 切换分支</span>\ngit checkout feature/user-login\n​\n<span class=\"c1\"># 创建并切换到新分支（推荐）</span>\ngit checkout -b feature/user-login\n​\n<span class=\"c1\"># 新版本Git可以用switch</span>\ngit switch -c feature/user-login</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-45d0ea0f6765584d10adbdfef647f7cf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"619\" data-rawheight=\"201\" data-original-token=\"v2-4c3db779502897f4d6778a5fd5f1fd32\" class=\"origin_image zh-lightbox-thumb\" width=\"619\" data-original=\"https://picx.zhimg.com/v2-45d0ea0f6765584d10adbdfef647f7cf_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uP75q1J-\">我现在基本上都用<code>git checkout -b</code>，一步到位。</p><h3><b>分支策略</b></h3><p data-pid=\"UAMhu403\">在实际项目中，分支策略非常重要。我们公司现在用的是Git Flow的简化版本：</p><ul><li data-pid=\"LQLWsUnW\"><code>main</code>：主分支，只放稳定代码</li><li data-pid=\"dyIKNCt2\"><code>develop</code>：开发分支，日常开发的基础</li><li data-pid=\"ebvXJ9Iw\"><code>feature/*</code>：功能分支，开发新功能时使用</li><li data-pid=\"vgvc4CPH\"><code>hotfix/*</code>：紧急修复分支</li></ul><p data-pid=\"xZg2PokZ\">举个例子，假如我要开发一个用户注册功能：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 从develop分支创建功能分支</span>\ngit checkout develop\ngit pull origin develop\ngit checkout -b feature/user-register\n\n<span class=\"c1\"># 开发完成后</span>\ngit add .\ngit commit -m <span class=\"s2\">&#34;feat: 实现用户注册功能&#34;</span>\ngit push origin feature/user-register</code></pre></div><p data-pid=\"82A5pjqM\">然后在GitHub或GitLab上创建Pull Request，代码审查通过后再合并到develop分支。</p><h3><b>分支合并</b></h3><p data-pid=\"V15lV3N0\">合并分支有几种方式，每种都有自己的使用场景：</p><ol><li data-pid=\"3xtLB7kV\"><b>Fast-forward合并</b>（默认）</li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git checkout main\ngit merge feature/user-login</code></pre></div><ol><li data-pid=\"wATOEjhI\"><b>No-fast-forward合并</b>（保留分支历史）</li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git merge --no-ff feature/user-login</code></pre></div><ol><li data-pid=\"bF4uH9tk\"><b>Squash合并</b>（压缩提交）</li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git merge --squash feature/user-login</code></pre></div><p data-pid=\"acgO2OOA\">我个人比较喜欢用<code>--no-ff</code>，因为能清楚看到功能分支的开发历史，对追溯问题很有帮助。</p><h2><b>远程仓库操作</b></h2><h3><b>基本远程操作</b></h3><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 查看远程仓库</span>\ngit remote -v\n\n<span class=\"c1\"># 添加远程仓库</span>\ngit remote add origin https://github.com/user/repo.git\n\n<span class=\"c1\"># 推送到远程</span>\ngit push origin main\n\n<span class=\"c1\"># 从远程拉取</span>\ngit pull origin main\n\n<span class=\"c1\"># 获取远程更新但不合并</span>\ngit fetch origin</code></pre></div><p data-pid=\"ZEJBUqGf\">这里有个坑需要注意，<code>git pull</code>实际上等于<code>git fetch</code> + <code>git merge</code>，如果你不想自动合并，建议分开执行：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git fetch origin\ngit diff HEAD origin/main  <span class=\"c1\"># 查看差异</span>\ngit merge origin/main      <span class=\"c1\"># 确认后再合并</span></code></pre></div><h3><b>处理推送冲突</b></h3><p data-pid=\"bgDwfFG0\">经常会遇到这种情况，你想推送代码时提示：</p><div class=\"highlight\"><pre><code class=\"language-text\">! [rejected] main -&gt; main (fetch first)</code></pre></div><p data-pid=\"7DFeiNik\">这时候不要直接<code>git push --force</code>！正确的做法是：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git fetch origin\ngit rebase origin/main\n<span class=\"c1\"># 解决冲突后</span>\ngit push origin main</code></pre></div><p data-pid=\"qDuxAqsb\">或者如果你更喜欢merge：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git pull origin main\n<span class=\"c1\"># 解决冲突后</span>\ngit push origin main</code></pre></div><h2><b>冲突解决，没那么可怕</b></h2><p data-pid=\"TNVgTEmP\">代码冲突是多人协作时必然会遇到的问题，刚开始可能会觉得很复杂，其实掌握了套路就不难。</p><h3><b>识别冲突</b></h3><p data-pid=\"bpDyW-zd\">当Git无法自动合并时，会在文件中插入冲突标记：</p><div class=\"highlight\"><pre><code class=\"language-text\">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD\n你的修改\n=======\n别人的修改\n&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch-name</code></pre></div><p data-pid=\"Y-NP8V45\">这些标记把冲突的内容分成了两部分：</p><ul><li data-pid=\"nOAktzRz\"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</code> 到 <code>=======</code>：你的修改</li><li data-pid=\"RuBjaRTy\"><code>=======</code> 到 <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt; branch-name</code>：别人的修改</li></ul><h3><b>解决冲突</b></h3><p data-pid=\"7-bLhVN4\">解决冲突的步骤：</p><ol><li data-pid=\"l2rSdQJ3\">找到所有冲突文件：<code>git status</code></li><li data-pid=\"L3Ridx-d\">打开冲突文件，手动编辑</li><li data-pid=\"bv9T9eTo\">删除冲突标记（<code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code>=======</code>, <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>）</li><li data-pid=\"X6rjWXV1\">保留你想要的内容</li><li data-pid=\"A0NIyL5t\">添加到暂存区：<code>git add filename</code></li><li data-pid=\"DyC-ZQn3\">提交：<code>git commit</code></li></ol><p data-pid=\"ITt1DwQR\">举个实际例子，假设在配置文件中发生冲突：</p><div class=\"highlight\"><pre><code class=\"language-js\"><span class=\"c1\">// 冲突前\n</span><span class=\"c1\"></span><span class=\"o\">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span> <span class=\"nx\">HEAD</span>\n<span class=\"kr\">const</span> <span class=\"nx\">API_URL</span> <span class=\"o\">=</span> <span class=\"s1\">&#39;https://api.prod.com&#39;</span><span class=\"p\">;</span>\n<span class=\"o\">=======</span>\n<span class=\"kr\">const</span> <span class=\"nx\">API_URL</span> <span class=\"o\">=</span> <span class=\"s1\">&#39;https://api.test.com&#39;</span><span class=\"p\">;</span>\n<span class=\"o\">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span> <span class=\"nx\">feature</span><span class=\"o\">/</span><span class=\"k\">new</span><span class=\"o\">-</span><span class=\"nx\">api</span>\n</code></pre></div><p data-pid=\"t_mtPmLF\">解决后：</p><div class=\"highlight\"><pre><code class=\"language-js\"><span class=\"c1\">// 解决后\n</span><span class=\"c1\"></span><span class=\"kr\">const</span> <span class=\"nx\">API_URL</span> <span class=\"o\">=</span> <span class=\"nx\">process</span><span class=\"p\">.</span><span class=\"nx\">env</span><span class=\"p\">.</span><span class=\"nx\">NODE_ENV</span> <span class=\"o\">===</span> <span class=\"s1\">&#39;production&#39;</span> \n  <span class=\"o\">?</span> <span class=\"s1\">&#39;https://api.prod.com&#39;</span> \n  <span class=\"o\">:</span> <span class=\"s1\">&#39;https://api.test.com&#39;</span><span class=\"p\">;</span>\n</code></pre></div><p data-pid=\"gfE0NzrD\">这样既保留了两个版本的内容，又避免了环境问题。</p><h3><b>使用工具解决冲突</b></h3><p data-pid=\"-gP7oe-5\">命令行解决冲突有时候不够直观，可以配置图形化工具：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 配置merge工具（以VSCode为例）</span>\ngit config --global merge.tool vscode\ngit config --global mergetool.vscode.cmd <span class=\"s1\">&#39;code --wait $MERGED&#39;</span>\n\n<span class=\"c1\"># 使用工具解决冲突</span>\ngit mergetool</code></pre></div><p data-pid=\"woIF4Omb\">我个人更喜欢直接在编辑器中解决，VSCode对Git冲突的支持就很好。</p><h2><b>版本回退与历史管理</b></h2><h3><b>查看提交历史</b></h3><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 查看提交历史</span>\ngit log\n\n<span class=\"c1\"># 简洁格式</span>\ngit log --oneline\n\n<span class=\"c1\"># 图形化显示分支</span>\ngit log --graph --pretty<span class=\"o\">=</span>format:<span class=\"s1\">&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39;</span>\n\n<span class=\"c1\"># 查看某个文件的历史</span>\ngit log -p filename</code></pre></div><p data-pid=\"FdORFvZF\">最后那个命令有点长，但显示效果很好，我把它设置成了别名：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git config --global alias.lg <span class=\"s2\">&#34;log --graph --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset&#39;&#34;</span></code></pre></div><p data-pid=\"eTNg55tH\">之后就可以用<code>git lg</code>来查看美观的历史记录了。</p><h3><b>版本回退</b></h3><p data-pid=\"dY3nvWkD\">有时候需要回退到之前的版本，Git提供了几种方式：</p><ol><li data-pid=\"15Xqq6FQ\"><b>回退到上一个提交</b></li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git reset --hard HEAD~1</code></pre></div><ol><li data-pid=\"2j5RryGd\"><b>回退到指定提交</b></li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git reset --hard commit-hash</code></pre></div><ol><li data-pid=\"XmSVDIgd\"><b>只回退代码，保留提交历史</b></li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git revert commit-hash</code></pre></div><p data-pid=\"k2ZL18ej\"><code>reset</code>和<code>revert</code>的区别很重要：</p><ul><li data-pid=\"ycv_7I81\"><code>reset</code>：直接回退，历史记录会丢失</li><li data-pid=\"Xrttnz5J\"><code>revert</code>：创建一个新提交来撤销之前的修改，历史记录保留</li></ul><p data-pid=\"5KwUoqht\">在团队项目中，如果代码已经推送到远程，建议使用<code>revert</code>，避免影响其他人的代码。</p><h3><b>修改提交信息</b></h3><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 修改最后一次提交信息</span>\ngit commit --amend -m <span class=\"s2\">&#34;新的提交信息&#34;</span>\n\n<span class=\"c1\"># 修改最后一次提交内容（添加遗漏的文件）</span>\ngit add forgotten-file.txt\ngit commit --amend --no-edit</code></pre></div><p data-pid=\"FIU2KFVi\">如果要修改更早的提交，需要用到<code>rebase</code>，这个稍微复杂一些：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git rebase -i HEAD~3  <span class=\"c1\"># 修改最近3次提交</span></code></pre></div><h2><b>实用技巧和最佳实践</b></h2><h3><b>使用.gitignore</b></h3><p data-pid=\"9TsY0t9L\"><code>.gitignore</code>文件用来告诉Git忽略某些文件或目录，这些通常是：</p><ul><li data-pid=\"pElOvxqS\">编译产物（如<code>dist/</code>, <code>build/</code>）</li><li data-pid=\"NaculpK6\">依赖包（如<code>node_modules/</code>）</li><li data-pid=\"NejkWFEb\">配置文件（如<code>.env</code>）</li><li data-pid=\"2AOc-kBn\">系统文件（如<code>.DS_Store</code>）</li></ul><div class=\"highlight\"><pre><code class=\"language-text\"># 依赖包\nnode_modules/\nvendor/\n\n# 构建产物\ndist/\nbuild/\n*.min.js\n\n# 配置文件\n.env\n.env.local\nconfig/database.yml\n\n# 日志文件\n*.log\nlogs/\n\n# 系统文件\n.DS_Store\nThumbs.db\n\n# IDE文件\n.vscode/\n.idea/\n*.swp</code></pre></div><p data-pid=\"j6HAJ74x\">有个网站<a href=\"https://link.zhihu.com/?target=https%3A//gitignore.io/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://gitignore.io</a>很好用，可以根据你的技术栈自动生成<code>.gitignore</code>文件。</p><h3><b>Git别名配置</b></h3><p data-pid=\"HhMzSYxT\">设置一些常用的别名可以大大提高效率：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git config --global alias.co checkout\ngit config --global alias.br branch\ngit config --global alias.ci commit\ngit config --global alias.st status\ngit config --global alias.unstage <span class=\"s1\">&#39;reset HEAD --&#39;</span>\ngit config --global alias.last <span class=\"s1\">&#39;log -1 HEAD&#39;</span>\ngit config --global alias.visual <span class=\"s1\">&#39;!gitk&#39;</span></code></pre></div><p data-pid=\"XJ_WqRrp\">我最常用的几个别名：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git config --global alias.ac <span class=\"s1\">&#39;!git add -A &amp;&amp; git commit -m&#39;</span>\ngit config --global alias.acp <span class=\"s1\">&#39;!git add -A &amp;&amp; git commit -m &#34;$1&#34; &amp;&amp; git push&#39;</span></code></pre></div><p data-pid=\"g84cQGAM\">这样就可以用<code>git ac &#34;提交信息&#34;</code>来快速添加并提交所有文件。</p><h3><b>暂存工作进度</b></h3><p data-pid=\"37qXpPzC\">有时候工作做到一半需要切换分支处理其他事情，但代码还没到可以提交的状态，这时候可以用<code>stash</code>：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 暂存当前工作</span>\ngit stash\n\n<span class=\"c1\"># 暂存时添加说明</span>\ngit stash save <span class=\"s2\">&#34;正在开发登录功能&#34;</span>\n\n<span class=\"c1\"># 查看所有暂存</span>\ngit stash list\n\n<span class=\"c1\"># 恢复最近的暂存</span>\ngit stash pop\n\n<span class=\"c1\"># 恢复指定暂存</span>\ngit stash apply stash@<span class=\"o\">{</span>1<span class=\"o\">}</span>\n\n<span class=\"c1\"># 删除暂存</span>\ngit stash drop stash@<span class=\"o\">{</span>0<span class=\"o\">}</span></code></pre></div><p data-pid=\"NlM10Ppz\">我经常用这个功能，特别是当PM突然说有个紧急bug需要修复的时候。</p><h3><b>标签管理</b></h3><p data-pid=\"JJgc5hGv\">标签通常用来标记重要的版本：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 创建轻量标签</span>\ngit tag v1.0.0\n\n<span class=\"c1\"># 创建带注释的标签</span>\ngit tag -a v1.0.0 -m <span class=\"s2\">&#34;发布版本1.0.0&#34;</span>\n\n<span class=\"c1\"># 查看所有标签</span>\ngit tag\n\n<span class=\"c1\"># 查看标签信息</span>\ngit show v1.0.0\n\n<span class=\"c1\"># 推送标签到远程</span>\ngit push origin v1.0.0\n\n<span class=\"c1\"># 推送所有标签</span>\ngit push origin --tags\n\n<span class=\"c1\"># 删除标签</span>\ngit tag -d v1.0.0\ngit push origin :refs/tags/v1.0.0</code></pre></div><h3><b>子模块使用</b></h3><p data-pid=\"Nh0DNJRL\">当项目依赖其他Git仓库时，可以使用子模块：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 添加子模块</span>\ngit submodule add https://github.com/user/library.git libs/library\n\n<span class=\"c1\"># 克隆包含子模块的项目</span>\ngit clone --recurse-submodules https://github.com/user/main-project.git\n\n<span class=\"c1\"># 初始化子模块</span>\ngit submodule init\ngit submodule update\n\n<span class=\"c1\"># 或者一步到位</span>\ngit submodule update --init --recursive</code></pre></div><p data-pid=\"TPPdaNNE\">不过说实话，子模块用起来比较麻烦，现在更多项目选择用包管理器（如npm、composer）来管理依赖。</p><h2><b>团队协作中的Git工作流</b></h2><p data-pid=\"pQFwQNXX\">在团队开发中，Git工作流的规范性非常重要。我们团队总结了一套比较实用的流程：</p><h3><b>Feature分支工作流</b></h3><ol><li data-pid=\"HGTlFcYQ\"><b>开始新功能开发</b></li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git checkout develop\ngit pull origin develop\ngit checkout -b feature/user-avatar-upload</code></pre></div><ol><li data-pid=\"GvcDkXKK\"><b>开发过程中定期同步</b></li></ol><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 每天开始工作前</span>\ngit checkout develop\ngit pull origin develop\ngit checkout feature/user-avatar-upload\ngit rebase develop  <span class=\"c1\"># 保持分支基于最新的develop</span></code></pre></div><ol><li data-pid=\"fd_qSbGU\"><b>功能完成后</b></li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git add .\ngit commit -m <span class=\"s2\">&#34;feat: 实现用户头像上传功能&#34;</span>\ngit push origin feature/user-avatar-upload\n<span class=\"c1\"># 然后在GitLab/GitHub上创建Merge Request</span></code></pre></div><ol><li data-pid=\"5JhK_HQi\"><b>代码审查通过后合并</b></li></ol><div class=\"highlight\"><pre><code class=\"language-bash\">git checkout develop\ngit pull origin develop\ngit merge --no-ff feature/user-avatar-upload\ngit push origin develop\ngit branch -d feature/user-avatar-upload  <span class=\"c1\"># 删除本地分支</span>\ngit push origin --delete feature/user-avatar-upload  <span class=\"c1\"># 删除远程分支</span></code></pre></div><h3><b>紧急修复流程</b></h3><p data-pid=\"ywzahMMm\">当生产环境出现紧急bug时：</p><div class=\"highlight\"><pre><code class=\"language-bash\">git checkout main\ngit pull origin main\ngit checkout -b hotfix/login-error-fix\n\n<span class=\"c1\"># 修复bug</span>\ngit add .\ngit commit -m <span class=\"s2\">&#34;fix: 修复登录页面验证错误&#34;</span>\ngit push origin hotfix/login-error-fix\n\n<span class=\"c1\"># 创建PR，审查通过后合并到main和develop</span></code></pre></div><h2><b>常见问题和解决方案</b></h2><h3><b>忘记切换分支就开始开发了</b></h3><p data-pid=\"PpdyOX0-\">这种情况经常发生，在main分支上开发了半天才发现：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 暂存当前修改</span>\ngit stash\n\n<span class=\"c1\"># 创建新分支</span>\ngit checkout -b feature/correct-branch\n\n<span class=\"c1\"># 恢复修改</span>\ngit stash pop</code></pre></div><h3><b>推送时提示需要合并</b></h3><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 错误信息：Updates were rejected because the remote contains work</span>\ngit pull origin main\n<span class=\"c1\"># 解决冲突后</span>\ngit push origin main</code></pre></div><h3><b>不小心删除了文件</b></h3><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 恢复单个文件</span>\ngit checkout HEAD -- filename\n\n<span class=\"c1\"># 恢复所有文件到最后一次提交状态</span>\ngit reset --hard HEAD</code></pre></div><h3><b>提交到了错误的分支</b></h3><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 撤销最后一次提交，但保留修改</span>\ngit reset --soft HEAD~1\n\n<span class=\"c1\"># 切换到正确分支</span>\ngit checkout correct-branch\n\n<span class=\"c1\"># 重新提交</span>\ngit add .\ngit commit -m <span class=\"s2\">&#34;正确的提交信息&#34;</span></code></pre></div><h2><b>性能优化和高级技巧</b></h2><h3><b>大文件处理</b></h3><p data-pid=\"IynGVIbI\">Git不适合存储大文件，但有时候无法避免：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 使用Git LFS处理大文件</span>\ngit lfs track <span class=\"s2\">&#34;*.psd&#34;</span>\ngit lfs track <span class=\"s2\">&#34;*.zip&#34;</span>\ngit add .gitattributes</code></pre></div><h3><b>仓库清理</b></h3><p data-pid=\"ExEGm29s\">长期使用的仓库可能会变得很大：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 清理不必要的文件</span>\ngit gc --prune<span class=\"o\">=</span>now --aggressive\n\n<span class=\"c1\"># 查看仓库大小</span>\ngit count-objects -vH</code></pre></div><h3><b>别名和脚本</b></h3><p data-pid=\"f-nAUx7r\">我在<code>~/.bashrc</code>中定义了一些有用的函数：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 快速切换到项目并拉取最新代码</span>\n<span class=\"k\">function</span> gcd<span class=\"o\">()</span> <span class=\"o\">{</span>\n    <span class=\"nb\">cd</span> ~/projects/<span class=\"nv\">$1</span> <span class=\"o\">&amp;&amp;</span> git pull origin <span class=\"k\">$(</span>git branch --show-current<span class=\"k\">)</span>\n<span class=\"o\">}</span>\n\n<span class=\"c1\"># 快速创建功能分支</span>\n<span class=\"k\">function</span> gnb<span class=\"o\">()</span> <span class=\"o\">{</span>\n    git checkout develop\n    git pull origin develop\n    git checkout -b feature/<span class=\"nv\">$1</span>\n<span class=\"o\">}</span></code></pre></div><p data-pid=\"-h4O3Z4y\">公众号：运维躬行录</p><p data-pid=\"uIulMwty\">个人博客：<a href=\"https://link.zhihu.com/?target=https%3A//www.fuzhoupyy.work/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">躬行笔记</a></p>",
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991632921447121587}",
+      "attached_info": "CvgGCJyrjsr/7u+EjQEQBBoJNzY0MTYxMDEzIJON78oGKAEwAEAoSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIOTEzNzMzNDdiIDY1MjBmNWYyOGM1Zjc2M2YxOTRkODZmMTIzNDlmODgzchMxOTkxNjMyOTIxNDQ3MTIxNTg3igEJNTgwOTExNzgwqgEJcmVjb21tZW5kwgEgYjk5YjU2Y2Y3MzYwYThhMDY5NmNjZDhiZGQ5N2Q4M2TyAQoIDBIGTm9ybWFs8gEoCAoSJDM4YWYyNzQ4LWI5ZTUtNGQxZS05Mzk2LWM2MzA3M2FhYWJhNvIBBQgLEgE3ggIAiAL3uaibuTOSAiBiOTliNTZjZjczNjBhOGEwNjk2Y2NkOGJkZDk3ZDgzZJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDLoAgL6AgtOT1JNQUxfRkxPV4oDIGVkZDY5YzVhMzQ5NjQwZjA4NWQ2YzQ5N2I2NWNkMzUxmgMNCgJ2MhAAGgVvdGhlcqgDQdgDAOoDH3dhcm11cFR3b1Rvd2VyVGV4dEJvb3N0UmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQ/QUY9QIiI3YyLTE1MWZiODhhYTYzMTkxMGZjYzkzODdhYTMwODUwZGNmOi0IAxDzBxjeAyIjdjItYzZmZGJhOGJhMzcwYjNmNTQ5ZDc4NjNkYWE1YWQwYmM6LQgCEOsEGMkBIiN2Mi00YzNkYjc3OTUwMjg5N2Y0ZDY3NzhhNWZkNWYxZmQzMoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4HG3cz+BBQAAAAAAAAAAiQXqMeuMysKwP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUHkAYAoAYoqAYBkgIuCgk3NjQxNjEwMTMSEzE5OTE2MzI5MjE0NDcxMjE1ODcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "41_1767704763.594",
+      "type": "feed",
+      "offset": 41,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704763,
+      "updated_time": 1767704763,
+      "target": {
+        "voteup_count": 3620,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1921261685408272687",
+        "is_copyable": true,
+        "preview_type": "default",
+        "favorite_count": 307,
+        "vote_next_step": "vote",
+        "thanks_count": 80,
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "segment_infos": [
+          {
+            "pid": "XXEzCULF",
+            "text": "公司有个卷王，清华理工男，专业能力已经很硬了，竟然还特别会来事，一边疯狂加班，一边嘻嘻哈哈跟所有人都处得很好，没得说，方方面面一百分，六边形战士。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 73,
+                "seg_info": {
+                  "seg_ids": [
+                    "1922371491628061918"
+                  ],
+                  "is_like": false,
+                  "like_count": 40,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "excerpt_new": "公司有个卷王，清华理工男，专业能力已经很硬了，竟然还特别会来事，一边疯狂加班，一边嘻嘻哈哈跟所有人都处得很好，没得说，方方面面一百分，六边形战士。 结果也只是落了一个不降薪。 是的，我们都降了。 所以为什么不想卷呢，因为卷成那样，也只是不降而已。",
+        "preview_text": "",
+        "author": {
+          "is_followed": false,
+          "url_token": "penny-10-50-87",
+          "name": "潘小花",
+          "headline": "一本正经，胡说八道",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 177,
+          "id": "ee7c6759838b5acc63df19ebddfe73de",
+          "url": "https://api.zhihu.com/people/ee7c6759838b5acc63df19ebddfe73de",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-089c593178a0bbf1168dcdb4c9437579_l.jpg?source=b6762063",
+          "is_following": false
+        },
+        "updated_time": 1750844481,
+        "content": "<p data-pid=\"XXEzCULF\">公司有个卷王，清华理工男，专业能力已经很硬了，竟然还特别会来事，一边疯狂加班，一边嘻嘻哈哈跟所有人都处得很好，没得说，方方面面一百分，六边形战士。</p><p data-pid=\"vSeEjs9Z\">结果也只是落了一个不降薪。</p><p data-pid=\"XJB0o41F\">是的，我们都降了。</p><p data-pid=\"RW9vgt-Q\">所以为什么不想卷呢，因为卷成那样，也只是不降而已。</p><p></p>",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "created_time": 1750844481,
+        "comment_count": 148,
+        "visited_count": 202105,
+        "question": {
+          "url": "https://api.zhihu.com/questions/582474037",
+          "comment_count": 47,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "url": "https://api.zhihu.com/people/1a82d6afbf244d3695a456cbc5c59eeb",
+            "user_type": "people",
+            "url_token": "ai-shang-xia-tian-29",
+            "name": "橘子汽水是夏天",
+            "avatar_url": "https://pica.zhimg.com/50/v2-0d2cf4015481759a83c959c9371381bd_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_followed": false,
+            "id": "1a82d6afbf244d3695a456cbc5c59eeb",
+            "headline": "",
+            "is_org": false,
+            "followers_count": 1,
+            "is_following": false
+          },
+          "bound_topic_ids": [
+            12384,
+            12706,
+            132174,
+            168785,
+            1361811
+          ],
+          "question_type": "normal",
+          "type": "question",
+          "title": "为什么现在的年轻人都不想卷了？",
+          "follower_count": 0,
+          "is_following": false,
+          "detail": "",
+          "id": "582474037",
+          "created": 1675668798,
+          "answer_count": 0
+        },
+        "id": "1921261685408272687",
+        "excerpt": "公司有个卷王，清华理工男，专业能力已经很硬了，竟然还特别会来事，一边疯狂加班，一边嘻嘻哈哈跟所有人都处得很好，没得说，方方面面一百分，六边形战士。 结果也只是落了一个不降薪。 是的，我们都降了。 所以为什么不想卷呢，因为卷成那样，也只是不降而已。",
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1921261685408272687}",
+      "attached_info": "CuQFCJyrjsr/7u+EjQEQBBoJNzMzOTc0NTUwIMGI78IGKKQcMJQBQClKRQogVFNfU09VUkNFX1NPQ0lBTF9GT0xMT1dfTkVBUkxJTkUSG25lYXJsaW5lQ29udGVudFYyOjE1MjQwMjQzNBgAIAA6AFoIOTE3MTk5MzNiIDY1MjBmNWYyOGM1Zjc2M2YxOTRkODZmMTIzNDlmODgzchMxOTIxMjYxNjg1NDA4MjcyNjg3igEJNTgyNDc0MDM3qgEJcmVjb21tZW5kwgEgZWU3YzY3NTk4MzhiNWFjYzYzZGYxOWViZGRmZTczZGXyAQoIDBIGTm9ybWFs8gEoCAoSJGQ5ZjI4YjcwLTVmMGItNGIxOC04YmFmLTk4NWYwZjE5NjczY/IBBQgLEgE3ggIAiAL3uaibuTOSAiBlZTdjNjc1OTgzOGI1YWNjNjNkZjE5ZWJkZGZlNzNkZZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIgVFNfU09VUkNFX1NPQ0lBTF9GT0xMT1dfTkVBUkxJTkXoAgL6AgtOT1JNQUxfRkxPV4oDIGVkZDY5YzVhMzQ5NjQwZjA4NWQ2YzQ5N2I2NWNkMzUxmgMNCgJ2MhAAGgVvdGhlcqgD+aoM2AMA6gMWZm9sbG93ZWROZWFyTGluZVJlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTU3yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgZo6TP4EFAAAAAAAAAACJBeox64zKwrA/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQeQBgCgBimoBgCSAi4KCTczMzk3NDU1MBITMTkyMTI2MTY4NTQwODI3MjY4NxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=41&desktop=true&end_offset=41&page_number=8&session_token=6520f5f28c5f763f194d86f12349f883",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=41&desktop=true&end_offset=41&page_number=8&session_token=6520f5f28c5f763f194d86f12349f883",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

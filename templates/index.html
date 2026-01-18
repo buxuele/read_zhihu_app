@@ -1,21 +1,31 @@
 {% extends "base.html" %} {% block title %}个人内容推荐 - {{ super() }}{%
 endblock %} {% block page_title %}{% endblock %} {% block content %}
-<!-- 状态信息区域 -->
-{% if message %}
-<div class="status-message mb-4">{{ message }}</div>
-{% endif %}
-
 <!-- 顶部控制栏 -->
 <div
-  class="d-flex justify-content-between align-items-center mb-1 top-control-bar"
+  class="d-flex justify-content-between align-items-center mb-3 top-control-bar"
 >
   <div class="pool-stats-inline">
-    {% if remaining_count is defined %} 剩余 {{ remaining_count }} 篇 {% endif
+    {% if pagination %} 第 {{ pagination.current_page }} 页，共 {{
+    pagination.total_pages }} 页 (总计 {{ pagination.total_items }} 篇) {% endif
     %}
   </div>
-  <a href="{{ url_for('index') }}" class="btn btn-primary btn-refresh">
-    再来10个
-  </a>
+  <div>
+    {% if pagination and pagination.has_prev %}
+    <a
+      href="{{ url_for('index', page=pagination.prev_page) }}"
+      class="btn btn-outline-secondary btn-sm me-2"
+    >
+      上一页
+    </a>
+    {% endif %} {% if pagination and pagination.has_next %}
+    <a
+      href="{{ url_for('index', page=pagination.next_page) }}"
+      class="btn btn-outline-secondary btn-sm"
+    >
+      下一页
+    </a>
+    {% endif %}
+  </div>
 </div>
 
 <!-- 推荐内容区域 -->
@@ -38,32 +48,40 @@ endblock %} {% block page_title %}{% endblock %} {% block content %}
         <span class="badge bg-secondary ms-2">{{ item_data.type }}</span>
         {% endif %}
       </a>
+      <span
+        class="text-muted ms-3"
+        style="font-size: 0.9em; font-weight: normal"
+      >
+        作者: {{ item_data.author or '未知作者' }}
+      </span>
     </h3>
+    {% if item_data.excerpt %}
+    <p
+      class="card-text text-secondary mb-2"
+      style="font-size: 0.95em; line-height: 1.4"
+    >
+      {{ item_data.excerpt }}
+    </p>
+    {% endif %}
     <p class="card-text text-muted small mb-0 d-flex align-items-center">
       <span><strong>{{ item_data.upvotes }}</strong> 赞</span>
       <span class="ms-4"
         >发布时间: {{ item_data.created | timestamp_to_datetime_str }}</span
       >
 
-      <!-- 评分UI -->
-      <span class="ms-4">
-        <strong>评分:</strong>
-        <input
-          type="number"
-          class="form-control form-control-sm d-inline-block score-input"
-          style="width: 80px"
-          min="0"
-          max="10"
-          step="1"
-          value="{{ item_data.score }}"
+      <!-- 收藏按钮 -->
+      <span class="ms-auto">
+        <button 
+          class="btn btn-sm favorite-btn {% if item_data.is_favorited %}btn-warning{% else %}btn-outline-secondary{% endif %}"
           data-url="{{ item_data.url }}"
-          data-title="{{ item_data.title }}"
-        />
-        <span
-          class="ms-2 score-status"
-          style="color: green; font-weight: bold; visibility: hidden"
-          >✓ 已保存</span
+          onclick="toggleFavorite(this)"
         >
+          {% if item_data.is_favorited %}
+            已收藏
+          {% else %}
+            收藏
+          {% endif %}
+        </button>
       </span>
     </p>
   </div>
@@ -75,57 +93,145 @@ endblock %} {% block page_title %}{% endblock %} {% block content %}
 </div>
 {% endif %}
 
-<!-- 底部刷新按钮 -->
-{% if recommendations %}
-<div class="text-center mt-4">
-  <a href="{{ url_for('index') }}" class="btn btn-outline-primary">
-    再来一批
-  </a>
+<!-- 分页导航 -->
+{% if pagination and pagination.total_pages > 1 %}
+<nav aria-label="分页导航" class="mt-4">
+  <ul class="pagination justify-content-center">
+    <!-- 上一页 -->
+    {% if pagination.has_prev %}
+    <li class="page-item">
+      <a
+        class="page-link"
+        href="{{ url_for('index', page=pagination.prev_page) }}"
+        >上一页</a
+      >
+    </li>
+    {% else %}
+    <li class="page-item disabled">
+      <span class="page-link">上一页</span>
+    </li>
+    {% endif %}
+
+    <!-- 页码按钮 -->
+    {% set start_page = [1, pagination.current_page - 2] | max %} {% set
+    end_page = [pagination.total_pages, pagination.current_page + 2] | min %}
+
+    <!-- 第一页 -->
+    {% if start_page > 1 %}
+    <li class="page-item">
+      <a class="page-link" href="{{ url_for('index', page=1) }}">1</a>
+    </li>
+    {% if start_page > 2 %}
+    <li class="page-item disabled">
+      <span class="page-link">...</span>
+    </li>
+    {% endif %} {% endif %}
+
+    <!-- 中间页码 -->
+    {% for page_num in range(start_page, end_page + 1) %} {% if page_num ==
+    pagination.current_page %}
+    <li class="page-item active">
+      <span class="page-link">{{ page_num }}</span>
+    </li>
+    {% else %}
+    <li class="page-item">
+      <a class="page-link" href="{{ url_for('index', page=page_num) }}"
+        >{{ page_num }}</a
+      >
+    </li>
+    {% endif %} {% endfor %}
+
+    <!-- 最后一页 -->
+    {% if end_page < pagination.total_pages %} {% if end_page <
+    pagination.total_pages - 1 %}
+    <li class="page-item disabled">
+      <span class="page-link">...</span>
+    </li>
+    {% endif %}
+    <li class="page-item">
+      <a
+        class="page-link"
+        href="{{ url_for('index', page=pagination.total_pages) }}"
+        >{{ pagination.total_pages }}</a
+      >
+    </li>
+    {% endif %}
+
+    <!-- 下一页 -->
+    {% if pagination.has_next %}
+    <li class="page-item">
+      <a
+        class="page-link"
+        href="{{ url_for('index', page=pagination.next_page) }}"
+        >下一页</a
+      >
+    </li>
+    {% else %}
+    <li class="page-item disabled">
+      <span class="page-link">下一页</span>
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+
+<!-- 快速跳转 -->
+<div class="text-center mt-3">
+  <form
+    method="GET"
+    action="{{ url_for('index') }}"
+    class="d-inline-flex align-items-center"
+  >
+    <label for="page-jump" class="form-label me-2 mb-0">跳转到:</label>
+    <input
+      type="number"
+      id="page-jump"
+      name="page"
+      class="form-control form-control-sm me-2"
+      style="width: 80px"
+      min="1"
+      max="{{ pagination.total_pages }}"
+      value="{{ pagination.current_page }}"
+    />
+    <button type="submit" class="btn btn-outline-primary btn-sm">跳转</button>
+  </form>
 </div>
-{% endif %} {% endblock %} {% block extra_js %}
+{% endif %}
+{% endblock %} 
+
+{% block extra_js %}
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const scoreInputs = document.querySelectorAll(".score-input");
-
-    scoreInputs.forEach((input) => {
-      input.addEventListener("change", function () {
-        const url = this.dataset.url;
-        const title = this.dataset.title;
-        const score = this.value;
-        const statusSpan = this.nextElementSibling;
-
-        const postData = {
-          url: url,
-          title: title,
-          score: parseInt(score, 10),
-        };
-
-        fetch("/api/rate_article", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(postData),
-        })
-          .then((response) => {
-            if (!response.ok) throw new Error("服务器响应错误");
-            return response.json();
-          })
-          .then((data) => {
-            if (data.status === "success") {
-              statusSpan.style.visibility = "visible";
-              setTimeout(() => {
-                statusSpan.style.visibility = "hidden";
-              }, 2000);
-            } else {
-              console.error("评分保存失败:", data.message);
-              alert("评分保存失败: " + data.message);
-            }
-          })
-          .catch((error) => {
-            console.error("网络或服务器错误:", error);
-            alert("评分保存时发生网络或服务器错误。");
-          });
-      });
+  // 使用base.html的showToast函数
+  function toggleFavorite(button) {
+    const url = button.dataset.url;
+    
+    fetch('/api/toggle_favorite', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ url: url })
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === 'success') {
+        // 更新按钮状态
+        if (data.is_favorited) {
+          button.classList.remove('btn-outline-secondary');
+          button.classList.add('btn-warning');
+          button.innerHTML = '已收藏';
+          showToast('已收藏', 'success');
+        } else {
+          button.classList.remove('btn-warning');
+          button.classList.add('btn-outline-secondary');
+          button.innerHTML = '收藏';
+          showToast('已取消收藏', 'info');
+        }
+      } else {
+        showToast('操作失败: ' + data.message, 'danger');
+      }
+    })
+    .catch(error => {
+      console.error('错误:', error);
+      showToast('收藏操作时发生错误', 'danger');
     });
-  });
+  }
 </script>
 {% endblock %}

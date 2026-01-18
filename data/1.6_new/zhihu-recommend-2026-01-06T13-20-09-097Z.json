@@ -1,0 +1,577 @@
+{
+  "data": [
+    {
+      "id": "78_1767705670.998",
+      "type": "feed",
+      "offset": 78,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705670,
+      "updated_time": 1767705670,
+      "target": {
+        "type": "article",
+        "title": "12-Factor Agents - 构建可靠 LLM 应用的原则",
+        "updated": 1767531773,
+        "voteup_count": 1,
+        "comment_count": 0,
+        "preview_text": "",
+        "content": "<p data-pid=\"4q7-zRBW\">原文链接：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/humanlayer/12-factor-agents\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">HTTPS://GitHub.com/humanlayer/12-factor-agents</a></p><p data-pid=\"TDahEsWV\">本项目受 <span class=\"nolink\">12 Factor Apps</span> 精神启发。项目源码已在 <span class=\"nolink\">GitHub</span> 上公开，欢迎您的反馈与贡献。让我们一起探索这个问题！</p><p data-pid=\"xdNxMrAG\">你好，我是 Dex。我一直在<span class=\"nolink\">钻研</span> <span class=\"nolink\">AI 智能体</span>，已经<span class=\"nolink\">有段时间了</span>。</p><p data-pid=\"fzEIm98A\">我尝试过市面上所有的智能体框架，从开箱即用的 CrewAI/LangChain，到所谓的“极简主义” SmolAgents，再到标榜“生产级”的 LangGraph、Griptape 等等。</p><p data-pid=\"hHD_3ope\">我和很多非常优秀的创始人（无论是否来自 YC）都聊过，他们都在用 AI 构建令人印象深刻的产品。但其中大多数人都是自己从头搭建技术栈。我很少看到有框架被真正用于面向客户的生产级智能体。</p><p data-pid=\"TSDw4fur\">我惊讶地发现，市面上许多自称是“AI 智能体”的产品，其实并没有那么“智能”。它们大多是确定性的代码，在恰到好处的地方点缀了一些 LLM 调用，从而创造出真正神奇的用户体验。</p><p data-pid=\"SCoxZdJk\">真正优秀的智能体，并不遵循那种“给你一个提示词，给你一堆工具，循环直到达成目标”的模式。相反，它们主要由常规软件构成。</p><p data-pid=\"gjUKjwWH\">因此，我开始思考： <b>我们能采用哪些原则来构建 LLM 驱动的软件，使其真正好到足以交付给生产环境的客户？</b></p><p data-pid=\"Eh2Zy832\">欢迎来到 <b>12-Factor Agents</b>。正如自戴利市长以来，每一位芝加哥市长都坚持在市内主要机场反复展示的那样——我们很高兴你的到来！</p><p data-pid=\"VEcfGrrO\">特别感谢 <span class=\"nolink\">@iantbutler01</span>、<span class=\"nolink\">@tnm</span>、<span class=\"nolink\">@hellovai</span>、<span class=\"nolink\">@stantonk</span>、<span class=\"nolink\">@balanceiskey</span>、<span class=\"nolink\">@AdjectiveAllison</span>、<span class=\"nolink\">@pfbyjy</span>、<span class=\"nolink\">@a-churchill</span> 以及旧金山 MLOps 社区对本指南的早期反馈。</p><h3>精简版：12 项原则</h3><p data-pid=\"FO0LKXww\">即使 LLM 的能力<span class=\"nolink\">持续指数级增强</span>，也总会有一些核心的工程技术能让 LLM 驱动的软件变得更可靠、更可扩展、更易于维护。</p><ul><li data-pid=\"5taUw9CM\"><span class=\"nolink\">我们是如何走到这一步的：软件简史</span></li><li data-pid=\"U4koGwjv\"><span class=\"nolink\">原则 1：自然语言到工具调用</span></li><li data-pid=\"eAvIGuW-\"><span class=\"nolink\">原则 2：掌控你的提示词</span></li><li data-pid=\"xB2u93yr\"><span class=\"nolink\">原则 3：掌控你的上下文窗口</span></li><li data-pid=\"pygs3-iP\"><span class=\"nolink\">原则 4：工具只是结构化输出</span></li><li data-pid=\"imtIB0DA\"><span class=\"nolink\">原则 5：统一执行状态与业务状态</span></li><li data-pid=\"rQUSVryD\"><span class=\"nolink\">原则 6：通过简单 API 启动/暂停/恢复</span></li><li data-pid=\"sj4N_wqJ\"><span class=\"nolink\">原则 7：通过工具调用联系人类</span></li><li data-pid=\"Zbvkz6-O\"><span class=\"nolink\">原则 8：掌控你的控制流</span></li><li data-pid=\"WGMC0QJw\"><span class=\"nolink\">原则 9：将错误信息压缩进上下文窗口</span></li><li data-pid=\"3BPnno1t\"><span class=\"nolink\">原则 10：小型、专注的智能体</span></li><li data-pid=\"mYtWiltk\"><span class=\"nolink\">原则 11：随时随地触发，在用户所在之处与之相遇</span></li><li data-pid=\"NyjYF1pt\"><span class=\"nolink\">原则 12：让你的智能体成为一个无状态的归约器（reducer）</span></li></ul><h3>我们是如何走到这一步的</h3><p data-pid=\"CVmu-5LO\">关于我的智能体探索之旅以及促成此项目的缘由，请参阅 <span class=\"nolink\">《软件简史》</span>。这里做一个快速总结：</p><h3>智能体的承诺</h3><p data-pid=\"kS8ARZ-A\">我们将大量讨论有向图（DGs）及其无环版本 DAGs。我首先要指出的是……嗯……软件本身就是一张有向图。这也是为什么我们过去常用流程图来表示程序。</p><p data-pid=\"diOPHzwg\">大约 20 年前，我们开始看到 DAG 编排器变得流行起来。比如经典的 <span class=\"nolink\">Airflow</span>、<span class=\"nolink\">Prefect</span>，以及一些前辈和后来者，如 <span class=\"nolink\">Dagster</span>、<span class=\"nolink\">Inngest</span>、<span class=\"nolink\">Windmill</span>。它们遵循相同的图模式，并增加了可观测性、模块化、重试、管理等功能。</p><p data-pid=\"gFuiWqh4\">当我刚开始了解智能体时，我最大的收获（我不是第一个<span class=\"nolink\">这么说的人</span>）就是，你可以把 DAG 扔掉了。你不再需要软件工程师为每个步骤和边缘情况编写代码，而是可以给智能体一个目标和一组转换规则，让它实时决策路径。</p><p data-pid=\"5qFXotvE\">这里的承诺是，你可以编写更少的软件，只需给 LLM 提供图的“边”，让它自己找出节点。这样可以从错误中恢复，编写更少的代码，甚至可能发现 LLM 对问题的新颖解法。</p><h3>智能体作为循环</h3><p data-pid=\"Jy-THVd9\">然而，正如我们稍后会看到的，这种方法实际上并不像我们希望的那样有效。</p><p data-pid=\"29eWENAU\">让我们再深入一步——智能体实际上是一个包含 3 个步骤的循环：</p><ol><li data-pid=\"vJPqadWG\">LLM 根据当前上下文决定工作流的下一步，并输出结构化的 JSON（“工具调用”）。</li><li data-pid=\"rbu2P9Fu\">确定性的代码执行该工具调用。</li><li data-pid=\"yUyjEr_k\">将执行结果追加到上下文窗口中。</li><li data-pid=\"sfIhFPRA\">重复以上过程，直到 LLM 判定下一步是“完成”。</li></ol><div class=\"highlight\"><pre><code class=\"language-text\">Python 编辑\n\n\ninitial_event = {「message」: 「...」}\ncontext = [initial_event]\n\nwhile True:\n    next_step = await llm.determine_next_step(context)\n    context.append(next_step)\n    if (next_step.intent === 「done」):\n        return next_step.final_answer\n    result = await execute_step(next_step)\n    context.append(result)</code></pre></div><p data-pid=\"rOYZuPpd\">我们的初始上下文只是一个起始事件（可能是一条用户消息，也可能是一个定时任务或 Webhook 触发），然后我们让 LLM 选择下一步（调用哪个工具）或者判定任务已完成。</p><p data-pid=\"JBqCZlzP\">这是一个多步骤示例的动画演示。</p><h3>为何需要 12-Factor Agents？</h3><p data-pid=\"Rtk7s24n\">归根结底，上述方法的效果并不如我们所愿。</p><p data-pid=\"vOVI4Iz5\">在构建 HumanLayer 的过程中，我至少与 100 位 SaaS 构建者（主要是技术创始人）交流过，他们都希望让自己的现有产品更具“智能体”特性。这个过程通常如下：</p><ol><li data-pid=\"yjU6UHov\">决定要构建一个智能体。</li><li data-pid=\"BvZ8sJpB\">进行产品设计、UX 映射，明确要解决的问题。</li><li data-pid=\"PWQgjYFn\">为了快速推进，选择 <code>$FRAMEWORK</code> 并开始构建。</li><li data-pid=\"RYryKfxd\">达到 70-80% 的质量水平。</li><li data-pid=\"zJQDXYLQ\">意识到对于大多数面向客户的功能来说，80% 的质量是远远不够的。</li><li data-pid=\"rWFUi8vH\">意识到要突破 80% 的瓶颈，需要去反向工程框架、提示词、流程等。</li><li data-pid=\"_4miOdXR\">从头开始重写。</li></ol><h3>随机免责声明</h3><p data-pid=\"JTZEI6UH\"><b>免责声明 1</b>：我不确定在哪里说这句话最合适，但这里似乎是个不错的选择：<b>这绝不是要贬低市面上众多框架，或是那些致力于此的聪明人。</b> 这些框架实现了令人难以置信的功能，并加速了整个 AI 生态系统的发展。我希望本文的一个成果是，智能体框架的开发者们能从我和他人的经历中学习，让框架变得更好，特别是对于那些希望快速迭代但又需要深度控制的构建者。</p><p data-pid=\"VwMXn2r7\"><b>免责声明 2</b>：我不会谈论 MCP（模型上下文协议）。我相信你能看出它适合放在哪里。</p><p data-pid=\"Ags49lnc\"><b>免责声明 3</b>：我主要使用 TypeScript（原因见<span class=\"nolink\">此处</span>），但所有这些理念在 Python 或任何其他你喜欢的语言中也同样适用。</p><p data-pid=\"6wKdKfgC\">好了，言归正传……</p><h3>构建优秀 LLM 应用的设计模式</h3><p data-pid=\"0O8jyu3E\">在深入研究了数百个 AI 库并与数十位创始人合作后，我的直觉是：</p><ul><li data-pid=\"prulQyfw\">有一些核心要素能让智能体变得优秀。</li><li data-pid=\"bjGuBMDA\">全力投入某个框架并进行彻底的重写可能是适得其反的。</li><li data-pid=\"fJA-tT2P\">虽然引入框架可能会让你获得大部分甚至全部这些核心原则，但我所见过的<b>最快</b>能让构建者将高质量 AI 软件交到客户手中的方法，是<b>从智能体构建中提取小型、模块化的概念，并将它们融入到现有的产品中</b>。</li><li data-pid=\"CclFec7G\">这些来自智能体的模块化概念，大多数有经验的软件工程师（即使没有 AI 背景）都可以定义和应用。</li></ul><p data-pid=\"j62d8Dr9\"><b>我所见过的让构建者将优秀 AI 软件交到客户手中的最快方法，是从智能体构建中提取小型、模块化的概念，并将它们融入到现有的产品中。</b></p>",
+        "article_type": "normal",
+        "allow_segment_interaction": true,
+        "voting": 0,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "excerpt_new": "原文链接： HTTPS://GitHub.com/humanlayer/12-factor-agents 本项目受 12 Factor Apps 精神启发。项目源码已在 GitHub 上公开，欢迎您的反馈与贡献。让我们一起探索这个问题！你好，我是 Dex。我一直在 钻研 AI 智能体，已经有段时间了。我尝试过市面上所有的智能体框架，从开箱即用的 CrewAI/LangChain，到所谓的“极简主义” SmolAgents，再到标榜“生产级”的 LangGraph、Griptape 等等。 我和很多非常优秀的创始人（无论是否…",
+        "preview_type": "default",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "visited_count": 25,
+        "is_navigator": false,
+        "id": "1991247004790170262",
+        "url": "https://api.zhihu.com/articles/1991247004790170262",
+        "author": {
+          "url_token": "ray-92-76-86",
+          "name": "皮皮鲁",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/6588f4402fec32212585634d2c0b3345",
+          "user_type": "people",
+          "headline": "为学日益，为道日损。损之又损，以至于无为。",
+          "gender": -1,
+          "followers_count": 28,
+          "is_followed": false,
+          "id": "6588f4402fec32212585634d2c0b3345"
+        },
+        "comment_permission": "all",
+        "created": 1767531773,
+        "excerpt": "原文链接： HTTPS://GitHub.com/humanlayer/12-factor-agents 本项目受 12 Factor Apps 精神启发。项目源码已在 GitHub 上公开，欢迎您的反馈与贡献。让我们一起探索这个问题！你好，我是 Dex。我一直在 钻研 AI 智能体，已经有段时间了。我尝试过市面上所有的智能体框架，从开箱即用的 CrewAI/LangChain，到所谓的“极简主义” SmolAgents，再到标榜“生产级”的 LangGraph、Griptape 等等。 我和很多非常优秀的创始人（无论是否…",
+        "favorite_count": 3
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991247004790170262}",
+      "attached_info": "CowFCN2h9pTyyO2JvAEQBxoJMjY4NTU5MDk4IP3J6coGKAEwAEBOSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMRIBMBgAIAA6AGIgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE5OTEyNDcwMDQ3OTAxNzAyNjKqAQlyZWNvbW1lbmTCASA2NTg4ZjQ0MDJmZWMzMjIxMjU4NTYzNGQyYzBiMzM0NfIBCggMEgZOb3JtYWzyASgIChIkNTVlZTM2MzItNDIyZC00MGVmLThiYzQtMzg4Mzk2ZDViODhm8gEGCAsSAjE0ggIAiAL95t+buTOSAiA2NTg4ZjQ0MDJmZWMzMjIxMjU4NTYzNGQyYzBiMzM0NZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMegCAvoCC05PUk1BTF9GTE9XigMgMzFmN2UwNzMyOTU2NDQ2MzhlOGJhZDZmMTBiYzU3OWSaAw0KAnYyEAAaBW90aGVyqAMZ2AMA6gMfd2FybXVwVHdvVG93ZXJUZXh0Qm9vc3RSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKCWSWw/gQUAAAAAAAAAAIkFBCpmO8hvsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGT6gGAZICLgoJMjY4NTU5MDk4EhMxOTkxMjQ3MDA0NzkwMTcwMjYyGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "79_1767705670.603",
+      "type": "feed",
+      "offset": 79,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705670,
+      "updated_time": 1767705670,
+      "target": {
+        "thanks_count": 15,
+        "is_copyable": true,
+        "is_labeled": false,
+        "id": "1991585666660844109",
+        "comment_count": 146,
+        "excerpt": "女朋友是新疆维族人，已经在一起四个多月了，从来没吵过架一直很和睦甜甜蜜蜜的，很为我着想，也不想我多花钱心疼我，感觉自己上辈子拯救了银河系才能遇到这么好的女孩",
+        "preview_text": "",
+        "visited_count": 49740,
+        "navigator_vote": false,
+        "author": {
+          "headline": "",
+          "gender": -1,
+          "followers_count": 20,
+          "id": "c44827f46fea1e66d0a7c2e5fc286512",
+          "user_type": "people",
+          "name": "海上骑鲸客",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/c44827f46fea1e66d0a7c2e5fc286512",
+          "url_token": "su-jian-dan-mo-33-66",
+          "avatar_url": "https://picx.zhimg.com/50/v2-5a916852fd11034e5429e55133236927_l.jpg?source=b6762063"
+        },
+        "question": {
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "67246926",
+          "detail": "",
+          "question_type": "normal",
+          "created": 1509063549,
+          "comment_count": 34,
+          "type": "question",
+          "author": {
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 4,
+            "is_following": false,
+            "user_type": "people",
+            "url_token": "ben-pao-de-hong-shao-niu-rou-mian-51",
+            "name": "奔跑的红烧牛肉面",
+            "avatar_url": "https://picx.zhimg.com/50/v2-9553dbf05ba851a34d4f05a2098ba75a_l.jpg?source=b6762063",
+            "is_followed": false,
+            "id": "031196bbb417bcd242265ba47cfa9552",
+            "url": "https://api.zhihu.com/people/031196bbb417bcd242265ba47cfa9552",
+            "headline": "习惯了疯言疯语"
+          },
+          "title": "有一个超级漂亮的女朋友是一种什么体验？",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            4758
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/67246926"
+        },
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "url": "https://api.zhihu.com/answers/1991585666660844109",
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-737b5950f7534a8932cd12d197e80557_1440w.jpg\" data-rawwidth=\"1440\" data-rawheight=\"1333\" data-size=\"normal\" data-original-token=\"v2-b3a7a2559eaf923c91ac0e54a0da52f9\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic2.zhimg.com/v2-737b5950f7534a8932cd12d197e80557_r.jpg\"/></figure><p data-pid=\"v2QdSlta\">女朋友是新疆维族人，已经在一起四个多月了，从来没吵过架一直很和睦甜甜蜜蜜的，很为我着想，也不想我多花钱心疼我，感觉自己上辈子拯救了银河系才能遇到这么好的女孩</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1959d6b0bba36e455c21735996df190b_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"2404\" data-size=\"normal\" data-original-token=\"v2-c22d75444ab32ed9327718578d4b6ed3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-1959d6b0bba36e455c21735996df190b_r.jpg\"/></figure><p></p>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-b3a7a2559eaf923c91ac0e54a0da52f9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c22d75444ab32ed9327718578d4b6ed3_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "type": "answer",
+        "created_time": 1767611024,
+        "updated_time": 1767611024,
+        "thumbnail": "https://pica.zhimg.com/50/v2-b3a7a2559eaf923c91ac0e54a0da52f9_720w.jpg?source=b6762063",
+        "excerpt_new": "女朋友是新疆维族人，已经在一起四个多月了，从来没吵过架一直很和睦甜甜蜜蜜的，很为我着想，也不想我多花钱心疼我，感觉自己上辈子拯救了银河系才能遇到这么好的女孩",
+        "voteup_count": 350,
+        "vote_next_step": "vote",
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "favorite_count": 226,
+        "answer_type": "normal",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991585666660844109}",
+      "attached_info": "CuYICN2h9pTyyO2JvAEQBBoJNzY0MTQwMDcyIJC17soGKN4CMJIBQE9KWwopVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlQSKGhvdF9yZWNhbGxfcmVhbHRpbWVfdDpuZXc3ZDoyMDI2LTAxLTA2OjAYACAAOgBKRQogVFNfU09VUkNFX1NPQ0lBTF9GT0xMT1dfTkVBUkxJTkUSG25lYXJsaW5lQ29udGVudFYyOjc2OTI3NzQwNRgAIAA6AEpHCiJUU19TT1VSQ0VfU09DSUFMX0FGRklOSVRZX05FQVJMSU5FEhtuZWFybGluZUNvbnRlbnRWMjo3NjkyNzc0MDUYACAAOgBaCDE5MTI2ODQ1YiBlYWVhNTQwNjZjODE5YTZhNzliOWZjYmUxZDkyMjMzNHITMTk5MTU4NTY2NjY2MDg0NDEwOYoBCDY3MjQ2OTI2qgEJcmVjb21tZW5kwgEgYzQ0ODI3ZjQ2ZmVhMWU2NmQwYTdjMmU1ZmMyODY1MTLyAQoIDBIGTm9ybWFs8gEoCAoSJGI5OGE2OGUxLTc2OWYtNDM4OC1iMWFmLWQ2NGY0ZjY3OTE1ZvIBBggLEgIxNIICAIgC/ebfm7kzkgIgYzQ0ODI3ZjQ2ZmVhMWU2NmQwYTdjMmU1ZmMyODY1MTKaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVOgCAvoCC05PUk1BTF9GTE9XigMgMzFmN2UwNzMyOTU2NDQ2MzhlOGJhZDZmMTBiYzU3OWSaAw0KAnYyEAAaBW90aGVyqAPMhAPYAwDqAyJob3RDcm9zc1JlYWxUaW1lTmV3Q29udGVudFJlY2FsbGVy+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAUQoAsYtQoiI3YyLWIzYTdhMjU1OWVhZjkyM2M5MWFjMGU1NGEwZGE1MmY5Oi0IAxC4CBjkEiIjdjItYzIyZDc1NDQ0YWIzMmVkOTMyNzcxODU3OGQ0YjZlZDOABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEBzRcQ/gQUAAAAAAAAAAIkFBCpmO8hvsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGUKgGA5ICLgoJNzY0MTQwMDcyEhMxOTkxNTg1NjY2NjYwODQ0MTA5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "80_1767705670.70",
+      "type": "feed",
+      "offset": 80,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705670,
+      "updated_time": 1767705670,
+      "target": {
+        "updated_time": 1767013792,
+        "is_navigator": false,
+        "created_time": 1767013687,
+        "thanks_count": 11,
+        "content": "<p data-pid=\"fXcl7aRS\">如果在竹简木牍时代，写错字的一种办法是用书刀刮去错字表层，重新书写。</p><p data-pid=\"kMubqu7L\">如果在纸张时代，错字可用雌黄涂抹后重写，成语“信口雌黄”即源于此，即随口修改言论如涂改文字。</p><p data-pid=\"04Wac9-g\">如果你写的是草稿，那么你可以用覆盖、涂抹、标记等办法修改错字。</p><p data-pid=\"v_4gSPxX\">所谓“覆盖”，就是直接覆盖错字重写。比如王羲之《兰亭序》中的“因”、“痛”、“夫”、“文”便是采用的直接覆盖错字书写。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-bbbac9d604ec704661a84020753e79f1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1850\" data-rawheight=\"848\" data-original-token=\"v2-bbbac9d604ec704661a84020753e79f1\" class=\"origin_image zh-lightbox-thumb\" width=\"1850\" data-original=\"https://pic2.zhimg.com/v2-bbbac9d604ec704661a84020753e79f1_r.jpg\"/></figure><p data-pid=\"yi5BzSWR\">所谓“涂抹”，即用笔将错字涂成墨团，或画圈圈掉。修正后的字可在涂抹的旁边书写，也可另起一处书写。</p><p data-pid=\"xWNvMd-E\">例如颜真卿的《祭侄文稿》，是将“从父”圈画之后，在其右侧修改为“第十三”。而“方凭积善”圈画后，则选择在其后继续书写。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9eb2b31040433d67c659238c696849b3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1238\" data-rawheight=\"1074\" data-original-token=\"v2-9eb2b31040433d67c659238c696849b3\" class=\"origin_image zh-lightbox-thumb\" width=\"1238\" data-original=\"https://picx.zhimg.com/v2-9eb2b31040433d67c659238c696849b3_r.jpg\"/></figure><p data-pid=\"Mu2tTFGu\">所谓标记，就是用特殊符号标注错误，一般有“点标”、“卜标”、“乙标”等。</p><p data-pid=\"xayuT6sX\">“点标”即在错字旁点小点表示删除，常见的有打一点、两点、三点、四点、十点等等。但点的位置要把控好，不然就容易被误读为重文符号。</p><a href=\"https://www.zhihu.com/question/1962390618807448356/answer/1976685505602152035\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"书法创作中有重复字怎样处理？\" data-draft-cover=\"https://pic1.zhimg.com/v2-55f879df370df8cbc0827c8f10bc482f.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">书法创作中有重复字怎样处理？</a><p data-pid=\"h1K79UCe\">比如王羲之《黄庭经》中的“五味皆至善气还”多了一个“开”，在“开”字旁打三个点表删除。</p><p data-pid=\"KzzBHmis\">再比如《寒食帖》中“雨势来不已”后多了一个“雨”字，苏轼在“雨”字旁打了四个点表删除。</p><p data-pid=\"Hfa__XMp\">再比如杜牧《张好好诗》中，“小”字被打了十点，表示删除。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9f1abd249b42f6b6ece4096ee7945c11_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1550\" data-rawheight=\"782\" data-original-token=\"v2-9f1abd249b42f6b6ece4096ee7945c11\" class=\"origin_image zh-lightbox-thumb\" width=\"1550\" data-original=\"https://picx.zhimg.com/v2-9f1abd249b42f6b6ece4096ee7945c11_r.jpg\"/></figure><p data-pid=\"4E44Sski\">“卜标”即在错字右侧以小字符写“卜”字示删除。比如米芾的《苕溪诗帖》中的“会”字的右侧写了一个小小的“卜”字，就表明这个字删除。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8645ae4d7142603e33dfb3abd50d2de8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"852\" data-rawheight=\"916\" data-original-token=\"v2-8645ae4d7142603e33dfb3abd50d2de8\" class=\"origin_image zh-lightbox-thumb\" width=\"852\" data-original=\"https://pic3.zhimg.com/v2-8645ae4d7142603e33dfb3abd50d2de8_r.jpg\"/></figure><p data-pid=\"2RLD_6Vk\">“乙标”即上下字颠倒，在其字间隙右侧写“乙”字，表明调换顺序。比如黄庭坚的《松风阁》里的“三二”中间加了一个小小的“乙”字，释文就应该读为“二三”而不是“三二”。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-327004a4964ef51305fd6eb8e58eb0d2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"852\" data-rawheight=\"1128\" data-original-token=\"v2-327004a4964ef51305fd6eb8e58eb0d2\" class=\"origin_image zh-lightbox-thumb\" width=\"852\" data-original=\"https://pica.zhimg.com/v2-327004a4964ef51305fd6eb8e58eb0d2_r.jpg\"/></figure><p data-pid=\"MnJmToTS\">当然，除了以上的办法，还有种最直接的方法，那便是“重写”。</p><p data-pid=\"4SI36kWL\">以上，希望对你有帮助。</p>",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "voteup_count": 312,
+        "author": {
+          "headline": "公众号：李临池",
+          "is_org": false,
+          "is_followed": false,
+          "id": "5a153c3629ed1cae6967d3aafe6159a9",
+          "url": "https://api.zhihu.com/people/5a153c3629ed1cae6967d3aafe6159a9",
+          "name": "李临池",
+          "gender": 1,
+          "followers_count": 14487,
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "huang-jia-zhi-12",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-772321737beb09bc1cd91167db398322_l.jpg?source=b6762063"
+        },
+        "question": {
+          "id": "15315244468",
+          "follower_count": 0,
+          "author": {
+            "gender": 0,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "教师资格证持证人"
+              },
+              {
+                "type": "super_activity",
+                "description": "知势榜美食领域成长力榜答主"
+              }
+            ],
+            "followers_count": 4992,
+            "is_following": false,
+            "is_followed": false,
+            "user_type": "people",
+            "name": "烟雨任平生",
+            "is_org": false,
+            "headline": "历史人文、书法艺术、影视综娱，统统都菜，统统都爱。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-cf87a022732600c3171df621572ff1a2_l.jpg?source=b6762063",
+            "id": "01f0dafdb388c3ec4d3b018fd5600887",
+            "url": "https://api.zhihu.com/people/01f0dafdb388c3ec4d3b018fd5600887",
+            "url_token": "jia-xiao-shu-11"
+          },
+          "created": 1742347394,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "comment_count": 6,
+          "bound_topic_ids": [
+            284,
+            12009,
+            36585,
+            168955,
+            181358
+          ],
+          "excerpt": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/15315244468",
+          "title": "古代没有修正带和涂改液，那他们写错字怎么办？",
+          "answer_count": 0,
+          "question_type": "normal"
+        },
+        "id": "1989080253927280916",
+        "excerpt": "如果在竹简木牍时代，写错字的一种办法是用书刀刮去错字表层，重新书写。 如果在纸张时代，错字可用雌黄涂抹后重写，成语“信口雌黄”即源于此，即随口修改言论如涂改文字。 如果你写的是草稿，那么你可以用覆盖、涂抹、标记等办法修改错字。 所谓“覆盖”，就是直接覆盖错字重写。比如王羲之《兰亭序》中的“因”、“痛”、“夫”、“文”便是采用的直接覆盖错字书写。   所谓“涂抹”，即用笔将错字涂成墨团，或画圈圈掉。修正后…",
+        "excerpt_new": "如果在竹简木牍时代，写错字的一种办法是用书刀刮去错字表层，重新书写。 如果在纸张时代，错字可用雌黄涂抹后重写，成语“信口雌黄”即源于此，即随口修改言论如涂改文字。 如果你写的是草稿，那么你可以用覆盖、涂抹、标记等办法修改错字。 所谓“覆盖”，就是直接覆盖错字重写。比如王羲之《兰亭序》中的“因”、“痛”、“夫”、“文”便是采用的直接覆盖错字书写。   所谓“涂抹”，即用笔将错字涂成墨团，或画圈圈掉。修正后…",
+        "preview_text": "",
+        "type": "answer",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 112,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1989080253927280916",
+        "is_copyable": false,
+        "visited_count": 25112,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-bbbac9d604ec704661a84020753e79f1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9eb2b31040433d67c659238c696849b3_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-9f1abd249b42f6b6ece4096ee7945c11_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-8645ae4d7142603e33dfb3abd50d2de8_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-327004a4964ef51305fd6eb8e58eb0d2_720w.jpg?source=b6762063"
+        ],
+        "comment_count": 39,
+        "segment_infos": [
+          {
+            "pid": "xayuT6sX",
+            "text": "“点标”即在错字旁点小点表示删除，常见的有打一点、两点、三点、四点、十点等等。但点的位置要把控好，不然就容易被误读为重文符号。",
+            "marks": [
+              {
+                "start_index": 17,
+                "end_index": 39,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989622112466510765"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "thumbnail": "https://picx.zhimg.com/50/v2-bbbac9d604ec704661a84020753e79f1_720w.jpg?source=b6762063"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989080253927280916}",
+      "attached_info": "CpIICN2h9pTyyO2JvAEQBBoJNzYzMjExMTAzILf6ycoGKLgCMCdAUEo4Ci1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0ISATAYACAAOgBaCTExNDA1MzcyNGIgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE5ODkwODAyNTM5MjcyODA5MTaKAQsxNTMxNTI0NDQ2OKoBCXJlY29tbWVuZMIBIDVhMTUzYzM2MjllZDFjYWU2OTY3ZDNhYWZlNjE1OWE58gEKCAwSBk5vcm1hbPIBKAgKEiRlYzMyODEyYS04MWJkLTQzZTAtODJjZC1mZGQwMDZhMmZiNTnyAQYICxICMTSCAgCIAv7m35u5M5ICIDVhMTUzYzM2MjllZDFjYWU2OTY3ZDNhYWZlNjE1OWE5mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygITRW1iU2ltSXNvbGF0aW9uUnVsZdoCLVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX0NPTlRFTlRfVkFMVUVfTEVWRUxfQugCBPoCC05PUk1BTF9GTE9XigMgMzFmN2UwNzMyOTU2NDQ2MzhlOGJhZDZmMTBiYzU3OWSaAw0KAnYyEAAaBW90aGVyqAOYxAHYAwDqAypJbnRlcmVzdFdvcmRDb250ZW50VmFsdWVMZXZlbEJQb29sUmVjYWxsZXL6A4oCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQug4Y0AYiI3YyLWJiYmFjOWQ2MDRlYzcwNDY2MWE4NDAyMDc1M2U3OWYxOi0IAhDWCRiyCCIjdjItOWViMmIzMTA0MDQzM2Q2N2M2NTkyMzhjNjk2ODQ5YjM6LQgCEI4MGI4GIiN2Mi05ZjFhYmQyNDliNDJmNmI2ZWNlNDA5NmVlNzk0NWMxMTotCAIQ1AYYlAciI3YyLTg2NDVhZTRkNzE0MjYwM2UzM2RmYjNhYmQ1MGQyZGU4Oi0IAhDUBhjoCCIjdjItMzI3MDA0YTQ5NjRlZjUxMzA1ZmQ2ZWI4ZTU4ZWIwZDKABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAAy05w/gQUAAAAAAAAAAIkFBCpmO8hvsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGUagGAJICLgoJNzYzMjExMTAzEhMxOTg5MDgwMjUzOTI3MjgwOTE2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "81_1767705670.862",
+      "type": "feed",
+      "offset": 81,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705670,
+      "updated_time": 1767705670,
+      "target": {
+        "question": {
+          "type": "question",
+          "author": {
+            "id": "951fbd2f806b6425448723d7e043d624",
+            "url": "https://api.zhihu.com/people/951fbd2f806b6425448723d7e043d624",
+            "headline": "骑马喝酒闯天涯",
+            "is_org": false,
+            "followers_count": 809,
+            "is_following": false,
+            "user_type": "people",
+            "url_token": "peng-da-shuai-44-19",
+            "name": "嘚儿驾",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-bf78e06713e2c83eeca96efc339da329_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_followed": false
+          },
+          "created": 1455771302,
+          "detail": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/40500121",
+          "comment_count": 61,
+          "bound_topic_ids": [
+            68,
+            13908,
+            158305,
+            229061
+          ],
+          "is_following": false,
+          "id": "40500121",
+          "title": "有哪些“小时候不以为意，长大后细思恐极”的影视情节？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "excerpt": "地下交通站，第一集，新四军首长请老冯吃螃蟹和鳝鱼，说他们这里盛产这玩意。 老冯感慨：等抗战胜利了，一定过来住上一年，天天吃螃蟹。 当时觉得很正常的剧情。后来再看到这段，心里咯噔一下子，这属于是盒饭预告了。",
+        "reshipment_settings": "allowed",
+        "url": "https://api.zhihu.com/answers/1989789849423725876",
+        "is_copyable": true,
+        "type": "answer",
+        "favorite_count": 27,
+        "navigator_vote": false,
+        "thanks_count": 6,
+        "answer_type": "normal",
+        "content": "<p data-pid=\"P-aZgrxz\">地下交通站，第一集，新四军首长请老冯吃螃蟹和鳝鱼，说他们这里盛产这玩意。</p><p data-pid=\"qyD1Psvd\">老冯感慨：等抗战胜利了，一定过来住上一年，天天吃螃蟹。</p><p data-pid=\"Db8n_mq0\">当时觉得很正常的剧情。后来再看到这段，心里咯噔一下子，这属于是盒饭预告了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-65880b41adf1b15dc3d9ee9ec88b5992_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1206\" data-rawheight=\"1009\" data-original-token=\"v2-785fc72f6c2335fe78f313bfdfefeed6\" class=\"origin_image zh-lightbox-thumb\" width=\"1206\" data-original=\"https://pic1.zhimg.com/v2-65880b41adf1b15dc3d9ee9ec88b5992_r.jpg\"/></figure><p></p>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-785fc72f6c2335fe78f313bfdfefeed6_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "comment_count": 85,
+        "excerpt_new": "地下交通站，第一集，新四军首长请老冯吃螃蟹和鳝鱼，说他们这里盛产这玩意。 老冯感慨：等抗战胜利了，一定过来住上一年，天天吃螃蟹。 当时觉得很正常的剧情。后来再看到这段，心里咯噔一下子，这属于是盒饭预告了。",
+        "is_labeled": false,
+        "visited_count": 147223,
+        "allow_segment_interaction": true,
+        "id": "1989789849423725876",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-785fc72f6c2335fe78f313bfdfefeed6_720w.jpg?source=b6762063",
+        "author": {
+          "headline": "",
+          "gender": 1,
+          "followers_count": 19728,
+          "id": "7d1533efcfe8d5eb0fd022fc2f8fbc6f",
+          "user_type": "people",
+          "url_token": "liang-fei-17-45",
+          "name": "李昂",
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/7d1533efcfe8d5eb0fd022fc2f8fbc6f",
+          "avatar_url": "https://picx.zhimg.com/50/v2-4a9877074da3ec6a8aae9c5ace61dec9_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false
+        },
+        "preview_type": "default",
+        "created_time": 1767182868,
+        "updated_time": 1767188137,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "voteup_count": 214,
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989789849423725876}",
+      "attached_info": "Co8GCN2h9pTyyO2JvAEQBBoJNzYzNDk2MjI1IJSk1MoGKNYBMFVAUUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUooChNUU19TT1VSQ0VfRkVFRFJFX1Y1EgEwGAAgADoKeyJyYXciOiIifVoHODQwNzIwMGIgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE5ODk3ODk4NDk0MjM3MjU4NzaKAQg0MDUwMDEyMaoBCXJlY29tbWVuZMIBIDdkMTUzM2VmY2ZlOGQ1ZWIwZmQwMjJmYzJmOGZiYzZm8gEKCAwSBk5vcm1hbPIBKAgKEiRkYTc5MDBjNS0zOGFlLTRkZWItODQxNC0zM2I2NDMzYjdkNWXyAQYICxICMTSCAgCIAv7m35u5M5ICIDdkMTUzM2VmY2ZlOGQ1ZWIwZmQwMjJmYzJmOGZiYzZmmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCAvoCC05PUk1BTF9GTE9XigMgMzFmN2UwNzMyOTU2NDQ2MzhlOGJhZDZmMTBiYzU3OWSaAw0KAnYyEAAaBW90aGVyqAOX/gjYAwDqAxFmZWVkcmVfbXNfZ2F0ZV92M/oDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDELYJGPEHIiN2Mi03ODVmYzcyZjZjMjMzNWZlNzhmMzEzYmZkZmVmZWVkNoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQC/Qqj+BBQAAAAAAAAAAiQUEKmY7yG+yP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUOkAYAoAZSqAYAkgIuCgk3NjM0OTYyMjUSEzE5ODk3ODk4NDk0MjM3MjU4NzYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "82_1767705670.646",
+      "type": "feed",
+      "offset": 82,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705670,
+      "updated_time": 1767705670,
+      "target": {
+        "excerpt_new": "肾精不是补回来的，是养回来的。 禁欲，饮食清淡，早睡早起，最佳睡眠时间是晚9早3。这是学古人睡眠，今人比较难操作，坚持做到11点入睡即可。 现在受滋阴派的影响太深！以前物质匮乏，稍微补一下，就大有效果。现在大部分病就是吃太多导致脾虚，且纵欲过自然肾精也亏。 所以第一禁欲让肾精恢复。一般的说法是禁欲百天肾精即可恢复。(答主目前也未做到)为什么要饮食清淡呢？ 第一，饮食清淡会比较少的消耗脾(另佛家讲的五荤即葱…",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "updated_time": 1762684220,
+        "thanks_count": 15,
+        "comment_count": 92,
+        "is_copyable": true,
+        "excerpt": "肾精不是补回来的，是养回来的。 禁欲，饮食清淡，早睡早起，最佳睡眠时间是晚9早3。这是学古人睡眠，今人比较难操作，坚持做到11点入睡即可。 现在受滋阴派的影响太深！以前物质匮乏，稍微补一下，就大有效果。现在大部分病就是吃太多导致脾虚，且纵欲过自然肾精也亏。 所以第一禁欲让肾精恢复。一般的说法是禁欲百天肾精即可恢复。(答主目前也未做到)为什么要饮食清淡呢？ 第一，饮食清淡会比较少的消耗脾(另佛家讲的五荤即葱…",
+        "vote_next_step": "vote",
+        "navigator_vote": false,
+        "type": "answer",
+        "created_time": 1745032017,
+        "question": {
+          "question_type": "normal",
+          "id": "658809707",
+          "bound_topic_ids": [
+            237,
+            980,
+            1770,
+            33974,
+            47105
+          ],
+          "is_following": false,
+          "detail": "",
+          "title": "肾精不足应该怎么调理？",
+          "comment_count": 1,
+          "excerpt": "",
+          "type": "question",
+          "author": {
+            "user_type": "people",
+            "url_token": "94-97-89-42-12",
+            "headline": "",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 15,
+            "id": "2717f73efc02409148d30ff84de81feb",
+            "url": "https://api.zhihu.com/people/2717f73efc02409148d30ff84de81feb",
+            "is_followed": false,
+            "is_following": false,
+            "name": "为了心中的梦",
+            "avatar_url": "https://picx.zhimg.com/50/v2-32db628da61878961ad75e6d3ac7642a_l.jpg?source=b6762063"
+          },
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/658809707",
+          "created": 1718260705,
+          "answer_count": 0
+        },
+        "content": "<p data-pid=\"ZJHvS66h\">肾精不是补回来的，是养回来的。</p><p data-pid=\"YNKW2SKn\">禁欲，饮食清淡，早睡早起，最佳睡眠时间是晚9早3。这是学古人睡眠，今人比较难操作，坚持做到11点入睡即可。</p><p data-pid=\"sTBPH5ED\">现在受滋阴派的影响太深！以前物质匮乏，稍微补一下，就大有效果。现在大部分病就是吃太多导致脾虚，且纵欲过自然肾精也亏。</p><p data-pid=\"X97_Ic0_\">所以第一禁欲让肾精恢复。一般的说法是禁欲百天肾精即可恢复。(答主目前也未做到)为什么要饮食清淡呢？</p><p data-pid=\"LeC0tUz8\">第一，饮食清淡会比较少的消耗脾(另佛家讲的五荤即葱蒜韭之类也可以断一下，会比较容易滋生欲念)。</p><p data-pid=\"4FVev_uD\">第二，吃肉吃海鲜牛奶之类目前广告说的补的东西一方面伤脾，一方面动肝风，对男的来说，吃了会欲念重，会消耗肾精。</p><p data-pid=\"nhC7HDfq\">运动上可以考虑八段锦，太极拳。</p><p data-pid=\"vQAvKaLk\">最佳是站桩，无极桩，放松为要点。</p><p data-pid=\"J-VcwwJY\">网上也可以搜下陈玉琴老师的讲座，重点就是总结下做三件事:</p><p data-pid=\"1frqc4hq\">1、敲胆经，屁股环跳大腿风市穴上下一段即可，一边各两分钟，个人认为有空也可以多梳头，都是刺激胆经；</p><p data-pid=\"Z827Wkk1\">2、指压心包经，刺激腋窝极泉穴，找痛点指压，单位置2分钟以上；</p><p data-pid=\"UiccAqsX\">3、指压足昆仑穴。</p><p data-pid=\"85WwsslA\">最重要的就是前文要在9-3点入睡，因为只有子时和丑时，人体是造血时间，血多就会生精。</p><p data-pid=\"mKIcFQOT\">按照陈老师理论，敲打胆经可以促进胆汁的分泌，胆汁分泌多，会增加消化食物的能力，提高人的造血能力。血多了人才会好起来。</p>",
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1896882444017304599",
+        "voteup_count": 366,
+        "visited_count": 47984,
+        "favorite_count": 746,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "id": "1896882444017304599",
+        "author": {
+          "url": "https://api.zhihu.com/people/cea3b320064d1a2677e78076492afcfa",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ce49e896bbf3a28ff7bbf0f74e537168_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "id": "cea3b320064d1a2677e78076492afcfa",
+          "url_token": "wang-fei-45-88",
+          "name": "均泽",
+          "headline": "中医黑止步，一律删评。",
+          "gender": 1,
+          "followers_count": 340,
+          "is_followed": false
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1896882444017304599}",
+      "attached_info": "CsIHCN2h9pTyyO2JvAEQBBoJNzIzNTg4Mjg0INGmjMAGKO4CMFxAUkpICh9UU19TT1VSQ0VfWlJFQ0FMTF9JVEVNQ0ZfVVBWT1RFEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3NTg2MTU3NzcKGAAgADoASkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDc1ODYxNTc3NwoYACAAOgBKLwoGSXRlbUNGEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3MzkwNjk5NjkKGAAgADoASkgKH1RTX1NPVVJDRV9URVhUX0hRX0FDVElPTl9JVEVNQ0YSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDc1NTUxNzM5NgoYACAAOgBaCTEwODY4MDEyN2IgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRyEzE4OTY4ODI0NDQwMTczMDQ1OTmKAQk2NTg4MDk3MDeqAQlyZWNvbW1lbmTCASBjZWEzYjMyMDA2NGQxYTI2NzdlNzgwNzY0OTJhZmNmYfIBCggMEgZOb3JtYWzyASgIChIkNDIzNDkzOGUtOWY0ZS00ZTUwLTk0YmMtZjA2NmZkNjA3Nzhl8gEGCAsSAjE0ggIAiAL+5t+buTOSAiBjZWEzYjMyMDA2NGQxYTI2NzdlNzgwNzY0OTJhZmNmYZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAh9UU19TT1VSQ0VfWlJFQ0FMTF9JVEVNQ0ZfVVBWT1RF6AIC+gILTk9STUFMX0ZMT1eKAyAzMWY3ZTA3MzI5NTY0NDYzOGU4YmFkNmYxMGJjNTc5ZJoDDQoCdjIQABoFb3RoZXKoA/D2AtgDAOoDGXRleHRBbGxTaXRlQWN0aW9uSXRlbUNGVjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgmxOiP4EFAAAAAAAAAACJBQQqZjvIb7I/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ6QBgCgBlOoBgGSAi4KCTcyMzU4ODI4NBITMTg5Njg4MjQ0NDAxNzMwNDU5ORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "83_1767705670.443",
+      "type": "feed",
+      "offset": 83,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705670,
+      "updated_time": 1767705670,
+      "target": {
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "updated_time": 1767171441,
+        "thanks_count": 1,
+        "preview_text": "",
+        "navigator_vote": false,
+        "is_navigator": false,
+        "id": "1989741918930899170",
+        "voteup_count": 47,
+        "content": "<p data-pid=\"1_TFJJ-u\">在3级团的时候，天神下凡一锤四，</p><p data-pid=\"pLP5tib5\">致敬The Shy！</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1989741452591390961\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"\" data-poster=\"https://pica.zhimg.com/v2-5da6957ab96fc88a3103aaf83d410efc.jpeg\" data-lens-id=\"1989741452591390961\"><img class=\"thumbnail\" src=\"https://pica.zhimg.com/v2-5da6957ab96fc88a3103aaf83d410efc.jpeg\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1989741452591390961</span></span></a>",
+        "comment_count": 20,
+        "is_copyable": true,
+        "question": {
+          "detail": "",
+          "created": 1526955968,
+          "is_following": false,
+          "question_type": "normal",
+          "type": "question",
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "answer_count": 0,
+          "comment_count": 18,
+          "bound_topic_ids": [
+            18427
+          ],
+          "excerpt": "",
+          "id": "278142211",
+          "url": "https://api.zhihu.com/questions/278142211",
+          "author": {
+            "url": "https://api.zhihu.com/people/7d9826976d3b5684035528417c3e0099",
+            "user_type": "people",
+            "url_token": "yan-ji-bu-cuo-xiao-huo",
+            "name": "演技不错小伙",
+            "is_org": false,
+            "gender": -1,
+            "id": "7d9826976d3b5684035528417c3e0099",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-5dc58fac1839de0b4d1b50aa459ded05_l.jpg?source=b6762063",
+            "followers_count": 5,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "玩《英雄联盟》你最牛操作是什么？"
+        },
+        "allow_segment_interaction": true,
+        "favorite_count": 3,
+        "type": "answer",
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-d402719890f80693cf52d9f6d42f9183_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 44,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/b7959331e8555ad1eab5d43cf586f5a1",
+          "user_type": "people",
+          "url_token": "xie-ming-ye-68",
+          "name": "知乎和善交流大使",
+          "id": "b7959331e8555ad1eab5d43cf586f5a1",
+          "headline": "",
+          "is_org": false,
+          "is_followed": false
+        },
+        "excerpt_new": "在3级团的时候，天神下凡一锤四， 致敬The Shy！ [视频]",
+        "is_labeled": false,
+        "visited_count": 18737,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-5da6957ab96fc88a3103aaf83d410efc_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "created_time": 1767171441,
+        "thumbnail": "https://picx.zhimg.com/50/v2-5da6957ab96fc88a3103aaf83d410efc_720w.jpg?source=b6762063",
+        "excerpt": "在3级团的时候，天神下凡一锤四， 致敬The Shy！ [视频]",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "url": "https://api.zhihu.com/answers/1989741918930899170",
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989741918930899170}",
+      "attached_info": "CtcFCN2h9pTyyO2JvAEQBBoJNzYzNDc2NjM4IPHK08oGKC8wFEBTSigKHVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX01FUkdFEgEwGAAgADoAWggyNDA4NTA3OGIgZWFlYTU0MDY2YzgxOWE2YTc5YjlmY2JlMWQ5MjIzMzRo8cHR5PHpvs4bchMxOTg5NzQxOTE4OTMwODk5MTcwigEJMjc4MTQyMjExqgEJcmVjb21tZW5kwgEgYjc5NTkzMzFlODU1NWFkMWVhYjVkNDNjZjU4NmY1YTHyAQoIDBIGTm9ybWFs8gEoCAoSJDY2NmI2YWExLTBiZWMtNDgzNi1iMGE2LTkzYWE5MzdmNTM5OPIBBggLEgIxNIICAIgC/ubfm7kzkgIgYjc5NTkzMzFlODU1NWFkMWVhYjVkNDNjZjU4NmY1YTGaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCHVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX01FUkdF6AIC+gILTk9STUFMX0ZMT1eKAyAzMWY3ZTA3MzI5NTY0NDYzOGU4YmFkNmYxMGJjNTc5ZJIDF3poaWh1Oi8vdG9waWNzLzE5NjA1MzQ2mgMNCgJ2MhAAGgVvdGhlcqgDsZIB2AMA6gMiSW50ZXJlc3RXb3JkTWVyZ2VWMU5ld1Bvb2xSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGBRkpE/gQUAAAAAAAAAAIkFBCpmO8hvsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGVKgGAJICLgoJNzYzNDc2NjM4EhMxOTg5NzQxOTE4OTMwODk5MTcwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=83&desktop=true&end_offset=84&page_number=15&session_token=eaea54066c819a6a79b9fcbe1d922334",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=83&desktop=true&end_offset=84&page_number=15&session_token=eaea54066c819a6a79b9fcbe1d922334",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

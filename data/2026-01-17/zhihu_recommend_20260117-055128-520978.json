@@ -1,0 +1,1034 @@
+{
+  "data": [
+    {
+      "id": "60_1768600295.63",
+      "type": "feed",
+      "offset": 60,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600295,
+      "updated_time": 1768600295,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1988768374436672917",
+        "created_time": 1766939330,
+        "voteup_count": 707,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "excerpt_new": "事实证明了户晨风的推测： iPhone卖到5000元以下的时候， 是国产手机的噩梦。",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-e42eac68c9b80b492f1587ead354b961_720w.jpg?source=b6762063"
+        ],
+        "is_copyable": true,
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "updated_time": 1766939330,
+        "comment_count": 13,
+        "favorite_count": 42,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "id": "1988768374436672917",
+        "author": {
+          "name": "强国有我",
+          "avatar_url": "https://picx.zhimg.com/50/v2-1d26865c81e6c4d3e42485b0f15c5d1d_l.jpg?source=b6762063",
+          "is_org": false,
+          "is_following": false,
+          "id": "fd1889bb0027e47d20870964cbc81bc4",
+          "url_token": "59-95-19-37-45",
+          "headline": "党はご安心ください 強国には私がいる",
+          "gender": 0,
+          "followers_count": 51,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/fd1889bb0027e47d20870964cbc81bc4",
+          "user_type": "people"
+        },
+        "thanks_count": 18,
+        "thumbnail": "https://picx.zhimg.com/50/v2-e42eac68c9b80b492f1587ead354b961_720w.jpg?source=b6762063",
+        "vote_next_step": "vote",
+        "navigator_vote": false,
+        "type": "answer",
+        "excerpt": "事实证明了户晨风的推测： iPhone卖到5000元以下的时候， 是国产手机的噩梦。",
+        "content": "<p data-pid=\"SA9xon3d\">事实证明了户晨风的推测：</p><p data-pid=\"F1JpkKvj\">iPhone卖到5000元以下的时候，</p><p data-pid=\"iVnBbNyu\">是国产手机的噩梦。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e42eac68c9b80b492f1587ead354b961_1440w.jpg\" data-rawwidth=\"1212\" data-rawheight=\"1465\" data-size=\"normal\" data-original-token=\"v2-e42eac68c9b80b492f1587ead354b961\" class=\"origin_image zh-lightbox-thumb\" width=\"1212\" data-original=\"https://pic2.zhimg.com/v2-e42eac68c9b80b492f1587ead354b961_r.jpg\"/></figure><p></p>",
+        "is_labeled": false,
+        "visited_count": 29036,
+        "question": {
+          "type": "question",
+          "follower_count": 0,
+          "excerpt": "",
+          "author": {
+            "user_type": "people",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "followers_count": 4,
+            "id": "51f96ce012a9648f7bda3bd2d4346bd3",
+            "url": "https://api.zhihu.com/people/51f96ce012a9648f7bda3bd2d4346bd3",
+            "url_token": "84-23-31-75",
+            "name": "甲鸟",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-059a4d9756b7cbc997e0f72d25698c33_l.jpg?source=b6762063",
+            "gender": 1
+          },
+          "title": "中国信通院数据显示，苹果手机 11 月中国销量同比翻番，这反映了哪些市场趋势？",
+          "comment_count": 7,
+          "is_following": false,
+          "url": "https://api.zhihu.com/questions/1987946424936178045",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "1987946424936178045",
+          "created": 1766743361,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            25,
+            1222,
+            35293,
+            1956919,
+            2655573
+          ],
+          "question_type": "normal"
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988768374436672917}",
+      "attached_info": "CqgGCOm+2qWIidKqsgEQBBoJNzYzMDgxNzY4IMK1xcoGKMMFMA1APEogChVUU19TT1VSQ0VfVEhFTUVfTUVSR0USATAYACAAOgBaCTExNzg1NDU4MWIgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5ODg3NjgzNzQ0MzY2NzI5MTeKARMxOTg3OTQ2NDI0OTM2MTc4MDQ1qgEJcmVjb21tZW5kwgEgZmQxODg5YmIwMDI3ZTQ3ZDIwODcwOTY0Y2JjODFiYzTyAQoIDBIGTm9ybWFs8gEoCAoSJGQ1MTFmZTFhLWM4YzUtNGU1OC1iNjdhLTI4ZTZhZTQxMGUwNPIBBggLEgIxMYICAIgC8LGrxrwzkgIgZmQxODg5YmIwMDI3ZTQ3ZDIwODcwOTY0Y2JjODFiYzSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCFVRTX1NPVVJDRV9USEVNRV9NRVJHRegCAvoCC05PUk1BTF9GTE9XigMgNzQ1MTAxYzI1YTQ5NDRiMDkyNDA5ZjE4NTM5ODlkOWWaAw0KAnYyEAAaBW90aGVyqAPs4gHYAwDqAxtUaGVtZU1lcmdlTmV3VjFQb29sUmVjYWxsZXL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhC8CRi5CyIjdjItZTQyZWFjNjhjOWI4MGI0OTJmMTU4N2VhZDM1NGI5NjGABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOBVyZM/gQUAAAAAAAAAAIkFHaIauMBGtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFC5AGAKAGPKgGAZICLgoJNzYzMDgxNzY4EhMxOTg4NzY4Mzc0NDM2NjcyOTE3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "61_1768600295.569",
+      "type": "feed",
+      "offset": 61,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600295,
+      "updated_time": 1768600295,
+      "target": {
+        "author": {
+          "user_type": "people",
+          "name": "寻真知",
+          "avatar_url": "https://picx.zhimg.com/50/v2-6f5d8656922733038161a9d00207d4dc_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 76238,
+          "is_following": false,
+          "id": "343e0ab5e7f265d949bb566eda081d33",
+          "url_token": "xun-zhen-zhi-6",
+          "headline": "打磨自己的作品，努力做到最好，完结文请看我的置顶。",
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/343e0ab5e7f265d949bb566eda081d33"
+        },
+        "is_copyable": false,
+        "preview_text": "",
+        "content": "<p data-pid=\"zR-pv9Db\">男友自称太阳系太子爷，说以前他们一家住在耀斑里。</p><p data-pid=\"j9-BQwSZ\">他这人生来就癫，自从虫族入侵以来就更癫了。</p><p data-pid=\"vfn4LMFv\">前天他跟我说即将当上星际部队的大元帅，所以我配不上他。</p><p data-pid=\"rdA-bKUq\">我看着他的入队申请书，那是去当最没人想当的填线宝宝，非死即残。</p><p data-pid=\"q0NNrbvu\">我说道：「你都要当元帅了，这破宅子也用不到了吧，不如给我。」</p><p data-pid=\"XL0Juc1u\">他笑了笑，「这些零碎都给你，只有我是你一辈子都得不到的男人。」</p><p data-pid=\"1lCZ3a7M\">他以为我不知道，他报名是为了领补助，让我不饿死。</p><p data-pid=\"l8XSS1c4\">笑死，我也在同一天报了名。</p><p data-pid=\"Fnrzg8Eq\">后来战场相遇，他疯了，「你个傻子！军饷你给谁了，怎么一分没给我留？」</p><p data-pid=\"BYWBVhNY\">我一枪崩掉一个工兵虫，坦然道：「找男模去了。」</p><p data-pid=\"jVxgctQc\">1</p><p data-pid=\"B3Tsqr-5\">我是沈天然靠捡垃圾养着的金丝雀。</p><p data-pid=\"cmpJ6htg\">他说太子爷的女人就该是这么个称呼。</p><p data-pid=\"WkGfSKl-\">瞧瞧他落魄那个狗屎样，说他来自下城区别人都要迟疑一下。</p><p data-pid=\"iSQnInE9\">但他确实把我养得很好。</p><p data-pid=\"SzdXkzpg\">自从我在那次帮派乱战中救下他，他就对我锲而不舍。</p><p data-pid=\"6_6BO0YI\">当时他满脸血污，自信得就像是英雄救美的英雄本人，壁咚道：「女人，你引起了我的注意。」</p><p data-pid=\"OgA4Fk3g\">我当时嘴角一抽，选择溜走，却听他扑通一声倒下。</p><p data-pid=\"6RjkFELt\">我叹了一口气，回身扶起他，只听他说：「果然还是离不开我吗？」</p><p data-pid=\"tgkr-XcP\">到底谁离不开谁呀！</p><p data-pid=\"5O0HoQun\">我忍住吐槽的冲动，把他带到了医院。</p><p data-pid=\"vp5iuSj_\">治好之后他对医生说：「记我账上。」</p><p data-pid=\"CU5M6Pb3\">医生看着他，「这里只收现金。」</p><p data-pid=\"CC7kUfbg\">他哈哈一笑，「我没钱，所以叫你记我账上。」</p><p data-pid=\"FpkLVbS0\">医生看着我。</p><p data-pid=\"qAeQqJej\">在三五个打手的注视中，我无可奈何的替他垫付。</p><p data-pid=\"AoYYBC3s\">出门我问道：「什么时候还我？」</p><p data-pid=\"jp8x8zS7\">他自信一笑，「女人，你的把戏我早已看清，你为我付钱就是想接近我，放心，我同意了。」</p><p data-pid=\"VhH73nJ2\">你同意个西瓜刀呀！</p><p data-pid=\"Rm20rAiA\">我捏紧拳头，「不想死就好好说话。」</p><p data-pid=\"5wPOmyFN\">他看着我，「还不了，我是真没钱，不过我可以分期还你。」</p><p data-pid=\"827AHUZh\">要不是地主家也没有余粮，或许我们就不会因为分期付款而纠缠长达一年之久。</p><p data-pid=\"WoulvN-e\">最后走到一起。</p><p data-pid=\"FJn7Pul9\">那年的光景很苦，但至少他还能给我买抗辐射的护肤品。</p><p data-pid=\"zrv7OPMm\">随着物资越来越缺乏，我们这些边缘人逐渐找不到活路。</p><p data-pid=\"j_mGxL-X\">那天，他瞒着我去报名了。</p><p data-pid=\"MxzKA-FD\">因为虫族入侵，前线大量招收炮灰。</p><p data-pid=\"DqKLi3G1\">为了免除报名者的后顾之忧，提供一次性补助。</p><p data-pid=\"9Z24r4e9\">他先一步提出要去办点事，把我早已想好的理由封在嘴里。</p><p data-pid=\"8OYGNEZr\">如此就好，我还怕他深究。</p><p data-pid=\"nIYW0oef\">当时的我们各怀心思，去的却是同一个目的地。</p><p data-pid=\"_F4ZyyAI\">不知道是幸运还是不幸。</p><p data-pid=\"RATJQTgq\">报名的人很多，我们没有看见彼此。</p><p data-pid=\"bRIbvksN\">不过他比我要狠一点，去的是最垃圾的部队，补助高达两千个星际币。</p><p data-pid=\"K5GHlTq_\">一回来他就说，「你配不上我了，我马上就要去当星际大元帅了。」</p><p data-pid=\"dJmkpmQs\">我眨眨眼，问道：「你失踪已久的祖奶奶终于给你托梦了？」</p><p data-pid=\"_L0HSfhY\">他把报名表拿来在我眼前晃了晃，「我填好征兵单了，以我的本事当元帅是轻而易举。你这种下层的姑娘，不配再当我的金丝雀。」</p><p data-pid=\"aVD_ssUM\">我霎时脸色一白，吓得他一阵心疼。</p><p data-pid=\"ykgKPq08\">他还以为我是受不了他的抛弃，哪里知道我也报了名呢。</p><p data-pid=\"Xp4QIXmH\">他僵硬着说道：「本太子爷宠幸了你这么久，你也该满足了，不会真以为我要娶你吧？」</p><p data-pid=\"ghBCHINR\">我心里即是感动，又是释怀，这下不用担心他没我会怎样了。</p><p data-pid=\"SkUvAKQt\">我看着他，「沈大少，你既然都要高升元帅了，想必房子这些对你也没用了吧。」</p><p data-pid=\"2SILT7XA\">他点点头，「你把我的东西简单收拾一下，我马上就走，其他的，包括两千元星际币都给你，我看不上。」</p><p data-pid=\"3dXrtqxe\">我捏着兜里的一千星际币，已然知道他报的是哪个部队。</p><p data-pid=\"nDz9821U\">却无法坦白，让他也生起担忧。</p><p data-pid=\"tFyTfSTW\">我轻声道：「好，从此你走你的鬼门关，我过我的阳关道。」</p><p data-pid=\"dV5_l9wR\">他眼皮一跳，「你刚刚是在咒我是吧？」</p><p data-pid=\"q0kkbNGB\">用我咒？</p><p data-pid=\"7T25MlEC\">他那个部队非死即残！</p><p data-pid=\"yloYjDAX\">我真想拽住他的脖子，大骂他是个傻叉！</p><p data-pid=\"ueBh-dR5\">但最后千言万语汇成一句，「你别以为我离了你就不会过得很好。」</p><p data-pid=\"AaJ97Ih2\">他心满意足的点头，「你最好是过得好！别我当元帅的时候你还在捡垃圾！」</p><p data-pid=\"ijsWeApS\">他把全身家当给了我，带走的东西里有不少是我送的。</p><p data-pid=\"6wNaI8h3\">似乎是担心我索要，天不亮就走了。</p><p data-pid=\"68yS4Rq3\">我知道这癫子一定在哭。</p><p data-pid=\"pnYykg3e\">我擦了擦眼泪，拿着钱产生了茫然。</p><p data-pid=\"YnKLHqNo\">除了他，我居然找不到第二个可以把钱托付的人。</p><p data-pid=\"TB7BDd_d\">最后我拿钱去买了一身好装备。</p><p data-pid=\"zarqNH0k\">他想要我活着，我就得活给他看。</p><p data-pid=\"8sj4svXz\">星际之大，或许我们永远再见不到面。</p><p data-pid=\"YPPiXMX0\">没想到六年后，我们竟然又遇见了。</p><p data-pid=\"RRyzISZy\">我在第七后勤分队当队长，他在第三突击军团当狙击手。</p><p data-pid=\"0OgzBvY5\">在他申请补给时，我赶到了。</p><p data-pid=\"RVq5eQXm\">他脸色一僵，「你为什么会在这里？当多少年兵了？」</p><p data-pid=\"geHBJ1in\">我别过头，「和你一样，你出门我也出门了。」</p><p data-pid=\"prTTH1cK\">他崩溃道：「那你拿我军饷干啥！」</p>",
+        "allow_segment_interaction": true,
+        "id": "1994915905025623839",
+        "voteup_count": 23,
+        "thanks_count": 0,
+        "excerpt_new": "男友自称太阳系太子爷，说以前他们一家住在耀斑里。 他这人生来就癫，自从虫族入侵以来就更癫了。 前天他跟我说即将当上星际部队的大元帅，所以我配不上他。 我看着他的入队申请书，那是去当最没人想当的填线宝宝，非死即残。 我说道：「你都要当元帅了，这破宅子也用不到了吧，不如给我。」 他笑了笑，「这些零碎都给你，只有我是你一辈子都得不到的男人。」 他以为我不知道，他报名是为了领补助，让我不饿死。 笑死，我也在同…",
+        "preview_type": "default",
+        "is_labeled": false,
+        "favorite_count": 10,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "updated_time": 1768405015,
+        "question": {
+          "answer_count": 0,
+          "comment_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1678810220,
+          "bound_topic_ids": [
+            1307,
+            9117,
+            125032,
+            162850,
+            388964
+          ],
+          "excerpt": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/589635755",
+          "author": {
+            "gender": 0,
+            "is_following": false,
+            "id": "85d29b6bfdcfb0feb44ff9d42fa827d2",
+            "user_type": "people",
+            "url_token": "66-7-71-5",
+            "name": "爱笑的猫咪",
+            "avatar_url": "https://picx.zhimg.com/50/v2-99a189fdc1cb762d37cd50f670c7562c_l.jpg?source=b6762063",
+            "is_org": false,
+            "url": "https://api.zhihu.com/people/85d29b6bfdcfb0feb44ff9d42fa827d2",
+            "headline": "天边的云彩",
+            "followers_count": 9408,
+            "is_followed": false
+          },
+          "is_following": false,
+          "detail": "",
+          "id": "589635755",
+          "type": "question",
+          "title": "有没有沙雕的睡前小甜故事?",
+          "follower_count": 0
+        },
+        "reshipment_settings": "disallowed",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1994915905025623839",
+        "created_time": 1768405015,
+        "comment_count": 4,
+        "excerpt": "男友自称太阳系太子爷，说以前他们一家住在耀斑里。 他这人生来就癫，自从虫族入侵以来就更癫了。 前天他跟我说即将当上星际部队的大元帅，所以我配不上他。 我看着他的入队申请书，那是去当最没人想当的填线宝宝，非死即残。 我说道：「你都要当元帅了，这破宅子也用不到了吧，不如给我。」 他笑了笑，「这些零碎都给你，只有我是你一辈子都得不到的男人。」 他以为我不知道，他报名是为了领补助，让我不饿死。 笑死，我也在同…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 494,
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994915905025623839}",
+      "attached_info": "CqUGCOm+2qWIidKqsgEQBBoJNzY1NDQzNjQyIJfwnssGKBcwBEA9SnYKKlRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX0xPTkdfVEVSTV9UT1BJQxITMTQ0MTE1MTg4MDc2MDg2ODcyMRgAIAA6L3sibWVkaWFfdHlwZSI6IklNQUdFX1RFWFQiLCJwaW5fbWVkaWFfdHlwZSI6IiJ9Wgg5MzMxMTgzNGIgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5OTQ5MTU5MDUwMjU2MjM4MzmKAQk1ODk2MzU3NTWqAQlyZWNvbW1lbmTCASAzNDNlMGFiNWU3ZjI2NWQ5NDliYjU2NmVkYTA4MWQzM/IBCggMEgZOb3JtYWzyASgIChIkNTk4ZGRiMzAtYTE0Ny00MjFhLTk5YTEtZGZkNmUzNjVmY2Vl8gEGCAsSAjExggIAiALxsavGvDOSAiAzNDNlMGFiNWU3ZjI2NWQ5NDliYjU2NmVkYTA4MWQzM5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhZGZWVkQ29udHJvbEJyZWFrSW5SdWxl2gIqVFNfU09VUkNFX0NPTlRST0xfSU5URVJFU1RfTE9OR19URVJNX1RPUElD6AID+gILTk9STUFMX0ZMT1eKAyA3NDUxMDFjMjVhNDk0NGIwOTI0MDlmMTg1Mzk4OWQ5ZZoDDQoCdjIQABoFb3RoZXKoA+4D2AMA6gMcQ29udHJvbEludGVyZXN0TG9uZ1Rlcm1Ub3BpY/oDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBIK4igL5BAAAAEDS8WI/gQUAAAAAAAAAAIkFHaIauMBGtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFD+AFAOgFAPAFC5AGAKAGPagGA5ICLgoJNzY1NDQzNjQyEhMxOTk0OTE1OTA1MDI1NjIzODM5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "62_1768600295.376",
+      "type": "feed",
+      "offset": 62,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600295,
+      "updated_time": 1768600295,
+      "target": {
+        "created_time": 1760360889,
+        "voteup_count": 5215,
+        "is_copyable": true,
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1961176394873698259",
+        "thanks_count": 504,
+        "reshipment_settings": "allowed",
+        "segment_infos": [
+          {
+            "pid": "onRTbPeZ",
+            "text": "1.不吃白米饭，吃赤小豆混合糙米的杂粮饭，为了去除陈米的味道，用茶水浸泡，再用盐渍梅干的酸味遮盖不新鲜的味道",
+            "marks": [
+              {
+                "start_index": 8,
+                "end_index": 54,
+                "seg_info": {
+                  "seg_ids": [
+                    "1966790386652550728"
+                  ],
+                  "is_like": false,
+                  "like_count": 15,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "x5DM2P5-",
+            "text": "3.基本不吃肉，要吃肉也不吃新鲜肉，吃风干的鱼干。吃鱼干的时候，也不能大口吃，把鱼干切成小块，放到木盒里，称之为楚割（好，日本人就是讲究）",
+            "marks": [
+              {
+                "start_index": 59,
+                "end_index": 68,
+                "seg_info": {
+                  "seg_ids": [
+                    "1965086318443864847"
+                  ],
+                  "is_like": false,
+                  "like_count": 26,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "nvRg9NVI",
+            "text": "5.葛根粉放致死量的糖，做成素焖子吃，虽然是素的但是叫羊羹",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995162431677302681"
+                  ],
+                  "is_like": false,
+                  "like_count": 87,
+                  "comment_count": 8,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "feoIfsPp",
+            "text": "6.自酿酒，酿酒先用脚踩，然后用口水当发酵媒介",
+            "marks": [
+              {
+                "start_index": 2,
+                "end_index": 23,
+                "seg_info": {
+                  "seg_ids": [
+                    "1961490110202745007"
+                  ],
+                  "is_like": false,
+                  "like_count": 61,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7Yiq55ht",
+            "text": "7.用大根（白萝卜）煮鱼干，每次只能吃一根萝卜，吃多了败家，日子别过了",
+            "marks": [
+              {
+                "start_index": 2,
+                "end_index": 35,
+                "seg_info": {
+                  "seg_ids": [
+                    "1961538304320189678"
+                  ],
+                  "is_like": false,
+                  "like_count": 51,
+                  "comment_count": 4,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "pUqTyW1Y",
+            "text": "8.融入酒文化，三三见九，一道菜喝三杯酒，不喝就是不合群",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1962661458975395897"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bve4MSMi",
+            "text": "9.用红豆泥裹糯米代替其他糕点",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 9,
+                "seg_info": {
+                  "seg_ids": [
+                    "1965086712876237746"
+                  ],
+                  "is_like": false,
+                  "like_count": 32,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "HHweOFZb",
+            "text": "10.用味增汤泡草绳，系在腰上，打仗吃饭的时候，切下一节泡水当汤。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1961594136915346379"
+                  ],
+                  "is_like": false,
+                  "like_count": 50,
+                  "comment_count": 4,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "rKv3M04L",
+            "text": "11.不喝高香烘焙绿茶，只喝寡淡无味，苦涩的不行的蒸青茶",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1961760136965096420"
+                  ],
+                  "is_like": false,
+                  "like_count": 18,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Qgtsuw6U",
+            "text": "12.吃茶泡饭只加一次汤，加多了浪费",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1961538465314370871"
+                  ],
+                  "is_like": false,
+                  "like_count": 34,
+                  "comment_count": 4,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "R5ukdXuQ",
+            "text": "13.大米饭掺麦子，用萝卜干下饭",
+            "marks": [
+              {
+                "start_index": 2,
+                "end_index": 16,
+                "seg_info": {
+                  "seg_ids": [
+                    "1961602527763079238"
+                  ],
+                  "is_like": false,
+                  "like_count": 27,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "O-bJMLKW",
+            "text": "14.少吃油，太长时间不吃胰腺脆弱，吃油容易腹泻",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1961766686937047733"
+                  ],
+                  "is_like": false,
+                  "like_count": 20,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "updated_time": 1760361154,
+        "allow_segment_interaction": true,
+        "is_navigator": false,
+        "question": {
+          "question_type": "normal",
+          "author": {
+            "url": "https://api.zhihu.com/people/2948c158a28b0645532381af240cc23c",
+            "url_token": "huo-xing-hou-ji-zhe",
+            "name": "火星后继者",
+            "headline": "旅行社签证美工计调",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-6af671d861ab06c04854a968b96c3d42_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 241339,
+            "is_following": false,
+            "id": "2948c158a28b0645532381af240cc23c",
+            "user_type": "people",
+            "is_followed": false
+          },
+          "created": 1552099990,
+          "bound_topic_ids": [
+            229,
+            285,
+            1761,
+            23107
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "id": "315182913",
+          "title": "怎么才能活出日本战国大名的感觉？",
+          "comment_count": 13,
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/315182913",
+          "answer_count": 0,
+          "excerpt": "",
+          "type": "question",
+          "follower_count": 0,
+          "is_following": false
+        },
+        "excerpt_new": "1.不吃白米饭，吃赤小豆混合糙米的杂粮饭，为了去除陈米的味道，用茶水浸泡，再用盐渍梅干的酸味遮盖不新鲜的味道 2.喝酒不吃下酒菜，两个人就着一点味增汤硬喝一夜，味噌类似中国的大酱，不如大酱好吃 3.基本不吃肉，要吃肉也不吃新鲜肉，吃风干的鱼干。吃鱼干的时候，也不能大口吃，把鱼干切成小块，放到木盒里，称之为楚割（好，日本人就是讲究） 4.吃不新鲜的最便宜的秋刀鱼，内脏也不去除，保留最原始的味道 5.葛根粉放致死…",
+        "content": "<p data-pid=\"onRTbPeZ\">1.不吃白米饭，吃赤小豆混合糙米的杂粮饭，为了去除陈米的味道，用茶水浸泡，再用盐渍梅干的酸味遮盖不新鲜的味道</p><p data-pid=\"-Iz0PEYs\">2.喝酒不吃下酒菜，两个人就着一点味增汤硬喝一夜，味噌类似中国的大酱，不如大酱好吃</p><p data-pid=\"x5DM2P5-\">3.基本不吃肉，要吃肉也不吃新鲜肉，吃风干的鱼干。吃鱼干的时候，也不能大口吃，把鱼干切成小块，放到木盒里，称之为楚割（好，日本人就是讲究）</p><p data-pid=\"w3jSJIdZ\">4.吃不新鲜的最便宜的秋刀鱼，内脏也不去除，保留最原始的味道</p><p data-pid=\"nvRg9NVI\">5.葛根粉放致死量的糖，做成素焖子吃，虽然是素的但是叫羊羹</p><p data-pid=\"feoIfsPp\">6.自酿酒，酿酒先用脚踩，然后用口水当发酵媒介</p><p data-pid=\"7Yiq55ht\">7.用大根（白萝卜）煮鱼干，每次只能吃一根萝卜，吃多了败家，日子别过了</p><p data-pid=\"pUqTyW1Y\">8.融入酒文化，三三见九，一道菜喝三杯酒，不喝就是不合群</p><p data-pid=\"bve4MSMi\">9.用红豆泥裹糯米代替其他糕点</p><p data-pid=\"HHweOFZb\">10.用味增汤泡草绳，系在腰上，打仗吃饭的时候，切下一节泡水当汤。</p><p data-pid=\"rKv3M04L\">11.不喝高香烘焙绿茶，只喝寡淡无味，苦涩的不行的蒸青茶</p><p data-pid=\"Qgtsuw6U\">12.吃茶泡饭只加一次汤，加多了浪费</p><p data-pid=\"R5ukdXuQ\">13.大米饭掺麦子，用萝卜干下饭</p><p data-pid=\"O-bJMLKW\">14.少吃油，太长时间不吃胰腺脆弱，吃油容易腹泻</p>",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal",
+        "author": {
+          "id": "f8435d973c6b72c4a57a696059b226b5",
+          "name": "收敛性千万鲜面包",
+          "headline": "不热烈也要自由",
+          "avatar_url": "https://picx.zhimg.com/50/v2-83d8a8dba1cf83d7f719cd79939b68b7_l.jpg?source=b6762063",
+          "followers_count": 4440,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/f8435d973c6b72c4a57a696059b226b5",
+          "user_type": "people",
+          "url_token": "cao-jing-yuan-87",
+          "is_org": false,
+          "gender": 0
+        },
+        "excerpt": "1.不吃白米饭，吃赤小豆混合糙米的杂粮饭，为了去除陈米的味道，用茶水浸泡，再用盐渍梅干的酸味遮盖不新鲜的味道 2.喝酒不吃下酒菜，两个人就着一点味增汤硬喝一夜，味噌类似中国的大酱，不如大酱好吃 3.基本不吃肉，要吃肉也不吃新鲜肉，吃风干的鱼干。吃鱼干的时候，也不能大口吃，把鱼干切成小块，放到木盒里，称之为楚割（好，日本人就是讲究） 4.吃不新鲜的最便宜的秋刀鱼，内脏也不去除，保留最原始的味道 5.葛根粉放致死…",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "id": "1961176394873698259",
+        "visited_count": 370183,
+        "comment_count": 471,
+        "preview_text": "",
+        "favorite_count": 945,
+        "type": "answer"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1961176394873698259}",
+      "attached_info": "CscFCOm+2qWIidKqsgEQBBoJNzUxNjc5MjAzILnzs8cGKN8oMNcDQD5KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDMyMzE3Mjk4YiAxMTU4NTQwYWY5NDYyOGNlOTQ0YzhkYzY4Nzc2NDgzMXITMTk2MTE3NjM5NDg3MzY5ODI1OYoBCTMxNTE4MjkxM6oBCXJlY29tbWVuZMIBIGY4NDM1ZDk3M2M2YjcyYzRhNTdhNjk2MDU5YjIyNmI18gEKCAwSBk5vcm1hbPIBKAgKEiQxYzM4NjJkMi1hMmMxLTQyMzAtYWE3NC1mYzIyYzhjNDhlZjDyAQYICxICMTGCAgCIAvGxq8a8M5ICIGY4NDM1ZDk3M2M2YjcyYzRhNTdhNjk2MDU5YjIyNmI1mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCAvoCC05PUk1BTF9GTE9XigMgNzQ1MTAxYzI1YTQ5NDRiMDkyNDA5ZjE4NTM5ODlkOWWaAw0KAnYyEAAaBW90aGVyqAOHzBbYAwD6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE1N8gEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYPx9mj+BBQAAAAAAAAAAiQUdohq4wEa0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AULkAYAoAY+qAYAkgIuCgk3NTE2NzkyMDMSEzE5NjExNzYzOTQ4NzM2OTgyNTkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "63_1768600295.6",
+      "type": "feed",
+      "offset": 63,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600295,
+      "updated_time": 1768600295,
+      "target": {
+        "id": "1993994123062030575",
+        "voteup_count": 543,
+        "favorite_count": 645,
+        "is_copyable": false,
+        "excerpt": "你感觉到的冷漠，恰恰是这里最大的慈悲。 这是几个注定要在一个笼子里关上三十年的所谓同事之间所能保持的最安全的距离。 坦率的说在这里头，热情是最危险的信号。 除非你有巨大的利用价值，否则无缘无故的热情背后，往往是深不见底的坑，是等着你跳下去的陷阱。 所以大家其实也不是冷漠，只是在节能。 体制内是一个无限责任制的熟人社会。外面的公司，干得不爽了，和同事闹矛盾了，拍桌子走人，老死不相往来。 这里不行。 你看…",
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "author": {
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c948b117ba8e0c274e06d166e05c50e6_l.jpg?source=b6762063",
+          "gender": 1,
+          "name": "Kaiser",
+          "headline": "收藏再看丨资深半体制",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "地铁话题下的优秀答主",
+              "topic_names": [
+                "地铁"
+              ],
+              "topic_ids": [
+                1717
+              ]
+            }
+          ],
+          "followers_count": 83115,
+          "id": "dee9f7c9d1844ea794913841d3fd7ed8",
+          "url": "https://api.zhihu.com/people/dee9f7c9d1844ea794913841d3fd7ed8",
+          "url_token": "densen",
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1768185245,
+        "updated_time": 1768207991,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1993994123062030575",
+        "question": {
+          "follower_count": 0,
+          "bound_topic_ids": [
+            3946,
+            16857,
+            30252
+          ],
+          "detail": "",
+          "question_type": "normal",
+          "author": {
+            "user_type": "people",
+            "url_token": "xiao-mo-7-33-21",
+            "is_org": false,
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "9b1ca69a3615c1696001c127422b2275",
+            "url": "https://api.zhihu.com/people/9b1ca69a3615c1696001c127422b2275",
+            "name": "小摸",
+            "headline": "摆烂Coser/摆烂画师",
+            "avatar_url": "https://picx.zhimg.com/50/v2-01b6f0d1161aac318ec76de759d5d861_l.jpg?source=b6762063",
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "文化艺术行业 从业人员"
+              }
+            ],
+            "followers_count": 60
+          },
+          "title": "为什么体制内人际关系很冷漠？",
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1717548650,
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/658117078",
+          "answer_count": 0,
+          "comment_count": 5,
+          "is_following": false,
+          "id": "658117078",
+          "type": "question"
+        },
+        "reshipment_settings": "disallowed",
+        "excerpt_new": "你感觉到的冷漠，恰恰是这里最大的慈悲。 这是几个注定要在一个笼子里关上三十年的所谓同事之间所能保持的最安全的距离。 坦率的说在这里头，热情是最危险的信号。 除非你有巨大的利用价值，否则无缘无故的热情背后，往往是深不见底的坑，是等着你跳下去的陷阱。 所以大家其实也不是冷漠，只是在节能。 体制内是一个无限责任制的熟人社会。外面的公司，干得不爽了，和同事闹矛盾了，拍桌子走人，老死不相往来。 这里不行。 你看…",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "visited_count": 25084,
+        "comment_count": 31,
+        "preview_text": "",
+        "is_navigator": false,
+        "thanks_count": 76,
+        "content": "<p data-pid=\"EmhBf_Gf\">你感觉到的冷漠，恰恰是这里最大的慈悲。</p><p data-pid=\"05mIcZNb\">这是几个注定要在一个笼子里关上三十年的所谓同事之间所能保持的最安全的距离。</p><p data-pid=\"uFRLlGAd\">坦率的说在这里头，热情是最危险的信号。</p><p data-pid=\"NREwfjF0\">除非你有巨大的利用价值，否则无缘无故的热情背后，往往是深不见底的坑，是等着你跳下去的陷阱。</p><p data-pid=\"qp_Ur1bm\">所以大家其实也不是冷漠，只是在节能。</p><p data-pid=\"WWX_9z2E\"><b>体制内是一个无限责任制的熟人社会。</b></p><p data-pid=\"akoI_ptQ\">外面的公司，干得不爽了，和同事闹矛盾了，拍桌子走人，老死不相往来。</p><p data-pid=\"9eCOhZdS\">这里不行。</p><p data-pid=\"LCMGaNqr\">你看看你对面的那个大姐，隔壁的大哥，只要不出意外，你们这辈子都要在一个锅里搅马勺。</p><p data-pid=\"Qe9XiXb6\">抬头不见低头见。</p><p data-pid=\"kdzwaMKd\"><b>因为无法物理隔离，所以必须进行精神隔离。</b></p><p data-pid=\"jiX_x3AQ\">大家彼此间那种客客气气的疏离感，就是一道防止互相伤害的防火墙。</p><p data-pid=\"qZjvoeI0\">如果大家见人都掏心掏肺，都知道了彼此的底裤是什么颜色，一旦有了利益冲突，撕破脸的时候，那就是刀刀见血，招招致命。</p><p data-pid=\"JC5PEkGi\">为了不让局面变成那样的修罗场，大家都默契地选择了戴上面具。</p><p data-pid=\"qJRdvy7b\">面具之下，才是安全的。</p><p data-pid=\"6MUM_17I\"><b>再往深了看，这里本来就是零和博弈的角斗场。</b></p><p data-pid=\"2owB41bJ\">位置就那么几个，副科、正科、副处，每一个台阶上都站满了人，每一个台阶下都挤满了想把上面人拽下来的人。</p><p data-pid=\"5UDBZFaM\">资源是有限的，权力是排他的。你上去了，我就得下去，你多拿了绩效，我就得少拿。</p><p data-pid=\"wfHv_RCw\">大家是同槽争食的关系。</p><p data-pid=\"DvwpRlhD\">跟你的竞争对手称兄道弟？跟随时可能踩着你上位的人推心置腹？</p><p data-pid=\"EyoRpXZf\">那真是嫌自己死得不够快。</p><p data-pid=\"P3swa-Yd\">你以为酒桌上跟你勾肩搭背、拍着胸脯说有事说话的兄弟是真的兄弟？那大概率是在麻痹你。</p><p data-pid=\"Nfq0E4Ez\">等你真信了，把后背露给他，把心里的牢骚讲给他，第二天这些话就可能会变成射向你的子弹。</p><p data-pid=\"_5Ppp53y\">在这个圈子里，没有永远的朋友，只有永远的利益。</p><p data-pid=\"_2OT8tGj\">所有的温情脉脉，在那个红头文件下来的一瞬间都会碎成渣。</p><p data-pid=\"CoXAjQa8\">还有那条看不见的高压线，逼得人不得不闭嘴。</p><p data-pid=\"veIv0uck\"><b>体制内没有秘密。</b></p><p data-pid=\"AYX1eP95\">这个地方的八卦消息传导效率比光速还快。</p><p data-pid=\"D7GGF9-A\">你今天中午在食堂随口吐槽领导或单位的一句闲话，下午就能传到领导耳朵里，而且是加了油醋、变了味的版本。</p><p data-pid=\"-yYWL3Mq\">每个人都是潜在的情报员，你身边的每个人都可能在收集别人的把柄以备不时之需。</p><p data-pid=\"XL-e3Pj_\">多说一句话，就多一份风险，你多表达一个观点，就多一个被攻击的靶子。</p><p data-pid=\"DO4RsVBW\">为了不留把柄，沉默寡言就成了标配。</p><p data-pid=\"dS9powSn\">你看着大家每天坐在那儿，脸上没什么表情，说话滴水不漏，像个机器人，那是千锤百炼出来的生存智慧。</p><p data-pid=\"63Dkmzeg\">毕竟冷漠才是最好的防弹衣。</p><p data-pid=\"DfUI3fXK\">只要我不表态，你就抓不住我的错，就像情场上只要你不动情，渣男渣女就伤不了你的心。</p><p data-pid=\"uufmTAh3\">只要我跟谁都保持距离，那派系斗争的脏水就泼不到我身上。</p><p data-pid=\"qOFQ6JeO\"><b>除此之外，还有一个更扎心的一个真相是，你觉得冷是因为你的位置还不够高。</b></p><p data-pid=\"N6gLRSXu\">你看看那些手握实权的一把手，看看那些背景深厚的二代们，或者那些业务能力强到离谱的大拿。他们会觉得身边冷吗？</p><p data-pid=\"sdV1kDO4\">一点都不冷，他们身边全是笑脸，全是温度，嘘寒问暖，如沐春风。</p><p data-pid=\"D6NLYLn3\">在这里，冷漠其实是势利眼的另一种表达。</p><p data-pid=\"0dSv7ZhO\">大家都在心里装着一把算盘，精准盘算着每一次社交的回报率。</p><p data-pid=\"vPl5XNAB\">对一个既没背景又没实权、干活还一般的普通科员投入热情，是典型的亏本买卖。</p><p data-pid=\"TMBb2rCN\">这时候你的情绪价值在别人眼里一文不值。</p><p data-pid=\"Raej5yTq\">既然在你身上榨不出油水，既然你不能给别人带来任何利益，那为什么要浪费时间听你唠叨家常？为什么要浪费精力去照顾你的情绪？</p><p data-pid=\"lm7zt1u4\">不如把时间和笑脸留给能决定自己命运的人，留给能给自己带来实惠的人，这才是理性人功利主义的选择。</p><p data-pid=\"hVbIKbkT\">所以，你本来就不应该指望在单位找温暖了。</p><p data-pid=\"doRrsZmo\">要想在这种冰窖一样的环境里活得舒服，你得学会把自己变成一个保温杯。</p><p data-pid=\"Db1bpxW5\">外表要是冷的，内心要是热的。</p><p data-pid=\"aBCcQq1f\">外表的冷，是有边界，是不滥情，是拒人于千里之外的客气。</p><p data-pid=\"O05zRaQ_\">内心的热，是爱自己，是爱生活，是把所有的能量都留给自己和家人。</p><p data-pid=\"Mr3mRHRO\">具体也是有几个建议的。</p><p data-pid=\"TMMUlyud\"><b>第一，彻底戒掉你的倾诉欲</b></p><p data-pid=\"qYOoWPdy\">把你那些痛苦、委屈、秘密，统统烂在肚子里，实在憋不住了，回家跟你的猫说，跟你的狗说，甚至对着墙角的拖把说，反正就是别跟同事说。</p><p data-pid=\"RKjvIuYM\">否则你以为自己在找共鸣，结果很可能是给别人递刀子。</p><p data-pid=\"vw5oveYh\">就算你不聊公事，你的私事也可能成为别人茶余饭后的谈资或者是到了某个关键节点（比如提拔前的考察）变成攻击你的软肋。</p><p data-pid=\"_HRhla6z\">你家里的鸡毛蒜皮，情感纠葛，身体隐疾，一旦说出口，就可能成了别人手里对付你的筹码。</p><p data-pid=\"CCCmRixM\"><b>第二，学会去人格化</b></p><p data-pid=\"INxg3n4w\">你就把单位看成一个巨大的真人RPG游戏。</p><p data-pid=\"J1cwFWFt\">身边的同事是NPC，领导是任务发布者。你来这里是做任务赚金币的，不是来谈恋爱的，也不是来交朋友的。</p><p data-pid=\"ECJQJSLJ\">不要寻求情感回馈，只寻求利益交割。</p><p data-pid=\"YwovpfxV\">他对你冷脸敷衍，那是NPC的设定，你不需要生气。他若给你穿小鞋，那是关卡难度，你只需要想办法通关。</p><p data-pid=\"JHgoQeb6\">总之当你把感情从工作中剥离出去，你会发现，那些冷漠根本伤不到你分毫，你只会觉得好笑，看着他们为了几块骨头演得那么投入。</p><p data-pid=\"_eXxHxms\"><b>第三，努力提升自己的热源</b></p><p data-pid=\"um6j0xNN\">当你觉得周围冷的时候，很可能是因为你自己不是个发热源，需要靠别人的体温来取暖。</p><p data-pid=\"2u7QtBo6\">所以，要想感受到温度甚至热度，你得去搞定核心业务，去成为那个离了你就转不动的核心组件，或者去经营好上面的关系、让自己手里有牌。</p><p data-pid=\"70UXnDcv\">当你手里有了签字权或者有了分配权，成了那个能解决大麻烦的人、能调动别人调不动的资源时。你会发现，周围的空气突然变热了。</p><p data-pid=\"PDo8E6Ty\">那些曾经对你爱答不理、敷衍了事的人，突然开始对你笑脸相迎、称兄道弟了。</p><p data-pid=\"iDjsYtsX\"><b>这就是人性。</b></p>",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "uFRLlGAd",
+            "text": "坦率的说在这里头，热情是最危险的信号。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994191076756574441"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "qp_Ur1bm",
+            "text": "所以大家其实也不是冷漠，只是在节能。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994294479302190034"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WWX_9z2E",
+            "text": "体制内是一个无限责任制的熟人社会。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 17,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994294497773905247"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "kdzwaMKd",
+            "text": "因为无法物理隔离，所以必须进行精神隔离。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994294518795744763"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "qJRdvy7b",
+            "text": "面具之下，才是安全的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 11,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994090882161452042"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "2owB41bJ",
+            "text": "位置就那么几个，副科、正科、副处，每一个台阶上都站满了人，每一个台阶下都挤满了想把上面人拽下来的人。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 50,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994294572713542080"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "5UDBZFaM",
+            "text": "资源是有限的，权力是排他的。你上去了，我就得下去，你多拿了绩效，我就得少拿。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 38,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994191273339397324"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "qOFQ6JeO",
+            "text": "除此之外，还有一个更扎心的一个真相是，你觉得冷是因为你的位置还不够高。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 35,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994191352917951516"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "hVbIKbkT",
+            "text": "所以，你本来就不应该指望在单位找温暖了。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994091055210062599"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Db1bpxW5",
+            "text": "外表要是冷的，内心要是热的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 14,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994826609644041847"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993994123062030575}",
+      "attached_info": "CusFCOm+2qWIidKqsgEQBBoJNzY1MDQ1Nzg1IJ27kcsGKJ8EMB9AP0o8CilUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX0FDVElPThIJNzE2NzY5NzMyGAAgADoAWgkxMDg1MjYyMzBiIDExNTg1NDBhZjk0NjI4Y2U5NDRjOGRjNjg3NzY0ODMxchMxOTkzOTk0MTIzMDYyMDMwNTc1igEJNjU4MTE3MDc4qgEJcmVjb21tZW5kwgEgZGVlOWY3YzlkMTg0NGVhNzk0OTEzODQxZDNmZDdlZDjyAQoIDBIGTm9ybWFs8gEoCAoSJDg0OTAyNDgyLWIyMjEtNGJiZS05MzU1LTI5NjY5N2I2MjFhNvIBBggLEgIxMYICAIgC8bGrxrwzkgIgZGVlOWY3YzlkMTg0NGVhNzk0OTEzODQxZDNmZDdlZDiaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWUmV2aXNpdFZhbHVlV2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9O6AIF+gILTk9STUFMX0ZMT1eKAyA3NDUxMDFjMjVhNDk0NGIwOTI0MDlmMTg1Mzk4OWQ5ZZoDDQoCdjIQABoFb3RoZXKoA/zDAdgDAOoDHWZpcnN0RGVncmVlVXNlckFjdGlvblJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoHlwnT+BBQAAAAAAAAAAiQUdohq4wEa0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AULkAYAoAY/qAYAkgIuCgk3NjUwNDU3ODUSEzE5OTM5OTQxMjMwNjIwMzA1NzUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "64_1768600295.349",
+      "type": "feed",
+      "offset": 64,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600295,
+      "updated_time": 1768600295,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1995504529131726148",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "author": {
+          "followers_count": 5,
+          "user_type": "people",
+          "headline": "文艺青年",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-94978708bd404e2c560a8f41f907bf45_l.jpg?source=b6762063",
+          "gender": -1,
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "id": "a5e424249bee8a5a267fd9c48a0ea71f",
+          "url": "https://api.zhihu.com/people/a5e424249bee8a5a267fd9c48a0ea71f",
+          "url_token": "sookie-63-75",
+          "name": "破晓星辰"
+        },
+        "is_copyable": true,
+        "question": {
+          "answer_count": 0,
+          "bound_topic_ids": [
+            113,
+            97202
+          ],
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/1995437419542094344",
+          "follower_count": 0,
+          "id": "1995437419542094344",
+          "created": 1768529354,
+          "comment_count": 1,
+          "title": "成年人阅读究竟是凭兴趣随心所欲阅读，还是实用性功能性依据现实问题索引阅读？",
+          "author": {
+            "user_type": "people",
+            "url_token": "zhang-qu-73-88",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-809720289696da71b5d57efe98aab066_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 3,
+            "url": "https://api.zhihu.com/people/646c12cf4895c1bea9a18e0663770957",
+            "is_following": false,
+            "name": "卡尔斯特",
+            "is_followed": false,
+            "id": "646c12cf4895c1bea9a18e0663770957"
+          },
+          "excerpt": "",
+          "detail": "",
+          "type": "question"
+        },
+        "content": "<p data-pid=\"ksA2dqTL\">我觉得这个问题，要看你把阅读当做什么来看，如果功利性很强，就是为了解决实际问题，那么你就可以看专业的书，可能没有很多时间啃大部头，用AI直接给你答案，但是AI就是一个工具，它有时会出错的，它是有算法的，有些事情它解答不了。</p><p data-pid=\"tGzq94Ow\">我更倾向于随心所欲的阅读，阅读你手边所有的文字资料。如果你是有阅读习惯的人，看自己感兴趣的书，就是你最好的放松方式，可以成为你生活中的一部分。</p><p data-pid=\"Np701Oil\">我分享一下我今天看的书，是一本名字为《文学中的人生进化课》的书，里面的书签，我觉得写得特别好。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b116d5f9364134b8b2bd0c4f494c8caf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3024\" data-rawheight=\"4032\" data-original-token=\"v2-ab698a8a0092c0f8e8d8a5b94d168506\" class=\"origin_image zh-lightbox-thumb\" width=\"3024\" data-original=\"https://pic4.zhimg.com/v2-b116d5f9364134b8b2bd0c4f494c8caf_r.jpg\"/></figure><p data-pid=\"v57VBByk\">成年人没有学业压力，正好可以有时间去看以前没有时间看的书，你可以拓宽自己的知识面，就像我以前好讨厌数学，但是现在我有时间会看一些数学方面或是思维方面的书，收获也是很大的，感觉自己开窍了。</p><p data-pid=\"kGsXZzYI\">虽然这对于我的工作和生活没什么实用性帮助，但是生活哪有那么多意义，风吹哪页读哪页，把阅读就像心中的火种一样保留着。</p><p data-pid=\"nCULSV9y\">哪一天你遇到一本特别喜欢的书，不亚于你认识一个知己，反反复复的读。</p><p data-pid=\"_sh5oqDX\">还有，其实没有任何一本书是与生活风马牛不相及的，都是相通的，关于人生、人性、真理、美，每一个主题都会在生活中与你相遇。</p><p data-pid=\"3nKYWrlt\">以前我看好多名著小说，感觉看过了，但是总是忘记思考，觉得知道这个故事就是全部了，其实，一本书背后的思考才是最重要的。我现在看好多学者解读，把之前囫囵吞枣的作品再看一遍，真的是细糠啊。</p>",
+        "vote_next_step": "vote",
+        "created_time": 1768545354,
+        "comment_count": 0,
+        "excerpt_new": "我觉得这个问题，要看你把阅读当做什么来看，如果功利性很强，就是为了解决实际问题，那么你就可以看专业的书，可能没有很多时间啃大部头，用AI直接给你答案，但是AI就是一个工具，它有时会出错的，它是有算法的，有些事情它解答不了。 我更倾向于随心所欲的阅读，阅读你手边所有的文字资料。如果你是有阅读习惯的人，看自己感兴趣的书，就是你最好的放松方式，可以成为你生活中的一部分。 我分享一下我今天看的书，是一本名字为…",
+        "preview_type": "default",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-ab698a8a0092c0f8e8d8a5b94d168506_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-ab698a8a0092c0f8e8d8a5b94d168506_720w.jpg?source=b6762063",
+        "favorite_count": 0,
+        "updated_time": 1768545354,
+        "excerpt": "我觉得这个问题，要看你把阅读当做什么来看，如果功利性很强，就是为了解决实际问题，那么你就可以看专业的书，可能没有很多时间啃大部头，用AI直接给你答案，但是AI就是一个工具，它有时会出错的，它是有算法的，有些事情它解答不了。 我更倾向于随心所欲的阅读，阅读你手边所有的文字资料。如果你是有阅读习惯的人，看自己感兴趣的书，就是你最好的放松方式，可以成为你生活中的一部分。 我分享一下我今天看的书，是一本名字为…",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "type": "answer",
+        "thanks_count": 0,
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "id": "1995504529131726148",
+        "voteup_count": 1,
+        "visited_count": 6,
+        "is_navigator": false,
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995504529131726148}",
+      "attached_info": "Cp4GCOm+2qWIidKqsgEQBBoJNzY1NjY5MjQ1IMq4p8sGKAEwAEBASiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBaCTExODA4MzQzM2IgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5OTU1MDQ1MjkxMzE3MjYxNDiKARMxOTk1NDM3NDE5NTQyMDk0MzQ0qgEJcmVjb21tZW5kwgEgYTVlNDI0MjQ5YmVlOGE1YTI2N2ZkOWM0OGEwZWE3MWbyAQoIDBIGTm9ybWFs8gEoCAoSJDNkNTA0NDFlLTRlODktNDVlZi1iMDdjLWEyNDBkZmZhOGMxZPIBBggLEgIxMYICAIgC8bGrxrwzkgIgYTVlNDI0MjQ5YmVlOGE1YTI2N2ZkOWM0OGEwZWE3MWaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCA/oCC05PUk1BTF9GTE9XigMgNzQ1MTAxYzI1YTQ5NDRiMDkyNDA5ZjE4NTM5ODlkOWWaAw0KAnYyEAAaBW90aGVyqAMG2AMA6gMidGV4dF8xMmhvdXJfdW5pZmluc2hlZF9yZWNhbGxlcl92MvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCENAXGMAfIiN2Mi1hYjY5OGE4YTAwOTJjMGY4ZThkOGE1Yjk0ZDE2ODUwNoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIAEtdz+BBQAAAAAAAAAAiQUdohq4wEa0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AULkAYAoAZAqAYBkgIuCgk3NjU2NjkyNDUSEzE5OTU1MDQ1MjkxMzE3MjYxNDgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "65_1768600295.265",
+      "type": "feed",
+      "offset": 65,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600295,
+      "updated_time": 1768600295,
+      "target": {
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "voteup_count": 8,
+        "preview_type": "default",
+        "favorite_count": 15,
+        "answer_type": "normal",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 296,
+        "author": {
+          "url": "https://api.zhihu.com/people/8538ab2cd5288d4e78b4b638cb7450ec",
+          "url_token": "zhan-wang-wei-lai-91-56",
+          "name": "今日科普",
+          "headline": "公众号：跨界话题社",
+          "is_followed": false,
+          "followers_count": 153,
+          "is_following": false,
+          "id": "8538ab2cd5288d4e78b4b638cb7450ec",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-38d9b6f790648fdaa215e7335b1bef9d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1
+        },
+        "created_time": 1768227534,
+        "is_copyable": true,
+        "excerpt": "能。 但听我一句：接下来这3000多字，别图快，一字一字看。一、你问“能不能”，我先问你“怎么定义搞AI”很多人觉得“搞AI”就是坐在Google Brain里发顶会论文，或者指挥几百块GPU跑大模型——那叫“搞顶尖AI研究”。这不只是三本，很多985研究生也够不着。 但“搞AI”还有另一种：在创业公司里用PyTorch搭个推荐模型，在传统企业里做个简单的图像分类工具，在甲方那里调包调参解决业务问题，甚至做AI产品的售前、运营、项目管…",
+        "excerpt_new": "能。 但听我一句：接下来这3000多字，别图快，一字一字看。一、你问“能不能”，我先问你“怎么定义搞AI”很多人觉得“搞AI”就是坐在Google Brain里发顶会论文，或者指挥几百块GPU跑大模型——那叫“搞顶尖AI研究”。这不只是三本，很多985研究生也够不着。 但“搞AI”还有另一种：在创业公司里用PyTorch搭个推荐模型，在传统企业里做个简单的图像分类工具，在甲方那里调包调参解决业务问题，甚至做AI产品的售前、运营、项目管…",
+        "id": "1994171493744141390",
+        "url": "https://api.zhihu.com/answers/1994171493744141390",
+        "thanks_count": 0,
+        "comment_count": 1,
+        "is_labeled": false,
+        "navigator_vote": false,
+        "updated_time": 1768227534,
+        "question": {
+          "id": "275178587",
+          "bound_topic_ids": [
+            99,
+            350,
+            988,
+            2143,
+            5723
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/275178587",
+          "created": 1524932000,
+          "comment_count": 34,
+          "type": "question",
+          "author": {
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "727f6f06b6d2402f705aa7a6da75b072",
+            "url_token": "kaka-79-59",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-a0e089f26dd5ce3ce5a8f15e3d5419ab_l.jpg?source=b6762063",
+            "headline": "",
+            "is_org": false,
+            "followers_count": 2,
+            "url": "https://api.zhihu.com/people/727f6f06b6d2402f705aa7a6da75b072",
+            "user_type": "people",
+            "name": "Kaka"
+          },
+          "title": "三本本科生能搞人工智能吗？",
+          "question_type": "normal",
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "detail": ""
+        },
+        "preview_text": "",
+        "content": "<p data-pid=\"sIo6BGdI\">能。<br/>但听我一句：接下来这3000多字，别图快，一字一字看。</p><hr/><h2>一、你问“能不能”，我先问你“怎么定义搞AI”</h2><p data-pid=\"Ro6EV6zU\">很多人觉得“搞AI”就是坐在Google Brain里发顶会论文，或者指挥几百块GPU跑大模型——那叫“搞顶尖AI研究”。这不只是三本，很多985研究生也够不着。<br/>但“搞AI”还有另一种：在创业公司里用PyTorch搭个推荐模型，在传统企业里做个简单的图像分类工具，在甲方那里调包调参解决业务问题，甚至做AI产品的售前、运营、项目管理。<br/>你说这叫不叫搞AI？当然叫。这就是这个行业里80%的人正在做的事。</p><p data-pid=\"2AUgQBk9\">所以，三本能搞AI吗？<br/>如果你的目标是第一种——难，极难，难到需要你付出比985学生多三倍的努力，还要点运气。<br/>如果你的目标是第二种——完全能，且已经有很多三本、专科、非科班的人在里面活得好好的，甚至混得风生水起。</p><p data-pid=\"0GzRTP3f\">你选哪条路，决定了你该以什么心态看下面的话。</p><hr/><h2>二、现实耳光：学历在求职时就是会响</h2><p data-pid=\"Rt2kmyQk\">别信什么“学历无用论”，那是毒鸡汤。<br/>你投简历时，大厂的ATS系统第一关就可能因为“三本”两个字把你筛掉——HR根本看不到你的项目多牛。<br/>一个公开数据：某大厂2023年算法岗简历通过率，985硕士约12%，普通一本硕士约4%，三本硕士？不到1%。<br/>这是现实，不是歧视，是效率筛选。企业面对几千份简历，先用学历筛一轮是最快的方法。</p><p data-pid=\"_qD__5PM\">但注意：<b>这只发生在你“只有学历可看”的时候</b>。<br/>如果你的GitHub有200星项目，Kaggle拿了银牌，实习做过完整落地的AI项目，甚至发过一篇还不错的会议论文——这时候学历就成了“次要信息”。<br/>企业招人是来解决问题的，不是来收集毕业证的。<br/>所以，三本生的核心战略就一句话：<b>用一切手段，让简历上“非学历”的部分亮到刺眼，刺到HR必须点开看。</b></p><hr/><h2>三、你会干什么，比你是哪所学校的更重要</h2><p data-pid=\"P2GBR-T6\">AI岗位分很多种，你得先知道自己想干嘛、能干嘛：</p><p data-pid=\"kjhDHCpR\"><b>1. 算法岗</b><br/>最卷的赛道。需要扎实的数学基础、读论文复现代码的能力、对某个细分领域（比如目标检测、语义分割、预训练模型）的深度理解。<br/>三本生能进吗？能，但大概率不是BAT的中央研究院，而是：</p><ul><li data-pid=\"vYwzkzKf\">中小公司的算法组（比如做安防、医疗影像、金融风控的公司）<br/></li><li data-pid=\"2PWn0Wne\">大厂的边缘业务线（比如某个垂直行业的AI应用团队）<br/></li><li data-pid=\"ymx-4ifo\">海外中小厂（有时候反而更看重能力）<br/>前提是：你至少在某个细分技术上达到“能聊出细节”的水平，而不是只会说“我学过CNN”。</li></ul><p data-pid=\"00J-nfOr\"><b>2. 工程岗</b><br/>更务实的选择。把算法工程师训好的模型部署上线，优化推理速度，写C++/CUDA加速，做分布式训练框架维护。<br/>这里学历歧视相对小，因为更看重你代码稳不稳、懂不懂高并发、熟不熟docker/k8s。<br/>很多三本生从这里切入AI——先当AI工程师，再慢慢往算法靠。</p><p data-pid=\"cRaickNs\"><b>3. 数据岗</b><br/>数据挖掘、数据分析、特征工程。很多业务里所谓的“AI”其实就是特征工程+树模型。<br/>这块对数学要求略低，更重业务理解和数据处理能力。三本友好度较高。</p><p data-pid=\"smLZBAKM\"><b>4. 非技术岗</b><br/>AI产品经理、AI解决方案工程师、AI售前——这些岗位需要懂技术逻辑，但不要求手推公式。<br/>如果你沟通能力强，懂点技术，反而可能成为团队里稀缺的“桥梁型人才”。</p><p data-pid=\"HaGeVFFS\"><b>关键提醒</b>：别盯着“算法岗”一棵树。AI行业缺的不是调参侠，而是<b>能把技术落地产生钱的人</b>。</p><hr/><h2>四、学习路线：别一上来就搞Transformer</h2><p data-pid=\"Ne1abDkC\">很多人死就死在路线错了。一上来就啃《深度学习》，看李宏毅视频，结果连矩阵求导都懵。<br/>正确姿势：</p><p data-pid=\"8ds2aFW6\"><b>第一阶段：打地基（3-4个月）</b></p><ul><li data-pid=\"IN7ye9TY\">数学：线性代数（重点：矩阵运算、特征值分解）、概率统计（重点：贝叶斯、常见分布）、微积分（重点：梯度、最优化）。不用深到数学系水平，但至少能看懂公式。<br/></li><li data-pid=\"1hSodv44\">编程：Python必学，numpy/pandas/sklearn用熟。顺便学点Linux命令行和Git。<br/></li><li data-pid=\"XvFCEQXT\">经典机器学习：把周志华《机器学习》前10章啃完（特别是前三章和树模型、SVM那几章），配合吴恩达CS229（看2012年那个经典版就行）。<br/><b>目标</b>：能亲手不调包实现一个决策树、一个线性回归、一个简单的神经网络。</li></ul><p data-pid=\"-jBKDESI\"><b>第二阶段：进主线（4-6个月）</b></p><ul><li data-pid=\"so2ho7Rv\">深度学习基础：看CS231n（计算机视觉方向）或CS224n（NLP方向）。<br/></li><li data-pid=\"dA7LklJ0\">框架：PyTorch或TensorFlow二选一，建议PyTorch，更友好。<br/></li><li data-pid=\"DN-8c-jp\">做项目：从Kaggle入门比赛（比如Titanic、房价预测）开始，再到稍复杂的图像分类（CIFAR-10）、文本分类。<br/><b>目标</b>：能独立用PyTorch完成一个完整的分类任务，准确率别太差就行。</li></ul><p data-pid=\"jD1XST2D\"><b>第三阶段：找方向（长期）</b></p><ul><li data-pid=\"4ng0CWmg\">CV、NLP、推荐系统、强化学习……选一个你喜欢且有就业机会的领域深挖。<br/></li><li data-pid=\"sPmVcWGI\">读该领域经典论文（从2015-2018年的经典模型开始，比如ResNet、BERT），尝试复现代码。<br/></li><li data-pid=\"lM73VftZ\">参加一场正式比赛（Kaggle、天池、Signate都行），争取拿到前10%。<br/><b>目标</b>：在某个小领域达到“能和人讨论技术细节”的水平。</li></ul><p data-pid=\"2rQEbA3o\"><b>资源清单</b>：</p><ul><li data-pid=\"xGhjChgd\">书：《统计学习方法》（李航）、《机器学习》（周志华）、《深度学习》（花书可选读）。<br/></li><li data-pid=\"iZkJ8s1C\">课：吴恩达机器学习、CS231n、李沐的动手学深度学习。<br/></li><li data-pid=\"_clLIb_h\">平台：Kaggle、天池、Papers with Code、GitHub。<br/></li><li data-pid=\"OgisYFT2\">社区：知乎、Reddit的r/MachineLearning、Stack Overflow。</li></ul><hr/><h2>五、考研：三本生的救命稻草还是浪费时间？</h2><p data-pid=\"BVaHvHYV\"><b>如果你还在校，且学习能力还行，考研是条好路</b>。<br/>一个985硕士学历，能帮你：</p><ul><li data-pid=\"gXomWDrO\">过简历关<br/></li><li data-pid=\"x4Xh_70V\">接触实验室项目（哪怕只是打杂）<br/></li><li data-pid=\"c5XuNaG2\">认识导师和师兄师姐，内推机会增加<br/></li><li data-pid=\"99rxhdxq\">系统学一遍理论<br/></li></ul><p data-pid=\"2WK6XG68\">但注意：</p><ul><li data-pid=\"2q5sB6fD\">别为考研而考研。考个普通一本的AI硕士，可能不如你直接去工作三年积累的经验有用。<br/></li><li data-pid=\"FtismLHl\">如果考，目标至少是211以上的强组。<br/></li><li data-pid=\"6EsjUR2Q\">如果考不上，别死磕。AI行业变化快，三年时间你可能错过一个技术周期。</li></ul><p data-pid=\"EPeK5KKT\"><b>如果已经毕业</b>，慎重考虑脱产考研。可以考虑在职硕士（比如北大软微的非全），或者用项目经验直接冲。</p><hr/><h2>六、那些“三本逆袭”的人做对了什么？</h2><p data-pid=\"HsQk7Gzv\">我身边真实案例（隐去姓名和公司）：</p><p data-pid=\"p8VC3RDl\"><b>A君</b>：三本计算机，大二开始刷Kaggle，毕业前银牌。第一份工作在小公司做数据挖掘，两年后跳槽到二线厂当算法工程师，现在在某独角兽带小组。<br/><b>他的核心</b>：比赛成绩硬 + 代码能力强。</p><p data-pid=\"oJs_VsBC\"><b>B君</b>：三本电子，考研失败，报了个培训班（谨慎！）。出来后从测试岗切入AI项目，自学部署和优化，三年后转成AI工程岗，现在专做模型加速。<br/><b>他的核心</b>：从边缘岗位切入 + 死磕工程落地。</p><p data-pid=\"9_pCgX2f\"><b>C君</b>：三本数学，GitHub上维护了一个热门开源项目的中文教程，收获2k星。靠这个拿到创业公司offer，做NLP应用，现在负责整个项目。<br/><b>他的核心</b>：用开源项目建立个人品牌。</p><p data-pid=\"aouOpdk_\"><b>共同点</b>：</p><ol><li data-pid=\"hxUHAMKK\">至少在一个细分点上做到“比周围90%的人强”。<br/></li><li data-pid=\"A31cfCE0\">不挑起点，先进门再说。<br/></li><li data-pid=\"5fclLb6i\">持续学习——AI三个月一小变，不学就被甩开。</li></ol><hr/><h2>七、那些没人告诉你的坑</h2><ol><li data-pid=\"mweRKsmk\"><b>培训班坑</b>：“三个月包就业，年薪30万”——信了你就输。培训班只能教工具使用，教不出思维和能力。可以当入门引子，别当救命稻草。<br/></li><li data-pid=\"1U0cRv_I\"><b>调包侠坑</b>：只会用<code>model.fit()</code>，不懂背后原理，面试一问就死。<br/></li><li data-pid=\"MQWmQIDj\"><b>唯算法坑</b>：非算法岗不干，结果简历石沉大海。<br/></li><li data-pid=\"wqkbNrVC\"><b>追新坑</b>：天天追新论文，连ResNet都没复现过。<br/></li><li data-pid=\"MGS6dkDy\"><b>单打独斗坑</b>：不混社区，不参加比赛，不问人——信息差能害死你。</li></ol><hr/><h2>八、如果你现在就想动手，明天该干嘛？</h2><ol><li data-pid=\"sBljXZKV\">装好Python、PyTorch、Jupyter。<br/></li><li data-pid=\"7qF9u97X\">去Kaggle注册账号，把Titanic比赛从头到尾做一遍（看top kernel，照着写）。<br/></li><li data-pid=\"JI8SGS7d\">读完周志华《机器学习》第一章，手推一下线性回归的梯度下降。<br/></li><li data-pid=\"LiMqilo_\">在GitHub上建个仓库，名字叫“AI-Notes”，今天就开始写学习笔记。<br/></li><li data-pid=\"KvV9MkVN\">关注3个AI领域的知乎博主，每天刷半小时他们的动态。</li></ol><hr/><h2>九、最后的实话</h2><p data-pid=\"uz1xOUHk\">三本搞AI，就像带着负重跑步。<br/>别人跑1000米，你可能要跑3000米才能到同一起跑线。<br/>但——<br/>这个行业还没固化到“出身决定一切”。<br/>你代码能力强、项目经验多、比赛打得好，就有人愿意给你机会。<br/>你数学好、论文读得透、想法新颖，就可能被导师、被团队看见。<br/>你沟通好、懂业务、能把技术卖出去，就可能比只会写代码的人爬得快。</p><p data-pid=\"nZ8Vu1ut\">所以，别问“三本能不能搞AI”。<br/>问自己：<br/>“我愿不愿意多跑那2000米？”<br/>“我能不能在没人督促的情况下，坚持学三年？”<br/>“我能不能接受前三年薪资低于985同学，但依然保持动力？”</p><p data-pid=\"GpNadWYB\">如果能，就现在开始。<br/>如果不能，早点换个赛道，不丢人。</p><p data-pid=\"JLV178uo\">AI不缺聪明人，缺的是<b>死磕到底的普通人</b>。<br/>你想当哪个？</p><hr/><p data-pid=\"YM2jIaF4\"><b>行动清单（保存这张图，做完一项打钩）</b><br/>□ 一周内刷完吴恩达机器学习前3周<br/>□ 亲手用numpy写一个线性回归（不准用sklearn）<br/>□ 在Kaggle上拿一块铜牌<br/>□ 读完《统计学习方法》第1-4章<br/>□ 在GitHub上发布第一个AI相关项目（哪怕只是学习笔记）<br/>□ 找一位业内人士聊一次（知乎私信、技术社群都行）<br/>□ 决定主攻方向（CV/NLP/推荐/其他）<br/>□ 规划未来18个月的学习路线（精确到月）</p><p data-pid=\"D7q0lZ0i\"><b>最后一句</b>：<br/>这个问题下所有答案，包括我这篇，都只是“信息”。<br/>真正让你“能搞AI”的，是你关掉知乎后打开PyCharm的那个动作。</p><p data-pid=\"GqiWrWz-\">现在就关。<br/>去写代码。</p>",
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994171493744141390}",
+      "attached_info": "CqoGCOm+2qWIidKqsgEQBBoJNzY1MTQyMzUwIM6FlMsGKAgwAUBBSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aCDIzNDI2NDY5YiAxMTU4NTQwYWY5NDYyOGNlOTQ0YzhkYzY4Nzc2NDgzMXITMTk5NDE3MTQ5Mzc0NDE0MTM5MIoBCTI3NTE3ODU4N6oBCXJlY29tbWVuZMIBIDg1MzhhYjJjZDUyODhkNGU3OGI0YjYzOGNiNzQ1MGVj8gEKCAwSBk5vcm1hbPIBKAgKEiQ0OWU5NjJhMi1hZjY3LTRjODktYTAxMS1lMjIzOWJmMmQ3ZDDyAQYICxICMTGCAgCIAvGxq8a8M5ICIDg1MzhhYjJjZDUyODhkNGU3OGI0YjYzOGNiNzQ1MGVjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCE0VtYlNpbUlzb2xhdGlvblJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDc0NTEwMWMyNWE0OTQ0YjA5MjQwOWYxODUzOTg5ZDllmgMNCgJ2MhAAGgVvdGhlcqgDqALYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoAb8kT+BBQAAAAAAAAAAiQUdohq4wEa0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AULkAYAoAZBqAYAkgIuCgk3NjUxNDIzNTASEzE5OTQxNzE0OTM3NDQxNDEzOTAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=65&desktop=true&end_offset=65&page_number=12&session_token=1158540af94628ce944c8dc687764831",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=65&desktop=true&end_offset=65&page_number=12&session_token=1158540af94628ce944c8dc687764831",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,592 @@
+{
+  "data": [
+    {
+      "id": "72_1767705233.406",
+      "type": "feed",
+      "offset": 72,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767705233,
+      "updated_time": 1767705233,
+      "target": {
+        "preview_type": "default",
+        "voteup_count": 1,
+        "preview_text": "",
+        "allow_segment_interaction": true,
+        "id": "1991431365481226410",
+        "title": "一文搞清瀑布模型、迭代模型、螺旋模型、原型模型、敏捷模型和V模型的区别",
+        "comment_permission": "all",
+        "created": 1767574236,
+        "updated": 1767574236,
+        "comment_count": 0,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "content": "<p data-pid=\"UG-lVxiJ\">常见的项目生命周期模型有六种，有瀑布模型、迭代模型、螺旋模型、原型模型、敏捷模型和V模型。</p><p data-pid=\"b1Uudc6H\">瀑布模型（Waterfall Model）</p><p data-pid=\"nEMN_EA9\"><strong>瀑布模型是一种线性顺序的开发模型，其核心特点是每个阶段必须完成才能进入下一阶段。</strong><br/>它强调前期需求明确和文档完整，一旦进入下一阶段，就很难返回修改前一阶段的内容。</p><p data-pid=\"oNBoOEHO\">1</p>特点<ul><li data-pid=\"4Yxz4uTZ\"><p data-pid=\"m5H54fMd\"><strong>线性顺序</strong>：需求 → 设计 → 编码 → 测试 → 维护。</p></li><li data-pid=\"YipkkzUj\"><p data-pid=\"DtqIF4IH\"><strong>文档驱动</strong>：强调前期需求明确、文档完整。</p></li><li data-pid=\"LmXK8ywi\"><p data-pid=\"QEZM985G\"><strong>不可回溯</strong>：一旦进入下一阶段，很难返回修改前一阶段内容。</p></li></ul><p data-pid=\"VU45lUSf\">2</p>优点<ul><li data-pid=\"qxbdiPXf\"><p data-pid=\"VWVHfSMS\">结构清晰，管理简单。</p></li><li data-pid=\"CGmyLvyM\"><p data-pid=\"gowVsRpk\">适合需求明确、变更少的项目。</p></li></ul><p data-pid=\"Rk4zabHr\">3</p>缺点<ul><li data-pid=\"M1Em7vCM\"><p data-pid=\"I-gYCL6F\">缺乏灵活性，难以应对需求变更。</p></li><li data-pid=\"nEiupScn\"><p data-pid=\"WRQYc3tk\">用户直到最后才能看到产品。</p></li></ul><p data-pid=\"06L3LzDY\">4</p>例子<p data-pid=\"2wERHGky\">建造一座桥。工程师先画好完整图纸（需求+设计），然后施工队按图施工（编码），最后验收（测试）。如果中途想改桥的宽度，几乎不可能，因为地基都打好了。</p><p data-pid=\"vYwWaNNe\">迭代模型（Iterative Model）</p><p data-pid=\"mrp8wV81\"><strong>迭代模型通过分阶段交付，每次迭代都包含一个小循环，使产品功能逐步完善。</strong><br/>这种模型允许早期看到部分成果，更容易适应需求变化。</p><p data-pid=\"KVzEfGzZ\">1</p>特点<ul><li data-pid=\"cAXTX3_Q\"><p data-pid=\"9H__XTVp\"><strong>分阶段交付</strong>：每次迭代都包含需求、设计、编码、测试的小循环。</p></li><li data-pid=\"txfvIv4A\"><p data-pid=\"iJaTsj5b\"><strong>逐步完善</strong>：每次迭代产出一个可运行的版本，功能逐渐增加。</p></li></ul><p data-pid=\"_mzH9jUC\">2</p>优点<ul><li data-pid=\"jaDBu9UU\"><p data-pid=\"kEADhfBD\">早期就能看到部分成果。</p></li><li data-pid=\"sNRpjlcJ\"><p data-pid=\"fy9Cjqwj\">更容易适应需求变化。</p></li></ul><p data-pid=\"LNXHFlJa\">3</p>缺点<ul><li data-pid=\"oIzrpnHK\"><p data-pid=\"fOkUJlIi\">需要良好的项目管理。</p></li><li data-pid=\"kJx9-XuJ\"><p data-pid=\"p6XE8zZA\">如果迭代规划不好，可能重复工作。</p></li></ul><p data-pid=\"m1whxd_K\">4</p>例子<p data-pid=\"D1mb4EQd\">螺旋模型（Spiral Model）</p><p data-pid=\"oOQpwbdi\"><strong>螺旋模型是一种风险驱动的开发模型，结合了瀑布模型的系统性和原型模型的迭代思想。</strong><br/>它强调风险管理，适合大型高风险项目。</p><p data-pid=\"yXPIQgKr\">1</p>特点<ul><li data-pid=\"480xQzzq\"><p data-pid=\"Ni3wucg6\"><strong>风险驱动</strong>：每一圈螺旋包括：目标设定 → 风险分析 → 开发/验证 → 计划下一圈。</p></li><li data-pid=\"yPq7RzCV\"><p data-pid=\"eCA6_rUu\">强调风险管理，适合大型高风险项目。</p></li></ul><p data-pid=\"nbFNbL7F\">2</p>优点<ul><li data-pid=\"-q00Unlq\"><p data-pid=\"e5aUfig3\">能有效控制风险。</p></li><li data-pid=\"1Yd2yvuK\"><p data-pid=\"ji69AkPw\">支持用户反馈和需求变更。</p></li></ul><p data-pid=\"k0KMUd3y\">3</p>缺点<ul><li data-pid=\"pA392taq\"><p data-pid=\"HHxqo4LG\">成本高、周期长。</p></li><li data-pid=\"eeMXCKXm\"><p data-pid=\"M5CToryb\">对团队风险评估能力要求高。</p></li></ul><p data-pid=\"GNWOfbVT\">4</p>例子<p data-pid=\"rQ9yFtC9\">开发一款航天控制系统。<br/>第一圈：先做一个简化模拟器，评估“传感器失效”风险；<br/>第二圈：加入冗余机制，再测试通信延迟风险；<br/>每一圈都解决一个关键风险，逐步构建完整系统。</p><p data-pid=\"_b_t4q8Z\">原型模型（Prototype Model）</p><p data-pid=\"zKbNkjm3\"><strong>原型模型通过快速构建原型并获取用户反馈，旨在澄清模糊需求。</strong><br/>其重点是让用户尽早看到“样子”，以减少误解。</p><p data-pid=\"dhD_WUSO\">1</p>特点<ul><li data-pid=\"V2RWf19-\"><p data-pid=\"X69K_umd\"><strong>快速构建原型 → 用户试用 → 反馈 → 修改 → 再原型</strong>，直到满意。</p></li><li data-pid=\"rFuRmEgN\"><p data-pid=\"oNtOtF3H\">重点是让用户尽早看到“样子”，澄清模糊需求。</p></li></ul><p data-pid=\"gjwWJYNP\">2</p>优点<ul><li data-pid=\"GJ_zdShl\"><p data-pid=\"PZQzUbZf\">快速验证需求，减少误解。</p></li><li data-pid=\"PmLq_a2o\"><p data-pid=\"WKNrNAsx\">用户参与度高。</p></li></ul><p data-pid=\"iD70lYvT\">3</p>缺点<ul><li data-pid=\"5l_lwi3D\"><p data-pid=\"k_FByEHx\">原型可能被误认为是最终产品。</p></li><li data-pid=\"KmnN5nTY\"><p data-pid=\"xV-KaelA\">可能导致“不断修改”，项目延期。</p></li></ul><p data-pid=\"cMfsUCht\">4</p>例子<p data-pid=\"J8WSBAIj\">客户说想要一个“智能冰箱App”，但说不清功能。<br/>开发团队先做一个带按钮的界面原型（能点但没真功能），客户试用后说：“哦，我其实最需要食材过期提醒！”——于是明确了核心需求。</p><p data-pid=\"aNvDMST9\">敏捷模型（Agile Model）</p><p data-pid=\"3BxaFQdP\"><strong>敏捷模型以人为本，强调快速响应变化，通过短周期的冲刺持续交付可用软件。</strong><br/>其核心思想来自《敏捷宣言》，强调客户协作与响应变化。</p><p data-pid=\"8q3pri3f\">1</p>特点<ul><li data-pid=\"bu_B6BNR\"><p data-pid=\"kCozakky\"><strong>以人为本、快速响应变化</strong>。</p></li><li data-pid=\"YoC2N5dy\"><p data-pid=\"c7tHIEus\">采用短周期（如2周）的“冲刺（Sprint）”，持续交付可用软件。</p></li><li data-pid=\"sJP5Bnt1\"><p data-pid=\"HLnzSugG\">强调客户协作、个体互动、可工作软件、响应变化（来自《敏捷宣言》）。</p></li></ul><p data-pid=\"1sByK4Cb\">2</p>优点<ul><li data-pid=\"8FapaOnU\"><p data-pid=\"Q17JRCpa\">极高灵活性，适应频繁变更。</p></li><li data-pid=\"ZyxSvAcy\"><p data-pid=\"V28dmJbm\">用户持续参与，满意度高。</p></li></ul><p data-pid=\"IvZF_-6P\">3</p>缺点<ul><li data-pid=\"qq6isGH_\"><p data-pid=\"7ezXsAtl\">对团队自律和沟通要求高。</p></li><li data-pid=\"F7CobhsR\"><p data-pid=\"kRDf_8TZ\">文档较少，长期维护可能困难。</p></li></ul><p data-pid=\"rg9ysbvB\">4</p>例子<p data-pid=\"12BwYjgV\">一家电商公司开发购物车功能。<br/>第1周：实现加商品；<br/>第2周：加删除和数量修改；<br/>第3周：加优惠券计算；<br/>每两周和产品经理开会对齐，随时调整优先级。</p><p data-pid=\"URiqRkWV\">V模型（V-Model）</p><p data-pid=\"N1wOAuIz\"><strong>V模型是瀑布模型的扩展，强调测试与开发的严格对应关系，形成“V”字形结构。</strong><br/>它适合对安全性、可靠性要求高的系统。</p><p data-pid=\"4YbcGhW-\">1</p>特点<ul><li data-pid=\"v6DlRWoC\"><p data-pid=\"a1sLv6Zw\">是瀑布模型的扩展版，强调测试与开发的对应关系。</p></li><li data-pid=\"5540-1te\"><p data-pid=\"xNKTcmXc\">左边是开发阶段（需求→设计→编码），右边是测试阶段（单元测试←集成测试←系统测试←验收测试），形成“V”字形。</p></li></ul><p data-pid=\"Ozj-E9Bg\">2</p>优点<ul><li data-pid=\"812C4Bp9\"><p data-pid=\"7zT8-2uO\">测试计划提前制定，质量保障强。</p></li><li data-pid=\"wt3KL078\"><p data-pid=\"bxaIhtWX\">适合对安全性、可靠性要求高的系统（如医疗、航空）。</p></li></ul><p data-pid=\"yUeQWVUs\">3</p>缺点<ul><li data-pid=\"JvHZPli1\"><p data-pid=\"4aJhsBh5\">和瀑布一样，缺乏灵活性。</p></li><li data-pid=\"ipq8I5lZ\"><p data-pid=\"Hmim332D\">难以应对需求变更。</p></li></ul><p data-pid=\"dnDKs5Fy\">4</p>例子<p data-pid=\"akP4rJIj\">开发医院挂号系统。<br/>在写代码前就规划好：<br/>模块A（患者登录）→ 对应单元测试；<br/>模块A+B集成 → 对应集成测试；<br/>整个系统上线前 → 做完整的验收测试（模拟真实挂号流程）。</p><p data-pid=\"VmwDDqfj\">六大模型对比与总结</p><p data-pid=\"Oc7C8ZUe\">1</p>模型对比表<p data-pid=\"_qAIT5OL\">2</p>总结口诀<p data-pid=\"mcx4PGFb\"><strong>总结口诀（便于记忆）：</strong></p><p data-pid=\"7hPrE9CW\">瀑布直下不回头，<br/>迭代一圈功能多一点；<br/>螺旋绕圈控风险，<br/>原型先做样儿看；<br/>敏捷小步快跑变，<br/>V字左右测得严。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1226\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://pic3.zhimg.com/v2-c7a3fecdc7ff130ea2efb643756fc458_1440w.jpg\" data-original-token=\"v2-c7a3fecdc7ff130ea2efb643756fc458\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-c7a3fecdc7ff130ea2efb643756fc458_r.jpg\"/></figure></p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1189\" data-rawwidth=\"1080\" data-size=\"normal\" src=\"https://pic4.zhimg.com/v2-146b33a8441ac5bf9533f753709fa821_1440w.jpg\" data-original-token=\"v2-146b33a8441ac5bf9533f753709fa821\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-146b33a8441ac5bf9533f753709fa821_r.jpg\"/></figure></p><p data-pid=\"EMsgOL3R\">这张图从五个阶段：需求导入阶段、项目规划阶段、研发阶段、测试阶段和版本发布对每个阶段的任务、流程、人员做了安排和分配，流程比较清晰和详细，值得参考。</p><p><figure data-size=\"normal\"><img data-caption=\"\" data-rawheight=\"1912\" data-rawwidth=\"1045\" data-size=\"normal\" src=\"https://picx.zhimg.com/v2-8f607ab53158a85f8aefb1e823c3fe3f_1440w.jpg\" data-original-token=\"v2-8f607ab53158a85f8aefb1e823c3fe3f\" class=\"origin_image zh-lightbox-thumb\" width=\"1045\" data-original=\"https://picx.zhimg.com/v2-8f607ab53158a85f8aefb1e823c3fe3f_r.jpg\"/></figure></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wtky09LL\"><strong>欢迎加入中国最大的PMO&amp;PM社区</strong></p>",
+        "type": "article",
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-5386a6524a1d2763938ed87a9a67192a_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 7857,
+          "is_following": false,
+          "id": "06557b24d448dd027029511b06b5b9c4",
+          "url": "https://api.zhihu.com/people/06557b24d448dd027029511b06b5b9c4",
+          "url_token": "pmoqian-yan",
+          "headline": "中国最有影响力最有价值的PMO&amp;PM社群，VX公号PMO前沿",
+          "is_followed": false,
+          "user_type": "people",
+          "name": "PMO前沿",
+          "gender": 1
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-c7a3fecdc7ff130ea2efb643756fc458_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-146b33a8441ac5bf9533f753709fa821_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8f607ab53158a85f8aefb1e823c3fe3f_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "excerpt": "常见的项目生命周期模型有六种，有瀑布模型、迭代模型、螺旋模型、原型模型、敏捷模型和V模型。 瀑布模型（Waterfall Model） 瀑布模型是一种线性顺序的开发模型，其核心特点是每个阶段必须完成才能进入下一阶段。 它强调前期需求明确和文档完整，一旦进入下一阶段，就很难返回修改前一阶段的内容。1 特点 线性顺序：需求 → 设计 → 编码 → 测试 → 维护。 文档驱动：强调前期需求明确、文档完整。 不可回溯：一旦进入下一阶段…",
+        "excerpt_new": "常见的项目生命周期模型有六种，有瀑布模型、迭代模型、螺旋模型、原型模型、敏捷模型和V模型。 瀑布模型（Waterfall Model） 瀑布模型是一种线性顺序的开发模型，其核心特点是每个阶段必须完成才能进入下一阶段。 它强调前期需求明确和文档完整，一旦进入下一阶段，就很难返回修改前一阶段的内容。1 特点 线性顺序：需求 → 设计 → 编码 → 测试 → 维护。 文档驱动：强调前期需求明确、文档完整。 不可回溯：一旦进入下一阶段…",
+        "is_labeled": false,
+        "visited_count": 122,
+        "favorite_count": 10,
+        "article_type": "normal",
+        "url": "https://api.zhihu.com/articles/1991431365481226410",
+        "voting": 0,
+        "is_navigator": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991431365481226410}",
+      "attached_info": "CrgGCIql/42yn7nzigEQBxoJMjY4NTY4OTI3INyV7MoGKAEwAEBISiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AGIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5OTE0MzEzNjU0ODEyMjY0MTCqAQlyZWNvbW1lbmTCASAwNjU1N2IyNGQ0NDhkZDAyNzAyOTUxMWIwNmI1YjljNPIBCggMEgZOb3JtYWzyASgIChIkZDRiZjA0ZDItMGRiYi00NTkwLWFiNjYtNGNkYTIyNTViZWYy8gEGCAsSAjEzggIAiALHkMWbuTOSAiAwNjU1N2IyNGQ0NDhkZDAyNzAyOTUxMWIwNmI1YjljNJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZdoCGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMugCA/oCC05PUk1BTF9GTE9XigMgMmRmOTA3NzEzODQ4NGRkODg2YWE0MGRmZjc3MDZmNmOaAw0KAnYyEAAaBW90aGVyqAN62AMA6gMfd2FybXVwVHdvVG93ZXJUZXh0Qm9vc3RSZWNhbGxlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhC4CBjKCSIjdjItYzdhM2ZlY2RjN2ZmMTMwZWEyZWZiNjQzNzU2ZmM0NTg6LQgCELgIGKUJIiN2Mi0xNDZiMzNhODQ0MWFjNWJmOTUzM2Y3NTM3MDlmYTgyMTotCAMQlQgY+A4iI3YyLThmNjA3YWI1MzE1OGE4NWY4YWVmYjFlODIzYzNmZTNmgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgroZwP4EFAAAAAAAAAACJBevQMRqYYbI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBkioBgGSAi4KCTI2ODU2ODkyNxITMTk5MTQzMTM2NTQ4MTIyNjQxMBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "73_1767705233.970",
+      "type": "feed",
+      "offset": 73,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705233,
+      "updated_time": 1767705233,
+      "target": {
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"g6gvqQ19\">若论有趣，可以读读“段子集”——《世说新语》。</p><p data-pid=\"WTrqMBY1\">这本由南朝刘宋政权，宋武帝刘裕之侄、长沙景王刘道怜次子刘义庆组织的一班文人，集体创作的一本笔记体小说。</p><p data-pid=\"dCzDPXyD\">它记载了自汉魏至东晋期间士族名人的趣闻逸事，精练生动，气韵流荡，不仅反映了时人的生活方式、精神面貌及清谈放诞的风气，更将率直任诞、清俊通脱的“魏晋风度”源远流长地传递了下去。</p><p data-pid=\"SzY6uW6J\">你不妨挑一本白话翻译比较精彩的版本，可对比阅读，感受下魏晋时期风流人物的风骨与趣味。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-421568e1b20a5f040d12ccd14cb06eab_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1566\" data-size=\"normal\" data-original-token=\"v2-6320dae6e0dfa0f82be9f10e89550d75\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-421568e1b20a5f040d12ccd14cb06eab_r.jpg\"/></figure><p data-pid=\"mGa8iQ_G\">先来几个小故事，分享分享。</p><hr/><blockquote data-pid=\"mAcBtx-2\"><b>王司州尝乘雪往王螭许。司州言气少有牾逆于螭，便作色不夷。司州觉恶，便舆床就之，持其臂曰：“汝讵复足与老兄计！”螭拨其手曰：“冷如鬼手馨，强来捉人臂！”</b></blockquote><p data-pid=\"XnJlGGoH\"><b>《<span class=\"nolink\">世说新语</span>·<span class=\"nolink\">忿狷 第三十一</span>》</b></p><p data-pid=\"1BwHxZKc\">王螭：王恬，小名螭虎，是王胡之的堂弟。</p><p data-pid=\"s5GAc4wP\">言气：说话和态度。</p><p data-pid=\"NO3ARN0Z\">不夷：不愉快。</p><p data-pid=\"is1ULb0T\">舆床：搬动坐榻。</p><p data-pid=\"xKibEcNZ\"><i>司州刺史王胡之曾在下雪天去王</i>螭<i>那里。王胡之说话时的神态小小地冒犯了王</i>螭<i>，王螭就摆出了不高兴的脸色。</i></p><p data-pid=\"-3SAZFLt\"><i>王胡之发现了觉得冒犯了他，就把坐榻挪近王</i>螭<i>身边，拉着他的手臂说：“你难道还和你老哥计较！”王螭拨开他的手说：“你的手冷得像鬼手一样，还硬要来拉人家的胳膊！”</i></p><p data-pid=\"asKq-Tpv\">你看这短短文字，记录的充满生活气息的瞬间，藏着《世说新语》最精妙的人情刻画。</p><p data-pid=\"_8dyvXWi\">当王胡之察觉被稍有冒犯，这位兄长没有端着架子，反而&#34;舆床就之&#34;，主动把坐榻挪近，用带着风雪寒气的手握住对方，一句&#34;汝讵复足与老兄计&#34;，将歉意与长兄的包容融于一体。</p><p data-pid=\"YOZ3Lu3O\">而王螭的回应更堪称神来之笔：他拨开手臂的动作带着孩童般的娇嗔，&#34;冷如鬼手馨，强来捉人臂&#34;，略带夸张的比喻消解了所有不快，让一场险些发生的争执化作亲昵的笑骂。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4d60dde3065645d133a4e02034f2682e_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1006\" data-size=\"normal\" data-original-token=\"v2-bfdb4d549cdd4792aceedb8c2130b7d5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-4d60dde3065645d133a4e02034f2682e_r.jpg\"/></figure><p data-pid=\"GhP6RD8c\">这段仅60余字的记载，像一幅极简的风俗画，却处处透着魏晋名士的真性情。王胡之&#34;觉恶便改&#34;的坦率，王恬&#34;作色不夷&#34;后又以玩笑收场的率性，打破了后世对古人&#34;喜怒不形于色&#34;的刻板想象。他们没有刻意维持君子风度，却在最自然的反应中流露出兄弟间的默契。</p><p data-pid=\"qu5_tmGb\">刘义庆似乎特别偏爱这种&#34;不完美的优雅&#34;。王恬那句看似无理的抱怨，实则是最高明的和解方式：它既表达了真实情绪，又用荒诞感冲淡了严肃。这种将生活细节诗意化的笔法，正是《世说新语》的魅力所在——它不记录惊天动地的伟业，却让千年前那个雪夜的温度、语气和触感，至今仍能透过文字传递到读者指尖。</p><hr/><blockquote data-pid=\"_WDxnV9r\"><b>王夷甫与裴景声志好不同，景声恶欲取之，卒不能回。乃故诣王，肆言极骂，要王答己，欲以分谤。王不为动色，徐曰：“白眼儿遂作。”</b></blockquote><p data-pid=\"AuDdQcpk\"><b>《<span class=\"nolink\">世说新语</span>·<span class=\"nolink\">雅量 第六</span>》</b></p><p data-pid=\"61gzNsQl\">裴景声：裴邈，字景声，晋朝大臣，书法家。历太傅从事中郎、左司马，监东海王军事。</p><p data-pid=\"gxp4G8lC\">恶：讨厌。</p><p data-pid=\"iPzt2Zx4\">肆言：肆无忌惮地说。</p><p data-pid=\"WrvdvQjb\">要：要挟，强迫。</p><p data-pid=\"fQ2_6WjQ\"><i>王夷甫和裴邈两人志趣、爱好不合，所以裴邈很厌恶王夷甫任用自己，只是始终无法让王夷甫改变主意。于是裴邈竟然特意拜见王衍，肆意谩骂了一番，想迫使王夷甫回骂自己，以此来让人一同指责王夷甫。</i></p><p data-pid=\"Bp3k_ccx\"><i>谁知王衍始终不为所动，从容淡定地说：“你这个不识相的白眼小儿，终于发作了。”</i></p><p data-pid=\"BmYGip4h\">“白眼儿遂作”这句看似轻描淡写的反击，藏着魏晋名士最精妙的语言艺术。</p><p data-pid=\"uSrwL9J8\">&#34;白眼&#34;的典故出自阮籍，这位竹林七贤用青白眼看人：对礼俗之士翻出眼白，对同道才露出黑眼珠。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e55f004e3967fae1f6e12fd370b230fc_1440w.jpg\" data-rawwidth=\"1020\" data-rawheight=\"993\" data-size=\"normal\" data-original-token=\"v2-29c062404be1376eb5ec9472271c97e7\" class=\"origin_image zh-lightbox-thumb\" width=\"1020\" data-original=\"https://pic3.zhimg.com/v2-e55f004e3967fae1f6e12fd370b230fc_r.jpg\"/></figure><p data-pid=\"ClguvknQ\">王夷甫将裴景声比作&#34;白眼儿&#34;，既点明对方此刻狰狞的神情，又暗讽其见识浅陋如礼俗之徒。更妙的是&#34;遂作&#34;二字——仿佛在说：&#34;哦，你终于露出这副嘴脸了&#34;，把一场恶意挑衅消解成早已预料的表演。</p><p data-pid=\"qw0wMFbs\">但，现如今的我们细细品味，王夷甫的&#34;雅量&#34;里其实藏着士族的傲慢。当他说出&#34;白眼儿&#34;三字时，那种居高临下的审视，比直接回骂更具杀伤力。</p><p data-pid=\"CNu-up3M\">说通俗点，这人给我们一种“不是什么真好人”的感觉。</p><hr/><p data-pid=\"nEo4MNR4\">这部记载了东汉至东晋名士言行的志人小说集，以千余则&#34;随手而记&#34;的碎片化故事，构建起魏晋风度的全景画卷，被鲁迅誉为&#34;名士的教科书&#34;。</p><p data-pid=\"tc0gXuz8\">它既是文学典范，又是历史文献，更是塑造中国文人性格的精神图腾。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3cada4c076abec356a9ce34d4b2912ba_1440w.jpg\" data-rawwidth=\"1159\" data-rawheight=\"1080\" data-size=\"normal\" data-original-token=\"v2-bf8ac9a14572bf441c05cc0d6a9f6f6c\" class=\"origin_image zh-lightbox-thumb\" width=\"1159\" data-original=\"https://pic1.zhimg.com/v2-3cada4c076abec356a9ce34d4b2912ba_r.jpg\"/></figure><p data-pid=\"Hyfhydnl\">《世说新语》面对同时代骈文的辞藻堆砌，它选择了《论语》式的白描，只用数十字的片段，便将五百多个历史人物在描绘得栩栩如生。</p><p data-pid=\"0dCOP1hw\">若有闲时，翻阅一番，为生活增一番趣味。</p>",
+        "favorite_count": 7,
+        "id": "1988863396238620263",
+        "type": "answer",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "voteup_count": 4,
+        "is_copyable": true,
+        "excerpt": "若论有趣，可以读读“段子集”——《世说新语》。 这本由南朝刘宋政权，宋武帝刘裕之侄、长沙景王刘道怜次子刘义庆组织的一班文人，集体创作的一本笔记体小说。 它记载了自汉魏至东晋期间士族名人的趣闻逸事，精练生动，气韵流荡，不仅反映了时人的生活方式、精神面貌及清谈放诞的风气，更将率直任诞、清俊通脱的“魏晋风度”源远流长地传递了下去。 你不妨挑一本白话翻译比较精彩的版本，可对比阅读，感受下魏晋时期风流人物的…",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-6320dae6e0dfa0f82be9f10e89550d75_720w.jpg?source=b6762063",
+        "excerpt_new": "若论有趣，可以读读“段子集”——《世说新语》。 这本由南朝刘宋政权，宋武帝刘裕之侄、长沙景王刘道怜次子刘义庆组织的一班文人，集体创作的一本笔记体小说。 它记载了自汉魏至东晋期间士族名人的趣闻逸事，精练生动，气韵流荡，不仅反映了时人的生活方式、精神面貌及清谈放诞的风气，更将率直任诞、清俊通脱的“魏晋风度”源远流长地传递了下去。 你不妨挑一本白话翻译比较精彩的版本，可对比阅读，感受下魏晋时期风流人物的…",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-6320dae6e0dfa0f82be9f10e89550d75_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-bfdb4d549cdd4792aceedb8c2130b7d5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-29c062404be1376eb5ec9472271c97e7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-bf8ac9a14572bf441c05cc0d6a9f6f6c_720w.jpg?source=b6762063"
+        ],
+        "url": "https://api.zhihu.com/answers/1988863396238620263",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "created_time": 1766961984,
+        "thanks_count": 0,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 294,
+        "author": {
+          "id": "c45edc671a0ddfe0c5c37a0fefc06443",
+          "name": "苏夭",
+          "headline": "一个喜好时令之美与花卉绿植的阅读爱好者。",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 1925,
+          "url": "https://api.zhihu.com/people/c45edc671a0ddfe0c5c37a0fefc06443",
+          "user_type": "people",
+          "url_token": "su-yao-60-28",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-e1f5fd8ffe5600c4da3cc60dc1482f07_l.jpg?source=b6762063",
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "教师资格证持证人"
+            }
+          ],
+          "is_following": false,
+          "is_followed": false
+        },
+        "updated_time": 1766961984,
+        "comment_count": 1,
+        "question": {
+          "url": "https://api.zhihu.com/questions/21952187",
+          "author": {
+            "headline": "互联网教育从业者；文艺青年",
+            "is_org": false,
+            "id": "8b8eebbdc8f3b420f94030a1442eab69",
+            "user_type": "people",
+            "url_token": "lin-xiao-xiao-1",
+            "name": "林奇涵",
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/8b8eebbdc8f3b420f94030a1442eab69",
+            "avatar_url": "https://picx.zhimg.com/50/4167d8992_l.jpg?source=b6762063",
+            "gender": 1,
+            "followers_count": 27
+          },
+          "title": "有没有一些有趣的古文段落和篇章？包括史书上的、笔记小说里的都可以。",
+          "follower_count": 0,
+          "comment_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "id": "21952187",
+          "type": "question",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            2723,
+            3064,
+            12845
+          ],
+          "excerpt": "",
+          "detail": "",
+          "created": 1383525786
+        },
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988863396238620263}",
+      "attached_info": "CrwHCIql/42yn7nzigEQBBoJNzYzMDkzMDgzIMDmxsoGKAQwAUBJSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1aBjk2MTY3NmIgYTRlOTBjNTc5ODcxNTZiYTkxYjAyNWE5MzFhY2UxMDhyEzE5ODg4NjMzOTYyMzg2MjAyNjOKAQgyMTk1MjE4N6oBCXJlY29tbWVuZMIBIGM0NWVkYzY3MWEwZGRmZTBjNWMzN2EwZmVmYzA2NDQz8gEKCAwSBk5vcm1hbPIBKAgKEiQ5ZjQ4MzcxNS0wZjEzLTQ1MzItOTlhOC0xMDU1NzcwZjE2N2LyAQYICxICMTOCAgCIAseQxZu5M5ICIGM0NWVkYzY3MWEwZGRmZTBjNWMzN2EwZmVmYzA2NDQzmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDJkZjkwNzcxMzg0ODRkZDg4NmFhNDBkZmY3NzA2ZjZjmgMNCgJ2MhAAGgVvdGhlcqgDpgLYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A9sBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgYngwiI3YyLTYzMjBkYWU2ZTBkZmEwZjgyYmU5ZjEwZTg5NTUwZDc1Oi0IAhC4CBjuByIjdjItYmZkYjRkNTQ5Y2RkNDc5MmFjZWVkYjhjMjEzMGI3ZDU6LQgCEPwHGOEHIiN2Mi0yOWMwNjI0MDRiZTEzNzZlYjVlYzk0NzIyNzFjOTdlNzotCAIQhwkYuAgiI3YyLWJmOGFjOWExNDU3MmJmNDQxYzA1Y2MwZDZhOWY2ZjZjgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABALLF9P4EFAAAAAAAAAACJBevQMRqYYbI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBkmoBgOSAi4KCTc2MzA5MzA4MxITMTk4ODg2MzM5NjIzODYyMDI2MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "74_1767705233.181",
+      "type": "feed",
+      "offset": 74,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705233,
+      "updated_time": 1767705233,
+      "target": {
+        "voteup_count": 1329,
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "comment_count": 3,
+          "bound_topic_ids": [
+            12706,
+            41512,
+            2307707
+          ],
+          "author": {
+            "id": "ccd78f0ee9171ce47732a92bba2bf90c",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 9,
+            "url": "https://api.zhihu.com/people/ccd78f0ee9171ce47732a92bba2bf90c",
+            "user_type": "people",
+            "url_token": "42-59-82-31-66",
+            "name": "知乎用户5kvf7h",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "answer_count": 0,
+          "is_following": false,
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/665150019",
+          "title": "为什么年轻人一年到头存不了几个钱？",
+          "follower_count": 0,
+          "question_type": "normal",
+          "id": "665150019",
+          "created": 1724453316,
+          "excerpt": ""
+        },
+        "url": "https://api.zhihu.com/answers/1988996397199028720",
+        "created_time": 1766993694,
+        "is_copyable": true,
+        "is_navigator": false,
+        "excerpt": "30万，是一道隐形的空气墙我发现一个非常残酷、但几乎百发百中的规律。 以30万存款为界。凡是能把存款稳定攒到30万，并且不立刻花掉的人—— 100万、200万，真的只是时间问题。而 迈不过30万的人，这一辈子，几乎就被锁死在30万以下。你会看到两种完全不同的人生轨迹。 第一种人：第一次存到30万，没有急着清零心态开始变了，对风险、机会、时间都有概念资产开始有“复利感”然后你会发现： 5年内到100万再过几年，200万、A8+只…",
+        "reshipment_settings": "allowed",
+        "allow_segment_interaction": true,
+        "author": {
+          "url_token": "liu-qi-68-50-64",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "7606340619c2998ffbe62d9c4d704a7c",
+          "url": "https://api.zhihu.com/people/7606340619c2998ffbe62d9c4d704a7c",
+          "user_type": "people",
+          "name": "招财小粽子",
+          "headline": "ETF投资人  纪录片导演  分享投资理念和行业资讯",
+          "avatar_url": "https://picx.zhimg.com/50/v2-56e37ad3f7a7e7b6dc41d18db5c04d9d_l.jpg?source=b6762063",
+          "followers_count": 175
+        },
+        "preview_text": "",
+        "is_labeled": false,
+        "visited_count": 260737,
+        "answer_type": "normal",
+        "id": "1988996397199028720",
+        "comment_count": 344,
+        "preview_type": "default",
+        "navigator_vote": false,
+        "thanks_count": 51,
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "vote_next_step": "vote",
+        "segment_infos": [
+          {
+            "pid": "aiHwmCTH",
+            "text": "凡是能把存款稳定攒到30万，并且不立刻花掉的人——\n100万、200万，真的只是时间问题。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 45,
+                "seg_info": {
+                  "seg_ids": [
+                    "1989842015177942137"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "6kzJlpMc",
+            "text": "不是他突然变聪明了，\n而是一旦你能守住30万，你已经进入了另一个游戏规则。",
+            "marks": [
+              {
+                "start_index": 13,
+                "end_index": 37,
+                "seg_info": {
+                  "seg_ids": [
+                    "1990478557152044794"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "updated_time": 1766993694,
+        "content": "<p data-pid=\"Es7B8GbC\"><b>30万，是一道隐形的空气墙</b></p><p data-pid=\"ZsAjMEmb\">我发现一个非常残酷、但几乎百发百中的规律。</p><p data-pid=\"a8FYgYQr\"><b>以30万存款为界。</b></p><p data-pid=\"aiHwmCTH\">凡是能把存款稳定攒到30万，并且不立刻花掉的人——<br/>100万、200万，真的只是时间问题。</p><p data-pid=\"LzN9777o\">而<b>迈不过30万的人，这一辈子，几乎就被锁死在30万以下。</b></p><hr/><p data-pid=\"y8O8rX7N\">你会看到两种完全不同的人生轨迹。</p><p data-pid=\"7bgQ5xCk\"><b>第一种人：</b></p><ul><li data-pid=\"kcQXuhSC\">第一次存到30万，没有急着清零</li><li data-pid=\"oHHoxSAq\">心态开始变了，对风险、机会、时间都有概念</li><li data-pid=\"Mi4BbIPf\">资产开始有“复利感”</li></ul><p data-pid=\"-kfcU0Ov\">然后你会发现：</p><ul><li data-pid=\"wNiUwwx4\">5年内到100万</li><li data-pid=\"glHFg3bb\">再过几年，200万、A8+只是时间问题</li></ul><p data-pid=\"diR-xDHQ\">我已经认识不止两个人，都是这么走上去的。</p><hr/><p data-pid=\"4B31OUZF\"><b>第二种人：</b></p><ul><li data-pid=\"YjKpAf2K\">一辈子都在“快要30万”的路上</li><li data-pid=\"gWG1p9Rd\">或者一到30万，立刻清零</li></ul><p data-pid=\"FB0r5S5g\">第一次30万：买房<br/>第二次30万：买车<br/>第三次30万：彩礼<br/>第四次……没了第四次</p><p data-pid=\"MK8POctb\">你会发现一个诡异的现象：<br/><b>他的存款，永远在30万附近徘徊，然后归零。</b></p><p data-pid=\"hT-nqnA9\">就像前面有一堵看不见的空气墙。</p><hr/><p data-pid=\"Zm3XYmDd\">我拿一个身边的真实例子说。</p><p data-pid=\"wtpPL6rX\">高中班级第一名，25岁工作，28岁攒够30万。<br/>之后两年：</p><ul><li data-pid=\"mCIX7-M4\">一波A股行情</li><li data-pid=\"XDZhmCmr\">一波黄金行情</li></ul><p data-pid=\"KawG8u5t\">从30万到100万，用了不到2年。</p><p data-pid=\"6kzJlpMc\">不是他突然变聪明了，<br/>而是<b>一旦你能守住30万，你已经进入了另一个游戏规则。</b></p><hr/><p data-pid=\"J3eLMidQ\">所以问题根本不在“投资水平”。</p><p data-pid=\"HVFLo1dT\">而在于——<br/><b>你能不能第一次，真正拥有一笔“不被立刻消费掉的资产”。</b></p><p data-pid=\"bMBeRuay\">30万，是绝大多数普通人：</p><ul><li data-pid=\"2vy6C1TQ\">第一次拥有“可配置资产”</li><li data-pid=\"8l4oZ-LI\">第一次体验“钱不是用来花，而是用来增值”</li><li data-pid=\"vEBn7WGD\">第一次跨过消费型人生，进入资产型人生</li></ul><hr/><p data-pid=\"C1XL-pGG\"><b>为什么这么多人一辈子都到不了200万？</b></p><p data-pid=\"9Y3QV8Hx\">因为他们：</p><ul><li data-pid=\"XcAgJWs3\">从来没真正拥有过30万</li><li data-pid=\"5LzlfGzK\">或者每次一拥有，就立刻清零</li></ul><p data-pid=\"hlc56bLD\">而<b>阶层跃迁，恰恰发生在第一次不清零的那一刻。</b></p><hr/><p data-pid=\"kNQDMc6l\">有时候我甚至觉得——<br/><b>30万存款，像是为普通人设计的一道筛选机制。</b></p><p data-pid=\"hGWY8JCN\">能迈过去的，后面全是顺坡路。<br/>迈不过的，一辈子都在原地打转。</p><p data-pid=\"dbE0IP1p\">而且，目前为止，<br/><b>我一次都没看走眼过。</b></p>",
+        "favorite_count": 1091,
+        "type": "answer",
+        "excerpt_new": "30万，是一道隐形的空气墙我发现一个非常残酷、但几乎百发百中的规律。 以30万存款为界。凡是能把存款稳定攒到30万，并且不立刻花掉的人—— 100万、200万，真的只是时间问题。而 迈不过30万的人，这一辈子，几乎就被锁死在30万以下。你会看到两种完全不同的人生轨迹。 第一种人：第一次存到30万，没有急着清零心态开始变了，对风险、机会、时间都有概念资产开始有“复利感”然后你会发现： 5年内到100万再过几年，200万、A8+只…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988996397199028720}",
+      "attached_info": "CpcGCIql/42yn7nzigEQBBoJNzYzMTY3MzUwIJ7eyMoGKLEKMNgCQEpKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifVoJMTEwMDg4NjkzYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk4ODk5NjM5NzE5OTAyODcyMIoBCTY2NTE1MDAxOaoBCXJlY29tbWVuZMIBIDc2MDYzNDA2MTljMjk5OGZmYmU2MmQ5YzRkNzA0YTdj8gEKCAwSBk5vcm1hbPIBKAgKEiQzNjRkMGFlNy00ZTU2LTRkMTMtYTU1NC04NjNlMGViY2RhNjnyAQYICxICMTOCAgCIAseQxZu5M5ICIDc2MDYzNDA2MTljMjk5OGZmYmU2MmQ5YzRkNzA0YTdjmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAhNUU19TT1VSQ0VfRkVFRFJFX1Y16AID+gILTk9STUFMX0ZMT1eKAyAyZGY5MDc3MTM4NDg0ZGQ4ODZhYTQwZGZmNzcwNmY2Y5oDDQoCdjIQABoFb3RoZXKoA4H1D9gDAOoDGWZlZWRyZVdhcm1TdWNjZXNzUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADghFmSP4EFAAAAAAAAAACJBevQMRqYYbI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ2QBgCgBkqoBgCSAi4KCTc2MzE2NzM1MBITMTk4ODk5NjM5NzE5OTAyODcyMBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "75_1767705233.212",
+      "type": "feed",
+      "offset": 75,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705233,
+      "updated_time": 1767705233,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1978585774506137124",
+        "voteup_count": 37,
+        "excerpt": "买一辆自行车吧。 我个人比较钟情于自行车，如果你常常感觉心情不好，感觉生活没有意思，或许可以买一辆试试看。 今天日落之后，我把该忙的事情忙完，之后给十二月要忙的东西做了一个规划，详细规划了下周要做完的东西。 天已经黑了，我决定出去夜骑。 打开手机运动APP，点了一个自由骑，戴了耳机，放了音乐，随便穿了几件平时不怎么穿的衣服，绿色工装外套内搭黑色带帽的卫衣，我戴着卫衣帽子，戴着耳机，开始漫无目的的骑行。 …",
+        "reshipment_settings": "disallowed",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "navigator_vote": false,
+        "author": {
+          "name": "煜宸",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-ebc347c27e4aeaf7309d5a422cefe0b0_l.jpg?source=b6762063",
+          "gender": -1,
+          "is_followed": false,
+          "id": "cfa2881f7d77627c1e18dcc53b0fe9a4",
+          "user_type": "people",
+          "is_org": false,
+          "followers_count": 3704,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/cfa2881f7d77627c1e18dcc53b0fe9a4",
+          "url_token": "yong-hu-7444284645"
+        },
+        "updated_time": 1764511609,
+        "is_copyable": false,
+        "question": {
+          "url": "https://api.zhihu.com/questions/613791268",
+          "created": 1690212277,
+          "answer_count": 0,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "title": "我处于一种长期不快乐的状态，我该怎么办?",
+          "bound_topic_ids": [
+            2308,
+            2310,
+            5993,
+            8913,
+            10582
+          ],
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "id": "613791268",
+          "type": "question",
+          "author": {
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-25ac7c0d6225fc37e7f4419d75895b22_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_following": false,
+            "id": "c2042cbf85a4bed6c185b774e82ebacc",
+            "user_type": "people",
+            "url_token": "90-94-86-79",
+            "name": "李喜乐",
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/c2042cbf85a4bed6c185b774e82ebacc",
+            "gender": 0,
+            "followers_count": 3
+          },
+          "is_following": false,
+          "comment_count": 4
+        },
+        "preview_text": "",
+        "favorite_count": 25,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "created_time": 1764511609,
+        "thanks_count": 3,
+        "id": "1978585774506137124",
+        "comment_count": 4,
+        "excerpt_new": "买一辆自行车吧。 我个人比较钟情于自行车，如果你常常感觉心情不好，感觉生活没有意思，或许可以买一辆试试看。 今天日落之后，我把该忙的事情忙完，之后给十二月要忙的东西做了一个规划，详细规划了下周要做完的东西。 天已经黑了，我决定出去夜骑。 打开手机运动APP，点了一个自由骑，戴了耳机，放了音乐，随便穿了几件平时不怎么穿的衣服，绿色工装外套内搭黑色带帽的卫衣，我戴着卫衣帽子，戴着耳机，开始漫无目的的骑行。 …",
+        "preview_type": "default",
+        "content": "<p data-pid=\"GvO7JjD2\">买一辆自行车吧。</p><p data-pid=\"bGBLwH0E\">我个人比较钟情于自行车，如果你常常感觉心情不好，感觉生活没有意思，或许可以买一辆试试看。</p><p data-pid=\"u4y-zVjF\">今天日落之后，我把该忙的事情忙完，之后给十二月要忙的东西做了一个规划，详细规划了下周要做完的东西。</p><p data-pid=\"oVRanfZW\">天已经黑了，我决定出去夜骑。</p><p data-pid=\"twgv76Qq\">打开手机运动APP，点了一个自由骑，戴了耳机，放了音乐，随便穿了几件平时不怎么穿的衣服，绿色工装外套内搭黑色带帽的卫衣，我戴着卫衣帽子，戴着耳机，开始漫无目的的骑行。</p><p data-pid=\"83uFqjIq\">没有给自己规定要骑多久，没有规定要去哪儿骑，只是听着歌，只是随便骑，绕着整个城市。</p><p data-pid=\"62D5EklW\">想冲个极限时，就使出全部力气蹬到最快，累了就放慢速度，就这么骑着，不知不觉就骑完了十公里，没有感觉到疲惫。</p><p data-pid=\"vBlQG-Xn\">有什么样的感觉呢，无法描述，骑行期间感觉到了很多不一样的东西。</p><p data-pid=\"vTH2BjZJ\">一边骑一边听音乐一边看风景，骑到不太熟悉的一片区域时，发现了一栋建筑楼很醒目，目测七八层左右，整栋楼亮着白炽光灯，透过每一个格子能看到一扇白色的门，每一个格子都一样，白色的门，白色的光，远看非常的像电视剧里面精神病院的感觉。</p><p data-pid=\"oSmIURqn\">我一边骑一边猜测，这是监狱吗，整得这么的板正严肃，还是医院，还是学校，当我骑过大楼前的栅栏时，发现里面都是年轻的大学生，他们嬉笑着行走在街道上。</p><p data-pid=\"cTCsitqv\">原来是个学校，我已经猜到了，把学校整成这个样子，外面一看真的只能看到一扇扇白色的门，和白的瘆人的灯。</p><p data-pid=\"PSfFNUtv\">路过大学门口，看到了买给自己一束鲜花的小女生，和朋友并肩同行，边吃边走，边聊着天。</p><p data-pid=\"izK8s3PL\">经过一处人很少的街道，街道特别宽广，两边只有被街灯照的微微发亮的绿树，空气清新，远处迎来一对情侣，女生骑着小黄车，男生穿着运动衣短裤在跑步，男生精疲力尽停下来，女生停下来等他。</p><p data-pid=\"bTfBeHX1\">这就是人世间平时的模样，如果你觉得累了，就出去看看吧，世界还是很慢的，很慢的美好着，也许是因为你最近太累了，或者看了太多不好的生活。</p><p data-pid=\"c6iOmhnM\">当耳边耳机的音乐播放到《疯人院》的几句歌词时，尽管已经听了无数次，却在那一个瞬间，恍惚之间，才终于听明白了几句歌词的含义:</p><p data-pid=\"P4L_h9j7\">当我再度毁灭后</p><p data-pid=\"mJpSgWJN\">一切变更纯净</p><p data-pid=\"ANJagLX3\">那破碎的感受</p><p data-pid=\"LuX3qa3w\">当我再度逃离后</p><p data-pid=\"B6mZJQzU\">逃离灵魂监狱</p><p data-pid=\"grzjUgsP\">那解脱的感受</p><p data-pid=\"Jaq1nRl7\">站在角落中 享受片刻的自由</p><p data-pid=\"20lPt_Sw\">对我来说 如此陌生</p><p data-pid=\"URlO6dOS\">太多拘束可能 捱过破碎过程</p><p data-pid=\"g6COSsIo\">让我重获新生</p><p data-pid=\"YlVt_Kez\">当再度毁灭后</p><p data-pid=\"wxqFzL6q\">一切变更纯净</p><p data-pid=\"PEtX8zca\">这宽容的感受</p><p data-pid=\"MiadK0hX\">……</p><p data-pid=\"Y3Bblvqh\">突然一瞬间就听明白了，我何尝不是从破碎，毁灭之中获得了新生，从破碎的感受，解脱的感受，到现在，才能够宽容一切的感受。</p><p data-pid=\"IRhL0hAt\">那一瞬间，就感受到自己的改变，当时骑行，耳边只有音乐，过往只有一闪而过的夜景，行人，车辆，暖色的街灯照亮着城市。</p><p data-pid=\"4y0qfhs2\">有那么一瞬间，很感谢自己坚持到了最后，才终于获得了自己想要的自由。</p><p data-pid=\"6pZls_lY\">骑行时的感受，没有人会催我回信息，没人需要我惦记着回信息，我不需要看手机，我也不需要规定我下一秒要去哪个方向，也不需要规定必须几点回去，没人干涉我。</p><p data-pid=\"zd9QmDcw\">我完全掌控了我自己，这一天我等了很久。</p><p data-pid=\"mqMj3m_u\">我也不再会被外界干扰，别人的标准，社会的标准，别人的声音，世界的声音，再也不重要了，当我发现任何外界的东西都撼动不了我自己时，我获得了久违的平静。</p><p data-pid=\"8rPUrTOu\">如果说，你能回到过去时，你要告诉过去的自己什么，我一定会和自己说，坚持下去吧，走过去，荆棘丛生之后，将会是开满鲜花的世界。</p><p data-pid=\"TyorPOGE\">我不知道其他人喜欢什么样的生活，我喜欢的就是这样的生活，完全自由，彻底从内心解放了自己，尽管做到这些并不容易，真的花了太多力气，但好在，我已经做到了，其实很早就做到了，只是直到现在才真的感受到这种状态带来的力量。</p><p data-pid=\"ZlRrEwRB\">当然，此时我已经走完，成年后的四个年头了。</p><p data-pid=\"6J7sMruw\">我想说，成年真爽，独立真不错，自由非常令人向往，当小孩子才是最不好的事情，虽然天真烂漫无压力，但也受人摆控着。</p><p data-pid=\"t8dYt2mi\">所以，明天开始，今年就只剩一个月，开始倒计时，如果你觉得生活停滞了，那就立刻改变生活方式，去做你从来没做过的事情。</p><p data-pid=\"6oBfiBsn\">只有改变你的生活方式，你才能发生改变。就好像，如果你觉得不开心，与其每天重复一样的生活，不如搞辆自行车，每天晚上出去骑一小时。</p><p data-pid=\"1cx84FZ3\">每当到了年末都会是最忙的时候，我也仍然还是那句话，大家要珍惜时间，别给自己留太多遗憾，至少别给2025年的自己留太多遗憾。</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 2439
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1978585774506137124}",
+      "attached_info": "CsIGCIql/42yn7nzigEQBBoJNzU4OTU1MTA3IPmesckGKCUwBEBLSkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDcwODc5ODYzNQoYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDk4Njc4NDEwYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk3ODU4NTc3NDUwNjEzNzEyNIoBCTYxMzc5MTI2OKoBCXJlY29tbWVuZMIBIGNmYTI4ODFmN2Q3NzYyN2MxZTE4ZGNjNTNiMGZlOWE08gEKCAwSBk5vcm1hbPIBKAgKEiQwOGNlZDk5ZC0zNjhlLTQ2YmEtYWMxYi1jMTNmMDliYzc4NGTyAQYICxICMTOCAgCIAseQxZu5M5ICIGNmYTI4ODFmN2Q3NzYyN2MxZTE4ZGNjNTNiMGZlOWE0mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEXoAgP6AgtOT1JNQUxfRkxPV4oDIDJkZjkwNzcxMzg0ODRkZDg4NmFhNDBkZmY3NzA2ZjZjmgMNCgJ2MhAAGgVvdGhlcqgDhxPYAwDqAxl0ZXh0QWxsU2l0ZUFjdGlvbkl0ZW1DRlYy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYMuvkD+BBQAAAAAAAAAAiQXr0DEamGGyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUNkAYAoAZLqAYAkgIuCgk3NTg5NTUxMDcSEzE5Nzg1ODU3NzQ1MDYxMzcxMjQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "76_1767705233.399",
+      "type": "feed",
+      "offset": 76,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705233,
+      "updated_time": 1767705233,
+      "target": {
+        "question": {
+          "id": "1955083282392809750",
+          "author": {
+            "headline": "提问是因为会无意看到一些内容，希望能得到求证。不是人机号。",
+            "gender": -1,
+            "followers_count": 13,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/81e8ceca6eaaca1a9739b0fde7c55c11",
+            "user_type": "people",
+            "url_token": "19-14-90-45-43",
+            "is_org": false,
+            "is_following": false,
+            "id": "81e8ceca6eaaca1a9739b0fde7c55c11",
+            "name": "大白",
+            "avatar_url": "https://picx.zhimg.com/50/v2-f1be5ed24936a7311e75da3884b2bd6d_l.jpg?source=b6762063"
+          },
+          "answer_count": 0,
+          "title": "在美国，可以无理由、随意开除员工，不用赔偿吗？",
+          "bound_topic_ids": [
+            14171,
+            2208141,
+            2986538
+          ],
+          "excerpt": "",
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/1955083282392809750",
+          "created": 1758908178,
+          "comment_count": 2,
+          "type": "question",
+          "follower_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "preview_type": "default",
+        "visited_count": 93482,
+        "created_time": 1767318104,
+        "is_copyable": true,
+        "excerpt_new": "明面上不可以但有10000种办法，我在微软的时候，老板领着组里15个人集体大保健，我因为约了三年才约上的根管治疗实在难得，只能忍（着牙）痛放弃 第二天再去上班的时候发现全组就剩我一个人了，老板和那十五个人都被西雅图黑警活捉，他们突袭了Bellevue高档Apartment区，号称“东区小东莞” 因为道德和行为问题裁员是可以不付一分钱的，他们谁都没有拿到裁员补偿。我一猜就知道：是我老板自己报的警，谁知道他背后跟微软有什么交…",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "favorite_count": 179,
+        "allow_segment_interaction": true,
+        "updated_time": 1767318104,
+        "thanks_count": 28,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "excerpt": "明面上不可以但有10000种办法，我在微软的时候，老板领着组里15个人集体大保健，我因为约了三年才约上的根管治疗实在难得，只能忍（着牙）痛放弃 第二天再去上班的时候发现全组就剩我一个人了，老板和那十五个人都被西雅图黑警活捉，他们突袭了Bellevue高档Apartment区，号称“东区小东莞” 因为道德和行为问题裁员是可以不付一分钱的，他们谁都没有拿到裁员补偿。我一猜就知道：是我老板自己报的警，谁知道他背后跟微软有什么交…",
+        "content": "<p data-pid=\"cT7qT0_g\">明面上不可以但有10000种办法，我在微软的时候，老板领着组里15个人集体大保健，我因为约了三年才约上的根管治疗实在难得，只能忍（着牙）痛放弃</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Dad4zyIp\">第二天再去上班的时候发现全组就剩我一个人了，老板和那十五个人都被西雅图黑警活捉，他们突袭了Bellevue高档Apartment区，号称“东区小东莞”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YIhZJCJT\">因为道德和行为问题裁员是可以不付一分钱的，他们谁都没有拿到裁员补偿。我一猜就知道：是我老板自己报的警，谁知道他背后跟微软有什么交易</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"DusyhtJr\">那里面被开的还有国内L1签证过来的，丢了工作就得回国，听说被警察时抓了忽然失态崩溃，拿头撞墙，警察只好把他按住</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hTLSWTRD\">那以后我就支持红灯区合法化了</p><p></p><p></p>",
+        "url": "https://api.zhihu.com/answers/1990357068675305815",
+        "author": {
+          "user_type": "people",
+          "url_token": "huo-gu-itpang-zi",
+          "name": "硅谷IT胖子",
+          "headline": "正要收杆，咬钩的大鱼忽然开口说话了：脱钩！脱钩！",
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/4248933125d95268d3fe90a89c1fd175",
+          "avatar_url": "https://picx.zhimg.com/50/v2-0d19f9c15e94caa0634be16d2ef041ea_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 220747,
+          "is_following": false,
+          "id": "4248933125d95268d3fe90a89c1fd175"
+        },
+        "voteup_count": 955,
+        "comment_count": 188,
+        "preview_text": "",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "id": "1990357068675305815",
+        "type": "answer",
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990357068675305815}",
+      "attached_info": "CtAFCIql/42yn7nzigEQBBoJNzYzNjQ5NTEwINjE3MoGKLsHMLwBQExKPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifVoJMTE2NzQyNzIxYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk5MDM1NzA2ODY3NTMwNTgxNYoBEzE5NTUwODMyODIzOTI4MDk3NTCqAQlyZWNvbW1lbmTCASA0MjQ4OTMzMTI1ZDk1MjY4ZDNmZTkwYTg5YzFmZDE3NfIBCggMEgZOb3JtYWzyASgIChIkMWJiZTZkZDktMGM4Yi00YTVkLWI3ZDktM2YxNDczMmQ3Njlh8gEGCAsSAjEzggIAiALIkMWbuTOSAiA0MjQ4OTMzMTI1ZDk1MjY4ZDNmZTkwYTg5YzFmZDE3NZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTegCAvoCC05PUk1BTF9GTE9XigMgMmRmOTA3NzEzODQ4NGRkODg2YWE0MGRmZjc3MDZmNmOaAw0KAnYyEAAaBW90aGVyqAOq2gXYAwDqAxBuZXdiaWVfZmVlZHJlX3Yy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAANRQhD+BBQAAAAAAAAAAiQXr0DEamGGyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUNkAYAoAZMqAYBkgIuCgk3NjM2NDk1MTASEzE5OTAzNTcwNjg2NzUzMDU4MTUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "77_1767705233.130",
+      "type": "feed",
+      "offset": 77,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767705233,
+      "updated_time": 1767705233,
+      "target": {
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "updated_time": 1767501678,
+        "comment_count": 0,
+        "question": {
+          "url": "https://api.zhihu.com/questions/657841368",
+          "answer_count": 0,
+          "id": "657841368",
+          "author": {
+            "user_type": "people",
+            "url_token": "ft4nrz",
+            "followers_count": 0,
+            "url": "https://api.zhihu.com/people/aca0b8ce074a92a677b3a47533bc8f02",
+            "name": "空杯",
+            "headline": "喜欢研究",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-1abe7b115ea0ab9e5dfe334d5a1fef38_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "aca0b8ce074a92a677b3a47533bc8f02"
+          },
+          "question_type": "normal",
+          "excerpt": "",
+          "title": "35岁了，想学习AI，搞懂AI，用好AI还来得及吗？",
+          "created": 1717233666,
+          "follower_count": 0,
+          "comment_count": 3,
+          "is_following": false,
+          "type": "question",
+          "bound_topic_ids": [
+            350,
+            1537,
+            101545,
+            188574,
+            1963575
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "detail": ""
+        },
+        "preview_text": "",
+        "allow_segment_interaction": true,
+        "answer_type": "normal",
+        "excerpt_new": "你是不是也遇到这样的问题： 想 系统性地学习 AI, 但网上教程太多了,不知道从哪开始；想找个人交流吧,身边没人搞这个；一个人学着学着就放弃了,太正常了。后来我发现了 国内其实有 4 个超好用的 AI 学习社区 ,每个都有不同的特色。今天我把它们整理出来,帮你快速找到适合自己的那个。 简单介绍一下: WaytoAGI: 900 万用户的 AI 知识库,有智能问答和 3 个月系统路线,适合小白快速入门DataWhale: 组队学习模式,一群人互相督促,适合…",
+        "created_time": 1767501678,
+        "id": "1991127035523900293",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-d3282ddf1b39513466d6be511ca540a4_720w.jpg?source=b6762063",
+        "is_copyable": true,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-d3282ddf1b39513466d6be511ca540a4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5ae5109b85ed1e5d5000f5518d8472cc_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 5,
+        "navigator_vote": false,
+        "voteup_count": 1,
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "content": "<p></p><p data-pid=\"2O3cNtII\">你是不是也遇到这样的问题：</p><p data-pid=\"mI-BmozF\">想<b>系统性地学习 AI</b>, 但网上教程太多了,不知道从哪开始；想找个人交流吧,身边没人搞这个；一个人学着学着就放弃了,太正常了。</p><p data-pid=\"lW967m8h\">后来我发现了 国内其实有 <b>4 个超好用的 AI 学习社区 </b>,每个都有不同的特色。今天我把它们整理出来,帮你快速找到适合自己的那个。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"llB_Vv23\">简单介绍一下:</p><ul><li data-pid=\"PVlOSe2y\"><b>WaytoAGI</b>: 900 万用户的 AI 知识库,有智能问答和 3 个月系统路线,适合小白快速入门</li><li data-pid=\"29GWAuHm\"><b>DataWhale</b>: 组队学习模式,一群人互相督促,适合一个人坚持不下来的</li><li data-pid=\"Tn6k4u9g\"><b>魔搭 ModelScope</b>: 阿里出品的模型平台,开发者可以在线调用各种 AI 模型</li><li data-pid=\"UiDkl4k6\"><b>LiblibAI</b>: 10 万+绘画模型完全免费,适合想搞 AI 艺术创作的</li></ul><p data-pid=\"k0lWGCAv\">下面我详细说说每个社区的特点,帮你找到最适合自己的那个。</p><hr/><h2>WaytoAGI:900 万人的 AI 知识库</h2><p data-pid=\"tzf3Y1o4\">这个社区猛到什么程度? <b>900 万+用户, 9000+篇 AI 干货内容</b>,基本上你遇到的任何 AI 问题,里面都有答案。</p><p data-pid=\"oGiiL9Qf\"><b>网站: <a href=\"https://link.zhihu.com/?target=HTTPS%3A//waytoagi.feishu.cn/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">HTTPS://</span><span class=\"visible\">waytoagi.feishu.cn/</span><span class=\"invisible\"></span></a></b></p><p>http://weixin.qq.com/r/ZhGXj67EzvOxrers90R0 (二维码自动识别)</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>它能解决什么问题?</h3><h3><b>痛点 1:不知道从哪学</b></h3><p data-pid=\"txVr7GD0\">WaytoAGI 提供了 <b>3 个月从零开始的系统学习路线</b>,从 AI 底层原理到工具使用,从提示词优化到实战项目,全给你规划好了。你只需要跟着路线走,不会迷茫。</p><h3><b>痛点 2:遇到问题没人问</b></h3><p data-pid=\"3hh81Enz\">这个社区最牛的地方是<b>飞书智能问答功能</b>。你用自然语言问问题,AI 会自动理解你的意图,从 9000+篇文章里精准找到答案,然后给你一个总结+原文链接。基本上,你在学 AI 过程中遇到的 90% 的问题,问它就能搞定。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a6ce3c7906fe420263e859781bdc8759_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"931\" data-original-token=\"v2-d3282ddf1b39513466d6be511ca540a4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-a6ce3c7906fe420263e859781bdc8759_r.jpg\"/></figure><h3>怎么用?实操步骤</h3><h3><b>步骤 1:加入飞书社区</b></h3><p data-pid=\"L4AUIJkV\">打开上面的链接  ,用手机号注册飞书账号,然后点击「加入组织」就能进入。整个过程 5 分钟搞定。</p><h3><b>步骤 2:从「3 个月学习路线」开始</b></h3><p data-pid=\"_TqgNg7p\">进入知识库后,搜索「3 个月学习路线」或「从零开始」,找到官方规划的路径。第一个月学基础理论,第二、三个月动手实践。别想着一口气看完,每天花 1-2 小时就够。</p><h3><b>步骤 3:善用智能问答</b></h3><p data-pid=\"G__GhUsg\">遇到问题别急着百度,直接在飞书里用「与知识库对话」功能提问。比如「怎么写好 nano-banana 的提示词」,AI 会给你总结出一套方法论,还能告诉你具体看哪篇文章深入了解。</p><p data-pid=\"8nAQKEDz\"><b>避坑提醒:</b></p><ul><li data-pid=\"Fz8mO9P-\">内容太多了,别想着一天看完,会信息过载</li><li data-pid=\"2zl3Bjvo\">建议先从「新手必看」或「学习路线」入手,按图索骥</li></ul><hr/><h2>DataWhale: 一个人坚持不下来?来组队吧</h2><p data-pid=\"nWGmbN5W\">说实话,我特别能理解那种「一个人学 AI 学到一半就放弃」的感觉。没人讨论,遇到问题卡住三天,最后干脆不学了。</p><p data-pid=\"TvZoeHjH\">DataWhale 社区就是解决这个问题的。</p><p data-pid=\"aTswYQqV\"><b>网站: <a href=\"https://link.zhihu.com/?target=HTTPS%3A//www.datawhale.cn/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">HTTPS://www.</span><span class=\"visible\">datawhale.cn/</span><span class=\"invisible\"></span></a></b></p><p data-pid=\"1pwHK4yo\">这个社区从 2018 年 8 月 2 日开始搞组队学习,到现在已经持续了 6 年多。核心理念特别简单:让志同道合的人一起学,互相督促,谁也不掉队。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-afcfea2a141e86e91954b63ecc3667c3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"556\" data-original-token=\"v2-ced132d8cfee3478686830b9ee2249c7\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-afcfea2a141e86e91954b63ecc3667c3_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ac9ce107617bd815e4211e274a29b687_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"537\" data-original-token=\"v2-68013c60eb848f0e0e8ca0ea551bdeb9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-ac9ce107617bd815e4211e274a29b687_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3>它的核心优势</h3><h3><b>优势 1:组队打卡,互相督促</b></h3><p data-pid=\"B3Bng8Qu\">每次组队学习通常会持续 2-4 周,每天需要完成一定的学习任务并在群里打卡。你看到群里别人都在学,自己也不好意思偷懒。这种「同伴压力」比你想的管用多了。</p><h3><b>优势 2:50+门开源教程,全中文</b></h3><p data-pid=\"QU73hYIw\">DataWhale 已经开源了 50 多门学习内容,涵盖 AI 智能体、AI 编程、数据科学、深度学习等领域。<b>所有教程都是全中文</b>, 而且特别注重实战,不是那种纯理论的玩意儿。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d3f9575bb868c2e8e46e5aabfeeea6d9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"788\" data-qrcode-action=\"none\" data-original-token=\"v2-5ae5109b85ed1e5d5000f5518d8472cc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-d3f9575bb868c2e8e46e5aabfeeea6d9_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3><b>优势 3:覆盖 3500+院校的社区</b></h3><p data-pid=\"dFWmBiCl\">这个社区覆盖了海内外 3500 多所院校,你在这里能遇到各种各样的人:有大学生、有在职开发者、有转行的人。交流起来特别有意思,不同背景的人对同一个问题有完全不同的视角。</p><p class=\"ztext-empty-paragraph\"><br/></p><h3>怎么参与学习?</h3><h3><b>步骤 1:关注 DataWhale 公众号或官网</b></h3><p data-pid=\"q0u3dqzn\">访问他们的官网 ,关注他们的公众号。每次有新的组队学习活动,都会提前发通知。</p><h3><b>步骤 2:选择适合你的项目</b></h3><p data-pid=\"RiafGDTQ\">不是所有项目都适合 AI 小白。新手建议从「AI 入门基础」这类开始。如果你只会用 DeepSeek,那就从最基础的学起,别一上来就搞深度学习,会劝退的。</p><h3><b>步骤 3:报名+加入群组</b></h3><p data-pid=\"-0k5qlEx\">按照指引填写报名表,然后会被拉到飞书群或微信群里。群里会有学习委员提醒你每天打卡,还有助教答疑。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rAhLFL96\"><b>避坑提醒:</b></p><ul><li data-pid=\"Sszt3B-Y\">组队学习有固定周期,不是随时都能报名,得盯着活动通知</li><li data-pid=\"PwK_VoaI\">部分项目需要一定的编程基础,纯小白可能会吃力</li><li data-pid=\"pYaZ_DcS\">打卡真的很重要,别三天打鱼两天晒网,那样参加没意义</li></ul><hr/><h2>补充两个社区: ModelScope 魔搭 / LiblibAI <b>哩布哩布</b></h2><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lOmZlc3A\">如果你是<b>开发者</b>,想在自己的项目里调用 AI 模型, 那 <b>ModelScope 魔搭社区</b>适合你。</p><p data-pid=\"835wp0D1\">这是阿里巴巴达摩院推出的模型平台,主打「模型即服务」。上面有 NLP、计算机视觉、语音等各领域的模型,支持在线推理、训练、部署。简单说就是:你想用 AI 模型,但不想自己训练,来这里直接调现成的就行。</p><p data-pid=\"qC40naB3\"><b>网站: <a href=\"https://link.zhihu.com/?target=HTTPS%3A//modelscope.cn/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">HTTPS://</span><span class=\"visible\">modelscope.cn/</span><span class=\"invisible\"></span></a> </b></p><p data-pid=\"OHtd_zzo\">注册账号,找到你需要的模型,然后按照文档集成到你的项目里。适合有一定技术基础的人。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8b70177dd02c48b0a36a82367f76d5be_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"568\" data-original-token=\"v2-0bc2b0c3dff9e2dfd2664dd6341a97da\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-8b70177dd02c48b0a36a82367f76d5be_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vJyY4XaH\">如果你是<b>艺术创作者</b>,想做 AI 绘画、设计插画之类的,那 <b>LiblibAI 哩布哩布</b>更合适。</p><p data-pid=\"qVZVPySI\">这个社区专门做 AI 绘画,有 <b>10 万+原创模型</b>,全部免费下载。它还提供在线的 WebUI 和 ComfyUI 工具,不用本地部署,浏览器里就能开始创作。你可以在线训练自己的模型,也可以下载别人分享的模型来用。</p><p data-pid=\"dReB6vdD\"><b>网站: <a href=\"https://link.zhihu.com/?target=HTTPS%3A//www.liblib.art/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">HTTPS://www.</span><span class=\"visible\">liblib.art/</span><span class=\"invisible\"></span></a> </b></p><p data-pid=\"uDAjyv27\">注册,选择一个你喜欢的模型(比如动漫风格、写实风格),输入描述词,几秒钟就能生成图片。蛮简单的,小白也能上手。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0aeddb391fc7f9522ff3972f5f5b506f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"617\" data-original-token=\"v2-05747ee90ec9d40aa0915b19eb35de6a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-0aeddb391fc7f9522ff3972f5f5b506f_r.jpg\"/></figure><p data-pid=\"liyqvu1H\">这两个社区怎么选? </p><ul><li data-pid=\"rv8HS68X\">想搞技术开发的 → ModelScope</li><li data-pid=\"87DnOhtL\">想搞艺术创作的 → LiblibAI</li></ul><hr/><h2>四个社区快速对比</h2><p data-pid=\"pq3hu049\">介绍完所有社区了,给你放个对比表,帮你快速回顾:</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>社区</td><td>核心特色</td><td>适合人群</td><td>学习方式</td></tr><tr><td>WaytoAGI</td><td>900万用户,智能问答+系统路线</td><td>小白快速入门</td><td>自主学习+AI答疑</td></tr><tr><td>DataWhale</td><td>组队学习,互相督促</td><td>一个人坚持不下来的</td><td>组队打卡+项目实战</td></tr><tr><td>ModelScope</td><td>阿里出品,模型下载部署</td><td>想搞开发的</td><td>模型调用技术实践</td></tr><tr><td>LiblibAI</td><td>10万+绘画模型,完全免费</td><td>AI艺术创作者</td><td>在线创作+模型分享</td></tr></tbody></table><hr/><h2>避坑指南:我踩过的坑,你别再踩了</h2><p data-pid=\"GQizYQK6\">这里分享几个血泪教训:</p><h3><b>坑 1:什么都想学,结果什么都没学会</b></h3><p data-pid=\"yZUwosxd\">一开始我恨不得把所有社区都加入,WaytoAGI、DataWhale、还有一堆公众号,每天信息量爆炸。最后发现根本消化不了,还产生了严重的焦虑感。</p><p data-pid=\"B0Hg24zS\"><b>建议:</b>先选一个主阵地。如果你是纯小白,我建议先从 <b>WaytoAGI </b>开始,用它的 3 个月学习路线打基础。等基础差不多了,再去 DataWhale 组队学习巩固。别贪多。</p><h3><b>坑 2:只看不练,假学习</b></h3><p data-pid=\"UIjvmfQQ\">不要特别迷「收藏教程」,看到好的文章就收藏,结果收藏了几百篇,一篇都没看完。这叫「收藏即学习」,纯属自我安慰。</p><p data-pid=\"8UXWT3lI\"><b>建议:</b>强迫自己输出。每学完一个知识点,要么写个笔记,要么做个小项目。只有用了,才是真的学会了。</p><h3><b>坑 3:遇到问题就放弃</b></h3><p data-pid=\"qlLFXrHS\">学 AI 最怕的就是卡住不动。一开始遇到报错能卡三天,然后就想「算了不学了」。</p><p data-pid=\"qqGNPWGA\"><b>建议:</b>善用社区。WaytoAGI 的智能问答、DataWhale 的群组答疑,都是帮你快速解决问题的。别一个人死磕,效率太低。</p><hr/><h2>最后说两句</h2><p data-pid=\"eQaIW53Y\">学 AI 不是一蹴而就的事,但有了这些社区,至少你不会是一个人战斗。</p><p data-pid=\"KX6XD3af\">从只会用 DeepSeek 聊天,到能够系统学习 AI、动手做项目, 只要找对方法,坚持下去,普通人也能玩转 AI。</p><hr/><p data-pid=\"O8EEeufB\">希望这篇文章能帮你找到适合自己的学习社区。如果有帮助,可以帮忙 <b>点个赞 </b>,让我有动力继续更新这类内容。</p><p data-pid=\"JF72owEN\">欢迎关注公众号:<b>「蝈蝈的 AI 笔记」</b>, 里面有更多 AI 学习干货和实战教程。</p><p></p><p></p>",
+        "url": "https://api.zhihu.com/answers/1991127035523900293",
+        "author": {
+          "id": "0f79959d2eb86defa4ed2c09aee55476",
+          "url": "https://api.zhihu.com/people/0f79959d2eb86defa4ed2c09aee55476",
+          "user_type": "people",
+          "headline": "公众号: 蝈蝈的AI笔记 , 专注:AI智能体/AI工具提效",
+          "is_org": false,
+          "followers_count": 4,
+          "is_followed": false,
+          "url_token": "guo-guo-92-22",
+          "name": "蝈蝈的AI笔记",
+          "avatar_url": "https://picx.zhimg.com/50/v2-435368618df82959ed8a1bd9697ac0a9_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_following": false
+        },
+        "excerpt": "你是不是也遇到这样的问题： 想 系统性地学习 AI, 但网上教程太多了,不知道从哪开始；想找个人交流吧,身边没人搞这个；一个人学着学着就放弃了,太正常了。后来我发现了 国内其实有 4 个超好用的 AI 学习社区 ,每个都有不同的特色。今天我把它们整理出来,帮你快速找到适合自己的那个。 简单介绍一下: WaytoAGI: 900 万用户的 AI 知识库,有智能问答和 3 个月系统路线,适合小白快速入门DataWhale: 组队学习模式,一群人互相督促,适合…",
+        "visited_count": 57,
+        "thanks_count": 1,
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991127035523900293}",
+      "attached_info": "CosICIql/42yn7nzigEQBBoJNzYzOTMyNDM0IO7e58oGKAEwAEBNSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AEoiChdUU19TT1VSQ0VfV0FSTVVQX1JVQ0VORRIBMBgAIAA6AFoJMTA4NDY0ODAyYiBhNGU5MGM1Nzk4NzE1NmJhOTFiMDI1YTkzMWFjZTEwOHITMTk5MTEyNzAzNTUyMzkwMDI5M4oBCTY1Nzg0MTM2OKoBCXJlY29tbWVuZMIBIDBmNzk5NTlkMmViODZkZWZhNGVkMmMwOWFlZTU1NDc28gEKCAwSBk5vcm1hbPIBKAgKEiRhODdhOWExZC0yMjE2LTQwNTEtYjUzOS00MmE3Yzc5ZDY1NmTyAQYICxICMTOCAgCIAsiQxZu5M5ICIDBmNzk5NTlkMmViODZkZWZhNGVkMmMwOWFlZTU1NDc2mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIcQmF5ZXNGaXJzdExldmVsSXNvbGF0aW9uUnVsZdoCGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMugCA/oCC05PUk1BTF9GTE9XigMgMmRmOTA3NzEzODQ4NGRkODg2YWE0MGRmZjc3MDZmNmOaAw0KAnYyEAAaBW90aGVyqAM52AMA6gMLdGV4dF9ydWNlbmX6A7kCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuAgYowciI3YyLWQzMjgyZGRmMWIzOTUxMzQ2NmQ2YmU1MTFjYTU0MGE0Oi0IAhC4CBisBCIjdjItY2VkMTMyZDhjZmVlMzQ3ODY4NjgzMGI5ZWUyMjQ5Yzc6LQgDELgIGJkEIiN2Mi02ODAxM2M2MGViODQ4ZjBlMGU4Y2EwZWE1NTFiZGViOTotCAIQuAgYlAYiI3YyLTVhZTUxMDliODVlZDFlNWQ1MDAwZjU1MThkODQ3MmNjOi0IAhC4CBi4BCIjdjItMGJjMmIwYzNkZmY5ZTJkZmQyNjY0ZGQ2MzQxYTk3ZGE6LQgCELgIGOkEIiN2Mi0wNTc0N2VlOTBlYzlkNDBhYTA5MTViMTllYjM1ZGU2YYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIE96gT+BBQAAAAAAAAAAiQXr0DEamGGyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUNkAYAoAZNqAYAkgIuCgk3NjM5MzI0MzQSEzE5OTExMjcwMzU1MjM5MDAyOTMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=77&desktop=true&end_offset=77&page_number=14&session_token=a4e90c57987156ba91b025a931ace108",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=77&desktop=true&end_offset=77&page_number=14&session_token=a4e90c57987156ba91b025a931ace108",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

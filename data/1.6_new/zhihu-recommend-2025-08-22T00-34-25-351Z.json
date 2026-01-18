@@ -1,0 +1,621 @@
+{
+  "data": [
+    {
+      "id": "600_1755822911.299",
+      "type": "feed",
+      "offset": 600,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822911,
+      "updated_time": 1755822911,
+      "target": {
+        "id": "11307279907",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/11307279907",
+        "author": {
+          "id": "658acd00382565081dac63a99fee4cc2",
+          "url": "https://api.zhihu.com/people/658acd00382565081dac63a99fee4cc2",
+          "user_type": "people",
+          "url_token": "pydatalysis",
+          "name": "朱卫军",
+          "headline": "世界是编码的",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d45547b53ad8fcc2b0fb7d0c734e78df_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "Python话题下的优秀答主",
+              "topic_names": [
+                "Python"
+              ],
+              "topic_ids": [
+                872
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜科技互联网领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "汽车制造业 数据分析师"
+            }
+          ],
+          "followers_count": 130735,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1729521754,
+        "updated_time": 1729521754,
+        "voteup_count": 8,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "390366607",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/390366607",
+          "author": {
+            "id": "56cc208fde4fe347ba522162d740026e",
+            "url": "https://api.zhihu.com/people/56cc208fde4fe347ba522162d740026e",
+            "user_type": "people",
+            "url_token": "ka-ka-lu-la",
+            "name": "咔咔噜啦",
+            "headline": "爱好编程",
+            "avatar_url": "https://pica.zhimg.com/50/v2-ace206695b3bd5f7a076945155bb3bec_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "请问有什么爬虫软件推荐？",
+          "created": 1587738780,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            25582,
+            81939,
+            181627
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-4f3980edf1b84100dbd0100f633b8726_720w.jpg?source=b6762063",
+        "excerpt": "爬虫，又称为网络爬虫或网页爬虫，是一种自动浏览互联网的程序，它按照一定的算法顺序访问网页，并从中提取有用信息。爬虫软件通常由以下几部分组成： - 用户代理（User-Agent）：模拟浏览器访问，避免被网站识别为机器人。- 请求处理：发送HTTP请求，获取网页内容。- 内容解析：使用正则表达式或DOM解析技术提取所需数据。- 数据存储：将提取的数据保存到数据库或文件中。- 错误处理：处理请求超时、服务器拒绝等异常情况。下面…",
+        "excerpt_new": "爬虫，又称为网络爬虫或网页爬虫，是一种自动浏览互联网的程序，它按照一定的算法顺序访问网页，并从中提取有用信息。爬虫软件通常由以下几部分组成： - 用户代理（User-Agent）：模拟浏览器访问，避免被网站识别为机器人。- 请求处理：发送HTTP请求，获取网页内容。- 内容解析：使用正则表达式或DOM解析技术提取所需数据。- 数据存储：将提取的数据保存到数据库或文件中。- 错误处理：处理请求超时、服务器拒绝等异常情况。下面…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"6JVS9jzz\">爬虫，又称为网络爬虫或网页爬虫，是一种自动浏览互联网的程序，它按照一定的算法顺序访问网页，并从中提取有用信息。爬虫软件通常由以下几部分组成：</p><p data-pid=\"UQizvhoX\">- <b>用户代理（User-Agent）：</b>模拟浏览器访问，避免被网站识别为机器人。</p><p data-pid=\"HFJuEa--\">- <b>请求处理：</b>发送HTTP请求，获取网页内容。</p><p data-pid=\"pk5ChdDL\">- <b>内容解析：</b>使用正则表达式或DOM解析技术提取所需数据。</p><p data-pid=\"HyvF4u44\">- <b>数据存储：</b>将提取的数据保存到数据库或文件中。</p><p data-pid=\"mj4g3pR-\">- <b>错误处理：</b>处理请求超时、服务器拒绝等异常情况。</p><p data-pid=\"ZE7JiVcF\">下面介绍几个我经常用的爬虫插件和工具，入门非常简单。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-532612ea2c38611e3d180690f2684ef6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"306\" data-original-token=\"v2-1615c3f7dd5e0e1b17b4f346fd228067\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-532612ea2c38611e3d180690f2684ef6_r.jpg\"/></figure><h2><b>八爪鱼采集器</b></h2><p data-pid=\"JZy7nwX_\">八爪鱼是一款面向非技术用户的桌面端爬虫软件，以其可视化操作和强大的模板库而受到青睐。</p><p data-pid=\"vqzw5Rs6\">官网：<a href=\"https://link.zhihu.com/?target=https%3A//affiliate.bazhuayu.com/zwjzht\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">affiliate.bazhuayu.com/</span><span class=\"invisible\">zwjzht</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-de2be9f0b8e43b39a7cd4b8f71c7ec4e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"665\" data-original-token=\"v2-aaf355e6fe29c8e3cf02422b9f5241b2\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-de2be9f0b8e43b39a7cd4b8f71c7ec4e_r.jpg\"/></figure><p data-pid=\"eSm7Yk-t\"><b>「功能与特点：」</b></p><ul><li data-pid=\"mT2GvtBm\">可视化操作：无需编程基础，通过拖拽即可设计采集流程。</li><li data-pid=\"OJQEjKji\">海量模板：内置300+主流网站采集模板，简化参数设置过程。</li><li data-pid=\"lvGyZuGc\">智能采集：集成多种人工智能算法，自动化处理复杂网站场景。</li><li data-pid=\"DKxsfSQ8\">自定义采集：支持文字、图片、文档、表格等多种文件类型的采集。</li><li data-pid=\"6hniRPrU\">云采集服务：提供5000台云服务器，实现24小时高效稳定采集。</li></ul><p data-pid=\"eca_H9sx\"><b>「使用方法：」</b></p><ul><li data-pid=\"4auahKFc\">下载并安装八爪鱼采集器。</li><li data-pid=\"mRnpcYRR\">输入待采集的网址，开启“浏览模式”选择具体内容。</li><li data-pid=\"CgCUtH_1\">设计采集流程，创建采集任务。</li><li data-pid=\"lFnTVt_5\">开启采集，并通过“显示网页”查看实时采集情况。</li><li data-pid=\"X5BhVIWX\">导出采集数据，选择合适的文件格式进行保存。</li></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-45b7f75e81e5289846216fc42a6cf09d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"568\" data-original-token=\"v2-fb8f0d124b96aa8a85cc676af67fc00b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-45b7f75e81e5289846216fc42a6cf09d_r.jpg\"/></figure><h2><b>亮数据（Bright Data）</b></h2><p data-pid=\"gzo0O6ep\">亮数据是一款强大的数据采集工具，以其全球代理IP网络和强大数据采集技术而闻名。它能够轻松采集各种网页数据，包括产品信息、价格、评论和社交媒体数据等。</p><p data-pid=\"SEv41KDL\">网站：<a href=\"https://link.zhihu.com/?target=https%3A//get.brightdata.com/weijun\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">get.brightdata.com/weij</span><span class=\"invisible\">un</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-042832e69998385cd07e4768e5148903_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"524\" data-original-token=\"v2-a49e6239d6400354ba9f6f9ee13a4a84\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-042832e69998385cd07e4768e5148903_r.jpg\"/></figure><p data-pid=\"nhVSbkkO\"><b>「功能与特点：」</b></p><ul><li data-pid=\"4Pd9FLDv\">全球网络数据采集：提供一站式服务，将全网数据转化为结构化数据库。</li><li data-pid=\"StYOrGFV\">商用代理网络：拥有超过7200万个IP，覆盖195个国家，每日更新上百万IP。</li><li data-pid=\"b8xG4XDR\">高效数据采集：能够达到170000请求/秒，每天处理高达1PT的网络流量。</li><li data-pid=\"e_JSCJQt\">技术驱动：拥有超3300项授权专利申报，持续引领行业创新。</li><li data-pid=\"-fdX1XBC\">稳定性：提供99.99%的稳定运行时间，即使在网络高峰期间也能保持稳定。</li></ul><p data-pid=\"SOSxoTuQ\"><b>「使用方法：」</b></p><ul><li data-pid=\"KsjeXVX0\">注册亮数据账号。</li><li data-pid=\"fTges2dI\">创建爬虫任务，选择合适的数据源和爬虫模板或编写爬虫代码。</li><li data-pid=\"0JdWTiq3\">设置任务参数，包括采集规则和数据存储选项。</li><li data-pid=\"Z1sSWoDl\">启动任务，开始数据采集。</li></ul><h2><b>HTTrack</b></h2><p data-pid=\"ZrTKHcr5\">HTTrack是一款免费且功能强大的网站爬虫软件，它允许用户下载整个网站到本地计算机。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8c10f9ce3a1f9f1812c4be9ec12949be_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"701\" data-rawheight=\"323\" data-original-token=\"v2-5358efbff1a1f5cff31ed7ceb91bc5df\" class=\"origin_image zh-lightbox-thumb\" width=\"701\" data-original=\"https://pic3.zhimg.com/v2-8c10f9ce3a1f9f1812c4be9ec12949be_r.jpg\"/></figure><p data-pid=\"qvv3UFYq\"><b>「功能与特点：」</b></p><p data-pid=\"8TY9kRn6\">-支持多平台，包括Windows、Linux和Unix系统。</p><ul><li data-pid=\"m0p59EuS\">能够镜像网站，包括图片、文件、HTML代码等。</li><li data-pid=\"8zyg2cGx\">用户可以设置下载选项，如并发连接数。</li><li data-pid=\"YD0Oaebr\">提供代理支持，可通过身份验证提高下载速度。</li></ul><p data-pid=\"yBBoDX3f\"><b>「使用方法：」</b></p><ul><li data-pid=\"1-gvVgfY\">下载并安装HTTrack。</li><li data-pid=\"S1sKnmR_\">配置下载选项，如连接数和代理设置。</li><li data-pid=\"d3BpjFsU\">添加要下载的网站并开始镜像过程。</li><li data-pid=\"Br4374_s\">管理下载内容，包括恢复中断的下载。</li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1663cd117b96c16075b0bf71ffc27971_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"300\" data-rawheight=\"238\" data-original-token=\"v2-94ba899e54dc8d169899302dcc2e97ab\" class=\"content_image\" width=\"300\"/></figure><h2><b>Scraper</b></h2><p data-pid=\"m_yb_D7r\">Scraper是一款Chrome扩展程序，适用于在线研究和数据提取。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-831635a1616c84c96b29b820316566bd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"675\" data-original-token=\"v2-7837729d53f7c5639cb2b5f8416b59ba\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-831635a1616c84c96b29b820316566bd_r.jpg\"/></figure><p data-pid=\"QvZzDeHI\"><b>「功能与特点：」</b></p><ul><li data-pid=\"71RAaMtP\">免费易用，适合初学者和专家。</li><li data-pid=\"oKvwAAtF\">能够将数据导出到Google Sheets。</li><li data-pid=\"TmPVwUhm\">自动生成XPath，简化数据抓取过程。</li></ul><p data-pid=\"pqnuFY26\"><b>「使用方法：」</b></p><ul><li data-pid=\"NmadGT0w\">在Chrome浏览器中安装Scraper扩展。</li><li data-pid=\"6KhT6D2c\">访问目标网站并选择要抓取的数据。</li><li data-pid=\"DD77vG2Y\">使用扩展的界面配置抓取规则。</li><li data-pid=\"xPkHvLin\">导出数据到剪贴板或Google Sheets。</li></ul><h2><b>OutWit Hub</b></h2><p data-pid=\"rqyCEFsx\">OutWit Hub是一个Firefox插件，专注于信息搜集和管理。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b9c9351f7a46d8ae4501a5217f931c2d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"607\" data-original-token=\"v2-919356ab6fc8f59f08da5c3b44cdb9ff\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-b9c9351f7a46d8ae4501a5217f931c2d_r.jpg\"/></figure><p data-pid=\"ucgBgq4m\"><b>「功能与特点：」</b></p><ul><li data-pid=\"x4fMN1la\">允许用户抓取微小或大量数据。</li><li data-pid=\"AXRo6je1\">可以从浏览器本身抓取任何网页。</li><li data-pid=\"oVPazIVb\">创建自动代理来提取数据并进行格式化。使用方法：</li><li data-pid=\"GAXQgIF4\">在Firefox浏览器中安装OutWit Hub插件。</li><li data-pid=\"aInlemL3\">配置信息搜集任务和数据格式化规则。</li><li data-pid=\"9gBj46mj\">使用插件抓取网页数据。</li><li data-pid=\"G4ei0YQ5\">管理和导出搜集到的信息。</li></ul><h2><b>UiPath</b></h2><p data-pid=\"ImUsaSN-\">UiPath是一款机器人过程自动化软件，也可用于网络抓取。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-73eb8468cff18dd1a0f134d251d7835b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"607\" data-original-token=\"v2-7d2c564c6b839212d8cd2a5c6fddc35a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-73eb8468cff18dd1a0f134d251d7835b_r.jpg\"/></figure><p data-pid=\"QwWZK1H-\"><b>「功能与特点：」</b></p><ul><li data-pid=\"l_Bibgte\">自动从第三方应用程序中抓取Web和桌面数据。</li><li data-pid=\"-5Ilu1XN\">跨多个网页提取表格和基于模式的数据。</li><li data-pid=\"Dg764KK8\">提供内置工具处理复杂的UI。</li></ul><p data-pid=\"N2ZDXjhw\"><b>「使用方法：」</b></p><ul><li data-pid=\"w_gkjcnG\">安装UiPath软件。</li><li data-pid=\"UGBF6Tpq\">配置数据抓取任务，使用其可视化界面设计流程。</li><li data-pid=\"hK6wUMl4\">利用内置工具抓取所需数据。</li><li data-pid=\"ARKXa9vd\">将抓取的数据导出或集成到其他应用程序中。</li></ul><p data-pid=\"ghmxaOCt\">在选择爬虫软件时，你应根据自己的需求和技能水平进行选择。无论是需要简单的数据抓取，还是复杂的数据挖掘和分析，市场上的爬虫工具都能提供相应的解决方案。同时，使用爬虫软件时，也应遵守相应的法律法规，尊重数据的版权和隐私。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 834,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-4f3980edf1b84100dbd0100f633b8726_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8a27d21aa4c1b71eb9668fe63e701819_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 28,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 11307279907}",
+      "attached_info": "Cr0JCMz6l9HJ3L/UgQEQBBoJNjk1Mzc3MjI3INrQ2bgGKAgwAEDYBEo4Ci1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0ISATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDQ5MDI2MTI3YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ILMTEzMDcyNzk5MDeKAQkzOTAzNjY2MDeqAQlyZWNvbW1lbmTCASA2NThhY2QwMDM4MjU2NTA4MWRhYzYzYTk5ZmVlNGNjMvIBCggMEgZOb3JtYWzyASgIChIkODVmN2RlMTYtNGE4Zi00MWQ0LTg4ZmMtZTgxZmY5ZTQ0ZGQw8gEHCAsSAzEwMYICAIgCzN7N+YwzkgIgNjU4YWNkMDAzODI1NjUwODFkYWM2M2E5OWZlZTRjYzKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAi1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0LoAgX6AgtOT1JNQUxfRkxPV4oDIGFjZWRkMTU5YTRiYjRjZjRhZjQ2NDhlMTliMDFmNDMxmgMNCgJ2MhAAGgVvdGhlcqgDwgbYAwDqAypJbnRlcmVzdFdvcmRDb250ZW50VmFsdWVMZXZlbEJQb29sUmVjYWxsZXL6A8YDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuAgYsgIiI3YyLTE2MTVjM2Y3ZGQ1ZTBlMWIxN2I0ZjM0NmZkMjI4MDY3Oi0IAhC4CBiZBSIjdjItYWFmMzU1ZTZmZTI5YzhlM2NmMDI0MjJiOWY1MjQxYjI6LQgCELgIGLgEIiN2Mi1mYjhmMGQxMjRiOTZhYThhODVjYzY3NmFmNjdmYzAwYjotCAMQuAgYjAQiI3YyLWE0OWU2MjM5ZDY0MDAzNTRiYTlmNmY5ZWUxM2E0YTg0Oi0IBBC9BRjDAiIjdjItNTM1OGVmYmZmMWExZjVjZmYzMWVkN2NlYjkxYmM1ZGY6LQgDEKwCGO4BIiN2Mi05NGJhODk5ZTU0ZGM4ZDE2OTg5OTMwMmRjYzJlOTdhYjotCAIQuAgYowUiI3YyLTc4Mzc3MjlkNTNmN2M1NjM5Y2IyYjVmODQxNmI1OWJhOi0IAhC4CBjfBCIjdjItOTE5MzU2YWI2ZmM4ZjU5ZjA4ZGE1YzNiNDRjZGI5ZmY6LQgDELgIGN8EIiN2Mi03ZDJjNTY0YzZiODM5MjEyZDhjZDJhNWM2ZmRkYzM1YYAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoKxYoz+BBQAAAAAAAAAAiQXOMv2jGlTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVlkAYAoAbeBKgGAZICJgoJNjk1Mzc3MjI3EgsxMTMwNzI3OTkwNxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "601_1755822911.939",
+      "type": "feed",
+      "offset": 601,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822911,
+      "updated_time": 1755822911,
+      "target": {
+        "id": "1941607252835431960",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941607252835431960",
+        "author": {
+          "id": "d038e13b49b7411d468e414412ef054a",
+          "url": "https://api.zhihu.com/people/d038e13b49b7411d468e414412ef054a",
+          "user_type": "people",
+          "url_token": "wen-yi-zai-dao-7",
+          "name": "鞭临天下",
+          "headline": "用爱发电，爱看不看，随时停更。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-9c3886256908fe75077aa82eca4c0d76_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 23825,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755695242,
+        "updated_time": 1755697208,
+        "voteup_count": 426,
+        "thanks_count": 27,
+        "comment_count": 65,
+        "is_copyable": false,
+        "question": {
+          "id": "1917170826932904965",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1917170826932904965",
+          "author": {
+            "id": "702516651f18a9d3be138435ad753586",
+            "url": "https://api.zhihu.com/people/702516651f18a9d3be138435ad753586",
+            "user_type": "people",
+            "url_token": "yang-liu-fei-50",
+            "name": "杨林柳飞",
+            "headline": "认真和随意一起飞翔。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-e40cf4d587dd5b30d21cd538da6a3f14_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 326,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "现在很多地方政府债台高筑，如何化解这一危机。不解决好这个问题，堪忧?",
+          "created": 1749869144,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            19070,
+            2488729,
+            3031955
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "在中国的史书中，常常会出现一个熟悉的景象： 地方官府财政吃紧，不得不举债周转，甚至动用典当、苛敛、挪用等办法，最后留下难以收拾的烂摊子。 如果把眼光移到江户时代的日本，我们会发现，这样的财政困境其实并不是中国特有的现象。幕藩体制下的日本同样被财政难题困扰，只不过在日本语境中，这个问题被具体化为一个词，藩债。 所谓 藩债，就是各大名领国（藩）在财政拮据时，向商人、金融业者、甚至家臣借贷形成的长期债务。…",
+        "excerpt_new": "在中国的史书中，常常会出现一个熟悉的景象： 地方官府财政吃紧，不得不举债周转，甚至动用典当、苛敛、挪用等办法，最后留下难以收拾的烂摊子。 如果把眼光移到江户时代的日本，我们会发现，这样的财政困境其实并不是中国特有的现象。幕藩体制下的日本同样被财政难题困扰，只不过在日本语境中，这个问题被具体化为一个词，藩债。 所谓 藩债，就是各大名领国（藩）在财政拮据时，向商人、金融业者、甚至家臣借贷形成的长期债务。…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"8xknQ_rn\">在中国的史书中，常常会出现一个熟悉的景象：</p><p data-pid=\"FFho1TX6\">地方官府财政吃紧，不得不举债周转，甚至动用典当、苛敛、挪用等办法，最后留下难以收拾的烂摊子。</p><p data-pid=\"yMJHUc1o\"><b>如果把眼光移到江户时代的日本，我们会发现，这样的财政困境其实并不是中国特有的现象。</b></p><p data-pid=\"_Wg4s6gn\">幕藩体制下的日本同样被财政难题困扰，只不过在日本语境中，这个问题被具体化为一个词，藩债。</p><p data-pid=\"Mhc8rlZM\">所谓<b>藩债</b>，就是各大名领国（藩）在财政拮据时，向商人、金融业者、甚至家臣借贷形成的长期债务。这些债务不仅数量庞大，而且逐渐制度化，成为江户后期日本经济与社会矛盾的一个巨大漩涡。</p><p data-pid=\"7VzIgZPE\"><b>要理解藩债，我们必须先从江户幕府的体制说起。</b></p><p data-pid=\"jkDg3-1a\">德川家康建立的幕藩体制，表面上是一种中央集权的封建秩序，实际上却是分权与中央控制的微妙平衡。幕府直接控制天皇、京都朝廷和主要大藩，同时又允许全国两百多个大名在各自领地内实行高度自治。</p><p data-pid=\"j3SzTvUe\"><b>每个藩就是一个小国家：</b></p><p data-pid=\"x4HREJNl\">它有自己的行政机构、税收体系、军备与治安体系。<b>在这样一种体制下，财政负担由各藩自行承担，而幕府对藩的要求却是极其苛刻。</b></p><p data-pid=\"Tj0A56q8\">最典型的便是<b>参勤交代制度</b>，大名必须每隔一年率领庞大的随从队伍进京（江户），在将军面前效忠，同时还要在江户维持常年居所。</p><p data-pid=\"0tiflzJa\">这意味着大名们必须不断在本国与江户之间来回奔波，动辄数百、上千人的队伍耗费巨大，仅路途与住宿费用就足以拖垮财政。</p><p data-pid=\"Pve3e4iX\">再加上江户、京都、大坂等大城市的奢侈消费风气，大名为了面子与威仪，更是大肆铺张。<b>可以说，幕府设计的制度本身，就注定了藩国财政的入不敷出。</b></p><p data-pid=\"ws2bx7KD\">如果财政收入能够增长，也许藩国还可以缓冲。但问题在于江户幕府的税收模式极其僵化。藩国的主要收入来源是年贡米，也就是农民以稻米缴纳的地租。</p><p data-pid=\"_CCq0nX8\">这种收入形式不仅与市场经济脱节，而且高度依赖农业的丰歉。<b>丰年还能支撑，遇到歉收或自然灾害，财政立刻崩溃。</b></p><p data-pid=\"tonkt-PA\">更严重的是，江户中期以后，日本人口增长放缓，土地开垦达到极限，而固定的税负逐渐转化为沉重的社会负担，农民抗租、逃亡频繁，藩国的实际收入持续下降。</p><p data-pid=\"JvqGsKH_\">与此同时，江户社会的城市经济、商业贸易却在飞速发展，大坂与江户成为全国商品流通的核心，但藩国财政与这种经济繁荣严重脱节。<b>这种财政农业化和经济商业化两方面的背离，造成藩国只能不断向商人举债，以弥补收支缺口。</b></p><p data-pid=\"EA3zc1zv\"><b>藩债的运作有一套典型模式。</b></p><p data-pid=\"hRtb-M3T\">大名领国为了能够支付参勤交代费用、城郭修缮、武士俸禄，需要向大坂或江户的豪商借钱。</p><p data-pid=\"NcDlhvrN\">这些商人往往是米商、钱庄，或者掌控盐铁流通的商贾集团。他们提供贷款，以未来的年贡米或特定税收作为抵押。</p><p data-pid=\"-9Pz6OtA\">换句话说，藩国将未来的财政收入提前抵押出去，换取当下的现金流。<b>这在短期内解决了问题，却等于把藩国的财政绑在债务链条上，形成了典型的借新债还旧债模式。</b></p><p data-pid=\"cW1fI2pw\">比如萨摩藩长期依赖大坂的豪商三井、鴻池等借贷，以致债务规模高达数百万两。加贺藩（前田家）虽然是石高第一的大藩，但由于开支极大，也陷入债台高筑的困境。</p><p data-pid=\"C3v2T3Cs\">中小藩更是如此，几乎无一幸免。</p><p data-pid=\"0a-XxB6A\"><b>藩债的另外一个显著特征，就是它逐渐制度化。</b></p><p data-pid=\"gD0JnDw-\">商人与藩国形成了长期债务关系，甚至发展出类似现代国债的机制。</p><p data-pid=\"dcFkS50T\">藩国会定期支付利息，或者通过借替方式要求债权人延期还本，只支付部分利息。这种借替表面上是危机应对，实际上成了常态化操作。</p><p data-pid=\"_bfEGatJ\">许多藩国几乎从未真正偿还过本金，而是靠不断延期来维持财政运转。对商人来说，这固然保证了藩国继续存在、债务不会彻底坏账，但也意味着资金长期被占用，无法灵活流通。<b>因此到了江户后期，藩债成为日本金融市场一个巨大的黑洞，吸走了城市经济的大量资本。</b></p><p data-pid=\"Ck-_rg7d\">藩国并不是完全坐以待毙，它们也尝试过各种财政改革。例如通过开垦新田、提高年贡率、实行商业垄断、开设藩营工厂，甚至发行藩札（地方纸币）来增加收入。</p><p data-pid=\"sHjyhb3F\"><b>但这些办法大多治标不治本。</b></p><p data-pid=\"Bgb6GKPX\">开垦的土地有限，农民抗租激烈，反而导致社会矛盾。藩营工厂在技术和市场上缺乏竞争力，很快亏损。久而久之，藩债成了一种无法摆脱的制度性陷阱：<b>既然无力偿还，不如继续拖延，把债务留给后人或者未来的中央政府。</b></p><p data-pid=\"SJITwho2\">更严重的是，藩债还带来了一系列的社会后果。</p><p data-pid=\"Hjd8wUop\"><b>首先，它使得藩国越来越依赖商人。</b></p><p data-pid=\"FU7_xRBD\">虽然幕府在意识形态上强调士农工商的等级秩序，把商人置于最末，但实际上，商人凭借对藩国财政的控制，逐渐掌握了政治话语权。许多藩不得不向商人低头，甚至与之建立半官半商的利益共同体。</p><p data-pid=\"Qv3R7rPc\"><b>其次，藩债削弱了武士阶层的俸禄保障。</b></p><p data-pid=\"xQDQsbjP\">财政紧张时，藩国往往会去拖欠、削减武士俸禄，导致中下层武士生活困苦，社会地位下降。幕末时期，许多武士投身倒幕、维新运动，其背后就有财政困窘与阶层失落的深层原因。</p><p data-pid=\"pAH9UtiG\">最后，藩债还加剧了区域间的不平衡。财力雄厚的大藩尚能维持信用，中小藩则债务高企、信用崩溃，形成恶性循环。</p><p data-pid=\"ZUjSyzzT\"><b>进入幕末，日本的藩债已经是一个失控的黑洞。</b>中小藩更是常年透支。此时的赖账，已经不仅仅是借替这种延长期限的小动作，而是全面赖账，甚至可以说，赖账成了制度的一部分。</p><p data-pid=\"DHNZvtN9\"><b>最常见的赖债方式是强制延期。</b></p><p data-pid=\"HaAcTWuP\">藩国到期无钱可还，就需要要求商人接受借替。这意味着本金继续留在账面上，利息部分被压低，或者干脆推迟支付。<b>商人表面上握着藩国的借据，实际上什么也拿不到。对他们来说，不答应不行，因为面对的是大名政权，不是平等的债务关系。</b></p><p data-pid=\"aiuIhCtZ\"><b>第二种赖账方式是强制折半。</b></p><p data-pid=\"D2KiK6Tl\">许多藩国直接宣布：欠你的一万两，只能算五千，两清。理由冠冕堂皇，说是为了减轻国难、共渡时艰。商人们当然心中愤怒，但在大名的权威下没有谈判空间。<b>幕府甚至有时会公开支持这种做法，把它包装成所谓的御救，表面上是对债权人的怜悯，实际上就是合法化的赖账。</b></p><p data-pid=\"hNXKFvWn\"><b>第三种方式是用藩札抵债。</b></p><p data-pid=\"EBfxWcx1\">藩札是藩国自己印的纸币，名义上在本藩流通，实际上缺乏信用，很快贬值。藩国把藩札塞给债权人，算作还钱，可商人拿到的只是不断缩水的废纸。</p><p data-pid=\"FSTV3QCl\">这种情形在幕末非常普遍，藩札滥发不仅没能解决债务，反而破坏了市场秩序，造成物价混乱和信用崩坏。</p><p data-pid=\"Q_49-TRQ\"><b>第四种方式是直接赖掉。</b></p><p data-pid=\"UTzcDtcc\">一些藩甚至干脆宣布某些债务不再承认。</p><p data-pid=\"SypVL7z6\">尤其是那些用来修建豪华宅邸、举办奢侈宴会的借款，被定义为大名个人消费，不计入公账，直接一笔勾销。对债权人来说，这简直是霸王条款，但在封建权力面前，小小商人毫无办法。</p><p data-pid=\"_IJqA9G6\">到这个时候，藩债已经不再是一种契约，而彻底演变成了一种政治压迫。</p><p data-pid=\"yK1b2Jll\"><b>这些赖账方式让藩债在幕末彻底失去了金融契约的意义。</b></p><p data-pid=\"sAT-Q7NT\">它不再是债务，而成了一种政治上的压迫手段。藩国只要还存在，债就可以拖下去，商人就必须接受部分兑付甚至血本无归。<b>久而久之，藩债的赖账已经公开化、制度化，商人也只能认命。</b></p><p data-pid=\"l9FkoVoS\">这种局面直到明治维新才被彻底改变。</p><p data-pid=\"mYCJWEB9\">一八七一年废藩置县，藩国政权被取消，所有债务集中到中央政府。新政府必须面对一个巨大的烂摊子：</p><p data-pid=\"_wIHVzHY\">全国藩债总额高得惊人，如果全部承接，中央财政立刻破产；如果完全拒绝，商人阶层又会失去支持，经济可能陷入混乱。</p><p data-pid=\"aZLgHAMb\"><b>于是明治政府还是延续常规操作，采取了一个既务实又无赖的办法：</b></p><p data-pid=\"LfZ-4OD6\"><b>制度化赖账。</b></p><p data-pid=\"W0JUD2vU\">操作方法很明确：</p><p data-pid=\"zapyWnZt\">第一，大部分藩债折半处理。政府规定，商人手里的债权只能按一半计算，本金直接打折。对商人来说，这等于损失了一半，但总好过血本无归。</p><p data-pid=\"dsFpAtux\">第二，把剩下的一半不以现银偿还，而是转换成国家公债。这种公债利率极低、期限极长，相当于政府给商人打了一张几十年的白条。商人要么长期持有等待兑付，要么在市场上折价卖掉。无论哪种情况，这种损失都很大。</p><p data-pid=\"d9nWRcit\">第三，部分债务直接宣布无效。特别是那些被认定为奢侈性支出、私人用途的债务，明治政府一笔勾销，不再承认。</p><p data-pid=\"jafrpCHq\">换句话说，明治政府将藩债的赖账被分成了三个层级：<b>能赖掉的彻底赖掉；赖不掉的减半；还需要维持信用的，就用低息长期国债拖延。</b></p><p data-pid=\"RwTgzxLu\">这样操作下来，旧藩国的巨额债务在账面上被迅速清理，中央财政摆脱了沉重包袱。商人阶层损失惨重，却无力反抗。</p><p data-pid=\"wUDHjdnC\">因为新政府掌握全国军政大权，商人们只能接受现实。</p><p data-pid=\"J21xvB2X\"><b>这种处理方式，本质上就是制度化赖债。</b>它让藩债这个长期困扰日本的黑洞被迅速一举抹平。虽然商人受损，但换来的是全国统一的财政体系。旧的藩国财政彻底解体，明治政府可以从零开始建立现代税制。</p><p data-pid=\"qaIvB3Ao\">一八七三年的地租改正，就是以货币征收统一地税，替代了旧的年贡米。统一的货币体系也在同一时期建立，藩札被废除，全国统一纸币流通。</p><p data-pid=\"bT-0bhWa\">从结果来看，<b>日本的财政现代化正是建立在这一场大规模赖债的基础之上</b>。藩债赖掉之后，中央政府重新获得了财政空间，可以把资源集中到现代化建设上。铁路、工厂、军备，都依赖这种甩掉旧账的财政重置。如果明治政府不采取赖债政策，而是试图逐一清偿旧藩国债务，财政必然陷入瘫痪，现代化无从谈起。</p><p data-pid=\"MGDeKNOF\"><b>这也是藩债的历史悖论。</b></p><p data-pid=\"ZamapbR9\"><b>作为江户幕府的遗产，藩债几乎拖垮了整个体制。而作为明治政府的起点，赖掉藩债反而为现代财政创造了条件</b>。商人阶层虽然在短期内损失惨重，但通过与政府合作，很快转型为近代金融资本，形成了三井、三菱这样的财阀雏形。武士阶层因为俸禄被废而失去经济来源，不得不走向工商领域，促进了社会流动。<b>赖债不但清理了财政，还重塑了社会。</b>它是旧体制的毒瘤，也是新体制的起点。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 44543,
+        "favorite_count": 315,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941607252835431960}",
+      "attached_info": "Cq0FCMz6l9HJ3L/UgQEQBBoJNzQzMTU0OTY4IIqRl8UGKKoDMEFA2QRKKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMhIBMBgAIAA6CnsicmF3IjoiIn1aCTExNTM4MDU1N2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE2MDcyNTI4MzU0MzE5NjCKARMxOTE3MTcwODI2OTMyOTA0OTY1qgEJcmVjb21tZW5kwgEgZDAzOGUxM2I0OWI3NDExZDQ2OGU0MTQ0MTJlZjA1NGHyAQoIDBIGTm9ybWFs8gEoCAoSJGJmNzhlYWQwLTkxMGMtNDRlYy1iMmU4LTFiM2NmNzBkYTQ3ZPIBBwgLEgMxMDGCAgCIAszezfmMM5ICIGQwMzhlMTNiNDliNzQxMWQ0NjhlNDE0NDEyZWYwNTRhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjLoAgT6AgtOT1JNQUxfRkxPV4oDIGFjZWRkMTU5YTRiYjRjZjRhZjQ2NDhlMTliMDFmNDMxmgMNCgJ2MhAAGgVvdGhlcqgD/9sC2AMA6gMOZmVlZHJlX21zX2dhdGX6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEBm1hbnVhbMIEAzE1OcgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAE6etD+BBQAAAAAAAAAAiQXOMv2jGlTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVlkAYAoAbfBKgGA5ICLgoJNzQzMTU0OTY4EhMxOTQxNjA3MjUyODM1NDMxOTYwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "602_1755822911.978",
+      "type": "feed",
+      "offset": 602,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822911,
+      "updated_time": 1755822911,
+      "target": {
+        "id": "1941219621278561890",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941219621278561890",
+        "author": {
+          "id": "90d3bc612876feafe40ecc8e803db71f",
+          "url": "https://api.zhihu.com/people/90d3bc612876feafe40ecc8e803db71f",
+          "user_type": "people",
+          "url_token": "2r-50",
+          "name": "2r普若彤",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-a8a99fd3eda81eef4cec60e8b91db50c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 114,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755602823,
+        "updated_time": 1755602823,
+        "voteup_count": 2351,
+        "thanks_count": 47,
+        "comment_count": 341,
+        "is_copyable": true,
+        "question": {
+          "id": "1931668978855556925",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1931668978855556925",
+          "author": {
+            "id": "91f6996a6d8ac6ea7b06fc7c031215c5",
+            "url": "https://api.zhihu.com/people/91f6996a6d8ac6ea7b06fc7c031215c5",
+            "user_type": "people",
+            "url_token": "72-87-32-39",
+            "name": "心与士",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-7e7b46612733a11ea6eb83a8839ce424_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "近些年来的外交趣闻有哪些？",
+          "created": 1753325773,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 7,
+          "bound_topic_ids": [
+            285,
+            1266,
+            2161,
+            16450,
+            175413
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-97d74f9c0b7082842f6bf4e2abb5cc88_720w.jpg?source=b6762063",
+        "excerpt": "将军呼吁加速推进核武化进程，中方 霸气回应：   尽显大国担当！",
+        "excerpt_new": "将军呼吁加速推进核武化进程，中方 霸气回应：   尽显大国担当！",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"Puqjx3ag\">将军呼吁加速推进核武化进程，中方<b>霸气</b>回应：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-97d74f9c0b7082842f6bf4e2abb5cc88_1440w.jpg\" data-rawwidth=\"1179\" data-rawheight=\"1871\" data-size=\"normal\" data-original-token=\"v2-97d74f9c0b7082842f6bf4e2abb5cc88\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-e278f0b62eafebc638bc4daf91a71f0a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1179\" data-original=\"https://pic1.zhimg.com/v2-97d74f9c0b7082842f6bf4e2abb5cc88_r.jpg\"/></figure><p data-pid=\"G0G9Wttt\">尽显大国担当！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 194641,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-97d74f9c0b7082842f6bf4e2abb5cc88_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 229,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941219621278561890}",
+      "attached_info": "CsAHCMz6l9HJ3L/UgQEQBBoJNzQyOTc3OTc1IIe/kcUGKK8SMNUCQNoESlIKJlRTX1NPVVJDRV9UQUdfQkFTRURfVEVYVF9BSV9VU0VSX1RIRU1FEiJ0aGVtZTpkZXRlY3Q6Y29udGVudDp0aGVtZTppZDoyOTA5GAAgADoASlUKKVRTX1NPVVJDRV9UQUdfQkFTRURfVEVYVF9USEVNRV9DTElDS19QQUlSEiJ0aGVtZTpkZXRlY3Q6Y29udGVudDp0aGVtZTppZDoyOTA5GAAgADoASjwKKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQUNUSU9OEgk3ODI4MzUzMzcYACAAOgBaCTExNTkyNTczMGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDEyMTk2MjEyNzg1NjE4OTCKARMxOTMxNjY4OTc4ODU1NTU2OTI1qgEJcmVjb21tZW5kwgEgOTBkM2JjNjEyODc2ZmVhZmU0MGVjYzhlODAzZGI3MWbyAQoIDBIGTm9ybWFs8gEoCAoSJGYyNzc3ZTQ1LTIxYTgtNGVlMy1hMmNkLWI0OTg1MjQzMDI4MPIBBwgLEgMxMDGCAgCIAszezfmMM5ICIDkwZDNiYzYxMjg3NmZlYWZlNDBlY2M4ZTgwM2RiNzFmmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCJlRTX1NPVVJDRV9UQUdfQkFTRURfVEVYVF9BSV9VU0VSX1RIRU1F6AIC+gILTk9STUFMX0ZMT1eKAyBhY2VkZDE1OWE0YmI0Y2Y0YWY0NjQ4ZTE5YjAxZjQzMZoDDQoCdjIQABoFb3RoZXKoA9HwC9gDAOoDJVRoZW1lRGV0ZWN0VGhlbWVSZWxhdGVkTWVtYmVyUmVjYWxsZXL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCbCRjPDiIjdjItOTdkNzRmOWMwYjcwODI4NDJmNmJmNGUyYWJiNWNjODiABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTU4yAQB0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAA+yyrP4EFAAAAAAAAAACJBc4y/aMaVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQHwBWWQBgCgBuAEqAYAkgIuCgk3NDI5Nzc5NzUSEzE5NDEyMTk2MjEyNzg1NjE4OTAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "603_1755822911.520",
+      "type": "feed",
+      "offset": 603,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822911,
+      "updated_time": 1755822911,
+      "target": {
+        "id": "1941932489204564709",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941932489204564709",
+        "author": {
+          "id": "5b51707b8785001ba617e2b6af0ad263",
+          "url": "https://api.zhihu.com/people/5b51707b8785001ba617e2b6af0ad263",
+          "user_type": "people",
+          "url_token": "zhang-zhu-12",
+          "name": "Zpuzzle",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/ba640fca73532a50f1a23be722c27ad6_l.png?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "大学等 4 个话题下的优秀答主",
+              "topic_names": [
+                "大学",
+                "文学",
+                "电视剧",
+                "小说创作"
+              ],
+              "topic_ids": [
+                2029,
+                2058,
+                2102,
+                21767
+              ]
+            },
+            {
+              "type": "super_activity",
+              "description": "知势榜社科人文领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "北京师范大学 文艺学博士"
+            }
+          ],
+          "followers_count": 436200,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755772784,
+        "updated_time": 1755772784,
+        "voteup_count": 51,
+        "thanks_count": 0,
+        "comment_count": 3,
+        "is_copyable": false,
+        "question": {
+          "id": "1940736961397645483",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1940736961397645483",
+          "author": {
+            "id": "dbd44dfac1edc55cbce749b95d27966e",
+            "url": "https://api.zhihu.com/people/dbd44dfac1edc55cbce749b95d27966e",
+            "user_type": "people",
+            "url_token": "82-60-40-69",
+            "name": "我要横着走ye",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-87b8d82a0afa0e622d17c4384036bcbd_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "工作能力强，试用期后，公司却留下能力不行的人，为什么？",
+          "created": 1755487748,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            2566,
+            7907,
+            1899669,
+            2106957,
+            2378348
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "以前我女朋友在北京一家中小企业做HR的时候，经常能收到一些985、211院校的学生的简历。北京就是这么个情况，虽然机会多，但想留下的人也多，所以这些人给中小企业投简历也不奇怪。但是她在筛建立的时候，看到985学生的简历就会晒出去——除非这个人足够平庸，除了学历再也没什么拿得出手的东西。 这看起来很难理解，但有点职场经历，都能知道她为什么这么做。 因为她所在的公司是中小企业，加起来也就一两百个员工，做的也不是…",
+        "excerpt_new": "以前我女朋友在北京一家中小企业做HR的时候，经常能收到一些985、211院校的学生的简历。北京就是这么个情况，虽然机会多，但想留下的人也多，所以这些人给中小企业投简历也不奇怪。但是她在筛建立的时候，看到985学生的简历就会晒出去——除非这个人足够平庸，除了学历再也没什么拿得出手的东西。 这看起来很难理解，但有点职场经历，都能知道她为什么这么做。 因为她所在的公司是中小企业，加起来也就一两百个员工，做的也不是…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"Dkdv0cEZ\">以前我女朋友在北京一家中小企业做HR的时候，经常能收到一些985、211院校的学生的简历。北京就是这么个情况，虽然机会多，但想留下的人也多，所以这些人给中小企业投简历也不奇怪。但是她在筛建立的时候，看到985学生的简历就会晒出去——除非这个人足够平庸，除了学历再也没什么拿得出手的东西。</p><p data-pid=\"kMxGLzXL\">这看起来很难理解，但有点职场经历，都能知道她为什么这么做。</p><p data-pid=\"A9tgaGDc\">因为她所在的公司是中小企业，加起来也就一两百个员工，做的也不是什么高科技的业务，每个部门和业务线的人基本都是固定的。企业招聘员工进来，主要想招的是能干活的普通员工。如果硬要找一些高学历的人进来，会是什么情况呢？</p><p data-pid=\"4suAiPEc\">按照以往的经验来看，这种中小企业招学历和能力很好的人，他们很快就会发现自己的工资无法匹配自己的能力，但公司又很难给出他们需求的薪资，这样很多人就会选择跳槽，留下一堆工作让别人来收拾。又或者他工作能力很强，公司无法提供职务晋升——一个小公司的团队规模也不会太大，可能就是一个总监带着十几个下属，你总不能因为新来的人工作能力强就把原来的总监换了吧？</p><p data-pid=\"5IGsZ_gT\">这并不是公司的管理者嫉贤妒能的问题，而是在现实的管理中反复印证的。所以，对于公司来说，招聘普通员工最需要的就是那种能干活、听话但学历、能力又不是太强的人。否则，一个公司大量招聘能力强的人而又无法给其提供晋升的可能，最后也会把公司搞得乱。</p><p data-pid=\"HrjsVoVt\">正因为如此，一个组织发展到了一定程度之后，都会注意“人才梯队”建设。所谓“人才梯队”建设，用通俗一点的话来解释，就是一个团队里，有指挥的，也得有干活的。典型的代表就是军队——一个部队里，得有高级指挥员，也得有基层指挥员，还得有士官和普通士兵。一个部队的里的指挥员绝不是越多越好。</p><p data-pid=\"Hqr2NoZY\">而对于公司来说，留下那些“能力不行”的人，则可能会出于各方面的考量。不说别的组织，就说高校。大部分的双非高校在招聘时，如果其他求职者无太大优势，一般都会优先考虑本省户籍的求职者，这就是看中了求职者的稳定性。在这个决策逻辑中，稳定性是要优于一两篇论文的。</p><p data-pid=\"2ReN67x5\">当然，公司在不同的发展阶段对于人的需求是不一样的。一些公司在起步阶段所需要的人，和在发展成为大公司之后或者进行业务转型的时候需要的人是会有差异的。</p><p data-pid=\"CrbTC7kv\">其实不管是找工作还是找对象，但凡是涉及到双向选择的事情，是否匹配当前需求要比单纯的能力强弱重要得多。比如找对象的时候，你是个普通条件的男性，有人给你介绍了一个条件远超过你的大美女，那么就算对方的所有条件都是真的，大部分人可能也会知道这事不靠谱。而在找工作这件事情上，公司招人也是要根据自己的情况、现阶段的需求等不同的因素来考量。</p><p data-pid=\"CT7LLzcN\">对于个人来说，是没必要因为一两次求职失败就否定自己的，因为很多时候并不是你能力不行，而是因为真的跟公司不合适。同时，有些高学历的人还会因为向中小企业投简历而被拒，觉得特别受打击，其实这也没必要——因为找工作这事不是高考报志愿，不是说你考了700分报个大专，院校就会优先录你的，反而是用人单位可能觉得你就是来逗闷子而直接拒绝。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1997,
+        "favorite_count": 19,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941932489204564709}",
+      "attached_info": "CtYFCMz6l9HJ3L/UgQEQBBoJNzQzMzA2MzQ2IPDum8UGKDMwA0DbBEo4CilUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX0NSRUFURRIFMzE1MTEYACAAOgBaCTExNjI1MTQzOWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE5MzI0ODkyMDQ1NjQ3MDmKARMxOTQwNzM2OTYxMzk3NjQ1NDgzqgEJcmVjb21tZW5kwgEgNWI1MTcwN2I4Nzg1MDAxYmE2MTdlMmI2YWYwYWQyNjPyAQoIDBIGTm9ybWFs8gEoCAoSJDdmYTA2NzAzLWUwYWYtNDA3NS04NzJlLTZhZmU2ZTgxM2VkOPIBBwgLEgMxMDGCAgCIAszezfmMM5ICIDViNTE3MDdiODc4NTAwMWJhNjE3ZTJiNmFmMGFkMjYzmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQ1JFQVRF6AIF+gILTk9STUFMX0ZMT1eKAyBhY2VkZDE1OWE0YmI0Y2Y0YWY0NjQ4ZTE5YjAxZjQzMZoDDQoCdjIQABoFb3RoZXKoA80P2AMA6gMdZmlyc3REZWdyZWVVc2VyQ3JlYXRlUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgl2mtP4EFAAAAAAAAAACJBc4y/aMaVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBWWQBgCgBuEEqAYAkgIuCgk3NDMzMDYzNDYSEzE5NDE5MzI0ODkyMDQ1NjQ3MDkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "604_1755822911.431",
+      "type": "feed",
+      "offset": 604,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822911,
+      "updated_time": 1755822911,
+      "target": {
+        "id": "1941895896682979894",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1941895896682979894",
+        "author": {
+          "id": "718abc3423c30111008a21037c50856a",
+          "url": "https://api.zhihu.com/people/718abc3423c30111008a21037c50856a",
+          "user_type": "people",
+          "url_token": "soldate",
+          "name": "玊 Su",
+          "headline": "一个兴趣使然的码农，非正义伙伴。公众号：小异",
+          "avatar_url": "https://picx.zhimg.com/50/v2-de863a939da814323252a79f14075210_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "大数据与人工智能工程师证书持证人"
+            }
+          ],
+          "followers_count": 328,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "<主观评测> 语音识别小模型评测",
+        "comment_permission": "all",
+        "created": 1755764194,
+        "updated": 1755764335,
+        "voteup_count": 2,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "语音识别小模型评测前言初心是想把语音识别做成离线化, 也测评过当下的语音大模型的识别, 所以想看下当前的小模型(200M)以下和语音大模型的差距. 窃以为流式对识别的体验是比较重要的一环, 希望模型可以流式识别. 考虑到当前端侧设备算力的提升, 目标是构建一个100M左右的模型. 测试方法先逛了一下离线的推理框架, sherpa 比较理想, 支持的语言多, 支持的模型多, 整体推理包也不大. sherpa 支持的模型列表如下, 其中带streaming…",
+        "excerpt_new": "语音识别小模型评测前言初心是想把语音识别做成离线化, 也测评过当下的语音大模型的识别, 所以想看下当前的小模型(200M)以下和语音大模型的差距. 窃以为流式对识别的体验是比较重要的一环, 希望模型可以流式识别. 考虑到当前端侧设备算力的提升, 目标是构建一个100M左右的模型. 测试方法先逛了一下离线的推理框架, sherpa 比较理想, 支持的语言多, 支持的模型多, 整体推理包也不大. sherpa 支持的模型列表如下, 其中带streaming…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<h2>语音识别小模型评测</h2><h3>前言</h3><p data-pid=\"HnMzWAbb\">初心是想把语音识别做成离线化, 也测评过当下的语音大模型的识别, 所以想看下当前的小模型(200M)以下和语音大模型的差距. 窃以为流式对识别的体验是比较重要的一环, 希望模型可以流式识别.</p><p data-pid=\"qTujyZSi\">考虑到当前端侧设备算力的提升, 目标是构建一个100M左右的模型.</p><h3>测试方法</h3><p data-pid=\"SfFKsZWz\">先逛了一下离线的推理框架, sherpa 比较理想, 支持的语言多, 支持的模型多, 整体推理包也不大.</p><p data-pid=\"nlmzGZxM\">sherpa 支持的模型列表如下, 其中带streaming的表示可以支持流式解码, 不带的表示为整句解码.</p><p data-pid=\"4nuprwR_\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">sherpa模型支持列表在这里</a></p><p data-pid=\"8MRGly97\">测试主要基于zipformer 和 paraformer 的模型.</p><p data-pid=\"PiBVADJc\">测试数据参考</p><p data-pid=\"h8nQY9iO\"><a href=\"https://zhuanlan.zhihu.com/p/1924803142274520731\" class=\"internal\" target=\"_blank\">开源测试集</a></p><h3>测试结果</h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>模型</th><th>参数量</th><th>aishell_1</th><th>aishell_2</th><th>aidatatang_200</th><th>RAMC-BigCCSC</th><th>MAGICDATA_Chinese_Read</th><th>TALCS_corpus</th><th>thchs30</th><th>we_meeting</th><th>we_net</th></tr><tr><td>streaming-paraformer-bilingual-zh-en</td><td>205M</td><td>5.25</td><td>6.95</td><td>8.16</td><td>22.92</td><td>12.89</td><td>32.11</td><td>9.77</td><td>14.08</td><td>11.82</td></tr><tr><td>streaming-zipformer-bilingual-zh-en-2023-02-20</td><td>85M</td><td>25.83</td><td>22.23</td><td>11.91</td><td>69.16</td><td>18.77</td><td>18.30</td><td>36.86</td><td>35.76</td><td>29.59</td></tr><tr><td>streaming-zipformer-zh-int8-2025-06-30</td><td>149M</td><td>2.98</td><td>5.41</td><td>6.26</td><td>24.95</td><td>5.80</td><td>29.96</td><td>8.69</td><td>9.67</td><td>10.48</td></tr><tr><td>streaming-zipformer-ctc-zh-int8-2025-06-30</td><td>155M</td><td>2.33</td><td>4.58</td><td>5.56</td><td>23.54</td><td>5.25</td><td>29.32</td><td>6.80</td><td>9.34</td><td>9.22</td></tr></tbody></table><hr/><p data-pid=\"KT7O_iU2\"><b>有好的端侧框架和模型欢迎推荐</b></p>",
+        "is_labeled": false,
+        "visited_count": 84,
+        "favorite_count": 6,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1941895896682979894}",
+      "attached_info": "CtkFCMz6l9HJ3L/UgQEQBxoJMjYyMDYyNzc0IOKrm8UGKAIwAEDcBEojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDESATAYACAAOgBKLQoiVFNfU09VUkNFX1dBUk1fVVBfSElHSF9JTlRFUkFDVElPThIBMBgAIAA6AGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE4OTU4OTY2ODI5Nzk4OTSqAQlyZWNvbW1lbmTCASA3MThhYmMzNDIzYzMwMTExMDA4YTIxMDM3YzUwODU2YfIBCggMEgZOb3JtYWzyASgIChIkMjkyNzFhYjAtZThhYy00YzNlLWJhNDUtZWQwNzgwMWU2MjM28gEHCAsSAzEwMYICAIgCzN7N+YwzkgIgNzE4YWJjMzQyM2MzMDExMTAwOGEyMTAzN2M1MDg1NmGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIYVFNfU09VUkNFX1dBUk1fVVBfQk9PU1Qx6AIC+gILTk9STUFMX0ZMT1eKAyBhY2VkZDE1OWE0YmI0Y2Y0YWY0NjQ4ZTE5YjAxZjQzMZoDDQoCdjIQABoFb3RoZXKoA1TYAwDqAx50ZXh0X2hpZ2hfaW50ZXJhY3Rpb25fcmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACAd4mOP4EFAAAAAAAAAACJBc4y/aMaVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBWWQBgCgBuIEqAYBkgIuCgkyNjIwNjI3NzQSEzE5NDE4OTU4OTY2ODI5Nzk4OTQYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "605_1755822911.275",
+      "type": "feed",
+      "offset": 605,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822911,
+      "updated_time": 1755822911,
+      "target": {
+        "id": "4305888812",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/4305888812",
+        "author": {
+          "id": "546e66ccb35b7de900a58b661631bd46",
+          "url": "https://api.zhihu.com/people/546e66ccb35b7de900a58b661631bd46",
+          "user_type": "people",
+          "url_token": "shi-zhong-20",
+          "name": "史中",
+          "headline": "浅黑科技创始人、主笔 微信：shizhongmax",
+          "avatar_url": "https://picx.zhimg.com/50/v2-3c319615d322403c55f111dc3c76b78c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "黑客 (Hacker)等 2 个话题下的优秀答主",
+              "topic_names": [
+                "黑客 (Hacker)",
+                "互联网"
+              ],
+              "topic_ids": [
+                2823,
+                99
+              ]
+            }
+          ],
+          "followers_count": 244481,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1728192481,
+        "updated_time": 1728192481,
+        "voteup_count": 16,
+        "thanks_count": 1,
+        "comment_count": 2,
+        "is_copyable": true,
+        "question": {
+          "id": "282715644",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/282715644",
+          "author": {
+            "id": "3a6ff6d7e03d23bad82957d5fd070740",
+            "url": "https://api.zhihu.com/people/3a6ff6d7e03d23bad82957d5fd070740",
+            "user_type": "people",
+            "url_token": "e-ha-34-52",
+            "name": "哦哈",
+            "headline": "向着UE发展的小白",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "人工智能那么火~如今AI的应用场景都有哪些？",
+          "created": 1530011685,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 6,
+          "bound_topic_ids": [
+            350,
+            188574,
+            1987085,
+            1989021,
+            2803868
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-5355089d247f1812e992d905647a8b5d_720w.jpg?source=b6762063",
+        "excerpt": "我说一个吧：声音压缩。 咱们平常音频通话的时候，原始声波的信息量是很大的，要想快速传输给对方，必须进行压缩，而且还要大幅压缩。 过去音频压缩主要使用的是“规则集”。大概相当于“马走日，象走田，车走直路炮翻山，士走斜线护将边，小卒一去不回还。” 现在，老师傅们可以使用 AI 来参悟压缩的技巧，不用明确的规则，但却能压缩得比规则更小，更省流量。 不久前我写过一篇文章，讲述了腾讯会议的老师傅们用 AI 做音频压缩…",
+        "excerpt_new": "我说一个吧：声音压缩。 咱们平常音频通话的时候，原始声波的信息量是很大的，要想快速传输给对方，必须进行压缩，而且还要大幅压缩。 过去音频压缩主要使用的是“规则集”。大概相当于“马走日，象走田，车走直路炮翻山，士走斜线护将边，小卒一去不回还。” 现在，老师傅们可以使用 AI 来参悟压缩的技巧，不用明确的规则，但却能压缩得比规则更小，更省流量。 不久前我写过一篇文章，讲述了腾讯会议的老师傅们用 AI 做音频压缩…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"H3Dl2U7R\"><b>我说一个吧：声音压缩。</b></p><p data-pid=\"wQO53pdt\"><b>咱们平常音频通话的时候，原始声波的信息量是很大的，要想快速传输给对方，必须进行压缩，而且还要大幅压缩。</b></p><p data-pid=\"OuRywGDY\"><b>过去音频压缩主要使用的是“规则集”。大概相当于“马走日，象走田，车走直路炮翻山，士走斜线护将边，小卒一去不回还。”</b></p><p data-pid=\"iwsj96Fh\"><b>现在，老师傅们可以使用 AI 来参悟压缩的技巧，不用明确的规则，但却能压缩得比规则更小，更省流量。</b></p><p data-pid=\"uaRbLUaR\"><b>不久前我写过一篇文章，讲述了腾讯会议的老师傅们用 AI 做音频压缩，并且成了下一代音频压缩标准的故事。我把文章贴在这里，希望对你了解 AI 的应用场景有所帮助～</b></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c0fbd39166036408c82feb6501873c78_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-c0fbd39166036408c82feb6501873c78\" class=\"content_image\"/></figure><p data-pid=\"5akug-E0\">耳朵被虐哭？正义老师傅怒搓 AI 为“听感”报仇！</p><p data-pid=\"xHNPmyvC\">文｜<a href=\"https://www.zhihu.com/people/shi-zhong-20\" class=\"internal\" target=\"_blank\">史中</a><br/><a href=\"https://www.zhihu.com/question/48509984\" class=\"internal\" target=\"_blank\">​</a><br/><br/><br/><b>（零）红烧肉引发的血案</b><br/><br/>铁柱不顾旁人劝阻，找了一位黑客女友。<br/><br/>然而命运的馈赠早就暗中标好了价格。<br/><br/>今天，他和女票吵架，女票不知施了神马法术，把铁柱的手机网速封印在了 <b>6kbps</b>，然后夺门而出消失在夕阳下。<br/><br/>这个网速简直是诅咒，短视频刷不开，游戏打不了。手机唯一的作用就剩下给女友发信息道歉了。。。。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0269c029ba30966a2ddb5e5e383c6c6e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"850\" data-original-token=\"v2-0269c029ba30966a2ddb5e5e383c6c6e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-0269c029ba30966a2ddb5e5e383c6c6e_r.jpg\"/></figure><p data-pid=\"gTwrjgie\"><br/>但铁柱不打算屈服。<br/><br/>事已至此，先吃饭吧。他决定自己做一道红烧肉。<br/><br/>切好了肉，烧热了油，诶，后面该咋弄嘞？<br/><br/>铁柱掏出手机，搜索红烧肉的菜谱。然后，网络像体弱的邮差一样，艰难地搬运远方的消息。<br/><br/>等了足足一分钟，才看完介绍：“红烧肉是一道很普通的家常菜，一锅浓油赤酱，肥而不腻，放在桌子上一拍抖三抖。”<br/><br/>又等一分钟，加载出一张红烧肉成品的图片。。。<br/><br/>又等了半分钟，才出现第一步操作：准备新鲜的五花肉。<br/><br/>铁柱心态崩了，一怒之下关掉网页，嘴角流下了不争气的泪水。<br/><br/>就在这时，他突然想到另一个女人——妈妈。<br/><br/>他打开手机QQ，试着给妈妈拨了语音电话。<br/><br/>网页都打不开，语音他也没抱希望。<br/><br/>但老妈的声音传过来时，铁柱惊呆了，居然清晰流畅。<br/><br/>千里之外，老妈挥斥方遒，一边跳着广场舞，一边指挥灶台前的铁柱做好了红烧肉。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f6cf747670adddb5c1701e482a6fa2dc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-f6cf747670adddb5c1701e482a6fa2dc\" class=\"content_image\"/></figure><p data-pid=\"bV17uE6u\"><br/>那一刻，铁柱突然被老妈的厨艺治愈，决定把女友召唤回来一起吃饭，两人冰释前嫌，从此没羞没臊地生活在一起。。。<br/><br/>浅友们，故事当然是我编的，但其中的硬核技术却是千真万确的：<br/><br/><b>如今的腾讯老师傅，真的能够在打开网页都费劲的 6kbps 的极限弱网下实现“通话自由”。</b><br/><br/>这个技术得来不易，背后还藏着一串动人的故事，且听中哥慢慢道来。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-69b6fe6b116930de5326d5040b4ddc2c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"629\" data-original-token=\"v2-69b6fe6b116930de5326d5040b4ddc2c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-69b6fe6b116930de5326d5040b4ddc2c_r.jpg\"/></figure><p data-pid=\"7I7TQrOX\"><br/><b>（一）只有耳朵负重前行的世界</b><br/><br/>“啪！”<br/><br/>肖玮突然打了一个响指，我一激灵。<br/><br/>“你有没有发现，人对于声音事件是非常敏感的？”他说。<br/><br/>作为研究音频信号传输十几年的腾讯老师傅，肖玮对音频熟悉到了“从声波里都能看出梦娜丽莎”的程度。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-03c4d562739c74c3ca25ceac7bc08a7f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"724\" data-original-token=\"v2-03c4d562739c74c3ca25ceac7bc08a7f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-03c4d562739c74c3ca25ceac7bc08a7f_r.jpg\"/></figure><p data-pid=\"rK-hHynS\">腾讯的技术老师傅<br/>他告诉我一件很委屈的事情：<br/><br/><b>千万年来，听觉都在用极小的“带宽”承担着极大的“信息量”。</b><br/><br/>啥意思呢？<br/><br/>人的脑袋上，有700万个视觉细胞，却只有2万个听觉细胞。<br/><br/>要是把它俩比作公司，那眼睛是个有 700 万员工的“大厂”，耳朵则是只有 2 万人的“创业公司”。<br/><br/>可是凭胸而论，人做决策所使用的视觉信息和听觉信息的比例，绝对不会是 700:2 这么夸张。<br/><br/>科学家们研究，根据场合的不同，视听信息在人们决策中的比例大概在 8:1 ~ 3:1 之间。<br/><br/>可以说，听觉用极其有限的数据量，托起了我们对于环境感知的半壁江山——贡献可谓杠杠的！<br/><br/>这还没有算把口罩带眼镜腿都勒耳朵上（甚至有时候还得挨一枪）的贡献。。。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0bb0a85f1a06f8f39a2222815e5e1dfc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"886\" data-original-token=\"v2-0bb0a85f1a06f8f39a2222815e5e1dfc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-0bb0a85f1a06f8f39a2222815e5e1dfc_r.jpg\"/></figure><p data-pid=\"8fWe2a5e\"><br/><b>耳朵负重前行。。。</b><br/><br/>话说回来，这科学吗？<br/><br/>音频是怎么用这么窄的带宽，贡献了这么丰富的信息量呢？<br/><br/>原因就在于，人脑对音频信号的处理极其精细：<br/><br/>环境里的噪音突然变化，人立马会感觉哪里不对劲；<br/><br/>说话声音有瑕疵、失真、微弱的颤动，人都能分辨出来。（甚至有时人们不愿承认声音的贡献，把它归功于第六感。。。）<br/><br/>说到这，我提醒你注意：日常服务各个感官的资源也不是平均分配的——分配给视频的资源一般是大头，分配给音频的资源一般是零头。<br/><br/>先说硬件：<br/><br/>就拿 iPhone 15 Pro max 来说，总共558美元的硬件成本，屏幕占了 110 美元，摄像头 90 美元；而扬声器和麦克风各自只有10美元左右。。。<br/><br/>再说软件：<br/><br/>就拿“腾讯会议”来说，一般要给高清视频预留的带宽是 4Mbps（每秒400万个比特），传输音频一般只给留 100kbps（每秒10万个比特）。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3b89e753bb68505aac4187c6b428fe3e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1990\" data-original-token=\"v2-3b89e753bb68505aac4187c6b428fe3e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-3b89e753bb68505aac4187c6b428fe3e_r.jpg\"/></figure><p data-pid=\"DNqSYfKt\">耳朵没人疼爱。。。<br/>所以说，音频工程师玩儿的都是高端局：<b>要用极其有限的软硬件资源，来硬控敏感且挑剔的耳朵。</b><br/><br/>他们面前的游戏是酱的：<br/><br/>如果用 100kbps 的网速楞传原始的音频，就是把大象塞冰箱，纯纯 Mission Impossible！<br/><br/>于是，前面只有两条路。<br/><br/><b>1、降低音频采样率。</b><br/><br/>你弱水三千我只传一瓢还不行？比如上世纪90年代的电话机，听筒里的声音听起来非常闷，这就是采样率低的结果。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9292793a4e0d985b62df172473c8c88d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-9292793a4e0d985b62df172473c8c88d\" class=\"content_image\"/></figure><p data-pid=\"dv9KEbDX\"><br/><b>2、降低音频采样率，再用某种算法处理，尽量往原声音“找补”一下。</b><br/><br/>没错，这个操作就是我们都听说过的“压缩”。从早期的 ADPCM 到上世纪90年代出现的 MP3 格式，也算是抚慰了一代人的耳朵。<br/><br/>压缩的原理大概是这样↓↓↓<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0ef06df6d76377f169b767e519cea83a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-0ef06df6d76377f169b767e519cea83a\" class=\"content_image\"/></figure><p data-pid=\"KLwTCxgN\"><br/>敲黑板！一涉及到“压缩算法”，这个事儿就考验技术了！<br/><br/>因为算法和算法之间的差异，就像是“张华考上了北京大学，李萍进了中等技术学校，我在百货公司当售货员”这么大。<br/><br/>而且你知道吗？生命体的智能水平差异，本质上就是压缩能力的差异。不久前我写了一篇文章<b>《当 AI 活成了你的样子》</b>，就是在探讨这个道理，强烈建议浅友去看看。<br/><br/>虽说人类对于音频的压缩算法一直在进步，但最近十几年，已经一度慢到了“挤牙膏”的程度。<br/><br/>老师傅把能想的辙都想了，但把已有技术发挥到极限后，压缩就变成一个纯跷跷板：<br/><br/>1、要想省带宽，就得费算力。<br/><br/>2、要想省算力，就得费带宽。<br/><br/>这很好理解。既然传输的原始数据少，那很多结果都得靠大量计算得到嘛！反之，你要不想做这么多计算，原始数据还不给多些？<br/><br/>不过，漫长的黑夜总会过去。<br/><br/>2019 年左右，一丝不易察觉的曙光开始洒落。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2132a1ca01cd59a22484ef61b37b7bf0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-2132a1ca01cd59a22484ef61b37b7bf0\" class=\"content_image\"/></figure><p data-pid=\"9KEFw1Lk\"><br/><b>（二）以假乱真术：我们时代独有的光芒</b><br/><br/>我们来打一个比方。<br/><br/>现在，你是 A 国博物馆的馆长。<br/><br/>B 国对 A 国发动了战争，眼看就要攻下首都。总统决定撤离，撤离前给你派来一列火车，让你挑选一些最能代表 A 国文明的文物。<br/><br/>总统凝重地说：这一去，也许世世代代都无法再回来了。我们的后人就要靠这一列车的文物来理解我们的文化，重建我们的文明。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-573be57053ca797cf68320ec5a19fd53_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1070\" data-original-token=\"v2-573be57053ca797cf68320ec5a19fd53\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-573be57053ca797cf68320ec5a19fd53_r.jpg\"/></figure><p data-pid=\"o3OictUI\"><br/>你眼泪下来了：“总统，我们的文化博大精深，别说一车皮，就是一百车皮也拉不下啊！”<br/><br/>总统说：“为了给你挤出这一列火车，已经有无数前线将士失去了弹药补给，不可能再多了！”<br/><br/>请问，这时你会怎么办？<br/><br/>你能想到的办法，肯定是召集博物馆的专家讨论，选出你们认为最能代表 A 国文明的文物，然后反复尝试用最紧凑的方式打包，把这一火车皮塞到爆！<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-555d19501030135afece96181789edb6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"690\" data-original-token=\"v2-555d19501030135afece96181789edb6\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pic3.zhimg.com/v2-555d19501030135afece96181789edb6_r.jpg\"/></figure><p data-pid=\"iDwIM2eq\"><br/><b>没错，不知不觉中，你已经在研发压缩技术了。</b><br/><br/>1）为了能最大程度重建 A 国文明，不同专家选出的代表文物肯定不同，这就是使用的“采样方案”不同；<br/><br/>2）同样是塞满一车皮，好的专家确实能选出维度更丰富，更适合重建文明的文物组合，也就是说，他们的压缩方案更优。<br/><br/>但是！无论怎么挑选文物，这些方法最终都归为“经典压缩技术”的范畴。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-64d2da3b9333ce40333519af54e8d8d3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"826\" data-original-token=\"v2-64d2da3b9333ce40333519af54e8d8d3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-64d2da3b9333ce40333519af54e8d8d3_r.jpg\"/></figure><p data-pid=\"4nYlWt0q\"><br/>难道。。。还有什么更逆天的，降维打击的骚操作？？！！<br/><br/>没错，现在换中哥来当博物馆馆长。<br/><br/>中哥把专家们都叫来，让他们四步走：<br/><br/>1、找到最有代表性的文物，然后只留关键部分。把霓裳剪开，只留最精美的纹饰；把瓷瓶打碎，只留最核心的图案。<br/><br/>2、然后再从不同领域挑选一些最有代表性的完整器物，不用太多；<br/><br/>3、把这些”零件“用最紧凑的方法打包，同样一车皮，我们当然可以携带更多东西。<br/><br/>4、到了新家园，我们依靠少量的完整器物加上众多的精美残片，再加上文物专家的经验和智慧，利用当地找来的辅助材料，就能复原这些文物。<br/><br/>用这种方法复建的博物馆，最终拥有的文物数量可能比只带完整文物的方法多三倍以上，完全突破了经典方法的上限↓↓↓<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e3f8b8d0438e862908f0df2954730cf9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"908\" data-original-token=\"v2-e3f8b8d0438e862908f0df2954730cf9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-e3f8b8d0438e862908f0df2954730cf9_r.jpg\"/></figure><p data-pid=\"pf6wcT2M\"><br/>看到这，你可能皱眉：咋还破坏文物呢？那最后复原出来不是赝品了么？<br/><br/>这就说到了精髓。<br/><br/>我们的目标是“对文明负责”，而不是“对某个文物负责”。<b>你可以说最后复原出来的文物是赝品，但它是根据科学严谨的方法复原的，“赝”得有道理！</b>在传续文明的意义上，它可以达到和真实文物几乎一样的效果。<br/><br/>而且你想想，在传统方案中，我们可是把更多的“文物”给整个丢弃了，这难道不是更大的罪过吗？<br/><br/>看完这个比喻，我想你已经猜到了这种新一代的音频压缩方案，那就是——<b>“人工智能加持的编解码”</b>，简称 AI Codec。<br/><br/>它可以只用过去三分之一的数据量，复原出和传统压缩算法一样，甚至更好的音质。<br/><br/>肖玮所在的腾讯会议天籁实验室，前后花了五年时间磨出这支宝剑—— <b>Penguins AI</b> <b>语音引擎</b>。<br/><br/>少废话，先看东西，哦不，先听东西！<br/><br/>第一段是原始音频：<br/><br/>第二段是用经典算法 OPUS 适配正常的 20kbps 码率时压缩的音频：<br/><br/>第三段是腾讯老师傅用 Penguins 压缩后，用不到三分之一码率，也就是 6kbps 传输的音频：<br/><br/>第四段是用经典算法 OPUS 在 6kbps 码率下的压缩音频：<br/><br/>人的耳朵很敏感的，我保证你听到“第四段”时，已经不能忍它的全损音质了。<br/><br/>明确告诉你，这第三段音频就是使用“声音残片”借助 AI 恢复后的“赝品声音”。<br/><br/>现在只有 6kbps 的网速，只能在“三”和“四”中间选一个，你会选哪个？<br/><br/>反正就算是天王老子来了，我也会选第三个。<br/><br/>说到这儿，我插一句。并不是说以前的音频老师傅有什么道德洁癖，死活不愿意用 AI 生成赝品声音，而是因为之前的 AI 技术根本达不到<b>“以假乱真”</b>的效果。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6cca24511616303105c9bbf647eba432_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"622\" data-rawheight=\"338\" data-original-token=\"v2-6cca24511616303105c9bbf647eba432\" class=\"origin_image zh-lightbox-thumb\" width=\"622\" data-original=\"https://pic1.zhimg.com/v2-6cca24511616303105c9bbf647eba432_r.jpg\"/></figure><p data-pid=\"6kx5Bj2V\"><br/><b>不同码率传输，恢复后的频谱对比（红色：原始语音 / 蓝色：Penguins@6kbps / 黄色：OPUS@6kbps）可见蓝线与红线非常接近。</b><br/><br/>我们有幸能听到这第三段声音，需要感谢<b>“生成式人工智能”（AIGC）</b>在最近几年的突飞猛进。<br/><br/>话说，腾讯师傅是怎么用人工智能把这些声音残片修复到和真的声音一毛一样嘞？<br/><br/>接下来看中哥徒手劈砖，给你掰开来讲讲其中的道理。<br/><br/><b>（三）从“二刺猿美少女”说起</b><br/><br/>先给你推荐一个网址（链接放文末）。你点进去，啥也不用干，它就会给你自动生成图片。<br/><br/>啥图片嘞？二次元美少女头像。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f9266bb185a938f40b10d37649047977_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1365\" data-original-token=\"v2-f9266bb185a938f40b10d37649047977\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-f9266bb185a938f40b10d37649047977_r.jpg\"/></figure><p data-pid=\"pR-EJw3R\"><br/>你盯着一张图片的生成过程，会觉得匪夷所思。因为它最初就是一堆“雪花”，然后每隔半秒就刷新一次，每刷一次就清晰一点儿，直到最后，少女定格在屏幕上。<br/><br/>我 50x 加速给你看下：<br/><br/></p><figure data-size=\"small\"><img src=\"https://pic4.zhimg.com/v2-7fdaddf0d7c7b7bdc4eaca887a38187f_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-original-token=\"v2-7fdaddf0d7c7b7bdc4eaca887a38187f\" class=\"content_image\"/></figure><p data-pid=\"2wkUttQI\"><br/>没错，这张图片就是这堆“雪花”通过 AI 模型算出来的。<br/><br/>具体来说，这个 AI 模型预测的是“噪声”↓↓↓<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-63d08fc475f5c7fce29abf1785df628f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"453\" data-rawheight=\"790\" data-original-token=\"v2-63d08fc475f5c7fce29abf1785df628f\" class=\"origin_image zh-lightbox-thumb\" width=\"453\" data-original=\"https://pic2.zhimg.com/v2-63d08fc475f5c7fce29abf1785df628f_r.jpg\"/></figure><p data-pid=\"yG2JiJWW\"><br/>每一次它都会根据现有图片预测哪些点位是噪声，然后从图片中把噪声去掉；<br/><br/>再在这张新图的基础上重新计算噪声，去掉；<br/><br/>如此迭代300次，就出现了一张少女图。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f4330cf9b109966b7646b65ba71c7ac0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"520\" data-original-token=\"v2-f4330cf9b109966b7646b65ba71c7ac0\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-f4330cf9b109966b7646b65ba71c7ac0_r.jpg\"/></figure><p data-pid=\"y79sEGOC\"><br/>这个过程就像米开朗基罗从一块里石头里反复敲掉碎屑，一直敲掉 300 层，每一层敲掉的都是“噪声”。最后剩下的部分，就是“大卫”。<br/><br/>你可能会问：为啥这个 AI 模型不断去掉噪声，最后剩下的就是美少女呢？为啥不是老爷们、皮卡丘？<br/><br/><b>因为这个 AI 模型当初就是用无数美少女的图片训练出来的。其中饱含着对全世界美少女头像特征的理解，它只会画美少女。</b><br/><br/>就像米开朗基罗刚动手的时候，虽然脑海里不能确切描摹出大卫成型后的每一寸肌肤，但他<b>“方向性地”</b>知道自己要雕一个健硕男子，最后肯定不会离谱到雕出个皮卡丘。<br/><br/>而随着他一层层雕刻，大卫的样子果然逐渐出现，最后定格成现在的样子。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b0769683c5314d1ac1aef827538013f4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"525\" data-original-token=\"v2-b0769683c5314d1ac1aef827538013f4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-b0769683c5314d1ac1aef827538013f4_r.jpg\"/></figure><p data-pid=\"7ZZZkA7v\"><br/>好，我们说回“美少女生成模型”。<br/><br/>从信息论的角度看：减少噪声的过程，就是向其中不断添加信息量的过程。<br/><br/>在开始的第 1 步，图像是一堆完全随机正态分布的噪点，谁都猜不出最后出来的美少女是啥样，其中蕴含的信息量可以视为0；<br/><br/>但到了第 100 步，图像中已经蕴含了一些信息，但如果你是个老二刺猿，也许基本能猜出最后的成品是啥样了。<br/><br/>到了第 200 步，图像中的信息已经很丰富了，哪怕你是个普通人，也基本能猜出最后成品的样子了。<br/><br/>到了第300步，你就不用猜了，所有信息都展现给你了。<br/><br/><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9a25005fab3f8aeb8ca30a6e7b638f4b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"468\" data-original-token=\"v2-9a25005fab3f8aeb8ca30a6e7b638f4b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-9a25005fab3f8aeb8ca30a6e7b638f4b_r.jpg\"/></figure><p data-pid=\"-lTG9dGU\"><br/>注意！<br/><br/>从第1步到第300步，图片里的信息量逐渐增加，图片文件也越来越大。<br/><br/>如果我把信息含量更少的“第200步”版本传给你，而你手里的 AI 模型恰好能够把它复原成第 300 步的成品，咱俩不就可以节省传输成本么？<br/><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b6bc70b6f5416aa4f1cfb90e1d0030cb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-b6bc70b6f5416aa4f1cfb90e1d0030cb\" class=\"content_image\"/></figure><p data-pid=\"zBRO2jQq\"><br/>在你同样可以恢复图像的前提下，我给你传递这张图片的“第 100 步”版本，成本不就越低么？<br/><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-768de4c9d520cb69bb1712eafebc5fbd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-768de4c9d520cb69bb1712eafebc5fbd\" class=\"content_image\"/></figure><p data-pid=\"Y7csu-jv\"><br/>说到这，估计聪明的浅友已经感觉到这个“美女生成模型”和“声音复原模型”的关系了。<br/><br/>它们本质上就是一件事儿！<br/>1、把我声波里的<b>关键信息做一些提取</b>；<br/><br/>2、然后把提取结果发给你；<br/><br/>3、你再用专门的 AI 模型把它还原出来！流量带宽不就妥妥省下了吗？<br/><br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9d1edfe85be026ea81c87eda0664b457_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"714\" data-original-token=\"v2-9d1edfe85be026ea81c87eda0664b457\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-9d1edfe85be026ea81c87eda0664b457_r.jpg\"/></figure><p data-pid=\"Sgk-FpTa\"><br/>2019年夏天，腾讯会议天籁实验室负责人商世东找到同学们，就是商量这个神秘的议题。<br/><br/>作为在音频领域深耕二十多年资深音频人，商世东清楚编码器对生态的价值，这么多年也亲历了不少编码器江湖的往事，他觉得新的时代快到了。<br/><br/>大家一致决定，开始在 AI Codec 的“无人区”里搞搞事情。<br/><br/>之前我们说过，AI Codec 就像是在文物局部取碎片，而 Codec 就像是取整个的文物，它俩的采样机制完全不同。可以说，AI Codec 为核心的编解码器，几乎是一项全新的技术。<br/><br/>全新的技术，破旧立新，改天换地，多酷！<br/><br/>从看热闹的角度确实酷，从干活儿的角度嘛。。。这里面有三个大坑：<br/><br/><b>第一坑，这个 AI 模型受到的限制贼多。</b><br/><br/>这里就得提到 Penguins 底层技术的另一个贡献者：腾讯 AI Lab。<br/><br/>腾讯 AI Lab 的阳珊告诉我，实时通信的场景既要高质量，又要低复杂度，还要低延时。单独满足某一个都不难，但做出既要又要还要的模型，就纯纯难煞打工人了。<br/><br/><b>第二坑，腾讯这帮产品经理，那可是太难缠了。</b><br/><br/>腾讯以产品著称，所以产品经理极其宠溺用户。<br/><br/>他们“龟毛”到了啥程度？但凡技术同事拿来的新玩意儿可能造成用户体验有一丝一毫的下降，甭管成本降低多少，都不可能更换。您就别找我谈，面斥不雅。。。<br/><br/>所以，在找产品经理之前，老师傅必须在家里先“暗搓搓”测试完。<br/><br/>腾讯会议质量测试团队的高雄告诉我，他们专门搓了一个评价系统，同时测试传统方案和 AI Codec 方案，这样才方便比较嘛。<br/><br/>这个系统外号叫“包青天”，每次改进，但凡有一点不合格就会打回来，技术老师傅开心得拳头都硬了。<br/><br/>其实，技术团队和测试团队两拨师傅从没红过脸，毕竟知道他们“是为自己好”。。。<br/><br/><b>第三坑，还得看新技术的改造成本呢！</b><br/><br/>根据天籁实验室的经验，音频编解码技术要是在体验打平的前提下，成本不降低个20%，产品团队基本不会考虑。<br/><br/>然鹅，刚才我们说了，AI Codec 是一项全新的技术。如果说传统编解码器的升级像是把房子重新装修，那么 AI Codec 就像是把房子拆了重盖！<br/><br/>这么大动干戈，只多 20% 的好处，那人家房东肯定还是不干啊！<br/><br/>2019 年底，肖玮他们就关起门来打过算盘，要想让新编解码器惊艳世人，起码得把性能提升个 300% 神马的。。。<br/><br/>在业界，对于音频质量的好坏其实是有一个评分标准的。5 分是完美，0 分是完全没法听。<br/><br/>腾讯产品的“龟毛”要求，一般最低得是 4 分，最好是 4.5 分。<br/><br/>要想保证 4 分的用户体验，音频界公认的最低网络要求大概是 20kbps，<b>也就是说，天籁实验室的目标只能是：效果做到 4 分以上的同时，把网络要求降低到 6kbps！</b><br/><br/>就像下面酱↓↓↓<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c060edfb939a6f8ca3543b740fccd0aa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"539\" data-original-token=\"v2-c060edfb939a6f8ca3543b740fccd0aa\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-c060edfb939a6f8ca3543b740fccd0aa_r.jpg\"/></figure><p data-pid=\"R0j5jxsL\"><br/>当时老师傅们算出这个数，把自己都吓了一跳。<br/><br/>因为根本做不到，打死也做不到。。。<br/><br/>搞技术要实事求是，不能搞什么“亩产万斤”，他们只好含恨把这条技术路线放下了。<br/><br/>但是，这个念头如微弱的火苗，一直在大家的脑回路里燃烧，等待有一天找到喷薄的出口。<br/><br/><b>（四）不管黑猫白猫</b><br/><br/>话说，老师傅到底卡在哪了呢？<br/><br/>你还记得我们之前说过的“跷跷板”么？<br/><br/>在技术一定的前提下，带宽和算力是此消彼长的关系。<br/><br/>如果用 AI 模型来做编解码器，把带宽速率压到 6kbps 其实是可以的，但是此时要把它恢复到 4 分的音质，就需要一个很大的模型来搞，甚至光靠 CPU 都跑不动，得上 GPU。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-09000fed03a75c3cffe2d4e3b19a08bb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"811\" data-original-token=\"v2-09000fed03a75c3cffe2d4e3b19a08bb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-09000fed03a75c3cffe2d4e3b19a08bb_r.jpg\"/></figure><p data-pid=\"DurRatBU\"><br/>这个模型说大，其实也不大。全世界对于音频处理的要求都是很苛刻的，不可能给到和视频处理一样的软硬件资源，大概整个手机，能划给你5%~8%的算力就顶天了。<br/><br/>当然各个手机的算力不同，但平均而言，这个限制下，模型的个头（或计算量）至少得从姚明砍到郭敬明。<br/><br/>可是怎么砍呢？<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-af1a40cf1b55ed0e2392c14f5017b534_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1043\" data-rawheight=\"786\" data-original-token=\"v2-af1a40cf1b55ed0e2392c14f5017b534\" class=\"origin_image zh-lightbox-thumb\" width=\"1043\" data-original=\"https://pic1.zhimg.com/v2-af1a40cf1b55ed0e2392c14f5017b534_r.jpg\"/></figure><p data-pid=\"woAs-Rzl\"><br/>从 2019 年底开始，天籁实验室一直有一支小分队研究这个事情，他们不仅自己琢磨，也在关注国内外学术界的进展。<br/><br/>遇到有戏的技术就做一个 Demo，发现走不通就回来，也没设定时间表。<br/><br/>但到了 2020 年，老师傅的思考节奏被猝不及防打断——<b>疫情袭来</b>。<br/><br/>你可能还记得，就是这年春天，腾讯会议突然蹿红，成为了大家办公上课的刚需。<br/><br/>当时老师傅们也顾不上新技术的研发，每天都在想着找资源扩容，寻思用什么姿势才能顶住下个周一更大的流量洪峰。。。<br/><br/>这段经历看似是支线任务，但现在回望，它给天籁实验室留下一个闪亮的精神遗产，那就是：<br/><br/>关键时刻，当几亿人迫切需要大规模传递信息时，他们会牺牲画面，而声音是最后的信息承载渠道。<br/><br/>此时，“以低带宽承载高质量的音频”就不再是一个锦上添花的“玩物”，而是支撑我们社会运转的<b>“基石”</b>之一。<br/><br/>把这个技术做出来，成了老师傅面对历史的责任！<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2e539bdb05062df9cc76d92eb7ae0a2a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"772\" data-rawheight=\"486\" data-original-token=\"v2-2e539bdb05062df9cc76d92eb7ae0a2a\" class=\"origin_image zh-lightbox-thumb\" width=\"772\" data-original=\"https://pic1.zhimg.com/v2-2e539bdb05062df9cc76d92eb7ae0a2a_r.jpg\"/></figure><p data-pid=\"UB7AcAdP\"><br/>疫情刚一稳定，天籁实验室就抽调出重要的同事，开始加码 AI Codec 的研发。<br/><br/>到了 2021 年，他们心里已经隐约勾勒出一种可行方案。但愣是没敢声张。。。<br/><br/>为啥呢？<br/><br/>当时天籁实验室已经推到了“无人区”。市面上没有别人的技术可供参考了。他们抱着这个自研方案站在那里，左右都没人跟上，多少带点胆儿秃。。。<br/><br/>就在这时，天籁团队偶然翻到了微软音频技术团队一个简短的分享。<br/><br/>文章只有区区几百字，根本看不出啥信息，但他们一下子跳起来了。在荒无人烟的原野，只要能瞄见另一个猎手的影子，他们就足以心安，自己追踪的方向对了！更何况看到的是一个公认的“好猎手”。<br/><br/>肖玮嗅到了猎物的味道。他建议投入重兵，拉上 AI Lab 的阳珊他们，赶紧开整！已经前后追踪了三年，可不能让其他猎人给打了去！<br/><br/>卖了这么大的关子，到底技术是咋实现的？<br/><br/>其实捅破窗户纸就很简单：这个方案把“经典信号处理技术”和“AI Codec”结合了起来。<br/><br/>既然纯粹用 AI 算力不够，那可不可以<b>在所有频谱上，只划出一部分重要频谱交给 AI 模型处理，剩余的还交给经典技术处理？</b><br/><br/>这样模型的计算量就不会超纲，总体质量还能保证香香！<br/><br/>就像下面这样↓↓↓<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d53d9acc7415f39903d5b2ba7d9ec817_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-d53d9acc7415f39903d5b2ba7d9ec817\" class=\"content_image\"/></figure><p data-pid=\"qozUluY0\"><br/>你可能会说：就这？<br/><br/>话说，音频处理领域就像一个武林，各个门派还是有很深的成见的。AI 派看经典派是行走的古董，经典派笑话 AI 派拿锤子看什么都是钉子，两边经常隔空吵架。<br/><br/>但肖玮他们的意思是：最厉害的功夫，本来就不该有“门派”。<br/><br/>我是来做成这件事儿的，自然是哪招好用用哪招！黑猫白猫，抓到老师是好猫啊！<br/><br/>况且，即便“就这”，里面的学问还大着呢！<br/><br/><b>究竟把哪些频谱交给 AI ，把哪些频谱交给经典，才能让总体听感保持最佳呢？</b><br/><br/>对于语音信号来说，原则上低频声波携带的信息对听感影响更重，高频声波携带的信息对听感影响更轻，也就是说，要把 AI 尽量用在低频波段上。<br/><br/>经典信号处理，高低频的码率分配大概是 1:8。<br/><br/>用这种“AI+经典”杂糅的方案，高低频的码率分配大概是 1:2~1:3。<br/><br/>就像下面这样↓↓↓<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c16ec373b7293c12ad42c030e87063e6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"662\" data-original-token=\"v2-c16ec373b7293c12ad42c030e87063e6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-c16ec373b7293c12ad42c030e87063e6_r.jpg\"/></figure><p data-pid=\"AJGN6ZO8\"><br/>嗯，纸上推演，似乎还不错！<br/><br/>老师傅着手实操，试着从频宽中间画了条线，然后分别处理，结果是。。。。不行！<br/><br/>虽然总体计算量确实是下去了，但听感也下去了，用这种方法压缩的音频在 6kbps 的码率下居然低于 4.0 分。<br/><br/>“不叫事儿”，老师傅安慰自己，以为调调就能过去。但谁承想，低码率下的听感像是被强力胶粘在了 3.x 分，无论怎么左冲右突，死活上不去 4.0。<br/><br/>调到最后，老师傅已经双目失神双耳失聪了。。。<br/><br/>苍天啊大地啊！明明技术其实已经突破了，但距离“腾讯级标准”就差那么一neinei，这也太窝火了。<br/><br/>但创新不就像打猎么？有时猎物就该在附近，猎手偏偏原地鬼打墙。此刻越急越找不到，冷静下来没准却能不期而遇。<br/><br/>那天夜里，万籁寂静。躺在在床上，肖玮突然睁开了眼，他仿佛听到了千军万马，正赶来支援。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1bf656c33fea2a11e418c8d85e0a5d3c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"540\" data-original-token=\"v2-1bf656c33fea2a11e418c8d85e0a5d3c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-1bf656c33fea2a11e418c8d85e0a5d3c_r.jpg\"/></figure><p data-pid=\"RIJZ0aRC\"><br/><b>（五）来自 40 年前的援军</b><br/><br/>人的听力并非来自某种设计，而是漫长的自然演化中和环境互动不断进化的结果。<br/><br/>这是一个大家都明白，但又极易忽略的道理。<br/><br/>由于进化历史的复杂，在很多细节上，人的听力是“不讲武德”的，或者说，它背后的道理是不能那么容易讲清楚的。<br/><br/>比如在狩猎时代人们需要分辨鸟鸣，演化就调高了特定高频处的敏感度；比如有些频率是野兽吼叫的声音，会激发我们的杏仁核产生恐惧。<br/><br/>这就造成，人的听觉系统虽然整体上偏重某个频段，但演化又在这个大概的规律上持续给不同频谱调整“权重”——<b>最终，人的听力不再是一个简单的直线，而是充满了难以解释的“小起伏”。</b><br/><br/>既然听力不是一个直线，那么你用一条直线去服务它，耳朵怎么会满意嘞？<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c33e242354acce13699422ff2a338370_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"896\" data-rawheight=\"530\" data-original-token=\"v2-c33e242354acce13699422ff2a338370\" class=\"origin_image zh-lightbox-thumb\" width=\"896\" data-original=\"https://pic1.zhimg.com/v2-c33e242354acce13699422ff2a338370_r.jpg\"/></figure><p data-pid=\"8bz85kRE\">这张图显示了：相同音量下，人耳对不同频率声音的感知度是不同的。<br/>耳朵里的事情，需要巧取，不能硬来。<br/><br/>肖玮给我科普。<br/><br/>想明白这些，老师傅面前的问题就变成了：<b>不同频段里，到底哪些细节对于听感而言是重要的呢？</b><br/><br/>这个问题，对码农来说其实超纲了。。。它应该由“生物学家”“医学家”或者“听觉科学家”来回答。<br/><br/>但直觉告诉肖玮，人类研究声学信号这么多年，自己不可能是第一个考虑这个问题的人，一定有前人做过研究。<br/><br/>于是老师傅们决定——翻论文！各种有关听力研究的，越精专越要啃，越艰深越不放过。<br/><br/>如山的论文，从 2021 年底看到了 2022 年初。<br/><br/>功夫不负苦心人，就在 2022 年春节前夕，他们居然找到了一篇上世纪 80 年代的论文，恰好研究了人耳在各个频谱上的细节特性。<br/><br/>踏破铁鞋，老师傅如获至宝，赶紧按照其中的结论来调整系统框架，重训模型。<br/><br/>春节一回来，模型还在迭代收敛中，就看到了评价系统的客观评分超过了 4.0，一般来说，这种情况下主观评分只会更高！<br/><br/>所有人的心脏都在突突地跳，这事儿成了！<br/><br/>果然，模型最终收敛，整个系统封装之后，可以在 6kbps 的情况下，让通话中听感保持在 4 分以上。生生把最低码率压到了原本极限的三分之一。<br/><br/><b>Penguins 编解码器诞生了！！</b><br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2836db176981ab80e94213740dd6daeb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"939\" data-original-token=\"v2-2836db176981ab80e94213740dd6daeb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-2836db176981ab80e94213740dd6daeb_r.jpg\"/></figure><p data-pid=\"MG6vd6qq\"><br/>在音频信号处理界，有一个公认最难缠的客观质量测试标准，叫<b>“ITU-T P.863”</b>。<br/><br/>这个标准是由一众老牌声学家主导制定的，它关注的主要方向就是人的细节听感。<br/><br/>实际上，很多基于 AI Codec 的压缩方法在这个测试中得分都不高，所以他们经常心照不宣地跳过这个测试，反正外行也不懂。。。<br/><br/>天籁老师傅们点点头，咱就得用这个指标考验自己的成果！能够在这个客观测试标准中取得好成绩，大概率 Penguins 也能给出顶呱呱的主观通话质量。<br/><br/>果然，在这个测试中 Penguins 甩开对手老远——毕竟它的关键设计思路就是在细节处给耳朵“跪式服务”嘛！<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-aeaae88edeb9ac6029b176db0a6f6ed8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"451\" data-original-token=\"v2-aeaae88edeb9ac6029b176db0a6f6ed8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-aeaae88edeb9ac6029b176db0a6f6ed8_r.jpg\"/></figure><p data-pid=\"p5U6aNHL\"><br/><b>这张图里，蓝色柱子是 Penguins 的得分，橘色柱子是同样采用了 AI Codec 技术的 Lyra2，可以看到 Penguins 表现全面领先。绿色和黑色柱子是基于传统信号处理的 EVS 和 OPUS，与这些传统信号处理方法的中高码率的质量相比，Penguins 也不逊色。</b><br/><br/>普通人也许很难想象，最终帮他们打胜仗的决定性援军，是来自 40 年前的一篇发黄的论文。<br/><br/>实话说，这篇论文的作者早已不再活跃，但他的研究成果却守候在永恒的历史岸边，横跨 40 年时空，把水中挣扎的素不相识的一群技术人拉上了岸。<br/><br/>他们相互对视，鞠躬致谢，然后挥手告别，这是一种无法言说的浪漫。<br/><br/>真正让老师傅觉得自豪的是：<br/><br/>这篇论文一直在那里，它像一扇门，谁都可以推开。但是天籁实验室最终想到去推这扇门，靠的并不是侥幸。<br/><br/>过去几年无数尝试碰壁后的经验，无数细小技术突破积累出的直觉，无数次因为责任而决定再试一次的发愿，都化成一级级台阶，最终指引老师傅走到了这扇门前。<br/><br/>正所谓世上没有白走的路，每一步都算数。<br/><br/>手握这个性能狂飙三倍的音频编解码标准，老师傅终于有勇气敲响产品团队的大门，这第一战，当然就是和自己关系最密切的腾讯会议！<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-51fccd67c5d7483219ff2fbaf1ccb2ce_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1126\" data-rawheight=\"672\" data-original-token=\"v2-51fccd67c5d7483219ff2fbaf1ccb2ce\" class=\"origin_image zh-lightbox-thumb\" width=\"1126\" data-original=\"https://pic1.zhimg.com/v2-51fccd67c5d7483219ff2fbaf1ccb2ce_r.jpg\"/></figure><p data-pid=\"h-v829qQ\"><br/><b>（六）只有 6bps 的世界</b><br/><br/>在音频处理界有句俗话：<br/><br/>算法好不好，现网跑一跑。<br/><br/>这是因为在现实生活中，网络环境比实验室复杂千万倍。实验室里的数据再炸裂，都不能代表它实际就很好用。<br/><br/>天籁实验室的算法同学找到腾讯会议的产品同学时，腾讯会议的伙伴建议，先从带宽最低的“驾驶模式”和“弱网模式”入手。<br/><br/>现有的编解码器在 6kbps 下肯定卡，那就死马当活马医，把这部分的编解码器替换成 Penguins，反正不会更坏了。。。<br/><br/>在软件里替换掉编解码器已然工程量巨大，但这还只是万里长征的第一步，老师傅们必须对于各个车型、机型在各种实际网络工况下做实际测试。<br/><br/>这时，工程团队和测试团队就必须通力合作。<br/><br/>肖玮回忆一个搞笑的细节：2022 年他们开着自己的车在公司附近兜圈，就是为了找到哪儿信号只有 6kbps。。。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-cfd2893bd8211242693c3a15a1e1eb10_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"611\" data-original-token=\"v2-cfd2893bd8211242693c3a15a1e1eb10\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-cfd2893bd8211242693c3a15a1e1eb10_r.jpg\"/></figure><p data-pid=\"l4UrpQf_\">这不是在摸鱼旅游，是师傅们兜兜转转找弱网的地方时拍的。<br/>“关键是信号还要稳定地差！有的地方测了两天之后，可能运营商也发现这里信号不行，给强行改好了，这就很尴尬。”他吐槽。<br/><br/>有时候为了找到一个弱网环境，老师傅开车兜一天，油钱都心疼。<br/><br/>除了寻找各种网络外，老师傅还要寻找各种手机。<br/><br/>因为他们必须确定：在各种机型、芯片、操作系统的组合下，尤其是在综合性能较差的手机里，编解码系统都能按预想的姿势干活。<br/><br/>“非要把所有机型都真实测一遍吗？这效率也太低了。”我问。<br/><br/>“就像瑞士手表，钟表匠测试手表质量，就必须让表真的转那么多天；就像汽车防撞、手机跌落测试，厂家真的就得去撞去摔。现实世界很复杂，在测试环节没有用虚拟替代现实的捷径。”高雄解释道。<br/><br/>就这样，各种弱网、弱机都被他们搞了一遍，确实发现了很多隐秘的小坑。<br/><br/>他给我举了一个<b>“数据包”</b>的小例子。<br/><br/>网络传输音频信号有点像寄快递，是一个数据包一个数据包传送的。<br/><br/>传统方案当然是给每一帧音频信息打一个包。<br/><br/>但是问题来了，每一个包外面还得有“包装”，包装上标注了这个数据包的基本信息，从哪来到哪去之类的，这就是“包头”。包头当然也占用一定的信息空间。<br/><br/>在新的编解码技术下，每一帧的有效数据量变成了原有的三分之一，这时包头的比重就变得很大，再这样一帧数据打一个包就不划算了！<br/><br/>于是老师傅们决定——把两帧打进一个数据包。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4eeea14139b792784abd7326ee1a4f45_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-4eeea14139b792784abd7326ee1a4f45\" class=\"content_image\"/></figure><p data-pid=\"NpOB-cih\"><br/>像这样的小改动还有很多，它们大多解决起来并不难，只是很琐碎。<br/><br/>“其实有多少黑科技，就有多少工程量。”负责工程化的文龙吐槽。<br/><br/>他用“短木板”理论打了个比方：<br/><br/>算法的革新带来的是体验的上界突破，肯定让人兴奋；但是工程底坐却是保证一切成功的前提。<br/><br/>没有一个王牌 App 是通过各种高精尖算法简单堆砌而成的，因为稍不注意，黑科技成了那块“短木板”了！<br/><br/>为了保证 Penguins 能够用起来，当时工程团队把客户端、服务后台等好多节点都从新打磨——几乎所有的重点处理链条都进行了针对性改造。<br/><br/>花了小半年时间，新的编解码器终于在腾讯会议里成功安家。<br/><br/>接下来，腾讯会议又逐渐切换，把原有编解解码器完全过渡到 Penguins 上，至此，从2019年就开始研究的技术，时隔漫长的三年，终于在第一个产品里实现了完整落地。<br/><br/>顾不上喘气，老师傅又盯上了下一个“猎物”，那就是 QQ。<br/><br/>QQ 研发团队的天成给我爆了一些“内幕”：<br/><br/>年轻人更喜欢用 QQ，而且他们使用 QQ 的姿势和我们这群老人用微信的姿势不同。<br/><br/>比如，年轻朋友之间，干啥都要连着麦干。哪怕各自刷网页，也要保持着通话状态。<br/><br/>甚至，情侣可能会“连麦陪睡”——俩人一宿不挂电话，听对方睡觉，或者打呼噜。。。<br/><br/>这已经不是“煲电话粥”了，简直是“吸电话氧”了呀！不理解，尊重吧。。。<br/><br/>长时间通话，网络环境肯定会经历各种变化，QQ 要想保证他们在任何时点都不被卡掉线，就更艰难。<br/><br/>关键是，年轻人比较“贫苦”，用的手机大都不高端，这进一步压缩了编解码器的运算资源。<br/><br/>这。。。不就是 Penguins 最好的用武之地吗？<br/><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-97eb459e62d14a17543e0255f1b26d8f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-97eb459e62d14a17543e0255f1b26d8f\" class=\"content_image\"/></figure><p data-pid=\"lxIoWccs\"><br/>于是在 2023 年，天成带领的 QQ 团队 也完成了编解码系统的改造，在只有 6kbps 的世界里完成了“荒野求生”！<br/><br/>到这一步，天籁实验室的师傅终于能腾出脑袋，思考那个“更辽阔”的问题：<br/><br/><b>既然技术飞跃这么大，而且已经在两大 App 上证明了自己，我们能不能去申请成为下一代语音通信的编解码标准呢？</b><br/>凭借对标准的理解，老师傅们确信：在现有的标准体系里，AI Codec 标准妥妥是一片待开发的沃土。<br/><br/>尚世东调集算法、工程、质量等等团队，开始向中国的标准化组织——<b>AVS</b>——递交申请。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a587b3507f9fb5fd908eea26c57cd95c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"516\" data-original-token=\"v2-a587b3507f9fb5fd908eea26c57cd95c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-a587b3507f9fb5fd908eea26c57cd95c_r.jpg\"/></figure><p data-pid=\"fBRlCP2s\"><br/><b>（七）成为榜样</b><br/><br/>说到音视频压缩传输标准，估计有的浅友觉得这是某种“荣誉称号”。<br/><br/>其实不然，从历史上看，音视频压缩标准一直是厂商甚至国家之间角力的战场。<br/><br/>就拿大家平时看片都会用到的视频压缩格式“MP4”和“MPEG”来说，它的音视频标准被称为“H.264”，背靠国际标准化组织（ISO）和国际电联（ITU）。很多国际公司，例如杜比、索尼、AT&amp;T 等都参与了这个标准背后的研讨。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a26f51b54409bb3d755b6109188b8204_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-a26f51b54409bb3d755b6109188b8204\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-a26f51b54409bb3d755b6109188b8204_r.jpg\"/></figure><p data-pid=\"ikqJX2vt\">H.264 的授权协议<br/>而这些公司可没有在做慈善，他们通过 ISO 和 ITU，对每一个使用这个标准的厂商都收一些费用。<br/><br/>这本来没什么问题，但要命的是，这些国外大公司尝到了甜头，争先恐后地参与制定下一代“H.265”标准，而且大幅提高收费。<br/><br/>一台使用 H.265 设备要想不遭受专利诉讼，得在各个专利池里四处交钱，总共至少要掏 4 美元。。。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-85b60e5c7bfab2490cdf788282e6574b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"761\" data-rawheight=\"381\" data-original-token=\"v2-85b60e5c7bfab2490cdf788282e6574b\" class=\"origin_image zh-lightbox-thumb\" width=\"761\" data-original=\"https://pic4.zhimg.com/v2-85b60e5c7bfab2490cdf788282e6574b_r.jpg\"/></figure><p data-pid=\"M-SPUzky\">H.265 的“专利池”，碰到哪个都不行<br/>这一下子超出了大家的承受范围，导致很多厂商根本做不下去了。<br/><br/>大致在这样的背景下，中国成立了数字音视频编解码技术标准工作组，也就是 AVS（Audio Video Coding Standard Workgroup of China），就是为了绕过这些国际大厂的专利壁垒。<br/><br/>由于 AVS 主要是为了国家层面技术自保，所以对于中国企业的专利收费是极其友好的，很多都是免费或象征性收费。<br/><br/>至 2024 年春天，AVS 已经经历了 AVS-1 和 AVS-2 两代，AVS-3 正在紧急编订中。<br/><br/>腾讯老师傅要冲击的，就是 AVS-3，确切地说是 AVS-3 中实时语音编解码技术的那部分。作为中国企业、中国技术人，这不仅是责任，也是荣光。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0d7ae120abe3152f8d286e58cc53abb9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"543\" data-original-token=\"v2-0d7ae120abe3152f8d286e58cc53abb9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-0d7ae120abe3152f8d286e58cc53abb9_r.jpg\"/></figure><p data-pid=\"dnCiNRzy\">这是国际上的一些标准源流<br/>但可想而知，既然是标准，制定流程是非常严肃的。这次，老师傅的搭档切换成了标准团队的专业咖，亚军。<br/><br/>亚军解释了 AVS 标准化的大概流程：<br/><br/>1、作为音频编解码标准的主导方，腾讯需要提出足够的论据证明标准立项的重要性，这叫<b>需求评审</b>。<br/><br/>2、AVS 标准组认可并立项后，会发出<b>技术征集书</b>。<br/><br/>3、AVS 工作组成员会提出各种候选<b>技术提案</b>，连带自测结果。<br/><br/>4、多次讨论迭代并通过第三方测试后，会慢慢形成稳定的<b>标准文档</b>和完整的<b>参考代码</b>。<br/><br/>5、最后把参考代码和技术征集书比对，如果指标全部满足，大家会<b>表决</b>通过，标准才最终诞生。<br/><br/>这里首先要过的难关，就是<b>“技术征集书”</b>。<br/><br/>标准之所以叫做标准，就是因为它不是一家之言。如果你的技术只适合腾讯家的产品，那肯定不行。<br/><br/>AVS 标准工作组会里有大学教授，有云计算厂商，有互联网厂商，还有手机等设备生产商。各位师傅都面临自己行业的实际情况，根据这些提出指标需求。<br/><br/>每次都是大型辩论现场，讨论达成一致后，才能最终输出技术征集书。<br/><br/>征集书像是个“英雄帖”，接下到了大家各显神通的时候，要拿出自己的<b>“技术提案”</b>来满足这些指标。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0b83591204c7270c1c92b799b4806584_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"517\" data-original-token=\"v2-0b83591204c7270c1c92b799b4806584\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-0b83591204c7270c1c92b799b4806584_r.jpg\"/></figure><p data-pid=\"QZqmHFKK\">这个是各项细节指标，你感受一下（点击可以看大图）<br/>肖玮把写送技术提案的工作比作“造炮弹”。<br/><br/>一旦开炮，炮弹离开炮筒，你就再没办法控制了。所以你不能放过自己，必须保证把炮弹造到最硬，再打出去。<br/><br/>老师傅先在自己的模拟环境里反复摩擦，又在腾讯会议和 QQ 实战环境中反复打磨，磨到不能再磨，磨秃噜皮，终于在 2023 年底整体提交。<br/><br/>这一炮打响了！提案通过了 AVS 组织严格测试，成为了稳定的“标准基线版本”。<br/><br/>这意味着：后续的迭代，都会在腾讯的<b>“参考代码”</b>上微调。<br/><br/>微调的工作一点儿都不轻松。<br/><br/><b>标准文档</b>堪比学术论文，就连平时大家不太注意的每一章概述部分都要字斟句酌，甚至因为一个标点符号要用分号还是逗号，大家都会争执。<br/><br/>虽然极端繁琐，但亚军知道这种争论是有意义的。<br/><br/>因为标准一旦形成，它就会被成千上万厂商采用、执行。每个标点都必须经得起历史的考验。<br/><br/>到了 2024 年6月，满足技术征集书的标准交付件终于成型，很快大家就进入<b>表决</b>环节，各家企业代表此刻一致通过，这个新的音频编解码标准呱呱坠地，它就是——<b>AVS3P10</b>。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8a6bf908b15762f55d7f0df100f6d932_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"692\" data-original-token=\"v2-8a6bf908b15762f55d7f0df100f6d932\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-8a6bf908b15762f55d7f0df100f6d932_r.jpg\"/></figure><p data-pid=\"J6IWGRIx\"><br/>掌声热烈而漫长。<br/><br/>从 2019 年起心动念，到2022年落地实战，到 2024 年成为 AVS 标准，这条路腾讯老师傅们走了五年。<br/><br/>“其实在业内，一般都是五年做标准，五年做推广，总共要十年。我们的标准快了一倍，已经算非常顺利了！”肖玮说。<br/><br/>虽然不会把比较作为目的，但天籁实验室还是会积极关注国际上的同类技术进展。<br/><br/>事实上，国际上其他标准组织也在进行类似的工作。<br/><br/>但从目前进展和完成的情况，AVS3P10 为代表的中国标准不仅在标准进度上做到领先，在很多指标上也是领先的。<br/><br/>肖玮的话虽然克制，但难掩骄傲。<br/><br/>他值得骄傲。<br/><br/>从专利自保，到分庭抗礼，到自主创新达到国际顶尖，中国技术人用二十几年的时光，穿越了前车卷起的漫天黄尘，闯出了自己的天地澄澈。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ec4b9d4ee0850c998e886b2c48e8b12d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"567\" data-original-token=\"v2-ec4b9d4ee0850c998e886b2c48e8b12d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-ec4b9d4ee0850c998e886b2c48e8b12d_r.jpg\"/></figure><p data-pid=\"uPJNgiUF\">图片来自《飞驰人生2》<br/><b>（八）漫长岁月里的款款声波</b><br/><br/>“手艺”是个古早的词汇，它是工匠手里的刻刀，也是电流中奔腾的代码。<br/><br/>过去几年，天籁实验室这群师傅的手艺不仅撑住了腾讯会议真实的 4 亿用户，还炼成了惠及 14 亿人的技术标准，堪称“爽文”典范。<br/><br/>但我却愿意提示其中<b>“克制”</b>的力量。<br/><br/>技术人最容易犯的错误，是笃信某种技术。<br/><br/>2016 年 AI Codec 横空出世，如核爆一样在技术圈炸开，让传统的音频编解码黯然失色；它太优雅，就像电动汽车一样，用几台电机和一盘电池就能替代过去上万个零件组成的燃油机械。<br/><br/>于是，很多年轻的师傅激进地转向“纯 AI 派”，他们的理由很充分：具有底层先进性的 AI 模型定能江山一统，实现“技术革命”。<br/><br/>但大多数时候，决定“做什么”是简单的，但决定“不做什么”却要依靠经验、智慧以及强大的自制力，是更难的。<br/><br/>正如保守主义哲学家家埃德蒙·伯克所说：“先例是人类的学府，具有包容一切的气度和改善一切的才能，才是真正的改革家。”<br/><br/>如此看来，天籁实验室的老师傅至少做对了两件事：<br/><br/>第一，等待良机：在看清技术路线之前，宁可保存实力，也不盲目在新技术上扑入重兵。<br/><br/>第二，尊重先例：在 AI Codec 烈火烹油的时候，依然对传统音频编解码技术敞开大门。<br/><br/>事实证明，越是技术突飞猛进的时代，越需要有老师傅抱持这种看似冰冷，实则温热的“保守主义”态度。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b182045d24ccc4d563a5ce29c4805d9e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-b182045d24ccc4d563a5ce29c4805d9e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-b182045d24ccc4d563a5ce29c4805d9e_r.jpg\"/></figure><p data-pid=\"Ozgu17Rm\"><br/>回看中国的音视频编解码技术走过的道路，也是如此。<br/><br/>肖玮回忆起十几年前自己初次参加国际标准讨论的情景：<br/><br/>当时他感觉到巨大的反差。其他国家的代表团都是连鬓络腮白胡子，一看就是干了多半辈子的老法师；再看中国代表团，清一色都是二十来岁的毛头小伙子、小姑娘。<br/><br/>一个国外老哥专门走过来问肖玮：“How old are you？”<br/><br/>外国老哥解释，在他们国家，必须是在行业里摸爬滚打二十年以上的技术人，才有资格参与这种规格的标准讨论。<br/><br/>肖玮有点儿不好意思：在我们国家，二十年前整个行业才刚刚起步。。。<br/><br/>不过从那以后，就是这些小伙子小姑娘，一直在代表中国出席各种国际讨论，他们为全世界的音视频技术添砖加瓦，积沙成塔，以手中的代码而非年龄赢得世界的尊重。<br/><br/>如今他们虽还没夸张到白胡子的年级，但确实都已更加成熟。而在他们身后，正站着更多年轻的中国技术人。<br/><br/>一代代人，就这样前行，不疾亦不徐。俯瞰他们的脚印，是漫长的岁月里一串声波。<br/><br/>而我们的历史，也在这样的声音里，滚滚向前。<br/><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f6cdf6cbe59bfdd4fa6e9fc8326e05e3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1311\" data-original-token=\"v2-f6cdf6cbe59bfdd4fa6e9fc8326e05e3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-f6cdf6cbe59bfdd4fa6e9fc8326e05e3_r.jpg\"/></figure><p data-pid=\"ol1S6kUA\"><br/>再自我介绍一下吧。我叫<b>史中</b>，是一个倾心故事的科技记者。<b>我的日常是和各路大神聊天，欢迎和</b>我做朋友。</p><a href=\"https://zhuanlan.zhihu.com/p/716827876\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-c0fbd39166036408c82feb6501873c78_180x120.jpg\" data-image-width=\"755\" data-image-height=\"320\" class=\"internal\">史中：耳朵被虐哭？正义老师傅怒搓 AI 为“听感”报仇！</a><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1050,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-5355089d247f1812e992d905647a8b5d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0545fd206fe701e67c22af5c6d6154cb_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-2a574b0fe312cd0c1d2ee95bcf3aa1d4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-afad24360cfbe2e7a46c4bd74d3c569d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-80965d39a3c56f9205d3affcee3d432d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-db76b95df2823eee969057259869826b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-df5ca1f64f9f6e04f238f5fea71d1cb0_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-c969a14569e2d79200439406b51e69d8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-35e9193d31b5378e95eeb63dbbe6a061_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-469a6ad6402d640536127f4c90fc9052_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-49496f87404f5d4d1fcf239dd86c4e6b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8bd2ea92f25727afe365ec0665d4af66_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a71e5a84fc6eb4ac0775a560ba0835f6_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-771a63cedbd31ccddf53e446f58f476b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9b2e3daf15899b7cc656cf5725338a33_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e75b5b98ba14d4abac6045350b727cc5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-cfb60d345a17203e6f21c8e521c507d5_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-475b2950093bf90619c026e7dee070cb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ae957b880e73b5c56c652968c9df3c5a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-234d49ba5be8b787c2ab7b4b57f9db2f_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 20,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 4305888812}",
+      "attached_info": "CqsXCMz6l9HJ3L/UgQEQBBoJNjkyNzMwNTg5IOG/iLgGKBAwAkDdBEo4Ci1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0MSATAYACAAOgBaCDI1MTAxOTUyYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IKNDMwNTg4ODgxMooBCTI4MjcxNTY0NKoBCXJlY29tbWVuZMIBIDU0NmU2NmNjYjM1YjdkZTkwMGE1OGI2NjE2MzFiZDQ28gEKCAwSBk5vcm1hbPIBKAgKEiQyNDlkNWYyMS05NjAxLTQwZWYtYmQ5YS0xOTYxYzc0MmI1MWbyAQcICxIDMTAxggIAiALM3s35jDOSAiA1NDZlNjZjY2IzNWI3ZGU5MDBhNThiNjYxNjMxYmQ0NpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0PoAgP6AgtOT1JNQUxfRkxPV4oDIGFjZWRkMTU5YTRiYjRjZjRhZjQ2NDhlMTliMDFmNDMxmgMNCgJ2MhAAGgVvdGhlcqgDmgjYAwDqAypJbnRlcmVzdFdvcmRDb250ZW50VmFsdWVMZXZlbENQb29sUmVjYWxsZXL6A8AREgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ8wUYwAIiI3YyLWMwZmJkMzkxNjYwMzY0MDhjODJmZWI2NTAxODczYzc4Oi0IBBC4CBjSBiIjdjItMDI2OWMwMjliYTMwOTY2YTJkZGI1ZTVlMzgzYzZjNmU6LQgAELYIGJQDIiN2Mi1mNmNmNzQ3NjcwYWRkZGI1YzE3MDFlNDgyYTZmYTJkYzotCAIQuAgY9QQiI3YyLTY5YjZmZTZiMTE2OTMwZGU1MzI2ZDUwNDBiNGRkYzJjOi0IAxC4CBjUBSIjdjItMDNjNGQ1NjI3MzljNzRjM2NhMjVjZWFjN2JjMDhhN2Y6LQgEELgIGPYGIiN2Mi0wYmIwYTg1ZjFhMDZmOGYzOWEyMjIyODE1ZTVlMWRmYzotCAIQuAgYxg8iI3YyLTNiODllNzUzYmI2ODUwNWFhYzQxODdjNmI0MjhmZTNlOi0IABC3CBj6CiIjdjItOTI5Mjc5M2E0ZTBkOTg1YjYyZGYxNzI0NzNjOGM4OGQ6LQgAELYIGLMDIiN2Mi0wZWYwNmRmNmQ3NjM3N2YxNjliNzY3ZTUxOWNlYTgzYTotCAAQtwgYmQciI3YyLTIxMzJhMWNhMDFjZDU5YTIyNDg0ZWY2MWIzN2I3YmYwOi0IBBC4CBiuCCIjdjItNTczYmU1NzA1M2NhNzk3Y2Y2ODMyMGVjNWExOWZkNTM6LQgDEO4FGLIFIiN2Mi01NTVkMTk1MDEwMzAxMzVhZmVjZTk2MTgxNzg5ZWRiNjotCAQQuAgYugYiI3YyLTY0ZDJkYTNiOTMzM2NlNDAzMzM1MTlhZjU0ZThkOGQzOi0IBRC4CBiMByIjdjItZTNmOGI4ZDA0MzhlODYyOTA4ZjBkZjI5NTQ3MzBjZjk6LQgDEO4EGNICIiN2Mi02Y2NhMjQ1MTE2MTYzMDMxMDVjOWJiZjY0N2ViYTQzMjotCAIQuAgY1QoiI3YyLWY5MjY2YmIxODVhOTM4ZjQwYjEwZDM3NjQ5MDQ3OTc3Oi0IABCDAhiEAiIjdjItN2ZkYWRkZjBkN2M3YjdiZGM0ZWFjYTg4N2EzODE4N2Y6LQgDEMUDGJYGIiN2Mi02M2QwOGZjNDc1ZjVjN2ZjZTI5YWJmMTc4NWRmNjI4ZjotCAMQuAgYiAQiI3YyLWY0MzMwY2Y5YjEwOTk2NmI3NjQ2YjY1YmE3MWM3YWMwOi0IAxC4CBiNBCIjdjItYjA3Njk2ODNjNTMxNGQxYWMxYWVmODI3NTM4MDEzZjQ6LQgDELgIGNQDIiN2Mi05YTI1MDA1ZmFiM2Y4YWViOGNhMzBhNmU3YjYzOGY0YjotCAAQtwgY0gMiI3YyLWI2YmM3MGI2ZjU0MTZhYTRmMWNmYjkwZTFkMDAzMGNiOi0IABC3CBjXAyIjdjItNzY4ZGU0YzlkNTIwY2I2OWJiMTcxMmVhZmViYzVmYmQ6LQgDELgIGMoFIiN2Mi05ZDFlZGZlODViZTAyNmVhODFjODdlZGEwNjY0YjQ1NzotCAIQuAgYmwQiI3YyLWMwNjBlZGZiOTM5YTZmOGNhMzU0M2I3NDBmY2NkMGFhOi0IAxC4CBirBiIjdjItMDkwMDBmZWQwM2E3NWMzY2ZmZTJkNGUzYjE5YTA4YmI6LQgDEJMIGJIGIiN2Mi1hZjFhNDBjZjFiNTVlZDBlMjM5MmMxNGY1MDE3YjUzNDotCAMQhAYY5gMiI3YyLTJlNTM5YmRiMDUwNjJkZjljYzc2ZDkyZWI3YWUwYTJhOi0IABC4CBjXBSIjdjItZDUzZDlhY2M3NDE1ZjM5OTAzZDViMmJhN2Q5ZWM4MTc6LQgCELgIGJYFIiN2Mi1jMTZlYzM3M2I3MjkzYzEyYWQ0MmMwMzBlODcwNjNlNjotCAMQuAgYnAQiI3YyLTFiZjY1NmMzM2ZlYTJhMTFlNDE4YzhkODVlMGE1ZDNjOi0IAhCABxiSBCIjdjItYzMzZTI0MjM1NGFjY2UxMzY5OTQyMmZmMmEzMzgzNzA6LQgBELgIGKsHIiN2Mi0yODM2ZGIxNzY5ODFhYjgwZTk0MjEzNzQwZGQ2ZGFlYjotCAMQuAgYwwMiI3YyLWFlYWFlODhlZGViOWFjNjAyOWIxNzZkYjBhNmY2ZWQ4Oi0IBRDmCBigBSIjdjItNTFmY2NkNjdjNWQ3NDgzMjE5ZmYyZmJhZjFjY2IyY2U6LQgDELgIGOMEIiN2Mi1jZmQyODkzYmQ4MjExMjQyNjkzYzNhMTVhMWUxZWIxMDotCAAQgAUYhwMiI3YyLTRlZWVhMTQxMzliNzkyNzg0YWJkNzMyNmVlMWE0ZjQ1Oi0IABC3CBjYAyIjdjItOTdlYjQ1OWU2MmQxNGExNzU0M2UwMjU1ZjFiMjZkOGY6LQgCELgIGIQEIiN2Mi1hNTg3YjM1MDdmOWZiNWZkOTA4ZWVhMjZjNTdjZDk1YzotCAIQuAgY4AQiI3YyLWEyNmY1MWI1NDQwOWJiM2Q3NTViNjEwOTE4OGI4MjA0Oi0IAhD5BRj9AiIjdjItODViNjBlNWM3YmZhYjI0OTBjZGY3ODgyODJlNjU3NGI6LQgCELgIGJ8EIiN2Mi0wZDdhZTEyMGFiZTMxNTJmOGQyODZlNThjYzUzYWJiOTotCAMQuAgYhQQiI3YyLTBiODM1OTEyMDRjNzI3MGMxYzkyYjc5OWI0ODA2NTg0Oi0IAxC4CBi0BSIjdjItOGE2YmY5MDhiMTU3NjJmNTVkN2YwZGYxMDBmNmQ5MzI6LQgDELgIGLcEIiN2Mi1lYzRiOWQ0ZWUwODUwYzk5OGU4ODZiMmM0OGU4YjEyZDotCAIQuAgY4AQiI3YyLWIxODIwNDVkMjRjY2M0ZDU2M2E1Y2UyOWM0ODA1ZDllOi0IBBC4CBifCiIjdjItZjZjZGY2Y2JlNTliZmRkNGZhNmU5ZmM4MzI2ZTA1ZTOABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGD3MJg/gQUAAAAAAAAAAIkFzjL9oxpU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFZZAGAKAG4wSoBgCSAiUKCTY5MjczMDU4ORIKNDMwNTg4ODgxMhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=605&desktop=true&end_offset=611&page_number=102&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=605&desktop=true&end_offset=611&page_number=102&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

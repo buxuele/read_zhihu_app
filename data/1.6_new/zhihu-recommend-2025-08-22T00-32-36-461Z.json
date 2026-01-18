@@ -1,0 +1,538 @@
+{
+  "data": [
+    {
+      "id": "510_1755822802.697",
+      "type": "feed",
+      "offset": 510,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822802,
+      "updated_time": 1755822802,
+      "target": {
+        "id": "107946709892",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/107946709892",
+        "author": {
+          "id": "8190a54e88fbecadaef51b2699497cbd",
+          "url": "https://api.zhihu.com/people/8190a54e88fbecadaef51b2699497cbd",
+          "user_type": "people",
+          "url_token": "frd4t4",
+          "name": "TheGnay",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-f915a5df5096c702f4d048346f8ae2da_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 255,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1740246311,
+        "updated_time": 1740246311,
+        "voteup_count": 3801,
+        "thanks_count": 118,
+        "comment_count": 335,
+        "is_copyable": true,
+        "question": {
+          "id": "9355858332",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/9355858332",
+          "author": {
+            "id": "132fcb8b60d6a4c2d6d71c1743307c5b",
+            "url": "https://api.zhihu.com/people/132fcb8b60d6a4c2d6d71c1743307c5b",
+            "user_type": "people",
+            "url_token": "xc-96-15",
+            "name": "门里一个木",
+            "headline": "门里一个木",
+            "avatar_url": "https://pica.zhimg.com/50/v2-dc5bea7e4fb018019fec715aa1516cb7_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 357,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "支付宝为什么无法成为世界性的支付工具？",
+          "created": 1736619045,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 26,
+          "bound_topic_ids": [
+            736
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "别人家一张卡走遍世界，你在日本存的日元，你去韩国新加坡欧洲美国直接买东西刷卡按实时汇率直接可以付款，你用支付宝怎么付款？我在香港任天堂买两款游戏总价不到八百块，立马就电话打进来问我境外订单是怎么回事，难道你买了东西对老板说等审批好了两天到账？甚至因为是境外消费，账号都给你封掉冻结让你立刻回反诈中心递交材料？",
+        "excerpt_new": "别人家一张卡走遍世界，你在日本存的日元，你去韩国新加坡欧洲美国直接买东西刷卡按实时汇率直接可以付款，你用支付宝怎么付款？我在香港任天堂买两款游戏总价不到八百块，立马就电话打进来问我境外订单是怎么回事，难道你买了东西对老板说等审批好了两天到账？甚至因为是境外消费，账号都给你封掉冻结让你立刻回反诈中心递交材料？",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"beSG4ji7\">别人家一张卡走遍世界，你在日本存的日元，你去韩国新加坡欧洲美国直接买东西刷卡按实时汇率直接可以付款，你用支付宝怎么付款？我在香港任天堂买两款游戏总价不到八百块，立马就电话打进来问我境外订单是怎么回事，难道你买了东西对老板说等审批好了两天到账？甚至因为是境外消费，账号都给你封掉冻结让你立刻回反诈中心递交材料？</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 280095,
+        "favorite_count": 378,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 107946709892}",
+      "attached_info": "CuwFCLXkztzvsrbnlAEQBBoJNzE0NzAzODU0IKea6L0GKNkdMM8CQP4DSiAKFVRTX1NPVVJDRV9USEVNRV9NRVJHRRIBMBgAIAA6AFoJMTEyODQ3NjczYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IMMTA3OTQ2NzA5ODkyigEKOTM1NTg1ODMzMqoBCXJlY29tbWVuZMIBIDgxOTBhNTRlODhmYmVjYWRhZWY1MWIyNjk5NDk3Y2Jk8gEKCAwSBk5vcm1hbPIBKAgKEiRlZWM1ZDU5MS1mMjc3LTQ3YjctODA4Mi04ZWRmYTYxMThlNWLyAQYICxICODaCAgCIAt2Nx/mMM5ICIDgxOTBhNTRlODhmYmVjYWRhZWY1MWIyNjk5NDk3Y2JkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCFVRTX1NPVVJDRV9USEVNRV9NRVJHRegCAvoCC05PUk1BTF9GTE9XigMgNDcyNDU3ZTk4NzA1NDgwZWFkZjA2NTE0ZDY3YmRiOTGaAw0KAnYyEAAaBW90aGVyqAOfjBHYAwDqAxtUaGVtZU1lcmdlTmV3VjFQb29sUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE2MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQANBwj+BBQAAAAAAAAAAiQU1jPBxf1TZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVWkAYAoAaCBKgGAZICJwoJNzE0NzAzODU0EgwxMDc5NDY3MDk4OTIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "511_1755822802.232",
+      "type": "feed",
+      "offset": 511,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822802,
+      "updated_time": 1755822802,
+      "target": {
+        "id": "1939332897355043167",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1939332897355043167",
+        "author": {
+          "id": "200efa4d778e04ca6080d967740ec0aa",
+          "url": "https://api.zhihu.com/people/200efa4d778e04ca6080d967740ec0aa",
+          "user_type": "people",
+          "url_token": "yu---74-80",
+          "name": "yu刘 厉 ",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 44,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "《秘术功法》珍藏稀缺古籍！道友自取",
+        "comment_permission": "all",
+        "created": 1755153033,
+        "updated": 1755153033,
+        "voteup_count": 80,
+        "voting": 0,
+        "comment_count": 6,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "「各种秘术功法古籍」 链接： pan.quark.cn/s/ab9ac7813b3f 「内功秘法」 链接： pan.quark.cn/s/112f77518ab1 「迷踪拳」 链接： pan.quark.cn/s/cab00c079de6 「卢氏结构拳」 链接： pan.quark.cn/s/9e0e17d39b0d 「截拳道」 链接： pan.quark.cn/s/c9bdb2ba516a 「军警密资」 链接： pan.quark.cn/s/80f966a10394 「散打」 链接： pan.quark.cn/s/180c59e4ee35 「擒拿术」 链接： pan.quark.cn/s/83ad9e845370 「劈挂拳」 链接： pan.…",
+        "excerpt_new": "「各种秘术功法古籍」 链接： pan.quark.cn/s/ab9ac7813b3f 「内功秘法」 链接： pan.quark.cn/s/112f77518ab1 「迷踪拳」 链接： pan.quark.cn/s/cab00c079de6 「卢氏结构拳」 链接： pan.quark.cn/s/9e0e17d39b0d 「截拳道」 链接： pan.quark.cn/s/c9bdb2ba516a 「军警密资」 链接： pan.quark.cn/s/80f966a10394 「散打」 链接： pan.quark.cn/s/180c59e4ee35 「擒拿术」 链接： pan.quark.cn/s/83ad9e845370 「劈挂拳」 链接： pan.…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p></p><p data-pid=\"07WtWVrE\">「各种秘术功法古籍」</p><p data-pid=\"sMG1EEF6\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/ab9ac7813b3f\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/ab9ac7813b3f</a></p><p data-pid=\"V5g-4eVp\">「内功秘法」</p><p data-pid=\"9fPT8iYD\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/112f77518ab1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/112f77518ab1</a></p><p data-pid=\"dTumfKv5\">「迷踪拳」</p><p data-pid=\"g0fRViHQ\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/cab00c079de6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/cab00c079de6</a></p><p data-pid=\"Nyv6eZej\">「卢氏结构拳」</p><p data-pid=\"1Q9F2L7d\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/9e0e17d39b0d\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/9e0e17d39b0d</a></p><p data-pid=\"yVkutEji\">「截拳道」</p><p data-pid=\"4WtAuJR1\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/c9bdb2ba516a\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/c9bdb2ba516a</a></p><p data-pid=\"8Q7BPwLs\">「军警密资」</p><p data-pid=\"yGtQCAmO\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/80f966a10394\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/80f966a10394</a></p><p data-pid=\"AhiHDWVG\">「散打」</p><p data-pid=\"GnoC4gJ6\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/180c59e4ee35\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/180c59e4ee35</a></p><p data-pid=\"X7fn7NnA\">「擒拿术」</p><p data-pid=\"lZZZFPWd\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/83ad9e845370\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/83ad9e845370</a></p><p data-pid=\"FnyaW-PQ\">「劈挂拳」</p><p data-pid=\"e943B1ML\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/943818804e66\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/943818804e66</a></p><p data-pid=\"WPD8MOob\">「轨迹拳」</p><p data-pid=\"MMtTyxKc\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/534b5f11e9a9\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/534b5f11e9a9</a></p><p data-pid=\"6_gwPx0X\">「防身术」</p><p data-pid=\"liaNv0M5\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/7636a01deeeb\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/7636a01deeeb</a></p><p data-pid=\"oItqy9sY\">「点穴术」</p><p data-pid=\"xLF1G5xs\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/2884cf9da03e\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/2884cf9da03e</a></p><p data-pid=\"VcWZLNEb\">「大成拳」</p><p data-pid=\"xm-VUIRD\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/54082560f331\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/54082560f331</a></p><p data-pid=\"ijajj1Nb\">「百派绝学」</p><p data-pid=\"78Ow2rzs\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/03609006639e\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/03609006639e</a></p><p data-pid=\"nFSESRXZ\">「八极拳」</p><p data-pid=\"m4lsPsHE\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/9c5812014e16\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/9c5812014e16</a></p><p data-pid=\"3o8d6_GF\">「八卦掌」</p><p data-pid=\"P7WyImtS\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/5c085c0919c3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/5c085c0919c3</a></p><p data-pid=\"glFsIvHy\">「七、风水堪舆」</p><p data-pid=\"KXsz8Jbo\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/9bb1aab4cd02\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/9bb1aab4cd02</a></p><p data-pid=\"fXoHgXA5\">「暗器刀剑」</p><p data-pid=\"4ElK0H33\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/b4227b95eb87\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/b4227b95eb87</a></p><p data-pid=\"oN8Dqu-L\">「六、百家经典」</p><p data-pid=\"EDcP7rKY\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/295e97690a54\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/295e97690a54</a></p><p data-pid=\"RX1QsqxQ\">「五、易经与术数」</p><p data-pid=\"fO3GeWbc\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/0cc321739c28\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/0cc321739c28</a></p><p data-pid=\"VV2VDfL6\">「四、医养秘术」</p><p data-pid=\"Rp9OKCCT\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/8659358b0fa1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/8659358b0fa1</a></p><p data-pid=\"EtJtONNH\">「三、丹道修炼」</p><p data-pid=\"3slUWaKH\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/9f6269a8e40d\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/9f6269a8e40d</a></p><p data-pid=\"gap_KceN\">「二、道学经典」</p><p data-pid=\"m5rJ3veb\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/33a8bebafc9b\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/33a8bebafc9b</a></p><p data-pid=\"Vyd0LDuT\">「一、武藏渊薮」</p><p data-pid=\"rWHAKh0h\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/1f6e269df5df\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/1f6e269df5df</a></p><p data-pid=\"YO0pCLNf\">「咏春拳」</p><p data-pid=\"aSwrUJwn\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/6cf39581f22c\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/6cf39581f22c</a></p><p data-pid=\"wSC98wlU\">「心意拳」</p><p data-pid=\"J6zKhFgF\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/74f02ef398af\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/74f02ef398af</a></p><p data-pid=\"t1S9quwn\">「形意拳」</p><p data-pid=\"nHSjw3Z2\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/b140f7639169\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/b140f7639169</a></p><p data-pid=\"Ia9gzKDR\">「谭腿」</p><p data-pid=\"sONePbcL\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/ae5aff4c5678\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/ae5aff4c5678</a></p><p data-pid=\"RQl5MmU_\">「泰拳」</p><p data-pid=\"AVd50Yjj\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/9ff8cd7e765b\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/9ff8cd7e765b</a></p><p data-pid=\"jI2ac_FS\">「太极拳」</p><p data-pid=\"WLQ5K1uW\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/e33fe1e52918\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/e33fe1e52918</a></p><p data-pid=\"cXOJzwDv\">「通背拳」</p><p data-pid=\"25Uaue7y\">链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/a96d4dbbde63\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pan.quark.cn/s/a96d4dbbde63</a></p><p></p>",
+        "is_labeled": false,
+        "visited_count": 3337,
+        "favorite_count": 507,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1939332897355043167}",
+      "attached_info": "CoYFCLXkztzvsrbnlAEQBxoJMjYxNjk5NTI0IImF9sQGKFAwBkD/A0ogChVUU19TT1VSQ0VfVEhFTUVfTUVSR0USATAYACAAOgBiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTM5MzMyODk3MzU1MDQzMTY3qgEJcmVjb21tZW5kwgEgMjAwZWZhNGQ3NzhlMDRjYTYwODBkOTY3NzQwZWMwYWHyAQoIDBIGTm9ybWFs8gEoCAoSJDZmZjc1ZGY4LTI5NjUtNGMzNy1hNTVhLTcyOGM0NDdlMDVhMvIBBggLEgI4NoICAIgC3Y3H+YwzkgIgMjAwZWZhNGQ3NzhlMDRjYTYwODBkOTY3NzQwZWMwYWGaAgDKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gIVVFNfU09VUkNFX1RIRU1FX01FUkdF6AIC+gILTk9STUFMX0ZMT1eKAyA0NzI0NTdlOTg3MDU0ODBlYWRmMDY1MTRkNjdiZGI5MZoDDQoCdjIQABoFb3RoZXKoA4ka2AMA6gMbVGhlbWVNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYORilj+BBQAAAAAAAAAAiQU1jPBxf1TZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVWkAYAoAaDBKgGA5ICLgoJMjYxNjk5NTI0EhMxOTM5MzMyODk3MzU1MDQzMTY3GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "512_1755822802.524",
+      "type": "feed",
+      "offset": 512,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822802,
+      "updated_time": 1755822802,
+      "target": {
+        "id": "1941870382828205984",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941870382828205984",
+        "author": {
+          "id": "61437220ab7cf29384aba1447930ac8a",
+          "url": "https://api.zhihu.com/people/61437220ab7cf29384aba1447930ac8a",
+          "user_type": "people",
+          "url_token": "lu-luce",
+          "name": "lu luce",
+          "headline": "不关心国事的程序猿（不会QT）。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-62b9729892e47d5ce441059ccd4fe42b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 93572,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755757977,
+        "updated_time": 1755757977,
+        "voteup_count": 44,
+        "thanks_count": 3,
+        "comment_count": 24,
+        "is_copyable": true,
+        "question": {
+          "id": "471989716",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/471989716",
+          "author": {
+            "id": "58132bfb33c706f2ef109a2fb8a8a626",
+            "url": "https://api.zhihu.com/people/58132bfb33c706f2ef109a2fb8a8a626",
+            "user_type": "people",
+            "url_token": "chen-fu-de-zuo-tian-yu-jin-tian-84",
+            "name": "Janna",
+            "headline": "。。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-baad7f4894daffdccf667a4270fecb64_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么硬件工程师招聘如此之难？",
+          "created": 1626163526,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 17,
+          "bound_topic_ids": [
+            9500,
+            41175,
+            45549
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "我司前段时间招了一个硬件工程师。。能力还是不错的。而且老板也是工作经验非常丰富。 这么说吧。我司的这个硬件工程师简直就是梦幻开局。老板这个工作经验非常丰富的大佬手把手带。公司其他人全力配合。 但是，一块板打了三次样。。每次打板回来，给我测试，都是一大堆问题。就一个简单的485/422/232切换电路就改了两版。因为： 硬件这玩意。你不把板子实际做出来跑出来，永远不知道会遇到啥问题。",
+        "excerpt_new": "我司前段时间招了一个硬件工程师。。能力还是不错的。而且老板也是工作经验非常丰富。 这么说吧。我司的这个硬件工程师简直就是梦幻开局。老板这个工作经验非常丰富的大佬手把手带。公司其他人全力配合。 但是，一块板打了三次样。。每次打板回来，给我测试，都是一大堆问题。就一个简单的485/422/232切换电路就改了两版。因为： 硬件这玩意。你不把板子实际做出来跑出来，永远不知道会遇到啥问题。",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"jIbfitYl\">我司前段时间招了一个硬件工程师。。能力还是不错的。而且老板也是工作经验非常丰富。</p><p data-pid=\"O2v5FX9D\">这么说吧。我司的这个硬件工程师简直就是梦幻开局。老板这个工作经验非常丰富的大佬手把手带。公司其他人全力配合。</p><p data-pid=\"mhGYGYz0\">但是，一块板打了三次样。。每次打板回来，给我测试，都是一大堆问题。就一个简单的485/422/232切换电路就改了两版。因为：</p><blockquote data-pid=\"Wp4QQE42\">硬件这玩意。你不把板子实际做出来跑出来，永远不知道会遇到啥问题。</blockquote>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 8713,
+        "favorite_count": 14,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941870382828205984}",
+      "attached_info": "CvcFCLXkztzvsrbnlAEQBBoJNzQzMjY0MTEzIJn7msUGKCwwGECABEooChNUU19TT1VSQ0VfRkVFRFJFX1Y1EgEwGAAgADoKeyJyYXciOiIifUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YyEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoINjcxNjYyMzBiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxODcwMzgyODI4MjA1OTg0igEJNDcxOTg5NzE2qgEJcmVjb21tZW5kwgEgNjE0MzcyMjBhYjdjZjI5Mzg0YWJhMTQ0NzkzMGFjOGHyAQoIDBIGTm9ybWFs8gEoCAoSJGFkMTRkZThmLTJlNDQtNGM5ZC05OWM3LWYyOTQxYTBhN2U1ZPIBBggLEgI4NoICAIgC3Y3H+YwzkgIgNjE0MzcyMjBhYjdjZjI5Mzg0YWJhMTQ0NzkzMGFjOGGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gITVFNfU09VUkNFX0ZFRURSRV9WNegCAvoCC05PUk1BTF9GTE9XigMgNDcyNDU3ZTk4NzA1NDgwZWFkZjA2NTE0ZDY3YmRiOTGaAw0KAnYyEAAaBW90aGVyqAOJRNgDAOoDGWZlZWRyZVdhcm1TdWNjZXNzUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAARGG2P4EFAAAAAAAAAACJBTWM8HF/VNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVaQBgCgBoQEqAYAkgIuCgk3NDMyNjQxMTMSEzE5NDE4NzAzODI4MjgyMDU5ODQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "513_1755822802.185",
+      "type": "feed",
+      "offset": 513,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822802,
+      "updated_time": 1755822802,
+      "target": {
+        "id": "1941099665274668045",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941099665274668045",
+        "author": {
+          "id": "2aaab6d54265c45cf9b5ebb892563007",
+          "url": "https://api.zhihu.com/people/2aaab6d54265c45cf9b5ebb892563007",
+          "user_type": "people",
+          "url_token": "theodore-tao",
+          "name": "Theodore Tao",
+          "headline": "奇迹是存在的，让我们在新世界重逢吧。——2016.11.9",
+          "avatar_url": "https://picx.zhimg.com/50/v2-1cf7cfb3d138ce5a8cf923ef498b27e6_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 4643,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755574224,
+        "updated_time": 1755574224,
+        "voteup_count": 85,
+        "thanks_count": 1,
+        "comment_count": 7,
+        "is_copyable": true,
+        "question": {
+          "id": "55738516",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/55738516",
+          "author": {
+            "id": "1b5f26268d27e17ea6da414a05b72ac1",
+            "url": "https://api.zhihu.com/people/1b5f26268d27e17ea6da414a05b72ac1",
+            "user_type": "people",
+            "url_token": "ling-de-de-63",
+            "name": "零的的",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/deca8497a419ae924fd14dfdee08e2f5_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 6,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "很多外国的书扉页上都会写「谨以此书献给xxx」你有没有读过比较文艺或令人难忘的？",
+          "created": 1486911583,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            1164,
+            11734
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-34bbf641629ba4e551c128a5162301ab_720w.jpg?source=b6762063",
+        "excerpt": "澄空汉化组2010年制作的Fate Stay Night的最终汉化版，序章是字幕组留给爱好者的祝福： ——献给一切有爱或曾经有爱之人。   说实话我并不知道他们的原意，所谓的爱的客体是特指这部作品，还是泛指这世上的一切。 但他们无疑留下了强烈的暗示：爱是很珍贵的，爱是很容易消散的；而我们应当接受这个事实，并且为曾经爱上某物或某人的时光而宽慰。 我读过很多书见过很多人听信过很多种玄而又玄的理论，最终发现对任何人的仇恨都不能…",
+        "excerpt_new": "澄空汉化组2010年制作的Fate Stay Night的最终汉化版，序章是字幕组留给爱好者的祝福： ——献给一切有爱或曾经有爱之人。   说实话我并不知道他们的原意，所谓的爱的客体是特指这部作品，还是泛指这世上的一切。 但他们无疑留下了强烈的暗示：爱是很珍贵的，爱是很容易消散的；而我们应当接受这个事实，并且为曾经爱上某物或某人的时光而宽慰。 我读过很多书见过很多人听信过很多种玄而又玄的理论，最终发现对任何人的仇恨都不能…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"CT_EXLQb\">澄空汉化组2010年制作的Fate Stay Night的最终汉化版，序章是字幕组留给爱好者的祝福：</p><p data-pid=\"ZVqLtGfD\"><b>——献给一切有爱或曾经有爱之人。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3432bdf04a9c9fdafb5693f7bdd34d5d_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1088\" data-rawheight=\"619\" data-original-token=\"v2-2f13b8b774352dcd1bc72b38a92b1908\" data-default-watermark-src=\"https://picx.zhimg.com/v2-a9e9bb9effd67c829caefc6fcaf360dd_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1088\" data-original=\"https://picx.zhimg.com/v2-3432bdf04a9c9fdafb5693f7bdd34d5d_r.jpg\"/><figcaption>手边没有游戏，用视频画面替代下。</figcaption></figure><p data-pid=\"DL_1uwHA\">说实话我并不知道他们的原意，所谓的爱的客体是特指这部作品，还是泛指这世上的一切。</p><p data-pid=\"ClmjIr5S\">但他们无疑留下了强烈的暗示：爱是很珍贵的，爱是很容易消散的；而我们应当接受这个事实，并且为曾经爱上某物或某人的时光而宽慰。</p><p data-pid=\"n3aPh0u9\">我读过很多书见过很多人听信过很多种玄而又玄的理论，最终发现对任何人的仇恨都不能填补内心的空白，也不能驱使我去做任何事。</p><p data-pid=\"JiYzX_Je\">尽管对美好的人与事的爱，似乎也没有让我完成过伟大的善行，但我至少抓住了一点点生命的动力。</p><p data-pid=\"YUSNLy_p\">--------------------------------------</p><p data-pid=\"KohhBxCi\">说实话fate三线里Saber的人物形象是最单薄最没有深度最不值得认真挖掘的。</p><p data-pid=\"d6dHam_v\"><b>樱线才有了一点点复杂和立体的感觉，而远坂凛完全属于搞笑担当，连Hscene补魔都极其的搞笑。</b></p><p data-pid=\"Zy_XzRve\">但我果然还是更喜欢Saber，和我那一代遇到的许许多多男男女女的同好一样。</p><p data-pid=\"PsxGstnX\">可见不管怎么吹嘘，当剑鞘还是比利剑容易很多。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-eff0b7ef91015aebc275620fffe2cca7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"482\" data-original-token=\"v2-78d59866a81801122327cd5def3ab4f1\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-ecd30c460b82ce85b81abbea476b74fe_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-eff0b7ef91015aebc275620fffe2cca7_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-196369c65f2e886dd118c6e60bb37ffb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"810\" data-original-token=\"v2-34bbf641629ba4e551c128a5162301ab\" data-default-watermark-src=\"https://picx.zhimg.com/v2-20df57e092c2ac815cd93e81197ce0d5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-196369c65f2e886dd118c6e60bb37ffb_r.jpg\"/></figure><p data-pid=\"ydzIa65j\">大概是现实中缺少什么，就会在文艺作品中寻找那些生命的残缺。正如一起看过Fate和UBW动画版的人这样告诉我：</p><blockquote data-pid=\"EQMKsHUA\">“你是多么软弱的人啊。而我和你一样软弱。”</blockquote>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 3065,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-34bbf641629ba4e551c128a5162301ab_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 32,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941099665274668045}",
+      "attached_info": "CoYGCLXkztzvsrbnlAEQBBoJNzQyOTAzODI2INDfj8UGKFUwB0CBBEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMTQ1MTU2NTJiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxMDk5NjY1Mjc0NjY4MDQ1igEINTU3Mzg1MTaqAQlyZWNvbW1lbmTCASAyYWFhYjZkNTQyNjVjNDVjZjliNWViYjg5MjU2MzAwN/IBCggMEgZOb3JtYWzyASgIChIkYzJmYzQwNmQtZjE3Ny00MWE3LTlmMzQtNjEwMjNiNDExNGQ18gEGCAsSAjg2ggIAiALdjcf5jDOSAiAyYWFhYjZkNTQyNjVjNDVjZjliNWViYjg5MjU2MzAwN5oCAMoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyA0NzI0NTdlOTg3MDU0ODBlYWRmMDY1MTRkNjdiZGI5MZoDDQoCdjIQABoFb3RoZXKoA/kX2AMA+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgBEMAIGOsEIiN2Mi0yZjEzYjhiNzc0MzUyZGNkMWJjNzJiMzhhOTJiMTkwODotCAQQ2AQY4gMiI3YyLTc4ZDU5ODY2YTgxODAxMTIyMzI3Y2Q1ZGVmM2FiNGYxOi0IBBC4CBiqBiIjdjItMzRiYmY2NDE2MjliYTRlNTUxYzEyOGE1MTYyMzAxYWKABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTU5yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgQXWtP4EFAAAAAAAAAACJBTWM8HF/VNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVaQBgCgBoUEqAYAkgIuCgk3NDI5MDM4MjYSEzE5NDEwOTk2NjUyNzQ2NjgwNDUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "514_1755822802.989",
+      "type": "feed",
+      "offset": 514,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822802,
+      "updated_time": 1755822802,
+      "target": {
+        "id": "1941960266976858842",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941960266976858842",
+        "author": {
+          "id": "58b88a72ff25a23c5f252328a2fa816e",
+          "url": "https://api.zhihu.com/people/58b88a72ff25a23c5f252328a2fa816e",
+          "user_type": "people",
+          "url_token": "xue-luo-wu-sheng-39-63",
+          "name": "战团",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f28cec0686b31228323237cbc7b5057c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 15,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755779407,
+        "updated_time": 1755779407,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1934174320130786743",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1934174320130786743",
+          "author": {
+            "id": "3d826582dfaee4c2b354624b2e6bec07",
+            "url": "https://api.zhihu.com/people/3d826582dfaee4c2b354624b2e6bec07",
+            "user_type": "people",
+            "url_token": "shi-er-yue-7-24",
+            "name": "十二月",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-74dc9d2671f1642abeb900913af89e94_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "双非工科博士有必要读吗？",
+          "created": 1753923093,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            6391,
+            18849,
+            19768,
+            1351237,
+            3310089
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "其实选哪条路，关键还是看你心里最在意什么。 比如读博这事儿，双非工科博士肯定有它的价值，但也得想清楚。它能帮你把学历门槛再提高一块，以后想进个普通本科院校当老师，或者去企业里做核心的研发，没这个学历可能连门都摸不到。而且这几年里，你能在专业上钻得特别深，要是研究的方向刚好是行业里缺人的细分领域，说不定反而能形成自己的优势。但缺点也挺实在，双非的牌子确实没那么硬，以后想进一线城市最顶尖的公司或者好…",
+        "excerpt_new": "其实选哪条路，关键还是看你心里最在意什么。 比如读博这事儿，双非工科博士肯定有它的价值，但也得想清楚。它能帮你把学历门槛再提高一块，以后想进个普通本科院校当老师，或者去企业里做核心的研发，没这个学历可能连门都摸不到。而且这几年里，你能在专业上钻得特别深，要是研究的方向刚好是行业里缺人的细分领域，说不定反而能形成自己的优势。但缺点也挺实在，双非的牌子确实没那么硬，以后想进一线城市最顶尖的公司或者好…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"rUo08Z18\">其实选哪条路，关键还是看你心里最在意什么。  比如读博这事儿，双非工科博士肯定有它的价值，但也得想清楚。它能帮你把学历门槛再提高一块，以后想进个普通本科院校当老师，或者去企业里做核心的研发，没这个学历可能连门都摸不到。而且这几年里，你能在专业上钻得特别深，要是研究的方向刚好是行业里缺人的细分领域，说不定反而能形成自己的优势。但缺点也挺实在，双非的牌子确实没那么硬，以后想进一线城市最顶尖的公司或者好大学，可能还是会吃亏。而且读博少说三四年，这期间收入不高，万一延期了更麻烦，等你毕业，那些早工作的同学可能已经攒了不少钱，甚至职位都升了，这时间成本得算清楚。  再看上海的教师编，稳定是真的稳定，体制内的工作，失业风险几乎没有，福利也全，公积金、寒暑假这些都挺香的。上海的资源也没得说，不管是以后自己想多看看世面，还是给孩子铺路，平台肯定比小地方大。但压力也是真的，房价物价摆在那儿，刚入职的工资看着还行，真要在上海扎根，买房可能得熬很久，生活节奏也快，要是对教书没那么大热情，可能时间长了会觉得有点闷。  家乡的工作呢，年薪18万，在本地应该算不错了吧？生活成本低，不用背那么大的房贷压力，可能工作几年就能轻松买房买车，离家里人也近，平时照顾父母、走亲访友都方便，日子过得会比较舒服。但话说回来，小地方的机会可能没那么多，尤其是工科，前沿的项目、高端的岗位可能很少，时间长了，职业上想再往上冲一步，可能会觉得有点受限，视野也容易窄下来。  所以说到底，还是得问自己：更想拼一把长期的可能性，哪怕多花几年时间？还是更看重眼下的稳定和大城市的资源，愿意扛住生活压力？又或者，就想安安稳稳过日子，把生活质量和家庭放在第一位？想清楚这些，答案其实就藏在里面了。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 28,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941960266976858842}",
+      "attached_info": "CusFCLXkztzvsrbnlAEQBBoJNzQzMzE5MzkyIM+inMUGKAAwAECCBEokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwyEgEwGAAgADoASigKHVRTX1NPVVJDRV9XQVJNVVBfUFJFVFJBSU5fSTJJEgEwGAAgADoAWgkxMTYwMTcwNTdiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxOTYwMjY2OTc2ODU4ODQyigETMTkzNDE3NDMyMDEzMDc4Njc0M6oBCXJlY29tbWVuZMIBIDU4Yjg4YTcyZmYyNWEyM2M1ZjI1MjMyOGEyZmE4MTZl8gEKCAwSBk5vcm1hbPIBKAgKEiRkMmEwN2IzMC0zNThkLTQ4NzUtODhmNi0yNGE1YzU0MmEwMDbyAQYICxICODaCAgCIAt2Nx/mMM5ICIDU4Yjg4YTcyZmYyNWEyM2M1ZjI1MjMyOGEyZmE4MTZlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgP6AgtOT1JNQUxfRkxPV4oDIDQ3MjQ1N2U5ODcwNTQ4MGVhZGYwNjUxNGQ2N2JkYjkxmgMNCgJ2MhAAGgVvdGhlcqgDHNgDAOoDE3ByZXRyYWluX2kyaV9yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAg6yOCP4EFAAAAAAAAAACJBTWM8HF/VNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVaQBgCgBoYEqAYBkgIuCgk3NDMzMTkzOTISEzE5NDE5NjAyNjY5NzY4NTg4NDIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "515_1755822802.507",
+      "type": "feed",
+      "offset": 515,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822802,
+      "updated_time": 1755822802,
+      "target": {
+        "id": "1941873361455145192",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941873361455145192",
+        "author": {
+          "id": "e9af5a431c5a1be19e0e76e8c51e0f5b",
+          "url": "https://api.zhihu.com/people/e9af5a431c5a1be19e0e76e8c51e0f5b",
+          "user_type": "people",
+          "url_token": "allen-63-88",
+          "name": "也说",
+          "headline": "一二三聊职场，四五六谈感情。",
+          "avatar_url": "https://pica.zhimg.com/50/v2-f6fc5bd1779c092ddbd08cec8a1d270e_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "情感话题下的优秀答主",
+              "topic_names": [
+                "情感"
+              ],
+              "topic_ids": [
+                740
+              ]
+            }
+          ],
+          "followers_count": 305768,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755758687,
+        "updated_time": 1755758707,
+        "voteup_count": 75,
+        "thanks_count": 6,
+        "comment_count": 9,
+        "is_copyable": false,
+        "question": {
+          "id": "642040552",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/642040552",
+          "author": {
+            "id": "d4b8bbed1353420c7429a9fd08f97f2e",
+            "url": "https://api.zhihu.com/people/d4b8bbed1353420c7429a9fd08f97f2e",
+            "user_type": "people",
+            "url_token": "xjbwzyb66",
+            "name": "啦啦怪",
+            "headline": "阿巴阿巴阿巴巴，勇做世界大玩家",
+            "avatar_url": "https://picx.zhimg.com/50/v2-3efc33cef918417dfc542aebcddbf4b3_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 107,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "你见过什么神乎其神的操作？",
+          "created": 1706621051,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            285,
+            307,
+            994,
+            5582,
+            2109549
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-1133bbc07080703f34f0da58dc6f7fae_720w.jpg?source=b6762063",
+        "excerpt": "当年买房的时候，各种登记要等很久，就和中介聊天。 我说你们中介费太贵了，带着跑一趟流程，就赚了10几万。 他说您光看见我们赚钱了，没看见我们挨打呢。 然后说公司前几天刚打了一个官司，帮房主垫付了几千万，我就让他给我讲讲内幕。 然后他说了一种“空手套白狼”的赚大钱方法。该行为有多种涉嫌违法的问题，大家当故事听，不要学。 时间是2013年，房地产最火的时候。   我后来去查了下，的确新闻报道了一则很像的新闻。 但因为…",
+        "excerpt_new": "当年买房的时候，各种登记要等很久，就和中介聊天。 我说你们中介费太贵了，带着跑一趟流程，就赚了10几万。 他说您光看见我们赚钱了，没看见我们挨打呢。 然后说公司前几天刚打了一个官司，帮房主垫付了几千万，我就让他给我讲讲内幕。 然后他说了一种“空手套白狼”的赚大钱方法。该行为有多种涉嫌违法的问题，大家当故事听，不要学。 时间是2013年，房地产最火的时候。   我后来去查了下，的确新闻报道了一则很像的新闻。 但因为…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "need_payment",
+        "content": "<p data-pid=\"tFEgzRu5\">当年买房的时候，各种登记要等很久，就和中介聊天。</p><p data-pid=\"kePU7rQ0\">我说你们中介费太贵了，带着跑一趟流程，就赚了10几万。</p><p data-pid=\"SaUN7loN\">他说您光看见我们赚钱了，没看见我们挨打呢。</p><p data-pid=\"BeN94Niy\">然后说公司前几天刚打了一个官司，帮房主垫付了几千万，我就让他给我讲讲内幕。</p><p data-pid=\"MRL49QTU\"><b>然后他说了一种“空手套白狼”的赚大钱方法。</b></p><blockquote data-pid=\"QwX4hjJd\"><b>该行为有多种涉嫌违法的问题，大家当故事听，不要学。</b><br/>时间是2013年，房地产最火的时候。</blockquote><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-71c851c98077f23355f512a881c9c94e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"757\" data-rawheight=\"919\" data-original-token=\"v2-1133bbc07080703f34f0da58dc6f7fae\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-0134014806df51137aaafde3a1586d30_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"757\" data-original=\"https://pic1.zhimg.com/v2-71c851c98077f23355f512a881c9c94e_r.jpg\"/></figure><blockquote data-pid=\"SWwU4PF3\">我后来去查了下，的确新闻报道了一则很像的新闻。<br/>但因为是闲聊天，无法保证对方讲述的细节真实性，故隐去新闻公司和相关人名字。<br/>就当下面是个和新闻无关的故事吧。</blockquote><h3>这帮人怎么操作的呢？</h3><p data-pid=\"i8su_YJK\">这种操作首先需要一个牵头的人，我们称其为A吧。</p><p data-pid=\"Ixdyaskk\"><b>第一步：</b></p><p data-pid=\"RjwXsswA\">A先在北京找了好几个无业，且有买房资格的个人，用几百元一次的价格说服他们租给自己“身份证”作为买房过户的资格。我们称其这几个“替身份”为An吧</p><p data-pid=\"KmlzgTMf\">因为不用自己出一分钱，还能直接到手几百元，当时胆子大的闲散人员根本不在乎风险，居民也意识不到个人信息的重要性。有钱人借用北京人身份买车、买房非常普遍。</p><p data-pid=\"JOrMZZy8\">所以当时哪怕三五十元一套身份证、银行号码的信息卖给诈骗团伙，都有人干。</p><p data-pid=\"N4fmiJoR\"><b>第二步：</b></p><p data-pid=\"R0OzUQAM\">接着，A找到一家中介要求看房，并且在多家门店，分别看多套位置都不错，有上涨空间的房子。</p><p data-pid=\"F1Omj3iJ\">比如一次看12套房子。</p><p data-pid=\"zJY5UBZt\">然后用前面几个人的身份分别签订买房意向协议，中间用各种借口<b>少支付或者不设定首款。</b></p><p data-pid=\"eh7L3p_M\">当时的房地产太火了，业务员为了能成交，很多时候对个人买房首款要求不是那么严格。因为毕竟房产不是普通商品，没有缴纳全款之前不会过户。</p><p data-pid=\"gQ3BPYIC\">各家房地产门店虽然有联网，但A用的是An们的身份，不会被查到她名下挂了这么多签约中的房。</p><p data-pid=\"XiKNxVi2\">她自己则自称代理人或者An的亲戚，帮忙看房的。（这种事在当时也很常见，很多外地投资客都是让本地亲戚帮忙看房、谈房，最后成交时候自己汇钱）</p><p data-pid=\"c1CKZp0R\"><b>第三步：</b></p><p data-pid=\"ThqNFOim\">然后A签约中，说自己要出差/筹措资金之类的理由，<b>把成交周期拖到最长</b>（比如3个月）。</p><p data-pid=\"weMyYmyh\">因为普通购房也需要申请贷款、鉴定、网签什么的，一般也有一个月，所以适当延长一些不算太过分。</p><p data-pid=\"_AAxf61m\">如果房主不愿意，A会很大方的在房款上让步一两万，说就是这两个月的房租了。</p><p data-pid=\"BtuO58Ca\"><b>第四步：</b></p><p data-pid=\"oBA0t4z-\">之后，又借口比如知道房主怕签约周期太长最后自己不要了，<b>约定了一个比较高的违约金</b>（比如房款的30%），但注意，这个违约金是双向约束的。</p><p data-pid=\"pC8FtpOC\">大部分房主只是没有法律经验的普通居民而已，不会想到太多极端情况，甚至合同细节都不去认真看就签约了。中介则只要盯着总款和提成，也不会看一些成交周期、违约金的小细节。</p><p data-pid=\"rWaTPeTo\">然后，骚操作就来了。</p><p data-pid=\"Zg-NWEEJ\"><b>第五步：</b></p><p data-pid=\"o2I4ViHe\">接着，A会说自己有急事要出国或者好像忘了这件事，<b>失踪了</b>。不接电话，不谈成交过户，。</p><p data-pid=\"o7VC99zH\">这边房主和中介着急也没办法，因为合同约定的成交周期还没到呢，不可能违约的风险把房子卖给其他人。</p><p data-pid=\"O1nb_YHT\">于是只能等。</p><blockquote data-pid=\"6gICkC19\">其实真到了成交期这帮人也有方法各种拖延，比如要求起诉买卖纠纷等，让房子短期内没法过户。<br/>大部分普通房主都是老百姓，那么拖了几个月也只求房子能过户就行，不愿意打官司。</blockquote><p data-pid=\"fDUs32NA\">但注意，2013~2018年的北京房地产价格可是每天飞涨，一些好地段有时候一个月就能涨3%、5%的价格。</p><p data-pid=\"k5ZYxyQg\">而A买的这些房子，又都是做了一些选择的，在不错的地段，涨的比较快。</p><p data-pid=\"IurzYBST\">拖到几个月后，房子的总价，可能已经涨了10%甚至更多了。</p><p data-pid=\"hN8Ameqw\"><b>第六步：</b></p><p data-pid=\"WH0sVigZ\">这个时候，A大可以将其中部分房子，再找人谈好卖掉的意向，然后把涨的最好的，留在手里。</p><p data-pid=\"ro7O4gMe\">这样，她等于全程只需要支付一个很少的首款，就能“空手套白狼”的赚房子上涨差价。</p><p data-pid=\"3g6c6fRF\">假如每套房去掉了“中介和税”能赚5%的上涨价格，那么12套就是房子总款60%的价格，非常可观了。</p><blockquote data-pid=\"DDNaSyEg\">中介能谈到1~2%，税持有不满2年好像是5.3%。</blockquote><p data-pid=\"P7xeZCfY\">在京城房价按天涨的那几年，有人用这套方法，一年就赚出几套房来。</p><p data-pid=\"SIXSUPN1\">而且这种玩法是“滚雪球”，就是只要不出问题，你手头的能运动的资金会越来越多。</p><p data-pid=\"7rLXE4-j\">相当于只用一个首付款的“投资杠杆”，就撬动整个房产价值的上涨收益。</p><h3>但问题是：</h3><p data-pid=\"R1b4HlEp\">如果A中间出现了问题，比如房子没有如期上涨或者找的代理人An出现了纠纷，没能如期把房子转卖出去，就可能投资链条崩裂，出现违约无法成交的情况。</p><p data-pid=\"tRuYX7EP\">于是就会出现大批量的违约，房主找不到买家只能找中介。</p><p data-pid=\"Dp7urAw2\">于是中介迫于担保的品牌压力，只能垫资先付给房主，再慢慢去找A打官司。</p><p data-pid=\"8c5i0i2w\"><b>总之，</b></p><p data-pid=\"7qM9EdJo\">这在当时好像还掀起了讨论，到底算诈骗还是正常商业买卖。</p><p data-pid=\"VHoy-ZRf\">后来也没再关注，不知道最终结果如何了。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 8746,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-1133bbc07080703f34f0da58dc6f7fae_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 56,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941873361455145192}",
+      "attached_info": "CsoGCLXkztzvsrbnlAEQBBoJNzQzMjY2MDE1IN+Am8UGKEswCUCDBEorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YyEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTA0OTUzNDIxYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTg3MzM2MTQ1NTE0NTE5MooBCTY0MjA0MDU1MqoBCXJlY29tbWVuZMIBIGU5YWY1YTQzMWM1YTFiZTE5ZTBlNzZlOGM1MWUwZjVi8gEKCAwSBk5vcm1hbPIBKAgKEiQwODFkOTgwMC1iMjU1LTRmNDItODFlNy04M2QyMzMyYjgwOGTyAQYICxICODaCAgCIAt2Nx/mMM5ICIGU5YWY1YTQzMWM1YTFiZTE5ZTBlNzZlOGM1MWUwZjVimgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhtIaWdoTGV2ZWxDcmVhdG9yV2VpZ2h0UnVsZTTaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yy6AID+gILTk9STUFMX0ZMT1eKAyA0NzI0NTdlOTg3MDU0ODBlYWRmMDY1MTRkNjdiZGI5MZoDDQoCdjIQABoFb3RoZXKoA6pE2AMA6gMOZmVlZHJlX21zX2dhdGX6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhD1BRiXByIjdjItMTEzM2JiYzA3MDgwNzAzZjM0ZjBkYTU4ZGM2ZjdmYWWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKDJTr4/gQUAAAAAAAAAAIkFNYzwcX9U2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFVpAGAKAGhwSoBgCSAi4KCTc0MzI2NjAxNRITMTk0MTg3MzM2MTQ1NTE0NTE5MhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=515&desktop=true&end_offset=519&page_number=87&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=515&desktop=true&end_offset=519&page_number=87&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

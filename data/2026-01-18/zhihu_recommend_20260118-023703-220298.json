@@ -1,0 +1,604 @@
+{
+  "data": [
+    {
+      "id": "54_1768675031.437",
+      "type": "feed",
+      "offset": 54,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675031,
+      "updated_time": 1768675031,
+      "target": {
+        "created": 1767141059,
+        "author": {
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/45466a8314a53c7cfb6653344beb7d73",
+          "url_token": "88-3-18-34-49",
+          "name": "玩转Github",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-3199a25e1c034c0e15af61a6c6353563_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_following": false,
+          "id": "45466a8314a53c7cfb6653344beb7d73",
+          "user_type": "people",
+          "headline": "专注开源项目、最新技术资讯！",
+          "is_org": false,
+          "followers_count": 1501
+        },
+        "preview_type": "default",
+        "visited_count": 4198,
+        "favorite_count": 378,
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-ed0323224572c47a0cdc1b3d1d64e364.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pic1.zhimg.com/50/v2-6b4e9f6eaee02755be6170f33d355706_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fd3a98f2117937ea1aa558002ed43c2e_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-5a6975d9405f6b8448346792d5d8c9d6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7e6bd3cbf9d02e98c338f86d6fd28590_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6f918cd30c26a6920a9bc25528aec6dc_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-f5a47ec6eb98a4d6d8ca52861c7f57c1_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-c8ed762b07762cc081d0dc9f36de8ed3_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-2f91fa40404a8581e3c5280b2dd1143d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-edc22cc66e58f52230efe8fbf80e27e8_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-36a5c4e7857819465e359475c068f2e9_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-c5fcae88d9ef81d844fbe0013f5e1f15_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-57f1a277e0c923b72ba928cc622aa7fb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-95d03bf573d5c4e7ab6ad2219c977579_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-cb92473f8ebd1c600661b0959423c62b_720w.jpg?source=b6762063"
+        ],
+        "voteup_count": 57,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "盘点8个硬核的上位机开源项目，干货蛮多的！ 如有帮助，建议 点赞记录一下。1、PLC数据采集 一个简单易用的PLC数据采集系统，通过集成HSL通信库和SQLite数据库，实现对PLC设备数据的实时采集、记录与查询。只需通过简单的配置，即可实现与多种品牌PLC设备的通信，并将采集到的数据存储在本地SQLite数据库中，方便后续的数据分析与处理。 实时记录功能确保了数据的时效性，而历史记录查询功能则为用户提供了便捷的数据检索方式。 …",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "title": "10个优质的上位机开源项目，yyds！",
+        "voting": 0,
+        "comment_count": 1,
+        "excerpt": "盘点8个硬核的上位机开源项目，干货蛮多的！ 如有帮助，建议 点赞记录一下。1、PLC数据采集 一个简单易用的PLC数据采集系统，通过集成HSL通信库和SQLite数据库，实现对PLC设备数据的实时采集、记录与查询。只需通过简单的配置，即可实现与多种品牌PLC设备的通信，并将采集到的数据存储在本地SQLite数据库中，方便后续的数据分析与处理。 实时记录功能确保了数据的时效性，而历史记录查询功能则为用户提供了便捷的数据检索方式。 …",
+        "allow_segment_interaction": true,
+        "article_type": "normal",
+        "id": "1987177252803342419",
+        "url": "https://api.zhihu.com/articles/1987177252803342419",
+        "comment_permission": "all",
+        "updated": 1767141059,
+        "preview_text": "",
+        "content": "<p data-pid=\"6VeRg5FC\">盘点8个硬核的上位机开源项目，干货蛮多的！</p><p data-pid=\"a8eNReZm\">如有帮助，建议<b>点赞记录</b>一下。</p><h2>1、PLC数据采集</h2><p data-pid=\"BCBACIOO\"><b>一个简单易用的PLC数据采集系统，通过集成HSL通信库和SQLite数据库，实现对PLC设备数据的实时采集、记录与查询。</b></p><p data-pid=\"MPCsN-bM\">只需通过简单的配置，即可实现与多种品牌PLC设备的通信，并将采集到的数据存储在本地SQLite数据库中，方便后续的数据分析与处理。</p><p data-pid=\"HJdOhtrS\">实时记录功能确保了数据的时效性，而历史记录查询功能则为用户提供了便捷的数据检索方式。</p><p data-pid=\"zhR-RIuI\">通过SQLite数据库的存储，可以轻松地对采集到的数据进行备份、恢复和分析，为生产决策提供有力支持。</p><p data-pid=\"Tiynjw3_\"><b>软件部分截图：</b></p><p data-pid=\"BuUReRgl\">通信设置 </p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4dc75aa53bfba1606f948f8a2a5cc4a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1123\" data-rawheight=\"581\" data-original-token=\"v2-37325f8d7f2d3acda8fdd8ff514ca64b\" class=\"origin_image zh-lightbox-thumb\" width=\"1123\" data-original=\"https://pic2.zhimg.com/v2-4dc75aa53bfba1606f948f8a2a5cc4a5_r.jpg\"/></figure><p data-pid=\"7-sfxTI4\"> 实时记录 </p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3192b92ea4d5ac9e38537a1304256818_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1118\" data-rawheight=\"579\" data-original-token=\"v2-e471adb2ee0d4ca25f2597d8c144df9f\" class=\"origin_image zh-lightbox-thumb\" width=\"1118\" data-original=\"https://pica.zhimg.com/v2-3192b92ea4d5ac9e38537a1304256818_r.jpg\"/></figure><p data-pid=\"KY3g740F\"> 历史记录 </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ed3ffe2cce49a8ea952369b08384a442_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1121\" data-rawheight=\"579\" data-original-token=\"v2-8bc6601104f7e1e8b6c5a0a2ef187e96\" class=\"origin_image zh-lightbox-thumb\" width=\"1121\" data-original=\"https://pic1.zhimg.com/v2-ed3ffe2cce49a8ea952369b08384a442_r.jpg\"/></figure><h2>2、数据采集上位机</h2><p data-pid=\"PopJsIJO\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/xiaobeibi/ROVDataAcquisitionSoftware\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/xiaobeibi/RO</span><span class=\"invisible\">VDataAcquisitionSoftware</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"eiD34FHd\">一款用于小型遥控无人潜水器（ROV）的数据采集和命令控制上位机软件，适用于海事、渔业、海上救助和管线探测等复杂水下任务。它能够实时监控ROV的状态（如位置、深度、姿态），发送定航、悬停、定深等任务命令，并在设备故障时报警。软件运行时会保存运行参数并绘制实时参数图，方便用户查看。</p><p data-pid=\"BVQs9uav\">软件前端采用WPF开发，用于显示状态参数和控制运动路线；</p><p data-pid=\"0la2K6wI\">后端用C#开发，负责逻辑判断和数据处理；</p><p data-pid=\"abfZoaqs\">外部接口调用百度地图API，实时显示地理位置信息。</p><p data-pid=\"c6R8Na3t\">启动软件后，首先看到的是ROV运动姿态数据展示页面。这里可以实时查看ROV的X轴、Y轴、Z轴角度、角速度、加速度等关键数据，以及基于三轴数据的实时三维动态模型。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-af91f3c17f706151c6ccf9d46d3bdbe3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"553\" data-rawheight=\"357\" data-original-token=\"v2-148e2c4d00446f51ffa6c90f2947e557\" class=\"origin_image zh-lightbox-thumb\" width=\"553\" data-original=\"https://pic2.zhimg.com/v2-af91f3c17f706151c6ccf9d46d3bdbe3_r.jpg\"/></figure><p data-pid=\"P-HzKXt4\">在调试界面，可以实时查看ROV串口接收和发送的数据，也可以手动发送控制命令以指示ROV航行。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-61f18aba40085fbbe048c5506001df42_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"553\" data-rawheight=\"357\" data-original-token=\"v2-6d4904cf76e61c6f23a7fbdaf2f78d82\" class=\"origin_image zh-lightbox-thumb\" width=\"553\" data-original=\"https://pic3.zhimg.com/v2-61f18aba40085fbbe048c5506001df42_r.jpg\"/></figure><p data-pid=\"YuhMLqrE\">控制界面提供了ROV运动控制的直观界面，包括上浮、下浮、左移、右移、前进、后退等微小运动控制，以及速度控制和深度计反馈。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-129e3a3ea5b55c1bf22b1d7a3459bf30_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"553\" data-rawheight=\"357\" data-original-token=\"v2-f648389ed1fe71961a20e12b73fc28e8\" class=\"origin_image zh-lightbox-thumb\" width=\"553\" data-original=\"https://pic3.zhimg.com/v2-129e3a3ea5b55c1bf22b1d7a3459bf30_r.jpg\"/></figure><p data-pid=\"xY3R0p_z\">扁平化的设计界面和人性化的交互方式，使得软件更加易用。软件采用松耦合的设计模式，节省了资源开销，运行更加流畅。在水下ROV控制及反馈领域提供了宝贵的设计经验。</p><h2>3、通讯调试神器</h2><p data-pid=\"BHaHA0Cv\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/Monika1313/Wu.CommTool\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/Monika1313/W</span><span class=\"invisible\">u.CommTool</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"tjPPFrYP\">Wu.CommTool是一个基于C#、WPF、Prism、MaterialDesign、HandyControl开发的通讯调试工具，支持Modbus RTU、MQTT调试，界面色彩丰富。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-81f5e1b258c8fb4a5c58ecbf52b5071a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"786\" data-original-token=\"v2-6b4e9f6eaee02755be6170f33d355706\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-81f5e1b258c8fb4a5c58ecbf52b5071a_r.jpg\"/></figure><p data-pid=\"bdZf0RFa\">同类软件中，Github的标星还是算不错的。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-08f7a76d3b1d921c29eadec59ce01366_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"999\" data-rawheight=\"827\" data-original-token=\"v2-fd3a98f2117937ea1aa558002ed43c2e\" class=\"origin_image zh-lightbox-thumb\" width=\"999\" data-original=\"https://pica.zhimg.com/v2-08f7a76d3b1d921c29eadec59ce01366_r.jpg\"/></figure><p data-pid=\"eu6S3unz\">软件截图：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-52410d2c54e940f8b19a260840ef2487_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"685\" data-original-token=\"v2-5a6975d9405f6b8448346792d5d8c9d6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-52410d2c54e940f8b19a260840ef2487_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4a5c8ad3d6a22ab77863ad895cdc1598_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"732\" data-original-token=\"v2-7e6bd3cbf9d02e98c338f86d6fd28590\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-4a5c8ad3d6a22ab77863ad895cdc1598_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f860b38cb97bd080d74d494fc5013fb5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"715\" data-original-token=\"v2-6f918cd30c26a6920a9bc25528aec6dc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-f860b38cb97bd080d74d494fc5013fb5_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3505dc4f81ed47201f76b5b3fc67e65a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"721\" data-original-token=\"v2-f5a47ec6eb98a4d6d8ca52861c7f57c1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-3505dc4f81ed47201f76b5b3fc67e65a_r.jpg\"/></figure><h2>4、HslCommunication</h2><p data-pid=\"KJo416Zf\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/dathlin/HslCommunication\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/dathlin/HslC</span><span class=\"invisible\">ommunication</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"5XgCx2dk\">HslCommunication 是一个多功能的通信库，支持与多种工业设备（如 PLC、机器人、传感器、仪表等）的数据通信。</p><p data-pid=\"9iCENBbe\">它不仅能够实现不同程序之间的数据交换，包括不同编程语言（如 C#、Java、Python）编写的程序，还能进行程序与网页、本地电脑与云服务器之间的数据传输。</p><p data-pid=\"G5LAVF7n\">HslCommunication 支持几十种通讯协议，不仅可以作为调试助手，还适用于上位机编程，提高开发效率。</p><p data-pid=\"Vq9loQvv\">无论你的开发环境是Visual Studio, Visual Studio Code, IntelliJ IDEA, Eclipse, Labview, Android Studio等等  </p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6a5c090184d432c810b986f6b532a95c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"643\" data-rawheight=\"656\" data-original-token=\"v2-c8ed762b07762cc081d0dc9f36de8ed3\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-79a89caea37412010a97a81d69f88957_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"643\" data-original=\"https://pic3.zhimg.com/v2-6a5c090184d432c810b986f6b532a95c_r.jpg\"/></figure><p data-pid=\"lNgVkFLv\">HslCommunication同时也是一个通讯插件，支持工业现场大部分设备的数据采集，写入，上传互联网：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d9f0d86af4a9cca1d60287f71acc5dcc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"445\" data-original-token=\"v2-f6b66c10637770f121a689e3bf7dc3a7\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic1.zhimg.com/v2-d9f0d86af4a9cca1d60287f71acc5dcc_r.jpg\"/></figure><p data-pid=\"MYR5ZKeP\">PLC品牌支持：  </p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-028f6d668df1b2cc1369a598d5788c39_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"972\" data-rawheight=\"678\" data-original-token=\"v2-2f91fa40404a8581e3c5280b2dd1143d\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-0df97e787fb0d76ecd8c535b7ff876e5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"972\" data-original=\"https://pic2.zhimg.com/v2-028f6d668df1b2cc1369a598d5788c39_r.jpg\"/></figure><p data-pid=\"Yftqrm39\">机器人及其他通信支持：  </p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-821ed9c247ee90e648ac104f7b3a409b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"973\" data-rawheight=\"677\" data-original-token=\"v2-edc22cc66e58f52230efe8fbf80e27e8\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-13880586833ae79a2af0d7b23019bf77_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"973\" data-original=\"https://pic2.zhimg.com/v2-821ed9c247ee90e648ac104f7b3a409b_r.jpg\"/></figure><p data-pid=\"cmq3E2hg\">HslCommunication最强的一点还是平时做上位机开发的TCP通信相关的代码，都能在上面找到。当然前提是你使用的是C#开发语言。</p><p data-pid=\"ExJWsg5N\">该软件支持 S7、三菱、汇川、欧姆龙、倍福、TCP/IP、Modbus、MQTT、KUKA 机器人、ABB 机器人、罗克韦尔等 40 多种通讯协议。</p><p data-pid=\"zNqxicQe\">帮助我们高效地进行设备调试和数据采集，这款软件不仅功能丰富，操作简便，还能大幅提高工作效率。</p><h2>5、上位机Winform快速开发框架</h2><p data-pid=\"HnQOkDyI\"><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/wkjerry_admin/WinformGeneralDeveloperFrame\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/wkjerry_admin</span><span class=\"invisible\">/WinformGeneralDeveloperFrame</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"fI3XDe1j\">WinformDevFramework是一个专为一般管理系统设计的二次开发框架。它内置了完整的权限架构，包括菜单、角色、用户、字典、日志、代码生成等一系列系统常规模块。</p><p data-pid=\"lcEjp0A0\">有了它，你无需再为权限、页面等重复造轮子，只需专注于新增功能的Form界面和业务逻辑，在系统配置中轻松搞定。</p><p data-pid=\"2X11oyOQ\">‌<b>数据库‌：</b> Sqlserver</p><p data-pid=\"WYOCu1Qa\">‌<b>ORM：</b> Sqlsugar。</p><p data-pid=\"aA94McXC\">‌<b>UI框架‌：</b> 原生Winform控件，简洁高效。</p><p data-pid=\"ykMy9lV_\">‌<b>代码生成‌：</b> 支持业务代码生成，但暂不支持Form和Controller代码生成。</p><p data-pid=\"A76TvViY\">‌<b>其他特性‌：</b> 支持自动更新、单机软件架构、权限管控。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6a9f2787c5e812ce5dc5366bceb86fed_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"720\" data-original-token=\"v2-36a5c4e7857819465e359475c068f2e9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-6a9f2787c5e812ce5dc5366bceb86fed_r.jpg\"/></figure><p data-pid=\"LLjUqryb\">前后端分离架构、支持自动更新、权限管控、API访问日志、在线用户管理、数据分页、通用查询，以及持续更新支持。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-541423072b8d2b0532bd2e7c845052f8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"595\" data-original-token=\"v2-b56a8c4dc1adf7147c28cf25f4166f01\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-541423072b8d2b0532bd2e7c845052f8_r.jpg\"/></figure><h2>6、PLC-CommunTools</h2><p data-pid=\"Jfm-UnLc\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/SmallRob/PLC-CommunTools\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/SmallRob/PLC</span><span class=\"invisible\">-CommunTools</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"xCyU7a-F\">PLC-CommunTools 是一个基于 .NET Winforms 开源的通讯调试工具，旨在提供一个集成化的解决方案，支持多种通讯协议和设备接口，包括但不限于PLC（可编程逻辑控制器）、TCP/IP网络通讯、串口通讯以及IO口调试。</p><p data-pid=\"vB85LCpD\">该项目适用于工业自动化、嵌入式系统开发、设备调试与维护等多个领域，通过直观易用的界面和强大的功能，帮助工程师快速定位和解决通讯问题。</p><p data-pid=\"UO47a2Fo\">针对于Windows工业 PLC 硬件通讯协议及基础通讯而编写的通讯调试/测试工具，采用C#8.0语法及.NET Framework 4.6.2框架。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8e25374429f4cfa6e00f4db561e569d4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"381\" data-rawheight=\"815\" data-original-token=\"v2-05e8b6fc92fe9cfe9c6489d9eba2997f\" class=\"content_image\" width=\"381\"/></figure><p data-pid=\"1sp-g16k\">软件截图：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-80fcd23d6b9450647bffbc5afc8b0d8d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"804\" data-rawheight=\"488\" data-original-token=\"v2-c6821d1cff2c7a13cd7fb24c563271ce\" class=\"origin_image zh-lightbox-thumb\" width=\"804\" data-original=\"https://pic4.zhimg.com/v2-80fcd23d6b9450647bffbc5afc8b0d8d_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a56ec135190ae84150ede905c827b889_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"913\" data-rawheight=\"584\" data-original-token=\"v2-3f4f687d6294c83c3afcbc707bc9bd63\" class=\"origin_image zh-lightbox-thumb\" width=\"913\" data-original=\"https://pic2.zhimg.com/v2-a56ec135190ae84150ede905c827b889_r.jpg\"/></figure><h2>7、上下位机嵌入式综合项目</h2><p data-pid=\"H0NyDHZd\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/DXT-parsifal/Embedded-Integrated-Project%3Ftab%3Dreadme-ov-file\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/DXT-parsifal</span><span class=\"invisible\">/Embedded-Integrated-Project?tab=readme-ov-file</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"fdlPbutY\">Qt+STM32上下位机嵌入式综合项目，该项目基于STM32F407处理器，融入了QT5.9.9客户端，TCP、MQTT通信，JSON通信规则，云服务器Linux操作系统，MySQL数据存储转发等技术。</p><p data-pid=\"mA-WTw37\">QT客户端界面：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d02fb38a9f3753506aeecd2c1e99bf29_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"781\" data-original-token=\"v2-c5fcae88d9ef81d844fbe0013f5e1f15\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-d02fb38a9f3753506aeecd2c1e99bf29_r.jpg\"/></figure><p data-pid=\"5zJa5C-1\">STM32开放板：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-625955a70c459fc177961f6a85cf37f2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-57f1a277e0c923b72ba928cc622aa7fb\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-625955a70c459fc177961f6a85cf37f2_r.jpg\"/></figure><p data-pid=\"XRWlImW_\">由于上位机和下位机开发语言有所差异，涉及到的相关函数接口各异，具体分析。</p><p data-pid=\"8E4ohZWb\">下位机ESP8266和STM32需要实现串口转发，调试AT使得能够连上WIFI。上位机语音识别调取百度云API，JSON解析识别结果。</p><h2>8、SCADA上位机框架</h2><p data-pid=\"W8iAikpP\"><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/unbengable/my-wpf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/unbengable/my</span><span class=\"invisible\">-wpf</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"9S20hcFG\">基于工业现场需求的深度理解，成功打造了一款无需数据库环境依赖的轻量化SCADA框架。它如同U盘般即插即用，让部署变得前所未有的简单。</p><p data-pid=\"2RWknROA\">由于上位机和下位机开发语言有所差异，涉及到的相关函数接口各异，具体分析。下位机ESP8266和STM32需要实现串口转发，调试AT使得能够连上WIFI。上位机语音识别调取百度云API，JSON解析识别结果。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c753e0f2d20793c788647016f5e1b56e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-a28ba044ae43832fa9d9461bbc22f28e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-c753e0f2d20793c788647016f5e1b56e_r.jpg\"/></figure><p data-pid=\"0Ydeinz3\"><b>用户管理：</b> 基于LiteDB数据库开发，增删改用户轻松实现。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ae2ee3b6b22b42a12c9749c7ee26a3c4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-e940e277f5b7ee7993a65734f5faa536\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-ae2ee3b6b22b42a12c9749c7ee26a3c4_r.jpg\"/></figure><p data-pid=\"cLtzpwFP\"><b>日志管理：</b> 基于SQLite数据库开发，关键操作记录一目了然。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4acba687775e6918ab5a82da7a2601d7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-6d60e137f9c1059e194c25cb638c36d5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-4acba687775e6918ab5a82da7a2601d7_r.jpg\"/></figure><p data-pid=\"PImJ48i2\"><b>配方功能：</b> 基于LiteDB数据库开发，创新配方管理模式助力生产。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-2132201ec19676e04f17ebc974cdf157_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-original-token=\"v2-79aa7c7f0315bbb4799f399b46dbadfa\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-2132201ec19676e04f17ebc974cdf157_r.jpg\"/></figure><h2>9、IoTSharp</h2><p data-pid=\"wJzu_zvm\"><a href=\"https://link.zhihu.com/?target=https%3A//gitee.com/IoTSharp/IoTSharp\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">gitee.com/IoTSharp/IoTS</span><span class=\"invisible\">harp</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"wBquzgeJ\">在线文档：<a href=\"https://link.zhihu.com/?target=https%3A//docs.iotsharp.net/docs/intro\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.iotsharp.net/docs/</span><span class=\"invisible\">intro</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"yk8LH1-_\">IoTSharp 是一个 基于.Net Core 开源的物联网基础平台， 支持 HTTP、MQTT 、CoAp 协议， 属性数据和遥测数据协议简单类型丰富，是一个用于数据收集、处理、可视化与设备管理的 IoT 平台。</p><p data-pid=\"1c0glIQG\"><b>技术架构：</b></p><p data-pid=\"8DuM9JVn\">1、基于.Net Core开发，支持Http、MQTT 、CoAp 协议。</p><p data-pid=\"Y61Xol-D\"> 2、<a href=\"https://www.zhihu.com/search?q=%E6%95%B0%E6%8D%AE%E5%BA%93&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22542468430%22%7D\" class=\"internal\" target=\"_blank\">数据库</a>支持：PostgreSql、MySql、Oracle、SQLServer、Sqlite。</p><p data-pid=\"9OGCt7fo\"> 3、前端采用angular开发，需要node、npm或yarn环境。</p><p data-pid=\"BRSGY9g-\"> 4、后台需要在docket基础上运行，使用了rabbitmq、mongo、influxdb等应用。</p><p data-pid=\"McxWZSk8\"><b>演示截图：</b></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-880a53fca7ff29ab4fb01411829b49c8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"615\" data-original-token=\"v2-096f395b26ceffbca5930d0aadcdfd2a\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-880a53fca7ff29ab4fb01411829b49c8_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2c36a2241ba75db25efc9802a22c8cb8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"829\" data-original-token=\"v2-95d03bf573d5c4e7ab6ad2219c977579\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-2c36a2241ba75db25efc9802a22c8cb8_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3b90ac702903bb36a4b373b70ecab984_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"615\" data-original-token=\"v2-a895500b11fe12cd1f15e601953899f1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-3b90ac702903bb36a4b373b70ecab984_r.jpg\"/></figure><h2>10、测控上位机</h2><p data-pid=\"o1ofhXmY\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/yangzigy/com_mc\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/yangzigy/com</span><span class=\"invisible\">_mc</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"hE8EZ6X3\">实际项目中，我们经常依赖串口助手、串口数据曲线显示等通用工具进行调试，但这些工具的功能和通用性有限，无法满足复杂项目的全面需求。</p><p data-pid=\"7vcQfTXi\">一款通用上位机，能够尽可能广泛的适应各种项目，各种设备和各种协议的调试工作。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-381f67849e0bc4e844930e67edb12fd5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"552\" data-original-token=\"v2-e0c1349bff89ee54137662761a13a05d\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic4.zhimg.com/v2-381f67849e0bc4e844930e67edb12fd5_r.jpg\"/></figure><p data-pid=\"0u1f-pog\"><b>功能列表：</b></p><p data-pid=\"xZNwtAPy\">1、通过文本行或二进制协议方式对设备进行测控，包括状态上报和指令下达。协议易于描述；</p><p data-pid=\"rHDRoR5H\">2、上传状态和下发指令的界面都通过配置文件描述，所以上位机可以在各项目间通用；</p><p data-pid=\"tYYoqppo\">3、不仅实现曲线显示、变量显示、指令下达，还显示是否有数据刷新、指令是否有回复，回复是否正确；</p><p data-pid=\"cvVlLRVB\">4、曲线显示不仅是图形，还通过游标实现特定位置的值显示、两点测距功能、区域缩放功能；</p><p data-pid=\"ISd7Y5l7\">5、具有数据记录/回放、曲线导出/导入功能；</p><p data-pid=\"Xm3OzDgu\">例如如下几个项目中的上位机：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-06f8e58c508b2897226a3db0552b91eb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1180\" data-rawheight=\"939\" data-original-token=\"v2-cb92473f8ebd1c600661b0959423c62b\" class=\"origin_image zh-lightbox-thumb\" width=\"1180\" data-original=\"https://pic2.zhimg.com/v2-06f8e58c508b2897226a3db0552b91eb_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c6c59d9bddc02e7fae61e212eb196e1e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"925\" data-rawheight=\"600\" data-original-token=\"v2-9e9948a72c3946e52e49a1d23cc6a0b6\" class=\"origin_image zh-lightbox-thumb\" width=\"925\" data-original=\"https://pic3.zhimg.com/v2-c6c59d9bddc02e7fae61e212eb196e1e_r.jpg\"/></figure><p data-pid=\"_YY8W9MN\"> 如有帮助，<b>点赞支持</b>一下！</p>",
+        "type": "article",
+        "image_url": "https://picx.zhimg.com/v2-ed0323224572c47a0cdc1b3d1d64e364.jpg?source=7e7ef6e2&needBackground=1",
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1987177252803342419}",
+      "attached_info": "CtoTCMG6wZK22Oj4rgEQBxoJMjY4MTE5NjA5IMPd0coGKDkwAUA2SkAKF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREh9kb2NfdHlwZTogTWVtYmVyCmlkOiA3MjEyMzExNTIKGAAgADoASkEKGFRTX1NPVVJDRV9BVVRIT1JfR0NGX0hQVhIfZG9jX3R5cGU6IE1lbWJlcgppZDogNzIxMjMxMTUyChgAIAA6AGIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5ODcxNzcyNTI4MDMzNDI0MTmCAV9odHRwczovL3BpY3guemhpbWcuY29tL3YyLWVkMDMyMzIyNDU3MmM0N2EwY2RjMWIzZDFkNjRlMzY0LmpwZz9zb3VyY2U9N2U3ZWY2ZTImbmVlZEJhY2tncm91bmQ9MaoBCXJlY29tbWVuZMIBIDQ1NDY2YTgzMTRhNTNjN2NmYjY2NTMzNDRiZWI3ZDcz8gEKCAwSBk5vcm1hbPIBKAgKEiQwYWE0ZmYzOC1jMzYxLTQ0MTMtOGFmNC02YjY5YzlhZDZlOWTyAQYICxICMTCCAgCIAsj2/Om8M5ICIDQ1NDY2YTgzMTRhNTNjN2NmYjY2NTMzNDRiZWI3ZDczmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAhdUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUegCA/oCC05PUk1BTF9GTE9XigMgMTEyMmZkMTJlYTJhNDIwNWE4NGU3YTcwYWQ5MDVhNzGaAw0KAnYyEAAaBW90aGVyqAPmINgDAOoDGWdjZktubkF1dGhvckhpZ2hQb3NSZWNhbGz6A90MEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ4wgYxQQiI3YyLTM3MzI1ZjhkN2YyZDNhY2RhOGZkZDhmZjUxNGNhNjRiOi0IAhDeCBjDBCIjdjItZTQ3MWFkYjJlZTBkNGNhMjVmMjU5N2Q4YzE0NGRmOWY6LQgDEOEIGMMEIiN2Mi04YmM2NjAxMTA0ZjdlMWU4YjZjNWEwYTJlZjE4N2U5NjotCAIQqQQY5QIiI3YyLTE0OGUyYzRkMDA0NDZmNTFmZmE2YzkwZjI5NDdlNTU3Oi0IAxCpBBjlAiIjdjItNmQ0OTA0Y2Y3NmU2MWM2ZjIzYTdmYmRhZjJmNzhkODI6LQgDEKkEGOUCIiN2Mi1mNjQ4Mzg5ZWQxZmU3MTk2MWEyMGUxMmI3M2ZjMjhlODotCAIQuAgYkgYiI3YyLTZiNGU5ZjZlYWVlMDI3NTViZTYxNzBmMzNkMzU1NzA2Oi0IAhDnBxi7BiIjdjItZmQzYTk4ZjIxMTc5MzdlYTFhYTU1ODAwMmVkNDNjMmU6LQgCELgIGK0FIiN2Mi01YTY5NzVkOTQwNWY2Yjg0NDgzNDY3OTJkNWQ4YzlkNjotCAIQuAgY3AUiI3YyLTdlNmJkM2NiZjlkMDJlOThjMzM4Zjg2ZDZmZDI4NTkwOi0IAhC4CBjLBSIjdjItNmY5MThjZDMwYzI2YTY5MjBhOWJjMjU1MjhhZWM2ZGM6LQgCELgIGNEFIiN2Mi1mNWE0N2VjNmViOThhNGQ2ZDhjYTUyODYxYzdmNTdjMTotCAIQgwUYkAUiI3YyLWM4ZWQ3NjJiMDc3NjJjYzA4MWQwZGM5ZjM2ZGU4ZWQzOi0IAxDQBRi9AyIjdjItZjZiNjZjMTA2Mzc3NzBmMTIxYTY4OWUzYmY3ZGMzYTc6LQgCEMwHGKYFIiN2Mi0yZjkxZmE0MDQwNGE4NTgxZTNjNTI4MGIyZGQxMTQzZDotCAIQzQcYpQUiI3YyLWVkYzIyY2M2NmU1OGY1MjIzMGVmZThmYmY4MGUyN2U4Oi0IAhC4CBjQBSIjdjItMzZhNWM0ZTc4NTc4MTk0NjVlMzU5NDc1YzA2OGYyZTk6LQgCELgIGNMEIiN2Mi1iNTZhOGM0ZGMxYWRmNzE0N2MyOGNmMjVmNDE2NmYwMTotCAIQ/QIYrwYiI3YyLTA1ZThiNmZjOTJmZTljZmU5YzY0ODlkOWViYTI5OTdmOi0IAhCkBhjoAyIjdjItYzY4MjFkMWNmZjJjN2ExM2NkN2ZiMjRjNTYzMjcxY2U6LQgCEJEHGMgEIiN2Mi0zZjRmNjg3ZDYyOTRjODNjM2FmY2JjNzA3YmM5YmQ2MzotCAIQuAgYjQYiI3YyLWM1ZmNhZTg4ZDllZjgxZDg0NGZiZTAwMTNmNWUxZjE1Oi0IAxC4CBigCyIjdjItNTdmMWEyNzdlMGM5MjNiNzJiYTkyOGNjNjIyYWE3ZmI6LQgEELgIGOAEIiN2Mi1hMjhiYTA0NGFlNDM4MzJmYTlkOTQ2MWJiYzIyZjI4ZTotCAMQuAgY4AQiI3YyLWU5NDBlMjc3ZjViN2VlNzk5M2E2NTczNGY1ZmFhNTM2Oi0IAhC4CBjgBCIjdjItNmQ2MGUxMzdmOWMxMDU5ZTE5NGMyNWNiNjM4YzM2ZDU6LQgDELgIGOAEIiN2Mi03OWFhN2M3ZjAzMTViYmI0Nzk5ZjM5OWI0NmRiYWRmYTotCAIQuAgY5wQiI3YyLTA5NmYzOTViMjZjZWZmYmNhNTkzMGQwYWFkY2RmZDJhOi0IAhC4CBi9BiIjdjItOTVkMDNiZjU3M2Q1YzRlN2FiNmFkMjIxOWM5Nzc1Nzk6LQgCELgIGOcEIiN2Mi1hODk1NTAwYjExZmUxMmNkMWYxNWU2MDE5NTM4OTlmMTotCAAQoAYYqAQiI3YyLWUwYzEzNDliZmY4OWVlNTQxMzc2NjI3NjFhMTNhMDVkOi0IABCcCRirByIjdjItY2I5MjQ3M2Y4ZWJkMWM2MDA2NjFiMDk1OTQyM2M2MmI6LQgAEJ0HGNgEIiN2Mi05ZTk5NDhhNzJjMzk0NmU1MmU0OWExZDIzY2M2YTBiNjotCAAQxwcY4QIiI3YyLWVkMDMyMzIyNDU3MmM0N2EwY2RjMWIzZDFkNjRlMzY0gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACghQODP4EFAAAAAAAAAACJBTHMHbJMvLM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQqQBgCgBjaoBgGSAi4KCTI2ODExOTYwORITMTk4NzE3NzI1MjgwMzM0MjQxORgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "55_1768675031.87",
+      "type": "feed",
+      "offset": 55,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675031,
+      "updated_time": 1768675031,
+      "target": {
+        "article_type": "normal",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "comment_permission": "all",
+        "excerpt": "学会忙里偷闲，是成年人的必修课。在忙碌之余，找到钓鱼这个爱好，还能因地制宜地缓解身心的疲惫，这是一种难得的生活智慧。 成年人的生活，没有容易二字，学会给自己找乐子，才能在压力中找到平衡。而惬意的生活，从来都不需要昂贵的成本。 不用去高档养生馆，不用买奢华装备，一条小河、一根鱼竿、一次简单的按摩，就能收获满满的快乐。 生活的美好，往往藏在不起眼的小事里。只要你想得到，就没有做不到：休闲养生两不误，才…",
+        "preview_type": "default",
+        "visited_count": 39026,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-148a16cce4db959c5641af27ebdec515_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-36c750ff682a2c8b3a35cc28c6799826_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-113ad87bb18c51829df2d35c48d02bef_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-f4c909c5f2caf5c17fc30e85a9bf9e9c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a6ba6ce47f0920d4af1a33caa966aa11_720w.jpg?source=b6762063"
+        ],
+        "content": "<p data-pid=\"QcMUtK1f\">学会忙里偷闲，是成年人的必修课。在忙碌之余，找到钓鱼这个爱好，还能因地制宜地缓解身心的疲惫，这是一种难得的生活智慧。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xeraFIcY\">成年人的生活，没有容易二字，学会给自己找乐子，才能在压力中找到平衡。而惬意的生活，从来都不需要昂贵的成本。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5Vk99jR2\">不用去高档养生馆，不用买奢华装备，一条小河、一根鱼竿、一次简单的按摩，就能收获满满的快乐。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"d9605cWp\">生活的美好，往往藏在不起眼的小事里。只要你想得到，就没有做不到：休闲养生两不误，才是真玩家！</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2daf9751bba0a9369b083312e3c0b29a_1440w.jpg\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-size=\"normal\" data-original-token=\"v2-148a16cce4db959c5641af27ebdec515\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic3.zhimg.com/v2-2daf9751bba0a9369b083312e3c0b29a_r.jpg\"/></figure><p data-pid=\"nuhfyt9t\">“钓鱼人的最高境界，大概就是鱼没上钩，先把自己伺候明白了！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VGTaxunt\">近日，湖北一男子河边钓鱼还喊了女技师，全程一丝不苟，网友炸锅：“一个字，雅！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jm-QLoff\">男子41岁，最近发布钓鱼日常，在短视频平台火出圈。别人钓鱼，都是扛着鱼竿，蹲守半天，风吹日晒，浑身狼狈。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vAnbiAmv\">按照你倒好，搬着折叠椅，坐在河边，一边盯着浮漂不动，一边让女技师在身后给他按摩腰背，整套流程行云流水，脸上还带着几分悠然自得。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vkRCu3dH\">视频传到网上，网友们直接笑喷：“这哪是钓鱼，这是沉浸式养生！一个字，雅！”</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6e35109adebbcc8dd0d983923460932f_1440w.jpg\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-size=\"normal\" data-original-token=\"v2-36c750ff682a2c8b3a35cc28c6799826\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://picx.zhimg.com/v2-6e35109adebbcc8dd0d983923460932f_r.jpg\"/></figure><p data-pid=\"olIwBVkV\">据悉，男子是个实打实的钓鱼发烧友，最大的爱好就是往河边跑，有时一坐就是一整天。为钓到大鱼，蹲过小河滩，也熬过蚊虫叮咬。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JR18TmHK\">时间一长，腰颈就落下了毛病，钓一下午鱼，浑身酸痛，几天缓不过来。钓友都调侃他：“你这身子骨，以后怕是连鱼竿都举不动了！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dmf30hcl\">男子嘴上不服输，心里却暗暗记下来。思来想去，他琢磨出一个绝妙的法子：鱼乐养生两不误，让人目瞪口呆。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4WS1z7r0\">现在他每次出去钓鱼，就把养生馆的女技师喊到河边，一边钓鱼一边按摩。这天周末，他特意选了个风景好、鱼情佳的河段。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5a69e09d3829970db357c1718ad8dd33_1440w.jpg\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-size=\"normal\" data-original-token=\"v2-113ad87bb18c51829df2d35c48d02bef\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic2.zhimg.com/v2-5a69e09d3829970db357c1718ad8dd33_r.jpg\"/></figure><p data-pid=\"N07lzEe-\">他支好鱼竿、调好鱼漂，身后摆上一张小凳子，给女技师打了电话。没一会儿，女技师就拎着按摩箱，赶了过来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"eGztxrJ0\">视频显示，技师高挑漂亮，还穿着黑色制服。往男子背上盖了一次性按摩布，动作麻利，开始给他按揉腰背。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oFxZ66dQ\">镜头里，男子端坐在折叠椅上，双眼死死盯着水面的浮漂，眉头微皱，神情专注得仿佛身边的一切都与他无关。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"l5f3LHEa\">身后女技师手法娴熟，力道适中，从肩膀到腰背，一寸寸按揉得一丝不苟。她时而蹲着，按着腰背。时而站起，揉捏肩颈。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"a-i2aLCh\">深冬户外，小河旁边，两个人的画面，竟意外地和谐又治愈。路过的人看到这一幕，全都傻眼：“这操作，我怎么就没想到！”</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bd01f42acab6938a383464dc981d693e_1440w.jpg\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-size=\"normal\" data-original-token=\"v2-f4c909c5f2caf5c17fc30e85a9bf9e9c\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic1.zhimg.com/v2-bd01f42acab6938a383464dc981d693e_r.jpg\"/></figure><p data-pid=\"HTgqglEG\">视频曝光，网友全炸锅，羡慕坏了：“一个敢想，一个敢来！钓鱼的最高境界，就是钓没钓到鱼不重要，姿势必须雅！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rZmIhiTP\">还有人感慨：“别人钓鱼费腰，哥们钓鱼养生，这波格局直接拉满了！建议列入钓鱼人必修课程：钓不到鱼没关系，舒服了就行！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uo2hQMvk\">也有女网友看到此情此景，心里一阵后怕，觉得很容易出轨：“以前我很放心老公去钓鱼，现在他唯一的爱好，也将要被禁止了！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2_HMi-Dh\">不得不说，这才叫生活，劳逸结合，钓鱼养生两不误。重点是，男子全程一丝不苟，眼睛都没离开过浮漂，这才是真爱钓鱼：又怎会背叛家庭呢？</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0689134fdd9a4d72a165a028e6c7558a_1440w.jpg\" data-rawwidth=\"1242\" data-rawheight=\"1656\" data-size=\"normal\" data-original-token=\"v2-a6ba6ce47f0920d4af1a33caa966aa11\" class=\"origin_image zh-lightbox-thumb\" width=\"1242\" data-original=\"https://pic3.zhimg.com/v2-0689134fdd9a4d72a165a028e6c7558a_r.jpg\"/></figure><p data-pid=\"ryYstUju\">林语堂曾说：“生活的智慧，在于逐渐澄清滤除那些不重要的杂质，而保留最重要的部分——享受家庭、生活文化与自然的乐趣。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"u8jm8nAm\">对男子而言，绝对是钓鱼圈的活宝，他没有硬扛着身体钓鱼，而是想出了“钓鱼+按摩”的神仙组合，既不耽误自己爱好，又能保养身体。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LAgkRQjD\">这份脑洞和会享受的心态，让人不得不服。更难得的是，他按摩时还能全程盯着浮漂，足见对钓鱼的热爱，玩归玩，正事一点没落下。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9HNzzTBZ\">至于出轨问题，只要行得端坐得正，就不会发生。所以尊重他人的喜好，是一种高级素养。女技师全程不闲聊、不打扰，分寸感恰到好处，最让人舒服。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0jGCLf4s\">谁能想到，钓鱼还能和按摩结合到一起？生活就是这样，有时候换个思路，就能解锁新快乐。敢想敢试，才能发现更多小美好。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3VuLwYpO\">其实，结婚过日子，不是一场马不停蹄的赶路，而是一场有滋有味地漫步。享受生命中的每一分每一秒，生活才惬意又舒心。</p>",
+        "is_labeled": false,
+        "title": "41岁男子河边钓鱼喊技师服务，全程一丝不苟，网友：一个字，雅！",
+        "created": 1768523657,
+        "updated": 1768523657,
+        "voteup_count": 147,
+        "preview_text": "",
+        "comment_count": 68,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "学会忙里偷闲，是成年人的必修课。在忙碌之余，找到钓鱼这个爱好，还能因地制宜地缓解身心的疲惫，这是一种难得的生活智慧。 成年人的生活，没有容易二字，学会给自己找乐子，才能在压力中找到平衡。而惬意的生活，从来都不需要昂贵的成本。 不用去高档养生馆，不用买奢华装备，一条小河、一根鱼竿、一次简单的按摩，就能收获满满的快乐。 生活的美好，往往藏在不起眼的小事里。只要你想得到，就没有做不到：休闲养生两不误，才…",
+        "id": "1995412890484753094",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1995412890484753094",
+        "author": {
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/1fc8963b8d0e680e5050cd1cd1161762",
+          "url_token": "lao-niu-qi-wen-yi-shi",
+          "avatar_url": "https://picx.zhimg.com/50/v2-29367f38c3caa42cfad277760203b3ca_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 113,
+          "is_following": false,
+          "id": "1fc8963b8d0e680e5050cd1cd1161762",
+          "user_type": "people",
+          "name": "周大富专栏",
+          "headline": "",
+          "gender": 1
+        },
+        "voting": 0,
+        "favorite_count": 65,
+        "is_navigator": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995412890484753094}",
+      "attached_info": "Cu0ICMG6wZK22Oj4rgEQBxoJMjY5MDkyNjY0IImPpssGKJMBMERAN0orChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1KUwofVFNfU09VUkNFX0hPVF9DUk9TU19ORVdfQ09OVEVOVBIqaG90X3JlY2FsbF8zMGQ6bmV3N2Q6YmlneW91bmdzdGVyOnJlc2VhcmNoGAAgADoAYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NTQxMjg5MDQ4NDc1MzA5NKoBCXJlY29tbWVuZMIBIDFmYzg5NjNiOGQwZTY4MGU1MDUwY2QxY2QxMTYxNzYy8gEKCAwSBk5vcm1hbPIBKAgKEiRlNDYyZDY5ZC0xNzZmLTQzNTEtOTYwNy01MzViMzkzNGVjYjXyAQYICxICMTCCAgCIAsj2/Om8M5ICIDFmYzg5NjNiOGQwZTY4MGU1MDUwY2QxY2QxMTYxNzYymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AID+gILTk9STUFMX0ZMT1eKAyAxMTIyZmQxMmVhMmE0MjA1YTg0ZTdhNzBhZDkwNWE3MZoDDQoCdjIQABoFb3RoZXKoA/KwAtgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEENoJGPgMIiN2Mi0xNDhhMTZjY2U0ZGI5NTljNTY0MWFmMjdlYmRlYzUxNTotCAQQ2gkY+AwiI3YyLTM2Yzc1MGZmNjgyYTJjOGIzYTM1Y2MyOGM2Nzk5ODI2Oi0IBBDaCRj4DCIjdjItMTEzYWQ4N2JiMThjNTE4MjlkZjJkMzVjNDhkMDJiZWY6LQgEENoJGPgMIiN2Mi1mNGM5MDljNWYyY2FmNWMxN2ZjMzBlODVhOWJmOWU5YzotCAIQ2gkY+AwiI3YyLWE2YmE2Y2U0N2YwOTIwZDRhZjFhMzNjYWE5NjZhYTExgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAnh/KP4EFAAAAAAAAAACJBTHMHbJMvLM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQqQBgCgBjeoBgOSAi4KCTI2OTA5MjY2NBITMTk5NTQxMjg5MDQ4NDc1MzA5NBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "56_1768675031.567",
+      "type": "feed",
+      "offset": 56,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675031,
+      "updated_time": 1768675031,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1992653908959588744",
+        "thanks_count": 53,
+        "question": {
+          "type": "question",
+          "excerpt": "",
+          "question_type": "normal",
+          "id": "1913982784646673062",
+          "url": "https://api.zhihu.com/questions/1913982784646673062",
+          "answer_count": 0,
+          "comment_count": 5,
+          "author": {
+            "avatar_url": "https://pic1.zhimg.com/50/v2-23112487ea602d208860e0098695f6c5_l.jpg?source=b6762063",
+            "followers_count": 2107,
+            "is_following": false,
+            "is_followed": false,
+            "id": "f5f548ae86470de424b67be7c533f037",
+            "headline": "实践观点是马克思主义首要的和基本的观点",
+            "url_token": "material-object",
+            "name": "学药的",
+            "is_org": false,
+            "gender": -1,
+            "url": "https://api.zhihu.com/people/f5f548ae86470de424b67be7c533f037",
+            "user_type": "people"
+          },
+          "bound_topic_ids": [
+            10715,
+            23320,
+            176995,
+            2928410
+          ],
+          "title": "你最喜欢毛选里的那一句段话？",
+          "created": 1749109055,
+          "follower_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": ""
+        },
+        "excerpt": "毛选里最他妈震撼的，是那些冷冰冰的、像手术刀一样剖开现实的句子。 我最喜欢的是《矛盾论》里的一段： “事物的矛盾法则，即对立统一的法则，是唯物辩证法的最根本的法则。” 这听起来像教科书。但要是能把这句嚼碎了咽下去，这辈子都够用了。 为什么？因为这句子他妈就是 宇宙的源代码 。 像我们平常操心的那些破事，工作，婚姻，孩子，家庭啥的，把自己困在情绪里，困在道德的条条框框里。但这句子一把就把人拽出来： 世界上…",
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 1367,
+        "reshipment_settings": "allowed",
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "b7s8EeFs",
+            "text": " 像我们平常操心的那些破事，工作，婚姻，孩子，家庭啥的，把自己困在情绪里，困在道德的条条框框里。但这句子一把就把人拽出来： 世界上没有什么是纯粹的，没有什么是绝对好的，也没有什么是绝对坏的。所有事情都是矛盾的结合体，都在斗争，都在转化。",
+            "marks": [
+              {
+                "start_index": 62,
+                "end_index": 118,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993418813971136936"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "9sH-WP3t",
+            "text": " 强者不是消灭矛盾，而是驾驭矛盾。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 17,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992937322359064177"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "BHwrVo3n",
+            "text": " 翻译成人话就是： 别光想，去干。干完了再想。想了再干。循环往复。",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993665386516878480"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "comment_count": 88,
+        "content": "<p data-pid=\"9ZAMprKJ\">毛选里最他妈震撼的，是那些冷冰冰的、像手术刀一样剖开现实的句子。</p><p data-pid=\"Pd0__2eW\"> 我最喜欢的是《矛盾论》里的一段：</p><blockquote data-pid=\"_89_5d1k\"><b>“事物的矛盾法则，即对立统一的法则，是唯物辩证法的最根本的法则。”</b></blockquote><p data-pid=\"r_ZgqTe6\"> 这听起来像教科书。但要是能把这句嚼碎了咽下去，这辈子都够用了。</p><p data-pid=\"CG_2YYWm\"> 为什么？因为这句子他妈就是 <b>宇宙的源代码</b> 。</p><p data-pid=\"b7s8EeFs\"> 像我们平常操心的那些破事，工作，婚姻，孩子，家庭啥的，把自己困在情绪里，困在道德的条条框框里。但这句子一把就把人拽出来： <b>世界上没有什么是纯粹的，没有什么是绝对好的，也没有什么是绝对坏的。所有事情都是矛盾的结合体，都在斗争，都在转化。</b></p><p data-pid=\"Aok3uSWK\"> 世界就是动态的，就是冲突的，就是混乱中出秩序。</p><p data-pid=\"q0MDeKkF\"> 去承认矛盾，去利用矛盾。</p><p data-pid=\"9sH-WP3t\"> 强者不是消灭矛盾，而是驾驭矛盾。</p><p data-pid=\"cA5LtkMF\"> 这就是唯物辩证法，这有点像第一性原理，直接看透本质。</p><p data-pid=\"TiwsS2Gg\"> 还有一句，在《实践论》里：</p><blockquote data-pid=\"2teLBopP\"><b>“理性认识依赖于感性认识，感性认识有待于发展到理性认识，这就是辩证唯物论的认识论。”</b></blockquote><p data-pid=\"BHwrVo3n\"> 翻译成人话就是： <b>别光想，去干。干完了再想。想了再干。循环往复。</b></p><p data-pid=\"zocKCpcM\"> 大多数人在纠结的那些破心态，就是光想不干憋出来的。</p><p data-pid=\"NEpJFhc0\">真正的智慧不是从天上掉下来的，是你一次次撞得头破血流后总结出来的。</p><p data-pid=\"DxEOibvH\"> 这两句话，一句告诉世界怎么运行（矛盾），一句告诉怎么认识世界（实践）。</p><p data-pid=\"5bE1M0L7\"> 其他的，都是注脚。</p>",
+        "created_time": 1767865713,
+        "is_copyable": true,
+        "preview_type": "default",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "id": "1992653908959588744",
+        "allow_segment_interaction": true,
+        "visited_count": 105912,
+        "answer_type": "normal",
+        "voteup_count": 1317,
+        "is_navigator": false,
+        "updated_time": 1767865713,
+        "excerpt_new": "毛选里最他妈震撼的，是那些冷冰冰的、像手术刀一样剖开现实的句子。 我最喜欢的是《矛盾论》里的一段： “事物的矛盾法则，即对立统一的法则，是唯物辩证法的最根本的法则。” 这听起来像教科书。但要是能把这句嚼碎了咽下去，这辈子都够用了。 为什么？因为这句子他妈就是 宇宙的源代码 。 像我们平常操心的那些破事，工作，婚姻，孩子，家庭啥的，把自己困在情绪里，困在道德的条条框框里。但这句子一把就把人拽出来： 世界上…",
+        "author": {
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/14a53bc55905c628232eec74d0e4fdb1",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-dcaa6f44a210bc115100758f99df25da_l.jpg?source=b6762063",
+          "gender": 1,
+          "name": "漠行",
+          "headline": "漠行",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "互联网行业 从业人员"
+            }
+          ],
+          "followers_count": 138,
+          "id": "14a53bc55905c628232eec74d0e4fdb1",
+          "user_type": "people",
+          "url_token": "pafey",
+          "is_following": false
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1992653908959588744}",
+      "attached_info": "CpQGCMG6wZK22Oj4rgEQBBoJNzY0NTc5MjU3IPH6/coGKKUKMFhAOEo/CipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU0SATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTUyNTAzOTliIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTkyNjUzOTA4OTU5NTg4NzQ0igETMTkxMzk4Mjc4NDY0NjY3MzA2MqoBCXJlY29tbWVuZMIBIDE0YTUzYmM1NTkwNWM2MjgyMzJlZWM3NGQwZTRmZGIx8gEKCAwSBk5vcm1hbPIBKAgKEiRkZThhYTg5Mi1jYjIwLTRlZTktOGZiMC05MThlYmFjMWJhMjbyAQYICxICMTCCAgCIAsj2/Om8M5ICIDE0YTUzYmM1NTkwNWM2MjgyMzJlZWM3NGQwZTRmZGIxmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVN6AIC+gILTk9STUFMX0ZMT1eKAyAxMTIyZmQxMmVhMmE0MjA1YTg0ZTdhNzBhZDkwNWE3MZoDDQoCdjIQABoFb3RoZXKoA7i7BtgDAOoDEG5ld2JpZV9mZWVkcmVfdjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAEl6kP4EFAAAAAAAAAACJBTHMHbJMvLM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQqQBgCgBjioBgCSAi4KCTc2NDU3OTI1NxITMTk5MjY1MzkwODk1OTU4ODc0NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "57_1768675031.851",
+      "type": "feed",
+      "offset": 57,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675031,
+      "updated_time": 1768675031,
+      "target": {
+        "vote_next_step": "vote",
+        "comment_count": 11,
+        "is_copyable": true,
+        "excerpt_new": "煮荷包蛋总是散开？记住不要水开就下锅，教你一招，个个圆润饱满 平常在家煮锅面，我们都喜欢搭配鸡蛋，这样既能增加口感，又能增加营养，有时候不想吃的太油腻，就想在煮面前煮个荷包蛋。不过，有时想的很好，可鸡蛋刚打进锅里就散开了，再怎么焖都不成形，弄成这样特别无语，一下子就没食欲了。   很多人煮荷包蛋都有一个习惯，那就是水烧到沸腾了放鸡蛋，不知道你是不是这样？如果是的话，今后别再这么做了，因为水在沸腾的时…",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "type": "answer",
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "id": "52596754",
+          "author": {
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-f0d9e0ee4f2519b99abcb2bf96b9a98b_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 84,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "lu-han-chen-46",
+            "name": "ITGeek",
+            "is_following": false,
+            "id": "8f532f635b8bbc64ce59af08d355ddca",
+            "url": "https://api.zhihu.com/people/8f532f635b8bbc64ce59af08d355ddca"
+          },
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "comment_count": 0,
+          "excerpt": "",
+          "type": "question",
+          "created": 1479091936,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/52596754",
+          "title": "荷包蛋怎么才不会煮散？",
+          "bound_topic_ids": [
+            304
+          ],
+          "detail": ""
+        },
+        "content": "<p data-pid=\"WoEvdQ5N\">煮荷包蛋总是散开？记住不要水开就下锅，教你一招，个个圆润饱满</p><p data-pid=\"Wc4Dp0gg\">平常在家煮锅面，我们都喜欢搭配鸡蛋，这样既能增加口感，又能增加营养，有时候不想吃的太油腻，就想在煮面前煮个荷包蛋。不过，有时想的很好，可鸡蛋刚打进锅里就散开了，再怎么焖都不成形，弄成这样特别无语，一下子就没食欲了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-992aab3c7933dac674ec9c588385abcb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"776\" data-original-token=\"v2-d01591ab322b65cf0040cc218046435d\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic2.zhimg.com/v2-992aab3c7933dac674ec9c588385abcb_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kCi9Sqqd\">很多人煮荷包蛋都有一个习惯，那就是水烧到沸腾了放鸡蛋，不知道你是不是这样？如果是的话，今后别再这么做了，因为水在沸腾的时候很容易将鸡蛋冲散，导致无法成形。想要得到一个完整的荷包蛋，需要掌握小技巧。</p><p data-pid=\"TUGOCh7K\">煮荷包蛋总是散开？到底怎么做？记住不要水开就下锅，教你一招，这样去煮保准个个圆润饱满，香嫩好吃。下面就来分享一下具体做法，以及需要注意的地方，赶紧来看看吧，非常实用，保准用得上。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-17cbdfa0917ecb2f35d732a34a072cfa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1066\" data-rawheight=\"830\" data-original-token=\"v2-bdc06a0886fe5338dc3eb8fe5657e293\" class=\"origin_image zh-lightbox-thumb\" width=\"1066\" data-original=\"https://pica.zhimg.com/v2-17cbdfa0917ecb2f35d732a34a072cfa_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Dd52rIwL\">煮荷包蛋的方法：</p><p data-pid=\"YWVw2lgJ\">准备好新鲜鸡蛋，将表面清洗干净，以免打鸡蛋的时候脏东西掉进蛋液中或者锅内，不过清洗时不要太用力，轻柔一些为好。</p><p data-pid=\"tLSygyKX\">如果一次煮的多，就用大锅，多加水，如果就煮一两个，用小锅。（用不粘锅更好）</p><p data-pid=\"MqEmoC45\">取一个小碗，加少许水，打入鸡蛋，敲壳时一定不要太用力，要保证打出来的鸡蛋是完整性的，蛋黄不散。（若是很小心，蛋黄还是散的，多半是鸡蛋不新鲜了，就不要再入锅煮）</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0fe23ae18d29f844d012e13b8e834dad_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"998\" data-rawheight=\"822\" data-original-token=\"v2-903166edf43977ff587b8c39a87cda98\" class=\"origin_image zh-lightbox-thumb\" width=\"998\" data-original=\"https://pic2.zhimg.com/v2-0fe23ae18d29f844d012e13b8e834dad_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vT-F7ELx\">水煮开后关火，看到水面安静了，把盛着鸡蛋的小碗贴着水面，让鸡蛋滑进锅内，有几个放几个。</p><p data-pid=\"kb5_bew0\">鸡蛋入锅后盖上盖子，不开火焖一会儿，等到鸡蛋定型。焖的过程中不要着急开火，以免没定型一煮散开，前功尽弃。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fde9832c9b5bf6ec28d29729db736bc7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1140\" data-rawheight=\"790\" data-original-token=\"v2-e46ab7ff83476a4d91fa808cc54e3113\" class=\"origin_image zh-lightbox-thumb\" width=\"1140\" data-original=\"https://pic4.zhimg.com/v2-fde9832c9b5bf6ec28d29729db736bc7_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bskzACdK\">定型后开小火，煮两分钟以上，具体煮多久，看个人喜欢什么口感，两分钟后可以用锅铲轻轻触碰蛋黄部分，感受一下软硬程度。</p><p data-pid=\"NkxrZ4cs\">煮好后，盛进盘内。后面放在面条里或者咸汤里、甜汤里、粥里都行，好吃又营养，还不油腻，老少皆宜。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b76e123fc70ad028bf55bc200d2f579e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1066\" data-rawheight=\"860\" data-original-token=\"v2-1713cd8d6c6c13fc8922309cc779bba1\" class=\"origin_image zh-lightbox-thumb\" width=\"1066\" data-original=\"https://pic3.zhimg.com/v2-b76e123fc70ad028bf55bc200d2f579e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xJZV0f-d\">想煮出圆润饱满的荷包蛋，注意以下几点：</p><p data-pid=\"KrDlDPsA\">一定要确保鸡蛋是非常新鲜的，不然不管用什么方法去煮都煮不好，这一点特别重要。如果你做的时候每一步都没差错，却还是散了，多半是鸡蛋的问题；</p><p data-pid=\"oVEWXYH1\">鸡蛋最好先打进小碗里，不直接打进锅里。打进碗里可以看到鸡蛋的完整度，而且这样入锅不容易散；</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-36dac082334d10003888942c1d28025a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"992\" data-rawheight=\"698\" data-original-token=\"v2-b5d6f2a495b7e49ba32c874e3d6ebe7c\" class=\"origin_image zh-lightbox-thumb\" width=\"992\" data-original=\"https://pica.zhimg.com/v2-36dac082334d10003888942c1d28025a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sWzmCMRy\">鸡蛋入锅要贴着水面，不要离很远倒进去；</p><p data-pid=\"C9D8XYqO\">鸡蛋入锅前，要把水烧开，并且关掉。这样做鸡蛋能更快定型，也不容易散；</p><p data-pid=\"SUIAXCGe\">鸡蛋定型后要小火煮，不要开大火。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d08f1d41ea962be8d224d09a7a487ba6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1142\" data-rawheight=\"714\" data-original-token=\"v2-747b5adbb3dff51f9d85c18789f64ac1\" class=\"origin_image zh-lightbox-thumb\" width=\"1142\" data-original=\"https://pic1.zhimg.com/v2-d08f1d41ea962be8d224d09a7a487ba6_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"v_rQwkM8\">掌握好以上方法和注意点，煮荷包蛋就简单了，有时间就多试试吧，保准成功率大大提高。欢迎大家留言讨论，如果觉得文章对你有用，请给我收藏、点赞、评论、转发、关注，让更多的人看到，让大家一起学习，感谢大家对我的支持，我们下次再见！</p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "id": "1994423010090832438",
+        "url": "https://api.zhihu.com/answers/1994423010090832438",
+        "created_time": 1768287500,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-d36215d0f512bdb3978340e1970a4acd_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "d097886891221665d828986d5bc264d7",
+          "user_type": "people",
+          "url_token": "arthurwang-14",
+          "headline": "",
+          "url": "https://api.zhihu.com/people/d097886891221665d828986d5bc264d7",
+          "name": "关于吃喝的那些事",
+          "is_org": false,
+          "followers_count": 3642
+        },
+        "is_labeled": false,
+        "excerpt": "煮荷包蛋总是散开？记住不要水开就下锅，教你一招，个个圆润饱满 平常在家煮锅面，我们都喜欢搭配鸡蛋，这样既能增加口感，又能增加营养，有时候不想吃的太油腻，就想在煮面前煮个荷包蛋。不过，有时想的很好，可鸡蛋刚打进锅里就散开了，再怎么焖都不成形，弄成这样特别无语，一下子就没食欲了。   很多人煮荷包蛋都有一个习惯，那就是水烧到沸腾了放鸡蛋，不知道你是不是这样？如果是的话，今后别再这么做了，因为水在沸腾的时…",
+        "preview_text": "",
+        "visited_count": 2307,
+        "updated_time": 1768287500,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-d01591ab322b65cf0040cc218046435d_720w.jpg?source=b6762063",
+        "voteup_count": 34,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-d01591ab322b65cf0040cc218046435d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-bdc06a0886fe5338dc3eb8fe5657e293_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-903166edf43977ff587b8c39a87cda98_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-e46ab7ff83476a4d91fa808cc54e3113_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-1713cd8d6c6c13fc8922309cc779bba1_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b5d6f2a495b7e49ba32c874e3d6ebe7c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-747b5adbb3dff51f9d85c18789f64ac1_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 63,
+        "thanks_count": 1,
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994423010090832438}",
+      "attached_info": "CoMICMG6wZK22Oj4rgEQBBoJNzY1MjMzNDQzIIzal8sGKCIwC0A5SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9WggxMzI1NzA0MWIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTQ0MjMwMTAwOTA4MzI0MziKAQg1MjU5Njc1NKoBCXJlY29tbWVuZMIBIGQwOTc4ODY4OTEyMjE2NjVkODI4OTg2ZDViYzI2NGQ38gEKCAwSBk5vcm1hbPIBKAgKEiQxMmM0NDExMC02YTUzLTQwOTctYjQ3My1lYTczZTljZWI5OTjyAQYICxICMTCCAgCIAsj2/Om8M5ICIGQwOTc4ODY4OTEyMjE2NjVkODI4OTg2ZDViYzI2NGQ3mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjPoAgT6AgtOT1JNQUxfRkxPV4oDIDExMjJmZDEyZWEyYTQyMDVhODRlN2E3MGFkOTA1YTcxmgMNCgJ2MhAAGgVvdGhlcqgDgxLYAwDqAxFmZWVkcmVfbXNfZ2F0ZV92M/oD6AISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxDoBxiIBiIjdjItZDAxNTkxYWIzMjJiNjVjZjAwNDBjYzIxODA0NjQzNWQ6LQgEEKoIGL4GIiN2Mi1iZGMwNmEwODg2ZmU1MzM4ZGMzZWI4ZmU1NjU3ZTI5MzotCAMQ5gcYtgYiI3YyLTkwMzE2NmVkZjQzOTc3ZmY1ODdiOGMzOWE4N2NkYTk4Oi0IAxD0CBiWBiIjdjItZTQ2YWI3ZmY4MzQ3NmE0ZDkxZmE4MDhjYzU0ZTMxMTM6LQgDEKoIGNwGIiN2Mi0xNzEzY2Q4ZDZjNmMxM2ZjODkyMjMwOWNjNzc5YmJhMTotCAMQ4AcYugUiI3YyLWI1ZDZmMmE0OTViN2U0OWJhMzJjODc0ZTNkNmViZTdjOi0IAxD2CBjKBSIjdjItNzQ3YjVhZGJiM2RmZjUxZjlkODVjMTg3ODlmNjRhYzGABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKDwv4k/gQUAAAAAAAAAAIkFMcwdsky8sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCpAGAKAGOagGAJICLgoJNzY1MjMzNDQzEhMxOTk0NDIzMDEwMDkwODMyNDM4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "58_1768675031.393",
+      "type": "feed",
+      "offset": 58,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675031,
+      "updated_time": 1768675031,
+      "target": {
+        "type": "answer",
+        "thumbnail": "https://picx.zhimg.com/50/v2-8c8c875c06481e58c1c84faf46c1be25_720w.jpg?source=b6762063",
+        "navigator_vote": false,
+        "voteup_count": 1,
+        "visited_count": 6,
+        "allow_segment_interaction": true,
+        "thanks_count": 0,
+        "is_copyable": true,
+        "is_navigator": false,
+        "excerpt_new": "人生怎么过都会有遗憾，因为没有人的人生是完美的。所以，早点放弃追求一个没有遗憾的完美人生。但是努力少一些遗憾还是有可能的。 怎么少一些遗憾呢？我觉得就是过好当下。有句话说人无远虑必有近忧，辛苦的人们总是苛求自己把握今天，深挖洞广积粮，为的是给明天做充足的准备，怕生老病死无处安身立命。但殊不知我们很多人在为未来奋力打拼的时候也在无意中透支了生命，错过了当下的美好。 也有很多人信仰及时行乐，因为人…",
+        "vote_next_step": "vote",
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-55710fb27a571896f8a90d365720b554_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"720\" data-size=\"normal\" data-original-token=\"v2-8c8c875c06481e58c1c84faf46c1be25\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pica.zhimg.com/v2-55710fb27a571896f8a90d365720b554_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-01e1900821423f5d02613991f13bfdc2_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"720\" data-size=\"normal\" data-original-token=\"v2-426bdb1661636c08f0b9b2a10dbad8e0\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic3.zhimg.com/v2-01e1900821423f5d02613991f13bfdc2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f7e2d2b804565df665d28e966c987912_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"720\" data-size=\"normal\" data-original-token=\"v2-72d4fd4b71700e114eb283146fbf5b09\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic1.zhimg.com/v2-f7e2d2b804565df665d28e966c987912_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-01e1900821423f5d02613991f13bfdc2_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"720\" data-size=\"normal\" data-original-token=\"v2-426bdb1661636c08f0b9b2a10dbad8e0\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic3.zhimg.com/v2-01e1900821423f5d02613991f13bfdc2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-964a41e568845660fe90041ae14f5c82_1440w.jpg\" data-rawwidth=\"960\" data-rawheight=\"720\" data-size=\"normal\" data-original-token=\"v2-a71f5fa2d78be8a2686a2b3d12cdf074\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic1.zhimg.com/v2-964a41e568845660fe90041ae14f5c82_r.jpg\"/></figure><p data-pid=\"P6p6MjEv\">人生怎么过都会有遗憾，因为没有人的人生是完美的。所以，早点放弃追求一个没有遗憾的完美人生。但是努力少一些遗憾还是有可能的。</p><p data-pid=\"e_Nr16V1\">怎么少一些遗憾呢？我觉得就是过好当下。有句话说人无远虑必有近忧，辛苦的人们总是苛求自己把握今天，深挖洞广积粮，为的是给明天做充足的准备，怕生老病死无处安身立命。但殊不知我们很多人在为未来奋力打拼的时候也在无意中透支了生命，错过了当下的美好。</p><p data-pid=\"1ZNgxkFO\">也有很多人信仰及时行乐，因为人有旦夕祸福，拥有再多的财富，如果命主注定生命短暂，也无福消遣荣华富贵。</p><p data-pid=\"NTfvDTKA\">其实要知道生命是一个过程，不是一个结果，过程中的每一段时光都非常珍贵，都值得好好拥有。一个少有遗憾的生命一定是在生命中的每一天善待自己，善待家人，善待身边的人，不要过于忧虑未来，更不要透支生命去为未来打拼。</p><p data-pid=\"bHMhlCIr\">一个少有遗憾的人生一定享受追求成长的过程，而不纠结所谓的成功或是失败。</p><p data-pid=\"B0bc3C3k\">人生需要规划，但如果过多设限，人生可能会少了很多可能性，人生需要几分随性甚至任性，才能在人生路上领略不一样的风景</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-8c8c875c06481e58c1c84faf46c1be25_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-426bdb1661636c08f0b9b2a10dbad8e0_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-72d4fd4b71700e114eb283146fbf5b09_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-426bdb1661636c08f0b9b2a10dbad8e0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a71f5fa2d78be8a2686a2b3d12cdf074_720w.jpg?source=b6762063"
+        ],
+        "preview_type": "default",
+        "is_labeled": false,
+        "favorite_count": 0,
+        "author": {
+          "name": "太极猫拳",
+          "is_org": false,
+          "id": "e368ef1893bb9e064cb4d2b71f5fd2c5",
+          "url": "https://api.zhihu.com/people/e368ef1893bb9e064cb4d2b71f5fd2c5",
+          "user_type": "people",
+          "url_token": "men-97-11",
+          "is_following": false,
+          "is_followed": false,
+          "headline": "认知科学，成长，治愈和触动灵魂的输出",
+          "avatar_url": "https://picx.zhimg.com/50/v2-09b1538126b91566ef75e42ec5142c6b_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 223
+        },
+        "created_time": 1768636456,
+        "question": {
+          "detail": "",
+          "author": {
+            "followers_count": 992,
+            "is_following": false,
+            "is_followed": false,
+            "id": "3229a27aa8cf92014fbfe70d8e5dbddf",
+            "user_type": "people",
+            "name": "Howard Dominic",
+            "is_org": false,
+            "gender": 0,
+            "url": "https://api.zhihu.com/people/3229a27aa8cf92014fbfe70d8e5dbddf",
+            "url_token": "howard-dominic",
+            "headline": "so",
+            "avatar_url": "https://pic1.zhimg.com/50/8a3383194_l.jpg?source=b6762063"
+          },
+          "created": 1330168038,
+          "bound_topic_ids": [
+            405,
+            478,
+            1546,
+            4761,
+            11526,
+            14565,
+            15344,
+            36101
+          ],
+          "url": "https://api.zhihu.com/questions/20085679",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "follower_count": 0,
+          "comment_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "question_type": "normal",
+          "id": "20085679",
+          "type": "question",
+          "title": "怎么理解或做到诸多成功人士所讲的“不要给人生自己设限”？"
+        },
+        "excerpt": "人生怎么过都会有遗憾，因为没有人的人生是完美的。所以，早点放弃追求一个没有遗憾的完美人生。但是努力少一些遗憾还是有可能的。 怎么少一些遗憾呢？我觉得就是过好当下。有句话说人无远虑必有近忧，辛苦的人们总是苛求自己把握今天，深挖洞广积粮，为的是给明天做充足的准备，怕生老病死无处安身立命。但殊不知我们很多人在为未来奋力打拼的时候也在无意中透支了生命，错过了当下的美好。 也有很多人信仰及时行乐，因为人…",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "id": "1995886637763278297",
+        "url": "https://api.zhihu.com/answers/1995886637763278297",
+        "updated_time": 1768636456,
+        "comment_count": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995886637763278297}",
+      "attached_info": "Co0ICMG6wZK22Oj4rgEQBBoJNzY1ODEwMjIyIKiArcsGKAEwAEA6SiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgYyMTQzMDZiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk1ODg2NjM3NzYzMjc4Mjk3igEIMjAwODU2NzmqAQlyZWNvbW1lbmTCASBlMzY4ZWYxODkzYmI5ZTA2NGNiNGQyYjcxZjVmZDJjNfIBCggMEgZOb3JtYWzyASgIChIkNjhhNWY1NWQtMTVlNS00N2IxLWFhNzYtNjk1YTlmMzVlODgy8gEGCAsSAjEwggIAiALI9vzpvDOSAiBlMzY4ZWYxODkzYmI5ZTA2NGNiNGQyYjcxZjVmZDJjNZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXKAhpDb250ZW50V2FybVVwSXNvbGF0aW9uUnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDHoAgL6AgtOT1JNQUxfRkxPV4oDIDExMjJmZDEyZWEyYTQyMDVhODRlN2E3MGFkOTA1YTcxmgMNCgJ2MhAAGgVvdGhlcqgDBtgDAOoDGmFpX3poaV9maW5ldHVucl9pMmlfcmVjYWxs+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEMAHGNAFIiN2Mi04YzhjODc1YzA2NDgxZTU4YzFjODRmYWY0NmMxYmUyNTotCAQQwAcY0AUiI3YyLTQyNmJkYjE2NjE2MzZjMDhmMGI5YjJhMTBkYmFkOGUwOi0IBBDABxjQBSIjdjItNzJkNGZkNGI3MTcwMGUxMTRlYjI4MzE0NmZiZjViMDk6LQgEEMAHGNAFIiN2Mi00MjZiZGIxNjYxNjM2YzA4ZjBiOWIyYTEwZGJhZDhlMDotCAQQwAcY0AUiI3YyLWE3MWY1ZmEyZDc4YmU4YTI2ODZhMmIzZDEyY2RmMDc0gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABARgWGP4EFAAAAAAAAAACJBTHMHbJMvLM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQqQBgCgBjqoBgGSAi4KCTc2NTgxMDIyMhITMTk5NTg4NjYzNzc2MzI3ODI5NxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "59_1768675031.44",
+      "type": "feed",
+      "offset": 59,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675031,
+      "updated_time": 1768675031,
+      "target": {
+        "content": "<p data-pid=\"1-RFiz8Q\">       很多工程师在从传统运维或 Docker 转向 Kubernetes (K8s) 时，都会经历一段强烈的“挫败期”：</p><blockquote data-pid=\"KZpkUmV8\">我明明精通 Linux，Docker 玩得很溜，后端代码也写得好好的，为什么一上 K8s 就各种报错？连个简单的服务都跑不通？</blockquote><p data-pid=\"P5HUTMRi\">       其实，这真不是你菜。根本原因在于：<b>Kubernetes 从来就不是一个简单的“容器管理工具”，它是一套独立的、完整的分布式系统操作系统。</b>它的设计哲学与我们过去几十年的运维习惯是背道而驰的。为了少走弯路，我总结了 K8s 入门必经的 12 个“深坑”。这些坑，每一个都对应着一次思维的阵痛与蜕变。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-865914246c92c290d1e559eb9701ed18_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2004\" data-rawheight=\"862\" data-original-token=\"v2-5e9cfe466e89a15151220b3ebb1fdd98\" class=\"origin_image zh-lightbox-thumb\" width=\"2004\" data-original=\"https://pica.zhimg.com/v2-865914246c92c290d1e559eb9701ed18_r.jpg\"/></figure><h2>第一阶段：认知崩塌（思维模式的转变）</h2><p data-pid=\"6wDLzdvj\">       这几个坑最致命，因为它们挑战的是你的直觉。</p><h3>01. 最致命的坑：把 K8s 当成“高级 Docker”</h3><ul><li data-pid=\"NQ6WQOet\"><b>❌ 新手直觉</b>：“Pod 不就是容器吗？挂了我 SSH 进去修一下就好了。”</li><li data-pid=\"x1OZ5zDZ\"><b>✅ K8s 真相</b>：<b>Pod 是用来被销毁的，而不是被修复的。</b> 在 K8s 的设计里，Pod 是“易碎品”（Ephemaral）。<br/></li><ul><li data-pid=\"vo2QUeMx\">Pod 不是虚拟机，它没有“身份”。</li><li data-pid=\"0Xk9AZyz\">Pod 随时可能因为节点故障、资源调度而被杀掉重建。</li><li data-pid=\"faTJIK0i\"><b>切记</b>：一旦你产生了“我要 SSH 进容器里改个配置/装个软件”的念头，你就已经违背了不可变基础设施（Immutable Infrastructure）的原则。</li></ul></ul><h3>02. “万能银弹”坑：以为上了 K8s 就高枕无忧</h3><ul><li data-pid=\"0bHXIvtF\"><b>❌ 新手直觉</b>：“系统不稳定？上 K8s 吧，它能自动修复。”</li><li data-pid=\"WHRUGlkJ\"><b>✅ K8s 真相</b>：<b>Kubernetes 是放大器。</b> 它会放大优良设计的优势，也会无限放大糟糕设计的缺陷。如果你的应用本身不支持优雅停机、没有重试机制、状态管理混乱，上了 K8s 只会死得更快、更惨。</li></ul><h3>03. 终极哲学坑：没意识到这是“范式迁移”</h3><ul><li data-pid=\"zhfVcoG1\"><b>❌ 新手直觉</b>：试图用脚本思维去理解 K8s。</li><li data-pid=\"JHgUbFnq\"><b>✅ K8s 真相</b>：这是一场从“宠物”到“牲畜”的思维革命。<br/></li><ul><li data-pid=\"add9tPpM\"><b>传统思维</b>：机器是昂贵的、可靠的，我们要精心呵护（Pet）。</li><li data-pid=\"kzMZx7Tz\"><b>云原生思维</b>：计算资源是廉价的、不稳定的，随时可以替换（Cattle）。</li><li data-pid=\"pHkF3qDH\">K8s 逼迫你回答一个问题：<b>你的代码，是为“不稳定的世界”而写的吗？</b></li></ul></ul><h2>第二阶段：机制陷阱（被忽视的复杂性）</h2><p data-pid=\"JfO204zP\">     这几个坑，往往是因为低估了 K8s 抽象层的复杂度。</p><h3>04. YAML 之坑：那不是配置文件，是“许愿单”</h3><ul><li data-pid=\"zEN_q0Au\"><b>❌ 新手直觉</b>：“写个 YAML 而已，跟写 Nginx 配置差不多吧？”</li><li data-pid=\"MrnNzqir\"><b>✅ K8s 真相</b>：<b>YAML 是 API 对象声明。</b> 你写的不是“步骤”，而是“期望状态”（Desired State）。缩进错一格，或者 <code>command</code> 覆盖了 Dockerfile 的 <code>ENTRYPOINT</code>，或者 <code>args</code> 覆盖了 <code>CMD</code>，都会导致诡异的行为。你必须精准地告诉 K8s 你想要什么，而不是怎么做。</li></ul><h3>05. Service 之坑：Pod 跑着 ≠ 服务能用</h3><ul><li data-pid=\"1VcKAO_a\"><b>❌ 新手直觉</b>：“Pod 状态是 Running，日志也正常，为什么 curl 不通？”</li><li data-pid=\"9p7JBd8G\"><b>✅ K8s 真相</b>：<b>Pod 负责“生存”，Service 负责“社交”。</b> 这是两套完全解耦的抽象。<br/></li><ul><li data-pid=\"1MI9oIKE\">Selector 标签写错一个字母，Service 就找不到后端 Pod。</li><li data-pid=\"qAvcZjPV\"><code>containerPort</code> 和 <code>servicePort</code> 傻傻分不清。</li><li data-pid=\"kY4Nv4R9\"><b>切记</b>：在 K8s 里，没有 Service 的 Pod 是一座孤岛。</li></ul></ul><h3>06. 网络之坑：不要依赖 Pod IP</h3><ul><li data-pid=\"_sNT4OxQ\"><b>❌ 新手直觉</b>：“我看了一下 Pod IP 是 10.1.x.x，我把它配到数据库白名单里。”</li><li data-pid=\"t6DRM8Fs\"><b>✅ K8s 真相</b>：<b>Pod IP 是整个集群里最不值钱的东西。</b> Pod 重启后 IP 一定会变（除非用特定网络插件）。如果你在代码或配置里硬编码了 Pod IP，你的系统在下一次发布时就会瘫痪。请永远通过 DNS 和 Service Name 通信。</li></ul><h3>07. 存储之坑：你以为你有“硬盘”，其实你没有</h3><ul><li data-pid=\"DKKssTc8\"><b>❌ 新手直觉</b>：“我在容器 <code>/data</code> 目录下写了文件，为什么重启就丢了？”</li><li data-pid=\"AhVRmFOV\"><b>✅ K8s 真相</b>：<b>容器的文件系统是临时的。</b> 除非你显式声明了 PVC (PersistentVolumeClaim) 并挂载，否则 Pod 一旦重启，写入容器层的数据就会烟消云散。对于数据库类应用，不懂 StatefulSet 和 PVC，就是灾难。</li></ul><h2>第三阶段：生产幻觉（以为能跑就是好）</h2><p data-pid=\"Y4vh885K\">这几个坑，通常发生在上线后的第一周。</p><h3>08. 资源限制坑：OOM 的罪魁祸首</h3><ul><li data-pid=\"xSWetvJL\"><b>❌ 新手直觉</b>：“我节点有 64G 内存，Pod 怎么会 OOM？”</li><li data-pid=\"7hR0vtCN\"><b>✅ K8s 真相</b>：<b>K8s 调度不看物理机剩余资源，只看你声明的 Requests/Limits。</b><br/></li><ul><li data-pid=\"xKzX6WPM\"><code>requests</code> 写小了，Pod 被调度到拥挤的节点，由于争抢资源被饿死。</li><li data-pid=\"n5KmMTGX\"><code>limits</code> 写小了，应用突发流量内存飙升，直接被内核 OOM Kill。</li><li data-pid=\"_ohKU56j\">不写资源限制？那是给集群埋雷。</li></ul></ul><h3>09. 健康检查坑：探针写错，比没写更危险</h3><ul><li data-pid=\"xqh8dgNb\"><b>❌ 新手直觉</b>：“加上 LivenessProbe，服务挂了能自动重启，完美。”</li><li data-pid=\"uNvWD9yK\"><b>✅ K8s 真相</b>：<b>你分得清“我活着”和“我能工作”吗？</b><br/></li><ul><li data-pid=\"mQOvNfnj\"><b>Liveness</b> (存活探针)：探测死锁。如果你把数据库连接检查写在这里，一旦数据库抖动，K8s 就会疯狂重启你的所有 Web 服务，导致雪崩。</li><li data-pid=\"n5eZBYoW\"><b>Readiness</b> (就绪探针)：探测服务能力。只有通过这个，Service 才会把流量切进来。</li><li data-pid=\"IZ33i3sg\">混用这两个探针，是新手引发生产事故的 Top 3 原因。</li></ul></ul><h3>10. 扩容幻想坑：无状态的谎言</h3><ul><li data-pid=\"bvefWwlz\"><b>❌ 新手直觉</b>：“扛不住了？<code>kubectl scale --replicas=10</code>！”</li><li data-pid=\"MrSwMG6x\"><b>✅ K8s 真相</b>：<b>K8s 能帮你复制进程，但不能帮你复制逻辑。</b> 如果你的应用有本地缓存、有定时任务（CronJob）、或者依赖顺序消费消息，盲目扩容只会导致数据不一致、任务重复执行或锁竞争。</li></ul><h3>11. 日志黑洞坑：日志去哪了？</h3><ul><li data-pid=\"mUzIBN1h\"><b>❌ 新手直觉</b>：习惯性想去 <code>/var/log</code> 找日志文件。</li><li data-pid=\"CP65iViI\"><b>✅ K8s 真相</b>：<b>日志是流（Stream）。</b> Pod 标准输出的日志由 Docker 引擎接管，如果不配置日志收集系统（如 EFK、Promtail），Pod 删除后，日志彻底消失。没有离线的日志收集策略，排查历史故障就是痴人说梦。</li></ul><h3>12. 学习焦虑坑：试图一次吃成胖子</h3><ul><li data-pid=\"PCpQCJX1\"><b>❌ 新手直觉</b>：一上来就死磕 Operator, Istio, CNI 原理。</li><li data-pid=\"dbntbSiw\"><b>✅ K8s 真相</b>：<b>二八原则。</b> K8s 概念极多，但 80% 的日常工作只需要 20% 的核心概念（Pod, Deployment, Service, ConfigMap, Secret, PVC）。先用这几个把业务跑起来，其他的（如 CRD, NetworkPolicy）等到遇到了痛点再学也不迟。</li></ul><h2>写在最后</h2><p data-pid=\"8EMVzx2h\">        看完这 12 个坑，你可能会觉得 Kubernetes 简直是“反人类”。但当你跨过这些坑，真正理解了它背后的<b>“声明式 API”、“控制循环”、“不可变基础设施”</b>等设计哲学后，你会发现：</p><blockquote data-pid=\"g3_eCffJ\"><b>Kubernetes 不是在折磨你，它是在强迫你构建一个更健壮、更现代化、更能适应不确定性的分布式系统。</b></blockquote>",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "type": "article",
+        "author": {
+          "headline": "空管Ph.D，航班正常性管理，双边交易市场，履约调度",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/a122eabf7f012b2bc69c86624b312f2d",
+          "name": "北冥鱼",
+          "url_token": "zhu-yun-92",
+          "avatar_url": "https://pica.zhimg.com/50/db69a344cd14d567f93c8d3305f1a53a_l.jpg?source=b6762063",
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "南京航空航天大学 交通运输规划与管理博士"
+            }
+          ],
+          "followers_count": 599,
+          "id": "a122eabf7f012b2bc69c86624b312f2d",
+          "user_type": "people"
+        },
+        "voteup_count": 26,
+        "preview_text": "",
+        "favorite_count": 90,
+        "allow_segment_interaction": true,
+        "comment_permission": "all",
+        "voting": 0,
+        "preview_type": "default",
+        "updated": 1766825827,
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-5e9cfe466e89a15151220b3ebb1fdd98.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-5e9cfe466e89a15151220b3ebb1fdd98_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "id": "1988290791655888699",
+        "url": "https://api.zhihu.com/articles/1988290791655888699",
+        "title": "K8s 入门必踩的 12 个坑：不是你菜，是设计哲学变了",
+        "image_url": "https://pic1.zhimg.com/v2-5e9cfe466e89a15151220b3ebb1fdd98.jpg?source=7e7ef6e2&needBackground=1",
+        "excerpt_new": "很多工程师在从传统运维或 Docker 转向 Kubernetes (K8s) 时，都会经历一段强烈的“挫败期”： 我明明精通 Linux，Docker 玩得很溜，后端代码也写得好好的，为什么一上 K8s 就各种报错？连个简单的服务都跑不通？ 其实，这真不是你菜。根本原因在于： Kubernetes 从来就不是一个简单的“容器管理工具”，它是一套独立的、完整的分布式系统操作系统。它的设计哲学与我们过去几十年的运维习惯是背道而驰的。为了少走弯路，我总结了…",
+        "is_labeled": false,
+        "article_type": "normal",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "很多工程师在从传统运维或 Docker 转向 Kubernetes (K8s) 时，都会经历一段强烈的“挫败期”： 我明明精通 Linux，Docker 玩得很溜，后端代码也写得好好的，为什么一上 K8s 就各种报错？连个简单的服务都跑不通？ 其实，这真不是你菜。根本原因在于： Kubernetes 从来就不是一个简单的“容器管理工具”，它是一套独立的、完整的分布式系统操作系统。它的设计哲学与我们过去几十年的运维习惯是背道而驰的。为了少走弯路，我总结了…",
+        "visited_count": 1491,
+        "comment_count": 7,
+        "column": {
+          "imageUrl": "https://picx.zhimg.com/v2-eea12f13b4fb702e55f5adfe62efbced_720w.jpg?source=d16d100b",
+          "intro": "K8s 像鲸群，Pod 像鲸，调度像洋流；在容器的海里造一座自己的岛：我的 K8s 学习随想。",
+          "updated": 1764388714,
+          "is_following": false,
+          "id": "c_1978069796135384801",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1978069796135384801",
+          "author": {
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "is_followed": false,
+            "id": "",
+            "url": "",
+            "is_org": false
+          },
+          "title": "我与 K8s 的漫长对话",
+          "comment_permission": "private"
+        },
+        "created": 1766825827
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1988290791655888699}",
+      "attached_info": "CqMHCMG6wZK22Oj4rgEQBxoJMjY4MjYwMzUzIOO+vsoGKBowB0A7SjAKBkl0ZW1DRhIgZG9jX3R5cGU6IEFydGljbGUKaWQ6IDI1NjczNTAzNgoYACAAOgBaCDEzNzk5MTIxYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk4ODI5MDc5MTY1NTg4ODY5OYIBX2h0dHBzOi8vcGljMS56aGltZy5jb20vdjItNWU5Y2ZlNDY2ZTg5YTE1MTUxMjIwYjNlYmIxZmRkOTguanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xigEVY18xOTc4MDY5Nzk2MTM1Mzg0ODAxqgEJcmVjb21tZW5kwgEgYTEyMmVhYmY3ZjAxMmIyYmM2OWM4NjYyNGIzMTJmMmTyAQoIDBIGTm9ybWFs8gEoCAoSJGVlODk1MjcxLWZhZjctNDFiOC04MzRiLTU1ZTk0ODcyMWU4NfIBBggLEgIxMIICAIgCyfb86bwzkgIgYTEyMmVhYmY3ZjAxMmIyYmM2OWM4NjYyNGIzMTJmMmSaAgDKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAgZJdGVtQ0boAgP6AgtOT1JNQUxfRkxPV4oDIDExMjJmZDEyZWEyYTQyMDVhODRlN2E3MGFkOTA1YTcxmgMNCgJ2MhAAGgVvdGhlcqgD0wvYAwDqAxV0ZXh0QWxsU2l0ZU12SXRlbUNGVjL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhDUDxjeBiIjdjItNWU5Y2ZlNDY2ZTg5YTE1MTUxMjIwYjNlYmIxZmRkOTiABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGAcEXY/gQUAAAAAAAAAAIkFMcwdsky8sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCpAGAKAGO6gGAJICLgoJMjY4MjYwMzUzEhMxOTg4MjkwNzkxNjU1ODg4Njk5GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=59&desktop=true&end_offset=59&page_number=11&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=59&desktop=true&end_offset=59&page_number=11&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

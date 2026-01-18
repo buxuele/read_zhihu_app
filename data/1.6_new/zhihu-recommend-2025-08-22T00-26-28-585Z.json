@@ -1,0 +1,587 @@
+{
+  "data": [
+    {
+      "id": "198_1755822434.777",
+      "type": "feed",
+      "offset": 198,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822434,
+      "updated_time": 1755822434,
+      "target": {
+        "id": "1939366753789519654",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939366753789519654",
+        "author": {
+          "id": "3e641b243827d1de622c7fd04f542662",
+          "url": "https://api.zhihu.com/people/3e641b243827d1de622c7fd04f542662",
+          "user_type": "people",
+          "url_token": "jiu-xia-wei-liang-93-87",
+          "name": "雾隐流光",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-86490ec6ed2330154e35bc890c1dd617_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755161065,
+        "updated_time": 1755161065,
+        "voteup_count": 3,
+        "thanks_count": 1,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1926261632864072080",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1926261632864072080",
+          "author": {
+            "id": "8da5e5ee5fb663861853357135e453d0",
+            "url": "https://api.zhihu.com/people/8da5e5ee5fb663861853357135e453d0",
+            "user_type": "people",
+            "url_token": "kubisoft",
+            "name": "白起",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/2de69c6da5e7da1183644d0c1408d6bf_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 34338,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何在国内合法、安全地使用上 Claude Code?",
+          "created": 1752036561,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            350,
+            1452,
+            2580908,
+            3903772
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-cddce0f70fdc74f9c6307a875ae17d5c_720w.jpg?source=b6762063",
+        "excerpt": "﻿本文转载自CSDN VSCode中通过Claude Code Router和Claude Code Chat可视化的使用claude code（支持调用第三方api） 很多人应该都用过Claude Code了，除了命令行版本，VSCode也有官方插件。虽然Claude Code功能强大，但价格偏高，模型选择受限，而且在VSCode中操作命令行始终不够顺手，体验上不如Copilot自然。不过现在这两个问题都有了不错的解决方案： 首先，GitHub上的 Claude Code Router 提供了OpenAI兼容API接入Claude Co…",
+        "excerpt_new": "﻿本文转载自CSDN VSCode中通过Claude Code Router和Claude Code Chat可视化的使用claude code（支持调用第三方api） 很多人应该都用过Claude Code了，除了命令行版本，VSCode也有官方插件。虽然Claude Code功能强大，但价格偏高，模型选择受限，而且在VSCode中操作命令行始终不够顺手，体验上不如Copilot自然。不过现在这两个问题都有了不错的解决方案： 首先，GitHub上的 Claude Code Router 提供了OpenAI兼容API接入Claude Co…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"1O_POmqI\">﻿本文转载自CSDN <a href=\"https://link.zhihu.com/?target=https%3A//blog.csdn.net/qq_43320208/article/details/150371364\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">VSCode中通过Claude Code Router和Claude Code Chat可视化的使用claude code（支持调用第三方api）</a></p><p data-pid=\"9mdyye33\">很多人应该都用过Claude Code了，除了命令行版本，VSCode也有官方插件。虽然Claude Code功能强大，但价格偏高，模型选择受限，而且在VSCode中操作命令行始终不够顺手，体验上不如Copilot自然。不过现在这两个问题都有了不错的解决方案：  </p><p data-pid=\"6Y7dGv2S\">首先，GitHub上的<a href=\"https://link.zhihu.com/?target=https%3A//github.com/musistudio/claude-code-router/blob/main/README_zh.md\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Claude Code Router</a>提供了OpenAI兼容API接入Claude Code的便捷方式，完美解决了第三方API接入的问题。  </p><p data-pid=\"pMGekUIY\">其次，VSCode插件<a href=\"https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3DAndrePimenta.claude-code-chat\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Claude Code Chat</a>为Claude Code提供了类似Copilot的直观操作界面。但需要注意的是，这个插件默认只能直接调用Claude Code，并不支持Claude Code Router。好在它开源了源码，我们可以通过简单修改配置文件并重新打包的方式，使其兼容Claude Code Router。  </p><p data-pid=\"J8TGbNqH\">下面我会先简单介绍这几个项目，并详细说明安装配置流程。</p><h2>1 Claude Code</h2><p data-pid=\"OQXV9IUo\">Claude Code 是 Anthropic 推出的创新型 Vibe 编程工具。与 Cursor 等代码代理工具类似，它支持开发者在命令行终端中进行交互式编程，通过 AI 辅助显著提升编码效率和体验。</p><p data-pid=\"Vmqvfedk\">该工具现已原生支持 Windows 系统，无需依赖 WSL。 安装只需在命令行执行：</p><div class=\"highlight\"><pre><code class=\"language-bash\">npm install -g @anthropic-ai/claude-code</code></pre></div><p data-pid=\"PdJwvjak\">安装完成后，直接输入 <code>claude</code> 命令即可启动使用。</p><h2>2 Claude Code Router</h2><p data-pid=\"icdZUiDB\">Anthropic 为 Claude Code 提供了自定义 API 功能，允许用户配置 Claude Code 调用兼容 Anthropic API 格式的第三方模型，从而实现更灵活经济的应用场景。</p><p data-pid=\"0yCee0R8\">开源项目 claude-code-router 正是基于这一特性开发的中间层工具。它能将 Claude Code 发出的 Anthropic API 请求转换为 OpenAI API 格式，并转发至任意兼容 OpenAI API 的模型（如 OpenRouter、Google Gemini、DeepSeek 等），最后将响应转换回 Anthropic 格式返回给 Claude Code。</p><h3>2.1 安装</h3><p data-pid=\"iB9O6aHK\">确保已安装 Claude Code 后，通过命令行执行以下安装命令：</p><div class=\"highlight\"><pre><code class=\"language-bash\">npm install -g @musistudio/claude-code-router</code></pre></div><h3>2.2 配置方法</h3><p data-pid=\"Agoz1671\">提供两种配置方式： 1. 手动创建并配置 <code>~/.claude-code-router/config.json</code> 文件 2. 通过 UI 界面进行配置（推荐）</p><p data-pid=\"zN-8d4da\">详细配置说明请参阅项目<a href=\"https://link.zhihu.com/?target=https%3A//github.com/musistudio/claude-code-router/blob/main/README_zh.md\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">帮助文档</a>。 </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-20f86333ab47f3ab431f5c4fd148e260_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3914\" data-rawheight=\"1946\" data-original-token=\"v2-cddce0f70fdc74f9c6307a875ae17d5c\" class=\"origin_image zh-lightbox-thumb\" width=\"3914\" data-original=\"https://pic1.zhimg.com/v2-20f86333ab47f3ab431f5c4fd148e260_r.jpg\"/><figcaption>配置界面示意图</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nuGe9hiK\">完成配置后，在命令行输入 <code>ccr code</code> 即可运行，界面与 Claude Code 完全一致，但实际调用的是之前配置的第三方模型。</p><h2>3 Claude Code Chat</h2><p data-pid=\"dgNsx0bf\">Claude Code Chat 是专为 VS Code 设计的智能插件，安装过程十分便捷。只需在 VS Code 扩展商店搜索&#34;Claude Code Chat&#34;，点击安装即可完成。不过我们暂不安装此插件，后续将对其进行修改以支持 Claude Code Router。 </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-dd0b5e9fb826955f21beb702aea50694_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1767\" data-rawheight=\"976\" data-original-token=\"v2-fe1eef74ac6bb86242240d7c2977781c\" class=\"origin_image zh-lightbox-thumb\" width=\"1767\" data-original=\"https://pic1.zhimg.com/v2-dd0b5e9fb826955f21beb702aea50694_r.jpg\"/><figcaption>在这里插入图片描述</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>4 修改Claude Code Chat以支持Claude Code Router</h2><p data-pid=\"IAm0T-Tp\"><b>操作步骤：</b></p><ol><li data-pid=\"tEBD6L1V\"><b>克隆仓库</b> 首先克隆或下载<a href=\"https://link.zhihu.com/?target=https%3A//github.com/andrepimenta/claude-code-chat\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Claude Code Chat仓库</a>，修改src/extension.ts文件中child_process.spawn启动进程的代码，将&#34;claude&#34;改为&#34;ccr code&#34;。 </li></ol><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-117876f76e5a52fd084b078be86c25fe_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1385\" data-rawheight=\"943\" data-original-token=\"v2-38aeb052a059d0ca3db3e0ca7f9cb737\" class=\"origin_image zh-lightbox-thumb\" width=\"1385\" data-original=\"https://pic1.zhimg.com/v2-117876f76e5a52fd084b078be86c25fe_r.jpg\"/><figcaption>操作截图</figcaption></figure><p><br/> </p><ol><li data-pid=\"-BXDVhTN\"><b>打包插件</b> 完成修改后，将项目打包为VSIX插件：<br/> </li></ol><blockquote data-pid=\"FT3UVji0\"> 注意：建议安装Visual Studio Enterprise的C++环境（勾选Node.js开发选项），避免编译错误</blockquote><p data-pid=\"L_Vo99gY\">在命令行中依次执行以下四个安装步骤：</p><div class=\"highlight\"><pre><code class=\"language-bash\">npm install\nnpm run compile\nnpm install -g vsce\nvsce package</code></pre></div><p data-pid=\"j3J1LAB8\">四个步骤的简要说明： 1. 安装项目依赖 2. 编译JavaScript代码 3. 安装VSIX打包工具 4. 生成VSIX安装包</p><p data-pid=\"uCgqb783\">完成后，项目根目录会生成.vsix扩展安装文件。</p><ol><li data-pid=\"4OPGIZMN\"><b>安装扩展</b> 在VS Code中</li><li data-pid=\"8XnW00zo\">按Ctrl+Shift+P</li><li data-pid=\"yUEJl0oF\">输入&#34;Extensions: Install from VSIX&#34;</li><li data-pid=\"5JLI_Khz\">选择生成的.vsix文件</li></ol><p data-pid=\"uVTKjTKN\">或通过插件市场： - 点击右上角三个点 - 选择&#34;Install from VSIX&#34;选项 </p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-585e80cdecb9419bdb6b84172229299e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"456\" data-rawheight=\"321\" data-original-token=\"v2-c43c03ee0035734e57c4cbe682d012bf\" class=\"origin_image zh-lightbox-thumb\" width=\"456\" data-original=\"https://pica.zhimg.com/v2-585e80cdecb9419bdb6b84172229299e_r.jpg\"/><figcaption>安装截图</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><ol><li data-pid=\"7X_fgwae\"><b>开始畅玩：</b> 至此，就可以使用接入第三方api的Claude Code Chat啦。不用在该插件中修改模型，其会自动调用Claude Code Router。模型调用完全取决于Claude Code Router的配置，thinking mode下会调用Claude Code Router配置的思考模型。 </li></ol><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2a3f68e6d24e2b677a5d4221a0cb8ab2_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3914\" data-rawheight=\"1946\" data-original-token=\"v2-7e4230184468ee608791b90dd7fa80b3\" class=\"origin_image zh-lightbox-thumb\" width=\"3914\" data-original=\"https://pic1.zhimg.com/v2-2a3f68e6d24e2b677a5d4221a0cb8ab2_r.jpg\"/><figcaption>在这里插入图片描述</figcaption></figure><p data-pid=\"wWx2Lk3g\"><b>实际效果</b> 这里我用的是中转api，所以模型名称会有时间后缀 </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-082e4406746e9060eb5eddb1294dc1b5_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"787\" data-rawheight=\"911\" data-original-token=\"v2-e3ca594f7bd6a181c3fd4ede5975f40c\" class=\"origin_image zh-lightbox-thumb\" width=\"787\" data-original=\"https://pic4.zhimg.com/v2-082e4406746e9060eb5eddb1294dc1b5_r.jpg\"/><figcaption>在这里插入图片描述</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gR6VURMY\"><b>已经打包好的扩展</b> 如果上述步骤出现了问题，那就用我打包好的扩展吧 <a href=\"https://link.zhihu.com/?target=https%3A//download.csdn.net/download/qq_43320208/91665328\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">download.csdn.net/downl</span><span class=\"invisible\">oad/qq_43320208/91665328</span><span class=\"ellipsis\"></span></a></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 278,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-cddce0f70fdc74f9c6307a875ae17d5c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-fe1eef74ac6bb86242240d7c2977781c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-38aeb052a059d0ca3db3e0ca7f9cb737_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7e4230184468ee608791b90dd7fa80b3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e3ca594f7bd6a181c3fd4ede5975f40c_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 7,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939366753789519654}",
+      "attached_info": "CtMHCN6V7+L6reWdiwEQBBoJNzQyMTc5MDk4IOnD9sQGKAMwAEDGAUovCgZJdGVtQ0YSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDc0MTgyNzI0OAoYACAAOgBaCTExNTczODc4M2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MzkzNjY3NTM3ODk1MTk2NTSKARMxOTI2MjYxNjMyODY0MDcyMDgwqgEJcmVjb21tZW5kwgEgM2U2NDFiMjQzODI3ZDFkZTYyMmM3ZmQwNGY1NDI2NjLyAQoIDBIGTm9ybWFs8gEoCAoSJDg2MTVkYTgxLTQ5Y2ItNGE0Yy1hMjJmLWI0YzNlOGJmYjhlY/IBBggLEgIzNIICAIgCs9Ow+YwzkgIgM2U2NDFiMjQzODI3ZDFkZTYyMmM3ZmQwNGY1NDI2NjKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAgZJdGVtQ0boAgP6AgtOT1JNQUxfRkxPV4oDIDViMThhMWE3ZjU2NjQ3ZWI5Y2I3MjBhZWI4ZWZkNzEwmgMNCgJ2MhAAGgVvdGhlcqgDlgLYAwDqAxV0ZXh0QWxsU2l0ZU12SXRlbUNGVjL6A7kCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQyh4Ymg8iI3YyLWNkZGNlMGY3MGZkYzc0ZjljNjMwN2E4NzVhZTE3ZDVjOi0IAhDnDRjQByIjdjItZmUxZWVmNzRhYzZiYjg2MjQyMjQwZDdjMjk3Nzc4MWM6LQgCEOkKGK8HIiN2Mi0zOGFlYjA1MmEwNTlkMGNhM2RiM2UwY2E3ZjljYjczNzotCAIQyAMYwQIiI3YyLWM0M2MwM2VlMDAzNTczNGU1N2M0Y2JlNjgyZDAxMmJmOi0IAhDKHhiaDyIjdjItN2U0MjMwMTg0NDY4ZWU2MDg3OTFiOTBkZDdmYTgwYjM6LQgCEJMGGI8HIiN2Mi1lM2NhNTk0ZjdiZDZhMTgxYzNmZDRlZGU1OTc1ZjQwY4AEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgDE9pz+BBQAAAAAAAAAAiQVcdzOB01XZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUikAYAoAbIAagGAZICLgoJNzQyMTc5MDk4EhMxOTM5MzY2NzUzNzg5NTE5NjU0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "199_1755822434.195",
+      "type": "feed",
+      "offset": 199,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822434,
+      "updated_time": 1755822434,
+      "target": {
+        "id": "1939630104864092838",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939630104864092838",
+        "author": {
+          "id": "6cf1071e4aeacc605f3a697b326e5904",
+          "url": "https://api.zhihu.com/people/6cf1071e4aeacc605f3a697b326e5904",
+          "user_type": "people",
+          "url_token": "man-ding-ding-68",
+          "name": "芝士青年OoO",
+          "headline": "自由职业者，分享不被定义的人生。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-89e956d251d27e319be1bcc04df37708_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "PMP 项目管理专业人员资格证持证人"
+            }
+          ],
+          "followers_count": 12324,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755223853,
+        "updated_time": 1755223853,
+        "voteup_count": 72,
+        "thanks_count": 1,
+        "comment_count": 40,
+        "is_copyable": true,
+        "question": {
+          "id": "649663386",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/649663386",
+          "author": {
+            "id": "481131c14a9181302ed41fe139119599",
+            "url": "https://api.zhihu.com/people/481131c14a9181302ed41fe139119599",
+            "user_type": "people",
+            "url_token": "yao-mao-dun",
+            "name": "作家出版人姚茂敦",
+            "headline": "作家、出版人，新书《爆文创富》已上市。可付费问出版、写作问题",
+            "avatar_url": "https://picx.zhimg.com/50/v2-d876bd99113de3f47ed7b65549c97722_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "四川香阅天下文化传播有限公司 总编辑"
+              }
+            ],
+            "followers_count": 10271,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "在知乎，涨到一万粉，是不是很难？",
+          "created": 1711095286,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 3,
+          "bound_topic_ids": [
+            2,
+            39706
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-86f27596b8cd066d0fdf9123d651e2c8_720w.jpg?source=b6762063",
+        "excerpt": "现在做知乎，涨不涨粉其实没那么重要，关键还得看“变现能力”。虽然不能保证月入过万，但每月赚个“伙食费”还是绰绰有余的。   我在知乎创作3年多，累计了1.1万粉，总共写了100万字，非常有成就感，也让我收获了副业的“第一桶金”。   知乎给我的感觉更像是一款“策略竞技游戏”，通过各种评分、指标和规则，不断调整创作策略，提升内容质量和吸引力，从而获取更多粉丝和收益。我也算是半个知乎资深老玩家了，今天想在这里把我 …",
+        "excerpt_new": "现在做知乎，涨不涨粉其实没那么重要，关键还得看“变现能力”。虽然不能保证月入过万，但每月赚个“伙食费”还是绰绰有余的。   我在知乎创作3年多，累计了1.1万粉，总共写了100万字，非常有成就感，也让我收获了副业的“第一桶金”。   知乎给我的感觉更像是一款“策略竞技游戏”，通过各种评分、指标和规则，不断调整创作策略，提升内容质量和吸引力，从而获取更多粉丝和收益。我也算是半个知乎资深老玩家了，今天想在这里把我 …",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"577hx0E2\"><b>现在做知乎，涨不涨粉其实没那么重要，关键还得看“变现能力”。</b></p><p data-pid=\"Kv5vxY56\">虽然不能保证月入过万，但每月赚个“伙食费”还是绰绰有余的。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c37ed3f01aafe8ba7ac1ba848e4fb424_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"418\" data-rawheight=\"169\" data-original-token=\"v2-c37ed3f01aafe8ba7ac1ba848e4fb424\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-9c2f3bb04c3ed16363e475a29260922f_b.jpg\" class=\"content_image\" width=\"418\"/></figure><p data-pid=\"u9UgNstO\"><b>我在知乎创作3年多，累计了1.1万粉，总共写了100万字，非常有成就感，也让我收获了副业的“第一桶金”。</b></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-86f27596b8cd066d0fdf9123d651e2c8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1216\" data-rawheight=\"1541\" data-qrcode-action=\"none\" data-original-token=\"v2-86f27596b8cd066d0fdf9123d651e2c8\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-992d49853c230a5e06ff10c42f2fd166_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1216\" data-original=\"https://pica.zhimg.com/v2-86f27596b8cd066d0fdf9123d651e2c8_r.jpg\"/></figure><p data-pid=\"gi4Hau8R\"><b>知乎给我的感觉更像是一款“策略竞技游戏”，通过各种评分、指标和规则，不断调整创作策略，提升内容质量和吸引力，从而获取更多粉丝和收益。</b></p><p data-pid=\"h06YZsZ-\">我也算是半个知乎资深老玩家了，今天想在这里把我<b>玩知乎3年的“涨粉”和“变现”攻略做个总结，顺便也可以帮助“新手玩家”在知乎拿到结果。</b><i>（可以先点个赞+收藏，当“游戏地图”，时不时拿出来看一看）</i></p><p data-pid=\"dZ0ifbaL\">我把在知乎涨到1万粉的目标分为三个阶段：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-58cc71820e3c13f30725b1b89e65dafd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"799\" data-rawheight=\"229\" data-original-token=\"v2-58cc71820e3c13f30725b1b89e65dafd\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-74fac1b95bd2a524ce4b955d914baf51_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"799\" data-original=\"https://picx.zhimg.com/v2-58cc71820e3c13f30725b1b89e65dafd_r.jpg\"/></figure><h2>第一阶段：新手村训练（0~500粉）</h2><p data-pid=\"5CRI9awd\"><b>0到1的过程是最难的，但你要是能熬过新手期，就能超过90%的创作者，晋级到下一阶段。</b></p><p data-pid=\"v1j1Da94\">下面分享3个新手攻略秘籍，助你早日通关500粉。</p><h3>1）读懂游戏规则：</h3><p data-pid=\"UnHuu-4V\">新手刚开始不要急于创作，先把平台规则搞清楚，尤其是平台有哪些“禁忌”。</p><p data-pid=\"EPT77OYv\">比如：</p><p data-pid=\"Z8vaKPuT\"><i>禁止站外导流；</i></p><p data-pid=\"Iea1sWKj\"><i>禁止侵犯他人版权；</i></p><p data-pid=\"vNiyD8sz\"><i>禁止留个人联系方式；</i></p><p data-pid=\"PNpZuHxp\">......</p><p data-pid=\"K5cPHWXi\">我玩知乎前关注过一个大佬，马上就1万粉，<b>因为触及了平台红线，所以被“永久禁言”，至今没有解封。</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-12301c81be7b0f49e7ac86664d8bad15_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"631\" data-rawheight=\"307\" data-original-token=\"v2-12301c81be7b0f49e7ac86664d8bad15\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-8651dbcde744569a1cfeae395366e727_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"631\" data-original=\"https://pic2.zhimg.com/v2-12301c81be7b0f49e7ac86664d8bad15_r.jpg\"/></figure><p data-pid=\"q4_O5JpD\">所以，想要在平台<b>早日升级，赚取收益，少走弯路，首先要读懂“平台规则”</b>。</p><p data-pid=\"O7bFDyfc\">否则，一旦不小心违规，就只能重新开始。</p><h3>2）刷经验值：</h3><p data-pid=\"0leAhwI0\">读懂平台规则后，就可以<b>开启我们的“主线任务”——写回答上分</b>。</p><p data-pid=\"fRZrHZk3\">新手刚开始，有一个<b>“冷启动”期</b>。</p><p data-pid=\"NI_yawhk\">这个阶段没流量、没粉丝很正常，确定好领域后，只要坚持回答问题即可，先把自己的分数刷上去，才能提升账号的影响力。</p><p data-pid=\"NTJmIp-E\">建议：</p><p data-pid=\"FasqjwOq\"><b>内容要求：</b>每篇回答至少800字以上+3张配图。</p><p data-pid=\"dszAruRM\"><b>更新频率：</b>能日更日更，不能日更就一周3-5更，在保证质量的前提下，固定频率更新。</p><p data-pid=\"iKO9f1CP\">这样可以让系统识别到你是一个“创作者”，而非“用户”，进而根据你的创作领域和关键词，给你的账号打“标签”，这个过程可能持续1个月左右。</p><p data-pid=\"mcU4snFQ\">在此期间，你的“创作分”和“等级”都在逐步积累，迎来“破壳重生”。</p><p data-pid=\"Zk19UrJg\">如果不能快速掌握“游戏规则”，通过“新手村训练”，那可能还没有开始就已经放弃了，这个阶段至少能淘汰60%的新手。</p><p data-pid=\"OBjiHWgL\">所以，新手想做知乎，先做好以下准备，为起号打好基础，防止踩坑：</p><h3>3）组队刷副本：</h3><p data-pid=\"dvb4L89_\">一个人单打独斗成长的很慢，组队战斗才能让经验值翻倍增长。</p><p data-pid=\"sd4tx2Mi\">所以<b>在知乎创作，一定要先找到组织，这样才能让你踏上正确的轨道，快速成长。</b></p><p data-pid=\"zGwtzCwZ\">比如我是“职场领域”答主，那么我会更倾向于选择#职场#这个标签下的问题回答。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ec05029d29a8b17da16a6b9bb0144c02_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"739\" data-rawheight=\"252\" data-original-token=\"v2-ec05029d29a8b17da16a6b9bb0144c02\" data-default-watermark-src=\"https://picx.zhimg.com/v2-512f4992a59b7ba59a7df9a674b615fb_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"739\" data-original=\"https://pica.zhimg.com/v2-ec05029d29a8b17da16a6b9bb0144c02_r.jpg\"/></figure><p data-pid=\"6N380RGv\">我们点击#职场#这个标签，能看到这个标签下面所有的问题，还能看到它的“父话题”和“子话题”，凡是带有这些标签的问题，都属于你的垂直领域问题，可以多去回答。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-97adcad44baac25fcc984fc874f54636_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1172\" data-rawheight=\"857\" data-original-token=\"v2-97adcad44baac25fcc984fc874f54636\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-b309e7f167b966fc17d8c9a1464ae710_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1172\" data-original=\"https://pic1.zhimg.com/v2-97adcad44baac25fcc984fc874f54636_r.jpg\"/></figure><p data-pid=\"jTegvHbs\">跟着组织走，不容易迷失方向，还能增加自己在垂直领域中的“曝光率”，优秀者不到3个月，大概就能达到500粉，进入到下一阶段。</p><h2>第二阶段：中级副本攻略（500~3000粉）</h2><p data-pid=\"dFL-V3R-\">来到第二阶段，就要上难度了。<b>这个阶段的打法和装备都需要“双双升级”</b>。</p><p data-pid=\"6Az1iBbV\">达到500粉可以先<b>开通“致知计划”</b>，这样就可以一边升级，一边在知乎赚钱，形成良性循环，让账号的“影响力”和“收益”像滚雪球一样，越滚越大。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ec04d3c99ff2b13a9a9273c55e982ee3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"476\" data-rawheight=\"376\" data-original-token=\"v2-ec04d3c99ff2b13a9a9273c55e982ee3\" data-default-watermark-src=\"https://pica.zhimg.com/v2-7e8a46eb3fb5c896de8a57e4bf0ec758_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"476\" data-original=\"https://picx.zhimg.com/v2-ec04d3c99ff2b13a9a9273c55e982ee3_r.jpg\"/></figure><p data-pid=\"MKxKy_M1\">那么如何进一步提升账号的影响力呢？</p><p data-pid=\"W1gRTIKS\"><b>“创作质量”是你在平台最大的“技能值”。</b></p><p data-pid=\"d9DEeixm\">内容质量不高，其他buff叠的再满，也效果平平。</p><p data-pid=\"GR5d9yhy\">所以这一步是谁都绕不开的，别想着投机取巧，下功夫磨练自己的真本事，才能走得更长更远。</p><p data-pid=\"YGvAI2J6\">不过有技能还不够，掌握“策略”才能让价值最大化。</p><p data-pid=\"B4HqTRHS\">其实知乎的爆款回答都是相似的，下面我已经给你们总结出来了，新手可以直接按照公式套，然后再融会贯通。</p><h3><b>1、文章开头</b></h3><p data-pid=\"kee1wfZR\">开头20-30个字一定要抓住用户眼球，否则后面内容写的再好也是白搭。</p><p data-pid=\"yPv4gNGi\">知乎常见的3种爆款开头：</p><p data-pid=\"gva4xr54\">①直接给出答案</p><p data-pid=\"G0_nUgq9\">开头直接表明自己的观点，然后再逐步进行论证。</p><p data-pid=\"qTDOL-AI\">节省读者的阅读成本，点名要害。</p><p data-pid=\"lNBKfizb\">②讲故事</p><p data-pid=\"px_wt7Vx\">开头先讲一个与问题相关的故事，将读者带入到问题中，尤其是亲身经历的故事，更容易引发读者的理解和共鸣。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f5c000c2f14c11c52ee72e4d991f14af_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"807\" data-rawheight=\"292\" data-original-token=\"v2-f5c000c2f14c11c52ee72e4d991f14af\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-7975eab78c631d045d04426da8353d4b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"807\" data-original=\"https://pic4.zhimg.com/v2-f5c000c2f14c11c52ee72e4d991f14af_r.jpg\"/></figure><p data-pid=\"-DrYuBmW\">这种方法屡试不爽，显得更真实和接地气，比起那些讲大道理的文章，读者更爱看这种真实的个人经历所总结出来的经验和感悟。</p><p data-pid=\"YkmlWRn1\">③反常识</p><p data-pid=\"uBmgkvrU\">开头用和大众相反的逻辑和观念，打破读者预期，引发好奇心和阅读欲望。</p><p data-pid=\"SGniAP9k\">比如问题：读书一定要读完吗？</p><p data-pid=\"bl9v7TJk\">回答：我读了1000本书后才发现，90%的书根本没必要读完。</p><h3><b>2、文章内容</b></h3><p data-pid=\"LVfX5CSI\"><b>内容不要讲大道理，不要自嗨，一定要言之有物，让用户有“获得感”。</b></p><p data-pid=\"I2c8y9Bt\">平日里多收集一些素材和案例，这样能使文章更立体和丰满。</p><p data-pid=\"iADv31U9\">短平快的时代，读者耐心有限，所以内容切忌长篇大论，<b>一个段落最好不要超过3行</b>，巧用小标题和字体给内容分段整理，增加可阅读性。</p><p data-pid=\"u6nsndkw\">在回答中<b>适量增加截图和数据</b>，也能让读者阅读起来赏心悦目。</p><h3><b>3、文章结尾</b></h3><p data-pid=\"nxeJvdAU\">很多人写道最后就草草收尾，俗称烂尾。</p><p data-pid=\"9iXfVzpK\">其中文章的结尾跟开头一样重要，尤其起到了跟读者互动的关键因素。</p><p data-pid=\"-Fe03lgK\"><b>结尾除了要对核心论点起到升华作用，也别忘了留钩子，引导读者多点赞互动，</b>因为只有互动多的回答，后期的流量和推荐才会源源不断。</p><p data-pid=\"jb7v9Tgy\">所以结尾也很重要，千万别草草了事。</p><p data-pid=\"SderoDJ5\">以上就是知乎常见的爆款回答公式，通过刻意练习，一定能给你的文章锦上添花。</p><p data-pid=\"CVbfN62n\">除此之外，也别忘了<b>多参加知乎官方活动，多参与官方话题、圆桌问题等，提升账号权重，增加曝光率。</b></p><h2>第三阶段：挑战终极BOSS（3000~10000粉）</h2><p data-pid=\"SeV5gBwk\">涨到3000粉，10000粉就不远了。</p><p data-pid=\"RFYQSdoF\">这个阶段就像马拉松的终段，需要最后一搏，坚持住了，突破一万粉指日可待。</p><p data-pid=\"2nC-ORrv\">除了日常回答问题外，我们还需要在账号运营上下一番功夫。</p><h3>第一步：提升角色等级</h3><p data-pid=\"8JqKUoeO\">为什么你的赞很多，数据很好，却排不到回到第一名？</p><p data-pid=\"uwIHYu1Z\">其实这跟账号权重有关，账号权重越高，回答问题排名就越靠前。</p><p data-pid=\"SJ5wEwyH\"><b>我总结的账号权重，可能跟以下3点有关：</b></p><p data-pid=\"QqhKbVEw\"><b>1、垂直领域占比</b></p><p data-pid=\"YSsJ6eLe\">我点亮的垂直领域是职场领域，占比大概在50%左右。</p><p data-pid=\"rErByHhK\">所以我在回答职场领域问题时排名就会相对靠前，而在其他领域，排名就会靠后。</p><p data-pid=\"VSDj-NjL\"><b>2、提升创作分值</b></p><p data-pid=\"aukQXAf2\">以下6个维度，最好能达到所在等级的创作分均值，或者超越均值，这样账号权重就会比较靠前。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-1de65263bcc177f8945ebb4fb8bbc1b6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"752\" data-rawheight=\"912\" data-original-token=\"v2-1de65263bcc177f8945ebb4fb8bbc1b6\" data-default-watermark-src=\"https://picx.zhimg.com/v2-c73f85ae98e098554dc5bd9d73838f75_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"752\" data-original=\"https://pic3.zhimg.com/v2-1de65263bcc177f8945ebb4fb8bbc1b6_r.jpg\"/></figure><p data-pid=\"LoRKSVIo\">平时我们在不影响创作质量的前提下，想要快速提升账号权重，可以增加回答问题的数量。</p><p data-pid=\"FDkDsQIT\"><b>3、提升盐值分</b></p><p data-pid=\"AyjBgyJg\">这个分数也很重要，它也是决定你账号权重的一个因素。</p><p data-pid=\"iSHTZ-UI\">根据详情，对照的去提升分数就可以。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-318c0484425a94290b666372e1fa679f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"768\" data-rawheight=\"522\" data-original-token=\"v2-318c0484425a94290b666372e1fa679f\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-1cf411d4fa6bb2e009c508050e52b5ed_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"768\" data-original=\"https://picx.zhimg.com/v2-318c0484425a94290b666372e1fa679f_r.jpg\"/></figure><h3>第二步：资源和装备积累</h3><p data-pid=\"ZzbNG_t3\">堆量、堆量、堆量。</p><p data-pid=\"vjL16Upd\">你写的回答越多，曝光量就越大，影响力自然也越大。</p><p data-pid=\"ExEXz4qs\">有很多大佬一天能写8-10篇回答，他们就是在堆量，扩大影响力范围，积累更多的新用户。</p><p data-pid=\"08dXL32g\">如果精力和时间允许，在保证内容质量的前提下，多写回答，可以让你的粉丝快速增长。</p><h3>第三步：获得成就勋章于头衔</h3><p data-pid=\"VMsHrpPm\">获得荣誉称号，能让你的账号权重更高，从而进一步扩大影响力。</p><p data-pid=\"X_6momb4\">例如“优秀答主”、“年度新知答主”这样的称号，不仅能得到头衔和荣誉，还能获得知乎官方运营老师的扶持，使其更上一层楼。</p><hr/><p data-pid=\"cyqGBLxD\">所以总体来讲，知乎达到一万粉并不是很难。</p><p data-pid=\"CK16Ejai\">只要能踏踏实实做内容，坚持输出，运营好账号权重，多参加官方活动，遵守平台规则，一万粉指日可待。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1182,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-86f27596b8cd066d0fdf9123d651e2c8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-97adcad44baac25fcc984fc874f54636_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1de65263bcc177f8945ebb4fb8bbc1b6_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 45,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939630104864092838}",
+      "attached_info": "CrMJCN6V7+L6reWdiwEQBBoJNzQyMjgwNTkwIK2u+sQGKEgwKEDHAUo4Ci1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0ISATAYACAAOgBaCTEwNjY0NzM3MmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5Mzk2MzAxMDQ4NjQwOTI4MziKAQk2NDk2NjMzODaqAQlyZWNvbW1lbmTCASA2Y2YxMDcxZTRhZWFjYzYwNWYzYTY5N2IzMjZlNTkwNPIBCggMEgZOb3JtYWzyASgIChIkMjUyNzZkZGItZWIwNC00MDU0LWI2ZGUtNjdmMWE1ZmFkMDgx8gEGCAsSAjM0ggIAiAKz07D5jDOSAiA2Y2YxMDcxZTRhZWFjYzYwNWYzYTY5N2IzMjZlNTkwNJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAi1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0LoAgT6AgtOT1JNQUxfRkxPV4oDIDViMThhMWE3ZjU2NjQ3ZWI5Y2I3MjBhZWI4ZWZkNzEwmgMNCgJ2MhAAGgVvdGhlcqgDngnYAwDqAypJbnRlcmVzdFdvcmRDb250ZW50VmFsdWVMZXZlbEJQb29sUmVjYWxsZXL6A/UDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQogMYqQEiI3YyLWMzN2VkM2YwMWFhZmU4YmE3YWMxYmE4NDhlNGZiNDI0Oi0IAhDACRiFDCIjdjItODZmMjc1OTZiOGNkMDY2ZDBmZGY5MTIzZDY1MWUyYzg6LQgDEJ8GGOUBIiN2Mi01OGNjNzE4MjBlM2MxM2YzMDcyNWIxYjg5ZTY1ZGFmZDotCAIQ9wQYswIiI3YyLTEyMzAxYzgxYmU3YjBmNDllN2FjODY2NjRkOGJhZDE1Oi0IAhDjBRj8ASIjdjItZWMwNTAyOWQyOWE4YjE3ZGExNmE2YjliYjAxNDRjMDI6LQgCEJQJGNkGIiN2Mi05N2FkY2FkNDRiYWFjMjVmY2M5ODRmYzg3NGY1NDYzNjotCAMQ3AMY+AIiI3YyLWVjMDRkM2M5OWZmMmIxM2E5YTkyNzNjNTVlOTgyZWUzOi0IARCnBhikAiIjdjItZjVjMDAwYzJmMTRjMTFjNTJlZTcyZTRkOTkxZjE0YWY6LQgCEPAFGJAHIiN2Mi0xZGU2NTI2M2JjYzE3N2Y4OTQ1ZWJiNGZiOGJiYzFiNjotCAIQgAYYigQiI3YyLTMxOGMwNDg0NDI1YTk0MjkwYjY2NjM3MmUxZmE2NzlmgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAg1e2rP4EFAAAAAAAAAACJBVx3M4HTVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBSKQBgCgBskBqAYDkgIuCgk3NDIyODA1OTASEzE5Mzk2MzAxMDQ4NjQwOTI4MzgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "200_1755822434.489",
+      "type": "feed",
+      "offset": 200,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822434,
+      "updated_time": 1755822434,
+      "target": {
+        "id": "91945746523",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/91945746523",
+        "author": {
+          "id": "01f9e51943ccf75cf64808b739572023",
+          "url": "https://api.zhihu.com/people/01f9e51943ccf75cf64808b739572023",
+          "user_type": "people",
+          "url_token": "xin-jue-84-50",
+          "name": "心崛",
+          "headline": "先停更半个月。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-59e95458a70fc6f7be4f927726c96a75_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 2511,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1738567347,
+        "updated_time": 1738635546,
+        "voteup_count": 573,
+        "thanks_count": 36,
+        "comment_count": 57,
+        "is_copyable": true,
+        "question": {
+          "id": "620200478",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/620200478",
+          "author": {
+            "id": "fefd282655de7811792ae9b3e5914d42",
+            "url": "https://api.zhihu.com/people/fefd282655de7811792ae9b3e5914d42",
+            "user_type": "people",
+            "url_token": "huo-huo-76-23",
+            "name": "知乎用户AJhPjQ",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 9,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么npd深不可测又头脑简单？",
+          "created": 1693583705,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 3,
+          "bound_topic_ids": [
+            2332,
+            34868,
+            92348,
+            185250,
+            2367793
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "当你看透npd的底层逻辑，你会发现——他们既没有深度，也没有远见，只有一种可笑的机械化本能：能压就压，能骗就骗，能榨干就榨干。 他们没有真正的智慧，只有惯性的掠夺。以我父母举例： 他们永远不会提供完整、准确的信息，甚至连基本的事实都要扭曲，目的是让你始终摸不清状况，陷入无休止的猜测之中。他们不是真的高深，而是利用信息不对称，让你误以为他们复杂、深谋远虑、不可琢磨。 但当你抽身出来再看，他们的操作其实简…",
+        "excerpt_new": "当你看透npd的底层逻辑，你会发现——他们既没有深度，也没有远见，只有一种可笑的机械化本能：能压就压，能骗就骗，能榨干就榨干。 他们没有真正的智慧，只有惯性的掠夺。以我父母举例： 他们永远不会提供完整、准确的信息，甚至连基本的事实都要扭曲，目的是让你始终摸不清状况，陷入无休止的猜测之中。他们不是真的高深，而是利用信息不对称，让你误以为他们复杂、深谋远虑、不可琢磨。 但当你抽身出来再看，他们的操作其实简…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"j-LHtFXr\">当你看透npd的底层逻辑，你会发现——他们既没有深度，也没有远见，只有一种可笑的机械化本能：能压就压，能骗就骗，能榨干就榨干。</p><p data-pid=\"mO3MIun_\">他们没有真正的智慧，只有惯性的掠夺。以我父母举例：</p><p data-pid=\"j7zhuc3p\">他们永远不会提供完整、准确的信息，甚至连基本的事实都要扭曲，目的是让你始终摸不清状况，陷入无休止的猜测之中。他们不是真的高深，而是利用信息不对称，让你误以为他们复杂、深谋远虑、不可琢磨。 但当你抽身出来再看，他们的操作其实简单得令人发笑——他们唯一的“高明”之处，就是让你的大脑长期处于信息不完整、逻辑错乱、情绪干扰的状态。</p><p data-pid=\"jNvBXJ54\">而正常人根本不会浪费时间和一个永远语焉不详、说话满是漏洞、逻辑混乱的人周旋。只不过作为他们的子女，你曾经不得不和他们周旋太久，才让他们显得“神秘莫测”。换个角度看，他们不过是个连沟通都不会、只会靠遮遮掩掩制造混乱的低级操纵者。</p><p data-pid=\"eA7z5ish\">他们的思维模式是死的，只会机械重复过去的套路</p><p data-pid=\"joPMHqRq\">真正聪明的人，会根据局势的变化调整手段，而NPD的思维方式是僵化的、单线程的，他们的所谓“操控”，其实是一种条件反射。</p><p data-pid=\"bpo0IkNT\">•他们不会真正分析局势，只会下意识重复过去的套路。</p><p data-pid=\"YdfhGTPR\">•他们不会解决问题，只会用更多的欺骗和施压拖延关系彻底崩塌的时间。</p><p data-pid=\"i62MSpxh\">•他们没有真正的影响力，只会通过强迫和诱骗来获得短期成果。</p><p data-pid=\"t_a9-0cH\">·他们只会机械撒谎，谎言都是拼凑的、临时编造的，一旦对方反击，他们就只能胡言乱语、死不承认，或者直接耍赖撒泼。</p><p data-pid=\"tspsaTs7\">他们唯一的“计划”，就是让一切保持现状，直到彻底玩崩了。</p><p data-pid=\"GIepvMG9\">NPD的问题不是不会算计，而是他们的算计都是短线操作，从不考虑长期影响。</p><p data-pid=\"esd_o8sC\">•他们可以用愧疚感逼你给钱，但不懂得维护关系，导致你最终离开。</p><p data-pid=\"ALus8xKl\">•他们可以用欺骗让你一时相信，但不懂得维护信任，最终信用破产。</p><p data-pid=\"oFdnXCgF\">•他们可以用威胁让你短期屈服，但不懂得衡量后果，最终把人推向绝对反抗。</p><p data-pid=\"oVDdlrln\">他们的所有策略，都是一次性的，没有复利效应，甚至是负增长。他们每次成功收割，都会削弱自己下一次收割的可能性，最终只能走向灭亡。</p><p data-pid=\"4AxB4l2V\">NPD的最大问题是，他们活在自己的封闭逻辑里，不懂真正的因果关系。他们只相信：“我这样做，以前有用，所以现在还会有用。”从不考虑环境变了、对方变了、自己也已经没有当年的筹码了。</p><p data-pid=\"gnHqi8Nr\">他们以为自己可以永远使用同样的手段，比如“哭穷”骗钱、用“亲情”绑架、用“威胁”让人妥协，但他们从不明白，这些手段用一次、两次、三次还能奏效，但总有一天会彻底破产。</p><p data-pid=\"6n7gSy0_\">他们可以撒谎几十年，但当谎言被识破，他们的第一反应从来不是补救，而是继续撒更离谱的谎。他们的“策略”并不是建立在现实逻辑上的，而是建立在“我过去能骗到你，所以我还能骗”的错觉里。</p><p data-pid=\"BPeM9_-d\">所以当你跳出他们设定的框架，完全不按他们的规则出牌时，他们并不会真正分析“为什么这招失效了”，而是会机械性地重复他们过去的成功模式，希望“多试几次”就能奏效。这就导致了：</p><p data-pid=\"qcpxUgSR\">•他们会用道德绑架、谎言、情感勒索反复轰炸你，不管你已经听过多少次相同的谎言和话术；</p><p data-pid=\"j1wMg7Gw\">•他们会找亲戚车轮战，认为只要换个人来说，效果就会不同；</p><p data-pid=\"ilDPic-l\">•他们会继续装出“慈父慈母”的样子，试图诱导你产生愧疚感，让你重新落入旧模式；</p><p data-pid=\"kHpor3B0\">无论何时与你接触，他们首先要把这些旧有的低级手段全部遍历一遍，不管已经失败多少次，再过多久他们都想试试过去的手段能不能再奏效</p><p data-pid=\"gFgz50MG\">但无论手法如何变化，核心逻辑是不变的：他们认为你是可以（用最低成本的手段）被拉回去的，他们不接受你不再受（话术和言语）控制这个事实。</p><p data-pid=\"LvSV-sGy\">他们从未真正思考过、或者完全不能接受关系的变化，从未真正接受过自己的失败、像个巨婴一样希望血包自动变成弱智继续配合他们。他们的所有尝试，都只是围绕着他们早已固定的控制模式，一旦你彻底脱离他们的框架，他们的所有手段就会变得可笑、僵化、毫无创造性。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 23292,
+        "favorite_count": 678,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 91945746523}",
+      "attached_info": "CrIFCN6V7+L6reWdiwEQBBoJNzExNTA0MTgyILPdgb0GKL0EMDlAyAFKIAoVVFNfU09VUkNFX1RIRU1FX01FUkdFEgEwGAAgADoAWgkxMDAxMDIwODNiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgs5MTk0NTc0NjUyM4oBCTYyMDIwMDQ3OKoBCXJlY29tbWVuZMIBIDAxZjllNTE5NDNjY2Y3NWNmNjQ4MDhiNzM5NTcyMDIz8gEKCAwSBk5vcm1hbPIBKAgKEiQxNzE0YjlhYi02NmYyLTRiYWEtYjQxZS01MDNiY2IyZGI0ODbyAQYICxICMzSCAgCIArPTsPmMM5ICIDAxZjllNTE5NDNjY2Y3NWNmNjQ4MDhiNzM5NTcyMDIzmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIVVFNfU09VUkNFX1RIRU1FX01FUkdF6AID+gILTk9STUFMX0ZMT1eKAyA1YjE4YTFhN2Y1NjY0N2ViOWNiNzIwYWViOGVmZDcxMJoDDQoCdjIQABoFb3RoZXKoA/y1AdgDAOoDG1RoZW1lTWVyZ2VOZXdWMVBvb2xSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgb82dP4EFAAAAAAAAAACJBVx3M4HTVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBSKQBgCgBsoBqAYAkgImCgk3MTE1MDQxODISCzkxOTQ1NzQ2NTIzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "201_1755822434.40",
+      "type": "feed",
+      "offset": 201,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822434,
+      "updated_time": 1755822434,
+      "target": {
+        "id": "1940109517242209071",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1940109517242209071",
+        "author": {
+          "id": "1e80241e9e1f2744fa62db620f0e3bfa",
+          "url": "https://api.zhihu.com/people/1e80241e9e1f2744fa62db620f0e3bfa",
+          "user_type": "people",
+          "url_token": "zhao-hao-91-71",
+          "name": "时光絮语",
+          "headline": "公司财报分析+估值分析+价值投资+兼写家电领域测评",
+          "avatar_url": "https://picx.zhimg.com/50/v2-a01250f1ddc7cbf272876e576b16ecb8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "云南民族大学 金融学硕士"
+            }
+          ],
+          "followers_count": 3076,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755338154,
+        "updated_time": 1755338154,
+        "voteup_count": 11,
+        "thanks_count": 1,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "21713333",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/21713333",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "资产负债表怎么看？",
+          "created": 1380248362,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            3217,
+            19800,
+            32518
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-5da4a3f91295640913137f8eca4d062b_720w.jpg?source=b6762063",
+        "excerpt": "资产负债表——企业的单反相机 之所以做财务报表，是希望用它来描述一个企业的经济活动。一个企业都会从事哪些经济活动呢？   首先是经营活动。什么叫经营活动？比如说一个企业需要生产产品、销售产品、回收货款，这些企业每天都在做的事情就叫经营活动。 第二件事叫投资活动。什么是投资活动？如果一个企业想到一个新的地区去开展业务，想进入一个新的业务领域，或者想设计生产出一个新产品，都需要进行投资。 第三件事叫融资活…",
+        "excerpt_new": "资产负债表——企业的单反相机 之所以做财务报表，是希望用它来描述一个企业的经济活动。一个企业都会从事哪些经济活动呢？   首先是经营活动。什么叫经营活动？比如说一个企业需要生产产品、销售产品、回收货款，这些企业每天都在做的事情就叫经营活动。 第二件事叫投资活动。什么是投资活动？如果一个企业想到一个新的地区去开展业务，想进入一个新的业务领域，或者想设计生产出一个新产品，都需要进行投资。 第三件事叫融资活…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"3wOEh9oK\">资产负债表——企业的单反相机</p><p data-pid=\"m10Yhoxg\">之所以做财务报表，是希望用它来描述一个企业的经济活动。一个企业都会从事哪些经济活动呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-37593a7a8beae2a9ed98b78d7dff17bd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1439\" data-original-token=\"v2-5da4a3f91295640913137f8eca4d062b\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-ed126a2eaa5236007f867247538eb9a4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-37593a7a8beae2a9ed98b78d7dff17bd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1uYaE73r\"><b>首先是经营活动。</b></p><p data-pid=\"hzhN6sch\">什么叫经营活动？比如说一个企业需要生产产品、销售产品、回收货款，这些企业每天都在做的事情就叫经营活动。</p><p data-pid=\"o20FVi6z\"><b>第二件事叫投资活动。</b></p><p data-pid=\"QgVwVEcj\">什么是投资活动？如果一个企业想到一个新的地区去开展业务，想进入一个新的业务领域，或者想设计生产出一个新产品，都需要进行投资。</p><p data-pid=\"UGppbvdl\"><b>第三件事叫融资活动。</b></p><p data-pid=\"qr4ZqkbA\">在经营和投资的过程当中，只要这家公司缺钱了，它就必须到银行去借钱，或者找别人来投资自己，这就叫融资活动。</p><p data-pid=\"cuCQQG4v\">在会计看来，企业一辈子其实只做了三件事：<b>经营、投资和融资</b>。</p><p data-pid=\"BSboR3E4\">经营企业最基本的要求就是保证股东投入的本金不会遭到任何损失。</p><p data-pid=\"ofSgmMUa\">我们必须要知道，本金现在都成了什么，它们现在的价值如何，是不是还保持着原来的价值。</p><p data-pid=\"_PUe_zEQ\">因此，我们就需要有一张能描述这些问题的财务报表，这张财务报表就是资产负债表</p><p data-pid=\"F6lyPVIR\"><b>流动资产包含哪些项目？</b></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-168d0d3c93dfb61768fb12ae8ce0b056_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-ad73c25d5aefe94900130f4ffcc0fc3c\" data-default-watermark-src=\"https://pica.zhimg.com/v2-0a909f4ea1cb570360c11ba77a204c24_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-168d0d3c93dfb61768fb12ae8ce0b056_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TVWCaxrx\"><b>货币资金</b>：说白了就是钱。</p><p data-pid=\"CDILsegG\">不管是放在银行里的钱，还是放在公司的钱，都是企业的货币资金。</p><p data-pid=\"D87QSeao\"><b>应收账款</b>：就是公司销售产品的时候，客户不能马上支付货款。</p><p data-pid=\"e7rCEYoK\"><b>其他应收款：</b></p><p data-pid=\"dtiS4yJk\">比如A公司向B公司借了100万，承诺两周后归还，这笔钱不是一项对外贷款，因为B公司没有向A公司收取任何利息。员工出差时向公司借的备用金，在公司的账面上也是其他应收款。</p><p data-pid=\"cZHCApZZ\">在现实中，有一些公司的其他应收款高达几十个亿，这是因为，这个企业可能跟它的关联方进行了一些交易，关联方把这些资金“借”走了，</p><p data-pid=\"j9qV9zT7\">而被“借”走的钱就体现在其他应收款里。</p><p data-pid=\"feb5Ojds\">这里所谓的“借”事实上是一种“拿”，是占用。因此，这笔钱又被称为“占用资金”。</p><p data-pid=\"E3ax1aaA\"><b>预付账款：</b>当货品相当紧缺，卖方可能会要求买方预付一笔定金，甚至要求买方预付所有的货款，</p><p data-pid=\"wz-JF29h\"><b>存货：</b>生产产品所需的“原材料”、生产出来的“产成品”，以及尚且处在生产过程中的没有完工的“在产品”，都是存货。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4c31334e4e6cadbbeb8dca302f9c8ced_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-fd42d809da1dac5de29247f2c49b1342\" data-default-watermark-src=\"https://picx.zhimg.com/v2-45bd236fdbe5f156f8c11634cea3c185_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-4c31334e4e6cadbbeb8dca302f9c8ced_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LhhRweVy\"><b>在产品（Work in Process）</b>：正在加工，尚未完成的产品。</p><p data-pid=\"L27ZqDYY\"><b>产成品</b>：可以作为商品对外销售的产品</p><p data-pid=\"QG4GDHin\"><b>待摊费用：</b>一项费用还没有实际发生就已经提前付款了。</p><p data-pid=\"vOhctYJJ\">比如说你租了一间办公室，一年租金12万元，但是房东要求你先预付12万，</p><p data-pid=\"lFMJL05o\">但这一笔款项是需要在后面的12个月内平均分摊计入各月的成本费用中的，</p><p data-pid=\"4MtK8qzE\">你预付的这12万就形成了待摊费用。</p><p data-pid=\"ccR-KGNT\"><b>预提费用：</b>一项费用虽然没有支付，但是你需要在当期承担，</p><p data-pid=\"NZSZs-6W\">比如还是你租了一间办公室，一年租金12万，房东要求你租赁期满之后再支付这12万，那你在没有付款之前，每个月都要预提一笔租金1万元计入当月的成本费用中，这就是预提费用。</p><p data-pid=\"zY8M_4Y4\">上面介绍的货币资金、应收账款、其他应收款、预付账款、存货都是企业的流动资产，各项流动资产在资产负债表中是按照它们各自转换为现金的速度来排序的。</p><p data-pid=\"hd4aAr_2\">流动资产总能很快地完成“从现金开始又回到现金”的过程。</p><p data-pid=\"JQ4Zidic\">非流动资产，它要完成这个过程则需要一段漫长的时光。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c1feb4885d0ae6a1303b6eba4c6ca9d9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-c2c8c21fa31de3854d6fe8c36ef8b0af\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-e7d4d65698bfaf68230739907d057fcf_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-c1feb4885d0ae6a1303b6eba4c6ca9d9_r.jpg\"/></figure><p data-pid=\"_XgOoji1\">流动资产与非流动资产的差异就在于是否能在一个循环之内就将自己完全变为现金。</p><p data-pid=\"3V6GUlq7\"><b>非流动资产包括长期投资、固定资产、无形资产</b></p><p data-pid=\"TJzsy1bR\">长期投资包括什么呢？比如说，参股别的公司，小张持有股权，只要是长期持有的股权和债券，都算是小张的长期投资</p><p data-pid=\"hAhO4HBa\"><b>固定资产：</b></p><p data-pid=\"Z4GHbB81\">设备、厂房、汽车、电脑，这些可能都是固定资产。</p><p data-pid=\"IOEBQNoX\"><b>折旧：</b>使用的过程中，固定资产会逐渐损耗，其价值也会随着损耗逐渐降低。因此，会计在记账的时候，还需要不断描述这个损耗的量</p><p data-pid=\"VKbtKNas\"><b>无形资产：</b>比如专利权、专有技术、版权、商标权、商誉，土地使用权。</p><p data-pid=\"NdR_5RtJ\"><b>历史成本：</b>购买资产时所支付的现金或现金等价物，只有花了的钱才能记在账上，历史成本计价体系之下，只要没有新的交易发生，资产的价值只能减少不能增加，增加资产价值的唯一途径是发生一个新的交易。</p><p data-pid=\"WWeRORQA\">哪些概念容易与资产混淆？</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b6569ecdb5665302752b7de3f84a1409_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-7064ca5b5abc0ecae4d83ead04a0f057\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-d30abbf9d3c081250ffbde9087f9680d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-b6569ecdb5665302752b7de3f84a1409_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xh2oxpmo\">财产物资可是和资产大大不同。</p><p data-pid=\"XB6NYlsO\">财产物资是一个看得见摸得着的东西，但有些资产项目却不是实实在在的“东西”，比如应收账款、预付账款。</p><p data-pid=\"XUwiO2DK\">它们并不是一个实际存在的物品，不是财产物资，但却仍然被当作资产。实际上，它们体现了一种权利——可以向客户收回货款的权利、向供应商讨回产品的权利。</p><p data-pid=\"OPYsiY0s\"><b>财产物资不一定都是资产</b></p><p data-pid=\"CELCvGyn\">有的东西的确是财产物资，但却不是财务报表上的资产。</p><p data-pid=\"eyqiemzc\">比如公司租赁的办公楼，因为办公楼是租用的，不归公司所有。</p><p data-pid=\"F_0KsERJ\">比如公司为别人代销某类产品，这些产品也是看得见摸得着的，但也不能算是公司的资产，因为公司只是代销者，而不是这些产品的所有者。</p><p data-pid=\"XymS5P1v\">固定资产无疑是一项资产，但在使用的过程中，它会不断被磨损，这个磨损的量就是折旧，也就是经营过程中的一种费用，我们今天说的资产其实就是明天的费用，在很多情况下，资产和费用只存在时间概念上的不同。</p><p data-pid=\"GwWkf8au\">有多少负债要还？</p><h2>负债：</h2><p data-pid=\"p_zZN_hT\">银行贷款是一种负债。银行贷款分为长期借款和短期借款两种，一年内要偿还的是短期借款，一年以后要偿还的才是长期借款。</p><p data-pid=\"7TD0xxG_\">应付账款也是一种负债，是我们欠供应商的货款</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a9de0fb0617aa174a9acab5669b049ba_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-4d7865c13a954d3d7bde0805ddb836a9\" data-default-watermark-src=\"https://picx.zhimg.com/v2-3d1a8efcc26935f5bac7cc729d643a5d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-a9de0fb0617aa174a9acab5669b049ba_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"McbyqyiY\">其他应付款也是负债。比如小红的公司由于周转不灵，向小张的公司借款100万元。对于小张的公司来说，这100万元是其他应收款；而对于小红的公司来讲，这笔钱就叫其他应付款，是一笔负债。</p><p data-pid=\"DabWCb3m\"><b>预收账款</b>：如果买方向供应商付出一笔预付账款，供应商就因而肩负着必须给买家发货的责任。这也是一笔负债</p><p data-pid=\"jXk7B8sI\"><b>应付工资</b>：大部分的企业都是在下个月支付上个月的工资，会计月底做报表时，工资还没发，这样就产生了一笔需要支付给员工工资的负债。</p><p data-pid=\"uS-wXU70\"><b>应交税金</b>：大部分公司都是在下个月向税务局缴纳上个月的税款，会计做报表的时候，就出现了企业已经发生经营行为却未向税务局缴税的情况。</p><p data-pid=\"BK2zGMce\">以上各项负债统称为“流动负债”，是几乎每个公司都必须面临的。流动负债是指企业在一年之内必须支付的负债</p><h2>非流动负债。</h2><p data-pid=\"NFVM9PUp\"><b>应付债券</b>：就是一种长期负债，企业为筹集资金而对外发行的期限在一年以上的长期借款性质的书面证明，约定在一定期限内还本付息的一种书面承诺。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d95708045b32f6cb851876e65e24415f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1439\" data-original-token=\"v2-0bd2d37b60d928cd0a3fadc20b3359b5\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-4e265a23e180e437a286b2b4d7318019_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-d95708045b32f6cb851876e65e24415f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YkSXTVRi\"><b>长期应付款</b>：一般情况下，长期应付款会跟一种交易有关，比如说租赁</p><p data-pid=\"TSwDT_XY\"><b>融资性租赁</b>：租赁期限比较长、涉及的金额比较大，进行融资性租赁的企业其实是在用分期付款的方式购买一项资产，租入的资产被认为是承租方的资产，因此可以出现在报表上，</p><p data-pid=\"Px6S8VVO\"><b>经营性租赁：</b>租赁期限比较短、涉及的金额比较小，租者未购买租赁物，只需向出租者支付租金即可。相应的，租入的资产不属于承租方，不在承租方的报表上出现，未来将要支付的租金也只需在支付时记入相应的费用。</p><p data-pid=\"afv7HqCl\">以上几项被统称为“非流动负债”，与流动负债相对，具体是指那些一年之后才要偿还的负债。</p><p data-pid=\"0tAcVXJA\"><b>流动负债</b>（Current Liabilities）：在一份资产负债表中，一年内或者超过一年的一个营业周期内需要偿还的债务合计。流动负债主要包括短期借款、应付票据、应付账款、预收账款、应付工资、应付福利费、应付股利、应交税金、其他暂收应付款项、预提费用和一年内到期的长期借款等。</p><p data-pid=\"djTXZdIh\"><b>非流动负债</b>（Non-current Liabilities）：偿还期在一年或者超过一年的一个营业周期以上的债务。非流动负债的主要项目有长期借款、应付债券和长期应付款等。</p><p data-pid=\"nEtGQfYK\">股东都有些什么权益？</p><p data-pid=\"AYCFBkSu\"><b>股东权益</b>（Shareholder&#39;s Equity）：公司总资产中扣除负债所余下的部分，也称为净资产。股东权益是一个很重要的财务指标，它反映了公司的自有资本。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b866dfd6d8b5a546169843e510d6aed1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1439\" data-original-token=\"v2-40a6b785e628637072ae6f57e0807135\" data-default-watermark-src=\"https://pica.zhimg.com/v2-3067c510a9a30b69835fdaa9e1510678_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-b866dfd6d8b5a546169843e510d6aed1_r.jpg\"/></figure><p data-pid=\"xi4BgxG_\">股东投资一个公司，往往有两种方式：其一，股东拿一笔钱来放到公司，算作对这家公司的投资；其二，公司所赚的钱本应归股东所有，但股东把这笔钱留在公司里，也算作一笔投资。</p><p data-pid=\"ia-NxAA7\"><b>股本（Capital Stock）</b>：股东在公司中所占的权益，多用于指股票。</p><p data-pid=\"t_y34zfV\"><b>资本公积（Additional Paid-in Capital）：</b>企业收到的投资者的超出其在企业注册资本所占份额，股本和资本公积是股东从外面拿进来的钱。</p><p data-pid=\"ybpWa3_q\">公司并没有把自己赚到的所有钱都分给股东，还留下了一部分。这一部分也被放在两个项目里来计算，一个项目是盈余公积，另一个项目是未分配利润。简单说来，盈余公积是法律不让我们分配的利润，而未分配利润是企业自己不想分的利润。</p><p data-pid=\"H0W0fjJ6\">法律为什么不让企业分配这部分利润，而企业又为什么不把利润都分给自己的股东呢？</p><p data-pid=\"Rnqv6Rb3\">中国的公司法规定，一个公司有了盈利之后，必须留存至少10%作盈余公积。那也就是说，如果小黄的公司今年赚了1000万元，那就必须将至少100万元当作盈余公积。用作盈余公积的100万元是不能被分配的，而剩下的900万元，股东则可以自由分配。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d6a92d6ba39ddf4c897618d2900f52bc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-original-token=\"v2-9d00ac7fa3c0c73e4031271abf83b262\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-0c33bfa0b5e50e506c06c2c4d28495ab_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-d6a92d6ba39ddf4c897618d2900f52bc_r.jpg\"/></figure><p data-pid=\"3xp4yZvA\">当然，盈余公积是一个有“中国特色”的项目。在世界上的其他国家，可能没有这个规定。</p><p data-pid=\"wNPLDKrH\"><b>盈余公积（Surplus Zeserve）</b>：企业按照规定从净利润中提取的各种积累资金。</p><p data-pid=\"KRyx3kyX\">这个时候，小黄和小张就决定对剩余的900万元盈利做一个规划：</p><p data-pid=\"rOp_WQkJ\">由于公司明年打算做一个投资，需要一些钱，所以他们决定留下一些利润，只分掉其中的300万元，而将剩余的600万元用于明年的投资。这剩余的600万元就是所谓的未分配利润。</p><p data-pid=\"P6ueuj95\"><b>资产负债表透露了什么信息？</b></p><p data-pid=\"7vqqrr7K\">资产负债表的左边告诉我们：</p><p data-pid=\"Bgtuoibj\">投入公司的钱都变成了什么，有哪些还是钱，有哪些变成了应收款，</p><p data-pid=\"h8k9dsyK\">哪些变成了原材料、产成品、在产品，</p><p data-pid=\"ZKsnXSx3\">哪些变成了厂房、设备、汽车、电脑，</p><p data-pid=\"Njock8bd\">哪些变成了土地使用权、专利、专有技术……因此，资产负债表左边说的是，钱被拿去做什么了。</p><p data-pid=\"hylKXjSq\">很显然，进来的钱跟用掉的钱在金额上必须相等，这就意味着资产负债表左边的资产与右边的负债和股东权益之和相等。如果一个公司的财务报表不满足这个等式，就是这家公司的财务报表做错了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d74d7b3a456bee66de79dfe4d40c7be5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"835\" data-rawheight=\"1115\" data-original-token=\"v2-26989105dd61a1981c941255531c6236\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-ffbaf7268a082128334cdd1d55bc8ce2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"835\" data-original=\"https://pic2.zhimg.com/v2-d74d7b3a456bee66de79dfe4d40c7be5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"p6z456F9\">一个公司必须给银行还了债、给供应商付了款、给员工发了工资、给税务局交了税之后，才能把剩下来的东西分给股东，这叫作股东的“剩余求偿权”。</p><p data-pid=\"aZkUBfHg\">资产负债表到底透露了什么信息？</p><p data-pid=\"IiMr5D9a\">它让公司的股东了解自己的家底，了解自己公司的财务状况。</p><p data-pid=\"rGr8qpvU\">在了解自己到底赚了多少钱之前，股东们必须先了解自己投入的资金都去了哪里，又欠了谁的钱，这就是资产负债表提供的信息。</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 170,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-5da4a3f91295640913137f8eca4d062b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ad73c25d5aefe94900130f4ffcc0fc3c_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-fd42d809da1dac5de29247f2c49b1342_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c2c8c21fa31de3854d6fe8c36ef8b0af_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-7064ca5b5abc0ecae4d83ead04a0f057_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4d7865c13a954d3d7bde0805ddb836a9_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0bd2d37b60d928cd0a3fadc20b3359b5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-40a6b785e628637072ae6f57e0807135_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-9d00ac7fa3c0c73e4031271abf83b262_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-26989105dd61a1981c941255531c6236_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 9,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1940109517242209071}",
+      "attached_info": "CskJCN6V7+L6reWdiwEQBBoJNzQyNTAzMDcyIKqrgcUGKAswAEDJAUpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgY4NjYyNDViIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQwMTA5NTE3MjQyMjA5MDcxigEIMjE3MTMzMzOqAQlyZWNvbW1lbmTCASAxZTgwMjQxZTllMWYyNzQ0ZmE2MmRiNjIwZjBlM2JmYfIBCggMEgZOb3JtYWzyASgIChIkYWZjMDM2MjktMTdmMS00Y2VmLWJhMzctNTdlYmM2YzNhYTQ28gEGCAsSAjM0ggIAiAKz07D5jDOSAiAxZTgwMjQxZTllMWYyNzQ0ZmE2MmRiNjIwZjBlM2JmYZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhSZWxpYWJsZVNjb3JlV2VpZ2h0UnVsZTHaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDViMThhMWE3ZjU2NjQ3ZWI5Y2I3MjBhZWI4ZWZkNzEwmgMNCgJ2MhAAGgVvdGhlcqgDqgHYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gP1AxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELgIGJ8LIiN2Mi01ZGE0YTNmOTEyOTU2NDA5MTMxMzdmOGVjYTRkMDYyYjotCAIQuAgYoAsiI3YyLWFkNzNjMjVkNWFlZmU5NDkwMDEzMGY0ZmZjYzBmYzNjOi0IAhC4CBigCyIjdjItZmQ0MmQ4MDlkYTFkYWM1ZGUyOTI0N2YyYzQ5YjEzNDI6LQgCELgIGKALIiN2Mi1jMmM4YzIxZmEzMWRlMzg1NGQ2ZmU4YzM2ZWY4YjBhZjotCAIQuAgYoAsiI3YyLTcwNjRjYTViNWFiYzBlY2FlNGQ4M2VhZDA0YTBmMDU3Oi0IAhC4CBigCyIjdjItNGQ3ODY1YzEzYTk1NGQzZDdiZGUwODA1ZGRiODM2YTk6LQgCELgIGJ8LIiN2Mi0wYmQyZDM3YjYwZDkyOGNkMGEzZmFkYzIwYjMzNTliNTotCAIQuAgYnwsiI3YyLTQwYTZiNzg1ZTYyODYzNzA3MmFlNmY1N2UwODA3MTM1Oi0IAhC4CBigCyIjdjItOWQwMGFjN2ZhM2MwYzczZTQwMzEyNzFhYmY4M2IyNjI6LQgEEMMGGNsIIiN2Mi0yNjk4OTEwNWRkNjFhMTk4MWM5NDEyNTU1MzFjNjIzNoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIDmpjD+BBQAAAAAAAAAAiQVcdzOB01XZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUikAYAoAbLAagGAJICLgoJNzQyNTAzMDcyEhMxOTQwMTA5NTE3MjQyMjA5MDcxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "202_1755822434.967",
+      "type": "feed",
+      "offset": 202,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822434,
+      "updated_time": 1755822434,
+      "target": {
+        "id": "1941892235722495011",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941892235722495011",
+        "author": {
+          "id": "2326d9c3cab76a11c9901b51f3b36d5a",
+          "url": "https://api.zhihu.com/people/2326d9c3cab76a11c9901b51f3b36d5a",
+          "user_type": "organization",
+          "url_token": "wei-ke-ji-tuan-cch-tagetik",
+          "name": "威科集团CCH Tagetik",
+          "headline": "when you have to be right",
+          "avatar_url": "https://picx.zhimg.com/50/v2-bcf864a645748bc5fcff5da823c79cf4_l.jpg?source=b6762063",
+          "is_org": true,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_org",
+              "description": "已认证机构号"
+            }
+          ],
+          "followers_count": 2,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755763187,
+        "updated_time": 1755763187,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "31572757",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/31572757",
+          "author": {
+            "id": "b9c454cc6ae450211a667c28e7354fbc",
+            "url": "https://api.zhihu.com/people/b9c454cc6ae450211a667c28e7354fbc",
+            "user_type": "people",
+            "url_token": "chen_shu",
+            "name": "chensh",
+            "headline": "金融民工",
+            "avatar_url": "https://picx.zhimg.com/50/v2-11d4afae736d0171c3f17f5f291c8ac1_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 1376,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "什么是合并报表？一个集团内的合并报表是否唯一？",
+          "created": 1435116701,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            5450,
+            6069,
+            8921,
+            130464
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "在跨国运营与集团化管理成为企业发展常态的当下，财务合并报表的质量直接关系到企业的合规性以及管理层决策的科学性。当企业面临多系统数据难以互通、股权结构随业务调整动态变化、跨境经营中的汇率波动，以及集团内部关联交易频繁等实际挑战时，传统财务合并流程往往在效率与合规性之间难以平衡，亟需一套兼具灵活性与精准度的专业化解决方案。 CCH Tagetik 合并报表模块以全生命周期数据管理为核心，为企业提供从数据整合到合…",
+        "excerpt_new": "在跨国运营与集团化管理成为企业发展常态的当下，财务合并报表的质量直接关系到企业的合规性以及管理层决策的科学性。当企业面临多系统数据难以互通、股权结构随业务调整动态变化、跨境经营中的汇率波动，以及集团内部关联交易频繁等实际挑战时，传统财务合并流程往往在效率与合规性之间难以平衡，亟需一套兼具灵活性与精准度的专业化解决方案。 CCH Tagetik 合并报表模块以全生命周期数据管理为核心，为企业提供从数据整合到合…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"vvRdHwJE\">在跨国运营与集团化管理成为企业发展常态的当下，财务合并报表的质量直接关系到企业的合规性以及管理层决策的科学性。当企业面临多系统数据难以互通、股权结构随业务调整动态变化、跨境经营中的汇率波动，以及集团内部关联交易频繁等实际挑战时，传统财务合并流程往往在效率与合规性之间难以平衡，亟需一套兼具灵活性与精准度的专业化解决方案。​</p><p data-pid=\"iKmrHDlb\">CCH Tagetik 合并报表模块以全生命周期数据管理为核心，为企业提供从数据整合到合规输出的端到端解决方案。通过系统化整合数据、自动化处理流程并全程保障合规性，助力企业简化合并流程、提升数据准确性，推动财务团队从繁琐的合并工作中解放出来，转向为企业提供战略洞察。</p><p data-pid=\"yqOT-7jc\"><b>一、多源数据整合：解决数据碎片化与质量失控难题​​</b></p><p data-pid=\"BePgbkWi\">企业集团通常依赖SAP、Oracle、金蝶、用友等多套异构ERP系统，各系统数据格式、核算口径与传输频率差异显著，导致子公司数据报送延迟、错漏频发；传统人工整合依赖分散表格工具，数据校验与追溯困难，错误往往在合并后期才被发现，严重影响报告时效性与准确性。</p><p data-pid=\"XNme0CQV\">CCH Tagetik解决方案通过“双向集成+智能映射+全流程校验”的闭环管理，实现多源数据的精准整合与可靠追溯，从源头解决数据碎片化问题。</p><ul><li data-pid=\"8fMeiw9N\">提供与主流ERP系统的双向集成能力，支持文件上载、API对接等多种方式</li><li data-pid=\"VPd_ZzF1\">用户可自定义数据映射关系，确保数据转换准确性</li><li data-pid=\"4vbCM6rI\">内置数据校验规则配置，提交前自动触发校验</li><li data-pid=\"vDD7cDaV\">完整的审计线索功能记录所有数据变动，便于问题追溯</li><li data-pid=\"lXULRGZ3\">支持系统定时调度，确保各子公司按时提交数据</li></ul><p data-pid=\"eakQl8n1\"><b>二、复杂股权结构管理：应对动态控股与准则适配挑战​​</b></p><p data-pid=\"wxAIrUoa\">企业集团常存在交叉持股、多层级控股、频繁并购/剥离等场景，需动态切换成本法、权益法或完全合并等合并方法；少数股东权益计算因持股比例变化而更趋复杂，传统工具难以准确跟踪股权变动对合并结果的影响。</p><p data-pid=\"qN2XwBXR\">CCH Tagetik解决方案预配置全生命周期股权业务场景库，支持动态调整合并方法，实现少数股东权益的精准计算与合并范围的实时更新。</p><ul><li data-pid=\"roY1H2Yr\">预置多种股权业务场景：初始合并、增资、减资、退出合并、剥离、清算等</li><li data-pid=\"loJdGPcD\">支持复杂的股权结构建模，可设置多层级控股关系</li><li data-pid=\"DmlyD2Ft\">自动根据持股比例和应用会计准则选择合适的合并方法</li><li data-pid=\"xH9tBOtq\">提供股权变动的事件管理功能，确保合并方法及时调整</li><li data-pid=\"kGFfGobq\">精确计算少数股东权益，支持各种分配规则</li></ul><p data-pid=\"hORIe5ld\"><b>三、多币种折算：化解汇率波动与准则合规风险​​</b></p><p data-pid=\"Cd8nQZ4V\">跨国企业需将海外子公司财务报表折算为母公司报告货币，但汇率波动、资产负债表与利润表科目适用不同折算汇率、手动覆盖系统汇率易引入误差等问题，可能导致折算结果偏离真实财务状况，且难以满足审计对汇率变更的追溯要求。</p><p data-pid=\"TwAy9v5B\">CCH Tagetik解决方案灵活配置多维度汇率规则，自动处理折算差异，完整记录汇率变更历史，兼顾合规性与汇率风险管控。</p><ul><li data-pid=\"yJGRIIVk\">灵活设置各期间不同币种的各类汇率（期末汇率、平均汇率等）</li><li data-pid=\"-xL3JiRQ\">支持按年、月、类别、科目等维度进行汇率覆盖</li><li data-pid=\"nCT0Hvl-\">预置外币折算规则，自动处理资产负债表和利润表科目的折算差异</li><li data-pid=\"ZXvihd8v\">提供折算差异的科目映射设置，确保差异正确归集</li><li data-pid=\"XZptEdjf\">完整的汇率变更历史记录，满足审计要求</li></ul><p data-pid=\"RORkXFCr\"><b>四、关联交易对账与抵消：提升协同效率与准确性​​</b></p><p data-pid=\"7mg5nuTl\">集团内部关联交易数量庞大，交易双方记录的时间差、口径差异及小额差异堆积，导致对账耗时费力；传统工具缺乏可视化支持，抵消规则复杂，易因阈值设置不当导致微小差异残留，延误合并进度。</p><p data-pid=\"kX3VjXDQ\">CCH Tagetik解决方案通过图形化驾驶舱可视化差异分布，预配置智能抵消规则，推动跨团队协同，大幅提升对账效率与抵消准确性。</p><ul><li data-pid=\"qkond6j1\">图形化对账驾驶舱直观展示对账结果，提高对账效率</li><li data-pid=\"eAK8bzQJ\">按业务类型（往来类、交易类、现金流类等）进行对账分类</li><li data-pid=\"36OHHXra\">可设置对账阈值，智能过滤微小差异</li><li data-pid=\"mfUL8hBR\">预设多种抵消规则，支持单边/双边抵消、抵消轧差等</li><li data-pid=\"jW0H2tS9\">提供协同备注功能，便于交易双方沟通差异原因</li></ul><p data-pid=\"itvzj5sZ\"><b>五、全流程合规保障：满足审计与监管严格要求​​</b></p><p data-pid=\"kL4FpHnX\">传统模式下数据校验依赖人工、调整分录管理混乱、版本控制薄弱，难以满足审计对“过程可验证性”的要求，合规风险显著增加。</p><p data-pid=\"rhXcAfBr\">CCH Tagetik解决方案内置严格校验规则库，支持版本化管理与全流程审计追踪，确保合并过程符合规范，降低合规风险。</p><ul><li data-pid=\"4mU6bcgY\">提供合并月结引导作业步骤，实时监控各子公司进度 </li><li data-pid=\"ig3Bx5nu\">可配置流程引擎支持定制化的合并工作流</li><li data-pid=\"hLZgK9AV\">完善的调整分录管理，支持单体和合并层调整</li><li data-pid=\"ugBqs35i\">自动化的跨期结转功能，确保数据连续性</li><li data-pid=\"FlswwuZH\">支持调整分录带往下期及跨年结转</li><li data-pid=\"1rHynE7s\">版本管理功能保存各阶段合并结果，便于比较和回溯</li></ul><p data-pid=\"j7-reTbV\"><b>实施CCH Tagetik业务价值</b></p><p data-pid=\"v4tK5LXb\">全球客户实践表明，部署CCH Tagetik合并模块可实现：</p><ul><li data-pid=\"3hhftWBX\"><b>效率提升</b>：合并周期平均缩短30%-50%，减少人工操作和错误</li><li data-pid=\"7K_YhM1p\"><b>质量保证</b>：系统化的校验规则和审计线索提高报表准确性</li><li data-pid=\"FowG83_7\"><b>成本优化</b>：减少对专业合并人员的依赖，降低人力成本</li><li data-pid=\"9ANtxL_Q\"><b>决策支持</b>：及时、准确的合并报表为管理层提供决策依据</li><li data-pid=\"c1WLrM2k\"><b>合规保障</b>：满足各国家和地区不断变化的财务报告要求</li><li data-pid=\"mAEHFjhX\"><b>扩展灵活</b>：系统随业务发展灵活扩展，保护IT投资</li></ul><p data-pid=\"MCyYjMSE\">在全球化经营和数字化变革的双重驱动下，企业财务合并工作面临的挑战日益增多。CCH Tagetik合并报表模块凭借其全面的功能设计、灵活的配置能力和强大的技术架构，为企业提供了应对这些挑战的系统化解决方案。无论是处理复杂的股权结构、管理多币种折算，还是协调集团内部关联交易，CCH Tagetik都能帮助企业提升合并效率、确保数据质量、满足合规要求。</p><p data-pid=\"TMkzt5g_\">对于正在寻求财务数字化转型的企业而言，选择CCH Tagetik不仅意味着获得一个强大的技术工具，更是建立了一套面向未来的财务合并管理体系。在数据驱动决策的时代，CCH Tagetik助力企业将财务合并从繁琐的合规任务转变为创造战略价值的核心能力，在复杂商业环境中实现财务合并的高效与精准。</p><p>https://u.wechat.com/ED-a14OOq6W2yLWh-7ZR-VA (二维码自动识别)</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 6,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941892235722495011}",
+      "attached_info": "CoEGCN6V7+L6reWdiwEQBBoJNzQzMjc5NTQxIPOjm8UGKAAwAEDKAUokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwxEgEwGAAgADoASi8KJFRTX1NPVVJDRV9XQVJNVVBfVFdPVE9XRVJfRVhQVjJfVEVYVBIBMBgAIAA6AFoHNDgyODM0MmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE4OTIyMzU3MjI0OTUwMTGKAQgzMTU3Mjc1N6oBCXJlY29tbWVuZMIBIDIzMjZkOWMzY2FiNzZhMTFjOTkwMWI1MWYzYjM2ZDVh8gEKCAwSBk5vcm1hbPIBKAgKEiRjMWE3YjE5ZS1kMjgwLTRiM2ItOWRlYi04MzZhYzUzNzBmYzXyAQYICxICMzSCAgCIArPTsPmMM5ICIDIzMjZkOWMzY2FiNzZhMTFjOTkwMWI1MWYzYjM2ZDVhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDHoAgP6AgtOT1JNQUxfRkxPV4oDIDViMThhMWE3ZjU2NjQ3ZWI5Y2I3MjBhZWI4ZWZkNzEwmgMNCgJ2MhAAGgVvdGhlcqgDBtgDAOoDL2NvbnRlbnRXYXJtdXBUd29Ub3dlclR2cFRleHROb3JtYWxFeHBWMlJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4HXdYz+BBQAAAAAAAAAAiQVcdzOB01XZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUikAYAoAbMAagGAZICLgoJNzQzMjc5NTQxEhMxOTQxODkyMjM1NzIyNDk1MDExGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "203_1755822434.396",
+      "type": "feed",
+      "offset": 203,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822434,
+      "updated_time": 1755822434,
+      "target": {
+        "id": "1941497295645439710",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1941497295645439710",
+        "author": {
+          "id": "5863a533276c3141d0b7f56b9fe51522",
+          "url": "https://api.zhihu.com/people/5863a533276c3141d0b7f56b9fe51522",
+          "user_type": "people",
+          "url_token": "bian-cheng-jun-mo",
+          "name": "编程君陌",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-a6a53dac995b10d45ac42a1cb83bab4d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 10196,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "百看不如一练，247个Python 实战案例（附源代码）",
+        "comment_permission": "all",
+        "created": 1755669181,
+        "updated": 1755669181,
+        "voteup_count": 1,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "众所周知，我们在学习Pyhont过程中，大都看书枯燥、看视频进度慢，网上查找的学习案例又比较凌乱不成体系。。。 百看不如一练，今天为大家搜集了一份Python从入门到进阶的实战案例合集，共计247个案例，185页内容。 内容涵盖： · Python基础（90个案例） · Python高级字符串之正则（25个案例） · Python 件、 期和多线程（26个案例） · Python三 利器（迭代器 ， 成器 ， 装饰器。15个案例） · Python绘图（turtle，matplo…",
+        "excerpt_new": "众所周知，我们在学习Pyhont过程中，大都看书枯燥、看视频进度慢，网上查找的学习案例又比较凌乱不成体系。。。 百看不如一练，今天为大家搜集了一份Python从入门到进阶的实战案例合集，共计247个案例，185页内容。 内容涵盖： · Python基础（90个案例） · Python高级字符串之正则（25个案例） · Python 件、 期和多线程（26个案例） · Python三 利器（迭代器 ， 成器 ， 装饰器。15个案例） · Python绘图（turtle，matplo…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-db5070ce498eca4f8d489649edc6bc25_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"266\" data-original-token=\"v2-db5070ce498eca4f8d489649edc6bc25\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic4.zhimg.com/v2-db5070ce498eca4f8d489649edc6bc25_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jY-fL215\">众所周知，我们在学习Pyhont过程中，大都看书枯燥、看视频进度慢，网上查找的学习案例又比较凌乱不成体系。。。<br/></p><p data-pid=\"BSyfPuXV\">百看不如一练，今天为大家搜集了一份Python从入门到进阶的实战案例合集，共计247个案例，185页内容。</p><p data-pid=\"kOg5SPiL\">内容涵盖：</p><p data-pid=\"XmqgSBRg\">· Python基础（90个案例）</p><p data-pid=\"re5UbDB0\">· Python高级字符串之正则（25个案例）</p><p data-pid=\"w4BRNbbX\">· Python 件、 期和多线程（26个案例）</p><p data-pid=\"dT6Y-wk6\">· Python三 利器（迭代器 ， 成器 ， 装饰器。15个案例）</p><p data-pid=\"_TofooMN\">· Python绘图（turtle，matplotlib, seaborn, plotly等工具。27个案例）</p><p data-pid=\"wUjVuB3o\">· Python之坑（14个）</p><p data-pid=\"Hu3DkNcb\">· Python第三 包（3个）</p><p data-pid=\"uHLnd5KG\">· 机器学习和深度学必知算法（17个）</p><p data-pid=\"gOclPsnA\">· Python实战（6个实战案例）</p><p data-pid=\"9moJhcn0\">· Pandas数据分析实战案例（pandas、numpy、matplotlib、· pyecharts。17个实战案例）</p><p data-pid=\"XIleVSDh\">步 步掌握Flask web开发（数据 库、各层调 关系、表单操作、Pyecharts绘图。5大实战案例）</p><p data-pid=\"Y3cbtWp4\">高清PDF版，所有代码均可复制。是python学习路上练习的最佳参考资料。快快收藏起来吧。</p><p data-pid=\"MoayyMJ4\">内容预览：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-016ffa44dc2e5851210e309178439b2d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"694\" data-original-token=\"v2-016ffa44dc2e5851210e309178439b2d\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://picx.zhimg.com/v2-016ffa44dc2e5851210e309178439b2d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5e35d8b3b89116e440986a35d58a6486_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"718\" data-original-token=\"v2-5e35d8b3b89116e440986a35d58a6486\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pica.zhimg.com/v2-5e35d8b3b89116e440986a35d58a6486_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5af57917faf7ac96f2b34ca5e9d5e1b2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"725\" data-original-token=\"v2-5af57917faf7ac96f2b34ca5e9d5e1b2\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic1.zhimg.com/v2-5af57917faf7ac96f2b34ca5e9d5e1b2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-877d280b2c903055c357c8816698813f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"712\" data-original-token=\"v2-877d280b2c903055c357c8816698813f\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://picx.zhimg.com/v2-877d280b2c903055c357c8816698813f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4ff04e8fd9c767556e64cebd510a8b79_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"679\" data-original-token=\"v2-4ff04e8fd9c767556e64cebd510a8b79\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic4.zhimg.com/v2-4ff04e8fd9c767556e64cebd510a8b79_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-592f468360a7953b52cf8707c4aa9b08_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"701\" data-original-token=\"v2-592f468360a7953b52cf8707c4aa9b08\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic3.zhimg.com/v2-592f468360a7953b52cf8707c4aa9b08_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-25f3df1f46d58b71bb2c4cac792f8f01_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"700\" data-original-token=\"v2-25f3df1f46d58b71bb2c4cac792f8f01\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic4.zhimg.com/v2-25f3df1f46d58b71bb2c4cac792f8f01_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-bfe4ab386cfc9bb3c0bdc4f77871a9dd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"722\" data-original-token=\"v2-bfe4ab386cfc9bb3c0bdc4f77871a9dd\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic2.zhimg.com/v2-bfe4ab386cfc9bb3c0bdc4f77871a9dd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-99e532eb1e97136d440581293beea129_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"710\" data-original-token=\"v2-99e532eb1e97136d440581293beea129\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic4.zhimg.com/v2-99e532eb1e97136d440581293beea129_r.jpg\"/></figure><p data-pid=\"DJ5LkUIK\">已经打包整理好了 希望可以帮助到大家!!!!看下方图 qu</p> <p data-pid=\"TOGxlX61\">一、Python所有方向的学习路线<br/>Python所有方向的技术点做的整理，形成各个领域的知识点汇总，它的用处就在于，你可以按照下面的知识点去找对应的学习资源，保证自己学得较为全面。<br/><br/><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-aaae2d487fb84da661cbf6b004c0060b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"761\" data-rawheight=\"578\" data-original-token=\"v2-aaae2d487fb84da661cbf6b004c0060b\" class=\"origin_image zh-lightbox-thumb\" width=\"761\" data-original=\"https://picx.zhimg.com/v2-aaae2d487fb84da661cbf6b004c0060b_r.jpg\"/></figure><p data-pid=\"qdFesD0-\"><br/><br/><br/><br/>二、Python必备开发工具<br/>工具都帮大家整理好了，安装就可直接上手！<br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-65b5a46f46a5f8ffae9a1290579a7c38_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"940\" data-original-token=\"v2-65b5a46f46a5f8ffae9a1290579a7c38\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-65b5a46f46a5f8ffae9a1290579a7c38_r.jpg\"/></figure><p data-pid=\"e3BI668P\"><br/>二、Python必备开发工具<br/>工具都帮大家整理好了，安装就可直接上手！<br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5c08213d18aa6609432fb6519ada6e2e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-5c08213d18aa6609432fb6519ada6e2e\" class=\"content_image\"/></figure><p data-pid=\"YWlVpVjW\"><br/><br/>三、最新Python学习笔记<br/>当我学到一定基础，有自己的理解能力的时候，会去阅读一些前辈整理的书籍或者手写的笔记资料，这些笔记详细记载了他们对一些技术点的理解，这些理解是比较独到，可以学到不一样的思路。有100本电子书籍，让你不用自己去买。<br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-84b7f61491579739b3a222d729ed6582_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"802\" data-rawheight=\"792\" data-original-token=\"v2-84b7f61491579739b3a222d729ed6582\" class=\"origin_image zh-lightbox-thumb\" width=\"802\" data-original=\"https://pica.zhimg.com/v2-84b7f61491579739b3a222d729ed6582_r.jpg\"/></figure><p data-pid=\"6I2p2NDW\"><br/>四、Python视频合集<br/>观看全面零基础学习视频，看视频学习是最快捷也是最有效果的方式，跟着视频中老师的思路，从基础到深入，还是很容易入门的。<br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-75c80e9fbe31d604eb458561f9058d3e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"831\" data-rawheight=\"726\" data-original-token=\"v2-75c80e9fbe31d604eb458561f9058d3e\" class=\"origin_image zh-lightbox-thumb\" width=\"831\" data-original=\"https://pica.zhimg.com/v2-75c80e9fbe31d604eb458561f9058d3e_r.jpg\"/></figure><p data-pid=\"zySysf_M\"><br/>五、实战案例<br/>纸上得来终觉浅，要学会跟着视频一起敲，要动手实操，才能将自己的所学运用到实际当中去，这时候可以搞点实战案例来学习。<br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-111f46c1bfc343b4dae87b270b485664_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"712\" data-rawheight=\"804\" data-original-token=\"v2-111f46c1bfc343b4dae87b270b485664\" class=\"origin_image zh-lightbox-thumb\" width=\"712\" data-original=\"https://pic3.zhimg.com/v2-111f46c1bfc343b4dae87b270b485664_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ef0351d54d9e11e1046d8dd00e3c104a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"712\" data-rawheight=\"807\" data-original-token=\"v2-ef0351d54d9e11e1046d8dd00e3c104a\" class=\"origin_image zh-lightbox-thumb\" width=\"712\" data-original=\"https://pic1.zhimg.com/v2-ef0351d54d9e11e1046d8dd00e3c104a_r.jpg\"/></figure><p data-pid=\"XQwTdC4X\"><br/><br/>六、面试宝典<br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-64a4f5cf8e0f54c09b7f90bcf4db25f2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"623\" data-original-token=\"v2-64a4f5cf8e0f54c09b7f90bcf4db25f2\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-64a4f5cf8e0f54c09b7f90bcf4db25f2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-bdc5b7679feb41cb9cf5fca38c9c381b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"789\" data-rawheight=\"305\" data-original-token=\"v2-bdc5b7679feb41cb9cf5fca38c9c381b\" class=\"origin_image zh-lightbox-thumb\" width=\"789\" data-original=\"https://picx.zhimg.com/v2-bdc5b7679feb41cb9cf5fca38c9c381b_r.jpg\"/></figure><p data-pid=\"hRm7qLWa\"><br/>简历模板<br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-37535c8cdced5909cc8bac1337869a9f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"572\" data-original-token=\"v2-37535c8cdced5909cc8bac1337869a9f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-37535c8cdced5909cc8bac1337869a9f_r.jpg\"/></figure><p data-pid=\"TZiVnaks\"><br/>已经打包整理好了 希望可以帮助到大家!!!!看下方图 qu</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d23af37c631399ceddc6a6d0d15b8767_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"248\" data-rawheight=\"136\" data-original-token=\"v2-aecfee533977f55370fee27344c2ea2f\" class=\"content_image\" width=\"248\"/></figure><p></p>",
+        "is_labeled": false,
+        "visited_count": 46,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-1cf5339ccfeddba653f17dbe26817b18_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-a9c35ab2251c7152c38582e319acf536_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-59eb86eab44308f811801b23244f145c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5d7e237d65e52ccc5614ebb3ee873017_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-082ef9e923db8fc7e3d858a4158b2265_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1de8182d392a760554b643cc5ac64bc0_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-fa21b4c42c9b8d20c0b8a70d22f3886d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-30887037114e5ad307e71d3e4db8b027_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4f14a6ff5ef398772f4a645b04cae3a7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-65b5a46f46a5f8ffae9a1290579a7c38_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-84b7f61491579739b3a222d729ed6582_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-75c80e9fbe31d604eb458561f9058d3e_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-111f46c1bfc343b4dae87b270b485664_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ef0351d54d9e11e1046d8dd00e3c104a_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 3,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1941497295645439710}",
+      "attached_info": "CrQNCN6V7+L6reWdiwEQBxoJMjYxOTg0OTYzIL3FlcUGKAEwAEDLAUpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTQ5NzI5NTY0NTQzOTcxMKoBCXJlY29tbWVuZMIBIDU4NjNhNTMzMjc2YzMxNDFkMGI3ZjU2YjlmZTUxNTIy8gEKCAwSBk5vcm1hbPIBKAgKEiQ0YmZmN2FlOS02MzRkLTQ2OGItYmZlZS1jNjZmNWZiMDEyNDjyAQYICxICMzSCAgCIArPTsPmMM5ICIDU4NjNhNTMzMjc2YzMxNDFkMGI3ZjU2YjlmZTUxNTIymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgL6AgtOT1JNQUxfRkxPV4oDIDViMThhMWE3ZjU2NjQ3ZWI5Y2I3MjBhZWI4ZWZkNzEwmgMNCgJ2MhAAGgVvdGhlcqgDLtgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoD+gcSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhD0AxiKAiIjdjItZGI1MDcwY2U0OThlY2E0ZjhkNDg5NjQ5ZWRjNmJjMjU6LQgCEOgHGLYFIiN2Mi0wMTZmZmE0NGRjMmU1ODUxMjEwZTMwOTE3ODQzOWIyZDotCAIQ6AcYzgUiI3YyLTVlMzVkOGIzYjg5MTE2ZTQ0MDk4NmEzNWQ1OGE2NDg2Oi0IAhDoBxjVBSIjdjItNWFmNTc5MTdmYWY3YWM5NmYyYjM0Y2E1ZTlkNWUxYjI6LQgCEOgHGMgFIiN2Mi04NzdkMjgwYjJjOTAzMDU1YzM1N2M4ODE2Njk4ODEzZjotCAMQ6AcYpwUiI3YyLTRmZjA0ZThmZDljNzY3NTU2ZTY0Y2ViZDUxMGE4Yjc5Oi0IAxDoBxi9BSIjdjItNTkyZjQ2ODM2MGE3OTUzYjUyY2Y4NzA3YzRhYTliMDg6LQgCEOgHGLwFIiN2Mi0yNWYzZGYxZjQ2ZDU4YjcxYmIyYzRjYWM3OTJmOGYwMTotCAMQ6AcY0gUiI3YyLWJmZTRhYjM4NmNmYzliYjNjMGJkYzRmNzc4NzFhOWRkOi0IAhDoBxjGBSIjdjItOTllNTMyZWIxZTk3MTM2ZDQ0MDU4MTI5M2JlZWExMjk6LQgCEPkFGMIEIiN2Mi1hYWFlMmQ0ODdmYjg0ZGE2NjFjYmY2YjAwNGMwMDYwYjotCAIQuAgYrAciI3YyLTY1YjVhNDZmNDZhNWY4ZmZhZTlhMTI5MDU3OWE3YzM4Oi0IABC3CBjYBCIjdjItNWMwODIxM2QxOGFhNjYwOTQzMmZiNjUxOWFkYTZlMmU6LQgCEKIGGJgGIiN2Mi04NGI3ZjYxNDkxNTc5NzM5YjNhMjIyZDcyOWVkNjU4MjotCAIQvwYY1gUiI3YyLTc1YzgwZTlmYmUzMWQ2MDRlYjQ1ODU2MWY5MDU4ZDNlOi0IAhDIBRikBiIjdjItMTExZjQ2YzFiZmMzNDNiNGRhZTg3YjI3MGI0ODU2NjQ6LQgCEMgFGKcGIiN2Mi1lZjAzNTFkNTRkOWUxMWUxMDQ2ZDhkZDAwZTNjMTA0YTotCAIQuAgY7wQiI3YyLTY0YTRmNWNmOGUwZjU0YzA5YjdmOTBiY2Y0ZGIyNWYyOi0IAxCVBhixAiIjdjItYmRjNWI3Njc5ZmViNDFjYjljZjVmY2EzOGM5YzM4MWI6LQgDELgIGLwEIiN2Mi0zNzUzNWM4Y2RjZWQ1OTA5Y2M4YmFjMTMzNzg2OWE5ZjotCAIQ+AEYiAEiI3YyLWFlY2ZlZTUzMzk3N2Y1NTM3MGZlZTI3MzQ0YzJlYTJmgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAgYGSwP4EFAAAAAAAAAACJBVx3M4HTVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBSKQBgCgBs0BqAYAkgIuCgkyNjE5ODQ5NjMSEzE5NDE0OTcyOTU2NDU0Mzk3MTAYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=203&desktop=true&end_offset=205&page_number=35&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=203&desktop=true&end_offset=205&page_number=35&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

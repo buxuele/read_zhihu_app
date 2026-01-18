@@ -1,0 +1,702 @@
+{
+  "data": [
+    {
+      "id": "54_1768674862.808",
+      "type": "feed",
+      "offset": 54,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674862,
+      "updated_time": 1768674862,
+      "target": {
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "id": "1993987035803967609",
+        "type": "answer",
+        "updated_time": 1768558740,
+        "comment_count": 105,
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"iuzEi5DC\">今年的流行趋势关键词：</p><p data-pid=\"f4RTve-w\">1、哭哭马；</p><p data-pid=\"1M5-Pdgd\">2、死了么；</p><p data-pid=\"ZTs98tdE\">3、酸黄瓜；</p><p data-pid=\"pFb26onM\">4、斩杀线；</p><p data-pid=\"2i6u1iXI\">5、…..</p>",
+        "voteup_count": 1646,
+        "is_copyable": true,
+        "question": {
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "1993236332965754283",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1993236332965754283",
+          "created": 1768004574,
+          "comment_count": 43,
+          "author": {
+            "gender": -1,
+            "is_followed": false,
+            "id": "d371683fd9673e521609ae7a4788e856",
+            "is_org": false,
+            "url_token": "bo-ben-er-ba-26",
+            "name": "liisu",
+            "headline": "路人甲",
+            "avatar_url": "https://picx.zhimg.com/50/v2-d24ffbc4102e48b6f12d8996682207ae_l.jpg?source=b6762063",
+            "followers_count": 1867,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/d371683fd9673e521609ae7a4788e856",
+            "user_type": "people"
+          },
+          "title": "义乌产的「哭哭马」火了，其实是工人失手做的「残次品」，其走红背后的核心卖点是什么？",
+          "bound_topic_ids": [
+            1975,
+            2511,
+            6002,
+            11918
+          ],
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "follower_count": 0,
+          "is_following": false
+        },
+        "visited_count": 106507,
+        "url": "https://api.zhihu.com/answers/1993987035803967609",
+        "created_time": 1768183555,
+        "thanks_count": 18,
+        "excerpt_new": "今年的流行趋势关键词： 1、哭哭马； 2、死了么； 3、酸黄瓜； 4、斩杀线； 5、…..",
+        "reshipment_settings": "allowed",
+        "vote_next_step": "vote",
+        "author": {
+          "url_token": "zhang-ya-zong",
+          "name": "海鸥",
+          "gender": 1,
+          "followers_count": 2362,
+          "id": "1f2ce6113deaad5cf17ea2b243b9e51d",
+          "url": "https://api.zhihu.com/people/1f2ce6113deaad5cf17ea2b243b9e51d",
+          "user_type": "people",
+          "is_following": false,
+          "is_followed": false,
+          "headline": "欲穷千里目，已过万重山",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9baa517872b9f62f495421e876aec1c8_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "excerpt": "今年的流行趋势关键词： 1、哭哭马； 2、死了么； 3、酸黄瓜； 4、斩杀线； 5、…..",
+        "is_labeled": false,
+        "favorite_count": 89,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993987035803967609}",
+      "attached_info": "CukFCOiAnKe4n830igEQBBoJNzY1MDQwOTcxIIOukcsGKO4MMGlANkozCh5UU19TT1VSQ0VfRkVFRFJFX1RJTUVMSU5FU1NfVjMSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTgwMTczODRiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTkzOTg3MDM1ODAzOTY3NjA5igETMTk5MzIzNjMzMjk2NTc1NDI4M6oBCXJlY29tbWVuZMIBIDFmMmNlNjExM2RlYWFkNWNmMTdlYTJiMjQzYjllNTFk8gEKCAwSBk5vcm1hbPIBKAgKEiRmZGU2Y2E5NC1jYTM2LTQ2MTYtYmIxMy1kZjcxM2YwNWI1OWXyAQYICxICMTCCAgCIAu/H8um8M5ICIDFmMmNlNjExM2RlYWFkNWNmMTdlYTJiMjQzYjllNTFkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCHlRTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTU19WM+gCAvoCC05PUk1BTF9GTE9XigMgMTVjZTIwZTYwODQ4NDY3ZTgxNDdhYTE3OTJiMzIyODSaAw0KAnYyEAAaBW90aGVyqAOLwAbYAwDqAxRmZWVkcmVfdGltZWxpbmVzc192M/oDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAAHsJw/gQUAAAAAAAAAAIkFeN1Tg3+8sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCpAGAKAGOKgGAZICLgoJNzY1MDQwOTcxEhMxOTkzOTg3MDM1ODAzOTY3NjA5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "55_1768674862.585",
+      "type": "feed",
+      "offset": 55,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674862,
+      "updated_time": 1768674862,
+      "target": {
+        "visited_count": 8891,
+        "navigator_vote": false,
+        "author": {
+          "id": "1294a79f4a1adfc70b38a995e4185a6d",
+          "url": "https://api.zhihu.com/people/1294a79f4a1adfc70b38a995e4185a6d",
+          "user_type": "people",
+          "url_token": "pdf-44-9",
+          "name": "英语真题pdf",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-0dd0cf5e99679f76a505cde2095fc7d0_l.jpg?source=b6762063",
+          "followers_count": 938,
+          "headline": "分享考研考证资料电子版",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "comment_permission": "all",
+        "updated": 1768560596,
+        "voting": 0,
+        "excerpt": "有一次去国外的咖啡店 前面一个老外说“no room” 小酱的朋友听后一脸疑惑： “没房间了？这咖啡店还是个旅店吗？” 其实在咖啡店里“no room”并不是说没房间 一起和小酱来看看真正的意思吧   01no room 是什么意思？no room可以表示“没地方、没空间” 但如果这句话是老外点咖啡的时候说的 我们就不能这样理解了 这个时候的no room意思是： 咖啡不需要留空间加奶油了 也就是 “不加奶油”的意思 如果想要加奶油，就是with room …",
+        "content": "<p data-pid=\"qV964tP9\">有一次去国外的咖啡店</p><p data-pid=\"dQgtcj8i\">前面一个老外说“no room”</p><p data-pid=\"bSTATwTX\">小酱的朋友听后一脸疑惑：</p><p data-pid=\"FHQy4Dap\">“没房间了？这咖啡店还是个旅店吗？”</p><p data-pid=\"7kCOPpMw\">其实在咖啡店里“no room”并不是说没房间</p><p data-pid=\"gDEYgsnM\">一起和小酱来看看真正的意思吧</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-41bb9c8b8377fef3ef4f0afa3ec75c4c_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"281\" data-original-token=\"v2-41bb9c8b8377fef3ef4f0afa3ec75c4c\" data-thumbnail=\"https://pica.zhimg.com/v2-41bb9c8b8377fef3ef4f0afa3ec75c4c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-41bb9c8b8377fef3ef4f0afa3ec75c4c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"e4AtcCj5\"><b>01no room 是什么意思？</b></p><p data-pid=\"HFNmaR2-\">no room可以表示“没地方、没空间”<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yUd726Fc\">但如果这句话是老外点咖啡的时候说的</p><p data-pid=\"cQQkt4S0\">我们就不能这样理解了</p><p data-pid=\"99FW60Aa\">这个时候的no room意思是：<br/></p><p data-pid=\"9DHj-c-x\">咖啡不需要留空间加奶油了</p><p data-pid=\"oF4MKDdy\">也就是<b>“不加奶油”</b>的意思</p><p data-pid=\"KC2h1aTp\"><b>如果想要加奶油，就是with room</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kTSD1WnH\"><i>例：</i></p><p data-pid=\"kbL5ubKg\"><i>I would like a cup of Americano, no room.</i></p><p data-pid=\"7sXs3jyH\"><i>我要一杯美式咖啡，不加奶油。</i></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8a81ed6f9a0d8fc6c4f2707ca1cc2cb2_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"480\" data-rawheight=\"358\" data-original-token=\"v2-8a81ed6f9a0d8fc6c4f2707ca1cc2cb2\" data-thumbnail=\"https://pic1.zhimg.com/v2-8a81ed6f9a0d8fc6c4f2707ca1cc2cb2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"480\" data-original=\"https://pic1.zhimg.com/v2-8a81ed6f9a0d8fc6c4f2707ca1cc2cb2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4qtpGzFk\">有些人喝咖啡喜欢加糖</p><p data-pid=\"DBpIB3NS\">不过加糖可不要说成”add sugar”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TDCYKA48\"><b>02咖啡“加糖”用英语怎么表达？</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yCZT-BYC\">①</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Jbzd7_X4\"><b>take sugar</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"i1UFGO8K\">在国外咖啡厅，服务员如果问你：</p><p data-pid=\"37euSBh6\"><b>How do you take your coffee?</b></p><p data-pid=\"X2OBO6eU\">千万不要以为他们是在问：你要怎么拿咖啡？</p><p data-pid=\"r5o0vCGs\">而是问你：&#34;要不要加糖？&#34;</p><p data-pid=\"pf4jaDAj\"> 有时他们也会直接问<b>：Do you take sugar?</b></p><p data-pid=\"fap1LhPz\">如果你不需要，可以回答：<br/></p><p data-pid=\"s7Zv1SQM\"><b>I don&#39;t take sugar in coffee. </b></p><p data-pid=\"-ktr7ZQR\">我喝咖啡不加糖。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-726a2998dac897c8ff222d3bb6ab841b_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"480\" data-rawheight=\"318\" data-original-token=\"v2-726a2998dac897c8ff222d3bb6ab841b\" data-thumbnail=\"https://picx.zhimg.com/v2-726a2998dac897c8ff222d3bb6ab841b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"480\" data-original=\"https://picx.zhimg.com/v2-726a2998dac897c8ff222d3bb6ab841b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jTvGmDi9\">②</p><p data-pid=\"hJTbQaDU\"><b>use sugar</b></p><p data-pid=\"Yi-GAZDv\">use sugar也是常用的表达</p><p data-pid=\"ZtSHzlO7\">有个短语：get used to=习惯了...</p><p data-pid=\"ha5szaxe\">这里use sugar也沿用了这层意思</p><p data-pid=\"Hj2a4cUq\">在老外听起来就是，你日常习惯喝加糖的咖啡</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1FSi2MW7\"><i>例：</i><br/></p><p data-pid=\"_8D7LDDi\"><i>I use sugar in my coffee.</i></p><p data-pid=\"RieEylrs\"><i>我喝咖啡（习惯）加糖。</i></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-bd9c14517b161591c58051a91eb26ec5_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"476\" data-rawheight=\"270\" data-original-token=\"v2-bd9c14517b161591c58051a91eb26ec5\" data-thumbnail=\"https://pic4.zhimg.com/v2-bd9c14517b161591c58051a91eb26ec5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"476\" data-original=\"https://pic4.zhimg.com/v2-bd9c14517b161591c58051a91eb26ec5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PfC93wb0\">③</p><p data-pid=\"isz6UDE8\"><b>with sugar</b></p><p data-pid=\"Se2dfR_o\">有时候也可以不使用动词</p><p data-pid=\"haQNa-aN\">而用介词“with”来表达加糖</p><p data-pid=\"3UfdbdYw\">比如服务员问你要不要“加糖”的时候</p><p data-pid=\"9HpoOXF3\">你可以回答：</p><p data-pid=\"FMyoLi1Q\"><b>I like my coffee with sugar please.</b></p><p data-pid=\"cuQ0M07L\">我要喝加糖的咖啡。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e7ed66e9aa3355cf047f83a2f693b182_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"384\" data-rawheight=\"243\" data-original-token=\"v2-e7ed66e9aa3355cf047f83a2f693b182\" data-thumbnail=\"https://pica.zhimg.com/v2-e7ed66e9aa3355cf047f83a2f693b182_b.jpg\" class=\"content_image\" width=\"384\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sCddCbi7\"><b>03“不加糖”、“少放糖”用英语怎么说？</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Lqplfz2W\">①</p><p data-pid=\"I3j4t2vQ\"><b>不加糖</b></p><p data-pid=\"aTOIKd4S\">除了上面说的</p><p data-pid=\"AhYG93Jk\"><b>“I don&#39;t take sugar in coffee. ”</b></p><p data-pid=\"yWT-gLqB\">“不加糖”还可以简单表达：</p><p data-pid=\"GIwamBJL\"><b>No sugar、sugar-free </b></p><p data-pid=\"2X9V3_N8\">或者说 </p><p data-pid=\"x_QG7lV2\"><b>Black is fine.　</b></p><p data-pid=\"GHzq5ZsV\">黑咖啡就可以了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-88d79c1d3338fcefc1dc1b15dd4d7e5e_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"380\" data-rawheight=\"228\" data-original-token=\"v2-88d79c1d3338fcefc1dc1b15dd4d7e5e\" data-thumbnail=\"https://pic3.zhimg.com/v2-88d79c1d3338fcefc1dc1b15dd4d7e5e_b.jpg\" class=\"content_image\" width=\"380\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ykEnZEKw\">②</p><p data-pid=\"Ej086ZAJ\"><b>少放糖</b></p><p data-pid=\"OBA5NP-P\">常用地道的表达：</p><p data-pid=\"IIu-qeNe\"><b>go easy on</b> <b>the sugar.</b></p><p data-pid=\"obwq5HIF\">请少放点糖。</p><p data-pid=\"U3ISL0rQ\"><b>（知识扩展：go easy on sth 少用点……）</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"o6V9RpAO\"><i>例：</i></p><p data-pid=\"-jna4Go7\"><i>Hey, go easy on the ketchup, there&#39;s not much left. </i></p><p data-pid=\"AAAoabwZ\"><i>少放点蕃茄酱，剩不多了。 </i></p><p data-pid=\"fsMWkVU2\"><i>Go easy on the sugar. Otherwise it&#39;s too sweet.</i></p><p data-pid=\"eKvZnnqH\"><i>少放点糖，否则太甜了。</i></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yNtSUyQE\">③</p><p data-pid=\"9FqL2WCJ\"><b>先留着</b></p><p data-pid=\"_ea6o0ns\">如果你现在还不需要加糖</p><p data-pid=\"552zyk8L\">但不确定待会要不要</p><p data-pid=\"8d3gnSCH\">可以跟服务员说：<br/></p><p data-pid=\"bo83_x2G\"><b>Could you hold the sugar?</b></p><p data-pid=\"XGVrO7uK\"><b>可以先不加糖吗？</b></p><p data-pid=\"RRQqB8X5\"><b>(把糖先留着，不要加)</b></p><p data-pid=\"qvgEJJxx\">hold在这里有暂时保留的意思</p>",
+        "preview_text": "",
+        "is_labeled": false,
+        "id": "1995568336113784262",
+        "url": "https://api.zhihu.com/articles/1995568336113784262",
+        "title": "老外点咖啡时说“No room”，可不是“没房间”！理解错就尴尬了！",
+        "created": 1768560596,
+        "voteup_count": 42,
+        "preview_type": "default",
+        "allow_segment_interaction": true,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "有一次去国外的咖啡店 前面一个老外说“no room” 小酱的朋友听后一脸疑惑： “没房间了？这咖啡店还是个旅店吗？” 其实在咖啡店里“no room”并不是说没房间 一起和小酱来看看真正的意思吧   01no room 是什么意思？no room可以表示“没地方、没空间” 但如果这句话是老外点咖啡的时候说的 我们就不能这样理解了 这个时候的no room意思是： 咖啡不需要留空间加奶油了 也就是 “不加奶油”的意思 如果想要加奶油，就是with room …",
+        "favorite_count": 50,
+        "article_type": "normal",
+        "is_navigator": false,
+        "type": "article",
+        "comment_count": 14,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995568336113784262}",
+      "attached_info": "CokICOiAnKe4n830igEQBxoJMjY5MTMwMjc4INSvqMsGKCowDkA3Si4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTU2ODMzNjExMzc4NDI2MqoBCXJlY29tbWVuZMIBIDEyOTRhNzlmNGExYWRmYzcwYjM4YTk5NWU0MTg1YTZk8gEKCAwSBk5vcm1hbPIBKAgKEiRmOTQ0OGY0MC01ZmJlLTRhNTAtOGFjOS1kM2QxN2UzZDlhYmXyAQYICxICMTCCAgCIAu/H8um8M5ICIDEyOTRhNzlmNGExYWRmYzcwYjM4YTk5NWU0MTg1YTZkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjPoAgP6AgtOT1JNQUxfRkxPV4oDIDE1Y2UyMGU2MDg0ODQ2N2U4MTQ3YWExNzkyYjMyMjg0mgMNCgJ2MhAAGgVvdGhlcqgDu0XYAwDqAxlmZWVkcmVfbXNfZ2F0ZV92M19vbmx5X2hx+gO5AhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgAEPQDGJkCIiN2Mi00MWJiOWM4YjgzNzdmZWYzZWY0ZjBhZmEzZWM3NWM0YzotCAAQ4AMY5gIiI3YyLThhODFlZDZmOWEwZDhmYzZjNGYyNzA3Y2ExY2MyY2IyOi0IABDgAxi+AiIjdjItNzI2YTI5OThkYWM4OTdjOGZmMjIyZDNiYjZhYjg0MWI6LQgAENwDGI4CIiN2Mi1iZDljMTQ1MTdiMTYxNTkxYzU4MDUxYTkxZWIyNmVjNTotCAMQgAMY8wEiI3YyLWU3ZWQ2NmU5YWEzMzU1Y2YwNDdmODNhMmY2OTNiMTgyOi0IAxD8AhjkASIjdjItODhkNzljMWQzMzM4ZmNlZmMxZGMxYjE1ZGQ0ZDdlNWWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOAGlqg/gQUAAAAAAAAAAIkFeN1Tg3+8sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCpAGAKAGOagGA5ICLgoJMjY5MTMwMjc4EhMxOTk1NTY4MzM2MTEzNzg0MjYyGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "56_1768674862.282",
+      "type": "feed",
+      "offset": 56,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674862,
+      "updated_time": 1768674862,
+      "target": {
+        "comment_count": 181,
+        "preview_type": "default",
+        "content": "<p data-pid=\"DOeZwEu7\">上一篇我们说过：黑死病乍看只流行了四年（1347–1351），但它真正改变世界的时间尺度，是此后几百年。</p><p data-pid=\"doTVLgyh\">而在推动历史前进这件事上，它做了一件重要又残忍的事——<b>祛魅。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MJrAubup\">“祛魅”这个词来自马克思·韦伯，意思是：</p><p data-pid=\"KkDNYdrY\"><b>原本被神圣光环包裹的一整套信仰、秩序、权威，被赤裸裸地拉回到人间，露出它脆弱、局限、甚至丑陋的一面。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"B71Curdj\">对14世纪的欧洲人来说，被祛魅的是宗教：</p><p data-pid=\"VhOwmlNv\">上帝不再是那个“求一求就能保护你”的存在；</p><p data-pid=\"Pm2lTsql\">教会不再是那个永远可靠的解释者与拯救者；</p><p data-pid=\"876I7XSN\">人们被迫直面现实：<b>即使虔诚祈祷，照样可能整村死光。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4htd9F4w\">那么，问题来了：</p><p data-pid=\"TLKCHw5c\">在21世纪，我们不再生活在一个上帝掌管一切的时代，</p><p data-pid=\"RL26Zp0_\">我们真正信奉的“神”，已经换成了别的东西。</p><p data-pid=\"t25joPhl\">鼠疫祛魅了宗教，那新冠祛魅的，究竟是什么？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jj8ktBSz\">我想，可以概括为三类现代神话：</p><p data-pid=\"Jrb_SId4\"><b>市场万能的神话、效率至上的神话、精致利己的神话。</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b87516371590bc0b6c88c60a4280549b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"896\" data-rawheight=\"1200\" data-original-token=\"v2-95486c01f5c08623edb7e13df1acbd76\" class=\"origin_image zh-lightbox-thumb\" width=\"896\" data-original=\"https://picx.zhimg.com/v2-b87516371590bc0b6c88c60a4280549b_r.jpg\"/></figure><h2><b>一、祛魅的原型：黑死病和宗教不再全知全能</b></h2><p data-pid=\"1ckluFBp\">我们先花一点点篇幅，把祛魅的原型捋清楚。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CKao_X2I\">在鼠疫之前，欧洲是一个被宗教深度统摄的社会。</p><p data-pid=\"M2H_AKFp\">天灾人祸，可以被解释为上帝的惩罚或信仰不够虔诚；</p><p data-pid=\"yJz2gE-P\">教会不仅是宗教机构，更是教育、医学、慈善、社会组织的核心；</p><p data-pid=\"XhQ5yn5v\">法律、道德、日常生活，都绕着宗教转。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-MDPqS8M\">在鼠疫之中，事情开始出现裂缝：</p><p data-pid=\"QpiXlUmy\">许多虔诚的神职人员在救治病人时率先死亡，反而那些逃走的人活了下来；</p><p data-pid=\"he_Beukz\">有些教会在恐惧中关闭教堂、拒绝临终祈祷，让民众觉得“最该在场时，你们不在”；</p><p data-pid=\"SsI5elak\">社会上出现两种极端反应，<b>一种是更加极端的宗教狂热（鞭笞者运动、猎巫、屠杀犹太人当替罪羊），另一种是享乐主义（既然无力对抗死亡，不如及时行乐）。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"I7AwDvVb\">在鼠疫之后的几个世纪，我们看到的是一种缓慢但清晰的趋势：</p><p data-pid=\"cfuxKN1u\">教会权威不再天然正当，民众和知识分子开始质疑、批评；</p><p data-pid=\"r16PN5Xu\">文艺复兴与宗教改革相继出现，人文主义抬头，<b>人开始被当作“此世的存在”，而不是“争取来世救赎的工具”。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rA3XemfG\">可以说，鼠疫并没有毁灭宗教，但它让宗教从绝对的解释者退居为众多解释之一。</p><p data-pid=\"zYoqUbgX\"><b>神还在，但不再被视为无条件正确。这就是祛魅。</b></p><p data-pid=\"B2uo4No_\">带着这个理解，我们再来看新冠时代。它到底戳破了哪些现代版的神？</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1cd3c28d8132e4f8609edf0b6971b7f1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1446\" data-original-token=\"v2-817091d06e69a1f0471467609a13c671\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-1cd3c28d8132e4f8609edf0b6971b7f1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>二、我们以为自己早就世俗化了，其实只是把神换了个名字</b></h2><p data-pid=\"mj8lgRzX\">今天，大多数人不会指望上帝一挥手就改变疫情，但我们心里仍然有一整套看不见的信仰体系。</p><p data-pid=\"BjPmddHu\">如果把这些信念翻译出来，大概是：</p><p data-pid=\"hvVLOUXF\"><b>1.市场万能：只要市场够发达、经济够强，危机来了自然有解决方案，代价也会是合理和可控的。</b></p><p data-pid=\"sCpk_LzD\"><b>2.效率至上：世界可以像机器一样被优化，只要把成本和风险算清，就应该把一切冗余都砍掉。</b></p><p data-pid=\"yXpr3yXi\"><b>3.精致利己： 只要我个人足够自律、聪明、会规划，就能把自己的人生，从风险里抽离出来。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"13uF1KIB\">这三套加在一起，就是现代社会的三位一体新宗教：</p><p data-pid=\"QbqGIBNx\"><b>先相信市场会自动调节一切；</b></p><p data-pid=\"OuJjp2kz\"><b>再相信效率是系统里唯一的美德；</b></p><p data-pid=\"R6jn7j8N\"><b>最后，个体只需经营好自己，把风险扔给系统和未来。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xL59u5qp\">而新冠，就像一块巨大的试金石，把这套信仰同时照了个底朝天。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8f75f533c8900f0060122d741eef9954_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1456\" data-original-token=\"v2-604d9acb94229b395ac717e9200d9e6d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-8f75f533c8900f0060122d741eef9954_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>三、新冠祛魅之一：市场万能——“市场会修复一切”的幻觉</b></h2><p data-pid=\"mcqj5Uvi\">在新冠之前，主流的经济叙事大致有三条隐含假设：</p><p data-pid=\"QulE6Hfy\"><b>1.全球化长供应链，是最理性且低成本的组织方式；</b></p><p data-pid=\"mfyPWR-I\"><b>2.公共服务可以不断外包给市场，瘦身政府、精简冗余是进步；</b></p><p data-pid=\"Y0Mz1w_w\"><b>3.就算短期出问题，市场会自我纠错，经济增长最终会惠及所有人。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rl0urh1q\">疫情这几年，现实的回答恰好相反。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"M6Kizx9-\"><b>1. 从全球最优，到一点断、全线崩</b></p><p data-pid=\"tQiBhix6\">封城、边境管制、工厂停摆，让所有人第一次直观地看到：</p><p data-pid=\"k4naiHs-\">那些以零库存、长链条为荣的供应链，在极端冲击前其实格外脆弱。</p><p data-pid=\"1FToR44M\">多篇综述和报告都指出：</p><p data-pid=\"KC1wIErf\">药品、食品、电子产品等关键行业的生产、运输和库存，在2020–2021年遭遇了前所未有的中断。</p><p data-pid=\"h9UYygMb\">多份政策报告记录了防护用品、呼吸机、药品等医用物资的严重短缺，各国政府在全球市场上争抢有限供给，价格飙升。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XDps9pMS\">这些研究共同指向一个事实：<b>那些被视为效率样板的长供应链，在现实中变成了一处断裂、全线崩溃的脆弱结构。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QgZB7XF4\"><b>2.紧缩与瘦身，在危机时被结算</b></p><p data-pid=\"1iMb-JAz\">在许多国家，疫情前的十几年，是公共部门“瘦身”的年代；</p><p data-pid=\"6uNZrmmF\">医疗和公共卫生预算被挤压，ICU床位和护理人力被算到刚刚够用。</p><p data-pid=\"DI5Nc20d\">而研究表明：<b>长期财政紧缩和公共卫生支出削减，与老年人死亡上升、精神健康恶化、服务缺口扩大相关；到了新冠大流行，这些缺口迅速转化为更高的病死负担。</b></p><p data-pid=\"nT---z0I\">这说明，当公共卫生被当成可以长期瘦身的成本中心，疫情就会把省下的每一分，成倍要回来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aDv-QD0V\"><b>3.不平等：不是副作用，而是风险分配的底层逻辑</b></p><p data-pid=\"INUxSzy_\">疫情数据反复证明同一件事：谁更穷，谁更拥挤，谁更缺乏保障，谁就更容易被病毒击倒。</p><p data-pid=\"36CVjw9N\">系统综述和多国研究发现：低收入、低技能岗位、居住拥挤、少数族裔群体的感染率和死亡率显著更高；必须线下上班、无法居家办公的人群，承担了远高于平均水平的暴露风险。</p><p data-pid=\"zRMG6XFS\"><b>被称为必要岗位的医护、护理、仓储、外卖、司机、超市员工，在很多国家承担了更高的感染和死亡风险，却长期处于低工资、低保障、高暴露的位置。</b></p><p data-pid=\"qM1Xm0Ph\">所以，疫情不是偶然不公，而是让你肉眼看到：<b>市场是在结构性地分配风险。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"M67WKR9b\"><b>4.放开之后，为什么没有回到“2019年的世界”？</b></p><p data-pid=\"PIUkpCYF\">很多人曾经相信：<b>只要放开管控、恢复市场运转，市场终究会把世界修回疫情前的模样。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hq7U2rc-\">短期看，2021年确实给了我们一点胜利的错觉：</p><p data-pid=\"QuHA9Stc\">世界银行估算，2021年全球GDP增长约5.6%，是几十年来最强的一次衰退后反弹；但即便如此，全球产出水平仍比疫情前预测低约3%。</p><p data-pid=\"UeADQhek\">作为率先控制住疫情并恢复生产的大经济体，中国在2021年的GDP修正后增长率为8.4%，在主要经济体中十分亮眼。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"d86g2wjA\">到2023年，大多数国家已经全面取消大规模封控和旅行限制，中国也在2022年底–2023年初放开，全球进入所谓的后疫情时代。</p><p data-pid=\"pTP9gXQe\"><b>但世界并没有回到2019。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ag1S1Mev\">世界银行2023年分析指出：<b>全球约95%的人生活在经济增速低于疫情前预期的国家。</b></p><p data-pid=\"DEklSXz-\">2024年的《全球经济展望》显示，<b>2024–2026年全球增速预计平均2.7%，明显低于疫情前3.1%的均值。</b></p><p data-pid=\"zpQb9cjG\">最新的2025年报告更直接：照当前预测，<b>2020年代很可能成为自1960年代以来全球增长最弱的十年。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dmRe6jSd\">为什么会这样，不是说好的市场会调节好一切吗？</p><p data-pid=\"isaFWROH\">一个被低估的关键变量，叫作长新冠（post COVID-19 condition）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CJ91VslE\">世卫组织2025年事实表给出估计：</p><p data-pid=\"0h5GZvEf\">每100个感染者中，就有6个发展为长新冠，表现为持续数月甚至更久的疲劳、呼吸困难、认知障碍等症状，严重影响工作和生活。</p><p data-pid=\"Abuva7vr\">多个队列和荟萃分析表明，在确诊感染者中，存在长期症状的比例往往远高于6%，不少研究给出 20–30%的量级，尽管研究之间差异很大。</p><p data-pid=\"MyQkrD4h\">一份发表于呼吸医学期刊的综述，将各国数据汇总后估算：  </p><p data-pid=\"py-W-lvU\"><b>长新冠每年给全球带来的经济负担约为1万亿美元，其中包括劳动生产率下降、医疗费用与生活质量损失等多重维度。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Nv-vQYFL\">在美国，Brookings的分析给出了一个更具体的切面：</p><p data-pid=\"us0XJTR-\">约1600万18–65岁劳动年龄人口正在经历长新冠；</p><p data-pid=\"cYknEXct\">其中200–400万人因此完全退出工作岗位；</p><p data-pid=\"fzNv9cRl\">仅工资损失一项，每年就约1700–2300亿美元。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bWFu7Pbu\">把这些数字放在前面的宏观数据旁边，结论其实非常朴素：</p><p data-pid=\"cePLjAb0\"><b>资本可以重组，工厂可以迁移，供应链可以重塑；  </b></p><p data-pid=\"OToWtrpn\"><b>但被削掉的健康和寿命，市场并不会自动补回来。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"eOjg5ENO\">人在，经济的基本盘才在；  </p><p data-pid=\"PCsFGoM0\">人不在，经济的底座就不可能稳固。</p><p data-pid=\"v39o5peC\">这就是新冠对“市场万能神话”写下的批注。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-73964ccb7b26e9f91bd18da6f549e86c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1446\" data-original-token=\"v2-c064ebba0901f99885f3253919851adc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-73964ccb7b26e9f91bd18da6f549e86c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>四、新冠祛魅之二：效率至上——“所有系统都可以被极致优化”的幻觉</b></h2><p data-pid=\"gOACoj52\">如果说市场万能神话出问题，是因为它对人的忽视，  </p><p data-pid=\"zujVmhL1\">那么效率至上神话出问题，则在于它对缓冲与冗余的敌视。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1JDKIaKd\"><b>现代人的日常生活，是被效率驯化的生活。</b></p><p data-pid=\"HZ7eHAMo\">企业推行精益管理：库存压到最低，人员配到刚刚好；</p><p data-pid=\"wZ-eX8LZ\">医院追求床位周转率最大化：空床被视为浪费，人手尽量不多配；</p><p data-pid=\"PbTs_YEA\">个人生活被拆分为无数可以榨干的时间块：GTD、OKR、KPI、番茄钟……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uHg3gXqb\">在平稳时期，这一切都显得合理甚至漂亮：</p><p data-pid=\"gaETqxMA\"><b>企业产能拉满，报表好看；</b></p><p data-pid=\"U6yy0dPP\"><b>组织成本压低，显得管理有方；</b></p><p data-pid=\"FBhQkWSR\"><b>个体看起来是自律高效的时间管理大师。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HE98NCZG\">新冠这块巨石砸下来，暴露了一个残酷真相：</p><p data-pid=\"ZjWLEhtJ\">当系统被调教到零冗余的高效率状态时，一次大的冲击，就足以把它撞进脆断区。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"smwJWp3J\"><b>1.医疗系统：少留一张床，就多出一串死亡数字</b></p><p data-pid=\"4tcnccEb\">以ICU为例，很多国家在疫情前的设计逻辑都是：平时床位刚刚够用就好，多建就是浪费。</p>",
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-368cb5bb68d7e9535b26998ec341046f.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pica.zhimg.com/50/v2-95486c01f5c08623edb7e13df1acbd76_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-817091d06e69a1f0471467609a13c671_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-604d9acb94229b395ac717e9200d9e6d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c064ebba0901f99885f3253919851adc_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-368cb5bb68d7e9535b26998ec341046f_720w.jpg?source=b6762063"
+        ],
+        "voting": 0,
+        "paid_info": {
+          "content": "<p data-pid=\"DOeZwEu7\">上一篇我们说过：黑死病乍看只流行了四年（1347–1351），但它真正改变世界的时间尺度，是此后几百年。</p><p data-pid=\"doTVLgyh\">而在推动历史前进这件事上，它做了一件重要又残忍的事——<b>祛魅。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MJrAubup\">“祛魅”这个词来自马克思·韦伯，意思是：</p><p data-pid=\"KkDNYdrY\"><b>原本被神圣光环包裹的一整套信仰、秩序、权威，被赤裸裸地拉回到人间，露出它脆弱、局限、甚至丑陋的一面。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"B71Curdj\">对14世纪的欧洲人来说，被祛魅的是宗教：</p><p data-pid=\"VhOwmlNv\">上帝不再是那个“求一求就能保护你”的存在；</p><p data-pid=\"Pm2lTsql\">教会不再是那个永远可靠的解释者与拯救者；</p><p data-pid=\"876I7XSN\">人们被迫直面现实：<b>即使虔诚祈祷，照样可能整村死光。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4htd9F4w\">那么，问题来了：</p><p data-pid=\"TLKCHw5c\">在21世纪，我们不再生活在一个上帝掌管一切的时代，</p><p data-pid=\"RL26Zp0_\">我们真正信奉的“神”，已经换成了别的东西。</p><p data-pid=\"t25joPhl\">鼠疫祛魅了宗教，那新冠祛魅的，究竟是什么？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jj8ktBSz\">我想，可以概括为三类现代神话：</p><p data-pid=\"Jrb_SId4\"><b>市场万能的神话、效率至上的神话、精致利己的神话。</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b87516371590bc0b6c88c60a4280549b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"896\" data-rawheight=\"1200\" data-original-token=\"v2-95486c01f5c08623edb7e13df1acbd76\" class=\"origin_image zh-lightbox-thumb\" width=\"896\" data-original=\"https://picx.zhimg.com/v2-b87516371590bc0b6c88c60a4280549b_r.jpg\"/></figure><h2><b>一、祛魅的原型：黑死病和宗教不再全知全能</b></h2><p data-pid=\"1ckluFBp\">我们先花一点点篇幅，把祛魅的原型捋清楚。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CKao_X2I\">在鼠疫之前，欧洲是一个被宗教深度统摄的社会。</p><p data-pid=\"M2H_AKFp\">天灾人祸，可以被解释为上帝的惩罚或信仰不够虔诚；</p><p data-pid=\"yJz2gE-P\">教会不仅是宗教机构，更是教育、医学、慈善、社会组织的核心；</p><p data-pid=\"XhQ5yn5v\">法律、道德、日常生活，都绕着宗教转。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-MDPqS8M\">在鼠疫之中，事情开始出现裂缝：</p><p data-pid=\"QpiXlUmy\">许多虔诚的神职人员在救治病人时率先死亡，反而那些逃走的人活了下来；</p><p data-pid=\"he_Beukz\">有些教会在恐惧中关闭教堂、拒绝临终祈祷，让民众觉得“最该在场时，你们不在”；</p><p data-pid=\"SsI5elak\">社会上出现两种极端反应，<b>一种是更加极端的宗教狂热（鞭笞者运动、猎巫、屠杀犹太人当替罪羊），另一种是享乐主义（既然无力对抗死亡，不如及时行乐）。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"I7AwDvVb\">在鼠疫之后的几个世纪，我们看到的是一种缓慢但清晰的趋势：</p><p data-pid=\"cfuxKN1u\">教会权威不再天然正当，民众和知识分子开始质疑、批评；</p><p data-pid=\"r16PN5Xu\">文艺复兴与宗教改革相继出现，人文主义抬头，<b>人开始被当作“此世的存在”，而不是“争取来世救赎的工具”。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rA3XemfG\">可以说，鼠疫并没有毁灭宗教，但它让宗教从绝对的解释者退居为众多解释之一。</p><p data-pid=\"zYoqUbgX\"><b>神还在，但不再被视为无条件正确。这就是祛魅。</b></p><p data-pid=\"B2uo4No_\">带着这个理解，我们再来看新冠时代。它到底戳破了哪些现代版的神？</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1cd3c28d8132e4f8609edf0b6971b7f1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1446\" data-original-token=\"v2-817091d06e69a1f0471467609a13c671\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-1cd3c28d8132e4f8609edf0b6971b7f1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>二、我们以为自己早就世俗化了，其实只是把神换了个名字</b></h2><p data-pid=\"mj8lgRzX\">今天，大多数人不会指望上帝一挥手就改变疫情，但我们心里仍然有一整套看不见的信仰体系。</p><p data-pid=\"BjPmddHu\">如果把这些信念翻译出来，大概是：</p><p data-pid=\"hvVLOUXF\"><b>1.市场万能：只要市场够发达、经济够强，危机来了自然有解决方案，代价也会是合理和可控的。</b></p><p data-pid=\"sCpk_LzD\"><b>2.效率至上：世界可以像机器一样被优化，只要把成本和风险算清，就应该把一切冗余都砍掉。</b></p><p data-pid=\"yXpr3yXi\"><b>3.精致利己： 只要我个人足够自律、聪明、会规划，就能把自己的人生，从风险里抽离出来。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"13uF1KIB\">这三套加在一起，就是现代社会的三位一体新宗教：</p><p data-pid=\"QbqGIBNx\"><b>先相信市场会自动调节一切；</b></p><p data-pid=\"OuJjp2kz\"><b>再相信效率是系统里唯一的美德；</b></p><p data-pid=\"R6jn7j8N\"><b>最后，个体只需经营好自己，把风险扔给系统和未来。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xL59u5qp\">而新冠，就像一块巨大的试金石，把这套信仰同时照了个底朝天。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8f75f533c8900f0060122d741eef9954_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1456\" data-original-token=\"v2-604d9acb94229b395ac717e9200d9e6d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-8f75f533c8900f0060122d741eef9954_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>三、新冠祛魅之一：市场万能——“市场会修复一切”的幻觉</b></h2><p data-pid=\"mcqj5Uvi\">在新冠之前，主流的经济叙事大致有三条隐含假设：</p><p data-pid=\"QulE6Hfy\"><b>1.全球化长供应链，是最理性且低成本的组织方式；</b></p><p data-pid=\"mfyPWR-I\"><b>2.公共服务可以不断外包给市场，瘦身政府、精简冗余是进步；</b></p><p data-pid=\"Y0Mz1w_w\"><b>3.就算短期出问题，市场会自我纠错，经济增长最终会惠及所有人。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rl0urh1q\">疫情这几年，现实的回答恰好相反。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"M6Kizx9-\"><b>1. 从全球最优，到一点断、全线崩</b></p><p data-pid=\"tQiBhix6\">封城、边境管制、工厂停摆，让所有人第一次直观地看到：</p><p data-pid=\"k4naiHs-\">那些以零库存、长链条为荣的供应链，在极端冲击前其实格外脆弱。</p><p data-pid=\"1FToR44M\">多篇综述和报告都指出：</p><p data-pid=\"KC1wIErf\">药品、食品、电子产品等关键行业的生产、运输和库存，在2020–2021年遭遇了前所未有的中断。</p><p data-pid=\"h9UYygMb\">多份政策报告记录了防护用品、呼吸机、药品等医用物资的严重短缺，各国政府在全球市场上争抢有限供给，价格飙升。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XDps9pMS\">这些研究共同指向一个事实：<b>那些被视为效率样板的长供应链，在现实中变成了一处断裂、全线崩溃的脆弱结构。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QgZB7XF4\"><b>2.紧缩与瘦身，在危机时被结算</b></p><p data-pid=\"1iMb-JAz\">在许多国家，疫情前的十几年，是公共部门“瘦身”的年代；</p><p data-pid=\"6uNZrmmF\">医疗和公共卫生预算被挤压，ICU床位和护理人力被算到刚刚够用。</p><p data-pid=\"DI5Nc20d\">而研究表明：<b>长期财政紧缩和公共卫生支出削减，与老年人死亡上升、精神健康恶化、服务缺口扩大相关；到了新冠大流行，这些缺口迅速转化为更高的病死负担。</b></p><p data-pid=\"nT---z0I\">这说明，当公共卫生被当成可以长期瘦身的成本中心，疫情就会把省下的每一分，成倍要回来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aDv-QD0V\"><b>3.不平等：不是副作用，而是风险分配的底层逻辑</b></p><p data-pid=\"INUxSzy_\">疫情数据反复证明同一件事：谁更穷，谁更拥挤，谁更缺乏保障，谁就更容易被病毒击倒。</p><p data-pid=\"36CVjw9N\">系统综述和多国研究发现：低收入、低技能岗位、居住拥挤、少数族裔群体的感染率和死亡率显著更高；必须线下上班、无法居家办公的人群，承担了远高于平均水平的暴露风险。</p><p data-pid=\"zRMG6XFS\"><b>被称为必要岗位的医护、护理、仓储、外卖、司机、超市员工，在很多国家承担了更高的感染和死亡风险，却长期处于低工资、低保障、高暴露的位置。</b></p><p data-pid=\"qM1Xm0Ph\">所以，疫情不是偶然不公，而是让你肉眼看到：<b>市场是在结构性地分配风险。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"M67WKR9b\"><b>4.放开之后，为什么没有回到“2019年的世界”？</b></p><p data-pid=\"PIUkpCYF\">很多人曾经相信：<b>只要放开管控、恢复市场运转，市场终究会把世界修回疫情前的模样。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hq7U2rc-\">短期看，2021年确实给了我们一点胜利的错觉：</p><p data-pid=\"QuHA9Stc\">世界银行估算，2021年全球GDP增长约5.6%，是几十年来最强的一次衰退后反弹；但即便如此，全球产出水平仍比疫情前预测低约3%。</p><p data-pid=\"UeADQhek\">作为率先控制住疫情并恢复生产的大经济体，中国在2021年的GDP修正后增长率为8.4%，在主要经济体中十分亮眼。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"d86g2wjA\">到2023年，大多数国家已经全面取消大规模封控和旅行限制，中国也在2022年底–2023年初放开，全球进入所谓的后疫情时代。</p><p data-pid=\"pTP9gXQe\"><b>但世界并没有回到2019。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ag1S1Mev\">世界银行2023年分析指出：<b>全球约95%的人生活在经济增速低于疫情前预期的国家。</b></p><p data-pid=\"DEklSXz-\">2024年的《全球经济展望》显示，<b>2024–2026年全球增速预计平均2.7%，明显低于疫情前3.1%的均值。</b></p><p data-pid=\"zpQb9cjG\">最新的2025年报告更直接：照当前预测，<b>2020年代很可能成为自1960年代以来全球增长最弱的十年。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dmRe6jSd\">为什么会这样，不是说好的市场会调节好一切吗？</p><p data-pid=\"isaFWROH\">一个被低估的关键变量，叫作长新冠（post COVID-19 condition）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CJ91VslE\">世卫组织2025年事实表给出估计：</p><p data-pid=\"0h5GZvEf\">每100个感染者中，就有6个发展为长新冠，表现为持续数月甚至更久的疲劳、呼吸困难、认知障碍等症状，严重影响工作和生活。</p><p data-pid=\"Abuva7vr\">多个队列和荟萃分析表明，在确诊感染者中，存在长期症状的比例往往远高于6%，不少研究给出 20–30%的量级，尽管研究之间差异很大。</p><p data-pid=\"MyQkrD4h\">一份发表于呼吸医学期刊的综述，将各国数据汇总后估算：  </p><p data-pid=\"py-W-lvU\"><b>长新冠每年给全球带来的经济负担约为1万亿美元，其中包括劳动生产率下降、医疗费用与生活质量损失等多重维度。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Nv-vQYFL\">在美国，Brookings的分析给出了一个更具体的切面：</p><p data-pid=\"us0XJTR-\">约1600万18–65岁劳动年龄人口正在经历长新冠；</p><p data-pid=\"cYknEXct\">其中200–400万人因此完全退出工作岗位；</p><p data-pid=\"fzNv9cRl\">仅工资损失一项，每年就约1700–2300亿美元。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bWFu7Pbu\">把这些数字放在前面的宏观数据旁边，结论其实非常朴素：</p><p data-pid=\"cePLjAb0\"><b>资本可以重组，工厂可以迁移，供应链可以重塑；  </b></p><p data-pid=\"OToWtrpn\"><b>但被削掉的健康和寿命，市场并不会自动补回来。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"eOjg5ENO\">人在，经济的基本盘才在；  </p><p data-pid=\"PCsFGoM0\">人不在，经济的底座就不可能稳固。</p><p data-pid=\"v39o5peC\">这就是新冠对“市场万能神话”写下的批注。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-73964ccb7b26e9f91bd18da6f549e86c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1446\" data-original-token=\"v2-c064ebba0901f99885f3253919851adc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-73964ccb7b26e9f91bd18da6f549e86c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>四、新冠祛魅之二：效率至上——“所有系统都可以被极致优化”的幻觉</b></h2><p data-pid=\"gOACoj52\">如果说市场万能神话出问题，是因为它对人的忽视，  </p><p data-pid=\"zujVmhL1\">那么效率至上神话出问题，则在于它对缓冲与冗余的敌视。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1JDKIaKd\"><b>现代人的日常生活，是被效率驯化的生活。</b></p><p data-pid=\"HZ7eHAMo\">企业推行精益管理：库存压到最低，人员配到刚刚好；</p><p data-pid=\"wZ-eX8LZ\">医院追求床位周转率最大化：空床被视为浪费，人手尽量不多配；</p><p data-pid=\"PbTs_YEA\">个人生活被拆分为无数可以榨干的时间块：GTD、OKR、KPI、番茄钟……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uHg3gXqb\">在平稳时期，这一切都显得合理甚至漂亮：</p><p data-pid=\"gaETqxMA\"><b>企业产能拉满，报表好看；</b></p><p data-pid=\"U6yy0dPP\"><b>组织成本压低，显得管理有方；</b></p><p data-pid=\"FBhQkWSR\"><b>个体看起来是自律高效的时间管理大师。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HE98NCZG\">新冠这块巨石砸下来，暴露了一个残酷真相：</p><p data-pid=\"ZjWLEhtJ\">当系统被调教到零冗余的高效率状态时，一次大的冲击，就足以把它撞进脆断区。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"smwJWp3J\"><b>1.医疗系统：少留一张床，就多出一串死亡数字</b></p><p data-pid=\"4tcnccEb\">以ICU为例，很多国家在疫情前的设计逻辑都是：平时床位刚刚够用就好，多建就是浪费。</p>"
+        },
+        "article_type": "paid_column_content",
+        "created": 1765370766,
+        "vote_next_step": "vote",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1982183091272438505",
+        "voteup_count": 1186,
+        "favorite_count": 1521,
+        "segment_infos": [
+          {
+            "pid": "KkDNYdrY",
+            "text": "原本被神圣光环包裹的一整套信仰、秩序、权威，被赤裸裸地拉回到人间，露出它脆弱、局限、甚至丑陋的一面。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 50,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994865509452256770"
+                  ],
+                  "is_like": false,
+                  "like_count": 16,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Jrb_SId4",
+            "text": "市场万能的神话、效率至上的神话、精致利己的神话。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992020688920404310"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "QpiXlUmy",
+            "text": "许多虔诚的神职人员在救治病人时率先死亡，反而那些逃走的人活了下来；",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995655900522882300"
+                  ],
+                  "is_like": false,
+                  "like_count": 13,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "cfuxKN1u",
+            "text": "教会权威不再天然正当，民众和知识分子开始质疑、批评；",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 26,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994865674124809873"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "r16PN5Xu",
+            "text": "文艺复兴与宗教改革相继出现，人文主义抬头，人开始被当作“此世的存在”，而不是“争取来世救赎的工具”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 50,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992328399054733403"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "yXpr3yXi",
+            "text": "3.精致利己： 只要我个人足够自律、聪明、会规划，就能把自己的人生，从风险里抽离出来。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 43,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994008104258535814"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "id": "1982183091272438505",
+        "image_url": "https://picx.zhimg.com/v2-368cb5bb68d7e9535b26998ec341046f.jpg?source=7e7ef6e2&needBackground=1",
+        "is_labeled": true,
+        "allow_segment_interaction": true,
+        "author": {
+          "url_token": "mooseOS",
+          "name": "木森",
+          "headline": "公众号：木森说 / 木森的知识花园",
+          "gender": 1,
+          "followers_count": 95166,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/11d999ec1494c55df8b0732fc3241200",
+          "user_type": "people",
+          "is_org": false,
+          "is_followed": false,
+          "id": "11d999ec1494c55df8b0732fc3241200",
+          "avatar_url": "https://picx.zhimg.com/50/v2-64f7dc1f46a8eb31ec2d81fb6e3838cf_l.jpg?source=b6762063"
+        },
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "visited_count": 72800,
+        "excerpt": "上一篇我们说过：黑死病乍看只流行了四年（1347–1351），但它真正改变世界的时间尺度，是此后几百年。 而在推动历史前进这件事上，它做了一件重要又残忍的事—— 祛魅。 “祛魅”这个词来自马克思·韦伯，意思是： 原本被神圣光环包裹的一整套信仰、秩序、权威，被赤裸裸地拉回到人间，露出它脆弱、局限、甚至丑陋的一面。 对14世纪的欧洲人来说，被祛魅的是宗教： 上帝不再是那个“求一求就能保护你”的存在； 教会不再是那个…",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "title": "鼠疫祛魅了宗教，那新冠祛魅了什么？",
+        "comment_permission": "all",
+        "updated": 1765433121,
+        "excerpt_new": "上一篇我们说过：黑死病乍看只流行了四年（1347–1351），但它真正改变世界的时间尺度，是此后几百年。 而在推动历史前进这件事上，它做了一件重要又残忍的事—— 祛魅。 “祛魅”这个词来自马克思·韦伯，意思是： 原本被神圣光环包裹的一整套信仰、秩序、权威，被赤裸裸地拉回到人间，露出它脆弱、局限、甚至丑陋的一面。 对14世纪的欧洲人来说，被祛魅的是宗教： 上帝不再是那个“求一求就能保护你”的存在； 教会不再是那个…",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1982183091272438505}",
+      "attached_info": "CrQICOiAnKe4n830igEQBxoJMjY3NDc5MDkwII7X5ckGKKIJMLUBQDhKNQogVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjISATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk4MjE4MzA5MTI3MjQzODUwNYIBX2h0dHBzOi8vcGljeC56aGltZy5jb20vdjItMzY4Y2I1YmI2OGQ3ZTk1MzViMjY5OThlYzM0MTA0NmYuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xqgEJcmVjb21tZW5kwgEgMTFkOTk5ZWMxNDk0YzU1ZGY4YjA3MzJmYzMyNDEyMDDyAQoIDBIGTm9ybWFs8gEoCAoSJGEyMjVkMWM0LWE3YzktNGQ4Ny05OWI1LTYwOTdiOGMzYmExN/IBBggLEgIxMIICAIgC78fy6bwzkgIgMTFkOTk5ZWMxNDk0YzU1ZGY4YjA3MzJmYzMyNDEyMDCaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMugCBPoCC05PUk1BTF9GTE9XigMgMTVjZTIwZTYwODQ4NDY3ZTgxNDdhYTE3OTJiMzIyODSaAw0KAnYyEAAaBW90aGVyqAPguATYAwDqAxZmZWVkcmVfZmlyc3Rfc2NyZWVuX3Yy+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEIAHGLAJIiN2Mi05NTQ4NmMwMWY1YzA4NjIzZWRiN2UxM2RmMWFjYmQ3NjotCAQQuAgYpgsiI3YyLTgxNzA5MWQwNmU2OWExZjA0NzE0Njc2MDlhMTNjNjcxOi0IAhC4CBiwCyIjdjItNjA0ZDlhY2I5NDIyOWIzOTVhYzcxN2U5MjAwZDllNmQ6LQgCELgIGKYLIiN2Mi1jMDY0ZWJiYTA5MDFmOTk4ODVmMzI1MzkxOTg1MWFkYzotCAIQwAwYhAciI3YyLTM2OGNiNWJiNjhkN2U5NTM1YjI2OTk4ZWMzNDEwNDZmgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACACD6YP4EFAAAAAAAAAACJBXjdU4N/vLM/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQqQBgCgBjqoBgCSAi4KCTI2NzQ3OTA5MBITMTk4MjE4MzA5MTI3MjQzODUwNRgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "57_1768674862.401",
+      "type": "feed",
+      "offset": 57,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674862,
+      "updated_time": 1768674862,
+      "target": {
+        "excerpt_new": "一、什么是领域驱动设计我们先来看下官方对领域驱动设计的定义： 领域驱动设计是一种将核心业务概念与实现模型紧密关联，并不断演进，以开发复杂软件的方式。 它的前提是： 将项目的主要关注点放在核心域和领域逻辑上； 基于模型进行复杂设计； 在技术人员与领域专家之间发起创造性协作，持续逼近问题的概念本质。 这一前提看似简单，但在现实复杂的业务环境中落地却极具挑战。它要求开发者具备新的技能、纪律性以及系统化的方法…",
+        "preview_type": "default",
+        "article_type": "normal",
+        "url": "https://api.zhihu.com/articles/1995495154639984471",
+        "title": "你真的了解领域驱动设计（DDD）吗？",
+        "created": 1768543640,
+        "favorite_count": 5,
+        "comment_permission": "all",
+        "comment_count": 0,
+        "visited_count": 166,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_text": "",
+        "content": "<h3><b>一、什么是领域驱动设计</b></h3><p data-pid=\"yHqIKIue\">我们先来看下官方对领域驱动设计的定义：</p><blockquote data-pid=\"yIPKBA2z\">领域驱动设计是一种将核心业务概念与实现模型紧密关联，并不断演进，以开发复杂软件的方式。 它的前提是：<br/><br/>将项目的主要关注点放在核心域和领域逻辑上；<br/><br/>基于模型进行复杂设计；<br/><br/>在技术人员与领域专家之间发起创造性协作，持续逼近问题的概念本质。<br/><br/>这一前提看似简单，但在现实复杂的业务环境中落地却极具挑战。它要求开发者具备新的技能、纪律性以及系统化的方法。 需要特别强调的是：领域驱动设计既不是一种技术，也不是一种方法论。 它为软件设计决策提供了一套实践框架与术语体系，旨在聚焦并加速处理复杂业务领域的软件项目。 <br/>—— Eric Evans《Domain-Driven Design: Tackling Complexity in the Heart of Software》</blockquote><p data-pid=\"cI7FsoVZ\">接下来，我们将逐条解析上述定义。</p><h3><b>1. 将项目的主要关注点放在核心域和领域逻辑上</b></h3><p data-pid=\"0mvoKTnU\">在典型的软件开发过程中，开发者需要应对诸多技术与非技术任务：</p><ul><li data-pid=\"L8SQAAY8\">梳理分析业务需求；</li><li data-pid=\"dbb10wP4\">掌握通信协议（如 RPC、HTTP）；</li><li data-pid=\"siToC_qo\">处理不同端的表现逻辑（App、PC、小程序）；</li><li data-pid=\"ezR9WE78\">理解系统架构与交互关系；</li><li data-pid=\"0PMZHZtL\">掌握和使用数据持久化技术（数据库、缓存、ES、NoSQL、外部系统等）；</li><li data-pid=\"MNA9Vm7f\">掌握和使用各种数据结构、算法及框架（如 SpringBoot、Kafka、MyBatis、JPA）等。</li></ul><p data-pid=\"DX1VqShk\">这些任务分散了开发者的精力，容易使人陷入技术细节，而忽视软件的本质目标——<b>满足用户需求</b>。更严重的是，可能因未能深入挖掘业务本质，导致系统缺乏对业务抽象的洞见，从而增加实现复杂度。</p><p data-pid=\"mgx1o5fa\">DDD 指导我们区分两类复杂性：<b>业务复杂性</b>与<b>技术复杂性</b>。  软件的核心始终是业务本身。通过关注点分离，将重心聚焦于核心域与领域逻辑，而非技术实现细节，有助于“分而治之”，从而简化整体开发过程，构建出更贴合业务、更简洁且更具表现力的领域模型。毕竟“完成业务要求”是根本原则。至于采用何种技术甚至编程语言，都应服务于这一目标。</p><h3><b>2. 基于模型的复杂设计</b></h3><p data-pid=\"ghAhYD10\">“基于模型”的设计，通常用于区别于“基于数据”的设计。后者更关注技术实现细节（如数据库表结构），而非业务本质。由于数据存储方式与领域对象之间难以做到完美映射，常导致领域模型为适配数据而妥协，丧失其表现力、简洁性和灵活性。 那么，什么是<b>领域模型</b>？在回答这个问题前，需先明确什么是<b>领域逻辑</b>（即业务逻辑）。</p><h3><b>2.1 什么是领域逻辑</b></h3><p data-pid=\"oC1zSIHB\">根据 Martin Fowler《企业应用架构模式》中的划分，应用程序逻辑可分为三部分：</p><ul><li data-pid=\"1vuqJt6V\"><b>表现逻辑</b>：处理用户与软件的交互，如命令行或 Web 界面。其职责是展示信息，并将用户输入转化为对领域层或数据源层的操作指令。</li><li data-pid=\"YZk4bTIH\"><b>数据源逻辑</b>：负责与其他系统交互，如事务监控器、消息系统、数据库等。主要职责是持久化数据。</li><li data-pid=\"j1pCyZCy\"><b>领域逻辑</b>（也称业务逻辑）：指应用必须完成的所有与业务相关的工作，包括数据计算、输入校验、根据用户命令调度数据源操作等。</li></ul><p data-pid=\"erRVyr5B\">关于“业务逻辑”的定义，业界存在广义与狭义之分：</p><ul><li data-pid=\"y8jC4J9k\"><b>广义业务逻辑</b>：指软件在特定业务领域内固有的逻辑，是软件的核心与灵魂。除界面与交互外的一切均可视为广义业务逻辑。</li><li data-pid=\"4i51c0lU\"><b>狭义业务逻辑</b>：等同于分层架构中“业务逻辑层”的职责，仅关注领域内的业务规则，通常不包含数据持久化。</li></ul><p data-pid=\"Y4CYzaAm\"><b>《领域驱动设计》及领域建模中所指的“业务逻辑”，多采用狭义定义。</b> 结合前文“将关注点放在核心域和领域逻辑上”，即可清晰界定领域模型的边界。</p><p data-pid=\"woHZDj9b\">领域逻辑独立于技术细节和 UI 表现形式，仅反映具体的业务规则与商业决策。例如：</p><ul><li data-pid=\"7rZadpVN\">下单超过 3 次则禁止继续购买；</li><li data-pid=\"ZLxK0RwZ\">消息发送后 1 分钟内不允许重复发送；</li><li data-pid=\"gsxK29Ei\">点评商品超过 100 条，奖励 1000 积分。</li></ul><p data-pid=\"6GXE1Wke\">业界有句戏言：“业务逻辑就是没有逻辑。”这话虽糙，却道出了业务规则的动态性——例如，因库存紧张限制下单次数，可能下周促销时又改为“下单 3 次享 5 折”。同样的行为，规则却可能毫无连续性，正因如此，业务逻辑往往是变化最频繁的部分。</p><h3><b>2.2 什么是领域模型</b></h3><p data-pid=\"zIpMuV97\">当业务逻辑变得极其复杂时，规则和用例行为会呈现高度多样性。面向对象技术正是为应对此类复杂性而生，通过封装、继承、多态、组合这些技术来简化实现。<b>领域模型即是面相特定领域问题而抽象的普通对象（Object），对象的命名（对象名、方法名、变量名）清晰反映业务领域内的特定语言，便于通过代码清晰表达业务，增加可阅读性。</b> 领域模型构建了一张由相互关联的对象组成的网络，每个对象代表一个有意义的业务实体——可能是一个公司，也可能是一笔订单中的某一订单项。在应用中，使用领域模型意味着建立一个完整的对象层来对业务领域进行建模。</p><p data-pid=\"5dliF2HK\">领域模型虽与数据库模型形似，但存在关键差异：</p><ul><li data-pid=\"273nkEgk\">领域模型封装了数据与行为；</li><li data-pid=\"9cF0c2zB\">支持多值属性和复杂关联；</li><li data-pid=\"0MSkcW4b\">可以使用封装、继承、多态组合机制简化实现。</li></ul><p data-pid=\"whhDvING\">领域模型演化出两种风格：</p><ul><li data-pid=\"iloH4U0H\"><b>简单领域模型（贫血模型）</b>：与数据库表几乎一一对应，行为薄弱，类似活动记录模式。</li><li data-pid=\"MCLN6dnU\"><b>复杂领域模型（富血模型）</b>：使用继承、策略、设计模式等，形成细粒度对象网络，更适合处理复杂逻辑，但映射到数据库较困难，需借助数据映射器。</li></ul><p data-pid=\"zzM9zxap\">由于业务行为频繁变化，领域层必须具备<b>易于修改、构建和测试</b>的特性。因此，<b>富血模型更容易达成该特性</b>。同时<b>领域模型应尽可能减少与其他系统层的耦合</b>。许多分层架构模式，包括 DDD 中的多种战术、战略模式，都致力于实现这一点。</p><p data-pid=\"q46uiNRe\">在 DDD 中，Entity（实体）与 Value Object（值对象）本质上仍是面向对象的对象。但在复杂系统中，维护每个实例的唯一性既复杂又未必必要。因此，根据场景需求，某些对象可简化为值对象。例如：</p><ul><li data-pid=\"cXyx2JuP\">在“网上书店商品介绍”场景中，书籍可建模为值对象（用户关心内容，而非具体哪一本）；</li><li data-pid=\"C1eg_EkL\">在“仓库发货”场景中，则需关注具体书籍及其 ISBN，应建模为实体。</li></ul><p data-pid=\"f7K07dqL\">初学者常犯的错误是构建一张高度耦合的对象关系网，导致系统复杂、性能差、维护困难。<b>聚合（Aggregate）</b> 正是为解决此问题而设：将具有业务完整性约束（即一致性边界）的对象组合成一个聚合。聚合应尽量小，聚合之间通过主键弱关联。外部只能通过<b>聚合根（Aggregate Root）</b> 访问聚合内部，以确保封装性与业务一致性。</p><p data-pid=\"v57J8BUp\">然而，在 DDD 中，上述建模技术虽重要，却非最关键。软件的核心始终是<b>解决业务问题</b>，技术只是实现手段。真正关键的是：对业务问题的分析、澄清、抽象与共识；是领域模型的创建过程（包括需求沟通、会议讨论等所有交流形式）。唯有过程正确，结果才可能正确。最终目标是构建一个更简洁、更具有业务表现力且能被团队广泛共识的领域模型。</p><h3><b>3. 在技术人员与领域专家之间发起创造性协作，持续逼近问题的概念核心</b></h3><p data-pid=\"nbld6o7y\">在探讨此点前，先看一个 Stack Overflow 上 “DDD 是否浪费时间？”的高赞回答：</p><blockquote data-pid=\"XGn-Wh6Q\"> 许多认为 DDD 有用的开发者陷入一个误区：以为自己的工作就是写代码。实则不然。开发者的真正职责是实现功能，以通过软件解决问题。由此得出结论：<b>写代码不是工作的起点，而是终点——代码是“写代码之前整个流程”的结果。</b><br/> DDD 并非关于如何写代码，也不是一个十步速成法。它关注的是<b>写代码之前的整个流程</b>：理解问题本质、识别参与方、厘清信息流、明确各元素及其相互关系。<br/>事实上，DDD 最重要的部分是<b>创建一种语言，使领域专家与开发者能够无歧义地沟通</b>——这就是 Evans 所说的“<b>统一语言</b>”。它让“写代码前的流程”变得清晰、直接、少猜测。（这正是目标所在。）<br/>那些问“如何在实践中使用 DDD？”或“能否给我一个 DDD 编码示例？”的人，往往只关注“如何写代码”，却不清楚“为何要写这段代码，而非其他代码”。 换言之：<b>若你意识到 DDD 是关于“发现要写什么功能”以及“为什么写”，一切便迎刃而解。</b>至于“如何写”，那是你的选择。但此时，这已不是最大难题——因为你已清楚目标与理由。</blockquote><p data-pid=\"XHq0zGJz\">由此可见，DDD 并非或不只是指导如何写代码，而是指导“如何通过软件解决特定领域问题”的<b>全生命周期过程</b>。尤其在代码编写前的沟通、分析、抽象、理解、建模与达成共识等前置工作，往往比编码本身更为重要。</p><p data-pid=\"PtdDTvvA\">要做到这一点，必须与项目干系人（产品、QA、业务方等）保持频繁、高质量、紧密的协作。因为业务领域本身复杂，而人类语言天然存在歧义。同一个业务概念可能有多种表述方式（如“通知”可称 Message 或 Notification），此时关键在于<b>达成共识</b>，确立“统一语言”。<br/>虽然具体命名（Message 还是 Notification）未必至关重要，但必须避免对同一业务概念建立多个模型或命名，或将多个概念混用同一模型——这是系统混乱的开端。</p><h3><b>3.1 什么是“统一语言”？它从何而来？它是 UML 图吗？</b></h3><p data-pid=\"8gLN1N0G\">“统一语言”用于需求沟通、业务概念识别、领域模型构建（不仅包括静态类，也涵盖业务行为，如“用户登录”中的 User 与 login 操作），以澄清歧义、明确需求范围与业务含义。</p><p data-pid=\"FymVgrup\">需求方用“统一语言”提需求，研发方据此建模并实现代码，实现“需求即模型，模型即代码”的高度一致性。这一过程极为复杂，受团队文化、沟通能力、业务理解深度、遗留系统、人际关系等多重因素影响，且难以量化评估。</p><p data-pid=\"TFpHPOms\">“统一语言”<b>不仅限于 UML 图</b>（如类图、时序图、组件图等），还包括：</p><ol><li data-pid=\"KoJ9Ht6t\">日常与干系人的需求交流、头脑风暴；</li><li data-pid=\"_i17f91y\">各类设计文档、用例文档；</li><li data-pid=\"_TQAjXqH\">各种图表形式的设计表达（流程图、时序图等）。</li></ol><p data-pid=\"MpcbrsOY\">总之，在软件开发全过程（交流、文档、图表）中，凡能清晰、简洁、准确表达领域知识的名词、动词、形容词等，均可作为“统一语言”的素材。关键在于团队共同消除歧义、澄清意图、达成共识。</p><h3><b>4. 领域驱动设计是一种将核心业务概念与实现模型紧密关联，并不断演进，以开发复杂软件的方式</b></h3><ul><li data-pid=\"oFynJJV7\"><b>核心业务概念与实现模型紧密关联</b>：需求即模型，模型即代码，各方理解一致、无歧义。</li><li data-pid=\"f9VnTYMq\"><b>并不断演进</b>：即持续重构，包括大型高层次重构。Evans 与 Vernon 的经典著作均强调重构与演进的重要性。然而，许多介绍 DDD 的文章或课程常有意（作者未掌握重构技能）或无意（认为重构是基础技能）忽略此点。</li></ul><p data-pid=\"WXKqlk57\">由于业务逻辑频繁变化且日益复杂（否则无需引入 DDD，因其本身成本较高），最初达成的“统一语言”、领域模型及代码可能不再适应新场景。此时必须主动重构语言、模型与代码，使其始终保持高效、简洁与灵活。</p><h3><b>5. 总结</b></h3><p data-pid=\"XmJbAvU_\">领域驱动设计以业务领域为核心，通过一套实践框架与术语体系来隔离、关注业务领域，所有对象因角色定位不同而各司其职，即简化版的面向对象应用。尤其强调：</p><ul><li data-pid=\"XD4fSdIG\">与系统干系人共同探索、提炼领域概念，澄清意图，形成表达力强、无歧义的“统一语言”；</li><li data-pid=\"PR5xW9m4\">基于“统一语言”建立紧密关联的简洁、业务表现力强的领域模型（富血模型），实现“需求即模型，模型即代码”。</li><li data-pid=\"W05Pj9sO\">这一过程即不是一蹴而就可以达成的，也不是一成不变的，需要持续沟通、精进、重构。</li></ul><h3><b>二、DDD实践中的几个误区</b></h3><p data-pid=\"euJCe1d4\"><b>1.过于关注“术”，忽视“道”</b><br/>实践中容易陷入对DDD战术与战略模式的机械套用（如实体、值对象、聚合、限界上下文、领域服务等），而忽略其背后的核心——<b>对领域知识的深入理解、认知迭代、建模能力、意图澄清与简化设计</b>。<br/>战术模式（如 Repository、Factory、Domain Service）与战略模式（如子域划分、上下文映射）是手段而非目的。重点应放在“道”，即领域本质的理解、抽象、表达，而非仅追求“术”的形式。</p><p data-pid=\"yFERf9Gs\"><b>2.完全鉴于现实建模而没有做适当抽象与忽略</b><br/>领域模型来源与现实模型，但不等通于对现实模型的Copy。现实模型往往过于复杂、细节满满。领域模型如果面面俱到的映射现实模型，往往会信息爆炸、没有重点。领域模型应该只关注业务要解决的问题，对现实模型进行适当的抽象，忽略不关注的部分。地铁路线图就是一个很好的抽象例子，它的关注点是乘客了解该如何乘坐地铁，而不是绘制真实的地铁网络。 </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a26705ab0a81b0825aa04d70a8926760_1440w.jpg\" data-rawwidth=\"258\" data-rawheight=\"168\" data-size=\"normal\" data-original-token=\"v2-6181d1659626a33ed5da79c49df94157\" class=\"content_image\" width=\"258\"/><figcaption>地铁路线图</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-78c0584cb2f2c3696e970de988930928_1440w.jpg\" data-rawwidth=\"236\" data-rawheight=\"174\" data-size=\"normal\" data-original-token=\"v2-e8d8be53b8392d96981cf77296d937cf\" class=\"content_image\" width=\"236\"/><figcaption>真实地铁网络</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wLfOqKML\"><b>3.误将DDD模式视为可复用的组件</b><br/>许多开发者试图寻找“标准DDD示例”并照搬使用，如同“照葫芦画瓢”。然而，<b>模式源于实践，是“半成品”而非银弹</b>。<br/>每个模式都需在具体业务场景中重新加工与适配。同一模式在不同项目中的实现可能差异显著。<br/> <b>所有模式都是不完备的，使用者有责任在系统中完善它们。</b><br/> </p><p data-pid=\"YTpvCjX0\"><b>4.面向对象技术应用不足</b><br/>在复杂业务场景中，仍采用“贫血模型”与事务脚本式开发，未能通过封装、继承、多态、组合等面向对象技术提升模型的表现力与内聚性，导致领域逻辑分散、难以维护。</p><p data-pid=\"7Eh2D_w3\"><b>5.聚合设计过大，缺乏业务一致性约束考量</b><br/>未能依据业务完整性边界合理划分聚合，导致聚合臃肿、耦合度高。应基于<b>业务约束与一致性要求</b>精简聚合，确保聚合根有效封装内部状态，并通过弱引用关联其他聚合。</p><p data-pid=\"lj1QP6ZO\"><b>6.全面强制应用DDD模式</b><br/>DDD并非“免费午餐”，其引入需付出额外成本（如建模复杂度、沟通成本）。应避免“为用DDD而用DDD”。基于自己的业务场景选择性使用DDD的战略、战术模式，目标始终是简化设计，而非完成DDD Checklist。</p><ul><li data-pid=\"ekrIKxrC\">优先在<b>核心域</b>投入精力精细打磨，以获得最大收益，其他子域视资源、团队情况决定；</li><li data-pid=\"0Lmetn5D\">根据场景复杂度<b>选择性使用模式</b>。例如，某核心业务查询逻辑复杂但新增操作简单，可仅对查询部分采用富血模型，新增部分使用事务脚本。</li></ul><p data-pid=\"N76xB1KV\"><b>7.忽视高质量沟通的价值</b><br/>一个组织的产出质量深受其内部沟通协作方式影响。DDD强调技术人员与领域专家之间的<b>高频、高质量对话</b>，若缺乏有效沟通机制（如统一语言共建、需求澄清会议），极易导致模型与业务脱节。</p><p data-pid=\"7AsQf-RS\"><b>8.过度追求“复用”与“灵活”，牺牲“简洁”“可读”“可测”</b><br/> 过早抽象或过度设计会引入不必要的复杂性，削弱代码的业务表现力。应优先保证模型的<b>简洁性、可读性与可测试性</b>。当业务变化时，再通过重构逐步提升灵活性与复用性。</p><h3><b>三、实施DDD的应具备的基础知识和技能</b></h3><p data-pid=\"tIjReQeP\">《Domain-Driven Design: Tackling Complexity in the Heart of Software》参考文献涵盖大量敏捷方向理论知识和经典著作，如：</p><ul><li data-pid=\"PHSAWhj4\">模式理论（如《设计模式》）</li><li data-pid=\"OtWVJYe_\">测试驱动开发（TDD）</li><li data-pid=\"0kijoOd4\">敏捷与极限编程（XP）</li><li data-pid=\"ybwe9DsP\">面向对象分析与设计（OOAD）</li><li data-pid=\"FpIihyE_\">《企业应用架构模式》（Martin Fowler）</li><li data-pid=\"8G6oJnxj\">《重构》（Martin Fowler）</li><li data-pid=\"vu49x8sS\">《分析模式》（Martin Fowler）等</li></ul><p data-pid=\"sNq8c18I\">正如“四人帮”所言：<b>“设计模式是发掘出来的，不是发明出来的。”</b>  DDD 同样不是凭空创造的，而是基于上述知识体系（尤其是 OOAD、重构、分析模式、敏捷、极限编程等）在实践中提炼与总结而成。因此，<b>成功实施DDD的前提是扎实掌握以下基础能力</b>：</p><ul><li data-pid=\"b3ud36AI\"><b>面向对象分析与设计（OOAD）</b>：理解封装、继承、多态、组合、设计原则（如 SOLID）与设计模式；</li><li data-pid=\"Xtju-ooi\"><b>重构技能</b>：能够持续改进代码结构，保持模型与业务同步演进；</li><li data-pid=\"TTswcmqG\"><b>敏捷协作实践</b>：包括用户故事、迭代开发、持续集成等；</li><li data-pid=\"yo-E0gZK\"><b>领域建模思维</b>：善于从业务语言中提炼概念，构建具有业务表现力的高内聚、低耦合的领域模型；</li><li data-pid=\"o37PQO83\"><b>沟通与共识能力</b>：与业务方共建“统一语言”，消除歧义。</li></ul><p data-pid=\"TJiiVrcn\">最终，当你的领域层代码能让<b>非技术背景的需求方也能看懂并参与评审</b>时，当你的系统可以<b>轻松应对需求的变化</b>时，当你的团队跨职能也可以<b>高效的沟通</b>时，说明“统一语言”、领域模型与代码实现已达到高度一致，具备强大的业务表现力和简洁性——这正是DDD追求的卓越之境。</p><blockquote data-pid=\"JwkJtPK-\"><b>没有银弹。追求卓越软件的过程，本质上是认知不断迭代、技能持续精进的过程。</b>  DDD 的战术与战略模式、最佳实践，均服务于这一目标。</blockquote><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d3278d24fe2e920f32739318053b3b86_1440w.jpg\" data-rawwidth=\"729\" data-rawheight=\"556\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-896aa45b7951f054a82198e7c6973a23\" class=\"origin_image zh-lightbox-thumb\" width=\"729\" data-original=\"https://pic1.zhimg.com/v2-d3278d24fe2e920f32739318053b3b86_r.jpg\"/></figure>",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "id": "1995495154639984471",
+        "updated": 1768610329,
+        "voteup_count": 2,
+        "excerpt": "一、什么是领域驱动设计我们先来看下官方对领域驱动设计的定义： 领域驱动设计是一种将核心业务概念与实现模型紧密关联，并不断演进，以开发复杂软件的方式。 它的前提是： 将项目的主要关注点放在核心域和领域逻辑上； 基于模型进行复杂设计； 在技术人员与领域专家之间发起创造性协作，持续逼近问题的概念本质。 这一前提看似简单，但在现实复杂的业务环境中落地却极具挑战。它要求开发者具备新的技能、纪律性以及系统化的方法…",
+        "is_labeled": false,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "type": "article",
+        "author": {
+          "id": "8bb10a49125e84df1d92541bb4e153ea",
+          "url": "https://api.zhihu.com/people/8bb10a49125e84df1d92541bb4e153ea",
+          "url_token": "lao-mao-4-50",
+          "name": "老猫",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "headline": "",
+          "followers_count": 0
+        },
+        "voting": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995495154639984471}",
+      "attached_info": "CocHCOiAnKe4n830igEQBxoJMjY5MTEwMzY5IJirp8sGKAIwAEA5SjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTQ5NTE1NDYzOTk4NDQ3MaoBCXJlY29tbWVuZMIBIDhiYjEwYTQ5MTI1ZTg0ZGYxZDkyNTQxYmI0ZTE1M2Vh8gEKCAwSBk5vcm1hbPIBKAgKEiQ4NjE1YjUyYy05YmE1LTQ3OGUtYTZmMC04YWJhYjE5Y2MwZWLyAQYICxICMTCCAgCIAu/H8um8M5ICIDhiYjEwYTQ5MTI1ZTg0ZGYxZDkyNTQxYmI0ZTE1M2VhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1Yx6AID+gILTk9STUFMX0ZMT1eKAyAxNWNlMjBlNjA4NDg0NjdlODE0N2FhMTc5MmIzMjI4NJoDDQoCdjIQABoFb3RoZXKoA6YB2AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQggIYqAEiI3YyLTYxODFkMTY1OTYyNmEzM2VkNWRhNzljNDlkZjk0MTU3Oi0IAhDsARiuASIjdjItZThkOGJlNTNiODM5MmQ5Njk4MWNmNzcyOTZkOTM3Y2Y6LQgCENkFGKwEIiN2Mi04OTZhYTQ1Yjc5NTFmMDU0YTgyMTk4ZTdjNjk3M2EyM4AEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYNwRkD+BBQAAAAAAAAAAiQV43VODf7yzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUKkAYAoAY7qAYAkgIuCgkyNjkxMTAzNjkSEzE5OTU0OTUxNTQ2Mzk5ODQ0NzEYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "58_1768674862.647",
+      "type": "feed",
+      "offset": 58,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674862,
+      "updated_time": 1768674862,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1995903919994454520",
+        "updated_time": 1768640576,
+        "excerpt_new": "我从去年8月底开始注册了公众号，帐号#80后潮汕中年少女，然后就开始写写写。最开始什么都不懂，每天随便写，一天一篇，每天还热情的互动，两个月后粉丝500，开通了流量主。   最开始有新人扶持，每天流量主收益几块钱，信心满满，想像如果再努努力，每天能有100元收入就好了。 开通流量主的第一个月，有几篇文章阅读量万以上，总收入200多元，很开心，特别开心。 到了第二个月，流量主断崖式下降，每天都是几百，到了现在1月份，每…",
+        "reshipment_settings": "allowed",
+        "navigator_vote": false,
+        "id": "1995903919994454520",
+        "created_time": 1768640576,
+        "thanks_count": 0,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-768c2c0c9bfe6b83ba8618fb787244bf_720w.jpg?source=b6762063"
+        ],
+        "voteup_count": 1,
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "preview_type": "default",
+        "is_labeled": false,
+        "visited_count": 18,
+        "is_copyable": true,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "content": "<h3>我从去年8月底开始注册了公众号，帐号#80后潮汕中年少女，然后就开始写写写。最开始什么都不懂，每天随便写，一天一篇，每天还热情的互动，两个月后粉丝500，开通了流量主。</h3><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ba0fd775fdfc2224f2521d7d1dfc2973_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2400\" data-original-token=\"v2-768c2c0c9bfe6b83ba8618fb787244bf\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-ba0fd775fdfc2224f2521d7d1dfc2973_r.jpg\"/></figure><p data-pid=\"aRp84HKz\">最开始有新人扶持，每天流量主收益几块钱，信心满满，想像如果再努努力，每天能有100元收入就好了。</p><p data-pid=\"UaDSuFfU\">开通流量主的第一个月，有几篇文章阅读量万以上，总收入200多元，很开心，特别开心。</p><p data-pid=\"1clrhERz\">到了第二个月，流量主断崖式下降，每天都是几百，到了现在1月份，每天都是几十的阅读量，现在没有信心，但还是努力找题材写，每天有个寄托也好。</p><p data-pid=\"NbLZ7KPG\">我写了一篇分享减肥的方法，阅读量5万多。</p><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/maTUmWFJ_x6ocL0JI4W2gw\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"https://mp.weixin.qq.com/s/maTUmWFJ_x6ocL0JI4W2gw\" data-draft-cover=\"\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">mp.weixin.qq.com/s/maTU</span><span class=\"invisible\">mWFJ_x6ocL0JI4W2gw</span><span class=\"ellipsis\"></span></a><p data-pid=\"1eUq0a-N\">然后就持续写了几篇分享养生小方法的文章，阅读量都不错。</p><p data-pid=\"2rvzzo6C\">可是现在题材干枯了，找不到灵感，都没有思考该不该坚持的问题，每天努力找题材，就当作日记来写。</p><p data-pid=\"dH-eIPSf\">这是我个人的想法，你想不想继续写，取决于你在写公众号时的心情。</p>",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "question": {
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/5567592692",
+          "author": {
+            "url": "https://api.zhihu.com/people/21fce6130345c9894922e1319a03bc83",
+            "user_type": "people",
+            "headline": "是个狠人",
+            "gender": 0,
+            "is_following": false,
+            "id": "21fce6130345c9894922e1319a03bc83",
+            "url_token": "ha-ha-tracy",
+            "name": "田湾妞的那片地",
+            "avatar_url": "https://picx.zhimg.com/50/v2-2475ec6107466cc13f0a87c2e38e2319_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 1,
+            "is_followed": false
+          },
+          "title": "写公众号第19天，你说还要继续下去吗？",
+          "comment_count": 0,
+          "excerpt": "",
+          "id": "5567592692",
+          "bound_topic_ids": [
+            87465,
+            86626
+          ],
+          "detail": "",
+          "question_type": "normal",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1732955694,
+          "follower_count": 0,
+          "is_following": false
+        },
+        "answer_type": "normal",
+        "thumbnail": "https://pic1.zhimg.com/50/v2-768c2c0c9bfe6b83ba8618fb787244bf_720w.jpg?source=b6762063",
+        "favorite_count": 0,
+        "author": {
+          "user_type": "people",
+          "url_token": "qiu-zhi-shi-85-93",
+          "name": "爱种花的中年少女",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/c23691ace882505716169ac5c0ad1ee3",
+          "headline": "喜欢种花，又老是种不好，爱好烘焙，刚开始尝试中，喜欢拍摄",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-e8c026e7f8a451fb772e661dcf315589_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 422,
+          "id": "c23691ace882505716169ac5c0ad1ee3"
+        },
+        "comment_count": 0,
+        "excerpt": "我从去年8月底开始注册了公众号，帐号#80后潮汕中年少女，然后就开始写写写。最开始什么都不懂，每天随便写，一天一篇，每天还热情的互动，两个月后粉丝500，开通了流量主。   最开始有新人扶持，每天流量主收益几块钱，信心满满，想像如果再努努力，每天能有100元收入就好了。 开通流量主的第一个月，有几篇文章阅读量万以上，总收入200多元，很开心，特别开心。 到了第二个月，流量主断崖式下降，每天都是几百，到了现在1月份，每…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995903919994454520}",
+      "attached_info": "CpMGCOiAnKe4n830igEQBBoJNzY1ODE3Nzc0IMCgrcsGKAEwAEA6SiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBaCTExMjA5MDA0MWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU5MDM5MTk5OTQ0NTQ1MjCKAQo1NTY3NTkyNjkyqgEJcmVjb21tZW5kwgEgYzIzNjkxYWNlODgyNTA1NzE2MTY5YWM1YzBhZDFlZTPyAQoIDBIGTm9ybWFs8gEoCAoSJDFmMjI0YzgwLTljMzItNDIyNy05YTAwLWYyNzc5NDY0MzYyM/IBBggLEgIxMIICAIgC78fy6bwzkgIgYzIzNjkxYWNlODgyNTA1NzE2MTY5YWM1YzBhZDFlZTOaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCAvoCC05PUk1BTF9GTE9XigMgMTVjZTIwZTYwODQ4NDY3ZTgxNDdhYTE3OTJiMzIyODSaAw0KAnYyEAAaBW90aGVyqAMS2AMA6gMgd2FybXVwVHdvVG93ZXJUZXh0Tm9ybWFsUmVjYWxsZXL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhC4CBjgEiIjdjItNzY4YzJjMGM5YmZlNmI4M2JhODYxOGZiNzg3MjQ0YmaABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOBNCoY/gQUAAAAAAAAAAIkFeN1Tg3+8sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCpAGAKAGPKgGAZICLgoJNzY1ODE3Nzc0EhMxOTk1OTAzOTE5OTk0NDU0NTIwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "59_1768674862.234",
+      "type": "feed",
+      "offset": 59,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674862,
+      "updated_time": 1768674862,
+      "target": {
+        "excerpt": "“两江总督”实在太过高能了，属实能把人气到血压飙升的那种。 这位抵押房产、孤注一掷的五孩宝妈，可以说是集“抽象”之大成者。 她的迷之自信，加上两江总督的雅号，差点让人以为“快招的两京十八省，都在她一人肩上扛着”。 先给没看过的朋友们介绍一下背景吧： （前排提示：全文约3000字，详细梳理了上下两集以及后续进展，方便吃瓜群众了解细节。这近两个小时的切片属实给我看出了工伤。）   第1集勇哥直播间来了一个大姐，…",
+        "preview_type": "default",
+        "segment_infos": [
+          {
+            "pid": "94REgTkR",
+            "text": "大姐：“浙江省的和江西省的，两个县，相隔800公里。”",
+            "marks": [
+              {
+                "start_index": 18,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995848449325822467"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "fEUb0qvl",
+            "text": "话又说回来，这么热情的店员真不多见，因为勇哥指不定下一句就是把店里两个人开了。",
+            "marks": [
+              {
+                "start_index": 6,
+                "end_index": 39,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995891846174499829"
+                  ],
+                  "is_like": false,
+                  "like_count": 29,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "hkGKlnle",
+            "text": "看她可怜，勇哥甚至把课程费都退了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 17,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995888446573670571"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "k0WdJ-4z",
+            "text": "“君不见林市长之事乎？”",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 12,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996000646046967516"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Mth2jd6n",
+            "text": "只是远水解不了近渴，她大女儿十七岁，没个三五年收不回彩礼，",
+            "marks": [
+              {
+                "start_index": 10,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995905361291532095"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995803122006783443",
+        "author": {
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "yun-kuo-26",
+          "name": "云旗",
+          "headline": "富贵如可求，虽执鞭之士，吾亦为之。如不可求，从吾所好。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-509684272f47b73996af43ba0be0316a_l.jpg?source=b6762063",
+          "followers_count": 1900,
+          "id": "3e0e291ade896bcc53f08f2265a4481c",
+          "url": "https://api.zhihu.com/people/3e0e291ade896bcc53f08f2265a4481c",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false
+        },
+        "preview_text": "",
+        "visited_count": 92450,
+        "navigator_vote": false,
+        "updated_time": 1768635312,
+        "is_copyable": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-48d8dfa19688c6bf58fd77aa8d8dba46_720w.jpg?source=b6762063",
+        "content": "<p data-pid=\"RKRIiU7p\">“两江总督”实在太过高能了，属实能把人气到血压飙升的那种。</p><p data-pid=\"Gk9DG_7t\">这位抵押房产、孤注一掷的五孩宝妈，可以说是集“抽象”之大成者。</p><p data-pid=\"o_A9PCHJ\">她的迷之自信，加上两江总督的雅号，差点让人以为“快招的两京十八省，都在她一人肩上扛着”。</p><p data-pid=\"RAS1vFNE\">先给没看过的朋友们介绍一下背景吧：</p><p data-pid=\"1ZpGZ2mU\">（前排提示：全文约3000字，详细梳理了上下两集以及后续进展，方便吃瓜群众了解细节。这近两个小时的切片属实给我看出了工伤。）</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-843edccc532817bc7a2c6b7bdc5414e6_1440w.jpg\" data-rawwidth=\"1194\" data-rawheight=\"744\" data-size=\"normal\" data-original-token=\"v2-48d8dfa19688c6bf58fd77aa8d8dba46\" class=\"origin_image zh-lightbox-thumb\" width=\"1194\" data-original=\"https://pic3.zhimg.com/v2-843edccc532817bc7a2c6b7bdc5414e6_r.jpg\"/><figcaption>两江总督镇楼</figcaption></figure><hr/><p data-pid=\"z7-pOozC\"><b>第1集</b></p><p data-pid=\"Fx4-MBw2\">勇哥直播间来了一个大姐，一开口就是智慧口音，勇哥就知道遇上神人了。</p><p data-pid=\"U4-e6NU2\">这类人的特征很明显：性格强势，盲目自信，智慧口音，普通话很不流畅，回答总是延迟1-2秒，一问三不知却要不懂装懂。</p><p data-pid=\"6S_2VroA\">她各种已读乱回，让人听了真的血压飙升，完全无法正常交流，我这里截取部分对话给大家感受一下：</p><p data-pid=\"zUxwF82k\">勇哥：“这个店一天卖多少钱？”</p><p data-pid=\"0UfA06KU\">大姐对准确数字没有概念：“这个店几百块吧，有的时候五六百，有的时候不一定。“</p><p data-pid=\"_iB9t0Dp\">勇哥：“毛利多少？”</p><p data-pid=\"Dzi7S3yq\">大姐：“哪有什么毛利啊，都是亏本的。”</p><p data-pid=\"9lCO8txm\">勇哥以为她没听清楚，又问了一遍：“毛利啊大姐，你是真不知道还是假不知道？”</p><p data-pid=\"KKF5uPJK\">大姐：“不知道啊。但是我让公司帮我算过了，扣除房租和人工，确实是亏本的。”</p><p data-pid=\"nFt1hKqh\">勇哥继续问：“公司加盟的时候没有审核资质吗？”</p><p data-pid=\"cogUyMRj\">大姐不明白审核资质是什么意思：“我说我不会，公司说他们会教。”</p><p data-pid=\"UueeyqG6\">勇哥又问了问基本情况，大姐之前是摆地摊的，老公在浙江打工，祖祖辈辈都是打工的。</p><p data-pid=\"4Ij14ZDl\">到了她这里就想当老板了，开店负债了六十万，房子抵押了十几万，跟亲朋好友借了几十万，家里有五个孩子，大的17岁，小的才2岁。</p><p data-pid=\"hqV9T1Pk\">勇哥猛地吸了口氧：“你抵押了房子，有没有想过万一房子被银行收走了，孩子住哪里？你不焦虑吗？”</p><p data-pid=\"9WT5iRjy\">（插一句，这种家庭的房子，银行一般是不敢收的。）</p><p data-pid=\"76JK_Q9w\">大姐：“焦虑啊，所以我想问你怎么办嘛？要不要让公司把店接回去，或者退钱？”</p><p data-pid=\"uE6kLuuG\">听到这里我觉得，勇哥这活真不是一般人能干的，换了我三句都聊不下去。</p><p data-pid=\"FQDzEqPd\">一天卖多少钱说不清楚，毛利不知道，审核资质听不懂，对自己的危险处境茫然不知，还盲目自信，相信只要去找公司他们就能兜底。</p><p data-pid=\"RKJeUvo7\">只是可怜这几个小孩，出生就是天崩开局。</p><p data-pid=\"OQtaiDOr\">但大姐的“抽象”之处还不止这些。</p><p data-pid=\"81i_qHGw\">沟通过程中，大姐时不时强调她还有一个店，在商场，生意还可以。一天能卖两千。</p><p data-pid=\"9QvLYnA6\">勇哥：“你还有一个店？为什么要开两个店呢？”</p><p data-pid=\"6JozHwrt\">大姐：“公司说第二个代理半价，所以我拿了两个代理。”</p><p data-pid=\"DC-AZerN\">勇哥：“哪里的代理？”</p><p data-pid=\"94REgTkR\">大姐：“浙江省的和江西省的，两个县，相隔800公里。”</p><p data-pid=\"4mpZw53z\">勇哥震惊了，连了三年多，还是头一次听到直接拿两个省代理的。</p><p data-pid=\"Keq2PXyZ\">这可不是一句区长的事了，这可是两省总督啊，实力不容小觑。</p><p data-pid=\"gUo_B5E1\">勇哥：“大姐，就是拼地图也不是这样拼的。为什么要拿浙江的呢？你去过浙江吗？”</p><p data-pid=\"5HMPsKv3\">大姐：“去过，我老公在那边打工。”</p><p data-pid=\"57gHoh97\">勇哥：“你为什么要拿2个省的代理？两个省代理，你连毛利都不会算，怎么管得过来？”</p><p data-pid=\"exQs_O28\">大姐：“公司跟我说还有人拿了4个省呢。”</p><p data-pid=\"fwE5rf4w\">原来两江总督排面还是不够，四省巡抚才是终极目标啊。</p><p data-pid=\"LzgvJTPR\">当然了，中国一共34个省，几个节度使就分完了，合不合理她是不考虑的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"H7JDIdvL\">这时候一个小姑娘出来插话了，是大姐的店员，她的逻辑还算清晰。</p><p data-pid=\"-3wQRIp0\">勇哥知道跟大姐聊终究是聊不明白，于是开始问这个店员，才知道另一家店在浙江的一个工业园区，日收入也没有两三千，只有1200左右。</p><p data-pid=\"fd1aFMav\">360度转一圈看了一遍后，店员告知勇哥，附近有一家蜜雪，里面只有一个人，平时外卖居多。这附近是个老年人社区商圈，业态很杂，旁边是个卖猪肉的。</p><p data-pid=\"fEUb0qvl\">话又说回来，这么热情的店员真不多见，因为勇哥指不定下一句就是把店里两个人开了。</p><p data-pid=\"Bu77NLM-\">当然了，勇哥还是有情商的，这次没提关店的事。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-78a387eb44621b92e0c457039b9a1a99_1440w.jpg\" data-rawwidth=\"774\" data-rawheight=\"694\" data-size=\"normal\" data-original-token=\"v2-8592d9b9d18a3741c6395da3a5871075\" class=\"origin_image zh-lightbox-thumb\" width=\"774\" data-original=\"https://pic4.zhimg.com/v2-78a387eb44621b92e0c457039b9a1a99_r.jpg\"/><figcaption>旁边的标语很贴切：喝着山泉水长大的猪</figcaption></figure><p data-pid=\"DM2pXatf\">勇哥继续问大姐：“选址的看这位置怎么说”</p><p data-pid=\"pMpNebQW\">大姐：“选址老师最开始看了一下，说这位置还可以，但是最终他选在了瑞金。”</p><p data-pid=\"rw_ozdki\">勇哥：“瑞金又是哪里？离你这里多远？“</p><p data-pid=\"CIbM6kqf\">这下可把大姐难到了，她问店员：“嘿，你说说瑞金离这多远，100公里有没有？”</p><p data-pid=\"gds1ZVLH\">店员也没有答上来。</p><p data-pid=\"bjEb2toN\">但是大姐依旧信誓旦旦：“公司的跟我说包赚钱的，一年十几二十万没问题。”</p><p data-pid=\"FM9pUmSG\">勇哥已经窒息了，大姐不采纳选址人员的建议，这让要回加盟费的难度又高了一个级别：</p><p data-pid=\"Bq2vQC_j\">——你自己选的位置，怎么追究得到公司头上？</p><p data-pid=\"P2XGPoAo\">况且大姐全程没有录音。</p><p data-pid=\"HEhHmELz\">对于她完全不懂开店为什么敢开店这个问题，她的逻辑是闭环的，她花了钱，公司就该帮她解决：</p><p data-pid=\"POCQieLs\">“这个应该公司负责打响啊。”</p><p data-pid=\"85fFjXPl\">“那这么多钱投下去了我肯定想把她做好啊。”</p><p data-pid=\"dudoK4ku\">“公司知道我是新手，他说保证教我赚钱啊。”</p><p data-pid=\"h2VLzCUr\">勇哥让助理老师看了下，这家快招不好对付，是有特许经营权的，大姐所谓的保证全部都没有录音，文字留痕，什么保证赚钱根本没有证据。</p><p data-pid=\"D5FmLLiT\">如果是正常五孩宝妈被这样骗，勇哥早就义愤填膺要下场帮忙了。</p><p data-pid=\"XPRMsoD7\">但是这大姐不一样，这认知加上自以为是的性格，属实帮不了一点。</p><p data-pid=\"3vMkvNe8\">毕竟经历过林市长的勇哥，深知大姐这种人表面强势内心软弱，被总部吓一吓，大概率会背刺自己</p><p data-pid=\"Ynugoxbx\">于是勇哥沉默许久，给出了几个建议：先协商退代理费；实在不行，带着五个孩子向上反映情况，希望他们帮忙协调。</p><p data-pid=\"hkGKlnle\">看她可怜，勇哥甚至把课程费都退了。</p><hr/><p data-pid=\"NeQafDQ3\"><b>第2集</b></p><p data-pid=\"QiWrvryC\">大姐下午又来连麦了，这次到了另一家店。</p><p data-pid=\"Bv5An4AH\">上午连完麦后，公司果然联系上了大姐，总经理助理给她打电话了，说给她45天的帮扶，其他的还要跟领导汇报，但是仍然没有给出任何赔偿条件。</p><p data-pid=\"S2fLv0M3\">于是勇哥先问了这间店的情况：</p><p data-pid=\"I5WEkM9s\">这个店花了30多万，店里两个人，还有个店长，大姐不在店里，只想美美当个老板。</p><p data-pid=\"I6neufou\">代理也是大姐后面补的，本来是拿了单店，但是销售哄她说代理10月底就结束了，以后就拿不到了，于是她赶紧拿下了连麦的地方和温州的代理。</p><p data-pid=\"XQLdXQkd\">代理可以收新加盟商30%的加盟费，并且拿物料有折扣。</p><p data-pid=\"Bz1qee0P\">360度转一圈发现，选址是个新开张的商场，旁边是个新开的超市，在做活动，相当于很大一批流量是商场带给她的。</p><p data-pid=\"cHzC4eSk\">最离谱的是，选址老师没有给她推荐过这里，也不知道大姐是怎么找到的。</p><p data-pid=\"SimvBWOm\">这地方附近是一堆新楼，入住率并不高，紧贴着一个工业园区。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-151cf19eb19825b95a506fc88a9c1169_1440w.jpg\" data-rawwidth=\"1552\" data-rawheight=\"1162\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-34cf8ee35c013801cf51ed97b26cc3c4\" class=\"origin_image zh-lightbox-thumb\" width=\"1552\" data-original=\"https://picx.zhimg.com/v2-151cf19eb19825b95a506fc88a9c1169_r.jpg\"/></figure><p data-pid=\"7mEoTuh6\">这时候超市老板也看到了直播，过来和勇哥聊了几句。</p><p data-pid=\"-c1E335g\">他告诉勇哥，这家店是他分租给大姐的，本想着她去加盟个大牌子互相引流，结果她找了个快招。</p><p data-pid=\"GjYhuVfA\">大哥看她完全不会做奶茶，怕她生意不行了干不下去，就劝大姐来找勇哥。</p><p data-pid=\"99MyB-sS\">大姐之所以一天能卖1200，是因为超市在让利做活动，给她引来了一部分流量。</p><p data-pid=\"JyWNRj8D\">一旦商场停止搞活动，这个店的生意大概率是保不住1200的。</p><p data-pid=\"j2wGeAc9\">然而就在所有人都替大姐担心的时候，大姐还是相当乐观：</p><p data-pid=\"LVAoRh3H\">“大不了找公司退钱嘛？要不这店他们就回收了呗。”</p><p data-pid=\"FMHPlLn0\">“大不了让公司帮我在温州开家店，我把设备搬过去。”</p><p data-pid=\"BtybkTwI\">听完以后勇哥眉头紧锁，这大姐都落入“斩杀线”了，还傻呵呵的浑然不知。</p><p data-pid=\"R1WRmewK\">她对公司简直是无条件信任，都现在了还觉得公司会帮扶她，公司一定会帮她赚大钱，不会放任不管的。</p><p data-pid=\"Dz1C-dFq\">勇哥让她拿合同过来看了一下，发现快招总部是有备而来，</p><p data-pid=\"6ZbIDKda\">不仅有特许经营权，合同还滴水不漏，甚至也承诺提供帮助（虽然没什么用），并没有重大过错，顶多就是一个资质审查不严格，占不到主要责任。</p><p data-pid=\"0X3ttQoH\">最关键的是，两个店的选址是大姐自行决定的，并没有听总部的，这一点是相当不利的。</p><p data-pid=\"26IaEkbI\">大姐家里都是打工的，文化程度普遍很低，根本没人能帮她，更别说能找到律师援助了。</p><p data-pid=\"ka2HGMDf\">而且快招总部在成都，她在江西，就算去公司闹她都摇不到人。</p><p data-pid=\"gXBN3a-X\">只能说这种逆风局属实难打，只有靠五个孩子宝妈这层身份去打政治正确牌了。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f8ff13f85ef9ffd30912b0e78a07c856_1440w.jpg\" data-rawwidth=\"1558\" data-rawheight=\"1122\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-2a9627bcdfbbb6f5924939f950592327\" class=\"origin_image zh-lightbox-thumb\" width=\"1558\" data-original=\"https://pic3.zhimg.com/v2-f8ff13f85ef9ffd30912b0e78a07c856_r.jpg\"/></figure><p data-pid=\"h717q6yT\">有一个细节是，这里勇哥可能想亲自下场了，他眉头紧锁，沉默了十几秒，盯着屏幕不说话，也许是可怜那五个孩子。</p><p data-pid=\"FhQ7TOWl\">但是我猜测马上有粉丝或者助理提醒他不要上头：</p><p data-pid=\"k0WdJ-4z\">“君不见林市长之事乎？”</p><p data-pid=\"6WStDcrw\">这位大姐的认知和性格，跟那个下播就立即背刺勇哥的林市长别无二致。</p><p data-pid=\"FnvwVYAS\">最终勇哥并没有下场帮忙，但是提供了很多有效的建议，首先希望协商解决，因为以大姐的能力，去起诉可能会再被骗一遍。</p><p data-pid=\"yXDc_MVo\">于是勇哥喊话快招处理涉事员工，给快招一个台阶下，这事闹大了很难看。</p><p data-pid=\"SG3MPUs7\">这种钱都赚，可以说一点商业道德都没有了。</p><hr/><p data-pid=\"4czuc844\"><b>番外篇</b></p><p data-pid=\"k-IdhMtg\">事实证明勇哥的谨慎也不是多余的。</p><p data-pid=\"RZW-M-Xh\">快招公司手段又快又狠的，专门拿捏低认知人群。</p><p data-pid=\"QlyMWPdL\">仅仅过了一天，大姐就说快招威胁说要起诉她，要求勇哥把视频下架了，他们才肯退钱。</p><p data-pid=\"BvrO6f6Z\">勇哥也预料到了这种结局，只是没想到的是，前脚勇哥下架视频，后脚快招就把大姐拉黑了。</p><p data-pid=\"KojCFV4k\">只能说大自然无奇不有，有时候真的要尊重他人命运了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3ce55b89a992ba1d28df02dfd84642a8_1440w.jpg\" data-rawwidth=\"646\" data-rawheight=\"580\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-ab74ef95fdab6f97cfcc98c011bdfeab\" class=\"origin_image zh-lightbox-thumb\" width=\"646\" data-original=\"https://pic1.zhimg.com/v2-3ce55b89a992ba1d28df02dfd84642a8_r.jpg\"/></figure><p data-pid=\"C0sVMYLx\">有网友说，这大姐即使一无所有了，也可以靠着女儿彩礼解决问题。</p><p data-pid=\"gq_YWSPs\">有人说她三个女儿两个双胞胎儿子，也有人说她四个女儿一个儿子。</p><p data-pid=\"Mth2jd6n\">只是远水解不了近渴，她大女儿十七岁，没个三五年收不回彩礼，</p><p data-pid=\"OQqQLhs5\">而且。，房子都抵押的家庭，怕是不好嫁女儿吧。</p><p></p>",
+        "thanks_count": 73,
+        "excerpt_new": "“两江总督”实在太过高能了，属实能把人气到血压飙升的那种。 这位抵押房产、孤注一掷的五孩宝妈，可以说是集“抽象”之大成者。 她的迷之自信，加上两江总督的雅号，差点让人以为“快招的两京十八省，都在她一人肩上扛着”。 先给没看过的朋友们介绍一下背景吧： （前排提示：全文约3000字，详细梳理了上下两集以及后续进展，方便吃瓜群众了解细节。这近两个小时的切片属实给我看出了工伤。）   第1集勇哥直播间来了一个大姐，…",
+        "allow_segment_interaction": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-48d8dfa19688c6bf58fd77aa8d8dba46_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8592d9b9d18a3741c6395da3a5871075_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-34cf8ee35c013801cf51ed97b26cc3c4_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-2a9627bcdfbbb6f5924939f950592327_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "created_time": 1768616544,
+        "voteup_count": 746,
+        "comment_count": 135,
+        "answer_type": "normal",
+        "id": "1995803122006783443",
+        "question": {
+          "type": "question",
+          "answer_count": 0,
+          "id": "1994933373311919921",
+          "url": "https://api.zhihu.com/questions/1994933373311919921",
+          "detail": "",
+          "question_type": "normal",
+          "title": "如何评价勇哥说餐饮最新一期五孩抵押房子梭哈姐?",
+          "follower_count": 0,
+          "comment_count": 6,
+          "bound_topic_ids": [
+            123757,
+            186151,
+            2027649,
+            2221457,
+            4248779
+          ],
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "user_type": "people",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "avatar_url": "https://pica.zhimg.com/50/v2-646ed1196ff53e61b0d9b3665b2c4ed0_l.jpg?source=b6762063",
+            "followers_count": 6,
+            "is_followed": false,
+            "id": "5e9b32b8f84dda731f3110175b2857be",
+            "url": "https://api.zhihu.com/people/5e9b32b8f84dda731f3110175b2857be",
+            "url_token": "pai-xing-tong-xue",
+            "name": "派星同学",
+            "headline": ""
+          },
+          "created": 1768409180,
+          "excerpt": ""
+        },
+        "is_labeled": false,
+        "favorite_count": 173
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995803122006783443}",
+      "attached_info": "CsYHCOiAnKe4n830igEQBBoJNzY1NzcxODA0IODkq8sGKOoFMIcBQDtKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExODA2OTk1NmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU4MDMxMjIwMDY3ODM0NDOKARMxOTk0OTMzMzczMzExOTE5OTIxqgEJcmVjb21tZW5kwgEgM2UwZTI5MWFkZTg5NmJjYzUzZjA4ZjIyNjVhNDQ4MWPyAQoIDBIGTm9ybWFs8gEoCAoSJGI4ZTI4ZmY2LWY3ZTMtNGVmYi05MmY5LWM2MmIwYTgxMTEwMPIBBggLEgIxMIICAIgC8Mfy6bwzkgIgM2UwZTI5MWFkZTg5NmJjYzUzZjA4ZjIyNjVhNDQ4MWOaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIcQmF5ZXNGaXJzdExldmVsSXNvbGF0aW9uUnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AID+gILTk9STUFMX0ZMT1eKAyAxNWNlMjBlNjA4NDg0NjdlODE0N2FhMTc5MmIzMjI4NJoDDQoCdjIQABoFb3RoZXKoA6LSBdgDAPoDigISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCqCRjoBSIjdjItNDhkOGRmYTE5Njg4YzZiZjU4ZmQ3N2FhOGQ4ZGJhNDY6LQgFEIYGGLYFIiN2Mi04NTkyZDliOWQxOGEzNzQxYzYzOTVkYTNhNTg3MTA3NTotCAUQkAwYigkiI3YyLTM0Y2Y4ZWUzNWMwMTM4MDFjZjUxZWQ5N2IyNmNjM2M0Oi0IBRCWDBjiCCIjdjItMmE5NjI3YmNkZmJiYjZmNTkyNDkzOWY5NTA1OTIzMjc6LQgDEIYFGMQEIiN2Mi1hYjc0ZWY5NWZkYWI2Zjk3Y2ZjYzk4YzAxMWJkZmVhYoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoOWJnD+BBQAAAAAAAAAAiQV43VODf7yzP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUKkAYAoAY9qAYAkgIuCgk3NjU3NzE4MDQSEzE5OTU4MDMxMjIwMDY3ODM0NDMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=59&desktop=true&end_offset=61&page_number=11&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=59&desktop=true&end_offset=61&page_number=11&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

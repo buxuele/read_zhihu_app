@@ -1,0 +1,564 @@
+{
+  "data": [
+    {
+      "id": "504_1755822795.391",
+      "type": "feed",
+      "offset": 504,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822795,
+      "updated_time": 1755822795,
+      "target": {
+        "id": "1932527109525463344",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1932527109525463344",
+        "author": {
+          "id": "b3a66d554394e9186216349e94d3fc80",
+          "url": "https://api.zhihu.com/people/b3a66d554394e9186216349e94d3fc80",
+          "user_type": "people",
+          "url_token": "immajiabin",
+          "name": "马佳彬",
+          "headline": "互联网老司机，AI信徒",
+          "avatar_url": "https://pica.zhimg.com/50/v2-fac27ba683d468077fa5097593dc9106_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1029,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1753530367,
+        "updated_time": 1753530367,
+        "voteup_count": 80,
+        "thanks_count": 5,
+        "comment_count": 4,
+        "is_copyable": true,
+        "question": {
+          "id": "1932458873215779897",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1932458873215779897",
+          "author": {
+            "id": "b2ab1828af29e47ffa6b74dbd15c747b",
+            "url": "https://api.zhihu.com/people/b2ab1828af29e47ffa6b74dbd15c747b",
+            "user_type": "people",
+            "url_token": "lambda-38-29",
+            "name": "Snowdar",
+            "headline": "深耕多轮对话：多模态大模型/语音识别/声纹识别",
+            "avatar_url": "https://picx.zhimg.com/50/v2-b19c4a332ab997b88c9c88c11d6f37eb_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "厦门大学 计算机技术硕士"
+              }
+            ],
+            "followers_count": 135,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何看待字节的工作流平台Coze开源？意味着什么？",
+          "created": 1753514098,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            209209,
+            2951922,
+            3285818,
+            3986232
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-d9d93c048736390367725e1f9550ee71_720w.jpg?source=b6762063",
+        "excerpt": "今天蹭个热点，Coze（扣子）昨晚开源了。扣子是一个低代码的AI Agent智能体一站式开发平台，可以通过拖拽节点的方式编排工作流（workflow）。没开源前，我们一般使用线上扣子平台进行智能体的搭建。 通过线上扣子平台搭建就会存在一个问题，所有的数据都在人家手里，而且私有化不了。因而，如果要进行私有化部署，一般会选择开源的Dify，或者N8n，但体验习惯总感觉不如扣子。 卷到现在，扣子也开源了，开源的生态将前途无量。这…",
+        "excerpt_new": "今天蹭个热点，Coze（扣子）昨晚开源了。扣子是一个低代码的AI Agent智能体一站式开发平台，可以通过拖拽节点的方式编排工作流（workflow）。没开源前，我们一般使用线上扣子平台进行智能体的搭建。 通过线上扣子平台搭建就会存在一个问题，所有的数据都在人家手里，而且私有化不了。因而，如果要进行私有化部署，一般会选择开源的Dify，或者N8n，但体验习惯总感觉不如扣子。 卷到现在，扣子也开源了，开源的生态将前途无量。这…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"nNxT2oK6\">今天蹭个热点，Coze（扣子）昨晚开源了。扣子是一个低代码的AI Agent智能体一站式开发平台，可以通过拖拽节点的方式编排工作流（workflow）。没开源前，我们一般使用线上扣子平台进行智能体的搭建。</p><p data-pid=\"-ZBX7gIH\">通过线上扣子平台搭建就会存在一个问题，所有的数据都在人家手里，而且私有化不了。因而，如果要进行私有化部署，一般会选择开源的Dify，或者N8n，但体验习惯总感觉不如扣子。</p><p data-pid=\"eHXjmnIe\">卷到现在，扣子也开源了，开源的生态将前途无量。这次开源的有Coze Studio（扣子智能体开发平台）及Coze Loop（扣子罗盘），前者就是搭建智能体的，后者是调试管理评测用的。</p><p data-pid=\"vEKSo61u\">对于企业而言，私有化部署扣子，方便企业内部自行搭建智能体，数据也安全，成本也不是很高，只需另外支付一些大语言模型API调用的费用。</p><p data-pid=\"-4Lfmo0P\">当然，如果企业自己已经本地化部署了开源的大语言模型，比如Deepseek、Qwen、Kimi之类的，那结合扣子开源版的本地化部署再好不过了。</p><p data-pid=\"Gk9D5yCT\">老马今天给大家演示的就是Coze Studio的本地化部署过程，先准备一台电脑，硬件配置起码是2核CPU，4G内存，这个要求是相当低了，老爷台式机都能跑起来。</p><p data-pid=\"9cxRpr1m\">老马这里是以Windows电脑系统为演示例子，其它的Mac和Linux系统部署的思路都是差不多的，大家详细看一下github开源仓库中的说明文件即可。</p><p data-pid=\"nKalomYD\">Coze Studio 开源地址</p><div class=\"highlight\"><pre><code class=\"language-text\">https://github.com/coze-dev/coze-studio</code></pre></div><p data-pid=\"sVvx-VGY\">Coze Loop 开源地址</p><div class=\"highlight\"><pre><code class=\"language-text\">https://github.com/coze-dev/cozeloop</code></pre></div><p data-pid=\"CqZjWzKL\">准备就绪，我们继续下一步。</p><p data-pid=\"-7QNvRpu\">1、安装Docker Desktop配置国内源</p><p data-pid=\"5ZLA43yz\">首先我们需要安装好Docker Desktop，设置一下Docker的国内源，并启动Docker。打开网址：<a href=\"https://link.zhihu.com/?target=https%3A//www.docker.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">docker.com</span><span class=\"invisible\"></span></a>，选择Download Docker Desktop，再选择 Download For Windows -AMD64 下载即可。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7c29b4fc89c54d36e9cc5033c4200df3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"584\" data-original-token=\"v2-74c294c7438f923ad03f013de42e7091\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-7c29b4fc89c54d36e9cc5033c4200df3_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_miMPHXs\">安装的话就跟普通软件安装一样，默认设置一路安装完就行。因为老马已经提前安装好了，安装过程就不再演示了。我们直接打开Docker Desktop软件，登录不登录无所谓，稍等一下让软件引擎启动。</p><p data-pid=\"ybj0pyCM\">启动完毕之后，我们点击软件右上角的齿轮按钮，然后打开Docker Engine，把原来输入框里面的JSON文本都删除掉，替换成以下文本：</p><div class=\"highlight\"><pre><code class=\"language-text\">{\n &#34;builder&#34;: {\n &#34;gc&#34;: {\n &#34;defaultKeepStorage&#34;: &#34;20GB&#34;,\n &#34;enabled&#34;: true\n }\n },\n &#34;experimental&#34;: false,\n &#34;registry-mirrors&#34;: [\n &#34;https://docker.m.daocloud.io&#34;,\n &#34;https://docker.unsee.tech&#34;,\n &#34;https://docker.1panel.live&#34;,\n &#34;http://mirrors.ustc.edu.cn&#34;,\n &#34;https://docker.chenby.cn&#34;,\n &#34;http://mirror.azure.cn&#34;,\n &#34;https://dockerpull.org&#34;,\n &#34;https://dockerhub.icu&#34;,\n &#34;https://hub.rat.dev&#34;\n ]\n}</code></pre></div><p data-pid=\"sOaplAqq\">最后点 Apply &amp; restart 保存重启Docker Desktop软件即可。这一步是配置Dcoker的国内源，可操作也可不操作。</p><p data-pid=\"g0yVDg6E\">2、注册火山引擎开通大模型获取API key</p><p data-pid=\"sIWEWt8P\">前面提到，我们虽然本地化部署了扣子的开源版，但是实际搭建智能体的时候，需要用到大语言模型，所以我们就需要接入大语言模型的API接口，使用它们的服务。</p><p data-pid=\"tymJKS5z\">这里默认使用火山引擎里面的豆包大模型，即豆包seed 1.6，先打开火山引擎的官网：<a href=\"https://link.zhihu.com/?target=https%3A//www.volcengine.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">volcengine.com</span><span class=\"invisible\"></span></a>，注册登录一下，如图：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7a390168e9da02399dff72d860d350fa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"623\" data-original-token=\"v2-4c17c825e4e117fb4de9777948de6c10\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-7a390168e9da02399dff72d860d350fa_r.jpg\"/></figure><p data-pid=\"gD6MRO3u\">登录了之后，我们在右上角的搜索框里面搜索“火山方舟”，点击控制台进入，在左侧的导航栏下面就能看到开通管理，点击进入，选择Doubao-Seed-1.6，点击开通服务即可，如图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c26e353380419ec42e56fc77fb2011b9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"283\" data-original-token=\"v2-fbd6d803f670219eaec75e458c8edbb7\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-c26e353380419ec42e56fc77fb2011b9_r.jpg\"/></figure><p data-pid=\"2sdRF4XY\">下一步我们来创建一个API Key，还是在左侧导航栏点击“API Key”管理，进去后默认是没有任何东西的，我们选择创建API key，所属项目不用管，名称默认或者你自己设置一下，权限选择全部，如图：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c7f24818c299ff407911f199e73a3b69_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"683\" data-original-token=\"v2-e2213014bb020cdf37ec9392bb2ccc80\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-c7f24818c299ff407911f199e73a3b69_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-326162edfcde98e476d93e60d6a072ce_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"701\" data-original-token=\"v2-5d5f4f9823a1536ee6cf8b57633329d4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-326162edfcde98e476d93e60d6a072ce_r.jpg\"/></figure><p data-pid=\"pMxVpfjz\">这样我们就得到了一个API key了，点击API key 右边的小眼睛按钮即可显示完整的密钥。这个你找个文档复制粘贴保存一下，留着备用，接下来步骤中设置配置文件的时候需要用到，如图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c6b0c6c387ae98214cc942fce7fa7c9b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"201\" data-original-token=\"v2-7106968bff807cef4caeb22715f8421b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-c6b0c6c387ae98214cc942fce7fa7c9b_r.jpg\"/></figure><p data-pid=\"B0JVSIVk\">创建了API Key之后，我们还需要创建Endpoint，还是在左边的导航栏中点击“在线推理”，找到“自定义推理接入点”，然后点击“创建推理接入点”，如图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e3714be40b78468b9969b404eeeec3ef_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"565\" data-original-token=\"v2-b5417f024ada5ff0437e8e3f3b0fef63\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-e3714be40b78468b9969b404eeeec3ef_r.jpg\"/></figure><p data-pid=\"OPZOJoXY\">接入点名称写“Endpoint”，标签可以随便新建一个，模型选择里面点击添加模型，这里我们就默认添加Doubao-seed-1.6，最后点击确认接入即可，如图：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-664ed63d3f47ff406b8a00efbe933730_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"640\" data-original-token=\"v2-a8403a2f36649ee93437dc73ff660fe1\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-664ed63d3f47ff406b8a00efbe933730_r.jpg\"/></figure><p data-pid=\"CX73dAKE\">注意了，接下来步骤中设置配置文件时，需要用到刚刚创建的Endpoint的ID，所以可以找个文档复制粘贴保存一下备用。ID的位置在Endpoint名字的下面，别复制错了，如图：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-7b7b61bf477ee29efb5db969d2f362df_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"473\" data-original-token=\"v2-cac9812aae1a941e3f7469f8622afffd\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-7b7b61bf477ee29efb5db969d2f362df_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xX3N4UxB\">3、克隆下载代码到本地进行配置</p><p data-pid=\"rJulkbJe\">第三步就是要将开源的代码克隆下载到本地了，电脑上如果已经安装了git，可以打开CMD窗口，使用以下命令：</p><div class=\"highlight\"><pre><code class=\"language-text\">git clone https://github.com/coze-dev/coze-studio.git</code></pre></div><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-561b2fdc0e5e2c99cc10bf11b8a1f73d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"584\" data-original-token=\"v2-119405ab5dbcd4193881d70dc05afcdd\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-561b2fdc0e5e2c99cc10bf11b8a1f73d_r.jpg\"/></figure><p data-pid=\"1LkWyTF5\">如果没有安装git或者不知道怎么安装，你可以问问Deepseek，获得详细的安装指南。有问题多问问大语言模型，算是学习的一种方式。</p><p data-pid=\"-7GuRXfK\">当然，如果你不想安装git，也可以直接打开Coze Studio的开源仓库地址，点击绿色图标Code，选择Download ZIP下载代码压缩包，解压后是一样的道理，如图：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c26415d8b6844d8f34021e53a7abc016_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"591\" data-original-token=\"v2-82ed63265c1a5553a227a0f1ac107395\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-c26415d8b6844d8f34021e53a7abc016_r.jpg\"/></figure><p data-pid=\"KOpyTFla\">代码比较多下载速度慢，有条件的建议开启魔法上网，这样速度快也不容易中断。老马这里拉取代码到本地等待了一段时间，拉取完之后，我们打开coze-studio这个代码文件夹。</p><p data-pid=\"aDU9AoYb\">首先我们需要打开：\\backend\\conf\\model\\template 这个目录，把里面名为：model_template_ark_doubao-seed-1.6.yaml的文件复制一下，如图：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-acc3f150eb46f4647ba05a6d0eec7324_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"536\" data-original-token=\"v2-b126c2c62145836fe09dc4037473d732\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-acc3f150eb46f4647ba05a6d0eec7324_r.jpg\"/></figure><p data-pid=\"QOoqzi5O\">接着再打开：\\backend\\conf\\model 这个目录，把上面复制的文件粘贴进来，把文件名修改成：ark_doubao-seed-1.6.yaml，如图：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1647c9594e376fe4550eddda7a33719a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"448\" data-original-token=\"v2-1124c006ab4e6ea21241d69899b1777c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-1647c9594e376fe4550eddda7a33719a_r.jpg\"/></figure><p data-pid=\"6OwhnGv5\">然后我们鼠标右键选中这个文件，选择在记事本中编辑。当然，老马是强烈建议你安装一个Sublime这样的工具，比在记事本中打开编辑好用多了。</p><p data-pid=\"g1gvXIEI\">你如果用Cursor这样的AI IDE打开该文件也行的，接着我们需要设置id、api_key、model这三个地方，如图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7e9ba69a53a413298703124ab319b9d7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"482\" data-original-token=\"v2-9d7ff3d1bfd9496659ffd5c46a26b5b7\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-7e9ba69a53a413298703124ab319b9d7_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TP92-WTv\">id的话在该文件的第一行，把原来的数字删掉，你可以随意设置一串新数字，这里老马就设置成5201314，id要必须是非0的整数。</p><p data-pid=\"EmyvWEpO\">接着往下滑动到最后，大概是第110行的位置，就能看到api_key和model设置的地方。</p><p data-pid=\"GWhUScwT\">api_key的话，我们就填写刚刚第二步中开通的API Key值，还记得点击小眼睛就可以显示完整的密钥么，点击小眼睛边上的复制按钮就可以直接复制，然后粘贴填写上去，例如：</p><div class=\"highlight\"><pre><code class=\"language-text\">76fb9fe9-0f7e-490b-ba7a-256xxxxxxx</code></pre></div><p data-pid=\"adWnRjC0\">model的话我们填写刚刚第二步中创建的Endpoint 的ID，还记得吧，例如：</p><div class=\"highlight\"><pre><code class=\"language-text\">ep-20250726174049-c8xxxx</code></pre></div><p data-pid=\"kPQOloSf\">最后保存一下 ark_doubao-seed-1.6.yaml 这个文件即可。</p><p data-pid=\"Z2_F-TNS\">4、启动Docker 运行服务搭建智能体</p><p data-pid=\"AuHtvwis\">第四步回到我们的coze-studio文件夹，找到docker目录，里面可以看到.env.example这个文件，我们复制后直接粘贴一份，修改命名成 .env，如图：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3c0b1a195cdd4ad83db67951df3d9914_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"507\" data-original-token=\"v2-0fcfb7d18ddec9b0bf0f14cc8ca8e66e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-3c0b1a195cdd4ad83db67951df3d9914_r.jpg\"/></figure><p data-pid=\"xry9lCCP\">好了，以上就基本配置完了，下一步我们来启动docker，我们在当前的目录下，也就是代码文件夹coze-studio里面的docker目录下，直接鼠标右键“在终端中打开”，就能打开一个CMD命令窗口，如图：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0ec6a7ee988ba8f07ee49a4a0de41ee6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"828\" data-original-token=\"v2-54cff7f52b72c386f8a14e55581db28c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-0ec6a7ee988ba8f07ee49a4a0de41ee6_r.jpg\"/></figure><p data-pid=\"C3xE4ueL\">输入以下命令运行即可：</p><div class=\"highlight\"><pre><code class=\"language-text\">docker compose --profile &#39;*&#39; up -d</code></pre></div><p data-pid=\"sxir65MA\">首次部署并启动 Coze Studio 需要拉取镜像、构建本地镜像，可能耗时较久，请耐心等待，是真的要耐心等待。部署过程中，你会看到以下日志信息，如图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e81a42823b7da94080adb7ad007687d9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"573\" data-original-token=\"v2-e940812bd8caea575f35e9305fc114ae\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-e81a42823b7da94080adb7ad007687d9_r.jpg\"/></figure><p data-pid=\"ANqjz4WX\">你以为世间万事都如此顺利么？不出意外的，意外就来了，老马这里报了个错：service &#34;elasticsearch-setup&#34; didn&#39;t complete successfully: exit 127，如图：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-690e6c66d957f9fbc31f99bb2433c377_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"275\" data-original-token=\"v2-5811c0e19584d053ce68c638455ae028\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-690e6c66d957f9fbc31f99bb2433c377_r.jpg\"/></figure><p data-pid=\"ArpiqZ4g\">回到Coze Studio的开源仓库找找issues，看看有没有人遇到老马一样的问题，以及解决方法。结果找到了，原因是：</p><div class=\"highlight\"><pre><code class=\"language-text\">脚本文件的换行符格式错误 (CRLF vs LF)。</code></pre></div><p data-pid=\"QAS573bA\">解决方法是：</p><div class=\"highlight\"><pre><code class=\"language-text\">使用代码编辑器（如 VS Code）打开 elasticsearch-setup 服务所依赖的启动脚本（路径是 docker/volumes/elasticsearch/setup_es.sh）。</code></pre></div><p data-pid=\"YT-oP7q_\">这里老马是使用Visual Studio Code软件对该文件进行修改了，如果你没有报老马以上的错误，可以不用修改不用管。当然，你用Cursor、Trae、通义灵码等AI IDE进行修改都可以的，修改完保存文件，如图：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b3e91773a2e1a5779ebfb4a2029b0a5f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"538\" data-original-token=\"v2-799249fcebda3b1f1adf588d9e465d39\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-b3e91773a2e1a5779ebfb4a2029b0a5f_r.jpg\"/></figure><p data-pid=\"6DY42vhx\">接着继续运行上面的命令继续启动服务，如果看到提示 &#34;Container coze-server Started&#34;，表示 Coze Studio 服务已成功启动，如图：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-23669f8e7221b076303ab022253102a6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"277\" data-original-token=\"v2-6df78465d792d41225ab5f71ae42d62e\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-23669f8e7221b076303ab022253102a6_r.jpg\"/></figure><p data-pid=\"UC7ccpfu\">5、本地打开扣子开源版进入操作</p><p data-pid=\"vBmUWpRB\">最后我们就可以在本地打开已经部署好的扣子开源版进行操作了，地址如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">http://localhost:8888/</code></pre></div><p data-pid=\"nkg_kmlK\">打开后，我们千万记得，第一次因为你没有账号，所以要先注册。但是你会发现登录跟注册按钮是灰的。这是因为要先输入你的注册邮箱和密码，才能点击注册，如图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-fc9b0e115c93ca9f620ce60d6c19faf9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"937\" data-original-token=\"v2-9be4f5de7b5f0de837c7512d4312f18d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-fc9b0e115c93ca9f620ce60d6c19faf9_r.jpg\"/></figure><p data-pid=\"DtdyCzIq\">注册登录了了之后，我们就能看到跟线上的扣子平台一样熟悉的界面了。接下来就可以去创建智能体，如图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-62701a42569f705b2fc6888a81095e27_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"590\" data-original-token=\"v2-d41af717ec6d2a99ac64bff107c83a1d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-62701a42569f705b2fc6888a81095e27_r.jpg\"/></figure><p data-pid=\"Wj6kMsh2\">老马简单体验了一下，跟线上的扣子平台对比，开源版缺少了AI生成提示词和对比，插件也少了很多，只有19个官方插件，后续的话需要根据开源仓库中的开发指南去配置更多的插件。</p><p data-pid=\"9a1rVcKF\">发布智能体的话，支持API调用和SDK集成，核心功能也比较完善，整个搭建过程是挺顺畅的。总体来说，本地化部署的扣子开源版基本够用。</p><p data-pid=\"QEqZu0j3\">不过扣子虽然开源了，但还得赚钱的！我们前面提到，搭建智能体需要大语言模型，所以我们接入了火山引擎的豆包seed 1.6模型。</p><p data-pid=\"4H2I932q\">那么每一次的调用，都需要向火山引擎付费，这个得懂。同样，你做智能体还需要用到上传文件的功能，就是跟智能体对话的时候，允许用户上传图片什么的。</p><p data-pid=\"Y2oDImLJ\">这个也是需要配置上传组件的，要么用你本地自己搭建的，要么用火山引擎的，同样的开通服务配置密钥按量付费。还有知识库，你得用到OCR模型吧，一样的道理。</p><p data-pid=\"MybrMgP3\">知识库的Embedding（向量化模型）和向量化数据库，你也得配置。所以细节上还需要做一些进一步的配置，在Coze Studio的开源仓库说明文件中都有详细介绍，如图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ada6f52f110a4be4b3d5bc2257d36577_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"308\" data-original-token=\"v2-c5f00abccf3c8d93e56b5ca91359ab02\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-ada6f52f110a4be4b3d5bc2257d36577_r.jpg\"/></figure><p data-pid=\"ztHVVVIE\">这些细节的项目配置，小伙伴们可以自行阅读研究配置一下，进一步完善扣子开源版。鉴于本文篇幅，老马就没法挨个给大家演示配置了。</p><p data-pid=\"9ocq4GPi\">以上整个演示的过程，老马都是一边本地化部署，一边写文章的，中间遇到问题也是实时出现的，所以老马能最终搭建成功，你按照步骤去操作也能搭建成功。</p><p data-pid=\"9y1KZr-z\">以上就是今天的分享，有任何问题或者需求可以留言，回见！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 11965,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-d9d93c048736390367725e1f9550ee71_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-32ae7b27cf944ae3ce08672623255832_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6183abc96e505a89096ef366730eddc9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ae4f1abe029268a49f0eef7e0691f5ff_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d57d85ec7389be98ccdf9e9428ea9ff8_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 125,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1932527109525463344}",
+      "attached_info": "CtcOCPqr7L3UyvaOpgEQBBoJNzM4OTkwMjQzIP//ksQGKFAwBED4A0pCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTU5NTYxMzRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTMyNTI3MTA5NTI1NDYzMzQ0igETMTkzMjQ1ODg3MzIxNTc3OTg5N6oBCXJlY29tbWVuZMIBIGIzYTY2ZDU1NDM5NGU5MTg2MjE2MzQ5ZTk0ZDNmYzgw8gEKCAwSBk5vcm1hbPIBKAgKEiRhMjg2N2RjYy04YjA5LTRlNWMtODQ5OC1iMmMyODdmMjU0MGTyAQYICxICODWCAgCIAs/SxvmMM5ICIGIzYTY2ZDU1NDM5NGU5MTg2MjE2MzQ5ZTk0ZDNmYzgwmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFVF1ZXN0aW9uSXNvbGF0aW9uUnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCA/oCC05PUk1BTF9GTE9XigMgNjdkYzFkNWQ1YzNhNGVlMThhOGE4ZTdmZDA0NDEwMjWaAw0KAnYyEAAaBW90aGVyqAO9XdgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoD2AgSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhC4CBjIBCIjdjItNzRjMjk0Yzc0MzhmOTIzYWQwM2YwMTNkZTQyZTcwOTE6LQgCELgIGO8EIiN2Mi00YzE3YzgyNWU0ZTExN2ZiNGRlOTc3Nzk0OGRlNmMxMDotCAIQuAgYmwIiI3YyLWZiZDZkODAzZjY3MDIxOWVhZWM3NWU0NThjOGVkYmI3Oi0IAhC4CBirBSIjdjItZTIyMTMwMTRiYjAyMGNkZjM3ZWM5MzkyYmIyY2NjODA6LQgCELgIGL0FIiN2Mi01ZDVmNGY5ODIzYTE1MzZlZTZjZjhiNTc2MzMzMjlkNDotCAIQuAgYyQEiI3YyLTcxMDY5NjhiZmY4MDdjZWY0Y2FlYjIyNzE1Zjg0MjFiOi0IAhC4CBi1BCIjdjItYjU0MTdmMDI0YWRhNWZmMDQzN2U4ZTNmM2IwZmVmNjM6LQgCELgIGIAFIiN2Mi1hODQwM2EyZjM2NjQ5ZWU5MzQzN2RjNzNmZjY2MGZlMTotCAIQuAgY2QMiI3YyLWNhYzk4MTJhYWUxYTk0MWUzZjc0NjlmODYyMmFmZmZkOi0IAhC4CBjIBCIjdjItMTE5NDA1YWI1ZGJjZDQxOTM4ODFkNzBkYzA1YWZjZGQ6LQgCELgIGM8EIiN2Mi04MmVkNjMyNjVjMWE1NTUzYTIyN2EwZjFhYzEwNzM5NTotCAIQuAgYmAQiI3YyLWIxMjZjMmM2MjE0NTgzNmZlMDlkYzQwMzc0NzNkNzMyOi0IAhC4CBjAAyIjdjItMTEyNGMwMDZhYjRlNmVhMjEyNDFkNjk4OTliMTc3N2M6LQgCELgIGOIDIiN2Mi05ZDdmZjNkMWJmZDk0OTY2NTlmZmQ1YzQ2YTI2YjViNzotCAMQuAgY+wMiI3YyLTBmY2ZiN2QxOGRkZWM5YjBiZjBmMTRjYzhjYThlNjZlOi0IAhC4CBi8BiIjdjItNTRjZmY3ZjUyYjcyYzM4NmY4YTE0ZTU1NTgxZGIyOGM6LQgCELgIGL0EIiN2Mi1lOTQwODEyYmQ4Y2FlYTU3NWYzNWU5MzA1ZmMxMTRhZTotCAIQuAgYkwIiI3YyLTU4MTFjMGUxOTU4NGQwNTNjZTY4YzYzODQ1NWFlMDI4Oi0IAhC4CBiaBCIjdjItNzk5MjQ5ZmNlYmRhM2IxZjFhZGY1ODhkOWU0NjVkMzk6LQgCELgIGJUCIiN2Mi02ZGY3ODQ2NWQ3OTJkNDEyMjVhYjVmNzFhZTQyZDYyZTotCAIQuAgYqQciI3YyLTliZTRmNWRlN2I1ZjBkZTgzN2M3NTEyZDQzMTJmMThkOi0IAhC4CBjOBCIjdjItZDQxYWY3MTdlYzZkMmE5OWFjNjRiZmYxMDdjODNhMWQ6LQgCELgIGLQCIiN2Mi1jNWYwMGFiY2NmM2M4ZDkzZTU2YjVjYTkxMzU5YWIwMoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgAL3nT+BBQAAAAAAAAAAiQVDNA9dhlTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVVkAYAoAb8A6gGAZICLgoJNzM4OTkwMjQzEhMxOTMyNTI3MTA5NTI1NDYzMzQ0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "505_1755822795.712",
+      "type": "feed",
+      "offset": 505,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822795,
+      "updated_time": 1755822795,
+      "target": {
+        "id": "99357102357",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/99357102357",
+        "author": {
+          "id": "ed070c8e4188f1437a89d26851867f40",
+          "url": "https://api.zhihu.com/people/ed070c8e4188f1437a89d26851867f40",
+          "user_type": "people",
+          "url_token": "nogirlnotalk",
+          "name": "王子君",
+          "headline": "手中钱、脚下路、win掌机的稀烂散热和续航，均不使我心安",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ca6f90fd745efe2b15643a3343c8323c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 831144,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1739363537,
+        "updated_time": 1739363537,
+        "voteup_count": 5581,
+        "thanks_count": 591,
+        "comment_count": 216,
+        "is_copyable": true,
+        "question": {
+          "id": "11637608099",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/11637608099",
+          "author": {
+            "id": "fc7e83baaa843a4f50a775f285780ce6",
+            "url": "https://api.zhihu.com/people/fc7e83baaa843a4f50a775f285780ce6",
+            "user_type": "organization",
+            "url_token": "xin-jing-bao-bo-yang-cong",
+            "name": "剥洋葱people",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-873af5f79d96455868c2948c3d5d7bed_l.jpg?source=b6762063",
+            "is_org": true,
+            "gender": -1,
+            "badge": [
+              {
+                "type": "identity_org",
+                "description": "已认证机构号"
+              }
+            ],
+            "followers_count": 110054,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "调研发现农村孩子抑郁风险或高于平均水平，心理教师却被指责「你们没来前什么问题都没有」，说明哪些问题？",
+          "created": 1739001918,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 90,
+          "bound_topic_ids": [
+            404,
+            428,
+            1709,
+            10115,
+            1351506
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "谢邀。 又卷、又没资源，就会不在乎，甚至合理化。 武大刘燕舞08年开始搞农村老人自杀的研究，后来提出了震惊一时的“三个儿子”：药儿子、绳儿子、水儿子。   驻村半个月，3起老人自杀，部分村30%的估算都算保守。 其中最卷的中部地区： 南方农村，老人占全年龄自杀的27%，北方农村是29%，而中部是71%； 中部的年均比例是南北方的3到5倍； 别的地方，70岁及以上的自杀率一般是60岁档的1.5到2倍；但他们调研的中部某地，70岁及以上…",
+        "excerpt_new": "谢邀。 又卷、又没资源，就会不在乎，甚至合理化。 武大刘燕舞08年开始搞农村老人自杀的研究，后来提出了震惊一时的“三个儿子”：药儿子、绳儿子、水儿子。   驻村半个月，3起老人自杀，部分村30%的估算都算保守。 其中最卷的中部地区： 南方农村，老人占全年龄自杀的27%，北方农村是29%，而中部是71%； 中部的年均比例是南北方的3到5倍； 别的地方，70岁及以上的自杀率一般是60岁档的1.5到2倍；但他们调研的中部某地，70岁及以上…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"7T5U6xyq\">谢邀。</p><p data-pid=\"CotfHARg\">又卷、又没资源，就会不在乎，甚至合理化。</p><hr/><p data-pid=\"DmITa2lE\">武大刘燕舞08年开始搞农村老人自杀的研究，后来提出了震惊一时的“三个儿子”：药儿子、绳儿子、水儿子。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-0a08a7c0c4a2e7b6115de5e7c3e8c864_1440w.jpg\" data-rawwidth=\"394\" data-rawheight=\"236\" data-size=\"normal\" data-original-token=\"v2-333e3a27421eb74a1620a6ac24d0a46a\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-41464862bd6fb49238218d3234aabb95_b.jpg\" class=\"content_image\" width=\"394\"/></figure><p data-pid=\"draX-31r\">驻村半个月，3起老人自杀，部分村30%的估算都算保守。</p><p data-pid=\"00EJd3R3\">其中最卷的中部地区：</p><p data-pid=\"2bOuFktS\">南方农村，老人占全年龄自杀的27%，北方农村是29%，而中部是71%；</p><p data-pid=\"PkapX7Tb\">中部的年均比例是南北方的3到5倍；</p><p data-pid=\"wqeaXVRq\">别的地方，70岁及以上的自杀率一般是60岁档的1.5到2倍；但他们调研的中部某地，70岁及以上是60岁档的5倍。</p><p data-pid=\"pH37VzGL\">几乎可以说：自杀在当时部分中部农村，是老人的“常规结局”。</p><p data-pid=\"vkkhZN3g\">所以在很多地方，村里对老人自杀形成了一种比麻木还残酷的“欢乐氛围”，嬉笑自若，把刘燕舞震得不行：</p><p data-pid=\"O4EvRaVb\">儿媳用好玩的语气描绘当时她是怎么把投水自尽的亲家给“滚”上岸的；</p><p data-pid=\"zsUiTstR\">卧病在床的老母亲向小儿子抱怨，小儿子说“屋里不是没药，吞两口就得了”。小儿子出门回来，老母亲已喝完一整瓶农药。而大儿子的态度是，“我妈反正早晚要死，顺条道”；</p><p data-pid=\"22GHr1Ev\">老父亲被下病危通知书，儿子从外地请假回来。待了两三天发现父亲没有要死的迹象，抱怨，“你到底死不死，我请7天假是包了做丧事的时间”，老人遂自杀。</p><p data-pid=\"N7xzXHyA\">最让刘燕舞难以理解的是：这些事情不是藏着掖着，是村里人公开知情讨论；甚至不是一种平静的讨论，而是打趣戏谑的氛围。</p><p data-pid=\"10KQnxna\">正常到没什么关注，子女不自责，村民不谴责，老人自己也不在意，死水涟漪。</p><p data-pid=\"7-L4Ymub\">刘燕舞认为这里面已经建立了一种“代际剥削”：弱者欺凌弱者可能更残酷，因为资源太少，所以更决绝。</p><p data-pid=\"29ZP8dPu\">加上原子化和市场化的社会，资源少的农村，尤其是进城务工分离式的小家庭是无力抚养老人的。</p><p data-pid=\"qowu6bjS\">哪怕经济条件不错（高老人自杀率的中部农村其实经济水平好于不少南北方农村），对小家庭尤其孙辈的资源占用也是压力。</p><p data-pid=\"wnDiccGc\">于是老人“主动离场”，成了一种“理性决策”。村里的氛围只是一种社会对“理性决策”的自我修饰。</p><hr/><p data-pid=\"5qIjtXxv\">好，现在可以把这些角度放到农村孩子身上。</p><p data-pid=\"RpMDM8Yw\">卷么，肯定比城里孩子更卷。</p><p data-pid=\"QX2iuE8c\">例如撤点并校。81年村村有小学乡乡有初中；然后城镇化和计划生育，到16年消失了91.6万所小学，基本为农村小学；</p><p data-pid=\"U8TOrImS\">然后近年少子化和控制城郊投资、合村并居等，学校数量继续下降，而且还是以农村为主。</p><p data-pid=\"twosLhPv\">不是说城里生育率低就撤城里的学校，而是先撤人口流出的农村学校，再引导农民“市民化”，进城买房支撑城区，转入城里学校。</p><p data-pid=\"EwURou2L\">所以按北大国发院的调研，08年至18年最下10%的底层家庭高中升学率十年间下降9.3%；按致读的数据，19年农村适龄人口参加高考的比例是12%，城市是67%。</p><p data-pid=\"L2741FQX\">城里抱怨卷，农村没资格卷，只有既定剧本。</p><p data-pid=\"CSoXRc1x\">资源少这点就不用赘述了。就注意一点：农村孩子的父母大概率在准备进城落户，收入和资产差距之余还有一笔进城税等。</p><p data-pid=\"GfSvYemL\">所以农村孩子的心理状态是明显低于城里的（而城里孩子也很差了），按21年中科院的报告，抑郁检出率（不是玉玉症那种）25.2%，焦虑检出25.7%；</p><p data-pid=\"EnQ4fXdb\">按16年的卫生统计年鉴，农村青少年自杀率是城里的1.92倍；</p><p data-pid=\"YG24i6IF\">按17年的流动人口报告，超50%以上留守儿童遭遇过校园霸凌。</p><hr/><p data-pid=\"zojR48ff\">和十来年前的农村老人自杀类似，农村青少年抑郁也是个结构性问题，成了一种常态。</p><p data-pid=\"4gf-afW2\">而那些心理老师和刘燕舞遭遇到了一样的剧情：他们能看出问题，但他们没有资源去解决问题。</p><p data-pid=\"JB3QJy95\">所以结果是类似的，对于一个个小社会，没有资源解决的问题不是问题，“你们没来前什么问题都没有”。</p><p data-pid=\"6SYDuYpm\">你不说，起码转嫁给个体；你说出来但又没资源不能改变结构，徒增周围人的烦恼嘛。</p><p data-pid=\"m-5FJ0vc\">所以反而被排斥。</p><hr/><p data-pid=\"6rFOM8c2\">闲聊公号：王子君的碎碎念。</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 263096,
+        "favorite_count": 2471,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 99357102357}",
+      "attached_info": "CqAGCPqr7L3UyvaOpgEQBBoJNzEyOTg2Nzg2INGpsr0GKM0rMNgBQPkDSigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASjAKG1RTX1NPVVJDRV9CQVNJQ19JTkZPX1JFQ0FMTBIBMBgAIAA6CnsicmF3IjoiIn1aCTExMzMwMzIzMWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCzk5MzU3MTAyMzU3igELMTE2Mzc2MDgwOTmqAQlyZWNvbW1lbmTCASBlZDA3MGM4ZTQxODhmMTQzN2E4OWQyNjg1MTg2N2Y0MPIBCggMEgZOb3JtYWzyASgIChIkOWIwOGM2ZTgtZmNjNS00ZWEzLWI2NjItNmFkYzA3NTUzN2Ux8gEGCAsSAjg1ggIAiALP0sb5jDOSAiBlZDA3MGM4ZTQxODhmMTQzN2E4OWQyNjg1MTg2N2Y0MJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCFVF1ZXN0aW9uSXNvbGF0aW9uUnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AIE+gILTk9STUFMX0ZMT1eKAyA2N2RjMWQ1ZDVjM2E0ZWUxOGE4YThlN2ZkMDQ0MTAyNZoDDQoCdjIQABoFb3RoZXKoA7iHENgDAPoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEIoDGOwBIiN2Mi0zMzNlM2EyNzQyMWViNzRhMTYyMGE2YWMyNGQwYTQ2YYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKAERKU/gQUAAAAAAAAAAIkFQzQPXYZU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFVZAGAKAG/QOoBgOSAiYKCTcxMjk4Njc4NhILOTkzNTcxMDIzNTcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "506_1755822795.997",
+      "type": "feed",
+      "offset": 506,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822795,
+      "updated_time": 1755822795,
+      "target": {
+        "id": "1941127462865057221",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941127462865057221",
+        "author": {
+          "id": "00a69a0323d435435c7bbd0f1bd535e5",
+          "url": "https://api.zhihu.com/people/00a69a0323d435435c7bbd0f1bd535e5",
+          "user_type": "people",
+          "url_token": "canglimo",
+          "name": "墨苍离",
+          "headline": "文明其精神，野蛮其意志。世故其言行，耿直其理想。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-47ef6c90e5b3cb6ecbb93c6ff6a9b6f8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 663663,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755580851,
+        "updated_time": 1755581383,
+        "voteup_count": 893,
+        "thanks_count": 54,
+        "comment_count": 42,
+        "is_copyable": false,
+        "question": {
+          "id": "1940731526703708003",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1940731526703708003",
+          "author": {
+            "id": "d371683fd9673e521609ae7a4788e856",
+            "url": "https://api.zhihu.com/people/d371683fd9673e521609ae7a4788e856",
+            "user_type": "people",
+            "url_token": "bo-ben-er-ba-26",
+            "name": "liisu",
+            "headline": "路人甲",
+            "avatar_url": "https://picx.zhimg.com/50/v2-d24ffbc4102e48b6f12d8996682207ae_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 1542,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "辛巴自创品牌卫生巾被曝光添加硫脲，有致癌风险，受害者维权遇举证难，硫脲是什么？此案维权有哪些突破点？",
+          "created": 1755486453,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 82,
+          "bound_topic_ids": [
+            215,
+            237,
+            1362,
+            6921,
+            2180988
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "好多人终其一生不懂一个基本道理。 如果你是普通中产阶层。 在我国这种工业国，除了垄断行业以外，竞争充分，几乎所有的TO C高利润生意都来源于杀熟。 卖亏本保险的，是亲戚朋友。 卖不靠谱理财的，是亲戚朋友。 拉去借贷整容欠一屁股网贷的，是学姐闺蜜。 拉进去传销的，是亲戚朋友。 跟你说必须县城买房子，然后你被套住的，是亲戚朋友。 卖不靠谱保健品的，是整天嘘寒问暖的，满口大爷大妈的好心人。 。。。。。。 亲戚朋友都…",
+        "excerpt_new": "好多人终其一生不懂一个基本道理。 如果你是普通中产阶层。 在我国这种工业国，除了垄断行业以外，竞争充分，几乎所有的TO C高利润生意都来源于杀熟。 卖亏本保险的，是亲戚朋友。 卖不靠谱理财的，是亲戚朋友。 拉去借贷整容欠一屁股网贷的，是学姐闺蜜。 拉进去传销的，是亲戚朋友。 跟你说必须县城买房子，然后你被套住的，是亲戚朋友。 卖不靠谱保健品的，是整天嘘寒问暖的，满口大爷大妈的好心人。 。。。。。。 亲戚朋友都…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "need_payment",
+        "content": "<p data-pid=\"CYj_MCSE\">好多人终其一生不懂一个基本道理。</p><p data-pid=\"JWlq1XEF\">如果你是普通中产阶层。</p><p data-pid=\"w-0qJ8U9\">在我国这种工业国，除了垄断行业以外，竞争充分，几乎所有的TO C高利润生意都来源于杀熟。</p><p data-pid=\"f_LjfSve\">卖亏本保险的，是亲戚朋友。</p><p data-pid=\"8i0pOLy9\">卖不靠谱理财的，是亲戚朋友。</p><p data-pid=\"CJZl7GHh\">拉去借贷整容欠一屁股网贷的，是学姐闺蜜。</p><p data-pid=\"-BuO8p-e\">拉进去传销的，是亲戚朋友。</p><p data-pid=\"YAII_8Rq\">跟你说必须县城买房子，然后你被套住的，是亲戚朋友。</p><p data-pid=\"ksAPvdho\">卖不靠谱保健品的，是整天嘘寒问暖的，满口大爷大妈的好心人。</p><p data-pid=\"_3SG1aOV\">。。。。。。</p><p data-pid=\"V77B6i91\">亲戚朋友都可能不靠谱，如果有人不是你亲戚朋友，又自称你的家人，又要卖给你东西，你得多小心了。</p><p data-pid=\"J9L8av0-\">另外，网红带货大咖，流水越高，品类越多，出这种事情的概率越高。</p><p data-pid=\"RQWPPSK4\">都早晚的事情。</p><p data-pid=\"O_SvN-XN\">以他们的团队能力，品控根本不可能不出现腐败、偷工减料和以次充好。</p><p data-pid=\"3yGJLpiY\">网红自己多当回事都没用。</p><p data-pid=\"vHCZEKnT\">无非是几个月还是几年的问题，早晚出事。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 40230,
+        "favorite_count": 417,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941127462865057221}",
+      "attached_info": "CqAGCPqr7L3UyvaOpgEQBBoJNzQyOTIwODM0ILOTkMUGKP0GMCpA+gNKPwoqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVNEgEwGAAgADoKeyJyYXciOiIifUowChtUU19TT1VSQ0VfRkVFRFJFX1RJTUVMSU5FU1MSATAYACAAOgp7InJhdyI6IiJ9WgkxMTYyNTEwOTFiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxMTI3NDYyODY1MDU3MjIxigETMTk0MDczMTUyNjcwMzcwODAwM6oBCXJlY29tbWVuZMIBIDAwYTY5YTAzMjNkNDM1NDM1YzdiYmQwZjFiZDUzNWU18gEKCAwSBk5vcm1hbPIBKAgKEiQxYzdmN2JlZC0xNjc0LTQ2OTgtYmRiZS1kOGY3OGU1NTE4YjnyAQYICxICODWCAgCIAtDSxvmMM5ICIDAwYTY5YTAzMjNkNDM1NDM1YzdiYmQwZjFiZDUzNWU1mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFVF1ZXN0aW9uSXNvbGF0aW9uUnVsZdoCKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTegCA/oCC05PUk1BTF9GTE9XigMgNjdkYzFkNWQ1YzNhNGVlMThhOGE4ZTdmZDA0NDEwMjWaAw0KAnYyEAAaBW90aGVyqAOmugLYAwDqAxBuZXdiaWVfZmVlZHJlX3Yy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNTfIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAADF96s/gQUAAAAAAAAAAIkFQzQPXYZU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFVZAGAKAG/gOoBgCSAi4KCTc0MjkyMDgzNBITMTk0MTEyNzQ2Mjg2NTA1NzIyMRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "507_1755822795.470",
+      "type": "feed",
+      "offset": 507,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822795,
+      "updated_time": 1755822795,
+      "target": {
+        "id": "3565923120",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3565923120",
+        "author": {
+          "id": "6ffcca9a4ba4b2899ce3f35c8765ca5b",
+          "url": "https://api.zhihu.com/people/6ffcca9a4ba4b2899ce3f35c8765ca5b",
+          "user_type": "people",
+          "url_token": "zhi-zhi-zhi-19-93-37",
+          "name": "吱吱吱",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 2306,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1721289464,
+        "updated_time": 1721299272,
+        "voteup_count": 11711,
+        "thanks_count": 696,
+        "comment_count": 2233,
+        "is_copyable": true,
+        "question": {
+          "id": "60258494",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/60258494",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "印度人为什么总觉得比中国强？",
+          "created": 1495631939,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 97,
+          "bound_topic_ids": [
+            2025,
+            2161,
+            3853,
+            12230,
+            38560
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-cfe7953ff50a87010adc8e5dec7631b8_720w.jpg?source=b6762063",
+        "excerpt": "他们思想和别的国家不一样，最近印度首富的小儿子结婚，几乎把半个欧美娱乐圈请来了，之前请贾斯丁比伯，开价1000万出场费，还包括好些西方政要，那个大操大办的样子，恨不得拿钱铺地。然后我们猜猜这个首富做的什么生意呢，能源，电力，水，不仅限于这些，据说印度最近电还涨价了。今年印度极端高温热死了多少人了，这事搁我们国家不给你祖宗十八代骂出花来，还结婚，花圈给你寄家里去。但他们自己人怎么看，骄傲、自豪、与有荣…",
+        "excerpt_new": "他们思想和别的国家不一样，最近印度首富的小儿子结婚，几乎把半个欧美娱乐圈请来了，之前请贾斯丁比伯，开价1000万出场费，还包括好些西方政要，那个大操大办的样子，恨不得拿钱铺地。然后我们猜猜这个首富做的什么生意呢，能源，电力，水，不仅限于这些，据说印度最近电还涨价了。今年印度极端高温热死了多少人了，这事搁我们国家不给你祖宗十八代骂出花来，还结婚，花圈给你寄家里去。但他们自己人怎么看，骄傲、自豪、与有荣…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"wQmehhJd\">他们思想和别的国家不一样，最近印度首富的小儿子结婚，几乎把半个欧美娱乐圈请来了，之前请贾斯丁比伯，开价1000万出场费，还包括好些西方政要，那个大操大办的样子，恨不得拿钱铺地。然后我们猜猜这个首富做的什么生意呢，能源，电力，水，不仅限于这些，据说印度最近电还涨价了。今年印度极端高温热死了多少人了，这事搁我们国家不给你祖宗十八代骂出花来，还结婚，花圈给你寄家里去。但他们自己人怎么看，骄傲、自豪、与有荣焉，反正我一点看不出来这个首富怕自己的行为激起民怨。在他们心里可能人上人过得好就是强大吧，那确实比中国强，我还从来没在中国新闻里看到过这么豪华的婚礼。户外的贫民被活活热死，礼堂里宾客们穿着重工重绣的礼服沙丽，底层的人泡在恒河里降温，甚至没有干净的水喝，首富老婆项链上的翡翠有扑克牌这么大。看得我都想往恒河里的鱼肚子里面塞小纸条。</p><p data-pid=\"1XTKA1YE\">给大家补几张从小红书小姐姐和营销号那偷来的现场照片。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-cc2d923da9911a5fd37b6daea8d8d468_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"1706\" data-size=\"normal\" data-original-token=\"v2-5fd5a5dee526372df64f1d57aa026cfa\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-cbd72a8ced5bb88b17dd569a9113a8b4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-cc2d923da9911a5fd37b6daea8d8d468_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-daeadfa3d62501ca00dd6686a85fbc9e_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1066\" data-size=\"normal\" data-original-token=\"v2-7ecae3ebfce1b5ab3926bcacf35dd2a6\" data-default-watermark-src=\"https://pica.zhimg.com/v2-b2d5f30a06a4e6a2111c9583f25921d0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pica.zhimg.com/v2-daeadfa3d62501ca00dd6686a85fbc9e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8468d268cdf8dc1f9871c876bdfaa73c_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"1707\" data-size=\"normal\" data-original-token=\"v2-e6cb262be7f72a5ae4a442bbcf09cf68\" data-default-watermark-src=\"https://picx.zhimg.com/v2-2db1afd9d8941a7e589aee7e4f8c406d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-8468d268cdf8dc1f9871c876bdfaa73c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-83520ee2a355b89d85af3ca50347648a_1440w.jpg\" data-rawwidth=\"1920\" data-rawheight=\"1280\" data-size=\"normal\" data-original-token=\"v2-969e3cafe44d1bfae6ed6b68a0f21911\" data-default-watermark-src=\"https://picx.zhimg.com/v2-1ebc11e6201235d46ab68ae6c00d0895_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic3.zhimg.com/v2-83520ee2a355b89d85af3ca50347648a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c07dc26a7f38e31938243b5983b99484_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"853\" data-size=\"normal\" data-original-token=\"v2-1939fb06672b5eb33029e45012475c14\" data-default-watermark-src=\"https://pica.zhimg.com/v2-0f409b78cfbc3f3b70ca92b6156a9726_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pica.zhimg.com/v2-c07dc26a7f38e31938243b5983b99484_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-97709685c8538762836a637c6f610f60_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"1707\" data-size=\"normal\" data-original-token=\"v2-3eb7d064bf1feef29ccc707456ae1eb1\" data-default-watermark-src=\"https://picx.zhimg.com/v2-493668b1284cd96f1081f66b8b6c72d1_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pica.zhimg.com/v2-97709685c8538762836a637c6f610f60_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1662011,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-cfe7953ff50a87010adc8e5dec7631b8_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d96028f9fc31cec6ed4d407375f3198b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-eded6ed51bbfe3f8102051e94eb56900_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d85dd0eebc0ca31f98512a9d9ae9edf2_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-a25f2b8892a2493aca3c13e65ec86b89_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-098e4fb919355b864faabd14491f891c_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 1047,
+        "answer_type": "normal",
+        "reaction_instruction": {
+          "REACTION_COMMENT_NEWEST_LIST": "HIDE"
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3565923120}",
+      "attached_info": "Co4ICPqr7L3UyvaOpgEQBBoJNjc4NDIwNTkzIPiV47QGKL9bMLkRQPsDSlMKE1RTX1NPVVJDRV9IT1RfQ1JPU1MSNmhvdF9yZWNhbGxfN2Q6bm9ybWFsOm1hbGU6bWlkZGxleW91bmdzdGVyOuS4gOe6v+WfjuW4ghgAIAA6AFoIMTYzMjY3NjZiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgozNTY1OTIzMTIwigEINjAyNTg0OTSqAQlyZWNvbW1lbmTCASA2ZmZjY2E5YTRiYTRiMjg5OWNlM2YzNWM4NzY1Y2E1YvIBCggMEgZOb3JtYWzyASgIChIkODA2M2IzNTgtYzU1NS00NTM5LWIyYzktZWEzNzU3NmZmZDVh8gEGCAsSAjg1ggIAiALQ0sb5jDOSAiA2ZmZjY2E5YTRiYTRiMjg5OWNlM2YzNWM4NzY1Y2E1YpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCFVF1ZXN0aW9uSXNvbGF0aW9uUnVsZdoCE1RTX1NPVVJDRV9IT1RfQ1JPU1PoAgL6AgtOT1JNQUxfRkxPV4oDIDY3ZGMxZDVkNWMzYTRlZTE4YThhOGU3ZmQwNDQxMDI1mgMNCgJ2MhAAGgVvdGhlcqgDu7hl2AMA6gMVaG90Q3Jvc3NNZXJnZVJlY2FsbGVy+gO5AhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEIAKGKoNIiN2Mi01ZmQ1YTVkZWU1MjYzNzJkZjY0ZjFkNTdhYTAyNmNmYTotCAEQoAYYqggiI3YyLTdlY2FlM2ViZmNlMWI1YWIzOTI2YmNhY2YzNWRkMmE2Oi0IARCAChirDSIjdjItZTZjYjI2MmJlN2Y3MmE1YWU0YTQ0MmJiY2YwOWNmNjg6LQgBEIAPGIAKIiN2Mi05NjllM2NhZmU0NGQxYmZhZTZlZDZiNjhhMGYyMTkxMTotCAEQgAoY1QYiI3YyLTE5MzlmYjA2NjcyYjVlYjMzMDI5ZTQ1MDEyNDc1YzE0Oi0IAxCAChirDSIjdjItM2ViN2QwNjRiZjFmZWVmMjljY2M3MDc0NTZhZTFlYjGABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTYwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABg8CG0P4EFAAAAAAAAAACJBUM0D12GVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBVWQBgCgBv8DqAYAkgIlCgk2Nzg0MjA1OTMSCjM1NjU5MjMxMjAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "508_1755822795.262",
+      "type": "feed",
+      "offset": 508,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822795,
+      "updated_time": 1755822795,
+      "target": {
+        "id": "1941912430427997910",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1941912430427997910",
+        "author": {
+          "id": "8c207f71444fb0f95b3075e89386e38d",
+          "url": "https://api.zhihu.com/people/8c207f71444fb0f95b3075e89386e38d",
+          "user_type": "people",
+          "url_token": "yong-gan-de-da-bing-36",
+          "name": "CharlieBrown-v1",
+          "headline": "LLMOverflow: llmoverflow.dev",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-03b42d62450ffcb05428b958512bea22_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "Hello, World! LLMOverflow 第一问：当编程的起点变成Prompt，工程师要如何确保终点的可靠？",
+        "comment_permission": "all",
+        "created": 1755768854,
+        "updated": 1755768854,
+        "voteup_count": 1,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "本文首发于：LLMOverflow.dev 大家好，我是一名正在探索 LLM 工程化落地的开发者。在过去几周，我陷入了一个看似基础却极其致命的难题：“如何确保 LLM 能 100% 输出我们预定义的 JSON？” 这篇文章完整记录了我从 Prompt 工程、response_format、tool_calling 到 LangChain 的五种尝试与深度反思。我没有找到完美的“银弹”，但这段踩坑实录，或许能为同样在路上的你，节省一些宝贵的时间。 这也是我发起 LLMOverflow 项目的初衷…",
+        "excerpt_new": "本文首发于：LLMOverflow.dev 大家好，我是一名正在探索 LLM 工程化落地的开发者。在过去几周，我陷入了一个看似基础却极其致命的难题：“如何确保 LLM 能 100% 输出我们预定义的 JSON？” 这篇文章完整记录了我从 Prompt 工程、response_format、tool_calling 到 LangChain 的五种尝试与深度反思。我没有找到完美的“银弹”，但这段踩坑实录，或许能为同样在路上的你，节省一些宝贵的时间。 这也是我发起 LLMOverflow 项目的初衷…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"JlcspYLw\"><b>本文首发于：<a href=\"https://link.zhihu.com/?target=https%3A//www.google.com/url%3Fsa%3DE%26q%3Dhttps%253A%252F%252Fllmoverflow.dev\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">LLMOverflow.dev</a></b></p><p data-pid=\"TlwVVXnz\">大家好，我是一名正在探索 LLM 工程化落地的开发者。在过去几周，我陷入了一个看似基础却极其致命的难题：“如何确保 LLM 能 100% 输出我们预定义的 JSON？”</p><p data-pid=\"MSiAt1AO\">这篇文章完整记录了我从 Prompt 工程、response_format、tool_calling 到 LangChain 的五种尝试与深度反思。我没有找到完美的“银弹”，但这段踩坑实录，或许能为同样在路上的你，节省一些宝贵的时间。</p><p data-pid=\"awmCj89f\">这也是我发起 LLMOverflow 项目的初衷。以下是正文：</p><p data-pid=\"E5cSHzYF\">大家好。</p><p data-pid=\"D4qxE_gg\">在这个被大家习惯性称呼为“LLM元年”的时代，我像许多工程师一样，一头扎进了这个由 Prompt、模型和不确定性构成的新世界。</p><p data-pid=\"4bZ9Losp\">编程界有一句圣经：“不要重复造轮子”。它背后有一个温暖的假设：你遇到的所有Bug，都一定有前人为你铺平了道路。但在LLM应用这个崭新的、巨大的蓝海领域，我们脚下空无一物，每个人都在重复地、孤独地试错。</p><p data-pid=\"mfYKX_WB\">这篇文章，记录了我为解决一个看似基础、实则致命的问题所做的全部探索。它没有最终的完美答案，但记录本身，就是 <code>LLMOverflow.dev</code> 存在的意义。</p><p data-pid=\"Rv276Y4r\"><b><code>LLMOverflow</code> 的第一问：如何确保LLM能 100% 输出我们预定义的 JSON，无论输入如何复杂？</b></p><hr/><h3>一次与“不确定性”的较量</h3><p data-pid=\"KjZuio7y\">以下是我走过的<code>弯路</code>，以及我个人给每条路径的评分。</p><h3>方向一：提示词工程 + “面向报错编程”的后处理</h3><p data-pid=\"9NmAmhd6\">对于一个新手来说，这是最容易想到的一个方向，我把 Prompt 划分为三个部分：</p><ul><li data-pid=\"XBue2y7F\">任务相关的指令</li><li data-pid=\"kcFF_hiv\">JSON Schema 的格式化描述</li><li data-pid=\"T-Q8m_f0\">Few-shot 的输出示例</li></ul><p data-pid=\"uBqC7dsp\">最后，我用 <code>json_repair</code> 和 <code>re</code> 来清洗那些不符合Schema的输出。</p><p data-pid=\"wo-LtxsM\">这个方案迭代了无数个版本，每当遇到一个新的corner case，我的后处理代码和Prompt就得再打一个补丁。它能用，但极其脆弱，就像是在维护一台随时会散架的老爷车。</p><h3>提示词设计</h3><p data-pid=\"42lQQHa_\">... (任务相关的指令)</p><h2>输出格式要求（必须严格遵守）</h2><p data-pid=\"2YJNI-uR\">严格按照 JSON Schema 格式返回 JSON，禁止输出任何无关内容</p><h3>JSON Schema</h3><div class=\"highlight\"><pre><code class=\"language-json\"><span class=\"p\">{</span>\n    <span class=\"nt\">&#34;steps&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n        <span class=\"p\">{</span>\n            <span class=\"nt\">&#34;step_idx&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算步骤的序号，从 **1** 开始（整数类型）&#34;</span><span class=\"p\">,</span>\n            <span class=\"nt\">&#34;pseudocode&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算步骤的伪代码&#34;</span><span class=\"p\">,</span>\n            <span class=\"nt\">&#34;input_params&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n                <span class=\"p\">{</span>\n                    <span class=\"nt\">&#34;name&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;参数的名称&#34;</span><span class=\"p\">,</span>\n                    <span class=\"nt\">&#34;value&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;参数的取值&#34;</span><span class=\"p\">,</span>\n                    <span class=\"nt\">&#34;purpose&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;参数的作用&#34;</span>\n                <span class=\"p\">}</span>\n            <span class=\"p\">],</span>\n            <span class=\"nt\">&#34;input_fields&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n                <span class=\"p\">{</span>\n                    <span class=\"nt\">&#34;name&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;字段的名称&#34;</span><span class=\"p\">,</span>\n                    <span class=\"nt\">&#34;description&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;字段的描述&#34;</span><span class=\"p\">,</span>\n                    <span class=\"nt\">&#34;purpose&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;字段的作用&#34;</span>\n                <span class=\"p\">}</span>\n            <span class=\"p\">]</span>\n        <span class=\"p\">},</span>\n        <span class=\"s2\">&#34;...&#34;</span> <span class=\"err\">//</span> <span class=\"err\">其他计算步骤</span>\n  <span class=\"p\">]</span>\n<span class=\"p\">}</span></code></pre></div><h3>输出示例</h3><div class=\"highlight\"><pre><code class=\"language-json\"><span class=\"p\">{</span>\n    <span class=\"nt\">&#34;steps&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n      <span class=\"p\">{</span>\n          <span class=\"nt\">&#34;step_idx&#34;</span><span class=\"p\">:</span> <span class=\"mi\">1</span><span class=\"p\">,</span>\n          <span class=\"nt\">&#34;pseudocode&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算20日对数收益率: log_ret = log(close / lag(close, lookback_period))&#34;</span><span class=\"p\">,</span>\n          <span class=\"nt\">&#34;input_params&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n              <span class=\"p\">{</span>\n                  <span class=\"nt\">&#34;name&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;lookback_period&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;value&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;20&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;purpose&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;回看周期&#34;</span>\n              <span class=\"p\">}</span>\n          <span class=\"p\">],</span>\n          <span class=\"nt\">&#34;input_fields&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n              <span class=\"p\">{</span>\n                  <span class=\"nt\">&#34;name&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;close&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;description&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;收盘价&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;purpose&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算对数收益率&#34;</span>\n              <span class=\"p\">}</span>\n          <span class=\"p\">]</span>\n      <span class=\"p\">},</span>\n      <span class=\"p\">{</span>\n          <span class=\"nt\">&#34;step_idx&#34;</span><span class=\"p\">:</span> <span class=\"mi\">2</span><span class=\"p\">,</span>\n          <span class=\"nt\">&#34;pseudocode&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算换手率: turnover_rate = volume / free_float_shares&#34;</span><span class=\"p\">,</span>\n          <span class=\"nt\">&#34;input_params&#34;</span><span class=\"p\">:</span> <span class=\"p\">[],</span>\n          <span class=\"nt\">&#34;input_fields&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n              <span class=\"p\">{</span>\n                  <span class=\"nt\">&#34;name&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;volume&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;description&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;成交量&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;purpose&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算换手率&#34;</span>\n              <span class=\"p\">},</span>\n              <span class=\"p\">{</span>\n                  <span class=\"nt\">&#34;name&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;free_float_shares&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;description&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;自由流通股本&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;purpose&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算换手率&#34;</span>\n              <span class=\"p\">}</span>\n          <span class=\"p\">]</span>\n      <span class=\"p\">},</span>\n      <span class=\"p\">{</span>\n          <span class=\"nt\">&#34;step_idx&#34;</span><span class=\"p\">:</span> <span class=\"mi\">3</span><span class=\"p\">,</span>\n          <span class=\"nt\">&#34;pseudocode&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算换手率加权反转因子: factor = -log_ret * turnover_rate&#34;</span><span class=\"p\">,</span>\n          <span class=\"nt\">&#34;input_params&#34;</span><span class=\"p\">:</span> <span class=\"p\">[],</span>\n          <span class=\"nt\">&#34;input_fields&#34;</span><span class=\"p\">:</span> <span class=\"p\">[</span>\n              <span class=\"p\">{</span>\n                  <span class=\"nt\">&#34;name&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;log_ret&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;description&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;对数收益率&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;purpose&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算换手率加权反转因子&#34;</span>\n              <span class=\"p\">},</span>\n              <span class=\"p\">{</span>\n                  <span class=\"nt\">&#34;name&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;turnover_rate&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;description&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;换手率&#34;</span><span class=\"p\">,</span>\n                  <span class=\"nt\">&#34;purpose&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;计算换手率加权反转因子&#34;</span>\n              <span class=\"p\">}</span>\n          <span class=\"p\">]</span>\n      <span class=\"p\">}</span>\n  <span class=\"p\">]</span>\n<span class=\"p\">}</span></code></pre></div><h3>后处理代码</h3><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"k\">def</span> <span class=\"nf\">validate_json</span><span class=\"p\">(</span><span class=\"n\">json_content</span><span class=\"p\">:</span> <span class=\"nb\">str</span><span class=\"p\">)</span> <span class=\"o\">-&gt;</span> <span class=\"n\">Dict</span><span class=\"p\">:</span>\n    <span class=\"k\">try</span><span class=\"p\">:</span>\n        <span class=\"k\">if</span> <span class=\"nb\">isinstance</span><span class=\"p\">(</span><span class=\"n\">json_content</span><span class=\"p\">,</span> <span class=\"nb\">str</span><span class=\"p\">):</span>\n            <span class=\"k\">if</span> <span class=\"n\">json_content</span><span class=\"p\">:</span>\n                <span class=\"n\">match</span> <span class=\"o\">=</span> <span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">search</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s1\">&#39;```json(.*?)```&#39;</span><span class=\"p\">,</span> <span class=\"n\">json_content</span><span class=\"p\">,</span> <span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">DOTALL</span><span class=\"p\">)</span>\n                <span class=\"k\">if</span> <span class=\"n\">match</span><span class=\"p\">:</span>\n                    <span class=\"n\">json_content</span> <span class=\"o\">=</span> <span class=\"nb\">str</span><span class=\"p\">(</span><span class=\"n\">match</span><span class=\"o\">.</span><span class=\"n\">group</span><span class=\"p\">(</span><span class=\"mi\">1</span><span class=\"p\">)</span><span class=\"o\">.</span><span class=\"n\">strip</span><span class=\"p\">())</span>\n                    <span class=\"n\">data</span> <span class=\"o\">=</span> <span class=\"n\">json</span><span class=\"o\">.</span><span class=\"n\">loads</span><span class=\"p\">(</span><span class=\"n\">json_content</span><span class=\"p\">)</span>\n                <span class=\"k\">else</span><span class=\"p\">:</span>\n                    <span class=\"n\">data</span> <span class=\"o\">=</span> <span class=\"n\">json</span><span class=\"o\">.</span><span class=\"n\">loads</span><span class=\"p\">(</span><span class=\"n\">json_content</span><span class=\"o\">.</span><span class=\"n\">strip</span><span class=\"p\">())</span>\n            <span class=\"k\">else</span><span class=\"p\">:</span>\n                <span class=\"n\">data</span> <span class=\"o\">=</span> <span class=\"p\">{}</span>\n        <span class=\"k\">else</span><span class=\"p\">:</span>\n            <span class=\"k\">raise</span> <span class=\"ne\">ValueError</span><span class=\"p\">(</span><span class=\"n\">f</span><span class=\"s2\">&#34;非法格式: {type(json_content)}&#34;</span><span class=\"p\">)</span>\n\n        <span class=\"k\">return</span> <span class=\"n\">data</span>\n    <span class=\"k\">except</span> <span class=\"n\">json</span><span class=\"o\">.</span><span class=\"n\">JSONDecodeError</span> <span class=\"k\">as</span> <span class=\"n\">e</span><span class=\"p\">:</span>\n        <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"n\">f</span><span class=\"s1\">&#39;json_content 解析失败: {json_content}&#39;</span><span class=\"p\">)</span>\n        <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"n\">f</span><span class=\"s1\">&#39;Json 解析错误: {e}&#39;</span><span class=\"p\">)</span>\n        <span class=\"k\">raise</span> <span class=\"ne\">ValueError</span><span class=\"p\">(</span><span class=\"s2\">&#34;无效的JSON响应&#34;</span><span class=\"p\">)</span></code></pre></div><ul><li data-pid=\"98TI2zI_\"><b>评分：7.0 / 10</b></li><li data-pid=\"Kdq_FlW5\"><b>理由</b>：可以应对大多数任务场景，但维护成本极高并且探索曲线非常曲折。每一次业务逻辑的微小变动，都可能引发Prompt和后处理代码的连锁崩溃。它完全不是一个工业级的解决方案，更像是一件“手艺品”。</li></ul><h3>方向二：官方承诺 - 一瓶名为 <code>response_format</code> 的“安慰剂”</h3><p data-pid=\"5pccLNKr\">在方向一的基础上，我加上了OpenAI官方的 <code>response_format={ &#34;type&#34;: &#34;json_object&#34; }</code>。我曾期望其能一劳永逸。</p><p data-pid=\"A0BLgLJ8\">结果是，它几乎没有带来任何显著的增益。该出错还是得出错。</p><ul><li data-pid=\"P_wO6AUl\"><b>评分：7.1 / 10</b></li><li data-pid=\"-w7nzwPW\"><b>理由</b>：分数比方向一略高0.1分，完全是出于官方承诺所带来的“心理安慰”。至少，我们感觉自己用了“官方推荐”的方法，尽管效果微乎其微。</li></ul><h3>方向三：业界神话 - <code>tool_calling</code> 的“貌合神离”</h3><p data-pid=\"vRB_BCai\">Agent 社区内，将 <code>tool_calling</code> 视为 JSON 格式化输出的最先进技术，怀揣着这一调研结果，我满怀希望地手写了一个 <code>tool_calling</code> 逻辑，期望LLM能够精准调用。</p><p data-pid=\"QBKSjmeO\">但现实给了我沉重一击。LLM完全没有调用我定义的工具，而是直接输出一个<b>像是</b>在调用工具的<b>字符串</b>：</p><div class=\"highlight\"><pre><code class=\"language-json\"><span class=\"p\">{</span>\n    <span class=\"nt\">&#34;tool_code&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;xxx_schema&#34;</span><span class=\"p\">,</span>\n    <span class=\"nt\">&#34;content&#34;</span><span class=\"p\">:</span> <span class=\"s2\">&#34;xxx&#34;</span>\n<span class=\"p\">}</span></code></pre></div><p data-pid=\"OYeff8YI\">除此之外，它还会自己“发明”一些我从未在Schema中定义的Key。我严重怀疑这个手写的 <code>tool_calling</code> 逻辑有Bug，但面对这个巨大的黑盒，我完全不知道Ground Truth究竟是什么，调试无从下手，最终出于项目进度考虑，只能放弃。</p><ul><li data-pid=\"F6UkwiFK\"><b>评分：4 / 10</b></li><li data-pid=\"yiknkUU8\"><b>理由</b>：在我的复杂场景下，它不仅没解决问题，反而引入了更诡异、更无法理解的新问题。这是一个典型的“理论可行，实践崩溃”的典型案例。</li></ul><h3>方向四：优雅地误入歧途 - <code>任务解耦</code></h3><p data-pid=\"olSRlLF9\">我尝试将任务拆分为两个阶段： 1. LLM只管完成任务，不增加任何格式限制，使用纯文本作答 2. 使用另一个LLM将阶段一的输出格式化为JSON</p><p data-pid=\"dEtk2cRN\">这是一个看似非常优雅、符合软件工程“单一职责”原则的设想。<b>但实践下来，效果极其糟糕！</b></p><ul><li data-pid=\"Ys65YpON\">第一阶段的LLM由于卸下了格式枷锁，彻底放飞自我，输出大段难以解析和验证的文本</li><li data-pid=\"uuaPXwP1\"> 第二阶段的LLM由于缺失了任务背景，在格式化时产生了严重的歧义，完全无法保证内容的准确性<br/> </li><li data-pid=\"WiZY_XZs\"><b>评分：2 / 10</b><br/> </li><li data-pid=\"il_ZqT3K\"><b>理由</b>：方向性的错误。是一种试图用战术上的勤奋（拆分任务），来掩盖战略上的疏忽（LLM的上下文依赖性），结果是两头落空，效果远不如方案一。</li></ul><h3>方向五：最后的希望 - LangChain + <code>with_structured_output</code></h3><p data-pid=\"AuPFftA0\">为了兼容不同的LLM，我用LangChain重写了底层的LLM接口，并最终摸索到了 <code>with_structured_output</code> 这个功能。这是目前唯一能与方向一“掰手腕”的方案。</p><p data-pid=\"4lx-Y7X1\">但它也给了我一个反直觉的“惊喜”：<b>我原以为有了它，就可以让Prompt完全专注于任务本身，格式由Schema保证。但事实是，我依然需要像方向一那样，提供一个包含指令、格式、示例的“三段式”Prompt。</b> 否则，它也无法准确理解我的意图。</p><p data-pid=\"N2Uc0jzx\">然后，它依旧不是100%可靠。模型还是存在：不调用工具、直接返回思考过程或者调用工具出错直接返回None的情况。这些错误随机、难以复现，就像幽灵一样漂浮在我的项目上空。 但是通过重试机制，已经可以将这些错误控制在可接受范围内。</p><ul><li data-pid=\"eym0GcwE\"><b>评分：8.5 / 10</b></li><li data-pid=\"BrDpNggz\"><b>理由</b>：这是我目前能找到的、在工程化和效果之间平衡得最好的方案。它承认了LLM的不可靠，并试图在框架层提供一种约束。但它离“100%可靠”的圣杯，依旧遥远。</li></ul><hr/><h3>这不仅仅是JSON，而是LLM时代的困惑 (It&#39;s more than JSON!)</h3><p data-pid=\"wfIrGDo2\">回顾这次探索的历程，我发现我面对的其实不仅仅是一个简单的JSON格式问题，而是所有与LLM打交道的工程师共同的困惑：</p><ul><li data-pid=\"eQor03A9\"><b>什么样的提示词才是最好的？</b> 面对LLM这个黑盒（神经网络）构建的黑盒，不同任务、不同需求，其正确的打开方式是什么？</li><li data-pid=\"olwlWPPi\"><b>如何评估一个方案的优劣？</b> LLM是一个“随机求解器”，同样的问题它会给出不同的方案。我们能否在投入大量时间试错前，预知哪个方案更有前景？更值得尝试？（即使是目前看起来的SOTA：<code>方向五</code> 仍然无法做到100%可靠，是否存在100%可靠的方案呢？）</li><li data-pid=\"oS-cS3mk\"><b>社区里流传的各种Tricks，哪些是真理，哪些只是幸存者偏差？</b> 我们需要一个方法来量化它们的有效性。</li><li data-pid=\"SzSYgQGp\"><b>如何终结“大海捞针”式的探索？</b> 在无数个社区、论坛、Discord频道之间切换，大海捞针式地寻找解决方案，体验实在太糟糕了！</li><li data-pid=\"dGSH9X9s\"><b>我们如何找到LLM的“母语”？</b> 能否量化不同数据结构对LLM的友好度？我反复迭代优化后得到的 <code>计算步骤</code> Schema，它真的是最优解吗？</li></ul><p data-pid=\"Ho8i68ds\"><b>综上种种，正是 <code>LLMOverflow.dev</code> 存在的意义！</b></p><p data-pid=\"UqHwSy6c\">我们来到了一个前所未见的蓝海，试错肯定在所难免。但在试错之后，我们的经验和教训不应该像水蒸气一样消散在空气中。那些我们花费无数个深夜调试出来的Prompt、我们总结出的宝贵经验，应该被沉淀下来，变成后来者的阶梯。</p><p data-pid=\"I5YhmXmB\"><code>LLMOverflow</code> 想成为的，正是开往这些“康庄大道”的枢纽。</p><ol><li data-pid=\"Lb1SSYdo\"><b>引入类似StackOverflow的评分/点赞机制</b>：让社区来筛选出最有价值的方案，为你省去在无意义方向上的试错时间。</li><li data-pid=\"0f40-HC_\"><b>汇聚整个Agent开发社区的力量</b>：分享你的经验，在这里是一件利己利他的举手之劳。</li><li data-pid=\"8So7mUl1\"><b>成为LLM时代的“自带评分的开发百科全书”</b>：通过优质的筛选和评优机制，确保你能在这里以最小的时间成本找到最可靠的答案。</li><li data-pid=\"_xj32Rtz\"><b>to be continued...</b></li></ol><p data-pid=\"w7bOMZO9\">这仅仅是个开始。</p><p data-pid=\"DpGyzb6B\"><b>最后我有一个问题想请教大家：关于“确保LLM输出100%符合Schema的JSON”，你是否也有自己的独门秘籍，或是同样惨痛的教训？</b></p><p data-pid=\"1W528apO\">欢迎大家带着代码与思考，来到 <code>LLMOverflow.dev</code>，让我们一起，燃起LLM时代的星星之火！</p><p data-pid=\"hZ00dl2M\"><b>关于 LLMOverflow</b></p><p data-pid=\"Sc2nWvG4\">感谢你的阅读。这篇文章中提出的问题，只是 LLM 工程化冰山一角。如果你也对这个领域充满热情，厌倦了在信息的海洋里孤独地“大海捞针”，欢迎来到我的小站 LLMOverflow.dev，一个专注于探索 LLM 时代编程可靠性的角落。</p><p data-pid=\"PnohP0os\">让我们一起，把个人的踩坑经验，沉淀为社区的共同智慧。</p><p data-pid=\"CTuDe0jF\"><b>原文链接：</b><a href=\"https://link.zhihu.com/?target=https%3A//llmoverflow.dev/2025/08/21/llmoverflow-hello-world.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hello, World! LLMOverflow 第一问：当编程的起点变成 Prompt，工程师要如何确保终点的可靠？</a></p>",
+        "is_labeled": false,
+        "visited_count": 46,
+        "favorite_count": 1,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1941912430427997910}",
+      "attached_info": "CtgFCPqr7L3UyvaOpgEQBxoJMjYyMDY2OTgyIJbQm8UGKAEwAED8A0ojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDESATAYACAAOgBKLQoiVFNfU09VUkNFX1dBUk1fVVBfSElHSF9JTlRFUkFDVElPThIBMBgAIAA6AGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE5MTI0MzA0Mjc5OTc5MTCqAQlyZWNvbW1lbmTCASA4YzIwN2Y3MTQ0NGZiMGY5NWIzMDc1ZTg5Mzg2ZTM4ZPIBCggMEgZOb3JtYWzyASgIChIkNWQwOTk4ZjUtNWRhZi00MzFhLTkzZmUtOTNlM2U1YWY1M2Y38gEGCAsSAjg1ggIAiALQ0sb5jDOSAiA4YzIwN2Y3MTQ0NGZiMGY5NWIzMDc1ZTg5Mzg2ZTM4ZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDHoAgP6AgtOT1JNQUxfRkxPV4oDIDY3ZGMxZDVkNWMzYTRlZTE4YThhOGU3ZmQwNDQxMDI1mgMNCgJ2MhAAGgVvdGhlcqgDLtgDAOoDHnRleHRfaGlnaF9pbnRlcmFjdGlvbl9yZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMDmqIk/gQUAAAAAAAAAAIkFQzQPXYZU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFVZAGAKAGgASoBgGSAi4KCTI2MjA2Njk4MhITMTk0MTkxMjQzMDQyNzk5NzkxMBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "509_1755822795.152",
+      "type": "feed",
+      "offset": 509,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822795,
+      "updated_time": 1755822795,
+      "target": {
+        "id": "1941254917399492334",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941254917399492334",
+        "author": {
+          "id": "29c2ec29e34270a2cc3d6bb78280a3b1",
+          "url": "https://api.zhihu.com/people/29c2ec29e34270a2cc3d6bb78280a3b1",
+          "user_type": "people",
+          "url_token": "si-ye-2",
+          "name": "宇阳熙",
+          "headline": "一个独立而又闷骚的二流子",
+          "avatar_url": "https://picx.zhimg.com/50/v2-0faac01c3b455706cd83503f154bc570_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "香港大学 管理学硕士在读"
+            }
+          ],
+          "followers_count": 79,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755611239,
+        "updated_time": 1755611239,
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "531391280",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/531391280",
+          "author": {
+            "id": "b9840c983f4f7e7aedb10e6b0ad126fc",
+            "url": "https://api.zhihu.com/people/b9840c983f4f7e7aedb10e6b0ad126fc",
+            "user_type": "people",
+            "url_token": "qiu-sheng-23-64",
+            "name": "秋生",
+            "headline": "秋天见。",
+            "avatar_url": "https://pica.zhimg.com/50/v2-30fd59dc505e7275f2d955c2169a6195_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 277,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "新手 Web3 技术入门指南有哪些值得分享？",
+          "created": 1651685264,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            1854,
+            7641,
+            8446,
+            40561,
+            60691
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "《一本书读懂Web3.0：区块链、NFT、元宇宙和DAO》由a15a小组编写，系统梳理了Web3.0的核心技术与生态：以区块链为底层，通过以太坊等公链、跨链工具、去中心化存储实现去信任化的价值转移；NFT作为文化载体，重塑数字产权与社群共识；元宇宙则将人、资产与场景通证化，构建沉浸式价值互联网；DAO以智能合约实现去中心化自治，重新定义协作与治理。全书串联技术、经济、社会意识与未来趋势，展示Web3.0如何重构生产资料、分配方式…",
+        "excerpt_new": "《一本书读懂Web3.0：区块链、NFT、元宇宙和DAO》由a15a小组编写，系统梳理了Web3.0的核心技术与生态：以区块链为底层，通过以太坊等公链、跨链工具、去中心化存储实现去信任化的价值转移；NFT作为文化载体，重塑数字产权与社群共识；元宇宙则将人、资产与场景通证化，构建沉浸式价值互联网；DAO以智能合约实现去中心化自治，重新定义协作与治理。全书串联技术、经济、社会意识与未来趋势，展示Web3.0如何重构生产资料、分配方式…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"4DTekPF-\"><b>《一本书读懂Web3.0：区块链、NFT、元宇宙和DAO》由a15a小组编写，系统梳理了Web3.0的核心技术与生态：以区块链为底层，通过以太坊等公链、跨链工具、去中心化存储实现去信任化的价值转移；NFT作为文化载体，重塑数字产权与社群共识；元宇宙则将人、资产与场景通证化，构建沉浸式价值互联网；DAO以智能合约实现去中心化自治，重新定义协作与治理。全书串联技术、经济、社会意识与未来趋势，展示Web3.0如何重构生产资料、分配方式与组织形态。个人读书记录如下，主要是一些原文摘要。</b></p><p data-pid=\"8HH3mg7q\"><b>1、开放共享的思想也在改变着人们观念、生活和组织方式；</b></p><p data-pid=\"ONz8NZo3\"><b>2、web3.0的发展速度太快、每天都有新技术、新项目出现，素有“圈里一天、人间一年”的说法；</b></p><p data-pid=\"tF9newQM\"><b>3、互联网就是由计算机互联而形成的大型网络系统。万维网则是在互联网基础上发展出的一种应用层的服务，浏览器是其最常见的表现形式；</b></p><p data-pid=\"h4MC35KS\"><b>4、web从本质上来说的确是一种对信息的村醋和获取进行组织的分布式信息系统。有了信息的互通，就必然存在信息的传播者、传播渠道、接受者、信息的表现形式、互动方式等；</b></p><p data-pid=\"0Lf0D2A6\"><b>5、web2.0的弊端：</b></p><ul><li data-pid=\"4iFpDcek\"><b>过于机械化的验证；</b></li><li data-pid=\"wkiP1Ohr\"><b>账户安全性无法保证；</b></li><li data-pid=\"kqMd6jcl\"><b>账户隐私无法保证；</b></li><li data-pid=\"66qR6piC\"><b>不良竞争格局；</b></li><li data-pid=\"M_TzvBP_\"><b>对监管机构的强依赖；</b></li></ul><p data-pid=\"kG5JiM-j\"><b>6、在web2.0世界里，平台似乎对你无所不知，对你的喜好、你的消费水平，甚至你的感情状况，它都一清二楚。这是平台长期基于对用户数据的积累和分析实现的，平台可以通过你的数据获得更多收益，例如向特定的用户群投特定的广告，从而获得广告收益；</b></p><p data-pid=\"5AQcvN3B\"><b>7、信任的本质是信仰，信任也意味着权利的让渡；</b></p><p data-pid=\"XJbDjmR5\"><b>8、多一些真实，少一些信任；</b></p><p data-pid=\"q0yIyuyY\"><b>9、一个项目要想迅速提高知名度和可信度，找一个权威资本来投资是成本最低的选择；</b></p><p data-pid=\"5YOO4ras\"><b>10、对于风险投资来说，资源的积累是至关重要的；</b></p><p data-pid=\"Oq9nWhHI\"><b>11、一级市场指的是公募之前的投资轮次，包括天使轮、种子轮、私募轮投资，通常参与的投资方又风险投资，成长投资、个人投资等；二级市场的投资方包括哪些通过数字资产信托和指数基金入场的与通过交易所直接购买数字资产的机构或个人；</b></p><p data-pid=\"gAlSd0Pq\"><b>12、红杉资本将其官方推特账号的简介从“帮助有冒险精神的人创建伟大的公司”改为“从想法到落地，我们帮助富有冒险精神的人来打造伟大的DAO；</b></p><p data-pid=\"w_JuOvza\"><b>13、不能因为一个有缺陷的法案而牺牲明天的经济机会；</b></p><ul><li data-pid=\"iW6p74-o\"><b>14、现在1/5的美国人拥有数字资产；</b></li></ul><p data-pid=\"tLj76kem\"><b>15、web3.0的支持者总体上更年轻、更多样化、更具适应性，美国选民希望政策制定者能够支持web3.0；</b></p><p data-pid=\"oiIcmEn2\"><b>16、互联网定义了过去几十年的创新，我们相信加密货币将定义未来几十年；</b></p><p data-pid=\"ZuGP7Dor\"><b>17、Pentera</b> <b>Capital，美国第一家专注于区块链的资产管理公司；</b></p><p data-pid=\"0IdEXuIG\"><b>18、区块是在区块链中用于永久存储数据信息的载体单位。每个区块都包含区块大小、区块头、交易计数器和交易信息；</b></p><p data-pid=\"zPNqDzuC\"><b>19、区块链节点包括全节点和轻节点。拥有并维护全网所有交易数据的节点成为全节点；只拥有并维护与自己相关的交易数据的节点称为轻节点；</b></p><p data-pid=\"ksP_W_UW\"><b>20、所有节点支撑起了整个区块链网络，共同为区块链的稳定性和安全性提供保障。一个区块网络的节点越多，这条区块链就越安全、越稳定；</b></p><p data-pid=\"C-dxN2HX\"><b>21、区块链以点对点网络为基础；</b></p><p data-pid=\"Q-T2lspr\"><b>22、在区块链网络中，不存在任何“中央结构”去限制节点的正常操作；</b></p><p data-pid=\"FxnWRO_d\"><b>23、区块链的结构带来的独特特性：去中心化和信息不可篡改（安全性）；</b></p><p data-pid=\"KXKqp7bS\"><b>24、区块链还有其特有的匿名性和可拓展性；</b></p><p data-pid=\"jrXGSe2w\"><b>25、区块链的匿名性表现为每个人在区块链上都需要一个以公钥哈希值为标识的虚拟身份；</b></p><p data-pid=\"yf3UZio3\"><b>26、区块链的可拓展性主要体现在交易量和节点数量上。交易量主要由网络的吞吐量决定；节点数量则取决于网络硬件设施性能和成本；</b></p><p data-pid=\"jMvt8JgL\"><b>27、区块链的三元悖论：区块链系统无法同时满足去中心化、安全性、可拓展性这三个特性；</b></p><p data-pid=\"pp7nmQo2\"><b>28、公链，也称为区块链公链系统，是区块链最基础、底层的网络，其他协议都是在公链网络上进行部署的；</b></p><p data-pid=\"5XY8_5N2\"><b>29、公链有以下几个特点：</b></p><ul><li data-pid=\"PvbLMXEO\"><b>完全去中心化；</b></li><li data-pid=\"4GlYLPmH\"><b>任何人都可以匿名参与；</b></li><li data-pid=\"PFWSaWzT\"><b>数据是全网公开的；</b></li><li data-pid=\"_4rwYbt5\"><b>节点数量多变且不可预知；</b></li><li data-pid=\"kX1THHn_\"><b>运维成本较高，依赖奖励机制；</b></li><li data-pid=\"Hp9Vg8rJ\"><b>交易速度较慢；</b></li></ul><p data-pid=\"LgrbbB6k\"><b>30、联盟链特点：</b></p><ul><li data-pid=\"fHDr7j6g\"><b>多组织共同参与管理；</b></li><li data-pid=\"IatWISYZ\"><b>隐私保护良好；</b></li><li data-pid=\"Iul3Qa3I\"><b>交易成本低；</b></li><li data-pid=\"-Me1VN_9\"><b>交易速度快；</b></li><li data-pid=\"WW5ICWaY\"><b>个体节点上链成本高；</b></li><li data-pid=\"L_X9-TUA\"><b>企业背书；</b></li></ul><p data-pid=\"ZU3ptP35\"><b>31、以太坊是目前世界范围内使用最广泛的公链；</b></p><p data-pid=\"0aXf4BU0\"><b>32、以太坊的目标是，提供一条内置有成熟的图灵完备的编程语言的区块链，用这种语言可以创建合约来编码，从而实现任意状态转换功能；</b></p><p data-pid=\"KzJqfsn4\"><b>33、比特币仅使用一种特定的区块链技术，实际上是一套分布式的数据库，固定在比特币交易中的数据通常用于记笔记，而以太坊上的交易还可能包含可执行的代码；</b></p><p data-pid=\"VtsLnHUp\"><b>34、以太坊和比特币的目的不同，比特币更希望成为一种替代货币系统，可以作为交换媒介或价值存储介质存在。以太坊更希望可以通过平台的运营获利而不是将自身建立为替代货币系统；</b></p><p data-pid=\"r7nb-lpo\"><b>35、比特币更像一种合法性尚未实现的货币，而以太坊则是一个具有生态性的、可大规模应用的智能合约平台；</b></p><p data-pid=\"jjSG8hTs\"><b>36、所有零知识证明，从字面上就可以理解，即我想向你证明我知道某个问题的答案，但我又不想告诉你这个答案的具体内容；</b></p><p data-pid=\"cw5Wls87\"><b>37、所谓二进制，就是用最简单的方式来表达尽可能多的不同状态，以传递不同的信息；</b></p><p data-pid=\"e7I-zV_t\"><b>38、有内鬼，终止交易；</b></p><p data-pid=\"Q5w3Q8xi\"><b>39、web2.0时期常用的手段：品牌方通过铺天盖地的广告向用户展现其价值，而这些广告成本则被分摊到每一个愿意为其买单的人身上，这也就是我们常说的“品牌溢价”；</b></p><p data-pid=\"FsrgBfpg\"><b>40、时代变幻、风云未定之际，是素人实现财富增值的最好时机；</b></p><p data-pid=\"DvN8_HZY\"><b>41、在未来，每个人都能成名15分钟，没个人都能在15分钟内出名。随着web3.0时代的到来，将会有更多的素人迎来自己的高光时刻，但是机会永远只会留有准备的人、能坚持的人，以及在遇到新鲜事物时不嫌麻烦、不犯懒、愿意去学习的人；</b></p><p data-pid=\"dSi4nGBm\"><b>42、NFT圈子的玩家究竟是一些什么人？首先，他们都死后高净值用户，消费能力强。其次，他们的付费意愿强烈；</b></p><p data-pid=\"Ud-uChdQ\"><b>43、目前，NFT代表的就是时尚，就是潮流；</b></p><p data-pid=\"MjnvUAyT\"><b>44、除了商品和资产属性，NFT也越来越被认为是一种身份标签。持有某种NFT被认为是属于某个圈层的象征；</b></p><p data-pid=\"mxF98kGF\"><b>45、元宇宙是一个平行现实世界的线虚拟世界，是越来越真实的的数字虚拟世界。事实上，元宇宙的本质上是社会形态和文明的一种演变；</b></p><p data-pid=\"sOawdB_J\"><b>46、游戏的功能更局限于娱乐，最多加持社交，而元宇宙则除了娱乐和社交以外可以支持办公、消费等场景；</b></p><p data-pid=\"bjyUXyvk\"><b>47、真正的元宇宙如前文所说，其底层逻辑是有效的经济体系的嵌入，即玩家在元宇宙中可以产生真实存在的价值；</b></p><p data-pid=\"zbKBqo96\"><b>48、事实证明，一个新时代的到来，往往少不了梦想家和勇敢的实践者；</b></p><p data-pid=\"RqMXpNrl\"><b>49、恐怖谷理论，大概意思是说当机器人与人类的相似度达到一定程度时，只要稍微有一点儿不一样的地方，人类就会觉得非常别扭，这个理论同样用于虚拟偶像或虚拟员工；</b></p><p data-pid=\"JDpEzhDD\"><b>50、DAO的基本特征，即字面意义上的去中心化、自主性与自动化、可治理，以及基于这些基本特征展露出的公开透明、高度信任、高度共识，Token激励等运行特征；</b></p><p data-pid=\"Tl9jYtFz\"><b>51、去中心化组织（海星）比中心化组织（蜘蛛）更有生命力；</b></p><p data-pid=\"fLBEoQTM\"><b>52、DAO是以互联网基础协议、区块链技术、人工智能、大数据、物联网等底层技术支撑，以Token激励和协同治理为治理手短，拥有明确的共同目标，具备高度信任和高度共识、开放平等、去中心化、公开透明、自动化特征的一种全新的组织形式，是数字协做最佳实践和web3.0最基本的组织形式；</b></p><p data-pid=\"N6LDWwDu\"><b>53、我们都知道生产力决定生产关系，当生产力发展到一定阶段，原来的生产关系无法适应它的发展时，生产关系发生变革就是必然的，旧的生产关系被新的生产关系代替；</b></p><p data-pid=\"9j0dtX-y\"><b>54、更多的利润就意味着对劳动者利益的更多攫取；</b></p><p data-pid=\"8O0IIedH\"><b>55、产品向平台的转变已成为一种趋势，衣食住行等需求的以平台应用的方式提供服务；</b></p><p data-pid=\"tBi3aeUo\"><b>56、平台依然是掌权者和最终利益获得者；</b></p><p data-pid=\"OalqFtrj\"><b>57、传统的赚钱方式是“工作赚钱”，但未来是“X-to-earn”-完全游戏赚钱、学习赚钱、创造赚钱、工作赚钱；</b></p><p data-pid=\"RmRCFIIn\"><b>58、正和博弈是指博弈双方的利益都有所增加，或者至少有一方的利益增加而另一方的利益不受损害的合作关系，与零和博弈相对；</b></p><p data-pid=\"wGveFmyV\"><b>59、web3.0时代，做一个成功项目的核心是创意点，而不需要得到上百万个用户数据来进行融资；</b></p><p data-pid=\"pRw4Mwtb\"><b>60、世界上大多数事物的本质都没有那么复杂，之所以看起来很复杂，是因为你还没有看到本质；</b></p><p data-pid=\"belh70di\"><b>61、决策本身不仅是一个重要的流程，还是一个项目中很重要的组织行为，或者说决策就是DAO社区的一种互动方式。DAO是一种人事合一的组织形式，社区和目标在交织中发展；</b></p><p data-pid=\"Meym0oTW\"><b>62、一个DAO是否安全，几乎完全取决于其代码的安全性，这就使得DAO在保证其不被黑客攻击方面尚处于不稳定的被动状态；</b></p><p data-pid=\"02Sj5WLX\"><b>63、web3.0将带来一种新的、更直接的、底层的经济体系。这种经济体系是通过包括智能合约、token及算法等区块链或者密码技术实现的；</b></p><p data-pid=\"qYREzL6H\"><b>64、web3.0的本质是生产资料共享；</b></p><p data-pid=\"Sx4Eh9Le\"><b>65、我一贯认为，如果一件事情用三句话说不清楚，那么要么这件事本身逻辑不通，要么讲故事的人没理解；</b></p><p data-pid=\"IJLvFXYT\"><b>66、随着人类社会，特别是移动互联网的发展，越来越多的生产资料以无实体的方式存在。比如，代码、算法、知识产权等，以及在互联网中最重要的生产资料——用户数据；</b></p><p data-pid=\"cgJMllZP\"><b>67、web3.0带来的一切改变，都是从强制性的生产资料共享开始的；</b></p><p data-pid=\"a_QFtvV3\"><b>68、普通人在web3.0中失去的只是枷锁，获得将是整个世界；</b></p><p data-pid=\"iSbit7jP\"><b>69、在web3.0世界中，支付功能是网络原生自带的，通过各种token来实现，让交易变得极其简单。经济活动其实就是由无数交易组合而成的，交易的简化让所有经济活动的成本都将对了；</b></p><p data-pid=\"PdKFdvXF\"><b>70、平台为了存活，需要互相残杀，筑起互联网高墙，相互隔绝，保证用户注意力和数据留在自己的平台上；</b></p><p data-pid=\"wa7sqA3k\"><b>71、Token作为一种新兴事物，与现行的经济体制难免有不兼容之处，也免不了被有心之人利用做违法犯罪之事，所以大家要在各地法律范围内对其审慎看待、合规参与，即使在合规的范围内也需要提高警惕、防范风险；</b></p><p data-pid=\"fdNWFXAl\"><b>72、DeFi是一种不由任何人控制，基于公链提供的点对点的金融服务；</b></p><p data-pid=\"OvbN25HW\"><b>73、衍生品的成熟的金融体系的关键要素之一，它提供了两个核心用途：对冲和投机；</b></p><p data-pid=\"V3i-RkOT\"><b>74、新事物的产生往往伴随着与传统的矛盾冲突和各种借名骗术的兴起；</b></p><p data-pid=\"NsxAUjFV\"><b>75、垄断和隔绝是web2.0世界的必然宿命，因为这是web2.0世界的生产资料归属及分配方式决定的；</b></p><p data-pid=\"zlkszNJt\"><b>76、回顾整个人类历史，我们会发现从奴隶社会到封建社会，从资本注意到社会主义，一直延续不断的主题就是自由代替约束，包容代替偏见，开放代替垄断，共荣代替利己，多样代替单一；</b></p><p data-pid=\"pM94PbbS\"><b>77、预测一下未来web3.0社交产品的形态：</b></p><ul><li data-pid=\"HitViGw2\"><b>线上化、虚拟化；</b></li><li data-pid=\"AGE0kTFf\"><b>自主性；</b></li><li data-pid=\"UZsteVZS\"><b>无边界；</b></li></ul><p data-pid=\"51CfHgY_\"><b>78、每一次群体划分标准的改变都伴随着社会和经济的巨变。经济、技术、社会就像一个三体系统，它们互相影响，然而对其变化规律又很难给出恒古不变的定律；</b></p><p data-pid=\"gxx8u7cg\"><b>79、人的社会属性决定了大多数人都会穷尽一生来给自己贴上各种标签，并且在芸芸众生中找到与自己具有相同标签的群体，加入并获得归属感和认同感；</b></p><p data-pid=\"Nnb_UR8M\"><b>80、NFT作为具像化的社交标签让web3.0世界里的社交更加方便；</b></p><p data-pid=\"ca3bAj2Q\"><b>81、feed就是一个持续更新的信息流，你只需要订阅就可以获得最新信息；</b></p><p data-pid=\"oC7cHMDu\"><b>82、无名之辈也能成“神”；</b></p><p data-pid=\"ZwVooWa6\"><b>83、只要你有闪光的思想，即使不用实践，也可以在web3.0世界里活得认可和回报。更夸张的是，在很多时候会有很多路人愿意帮你去实践你的创意；</b></p><p data-pid=\"uFKB_Cbj\"><b>84、在web3.0世界里，英雄不问出处；</b></p><p data-pid=\"evt0sIHB\"><b>85、每个人15分钟就能成名且每个人都能成名15分钟的时代；</b></p><p data-pid=\"L4wbhsHy\"><b>86、50多万个以太坊用户与9.9亿中国网民也完全不是一个级别的；</b></p><p data-pid=\"5HTGzb5D\"><b>87、如果想要长期运营，那么需要大量的用户和资产涌入web3.0世界，这将会是一个漫长的过程，并且可能不是靠个人或者某个项目能实现的，需要大家共同努力；</b></p><p data-pid=\"BuyMWoip\"><b>88、web2.0时代的获利者正在向web3.0入侵；</b></p><p data-pid=\"xZQCRT_9\"><b>89、信誉的破产只在一瞬间，而信誉恰恰是一切共识的基础。流量变现很简单，但稍有不慎便会被钉在以太坊的耻辱上，遗臭万年；</b></p><p data-pid=\"jbtw354u\"><b>90、唯物主义认为，人创造不出认知之外的事物；</b></p><p data-pid=\"fz7Pv4Pu\"><b>91、当开启一个新世界时，我们会尝试基于自己经历过的一切让历史重现，而重现的历史会以之前百倍甚至千倍的速度进行迭代；</b></p><p data-pid=\"Gf212UbH\"><b>92、元宇宙并非游戏，但游戏可以成为元宇宙的一部分；</b></p><p data-pid=\"HZry1g0B\"><b>93、在互联网时代，算法可能比你还懂你。当我们的数据被大量处理时，我们就踏入了大数据时代；</b></p><p data-pid=\"vs_TRVUj\"><b>94、历史证明，高性能并不能带来繁荣，只是给繁荣创造了更好的发生条件。事实上，且前众多高性能公链的TPS其实极少达到其理论上限——因为没有那么多交易产生；</b></p><p data-pid=\"pV20vGmd\"><b>95、不要拒绝改变；</b></p><p data-pid=\"KXemVI51\"><b>96、大多数丧失机会都是因为固守观念而拒绝改变，通常其外在表现是自负。保持好奇、放低姿态、勤奋学习是跟上时代步伐的方法；</b></p><p data-pid=\"S91s0f1F\"><b>97、不要试图从书上获得web3.0的知识；</b></p><p data-pid=\"RnNbdDCg\"><b>98、web3.0史一个全新的领域，一切与web3.0相关的事物都在飞速发展，而书的编辑、出版至少需要半年时间，所以你不可能从树上获得最新的信息。要知道半年时间足以让市场发生巨大的改变。你要善用碎片化学习方式，多从社交平台上以信息交流的渠道获取最新信息；</b></p><p data-pid=\"Ytx12hcK\"><b>99、DID是重要的身份标识，一切链上行为都将被永久记录，请爱惜自己的羽毛，珍惜个人信誉及你的虚拟身份，在未来或许它会比你的现实身份更重要；</b></p><p data-pid=\"e92sYmfR\"><b>100、比特币最伟大的时刻就是中本聪消失的时刻；</b></p><p data-pid=\"bm7od7Sr\"><b>101、读者之生就是作者之死，文本的意义是开放的，将一个固定意义强加在文本上，就限制了文本多重意义的可能性；</b></p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 50,
+        "favorite_count": 4,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941254917399492334}",
+      "attached_info": "CpEGCPqr7L3UyvaOpgEQBBoJNzQyOTk0MDg2IOeAksUGKAEwAED9A0pCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg4MDM2OTA4NmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDEyNTQ5MTczOTk0OTIzMzSKAQk1MzEzOTEyODCqAQlyZWNvbW1lbmTCASAyOWMyZWMyOWUzNDI3MGEyY2MzZDZiYjc4MjgwYTNiMfIBCggMEgZOb3JtYWzyASgIChIkNDMyN2YzOWMtN2ZiZi00NWM4LTkxZmYtMTczMWIwZjE3ZDE58gEGCAsSAjg1ggIAiALQ0sb5jDOSAiAyOWMyZWMyOWUzNDI3MGEyY2MzZDZiYjc4MjgwYTNiMZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDY3ZGMxZDVkNWMzYTRlZTE4YThhOGU3ZmQwNDQxMDI1mgMNCgJ2MhAAGgVvdGhlcqgDMtgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKDPeJs/gQUAAAAAAAAAAIkFQzQPXYZU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFVZAGAKAGgQSoBgCSAi4KCTc0Mjk5NDA4NhITMTk0MTI1NDkxNzM5OTQ5MjMzNBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=509&desktop=true&end_offset=513&page_number=86&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=509&desktop=true&end_offset=513&page_number=86&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

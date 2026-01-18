@@ -1,0 +1,628 @@
+{
+  "data": [
+    {
+      "id": "54_1767704387.228",
+      "type": "feed",
+      "offset": 54,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704387,
+      "updated_time": 1767704387,
+      "target": {
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "is_copyable": true,
+        "excerpt": "最近很多人都在分享playwright，大瑜却很少关注。 直到今天遇到一个很现实的需求：根据关键字去搜索抓取不同网站的博客内容。 这个玩意，要是像之前的爬虫方式，岂不是每个网站都要单独适配规则：接口在哪？数据怎么拿？反爬虫怎么绕过？想着都会被累死。 突然，大瑜想起来了：Playwright 本质就是“会操作浏览器的机器人”，不就是为了解决这个问题吗？ playwright介绍一句话描述：就是自动化操作浏览器的小助手。 普通爬虫更像…",
+        "preview_type": "default",
+        "favorite_count": 1,
+        "author": {
+          "id": "2e645749fc09a34aacb7662dab8b97e4",
+          "url": "https://api.zhihu.com/people/2e645749fc09a34aacb7662dab8b97e4",
+          "url_token": "dayu-52-28",
+          "is_org": false,
+          "followers_count": 723,
+          "user_type": "people",
+          "name": "大瑜聊AI",
+          "headline": "AI编程资深玩家！公众号同名！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-76c1de02aff4e4e2c40f2b7acb445c71_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "comment_count": 0,
+        "excerpt_new": "最近很多人都在分享playwright，大瑜却很少关注。 直到今天遇到一个很现实的需求：根据关键字去搜索抓取不同网站的博客内容。 这个玩意，要是像之前的爬虫方式，岂不是每个网站都要单独适配规则：接口在哪？数据怎么拿？反爬虫怎么绕过？想着都会被累死。 突然，大瑜想起来了：Playwright 本质就是“会操作浏览器的机器人”，不就是为了解决这个问题吗？ playwright介绍一句话描述：就是自动化操作浏览器的小助手。 普通爬虫更像…",
+        "is_labeled": false,
+        "url": "https://api.zhihu.com/answers/1991964862662852638",
+        "id": "1991964862662852638",
+        "voteup_count": 0,
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "thanks_count": 0,
+        "thumbnail": "https://picx.zhimg.com/50/v2-ec2ca318d7f2269deaaa998eb3f83d50_720w.jpg?source=b6762063",
+        "visited_count": 10,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-ec2ca318d7f2269deaaa998eb3f83d50_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4ea4aef8d91687134282689389e5cc71_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-589b67612ca8ed563438658c60d220e6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-df132c4c191560348cb3f9feb9f88664_720w.jpg?source=b6762063"
+        ],
+        "updated_time": 1767701432,
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "question": {
+          "detail": "",
+          "author": {
+            "followers_count": 0,
+            "is_following": false,
+            "avatar_url": "https://pic1.zhimg.com/50/v2-8aaec7a108a9e75d025531b9bd5d6c54_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "url_token": "ma49hq",
+            "name": "知乎用户Ma49Hq",
+            "headline": "",
+            "is_followed": false,
+            "id": "9969583703e6e07d649f268c4d7bba51",
+            "url": "https://api.zhihu.com/people/9969583703e6e07d649f268c4d7bba51",
+            "user_type": "people"
+          },
+          "title": "爬虫中selenium,playwright,DrissionPage功能都差不多，该学哪个?",
+          "follower_count": 0,
+          "excerpt": "",
+          "id": "1904087008206369134",
+          "url": "https://api.zhihu.com/questions/1904087008206369134",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            8138
+          ],
+          "comment_count": 0,
+          "question_type": "normal",
+          "type": "question",
+          "created": 1746749718,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "type": "answer",
+        "created_time": 1767701432,
+        "content": "<p data-pid=\"X_xzOH7X\">最近很多人都在分享playwright，大瑜却很少关注。</p><p data-pid=\"j_UTQgQq\">直到今天遇到一个很现实的需求：根据关键字去搜索抓取不同网站的博客内容。</p><p data-pid=\"9KYF5ymq\">这个玩意，要是像之前的爬虫方式，岂不是每个网站都要单独适配规则：接口在哪？数据怎么拿？反爬虫怎么绕过？想着都会被累死。</p><p data-pid=\"dMBFPmLH\">突然，大瑜想起来了：Playwright 本质就是“会操作浏览器的机器人”，不就是为了解决这个问题吗？</p><h2>playwright介绍</h2><p data-pid=\"_p_7cq5J\">一句话描述：就是自动化操作浏览器的小助手。</p><p data-pid=\"JYBrnxDM\">普通爬虫更像是直接拿服务器原始网页解析；</p><p data-pid=\"sck_IUYe\">而playwright更像是一个会用浏览器的机器人，等网页真正加载进来，再去点击、填表格、等他加载完。</p><p data-pid=\"MkPDbCBH\">优点如下：</p><p data-pid=\"8Z0Tkbmw\">1、更像真人操作，不容易被机器识别；</p><p data-pid=\"W8ZblzKK\">2、拿到浏览器真实展示的数据，包含动态加载数据；</p><p data-pid=\"jsQuEAXl\">3、省事，不用我去查看对应的数据获取接口。</p><p data-pid=\"hTK4-EdD\">4、Cookie/登录态保留：一键“记住你登录过”。</p><p data-pid=\"3oDpd9yj\">使用方法也很简单。我们直接打开claudeCode，直接说：帮我安装Playwight mcp工具即可。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0dfa443f6bceeadff40625abe4959a51_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1380\" data-rawheight=\"910\" data-original-token=\"v2-ec2ca318d7f2269deaaa998eb3f83d50\" class=\"origin_image zh-lightbox-thumb\" width=\"1380\" data-original=\"https://pic4.zhimg.com/v2-0dfa443f6bceeadff40625abe4959a51_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"keYXiaJ4\">按照要求进行。安装完毕，如果要看是否安装完成，直接输入</p><div class=\"highlight\"><pre><code class=\"language-text\">claude mcp list</code></pre></div><p data-pid=\"trb7U3px\">如果是下面的界面就代表安装成功。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-81c3439ac0e2487917c66e1ee20894cc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"988\" data-rawheight=\"204\" data-original-token=\"v2-e1fcdbe0e18a0f0095b564e917f6b844\" class=\"origin_image zh-lightbox-thumb\" width=\"988\" data-original=\"https://pic1.zhimg.com/v2-81c3439ac0e2487917c66e1ee20894cc_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"e1xqEkSE\">另外要记得安装完毕，要重新登陆cc，不然的话，这个mcp还无法直接调用。</p><h2>Playwright怎么用？</h2><p data-pid=\"kgWG9i7r\">我直接这样问：</p><p data-pid=\"M_8WxMiP\">使用playwright去google搜索dayulab的网站，找到文章目录，查询前10条文章标题。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0c4c51f0c90ac61353752b4353553c71_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1164\" data-rawheight=\"410\" data-original-token=\"v2-4446e71d203a72da24f36309deefc500\" class=\"origin_image zh-lightbox-thumb\" width=\"1164\" data-original=\"https://pic2.zhimg.com/v2-0c4c51f0c90ac61353752b4353553c71_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sw5m7bbh\">这个是以后就打开了浏览器。搜索并输入：dayulab。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-573364c58dc4c946d0d35719ebd0ae54_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1552\" data-rawheight=\"1224\" data-original-token=\"v2-4ea4aef8d91687134282689389e5cc71\" class=\"origin_image zh-lightbox-thumb\" width=\"1552\" data-original=\"https://pic1.zhimg.com/v2-573364c58dc4c946d0d35719ebd0ae54_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"DGNhIxr5\">接下来他就会跳转到大瑜的网站。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ef1a7f182d8f2c3f064915467901f83b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2306\" data-rawheight=\"1154\" data-original-token=\"v2-589b67612ca8ed563438658c60d220e6\" class=\"origin_image zh-lightbox-thumb\" width=\"2306\" data-original=\"https://picx.zhimg.com/v2-ef1a7f182d8f2c3f064915467901f83b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ML-WT3Uj\">最终找到了文章列表。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-536ad1e07efb7701caa8e53a73ec8c17_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1210\" data-rawheight=\"436\" data-original-token=\"v2-5a25e6626894a8f9884bc75508bcf76b\" class=\"origin_image zh-lightbox-thumb\" width=\"1210\" data-original=\"https://pic2.zhimg.com/v2-536ad1e07efb7701caa8e53a73ec8c17_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tw0gWoXy\">是不是很简单，一句话就能快速获取到大瑜的文章，根本不用像之前爬虫那么费劲。</p><h2><b>Playwright + Skills = 电脑替你干活</b></h2><p data-pid=\"GK2Vo4sx\">当然大瑜之前也提到了skills的用法。那么playwright结合skill会爆发出什么样的能力？</p><p data-pid=\"9olZwU81\">就像今天的需求：</p><p data-pid=\"VQyuzGJG\">1、通过google搜索，获取关键字对应网站；</p><p data-pid=\"dLIYyw6q\">2、找到对应的网站blog内容</p><p data-pid=\"JUJOQRXX\">3、将每一篇blog保存成markdownn文件。</p><p data-pid=\"oRjI9Zek\">那么我们就可以实现一个skill来一步进行这些功能的操作。</p><p data-pid=\"C_1i1bz7\">这里有一个小技巧：将我们的需求发送给claude客户端，让他帮我们生成skill。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f463b6b0b573c9d42b3f93350a9d5289_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1522\" data-rawheight=\"736\" data-original-token=\"v2-df132c4c191560348cb3f9feb9f88664\" class=\"origin_image zh-lightbox-thumb\" width=\"1522\" data-original=\"https://pic2.zhimg.com/v2-f463b6b0b573c9d42b3f93350a9d5289_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tnFn6-pH\">然后就是等待生成了。最后放到对应的位置后，喝喝茶，内容就生成了。</p><h2>写在后面的话：我今年的转变</h2><p data-pid=\"cR5Kd7t9\">今天大瑜发了一条朋友圈：</p><p data-pid=\"3RVu7RiP\">之前大瑜搞ai编程的思路是拿着锤子找钉子：研究大量的类似mcp、ai编程rules，其实用户转发的多，真正接收的很少！</p><p data-pid=\"tsfIDeHK\">现在我彻底明确了另一种模式：</p><p data-pid=\"TYkFZxNN\">先明确问题，再选择适合的工具；先出结果，再谈高级玩法。</p><p data-pid=\"gIhpthFu\">所以，转变模式很香！也快速能看到成果。</p><p data-pid=\"BTRd0-X6\">这就是我今年最想坚持的：<b>更快看到成果、更快跑通商业化。</b></p><p data-pid=\"VJwY0DJV\">如果你也想跟着我一起做项目、复盘、把“能做出来”变成“能赚到钱”，找到我吧。</p><a href=\"https://link.zhihu.com/?target=http%3A//www.dayulab.com/about\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"www.dayulab.com/about\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">www.dayulab.com/about</a><p></p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991964862662852638}",
+      "attached_info": "CsAICPf10cPNyJzt3wEQBBoJNzY0Mjk4MDk4ILj388oGKAAwAEA2SiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMTQ4NTkxNjJiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTkxOTY0ODYyNjYyODUyNjM4igETMTkwNDA4NzAwODIwNjM2OTEzNKoBCXJlY29tbWVuZMIBIDJlNjQ1NzQ5ZmMwOWEzNGFhY2I3NjYyZGFiOGI5N2U08gEKCAwSBk5vcm1hbPIBKAgKEiQxNmFiODVhZC03N2IzLTQwMTUtODA0My04ZTZjZTNiYmEyNznyAQYICxICMTCCAgCIAoS/kZu5M5ICIDJlNjQ1NzQ5ZmMwOWEzNGFhY2I3NjYyZGFiOGI5N2U0mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCBPoCC05PUk1BTF9GTE9XigMgZjBhZDBlMGI1NTMwNGI5N2I4MTAzNzNmZmQwMTkyYWGaAw0KAnYyEAAaBW90aGVyqAMK2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A+gCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAAQ5AoYjgciI3YyLWVjMmNhMzE4ZDdmMjI2OWRlYWFhOTk4ZWIzZjgzZDUwOi0IABDcBxjMASIjdjItZTFmY2RiZTBlMThhMGYwMDk1YjU2NGU5MTdmNmI4NDQ6LQgAEIwJGJoDIiN2Mi00NDQ2ZTcxZDIwM2E3MmRhMjRmMzYzMDlkZWVmYzUwMDotCAAQkAwYyAkiI3YyLTRlYTRhZWY4ZDkxNjg3MTM0MjgyNjg5Mzg5ZTVjYzcxOi0IABCCEhiCCSIjdjItNTg5YjY3NjEyY2E4ZWQ1NjM0Mzg2NThjNjBkMjIwZTY6LQgAELoJGLQDIiN2Mi01YTI1ZTY2MjY4OTRhOGY5ODg0YmM3NTUwOGJjZjc2YjotCAAQ8gsY4AUiI3YyLWRmMTMyYzRjMTkxNTYwMzQ4Y2IzZjlmZWI5Zjg4NjY0gAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgvcCJP4EFAAAAAAAAAACJBYzZEY/5/bE/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQqQBgCgBjeoBgGSAi4KCTc2NDI5ODA5OBITMTk5MTk2NDg2MjY2Mjg1MjYzOBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "55_1767704387.394",
+      "type": "feed",
+      "offset": 55,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704387,
+      "updated_time": 1767704387,
+      "target": {
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "content": "<p data-pid=\"PGrxvCbc\">准提咒10万，必有验相。大约十年前，我曾经念过10万准提咒（约7万全咒，3万咒心）全咒不含汉字的偈子。——因为说这些，必须如实，一五一十的说，尽自己所能，不含糊的说。为啥是3万咒心呢？因为念到后面，我开始烦躁了，没耐心了，快坚持不下去了，但是之前又说了要念10万，所以就用咒心了。总共大约是七八个月念完的。现在基本是每天功课结手印念7遍咒心。不想断了，虽然少，但能不断，也很好。重在坚持，一曝十寒不可取。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-05c5dca2df37e5617c78ac7135339f94_1440w.jpg\" data-rawwidth=\"1415\" data-rawheight=\"1322\" data-size=\"normal\" data-original-token=\"v2-2abf7f6ec2c1ba0b9d8743c389cd095c\" class=\"origin_image zh-lightbox-thumb\" width=\"1415\" data-original=\"https://pica.zhimg.com/v2-05c5dca2df37e5617c78ac7135339f94_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f643bb41846335b6abee95d64d774f15_1440w.jpg\" data-rawwidth=\"992\" data-rawheight=\"1484\" data-size=\"normal\" data-original-token=\"v2-7d5b77faf61e3785d7a5843709fb31bd\" class=\"origin_image zh-lightbox-thumb\" width=\"992\" data-original=\"https://picx.zhimg.com/v2-f643bb41846335b6abee95d64d774f15_r.jpg\"/></figure><p data-pid=\"8PQOczpY\">说起《准提咒》，是每日寺庙里的早课“十小咒”之一。也是明确提到的没有任何忌讳的正法，无论是在家还是出家，是否有饮酒吃肉或有妻子，只要至心持诵，都可以成就的咒。这是准提佛母特别怜悯末法众生业重福薄，慈悲众生度化一类众生的方便之法，并不是纵容饮酒、吃肉。对于上班族在家人来说，可谓是大方便。不用担心漱口刷牙洗脸洗手，随时可以诵，并且很短，容易记忆。</p><p data-pid=\"F4hvFngh\">佛言：此咒能灭十恶五逆一切罪障，成就一切白法功德。持此咒者，不问在家出家、饮酒食肉、有妻子，不拣净秽，但至心持诵，能使短命众生增寿无量。迦摩罗疾尚得除差，何况余病！若不消灭，无有是处。若诵满四十九日，准提菩萨令二圣者常随其人，所有善恶心之所念，皆于耳边一一具报。若有无福、无相、求官不遂、贫苦所逼者，常诵此咒，能令现世得轮王福，所求官位必得称遂若求智慧得大智慧，求男女者便得男女。凡有所求，无不称遂，似如意珠，一切随心。若依法诵满一百万遍，便得往诣十方净土，历事诸佛，普闻妙法，得证菩提。</p><h2>著名的《了凡四训》里，云谷禅师也是传授此法，给了凡居士。</h2><p data-pid=\"yP5ZMBFe\">框红的是念诵的部分，前面的诗句是我每天刚读第一遍的时候，会读一次。后面会加一字大轮咒——这个也是印祖说过，南师也说过的。加速成就的。所以每遍后面，我都会加，毕竟就3个字，效果还很大！</p><p data-pid=\"_MlM7QZn\">只要认真有质量的念诵，遍数到了，也就是功夫做到了，身心就好比做化学试验，自然而然会有梦境反应。但是，我们千万不能执着梦境，金刚经云：“凡所有相皆是虚妄”。不作圣解 名善境界。若作圣解 即受群邪。</p><p data-pid=\"mNPlRRjK\">另外劝想认真修的人，要选定功课，日日坚持，不要贪多。建议在家人一般定个30分钟的日课即可。多了恐怕坚持不下来。可以参照我的日课：<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyOTY2MTc2MA%3D%3D%26mid%3D2247488295%26idx%3D1%26sn%3D8ac251e3c928704d38dcab9e7422debb%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我为何选择这三个为净业功课？</a></p><h2>莫作菜鸟：因为高手一招练1000遍，菜鸟一天练1000招</h2><p data-pid=\"KII1v0SF\">梦境对照（建议10万遍起修）：</p><p data-pid=\"5Ghk-3ks\">(一)应化类。梦中见佛菩萨，而自吐黑物。此为业障消除之象征。全体法性发现，得与佛之应化身相感通也。</p><p data-pid=\"XnPrdkdS\">(二)光明类。梦见日光或月光，即业障初消，得露本性之一片净光。虽不能遽见应化身，亦庶几近之亦。</p><p data-pid=\"a88wh_8d\">(三)觉性类。梦浴于池中，或乘船渡海游湖等。此是觉性渐滋。现作水相浴身者，以觉水洗涤情垢也。游渡者，自在受用也。凡梦见水，略属此类。以后参究经教，得益甚大。</p><p data-pid=\"4crB-JSj\">(四)福报类。梦见诸天宫殿，或妙花，或与天女娱乐，或见人间国王。皆将来富贵实现之预兆也。</p><p data-pid=\"QlZ8Q8jg\">(五)上升类。梦己身飞行空中，是业障缠缚渐薄，此身得轻快也。亦有梦上高山或升树者，虽不能轻举，要亦上升之端。其或登狮子座，则将来登法王位之端倪也。</p><p data-pid=\"M4h4NqIV\">(六)离俗类。平日念头如趋重出家者，则梦剃头或见沙门。皆离尘脱俗之吉祥梦也。</p><p data-pid=\"jLB6E1B3\">(七)喜法类。或梦上人说法，或梦见居士以黄白衣蒙首，或睹菩提树。此则心喜佛法之象征也。</p><p data-pid=\"hVrKQf7A\">(八)法乳类。梦食酪饭啜乳粥，及饮甘露等。皆为得无上法味以为滋养料。诚吉祥梦之殊胜者。</p><p data-pid=\"XobVeyfz\">(九)归真类。童男童女者，天真烂漫、胸无机械之色相也。梦此者，乃得真言之力，渐除机巧之心，复现本来佛性也。</p><p data-pid=\"lmXGSoOH\">(十)除障类。梦与口吐火焰之黑大汉斗，胜之;或驯伏恶马水牛及其他黑兽。皆示业障不复能为予毒也。</p><h2>更多历史精华：</h2><p data-pid=\"Vgs-TF23\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyOTY2MTc2MA%3D%3D%26mid%3D2247484989%26idx%3D1%26sn%3D3d625d02fb997efca75de5890c9b97a9%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">亲历姑奶奶来自地狱的求救</a></p><p data-pid=\"FddWd19v\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyOTY2MTc2MA%3D%3D%26mid%3D2247487969%26idx%3D1%26sn%3Da77fe5ced9505e23948f02afdcbed58a%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的前公司同事变成了：鬼 道清洁工！</a></p><p data-pid=\"rc3yZZdJ\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyOTY2MTc2MA%3D%3D%26mid%3D2247490424%26idx%3D1%26sn%3D7692f5350b82fd79fb878c6eb992581d%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">【记】奶奶往生极乐一周年记</a><br/><br/><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyOTY2MTc2MA%3D%3D%26mid%3D2247486693%26idx%3D1%26sn%3D0edc3d138e2ac195ac95f018b3ee1c17%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">奇哉！《觉林菩萨偈》竟然有如此感应！</a><br/><br/><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzIyOTY2MTc2MA%3D%3D%26mid%3D2247486521%26idx%3D1%26sn%3D048cde111f6604df7508a65875896fab%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">梵文&amp;种子字&amp;宇宙文字</a></p>",
+        "is_labeled": false,
+        "visited_count": 1251,
+        "type": "answer",
+        "created_time": 1767681488,
+        "excerpt_new": "准提咒10万，必有验相。大约十年前，我曾经念过10万准提咒（约7万全咒，3万咒心）全咒不含汉字的偈子。——因为说这些，必须如实，一五一十的说，尽自己所能，不含糊的说。为啥是3万咒心呢？因为念到后面，我开始烦躁了，没耐心了，快坚持不下去了，但是之前又说了要念10万，所以就用咒心了。总共大约是七八个月念完的。现在基本是每天功课结手印念7遍咒心。不想断了，虽然少，但能不断，也很好。重在坚持，一曝十寒不可取。     说…",
+        "id": "1991881213498107313",
+        "thanks_count": 1,
+        "vote_next_step": "vote",
+        "author": {
+          "headline": "凡夫修极乐净土。真需咨询点付费，私信过多，其余回复全看心情。",
+          "is_followed": false,
+          "id": "6249f6908c0045f36ef4b538a7f51b98",
+          "url": "https://api.zhihu.com/people/6249f6908c0045f36ef4b538a7f51b98",
+          "user_type": "people",
+          "url_token": "19-31-28-9",
+          "name": "信愿西归子",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-e266be1d481260cda25a8ec3b4eb5331_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 989,
+          "is_following": false
+        },
+        "comment_count": 1,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-2abf7f6ec2c1ba0b9d8743c389cd095c_720w.jpg?source=b6762063",
+        "favorite_count": 56,
+        "preview_text": "",
+        "excerpt": "准提咒10万，必有验相。大约十年前，我曾经念过10万准提咒（约7万全咒，3万咒心）全咒不含汉字的偈子。——因为说这些，必须如实，一五一十的说，尽自己所能，不含糊的说。为啥是3万咒心呢？因为念到后面，我开始烦躁了，没耐心了，快坚持不下去了，但是之前又说了要念10万，所以就用咒心了。总共大约是七八个月念完的。现在基本是每天功课结手印念7遍咒心。不想断了，虽然少，但能不断，也很好。重在坚持，一曝十寒不可取。     说…",
+        "updated_time": 1767694593,
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "title": "大家如何看待《了凡四训》这本书?",
+          "answer_count": 0,
+          "comment_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "id": "619472501",
+          "author": {
+            "is_following": false,
+            "id": "1c2941868b0b51f402caace83a60c841",
+            "url": "https://api.zhihu.com/people/1c2941868b0b51f402caace83a60c841",
+            "user_type": "people",
+            "name": "自然",
+            "headline": "山高路远，看世界，也找自己!",
+            "is_org": false,
+            "followers_count": 330,
+            "url_token": "wen-dao-29-69",
+            "avatar_url": "https://picx.zhimg.com/50/v2-20f1e29fda69ae0b011e5c4724a88f0e_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_followed": false
+          },
+          "follower_count": 0,
+          "bound_topic_ids": [
+            1841,
+            82705,
+            133882,
+            198944
+          ],
+          "created": 1693187857,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/619472501",
+          "detail": ""
+        },
+        "preview_type": "default",
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1991881213498107313",
+        "voteup_count": 32,
+        "reshipment_settings": "allowed",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-2abf7f6ec2c1ba0b9d8743c389cd095c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-7d5b77faf61e3785d7a5843709fb31bd_720w.jpg?source=b6762063"
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991881213498107313}",
+      "attached_info": "CqEGCPf10cPNyJzt3wEQBBoJNzY0MjUyNDQxINDb8soGKCAwAUA3SjgKJ1RTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfUkVBRBIHNDczMTY1OBgAIAA6AFoIOTk5NDA2NzViIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTkxODgxMjEzNDk4MTA3MzEzigEJNjE5NDcyNTAxqgEJcmVjb21tZW5kwgEgNjI0OWY2OTA4YzAwNDVmMzZlZjRiNTM4YTdmNTFiOTjyAQoIDBIGTm9ybWFs8gEoCAoSJDUyZDMzZTNmLTA3ZmQtNDhjMS04NGFiLWU5ODY2M2NlNzEyZvIBBggLEgIxMIICAIgChL+Rm7kzkgIgNjI0OWY2OTA4YzAwNDVmMzZlZjRiNTM4YTdmNTFiOTiaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAidUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX1JFQUToAgP6AgtOT1JNQUxfRkxPV4oDIGYwYWQwZTBiNTUzMDRiOTdiODEwMzczZmZkMDE5MmFhmgMNCgJ2MhAAGgVvdGhlcqgD4wnYAwDqAxtmaXJzdERlZ3JlZVVzZXJSZWFkUmVjYWxsZXL6A30SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBCHCxiqCiIjdjItMmFiZjdmNmVjMmMxYmEwYjlkODc0M2MzODljZDA5NWM6LQgCEOAHGMwLIiN2Mi03ZDViNzdmYWY2MWUzNzg1ZDdhNTg0MzcwOWZiMzFiZIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoMlPjj+BBQAAAAAAAAAAiQWM2RGP+f2xP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUKkAYAoAY4qAYDkgIuCgk3NjQyNTI0NDESEzE5OTE4ODEyMTM0OTgxMDczMTMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "56_1767704387.141",
+      "type": "feed",
+      "offset": 56,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704387,
+      "updated_time": 1767704387,
+      "target": {
+        "question": {
+          "title": "房子跌了快一半了，还卖吗？",
+          "answer_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1725272474,
+          "question_type": "normal",
+          "bound_topic_ids": [
+            526,
+            1450,
+            1774,
+            92103,
+            3499
+          ],
+          "detail": "",
+          "id": "666012228",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/666012228",
+          "author": {
+            "id": "e45942d3ddf68b72195ea69022152626",
+            "url": "https://api.zhihu.com/people/e45942d3ddf68b72195ea69022152626",
+            "user_type": "people",
+            "url_token": "keith-51-34",
+            "headline": "喜欢聆听，分析问题",
+            "is_org": false,
+            "name": "三脚猫",
+            "avatar_url": "https://picx.zhimg.com/50/v2-c04ef020f056d3be13964246fd72ddbc_l.jpg?source=b6762063",
+            "gender": 1,
+            "followers_count": 1286,
+            "is_following": false,
+            "is_followed": false
+          },
+          "comment_count": 6,
+          "follower_count": 0,
+          "is_following": false
+        },
+        "preview_type": "default",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-33909d69bb1b7b7e60583563bc8bb43d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-966fd12487d7f02cd06c7e84325963ef_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 79,
+        "url": "https://api.zhihu.com/answers/1989552045850657836",
+        "updated_time": 1767414180,
+        "preview_text": "",
+        "visited_count": 54836,
+        "id": "1989552045850657836",
+        "excerpt_new": "重庆曾经的标志性豪宅，协信阿卡迪亚，开盘三千万的江山八栋，我曾经奋斗的目标，据说马云曾经买了一套了。这个很像朝鲜的豪宅，李春姬大同江边那个房子，而且这个还是山顶的视野极好的别墅。重庆人肯定很清楚这个价值，大坪旁边临江山区豪宅。   朝鲜李春姬的大同江别墅，重庆这个其实只要外立面改造一下就和朝鲜这个豪宅类似了，这可是平壤第一豪宅小区。   效果很不错，表面好像是大理石   最近我惊讶的发现我现在已经够得着了，好…",
+        "answer_type": "normal",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "voteup_count": 195,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "excerpt": "重庆曾经的标志性豪宅，协信阿卡迪亚，开盘三千万的江山八栋，我曾经奋斗的目标，据说马云曾经买了一套了。这个很像朝鲜的豪宅，李春姬大同江边那个房子，而且这个还是山顶的视野极好的别墅。重庆人肯定很清楚这个价值，大坪旁边临江山区豪宅。   朝鲜李春姬的大同江别墅，重庆这个其实只要外立面改造一下就和朝鲜这个豪宅类似了，这可是平壤第一豪宅小区。   效果很不错，表面好像是大理石   最近我惊讶的发现我现在已经够得着了，好…",
+        "is_copyable": true,
+        "content": "<p data-pid=\"uo3KN8Fx\">重庆曾经的标志性豪宅，协信阿卡迪亚，开盘三千万的江山八栋，我曾经奋斗的目标，据说马云曾经买了一套了。这个很像朝鲜的豪宅，李春姬大同江边那个房子，而且这个还是山顶的视野极好的别墅。重庆人肯定很清楚这个价值，大坪旁边临江山区豪宅。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e9849fa9f8ece3373bfa3a42b96cd0a2_1440w.jpg\" data-rawwidth=\"550\" data-rawheight=\"363\" data-size=\"normal\" data-original-token=\"v2-fbcc40fbb5c75b76de10abee64b03a5c\" class=\"origin_image zh-lightbox-thumb\" width=\"550\" data-original=\"https://pica.zhimg.com/v2-e9849fa9f8ece3373bfa3a42b96cd0a2_r.jpg\"/></figure><p data-pid=\"KSTpuitM\">朝鲜李春姬的大同江别墅，重庆这个其实只要外立面改造一下就和朝鲜这个豪宅类似了，这可是平壤第一豪宅小区。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ecf29fecc597c1d1d879a9b6334ba058_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-size=\"normal\" data-original-token=\"v2-396e14b443cee7383ca24c7c4f52c618\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-ecf29fecc597c1d1d879a9b6334ba058_r.jpg\"/></figure><p data-pid=\"3nVz0HHI\">效果很不错，表面好像是大理石</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e5c470e0eed47c4958c0770365f4900f_1440w.jpg\" data-rawwidth=\"600\" data-rawheight=\"397\" data-size=\"normal\" data-original-token=\"v2-b91cbd47f10329ef69b0317ce8640e8d\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-e5c470e0eed47c4958c0770365f4900f_r.jpg\"/></figure><p data-pid=\"ttTsOkyi\">最近我惊讶的发现我现在已经够得着了，好像一千万左右就能入手了(就像当年钱学森的苏联专家楼赵丹住的上海公寓一样都曾经豪宅现在都变成普通住宅了)，曾经的女神现在进了你家也可以上床了，一点都没感觉了，风景还是那个风景呢。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f4e9109c5507e9485c8a9c82219ad332_1440w.jpg\" data-rawwidth=\"400\" data-rawheight=\"300\" data-size=\"normal\" data-original-token=\"v2-da111f032d616ee1295bc1b7bcf3c1c1\" class=\"content_image\" width=\"400\"/></figure><p data-pid=\"-FsdkZYh\">这个江山八栋只有八栋别墅是属于绝世孤品，旁边那个江宇27峰是另外的，现在就三百万入手了。</p><p data-pid=\"Kqh6Kw7F\">我说这个是什么意思呢，就是已经跌这样了都还在很多人再卖，你难道比这些富人更懂市场行情不成。</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1990628903367239612\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"今天看来也还是不错的\" data-poster=\"https://pic1.zhimg.com/v2-cc15aaca24e33df3af30caaa7578e23a_720w.jpg?source=ccfced1a\" data-lens-id=\"1990628903367239612\"><img class=\"thumbnail\" src=\"https://pic1.zhimg.com/v2-cc15aaca24e33df3af30caaa7578e23a_720w.jpg?source=ccfced1a\"/><span class=\"content\"><span class=\"title\">今天看来也还是不错的<span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1990628903367239612</span></span></a><p data-pid=\"nVWzDAp1\">ps:香港人特别喜欢这种半山别墅，中环半山别墅都是几个亿那种，周星驰周润发金庸这些人都是这样的别墅住，这种可以一千万入手的，真的很划算，居住品质风景都很好。</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1990628971705017147\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"完全的上风上水\" data-poster=\"https://picx.zhimg.com/v2-d922421385cf5b866ee1a1ad1f323178_720w.jpg?source=ccfced1a\" data-lens-id=\"1990628971705017147\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-d922421385cf5b866ee1a1ad1f323178_720w.jpg?source=ccfced1a\"/><span class=\"content\"><span class=\"title\">完全的上风上水<span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1990628971705017147</span></span></a><p></p>",
+        "comment_count": 93,
+        "thumbnail": "https://picx.zhimg.com/50/v2-33909d69bb1b7b7e60583563bc8bb43d_720w.jpg?source=b6762063",
+        "created_time": 1767126171,
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "author": {
+          "user_type": "people",
+          "url_token": "fu-ying-93",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false,
+          "id": "9974229ddd7062649eecd28f680103fa",
+          "name": "huang liu",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/e07b744ceba58088aa9d287fc090e2c4_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 17788,
+          "url": "https://api.zhihu.com/people/9974229ddd7062649eecd28f680103fa"
+        },
+        "thanks_count": 12
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989552045850657836}",
+      "attached_info": "CtgHCPf10cPNyJzt3wEQBBoJNzYzMzg4Nzc5IJvp0MoGKMMBMF1AOEoxCiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMRIBMBgAIAA6AEorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifVoJMTEwMjgwNTgyYiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOWi8z9HGjc6I0BtyEzE5ODk1NTIwNDU4NTA2NTc4MzaKAQk2NjYwMTIyMjiqAQlyZWNvbW1lbmTCASA5OTc0MjI5ZGRkNzA2MjY0OWVlY2QyOGY2ODAxMDNmYfIBCggMEgZOb3JtYWzyASgIChIkMmQzNmNjZjMtNzkwOS00NjY1LTljZWYtZmU2ZDdiYmQ2NWVm8gEGCAsSAjEwggIAiAKEv5GbuTOSAiA5OTc0MjI5ZGRkNzA2MjY0OWVlY2QyOGY2ODAxMDNmYZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZdoCJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1Yx6AIC+gILTk9STUFMX0ZMT1eKAyBmMGFkMGUwYjU1MzA0Yjk3YjgxMDM3M2ZmZDAxOTJhYZoDDQoCdjIQABoFb3RoZXKoA7SsA9gDAOoDI2ZlZWQtdGV4dC1hbGxzaXRlLW9ubGluZS11Y2YtcmVjYWxs+gPbARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEKYEGOsCIiN2Mi1mYmNjNDBmYmI1Yzc1Yjc2ZGUxMGFiZWU2NGIwM2E1YzotCAMQuAgY4AQiI3YyLTM5NmUxNGI0NDNjZWU3MzgzY2EyNGM3YzRmNTJjNjE4Oi0IAxDYBBiNAyIjdjItYjkxY2JkNDdmMTAzMjllZjY5YjAzMTdjZTg2NDBlOGQ6LQgDEJADGKwCIiN2Mi1kYTExMWYwMzJkNjE2ZWUxMjk1YmMxYjdiY2YzYzFjMYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgPTnkT+BBQAAAAAAAAAAiQWM2RGP+f2xP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUKkAYAoAY5qAYAkgIuCgk3NjMzODg3NzkSEzE5ODk1NTIwNDU4NTA2NTc4MzYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "57_1767704387.652",
+      "type": "feed",
+      "offset": 57,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704387,
+      "updated_time": 1767704387,
+      "target": {
+        "is_labeled": false,
+        "is_navigator": false,
+        "comment_count": 1,
+        "is_copyable": false,
+        "question": {
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "id": "649010322",
+          "url": "https://api.zhihu.com/questions/649010322",
+          "author": {
+            "url": "https://api.zhihu.com/people/da300df2d55101c52433b5f3ba9247c9",
+            "name": "术小警",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-a87212c088d353f76d8b704262196aea_l.jpg?source=b6762063",
+            "gender": 0,
+            "followers_count": 42,
+            "is_following": false,
+            "id": "da300df2d55101c52433b5f3ba9247c9",
+            "user_type": "people",
+            "url_token": "68-70-69-26-83",
+            "is_org": false,
+            "is_followed": false
+          },
+          "detail": "",
+          "question_type": "normal",
+          "created": 1710712263,
+          "comment_count": 7,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "title": "为什么很多公司都不招大龄程序员？",
+          "bound_topic_ids": [
+            707,
+            1354
+          ]
+        },
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1987273458195914968",
+        "voteup_count": 6,
+        "thanks_count": 0,
+        "excerpt": "职场生存记：远离那些执拗到让人绝望的人职场中，我们总会遇到各种性格的人，有些人灵活、善于沟通，和他们合作顺畅高效；但也有一类人，极端固执，认定自己的方案天下无敌，谁说服都不听。与他们合作，轻则痛苦不堪，重则项目进展困难、停滞不前。 我自己也曾经亲身经历过这样一位极度固执的同事——当然，每个人都有自己的风格，只是就我的真实体验，分享一下与这类人的合作究竟会有多困难、到底为什么难合作，以及在职场中如…",
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "preview_type": "default",
+        "content": "<h2>职场生存记：远离那些执拗到让人绝望的人</h2><p data-pid=\"swYz8PRW\">职场中，我们总会遇到各种性格的人，有些人灵活、善于沟通，和他们合作顺畅高效；但也有一类人，极端固执，认定自己的方案天下无敌，谁说服都不听。与他们合作，轻则痛苦不堪，重则项目进展困难、停滞不前。</p><p data-pid=\"1gnzInk4\">我自己也曾经亲身经历过这样一位极度固执的同事——当然，每个人都有自己的风格，只是就我的真实体验，分享一下与这类人的合作究竟会有多困难、到底为什么难合作，以及在职场中如何识别并避免这种陷阱。</p><h3><b>一、认定自己方法“尽善尽美”，却从未真正实践过</b></h3><p data-pid=\"awR8pCvD\">之前我曾短暂和一位所谓的“资深工程师”合作过，他在做技术方案时极端自信，总喜欢挂在嘴边的一句话就是：</p><blockquote data-pid=\"Rlyw4OGO\"><i>“方案一定要规范和严谨，这些方案经过了XX轮深入调研！”</i></blockquote><p data-pid=\"h5zm8qt4\">然而，他所说的“深入调研”究竟是什么呢？无非就是不断从各类博客、CSDN、知乎问答、Gitee 和 GitHub 项目里拼拼凑凑，把各种看起来高大上的名词汇总到文档里，来支撑自己的观点。</p><p data-pid=\"enmfvJnS\">可是尴尬的是，这个人从来没真正动手写过一行代码，也没真正用数据分析验证过他的方案，完全停留在“<b>文档大师</b>”的层面。刚开始听他说话，或许你还会佩服一两天，觉得这个人研究得真细致。但时间一长，大家就会发现，这些调研根本不落地，毫无应用价值，纯属“纸上谈兵”。</p><h3><b>二、非专业人士，却喜欢瞎指挥专业人士</b></h3><p data-pid=\"Q79HrbOM\">更令人抓狂的是，这种固执的人往往喜欢<b>越俎代庖</b>，对专业领域指手画脚。我遇到的这位同事，既不是 AI 背景出身，也没做过数据分析的工作，也从未真正研究过机器学习算法，甚至连精确率和召回率等基础概念都没搞清楚，却偏偏总是要求我们的算法工程师必须使用“某某特定算法”，其他任何方案他都一律否决。</p><p data-pid=\"S41Gmxps\">我们的算法工程师本身经验丰富，尝试了大量实践验证的算法，都能稳定高效地实现业务需求。可每当提出方案时，这位“固执大哥”都要反复质疑：<br/></p><ul><li data-pid=\"cWaW59RP\">“你们这个算法是否具有先进性和高可用性？”</li><li data-pid=\"iD98c225\">“最新的 CSDN 博客说，这个算法 XX 公司已经弃用了！”</li><li data-pid=\"RiFyoqUf\">“某个知乎大 V 说，算法必须是 XXX 架构才行！”</li></ul><p data-pid=\"_AEjYDCB\">更让人无语的是，当你和他详细交流算法细节时，你才发现他连“过拟合”、“泛化能力”这样的基础术语都讲不清楚。他所谓的“坚持”，只是盲目地遵从网络上的只言片语，缺乏任何实践经验，却偏偏一口咬定自己才是对的。</p><h3><b>三、盲目追求“先进技术”，却忽略团队成本和效率</b></h3><p data-pid=\"OYiZRzC4\">同样，他也有另一个典型的执拗之处，那就是非要用一些奇怪的编程语言、技术框架来实现功能——只因为这些语言看起来“先进”、“新潮”、“未来导向”，却根本不顾团队真实的技术储备和学习成本。</p><p data-pid=\"y0JXVFr4\">比如，我们团队原本都是用 Java、Python、C++ 这样主流语言进行开发，可在这位固执同事看来，这些技术都太“普通”了。于是，他非要推广某些小众语言，甚至连听都没听过、社区也不成熟的语言作为项目标准。他给出的理由永远都是：</p><ul><li data-pid=\"-_yOboLm\">“这个语言社区虽然小，但代表未来趋势。”</li><li data-pid=\"q6iiwake\">“主流语言太普通了，用这个语言才能体现我们的技术先进性。”</li></ul><p data-pid=\"imw4RB0r\">但事实上，如果按照他的方案去执行，那么结果就是灾难性的：团队为了适应他所要求的语言和工具，将会耗费大量时间去学习新的技术；项目周期和交付时间大幅延长，原本简单的功能居然被折腾成了“技术难点”。</p><h3><b>四、不断重复造轮子，浪费巨大资源</b></h3><p data-pid=\"e_4jzi7k\">更奇葩的是，这类固执的人通常还热衷于<b>重复造轮子</b>。明明团队中已有其他成员花了大量精力开发了一套工具，并且已经在实际项目中投入使用了。他却非要坚持用自己喜欢的语言、框架、工具重新开发一套功能完全相同的东西。如果真正能够开发出来也算产出，但是他却长期停留在 PPT 上，甚至一两年都没有任何实质性的代码产出。</p><p data-pid=\"fYDiZWHL\">投入巨大资源，最后得到的东西无非是另一个重复的工具。而这个“新工具”并不会比原有工具好用，唯一的区别可能就是满足了他个人的“技术偏执”。最终导致的结果就是，公司投入了大量的人力成本、时间成本，换来的却是一堆毫无意义的重复性成果，以及团队内部的争吵、质疑与内耗。</p><h3><b>五、极端完美主义，却从未真正产出成果</b></h3><p data-pid=\"P77ZujXp\">这样的人，往往还非常的<b>完美主义</b>，动不动就开会讨论，甚至为了一个微不足道的细节可以开十几个会议。每次开会，他都会提交一堆厚厚的PPT、详尽的技术文档，看起来仿佛很有产出，但实际上却从未真正产生过任何落地成果。</p><ul><li data-pid=\"uJYuQapN\">在团队待了两年，调研了无数轮，依然停留在“讨论阶段”；</li><li data-pid=\"Z-VX2A42\">技术方案讨论来讨论去，但就是无法付诸实施；</li><li data-pid=\"9HSWU4wj\">团队成员每次都要花大量时间配合他开会，做出大量的文档，但最终看不到任何实质性成果。</li></ul><p data-pid=\"TD2b_iRB\">在他眼里，也许“会议纪要”、“技术文档”和“漂亮的PPT”就是最有价值的东西，但在真正的业务需求面前，这些产出可以说是毫无价值。<b>可悲的是，这类固执的人往往在领导眼里显得“很努力”、“很专业”，甚至他们的文档和会议纪要往往能获得领导赏识，甚至超过真正辛苦敲代码、解决实际问题的同事</b>。</p><p data-pid=\"npKlLPZr\">例如，使用几个 python 脚本实现的功能，就可以在他的眼里用 aspice 的标准实现几十个文档，并且这位“文档大师”还会要求同事们按要求完成所有文档。但在开发工期十分短的前提下，花费大量的时间撰写这些文档实在是没有必要，而且这些文档并不会提交给公司，只是提交到“文档大师”那里。文档的内容大概如下所示：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>文档名称</td><td>介绍</td><td>模块</td></tr><tr><td>软件需求规格说明（SRS）</td><td>明确说明功能脚本所实现的需求、输入输出条件、功能性和非功能性要求。</td><td>需求分析（SYS.2）</td></tr><tr><td>软件架构设计说明（SAD）</td><td>描述Python脚本的整体架构，包括模块划分、交互接口、关键算法和架构决策。</td><td>软件设计（SWE.2）</td></tr><tr><td>软件详细设计说明（SDD）</td><td>针对每个Python脚本具体功能模块进行更详细的设计说明，包括算法逻辑、数据结构、接口参数。</td><td>软件详细设计（SWE.3）</td></tr><tr><td>软件单元实现文档（源代码）</td><td>Python脚本的源代码，包含必要的注释、变量命名规范、函数规范和实现细节。</td><td>软件实现（SWE.3/SWE.4）</td></tr><tr><td>单元测试计划与报告（UTR）</td><td>记录Python脚本中各个模块的单元测试方案，包括测试用例、预期结果与实际测试结果对比。</td><td>软件单元测试（SWE.4）</td></tr><tr><td>集成测试计划与报告（ITR）</td><td>记录多个Python脚本之间的集成测试过程、测试用例、结果及问题修复情况。</td><td>软件集成测试（SWE.5）</td></tr><tr><td>系统测试计划与报告（STR）</td><td>针对整体功能进行系统测试，验证脚本是否整体满足需求，并记录测试情况和问题修复状态。</td><td>软件系统测试（SWE.6）</td></tr><tr><td>配置管理计划（CMP）</td><td>定义Python脚本源代码版本控制方案、分支管理策略、变更管理流程和代码发布方式。</td><td>配置管理（SUP.8）</td></tr><tr><td>变更管理记录（CR）</td><td>记录脚本功能变更的原因、决策过程、变更内容、影响分析及实施后的验证。</td><td>变更管理（SUP.10）</td></tr><tr><td>软件缺陷管理记录（DR）</td><td>跟踪Python脚本测试过程中发现的缺陷、缺陷的解决方案和验证情况。</td><td>问题管理（SUP.9）</td></tr><tr><td>软件质量保证计划（SQAP）</td><td>描述针对Python脚本实现功能的质量保证活动、审查机制及保证流程符合ASPICE要求。</td><td>质量保证（SUP.1）</td></tr><tr><td>风险管理计划（RMP）</td><td>针对Python脚本实现功能中可能出现的风险进行识别、分析、管理和缓解措施的描述。</td><td>风险管理（MAN.5）</td></tr><tr><td>用户手册（UM）</td><td>为Python脚本使用人员提供的操作指南，包括脚本功能、操作步骤、异常处理及注意事项。</td><td>软件使用支持（SUP.11）</td></tr><tr><td>软件维护计划（SMP）</td><td>定义Python脚本后续更新、维护、问题修复和升级迭代的计划和流程。</td><td>软件维护（SUP.12）</td></tr><tr><td>需求追踪矩阵（RTM）</td><td>明确Python脚本功能模块和需求之间的对应关系，确保需求覆盖和测试覆盖的全面性。</td><td>需求管理（SYS.2/SWE.1）</td></tr><tr><td>软件发布说明（RN）</td><td>每个版本发布的Python脚本的新功能、修改内容、已知问题和版本适用范围的说明。</td><td>软件发布（SWE.6/SUP.8）</td></tr><tr><td>项目状态报告（PSR）</td><td>定期记录和报告Python脚本开发的进度、资源消耗、问题解决状态和下一步计划。</td><td>项目管理（MAN.3）</td></tr><tr><td>审核检查单（Review Checklist）</td><td>针对Python脚本设计和代码的审查检查单，明确审查内容及问题点的记录和处理。</td><td>质量审查（SUP.1/SWE.3）</td></tr></tbody></table><p data-pid=\"b711EPXB\"><br/>于是，这种<b>“执拗+文档至上”</b>的人往往在职场中占据了一席之地，他们看似高产，其实却严重拖累了项目的效率和团队的健康发展。如果想要一个软件团队正常且健康的发展，这种只有文档产出的程序员是一定要踢出团队的。</p><h3><b>六、如何识别并避免和这样的人合作？</b></h3><p data-pid=\"UWuEDJLI\">那么，我们普通职场人该如何识别和避免这种过于固执、不尊重专业、不懂成本控制的人呢？以下几点建议可以作为参考：</p><ul><li data-pid=\"i5xEXZJf\"><b>提前考察沟通</b>：尽可能地提前与合作对象进行沟通，确认其真实的技术背景和实际工作经历，避免陷入无意义的争论和浪费中。</li><li data-pid=\"Tl2ZGQsR\"><b>适时提出反对意见</b>：勇敢表达你的看法，提前指出风险。如果对方仍固执己见，可以果断拒绝合作或要求上级介入。</li><li data-pid=\"3TfZC76n\"><b>保存记录，避免背锅</b>：在合作过程中，如果发现问题，务必保存证据，避免最终因为这种合作导致项目失败而背锅。</li><li data-pid=\"U8d8353w\"><b>寻求团队支持，避免个人对抗</b>：不要独自与固执的人对抗，而是寻求更多团队成员的支持，以更有效的方式让领导发现问题所在。</li></ul><h3><b>七、结语：道不同，不相为谋</b></h3><p data-pid=\"uE1D8zRw\">职场合作最重要的是效率和效果，而不是固执地坚持己见。面对那些执拗到让人绝望的人，有时候保持距离、不合作才是最好的方式。毕竟人生短暂，职场中的精力和热情更是有限，与其在无意义的执拗中浪费时间，不如将自己的才华和精力，放在真正能创造价值的地方。</p><p data-pid=\"qqudiju0\">道不同，不相为谋，愿职场的我们都能与那些真正值得合作的人并肩前行！<br/> </p>",
+        "visited_count": 857,
+        "favorite_count": 8,
+        "updated_time": 1766582914,
+        "excerpt_new": "职场生存记：远离那些执拗到让人绝望的人职场中，我们总会遇到各种性格的人，有些人灵活、善于沟通，和他们合作顺畅高效；但也有一类人，极端固执，认定自己的方案天下无敌，谁说服都不听。与他们合作，轻则痛苦不堪，重则项目进展困难、停滞不前。 我自己也曾经亲身经历过这样一位极度固执的同事——当然，每个人都有自己的风格，只是就我的真实体验，分享一下与这类人的合作究竟会有多困难、到底为什么难合作，以及在职场中如…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "id": "1987273458195914968",
+        "type": "answer",
+        "author": {
+          "name": "数学人生",
+          "headline": "庾信平生最萧瑟，暮年诗赋动江关。",
+          "gender": 1,
+          "is_following": false,
+          "id": "0cabf9a69e4e6a7775a57d48f1f68149",
+          "url": "https://api.zhihu.com/people/0cabf9a69e4e6a7775a57d48f1f68149",
+          "avatar_url": "https://picx.zhimg.com/50/132f5d0d10e0c5ad4079633336b33eb8_l.jpg?source=b6762063",
+          "is_org": false,
+          "badge": [
+            {
+              "topic_ids": [
+                1291,
+                2029,
+                2232,
+                89794
+              ],
+              "type": "best_answerer",
+              "description": "数学等 4 个话题下的优秀答主",
+              "topic_names": [
+                "数学",
+                "大学",
+                "科研",
+                "深度学习（Deep Learning）"
+              ]
+            },
+            {
+              "type": "identity_people",
+              "description": "新加坡国立大学 数学博士"
+            }
+          ],
+          "followers_count": 148544,
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "zr9558"
+        },
+        "created_time": 1766582914
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1987273458195914968}",
+      "attached_info": "CrQGCPf10cPNyJzt3wEQBBoJNzYyNTE2NzQ1IILVr8oGKAYwAUA5SjgKLVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX0NPTlRFTlRfVkFMVUVfTEVWRUxfQhIBMBgAIAA6AEooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTA2NTAyMTM5YiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXITMTk4NzI3MzQ1ODE5NTkxNDk2OIoBCTY0OTAxMDMyMqoBCXJlY29tbWVuZMIBIDBjYWJmOWE2OWU0ZTZhNzc3NWE1N2Q0OGYxZjY4MTQ58gEKCAwSBk5vcm1hbPIBKAgKEiQ4NTA3N2YxMi05NDAyLTQxNDItODk5ZS0zNGEyODgxZjQ0M2LyAQYICxICMTCCAgCIAoS/kZu5M5ICIDBjYWJmOWE2OWU0ZTZhNzc3NWE1N2Q0OGYxZjY4MTQ5mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9JTlRFUkVTVF9XT1JEX0NPTlRFTlRfVkFMVUVfTEVWRUxfQugCBPoCC05PUk1BTF9GTE9XigMgZjBhZDBlMGI1NTMwNGI5N2I4MTAzNzNmZmQwMTkyYWGaAw0KAnYyEAAaBW90aGVyqAPZBtgDAOoDKkludGVyZXN0V29yZENvbnRlbnRWYWx1ZUxldmVsQlBvb2xSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAB9/5U/gQUAAAAAAAAAAIkFjNkRj/n9sT+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCpAGAKAGOqgGAJICLgoJNzYyNTE2NzQ1EhMxOTg3MjczNDU4MTk1OTE0OTY4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "58_1767704387.331",
+      "type": "feed",
+      "offset": 58,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704387,
+      "updated_time": 1767704387,
+      "target": {
+        "type": "answer",
+        "preview_type": "default",
+        "is_labeled": false,
+        "visited_count": 489,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "thanks_count": 0,
+        "is_copyable": true,
+        "excerpt_new": "目前强大的技术栈： AI + Template 。一个集成了Saas基础功能的模板配上 vibe coding，直接左脚踏右脚，效率螺旋升天，真正做到一天上站，开始赚钱。国外技术栈： NextJS、TailWindCss、MongoDb、Stripe一条龙。国内技术栈： NextJS、TailWindCss、MongoDb、微信支付一条龙。在我看来，前端开发在做独立开发者这方面有天然的优势，独立开发最好做到 ServerLess，NextJS这种全栈框架完美符合这种需求，所以目前NextJS是独立开发者…",
+        "content": "<p data-pid=\"EYoaoxjL\">目前强大的技术栈： <b>AI + Template </b>。</p><p data-pid=\"RdKRTL1L\">一个集成了Saas基础功能的模板配上 <b>vibe coding</b>，直接左脚踏右脚，效率螺旋升天，真正做到一天上站，开始赚钱。</p><p data-pid=\"wCWwOnN9\">国外技术栈：</p><p data-pid=\"1zny8Nig\"><b>NextJS、TailWindCss、MongoDb、Stripe</b>一条龙。</p><p data-pid=\"hBoQpIT0\">国内技术栈：</p><p data-pid=\"VWckSqbH\"><b>NextJS、TailWindCss、MongoDb、微信支付</b>一条龙。</p><p data-pid=\"Tm88xLBe\">在我看来，前端开发在做独立开发者这方面有天然的优势，独立开发最好做到<b>ServerLess</b>，<b>NextJS</b>这种全栈框架完美符合这种需求，所以目前<b>NextJS</b>是独立开发者最好的选择。</p><p data-pid=\"MFzjLVk9\"><b>独立开发者做产品和上班做产品的性质不一样</b>。独立开发者的目的是让产品盈利，通过开发产品产生的收益可以养活自己。而上班则上完成工作，获得报酬。独立开发要<b>为自己的钱包负责</b>，做产品必须要<b>以赚钱为目的</b>。</p><p data-pid=\"sA4LYhWP\">我看过很多独立开发者，他们闷头搞开发，<b>一做就是几个月</b>，整的东西自我感觉很<b>高大上，什么微服务，微前端，什么超级无敌技术</b>，结果做完发现，<b>一个用户都没用</b>，然后就在抱怨用户不懂技术，不识货，说什么如果<b>听泉来了，肯定大开门</b>。这种开发者还是没有从上班的心态转换为独立开发的心态。</p><p data-pid=\"EUWcXKjj\"><b>找到市场，解决用户的痛点</b>，这是产品有用户的<b>必要条件</b>，而不是<b>伪需求</b>。哪怕是一个最简单的需求，比如上厕所没带纸，想要有人送纸，你做出来这样的送纸产品，也是解决需求。而不是上厕所没带纸，有人需要纸巾，你却给他送块纸皮，因为你觉得纸皮质量高，够硬，有技术。</p><p data-pid=\"U7E4Qotp\"><b>降低开发时间，快速试错，让用户验证你的想法</b>。独立开发等于独自创业，很多大牛都说过，你有一个想法，你要寻找buy你想法的人，有人buy了，你再开始做，buy的人多了，你就往深的去做，<b>让用户验证你的想法，如果这个想法根本没人buy，就快速放弃，切换下一个点子</b>。如果一个点子是能解决需求的，就算你没有产品，你只是开发一个提交表单的落地页，也会有用户付费。不要花几个月的时间去试错，你的想法其实只要一个落地页，就可以去验证。</p><p data-pid=\"xbDK7yQn\"><b>花时间在你核心业务上，时间也是成本</b>。你的产品MVP版本要控制在一个月完成，如果快的话，甚至可以做到一周上线MVP。把八成的时间放在你的主业务构建上，其他附加业务不要花太多时间。</p><p data-pid=\"SMtnT7jy\"><b>心态要放平，不要想着一飞冲天</b>。做独立开发一定要心态放平，不然很容易就会<b>崩溃，钱身两失</b>。很多大神能有现在的成就其实都不是一飞冲天，都是日积月累的，厚积薄发。产品没人用，可能是想法不对，没有解决需求，也有可能功能没有优化好，这是常态，放平心态，一步一步干。</p><p data-pid=\"85fg9giW\">其实独立开发应该是未来几年会越来越热的赛道，大环境原因不细说，我从今年5月份也开始自己的独立开发事业，我用5个月的时间完成了4款产品并且做到的盈利。</p><ul><li data-pid=\"xa96x9d4\"><b><a href=\"https://link.zhihu.com/?target=https%3A//www.mvpfast.top/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MvpFast</a></b> - <b>NextJS + AI</b>开发模板，模板自带<b>AI rules、 AI skills</b>，使用<b>NextJS、TailWindCss、MongoDb、微信支付</b>，集成了Saas网站的基础功能，包含<b>登录、鉴权、支付、文档、博客</b>等功能模块，<b>附带学习课程</b>，让你能一天就能构建自己的网站，赚取第一桶金。</li><li data-pid=\"zdENcjzB\"><b><a href=\"https://link.zhihu.com/?target=https%3A//www.logocook.shop/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">LogoCook</a></b> - 一款免费生成可爱LOGO的网站，只需要简单的属性操作，即可制作独属于你的可爱Logo，非常适合独立开发者制作自己的网站LOGO，完全免费。</li><li data-pid=\"uOwHY2NO\"><b><a href=\"https://link.zhihu.com/?target=https%3A//www.codebox.club/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">CodeBox - 二维码美化平台</a></b> - 专注于二维码的美化，可以免费制作专属的商标二维码，自带追踪功能，运营小伙伴的神器。</li><li data-pid=\"3Rd5em-J\"><b><a href=\"https://link.zhihu.com/?target=http%3A//qrtemplate.art/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Qr-template.art - AI二维码模板</a></b> - 用AI能快速的生成二维码模板，适合小摊贩、小商家的支付码美化</li></ul><p data-pid=\"ODoeNPYh\">上面的产品都是我通过自己的 MvpFast 模板构建的，Less is more，专注于核心业务的构建，其他附属的功能全部交给模板，一周之内就能快速上线整个Saas产品，最重要的快，试错。</p><p data-pid=\"70RMbmdo\"><b>独立开发算是程序员人群的最容易做到创业的赛道</b>，因为开发能力已经拥有了，想法点子也有，只要冲就完事。</p><p data-pid=\"RowJW4LS\">最后祝所有人都能找到适合自己的道路，过自己想要的生活，幸福，美满。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "url": "https://api.zhihu.com/answers/1988941286917563108",
+        "updated_time": 1766980569,
+        "comment_count": 0,
+        "question": {
+          "question_type": "normal",
+          "id": "1952757475691439013",
+          "url": "https://api.zhihu.com/questions/1952757475691439013",
+          "author": {
+            "is_org": false,
+            "id": "af65fd632c7065a02f2049c66771ea44",
+            "url": "https://api.zhihu.com/people/af65fd632c7065a02f2049c66771ea44",
+            "user_type": "people",
+            "name": "布德彪",
+            "followers_count": 5,
+            "is_following": false,
+            "is_followed": false,
+            "url_token": "long-hai-qiang-57",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-88698e893eb979a59165adb72431158f_l.jpg?source=b6762063",
+            "gender": 0
+          },
+          "created": 1758353662,
+          "answer_count": 0,
+          "excerpt": "",
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "type": "question",
+          "title": "独立开发者都使用了哪些技术?",
+          "comment_count": 0,
+          "bound_topic_ids": [
+            63390
+          ],
+          "is_following": false
+        },
+        "excerpt": "目前强大的技术栈： AI + Template 。一个集成了Saas基础功能的模板配上 vibe coding，直接左脚踏右脚，效率螺旋升天，真正做到一天上站，开始赚钱。国外技术栈： NextJS、TailWindCss、MongoDb、Stripe一条龙。国内技术栈： NextJS、TailWindCss、MongoDb、微信支付一条龙。在我看来，前端开发在做独立开发者这方面有天然的优势，独立开发最好做到 ServerLess，NextJS这种全栈框架完美符合这种需求，所以目前NextJS是独立开发者…",
+        "reshipment_settings": "allowed",
+        "favorite_count": 19,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "id": "1988941286917563108",
+        "author": {
+          "is_followed": false,
+          "id": "01580f5a099f58a7bc7da1e6f790d4f5",
+          "url_token": "prometheus-30-59",
+          "headline": "独立开发创业中，分享所有经验",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-a366ddc6491fc4f153bc18071f3681f1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 802,
+          "url": "https://api.zhihu.com/people/01580f5a099f58a7bc7da1e6f790d4f5",
+          "user_type": "people",
+          "name": "Kajian",
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "软件开发行业 从业人员"
+            }
+          ],
+          "is_following": false
+        },
+        "created_time": 1766980555,
+        "voteup_count": 5,
+        "preview_text": "",
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988941286917563108}",
+      "attached_info": "Co4GCPf10cPNyJzt3wEQBBoJNzYzMTM2MDA3IMv3x8oGKAUwAEA6SkAKF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREh9kb2NfdHlwZTogTWVtYmVyCmlkOiAxMzcxMzM0OTkKGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTY2NTY3NzJiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTg4OTQxMjg2OTE3NTYzMTA4igETMTk1Mjc1NzQ3NTY5MTQzOTAxM6oBCXJlY29tbWVuZMIBIDAxNTgwZjVhMDk5ZjU4YTdiYzdkYTFlNmY3OTBkNGY18gEKCAwSBk5vcm1hbPIBKAgKEiQzNDhjYzQ5Ni02YTlkLTRjNjItOWY0Yy0zZTBjMjBkNjg4MDDyAQYICxICMTCCAgCIAoS/kZu5M5ICIDAxNTgwZjVhMDk5ZjU4YTdiYzdkYTFlNmY3OTBkNGY1mgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAhdUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUegCA/oCC05PUk1BTF9GTE9XigMgZjBhZDBlMGI1NTMwNGI5N2I4MTAzNzNmZmQwMTkyYWGaAw0KAnYyEAAaBW90aGVyqAPpA9gDAOoDGWdjZktubkF1dGhvckhpZ2hQb3NSZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAem+JP4EFAAAAAAAAAACJBYzZEY/5/bE/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQqQBgCgBjuoBgGSAi4KCTc2MzEzNjAwNxITMTk4ODk0MTI4NjkxNzU2MzEwOBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "59_1767704387.864",
+      "type": "feed",
+      "offset": 59,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704387,
+      "updated_time": 1767704387,
+      "target": {
+        "updated_time": 1763793392,
+        "excerpt": "曾经高中物理必修一(现课本已经把这句话删除)",
+        "visited_count": 413166,
+        "url": "https://api.zhihu.com/answers/1975573355760464579",
+        "preview_type": "default",
+        "is_labeled": false,
+        "author": {
+          "url": "https://api.zhihu.com/people/3fda50a9e51edf770041f82fb025ff94",
+          "user_type": "people",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-3f2c3cafc057db1c4287440ae4205b59_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "id": "3fda50a9e51edf770041f82fb025ff94",
+          "name": "元气少女岳云鹏",
+          "followers_count": 619,
+          "is_followed": false,
+          "url_token": "91-10-14-7"
+        },
+        "favorite_count": 988,
+        "is_navigator": false,
+        "created_time": 1763793392,
+        "voteup_count": 7472,
+        "thanks_count": 286,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "content": "<p data-pid=\"8LQj0cS0\">曾经高中物理必修一(现课本已经把这句话删除)</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e6d1cc6336b5702cd25a852689ec88e0_1440w.jpg\" data-rawwidth=\"1944\" data-rawheight=\"862\" data-size=\"normal\" data-original-token=\"v2-e6d1cc6336b5702cd25a852689ec88e0\" class=\"origin_image zh-lightbox-thumb\" width=\"1944\" data-original=\"https://pic1.zhimg.com/v2-e6d1cc6336b5702cd25a852689ec88e0_r.jpg\"/></figure><p></p>",
+        "excerpt_new": "曾经高中物理必修一(现课本已经把这句话删除)",
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "comment_count": 666,
+        "answer_type": "normal",
+        "id": "1975573355760464579",
+        "question": {
+          "bound_topic_ids": [
+            62016,
+            362498,
+            2236275,
+            2576311
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "follower_count": 0,
+          "is_following": false,
+          "detail": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/15606224021",
+          "author": {
+            "url_token": "aaaazzzzmmmm",
+            "gender": 1,
+            "followers_count": 631,
+            "is_following": false,
+            "is_followed": false,
+            "id": "4c88c1cb240dabcadb47cbe05bee8204",
+            "user_type": "people",
+            "name": "aaaazzzzmmmm",
+            "headline": "杂学，一本正经胡说八道",
+            "avatar_url": "https://picx.zhimg.com/50/v2-a996cd1ed78ef5db4bf2a3e09855ded5_l.jpg?source=b6762063",
+            "is_org": false,
+            "url": "https://api.zhihu.com/people/4c88c1cb240dabcadb47cbe05bee8204"
+          },
+          "title": "我国古代很早就懂得用蒸汽蒸食物，为什么蒸汽机是西方发明出来的？",
+          "created": 1742714967,
+          "question_type": "normal",
+          "id": "15606224021",
+          "answer_count": 0,
+          "comment_count": 23
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-e6d1cc6336b5702cd25a852689ec88e0_720w.jpg?source=b6762063",
+        "reshipment_settings": "allowed",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-e6d1cc6336b5702cd25a852689ec88e0_720w.jpg?source=b6762063"
+        ],
+        "segment_infos": [
+          {
+            "pid": "8LQj0cS0",
+            "text": "曾经高中物理必修一(现课本已经把这句话删除)",
+            "marks": [
+              {
+                "start_index": 10,
+                "end_index": 22,
+                "seg_info": {
+                  "seg_ids": [
+                    "1986553273616991873"
+                  ],
+                  "is_like": false,
+                  "like_count": 85,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "is_copyable": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1975573355760464579}",
+      "attached_info": "CsMGCPf10cPNyJzt3wEQBBoJNzU3NzA0Njk1IPCzhckGKLA6MJoFQDtKNQogVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjISATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTQxMzAxODdiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTc1NTczMzU1NzYwNDY0NTc5igELMTU2MDYyMjQwMjGqAQlyZWNvbW1lbmTCASAzZmRhNTBhOWU1MWVkZjc3MDA0MWY4MmZiMDI1ZmY5NPIBCggMEgZOb3JtYWzyASgIChIkNjdiNzdmMjMtNDgyMi00ZGY0LWI1ODUtMDI3ZDVlMjU0OTJk8gEGCAsSAjEwggIAiAKEv5GbuTOSAiAzZmRhNTBhOWU1MWVkZjc3MDA0MWY4MmZiMDI1ZmY5NJoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyBmMGFkMGUwYjU1MzA0Yjk3YjgxMDM3M2ZmZDAxOTJhYZoDDQoCdjIQABoFb3RoZXKoA+6bGdgDAOoDFmZlZWRyZV9maXJzdF9zY3JlZW5fdjL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCYDxjeBiIjdjItZTZkMWNjNjMzNmI1NzAyY2QyNWE4NTI2ODllYzg4ZTCABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGCQt5c/gQUAAAAAAAAAAIkFjNkRj/n9sT+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCpAGAKAGPKgGAJICLgoJNzU3NzA0Njk1EhMxOTc1NTczMzU1NzYwNDY0NTc5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=59&desktop=true&end_offset=60&page_number=11&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=59&desktop=true&end_offset=60&page_number=11&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

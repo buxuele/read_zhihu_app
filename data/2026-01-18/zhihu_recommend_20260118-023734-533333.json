@@ -1,0 +1,961 @@
+{
+  "data": [
+    {
+      "id": "132_1768675059.533",
+      "type": "feed",
+      "offset": 132,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675059,
+      "updated_time": 1768675059,
+      "target": {
+        "question": {
+          "id": "1950775174807946792",
+          "follower_count": 0,
+          "is_following": false,
+          "question_type": "normal",
+          "type": "question",
+          "comment_count": 9,
+          "excerpt": "",
+          "author": {
+            "is_org": false,
+            "followers_count": 146,
+            "is_following": false,
+            "is_followed": false,
+            "id": "b5d4da2d02e60a6e015ece3e9b007481",
+            "name": "AT力场",
+            "url_token": "gong-cheng-xue-lian-jin-zhu-shi",
+            "headline": "无糖咖啡，无糖芬达",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-fdebfe72af8741046a7c192c77eb7693_l.jpg?source=b6762063",
+            "gender": -1,
+            "badge": [
+              {
+                "description": "里斯本大学学院 管理学博士",
+                "type": "identity_people"
+              }
+            ],
+            "url": "https://api.zhihu.com/people/b5d4da2d02e60a6e015ece3e9b007481",
+            "user_type": "people"
+          },
+          "created": 1757881045,
+          "answer_count": 0,
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/1950775174807946792",
+          "title": "如何评价贾国龙？",
+          "bound_topic_ids": [
+            12973,
+            711345,
+            765175
+          ],
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-54fba91f62e9cb0eb99db15182822924_720w.jpg?source=b6762063"
+        ],
+        "id": "1951246405462131566",
+        "created_time": 1757993395,
+        "is_copyable": true,
+        "comment_count": 838,
+        "thumbnail": "https://picx.zhimg.com/50/v2-54fba91f62e9cb0eb99db15182822924_720w.jpg?source=b6762063",
+        "segment_infos": [
+          {
+            "pid": "6FFMCHxA",
+            "text": "贾国龙距离我太远了，确实没机会接触，也不好评价。但是有幸见过他儿子，我觉得，可能有其父必有其子，贾国龙的处事可能可以从他儿子身上窥见一些。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1951842397098086450"
+                  ],
+                  "is_like": false,
+                  "like_count": 37,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "-76dt-wX",
+            "text": "听朋友描述，这个公子哥是西贝老板的儿子，自己的餐馆也是这类菜系，名字叫“壮壮烤羊肉”。",
+            "marks": [
+              {
+                "start_index": 32,
+                "end_index": 43,
+                "seg_info": {
+                  "seg_ids": [
+                    "1951842459291227076"
+                  ],
+                  "is_like": false,
+                  "like_count": 41,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "QUQWJE3U",
+            "text": "但是这个“壮壮烤羊肉”，简直就是羊肉分子料理，阴暗的环境、悠扬的音乐、一堆盘子超大分量超小贵得要死的漂亮饭。所以，它为什么要叫壮壮烤羊肉呢，他哪怕起一个Roast Lamb Leg这种名字，我都能够有一个最起码的心理预期，而不是进到店里被这个环境、这个价格、这个菜量三连暴击。",
+            "marks": [
+              {
+                "start_index": 23,
+                "end_index": 54,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995670328379217360"
+                  ],
+                  "is_like": false,
+                  "like_count": 18,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "w2jf_KO7",
+            "text": "结果这家店里名为“壮壮烤羊肉”的单品，竟然是……一杯酒！！",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996023378813940989"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "suGUVV1K",
+            "text": "（而且，看见旁边那个拌面了吗？也很抽象，名副其实的漂亮饭，里面居然拌了一堆花儿。我俩当时吃的时候一直噗噗噗地吐花儿，跟Bbox似的。）",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 67,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996045622009147773"
+                  ],
+                  "is_like": false,
+                  "like_count": 148,
+                  "comment_count": 5,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "juy1pm2S",
+            "text": "wow！amazing！真是一个惊喜。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996045666829497573"
+                  ],
+                  "is_like": false,
+                  "like_count": 14,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Np2nt1iJ",
+            "text": "这顿饭吃的挺无语，给我俩干沉默了，原本想加贾国龙儿子微信的朋友也实在是无语凝噎兴趣缺缺，后来这kpi没完成。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 54,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996023545852096525"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "1MvsZDr2",
+            "text": "尤其是有个糊糊，我靠那个糊糊！我吃了一口，就像九转大肠爷爷一样龇牙咧嘴。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 15,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992993445871100740"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Qk5WEJEY",
+            "text": "贾国龙公子满场乱串，非常开心，和大家相谈甚欢，大家都统统赞不绝口。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1959563151013029269"
+                  ],
+                  "is_like": false,
+                  "like_count": 4,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "LppQc7mi",
+            "text": "我的朋友真的被菜硬控住了，正冷却呢，实在夸不出口，但又不能驳了他面子，纠结了半天，憋了句：",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 45,
+                "seg_info": {
+                  "seg_ids": [
+                    "1959563013527938878"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bWqzX79G",
+            "text": "“可能我境界不够高吧，我没吃明白。”",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992993476011368626"
+                  ],
+                  "is_like": false,
+                  "like_count": 69,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "inPOF6r_",
+            "text": "后来这件事，我嘲笑了那朋友好几天，花那么贵的钱摁着自己脑袋吃了两回shi，连拉shi的人屁股都没摸到，你说你亏不亏。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 58,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995994036209746588"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "AyZGMiwY",
+            "text": "有童年滤镜，我理解，我在心里已经把这个跟豆汁划等号了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 27,
+                "seg_info": {
+                  "seg_ids": [
+                    "1954108114371600529"
+                  ],
+                  "is_like": false,
+                  "like_count": 9,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "preview_type": "default",
+        "content": "<p data-pid=\"6FFMCHxA\">贾国龙距离我太远了，确实没机会接触，也不好评价。但是有幸见过他儿子，我觉得，可能有其父必有其子，贾国龙的处事可能可以从他儿子身上窥见一些。</p><p data-pid=\"2VJBks5U\">我有一个做餐酒行业的朋友，老早之前她拉着我去吃饭见过一回张兰，张兰那个精神头十足左右逢源广结善缘（褒义），让我对她很圈粉。</p><p data-pid=\"ddCoiWx_\">后来这个朋友，又带我去贾国龙老板儿子的餐馆。</p><p data-pid=\"-76dt-wX\">听朋友描述，这个公子哥是西贝老板的儿子，自己的餐馆也是这类菜系，名字叫“壮壮烤羊肉”。</p><p data-pid=\"xHLnFyxP\">好接地气的名字，再加上朋友发我的照片，长得也很……朴实，再加上有点张兰的滤镜（生意人不管镜头前多mean生活中肯定广结善缘嘛），我原本以为这会是一个最起码表面看起来朴实诚恳努力创业的公子哥。</p><p data-pid=\"UXJySX79\">后来我俩就去了。</p><p data-pid=\"YZUQK_lL\">贾国龙的公子虽然长得和网上的照片一样，但是他连同他这个餐馆，可都太抽象了。</p><p data-pid=\"Pxd_dsCa\">首先，“壮壮烤羊肉”这个店名，给人的第一感觉是什么？</p><p data-pid=\"85TuYr1o\">大概是，大口吃肉的烤羊腿店，朴实的桌椅板凳，实惠的价格。</p><p data-pid=\"QUQWJE3U\">但是这个“壮壮烤羊肉”，简直就是羊肉分子料理，阴暗的环境、悠扬的音乐、一堆盘子超大分量超小贵得要死的漂亮饭。所以，它为什么要叫壮壮烤羊肉呢，他哪怕起一个Roast Lamb Leg这种名字，我都能够有一个最起码的心理预期，而不是进到店里被这个环境、这个价格、这个菜量三连暴击。</p><p data-pid=\"jbsrrUtX\">而且，最让我很不解的是，一般餐厅的同名菜，应该是文对题才对。</p><p data-pid=\"biu6VhVB\">同志们，如果你进了一家叫做“壮壮烤羊肉”的店，点了一到名为“壮壮烤羊肉”的菜。你会认为这道菜的内容是什么？</p><p data-pid=\"8bM7Ya2B\">热气腾腾的招牌烤羊肉，最起码，得是盘烤羊肉吧。</p><p data-pid=\"w2jf_KO7\">结果这家店里名为“壮壮烤羊肉”的单品，竟然是……一杯酒！！</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5aa55ba4bd1c9ed8ca740249f6855c2f_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1440\" data-size=\"normal\" data-original-token=\"v2-54fba91f62e9cb0eb99db15182822924\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-5aa55ba4bd1c9ed8ca740249f6855c2f_r.jpg\"/><figcaption>谁能想到，这个玩意叫壮壮烤羊肉</figcaption></figure><p data-pid=\"suGUVV1K\">（而且，看见旁边那个拌面了吗？也很抽象，名副其实的漂亮饭，里面居然拌了一堆花儿。我俩当时吃的时候一直噗噗噗地吐花儿，跟Bbox似的。）</p><p data-pid=\"7wvd0eiY\">我真的几乎都能想象到这富二代的小巧思了。</p><p data-pid=\"TG9xtePf\">一个有钱人，生活毫无波澜，进到了一家高档餐厅，点了一份“壮壮烤羊肉”，结果上来的是……一杯酒！！</p><p data-pid=\"juy1pm2S\">wow！amazing！真是一个惊喜。</p><p data-pid=\"ND4TWBxp\">但我，作为一个只想周末吃点好的一个可怜的社畜，在饥肠辘辘的晚上，我想点一份“壮壮烤羊肉”犒劳自己，结果，wow……</p><p data-pid=\"ea7WMsS-\">当时我和朋友悄悄说，哇靠，得亏刚才没有点一份“壮壮烤羊肉”和两碗米饭，不然这顿咋吃。</p><p data-pid=\"Np2nt1iJ\">这顿饭吃的挺无语，给我俩干沉默了，原本想加贾国龙儿子微信的朋友也实在是无语凝噎兴趣缺缺，后来这kpi没完成。</p><p data-pid=\"EiqrFjGc\">后来，“壮壮烤羊肉”终于改名叫“壮壮酒馆”（嚯，终于有人说服他不要再搞这种小巧思了），朋友被邀请去更名后的新餐厅试菜，她寻思这回说啥也得跟人家攀个关系，就去了。</p><p data-pid=\"Km9P0XmZ\">这次摘去了“烤羊肉”这个命题限制，菜更抽象了。</p><p data-pid=\"-4FVlr8x\">有那种塞进约克夏布丁里的烤肉，美其名曰烧麦。还有一份蛮奇怪的……生吃整个辣椒，和一道生吃的切块辣椒，我也不知道米其林为什么会吃这个。</p><p data-pid=\"1MvsZDr2\">尤其是有个糊糊，我靠那个糊糊！我吃了一口，就像九转大肠爷爷一样龇牙咧嘴。</p><p data-pid=\"Qk5WEJEY\">贾国龙公子满场乱串，非常开心，和大家相谈甚欢，大家都统统赞不绝口。</p><p data-pid=\"jqDGFklY\">而偏偏在我俩无语凝噎的时候，他转悠过来了，问我们菜品怎么样？</p><p data-pid=\"LppQc7mi\">我的朋友真的被菜硬控住了，正冷却呢，实在夸不出口，但又不能驳了他面子，纠结了半天，憋了句：</p><p data-pid=\"bWqzX79G\">“可能我境界不够高吧，我没吃明白。”</p><p data-pid=\"gbN2j8LU\">哈哈哈哈公子脸立刻就垮了扬长而去，和旁边的人夸夸而谈了。</p><p data-pid=\"inPOF6r_\">后来这件事，我嘲笑了那朋友好几天，花那么贵的钱摁着自己脑袋吃了两回shi，连拉shi的人屁股都没摸到，你说你亏不亏。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9kKeJ6ZK\">--</p><p data-pid=\"1EIaD2H2\">更新几个大家比较关注的问题：</p><p data-pid=\"m-7xkvLH\">花钱了没：</p><p data-pid=\"8CKwqLzb\">笑死，第一顿是花钱了，第二顿试菜会，我还以为没花钱呢，结果问了朋友，她说一个人888~</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kxXwq1S8\">为什么不夸两句：</p><p data-pid=\"J9ydZWA1\">真的被硬控了！真的！！</p><p data-pid=\"waxUNPxN\">最后有一个菜品，是一个糊糊。差点给我送走。我当时吃一口就不行了，正好他过来了。</p><p data-pid=\"hurp8uw8\">他当时真的很花蝴蝶的，找了团队跟拍他全程，招待一些美食家之类的。还有一个主持人。面对这么多照相机，我也不能当面吐出来。但真的，说“没吃明白”已经是当下的极限了。</p><p data-pid=\"FaMZChkV\">他说这个是内蒙他儿时的一个记忆，fine，好吧。</p><p data-pid=\"AyZGMiwY\">有童年滤镜，我理解，我在心里已经把这个跟豆汁划等号了。</p><p data-pid=\"Y6vuoptG\">但是有一道菜，真的还不错，有点像干煸肉干似的，很香。也怪他来的不是时候，如果他在我吃这道菜的时候来，那我们一定会夸两句。唉！</p>",
+        "visited_count": 873946,
+        "favorite_count": 1257,
+        "url": "https://api.zhihu.com/answers/1951246405462131566",
+        "author": {
+          "url": "https://api.zhihu.com/people/7a68f882a47795e2ade5e74c809683c9",
+          "user_type": "people",
+          "url_token": "zhang-xi-yu-5-32",
+          "name": "翠琯琯",
+          "is_org": false,
+          "id": "7a68f882a47795e2ade5e74c809683c9",
+          "avatar_url": "https://picx.zhimg.com/50/6ec6a5bc63600726fd7bb177017da5b6_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 2319,
+          "is_following": false,
+          "is_followed": false,
+          "headline": ""
+        },
+        "voteup_count": 7833,
+        "thanks_count": 580,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "updated_time": 1758026561,
+        "excerpt": "贾国龙距离我太远了，确实没机会接触，也不好评价。但是有幸见过他儿子，我觉得，可能有其父必有其子，贾国龙的处事可能可以从他儿子身上窥见一些。 我有一个做餐酒行业的朋友，老早之前她拉着我去吃饭见过一回张兰，张兰那个精神头十足左右逢源广结善缘（褒义），让我对她很圈粉。 后来这个朋友，又带我去贾国龙老板儿子的餐馆。 听朋友描述，这个公子哥是西贝老板的儿子，自己的餐馆也是这类菜系，名字叫“壮壮烤羊肉”。 好接…",
+        "excerpt_new": "贾国龙距离我太远了，确实没机会接触，也不好评价。但是有幸见过他儿子，我觉得，可能有其父必有其子，贾国龙的处事可能可以从他儿子身上窥见一些。 我有一个做餐酒行业的朋友，老早之前她拉着我去吃饭见过一回张兰，张兰那个精神头十足左右逢源广结善缘（褒义），让我对她很圈粉。 后来这个朋友，又带我去贾国龙老板儿子的餐馆。 听朋友描述，这个公子哥是西贝老板的儿子，自己的餐馆也是这类菜系，名字叫“壮壮烤羊肉”。 好接…",
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1951246405462131566}",
+      "attached_info": "CtsGCKTGi46nyM6WSRAEGgk3NDczMzEyMjIgs7OjxgYomT0wxgZAhAFKUAocVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMVElNRRIqaG90X3JlY2FsbF9yZWFsdGltZV90Om5vcm1hbDoyMDI2LTAxLTE3OjEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTY1ODkzODRiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTUxMjQ2NDA1NDYyMTMxNTY2igETMTk1MDc3NTE3NDgwNzk0Njc5MqoBCXJlY29tbWVuZMIBIDdhNjhmODgyYTQ3Nzk1ZTJhZGU1ZTc0YzgwOTY4M2M58gEKCAwSBk5vcm1hbPIBKAgKEiQzNjBkZGQ5ZS01MTYyLTQwZDktYjI3Zi03Yzg3ZDExYTczNGLyAQYICxICMjOCAgCIAubO/um8M5ICIDdhNjhmODgyYTQ3Nzk1ZTJhZGU1ZTc0YzgwOTY4M2M5mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIcVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMVElNRegCAvoCC05PUk1BTF9GTE9XigMgMTg0YTIyZWZiYjAyNGU5Mjg5ZGVhNjMzMTI3MzVhODiaAw0KAnYyEAAaBW90aGVyqAPaqzXYAwDqAx9ob3RDcm9zc1JlYWxUaW1lQ29udGVudFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgYoAsiI3YyLTU0ZmJhOTFmNjJlOWNiMGViOTlkYjE1MTgyODIyOTI0gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE1N8gEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4Pncrj+BBQAAAAAAAAAAiQW25gv1eEu0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUXkAYAoAaEAagGAZICLgoJNzQ3MzMxMjIyEhMxOTUxMjQ2NDA1NDYyMTMxNTY2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "133_1768675059.629",
+      "type": "feed",
+      "offset": 133,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675059,
+      "updated_time": 1768675059,
+      "target": {
+        "author": {
+          "url_token": "kai-xin-jiu-hao-81-85",
+          "name": "听风说梦",
+          "gender": -1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "41e5f4ea1a8c3534e97d86976e1a6384",
+          "url": "https://api.zhihu.com/people/41e5f4ea1a8c3534e97d86976e1a6384",
+          "user_type": "people",
+          "headline": "不工作会被饿死的！",
+          "avatar_url": "https://pica.zhimg.com/50/v2-62472663cb0c2ce645833d15b095d182_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 132
+        },
+        "is_copyable": false,
+        "preview_text": "",
+        "favorite_count": 15,
+        "id": "1995169210842764152",
+        "url": "https://api.zhihu.com/answers/1995169210842764152",
+        "updated_time": 1768465408,
+        "navigator_vote": false,
+        "comment_count": 0,
+        "thumbnail": "https://pica.zhimg.com/50/v2-0aa89ad34319eb140f1a76dadb640f39_720w.jpg?source=b6762063",
+        "content": "<p data-pid=\"RcdGhTeI\">刷了N遍《大明王朝1566》，每次看到严家倒台，我都忍不住摇头。</p><p data-pid=\"9keIMRj4\">严嵩和严世蕃这对父子，坐的一条船，怎么最后结局差那么多？</p><p data-pid=\"Fg99O5l3\">老头子八十多岁了，还能在破庙里多活几天。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0aa89ad34319eb140f1a76dadb640f39_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"696\" data-original-token=\"v2-0aa89ad34319eb140f1a76dadb640f39\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-0aa89ad34319eb140f1a76dadb640f39_r.jpg\"/></figure><p data-pid=\"yGqdNAkG\">他那个号称“小阁老”的儿子，正是年富力强的时候，咔嚓一下，脑袋就没了。</p><p data-pid=\"LO8RqnPe\">说白了，严世蕃跟他爹差的，不是脑子快不快，而是活命的真本事，是顶级政坛的生存格局。</p><p data-pid=\"bNaEwX50\">老严嵩这人，最可怕的地方，是他对自己，对皇帝，对整个朝廷，心里都看得透透的。</p><p data-pid=\"8W6wuKp8\">他很清楚，自己能一手遮天，不过是嘉靖皇帝养的一条狗。</p><p data-pid=\"4qIXO7Eh\">专门替皇帝捞钱，替皇帝扛雷，顺便咬咬那些不听话的。</p><p data-pid=\"VSWoikCX\">所以他嘴边上永远挂着“皇上圣明”。</p><p data-pid=\"697Ko4CT\">黑锅，他主动背。</p><p data-pid=\"Un_gltdu\">骂名，他自己担。</p><p data-pid=\"awWObdSm\">修道观的钱亏空了？</p><p data-pid=\"S4GBZkz5\">是臣没办好。</p><p data-pid=\"FTrl16Hz\">浙江闹出天大的乱子？</p><p data-pid=\"pkjynp9_\">千错万错都是老臣的错。</p><p data-pid=\"qqgfsLdd\">他把自己放得极低，低到泥里去。</p><p data-pid=\"GhH5K74j\">嘉靖用着才顺手，才放心。</p><p data-pid=\"_6s2C9k-\">那句“只有一个人可以呼风唤雨，那就是皇上，只有一个人可以遮风挡雨，那就是我”，就是他给自己最准的定位。</p><p data-pid=\"v7SABjER\">再看严世蕃。</p><p data-pid=\"bNICjqA7\">他从头到尾就没搞清楚自己是谁。</p><p data-pid=\"bRtEnOEM\">他真以为严家是跟皇帝“合伙开公司”，甚至把自己当成了大明朝的顶梁柱。</p><p data-pid=\"Q-YcFpMG\">这份狂妄，让他做事没半点敬畏。</p><p data-pid=\"rDhb7j62\">最要命的，就是在御前会议上，被人一逼问，就急吼吼的把嘉靖修宫殿的事给捅了出来。</p><p data-pid=\"JfgN4Hko\">这操作看似聪明，实际是把皇帝从幕后拖出来，跟自己一起站在台上挨骂。</p><p data-pid=\"XdRHeFBc\">嘉靖“不食人间烟火”的神仙人设，被他砸了个稀巴烂。</p><p data-pid=\"Gy03IW0B\">老严嵩是替皇上背锅。</p><p data-pid=\"rWyhv9FL\">小严嵩却总想着把锅甩给皇上。</p><p data-pid=\"i35SkeUI\">这中间差的，就是一条命。</p><p data-pid=\"POKRv7aj\">用人上，父子俩的水平更是差了十万八千里。</p><p data-pid=\"yMFnVQKT\">老严嵩用的是“人才”，小严嵩用的，多是“蠢材”和“酷吏”。</p><p data-pid=\"KcNEXhtw\">严嵩提拔胡宗宪，是看中了他真有本事，能稳住东南，能打倭寇。他知道胡宗宪这种人有底线，也念旧情，所以就算胡宗宪不完全听话，他也能忍。</p><p data-pid=\"tEMjh5M1\">甚至放话说，谁都可以倒严，你胡宗宪不能。</p><p data-pid=\"iqnHRCC_\">他心里门儿清，胡宗宪这样的国之干城，也是他严嵩在皇帝面前有用的“护身符”。</p><p data-pid=\"JKYrgj_a\">严世蕃呢？</p><p data-pid=\"4nAZpIFS\">他重用郑泌昌、何茂才，那是什么货色？</p><p data-pid=\"BkXN7beN\">俩人眼里只有钱，做事只想着捞，搞“改稻为桑”就知道硬上，最后弄出“毁堤淹田”这种绝户计。</p><p data-pid=\"WQDoC7YE\">他提拔高翰文，装模作样的送什么“笔墨纸砚”，结果呢？</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4bd8a8c6509ec1b25d62cf56e2a7702f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"696\" data-original-token=\"v2-4bd8a8c6509ec1b25d62cf56e2a7702f\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-4bd8a8c6509ec1b25d62cf56e2a7702f_r.jpg\"/></figure><p data-pid=\"eNX87yU1\">根本没看清高翰文就是个有理想没脑子的愣头青，一到浙江就被人玩得团团转，反倒坏了大事。</p><p data-pid=\"VakpF87t\">严世蕃用人，要么看谁够贪，够听话，要么就是附庸风雅，压根没看人的真本事。</p><p data-pid=\"4bAz5DXX\">所以他手底下的人一反水，他只会气急败坏的骂：</p><p data-pid=\"ruNB2-BX\">“狗日的，竟然反咬一口！”</p><p data-pid=\"JIu7TRHc\">却从来不想想，为什么自己身边净是些喂不熟的白眼狼。</p><p data-pid=\"ZDnfLQpH\">老严嵩那点心眼子，深不见底。</p><p data-pid=\"NvoaXW0Y\">他不止把嘉靖的心思摸透了，连对手都能拿来用。</p><p data-pid=\"5s4NJkvY\">开篇财政会，张居正刚提了个开源的法子，他就顺杆爬，把这事引到“改稻为桑”上。</p><p data-pid=\"l_y5xsPG\">这国策听着能讨皇帝欢心，具体干起来却全是坑。</p><p data-pid=\"Rr6CwuyE\">一下子就把那帮清流给架在了火上。</p><p data-pid=\"67fSJXFe\">为了大局，比如替胡宗宪借粮，他能拉下老脸去找政敌徐阶，又哄又吓。</p><p data-pid=\"RN6BMSme\">就算最后倒台，他还能借着给“六必居”题字这种小事，去勾嘉靖心里最后一丝旧情，保住了自己的命。</p><p data-pid=\"MJzL-Ca4\">这份忍耐和算计，已经到了骨子里。</p><p data-pid=\"XhZJ-0Dy\">严世蕃就纯粹是个炮仗，一点就炸。</p><p data-pid=\"ufYte9aH\">那点情绪全写在脸上。</p><p data-pid=\"_xlCJIKi\">在内阁门口就敢指着高拱、张居正的鼻子骂，大喊“搅吧，把大明朝亡了”。</p><p data-pid=\"DrAKZNXq\">因为吕芳被贬，就在内阁值房里撒泼打滚。</p><p data-pid=\"OPx_y7EI\">这种暴躁，在吃人不吐骨头的官场上，是催命符。</p><p data-pid=\"Gqpe9GsH\">他把对所有人的不满都明晃晃的亮出来，不止是给人递刀子，更是让嘉靖看见了他没有半点重臣该有的城府。</p><p data-pid=\"Pxdo2ccF\">一个连自己脾气都管不住的人，皇帝怎么可能放心把真正的权柄交给他？</p><p data-pid=\"OG4JRP_6\">看到最后，我总琢磨着，这父子俩，很可能就是一个唱白脸，一个唱红脸。</p><p data-pid=\"KhzcKvxB\">老严嵩负责掌总，维持着表面的团团和气，在嘉靖面前演那个“忠心为国”的老臣。</p><p data-pid=\"inVjUeKO\">严世蕃，就是那个冲在最前面的“疯狗”。</p><p data-pid=\"dGt3XXBQ\">专门去咬人，去撕破脸，去干所有脏活累活。</p><p data-pid=\"lQCh7yHv\">很多严嵩不方便说的话，不方便做的事，都由他儿子来。</p><p data-pid=\"igl8TnC5\">嘉靖对此，恐怕也一清二楚，甚至默许了这种存在。</p><p data-pid=\"YeN5mNJB\">留着这条疯狗，正好能震慑那帮文官。</p><p data-pid=\"98CuVl1Q\">但问题是，严世蕃入戏太深了。</p><p data-pid=\"9uvXdtDA\">他忘了唱红脸只是演戏，不能真把自己当成无法无天的主子。</p><p data-pid=\"BL3xsclp\">当他越来越放肆，甚至砸了嘉靖的底线——比如盐税分帐，自己拿两百万两，只给嘉靖一百万两，主仆的位子都颠倒了——他的死期就到了。</p><p data-pid=\"1BmJrnEf\">嘉靖能容忍严党贪，但绝不能容忍严党忘了谁才是主人。</p><p data-pid=\"ATCfY03s\">所以，严世蕃倒台，表面看是输在某件具体的事上，根子上，是输在了他的政治哲学。</p><p data-pid=\"UjBHTFxx\">他爹严嵩，一辈子精通的是“为臣之道”，是在皇权的夹缝里跳舞，在满足皇帝私欲和维持国家运转间找那个微妙的平衡点，所以能二十年不倒。</p><p data-pid=\"IYSxnZrk\">而严世蕃，空有“鬼才”的聪明和狠劲，却只学了权术的皮毛，没参透这权力游戏最顶层的规矩，说到底就是“侍君之道”。</p><p data-pid=\"U9PHTSGP\">他以为自己在下一盘大棋。</p><p data-pid=\"xpntZWnq\">殊不知自己从头到尾，都只是棋盘上一颗跳得太高，最后被下棋人亲手捏碎的棋子。</p><p data-pid=\"mQOdVA1A\">严嵩能活，是嘉靖对这个用了二十年，还算“懂事”的老工具，给的最后一分体面。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0995144c8433f704e167a10edb9d65ed_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1966\" data-rawheight=\"1080\" data-original-token=\"v2-0995144c8433f704e167a10edb9d65ed\" class=\"origin_image zh-lightbox-thumb\" width=\"1966\" data-original=\"https://pic4.zhimg.com/v2-0995144c8433f704e167a10edb9d65ed_r.jpg\"/></figure><p data-pid=\"CsMgCbek\">严世蕃被杀，则是嘉靖对一条开始想咬主子，又没用了的恶犬，必然的清理。</p><p data-pid=\"0DpDRldj\">这，就是格局和智慧的代价。</p>",
+        "voteup_count": 19,
+        "question": {
+          "created": 1536674682,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "bound_topic_ids": [
+            1497,
+            8412,
+            162815,
+            192212
+          ],
+          "is_following": false,
+          "id": "294268027",
+          "url": "https://api.zhihu.com/questions/294268027",
+          "author": {
+            "url_token": "jiang-wei-1",
+            "headline": "一个经常跑偏的法律人",
+            "avatar_url": "https://pica.zhimg.com/50/a705fa7c316920fc3b65755fa19477f7_l.jpg?source=b6762063",
+            "followers_count": 81043,
+            "is_followed": false,
+            "id": "c36d8fe3d8eaa5f35c1c4f5c501ee8c3",
+            "url": "https://api.zhihu.com/people/c36d8fe3d8eaa5f35c1c4f5c501ee8c3",
+            "user_type": "people",
+            "badge": [
+              {
+                "description": "复旦大学 法学理论博士",
+                "type": "identity_people"
+              }
+            ],
+            "is_following": false,
+            "name": "Karl Ernst",
+            "is_org": false,
+            "gender": 1
+          },
+          "title": "《大明王朝1566》中的严世蕃跟他爹严嵩比差在哪里？",
+          "answer_count": 0,
+          "detail": "",
+          "follower_count": 0,
+          "comment_count": 3,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "allow_segment_interaction": true,
+        "preview_type": "default",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-0aa89ad34319eb140f1a76dadb640f39_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4bd8a8c6509ec1b25d62cf56e2a7702f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0995144c8433f704e167a10edb9d65ed_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "reshipment_settings": "disallowed",
+        "is_labeled": false,
+        "is_navigator": false,
+        "excerpt": "刷了N遍《大明王朝1566》，每次看到严家倒台，我都忍不住摇头。 严嵩和严世蕃这对父子，坐的一条船，怎么最后结局差那么多？ 老头子八十多岁了，还能在破庙里多活几天。   他那个号称“小阁老”的儿子，正是年富力强的时候，咔嚓一下，脑袋就没了。 说白了，严世蕃跟他爹差的，不是脑子快不快，而是活命的真本事，是顶级政坛的生存格局。 老严嵩这人，最可怕的地方，是他对自己，对皇帝，对整个朝廷，心里都看得透透的。 他很清楚…",
+        "excerpt_new": "刷了N遍《大明王朝1566》，每次看到严家倒台，我都忍不住摇头。 严嵩和严世蕃这对父子，坐的一条船，怎么最后结局差那么多？ 老头子八十多岁了，还能在破庙里多活几天。   他那个号称“小阁老”的儿子，正是年富力强的时候，咔嚓一下，脑袋就没了。 说白了，严世蕃跟他爹差的，不是脑子快不快，而是活命的真本事，是顶级政坛的生存格局。 老严嵩这人，最可怕的地方，是他对自己，对皇帝，对整个朝廷，心里都看得透透的。 他很清楚…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 2170,
+        "answer_type": "normal",
+        "type": "answer",
+        "created_time": 1768465408,
+        "thanks_count": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995169210842764152}",
+      "attached_info": "CssGCKTGi46nyM6WSRAEGgk3NjU1NDA0NjYggMiiywYoEzAAQIUBSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9WggyNzY2OTk5MmIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTUxNjkyMTA4NDI3NjQxNTKKAQkyOTQyNjgwMjeqAQlyZWNvbW1lbmTCASA0MWU1ZjRlYTFhOGMzNTM0ZTk3ZDg2OTc2ZTFhNjM4NPIBCggMEgZOb3JtYWzyASgIChIkNGMwYjc0MTgtOGQ0NC00OTU1LTg0MTgtNzVhNjBlMzNiZTUz8gEGCAsSAjIzggIAiALmzv7pvDOSAiA0MWU1ZjRlYTFhOGMzNTM0ZTk3ZDg2OTc2ZTFhNjM4NJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAhNUU19TT1VSQ0VfRkVFRFJFX1Y16AID+gILTk9STUFMX0ZMT1eKAyAxODRhMjJlZmJiMDI0ZTkyODlkZWE2MzMxMjczNWE4OJoDDQoCdjIQABoFb3RoZXKoA/oQ2AMA6gMZZmVlZHJlV2FybVN1Y2Nlc3NSZWNhbGxlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxCAChi4BSIjdjItMGFhODlhZDM0MzE5ZWIxNDBmMWE3NmRhZGI2NDBmMzk6LQgDEIAKGLgFIiN2Mi00YmQ4YThjNjUwOWVjMWIyNWQ2MmNmNTZlMmE3NzAyZjotCAMQrg8YuAgiI3YyLTA5OTUxNDRjODQzM2Y3MDRlMTY3YTEwZWRiOWQ2NWVkgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADg3OaQP4EFAAAAAAAAAACJBbbmC/V4S7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBReQBgCgBoUBqAYDkgIuCgk3NjU1NDA0NjYSEzE5OTUxNjkyMTA4NDI3NjQxNTIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "134_1768675059.568",
+      "type": "feed",
+      "offset": 134,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675059,
+      "updated_time": 1768675059,
+      "target": {
+        "type": "answer",
+        "author": {
+          "name": "暖暖日光",
+          "headline": "围脖：乌及屋理学",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 11759,
+          "is_followed": false,
+          "id": "149044ae8c366e66787c95528d0694b4",
+          "url": "https://api.zhihu.com/people/149044ae8c366e66787c95528d0694b4",
+          "avatar_url": "https://picx.zhimg.com/50/v2-69135ac5f39d1c50cc3c8d1394221a06_l.jpg?source=b6762063",
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "xiao-tai-yang-87-81-10"
+        },
+        "preview_type": "default",
+        "visited_count": 105073,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-128307d91dac895baaf8b1f8acf60271_720w.jpg?source=b6762063",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "thanks_count": 11,
+        "reshipment_settings": "disallowed",
+        "created_time": 1766905457,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-128307d91dac895baaf8b1f8acf60271_720w.jpg?source=b6762063"
+        ],
+        "preview_text": "",
+        "answer_type": "normal",
+        "id": "1988626302656337373",
+        "is_copyable": false,
+        "content": "<p data-pid=\"ytGxk9VZ\">我查到的信息是，最初印度向纽交所买了1000吨白银，然后10月份，纽交所又向中国这边买了600吨货，导致中国白银存货告急。然后中国拿着现金去美国提白银，美国那边接单了，但到了交割日拿不出来那么多货，赔了钱，延期到3月份交割。</p><p data-pid=\"IvfijW0I\">我是纯新手，2021年那会主要研究八字，推导出黄金白银会涨，（知乎有发过，叫大家买实物黄金或者白银）于是持续买入黄金实物，后来买了几波纸黄金。但由于对金融知识一概不知，并不懂得如何提前在金融市场布局。于是今年开始恶补金融知识。</p><p data-pid=\"t1OFkd-j\">知道市场上假消息特别多，于是开始自己索引找信息。上面这个故事是抖音里看到有博主讲的，于是打开上交所官网查了10月份白银存货数据，现货确实少了600吨左右，时间跟数量对应上了。不了解白银存货波动规律，怕每个月都有这么大波动，于是查了1-11月数据波动，其他月份存货量波动都不大，唯独10月波动巨大。</p><p data-pid=\"IzcGbC5z\">也就是说印度提黄金引发的连锁事件应该是真的。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e08f3a4f99b56fa9c6e758eb013fab3c_1440w.jpg\" data-rawwidth=\"4284\" data-rawheight=\"5712\" data-size=\"normal\" data-original-token=\"v2-128307d91dac895baaf8b1f8acf60271\" class=\"origin_image zh-lightbox-thumb\" width=\"4284\" data-original=\"https://pic1.zhimg.com/v2-e08f3a4f99b56fa9c6e758eb013fab3c_r.jpg\"/></figure><p data-pid=\"MapN_UqZ\">现在想查查中国向美国提白银这事，能在哪里查到信息，或者侧面对照信息？请大神指教。</p><p data-pid=\"gr0yQGGA\">如果真的是延期到3月份交割，白银在这期间还有很大的上升空间，当然还要考虑到政策因素影响。</p><p data-pid=\"2JIEx5lA\">还有最近说中国2026年1月限制白银出口，我查了这个文件，2024年就有了，2026年是延用之前的文件，也被拿出来炒。</p><p data-pid=\"nXuCqYzu\">整体感觉获取的可信信息还是不够多，最怕媒体真假参半的讲。</p>",
+        "allow_segment_interaction": true,
+        "updated_time": 1766905610,
+        "voteup_count": 414,
+        "comment_count": 153,
+        "question": {
+          "type": "question",
+          "follower_count": 0,
+          "excerpt": "",
+          "detail": "",
+          "id": "1987143869268263741",
+          "comment_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/1987143869268263741",
+          "created": 1766552017,
+          "answer_count": 0,
+          "author": {
+            "is_org": false,
+            "name": "知己",
+            "headline": "人生就是无数个不得不的过程",
+            "avatar_url": "https://pica.zhimg.com/50/v2-ee2a4508dd79f2ae900a71391fbed02c_l.jpg?source=b6762063",
+            "url_token": "zhi-ji-69-50-30",
+            "gender": -1,
+            "followers_count": 3429,
+            "is_following": false,
+            "is_followed": false,
+            "id": "53d6120d854b49f0ae10f673f48c9450",
+            "url": "https://api.zhihu.com/people/53d6120d854b49f0ae10f673f48c9450",
+            "user_type": "people"
+          },
+          "title": "白银的价格会涨到什么高度？"
+        },
+        "excerpt": "我查到的信息是，最初印度向纽交所买了1000吨白银，然后10月份，纽交所又向中国这边买了600吨货，导致中国白银存货告急。然后中国拿着现金去美国提白银，美国那边接单了，但到了交割日拿不出来那么多货，赔了钱，延期到3月份交割。 我是纯新手，2021年那会主要研究八字，推导出黄金白银会涨，（知乎有发过，叫大家买实物黄金或者白银）于是持续买入黄金实物，后来买了几波纸黄金。但由于对金融知识一概不知，并不懂得如何提前在…",
+        "excerpt_new": "我查到的信息是，最初印度向纽交所买了1000吨白银，然后10月份，纽交所又向中国这边买了600吨货，导致中国白银存货告急。然后中国拿着现金去美国提白银，美国那边接单了，但到了交割日拿不出来那么多货，赔了钱，延期到3月份交割。 我是纯新手，2021年那会主要研究八字，推导出黄金白银会涨，（知乎有发过，叫大家买实物黄金或者白银）于是持续买入黄金实物，后来买了几波纸黄金。但由于对金融知识一概不知，并不懂得如何提前在…",
+        "url": "https://api.zhihu.com/answers/1988626302656337373",
+        "favorite_count": 284,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988626302656337373}",
+      "attached_info": "Cs8GCKTGi46nyM6WSRAEGgk3NjMwMjQwODIg8azDygYongMwmQFAhgFKMwoeVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTX1YzEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE3ODI1OTc4YiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk4ODYyNjMwMjY1NjMzNzM3M4oBEzE5ODcxNDM4NjkyNjgyNjM3NDGqAQlyZWNvbW1lbmTCASAxNDkwNDRhZThjMzY2ZTY2Nzg3Yzk1NTI4ZDA2OTRiNPIBCggMEgZOb3JtYWzyASgIChIkM2NmNmUxYWYtZGU5Yi00MzFlLThlNGYtNGQ2NWZjZGViODE38gEGCAsSAjIzggIAiALmzv7pvDOSAiAxNDkwNDRhZThjMzY2ZTY2Nzg3Yzk1NTI4ZDA2OTRiNJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHlRTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTU19WM+gCAvoCC05PUk1BTF9GTE9XigMgMTg0YTIyZWZiYjAyNGU5Mjg5ZGVhNjMzMTI3MzVhODiaAw0KAnYyEAAaBW90aGVyqAPxtAbYAwDqAxRmZWVkcmVfdGltZWxpbmVzc192M/oDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDELwhGNAsIiN2Mi0xMjgzMDdkOTFkYWM4OTViYWFmOGIxZjhhY2Y2MDI3MYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYJBQmj+BBQAAAAAAAAAAiQW25gv1eEu0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUXkAYAoAaGAagGAJICLgoJNzYzMDI0MDgyEhMxOTg4NjI2MzAyNjU2MzM3MzczGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "135_1768675059.533",
+      "type": "feed",
+      "offset": 135,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675059,
+      "updated_time": 1768675059,
+      "target": {
+        "type": "answer",
+        "is_copyable": true,
+        "question": {
+          "author": {
+            "url": "https://api.zhihu.com/people/b9840c983f4f7e7aedb10e6b0ad126fc",
+            "user_type": "people",
+            "url_token": "qiu-sheng-23-64",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-30fd59dc505e7275f2d955c2169a6195_l.jpg?source=b6762063",
+            "followers_count": 276,
+            "is_followed": false,
+            "id": "b9840c983f4f7e7aedb10e6b0ad126fc",
+            "name": "秋生",
+            "headline": "秋天见。",
+            "is_org": false,
+            "gender": 0,
+            "is_following": false
+          },
+          "title": "为什么有人一直喜欢 C 而不喜欢 C++？",
+          "comment_count": 9,
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "id": "563374432",
+          "url": "https://api.zhihu.com/questions/563374432",
+          "follower_count": 0,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            870,
+            3807,
+            11569
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "created": 1667046949,
+          "is_following": false
+        },
+        "favorite_count": 145,
+        "voteup_count": 187,
+        "vote_next_step": "vote",
+        "excerpt": "偶尔刷到一个视频, 喷了两小时全在点上. 很难想象这个语言是完全用屎糊的, 这一个remove就吊打所有语言了 v.erase(std::remove(v.begin(), v.end(), 3), v.end());此外还有不少天书写法. 命名空间   无论命名空间还是模块都有using功能, 为什么你c++不敢using? 不就是因为c++在命名空间冲突时 不报错, 而是自己挑个喜欢的吗? C#代码几乎一个命名空间不写,全部using, 很少冲突, 这是事实.因为微软这个聪明蛋长了脑子, 他知道用 静态类…",
+        "preview_type": "default",
+        "visited_count": 33232,
+        "answer_type": "normal",
+        "author": {
+          "id": "3b1bf91ea2b2997e27daf2e2a79b55cc",
+          "url": "https://api.zhihu.com/people/3b1bf91ea2b2997e27daf2e2a79b55cc",
+          "user_type": "people",
+          "headline": "",
+          "is_org": false,
+          "followers_count": 390,
+          "is_following": false,
+          "is_followed": false,
+          "url_token": "mu-tou-52-56-74",
+          "name": "木头",
+          "avatar_url": "https://pica.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "gender": -1
+        },
+        "thanks_count": 51,
+        "preview_text": "",
+        "content": "<p data-pid=\"2V8IgoKy\">偶尔刷到一个视频, 喷了两小时全在点上. 很难想象这个语言是完全用屎糊的,</p><p data-pid=\"xZAZR3mh\">这一个remove就吊打所有语言了</p><div class=\"highlight\"><pre><code class=\"language-cpp\"><span class=\"n\">v</span><span class=\"p\">.</span><span class=\"n\">erase</span><span class=\"p\">(</span><span class=\"n\">std</span><span class=\"o\">::</span><span class=\"n\">remove</span><span class=\"p\">(</span><span class=\"n\">v</span><span class=\"p\">.</span><span class=\"n\">begin</span><span class=\"p\">(),</span> <span class=\"n\">v</span><span class=\"p\">.</span><span class=\"n\">end</span><span class=\"p\">(),</span> <span class=\"mi\">3</span><span class=\"p\">),</span> <span class=\"n\">v</span><span class=\"p\">.</span><span class=\"n\">end</span><span class=\"p\">());</span>\n</code></pre></div><p data-pid=\"hNteNrWc\">此外还有不少天书写法.</p><h2>命名空间</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-af7cee1d1ea3faa8c71f77a669fcf284_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1588\" data-rawheight=\"893\" data-original-token=\"v2-f62efe37259df1fc880119f4d0885fd7\" class=\"origin_image zh-lightbox-thumb\" width=\"1588\" data-original=\"https://pic3.zhimg.com/v2-af7cee1d1ea3faa8c71f77a669fcf284_r.jpg\"/></figure><p data-pid=\"03WykQF1\">无论命名空间还是模块都有using功能, 为什么你c++不敢using?</p><p data-pid=\"uVJHDkQf\">不就是因为c++在命名空间冲突时<b>不报错</b>, 而是<b>自己挑个喜欢</b>的吗? C#代码几乎一个命名空间不写,全部using, 很少冲突, 这是事实.</p><p data-pid=\"4Ws3rh6v\">因为微软这个聪明蛋长了脑子, 他知道用<b>静态类</b>而非<b>命名空间</b>组织<b>静态函数</b>, </p><h3>缩写和简写</h3><p data-pid=\"LTT_ltrn\">c, c++, rust这三个出生就喜欢简写和缩写, 到处是天书. 代码没有自描述性, 要不断的去查文档或者悬浮提示. 非英语母语看那个悬浮提示并不流畅.</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3122c84838fd2aac458902db4fcd27f0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1339\" data-rawheight=\"700\" data-original-token=\"v2-6a2adee05bee2c0909ca9f2dc0dcf8da\" class=\"origin_image zh-lightbox-thumb\" width=\"1339\" data-original=\"https://pica.zhimg.com/v2-3122c84838fd2aac458902db4fcd27f0_r.jpg\"/></figure><h2>弱类型</h2><p data-pid=\"BrKz2gLz\">很多人不理解的是, c++其实是一个<b>静态弱类型</b>语言, 这表示c++虽然静态检查类型安全, 但是会自动进行类型转换, 尝试找到符合要求的调用.</p><p data-pid=\"k5pq-0Tz\">这里这个字符串<code>&#34;test&#34;</code>被隐式转换成<code>const char *</code>, 又隐式转换成<code>bool </code>.</p><p data-pid=\"QYoaxB0E\"> 没想到吧, c++的五六十种数字类型里, 也包括那几个<code>char</code>. </p><p data-pid=\"7y5skQiw\">(<code>long long, long double, least16, uint16_t, char</code>这一系列)</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8bc4a6931709b0399f8ece40dc46fda8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1310\" data-rawheight=\"1117\" data-original-token=\"v2-9441ac40ea105feb63211eb2ddfa0251\" class=\"origin_image zh-lightbox-thumb\" width=\"1310\" data-original=\"https://pica.zhimg.com/v2-8bc4a6931709b0399f8ece40dc46fda8_r.jpg\"/></figure><h3>函数调用点.</h3><p data-pid=\"IXueJGkj\">传一个值进去, 函数自己决定要什么. 在高级语言里(没错, 我认为c和c++是两坨低能语言), 调用点和函数, 都必须使用相同的<code>mut i32&amp;mut value</code>, 表示一个可变变量, 该可变变量存储了一个可变引用. </p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a326b3d57d6b19df4dd6f89451e0e4ce_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1005\" data-rawheight=\"353\" data-original-token=\"v2-b7a365b83af75dd8caa461332add1676\" class=\"origin_image zh-lightbox-thumb\" width=\"1005\" data-original=\"https://pic3.zhimg.com/v2-a326b3d57d6b19df4dd6f89451e0e4ce_r.jpg\"/></figure><h2>出生运算符重载</h2><h3>除法和加法混淆</h3><p data-pid=\"vBxj8tuc\">除法运算符表现的含义是路径链接, 这应该用加法运算符做.</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-181470a3a8f65e8eb0224b4e73d31998_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1190\" data-rawheight=\"100\" data-original-token=\"v2-181470a3a8f65e8eb0224b4e73d31998\" class=\"origin_image zh-lightbox-thumb\" width=\"1190\" data-original=\"https://pic1.zhimg.com/v2-181470a3a8f65e8eb0224b4e73d31998_r.jpg\"/></figure><h3>破坏语言基础功能</h3><p data-pid=\"TBK5qYKK\">还有这个, 引用是重要程度极高的运算符, 它和语言功能密切相关, 仅次于访问符<code>::</code>和<code>.</code>了, 那几个脑子被驴踢了敢允许重载<code>&amp;</code> </p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a7d06d97d9f21596c753e7bda2eaf5dd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1341\" data-rawheight=\"285\" data-original-token=\"v2-415a37f11e7669c783a33203645d343e\" class=\"origin_image zh-lightbox-thumb\" width=\"1341\" data-original=\"https://picx.zhimg.com/v2-a7d06d97d9f21596c753e7bda2eaf5dd_r.jpg\"/></figure><p data-pid=\"om8AAluM\">运算符同样的也没有<b>自描述性</b>, 你可以支持二元中缀函数简写, 但你绝不能重载运算符.</p><h3>重载<code>,</code> </h3><p data-pid=\"IK6gqxxA\">这个简直不死老冯想不出来</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-684e28f507bda61ddeab3876845b3d24_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"998\" data-rawheight=\"204\" data-original-token=\"v2-4a4d259b02e75bf4487c323d06e1a968\" class=\"origin_image zh-lightbox-thumb\" width=\"998\" data-original=\"https://pic1.zhimg.com/v2-684e28f507bda61ddeab3876845b3d24_r.jpg\"/></figure><p data-pid=\"k8cLH4Ru\"> 你以为</p><div class=\"highlight\"><pre><code class=\"language-cpp\"><span class=\"n\">foo</span><span class=\"p\">(</span><span class=\"n\">a</span><span class=\"p\">,</span> <span class=\"n\">b</span><span class=\"p\">,</span> <span class=\"n\">c</span><span class=\"p\">);</span>\n</code></pre></div><p data-pid=\"kHoDJv2U\">调用的是</p><div class=\"highlight\"><pre><code class=\"language-cpp\"><span class=\"kt\">void</span> <span class=\"nf\">foo</span><span class=\"p\">(</span><span class=\"kt\">int</span> <span class=\"n\">a</span><span class=\"p\">,</span> <span class=\"kt\">int</span> <span class=\"n\">b</span><span class=\"p\">,</span> <span class=\"kt\">int</span> <span class=\"n\">c</span><span class=\"p\">);</span>\n</code></pre></div><p data-pid=\"CXLk7ISo\">实际上它调用了</p><div class=\"highlight\"><pre><code class=\"language-cpp\"><span class=\"kt\">void</span> <span class=\"nf\">foo</span><span class=\"p\">(</span><span class=\"kt\">int</span> <span class=\"n\">abc</span><span class=\"p\">);</span>\n</code></pre></div><p></p><p></p><p></p>",
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1995043957948817657",
+        "comment_count": 54,
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-f62efe37259df1fc880119f4d0885fd7_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-6a2adee05bee2c0909ca9f2dc0dcf8da_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9441ac40ea105feb63211eb2ddfa0251_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "created_time": 1768435545,
+        "updated_time": 1768489450,
+        "thumbnail": "https://pica.zhimg.com/50/v2-f62efe37259df1fc880119f4d0885fd7_720w.jpg?source=b6762063",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "id": "1995043957948817657",
+        "excerpt_new": "偶尔刷到一个视频, 喷了两小时全在点上. 很难想象这个语言是完全用屎糊的, 这一个remove就吊打所有语言了 v.erase(std::remove(v.begin(), v.end(), 3), v.end());此外还有不少天书写法. 命名空间   无论命名空间还是模块都有using功能, 为什么你c++不敢using? 不就是因为c++在命名空间冲突时 不报错, 而是自己挑个喜欢的吗? C#代码几乎一个命名空间不写,全部using, 很少冲突, 这是事实.因为微软这个聪明蛋长了脑子, 他知道用 静态类…",
+        "segment_infos": [
+          {
+            "pid": "uVJHDkQf",
+            "text": "不就是因为c++在命名空间冲突时不报错, 而是自己挑个喜欢的吗? C#代码几乎一个命名空间不写,全部using, 很少冲突, 这是事实.",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995861850529751515"
+                  ],
+                  "is_like": false,
+                  "like_count": 16,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "LTT_ltrn",
+            "text": "c, c++, rust这三个出生就喜欢简写和缩写, 到处是天书. 代码没有自描述性, 要不断的去查文档或者悬浮提示. 非英语母语看那个悬浮提示并不流畅.",
+            "marks": [
+              {
+                "start_index": 12,
+                "end_index": 17,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995598134034833810"
+                  ],
+                  "is_like": false,
+                  "like_count": 17,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "vBxj8tuc",
+            "text": "除法运算符表现的含义是路径链接, 这应该用加法运算符做.",
+            "marks": [
+              {
+                "start_index": 1,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995566302035744559"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "TBK5qYKK",
+            "text": "还有这个, 引用是重要程度极高的运算符, 它和语言功能密切相关, 仅次于访问符::和.了, 那几个脑子被驴踢了敢允许重载& ",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 61,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995610613238490856"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "IK6gqxxA",
+            "text": "这个简直不死老冯想不出来",
+            "marks": [
+              {
+                "start_index": 4,
+                "end_index": 12,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995644426375169614"
+                  ],
+                  "is_like": false,
+                  "like_count": 10,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995043957948817657}",
+      "attached_info": "CpQICKTGi46nyM6WSRAEGgk3NjU0NjM0NjUg2d6gywYouwEwNkCHAUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIODc0NzY2NzBiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk1MDQzOTU3OTQ4ODE3NjU3igEJNTYzMzc0NDMyqgEJcmVjb21tZW5kwgEgM2IxYmY5MWVhMmIyOTk3ZTI3ZGFmMmUyYTc5YjU1Y2PyAQoIDBIGTm9ybWFs8gEoCAoSJGM5OTA0ZDdhLTJkMmYtNDVlOS1iZjIxLTMzYjNkMmYzNzczMfIBBggLEgIyM4ICAIgC587+6bwzkgIgM2IxYmY5MWVhMmIyOTk3ZTI3ZGFmMmUyYTc5YjU1Y2OaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDE4NGEyMmVmYmIwMjRlOTI4OWRlYTYzMzEyNzM1YTg4mgMNCgJ2MhAAGgVvdGhlcqgD0IMC2AMA+gPnAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELQMGP0GIiN2Mi1mNjJlZmUzNzI1OWRmMWZjODgwMTE5ZjRkMDg4NWZkNzotCAIQuwoYvAUiI3YyLTZhMmFkZWUwNWJlZTJjMDkwOWNhOWYyZGMwZGNmOGRhOi0IAhCeChjdCCIjdjItOTQ0MWFjNDBlYTEwNWZlYjYzMjExZWIyZGRmYTAyNTE6LQgCEO0HGOECIiN2Mi1iN2EzNjViODNhZjc1ZGQ4Y2FhNDYxMzMyYWRkMTY3NjosCAMQpgkYZCIjdjItMTgxNDcwYTNhOGY2NWU4ZWIwMjI0YjRlNzNkMzE5OTg6LQgCEL0KGJ0CIiN2Mi00MTVhMzdmMTFlNzY2OWM3ODNhMzMyMDM2NDVkMzQzZTotCAMQ5gcYzAEiI3YyLTRhNGQyNTliMDJlNzViZjQ0ODdjMzIzZDA2ZTFhOTY4gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAP6mKP4EFAAAAAAAAAACJBbbmC/V4S7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBReQBgCgBocBqAYAkgIuCgk3NjU0NjM0NjUSEzE5OTUwNDM5NTc5NDg4MTc2NTcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "136_1768675059.496",
+      "type": "feed",
+      "offset": 136,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675059,
+      "updated_time": 1768675059,
+      "target": {
+        "author": {
+          "user_type": "people",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-ce8820abe680496aec13059b5eef295c_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "cb6f6e9082b3d9ce30946e76fa953ef7",
+          "url_token": "sir-5-30-18",
+          "name": "公子漫读",
+          "headline": "起早、跑步、阅读及写作，四件套！！",
+          "is_org": false,
+          "followers_count": 24,
+          "url": "https://api.zhihu.com/people/cb6f6e9082b3d9ce30946e76fa953ef7"
+        },
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "id": "1995914887638040706",
+        "comment_count": 0,
+        "question": {
+          "url": "https://api.zhihu.com/questions/479030444",
+          "author": {
+            "avatar_url": "https://pica.zhimg.com/50/v2-251272b37b3664d18d64f89ef3b4ff71_l.jpg?source=b6762063",
+            "gender": -1,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/df53bec31dd61365747f0c84f126dad1",
+            "url_token": "wei-wei-57-94-75",
+            "name": "伟伟",
+            "headline": "",
+            "is_followed": false,
+            "id": "df53bec31dd61365747f0c84f126dad1",
+            "user_type": "people",
+            "is_org": false,
+            "followers_count": 0
+          },
+          "title": "要做一个思维导图，但不知道怎么做？",
+          "type": "question",
+          "created": 1628677172,
+          "excerpt": "",
+          "detail": "",
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "id": "479030444",
+          "bound_topic_ids": [
+            5431,
+            10768,
+            25528
+          ],
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-3b7cc00b947589d5657dd73e1b730865_720w.jpg?source=b6762063",
+        "excerpt_new": "画思维导图有很多版式，但想突出核心主题的关键就是 抓准一个核心思想，梳理清楚层级逻辑，毫不犹豫的砍掉所有冗余内容！ 第一种情况：如果咱以前从来没有画过这玩意：1、主题：只写1 个关键词 / 短句/书中最触动自己的一个观点，然后放在中心位置，字体 / 颜色跟后面的分支尽量区分开，一眼能抓到。 比如现在正在讲《刻意练习》，中心词只能是 “刻意练习的核心逻辑”，不能同时加 “高效学习技巧”“作者成长经历” 这类并列的…",
+        "vote_next_step": "vote",
+        "created_time": 1768643191,
+        "preview_text": "",
+        "is_labeled": false,
+        "visited_count": 6,
+        "favorite_count": 0,
+        "url": "https://api.zhihu.com/answers/1995914887638040706",
+        "voteup_count": 0,
+        "preview_type": "default",
+        "thanks_count": 0,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "updated_time": 1768643191,
+        "content": "<p data-pid=\"9lIAHUDq\">画思维导图有很多版式，但想突出核心主题的关键就是<b>抓准一个核心思想，梳理清楚层级逻辑，毫不犹豫的砍掉所有冗余内容！</b></p><p data-pid=\"mA3Se28U\"><b>第一种情况：如果咱以前从来没有画过这玩意：</b></p><p data-pid=\"sktxzEot\">1、主题：只写1 个关键词 / 短句/书中最触动自己的一个观点，然后放在中心位置，字体 / 颜色跟后面的分支尽量区分开，一眼能抓到。</p><p data-pid=\"-9ecOTjR\">比如现在正在讲《刻意练习》，中心词只能是 “刻意练习的核心逻辑”，不能同时加 “高效学习技巧”“作者成长经历” 这类并列的中心词！</p><p data-pid=\"MG2tmP3a\">分支只留直接关联主题的内容，无关的要舍得全删掉，一级分支别超 3-5 个，多了就合并；比如刻意练习，就做4个一级分支：精准定位目标、极其专注地投入训练、及时有效反馈、处于拉伸区，而像建立心理表征、动机则单独作为专注投入和反馈的下一级分支。</p><p data-pid=\"f61IMRpM\">2、有些案例，可以适当用图像、数字代替，它们比纯文字更好记忆（如果画画水平不错的话）。记忆推荐：图像＞精简的文字＞数字，比如关于“目标”，我们就画个小靶子代替，这部分不画也没事 怎么好记怎么来！</p><p data-pid=\"NHVjgD92\">3、每层分支都扣着上一级走，千万别跑偏！包括书中有很多案例，也只挑 1 -2个（一正一反或者明显对比的）紧贴子分支，不把案例堆成主分支，咱的主题始终是核心。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6663a6c772fcb1a5e28474ff3282ff70_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2752\" data-rawheight=\"1450\" data-original-token=\"v2-3b7cc00b947589d5657dd73e1b730865\" class=\"origin_image zh-lightbox-thumb\" width=\"2752\" data-original=\"https://pic1.zhimg.com/v2-6663a6c772fcb1a5e28474ff3282ff70_r.jpg\"/></figure><p data-pid=\"oiW-Vaq4\"><b>第二种情况，如果咱之前有过画图的经验，还想更好，可能要做的是取舍，抓“主次”和“关联</b>”，重点到底啥的选择，关联则是考虑想让听的人如何记住的核心观点，那其他所有内容要么为解释它、要么告诉别人怎么用它。</p><p data-pid=\"E1sOKqYi\">也可以试试强化视觉表现方面的调整，比如用彩色笔、加粗加大重点内容，就像我们做PPT ，重点都给标出来，该亮的就要亮！</p><p data-pid=\"IG03ofpH\">大家有拆过《高效能人士的七个习惯》不？一般会习惯拆中心主题：七个习惯，然后7个分支，那试试另外一个方式会不会更好？</p><p data-pid=\"A6Z-UWlI\">中心主题： 高效能的核心是以终为始的七个习惯，然后主分支只用3个，分别是：核心逻辑（以终为始）、七大习惯实操、落地避坑，</p><p data-pid=\"MS6sDc5b\">这样把七个习惯归为1个主分支，而不是我们习惯地拆成7个主分支，这样防止按照这个结构讲完，听的人抓不住核心，主题始终围绕我们开始定下的：以终为始的高效能逻辑。</p>",
+        "type": "answer",
+        "is_copyable": true,
+        "excerpt": "画思维导图有很多版式，但想突出核心主题的关键就是 抓准一个核心思想，梳理清楚层级逻辑，毫不犹豫的砍掉所有冗余内容！ 第一种情况：如果咱以前从来没有画过这玩意：1、主题：只写1 个关键词 / 短句/书中最触动自己的一个观点，然后放在中心位置，字体 / 颜色跟后面的分支尽量区分开，一眼能抓到。 比如现在正在讲《刻意练习》，中心词只能是 “刻意练习的核心逻辑”，不能同时加 “高效学习技巧”“作者成长经历” 这类并列的…",
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-3b7cc00b947589d5657dd73e1b730865_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995914887638040706}",
+      "attached_info": "Cq0GCKTGi46nyM6WSRAEGgk3NjU4MjIxODYg97StywYoADAAQIgBSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBaCDY4NzMyMzk5YiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NTkxNDg4NzYzODA0MDcwNooBCTQ3OTAzMDQ0NKoBCXJlY29tbWVuZMIBIGNiNmY2ZTkwODJiM2Q5Y2UzMDk0NmU3NmZhOTUzZWY38gEKCAwSBk5vcm1hbPIBKAgKEiQ4ZmM5MzBiNS01YzYxLTQ1ZTktYThjOC1hNzU0YjI2YjgwMDHyAQYICxICMjOCAgCIAufO/um8M5ICIGNiNmY2ZTkwODJiM2Q5Y2UzMDk0NmU3NmZhOTUzZWY3mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDHoAgP6AgtOT1JNQUxfRkxPV4oDIDE4NGEyMmVmYmIwMjRlOTI4OWRlYTYzMzEyNzM1YTg4mgMNCgJ2MhAAGgVvdGhlcqgDBtgDAOoDIHdhcm11cFR3b1Rvd2VyVGV4dE5vcm1hbFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQwBUYqgsiI3YyLTNiN2NjMDBiOTQ3NTg5ZDU2NTdkZDczZTFiNzMwODY1gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAg/IxwP4EFAAAAAAAAAACJBbbmC/V4S7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBReQBgCgBogBqAYBkgIuCgk3NjU4MjIxODYSEzE5OTU5MTQ4ODc2MzgwNDA3MDYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "137_1768675059.818",
+      "type": "feed",
+      "offset": 137,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675059,
+      "updated_time": 1768675059,
+      "target": {
+        "type": "answer",
+        "comment_count": 67,
+        "preview_text": "",
+        "content": "<p data-pid=\"m0lcmt_B\">刷香火服笑料的时候突然想起了一个很缺德的点子，于是就搜过来回答了。</p><p data-pid=\"pifvegP2\">不过这个回答与问题关系不大，纯粹是我觉得有意思。</p><h2>入赘很丢脸如果是因为孩子不和你姓的话，那为什么你不跟我姓呢？这样孩子也跟你姓了。</h2>",
+        "visited_count": 6158,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "id": "1989275623210890802",
+        "created_time": 1767060267,
+        "updated_time": 1767060267,
+        "excerpt_new": "刷香火服笑料的时候突然想起了一个很缺德的点子，于是就搜过来回答了。 不过这个回答与问题关系不大，纯粹是我觉得有意思。 入赘很丢脸如果是因为孩子不和你姓的话，那为什么你不跟我姓呢？这样孩子也跟你姓了。",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1989275623210890802",
+        "excerpt": "刷香火服笑料的时候突然想起了一个很缺德的点子，于是就搜过来回答了。 不过这个回答与问题关系不大，纯粹是我觉得有意思。 入赘很丢脸如果是因为孩子不和你姓的话，那为什么你不跟我姓呢？这样孩子也跟你姓了。",
+        "preview_type": "default",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "question": {
+          "title": "为什么入赘是丢人而嫁人却不是呢？两个性质明明一样，为什么人们对此的看法却不同?",
+          "excerpt": "",
+          "detail": "",
+          "author": {
+            "url": "https://api.zhihu.com/people/83436c928d669fee7899e9e1c9cc640d",
+            "headline": "",
+            "followers_count": 4,
+            "is_following": false,
+            "is_followed": false,
+            "is_org": false,
+            "gender": -1,
+            "id": "83436c928d669fee7899e9e1c9cc640d",
+            "user_type": "people",
+            "url_token": "qi-chen-yu-xue",
+            "name": "澜郁",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063"
+          },
+          "follower_count": 0,
+          "comment_count": 20,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/613972537",
+          "created": 1690296930,
+          "answer_count": 0,
+          "id": "613972537",
+          "bound_topic_ids": [
+            960,
+            982,
+            10060,
+            167650
+          ],
+          "is_following": false,
+          "question_type": "normal"
+        },
+        "voteup_count": 139,
+        "thanks_count": 6,
+        "is_copyable": false,
+        "reshipment_settings": "disallowed",
+        "favorite_count": 4,
+        "author": {
+          "avatar_url": "https://picx.zhimg.com/50/v2-f419dc6b23b0ed6109a106f59b9142b9_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 754,
+          "id": "c6f98478a2cb3a33d83b17b198850d38",
+          "user_type": "people",
+          "name": "zqc-少年意气",
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": " 中南大学 材料科学与工程博士在读"
+            }
+          ],
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/c6f98478a2cb3a33d83b17b198850d38",
+          "url_token": "san-qian-zhu-cui-yong-chen-you",
+          "headline": "材料专业的。玻璃心五毛，有数据尽量做数据党。为啥关注我我害怕"
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989275623210890802}",
+      "attached_info": "Cs0FCKTGi46nyM6WSRAEGgk3NjMyNjY1OTAgq+bMygYoiwEwQ0CJAUooCh1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9NRVJHRRIBMBgAIAA6AFoIOTg3MTg2NDRiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTg5Mjc1NjIzMjEwODkwODAyigEJNjEzOTcyNTM3qgEJcmVjb21tZW5kwgEgYzZmOTg0NzhhMmNiM2EzM2Q4M2IxN2IxOTg4NTBkMzjyAQoIDBIGTm9ybWFs8gEoCAoSJGE1ZmQxZTFjLTY3YmUtNDc2MS1iN2Y2LWQzNTk0MmZkNTI4M/IBBggLEgIyM4ICAIgC587+6bwzkgIgYzZmOTg0NzhhMmNiM2EzM2Q4M2IxN2IxOTg4NTBkMziaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAh1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9NRVJHRegCAvoCC05PUk1BTF9GTE9XigMgMTg0YTIyZWZiYjAyNGU5Mjg5ZGVhNjMzMTI3MzVhODiaAw0KAnYyEAAaBW90aGVyqAOOMNgDAOoDIkludGVyZXN0V29yZE1lcmdlVjFOZXdQb29sUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgJzaGP4EFAAAAAAAAAACJBbbmC/V4S7Q/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBReQBgCgBokBqAYAkgIuCgk3NjMyNjY1OTASEzE5ODkyNzU2MjMyMTA4OTA4MDIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=137&desktop=true&end_offset=137&page_number=24&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=137&desktop=true&end_offset=137&page_number=24&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

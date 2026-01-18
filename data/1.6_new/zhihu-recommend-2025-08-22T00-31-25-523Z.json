@@ -1,0 +1,541 @@
+{
+  "data": [
+    {
+      "id": "450_1755822731.411",
+      "type": "feed",
+      "offset": 450,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822731,
+      "updated_time": 1755822731,
+      "target": {
+        "id": "32205487",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/32205487",
+        "author": {
+          "id": "3d64d66dd23d43365c280aba98a1dd3f",
+          "url": "https://api.zhihu.com/people/3d64d66dd23d43365c280aba98a1dd3f",
+          "user_type": "people",
+          "url_token": "pezy",
+          "name": "pezy",
+          "headline": "人生没有意义, 但很有意思.",
+          "avatar_url": "https://picx.zhimg.com/50/4668004a6843c7a8ad54814a8ba49991_l.png?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 7005,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1413864795,
+        "updated_time": 1413866006,
+        "voteup_count": 659,
+        "thanks_count": 298,
+        "comment_count": 14,
+        "is_copyable": false,
+        "question": {
+          "id": "26013368",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/26013368",
+          "author": {
+            "id": "e051ff1c45f352a922ae5b38578bc73e",
+            "url": "https://api.zhihu.com/people/e051ff1c45f352a922ae5b38578bc73e",
+            "user_type": "people",
+            "url_token": "yayayaya",
+            "name": "yaya yaya",
+            "headline": "。。。",
+            "avatar_url": "https://pic1.zhimg.com/50/b85086579bf9e2b968a31442b3560ad0_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 7,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "初学QT，课本看不下去啊，请问前辈们知道网上有什么教学视频讲得比较通俗易懂的吗？",
+          "created": 1413194736,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            2542
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "入门： 1. C++GUI Qt4编程 (豆瓣) 2. 《Qt 学习之路 2》目录 ----- 进阶： 1. Qt Examples And Tutorials (全部跑一遍) 2. Qt5 Cadaques | 中文版 3. 1+1=2的 blog 文章索引 (看具体问题如何解决) 4. Qt_一去丶二三里 (看如何DIV界面) 5. QTCN开发网 (看看别人如何写Qt) ---- 深入： 1. Qt - Qt by Digia (看源码) 2. Qt by Digia (看各种开源代码) 3. Highest Voted 'qt' Questions (从高票往低票看)",
+        "excerpt_new": "入门： 1. C++GUI Qt4编程 (豆瓣) 2. 《Qt 学习之路 2》目录 ----- 进阶： 1. Qt Examples And Tutorials (全部跑一遍) 2. Qt5 Cadaques | 中文版 3. 1+1=2的 blog 文章索引 (看具体问题如何解决) 4. Qt_一去丶二三里 (看如何DIV界面) 5. QTCN开发网 (看看别人如何写Qt) ---- 深入： 1. Qt - Qt by Digia (看源码) 2. Qt by Digia (看各种开源代码) 3. Highest Voted 'qt' Questions (从高票往低票看)",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "need_payment",
+        "content": "<p data-pid=\"knACv2Pt\">入门：</p><p data-pid=\"In4jGeGk\">1.  </p><a href=\"https://link.zhihu.com/?target=http%3A//book.douban.com/subject/3173123/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">C++GUI Qt4编程 (豆瓣)</a><p data-pid=\"RZrqXbXA\">2. </p><a href=\"https://link.zhihu.com/?target=http%3A//www.devbean.net/2012/08/qt-study-road-2-catelog/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《Qt 学习之路 2》目录</a><br/><br/><p data-pid=\"z5wvixD1\">-----</p><p data-pid=\"-D7Uo9nm\">进阶：</p><p data-pid=\"ZbvAAtkb\">1. </p><a href=\"https://link.zhihu.com/?target=http%3A//qt-project.org/doc/qt-5/qtexamplesandtutorials.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Qt Examples And Tutorials</a><p data-pid=\"pjdtfk5j\"> (全部跑一遍)</p><p data-pid=\"TWcV68CW\">2. </p><a href=\"https://link.zhihu.com/?target=http%3A//qmlbook.org/%23\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Qt5 Cadaques</a><p data-pid=\"UxEVUlcV\"> | </p><a href=\"https://link.zhihu.com/?target=http%3A//cwc1987.gitbooks.io/qt5cadaquesinchinese/content/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">中文版</a><p data-pid=\"ndKkcsO_\">3. </p><a href=\"https://link.zhihu.com/?target=http%3A//blog.csdn.net/dbzhang800/article/details/6300789\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1+1=2的 blog 文章索引</a><p data-pid=\"VyFEH51E\"> (看具体问题如何解决)</p><p data-pid=\"0tU6OllR\">4. </p><a href=\"https://link.zhihu.com/?target=http%3A//blog.sina.com.cn/s/articlelist_2801495241_2_1.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Qt_一去丶二三里</a><p data-pid=\"7Gpun3XO\"> (看如何DIV界面)</p><p data-pid=\"1OqxLCuL\">5. </p><a href=\"https://link.zhihu.com/?target=http%3A//www.qtcn.org/bbs/i.php\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">QTCN开发网 </a><p data-pid=\"TRhyuzxc\">(看看别人如何写Qt)</p><p data-pid=\"qmae5-hW\">----</p><p data-pid=\"v4zqZ1En\">深入：</p><p data-pid=\"jVI18_ku\">1. </p><a href=\"https://link.zhihu.com/?target=https%3A//qt.gitorious.org/qt\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Qt - Qt by Digia</a><p data-pid=\"rKyZetZw\"> (看源码)</p><p data-pid=\"4wi2G0N4\">2. </p><a href=\"https://link.zhihu.com/?target=https%3A//qt.gitorious.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Qt by Digia</a><p data-pid=\"aeF9Ya07\"> (看各种开源代码)</p><p data-pid=\"OcZ4GqIh\">3. </p><a href=\"https://link.zhihu.com/?target=http%3A//stackoverflow.com/questions/tagged/qt%3Fsort%3Dvotes\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Highest Voted &#39;qt&#39; Questions</a><p data-pid=\"9YKhiPCr\"> (从高票往低票看)</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 154062,
+        "favorite_count": 2726,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 32205487}",
+      "attached_info": "CsgFCNzOg6e1o8HnjAEQBBoHODI2Nzg2MiDbupeiBSiTBTAOQMIDSi0KHVRTX1NPVVJDRV9GRUVEX1VTRVJfRVhQRVJUX0NGEgY0MDc5OTEYACAAOgBaBzI1ODgzMDRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cggzMjIwNTQ4N4oBCDI2MDEzMzY4qgEJcmVjb21tZW5kwgEgM2Q2NGQ2NmRkMjNkNDMzNjVjMjgwYWJhOThhMWRkM2byAQoIDBIGTm9ybWFs8gEoCAoSJDliMGFiYWZhLTNlZjgtNGZmYS04MTQ4LTk4MDk1MTQ4OTlmN/IBBggLEgI3NoICAIgC3eLC+YwzkgIgM2Q2NGQ2NmRkMjNkNDMzNjVjMjgwYWJhOThhMWRkM2aaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAh1UU19TT1VSQ0VfRkVFRF9VU0VSX0VYUEVSVF9DRugCAvoCC05PUk1BTF9GTE9XigMgMGY0YjRhNDc4NDY3NGVmMzk0OTY1MzQwYjE4MDZkYjiaAw0KAnYyEAAaBW90aGVyqAPOswnYAwDqAxBhaUdyYXBoRW1iVXNlckNG+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYLGemT+BBQAAAAAAAAAAiQViwsUiwVTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVMkAYAoAbGA6gGAZICIQoHODI2Nzg2MhIIMzIyMDU0ODcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "451_1755822731.243",
+      "type": "feed",
+      "offset": 451,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822731,
+      "updated_time": 1755822731,
+      "target": {
+        "id": "5671320039",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/5671320039",
+        "author": {
+          "id": "958b9834688b6d25cd0beedc057037fd",
+          "url": "https://api.zhihu.com/people/958b9834688b6d25cd0beedc057037fd",
+          "user_type": "organization",
+          "url_token": "pkupress",
+          "name": "北京大学出版社",
+          "headline": "微信号：北京大学出版社 | 用阅读对抗焦虑。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-e13bab4a73ae5a6c31c271a3bb3059bd_l.jpg?source=b6762063",
+          "is_org": true,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_org",
+              "description": "已认证机构号"
+            },
+            {
+              "type": "best_answerer",
+              "description": "文学话题下的优秀答主",
+              "topic_names": [
+                "文学"
+              ],
+              "topic_ids": [
+                2058
+              ]
+            }
+          ],
+          "followers_count": 187077,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "30本高分好书，让你选书不迷茫",
+        "image_url": "https://picx.zhimg.com/v2-aa53f2b2d5b7ccfda02306643b2e2578.jpg?source=7e7ef6e2&needBackground=1",
+        "comment_permission": "all",
+        "created": 1731030218,
+        "updated": 1731030218,
+        "voteup_count": 105,
+        "voting": 0,
+        "comment_count": 4,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "30本高分好书，让你选书不迷茫 最近正值“双十一”大促，大家在尽情购物的同时，别忘了给自己加购“精神食粮”。面对琳琅满目的书籍，许多读者难免会感到茫然，不知道从何挑起。 为此，小北特别精心挑选了30本销量和口碑双赢的好书，帮你在阅读的世界里找到方向。希望你在收获购物的快乐的同时，也能收获心灵的富足和思维的宽广。 本期书目： 《东晋门阀政治》《中国哲学简史》《乡土中国》《全球通史：从史前到21世纪》（新译本…",
+        "excerpt_new": "30本高分好书，让你选书不迷茫 最近正值“双十一”大促，大家在尽情购物的同时，别忘了给自己加购“精神食粮”。面对琳琅满目的书籍，许多读者难免会感到茫然，不知道从何挑起。 为此，小北特别精心挑选了30本销量和口碑双赢的好书，帮你在阅读的世界里找到方向。希望你在收获购物的快乐的同时，也能收获心灵的富足和思维的宽广。 本期书目： 《东晋门阀政治》《中国哲学简史》《乡土中国》《全球通史：从史前到21世纪》（新译本…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<h1>30本高分好书，让你选书不迷茫</h1> <p data-pid=\"Ati_bZlw\">最近正值“双十一”大促，大家在尽情购物的同时，别忘了给自己加购“精神食粮”。面对琳琅满目的书籍，许多读者难免会感到茫然，不知道从何挑起。<br/><br/>为此，小北特别精心挑选了30本销量和口碑双赢的好书，帮你在阅读的世界里找到方向。希望你在收获购物的快乐的同时，也能收获心灵的富足和思维的宽广。<br/><br/>本期书目：<br/><br/>《东晋门阀政治》《中国哲学简史》《乡土中国》《全球通史：从史前到21世纪》（新译本）《波峰与波谷：秦汉魏晋南北朝的政治文明》（第二版）《经济学原理》（第8版）《解读中国经济》《新教伦理与资本主义精神》《人情、面子与权力的再生产》（精装版）《政治学通识》《古文观止译注》（修订本）（上下）《小词大雅——叶嘉莹说词的修养与境界》《唐宋词十七讲》《艺术：让人成为人——人文学通识》（第11版）《四时之外》《浮出历史地表：现代妇女文学研究》《舆论》《科学革命的结构》（新译精装版）《西方哲学十五讲》《论犯罪与刑罚》《中国哲学十五讲》《中国书法十五讲》《有无之境：王阳明哲学的精神》《曾国藩领导力十二讲》《忽如远行客：秦汉的游士与游侠》《自然哲学之数学原理》《科学的旅程》《孙维刚谈立志成才——全班55%怎样考上北大、清华》（第二版）《心安幸福教育》《十二天突破英汉翻译——笔译篇》（第二版）</p>     <br/> <br/><br/> <br/>  ,<br/> <br/>2024年11月08日 09:07 ,  , 北京",
+        "is_labeled": false,
+        "visited_count": 1251,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-aa53f2b2d5b7ccfda02306643b2e2578.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-c1e6d87f4922ef18fab336d08e4250a4_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 35,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 5671320039}",
+      "attached_info": "CvkGCNzOg6e1o8HnjAEQBxoJMjUwMTU2ODM4IMrZtbkGKGkwBEDDA0o8Ch9UU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9XT1JEEhMxNDQxMTUxODgwNzYwODY4NzIxGAAgADoAYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IKNTY3MTMyMDAzOYIBX2h0dHBzOi8vcGljeC56aGltZy5jb20vdjItYWE1M2YyYjJkNWI3Y2NmZGEwMjMwNjY0M2IyZTI1NzguanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xqgEJcmVjb21tZW5kwgEgOTU4Yjk4MzQ2ODhiNmQyNWNkMGJlZWRjMDU3MDM3ZmTyAQoIDBIGTm9ybWFs8gEoCAoSJDQ2MTU1OGM1LTgxMjYtNDUzMi1iZTA2LWJhY2VkZGE3MjkzOPIBBggLEgI3NoICAIgC3eLC+YwzkgIgOTU4Yjk4MzQ2ODhiNmQyNWNkMGJlZWRjMDU3MDM3ZmSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCFkZlZWRDb250cm9sQnJlYWtJblJ1bGXaAh9UU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9XT1JE6AID+gILTk9STUFMX0ZMT1eKAyAwZjRiNGE0Nzg0Njc0ZWYzOTQ5NjUzNDBiMTgwNmRiOJoDDQoCdjIQABoFb3RoZXKoA+MJ2AMA6gMTQ29udHJvbEludGVyZXN0V29yZPoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEIAKGM8FIiN2Mi1hYTUzZjJiMmQ1YjdjY2ZkYTAyMzA2NjQzYjJlMjU3OIAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEgriKAvkEAAAAYLuJgD+BBQAAAAAAAAAAiQViwsUiwVTZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUP4AUA6AUA8AVMkAYAoAbHA6gGA5ICJQoJMjUwMTU2ODM4Ego1NjcxMzIwMDM5GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "452_1755822731.715",
+      "type": "feed",
+      "offset": 452,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822731,
+      "updated_time": 1755822731,
+      "target": {
+        "id": "1939800761786664025",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1939800761786664025",
+        "author": {
+          "id": "6f1356a0dd8d04b6ed7e49abde625baa",
+          "url": "https://api.zhihu.com/people/6f1356a0dd8d04b6ed7e49abde625baa",
+          "user_type": "people",
+          "url_token": "zy.young",
+          "name": "十月初我再醒来",
+          "headline": "我们日复一日地生活于世，却对世界几乎一无所知。",
+          "avatar_url": "https://pica.zhimg.com/50/v2-f78b2ab8f8a22679c058e933819d2065_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1831,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755264541,
+        "updated_time": 1755440066,
+        "voteup_count": 200,
+        "thanks_count": 13,
+        "comment_count": 33,
+        "is_copyable": true,
+        "question": {
+          "id": "664151570",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/664151570",
+          "author": {
+            "id": "8790832f21eaf996831dbe961b38dd73",
+            "url": "https://api.zhihu.com/people/8790832f21eaf996831dbe961b38dd73",
+            "user_type": "people",
+            "url_token": "aaaaace-88",
+            "name": "aaaaace",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么山姆这么受欢迎？",
+          "created": 1723504406,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 120,
+          "bound_topic_ids": [
+            843,
+            50603
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "不知道你们有没有在淘宝的淘工厂上买过东西。 淘工厂的东西都很便宜，我开始以为淘工厂和京东京造一样，淘宝帮你把关了一下，但实际上质量和拼多多的小商品差不多。 我买了个空气炸锅纸，也没便宜多少，大概比山姆便宜30%。 买回来打开，一股异味，说实话，入嘴的东西，我不敢用，全扔了。天知道这玩意里面有没有什么东西超标，淘工厂的店铺今天你还能点开，明天就不见了。东西你如果用，肯定不会当时把你吃死，但是过了一年半载…",
+        "excerpt_new": "不知道你们有没有在淘宝的淘工厂上买过东西。 淘工厂的东西都很便宜，我开始以为淘工厂和京东京造一样，淘宝帮你把关了一下，但实际上质量和拼多多的小商品差不多。 我买了个空气炸锅纸，也没便宜多少，大概比山姆便宜30%。 买回来打开，一股异味，说实话，入嘴的东西，我不敢用，全扔了。天知道这玩意里面有没有什么东西超标，淘工厂的店铺今天你还能点开，明天就不见了。东西你如果用，肯定不会当时把你吃死，但是过了一年半载…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"76PdROmx\">不知道你们有没有在淘宝的淘工厂上买过东西。</p><p data-pid=\"aapP2tQ6\">淘工厂的东西都很便宜，我开始以为淘工厂和京东京造一样，淘宝帮你把关了一下，但实际上质量和拼多多的小商品差不多。</p><p data-pid=\"AkOT0RZm\">我买了个空气炸锅纸，也没便宜多少，大概比山姆便宜30%。</p><p data-pid=\"eGQtgm2e\"><b>买回来打开，一股异味</b>，说实话，入嘴的东西，我不敢用，全扔了。</p><p data-pid=\"nHrp9Cdm\">天知道这玩意里面有没有什么东西超标，淘工厂的店铺今天你还能点开，明天就不见了。东西你如果用，肯定不会当时把你吃死，但是过了一年半载可不好说。真出了点什么问题，哭都不知道去哪哭去。</p><p data-pid=\"M_HWJS78\"><b>看似你花便宜30%的价格买到了商品，实际上买回来的就是不合格的100%的垃圾，全浪费掉了。</b></p><p></p><p></p><p></p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 40526,
+        "favorite_count": 39,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1939800761786664025}",
+      "attached_info": "CtQGCNzOg6e1o8HnjAEQBBoJNzQyMzg4MTI3IJ3s/MQGKMgBMCFAxANKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMhIBMBgAIAA6CnsicmF3IjoiIn1aCTEwOTg2NjkxMmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5Mzk4MDA3NjE3ODY2NjQwMjWKAQk2NjQxNTE1NzCqAQlyZWNvbW1lbmTCASA2ZjEzNTZhMGRkOGQwNGI2ZWQ3ZTQ5YWJkZTYyNWJhYfIBCggMEgZOb3JtYWzyASgIChIkM2E0MTA1NTQtNmQ1ZS00ZTFjLWE4NGQtYWE5ODI1MmFlNTdi8gEGCAsSAjc2ggIAiALd4sL5jDOSAiA2ZjEzNTZhMGRkOGQwNGI2ZWQ3ZTQ5YWJkZTYyNWJhYZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZBY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIWUmV2aXNpdFZhbHVlV2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFVF1ZXN0aW9uSXNvbGF0aW9uUnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyAwZjRiNGE0Nzg0Njc0ZWYzOTQ5NjUzNDBiMTgwNmRiOJoDDQoCdjIQABoFb3RoZXKoA868AtgDAPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTU5yAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAjJ+5P4EFAAAAAAAAAACJBWLCxSLBVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBUyQBgCgBsgDqAYAkgIuCgk3NDIzODgxMjcSEzE5Mzk4MDA3NjE3ODY2NjQwMjUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "453_1755822731.550",
+      "type": "feed",
+      "offset": 453,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822731,
+      "updated_time": 1755822731,
+      "target": {
+        "id": "2281216495",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/2281216495",
+        "author": {
+          "id": "9404e0db0bdb6e13dcb2d64c7546a5fb",
+          "url": "https://api.zhihu.com/people/9404e0db0bdb6e13dcb2d64c7546a5fb",
+          "user_type": "people",
+          "url_token": "xie-hui-38-87",
+          "name": "无念",
+          "headline": "吾生有涯，而知无涯",
+          "avatar_url": "https://pica.zhimg.com/50/9aa5c61d1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 4556,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1640142569,
+        "updated_time": 1640178016,
+        "voteup_count": 43370,
+        "thanks_count": 3119,
+        "comment_count": 1772,
+        "is_copyable": false,
+        "question": {
+          "id": "504116103",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/504116103",
+          "author": {
+            "id": "75901f679ac98763c06c135cff9ddd56",
+            "url": "https://api.zhihu.com/people/75901f679ac98763c06c135cff9ddd56",
+            "user_type": "people",
+            "url_token": "you-xin-er-94",
+            "name": "有信儿",
+            "headline": "分享自己喜欢的书",
+            "avatar_url": "https://picx.zhimg.com/50/v2-c27cd3d2ddc898d54c86427b4b3d0f5f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 1979,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "面试时，公司的什么表现让你一看就知道不靠谱？",
+          "created": 1638782085,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 8,
+          "bound_topic_ids": [
+            622,
+            1657,
+            3587,
+            105508,
+            572855
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "一进公司，员工们其乐融融，办公区到处有零食和玩具，还能看到一个小篮球框。 千万别去！这踏马是996福报公司！ 员工们其乐融融，是因为根本没得下班，社交都在公司，所以个个称兄道弟。 真正的八小时工作制公司，一个个员工都冷漠的跟不认识一样。下班就回家自己社交去了。 还有办公区的零食和玩具，那都是为了让你加班备着的。别以为是什么福利，八小时工作制的公司毛都不给，下班就走，不需要这个。 福利越暖心，加班越恐怖。…",
+        "excerpt_new": "一进公司，员工们其乐融融，办公区到处有零食和玩具，还能看到一个小篮球框。 千万别去！这踏马是996福报公司！ 员工们其乐融融，是因为根本没得下班，社交都在公司，所以个个称兄道弟。 真正的八小时工作制公司，一个个员工都冷漠的跟不认识一样。下班就回家自己社交去了。 还有办公区的零食和玩具，那都是为了让你加班备着的。别以为是什么福利，八小时工作制的公司毛都不给，下班就走，不需要这个。 福利越暖心，加班越恐怖。…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"nelX_xis\">一进公司，员工们其乐融融，办公区到处有零食和玩具，还能看到一个小篮球框。</p><p data-pid=\"vs3fMMbe\">千万别去！这踏马是996福报公司！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OrZDKwjN\">员工们其乐融融，是因为根本没得下班，社交都在公司，所以个个称兄道弟。</p><p data-pid=\"ExTO5k5y\">真正的八小时工作制公司，一个个员工都冷漠的跟不认识一样。下班就回家自己社交去了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lMH0TC4t\">还有办公区的零食和玩具，那都是为了让你加班备着的。别以为是什么福利，八小时工作制的公司毛都不给，下班就走，不需要这个。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SOXCvg_U\">福利越暖心，加班越恐怖。自己掂量</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 3004774,
+        "favorite_count": 4791,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 2281216495}",
+      "attached_info": "CtwGCNzOg6e1o8HnjAEQBBoJNDQ0ODQ3MTcwIOmtio4GKOrSAjDsDUDFA0pVChxUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxUSU1FEi9ob3RfcmVjYWxsX3JlYWx0aW1lX3Q6bm9ybWFsOjIwMjUtMDgtMjI6bW9udGhseRgAIAA6AFoINzQzMDY2MzRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgoyMjgxMjE2NDk1igEJNTA0MTE2MTAzqgEJcmVjb21tZW5kwgEgOTQwNGUwZGIwYmRiNmUxM2RjYjJkNjRjNzU0NmE1ZmLyAQoIDBIGTm9ybWFs8gEoCAoSJDE0YjNiOTIxLTNjZWQtNGJiNS1hNDNiLTk0YmRkNDczYzEwZfIBBggLEgI3NoICAIgC3uLC+YwzkgIgOTQwNGUwZGIwYmRiNmUxM2RjYjJkNjRjNzU0NmE1ZmKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAhxUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxUSU1F6AIC+gILTk9STUFMX0ZMT1eKAyAwZjRiNGE0Nzg0Njc0ZWYzOTQ5NjUzNDBiMTgwNmRiOJoDDQoCdjIQABoFb3RoZXKoA+aytwHYAwDqAx9ob3RDcm9zc1JlYWxUaW1lQ29udGVudFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNjDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGChIbo/gQUAAAAAAAAAAIkFYsLFIsFU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFTJAGAKAGyQOoBgCSAiUKCTQ0NDg0NzE3MBIKMjI4MTIxNjQ5NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "454_1755822731.761",
+      "type": "feed",
+      "offset": 454,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822731,
+      "updated_time": 1755822731,
+      "target": {
+        "id": "1941801868310344924",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941801868310344924",
+        "author": {
+          "id": "1ed4168bfff588ca98f0a845baf15caa",
+          "url": "https://api.zhihu.com/people/1ed4168bfff588ca98f0a845baf15caa",
+          "user_type": "people",
+          "url_token": "yu-miao-29-61",
+          "name": "鱼苗",
+          "headline": "如果真相寡淡无味，毫无裨益，你还要追求真相吗？",
+          "avatar_url": "https://picx.zhimg.com/50/v2-2f9b07fcff3000a2a187ab84bc313ccf_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 30,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755741642,
+        "updated_time": 1755741642,
+        "voteup_count": 2,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "1939387607227265356",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1939387607227265356",
+          "author": {
+            "id": "22cafdbef1b854b02e367633fb03689c",
+            "url": "https://api.zhihu.com/people/22cafdbef1b854b02e367633fb03689c",
+            "user_type": "people",
+            "url_token": "fu-nuo-shi",
+            "name": "昔我往矣都行都行",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-d247b1c0940da2ac601f633a22d6cb7a_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 82,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "当兴趣与专业冲突时，如何通过人物传记类书籍（如《乔布斯传》）寻找方向？",
+          "created": 1755166037,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            113,
+            564,
+            1746,
+            2058,
+            6603
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "好奇怪的问题。 人之所以迷茫，只有一个原因——找不到真正的矛盾点。 先说问题，如通过人物传记书籍找方向。说明你已经认定了这个方法可以找到方向。但是你又不知道如何运用这个方法。 换句话说，就是你相信一个你不知道的方法可以解决你的问题。逻辑上行不通。 接着咱们再回到核心问题，兴趣和转业冲突，如何做选择？ 自己的事，怎么能交给别人（通过别人的传记）来做决定？ 首先，生活环境、知识能力、社会背景都不一样，别人…",
+        "excerpt_new": "好奇怪的问题。 人之所以迷茫，只有一个原因——找不到真正的矛盾点。 先说问题，如通过人物传记书籍找方向。说明你已经认定了这个方法可以找到方向。但是你又不知道如何运用这个方法。 换句话说，就是你相信一个你不知道的方法可以解决你的问题。逻辑上行不通。 接着咱们再回到核心问题，兴趣和转业冲突，如何做选择？ 自己的事，怎么能交给别人（通过别人的传记）来做决定？ 首先，生活环境、知识能力、社会背景都不一样，别人…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"5wrr043r\">好奇怪的问题。</p><p data-pid=\"Uvr8S-Yh\">人之所以迷茫，只有一个原因——找不到真正的矛盾点。</p><p data-pid=\"uDv6RDst\">先说问题，如通过人物传记书籍找方向。说明你已经认定了这个方法可以找到方向。但是你又不知道如何运用这个方法。</p><p data-pid=\"6krMNTEB\">换句话说，就是你相信一个你不知道的方法可以解决你的问题。逻辑上行不通。</p><p data-pid=\"Lm_OCk32\">接着咱们再回到核心问题，兴趣和转业冲突，如何做选择？</p><p data-pid=\"-RPyR20q\">自己的事，怎么能交给别人（通过别人的传记）来做决定？</p><p data-pid=\"4wmjoIfB\">首先，生活环境、知识能力、社会背景都不一样，别人的经历或许有借鉴的作用，但不多。涉及到的知识和理论由于基础和场景不一样，也难以复现。所以，作用类似与小说型鸡汤（成功要是能复制，最终就不会有人不成功）；</p><p data-pid=\"jtw69oAO\">其次，传记嘛或多或少都有夸大的成分，也会把巧合描述成个人的超凡能力，更像酒后吹牛的样子（你可能会觉得这个比喻不合适，那可能是因为那些酒后吹牛的人不成功）。你愿意把自己的未来押在这上面吗？</p><p data-pid=\"xLANxAOo\">最后，传记的目的本身是为了宣传某个人物，从而达到某种商业目的，并不是为了解决读者的人生选择问题（就算他是打着这个宣传，也只是为了多买书）。</p><p data-pid=\"IsqrjVgG\">所以，与其从别人身上找答案，不如聚焦问题主体（你自己）。</p><p data-pid=\"SK13Nnhv\">我简单的罗列几个，希望对你有帮助。</p><p data-pid=\"W28U8sOT\">1、兴趣与专业冲突（标签有“大学生”，是否所学专业），可不可以两个都要（双学位也不是问题）？</p><p data-pid=\"vwhvm4-1\">2、兴趣与专业，那个更适合未来就业？（家庭条件一般，需要考虑生存的，绕不过这个问题。当然未来也有可能两个都不选。）</p><p data-pid=\"nFJI0wnI\">3、条件允许，又非得二选一的情况下，我想应该没什么好纠结吧？</p><p data-pid=\"5jrhrvAz\">最后的最后，再说一句。其实纠结选择什么，或许并没有那么重要。祝顺！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 30,
+        "favorite_count": 2,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941801868310344924}",
+      "attached_info": "CoIGCNzOg6e1o8HnjAEQBBoJNzQzMjE3NjAyIMr7mcUGKAIwAEDGA0okChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwyEgEwGAAgADoAWgkxMTYyMDk0ODNiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxODAxODY4MzEwMzQ0OTI0igETMTkzOTM4NzYwNzIyNzI2NTM1NqoBCXJlY29tbWVuZMIBIDFlZDQxNjhiZmZmNTg4Y2E5OGYwYTg0NWJhZjE1Y2Fh8gEKCAwSBk5vcm1hbPIBKAgKEiRmNTZiNDc5ZC1kNmIwLTQ2NzYtYWY0Yy1kOTI1MGJmMmVmYzfyAQYICxICNzaCAgCIAt7iwvmMM5ICIDFlZDQxNjhiZmZmNTg4Y2E5OGYwYTg0NWJhZjE1Y2FhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGkNvbnRlbnRXYXJtVXBJc29sYXRpb25SdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCAvoCC05PUk1BTF9GTE9XigMgMGY0YjRhNDc4NDY3NGVmMzk0OTY1MzQwYjE4MDZkYjiaAw0KAnYyEAAaBW90aGVyqAMe2AMA6gMfdGV4dF8xMmhvdXJfdW5pZmluc2hlZF9yZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEDrI6o/gQUAAAAAAAAAAIkFYsLFIsFU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFTJAGAKAGygOoBgGSAi4KCTc0MzIxNzYwMhITMTk0MTgwMTg2ODMxMDM0NDkyNBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "455_1755822731.113",
+      "type": "feed",
+      "offset": 455,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822731,
+      "updated_time": 1755822731,
+      "target": {
+        "id": "1940210185449735874",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1940210185449735874",
+        "author": {
+          "id": "2f4c8c3c3f18e397b7fe89f58526cc9f",
+          "url": "https://api.zhihu.com/people/2f4c8c3c3f18e397b7fe89f58526cc9f",
+          "user_type": "people",
+          "url_token": "lin-zi-lu-9",
+          "name": "人偶未成形",
+          "headline": "我通日语、文言等诸语。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-4a0fdd17a44edcc45b3266769d7765a8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 449,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755362155,
+        "updated_time": 1755435272,
+        "voteup_count": 17,
+        "thanks_count": 2,
+        "comment_count": 3,
+        "is_copyable": true,
+        "question": {
+          "id": "26077627",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/26077627",
+          "author": {
+            "id": "d5ca07d1a5fde5f2217248417d104b1c",
+            "url": "https://api.zhihu.com/people/d5ca07d1a5fde5f2217248417d104b1c",
+            "user_type": "people",
+            "url_token": "jing-cun-zhou",
+            "name": "靖存周",
+            "headline": "学生狗一枚，特长正在培养，偏偏爱好广泛。",
+            "avatar_url": "https://picx.zhimg.com/50/cd3c2bfc1a27b478d6bb7872e5bdc3c4_l.png?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "三岛由纪夫的作品哪个译本比较好？",
+          "created": 1413554570,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            113,
+            684,
+            2058,
+            5430,
+            15631
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "说实话，能看原文则看原文。不能看原文，那就把 原文丢进AI里。 译本没有好的，每个都只会把你看得一头雾水。拿《金阁寺》举个例子，这句话的原文（看不懂日文的，可以翻到 后文，后文有经过我审查的DeepSeek R1的翻译）如下：だが、俺が内飜足以外に俺の個別性を、俺の存在理由を認めるならば、俺はそういうものを補足的に認めたことになり、次いで、相互補足的に他人の存在理由をも認めたことになり、ひいては世の中に包まれた…",
+        "excerpt_new": "说实话，能看原文则看原文。不能看原文，那就把 原文丢进AI里。 译本没有好的，每个都只会把你看得一头雾水。拿《金阁寺》举个例子，这句话的原文（看不懂日文的，可以翻到 后文，后文有经过我审查的DeepSeek R1的翻译）如下：だが、俺が内飜足以外に俺の個別性を、俺の存在理由を認めるならば、俺はそういうものを補足的に認めたことになり、次いで、相互補足的に他人の存在理由をも認めたことになり、ひいては世の中に包まれた…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"6fvaI0bP\">说实话，能看原文则看原文。不能看原文，那就把<b>原文丢进AI</b>里。</p><p data-pid=\"sddwG58H\"><b>译本没有好的，每个都只会把你看得一头雾水。</b></p><p data-pid=\"wZP38jQ9\">拿《金阁寺》举个例子，这句话的原文（看不懂日文的，可以翻到<b>后文</b>，后文有经过<b>我审查的DeepSeek</b> R1的翻译）如下：</p><blockquote data-pid=\"rLF6Rn7R\">だが、俺が内飜足以外に俺の個別性を、俺の存在理由を認めるならば、俺はそういうものを補足的に認めたことになり、次いで、相互補足的に他人の存在理由をも認めたことになり、ひいては世の中に包まれた自分を認めたことになるのだ。</blockquote><p data-pid=\"6ospC83a\">这段话在<b>流行</b>的译本里，只有<b>唐月梅</b>翻对了（且不论她“X型的腿”这个翻译是否准确），因为她是<b>纯粹直译</b>，很难说她自己理解了这句话没有，但是，毫无疑问她把整句话的<b>结构</b>，把<b>语法</b>搞对了（尽管并非完全正确），单是这样，她就已经超越了其他所有译者。</p><p data-pid=\"AZCY9H4O\">唐月梅是这么翻译的：</p><blockquote data-pid=\"NzOOko26\">然而，倘使我承认X型的腿以外的我的个别性和我的存在理由，那么，我就得补充地承认这种东西。相应也得相互补充地承认他人的存在理由，进而承认被包围在世界之中的自己。</blockquote><p data-pid=\"j8jHm6RA\">其他人的错误翻译我贴在文末了。</p><p data-pid=\"A2TpWEJV\">至于在<b>我看来正确</b>的翻译，是DeepSeek R1给出来的，如下（括号里的内容是我添加的）：</p><blockquote data-pid=\"qbhZuvcB\">但是，只要我除了内翻足之外，还承认自己有什么别的独特性，承认自己存在的理由（如果更直译的话，如下：“还承认自己别的独特性，承认自己别的存在的理由”），那就等于我补充性地承认了这些东西。接着，就等于我也相互补充地承认了别人存在的理由。最终，就等于我承认了被这世界包容的自己。</blockquote><p data-pid=\"B0wJYOsb\">可惜唐月梅的<b>发挥并不稳定</b>。在这段话之后，她突然翻译出这样一个句子：</p><blockquote data-pid=\"AkbSxGQ8\">但是，我却是个没有性功能的人。</blockquote><p data-pid=\"aCDBUFh-\">这句话把我看喷饭了（她把暂时性的翻译成了永久性的）。</p><hr/><p data-pid=\"jS5D4Fmc\">以下是这段话的错误翻译。</p><p data-pid=\"Irx0RfsS\">陈德文：</p><blockquote data-pid=\"XoTYvFZY\">但是，如果俺承认除内翻足以外俺的<b>个别性是俺的存在理由</b>，那么，就等于俺承认这是一种补充性的因素，接着也就会承认他人的存在理由以作为补充，以至于承认包裹于世界中的自我。</blockquote><p data-pid=\"Ii1CejIh\">曹曼：</p><blockquote data-pid=\"EhHmDzlC\">话说回来，如果认可除了内翻足之外的独特性，认可我的存在理由，<b>不就变成了我被这些附加事物认同</b>，出于互补也认可他人的存在理由，进而认同被世界包围的自己？</blockquote><p data-pid=\"SIwEqEB1\">代珂：</p><blockquote data-pid=\"TARv8xZ-\">但是，假如我承认除了内翻足之外我还有与众不同的存在理由，也就意味着我将它们认可<b>为了自身的一部分</b>，那么互补地，我又将认可他人的存在理由，这也就意味着我得认可那个置身于世界当中的自己。</blockquote><p data-pid=\"w1dvQYIJ\">林少华：</p><blockquote data-pid=\"KNnvJl3F\">可是，如若我承认内屈足以外的个别性，承认我存在的理由，那么就是说我<b>补充</b>承认了诸如此类的东西，继而<b>相应地</b>承认他人存在的理由，并进一步承认了包容于世界之中的自己。</blockquote><p data-pid=\"bRT_sYSj\">汪洋</p><blockquote data-pid=\"3uM1yth_\">可是，如果将我内翻足之外的<b>独特性作为我存在的理由</b>，我就得<b>补充</b>承认这种独特性，接着<b>为了</b>相互补充，承认他人的存在理由，进而承认被包围在世界之中的自己。</blockquote>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1753,
+        "favorite_count": 14,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1940210185449735874}",
+      "attached_info": "CrcFCNzOg6e1o8HnjAEQBBoJNzQyNTQ2OTk4IOvmgsUGKBEwA0DHA0pDChdUU19TT1VSQ0VfVEhFTUVfV0FLRV9VUBIidGhlbWU6ZGV0ZWN0OmNvbnRlbnQ6dGhlbWU6aWQ6MzkxNBgAIAA6AFoHMjYxMzkxNWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDAyMTAxODU0NDk3MzU4NzSKAQgyNjA3NzYyN6oBCXJlY29tbWVuZMIBIDJmNGM4YzNjM2YxOGUzOTdiN2ZlODlmNTg1MjZjYzlm8gEKCAwSBk5vcm1hbPIBKAgKEiQwMDcxZTFiZi01NWM5LTRjY2UtYTk5Yy05M2ZkYTQ1NTM1ZjXyAQYICxICNzaCAgCIAt7iwvmMM5ICIDJmNGM4YzNjM2YxOGUzOTdiN2ZlODlmNTg1MjZjYzlmmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCF1RTX1NPVVJDRV9USEVNRV9XQUtFX1VQ6AID+gILTk9STUFMX0ZMT1eKAyAwZjRiNGE0Nzg0Njc0ZWYzOTQ5NjUzNDBiMTgwNmRiOJoDDQoCdjIQABoFb3RoZXKoA9kN2AMA6gMTVGhlbWVXYWtlVXBSZWNhbGxlcvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGBSCaU/gQUAAAAAAAAAAIkFYsLFIsFU2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFTJAGAKAGywOoBgCSAi4KCTc0MjU0Njk5OBITMTk0MDIxMDE4NTQ0OTczNTg3NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=455&desktop=true&end_offset=459&page_number=77&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=455&desktop=true&end_offset=459&page_number=77&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

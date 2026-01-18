@@ -1,0 +1,602 @@
+{
+  "data": [
+    {
+      "id": "60_1755822232.767",
+      "type": "feed",
+      "offset": 60,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822232,
+      "updated_time": 1755822232,
+      "target": {
+        "id": "3313225194",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3313225194",
+        "author": {
+          "id": "17bc3206d1c56fa5d25672309af29454",
+          "url": "https://api.zhihu.com/people/17bc3206d1c56fa5d25672309af29454",
+          "user_type": "people",
+          "url_token": "shun-yi-de-ma-yi",
+          "name": "产品经理方法论",
+          "headline": "关注公众号：产品经理方法论",
+          "avatar_url": "https://pica.zhimg.com/50/v2-28c25054c66fe567d7d0e92ee79c40ab_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2731,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1701692706,
+        "updated_time": 1701692706,
+        "voteup_count": 188,
+        "thanks_count": 95,
+        "comment_count": 6,
+        "is_copyable": true,
+        "question": {
+          "id": "305937491",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/305937491",
+          "author": {
+            "id": "8e299e1ddeab34387f17d4c4ab0fb2da",
+            "url": "https://api.zhihu.com/people/8e299e1ddeab34387f17d4c4ab0fb2da",
+            "user_type": "people",
+            "url_token": "Thinking80s",
+            "name": "Thinking80s",
+            "headline": "Just do it",
+            "avatar_url": "https://pica.zhimg.com/50/v2-853f55af4e3ce6049e5789661204d02f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "计算机技术与软件专业技术资格证持证人"
+              }
+            ],
+            "followers_count": 216,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "什么是技术架构、数据架构、业务架构、应用架构、产品架构 项目架构？",
+          "created": 1544962534,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            1989,
+            2004,
+            20860
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-2d24523056b6a8e388baa570f51ee190_720w.jpg?source=b6762063",
+        "excerpt": "我在想大家通常对“产品架构、功能架构、业务架构、信息架构、技术架构”的概念名称和认识，通常都是在PPT上吧。   其实包括我自己也是，我接触的最多的架构图就是以前做产品或者项目解决方案的时候，PPT里面一定会包含几个酷炫的架构图，我会根据领导历史画好的架构图和网上找的样式图，基于自己的理解和业务需求画出来，然后给架构图取名字，比如xx产品架构、xx功能架构、xx技术架构。 但是实际上，这些架构图分别有什么作用，都…",
+        "excerpt_new": "我在想大家通常对“产品架构、功能架构、业务架构、信息架构、技术架构”的概念名称和认识，通常都是在PPT上吧。   其实包括我自己也是，我接触的最多的架构图就是以前做产品或者项目解决方案的时候，PPT里面一定会包含几个酷炫的架构图，我会根据领导历史画好的架构图和网上找的样式图，基于自己的理解和业务需求画出来，然后给架构图取名字，比如xx产品架构、xx功能架构、xx技术架构。 但是实际上，这些架构图分别有什么作用，都…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"hSGSycY6\">我在想大家通常对“产品架构、功能架构、业务架构、信息架构、技术架构”的概念名称和认识，通常都是在PPT上吧。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-96d604a6f23656f1f6aa28ceb98904be_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1015\" data-rawheight=\"732\" data-original-token=\"v2-bbea308e784555e1f105f9517127fad4\" data-default-watermark-src=\"https://pica.zhimg.com/v2-c3348be06d1a3aab95c93281803ca486_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1015\" data-original=\"https://pic3.zhimg.com/v2-96d604a6f23656f1f6aa28ceb98904be_r.jpg\"/></figure><p data-pid=\"Dt9IF5mW\">其实包括我自己也是，我接触的最多的架构图就是以前做产品或者项目解决方案的时候，PPT里面一定会包含几个酷炫的架构图，我会根据领导历史画好的架构图和网上找的样式图，基于自己的理解和业务需求画出来，然后给架构图取名字，比如xx产品架构、xx功能架构、xx技术架构。</p><p data-pid=\"Re-09zu5\">但是实际上，这些架构图分别有什么作用，都是什么意思，也没有深究，就是感觉差不多是这个意思就好，特别是客户这边，反正客户也不是太懂，看着有逼格、高大上就会觉得你的这个产品还挺牛逼的感觉。</p><p data-pid=\"Y00goeZY\">这次我的目标就是要把这几个架构图通过简单的文字和图片一次就讲明白并理解清楚。</p><h2><b>01 产品架构图从浅入深</b></h2><h3><b>一、产品架构的初步思考，整理列举</b></h3><p data-pid=\"s0jZIJp9\">在产品前期，项目前期，需求是最多的，我们要做的就是把所有需求全部列举出来，然后进行分类整理，这是初期非常关键的一个思考点，什么需求和什么需求是同一个业务块的，就组合起来放在一起，这就是产品架构的初步思考。这是最基础、最常见的对架构功能的思考方法。如下图示例：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-32a0af4825562cb322a28f915270ee56_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"724\" data-rawheight=\"277\" data-original-token=\"v2-707f6fefb2dbfe7380b66d6837f97a90\" class=\"origin_image zh-lightbox-thumb\" width=\"724\" data-original=\"https://pic1.zhimg.com/v2-32a0af4825562cb322a28f915270ee56_r.jpg\"/></figure><p data-pid=\"l4PUnrTr\">然后我们要把整理好的这些需求提炼出功能模块名称，这是需求转系统功能非常重要的一个步骤，就是这些需求最终在产品上叫什么名字。如下图示例：</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-7e3207eab76c880aa60cb9a5a72ea469_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"323\" data-rawheight=\"379\" data-original-token=\"v2-1c5057e0bf0334fef1c8c7fb83e0c27b\" class=\"content_image\" width=\"323\"/></figure><p data-pid=\"KLMiGumQ\">做好这些前期工作，产品架构图组成的基本单元就已经具备了，下面开始入深解析功能。</p><h3><b>二、产品架构的深入思考，功能归整</b></h3><p data-pid=\"WfPWNMlO\">把所有已知的功能，按照自己对业务的理解、对流程的理解、对核心需求的理解，再进行一轮归纳梳理和提取，把所有功能按模块层级划分好。如下示例图：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1bf3b5ae3b7f56115e358c5b0427292d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"845\" data-rawheight=\"317\" data-original-token=\"v2-b69a4b2fcfe8a9a899bc8054b077d50c\" class=\"origin_image zh-lightbox-thumb\" width=\"845\" data-original=\"https://pic4.zhimg.com/v2-1bf3b5ae3b7f56115e358c5b0427292d_r.jpg\"/></figure><p data-pid=\"iMmzMCyO\">已经可以清晰看到整个系统是由哪些模块、哪些功能组成，系统的功能架构就已经初具模型了。</p><p data-pid=\"e3jGONR_\">功能架构的关键要素，是模块和功能的划分要符合逻辑、符合业务、是符合一定关系的，这样的功能架构才更清晰。</p><p data-pid=\"gxKtTnXr\">当功能架构清单梳理完后，就可以开始画PPT功能架构图了，而画功能架构图的主要目标是让上级领导、老板以及客户能更清晰看到你的产品或项目包含哪些范围。如下图示例：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7fbd5eba8e12e44af82345cf409ccd46_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"906\" data-rawheight=\"710\" data-original-token=\"v2-eb42777afe1f9a124795dca34fa3e36b\" class=\"origin_image zh-lightbox-thumb\" width=\"906\" data-original=\"https://pic3.zhimg.com/v2-7fbd5eba8e12e44af82345cf409ccd46_r.jpg\"/></figure><p data-pid=\"Di2gi-ST\">有了功能架构图后，就要更进一步深入下去，要把整个产品架构思考清楚，且勾画出来。</p><h3><b>三、产品架构的最终形态和思考，关系连接</b></h3><p data-pid=\"Gf2zEc_7\">功能架构图是产品架构图的一种初级形态，它只是把功能模块的按一定逻辑和业务情况堆叠在一起，把系统能力范围圈起来。</p><p data-pid=\"YJ1qXhZ7\">而产品架构图中虽然会也会包含功能模块，但是它更重要的是关系的连接，以及能通过架构图看出来产品对未来的形态和策略。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-66ebe8f7fc095c72a1fb54c81967e1df_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"795\" data-rawheight=\"632\" data-original-token=\"v2-dbebe264ce5086b5b81a908e4750bb58\" class=\"origin_image zh-lightbox-thumb\" width=\"795\" data-original=\"https://picx.zhimg.com/v2-66ebe8f7fc095c72a1fb54c81967e1df_r.jpg\"/></figure><p data-pid=\"TjDmVLBM\">产品架构图中关系的连接是什么？</p><p data-pid=\"mMN7rd1X\"><b>它能看出产品核心能力的关系链路、能看出用户之间的关系、能看出产品业务之间的关系、并且能看出前中后三端的支撑关系。</b></p><p data-pid=\"Cs-bZ47w\">它又如何看出产品对未来的形态和策略？产品从一开始规划，就一定是要考虑未来1-3年的架构能力，就是你在设计产品的时候要把对产品未来至少1-3年的能力要考虑进来，产品架构要能支持到未来的延展能力。</p><p data-pid=\"_kUPfZJ6\">一个好的产品架构图一定是清晰的，即关系清晰、产品策略清晰、用户体验清晰。</p><h2><b>02 信息架构</b></h2><p data-pid=\"zvqTTZgC\">产品架构最重要的是做好对业务的支撑，我们要把业务、产品功能和用户通过产品架构联系起来。</p><p data-pid=\"OxZTwONi\">而<b>信息架构主要是将业务架构、产品架构中所涉及的各端业务要点、功能、界面信息以最合适的方式展现给用户</b>，比如：系统信息结构、菜单导航、功能页面、页面结构、元素信息、页面层级、页面关系等都是信息架构的部分。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3d81153ab102e7d9c2d1b072ebe6af93_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"438\" data-rawheight=\"411\" data-original-token=\"v2-25be35f415d6e226490f67b224f0d4ff\" class=\"origin_image zh-lightbox-thumb\" width=\"438\" data-original=\"https://pic2.zhimg.com/v2-3d81153ab102e7d9c2d1b072ebe6af93_r.jpg\"/></figure><p data-pid=\"TPDrHQSv\">信息架构的好坏会直接影响用户体验，会影响产品未来的延展性，会影响用户对产品的理解。产品信息架构一旦设定好，通常不会再重构，一旦重构就是对老用户的伤害，通常只是不断扩展完善和细节调整。</p><h2><b>03 业务架构</b></h2><p data-pid=\"gmQkB98r\">首先理解业务是什么，业务就是进行或处理商业上相关的活动，就是各行业中需要处理的事务。</p><p data-pid=\"25du5r4Q\"><b>业务架构是基于战略、商业逻辑的业务运转机制。通过架构各项关联业务形成业务视图，把各项业务通过关系整合在一起，用于战略规划、分析和思考</b>。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9d5b38120cf33d4fac2eb8e7b632619b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"606\" data-rawheight=\"564\" data-original-token=\"v2-bafc15d56a95c47fb958e8a4ad581b3f\" class=\"origin_image zh-lightbox-thumb\" width=\"606\" data-original=\"https://picx.zhimg.com/v2-9d5b38120cf33d4fac2eb8e7b632619b_r.jpg\"/></figure><p data-pid=\"OOVBDRzX\">通过业务架构能看出产品系统功能对各业务线的支撑关系。</p><h2><b>04 三个架构之间的关系</b></h2><p data-pid=\"UNvu2bWD\">产品还没发展起来的时候，我们常常不会划分这么细，业务、产品功能和信息导航都很简单。</p><p data-pid=\"Zje6r-E8\">像那些初创小团队，前期的心思都会铺在产品核心功能上，业务单一、页面导航等界面信息也简单，直接用一张产品架构图就能涵盖所有内容。</p><p data-pid=\"IXE3iEOz\">随着产品用户的大量增长，产品能力会开始延伸，会有新的业务诞生，比如短视频App会延伸广告业务、电商业务，信息架构也会基础结构上做扩展，以不断支撑新业务的开展。</p><p data-pid=\"ECN1UVD6\">三个架构之间都是相互依赖相互一起成长。<b>业务架构负责战略和商业发展，产品架构通过系统功能满足用户需求，同时支撑业务的发展，信息架构负责用户体验</b>。</p><p data-pid=\"A7ak3-C5\"><b><i>推荐阅读</i></b></p><ul><li data-pid=\"21RjQMuK\"><a href=\"https://zhuanlan.zhihu.com/p/649616483\" class=\"internal\" target=\"_blank\">【瞬移的蚂蚁】</a><a href=\"https://zhuanlan.zhihu.com/p/649616483\" class=\"internal\" target=\"_blank\">产品经理方法论35话</a></li><li data-pid=\"6y7YtJVU\"><a href=\"https://zhuanlan.zhihu.com/p/649616483\" class=\"internal\" target=\"_blank\">【瞬移的蚂蚁】</a><a href=\"https://zhuanlan.zhihu.com/p/386974758\" class=\"internal\" target=\"_blank\">产品思维框架22话</a></li><li data-pid=\"x_l2GhsU\"><a href=\"https://zhuanlan.zhihu.com/p/649616483\" class=\"internal\" target=\"_blank\">【瞬移的蚂蚁】</a><a href=\"https://zhuanlan.zhihu.com/p/396118820\" class=\"internal\" target=\"_blank\">产品模板框架17话</a></li></ul><blockquote data-pid=\"H0-O_sPv\">关注我的同名微信公众号：产品经理方法论<br/>回复：产品模板，免费下载整套产品源文件<br/>回复：元件库，免费下载Axure元件库</blockquote>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 25951,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-2d24523056b6a8e388baa570f51ee190_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a60a53a27faf1fe12ab186c143599c82_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 1389,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3313225194}",
+      "attached_info": "Co0JCMiMyYaRjoeIkwEQBBoJNjMyNDgzNTg1IKKKt6sGKLwBMAZAPEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WggzMDI2MjIyMmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCjMzMTMyMjUxOTSKAQkzMDU5Mzc0OTGqAQlyZWNvbW1lbmTCASAxN2JjMzIwNmQxYzU2ZmE1ZDI1NjcyMzA5YWYyOTQ1NPIBCggMEgZOb3JtYWzyASgIChIkYmJkNjlkNDctMTJkZi00ZjA3LWEzY2QtZmVlOGY5ODQwYjlj8gEGCAsSAjExggIAiALso6T5jDOSAiAxN2JjMzIwNmQxYzU2ZmE1ZDI1NjcyMzA5YWYyOTQ1NJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyBiMWQ0NDIxMzhmODg0NTY4OGM5Y2QyMjRkNjBhNDQ1OZoDDQoCdjIQABoFb3RoZXKoA9/KAdgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoDlwMSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBD3BxjcBSIjdjItYmJlYTMwOGU3ODQ1NTVlMWYxMDVmOTUxNzEyN2ZhZDQ6LQgCENQFGJUCIiN2Mi03MDdmNmZlZmIyZGJmZTczODBiNjZkNjgzN2Y5N2E5MDotCAIQwwIY+wIiI3YyLTFjNTA1N2UwYmYwMzM0ZmVmMWM4YzdmYjgzZTBjMjdiOi0IAxDNBhi9AiIjdjItYjY5YTRiMmZjZmU4YTlhODk5YmM4MDU0YjA3N2Q1MGM6LQgCEIoHGMYFIiN2Mi1lYjQyNzc3YWZlMWY5YTEyNDc5NWRjYTM0ZmEzZTM2YjotCAIQmwYY+AQiI3YyLWRiZWJlMjY0Y2U1MDg2YjViODFhOTA4ZTQ3NTBiYjU4Oi0IAxC2AxibAyIjdjItMjViZTM1ZjQxNWQ2ZTIyNjQ5MGY2N2IyMjRmMGQ0ZmY6LQgDEN4EGLQEIiN2Mi1iYWZjMTVkNTZhOTVjNDdmYjk1OGU4YTRhZDU4MWIzZoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNzDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKDuoKU/gQUAAAAAAAAAAIkFAkd+wEg+2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFC5AGAKAGPqgGAZICJQoJNjMyNDgzNTg1EgozMzEzMjI1MTk0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "61_1755822232.576",
+      "type": "feed",
+      "offset": 61,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822232,
+      "updated_time": 1755822232,
+      "target": {
+        "id": "1941104042811040885",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941104042811040885",
+        "author": {
+          "id": "d70c61f96d8e9b797cb565dc5827ccc2",
+          "url": "https://api.zhihu.com/people/d70c61f96d8e9b797cb565dc5827ccc2",
+          "user_type": "organization",
+          "url_token": "liang-gong-hui-tu-hua-liu-cheng-tu",
+          "name": "良功绘图网站",
+          "headline": "免费在线制作 流程图、架构图、平面图，有模板、很简单！",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-4e821309274edc2f81ae32b5b6840e28_l.jpg?source=b6762063",
+          "is_org": true,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_org",
+              "description": "已认证机构号"
+            }
+          ],
+          "followers_count": 49,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755575267,
+        "updated_time": 1755575790,
+        "voteup_count": 11,
+        "thanks_count": 2,
+        "comment_count": 1,
+        "is_copyable": true,
+        "question": {
+          "id": "64048486",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/64048486",
+          "author": {
+            "id": "70d88bc7f781f0bb5f9a98e1b747bb43",
+            "url": "https://api.zhihu.com/people/70d88bc7f781f0bb5f9a98e1b747bb43",
+            "user_type": "people",
+            "url_token": "niu-niu-45-91",
+            "name": "牛牛",
+            "headline": "韩国自由行专家",
+            "avatar_url": "https://picx.zhimg.com/50/v2-41185c89d5089e2051df06b302b76353_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "业务流程图与功能流程图到底有什么区别？",
+          "created": 1502962220,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            368,
+            505
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-19bf996c64a6bba26e33eb13c28e85cf_720w.jpg?source=b6762063",
+        "excerpt": "业务流程图 vs 功能流程图：别再混为一谈！3 分钟搞懂核心差异（附案例 + 绘制指南）画图工具推荐： 良功绘图网站 免注册、免下载安装，打开网页就能直接画图； 提供丰富的参考模板，小白也能快速上手！做产品或梳理工作时，你是否遇到过这种尴尬：明明按要求画了 “用户退款流程图”，业务同事却说 “看不到谁负责”，技术同事又问 “系统要做哪些操作”？其实问题出在 “画错了图”—— 你可能把 “业务流程图” 画成了 “功能…",
+        "excerpt_new": "业务流程图 vs 功能流程图：别再混为一谈！3 分钟搞懂核心差异（附案例 + 绘制指南）画图工具推荐： 良功绘图网站 免注册、免下载安装，打开网页就能直接画图； 提供丰富的参考模板，小白也能快速上手！做产品或梳理工作时，你是否遇到过这种尴尬：明明按要求画了 “用户退款流程图”，业务同事却说 “看不到谁负责”，技术同事又问 “系统要做哪些操作”？其实问题出在 “画错了图”—— 你可能把 “业务流程图” 画成了 “功能…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<h2>业务流程图 vs 功能流程图：别再混为一谈！3 分钟搞懂核心差异（附案例 + 绘制指南）</h2><p data-pid=\"it2D6fPn\">画图工具推荐：<b>良功绘图网站</b></p><p data-pid=\"-1Jd7hv7\"><i>免注册、免下载安装，打开网页就能直接画图；</i></p><p data-pid=\"C4FR8LAz\"><i>提供丰富的参考模板，小白也能快速上手！</i></p><hr/><p data-pid=\"eHFpgn_r\">做产品或梳理工作时，你是否遇到过这种尴尬：明明按要求画了 “用户退款流程图”，业务同事却说 “看不到谁负责”，技术同事又问 “系统要做哪些操作”？其实问题出在 “画错了图”—— 你可能把 “业务流程图” 画成了 “功能流程图”。</p><p data-pid=\"xxwf5t6S\">这两种图看似都是 “流程可视化”，但核心目标、受众和画法完全不同：前者管 “业务怎么跑”，后者管 “系统怎么做”；前者面向业务、运营，后者面向技术、开发。今天就从定义、5 大核心差异、3 类典型场景，到绘制方法和工具，帮你彻底分清，再也不被同事吐槽 “图不对题”。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b6e3ac769d0fcaebe9397d2116a69e35_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"4484\" data-rawheight=\"3284\" data-original-token=\"v2-19bf996c64a6bba26e33eb13c28e85cf\" data-default-watermark-src=\"https://picx.zhimg.com/v2-9c442bab8a57d38c4c39c6f083620c39_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"4484\" data-original=\"https://pic2.zhimg.com/v2-b6e3ac769d0fcaebe9397d2116a69e35_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>一、先搞懂：什么是业务流程图？什么是功能流程图？</h3><p data-pid=\"5PrKHihv\">在讲区别前，先明确两个概念的核心定义 —— 记住这两句话，就能避免 80% 的混淆：</p><h3>1. 业务流程图（Business Process Flowchart）：“谁，在什么时间，做什么事”</h3><p data-pid=\"0mqZ4Qn-\">业务流程图是<b>站在 “业务全局” 视角</b>，描述 “一项业务从开始到结束，涉及哪些角色、部门，做哪些动作，遵循什么规则” 的图。它不关心 “系统怎么实现”，只关心 “业务怎么落地”，核心是 “理清责任、规范流程”。</p><p data-pid=\"Dh9cfNGG\">比如 “电商售后退款流程” 的业务流程图，会清晰标注：</p><ul><li data-pid=\"6K83v2yF\"> 角色：用户、客服、财务、仓储；<br/> </li><li data-pid=\"FbjBpd4c\"> 动作：用户提交退款申请→客服审核→财务打款→仓储召回商品；<br/> </li><li data-pid=\"K3WdOXd3\"> 规则：审核不通过需告知用户原因，退款金额 24 小时内到账。<br/> </li></ul><p data-pid=\"Y4XwkMgQ\">它的本质是 “业务规则的可视化”，让跨部门同事（比如客服和财务）知道 “自己该在哪个环节做什么”，避免责任推诿。</p><h3>2. 功能流程图（Functional Flowchart）：“系统 / 工具，要做哪些操作，输出什么结果”</h3><p data-pid=\"hfBNPkuS\">功能流程图是<b>站在 “执行载体” 视角</b>（通常是系统、软件或工具），描述 “为实现某个目标，载体需要完成哪些操作、处理哪些数据、输出什么结果” 的图。它不关心 “谁来做”，只关心 “怎么做”，核心是 “明确功能边界、指导开发”。</p><p data-pid=\"KI33EJU-\">同样以 “电商售后退款流程” 为例，功能流程图会聚焦 “退款系统” 的操作：</p><ul><li data-pid=\"X52Hnp1K\"> 操作：接收用户退款申请→校验订单状态→查询支付方式→生成退款单→调用支付接口打款→推送结果通知；<br/> </li><li data-pid=\"uXmgjmAq\"> 数据：输入 “订单号、退款金额”，输出 “退款单号、打款状态”；<br/> </li><li data-pid=\"frTtLtXa\"> 逻辑：若订单已发货，需先触发 “仓储召回” 接口，再执行打款。<br/> </li></ul><p data-pid=\"3koHb0sW\">它的本质是 “功能逻辑的可视化”，让技术同事（比如后端开发）知道 “系统需要开发哪些模块、处理哪些逻辑”，避免开发遗漏。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9e2f3b467d4732dbd3587888d92a382e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"5708\" data-rawheight=\"3880\" data-original-token=\"v2-ba735bce16e80b320edf5987b48fcc62\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-a02be174a8e2177abdb8c73b34dc2588_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"5708\" data-original=\"https://pica.zhimg.com/v2-9e2f3b467d4732dbd3587888d92a382e_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>二、5 大核心差异：从目标到受众，一分钟分清两种图</h3><p data-pid=\"hAN7OQSS\">很多人混淆两者，是因为没抓住 “核心差异点”。下面从 5 个维度对比，帮你快速区分，再也不画错图。</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>对比维度</th><th>业务流程图（Business Flowchart）</th><th>功能流程图（Functional Flowchart）</th></tr><tr><td>核心目标</td><td>梳理业务流程、明确责任分工、优化业务效率</td><td>定义系统功能、梳理技术逻辑、指导开发落地</td></tr><tr><td>核心要素</td><td>角色（人 / 部门）、业务步骤、规则、责任边界</td><td>功能模块、数据流转、逻辑判断、接口调用</td></tr><tr><td>受众人群</td><td>业务人员（运营、客服、财务）、管理者、跨部门协作同事</td><td>技术人员（开发、测试、运维）、产品经理（画原型时用）</td></tr><tr><td>符号特点</td><td>必用 “泳道”（划分部门 / 角色），常用 “开始 / 结束”“操作”“判断”</td><td>多用 “输入 / 输出”“流程线”“子流程”，少用 “泳道”</td></tr><tr><td>典型问题</td><td>“这个环节该谁负责？”“业务流程有没有冗余？”</td><td>“系统需要接收什么数据？”“异常情况怎么处理？”</td></tr></tbody></table><p data-pid=\"mMztBRAM\">举个直观例子：同样是 “用户注册”，两种图的画法完全不同 ——</p><p data-pid=\"IaCWZ3b8\"><b>业务流程图（用户注册）</b></p><p data-pid=\"MlaPaESe\">（泳道：用户、运营部、系统）</p><ol><li data-pid=\"mGbGyN7O\"> 用户→填写注册信息（姓名、手机号、密码）；<br/> </li><li data-pid=\"NDiADa-c\"> 用户→提交信息；<br/> </li><li data-pid=\"MKAv0UHK\"> 系统→验证信息（判断：是否符合格式？）；<br/> </li><li data-pid=\"sYVWrVNt\"> 否→用户→重新填写；<br/> </li><li data-pid=\"SBcCoErG\"> 是→运营部→审核信息（判断：是否为黑名单？）；<br/> </li></ol><ul><li data-pid=\"6VR5G2Xk\"> 否→系统→发送验证码；<br/> </li><li data-pid=\"26QX-RJX\"> 是→系统→提示 “无法注册”→结束；<br/> </li></ul><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-954fd5bd5b431403bbc766a7d9a5aa92_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"6128\" data-rawheight=\"4292\" data-original-token=\"v2-dbbda6f5bfdbc047f97d268bad3039fe\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-46a56c9d876ba247887071b6099cfcb7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"6128\" data-original=\"https://pic1.zhimg.com/v2-954fd5bd5b431403bbc766a7d9a5aa92_r.jpg\"/><figcaption>流程图</figcaption></figure><ol><li data-pid=\"sJOTJWIU\"> 用户→输入验证码；<br/> </li><li data-pid=\"Jwojz152\"> 系统→验证验证码（判断：是否正确？）；<br/> </li><li data-pid=\"XMxxq78q\"> 否→用户→重新获取；<br/> </li><li data-pid=\"B2CKcPok\"> 是→系统→创建账号→结束。<br/> </li></ol><p data-pid=\"AboRZ9TG\"><b>功能流程图（用户注册）</b></p><ol><li data-pid=\"4-ctEZWk\"> 输入：用户注册信息（姓名、手机号、密码）；<br/> </li><li data-pid=\"roHzXJHb\"> 功能 1：格式校验（规则：手机号 11 位、密码≥8 位）；<br/> </li><li data-pid=\"iNSUORNY\"> 异常：返回 “格式错误”→输出：错误提示；<br/> </li><li data-pid=\"rOJS8QKO\"> 正常：进入功能 2；<br/> </li><li data-pid=\"stu_1GPh\"> 功能 2：黑名单查询（调用 “用户黑名单接口”）；<br/> </li><li data-pid=\"nQmjp-et\"> 异常：返回 “黑名单用户”→输出：禁止注册提示；<br/> </li><li data-pid=\"hQltbkR3\"> 正常：进入功能 3；<br/> </li><li data-pid=\"bxA0nzQ5\"> 功能 3：发送验证码（调用 “短信接口”）；<br/> </li><li data-pid=\"NuEcuZPi\"> 异常：返回 “短信发送失败”→输出：重试提示；<br/> </li><li data-pid=\"I5E8j6Vg\"> 正常：进入功能 4；<br/> </li><li data-pid=\"X4bdPOkf\"> 输入：用户填写的验证码；<br/> </li><li data-pid=\"_sxRWTt8\"> 功能 4：验证码校验（比对系统存储的验证码）；<br/> </li><li data-pid=\"kBEk9Op-\"> 异常：返回 “验证码错误”→输出：重新输入提示；<br/> </li><li data-pid=\"4CcGytE8\"> 正常：进入功能 5；<br/> </li><li data-pid=\"X-U6tV5y\"> 功能 5：创建用户账号（写入数据库）；<br/> </li><li data-pid=\"OFYglICK\"> 输出：注册成功通知、用户 ID→结束。<br/> </li></ol><p data-pid=\"l40CsW7F\">看出来了吗？业务流程图关心 “谁在做”（用户填信息、运营审核），功能流程图关心 “系统做什么”（格式校验、调用接口）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bEQD9Cyq\">画图工具推荐：<b>良功绘图网站</b></p><p data-pid=\"mX5YDfM2\"><i>免注册、免下载安装，打开网页就能直接画图；</i></p><p data-pid=\"q8mOB7s5\"><i>提供丰富的参考模板，小白也能快速上手！</i></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-403872c9cfb510c6835feeeff1c4ce2b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2324\" data-rawheight=\"2804\" data-original-token=\"v2-d03319a5ecd8fcb3ace7516880b75ac6\" data-default-watermark-src=\"https://picx.zhimg.com/v2-f0fb6eb6a8fd18d1ab2a88937cd6081b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2324\" data-original=\"https://pic2.zhimg.com/v2-403872c9cfb510c6835feeeff1c4ce2b_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>三、3 类场景对比：什么时候画业务流程图？什么时候画功能流程图？</h3><p data-pid=\"fd7spc-G\">很多人问：“我该怎么判断，现在需要画哪种图？” 其实看 “你的目标和受众” 就行。下面 3 类常见场景，帮你精准选择。</p><h3>场景 1：跨部门协作 / 汇报工作 —— 画业务流程图</h3><p data-pid=\"JYmI-pV7\">当你需要 “让不同部门的人达成共识”，或 “向领导汇报业务进展” 时，一定要画业务流程图。因为这类场景的核心是 “明确责任、理清业务逻辑”，不需要讲技术细节。</p><p data-pid=\"gbmG9Eqt\">比如：运营部要推进 “双十一售后流程优化”，需要协调客服、财务、仓储三个部门。此时画业务流程图，用泳道划分三个部门的职责：</p><ul><li data-pid=\"plDQsRIi\"> 客服部：接收用户退款申请、审核订单；<br/> </li><li data-pid=\"MJz45s_W\"> 财务部：根据审核结果打款；<br/> </li><li data-pid=\"tsFLXtsg\"> 仓储部：收到退款后召回商品。<br/> 三个部门一看图就知道 “自己该做什么”，避免开会时互相扯皮 “这个不是我们的活”。<br/> </li></ul><p data-pid=\"dNdgTAnv\"><b>错误做法</b>：此时画功能流程图，讲 “退款系统怎么调用仓储接口”，业务同事根本听不懂，反而浪费时间。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-94382c55e4a14d22af6554f6e18ac08a_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3964\" data-rawheight=\"2940\" data-original-token=\"v2-8d63186f8e5eaaa60e993966aa6471a3\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-5a4faffeb8c9cfb6ec7be87a598b9025_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3964\" data-original=\"https://pica.zhimg.com/v2-94382c55e4a14d22af6554f6e18ac08a_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>场景 2：产品设计 / 技术开发 —— 画功能流程图</h3><p data-pid=\"Gz3gSsuB\">当你需要 “定义系统功能”，或 “给开发、测试讲清楚逻辑” 时，必须画功能流程图。因为这类场景的核心是 “明确技术细节、避免开发遗漏”，不需要讲业务角色。</p><p data-pid=\"my8KWZVh\">比如：产品经理要设计 “退款系统”，给后端开发讲需求。此时画功能流程图，明确：</p><ul><li data-pid=\"pgoDLki6\"> 系统需要接收哪些数据（订单号、退款金额、退款原因）；<br/> </li><li data-pid=\"5lMj8urq\"> 需要调用哪些接口（订单查询接口、支付接口、仓储接口）；<br/> </li><li data-pid=\"3kACCycR\"> 异常情况怎么处理（比如支付接口调用失败，要重试几次）。<br/> 开发看完图，就能清晰知道 “要开发哪些模块”，测试也能根据图写测试用例。<br/> </li></ul><p data-pid=\"OyU_jjSz\"><b>错误做法</b>：此时画业务流程图，讲 “客服怎么审核”，开发还是不知道 “系统要做什么”，导致需求落地时频繁返工。</p><h3>场景 3：流程优化 / 问题排查 —— 先画业务流程图，再画功能流程图</h3><p data-pid=\"svwgfJ6o\">当业务出现问题（比如用户投诉 “退款慢”），需要优化流程时，建议先画业务流程图，找到 “业务堵点”，再画功能流程图，优化 “技术实现”。</p><p data-pid=\"2GRHZOjS\">举个例子：用户投诉 “退款要等 3 天”，排查步骤如下 ——</p><ol><li data-pid=\"w9X7SHyS\"> 先画业务流程图：<br/> 用户申请→客服审核（1 天）→财务审核（1 天）→系统打款（1 天）→结束。<br/> 发现 “客服和财务审核各占 1 天” 是业务堵点，优化为 “客服审核通过后，自动触发财务打款，无需人工审核”。<br/> </li><li data-pid=\"BZmBKb7I\"> 再画功能流程图：<br/> 原流程：系统接收客服审核结果→人工触发财务打款→系统调用支付接口；<br/> 优化后：系统接收客服审核结果→自动调用 “财务打款接口”→无需人工操作。<br/> 技术同事根据新的功能流程图，修改系统逻辑，实现 “审核通过后自动打款”。<br/> 这样既解决了业务问题，又优化了技术实现，最终把退款时间从 3 天缩短到 1 小时。<br/> </li></ol><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c1e995558665c547afd341e8fd3382e1_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3044\" data-rawheight=\"5224\" data-original-token=\"v2-252e1dfe91642d5e6829f1213678a3ba\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-fe647e2c1380fa906e254f777931cdc4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3044\" data-original=\"https://pic2.zhimg.com/v2-c1e995558665c547afd341e8fd3382e1_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>四、绘制指南：业务流程图怎么画？功能流程图怎么画？</h3><p data-pid=\"DgBxx7Ek\">明确区别和场景后，再教你 “具体怎么画”—— 两种图的绘制步骤和工具不同，别再用错方法。</p><h3>1. 业务流程图：4 步画出 “责任清晰” 的图</h3><h3>步骤 1：明确业务范围，列出 “角色 + 步骤”</h3><p data-pid=\"hqqUHDYH\">先确定 “流程的起点和终点”，再列出 “涉及的角色 / 部门” 和 “核心业务步骤”。比如 “外卖订单退款流程”：</p><ul><li data-pid=\"eCI6-ORz\"> 起点：用户申请退款；终点：退款到账 / 退款失败；<br/> </li><li data-pid=\"bumlF5yT\"> 角色：用户、商家、平台客服、支付系统；<br/> </li><li data-pid=\"Dun2ntp5\"> 步骤：用户申请→商家审核→客服审核→支付系统打款→用户收到通知。<br/> </li></ul><h3>步骤 2：用 “泳道” 划分角色，避免责任不清</h3><p data-pid=\"EWVzgz_M\">这是业务流程图的核心！用 “横向或纵向泳道”，把每个角色 / 部门对应的步骤放在对应的泳道里。比如横向泳道：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>用户</th><th>商家</th><th>平台客服</th><th>支付系统</th></tr><tr><td>申请退款</td><td></td><td></td><td></td></tr><tr><td></td><td>审核申请</td><td></td><td></td></tr><tr><td></td><td></td><td>二次审核</td><td></td></tr><tr><td></td><td></td><td></td><td>执行打款</td></tr><tr><td>收到通知</td><td></td><td></td><td></td></tr></tbody></table><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-80e245da83c106f7a22884416a2e99af_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3976\" data-rawheight=\"3272\" data-original-token=\"v2-e517e74814ebefd61bacf5238eea3647\" data-default-watermark-src=\"https://picx.zhimg.com/v2-8f88919deeb58ba029d3588dd1a4cc2b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3976\" data-original=\"https://pic4.zhimg.com/v2-80e245da83c106f7a22884416a2e99af_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>步骤 3：添加 “判断环节”，补全分支</h3><p data-pid=\"HeeuklfU\">找出流程中的 “决策点”，用菱形表示，明确 “是 / 否” 分支。比如商家审核后，有两个分支：</p><ul><li data-pid=\"W2Xyvvm0\"> 是→平台客服二次审核；<br/> </li><li data-pid=\"eYFoM3Iy\"> 否→用户收到 “退款驳回通知”→结束。<br/> </li></ul><h3>步骤 4：检查优化，确保 “每个步骤有责任人”</h3><p data-pid=\"ctKVtCTX\">画完后，问自己 3 个问题：</p><ul><li data-pid=\"X6iQBT3y\"> 每个步骤都有对应的角色吗？（避免 “没人管” 的步骤）；<br/> </li><li data-pid=\"wZNfFcf4\"> 流程有没有遗漏？（比如商家审核通过后，要不要通知用户？）；<br/> </li><li data-pid=\"VxFPHniy\"> 逻辑通顺吗？（比如能不能先打款，再审核？）。<br/> </li></ul><h3>推荐工具：适合画业务流程图的 3 款工具</h3><ul><li data-pid=\"FH53WWAS\"><b>良功绘图网站</b>：模板多（有 “电商售后”“人事招聘” 等业务流程模板），支持泳道，新手可直接套用；<br/> </li><li data-pid=\"JigrEnYM\"><b>飞书多维表格</b>：支持在流程图中关联 “负责人、截止时间”，适合团队协作优化业务流程；<br/> </li><li data-pid=\"4dwCPgvS\"><b>Microsoft Visio</b>：泳道功能强大，支持跨职能流程图，适合画复杂业务流程（比如涉及 5 个以上部门）。<br/> </li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cd5a74503a9b7f6f6e1a445d23ce4ca1_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"4164\" data-rawheight=\"3064\" data-original-token=\"v2-c1e4b17e94254e01748a395b05e7c200\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-c3d9ee76f9e176289a6eaddf70651d09_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"4164\" data-original=\"https://picx.zhimg.com/v2-cd5a74503a9b7f6f6e1a445d23ce4ca1_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>2. 功能流程图：4 步画出 “逻辑严谨” 的图</h3><h3>步骤 1：明确功能目标，列出 “输入 + 输出”</h3><p data-pid=\"FXEU9mAN\">先确定 “功能要实现什么目标”，再列出 “需要输入的数据” 和 “最终输出的结果”。比如 “订单支付功能”：</p><ul><li data-pid=\"OmtXnF4S\"> 目标：完成用户支付，生成支付记录；<br/> </li><li data-pid=\"-CuZTAw6\"> 输入：订单 ID、支付金额、支付方式；<br/> </li><li data-pid=\"rwwMR_xn\"> 输出：支付成功 / 失败通知、支付单号。<br/> </li></ul><h3>步骤 2：拆解 “功能模块”，梳理数据流转</h3><p data-pid=\"reElGKPl\">把功能拆成 “多个子模块”，按 “数据流转顺序” 排列。比如 “订单支付功能” 拆成：</p><ol><li data-pid=\"570Fs263\"> 接收支付请求（输入数据）；<br/> </li><li data-pid=\"KVH60A2F\"> 校验订单状态（判断：订单是否已支付？）；<br/> </li><li data-pid=\"Vzj6NzRV\"> 调用支付接口（微信 / 支付宝接口）；<br/> </li><li data-pid=\"46aAjtg4\"> 接收支付结果（成功 / 失败）；<br/> </li><li data-pid=\"GNigPa46\"> 生成支付记录（写入数据库）；<br/> </li><li data-pid=\"CwOE5Ej1\"> 输出支付结果。<br/> </li></ol><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9a304321ac56e57be9d23c87525a733d_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"4724\" data-rawheight=\"3164\" data-original-token=\"v2-18a84c77f88b33c84c5326264d9ece9c\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-a74d4b1261a669d5f9a1230c3beb2ca0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"4724\" data-original=\"https://pic4.zhimg.com/v2-9a304321ac56e57be9d23c87525a733d_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>步骤 3：补充 “异常逻辑”，避免开发遗漏</h3><p data-pid=\"PThXEfsA\">这是功能流程图的核心！技术开发最关心 “异常情况怎么处理”，所以要把所有可能的异常都画出来。比如：</p><ul><li data-pid=\"xmG-qTMv\"> 校验订单时，若 “已支付”→输出 “订单已支付”；<br/> </li><li data-pid=\"HwxL_jIm\"> 调用支付接口时，若 “接口超时”→重试 3 次，仍失败则输出 “支付失败，请重试”；<br/> </li><li data-pid=\"00MMoF6l\"> 生成支付记录时，若 “数据库错误”→记录日志，通知运维。<br/> </li></ul><h3>步骤 4：标注 “接口 / 规则”，方便开发对接</h3><p data-pid=\"DTD0XAU1\">在需要调用外部接口或有明确规则的地方，用 “备注” 标注清楚。比如：</p><ul><li data-pid=\"AO-Vwf4Q\"> 调用支付接口时，备注 “调用微信支付 V3 接口，超时时间 5 秒”；<br/> </li><li data-pid=\"oEujbxlg\"> 校验订单时，备注 “订单状态：0 - 未支付，1 - 已支付，2 - 已取消”。<br/> </li></ul><h3>推荐工具：适合画功能流程图的 3 款工具</h3><ul><li data-pid=\"Zw1Gf8OZ\"><b>良功绘图网站</b>：支持 “子流程”“接口” 符号，可导出为 PDF/PNG，方便附在需求文档里；<br/> </li><li data-pid=\"U-z0qJQH\"><b>Axure RP</b>：可在功能流程图中添加 “交互”，比如点击 “支付接口” 显示接口参数，适合产品经理给开发讲需求；<br/> </li><li data-pid=\"i_JqkPZ1\"><b>Lucidchart</b>：支持 “数据流程图（DFD）”，适合画复杂系统的功能逻辑（比如电商的订单系统）。<br/> </li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-15270ba0f02a5b53364c73887abaaf15_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3216\" data-rawheight=\"4384\" data-original-token=\"v2-d3b87e27048360ec003cea9281798a5f\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-520455e23b2559dcbf6dc5df6b219ce8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3216\" data-original=\"https://picx.zhimg.com/v2-15270ba0f02a5b53364c73887abaaf15_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>五、避坑指南：3 个常见错误，新手一定要避开</h3><ol><li data-pid=\"Qu5Ze5Zi\"><b>错误 1：业务流程图里加 “系统功能”，画成 “四不像”</b><br/> 比如画 “客服审核退款” 的业务流程图时，加了 “系统调用退款接口” 的步骤，业务同事看不懂，技术同事又觉得不详细。正确做法：业务流程图只写 “客服点击审核通过”，不写 “系统怎么调用接口”—— 系统操作属于功能流程图的内容。<br/> </li><li data-pid=\"69Fl7yWs\"><b>错误 2：功能流程图里加 “业务角色”，导致逻辑混乱</b><br/> 比如画 “订单支付” 的功能流程图时，加了 “客服审核支付” 的步骤，开发不知道 “这个步骤是系统自动做，还是人工做”。正确做法：功能流程图只写 “系统模块”，不写 “人做的操作”—— 人工操作属于业务流程图的内容。<br/> </li><li data-pid=\"hQZmTqZv\"><b>错误 3：只画 “正常流程”，忽略 “异常情况”</b><br/> 无论是业务流程图还是功能流程图，都要补全 “异常分支”。比如业务流程图里，“商家审核不通过” 要画出来；功能流程图里，“接口调用失败” 要画出来。否则实际执行时，遇到问题没参考，流程就会卡住。<br/> </li></ol><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-5f114af2679d28cb73d1092f0abf55af_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3196\" data-rawheight=\"4136\" data-original-token=\"v2-fef51de159a4599d552505d962663017\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-6998dfcbf731857063ae3defaa71bc98_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3196\" data-original=\"https://picx.zhimg.com/v2-5f114af2679d28cb73d1092f0abf55af_r.jpg\"/><figcaption>流程图</figcaption></figure><h3>六、总结：从 “画对图” 到 “用好图”，让流程可视化更高效</h3><p data-pid=\"uCkVbA28\">最后用一句话总结：<b>业务流程图管 “人怎么做业务”，功能流程图管 “系统怎么做功能”</b>。</p><ul><li data-pid=\"Xdb14QLX\"> 当你需要和业务同事对齐流程、明确责任时，画业务流程图，用泳道划分角色，让每个人知道 “自己该做什么”；<br/> </li><li data-pid=\"aHPhe--3\"> 当你需要给技术同事讲需求、指导开发时，画功能流程图，补全异常逻辑，让开发知道 “系统该做什么”；<br/> </li><li data-pid=\"qQ7RhkFZ\"> 当你需要优化业务时，先画业务流程图找堵点，再画功能流程图优化技术实现，两者结合才能真正解决问题。<br/> </li></ul><p data-pid=\"dJeJlJ1v\">画图工具推荐：<b>良功绘图网站</b></p><p data-pid=\"KUImFzgK\"><i>免注册、免下载安装，打开网页就能直接画图；</i></p><p data-pid=\"wSklwBkA\"><i>提供丰富的参考模板，小白也能快速上手！</i></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1119,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-19bf996c64a6bba26e33eb13c28e85cf_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f8e54734976a34825be65cad2865db0d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5145174bc711c49248d80e4e314eec27_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d03319a5ecd8fcb3ace7516880b75ac6_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8d63186f8e5eaaa60e993966aa6471a3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-252e1dfe91642d5e6829f1213678a3ba_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-882c73403747d9635c3c900085c5e8d9_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-9617ee2a5c03414cf70c1221536c4ec4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-921eef831e853f0339cddd3325facfd7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e139310919e2520b88d86e6f017dd4a1_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-fef51de159a4599d552505d962663017_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 73,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941104042811040885}",
+      "attached_info": "CrEKCMiMyYaRjoeIkwEQBBoJNzQyOTA3MTQwIOPnj8UGKAswAUA9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoIMTc4NDU0MDNiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxMTA0MDQyODExMDQwODg1igEINjQwNDg0ODaqAQlyZWNvbW1lbmTCASBkNzBjNjFmOTZkOGU5Yjc5N2NiNTY1ZGM1ODI3Y2NjMvIBCggMEgZOb3JtYWzyASgIChIkZWFlNzk4ODAtMjhjOC00ODcyLWJmYTgtZDA4ZWM5ZDRlZjM18gEGCAsSAjExggIAiALso6T5jDOSAiBkNzBjNjFmOTZkOGU5Yjc5N2NiNTY1ZGM1ODI3Y2NjMpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCA/oCC05PUk1BTF9GTE9XigMgYjFkNDQyMTM4Zjg4NDU2ODhjOWNkMjI0ZDYwYTQ0NTmaAw0KAnYyEAAaBW90aGVyqAPfCNgDAPoDpAQSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBCEIxjUGSIjdjItMTliZjk5NmM2NGE2YmJhMjZlMzNlYjEzYzI4ZTg1Y2Y6LQgEEMwsGKgeIiN2Mi1iYTczNWJjZTE2ZTgwYjMyMGVkZjU5ODdiNDhmY2M2MjotCAIQ8C8YxCEiI3YyLWRiYmRhNmY1YmZkYmMwNDdmOTdkMjY4YmFkMzAzOWZlOi0IAhCUEhj0FSIjdjItZDAzMzE5YTVlY2Q4ZmNiM2FjZTc1MTY4ODBiNzVhYzY6LQgCEPweGPwWIiN2Mi04ZDYzMTg2ZjhlNWVhYWE2MGU5OTM5NjZhYTY0NzFhMzotCAIQ5BcY6CgiI3YyLTI1MmUxZGZlOTE2NDJkNWU2ODI5ZjEyMTM2NzhhM2JhOi0IBBCIHxjIGSIjdjItZTUxN2U3NDgxNGViZWZkNjFiYWNmNTIzOGVlYTM2NDc6LQgEEMQgGPgXIiN2Mi1jMWU0YjE3ZTk0MjU0ZTAxNzQ4YTM5NWIwNWU3YzIwMDotCAQQ9CQY3BgiI3YyLTE4YTg0Yzc3Zjg4YjMzYzg0YzUzMjYyNjRkOWVjZTljOi0IAhCQGRigIiIjdjItZDNiODdlMjcwNDgzNjBlYzAwM2NlYTkyODE3OThhNWY6LQgCEPwYGKggIiN2Mi1mZWY1MWRlMTU5YTQ1OTlkNTUyNTA1ZDk2MjY2MzAxN4AEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIBE5lD+BBQAAAAAAAAAAiQUCR37ASD7ZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AULkAYAoAY/qAYDkgIuCgk3NDI5MDcxNDASEzE5NDExMDQwNDI4MTEwNDA4ODUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "62_1755822232.569",
+      "type": "feed",
+      "offset": 62,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822232,
+      "updated_time": 1755822232,
+      "target": {
+        "id": "1920196178445841489",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1920196178445841489",
+        "author": {
+          "id": "1752badcd3efdb5ce79050bb870d20e6",
+          "url": "https://api.zhihu.com/people/1752badcd3efdb5ce79050bb870d20e6",
+          "user_type": "people",
+          "url_token": "5a59",
+          "name": "张翼ZYi",
+          "headline": "程序员，连续创业者，前美团技术专家，深耕AI应用",
+          "avatar_url": "https://picx.zhimg.com/50/v2-7e36d706fdce08e10939ad4077bf00a1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 2073,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1750590444,
+        "updated_time": 1750590444,
+        "voteup_count": 97,
+        "thanks_count": 4,
+        "comment_count": 12,
+        "is_copyable": true,
+        "question": {
+          "id": "465494790",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/465494790",
+          "author": {
+            "id": "cfce35514e9bd6c80440b53cf5d76f1c",
+            "url": "https://api.zhihu.com/people/cfce35514e9bd6c80440b53cf5d76f1c",
+            "user_type": "people",
+            "url_token": "li-43-53",
+            "name": "树的葡萄",
+            "headline": "高中老师，公众号：晓技术",
+            "avatar_url": "https://picx.zhimg.com/50/ac19340e02767cc5e70f2703864fb1b8_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 33390,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "Windows有哪些神级软件？",
+          "created": 1623898162,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 13,
+          "bound_topic_ids": [
+            505,
+            3232,
+            3458,
+            3798,
+            72317
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "先说一个绝对没人知道的，ZoomIt。 有什么用呢？ 可以通过快捷键放大屏幕，主要在录屏演示的时候非常方便。   下面再说几个我常用的： 1、uTools神器级效率工具，文件搜索、翻译、OCR、截图、剪贴板管理……一堆插件装完根本停不下来。 Win 上的 Alfred。 基础功能就足够用了。 说实话，从uTools最开始宣传，到现在，一步步看着uTools壮大，真的很强。 甚至我现在 Mac 上都想把Alfred换成 uTools 了。 2、沉浸式翻译这个估计很多人…",
+        "excerpt_new": "先说一个绝对没人知道的，ZoomIt。 有什么用呢？ 可以通过快捷键放大屏幕，主要在录屏演示的时候非常方便。   下面再说几个我常用的： 1、uTools神器级效率工具，文件搜索、翻译、OCR、截图、剪贴板管理……一堆插件装完根本停不下来。 Win 上的 Alfred。 基础功能就足够用了。 说实话，从uTools最开始宣传，到现在，一步步看着uTools壮大，真的很强。 甚至我现在 Mac 上都想把Alfred换成 uTools 了。 2、沉浸式翻译这个估计很多人…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"T_ibZ3uJ\">先说一个绝对没人知道的，ZoomIt。</p><p data-pid=\"uF4IFUdo\">有什么用呢？</p><p data-pid=\"ib4_dYnT\">可以通过快捷键放大屏幕，主要在录屏演示的时候非常方便。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0bfcddac699898093a765d9054e261b3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"435\" data-rawheight=\"567\" data-original-token=\"v2-f3f2915216262d2b62f1c63eca80a6d2\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-2a4564dd3caffe89b4e027202c859a24_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"435\" data-original=\"https://picx.zhimg.com/v2-0bfcddac699898093a765d9054e261b3_r.jpg\"/></figure><p data-pid=\"2hGvMfc6\">下面再说几个我常用的：</p><p data-pid=\"c7sT_xRX\"><b>1、uTools</b></p><p data-pid=\"sC28Pafh\">神器级效率工具，文件搜索、翻译、OCR、截图、剪贴板管理……一堆插件装完根本停不下来。 Win 上的 Alfred。</p><p data-pid=\"riR4kXst\">基础功能就足够用了。</p><p data-pid=\"jHHbKUFN\">说实话，从uTools最开始宣传，到现在，一步步看着uTools壮大，真的很强。</p><p data-pid=\"iYrkbrm7\">甚至我现在 Mac 上都想把Alfred换成 uTools 了。</p><p data-pid=\"oPuA7_NI\"><b>2、沉浸式翻译</b></p><p data-pid=\"V9lGf1fw\">这个估计很多人应该都知道，不管是读技术文档、逛 Stack Overflow、刷 Medium，沉浸式翻译都能无感翻译网页，还支持双语对照。</p><p data-pid=\"_3DAQqie\">体验真的很好。</p><p data-pid=\"GO43lDs1\">不过缺点是不支持划词翻译，有时候还是有这个需求的。</p><p data-pid=\"Ju7o5XLZ\">现在就搭配 uTools 的翻译插件来用。</p><p data-pid=\"JrtgMvX5\"><b>3、Cherry Studio</b></p><p data-pid=\"Vct8abpw\">非常方便实用各类大模型，只需要找到一个稳定的API就行，颜值高，使用方便，基本上每天都会用。</p><p data-pid=\"dvteUfa-\"><b>4、NoTab（我自己开发的浏览器插件，一定要试试）</b></p><p data-pid=\"hABwZMpS\">这条是夹带私货（逃，是我自己开发的浏览器插件，真的好用，我确实每天在用。</p><p data-pid=\"CM3BJVkG\">NoTab 可以在当前页面预览链接内容，不用一堆标签页乱飞，特别适合在知乎、GitHub、Reddit、Google 搜索时快速预览内容。</p><p data-pid=\"Zi30ZTFq\">还支持快速翻译、快速搜索等功能。</p><p data-pid=\"MYsgYoDQ\">欢迎试试 <a href=\"https://link.zhihu.com/?target=https%3A//notab.wand.tools/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">notab.wand.tools/</span><span class=\"invisible\"></span></a></p><p data-pid=\"CRLgMoNc\"><b>5、BandicamPortable</b></p><p data-pid=\"IPaHg7o2\">录频神器，免费好用，支持模式多，还支持虚拟摄像头，非常推荐。</p><p data-pid=\"iGM6B_dw\"><b>6、ShareX</b></p><p data-pid=\"eyc3QlVL\">超好用的截图软件，开源免费，只有你想不到的操作，没有他做不到的。</p><p data-pid=\"b5Aonl-p\"><b>7、PotPlayer </b></p><p data-pid=\"fuT_E6Tz\">巨好用的播放器，免费，我最喜欢用它的倍速功能，最高支持12倍速。</p><p data-pid=\"NZ0An-Mq\"><b>8、SpaceSniffer</b></p><p data-pid=\"adGnm18j\">用来分析磁盘空间用的，快速好用，而且轻量级。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 11035,
+        "favorite_count": 408,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1920196178445841489}",
+      "attached_info": "CqwGCMiMyYaRjoeIkwEQBBoJNzMzNDY2Mjg2IOzH38IGKGEwDEA+SkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDcyMDgwNDM5OQoYACAAOgBaCDY1NzIyODk0YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkyMDE5NjE3ODQ0NTg0MTQ4OYoBCTQ2NTQ5NDc5MKoBCXJlY29tbWVuZMIBIDE3NTJiYWRjZDNlZmRiNWNlNzkwNTBiYjg3MGQyMGU28gEKCAwSBk5vcm1hbPIBKAgKEiRkN2Y0ZGE1OC1kMTBmLTQ4YTItOTFhZS0yNTZhZTAyYzEzOTbyAQYICxICMTGCAgCIAuyjpPmMM5ICIDE3NTJiYWRjZDNlZmRiNWNlNzkwNTBiYjg3MGQyMGU2mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIfVFNfU09VUkNFX1pSRUNBTExfSVRFTUNGX1VQVk9URegCAvoCC05PUk1BTF9GTE9XigMgYjFkNDQyMTM4Zjg4NDU2ODhjOWNkMjI0ZDYwYTQ0NTmaAw0KAnYyEAAaBW90aGVyqAObVtgDAOoDGXRleHRBbGxTaXRlQWN0aW9uSXRlbUNGVjL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCzAxi3BCIjdjItZjNmMjkxNTIxNjI2MmQyYjYyZjFjNjNlY2E4MGE2ZDKABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACADG6lP4EFAAAAAAAAAACJBQJHfsBIPtk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQuQBgCgBkCoBgCSAi4KCTczMzQ2NjI4NhITMTkyMDE5NjE3ODQ0NTg0MTQ4ORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "63_1755822232.237",
+      "type": "feed",
+      "offset": 63,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822232,
+      "updated_time": 1755822232,
+      "target": {
+        "id": "1889314805845849456",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1889314805845849456",
+        "author": {
+          "id": "23d98be065b3107349b0886cbcb6d910",
+          "url": "https://api.zhihu.com/people/23d98be065b3107349b0886cbcb6d910",
+          "user_type": "people",
+          "url_token": "shu-guang-nu-shen-43",
+          "name": "曙光女神",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-6cb8e03cc50c8acc696839eebcc25810_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 67,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1743227751,
+        "updated_time": 1743227751,
+        "voteup_count": 399,
+        "thanks_count": 18,
+        "comment_count": 19,
+        "is_copyable": true,
+        "question": {
+          "id": "1887791840390000908",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1887791840390000908",
+          "author": {
+            "id": "1d48628de095c70eac5273b23c22dad2",
+            "url": "https://api.zhihu.com/people/1d48628de095c70eac5273b23c22dad2",
+            "user_type": "people",
+            "url_token": "fan-36-79-25",
+            "name": "FAN範先生",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-5fc67a2efe2e8f52b40fac8a80da1442_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 30,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么现在很多人推崇国外原版教材？",
+          "created": 1742864648,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 23,
+          "bound_topic_ids": [
+            801,
+            88768,
+            2569003
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "为什么？因为现在国内的教材太烂了啊，国外的教材编者的初衷，是真的把读者当小白，想着快点把人教会，国内的教材勒？那是真的想把人教会是吗？我怎么感觉是作者一直在明里暗里的显示自己有多厉害勒？难道我们国家的数理化教材真的一直都是这样吗？直到我看到了上个世纪60 70年代那时候的教材才明白，现在的教材有多烂 通过百度网盘分享的文件：数理化自学丛书 链接: https://pan.baidu.com/s/1zKv-Tzt1uCEwc9BGI6fqqQ 提取码:dyc2 复制这段内容打开「百度网…",
+        "excerpt_new": "为什么？因为现在国内的教材太烂了啊，国外的教材编者的初衷，是真的把读者当小白，想着快点把人教会，国内的教材勒？那是真的想把人教会是吗？我怎么感觉是作者一直在明里暗里的显示自己有多厉害勒？难道我们国家的数理化教材真的一直都是这样吗？直到我看到了上个世纪60 70年代那时候的教材才明白，现在的教材有多烂 通过百度网盘分享的文件：数理化自学丛书 链接: https://pan.baidu.com/s/1zKv-Tzt1uCEwc9BGI6fqqQ 提取码:dyc2 复制这段内容打开「百度网…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"RkmqBVDV\">为什么？因为现在国内的教材太烂了啊，国外的教材编者的初衷，是真的把读者当小白，想着快点把人教会，国内的教材勒？那是真的想把人教会是吗？我怎么感觉是作者一直在明里暗里的显示自己有多厉害勒？难道我们国家的数理化教材真的一直都是这样吗？直到我看到了上个世纪60 70年代那时候的教材才明白，现在的教材有多烂</p><p data-pid=\"4EV1sLNy\">通过百度网盘分享的文件：数理化自学丛书</p><p data-pid=\"0k8Nbjri\">链接:<a href=\"https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1zKv-Tzt1uCEwc9BGI6fqqQ\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.baidu.com/s/1zKv-Tz</span><span class=\"invisible\">t1uCEwc9BGI6fqqQ</span><span class=\"ellipsis\"></span></a> </p><p data-pid=\"ifakvIwH\">提取码:dyc2</p><p data-pid=\"kDWeaz1N\">复制这段内容打开「百度网盘APP 即可获取」</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 90182,
+        "favorite_count": 978,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1889314805845849456}",
+      "attached_info": "CtwGCMiMyYaRjoeIkwEQBBoJNzIwMzc3NjQ3IOeWnr8GKI8DMBNAP0ooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AEpICh9UU19TT1VSQ0VfWlJFQ0FMTF9JVEVNQ0ZfVVBWT1RFEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3MTY4ODAyNTYKGAAgADoASkgKH1RTX1NPVVJDRV9aUkVDQUxMX0lURU1DRl9VUFZPVEUSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDcxNjg4MDI1NgoYACAAOgBaCTExNDE1ODE2N2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE4ODkzMTQ4MDU4NDU4NDk0NTaKARMxODg3NzkxODQwMzkwMDAwOTA4qgEJcmVjb21tZW5kwgEgMjNkOThiZTA2NWIzMTA3MzQ5YjA4ODZjYmNiNmQ5MTDyAQoIDBIGTm9ybWFs8gEoCAoSJDFlODYyNDU2LWQyOGEtNDE1Yi1iODU1LTk3YTI2ZTk2ZDQyYfIBBggLEgIxMYICAIgC7KOk+YwzkgIgMjNkOThiZTA2NWIzMTA3MzQ5YjA4ODZjYmNiNmQ5MTCaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhVRdWVzdGlvbklzb2xhdGlvblJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCAvoCC05PUk1BTF9GTE9XigMgYjFkNDQyMTM4Zjg4NDU2ODhjOWNkMjI0ZDYwYTQ0NTmaAw0KAnYyEAAaBW90aGVyqAPGwAXYAwD6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAg8ZGcP4EFAAAAAAAAAACJBQJHfsBIPtk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQuQBgCgBkGoBgCSAi4KCTcyMDM3NzY0NxITMTg4OTMxNDgwNTg0NTg0OTQ1NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "64_1755822232.268",
+      "type": "feed",
+      "offset": 64,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822232,
+      "updated_time": 1755822232,
+      "target": {
+        "id": "1942003418379052132",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1942003418379052132",
+        "author": {
+          "id": "0f7d5dca5b97c9d21b73abd9741b5fd3",
+          "url": "https://api.zhihu.com/people/0f7d5dca5b97c9d21b73abd9741b5fd3",
+          "user_type": "people",
+          "url_token": "26-34-11-49-80",
+          "name": "永恒",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-d24ed870663f60e7a6b4a38a7e3ed4df_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 0,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755789695,
+        "updated_time": 1755789695,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "comment_count": 1,
+        "is_copyable": true,
+        "question": {
+          "id": "1930042690881446601",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1930042690881446601",
+          "author": {
+            "id": "6df8b6db5894380593bc40e28be460d5",
+            "url": "https://api.zhihu.com/people/6df8b6db5894380593bc40e28be460d5",
+            "user_type": "people",
+            "url_token": "70-79-49-9",
+            "name": "淡淡的忧伤",
+            "headline": "性格内向，喜欢旅游，喜欢到处玩",
+            "avatar_url": "https://picx.zhimg.com/50/v2-38b0fe44f668a037c6e6f205d3becbde_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 437,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "应届毕业生，找不到与自己专业相关的工作，是应该出去还是待在家里找其他的工作?",
+          "created": 1752938035,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            2611
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "其实啊，应届生找工作，就像刚学走路，没人一开始就走得稳。不管出去还是在家，核心是“动起来”：投简历、跑面试、哪怕跟行业里的人聊聊天，都比坐在原地纠结强。专业不对口很常见，很多人工作几年后才找到真正适合自己的方向。重要的是先跨出第一步，在做事的过程中慢慢看清自己想要什么，比空想“选哪条路”更实在。",
+        "excerpt_new": "其实啊，应届生找工作，就像刚学走路，没人一开始就走得稳。不管出去还是在家，核心是“动起来”：投简历、跑面试、哪怕跟行业里的人聊聊天，都比坐在原地纠结强。专业不对口很常见，很多人工作几年后才找到真正适合自己的方向。重要的是先跨出第一步，在做事的过程中慢慢看清自己想要什么，比空想“选哪条路”更实在。",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"-9nSRkUn\">其实啊，应届生找工作，就像刚学走路，没人一开始就走得稳。不管出去还是在家，核心是“动起来”：投简历、跑面试、哪怕跟行业里的人聊聊天，都比坐在原地纠结强。专业不对口很常见，很多人工作几年后才找到真正适合自己的方向。重要的是先跨出第一步，在做事的过程中慢慢看清自己想要什么，比空想“选哪条路”更实在。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 56,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1942003418379052132}",
+      "attached_info": "CukFCMiMyYaRjoeIkwEQBBoJNzQzMzQwMTU2IP/ynMUGKAAwAUBASiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKKAodVFNfU09VUkNFX1dBUk1VUF9QUkVUUkFJTl9JMkkSATAYACAAOgBaCTExNTg2OTI2MGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDIwMDM0MTgzNzkwNTIxMzKKARMxOTMwMDQyNjkwODgxNDQ2NjAxqgEJcmVjb21tZW5kwgEgMGY3ZDVkY2E1Yjk3YzlkMjFiNzNhYmQ5NzQxYjVmZDPyAQoIDBIGTm9ybWFs8gEoCAoSJGE4N2ZlOWVhLWZmZWYtNGU3YS04ODllLWMzMmIwZTYwMDUxZfIBBggLEgIxMYICAIgC7KOk+YwzkgIgMGY3ZDVkY2E1Yjk3YzlkMjFiNzNhYmQ5NzQxYjVmZDOaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCAvoCC05PUk1BTF9GTE9XigMgYjFkNDQyMTM4Zjg4NDU2ODhjOWNkMjI0ZDYwYTQ0NTmaAw0KAnYyEAAaBW90aGVyqAM42AMA6gMTcHJldHJhaW5faTJpX3JlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOCuf34/gQUAAAAAAAAAAIkFAkd+wEg+2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFC5AGAKAGQqgGAZICLgoJNzQzMzQwMTU2EhMxOTQyMDAzNDE4Mzc5MDUyMTMyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "65_1755822232.734",
+      "type": "feed",
+      "offset": 65,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822232,
+      "updated_time": 1755822232,
+      "target": {
+        "id": "1930674886226969280",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1930674886226969280",
+        "author": {
+          "id": "ce40c704800079110fac389de1d6f57f",
+          "url": "https://api.zhihu.com/people/ce40c704800079110fac389de1d6f57f",
+          "user_type": "people",
+          "url_token": "s.invalid",
+          "name": "invalid s",
+          "headline": "我特别喜欢和聪明人交往，因为不用考虑他们的尊严——乔布斯",
+          "avatar_url": "https://picx.zhimg.com/50/v2-3be9cec540b8e7da359d411dee690100_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "编程等 2 个话题下的优秀答主",
+              "topic_names": [
+                "编程",
+                "程序员"
+              ],
+              "topic_ids": [
+                1354,
+                707
+              ]
+            }
+          ],
+          "followers_count": 285888,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1753088763,
+        "updated_time": 1753100179,
+        "voteup_count": 407,
+        "thanks_count": 17,
+        "comment_count": 24,
+        "is_copyable": false,
+        "question": {
+          "id": "309704636",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/309704636",
+          "author": {
+            "id": "c581403154a4ab233d36229b09b3197d",
+            "url": "https://api.zhihu.com/people/c581403154a4ab233d36229b09b3197d",
+            "user_type": "people",
+            "url_token": "bai-guo-80",
+            "name": "沈拙言",
+            "headline": "言笑晏晏",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-c6e0dcadc396a5e93303918ea9da689a_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 62,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "Linux系统有哪些缺点？",
+          "created": 1547966559,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 8,
+          "bound_topic_ids": [
+            824,
+            1355,
+            3559
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-1ab795fc3b4dde9f412cf88aa90c3647_720w.jpg?source=b6762063",
+        "excerpt": "一言以蔽之：过于专业，过于自由。 一、过于专业我在2000年左右接触Linux，虽然用的不多但一直在用；大约08年左右开始做Linux软件开发。直到12年前后，我才算玩转了Linux，可以从内核到网络再到权限系统随便改、大部分时候都可以“随心所欲而不逾矩”——哈哈，吹的！别信！其实也就是做点小改小动不会出事；但深层改动仍然需要大量查阅资料和试错。 而在此之前……比如，一个程序写完了，部署。 于是Linux那是毫不客气，梆一锤…",
+        "excerpt_new": "一言以蔽之：过于专业，过于自由。 一、过于专业我在2000年左右接触Linux，虽然用的不多但一直在用；大约08年左右开始做Linux软件开发。直到12年前后，我才算玩转了Linux，可以从内核到网络再到权限系统随便改、大部分时候都可以“随心所欲而不逾矩”——哈哈，吹的！别信！其实也就是做点小改小动不会出事；但深层改动仍然需要大量查阅资料和试错。 而在此之前……比如，一个程序写完了，部署。 于是Linux那是毫不客气，梆一锤…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "need_payment",
+        "content": "<p data-pid=\"TT9J5cE4\">一言以蔽之：过于专业，过于自由。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>一、过于专业</h2><p data-pid=\"nT3Mw6Mw\">我在2000年左右接触Linux，虽然用的不多但一直在用；大约08年左右开始做Linux软件开发。直到12年前后，我才算玩转了Linux，可以从内核到网络再到权限系统随便改、大部分时候都可以“随心所欲而不逾矩”——哈哈，吹的！别信！其实也就是做点小改小动不会出事；但深层改动仍然需要大量查阅资料和试错。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"km9VCke_\">而在此之前……比如，一个程序写完了，部署。</p><p data-pid=\"YEJAaJ2i\">于是Linux那是毫不客气，梆一锤子就把它干翻了：“access denied”。</p><p data-pid=\"W36lo_vZ\">禁止访问？</p><p data-pid=\"1rScHFy6\">好办。给它加权限！</p><p data-pid=\"YRi2v4o6\">SELinux：……#<i>（&amp;（</i>&amp;——）#%（一串鸟语花香）</p><p data-pid=\"YqDYiNXF\">？？</p><p data-pid=\"BDyeKqHc\">上网搜，找不到任何有用资料。</p><p data-pid=\"vyx75Ink\">那，我给它root权限？</p><p data-pid=\"Fsy0y7dA\">SELinux：……#<i>（&amp;（</i>&amp;——）#%（另外一串鸟语花香，大意是你干什么你！以root权限执行什么什么是极度危险的，不准！）</p><p data-pid=\"c7A4Bbkx\">继续搜，搜到更多“乱码”……</p><p data-pid=\"ss6Dr72M\">那我不以root权限跑了？</p><p data-pid=\"6TjL70VR\">于是收获更大一坨鸟语花香——看来刚才“解决”问题的尝试反而捅了更大篓子……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"T3-uFBfb\">总之，一锤一锤又一锤……锤着锤着就失去耐心了：“得了！不干了！我搜一下，怎么关掉SELinux这个讨厌鬼！”</p><p data-pid=\"zjZN_QjU\">关了SELinux，世界终于清净……个屁。</p><p data-pid=\"KxDN1fDK\">铺天盖地的权限问题……</p><p data-pid=\"GjptOgiA\">咋办？</p><p data-pid=\"IpZ3Byvp\">凉拌。换root！</p><p data-pid=\"V5jBe2kT\">这下世界终于清净……不了。</p><p data-pid=\"b71zz7-c\">因为root建立的目录创建的文件都属于root，其他人是碰不了的——于是系统其他模块（或者软件所基于的相关框架）纷纷罢工：我吃闭门羹了！我不干了！</p><p data-pid=\"2kjSf0Tt\">咋办？一个个都改成root运行？</p><a href=\"https://www.zhihu.com/question/20559538/answer/3149494802\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">Linux 下为何要关闭 SELinux？</a><p data-pid=\"x3qots89\">哈哈，你看，就连业界知名公司都可能栽在SELinux上！</p><p data-pid=\"NSpoM82G\">——这就是我拒绝使用小公司“魔改”的各种Linux系统、或者各种图形化管理面板的原因。</p><p data-pid=\"H3tSwG7_\">——太业余，谁知道他们违反了多少规矩、制造了多少安全漏洞！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6AoQzSb5\">那么，为什么会这样？</p><h3>1、先从Windows设计哲学谈起</h3><p data-pid=\"bpuFZ0IE\">作为一名同时使用Windows和Linux的开发人员，对两者的优缺点不敢说了如指掌，但起码也是“深有体会”了吧。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NMvyhLYP\">那么，在深入讨论Linux系统的问题之前，先看看Windows是怎么做的，才有助于理解Linux系统思路的优缺点所在。</p><p data-pid=\"R42mG_pj\">一言以蔽之，Windows是以用户为中心的；甚至可以说，它是以小白用户为中心的。它的一切设计都是为这个目的、这个人群服务的。</p><p data-pid=\"uaHoB1rz\">比如说，Windows不会告诉你，这个东西的原理是什么、你得理解了原理才能用对它……这怎么能行？小白用户听到原理俩字直接就蹦三层楼高，他们流失了公司找谁收钱？</p><p data-pid=\"g0CFIHca\">因此，一切人员，从微软自己的员工到第三方开发人员，都必须迁就小白用户。</p><p data-pid=\"qpYcgqX3\">而这个“迁就”就造成了一个问题，就是它的一切抽象都是浅薄的甚至拙劣的——必须抽象，抽象了才能给小白用户一个形象、好用、能完成80%日常工作的图形界面：看！Linux下好复杂好复杂的一大坨，你只需点一下鼠标，全都有了！</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b259b0c3b8091a45f0c0f2d2569232d4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"902\" data-rawheight=\"907\" data-original-token=\"v2-b259b0c3b8091a45f0c0f2d2569232d4\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-a4502cc62b24d195f88b6d635ca2881b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"902\" data-original=\"https://pic1.zhimg.com/v2-b259b0c3b8091a45f0c0f2d2569232d4_r.jpg\"/></figure><p data-pid=\"BRfE34h9\">问题是，抽象真就有那么容易、那么廉价吗？</p><p data-pid=\"X7Ex5PoZ\">根本不可能。</p><p data-pid=\"TgjHeouA\">比如，Windows10曾经搞过的飞机：我电脑不能上网了，于是去看网络设置；结果它居然把网络设置给藏了、要给我“自动解决”；解决半天解决不了，它马上自作主张要“联网查询解决方案”——我网络不通了你联网查询解决方案？</p><p data-pid=\"xsJuudOu\">更可气的，它“联网查询解决方案”时，整个设置窗口一片死白，彻底失去响应。不等到几分钟后超时，这个窗口你关都关不掉！</p><p data-pid=\"me1sRDqG\">关不掉，自然打不开新窗口；打不开新窗口，我就去命令行敲命令看，结果它居然把ipconfig等工具都删了，不在里面！</p><p data-pid=\"Sn_cnK5N\">好家伙，折腾我大半天，一点进展没有。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Wk-EGkin\">没办法，切Linux看看——虽然Linux下网络是好的；但看看Linux为啥好，或许也能为Windows为啥不行找到一点点思路……</p><p data-pid=\"lR-UMAFN\">这在Linux下再简单不过，ifconfig看看ip/网关配置，route看一看网关；都没问题ping一下路由器，能ping通再试试<a href=\"http://zhihu.com\" class=\"internal\" target=\"_blank\"><span class=\"invisible\">http://</span><span class=\"visible\">zhihu.com</span><span class=\"invisible\"></span></a>，不行traceroute看一看究竟哪一跳出了问题……然后再根据看到的情况缩小怀疑范围……全都没问题？</p><p data-pid=\"bHuvi-WR\">既然网络没问题，那就是Windows的问题了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kvB4W-QL\">于是找google，搜“sony cw28，升级windows 10后无法联网”……找不到；于是拿Linux lspci看网卡型号，再搜“网卡芯片型号 windows 10 network unreachable”……</p><p data-pid=\"gBV3u-Rx\">找到了，国外一个小论坛也有人遇到同样的问题。原因是Windows10自带的、给该网卡的驱动有bug，用了这个驱动网卡就停止工作。</p><p data-pid=\"Hc4Kft_J\">于是在Linux下下载Windows 7的驱动；切Windows，删除新驱动，用回Windows7驱动——联网成功……了不到2分钟。</p><p data-pid=\"CI9CtYw3\">原因很简单，Windows认为我的驱动太旧了，它有新驱动，自动给我升级了。</p><p data-pid=\"4bIgyyYv\">删除widows的驱动备份，重装win7驱动，联网成功……了不到5分钟。</p><p data-pid=\"jEvkcdNi\">原因很简单，Windows自己在网上发现了更新的、微软签名的驱动，于是它自动给我升级了。</p><p data-pid=\"brfOjjHs\">删除，重装；然后在Windows存储新下载驱动的位置建立了一个和新驱动同名的文件夹，取消系统对它的访问权限；又在文件夹里放了个文件，以阻止Windows删除它。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gVd76Tjn\">就这样，折腾了一天，网络终于通了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"m_oqiau-\">你看，这里就透露了Windows的设计哲学：</p><p data-pid=\"rl-veH39\">1、初学者最重要，必须让他们感受到温暖</p><p data-pid=\"TGRxh3Pp\">2、资深用户/专业人员并不重要，你就故意给他们设置障碍他们也能解决</p><p data-pid=\"c-aLmftJ\">3、因此，尽量做一个蹩脚的抽象，让初学者兴高采烈的用起来</p><p data-pid=\"MTYQPYnw\">4、当遇到稍微复杂一点的问题时，这个抽象就会让他痛不欲生</p><p data-pid=\"Pm9DjoFS\">5、没关系，这样就给了专业人员赚钱的机会</p><p data-pid=\"lVYT3QFO\">6、小白用户就是痛苦也来不及了——等他能感受到痛苦时，他已经在这个系统投入了太多、太多……如果这时候他还是小白，那么他绝没有胆量放弃！</p><h3>2、Linux社区的强迫症</h3><p data-pid=\"FWHGgttN\">和Windows相反，Linux的经营理念……得了，自由软件社区有个毛的经营理念！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4iYFZ0xr\">Linux的行事逻辑是：</p><p data-pid=\"zJfxL5ev\">1、对一个问题，大家都可以提出自己的解决方案</p><p data-pid=\"YIgZ9PUY\">2、仔细体会后，社区自然会选择更好的方案</p><p data-pid=\"OvEld5HR\">3、好的方案的设计思路必须一以贯之，绝不允许违反！</p><p data-pid=\"-OyemA2h\">4、这么好的思路，你看这抽象，这简洁度，这普适度，这时间空间上的洞察力、穿透力……不行，所有人都应该掌握它……哦不，不敢想象居然会有人掌握不了它！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IuFqTGYv\">其结果，就是Linux社区就好像患了强迫症一样……</p><p data-pid=\"OsB9JCIZ\">1、泛文件抽象是好的；所以一切的一切都得搞泛文件抽象——大不了ioctl嘛。</p><p data-pid=\"NHv-LHPP\">2、rwx权限系统是好的，所以一切的一切都要用它管理的井井有条——所有！用户自己的也一律！因为我们基于这个写了太多太多的工具，你不照着办这些工具就用不了！</p><p data-pid=\"jH0dS8Mu\">3、SELinux有啥不好理解的？行为检测嘛！这么好的东西当然要普及了！对，包括你自己写的也一律！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dTyVnGrv\">这样做的好处是什么？</p><p data-pid=\"IS3fMgG2\">好处是，<b>对专业人员来说，Linux实在太好用了——就那么几条已经被证明过的、最优秀的设计思路；一旦你理解了思路，那么它的一切都遵循这些思路，用起来那真是如臂使指，太舒服太自在了！</b></p><p data-pid=\"7FktJZ7x\">坏处嘛……哈哈，<b>坏处就是，在你像我一样、在Linux上面投入大量时间精力、深入了解它诸多方面的设计思路之前，你就只能四处碰壁</b>！</p><p data-pid=\"_KhCBKdX\">而且，这个碰壁还是刚性的，冷冰冰的。不是access denied就是直接罢工给你看——桌面进不去了，程序启动不了了，Linux本身进不去了……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BAm8G1b3\">它只会坚定的执行自己的理念；而你，不得和它的理念抵触——大家相互理解、相互合作不好吗？你干嘛要乱来？</p><p data-pid=\"d15PFaUx\">小白：我没有乱来（哭）！我真的没有乱来（大哭）！我只是敲了个chmod 777 -R /，它就彻底趴窝了（痛哭）！这能怪我吗（崩溃）！</p><p data-pid=\"Gt9CY6bg\">Linux社区：这是你的问题。你再看看权限说明，不要乱来。</p><p data-pid=\"NtvFyjdI\">小白：？？？？？？？？？</p><p data-pid=\"-JwrteYl\">小白：不就读写执行吗？就这么一句话，我敲了你们就罢工！</p><p data-pid=\"-ML5pzqj\">Linux社区：想想你操作的意图！不要乱来！</p><p data-pid=\"8jKzOWwA\">小白：？？？？？？？？？？？？？？？？？？？？？？？？？</p><p data-pid=\"QPoCTcwS\">小白：不玩了不玩了！！！！都欺负我！！！！！！！！！！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TSn57OL6\">哈哈，所以有个著名的嘲讽说：“<b>Linux的确用户友好；只是你不是它的用户。（Linux is user-friendly. It’s just very selective about who its users are.）</b>”</p><p data-pid=\"4ZjF76cm\">想要成为Linux用户，你只有两个选择：</p><p data-pid=\"C0DXoHuD\">1、除了基本的网络浏览、文档、办公之类基本需求，别无他求</p><p data-pid=\"R_7VpkUY\">2、好奇心重，希望成为专业人员——学Linux要当编程学，自然一学就会；否则……</p><p data-pid=\"ZJiktSHt\">当然，你也可以把自己需要的那一块彻底探索明白、之后再也不要越雷池一步——也行。</p><p data-pid=\"DYHQx9EM\">但，如果你既不想学习，却又管不住自己的手……哈哈哈哈。</p><h3>3、机制机制，到处都是机制</h3><p data-pid=\"J-uGHrRy\">正因为Linux这种思路上的贯彻——或者说，强迫症——使得它整体极其的逻辑、极其的理性；它的一切都是基于某种思路来的，从根本到末梢，概莫能外……</p><p data-pid=\"yLKNsi2Z\">比如说，它也有桌面（GUI）；但除非你只做文档/图像/视频等方面的工作；否则，你的大部分工作——甚至可能包括一些文档、视频方面的工作——都是在文本界面进行的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZO5bm6OM\">为什么？</p><p data-pid=\"xRgS85J9\">因为文本界面学名叫shell；你在上面敲的命令本质上就是shell script的一条语句——你写的任何可以接受命令行输入、并按照约定输出信息、返回错误码的程序，它自然就是shell script的“函数”之一！</p><p data-pid=\"99TdNrLh\">没错！正规的Linux程序，它的返回值并不能乱来，而是有具体规定的。这个规定声明在errno.h里面：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.man7.org/linux/man-pages/man3/errno.3.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">man7.org/linux/man-page</span><span class=\"invisible\">s/man3/errno.3.html</span><span class=\"ellipsis\"></span></a><p data-pid=\"JQa90zNW\">这只是其中的一小部分：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-94d9a1a49efae43fcd6d6c48b18db7cf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"589\" data-rawheight=\"922\" data-original-token=\"v2-94d9a1a49efae43fcd6d6c48b18db7cf\" data-default-watermark-src=\"https://picx.zhimg.com/v2-f4fcacbebb310381d7f18760f87017ff_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"589\" data-original=\"https://pic2.zhimg.com/v2-94d9a1a49efae43fcd6d6c48b18db7cf_r.jpg\"/></figure><a href=\"https://link.zhihu.com/?target=https%3A//www.thegeekstuff.com/2010/10/linux-error-codes/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">thegeekstuff.com/2010/1</span><span class=\"invisible\">0/linux-error-codes/</span><span class=\"ellipsis\"></span></a><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4Wdzf2_r\">当你严格遵守以上约定时，你的程序才能真正融入Linux大家庭、和其他人写的程序/脚本配合无间。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3aDONjeU\">类似的，不同目的的程序应该放在哪里、应该如何设置权限、如何正确安装一个软件、如何管理不同软件的不同版本、新增一个服务应该如何配置才能让它和service命令集成……到处都是机制，到处都是约定——事实上，Linux不同发行版就是一群人维护了包管理机制不同的一大坨软件（这叫软件仓库），他们的重要工作之一就是理顺这些软件的机制，使得它们和其他软件配合无间。</p><p data-pid=\"REAJ5N_H\">所以安装软件一定要用你使用的发行版对应的软件仓库管理工具（apt/yum/dnf/YaST），千万不要乱装、乱用。比如用Debian你就只用apt，别找个deb包硬往上装，它很可能和当前软件仓库的软件配合不起来；下源码编译也不要做，至多编译安装到自己的用户目录，别往系统路径装，装上系统可靠性就没了。别瞎添加非社区官方软件仓库，更别装个dnf瞎搞。因为其他安装方式都没有经过社区调理，装上去轻则库版本冲突运行不起来、重则导致整个系统出现故障甚至无法启动……</p><p data-pid=\"OA49oIaK\">找软件包、下源码、加非社区官方软件仓库……这些都是特殊情况下的权宜之计；这些软件一定要安装在另外的路径、最好通过某种手段隔离它（比如chroot或者虚拟环境），从而避免它破坏系统环境：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.cnblogs.com/doublexi/p/15783355.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">python多环境管理（venv与virtualenv） - doublexi - 博客园</a><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"S7nuZiVY\">学习、理解、掌握这些约定，你就能得心应手，就会发现“哇！Linux下好朋友实在太多了！什么都有人做出来了、什么都能找到现成的！而且都是一个理念、一个风格，都不用看什么帮助，一边猜一边做，嘿，居然全对！”</p><p data-pid=\"QmJF5vQ9\">你看，<b>哪个操作系统对自己的用户能如此友好啊</b>！</p><p data-pid=\"-dX_EQzH\">但，如果理解不了这些约定……呵呵，这就说明你不是Linux的用户，哈哈。</p><h2>二、过于自由</h2><h3>1、自由的代价</h3><p data-pid=\"-T4-iVzB\">Linux kernel基于GPL v2协议发布；这个协议要求任何静态连接内核的东西必须遵循同样的协议，这就是GPL协议的”传染“性；这个传染就使得硬件设备开发商不愿开发Linux驱动——开发了，它就必须开源；而驱动开源了，就可能泄漏技术秘密，导致竞争对手迎头赶上……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UROb0ysx\">因此，除了那些积极拥抱开源的厂商，其他厂商的东西就不怎么积极写Linux驱动；于是社区只好自力更生，也就是想办法逆向相关硬件、凭猜测写驱动。这样的驱动稳定性自然不可能太好、而且基本不可能支持什么新特性。</p><p data-pid=\"P1r4fU0O\">这种状况就使得Linux对新硬件的支持总是慢上半拍甚至几拍；等能支持了，往往又存在这样那样的问题、并且多半没法使用它的新特性。</p><p data-pid=\"fK8sgu3A\">尤其类似cuda这样的东西，如果厂商不配合，只靠开源社区几乎是不可能完成支持的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zkX_p1vC\">这也使得Android发布时，为了解决驱动程序的问题，它就搞了个“隔离”，从而允许硬件厂商既能为它开发驱动、又可以借助这个隔离摆脱GPL v2协议的传染。这个做法受到了开源社区的欢迎。</p><p data-pid=\"U1_o733w\">不过，据此修改调整的GPL v3协议的某些条款不被Linus接受，因此Linux内核仍然使用GPL v2协议发布。</p><h3>2、自由的负担</h3><p data-pid=\"C0YGfwg-\">Linux的另一个问题就是它的社区太过自由，这就使得每个言之成理的说法都能得到自己的拥护者；而这往往就意味着另一个发行版的诞生……</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5de703a48691dc17defae8c70574415d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"2972\" data-original-token=\"v2-5de703a48691dc17defae8c70574415d\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-709106d2b8f2756da1b2815426d61f92_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic4.zhimg.com/v2-5de703a48691dc17defae8c70574415d_r.jpg\"/></figure><p data-pid=\"1ziNy74y\">这个简单点</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6b3f9756486148c14914b975ee643f59_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1965\" data-rawheight=\"1417\" data-original-token=\"v2-6b3f9756486148c14914b975ee643f59\" data-default-watermark-src=\"https://pica.zhimg.com/v2-1488f6563f3ab063149fb134f0f4127e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1965\" data-original=\"https://pic4.zhimg.com/v2-6b3f9756486148c14914b975ee643f59_r.jpg\"/></figure><a href=\"https://www.zhihu.com/question/20043297\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">Linux 有多少个发行版本？</a><p data-pid=\"T-8B94cG\">哈哈，看看这么多发行版，你猜，它们的意见能统一吗？</p><p data-pid=\"vbtgZ9h3\">那么，假如你想搞明白“包管理系统的来龙去脉”，还有可能吗？</p><p data-pid=\"oQw6MrIr\">搞明白了apt系统，yum会不会一律？YaST呢？</p><p data-pid=\"icibVKIJ\">类似的，gnome桌面和kde桌面一样吗？甚至，都是gnome桌面，redhat系可能和debian系兼容吗？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Xs5GhJZS\">这么多想法，想要争出个长短来……慢慢等吧，哈哈。</p><p data-pid=\"iaxTHikF\">尤其很多只是个口味之争，比如Debian系崇尚纯粹的开源，Redhat则盯住企业市场……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LduxCtXv\">当然，有竞争是好事。竞争多了、每个想法都拿出来试一试，这才能优选出更好用的；然后迅速被学习、应用、发展——这也是Linux这个OS程序员气质爆棚、深受开发者喜爱的原因之一：可以说，它的每一个知名组件的源代码都是值得仔细品读学习的上佳教材。理念贯彻之纯粹、设计思路之清晰简洁、利弊权衡取舍之睿智理性……能学会一点点，对个人来说都是个极大的进步。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0uQrji_3\">但另一方面，这么多理念，而且每个都还那么的有逻辑、有理性……哈哈，你，能从中选择出一个吗？</p><p data-pid=\"UMg1Pm1W\">没有选择困难症也给你制造出来了！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pyDoGO5Y\">哈哈，反正我就是逮住什么用什么，甚至干脆都不去看它的理念了——当然，目前来说，我更喜欢Debian。</p><p data-pid=\"lxp5TvnJ\">当然，喜欢归喜欢，让我去理它的软件仓库、学它的各种细节……哈哈，不干！</p><p data-pid=\"UOIEzESE\">理解大的理念，掌握基础思路，足够日常工作开发使用，对我来说已经够了。别的……怎么说呢，用的时候再说吧。实在学不过来。</p><p data-pid=\"BsrjODvp\">类似的，我压根不会去看它某个系统的源码——需要开发相关功能了，看，搞明白整体设计思路、学对方的设计风格，甚至还得学对方的命名/编码风格；但不需要搞相关领域时……算了，仅Linux内核代码量都有四千多万，这是人能看过来的？</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fa0de199f76999b0285c0d8781b8dfae_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"649\" data-rawheight=\"178\" data-original-token=\"v2-fa0de199f76999b0285c0d8781b8dfae\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-831d4cf49430dc9bc317e650719450fd_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"649\" data-original=\"https://pic1.zhimg.com/v2-fa0de199f76999b0285c0d8781b8dfae_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jDkiRehv\">而一旦程序员们开始忙自己的理念……嘿嘿，你猜，他们还想得到“小白用户”吗？</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 21928,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-1ab795fc3b4dde9f412cf88aa90c3647_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2ad706276d118910a22b25698ed09d0d_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-cc43aef42a91cae265e50fce8bc73951_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 455,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1930674886226969280}",
+      "attached_info": "CvkHCMiMyYaRjoeIkwEQBBoJNzM4MTMxOTE1IPuF+MMGKJcDMBhAQUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WggzMTA5OTk4OGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MzA2NzQ4ODYyMjY5NjkyODCKAQkzMDk3MDQ2MzaqAQlyZWNvbW1lbmTCASBjZTQwYzcwNDgwMDA3OTExMGZhYzM4OWRlMWQ2ZjU3ZvIBCggMEgZOb3JtYWzyASgIChIkY2E2N2JmMDktNzc4Mi00MzJjLTgwY2UtMmVmNDgzM2IxZGVh8gEGCAsSAjExggIAiALso6T5jDOSAiBjZTQwYzcwNDgwMDA3OTExMGZhYzM4OWRlMWQ2ZjU3ZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxlygIVUXVlc3Rpb25Jc29sYXRpb25SdWxl2gIdVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjLoAgT6AgtOT1JNQUxfRkxPV4oDIGIxZDQ0MjEzOGY4ODQ1Njg4YzljZDIyNGQ2MGE0NDU5mgMNCgJ2MhAAGgVvdGhlcqgDqKsB2AMA+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEIYHGIsHIiN2Mi1iMjU5YjBjM2I4MDkxYTQ1ZjBjMGYyZDI1NjkyMzJkNDotCAIQzQQYmgciI3YyLTk0ZDlhMWE0OWVmYWU0M2ZjZDZkNmM0OGIxOGRiN2NmOi0IAxDQBRicFyIjdjItNWRlNzAzYTQ4NjkxZGMxN2RlZmFlOGM3MDU3NDQxNWQ6LQgEEK0PGIkLIiN2Mi02YjNmOTc1NjQ4NjE0OGMxNDkxNGI5NzVlZTY0M2Y1OTotCAIQiQUYsgEiI3YyLWZhMGRlMTk5Zjc2OTk5YjAyODVjMGQ4NzgxYjhkZmFlgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwLXPoj+BBQAAAAAAAAAAiQUCR37ASD7ZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AULkAYAoAZDqAYAkgIuCgk3MzgxMzE5MTUSEzE5MzA2NzQ4ODYyMjY5NjkyODAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=65&desktop=true&end_offset=67&page_number=12&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=65&desktop=true&end_offset=67&page_number=12&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

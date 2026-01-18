@@ -1,0 +1,592 @@
+{
+  "data": [
+    {
+      "id": "240_1755822485.245",
+      "type": "feed",
+      "offset": 240,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822485,
+      "updated_time": 1755822485,
+      "target": {
+        "id": "1920080301427782981",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1920080301427782981",
+        "author": {
+          "id": "98b2e4c598a7fe1d91103f97fc67165a",
+          "url": "https://api.zhihu.com/people/98b2e4c598a7fe1d91103f97fc67165a",
+          "user_type": "people",
+          "url_token": "wang-meng-63-65",
+          "name": "愉晨eamon",
+          "headline": "无代码、企业管理软件行业从业者",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-c4e7b1921a37956da0b113068067d9a9_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 375,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1750562817,
+        "updated_time": 1750562817,
+        "voteup_count": 16,
+        "thanks_count": 0,
+        "comment_count": 4,
+        "is_copyable": false,
+        "question": {
+          "id": "52600238",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/52600238",
+          "author": {
+            "id": "72b282ef201b393731b25baeb4f66fe5",
+            "url": "https://api.zhihu.com/people/72b282ef201b393731b25baeb4f66fe5",
+            "user_type": "people",
+            "url_token": "kirkchen",
+            "name": "kirk",
+            "headline": "天秤座",
+            "avatar_url": "https://pica.zhimg.com/50/v2-9bc9c3686727860448c17273925e7677_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "python+pandas是否能代替excel+vba?",
+          "created": 1479098617,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 7,
+          "bound_topic_ids": [
+            872,
+            5921
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-6c1f2b50fd2ad2e44bd8b9d7b9431c27_720w.jpg?source=b6762063",
+        "excerpt": "这个问题我给你一个明确的答案： Python + Pandas 完全可以替代 Excel + VBA，尤其是在你这种数据量大、Excel 卡顿到难以忍受的场景下，不光可以替代，而且效率高很多。   但前提是你愿意动手学一点 Python。 为什么说 Pandas 更适合处理大数据？你提到的几个操作，其实是 Pandas 的基本功： 排序筛选：df.sort_values() + df.query() 或 df[df['列名'] == '条件']VLOOKUP：pd.merge() 一句搞定，效率是 Excel 的数十倍MID 取值：df…",
+        "excerpt_new": "这个问题我给你一个明确的答案： Python + Pandas 完全可以替代 Excel + VBA，尤其是在你这种数据量大、Excel 卡顿到难以忍受的场景下，不光可以替代，而且效率高很多。   但前提是你愿意动手学一点 Python。 为什么说 Pandas 更适合处理大数据？你提到的几个操作，其实是 Pandas 的基本功： 排序筛选：df.sort_values() + df.query() 或 df[df['列名'] == '条件']VLOOKUP：pd.merge() 一句搞定，效率是 Excel 的数十倍MID 取值：df…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"pNPf4-k7\">这个问题我给你一个明确的答案：</p><p data-pid=\"oNOZrtGx\"><b>Python + Pandas 完全可以替代 Excel + VBA，尤其是在你这种数据量大、Excel 卡顿到难以忍受的场景下，不光可以替代，而且效率高很多。</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3a2e8f52f2c735f1a8dc7783957136f9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-original-token=\"v2-5bf128b854c8a5a934ba6f64ebcd236f\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-678829785e360fdb5cbca4f0e567fc53_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-3a2e8f52f2c735f1a8dc7783957136f9_r.jpg\"/></figure><p data-pid=\"Xw2WjSga\">但前提是你愿意动手学一点 Python。</p><hr/><h2>为什么说 Pandas 更适合处理大数据？</h2><p data-pid=\"aMz7VwLl\">你提到的几个操作，其实是 Pandas 的基本功：</p><ol><li data-pid=\"M28aGTns\"><b>排序筛选</b>：<code>df.sort_values()</code> + <code>df.query()</code> 或 <code>df[df[&#39;列名&#39;] == &#39;条件&#39;]</code></li><li data-pid=\"KnDMjhb2\"><b>VLOOKUP</b>：<code>pd.merge()</code> 一句搞定，效率是 Excel 的数十倍</li><li data-pid=\"Qz6rHjP3\"><b>MID 取值</b>：<code>df[&#39;列名&#39;].str[起始:终止]</code></li><li data-pid=\"elb6bIor\"><b>数据透视</b>：<code>df.pivot_table()</code> 或 <code>df.groupby().agg()</code></li></ol><p data-pid=\"XludfHRB\">你的12万行，Pandas轻松处理，内存占用比Excel低不少。你现在一列 VLOOKUP 要半小时，Pandas 可以几秒内搞定，还能批量对多个列做 merge 操作。</p><hr/><h2>上手成本高不高？</h2><p data-pid=\"ZNcau-B8\">一开始可能看着有点懵，其实很快就能跑起来。比如下面是最基础的步骤：</p><div class=\"highlight\"><pre><code class=\"language-python3\"><span class=\"kn\">import</span> <span class=\"nn\">pandas</span> <span class=\"k\">as</span> <span class=\"nn\">pd</span>\n\n<span class=\"c1\"># 读取Excel数据</span>\n<span class=\"n\">df1</span> <span class=\"o\">=</span> <span class=\"n\">pd</span><span class=\"o\">.</span><span class=\"n\">read_excel</span><span class=\"p\">(</span><span class=\"s1\">&#39;数据源.xlsx&#39;</span><span class=\"p\">,</span> <span class=\"n\">sheet_name</span><span class=\"o\">=</span><span class=\"s1\">&#39;Sheet1&#39;</span><span class=\"p\">)</span>\n<span class=\"n\">df2</span> <span class=\"o\">=</span> <span class=\"n\">pd</span><span class=\"o\">.</span><span class=\"n\">read_excel</span><span class=\"p\">(</span><span class=\"s1\">&#39;数据源.xlsx&#39;</span><span class=\"p\">,</span> <span class=\"n\">sheet_name</span><span class=\"o\">=</span><span class=\"s1\">&#39;Sheet2&#39;</span><span class=\"p\">)</span>\n\n<span class=\"c1\"># 根据“产品编号”字段，从Sheet2匹配价格字段合并进来</span>\n<span class=\"n\">df_merge</span> <span class=\"o\">=</span> <span class=\"n\">pd</span><span class=\"o\">.</span><span class=\"n\">merge</span><span class=\"p\">(</span><span class=\"n\">df1</span><span class=\"p\">,</span> <span class=\"n\">df2</span><span class=\"p\">[[</span><span class=\"s1\">&#39;产品编号&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;价格&#39;</span><span class=\"p\">]],</span> <span class=\"n\">on</span><span class=\"o\">=</span><span class=\"s1\">&#39;产品编号&#39;</span><span class=\"p\">,</span> <span class=\"n\">how</span><span class=\"o\">=</span><span class=\"s1\">&#39;left&#39;</span><span class=\"p\">)</span>\n\n<span class=\"c1\"># 提取列中间字符</span>\n<span class=\"n\">df_merge</span><span class=\"p\">[</span><span class=\"s1\">&#39;中间码&#39;</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"n\">df_merge</span><span class=\"p\">[</span><span class=\"s1\">&#39;产品编码&#39;</span><span class=\"p\">]</span><span class=\"o\">.</span><span class=\"n\">str</span><span class=\"p\">[</span><span class=\"mi\">2</span><span class=\"p\">:</span><span class=\"mi\">5</span><span class=\"p\">]</span>\n\n<span class=\"c1\"># 导出为新Excel</span>\n<span class=\"n\">df_merge</span><span class=\"o\">.</span><span class=\"n\">to_excel</span><span class=\"p\">(</span><span class=\"s1\">&#39;结果.xlsx&#39;</span><span class=\"p\">,</span> <span class=\"n\">index</span><span class=\"o\">=</span><span class=\"kc\">False</span><span class=\"p\">)</span>\n</code></pre></div><p data-pid=\"0V0Z1soi\">上面这段代码就是你问题里所有操作的压缩版，干净利落，效率极高。你可以用免费的 Jupyter Notebook 或 VS Code 跑它。</p><hr/><h2>不会 Python，但又不想被 Excel 卡住？有 Plan B！</h2><p data-pid=\"zHrAnrI5\">如果你实在不想写代码，<b>还有一个国产无代码工具可以考虑</b>，叫做：<b>云表。</b></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-983de7edfc83185f42380cdd1a5cdc72_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"578\" data-original-token=\"v2-b770ab5ca095100684d89a11de3c40cd\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-a8ccac5a3492f8303cd78fcfaebc0781_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-983de7edfc83185f42380cdd1a5cdc72_r.jpg\"/></figure><p data-pid=\"7JZBlEWg\">云表是一个无代码的企业级软件搭建平台，用“画表格”的方式构建系统，<b>内置业务公式、数据接口和填表公式等</b>，处理 10 万级数据完全不卡顿，还支持自定义业务流程，默认连接mysql数据库，也可替换成达梦等国产数据库。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-88d27315de177e89e6dba0aa4a18fc6d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1852\" data-rawheight=\"938\" data-original-token=\"v2-2dd0f3577814ef90797ee1c2cdc22657\" data-default-watermark-src=\"https://picx.zhimg.com/v2-59d04dd6a26c7481b3e543f48441785b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1852\" data-original=\"https://pic4.zhimg.com/v2-88d27315de177e89e6dba0aa4a18fc6d_r.jpg\"/></figure><p data-pid=\"e-vm9hI1\"><br/>和 Excel 不同，它本身就是数据库+表格的结合体，兼容excel的同时，有自己的电子表格核心。<b>你可以像 Excel 那样操作，又能享受数据库的性能优势</b>。<br/>云表的三大利器 ——「业务公式」「填表公式」「数据接口」让你不需要懂数据库、不需要学编程，<b>就能构建属于自己的数据处理系统</b>，而且还能一键部署到 PC 和移动端（适配鸿蒙OS）。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-32147a74e9999fa829275737f754823e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1330\" data-rawheight=\"747\" data-original-token=\"v2-1074b1aa5c21841d9e90cffa2bb5c0f7\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-133bb1698fb7fb285a926d0aedd6bcf0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1330\" data-original=\"https://pica.zhimg.com/v2-32147a74e9999fa829275737f754823e_r.jpg\"/></figure><p data-pid=\"fqqRzfkD\">你可以去学习=》<a href=\"https://link.zhihu.com/?target=https%3A//edu.iyunbiao.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">云表课堂</a>，免费 10 节课就能上手做一个数据管理系统。</p><hr/><h3>其实：</h3><p data-pid=\"hQhlyZ2T\">如果你愿意花两周时间学 Pandas，那它绝对是处理 Excel 数据的升级版，一次投入，长期回报。如果不想写代码，又不甘心手动搬砖，那云表就是你的“低门槛自动化备选方案”。</p><p data-pid=\"EhtyFk04\">数据不等人，工具该升级了。</p><p data-pid=\"3gc9ENzJ\">以上，如果对低代码/无代码开发或企业管理软件有更多疑问，或者需要软件体验的，可随时进入个人主页<b>问我</b>就行！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 1540,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-6c1f2b50fd2ad2e44bd8b9d7b9431c27_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-94c1dc4f636bfc4cd5523991fd2cc085_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c4b7d69f1552911af7f539b5ae1f3b58_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 60,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1920080301427782981}",
+      "attached_info": "CqYHCPaH4rGVgfuivAEQBBoJNzMzNDEwMTYxIIHw3cIGKBAwBEDwAUpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WggxMzI1ODQzMmIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MjAwODAzMDE0Mjc3ODI5ODGKAQg1MjYwMDIzOKoBCXJlY29tbWVuZMIBIDk4YjJlNGM1OThhN2ZlMWQ5MTEwM2Y5N2ZjNjcxNjVh8gEKCAwSBk5vcm1hbPIBKAgKEiQyODM5NjlmOC1hYTQwLTQzODEtYTA4MS1kYmJjMzljNzQ0NjbyAQYICxICNDGCAgCIApDcs/mMM5ICIDk4YjJlNGM1OThhN2ZlMWQ5MTEwM2Y5N2ZjNjcxNjVhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyA5NTAwM2QyNzE2MzM0YzM3YjU3YjgxZDI2MmQyN2NjZJoDDQoCdjIQABoFb3RoZXKoA4QM2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gPbARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEIAKGNAFIiN2Mi01YmYxMjhiODU0YzhhNWE5MzRiYTZmNjRlYmNkMjM2ZjotCAIQuAgYwgQiI3YyLWI3NzBhYjVjYTA5NTEwMDY4NGQ4OWExMWRlM2M0MGNkOi0IAhC8DhiqByIjdjItMmRkMGYzNTc3ODE0ZWY5MDc5N2VlMWMyY2RjMjI2NTc6LQgDELIKGOsFIiN2Mi0xMDc0YjFhYTVjMjE4NDFkOWU5MGNmZmEyYmI1YzBmN4AEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAII6Qsj+BBQAAAAAAAAAAiQVeVdh8pVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUpkAYAoAbyAagGAZICLgoJNzMzNDEwMTYxEhMxOTIwMDgwMzAxNDI3NzgyOTgxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "241_1755822485.448",
+      "type": "feed",
+      "offset": 241,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822485,
+      "updated_time": 1755822485,
+      "target": {
+        "id": "1925956451618226410",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1925956451618226410",
+        "author": {
+          "id": "6da39a7a7c028e593fbf01ebc4775b60",
+          "url": "https://api.zhihu.com/people/6da39a7a7c028e593fbf01ebc4775b60",
+          "user_type": "people",
+          "url_token": "shuai-ge-ge-54-35",
+          "name": "帅的一塌糊涂",
+          "headline": "爱分享",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d63a00c5052cd0d7b1b553d7d3fdec6b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 461,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1751963800,
+        "updated_time": 1751963800,
+        "voteup_count": 83,
+        "thanks_count": 3,
+        "comment_count": 6,
+        "is_copyable": true,
+        "question": {
+          "id": "800718032",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/800718032",
+          "author": {
+            "id": "268fe24cededecfbfe5ea66df1fd8bb0",
+            "url": "https://api.zhihu.com/people/268fe24cededecfbfe5ea66df1fd8bb0",
+            "user_type": "people",
+            "url_token": "guo-li-qun-32-64",
+            "name": "如我所示",
+            "headline": "无他，唯热爱生活耳。",
+            "avatar_url": "https://pica.zhimg.com/50/v2-1486cc0845df253b7919c9bc4d0e932b_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "咨询行业 总经理"
+              }
+            ],
+            "followers_count": 1780,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "你最近在读的书是哪一本？",
+          "created": 1728520541,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 28,
+          "bound_topic_ids": [
+            113,
+            1745,
+            28605,
+            84670,
+            153052
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-c18e757241f813cea29eb2d4e21a244c_720w.jpg?source=b6762063",
+        "excerpt": "这本十几万人围观的实用手册果然实用 春节期间在父亲书柜翻到一本旧书，没想到随手一发引来十几万人围观，着实把我这个普通人震惊到了。 这本书出版于上个世纪八十年代末，很多内容与现代人的认知和观念相差较大，但是其中一些民俗民风及传统文化知识还是有一定的参考价值的。   感谢平台让这么多的朋友看到这些内容，我们每个人都是传统文化的传递者与守护者！ 完整版分享链接： 夸克网盘分享 完整版分享链接： 迅雷云盘",
+        "excerpt_new": "这本十几万人围观的实用手册果然实用 春节期间在父亲书柜翻到一本旧书，没想到随手一发引来十几万人围观，着实把我这个普通人震惊到了。 这本书出版于上个世纪八十年代末，很多内容与现代人的认知和观念相差较大，但是其中一些民俗民风及传统文化知识还是有一定的参考价值的。   感谢平台让这么多的朋友看到这些内容，我们每个人都是传统文化的传递者与守护者！ 完整版分享链接： 夸克网盘分享 完整版分享链接： 迅雷云盘",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"qiSmNQXh\">这本十几万人围观的实用手册果然实用</p><p data-pid=\"MAX2IYeh\">春节期间在父亲书柜翻到一本旧书，没想到随手一发引来十几万人围观，着实把我这个普通人震惊到了。</p><p data-pid=\"WgcDm2EE\">这本书出版于上个世纪八十年代末，很多内容与现代人的认知和观念相差较大，但是其中一些民俗民风及传统文化知识还是有一定的参考价值的。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-21be1ddf1a96ea84023b90cb48664afa_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"1584\" data-size=\"normal\" data-original-token=\"v2-e27c172075b91b23a8fcc758dea27017\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-79a34d7f3a0afe9ca723a9e5c6dfa87b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://pic1.zhimg.com/v2-21be1ddf1a96ea84023b90cb48664afa_r.jpg\"/></figure><p data-pid=\"B6DVqQUl\">感谢平台让这么多的朋友看到这些内容，我们每个人都是传统文化的传递者与守护者！</p><p data-pid=\"-ws4i-FW\">完整版分享链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.quark.cn/s/ac0855a8e3c0\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">夸克网盘分享</a></p><p data-pid=\"ppvmsPzs\">完整版分享链接：<a href=\"https://link.zhihu.com/?target=https%3A//pan.xunlei.com/s/VOUdAJDc4epqupDqSC5oCWzAA1%3Fpwd%3D6gnv%23\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">迅雷云盘</a></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f361f91462c4f2b58fe02d8163d6309b_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"1539\" data-size=\"normal\" data-original-token=\"v2-b2ecfd124cdc75b3db17ecfaa2941180\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-e92cfb0abf87869a1fc684b0a98530e2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://picx.zhimg.com/v2-f361f91462c4f2b58fe02d8163d6309b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-89718f739f90de24cb964b545e953b7b_1440w.jpg\" data-rawwidth=\"1170\" data-rawheight=\"1555\" data-size=\"normal\" data-original-token=\"v2-2800889481339d335d4af438d58359e2\" data-default-watermark-src=\"https://pica.zhimg.com/v2-65d54d3fded9c441d91e8edd40bb981e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1170\" data-original=\"https://pic2.zhimg.com/v2-89718f739f90de24cb964b545e953b7b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a1a68700db74d56f09017776cef8e7ca_1440w.jpg\" data-rawwidth=\"1169\" data-rawheight=\"1563\" data-size=\"normal\" data-original-token=\"v2-f96269375b8b5946e5d1846a20f21b58\" data-default-watermark-src=\"https://pica.zhimg.com/v2-eff8f150c7240bc0b596bedfc39b476c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1169\" data-original=\"https://pic1.zhimg.com/v2-a1a68700db74d56f09017776cef8e7ca_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9b2d0afbb6d08f15fcf5042c7821fb2b_1440w.jpg\" data-rawwidth=\"1154\" data-rawheight=\"1558\" data-size=\"normal\" data-original-token=\"v2-cf4f9335fbcf349140115b4883af15e6\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-e328d14e9ff3559125a9f142a7900eae_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1154\" data-original=\"https://pic2.zhimg.com/v2-9b2d0afbb6d08f15fcf5042c7821fb2b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5512d93640c012515da214e30c4092c7_1440w.jpg\" data-rawwidth=\"1169\" data-rawheight=\"1557\" data-size=\"normal\" data-original-token=\"v2-64bc8d10331945e4c88660ae5ad983f3\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-6bb9b1d9f70403127bc3cb96b35a8566_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1169\" data-original=\"https://pic4.zhimg.com/v2-5512d93640c012515da214e30c4092c7_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ab54f370a9031c428e1e5e86066380cb_1440w.jpg\" data-rawwidth=\"1169\" data-rawheight=\"1569\" data-size=\"normal\" data-original-token=\"v2-d002ae28c6b76259b3fd22a36ccefe0d\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-ad5609de381ea95ddb18afec41259e22_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1169\" data-original=\"https://pic2.zhimg.com/v2-ab54f370a9031c428e1e5e86066380cb_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 7801,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-c18e757241f813cea29eb2d4e21a244c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-627d32bdbcd77ed4bb9a6b92a64c7f2c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8b3ee5006f571b026a5f96ceae5c4c58_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-de0a7779599aebc3a950ead890fe3509_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-78cf830610b428011a47829ee3e087ea_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5ec9473fd186d320e572ee6bc0dd501b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-18ca3a375a48abd88fcf3cc324644666_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 395,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1925956451618226410}",
+      "attached_info": "CtQICPaH4rGVgfuivAEQBBoJNzM2MDIwNTg3IJixs8MGKFMwBkDxAUpBChhUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUFYSH2RvY190eXBlOiBNZW1iZXIKaWQ6IDEwOTg3MTAzOAoYACAAOgBKLwoGSXRlbUNGEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3MzU1NDE3NTIKGAAgADoAWgkxMTEwNDkxNjZiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTI1OTU2NDUxNjE4MjI2NDEwigEJODAwNzE4MDMyqgEJcmVjb21tZW5kwgEgNmRhMzlhN2E3YzAyOGU1OTNmYmYwMWViYzQ3NzViNjDyAQoIDBIGTm9ybWFs8gEoCAoSJDIxOWY5Njk1LTQxMWQtNGU5Zi04NjgzLTA1ZDg2ODcwNjRiY/IBBggLEgI0MYICAIgCkNyz+YwzkgIgNmRhMzlhN2E3YzAyOGU1OTNmYmYwMWViYzQ3NzViNjCaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAhhUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUFboAgL6AgtOT1JNQUxfRkxPV4oDIDk1MDAzZDI3MTYzMzRjMzdiNTdiODFkMjYyZDI3Y2NkmgMNCgJ2MhAAGgVvdGhlcqgD+TzYAwDqAxhnY2ZLbm5BdXRob3JIaWdoUHZSZWNhbGz6A+gCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQkgkYsAwiI3YyLWUyN2MxNzIwNzViOTFiMjNhOGZjYzc1OGRlYTI3MDE3Oi0IAhCSCRiDDCIjdjItYjJlY2ZkMTI0Y2RjNzViM2RiMTdlY2ZhYTI5NDExODA6LQgCEJIJGJMMIiN2Mi0yODAwODg5NDgxMzM5ZDMzNWQ0YWY0MzhkNTgzNTllMjotCAIQkQkYmwwiI3YyLWY5NjI2OTM3NWI4YjU5NDZlNWQxODQ2YTIwZjIxYjU4Oi0IAhCCCRiWDCIjdjItY2Y0ZjkzMzVmYmNmMzQ5MTQwMTE1YjQ4ODNhZjE1ZTY6LQgCEJEJGJUMIiN2Mi02NGJjOGQxMDMzMTk0NWU0Yzg4NjYwYWU1YWQ5ODNmMzotCAIQkQkYoQwiI3YyLWQwMDJhZTI4YzZiNzYyNTliM2ZkMjJhMzZjY2VmZTBkgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4Ib9rT+BBQAAAAAAAAAAiQVeVdh8pVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUpkAYAoAbzAagGA5ICLgoJNzM2MDIwNTg3EhMxOTI1OTU2NDUxNjE4MjI2NDEwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "242_1755822485.800",
+      "type": "feed",
+      "offset": 242,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822485,
+      "updated_time": 1755822485,
+      "target": {
+        "id": "95146080806",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/95146080806",
+        "author": {
+          "id": "1f39b4401f360312224453573182c4d5",
+          "url": "https://api.zhihu.com/people/1f39b4401f360312224453573182c4d5",
+          "user_type": "people",
+          "url_token": "guang-ming-shan-dian",
+          "name": "光明山巅",
+          "headline": "人类学研究者,关注我带你了解世界真相，免费咨询",
+          "avatar_url": "https://picx.zhimg.com/50/v2-27030ffe18988d42f29bb3b7418ef362_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 23084,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1738924928,
+        "updated_time": 1738924928,
+        "voteup_count": 913,
+        "thanks_count": 39,
+        "comment_count": 43,
+        "is_copyable": false,
+        "question": {
+          "id": "399993268",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/399993268",
+          "author": {
+            "id": "7cda9c5bb83420e675c6d80266f35259",
+            "url": "https://api.zhihu.com/people/7cda9c5bb83420e675c6d80266f35259",
+            "user_type": "people",
+            "url_token": "liaozaigegz",
+            "name": "流云",
+            "headline": "更多精彩内容可以关注公号xw5money",
+            "avatar_url": "https://picx.zhimg.com/50/v2-5cd0e4f91e2b01eb691db1b5afd9a5e3_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 12342,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何评价新加坡的国父李光耀？",
+          "created": 1591516891,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 4,
+          "bound_topic_ids": [
+            16349,
+            19311,
+            22926,
+            71166,
+            157205
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "抛开他的人品和作为。从他个人的性格来讲，李光耀他是华人之中一个非常合格的领袖，因为他最重要的特质就是真实，不做作。 有什么事情就直接说出来，有什么思想就直接公布出来，有什么想法就直接分享，这是非常难得的。 而不是那种恶臭的那种以说话云山雾罩为荣，以不说人话为荣。说话就要说得清清楚楚，不假装自己伟光正。这就是选择领袖最重要的标准",
+        "excerpt_new": "抛开他的人品和作为。从他个人的性格来讲，李光耀他是华人之中一个非常合格的领袖，因为他最重要的特质就是真实，不做作。 有什么事情就直接说出来，有什么思想就直接公布出来，有什么想法就直接分享，这是非常难得的。 而不是那种恶臭的那种以说话云山雾罩为荣，以不说人话为荣。说话就要说得清清楚楚，不假装自己伟光正。这就是选择领袖最重要的标准",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"3m2135Jp\">抛开他的人品和作为。从他个人的性格来讲，李光耀他是华人之中一个非常合格的领袖，因为他最重要的特质就是真实，不做作。</p><p data-pid=\"QaPh6L_s\">有什么事情就直接说出来，有什么思想就直接公布出来，有什么想法就直接分享，这是非常难得的。</p><p data-pid=\"E9BQVXmD\">而不是那种恶臭的那种以说话云山雾罩为荣，以不说人话为荣。说话就要说得清清楚楚，不假装自己伟光正。这就是选择领袖最重要的标准</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 38332,
+        "favorite_count": 75,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 95146080806}",
+      "attached_info": "CtcFCPaH4rGVgfuivAEQBBoJNzEyMTQ0NjgyIIDHl70GKJEHMCtA8gFKIAoVVFNfU09VUkNFX1RIRU1FX01FUkdFEgEwGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg1MTE2NjI1OWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCzk1MTQ2MDgwODA2igEJMzk5OTkzMjY4qgEJcmVjb21tZW5kwgEgMWYzOWI0NDAxZjM2MDMxMjIyNDQ1MzU3MzE4MmM0ZDXyAQoIDBIGTm9ybWFs8gEoCAoSJDI4NmMyMTdlLTkwODktNGE1Ni1hMGU0LWQ3Y2IyNzBjMTQwZfIBBggLEgI0MYICAIgCkdyz+YwzkgIgMWYzOWI0NDAxZjM2MDMxMjIyNDQ1MzU3MzE4MmM0ZDWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAhVUU19TT1VSQ0VfVEhFTUVfTUVSR0XoAgL6AgtOT1JNQUxfRkxPV4oDIDk1MDAzZDI3MTYzMzRjMzdiNTdiODFkMjYyZDI3Y2NkmgMNCgJ2MhAAGgVvdGhlcqgDvKsC2AMA6gMbVGhlbWVNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYHm6qD+BBQAAAAAAAAAAiQVeVdh8pVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUpkAYAoAb0AagGAJICJgoJNzEyMTQ0NjgyEgs5NTE0NjA4MDgwNhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "243_1755822485.914",
+      "type": "feed",
+      "offset": 243,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822485,
+      "updated_time": 1755822485,
+      "target": {
+        "id": "1940175693213336871",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1940175693213336871",
+        "author": {
+          "id": "51e058a874142d68d97eb63a5fe45502",
+          "url": "https://api.zhihu.com/people/51e058a874142d68d97eb63a5fe45502",
+          "user_type": "people",
+          "url_token": "yi-qia-luo-si-de-ai-tan",
+          "name": "大剪子",
+          "headline": "前资深政商从业｜现创业公司｜见主页置顶 ",
+          "avatar_url": "https://pica.zhimg.com/50/v2-31ea99b387f62007057e328c01d40a53_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "信息技术行业 副董事长"
+            }
+          ],
+          "followers_count": 56474,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755353931,
+        "updated_time": 1755354691,
+        "voteup_count": 432,
+        "thanks_count": 25,
+        "comment_count": 15,
+        "is_copyable": false,
+        "question": {
+          "id": "1934220841400394509",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1934220841400394509",
+          "author": {
+            "id": "10447fafb9364c47e555884784a0602e",
+            "url": "https://api.zhihu.com/people/10447fafb9364c47e555884784a0602e",
+            "user_type": "people",
+            "url_token": "fu-zhu-xin-nuan",
+            "name": "李道胜的道",
+            "headline": "一个热爱主义者:创造条件，让热爱生长",
+            "avatar_url": "https://picx.zhimg.com/50/v2-a90976c3f0b7eb43fd5cc5a8a134d595_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 9,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么很多投资人错过了字节跳动的投资？",
+          "created": 1753934184,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            395,
+            1353
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "因为财富范式中心正在大批量转移到Nerd/Geek身上，特别是把混社会这一项点出来的，想不混出头都难 这几年跟很多做的不错+相对年轻(最早75后起)的人打交道，对此深有感触 里面有很多人都不是传统意义上所谓“会来事”/“有眼力见”的人，很多都是比较内向或者不修边幅，离经叛道者更是大有人在，只有当提到自己感兴趣的东西才会说的多一点用大白话说，现在是这些“非主流分子“的势头比走传统路线的人猛的多，特别是互联网创业体…",
+        "excerpt_new": "因为财富范式中心正在大批量转移到Nerd/Geek身上，特别是把混社会这一项点出来的，想不混出头都难 这几年跟很多做的不错+相对年轻(最早75后起)的人打交道，对此深有感触 里面有很多人都不是传统意义上所谓“会来事”/“有眼力见”的人，很多都是比较内向或者不修边幅，离经叛道者更是大有人在，只有当提到自己感兴趣的东西才会说的多一点用大白话说，现在是这些“非主流分子“的势头比走传统路线的人猛的多，特别是互联网创业体…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"GQJPb86H\">因为财富范式中心正在大批量转移到Nerd/Geek身上，特别是把混社会这一项点出来的，想不混出头都难</p><p data-pid=\"guqetoJo\">这几年跟很多做的不错+相对年轻(最早75后起)的人打交道，对此深有感触</p><p data-pid=\"lCYDfbCZ\"><b>里面有很多人都不是传统意义上所谓“会来事”/“有眼力见”的人，很多都是比较内向或者不修边幅，离经叛道者更是大有人在，只有当提到自己感兴趣的东西才会说的多一点</b></p><p data-pid=\"umUp-Wez\">用大白话说，现在是这些“非主流分子“的势头比走传统路线的人猛的多，特别是互联网创业体现的极其突出，而那些盲从主流的基本都混得不行</p><p data-pid=\"jNvFMIIz\"><b>就某个技术/业务痴迷热爱，能从钻研和实践中获得快乐，乐于改进自己的认知和系统迭代进化的，这些特质在这些人里面是非常高频出现的</b></p><p data-pid=\"a57e2SM7\">张一鸣也属于这种人，而很多投资人对这个趋势非常迟钝，在看人的过程中还是浮于表面的东西，而这些恰恰是这类创业者不太关心的事情</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 21708,
+        "favorite_count": 330,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1940175693213336871}",
+      "attached_info": "CtcFCPaH4rGVgfuivAEQBBoJNzQyNTMxNTE0IMumgsUGKLADMA9A8wFKMQomVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjESATAYACAAOgBaCTExNjAxOTYyN2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDAxNzU2OTMyMTMzMzY4NzGKARMxOTM0MjIwODQxNDAwMzk0NTA5qgEJcmVjb21tZW5kwgEgNTFlMDU4YTg3NDE0MmQ2OGQ5N2ViNjNhNWZlNDU1MDLyAQoIDBIGTm9ybWFs8gEoCAoSJDY0MzM1YzBlLWY0NjItNDMyOC1hZjc3LTg1YzdhZDg4YWYyYvIBBggLEgI0MYICAIgCkdyz+YwzkgIgNTFlMDU4YTg3NDE0MmQ2OGQ5N2ViNjNhNWZlNDU1MDKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxl2gImVFNfU09VUkNFX1RFWFRfTVVMVElWSUVXX0dDRl9VU0VSQ0ZfVjHoAgL6AgtOT1JNQUxfRkxPV4oDIDk1MDAzZDI3MTYzMzRjMzdiNTdiODFkMjYyZDI3Y2NkmgMNCgJ2MhAAGgVvdGhlcqgDzKkB2AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE1OcgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAACkfrD+BBQAAAAAAAAAAiQVeVdh8pVXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUpkAYAoAb1AagGAJICLgoJNzQyNTMxNTE0EhMxOTQwMTc1NjkzMjEzMzM2ODcxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "244_1755822485.730",
+      "type": "feed",
+      "offset": 244,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822485,
+      "updated_time": 1755822485,
+      "target": {
+        "id": "1941539361880544572",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941539361880544572",
+        "author": {
+          "id": "3ff541509bd1d5b457a697f3ac8c6691",
+          "url": "https://api.zhihu.com/people/3ff541509bd1d5b457a697f3ac8c6691",
+          "user_type": "people",
+          "url_token": "12-28-51-28-62",
+          "name": "物联一尘",
+          "headline": "连接美好生活！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-cf8300b8654e015ae2812c56ccb010f2_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "北京理工大学 控制理论与控制工程博士"
+            }
+          ],
+          "followers_count": 1595,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755679055,
+        "updated_time": 1755679487,
+        "voteup_count": 6,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "48999133",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/48999133",
+          "author": {
+            "id": "59fbd3ad6098ecf3a5d8850b919e5926",
+            "url": "https://api.zhihu.com/people/59fbd3ad6098ecf3a5d8850b919e5926",
+            "user_type": "people",
+            "url_token": "openmind-66",
+            "name": "digolds",
+            "headline": "想学习编程并成功面试？不妨试试digolds.cn",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-35552e9b40f0af142746eea826546b29_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 944,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何学会创新？",
+          "created": 1469707627,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            121
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "一、敬畏之心首先，对创新要有\"敬畏\"。一是“敬”，就是要崇尚创新，有创新意识，喜欢创新；二是“畏“，创新不是天马行空，不是想当然，更不是自嗨，是在准确理解需求的条件下用技术解决实际的问题，这样的创新更具有价值；并且一定要基于当前最新技术进展的条件下进行的创新，一定要充分调研了解现状。 二、方法论 然后，寻找创新的模式。其实创新是有模式的，请了解下”TRIZ理论“。TRIZ(发明问题解决理论)是一种系统化的创新…",
+        "excerpt_new": "一、敬畏之心首先，对创新要有\"敬畏\"。一是“敬”，就是要崇尚创新，有创新意识，喜欢创新；二是“畏“，创新不是天马行空，不是想当然，更不是自嗨，是在准确理解需求的条件下用技术解决实际的问题，这样的创新更具有价值；并且一定要基于当前最新技术进展的条件下进行的创新，一定要充分调研了解现状。 二、方法论 然后，寻找创新的模式。其实创新是有模式的，请了解下”TRIZ理论“。TRIZ(发明问题解决理论)是一种系统化的创新…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<h2>一、敬畏之心</h2><p data-pid=\"SJQ7JjrF\">首先，对创新要有&#34;敬畏&#34;。一是“敬”，就是要崇尚创新，有创新意识，喜欢创新；二是“畏“，创新不是天马行空，不是想当然，更不是自嗨，是在准确理解需求的条件下用技术解决实际的问题，这样的创新更具有价值；并且一定要基于当前最新技术进展的条件下进行的创新，一定要充分调研了解现状。</p><h2>二、方法论</h2><p data-pid=\"QyW9XrYp\">  然后，寻找创新的模式。其实创新是有模式的，请了解下”TRIZ理论“。TRIZ(发明问题解决理论)是一种系统化的创新方法论,起源于前苏联。TRIZ由俄罗斯工程师和科学家根里奇·阿奇舒勒(Genrich Altshuller, 1926-1998)于1946年开始创立。阿奇舒勒在担任专利审查员期间,通过分析数千项专利发现了技术创新中的共同模式和规律,从而开始了TRIZ理论的构建。</p><p data-pid=\"-vDAEgZr\">1980年代后期至1990年代初,随着苏联解体,TRIZ开始传入西方世界。1990年代至今,TRIZ在全球范围内得到推广,TRIZ协会在世界各地成立。</p><p data-pid=\"2f0v_-vf\">技术系统的演变规律是TRIZ的理论基础。通过对大量的专利加以研究，GenriehAlt-shuller认为技术系统的演变遵循一些重要规律。这些规律对于产品和工艺的开发与创新具有重要的指导作用。他总结出了技术系统演变的八个重要模式:</p><p data-pid=\"7habksUX\">1.技术系统的演变遵循产生、成长、成熟和衰退的生命周期。</p><p data-pid=\"GyEDpt4y\">2.增加理想度。</p><p data-pid=\"vztUV5xb\">3.系统中各子系统的不均衡演变，从而导致冲突。</p><p data-pid=\"Je1IGrw4\">4.增加动态性和可控制性。</p><p data-pid=\"wJIG0W_G\">5.增加复杂性，进而通过集成加以简化。</p><p data-pid=\"wRDZrqkQ\">6.零部件匹配和失配</p><p data-pid=\"qrl5LbnU\">7.从宏观系统向微观系统演变，运用能量场实现更好的性能或控制</p><p data-pid=\"Dp65QBYe\">8.增加自动化，降低人类的参与。</p><h2>三、相关资料</h2><p data-pid=\"uaGIAR5O\">关于TRIZ的书也非常多，建议多读几本，便于从不同的描述，不同的思维逻辑来理解TRIZ。</p><ol><li data-pid=\"ObZYjjGk\">TRIZ创始人[苏]阿奇舒勒的<b>《创新40法：TRIZ创造性解决技术问题的诀窍》</b><br/>系统阐述了解决技术矛盾的法则，同时增加了操作性很强的“技术矛盾索引表”、新的关于TRIZ的理论和方法以及如何有效使用TRIZ40法的指导材料。《创新40法（TRIZ创造性解决技术问题的诀窍）》的编排既考虑了有经验的TRIZ应用者，也考虑了TRIZ的初学者。</li></ol><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-69a96145345f35e0479c590ca29cc06e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"419\" data-rawheight=\"545\" data-original-token=\"v2-77fd60c7212327963f70f793f26a79a7\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-05e8864e2a9c447d1bb52ba8e0a6b2d0_b.jpg\" class=\"content_image\" width=\"419\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XeFJldYP\">2. <b>清华大学郭永春等《系统性创新方法与实践》</b></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8a7a16df75e3a67f56aea72872c90d0b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"406\" data-rawheight=\"520\" data-original-token=\"v2-f8a199655d87c23542c9779c1361944c\" data-default-watermark-src=\"https://pica.zhimg.com/v2-0b47be336a39c72009a1d8140204656a_b.jpg\" class=\"content_image\" width=\"406\"/></figure><p data-pid=\"fOJzM8xu\">是为大学生创新能力培养而编写的一本教材。全书可分为三个部分,第一部分是系统性创新方法整体框架；第二部分是系统性创新方法5个阶段的常用工具介绍；第三部分是系统性创新方法的应用原则与建议。本书编写注重理论与实践的结合,吸收了设计思维和TRIZ理论中的典型方法,内容丰富,文字简洁,实用性强。本书是大学创新能力通识课的教材,也可以作为创新能力培训的辅助教材,也可供相关领域人员参考。</p><p data-pid=\"rjFno5u3\">3. <b>根里奇·阿奇舒勒的《创新算法》</b></p><p data-pid=\"1xqF2vsk\">TRIZ包含很多零散的创新方法，将这些方法按照发现问题、分析问题和解决问题的逻辑有机地结合起来，形成一套系统化的创新方法论，这就是ARIZ（Algorithm of TRIZ，创新算法）。通过ARIZ的学习和训练，人们才能真正拥有创造性解决问题的能力，这本书是对TRIZ理论的又一次系统阐述。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b3488d2ff34b3c26e398a6cc1949313a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"439\" data-rawheight=\"606\" data-original-token=\"v2-4f717274fe5708332ee7a8dddb3c3954\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-f1bfb29aaae56a10fff87f297b4dcbed_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"439\" data-original=\"https://pic3.zhimg.com/v2-b3488d2ff34b3c26e398a6cc1949313a_r.jpg\"/></figure><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 23,
+        "favorite_count": 4,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941539361880544572}",
+      "attached_info": "CskHCPaH4rGVgfuivAEQBBoJNzQzMTIxNzQ1IM+SlsUGKAYwAED0AUojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDESATAYACAAOgBKLwokVFNfU09VUkNFX1dBUk1VUF9UV09UT1dFUl9FWFBWMl9URVhUEgEwGAAgADoAWggxMTgxNTM5M2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE1MzkzNjE4ODA1NDQ1NzKKAQg0ODk5OTEzM6oBCXJlY29tbWVuZMIBIDNmZjU0MTUwOWJkMWQ1YjQ1N2E2OTdmM2FjOGM2Njkx8gEKCAwSBk5vcm1hbPIBKAgKEiQ2NzI3Y2VmMi1jNDNjLTQ1MzQtYjYxOC1mYmE5MGYzYjM0ZDnyAQYICxICNDGCAgCIApHcs/mMM5ICIDNmZjU0MTUwOWJkMWQ1YjQ1N2E2OTdmM2FjOGM2NjkxmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCGkNvbnRlbnRXYXJtVXBJc29sYXRpb25SdWxlygIcQmF5ZXNGaXJzdExldmVsSXNvbGF0aW9uUnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMegCA/oCC05PUk1BTF9GTE9XigMgOTUwMDNkMjcxNjMzNGMzN2I1N2I4MWQyNjJkMjdjY2SaAw0KAnYyEAAaBW90aGVyqAMX2AMA6gMuY29udGVudFdhcm11cFR3b1Rvd2VyVHZwVGV4dEJvb3N0RXhwVjJSZWNhbGxlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCjAxihBCIjdjItNzdmZDYwYzcyMTIzMjc5NjNmNzBmNzkzZjI2YTc5YTc6LQgCEJYDGIgEIiN2Mi1mOGExOTk2NTVkODdjMjM1NDJjOTc3OWMxMzYxOTQ0YzotCAIQtwMY3gQiI3YyLTRmNzE3Mjc0ZmU1NzA4MzMyZWU3YThkZGRiM2MzOTU0gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAghaicP4EFAAAAAAAAAACJBV5V2HylVdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBSmQBgCgBvYBqAYBkgIuCgk3NDMxMjE3NDUSEzE5NDE1MzkzNjE4ODA1NDQ1NzIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "245_1755822485.877",
+      "type": "feed",
+      "offset": 245,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822485,
+      "updated_time": 1755822485,
+      "target": {
+        "id": "1939067307696587201",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1939067307696587201",
+        "author": {
+          "id": "1bdf4525e2fd610c36d0cd9fe52d3708",
+          "url": "https://api.zhihu.com/people/1bdf4525e2fd610c36d0cd9fe52d3708",
+          "user_type": "people",
+          "url_token": "qin-wei-liang-31",
+          "name": "IT学习日记",
+          "headline": "每日更新: 最酷的AI | 软件 | 资源！感谢您的关注！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f723291acea007453f4a28051ce294aa_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 906,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "第三方支付天花板！这可能是你在开源界中能找到的最强第三方支付系统",
+        "comment_permission": "all",
+        "created": 1755584459,
+        "updated": 1755584459,
+        "voteup_count": 2,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "系统简介 Jeepay是一款面向互联网企业的开源支付系统，支持多渠道服务商模式和普通商户模式。系统已对接微信、支付宝和云闪付等第三方官方支付接口，支持聚合码支付功能，使用者可基于该系统快速集成对第三方支付功能，实现商业化闭环。系统基于Spring Boot和Ant Design Vue技术栈开发，内置了Spring Security实现权限管理，提供了实用功能和易于扩展的系统体验。   系统架构 1、支付体系架构   2、支付流程图   3、项目结构jeepay-ui …",
+        "excerpt_new": "系统简介 Jeepay是一款面向互联网企业的开源支付系统，支持多渠道服务商模式和普通商户模式。系统已对接微信、支付宝和云闪付等第三方官方支付接口，支持聚合码支付功能，使用者可基于该系统快速集成对第三方支付功能，实现商业化闭环。系统基于Spring Boot和Ant Design Vue技术栈开发，内置了Spring Security实现权限管理，提供了实用功能和易于扩展的系统体验。   系统架构 1、支付体系架构   2、支付流程图   3、项目结构jeepay-ui …",
+        "preview_type": "default",
+        "preview_text": "",
+        "column": {
+          "id": "c_1897691521471452366",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1897691521471452366",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "1000+精品开源项目",
+          "imageUrl": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "intro": "最新，最酷的开源项目推荐，持续更新",
+          "updated": 1745224916,
+          "is_following": false
+        },
+        "content": "<h3><b>系统简介</b></h3><p data-pid=\"A9AJDEfM\"><b>Jeepay是一款面向互联网企业的开源支付系统，支持多渠道服务商模式和普通商户模式。系统已对接微信、支付宝和云闪付等第三方官方支付接口，支持聚合码支付功能，使用者可基于该系统快速集成对第三方支付功能，实现商业化闭环。</b></p><p data-pid=\"VtJQWcq3\">系统基于Spring Boot和Ant Design Vue技术栈开发，内置了Spring Security实现权限管理，提供了实用功能和易于扩展的系统体验。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e1d93bd88b76991c86a3b1e4e13af7ec_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1148\" data-rawheight=\"782\" data-original-token=\"v2-3febe56fdc050d8507baca82e9b6a078\" class=\"origin_image zh-lightbox-thumb\" width=\"1148\" data-original=\"https://pica.zhimg.com/v2-e1d93bd88b76991c86a3b1e4e13af7ec_r.jpg\"/><figcaption>Jeepay</figcaption></figure><h3><b>系统架构</b></h3><p data-pid=\"SMbzB2Da\"><b>1、支付体系架构</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3078329fd515e713e58c4998109e736b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2664\" data-rawheight=\"1604\" data-original-token=\"v2-7ed6710f0c8658b5f7cbe5dfd7d18ff4\" class=\"origin_image zh-lightbox-thumb\" width=\"2664\" data-original=\"https://picx.zhimg.com/v2-3078329fd515e713e58c4998109e736b_r.jpg\"/><figcaption>支付体系架构</figcaption></figure><p data-pid=\"Nu52Kjg1\"><b>2、支付流程图</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-06efb16a91b878bdc8fb15bcc28df585_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2246\" data-rawheight=\"1588\" data-original-token=\"v2-6e6f6bdd7ce3e9f54cdcbc6b06e5b36e\" class=\"origin_image zh-lightbox-thumb\" width=\"2246\" data-original=\"https://pic2.zhimg.com/v2-06efb16a91b878bdc8fb15bcc28df585_r.jpg\"/><figcaption>支付流程图</figcaption></figure><p data-pid=\"u5NJSOeZ\"><b>3、项目结构</b></p><div class=\"highlight\"><pre><code class=\"language-text\">jeepay-ui  \n\njeepay\n├── conf -- 存放系统部署使用的.yml文件\n└── docs -- 存放项目相关文档说明\n     ├── script -- 项目启动shell脚本\n     └── sql -- 初始化sql文件\n└── jeepay-components -- 公共组件目录\n     ├── jeepay-components-mq -- mq组件\n     └── jeepay-components-oss -- oss组件\n├── jeepay-core -- 核心依赖包\n├── jeepay-manager -- 运营平台服务端[9217]\n├── jeepay-merchant -- 商户系统服务端[9218]\n├── jeepay-payment -- 支付网关[9216]\n├── jeepay-service -- 业务层代码\n└── jeepay-z-codegen -- mybatis代码生成</code></pre></div><h3><b>系统特点</b></h3><ul><li data-pid=\"MsMMAdaJ\">支持多渠道支付对接，支付网关可实现自动路由。<br/> </li><li data-pid=\"tlj-K2QM\">已完成微信服务商和普通商户接口的接入，兼容V2和V3版本协议。<br/> </li><li data-pid=\"RoNP87I0\">支持支付宝服务商和普通商户接口，并兼容RSA与RSA2签名方式。<br/> </li><li data-pid=\"Gi7gSlNo\">已接入云闪付服务商接口，可灵活选择多家支付机构。<br/> </li><li data-pid=\"b84lHyZW\">提供基于HTTP的标准接口，同时支持多语言SDK，便于快速集成。<br/> </li><li data-pid=\"S5eKfH8O\">接口请求与响应均采用签名机制，确保交易安全可靠。<br/> </li><li data-pid=\"ra6s7WyU\">系统具备高安全性，支持分布式部署，能够稳定应对高并发场景。<br/> </li><li data-pid=\"ssw4UKG6\">管理端包含运营平台和商户系统，功能齐全。<br/> </li><li data-pid=\"OASq95T_\">管理平台界面设计简洁直观，操作简单易用。<br/> </li><li data-pid=\"PpFHZfzq\">支付平台通过MQ实现订单通知到商户系统，保障消息的高可用性与可靠性。<br/> </li><li data-pid=\"pqJ-4w2z\">支付渠道的接口参数配置实现自动化生成，降低配置复杂度。<br/> </li><li data-pid=\"qOkeouQb\">权限管理基于Spring Security开发，安全可靠。<br/> </li><li data-pid=\"wBzAxyl8\">系统采用前后端分离架构，便于二次开发和功能扩展。<br/> </li><li data-pid=\"8RO9q9mc\">由原XxPay团队开发，团队拥有丰富的支付系统开发经验，技术实力雄厚。<br/> </li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c2ac4e6389eca894d6ce8d4d9c3bf699_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2426\" data-rawheight=\"1391\" data-original-token=\"v2-e4d573f0e59860ff3e0b69b284b59d2b\" class=\"origin_image zh-lightbox-thumb\" width=\"2426\" data-original=\"https://picx.zhimg.com/v2-c2ac4e6389eca894d6ce8d4d9c3bf699_r.jpg\"/><figcaption>系统特点</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-952b13f2b795a4b23c170be8d9e6c63e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2743\" data-rawheight=\"2035\" data-original-token=\"v2-611d518cfac8d5e8a0a642009f9e83ce\" class=\"origin_image zh-lightbox-thumb\" width=\"2743\" data-original=\"https://pic3.zhimg.com/v2-952b13f2b795a4b23c170be8d9e6c63e_r.jpg\"/><figcaption>系统特点</figcaption></figure><h3><b>功能模块</b></h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8370327cc647a1cc52d7f033ec87c7d2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1396\" data-rawheight=\"743\" data-original-token=\"v2-54385f913dddeec204f2d6c08c104914\" class=\"origin_image zh-lightbox-thumb\" width=\"1396\" data-original=\"https://pic3.zhimg.com/v2-8370327cc647a1cc52d7f033ec87c7d2_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-82f188d09122df784b4f8aa050715fb6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1201\" data-rawheight=\"915\" data-original-token=\"v2-445558eee15b38377308b18219cce8c0\" class=\"origin_image zh-lightbox-thumb\" width=\"1201\" data-original=\"https://pic3.zhimg.com/v2-82f188d09122df784b4f8aa050715fb6_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d0726d8533ec0f613b301c8e66a8e555_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1629\" data-rawheight=\"810\" data-original-token=\"v2-5bc1935952857dafda3f5dad5f51bb3a\" class=\"origin_image zh-lightbox-thumb\" width=\"1629\" data-original=\"https://pic2.zhimg.com/v2-d0726d8533ec0f613b301c8e66a8e555_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d536d4f9fcd9ed663f06222fa5b2edb1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1638\" data-rawheight=\"845\" data-original-token=\"v2-9d589d80d5c80af4b7daf1ccd1cb3754\" class=\"origin_image zh-lightbox-thumb\" width=\"1638\" data-original=\"https://picx.zhimg.com/v2-d536d4f9fcd9ed663f06222fa5b2edb1_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-deb6b27f7927772e3399ae00edfbe862_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1637\" data-rawheight=\"845\" data-original-token=\"v2-3418fc900a8606bab0f249f3533a25c3\" class=\"origin_image zh-lightbox-thumb\" width=\"1637\" data-original=\"https://pic3.zhimg.com/v2-deb6b27f7927772e3399ae00edfbe862_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-60664e1f33cf99071656486039fd790a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1621\" data-rawheight=\"847\" data-original-token=\"v2-d6365a73589c83d2f713eedba98f9200\" class=\"origin_image zh-lightbox-thumb\" width=\"1621\" data-original=\"https://pic1.zhimg.com/v2-60664e1f33cf99071656486039fd790a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-743d8e9b165d5b5e46b002c5e07008bf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1636\" data-rawheight=\"840\" data-original-token=\"v2-356d121cc85420ce77c77cd4914b084f\" class=\"origin_image zh-lightbox-thumb\" width=\"1636\" data-original=\"https://pic2.zhimg.com/v2-743d8e9b165d5b5e46b002c5e07008bf_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3ee6e2b7da71976f0fe2691b5ecb75bf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1622\" data-rawheight=\"851\" data-original-token=\"v2-0ab934f6241c6fa348f2df0c27502aa1\" class=\"origin_image zh-lightbox-thumb\" width=\"1622\" data-original=\"https://pic2.zhimg.com/v2-3ee6e2b7da71976f0fe2691b5ecb75bf_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-db25ce8752c0acf230835b10bd94627c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1631\" data-rawheight=\"842\" data-original-token=\"v2-4c0eb32c0c1efe6cadca818b7ef48d52\" class=\"origin_image zh-lightbox-thumb\" width=\"1631\" data-original=\"https://pica.zhimg.com/v2-db25ce8752c0acf230835b10bd94627c_r.jpg\"/></figure><h3><b>核心技术栈</b></h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>工具/框架</th><th>描述</th><th>版本要求</th></tr><tr><td>Jdk</td><td>Java环境</td><td>1.8</td></tr><tr><td>Spring Boot</td><td>开发框架</td><td>2.4.5</td></tr><tr><td>Redis</td><td>分布式缓存</td><td>3.2.8 或 高版本</td></tr><tr><td>MySQL</td><td>数据库</td><td>5.7.X 或 8.0 高版本</td></tr><tr><td>MQ</td><td>消息中间件</td><td>ActiveMQ 或 RabbitMQ 或 RocketMQ</td></tr><tr><td>Ant Design Vue</td><td>Ant Design的Vue实现，前端开发使用</td><td>2.1.2</td></tr><tr><td>MyBatis-Plus</td><td>MyBatis增强工具</td><td>3.4.2</td></tr><tr><td>WxJava</td><td>微信开发Java SDK</td><td>4.1.0</td></tr><tr><td>Hutool</td><td>Java工具类库</td><td>5.6.6</td></tr></tbody></table><h3><b>最佳实践</b></h3><p data-pid=\"r-mJREMa\"><b>有支付需求的业务的使用者，可将Jeepay作为一个支付模块部署，快速集成对外提供支付接入能力。</b></p><p data-pid=\"-Ws1JxnF\"><b>1、宝塔面板安装：</b></p><ul><li data-pid=\"_eMxPBwQ\">安装宝塔面板9.2.0及以上版本， Docker搜索 jeepay 一键安装</li></ul><p data-pid=\"KZSqwVCw\"><b>2、shell脚本一键安装：</b></p><ul><li data-pid=\"lOZwtdxS\">CentOS 安装脚本 （推荐Anolis OS 8.8）</li></ul><div class=\"highlight\"><pre><code class=\"language-text\">yum install -y wget &amp;&amp; wget -O install.sh https://gitee.com/xxxx/install/install.sh &amp;&amp; sh install.sh</code></pre></div><ul><li data-pid=\"bZ7G6sH1\">Ubuntu 安装脚本 （推荐 Ubuntu 22.04 64位）：</li></ul><div class=\"highlight\"><pre><code class=\"language-text\">apt update &amp;&amp; apt-get -y install docker.io &amp;&amp; apt-get -y install git &amp;&amp; wget -O install.sh https://gitee.com/xxxxx/install/install.sh &amp;&amp; sh install.sh</code></pre></div><h3><b>工具获取</b></h3><ul><li data-pid=\"K8HnYDAl\">源代码下载：<b>请查看主页</b></li></ul><p data-pid=\"FWPxMr7_\">如果这篇文章对您有帮助，请一定帮我点个 <b>“关注”</b> 和 <b>“点赞”</b>,这对我非常重要。<b>我将会继续推荐更多优质项目和新闻。</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-084ad912d8235f0dc78be3b6049ca139_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"331\" data-original-token=\"v2-084ad912d8235f0dc78be3b6049ca139\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-084ad912d8235f0dc78be3b6049ca139_r.jpg\"/></figure><h3><b>更新进度</b></h3><p data-pid=\"J8fPtPHh\"><b>1000+优质开源项目更新进度：135/1000</b>。如需更多类型优质项目推荐，请在文章后留言。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-cc385fef1ec93fb88c34acbc4a455e74_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"332\" data-original-token=\"v2-cc385fef1ec93fb88c34acbc4a455e74\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic3.zhimg.com/v2-cc385fef1ec93fb88c34acbc4a455e74_r.jpg\"/></figure><p></p>",
+        "is_labeled": false,
+        "visited_count": 139,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-3febe56fdc050d8507baca82e9b6a078_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-7ed6710f0c8658b5f7cbe5dfd7d18ff4_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6e6f6bdd7ce3e9f54cdcbc6b06e5b36e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e4d573f0e59860ff3e0b69b284b59d2b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-611d518cfac8d5e8a0a642009f9e83ce_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-54385f913dddeec204f2d6c08c104914_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-445558eee15b38377308b18219cce8c0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5bc1935952857dafda3f5dad5f51bb3a_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-9d589d80d5c80af4b7daf1ccd1cb3754_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3418fc900a8606bab0f249f3533a25c3_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d6365a73589c83d2f713eedba98f9200_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-356d121cc85420ce77c77cd4914b084f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0ab934f6241c6fa348f2df0c27502aa1_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-4c0eb32c0c1efe6cadca818b7ef48d52_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 18,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1939067307696587201}",
+      "attached_info": "CvYLCPaH4rGVgfuivAEQBxoJMjYxNjY4MTQ3IMuvkMUGKAIwAED1AUpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WggxMzY2ODk4MWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5MzkwNjczMDc2OTY1ODcyMDGKARVjXzE4OTc2OTE1MjE0NzE0NTIzNjaqAQlyZWNvbW1lbmTCASAxYmRmNDUyNWUyZmQ2MTBjMzZkMGNkOWZlNTJkMzcwOPIBCggMEgZOb3JtYWzyASgIChIkNzJlNjlkMDItZWJmMS00MWRkLThiZGMtNzY2Yjg5MWI3Mjgy8gEGCAsSAjQxggIAiAKR3LP5jDOSAiAxYmRmNDUyNWUyZmQ2MTBjMzZkMGNkOWZlNTJkMzcwOJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyA5NTAwM2QyNzE2MzM0YzM3YjU3YjgxZDI2MmQyN2NjZJoDDQoCdjIQABoFb3RoZXKoA4sB2AMA6gMfdGV4dEZlZWRUd29Ub3dlcldhcm11cFN1Y2Nlc3NWMfoDjwYSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhD8CBiOBiIjdjItM2ZlYmU1NmZkYzA1MGQ4NTA3YmFjYTgyZTliNmEwNzg6LQgCEOgUGMQMIiN2Mi03ZWQ2NzEwZjBjODY1OGI1ZjdjYmU1ZGZkN2QxOGZmNDotCAIQxhEYtAwiI3YyLTZlNmY2YmRkN2NlM2U5ZjU0Y2RjYmM2YjA2ZTViMzZlOi0IAxD6EhjvCiIjdjItZTRkNTczZjBlNTk4NjBmZjNlMGI2OWIyODRiNTlkMmI6LQgCELcVGPMPIiN2Mi02MTFkNTE4Y2ZhYzhkNWU4YTBhNjQyMDA5ZjllODNjZTotCAMQ9AoY5wUiI3YyLTU0Mzg1ZjkxM2RkZGVlYzIwNGYyZDZjMDhjMTA0OTE0Oi0IAhCxCRiTByIjdjItNDQ1NTU4ZWVlMTViMzgzNzczMDhiMTgyMTljY2U4YzA6LQgCEN0MGKoGIiN2Mi01YmMxOTM1OTUyODU3ZGFmZGEzZjVkYWQ1ZjUxYmIzYTotCAMQ5gwYzQYiI3YyLTlkNTg5ZDgwZDVjODBhZjRiN2RhZjFjY2QxY2IzNzU0Oi0IAxDlDBjNBiIjdjItMzQxOGZjOTAwYTg2MDZiYWIwZjI0OWYzNTMzYTI1YzM6LQgCENUMGM8GIiN2Mi1kNjM2NWE3MzU4OWM4M2QyZjcxM2VlZGJhOThmOTIwMDotCAIQ5AwYyAYiI3YyLTM1NmQxMjFjYzg1NDIwY2U3N2M3N2NkNDkxNGIwODRmOi0IAhDWDBjTBiIjdjItMGFiOTM0ZjYyNDFjNmZhMzQ4ZjJkZjBjMjc1MDJhYTE6LQgDEN8MGMoGIiN2Mi00YzBlYjMyYzBjMWVmZTZjYWRjYTgxOGI3ZWY0OGQ1MjotCAIQuAgYywIiI3YyLTA4NGFkOTEyZDgyMzVmMGRjNzhiZTNiNjA0OWNhMTM5Oi0IAhDQBRjMAiIjdjItY2MzODVmZWYxZWM5M2ZiODhjMzRhY2JjNGE0NTVlNzSABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKDrF5w/gQUAAAAAAAAAAIkFXlXYfKVV2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFKZAGAKAG9wGoBgCSAi4KCTI2MTY2ODE0NxITMTkzOTA2NzMwNzY5NjU4NzIwMRgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=245&desktop=true&end_offset=247&page_number=42&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=245&desktop=true&end_offset=247&page_number=42&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,624 @@
+{
+  "data": [
+    {
+      "id": "66_1768675035.499",
+      "type": "feed",
+      "offset": 66,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768675035,
+      "updated_time": 1768675035,
+      "target": {
+        "allow_segment_interaction": true,
+        "vote_next_step": "vote",
+        "title": "库存合并扣减：一种基于分布式缓存的强一致性热点库存扣减方案",
+        "updated": 1768363209,
+        "preview_text": "",
+        "url": "https://api.zhihu.com/articles/1992918453867279678",
+        "voting": 0,
+        "comment_count": 1,
+        "is_labeled": false,
+        "favorite_count": 149,
+        "voteup_count": 32,
+        "preview_type": "default",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "id": "1992918453867279678",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "content": "<h2>前言</h2><p data-pid=\"G_HsD94p\">本文主要介绍了针对热点深库存下单抢购场景，库存团队设计并实现的一种基于Redis分桶扣减计数和合并提交扣减DB的方案；该方案基于分布式缓存实现，但也能做到不超卖不少卖，在保证扣减强一致性的同时，也提升了库存热点扣减TPS和扣减稳定性。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>背景介绍</h2><p data-pid=\"Yi7XqGav\">自库存团队成立以来，随着业务的不断发展，库存扣减性能优化一直是库存团队不断面临的挑战；近几年，库存和数据库团队一起，从数据库内核优化、到应用层优化、再到扣减架构升级，持续的提升库存DB扣减的性能。在前述优化的基础上，库存数据库的整体性能得到了很好的提升。</p><p data-pid=\"7WUeaIqw\">然而随着直播业务的发展，热点扣减的场景越来越频繁，对于深库存热点扣减的场景，日常我们只能通过限流的方式来保护DB，库存合并扣减就是在这样的背景下提出的，我们希望继续优化热点扣减的性能，使库存扣减不成为热点下单链路的瓶颈所在。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>方案调研</h2><p data-pid=\"4TqQBI5y\">传统的提高热点扣减的方案都是通过分布式缓存实现，该类方案通过将库存从 MySQL 划分到多个Redis分桶，扣减的时候直接走Redis进行扣减，分析此类方案，我们会发现：</p><p data-pid=\"EI_OG_0_\">1. 该类基于缓存的扣减方案确实能够大幅提升扣减的性能；</p><p data-pid=\"vd7ZeEja\">2. 但是这个库存扣减方案在实际应用中也会存在一些问题：</p><ul><li data-pid=\"lG0S2iLp\"><b>无法避免库存少卖：</b>针对Redis失败（如超时）的场景，应用层实际并不知道Redis库存是操作成功还是操作失败。为了避免库存超卖，对于扣减超时的场景，应用层只能默认当做失败处理；对于库存回补的场景，应用层只能默认当做成功处理。此时<b>整体是业务有损的，所以Redis分桶扣减方案一般是用在卖家限购、权益这类非实物类库存扣减的场景，这类场景业务接受少卖</b>。</li><li data-pid=\"jTtj7wBv\"><b>对于稍微复杂的库存扣减模型无法支持：</b>Redis库存扣减方案中使用incr和decr实现库存的加减，利用lowBound防止库存减到负数，value即是剩余的库存数量；这个方案只支持库存记录仅包含一个数值的库存模式， 对于sq- 同时wq+ 这种模式无法支持。</li><li data-pid=\"Nm5fGuix\"><b>库存扣减完全依赖Redis：</b>当前扣减方案需要强保障Redis的稳定性，如果Redis异常则整个扣减链路异常。</li></ul><p data-pid=\"QmsH1hR-\">我们想利用Redis提升扣减性能，但是我们的库存扣减模型相对更加复杂、同时我们的业务场景对于库存数据准确性要求更高，<b>绝对不允许超卖少卖</b>；传统的基于redis分桶扣减的方案并不完全适合我们的业务场景。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>合并扣减方案</h2><p data-pid=\"TSb15GFy\">介绍合并扣减详细方案之前，先简单说明下库存域的几个基本概念，方便大家更好理解后续的内容。</p><p data-pid=\"BJ9k5VEm\">1. 库存核心字段：</p><ul><li data-pid=\"G5bUwN1N\"><b>可售库存：</b>sq，实际可售的库存数量；</li><li data-pid=\"X1XZYaSn\"><b>预扣库存：</b>wq，用户下单后，库存sq转向wq；</li><li data-pid=\"KGrMWhFD\"><b>占用库存：</b>oq，货品仓库存模式，付款之后，库存从wq转向oq。</li></ul><p data-pid=\"wZzKbyNS\">2. 库存扣减明细（也叫单据）：是库存扣减的快照，明细是不可或缺的。明细的作用：</p><ul><li data-pid=\"D9G7usfJ\">记录扣减信息：下单是交易会告诉我们扣多少库存，后续付款或者订单取消时，上游不用关心库存的回补数量，库存内部从明细恢复；</li><li data-pid=\"pUctdeAx\">用于分布式系统交互过程中的幂等实现：同一个单据调了两次扣减；单据回补超时，重试可幂等；</li><li data-pid=\"Qg8NEDNs\">负责库存扣减生命周期状态流转。</li></ul><h2>整体思路</h2><p data-pid=\"aBYuHyqT\">我们既想利用分布式缓存（Redis）提升扣减性能，但同时又不能直接依赖Redis作为库存存储介质；因此我们的方案里面，Redis只用来做扣减计数以防止超卖，实际扣减是否成功以库存扣减明细为准。 整体思路如下：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4e230b1d713ad47e6262abc3c6584d14_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"485\" data-original-token=\"v2-4e230b1d713ad47e6262abc3c6584d14\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-4e230b1d713ad47e6262abc3c6584d14_r.jpg\"/></figure><p data-pid=\"q8kBvt5s\">1. DB行的库存提前预留（锁）一部分，锁的这个库存还在DB行上，同时也初始化到redis里面用于扣减计数；</p><p data-pid=\"-BR7RXYS\">2. 合并扣减下单过程中，先扣减redis库存，redis库存够扣的情况下，再往DB插入扣减明细，明细插入成功最终才算扣减成功；</p><p data-pid=\"PjBSitZK\">3. 应用层的合并扣减管理模块，热点下单延迟1s后，通过扫描扣减明细，计算实际应该扣减的数量，一次提交库存变更到DB。</p><p data-pid=\"yqs803ZO\">接下来介绍各个分模块的设计。</p><h2>锁库存模块</h2><p data-pid=\"jqsCvVee\">1. 锁库存模块将DB行库存从sq字段（可售）锁到lq字段（预锁库存），同时锁库存单据；</p><p data-pid=\"V9eii0Bx\">2. 锁库存核心实现，不是通过将sq减去然后加到lq，而是sq不动，锁库存直接加到lq；DB扣减时通过 where sq-lq&gt;0 控制最终sq的数量不能小于lq。<b>这个设计使得锁库存之后，库存展示链路完全不受影响，查询可售库存时也完全不需要关心锁的库存值，大大的降低整个链路上的复杂性，这是一个非常重要的设计。</b></p><p data-pid=\"k6YYFq5M\">3. 每次锁定的lq数量，初始化到Redis里进行扣减计数。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-56ba1ee57a907dd873244710cc4986a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"572\" data-original-token=\"v2-56ba1ee57a907dd873244710cc4986a5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-56ba1ee57a907dd873244710cc4986a5_r.jpg\"/></figure><p data-pid=\"yazZeTkp\">多个redis分桶通过redis分桶缓存进行索引：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a6fc49467f2a5564a862ae4a85f9f402_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"288\" data-original-token=\"v2-a6fc49467f2a5564a862ae4a85f9f402\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-a6fc49467f2a5564a862ae4a85f9f402_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>下单扣减模块</h2><p data-pid=\"yiPaeT8G\">先扣redis分桶库存，成功则继续插入DB明细；失败则兼容走老的DB扣减流程：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a81cd1aa2c4f18085416c7ee946f7ad9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"665\" data-original-token=\"v2-a81cd1aa2c4f18085416c7ee946f7ad9\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-a81cd1aa2c4f18085416c7ee946f7ad9_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>合并提交模块</h2><p data-pid=\"wQp4Daz7\">1. 先失效合并提交对应的redis分桶，防止后续继续有交易流量扣减此redis分桶；</p><p data-pid=\"RO0kIzKZ\">2. 根据分桶key扫描此分桶关联的所有扣减明细，计算库存扣减数量，合并扣减DB。</p><ul><li data-pid=\"r7oVzhFF\">实际Redis分桶扣减的库存数量，以合并下单明细为准，通过扫描明细上的扣减库存总和得到；</li><li data-pid=\"FhEkAwxQ\"><b>这里我们针对数据库明细表，设计了覆盖索引（invId，lockOrderId，quantity），通过sum(quantity) 走索引就能直接得到每个Redis分桶实际扣减的库存；</b>压测和线上效果都表明，此扫描单据的SQL对DB热点扣减的性能影响非常小。</li></ul><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6473ea6f25f0a4dfda75d2365247bbf8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"677\" data-original-token=\"v2-6473ea6f25f0a4dfda75d2365247bbf8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-6473ea6f25f0a4dfda75d2365247bbf8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>库存回收模块</h2><p data-pid=\"-8r9VNz6\">1. 库存回收指将预锁定的库存释放回收到可售卖的状态，以下几种场景需要回收库存：</p><ul><li data-pid=\"FRbNeGnQ\">商家编辑场景，直接走的DB扣减，redis有剩余库存，而商家编辑时将总库存编辑成0，此时我们需要先释放预锁库存；</li><li data-pid=\"kmH7-GRg\">临界场景：Redis分桶只有1件库存，DB两件库存，下单两件库存库存，此时将Redis的库存回收到DB后继续扣减。</li></ul><p data-pid=\"rTCLMNsM\">2. 库存回收在实现上可以直接通过调用分桶合并提交来完成。</p><h2>防超卖少卖设计</h2><p data-pid=\"rEOs8ZWL\">1. 前面锁库存模块也已经提到过，DB可售sq锁到lq，扣减SQL层直接<b>通过 set sq = sq -δq where sq-lq - δq&gt; 0 的方式保证DB不超卖。</b></p><p data-pid=\"azg8q8_h\">2. 而Redis扣减，<b>分桶的剩余库存值不能小于0，保证不超卖；</b>同时如果Redis数据丢了，<b>实际这个Redis分桶库存扣减了多少，以DB合并下单明细为准，也不会少卖。</b></p><p data-pid=\"V-8-25cz\">3. 高并发场景下，下单扣减和合并提交单据扫描并发的情况下，可能会出现少扫描了单据，如果少扫描单据了，则会超卖；我们<b>通过Redis扣减屏障防止此并发场景下的超卖；</b>具体链路如下：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f12363c7d0a4240fa8f8f9f0104f16ee_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"809\" data-original-token=\"v2-f12363c7d0a4240fa8f8f9f0104f16ee\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-f12363c7d0a4240fa8f8f9f0104f16ee_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>自动锁库存模块</h2><p data-pid=\"uE-y2oMn\">通过热点识别能力，感知交易相关系统的热点品库存查询，提前将满足条件的商品库存进行自动锁库存；只要一开始提前锁了任意数量的库存，后续下单扣减过程中，则会继续自动触发锁库存。</p><h2>性能优化效果</h2><p data-pid=\"5en0efVt\">接下来我们看下合并扣减的效果：</p><p data-pid=\"jGn4_jzh\"><b>压测效果</b></p><p data-pid=\"HCZnlIyh\">从压测效果上看，单行热点扣减场景下，非合并扣减tps峰值约1.4w，合并扣减峰值3.2w；整体提升1倍以上扣减性能（实际线上场景，由于入口做了限流，所以线上达不到压测的流量峰值）。</p><p data-pid=\"0raIU9Hb\"><b>线上效果</b></p><p data-pid=\"IN--14QG\">线上由于入口开了限流，库存扣减峰值tps都在7k+，差异体现在扣减成功率和耗时上：</p><p data-pid=\"ElFocImS\">走到合并扣减的热点品，库存扣减成功率在100%，接口扣减耗时7ms+；未走到合并扣减的热点品，库存扣减成功率在80%上下，接口扣减耗时15ms+。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>结语</h2><p data-pid=\"P9FGd6RK\">以上则是基于分布式缓存的强一致库存扣减方案的全部内容，欢迎感兴趣的同学一起交流。</p><p></p>",
+        "article_type": "normal",
+        "comment_permission": "all",
+        "image_url": "https://picx.zhimg.com/v2-0e4cafa436b303f689955c35862f7b65.jpg?source=7e7ef6e2&needBackground=1",
+        "excerpt": "前言本文主要介绍了针对热点深库存下单抢购场景，库存团队设计并实现的一种基于Redis分桶扣减计数和合并提交扣减DB的方案；该方案基于分布式缓存实现，但也能做到不超卖不少卖，在保证扣减强一致性的同时，也提升了库存热点扣减TPS和扣减稳定性。 背景介绍自库存团队成立以来，随着业务的不断发展，库存扣减性能优化一直是库存团队不断面临的挑战；近几年，库存和数据库团队一起，从数据库内核优化、到应用层优化、再到扣减架构…",
+        "excerpt_new": "前言本文主要介绍了针对热点深库存下单抢购场景，库存团队设计并实现的一种基于Redis分桶扣减计数和合并提交扣减DB的方案；该方案基于分布式缓存实现，但也能做到不超卖不少卖，在保证扣减强一致性的同时，也提升了库存热点扣减TPS和扣减稳定性。 背景介绍自库存团队成立以来，随着业务的不断发展，库存扣减性能优化一直是库存团队不断面临的挑战；近几年，库存和数据库团队一起，从数据库内核优化、到应用层优化、再到扣减架构…",
+        "author": {
+          "url_token": "a-li-ji-zhu",
+          "name": "阿里云开发者",
+          "headline": "阿里的技术创新均在此呈现",
+          "avatar_url": "https://picx.zhimg.com/50/v2-1d701f79d418cbcb2d7e991d9862aff6_l.jpg?source=b6762063",
+          "badge": [
+            {
+              "type": "identity_org",
+              "description": "已认证机构号"
+            }
+          ],
+          "followers_count": 188386,
+          "user_type": "organization",
+          "url": "https://api.zhihu.com/people/fa919734224a6c78b5b168b5fe586049",
+          "is_org": true,
+          "gender": -1,
+          "is_following": false,
+          "is_followed": false,
+          "id": "fa919734224a6c78b5b168b5fe586049"
+        },
+        "created": 1768363209,
+        "visited_count": 1294,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-0e4cafa436b303f689955c35862f7b65.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pic1.zhimg.com/50/v2-a81cd1aa2c4f18085416c7ee946f7ad9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6473ea6f25f0a4dfda75d2365247bbf8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f12363c7d0a4240fa8f8f9f0104f16ee_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-0e4cafa436b303f689955c35862f7b65_720w.jpg?source=b6762063"
+        ],
+        "type": "article"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1992918453867279678}",
+      "attached_info": "CvAICJq+6tae1uXdtwEQBxoJMjY4Nzc3NzA5IMmpnMsGKCAwAUBCSj8KF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREh5kb2NfdHlwZTogTWVtYmVyCmlkOiA5Mjc0MTM0NwoYACAAOgBiIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTkyOTE4NDUzODY3Mjc5Njc4ggFfaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi0wZTRjYWZhNDM2YjMwM2Y2ODk5NTVjMzU4NjJmN2I2NS5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASBmYTkxOTczNDIyNGE2Yzc4YjViMTY4YjVmZTU4NjA0OfIBCggMEgZOb3JtYWzyASgIChIkOWJmZjU2MjMtNTU1ZS00NDJmLTliYzUtMmM5MGI1YTdhODJh8gEGCAsSAjEyggIAiAL/kv3pvDOSAiBmYTkxOTczNDIyNGE2Yzc4YjViMTY4YjVmZTU4NjA0OZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhdUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUegCBfoCC05PUk1BTF9GTE9XigMgZDIwNWE3ZGQ4NDZhNDRmYTg4ODY2NGIwNWI1ZTU5YTSaAw0KAnYyEAAaBW90aGVyqAOOCtgDAOoDGWdjZktubkF1dGhvckhpZ2hQb3NSZWNhbGz6A+gCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgY5QMiI3YyLTRlMjMwYjFkNzEzYWQ0N2U2MjYyYWJjM2M2NTg0ZDE0Oi0IAxC4CBi8BCIjdjItNTZiYTFlZTU3YTkwN2RkODczMjQ0NzEwY2M0OTg2YTU6LQgDELgIGKACIiN2Mi1hNmZjNDk0NjdmMmE1NTY0YTg2MmFlNGE4NWY5ZjQwMjotCAQQuAgYmQUiI3YyLWE4MWNkMWFhMmM0ZjE4MDg1NDE2YzdlZTk0NmY3YWQ5Oi0IAhC4CBilBSIjdjItNjQ3M2VhNmYyNWYwYTRkZmRhNzVkMjM2NTI0N2JiZjg6LQgDELgIGKkGIiN2Mi1mMTIzNjNjN2QwYTQyNDBmYThmOGY5ZjAxMDRmMTZlZTotCAMQgAgYgAUiI3YyLTBlNGNhZmE0MzZiMzAzZjY4OTk1NWMzNTg2MmY3YjY1gAQAiAQAkgQGTm9ybWFsmgQBNaAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADAinJyP4EFAAAAAAAAAACJBZrqXNHzCrQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQyQBgCgBkKoBgGSAi4KCTI2ODc3NzcwORITMTk5MjkxODQ1Mzg2NzI3OTY3OBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "67_1768675035.895",
+      "type": "feed",
+      "offset": 67,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675035,
+      "updated_time": 1768675035,
+      "target": {
+        "is_copyable": true,
+        "preview_type": "default",
+        "visited_count": 27742,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-9616fcfcd3f9b75169833f3e227361db_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-90cc024b848538289fde3f4a39e689e8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-d685286e446c6a189adc0f307350dd8e_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-447ec600d64f68419c29d6babcaa9cae_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-249effe7949f8ca661d672918935ac11_720w.jpg?source=b6762063"
+        ],
+        "id": "1988955278247495231",
+        "voteup_count": 639,
+        "thumbnail": "https://picx.zhimg.com/50/v2-9616fcfcd3f9b75169833f3e227361db_720w.jpg?source=b6762063",
+        "excerpt": "1、 养个猫，猫能察觉到外面有人，我有时候玩手机入迷，抬头看到我家猫趴在门口盯着外面，过了好久它才放松警惕。 2、 停电了，先看一下WiFi，如果一个都没有那就是大家都停电了，就不要出门看了。 即使只有自己家停电了，也千万不要打开门去探寻情况，打物业电话问问。 3、 女生尽量选择更新一点物业完善的小区，老小区不止鱼龙混杂，而且周边的很多邻居都是亲戚那种，真的遇到你吃亏的事，大家都会向着对方说话。 物业完善的话…",
+        "vote_next_step": "vote",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1988955278247495231",
+        "author": {
+          "name": "安歌",
+          "avatar_url": "https://picx.zhimg.com/50/v2-3bae3ac91ddc6df38b2a9e8720b96c30_l.jpg?source=b6762063",
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/974ae4c19a8e989e380c06fe0e07b2b2",
+          "user_type": "people",
+          "url_token": "an-ge-64-76",
+          "gender": -1,
+          "followers_count": 1186,
+          "is_following": false,
+          "id": "974ae4c19a8e989e380c06fe0e07b2b2",
+          "headline": "产品测评，数码科技，优质文案，家居家电，自我提升",
+          "is_org": false
+        },
+        "updated_time": 1766983891,
+        "thanks_count": 88,
+        "excerpt_new": "1、 养个猫，猫能察觉到外面有人，我有时候玩手机入迷，抬头看到我家猫趴在门口盯着外面，过了好久它才放松警惕。 2、 停电了，先看一下WiFi，如果一个都没有那就是大家都停电了，就不要出门看了。 即使只有自己家停电了，也千万不要打开门去探寻情况，打物业电话问问。 3、 女生尽量选择更新一点物业完善的小区，老小区不止鱼龙混杂，而且周边的很多邻居都是亲戚那种，真的遇到你吃亏的事，大家都会向着对方说话。 物业完善的话…",
+        "is_labeled": false,
+        "allow_segment_interaction": true,
+        "navigator_vote": false,
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal",
+        "reshipment_settings": "allowed",
+        "created_time": 1766983891,
+        "comment_count": 85,
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/547637416",
+          "title": "有哪些是你独居以后才知道的事？",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            307,
+            526,
+            3946,
+            106840
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "question_type": "normal",
+          "type": "question",
+          "created": 1660014214,
+          "comment_count": 4,
+          "id": "547637416",
+          "author": {
+            "name": "匿名用户",
+            "headline": "",
+            "is_org": false,
+            "is_following": false,
+            "id": "",
+            "url": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 0,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": ""
+          },
+          "follower_count": 0,
+          "detail": ""
+        },
+        "favorite_count": 667,
+        "content": "<p data-pid=\"uen1TwFo\">1、</p><p data-pid=\"KOyum792\">养个猫，猫能察觉到外面有人，我有时候玩手机入迷，抬头看到我家猫趴在门口盯着外面，过了好久它才放松警惕。</p><p data-pid=\"va9rPdQF\">2、</p><p data-pid=\"wJdCkxpf\">停电了，先看一下WiFi，如果一个都没有那就是大家都停电了，就不要出门看了。</p><p data-pid=\"UEoCHESJ\">即使只有自己家停电了，也千万不要打开门去探寻情况，打物业电话问问。</p><p data-pid=\"Gl52kI8k\">3、</p><p data-pid=\"f-nRRxaq\">女生尽量选择更新一点物业完善的小区，老小区不止鱼龙混杂，而且周边的很多邻居都是亲戚那种，真的遇到你吃亏的事，大家都会向着对方说话。</p><p data-pid=\"HtLRobem\">物业完善的话，换灯泡或者修家具这种事自己弄不好的话可以让物业来帮忙，而且物业维修人员比自己找的安全性更高一些。</p><p data-pid=\"r8ddk5Eu\">4、</p><p data-pid=\"PFvyf9nt\">出门在外身份自己给的，少和别人透底。</p><p data-pid=\"e8Zxmcbq\">如果非要聊，真假参半，对方就很难摸清楚。</p><p data-pid=\"NpwarxNE\">除非迫不得已，不要告诉对方你的具体住址。</p><p data-pid=\"FxGLHVVU\">5、</p><p data-pid=\"K8jhEtMv\">不要害怕和人起冲突，这世界上大部分人都是欺软怕硬的，你硬一点歇斯底里，使劲吵。</p><p data-pid=\"3aUp7ayB\">拿出不要命的架势，他会害怕你做什么过激的事，他还不敢欺负你。</p><p data-pid=\"b_beWi9d\">你要是软弱的忍让，迁就，说抱歉之类的，对方反而觉得你真的很好拿捏。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d55e98319d89c72253deac218186815c_1440w.jpg\" data-rawwidth=\"1064\" data-rawheight=\"1416\" data-size=\"normal\" data-original-token=\"v2-9616fcfcd3f9b75169833f3e227361db\" class=\"origin_image zh-lightbox-thumb\" width=\"1064\" data-original=\"https://pic3.zhimg.com/v2-d55e98319d89c72253deac218186815c_r.jpg\"/></figure><p data-pid=\"JYPE37BD\">6、</p><p data-pid=\"5nvxFQU-\">保持固定的社交关系</p><p data-pid=\"lSkCimpE\">比如正常的上班，或者跟朋友家人固定的电话联系，如果你无故一天没有回复消息，这些人最好能及时上门找你。</p><p data-pid=\"P7EmODa4\">这不仅可以防备意外受伤、生病时无人知晓，也可以消灭悲情上头时关于猝死没人发现的顾影自怜。</p><p data-pid=\"gQBX8NxW\">7、</p><p data-pid=\"YGnYn6IA\">常备药物要定期检查保质期。</p><p data-pid=\"y7mI2QlA\">感冒药、退烧药、止疼药、止血贴、暖宝宝、肠胃药要准备一些，不怕过期，就怕难受不能立即有。</p><p data-pid=\"QhPmTbDf\">肠胃药、止痛药、过敏药，总有一款会在半夜猝不及防要痛死的时候救你一命。</p><p data-pid=\"FXly20nb\">8、</p><p data-pid=\"CCOWDt0g\">放一把备用钥匙到公司</p><p data-pid=\"Z3NEcdY2\">忘记带钥匙可以回公司去取备用钥匙，如果来回打车不超过100元的话，比开锁便宜。</p><p data-pid=\"DXSw10m1\">9、</p><p data-pid=\"sm7hwYj_\">冰箱/洗衣机尽量自己买，用房东的不知道</p><p data-pid=\"4G18Xk_u\">几个人用过，你也不知道有多少人在冰箱里放鞋子，洗衣机里洗内裤。</p><p data-pid=\"7jrKSOVZ\">10、</p><p data-pid=\"1Pcg3oUr\">洗澡的时候，一定要把手机带进浴室里。</p><p data-pid=\"m5IiXvnU\">这样可以防止出现自己被困浴室而不能求救的情况发生。</p><p data-pid=\"2uLVM4mL\"><b>墨菲定律❤️：大数据不会骗人，当你刷到这里，点赞留下一句“2026会越来越好”，与过去和解，你变得将越来越好!</b></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-db3fa2c10b21b67e2434f82a4d1c9c00_1440w.jpg\" data-rawwidth=\"1076\" data-rawheight=\"1432\" data-size=\"normal\" data-original-token=\"v2-90cc024b848538289fde3f4a39e689e8\" class=\"origin_image zh-lightbox-thumb\" width=\"1076\" data-original=\"https://pic1.zhimg.com/v2-db3fa2c10b21b67e2434f82a4d1c9c00_r.jpg\"/></figure><p data-pid=\"CyVaG9Kx\">11、</p><p data-pid=\"NzkGlwJf\">有自己的兴趣爱好</p><p data-pid=\"Buts43mp\">一开始独居会有点孤独，这时候有个能让自己专注的兴趣爱好就显得十分重要，看看小说，追追剧，做点手工都是很不错的选择。</p><p data-pid=\"aPcqtJiV\">12、</p><p data-pid=\"pNwf7B0K\">独居可以周末花一天时间备菜，把肉该切丝的切丝，菜该切片的切好，备好一周的量，（有条件的可以自己真空包装)，周末备好之后工作日每天下班直接拿出来炒就完了，既省事又不会因为只有一个人而浪费多余的食材。</p><p data-pid=\"iN6oxk33\">蒜末姜末小米辣也可以切好按份分装，这样在炒菜的时候就不需要再去现切（真空包装不会跑味的）特别推荐买几块小的火锅底料备用，想偷懒的时候直接一块火锅底料煮那些切好的东西就可以了，不吃辣的可以备番茄味底料。</p><p data-pid=\"Fa9SloAv\">13、</p><p data-pid=\"J0CqR3dp\">搞清楚社区的基本环境。</p><p data-pid=\"91QezZV1\">市场、医院、政府、派出所、理发室、餐馆这些地方要摸清楚，遇事比较方便。</p><p data-pid=\"yo4YEXB4\">14、</p><p data-pid=\"wVizAE_6\">个人安全问题很重要，尤其是女孩子。</p><p data-pid=\"XLhm1ooS\">现在监控很便宜，该装就装，大门和卧室的锁一定要足够安全，回家的时候多长一个心眼，以及注意水电气的安全。</p><p data-pid=\"DKdOUDDF\">15、</p><p data-pid=\"a_j94Vsf\">保持冷漠</p><p data-pid=\"hU-19MBI\">不要跟什么菜鸟驿站啊，超市啊，小区物业啊这些混得太熟，让他们知道你很多信息，每天出门就一张生人勿进的臭脸，你会省去很多很多的麻烦。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-824c7b6bf832ab1b21956a11221b1ecb_1440w.jpg\" data-rawwidth=\"1076\" data-rawheight=\"1432\" data-size=\"normal\" data-original-token=\"v2-d685286e446c6a189adc0f307350dd8e\" class=\"origin_image zh-lightbox-thumb\" width=\"1076\" data-original=\"https://pic2.zhimg.com/v2-824c7b6bf832ab1b21956a11221b1ecb_r.jpg\"/></figure><p data-pid=\"LNHiRiBe\">16、</p><p data-pid=\"GKsbX7e3\">租的房子别买书，多便宜也别买。</p><p data-pid=\"KRX8rUn5\">除非你直的是实体书狂热爱好者。书这个东西直的是，又重又占地方，扔了又觉得很可惜，邮寄又觉得很贵。</p><p data-pid=\"csOUTtmS\">17、</p><p data-pid=\"QVK15RCL\">租房要离公司近或者地铁站/公交站近/超市近/楼下多单车，这么多个近，总得占一条，不占天天后悔。</p><p data-pid=\"3QN6eHcj\">18、</p><p data-pid=\"nEkMI72M\">租房子之前一定要仔细检查屋内各个角落，避免有前任租客留下的一些小礼物。</p><p data-pid=\"qCwRf-h4\">19、</p><p data-pid=\"6U3sHpCN\">在外消费的时候千万不要随意办卡，任他巧舌如簧，我喜欢我就经常来，现在跑路的公司太多了。</p><p data-pid=\"sJYmwAHd\">20、</p><p data-pid=\"ks2iVLsd\">同等条件下尽量租采光更好的房子。</p><p data-pid=\"FP0CxhN8\">光线和层高真的对一个人的状态影响非常大。</p><p data-pid=\"kiy1lEV4\">那种阴暗狭小逼仄的房子住久了，整个人心情都会非常压抑，从而影响整个生活状态。</p><p data-pid=\"k1jRHIMy\"><b>刷知乎刷很久了吧，双击一下屏幕❤️，活动活动手指，让手指更灵活。</b></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-398b6426ddb91a8054b24f2c4b806d14_1440w.jpg\" data-rawwidth=\"1076\" data-rawheight=\"1432\" data-size=\"normal\" data-original-token=\"v2-447ec600d64f68419c29d6babcaa9cae\" class=\"origin_image zh-lightbox-thumb\" width=\"1076\" data-original=\"https://pic1.zhimg.com/v2-398b6426ddb91a8054b24f2c4b806d14_r.jpg\"/></figure><p data-pid=\"bTayuKHQ\">21、</p><p data-pid=\"y1lKpFmE\">稍微收敛自己的热心肠，如果有要帮助他人的情况，自己先观察好对方的大概情况，再帮助，别做热心肠的傻白甜。</p><p data-pid=\"Us4Ox8US\">22、</p><p data-pid=\"ApMv2lg1\">签合同交房租入住之前先拍照片，整体拍一遍，细节上有损伤痕迹的地方，或者有污迹的地方也一起拍了，打上时间水印，并跟房东沟通过。</p><p data-pid=\"WK9AzNHW\">这样，将来退房时也不至于，让房东提灯定损被坑了，不退押金。</p><p data-pid=\"tfVgskq0\">23、</p><p data-pid=\"aulYRs_i\">给特别柔弱的女性：适当强身健体，最低程度是，能徒手拧开各种款型的矿泉水、饮料、调料瓶。</p><p data-pid=\"W9MrLnoE\">24、</p><p data-pid=\"-6sj_2CD\">养成不要有人敲门就开门的习惯。</p><p data-pid=\"XassbOFm\">先猫眼看，然后去和物业核实，确认完毕再说。</p><p data-pid=\"wTXKIFbs\">物业不回复，贸然敲门，我一般装死。</p><p data-pid=\"Okaqcj95\">除非听到全层他都在敲门，已经进过别人家门又出来。别人家不给他开门，我也不开门。</p><p data-pid=\"L0h6hnT4\">25、</p><p data-pid=\"cla3YlxX\">家里搞点装饰品。</p><p data-pid=\"X4k2-YhQ\">小摆件能舒缓心情，家里可以有意装饰得乱点，太清冷简洁的装修风格看着好看，但不温馨，时间长了对心理不好。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6401e73b048e2b31091a911e56d1ff8d_1440w.jpg\" data-rawwidth=\"1076\" data-rawheight=\"1432\" data-size=\"normal\" data-original-token=\"v2-249effe7949f8ca661d672918935ac11\" class=\"origin_image zh-lightbox-thumb\" width=\"1076\" data-original=\"https://pic2.zhimg.com/v2-6401e73b048e2b31091a911e56d1ff8d_r.jpg\"/></figure><p data-pid=\"W3tQVzcB\">❤️感谢你能看到最后，如果你觉得这些段落不错，记得点赞、收藏呀</p><p data-pid=\"mclvAzW_\">图片和文案均来自网络，侵删</p><p data-pid=\"_xNU91E9\">嗨，我是安歌，致力于分享优质文案丨女性成长丨分享干货</p><p data-pid=\"EDfbpe0j\">欢迎关注我 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/974ae4c19a8e989e380c06fe0e07b2b2\" data-hash=\"974ae4c19a8e989e380c06fe0e07b2b2\" data-hovercard=\"p$b$974ae4c19a8e989e380c06fe0e07b2b2\">@安歌</a> ，我们一起丰富自己，成为更好的自己。</p>",
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1988955278247495231}",
+      "attached_info": "CvAHCJq+6tae1uXdtwEQBBoJNzYzMTQzNzI4INORyMoGKP8EMFVAQ0o6CidUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX1JFQUQSCTUxMjIyMjM4MRgAIAA6AFoIODM5ODA0NzViIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTg4OTU1Mjc4MjQ3NDk1MjMxigEJNTQ3NjM3NDE2qgEJcmVjb21tZW5kwgEgOTc0YWU0YzE5YThlOTg5ZTM4MGMwNmZlMGUwN2IyYjLyAQoIDBIGTm9ybWFs8gEoCAoSJDVhNDAxMTFhLWQzMDctNDUwYi1iM2M3LTJhYTJjNmY1ZGIxOfIBBggLEgIxMoICAIgC/5L96bwzkgIgOTc0YWU0YzE5YThlOTg5ZTM4MGMwNmZlMGUwN2IyYjKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gInVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9SRUFE6AID+gILTk9STUFMX0ZMT1eKAyBkMjA1YTdkZDg0NmE0NGZhODg4NjY0YjA1YjVlNTlhNJoDDQoCdjIQABoFb3RoZXKoA97YAdgDAOoDG2ZpcnN0RGVncmVlVXNlclJlYWRSZWNhbGxlcvoDigISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBCoCBiICyIjdjItOTYxNmZjZmNkM2Y5Yjc1MTY5ODMzZjNlMjI3MzYxZGI6LQgCELQIGJgLIiN2Mi05MGNjMDI0Yjg0ODUzODI4OWZkZTNmNGEzOWU2ODllODotCAMQtAgYmAsiI3YyLWQ2ODUyODZlNDQ2YzZhMTg5YWRjMGYzMDczNTBkZDhlOi0IAhC0CBiYCyIjdjItNDQ3ZWM2MDBkNjRmNjg0MTljMjlkNmJhYmNhYTljYWU6LQgCELQIGJgLIiN2Mi0yNDllZmZlNzk0OWY4Y2E2NjFkNjcyOTE4OTM1YWMxMYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoMxEoT+BBQAAAAAAAAAAiQWa6lzR8wq0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZDqAYDkgIuCgk3NjMxNDM3MjgSEzE5ODg5NTUyNzgyNDc0OTUyMzEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "68_1768675035.557",
+      "type": "feed",
+      "offset": 68,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675035,
+      "updated_time": 1768675035,
+      "target": {
+        "allow_segment_interaction": true,
+        "preview_type": "default",
+        "content": "<p data-pid=\"RjvYySCa\">你为何不直接看看美国老百姓的心声？</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4b4afbb6ad82bf86da5ab5638e93ca86_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"904\" data-size=\"normal\" data-original-token=\"v2-3645d10b1ddded433d00cd16f1453407\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-4b4afbb6ad82bf86da5ab5638e93ca86_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d39d8ec3f9aa113da1fbf680f3211b12_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"810\" data-size=\"normal\" data-original-token=\"v2-a48fae87b189986b467f2ab5025aee8f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-d39d8ec3f9aa113da1fbf680f3211b12_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-95c1c5f400383e0215c97a74a93cfb97_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"744\" data-size=\"normal\" data-original-token=\"v2-8accde70cbe9c23846c27556a749af74\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-95c1c5f400383e0215c97a74a93cfb97_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f770a579e8236f434101d81556d8ae7f_1440w.jpg\" data-rawwidth=\"896\" data-rawheight=\"1924\" data-size=\"normal\" data-original-token=\"v2-5a521a4297284c773c020a3b9b67762b\" class=\"origin_image zh-lightbox-thumb\" width=\"896\" data-original=\"https://pic4.zhimg.com/v2-f770a579e8236f434101d81556d8ae7f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f8ade4326ea41e026bb9c2e00d69b7d5_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"856\" data-size=\"normal\" data-original-token=\"v2-3606524565bd73fdac9ac92a9e8cfca3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-f8ade4326ea41e026bb9c2e00d69b7d5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6ba513221dcaba54d394cbe19b243b86_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"492\" data-size=\"normal\" data-original-token=\"v2-f082d25e08d88a4493a2d987e8d475a4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-6ba513221dcaba54d394cbe19b243b86_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3a50c1682b57d87a293ceb8d7b147f9b_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"572\" data-size=\"normal\" data-original-token=\"v2-1bbf5ed196635f930ea4964afd358826\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-3a50c1682b57d87a293ceb8d7b147f9b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e22b9e031dfc231ba2c8f891ae947bd8_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1668\" data-size=\"normal\" data-original-token=\"v2-382eb3eae348edf1896fa62cd7edae93\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-e22b9e031dfc231ba2c8f891ae947bd8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4fc23940dfe94ea3aba619aa53e3abd8_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"648\" data-size=\"normal\" data-original-token=\"v2-b4b51864a3e5355cf745d8c2fa4bb9fa\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-4fc23940dfe94ea3aba619aa53e3abd8_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bae1128febaf52556cbb310ac3d7a4a2_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"844\" data-size=\"normal\" data-original-token=\"v2-05b1d158f9f94d91741a95168244f557\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-bae1128febaf52556cbb310ac3d7a4a2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-eb5524b9fa363bb42c4028f292397f1c_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"628\" data-size=\"normal\" data-original-token=\"v2-a250ef9cebaf85299faec0d9acaba8f5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-eb5524b9fa363bb42c4028f292397f1c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9d2042fd70d33edc0f1ed5431466747f_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"562\" data-size=\"normal\" data-original-token=\"v2-65cc5cd377073c44f5efe75aa03ee13c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-9d2042fd70d33edc0f1ed5431466747f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0c03eebd2a9b924ee07232df0f5234ba_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"568\" data-size=\"normal\" data-original-token=\"v2-e92d931e3e48826401fff7f01272cb75\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-0c03eebd2a9b924ee07232df0f5234ba_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e8c0423b61c13b52a4e852849f3f3077_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1076\" data-size=\"normal\" data-original-token=\"v2-9b26a318daf0a807a2342088d1147296\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-e8c0423b61c13b52a4e852849f3f3077_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-84b706f37b172a8493f56c349541a07e_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"804\" data-size=\"normal\" data-original-token=\"v2-210753b84a0a613bac3a66fb488b8d41\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-84b706f37b172a8493f56c349541a07e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e71e2f35a71f90bdc17209684a981faf_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1344\" data-size=\"normal\" data-original-token=\"v2-95c07ae219d4cfeb9082313fb2e30e3c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-e71e2f35a71f90bdc17209684a981faf_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e4a208b221789c12e8f92f474c5e7c80_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"740\" data-size=\"normal\" data-original-token=\"v2-edaca4ff8852eb40e2cf3d9ebb3978ea\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-e4a208b221789c12e8f92f474c5e7c80_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-934a281bd90bec92605c0bcf4b72ca59_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"2122\" data-size=\"normal\" data-original-token=\"v2-418150d37640e3f9eec9316cc225d257\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-934a281bd90bec92605c0bcf4b72ca59_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-889a7d3563995b33a561e20ec13e7f90_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"844\" data-size=\"normal\" data-original-token=\"v2-50877f4b14a7fd2d5b8d7e51969cb162\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-889a7d3563995b33a561e20ec13e7f90_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4c0a67909c193a58e5bc5dfb027f7711_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1466\" data-size=\"normal\" data-original-token=\"v2-ad2e99a49eebd28feef22756a5bc9af6\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-4c0a67909c193a58e5bc5dfb027f7711_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9f18fec8060ea72b5f4acc0d84af2acd_1440w.jpg\" data-rawwidth=\"1300\" data-rawheight=\"2559\" data-size=\"normal\" data-original-token=\"v2-36b8dcdcb0a753b4abfec10e6e3e4193\" class=\"origin_image zh-lightbox-thumb\" width=\"1300\" data-original=\"https://pic2.zhimg.com/v2-9f18fec8060ea72b5f4acc0d84af2acd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-855e9379053403b2a7d11eff5dfbdd4f_1440w.jpg\" data-rawwidth=\"1300\" data-rawheight=\"1455\" data-size=\"normal\" data-original-token=\"v2-c26525a09e6f8e2c2dbecd22039ca89d\" class=\"origin_image zh-lightbox-thumb\" width=\"1300\" data-original=\"https://picx.zhimg.com/v2-855e9379053403b2a7d11eff5dfbdd4f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-50c5bf81e0f88cf9663309ac422d2d40_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"822\" data-size=\"normal\" data-original-token=\"v2-17d787ea8a7046ac3dadad578dc394d5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-50c5bf81e0f88cf9663309ac422d2d40_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d19858695e86ce4d884593a701e702fd_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"602\" data-size=\"normal\" data-original-token=\"v2-83f591e64977d5e6f6dd1566fc3edbba\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-d19858695e86ce4d884593a701e702fd_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-1ab296499a5daa13bca600ac757b0450_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"852\" data-size=\"normal\" data-original-token=\"v2-58d2b3b756f4ae3fce9c695fd49218ab\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-1ab296499a5daa13bca600ac757b0450_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-93eca70bff17bd3a12f58b5070efeae1_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"952\" data-size=\"normal\" data-original-token=\"v2-ac366314e3f7d878d6c0194c2f95fa7b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-93eca70bff17bd3a12f58b5070efeae1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-31f8527f7e81eccdc4888d42830e539f_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"760\" data-size=\"normal\" data-original-token=\"v2-b7d58517f07440669aad9b7b62976422\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-31f8527f7e81eccdc4888d42830e539f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a3318c1eedf32b1597a4c3fbfa82f19c_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1699\" data-size=\"normal\" data-original-token=\"v2-22d77edb7f6e87de714ecbd3bd8a67da\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-a3318c1eedf32b1597a4c3fbfa82f19c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-88d2fa70440811885f131c8a15110b79_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1586\" data-size=\"normal\" data-original-token=\"v2-40ee3d73f33381c8a581eac3c7da2e96\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-88d2fa70440811885f131c8a15110b79_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d44f67898c0fdcf7395b0b14811f0e72_1440w.jpg\" data-rawwidth=\"1300\" data-rawheight=\"2093\" data-size=\"normal\" data-original-token=\"v2-69a795bd6511158f9ac2215520e95f3f\" class=\"origin_image zh-lightbox-thumb\" width=\"1300\" data-original=\"https://pic3.zhimg.com/v2-d44f67898c0fdcf7395b0b14811f0e72_r.jpg\"/></figure><p></p>",
+        "favorite_count": 2621,
+        "visited_count": 781929,
+        "navigator_vote": false,
+        "thanks_count": 382,
+        "excerpt_new": "你为何不直接看看美国老百姓的心声？",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "answer_type": "normal",
+        "id": "1979518375626576131",
+        "voteup_count": 7049,
+        "preview_text": "",
+        "url": "https://api.zhihu.com/answers/1979518375626576131",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "excerpt": "你为何不直接看看美国老百姓的心声？",
+        "author": {
+          "user_type": "people",
+          "headline": "殖民主义是通往文明世界的唯一道路",
+          "is_org": false,
+          "followers_count": 306,
+          "id": "40154bce3a08564976a34c8a4dda2c14",
+          "url": "https://api.zhihu.com/people/40154bce3a08564976a34c8a4dda2c14",
+          "url_token": "38-76-16-71-88",
+          "name": "艾克波",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-e5aeb4872c80f1b3edccc46617dfe3de_l.jpg?source=b6762063",
+          "gender": -1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "updated_time": 1764733958,
+        "is_copyable": true,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-3645d10b1ddded433d00cd16f1453407_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-a48fae87b189986b467f2ab5025aee8f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8accde70cbe9c23846c27556a749af74_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5a521a4297284c773c020a3b9b67762b_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3606524565bd73fdac9ac92a9e8cfca3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-382eb3eae348edf1896fa62cd7edae93_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b4b51864a3e5355cf745d8c2fa4bb9fa_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-05b1d158f9f94d91741a95168244f557_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-9b26a318daf0a807a2342088d1147296_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-210753b84a0a613bac3a66fb488b8d41_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-95c07ae219d4cfeb9082313fb2e30e3c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-edaca4ff8852eb40e2cf3d9ebb3978ea_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-418150d37640e3f9eec9316cc225d257_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-50877f4b14a7fd2d5b8d7e51969cb162_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ad2e99a49eebd28feef22756a5bc9af6_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-36b8dcdcb0a753b4abfec10e6e3e4193_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c26525a09e6f8e2c2dbecd22039ca89d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-17d787ea8a7046ac3dadad578dc394d5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-58d2b3b756f4ae3fce9c695fd49218ab_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-ac366314e3f7d878d6c0194c2f95fa7b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b7d58517f07440669aad9b7b62976422_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-22d77edb7f6e87de714ecbd3bd8a67da_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-40ee3d73f33381c8a581eac3c7da2e96_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-69a795bd6511158f9ac2215520e95f3f_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "comment_count": 1659,
+        "question": {
+          "question_type": "normal",
+          "id": "1977494568162316679",
+          "type": "question",
+          "author": {
+            "user_type": "people",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-ae58dfc6caff8a3cdc3260cdea48ef64_l.jpg?source=b6762063",
+            "is_following": false,
+            "id": "0d6f3cde78d89977141fe423e69a4aab",
+            "url": "https://api.zhihu.com/people/0d6f3cde78d89977141fe423e69a4aab",
+            "url_token": "ji-yue-si-xin",
+            "name": "李不之呀",
+            "headline": "",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 44,
+            "is_followed": false
+          },
+          "title": "如何看待牢A斯奎奇大王讲的美国底层人民地狱惨状？",
+          "follower_count": 0,
+          "detail": "",
+          "created": 1764251445,
+          "answer_count": 0,
+          "url": "https://api.zhihu.com/questions/1977494568162316679",
+          "comment_count": 106,
+          "bound_topic_ids": [
+            472,
+            11091
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-3645d10b1ddded433d00cd16f1453407_720w.jpg?source=b6762063",
+        "type": "answer",
+        "created_time": 1764733958
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1979518375626576131}",
+      "attached_info": "CuURCJq+6tae1uXdtwEQBBoJNzU5MzUyOTIwIIbovskGKIk3MPsMQERKRwoiVFNfU09VUkNFX1NPQ0lBTF9BRkZJTklUWV9ORUFSTElORRIbbmVhcmxpbmVDb250ZW50VjI6MjcyMTI0ODg4GAAgADoASkUKIFRTX1NPVVJDRV9TT0NJQUxfRk9MTE9XX05FQVJMSU5FEhtuZWFybGluZUNvbnRlbnRWMjoyNzIxMjQ4ODgYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNzUwMDc1OWIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5Nzk1MTgzNzU2MjY1NzYxMzGKARMxOTc3NDk0NTY4MTYyMzE2Njc5qgEJcmVjb21tZW5kwgEgNDAxNTRiY2UzYTA4NTY0OTc2YTM0YzhhNGRkYTJjMTTyAQoIDBIGTm9ybWFs8gEoCAoSJDIyZTg1MWM1LTRmNGUtNDllYS1hMzJlLWVmOGJiMDQ5ZTYwMPIBBggLEgIxMoICAIgC/5L96bwzkgIgNDAxNTRiY2UzYTA4NTY0OTc2YTM0YzhhNGRkYTJjMTSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXaAiJUU19TT1VSQ0VfU09DSUFMX0FGRklOSVRZX05FQVJMSU5F6AIC+gILTk9STUFMX0ZMT1eKAyBkMjA1YTdkZDg0NmE0NGZhODg4NjY0YjA1YjVlNTlhNJoDDQoCdjIQABoFb3RoZXKoA+ncL9gDAOoDFmFmZmluaXR5TmVhckxpbmVSZWNhbGz6A6ELEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAAQuAgYiAciI3YyLTM2NDVkMTBiMWRkZGVkNDMzZDAwY2QxNmYxNDUzNDA3Oi0IABC4CBiqBiIjdjItYTQ4ZmFlODdiMTg5OTg2YjQ2N2YyYWI1MDI1YWVlOGY6LQgAELgIGOgFIiN2Mi04YWNjZGU3MGNiZTljMjM4NDZjMjc1NTZhNzQ5YWY3NDotCAAQgAcYhA8iI3YyLTVhNTIxYTQyOTcyODRjNzczYzAyMGEzYjliNjc3NjJiOi0IABC4CBjYBiIjdjItMzYwNjUyNDU2NWJkNzNmZGFjOWFjOTJhOWU4Y2ZjYTM6LQgAELgIGOwDIiN2Mi1mMDgyZDI1ZTA4ZDg4YTQ0OTNhMmQ5ODdlOGQ0NzVhNDotCAAQuAgYvAQiI3YyLTFiYmY1ZWQxOTY2MzVmOTMwZWE0OTY0YWZkMzU4ODI2Oi0IABC4CBiEDSIjdjItMzgyZWIzZWFlMzQ4ZWRmMTg5NmZhNjJjZDdlZGFlOTM6LQgAELgIGIgFIiN2Mi1iNGI1MTg2NGEzZTUzNTVjZjc0NWQ4YzJmYTRiYjlmYTotCAAQuAgYzAYiI3YyLTA1YjFkMTU4ZjlmOTRkOTE3NDFhOTUxNjgyNDRmNTU3Oi0IABC4CBj0BCIjdjItYTI1MGVmOWNlYmFmODUyOTlmYWVjMGQ5YWNhYmE4ZjU6LQgAELgIGLIEIiN2Mi02NWNjNWNkMzc3MDczYzQ0ZjVlZmU3NWFhMDNlZTEzYzotCAAQuAgYuAQiI3YyLWU5MmQ5MzFlM2U0ODgyNjQwMWZmZjdmMDEyNzJjYjc1Oi0IABC4CBi0CCIjdjItOWIyNmEzMThkYWYwYTgwN2EyMzQyMDg4ZDExNDcyOTY6LQgAELgIGKQGIiN2Mi0yMTA3NTNiODRhMGE2MTNiYWMzYTY2ZmI0ODhiOGQ0MTotCAAQuAgYwAoiI3YyLTk1YzA3YWUyMTlkNGNmZWI5MDgyMzEzZmIyZTMwZTNjOi0IABC4CBjkBSIjdjItZWRhY2E0ZmY4ODUyZWI0MGUyY2YzZDllYmIzOTc4ZWE6LQgAELgIGMoQIiN2Mi00MTgxNTBkMzc2NDBlM2Y5ZWVjOTMxNmNjMjI1ZDI1NzotCAAQuAgYzAYiI3YyLTUwODc3ZjRiMTRhN2ZkMmQ1YjhkN2U1MTk2OWNiMTYyOi0IABC4CBi6CyIjdjItYWQyZTk5YTQ5ZWViZDI4ZmVlZjIyNzU2YTViYzlhZjY6LQgAEJQKGP8TIiN2Mi0zNmI4ZGNkY2IwYTc1M2I0YWJmZWMxMGU2ZTNlNDE5MzotCAAQlAoYrwsiI3YyLWMyNjUyNWEwOWU2ZjhlMmMyZGJlY2QyMjAzOWNhODlkOi0IABC4CBi2BiIjdjItMTdkNzg3ZWE4YTcwNDZhYzNkYWRhZDU3OGRjMzk0ZDU6LQgAELgIGNoEIiN2Mi04M2Y1OTFlNjQ5NzdkNWU2ZjZkZDE1NjZmYzNlZGJiYTotCAAQuAgY1AYiI3YyLTU4ZDJiM2I3NTZmNGFlM2ZjZTljNjk1ZmQ0OTIxOGFiOi0IABC4CBi4ByIjdjItYWMzNjYzMTRlM2Y3ZDg3OGQ2YzAxOTRjMmY5NWZhN2I6LQgAELgIGPgFIiN2Mi1iN2Q1ODUxN2YwNzQ0MDY2OWFhZDliN2I2Mjk3NjQyMjotCAAQuAgYow0iI3YyLTIyZDc3ZWRiN2Y2ZTg3ZGU3MTRlY2JkM2JkOGE2N2RhOi0IABC4CBiyDCIjdjItNDBlZTNkNzNmMzMzODFjOGE1ODFlYWMzYzdkYTJlOTY6LQgAEJQKGK0QIiN2Mi02OWE3OTViZDY1MTExNThmOWFjMjIxNTUyMGU5NWYzZoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYPJRoD+BBQAAAAAAAAAAiQWa6lzR8wq0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUMkAYAoAZEqAYAkgIuCgk3NTkzNTI5MjASEzE5Nzk1MTgzNzU2MjY1NzYxMzEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "69_1768675035.833",
+      "type": "feed",
+      "offset": 69,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675035,
+      "updated_time": 1768675035,
+      "target": {
+        "is_labeled": false,
+        "visited_count": 84820,
+        "favorite_count": 160,
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995102741694010796",
+        "author": {
+          "url_token": "wei-bin-52-39",
+          "avatar_url": "https://picx.zhimg.com/50/v2-b614aa53f11057942b294602c3ff9ee1_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/324458fa27702cf24b13141b858f54ed",
+          "user_type": "people",
+          "name": "Ramanujan",
+          "headline": "个人数学的自留地，又菜又爱玩",
+          "followers_count": 5419,
+          "is_following": false,
+          "is_followed": false,
+          "id": "324458fa27702cf24b13141b858f54ed"
+        },
+        "content": "<p data-pid=\"eINM-t3g\">从中专，一路走到世界级大佬。</p><p data-pid=\"IVWl_ZI7\">很多人说以前的中专比现在的中专厉害。是的。我没有拿他和现在的中专比，我拿他和现在的清北麻省哈佛比的。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4e58aa54d873e1da7282304abf0baefa_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"6922\" data-size=\"normal\" data-original-token=\"v2-ecb374ddff5f7a94e7751dd047f4491e\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic1.zhimg.com/v2-4e58aa54d873e1da7282304abf0baefa_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0839bab51bf9452c5a3750a629f3562b_1440w.jpg\" data-rawwidth=\"1260\" data-rawheight=\"6004\" data-size=\"normal\" data-original-token=\"v2-f986249f0a09ad74393b0d6c9bd8cf7d\" class=\"origin_image zh-lightbox-thumb\" width=\"1260\" data-original=\"https://pic4.zhimg.com/v2-0839bab51bf9452c5a3750a629f3562b_r.jpg\"/></figure><p></p>",
+        "thanks_count": 5,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-ecb374ddff5f7a94e7751dd047f4491e_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-f986249f0a09ad74393b0d6c9bd8cf7d_720w.jpg?source=b6762063"
+        ],
+        "comment_count": 61,
+        "preview_type": "default",
+        "answer_type": "normal",
+        "excerpt": "从中专，一路走到世界级大佬。 很多人说以前的中专比现在的中专厉害。是的。我没有拿他和现在的中专比，我拿他和现在的清北麻省哈佛比的。",
+        "excerpt_new": "从中专，一路走到世界级大佬。 很多人说以前的中专比现在的中专厉害。是的。我没有拿他和现在的中专比，我拿他和现在的清北麻省哈佛比的。",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "id": "1995102741694010796",
+        "created_time": 1768449560,
+        "updated_time": 1768650445,
+        "question": {
+          "author": {
+            "name": "Korkik",
+            "avatar_url": "https://picx.zhimg.com/50/v2-d88ec2d25ed34d774427e5021df778ce_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "id": "a0659357b9c5373e8e14952796c0b633",
+            "url": "https://api.zhihu.com/people/a0659357b9c5373e8e14952796c0b633",
+            "user_type": "people",
+            "url_token": "zhong-kang-14-16",
+            "headline": "中华小曲库",
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "created": 1508092319,
+          "answer_count": 0,
+          "comment_count": 15,
+          "detail": "",
+          "id": "66709333",
+          "type": "question",
+          "title": "真正的狠人是什么样的？",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            307,
+            16868,
+            58240,
+            1833036,
+            2109549
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/66709333",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "allow_segment_interaction": true,
+        "voteup_count": 274,
+        "is_copyable": true,
+        "thumbnail": "https://picx.zhimg.com/50/v2-ecb374ddff5f7a94e7751dd047f4491e_720w.jpg?source=b6762063",
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995102741694010796}",
+      "attached_info": "CsEGCJq+6tae1uXdtwEQBBoJNzY1NTAyOTM5IJjMocsGKJICMD1ARUoxCiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMRIBMBgAIAA6AFoIMTg5MTEzMzliIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxOTk1MTAyNzQxNjk0MDEwNzk2igEINjY3MDkzMzOqAQlyZWNvbW1lbmTCASAzMjQ0NThmYTI3NzAyY2YyNGIxMzE0MWI4NThmNTRlZPIBCggMEgZOb3JtYWzyASgIChIkNWUxY2JjY2EtNDc3ZS00ZGM4LWJjNjYtNzUwZDVjZDQ4N2Fi8gEGCAsSAjEyggIAiAKAk/3pvDOSAiAzMjQ0NThmYTI3NzAyY2YyNGIxMzE0MWI4NThmNTRlZJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMegCAvoCC05PUk1BTF9GTE9XigMgZDIwNWE3ZGQ4NDZhNDRmYTg4ODY2NGIwNWI1ZTU5YTSaAw0KAnYyEAAaBW90aGVyqAPUlgXYAwDqAyNmZWVkLXRleHQtYWxsc2l0ZS1vbmxpbmUtdWNmLXJlY2FsbPoDfRIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEOwJGIo2IiN2Mi1lY2IzNzRkZGZmNWY3YTk0ZTc3NTFkZDA0N2Y0NDkxZTotCAIQ7AkY9C4iI3YyLWY5ODYyNDlmMGEwOWFkNzQzOTNiMGQ2YzliZDhjZjdkgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgPnSjP4EFAAAAAAAAAACJBZrqXNHzCrQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQyQBgCgBkWoBgCSAi4KCTc2NTUwMjkzORITMTk5NTEwMjc0MTY5NDAxMDc5NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "70_1768675035.195",
+      "type": "feed",
+      "offset": 70,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675035,
+      "updated_time": 1768675035,
+      "target": {
+        "is_navigator": false,
+        "created_time": 1768638636,
+        "updated_time": 1768638636,
+        "question": {
+          "id": "1995873028165371815",
+          "created": 1768633211,
+          "follower_count": 0,
+          "question_type": "normal",
+          "excerpt": "",
+          "detail": "",
+          "author": {
+            "id": "8cabf94ed6628544c199c3d8b73abae3",
+            "name": "Dove3515",
+            "is_following": false,
+            "is_followed": false,
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 86,
+            "url": "https://api.zhihu.com/people/8cabf94ed6628544c199c3d8b73abae3",
+            "user_type": "people",
+            "url_token": "dove3515-76",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-a69b7dd0499698273dd07fde7b0a0d92_l.jpg?source=b6762063"
+          },
+          "title": "40岁的人在职场上还能找到PHP开发的工作吗？",
+          "answer_count": 0,
+          "comment_count": 0,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1995873028165371815",
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "answer_type": "normal",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 56,
+        "favorite_count": 0,
+        "type": "answer",
+        "thanks_count": 0,
+        "is_copyable": true,
+        "excerpt": "PHP 作为 Web 开发领域的经典语言，其生态发展与从业者职业路径深度交织。从业 15 年以上的 PHP 程序员已脱离单纯依赖语法和框架的初级阶段，其职业状态不再由单一技术能力决定，而是与行业周期、技术选择、个人规划深度绑定。 核心群体：行业主力的三种核心生存形态从业 15 年以上的 PHP 程序员中，约 45%-65% 属于行业核心主力，其职业发展路径可归纳为三类核心形态 技术深耕型：PHP 生态的技术领路人 这类程序员见证 PHP4 到 …",
+        "is_labeled": false,
+        "voteup_count": 1,
+        "excerpt_new": "PHP 作为 Web 开发领域的经典语言，其生态发展与从业者职业路径深度交织。从业 15 年以上的 PHP 程序员已脱离单纯依赖语法和框架的初级阶段，其职业状态不再由单一技术能力决定，而是与行业周期、技术选择、个人规划深度绑定。 核心群体：行业主力的三种核心生存形态从业 15 年以上的 PHP 程序员中，约 45%-65% 属于行业核心主力，其职业发展路径可归纳为三类核心形态 技术深耕型：PHP 生态的技术领路人 这类程序员见证 PHP4 到 …",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"soqAyKer\">        PHP 作为 Web 开发领域的经典语言，其生态发展与从业者职业路径深度交织。从业 15 年以上的 PHP 程序员已脱离单纯依赖语法和框架的初级阶段，其职业状态不再由单一技术能力决定，而是与行业周期、技术选择、个人规划深度绑定。</p><h2><b>核心群体：行业主力的三种核心生存形态</b></h2><p data-pid=\"FXlMRLFY\">从业 15 年以上的 PHP 程序员中，约 45%-65% 属于行业核心主力，其职业发展路径可归纳为三类核心形态</p><p data-pid=\"ccyH_EMc\"><b>技术深耕型：PHP 生态的技术领路人</b></p><p data-pid=\"0xh6WZob\">        这类程序员见证 PHP4 到 PHP8 的全版本迭代，熟悉 LAMP 架构的底层逻辑，掌握 Swoole 协程、Hyperf 高性能框架等前沿技术。他们的核心价值体现在底层架构设计层面，能够搭建高并发分布式系统、设计缓存集群策略、优化数据库读写分离与分库分表，或主导内部框架封装，将团队业务经验沉淀为可复用组件。<br/>这类人群多任职架构师、技术负责人，具备极强的技术话语权，薪资处于行业第一梯队。其并非不掌握其他编程语言，而是基于效率与收益考量，选择深耕熟悉的技术栈，部分人甚至参与 PHP 语言本身的开发与改进。</p><p data-pid=\"kWnyVot3\"><b>业务绑定型：技术与业务的深度融合者</b></p><p data-pid=\"tU9NNZ2C\">        这类程序员扎根电商、教育、政务、中小企业 SaaS 等垂直领域，对业务的理解深度远超普通产品经理。例如电商领域从业者可完整梳理订单流转、库存扣减、支付对账的全链路逻辑，政务系统从业者精通各类合规要求与接口规范。<br/>他们的技术选择以稳定为核心，优先用成熟框架解决业务问题，核心竞争力并非 PHP 语法本身，而是技术与业务结合的复合能力。新人需半年摸清的业务逻辑，这类程序员一周即可给出最优解，多任职公司技术骨干或乙方技术顾问，更换行业意味着放弃十余年的业务积累，因此职业路径与所深耕的业务领域深度绑定。</p><p data-pid=\"SMxyu-_E\"><b>独立服务型：以 PHP 为核心的生存实践者</b></p><p data-pid=\"NLCr49f0\">        15 年的行业积累让这类程序员沉淀了稳定的客户资源、产品方案、代码资料与技术规范，多以一人公司或小工作室模式运营，聚焦中小企业官网开发、内部管理系统定制、老项目维护迭代等业务。他们不参与大厂竞标，专注熟客与交付平台业务，核心优势在于 PHP 开发效率高、成本低的特性，能够满足客户快速交付、稳定运行、即时响应的需求。这类人群具备极强的综合竞争力，在价格、质量、速度、技术等维度形成全面竞争优势，依托大量成熟代码案例实现高效交付，PHP 对他们而言是核心的谋生工具。</p><h2>延伸形态：跨界多元的职业拓展路径</h2><p data-pid=\"IFb-ZwXE\">除核心群体外，15 年以上 PHP 程序员还形成了多元化的跨界发展路径，核心特征是不再将 PHP 作为唯一技能，而是以此为技术底座延伸多元能力：</p><p data-pid=\"p5phgefC\"><b>全栈拓展：前端 + 后端的一体化开发者</b></p><p data-pid=\"0Qxf36RO\">早年间 PHP 程序员普遍需兼顾 HTML、CSS 编写，随着技术发展掌握 Vue、React 等前端框架，能够独立完成后端接口与前端页面的全流程开发。在中小企业项目服务中，这类程序员一人即可替代前后端团队，报价灵活，具备显著的市场竞争力。</p><p data-pid=\"YMTvUOex\"><b>运维融合：开发 + 运维的复合型技术岗</b></p><p data-pid=\"GuHA8Ewh\">长期与 LAMP/LNMP 架构打交道，使其精通 Nginx 配置、MySQL 优化、Redis 集群部署，能够编写 Shell 脚本实现自动化部署与监控告警。企业愿意高薪留存这类人才，因其既懂代码逻辑又能解决服务器问题，排查线上故障的效率远高于纯运维或纯开发人员。</p><p data-pid=\"b2NKNZFC\"><b>职业转型：技术 + 业务的操盘手</b></p><p data-pid=\"RU4gXq-L\">看透纯开发的职业天花板后，依托对业务的深度理解转型产品经理或运营岗位。转型产品经理者可精准预判技术实现难度，与开发沟通高效；转型运营者可自主埋点、分析数据报表，无需依赖技术团队即可完成用户行为分析。这类人群的 PHP 技术未必顶尖，但胜在落地能力强，换赛道仅是技能包的切换而非彻底转行。</p><h3><b>小众形态：大浪淘沙后的九类生存样本</b></h3><p data-pid=\"AGWjLxv5\">在行业筛选过程中，部分 15 年以上 PHP 程序员未进入头部梯队，形成九类小众生存形态，各有其生存逻辑与职业困境：</p><ol><li data-pid=\"womA8e9u\">祖传项目守墓人：驻守传统企业或政务单位，维护基于 PHP5.2+CodeIgniter1.x 的老旧系统，代码混杂 HTML 与 JS，无规范文档，日常仅做简单修改，不敢重构。薪资不高但稳定性强，形成 “公司离不了他，他离不了公司” 的职业困局。</li><li data-pid=\"gX8wVj14\">培训机构复读机讲师：无百万级并发项目经验，依托 15 年资历包装成金牌架构师，授课内容陈旧，核心能力是营销而非技术，靠卖课与盗版视频盈利，面向入行小白群体。</li><li data-pid=\"vJJGDC4X\">外包流水线 CRUD 机器：长期服务于乙方外包公司，技术栈停留在 PHP7.0+Bootstrap，仅能套模板改参数，经手项目多但无代表性作品，薪资依赖项目提成，工作强度波动大。</li><li data-pid=\"cSLJMB14\">自由接单游击队单干户：无固定工作室，依托社交平台与外包平台接单，报价极低，靠现成模板快速交付，客户以小老板、个体户为主，回款快但易遭遇尾款纠纷。</li><li data-pid=\"eZEpu4BM\">被迫转行技术边缘人：未跟上 Swoole、Hyperf 等技术迭代，也无业务壁垒，35 岁后被优化，高不成低不就，最终转做网管或开电脑店，仅偶尔接小网站项目，未完全脱离行业。</li><li data-pid=\"gK2WRkvl\">创业失败回炉打工人：早年尝试基于 PHP 开发电商系统或 SAAS 工具，因资金链断裂或用户增长不足创业失败，耗尽积蓄后重回职场，求职时过度提及创业经历，实际工作能力无突破，只求稳定薪资。</li><li data-pid=\"6OQeOnpM\">小公司全能打杂王：作为几十人小公司的唯一技术人员，兼顾 PHP 开发、前端制作、服务器运维甚至客服工作，公司业务技术含量低，想跳槽却难以适应大厂协作流程。</li><li data-pid=\"O2Jq_HNz\">技术论坛水文博主：活跃于 PHP 相关论坛与社交平台，抄袭官方文档与他人博客拼凑技术文章，内容未经过实际验证，依托 15 年老程序员头衔攒粉，靠软文广告与付费问答盈利。</li><li data-pid=\"ffC8XdOZ\">躺平摸鱼佛系老油条：有大厂与创业经历，最终入职国企或事业单位外包岗，日常工作强度低，仅做基础代码修改，不参与内卷与晋升竞争，对新技术无兴趣，以 “能用就行” 为职业准</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><hr/><h2><b>现在回答问题</b><br/>问这种问题需要先看清行业的整体形态，而这个问题没有标准答案。我只能说，40 岁能不能找到 PHP 开发工作，看环境、看市场、看机缘、看运气，唯独没有统一的常态可言。</h2><h2>PHP 从业者的职业困境，核心原因之一在于官方生态的发展节奏 —— 推进慢、体系散，原本的优势赛道被慢慢消耗，这也直接影响了一大批从业者的职业发展。但即便如此，从业 15 年以上、年龄跨过 40 岁的 PHP 程序员，依旧在行业里有着多元的生存路径。</h2><h2><b>能否顺利求职、能获得怎样的岗位，本质不是年龄问题，而是个人能力与行业需求的匹配度问题。</b></h2><h2>真正决定 40 岁 PHP 程序员就业机会的，是是否拥有不可替代的核心竞争力 —— 要么是技术深耕带来的架构能力，要么是技术 + 业务结合的复合能力，要么是独立接单、运营团队的资源与能力。年龄从来不是职场的淘汰标准，能力才是。</h2>",
+        "preview_type": "default",
+        "preview_text": "",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "id": "1995895781635409254",
+        "url": "https://api.zhihu.com/answers/1995895781635409254",
+        "author": {
+          "url": "https://api.zhihu.com/people/3f4e7b94eab223fda58f8bf7820e5465",
+          "name": "化茧成蝶",
+          "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 2,
+          "id": "3f4e7b94eab223fda58f8bf7820e5465",
+          "user_type": "people",
+          "url_token": "hua-chong-cheng-die-91",
+          "headline": "心燥",
+          "gender": -1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "comment_count": 0,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995895781635409254}",
+      "attached_info": "Cu0FCJq+6tae1uXdtwEQBBoJNzY1ODE0MTkyIKyRrcsGKAEwAEBGSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBaCTExODA5ODg5MWIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTU4OTU3ODE2MzU0MDkyNTSKARMxOTk1ODczMDI4MTY1MzcxODE1qgEJcmVjb21tZW5kwgEgM2Y0ZTdiOTRlYWIyMjNmZGE1OGY4YmY3ODIwZTU0NjXyAQoIDBIGTm9ybWFs8gEoCAoSJGQ5NjczYTM0LWMxYjgtNGI5Yi05NDcyLTljMDZmYTE1YjdkN/IBBggLEgIxMoICAIgCgJP96bwzkgIgM2Y0ZTdiOTRlYWIyMjNmZGE1OGY4YmY3ODIwZTU0NjWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCAvoCC05PUk1BTF9GTE9XigMgZDIwNWE3ZGQ4NDZhNDRmYTg4ODY2NGIwNWI1ZTU5YTSaAw0KAnYyEAAaBW90aGVyqAM42AMA6gMgd2FybXVwVHdvVG93ZXJUZXh0Tm9ybWFsUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADArLx8P4EFAAAAAAAAAACJBZrqXNHzCrQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQyQBgCgBkaoBgGSAi4KCTc2NTgxNDE5MhITMTk5NTg5NTc4MTYzNTQwOTI1NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "71_1768675035.601",
+      "type": "feed",
+      "offset": 71,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675035,
+      "updated_time": 1768675035,
+      "target": {
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 254,
+        "is_labeled": false,
+        "type": "answer",
+        "author": {
+          "id": "77196d444acd1816a1878e1b06c62ea1",
+          "headline": "我是个粗人",
+          "is_org": false,
+          "is_followed": false,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/77196d444acd1816a1878e1b06c62ea1",
+          "user_type": "people",
+          "url_token": "michael-62-37",
+          "name": "Michael",
+          "avatar_url": "https://picx.zhimg.com/50/v2-71b413a8854dec6e7c63f7ba5c733759_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 71212
+        },
+        "thanks_count": 151,
+        "visited_count": 175048,
+        "answer_type": "normal",
+        "segment_infos": [
+          {
+            "pid": "g9dimIA9",
+            "text": "该行动生动的诠释了什么叫“你只有非常努力，才能看起来毫不费力”。",
+            "marks": [
+              {
+                "start_index": 12,
+                "end_index": 31,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993627517316248265"
+                  ],
+                  "is_like": false,
+                  "like_count": 65,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "yUnEHUgV",
+            "text": "我他么的撸管都不止1小时20分。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 16,
+                "seg_info": {
+                  "seg_ids": [
+                    "1993627577768777522"
+                  ],
+                  "is_like": false,
+                  "like_count": 53,
+                  "comment_count": 20,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "voteup_count": 2636,
+        "question": {
+          "url": "https://api.zhihu.com/questions/1991035585402533404",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-cc5a215c5ddc20c4940f5f9d9c693e6a_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 643,
+            "is_following": false,
+            "url_token": "qlmtiguang",
+            "name": "终日乾乾",
+            "headline": "创业老兵、技术追求者、学习和使用毛泽东思想",
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "北京紫锐世博科技有限公司 总经理"
+              }
+            ],
+            "is_followed": false,
+            "id": "f08ba136c76c6f64a7a74c423351d7be",
+            "url": "https://api.zhihu.com/people/f08ba136c76c6f64a7a74c423351d7be",
+            "user_type": "people"
+          },
+          "created": 1767479875,
+          "follower_count": 0,
+          "id": "1991035585402533404",
+          "is_following": false,
+          "detail": "",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            472,
+            110010,
+            159978,
+            401921,
+            4295276
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "comment_count": 1,
+          "question_type": "normal",
+          "title": "马杜罗被抓是不是太顺利了？"
+        },
+        "preview_text": "",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "id": "1992678723078607534",
+        "updated_time": 1768038399,
+        "created_time": 1767871629,
+        "is_copyable": false,
+        "excerpt_new": "该行动生动的诠释了什么叫“你只有非常努力，才能看起来毫不费力”。 该行动部署一年多，从武器到人员，电子信息到间谍渗透，总攻时出动150架飞机。真正行动，从开始到结束1小时20分，0伤亡。 我他么的撸管都不止1小时20分。 反观俄罗斯入侵乌克兰……",
+        "excerpt": "该行动生动的诠释了什么叫“你只有非常努力，才能看起来毫不费力”。 该行动部署一年多，从武器到人员，电子信息到间谍渗透，总攻时出动150架飞机。真正行动，从开始到结束1小时20分，0伤亡。 我他么的撸管都不止1小时20分。 反观俄罗斯入侵乌克兰……",
+        "preview_type": "default",
+        "content": "<p data-pid=\"g9dimIA9\">该行动生动的诠释了什么叫“你只有非常努力，才能看起来毫不费力”。</p><p data-pid=\"PWqPcTnb\">该行动部署一年多，从武器到人员，电子信息到间谍渗透，总攻时出动150架飞机。真正行动，从开始到结束1小时20分，0伤亡。</p><p data-pid=\"yUnEHUgV\">我他么的撸管都不止1小时20分。</p><p data-pid=\"IJFvKvEP\">反观俄罗斯入侵乌克兰……</p>",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1992678723078607534",
+        "comment_count": 150,
+        "reshipment_settings": "disallowed"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1992678723078607534}",
+      "attached_info": "CvUFCJq+6tae1uXdtwEQBBoJNzY0NTkwMjMzII2p/soGKMwUMJYBQEdKMwoeVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTX1YzEgEwGAAgADoKeyJyYXciOiIifVoJMTE3OTQ0NjIzYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5MjY3ODcyMzA3ODYwNzUzNIoBEzE5OTEwMzU1ODU0MDI1MzM0MDSqAQlyZWNvbW1lbmTCASA3NzE5NmQ0NDRhY2QxODE2YTE4NzhlMWIwNmM2MmVhMfIBCggMEgZOb3JtYWzyASgIChIkOWU5NGU0OWYtZjVmOS00YWFkLTk5YjAtODQ2Yjk5MDAwNDZi8gEGCAsSAjEyggIAiAKAk/3pvDOSAiA3NzE5NmQ0NDRhY2QxODE2YTE4NzhlMWIwNmM2MmVhMZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHlRTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTU19WM+gCAvoCC05PUk1BTF9GTE9XigMgZDIwNWE3ZGQ4NDZhNDRmYTg4ODY2NGIwNWI1ZTU5YTSaAw0KAnYyEAAaBW90aGVyqAPI1wrYAwDqAxRmZWVkcmVfdGltZWxpbmVzc192M/oDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKCIOaE/gQUAAAAAAAAAAIkFmupc0fMKtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDJAGAKAGR6gGAJICLgoJNzY0NTkwMjMzEhMxOTkyNjc4NzIzMDc4NjA3NTM0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=71&desktop=true&end_offset=71&page_number=13&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=71&desktop=true&end_offset=71&page_number=13&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

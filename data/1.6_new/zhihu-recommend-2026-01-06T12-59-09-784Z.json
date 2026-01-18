@@ -1,0 +1,576 @@
+{
+  "data": [
+    {
+      "id": "90_1767704411.540",
+      "type": "feed",
+      "offset": 90,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704411,
+      "updated_time": 1767704411,
+      "target": {
+        "preview_text": "",
+        "type": "answer",
+        "author": {
+          "id": "5c6dda6d59d77cedbf72e34d5b67b63d",
+          "url_token": "iris-66-84",
+          "headline": "",
+          "gender": -1,
+          "is_followed": false,
+          "followers_count": 15,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/5c6dda6d59d77cedbf72e34d5b67b63d",
+          "user_type": "people",
+          "name": "Iris",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-316d25aa3050dc0f6e13084972fd9f9d_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "created_time": 1767456854,
+        "thanks_count": 44,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-ddbeebe3d3ac69470e38d05f84f057f6_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-fdca89eb8033b2a9f62a315269a7b855_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "updated_time": 1767456854,
+        "question": {
+          "url": "https://api.zhihu.com/questions/38215616",
+          "comment_count": 2,
+          "bound_topic_ids": [
+            663,
+            921,
+            2057,
+            4728,
+            5582
+          ],
+          "id": "38215616",
+          "type": "question",
+          "question_type": "normal",
+          "title": "你见过的人间尤物是什么样的？",
+          "excerpt": "",
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1449304891,
+          "answer_count": 0,
+          "detail": "",
+          "author": {
+            "gender": 1,
+            "followers_count": 155,
+            "is_following": false,
+            "id": "553c4330584861ceaaf28c702ffe5325",
+            "url": "https://api.zhihu.com/people/553c4330584861ceaaf28c702ffe5325",
+            "url_token": "shang-wu-58",
+            "avatar_url": "https://picx.zhimg.com/50/v2-f9a4a068f7fea4281f0ed18e00bc3062_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false,
+            "user_type": "people",
+            "name": "游戏王",
+            "headline": "兴趣使然"
+          },
+          "follower_count": 0
+        },
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "comment_count": 51,
+        "preview_type": "default",
+        "is_navigator": false,
+        "excerpt_new": "喜欢清纯类型的，手机相册里之前保存过的两张",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "voteup_count": 400,
+        "is_copyable": true,
+        "excerpt": "喜欢清纯类型的，手机相册里之前保存过的两张",
+        "content": "<p data-pid=\"9eGhYZhV\">喜欢清纯类型的，手机相册里之前保存过的两张</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9572ca832eeccf0b1b66dd35b929167c_1440w.jpg\" data-rawwidth=\"1062\" data-rawheight=\"1065\" data-size=\"normal\" data-original-token=\"v2-ddbeebe3d3ac69470e38d05f84f057f6\" class=\"origin_image zh-lightbox-thumb\" width=\"1062\" data-original=\"https://pic3.zhimg.com/v2-9572ca832eeccf0b1b66dd35b929167c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-40c293d0e6165aa6c9f7dfc55b3ce9a8_1440w.jpg\" data-rawwidth=\"1204\" data-rawheight=\"1644\" data-size=\"normal\" data-original-token=\"v2-fdca89eb8033b2a9f62a315269a7b855\" class=\"origin_image zh-lightbox-thumb\" width=\"1204\" data-original=\"https://pic3.zhimg.com/v2-40c293d0e6165aa6c9f7dfc55b3ce9a8_r.jpg\"/></figure><p></p>",
+        "allow_segment_interaction": true,
+        "id": "1990939029361948594",
+        "url": "https://api.zhihu.com/answers/1990939029361948594",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 411,
+        "thumbnail": "https://picx.zhimg.com/50/v2-ddbeebe3d3ac69470e38d05f84f057f6_720w.jpg?source=b6762063",
+        "visited_count": 92007
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990939029361948594}",
+      "attached_info": "Cv4GCOb8v62sh/OArwEQBBoJNzYzODY1NTY2INaA5coGKJADMDNAWkorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifVoHNzQ5MzQ1MGIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5OTA5MzkwMjkzNjE5NDg1OTSKAQgzODIxNTYxNqoBCXJlY29tbWVuZMIBIDVjNmRkYTZkNTlkNzdjZWRiZjcyZTM0ZDViNjdiNjNk8gEKCAwSBk5vcm1hbPIBKAgKEiQ4YjVhMjY3Zi03ODc0LTRmZTYtYmRjMC02ZjQ2MTQxNzVhZGPyAQYICxICMTaCAgCIAsP4kpu5M5ICIDVjNmRkYTZkNTlkNzdjZWRiZjcyZTM0ZDViNjdiNjNkmgIAygIURmlyc3RCcnVzaFdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjPoAgL6AgtOT1JNQUxfRkxPV4oDIDEzODBiOTk2MjhmNTQyYWQ4YmIwZWRmYTA2MjM5N2M5mgMNCgJ2MhAAGgVvdGhlcqgD584F2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6A30SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBRCmCBipCCIjdjItZGRiZWViZTNkM2FjNjk0NzBlMzhkMDVmODRmMDU3ZjY6LQgFELQJGOwMIiN2Mi1mZGNhODllYjgwMzNiMmE5ZjYyYTMxNTI2OWE3Yjg1NYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAOPvwj+BBQAAAAAAAAAAiQVvug6msYCyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUQkAYAoAZbqAYBkgIuCgk3NjM4NjU1NjYSEzE5OTA5MzkwMjkzNjE5NDg1OTQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "91_1767704411.700",
+      "type": "feed",
+      "offset": 91,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704411,
+      "updated_time": 1767704411,
+      "target": {
+        "content": "<p data-pid=\"EFF3Ho6N\">漂亮女同事陪我去买烟，我顺手拿了旁边的杜蕾s看了一下，女同事突然来一句：“要买吗？”我脑抽的回了一句：“和你用吗？”女同事突然害羞地说：“人家不喜欢用这个。”我滴个亲娘哎，当时我大脑直接宕机，手里的烟盒“啪嗒”掉地上，超市空调风好像瞬间变成了暖气片，脸上烧得能煎鸡蛋。赶紧捡起烟盒往收银台冲，扫码的时候收银员大姐那眼神跟探照灯似的，我头埋得快碰到胸口，付完钱拽着她就往外跑。</p><p data-pid=\"doX0AlRX\">出了超市门，俩人跟被点了穴似的杵在路边。还是她先憋不住笑出声：“你刚才那虎狼之词，是认真的？”我脚底下跟踩了香蕉皮似的差点崴到，结巴得像刚学会说话：“就……就是嘴瓢了！”她低头踢着小石子不说话，路灯把她的影子拉得老长，我瞅着她泛红的耳根子，心里跟揣了只兔子似的怦怦跳。</p><p data-pid=\"5TSNvPQj\">走到公司楼下她突然停下，抬头看着我说：“哥，我知道你单着呢，其实我也是。”我手里的烟盒“咔嚓”捏扁了，眼睛瞪得比铜铃还大。她突然踮脚凑近我耳朵：“晚上下班请我吃火锅呗？就当给我赔罪。”</p><p data-pid=\"LyDGZ6aX\">我跟小鸡啄米似的狂点头，脖子差点没拧断。她转身进大楼时回头抛了个媚眼：“记得把忘买的东西补上啊。”我站在原地琢磨了三分半钟，猛地一拍大腿，脸又开始冒热气，撒腿就往超市冲。</p><p data-pid=\"ihHUChjV\">收银台大姐见我又杀回来，笑得直拍柜台：“小伙子早该一起买了！”我付完钱揣着那盒“小惊喜”往回跑，脑子里全是她刚才害羞的模样。晚上吃火锅的时候，她夹菜的手都在抖，我刚想解释下午的事，她就夹块毛肚堵我嘴里：“快吃你的！再提我可就恼了。”</p><p data-pid=\"3TQ0RjuM\">吃到一半她突然红着脸说：“其实我下午说不喜欢用，是怕你觉得我太随便。”我嘴里的可乐“噗”地喷了满桌子，邻桌大哥瞅得眼睛都直了。这顿饭吃得跟坐过山车似的，忽上忽下的。</p><p data-pid=\"DCnWe_zI\">现在回想起来啊，缘分这东西真挺奇妙。本来就是同事间顺手帮个忙，没想到一句玩笑话捅破了窗户纸。其实生活里好多美好都是这么来的，有时候勇敢一点，真诚一点，说不定就能遇到对的人。不过兄弟们可别学我瞎开玩笑，真诚沟通才是硬道理，毕竟不是每个人都能像我这么幸运，遇到愿意陪你把玩笑变成现实的姑娘……</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-70b32a5bfba8ab88246fd1e356718183_1440w.jpg\" data-rawwidth=\"3024\" data-rawheight=\"4032\" data-size=\"normal\" data-original-token=\"v2-9fb5365efee428ec3cd589bac004d5d9\" class=\"origin_image zh-lightbox-thumb\" width=\"3024\" data-original=\"https://pic4.zhimg.com/v2-70b32a5bfba8ab88246fd1e356718183_r.jpg\"/></figure>",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "comment_permission": "all",
+        "voteup_count": 89,
+        "comment_count": 95,
+        "excerpt": "漂亮女同事陪我去买烟，我顺手拿了旁边的杜蕾s看了一下，女同事突然来一句：“要买吗？”我脑抽的回了一句：“和你用吗？”女同事突然害羞地说：“人家不喜欢用这个。”我滴个亲娘哎，当时我大脑直接宕机，手里的烟盒“啪嗒”掉地上，超市空调风好像瞬间变成了暖气片，脸上烧得能煎鸡蛋。赶紧捡起烟盒往收银台冲，扫码的时候收银员大姐那眼神跟探照灯似的，我头埋得快碰到胸口，付完钱拽着她就往外跑。 出了超市门，俩人跟被点了…",
+        "favorite_count": 35,
+        "navigator_vote": false,
+        "title": "缘起",
+        "updated": 1767629663,
+        "is_labeled": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-9fb5365efee428ec3cd589bac004d5d9_720w.jpg?source=b6762063"
+        ],
+        "preview_text": "",
+        "id": "1991659946811625522",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1991659946811625522",
+        "created": 1767629663,
+        "preview_type": "default",
+        "visited_count": 57827,
+        "article_type": "normal",
+        "allow_segment_interaction": true,
+        "author": {
+          "headline": "天气这么热，相信我们很快就熟了",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-6ff576104b68e994ae7bb63a33af498c_l.jpg?source=b6762063",
+          "gender": -1,
+          "id": "4b84f10681dbd35f5789885f21ce854c",
+          "url": "https://api.zhihu.com/people/4b84f10681dbd35f5789885f21ce854c",
+          "url_token": "tai-er-zhen-ren-51-77",
+          "name": "太二真人",
+          "is_followed": false,
+          "user_type": "people",
+          "is_org": false,
+          "followers_count": 4082,
+          "is_following": false
+        },
+        "voting": 0,
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "excerpt_new": "漂亮女同事陪我去买烟，我顺手拿了旁边的杜蕾s看了一下，女同事突然来一句：“要买吗？”我脑抽的回了一句：“和你用吗？”女同事突然害羞地说：“人家不喜欢用这个。”我滴个亲娘哎，当时我大脑直接宕机，手里的烟盒“啪嗒”掉地上，超市空调风好像瞬间变成了暖气片，脸上烧得能煎鸡蛋。赶紧捡起烟盒往收银台冲，扫码的时候收银员大姐那眼神跟探照灯似的，我头埋得快碰到胸口，付完钱拽着她就往外跑。 出了超市门，俩人跟被点了…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1991659946811625522}",
+      "attached_info": "Cu8HCOb8v62sh/OArwEQBxoJMjY4NjExNTM3IN/G78oGKFkwX0BbSmwKHFRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTFRJTUUSRmhvdF9yZWNhbGxfcmVhbHRpbWVfdDpub3JtYWw6MjAyNi0wMS0wNjptYWxlOmJpZ3lvdW5nc3RlcjrkuIDnur/ln47luIIYACAAOgBKWwopVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlQSKGhvdF9yZWNhbGxfcmVhbHRpbWVfdDpuZXc3ZDoyMDI2LTAxLTA2OjEYACAAOgBiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTkxNjU5OTQ2ODExNjI1NTIyqgEJcmVjb21tZW5kwgEgNGI4NGYxMDY4MWRiZDM1ZjU3ODk4ODVmMjFjZTg1NGPyAQoIDBIGTm9ybWFs8gEoCAoSJDkzOTlmMmIxLTg0NGEtNGQ1OC1iNjQ2LTkzZGEzZDRmZTdiY/IBBggLEgIxNoICAIgCxPiSm7kzkgIgNGI4NGYxMDY4MWRiZDM1ZjU3ODk4ODVmMjFjZTg1NGOaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCGUxhc3ROVGhlbWVTY29yZVdlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIcVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMVElNRegCA/oCC05PUk1BTF9GTE9XigMgMTM4MGI5OTYyOGY1NDJhZDhiYjBlZGZhMDYyMzk3YzmaAw0KAnYyEAAaBW90aGVyqAPjwwPYAwDqAx9ob3RDcm9zc1JlYWxUaW1lQ29udGVudFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAQQ0BcYwB8iI3YyLTlmYjUzNjVlZmVlNDI4ZWMzY2Q1ODliYWMwMDRkNWQ5gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAW226P4EFAAAAAAAAAACJBW+6DqaxgLI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRCQBgCgBlyoBgOSAi4KCTI2ODYxMTUzNxITMTk5MTY1OTk0NjgxMTYyNTUyMhgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "92_1767704411.597",
+      "type": "feed",
+      "offset": 92,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1767704411,
+      "updated_time": 1767704411,
+      "target": {
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "visited_count": 1149,
+        "image_url": "https://pic1.zhimg.com/v2-22082f2031ac6104b352325faf38cdd5.jpg?source=7e7ef6e2&needBackground=1",
+        "comment_permission": "all",
+        "voting": 0,
+        "navigator_vote": false,
+        "id": "1990123800545731904",
+        "preview_text": "",
+        "favorite_count": 103,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/articles/1990123800545731904",
+        "author": {
+          "id": "3cf656ba23a1b458aad7899de48314aa",
+          "url": "https://api.zhihu.com/people/3cf656ba23a1b458aad7899de48314aa",
+          "user_type": "people",
+          "name": "Sylearn",
+          "followers_count": 20023,
+          "is_followed": false,
+          "url_token": "wang-su-yun-69",
+          "headline": "公众号: CodeAI研习社；LLM：sucloud.vip",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-55e70a0a4b675b35a6bee4cecdbe321d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "南京大学 物理学博士在读"
+            }
+          ],
+          "is_following": false
+        },
+        "comment_count": 2,
+        "excerpt_new": "1. 什么是 Agent Skills？ Agent Skills（代理技能）是 Anthropic 最近推出的一项功能，允许用户通过上传包含指令、脚本和资源的文件夹，赋予 Claude 特定的专业能力。简单来说，一个 Skill 就是一个 动态工具包，Claude 只有在需要时才会打开它。   核心工作原理：渐进式披露 (Progressive Disclosure)Claude 不会一次性读取所有 Skill 的内容，而是分层加载，以 节省上下文窗口（从MCP到Skills核心目的都是如此）：第一层 (Metad…",
+        "is_labeled": false,
+        "type": "article",
+        "updated": 1767274151,
+        "thumbnails": [
+          "https://pic1.zhimg.com/v2-22082f2031ac6104b352325faf38cdd5.jpg?source=7e7ef6e2&needBackground=1",
+          "https://pic1.zhimg.com/50/v2-929fdf54b9c4368d4dc33f8c49654e7e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ec6171e18cff6056f9a68a4d6b2f0904_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "voteup_count": 24,
+        "article_type": "normal",
+        "vote_next_step": "vote",
+        "excerpt": "1. 什么是 Agent Skills？ Agent Skills（代理技能）是 Anthropic 最近推出的一项功能，允许用户通过上传包含指令、脚本和资源的文件夹，赋予 Claude 特定的专业能力。简单来说，一个 Skill 就是一个 动态工具包，Claude 只有在需要时才会打开它。   核心工作原理：渐进式披露 (Progressive Disclosure)Claude 不会一次性读取所有 Skill 的内容，而是分层加载，以 节省上下文窗口（从MCP到Skills核心目的都是如此）：第一层 (Metad…",
+        "title": "LLM笔记：Agent Skills 的使用指南（喂饭版）",
+        "created": 1767262846,
+        "preview_type": "default",
+        "content": "<h2>1. 什么是 Agent Skills？</h2><p data-pid=\"2hn4G_Ur\"><b>Agent Skills</b>（代理技能）是 Anthropic 最近推出的一项功能，允许用户通过上传包含指令、脚本和资源的文件夹，赋予 Claude <b>特定的专业能力</b>。</p><p data-pid=\"Wv8eN6qo\">简单来说，一个 Skill 就是一个<b>动态工具包</b>，Claude 只有在需要时才会打开它。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2de4b66dcfe6e0ee6597e8323eb8a55a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2048\" data-rawheight=\"1153\" data-original-token=\"v2-929fdf54b9c4368d4dc33f8c49654e7e\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic3.zhimg.com/v2-2de4b66dcfe6e0ee6597e8323eb8a55a_r.jpg\"/></figure><h3>核心工作原理：渐进式披露 (Progressive Disclosure)</h3><p data-pid=\"pzLs3hIJ\">Claude 不会一次性读取所有 Skill 的内容，而是分层加载，以<b>节省上下文窗口</b>（从MCP到Skills核心目的都是如此）：</p><ol><li data-pid=\"n2tLNLur\"><b>第一层 (Metadata):</b> Claude 启动时只加载 Skill 的 <code>name</code> 和 <code>description</code>。</li><li data-pid=\"pnus0qUy\"><b>第二层 (Body):</b> 当 Claude 认为当前任务与某个 Skill 相关时，它会读取该 Skill 的 <code>SKILL.md</code> 正文。</li><li data-pid=\"H8bZRlbr\"><b>第三层 (Linked Files):</b> 如果 <code>SKILL.md</code> 中引用了其他文件（如 <code>reference.md</code> 或脚本），Claude 会根据需要进一步读取这些文件。</li></ol><h3>Skills 的四种类型</h3><ol><li data-pid=\"ZCNUJmtm\"><b>Anthropic Skills:</b> 官方内置技能（如增强的 Excel/Word/PDF 处理），自动启用。</li><li data-pid=\"2EOrKeSc\"><b>Custom Skills (自定义技能):</b> 你或你的团队创建的技能，用于特定的工作流。</li><li data-pid=\"GxQ53n48\"><b>Organization Skills (组织技能):</b> 企业版中由管理员配置给全员使用的技能。</li><li data-pid=\"P0XZgrOF\"><b>Partner Skills (合作伙伴技能):</b> 来自 Notion, Figma 等合作伙伴的技能，通常配合 MCP 使用。</li></ol><hr/><h2>2. 为什么使用 Skills？</h2><p data-pid=\"EluK62Zx\">你可能会问：<i>“我有了 Projects（项目）和 Custom Instructions（自定义指令）了，为什么还需要 Skills？”</i></p><p data-pid=\"bbYpheOn\">下面可以看一下他们之间的区别：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>功能</th><th>适用场景</th><th>特点</th></tr><tr><td>Projects</td><td>长期项目、积累的背景知识</td><td>静态上下文。无论你聊什么，项目里的文件都会被加载。适合“产品发布会”、“长期研究”。</td></tr><tr><td>Custom Instructions</td><td>个人偏好、通用风格</td><td>全局设置。对所有对话生效。适合“总是用中文回答”、“代码不带解释”。</td></tr><tr><td>Skills</td><td>可重复的程序、具体任务</td><td>动态触发。只在需要时激活，可跨对话使用。适合“品牌指南检查”、“周报生成器”、“特定代码审查”。</td></tr></tbody></table><p data-pid=\"ZtIQtnUp\">也就是说，用 Skills 来封装那些你希望 Claude 在任何对话中都能自动调用的<b>标准化流程</b>（SOP）。</p><hr/><h2>3. 创建并使用 Skills</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-24172c934a4689d3fb6444dffca22250_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1650\" data-rawheight=\"929\" data-original-token=\"v2-ec6171e18cff6056f9a68a4d6b2f0904\" class=\"origin_image zh-lightbox-thumb\" width=\"1650\" data-original=\"https://pic3.zhimg.com/v2-24172c934a4689d3fb6444dffca22250_r.jpg\"/></figure><p data-pid=\"LB-7GV9h\">考虑我个人使用场景，我一般用 Claude Code + <a href=\"https://link.zhihu.com/?target=https%3A//sucloud.vip/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自己的第三方 API</a>进行构建，因此这里我总结的是如何在 Claude Code 构建自定义 Skill（Claude Code 只能自定义技能）并在 Claude Code 上执行。</p><h3>前置条件</h3><ul><li data-pid=\"wlxKFEyQ\">Claude Code 版本 <b>1.0 或更高</b></li></ul><h3>Skills 的调用方式</h3><p data-pid=\"OioMT0_m\"><b>重要区别</b>：</p><ul><li data-pid=\"J8yKIqJa\"><b>Skills</b> 是 <b>模型调用的</b> (Model-invoked)：Claude 根据你的请求和 Skill 的 description 自主决定何时使用</li><li data-pid=\"QzfKlDHj\"><b>斜杠命令</b> 是 <b>用户调用的</b> (User-invoked)：你显式输入 <code>/command</code> 来触发</li></ul><p data-pid=\"JaVoMN-o\">也就是说，你<b>不需要手动调用 Skill</b>，Claude 会自动判断是否需要使用。</p><h3>Skills 存储位置（重要！）</h3><p data-pid=\"uAJN7S1j\">Claude Code 中的 Skills 有两种存储方式：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>类型</th><th>存储路径</th><th>适用场景</th></tr><tr><td>个人 Skills</td><td>~/.claude/skills/your-skill-name/</td><td>个人工作流、实验性技能、跨项目使用</td></tr><tr><td>项目 Skills</td><td>.claude/skills/your-skill-name/</td><td>团队共享、项目特定专业知识</td></tr></tbody></table><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 创建个人 Skill（所有项目可用）</span>\nmkdir -p ~/.claude/skills/my-skill-name\n\n<span class=\"c1\"># 创建项目 Skill（通过 git 与团队共享）</span>\nmkdir -p .claude/skills/my-skill-name</code></pre></div><blockquote data-pid=\"uIYxjy4F\"><b>注意</b>：项目 Skills 可以检入 git，团队成员 <code>git pull</code> 后自动可用。</blockquote><h3>创建 Skill 示例</h3><p data-pid=\"6BFJahpu\">下面以创建一个文本统计 Skill 为例，展示完整流程：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 创建个人 Skill 目录</span>\nmkdir -p ~/.claude/skills/text-stats-skill</code></pre></div><h3>核心文件：<code>SKILL.md</code></h3><p data-pid=\"7xccuNYt\">这是必须存在的文件。</p><p data-pid=\"yzWTfTn5\"><b>元数据规范：</b></p><ul><li data-pid=\"2Bjsq5LH\"><code>name</code>: 最多 <b>64</b> 个字符，仅支持小写字母、数字和连字符。</li><li data-pid=\"JyshxvP5\"><code>description</code>: 最多 <b>1024</b> 个字符。Claude 靠这个决定是否使用该 Skill，<b>必须写得非常清楚，包含”何时使用”的触发词</b>。</li></ul><p data-pid=\"fRynD12T\">在 <code>~/.claude/skills/text-stats-skill/SKILL.md</code> 中写入：</p><div class=\"highlight\"><pre><code class=\"language-text\">---\nname: text-stats\ndescription: 分析文本以统计单词数量并计算频率。当用户要求获取文本统计数据或单词计数时使用此功能。\n---\n\n# Text Statistics Skill\n\n## 用途\n当用户需要分析一段文本的长度、词汇频率或基本统计信息时使用此技能。\n\n## 指令\n1. 接收用户提供的文本。\n2. 运行 `analyze.py` 脚本来处理文本。\n3. 向用户展示统计结果。\n\n## 示例\nUser: &#34;分析这段关于 AI 的介绍文本...&#34;\nAssistant: (运行 analyze.py 并展示结果)</code></pre></div><h3>辅助脚本：<code>analyze.py</code></h3><p data-pid=\"z4MmTcgF\">在同一文件夹下，创建一个 Python 脚本：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"kn\">import</span> <span class=\"nn\">sys</span>\n<span class=\"kn\">from</span> <span class=\"nn\">collections</span> <span class=\"kn\">import</span> <span class=\"n\">Counter</span>\n<span class=\"kn\">import</span> <span class=\"nn\">re</span>\n\n<span class=\"k\">def</span> <span class=\"nf\">analyze_text</span><span class=\"p\">(</span><span class=\"n\">text</span><span class=\"p\">):</span>\n    <span class=\"n\">words</span> <span class=\"o\">=</span> <span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">findall</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s1\">&#39;\\w+&#39;</span><span class=\"p\">,</span> <span class=\"n\">text</span><span class=\"o\">.</span><span class=\"n\">lower</span><span class=\"p\">())</span>\n    <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"n\">f</span><span class=\"s2\">&#34;Total words: {len(words)}&#34;</span><span class=\"p\">)</span>\n    <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"n\">f</span><span class=\"s2\">&#34;Top 5 words: {Counter(words).most_common(5)}&#34;</span><span class=\"p\">)</span>\n\n<span class=\"k\">if</span> <span class=\"vm\">__name__</span> <span class=\"o\">==</span> <span class=\"s2\">&#34;__main__&#34;</span><span class=\"p\">:</span>\n    <span class=\"k\">if</span> <span class=\"nb\">len</span><span class=\"p\">(</span><span class=\"n\">sys</span><span class=\"o\">.</span><span class=\"n\">argv</span><span class=\"p\">)</span> <span class=\"o\">&gt;</span> <span class=\"mi\">1</span><span class=\"p\">:</span>\n        <span class=\"n\">analyze_text</span><span class=\"p\">(</span><span class=\"n\">sys</span><span class=\"o\">.</span><span class=\"n\">argv</span><span class=\"p\">[</span><span class=\"mi\">1</span><span class=\"p\">])</span>\n    <span class=\"k\">else</span><span class=\"p\">:</span>\n        <span class=\"k\">print</span><span class=\"p\">(</span><span class=\"s2\">&#34;No text provided.&#34;</span><span class=\"p\">)</span></code></pre></div><h3>Claude Code 中部署 Skill</h3><p data-pid=\"lUIbLs5m\"><b>Claude Code 不需要打包成 ZIP！</b> 直接将文件夹放到正确位置即可：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 个人 Skill - 放入 ~/.claude/skills/</span>\nmv text-stats-skill ~/.claude/skills/\n\n<span class=\"c1\"># 项目 Skill - 放入项目目录</span>\nmv text-stats-skill .claude/skills/</code></pre></div><p data-pid=\"Njb8eyIb\"><b>目录结构确认：</b></p><div class=\"highlight\"><pre><code class=\"language-text\">~/.claude/skills/\n└── text-stats-skill/\n    ├── SKILL.md           &lt;-- 必须存在\n    └── analyze.py</code></pre></div><blockquote data-pid=\"4QZNuLV2\"><b>提示</b>：如果你使用的是 Claude.ai（Web 版），则需要将文件夹打包成 ZIP 上传。</blockquote><hr/><h2>4. Skill 结构与规范</h2><h3>目录结构标准</h3><div class=\"highlight\"><pre><code class=\"language-text\">my-awesome-skill/\n├── SKILL.md            &lt;-- [必须]\n├── reference.md        &lt;-- [可选] 补充文档，在 SKILL.md 中引用\n├── scripts/            &lt;-- [可选] 存放代码\n│   └── main.py\n└── data/               &lt;-- [可选] 存放数据</code></pre></div><h3><code>SKILL.md</code> 高级技巧</h3><p data-pid=\"fNj1CEN_\"><b>Metadata (元数据):</b> </p><ul><ul><li data-pid=\"c4aq-Lj7\"><code>dependencies</code>: (可选) 指定依赖包，如 <code>python&gt;=3.8, pandas&gt;=1.5.0</code>。</li></ul></ul><p data-pid=\"SsYGuF-2\"><b>引用外部文件:</b> </p><ul><li data-pid=\"iLxeWict\">在正文中写：<code>See &#39;reference.md&#39; for detailed formatting rules.</code></li><li data-pid=\"XzFK1zSP\">Claude 会在需要时才去读取 <code>reference.md</code>，这就是”渐进式披露”的优势。</li></ul><p data-pid=\"Jom9u7K1\"><b>引用代码:</b> </p><ul><li data-pid=\"eyZXdNmZ\">明确指示：<code>Run the script &#39;scripts/main.py&#39; to process the data.</code> </li></ul><h3><code>allowed-tools</code> 限制工具访问（安全功能）</h3><p data-pid=\"VizsSC3J\">使用 <code>allowed-tools</code> 字段可以限制 Skill 激活时 Claude 能使用的工具：</p><div class=\"highlight\"><pre><code class=\"language-text\">---\nname: safe-file-reader\ndescription: 只读文件访问。用于需要查看但不修改文件时。\nallowed-tools: Read, Grep, Glob\n---\n\n# Safe File Reader\n\n这个 Skill 只提供只读访问。\n\n## 指令\n1. 使用 Read 查看文件内容\n2. 使用 Grep 搜索文件内容\n3. 使用 Glob 查找文件</code></pre></div><p data-pid=\"n2Uf1m-h\"><b>适用场景：</b></p><ul><li data-pid=\"pDn45I_R\">不应修改文件的只读 Skills</li><li data-pid=\"OI-aVw-J\">范围有限的 Skills（如只做数据分析，不写入文件）</li><li data-pid=\"JUkPaSIJ\">安全敏感的工作流</li></ul><blockquote data-pid=\"uOaNzETV\"><b>注意</b>：<code>allowed-tools</code> 仅在 Claude Code 中支持。</blockquote><hr/><h2>5. 查看、测试与调试 Skills</h2><h3>查看可用的 Skills</h3><p data-pid=\"cPcgYeRO\"><b>方法一：直接询问 Claude</b></p><div class=\"highlight\"><pre><code class=\"language-text\">What Skills are available? / 列出所有可用的 Skills</code></pre></div><p data-pid=\"JA1NpFCU\"><b>方法二：检查文件系统</b></p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 查看个人 Skills</span>\nls ~/.claude/skills/\n\n<span class=\"c1\"># 查看项目 Skills</span>\nls .claude/skills/\n\n<span class=\"c1\"># 查看特定 Skill 内容</span>\ncat ~/.claude/skills/my-skill/SKILL.md</code></pre></div><h3>测试 Skill</h3><p data-pid=\"RzyLSbfz\">创建 Skill 后，用<b>匹配 description 的问题</b>来测试：</p><div class=\"highlight\"><pre><code class=\"language-text\"># 如果 description 提到 &#34;PDF 文件&#34;\nCan you help me extract text from this PDF?</code></pre></div><p data-pid=\"PYllGLd7\">Claude 会<b>自主决定</b>是否使用你的 Skill——你不需要显式调用它。</p><h3>调试 Skill</h3><p data-pid=\"pQdaJ4Vg\"><b>Claude 不使用你的 Skill？</b> 检查以下问题：</p><p data-pid=\"6FpMjxvn\"><b>1. 描述是否足够具体？</b></p><div class=\"highlight\"><pre><code class=\"language-text\"># 太模糊\ndescription: Helps with documents\n\n# 具体（好）\ndescription: 从 PDF 文件中提取文本和表格，填写表单，合并文档。用于处理 PDF、表单或文档提取时使用。</code></pre></div><p data-pid=\"qUUPPG_L\"><b>2. 验证文件路径</b></p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 个人 Skill</span>\nls ~/.claude/skills/my-skill/SKILL.md\n\n<span class=\"c1\"># 项目 Skill</span>\nls .claude/skills/my-skill/SKILL.md</code></pre></div><p data-pid=\"QhAAMHd9\"><b>3. 检查 YAML 语法</b></p><div class=\"highlight\"><pre><code class=\"language-bash\">cat SKILL.md <span class=\"p\">|</span> head -n <span class=\"m\">10</span></code></pre></div><p data-pid=\"bZwNPkjD\">确保：</p><ul><li data-pid=\"g3JfXzNS\">第 1 行有开头的 <code>---</code></li><li data-pid=\"W5aOgfJg\">Markdown 内容前有结尾的 <code>---</code></li><li data-pid=\"lO6B_HLj\">无制表符，正确缩进</li></ul><p data-pid=\"DTnYqTYS\"><b>4. 使用调试模式</b></p><div class=\"highlight\"><pre><code class=\"language-text\">claude --debug</code></pre></div><p data-pid=\"Rznw4Ww3\">这会显示 Skill 加载错误。</p><h3>多个 Skills 冲突</h3><p data-pid=\"ISZaa7tG\"><b>症状</b>：Claude 使用了错误的 Skill。</p><p data-pid=\"CNcXH99-\"><b>解决方案</b>：在 description 中使用<b>不同的触发术语</b>：</p><div class=\"highlight\"><pre><code class=\"language-text\"># 不好 - 太相似\n# Skill 1\ndescription: For data analysis\n# Skill 2\ndescription: For analyzing data\n\n# 好 - 明确区分\n# Skill 1\ndescription: 分析 Excel 文件和 CRM 导出的销售数据。用于销售报告、管道分析和收入跟踪。\n# Skill 2\ndescription: 分析日志文件和系统指标数据。用于性能监控、调试和系统诊断。</code></pre></div><hr/><h2>6. 更新、删除与团队共享</h2><h3>更新 Skill</h3><p data-pid=\"u6aYSm0D\">直接编辑 SKILL.md：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 个人 Skill</span>\ncode ~/.claude/skills/my-skill/SKILL.md\n\n<span class=\"c1\"># 项目 Skill</span>\ncode .claude/skills/my-skill/SKILL.md</code></pre></div><blockquote data-pid=\"CgLHo8_X\"><b>重要</b>：更改在下次启动 Claude Code 时生效。如已运行，需重启。</blockquote><h3>删除 Skill</h3><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 个人 Skill</span>\nrm -rf ~/.claude/skills/my-skill\n\n<span class=\"c1\"># 项目 Skill</span>\nrm -rf .claude/skills/my-skill\ngit commit -m <span class=\"s2\">&#34;Remove unused Skill&#34;</span></code></pre></div><h3>与团队共享 Skills</h3><p data-pid=\"Btdw0E0w\"><b>方法一：通过 Git（推荐用于项目 Skills）</b></p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 1. 创建项目 Skill</span>\nmkdir -p .claude/skills/team-skill\n<span class=\"c1\"># 创建 SKILL.md...</span>\n\n<span class=\"c1\"># 2. 提交到 git</span>\ngit add .claude/skills/\ngit commit -m <span class=\"s2\">&#34;Add team Skill for PDF processing&#34;</span>\ngit push\n\n<span class=\"c1\"># 3. 团队成员拉取后自动可用</span>\ngit pull\nclaude  <span class=\"c1\"># Skills 现在可用</span></code></pre></div><p data-pid=\"Ae2A2T_O\"><b>方法二：通过插件分发</b></p><p data-pid=\"Hg0lqW4g\">这是官方推荐的方式，详见 <a href=\"https://link.zhihu.com/?target=https%3A//docs.claude.com/en/docs/plugins\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Claude Code 插件文档</a>。</p><hr/><h2>7. 最佳实践与安全</h2><h3>编写高质量 Skill</h3><ul><li data-pid=\"JLABVjFL\"><b>Description 是关键:</b> 在 1024 字符内，清晰说明 <b>“做什么”</b> 和 <b>“何时使用”</b>，包含触发关键词。</li><li data-pid=\"PQfaXa0f\"><b>模块化:</b> 不要把所有功能塞进一个 Skill。拆分成 <code>pdf-processing</code>, <code>data-analysis</code> 等小技能，Claude 会自动组合它们。</li><li data-pid=\"3ZuxWG-I\"><b>提供 Few-Shot Examples:</b> 在 <code>SKILL.md</code> 中给出“输入 -&gt; 理想输出”的例子。</li></ul><h3>安全注意事项 (Security)</h3><ul><li data-pid=\"wAnhyHY1\"><b>风险:</b> 主要是 <b>Prompt Injection (提示注入)</b> 和 <b>Data Exfiltration (数据泄露)</b>。恶意的 Skill 可能会诱导 Claude 执行意外操作或发送数据到外部。</li><li data-pid=\"-_A4eBy3\"><b>防御:</b> </li><ul><li data-pid=\"jxCSXI-i\"><b>只安装来源可信的 Skill。</b></li><li data-pid=\"FlniQwAJ\"><b>审核代码:</b> 在使用前，检查里面的脚本是否有不明网络请求。</li><li data-pid=\"1w1ajv6x\"><b>使用 <code>allowed-tools</code>:</b> 限制 Skill 可使用的工具，最小权限原则。</li><li data-pid=\"v6r64yOh\">Claude 在沙箱环境中运行代码，且会话间无数据持久化，但这不代表可以掉以轻心。</li></ul></ul><p class=\"ztext-empty-paragraph\"><br/></p><h3>版本记录建议</h3><p data-pid=\"hlpicF4K\">在 SKILL.md 中记录版本历史，方便团队追踪变更：</p><div class=\"highlight\"><pre><code class=\"language-text\"># My Skill\n\n## Version History\n- v2.0.0 (2025-10-01): 重大 API 变更\n- v1.1.0 (2025-09-15): 新增功能\n- v1.0.0 (2025-09-01): 初始发布</code></pre></div><hr/><h2>8. 实用示例汇总</h2><h3>示例一：简单 Skill（Git 提交助手）</h3><div class=\"highlight\"><pre><code class=\"language-text\">commit-helper/\n└── SKILL.md\n---\nname: generating-commit-messages\ndescription: 从 git diff 生成清晰的提交消息。用于编写提交消息或查看暂存更改时使用。\n---\n\n# Generating Commit Messages\n\n## Instructions\n\n1. 运行 `git diff --staged` 查看更改\n2. 我会建议一个提交消息，包含：\n   - 50 字符以内的摘要\n   - 详细描述\n   - 受影响的组件\n\n## Best practices\n\n- 使用现在时态\n- 解释&#34;做了什么&#34;和&#34;为什么&#34;，而不是&#34;怎么做&#34;</code></pre></div><h3>示例二：具有工具权限的 Skill（代码审查）</h3><div class=\"highlight\"><pre><code class=\"language-text\">code-reviewer/\n└── SKILL.md\n---\nname: code-reviewer\ndescription: 审查代码的最佳实践和潜在问题。用于代码审查、检查 PR 或分析代码质量时使用。\nallowed-tools: Read, Grep, Glob\n---\n\n# Code Reviewer\n\n## Review checklist\n\n1. 代码组织和结构\n2. 错误处理\n3. 性能考虑\n4. 安全问题\n5. 测试覆盖率\n\n## Instructions\n\n1. 使用 Read 工具阅读目标文件\n2. 使用 Grep 搜索模式\n3. 使用 Glob 查找相关文件\n4. 提供详细的代码质量反馈</code></pre></div><h3>示例三：多文件 Skill（PDF 处理）</h3><div class=\"highlight\"><pre><code class=\"language-text\">pdf-processing/\n├── SKILL.md\n├── FORMS.md\n├── REFERENCE.md\n└── scripts/\n    ├── fill_form.py\n    └── validate.py</code></pre></div><p data-pid=\"C3gtT8Id\"><b>SKILL.md</b>：</p><div class=\"highlight\"><pre><code class=\"language-text\">---\nname: pdf-processing\ndescription: 提取文本、填写表单、合并 PDF。用于处理 PDF 文件、表单或文档提取时使用。需要 pypdf 和 pdfplumber 包。\n---\n\n# PDF Processing\n\n## Quick start\n\n提取文本：\n```python\nimport pdfplumber\nwith pdfplumber.open(&#34;doc.pdf&#34;) as pdf:\n    text = pdf.pages[0].extract_text()\n```\n\n表单填写请参阅 [FORMS.md](FORMS.md)。\n详细 API 参考请参阅 [REFERENCE.md](REFERENCE.md)。\n\n## Requirements\n\n必须在你的环境中安装这些包：\n```bash\npip install pypdf pdfplumber\n```</code></pre></div><blockquote data-pid=\"pvEV_1jd\"><b>提示</b>：Claude 仅在需要时加载额外文件（渐进式披露）。</blockquote><hr/><p data-pid=\"jmCPVlNK\"><b>参考资源：</b></p><ul><li data-pid=\"08hml0jN\"><a href=\"https://link.zhihu.com/?target=https%3A//docs.claude.com/en/docs/agents-and-tools/agent-skills/overview\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Claude Code 官方文档 - Skills</a></li><li data-pid=\"xJKZk-BS\"><a href=\"https://link.zhihu.com/?target=https%3A//agentskills.io/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Agent Skills 官方标准</a></li><li data-pid=\"-A_hl5bz\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/anthropics/skills\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anthropic Skills GitHub 仓库</a></li><li data-pid=\"CMNFL9Mz\"><a href=\"https://link.zhihu.com/?target=https%3A//docs.claude.com/en/docs/plugins\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Claude Code 插件文档</a></li></ul>"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1990123800545731904}",
+      "attached_info": "CqgHCOb8v62sh/OArwEQBxoJMjY4NDU1NDcxIP6U2coGKBgwAkBcSlcKF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREjZkYXRhOmxhc3Rfbl9iZWhhdmlvcl90eXBlOm5ldzpTaGFyZTp1c2VyX2lkOjU4LDU1OCw4ODcYACAAOgBiIDFjNThkZDZmNDM5ZWFkNDVjZTU0ODFhODZiMGQ4MDA5chMxOTkwMTIzODAwNTQ1NzMxOTA0ggFfaHR0cHM6Ly9waWMxLnpoaW1nLmNvbS92Mi0yMjA4MmYyMDMxYWM2MTA0YjM1MjMyNWZhZjM4Y2RkNS5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGqAQlyZWNvbW1lbmTCASAzY2Y2NTZiYTIzYTFiNDU4YWFkNzg5OWRlNDgzMTRhYfIBCggMEgZOb3JtYWzyASgIChIkYjBkYTI5NzEtOGNhMi00ZmRlLWE2YWYtMDA5MjJhODRiYTlm8gEGCAsSAjE2ggIAiALE+JKbuTOSAiAzY2Y2NTZiYTIzYTFiNDU4YWFkNzg5OWRlNDgzMTRhYZoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hR6AIE+gILTk9STUFMX0ZMT1eKAyAxMzgwYjk5NjI4ZjU0MmFkOGJiMGVkZmEwNjIzOTdjOZoDDQoCdjIQABoFb3RoZXKoA/0I2AMA6gMXZ2NmS25uQXV0aG9yTGFzdE5SZWNhbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQgBAYgQkiI3YyLTkyOWZkZjU0YjljNDM2OGQ0ZGMzM2Y4YzQ5NjU0ZTdlOi0IAhDyDBihByIjdjItZWM2MTcxZTE4Y2ZmNjA1NmY5YTY4YTRkNmIyZjA5MDQ6LQgEEIAIGK8EIiN2Mi0yMjA4MmYyMDMxYWM2MTA0YjM1MjMyNWZhZjM4Y2RkNYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIJHpcT+BBQAAAAAAAAAAiQVvug6msYCyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUQkAYAoAZdqAYAkgIuCgkyNjg0NTU0NzESEzE5OTAxMjM4MDA1NDU3MzE5MDQYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "93_1767704411.539",
+      "type": "feed",
+      "offset": 93,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704411,
+      "updated_time": 1767704411,
+      "target": {
+        "comment_count": 156,
+        "preview_type": "default",
+        "segment_infos": [
+          {
+            "pid": "HN2Cbl2Z",
+            "text": "我想到了“人民艺术家”这个头衔。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 16,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991890526396508147"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "EEXXFgRB",
+            "text": "至此，艺术已成。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 8,
+                "seg_info": {
+                  "seg_ids": [
+                    "1991641435074760985"
+                  ],
+                  "is_like": false,
+                  "like_count": 8,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "navigator_vote": false,
+        "id": "1991442230926411090",
+        "preview_text": "",
+        "is_labeled": false,
+        "question": {
+          "id": "1989651193203541205",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "author": {
+            "url": "https://api.zhihu.com/people/544dd69dc3ec258cbd6310ca50c5e693",
+            "user_type": "people",
+            "headline": "我是动保女权黑人穆斯林素食同性恋，封我就是歧视!",
+            "gender": 1,
+            "followers_count": 406,
+            "is_following": false,
+            "id": "544dd69dc3ec258cbd6310ca50c5e693",
+            "url_token": "29-41-45-74-33",
+            "name": "不爱虚名爱恶名",
+            "avatar_url": "https://picx.zhimg.com/50/v2-8102225a6cd55c8b7c6d6ca05fbeb265_l.jpg?source=b6762063",
+            "is_org": false,
+            "is_followed": false
+          },
+          "title": "河南小伙手绘巨型天安门墙绘，圆了村里老人看天安门梦想，元旦涌进 5 万人，如何看待此事？",
+          "bound_topic_ids": [
+            5483,
+            5583,
+            26592,
+            66698,
+            332080
+          ],
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1989651193203541205",
+          "excerpt": "",
+          "detail": "",
+          "created": 1767149810,
+          "follower_count": 0,
+          "comment_count": 2
+        },
+        "content": "<p data-pid=\"HN2Cbl2Z\">我想到了“人民艺术家”这个头衔。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c6a30a248a1c448385224247cf3c0482_1440w.jpg\" data-rawwidth=\"828\" data-rawheight=\"856\" data-size=\"normal\" data-original-token=\"v2-03ea1bbeade4817dac822023ef7c41d7\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pic3.zhimg.com/v2-c6a30a248a1c448385224247cf3c0482_r.jpg\"/></figure><p data-pid=\"omLoTz0m\">如今，很多艺术工作者只敢称自己是艺术家，却鲜少有人能坦然加上人民二字。</p><p data-pid=\"T-Afgy4g\">因为他们的艺术，往往囿于精致的画廊、高昂的拍卖行和圈内人的沙龙密谈，与财富和阶层挂钩，与最广大人群的真实悲喜隔着一层厚厚的玻璃。</p><p data-pid=\"r7F3yJvc\">而河南商丘那位在村里墙上画出巨型天安门的年轻人吴承言，配得上这个称号。</p><p data-pid=\"qD67TiXO\">他的艺术，从人民朴素的心愿里生长出来，最终又全然回馈给人民。</p><p data-pid=\"xpFOj23I\">这幅画背后没有基金与奖项，只有一个最简单的初衷：让村里那些一辈子没出过远门、甚至晕车的老人，能亲眼看看他们心心念念的天安门。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7f34d4fbdabd073017a1a723067c5f2d_1440w.jpg\" data-rawwidth=\"812\" data-rawheight=\"448\" data-size=\"normal\" data-original-token=\"v2-cf558c66ebf4460a7a85fafe5cc45135\" class=\"origin_image zh-lightbox-thumb\" width=\"812\" data-original=\"https://picx.zhimg.com/v2-7f34d4fbdabd073017a1a723067c5f2d_r.jpg\"/></figure><p data-pid=\"CudZnMhF\">正是这个朴素的举动，让整个村庄在元旦假期涌进了5万人。</p><p data-pid=\"jlBUUuwf\">村里的老人换上最好的衣服来拍照，小卖部老板的营业额翻了十倍，摊贩们一天能卖到上万元。</p><p data-pid=\"Gr4_Hp3a\">这幅画，成了连接梦想与现实的桥梁。</p><p data-pid=\"0o7BJfXk\">这件事让我们不得不重新思考一个老问题：什么才是真正的艺术？</p><p data-pid=\"vDBGiKYd\">当一位腿脚不便的大爷被推到画前，闭上眼睛再睁开，发现自己已到心中的圣地时，愣了几秒后笑开了花，这就是艺术。</p><p data-pid=\"Tj9gx4yL\">当另一位大爷下意识地说先别慌拍照，我来给天安门广场扫扫地时，这幅画的价值已经超越了任何艺术评论体系，这就是艺术。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a32552f83096226daac1c0f5ad83a3a5_1440w.jpg\" data-rawwidth=\"1079\" data-rawheight=\"1071\" data-size=\"normal\" data-original-token=\"v2-6ae970dad4f406ca62582a8bf2f81103\" class=\"origin_image zh-lightbox-thumb\" width=\"1079\" data-original=\"https://pic2.zhimg.com/v2-a32552f83096226daac1c0f5ad83a3a5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8baacd1484825cf0a3a35f41159b8c13_1440w.jpg\" data-rawwidth=\"988\" data-rawheight=\"1407\" data-size=\"normal\" data-original-token=\"v2-4ec40e8238164c810c974788e7f78ecf\" class=\"origin_image zh-lightbox-thumb\" width=\"988\" data-original=\"https://picx.zhimg.com/v2-8baacd1484825cf0a3a35f41159b8c13_r.jpg\"/></figure><p data-pid=\"s1NUt7F7\">一幅墙绘，让一个年轻人都外出打工的村庄，变成了日均数万人流量的打卡地。它修好了村里的路，带来了200多个摊位，让昔日的冷清被赶大集般的热闹取代。这就是艺术。</p><p data-pid=\"zonDfK8-\">一个前半生漂泊郁郁不得志的有为青年，靠着自己双手，自己的善心和对艺术的执着追求，先被央美拒绝，后被央视报道。</p><p data-pid=\"EEXXFgRB\">至此，艺术已成。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 95108,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-03ea1bbeade4817dac822023ef7c41d7_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6ae970dad4f406ca62582a8bf2f81103_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-4ec40e8238164c810c974788e7f78ecf_720w.jpg?source=b6762063"
+        ],
+        "created_time": 1767576827,
+        "voteup_count": 3031,
+        "thanks_count": 92,
+        "vote_next_step": "vote",
+        "excerpt_new": "我想到了“人民艺术家”这个头衔。   如今，很多艺术工作者只敢称自己是艺术家，却鲜少有人能坦然加上人民二字。 因为他们的艺术，往往囿于精致的画廊、高昂的拍卖行和圈内人的沙龙密谈，与财富和阶层挂钩，与最广大人群的真实悲喜隔着一层厚厚的玻璃。 而河南商丘那位在村里墙上画出巨型天安门的年轻人吴承言，配得上这个称号。 他的艺术，从人民朴素的心愿里生长出来，最终又全然回馈给人民。 这幅画背后没有基金与奖项，只有一…",
+        "reshipment_settings": "disallowed",
+        "favorite_count": 176,
+        "url": "https://api.zhihu.com/answers/1991442230926411090",
+        "updated_time": 1767602564,
+        "thumbnail": "https://picx.zhimg.com/50/v2-03ea1bbeade4817dac822023ef7c41d7_720w.jpg?source=b6762063",
+        "answer_type": "normal",
+        "excerpt": "我想到了“人民艺术家”这个头衔。   如今，很多艺术工作者只敢称自己是艺术家，却鲜少有人能坦然加上人民二字。 因为他们的艺术，往往囿于精致的画廊、高昂的拍卖行和圈内人的沙龙密谈，与财富和阶层挂钩，与最广大人群的真实悲喜隔着一层厚厚的玻璃。 而河南商丘那位在村里墙上画出巨型天安门的年轻人吴承言，配得上这个称号。 他的艺术，从人民朴素的心愿里生长出来，最终又全然回馈给人民。 这幅画背后没有基金与奖项，只有一…",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "author": {
+          "gender": 1,
+          "followers_count": 17170,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/08027b7aeb2fb40cffe2f916dce2b09c",
+          "user_type": "people",
+          "url_token": "ming-jiao-xiao-cdu-zuo-xiao-c",
+          "name": "名叫小c读作小c",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9c5d57cba7b70284dbf7115f930652e3_l.jpg?source=b6762063",
+          "id": "08027b7aeb2fb40cffe2f916dce2b09c",
+          "headline": "恭喜你，居然发现我了",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "super_activity",
+              "description": "知势榜体育竞技领域影响力榜答主"
+            }
+          ],
+          "is_following": false
+        },
+        "is_copyable": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991442230926411090}",
+      "attached_info": "CqQICOb8v62sh/OArwEQBBoJNzY0MDUwODk1IPup7MoGKNcXMJwBQF1KNQogVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjISATAYACAAOgp7InJhdyI6IiJ9SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9Sj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1aCTExNzkwNjcwOGIgMWM1OGRkNmY0MzllYWQ0NWNlNTQ4MWE4NmIwZDgwMDlyEzE5OTE0NDIyMzA5MjY0MTEwOTCKARMxOTg5NjUxMTkzMjAzNTQxMjA1qgEJcmVjb21tZW5kwgEgMDgwMjdiN2FlYjJmYjQwY2ZmZTJmOTE2ZGNlMmIwOWPyAQoIDBIGTm9ybWFs8gEoCAoSJDdiZjI3NDBiLTY4NmEtNGE1Yi1iNWYzLWVmYjlhYzg5NWRhN/IBBggLEgIxNoICAIgCxPiSm7kzkgIgMDgwMjdiN2FlYjJmYjQwY2ZmZTJmOTE2ZGNlMmIwOWOaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxl2gIgVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjLoAgX6AgtOT1JNQUxfRkxPV4oDIDEzODBiOTk2MjhmNTQyYWQ4YmIwZWRmYTA2MjM5N2M5mgMNCgJ2MhAAGgVvdGhlcqgDhOcF2AMA6gMWZmVlZHJlX2ZpcnN0X3NjcmVlbl92MvoD2wESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxC8BhjYBiIjdjItMDNlYTFiYmVhZGU0ODE3ZGFjODIyMDIzZWY3YzQxZDc6LQgDEKwGGMADIiN2Mi1jZjU1OGM2NmViZjQ0NjBhN2E4NWZhZmU1Y2M0NTEzNTotCAMQtwgYrwgiI3YyLTZhZTk3MGRhZDRmNDA2Y2E2MjU4MmE4YmYyZjgxMTAzOi0IBRDcBxj/CiIjdjItNGVjNDBlODIzODE2NGM4MTBjOTc0Nzg4ZTdmNzhlY2aABACIBACSBAZOb3JtYWyaBAE1oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOBR/p0/gQUAAAAAAAAAAIkFb7oOprGAsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEJAGAKAGXqgGAJICLgoJNzY0MDUwODk1EhMxOTkxNDQyMjMwOTI2NDExMDkwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "94_1767704411.177",
+      "type": "feed",
+      "offset": 94,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704411,
+      "updated_time": 1767704411,
+      "target": {
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/4301e3f92a534372b23ec13af0d1bb72",
+          "user_type": "people",
+          "url_token": "928-25-2",
+          "headline": "各位，幸会",
+          "gender": -1,
+          "id": "4301e3f92a534372b23ec13af0d1bb72",
+          "name": "冰果0412",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9ffdb48347a91006e2464a3a3faeab77_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 6042
+        },
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1990020694881350861",
+        "voteup_count": 143,
+        "question": {
+          "excerpt": "",
+          "detail": "",
+          "question_type": "normal",
+          "id": "636871843",
+          "created": 1703653566,
+          "answer_count": 0,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "follower_count": 0,
+          "comment_count": 5,
+          "bound_topic_ids": [
+            6729,
+            2620603
+          ],
+          "url": "https://api.zhihu.com/questions/636871843",
+          "author": {
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 550,
+            "id": "971acb45108611ade92dd42b98805646",
+            "url": "https://api.zhihu.com/people/971acb45108611ade92dd42b98805646",
+            "user_type": "people",
+            "url_token": "layman-92-59",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-d6b4aae409e604cd14c910c381a74c39_l.jpg?source=b6762063",
+            "name": "Layman",
+            "headline": "想打开认知的年轻人",
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "你会接受同居过的女生吗？"
+        },
+        "excerpt": "那要看颜值 [视频]",
+        "type": "answer",
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "visited_count": 195290,
+        "created_time": 1767237906,
+        "updated_time": 1767237906,
+        "is_copyable": true,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-d0ae34467ecfa7a012d07918eb76afba_720w.jpg?source=b6762063",
+        "answer_type": "normal",
+        "favorite_count": 70,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "id": "1990020694881350861",
+        "thanks_count": 3,
+        "excerpt_new": "那要看颜值 [视频]",
+        "preview_type": "default",
+        "comment_count": 41,
+        "content": "<p data-pid=\"34kCZJyG\">那要看颜值</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1990020498726334885\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"\" data-name=\"\" data-poster=\"https://pica.zhimg.com/v2-d0ae34467ecfa7a012d07918eb76afba_720w.jpg?source=ccfced1a\" data-lens-id=\"1990020498726334885\"><img class=\"thumbnail\" src=\"https://pica.zhimg.com/v2-d0ae34467ecfa7a012d07918eb76afba_720w.jpg?source=ccfced1a\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1990020498726334885</span></span></a>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-d0ae34467ecfa7a012d07918eb76afba_720w.jpg?source=b6762063"
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990020694881350861}",
+      "attached_info": "CvQFCOb8v62sh/OArwEQBBoJNzYzNTUzMjA0IJLS18oGKI8BMClAXkorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifVoJMTAzODA1NjAyYiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOWil49DSmaP+zhtyEzE5OTAwMjA2OTQ4ODEzNTA4NjGKAQk2MzY4NzE4NDOqAQlyZWNvbW1lbmTCASA0MzAxZTNmOTJhNTM0MzcyYjIzZWMxM2FmMGQxYmI3MvIBCggMEgZOb3JtYWzyASgIChIkNTI3YjJkOWUtY2VmMy00MjcyLWI1ZGUtNmE4NjVjZjViOWRi8gEGCAsSAjE2ggIAiALE+JKbuTOSAiA0MzAxZTNmOTJhNTM0MzcyYjIzZWMxM2FmMGQxYmI3MpoCAMoCFEZpcnN0QnJ1c2hXZWlnaHRSdWxlygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhJUaGVtZUlzb2xhdGlvblJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yz6AIC+gILTk9STUFMX0ZMT1eKAyAxMzgwYjk5NjI4ZjU0MmFkOGJiMGVkZmEwNjIzOTdjOZoDDQoCdjIQABoFb3RoZXKoA9r1C9gDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgOnXrz+BBQAAAAAAAAAAiQVvug6msYCyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUQkAYAoAZfqAYBkgIuCgk3NjM1NTMyMDQSEzE5OTAwMjA2OTQ4ODEzNTA4NjEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "95_1767704411.78",
+      "type": "feed",
+      "offset": 95,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1767704411,
+      "updated_time": 1767704411,
+      "target": {
+        "question": {
+          "comment_count": 7,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "11335018677",
+          "type": "question",
+          "follower_count": 0,
+          "author": {
+            "name": "靈丨周珏",
+            "headline": "古代军事 冷兵器爱好者",
+            "avatar_url": "https://picx.zhimg.com/50/v2-e4e9565bffba8594816d4262553e7094_l.jpg?source=b6762063",
+            "followers_count": 3,
+            "is_following": false,
+            "id": "f8f5e8299663c08c0280f2eb1891414f",
+            "url": "https://api.zhihu.com/people/f8f5e8299663c08c0280f2eb1891414f",
+            "url_token": "ling-gun-ge-zhu",
+            "is_followed": false,
+            "user_type": "people",
+            "is_org": false,
+            "gender": -1
+          },
+          "title": "为什么网上基本是骂渤海小吏的？",
+          "url": "https://api.zhihu.com/questions/11335018677",
+          "answer_count": 0,
+          "excerpt": "",
+          "question_type": "normal",
+          "created": 1738736750,
+          "is_following": false,
+          "detail": ""
+        },
+        "reshipment_settings": "allowed",
+        "allow_segment_interaction": true,
+        "voteup_count": 8,
+        "preview_text": "",
+        "author": {
+          "headline": "强迫症痊愈者，青岛股神，哈哈",
+          "avatar_url": "https://picx.zhimg.com/50/v2-d602cc6b900bb219d01cef5afc7ef2d8_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_followed": false,
+          "id": "c47fed2698e2a5fef0bfea26ea5e8733",
+          "url": "https://api.zhihu.com/people/c47fed2698e2a5fef0bfea26ea5e8733",
+          "url_token": "man-tian-xing-63-66-26",
+          "name": "漫天星",
+          "is_following": false,
+          "user_type": "people",
+          "is_org": false,
+          "badge": [
+            {
+              "description": "进出口贸易行业 总经理",
+              "type": "identity_people"
+            }
+          ],
+          "followers_count": 15643
+        },
+        "thanks_count": 1,
+        "url": "https://api.zhihu.com/answers/1991547631386792527",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "thumbnail": "https://picx.zhimg.com/50/v2-56e6c0b7a49a614084e05cd227c2883f_720w.jpg?source=b6762063",
+        "content": "<p data-pid=\"YZ2HOa5S\">读这套书之前，我是先从B站上认识渤海小吏的，因为我经常跑高速，我跑高速的时候总是爱放B站的各种up的视频听。有段时间是一直听他讲这些历史类的故事和分析，听的挺入迷的。今年因为太忙了，加上事情也多，没有比较长的时间去静下心来读比较难啃的书，所以我就买了这一套。不是说这书没有深度，而是我觉得读历史类的有点像读故事类的，对我来说一直是比较轻松的一类书籍。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-c18864cb9f8e5c46ecbc27d1e4d72721_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-56e6c0b7a49a614084e05cd227c2883f\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-c18864cb9f8e5c46ecbc27d1e4d72721_b.jpg\" class=\"content_image\"/></figure><p data-pid=\"EB7NG8jv\">这套书我是已经全部读完了，不知道为什么网上这么多喷作者的，这套书我是比较推荐的，我自己对于五胡乱华，南北朝和五代十国的历史脉络一直挺混沌的。但读了这套书，基本上给我梳理的是很清晰。作者把结合个大著名的或者是有转折性的战役，把前因后果梳理的很明白。</p><p data-pid=\"5AjiopK7\">里面比较有意思的两个点，第一个我觉得是作者对人性的剖析。第二个是对于历史上的同事件，各个版本的史书中记载不同，对不记载不同的原因的分析，让我挺受益的，史书的记载也是有偏向性的，也是要看当时的政治风向的。大部分事件其实都可以挖出其背后的利益链条。</p><p data-pid=\"DDjZ96yd\">整书整体很推荐，完全可以利用碎片化时间阅读，可惜作者只写到了唐宋之变，读的我是意犹未尽，正好前段时间机缘巧合得到了一些宋钱，所以就买了套《两宋烽烟录》再补一下宋朝历史。也希望作者可以继续往下写下去。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0d3eca80d611db68e28794dfa5537bb1_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-891a0ecd17990950ce16de680653918f\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-0d3eca80d611db68e28794dfa5537bb1_b.jpg\" class=\"content_image\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-56cee7f07d3f2da23df1c7b7bd2aff17_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-50374ff4c3df93e5a2a41922c46491ae\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-56cee7f07d3f2da23df1c7b7bd2aff17_b.jpg\" class=\"content_image\"/></figure><p data-pid=\"MZoqn59c\">这套两宋如果读完，可能会写推荐。</p>",
+        "is_navigator": false,
+        "excerpt": "读这套书之前，我是先从B站上认识渤海小吏的，因为我经常跑高速，我跑高速的时候总是爱放B站的各种up的视频听。有段时间是一直听他讲这些历史类的故事和分析，听的挺入迷的。今年因为太忙了，加上事情也多，没有比较长的时间去静下心来读比较难啃的书，所以我就买了这一套。不是说这书没有深度，而是我觉得读历史类的有点像读故事类的，对我来说一直是比较轻松的一类书籍。   这套书我是已经全部读完了，不知道为什么网上这么多喷…",
+        "preview_type": "default",
+        "type": "answer",
+        "created_time": 1767601956,
+        "updated_time": 1767601956,
+        "visited_count": 1004,
+        "favorite_count": 3,
+        "navigator_vote": false,
+        "answer_type": "normal",
+        "id": "1991547631386792527",
+        "comment_count": 5,
+        "is_copyable": true,
+        "excerpt_new": "读这套书之前，我是先从B站上认识渤海小吏的，因为我经常跑高速，我跑高速的时候总是爱放B站的各种up的视频听。有段时间是一直听他讲这些历史类的故事和分析，听的挺入迷的。今年因为太忙了，加上事情也多，没有比较长的时间去静下心来读比较难啃的书，所以我就买了这一套。不是说这书没有深度，而是我觉得读历史类的有点像读故事类的，对我来说一直是比较轻松的一类书籍。   这套书我是已经全部读完了，不知道为什么网上这么多喷…",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-56e6c0b7a49a614084e05cd227c2883f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-891a0ecd17990950ce16de680653918f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-50374ff4c3df93e5a2a41922c46491ae_720w.jpg?source=b6762063"
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1991547631386792527}",
+      "attached_info": "CsoHCOb8v62sh/OArwEQBBoJNzY0MTE5NDUzIKTu7coGKAgwBUBfSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoJMTEzMjQyNzMxYiAxYzU4ZGQ2ZjQzOWVhZDQ1Y2U1NDgxYTg2YjBkODAwOXITMTk5MTU0NzYzMTM4Njc5MjUyN4oBCzExMzM1MDE4Njc3qgEJcmVjb21tZW5kwgEgYzQ3ZmVkMjY5OGUyYTVmZWYwYmZlYTI2ZWE1ZTg3MzPyAQoIDBIGTm9ybWFs8gEoCAoSJGMzZTBjNzIyLTJkYmItNGFkMS04ZTYxLTRmNWEwYmY3NzRiZvIBBggLEgIxNoICAIgCxPiSm7kzkgIgYzQ3ZmVkMjY5OGUyYTVmZWYwYmZlYTI2ZWE1ZTg3MzOaAgDKAhRGaXJzdEJydXNoV2VpZ2h0UnVsZcoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgP6AgtOT1JNQUxfRkxPV4oDIDEzODBiOTk2MjhmNTQyYWQ4YmIwZWRmYTA2MjM5N2M5mgMNCgJ2MhAAGgVvdGhlcqgD7AfYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEMAfGNAXIiN2Mi01NmU2YzBiN2E0OWE2MTQwODRlMDVjZDIyN2MyODgzZjotCAQQwB8Y0BciI3YyLTg5MWEwZWNkMTc5OTA5NTBjZTE2ZGU2ODA2NTM5MThmOi0IBBDAHxjQFyIjdjItNTAzNzRmZjRjM2RmOTNlNWEyYTQxOTIyYzQ2NDkxYWWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAACJIKE/gQUAAAAAAAAAAIkFb7oOprGAsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFEJAGAKAGYKgGAJICLgoJNzY0MTE5NDUzEhMxOTkxNTQ3NjMxMzg2NzkyNTI3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=95&desktop=true&end_offset=96&page_number=17&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=95&desktop=true&end_offset=96&page_number=17&session_token=1c58dd6f439ead45ce5481a86b0d8009",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,1675 @@
+{
+  "data": [
+    {
+      "id": "48_1768675029.287",
+      "type": "feed",
+      "offset": 48,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675029,
+      "updated_time": 1768675029,
+      "target": {
+        "is_labeled": false,
+        "url": "https://api.zhihu.com/answers/1989121922122920661",
+        "created_time": 1767023622,
+        "updated_time": 1767023622,
+        "comment_count": 5,
+        "thumbnail": "https://pica.zhimg.com/50/v2-6352387f4405c8664b921136a33ec59d_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "preview_text": "",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-6352387f4405c8664b921136a33ec59d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-7126483d6aad4f51c0251e20abc7aaf2_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-b3d4bfca4aeb875a1781b1b80c7f89a5_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "voteup_count": 32,
+        "thanks_count": 2,
+        "question": {
+          "title": "未来运维人员会被AI智能运维所淘汰吗？",
+          "answer_count": 0,
+          "comment_count": 0,
+          "url": "https://api.zhihu.com/questions/427779270",
+          "author": {
+            "id": "",
+            "name": "匿名用户",
+            "followers_count": 0,
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false
+          },
+          "bound_topic_ids": [
+            350,
+            3541,
+            13367,
+            188574
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "detail": "",
+          "id": "427779270",
+          "type": "question",
+          "created": 1603883941,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "excerpt": "说真的，最近这段时间，我一直在想一个事儿。咱们干运维的，天天跟那一堆黑框框打交道，写不完的 Shell 脚本，调不完的 Python 自动化，有时候为了抓一个日志里的异常，在那儿 awk、sed、grep 半天，最后发现还是正则表达式少写了一个反斜杠。我就在想，这 AI 都能写代码了，能不能更进一步？能不能我动动嘴，它直接在我机器上把活儿给干了？别跟我提 ChatGPT 那个网页版，我知道它能写代码，但我还得复制、粘贴，然后再手动到服…",
+        "vote_next_step": "vote",
+        "excerpt_new": "说真的，最近这段时间，我一直在想一个事儿。咱们干运维的，天天跟那一堆黑框框打交道，写不完的 Shell 脚本，调不完的 Python 自动化，有时候为了抓一个日志里的异常，在那儿 awk、sed、grep 半天，最后发现还是正则表达式少写了一个反斜杠。我就在想，这 AI 都能写代码了，能不能更进一步？能不能我动动嘴，它直接在我机器上把活儿给干了？别跟我提 ChatGPT 那个网页版，我知道它能写代码，但我还得复制、粘贴，然后再手动到服…",
+        "reshipment_settings": "allowed",
+        "navigator_vote": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 4072,
+        "id": "1989121922122920661",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "author": {
+          "user_type": "people",
+          "headline": "个人博客：www.fuzoupyy.work",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-8079941e4b19752e816a1ccbfdc95506_l.jpg?source=b6762063",
+          "followers_count": 487,
+          "is_followed": false,
+          "id": "b99b56cf7360a8a0696ccd8bdd97d83d",
+          "url": "https://api.zhihu.com/people/b99b56cf7360a8a0696ccd8bdd97d83d",
+          "url_token": "dearisyou",
+          "name": "头像我女儿",
+          "is_org": false,
+          "gender": 1,
+          "is_following": false
+        },
+        "is_copyable": true,
+        "content": "<p data-pid=\"NxIZDEEc\">说真的，最近这段时间，我一直在想一个事儿。咱们干运维的，天天跟那一堆黑框框打交道，写不完的 Shell 脚本，调不完的 Python 自动化，有时候为了抓一个日志里的异常，在那儿 <code>awk</code>、<code>sed</code>、<code>grep</code> 半天，最后发现还是正则表达式少写了一个反斜杠。我就在想，这 AI 都能写代码了，能不能更进一步？能不能我动动嘴，它直接在我机器上把活儿给干了？</p><p data-pid=\"jLvH2Bgq\">别跟我提 ChatGPT 那个网页版，我知道它能写代码，但我还得复制、粘贴，然后再手动到服务器上去跑，跑出报错了，我还得把报错贴回去给它看，这来回折腾的过程，说实话，挺磨人的。</p><p data-pid=\"HRYpmTaf\">直到我遇到了 Open Interpreter。</p><p data-pid=\"iq0WbxrB\">这东西刚出来的时候我就关注了，当时觉得也就那样，可能就是个噱头。但最近深度用了两周，我发现我错了，这玩意儿简直就是个“有手的 GPT”。它不只是给你写代码，它是真的能直接控制你的电脑，进你的目录，删你的垃圾文件，甚至还能帮你给服务器换个壁纸（虽然咱们生产环境不干这事儿）。</p><p data-pid=\"N2BqTTM9\">今天我就想跟大家好好唠唠这东西，不整那些虚头巴脑的 PPT 概念，咱就从实战出发，看看这玩意儿到底能不能帮咱这群“搬砖的”省点心。</p><h3><b>这东西到底是干啥的？</b></h3><p data-pid=\"noG0mwam\">项目地址：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/openinterpreter/open-interpreter/blob/main/docs/README_ZH.md\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/openinterpre</span><span class=\"invisible\">ter/open-interpreter/blob/main/docs/README_ZH.md</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"5AT6cD1S\">简单来说，Open Interpreter 就是一个本地版的“代码解释器”。大家都知道 ChatGPT 有个 Code Interpreter 插件，但那是跑在 OpenAI 云端的沙箱里的。你不能让它帮你改你电脑里的配置文件，对吧？</p><p data-pid=\"MReW-h2X\">Open Interpreter 就不一样了。它是在你本地跑的，你给它一句话，它会自己琢磨：第一步该干啥，第二步该写什么代码，写完了直接在你的命令行里“砰”地一下跑出来。如果你没给它授权自动执行，它还会乖乖地问你：“老板，这行 <code>rm -rf /</code> 我能跑吗？”（开个玩笑，它一般没这么虎，但也得留神）。</p><p data-pid=\"UIngh-Ml\">我觉得它最牛的地方在于，它打通了自然语言和系统底层。比如我说：“帮我把当前目录下所有大于 100M 的日志文件找出来，压缩一下，然后把原文件删了。”</p><p data-pid=\"Myzyy1dk\">以前我得写个 <code>find</code> 加 <code>xargs</code> 加 <code>tar</code> 的长串命令，万一路径里有个空格，还得翻车。现在？我直接把这要求敲进去，它就开始一顿操作，我看戏就行。</p><h3><b>咱们先得把这尊佛给请进来</b></h3><p data-pid=\"tRCYPgpz\">先说说安装吧，别看官方文档写得简单，真装起来还是有点小坑。</p><p data-pid=\"Ds1bOdZS\">我建议大家，千万别直接往系统 Python 环境里怼。Python 环境那点破事儿大家又不是不知道，这个库依赖版本高了，那个库版本低了，最后搞得整个系统环境乱七八糟。</p><p data-pid=\"KD6IHblz\">先整一个虚拟环境，我是习惯用 <code>conda</code>：</p><div class=\"highlight\"><pre><code class=\"language-bash\">conda create -n interpreter_env <span class=\"nv\">python</span><span class=\"o\">=</span>3.10\nconda activate interpreter_env</code></pre></div><p data-pid=\"uMy7fHdI\">然后就是一句话： <code>pip install open-interpreter</code></p><p data-pid=\"wQxvBGKX\">装完之后，你在终端敲个 <code>interpreter</code>，它就出来了。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4eb5198aa5d1ae19cfdfc56347304455_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"949\" data-rawheight=\"814\" data-original-token=\"v2-6352387f4405c8664b921136a33ec59d\" class=\"origin_image zh-lightbox-thumb\" width=\"949\" data-original=\"https://pic4.zhimg.com/v2-4eb5198aa5d1ae19cfdfc56347304455_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2bf7495289341f14ce60904a52f493a2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1506\" data-rawheight=\"788\" data-original-token=\"v2-7126483d6aad4f51c0251e20abc7aaf2\" class=\"origin_image zh-lightbox-thumb\" width=\"1506\" data-original=\"https://pica.zhimg.com/v2-2bf7495289341f14ce60904a52f493a2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jlO-QGjJ\">不过这里有个关键点，也是很多人卡住的地方——这玩意儿默认是要连 OpenAI 的。你需要一个 <code>OPENAI_API_KEY</code>。如果你像我一样，有些内网环境或者舍不得那点 Token 钱，它其实支持本地模型。你可以搭配 Ollama 跑 Llama 3，或者是用 LM Studio 之类的。但我得说实话，本地小模型的智商有时候确实感人，如果你想让它处理复杂的逻辑，还是建议咬咬牙用 GPT-4 的 API，那逻辑清晰得简直不像话。</p><h3><b>实战场景一：再也不想写那些该死的日志分析脚本了</b></h3><p data-pid=\"Xxr0JLiK\">咱们运维日常最多的活儿是啥？查日志啊！</p><p data-pid=\"hwLQLcZi\">前两天我那台 Nginx 负载突然飙升，满屏幕的 Access Log，我当时正急着去吃饭。要是以前，我得在那儿 <code>cat access.log | awk &#39;{print $1}&#39; | sort | uniq -c | sort -nr | head -n 10</code>。</p><p data-pid=\"cj4qaDAY\">我直接打开 Open Interpreter： “帮我分析一下 <code>access.log</code>，看看请求量最高的前 10 个 IP 是哪些，顺便查一下这些 IP 是不是国内的，把结果存成一个 Markdown 表格。”</p><p data-pid=\"kJ31WvPL\">它先是回了我一句：“没问题，我先用 Python 读取一下文件开头看下格式。” 然后它自己写了段 Python，用了 <code>pandas</code> 和 <code>requests</code>。过了一会儿，它说它没装 <code>pandas</code>，它居然自己提了一句：“我需要安装 pandas 库，可以吗？” 我敲了个 <code>y</code>。 它自己装好，跑完，把表格啪地一下甩在我脸上。前后不到一分钟，我连烟都没点着。</p><p data-pid=\"FWfUux8B\">这就是我觉得它最接地气的地方：它有自我修正能力。代码跑错了？它自己看报错信息，自己改。这不就是我们平时干的活儿吗？只不过它动作比我们快得多。</p><h3><b>关于安全性的碎碎念</b></h3><p data-pid=\"pLZJawOb\">我知道，肯定有人要问：“你把终端权限给 AI，你心这么大吗？”</p><p data-pid=\"sWShGx1V\">确实，这事儿一开始我也打鼓。万一它一个脑抽，把 <code>/etc/</code> 给我扬了怎么办？ 所以 Open Interpreter 有个默认模式，每执行一行代码都要你确认。虽然繁琐点，但那是保命的。 等你真玩熟了，或者是在一个无关紧要的测试机上，你可以加个 <code>-y</code> 参数，让它“自生自灭”。</p><p data-pid=\"2o5uk6AH\">但我建议啊，尤其是咱们在生产环境或者是存有重要数据的机器上，千万别开 <code>-y</code>。AI 这玩意儿有时候会产生幻觉，它觉得这个命令能优化性能，结果可能是把你数据库给停了。</p><p data-pid=\"M-z9lUWW\">有次我让它帮我优化一下磁盘空间，这家伙上来就想删我的 Docker 镜像，吓得我赶紧 Ctrl+C。所以，它是个好助手，但你得是那个拿主意的“总监”。</p><h3><b>实战场景二：批量处理文件的痛苦消失了</b></h3><p data-pid=\"bcyVzQQE\">再举个例子，办公自动化的活儿。 有一次老板扔给我一堆 PDF，全是服务器的巡检报告，文件名乱七八糟的，有的是日期开头，有的是主机名开头。他让我统一重命名成 <code>日期-主机名-巡检.pdf</code> 的格式，还得把里面提到“异常”的报告挑出来。</p><p data-pid=\"vsX7cPrJ\">这活儿技术含量不高，但极其烦人。</p><p data-pid=\"xnbZ308V\">我直接跟 Open Interpreter 说： “去 <code>reports</code> 文件夹里，读取每个 PDF 的内容。提取里面的日期和主机名，重命名文件。如果内容里包含‘Critical’或者‘Error’字样，就把这些文件复制到 <code>error_reports</code> 文件夹里。如果你需要处理 PDF 的库，你自己装。”</p><p data-pid=\"ehsmVUd0\">它说：“好嘞，我打算用 <code>PyPDF2</code>。” 然后它发现有的 PDF 是扫描件，读取不到文字，它又跟我商量：“老板，有些读不出来，要不我试试 OCR？” 那一刻，我真觉得这东西有点灵魂在里面。虽然最后有些 OCR 还是没搞定（毕竟本地算力有限），但这种互动感真的比写死板的脚本强太多了。</p><h3><b>深度进阶：本地离线也能玩？</b></h3><p data-pid=\"EDuoIkXs\">很多哥们儿在内网干活，没法连外网。这时候 Open Interpreter 的本地模式就派上用场了。</p><p data-pid=\"HxdGS63y\">你可以配合 Ollama 玩。先在机器上装好 Ollama，拉个 <code>llama3</code> 或者 <code>qwen</code> 之类的模型。 然后运行： <code>interpreter --local</code></p><p data-pid=\"D0r-0Cxa\">它会让你选模型。说实话，用本地模型的时候，响应速度取决于你的显卡或者 CPU。如果你用的是那种没显卡的破服务器，那建议还是算了，等它憋出一个命令来，你早手写完了。但如果你手里有个 Mac M2 或者带 3060 以上显卡的机器，那体验还是不错的。</p><p data-pid=\"n3nhzSt7\">不过本地模型有个毛病，就是“不听话”。有时候它会陷入死循环，或者在那儿废话连篇。这时候你就得调优它的 System Prompt，或者是在提问的时候尽可能明确。</p><p data-pid=\"DcgItkmy\">比如，别说“帮我查系统状态”，要说“请使用 <code>top</code> 和 <code>free -m</code> 命令查看系统状态，并给出具体的 CPU 和内存占用百分比”。你给的指令越具体，它跑偏的概率就越小。</p><h3><b>这玩意儿的逻辑其实有点“跳跃”</b></h3><p data-pid=\"778i-U3K\">大家用的时候可能会发现，Open Interpreter 的逻辑有时候不像程序那样死板，反而有点像咱们人。 它会先尝试一种方法，不行就换一种。 记得有次我让它帮我写一个监控脚本，它先是用 Python 的 <code>psutil</code> 库，结果发现没权限。它没跟我死磕，直接转手写了一个 Shell 脚本去读 <code>/proc</code> 目录。 这种“不撞南墙不回头，撞了南墙赶紧溜”的劲儿，确实挺有意思。</p><p data-pid=\"_ewy8MDh\">但也因为这种跳跃，有时候它会把你的目录弄得有点乱。因为它可能会为了测试某个功能，临时建一堆 <code>test.py</code>、<code>temp.txt</code>。所以建议大家在一个专门的工作目录下运行它，或者是定期让它自己“打扫战场”。</p><p data-pid=\"My58w2dj\">我就经常在结束对话前加一句：“把我刚才让你建的那些乱七八糟的临时文件全删了。” 它会很听话地去执行 <code>rm</code>。</p><h3><b>一些零散的坑和心得</b></h3><ol><li data-pid=\"BwvI5H3_\"><b>权限问题</b>：如果你不以 <code>sudo</code> 运行，很多系统级别的操作它干不了。但如果你给了它 <code>sudo</code>，那你就是把家钥匙直接挂在门口了。我的折中方案是，普通任务普通用户跑，涉及系统配置的，我盯着它，手动输入密码。</li><li data-pid=\"xJt7Rjf7\"><b>网络环境</b>：如果你用 OpenAI 的 API，记得挂好代理。这东西对网络的依赖挺强的，一旦断线，它那边的上下文可能就丢了，又得从头解释一遍。</li><li data-pid=\"Jw8swG3U\"><b>多轮对话</b>：它是有记忆的。你可以先让它列出文件，然后再说“把刚才列出的第三个删了”。它记得住，这点很关键。</li><li data-pid=\"c1EeunD2\"><b>不要过度依赖</b>：它能帮你处理 80% 的体力活，但剩下的 20% 核心决策，还得你来。它写出的代码，哪怕再完美，你也得扫一眼，这是运维的基本素养。</li></ol><h3><b>写在最后</b></h3><p data-pid=\"LXOxAUdz\">蒸汽的轰鸣让挥舞千年的马鞭凝固半空，晶体管的微光让拨动了几个世纪的算盘珠成了案头的摆件；这不再是“换一把更快的刀”，而是“直接降下了一场重塑山河的雷雨”。它把我们从那些低头的、琐碎的、甚至有些卑微的语法纠缠中硬生生地拎了出来，它让我们猛然发现，原来进入未来的入场券，不在于你手里握着多么纯熟的旧工具，而在于你是否敢于丢掉那根已经发霉的马鞭，去握住那级从未见过的方向盘。未来已来，在你放下对“马鞭”执念的那一刻，它已经越过了你的肩膀，直接接管了你眼前的光标。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cfbae351aada4f6fa3f96c888416e183_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1390\" data-rawheight=\"738\" data-original-token=\"v2-b3d4bfca4aeb875a1781b1b80c7f89a5\" class=\"origin_image zh-lightbox-thumb\" width=\"1390\" data-original=\"https://picx.zhimg.com/v2-cfbae351aada4f6fa3f96c888416e183_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UNAY1atJ\">码字不易，要是觉得这篇实战分享对你有那么一丁点启发，别忘了点个赞，转给身边还在苦哈哈写脚本的哥们儿。</p><p data-pid=\"jsDJfJNZ\">大家有什么好玩的用法，或者在安装配置时踩到的坑，欢迎在评论区里留言，咱们互相交流，共同避坑。</p><p data-pid=\"zqpLdOtS\">关注我，带你玩转不一样的运维技术。</p><p data-pid=\"dRTxyNOv\">公众号：运维躬行录</p><p data-pid=\"fPPc0mfT\"> 个人博客：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.fuzhoupyy.work/\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"躬行笔记\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">躬行笔记</a><p></p>",
+        "type": "answer",
+        "favorite_count": 67
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989121922122920661}",
+      "attached_info": "CqwHCOml9JmS14qbngEQBBoJNzYzMjI5NzI1IIbIysoGKCAwBUAwSkAKF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREh9kb2NfdHlwZTogTWVtYmVyCmlkOiAxNTU2NjI0MDMKGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg1NzM0MTE4NWIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5ODkxMjE5MjIxMjI5MjA2NjGKAQk0Mjc3NzkyNzCqAQlyZWNvbW1lbmTCASBiOTliNTZjZjczNjBhOGEwNjk2Y2NkOGJkZDk3ZDgzZPIBCggMEgZOb3JtYWzyASgIChIkYjFlZjNkNDAtODkwYS00YmE3LWJmZjctZDk2ODJiZTg1OTIw8gEFCAsSATmCAgCIAqnm/Om8M5ICIGI5OWI1NmNmNzM2MGE4YTA2OTZjY2Q4YmRkOTdkODNkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIXVFNfU09VUkNFX0FVVEhPUl9HQ0ZfSFHoAgP6AgtOT1JNQUxfRkxPV4oDIDQyMjQyZTk1NDZkMjQ0NjM4NGE5N2EyODU0NDQxN2FkmgMNCgJ2MhAAGgVvdGhlcqgD6B/YAwDqAxlnY2ZLbm5BdXRob3JIaWdoUG9zUmVjYWxs+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELUHGK4GIiN2Mi02MzUyMzg3ZjQ0MDVjODY2NGI5MjExMzZhMzNlYzU5ZDotCAIQ4gsYlAYiI3YyLTcxMjY0ODNkNmFhZDRmNTFjMDI1MWUyMGFiYzdhYWYyOi0IAhDuChjiBSIjdjItYjNkNGJmY2E0YWViODc1YTE3ODFiMWI4MGM3Zjg5YTWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAICMzY4/gQUAAAAAAAAAAIkFhNnQKlt3sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCZAGAKAGMKgGAZICLgoJNzYzMjI5NzI1EhMxOTg5MTIxOTIyMTIyOTIwNjYxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "49_1768675029.461",
+      "type": "feed",
+      "offset": 49,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675029,
+      "updated_time": 1768675029,
+      "target": {
+        "is_copyable": false,
+        "excerpt_new": "太乳元首了…… 哪怕人类历史再过一千年，提起希特勒，基本都是要单开一页的。自二战结束以来，有人说他坏，没人说他菜，人类个体能够达到的破坏力极限，基本是就是希特勒了。所谓反派派中派，坏蛋坏中坏，哪怕在小说中，都很难构写希特勒这么强大的反派，或者说，后世的反派或多或少都参考了希特勒的特征，属于不削没法玩的类型。   希特勒诞生在20世纪，是他个人的幸运，他没有诞生在21世纪，则是21世纪的幸运。咱们且不讨论希特…",
+        "is_navigator": false,
+        "id": "1899580204923458608",
+        "preview_text": "",
+        "allow_segment_interaction": true,
+        "segment_infos": [
+          {
+            "pid": "eBTDm-DZ",
+            "text": "哪怕人类历史再过一千年，提起希特勒，基本都是要单开一页的。自二战结束以来，有人说他坏，没人说他菜，人类个体能够达到的破坏力极限，基本是就是希特勒了。所谓反派派中派，坏蛋坏中坏，哪怕在小说中，都很难构写希特勒这么强大的反派，或者说，后世的反派或多或少都参考了希特勒的特征，属于不削没法玩的类型。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 146,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992291005463011740"
+                  ],
+                  "is_like": false,
+                  "like_count": 1154,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "yb-7NgGe",
+            "text": "希特勒诞生在20世纪，是他个人的幸运，他没有诞生在21世纪，则是21世纪的幸运。咱们且不讨论希特勒的政治观点，仅以个人能力而言，希特勒的能力实际上是还没有完全释放出来的，因为他生在一个依靠广播和报纸传播信息的年代，他的大多数传播手段仅限于德国本土，还没有使用过互联网的放大器。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 40,
+                "seg_info": {
+                  "seg_ids": [
+                    "1986963703535535513"
+                  ],
+                  "is_like": false,
+                  "like_count": 906,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 64,
+                "end_index": 138,
+                "seg_info": {
+                  "seg_ids": [
+                    "1901314522003781024"
+                  ],
+                  "is_like": false,
+                  "like_count": 118,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "cgIRwTxm",
+            "text": "希特勒的演讲能力，基本是有史以来第一人，演讲渲染能力之强如同魔音灌耳，效果犹如女巫咒语一样。有人对希特勒的演讲进行过音频分析，其声音走向居然符合了贝多芬的乐理，绝大多数听过希特勒演讲的人对其评价都是精神魔咒，其效果也很明显，他让一个奥地利屌丝在四十四岁成为了德国元首，可以让几百上千万人心甘情愿的为他去死。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 153,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987134989763092506"
+                  ],
+                  "is_like": false,
+                  "like_count": 848,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ZmicvP0Y",
+            "text": "注意，是为了希特勒的目标，去死。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 16,
+                "seg_info": {
+                  "seg_ids": [
+                    "1900270540880581159"
+                  ],
+                  "is_like": false,
+                  "like_count": 269,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7sey40eP",
+            "text": "你可以说二战德军是受国家体制动员才上的前线，但哪怕党卫军，其人数也有百万之多，二战中愿意为了希特勒去死的人，人数绝对不下于百万。45年德国战败，从上至下多少人陪着希特勒死，这种忠诚可不是表面功夫吧？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 99,
+                "seg_info": {
+                  "seg_ids": [
+                    "1900270556567304043"
+                  ],
+                  "is_like": false,
+                  "like_count": 209,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "-V9s-fBQ",
+            "text": "而特朗普，他连几个愿意为他开枪的红脖子都找不到。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992359939419685959"
+                  ],
+                  "is_like": false,
+                  "like_count": 479,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "DBLyihnO",
+            "text": "无论是国会山事件，还是20年特朗普败选，以及接下来四年民主党对特朗普的追杀，这群看着呜呜渣渣，每次游行示威都要带枪的红脖子们，也没有一个敢站出来为特朗普开几枪。因为这群人跟特朗普的本质是一样的——志大智小，色厉胆薄，干大事而惜身，见小利则亡命。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 122,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992407110135333083"
+                  ],
+                  "is_like": false,
+                  "like_count": 755,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "s7dI6H_p",
+            "text": "希特勒这辈子，说将自己的一切都献给了德国是没有问题的。他没有任何不良嗜好（在希特勒那个年代，还没有现代意义上“毒品”的概念，他注射毒品也是因为精神压力过大而不是为了享乐），青年从军冲锋陷阵，中年当了元首也从不享乐，每天沉迷于工作到几乎不睡觉（二战后期更加严重），当上元首后，他的地位和权力已经如日中天，他有很多种手段继续维护他的权力并保证自己不受报复，但他并没有到此为止，而是带领着德国争取更大的“生存空间”，直到最后的毁灭。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 213,
+                "seg_info": {
+                  "seg_ids": [
+                    "1907752422111163817",
+                    "1969851865664590712",
+                    "1900429241931268614",
+                    "1901315661558416555",
+                    "1915386034222511999",
+                    "1988048132072834910",
+                    "1907752462401663528",
+                    "1901315705686713132",
+                    "1901315830110746116",
+                    "1906676238409499126"
+                  ],
+                  "is_like": false,
+                  "like_count": 154,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "SIATtJNP",
+            "text": "到了柏林战役，希特勒直接自杀，愿赌服输，没有用任何手段尝试着延长自己的生命，你可能觉得希特勒知道自己必死无疑，但以柏林战役的时刻，他想要延长几个月的生命还是做得到的，硬要赖着活着也不是不可能，不然看看萨达姆呢？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 105,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992256722081976531"
+                  ],
+                  "is_like": false,
+                  "like_count": 512,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "DpJksXjs",
+            "text": "所以，历史对希特勒的评价，是疯子，是暴君，是坏人，但唯独不能说希特勒是小丑。他发自内心的相信他所说的一切，并且用尽他的全力去实现它，哪怕最后到死前也依然不忏悔，他邪，但他不假。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 88,
+                "seg_info": {
+                  "seg_ids": [
+                    "1912955577614735037"
+                  ],
+                  "is_like": false,
+                  "like_count": 596,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "X1FT62My",
+            "text": "而特朗普，是21世纪传媒手段与直选制民主结合到一起所产生的奇妙怪胎。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 34,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992393851349009997"
+                  ],
+                  "is_like": false,
+                  "like_count": 514,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "pdBcmJ1Z",
+            "text": "在美国历史上，我们看到过很多总统，不能说每个都优秀，但至少每个都“有人君相”，是体面人，像特朗普这样的疯子，确实是开天辟地头一回。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 65,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992393881241789723"
+                  ],
+                  "is_like": false,
+                  "like_count": 184,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "fuM2Y4-Y",
+            "text": "但是，如果把特朗普的出现归结于偶然，那就大错特错了，因为我们可以很明显的发现，21世纪的“特朗普”越来越多了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 55,
+                "seg_info": {
+                  "seg_ids": [
+                    "1900990614826362072"
+                  ],
+                  "is_like": false,
+                  "like_count": 73,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bRxLfrda",
+            "text": "巴西的伯索纳罗，萨尔瓦多的奥特斯，阿根廷的米莱，越来越多的语出惊人，政策极端的表演型政客占据了高位，这显然是一种现象，而不是偶然的因素。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 68,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992393917056967437"
+                  ],
+                  "is_like": false,
+                  "like_count": 238,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "XaT6_X-b",
+            "text": "在前信息时代，信息爆炸没有达到今天这样的冗余程度，人们更多的还是在关注自己的生活。人们可以通过感知自己的生活，来判断政治人物的好坏，通过工资高低，职位多少，物价变化来决定是否要换一个总统，所以，那个年代的政治选择相对而言理智很多，因为人们看重的是政绩和政治主张。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 131,
+                "seg_info": {
+                  "seg_ids": [
+                    "1900329966689826344"
+                  ],
+                  "is_like": false,
+                  "like_count": 184,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "x8ojoFYP",
+            "text": "电视的到来，对直选制民主产生了巨大影响，典型案例就是1960年肯尼迪赢尼克松，在这场竞选中，一场电视辩论居然成为了两人的胜负手，尼克松因为在电视辩论中表现出了疲态，最终让更多的选民选择了肯尼迪，这其实是一个标志性事件，标志着现代传媒开始逐渐颠覆竞选逻辑了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 128,
+                "seg_info": {
+                  "seg_ids": [
+                    "1935008038051352988"
+                  ],
+                  "is_like": false,
+                  "like_count": 267,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "sq1QJ024",
+            "text": "从那之后，我们可以看到美国总统的形象越来越好，如果没有彩色电视的话，里根选上总统的难度可能要高出几个数量级。竞选逐渐变成了政治人物的形象竞争，这种趋势一直持续到21世纪，直到智能手机发明，社交网络诞生了。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 102,
+                "seg_info": {
+                  "seg_ids": [
+                    "1903116279805616852"
+                  ],
+                  "is_like": false,
+                  "like_count": 15,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "blzlxU4d",
+            "text": "2010年，iPhone4发布，2016年，特朗普就选上了总统。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1900608573463065555"
+                  ],
+                  "is_like": false,
+                  "like_count": 31,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "xjJcAbwi",
+            "text": "特朗普，从政履历是空白，从军履历是空白，不是律师，不是议员，没有领导过社会组织，但就是这样一个人，居然当上了美国总统。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 59,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992394075056398394"
+                  ],
+                  "is_like": false,
+                  "like_count": 161,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WFtkO60S",
+            "text": "原因是，特朗普捕捉了互联网时代竞选总统的最重要秘诀——有活儿。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 31,
+                "seg_info": {
+                  "seg_ids": [
+                    "1986964270194372993"
+                  ],
+                  "is_like": false,
+                  "like_count": 192,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "R8UUdy6-",
+            "text": "特朗普以一个传播专家的洞察力，意识到了21世纪选举游戏中最重要的技巧——有活，要吸引流量。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 45,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992160900262684276",
+                    "1901316638361487068",
+                    "1992394175912645185",
+                    "1975368499938469284",
+                    "1901314987458269543",
+                    "1992160876464214318",
+                    "1986964351123478377",
+                    "1986909938455422278",
+                    "1900050926510794381",
+                    "1900157914460713434",
+                    "1899788246990427340"
+                  ],
+                  "is_like": false,
+                  "like_count": 289,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "z48snzQy",
+            "text": "有人分析过特朗普的传播策略，他之所以敢说出“注射消毒水”之类的智障言论，其实根本不怕别人批判，他根本不在乎别人批评他，因为黑红也是红，批评的流量也是流量，只要流量笼罩在他身上，就会挤压别人的流量，这就是21世纪的竞选技巧。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 111,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992160900262684276",
+                    "1901316638361487068",
+                    "1992394175912645185",
+                    "1975368499938469284",
+                    "1901314987458269543",
+                    "1992160876464214318",
+                    "1986964351123478377",
+                    "1986909938455422278",
+                    "1900050926510794381",
+                    "1900157914460713434",
+                    "1899788246990427340"
+                  ],
+                  "is_like": false,
+                  "like_count": 289,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "wzNmBQ-F",
+            "text": "只有小丑可以永远吸引流量，因为他们可以毫无心理负担的整出一个又一个新活来，而任何体面人都做不到这一点。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 51,
+                "seg_info": {
+                  "seg_ids": [
+                    "1899816598765810454"
+                  ],
+                  "is_like": false,
+                  "like_count": 536,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "_HFeQEiK",
+            "text": "所以，特朗普再次上台的短短百天里，全世界就已经被他的活整得眼花缭乱。分析特朗普的政治动机，将他的行为合理化为“大棋”的一部分是一件极其愚蠢的事情，因为那就像分析小丑的表演背后有什么深意一样。历史会证明。特朗普的一切行为，都只不过是政治小丑的表演，他所追求的，也不过是一个小丑所追求的一切——名利，财富，掌声，鲜花，唯独没有政治抱负。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 166,
+                "seg_info": {
+                  "seg_ids": [
+                    "1900245971650188244"
+                  ],
+                  "is_like": false,
+                  "like_count": 424,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "0OoxM89a",
+            "text": "希特勒统治德国的八年后，德国统治了从大西洋到伏尔加河的几乎整个欧洲，特朗普也将统治美国八年，到时候我们拭目以待。",
+            "marks": [
+              {
+                "start_index": 46,
+                "end_index": 56,
+                "seg_info": {
+                  "seg_ids": [
+                    "1900246055024571109"
+                  ],
+                  "is_like": false,
+                  "like_count": 76,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "l6Y0QHPa",
+            "text": "如果，现在上帝给了一个选择题——让德国成为世界第一强国，让日耳曼人永远统治地球，但条件是希特勒必须立刻饮弹自杀，你猜他会怎么选？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 64,
+                "seg_info": {
+                  "seg_ids": [
+                    "1986964594116286213"
+                  ],
+                  "is_like": false,
+                  "like_count": 423,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bE9JrSLZ",
+            "text": "这个答案应该没什么争议，希特勒会毫不犹豫的打死自己。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 26,
+                "seg_info": {
+                  "seg_ids": [
+                    "1899638837224933030"
+                  ],
+                  "is_like": false,
+                  "like_count": 448,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "LwZFe_kv",
+            "text": "同样，如果上帝也给了特朗普一个选择——让美国great again，让美国的霸权主义江山永固，但条件也是特朗普要立刻自杀，你猜他会怎么选？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 69,
+                "seg_info": {
+                  "seg_ids": [
+                    "1903116552603153362"
+                  ],
+                  "is_like": false,
+                  "like_count": 100,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "IF_RFAtt",
+            "text": "我认为他会立刻宣布这是Fake news 并对上帝加收125%的关税。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 35,
+                "seg_info": {
+                  "seg_ids": [
+                    "1987011244088131966"
+                  ],
+                  "is_like": false,
+                  "like_count": 1393,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "RBT0BFRq",
+            "text": "所以，哪怕再过一千年，希特勒都会是人类历史上无法遗忘的恐怖邪神，而特朗普，他能做到的，只不过是作为政治小丑时代的开篇人物被历史记下，仅此而已。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 71,
+                "seg_info": {
+                  "seg_ids": [
+                    "1959774475408094048",
+                    "1899638922172170295",
+                    "1904301483584889319",
+                    "1986964756372948949",
+                    "1956122034472977028",
+                    "1907753592330354768",
+                    "1918112195444708893",
+                    "1983013688744120722"
+                  ],
+                  "is_like": false,
+                  "like_count": 247,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "comment_count": 2573,
+        "voteup_count": 49965,
+        "is_labeled": false,
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "type": "answer",
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-6edc28d3fbbe4664dfbede1e03800cc9_720w.jpg?source=b6762063"
+        ],
+        "thanks_count": 14766,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "navigator_vote": false,
+        "created_time": 1745675213,
+        "thumbnail": "https://picx.zhimg.com/50/v2-6edc28d3fbbe4664dfbede1e03800cc9_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "content": "<p data-pid=\"i1FMfiTI\">太乳元首了……</p><p data-pid=\"eBTDm-DZ\">哪怕人类历史再过一千年，提起希特勒，基本都是要单开一页的。自二战结束以来，有人说他坏，没人说他菜，人类个体能够达到的破坏力极限，基本是就是希特勒了。所谓反派派中派，坏蛋坏中坏，哪怕在小说中，都很难构写希特勒这么强大的反派，或者说，后世的反派或多或少都参考了希特勒的特征，属于不削没法玩的类型。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f483a0a755cb35ef4a7a369c0b4f1aff_1440w.jpg\" data-rawwidth=\"660\" data-rawheight=\"655\" data-size=\"normal\" data-original-token=\"v2-f483a0a755cb35ef4a7a369c0b4f1aff\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-6e4f086d2497fccb5eaf3dba31996d69_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"660\" data-original=\"https://picx.zhimg.com/v2-f483a0a755cb35ef4a7a369c0b4f1aff_r.jpg\"/><figcaption>举手不是抱歉，是老弟你还得练</figcaption></figure><p data-pid=\"yb-7NgGe\">希特勒诞生在20世纪，是他个人的幸运，他没有诞生在21世纪，则是21世纪的幸运。咱们且不讨论希特勒的政治观点，仅以个人能力而言，希特勒的能力实际上是还没有完全释放出来的，因为他生在一个依靠广播和报纸传播信息的年代，他的大多数传播手段仅限于德国本土，还没有使用过互联网的放大器。</p><p data-pid=\"cgIRwTxm\">希特勒的演讲能力，基本是有史以来第一人，演讲渲染能力之强如同魔音灌耳，效果犹如女巫咒语一样。有人对希特勒的演讲进行过音频分析，其声音走向居然符合了贝多芬的乐理，绝大多数听过希特勒演讲的人对其评价都是精神魔咒，其效果也很明显，他让一个奥地利屌丝在四十四岁成为了德国元首，可以让几百上千万人心甘情愿的为他去死。</p><p data-pid=\"ZmicvP0Y\">注意，是为了希特勒的目标，去死。</p><p data-pid=\"7sey40eP\">你可以说二战德军是受国家体制动员才上的前线，但哪怕党卫军，其人数也有百万之多，二战中愿意为了希特勒去死的人，人数绝对不下于百万。45年德国战败，从上至下多少人陪着希特勒死，这种忠诚可不是表面功夫吧？</p><p data-pid=\"-V9s-fBQ\">而特朗普，他连几个愿意为他开枪的红脖子都找不到。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bc96202a86b7d195dd838ba08ee5e36e_1440w.jpg\" data-rawwidth=\"889\" data-rawheight=\"500\" data-size=\"normal\" data-original-token=\"v2-bc96202a86b7d195dd838ba08ee5e36e\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-d1a1684f44f6df4bfd387ccdf62528b5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"889\" data-original=\"https://pic1.zhimg.com/v2-bc96202a86b7d195dd838ba08ee5e36e_r.jpg\"/></figure><p data-pid=\"DBLyihnO\">无论是国会山事件，还是20年特朗普败选，以及接下来四年民主党对特朗普的追杀，这群看着呜呜渣渣，每次游行示威都要带枪的红脖子们，也没有一个敢站出来为特朗普开几枪。因为这群人跟特朗普的本质是一样的——志大智小，色厉胆薄，干大事而惜身，见小利则亡命。</p><p data-pid=\"DQKnSMZZ\">当然，时代背景不同，我们也没法要求今日的人和20世纪的人在行为上一一对应。但有些事，还是可以比较一下的。</p><p data-pid=\"s7dI6H_p\">希特勒这辈子，说将自己的一切都献给了德国是没有问题的。他没有任何不良嗜好（在希特勒那个年代，还没有现代意义上“毒品”的概念，他注射毒品也是因为精神压力过大而不是为了享乐），青年从军冲锋陷阵，中年当了元首也从不享乐，每天沉迷于工作到几乎不睡觉（二战后期更加严重），当上元首后，他的地位和权力已经如日中天，他有很多种手段继续维护他的权力并保证自己不受报复，但他并没有到此为止，而是带领着德国争取更大的“生存空间”，直到最后的毁灭。</p><p data-pid=\"SIATtJNP\">到了柏林战役，希特勒直接自杀，愿赌服输，没有用任何手段尝试着延长自己的生命，你可能觉得希特勒知道自己必死无疑，但以柏林战役的时刻，他想要延长几个月的生命还是做得到的，硬要赖着活着也不是不可能，不然看看萨达姆呢？</p><p data-pid=\"DpJksXjs\">所以，历史对希特勒的评价，是疯子，是暴君，是坏人，但唯独不能说希特勒是小丑。他发自内心的相信他所说的一切，并且用尽他的全力去实现它，哪怕最后到死前也依然不忏悔，他邪，但他不假。</p><p data-pid=\"X1FT62My\"><b>而特朗普，是21世纪传媒手段与直选制民主结合到一起所产生的奇妙怪胎。</b></p><p data-pid=\"pdBcmJ1Z\">在美国历史上，我们看到过很多总统，不能说每个都优秀，但至少每个都“有人君相”，是体面人，像特朗普这样的疯子，确实是开天辟地头一回。</p><p data-pid=\"fuM2Y4-Y\">但是，如果把特朗普的出现归结于偶然，那就大错特错了，因为我们可以很明显的发现，21世纪的“特朗普”越来越多了。</p><p data-pid=\"bRxLfrda\">巴西的伯索纳罗，萨尔瓦多的奥特斯，阿根廷的米莱，越来越多的语出惊人，政策极端的表演型政客占据了高位，这显然是一种现象，而不是偶然的因素。</p><p data-pid=\"XaT6_X-b\">在前信息时代，信息爆炸没有达到今天这样的冗余程度，人们更多的还是在关注自己的生活。人们可以通过感知自己的生活，来判断政治人物的好坏，通过工资高低，职位多少，物价变化来决定是否要换一个总统，所以，那个年代的政治选择相对而言理智很多，因为人们看重的是政绩和政治主张。</p><p data-pid=\"x8ojoFYP\">电视的到来，对直选制民主产生了巨大影响，典型案例就是1960年肯尼迪赢尼克松，在这场竞选中，一场电视辩论居然成为了两人的胜负手，尼克松因为在电视辩论中表现出了疲态，最终让更多的选民选择了肯尼迪，这其实是一个标志性事件，标志着现代传媒开始逐渐颠覆竞选逻辑了。</p><p data-pid=\"sq1QJ024\">从那之后，我们可以看到美国总统的形象越来越好，如果没有彩色电视的话，里根选上总统的难度可能要高出几个数量级。竞选逐渐变成了政治人物的形象竞争，这种趋势一直持续到21世纪，直到智能手机发明，社交网络诞生了。</p><p data-pid=\"blzlxU4d\">2010年，iPhone4发布，2016年，特朗普就选上了总统。</p><p data-pid=\"xjJcAbwi\">特朗普，从政履历是空白，从军履历是空白，不是律师，不是议员，没有领导过社会组织，但就是这样一个人，居然当上了美国总统。</p><p data-pid=\"WFtkO60S\">原因是，特朗普捕捉了互联网时代竞选总统的最重要秘诀——有活儿。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-fca27bac82bf561bdb19f03b45806d2d_1440w.jpg\" data-rawwidth=\"500\" data-rawheight=\"500\" data-size=\"normal\" data-original-token=\"v2-fca27bac82bf561bdb19f03b45806d2d\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-3351f5b5fa81d76849e8eeb3cd777682_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic2.zhimg.com/v2-fca27bac82bf561bdb19f03b45806d2d_r.jpg\"/></figure><p data-pid=\"R8UUdy6-\">特朗普以一个传播专家的洞察力，意识到了21世纪选举游戏中最重要的技巧——有活，要吸引流量。</p><p data-pid=\"z48snzQy\">有人分析过特朗普的传播策略，他之所以敢说出“注射消毒水”之类的智障言论，其实根本不怕别人批判，他根本不在乎别人批评他，因为黑红也是红，批评的流量也是流量，只要流量笼罩在他身上，就会挤压别人的流量，这就是21世纪的竞选技巧。</p><p data-pid=\"2XbeyQ1s\">那么，什么人能够一直吸引流量呢？</p><p data-pid=\"wzNmBQ-F\">只有小丑可以永远吸引流量，因为他们可以毫无心理负担的整出一个又一个新活来，而任何体面人都做不到这一点。</p><p data-pid=\"_HFeQEiK\">所以，特朗普再次上台的短短百天里，全世界就已经被他的活整得眼花缭乱。分析特朗普的政治动机，将他的行为合理化为“大棋”的一部分是一件极其愚蠢的事情，因为那就像分析小丑的表演背后有什么深意一样。历史会证明。特朗普的一切行为，都只不过是政治小丑的表演，他所追求的，也不过是一个小丑所追求的一切——名利，财富，掌声，鲜花，唯独没有政治抱负。</p><p data-pid=\"0OoxM89a\">希特勒统治德国的八年后，德国统治了从大西洋到伏尔加河的几乎整个欧洲，特朗普也将统治美国八年，到时候我们拭目以待。</p><p data-pid=\"uAPDt1Lw\">其实，说了这么多，做个最简单的假设，就可以比较出希特勒和特朗普的根本区别了。</p><p data-pid=\"l6Y0QHPa\">如果，现在上帝给了一个选择题——让德国成为世界第一强国，让日耳曼人永远统治地球，但条件是希特勒必须立刻饮弹自杀，你猜他会怎么选？</p><p data-pid=\"bE9JrSLZ\">这个答案应该没什么争议，希特勒会毫不犹豫的打死自己。</p><p data-pid=\"LwZFe_kv\">同样，如果上帝也给了特朗普一个选择——让美国great again，让美国的霸权主义江山永固，但条件也是特朗普要立刻自杀，你猜他会怎么选？</p><p data-pid=\"IF_RFAtt\">我认为他会立刻宣布这是Fake news 并对上帝加收125%的关税。</p><p data-pid=\"RBT0BFRq\">所以，哪怕再过一千年，希特勒都会是人类历史上无法遗忘的恐怖邪神，而特朗普，他能做到的，只不过是作为政治小丑时代的开篇人物被历史记下，仅此而已。</p>",
+        "favorite_count": 20257,
+        "question": {
+          "created": 1737434600,
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "author": {
+            "url": "https://api.zhihu.com/people/7906e413d54404597f8f0a639391e8bd",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-fce54a125f5fb46e9c2f5d28b8a9237e_l.jpg?source=b6762063",
+            "followers_count": 3141,
+            "gender": 0,
+            "is_following": false,
+            "id": "7906e413d54404597f8f0a639391e8bd",
+            "user_type": "people",
+            "url_token": "49-90-88-17",
+            "name": "momo",
+            "headline": "",
+            "is_org": false,
+            "is_followed": false
+          },
+          "title": "特朗普会成为下一个希特勒吗？",
+          "is_following": false,
+          "detail": "",
+          "question_type": "normal",
+          "comment_count": 35,
+          "id": "10170128369",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/10170128369",
+          "bound_topic_ids": [
+            285,
+            11139,
+            17463,
+            159978,
+            1986065
+          ],
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "updated_time": 1746703107,
+        "excerpt": "太乳元首了…… 哪怕人类历史再过一千年，提起希特勒，基本都是要单开一页的。自二战结束以来，有人说他坏，没人说他菜，人类个体能够达到的破坏力极限，基本是就是希特勒了。所谓反派派中派，坏蛋坏中坏，哪怕在小说中，都很难构写希特勒这么强大的反派，或者说，后世的反派或多或少都参考了希特勒的特征，属于不削没法玩的类型。   希特勒诞生在20世纪，是他个人的幸运，他没有诞生在21世纪，则是21世纪的幸运。咱们且不讨论希特…",
+        "visited_count": 3062967,
+        "url": "https://api.zhihu.com/answers/1899580204923458608",
+        "reshipment_settings": "disallowed",
+        "author": {
+          "url_token": "lu-chen-xi-9-98",
+          "name": "小约翰",
+          "headline": "明月别枝惊鹊，清风半夜鸣蝉",
+          "is_org": false,
+          "gender": 1,
+          "id": "59de8693e7f26198003475a928058cf9",
+          "url": "https://api.zhihu.com/people/59de8693e7f26198003475a928058cf9",
+          "user_type": "people",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-0aaf5c80d21c5f56341b345265ecf7bc_l.jpg?source=b6762063",
+          "followers_count": 1004718,
+          "is_following": false,
+          "is_followed": false
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1899580204923458608}",
+      "attached_info": "CtAHCOml9JmS14qbngEQBBoJNzI0NzU1MTYyIM3Hs8AGKK2GAzCNFEAxSlUKHFRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTFRJTUUSL2hvdF9yZWNhbGxfcmVhbHRpbWVfdDpub3JtYWw6MjAyNi0wMS0xNzptb250aGx5GAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgkxMTMwMTAwMzViIGExZGVjZDkxY2RmMTIxY2Q2NDgxY2IwMzA5ZDM2YmI2chMxODk5NTgwMjA0OTIzNDU4NjA4igELMTAxNzAxMjgzNjmqAQlyZWNvbW1lbmTCASA1OWRlODY5M2U3ZjI2MTk4MDAzNDc1YTkyODA1OGNmOfIBCggMEgZOb3JtYWzyASgIChIkOGRmNzVjYjgtMjY2YS00ZGE5LThiMDItY2Y5Y2M1Mjc3ODY08gEFCAsSATmCAgCIAqnm/Om8M5ICIDU5ZGU4NjkzZTdmMjYxOTgwMDM0NzVhOTI4MDU4Y2Y5mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCHFRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTFRJTUXoAgX6AgtOT1JNQUxfRkxPV4oDIDQyMjQyZTk1NDZkMjQ0NjM4NGE5N2EyODU0NDQxN2FkmgMNCgJ2MhAAGgVvdGhlcqgDt/m6AdgDAOoDH2hvdENyb3NzUmVhbFRpbWVDb250ZW50UmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQlAUYjwUiI3YyLWY0ODNhMGE3NTVjYjM1ZWY0YTdhMzY5YzBiNGYxYWZmOi0IAxD5Bhj0AyIjdjItYmM5NjIwMmE4NmI3ZDE5NWRkODM4YmEwOGVlNWUzNmU6LQgDEPQDGPQDIiN2Mi1mY2EyN2JhYzgyYmY1NjFiZGIxOWYwM2I0NTgwNmQyZIAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAZtYW51YWzCBAMxNTfIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAECBkqo/gQUAAAAAAAAAAIkFhNnQKlt3sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCZAGAKAGMagGA5ICLgoJNzI0NzU1MTYyEhMxODk5NTgwMjA0OTIzNDU4NjA4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "50_1768675029.198",
+      "type": "feed",
+      "offset": 50,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675029,
+      "updated_time": 1768675029,
+      "target": {
+        "url": "https://api.zhihu.com/answers/2477204182",
+        "reaction_instruction": {
+          "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+        },
+        "allow_segment_interaction": true,
+        "segment_infos": [
+          {
+            "pid": "aYX_JfM1",
+            "text": "没有天生的优势，就必须后天努力，没人看过程，他们只看结果。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1544276555370762240"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "voteup_count": 1784,
+        "thanks_count": 1919,
+        "preview_type": "default",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "thumbnail": "https://picx.zhimg.com/50/v2-beb9cdd068380427b131e8ac6c0b7dba_720w.jpg?source=b6762063",
+        "type": "answer",
+        "comment_count": 454,
+        "excerpt": "说说我自己吧，女，22，身高152,希望自己净身高160，从小也是第一排，被人嘲笑身高，试一下吧，虽然22，不太可能了，但是到以后不就更不可能了，无论如何都要试试，你如果问我，何必纠结身高呢，把时间花在别的地方不好吗，可是这是我一直过不去的坎，我如果不去撞一下南墙，我是不会死心的。 前些天拍了骨骺线     医生其实说不太可能了，但是我还是很开心，接近闭合，总要试试吧。我制定了计划，从现在的5月3到10月1，五个月。我…",
+        "excerpt_new": "说说我自己吧，女，22，身高152,希望自己净身高160，从小也是第一排，被人嘲笑身高，试一下吧，虽然22，不太可能了，但是到以后不就更不可能了，无论如何都要试试，你如果问我，何必纠结身高呢，把时间花在别的地方不好吗，可是这是我一直过不去的坎，我如果不去撞一下南墙，我是不会死心的。 前些天拍了骨骺线     医生其实说不太可能了，但是我还是很开心，接近闭合，总要试试吧。我制定了计划，从现在的5月3到10月1，五个月。我…",
+        "visited_count": 186431,
+        "question": {
+          "id": "359785416",
+          "url": "https://api.zhihu.com/questions/359785416",
+          "bound_topic_ids": [
+            11076,
+            14845,
+            90224
+          ],
+          "title": "我的长高日记。努力长高的你后来怎么样了?",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "type": "question",
+          "created": 1575720543,
+          "comment_count": 1,
+          "is_following": false,
+          "author": {
+            "url": "",
+            "url_token": "",
+            "headline": "",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false,
+            "id": "",
+            "user_type": "people",
+            "name": "匿名用户",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 0
+          },
+          "follower_count": 0,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "favorite_count": 4788,
+        "id": "2477204182",
+        "content": "<p data-pid=\"Q1x9pYnd\">说说我自己吧，女，22，身高152,希望自己净身高160，从小也是第一排，被人嘲笑身高，试一下吧，虽然22，不太可能了，但是到以后不就更不可能了，无论如何都要试试，你如果问我，何必纠结身高呢，把时间花在别的地方不好吗，可是这是我一直过不去的坎，我如果不去撞一下南墙，我是不会死心的。</p><p data-pid=\"R58IlRDE\">前些天拍了骨骺线</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-beb9cdd068380427b131e8ac6c0b7dba_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" data-original-token=\"v2-beb9cdd068380427b131e8ac6c0b7dba\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-80ff77e6adf40c3fe5c894c8e9981dec_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pica.zhimg.com/v2-beb9cdd068380427b131e8ac6c0b7dba_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b284d46ade67d62494d537d39ecf2ae1_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" data-original-token=\"v2-b284d46ade67d62494d537d39ecf2ae1\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-e16bb608fe88e34dfac912d634b847b3_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic4.zhimg.com/v2-b284d46ade67d62494d537d39ecf2ae1_r.jpg\"/></figure><p data-pid=\"7mVmh-33\">医生其实说不太可能了，但是我还是很开心，接近闭合，总要试试吧。我制定了计划，从现在的5月3到10月1，五个月。我会用知乎来记录的，我其实已经开始四天了，因为运动过度，也没有做好热身运动，有点肌肉拉伤了，所以现在需要休息几天才能继续运动，我会持续更新的。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3b487e57bc1a0ea2458da4c54416b901_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" data-original-token=\"v2-3b487e57bc1a0ea2458da4c54416b901\" data-default-watermark-src=\"https://picx.zhimg.com/v2-3e4d6c90ce327d5cc2a996ed214ade9d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic4.zhimg.com/v2-3b487e57bc1a0ea2458da4c54416b901_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e849938cfd558049ff00acd248e5c19e_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-e849938cfd558049ff00acd248e5c19e\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-ac5772023d9800a1b5602ff2c1e6f58a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic3.zhimg.com/v2-e849938cfd558049ff00acd248e5c19e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-717fd0fa221407d0e506bd439fe8a837_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-717fd0fa221407d0e506bd439fe8a837\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-bbec1fecb453cc66abdb2fe3cbcf94d6_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic4.zhimg.com/v2-717fd0fa221407d0e506bd439fe8a837_r.jpg\"/></figure><p data-pid=\"I5FXjZhK\">听很多人说多喝牛奶，但是确实它不怎么好喝，但还是要喝啊。</p><p data-pid=\"HCh56kD3\">2022.5.10</p><p data-pid=\"oqRl6IT2\">腿好啦，可以继续了，由于晚上要早睡，所以，更新就放到了第二天了，我新画了一个图，等把这些用绿色的填满，我就完成了一个阶段。运动完后出了很多汗，感觉浑身很清爽，虽然昨晚九点半就躺床上了，但是确实没睡着，因为室友在完成英语听力，后来慢慢就睡了。有很多人给我留言，真的很感动，早晨量身高真的会比正常高两厘米。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-590f6952d418369ceffc6b6443dbcb88_1440w.jpg\" data-rawwidth=\"1280\" data-rawheight=\"2823\" data-size=\"normal\" data-original-token=\"v2-590f6952d418369ceffc6b6443dbcb88\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-84c4cf541a32f13e329703f6977c6645_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-590f6952d418369ceffc6b6443dbcb88_r.jpg\"/></figure><p data-pid=\"JALvbkrY\">2022.5.11</p><p data-pid=\"0M15vJ-m\">早晨量身高确实会高几厘米，今天早晨量身高是153.8，晚上估计又回去了哈哈，没事，坚持坚持，星光不负赶路人。</p><p data-pid=\"MRIpLfC7\">看到邀请回答的问题，很多人都在问自己还有机会吗，我觉得，如果你已经有了这个疑问，那就不如行动起来，虽然不知道结果怎样，但最坏也就这样了，不如拼一下才心安。</p><p data-pid=\"CJKvfIDV\">2022.5.12</p><p data-pid=\"R6R0Bzdv\">这几天虽然都在下雨，好在在学校有一个人少挡雨的的地方可以运动。想说，只有汗水才能让自己更踏实。继续。相信我不只是自己。</p><p data-pid=\"6Iu25zEV\">2022.5.13</p><p data-pid=\"kvQ7N-XV\">每个月都有那么几天，经期，需要轻度运动。唉，前几天，因为运动过度肌肉拉伤休息三天，刚运动三天，又来了假期，早晨是拉伸半小时，悬垂7组，每组20秒。中午摸高50下，晚上减少些运动量由于特殊这几天，拉伸30分钟。</p><p data-pid=\"fuJtLGX5\">2022.5.14</p><p data-pid=\"i6heDjhM\">早晨拉伸半小时，晚上拉伸半小时，今天有点虚弱，等过了明天我就好了。</p><p data-pid=\"4wUX_9um\">我把悬垂改成了后甩腿左右各100下，由于悬垂需要用那个空床老是发出声音影响室友，后甩腿没有空间和设备限制，效果应该都差不多，后甩腿可以随时练习。</p><p data-pid=\"19CvYymv\">2022.5.15</p><p data-pid=\"YrmFGxWj\">明天就可以全都开始了，今天是早晨拉伸半小时，后甩腿左右各100下，晚上拉伸半小时。冲！</p><p data-pid=\"WoSNoeBp\">2022.5.16</p><p data-pid=\"9Cq2BAyo\">今天全部都开始了，买了新的牛奶，不把它放在桌子上，老是忘记喝它，所以每次喝完，我就会多放几盒在桌子上，打卡。加油</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1495beae8fa646f52539c0481a1b300e_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-original-token=\"v2-1495beae8fa646f52539c0481a1b300e\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-3807c0705fc15ece1b5adef86dfd348a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pica.zhimg.com/v2-1495beae8fa646f52539c0481a1b300e_r.jpg\"/></figure><p data-pid=\"oFkKT62d\">2022.5.17</p><p data-pid=\"aBCdHqlV\">打卡，星光记得赶路人，做的多了，慢慢就成习惯了。</p><p data-pid=\"YdYk5EiB\">2022.5.18</p><p data-pid=\"mw-CstbQ\">加油加油加油，虽然累，但是一定要坚持，量变产生质变，加油！</p><p data-pid=\"5Pm0cjXh\">2022.5.19</p><p data-pid=\"ooTvBNtZ\">真的很累，但是依然要坚持，过程也许漫长，但我可以等。</p><p data-pid=\"YqPs_4yX\">2022.5.20</p><p data-pid=\"WyeNvtTv\">今天运动的有些晚，躺在床上又胡思乱想了好久，所以晚上没怎么睡好，以后睡觉不能胡思乱想了，放松，更快进入睡眠。看到很喜欢的一句话。</p><p data-pid=\"DGy3ZXmc\">你运动时流的每一滴汗，都不会辜负未来的你。</p><p data-pid=\"OqO4TKk_\">2022.5.21</p><p data-pid=\"cw31GCbk\">这边这几天小雨，有点闷热，每次运动完，都是一身汗，衣服也湿透了，每次运动放着歌就会轻松很多，又是加油的一天呀</p><p data-pid=\"C81xt7GX\">2022.5.22</p><p data-pid=\"aYX_JfM1\">没有天生的优势，就必须后天努力，没人看过程，他们只看结果。</p><p data-pid=\"nioa21WK\">2022.5.23</p><p data-pid=\"VPpwoOHl\">快期末了，有些紧张，打卡</p><p data-pid=\"4shIiPau\">看了很多长高案例，这都是循序渐进的结果，刚开始一个月没有变化没有关系，坚持两个月，三个月，一定会有变化的，加油，任何事情都需要有铺垫</p><p data-pid=\"cCcKZTxa\">2022.5.24</p><p data-pid=\"Y44Zcn2U\">在每天的运动中，我内心是踏实的，因为我有了目标，并且在向它努力靠近，每天大汗淋漓的自己，才让我心安。</p><p data-pid=\"aRQnaOmJ\">2022.5.25</p><p data-pid=\"EeAU6arb\">加油，运动，我要变成更好的自己。</p><p data-pid=\"eVroe3Ol\">2022.5.26</p><p data-pid=\"dnDVl49H\">坚持下去，这不是一个可以立刻见效的事情，如果一个月还没有效果，那就两个月，三个月，直到有效果。</p><p data-pid=\"BD_W0EuW\">2022.5.27</p><p data-pid=\"RYx6n-KU\">打卡，中午的摸高50，跟晚上一起做的，就是晚上摸高150.摸高真的很累，跳绳3000后感觉还好，摸高100多后，大量出汗，特别渴。加油</p><p data-pid=\"R3KNfbIQ\">2022.5.28</p><p data-pid=\"B2BfSOfl\">打卡，今天跟同学晚上出去吃东西了，所以提前跳了绳，晚上九点才摸高，拉伸，虽然时间有点晚，不过还是完成了。</p><p data-pid=\"kGE_35q9\"> 2022.5.29</p><p data-pid=\"Ro8NtHuG\">打卡，今天天气炎热啊，五月绿色的小方块快被涂满了，最近也看了很多长高的例子，大多坚持到两年至三年的，有潜力的可以长高十厘米左右，但是开始长高的话一般需要两三个月铺垫，也就是说，这两三个月可能是一点没长，但并不代表他没用，只是说是个铺垫，所以，坚持难能可贵，把握最后的机会加油！</p><p data-pid=\"L9VhQhqg\">还有运动完，我能感觉到腿部关节有感觉，我觉得是有效果的，这种效果需要时间来验证。</p><p data-pid=\"sSbukmVk\">2022.5.30</p><p data-pid=\"6kIy5dA4\">打卡，今天我去看了快手的某个长高的练习，他说我的计划练一年也不可能长高，我就花了66元让他帮我制定计划，之后我看了计划，就觉得同样是拉伸，跳绳，摸高，只不过是把拉伸的名词说的高大上了些，我能明白是为了赚些钱，但是同样的内容，这样说就有点过分了，要说跟我的计划的区别就是多了两天纯拉伸的，就是休息近似。拉伸的种类12种，跟我平时拉伸很多都一样，感觉都是瑜伽课里常见的，加了超级就不一样了吗，拉伸次数很明确，我觉得我运动不用一个一个数次数吧，挺累的，是有用的不可否认，但是我认为它的核心是不会变的，就是运动包括拉伸，跳绳，摸高，这些是肯定有用的，但是我还是选择坚持我的计划，66，是买了安心吧，证明这些是有效的。</p><p data-pid=\"12MyqCmM\">今天感悟挺多的，有些事情是因为一个人而想要开始的，后来发现，你不是为了这个人，这个人不再有意义，更多是自己，爱自己，提升自己，在遇到别人拒绝时，不再想的是因为我矮才不喜欢我，而是我们俩本来就不合适，不是因为我不好，是因为没有遇到对的人，相信自己，并且有信心去爱接下来遇到的人。人一生想要做，能做的就那么几件，在自己有机会，有能力的时候努力去把它实现，在接下来的人生里我相信我不会后悔。总之，希望每一个内心有坚持的人，都能坚持下来，成为最好的自己。</p><p data-pid=\"aGfE4Uk7\">2022.5.31</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1edbe40c91b033f85b733e23e33fbbbb_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" data-original-token=\"v2-1edbe40c91b033f85b733e23e33fbbbb\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-a9fdcb07d3a9e8bb9c2c2ce1a70da1df_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://picx.zhimg.com/v2-1edbe40c91b033f85b733e23e33fbbbb_r.jpg\"/></figure><p data-pid=\"g70liMNd\">快一个月啦，涂满的，是全部完成的一天，没涂满的，就是只做了部分，上面写的就是还没做的，我知道它是个漫长的过程，加油，我身体是有感觉的，一起加油，坚持！</p><p data-pid=\"MdQyfVvi\">定下一个目标，六月一定要是全都满满的，绿绿的！</p><p data-pid=\"lSBcpz2B\">2022.6.1</p><p data-pid=\"Jf81TS1o\">儿童节快乐呀！打卡啦</p><p data-pid=\"k_QDciee\">2022.6.2</p><p data-pid=\"nHBRE3Ch\">如果你有惰性的思想了，就想想为什么当初开始，既然开始，就别有懒惰的思想，坚持了那么久，也别拖延，就现在。为自己，每次运动完都像是被大雨淋过一样，但是心安就对了</p><p data-pid=\"0tUzNDUL\">2022.6.3</p><p data-pid=\"IGFZhyBf\">端午节快乐！坚持，有时候会莫名想哭，那就把眼泪化成汗水 吧!</p><p data-pid=\"6B4ZeTdU\">2022.6.4</p><p data-pid=\"n9CK9gvD\">打卡！空气新鲜哈哈</p><p data-pid=\"9_iRxKTe\">2022.6.5</p><p data-pid=\"0BCfW5Wb\">福州的天气真是琢磨不透，一会阳光明媚，一会倾盆大雨，出着太阳下着雨，时刻备着雨伞，不然下一秒你就可能变成落汤鸡，阴晴不定的天气，有意思。今天感觉很不同，看着校园里的花，树，阳光，水，感觉像是很久没见了，明明每天都在见，可能因为之前心里有事，才忽视了身边的美好吧，当你觉得身边的事情变得很美好时，说明你内心是平静的，没有事情再进入你的心，让你烦恼，这是一个治愈的过程。</p><p data-pid=\"eFCJRgqA\">关于运动，好像变得慢慢适应了，很喜欢大汗淋漓的自己，虽然有点狼狈。</p><p data-pid=\"pkyjy18a\">2022.6.6</p><p data-pid=\"NxM0lpbi\">打卡!</p><p data-pid=\"0HUbZZ9O\">2022.6.7</p><p data-pid=\"JI1eb0OA\">打卡，最近有点忙，差点忘了来这打卡</p><p data-pid=\"Z2HK1Kpu\">2022.6.8</p><p data-pid=\"fHvtKRek\">总有时候突然想起来，就很难过，没有原因，就是很难过，可能因为今天下雨了。</p><p data-pid=\"NW4zzId5\">每一点努力，都是为了以后多点勇气生活。</p><p data-pid=\"5azw_ZcH\">2022.6.9</p><p data-pid=\"84PQAbyq\">打卡，差点忘了</p><p data-pid=\"O7kdNUUq\">2022.6.10</p><p data-pid=\"J7-A5Tcb\">最近有点累，心累，身体也累，我觉得是情绪影响的，也有可能是最近半个月福州都是阴雨天，所以心情不好，跟开心的人在一起你会变得开心，跟上进的在一起你会斗志满满，所以说身边的人多少是会影响你的。不开心的时候，跟室友出去吃点好吃的，走出去转转好很多，何况室友是个开心的太阳，偶尔很烦话很多，但很可爱。</p><p data-pid=\"106m9Yqj\">有人问我长高没有，才一个多月，看不出来效果，这毕竟是个漫长的过程，要有耐心，要是那么快就长了，那还得了，但是身体变化是感觉到的，期待中，坚持总会看到效果，即使没有，那运动对身体也是有益无害的。</p><p data-pid=\"g1XwhhSl\">2022.6.11</p><p data-pid=\"eO0ADZy3\">今天由于经期，肚子胀痛，就只做了左右甩腿100下，还有十几分钟拉伸。要等三天后可以继续运动。</p><p data-pid=\"qcD1p-LV\">2022.6.12</p><p data-pid=\"kF1EeVNN\">今天也只是简单做了拉伸和蹬腿。今天去林则徐纪念馆由于实践作业需要还需拍照，我让里面的阿姨帮我拍几张在游览的图，以便于做文件用，我发现运动一个多月后身体上变化是挺明显的。无论能不能长高，坚持锻炼总是不错的。</p><p data-pid=\"FXxd0-qi\">2022.6.13</p><p data-pid=\"U60gkQSy\">明天就可以恢复运动了。加油</p><p data-pid=\"5_EndBNy\">2022.6.14</p><p data-pid=\"6gAgps0w\">由于还是有点不舒服就没开始唉</p><p data-pid=\"KeJRyQWy\">200.6.15</p><p data-pid=\"Y8ij9InZ\">打卡！换了一个新地方，那个地方学校在施工，又找了一个地方，加油，感觉现在不运动，不出汗，就会觉得不适应。</p><p data-pid=\"_3JQ3wbG\">2022.6.16打卡</p><p data-pid=\"mg9rey1y\">2022.6.17</p><p data-pid=\"W7yN2ufR\">人一旦有了一个信念，就不会没有方向。</p><p data-pid=\"Hdri3cWj\">2022.6.18</p><p data-pid=\"FJrMJ8XP\">everything will be ok.</p><p data-pid=\"16-8VsMP\">2022.6.19</p><p data-pid=\"MMMgxzlW\">看了挺多帖子，那些一个月长四五厘米的，真的是不要信，长高是个漫长的过程，正常生长速度是一年八九厘米，按年来算的，贵在坚持。</p><p data-pid=\"HOgyqILz\">身高我会在九月末再量一次，然后发出来，希望有些收获，不着急，一切需要耐心</p><p data-pid=\"ZaK9rU9q\">2022.6.20</p><p data-pid=\"ujPohWsK\">摸高真的很累，有人说摸高1000我真的是做不到，还是根据自身情况来定量，像我只能摸高150左右，尽力了，之后就很累，适量运动是要符合自身实际情况，并不是越多越好，过量的运动反而会影响生长。</p><p data-pid=\"rzNzlW9J\">2022.6.21</p><p data-pid=\"DMmglv7c\">每个人都有情绪泛滥的时候，这时候，你可以找个安静的地方，大哭一场，或则吃东西跟朋友转很久，总之不要憋在心里，之后相信自己会更好，以后会更好，活的潇洒快乐。</p><p data-pid=\"GmxXjRj3\">2022.6.22</p><p data-pid=\"cv9TkydU\">当你想凶别人的时候，要忍住，每个人活着都是辛苦且不易的，一定要学会温柔对待别人，温柔才是直达人心的力量。</p><p data-pid=\"5orpahL5\">2022.6.23</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4ee0cd871761de4e1b521fec07fd8c83_1440w.jpg\" data-rawwidth=\"1630\" data-rawheight=\"1421\" data-size=\"normal\" data-original-token=\"v2-4ee0cd871761de4e1b521fec07fd8c83\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-5638a9945ac783a0ae319231543e45c6_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1630\" data-original=\"https://picx.zhimg.com/v2-4ee0cd871761de4e1b521fec07fd8c83_r.jpg\"/></figure><p data-pid=\"frcR3XMX\">天气很好，温度高达36，夜晚的云朵，你看它像不像一对翅膀，蝴蝶的翅膀。运动的时候很累，运动完却又期待着第二天大汗淋漓的感觉，从一开始有些心里疲倦，到现在有些期待每天的训练，应该是个进步，但是确实很累，希望每一个夜晚我都能如约而至。</p><p data-pid=\"EsU_oXeq\">2022.6.24</p><p data-pid=\"mhB8zavC\">总会有人在生活中不断给你惊喜，珍惜这些人，遇见他们是你的荣幸。</p><p data-pid=\"V4uGjbkw\">2022.6.25</p><p data-pid=\"yCxQC66M\">这是今晚的云，像被火烧了一样，很好看。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8ad90504bf5877f30525b3a2684fbdaa_1440w.jpg\" data-rawwidth=\"4608\" data-rawheight=\"3456\" data-size=\"normal\" data-original-token=\"v2-8ad90504bf5877f30525b3a2684fbdaa\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-ff408da341e85c66d4cc791fc6ec23d1_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"4608\" data-original=\"https://pic3.zhimg.com/v2-8ad90504bf5877f30525b3a2684fbdaa_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f5b566ffa1ae2deeb08f54a43343c47a_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" data-original-token=\"v2-f5b566ffa1ae2deeb08f54a43343c47a\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-055cce4bcf484e6f1bb66033aea595b9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic1.zhimg.com/v2-f5b566ffa1ae2deeb08f54a43343c47a_r.jpg\"/></figure><p data-pid=\"ANpu2nxk\">2022.6.26</p><p data-pid=\"XlYpjDYW\">最后的结果，只有试过才知道是什么，猜测是没有用的，我相信科学，但也不全信。哪怕最后丝毫没有长高，我也不会后悔花时间去锻炼。但是同样我会收获些什么我还不知道。还是要坚持下去，没错，是这样。有些东西如果轻而易举就得到，那为什么人还要努力呢。试试吧，或许能收获些什么。</p><p data-pid=\"6dlMhnMT\">2022.6.27</p><p data-pid=\"G8Kh8XnG\">有些人在努力变成普通人，你所轻易拥有的可能是他全力以赴追求的。加油，累，很累，但是依然心怀期待。</p><p data-pid=\"wrUomy7i\">2022.6.28</p><p data-pid=\"F3D4qvNw\">今天运动穿的鞋把脚给磨了一个透明泡，运动前，一定要选合适的鞋子和衣服才比较方便。对了，这个月又快结束了，七月初好好奖励自己一顿，刚好是七月一考完试。</p><p data-pid=\"fYjEMLnR\">2022.6.29</p><p data-pid=\"u_Fxywfe\">昨天做完忘记来了，我相信功夫不负有心人，是啊，身体确实会累，但是如果不坚持，我心会更累，坚持下去，能让我对未来的每一天都有所期待，它可以短期内没有效果，没关系，我可以等，我不着急，只要我坚持着，我就不担心。你想得到的东西从来没有那么轻而易举。</p><p data-pid=\"HD1V0reC\">2022.6.30</p><p data-pid=\"p_9TSNkJ\">打卡，六月已经结束，下面两个月是暑假很重要，希望我有所收获</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-18a6966a8ec595545075103d0e17022d_1440w.jpg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-18a6966a8ec595545075103d0e17022d\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-9e32f6a146694a4c07d0cd78c854eed7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic4.zhimg.com/v2-18a6966a8ec595545075103d0e17022d_r.jpg\"/></figure><p data-pid=\"S-hw_g96\">2022.7.1</p><p data-pid=\"Z4Ntu4bf\">今天去学游泳了，没学会，回头多去几次吧，吃完晚饭去的，游完后就饿了。</p><p data-pid=\"Ytcns0nX\">2022.7.2</p><p data-pid=\"mbKXYLkv\">打卡</p><p data-pid=\"2xaV_aQ-\">2022.7.3打卡</p><p data-pid=\"p9YIQ6qa\">2022.7.4</p><p data-pid=\"ZosQV6rG\">放暑假了，晚上九点半到家，由于回家十点点了，坐车很累，今天就没做。明天接着</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-be086f9514a6757e7c42514a784e9412_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" data-original-token=\"v2-be086f9514a6757e7c42514a784e9412\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-d212b2f7a12dbb3673e419af64907ae8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic1.zhimg.com/v2-be086f9514a6757e7c42514a784e9412_r.jpg\"/></figure><p data-pid=\"Ij-i0eJH\">2022.7.5</p><p data-pid=\"9XUghfqI\">打卡，回到家，这边还要找运动的地方，不能在楼上运动，楼下邻居会投诉，跳绳就在附近的广场，摸高就只能在小区车棚，这样下雨也没关系了。没有条件就创造条件。坚持</p><p data-pid=\"Z-L0qJk-\">2022.7.6</p><p data-pid=\"58RKM1nt\">打卡</p><p data-pid=\"J88P940o\">2022.7.7</p><p data-pid=\"ze1bQowh\">打卡，今天摸高只做了100个，少了50个，由于今天特别累，真的动不了，早晨六点起来帮忙到上午九点多，下午五点多帮我嫂子接孩子，然后陪他玩到晚上八点多，然后开始运动，真的特别累，睡觉昨晚也只睡了五个小时，视情况而定吧，但是一定要坚持，明天提前运动，休息好，不能再这样</p><p data-pid=\"Cj29eJ85\">2022.7.8</p><p data-pid=\"O81M0ovE\">打卡，在空调房里睡的久了，会变的浑身无力，应该控制睡眠时间</p><p data-pid=\"8uoVf5AF\">2022.7.9</p><p data-pid=\"G180P_5a\">打卡</p><p data-pid=\"ynFjVmsr\">我锻炼想要长高不是为了以后能找个什么什么样的男朋友，不要把我想的那么，我只是在为自己有一个正常的身高而努力，只是为了和普通人的身高一样而已，只是为了在面对所有事情的时候不再有退缩，恐惧的理由，这与我未来想找一个什么什么人无关，请关注长高运动本身，不要延伸太多。</p><p data-pid=\"fcnCh3he\">2022.7.10打卡</p><p data-pid=\"29m2WRXJ\"> 2022.7.11</p><p data-pid=\"6VYPhcB3\">好几次都很累想放弃休息的时候，我就劝说自己，停下前面两个月的努力就白费了，不能停下，好不容易坚持到现在，能多坚持一天就多一天，虽然不知道什么时候停下，但现在绝对不可以。</p><p data-pid=\"eTbsqD_r\">2022.7.12打卡</p><p data-pid=\"O4pEkgeY\">2022.7.13、 7.14、7.15休息</p><p data-pid=\"X65qUjcy\">由于经期不能剧烈运动，简单做些拉伸。休息时间三天，经期休息</p><p data-pid=\"uPmJqVg5\">2022.7.16打卡</p><p data-pid=\"CoTLyyvs\">我是北方人，在南方念书，我发现我家里之前的身高记号是154，中午睡醒去量，感觉快到156，不知道是不是刚睡醒的原因，不过确实我感觉自己高了一点，为什么我在南方的时候去量是152，是因为量错了吗，我也不懂，算了不管了，坚持运动就行。</p><p data-pid=\"zE779ZCV\">2022.7.17打卡，加油。</p><p data-pid=\"1a_H0CU5\">2022.7.18打卡，为什么你会有一个信念，因为你承受过足够多的打击，才会想反击。不管是否有结果，我们一起坚持，汗水会让人踏实。</p><p data-pid=\"8CXx9KAz\">人总是对未发生的事情充满期待和兴趣，而忽视正在经历的，正是这些正在发生的微小的改变才能撑起未来。</p><p data-pid=\"F_7ig7Wo\">2022.7.19打卡</p><p data-pid=\"_ezkwEeH\">未来是什么样，谁又能知道呢</p><p data-pid=\"ZtlH7i9i\">2022.7.20打卡</p><p data-pid=\"H6o9yZpP\">小腿肚明显变瘦了很多，加油</p><p data-pid=\"YChmE7A5\">2022.7.21</p><p data-pid=\"Ipor_l_a\">从此刻起，要明白，必须努力学习，努力赚钱，努力运动，没有时间可以挥霍。你不能再消耗爱你的人了，也该成长为保护伞了。</p><p data-pid=\"CPDL1Ubj\">2022.7.22</p><p data-pid=\"a_x8QpuV\">有点累，不过还在坚持，运动时候放点喜欢的音乐很好，说实话，我也不知道自己能不能长，但是能坚持一天就坚持</p><p data-pid=\"syC6oXxS\">2022.7.23</p><p data-pid=\"QXI4gJIZ\">一周七天的训练频率，除了经期休息三天，坚持了快三个月，我感觉腿部有些疼，只顾着训练，却忘记了给身体足够的休息，为了形成长期的锻炼习惯，更好的坚持下去，要有适当的休息，才能精力充沛，不能急于求成，之后的每周六改成瑜伽两个小时。慢慢来，不着急。这是接下来的计划，其实也只是把周六的训练改成了瑜伽</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3fa3454bf46ea5557225bff88c7b936d_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1871\" data-size=\"normal\" data-original-token=\"v2-3fa3454bf46ea5557225bff88c7b936d\" data-default-watermark-src=\"https://picx.zhimg.com/v2-77a1f769491d740e6fd6dfb5cff2241b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic4.zhimg.com/v2-3fa3454bf46ea5557225bff88c7b936d_r.jpg\"/></figure><p data-pid=\"M4wHQtx-\">2022.7.24打卡</p><p data-pid=\"a5juiIz6\">2022.7.25打卡</p><p data-pid=\"nDViNYFx\">跳着跳着突然刮起了大风，接着就是暴雨，秋天真的越来越近了。</p><p data-pid=\"FZGLNAQj\">2022.7.26打卡</p><p data-pid=\"OKLZyFXr\">很佩服那些常年运动养成习惯的人，这需要很大的毅力。希望我也可以像他们一样自律</p><p data-pid=\"2qTzwABw\">2022.7.27</p><p data-pid=\"2QOKucjA\">坚持住，每次运动完衣服都能扭出水来，很累，真的很累，可是不能停，一起加油</p><p data-pid=\"sLwWEwrS\">人只有遭遇到打击，才会想着去改变</p><p data-pid=\"Dm1ezKYb\">2022.7.28</p><p data-pid=\"1NsGZFbk\">打卡，七月快要结束了，秋天也快来了，期待未知。</p><p data-pid=\"RREChy0y\">2022.7.29打卡</p><p data-pid=\"rSP5sXR9\">2022.7.30打卡，七月还有一天就结束了</p><p data-pid=\"Xjx9qt10\">2022.7.31打卡，接下来几天好像要一直升温到36℃了，估计要被晒干了 ，虽然是晚上，但也很热啊</p><p data-pid=\"3LaDbJvB\">2022.8.1打卡</p><p data-pid=\"DkMec59m\">八月的开端就是糟心。</p><p data-pid=\"SFe4-uY0\">下个计划八月继续坚持，接下来几天会持续高温，抗住。腿部关节感觉变得长了点。坚持坚持</p><p data-pid=\"Aa-rzyKf\">2022.8.2</p><p data-pid=\"JnBYVWLb\">这天气，真的太热了，活动一下就出很多汗，像蒸了桑拿，要一直喝水，不然就觉得被蒸干了。秋天快点来吧</p><p data-pid=\"UgQNd6_c\">2022.8.3打卡</p><p data-pid=\"P6UwkxGt\">2022.8.4打卡</p><p data-pid=\"27ehoed6\">从被动到习惯运动，这个夏天热且不易</p><p data-pid=\"dx56_RMN\">2022.8.5打卡</p><p data-pid=\"ZThPE_8E\">不要再升温了求求，快热昏厥了，降温吧</p><p data-pid=\"5hCszTsr\">2022.8.6打卡瑜伽2h</p><p data-pid=\"xP6O0EV-\">2022.8.7</p><p data-pid=\"i_fAlD1P\">我是绝对不会放弃的，三个月不行就四个月，一年不行就两年，两年不行就三年，我就不信。</p><p data-pid=\"-_JoKUW1\">2022.8.8</p><p data-pid=\"ZMSYZqA4\">高温天气快点过去吧</p><p data-pid=\"MQ2VfnXl\">2022.8.9</p><p data-pid=\"Vhy98yYY\">今天晚上风很大，很凉爽，这是几天来最舒服的天气了</p><p data-pid=\"XClHj167\">2022.8.10</p><p data-pid=\"fRqLImp7\">again and again</p><p data-pid=\"hHCgkp_z\">2022.8.11</p><p data-pid=\"E2VKR-yh\">有一瞬间很难受无助，可是之后还是要说服自己调整好心态，开始，重复</p><p data-pid=\"-oh9qsdX\">2022.8.12</p><p data-pid=\"aA-dcd3Y\">每个人应该都有觉得自己走不下去的时候吧，如果真的很难受就哭一哭，出去吹吹风，然后买杯甜甜的饮料，喝完接着做该做的事。</p><p data-pid=\"mrNJ5WPC\">2022.8.13.14.15经期休息</p><p data-pid=\"XelrcGJS\">不要让别人的闲言碎语阻挡你的脚步，你的努力一切都有迹可循。</p><p data-pid=\"G2fIyFPo\">这些天的运动，身高我妈说我明显高了些，但是我自己感觉很微弱，是长了点，不是那种一下子很明显，但是我很惊喜的是每天我运动完我都能感觉到我腿部在收紧，之前腿很粗，现在变细变直了很多，这让我很惊喜。也只是才三个多月而已，怎么可能一蹴而就，凡事贵在坚持，我希望它会给我很多惊喜，它没到来，是因为时间还不够，你做的还不够，如果你想一觉醒来就达到目标，那就只能在梦里实现，我不着急，因为每天我都有新的微小的改变，正是这些改变的慢慢积累才会有你想要的结果，没有耐心是不行的。</p><p data-pid=\"qbFiBElA\">2022.8.16打卡</p><p data-pid=\"-aoZ7FdK\">我不需要说服任何人，只需要说服我自己。</p><p data-pid=\"SCtyl_RQ\">我不需要你告诉我结果，我只需要自己努力，因为结果我们都不知道。</p><p data-pid=\"M9PbzYEP\">你不想努力，就不要劝我放弃，生活中从来都不缺打击你的人。</p><p data-pid=\"Zd-0FpBF\">2022.8.17打卡</p><p data-pid=\"7RbWMghQ\">2022.8.18打卡</p><p data-pid=\"T-D4oHRh\">热死了，希望快点降温吧</p><p data-pid=\"mC8RLKSQ\">2022.8.19打卡</p><p data-pid=\"PiWX5iqe\">2022.8.20 瑜伽拉伸2h打卡</p><p data-pid=\"1wagjfnr\">2022.8.21打卡</p><p data-pid=\"ByZJJyvj\">2022.8.22打卡</p><p data-pid=\"RFhro_fT\">降温了</p><p data-pid=\"ixpaj9Sk\">2022.8.23打卡</p><p data-pid=\"K25CxOOc\">2022.8.24打卡</p><p data-pid=\"l_EilTRA\">希望得偿所愿</p><p data-pid=\"aCXcWbQp\">2022.8.25打卡</p><p data-pid=\"KUACpVyo\">习惯成自然</p><p data-pid=\"0FR1T_R2\">2022.8.26休息一天</p><p data-pid=\"ATJABYW2\">2022.8.27打卡</p><p data-pid=\"YLSY4orh\">一天不运动感觉少了点什么，习惯逐渐养成中</p><p data-pid=\"0PoPdo2I\">2022.8.28打卡</p><p data-pid=\"gPZ8Q6qt\">单训练是有点无聊，放些自己喜欢的音乐，就会轻松很多，不要因为有路人就觉得尴尬，习惯就没什么了，放的音量也不要太大打扰别人，刚好就行。这些天大幅度降温了，训练倒是舒服很多，但平时冷的好想穿袄。。。。还有克服懒惰心理，每天说服自己从床上下来就已经成功一半了，之后打开音乐，换上衣服，就不会有那么多犹豫的想法了，犹豫也要开始。</p><p data-pid=\"oLj01jPJ\">2022.8.29打卡</p><p data-pid=\"-JDFKisk\">小区楼下大爷问我是不是学体育练田径的，我。。。</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-bebbf663cb2a4b8fc5fd097a85a3f7db_1440w.jpg\" data-rawwidth=\"942\" data-rawheight=\"958\" data-size=\"small\" data-original-token=\"v2-bebbf663cb2a4b8fc5fd097a85a3f7db\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-52829298c176e4942767759bfba6882f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"942\" data-original=\"https://pic2.zhimg.com/v2-bebbf663cb2a4b8fc5fd097a85a3f7db_r.jpg\"/></figure><p data-pid=\"8qhc4nh2\">2022.8.30打卡</p><p data-pid=\"y20iSdPM\">2022.8.31打卡，迎来九月</p><p data-pid=\"54QUdeWm\">2022.9.1今天开学了，坐了一天车，还要收拾寝室，非常很累，今天休息。</p><p data-pid=\"V62wTXwE\">2022.9.2打卡</p><p data-pid=\"hbujOdRR\">这边天气挺热的</p><p data-pid=\"V_oB3AL2\">2022.9.3瑜伽1小时40分打卡</p><p data-pid=\"BxKUqK9C\">人真是善变，有时候说没关系你也不是特别矮，而等到他想攻击你的时候，他就会说你就是最矮的那个，他知道你哪里是痛处，还在那里插两刀。为什么想要努力长高，只不过不想让别人攻击自己的时候有理所应当的借口，对，我确实矮，所以我渴望长高，哪怕效果很微小，或则没效果，我也会等，我不相信这世界没有一丝善意，毕竟我还是想要去爱它的。</p><p data-pid=\"TAsaHIZ1\">2022.9.4打卡</p><p data-pid=\"lcZdRqbU\">有人说，你有衣穿，有饭吃，有地方睡，那就是幸福，至于烦恼，只不过是把一些小问题放大化了。希望我们都能看见和珍惜身边的美好。</p><p data-pid=\"jMVYTblC\">2022.9.5打卡</p><p data-pid=\"85-iZJ6B\">想做什么就去吧</p><p data-pid=\"f_82cNBa\">2022.9.6打卡</p><p data-pid=\"OxcNWy7o\">2022.9.7打卡</p><p data-pid=\"4cflBBau\">太久没读书了，以至于只读了几页我就被自己感动了。推荐一本今天看的书吧，适合心情很平静或则有点悲伤的时候，《二十一岁以及我的余生》需要准备好纸巾，很容易让人落泪。</p><p data-pid=\"z3BbYTFT\">生病令人审视生活。希望你热爱现有的生活，虽然它有时候看起来无所事事。喝惯了白开水，才发现它其实比饮料甜。—陈子衿《二十一岁以及我的余生》</p><p data-pid=\"8YIjVm2F\">2022.9.8打卡</p><p data-pid=\"EEm8lZwq\">2022.9.9、9.10、9.11经期休息</p><p data-pid=\"hfYYws3M\">2022.9.12打卡恢复训练，去海边鞋子被卷走了，脚趾头也被割伤了，但是还好，不影响训练。</p><p data-pid=\"URNYlSFB\">2022.9.13打卡</p><p data-pid=\"zX0H1Zux\">我的好运气在今天都用完了</p><p data-pid=\"2JUrw0Hg\">2022.9.14打卡</p><p data-pid=\"LMKV0dz7\">想做什么加油去做吧，我就想穿的漂漂亮亮，认真学习和运动，我不要蓬头垢面，不要不修边幅，我要精致和精神。你们说与我无关。</p><p data-pid=\"VwPeqxKO\">偷偷告诉你，我编织了一个梦，那个梦里，我是王，现在那个梦都没醒，希望它永远不要醒。</p><p data-pid=\"Oo3poi5C\"> 2022.9.15打卡</p><p data-pid=\"yUfqfwBj\">该来的会来的</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-44a987d366c77a297cc42f378c19aaab_1440w.jpg\" data-rawwidth=\"662\" data-rawheight=\"662\" data-size=\"small\" data-original-token=\"v2-44a987d366c77a297cc42f378c19aaab\" data-default-watermark-src=\"https://picx.zhimg.com/v2-5ad4feaa100060d23fdd3303a10731b7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"662\" data-original=\"https://picx.zhimg.com/v2-44a987d366c77a297cc42f378c19aaab_r.jpg\"/></figure><p data-pid=\"kxHbMQOU\">！！！！统一回复一下很多人问我这么久了到底长高没有，长高了，但是很少，四个月左右才只有0.8cm，但是我这个年龄确实也不容易长，我只能坚持下去，在坚持的过程中，我是为了长高而开始的训练，可是慢慢的养成习惯后，它带来很多的东西让你惊喜，比如身体上的，气质上的，情绪上的，你会想要每天都必须完成它，像是一天中必要的程序一般，少了它就会觉得缺了很多东西。</p><p data-pid=\"vPzqLUFG\">开始我是为它而来，现在我不是完全为它而来。它带给你的变化，只有你自己去感受才能体会到。</p><p data-pid=\"BjdpR-pN\">我不喜欢别人一直问长高没有，我知道我写的就是长高的帖子，我可能要很久才能看到身高上大的变化或则身高上没有多大变化，这都是未知，但是我只想坚持下去，去开始享受运动。我要很久才能得到答案，这个帖子本身的意义就是记录我的训练，就像日记，我不会只写长高之类的，我还有每天的情绪，事情想要去写。就说这些了吧</p><p data-pid=\"Yte0Rwb4\">2022.9.16打卡</p><p data-pid=\"bY3vWN5C\">每一个温柔的夜晚，我都会如约而至。</p><p data-pid=\"D-WXQA8h\">2022.9.17瑜伽打卡</p><p data-pid=\"C5Kx3tec\">2022.9.18打卡</p><p data-pid=\"f4MZYShE\">2022.9.19打卡</p><p data-pid=\"oqZ66GKY\">2022.9.20打卡</p><p data-pid=\"aTz59vxS\">2022.9.21瑜伽2h打卡</p><p data-pid=\"njVHmXRw\">2022.9.22打卡</p><p data-pid=\"8vGY9gM4\">2022.9.23打卡</p><p data-pid=\"x9hl0O7k\">别轻易回顾过去，也别去讲述，更别为了人该死的胜负欲。她只喜欢讲述，却不喜欢聆听，足以证明你们之间不需要交换太多。不需要太交心。朋友也有很多种，也有可说，可不说的。</p><p data-pid=\"GIIdsPLy\">2022.9.24瑜伽2h打卡</p><p data-pid=\"DCiOqVjV\">2022.9.25打卡</p><p data-pid=\"dIWuF7Ow\">这是这几天很喜欢的话</p><p data-pid=\"F-zovsEW\">持久的坚持才能有惊艳的收获，要放弃的时候，就想想曾经挥洒汗水的自己，不想辜负初心的话，就咬咬牙，坚持下去</p><p data-pid=\"YkQsf6cG\">20岁想做而未做的事情，30岁依然会是心里的一根刺。</p><p data-pid=\"vwtLwyaB\">2022.9.26打卡</p><p data-pid=\"x9_ytYZX\">有时候跟别人会有矛盾产生，很生气，可之后又觉得没必要，人都有多面，她把不好的一面展示给你，活着都辛苦且不易，也许她今天心情不好，也许是性格不合，但并不能说她是个坏人。只是你们不适合做朋友。就这样想吧，少生气，生气伤身体。</p><p data-pid=\"orHo4HU0\">2022.9.27打卡</p><p data-pid=\"oqV7rz2-\">所有的人都是过客，都将会消失，遵从你的内心，无惧他人眼光。</p><p data-pid=\"SAqXURUz\">2022.9.28瑜伽2h打卡</p><p data-pid=\"1phW5w6j\">2022.9.29打卡</p><p data-pid=\"ks8qdxbZ\">2022.9.30休息一天。迎接十月</p><p data-pid=\"k8STZI33\">emo过后我还是要继续，因为我的路只有一条，就是坚持</p><p data-pid=\"BQJ_4i_G\">2022.10.1瑜伽打卡2</p><p data-pid=\"vAGo7j9u\">十月我来了</p><p data-pid=\"tVyU-xjY\">2022.10.2打卡</p><p data-pid=\"B1yfQ8Nt\">2022.10.3打卡</p><p data-pid=\"PPKWCODE\">月亮始终与我无关</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e827cb614e9d056362b1e78d663a061f_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" data-original-token=\"v2-e827cb614e9d056362b1e78d663a061f\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-a49a236f0f73a3afbf1ad5e289c18a6e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://picx.zhimg.com/v2-e827cb614e9d056362b1e78d663a061f_r.jpg\"/></figure><p data-pid=\"LXZUqNhE\">2022.10.4打卡</p><p data-pid=\"qs0D13Qm\">风依旧是风，云依旧是云，都与我无关。</p><p data-pid=\"p9V9ca6D\">2022.10.5瑜伽2h打卡</p><p data-pid=\"PVCn91dX\">为什么坚持，可能是因为喜欢那种明天会更好的感觉。</p><p data-pid=\"YqxJ09U_\">2022.10.6打卡</p><p data-pid=\"q_TG579o\">2022.10.7  10.8  10.9经期休息</p><p data-pid=\"8c8ZF5u4\">2022.10.10打卡</p><p data-pid=\"HjGbyjIF\">2022.10.11打卡</p><p data-pid=\"hwrFXlx1\">2022.10.12瑜伽2h打卡</p><p data-pid=\"tgdd3RfE\">2022.10.13打卡</p><p data-pid=\"gEMokA8i\">如果你胡思乱想，那说明太闲，收起来无处安放的想象力，找点实际的事情做吧。</p><p data-pid=\"VANaQz3q\">2022.10.14打卡</p><p data-pid=\"kVq-OdwQ\">不念过往，只看未来</p><p data-pid=\"I32rbAiR\">2022.10.15瑜伽2h打卡</p><p data-pid=\"d9RlOGeZ\">前两天可能太用力了，左腿关节有些痛，做瑜伽缓缓</p><p data-pid=\"fxD-hJiQ\">2022.10.16打卡</p><p data-pid=\"PiShSVji\">2022.10.17打卡</p><p data-pid=\"ASvfw87B\">人总是听到好的结果以后才会肯定他的付出和汗水。一旦结果不尽人意，就会是嘲笑。成功了的看起来奇怪的人被称为天才，失败了的看起来奇怪的人被称为傻瓜。</p><p data-pid=\"bD1YvOWu\">2022.10.18打卡</p><p data-pid=\"2pm3tjjK\">2022.10.19瑜伽2h打卡</p><p data-pid=\"X3PKw7Mk\">是的，这只是我的日记，记录我的锻炼，我的心情，是我的一个发泄口。</p><p data-pid=\"A8iNnjO_\">2022.10.20打卡</p><p data-pid=\"lB4WM5u3\">2022.10.21打卡</p><p data-pid=\"VU2_MMao\">相信你的每一次坚持都有改变，只不过它很微小，需要时间才能显现出来。</p><p data-pid=\"iPQ7Ofzq\">2022.10.22瑜伽2h打卡</p><p data-pid=\"s0KMukA6\">2022.10.23打卡</p><p data-pid=\"9aOLb8Bd\">2022.10.24打卡</p><p data-pid=\"kDjcF877\">谢谢给我留言的人，我没有一一回复，但是都看了，我关闭了私信功能，因为害怕别人太多的建议影响我的心态，我一直在坚持着，可能要很久，一年，或则两年，我都要坚持，慢慢的已经成了一个习惯，这个习惯给了我很多自信心，让我每天都训练完都有勇气面对新的一天，那种明天你会变得更好，让我有了一种正反馈，虽然身高没有很明显的变化，但是在朝向目标努力的过程中，让我有了很多收获，比如体态变得更好，皮肤更好，更清透，心情更好，面对一些事情心态更容易平和，更敢展现自己了，这些都是我很大的收获，只要慢慢坚持下来，就会觉得好像也没那么难，只是需要一段困难的时间去养成一个习惯。虽然我没有很大变化，但并不代表你们会没有，每个人的体质不同，去尝试下，可能就会有惊喜。我会一直坚持，谢谢关注我的朋友们，这是一个漫长的过程，我不能立刻就给你们呈现很大的成果，让你们有勇气开始和坚持。我唯一能做的就是坚持一天多一天，我相信这会让我变的更好。我有看到25岁开始训练的，我很幸运自己早了几年，无论有没有用，都要试试，结果谁知道呢。一起坚持吧，至少我们开始了，努力了，以后就不会后悔了。</p><p data-pid=\"LTk8Lrs_\">二十岁想做而未做的事，三十岁依然会是心里的一根刺。</p><p data-pid=\"HRel97XY\">2022.10.25打卡</p><p data-pid=\"fV9rSUa0\">2022.10.26瑜伽1.5h打卡</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-1b255c1e5e09e7b8d41cfe125e469a97_1440w.jpg\" data-rawwidth=\"414\" data-rawheight=\"413\" data-size=\"small\" data-original-token=\"v2-1b255c1e5e09e7b8d41cfe125e469a97\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-3fd26343703921d05397f3e9e8cc6272_b.jpg\" class=\"content_image\" width=\"414\"/></figure><p data-pid=\"uS2WUiYR\">———————之后暂时就先停更了，我会一直坚持的，希望坚持的人开始了就不要放弃。</p><p data-pid=\"Isw9XDPj\">2023.9.20日</p><p data-pid=\"d70O7oFU\">卸载了知乎好久，今天下载打开后，看到好多人的留言，我真的很感动，谢谢你们的鼓励，我还在坚持着，除了那段阳了以后的身体需要恢复的三周停下之外，我都一直没停下自己的脚步，我虽然没在知乎每天打卡，但是绿色的表格我每天都在坚持涂满。</p><p data-pid=\"nYYmyhSE\">我知道你们最想知道的问题就是我长高了没有，长高了两厘米，可能因为我年龄已经比较大了，骨骺线几乎快闭合，所以比较少。到现在我坚持了大概一年多快到两年。我会尽可能坚持下去的，这不是最后的结果。每个人体质不同，最后的结果也不一样，有的人比较早开始会长高更多，希望跟我一样怀有期待的人，我们可以一起坚持下去。</p><p data-pid=\"fnEbAadf\">而对于这一年半我想说，我很庆幸自己开始运动以及坚持到现在，我觉得这是我人生的重要决定，它给我带来的不只是自信的增加，它让我重新审视了自己的生活，人际关系以及生活态度。它让我的生活有很多新的变化，我想说，只有一直坚持下来，你才会发现这条路上有多少惊喜。我在学校里很多地方运动，操场，工科楼，体育馆，无论刮风下雨，也经历过朋友的阴阳怪气。我只想说，开始了，就不要轻易放弃。</p><p data-pid=\"090jDnD1\">我开始尝试喜欢的风格，我好朋友说感觉我变好看了，女孩子爱美是天性，大大方方展示自。我以前总买一些胖大的短袖外套，把自己塞进去，藏起来，害怕过多的目光，整个人畏畏缩缩。而现在我有够多的勇气展现自己，选择漂亮的衣服，热烈的色彩，敢于面对别人投来的目光，自信舒展，是我日复一日从训练中获得的成果。总有一样东西可以给你坚持下来的勇气，学习或者是运动，既然选择了，就一定要坚持下去，只有坚持下去你才能看到它给你带来的改变和惊喜。</p><p data-pid=\"fWOICMjm\">最后补充一下我的运动清单：之前运动量太大坚持了几个月后发现身体很累，而且对运动有点排斥，不利于长期坚持下去，所以适当缩短了运动量。有两个方案，一是，每天左右甩腿共100次，摸高100下，跳绳2000个，keep芭蕾肩颈练习20分钟，一套下来大概是是一个半小时。二是keep瑜伽练习，臀腿30分钟，肩背30分钟，芭蕾颈肩20分钟，健美操15分钟，也是大概一个半小时。这两个计划我是一般间替的来做的。瑜伽比较缓和，如果身体比较累的时候可以做第二个方案。运动量不要太多不然你的身体会明显特别劳累，这种属于过量运动反而会伤身体，运动的多少要根据自己的身体状况而定，我的计划仅供参考。</p><p data-pid=\"P-gaj0a6\">最后，我会继续坚持的，与你们一起坚持下去。</p><p data-pid=\"eNnqPT2L\">更新2024.2.25</p><p data-pid=\"Bw5S12OH\">2024年过年走亲戚，我能明显感觉到他们对我上下打量的目光，我表哥也说差点没认出来，我之前觉得挺高的人，现在看着好像也没那么高了，长期坚持运动体型确实变的比以前修长很多，感觉现在也不矮了，我妈也说明显高了，我也能感觉到我几个姨的打量的目光，可能是觉得都二十多了居然高了些，变了很多吧，所以到现在我依旧在坚持，快两年了，所以要坚持下去，用自己的蜕变来让他们说不出话，你流过的汗水一定不会白费，这不是鸡汤，是事实，一起加油，期待越来越好的我们，期待充满自信不被流言蜚语打倒的我们，共勉！</p><p data-pid=\"d7OgopHx\">2024.4.17</p><p data-pid=\"uiwBDSgR\">对身边人的影响慢慢会有些，比如我妈，她以前就是不爱动，比较胖些，有肚子，后来她也开始慢慢每天坚持跳广场舞一二十分钟，后来回家感觉我妈的精神气都变好很多，她说她之前肚子上的肉瘦一圈下来了，虽然说体重没变多少，但是人感觉瘦了，还有精神气。还有我嫂子也隔三差五去跳舞，感觉家里人都变得upupup ，积极健康的去生活。</p><p data-pid=\"9ZbQhiig\">2024.4.23</p><p data-pid=\"f9Gdit1G\">每个人都有拥抱太阳的能力，无论发生了什么，都要学会让自己快乐。</p><p data-pid=\"CZMB9pAF\">2024.5.14</p><p data-pid=\"p4bU0ekv\">要好好的爱自己</p><p data-pid=\"Nn6S2fSe\">2025.11.30</p><p data-pid=\"7X49PVgo\">从开始到现在3年了，长高3cm，现在155cm，很漫长，虽然运动量没有那么大了，工作之外每周依旧五次及以上瑜伽运动频率。仍会继续坚持。我觉得有意义，它就值得，已经成习惯了。谢谢大家能坚持看到最后，这并不是最后，我会依旧更新。</p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "created_time": 1652074338,
+        "is_copyable": true,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-beb9cdd068380427b131e8ac6c0b7dba_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b284d46ade67d62494d537d39ecf2ae1_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3b487e57bc1a0ea2458da4c54416b901_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e849938cfd558049ff00acd248e5c19e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-717fd0fa221407d0e506bd439fe8a837_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-590f6952d418369ceffc6b6443dbcb88_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-1495beae8fa646f52539c0481a1b300e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1edbe40c91b033f85b733e23e33fbbbb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4ee0cd871761de4e1b521fec07fd8c83_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-8ad90504bf5877f30525b3a2684fbdaa_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-f5b566ffa1ae2deeb08f54a43343c47a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-18a6966a8ec595545075103d0e17022d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-be086f9514a6757e7c42514a784e9412_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-3fa3454bf46ea5557225bff88c7b936d_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-bebbf663cb2a4b8fc5fd097a85a3f7db_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-44a987d366c77a297cc42f378c19aaab_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e827cb614e9d056362b1e78d663a061f_720w.jpg?source=b6762063"
+        ],
+        "author": {
+          "id": "dbc54cfcfcb221a41823e22eb0310dae",
+          "url": "https://api.zhihu.com/people/dbc54cfcfcb221a41823e22eb0310dae",
+          "user_type": "people",
+          "url_token": "wang-deng-96-2",
+          "name": "果果",
+          "is_org": false,
+          "gender": -1,
+          "headline": "二十岁想做而未做的事，三十岁依旧是心里的一根刺",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-cb0ba3207ef75b5ec67547bb4c6487c3_l.jpg?source=b6762063",
+          "followers_count": 515,
+          "is_following": false,
+          "is_followed": false
+        },
+        "updated_time": 1764516728,
+        "is_navigator": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 2477204182}",
+      "attached_info": "CusMCOml9JmS14qbngEQBBoJNDgwNDg0MDk1IOLO4pMGKPgNMMYDQDJKNAofVFNfU09VUkNFX05FV0JJRV9URVhUX1RXT19UT1dFUhIBMBgAIAA6CnsicmF3IjoiIn1aCDQyMjMwODc1YiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnIKMjQ3NzIwNDE4MooBCTM1OTc4NTQxNqoBCXJlY29tbWVuZMIBIGRiYzU0Y2ZjZmNiMjIxYTQxODIzZTIyZWIwMzEwZGFl8gEKCAwSBk5vcm1hbPIBKAgKEiQ4ZmNmOWU0YS0yMDY0LTQ5Y2UtODAzNi03NDkyNWQ2MTdmYTnyAQUICxIBOYICAIgCqeb86bwzkgIgZGJjNTRjZmNmY2IyMjFhNDE4MjNlMjJlYjAzMTBkYWWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWUmV2aXNpdFZhbHVlV2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXaAh9UU19TT1VSQ0VfTkVXQklFX1RFWFRfVFdPX1RPV0VS6AID+gILTk9STUFMX0ZMT1eKAyA0MjI0MmU5NTQ2ZDI0NDYzODRhOTdhMjg1NDQ0MTdhZJoDDQoCdjIQABoFb3RoZXKoA7+wC9gDAOoDHm5ld2JpZV90ZXh0X3Rvd190b3dlcl9ub19saW1pdPoD7QYSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxCAEBiADCIjdjItYmViOWNkZDA2ODM4MDQyN2IxMzFlOGFjNmMwYjdkYmE6LQgDEIAQGIAMIiN2Mi1iMjg0ZDQ2YWRlNjdkNjI0OTRkNTM3ZDM5ZWNmMmFlMTotCAIQgBAYgAwiI3YyLTNiNDg3ZTU3YmMxYTBlYTI0NThkYTRjNTQ0MTZiOTAxOi0IAhCADBiAECIjdjItZTg0OTkzOGNmZDU1ODA0OWZmMDBhY2QyNDhlNWMxOWU6LQgDEIAMGIAQIiN2Mi03MTdmZDBmYTIyMTQwN2QwZTUwNmJkNDM5ZmU4YTgzNzotCAIQgAoYhxYiI3YyLTU5MGY2OTUyZDQxODM2OWNlZmZjNmI2NDQzZGJjYjg4Oi0IAxCADBiAECIjdjItMTQ5NWJlYWU4ZmE2NDZmNTI1MzljMDQ4MWExYjMwMGU6LQgCEIAQGIAMIiN2Mi0xZWRiZTQwYzkxYjAzM2Y4NWI3MzNlMjNlMzNmYmJiYjotCAMQ3gwYjQsiI3YyLTRlZTBjZDg3MTc2MWRlNGUxYjUyMWZlYzA3ZmQ4YzgzOi0IAxCAJBiAGyIjdjItOGFkOTA1MDRiZjU4NzdmMzA1MjViM2EyNjg0ZmJkYWE6LQgDEIAQGIAMIiN2Mi1mNWI1NjZmZmExYWUyZGVlYjA4ZjU0YTQzMzQzYzQ3YTotCAIQgAwYgBAiI3YyLTE4YTY5NjZhOGVjNTk1NTQ1MDc1MTAzZDBlMTcwMjJkOi0IAxCAEBiADCIjdjItYmUwODZmOTUxNGE2NzU3ZTdjNDI1MTRhNzg0ZTk0MTI6LQgCEIAQGM8OIiN2Mi0zZmEzNDU0YmY0NmVhNTU1NzIyNWJmZjg4YzdiOTM2ZDotCAIQrgcYvgciI3YyLWJlYmJmNjYzY2IyYTRiOGZjNWZkMDk3YTg1YTNmN2RiOi0IAhCWBRiWBSIjdjItNDRhOTg3ZDM2NmM3N2EyOTdjYzQyZjM3OGMxOWFhYWI6LQgDEIAQGIAMIiN2Mi1lODI3Y2I2MTRlOWQwNTYzNjJiMWU3OGQ2NjNhMDYxZjotCAIQngMYnQMiI3YyLTFiMjU1YzFlNWUwOWU3YjhkNDFjZmUxMjVlNDY5YTk3gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAAajuqP4EFAAAAAAAAAACJBYTZ0Cpbd7M/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQmQBgCgBjKoBgCSAiUKCTQ4MDQ4NDA5NRIKMjQ3NzIwNDE4MhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "51_1768675029.865",
+      "type": "feed",
+      "offset": 51,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675029,
+      "updated_time": 1768675029,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1994401253044794122",
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "id": "da7f657e83efd95f31fc4d0d836f3980",
+          "url": "https://api.zhihu.com/people/da7f657e83efd95f31fc4d0d836f3980",
+          "user_type": "people",
+          "url_token": "54-21-39-90",
+          "name": "一针见血",
+          "headline": "在理性与感性之间反复横跳",
+          "avatar_url": "https://pica.zhimg.com/50/v2-c746f9f8833c7a97d53fd98ceec09a7d_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 153
+        },
+        "excerpt_new": "胖猫，老外算了一笔账。 五十一万人民币。 折合七万美元。 在波士顿或者伦敦，这笔钱足以支付一个中产家庭两年的全部开支，或者买下一辆配置极高的特斯拉。 但胖猫把这些钱分成了七百六十次转账。 有个叫MarketWatch的精算师说，这是在给一个根本没打算上市的公司疯狂注资。 他说胖猫的行为在西方金融逻辑里叫“投机性情感并购”。 你以为你在谈恋爱，其实你在玩一种胜率为零的对赌。 他每小时赚几十块钱人民币。 他每天工作十五…",
+        "visited_count": 293267,
+        "favorite_count": 2100,
+        "question": {
+          "type": "question",
+          "answer_count": 0,
+          "follower_count": 0,
+          "bound_topic_ids": [
+            17910,
+            3470598,
+            3472765,
+            3473615,
+            3476309
+          ],
+          "excerpt": "",
+          "detail": "",
+          "id": "655172715",
+          "url": "https://api.zhihu.com/questions/655172715",
+          "title": "胖猫事件，外国人是怎么看的?",
+          "author": {
+            "url": "https://api.zhihu.com/people/915110ddccb8d17a6a2ad278dcf8033c",
+            "user_type": "people",
+            "url_token": "89-51-3-28-78",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 41,
+            "id": "915110ddccb8d17a6a2ad278dcf8033c",
+            "name": "欲诉过往遇山鬼",
+            "headline": "把所有的歌——都献给你。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-80780a1d4cb95ec1423f4224dc43ebff_l.jpg?source=b6762063",
+            "is_following": false,
+            "is_followed": false
+          },
+          "is_following": false,
+          "question_type": "normal",
+          "created": 1715007631,
+          "comment_count": 26,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "is_labeled": false,
+        "answer_type": "normal",
+        "segment_infos": [
+          {
+            "pid": "tQ-mkXX2",
+            "text": "在波士顿或者伦敦，这笔钱足以支付一个中产家庭两年的全部开支，或者买下一辆配置极高的特斯拉。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 29,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994704589551865864"
+                  ],
+                  "is_like": false,
+                  "like_count": 36,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "BRDD39C8",
+            "text": "有个叫MarketWatch的精算师说，这是在给一个根本没打算上市的公司疯狂注资。",
+            "marks": [
+              {
+                "start_index": 20,
+                "end_index": 40,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995648711817176525"
+                  ],
+                  "is_like": false,
+                  "like_count": 107,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Yql2Cy8c",
+            "text": "你以为你在谈恋爱，其实你在玩一种胜率为零的对赌。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995885871161942114"
+                  ],
+                  "is_like": false,
+                  "like_count": 10,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "bnjboM3k",
+            "text": "这意味着他要点击几十万次鼠标，才能给那个女孩换来一个名牌包或者一次旅游。",
+            "marks": [
+              {
+                "start_index": 8,
+                "end_index": 14,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995584713184796741"
+                  ],
+                  "is_like": false,
+                  "like_count": 9,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "rUWomP6O",
+            "text": "老外这叫“现代奴隶制的自愿版本”。",
+            "marks": [
+              {
+                "start_index": 5,
+                "end_index": 16,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995997083543573409"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "BUWDPCZb",
+            "text": "而是胖猫对自己身体的彻底物化。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 15,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995575448613167638"
+                  ],
+                  "is_like": false,
+                  "like_count": 30,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "a95vaIQg",
+            "text": "麦当劳的特价汉堡在国外是流浪汉的标配。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 19,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995857383163987381"
+                  ],
+                  "is_like": false,
+                  "like_count": 54,
+                  "comment_count": 9,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Wql-XeA2",
+            "text": "Hans说，如果一个二十一岁的年轻人，拥有顶级的游戏技术，在任何一个正常的社会评价体系里，他都应该是一个高净值人才。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 58,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995452956443690948"
+                  ],
+                  "is_like": false,
+                  "like_count": 63,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "yZ4dY_x7",
+            "text": "一位坐标纽约的心理咨询师发帖说，这个女孩谭竹展现出了极其典型的“暗黑人格”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 38,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994943613466072140"
+                  ],
+                  "is_like": false,
+                  "like_count": 53,
+                  "comment_count": 2,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "eU8LeQgQ",
+            "text": "她捕捉到了一个社交匮乏者的心理漏洞。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995099534729159426"
+                  ],
+                  "is_like": false,
+                  "like_count": 27,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "hjHplYim",
+            "text": "他们管这叫“认知功能性障碍下的财产被掠夺”。",
+            "marks": [
+              {
+                "start_index": 6,
+                "end_index": 20,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995915993453707396"
+                  ],
+                  "is_like": false,
+                  "like_count": 11,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "I64fvIYq",
+            "text": "美国外教Sarah在她的博客里写，这些外卖是成千上万个“胖猫同类”的投名状。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 38,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994943613466072140"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "fy9efXZM",
+            "text": "他们是在通过这种方式，抗议自己也正在经历的贫乏。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 24,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995885871161942114"
+                  ],
+                  "is_like": false,
+                  "like_count": 12,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "WjcXdggj",
+            "text": "他们认为，如果这些送外卖的人能把钱存起来，或者去参与社区建设，胖猫的悲剧可能就会少一点。",
+            "marks": [
+              {
+                "start_index": 16,
+                "end_index": 30,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995822106794021640"
+                  ],
+                  "is_like": false,
+                  "like_count": 17,
+                  "comment_count": 4,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7q13BaMd",
+            "text": "因为在他们的价值观里，爱可以消失，但财务上的极度剥削必须被纠正。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995662336644630419"
+                  ],
+                  "is_like": false,
+                  "like_count": 23,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "MjqA9pnT",
+            "text": "他们并不认同那种“死者为大”或者“感情账算不清”的模糊逻辑。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 30,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995966586767566028"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "CDAmJGHk",
+            "text": "他说，在这个二十一岁男孩的潜意识里，他甚至不敢要求一顿大餐。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 30,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995966586767566028"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "9--RAqQy",
+            "text": "他只想要一个三美元的汉堡。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 13,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995916222110389094"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "2qhgsP6q",
+            "text": "你是一个数字巨兽，也是一个物理残废。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 18,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995099534729159426"
+                  ],
+                  "is_like": false,
+                  "like_count": 17,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "x5-ofX2a",
+            "text": "他是死于一种“感官剥夺”。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 13,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995916222110389094"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "id": "1994401253044794122",
+        "type": "answer",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ba361b4e30a4aaa3887f3a11808129a0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"699\" data-rawheight=\"393\" data-original-token=\"v2-ad7ccedadcb0f0416ace71565f240302\" class=\"origin_image zh-lightbox-thumb\" width=\"699\" data-original=\"https://pica.zhimg.com/v2-ba361b4e30a4aaa3887f3a11808129a0_r.jpg\"/></figure><p data-pid=\"gAEHT_al\">胖猫，老外算了一笔账。</p><p data-pid=\"hnxnexHW\">五十一万人民币。</p><p data-pid=\"1d1or9ic\">折合七万美元。</p><p data-pid=\"tQ-mkXX2\">在波士顿或者伦敦，这笔钱足以支付一个中产家庭两年的全部开支，或者买下一辆配置极高的特斯拉。</p><p data-pid=\"pxk05TrW\">但胖猫把这些钱分成了七百六十次转账。</p><p data-pid=\"BRDD39C8\">有个叫MarketWatch的精算师说，这是在给一个根本没打算上市的公司疯狂注资。</p><p data-pid=\"B_E8jP-F\">他说胖猫的行为在西方金融逻辑里叫“投机性情感并购”。</p><p data-pid=\"Yql2Cy8c\">你以为你在谈恋爱，其实你在玩一种胜率为零的对赌。</p><p data-pid=\"25cI-eQ0\">他每小时赚几十块钱人民币。</p><p data-pid=\"5p_93cih\">他每天工作十五个小时以上。</p><p data-pid=\"bnjboM3k\">这意味着他要点击几十万次鼠标，才能给那个女孩换来一个名牌包或者一次旅游。</p><p data-pid=\"rUWomP6O\">老外这叫“现代奴隶制的自愿版本”。</p><p data-pid=\"P0rXy55L\">胖猫没有锁链，他的锁链是手机里的转账界面。</p><p data-pid=\"uuGj573I\">外国人看这件事，最先感到毛骨悚然的不是那个女孩的冷漠。</p><p data-pid=\"BUWDPCZb\">而是胖猫对自己身体的彻底物化。</p><p data-pid=\"_HdZTjIM\">他在两年里只吃十块钱的外卖。</p><p data-pid=\"a95vaIQg\">麦当劳的特价汉堡在国外是流浪汉的标配。</p><p data-pid=\"VcXONqUt\">但在胖猫的世界里，这竟然成了他的一种“节约美德”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8OzffT_V\">德国网友Hans对此非常愤怒。</p><p data-pid=\"aPB-hG9T\">他认为这是一种对人权的自我践踏。</p><p data-pid=\"Wql-XeA2\">Hans说，如果一个二十一岁的年轻人，拥有顶级的游戏技术，在任何一个正常的社会评价体系里，他都应该是一个高净值人才。</p><p data-pid=\"sOxABrCR\">但他活得像一个旧时代的煤矿工。</p><p data-pid=\"Jj1IfW90\">这种对个体的极度压榨，竟然披着一层“深情”的外皮。</p><p data-pid=\"in9kke4t\">这是最让西方社区感到困惑的地方。</p><p data-pid=\"TGvaPxgp\">在当时，老外的风向更偏向于“情感寄生”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yZ4dY_x7\">一位坐标纽约的心理咨询师发帖说，这个女孩谭竹展现出了极其典型的“暗黑人格”。</p><p data-pid=\"eU8LeQgQ\">她捕捉到了一个社交匮乏者的心理漏洞。</p><p data-pid=\"dzZ-UvMp\">胖猫除了游戏，几乎没有现实社交。</p><p data-pid=\"AQL-EKEu\">他所有的自尊都建立在“我能赚钱”和“我能给钱”的基础上。</p><p data-pid=\"tw25F_n9\">这就是闭环。</p><p data-pid=\"Y-cJYPoD\">女孩要钱，胖猫给钱。</p><p data-pid=\"bBsZATrQ\">给钱的过程，成了胖猫确认自己“被需要”的唯一方式。</p><p data-pid=\"TWPKcoRl\">这在心理学上叫“病理性付偿”。</p><p data-pid=\"XBUwmZwb\">西方网友不觉得这叫“痴情”。</p><p data-pid=\"hjHplYim\">他们管这叫“认知功能性障碍下的财产被掠夺”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AyiGybvY\">再看那座桥上的外卖。</p><p data-pid=\"Zakon8LX\">那一排排还没开封就变质的汉堡和奶茶。</p><p data-pid=\"Vp0HL4tZ\">在国外，这张照片引发了巨大的争议。</p><p data-pid=\"I64fvIYq\">美国外教Sarah在她的博客里写，这些外卖是成千上万个“胖猫同类”的投名状。</p><p data-pid=\"njiZyhNA\">他们不是在祭奠死者。</p><p data-pid=\"fy9efXZM\">他们是在通过这种方式，抗议自己也正在经历的贫乏。</p><p data-pid=\"DwfpCRgu\">Sarah说，她在成都教书时，见过很多像胖猫一样的年轻人。</p><p data-pid=\"OTLcYxd1\">他们住在窄小的出租屋里，靠屏幕连接世界。</p><p data-pid=\"w86sPEIT\">他们对真实生活的触感已经丧失了。</p><p data-pid=\"axt7D44x\">所以当他们看到胖猫因为吃不起外卖而死，他们唯一的补偿方式就是疯狂下单外卖。</p><p data-pid=\"xQ1TK5Ia\">这是一种极度荒诞的补偿。</p><p data-pid=\"R2LtEo8V\">但这在很多欧洲网友眼里，简直是不可理喻的浪费。</p><p data-pid=\"WjcXdggj\">他们认为，如果这些送外卖的人能把钱存起来，或者去参与社区建设，胖猫的悲剧可能就会少一点。</p><p data-pid=\"evAlGW-y\">但这正是国内外认知差异最大的地方。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JXyLk-x7\">胖猫的姐姐在网上发声，追讨那五十一万。</p><p data-pid=\"lw6lpg8-\">这一行为在国外法律社区也被反复讨论。</p><p data-pid=\"7nPKtqRh\">法律博客Common Law Insights分析了其中的“不当得利”逻辑。</p><p data-pid=\"JBWleHY3\">在英美法系下，如果一笔钱是基于“结婚”这个前提赠与的，那么当结婚这个目的无法达成时，这笔钱就不再是纯粹的赠与。</p><p data-pid=\"E51zTTDQ\">它带有一种契约属性。</p><p data-pid=\"gG_VLTzq\">很多外国网友支持追回这笔钱。</p><p data-pid=\"7q13BaMd\">因为在他们的价值观里，爱可以消失，但财务上的极度剥削必须被纠正。</p><p data-pid=\"MjqA9pnT\">他们并不认同那种“死者为大”或者“感情账算不清”的模糊逻辑。</p><p data-pid=\"ADiXqNfQ\">他们要的是数字的公正。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_22H1pZv\">有一个细节在外网被反复提及。</p><p data-pid=\"-871ZURK\">胖猫的头像。</p><p data-pid=\"EDHVU5HY\">那个写着“不想吃菜，想吃麦当劳”的卡通猫。</p><p data-pid=\"cnu8HYBN\">一个瑞典的设计师说，这个头像让他看哭了。</p><p data-pid=\"CDAmJGHk\">他说，在这个二十一岁男孩的潜意识里，他甚至不敢要求一顿大餐。</p><p data-pid=\"9--RAqQy\">他只想要一个三美元的汉堡。</p><p data-pid=\"MFO3ByA1\">这种卑微到尘埃里的欲望，和那五十一万的巨款，形成了一种极其恐怖的张力。</p><p data-pid=\"fxeJrrBa\">这揭示了数字游民时代的某种真相。</p><p data-pid=\"ob9FZ8-H\">你可以在网络世界里呼风唤雨，你可以是顶级玩家。</p><p data-pid=\"FSWXDJkW\">但在物理世界里，你可能连基本的营养都无法保证。</p><p data-pid=\"2qhgsP6q\">你是一个数字巨兽，也是一个物理残废。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IpqdfFK5\">胖猫事件在外网上被归类到了“Toxic Relationships（毒性关系）”标签下。</p><p data-pid=\"uM5ddpmY\">答主们在讨论一个非常实际的问题。</p><p data-pid=\"JuRYNg-N\">为什么胖猫没有朋友？</p><p data-pid=\"eTYyqls-\">为什么在长达两年的时间里，没有人拉他一把？</p><p data-pid=\"Qf1huv_v\">没有人告诉他，嘿，你转出去的钱够你在任何一个城市买套房的首付了。</p><p data-pid=\"w6Odv6_k\">这种社会支持系统的缺失，才是外国人觉得最不可思议的。</p><p data-pid=\"PQ0-EkdN\">在很多西方社区，年轻人即便再宅，也会有基本的社区连接。</p><p data-pid=\"tOCLCU2J\">但胖猫似乎活在一个真空里。</p><p data-pid=\"ANWSDjtE\">他唯一的连接点，就是那个不断吞噬他金钱的对话框。</p><p data-pid=\"LKhj_CZt\">这种极致的孤独，被异化成了数字时代的最新病症。</p><p data-pid=\"glp-61Vg\">有网友说，胖猫不是死于跳江。</p><p data-pid=\"x5-ofX2a\">他是死于一种“感官剥夺”。</p><p data-pid=\"vKB-bgQW\">当他把所有的生活都压缩进那个几英寸的屏幕时，现实世界的重力对他来说就已经太沉重了。</p><p data-pid=\"Et5KWV6j\">这不仅是爱情的崩塌。</p><p data-pid=\"7SJIqKeV\">这是一个劳动者在情感市场上的彻底破产。</p><p data-pid=\"YXHH5Gvb\">胖猫用了两年时间，把自己变成了一台高效率的提款机。</p><p data-pid=\"XvZWXWPO\">最后，提款机因为电压过载，自己烧毁了。</p><p data-pid=\"u6vxQL5J\">这种叙事剥离了所有的浪漫色彩。</p><p data-pid=\"_hmitdWl\">只有一笔接一笔的转账单。</p><p></p>",
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "created_time": 1768282312,
+        "updated_time": 1768282312,
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "voteup_count": 4760,
+        "thanks_count": 648,
+        "comment_count": 405,
+        "is_copyable": false,
+        "excerpt": "胖猫，老外算了一笔账。 五十一万人民币。 折合七万美元。 在波士顿或者伦敦，这笔钱足以支付一个中产家庭两年的全部开支，或者买下一辆配置极高的特斯拉。 但胖猫把这些钱分成了七百六十次转账。 有个叫MarketWatch的精算师说，这是在给一个根本没打算上市的公司疯狂注资。 他说胖猫的行为在西方金融逻辑里叫“投机性情感并购”。 你以为你在谈恋爱，其实你在玩一种胜率为零的对赌。 他每小时赚几十块钱人民币。 他每天工作十五…",
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994401253044794122}",
+      "attached_info": "CroHCOml9JmS14qbngEQBBoJNzY1MjIxMTI4IMixl8sGKJglMJUDQDNKKAoTVFNfU09VUkNFX0ZFRURSRV9WNRIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KWwopVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlQSKGhvdF9yZWNhbGxfcmVhbHRpbWVfdDpuZXc3ZDoyMDI2LTAxLTE3OjAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTEwNzg3MTU0NmIgYTFkZWNkOTFjZGYxMjFjZDY0ODFjYjAzMDlkMzZiYjZyEzE5OTQ0MDEyNTMwNDQ3OTQxMjKKAQk2NTUxNzI3MTWqAQlyZWNvbW1lbmTCASBkYTdmNjU3ZTgzZWZkOTVmMzFmYzRkMGQ4MzZmMzk4MPIBCggMEgZOb3JtYWzyASgIChIkYzNjNWQ0YzktZDY5Ny00Nzg1LTk5Y2YtN2ZhMWE5ZWQzZWUy8gEFCAsSATmCAgCIAqnm/Om8M5ICIGRhN2Y2NTdlODNlZmQ5NWYzMWZjNGQwZDgzNmYzOTgwmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCEkNsaXBQZWFrV2VpZ2h0UnVsZdoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgL6AgtOT1JNQUxfRkxPV4oDIDQyMjQyZTk1NDZkMjQ0NjM4NGE5N2EyODU0NDQxN2FkmgMNCgJ2MhAAGgVvdGhlcqgDk/MR2AMA6gMZZmVlZHJlV2FybVN1Y2Nlc3NSZWNhbGxlcvoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELsFGIkDIiN2Mi1hZDdjY2VkYWRjYjBmMDQxNmFjZTcxNTY1ZjI0MDMwMoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAGM1oz+BBQAAAAAAAAAAiQWE2dAqW3ezP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUJkAYAoAYzqAYAkgIuCgk3NjUyMjExMjgSEzE5OTQ0MDEyNTMwNDQ3OTQxMjIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "52_1768675029.987",
+      "type": "feed",
+      "offset": 52,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675029,
+      "updated_time": 1768675029,
+      "target": {
+        "question": {
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-418e9a16408ee94fca6b4ac0dd3af6ab_l.jpg?source=b6762063",
+            "is_org": false,
+            "id": "f5ba65f7bdc237ec155102169f1cf3db",
+            "url": "https://api.zhihu.com/people/f5ba65f7bdc237ec155102169f1cf3db",
+            "user_type": "people",
+            "url_token": "zhang-zi-sn",
+            "name": "庆山",
+            "headline": "诚意正心，格物致知",
+            "is_following": false,
+            "gender": 1,
+            "followers_count": 1507,
+            "is_followed": false
+          },
+          "comment_count": 26,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/24656278",
+          "created": 1406606475,
+          "bound_topic_ids": [
+            307,
+            404,
+            740,
+            1546,
+            1575
+          ],
+          "id": "24656278",
+          "title": "为什么我们「听过很多道理，依然过不好这一生」？",
+          "answer_count": 0,
+          "detail": "",
+          "follower_count": 0
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 13,
+        "navigator_vote": false,
+        "id": "1996011900140537733",
+        "created_time": 1768666321,
+        "is_copyable": true,
+        "favorite_count": 0,
+        "allow_segment_interaction": true,
+        "thanks_count": 0,
+        "excerpt": "因为没有做到知行合一，这个理论是由龙场悟道的王阳明先生提出的概念，他所提出的并不仅仅是知道然后做到这个概念， 而是心与行本就应该融为一体自然天成。唯有知行合一才能无往不利，回答这个问题上来，光是听过很多道理起不到任何效果，最多就是吹牛的时候词汇量梗丰富些罢了，听过的理论如果能够与行动相结合， 结合的程度越高必定能够看到好的结果，光说不做假把式自然不可能有任何成果。就拿最简单的生活作息来说，人人都知…",
+        "is_labeled": false,
+        "answer_type": "normal",
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1996011900140537733",
+        "author": {
+          "is_org": false,
+          "gender": 0,
+          "id": "569f109ade9fac0a20e4aab48298a91c",
+          "url": "https://api.zhihu.com/people/569f109ade9fac0a20e4aab48298a91c",
+          "user_type": "people",
+          "url_token": "pang-da-cheng-zi",
+          "name": "大大大橙子部长",
+          "headline": "传统媒体从业人员 目前负责新媒体运营 热爱钻研心理学",
+          "followers_count": 238,
+          "is_followed": false,
+          "avatar_url": "https://pic1.zhimg.com/50/v2-514831a18cd7c54acbf9a12f4710034b_l.jpg?source=b6762063",
+          "is_following": false
+        },
+        "voteup_count": 1,
+        "excerpt_new": "因为没有做到知行合一，这个理论是由龙场悟道的王阳明先生提出的概念，他所提出的并不仅仅是知道然后做到这个概念， 而是心与行本就应该融为一体自然天成。唯有知行合一才能无往不利，回答这个问题上来，光是听过很多道理起不到任何效果，最多就是吹牛的时候词汇量梗丰富些罢了，听过的理论如果能够与行动相结合， 结合的程度越高必定能够看到好的结果，光说不做假把式自然不可能有任何成果。就拿最简单的生活作息来说，人人都知…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"yhvFtZnh\">因为没有做到知行合一，这个理论是由龙场悟道的王阳明先生提出的概念，他所提出的并不仅仅是知道然后做到这个概念，<b>而是心与行本就应该融为一体自然天成。</b></p><p data-pid=\"YR1y41gL\">唯有知行合一才能无往不利，回答这个问题上来，光是听过很多道理起不到任何效果，最多就是吹牛的时候词汇量梗丰富些罢了，听过的理论如果能够与行动相结合，<b>结合的程度越高必定能够看到好的结果</b>，光说不做假把式自然不可能有任何成果。</p><p data-pid=\"hDLN2BL8\">就拿最简单的生活作息来说，人人都知道熬夜伤身体会影响第二天的精神状态，但是能做到真的按时休息的人寥寥无几，喊口号谁都会但是做不到自然就得不到道理指向的结果。由于之前天天凌晨一点才入睡，导致我后续几天的精神状态都非常恍惚，不但影响做事的决断力连跟人交往的状态也受到影响，不良的精神状态会形成恶性循环不断在各种方面带来负面反馈，光是顶着两个黑眼圈就让人敬而远之，我想长期如此必定会影响各方面运气。</p><p data-pid=\"YfKCE5Lw\">接着上网查询了熬夜对身体都伤害后，下定决心从上周开始早点休息，一下子改变作息习惯的确非常不容易，但是先设立小目标循序渐进的完成就容易许多，先从晚上12点前必须入水开始，两三天后再慢慢提前到晚上11：30，如此坚持两个星期之后果然精神状态和气色有了非常大的改善，说话做事也比之前灵醒不少，白天能量比熬夜的时候提高不少，而且明显感到人休息好之后各方面事情的进展都顺利不少，按时作息是人人都能做到的，得到的好处也是立竿见影的，这点就说明只<b>要知行合一且完成度极高是肯定能过好生活的。</b></p><p data-pid=\"OQS_0hmO\">除了知道之后还要做到之外，还有一点也是大家明白道理却不能过好的原因，那就是<b>对道理一知半解似懂非懂停理解留在表面的并不透彻。</b>举个例子，我从2020年开始学着投资各种基金股票，刚开始那两年都是看专家的名句一知半解就学着操作，只读了投资书籍的名言摘要就以为自己已经掌握金融规律，导致在后续的投资中亏损不少。</p><p data-pid=\"zSV7jeXI\">痛定思痛之后，去年开始买了许多国内外的经济学读物仔细研读，从《资本论》、《货币战争》到段永平的《投资问答录》，完整的从头到尾仔细划线做读书笔记，了解所有经济运作背后蕴藏的规律，<b>在学习的过程中明白许多理论自己之前的理解太过肤浅，对市场各大公司行业的涨跌规律没有抓住本质，</b>这也是导致自己在投资过程中屡屡做出错误决策的原因，比如黄金有关的基金背后涨跌的逻辑，由于认知不够导致我以前稍稍下跌便匆匆抛售错过了后面的回报，自从明白国际金融资产的背后逻辑，现在买入的资产都是自己做过深入分析的调查的，已经可以做到没有投机心态理性持有了。</p><p data-pid=\"SqrE0cm5\">总而言之，要把听过的道理用到生活中把人生过好，<b>一方面就是要把执行力与道理完美配合，另一方面就是对于道理不要停留在表面理解，要通过各种方法掌握道理背后的逻辑。</b></p>",
+        "type": "answer",
+        "updated_time": 1768666321,
+        "comment_count": 0,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996011900140537733}",
+      "attached_info": "CocGCOml9JmS14qbngEQBBoJNzY1ODYwNTIxINHprssGKAEwAEA0SiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgcyMDQ0NTQ1YiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTk5NjAxMTkwMDE0MDUzNzczM4oBCDI0NjU2Mjc4qgEJcmVjb21tZW5kwgEgNTY5ZjEwOWFkZTlmYWMwYTIwZTRhYWI0ODI5OGE5MWPyAQoIDBIGTm9ybWFs8gEoCAoSJDhmZTUwMDQ3LTY0NzktNGU3OS04ZjM1LTUwZDU5NDMxMTc2MPIBBQgLEgE5ggIAiAKp5vzpvDOSAiA1NjlmMTA5YWRlOWZhYzBhMjBlNGFhYjQ4Mjk4YTkxY5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AID+gILTk9STUFMX0ZMT1eKAyA0MjI0MmU5NTQ2ZDI0NDYzODRhOTdhMjg1NDQ0MTdhZJoDDQoCdjIQABoFb3RoZXKoAw3YAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMC0HYg/gQUAAAAAAAAAAIkFhNnQKlt3sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCZAGAKAGNKgGAZICLgoJNzY1ODYwNTIxEhMxOTk2MDExOTAwMTQwNTM3NzMzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "53_1768675029.765",
+      "type": "feed",
+      "offset": 53,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768675029,
+      "updated_time": 1768675029,
+      "target": {
+        "type": "answer",
+        "author": {
+          "url": "https://api.zhihu.com/people/d4b286ba49bb491206a4c72d09a7da31",
+          "user_type": "people",
+          "headline": "编程，交易，旅行，永远在路上",
+          "is_org": false,
+          "gender": 1,
+          "id": "d4b286ba49bb491206a4c72d09a7da31",
+          "name": "Captain",
+          "avatar_url": "https://picx.zhimg.com/50/bc6c50c23b31fb0683e838b9e6696f46_l.jpg?source=b6762063",
+          "followers_count": 148,
+          "is_following": false,
+          "is_followed": false,
+          "url_token": "iii-ll"
+        },
+        "created_time": 1751626183,
+        "comment_count": 7,
+        "excerpt": "可以看看这个项目，币圈常用的工具都有收集 https://github.com/Tangent-Wei/crypto_info",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "id": "1924540381812470276",
+        "updated_time": 1751626183,
+        "thanks_count": 14,
+        "content": "<p data-pid=\"3mnKZITt\">可以看看这个项目，币圈常用的工具都有收集</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//github.com/Tangent-Wei/crypto_info\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/Tangent-Wei/</span><span class=\"invisible\">crypto_info</span><span class=\"ellipsis\"></span></a><p></p>",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "excerpt_new": "可以看看这个项目，币圈常用的工具都有收集 https://github.com/Tangent-Wei/crypto_info",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "visited_count": 16938,
+        "answer_type": "normal",
+        "favorite_count": 1038,
+        "url": "https://api.zhihu.com/answers/1924540381812470276",
+        "voteup_count": 253,
+        "is_copyable": false,
+        "question": {
+          "url": "https://api.zhihu.com/questions/454183658",
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "id": "454183658",
+          "type": "question",
+          "is_following": false,
+          "detail": "",
+          "question_type": "normal",
+          "author": {
+            "url_token": "zhi-hu-ren-7",
+            "headline": "希望跟上时代而不被时代所淘汰，期望通过努力后能实现财务自由。",
+            "avatar_url": "https://pica.zhimg.com/50/v2-bb5ce0c5f1899cc8e7c6b7bcf905a9a7_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 11,
+            "is_following": false,
+            "is_followed": false,
+            "id": "3d5151c5e267bf0714c0f4bd6d28ad9b",
+            "url": "https://api.zhihu.com/people/3d5151c5e267bf0714c0f4bd6d28ad9b",
+            "user_type": "people",
+            "name": "知乎人",
+            "gender": 0
+          },
+          "comment_count": 0,
+          "title": "大佬们知道有什么软件可以及时看到币圈各种消息的？",
+          "created": 1618194646,
+          "bound_topic_ids": [
+            16712,
+            313375,
+            194707,
+            200027
+          ]
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "navigator_vote": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1924540381812470276}",
+      "attached_info": "Cu0GCOml9JmS14qbngEQBBoJNzM1NDI5ODQ1IMfjnsMGKP0BMAdANUpZChdUU19TT1VSQ0VfQVVUSE9SX0dDRl9IURI4ZGF0YTpsYXN0X25fYmVoYXZpb3JfdHlwZTpuZXc6Q29sbGVjdDp1c2VyX2lkOjMxLDk2NSw0MjMYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDYzMjA5MzMwYiBhMWRlY2Q5MWNkZjEyMWNkNjQ4MWNiMDMwOWQzNmJiNnITMTkyNDU0MDM4MTgxMjQ3MDI3NooBCTQ1NDE4MzY1OKoBCXJlY29tbWVuZMIBIGQ0YjI4NmJhNDliYjQ5MTIwNmE0YzcyZDA5YTdkYTMx8gEKCAwSBk5vcm1hbPIBKAgKEiQ2ODVlOGYwMS1hYjJmLTQ5OTMtYjIzYS02NGY2MWI2ZTlhYTPyAQUICxIBOYICAIgCqeb86bwzkgIgZDRiMjg2YmE0OWJiNDkxMjA2YTRjNzJkMDlhN2RhMzGaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hR6AIC+gILTk9STUFMX0ZMT1eKAyA0MjI0MmU5NTQ2ZDI0NDYzODRhOTdhMjg1NDQ0MTdhZJoDDQoCdjIQABoFb3RoZXKoA6qEAdgDAOoDF2djZktubkF1dGhvckxhc3ROUmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNzDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIDDDIo/gQUAAAAAAAAAAIkFhNnQKlt3sz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFCZAGAKAGNagGAJICLgoJNzM1NDI5ODQ1EhMxOTI0NTQwMzgxODEyNDcwMjc2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=53&desktop=true&end_offset=53&page_number=10&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=53&desktop=true&end_offset=53&page_number=10&session_token=a1decd91cdf121cd6481cb0309d36bb6",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

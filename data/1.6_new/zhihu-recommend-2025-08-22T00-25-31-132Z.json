@@ -1,0 +1,593 @@
+{
+  "data": [
+    {
+      "id": "150_1755822377.156",
+      "type": "feed",
+      "offset": 150,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822377,
+      "updated_time": 1755822377,
+      "target": {
+        "id": "3273885508",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3273885508",
+        "author": {
+          "id": "000b65d49e2a2162e76bba480d00ea34",
+          "url": "https://api.zhihu.com/people/000b65d49e2a2162e76bba480d00ea34",
+          "user_type": "people",
+          "url_token": "sharetechlee",
+          "name": "Jackpop",
+          "headline": "vx：code_7steps | 公众号：平凡而诗意",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-3aff6dbd998567e60686173ce84e8a0b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "哈尔滨工业大学 计算数学硕士"
+            }
+          ],
+          "followers_count": 123477,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1698899546,
+        "updated_time": 1699178546,
+        "voteup_count": 290,
+        "thanks_count": 146,
+        "comment_count": 7,
+        "is_copyable": true,
+        "question": {
+          "id": "56766597",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/56766597",
+          "author": {
+            "id": "648db903feceec147b5fd09f7038f9f8",
+            "url": "https://api.zhihu.com/people/648db903feceec147b5fd09f7038f9f8",
+            "user_type": "people",
+            "url_token": "chen-yu-tao-7-16",
+            "name": "Ytsc",
+            "headline": "深夜漫步者 正义的码农 Go语言征服者",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-5357cf0e39b8dd727bc2a18f8bcce301_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 31,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有哪些好用的开源软件？",
+          "created": 1488886190,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            505,
+            708,
+            866,
+            4170
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-dd04086921ad64d59c2f134702a57e92_720w.jpg?source=b6762063",
+        "excerpt": "好用的开源工具太多了。 有很多开源工具汇聚了来自不同地方大量的开发者，而且不断有新提出的issue并得到不断的解决和优化，久而久之在全面性、实用性方面就要好很多。 相比之下，很多商业软件往往都是冲着商业目的而去的，自然会考虑「投入产出比」，会重点倾向于一些投入少且易于商业变现的功能。 在这方面来说，开源软件就要良心得多。 也正是这个原因，现在每当需要用到某个方面的工具时，我首先都会寻求开源工具。 这些年做…",
+        "excerpt_new": "好用的开源工具太多了。 有很多开源工具汇聚了来自不同地方大量的开发者，而且不断有新提出的issue并得到不断的解决和优化，久而久之在全面性、实用性方面就要好很多。 相比之下，很多商业软件往往都是冲着商业目的而去的，自然会考虑「投入产出比」，会重点倾向于一些投入少且易于商业变现的功能。 在这方面来说，开源软件就要良心得多。 也正是这个原因，现在每当需要用到某个方面的工具时，我首先都会寻求开源工具。 这些年做…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"ziLYiVqr\">好用的开源工具太多了。</p><p data-pid=\"GKRSUnLl\">有很多开源工具汇聚了来自不同地方大量的开发者，而且不断有新提出的issue并得到不断的解决和优化，久而久之在全面性、实用性方面就要好很多。</p><p data-pid=\"Zc7LDYAi\">相比之下，很多商业软件往往都是冲着商业目的而去的，自然会考虑「投入产出比」，会重点倾向于一些投入少且易于商业变现的功能。</p><p data-pid=\"UM78Fgd2\">在这方面来说，开源软件就要良心得多。</p><p data-pid=\"5zBK0LKT\">也正是这个原因，现在每当需要用到某个方面的工具时，我首先都会寻求开源工具。</p><p data-pid=\"vpANZLzi\">这些年做分享，每天都会花费大量时间浏览Github等社区，遇到不错的工具都会记录下来，现在已经收集了很多。</p><p data-pid=\"dbRhk1nS\">今天就从中挑选10款我个人认为很不错的分享给大家。</p><blockquote data-pid=\"dSfFfqzH\">除此之外，为了满足更多同学的诉求，这里给大家推荐一些其他类别的工具，感兴趣的可以看一下！</blockquote><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/274781421/answer/3273238322?utm_psn=1704156776516231168\" data-image=\"https://pica.zhimg.com/v2-5cc143380f342b739c9baac8b30e496a_720w.jpg\" data-image-width=\"2384\" data-image-height=\"712\" class=\"internal\">各位，如何把PDF文档整本翻译出来？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/388442495/answer/3272609983?utm_psn=1704157112903720960\" data-image=\"https://pic4.zhimg.com/v2-dac1e79588fd93a578ddf7aab8d28923_720w.jpg\" data-image-width=\"2194\" data-image-height=\"1014\" class=\"internal\">有比百度网盘还优秀的网盘吗？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/39603060/answer/3266403413?utm_psn=1704157573455056897\" data-image=\"https://picx.zhimg.com/v2-af4439f49386ade00003c56be545a82d_720w.jpg\" data-image-width=\"2085\" data-image-height=\"1685\" class=\"internal\">有哪些有特色的小众软件值得推荐？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/19610340/answer/3266808170?utm_psn=1704157336967532544\" data-image=\"https://pica.zhimg.com/v2-ec604da88ab1fc788ea305b6520eeb52_720w.jpg\" data-image-width=\"1920\" data-image-height=\"934\" class=\"internal\">有什么免费的思维导图软件可以推荐？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/430255409/answer/3270234630?utm_psn=1703531455068831745\" data-image=\"https://picx.zhimg.com/v2-99a2177a304d5bb55fc9fc238f949db1_720w.jpg\" data-image-width=\"3000\" data-image-height=\"1856\" class=\"internal\">在电脑上，有没有好用的PDF转换器免费的啊？</a><h3><b>1. </b><a href=\"https://link.zhihu.com/?target=https%3A//dber.tech/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">DBER</a></h3><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-7e5d1ed2a1b5a5f9c06e1d0b27768f25_1440w.jpg\" data-rawwidth=\"1450\" data-rawheight=\"674\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-d6884f0ade7dbc92f036bd68260d790f\" class=\"origin_image zh-lightbox-thumb\" width=\"1450\" data-original=\"https://pic4.zhimg.com/v2-7e5d1ed2a1b5a5f9c06e1d0b27768f25_r.jpg\"/></figure><p data-pid=\"ALCHHCDM\">基于实体关系图的数据库设计工具，具有如下特点：</p><ul><li data-pid=\"emAUP2hj\">可视化设计数据结构</li><li data-pid=\"nAwmdcTD\">通过拖放创建关系</li><li data-pid=\"4ZzbSwqQ\">从图中直接导出SQL脚本</li></ul><p data-pid=\"OMdOOTbU\">这对于开发同学来说简直太方便了。</p><h3><b>2. </b><a href=\"https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3Dmintlify.document\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Mintlify Doc Writer</a></h3><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5801689d5c6430eca43aef4c103c630c_1440w.gif\" data-rawwidth=\"800\" data-rawheight=\"469\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-5801689d5c6430eca43aef4c103c630c\" data-thumbnail=\"https://pic1.zhimg.com/v2-5801689d5c6430eca43aef4c103c630c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-5801689d5c6430eca43aef4c103c630c_r.jpg\"/></figure><p data-pid=\"TqQNkYaZ\">编写文档很麻烦，但是又是一项必要的工作。</p><p data-pid=\"KkYBJU6b\">使用Mintlify ，只需要选中代码，然后就可以快速生成文档，很神奇、很强大。</p><h3><b>3. </b><a href=\"https://link.zhihu.com/?target=https%3A//marketplace.visualstudio.com/items%3FitemName%3DTrunk.io\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Trunk</a></h3><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6de363c2270970caf11730b73865df25_1440w.gif\" data-rawwidth=\"618\" data-rawheight=\"366\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6de363c2270970caf11730b73865df25\" data-thumbnail=\"https://pic2.zhimg.com/v2-6de363c2270970caf11730b73865df25_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"618\" data-original=\"https://pic2.zhimg.com/v2-6de363c2270970caf11730b73865df25_r.jpg\"/></figure><p data-pid=\"DJSjzKjT\">Trunk是一个速度极快的元代码检查和格式化工具，具有强大的功能，如缓存、问题预检测、一个守护程序和一个语言服务器。</p><p data-pid=\"XaKfbiPl\">它完全通过 &#34;配置即代码 &#34;来管理，所以你可以很容易地将你的 repo 与你的 linters、formatters 和静态分析器的特定版本联系起来。</p><p data-pid=\"TrGHwUbp\">通过Trunk，可以有效提高你的代码质量和一致性。</p><h3>4. <a href=\"https://link.zhihu.com/?target=https%3A//github.com/mito-ds/mito\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Mito</a></h3><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ce651a1482c81fef4fbe48b0711a8e59_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"464\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-0219c4772b3826400cbea0eefe9343cd\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-edcac55207e8737a947f40873253a266_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-ce651a1482c81fef4fbe48b0711a8e59_r.jpg\"/></figure><p data-pid=\"rESDALNn\">Mito是一个开放的、免费的Python工具，它可以帮助新手将MS excel嵌入到Jupyter笔记本中。</p><p data-pid=\"bkbGTZmz\">你在电子表格上进行的任何操作，Mito都会在下一个单元格为你生成Python代码。即便不懂Python编程也可以得到Python代码</p><p data-pid=\"HbTs2td6\">这样的话下次就不用再重复手动操作了，可以说是解放双手了。</p><h3><b>5.</b> <a href=\"https://link.zhihu.com/?target=https%3A//okular.kde.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Okular</a></h3><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-08a2528ae1dc1ed6f79a0bf04726b197_1440w.jpg\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-08a2528ae1dc1ed6f79a0bf04726b197\" class=\"content_image\"/></figure><p data-pid=\"azhVmNEt\">Okular 是一款功能丰富、轻巧快速的跨平台文档阅读器。您可以使用它来阅读 PDF 文档、漫画电子书、Epub 电子书，浏览图像，显示标记语言文档等。</p><h2>6. <a href=\"https://link.zhihu.com/?target=https%3A//github.com/iawia002/lux\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Lux</a></h2><p data-pid=\"t4FXt4Ij\">这是一款用Go语言开发的<b>视频下载工具</b>，用3个关键词来概括它：</p><ul><li data-pid=\"UfoF05Rq\">速度极快</li><li data-pid=\"1yLnJtYe\">功能强大</li><li data-pid=\"e0RR2Q3y\">简单易用</li></ul><p data-pid=\"CiEPCkrH\">首先说「速度极快」这一点，正常的家庭网络环境下，我下载了一个500M的视频，不到5秒左右下载完。</p><p data-pid=\"a91GDsvz\">其次说一下功能强大，它的功能强大体现在3个方面：</p><ul><li data-pid=\"Bdt6ql_o\">稳定可靠</li><li data-pid=\"SMRl63t_\">支持网站全面</li><li data-pid=\"VeVwPyFY\">下载内容形式丰富</li></ul><p data-pid=\"zpi1KJu9\">我用lux测试了<b>B站</b>、<b>优酷</b>等常用的视频网站，都可以轻松下载，而且，它不仅可以通过视频链接下载，还可以通过av和ep号等识别码下载，不会有那么多苛刻的限制。</p><p data-pid=\"DkdL25MJ\">在视频下载方面，可以通过链接下载<b>单个</b>视频，也可以同时下载多个视频，我们还可以把视频链接存到一个txt文档里<b>批量下载</b>，这个后面会介绍。</p><p data-pid=\"h3d8vgSz\">然后，说一下支持网站丰富这方面。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-d5d08e8c8e5c7bb320df8476c770b6a2_1440w.jpg\" data-rawwidth=\"1808\" data-rawheight=\"1874\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-10cc530adf0e4589782e690d40417837\" class=\"origin_image zh-lightbox-thumb\" width=\"1808\" data-original=\"https://pic3.zhimg.com/v2-d5d08e8c8e5c7bb320df8476c770b6a2_r.jpg\"/></figure><p data-pid=\"PLVl6P3h\">抖音、哔哩哔哩、Youtube、半次元、西瓜视频、优酷、爱奇艺、腾讯、网易云音乐、音悦台、AcFun、虎牙直播、快手、Instagram、Facebook等等，国内外主流热门的网站它都支持。</p><p data-pid=\"xMuNgOb5\">最后是内容形式方面，lux以视频下载为主，但是除了视频，它还支持音频、图片、播放列表等内容的下载。</p><h3><b>7. </b><a href=\"https://link.zhihu.com/?target=https%3A//www.qcad.org/en/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">QCAD</a></h3><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-92d97cab71100c8ddf8b2cccca9e230b_1440w.jpg\" data-rawwidth=\"1040\" data-rawheight=\"864\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-439c26295b4850c11a37389f2ed66673\" class=\"origin_image zh-lightbox-thumb\" width=\"1040\" data-original=\"https://pic4.zhimg.com/v2-92d97cab71100c8ddf8b2cccca9e230b_r.jpg\"/></figure><p data-pid=\"y9nIMm8T\">面向所有人的开源CAD系统。</p><p data-pid=\"lwj0Py44\">QCAD是一个免费的、开源的计算机辅助制图（CAD）的二维（2D）应用程序。</p><p data-pid=\"oTY86RB0\">使用QCAD，你可以创建技术图纸，如建筑、室内、机械部件或原理图和图表的计划。</p><p data-pid=\"fcPBHszq\">QCAD可在Windows、macOS和Linux上运行。</p><p data-pid=\"J0PRP3sP\">QCAD应用程序窗口QCAD的设计同时考虑到了模块化、可扩展性和可移植性。除此之外，它还提供了一个非常直观易用的用户界面。</p><h3><b>8. </b><a href=\"https://link.zhihu.com/?target=https%3A//github.com/padloc/padloc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">padloc</a></h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3d3f07f693202808690365712e5ad282_1440w.jpg\" data-rawwidth=\"2360\" data-rawheight=\"1640\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-3040d40f4cca02514b22452f76b04caf\" class=\"origin_image zh-lightbox-thumb\" width=\"2360\" data-original=\"https://pic3.zhimg.com/v2-3d3f07f693202808690365712e5ad282_r.jpg\"/></figure><p data-pid=\"4lD_f8bD\">这是一款适用于个人和团队的开源密码管理器。</p><p data-pid=\"nOMO3ts9\">使用体验和口碑都很不错，可以解决经常忘记密码的困扰。</p><h3><b>9. </b><a href=\"https://link.zhihu.com/?target=https%3A//favicon.io/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">favicon.io</a></h3><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ced2c334eb1a2f1cc6f1dd5864640835_1440w.jpg\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-ced2c334eb1a2f1cc6f1dd5864640835\" class=\"content_image\"/></figure><p data-pid=\"y6NgZWZI\">一款图标生成器，从文本，图像或从数百个表情符号中进行选择，快速生成你的图标。</p><p data-pid=\"cI0Q2s7S\">可能现在很多同学觉得用不着，但是用到的时候去网上搜发现有很多网站利用这项功能收费。</p><p data-pid=\"Lcm6IJZJ\">现在遇到开源免费的，赶紧收藏起来吧！</p><h3>10. <a href=\"https://link.zhihu.com/?target=https%3A//yessglory17.github.io/programmer-browser.github.io/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Programmer Browser</a></h3><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ba7599e15f91899f897e2489399ab111_1440w.jpg\" data-rawwidth=\"2560\" data-rawheight=\"1080\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-1e8c9771c1fd2804d78549346b3da755\" class=\"origin_image zh-lightbox-thumb\" width=\"2560\" data-original=\"https://pic4.zhimg.com/v2-ba7599e15f91899f897e2489399ab111_r.jpg\"/></figure><p data-pid=\"TUK2h66D\">这是一款开源免费的浏览器。</p><p data-pid=\"yvpKA5nt\">可以用于快速搜索，还比较 节省空间。</p><p data-pid=\"f2i0eC0D\">这款开源浏览器可以解决经常在不同窗口之间切换的问题，可以边做其他事情，变浏览网页。</p><hr/><h3>推荐阅读</h3><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/624358383/answer/3268943182\" class=\"internal\">python为什么要要引入*args和**kwargs写法？</a><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/385105795/answer/3267263524\" data-image=\"https://pica.zhimg.com/v2-7a7672699f6bb45e3c17e70fd4d96bc8_180x120.jpg\" data-image-width=\"3594\" data-image-height=\"1888\" class=\"internal\">有没有免费的语音转文字的软件？</a><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/19610340/answer/3266808170\" data-image=\"https://pica.zhimg.com/v2-ec604da88ab1fc788ea305b6520eeb52_180x120.jpg\" data-image-width=\"1920\" data-image-height=\"934\" class=\"internal\">有什么免费的思维导图软件可以推荐？</a><p data-pid=\"72oBYJe0\">hello，大家好，我是Jackpop，重点大学本科毕业后保送到哈工大计算数学专业读研，有多年国内头部互联网、IT公司工作经验，先后从事过计算机视觉、推荐系统、后端、数据等相关工作。如果同学们在<b>升学考研、职业规划、高考志愿、简历优化、技术学习</b>等方面有困惑，欢迎大家前来咨询！</p><a data-draft-node=\"block\" data-draft-type=\"ad-link-card\" data-ad-id=\"fee_000b65d49e2a2162e76bba480d00ea34\"></a><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 56138,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-dd04086921ad64d59c2f134702a57e92_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-9218fc2e66ece224201f78cde131d3e7_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-8140e90943e20025dbf4215bfbd2640f_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b362c3ce282c50b02e3c347ab4659e72_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6a3da55efc19bb011bac7e7a9d672b8d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-751ecbfc116a2d582bdb53fc3d3248be_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9e108e256f6ca03add39da3c32254670_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 1371,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3273885508}",
+      "attached_info": "CtQJCLmz5L6T5vOiqQEQBBoJNjI1MzI5NjI4INrMjKoGKKICMAdAlgFKQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoIMTQ5MjcxMDRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgozMjczODg1NTA4igEINTY3NjY1OTeqAQlyZWNvbW1lbmTCASAwMDBiNjVkNDllMmEyMTYyZTc2YmJhNDgwZDAwZWEzNPIBCggMEgZOb3JtYWzyASgIChIkMTRkNDc3YWItNjZiNS00ZTk2LTg5YWQtYmVkMTY1MTIwNTA38gEGCAsSAjI2ggIAiALLkq35jDOSAiAwMDBiNjVkNDllMmEyMTYyZTc2YmJhNDgwZDAwZWEzNJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyA5YmFlNDU0YTFhMjk0ZjEwYmEwNGNlN2M2MzkwMjU5ZpoDDQoCdjIQABoFb3RoZXKoA8q2A9gDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoD9QMSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCqCxiiBSIjdjItZDY4ODRmMGFkZTdkYmM5MmYwMzZiZDY4MjYwZDc5MGY6LQgAEKAGGNUDIiN2Mi01ODAxNjg5ZDVjNjQzMGVjYTQzYWVmNGMxMDNjNjMwYzotCAAQ6gQY7gIiI3YyLTZkZTM2M2MyMjcwOTcwY2FmMTE3MzBiNzM4NjVkZjI1Oi0IAhC4CBjQAyIjdjItMDIxOWM0NzcyYjM4MjY0MDBjYmVhMGVlZmU5MzQzY2Q6LQgEEK0IGNMGIiN2Mi0wOGEyNTI4YWUxZGMxZWQ2Zjc5YTBiZjA0NzI2YjE5NzotCAIQkA4Y0g4iI3YyLTEwY2M1MzBhZGYwZTQ1ODk3ODJlNjkwZDQwNDE3ODM3Oi0IBBCQCBjgBiIjdjItNDM5YzI2Mjk1YjQ4NTBjMTFhMzczODlmMmVkNjY2NzM6LQgCELgSGOgMIiN2Mi0zMDQwZDQwZjRjY2EwMjUxNGIyMjQ1MmY3NmIwNGNhZjotCAMQmg0YuAUiI3YyLWNlZDJjMzM0ZWIxYTJmMWNjNmYxZGQ1ODY0NjQwODM1Oi0IAxCAFBi4CCIjdjItMWU4Yzk3NzFjMWZkMjgwNGQ3ODU0OTM0NmIzZGE3NTWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACg+160P4EFAAAAAAAAAACJBSqEx8H5Vdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRqQBgCgBpgBqAYBkgIlCgk2MjUzMjk2MjgSCjMyNzM4ODU1MDgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "151_1755822377.745",
+      "type": "feed",
+      "offset": 151,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822377,
+      "updated_time": 1755822377,
+      "target": {
+        "id": "3224209793",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3224209793",
+        "author": {
+          "id": "0746bb63bac5314dbb01c193a0386ad4",
+          "url": "https://api.zhihu.com/people/0746bb63bac5314dbb01c193a0386ad4",
+          "user_type": "people",
+          "url_token": "lps2020",
+          "name": "lps2020",
+          "headline": "",
+          "avatar_url": "https://pica.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2097,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1695520083,
+        "updated_time": 1712922186,
+        "voteup_count": 1845,
+        "thanks_count": 282,
+        "comment_count": 168,
+        "is_copyable": true,
+        "question": {
+          "id": "595083624",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/595083624",
+          "author": {
+            "id": "cb7c4b91f542dda8c4372dff385bb7fc",
+            "url": "https://api.zhihu.com/people/cb7c4b91f542dda8c4372dff385bb7fc",
+            "user_type": "people",
+            "url_token": "songchangyang821",
+            "name": "真像大白",
+            "headline": "indiegames",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-ac8f8dec0f7580dafd5942ff6a8c3be1_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "武汉大学 热能工程硕士"
+              }
+            ],
+            "followers_count": 170,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么刘邦朱元璋能成事，黄巢李自成就失败了呢？",
+          "created": 1681260909,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            405,
+            25792,
+            25793,
+            119535,
+            275312
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "其实韩信就给了答案。 那就是刘邦朱元璋能驭将。 说白了就是要有穿越者般的判断力服众。 真正有这个能力的人千年才出一个。 比如刘备，他就差了那么一点。 蜀国的失败就是他判断的严重失误。 盲目相信隆中对和诸葛亮。 换了刘邦。 他能让诸葛亮乖乖做萧何，军权一点都不会让他碰。 他也能放手让马超发展姜人，而不是做个摆设。 但是他也会听诸葛亮的隆中对占益州，攻打汉中。 这的确是个好方向。 还会听庞统的话放弃荆州。 守荆…",
+        "excerpt_new": "其实韩信就给了答案。 那就是刘邦朱元璋能驭将。 说白了就是要有穿越者般的判断力服众。 真正有这个能力的人千年才出一个。 比如刘备，他就差了那么一点。 蜀国的失败就是他判断的严重失误。 盲目相信隆中对和诸葛亮。 换了刘邦。 他能让诸葛亮乖乖做萧何，军权一点都不会让他碰。 他也能放手让马超发展姜人，而不是做个摆设。 但是他也会听诸葛亮的隆中对占益州，攻打汉中。 这的确是个好方向。 还会听庞统的话放弃荆州。 守荆…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"tUqaXSjV\">其实韩信就给了答案。</p><p data-pid=\"DTYL3lAl\">那就是刘邦朱元璋能驭将。</p><p data-pid=\"fiUHnShu\">说白了就是要有穿越者般的判断力服众。</p><p data-pid=\"z5MewPf5\">真正有这个能力的人千年才出一个。</p><p data-pid=\"Ldube3mG\">比如刘备，他就差了那么一点。</p><p data-pid=\"rJO6efrX\">蜀国的失败就是他判断的严重失误。</p><p data-pid=\"_sKR7v0I\">盲目相信隆中对和诸葛亮。</p><p data-pid=\"vrTOcosT\">换了刘邦。</p><p data-pid=\"O9FTMWjR\">他能让诸葛亮乖乖做萧何，军权一点都不会让他碰。</p><p data-pid=\"YtTSaxCE\">他也能放手让马超发展姜人，而不是做个摆设。</p><p data-pid=\"LHWEhBzA\">但是他也会听诸葛亮的隆中对占益州，攻打汉中。</p><p data-pid=\"0KLrHeQd\">这的确是个好方向。</p><p data-pid=\"79XRGRHy\">还会听庞统的话放弃荆州。</p><p data-pid=\"Uh6T5sq7\">守荆州三分兵力，蜀国本来就弱，这样更弱了。</p><p data-pid=\"E7ls5gJ5\">还有不放荆州注定被吴国背刺，并不像诸葛亮说的搞好关系就能避免。</p><p data-pid=\"5xRRyww8\">因为荆州对吴国来讲生死攸关，没了荆州吴国只能混吃等死。</p><p data-pid=\"WLi46wSp\">换了刘邦绝对主动把荆州送给吴国。</p><p data-pid=\"qPLSb5fN\">让魏吴打死打活。</p><p data-pid=\"p92Mzf76\">蜀国全力进攻关中。</p><p data-pid=\"B0KA1RQQ\">毕竟他为了大局，都能主动把拥有大量美女和财富的秦国首都咸阳忍痛送出。</p><p data-pid=\"-rUH1NX_\">这样也不会浪费蜀国唯一一个能独当一面的大将关羽了。</p><p data-pid=\"GSn7G8jH\">刘备张飞也不会都掉进这个坑里。</p><p data-pid=\"vlF2v_tB\">蜀国其实就是刘备判断力严重失误完蛋的。</p><p data-pid=\"OPYKzick\">还有老蒋，他也是差那么一点。</p><p data-pid=\"R4vnHfMU\">勉强把军阀搞定。</p><p data-pid=\"-qV234ST\">手下不少将领对他阴奉阳违。</p><p data-pid=\"GVTnjNpI\">甚至连个自己的萧何张良都没有。</p><p data-pid=\"tBE0c4oc\">驭将并不是萝卜和大棒那么简单。</p><p data-pid=\"RgOlnqSw\">你不够强大那些强者凭什么服你？</p><p data-pid=\"1R6P1WwJ\">尤其要要有强大的判断力。</p><p data-pid=\"ebZ9h_YO\">刘邦就能听建议放弃咸阳财宝和美女向项羽服软。</p><p data-pid=\"IeutL9Ru\">也能力排众议任用毫无根基的韩信为大将军。</p><p data-pid=\"6kHTiS6y\">朱元璋能听缓称王广积粮。</p><p data-pid=\"HVJCY5-P\">也能力排众议判断先打陈友谅。</p><p data-pid=\"Dko_0IIB\">那些骄兵悍将服你是你判断总是对的。</p><p data-pid=\"054q2AD5\">其实真正料敌如神的不是张良刘伯温。</p><p data-pid=\"5I3t-JSi\">而是刘邦朱元璋。</p><p data-pid=\"LHvF5UcD\">这种就是极少数拥有强大判断能力的人，能从手下无数建议中选出正确答案的天才。</p><p data-pid=\"XEqhByVW\">近代那位也是。</p><p data-pid=\"7k73fFqp\">他年轻时候团结人并不行。</p><p data-pid=\"w2C5pUk5\">高傲的性格得罪了很多人。</p><p data-pid=\"UX3Mx-7L\">好几次轻而易举被夺权。</p><p data-pid=\"_2XxxRdo\">但是他有先知一般的判断力。</p><p data-pid=\"SgezEvbu\">别人认为城市工人是关键。</p><p data-pid=\"-e-1XkwN\">他就认为农村农民是关键。</p><p data-pid=\"wYSPWpbJ\">别人都认为南方为中心。</p><p data-pid=\"rrgGqPhS\">他已经在思考北上抗日。</p><p data-pid=\"YwXPyqvK\">别人认为要打大城市。</p><p data-pid=\"PtN2K5xM\">他却认为要砸根农村。</p><p data-pid=\"jv8Uqq-1\">别人认为要硬碰硬。</p><p data-pid=\"MczUu4BF\">他却认为要打游击战运动战。</p><p data-pid=\"zTmfhnzy\">…</p><p data-pid=\"GtsS0_WA\">血的事实证明他的判断都是正确的。</p><p data-pid=\"oHXXB8zR\">绝境中获得不可动摇的地位。</p><p data-pid=\"9s_ga_Wy\">那些骄兵悍将并不是一开始就服你的。</p><p data-pid=\"HS_EXwg0\">是经过无数血与火的验证才死心塌地服你的。</p><p data-pid=\"P69GBwrE\">毕竟提着脑袋干事。</p><p data-pid=\"nbEVnppF\">一个错误就会出大量人命。</p><p data-pid=\"G3qwNxIH\">拥有正确判断力的领导对他们来讲就是神。</p><p data-pid=\"N2G191qO\">同理会出错的就是瘟神。</p><p data-pid=\"QfwlFgCk\">一个判断错误就意味着成千上万生命。</p><p data-pid=\"wPgyL7oA\">所谓驭将其实就是你的能力让绝大多数人不得不服你。</p><p data-pid=\"BEh74QRi\">当然还要有强大意志和团结人的手段等能力。</p><p data-pid=\"WFU7mx0-\">黄巢未必想杀净公卿，李自成未必想拷打敲诈官僚。</p><p data-pid=\"k9m4xE3W\">他们威望不够，驾驭部下能力不足。</p><p data-pid=\"mofSWg3X\">只能放纵手下。</p><p data-pid=\"scptTOfM\">二流大哥带出来的二流队伍。</p><p data-pid=\"QyuLqJ3Q\">和刘邦朱元璋他们带出来的团队差远了。</p><p data-pid=\"FudTEflw\">本质就是黄巢李自成比刘邦朱元璋差远了。</p><p data-pid=\"RTnduTTB\">故而。</p><p data-pid=\"51-xH_fF\">打天下带头大哥才是关键。</p><p data-pid=\"npyTlA3Q\">带头大哥好，你会发现一个县就能出现很多战神和人才。</p><p data-pid=\"37mwH8Er\">能化腐朽为神奇。</p><p data-pid=\"fqW4voYs\">能带大伙完成不可能的任务。</p><p data-pid=\"rQk3Ou5d\">能让手下知道敬畏服从又有奔头干劲。</p><p data-pid=\"vNOPJMy0\">而刘邦朱元璋就是这样千年一出的带头大哥。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 87371,
+        "favorite_count": 1844,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3224209793}",
+      "attached_info": "CsUFCLmz5L6T5vOiqQEQBBoJNjE2MzAwOTQwINOqvqgGKLUOMKgBQJcBSi8KBkl0ZW1DRhIfZG9jX3R5cGU6IEFuc3dlcgppZDogNzM5MTEwOTE3ChgAIAA6AFoIOTQ1MjE4ODRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgozMjI0MjA5NzkzigEJNTk1MDgzNjI0qgEJcmVjb21tZW5kwgEgMDc0NmJiNjNiYWM1MzE0ZGJiMDFjMTkzYTAzODZhZDTyAQoIDBIGTm9ybWFs8gEoCAoSJDkyODM5NmU4LTdkMjMtNGIxZC04MWM1LTU5ZmRmZDVkOTJkN/IBBggLEgIyNoICAIgCy5Kt+YwzkgIgMDc0NmJiNjNiYWM1MzE0ZGJiMDFjMTkzYTAzODZhZDSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCBkl0ZW1DRugCAvoCC05PUk1BTF9GTE9XigMgOWJhZTQ1NGExYTI5NGYxMGJhMDRjZTdjNjM5MDI1OWaaAw0KAnYyEAAaBW90aGVyqAPLqgXYAwDqAxV0ZXh0QWxsU2l0ZU12SXRlbUNGVjL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoOoZrz+BBQAAAAAAAAAAiQUqhMfB+VXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUakAYAoAaZAagGA5ICJQoJNjE2MzAwOTQwEgozMjI0MjA5NzkzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "152_1755822377.935",
+      "type": "feed",
+      "offset": 152,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822377,
+      "updated_time": 1755822377,
+      "target": {
+        "id": "97198316672",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/97198316672",
+        "author": {
+          "id": "4ff516143c105369d712195920f0844f",
+          "url": "https://api.zhihu.com/people/4ff516143c105369d712195920f0844f",
+          "user_type": "people",
+          "url_token": "wei-cle-zai-qi-zhong",
+          "name": "维c乐在其中",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-68be3cc6ff334b1832c27c78a096ddb2_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 311,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1739158416,
+        "updated_time": 1742224654,
+        "voteup_count": 2623,
+        "thanks_count": 140,
+        "comment_count": 519,
+        "is_copyable": true,
+        "question": {
+          "id": "656995674",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/656995674",
+          "author": {
+            "id": "0bd0a57e488f97dd2dae1a8e8214711f",
+            "url": "https://api.zhihu.com/people/0bd0a57e488f97dd2dae1a8e8214711f",
+            "user_type": "people",
+            "url_token": "43-70-30-32",
+            "name": "三生有幸",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-0d6168b4d6189f77e0694da79c1c6b5a_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "职业教育行业 从业人员"
+              }
+            ],
+            "followers_count": 620,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有没有某一瞬间让你突然明白了什么？",
+          "created": 1716507263,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            33189,
+            2314635,
+            2339740
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "我一直很嫌弃老公，觉得他很矫情。一点苦都吃不了，困了就得睡，饿了就得吃。 直到有一天，我突然发现，不是他有问题，是我有问题。 我们家一贯的风格是，干活优先，吃喝拉撒都可以往后推一推 小时候到地里除草，种花生那种地，一道沟一道沟的，就在我们家房子后面，早上七点上地里除草，下午两三点才能锄完，我们一向都是早上吃的饱饱的，上地里把活干完了再回来吃饭。 收了花生剥花生都是熬夜剥，一直到剥完了，榨出油储存好才…",
+        "excerpt_new": "我一直很嫌弃老公，觉得他很矫情。一点苦都吃不了，困了就得睡，饿了就得吃。 直到有一天，我突然发现，不是他有问题，是我有问题。 我们家一贯的风格是，干活优先，吃喝拉撒都可以往后推一推 小时候到地里除草，种花生那种地，一道沟一道沟的，就在我们家房子后面，早上七点上地里除草，下午两三点才能锄完，我们一向都是早上吃的饱饱的，上地里把活干完了再回来吃饭。 收了花生剥花生都是熬夜剥，一直到剥完了，榨出油储存好才…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"BT_Mth7U\">我一直很嫌弃老公，觉得他很矫情。一点苦都吃不了，困了就得睡，饿了就得吃。</p><p data-pid=\"7tia4zF8\">直到有一天，我突然发现，不是他有问题，是我有问题。</p><p data-pid=\"XMGMbeRY\">我们家一贯的风格是，干活优先，吃喝拉撒都可以往后推一推</p><p data-pid=\"os2D8xeJ\">小时候到地里除草，种花生那种地，一道沟一道沟的，就在我们家房子后面，早上七点上地里除草，下午两三点才能锄完，我们一向都是早上吃的饱饱的，上地里把活干完了再回来吃饭。</p><p data-pid=\"mofIlUKk\">收了花生剥花生都是熬夜剥，一直到剥完了，榨出油储存好才能睡个安稳觉</p><p data-pid=\"qYzQ7JQt\">过年收拾卫生，做馒头也都熬夜做，随便垫吧两口就得干活</p><p data-pid=\"IDkocNGV\">我已经习惯了这样的节奏，活不干完我是不能安心吃饭的。这就导致我们家人胃都不好，休息也是颠三倒四的。</p><p data-pid=\"mAtnfY0v\">到底是谁在催着我们干活呢，没有人，事情真的这么紧急么，也没有。我已经习惯于把自己活的很紧张，很累。</p><p data-pid=\"IK1nF7Yn\">特别是生了宝宝，老公就可以心安理得的把孩子扔给爷爷奶奶，睡懒觉，出去玩。我就老觉得心理过意不去，毕竟孩子是自己的，老人只是来帮个忙，他们心理会不会不愿意等等，导致老人看孩子的时候我打下手，自己带孩子的时候也很累，坏情绪堆积，频繁因为小事跟老公吵架。</p><p data-pid=\"rU5avpBB\">直到有一天，我突然明白了我的问题，慢慢的让自己松弛下来。事情也在一步步变好。</p><p data-pid=\"lx5NH4q9\">我表达可能是有点问题，现在大家好像是理解成我们不管孩子，心安理得的扔给老人了。并没有哈</p><p data-pid=\"daasA75f\">工作日没办法，老人帮忙带，其他时间都是我俩自己带的。偶尔会俩人出去吃个饭放松下，让老人再帮忙带下。</p><p data-pid=\"-oP8EDk0\">老公睡懒觉和出去玩也都是偶尔的，睡懒觉是最近孩子总是半夜起来玩一个小时，所以周末的时候他会睡个懒觉，出去玩也是两三周一次的球友约球。该有的家庭责任他也做得很好哈</p><p data-pid=\"wdkk2dra\">补充：</p><p data-pid=\"PHYIXDss\">没想到这么多人都有共鸣。看你们举的例子我觉得你们在监视我，简直一模一样！</p><p data-pid=\"qoslOkd2\">其实我心理没有觉得这是一个坏事情，是这种习惯和紧张让智商一般的我考了一个还不错的大学，有一份还不错的工作。我感激它。但是它在这个阶段，确实让我和老公都很疲惫。所以现在我想把这个参数稍微调低一点。</p><p data-pid=\"K8f2oymv\">我现在在调整的几个方向是这样，给大家一个参考，也希望能听听大家的建议</p><p data-pid=\"_JX4CjXN\">1.感恩父母，经常给爸妈和公婆一些经济上的补偿和实用的礼物，这样能很好的减轻我的负罪感和歉疚感。</p><p data-pid=\"jhrN4M3b\">2.用科技改变生活，买了扫地机器人，扫拖一体机，孩子的洗衣机，各种锅和调料等，可以减轻日常家务。甚至去年过年时的擦窗和卫生都是找人上门打扫的，真香！哈哈哈</p><p data-pid=\"h89qTWqG\">3.对老公实行“包产到户”，比如刷碗和收拾厨房交给他，我就不要管了。把心里的这块石头放下，不要管他什么时候做，是不是做的太马虎了。都不要管他。时刻提醒自己他是有自由意志的人，有自己的习惯和方法，不要因为自己的意志去强迫他。</p><p data-pid=\"oONf7SH8\">4.放慢自己生活的节奏，降低自己的要求，给自己布置任务的时候，布置少一点。生活有时候也需要得过且过，做人最重要的就是开心。</p><p data-pid=\"5PYPKteD\">还有就是，大家情人节快乐！晚上我要心安理得的出去吃烤肉！</p><hr/><p data-pid=\"HmTsxOZs\">3.17晚，哄完孩子，又写了一点感受</p><p data-pid=\"bM_n_YSr\">这么多关注和回复。受宠若惊，惊慌失措。我其实很喜欢写东西，之前都是写在本子上，后来有时候也在知乎上写，但是从来没有获得过这么多关注。我觉得写东西非常能发现自己的问题和发泄情绪，每次写东西我都像是站在旁观者的角度上去看自己，能理智的发现问题，也顺便把自己的怨气给发泄了。是个很好的途径，推荐大家试试。</p><p data-pid=\"o26wjgxx\">如果吵隔夜架，我有时候就会写吵架大纲，就写到时候我就这么这么说，他如果这么这么说，我就怎么怎么回怼他。写着写着，我就会发现是自己有问题。就能很理智的去沟通了。</p><p data-pid=\"rzNSur0_\">评论中有个朋友说自己的大姑姐也是这样的人，目的是为了能够在家族生意中多分利润。我看到了就在想，我图什么呢。我应该也有所图，我图一个名声，我好像接受不了别人说我不好。我图家里人说我好，邻居说我好，公司领导同事说我好，朋友闺蜜说我好，我永远都站在受苦受累的道德制高点上，老公跟我有冲突的话，就是他不对。这种虚荣让我以没苦硬吃为荣，并且形成和老公的敌对心理。那我的问题可能就是这种虚荣心吧。太在乎别人的眼光了。其实日子是自己过的，不是在人家嘴里过的对吧。</p><p data-pid=\"Z3A73oOg\">还有个解读就是活儿和情绪我区分不了，当生活中有很多的工作时，我就会紧张焦虑，自己已经酝酿了很多负面情绪了，如果这时候老公吊儿郎当的跟我说他要出去打球什么的，我就会表现出很差的情绪。但是在老公眼里就是，今天天气很好，我心情很好，好久没运动的我想出去打个球，一开口，我媳妇就跟我吵，我媳妇就见不得我清闲！然后话赶话的，俩人就吵得不可开交。双方都觉得对方不能体谅自己。对方有问题。老公的问题就是，他，永远，看不见活儿，可能这是他的硬件配置。他就是看不见。。。我的问题就是我无法把自己的情绪从日常的琐事中抽出来，只是一味的输出，以自己的习惯和喜好去要求别人。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 516828,
+        "favorite_count": 1170,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 97198316672}",
+      "attached_info": "Cu0GCLmz5L6T5vOiqQEQBBoJNzEyNTU1MDE3IJDnpb0GKL8UMIcEQJgBSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjISATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1aCTEwODI3NjkyOWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCzk3MTk4MzE2NjcyigEJNjU2OTk1Njc0qgEJcmVjb21tZW5kwgEgNGZmNTE2MTQzYzEwNTM2OWQ3MTIxOTU5MjBmMDg0NGbyAQoIDBIGTm9ybWFs8gEoCAoSJGY3MzAxNmQ1LWNjNzItNGI5NS1iNWQzLTg4MTBhNGU0ZTdmMvIBBggLEgIyNoICAIgCzJKt+YwzkgIgNGZmNTE2MTQzYzEwNTM2OWQ3MTIxOTU5MjBmMDg0NGaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDliYWU0NTRhMWEyOTRmMTBiYTA0Y2U3YzYzOTAyNTlmmgMNCgJ2MhAAGgVvdGhlcqgD3MUf2AMA6gMOZmVlZHJlX21zX2dhdGX6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE2MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAMwAuz+BBQAAAAAAAAAAiQUqhMfB+VXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUakAYAoAaaAagGAJICJgoJNzEyNTU1MDE3Egs5NzE5ODMxNjY3MhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "153_1755822377.269",
+      "type": "feed",
+      "offset": 153,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822377,
+      "updated_time": 1755822377,
+      "target": {
+        "id": "75912761824",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/75912761824",
+        "author": {
+          "id": "d08da56c1e7cfd32a0b9bd2bfcedab6b",
+          "url": "https://api.zhihu.com/people/d08da56c1e7cfd32a0b9bd2bfcedab6b",
+          "user_type": "people",
+          "url_token": "he-ma-shi-shi-yao-ma",
+          "name": "荷马是什么马",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c80ad2ae598b547c12f269098dd22133_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 72,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1736477219,
+        "updated_time": 1736477219,
+        "voteup_count": 1601,
+        "thanks_count": 76,
+        "comment_count": 184,
+        "is_copyable": true,
+        "question": {
+          "id": "430965272",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/430965272",
+          "author": {
+            "id": "10978e28a8e44b118c31aa4e94069b2c",
+            "url": "https://api.zhihu.com/people/10978e28a8e44b118c31aa4e94069b2c",
+            "user_type": "people",
+            "url_token": "zuo-zhe-13-23",
+            "name": "作者",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-91ccbab44a9a921c16f91b853d8fc48d_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么 iPhone 还是这么受欢迎？",
+          "created": 1605751107,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 249,
+          "bound_topic_ids": [
+            25,
+            33,
+            8547
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "我给你们说个恐怖的：如果你现在（2025年）重启你的第一台iPhone，比如iPhone4，然后弄个非大陆Apple ID，下载WeChat ，什么app都是国际版（国际版app永远都只有三百m），那么你的iPhone4（8G内存）（8G内存）（8G内存）重要的事情说三遍，能用到天荒地老。 —————-/////————————————— 说个真人真事，前几天我表姐搬家，我见到我大姑，她大概是70+年龄，她说她手机卡，我就打开她手机，手机是一台华为还是小米…",
+        "excerpt_new": "我给你们说个恐怖的：如果你现在（2025年）重启你的第一台iPhone，比如iPhone4，然后弄个非大陆Apple ID，下载WeChat ，什么app都是国际版（国际版app永远都只有三百m），那么你的iPhone4（8G内存）（8G内存）（8G内存）重要的事情说三遍，能用到天荒地老。 —————-/////————————————— 说个真人真事，前几天我表姐搬家，我见到我大姑，她大概是70+年龄，她说她手机卡，我就打开她手机，手机是一台华为还是小米…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"NoYfB6yw\">我给你们说个恐怖的：如果你现在（2025年）重启你的第一台iPhone，比如iPhone4，然后弄个非大陆Apple ID，下载WeChat ，什么app都是国际版（国际版app永远都只有三百m），那么你的iPhone4（8G内存）（8G内存）（8G内存）重要的事情说三遍，能用到天荒地老。</p><p data-pid=\"J1tlpPRY\">—————-/////—————————————</p><p data-pid=\"Ef-AyS8u\">说个真人真事，前几天我表姐搬家，我见到我大姑，她大概是70+年龄，她说她手机卡，我就打开她手机，手机是一台华为还是小米，新的，应该算入门 ，我不清楚，没细看，然后有点小震撼，界面有五六页，每页排满了app，这样一算有几百个app，我一寻思能不卡吗，然后，我就边删边想，大姑妈这年纪应该也不玩手机为啥会有这么多app，然后我点开一个主流的应用app，点进去页面全是弹窗广告，你一不小心就踩雷点进去了，当然不点人家也会自动下载，然后就直接一气化三清，道生万物了，属于软件流癌了。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 513195,
+        "favorite_count": 241,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 75912761824}",
+      "attached_info": "CpwGCLmz5L6T5vOiqQEQBBoJNzA4Mjk4NTcwIKOUgrwGKMEMMLgBQJkBSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjISATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoASj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1aCDU4MDQ5MzYxYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ILNzU5MTI3NjE4MjSKAQk0MzA5NjUyNzKqAQlyZWNvbW1lbmTCASBkMDhkYTU2YzFlN2NmZDMyYTBiOWJkMmJmY2VkYWI2YvIBCggMEgZOb3JtYWzyASgIChIkM2ZiNGZjNjQtMGMzOS00NTNlLWIxMjItNGJlOTcxOTZjZjA18gEGCAsSAjI2ggIAiALMkq35jDOSAiBkMDhkYTU2YzFlN2NmZDMyYTBiOWJkMmJmY2VkYWI2YpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjLoAgL6AgtOT1JNQUxfRkxPV4oDIDliYWU0NTRhMWEyOTRmMTBiYTA0Y2U3YzYzOTAyNTlmmgMNCgJ2MhAAGgVvdGhlcqgDq6kf2AMA6gMOZmVlZHJlX21zX2dhdGX6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE2MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgJNXtj+BBQAAAAAAAAAAiQUqhMfB+VXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUakAYAoAabAagGAJICJgoJNzA4Mjk4NTcwEgs3NTkxMjc2MTgyNBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "154_1755822377.715",
+      "type": "feed",
+      "offset": 154,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822377,
+      "updated_time": 1755822377,
+      "target": {
+        "id": "1941944043295736202",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941944043295736202",
+        "author": {
+          "id": "58d3e915bde4dd1effd64e652c5b50b3",
+          "url": "https://api.zhihu.com/people/58d3e915bde4dd1effd64e652c5b50b3",
+          "user_type": "people",
+          "url_token": "91-40-47-31",
+          "name": "宋野顾丞",
+          "headline": "水瓶座\n慢慢～\n沉淀 沉淀 再沉淀",
+          "avatar_url": "https://picx.zhimg.com/50/v2-308b972b6ff27c286f3edabae6d90ccf_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 1831,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755775539,
+        "updated_time": 1755775539,
+        "voteup_count": 3,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "475786728",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/475786728",
+          "author": {
+            "id": "d95e1311b08a15e51461620267101ba6",
+            "url": "https://api.zhihu.com/people/d95e1311b08a15e51461620267101ba6",
+            "user_type": "people",
+            "url_token": "hope-10-43",
+            "name": "阿达咩酱",
+            "headline": "法律从业人员",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "怎么样开始学习写作？",
+          "created": 1627530973,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            767,
+            2058,
+            31498,
+            42364
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "“如果你想写得更好——那就干脆照抄吧 建议正如标题所言，如果你想在写作方面取得更大进步——那就每隔一晚花 20 分钟的时间，去模仿（即写出、重写，以你理解的方式）优秀的作品。 我的做法是：我把屏幕分成两部分，一部分显示我正在复制的书籍（目前是《权力的游戏》），另一部分则打开一个 Word 文件，戴上耳机，播放合适的音乐（目前是《权力的游戏》的原声音乐），然后开始工作。 当你养成了这种习惯，你就会自然而然地吸…",
+        "excerpt_new": "“如果你想写得更好——那就干脆照抄吧 建议正如标题所言，如果你想在写作方面取得更大进步——那就每隔一晚花 20 分钟的时间，去模仿（即写出、重写，以你理解的方式）优秀的作品。 我的做法是：我把屏幕分成两部分，一部分显示我正在复制的书籍（目前是《权力的游戏》），另一部分则打开一个 Word 文件，戴上耳机，播放合适的音乐（目前是《权力的游戏》的原声音乐），然后开始工作。 当你养成了这种习惯，你就会自然而然地吸…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"LUHA0NR7\">“如果你想写得更好——那就干脆照抄吧 </p><p data-pid=\"viGIc7Ox\">建议正如标题所言，如果你想在写作方面取得更大进步——那就每隔一晚花 20 分钟的时间，去模仿（即写出、重写，以你理解的方式）优秀的作品。 我的做法是：我把屏幕分成两部分，一部分显示我正在复制的书籍（目前是《权力的游戏》），另一部分则打开一个 Word 文件，戴上耳机，播放合适的音乐（目前是《权力的游戏》的原声音乐），然后开始工作。 当你养成了这种习惯，你就会自然而然地吸收作者的风格、技巧等等。而且如果我读另一本书，然后对自己说：“哇，这本书的写作真是太棒了，作者是怎么做到的呢？” 我就不必去思考或分析了。我可以模仿这种写法，而我的潜意识最终也会掌握其中的要领。 我在某处读到过，亨特·S·汤普森过去常常模仿海明威的文风来进行练习，所以你可以看出两者之间的相似之处，但同时也能发现它们之间的差异。”</p><p data-pid=\"mCOkie67\">这是一篇来自其他平台的真实回答。</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 52,
+        "favorite_count": 8,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941944043295736202}",
+      "attached_info": "CuAFCLmz5L6T5vOiqQEQBBoJNzQzMzExOTQzILOEnMUGKAMwAECaAUokChlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwyEgEwGAAgADoASigKHVRTX1NPVVJDRV9XQVJNVVBfUFJFVFJBSU5fSTJJEgEwGAAgADoAWgg2ODAxMDY2NWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE5NDQwNDMyOTU3MzYyMDKKAQk0NzU3ODY3MjiqAQlyZWNvbW1lbmTCASA1OGQzZTkxNWJkZTRkZDFlZmZkNjRlNjUyYzViNTBiM/IBCggMEgZOb3JtYWzyASgIChIkODY4MzYyMWItZmMyNC00OWYxLWFiMGYtZDg1MmQyYjM5YzIx8gEGCAsSAjI2ggIAiALMkq35jDOSAiA1OGQzZTkxNWJkZTRkZDFlZmZkNjRlNjUyYzViNTBiM5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AIC+gILTk9STUFMX0ZMT1eKAyA5YmFlNDU0YTFhMjk0ZjEwYmEwNGNlN2M2MzkwMjU5ZpoDDQoCdjIQABoFb3RoZXKoAzTYAwDqAxNwcmV0cmFpbl9pMmlfcmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIF7WkT+BBQAAAAAAAAAAiQUqhMfB+VXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUakAYAoAacAagGAZICLgoJNzQzMzExOTQzEhMxOTQxOTQ0MDQzMjk1NzM2MjAyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "155_1755822377.946",
+      "type": "feed",
+      "offset": 155,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822377,
+      "updated_time": 1755822377,
+      "target": {
+        "id": "1938893694498506344",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1938893694498506344",
+        "author": {
+          "id": "bd36d82afd424ee4b2de29cc77f3530b",
+          "url": "https://api.zhihu.com/people/bd36d82afd424ee4b2de29cc77f3530b",
+          "user_type": "people",
+          "url_token": "ou-zi-19-40",
+          "name": "Python当打之年",
+          "headline": "公众号：Python当打之年",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-638208725bfd93bffd094eba1c5fd9e0_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2982,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755048279,
+        "updated_time": 1755048279,
+        "voteup_count": 4,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "29138020",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/29138020",
+          "author": {
+            "id": "e2443ed84fe9d54cc8a73ab7fef2d2bb",
+            "url": "https://api.zhihu.com/people/e2443ed84fe9d54cc8a73ab7fef2d2bb",
+            "user_type": "people",
+            "url_token": "heyblunt",
+            "name": "郭岸",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/3bba2713721cafff345f1d9986869286_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 11,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何系统地自学 Python？",
+          "created": 1427615118,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 33,
+          "bound_topic_ids": [
+            350,
+            872,
+            1354,
+            2566,
+            3074
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-41065f2b3227f50c62091e7f365c91bf_720w.jpg?source=b6762063",
+        "excerpt": "推荐几本零基础/一定基础的书，仅供参考：第 1 本：《Python编程：从入门到实践（第3版）》--- 适读群体：零基础，小白读者     全书分为两个部分， 一共有20个章节，第一部分为基础知识，第二部分为项目进阶。基础知识部分 对python3的语法部分做了很详细的说明，章节排版也很清晰从“数据类型”到“语句结构”再到“内置容器”再到“面向对象，文件，测试”等高级内容，循序渐进。项目部分以 游戏，数据处理，web服务三个小项目来进…",
+        "excerpt_new": "推荐几本零基础/一定基础的书，仅供参考：第 1 本：《Python编程：从入门到实践（第3版）》--- 适读群体：零基础，小白读者     全书分为两个部分， 一共有20个章节，第一部分为基础知识，第二部分为项目进阶。基础知识部分 对python3的语法部分做了很详细的说明，章节排版也很清晰从“数据类型”到“语句结构”再到“内置容器”再到“面向对象，文件，测试”等高级内容，循序渐进。项目部分以 游戏，数据处理，web服务三个小项目来进…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<h2>推荐几本零基础/一定基础的书，仅供参考：</h2><h2><b>第 1 本：《Python编程：从入门到实践（第3版）》--- 适读群体：零基础，小白读者</b></h2><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d2caf1f950a1134c1fb1ccd85019208b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"688\" data-rawheight=\"334\" data-qrcode-action=\"none\" data-original-token=\"v2-4b696f4cace6670453bdb08255449882\" data-default-watermark-src=\"https://picx.zhimg.com/v2-319122585883cd7f3d62dc736ef1b54b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"688\" data-original=\"https://pic4.zhimg.com/v2-d2caf1f950a1134c1fb1ccd85019208b_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d835fb44158bec52829a90beb475d3c3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-d835fb44158bec52829a90beb475d3c3\" class=\"content_image\"/></figure><p data-pid=\"7HjibouG\">全书分为两个部分，<b>一共有20个章节，第一部分为基础知识，第二部分为项目进阶。</b></p><p data-pid=\"JvT4tYyr\">基础知识部分<b>对python3的语法部分做了很详细的说明</b>，章节排版也很清晰从<b>“数据类型”到“语句结构”再到“<span class=\"nolink\">内置容器</span>”再到“<span class=\"nolink\">面向对象</span>，文件，测试”</b>等高级内容，循序渐进。</p><p data-pid=\"9SglcPY_\">项目部分以<b>游戏，<span class=\"nolink\">数据处理</span>，web服务</b>三个小项目来进行，<b>主要是起到一个项目入门作用，让读者以后在遇到这些类型的项目时能快速入手。</b></p><div class=\"highlight\"><pre><code class=\"language-text\">目录\n第一部分　基础知识\n第1章　起步 2\n第2章　变量和简单的数据类型 12\n第3章　列表简介 28\n第4章　操作列表 42\n第5章　if语句 63\n第6章　字典 81\n第7章　用户输入和while循环 101\n第8章　函数 115\n第9章　类 140\n第10章　文件和异常 164\n第11章　测试代码 187\n\n第二部分　项　　目\n项目1　外星人入侵 202\n第12章　武装飞船 203\n第13章　外星人 229\n第14章　记分 250\n第15章　生成数据 274\n第16章　下载数据 301\n第17章　使用API 326\n第18章　Django入门 343\n第19章　用户账户 370\n第20章　设置应用程序的样式并部署 397\n\n附录A　安装及故障排除 426\n附录B　文本编辑器和IDE 430\n附录C　寻求帮助 436\n附录D　使用Git进行版本控制 440\n附录E　部署故障排除 449</code></pre></div><h2><b>第 2 本：《笨办法学Python3》--- 适读群体：零基础，小白读者</b></h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-dc720136cbc5f4caf64721fc8bbd5308_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"687\" data-rawheight=\"272\" data-original-token=\"v2-efd427b447ff3fd4eb6ba4a4d31df156\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-82a003b904a0c7d7a19229766e8484c4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"687\" data-original=\"https://pic3.zhimg.com/v2-dc720136cbc5f4caf64721fc8bbd5308_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-ee3ae0cff74ccf490f1a32349cd4640b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-ee3ae0cff74ccf490f1a32349cd4640b\" class=\"content_image\"/></figure><p data-pid=\"pKPjGhbj\">这本书结构相对简单，<b>是52个习题的集合</b>。每一章的格式基本相同，<b>以代码习题开始，按照说明编写代码，运行并检查结果，然后再做附加练习</b>。</p><p data-pid=\"ZmYzXVDd\"><b>以习题的方式引导读者一步一步学习编程</b>，从简单的打印一直讲授到完整项目的实现，让初学者从基础的编程技术入手，在潜移默化中掌握扎实的Python基础。</p><div class=\"highlight\"><pre><code class=\"language-text\">目录\n习题0　准备工作　1\n习题1　第 一个程序　7\n习题2　注释和#号　12\n习题3　数字和数学计算　14\n习题4　变量和命名　17\n习题5　更多的变量和打印　20\n题6　字符串和文本　22\n习题7　更多打印　25\n习题8　打印，打印　27\n习题9　打印，打印，打印　29\n习题10　那是什么　31\n习题11　提问　34\n习题12　提示别人　36\n习题13　参数、解包和变量　38\n习题14　提示和传递　41\n习题15　读取文件　44\n习题16　读写文件　47\n习题17　更多文件操作　50\n习题18　命名、变量、代码和函数　53\n习题19　函数和变量　56\n习题20　函数和文件　59\n习题21　函数可以返回某些东西　62\n习题22　到现在为止你学到了什么　65\n习题23　字符串、字节串和字符编码　66\n习题25　更多更多的练习　77\n习题26　恭喜你，现在可以考试了！　81\n习题27　记住逻辑关系　82\n习题28　布尔表达式练习　85\n习题29　if语句　88\n习题30　else和if　90\n习题31　作出决定　92\n习题32　循环和列表　95\n习题33　while循环　98\n习题34　访问列表的元素　101\n习题35　分支和函数　103\n习题36　设计和调试　107\n习题37　复习各种符号　109\n习题38　列表的操作　115\n习题39　字典，可爱的字典　120\n习题40　模块、类和对象　125\n习题41　学习面向对象术语　131\n习题42　对象、类及从属关系　136\n习题43　基本的面向对象分析和设计　141\n习题44　继承与组合　155\n习题45　你来制作一款游戏　164\n习题46　项目骨架　168\n习题47　自动化测试　176\n习题48　用户输入进阶　180\n习题49　创建句子　186\n习题50　你的第 一个网站　192\n习题52　创建Web游戏　207\n\n附录　命令行快速入门　221\n简介：废话少说，命令行来也　221练习1　准备工作　222\n练习2　路径、文件夹和目录（pwd）　225\n练习3　如果你迷失了　227\n练习4　创建目录（mkdir）　228\n练习5　更改目录（cd）　230\n练习6　列出目录中的内容（ls）　234\n练习7　删除目录（rmdir）　238\n练习8　在多个目录中切换（pushd和popd）　241\n练习9　创建空文件（touch/New-Item）　243\n练习10　复制文件（cp）　244\n练习11　移动文件（mv）　248\n练习12　查看文件内容（less/more）　250\n练习13　流文件内容显示（cat）　251\n练习14　删除文件（rm）　252\n练习15　退出终端（exit）　254</code></pre></div><h2>第 3 本：《<b>利用Python进行数据分析</b>》--- 适读群体：已入门有一定基础的读者</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4816b7e4bdcdfe8c14be978294ff9601_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"679\" data-rawheight=\"291\" data-original-token=\"v2-389b4f42b65fbbfd669e108230823359\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-36cef51cf243ba0b4e2250864e5a2a22_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"679\" data-original=\"https://pic2.zhimg.com/v2-4816b7e4bdcdfe8c14be978294ff9601_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6460c1d008f2a14b1ac1faff920e649e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-6460c1d008f2a14b1ac1faff920e649e\" class=\"content_image\"/></figure><p data-pid=\"C_mApbJ6\">这本书几乎是<b>数据分析入门<span class=\"nolink\">必读书</span></b>了！</p><p data-pid=\"7QWoUwHd\">书中<b>详细介绍利用Python进行操作、处理、清洗和规整数据等方面的具体细节和基本要点</b>，涵盖Python3个库<b>numpy（<span class=\"nolink\">数组</span>），pandas（数据分析）和matplotlib（绘图</b>）的学习，并增加<b>大量实际案例</b>，可以帮助你高效解决一系列数据分析问题。</p><div class=\"highlight\"><pre><code class=\"language-text\">目录\n第1章 准备工作7\n第2章 Python语言基础、IPython及Jupyter notebook20\n第3章 内建数据结构、函数及文件54\n第4章 NumPy基础：数组与向量化计算87\n第5章 pandas入门123\n第6章 数据载入、存储及文件格式165\n第7章 数据清洗与准备188\n第8章 数据规整：连接、联合与重塑216\n第9章 绘图与可视化245第10章 数据聚合与分组操作274\n第11章 时间序列303\n第12章 高阶pandas346\n第13章 Python建模库介绍364\n第14章 数据分析示例382\n\n附录A 高阶NumPy425\n附录B 更多IPython系统相关内容457</code></pre></div><h2>第 4 本：《python3网络爬虫开发实战》--- 适读群体：已入门有一定基础的读者</h2><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d4ea4045fa567d8a09ad5d88a7ed3aeb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"680\" data-rawheight=\"255\" data-original-token=\"v2-5d0cfe59c5b345e6d83fb9d930fb1884\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-ffd50959f8dac20082108dadf78f53a9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"680\" data-original=\"https://pic4.zhimg.com/v2-d4ea4045fa567d8a09ad5d88a7ed3aeb_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8237b7280211f3abb1e1c3da9b47ffac_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-8237b7280211f3abb1e1c3da9b47ffac\" class=\"content_image\"/></figure><p data-pid=\"aYIFjCOf\">这是<b>实操性很强的一本<span class=\"nolink\">书</span></b>，前面<b>从环境配置到爬虫原理、基本库和<span class=\"nolink\">解析库</span>的使用再到数据存储</b>，一步步把基础打好，然后再分门别类<b>介绍了Ajax、<span class=\"nolink\">动态页</span>、验证码、App的爬取、识别</b>等，还讲解了代理使用、模拟登录的应用。</p><p data-pid=\"2d4jalpZ\">最后部分讲解了<b><span class=\"nolink\">pyspider</span>、Scrapy框架实例</b>以及<span class=\"nolink\">分布式部署</span>等等。书中介绍到了很多非常实用的工具，比如<b>用于动态网页爬取的Selenium、Splash，用于APP爬取的Charles、<span class=\"nolink\">mitmdump</span>、Appium等</b>，书中的知识点和源代码都可以拿来直接使用。</p><div class=\"highlight\"><pre><code class=\"language-text\">目录\n第1章　爬虫基础 1\n第2章 基本库的使用　29\n第3章　网页数据的解析提取　90\n第4章　数据的存储　128\n第5章　Ajax 数据爬取　174\n第6章　异步爬虫　191\n第7章　JavaScript 动态渲染页面爬取　212\n第8章　验证码的识别　293\n第9章　代理的使用　331\n第10章 模拟登录　373\n第11章 JavaScript 逆向爬虫　397\n第12章 App 数据的爬取　530\n第13章 Android 逆向　603\n第14章 页面智能解析　700\n第15章 Scrapy框架的使用　739\n第16章 分布式爬虫　840\n第17章 爬虫的管理和部署　862\n\n附录　爬虫与法律　917</code></pre></div><p data-pid=\"8mstD7SU\"><b>以上就是我目前推荐的几本入门级的Python书籍，后面再补充，希望对大家有所帮助。</b></p><p data-pid=\"C0LI1PaX\"><b>最后谨记：Python 官方文档，永远是最好的教程~</b></p><a href=\"https://link.zhihu.com/?target=https%3A//docs.python.org/3.15/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.python.org/3.15/</span><span class=\"invisible\"></span></a><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 127,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-41065f2b3227f50c62091e7f365c91bf_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-c04f9da64decf29ebc26ffaf0379acc8_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-e1c467c9d6d0ca4e4184ced4aa07babb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-bceeff633c7ed8898faec35c5c13e15e_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 15,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1938893694498506344}",
+      "attached_info": "Cr0JCLmz5L6T5vOiqQEQBBoJNzQxOTI3NDE1INfS78QGKAQwAECbAUpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgczODM4MDcyYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzODg5MzY5NDQ5ODUwNjM0NIoBCDI5MTM4MDIwqgEJcmVjb21tZW5kwgEgYmQzNmQ4MmFmZDQyNGVlNGIyZGUyOWNjNzdmMzUzMGLyAQoIDBIGTm9ybWFs8gEoCAoSJDIzZjU0NmYzLTM4NjgtNDgzNS04NDUyLTI2MDQyYWRkYjA5Y/IBBggLEgIyNoICAIgCzJKt+YwzkgIgYmQzNmQ4MmFmZDQyNGVlNGIyZGUyOWNjNzdmMzUzMGKaAgDKAhVMZXNzU2ltaWxhcldlaWdodFJ1bGXKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygITRW1iU2ltSXNvbGF0aW9uUnVsZcoCHEJheWVzRmlyc3RMZXZlbElzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFToAgT6AgtOT1JNQUxfRkxPV4oDIDliYWU0NTRhMWEyOTRmMTBiYTA0Y2U3YzYzOTAyNTlmmgMNCgJ2MhAAGgVvdGhlcqgDf9gDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoDlwMSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCwBRjOAiIjdjItNGI2OTZmNGNhY2U2NjcwNDUzYmRiMDgyNTU0NDk4ODI6LQgCEKAGGKAGIiN2Mi1kODM1ZmI0NDE1OGJlYzUyODI5YTkwYmViNDc1ZDNjMzotCAIQrwUYkAIiI3YyLWVmZDQyN2I0NDdmZjNmZDRlYjZiYTRhNGQzMWRmMTU2Oi0IBBCgBhigBiIjdjItZWUzYWUwY2ZmNzRjY2Y0OTBmMWEzMjM0OWNkNDY0MGI6LQgCEKcFGKMCIiN2Mi0zODliNGY0MmI2NWZiYmZkNjY5ZTEwODIzMDgyMzM1OTotCAIQoAYYoAYiI3YyLTY0NjBjMWQwMDhmMmExNGIxYWMxZmFmZjkyMGU2NDllOi0IAhCoBRj/ASIjdjItNWQwY2ZlNTljNWIzNDVlNmQ4M2ZiOWQ5MzBmYjE4ODQ6LQgCEKAGGKAGIiN2Mi04MjM3YjcyODAyMTFmM2FiYjFlMWMzZGE5YjQ3ZmZhY4AEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAHUBrD+BBQAAAAAAAAAAiQUqhMfB+VXZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUakAYAoAadAagGAJICLgoJNzQxOTI3NDE1EhMxOTM4ODkzNjk0NDk4NTA2MzQ0GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=155&desktop=true&end_offset=157&page_number=27&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=155&desktop=true&end_offset=157&page_number=27&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,624 @@
+{
+  "data": [
+    {
+      "id": "102_1768600306.685",
+      "type": "feed",
+      "offset": 102,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600306,
+      "updated_time": 1768600306,
+      "target": {
+        "is_labeled": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "id": "1994537467102139738",
+        "type": "answer",
+        "excerpt_new": "虽然java没有ExpressionTree等官方特性。 但是不要小看java生态。 他们生态太强了，没有ExpressionTree，也可以给你捣鼓出无数个类似的东西出来，与其说是没有，其实是目前生态里面杂七杂八的类似的东西有一些，只不过没有特别好的能够脱颖而出而已。 PS：本回答中就有好几个类似的个人开源项目了，我随手找了两个贴在评论区回复质疑",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "created_time": 1768314788,
+        "thanks_count": 0,
+        "excerpt": "虽然java没有ExpressionTree等官方特性。 但是不要小看java生态。 他们生态太强了，没有ExpressionTree，也可以给你捣鼓出无数个类似的东西出来，与其说是没有，其实是目前生态里面杂七杂八的类似的东西有一些，只不过没有特别好的能够脱颖而出而已。 PS：本回答中就有好几个类似的个人开源项目了，我随手找了两个贴在评论区回复质疑",
+        "visited_count": 2472,
+        "updated_time": 1768449276,
+        "comment_count": 8,
+        "preview_type": "default",
+        "answer_type": "normal",
+        "content": "<p data-pid=\"wVRcK3Z8\">虽然java没有ExpressionTree等官方特性。</p><p data-pid=\"nPDWFySh\">但是不要小看java生态。</p><p data-pid=\"7Zk6093C\">他们生态太强了，没有ExpressionTree，也可以给你捣鼓出无数个类似的东西出来，与其说是没有，其实是目前生态里面杂七杂八的类似的东西有一些，只不过没有特别好的能够脱颖而出而已。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FFoEsg-O\">PS：本回答中就有好几个类似的个人开源项目了，我随手找了两个贴在评论区回复质疑</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 2,
+        "url": "https://api.zhihu.com/answers/1994537467102139738",
+        "author": {
+          "user_type": "people",
+          "url_token": "ggff-ss",
+          "name": "ggffss",
+          "headline": "贫贱不能移",
+          "is_org": false,
+          "id": "4d172d7cd482cb3c97d2a3d2dfd9e76a",
+          "avatar_url": "https://pica.zhimg.com/50/7110e47e9674568d087befc770575b54_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 1511,
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/4d172d7cd482cb3c97d2a3d2dfd9e76a"
+        },
+        "voteup_count": 4,
+        "is_copyable": true,
+        "question": {
+          "follower_count": 0,
+          "type": "question",
+          "detail": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/502616804",
+          "title": "JAVA和C#相比，一个能打的ORM都没有吗?",
+          "answer_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "url": "https://api.zhihu.com/people/9ff6805073b0efbc89f09b4962f13546",
+            "name": "Daily",
+            "is_org": false,
+            "gender": -1,
+            "is_following": false,
+            "is_followed": false,
+            "id": "9ff6805073b0efbc89f09b4962f13546",
+            "user_type": "people",
+            "url_token": "d4ily",
+            "headline": "我是读书人",
+            "avatar_url": "https://picx.zhimg.com/50/v2-a8a5ebbe69f9149ac0010c4966ff8ef8_l.jpg?source=b6762063",
+            "followers_count": 53
+          },
+          "created": 1638240304,
+          "comment_count": 20,
+          "bound_topic_ids": [
+            3646,
+            10819,
+            13478
+          ],
+          "id": "502616804"
+        },
+        "is_navigator": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994537467102139738}",
+      "attached_info": "CuUFCN3EivWwmeK9lgEQBBoJNzY1MjkwMDM5IKSvmcsGKAQwCEBmSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoAWgg3Mzk3MzcyOGIgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5OTQ1Mzc0NjcxMDIxMzk3MziKAQk1MDI2MTY4MDSqAQlyZWNvbW1lbmTCASA0ZDE3MmQ3Y2Q0ODJjYjNjOTdkMmEzZDJkZmQ5ZTc2YfIBCggMEgZOb3JtYWzyASgIChIkODQ2MzkxMjAtOTgwMC00ZDFlLWEyZDMtODZkOTE2YTUxODE38gEGCAsSAjE4ggIAiAKjhazGvDOSAiA0ZDE3MmQ3Y2Q0ODJjYjNjOTdkMmEzZDJkZmQ5ZTc2YZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAiZUU19TT1VSQ0VfVEVYVF9NVUxUSVZJRVdfR0NGX1VTRVJDRl9WMegCAvoCC05PUk1BTF9GTE9XigMgODE3MmIyMmEzOGYxNGUyNjgxZGNlMTU0MzdjZDljZjaaAw0KAnYyEAAaBW90aGVyqAOoE9gDAOoDI2ZlZWQtdGV4dC1hbGxzaXRlLW9ubGluZS11Y2YtcmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAILqLdD+BBQAAAAAAAAAAiQU18SiJ4KG0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUSkAYAoAZoqAYBkgIuCgk3NjUyOTAwMzkSEzE5OTQ1Mzc0NjcxMDIxMzk3MzgYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "103_1768600306.473",
+      "type": "feed",
+      "offset": 103,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600306,
+      "updated_time": 1768600306,
+      "target": {
+        "content": "<p data-pid=\"G0TxTfTg\">从四月开始备考江苏省考，私企在职，很辛苦，白天上班晚上就回来学，每天学每天学几乎没断过，半年多没出去玩，游戏什么的也都戒了，中间不知道情绪崩溃过哭过多少次，都过去了</p><p data-pid=\"SNMYya6l\">行测刷了快3w题，到最后粉笔模考能上80，同岗蝉联第一。申论从9月开始学，因为是真的想上岸，不想裸考不想赌，也知道自己悟性水平一般，很认真学了，听了好几个老师的课，一点点梳理百家之长，历年真题都做了两遍，小题做了一沓，一遍遍对比各家机构答案，梳理复盘的笔记写了十来页</p><p data-pid=\"ukTBHzXA\">考的时候自我感觉挺好，时间把控不错，没有慌张，没有看错题或者没思路乱写，没觉得没逻辑或者答歪，字体也没飞</p><p data-pid=\"44TNW74u\">结果出来，招一排四，行测76.6，申论60.5，看看晒分，比岗三就差0.1，岗二差不到两分</p><p data-pid=\"Og3-bcfk\">直接就崩溃了。行测辛辛苦苦一分一分磕，申论一拉拉十分。我不求申论多高，只求有个平均分，对得起我的付出，但凡高一点点我也不至于连面都没得进。看某书上很多人裸考六十七八的，还有行测六十来分总分140+的，真的没办法释怀</p><p data-pid=\"iPobCYgp\">哭了两天，一想到要重新再来一年就崩溃，很多人都说这个行测好高，这个分数迟早上岸，但是明年也不知道会不会有这么合适的岗，也不知道又要和多少人竞争，也是真的累，真的害怕</p><p data-pid=\"Qgjvv9S0\">下岸带来的是一系列连锁反应，又要沪漂一年，没办法买房定居，结婚的计划也要延后，我现在的工作内容很难找到工作。也面过几个国企，都说以你的学历，现在的公司和薪资，为什么要来我们这里。但是事实就是我在招聘软件根本找不到什么能看的岗位。很无力，很迷茫，不知道方向在哪里</p>",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "created_time": 1768312947,
+        "excerpt_new": "从四月开始备考江苏省考，私企在职，很辛苦，白天上班晚上就回来学，每天学每天学几乎没断过，半年多没出去玩，游戏什么的也都戒了，中间不知道情绪崩溃过哭过多少次，都过去了 行测刷了快3w题，到最后粉笔模考能上80，同岗蝉联第一。申论从9月开始学，因为是真的想上岸，不想裸考不想赌，也知道自己悟性水平一般，很认真学了，听了好几个老师的课，一点点梳理百家之长，历年真题都做了两遍，小题做了一沓，一遍遍对比各家机构答…",
+        "reshipment_settings": "disallowed",
+        "favorite_count": 166,
+        "navigator_vote": false,
+        "id": "1994529745401029519",
+        "thanks_count": 8,
+        "preview_type": "default",
+        "excerpt": "从四月开始备考江苏省考，私企在职，很辛苦，白天上班晚上就回来学，每天学每天学几乎没断过，半年多没出去玩，游戏什么的也都戒了，中间不知道情绪崩溃过哭过多少次，都过去了 行测刷了快3w题，到最后粉笔模考能上80，同岗蝉联第一。申论从9月开始学，因为是真的想上岸，不想裸考不想赌，也知道自己悟性水平一般，很认真学了，听了好几个老师的课，一点点梳理百家之长，历年真题都做了两遍，小题做了一沓，一遍遍对比各家机构答…",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "author": {
+          "url": "https://api.zhihu.com/people/52b19e49f5f0aea8a186300ed3d6403f",
+          "name": "宋阙",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-fdce17d442d86dcfb795df75adf2b6c3_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "id": "52b19e49f5f0aea8a186300ed3d6403f",
+          "url_token": "yao-qian-qian-44-98",
+          "followers_count": 1502,
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people"
+        },
+        "updated_time": 1768312947,
+        "is_copyable": false,
+        "question": {
+          "type": "question",
+          "title": "匿名关了，大家实名说说你最近的烦恼？",
+          "follower_count": 0,
+          "created": 1692947770,
+          "comment_count": 91,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "id": "619116908",
+          "url": "https://api.zhihu.com/questions/619116908",
+          "author": {
+            "is_following": false,
+            "is_followed": false,
+            "id": "03831eb6c7e2bfbf3bc97f6b1d92fa5a",
+            "headline": "什么不是很懂",
+            "is_org": false,
+            "gender": -1,
+            "avatar_url": "https://picx.zhimg.com/50/f18be7564c1815f1380954a50d5234dd_l.jpg?source=b6762063",
+            "followers_count": 24,
+            "url": "https://api.zhihu.com/people/03831eb6c7e2bfbf3bc97f6b1d92fa5a",
+            "user_type": "people",
+            "url_token": "hu-luan-pai-huai",
+            "name": "胡乱徘徊"
+          },
+          "excerpt": "",
+          "detail": "",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            3047,
+            3357,
+            8803
+          ],
+          "is_following": false
+        },
+        "preview_text": "",
+        "visited_count": 24982,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1994529745401029519",
+        "voteup_count": 205,
+        "comment_count": 164,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994529745401029519}",
+      "attached_info": "Cr8GCN3EivWwmeK9lgEQBBoJNzY1Mjg2NTU5IPOgmcsGKM0BMKQBQGdKYQopVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlQSLmhvdF9yZWNhbGxfcmVhbHRpbWVfdDpuZXc3ZDoyMDI2LTAxLTE3Om1vbnRobHkYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCDk5ODYxNjA2YiAxMTU4NTQwYWY5NDYyOGNlOTQ0YzhkYzY4Nzc2NDgzMXITMTk5NDUyOTc0NTQwMTAyOTUxOYoBCTYxOTExNjkwOKoBCXJlY29tbWVuZMIBIDUyYjE5ZTQ5ZjVmMGFlYThhMTg2MzAwZWQzZDY0MDNm8gEKCAwSBk5vcm1hbPIBKAgKEiRhM2E0YzNlNy0wOGJiLTRjNzAtOWQ1OS1hMTYwMmQ0OTNiMGPyAQYICxICMTiCAgCIAqSFrMa8M5ICIDUyYjE5ZTQ5ZjVmMGFlYThhMTg2MzAwZWQzZDY0MDNmmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFlJldmlzaXRWYWx1ZVdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVOgCAvoCC05PUk1BTF9GTE9XigMgODE3MmIyMmEzOGYxNGUyNjgxZGNlMTU0MzdjZDljZjaaAw0KAnYyEAAaBW90aGVyqAOWwwHYAwDqAyJob3RDcm9zc1JlYWxUaW1lTmV3Q29udGVudFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAACQTkD+BBQAAAAAAAAAAiQU18SiJ4KG0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUSkAYAoAZpqAYDkgIuCgk3NjUyODY1NTkSEzE5OTQ1Mjk3NDU0MDEwMjk1MTkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "104_1768600306.942",
+      "type": "feed",
+      "offset": 104,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600306,
+      "updated_time": 1768600306,
+      "target": {
+        "vote_next_step": "vote",
+        "type": "answer",
+        "preview_text": "",
+        "answer_type": "normal",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "question": {
+          "author": {
+            "name": "猫用鼠标",
+            "headline": "日行一善，奇技淫巧收藏家",
+            "gender": -1,
+            "is_following": false,
+            "id": "e400c19d12a5b2812d1b3d53f5b0c59e",
+            "url": "https://api.zhihu.com/people/e400c19d12a5b2812d1b3d53f5b0c59e",
+            "avatar_url": "https://picx.zhimg.com/50/v2-20d2c2ed86406965431c06e71df40b45_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 164,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "shuai-shuai-de-jiminy"
+          },
+          "is_following": false,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/587339724",
+          "created": 1677833095,
+          "comment_count": 23,
+          "bound_topic_ids": [
+            404,
+            1522,
+            6409,
+            13908,
+            436225
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "587339724",
+          "title": "二次元的「认妈文化」是如何形成的？",
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-149cd766b6f22ba20b5ad4d39072ee21_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "visited_count": 22845,
+        "author": {
+          "gender": 0,
+          "followers_count": 7222,
+          "id": "0bb32578913621c34352cda3cd0689d4",
+          "url": "https://api.zhihu.com/people/0bb32578913621c34352cda3cd0689d4",
+          "name": "过期酒精",
+          "avatar_url": "https://picx.zhimg.com/50/v2-537c380b22e45d522ffe31f493b555c3_l.jpg?source=b6762063",
+          "badge": [
+            {
+              "type": "super_activity",
+              "description": "知势榜游戏动漫领域成长力榜答主"
+            }
+          ],
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "bxkcwx",
+          "headline": "写男频的",
+          "is_org": false
+        },
+        "thanks_count": 34,
+        "excerpt_new": "我的想法比较悲观。 被追捧往往是因为稀少，毕竟不是每个妈妈都拥有母爱   如果你妈妈对你不好，你会因 缺失而一生寻找如果你妈妈对你很好，你会因 拥有而一生回味如果你从小没有妈妈，你更会因 缺爱而本能地向外探寻。因为我们要的，是“母爱”背后的东西 一种无条件的接纳 一种永不疲倦的温柔 一种“无论你如何都归属于此”的安稳。 而不是现实里 掺杂着算计、怨怼、憎恶、羞辱、打压与伤痕的关系 就像古有沉香劈山救母 今有夏亚…",
+        "url": "https://api.zhihu.com/answers/1994056496015754514",
+        "created_time": 1768200116,
+        "comment_count": 53,
+        "updated_time": 1768204247,
+        "excerpt": "我的想法比较悲观。 被追捧往往是因为稀少，毕竟不是每个妈妈都拥有母爱   如果你妈妈对你不好，你会因 缺失而一生寻找如果你妈妈对你很好，你会因 拥有而一生回味如果你从小没有妈妈，你更会因 缺爱而本能地向外探寻。因为我们要的，是“母爱”背后的东西 一种无条件的接纳 一种永不疲倦的温柔 一种“无论你如何都归属于此”的安稳。 而不是现实里 掺杂着算计、怨怼、憎恶、羞辱、打压与伤痕的关系 就像古有沉香劈山救母 今有夏亚…",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "is_copyable": true,
+        "content": "<p data-pid=\"isR1z1qw\">我的想法比较悲观。</p><p data-pid=\"I9Ue4GUi\">被追捧往往是因为稀少，毕竟不是每个妈妈都拥有母爱</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-39b19f80fe913013b6d7ef46d97f06fc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1784\" data-original-token=\"v2-149cd766b6f22ba20b5ad4d39072ee21\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-39b19f80fe913013b6d7ef46d97f06fc_r.jpg\"/></figure><p data-pid=\"OACFKxth\">如果你妈妈对你不好，你会因<b>缺失</b>而一生寻找</p><p data-pid=\"JCbxL_c7\">如果你妈妈对你很好，你会因<b>拥有</b>而一生回味</p><p data-pid=\"kD4oAJNp\">如果你从小没有妈妈，你更会因<b>缺爱</b>而本能地向外探寻。</p><p data-pid=\"YQMKWrtv\">因为我们要的，是“母爱”背后的东西</p><p data-pid=\"SWCjGeqV\">一种无条件的接纳</p><p data-pid=\"Ds5UxySJ\">一种永不疲倦的温柔</p><p data-pid=\"peW6X-iZ\">一种“无论你如何都归属于此”的安稳。</p><p data-pid=\"gHvlqABD\">而不是现实里</p><p data-pid=\"JS8aZr4e\">掺杂着算计、怨怼、憎恶、羞辱、打压与伤痕的关系</p><p data-pid=\"l2Eml9Yu\">就像古有沉香劈山救母</p><p data-pid=\"ONOvHgtc\">今有夏亚说“拉拉辛可能是成为我母亲的人”</p><p data-pid=\"zZOS2Hha\"><b>这些故事背后</b></p><p data-pid=\"C5JOICwQ\">都是我们渴望被拯救、被包容、获得无条件的爱。</p><p data-pid=\"WSqSOR3z\">我们这代人，活得又太累</p><p data-pid=\"n0I_DSJN\">早上七点抢共享单车</p><p data-pid=\"q_NXFpOB\">晚上十点抢打折菜。</p><p data-pid=\"j5bn758r\">现实里的亲妈还在微信催你“赶紧找对象”</p><p data-pid=\"4nQL4eu8\">但<b>二次元妈妈</b>，你可以脆弱，可以摆烂，可以当个废物</p><p data-pid=\"l-_APR2k\">八重神子永远不会问你“年终奖多少”</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0a1f011a9cac39d2b0ceba5019fa8e39_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"875\" data-original-token=\"v2-016b0360a5c550ea3973d568f89ef4f0\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://picx.zhimg.com/v2-0a1f011a9cac39d2b0ceba5019fa8e39_r.jpg\"/></figure><p data-pid=\"3esDvLBq\">玛奇玛就算要支配你也是全盘接纳</p><p data-pid=\"HPGf-Q3H\">她们提供的是<b>不带说教的心疼</b></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6a2d03539d63f9c6a5427196702adc5c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"798\" data-rawheight=\"1219\" data-original-token=\"v2-5cf47cd1f5adc8a15920c2d191ad3cb5\" class=\"origin_image zh-lightbox-thumb\" width=\"798\" data-original=\"https://pica.zhimg.com/v2-6a2d03539d63f9c6a5427196702adc5c_r.jpg\"/></figure><p data-pid=\"PtK0auRv\">这种体验在真实亲子关系里几乎绝迹。</p><p data-pid=\"l2vxJ0wB\">乃至“被需要”，甚至带着病娇的甜蜜。</p><p data-pid=\"4xJ8q_Tk\">最妙的是，你可以随时退出这段“母子关系”。</p><p data-pid=\"qQFDGoIo\">不用真的给她养老，不用听她唠叨</p><p data-pid=\"85-v7nSt\">不会被她拿去和人比较</p><p data-pid=\"dkIEU-fN\">喊“妈妈”的瞬间</p><p data-pid=\"vtwiZU7n\">我们便能心理退行<sup data-text=\"退行是弗洛伊德提出的心理防御机制，是指人们在受到挫折或面临焦虑、应激等状态时，放弃已经学到的比较成熟的适应技巧或方式，而退行到使用早期生活阶段的某种行为方式，以满足自己的某些欲望。\" data-url=\"\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。</p><p data-pid=\"an60x4HT\">不用证明自己多努力，仍旧就值得被爱。</p><p data-pid=\"mbJdHDtV\">而二次元里的“妈妈”</p><p data-pid=\"N55--x9y\">拥有圣母般的胸怀和圣人般的慈悲</p><p data-pid=\"SpPLASSx\">面对各种琐碎、压力、内耗后</p><p data-pid=\"l3QOqXUA\">依旧能让人感到温柔、可靠</p><p data-pid=\"Kd-EcP1C\">大家才愿意一次次认领这种理想化的温柔。</p><p data-pid=\"oBYO-jfR\">而且就算你在现实里拥有了一位绝世好母亲</p><p data-pid=\"WtsdIO4G\">也完全不能保证岁月不会带来疏远、病痛与别离。</p><p data-pid=\"p_7ynoYo\">我们无法在生活里，时刻拥有她</p><p data-pid=\"aqx6RCtH\">所以才会去二次元里，一遍遍听那句“おかえり”（你回来了）。</p><p data-pid=\"Hl6YZjbd\"><b>认的不是妈，是被补完的自己</b></p><p></p>",
+        "is_labeled": false,
+        "favorite_count": 377,
+        "navigator_vote": false,
+        "id": "1994056496015754514",
+        "voteup_count": 416,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-149cd766b6f22ba20b5ad4d39072ee21_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-5cf47cd1f5adc8a15920c2d191ad3cb5_720w.jpg?source=b6762063"
+        ]
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1994056496015754514}",
+      "attached_info": "CtkGCN3EivWwmeK9lgEQBBoJNzY1MDgzMjY4ILSvkssGKKADMDVAaEo6CidUU19TT1VSQ0VfRklSU1RfREVHUkVFX1NPQ0lBTF9VU0VSX1JFQUQSCTc2OTI3NzQwNRgAIAA6AFoIOTI4MDE1NzBiIDExNTg1NDBhZjk0NjI4Y2U5NDRjOGRjNjg3NzY0ODMxchMxOTk0MDU2NDk2MDE1NzU0NTE0igEJNTg3MzM5NzI0qgEJcmVjb21tZW5kwgEgMGJiMzI1Nzg5MTM2MjFjMzQzNTJjZGEzY2QwNjg5ZDTyAQoIDBIGTm9ybWFs8gEoCAoSJGYyN2UwNDY0LTJjOGYtNGRjZi04Yjk0LTk2OTFiNTMzYTU5ZPIBBggLEgIxOIICAIgCpIWsxrwzkgIgMGJiMzI1Nzg5MTM2MjFjMzQzNTJjZGEzY2QwNjg5ZDSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gInVFNfU09VUkNFX0ZJUlNUX0RFR1JFRV9TT0NJQUxfVVNFUl9SRUFE6AID+gILTk9STUFMX0ZMT1eKAyA4MTcyYjIyYTM4ZjE0ZTI2ODFkY2UxNTQzN2NkOWNmNpoDDQoCdjIQABoFb3RoZXKoA72yAdgDAOoDG2ZpcnN0RGVncmVlVXNlclJlYWRSZWNhbGxlcvoDrAESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBCAChj4DSIjdjItMTQ5Y2Q3NjZiNmYyMmJhMjBiNWFkNGQzOTA3MmVlMjE6LQgEEPQDGOsGIiN2Mi0wMTZiMDM2MGE1YzU1MGVhMzk3M2Q1NjhmODllZjRmMDotCAQQngYYwwkiI3YyLTVjZjQ3Y2QxZjVhZGM4YTE1OTIwYzJkMTkxYWQzY2I1gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAA8KyRP4EFAAAAAAAAAACJBTXxKIngobQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRKQBgCgBmqoBgCSAi4KCTc2NTA4MzI2OBITMTk5NDA1NjQ5NjAxNTc1NDUxNBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "105_1768600306.207",
+      "type": "feed",
+      "offset": 105,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600306,
+      "updated_time": 1768600306,
+      "target": {
+        "url": "https://api.zhihu.com/answers/1993834398274044960",
+        "comment_count": 5,
+        "is_copyable": true,
+        "excerpt_new": "本篇是新年专栏《提高社会化程度》的最后一篇文章，之前我们从宏观视角、微观的场景、方法论和具体的技能层对读者们给到一些分享，相信认真看过的人多少都能得到一些启发，需要指出的是，提高社会化程度其实远远不是某些自媒体博主营造出的那么“高不可攀”，相反，随着时间的推移和形势的不断发展，存量时代反而没有过去那么多“花里胡哨”——过去那套迎来送往、喝酒陪客、人情世故的作用事实意义上下降的非常厉害，甚至对很多…",
+        "content": "<p data-pid=\"SY3AHv0r\">本篇是新年专栏《提高社会化程度》的最后一篇文章，之前我们从宏观视角、微观的场景、方法论和具体的技能层对读者们给到一些分享，相信认真看过的人多少都能得到一些启发，需要指出的是，提高社会化程度其实远远不是某些自媒体博主营造出的那么“高不可攀”，相反，随着时间的推移和形势的不断发展，存量时代反而没有过去那么多“花里胡哨”——过去那套迎来送往、喝酒陪客、人情世故的作用事实意义上下降的非常厉害，甚至对很多人而言已经丧失了作用。</p><p data-pid=\"ntDl6g6G\">要不然为啥很多博主能把“人情世故”段子反复当爽文翻拍，营造出一个主角光环让观众代入进去，能够给到最大限度的爽感——所谓的“在自己的平行宇宙里，自己是最幸运、最会被赏识的那个人”。</p><p data-pid=\"NwTloNR_\">现实果真如此吗？我想很多真正走上社会、进入不同工作岗位的人一定有发言权。</p><p data-pid=\"SKjUzgs1\">归根到底是过去那套大基建、大项目、大灌水的时代彻底结束了，信息的滞后性让某些过去的事情被拿出来当故事讲讲，顺便赚取一些流量和关注度，但如果当下的人还要试图去使用这套内容，那就显得极为不合时宜。</p><p data-pid=\"MwUA4sNh\">别的不说，就是现在流官制度下、某些大方脸人人自危、出点事既没人兜底、还要考虑互相背刺的可能性，你觉得有什么可能性给你时间和空间去获取“信任”？</p><p data-pid=\"aAJx7sc4\">不信的话如果读者在自己家里和一些工作社会关系里，观察一下很多依然还能“<b>拿到项目、套到补贴、获得贷款</b>”的大神，背后到底是什么站台、自己又是什么实力？、</p><p data-pid=\"S4bdzMPR\">这可绝不是你“小聪明”帮忙买几次单、跑几次腿、展示几次你的机灵就有用的——很简单一个道理，<b>存量时代所需要的信任背书、社交认证、社交价值和细分层面的专业度，不是你躺沙发上刷刷短视频、买点“课程”就能解决的。</b></p><p data-pid=\"zAtR2xRf\"><b>说起来好玩，这就类似于有人看你“骨骼惊奇”，向你兜售了一本《屠龙术》，哥们兴高采烈的拿回家里关上门“用心修炼”，本以为“神功大成”，出门逢人就说自己必然一鸣惊人，这时候突然有人问你一句：“龙在哪？”</b></p><p data-pid=\"m9Xpg06l\">是不是一下就代入进去了？即便是你当买单侠、陪喝酒、做私事、展示你的“高情商”，那是不是也得有那么个“大人物”、“好大哥”给你个展示自己的机会呢？</p><p data-pid=\"ZJKo8kzU\">问题不就又回到了一开始的：“大哥在哪里？”——这里你还得小心假大哥，尤其是张口闭口自己几千万美元融资、这个项目那个项目的。</p><p data-pid=\"9M0NDGxb\">大哥在哪里？本质上就是：“渠道和关系”，那你说你刷短视频能帮你进入某些圈子吗？</p><p data-pid=\"6FOSPXsS\">答案是不是呼之欲出了？</p><p data-pid=\"5ieiZ1vB\"><b>话说到这份上，也就自然结合题目本身，引出了专栏最后一篇文章所要表达的核心：</b></p><p data-pid=\"XD0LQznI\"><b>读者们一定要学会：“动态和释然的看待一切人际关系”——不仅适用于好友关系变淡、也适用于你对“好大哥”脱敏、也有助于你提高社会化程度。</b></p><p data-pid=\"P1tCnvQJ\"><b>这也是我观察很多“跪舔大哥被骗”、“梭哈某个官员结果官员落马自己跟着被坑”、“幻想贵人引路结果被割韭菜”、“工具人身份有效期到了却没拿到应有的回报”等等抽象案例，所发现的深刻规律和道理。</b></p><p data-pid=\"jXl_p7y4\"><b>下面给出一些具体的方法论参考，帮助读者们避坑、看清人、实现利益最大化。</b></p><p data-pid=\"xXTg2xlj\">动态的看待一切人际关系，在于读者们需要放平心态，先从旁观者视角冷静甚至是冷漠的“观察和收集”与你有关的信息，比如说你工作的细分领域里你的客户、领导、同事，他们是什么人、又习惯于做什么事说什么话，而不是“畏惧某个领导或者客户”。</p><p data-pid=\"XsM-mfmi\">对很多人而言，你创造价值的过程要么是通过销售标准品赚取利润、不然就是纯粹的出卖劳动时间，通过简单的时间积累赚取报酬。</p><p data-pid=\"YBuWUzMo\">以上的工作环境，往往会让一个人陷入“疲于奔命”的窘境，自身能量会被定期抽取，完全没有额外精力去思考：“<b>如何让自己更有价值</b>”。</p><p data-pid=\"OSZElBMl\">实际上如果一个年轻人能够脱离低能量的原生家庭环境之后，提升实用技能、然后利用技能本身所创造的价值抓住一些机遇开始多社交，想明白自己的生存处境和生态位，摆脱单纯的固执，步步为营做好规划的话，其实是能够很快适应环境和提升认知的——因为很多人就是丧失了我说到的这些能力，而你但凡能够“放松状态下”去做这些事，在时间沉淀后一定会出现惊人的变化。</p><p data-pid=\"jTjhQRUL\">这也涉及到了信息污染、过分的贩卖焦虑造成的年轻一代没法沉下心做些事，所以也是我提到的“动态的看待一切人际关系”的重要原因——你先别想某个人到底能不能一夜之间让你飞升，你要先考虑的是如何先生存下来、再试图让自己更加具备某些价值，进而再被某些人看到，然后才有一些可能潜在的机会，否则的话，迎接你的大概率就是镰刀而不是“真贵人”。</p><p data-pid=\"20p-YXdU\">今天刚有个读者后台咨询我，提到自己辍学以后陷入了和家人的拉锯战、自己情绪也很差，问我怎么办，我想这个案例也能给读者们一些有价值的参考。</p><p data-pid=\"nAA4OzrD\">我就给了很简单的三步走方法：先让自己身体和心理保持一个相对稳定的状态——不管是运动、改变饮食结构还是和家人好好沟通，保证自己先不要内耗；其次让自己暂时放下“赚大钱”“出大名”“改大运”的夸张念头，这些妄念除了让你每天处于“幻想成功后的喜悦”——“回看现实一片漆黑的失落”这样的情绪轮回里，没有任何意义，反而只能让你不断自我否定、自我怀疑；</p><p data-pid=\"0jNciX_m\">最关键一点我在听了他家里做的一些生意、还有家里给他想办法介绍的某些工作机会来看，也不是完全没机会了。</p><p data-pid=\"a8bU2bic\">我也说得很明确，你这么年轻反正也不读书了，现在善用和用好自媒体与人工智能，多开始筛选和整合信息，家里安排的事先好好做做，就当锻炼心性，做一段时间就知道自己擅长做啥、能做好啥了，家里人看你也确实能认真做点事，带着你出去认认人、混混家里的社交圈，很多机会自己慢慢就出来了，短则三年，长也不过五年，你怕什么，反正现在也不急着结婚买房子。</p><p data-pid=\"9Aak6Wqs\">听完我的建议，他很快情绪就稳定下来了，告诉我自己之前就是太过于纠结于：“急着成功”“急着和家里人面前证明自己”。</p><p data-pid=\"CSJ6Jtan\">我说这也很正常，成名本来就要趁早，但现在这个形势，没有熟人带路，很多细分赛道你插不进去的，家里现在给你铺铺路，先让自己有个吃饭的本事再说。</p><p data-pid=\"W43A1Yzl\">其实我倒是不担心这个人会差到哪里——毕竟他躲过了在挂壁大学的宿舍里荒废的四年时光，直接开始面对非常真实的生存游戏考验，更何况还有他家里带路，也就是一开始小孩浮躁点，后面相信干顺了会习惯而且也能干好的。</p><p data-pid=\"pQemrmiY\">这就是我提到的“<b>动态和释然的看待人际关系</b>”的具象化体现——不要执着于输赢、证明什么、也不被某些人的某些光环晃到了、更能非常坦然的接受人和人的相遇别离。</p><p data-pid=\"dk75384q\">读者只要具备了我说的这种心态，实际上就可以在一个很客观和高维的层面去看待人和事。</p><p data-pid=\"warJ4ELN\">我反复强调过高社会化程度的几个表现：搞钱、搞定关系、做成事。</p><p data-pid=\"el6hv8ii\">以上三个点其实都需要非常持续和不枯竭的心力作为支撑——因为很多时候，不是你今天做点什么、明天做点什么就马上能看到效果的，甚至可能你方向对了、做的也对了，最后差点运气也不能让结果称心如意。</p><p data-pid=\"UfoEKDFL\">你就是你，你所需要的自由、财富一定是在你通过不断攀爬的圈子、关系和自身提高的价值过程里实现的，要不然为啥有句话说：“手中无剑心中有剑”呢，说的就是举重若轻，不被外物所累的心态，也只有这样才能轻装上阵，专注于自身的提升。</p><p data-pid=\"OQyBGg8R\">最关键有一点，你一旦具备了这种“松弛的做事状态”，其实在很大程度上就能摆脱“恐惧感”。</p><p data-pid=\"5WKOFLCf\">很多人失败固然有运气成分，但很多时候都是由于内心的恐惧、外界施加的“恐吓”让自己丧失了主体性，进而把评判、改变的权力轻而易举的交出去，那你说还怎么真正提高社会化程度？</p><p data-pid=\"90-5QCwO\">就好比很多人对什么领导、大哥还心存幻想，人家演戏、周围几个人抬轿子，就给吓够呛，这时候你不就成了案板上任人宰割的那块肉了吗？</p><p data-pid=\"Sh6HB43Y\">尤其是很多人由于恐惧情绪，会认为“错过某次机会”“错过某个窗口”“错过某个大哥”，自己一定会失败、会万劫不复。</p><p data-pid=\"HVJPVyVS\">实际上我要说的是，这种往往是外界所渲染的：“恐吓行为”，其目的往往就是让你配合某些人的行为罢了。</p><p data-pid=\"PlNXRwFR\">如果非要说一个人的发展、成长和实现个人价值，一定是长期的波动和进阶，不是某个人、某些人定义的“错过一次机会终生后悔”——我请问你，你知道什么是真正的机会吗？你知道怎么把握住真正的机会吗？</p><p data-pid=\"aPKW8Bpk\">如果你自己都说不清、看不明，这种定义权一定不在你手里，那又何谈一次就一败涂地了呢？</p><p data-pid=\"6Zxt43kb\">别活的那么“费力”——你不需要那么多思想包袱，你就是你自己而已。</p><p data-pid=\"m8UEOKQS\">想明白我刚才说的一切，你们也应该能理解我在专栏里反复传递的价值观到底是什么了。</p><p data-pid=\"dydJz7eu\"><b>希望大家轻松、专注、聚焦的做某些事、跋涉下去，尽管过程会辛苦，但你绝不会浑浑噩噩的度过自己的黄金年华。</b></p><p data-pid=\"knlb0sgo\"><b>种下一棵树最好的时间是十年前，以及现在。</b></p><p data-pid=\"yZRRy5bL\"><b>那么请大家开始吧！我也会一起陪伴大家！</b></p><p data-pid=\"lAtZ-rrn\"><b>专栏完结，谢谢大家支持！</b></p><p data-pid=\"qVAxjh2M\"><b>有任何问题可以投稿交流，再次致谢！</b></p>",
+        "visited_count": 2680,
+        "favorite_count": 97,
+        "answer_type": "normal",
+        "author": {
+          "user_type": "people",
+          "name": "大宾哥",
+          "is_org": false,
+          "followers_count": 47394,
+          "is_following": false,
+          "is_followed": false,
+          "id": "69e45aa90f991fdac62f3d3cf6de7d49",
+          "url": "https://api.zhihu.com/people/69e45aa90f991fdac62f3d3cf6de7d49",
+          "avatar_url": "https://picx.zhimg.com/50/v2-ee9b17804f7a24d2713c62083e814a47_l.jpg?source=b6762063",
+          "gender": 1,
+          "url_token": "tian-ge-de-xiao-hao-86",
+          "headline": "谎言不会伤人，真相才是快刀。（公众号：大宾哥的笔记本）"
+        },
+        "voteup_count": 84,
+        "preview_text": "",
+        "allow_segment_interaction": true,
+        "type": "answer",
+        "updated_time": 1768147164,
+        "thanks_count": 7,
+        "question": {
+          "answer_count": 0,
+          "bound_topic_ids": [
+            307,
+            1546,
+            11609,
+            33189
+          ],
+          "excerpt": "",
+          "url": "https://api.zhihu.com/questions/511445669",
+          "title": "活了这么多年，你明白了什么道理？",
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "type": "question",
+          "author": {
+            "id": "5f3ec639f31e181a0dca47acdfaf4ff4",
+            "url": "https://api.zhihu.com/people/5f3ec639f31e181a0dca47acdfaf4ff4",
+            "url_token": "ke-lai-yin-de-lan-78-57",
+            "headline": "风景很美，路途遥远。要努力造就自己，去看看远方的风景。",
+            "gender": -1,
+            "is_followed": false,
+            "user_type": "people",
+            "name": "克莱因的蓝",
+            "avatar_url": "https://picx.zhimg.com/50/v2-c3839a9a1c9e1715d1b230bef72c3212_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 0,
+            "is_following": false
+          },
+          "comment_count": 7,
+          "is_following": false,
+          "question_type": "normal",
+          "id": "511445669",
+          "created": 1642118095
+        },
+        "excerpt": "本篇是新年专栏《提高社会化程度》的最后一篇文章，之前我们从宏观视角、微观的场景、方法论和具体的技能层对读者们给到一些分享，相信认真看过的人多少都能得到一些启发，需要指出的是，提高社会化程度其实远远不是某些自媒体博主营造出的那么“高不可攀”，相反，随着时间的推移和形势的不断发展，存量时代反而没有过去那么多“花里胡哨”——过去那套迎来送往、喝酒陪客、人情世故的作用事实意义上下降的非常厉害，甚至对很多…",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "id": "1993834398274044960",
+        "created_time": 1768147164,
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993834398274044960}",
+      "attached_info": "CrwGCN3EivWwmeK9lgEQBBoJNzY1MDA2ODMxINyRj8sGKFQwBUBpSkUKHFRTX1NPVVJDRV9URVhUX0FDVElPTl9JVEVNQ0YSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDc0NTY5MjUyOQoYACAAOgBKLwoGSXRlbUNGEh9kb2NfdHlwZTogQW5zd2VyCmlkOiA3NDU2OTI1MjkKGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg3NTkzNjIwOWIgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5OTM4MzQzOTgyNzQwNDQ5NjCKAQk1MTE0NDU2NjmqAQlyZWNvbW1lbmTCASA2OWU0NWFhOTBmOTkxZmRhYzYyZjNkM2NmNmRlN2Q0OfIBCggMEgZOb3JtYWzyASgIChIkODhhMmU3ZWQtYzEyYy00MGY1LWJkN2UtZTVlMWQzNmRmYjk48gEGCAsSAjE4ggIAiAKkhazGvDOSAiA2OWU0NWFhOTBmOTkxZmRhYzYyZjNkM2NmNmRlN2Q0OZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhxUU19TT1VSQ0VfVEVYVF9BQ1RJT05fSVRFTUNG6AIC+gILTk9STUFMX0ZMT1eKAyA4MTcyYjIyYTM4ZjE0ZTI2ODFkY2UxNTQzN2NkOWNmNpoDDQoCdjIQABoFb3RoZXKoA/gU2AMA6gMVdGV4dEFsbFNpdGVNdkl0ZW1DRlYz+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwAGdjD+BBQAAAAAAAAAAiQU18SiJ4KG0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUSkAYAoAZrqAYAkgIuCgk3NjUwMDY4MzESEzE5OTM4MzQzOTgyNzQwNDQ5NjAYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "106_1768600306.720",
+      "type": "feed",
+      "offset": 106,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600306,
+      "updated_time": 1768600306,
+      "target": {
+        "is_copyable": true,
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "favorite_count": 5,
+        "question": {
+          "question_type": "normal",
+          "created": 1715306980,
+          "answer_count": 0,
+          "follower_count": 0,
+          "excerpt": "",
+          "id": "655542713",
+          "type": "question",
+          "title": "如何在职场中做到情绪稳定？",
+          "url": "https://api.zhihu.com/questions/655542713",
+          "comment_count": 1,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "author": {
+            "id": "639c8c1181fe4a9b0c00b62c075f0b15",
+            "url_token": "nala-69-40",
+            "is_org": false,
+            "followers_count": 12,
+            "gender": 0,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "工程管理与设计行业 建筑设计总监"
+              }
+            ],
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/639c8c1181fe4a9b0c00b62c075f0b15",
+            "user_type": "people",
+            "name": "贫民窟百万设计师",
+            "headline": "爱吃爱睡身体胖，爱拼贴爱CAD",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-fee0a0be80885d8f02b3b694568b4d5a_l.jpg?source=b6762063",
+            "is_followed": false
+          },
+          "bound_topic_ids": [
+            363355,
+            2604382
+          ],
+          "is_following": false
+        },
+        "vote_next_step": "vote",
+        "updated_time": 1768547622,
+        "is_labeled": false,
+        "answer_type": "normal",
+        "voteup_count": 9,
+        "preview_text": "",
+        "thumbnail": "https://picx.zhimg.com/50/v2-4c0499cd50af22289cb5dc21fb574bf7_720w.jpg?source=b6762063",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "9KBPQqIp",
+            "text": "有个词语常被用于职场向上管理，但用在工作少，又需要减少情绪消耗的阶段，也是不错的方法，那就是屎上雕花。",
+            "marks": [
+              {
+                "start_index": 43,
+                "end_index": 50,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995574544036028463"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "created_time": 1768547622,
+        "thanks_count": 2,
+        "excerpt": "✅题主自己都有答案了啊，看看这答案明晃晃在描述中写着。   来解读一下题主的问题描述。 第一部分说的是以前，工作很忙，大家都埋头做事，情绪都稳定。第二部分说的是现在，无事可做，大家开始各种闹妖行为，情绪都不稳定。※抓住一个重点，答案自然浮出， 忙的时候无事，闲的时候，则无事生非。要情绪稳定，必须要让自己忙，潜在指向专注。   ✅在题主面临的职场背景之下，让情绪稳定的工作方法，只有两条忙起来的建议，可灵活应…",
+        "preview_type": "default",
+        "id": "1995514041502818584",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995514041502818584",
+        "author": {
+          "url": "https://api.zhihu.com/people/58c54d8781a161e03cbac494de9460e9",
+          "user_type": "people",
+          "name": "离了歪斜的鸟窝儿",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-1511ef304126c98151ab9579110e9faa_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 336,
+          "is_following": false,
+          "id": "58c54d8781a161e03cbac494de9460e9",
+          "url_token": "88-40-86-8",
+          "headline": "离了歪斜这么久了，就这么招吧。",
+          "is_followed": false
+        },
+        "comment_count": 3,
+        "excerpt_new": "✅题主自己都有答案了啊，看看这答案明晃晃在描述中写着。   来解读一下题主的问题描述。 第一部分说的是以前，工作很忙，大家都埋头做事，情绪都稳定。第二部分说的是现在，无事可做，大家开始各种闹妖行为，情绪都不稳定。※抓住一个重点，答案自然浮出， 忙的时候无事，闲的时候，则无事生非。要情绪稳定，必须要让自己忙，潜在指向专注。   ✅在题主面临的职场背景之下，让情绪稳定的工作方法，只有两条忙起来的建议，可灵活应…",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"QxyIAgIo\"><b>✅题主自己都有答案了啊，看看这答案明晃晃在描述中写着。</b></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4e0f4d9c99bb57feed56837b5f448aaa_1440w.jpg\" data-rawwidth=\"1079\" data-rawheight=\"764\" data-size=\"normal\" data-original-token=\"v2-4c0499cd50af22289cb5dc21fb574bf7\" class=\"origin_image zh-lightbox-thumb\" width=\"1079\" data-original=\"https://pic1.zhimg.com/v2-4e0f4d9c99bb57feed56837b5f448aaa_r.jpg\"/></figure><p data-pid=\"mgIykgNZ\">来解读一下题主的问题描述。</p><ul><li data-pid=\"T6qWK3wF\">第一部分说的是以前，工作很忙，大家都埋头做事，情绪都稳定。</li><li data-pid=\"1o3XK0kO\">第二部分说的是现在，无事可做，大家开始各种闹妖行为，情绪都不稳定。</li></ul><p data-pid=\"wIOicTUa\">※抓住一个重点，答案自然浮出，<b>忙的时候无事，闲的时候，则无事生非。要情绪稳定，必须要让自己忙，潜在指向专注。</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8b45441f42d103c3f4071256c852066f_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1080\" data-size=\"normal\" data-original-token=\"v2-168a286b457e13f6f6a0ab9f5d4f5347\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-8b45441f42d103c3f4071256c852066f_r.jpg\"/></figure><p data-pid=\"ZXNytliD\"><b>✅在题主面临的职场背景之下，让情绪稳定的工作方法，只有两条忙起来的建议，可灵活应用。</b></p><p data-pid=\"-ojzfqJ1\"><b>1️⃣仅有的工作，干出花来，情绪自然稳定。</b></p><p data-pid=\"p4N_sFp7\">项目再少，正常的岗位也会有一些基本的工作，学会专注于手头基本工作。</p><p data-pid=\"9KBPQqIp\">有个词语常被用于职场向上管理，但用在工作少，又需要减少情绪消耗的阶段，也是不错的方法，那就是屎上雕花。</p><ul><li data-pid=\"o9DXxJ-B\">写工作日志，要细到每个小动作，从早上进入办公区就开始写，写出花儿来。</li><li data-pid=\"hbXYYcMT\">仅有的工作要坚定形式主义，甚至要把形式主义当做主要部分完成。</li><li data-pid=\"F8oMK08z\">转变对工作的麻木心态，简单的工作变着花样，换换方法去干，单一会无趣。</li></ul><p data-pid=\"WSjDPzI5\"><b>※具体雕花的细节，可以自行揣度，要爱上钻研工作，喜欢放大每个细节，情绪都安放在工作中，绝对稳定。</b></p><p data-pid=\"tFREKMii\"><b>2️⃣主动工作挖潜，提升自己，稳定情绪。</b></p><p data-pid=\"fTMMoj1Y\">对有心又有眼力的职场人来说，进入岗位那一刻起，眼里就必须有活儿，这和领导是否安排工作无关。</p><ul><li data-pid=\"E8G9KroK\">自己的工作如果不忙，可以把以往工作痕迹整理一番，资料归集一下，当做复盘更有提升价值，也是最推荐的方法。</li><li data-pid=\"Z1Kjn2Zc\">把手头工作继续扩大范围学习，工作的上游和后续流程，都研究学习一下，什么本事学到手，都是自己的财富。</li><li data-pid=\"x-UrMiiA\">看到领导在忙，可以主动向领导申请工作，主动才有机会，忙起来既节省不必要情绪消耗，又能让领导满意。</li><li data-pid=\"CB6jG1q1\">实在没有主营业务，可以清理作业区域环境卫生，搞搞花草，寄情于花草，情绪会愉快而稳定。</li></ul><p data-pid=\"GFALB67a\"><b>※只要能让自己忙起来，同事们的无事生非自然隔绝，情绪会随着忙碌的工作节奏，而逐步稳定下来。</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-eecc6d95bab1d470b690b7b892245cbb_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"1080\" data-size=\"normal\" data-original-token=\"v2-8460ab452554aaf80cadf4d5f36773cf\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-eecc6d95bab1d470b690b7b892245cbb_r.jpg\"/></figure><p data-pid=\"WLzrE0Ni\"><b>✅当职场走向人咬人的境地，意味着大厦将覆，建议早做打算，让自己专注未来发展。</b></p><p data-pid=\"a_gkqOem\">通过问题描述，所谓情绪不稳定的根源，实际上是职场工作不饱和，导致内部竞争激烈，利益无法平衡所致。</p><p data-pid=\"qxX73hCe\">只有理性看清职场未来，才能有针对性制定规划，解决情绪不稳定问题根本。</p><p data-pid=\"PAUngtME\">①审视自我职场价值，寻找自身不可替代资源价值，分析在现有的兵荒马乱职场中，个人能够生存到最后的概率。</p><p data-pid=\"JslFnNl7\">②没有不可替代价值，就要及早骑驴找马，别把精力耗在同事们的争斗上，而是应该集中力量准备提桶走人。</p><p data-pid=\"-1NJHq_T\">③如果一旦确定要提桶，就要立即开启各维度准备工作。</p><ul><li data-pid=\"EI8heZ4H\">开始有意识提升个人短板。</li><li data-pid=\"hzyptdaz\">扩大范围寻找新的更好的职场圈层。</li><li data-pid=\"5iR-gOW6\">为裁员可能性，提前做索要赔偿准备。</li></ul><p data-pid=\"qUPZdrEK\"><b>※与其耗在没有价值的纷乱中，还不如理性地早做打算，做好自身价值定位，锚定新目标，做好随时抽身准备。有准备的安全感，是最好的情绪稳定方法。</b></p><p data-pid=\"it8aTu-6\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/7da508b3129cef2b0105fc704dd7249d\" data-hash=\"7da508b3129cef2b0105fc704dd7249d\" data-hovercard=\"p$b$7da508b3129cef2b0105fc704dd7249d\">@知乎职场</a> </p>",
+        "visited_count": 43,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-4c0499cd50af22289cb5dc21fb574bf7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-168a286b457e13f6f6a0ab9f5d4f5347_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-8460ab452554aaf80cadf4d5f36773cf_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995514041502818584}",
+      "attached_info": "CvsGCN3EivWwmeK9lgEQBBoJNzY1Njc0OTM2IKbKp8sGKAkwA0BqSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMDc5NTM4MTFiIDExNTg1NDBhZjk0NjI4Y2U5NDRjOGRjNjg3NzY0ODMxchMxOTk1NTE0MDQxNTAyODE4NTg0igEJNjU1NTQyNzEzqgEJcmVjb21tZW5kwgEgNThjNTRkODc4MWExNjFlMDNjYmFjNDk0ZGU5NDYwZTnyAQoIDBIGTm9ybWFs8gEoCAoSJGYzNTNlZTUwLWNmOGMtNDA2MC04ZDExLWYxMzlmYTI2MDRiNvIBBggLEgIxOIICAIgCpIWsxrwzkgIgNThjNTRkODc4MWExNjFlMDNjYmFjNDk0ZGU5NDYwZTmaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCA/oCC05PUk1BTF9GTE9XigMgODE3MmIyMmEzOGYxNGUyNjgxZGNlMTU0MzdjZDljZjaaAw0KAnYyEAAaBW90aGVyqAMr2AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQtwgY/AUiI3YyLTRjMDQ5OWNkNTBhZjIyMjg5Y2I1ZGMyMWZiNTc0YmY3Oi0IBBC4CBi4CCIjdjItMTY4YTI4NmI0NTdlMTNmNmY2YTBhYjlmNWQ0ZjUzNDc6LQgEELgIGLgIIiN2Mi04NDYwYWI0NTI1NTRhYWY4MGNhZGY0ZDVmMzY3NzNjZoAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgD0AeT+BBQAAAAAAAAAAiQU18SiJ4KG0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUSkAYAoAZsqAYBkgIuCgk3NjU2NzQ5MzYSEzE5OTU1MTQwNDE1MDI4MTg1ODQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "107_1768600306.773",
+      "type": "feed",
+      "offset": 107,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600306,
+      "updated_time": 1768600306,
+      "target": {
+        "id": "1995074088796960077",
+        "updated_time": 1768461992,
+        "content": "<p data-pid=\"mkksLQtK\"><b>吵架从来不是沟通，是宣战，宣了战还没实力灭了对方，那就往往只能自己卷铺盖走人。</b></p><p data-pid=\"jRS1LUHA\">讲个三国里的旧事。</p><p data-pid=\"ftG8d9xb\">官渡之战那会，许攸立的功劳那是通天的。</p><p data-pid=\"ju0BDB-g\">没有他反水投奔曹操，没有他献计去烧乌巢的粮草，曹操哪怕有三头六臂，也得被袁绍的大军碾成粉末，那可是定鼎之功。</p><p data-pid=\"6z_gRMQa\">按理说，这就是曹魏集团的第一功臣，荣华富贵那是几辈子吃不完的。</p><p data-pid=\"o-I-cB8D\">可许攸是怎么死的？</p><p data-pid=\"81hki8z8\">就在曹操大军攻破冀州城门的时候，许攸觉得自己行了，骑在马上，拿马鞭指着城门，当着千军万马的面，直呼曹操的小名阿瞒。</p><p data-pid=\"6bpqFb1b\">他扯着嗓子喊，阿瞒啊，要是没有我许攸，你这辈子都别想进这个城门。</p><p data-pid=\"gfc7U_jk\">曹操当时什么反应？</p><p data-pid=\"u09AI3Uv\">史书上写的是曹操大笑，嘴上说着那是那是，子远你说得对，但就在那一刻，许攸在曹操心里已经是个死人了。</p><p data-pid=\"txmt9rYn\">没过几天，许攸就被砍了脑袋。</p><p data-pid=\"4g1hrwed\">很多人看这段历史，觉得是许攸情商低或者是许褚太鲁莽。</p><p data-pid=\"gjaLjDyd\">这都看浅了。</p><p data-pid=\"jqyhdTJP\"><b>许攸之死，死在他搞错了一个最核心的逻辑。</b></p><p data-pid=\"tx4q9J0J\">他以为他在跟曹操论功劳，但在曹操眼里，他在挑战权威。</p><p data-pid=\"64HRl0hK\">当着众人的面跟老板掰扯，还要压老板一头，这在职场上叫炸刺。</p><p data-pid=\"ql3HoQTa\">回到现在的职场，为什么跟领导吵过一次架，这人基本就留不住了？</p><p data-pid=\"l5sIEsIl\">未必都是因为领导心眼小，记仇，能坐到那个位置上的人，并非都那么脆弱。</p><p data-pid=\"V2AHgHaO\">真正的原因是，吵架这事单方面拉高了他对你的管理成本。</p><p data-pid=\"und4Piis\"><b>当领导的，骨子里都是图省事。</b></p><p data-pid=\"VBR_iPOx\">安排个活儿，希望你马上说是，然后去干，哪怕有困难，你私下里跟我讲，咱们商量着办。</p><p data-pid=\"pJieydIq\">可一旦你跟我吵了一架，性质就变了。</p><p data-pid=\"IZMI3tjR\">下次我再想给你安排任务，我心里就得先犯嘀咕，这小子会不会又不高兴，会不会当众顶撞我，我这话该怎么说才能让他听进去。</p><p data-pid=\"5WWxAy0j\">这就好比我开车，本来一脚油门就走的事，现在我得先检查轮胎，再看看机油，还得防着刹车失灵。</p><p data-pid=\"ZWAckE5D\">这车开得太累了。</p><p data-pid=\"yQD-n31g\"><b>这就是管理成本的通胀。</b></p><p data-pid=\"HZ32M3_v\">你的业务能力可能是资产，能给公司赚十万，但你的脾气成了负债，为了哄着你干活，我得搭进去二十万的情绪成本和沟通成本。</p><p data-pid=\"z58NDv4n\">这笔账一算，你就是负资产。</p><p data-pid=\"PtnTNUeQ\">不管你觉得自己多有理，也不管你是不是为了公司好。</p><p data-pid=\"4dli6oVx\">只要你让大领导觉得累了，觉得用你这人太麻烦，你的职业生涯在这个公司就到头了。</p><p data-pid=\"6Vlyrz7d\">许攸觉得冀州城是他打下来的，他有资格狂。</p><p data-pid=\"a1aZGPht\">但在曹操看来，天下都是我的，多你一个不多，少你一个不少，为了用你，我还得天天装孙子听你喊阿瞒，这买卖划不来。</p><p data-pid=\"dIQYZbX7\"><b>所以，吵架从来不是沟通，吵架是谈判破裂的信号。</b></p><p data-pid=\"iQYIQ9o2\">一旦开了这个头，双方心里的那层窗户纸就捅破了。</p><p data-pid=\"YuTpIpWR\">信任这东西，就像镜子，碎了就是碎了，粘起来全是裂纹，照出来的人影都是稀碎的。</p><p data-pid=\"Cudu1G0X\"><b>再往深里扒一层，这里面往往还有个杀鸡儆猴的算盘。</b></p><p data-pid=\"1iQURFfP\">领导也是人，面子就是他的里子，是他的统治工具。队伍不好带，全靠威信撑着。今天许攸指着鼻子骂了曹操，曹操要是忍了，明天张辽、徐晃是不是也能跟着骂两句。后天底下的兵是不是觉得这主帅是个软柿子，谁都能捏一把。</p><p data-pid=\"GFGDUBGi\">这口子一开，队伍就散了。</p><p data-pid=\"Aq4LMILE\">为了维护那个说了算的权威，为了让剩下的人知道大小王，这个带头炸刺的人必须得办了。哪怕这人再有本事，哪怕这时候正是用人之际，也得忍痛割爱。</p><p data-pid=\"zXlVZ-bE\">正所谓慈不掌兵，义不理财。</p><p data-pid=\"VSXNI3CB\">在权力的天平上，一个人的业务能力，永远轻不过整个组织的秩序。</p><p data-pid=\"LFYHWF1I\">很多人觉得只要事做对了，态度差点没关系。大错特错。在职场这个名利场，服从性本身就是一种核心能力，甚至是最重要的能力。赢了道理，输了饭碗，这买卖做得亏本。</p><p data-pid=\"HZ52Mtvs\">再说了，吵完这一架，往后的日子很难过，那气氛能把活人憋死。</p><p data-pid=\"O6VsGEYI\">大家都是要脸面的成年人，脸皮撕破了，有些难听的狠话扔在地上，那是捡不起来的。</p><p data-pid=\"Z60jIGJe\">领导各个是人精，他才不会傻乎乎直接开人，现在的劳动法那么严，赔钱他也肉疼。</p><p data-pid=\"m7OO4twl\"><b>但他治人的手段也多得是，全是软刀子割肉。</b></p><p data-pid=\"_lEfgJyy\">开会没你的座，项目没你的份，消息也给你掐断，到了发工资的时候，绩效给你扣得底掉。</p><p data-pid=\"DBLL2aHS\">这就叫晾着你，把你当空气。</p><p data-pid=\"nCVUSBn8\">这种滋味，真体验过的都知道，比指着鼻子骂娘还难受，每天上班跟上坟似的，坐在工位如坐针毡、如芒刺背、如鲠在喉啊。</p><p data-pid=\"BtcXDJqv\">而旁边的同事一个个也猴精猴精的，看你失势了看风向不对了，躲你跟躲瘟神一样。</p><p data-pid=\"WfbclxZu\">谁愿意为了你惹一身腥呢？</p><p data-pid=\"PgDPocbl\">最后几乎都不用刻意赶，这种冷板凳坐上两三个月，神仙也熬不住，只能自己卷铺盖滚蛋。</p><p data-pid=\"aaj3kTs5\"><b>所以老祖宗的老话讲，人在屋檐下，不得不低头。</b></p><p data-pid=\"MYhoIYoO\">真要是憋不住这口火，非要翻脸撕皮，那好歹你先把退路找好，下家找好了，这时候兜里揣着辞职信去拍桌子，那才叫有种。</p><p data-pid=\"m2worbrD\">要是还指望着这点工资养家糊口，那就少逞一时口舌之快，把委屈咽肚子里。</p><p data-pid=\"BtJ9tpCP\">我觉得这不能叫怂，这叫能屈能伸，这是生存的智慧。</p><p data-pid=\"3sdCUUIW\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/7da508b3129cef2b0105fc704dd7249d\" data-hash=\"7da508b3129cef2b0105fc704dd7249d\" data-hovercard=\"p$b$7da508b3129cef2b0105fc704dd7249d\">@知乎职场</a> ~~</p>",
+        "favorite_count": 109,
+        "url": "https://api.zhihu.com/answers/1995074088796960077",
+        "author": {
+          "is_org": false,
+          "badge": [
+            {
+              "topic_names": [
+                "地铁"
+              ],
+              "topic_ids": [
+                1717
+              ],
+              "type": "best_answerer",
+              "description": "地铁话题下的优秀答主"
+            }
+          ],
+          "followers_count": 83115,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/dee9f7c9d1844ea794913841d3fd7ed8",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c948b117ba8e0c274e06d166e05c50e6_l.jpg?source=b6762063",
+          "url_token": "densen",
+          "name": "Kaiser",
+          "headline": "收藏再看丨资深半体制",
+          "gender": 1,
+          "is_following": false,
+          "id": "dee9f7c9d1844ea794913841d3fd7ed8",
+          "user_type": "people"
+        },
+        "created_time": 1768442729,
+        "voteup_count": 113,
+        "comment_count": 9,
+        "question": {
+          "detail": "",
+          "type": "question",
+          "title": "发现没有，凡是在公司跟领导吵过一次架以后，大部分人都无奈的走了，这是为什么？",
+          "created": 1765438272,
+          "comment_count": 9,
+          "answer_count": 0,
+          "bound_topic_ids": [
+            2566,
+            11137,
+            159476,
+            171123
+          ],
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "is_org": false,
+            "followers_count": 341,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/d26de3b5879f69070fb140e461d0e705",
+            "url_token": "44-58-71-22",
+            "name": "北冥者说",
+            "headline": "职场猎兵，专注职场采购纷说",
+            "avatar_url": "https://pica.zhimg.com/50/v2-8a495d332aa57c91f2863be3d6ffb38a_l.jpg?source=b6762063",
+            "id": "d26de3b5879f69070fb140e461d0e705",
+            "user_type": "people",
+            "gender": 1,
+            "badge": [
+              {
+                "description": "医药制造业 从业人员",
+                "type": "identity_people"
+              }
+            ],
+            "is_followed": false
+          },
+          "is_following": false,
+          "question_type": "normal",
+          "id": "1982472482482062428",
+          "url": "https://api.zhihu.com/questions/1982472482482062428",
+          "follower_count": 0
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "navigator_vote": false,
+        "type": "answer",
+        "thanks_count": 7,
+        "excerpt": "吵架从来不是沟通，是宣战，宣了战还没实力灭了对方，那就往往只能自己卷铺盖走人。讲个三国里的旧事。 官渡之战那会，许攸立的功劳那是通天的。 没有他反水投奔曹操，没有他献计去烧乌巢的粮草，曹操哪怕有三头六臂，也得被袁绍的大军碾成粉末，那可是定鼎之功。 按理说，这就是曹魏集团的第一功臣，荣华富贵那是几辈子吃不完的。 可许攸是怎么死的？ 就在曹操大军攻破冀州城门的时候，许攸觉得自己行了，骑在马上，拿马鞭指着…",
+        "excerpt_new": "吵架从来不是沟通，是宣战，宣了战还没实力灭了对方，那就往往只能自己卷铺盖走人。讲个三国里的旧事。 官渡之战那会，许攸立的功劳那是通天的。 没有他反水投奔曹操，没有他献计去烧乌巢的粮草，曹操哪怕有三头六臂，也得被袁绍的大军碾成粉末，那可是定鼎之功。 按理说，这就是曹魏集团的第一功臣，荣华富贵那是几辈子吃不完的。 可许攸是怎么死的？ 就在曹操大军攻破冀州城门的时候，许攸觉得自己行了，骑在马上，拿马鞭指着…",
+        "preview_text": "",
+        "visited_count": 5439,
+        "vote_next_step": "vote",
+        "is_copyable": false,
+        "preview_type": "default",
+        "reshipment_settings": "disallowed",
+        "answer_type": "normal",
+        "is_navigator": false,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995074088796960077}",
+      "attached_info": "CsIGCN3EivWwmeK9lgEQBBoJNzY1NDgxOTMyIOmWocsGKHEwCUBrSoABCilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVBJNaG90X3JlY2FsbF9yZWFsdGltZV90Om5ldzdkOjIwMjYtMDEtMTc6bWFsZTpiaWd5b3VuZ3N0ZXI65LiA57q/5Z+O5biCOm1vbnRobHkYACAAOgBaCTExNzY3NDcwM2IgMTE1ODU0MGFmOTQ2MjhjZTk0NGM4ZGM2ODc3NjQ4MzFyEzE5OTUwNzQwODg3OTY5NjAwNzeKARMxOTgyNDcyNDgyNDgyMDYyNDI4qgEJcmVjb21tZW5kwgEgZGVlOWY3YzlkMTg0NGVhNzk0OTEzODQxZDNmZDdlZDjyAQoIDBIGTm9ybWFs8gEoCAoSJDRiY2U4ODc0LTJkMTQtNDlmNi04NjZkLTRjMTczNjg5NzgzN/IBBggLEgIxOIICAIgCpIWsxrwzkgIgZGVlOWY3YzlkMTg0NGVhNzk0OTEzODQxZDNmZDdlZDiaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIpVFNfU09VUkNFX0hPVF9DUk9TU19SRUFMX1RJTUVfTkVXX0NPTlRFTlToAgX6AgtOT1JNQUxfRkxPV4oDIDgxNzJiMjJhMzhmMTRlMjY4MWRjZTE1NDM3Y2Q5Y2Y2mgMNCgJ2MhAAGgVvdGhlcqgDvyrYAwDqAyJob3RDcm9zc1JlYWxUaW1lTmV3Q29udGVudFJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAKFqqT+BBQAAAAAAAAAAiQU18SiJ4KG0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUSkAYAoAZtqAYAkgIuCgk3NjU0ODE5MzISEzE5OTUwNzQwODg3OTY5NjAwNzcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=107&desktop=true&end_offset=109&page_number=19&session_token=1158540af94628ce944c8dc687764831",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=107&desktop=true&end_offset=109&page_number=19&session_token=1158540af94628ce944c8dc687764831",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

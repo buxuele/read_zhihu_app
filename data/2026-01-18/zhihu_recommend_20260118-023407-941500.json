@@ -1,0 +1,677 @@
+{
+  "data": [
+    {
+      "id": "36_1768674857.54",
+      "type": "feed",
+      "offset": 36,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674857,
+      "updated_time": 1768674857,
+      "target": {
+        "visited_count": 220168,
+        "vote_next_step": "vote",
+        "id": "3603044713",
+        "type": "answer",
+        "voteup_count": 3257,
+        "thanks_count": 172,
+        "is_copyable": true,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-0251fb9fb15824a07c34dd3f3362547e_720w.jpg?source=b6762063"
+        ],
+        "url": "https://api.zhihu.com/answers/3603044713",
+        "question": {
+          "author": {
+            "id": "cc129ef660a4c2ad5c87a4169e8f00cb",
+            "user_type": "people",
+            "url_token": "sbcjh",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 3,
+            "url": "https://api.zhihu.com/people/cc129ef660a4c2ad5c87a4169e8f00cb",
+            "name": "给我最亲爱的大宝",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-2998863d738e5fba99f814db447d50f4_l.jpg?source=b6762063",
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么我编写不出优秀的ChatGPT提示词?",
+          "created": 1690955693,
+          "follower_count": 0,
+          "comment_count": 18,
+          "is_following": false,
+          "detail": "",
+          "answer_count": 0,
+          "id": "615216526",
+          "type": "question",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/615216526",
+          "bound_topic_ids": [
+            167297,
+            180476,
+            2053461,
+            2396255,
+            2586961
+          ],
+          "excerpt": ""
+        },
+        "excerpt": "一个新加坡女孩，在第一次 GPT-4 提示词大赛中获得冠军，我们来看看她的提示词是怎么写的。   提示词女王 Sheila Teo 分享了她是如何优化提示词，从而获得大赛冠军的。 使用 CO-STAR 框架来搭建 prompt 的结构   CO-STAR 如其名字，有六个部分，它的工作方式： （C）上下文（context）：提供于任务有关的背景信息，越详细越好。这可以帮助大模型理解正在讨论的问题，问题背景，理解具体场景，确保大模型的回复是相关性强的回复。（O）…",
+        "favorite_count": 10737,
+        "thumbnail": "https://picx.zhimg.com/50/v2-0251fb9fb15824a07c34dd3f3362547e_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "answer_type": "normal",
+        "is_navigator": false,
+        "author": {
+          "is_followed": false,
+          "url_token": "aicode567",
+          "headline": "公众号，伍六七AI编程，周更 AI 干货&amp;职场认知见闻",
+          "avatar_url": "https://picx.zhimg.com/50/v2-71bec82bfd6ecf723b2acd052a0a939f_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 1426,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "北京航空航天大学 软件工程硕士"
+            }
+          ],
+          "is_following": false,
+          "id": "23cf6a15f2c9dd2d0da6456b8f3c55ca",
+          "url": "https://api.zhihu.com/people/23cf6a15f2c9dd2d0da6456b8f3c55ca",
+          "user_type": "people",
+          "name": "伍六七AI编程",
+          "gender": 1
+        },
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"pkO123-p\">一个新加坡女孩，在第一次 GPT-4 提示词大赛中获得冠军，我们来看看她的提示词是怎么写的。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-235fd55a6c53b1afa51766fa729a8e99_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"945\" data-rawheight=\"758\" data-original-token=\"v2-6ce610ff8b36123da3612c92f34adbeb\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-ec47bb99fa8b6b9b32bd11d52725cd4b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"945\" data-original=\"https://picx.zhimg.com/v2-235fd55a6c53b1afa51766fa729a8e99_r.jpg\"/></figure><p data-pid=\"VQvAcVcK\">提示词女王 Sheila Teo 分享了她是如何优化提示词，从而获得大赛冠军的。</p><h2>使用 CO-STAR 框架来搭建 prompt 的结构</h2><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-58aa08d37cfd4522dcb6f0ac87958c59_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"945\" data-rawheight=\"265\" data-original-token=\"v2-66cf31d9a16fb0e882db25df5676bd2d\" data-default-watermark-src=\"https://picx.zhimg.com/v2-dda073efef3d4a590c86721c3084ad47_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"945\" data-original=\"https://pic4.zhimg.com/v2-58aa08d37cfd4522dcb6f0ac87958c59_r.jpg\"/></figure><p data-pid=\"HXPV23WW\">CO-STAR 如其名字，有六个部分，它的工作方式：</p><ul><li data-pid=\"-eLR0F9R\">（C）上下文（context）：提供于任务有关的背景信息，越详细越好。这可以帮助大模型理解正在讨论的问题，问题背景，理解具体场景，确保大模型的回复是相关性强的回复。</li><li data-pid=\"d-vuQidv\">（O）目标（Objective）：定义你希望大模型完成的任务，这可以帮助大模型明确响应目标。</li><li data-pid=\"w24noGTM\">（S）风格（Style）：希望回复的风格，可以减少「AI 味」，同时也可以指定风格为自己的写作风格。</li><li data-pid=\"qYBiuAuN\">（T）语气（Tone）：设定响应的态度。确保大模型的响应符合特定的情感或情绪。</li><li data-pid=\"KENqe7Hr\">（A）受众（Audience）：明确响应目标的受众。做到有的放矢，不响应目标受众无法理解的内容。</li><li data-pid=\"wfozuLx7\">（R）响应（Response）：提供响应的格式、内容结构。格式上：我们可以要求大模型以 Json 格式进行输出，方面程序对其响应进行处理。内容结构上：我们可以要求大模型以常见的行文结构进行输出，比如金字塔结构、列表结构等。</li></ul><h3>一句话提示词</h3><blockquote data-pid=\"ETsJKHjr\"> 写一篇知乎回答，回答这个问题：为什么我编写不出优秀的ChatGPT提示词?<br/> </blockquote><p data-pid=\"ETBY0Kwq\">生成的内容如下图，基本上是一些空洞不可直接落地的方向性建议，缺少落地的指导，读者很难真正从里面学到什么。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-fb749257ebed4e09f79795350bb14f8c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"690\" data-rawheight=\"635\" data-original-token=\"v2-e4c10c52769866b5ba37c66c944f3d16\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-4fbb60750fda4a22141929dcc84d901c_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"690\" data-original=\"https://pica.zhimg.com/v2-fb749257ebed4e09f79795350bb14f8c_r.jpg\"/></figure><h3>使用 CO-STAR 提示词</h3><blockquote data-pid=\"CSrtzDif\"> CONTEXT（上下文）<br/> 我是一个知乎答主，活跃在 AI 领域。想回答一个知乎问题。知乎的问题是：为什么我编写不出优秀的ChatGPT提示词?<br/> OBJECTIVE（目标）<br/> 帮我创建一个知乎问题答案，目的是吸引对 AI 提示词感兴趣的人进行点击、阅读、点在、收藏、关注。<br/> STYLE（风格）<br/> 知乎风格，有故事、有示例，简单易读懂。<br/> TONE（语调）<br/> 有说服力的<br/> AUDIENCE（受众）<br/> 主要受众是对 AI 感兴趣的各个年龄段人群，尤其是对于写出好的提示词有强烈要求的人群。请针对这一群体编写回答。<br/> RESPONSE（响应）<br/> 回答开头增加读者对回答的信任力度，中间详细介绍如何通过 CO-STAR（（C）上下文（context）、 （O）目标（Objective）、 （S）风格（Style）、 （T）语气（Tone）、 （A）受众（Audience）、 （R）响应（Response）） 框架来写出一个好的提示词。<br/> 最后，举一个使用 CO-STAR 进行知乎问答的例子。<br/> </blockquote><p data-pid=\"OEsVc7Os\">使用 CO-STAR 框架提示词生成的内容如下，我们看到回答的开头有秀肌肉，吸引读者继续往下读的部分。</p><p data-pid=\"O89Kv9mc\">中间有原理、有案例，能让读者收获干货，还能直接上手实操。</p><p data-pid=\"08plVFqW\">最后，还有引导读者进行点赞、关注等互动的内容。</p><p data-pid=\"vt5zpNAK\">整体上比一句话的提示词好上很多。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d29cdecfdf09041558b4ecd0fdf3b0b6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"668\" data-rawheight=\"381\" data-original-token=\"v2-fea552daf2fd2930bed69e71c4ab7d5b\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-462f8ca333be100835c572f0171cc8f1_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"668\" data-original=\"https://pica.zhimg.com/v2-d29cdecfdf09041558b4ecd0fdf3b0b6_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a2c79e4bb7ff6080f0d208db329b2562_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"660\" data-rawheight=\"373\" data-original-token=\"v2-a41e82a6f342045516ef1da86a09865b\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-975e3514bef1b8d1980f9f4b2e31989e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"660\" data-original=\"https://pic3.zhimg.com/v2-a2c79e4bb7ff6080f0d208db329b2562_r.jpg\"/></figure><h2>使用分隔符尾 prompt 设置分节</h2><p data-pid=\"NrmEKv-q\">分隔符是一种特殊的 token，使用分隔符可以帮助大模型分辨哪些 prompt 应该当作单个含义单元。</p><p data-pid=\"VCGhh_bW\">我们常用的分隔符：###、===、&gt;&gt;&gt; 等通常不会同时出现的特殊字符序列，都可以。</p><p data-pid=\"Gxyp0vQG\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/23cf6a15f2c9dd2d0da6456b8f3c55ca\" data-hash=\"23cf6a15f2c9dd2d0da6456b8f3c55ca\" data-hovercard=\"p$b$23cf6a15f2c9dd2d0da6456b8f3c55ca\">@伍六七AI编程</a> </p>",
+        "navigator_vote": false,
+        "created_time": 1724338998,
+        "updated_time": 1724338998,
+        "comment_count": 55,
+        "excerpt_new": "一个新加坡女孩，在第一次 GPT-4 提示词大赛中获得冠军，我们来看看她的提示词是怎么写的。   提示词女王 Sheila Teo 分享了她是如何优化提示词，从而获得大赛冠军的。 使用 CO-STAR 框架来搭建 prompt 的结构   CO-STAR 如其名字，有六个部分，它的工作方式： （C）上下文（context）：提供于任务有关的背景信息，越详细越好。这可以帮助大模型理解正在讨论的问题，问题背景，理解具体场景，确保大模型的回复是相关性强的回复。（O）…",
+        "preview_text": "",
+        "is_labeled": true,
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3603044713}",
+      "attached_info": "CvwHCOWhirK8h4adgAEQBBoJNjg1MTY5Mzk3ILamnbYGKLkZMDdAJEo/CipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU0SATAYACAAOgp7InJhdyI6IiJ9Wgg5ODk5NDg1MmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyCjM2MDMwNDQ3MTOKAQk2MTUyMTY1MjaqAQlyZWNvbW1lbmTCASAyM2NmNmExNWYyYzlkZDJkMGRhNjQ1NmI4ZjNjNTVjYfIBCggMEgZOb3JtYWzyASgIChIkMjQ3ZmQyNWYtOTVmYy00ZDMyLTg1ZTEtNDczYjdjZDA1YjRi8gEFCAsSATeCAgCIAtyi8um8M5ICIDIzY2Y2YTE1ZjJjOWRkMmQwZGE2NDU2YjhmM2M1NWNhmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU3oAgP6AgtOT1JNQUxfRkxPV4oDIDJiZDllNGVjNmIyYzQ3N2RhNTljMWMzNWQ1YjY0ZjQ5kgMXemhpaHU6Ly90b3BpY3MvMjY2OTE4OTWaAw0KAnYyEAAaBW90aGVyqAOIuA3YAwDqAxBuZXdiaWVfZmVlZHJlX3Yy+gOKAhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCELEHGPYFIiN2Mi02Y2U2MTBmZjhiMzYxMjNkYTM2MTJjOTJmMzRhZGJlYjotCAMQsQcYiQIiI3YyLTY2Y2YzMWQ5YTE2ZmIwZTg4MmRiMjVkZjU2NzZiZDJkOi0IAhCyBRj7BCIjdjItZTRjMTBjNTI3Njk4NjZiNWJhMzdjNjZjOTQ0ZjNkMTY6LQgCEJwFGP0CIiN2Mi1mZWE1NTJkYWYyZmQyOTMwYmVkNjllNzFjNGFiN2Q1YjotCAIQlAUY9QIiI3YyLWE0MWU4MmE2ZjM0MjA0NTUxNmVmMWRhODZhMDk4NjVigAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEBm1hbnVhbMIEAzE1N8gEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAGjWpD+BBQAAAAAAAAAAiQXVyfwSh4GyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUHkAYAoAYmqAYBkgIlCgk2ODUxNjkzOTcSCjM2MDMwNDQ3MTMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "37_1768674857.590",
+      "type": "feed",
+      "offset": 37,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674857,
+      "updated_time": 1768674857,
+      "target": {
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 0,
+        "navigator_vote": false,
+        "preview_type": "default",
+        "content": "<p data-pid=\"hRetNkgN\"><b>种花还是种菜，这是个问题。</b></p><p data-pid=\"O3qVsr8a\">能确定的只有一点，那就是，<b>种植不是件容易的事！</b></p><p data-pid=\"k6UU0s68\">这份感慨来自于今日收到的分享。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5aa89dbd00750c72d45e8c225dcf302a_1440w.jpg\" data-rawwidth=\"1904\" data-rawheight=\"4096\" data-size=\"normal\" data-original-token=\"v2-4f8d0cfd7e93709197738f4f0682488a\" class=\"origin_image zh-lightbox-thumb\" width=\"1904\" data-original=\"https://pic1.zhimg.com/v2-5aa89dbd00750c72d45e8c225dcf302a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a77a1905964755a8849dbfc69ab6602d_1440w.jpg\" data-rawwidth=\"1152\" data-rawheight=\"1152\" data-size=\"normal\" data-original-token=\"v2-95c6dc44528820ae71bc5e9169be53d7\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://pic4.zhimg.com/v2-a77a1905964755a8849dbfc69ab6602d_r.jpg\"/></figure><p data-pid=\"VjHuF8wJ\">两颗花菜，现割的。一份咸菜，就是雪里蕻割下后腌制的，看得出来这菜在腌制前也长得很壮实，比我之前发现的单位花坛里野生的要壮实得多。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3c247af4853790179e5eafe34a6a2063_1440w.jpg\" data-rawwidth=\"1904\" data-rawheight=\"4096\" data-size=\"normal\" data-original-token=\"v2-2b76c070d4afcf4babc591ad5e4efb9f\" class=\"origin_image zh-lightbox-thumb\" width=\"1904\" data-original=\"https://pic4.zhimg.com/v2-3c247af4853790179e5eafe34a6a2063_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ALzil07K\">就这么说吧，感慨一下，农民不是那么好当的！咱就不说咋把作物给侍弄好了，一天天的劳作也别提了，就算是最后有收获了，就问问自己，大夏天的，棚架底下，让你现成去采摘，可成？</p><p data-pid=\"dXVHISCo\">这么说基于个人体验，我们这边的杨梅季很短，每年总在中考之后，大概一两周时间。</p><p data-pid=\"0rKDM2jW\">我记得印象很深的有两回受邀到杨梅山摘杨梅，那会年轻，想摘最紫最红最甜的，有一次还特地全副武装好爬上树去采摘，那个热的啊累的啊够呛！现在想来怕怕，老树杨梅枝其实比较脆的，每年杨梅季骨伤科病人都多好多的。似乎临安的小核桃采摘季节也是如此。</p><p data-pid=\"0CNOVIbW\">说回这两颗花菜，来自于农家的小土地。</p><p data-pid=\"GbM89Shy\">大概十多年前吧，我开始沉迷于种植，每周末开车去小土地翻土浇水拔草，大概从冬天到了春天，一切都很美好。</p><p data-pid=\"rjBKGfHE\">然后，美好的画面在盛夏戛然而止。</p><p data-pid=\"z9Daz623\">盛夏的果实太美好了，豆架之下，绿荫遮蔽，满架的花脚蚊子啊，我带着一兜豆角和满身蚊虫包包落荒而逃，从此再也没去过小土地！</p><p data-pid=\"WasqvXSJ\">当然，如果是家里小院，可能情况会好一些。</p><p data-pid=\"AHnYXK1K\">我说的也只是个人体验罢了。小院种菜的成本可能有点高，我当初还浪费了一车的有机肥呢！算了算了，真不如随手种种小葱过过瘾罢了。</p><p data-pid=\"dYGXuI2u\">要不，小院咱还是种花吧！</p><p data-pid=\"5YfVW4qu\">满架蔷薇一院花香，月季和铁线莲绝配。</p><p data-pid=\"JwfmJtA7\">想想挺美好的！</p>",
+        "is_labeled": false,
+        "excerpt": "种花还是种菜，这是个问题。能确定的只有一点，那就是， 种植不是件容易的事！这份感慨来自于今日收到的分享。     两颗花菜，现割的。一份咸菜，就是雪里蕻割下后腌制的，看得出来这菜在腌制前也长得很壮实，比我之前发现的单位花坛里野生的要壮实得多。   就这么说吧，感慨一下，农民不是那么好当的！咱就不说咋把作物给侍弄好了，一天天的劳作也别提了，就算是最后有收获了，就问问自己，大夏天的，棚架底下，让你现成去采摘，可…",
+        "allow_segment_interaction": true,
+        "reshipment_settings": "allowed",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-4f8d0cfd7e93709197738f4f0682488a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-95c6dc44528820ae71bc5e9169be53d7_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2b76c070d4afcf4babc591ad5e4efb9f_720w.jpg?source=b6762063"
+        ],
+        "is_navigator": false,
+        "id": "1995889053288130108",
+        "is_copyable": true,
+        "question": {
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1908813656134746971",
+          "detail": "",
+          "question_type": "normal",
+          "id": "1908813656134746971",
+          "bound_topic_ids": [
+            32858,
+            59737,
+            2142577
+          ],
+          "comment_count": 4,
+          "follower_count": 0,
+          "author": {
+            "headline": "国企小职员",
+            "gender": 0,
+            "is_following": false,
+            "user_type": "people",
+            "url": "https://api.zhihu.com/people/baf9ba2698af19005c3a1d921b50e1c6",
+            "url_token": "sui-zhou-wu-shuang",
+            "name": "爱琦心儿",
+            "avatar_url": "https://pica.zhimg.com/50/v2-af342432d08211b36e1ecd85cb4c0a60_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 33,
+            "is_followed": false,
+            "id": "baf9ba2698af19005c3a1d921b50e1c6"
+          },
+          "created": 1747876639,
+          "answer_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "title": "有个小院，是种花好还是种菜好呢？"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-4f8d0cfd7e93709197738f4f0682488a_720w.jpg?source=b6762063",
+        "preview_text": "",
+        "author": {
+          "is_followed": false,
+          "user_type": "people",
+          "name": "江南",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-85546bf1469f3bd07760cfddaabaf6c3_l.jpg?source=b6762063",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "教师资格证持证人"
+            }
+          ],
+          "followers_count": 1284,
+          "id": "5986721c2285d81ff420781aa496a4d5",
+          "url": "https://api.zhihu.com/people/5986721c2285d81ff420781aa496a4d5",
+          "url_token": "qingge-41",
+          "headline": "星辰大海，保持热爱。",
+          "gender": 0,
+          "is_following": false
+        },
+        "created_time": 1768637032,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995889053288130108",
+        "thanks_count": 0,
+        "excerpt_new": "种花还是种菜，这是个问题。能确定的只有一点，那就是， 种植不是件容易的事！这份感慨来自于今日收到的分享。     两颗花菜，现割的。一份咸菜，就是雪里蕻割下后腌制的，看得出来这菜在腌制前也长得很壮实，比我之前发现的单位花坛里野生的要壮实得多。   就这么说吧，感慨一下，农民不是那么好当的！咱就不说咋把作物给侍弄好了，一天天的劳作也别提了，就算是最后有收获了，就问问自己，大夏天的，棚架底下，让你现成去采摘，可…",
+        "visited_count": 37,
+        "updated_time": 1768637032,
+        "voteup_count": 14,
+        "comment_count": 8,
+        "answer_type": "normal",
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995889053288130108}",
+      "attached_info": "Cv0HCOWhirK8h4adgAEQBBoJNzY1ODExMjc3IOiErcsGKA4wCEAlSkIKLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVBIBMBgAIAA6CnsicmF3IjoiIn1KQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE1MDQ4MjQzYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTg4OTA1MzI4ODEzMDEwOIoBEzE5MDg4MTM2NTYxMzQ3NDY5NzGqAQlyZWNvbW1lbmTCASA1OTg2NzIxYzIyODVkODFmZjQyMDc4MWFhNDk2YTRkNfIBCggMEgZOb3JtYWzyASgIChIkMWZlMGUyMmYtOTFlMy00N2RjLWIwNjktMTk5MzIzMDZhODI28gEFCAsSATeCAgCIAtyi8um8M5ICIDU5ODY3MjFjMjI4NWQ4MWZmNDIwNzgxYWE0OTZhNGQ1mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGlNhbWVDb250ZW50SWRJc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIE+gILTk9STUFMX0ZMT1eKAyAyYmQ5ZTRlYzZiMmM0NzdkYTU5YzFjMzVkNWI2NGY0OZoDDQoCdjIQABoFb3RoZXKoAyXYAwDqAx90ZXh0RmVlZFR3b1Rvd2VyV2FybXVwU3VjY2Vzc1Yx+gOsARIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEPAOGIAgIiN2Mi00ZjhkMGNmZDdlOTM3MDkxOTc3MzhmNGYwNjgyNDg4YTotCAMQgAkYgAkiI3YyLTk1YzZkYzQ0NTI4ODIwYWU3MWJjNWU5MTY5YmU1M2Q3Oi0IBBDwDhiAICIjdjItMmI3NmMwNzBkNGFmY2Y0YmFiYzU5MWFkNWU0ZWZiOWaABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAED9NJ0/gQUAAAAAAAAAAIkF1cn8EoeBsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFB5AGAKAGJ6gGA5ICLgoJNzY1ODExMjc3EhMxOTk1ODg5MDUzMjg4MTMwMTA4GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "38_1768674857.657",
+      "type": "feed",
+      "offset": 38,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674857,
+      "updated_time": 1768674857,
+      "target": {
+        "visited_count": 53514,
+        "favorite_count": 626,
+        "navigator_vote": false,
+        "is_labeled": false,
+        "preview_type": "default",
+        "answer_type": "normal",
+        "thanks_count": 60,
+        "comment_count": 123,
+        "excerpt": "一个人在体制内呆久了，最核心的变化，我只讲一个点，就是慢慢丧失了对一件事情，做岀清晰判断的能力，对，就是判断力。 这个判断力，不是说他变笨了，看不懂文件了，不会搞人际了，那些都是技能，技能可以练，可以学，甚至会越来越精，但判断力是一种底层的思维模式，这个东西一旦被改造，就很难再回去了。 为什么会这样，因为整个环境，都在奖励模糊，惩罚清晰，你说的越清楚，你承担的责任就越大，你表达的越明确，你得罪人的…",
+        "type": "answer",
+        "voteup_count": 751,
+        "is_navigator": false,
+        "preview_text": "",
+        "content": "<p data-pid=\"Yiubt2SV\">一个人在体制内呆久了，最核心的变化，我只讲一个点，就是慢慢丧失了对一件事情，做岀清晰判断的能力，对，就是判断力。<br/><br/>这个判断力，不是说他变笨了，看不懂文件了，不会搞人际了，那些都是技能，技能可以练，可以学，甚至会越来越精，但判断力是一种底层的思维模式，这个东西一旦被改造，就很难再回去了。<br/><br/>为什么会这样，因为整个环境，都在奖励模糊，惩罚清晰，你说的越清楚，你承担的责任就越大，你表达的越明确，你得罪人的风险就越高，这是一个基本生存法则。<br/><br/>比如开会讨论一个方案，一个刚进去的年轻人，可能会直接说，我觉得这个方案不行，第一点不合理，第二点有风险，第三点执行不了，说的头头是道，逻辑分明。<br/><br/>旁边那个坐了十年的老同志，会怎么说，他会先肯定一下，这个方案总体上是好的，体现了我们的决心，也花了很多心血，但是，个别细节，是不是可以再斟酌一下，再完善一下。<br/><br/>你看，他没有说行，也没有说不行，他说的是斟酌，是完善，这是一个巨大的缓冲地带，在这个地带里，他永远不会错，因为他什么都没说，又好像什么都说了。<br/><br/>这种说话的方式，一开始可能只是个技巧，是个面具，是为了保护自己，为了让事情能更平稳的推进，但是十年，二十年下来，天天这么说，天天这么听，天天这么想。<br/><br/>这个面具，就慢慢和脸长在了一起，再也摘不下来了，他自己都分不清楚，哪句是真心话，哪句是场面话，他大脑里，关于是或否的那个开关，已经生锈了，甚至被拆除了。<br/><br/>他习惯了在中间地带游走，习惯了所有事情都有AB面，甚至CDE面，他不再相信有简单的是非对错，一切问题都是复杂的，需要统筹考虑的，需要综合平衡的。<br/><br/>这种思维会渗透到他生活的方方面面，你问他晚饭吃什么，他可能不会说吃面条，他会说，看看冰箱里有什么，考虑一下健康，也考虑一下口味，我们综合权衡一下。<br/><br/>你问他这个电影好不好看，他可能不会说好看或者不好看，他会说，这部片子的导演风格很突出，演员表演也在线，但是剧本的逻辑，有些地方值得商讨。<br/><br/>他丧失了给出直接反馈的能力，他会觉得，那些能脱口而出，给出斩钉截铁答案的人，都很幼稚，很肤浅，不懂得世界的复杂和人性的幽微。<br/><br/>实际上，世界有时候没那么复杂，一件事就是不对，一个人就是不好，一个方案就是个垃圾，但在他的世界里，这种单线条的结论是不存在的，是不高级的，也是不安全的。<br/><br/>他会变得特别能理解，理解所有人的难处，理解领导的压力，理解同事的苦衷，理解基层的困难，他成了最善解人意的那个人，因为他从任何一个角度，都能找到合理的解释。<br/><br/>但这种过度的理解，代价就是没有了态度，没有了立场，他的立场就是没有立场，他的态度就是看情况，他成了一个完美的容器，可以装下所有的意见，但自己空空如也。<br/><br/>他会花大量的时间，在揣摩，在领会，在琢磨一句话背后的意思，一个文件没说出来的意思，一个领导的眼神代表的意思，他的精力，都耗费在这些不确定的信息解读上。<br/><br/>而对于那些确定的，需要拍板的事情，他会本能的回避，或者拖延，或者往上推，或者横向甩，总之，球不能停在他脚下，决策的责任，不能落在他头上。<br/><br/>他会越来越像一块鹅卵石，被时间的河水，冲刷掉了所有的棱角，变得光滑，圆润，放在哪里都行，不会咯到任何人，但也失去了作为一块石头的，最原始的质感和形状。<br/><br/>他说话的语速会变慢，因为他说的每一句话，都要在大脑里反复过滤，检查有没有歧T，有没有漏洞，会不会被别人抓住把柄，安不安全，是第一位的，对不对，是次要的。<br/><br/>这种思维的改造，是不可逆的，就算有一天他离开了体制，去做生意，去创业，他也很难适应外面那种，需要快速决策，敢于试错，黑白分明的环境。<br/><br/>他会觉得别人太鲁莽，别人太直接，别人做事太不周全，他会试图在商业谈判里，也搞原则上同意，细节再研究那套，结果就是错失良机，因为市场不给你研究的时间。<br/><br/>所以，一个人在体制内呆久了，最可怕的，不是学会了喝酒，不是学会了看眼色，不是变得油腻，而是他的大脑，他的思维操作系统，被重写了，重写成一个追求绝对安全，无限模糊，永不负责的系统。<br/><br/>这个系统，非常非常适合在那个环境里生存，甚至能活的很好，很滋润，但代价是，他失去了作为一个独立的，有清晰自我意志的个体，那种最宝贵的，最锐利的锋芒，他自己可能都没发觉，这是最可悲的地方，他甚至会觉的自己越来越成熟，越来越有智慧。<br/><br/>他不再是一个人了，他是一个环节，一个流程，一个永远正确也永远无用的姿态，他活在一种自己创造的，也困住自己的迷雾里，安全，但是，没有光。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "allow_segment_interaction": true,
+        "segment_infos": [
+          {
+            "pid": "Yiubt2SV",
+            "text": "一个人在体制内呆久了，最核心的变化，我只讲一个点，就是慢慢丧失了对一件事情，做岀清晰判断的能力，对，就是判断力。\n\n这个判断力，不是说他变笨了，看不懂文件了，不会搞人际了，那些都是技能，技能可以练，可以学，甚至会越来越精，但判断力是一种底层的思维模式，这个东西一旦被改造，就很难再回去了。\n\n为什么会这样，因为整个环境，都在奖励模糊，惩罚清晰，你说的越清楚，你承担的责任就越大，你表达的越明确，你得罪人的风险就越高，这是一个基本生存法则。\n\n比如开会讨论一个方案，一个刚进去的年轻人，可能会直接说，我觉得这个方案不行，第一点不合理，第二点有风险，第三点执行不了，说的头头是道，逻辑分明。\n\n旁边那个坐了十年的老同志，会怎么说，他会先肯定一下，这个方案总体上是好的，体现了我们的决心，也花了很多心血，但是，个别细节，是不是可以再斟酌一下，再完善一下。\n\n你看，他没有说行，也没有说不行，他说的是斟酌，是完善，这是一个巨大的缓冲地带，在这个地带里，他永远不会错，因为他什么都没说，又好像什么都说了。\n\n这种说话的方式，一开始可能只是个技巧，是个面具，是为了保护自己，为了让事情能更平稳的推进，但是十年，二十年下来，天天这么说，天天这么听，天天这么想。\n\n这个面具，就慢慢和脸长在了一起，再也摘不下来了，他自己都分不清楚，哪句是真心话，哪句是场面话，他大脑里，关于是或否的那个开关，已经生锈了，甚至被拆除了。\n\n他习惯了在中间地带游走，习惯了所有事情都有AB面，甚至CDE面，他不再相信有简单的是非对错，一切问题都是复杂的，需要统筹考虑的，需要综合平衡的。\n\n这种思维会渗透到他生活的方方面面，你问他晚饭吃什么，他可能不会说吃面条，他会说，看看冰箱里有什么，考虑一下健康，也考虑一下口味，我们综合权衡一下。\n\n你问他这个电影好不好看，他可能不会说好看或者不好看，他会说，这部片子的导演风格很突出，演员表演也在线，但是剧本的逻辑，有些地方值得商讨。\n\n他丧失了给出直接反馈的能力，他会觉得，那些能脱口而出，给出斩钉截铁答案的人，都很幼稚，很肤浅，不懂得世界的复杂和人性的幽微。\n\n实际上，世界有时候没那么复杂，一件事就是不对，一个人就是不好，一个方案就是个垃圾，但在他的世界里，这种单线条的结论是不存在的，是不高级的，也是不安全的。\n\n他会变得特别能理解，理解所有人的难处，理解领导的压力，理解同事的苦衷，理解基层的困难，他成了最善解人意的那个人，因为他从任何一个角度，都能找到合理的解释。\n\n但这种过度的理解，代价就是没有了态度，没有了立场，他的立场就是没有立场，他的态度就是看情况，他成了一个完美的容器，可以装下所有的意见，但自己空空如也。\n\n他会花大量的时间，在揣摩，在领会，在琢磨一句话背后的意思，一个文件没说出来的意思，一个领导的眼神代表的意思，他的精力，都耗费在这些不确定的信息解读上。\n\n而对于那些确定的，需要拍板的事情，他会本能的回避，或者拖延，或者往上推，或者横向甩，总之，球不能停在他脚下，决策的责任，不能落在他头上。\n\n他会越来越像一块鹅卵石，被时间的河水，冲刷掉了所有的棱角，变得光滑，圆润，放在哪里都行，不会咯到任何人，但也失去了作为一块石头的，最原始的质感和形状。\n\n他说话的语速会变慢，因为他说的每一句话，都要在大脑里反复过滤，检查有没有歧T，有没有漏洞，会不会被别人抓住把柄，安不安全，是第一位的，对不对，是次要的。\n\n这种思维的改造，是不可逆的，就算有一天他离开了体制，去做生意，去创业，他也很难适应外面那种，需要快速决策，敢于试错，黑白分明的环境。\n\n他会觉得别人太鲁莽，别人太直接，别人做事太不周全，他会试图在商业谈判里，也搞原则上同意，细节再研究那套，结果就是错失良机，因为市场不给你研究的时间。\n\n所以，一个人在体制内呆久了，最可怕的，不是学会了喝酒，不是学会了看眼色，不是变得油腻，而是他的大脑，他的思维操作系统，被重写了，重写成一个追求绝对安全，无限模糊，永不负责的系统。\n\n这个系统，非常非常适合在那个环境里生存，甚至能活的很好，很滋润，但代价是，他失去了作为一个独立的，有清晰自我意志的个体，那种最宝贵的，最锐利的锋芒，他自己可能都没发觉，这是最可悲的地方，他甚至会觉的自己越来越成熟，越来越有智慧。\n\n他不再是一个人了，他是一个环节，一个流程，一个永远正确也永远无用的姿态，他活在一种自己创造的，也困住自己的迷雾里，安全，但是，没有光。",
+            "marks": [
+              {
+                "start_index": 155,
+                "end_index": 220,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995911143697454695"
+                  ],
+                  "is_like": false,
+                  "like_count": 24,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 511,
+                "end_index": 602,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996047579901871291"
+                  ],
+                  "is_like": false,
+                  "like_count": 6,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 717,
+                "end_index": 750,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995506686866256907"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              },
+              {
+                "start_index": 1043,
+                "end_index": 1119,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995979158761799699"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "author": {
+          "url_token": "83-80-37-30-24",
+          "name": "人设之外",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-2186cb44d729d72207132373685adab0_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1126,
+          "is_followed": false,
+          "id": "d51ad7a10daed2c586a5411767009012",
+          "url": "https://api.zhihu.com/people/d51ad7a10daed2c586a5411767009012",
+          "user_type": "people",
+          "headline": "谢谢关注❤️。",
+          "is_following": false
+        },
+        "vote_next_step": "vote",
+        "updated_time": 1768495524,
+        "url": "https://api.zhihu.com/answers/1995295526120339375",
+        "created_time": 1768495524,
+        "is_copyable": false,
+        "question": {
+          "author": {
+            "avatar_url": "https://pica.zhimg.com/50/v2-41611fab411978986447691669c6bd2e_l.jpg?source=b6762063",
+            "is_org": false,
+            "id": "dc71daf25da7fe92d35a5234763306c4",
+            "user_type": "people",
+            "url_token": "81-2-21-31-55",
+            "name": "鸢都守夜人",
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/dc71daf25da7fe92d35a5234763306c4",
+            "headline": "",
+            "gender": 1,
+            "followers_count": 192
+          },
+          "title": "一个人在体制内呆久了会变成什么样子？",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal",
+          "created": 1693386896,
+          "answer_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "id": "619861391",
+          "follower_count": 0,
+          "comment_count": 15,
+          "bound_topic_ids": [
+            16857,
+            19901,
+            30252
+          ],
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/619861391",
+          "detail": ""
+        },
+        "excerpt_new": "一个人在体制内呆久了，最核心的变化，我只讲一个点，就是慢慢丧失了对一件事情，做岀清晰判断的能力，对，就是判断力。 这个判断力，不是说他变笨了，看不懂文件了，不会搞人际了，那些都是技能，技能可以练，可以学，甚至会越来越精，但判断力是一种底层的思维模式，这个东西一旦被改造，就很难再回去了。 为什么会这样，因为整个环境，都在奖励模糊，惩罚清晰，你说的越清楚，你承担的责任就越大，你表达的越明确，你得罪人的…",
+        "id": "1995295526120339375",
+        "reshipment_settings": "disallowed"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995295526120339375}",
+      "attached_info": "CswFCOWhirK8h4adgAEQBBoJNzY1NTk1NjYzIKSzpMsGKO8FMHtAJkooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTAwMDI2OTI3YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTI5NTUyNjEyMDMzOTM3NYoBCTYxOTg2MTM5MaoBCXJlY29tbWVuZMIBIGQ1MWFkN2ExMGRhZWQyYzU4NmE1NDExNzY3MDA5MDEy8gEKCAwSBk5vcm1hbPIBKAgKEiRkODBlZDNmYi01ZDg2LTQ4ZjAtYmEyOS04MWRlNTQ4OGM3NGXyAQUICxIBN4ICAIgC3KLy6bwzkgIgZDUxYWQ3YTEwZGFlZDJjNTg2YTU0MTE3NjcwMDkwMTKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCA/oCC05PUk1BTF9GTE9XigMgMmJkOWU0ZWM2YjJjNDc3ZGE1OWMxYzM1ZDViNjRmNDmaAw0KAnYyEAAaBW90aGVyqAOKogPYAwD6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgI8WjP4EFAAAAAAAAAACJBdXJ/BKHgbI/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQeQBgCgBiioBgCSAi4KCTc2NTU5NTY2MxITMTk5NTI5NTUyNjEyMDMzOTM3NRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "39_1768674857.510",
+      "type": "feed",
+      "offset": 39,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674857,
+      "updated_time": 1768674857,
+      "target": {
+        "excerpt_new": "这个世界上，靠香蕉续命的人，是以千万、甚至以亿记的。如果香蕉突然消失，这些地区将面临严重的食物短缺和营养困境，对当地民生与社会稳定造成剧烈冲击。 全球年产 1.45 亿吨香蕉，近一半都被当成 “饭” 造了。在印度南部、菲律宾、东非、西非等地，香蕉是很多贫民的保命粮。 热带国家和地区的”四大主食“排名是这样的： 小麦、水稻、玉米、香蕉（烹饪型，主要指大蕉和芭蕉，还有一些区域性品种）。全球最大的香蕉产区是印度…",
+        "preview_type": "default",
+        "answer_type": "normal",
+        "type": "answer",
+        "author": {
+          "id": "f926030bec6727bc77fa9f700326fe28",
+          "user_type": "people",
+          "url_token": "SemitLee",
+          "headline": "全球十大探险家",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-06cb2a7eb51a3c27937ce4f6a6cbe96a_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 619177,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/f926030bec6727bc77fa9f700326fe28",
+          "name": "闪米特",
+          "badge": [
+            {
+              "type": "zhihu_yearly_answerer",
+              "description": "新知答主"
+            },
+            {
+              "type": "best_answerer",
+              "description": "旅行话题下的优秀答主",
+              "topic_names": [
+                "旅行"
+              ],
+              "topic_ids": [
+                444
+              ]
+            }
+          ],
+          "is_followed": false
+        },
+        "voteup_count": 867,
+        "question": {
+          "follower_count": 0,
+          "is_following": false,
+          "id": "1897606091640112638",
+          "comment_count": 18,
+          "relationship": {
+            "is_author": false
+          },
+          "title": "世界最“伟大”的水果是什么？",
+          "detail": "",
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1897606091640112638",
+          "author": {
+            "followers_count": 0,
+            "name": "火泥",
+            "headline": "思想者",
+            "gender": 1,
+            "url_token": "jiao-shu-jiang-xiao-liu-peter",
+            "avatar_url": "https://picx.zhimg.com/50/v2-3ece6c181a256647b59e1259260de78c_l.jpg?source=b6762063",
+            "is_org": false,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "宁波大学 管理学硕士"
+              }
+            ],
+            "is_following": false,
+            "id": "21dd7f4b0e9c32617bf9eda62301cb99",
+            "url": "https://api.zhihu.com/people/21dd7f4b0e9c32617bf9eda62301cb99",
+            "user_type": "people",
+            "is_followed": false
+          },
+          "created": 1745204548,
+          "answer_count": 0,
+          "excerpt": ""
+        },
+        "content": "<p data-pid=\"nyV673nu\">这个世界上，靠香蕉续命的人，是以千万、甚至以亿记的。如果香蕉突然消失，这些地区将面临严重的食物短缺和营养困境，对当地民生与社会稳定造成剧烈冲击。</p><p data-pid=\"5oYxkLsP\">全球年产 1.45 亿吨香蕉，近一半都被当成 “饭” 造了。在印度南部、菲律宾、东非、西非等地，香蕉是很多贫民的保命粮。</p><p data-pid=\"kGX84zap\">热带国家和地区的”四大主食“排名是这样的：<b>小麦、水稻、玉米、香蕉</b>（烹饪型，主要指大蕉和芭蕉，还有一些区域性品种）。</p><p data-pid=\"8PVVSKnW\">全球最大的香蕉产区是印度，占比接近全球30%，几乎全被印度人自己吃掉了。</p><p data-pid=\"iEhPE4R5\">印度南部不少贫困家庭，常会把饭蕉当作主食的补充来养活一家大小 —— 它价格比大米便宜得多，热量高，饱肚子。而且香蕉花可以做菜、蕉叶能用来盛饭，连买碗的钱都省了。</p><p data-pid=\"frZtCOxS\">乌干达更是被称为“香蕉共和国”，全国 4800 万人，人均年消费量达 250 公斤以上，名副其实的天天吃蕉。</p><p data-pid=\"6OG1Qpog\">卢旺达、布隆迪也不遑多让，人均年吃也是250 + 公斤，主打一个 “靠蕉续命”。</p><p data-pid=\"abGVELYj\">还有西非喀麦隆、拉美哥伦比亚，低收入人群全靠大蕉填肚子。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-05154bde0721473b33dc738da86194c0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"825\" data-rawheight=\"345\" data-original-token=\"v2-778474f5969a920ddb34c5ab53b9de2a\" class=\"origin_image zh-lightbox-thumb\" width=\"825\" data-original=\"https://pic3.zhimg.com/v2-05154bde0721473b33dc738da86194c0_r.jpg\"/></figure><p data-pid=\"vb15XJ4H\">香蕉不仅管饱，还能换钱，堪称热带地区的 “全民摇钱树”。全球香蕉年贸易量约 2000-2500 万吨，年贸易额达 120-150 亿美元。</p><p data-pid=\"2T4cZHni\">像厄瓜多尔、菲律宾、哥斯达黎加、哥伦比亚等国都是香蕉出口大国。香蕉在GDP 里占着一大块，直接关系到全国的经济大盘。</p><p data-pid=\"om57ij-Q\">别看菲律宾在南海跳来跳去，他们还是非常积极地卖香蕉给中国的。</p><p data-pid=\"mQZEw4I0\">对热带、亚热带地区的小农户来说，香蕉很好种—— 繁殖快、投产早、管理粗放，能快速获得收益。种香蕉的收入可以占到家庭月收入的四分之三，比打工好赚。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d63568bddad5cf5e619bcfdf4ee10d5d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"525\" data-rawheight=\"499\" data-original-token=\"v2-1caa54166955e622ea2b68e95b07aaba\" class=\"origin_image zh-lightbox-thumb\" width=\"525\" data-original=\"https://picx.zhimg.com/v2-d63568bddad5cf5e619bcfdf4ee10d5d_r.jpg\"/></figure><p data-pid=\"kg98q44g\">一种水果能同时解决一个家庭的吃饭问题和收入来源，说它伟大不过分吧。</p><p data-pid=\"YMSSLqma\">何况它还那么好吃，营养又丰富，跑步登山时吃它可以快速补充能量，因为它富含高钾、膳食纤维和 B 族维生素。</p><p data-pid=\"IGjwyNTU\"><b>最最最重要的，香蕉长得特别适合懒人吃，不用切、不用削皮、不用吐籽，吃完手和嘴都不脏、简直是完美的懒人水果。</b></p><p data-pid=\"dTWethRi\">忘了说，还有很多动物也吃香蕉，没了香蕉它们也会饿死。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 52909,
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1990444273204754187",
+        "thanks_count": 23,
+        "comment_count": 92,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "is_copyable": false,
+        "excerpt": "这个世界上，靠香蕉续命的人，是以千万、甚至以亿记的。如果香蕉突然消失，这些地区将面临严重的食物短缺和营养困境，对当地民生与社会稳定造成剧烈冲击。 全球年产 1.45 亿吨香蕉，近一半都被当成 “饭” 造了。在印度南部、菲律宾、东非、西非等地，香蕉是很多贫民的保命粮。 热带国家和地区的”四大主食“排名是这样的： 小麦、水稻、玉米、香蕉（烹饪型，主要指大蕉和芭蕉，还有一些区域性品种）。全球最大的香蕉产区是印度…",
+        "favorite_count": 266,
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "id": "1990444273204754187",
+        "created_time": 1767338895,
+        "updated_time": 1767339267
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1990444273204754187}",
+      "attached_info": "CtwHCOWhirK8h4adgAEQBBoJNzYzNjg2NDI2II/n3coGKOMGMFxAJ0o4Ci1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0ISATAYACAAOgBKKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExNDYwNTQ0MmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTA0NDQyNzMyMDQ3NTQxODeKARMxODk3NjA2MDkxNjQwMTEyNjM4qgEJcmVjb21tZW5kwgEgZjkyNjAzMGJlYzY3MjdiYzc3ZmE5ZjcwMDMyNmZlMjjyAQoIDBIGTm9ybWFs8gEoCAoSJGUxYjBiMzJlLTVlNWMtNGU2Ni05MjcxLTk4YWEzZjA1ODQ5YvIBBQgLEgE3ggIAiALdovLpvDOSAiBmOTI2MDMwYmVjNjcyN2JjNzdmYTlmNzAwMzI2ZmUyOJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAi1UU19TT1VSQ0VfSU5URVJFU1RfV09SRF9DT05URU5UX1ZBTFVFX0xFVkVMX0LoAgX6AgtOT1JNQUxfRkxPV4oDIDJiZDllNGVjNmIyYzQ3N2RhNTljMWMzNWQ1YjY0ZjQ5mgMNCgJ2MhAAGgVvdGhlcqgDrZ0D2AMA6gMqSW50ZXJlc3RXb3JkQ29udGVudFZhbHVlTGV2ZWxCUG9vbFJlY2FsbGVy+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuQYY2QIiI3YyLTc3ODQ3NGY1OTY5YTkyMGRkYjM0YzVhYjUzYjlkZTJhOi0IAxCNBBjzAyIjdjItMWNhYTU0MTY2OTU1ZTYyMmVhMmI2OGU5NWIwN2FhYmGABACIBACSBAZOb3JtYWyaBAE1oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMDO8qU/gQUAAAAAAAAAAIkF1cn8EoeBsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFB5AGAKAGKagGAJICLgoJNzYzNjg2NDI2EhMxOTkwNDQ0MjczMjA0NzU0MTg3GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "40_1768674857.0",
+      "type": "feed",
+      "offset": 40,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674857,
+      "updated_time": 1768674857,
+      "target": {
+        "id": "1996012614002698104",
+        "type": "answer",
+        "voteup_count": 0,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-93bf4eabd6b8684af38593ea7f38eee1_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1996012614002698104",
+        "question": {
+          "comment_count": 5,
+          "url": "https://api.zhihu.com/questions/656963909",
+          "answer_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "excerpt": "",
+          "id": "656963909",
+          "type": "question",
+          "created": 1716483648,
+          "bound_topic_ids": [
+            2241159,
+            2736827,
+            2988785,
+            3010040,
+            3420385
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "教师资格证持证人"
+              }
+            ],
+            "is_following": false,
+            "id": "c69d84f502ef23d592de2ca3a1f08c11",
+            "url": "https://api.zhihu.com/people/c69d84f502ef23d592de2ca3a1f08c11",
+            "user_type": "people",
+            "name": "鱼儿会飞",
+            "is_org": false,
+            "is_followed": false,
+            "url_token": "91-10-86-64-98",
+            "headline": "停止内耗，努力上进",
+            "avatar_url": "https://pica.zhimg.com/50/v2-09cda8a2f8f6164610158fdd8652d661_l.jpg?source=b6762063",
+            "gender": 0,
+            "followers_count": 659
+          },
+          "title": "工作了一天，让你觉得最放松是哪个时候？",
+          "follower_count": 0,
+          "is_following": false
+        },
+        "favorite_count": 0,
+        "allow_segment_interaction": true,
+        "thanks_count": 0,
+        "thumbnail": "https://picx.zhimg.com/50/v2-93bf4eabd6b8684af38593ea7f38eee1_720w.jpg?source=b6762063",
+        "visited_count": 14,
+        "answer_type": "normal",
+        "content": "<p data-pid=\"DNOVAYMy\">作为中年男人，工作了一天，也当了牛马一天。</p><p data-pid=\"kuTtddmd\">最放松的时刻，是车开到小区楼下或者地库里，暂时不上楼在车里待个十分钟。点支烟、打一盘游戏或者闭上眼啥都不想。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-84fb223278d4bfb586a98caf3bf1e67d_1440w.jpg\" data-rawwidth=\"2728\" data-rawheight=\"1532\" data-size=\"normal\" data-original-token=\"v2-93bf4eabd6b8684af38593ea7f38eee1\" class=\"origin_image zh-lightbox-thumb\" width=\"2728\" data-original=\"https://picx.zhimg.com/v2-84fb223278d4bfb586a98caf3bf1e67d_r.jpg\"/></figure><p data-pid=\"Uz7Chox2\">这十分钟是完全属于中年男人他自己的600秒，他不用揣摩领导的想法，不用纠结如何汇报，不用担心下属的大饼吃没吃饱，不用听妻子的抱怨也不会跟孩子脑急白脸。</p><p data-pid=\"TH6U661g\">但是下车上楼进入家门后，要快速切换身份，妻子需要你的倾听，孩子需要你的陪伴和指导，如果和老人生活在一起，也要听听他们的唠叨。</p><p data-pid=\"c_un560r\">所以在车上那10分钟，就是我工作日最放松的时刻！</p>",
+        "vote_next_step": "vote",
+        "updated_time": 1768666491,
+        "excerpt": "作为中年男人，工作了一天，也当了牛马一天。 最放松的时刻，是车开到小区楼下或者地库里，暂时不上楼在车里待个十分钟。点支烟、打一盘游戏或者闭上眼啥都不想。   这十分钟是完全属于中年男人他自己的600秒，他不用揣摩领导的想法，不用纠结如何汇报，不用担心下属的大饼吃没吃饱，不用听妻子的抱怨也不会跟孩子脑急白脸。 但是下车上楼进入家门后，要快速切换身份，妻子需要你的倾听，孩子需要你的陪伴和指导，如果和老人生活在…",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "created_time": 1768666491,
+        "is_navigator": false,
+        "author": {
+          "id": "648c4fbd7633830753b52b0ae9bed663",
+          "url": "https://api.zhihu.com/people/648c4fbd7633830753b52b0ae9bed663",
+          "url_token": "liu-bing-yuan-89",
+          "name": "放纵",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-09968abbc228efbb942e8a04b5b316e8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 2,
+          "is_followed": false,
+          "user_type": "people",
+          "is_following": false
+        },
+        "comment_count": 0,
+        "is_copyable": true,
+        "excerpt_new": "作为中年男人，工作了一天，也当了牛马一天。 最放松的时刻，是车开到小区楼下或者地库里，暂时不上楼在车里待个十分钟。点支烟、打一盘游戏或者闭上眼啥都不想。   这十分钟是完全属于中年男人他自己的600秒，他不用揣摩领导的想法，不用纠结如何汇报，不用担心下属的大饼吃没吃饱，不用听妻子的抱怨也不会跟孩子脑急白脸。 但是下车上楼进入家门后，要快速切换身份，妻子需要你的倾听，孩子需要你的陪伴和指导，如果和老人生活在…",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996012614002698104}",
+      "attached_info": "CpsGCOWhirK8h4adgAEQBBoJNzY1ODYwNzc3IPvqrssGKAAwAEAoSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMDgyNjk5MDBiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk2MDEyNjE0MDAyNjk4MTA0igEJNjU2OTYzOTA5qgEJcmVjb21tZW5kwgEgNjQ4YzRmYmQ3NjMzODMwNzUzYjUyYjBhZTliZWQ2NjPyAQoIDBIGTm9ybWFs8gEoCAoSJDc5NjhjMTExLTBkNmEtNDgyZC05ZWY0LTRjMGY3ZjUxYTZlY/IBBQgLEgE3ggIAiALdovLpvDOSAiA2NDhjNGZiZDc2MzM4MzA3NTNiNTJiMGFlOWJlZDY2M5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AIC+gILTk9STUFMX0ZMT1eKAyAyYmQ5ZTRlYzZiMmM0NzdkYTU5YzFjMzVkNWI2NGY0OZoDDQoCdjIQABoFb3RoZXKoAw7YAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEKgVGPwLIiN2Mi05M2JmNGVhYmQ2Yjg2ODRhZjM4NTkzZWE3ZjM4ZWVlMYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4DyJkD+BBQAAAAAAAAAAiQXVyfwSh4GyP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUHkAYAoAYqqAYBkgIuCgk3NjU4NjA3NzcSEzE5OTYwMTI2MTQwMDI2OTgxMDQYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "41_1768674857.448",
+      "type": "feed",
+      "offset": 41,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674857,
+      "updated_time": 1768674857,
+      "target": {
+        "comment_count": 4,
+        "excerpt": "如果说通义千问和豆包谁更牛逼的问题还在困扰你，那说明你还没看懂这场战争的本质。 我是老狗。 昨天千问 APP 发布，我看到最多的是： “豆包和通义千问，到底谁更牛逼？” “千问是不是阿里的救命稻草？” 看着这些问题，老狗我是真着急。说句得罪人的话： 如果你现在还盯着“这俩谁聊天更机灵、谁写周报更顺手”，那你不仅看错了战场，你可能连对手是谁都没搞清。咱们把时间轴拉长到 5 年、10 年。你会发现，字节跳动（豆包）…",
+        "excerpt_new": "如果说通义千问和豆包谁更牛逼的问题还在困扰你，那说明你还没看懂这场战争的本质。 我是老狗。 昨天千问 APP 发布，我看到最多的是： “豆包和通义千问，到底谁更牛逼？” “千问是不是阿里的救命稻草？” 看着这些问题，老狗我是真着急。说句得罪人的话： 如果你现在还盯着“这俩谁聊天更机灵、谁写周报更顺手”，那你不仅看错了战场，你可能连对手是谁都没搞清。咱们把时间轴拉长到 5 年、10 年。你会发现，字节跳动（豆包）…",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "is_navigator": false,
+        "voteup_count": 17,
+        "thanks_count": 0,
+        "allow_segment_interaction": true,
+        "author": {
+          "id": "de9cb05809864252a6624ed70fff4e13",
+          "user_type": "people",
+          "url_token": "li-yong-hui-60-44",
+          "headline": "缺乏安全感的独立金牛",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 2,
+          "url": "https://api.zhihu.com/people/de9cb05809864252a6624ed70fff4e13",
+          "name": "丶如果",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false
+        },
+        "question": {
+          "bound_topic_ids": [
+            108,
+            454,
+            2632804,
+            3955155,
+            4199854
+          ],
+          "question_type": "normal",
+          "follower_count": 0,
+          "title": "阿里计划将整个移动互联网装进「千问」App，这意味着什么？",
+          "relationship": {
+            "is_author": false
+          },
+          "url": "https://api.zhihu.com/questions/1995119287170512548",
+          "type": "question",
+          "excerpt": "",
+          "id": "1995119287170512548",
+          "created": 1768453505,
+          "answer_count": 0,
+          "comment_count": 0,
+          "is_following": false,
+          "detail": "",
+          "author": {
+            "id": "678e7b7b38e0e5c54dff57556ccc9cb3",
+            "url_token": "10-86-2-73-98",
+            "is_org": false,
+            "followers_count": 43,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/678e7b7b38e0e5c54dff57556ccc9cb3",
+            "user_type": "people",
+            "name": "林与屿",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-cd6204179ccca1db0292cb97152d7d07_l.jpg?source=b6762063",
+            "gender": 1,
+            "is_following": false
+          }
+        },
+        "preview_type": "default",
+        "is_labeled": false,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995504267138729670",
+        "is_copyable": true,
+        "content": "<blockquote data-pid=\"_bzMnXY4\">如果说通义千问和豆包谁更牛逼的问题还在困扰你，那说明你还没看懂这场战争的本质。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9oU3gOxZ\">我是老狗。</p><p data-pid=\"DkYcnKej\">昨天千问 APP 发布，我看到最多的是：</p><p data-pid=\"A8BRiB4k\">“豆包和通义千问，到底谁更牛逼？”</p><p data-pid=\"EreOhKsq\">“千问是不是阿里的救命稻草？”</p><p data-pid=\"SOdLMzMA\">看着这些问题，老狗我是真着急。说句得罪人的话：<b>如果你现在还盯着“这俩谁聊天更机灵、谁写周报更顺手”，那你不仅看错了战场，你可能连对手是谁都没搞清。</b></p><p data-pid=\"97uCNhpJ\">咱们把时间轴拉长到 5 年、10 年。你会发现，字节跳动（豆包）和阿里（千问）在干的，压根就不是同一件事。</p><p data-pid=\"mHNwErGZ\">今天老狗不跟你们扯什么参数、跑分、大模型底座。咱们剥开皮，聊聊最露骨的商业真相。</p><hr/><h3>一、 先泼盆冷水：千问是在“吸阿里的血”</h3><p data-pid=\"clAFfFg7\">咱们先说个让阿里人听了可能想关页面的大实话：</p><p data-pid=\"f9f4muuY\">通义千问这个 App，短期内不仅不赚钱，它简直是在拿刀割阿里的肉。</p><p data-pid=\"kZg9QzKf\">为啥这么说？兄弟们，你们用老狗我也在用的“生意逻辑”盘一下：</p><p data-pid=\"NuQSVOvW\">第一，它在搞“流量自杀”。</p><p data-pid=\"gbe19M5R\">以前你想买个洗面奶，你会去哪？打开淘宝，搜“洗面奶”，然后看李佳琦直播，或者看评价。这些流量全是钱啊！淘宝靠这个收广告费收得手软。</p><p data-pid=\"xswkilfG\">现在呢？你去问千问：“推荐个洗面奶。”</p><p data-pid=\"b5L-pj2X\">千问吭哧吭哧给你吐几个字。完了。</p><p data-pid=\"KJyxPuBI\">淘宝的广告位没了，直通车没了，李佳琦也没了。这叫啥？这叫稀释高价值流量。</p><p data-pid=\"G0gn4nkb\">第二，这玩意儿“含金量”太低。</p><p data-pid=\"FLXEV174\">电商 App 是啥？是货架。一屏手机能塞进 10 个商品、3 个广告。那叫寸土寸金。</p><p data-pid=\"eH8_JxLm\">AI 聊天窗口是啥？是对话。一屏就几行字。</p><p data-pid=\"n8P6EjzC\">用互联网黑话讲，这叫“商业密度坍塌”。</p><p data-pid=\"BmJ4fPin\">第三，场景太窄。</p><p data-pid=\"muJV7u28\">你现在能指望千问帮你点个饿了么外卖？能指望它帮你抢张飞猪的机票？还早着呢。</p><p data-pid=\"eLdiMLSR\">所以，如果只看财报，只看 ROI（投入产出比），千问就是在“自废武功”。它就像阿里身体里长出来的一个异类，正在攻击阿里最赚钱的电商基本盘。</p><p data-pid=\"8TlyOSpi\">那问题来了：<b>既然这么亏，阿里这帮人精为什么非做不可？而且还要玩命做？</b></p><hr/><h3>二、 真正的恐惧：当 App 变成“下水道”</h3><p data-pid=\"BynIUAx3\">阿里这么拼，不是为了赢，而是因为——<b>怕死</b>。</p><p data-pid=\"BN4nDn9d\">真正的威胁，从来不是字节跳动出了个“豆包 App”，而是一个更恐怖的东西：<b>未来的“系统级入口”。</b></p><p data-pid=\"yeSjjwh3\">老狗常说，互联网一共就没几次大机会，全是“入口”的迁移：</p><p data-pid=\"w8hQ9jP3\">PC 时代，入口是百度（搜索）；</p><p data-pid=\"kGvoMHoD\">移动时代，入口是微信、淘宝、抖音（App）；</p><p data-pid=\"0p8OO1tj\">AI 时代，入口要变天了。</p><p data-pid=\"8kxgKeXT\">兄弟们，想象一下 5 年后的场景：</p><p data-pid=\"g9j41VG9\">你买鞋，不再是“打开淘宝 -&gt; 搜耐克 -&gt; 挑挑拣拣 -&gt; 下单”。</p><p data-pid=\"l_0sRHJD\">你是对着你的手机、或者是眼镜，随口说一句：“老伙计，给我买双跑步鞋，要软点的，500 块以内。”</p><p data-pid=\"Px0-HGVf\">然后恐怖的事情发生了：</p><p data-pid=\"vl9kOJFn\">AI 帮你决定买哪个牌子。</p><p data-pid=\"jkQmEzSH\">AI 帮你决定去哪个平台（淘宝？京东？还是拼多多？）下单。</p><p data-pid=\"l51Mj4PQ\">AI 在后台静默支付，你连淘宝的 App 都不用打开。</p><p data-pid=\"YiH_J0Gb\"><b>看懂了吗？这就是“降维打击”。</b></p><p data-pid=\"ZximA5Mt\">在这个世界里：</p><ol><li data-pid=\"Oxc-P-RL\"><b>App 还在，但用户没了。</b> 用户只跟 AI 说话，不跟 App 交互。</li><li data-pid=\"0R6vJtGp\"><b>品牌失效。</b> AI 不推荐你，你在用户眼里就是空气。</li><li data-pid=\"VOGtOfKD\"><b>阿里从“地主”变成了“长工”。</b> 以前阿里掌握流量分发，想给谁流量就给谁。未来？那是 AI 说了算。</li></ol><p data-pid=\"qDNy5h5T\">一旦阿里沦为被系统级 AI 调用的“后台数据库”，那就是彻底的管道化（Commoditization）。</p><p data-pid=\"twFukNRk\">那时候，别说收广告费了，能不被踢出局就不错了。</p><hr/><h3>三、 千问的四个“隐秘任务”</h3><p data-pid=\"cAyMgOWo\">看懂了上面那个终局，你就明白了老狗今天的核心观点：</p><p data-pid=\"yBZr9shp\">千问不是阿里用来“进攻”的矛，而是用来“保命”的盾。</p><p data-pid=\"_2pheUFJ\">它不需要在日活上打败抖音，它真正的任务，是这四个极其隐蔽的战略锚点：</p><h3>1. 搞一次“受控的自杀实验”</h3><p data-pid=\"BG_W2oIi\">既然未来“对话式购物”一定会取代“货架式购物”，那与其等着被 OpenAI 或者苹果革了命，不如阿里自己先革自己的命。</p><p data-pid=\"BK7lsAG8\">千问就是阿里的练兵场。</p><p data-pid=\"XlqfIhbU\">他们在测试：没有了花花绿绿的广告图，怎么把东西卖出去？怎么在对话里植入商品不被骂？</p><p data-pid=\"HpBsUYIR\">这是一次在自己地盘上做的“爆破测试”，为了在未来活下来。</p><h3>2. 练就“盲打”的能力</h3><p data-pid=\"zx_RPlP_\">阿里过去最强的是啥？是界面，是 GUI。</p><p data-pid=\"WcQ-rejB\">但如果未来用户不看界面了呢？</p><p data-pid=\"yuv1lCyz\">千问正在训练阿里的后台系统：如何只通过理解一句人话，就精准地匹配库存、物流和价格。</p><p data-pid=\"uUslvewA\">这叫“无界面交易”能力。这才是硬功夫。</p><h3>3. 抢占“交易关口”</h3><p data-pid=\"h6pu0Ynh\">AI 本身不值钱，会写诗的 AI 满大街都是。</p><p data-pid=\"y-oaBEDV\">但**“能帮你把钱花出去”的 AI，非常值钱。</p><p data-pid=\"pGzFDc9J\">千问在做一件事：把“理解意图 -&gt; 选品 -&gt; 下单 -&gt; 支付 -&gt; 履约”**这一整条链路，封装成一个标准接口。</p><p data-pid=\"vjuYAZ6G\">意思是：未来不管你是苹果 Siri，还是小米同学，甚至是什么智能马桶，你想帮用户买东西？行，请走阿里的接口。</p><p data-pid=\"jMJsrpzU\">这就是把路修好，坐等收过路费。</p><h3>4. 拿到谈判桌的入场券（这点最重要）</h3><p data-pid=\"m8tm0qqY\">这点老狗必须强调一下。</p><p data-pid=\"n4alCdKt\">未来，苹果、安卓、鸿蒙，一定会把 AI 做进操作系统里。到时候，App 可能真的会消亡。</p><p data-pid=\"tNl19ylZ\">阿里手里必须有一个足够强的大模型（千问）。</p><p data-pid=\"fiRTGVlt\">有了它，阿里在被系统级 AI 调用的时候，才有底气说：</p><p data-pid=\"retbUUlr\">“我有标准化的能力，我有数据接口，咱们是合作关系，不是你吃掉我。”</p><p data-pid=\"vRvL2xKH\">没有千问，阿里就是待宰的肥羊；有了千问，阿里就是谈判桌上的玩家。</p><hr/><h3>四、 所谓的“豆包已死”与“千问当立”</h3><p data-pid=\"ExfhPiNa\">回到开头那个耸人听闻的标题。</p><p data-pid=\"J3dFCxvb\">我说**“豆包已死”，不是说字节输了。老狗我很佩服字节的产品力。</p><p data-pid=\"esndux4c\">我的意思是：“独立的 AI 聊天 App”这种形态，注定是过渡品。**</p><p data-pid=\"XyX3_sDu\">豆包赌的也不是这个 App，它赌的是能不能成为你手机里的“默认大脑”，那是操作系统级别的野心。</p><p data-pid=\"QGxBrWYp\">我说**“千问当立”**，也不是因为它现在体验无敌。</p><p data-pid=\"7bunjFZK\">而是因为，对于阿里这个庞大的商业帝国来说，千问必须存在。</p><p data-pid=\"qaIi9umR\">它是阿里从旧时代通往新时代的唯一一张船票。</p>",
+        "favorite_count": 15,
+        "id": "1995504267138729670",
+        "created_time": 1768545291,
+        "visited_count": 3280,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "updated_time": 1768545291,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995504267138729670}",
+      "attached_info": "CqIGCOWhirK8h4adgAEQBBoJNzY1NjY5MDk3IIu4p8sGKBEwBEApSjMKHlRTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBaCTExODA3NTEyMmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU1MDQyNjcxMzg3Mjk2NzCKARMxOTk1MTE5Mjg3MTcwNTEyNTQ4qgEJcmVjb21tZW5kwgEgZGU5Y2IwNTgwOTg2NDI1MmE2NjI0ZWQ3MGZmZjRlMTPyAQoIDBIGTm9ybWFs8gEoCAoSJDliM2NiOGQzLWI0NjQtNDBiZS1iMDkzLTVlMmZiZGNkZjE3OfIBBQgLEgE3ggIAiALdovLpvDOSAiBkZTljYjA1ODA5ODY0MjUyYTY2MjRlZDcwZmZmNGUxM5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxlygIaU2FtZUNvbnRlbnRJZElzb2xhdGlvblJ1bGXaAh5UU19TT1VSQ0VfRkVFRFJFX1RJTUVMSU5FU1NfVjPoAgP6AgtOT1JNQUxfRkxPV4oDIDJiZDllNGVjNmIyYzQ3N2RhNTljMWMzNWQ1YjY0ZjQ5mgMNCgJ2MhAAGgVvdGhlcqgD0BnYAwDqAxRmZWVkcmVfdGltZWxpbmVzc192M/oDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEBnKqM/gQUAAAAAAAAAAIkF1cn8EoeBsj+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFB5AGAKAGK6gGAJICLgoJNzY1NjY5MDk3EhMxOTk1NTA0MjY3MTM4NzI5NjcwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=41&desktop=true&end_offset=43&page_number=8&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=41&desktop=true&end_offset=43&page_number=8&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

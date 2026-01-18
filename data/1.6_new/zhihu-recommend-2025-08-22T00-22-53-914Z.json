@@ -1,0 +1,603 @@
+{
+  "data": [
+    {
+      "id": "30_1755822220.107",
+      "type": "feed",
+      "offset": 30,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822220,
+      "updated_time": 1755822220,
+      "target": {
+        "id": "1934364755365196967",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1934364755365196967",
+        "author": {
+          "id": "8c56d3b99d48394c6d564904649edcc7",
+          "url": "https://api.zhihu.com/people/8c56d3b99d48394c6d564904649edcc7",
+          "user_type": "people",
+          "url_token": "verilog_buddy",
+          "name": "歪睿老哥",
+          "headline": "《芯术-算力驱动架构变革》作者；公众号：歪睿老哥",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f9d1bc0cea8c5f13a7bd1d0e57c01279_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "super_activity",
+              "description": "知势榜科技互联网领域影响力榜答主"
+            },
+            {
+              "type": "identity_people",
+              "description": "中国科学院大学 计算机科学技术博士"
+            }
+          ],
+          "followers_count": 24527,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1753968496,
+        "updated_time": 1753968496,
+        "voteup_count": 100,
+        "thanks_count": 6,
+        "comment_count": 1,
+        "is_copyable": true,
+        "question": {
+          "id": "596771388",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/596771388",
+          "author": {
+            "id": "f4ee4b17e7d1714769791b4ef66f000d",
+            "url": "https://api.zhihu.com/people/f4ee4b17e7d1714769791b4ef66f000d",
+            "user_type": "people",
+            "url_token": "1984-chou-sha-dui",
+            "name": "1985",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-90444a85f0c79162c43dcfc1948d52ef_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 763,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么我还是无法理解transformer？",
+          "created": 1681986604,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 7,
+          "bound_topic_ids": [
+            89794,
+            401598
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-ca449dcbab15c722a5ada384ffd55475_720w.jpg?source=b6762063",
+        "excerpt": "大家都说的挺好，我从使用deepseek，chatgpt的角度来说一下transformer。 最简单粗暴地讲， LLM的推理就是它根据你给它的信息（输入），结合它学到的海量知识（模型本身），给出一个最合理的“预测”（输出）。 那么，大模型如何根据你的输入（Prompt）作出反应输出的？ 就需要了解“注意力机制”（Attention Mechanism）。 注意力机制就是让模型在处理文本时，能像人一样“聚焦”到那些更重要、更相关的部分。 它会动态地给不同…",
+        "excerpt_new": "大家都说的挺好，我从使用deepseek，chatgpt的角度来说一下transformer。 最简单粗暴地讲， LLM的推理就是它根据你给它的信息（输入），结合它学到的海量知识（模型本身），给出一个最合理的“预测”（输出）。 那么，大模型如何根据你的输入（Prompt）作出反应输出的？ 就需要了解“注意力机制”（Attention Mechanism）。 注意力机制就是让模型在处理文本时，能像人一样“聚焦”到那些更重要、更相关的部分。 它会动态地给不同…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"-ClWF1ih\">大家都说的挺好，我从使用deepseek，chatgpt的角度来说一下transformer。</p><p data-pid=\"kmNyYhlr\">最简单粗暴地讲，</p><p data-pid=\"po7eS7eq\">LLM的推理就是它根据你给它的信息（输入），结合它学到的海量知识（模型本身），给出一个最合理的“预测”（输出）。</p><p data-pid=\"RYldoCgn\">那么，大模型如何根据你的输入（Prompt）作出反应输出的？</p><p data-pid=\"v3QhU5ox\">就需要了解“注意力机制”（Attention Mechanism）。</p><p data-pid=\"ds-f58ZD\">注意力机制就是让模型在处理文本时，能像人一样“聚焦”到那些更重要、更相关的部分。</p><p data-pid=\"EaHDaaoZ\">它会动态地给不同的词语分配不同的“重要性权重”。</p><p data-pid=\"BPskcxe2\">你可以把它想象成舞台上的“聚光灯”，模型把光打到当前任务最相关的词语或短语上，那些不重要的，就让它们在黑暗里待着。</p><p data-pid=\"cqUO-mnN\">那这“聚光灯”是怎么打的呢？</p><p data-pid=\"ij_4dNQj\">这就涉及到它如何创建“高维词元关系”了：</p><p data-pid=\"1Hl4J3Qe\">词元化与嵌入（Tokenization and Embedding）</p><p data-pid=\"Q5vqrOrg\">我们举个例子</p><p data-pid=\"tAg3Iltc\">你输入的文字Prompt，比如Data visualization empowers users to。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-60e991dcf41adb27a74d02030dbc69b4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"556\" data-rawheight=\"449\" data-original-token=\"v2-60e991dcf41adb27a74d02030dbc69b4\" class=\"origin_image zh-lightbox-thumb\" width=\"556\" data-original=\"https://pic1.zhimg.com/v2-60e991dcf41adb27a74d02030dbc69b4_r.jpg\"/></figure><p data-pid=\"OQyEO-ZH\">首先，需要根据你的输入变成词元，也就是token，</p><p data-pid=\"nmxUX4au\">例如刚才的输入就变成了</p><p data-pid=\"49byzdDp\">Data，visualization，em，powers，users，to。</p><p data-pid=\"bB7iW300\">可以看到，这些token并不是完全按照每个单词来的。</p><p data-pid=\"p-mJtc1U\">这些词变成了一个高纬的数字向量</p><p data-pid=\"XxTpqpTw\">再变成一个高维度的数字向量，叫“嵌入”。</p><p data-pid=\"h0fAm7xj\">传统的独热编码（one-hot encoding）虽然能把词元变成数字向量。</p><p data-pid=\"ng6Zobnx\">但它有个致命缺陷：它无法捕捉词元之间的语义关系。</p><p data-pid=\"tXFRlUpq\">例如，也就是说，用独热编码，“国王”和“女王”这两个词在向量空间里是完全独立的，没有任何关联，即使它们在语义上非常接近。</p><p data-pid=\"cLJqI2Cn\">而嵌入（Token Embedding）就是为了解决这个问题而生的。</p><p data-pid=\"HhyPqtZT\">词元嵌入（Token Embedding）实际上是一个高维的数值向量。你可以把它想象成一个由几百甚至上千个数字组成的列表。</p><p data-pid=\"fSYUKKFa\">这个向量的每一个维度都代表了词元某个方面的特征或属性。</p><p data-pid=\"CUhjLiQc\">当每个词元都被转换成一个富有意义的向量后，模型就能更容易地识别文本中的模式、上下文关系以及深层次的语义结构。</p><p data-pid=\"xUTE80Mp\">这些嵌入向量为后续的注意力机制和MLP层提供了高质量的输入。</p><p data-pid=\"k9PF1hd7\">这些向量可不是随便编的，它们包含了词语的语义信息，能揭示词语之间的潜在联系。</p><p data-pid=\"Nw0Aw5jf\">词元嵌入结束后。</p><p data-pid=\"LpvFOFap\">就开始接下来的一步。</p><p data-pid=\"Vi35B3AN\">每个词元嵌入（Embedding），都会被转换成三种不同的向量：查询（Query）、键（Key）和值（Value）</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ce2b5c34d9ae509dfbb216f02fe18e99_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"466\" data-rawheight=\"67\" data-original-token=\"v2-ce2b5c34d9ae509dfbb216f02fe18e99\" class=\"origin_image zh-lightbox-thumb\" width=\"466\" data-original=\"https://picx.zhimg.com/v2-ce2b5c34d9ae509dfbb216f02fe18e99_r.jpg\"/></figure><p data-pid=\"Lf1V3VJ6\">计算过程如下图所示：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3e5caf8acb96fe4342a05265e005f20d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"329\" data-original-token=\"v2-3e5caf8acb96fe4342a05265e005f20d\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://picx.zhimg.com/v2-3e5caf8acb96fe4342a05265e005f20d_r.jpg\"/></figure><p data-pid=\"17cZP4v0\">为了直观理解查询（Query, Q）、键（Key, K）和值（Value, V）这三个核心概念，可以将其类比为在一个组织良好的数据库或图书馆中进行信息检索的过程：</p><p data-pid=\"Trke-a-b\"><b>查询（Q）：</b> 代表您正在寻找什么，或者您拥有哪些信息，并希望根据这些信息找到相关内容 。它类似于您在图书馆系统中输入的搜索词，本质上是在问：“你对我有多相关？” 。</p><p data-pid=\"ZFJn8Ulq\"><b>键（K）：</b> 代表数据库中项目（例如书籍）的属性或标识符，这些属性有助于评估其与查询的相关性 。可以想象成每个项目都在“喊出自己的内容！” 。例如，一本书的键可能包括其标题、作者或关键词。</p><p data-pid=\"I2lvQUMA\"><b>值（V）：</b> 这是您从最匹配的项目中实际检索到的信息或内容 。在图书馆的类比中，这将是书籍本身的具体内容</p><p data-pid=\"jFldtXmF\">上下文关系评分：</p><p data-pid=\"snNh7H9w\">模型会拿当前词元的“查询”向量，去跟序列里“所有其他词元”的“键”向量进行“点积”运算，算出“注意力分数”。</p><p data-pid=\"gjjI7Gei\">分数越高，说明这两个词关系越紧密，模型给的注意力就越多。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6036f769f17468dcfd67740d207b2504_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"395\" data-rawheight=\"60\" data-original-token=\"v2-6036f769f17468dcfd67740d207b2504\" class=\"content_image\" width=\"395\"/></figure><p data-pid=\"iQousNP8\">这个过程会形成一个“注意力模式”，就像一张网，上面密密麻麻地标注了所有词元之间的关系。</p><p data-pid=\"xcPLOklX\">算出来的分数，再经过一个叫Softmax的函数处理，变成概率分布，确保所有分数加起来是。</p><p data-pid=\"INhj6wJj\">这样，注意力就能按比例分配了。</p><p data-pid=\"R_MU8meQ\">通过值向量更新嵌入：最后，这些归一化后的注意力分数（权重），会跟“值”向量相乘。</p><p data-pid=\"uqbLYzR3\">QKV（Query, Key, Value）是计算输入（例如一个prompt）内部attention的核心。</p><p data-pid=\"Rv4HjE3K\">通过这个过程，模型能够捕捉输入prompt中不同词之间的依赖关系和相关性。</p><p data-pid=\"iAcJnVke\">例如，在“The animal didn&#39;t cross the street because it was too tired.”这句话中，</p><p data-pid=\"YU9uy6e3\">通过QKV的计算，模型可以知道“it”指的是“animal”，而不是“street”，因为它学会了将“it”的Query与“animal”的Key产生高注意力分数，并从“animal”的Value中提取信息。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d01e353be51f56fc98c2c688793a9219_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1124\" data-rawheight=\"485\" data-original-token=\"v2-d01e353be51f56fc98c2c688793a9219\" class=\"origin_image zh-lightbox-thumb\" width=\"1124\" data-original=\"https://pic2.zhimg.com/v2-d01e353be51f56fc98c2c688793a9219_r.jpg\"/><figcaption>Q，K，V的运算。</figcaption></figure><p data-pid=\"J_hc0pZb\">在LLM中，这些QKV的运算有很多Head。</p><p data-pid=\"pwTgsp9-\">对于多头注意力机制中的每个注意力头，都会有自己独立且可学习的线性投影矩阵：WQi​,WKi​,WVi​（其中 i 代表第 i 个注意力头）。</p><p data-pid=\"1EHnDu6E\">通过计算生成了不同的：<b>查询向量</b>（Qi），<b>键向量</b>（Ki），<b>值向量</b>（Vi）。</p><p data-pid=\"oE3r4oJV\">这些加权后的“值”向量，会被用来“优化”每个词元的嵌入，把相关词元的上下文信息整合进来。</p><p data-pid=\"jgaGHw48\">这样，每个词元就有了动态的、反映上下文重要性的新表示。</p><p data-pid=\"zawZJ28f\">每个头可以从不同的角度（比如语法、语义）去关注上下文，这样就能为每个词元生成更丰富、更鲁棒的表示。</p><p data-pid=\"GZp9WmkO\">也就说，同一个提示（prompt），通过模型里多个独立的“大脑视角”，被同时、多维度地理解和分析。</p><p data-pid=\"e20onmyV\">多头注意力的一大显著优势在于其固有的并行性。</p><p data-pid=\"CnBNNLoU\">每个注意力头独立运行，允许同时进行计算，这在现代硬件（如GPU）上效率极高 。这与循环神经网络中的顺序处理形成了鲜明对比 。</p><p data-pid=\"c9BFFDdT\">例如：GPT-2 拥有 12 个自注意力头，每个头都能捕捉词元之间不同的关系。这些头的输出会被拼接（concatenated）起来，然后通过一个线性投影（linear projection）。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0ef687da8866e94930f0332f0c64734a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"809\" data-rawheight=\"721\" data-original-token=\"v2-0ef687da8866e94930f0332f0c64734a\" class=\"origin_image zh-lightbox-thumb\" width=\"809\" data-original=\"https://pica.zhimg.com/v2-0ef687da8866e94930f0332f0c64734a_r.jpg\"/></figure><p data-pid=\"VJNK0MbB\">在多头自注意力机制捕捉到输入 token 之间多样化的关系后，其拼接起来的输出会通过<b>多层感知机 (MLP) 层</b>，以增强模型的表征能力。</p><p data-pid=\"ZeYvQmwm\">GPT-2的这个 MLP 模块由<b>两个线性变换</b>组成，中间夹着一个 <b>GELU 激活函数</b>。<b>第一个线性变换</b>会将输入的维度<b>四倍扩增</b>，从 768 维增加到 3072 维。<b>第二个线性变换</b>则会将维度<b>重新降回</b>到原始的 768 维，从而确保后续层接收到的输入维度保持一致。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8cd12e01cc022b8fb5c8303f82e91edf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1152\" data-rawheight=\"852\" data-original-token=\"v2-8cd12e01cc022b8fb5c8303f82e91edf\" class=\"origin_image zh-lightbox-thumb\" width=\"1152\" data-original=\"https://pic2.zhimg.com/v2-8cd12e01cc022b8fb5c8303f82e91edf_r.jpg\"/></figure><p data-pid=\"CRb4RVpH\">如果说 LLM 里的注意力机制（Attention）就像是在<b>阅读理解</b>，负责找出文本中哪些词和词之间有关系、有多重要，那么 MLP 就像是在<b>深入思考和加工这些理解后的信息</b>。</p><p data-pid=\"_L6hMPqQ\">在 LLM 中，注意力机制负责“看”和“理解”全局关系，而 MLP 则负责“想”和“消化”这些理解后的信息，为下一步的生成做好准备。</p><p data-pid=\"m3EEMxPl\">这样就完成了一个<b>Transformer Block</b>的处理，（每个block有多个head）。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9b1090ee2de126d63713334bfab34eb8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1225\" data-rawheight=\"739\" data-original-token=\"v2-9b1090ee2de126d63713334bfab34eb8\" class=\"origin_image zh-lightbox-thumb\" width=\"1225\" data-original=\"https://pica.zhimg.com/v2-9b1090ee2de126d63713334bfab34eb8_r.jpg\"/></figure><p data-pid=\"h1ht-mI6\">而大模型有多个Transformer Block。</p><p data-pid=\"9gcwgk7I\">每增加一个 Transformer <b>BLOCK</b>，模型就获得了更多的“思考”和“处理”能力。这意味着它可以学习到更复杂、更精细的语言模式和知识。</p><p data-pid=\"CUUIQDlY\">每个 <b>Transformer BLOCK</b> 就像是你处理信息的一个思考步骤。</p><p data-pid=\"e2n8CFgp\">它们虽然结构相似（都有自注意力和前馈网络），但它们处理的“信息层次”和“侧重点”是不同的：</p><p data-pid=\"pi4ip7mv\"><b>靠前的块（浅层块）</b>：负责理解最基础、最直接的“谁对谁做了什么”这种语法和局部信息。</p><p data-pid=\"76fQJxsI\"><b>靠后的块（深层块）</b>：在前面块理解的基础上，负责更高层次的抽象，比如“为什么会这样”、“这件事对整个故事有什么意义”这种深层语义和逻辑。</p><p data-pid=\"Z_Bg9XKR\">通过把这些不同的“处理阶段”或“思考步骤”堆叠起来，模型就能像我们人类一样，从浅入深，逐步理解语言中越来越复杂、越来越抽象的含义。就像你读一本复杂的书，你需要一章一章地读，一层一层地理解，最终才能把握整本书的精髓。</p><p data-pid=\"W_FVQI3U\">在输入文本经过所有 Transformer 块的处理后，输出会被传递到一个最终的线性层（final linear layer），为预测下一个词元做准备。这个线性层将最终的表示形式投射到一个 50,257 维的空间中，这个空间里的每一个值都对应着词汇表中一个词元的“得分”，我们称之为 logit（逻辑值）。</p><p data-pid=\"wdpJ9gLV\">由于词汇表中的任何词元都可能是下一个词，这个过程让我们可以简单地根据这些 logit 值来对词元进行排序，从而得知它们作为下一个词的可能性。</p><p data-pid=\"L5l-PNc0\">最后，应用 Softmax 函数将这些 logit 值转换成一个概率分布，这个分布中所有词元的概率加起来等于一。这样，就能根据每个词元的可能性（即它们的概率）来采样（sample）出下一个词元。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c8b73e7a13311c19e5bb56b4055f6ddf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1296\" data-rawheight=\"732\" data-original-token=\"v2-c8b73e7a13311c19e5bb56b4055f6ddf\" class=\"origin_image zh-lightbox-thumb\" width=\"1296\" data-original=\"https://picx.zhimg.com/v2-c8b73e7a13311c19e5bb56b4055f6ddf_r.jpg\"/></figure><p data-pid=\"6xq4AQCQ\">如同所示，根据prompt：Data visualization empowers users to</p><p data-pid=\"UJqtKz5K\">后面最大的可能输出是visualize（概率54.67%），其次是create（概率20.87%），再次是see（概率12.09%）。</p><p data-pid=\"6BUtt6re\">所以，看到这里，大家就明白了。</p><p data-pid=\"qjXwCWXV\">大模型里的注意力机制，归根结底，就是一系列复杂的数学运算。</p><p data-pid=\"7hpHynPd\">它能高效地处理信息，建立复杂的关联，</p><p data-pid=\"gATrdkM9\">我们可以说，大模型可以模拟人的意识，进行输出（本质上还是运算）。</p><p data-pid=\"t99u34z9\">大模型是基于海量数据的统计关联和模式识别来运作的。</p><p data-pid=\"nEgLIUqb\">它能根据概率预测下一个词元，生成看似合理的回答，</p><p data-pid=\"OkdNA_Md\">大模型的能够和人对话，</p><p data-pid=\"JOF0Ny2D\">本质上是一种基于海量数据和复杂算法的“高级模式匹配”和“概率预测”。</p><p data-pid=\"X3RH_MVc\">它并没有人类的意识、情感、创造力，更没有真正的“思考”。</p><p data-pid=\"8BMQFh14\">但它通过这种强大的“预测”能力，实现了对人类语言和知识的高度模拟，</p><p data-pid=\"g4x2HeIp\">从而让我们觉得它有了“智能”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rzn5YO3Z\">参考资料：</p><p data-pid=\"2PoRrldG\"><a href=\"https://link.zhihu.com/?target=https%3A//poloclub.github.io/transformer-explainer/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Transformer Explainer: LLM Transformer Model Visually Explained</a></p><p data-pid=\"GSXqTpxG\">大家可以实际运行一下这个基于GPT-2的demo，从而更加直观的了解transformer的运行：</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 6132,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-ca449dcbab15c722a5ada384ffd55475_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-bb11f3672ba56783a93b86f3021ad5ac_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-c4519115de0ec95a92d5280f85f8ccb7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-8f9c248e41fd126758f9bd36ee302696_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 339,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1934364755365196967}",
+      "attached_info": "CvQICOigq9rS9MaWCxAEGgk3Mzk4NDgyNjIg8N6txAYoZDABQB5KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBKQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoIOTQ4OTY2OTNiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTM0MzY0NzU1MzY1MTk2OTY3igEJNTk2NzcxMzg4qgEJcmVjb21tZW5kwgEgOGM1NmQzYjk5ZDQ4Mzk0YzZkNTY0OTA0NjQ5ZWRjYzfyAQoIDBIGTm9ybWFs8gEoCAoSJDA0OGFkZWUxLWFkYzYtNDRlYS05ZTMwLTZmNDM3YmE5NGM1YfIBBQgLEgE2ggIAiAKWxqP5jDOSAiA4YzU2ZDNiOTlkNDgzOTRjNmQ1NjQ5MDQ2NDllZGNjN5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMugCBPoCC05PUk1BTF9GTE9XigMgZWVjZTY5ZDdmM2QxNDJmODk1ZGE4NTdmN2MwYWIwNWGaAw0KAnYyEAAaBW90aGVyqAP0L9gDAPoDxAMSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCsBBjBAyIjdjItNjBlOTkxZGNmNDFhZGIyN2E3NGQwMjAzMGRiYzY5YjQ6LAgCENIDGEMiI3YyLWNlMmI1YzM0ZDlhZTUwOWRmYmIyMTZmMDJmZTE4ZTk5Oi0IAhDQBRjJAiIjdjItM2U1Y2FmOGFjYjk2ZmU0MzQyYTA1MjY1ZTAwNWYyMGQ6LAgCEIsDGDwiI3YyLTYwMzZmNzY5ZjE3NDY4ZGNmZDY3NzQwZDIwN2IyNTA0Oi0IAxDkCBjlAyIjdjItZDAxZTM1M2JlNTFmNTZmYzk4YzJjNjg4NzkzYTkyMTk6LQgCEKkGGNEFIiN2Mi0wZWY2ODdkYTg4NjZlOTQ5MzBmMDMzMmYwYzY0NzM0YTotCAMQgAkY1AYiI3YyLThjZDEyZTAxY2MwMjJiOGZiNWM4MzAzZjgyZTkxZWRmOi0IAxDJCRjjBSIjdjItOWIxMDkwZWUyZGUxMjZkNjM3MTMzMzRiZmFiMzRlYjg6LQgCEJAKGNwFIiN2Mi1jOGI3M2U3YTEzMzExYzE5ZTViYjU2YjQwNTVmNmRkZoAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgE/xpz+BBQAAAAAAAAAAiQUrsRnDHbDYP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYgqAYBkgIuCgk3Mzk4NDgyNjISEzE5MzQzNjQ3NTUzNjUxOTY5NjcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "31_1755822220.619",
+      "type": "feed",
+      "offset": 31,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822220,
+      "updated_time": 1755822220,
+      "target": {
+        "id": "1926241084360619700",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1926241084360619700",
+        "author": {
+          "id": "49b0f6e09d8abf1f34e9c019f15dcbc4",
+          "url": "https://api.zhihu.com/people/49b0f6e09d8abf1f34e9c019f15dcbc4",
+          "user_type": "people",
+          "url_token": "wang-zhi-hu-11-83",
+          "name": "睡前独悟",
+          "headline": "能力越大，舒适圈越大。",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-f665c3d79cea10c2221e1cf3c8735a0e_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 10770,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1752031662,
+        "updated_time": 1755755891,
+        "voteup_count": 7,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": false,
+        "question": {
+          "id": "563965149",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/563965149",
+          "author": {
+            "id": "3a605337e80659efe77563ad892c24cf",
+            "url": "https://api.zhihu.com/people/3a605337e80659efe77563ad892c24cf",
+            "user_type": "people",
+            "url_token": "hsisi-90",
+            "name": "HSisi",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/04b5a9522417c4c9a87f11361ea6f9fb_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 2,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何找到自己擅长的工作?",
+          "created": 1667289398,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            759,
+            1537,
+            25340,
+            28185,
+            101607
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "我这里有一些话糙理不糙的大白话，非常通俗易懂，也许可以帮助遇到类似问题的朋友。 曾经有个做视频剪辑的同事，心灰意冷，想要转行做文案。他找到我们当时的老板，一位文案出身的行业大神，想要转行拜师。 老板问他：“你要先想清楚一个问题，你为什么要转行做文案？” 同事回答说：“我想赚很多钱、我做视频很痛苦、我觉得做文案比剪视频轻松……” 老板摇摇头，对他的回答很不满意：“这些都不是你做文案的理由。” 老板把我…",
+        "excerpt_new": "我这里有一些话糙理不糙的大白话，非常通俗易懂，也许可以帮助遇到类似问题的朋友。 曾经有个做视频剪辑的同事，心灰意冷，想要转行做文案。他找到我们当时的老板，一位文案出身的行业大神，想要转行拜师。 老板问他：“你要先想清楚一个问题，你为什么要转行做文案？” 同事回答说：“我想赚很多钱、我做视频很痛苦、我觉得做文案比剪视频轻松……” 老板摇摇头，对他的回答很不满意：“这些都不是你做文案的理由。” 老板把我…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"oSvAdWmR\">我这里有一些话糙理不糙的大白话，非常通俗易懂，也许可以帮助遇到类似问题的朋友。</p><p data-pid=\"jkcdTSJf\">曾经有个做视频剪辑的同事，心灰意冷，想要转行做文案。他找到我们当时的老板，一位文案出身的行业大神，想要转行拜师。</p><p data-pid=\"puo20uUX\">老板问他：“你要先想清楚一个问题，你为什么要转行做文案？”<br/>同事回答说：“我想赚很多钱、我做视频很痛苦、我觉得做文案比剪视频轻松……”<br/>老板摇摇头，对他的回答很不满意：“这些都不是你做文案的理由。”<br/>老板把我叫过去，用同样的问题问我，“你为什么选择做文案？”<br/>我有些猝不及防，愣了一下回答说：“首先自己对文字比较感兴趣，恰好也比较擅长写东西……”<br/>老板打断我的话说道：“对，这就关键。”</p><p data-pid=\"BZ2kX_TD\">当时随口而出的一句话，几乎是我的本能反应，事后回想起来也确实是问题的关键所在。兴趣是基石，能力是兴趣的延伸，二者叠加，你才能找到自己真正擅长的事情。</p><p data-pid=\"sw5N-BiT\">回归这个问题，也可以从这两个方面来探索答案。</p><p data-pid=\"496uQHr8\">首先你要搞清楚你到底喜欢啥，什么东西是你真心热爱的。我对热爱的定义是即使没有任何回报，也愿意一直投入去做的事情，并且愿意为此忍受一些痛苦。只有达到这个标准的东西才能称之为热爱。消遣的爱好不足以称之为热爱，你只是拥有一个热爱的假象，如果当做职业来做，你的热情很快会冷却，你会陷入干一行恨一行的循环，你所谓的热爱，只会成为你不断逃避现实的借口。</p><p data-pid=\"NW9sOmhr\">拥有了热爱之后，我们再来思考你的天赋是什么，什么是你擅长的事情。擅长的和热爱是两件事，如果你热爱的恰好是你擅长的，那么这是天底下最幸运的事情，你可以顺着你的擅长和热爱，找到你足够为之奋斗一生的事业。比如你热爱艺术，恰好又擅长绘画，可以做设计师、插画师、UI设计等等相关联的职业。如果你擅长的东西和热爱的东西不是一回事，那么你就需要选择一个方向进行调整，要么训练自己，变得擅长做自己热爱的事情，要么调整心态，尝试去热爱你擅长的工作。比如你热爱音乐，但你不擅长唱歌，你擅长打鼓，你也可以通过鼓手的身份来从事音乐工作，甚至可以锻炼自己编曲能力，以其他形式找到你热爱且擅长的工作。</p><p data-pid=\"Imueu6OU\">内容至此基本叙述完整，不必专门为此进行付费。以下是一些相对比较“学院派”的建议，有兴趣的朋友可以继续阅读。</p><p data-pid=\"TFXxh8n3\">很多求职者都会面临兴趣与职业错位的问题，即个人兴趣领域与工作所属领域存在较大差距，从而丧失意义感，失去奋斗的目标。题主目前正在陷入职业迷茫期，不知道如何从目前的工作中走出来，找到更适合自己的职业路径。如果需要更权威的答案，也可以通过霍兰德职业测评，或者最近流行的MBTI测试等，更全面的了解自己，从一些不同的维度判断自己擅长的事情。</p><p data-pid=\"kjTapJzs\">霍兰德将人的职业兴趣分为6大类，通常用首字母缩写<b>RIASEC</b>表示：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>类型</td><td>特点</td><td>适合职业举例</td></tr><tr><td>现实型（R）</td><td>喜欢动手操作、使用工具、机械或户外活动，偏好具体任务而非抽象概念</td><td>工程师、机械师、农民、建筑师</td></tr><tr><td>研究型（I）</td><td>擅长分析、思考、探索未知，喜欢逻辑和理论研究</td><td>科学家、程序员、数据分析师、医学研究员</td></tr></tbody></table>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 350,
+        "favorite_count": 7,
+        "answer_type": "paid_column_content",
+        "paid_info": {
+          "content": "<p data-pid=\"oSvAdWmR\">我这里有一些话糙理不糙的大白话，非常通俗易懂，也许可以帮助遇到类似问题的朋友。</p><p data-pid=\"jkcdTSJf\">曾经有个做视频剪辑的同事，心灰意冷，想要转行做文案。他找到我们当时的老板，一位文案出身的行业大神，想要转行拜师。</p><p data-pid=\"puo20uUX\">老板问他：“你要先想清楚一个问题，你为什么要转行做文案？”<br/>同事回答说：“我想赚很多钱、我做视频很痛苦、我觉得做文案比剪视频轻松……”<br/>老板摇摇头，对他的回答很不满意：“这些都不是你做文案的理由。”<br/>老板把我叫过去，用同样的问题问我，“你为什么选择做文案？”<br/>我有些猝不及防，愣了一下回答说：“首先自己对文字比较感兴趣，恰好也比较擅长写东西……”<br/>老板打断我的话说道：“对，这就关键。”</p><p data-pid=\"BZ2kX_TD\">当时随口而出的一句话，几乎是我的本能反应，事后回想起来也确实是问题的关键所在。兴趣是基石，能力是兴趣的延伸，二者叠加，你才能找到自己真正擅长的事情。</p><p data-pid=\"sw5N-BiT\">回归这个问题，也可以从这两个方面来探索答案。</p><p data-pid=\"496uQHr8\">首先你要搞清楚你到底喜欢啥，什么东西是你真心热爱的。我对热爱的定义是即使没有任何回报，也愿意一直投入去做的事情，并且愿意为此忍受一些痛苦。只有达到这个标准的东西才能称之为热爱。消遣的爱好不足以称之为热爱，你只是拥有一个热爱的假象，如果当做职业来做，你的热情很快会冷却，你会陷入干一行恨一行的循环，你所谓的热爱，只会成为你不断逃避现实的借口。</p><p data-pid=\"NW9sOmhr\">拥有了热爱之后，我们再来思考你的天赋是什么，什么是你擅长的事情。擅长的和热爱是两件事，如果你热爱的恰好是你擅长的，那么这是天底下最幸运的事情，你可以顺着你的擅长和热爱，找到你足够为之奋斗一生的事业。比如你热爱艺术，恰好又擅长绘画，可以做设计师、插画师、UI设计等等相关联的职业。如果你擅长的东西和热爱的东西不是一回事，那么你就需要选择一个方向进行调整，要么训练自己，变得擅长做自己热爱的事情，要么调整心态，尝试去热爱你擅长的工作。比如你热爱音乐，但你不擅长唱歌，你擅长打鼓，你也可以通过鼓手的身份来从事音乐工作，甚至可以锻炼自己编曲能力，以其他形式找到你热爱且擅长的工作。</p><p data-pid=\"Imueu6OU\">内容至此基本叙述完整，不必专门为此进行付费。以下是一些相对比较“学院派”的建议，有兴趣的朋友可以继续阅读。</p><p data-pid=\"TFXxh8n3\">很多求职者都会面临兴趣与职业错位的问题，即个人兴趣领域与工作所属领域存在较大差距，从而丧失意义感，失去奋斗的目标。题主目前正在陷入职业迷茫期，不知道如何从目前的工作中走出来，找到更适合自己的职业路径。如果需要更权威的答案，也可以通过霍兰德职业测评，或者最近流行的MBTI测试等，更全面的了解自己，从一些不同的维度判断自己擅长的事情。</p><p data-pid=\"kjTapJzs\">霍兰德将人的职业兴趣分为6大类，通常用首字母缩写<b>RIASEC</b>表示：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><td>类型</td><td>特点</td><td>适合职业举例</td></tr><tr><td>现实型（R）</td><td>喜欢动手操作、使用工具、机械或户外活动，偏好具体任务而非抽象概念</td><td>工程师、机械师、农民、建筑师</td></tr><tr><td>研究型（I）</td><td>擅长分析、思考、探索未知，喜欢逻辑和理论研究</td><td>科学家、程序员、数据分析师、医学研究员</td></tr><tr><td>艺术型（A）</td><td>富有创造力，喜欢自由表达，讨厌刻板规则</td><td>音乐家、作家、设计师、演员</td></tr><tr><td>社会型（S）</td><td>乐于助人，擅长沟通、教导或服务他人</td><td>教师、心理咨询师、护士、社工</td></tr><tr><td>企业型（E）</td><td>喜欢领导、说服他人，追求影响力与商业成功</td><td>销售、企业家、律师、管理者</td></tr><tr><td>常规型（C）</td><td>注重条理、规则，擅长组织与细节管理</td><td>会计、行政、金融分析师、编辑</td></tr></tbody></table><p data-pid=\"28vJpGQu\">网上有很多测试版本，借助这个测试来探索自己的兴趣方向也是一个不错的选择。如果前面的建议没有起到太多作用，可以尝试以下步骤来针对性解决：</p><p data-pid=\"Qic5ZXdW\">第一步，思考自己真正热爱的兴趣领域。如果实在无法得出解决方案，就通过霍兰德测试等兴趣测评来辅助，帮助你更好地了解自己。</p>"
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1926241084360619700}",
+      "attached_info": "CpAGCOigq9rS9MaWCxAEGgk3MzYxMzk2NzcgrsO3wwYoBzAAQB9KQgoxVFNfU09VUkNFX0NPTlRST0xfSU5URVJFU1RfTE9OR19URVJNX0NPTkNFUFRfV09SRBIHMTM4MDAyNRgAIAA6AFoIODc2MDc1MzdiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTI2MjQxMDg0MzYwNjE5NzAwigEJNTYzOTY1MTQ5qgEJcmVjb21tZW5kwgEgNDliMGY2ZTA5ZDhhYmYxZjM0ZTljMDE5ZjE1ZGNiYzTyAQoIDBIGTm9ybWFs8gEoCAoSJGU4MDE4ZjUzLTNhMzUtNDE4OC05MjIyLWY4NmEzNTA5NmMzYfIBBQgLEgE2ggIAiAKWxqP5jDOSAiA0OWIwZjZlMDlkOGFiZjFmMzRlOWMwMTlmMTVkY2JjNJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCFkZlZWRDb250cm9sQnJlYWtJblJ1bGXaAjFUU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9MT05HX1RFUk1fQ09OQ0VQVF9XT1JE6AIE+gILTk9STUFMX0ZMT1eKAyBlZWNlNjlkN2YzZDE0MmY4OTVkYTg1N2Y3YzBhYjA1YZoDDQoCdjIQABoFb3RoZXKoA94C2AMA6gMiQ29udHJvbEludGVyZXN0TG9uZ1Rlcm1Db25jZXB0V29yZPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBNPBygL5BAAAAEBD7YE/gQUAAAAAAAAAAIkFK7EZwx2w2D+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFFOAFAOgFAPAFBpAGAKAGIagGA5ICLgoJNzM2MTM5Njc3EhMxOTI2MjQxMDg0MzYwNjE5NzAwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "32_1755822220.944",
+      "type": "feed",
+      "offset": 32,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822220,
+      "updated_time": 1755822220,
+      "target": {
+        "id": "44575609229",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/44575609229",
+        "author": {
+          "id": "6984645f1b189fc4b3bdbe2fd1b3f65e",
+          "url": "https://api.zhihu.com/people/6984645f1b189fc4b3bdbe2fd1b3f65e",
+          "user_type": "people",
+          "url_token": "lin-fei-60-43",
+          "name": "笔墨之林",
+          "headline": "读万卷书，行万里路。",
+          "avatar_url": "https://pica.zhimg.com/50/v2-8675f7c314de6ef0de98fffae75b72a8_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1462,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1732962854,
+        "updated_time": 1732962854,
+        "voteup_count": 46,
+        "thanks_count": 4,
+        "comment_count": 2,
+        "is_copyable": true,
+        "question": {
+          "id": "560027723",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/560027723",
+          "author": {
+            "id": "b9840c983f4f7e7aedb10e6b0ad126fc",
+            "url": "https://api.zhihu.com/people/b9840c983f4f7e7aedb10e6b0ad126fc",
+            "user_type": "people",
+            "url_token": "qiu-sheng-23-64",
+            "name": "秋生",
+            "headline": "秋天见。",
+            "avatar_url": "https://picx.zhimg.com/50/v2-30fd59dc505e7275f2d955c2169a6195_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 277,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "《万历十五年》主要写了哪些观点？",
+          "created": 1665972274,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            53,
+            791,
+            1164
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-a7c7256c8f575db9536090eee73c0e7f_720w.jpg?source=b6762063",
+        "excerpt": "《万历十五年》 黄仁宇 著王朔说，这本书彻底改变了他对历史的看法。 王小波说，看完这本书，知识分子能更了解现实社会，收起心中的狂妄之气。 路遥评价说，此书把中国历史研究得很是精到和透辟，达到了难以企及的程度。 这本《万历十五年》我读了两次，第一次是在首期「百日共读计划」读书互动中，因为自己在短时间内要读多本书，仅读了两个章节的内容，便放弃了。这一次在第五期共读活动中又选择了这本书，认真阅读了一遍。初…",
+        "excerpt_new": "《万历十五年》 黄仁宇 著王朔说，这本书彻底改变了他对历史的看法。 王小波说，看完这本书，知识分子能更了解现实社会，收起心中的狂妄之气。 路遥评价说，此书把中国历史研究得很是精到和透辟，达到了难以企及的程度。 这本《万历十五年》我读了两次，第一次是在首期「百日共读计划」读书互动中，因为自己在短时间内要读多本书，仅读了两个章节的内容，便放弃了。这一次在第五期共读活动中又选择了这本书，认真阅读了一遍。初…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-97252ce63e801cc8378f5b572987abde_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"274\" data-original-token=\"v2-97252ce63e801cc8378f5b572987abde\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-97252ce63e801cc8378f5b572987abde_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-97252ce63e801cc8378f5b572987abde_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"274\" data-original-token=\"v2-97252ce63e801cc8378f5b572987abde\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-97252ce63e801cc8378f5b572987abde_r.jpg\"/></figure><p data-pid=\"57Bjxu-C\"><b>《万历十五年》</b></p><p data-pid=\"ekFlvV8e\"><b>黄仁宇  著</b></p><p data-pid=\"qdVJgWoj\">王朔说，这本书彻底改变了他对历史的看法。</p><p data-pid=\"eBOv8yqp\">王小波说，看完这本书，知识分子能更了解现实社会，收起心中的狂妄之气。</p><p data-pid=\"4_OX-wxq\">路遥评价说，此书把中国历史研究得很是精到和透辟，达到了难以企及的程度。</p><p data-pid=\"epz4wEQ4\">这本《万历十五年》我读了两次，第一次是在首期「百日共读计划」读书互动中，因为自己在短时间内要读多本书，仅读了两个章节的内容，便放弃了。这一次在第五期共读活动中又选择了这本书，认真阅读了一遍。初读时觉得晦涩，再读时顿感字字珠玑，颠覆认知又发人深省。</p><p data-pid=\"LHDw-d-v\">在历史的长河中，人性永远是波诡云谲的政治风云里的晦暗底色。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-97252ce63e801cc8378f5b572987abde_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"274\" data-original-token=\"v2-97252ce63e801cc8378f5b572987abde\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-97252ce63e801cc8378f5b572987abde_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-97252ce63e801cc8378f5b572987abde_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"274\" data-original-token=\"v2-97252ce63e801cc8378f5b572987abde\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-97252ce63e801cc8378f5b572987abde_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-79b131a9dc8d97ad4ca68d59762e0a43_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"860\" data-rawheight=\"722\" data-original-token=\"v2-79b131a9dc8d97ad4ca68d59762e0a43\" class=\"origin_image zh-lightbox-thumb\" width=\"860\" data-original=\"https://pic2.zhimg.com/v2-79b131a9dc8d97ad4ca68d59762e0a43_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nfe2sIEH\">01</p><p data-pid=\"Zehgl8mR\"><b>别高估人品，别低估人性</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"do2qbowW\"><b>莫言说：“走近一个人的时候，要慢一点，以免看不清。”</b></p><p data-pid=\"OhBS0jKi\">万历皇帝9岁登极，被受质疑。</p><p data-pid=\"JlrC1BmS\">彼时的首辅高拱甚至公然提出：</p><p data-pid=\"1of5pmvN\"><b>“你自称奉了圣旨，我说这是一个不满10岁的小孩的话。你难道能让我相信他真能管理天下大事吗？”</b></p><p data-pid=\"5zVM4Pom\">言语之中尽是不屑和讥讽。</p><p data-pid=\"x7MhXzg5\">老师张居正挺身而出，救小皇帝于危难之际，设计解决掉了高拱，保全了皇家颜面。</p><p data-pid=\"DWeMnmk-\">万历感激不尽，对张居正充满了信任与崇敬。</p><p data-pid=\"5g2_H7dv\">从此，小皇帝与张老师朝夕相处，学习做人与治国之道，对老师更是言听计从。</p><p data-pid=\"rlTjJ-tW\">在他的眼里，张居正简直就是正义和智慧的化身。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b84a9917db46d122f596c777619157fd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"480\" data-original-token=\"v2-b84a9917db46d122f596c777619157fd\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://picx.zhimg.com/v2-b84a9917db46d122f596c777619157fd_r.jpg\"/></figure><p data-pid=\"jJjiKIJU\"><b>万历皇帝</b></p><p data-pid=\"1u6jE6EF\">即便有人上书弹劾张居正，万历也会毫不犹豫地站在老师这边，严惩上书者。</p><p data-pid=\"TzYqbSMX\">然而，直到多年以后，张居正去世，历史的真相才赤裸裸地摆在了万历的面前。</p><p data-pid=\"Y354Sz15\">那些曾经弹劾张居正的官员所陈述的都是事实，在铺天盖地的奏折中，他似乎重新认识了自己的张老师，一个贪婪、凶狠、带头犯法、贪污受贿、穷奢极欲的张老师。</p><p data-pid=\"_QNtnEP7\">1582年年底，张居正去世仅仅半年，他便被盖棺定论，罪状有欺君毒民、接受贿赂、卖官鬻爵、任用私人、放纵奴仆凌辱缙绅，等等。</p><p data-pid=\"0-ghQRXf\">盛怒之下，万历下令彻查清算张居正的种种罪行，并且籍没了张居正的家产，还差点把他的棺材扒出来。</p><p data-pid=\"xaqEcSsR\">年轻的万历皇帝感到他对张居正的信任是一种不幸的历史错误。</p><p data-pid=\"Z6d5Yn7P\"><b>东野圭吾说：“世上有两种东西不可直视，一是太阳，二是人心。”</b></p><p data-pid=\"U9MEwaVD\">不要盲目地相信一个人，即使是身边最亲近的人，因为纵然人品可靠，人性也未必经得起考验。</p><p data-pid=\"eYLst1Xg\">任何时候，都不要尝试去测试人性恶的深度。那是深渊，深不可测。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3-mxMMaP\">02</p><p data-pid=\"y__31L_Z\"><b>想成大事，一半君子，一半小人</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"B_ysHm1c\">张居正无疑是一个雷厉风行的改革家。</p><p data-pid=\"dUlAa0NS\">他遇事果决，杀伐果断，从来不会犹豫不决。</p><p data-pid=\"WC3wejiS\">在张居正担任首辅时，大明王朝已经千疮百孔：朝纲废弛，贪污受贿，国库入不敷出。</p><p data-pid=\"Q4IX35vp\">要纪律没纪律，要财力没财力，满朝文武大臣勾心斗角，各怀鬼胎。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1d2e3007214b7afe16ffe3dc5491b70e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"400\" data-rawheight=\"594\" data-original-token=\"v2-1d2e3007214b7afe16ffe3dc5491b70e\" class=\"content_image\" width=\"400\"/></figure><p data-pid=\"a1n8u7aj\"><b>张居正</b></p><p data-pid=\"_o6BI6ji\">面对举步维艰的时局困难，张居正挺身而出，彰显了他君子的一面：</p><p data-pid=\"qRV6afYZ\">他先是调整了官员的俸禄。</p><p data-pid=\"q1SE9wn7\">彼时的大明国库每年收入只有二百五十万两，但支出却至少要四百万两。</p><p data-pid=\"8IjPPKjr\">万历元年，张居正推行“胡椒苏木折俸”，变相地给百官降薪。</p><p data-pid=\"khL9FQ-y\">这一举动，立刻引发了众人的不满。</p><p data-pid=\"-Vw0blJE\">正当官员们准备上街游行示威之时，聚集地突然起了大火，一片混乱，好几名官员险些命丧当场，游行就此作罢。</p><p data-pid=\"8med5QNg\">而这场大火，正是张居正下令所为。</p><p data-pid=\"ohcmPVO2\">此外，这些游行示威的领头者，还被张居正全都贬到了京外。</p><p data-pid=\"geguoRDJ\"><b>正所谓：“慈不带兵，义不行贾。”</b></p><p data-pid=\"zBMnZNDE\">能在官场、职场上混得风生水起的人，大都具有两面性：一面君子，一面小人。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dHUCPnbX\">03</p><p data-pid=\"wHVCxceh\"><b>过刚易折，柔软一些好做人</b><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"l-5IggHz\">海瑞，一生清贫如洗，廉洁奉公，他为自己树立了近乎苛刻的道德标杆，在大明王朝的历史长河中，几乎无人能及。</p><p data-pid=\"9ZtHKy4w\">他官居二品，离世时却仅遗下二十两白银，连殓葬之资都显捉襟见肘。</p><p data-pid=\"FM7pTo9c\">在担任县令期间，面对同僚们纷纷以贿赂补贴家用的常态，海瑞却坚守本心，躬耕田亩，自给自足，对贪腐之风深恶痛绝，严厉惩治，绝不手软。</p><p data-pid=\"wpGZYVo4\">1586年，海瑞荣升南京右都御史，他毅然向万历皇帝进言，力主根除官吏贪腐，并援引太祖皇帝昔日的严法重典，提议对贪赃超过八十贯的官员施以剥皮实草的极刑。</p><p data-pid=\"M2ZuzOrh\">如此激进的建议，自然难免触动众怒，引发轩然大波。</p><p data-pid=\"W9o6pJ0S\">海瑞二十余载的从政之路，充满了无尽的纷争与挑战。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6f10d28d5b5ee70bff0978fd40706e2b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"274\" data-rawheight=\"384\" data-original-token=\"v2-6f10d28d5b5ee70bff0978fd40706e2b\" class=\"content_image\" width=\"274\"/></figure><p data-pid=\"_85rsndC\"><b>海瑞</b></p><p data-pid=\"xNhlzd6X\"><b>黄仁宇曾评价道：“他因个性而备受尊崇，亦因个性而被孤立。”</b></p><p data-pid=\"XFB7uR4-\">他宛如一位悲壮的英雄主义者，在官场中特立独行，得罪了不少人。</p><p data-pid=\"AC7A4S_9\">有一次，一位高官巡视地方，众人皆跪，唯独海瑞挺立不跪，令在场者皆感尴尬不已。</p><p data-pid=\"aRFTrZq3\">他甚至曾直言不讳地批评嘉靖皇帝沉迷于长生之术，荒废朝政。</p><p data-pid=\"59D0qEbd\">海瑞的过度耿直，让他两次身陷囹圄。他只知道勇往直前，却不懂得退让与妥协，更不屑于圆滑处世。</p><p data-pid=\"-UCdtvxY\">在他的世界里，是非分明，黑白清晰，毫无中间地带可言。</p><p data-pid=\"mJf1Bq3S\">1587年底，海瑞溘然长逝。北京的官员们听闻此讯，无不松了一口气。</p><p data-pid=\"LcRZADFB\"><b>《道德经》有言：“过刚者易折，善柔者不败。”</b></p><p data-pid=\"Wwn43GKf\">一半刚毅，一半柔软，才是生存之道。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_6d_70Im\">04</p><p data-pid=\"ecTpxSXC\"><b>你怎么对别人，别人就会怎么对你</b><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"RxdC_TI_\">戚继光，无疑是明朝历史上一位卓尔不群的将领，其才华与功绩堪称翘楚。</p><p data-pid=\"-FIMmPsg\">在东南沿海倭寇肆虐、民不聊生的危难时刻，戚继光挺身而出，率领戚家军奋勇杀敌，所向披靡，令倭寇闻风丧胆，其威名远播，一时无两。</p><p data-pid=\"-zlacxpz\">这既得益于戚继光卓越的军事指挥才能，也离不开他严明的管理之道。</p><p data-pid=\"jSVcADE9\">在他的军事巨著《纪效新书》中，我们得以窥见戚继光如何有条不紊地推进建军大业。</p><p data-pid=\"9O1I5NUn\">从招兵选将的细致规划，到月饷制度的明确设定；从列兵分配的严谨原则，到官兵职责的清晰界定；从队、哨、局组织的精妙设计，到武器装备的统一规范；再到旗帜金鼓等通讯器材的规范使用，无不彰显出他深邃的军事智慧和严密的治军理念。</p><p data-pid=\"fdkCS1qc\">更为人称道的是，戚继光坚决推行“连坐法”，以严酷的纪律确保军纪严明。</p><p data-pid=\"KmAMYHnH\">一人退却则斩首，全队退却则队长受罚，队长失职而全队退却则全队不赦。这种铁腕手段虽然确保了战斗力的强大，但也因其残酷性而令人心生畏惧。</p><p data-pid=\"ORGYf_ZG\">传说中，戚继光甚至对违犯军法的亲生儿子也毫不留情，毅然处死，其决绝之态可见一斑。</p><p data-pid=\"v6fyNu1v\">然而，英雄也有末路。戚继光在晚年的岁月里，却陷入了孤独与落寞的境地。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3272b3847e281750a5632ff77f7c9062_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"321\" data-rawheight=\"460\" data-original-token=\"v2-3272b3847e281750a5632ff77f7c9062\" class=\"content_image\" width=\"321\"/></figure><p data-pid=\"ao45Dhvr\"><b>戚继光</b></p><p data-pid=\"djdFn2vG\">随着与他关系密切的张居正的离世，他也被一再调离权力中心，最终在政治风波中被万历皇帝革职。</p><p data-pid=\"_MzJ1Csy\">一代名将，竟在贫病交加中黯然离世，令人唏嘘不已。</p><p data-pid=\"4VDmzdWp\">在他那寥寥可数的未弃他而去的友人中，有一位名叫汪道昆的，为他撰写了墓志铭，其中“口鸡三号，将星陨矣”之句，道尽了这位英雄将领的悲壮与哀荣。</p><p data-pid=\"xt065cFO\"><b>李鸿章曾说：“天下熙熙攘攘，皆为利耳。我无利于人，谁肯助我？”</b></p><p data-pid=\"wCD8YW4o\">人性从来都是趋利避害，可以背叛忠义仁德，但绝不会背叛利益。</p><p data-pid=\"pFBZcbe8\">被他人巴结奉承时，不必沾沾自喜；他人冷落疏远你时，也无需失落沮丧。</p><p data-pid=\"Jelaa5nE\">与人相处，保持一个平常心就好。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oihgldI3\">05</p><p data-pid=\"XeqAEaU1\"><b>鹤立鸡群，早晚会被鸡群所啄</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"V6_wnQ2E\">思想家李贽的一生，充满了深刻的内心冲突与矛盾，用现代的话来说，就是内耗异常严重。</p><p data-pid=\"C4ZoK5K0\">李贽的仕途坎坷，生活也颇为拮据，常常依赖朋友的接济才能勉强维持生计。他育有四子三女，然而除了大女儿外，其余孩子都不幸夭折，这给他带来了深重的打击。</p><p data-pid=\"P9-8Dd3M\">李贽曾自述，有一次他连续七天几乎未进食，饥饿到无法分辨“稻粱”与“黍稷”的区别，生活之困顿可见一斑。</p><p data-pid=\"zhdaXroW\">直到他担任云南姚安知府后，温饱问题才得以解决，甚至通过收受贿赂积攒了一些积蓄。然而，他对家族宗亲深感厌恶，为此削发为僧，却又曾劝诫朋友不要轻易走上这条路，尤其是有近亲的人更要慎重考虑。</p><p data-pid=\"nHscP_n5\">虽然身入空门，但李贽并未受戒，也不参与僧众的诵经祈祷。在许多方面，他依然保持着官僚学者的生活方式，如短途外出仍乘轿代步，阅读书籍则让助手朗诵以节省目力。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-57b85cc06acedf2d89a52a0452c83fa4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"770\" data-original-token=\"v2-57b85cc06acedf2d89a52a0452c83fa4\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-57b85cc06acedf2d89a52a0452c83fa4_r.jpg\"/></figure><p data-pid=\"m4kn5QSd\"><b>李贽</b></p><p data-pid=\"7k4tM8rL\">他批判世人，却又不得不依赖那些被他批判的人接济生活；他对官僚政治深恶痛绝，决心远离仕途，却又在文字中屡屡涉及官僚政治；他追求特立独行、渴望自由，却又无法真正超脱于世俗之外；他赞扬女性的能力与智慧，如武则天般出类拔萃，却又不支持男女平权，对寡妇守节的行为大加褒奖。</p><p data-pid=\"TYph-Uhk\"><b>罗翔说：“人性，就是不喜欢被别人批评。”</b></p><p data-pid=\"2UwP4SJJ\">李贽的一生，充满了诸如此类的自我矛盾与冲突。</p><p data-pid=\"wmExs-11\">1602年，李贽在狱中选择了以剃刀自刎的方式结束生命，他的死被后人视为一种自我牺牲。</p><p data-pid=\"p82zVZcI\">他生命的最后两天，是在创伤与血污的挣扎中度过的，这仿佛是他十余年余生矛盾与冲突的一个缩影。他努力挣扎、不懈奋斗，却终究未能获得真正的成功与安宁。</p><p data-pid=\"joO2V3Gz\">鹤立鸡群，难免就要被鸡群忌恨和报复；捍卫真理，也当做好牺牲自己的准备。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JxtVvXMZ\">06</p><p data-pid=\"jstTubxM\"><b>严于律己，宽以待人，才能长久</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0QV7uxvn\">与张居正的强势跋扈截然不同，申时行以温和著称，他为人沉稳老练，深谙阴阳调和之道。</p><p data-pid=\"KKCLrPkZ\">无论是面对皇帝，还是与同僚相处，申时行都始终恪守阴阳之道，勤勉谨慎，步步为营。</p><p data-pid=\"vMCZEydn\">他深知进退之度，明辨得失之衡。张居正的悲惨结局仍历历在目，成为他行事的重要参考。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1fab51bc787565a5febd70d933175fe9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"539\" data-rawheight=\"583\" data-original-token=\"v2-1fab51bc787565a5febd70d933175fe9\" class=\"origin_image zh-lightbox-thumb\" width=\"539\" data-original=\"https://picx.zhimg.com/v2-1fab51bc787565a5febd70d933175fe9_r.jpg\"/></figure><p data-pid=\"d8awFk3Z\"><b>申时行</b></p><p data-pid=\"tnDgb3wr\">尽管申时行内心怀揣着抱负，但他也深刻认识到，文官集团的平衡才是国家能否持续稳定发展的关键所在。</p><p data-pid=\"9wKFuCit\">一项政策能否得以顺利实施，关键在于它能否让文官利益集团整体感到满意，而非政策本身的合理性。</p><p data-pid=\"Z8SRKxKZ\">这种认识使得申时行在面临各方利害关系时，往往采取妥协的态度，成为骑墙派，左右摇摆，甘愿充当和事佬的角色。</p><p data-pid=\"zptQBRZ2\">满招损，谦受益。</p><p data-pid=\"yFJWAA3U\"><b>《中庸》一书中写道：“中者天下之正道，庸者天下之定理。”</b></p><p data-pid=\"jd2zgkbf\">申时行的一生虽然未能凭借个人能力对明朝的发展产生显著影响，但他却成为了唯一一个能够全身而退、善始善终的人。</p><p data-pid=\"WYx2r4b8\">他并未选择与皇帝、同僚、制度或时代等各方势力硬碰硬，而是选择了顺势而为，灵活应对。</p><p data-pid=\"515j-S9c\">这也启示我们，当个人力量不足以改变大环境时，明哲保身、顺应时势也不失为一种智慧而和谐的处世之道。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Be90qdJK\">知乎上有一个问题：“为什么历史总是惊人的相似？”</p><p data-pid=\"UUpj1koV\">其中一个回答是：“因为人性从未改变。”</p><p data-pid=\"J1w5-aja\">当你洞悉了人性，也就掌握了这个世界运行的本质规律和底层逻辑。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VwoKx8wY\"><b>个人简介：</b></p><p data-pid=\"CSYKy6CU\">林飞，读书博主，微信读书400+本、4000+小时。曾担任上市公司商学院高级课程经理，知名图书出版公司主编。</p><p data-pid=\"Dzt2F_Aw\">文章先后荣获河南省高校新闻奖文艺类一等奖、评论类三等奖。个人随笔集《北京，我终于离开了你》。<a href=\"https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzI3NTA1MjUxMw%3D%3D%26mid%3D2651046653%26idx%3D1%26sn%3D8197a31e3b2d4a4adf30da62114276fe%26chksm%3Df0fdc073c78a496526082df7f72a43c45a79de5559fd15c45f6a2697d6ce79d70900f27e7bb9%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2024年6-8月，独自驾驶摩托车骑行9000余公里，穿越中国16省。</a></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 5961,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-a7c7256c8f575db9536090eee73c0e7f_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 67,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 44575609229}",
+      "attached_info": "CuIJCOigq9rS9MaWCxAEGgk3MDIwMjk2MTQgptSrugYoLjACQCBKQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifVoIODY3MzMyMzZiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgs0NDU3NTYwOTIyOYoBCTU2MDAyNzcyM6oBCXJlY29tbWVuZMIBIDY5ODQ2NDVmMWIxODlmYzRiM2JkYmUyZmQxYjNmNjVl8gEKCAwSBk5vcm1hbPIBKAgKEiQ2YzQ4ZWUzZS03NjlhLTRiNzYtYjBkZi0xOGY4ZWM4MzQ3NjnyAQUICxIBNoICAIgClsaj+YwzkgIgNjk4NDY0NWYxYjE4OWZjNGIzYmRiZTJmZDFiM2Y2NWWaAgDKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIC+gILTk9STUFMX0ZMT1eKAyBlZWNlNjlkN2YzZDE0MmY4OTVkYTg1N2Y3YzBhYjA1YZoDDQoCdjIQABoFb3RoZXKoA8ku2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gOkBBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEPQDGJICIiN2Mi05NzI1MmNlNjNlODAxY2M4Mzc4ZjViNTcyOTg3YWJkZTotCAMQ9AMYkgIiI3YyLTk3MjUyY2U2M2U4MDFjYzgzNzhmNWI1NzI5ODdhYmRlOi0IAxD0AxiSAiIjdjItOTcyNTJjZTYzZTgwMWNjODM3OGY1YjU3Mjk4N2FiZGU6LQgDEPQDGJICIiN2Mi05NzI1MmNlNjNlODAxY2M4Mzc4ZjViNTcyOTg3YWJkZTotCAIQ3AYY0gUiI3YyLTc5YjEzMWE5ZGM4ZDk3YWQ0Y2E2OGQ1OTc2MmUwYTQzOi0IAxCABRjgAyIjdjItYjg0YTk5MTdkYjQ2ZDEyMmY1OTZjNzc3NjE5MTU3ZmQ6LQgDEJADGNIEIiN2Mi0xZDJlMzAwNzIxNGI3YWZlMTZmZmUzZGM1NDkxYjcwZTotCAMQkgIYgAMiI3YyLTZmMTBkMjhkNWI1ZWU3MGJmZjA5NzhmZDQwNzA2ZTJiOi0IAxDBAhjMAyIjdjItMzI3MmIzODQ3ZTI4MTc1MGE1NjMyZmY3N2Y3YzkwNjI6LQgDEPQDGIIGIiN2Mi01N2I4NWNjMDZhY2VkZjJkODlhNTJhMDQ1MmM4M2ZhNDotCAUQmwQYxwQiI3YyLTFmYWI1MWJjNzg3NTY1YTVmZWJkNzBkOTMzMTc1ZmU5gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABAuIexP4EFAAAAAAAAAACJBSuxGcMdsNg/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiKoBgCSAiYKCTcwMjAyOTYxNBILNDQ1NzU2MDkyMjkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "33_1755822220.617",
+      "type": "feed",
+      "offset": 33,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822220,
+      "updated_time": 1755822220,
+      "target": {
+        "id": "125188227907",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/125188227907",
+        "author": {
+          "id": "27fea9f32b3c37bd0ffa537f8fd1634f",
+          "url": "https://api.zhihu.com/people/27fea9f32b3c37bd0ffa537f8fd1634f",
+          "user_type": "people",
+          "url_token": "matrix-99-90",
+          "name": "matrix禁食",
+          "headline": "禁食断食，国学礼教文明研究与咨询",
+          "avatar_url": "https://picx.zhimg.com/50/v2-1029ddae0fd80c1e04fcdeaeb4944504_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "计算机技术与软件专业技术资格证持证人"
+            }
+          ],
+          "followers_count": 20040,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1742048389,
+        "updated_time": 1742097787,
+        "voteup_count": 113,
+        "thanks_count": 6,
+        "comment_count": 13,
+        "is_copyable": true,
+        "question": {
+          "id": "40854395",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/40854395",
+          "author": {
+            "id": "f2acd745df1c61c10dbd5778c395d167",
+            "url": "https://api.zhihu.com/people/f2acd745df1c61c10dbd5778c395d167",
+            "user_type": "people",
+            "url_token": "meet-lee",
+            "name": "Meet Lee",
+            "headline": "我读过很多书，明白很多道理；也走过很多路，见过很多风景；可我依然过不好这一生。",
+            "avatar_url": "https://picx.zhimg.com/50/b303c9438a0341de63b3b11c450fe37c_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 39,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "自己拥有一台服务器可以做哪些很酷的事情？",
+          "created": 1456669565,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 41,
+          "bound_topic_ids": [
+            307,
+            1309,
+            1452,
+            4511
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-65dcb41afab50a04d4e26686d1a5571f_720w.jpg?source=b6762063",
+        "excerpt": "我来谈点经验和感受吧，对编程员而言，还是要用服务器系统的，我自从使用 linux 开始，就一直只用服务器了，用了几十年了，台式机偶尔用用 windows ，当家电的。不是装B，确实省事高效，唯一的成本电费也不太多的，每月少抽两包烟就够了（但我现在抽的没以前贵了）。但遗憾的是，一般编程员全没法直接用它，单位肯定不可能，我上班那会，办公室配了台联想的服务器，新鲜了一天，赶紧的送机房，吵死了。我那时公司用一台，我愣是…",
+        "excerpt_new": "我来谈点经验和感受吧，对编程员而言，还是要用服务器系统的，我自从使用 linux 开始，就一直只用服务器了，用了几十年了，台式机偶尔用用 windows ，当家电的。不是装B，确实省事高效，唯一的成本电费也不太多的，每月少抽两包烟就够了（但我现在抽的没以前贵了）。但遗憾的是，一般编程员全没法直接用它，单位肯定不可能，我上班那会，办公室配了台联想的服务器，新鲜了一天，赶紧的送机房，吵死了。我那时公司用一台，我愣是…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"afLzhcaM\">我来谈点经验和感受吧，对编程员而言，还是要用服务器系统的，我自从使用 linux 开始，就一直只用服务器了，用了几十年了，台式机偶尔用用 windows ，当家电的。不是装B，确实省事高效，唯一的成本电费也不太多的，每月少抽两包烟就够了（但我现在抽的没以前贵了）。但遗憾的是，一般编程员全没法直接用它，单位肯定不可能，我上班那会，办公室配了台联想的服务器，新鲜了一天，赶紧的送机房，吵死了。我那时公司用一台，我愣是费老大劲做了套隔音系统，才大致解决。云服务器无非是个虚拟机，也能用，只是用不爽，所以当初电信电费价找我办托管，我没乐意。</p><p data-pid=\"-WYVOk0z\">十几年前刚配手头这台服务器时也蛮有趣的，那时台式机常规都只有4G内存，8G还看不到，可这服务器48G内存，8个高速 sas 磁盘帮你备齐，还比 4G 的主流台式机便宜，简直梦幻啊。主要还是因为实在无法家用的，跟电费无关的，农村的或是有别墅的才正式有条件使用的，企业单位下线后只能当垃圾处理，根本没人要的。一到手就编译 linux 内核，总算好爽一把了，憋坏了。但你看，即使到今天，这机器光内存数量依然没有进入淘汰行列啊。还是远远甩台式机一条街啊。</p><p data-pid=\"8vLtnQkp\">服务器不管性能，还是自重、散热、电源都远胜于台式电脑的。刚开始我还真不明白这东西机箱干码要做这么重，一个人绝对是搬不动的，不浪费又害人吗，后来才搞明白防地震，也有利于硬盘减震，但国产的全轻多了，跟大号的台式机没区别。所以可见，你家用的 nas 上阵列肯定全有隐患，你的nas不可能一个人都搬不动吧，商家肯定说硬盘减不减震无所谓的，现在技术怎么怎么成熟了。可其实肯定有问题，否则品牌服务器厂家吃饱撑着啦。</p><p data-pid=\"h76nLF-f\">一堆的风扇更是震楼利器的，住宅还真是用不了的，除非你单身，否则你能忍其它人也忍不了，邻居晚上更不能忍的，我是顶楼又单身，真有物理条件可以使用，之前也只放在公司用。你想搞台，不托管，别傻子似的象我刚开始买刀片式，你也没机柜放啊，而且pci不能扩展设备，那是为托管省钱专门设计的外形，噪音还比塔式的高，散热不好，本就设计机房放置的吗。家里办公自用，当然选塔式的。这玩意确实耐用的，我第一台实在受不了扔了后，第二台塔式的用十几年了，就没换过，因为不需要的。内存，硬盘偶尔换换就行。所以话说回来，象我这样真把服务器变形成家庭台式工作站用的，我估计全中国你都找不出几个的。你真买台货真价实的，家里一放的话，就能立马明白了。</p><p data-pid=\"HLBG4ruk\">而服务器内存够大，各类开发都足够用了，编译个linux内核很快的，既便安卓也一样可以。标配的 raid 阵列，并不全是为了数据安全，更为了性能，安全好解决，每天自动同步就行了，而磁盘性能，不用15k的sas盘组个raid 1或 raid10，那来的质的提升，用于文档搜索，视频编辑，编译软件，资源整理时，性能区别与台式机就明显差异化了，别看你高配的台式系统用电子盘，每秒几千GB瞎吹的，对开发人员，依旧屁用没有。因为我们的源代码全是巨量的小文件，再快的固态盘也快不到那去，也完全追不上我的 RAID 10 系统，我raid 的 virtual disk 四个盘有 600G呢，但我平时只用它的前100G，因为前部全在磁盘的边缘区，磁头读取明显快，并且用的最多的源代码分区我放第一分区，只分配20G，更是快中最快的，但 20G 对我而言足够用了。真偶尔要编译点android之类巨占空间的狗屁玩意，放其它临时分区弄一下得了。</p><p data-pid=\"c2Bff0Ap\">可你别小看这二十G的源码区，几十个项目加起来文件数有二十万呢，绝大部分 C 的，我要全部备份它们，就用普通的sata作备份盘，三四分钟搞定，真要使用我的两套raid10对拷整理盘子的话，一两分钟足够，增量比对同步，只用几秒。你可以用你最快的 M.2固态硬盘跟我对比下的。而且固态盘，我感觉那东西就是个时髦的玩具，可靠性与稳定性全差得一B，我一块新买的海力士固态盘，全新没用，电源适配器拿错了，电压高了五伏，立马玩完，几百元打水漂了，够我买一堆服务器二手硬盘了。什么狗屁东西啊。这鸟东西敢用来保存源代码？万一闪存在插写巨量源码文件时有错，那地雷算是深深的以无人知晓的隐蔽模式埋下了，百度还说能用它做阵列呢，B大胡话的，无非放些个电影视频之类一文不值的东西。真实在凑热闹要用把，我服务器 pcie上有块固态盘的接口卡临时拷点多媒体资料的，跑起来还是比你硬盘盒式的接口快。</p><p data-pid=\"LevDWrIp\">但那固态盘坏了后就把这玩意给拔了，没必要冒险使用在数据转移环节，只能用在娱乐型、消费型系统运行时，没什么数据安不安全顾虑的环境。多年前我弄开发板时，就对这类nand的存储观感很差，极不可靠，只要你的板子发热稍高，或是电源质量不高，它就时好时坏，玩具似的。那些乱七八糟的U盘也全一样，所以我一向不推荐工控系统用固态盘的，就用sata也比它安全多，完全是个消费品的。愣是要装成个大尾巴狼。</p><p data-pid=\"WItvJEMD\">反正我是肯定用不了台式电脑的，慢死了。我服务器够老了，上个世代的古董了，只有八核的，但我常用的三四万份文档和源码，用  sed 八进程全部遍历一遍，三秒内搞定，你最高配现在的台式机，也不可能做到啊。如果我直接调用 sed  的源码多进程处理，再稍作优化，秒开，这可编程厉器的，所以我写 C 时根本不用记任何 libc 的 api 的，更不用  google 的，先看下 info 了解个概念，再用VIM 上我定制的快键，一敲便帮我从全部源码中将使用实例的代码片段全剪切排队进预览窗了，随便用键快速滚动翻看个几个直接 paster修改下即可，都别人写好的历经实践检验的代码块，不比自己写多快好省啊，抄改一次，之后再使用，自己把它打包复用即可，根本费不着用功能较多，垃圾更多而且透明度低的第三方库包之类，你以为它们是轮子，其实全是增加冗余，隐藏问题的负资产，偷鸡不成蚀把米。原则上我写C，就不用任何第三方库的，只用第三方源代码，永远保持透明，这对C代码是至关重要的，因为C中一旦有东西不可见，一出问题有你瞎猜瞎想的。</p><p data-pid=\"N7PKMrnq\">至于编译，反正我自已弄的不管什么 C 项目，全不超过一秒，这是我的原则，当然，我从不编译全部，只组件化编译，但高速的磁盘读取依然是必不可少的物理保障。我试过虚拟内存盘的，不管查找还是编译，也同样速度，可用着不安全。只能用到 apt-file，浏览器之类非关键任务数据 cache 上，浏览器第一次是比硬盘快点的，但之后就一样了，操作系统也会把它们全调进内存啊。所以也没多大意思，同理，你的电子硬盘每秒 1万GB也没多大意思的，除了启动快点，使用中也全都是内存接手了。你cpu四五十个核与我的八核，我的常规日常任务，也最多能快个零点几秒，完全没意思了，电费倒多了。所以你说我有什么动力要去更换服务器啊。提升它的外部算力倒还有点价值的。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-65fb94814dc597c5edd40fb83b0fe517_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3024\" data-rawheight=\"4032\" data-original-token=\"v2-5380489b0ea80fed764c0cfa95e54068\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-69700decda4c5352f130cdb571ea01a6_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"3024\" data-original=\"https://pic4.zhimg.com/v2-65fb94814dc597c5edd40fb83b0fe517_r.jpg\"/></figure><p data-pid=\"MW4lgtXM\">我机器正好八个盘位，两套  raid 10，八块盘，一套在线用，一套离线备用，一个raid 10 有坏盘了，直接插入四个盘，将全部数据迁移到另一套  raid 10 上面继续用，几十分钟完工。然后补充坏硬盘后，将原先的四盘 raid 10放后台花几小时重新初始化，再拔出，一则可以准确检查另一套  raid 10所有备用磁盘有无毛病，二则一般是得等 N 年后， raid 10 再有坏盘出现，可以立刻拿来滚动更换另一套。平时只要需要一套raid 10 外加块备份盘，用于平日的每天自动同步。五块足够了，特省事省心，还便宜的，服务器硬盘，二手的比台式机硬盘还便宜，估计用户少的原因。只要不太烂的，用个三五年根本没问题的，手头的这台服务器我用近十年了，一般每天开机使用十多小时的，夏天高温也没空调，也只坏过两块盘，实在不容易等到榨干它们全部使用价值的一天，偶然一看现服务器二手盘快白菜价了，干脆换一批吧，其实换不换真差不多，就容量大一倍，我用不上的。纯搞点新鲜感而言，也可以用八盘组个raid 10，可其实使用速度也是一样的。</p><p data-pid=\"joDZPvTJ\">平时合计十块一模一样的 工业级 sas 高速盘，才几百块，估计够我用下半辈子了，没事我还真指望着它们常坏坏啊，让我有点成就感的。 其实服务器我也有两套一模一样的呢，万一一套的主板或 raid 控制器等核心部件坏了，直接把盘拔下，再插入到另一套上，继续使用，只是一直没等着机会实操一把，另一套吃灰很多年了，我估摸着这二手的原装服务器主板很难正常用坏的，毕竟新货时全大好几万一台的，不用太考虑生产成本的。</p><p data-pid=\"GMgJi1GR\">内存隔个三五年倒是要换一批，虽说用橡皮擦擦也能用，但老擦嫌烦，感觉内存条金手指容易氧化的，估计温度高后，原子运动加速了。48G，全换也才两三百。其实夏天插一半就行了，用不到，没空调温度也过高。所以盲猜服务器托管时，内存是最容易发生故障的单元，我的使用经验，两三年内肯定会出问题，一出问题啊你就得好的坏的全换掉。但最可靠方案因该选择内存固化在主板上，而硬盘故障其实问题不大的，并不会影响当下使用，象我一样，做两套raid在服务器上，一套有硬盘下线，直接远程迁移到别一套上，grub 中设下重启，都无需麻烦托房机房管理员，独立安全的使用个十年根本不会有任何问题。放国外机房用时也没风险。</p><p data-pid=\"S6fT2I7U\">电费肯定是要稍多点的，每天开机十小时，一年一两千也够了。唯一麻烦的肯定是声音，燥音很大的，但 telnet 方式我是肯定不能接受的。把它扔进储藏室，再墙上加个排风扇通风，夏季三四十度的高温也没问题的，然后打洞，用显示器延长线和usb 延长线把信号接进工作室。世界一下清静了。另外服务器的显示系统全等同没有，所以选塔式的，好扩展显卡，不是为玩游戏挖矿的，没个三屏我是真的没法使用计算机的。我系统上的很多软件也专门为三屏 patch 了，全不支持单屏的，不用的功能留着嫌烦。三屏配上窗口键盘调度系统和编辑窗口数据的网络化管理，一用上，各个窗口按你思路和各种需要快速飞来飞去的，那个酸爽，跟抽烟一样，一根上瘾，你就再也离不开了，你至少可以在思考与动作上同步展开三五个任务，搞熟练后，七八个任务全能有序同时展开，互相配合，足够空间让思维自由跳跃了，让我不仅CPU八核，人也变成八核，把工作变成真正的游戏享受，笨B也能学会编程。回头看那些单屏点来点去的，弄点什么透明特效的，全奋斗在石器时代啊。</p><p data-pid=\"5uIlXNJS\">我比较笨的，还 patch 了个驱动，在服务器上用usb延长线接了块手写板，遇到复杂逻辑时，用它在 xfig 里画画草图，很快能对着图想明白了，让我脑画脑想我确实不行，所以我干脆结合自己记忆与使用习惯，把 xfig 的源码撸了一遍，方便快速构图。 我打印机还是老掉牙的 hp 1025，foo2zjs的驱动编译下也能用，黑白没问题，就是彩色输出没windows下的驱动效果好，这鸟东西驱动闭源的，没指望的，反正又不搞照片服务，偶尔用tex写点方案，及生活中难得的投诉，告状之类，凑合着用用算了，真要效果，用 pdf 格式转windows机打印也行，我有个一拖二的usb端口切换器的，不用插拔usb线的。</p><p data-pid=\"9uK-lCFR\">pci 口上我还插了块视频捕捉卡的，做点简单的视频编辑没问题的，还能测试些视频AI代码，但近期没使用安排，就把它拔了。串口可以用来调试内核，或是Xserver，也能接点开关控制，USB转串口也行，但要装驱动麻烦，直连什么都不用装，最简单。我服务器可是妥妥的完全具备家用台式机的所有硬件功能的。 还有几块中端 fpga 板子，转接上pcie ，那我这服务器好当超算用了，立马从垃圾货变战斗机，你花几万配的几十核的高端服务器，并行处理也跟我差远了。只是图省钱买的企业下线的成品卡，开发板全几千一块的，敲诈，可怎么把这东西转接进pcie还要考验我的硬件动手能力的，再研究研究吧，不行，再破费点网上抄块板交<span class=\"nolink\">嘉立创</span>吧，也用不了几千啊。</p><p data-pid=\"qpp9t41L\">而我插入的备份盘，不仅是备份数据的，它还每日备份当前的 linux 系统的，我机器可以用  raid 启动进入，也可以直接换备份盘启动进入，两个系统和所有软件及最新配置、全部用户数据，全一模一样的，只是物理存放硬盘不同而已，让我重装一遍操作系统我可受不了，那还记得系统层我修改过多少东西啦，系统我们装一遍就行了，所谓升级那是非专业用户的事，专业用户不存在升级一说的，只是 follow 与否。</p><p data-pid=\"iWc52zrk\"> 所以 raid 盘全坏光了，也最多只影响我当天的工作数据，一天白忙活了，但不影响当前的工作和一天之前的所有数据。至于备份时间，我一般选择关机时自动执行，增量同步和本地 git，一分钟就完事了。我还 push 一份到路由器上的 git 服务器，其实毫无必要，不用白不用而已。但真如果有天有小偷进我家，钱没找着，错把硬盘当值钱宝贝全顺走了，核心资产还是没问题，但估计小偷也嫌爬顶楼累的，住那的也八成穷鬼。阵列比起外接硬盘或用什么硬盘盒，不管效率与可靠性，方便性都完全不是一个层次上的。至于最重要的安全性，除非人为有预谋的突发性破坏。烦不着对这种不可能的情况瞎准备预案的。</p><p data-pid=\"UazmDRml\">但你不会备份，不去备份，也不做两套 raid 在手头，坏盘后肯定是选择 raid 卡的自动恢复功能，那东西闻着香，吃起来臭的，我的第一块坏盘就这样莫名其妙捣坏的，风险蛮高的，很容易在恢复过程中出问题的，那你歇B了，末日来了。所以你用阵列，要安全，还是只能靠备份系统，而不是它能坏几块的，不负责任的商业噱头。</p><p data-pid=\"PXbz5ApT\">但很多人不理解数据安全的基础是什么的，安全的基础就是效率要高，你的备份系统运作效率要高，资源管理要清晰有序，并能集中化，节约化，严格避免冗余。而不是一味追求大容量，高速的。否则，你的硬盘只会高速塞满了大量垃圾和杂乱无序的有用资源，你成天耗费巨大时间整理、查找、备份，也只会不停增加混乱度，降低效率。随着信息量的加速膨胀，很快你便会淹没在看似一切都物理安全的信息坟场里。把戒指扔在垃圾填埋场里，你还能找得出来吗。我父亲退休后喜欢弄弄家人照片视频之类的，很快，几台电脑中的那些资源就让他失去了热情。</p><p data-pid=\"3qaE5xh4\">普通人缺少的不是一个 NAS ，而是一个日常数据资料的非关系型数据组织系统和一些灵活的管理工具。普通人常用的资源管理器无非 windows 那个 treeview，全部是交互式，所能承载的数据管理量是很有限的。而我几乎不依赖这种交互式模式，数据在那个文件夹中我并不需要关心，也不用翻找，我的文件浏览器有标签与链接及详细文档将它们用多重组织方式串连在一起，只要我有一点印象，几秒内就能准确定位到它们。任何数据只要管理一次就够了。一个好的信息系统，我们曾经做过的任何记录、标注，看过并保存的任何资料，不管过去多久，保存的内容有多大，只要我们还有记忆，那怕它再模糊，也因该能迅速提高分辨率，从多重路途中随意选一条就能快速定位到它，并且让它以你最熟悉与容易理解的方式展现给你。这个系统其实是可以让人通过外部大大提升智力能力的，我二十多年前开公司时学会配 linux 各类网络服务的，也近二十年不弄这些服务，早忘光了，但你现在让我帮你弄个nfs、samba的文件服务器，邮件服务器，防火墙，dns, dhcp，vpn之类，我只要看下我的信息系统，找到当年的文档，配置文件和脚本，及一些源码的patch，当天就能帮你全部搞好，效率跟从前很熟悉时没什么区别。而普通人使用最多的移动平台和桌面系统，是完全无法居备这种功能的，因此你最好保守点的。</p><p data-pid=\"EW272Row\">而服务器端结合 linux ，有足够多的工具或是很方便的自制工具来解决此类信息管理问题。而服务器的稳定性与 linux 系统的透明性，也极大有利于工作的连续性与一致性。有恒产者有恒心吗。</p><p data-pid=\"VYY_8BKq\">所以一般家用和专业使用需求是完全不同的，搞软件，工作成果的安全性，工作的连续性都是基本门槛，所以至少，其实也是最多需要两个完全一模一样的硬件系统和软件系统，并且信息保存越少越必要越好，没事就看看机器上有些资源可以降级封存的，最好还是因该上服务器和 raid 系统。我几十年前至今的全部数据资料，只要没删掉，服务器上全部保存着的，而全部迁移它们，包括一些家人视听资源，几十分钟，一块普通硬盘足够，真需要现场写与调点工控程序，或演示程序也方便，只要从服务器拔下备份盘，我备份盘选的 SATA接口的，普通台式机也能插，我用的是 linux 系统，不存在什么重装系统的事，随便找台机，插上硬盘，不用动任何东西，直接启动进入自己熟悉的工作系统，全部资源和开发工具都有，与家中服务器妥妥的完全一模一样的工作环境，干活单显示器我用不惯，再带块多显示的显卡加个功学键盘就齐活了，又方便又显得高大上，搞完后，拔掉盘子就行，回家后与服务器的 raid 同步一下，那烦得着用什么又重又别扭的笔记本之类啊，那鸟东西，键盘使用感觉就象绣花似的，累死人的。</p><p data-pid=\"S57_jI9c\">我没装宽带，只用手机热点，省钱。但有张副卡，用台不用的手机当猫，别外花了几十块，申请了个十年期的域名。用dynv6连下 ddns，做点自己用的内容发布根本用不上租空间，直连服务器就行，一些网络服务调试也方便，出门在外，可以需要时通过手机网络远程开机。用 html5写点自用的 app应用，前后台全可控，完全不用鸟用商业平台做开发这个不行，那个不准的限制。其实吧，一般移动应用，不就是个手机端显示的前端操作窗口吗，手机又不能用键盘，那需要什么复杂的前端啊，用简单的html5 写写就行了，网上各类现成的模板有的是，稍改改就行，业务逻辑全放后台用 C 写，灵活高效，还特方便，可以直接控制到服务端接入的外部硬件设备，工业和远程控制上都很有需求和市场 ，我认为生产效率最高。 暂时没时间，有空时我还真准备搞两个感兴趣的本地移动平台应用，前期运行，基本不需要任何其它网络与硬件投资了，只要写点代码，找点人四处推销安装就行。搞大了，上电信租台服务器，把硬盘带去一插完事。很多人拿着钱逗着我搞这类项目的，我是真没时间安排的，手头急着想完成的东西太多了。商业项目，一接手了，别人就会死催的。</p><p data-pid=\"2jLeC4L2\">我年纪大了，没太多喜新厌旧的热情了，平静不用瞎烦就行，使用服务器，只用专注兴趣与业务，不用去劳神什么硬件升级、故障恢复和网络功能、重装配置之类IT常见的无聊破事，还特便宜，我两台服务器，十年前买二手的，之后再配配弄弄的一共也没花五千元，再接着用个十年也一点问题没有，多简单。却可以一盘在手，走遍全球也不怕。我可说的真的罗，我盘子里的东西，想变钱，可是分分种的事，只有想变多少的问题，但我现在对这兴趣不大了，就跟四盘还是八盘，八核还是四十核一样，根本没什么区别，一时新鲜热闹点而已，很快就烟消云散了，生活比这更重要的事还有很多，玩物丧志，赚钱同样如此，并没太多真正的意思。但你捡了，也屁用没有，垃圾一块，看不懂，也不会用。究竟是我让它变得有价值，在不停创造它，还是它让我变得有价值，在不停提升我，我和它是否一体的，那为什么我终将离去，它却依旧存在，一台服务器还能触发很深奥的哲学问题，还不酷吗。</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 13118,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-65dcb41afab50a04d4e26686d1a5571f_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 200,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 125188227907}",
+      "attached_info": "CqoGCOigq9rS9MaWCxAEGgk3MTgyMjI3ODIghZnWvgYocTANQCFKIAoVVFNfU09VUkNFX1RIRU1FX01FUkdFEgEwGAAgADoAWgc4NTQ4ODAwYiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3IMMTI1MTg4MjI3OTA3igEINDA4NTQzOTWqAQlyZWNvbW1lbmTCASAyN2ZlYTlmMzJiM2MzN2JkMGZmYTUzN2Y4ZmQxNjM0ZvIBCggMEgZOb3JtYWzyASgIChIkYzEyMGU0MWItMzY2Mi00ZTY5LWI4NzMtZDFkYzc4ZmU2MmU48gEFCAsSATaCAgCIApfGo/mMM5ICIDI3ZmVhOWYzMmIzYzM3YmQwZmZhNTM3ZjhmZDE2MzRmmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gIVVFNfU09VUkNFX1RIRU1FX01FUkdF6AID+gILTk9STUFMX0ZMT1eKAyBlZWNlNjlkN2YzZDE0MmY4OTVkYTg1N2Y3YzBhYjA1YZoDDQoCdjIQABoFb3RoZXKoA75m2AMA6gMbVGhlbWVNZXJnZU5ld1YxUG9vbFJlY2FsbGVy+gNOEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQ0BcYwB8iI3YyLTUzODA0ODliMGVhODBmZWQ3NjRjMGNmYTk1ZTU0MDY4gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAA4EbPvj+BBQAAAAAAAAAAiQUrsRnDHbDYP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYjqAYAkgInCgk3MTgyMjI3ODISDDEyNTE4ODIyNzkwNxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "34_1755822220.873",
+      "type": "feed",
+      "offset": 34,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822220,
+      "updated_time": 1755822220,
+      "target": {
+        "id": "1941915307028494292",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941915307028494292",
+        "author": {
+          "id": "101ff445fd84aba2e96b47bf8aa54b37",
+          "url": "https://api.zhihu.com/people/101ff445fd84aba2e96b47bf8aa54b37",
+          "user_type": "organization",
+          "url_token": "guo-jin-zheng-quan-gui-yang-ying-ye-bu",
+          "name": "国金证券长岭北路证券营业部",
+          "headline": "专注分享量化（QMT/Ptrade/惊喜佣金）需求可留言！",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-d15fd36dee27452417f059128f4db2ba_l.jpg?source=b6762063",
+          "is_org": true,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_org",
+              "description": "已认证机构号"
+            }
+          ],
+          "followers_count": 233,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755768688,
+        "updated_time": 1755768688,
+        "voteup_count": 0,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "14844935142",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/14844935142",
+          "author": {
+            "id": "14c417bba13706163defb99674108811",
+            "url": "https://api.zhihu.com/people/14c417bba13706163defb99674108811",
+            "user_type": "people",
+            "url_token": "lmzkor",
+            "name": "MrMrM9",
+            "headline": "量化，两融，通通通",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-1a93e4ad7b4926a9bb8b20e1c597bd1c_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 9,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "请详细说一下什么是QMt?",
+          "created": 1741844914,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            2383143,
+            2608895
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-f61f4a80fab4ec821c535ceb226479a7_720w.jpg?source=b6762063",
+        "excerpt": "QMT系统全解析——深度体验量化交易系统 QMT后，我彻底刷新认知！市场五花八门的量化平台众多，我们量化交易选择什么平台？这无疑是很多量化投资者都比较头疼的问题。 这里给大家推荐QMT（作者亲测），毫秒级交易 + 本地加密！QMT这是一款散户也能用的「机构级武器」。QMT它是一款软件集行情显示、投资研究、策略编写、自动交易、极速交易、智能算法交易、组合篮子交易、合规风险管理等功能于一体，妥妥的真量化交易神器！还支持…",
+        "excerpt_new": "QMT系统全解析——深度体验量化交易系统 QMT后，我彻底刷新认知！市场五花八门的量化平台众多，我们量化交易选择什么平台？这无疑是很多量化投资者都比较头疼的问题。 这里给大家推荐QMT（作者亲测），毫秒级交易 + 本地加密！QMT这是一款散户也能用的「机构级武器」。QMT它是一款软件集行情显示、投资研究、策略编写、自动交易、极速交易、智能算法交易、组合篮子交易、合规风险管理等功能于一体，妥妥的真量化交易神器！还支持…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"vBczsrl7\"><b>QMT系统全解析——深度体验量化交易系统 QMT后，我彻底刷新认知！</b></p><p data-pid=\"Mcmy73C9\">市场五花八门的量化平台众多，我们量化交易选择什么平台？这无疑是很多量化投资者都比较头疼的问题。<b>这里给大家推荐QMT（作者亲测），毫秒级交易 + 本地加密！</b></p><p data-pid=\"WVPET32d\">QMT这是一款散户也能用的「机构级武器」。QMT它是一款软件集行情显示、投资研究、策略编写、自动交易、极速交易、智能算法交易、组合篮子交易、合规风险管理等功能于一体，妥妥的真量化交易神器！还支持大QMT和miniqmt两种模式，<b>适用于交易活跃、量化爱好者以及专业量化投资者，同时也十分适合高净值的机构或个人。</b></p><h3><b>1、功能展示</b></h3><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5104ecbfbb7d5c937fc59aea23cc1542_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1230\" data-rawheight=\"589\" data-original-token=\"v2-afbad6730538863341efbf43bbca87c6\" class=\"origin_image zh-lightbox-thumb\" width=\"1230\" data-original=\"https://pic1.zhimg.com/v2-5104ecbfbb7d5c937fc59aea23cc1542_r.jpg\"/></figure><h3><b>2、快速交易终端</b></h3><p data-pid=\"Ek0CR8OQ\"><b>（1）1ms极速下单：</b>全内存交易架构，碾压普通软件延迟</p><p data-pid=\"qmj-1vND\"><b>（2）并行计算加速：</b>多核CPU火力全开，复杂策略回测效率飙升</p><p data-pid=\"frIYnD21\"><b>（3）行情0等待：</b>全市场五档实时推送+TICK历史回放，告别订阅式阉割数据</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a950a3a191b9d79ed48815d5a19c5466_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"554\" data-rawheight=\"299\" data-original-token=\"v2-41d7d7ded79fe955120f018dfc012f95\" class=\"origin_image zh-lightbox-thumb\" width=\"554\" data-original=\"https://pic1.zhimg.com/v2-a950a3a191b9d79ed48815d5a19c5466_r.jpg\"/></figure><h3><b>3、跨市场全能战士</b></h3><p data-pid=\"g_7tj0KR\"><b>（1）多市场覆盖：</b> 目前，QMT交易品种几乎实现市场全覆盖，无论是股票、期货、期权、两融、港股通、可转债还是ETF等常见品种，一个账户打通，再也不用切软件切到精神分裂…</p><p data-pid=\"o3XdOgYm\"><b>（2）跨市场交易：</b> 用户可以在一个平台上实现跨市场交易，无需切换不同的软件或账户，提升交易效率和便利性。</p><p data-pid=\"GsW5cRq-\"><b>（3）全面的数据支持：</b> 提供丰富的市场数据源，包括实时行情数据、历史数据、财务数据等，用户可以根据不同金融品种的特性进行数据分析和策略开发。支持内置标准算法交易、随机量交易，有效承接大额交易，隐藏交易行为，满足我们的的个性化交易需求。</p><h3><b>4、策略开发真香警告</b></h3><p data-pid=\"KcDZGYy9\"><b>（1）双语言自由切换：</b>Python 玩高阶模型，VBA 搞快速原型。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-566f31f517515c332d77761727f5c4b7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"554\" data-rawheight=\"295\" data-original-token=\"v2-720c9d674296a99eca4cd8f040945950\" class=\"origin_image zh-lightbox-thumb\" width=\"554\" data-original=\"https://pic4.zhimg.com/v2-566f31f517515c332d77761727f5c4b7_r.jpg\"/></figure><p data-pid=\"kwActCpC\"><b>（2）模块化拼装策略：</b>用户可以将复杂策略拆分为多个独立模块，分别编写和优化，然后组合成一个完整的交易策略，像搭乐高一样拆解复杂逻辑。</p><p data-pid=\"63WthfOl\"><b>（3）回测引擎自带：</b>内置强大的回测引擎，参数优化+多项性能指标（年化收益/最大回撤…）可以帮助评估策略性能，用户可以使用历史数据对策略进行回测，并通过参数优化找到最佳策略参数组合。</p><p data-pid=\"wzZne3BZ\"><b>4、大QMT和</b>小QMT</p><p data-pid=\"WnULmU3I\">QMT具备QMT和小QMT两种模式，注意，并不是每个券商的QMT都具备小QMT<b>，</b>所以开通之前一定要询问清楚。那，它们之间具体有什么区别呢，我们详细说一下。</p><p data-pid=\"wxw_VGfD\"><b>（1）首先，我们来分别看一下QMT和miniqmt的界面：</b></p><p data-pid=\"dNCQq-0u\"><b>①QMT</b></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6ff301cd87b1849efbfbaa426b6e0a1c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1030\" data-original-token=\"v2-f61f4a80fab4ec821c535ceb226479a7\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-6ff301cd87b1849efbfbaa426b6e0a1c_r.jpg\"/></figure><p data-pid=\"kMhPUcd6\"><b>②小QMT</b></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-67f98e2d3e5e1b5afb7d59bf1b70b762_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1030\" data-original-token=\"v2-f71ef88c436ecd0e75c9097227d4a9d4\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic3.zhimg.com/v2-67f98e2d3e5e1b5afb7d59bf1b70b762_r.jpg\"/></figure><p data-pid=\"iqItiATh\"><b>（2）其次是代码编写方式</b></p><p data-pid=\"I1FQxzRD\"><b>在大QMT模式下，</b>我们的策略代码，必须在大QMT软件中编写，大QMT提供了一套量化策略回测、实盘运行的机制。</p><p data-pid=\"tiMh_w59\"><b>在小QMT模式下，</b>我们不需要再在QMT软件中编写代码，只需下载迅投官方提供的xtquant包，即可在任何支持Python的环境中，引入xtquant包，与小QMT客户端建立连接，在QMT软件外，完成量化策略的编写。需要注意的是，xtquant包只提供了数据获取（xtdata）和 实盘交易（xttrade），并不提供回测功能，所以，若想做回测，可以自己使用比如backtrader这样的工具去做。</p><p data-pid=\"tYzo7tf8\">关于xtquant的下载与使用，可以参看迅投QMT开发手册：</p><a href=\"https://link.zhihu.com/?target=http%3A//docs.thinktrader.net/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">迅投知识库</a><p data-pid=\"S9drF786\"><b>（3)QMT和小QMT的优势</b></p><p data-pid=\"u0u4Nf9-\">优势已经很明显了，大QMT，全功能平台，覆盖策略研究、回测、实盘交易及风控，适合一般策略开发，对新手比较友好。</p><p data-pid=\"s2eeDcjH\"><b>miniqmt可编程能力更强</b>，专业版的轻量化模式，简化界面，聚焦策略执行，适合高频交易或需要快速操作的场景。它不受客户端和平台的限制，可以做出更多更具可能性的量化策略，也更利于策略维护。</p><p data-pid=\"LdI-a6U_\"><b>4、总结</b></p><p data-pid=\"z3vpfc4j\">QMT最戳中我的安全感&lt;br/&gt;本地化运行+多级加密！策略从编写到回测全程不上传云端，再也不用担心核心策略被「借鉴」, 从数据获取→策略开发→实盘监控的全闭环体验，堪称量化圈的「瑞士军刀」。尤其适合这两类人：</p><p data-pid=\"9ZSfxfFa\">（1）厌倦手工盯盘的纪律型交易者</p><p data-pid=\"9ByOn58n\">（2）有编程基础想进阶量化的探索党</p><h3><b>5、如何开通QMT和小QMT?</b></h3><p data-pid=\"od380eaG\"><b>作者这里为大家争取到了优惠门槛免费开通QMT福利，主页联系作者即可获取QMT，量化学习资料及更多量化支持！</b></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c607343e015913139093223032df8d69_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1046\" data-rawheight=\"520\" data-original-token=\"v2-c26640fa8be052d8b0f55a6f05a1a92c\" class=\"origin_image zh-lightbox-thumb\" width=\"1046\" data-original=\"https://pic4.zhimg.com/v2-c607343e015913139093223032df8d69_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5c5fdd26f68b35d4f0efa5e0cd28761e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1122\" data-rawheight=\"589\" data-original-token=\"v2-c90c4ac2184d1ce48ed2cf2afe977411\" class=\"origin_image zh-lightbox-thumb\" width=\"1122\" data-original=\"https://pic1.zhimg.com/v2-5c5fdd26f68b35d4f0efa5e0cd28761e_r.jpg\"/></figure><p data-pid=\"8_R4mmHN\">风险提示：建议投资者务必确认自身风险承受能力及投资目标，国金证券不推荐投资目标不相符的投资者阅读本信息。智能交易可能因系统、通讯等原因无法正常使用或无法按照您的设置价格发出委托指令及完成成交，最终成交价格及数量以交易所、登记结算机构等记录为准。请密切关注交易回报情况及条件单设置情况。以上信息仅供参考，不构成对委托指令成交的承诺，不构成投资建议，不构成收益或避免损失的承诺。请您务必仔细阅读相关风险提示及协议，了解各类智能交易功能的区别及不同风险，审慎决策是否使用相关功能。投资有风险，入市需谨慎！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 24,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-f61f4a80fab4ec821c535ceb226479a7_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-f71ef88c436ecd0e75c9097227d4a9d4_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941915307028494292}",
+      "attached_info": "CswICOigq9rS9MaWCxAEGgk3NDMyOTYzNTMg8M6bxQYoADAAQCJKJAoZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMhIBMBgAIAA6AEovCiRUU19TT1VSQ0VfV0FSTVVQX1RXT1RPV0VSX0VYUFYyX1RFWFQSATAYACAAOgBaCTExMzk0OTYxOWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE5MTUzMDcwMjg0OTQyOTKKAQsxNDg0NDkzNTE0MqoBCXJlY29tbWVuZMIBIDEwMWZmNDQ1ZmQ4NGFiYTJlOTZiNDdiZjhhYTU0YjM38gEKCAwSBk5vcm1hbPIBKAgKEiRmMGVmODAwOC00ZTY0LTQyM2YtYTIyMS0zYjJkNmEwY2IzZmXyAQUICxIBNoICAIgCl8aj+YwzkgIgMTAxZmY0NDVmZDg0YWJhMmU5NmI0N2JmOGFhNTRiMzeaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCA/oCC05PUk1BTF9GTE9XigMgZWVjZTY5ZDdmM2QxNDJmODk1ZGE4NTdmN2MwYWIwNWGaAw0KAnYyEAAaBW90aGVyqAMY2AMA6gMvY29udGVudFdhcm11cFR3b1Rvd2VyVHZwVGV4dE5vcm1hbEV4cFYyUmVjYWxsZXL6A+gCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQzgkYzQQiI3YyLWFmYmFkNjczMDUzODg2MzM0MWVmYmY0M2JiY2E4N2M2Oi0IAxCqBBirAiIjdjItNDFkN2Q3ZGVkNzlmZTk1NTEyMGYwMThkZmMwMTJmOTU6LQgCEKoEGKcCIiN2Mi03MjBjOWQ2NzQyOTZhOTllY2E0Y2Q4ZjA0MDk0NTk1MDotCAIQgA8YhggiI3YyLWY2MWY0YTgwZmFiNGVjODIxYzUzNWNlYjIyNjQ3OWE3Oi0IAxCADxiGCCIjdjItZjcxZWY4OGM0MzZlY2QwZTc1YzkwOTcyMjdkNGE5ZDQ6LQgCEJYIGIgEIiN2Mi1jMjY2NDBmYThiZTA1MmQ4YjBmNTVhNmYwNWExYTkyYzotCAMQ4ggYzQQiI3YyLWM5MGM0YWMyMTg0ZDFjZTQ4ZWQyY2YyYWZlOTc3NDExgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACA4IJ2P4EFAAAAAAAAAACJBSuxGcMdsNg/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiSoBgGSAi4KCTc0MzI5NjM1MxITMTk0MTkxNTMwNzAyODQ5NDI5MhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "35_1755822220.139",
+      "type": "feed",
+      "offset": 35,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822220,
+      "updated_time": 1755822220,
+      "target": {
+        "id": "1941961782794118863",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941961782794118863",
+        "author": {
+          "id": "b3a2f37122c1d242d9cc86da7e9d2eb6",
+          "url": "https://api.zhihu.com/people/b3a2f37122c1d242d9cc86da7e9d2eb6",
+          "user_type": "people",
+          "url_token": "84-17-55-85-26",
+          "name": "听股道说",
+          "headline": "积极向上",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-7e8bd7d1a86f3a1e419e615cdf787748_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 53,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755779768,
+        "updated_time": 1755779768,
+        "voteup_count": 15,
+        "thanks_count": 0,
+        "comment_count": 3,
+        "is_copyable": true,
+        "question": {
+          "id": "1940420948084920701",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1940420948084920701",
+          "author": {
+            "id": "d984cad91c3597a38689b0598aa00725",
+            "url": "https://api.zhihu.com/people/d984cad91c3597a38689b0598aa00725",
+            "user_type": "people",
+            "url_token": "da-jian-yu",
+            "name": "颜如玉",
+            "headline": "看清生活的真相之后，依然热爱生活",
+            "avatar_url": "https://picx.zhimg.com/50/v2-11837517351bd48787849c577668f1da_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "badge": [
+              {
+                "type": "identity_people",
+                "description": "电子商务行业 运营"
+              }
+            ],
+            "followers_count": 1063,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "现在是大牛市了吗？",
+          "created": 1755412405,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            2910520,
+            3657512
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "村里的意志就是想拉股市，那么大盘涨到3730，相比起2027年涨到10000点也是底部，震荡洗盘肯定会有，但是坚定看多！金融强国不可能停留在3700点，村里花了这么多钱，给了这么多政策，好不容易拉升到3730的9年箱体位置，你觉得他会停下来吗？ 马上9月3日阅兵了，9月份还有美联储降息，中美都留了非常多的后手，所以才敢在3600点还在吸筹。 中国现在面临着很多社会问题，内卷通缩就业困难。 解决这些问题最终都是要靠快速撒钱通胀，…",
+        "excerpt_new": "村里的意志就是想拉股市，那么大盘涨到3730，相比起2027年涨到10000点也是底部，震荡洗盘肯定会有，但是坚定看多！金融强国不可能停留在3700点，村里花了这么多钱，给了这么多政策，好不容易拉升到3730的9年箱体位置，你觉得他会停下来吗？ 马上9月3日阅兵了，9月份还有美联储降息，中美都留了非常多的后手，所以才敢在3600点还在吸筹。 中国现在面临着很多社会问题，内卷通缩就业困难。 解决这些问题最终都是要靠快速撒钱通胀，…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"-9wOuEm3\">村里的意志就是想拉股市，那么大盘涨到3730，相比起2027年涨到10000点也是底部，震荡洗盘肯定会有，但是坚定看多！金融强国不可能停留在3700点，村里花了这么多钱，给了这么多政策，好不容易拉升到3730的9年箱体位置，你觉得他会停下来吗？</p><p data-pid=\"QP_OvzMb\"><b>马上9月3日阅兵了，9月份还有美联储降息，中美都留了非常多的后手，所以才敢在3600点还在吸筹。</b><br/><br/>中国现在面临着很多社会问题，内卷通缩就业困难。<br/><br/>解决这些问题最终都是要靠快速撒钱通胀，人造牛市就是最快速最有效的方式。目前卡着上面撒钱的原因是美国持续高息，我们一放水就有无数资金外流。<br/><br/><b>盯着美联储，盯着中美两国的暧昧态度。</b><br/><br/>国 家队已经全面掌控大 A，所有优质资产都建仓完成，等的是一个适合的时机就会点火。<br/><br/>国 家在通过股市给你送米，就看你的认知能不能接得住了，到了2027年你会看到，A股一天的成交量是10万亿，股市中的中国科技龙头，未来出现涨10倍的神话，是非常正常的。</p><p data-pid=\"pWh4i5KR\">9月3日阅兵真正的意义，是对百年前的屈辱史强而有力的回应。央视财经评论，a股迈过“百万亿”！中国资产重估刚启幕，这说法非常精准，各位我们已经反复强调过了，多看央视，少人云亦云，投资机会都藏在央视里。<br/><br/>一定要好好把握半导体、Ai、机器人、上证指数，恒生指数，银行保险券商的回调机会，年底之前很多股会*2，指数也很大概率会有20%的空间。相信就能赚到，如果鼠目寸光，看不到两三年之后，那就只能错失这轮超级时代红利了。<br/><br/>现在依然处于逼空前夕，今天也没有出现2%以上的大阳线，主力在等一个消息，一个非常重磅的消息！让那些看空中国的散户，彻底踏空！<br/><br/>前面通过小盘股，垃圾股，题材股（创新药、军工、稀土）吸引散户接盘，现在通过券商爆拉逐步吸引散户接盘，等到9月19日之后再拉升大幅龙头、银行保险。现在耐不住寂寞的散户去追高位股的人，后面真正的好公司涨的时候，就只能望洋兴叹了。<br/><br/>2027年，国家反内卷初现成效，通缩基本走出，美联储仍然在降息，震荡大半年后散户已经忘记4000点是顶部了。当初没进场的散户/买少了的散户/赚到钱的散户/看到基本面反转的散户纷纷掏空家底进场，等待冲上6000点。之后开始漫长复杂的熊市，但也不会跌破3300点，再把散户套到2030年。<br/><br/><b>2030年后从4000点起步，开启长期大牛市，突破14600点。</b><br/><br/>如果你也认为现在是国家队高度控盘，那你要仔细听了，你认为现在除了国家队，还有谁敢做空砸盘？哪个机构敢砸？敢砸的都进去了，现在是控制银行券商不让大盘走加速。<br/><br/>券商创新高，这个还未发布的重大的新闻，很有可能与券商是强相关的。接下来的剧本应该是科技龙头，银行保险券商，上证指数，恒生指数继续不断涨，可能性很大。<br/><br/>我预测全球资本市场有可能在美联储9月降息之后来一次深度洗盘。美俄约会，一般情况下，这种会谈不会有实质性结果，战争也不会马上停下来，起码今年没有任何希望。<br/><br/>现在国 家在通过股市给你送米，就看你的认知能不能接得住了，到了2027年你会看到，A股一天的成交量是10万亿，股市中的中国科技龙头，未来出现涨10倍的神话，是非常正常的。该是港股科技龙头，AI半导体机器人，银行保险券商，上证指数，恒生指数继续逼空不断涨。<br/><br/>可能性很大！主力在等一个消息，一个非常重磅的消息！让那些看空中国的散户，彻底踏空！3680这里要洗盘一段时间，真正的逼空还没有开始！现在类似于去年的8月底，人心惶惶的时候是底部，肯定不是顶部！汪汪队想要拉升会有10000种办法，而且会让你心甘情愿的追高买进来！<br/><br/>未来会有3个情况，一个情况是指数不断上涨，散户手里的股不涨，被套死在题材股。另一个情况就是，散户认为是慢牛，但是国家队突然拉升到4150点之上，散户彻底踏空。第三种情况就是散户底部小仓位，等涨起来才大仓位追进去。<br/><br/><b>不要与国家意志做对，连大漂亮都打不过我们，你没有理由看空。坚定看多中国！回调是千载难逢的机会！<br/></b><br/>炒股就是修一个不在乎，不在乎涨跌，不在乎得失，内心不动摇，像一面镜子，因为这一切都是幻想，根本不值得投入情绪。天地不会因为夏天的炎热而烦躁，也不会因为冬天的寒冷而抱怨。它只是按自己的规律运行，包容万物而无分别心。很多人误解超脱，以为是追求永恒的平静、刻意远离人群、假装不食人间烟火。其实，真正的超脱是：连“超脱”这个念头都放下。<br/><br/>当你从“必须如何”变成“顺其自然”，从“害怕失去”变成“允许一切”，你就会发现：真正的自在，不是拥有一切，而是不被一切拥有。投资赚钱，也就是水到渠成的事了。<br/><br/><b>接下来的内容，你想办法记住，或者拿什么收藏一下，时不时地拿出来看看。<br/></b><br/>我以前喜欢干的行为，就是写下来，贴墙上，这样就不会过段时间就忘记了。<br/><br/>首先，我明确指出，之前说的看4000-4500，不是瞎说的，以下几点注意：<br/><br/>十年阻力位现在正在过，下一个超级阻力位4000-4500之间，这个位置是前两轮大牛市（07年、15年）高点下压线，月线在4000左右，周线在4100左右，<br/><br/>924上来的三（1）浪，幅度是1000点，而4月7号是3040，1000点正好是4040点（当然可能会更高一点，毕竟不能完全一样嘛）<br/><br/>15年7月的4184，是那轮牛市的第一个下跌中继，有很大的套牢盘<br/><br/>4000本身也是整数关，突破后会有惯性到4100-4200的<br/><br/>当然，可能的剧本还是放量，过整数关，然后气氛非常好，然后一个外部事件，结合上面的技术位，就这样开始回调...<br/><br/>再接着，因为急而大，于是又有人开始骂女良，然后调整结束，又接着新高...<br/><br/>一定要记住，牛市的回调一定是快速的，虽然急跌，却是不容易的上车机会。<br/><br/>如果这一天发生了，我会告诉你的。<br/><br/>并且这将是市场风格切换最好的时间。<br/><br/>我也贴贴祖训给大家看，有一定的道理，自己琢磨。<br/><br/>1.牛市多急跌<br/>2.牛市的利空都是利好<br/>3.牛市的利好是大利好<br/>4.指数冲关容易回调<br/>5.牛市的回调都是上车机会<br/>6.牛市跑不赢指数是常态，不如直接买指数<br/>7.牛市多看渣男板块，TMT军工医药券商<br/>8.牛市多和新股民玩，老股民只会耽误你赚钱</p><p data-pid=\"BXlhFndu\">以上内容仅供学 习交 流，不构成投 资建议，不作为投 资决 策的依 据，据 此 操 作，风 险自 担，股 市有风 险，投 资需谨 慎！</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 2766,
+        "favorite_count": 23,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941961782794118863}",
+      "attached_info": "CuMFCOigq9rS9MaWCxAEGgk3NDMzMjAwOTUguKWcxQYoDzADQCNKMAobVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTEgEwGAAgADoKeyJyYXciOiIifUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YyEgEwGAAgADoKeyJyYXciOiIifVoJMTE2MjQxOTg2YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MTk2MTc4Mjc5NDExODg2M4oBEzE5NDA0MjA5NDgwODQ5MjA3MDGqAQlyZWNvbW1lbmTCASBiM2EyZjM3MTIyYzFkMjQyZDljYzg2ZGE3ZTlkMmViNvIBCggMEgZOb3JtYWzyASgIChIkZTdlZWFhNGYtMTQ0NS00MzFlLWFmMjktZjA2ZWFjNDEwMmVm8gEFCAsSATaCAgCIApfGo/mMM5ICIGIzYTJmMzcxMjJjMWQyNDJkOWNjODZkYTdlOWQyZWI2mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCG1RTX1NPVVJDRV9GRUVEUkVfVElNRUxJTkVTU+gCAvoCC05PUk1BTF9GTE9XigMgZWVjZTY5ZDdmM2QxNDJmODk1ZGE4NTdmN2MwYWIwNWGaAw0KAnYyEAAaBW90aGVyqAPOFdgDAOoDFGZlZWRyZV90aW1lbGluZXNzX3Yy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGDOtqc/gQUAAAAAAAAAAIkFK7EZwx2w2D+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFBpAGAKAGJagGAJICLgoJNzQzMzIwMDk1EhMxOTQxOTYxNzgyNzk0MTE4ODYzGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=35&desktop=true&end_offset=37&page_number=7&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=35&desktop=true&end_offset=37&page_number=7&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

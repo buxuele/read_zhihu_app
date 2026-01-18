@@ -1,0 +1,561 @@
+{
+  "data": [
+    {
+      "id": "120_1768757059.402",
+      "type": "feed",
+      "offset": 120,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757059,
+      "updated_time": 1768757059,
+      "target": {
+        "allow_segment_interaction": true,
+        "type": "article",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "column": {
+          "id": "c_1899851841921095384",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1899851841921095384",
+          "author": {
+            "url_token": "",
+            "name": "匿名用户",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_followed": false,
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_following": false
+          },
+          "intro": "系统架构中的常用Trick和解决方案？为啥这样就能提高可用性？如何平衡性能与数据一致性？AI本地化部署?",
+          "updated": 1765963647,
+          "title": "有用的互联网系统知识和解决方案",
+          "imageUrl": "https://picx.zhimg.com/v2-2e8c7fd93afec0b1363ca23129237e99_720w.jpg?source=d16d100b",
+          "comment_permission": "private",
+          "is_following": false
+        },
+        "visited_count": 821,
+        "is_navigator": false,
+        "comment_permission": "all",
+        "created": 1746002675,
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-a178a304ab21a281522628d61d7c1601.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-ae2a741ea7791433792496067273e951_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-d9e131530148808666565cbe52069142_720w.jpg?source=b6762063"
+        ],
+        "image_url": "https://picx.zhimg.com/v2-a178a304ab21a281522628d61d7c1601.jpg?source=7e7ef6e2&needBackground=1",
+        "updated": 1746002675,
+        "voteup_count": 10,
+        "vote_next_step": "vote",
+        "excerpt_new": "该文是投稿人 @Lanffy 阅读姜承尧的《MySQL技术内幕：InnoDB存储引擎》第2版的学习笔记。详细记录了InnoDB存储引擎线程、Pool、各类日志和索引的技术逻辑。1. 各存储引擎的特点1.1 InnoDBInnoDB存储引擎最早由Innobase Oy公司 ^1 开发，被包括在MySQL数据库所有的二进制发行版本中，从MySQL 5.5版本开始是默认的表存储引擎（之前的版本InnoDB存储引擎仅在Windows下为默认的存储引擎）。该存储引擎是第一个完整支持ACID事务的MySQL…",
+        "navigator_vote": false,
+        "content": "<p data-pid=\"yYyTLt6t\">该文是投稿人 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/514f18a3a5b2e132d58a5c0cf2570552\" data-hash=\"514f18a3a5b2e132d58a5c0cf2570552\" data-hovercard=\"p$b$514f18a3a5b2e132d58a5c0cf2570552\">@Lanffy</a> 阅读姜承尧的《MySQL技术内幕：InnoDB存储引擎》第2版的学习笔记。详细记录了InnoDB存储引擎线程、Pool、各类日志和索引的技术逻辑。</p><h2>1. 各存储引擎的特点</h2><h3>1.1 InnoDB</h3><p data-pid=\"UbYPdCSQ\">InnoDB存储引擎最早由Innobase Oy公司<a href=\"https://zhuanlan.zhihu.com/p/1900947389549871491/2006%E5%B9%B4%E8%AF%A5%E5%85%AC%E5%8F%B8%E5%B7%B2%E7%BB%8F%E8%A2%ABOracle%E5%85%AC%E5%8F%B8%E6%94%B6%E8%B4%AD%E3%80%82\" class=\"internal\" target=\"_blank\">^1</a>开发，被包括在MySQL数据库所有的二进制发行版本中，从MySQL 5.5版本开始是默认的表存储引擎（之前的版本InnoDB存储引擎仅在Windows下为默认的存储引擎）。该存储引擎是<b>第一个完整支持ACID事务的MySQL存储引擎</b>（BDB是第一个支持事务的MySQL存储引擎，现在已经停止开发）。</p><p data-pid=\"HxiH0qES\">其特点是<b>行锁设计、支持MVCC、支持外键、提供一致性非锁定读</b>，同时被设计用来最有效地利用以及使用内存和CPU。</p><p data-pid=\"Q07t8gUV\">InnoDB使用聚集索引，因此其中的数据按照主键的顺序存放。如果创建表时没有显示的指定主键，则引擎会在表中选择一个唯一非空的索引做主键，如果表中没有这样的字段，则会为表创建一个隐藏的主键。</p><h3>1.2 MyIsam</h3><ol><li data-pid=\"-jaRAhAy\">不支持事务，行级锁</li><li data-pid=\"vA1njqHH\">支持表锁和全文索引</li></ol><h3>1.3 NDB</h3><p data-pid=\"7KY5kINA\">数据全部存放在内存中，主键查找很快</p><h3>1.4 Memory DB</h3><ol><li data-pid=\"mE3gqNmO\">数据存放在内存中</li><li data-pid=\"aKxqCgJy\">默认哈希索引</li><li data-pid=\"2wWqu9jb\">只支持表锁</li></ol><h3>1.5 Archive</h3><ol><li data-pid=\"ZK-hzkLA\">只能Insert和Select操作</li><li data-pid=\"5F2ugI61\">支持行级锁</li><li data-pid=\"Qi7y5lfO\">不支持事务</li><li data-pid=\"7NfT_fkf\">高速插入和数据压缩功能</li></ol><h3>1.6 Federated DB</h3><ol><li data-pid=\"3bGmLfAv\">不存储数据</li><li data-pid=\"37AJtb21\">主要是链接远程MySQL服务器的表</li></ol><h3>1.7 Maria DB</h3><ol><li data-pid=\"INnfHiwa\">支持缓存数据和索引文件</li><li data-pid=\"qtm0olyo\">支持事务和非事务的安全选项</li></ol><p data-pid=\"y0aij17v\"><code>SHOW ENGINES</code> 命令可以查看当前服务器支持的存储引擎，同一张表，在不同存储引擎下的占用内存大小。</p><h2>2. 链接MySQL服务器的方式</h2><ol><li data-pid=\"7HteQS7h\">TCP/IP</li><li data-pid=\"kYzw3TTE\">命名管道</li><li data-pid=\"W-nxPjuy\">共享内存</li><li data-pid=\"VkqmbutK\">UNIX套接字，需要客服端和服务端在同一台服务器</li></ol><h2>3. InnoDB存储引擎</h2><h3>3.1 线程</h3><p data-pid=\"dR0R5oVZ\">根据线程的不同作用，有以下几种线程：</p><ol><li data-pid=\"LyLU-tLf\">Master Thread：负责缓冲池中的数据异步刷新到磁盘,Master Thread 线程是InnoDB的主线程，下面的其他线程都是该线程在处理的过程当中，异步调用的</li><li data-pid=\"NFoSuKly\">IO Thread：负责以下几种类型的io thread的回调 </li></ol><ul><li data-pid=\"XvBcnZzR\">write thread</li><li data-pid=\"YFbNHkqv\">read thread</li><li data-pid=\"wUpGttFl\">insert buffer</li><li data-pid=\"PZ6LFYxz\">log io thread</li><li data-pid=\"i67BFooN\">Purge Thread：undolog 回收</li><li data-pid=\"gYYbW960\">Page Cleaner Thread：缓冲池脏页刷新到磁盘文件 </li></ul><h3>3.1.1 Master Thread</h3><p data-pid=\"-MVelVvq\">该线程宏观上来看只有两个动作：每秒的操作和每十秒的操作。其内部的伪代码如下：</p><div class=\"highlight\"><pre><code class=\"language-c\"><span class=\"kt\">void</span> <span class=\"nf\">master_thread</span><span class=\"p\">(){</span>\n    <span class=\"k\">goto</span> <span class=\"n\">loop</span><span class=\"p\">;</span>\n    <span class=\"n\">loop</span><span class=\"err\">：</span>\n    <span class=\"k\">for</span><span class=\"p\">(</span><span class=\"kt\">int</span> <span class=\"n\">i</span><span class=\"o\">=</span><span class=\"mi\">0</span><span class=\"p\">;</span><span class=\"n\">i</span><span class=\"err\">＜</span><span class=\"mi\">10</span><span class=\"p\">;</span><span class=\"n\">i</span><span class=\"o\">++</span><span class=\"p\">){</span>\n        <span class=\"n\">thread_sleep</span><span class=\"p\">(</span><span class=\"mi\">1</span><span class=\"p\">)</span><span class=\"c1\">//sleep 1 second\n</span><span class=\"c1\"></span>        <span class=\"k\">do</span> <span class=\"n\">log</span> <span class=\"n\">buffer</span> <span class=\"n\">flush</span> <span class=\"n\">to</span> <span class=\"n\">disk</span>\n        <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">last_one_second_ios</span><span class=\"err\">＜</span><span class=\"mi\">5</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span><span class=\"p\">)</span>\n            <span class=\"k\">do</span> <span class=\"n\">merge</span> <span class=\"mi\">5</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">insert</span> <span class=\"n\">buffer</span>\n        <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">buf_get_modified_ratio_pct</span><span class=\"err\">＞</span><span class=\"n\">innodb_max_dirty_pages_pct</span><span class=\"p\">)</span>\n            <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n        <span class=\"k\">else</span> <span class=\"k\">if</span> <span class=\"n\">enable</span> <span class=\"n\">adaptive</span> <span class=\"n\">flush</span>\n            <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"n\">desired</span> <span class=\"n\">amount</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n        <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">no</span> <span class=\"n\">user</span> <span class=\"n\">activity</span><span class=\"p\">)</span>\n        <span class=\"k\">goto</span> <span class=\"n\">backgroud</span> <span class=\"n\">loop</span>\n    <span class=\"p\">}</span>\n    <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">last_ten_second_ios</span><span class=\"err\">＜</span><span class=\"n\">innodb_io_capacity</span><span class=\"p\">)</span>\n        <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n        <span class=\"k\">do</span> <span class=\"n\">merge</span> <span class=\"mi\">5</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">insert</span> <span class=\"n\">buffer</span>\n        <span class=\"k\">do</span> <span class=\"n\">log</span> <span class=\"n\">buffer</span> <span class=\"n\">flush</span> <span class=\"n\">to</span> <span class=\"n\">disk</span>\n        <span class=\"k\">do</span> <span class=\"n\">full</span> <span class=\"n\">purge</span>\n    <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">buf_get_modified_ratio_pct</span><span class=\"err\">＞</span><span class=\"mi\">70</span><span class=\"o\">%</span><span class=\"p\">)</span>\n        <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n    <span class=\"k\">else</span>\n        <span class=\"n\">dobuffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">10</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n        <span class=\"k\">goto</span> <span class=\"n\">loop</span>\n    <span class=\"n\">background</span> <span class=\"nl\">loop</span><span class=\"p\">:</span>\n    <span class=\"k\">do</span> <span class=\"n\">full</span> <span class=\"n\">purge</span>\n    <span class=\"k\">do</span> <span class=\"n\">merge</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">insert</span> <span class=\"n\">buffer</span>\n    <span class=\"k\">if</span> <span class=\"n\">not</span> <span class=\"nl\">idle</span><span class=\"p\">:</span>\n        <span class=\"k\">goto</span> <span class=\"nl\">loop</span><span class=\"p\">:</span>\n    <span class=\"k\">else</span><span class=\"o\">:</span>\n        <span class=\"k\">goto</span> <span class=\"n\">flush</span> <span class=\"n\">loop</span>\n    <span class=\"n\">flush</span> <span class=\"nl\">loop</span><span class=\"p\">:</span>\n    <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n    <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">buf_get_modified_ratio_pct</span><span class=\"err\">＞</span><span class=\"n\">innodb_max_dirty_pages_pct</span><span class=\"p\">)</span>\n        <span class=\"n\">go</span> <span class=\"n\">to</span> <span class=\"n\">flush</span> <span class=\"n\">loop</span>\n        <span class=\"k\">goto</span> <span class=\"n\">suspend</span> <span class=\"n\">loop</span>\n    <span class=\"n\">suspend</span> <span class=\"nl\">loop</span><span class=\"p\">:</span>\n    <span class=\"n\">suspend_thread</span><span class=\"p\">()</span>\n    <span class=\"n\">waiting</span> <span class=\"n\">event</span>\n    <span class=\"k\">goto</span> <span class=\"n\">loop</span><span class=\"p\">;</span>\n<span class=\"p\">}</span></code></pre></div><h3>3.2 内存池</h3><p data-pid=\"QNYkWKyS\">内存池除了占用大量空间的<code>数据页（Data Page）</code>、<code>索引页（Index Page）</code></p><p data-pid=\"rLQy-fzo\">还有其他必要的缓冲区：<code>插入缓冲（insert buffer）</code>、<code>自适应哈希索引</code>、<code>锁信息（lock info）</code>、<code>数据字典信息</code> </p><p data-pid=\"U7ESUXdw\">除了内存池，缓冲区还有<code>重做日志（redo log）</code>和<code>额外内存池</code> </p><h3>3.3. Checkpoint</h3><p data-pid=\"x9ccJH_S\">当InnoDB的缓冲区中，某数据页的数据发生变更，但还没有更新到磁盘文件时，则该页被称为<b>脏页</b>。</p><p data-pid=\"0Vl9YnId\">脏页数据比磁盘上的数据新，所以需要将脏页数据更新到磁盘中对应的页当中去。若在数据更新的过程中服务器发生宕机，就会出现数据丢失的情况，为了避免这种情况，在缓冲区中的页变更之前，先写重做日志（Write Ahead Log），再修改页。如果发生数据丢失，可以通过重做日志来回复数据。</p><p data-pid=\"3mfTZC1T\">但是通过重做日志，如果数据量巨大，则将耗费大量的时间。所以，Checkpoint技术的目的就是为了解决下面的这些问题：</p><ol><li data-pid=\"fwmLiOUz\">缩短DB的数据恢复时间</li><li data-pid=\"uoWQfB1D\">缓冲池不够时，将脏页刷新到磁盘文件</li><li data-pid=\"i--FGctA\">重做日志不可用时，刷新脏页</li></ol><p data-pid=\"1VfCO7Hd\">在实际应用中，会发现，重做日志量大，那么在恢复的过程中，我们该从日志的什么地方开始恢复呢？应该恢复多少呢？这个就需要Checkpoint技术来解决。。。</p><h3>3.4. InnoDB关键特性</h3><p data-pid=\"hA7APB9y\">InnoDB存储引擎的关键特性包括：</p><ul><li data-pid=\"paqw2hHn\">插入缓冲（Insert Buffer）</li><li data-pid=\"9-h7843-\">两次写（Double Write）</li><li data-pid=\"KJhBTLve\">自适应哈希索引（Adaptive Hash Index）</li><li data-pid=\"YSTajzRi\">异步IO（Async IO）</li><li data-pid=\"93Arm_jU\">刷新邻接页（Flush Neighbor Page）</li></ul><p data-pid=\"niPcw3kG\">上述这些特性为InnoDB存储引擎带来更好的性能以及更高的可靠性。</p><h3>3.4.1 插入缓冲</h3><p data-pid=\"6t50--Pq\">在InnoDB中，其主键索引因为是聚集索引，所以在磁盘上写入数据的顺序是根据主键的自增顺序排列的。但是InnoDB表中除了主键索引还有其他的辅助索引，它们都是非聚集的，每次对其进行修改都会导致辅助索引的变更，如果这个变更数据量很大，那么对于磁盘的性能消耗是很大的。</p><p data-pid=\"sEWCDQDj\">InnoDB存储引擎开创性地设计了<b>Insert Buffer</b>，对于非聚集索引的插入或更新操作，不是每一次直接插入到索引页中，而是先判断插入的非聚集索引页是否在缓冲池中，若在，则直接插入；若不在，则先放入到一个Insert Buffer对象中，好似欺骗数据库这个非聚集的索引已经插到叶子节点，而实际并没有，只是存放在另一个位置。然后再以一定的频率和情况进行Insert Buffer和辅助索引页子节点的merge（合并）操作，这时通常能将多个插入合并到一个操作中（因为在一个索引页中），这就大大提高了对于非聚集索引插入的性能。</p><p data-pid=\"lGf9Evbs\">然而Insert Buffer的使用需要同时满足以下两个条件：</p><ul><li data-pid=\"njOnj__9\">索引是辅助索引（secondary index）</li><li data-pid=\"JUT_oC1q\">索引不是唯一（unique）的</li></ul><p data-pid=\"X66OxRJy\">辅助索引不能是唯一的，因为在插入缓冲时，数据库并不去查找索引页来判断插入的记录的唯一性。如果去查找肯定又会有离散读取的情况发生，从而导致Insert Buffer失去了意义。</p><h3>3.4.2. 两次写</h3><p data-pid=\"wvIqRoQ3\">当InnoDB正在刷新页到磁盘上时，如果还没写完，比如只写了4KB（一页默认16KB），这个时候，数据库所在服务器宕机了，这个时候，磁盘上的这个页数据是不完整的，你可能会说可以通过redo日志修复，但是redo日志修复是需要原磁盘状态是完整的。在磁盘不完整的情况下，redo日志就无法恢复了。这个时候就需要两次写了。</p><p data-pid=\"7-KuQdxs\">简单来说，两次写就是在页刷新之前，做一个页的副本，当需要重做时，通过页的副本将磁盘页还原到原来的状态，在通过重做日志恢复数据。</p><p data-pid=\"FxAGNpEr\">其结构如下：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-826696cbe3c4e7f4c141e9ea5fb1a7e8_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"860\" data-rawheight=\"662\" data-original-token=\"v2-ed9f706c2cfcf10cc366c07f73edc46f\" class=\"origin_image zh-lightbox-thumb\" width=\"860\" data-original=\"https://pica.zhimg.com/v2-826696cbe3c4e7f4c141e9ea5fb1a7e8_r.jpg\"/><figcaption>双写流程</figcaption></figure><p data-pid=\"xjwRJkpp\">所以，插入缓冲提高了DB的性能， 那么，两次写便提高了DB的可靠性</p><h3>3.4.3. 自适应哈希索引</h3><p data-pid=\"eKkW6wKh\">这个概念就很好理解了，当对某个页进行多次的连续的查询，且查询条件是等值查询（非范围查询），同时满足下面的条件时：</p><ul><li data-pid=\"Imu8-0Wi\">以该模式访问了100次</li><li data-pid=\"uCemeILt\">页通过该模式访问了N次，其中N=页中记录*1/16</li></ul><p data-pid=\"5yowu0yl\">InnoDB存储引擎就会自动创建一个哈希索引指向这个页。为什么要这么做呢？</p><p data-pid=\"eei9fYsm\">很简单，InnoDB的索引数据结构是B+Tree，其查找时间和树的高度有关。但哈希查找的时间复杂度是O(1)。其原因就不道自明了。</p><h3>3.4.4. 异步IO</h3><p data-pid=\"y2Pkd-yj\">当查询磁盘上连续的页（不一定要是连续的），需要多次进行磁盘IO时，此时，引擎会将多次IO合并成一次IO，减少磁盘IO次数，达到提高性能的目的。</p><p data-pid=\"NV4r3qAQ\">不得不说，这些人的脑瓜子真是聪明啊，想尽一切办法提高这玩意儿的性能和可靠性。</p><h3>3.4.5. 刷新临近页</h3><p data-pid=\"k0Yb9wwV\">和异步IO一个道理。</p><h2>4. 文件</h2><ol><li data-pid=\"-skWit57\">参数文件：告诉MySQL实例启动时在哪里可以找到数据库文件，并且指定某些初始化参数，这些参数定义了某种内存结构的大小等设置，还会介绍各种参数的类型。通过命令<code>mysql --help|grep my.cnf</code>来寻找</li><li data-pid=\"v6DHwZWD\">日志文件：用来记录MySQL实例对某种条件做出响应时写入的文件，如错误日志文件、二进制日志文件、慢查询日志文件、查询日志文件等。</li></ol>",
+        "is_labeled": true,
+        "favorite_count": 18,
+        "id": "1900947389549871491",
+        "url": "https://api.zhihu.com/articles/1900947389549871491",
+        "author": {
+          "url_token": "nutao4me",
+          "headline": "高级系统架构设计师",
+          "avatar_url": "https://picx.zhimg.com/50/v2-087b1d3c7244299b72c1f4042920541d_l.jpg?source=b6762063",
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "西南大学 计算机技术硕士"
+            }
+          ],
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/34b9b8bef2cee24efcebb1e6ad64403b",
+          "user_type": "people",
+          "name": "Nutao",
+          "gender": 1,
+          "followers_count": 1349,
+          "is_followed": false,
+          "id": "34b9b8bef2cee24efcebb1e6ad64403b"
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "article_type": "paid_column_content",
+        "comment_count": 0,
+        "excerpt": "该文是投稿人 @Lanffy 阅读姜承尧的《MySQL技术内幕：InnoDB存储引擎》第2版的学习笔记。详细记录了InnoDB存储引擎线程、Pool、各类日志和索引的技术逻辑。1. 各存储引擎的特点1.1 InnoDBInnoDB存储引擎最早由Innobase Oy公司 ^1 开发，被包括在MySQL数据库所有的二进制发行版本中，从MySQL 5.5版本开始是默认的表存储引擎（之前的版本InnoDB存储引擎仅在Windows下为默认的存储引擎）。该存储引擎是第一个完整支持ACID事务的MySQL…",
+        "title": "关于MySQL存储引擎的技术内幕-InnoDB篇",
+        "voting": 0,
+        "paid_info": {
+          "content": "<p data-pid=\"yYyTLt6t\">该文是投稿人 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/514f18a3a5b2e132d58a5c0cf2570552\" data-hash=\"514f18a3a5b2e132d58a5c0cf2570552\" data-hovercard=\"p$b$514f18a3a5b2e132d58a5c0cf2570552\">@Lanffy</a> 阅读姜承尧的《MySQL技术内幕：InnoDB存储引擎》第2版的学习笔记。详细记录了InnoDB存储引擎线程、Pool、各类日志和索引的技术逻辑。</p><h2>1. 各存储引擎的特点</h2><h3>1.1 InnoDB</h3><p data-pid=\"UbYPdCSQ\">InnoDB存储引擎最早由Innobase Oy公司<a href=\"https://zhuanlan.zhihu.com/p/1900947389549871491/2006%E5%B9%B4%E8%AF%A5%E5%85%AC%E5%8F%B8%E5%B7%B2%E7%BB%8F%E8%A2%ABOracle%E5%85%AC%E5%8F%B8%E6%94%B6%E8%B4%AD%E3%80%82\" class=\"internal\" target=\"_blank\">^1</a>开发，被包括在MySQL数据库所有的二进制发行版本中，从MySQL 5.5版本开始是默认的表存储引擎（之前的版本InnoDB存储引擎仅在Windows下为默认的存储引擎）。该存储引擎是<b>第一个完整支持ACID事务的MySQL存储引擎</b>（BDB是第一个支持事务的MySQL存储引擎，现在已经停止开发）。</p><p data-pid=\"HxiH0qES\">其特点是<b>行锁设计、支持MVCC、支持外键、提供一致性非锁定读</b>，同时被设计用来最有效地利用以及使用内存和CPU。</p><p data-pid=\"Q07t8gUV\">InnoDB使用聚集索引，因此其中的数据按照主键的顺序存放。如果创建表时没有显示的指定主键，则引擎会在表中选择一个唯一非空的索引做主键，如果表中没有这样的字段，则会为表创建一个隐藏的主键。</p><h3>1.2 MyIsam</h3><ol><li data-pid=\"-jaRAhAy\">不支持事务，行级锁</li><li data-pid=\"vA1njqHH\">支持表锁和全文索引</li></ol><h3>1.3 NDB</h3><p data-pid=\"7KY5kINA\">数据全部存放在内存中，主键查找很快</p><h3>1.4 Memory DB</h3><ol><li data-pid=\"mE3gqNmO\">数据存放在内存中</li><li data-pid=\"aKxqCgJy\">默认哈希索引</li><li data-pid=\"2wWqu9jb\">只支持表锁</li></ol><h3>1.5 Archive</h3><ol><li data-pid=\"ZK-hzkLA\">只能Insert和Select操作</li><li data-pid=\"5F2ugI61\">支持行级锁</li><li data-pid=\"Qi7y5lfO\">不支持事务</li><li data-pid=\"7NfT_fkf\">高速插入和数据压缩功能</li></ol><h3>1.6 Federated DB</h3><ol><li data-pid=\"3bGmLfAv\">不存储数据</li><li data-pid=\"37AJtb21\">主要是链接远程MySQL服务器的表</li></ol><h3>1.7 Maria DB</h3><ol><li data-pid=\"INnfHiwa\">支持缓存数据和索引文件</li><li data-pid=\"qtm0olyo\">支持事务和非事务的安全选项</li></ol><p data-pid=\"y0aij17v\"><code>SHOW ENGINES</code> 命令可以查看当前服务器支持的存储引擎，同一张表，在不同存储引擎下的占用内存大小。</p><h2>2. 链接MySQL服务器的方式</h2><ol><li data-pid=\"7HteQS7h\">TCP/IP</li><li data-pid=\"kYzw3TTE\">命名管道</li><li data-pid=\"W-nxPjuy\">共享内存</li><li data-pid=\"VkqmbutK\">UNIX套接字，需要客服端和服务端在同一台服务器</li></ol><h2>3. InnoDB存储引擎</h2><h3>3.1 线程</h3><p data-pid=\"dR0R5oVZ\">根据线程的不同作用，有以下几种线程：</p><ol><li data-pid=\"LyLU-tLf\">Master Thread：负责缓冲池中的数据异步刷新到磁盘,Master Thread 线程是InnoDB的主线程，下面的其他线程都是该线程在处理的过程当中，异步调用的</li><li data-pid=\"NFoSuKly\">IO Thread：负责以下几种类型的io thread的回调 </li></ol><ul><li data-pid=\"XvBcnZzR\">write thread</li><li data-pid=\"YFbNHkqv\">read thread</li><li data-pid=\"wUpGttFl\">insert buffer</li><li data-pid=\"PZ6LFYxz\">log io thread</li><li data-pid=\"i67BFooN\">Purge Thread：undolog 回收</li><li data-pid=\"gYYbW960\">Page Cleaner Thread：缓冲池脏页刷新到磁盘文件 </li></ul><h3>3.1.1 Master Thread</h3><p data-pid=\"-MVelVvq\">该线程宏观上来看只有两个动作：每秒的操作和每十秒的操作。其内部的伪代码如下：</p><div class=\"highlight\"><pre><code class=\"language-c\"><span class=\"kt\">void</span> <span class=\"nf\">master_thread</span><span class=\"p\">(){</span>\n    <span class=\"k\">goto</span> <span class=\"n\">loop</span><span class=\"p\">;</span>\n    <span class=\"n\">loop</span><span class=\"err\">：</span>\n    <span class=\"k\">for</span><span class=\"p\">(</span><span class=\"kt\">int</span> <span class=\"n\">i</span><span class=\"o\">=</span><span class=\"mi\">0</span><span class=\"p\">;</span><span class=\"n\">i</span><span class=\"err\">＜</span><span class=\"mi\">10</span><span class=\"p\">;</span><span class=\"n\">i</span><span class=\"o\">++</span><span class=\"p\">){</span>\n        <span class=\"n\">thread_sleep</span><span class=\"p\">(</span><span class=\"mi\">1</span><span class=\"p\">)</span><span class=\"c1\">//sleep 1 second\n</span><span class=\"c1\"></span>        <span class=\"k\">do</span> <span class=\"n\">log</span> <span class=\"n\">buffer</span> <span class=\"n\">flush</span> <span class=\"n\">to</span> <span class=\"n\">disk</span>\n        <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">last_one_second_ios</span><span class=\"err\">＜</span><span class=\"mi\">5</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span><span class=\"p\">)</span>\n            <span class=\"k\">do</span> <span class=\"n\">merge</span> <span class=\"mi\">5</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">insert</span> <span class=\"n\">buffer</span>\n        <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">buf_get_modified_ratio_pct</span><span class=\"err\">＞</span><span class=\"n\">innodb_max_dirty_pages_pct</span><span class=\"p\">)</span>\n            <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n        <span class=\"k\">else</span> <span class=\"k\">if</span> <span class=\"n\">enable</span> <span class=\"n\">adaptive</span> <span class=\"n\">flush</span>\n            <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"n\">desired</span> <span class=\"n\">amount</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n        <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">no</span> <span class=\"n\">user</span> <span class=\"n\">activity</span><span class=\"p\">)</span>\n        <span class=\"k\">goto</span> <span class=\"n\">backgroud</span> <span class=\"n\">loop</span>\n    <span class=\"p\">}</span>\n    <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">last_ten_second_ios</span><span class=\"err\">＜</span><span class=\"n\">innodb_io_capacity</span><span class=\"p\">)</span>\n        <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n        <span class=\"k\">do</span> <span class=\"n\">merge</span> <span class=\"mi\">5</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">insert</span> <span class=\"n\">buffer</span>\n        <span class=\"k\">do</span> <span class=\"n\">log</span> <span class=\"n\">buffer</span> <span class=\"n\">flush</span> <span class=\"n\">to</span> <span class=\"n\">disk</span>\n        <span class=\"k\">do</span> <span class=\"n\">full</span> <span class=\"n\">purge</span>\n    <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">buf_get_modified_ratio_pct</span><span class=\"err\">＞</span><span class=\"mi\">70</span><span class=\"o\">%</span><span class=\"p\">)</span>\n        <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n    <span class=\"k\">else</span>\n        <span class=\"n\">dobuffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">10</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n        <span class=\"k\">goto</span> <span class=\"n\">loop</span>\n    <span class=\"n\">background</span> <span class=\"nl\">loop</span><span class=\"p\">:</span>\n    <span class=\"k\">do</span> <span class=\"n\">full</span> <span class=\"n\">purge</span>\n    <span class=\"k\">do</span> <span class=\"n\">merge</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">insert</span> <span class=\"n\">buffer</span>\n    <span class=\"k\">if</span> <span class=\"n\">not</span> <span class=\"nl\">idle</span><span class=\"p\">:</span>\n        <span class=\"k\">goto</span> <span class=\"nl\">loop</span><span class=\"p\">:</span>\n    <span class=\"k\">else</span><span class=\"o\">:</span>\n        <span class=\"k\">goto</span> <span class=\"n\">flush</span> <span class=\"n\">loop</span>\n    <span class=\"n\">flush</span> <span class=\"nl\">loop</span><span class=\"p\">:</span>\n    <span class=\"k\">do</span> <span class=\"n\">buffer</span> <span class=\"n\">pool</span> <span class=\"n\">flush</span> <span class=\"mi\">100</span><span class=\"o\">%</span><span class=\"n\">innodb_io_capacity</span> <span class=\"n\">dirty</span> <span class=\"n\">page</span>\n    <span class=\"k\">if</span><span class=\"p\">(</span><span class=\"n\">buf_get_modified_ratio_pct</span><span class=\"err\">＞</span><span class=\"n\">innodb_max_dirty_pages_pct</span><span class=\"p\">)</span>\n        <span class=\"n\">go</span> <span class=\"n\">to</span> <span class=\"n\">flush</span> <span class=\"n\">loop</span>\n        <span class=\"k\">goto</span> <span class=\"n\">suspend</span> <span class=\"n\">loop</span>\n    <span class=\"n\">suspend</span> <span class=\"nl\">loop</span><span class=\"p\">:</span>\n    <span class=\"n\">suspend_thread</span><span class=\"p\">()</span>\n    <span class=\"n\">waiting</span> <span class=\"n\">event</span>\n    <span class=\"k\">goto</span> <span class=\"n\">loop</span><span class=\"p\">;</span>\n<span class=\"p\">}</span></code></pre></div><h3>3.2 内存池</h3><p data-pid=\"QNYkWKyS\">内存池除了占用大量空间的<code>数据页（Data Page）</code>、<code>索引页（Index Page）</code></p><p data-pid=\"rLQy-fzo\">还有其他必要的缓冲区：<code>插入缓冲（insert buffer）</code>、<code>自适应哈希索引</code>、<code>锁信息（lock info）</code>、<code>数据字典信息</code> </p><p data-pid=\"U7ESUXdw\">除了内存池，缓冲区还有<code>重做日志（redo log）</code>和<code>额外内存池</code> </p><h3>3.3. Checkpoint</h3><p data-pid=\"x9ccJH_S\">当InnoDB的缓冲区中，某数据页的数据发生变更，但还没有更新到磁盘文件时，则该页被称为<b>脏页</b>。</p><p data-pid=\"0Vl9YnId\">脏页数据比磁盘上的数据新，所以需要将脏页数据更新到磁盘中对应的页当中去。若在数据更新的过程中服务器发生宕机，就会出现数据丢失的情况，为了避免这种情况，在缓冲区中的页变更之前，先写重做日志（Write Ahead Log），再修改页。如果发生数据丢失，可以通过重做日志来回复数据。</p><p data-pid=\"3mfTZC1T\">但是通过重做日志，如果数据量巨大，则将耗费大量的时间。所以，Checkpoint技术的目的就是为了解决下面的这些问题：</p><ol><li data-pid=\"fwmLiOUz\">缩短DB的数据恢复时间</li><li data-pid=\"uoWQfB1D\">缓冲池不够时，将脏页刷新到磁盘文件</li><li data-pid=\"i--FGctA\">重做日志不可用时，刷新脏页</li></ol><p data-pid=\"1VfCO7Hd\">在实际应用中，会发现，重做日志量大，那么在恢复的过程中，我们该从日志的什么地方开始恢复呢？应该恢复多少呢？这个就需要Checkpoint技术来解决。。。</p><h3>3.4. InnoDB关键特性</h3><p data-pid=\"hA7APB9y\">InnoDB存储引擎的关键特性包括：</p><ul><li data-pid=\"paqw2hHn\">插入缓冲（Insert Buffer）</li><li data-pid=\"9-h7843-\">两次写（Double Write）</li><li data-pid=\"KJhBTLve\">自适应哈希索引（Adaptive Hash Index）</li><li data-pid=\"YSTajzRi\">异步IO（Async IO）</li><li data-pid=\"93Arm_jU\">刷新邻接页（Flush Neighbor Page）</li></ul><p data-pid=\"niPcw3kG\">上述这些特性为InnoDB存储引擎带来更好的性能以及更高的可靠性。</p><h3>3.4.1 插入缓冲</h3><p data-pid=\"6t50--Pq\">在InnoDB中，其主键索引因为是聚集索引，所以在磁盘上写入数据的顺序是根据主键的自增顺序排列的。但是InnoDB表中除了主键索引还有其他的辅助索引，它们都是非聚集的，每次对其进行修改都会导致辅助索引的变更，如果这个变更数据量很大，那么对于磁盘的性能消耗是很大的。</p><p data-pid=\"sEWCDQDj\">InnoDB存储引擎开创性地设计了<b>Insert Buffer</b>，对于非聚集索引的插入或更新操作，不是每一次直接插入到索引页中，而是先判断插入的非聚集索引页是否在缓冲池中，若在，则直接插入；若不在，则先放入到一个Insert Buffer对象中，好似欺骗数据库这个非聚集的索引已经插到叶子节点，而实际并没有，只是存放在另一个位置。然后再以一定的频率和情况进行Insert Buffer和辅助索引页子节点的merge（合并）操作，这时通常能将多个插入合并到一个操作中（因为在一个索引页中），这就大大提高了对于非聚集索引插入的性能。</p><p data-pid=\"lGf9Evbs\">然而Insert Buffer的使用需要同时满足以下两个条件：</p><ul><li data-pid=\"njOnj__9\">索引是辅助索引（secondary index）</li><li data-pid=\"JUT_oC1q\">索引不是唯一（unique）的</li></ul><p data-pid=\"X66OxRJy\">辅助索引不能是唯一的，因为在插入缓冲时，数据库并不去查找索引页来判断插入的记录的唯一性。如果去查找肯定又会有离散读取的情况发生，从而导致Insert Buffer失去了意义。</p><h3>3.4.2. 两次写</h3><p data-pid=\"wvIqRoQ3\">当InnoDB正在刷新页到磁盘上时，如果还没写完，比如只写了4KB（一页默认16KB），这个时候，数据库所在服务器宕机了，这个时候，磁盘上的这个页数据是不完整的，你可能会说可以通过redo日志修复，但是redo日志修复是需要原磁盘状态是完整的。在磁盘不完整的情况下，redo日志就无法恢复了。这个时候就需要两次写了。</p><p data-pid=\"7-KuQdxs\">简单来说，两次写就是在页刷新之前，做一个页的副本，当需要重做时，通过页的副本将磁盘页还原到原来的状态，在通过重做日志恢复数据。</p><p data-pid=\"FxAGNpEr\">其结构如下：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-826696cbe3c4e7f4c141e9ea5fb1a7e8_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"860\" data-rawheight=\"662\" data-original-token=\"v2-ed9f706c2cfcf10cc366c07f73edc46f\" class=\"origin_image zh-lightbox-thumb\" width=\"860\" data-original=\"https://pica.zhimg.com/v2-826696cbe3c4e7f4c141e9ea5fb1a7e8_r.jpg\"/><figcaption>双写流程</figcaption></figure><p data-pid=\"xjwRJkpp\">所以，插入缓冲提高了DB的性能， 那么，两次写便提高了DB的可靠性</p><h3>3.4.3. 自适应哈希索引</h3><p data-pid=\"eKkW6wKh\">这个概念就很好理解了，当对某个页进行多次的连续的查询，且查询条件是等值查询（非范围查询），同时满足下面的条件时：</p><ul><li data-pid=\"Imu8-0Wi\">以该模式访问了100次</li><li data-pid=\"uCemeILt\">页通过该模式访问了N次，其中N=页中记录*1/16</li></ul><p data-pid=\"5yowu0yl\">InnoDB存储引擎就会自动创建一个哈希索引指向这个页。为什么要这么做呢？</p><p data-pid=\"eei9fYsm\">很简单，InnoDB的索引数据结构是B+Tree，其查找时间和树的高度有关。但哈希查找的时间复杂度是O(1)。其原因就不道自明了。</p><h3>3.4.4. 异步IO</h3><p data-pid=\"y2Pkd-yj\">当查询磁盘上连续的页（不一定要是连续的），需要多次进行磁盘IO时，此时，引擎会将多次IO合并成一次IO，减少磁盘IO次数，达到提高性能的目的。</p><p data-pid=\"NV4r3qAQ\">不得不说，这些人的脑瓜子真是聪明啊，想尽一切办法提高这玩意儿的性能和可靠性。</p><h3>3.4.5. 刷新临近页</h3><p data-pid=\"k0Yb9wwV\">和异步IO一个道理。</p><h2>4. 文件</h2><ol><li data-pid=\"-skWit57\">参数文件：告诉MySQL实例启动时在哪里可以找到数据库文件，并且指定某些初始化参数，这些参数定义了某种内存结构的大小等设置，还会介绍各种参数的类型。通过命令<code>mysql --help|grep my.cnf</code>来寻找</li><li data-pid=\"v6DHwZWD\">日志文件：用来记录MySQL实例对某种条件做出响应时写入的文件，如错误日志文件、二进制日志文件、慢查询日志文件、查询日志文件等。</li></ol>"
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1900947389549871491}",
+      "attached_info": "CswGCJiX2Picjo7CchAHGgkyNTcyMDAxMjEg88XHwAYoCjAAQHhKMAoGSXRlbUNGEiBkb2NfdHlwZTogQXJ0aWNsZQppZDogMjQ4NDczMjc5ChgAIAA6AFoIMTM2NzIxNzliIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTAwOTQ3Mzg5NTQ5ODcxNDkxggFfaHR0cHM6Ly9waWN4LnpoaW1nLmNvbS92Mi1hMTc4YTMwNGFiMjFhMjgxNTIyNjI4ZDYxZDdjMTYwMS5qcGc/c291cmNlPTdlN2VmNmUyJm5lZWRCYWNrZ3JvdW5kPTGKARVjXzE4OTk4NTE4NDE5MjEwOTUzODSqAQlyZWNvbW1lbmTCASAzNGI5YjhiZWYyY2VlMjRlZmNlYmIxZTZhZDY0NDAzYvIBCggMEgZOb3JtYWzyASgIChIkNDdjYWU5OWEtMjE2MC00MTRkLTllZmEtZGZjY2JlNjdhMWY18gEGCAsSAjIxggIAiAK/u4uRvTOSAiAzNGI5YjhiZWYyY2VlMjRlZmNlYmIxZTZhZDY0NDAzYpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAgZJdGVtQ0boAgP6AgtOT1JNQUxfRkxPV4oDIDE4NTM4ZjkzZTRlZjQzNjBhMzkyZWFmM2YzMzI4MWIxmgMNCgJ2MhAAGgVvdGhlcqgDtQbYAwDqAxV0ZXh0QWxsU2l0ZU12SXRlbUNGVjL6A30SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBDcBhiWBSIjdjItZWQ5ZjcwNmMyY2ZjZjEwY2MzNjZjMDdmNzNlZGM0NmY6LQgCELgIGKAFIiN2Mi1hMTc4YTMwNGFiMjFhMjgxNTIyNjI4ZDYxZDdjMTYwMYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAZtYW51YWzCBAMxNzDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAEAPEXQ/gQUAAAAAAAAAAIkFKQBaHJHvsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFZAGAKAGeqgGAZICLgoJMjU3MjAwMTIxEhMxOTAwOTQ3Mzg5NTQ5ODcxNDkxGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "121_1768757059.328",
+      "type": "feed",
+      "offset": 121,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757059,
+      "updated_time": 1768757059,
+      "target": {
+        "is_labeled": false,
+        "type": "answer",
+        "author": {
+          "id": "225cbdbbfac26810c6b71ce96f55de2f",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/e4f1b0d6aa782bb9b0dee1ea384fe556_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "游戏开发等 4 个话题下的优秀答主",
+              "topic_names": [
+                "游戏开发",
+                "编程",
+                "游戏",
+                "程序员"
+              ],
+              "topic_ids": [
+                1045,
+                1354,
+                253,
+                707
+              ]
+            }
+          ],
+          "followers_count": 261132,
+          "url": "https://api.zhihu.com/people/225cbdbbfac26810c6b71ce96f55de2f",
+          "url_token": "skywind3000",
+          "name": "韦易笑",
+          "headline": "Putty本无树，MinGW亦非台",
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1768621052,
+        "voteup_count": 525,
+        "is_copyable": true,
+        "excerpt_new": "说得好听，结果一看它依赖这些组件： - Servo's HTML parser - Servo's CSS parser - QuickJS for JS - selectors for CSS selector matching - resvg for SVG rendering - egui, wgpu, and tiny-skia for rendering - tungstenite for WebSocket support 核心功能全是掉包做的他还吹牛说：HTML解析、CSS布局、文本渲染、还有一个自研的JavaScript虚拟机——全是AI自己写的。",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "answer_type": "normal",
+        "comment_count": 29,
+        "question": {
+          "title": "GPT-5.2七天生成 300 万行代码造出 Chrome 级浏览器，这意味着什么？",
+          "answer_count": 0,
+          "question_type": "normal",
+          "id": "1995179490062668425",
+          "type": "question",
+          "comment_count": 5,
+          "bound_topic_ids": [
+            101,
+            785,
+            122735,
+            188574,
+            3359821
+          ],
+          "excerpt": "",
+          "created": 1768467859,
+          "follower_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "url": "https://api.zhihu.com/questions/1995179490062668425",
+          "author": {
+            "id": "2f43151806c67893404924476532daa3",
+            "user_type": "people",
+            "url_token": "33-42-53-7-90",
+            "name": "寒鸦",
+            "headline": "",
+            "gender": 1,
+            "url": "https://api.zhihu.com/people/2f43151806c67893404924476532daa3",
+            "avatar_url": "https://picx.zhimg.com/50/v2-2d1b76075957e1dfbec5b81f2e23cbf5_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 7,
+            "is_following": false,
+            "is_followed": false
+          },
+          "is_following": false
+        },
+        "is_navigator": false,
+        "thanks_count": 14,
+        "preview_type": "default",
+        "reshipment_settings": "allowed",
+        "visited_count": 50249,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "id": "1995822030193455200",
+        "url": "https://api.zhihu.com/answers/1995822030193455200",
+        "updated_time": 1768621167,
+        "excerpt": "说得好听，结果一看它依赖这些组件： - Servo's HTML parser - Servo's CSS parser - QuickJS for JS - selectors for CSS selector matching - resvg for SVG rendering - egui, wgpu, and tiny-skia for rendering - tungstenite for WebSocket support 核心功能全是掉包做的他还吹牛说：HTML解析、CSS布局、文本渲染、还有一个自研的JavaScript虚拟机——全是AI自己写的。",
+        "preview_text": "",
+        "content": "<p data-pid=\"kEaHKQI_\">说得好听，结果一看它依赖这些组件：</p><p data-pid=\"PvkTZhvP\">- Servo&#39;s HTML parser</p><p data-pid=\"18A-asFT\">- Servo&#39;s CSS parser</p><p data-pid=\"xceVpC7O\">- QuickJS for JS</p><p data-pid=\"lKb885y8\">- selectors for CSS selector matching</p><p data-pid=\"Y3jt9jXb\">- resvg for SVG rendering</p><p data-pid=\"WefmFJhF\">- egui, wgpu, and tiny-skia for rendering</p><p data-pid=\"kfCNIfHD\">- tungstenite for WebSocket support</p><p data-pid=\"Gv0LgvPM\">核心功能全是掉包做的他还吹牛说：HTML解析、CSS布局、文本渲染、还有一个自研的JavaScript虚拟机——全是AI自己写的。</p>",
+        "favorite_count": 63
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995822030193455200}",
+      "attached_info": "CroGCJiX2Picjo7CchAEGgk3NjU3ODIxMDgg/IesywYojQQwHUB5SmsKH1RTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX1dPUkQSEzE0NDExNTE4ODA3NjA4Njg3MjEYACAAOi97Im1lZGlhX3R5cGUiOiJJTUFHRV9URVhUIiwicGluX21lZGlhX3R5cGUiOiIifUooChNUU19TT1VSQ0VfRkVFRFJFX1Y1EgEwGAAgADoKeyJyYXciOiIifVoJMTE4MDc3NTEzYiBmOTgwYjYxMDVjMTVhNzg4NjYxZWQ3YTk2NGI4ZDMyZHITMTk5NTgyMjAzMDE5MzQ1NTIwMIoBEzE5OTUxNzk0OTAwNjI2Njg0MjWqAQlyZWNvbW1lbmTCASAyMjVjYmRiYmZhYzI2ODEwYzZiNzFjZTk2ZjU1ZGUyZvIBCggMEgZOb3JtYWzyASgIChIkNzQwZmNiMzItZWRiNC00ZWY5LWJhNzYtNmQ4ZTIxNmZjMjE18gEGCAsSAjIxggIAiAK/u4uRvTOSAiAyMjVjYmRiYmZhYzI2ODEwYzZiNzFjZTk2ZjU1ZGUyZpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhZSZXZpc2l0VmFsdWVXZWlnaHRSdWxlygIWRmVlZENvbnRyb2xCcmVha0luUnVsZdoCH1RTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX1dPUkToAgP6AgtOT1JNQUxfRkxPV4oDIDE4NTM4ZjkzZTRlZjQzNjBhMzkyZWFmM2YzMzI4MWIxmgMNCgJ2MhAAGgVvdGhlcqgDyYgD2AMA6gMTQ29udHJvbEludGVyZXN0V29yZPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBIK4igL5BAAAAOAobY8/gQUAAAAAAAAAAIkFKQBaHJHvsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFD+AFAOgFAPAFFZAGAKAGe6gGA5ICLgoJNzY1NzgyMTA4EhMxOTk1ODIyMDMwMTkzNDU1MjAwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "122_1768757059.50",
+      "type": "feed",
+      "offset": 122,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757059,
+      "updated_time": 1768757059,
+      "target": {
+        "author": {
+          "id": "3e5901dc1d7695f59d748dc5c580bf53",
+          "url": "https://api.zhihu.com/people/3e5901dc1d7695f59d748dc5c580bf53",
+          "user_type": "people",
+          "followers_count": 72,
+          "is_followed": false,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "装饰装修行业 设计总监"
+            }
+          ],
+          "is_following": false,
+          "url_token": "wo-candy",
+          "name": "萍哥的花花世界",
+          "headline": "爱自己，爱生活，爱色彩，",
+          "avatar_url": "https://pica.zhimg.com/50/v2-111ca6143f54d70401789d12c2f465db_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0
+        },
+        "comment_count": 4,
+        "preview_type": "default",
+        "is_navigator": false,
+        "id": "1995923386719807426",
+        "created_time": 1768645217,
+        "updated_time": 1768645217,
+        "is_copyable": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "question": {
+          "id": "1995103702713852093",
+          "title": "刘嘉玲梅苑豪宅中大面积「红配绿」极繁主义装修，为何她花千万把家装得眼花缭乱？",
+          "created": 1768449789,
+          "relationship": {
+            "is_author": false
+          },
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1995103702713852093",
+          "answer_count": 0,
+          "bound_topic_ids": [
+            3254,
+            4057,
+            4833,
+            27496,
+            131959
+          ],
+          "question_type": "normal",
+          "author": {
+            "url_token": "75-20-21-60-37",
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false,
+            "id": "de723314fb688a2463b6d62e6645d7b9",
+            "url": "https://api.zhihu.com/people/de723314fb688a2463b6d62e6645d7b9",
+            "headline": "",
+            "is_org": false,
+            "followers_count": 105,
+            "user_type": "people",
+            "name": "一凹瑶"
+          },
+          "comment_count": 0,
+          "excerpt": "",
+          "follower_count": 0,
+          "is_following": false,
+          "detail": ""
+        },
+        "excerpt": "章泽天播客的第一期，带我们走进了刘嘉玲在香港的家。室内设计出自她已故的挚友邓永锵爵士之手。然后关于这套极繁美学的家，引起大家的争议。     刘嘉玲在香港的家与上海的家，颇有异曲同工之处。它们不只是居所，更像一座承载了多年生活、记忆与友谊的容器。谈到装修，她分享得很实在——没有多谈风格，却格外在意色彩。这或许与她童年时看母亲画工笔画的记忆有关。家中不少物件也不是为了装饰而摆，纯粹是因为喜欢，或关联着某段…",
+        "reshipment_settings": "need_payment",
+        "favorite_count": 23,
+        "type": "answer",
+        "allow_segment_interaction": true,
+        "content": "<p data-pid=\"Ks8RZdxq\">章泽天播客的第一期，带我们走进了刘嘉玲在香港的家。室内设计出自她已故的挚友邓永锵爵士之手。然后关于这套极繁美学的家，引起大家的争议。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1e6dd526d9acd1498978e9f88f6392a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1367\" data-original-token=\"v2-1e6dd526d9acd1498978e9f88f6392a5\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-1e6dd526d9acd1498978e9f88f6392a5_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2fe49c3068b3c927dff830d71513bbb2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1273\" data-original-token=\"v2-2fe49c3068b3c927dff830d71513bbb2\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-2fe49c3068b3c927dff830d71513bbb2_r.jpg\"/></figure><p data-pid=\"ph2u0vpL\">刘嘉玲在香港的家与上海的家，颇有异曲同工之处。它们不只是居所，更像一座承载了多年生活、记忆与友谊的容器。谈到装修，她分享得很实在——没有多谈风格，却格外在意色彩。这或许与她童年时看母亲画工笔画的记忆有关。家中不少物件也不是为了装饰而摆，纯粹是因为喜欢，或关联着某段经历、某位故人。与其说这里经过设计，不如说它是她人生轨迹自然而然的集合。这个家，是用来欣赏与社交的。动线专为“朋友来家里喝酒聊天”而设，并非为长期日常起居所规划。空间里透着的，是招待的随性与欢聚的诚意。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-555959d0ae030a9dd9853f164cd34f2a_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3026\" data-rawheight=\"1080\" data-original-token=\"v2-555959d0ae030a9dd9853f164cd34f2a\" class=\"origin_image zh-lightbox-thumb\" width=\"3026\" data-original=\"https://pica.zhimg.com/v2-555959d0ae030a9dd9853f164cd34f2a_r.jpg\"/><figcaption>香港的家和上海的家</figcaption></figure><p data-pid=\"X48VsKc0\"><b>1.</b> <b>这是什么风格的设计</b></p><p data-pid=\"rE9xUXtd\"><b>(1)</b> <b>极繁美学的设计作品特点：多即是多</b></p><p data-pid=\"2OBx6PAS\">极繁美学奉行“多即是多”的准则。其作品往往色彩饱满浓郁，富于强烈的视觉冲击；在软装陈设上，讲究产品的混搭与层次叠加；空间中的形状与形式也追求丰富与变化。这种美学风格常见于宗教建筑之中，因其需要借助繁复的形式与充盈的视觉语言来震撼人心，唤起敬畏与崇拜，并以具象的形状来叙述宗教故事。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3e19bfe622d46ee3da8f0824aa92644b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3093\" data-rawheight=\"1440\" data-original-token=\"v2-3e19bfe622d46ee3da8f0824aa92644b\" class=\"origin_image zh-lightbox-thumb\" width=\"3093\" data-original=\"https://pic4.zhimg.com/v2-3e19bfe622d46ee3da8f0824aa92644b_r.jpg\"/><figcaption>泰国寺庙，山西寺庙，意大利教堂</figcaption></figure><p data-pid=\"cP_aHnT6\"><b>(2)</b> <b>极简美学的设计作品特点：少即是多</b></p><p data-pid=\"TfHvr_Ku\">极简美学遵循“少即是多”的原则，追求视觉的纯粹与精神的留白。色彩干净而克制，常以中性色为主，营造出宁静的氛围。软装与硬装皆强调明确的功能性，摒弃多余的装饰，回归物与空间的本质。整体形态简约清晰，线条利落，空间结构通透有序，在节制中呈现出一种经得起时间考验的美感。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-f075293924157afd025cad71e425cea4_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3097\" data-rawheight=\"1315\" data-original-token=\"v2-f075293924157afd025cad71e425cea4\" class=\"origin_image zh-lightbox-thumb\" width=\"3097\" data-original=\"https://pic1.zhimg.com/v2-f075293924157afd025cad71e425cea4_r.jpg\"/><figcaption>极简主义</figcaption></figure><p data-pid=\"kXLZsCcJ\">纵观历史，炫耀性消费往往被用作彰显财富与权力的方式。然而，品味的发展实则是一种周期循环：当某种风格初兴时，设计师常强调其纯粹本质；随时间沉淀，人们才逐渐打破界限，将不同风格彼此融合，形成新的美学语言。</p><p data-pid=\"xc531Vj3\"><b>刘嘉玲的家，大部分是极简的硬装空间，极繁的软装配饰，其实堆砌的是她人生经历的过程</b></p><p data-pid=\"iKtrx_Us\"><b>2. 这套家好看吗？</b></p><p data-pid=\"s7-dsnr7\"> 关于刘嘉玲套家的审美，网络上众说纷纭。大家看这2张图，哪个空间美？</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-68ed880f45e1804a6d912701c2d69700_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2050\" data-rawheight=\"1441\" data-original-token=\"v2-68ed880f45e1804a6d912701c2d69700\" class=\"origin_image zh-lightbox-thumb\" width=\"2050\" data-original=\"https://pica.zhimg.com/v2-68ed880f45e1804a6d912701c2d69700_r.jpg\"/><figcaption>极简&amp;极繁</figcaption></figure><p data-pid=\"TywMD27r\">事实上，极繁与极简对应着两种不同的受众，其喜好往往截然不同。</p><p data-pid=\"Tubgd8X0\">同样是极繁美学的设计作品下面2套哪套美。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-80e7357473b1473bb9e62e8a14ced7c0_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1295\" data-rawheight=\"401\" data-original-token=\"v2-80e7357473b1473bb9e62e8a14ced7c0\" class=\"origin_image zh-lightbox-thumb\" width=\"1295\" data-original=\"https://pica.zhimg.com/v2-80e7357473b1473bb9e62e8a14ced7c0_r.jpg\"/><figcaption>你的家和杂志的家</figcaption></figure><p data-pid=\"gQP-5xWa\"> 其实这样的图，有<b>可能也有不同的答案。</b>家的美感本就因人而异，正如我们常说的——审美是私人的，并无绝对标准，最终仍取决于个人的感受与偏爱。</p><p data-pid=\"nxWwmZD0\"><b>3.</b> <b>名人的审美，是否总是正确或符合主流价值观？</b></p><p data-pid=\"7Yq-d4wh\">事实上，审美本身具有主观性与时代性，而名人因其身份与影响力，虽能引领风潮，却未必代表普遍价值。主流价值观也在不断流变之中，与个人品味之间，往往存在微妙的张力与对话。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b46475a8eb588c16707555b8c4b19b0b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"6424\" data-rawheight=\"1599\" data-original-token=\"v2-b46475a8eb588c16707555b8c4b19b0b\" class=\"origin_image zh-lightbox-thumb\" width=\"6424\" data-original=\"https://picx.zhimg.com/v2-b46475a8eb588c16707555b8c4b19b0b_r.jpg\"/></figure><p data-pid=\"G7qaDG6S\">这是于正老师的影视作品系列。从左至右，观众评价逐渐升高，其核心原因在于：作品的服化道与所讲述的故事高度契合，从而营造出整体统一的氛围感。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9da1884037aeb2a68416ca6f0107af1c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"2084\" data-rawheight=\"1898\" data-original-token=\"v2-9da1884037aeb2a68416ca6f0107af1c\" class=\"origin_image zh-lightbox-thumb\" width=\"2084\" data-original=\"https://pic1.zhimg.com/v2-9da1884037aeb2a68416ca6f0107af1c_r.jpg\"/><figcaption>冷暖形象坐标</figcaption></figure><p data-pid=\"-RDZ-sN4\">那么，好看的设计是否有标准？参考上方的冷暖坐标图，我们可以进行分析并找到答案。举例来说，若一部作品讲述古典故事，却使用了动感、活泼的色彩氛围，便会造成故事与视觉基调的不协调。而后两部作品，则做到了古典的故事、古典的形态与色彩质感相统一，因此更显和谐。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6fda1773ec80a6110ff25e73d27441ab_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4386\" data-rawheight=\"2180\" data-original-token=\"v2-6fda1773ec80a6110ff25e73d27441ab\" class=\"origin_image zh-lightbox-thumb\" width=\"4386\" data-original=\"https://pic4.zhimg.com/v2-6fda1773ec80a6110ff25e73d27441ab_r.jpg\"/></figure><p data-pid=\"aYUPjPah\">其实，家的美感也存在类似的标准——它最终取决于你对“家”的理解与期待。</p><p data-pid=\"1M3NWrZp\"><b>小结</b> <b>| 刘嘉玲的“家”给人的感受</b></p><p data-pid=\"cwdmfl_m\">从她家中的色彩选择、物件故事到空间动线，都清晰地呈现出一种“为相聚而生”的气质。这个家不追求某种固定的美学教条，也不刻意迎合主流，而是始终围绕着她个人的记忆、情感与生活方式展开。它更像一段立体的人生叙事，在审美表象之下，蕴藏的是她对生活的理解、对朋友的珍视，以及对自我经历的真诚接纳。因此，她的家之所以动人，并非因为符合某种外在标准，而在于其内在的“一致性”——空间的气质，与主人的生命轨迹，达到了真正的统一。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-5406ef2fc1978d53de6d7900a8297d8b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1346\" data-original-token=\"v2-5406ef2fc1978d53de6d7900a8297d8b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-5406ef2fc1978d53de6d7900a8297d8b_r.jpg\"/><figcaption>愿望你富有美丽</figcaption></figure><p data-pid=\"FiCOvLnE\"><b>我是萍萍姐姐，一个色彩研究者，相信每一个颜色都有它的情绪与使命。如果你也喜欢用色彩改写空间的故事，欢迎点赞、收藏，或在评论区分享你的“极繁风格”</b> </p>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-1e6dd526d9acd1498978e9f88f6392a5_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-2fe49c3068b3c927dff830d71513bbb2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-555959d0ae030a9dd9853f164cd34f2a_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-3e19bfe622d46ee3da8f0824aa92644b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f075293924157afd025cad71e425cea4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-68ed880f45e1804a6d912701c2d69700_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b46475a8eb588c16707555b8c4b19b0b_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9da1884037aeb2a68416ca6f0107af1c_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6fda1773ec80a6110ff25e73d27441ab_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-5406ef2fc1978d53de6d7900a8297d8b_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "thumbnail": "https://pica.zhimg.com/50/v2-1e6dd526d9acd1498978e9f88f6392a5_720w.jpg?source=b6762063",
+        "visited_count": 8456,
+        "url": "https://api.zhihu.com/answers/1995923386719807426",
+        "voteup_count": 58,
+        "thanks_count": 16,
+        "excerpt_new": "章泽天播客的第一期，带我们走进了刘嘉玲在香港的家。室内设计出自她已故的挚友邓永锵爵士之手。然后关于这套极繁美学的家，引起大家的争议。     刘嘉玲在香港的家与上海的家，颇有异曲同工之处。它们不只是居所，更像一座承载了多年生活、记忆与友谊的容器。谈到装修，她分享得很实在——没有多谈风格，却格外在意色彩。这或许与她童年时看母亲画工笔画的记忆有关。家中不少物件也不是为了装饰而摆，纯粹是因为喜欢，或关联着某段…",
+        "preview_text": ""
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995923386719807426}",
+      "attached_info": "Cv0KCJiX2Picjo7CchAEGgk3NjU4MjU0MDQg4cStywYoOjAEQHpKMwoeVFNfU09VUkNFX0ZFRURSRV9USU1FTElORVNTX1YzEgEwGAAgADoKeyJyYXciOiIifUorChZUU19TT1VSQ0VfRkVFRFJFX01TX1YzEgEwGAAgADoKeyJyYXciOiIifUp5Ci1UU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9PUEVSQVRPUl8yMElNUF9BTEwSEzM0NTg3NjQ1MTM4MjMzODkyMjYYACAAOi97Im1lZGlhX3R5cGUiOiJJTUFHRV9URVhUIiwicGluX21lZGlhX3R5cGUiOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoJMTE4MDc0NTM3YiBmOTgwYjYxMDVjMTVhNzg4NjYxZWQ3YTk2NGI4ZDMyZHITMTk5NTkyMzM4NjcxOTgwNzQyNooBEzE5OTUxMDM3MDI3MTM4NTIwOTOqAQlyZWNvbW1lbmTCASAzZTU5MDFkYzFkNzY5NWY1OWQ3NDhkYzVjNTgwYmY1M/IBCggMEgZOb3JtYWzyASgIChIkZTY0MmNhN2UtYmJkZC00N2RkLWE3YTAtMzcwMWFiNzk0ZmMx8gEGCAsSAjIxggIAiAK/u4uRvTOSAiAzZTU5MDFkYzFkNzY5NWY1OWQ3NDhkYzVjNTgwYmY1M5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXaAh5UU19TT1VSQ0VfRkVFRFJFX1RJTUVMSU5FU1NfVjPoAgX6AgtOT1JNQUxfRkxPV4oDIDE4NTM4ZjkzZTRlZjQzNjBhMzkyZWFmM2YzMzI4MWIxmgMNCgJ2MhAAGgVvdGhlcqgDiELYAwDqAxRmZWVkcmVfdGltZWxpbmVzc192M/oDpAQSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IBBC4CBjXCiIjdjItMWU2ZGQ1MjZkOWFjZDE0OTg5NzhlOWY4OGY2MzkyYTU6LQgEELgIGPkJIiN2Mi0yZmU0OWMzMDY4YjNjOTI3ZGZmODMwZDcxNTEzYmJiMjotCAMQ0hcYuAgiI3YyLTU1NTk1OWQwYWUwMzBhOWRkOTg1M2YxNjRjZDM0ZjJhOi0IAxCVGBigCyIjdjItM2UxOWJmZTYyMmQ0NmVlM2RhOGYwODI0YWE5MjY0NGI6LQgCEJkYGKMKIiN2Mi1mMDc1MjkzOTI0MTU3YWZkMDI1Y2FkNzFlNDI1Y2VhNDotCAUQghAYoQsiI3YyLTY4ZWQ4ODBmNDVlMTgwNGE2ZDkxMjcwMWMyZDY5NzAwOi0IAxCPChiRAyIjdjItODBlNzM1NzQ3M2IxNDczYmI5ZTYyZThhMTRjZWQ3YzA6LQgDEJgyGL8MIiN2Mi1iNDY0NzVhOGViNTg4YzE2NzA3NTU1YjhjNGIxOWIwYjotCAQQpBAY6g4iI3YyLTlkYTE4ODQwMzdhZWIyYTY4NDE2Y2E2ZjAxMDdhZjFjOi0IAxCiIhiEESIjdjItNmZkYTE3NzNlYzgwYTYxMTBmZjI1ZTczZDI3NDQxYWI6LQgFELgIGMIKIiN2Mi01NDA2ZWYyZmMxOTc4ZDUzZGU2ZDc5MDBhODI5N2Q4YoAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAZtYW51YWzCBAMxMTDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAIAuS6M/gQUAAAAAAAAAAIkFKQBaHJHvsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFZAGAKAGfKgGAJICLgoJNzY1ODI1NDA0EhMxOTk1OTIzMzg2NzE5ODA3NDI2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "123_1768757059.810",
+      "type": "feed",
+      "offset": 123,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757059,
+      "updated_time": 1768757059,
+      "target": {
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "content": "<ol><li data-pid=\"ML2M23GI\"><b>能力决定下限，愿力支撑上限</b><br/>见过太多这样的人：学历亮眼、技能扎实，做任何事都能快速上手做出模样，可往往在离目标不远的地方戛然而止；也见过一些起点普通、能力不算顶尖的人，凭着一股不撞南墙不回头的劲儿，慢慢熬出了属于自己的结果。<br/>后来渐渐明白，能力和愿力，从来都是支撑一个人走得远的两大核心。能力决定你能不能把一件事做好，愿力却决定你能不能把这件事坚持到底，甚至突破现有边界，抵达更高的高度。</li><li data-pid=\"CiYkwRHA\"><b>能力是基石，却难敌心力枯竭</b><br/>能力，是我们安身立命的硬本事。它可能是专业知识、实操技能，也可能是为人处世的分寸感、解决问题的逻辑力。拥有能力，意味着你在面对一件事时，不会手足无措，能够快速找到切入点，把事情做出基本框架和模样——这是能力给我们的底气。<br/>就像职场里，一个有能力的员工，接到项目后能迅速拆解任务、调配资源，按时按质完成交付，甚至做出超出预期的细节；学习中，一个有能力的人，能快速掌握知识点、搭建知识体系，在考试或实践中取得不错的成绩。这些都是能力带来的确定性，是我们能“做成事”的基础。<br/>但能力的红利，往往有上限。当事情推进到一定阶段，不再是简单的“熟能生巧”，而是需要对抗枯燥、承受压力、直面挫折时，能力就显得有些“力不从心”了。这时候，真正起决定性作用的，是心力——是支撑我们在困境中不放弃、在平淡中不松懈的内在力量。<br/>我身边有个做设计的朋友，专业能力极强，刚入行就凭借出色的作品站稳脚跟，很快成为团队核心。可就在筹备个人作品集、冲击行业大奖的关键期，他却突然停了下来。不是能力不够，而是日复一日的打磨、反复修改的挫败感、对结果的过度焦虑，耗尽了他的心力。他说：“我明明知道怎么改能更好，可就是提不起劲打开软件，一想到这件事就觉得疲惫。”<br/>这种“有能力做，却没心力坚持”的状态，其实是很多人的困境。能力能帮我们跨越“会不会”的门槛，却无法解决“想不想”“能不能扛住”的问题。就像爬山，能力决定你能爬多快、能应对多少陡峭路段，但心力才决定你在爬到半山腰、又累又看不到尽头时，是选择折返，还是咬牙向上。</li><li data-pid=\"ObUP4KB5\"><b>愿力是内核，是对抗虚无的铠甲</b><br/>如果说能力是外在的“术”，那愿力就是内在的“道”。它不是一时的兴趣或冲动，而是源于内心深处的渴望、信念与使命感，是“我一定要把这件事做成”的决心，是哪怕前路坎坷、无人理解，也依然愿意为之付出时间和精力的坚守。<br/>愿力的核心，是“有心”——是对这件事本身有足够的热爱，或是对结果有足够的执念，这份心意能转化为源源不断的动力，帮我们抵御过程中的疲惫与迷茫。就像那些深耕在小众领域的研究者，或许没有高额的回报，甚至要面对长期的孤独与不被认可，但因为对学术的热爱、对真理的追求，这份愿力支撑他们日复一日地钻研，终有一天做出突破性成果。<br/>反观那些中途放弃的人，大多不是能力不足，而是愿力不够。他们可能因为一时的利益选择做一件事，当遇到困难、利益缩水时，就失去了坚持下去的动力；也可能只是随波逐流，别人做什么自己就做什么，内心没有真正认同这件事的价值，自然无法在低谷中坚守。<br/>想起敦煌研究院的守护者们，几代人扎根大漠，面对恶劣的自然环境、枯燥的修复工作，用一生的时间修复壁画、保护文物。他们的能力固然重要，但更可贵的是那份“让千年文明延续下去”的愿力。这份愿力，让他们在单调的日子里找到意义，在艰难的处境中坚定方向，最终成就了跨越时空的伟大事业。</li><li data-pid=\"X_mfK8fP\"><b>能力与愿力，缺一不可</b><br/>没有能力的愿力，只是空想。就像一个没有任何编程基础的人，仅凭“想做一款改变世界的 APP”的愿力，终究只能停留在想法阶段，无法将愿景落地。愿力需要能力作为支撑，才能从“心动”转化为“行动”，从“想法”变成“成果”。<br/>而没有愿力的能力，只是工具。一个人即便拥有超强的能力，若没有明确的目标和坚定的信念，就容易在人生的路口迷失方向，要么浅尝辄止、一事无成，要么为了眼前的利益放弃长远的追求，最终让能力沦为谋生的工具，无法实现真正的自我价值。<br/>真正厉害的人，都懂得平衡能力与愿力。他们会不断打磨自己的能力，让自己拥有解决问题的底气；同时也会坚守内心的愿力，让自己在前行的路上有明确的方向和足够的动力。能力让他们走得稳，愿力让他们走得远。<br/>或许我们都曾有过这样的时刻：因为能力不足而受挫，因为心力耗尽而想放弃。但请记住，能力可以通过学习和实践不断提升，愿力可以通过明确目标、坚定信念慢慢滋养。<br/>当你既有把事情做好的能力，又有把事情坚持到底的愿力，就会发现，那些曾经的困难与迷茫，都将成为你成长路上的垫脚石，带你抵达更远的地方。</li></ol>",
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "type": "article",
+        "title": "一个人做事成不成，主要还是看心力",
+        "comment_permission": "all",
+        "voteup_count": 5,
+        "voting": 0,
+        "comment_count": 0,
+        "preview_text": "",
+        "is_labeled": false,
+        "url": "https://api.zhihu.com/articles/1995866545432332197",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "article_type": "normal",
+        "created": 1768632100,
+        "excerpt_new": "能力决定下限，愿力支撑上限 见过太多这样的人：学历亮眼、技能扎实，做任何事都能快速上手做出模样，可往往在离目标不远的地方戛然而止；也见过一些起点普通、能力不算顶尖的人，凭着一股不撞南墙不回头的劲儿，慢慢熬出了属于自己的结果。 后来渐渐明白，能力和愿力，从来都是支撑一个人走得远的两大核心。能力决定你能不能把一件事做好，愿力却决定你能不能把这件事坚持到底，甚至突破现有边界，抵达更高的高度。能力是基石，…",
+        "preview_type": "default",
+        "visited_count": 223,
+        "favorite_count": 11,
+        "author": {
+          "headline": "逆商而生，应作如是观",
+          "is_org": false,
+          "followers_count": 3,
+          "is_following": false,
+          "id": "872f51a2353bb07fbf5f710278a18b39",
+          "url": "https://api.zhihu.com/people/872f51a2353bb07fbf5f710278a18b39",
+          "user_type": "people",
+          "name": "向阳刘生",
+          "url_token": "sjis-40",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-0445bd72fc1f048036e401e8483fc0df_l.jpg?source=b6762063",
+          "gender": 1,
+          "is_followed": false
+        },
+        "updated": 1768632104,
+        "excerpt": "能力决定下限，愿力支撑上限 见过太多这样的人：学历亮眼、技能扎实，做任何事都能快速上手做出模样，可往往在离目标不远的地方戛然而止；也见过一些起点普通、能力不算顶尖的人，凭着一股不撞南墙不回头的劲儿，慢慢熬出了属于自己的结果。 后来渐渐明白，能力和愿力，从来都是支撑一个人走得远的两大核心。能力决定你能不能把一件事做好，愿力却决定你能不能把这件事坚持到底，甚至突破现有边界，抵达更高的高度。能力是基石，…",
+        "id": "1995866545432332197"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995866545432332197}",
+      "attached_info": "CoYFCJiX2Picjo7CchAHGgkyNjkxNjM2NzYgpN6sywYoBTAAQHtKNQogVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjISATAYACAAOgp7InJhdyI6IiJ9YiBmOTgwYjYxMDVjMTVhNzg4NjYxZWQ3YTk2NGI4ZDMyZHITMTk5NTg2NjU0NTQzMjMzMjE5N6oBCXJlY29tbWVuZMIBIDg3MmY1MWEyMzUzYmIwN2ZiZjVmNzEwMjc4YTE4YjM58gEKCAwSBk5vcm1hbPIBKAgKEiRiNmE3ZjZjMi1hNGZiLTQ5ZmUtYjY3OS04YjI2OGIxNTE1N2XyAQYICxICMjGCAgCIAr+7i5G9M5ICIDg3MmY1MWEyMzUzYmIwN2ZiZjVmNzEwMjc4YTE4YjM5mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZdoCIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1Yy6AID+gILTk9STUFMX0ZMT1eKAyAxODUzOGY5M2U0ZWY0MzYwYTM5MmVhZjNmMzMyODFiMZoDDQoCdjIQABoFb3RoZXKoA98B2AMA6gMWZmVlZHJlX2ZpcnN0X3NjcmVlbl92MvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAOCIEIY/gQUAAAAAAAAAAIkFKQBaHJHvsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFZAGAKAGfagGAJICLgoJMjY5MTYzNjc2EhMxOTk1ODY2NTQ1NDMyMzMyMTk3GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "124_1768757059.244",
+      "type": "feed",
+      "offset": 124,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768757059,
+      "updated_time": 1768757059,
+      "target": {
+        "excerpt": "“道可道，非常道；名可名，非常名。无名，天地之始；有名，万物之母。故常无，欲以观其妙；常有，欲以观其徼。此两者同出而异名，同谓之玄，玄之又玄，众妙之门。” 《道德经》第一章已经写得很清楚了，真正的道是说不清楚的，说得清楚的就不是道了。 儒道释三家之言分别讲入世、出世和往生，对于一个不相信人有前世今生，会往生极乐的人，我首先排除释迦牟尼，更何况佛教是文化入侵呐！ 从小习孔孟之道懂得了人情世故，可以让…",
+        "reshipment_settings": "allowed",
+        "visited_count": 59,
+        "thanks_count": 0,
+        "question": {
+          "title": "真正的道是什么？",
+          "created": 1733374107,
+          "answer_count": 0,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/6020754880",
+          "author": {
+            "url": "https://api.zhihu.com/people/df78b23ded94e184cdcf0117b01789d6",
+            "url_token": "shan-zheng-50",
+            "headline": "大风兮兮。魂来归兮。天人合一。非你莫属。。。",
+            "is_org": false,
+            "is_following": false,
+            "id": "df78b23ded94e184cdcf0117b01789d6",
+            "user_type": "people",
+            "name": "善征",
+            "avatar_url": "https://picx.zhimg.com/50/v2-2a6a7d352cf1ffa93a315ab5a6be5184_l.jpg?source=b6762063",
+            "gender": -1,
+            "followers_count": 127,
+            "is_followed": false
+          },
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "bound_topic_ids": [
+            2280
+          ],
+          "is_following": false,
+          "follower_count": 0,
+          "comment_count": 1,
+          "id": "6020754880",
+          "type": "question"
+        },
+        "answer_type": "normal",
+        "id": "1996180704480994556",
+        "is_labeled": true,
+        "comment_count": 0,
+        "thumbnail": "https://pic1.zhimg.com/50/v2-3b5f9bf05b90f62e5a7254e28640e584_720w.jpg?source=b6762063",
+        "voteup_count": 2,
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-3b5f9bf05b90f62e5a7254e28640e584_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        },
+        "updated_time": 1768714558,
+        "content": "<p data-pid=\"HAs0cEWL\">“道可道，非常道；名可名，非常名。无名，天地之始；有名，万物之母。故常无，欲以观其妙；常有，欲以观其徼。此两者同出而异名，同谓之玄，玄之又玄，众妙之门。”</p><p data-pid=\"aM84sVPM\">《道德经》第一章已经写得很清楚了，真正的道是说不清楚的，说得清楚的就不是道了。</p><p data-pid=\"fWll46Pl\">儒道释三家之言分别讲入世、出世和往生，对于一个不相信人有前世今生，会往生极乐的人，我首先排除释迦牟尼，更何况佛教是文化入侵呐！</p><p data-pid=\"Cxofqyfn\">从小习孔孟之道懂得了人情世故，可以让你出身社会后混得风生水起。等到了“五十而知天命”之时，如果还悟不透老庄就会活得很累。但是，极大部分人到死都没有悟透，所以才有“入世容易出世难”的说法。</p><p data-pid=\"4XjEX5_3\">道，深植于心，你历经磨难之后能否悟道，主要看你是否有慧根。慧根深，悟透了早已超脱人世之外；慧根浅，悟不透只能困苦一生。“玄之又玄，众妙之门。”不是所有人都能摸到妙门的，哈哈哈……“众人笑我太疯癫，我笑众人看不穿”，大概与道相通吧！</p><p data-pid=\"O-t2w8MC\">《庄子.齐物论》里面有一句话说得特别好，与君共勉：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-bc11be6945685db0cb27c3af454161d2_1440w.jpg\" data-rawwidth=\"1016\" data-rawheight=\"1017\" data-size=\"normal\" data-original-token=\"v2-3b5f9bf05b90f62e5a7254e28640e584\" class=\"origin_image zh-lightbox-thumb\" width=\"1016\" data-original=\"https://pic3.zhimg.com/v2-bc11be6945685db0cb27c3af454161d2_r.jpg\"/></figure><p></p>",
+        "created_time": 1768706567,
+        "navigator_vote": false,
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1996180704480994556",
+        "is_copyable": true,
+        "excerpt_new": "“道可道，非常道；名可名，非常名。无名，天地之始；有名，万物之母。故常无，欲以观其妙；常有，欲以观其徼。此两者同出而异名，同谓之玄，玄之又玄，众妙之门。” 《道德经》第一章已经写得很清楚了，真正的道是说不清楚的，说得清楚的就不是道了。 儒道释三家之言分别讲入世、出世和往生，对于一个不相信人有前世今生，会往生极乐的人，我首先排除释迦牟尼，更何况佛教是文化入侵呐！ 从小习孔孟之道懂得了人情世故，可以让…",
+        "preview_type": "default",
+        "preview_text": "",
+        "author": {
+          "url_token": "81-96-81-17-90",
+          "followers_count": 1,
+          "id": "b7ac57e94c0a20ee5d54fcc12bcf902f",
+          "url": "https://api.zhihu.com/people/b7ac57e94c0a20ee5d54fcc12bcf902f",
+          "headline": "明明是个重情重义的人，学什么薄情寡义，做不到的事别做！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-3d639a24faaed17770d36cb8e3cb3d0d_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "name": "燚网覃燊"
+        },
+        "favorite_count": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1996180704480994556}",
+      "attached_info": "CoEGCJiX2Picjo7CchAEGgk3NjU4OTk0MDQgh6SxywYoAjAAQHxKJAoZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMhIBMBgAIAA6AEosCiFUU19TT1VSQ0VfV0FSTVVQX1pISV9GSU5FVFVORV9JMkkSATAYACAAOgBaCTExMjE4MDg1OWIgZjk4MGI2MTA1YzE1YTc4ODY2MWVkN2E5NjRiOGQzMmRyEzE5OTYxODA3MDQ0ODA5OTQ1NTaKAQo2MDIwNzU0ODgwqgEJcmVjb21tZW5kwgEgYjdhYzU3ZTk0YzBhMjBlZTVkNTRmY2MxMmJjZjkwMmbyAQoIDBIGTm9ybWFs8gEoCAoSJDA1OGRjNjM3LTE2MTItNDliOS1hNmVmLTVkNmVmN2Y2Y2I0ZvIBBggLEgIyMYICAIgCv7uLkb0zkgIgYjdhYzU3ZTk0YzBhMjBlZTVkNTRmY2MxMmJjZjkwMmaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMugCAvoCC05PUk1BTF9GTE9XigMgMTg1MzhmOTNlNGVmNDM2MGEzOTJlYWYzZjMzMjgxYjGaAw0KAnYyEAAaBW90aGVyqAM72AMA6gMaYWlfemhpX2ZpbmV0dW5yX2kyaV9yZWNhbGz6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhD4Bxj5ByIjdjItM2I1ZjliZjA1YjkwZjYyZTVhNzI1NGUyODY0MGU1ODSABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAAl94Q/gQUAAAAAAAAAAIkFKQBaHJHvsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFZAGAKAGfqgGAZICLgoJNzY1ODk5NDA0EhMxOTk2MTgwNzA0NDgwOTk0NTU2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "125_1768757059.301",
+      "type": "feed",
+      "offset": 125,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768757059,
+      "updated_time": 1768757059,
+      "target": {
+        "author": {
+          "gender": 1,
+          "is_following": false,
+          "id": "dfd18f312d5211bc280bddc5188a8ff2",
+          "url": "https://api.zhihu.com/people/dfd18f312d5211bc280bddc5188a8ff2",
+          "headline": "公众号「韦海生」，一个比较正经的读书号。",
+          "avatar_url": "https://pica.zhimg.com/50/v2-cc25c65d30efc8cad9823e870ad35fda_l.jpg?source=b6762063",
+          "followers_count": 13228,
+          "is_followed": false,
+          "user_type": "people",
+          "url_token": "weihaisheng",
+          "name": "韦海生",
+          "is_org": false
+        },
+        "comment_permission": "all",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "content": "<p data-pid=\"RKseTbP8\">看到这个标题，你可能觉得有点别扭，认为我在吹牛。其实这是我三年多前写了一篇文章叫《<span class=\"nolink\">人物传记50本（修订版）</span>》，介绍的其中一本传记，有读者读了之后，跟我这么说的。</p><p data-pid=\"tBISaD2z\">这本书就是<b>詹姆斯·米勒的《福柯的生死爱欲》</b>。不过这本书不好读，它不像其他人物传记一样，按照主人公的年龄从小到大写的，而是夹杂着福柯的作品来讲，不了解福柯的话，只能读懂五六分。</p><p data-pid=\"uDmDsJk3\">说到米歇尔·福柯，你在大学课本里听过这个名字，知道他是一个法国大哲学家，写过《疯癫与文明》《规训与惩罚》，还有《性史》等，都是大名鼎鼎的社会学经典。</p><p data-pid=\"1COupav5\">不过这本书的作者詹姆斯·米勒，并没有把福柯写成一个高高在上的大哲学家，也没有按部就班地只讲福柯发了什么文章，得了什么奖，而是把目光对准了福柯生活中最隐秘、最受争议，甚至是最「危险」的部分。</p><p data-pid=\"7ofd43s-\">这部分，就是这本书的主要内容，也就是藏在书名这几个字里：<b>生、死、爱、欲</b>。</p><p data-pid=\"xcWDxnwH\">米勒在书中花了很多篇幅，去挖掘福柯是如何用自己的身体和生命去做哲学的实验品。他写了福柯对死亡的迷恋，写了福柯在混乱的私生活里寻找快感，还写了福柯最后死于艾滋病的悲剧结局。</p><p data-pid=\"aav5mriJ\">你可能觉得，这不就是有点猎奇的八卦吗？</p><p data-pid=\"BYqvJZZ2\">还真不是。作者米勒认为，你想要真正理解福柯那些晦涩难懂的哲学思想，就必须去了解他的这些「极限体验」。因为福柯自己就说过，<b>他的每一部作品，其实都是他个人生活经历的一部分，都是一种「自传」</b>。</p><p data-pid=\"ncFRXi63\">整本书读下来你就会发现，福柯不是那个躲在书斋里的老学究，而是一个在理性与疯狂、生命与死亡的边缘疯狂试探的冒险家。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-c18bbad253a84e933ebd0114afd4ec86_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"727\" data-rawheight=\"535\" data-original-token=\"v2-bb0a0695222cafe4c9cd7efb74a7ff01\" class=\"origin_image zh-lightbox-thumb\" width=\"727\" data-original=\"https://pic3.zhimg.com/v2-c18bbad253a84e933ebd0114afd4ec86_r.jpg\"/></figure><p data-pid=\"CKfw1pFA\">我开头说的这本书不好读，那是因为我觉得它真实记录了福柯那些常人难以想象的「疯狂」经历。</p><p data-pid=\"cFHfyjki\">我就拿福柯在1975年的一次经历来说说。当时福柯去了美国的加利福尼亚，如果你以为他只是去那边的大学讲讲课，开开座谈会，那你就太小看他了。</p><p data-pid=\"_dvkvtl2\">当时有两个年轻的美国崇拜者，邀请福柯去著名的「死亡谷」一游。这地方听名字就挺吓人的，他们还给福柯准备了一份特殊的「礼物」——迷幻药LSD。</p><p data-pid=\"rTHTFVtR\">我们普通人去旅游，顶多就是拍拍照，看看风景。福柯倒好，他在那个荒无人烟、只有石头和沙砾的沙漠里，服下了这种药。这可不是为了寻求刺激那么简单，对福柯来说，这是一次追求「真相」的仪式。</p><p data-pid=\"wkbN-vl9\">书中记录了那个晚上的场景：在死寂的沙漠里，随着药劲上来，福柯看着夜空中的星星，听着伊丽莎白·施瓦茨科普夫演唱的《最后四首歌》。那一刻，他泪流满面，说自己即使现在死掉也心甘情愿。</p><p data-pid=\"jHKZNHzb\">这件事听起来是不是挺离谱？一个大哲学家，竟然跑去沙漠里嗑~药。</p><p data-pid=\"O107kaPL\">可是在福柯看来，很多人平时被各种社会规矩、道德束缚，根本看不清真实的自己。只有在某些极端的时刻，比如极度的痛苦、极度的快乐，或者像这种药物带来的迷幻状态下，人才能打破理性的外壳，看到那个被压抑的、真实的「我」。</p><p data-pid=\"nzMwAEeo\">这次经历对福柯的影响大得惊人。</p><p data-pid=\"3WdY-HL5\">他在那之后，竟把手头已经写好的《性史》几大卷手稿，统统扔到了一边。因为他觉得，以前写的东西太书生气了，没有触及到那种他在死亡谷里体验到的「肉体和快感」的真相。</p><p data-pid=\"9G_m3sPM\">这就是福柯，为了追求他认为的真理，他敢于拿自己的身体做实验，敢于推翻自己几年的心血。<b>这种对自己「下狠手」的做法，读起来让你不得不服</b>。</p><p data-pid=\"MnFQf5KR\">因为福柯这个人的活法，颠覆了我们的认知。再看我们大多数人，一辈子都在追求安稳，努力工作，存钱买房，就是为了规避风险，为了活得更长、更安全。</p><p data-pid=\"uqZ2ETWg\">可是福柯却完全反着来，他的一生似乎都在主动寻找危险。</p><p data-pid=\"g9oPl9vq\">他年轻的时候就有自杀倾向，还经常伤害自己。后来他又迷恋上了那种带有痛感的S/M游戏，甚至在艾滋病刚开始流行、大家还都很恐慌的时候，他依然毫无顾忌地去那些高风险的场所。</p><p data-pid=\"WCDjFwGJ\">看到这里，你一定觉得这人是不是疯了？</p><p data-pid=\"1ZoMHBKO\">可是你认真读进去了，就会慢慢理解他所谓的「极限体验」。他不是不想活，他是觉得如果生命只是庸庸碌碌地重复，只是遵守别人定好的规矩，那活得再长也没意思。</p><p data-pid=\"7-yLT6qk\">他想看看，人到底能自由到什么程度？人的身体和精神，到底能承受多大的强度？<b>这就像尼采说的，要「成为你自己」。福柯是用一种极其惨烈的方式在实践这句话。</b></p><p data-pid=\"lRuYKxhk\">当我读到这些段落时，我就问自己：我现在的「安稳」，是不是也是一种自我设限？我是不是因为害怕犯错，害怕别人的眼光，就放弃了探索更多可能性的机会？</p><p data-pid=\"ozY7FR39\">作者在书中还写道，福柯在生命的最后阶段，就是在把自己的生活当成一件艺术品来雕琢。他不希望自己的生活是一成不变的，他希望通过不断的「越界」，去创造一个全新的自我。</p><p data-pid=\"ldQ91H5L\">这种把生命本身当作作品来打磨的态度，太震撼了。哪怕我们不赞同他的具体做法（毕竟我们还是得惜命），他那种不甘平庸、敢于挑战生命极限的勇气，也是一种巨大的精神能量。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8e4be95160f1d340ba4b0f20d1a907b2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"718\" data-rawheight=\"470\" data-original-token=\"v2-31afd809692722079ce84a6ef06064e1\" class=\"origin_image zh-lightbox-thumb\" width=\"718\" data-original=\"https://pic3.zhimg.com/v2-8e4be95160f1d340ba4b0f20d1a907b2_r.jpg\"/></figure><p data-pid=\"JlVAulBh\">每次我觉得生活没劲、工作倦怠的时候，都会摸一摸这本书（没有看），想一想福柯是怎样在生与死的边缘折腾的，我就觉得自己那点矫情根本不算什么事。</p><p data-pid=\"dPxJGXKV\">说真的，他能让人重新燃起对生活的热情，哪怕只是去尝试一件小事，去打破一个小小的习惯，也是一种对平庸的反抗。</p><p data-pid=\"-EcaH_eR\">我今天推荐这本《福柯的生死爱欲》，只是因为在这个充满到处都是规矩，或者到处都是正确废话的世界里，我们太需要听到一些不同的声音了。</p><p data-pid=\"7Fj29v2D\">你想一想，自己是不是从小被教育要听话，要懂事？但这些却让你变得畏手畏脚，活得像一个模子里刻出来的复制品。（现在的教育不就是这样吗）</p><p data-pid=\"mPQS4FuB\"><b>福柯的一生，就是对这种「听话」人生的最大嘲讽</b>。</p><p data-pid=\"w8rX8lmI\">这本书还会告诉你，人原来还可以这样活。你可以不完美，可以有怪癖，可以犯错，你还可以有些疯狂。但是这都没关系，重要的是你要真诚地面对自己的欲望和内心，哪怕那个内心深处是一片黑暗，你也得有勇气去直视它。</p><p data-pid=\"n65BxH-s\">米勒在书里没有把福柯捧上神坛，也没有用道德的大棒去审判他，他只是真实地呈现了一个天才的痛苦和狂欢。</p><p data-pid=\"OdCOrmAg\">读完这本书，你也许不想去模仿福柯的生活（千万别模仿），一定获得某种精神上的松绑。</p><p data-pid=\"eSxIlec1\">你还会明白，所谓的「正常」和「不正常」，其实界限并没有那么清晰，那些我们平时不敢想、不敢做的事，也许正是通往真实自我的入口。</p><p data-pid=\"9jgm3WlU\">哪怕你对哲学一窍不通，哪怕你对福柯的理论毫无兴趣，光是看他这个人如何在生与死之间徘徊，如何在快乐与痛苦中寻找自我，就已经足够精彩了。</p>",
+        "is_labeled": false,
+        "visited_count": 154,
+        "favorite_count": 5,
+        "title": "我不推荐，你就会错过这本好书",
+        "excerpt": "看到这个标题，你可能觉得有点别扭，认为我在吹牛。其实这是我三年多前写了一篇文章叫《 人物传记50本（修订版）》，介绍的其中一本传记，有读者读了之后，跟我这么说的。这本书就是 詹姆斯·米勒的《福柯的生死爱欲》。不过这本书不好读，它不像其他人物传记一样，按照主人公的年龄从小到大写的，而是夹杂着福柯的作品来讲，不了解福柯的话，只能读懂五六分。说到米歇尔·福柯，你在大学课本里听过这个名字，知道他是一个法国大…",
+        "excerpt_new": "看到这个标题，你可能觉得有点别扭，认为我在吹牛。其实这是我三年多前写了一篇文章叫《 人物传记50本（修订版）》，介绍的其中一本传记，有读者读了之后，跟我这么说的。这本书就是 詹姆斯·米勒的《福柯的生死爱欲》。不过这本书不好读，它不像其他人物传记一样，按照主人公的年龄从小到大写的，而是夹杂着福柯的作品来讲，不了解福柯的话，只能读懂五六分。说到米歇尔·福柯，你在大学课本里听过这个名字，知道他是一个法国大…",
+        "preview_type": "default",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "voteup_count": 6,
+        "column": {
+          "type": "column",
+          "author": {
+            "id": "",
+            "url": "",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_following": false
+          },
+          "imageUrl": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "is_following": false,
+          "intro": "经常更新荐书和书单文章，欢迎订阅！",
+          "updated": 1735089090,
+          "id": "c_1333353414659997696",
+          "url": "https://api.zhihu.com/columns/c_1333353414659997696",
+          "title": "真格读书会",
+          "comment_permission": "private"
+        },
+        "article_type": "normal",
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "preview_text": "",
+        "id": "1995888510947837125",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1995888510947837125",
+        "created": 1768637171,
+        "updated": 1768637171,
+        "voting": 0,
+        "comment_count": 3
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995888510947837125}",
+      "attached_info": "CskGCJiX2Picjo7CchAHGgkyNjkxNjc5NDIg84WtywYoBjADQH1KQgotVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhUEgEwGAAgADoKeyJyYXciOiIifUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMTI0OTM1NjJiIGY5ODBiNjEwNWMxNWE3ODg2NjFlZDdhOTY0YjhkMzJkchMxOTk1ODg4NTEwOTQ3ODM3MTI1igEVY18xMzMzMzUzNDE0NjU5OTk3Njk2qgEJcmVjb21tZW5kwgEgZGZkMThmMzEyZDUyMTFiYzI4MGJkZGM1MTg4YThmZjLyAQoIDBIGTm9ybWFs8gEoCAoSJDRmYjkxNmY4LTcyNjQtNGM3ZC04ODAxLWE5Y2VmM2VjNDZmNPIBBggLEgIyMYICAIgCv7uLkb0zkgIgZGZkMThmMzEyZDUyMTFiYzI4MGJkZGM1MTg4YThmZjKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIE+gILTk9STUFMX0ZMT1eKAyAxODUzOGY5M2U0ZWY0MzYwYTM5MmVhZjNmMzMyODFiMZoDDQoCdjIQABoFb3RoZXKoA5oB2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ1wUYlwQiI3YyLWJiMGEwNjk1MjIyY2FmZTRjOWNkN2VmYjc0YTdmZjAxOi0IAhDOBRjWAyIjdjItMzFhZmQ4MDk2OTI3MjIwNzljZTg0YTZlZjA2MDY0ZTGABACIBACSBAZOb3JtYWyaBAE0oAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAKAfJZI/gQUAAAAAAAAAAIkFKQBaHJHvsz+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFZAGAKAGf6gGAJICLgoJMjY5MTY3OTQyEhMxOTk1ODg4NTEwOTQ3ODM3MTI1GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=125&desktop=true&end_offset=127&page_number=22&session_token=f980b6105c15a788661ed7a964b8d32d",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=125&desktop=true&end_offset=127&page_number=22&session_token=f980b6105c15a788661ed7a964b8d32d",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

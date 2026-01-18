@@ -1,0 +1,611 @@
+{
+  "data": [
+    {
+      "id": "6_1768674850.779",
+      "type": "feed",
+      "offset": 6,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674850,
+      "updated_time": 1768674850,
+      "target": {
+        "comment_permission": "all",
+        "created": 1768270129,
+        "updated": 1768270129,
+        "is_labeled": false,
+        "visited_count": 1506,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-876cec3fea965a5522ca5a06d32d8be4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-01328b0c05fed20ce02149e15e198134_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-675fb9ad4bd965a9bb4ace56e5104ce4_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-64483bee37bf1d6594e6085d083c3631_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-a2a1bbdddf7c4145aa56fccf0dd865ab_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b66c74168946115755a85c307a4eac5d_720w.jpg?source=b6762063"
+        ],
+        "id": "1994343817332143003",
+        "author": {
+          "url": "https://api.zhihu.com/people/17808ad4067e8072a219e97c9ae44de0",
+          "url_token": "riao-11",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-9710ad05dd4a075185003198135dd37c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 28110,
+          "is_following": false,
+          "id": "17808ad4067e8072a219e97c9ae44de0",
+          "is_followed": false,
+          "name": "逛逛GitHub",
+          "headline": "公众号 逛逛GitHub，每日优质项目推送。",
+          "user_type": "people"
+        },
+        "favorite_count": 126,
+        "excerpt_new": "这个叫 planning-with-files 的开源项目非常之火， 现在搞 Agent 的开发者一定要仔细学习一下。开源几天就六七千的 Star 了。   他教你使用 Claude Code Skill 实现 Manus 类似的上下文工程。   01 Manus 的上下文工程原则   之前 Manus 公布过自己产品在实践的上下文工程原则，我根据自己的记忆来简单总结一下，简单而言就是： ① 文件即单一真理来源打破 AI 的记忆主要依赖对话历史的传统做法，信任文件。主要是因为 对话历史是线性的…",
+        "preview_text": "",
+        "article_type": "normal",
+        "navigator_vote": false,
+        "voteup_count": 23,
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "excerpt": "这个叫 planning-with-files 的开源项目非常之火， 现在搞 Agent 的开发者一定要仔细学习一下。开源几天就六七千的 Star 了。   他教你使用 Claude Code Skill 实现 Manus 类似的上下文工程。   01 Manus 的上下文工程原则   之前 Manus 公布过自己产品在实践的上下文工程原则，我根据自己的记忆来简单总结一下，简单而言就是： ① 文件即单一真理来源打破 AI 的记忆主要依赖对话历史的传统做法，信任文件。主要是因为 对话历史是线性的…",
+        "preview_type": "default",
+        "content": "<p data-pid=\"byluEue-\">这个叫 planning-with-files 的开源项目非常之火，<b>现在搞 Agent 的开发者一定要仔细学习一下。</b>开源几天就六七千的 Star 了。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-876cec3fea965a5522ca5a06d32d8be4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"721\" data-original-token=\"v2-876cec3fea965a5522ca5a06d32d8be4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-876cec3fea965a5522ca5a06d32d8be4_r.jpg\"/></figure><p data-pid=\"e-L9HRDl\">他教你使用 Claude Code Skill 实现 Manus 类似的上下文工程。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-024e860c4042ca06c40fb75f925a7b9f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"599\" data-original-token=\"v2-024e860c4042ca06c40fb75f925a7b9f\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-024e860c4042ca06c40fb75f925a7b9f_r.jpg\"/></figure><p data-pid=\"5sFsgIbY\">01</p><p data-pid=\"qBn-hsY2\"><b>Manus 的上下文工程原则</b></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-01328b0c05fed20ce02149e15e198134_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"968\" data-original-token=\"v2-01328b0c05fed20ce02149e15e198134\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-01328b0c05fed20ce02149e15e198134_r.jpg\"/></figure><p data-pid=\"AFyXkCSE\">之前 Manus 公布过自己产品在实践的上下文工程原则，我根据自己的记忆来简单总结一下，简单而言就是：</p><p data-pid=\"aXuPJgtN\"><b>① 文件即单一真理来源</b></p><p data-pid=\"_nqibsU_\">打破 AI 的记忆主要依赖对话历史的传统做法，信任文件。主要是因为<b>对话历史是线性的、嘈杂的，且包含大量过时的纠错信息。</b></p><p data-pid=\"j61dypd9\">而文件是经过整理的、当前的「最新状态」。</p><p data-pid=\"sdkjBGbV\">AI 每次行动前，应该主要读取这些文件，而不是回溯几千行的聊天记录。这确保了 AI 永远基于当前最准确的状态行动。</p><p data-pid=\"_xXEo5Ig\"><b>② 状态显式化</b></p><p data-pid=\"w8xDax4N\">如果你用过 Manus ，会发现他有一个 <b>ToDo 文件</b>，明确记录着：[x] 步骤1、[ ] 步骤2。这被称为外部化记忆。</p><p data-pid=\"WqgHfBjU\">即使此时你关闭终端、重启电脑，AI 再次启动时读取文件，立刻就能知道进度条在哪里，实现了完美的可恢复性。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-675fb9ad4bd965a9bb4ace56e5104ce4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"721\" data-original-token=\"v2-675fb9ad4bd965a9bb4ace56e5104ce4\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-675fb9ad4bd965a9bb4ace56e5104ce4_r.jpg\"/></figure><p data-pid=\"LDZUboA3\"><b>③ 上下文窗口极简主义 </b></p><p data-pid=\"lxkr3LA2\">不把所有相关文件、所有历史对话都丢给 AI，<b>只喂给 AI 当前步骤必要的信息。</b></p><p data-pid=\"OtTHRLzi\">上下文越长，AI 的注意力越分散。</p><p data-pid=\"kEQfjbER\">通过将信息拆分到 notes.md、plan.md 和 output.md，AI 在执行某一步时，只需要读取相关的片段，保持大脑清醒，Token 消耗也更少。</p><p data-pid=\"KVsb9e3O\"><b>④ 思考与行动分离</b></p><p data-pid=\"gWcinW-2\">不让 AI 在一次回复中同时进行思考、规划和写代码，<b>而是让 AI 先想，再做。</b></p><p data-pid=\"AdZ1ZjkN\">强制 AI 先在一个 Notes 上写下它的调研结果、架构思路，确认无误后，再去修改正式的代码文件。</p><p data-pid=\"6uYwrc23\">这避免了 AI 写到一半发现思路错了导致代码库被污染的情况。</p><p data-pid=\"Jxuzwxd3\"><b>⑤ 围绕 KV-Cache 进行设计</b></p><p data-pid=\"UHqqL-Rr\">由于 Agent 任务通常呈现长输入、短输出的特征，如果不能有效利用 KV-Cache，成本和延迟将无法承受。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-cf105ac6af3f69f175818016b13a4300_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"588\" data-original-token=\"v2-cf105ac6af3f69f175818016b13a4300\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-cf105ac6af3f69f175818016b13a4300_r.jpg\"/></figure><p data-pid=\"6ipuTh60\"><b>所有的 Prompt 设计都要为缓存命中率让路。</b></p><p data-pid=\"2U6JW8sA\">要保持前缀稳定，不能在 System Prompt 或前置上下文中放入动态内容，这会导致后续所有缓存失效。</p><p data-pid=\"_Hw5ffBM\"><b>只追加不修改：</b> 历史交互记录一旦生成，就不要再去修剪或改写。</p><p data-pid=\"bpS3PVO-\"><b>确定性序列化：</b> JSON 对象的 Key 排序必须固定，确保相同的状态永远生成完全相同的字符串。</p><p data-pid=\"3_3t96bs\"><b>⑥ 掩码而非移除工具</b></p><p data-pid=\"GgJ-YaSI\">随着 Agent 能力增强，工具库会变得巨大。一种直觉的做法是动态移除当前不需要的工具描述以节省 Token，但这被 Manus 视为错误。</p><p data-pid=\"c_GRJApO\"> 动态移除工具会破坏 KV-Cache，因为工具定义通常在 System Prompt 中，且会导致模型在看到历史记录中调用了<b>不存在的工具</b>时产生困惑。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-516c3569515c8749fc08f98e7096a180_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"633\" data-original-token=\"v2-516c3569515c8749fc08f98e7096a180\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-516c3569515c8749fc08f98e7096a180_r.jpg\"/></figure><p data-pid=\"bZrpgxKa\">保留所有工具定义，始终将完整工具集留在 Context 中。</p><p data-pid=\"D_qcVc17\">在解码阶段（Decoding），通过修改 Logits（概率分布）来屏蔽当前不合法的工具。</p><p data-pid=\"uSBigaWf\">例如，强制模型只能选择“回复用户”而不能调用“浏览器”，是通过在底层屏蔽 Token 实现的，而不是修改 Prompt。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-64483bee37bf1d6594e6085d083c3631_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"809\" data-original-token=\"v2-64483bee37bf1d6594e6085d083c3631\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-64483bee37bf1d6594e6085d083c3631_r.jpg\"/></figure><div class=\"highlight\"><pre><code class=\"language-text\">博客地址：https://manus.im/zh-cn/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus</code></pre></div><p data-pid=\"9zLiobsi\">上面就是 Manus 分享的上下文工程的实践，有一个核心的观点就是：<br/></p><p data-pid=\"mAcP30rv\"><b>对话流（Chat）只适合短暂的指令交互，而文件系统（FileSystem）才是智能体（Agent）长期记忆和复杂推理的最佳载体。</b></p><p data-pid=\"mNb_SisR\">02</p><p data-pid=\"1JXwq7J6\"><b>项目简介</b></p><p data-pid=\"v0u87D_n\">说回开源项目 planning-with-files，它的核心理念也是：<b>使用文件进行规划。</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a2a1bbdddf7c4145aa56fccf0dd865ab_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"845\" data-original-token=\"v2-a2a1bbdddf7c4145aa56fccf0dd865ab\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-a2a1bbdddf7c4145aa56fccf0dd865ab_r.jpg\"/></figure><div class=\"highlight\"><pre><code class=\"language-text\">开源地址：https://github.com/OthmanAdi/planning-with-files</code></pre></div><p data-pid=\"Uws-hCLa\">安装这个 Skill 后，Claude 会自动维护三个核心文件，这也是它被称为 Manus 风格 工作流的原因）：</p><p data-pid=\"7UjUNJ4d\"><b>① task_plan.md</b></p><p data-pid=\"ocBBAh3Y\">记录当前任务的目标、拆解的步骤、已完成的进度、下一步要做什么。</p><p data-pid=\"dT9RfkXk\">好处：AI 每做一步之前，都会先读这个文件，确保自己不迷路。</p><p data-pid=\"oi_OrYbx\"><b>② notes.md</b></p><p data-pid=\"_iZfbj1B\">存放调研资料、中间代码片段、临时的想法或长文本。</p><p data-pid=\"YcH5B18D\">能够保持对话窗口干净，避免因为塞入太多无关细节而把 AI 搞晕。</p><p data-pid=\"vHwKP3NE\"><b>③ [deliverable].md </b></p><p data-pid=\"nguMrcyM\">最终生成的代码、文章或报告。这是纯净的输出结果，不包含思考过程。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b66c74168946115755a85c307a4eac5d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"885\" data-original-token=\"v2-b66c74168946115755a85c307a4eac5d\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-b66c74168946115755a85c307a4eac5d_r.jpg\"/></figure><p data-pid=\"65I3BRV-\">说白了，这个开源项目就是一个给 AI 安装外挂大脑的插件。</p><p data-pid=\"NGAVQ_4-\">它通过强制 AI 使用本地文件来记录进度和思考，<b>解决了大模型聊久了就忘事，这种上下文丢失获目标漂移的痛点</b></p><p data-pid=\"mUVRP6Wu\"><b>如何使用</b></p><p data-pid=\"Qsl2_I21\">这个项目本质上是一个 Claude Code Skill，你需要先安装 Claude Code，然后通过命令安装此 Skill。</p><div class=\"highlight\"><pre><code class=\"language-text\">/plugin marketplace add OthmanAdi/planning-with-files</code></pre></div><p data-pid=\"BoXzZ3ff\">在 Claude Code 中，当你要求它规划一下这个任务或者提到 planning 时，它就会自动创建 task_plan.md 并进入这种高智商工作模式。</p>",
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/articles/1994343817332143003",
+        "title": "开源 3 天就 7000 Star！这个复刻 Manus 工作流的 GitHub 项目火了。",
+        "comment_count": 0,
+        "type": "article",
+        "voting": 0
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994343817332143003}",
+      "attached_info": "Cs4ICL+Vp8GdkK/MkgEQBxoJMjY4OTM1MjYzILHSlssGKBcwAEAGSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NDM0MzgxNzMzMjE0MzAwM6oBCXJlY29tbWVuZMIBIDE3ODA4YWQ0MDY3ZTgwNzJhMjE5ZTk3YzlhZTQ0ZGUw8gEKCAwSBk5vcm1hbPIBKAgKEiQ3NTM0Y2E2ZC0xZDQ5LTRlZWUtODJiMy0zYWE3Yzg4NTI0MGbyAQUICxIBMoICAIgC3uvx6bwzkgIgMTc4MDhhZDQwNjdlODA3MmEyMTllOTdjOWFlNDRkZTCaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCAvoCC05PUk1BTF9GTE9XigMgMjBlZTg3NDExMTgxNDBkNWFkNjE3NzQzYTA3YmFiZWWaAw0KAnYyEAAaBW90aGVyqAPiC9gDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gPGAxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDELgIGNEFIiN2Mi04NzZjZWMzZmVhOTY1YTU1MjJjYTVhMDZkMzJkOGJlNDotCAIQuAgY1wQiI3YyLTAyNGU4NjBjNDA0MmNhMDZjNDBmYjc1ZjkyNWE3YjlmOi0IAhC4CBjIByIjdjItMDEzMjhiMGMwNWZlZDIwY2UwMjE0OWUxNWUxOTgxMzQ6LQgCELgIGNEFIiN2Mi02NzVmYjlhZDRiZDk2NWE5YmI0YWNlNTZlNTEwNGNlNDotCAIQuAgYzAQiI3YyLWNmMTA1YWM2YWYzZjY5ZjE3NTgxODAxNmIxM2E0MzAwOi0IBBC4CBj5BCIjdjItNTE2YzM1Njk1MTVjODc0OWZjMDhmOThlNzA5NmExODA6LQgEELgIGKkGIiN2Mi02NDQ4M2JlZTM3YmYxZDY1OTRlNjA4NWQwODNjMzYzMTotCAIQuAgYzQYiI3YyLWEyYTFiYmRkZGY3YzQxNDVhYTU2ZmNjZjBkZDg2NWFiOi0IAhC4CBj1BiIjdjItYjY2Yzc0MTY4OTQ2MTE1NzU1YTg1YzMwN2E0ZWFjNWSABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGDjJ5A/gQUAAAAAAAAAAIkF4n3LGVo0pT+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFApAGAKAGB6gGAJICLgoJMjY4OTM1MjYzEhMxOTk0MzQzODE3MzMyMTQzMDAzGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "7_1768674850.318",
+      "type": "feed",
+      "offset": 7,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674850,
+      "updated_time": 1768674850,
+      "target": {
+        "comment_permission": "censor",
+        "created": 1722075659,
+        "voteup_count": 374,
+        "excerpt": "随着暑假的到来，孩子们纷纷放假，同时各种白名单竞赛也进入了末期，即将迎来决赛。 NOC大赛（决赛7月底） 人工智能创新挑战赛（预计决赛8月） 青少年信息素养赛（决赛8月） …而且，信奥赛的第一站CSP考试已经开始报名，第一轮认证将于9月21日进行，这无疑意味着想要报考的孩子在这个暑假也需要忙碌于刷题练习。 可以说，这个暑假，为了“编程”而奔波的孩子和家长真的是不少！ 前不久， 清华附中人工智能实验班面向新初一招生…",
+        "preview_text": "",
+        "favorite_count": 469,
+        "id": "711081868",
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "is_org": false,
+          "followers_count": 475,
+          "name": "讲编程的桃子老师",
+          "headline": "少儿编程教育从业者",
+          "avatar_url": "https://picx.zhimg.com/50/v2-0c32218609bbe2ff0b51663f01c9f66c_l.jpg?source=b6762063",
+          "gender": 0,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "学前教育行业 少儿编程老师"
+            }
+          ],
+          "id": "b7a26ba06769022d0bb0aa80a3267957",
+          "url": "https://api.zhihu.com/people/b7a26ba06769022d0bb0aa80a3267957",
+          "url_token": "78-59-94-29-53"
+        },
+        "article_type": "normal",
+        "is_navigator": false,
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "excerpt_new": "随着暑假的到来，孩子们纷纷放假，同时各种白名单竞赛也进入了末期，即将迎来决赛。 NOC大赛（决赛7月底） 人工智能创新挑战赛（预计决赛8月） 青少年信息素养赛（决赛8月） …而且，信奥赛的第一站CSP考试已经开始报名，第一轮认证将于9月21日进行，这无疑意味着想要报考的孩子在这个暑假也需要忙碌于刷题练习。 可以说，这个暑假，为了“编程”而奔波的孩子和家长真的是不少！ 前不久， 清华附中人工智能实验班面向新初一招生…",
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-bc0a5526553728cff3411000968b6bfd_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-f754f78ffd4e5a11c540bb5a2d0e86db_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e4d57c30c0ae084adf1af3f365d0828f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-16b2b0016dc57709bf56fd3aee21fe41_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-e6032a272ec1dc4f8453c8cd7dd7005c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ba02e71da38902271dc6fbca4bd73ce5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-378709e2c97cfa45fefcb48503b1af94_720w.jpg?source=b6762063"
+        ],
+        "allow_segment_interaction": true,
+        "type": "article",
+        "comment_count": 39,
+        "voting": 0,
+        "preview_type": "default",
+        "visited_count": 60053,
+        "vote_next_step": "vote",
+        "title": "2024年西瓜创客、核桃编程、编程猫等10家少儿编程机构测评，哪家性价比最高？",
+        "updated": 1768531876,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/articles/711081868",
+        "content": "<p data-pid=\"C4hsZG1a\">随着暑假的到来，孩子们纷纷放假，同时各种白名单竞赛也进入了末期，即将迎来决赛。</p><blockquote data-pid=\"2GJqhi5o\">NOC大赛（决赛7月底）<br/>人工智能创新挑战赛（预计决赛8月）<br/>青少年信息素养赛（决赛8月）<br/>……</blockquote><p data-pid=\"6nhRqe8F\">而且，信奥赛的第一站CSP考试已经开始报名，第一轮认证将于9月21日进行，这无疑意味着想要报考的孩子在这个暑假也需要忙碌于刷题练习。</p><p data-pid=\"xwOneGVN\">可以说，这个暑假，为了“编程”而奔波的孩子和家长真的是不少！</p><p data-pid=\"FLgAULpZ\">前不久，<b>清华附中人工智能实验班面向新初一招生</b>，据去年参加的孩子回忆，<b>会编程是一项加分项</b>。</p><p data-pid=\"vJ7JXGVf\">因为考题中包含了部分计算机常识题，涉及输入端、输出端、图灵、操作系统等。算法部分则涉及C++和Python语言，包括计算程序运行结果，以及补全程序代码等。</p><p data-pid=\"RS7AS_-e\">因此，当前编程依旧是非常热门的，在选择编程机构学习时，家长们需要擦亮眼睛！</p><p data-pid=\"gy37onXq\">有的家长给孩子报了Scratch课程，一年的学费高达1.5万元，这妥妥的智商税啊～</p><p data-pid=\"k4wT0XVt\">所以，本次为大家带来2024年的编程机构测评，帮助家长们了解市场上的编程课程，找到最适合自己孩子的机构。</p><h2>当下主流的编程课有哪些？</h2><p data-pid=\"EkaLp90N\">现在孩子的编程课，并不像成年人那种纯粹敲代码，而是有一套完整的路径，囊括孩子从小学到高中的路程。</p><p data-pid=\"QgBmv9iq\">简单来说，<b>编程课程可以分为：软件编程课（少儿编程）和硬件编程课（机器人编程）</b>。</p><h3>软件编程（少儿编程）</h3><p data-pid=\"uBplmPMe\">软件编程，就是我们平时说的少儿编程课，也是大家日常中经常听说的。</p><p data-pid=\"E9iIm25A\">在软件编程语言中，<b>Scratch、Python、C++</b>是最常见的，这些编程语言的选择也是根据孩子的水平来定学习规划的。</p><p data-pid=\"Gj54P4WU\">一般来说，初识少儿编程建议选择<b>Scratch图形化编程</b>，简单易学，对零基础儿童很友好。</p><p data-pid=\"8js36v54\">想当年，在Windows系统出现之前，市面上流行的是dos操作系统。用dos系统需要记住很多命令语句，会操作电脑的人很少。但是，Windows系统的出现，把电脑界面都变成了图形化的，从此，每个人都能简单地使用电脑了。</p><p data-pid=\"gOMbAOTR\">而Scratch也是这样的存在。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7ab6306390902b183b1cbae56c214cff_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"195\" data-original-token=\"v2-21cb8c9ff65c5acb0ac5c9fe8c1d38fa\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://picx.zhimg.com/v2-7ab6306390902b183b1cbae56c214cff_r.jpg\"/><figcaption>* 来源网络</figcaption></figure><p data-pid=\"r_9y96o3\"><b>成人的编程</b>是需要记忆大量的编程命令语言（全英文），格式，甚至一些细小的要求，很繁琐。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-845daff21ae084734141cc94909be756_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3367\" data-rawheight=\"1796\" data-original-token=\"v2-d353c2f81b3621bc34964a07a3240c97\" class=\"origin_image zh-lightbox-thumb\" width=\"3367\" data-original=\"https://pica.zhimg.com/v2-845daff21ae084734141cc94909be756_r.jpg\"/><figcaption>* 来源网络</figcaption></figure><p data-pid=\"ECX6Uo2Q\">但是<b>Scratch使用者可以不认识英文单词，也可以不会使用键盘。</b>因为Scratch构成程序的命令和参数通过积木形状的模块来实现编程。<b>用鼠标拖动模块到程序编辑栏就可以了。</b></p><p data-pid=\"DapSw-Fj\">这意味着孩子们不需要记住大量的编程语句，<b>只需要拖动模块就能完成编程</b>。</p><p data-pid=\"_3RTNTXv\"><b>这让孩子零基础就能编程成为了可能</b>！</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f754f78ffd4e5a11c540bb5a2d0e86db_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"880\" data-thumbnail=\"https://pic2.zhimg.com/v2-f754f78ffd4e5a11c540bb5a2d0e86db_b.jpg\" data-original-token=\"v2-f754f78ffd4e5a11c540bb5a2d0e86db\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-f754f78ffd4e5a11c540bb5a2d0e86db_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-f754f78ffd4e5a11c540bb5a2d0e86db_r.jpg\"/></figure><p data-pid=\"q6WsfOgj\">孩子学习图形化培养了一些编程思维后，就可以向更高阶段的学习迈进，进阶Python或者C++。</p><a href=\"https://xg.zhihu.com/plugin/8485354bcdc4536afbc8fd4251022e3d?BIZ=ECOMMERCE\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">【点击领取】免费少儿编程体验课 百万妈妈的选择 限50名</a><h3>硬件编程（机器人编程）</h3><p data-pid=\"w1Fp6Oqs\">机器人编程，作为一种结合了机器人硬件与编程的教育方式，近年来在教育界逐渐流行起来。</p><p data-pid=\"u9kHZcn0\">最早的编程机器人可以追溯到乐高公司的Wedo、Spike和EV3。这些机器人使用的是乐高自研的编程系统，与目前主流编程系统存在一定的区别。例如，Wedo使用的是乐高自研的编程语言，而EV3则采用了Scratch和Lego Mindstorms NXT等编程环境。</p><p data-pid=\"NJJcybMI\">但是现在的机器人编程课已经做了很大的改进。编程部分已经换成了Scratch和Python，这两种编程语言现在都非常流行，而且很容易上手。</p><p data-pid=\"WQFcWYbz\">机器人部分则换成了自研的积木，这样就能更好地结合当下最火的两个课程。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-930e75b7049bdc1dc1e1a3714a929ddb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"811\" data-rawheight=\"1000\" data-original-token=\"v2-037a6de3ef1f3e0fb3edbe164368dbcf\" class=\"origin_image zh-lightbox-thumb\" width=\"811\" data-original=\"https://pic4.zhimg.com/v2-930e75b7049bdc1dc1e1a3714a929ddb_r.jpg\"/></figure><p data-pid=\"Ra9CAOHC\"><b>软件编程和硬件编程这两个方向是相对独立的！</b>并没有直接的联系，在<b>孩子兴趣</b>、<b>学习规划</b>上都有各自的道路！</p><p data-pid=\"zxgN0Uko\">所以家长们一定要了解清楚！</p><p data-pid=\"T9y7Z6dX\">除了在学习规划上，少儿编程课在上课模式方面也有着区别。</p><p data-pid=\"V2-WREOZ\">在为孩子选择少儿编程课程时，家长通常会在线下课程和线上课程之间犹豫不决。线下课程的师资水平普遍一般，而线上课程则因为时效性和便利性，成为了越来越多家长的选择。</p><p data-pid=\"6s5sZg9f\">首先，我们来看师资方面。线下课程的优质老师非常稀缺，而线上课程则可以很好地解决这一问题，提供更加专业和个性化的教学。</p><p data-pid=\"AFCo6KJv\">其次，价格方面，线下课程每年费用高达1-3万，而线上课只需3-4千，这也是很多家长考虑线上课的一个重要原因。</p><p data-pid=\"dm7kd8eS\">再继续细分的话，<b>线上课又可以分为AI双师课、线上直播课、录播课</b>。</p><p data-pid=\"yGKJjBfJ\">我们从<b>师资、学习效果、价格</b>三个方面来进行比较。</p><p data-pid=\"YupFZRYa\">首先，我们来看看师资方面。线下课程的师资水平普遍一般，世界冠军、拿过奖的老师非常少，线下课的好老师很少。而编程又是借助电脑学习的课程，所以并没有一定要去线下学习的必要性。</p><p data-pid=\"8mCBYJm_\">其次，从家长的角度来看，往返的接送成本也是一个考虑因素。线下课程在便利性上会差很多，家长们需要花费时间和精力来接送孩子。</p><p data-pid=\"qO1v6Esd\">接下来，我们来看学习效果方面。学习效果主要取决于三个方面：优质课程、督促激励和课下辅导。</p><p data-pid=\"ZzCY7Bm5\">在优质课程方面，AI课 &gt; 直播课 &gt; 线下老师。这是因为AI课能够通过多次打磨迭代，提供更好的互动性。线下课程的成本很高，所以很难在课程部分加大投入。</p><p data-pid=\"Y4rDRsAV\">在督促激励方面，线下老师 &gt; 直播课 = AI课。面对面交流确实有天然的优势，但是现在不少AI课采用动画剧情和游戏化激励体系，效果非常好，甚至可以超过不那么优秀的线下老师。</p><p data-pid=\"PDTt9AVa\">在课下辅导方面，线下老师 &gt; 直播课 = AI课。现在的线上课都是双师模式，都配置一个答疑的辅导老师，只要家长多上那么一点心，辅导答疑都能解决。</p><p data-pid=\"MCMrFrNx\">最后，来说一下价格方面。线下课程的价格通常在每年1万到3万之间，线上直播课的价格在8千到2万之间，而线上AI课的价格则在3千到4千之间。虽然直播课提供了一对一或小班的实时互动，但AI双师课通过动画剧情和游戏化激励体系，以及更强的互动性，能够提供更加优质的学习体验。</p><p data-pid=\"hXND14gB\">在价格和质量的双重考量下，AI双师课的性价比显得尤为突出。优质AI课程的学习效果甚至能够超过直播课和线下课，这对于预算有限但希望孩子接受高质量教育的家庭来说，无疑是一个极具吸引力的选择。</p><p data-pid=\"X6U0-dM1\">围绕课程内容和上课模式，我们针对10家机构进行了测评，先来看结果。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c6ac1797f35a2d9b083fcfb8927ce933_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1577\" data-rawheight=\"533\" data-original-token=\"v2-989da03bb73973a3db007d84cd8adb79\" class=\"origin_image zh-lightbox-thumb\" width=\"1577\" data-original=\"https://picx.zhimg.com/v2-c6ac1797f35a2d9b083fcfb8927ce933_r.jpg\"/><figcaption>点击图片即可放大查看</figcaption></figure><p data-pid=\"Z4NDl88y\">各位家长可以结合上面所说的几个要素看一下适合的机构。</p><h2>各家优缺点</h2><p data-pid=\"yp6MUfUu\">看完了总结性的内容，我们再来看一下各家机构单独的优缺点。</p><p data-pid=\"m-nObUEh\">由于市面上大家的选择都倾向排名前几的机构，在这里我们只针对3家机构进行说明，后续会陆续补充其他机构的内容。</p><h3>1、西瓜创客</h3><p data-pid=\"VkMTeZQe\"><b>授课方式</b>：AI双师课，世界编程冠军授课</p><p data-pid=\"SmK9iPy8\"><b>教学课程</b>：图形化、Python、C++</p><p data-pid=\"xOO6rhTB\">西瓜创客自2017年创立以来，在少儿编程行业开创了AI双师课堂，致力于释放每一个孩子的创造力，提出通过少儿编程培养中国小学生编程思维，并聚焦编程思维开发了LEAP课程体系(Leverage基础课+ Enlighten进阶课+Advance应用课+Pro专题课)。<br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-73a1c69617177cd5d010fbfb7a25e1a6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1176\" data-rawheight=\"1286\" data-original-token=\"v2-d5ef92e8b33f3d69821ea627b4ba9f3b\" class=\"origin_image zh-lightbox-thumb\" width=\"1176\" data-original=\"https://pic1.zhimg.com/v2-73a1c69617177cd5d010fbfb7a25e1a6_r.jpg\"/></figure><p data-pid=\"QzpU7O9L\">西瓜创客的课程设计采用闯关互动的游戏形式，以动画片的形式吸引孩子继续学习。故事情节通常围绕动画中的角色遇到困难，需要孩子们拖动对应的代码块来控制游戏中的人物移动，最终完成任务，获得宝藏。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-dbf0422f2e9687495c78204e5adbb084_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"999\" data-rawheight=\"406\" data-original-token=\"v2-6e33cefe18fec1b08035e49b703e5a31\" class=\"origin_image zh-lightbox-thumb\" width=\"999\" data-original=\"https://pica.zhimg.com/v2-dbf0422f2e9687495c78204e5adbb084_r.jpg\"/></figure><p data-pid=\"lCyPD4bn\">而且，西瓜的课不仅限于基础学科，还涵盖了音乐、艺术、动画、游戏设计等多个领域。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-73ebb4457f477a31af996eb201675dfd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"673\" data-rawheight=\"682\" data-original-token=\"v2-73ebb4457f477a31af996eb201675dfd\" class=\"origin_image zh-lightbox-thumb\" width=\"673\" data-original=\"https://picx.zhimg.com/v2-73ebb4457f477a31af996eb201675dfd_r.jpg\"/></figure><p data-pid=\"OxCxPy-s\">在体验西瓜创客的课程后，我们发现其趣味性非常强，课程内容融合度非常高。从第一课起，每节课至少都有3个跨学科知识点的融入，这对孩子的跨学科能力培养和主课提升都有极大的促进作用。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e1fc755cebecb9f6280375974b5f4266_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1744\" data-rawheight=\"696\" data-original-token=\"v2-461d30c3ca0510191b984f695ba2432e\" class=\"origin_image zh-lightbox-thumb\" width=\"1744\" data-original=\"https://pic1.zhimg.com/v2-e1fc755cebecb9f6280375974b5f4266_r.jpg\"/></figure><p data-pid=\"3iWmUhCm\">而且跨学科知识点的融入，不仅丰富了课程内容，还培养了孩子综合运用知识的能力。</p><p data-pid=\"FBiHrRZI\">在体验课体验时就能感受到，体验课包含了数学、音乐等等多个领域的内容。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-78f45d3c4067e821c981a1a27afc14da_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"660\" data-rawheight=\"1479\" data-qrcode-action=\"none\" data-original-token=\"v2-5ba88eb8c62c5d632cf505d8f0dbf65a\" class=\"origin_image zh-lightbox-thumb\" width=\"660\" data-original=\"https://pica.zhimg.com/v2-78f45d3c4067e821c981a1a27afc14da_r.jpg\"/></figure><p data-pid=\"5V7Ykpbk\"><b>总的来看</b>：</p><p data-pid=\"7YCs8AHW\">西瓜创客在课程动画和实操的衔接上做得非常好。在课程动画结束时，界面会自动跳转到实操环节，孩子们只需要按照指示拖动对应的代码块即可。这种设计减少了孩子们在实操过程中遇到的问题，使他们能够更加顺利地完成任务。</p><p data-pid=\"MAtLcN75\">此外，课程中穿插的“想一想”环节也是一个加分项。这些环节能够引导孩子主动思考，培养他们的创新思维和解决问题的能力。</p><p data-pid=\"TXwPi_vn\">而且，西瓜课程性价比比较高，3499/58节课，还会送一些专题拓展的内容，是比其他家的有较大优势的。</p><a href=\"https://xg.zhihu.com/plugin/8619491161a1b5e4b4d186de245bf369?BIZ=ECOMMERCE\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">【点击领取】0元AI双师少儿编程课 孩子更爱学</a><h3>2、核桃编程</h3><p data-pid=\"ynya9NtS\"><b>授课方式</b>：AI录播</p><p data-pid=\"GVs-nMTF\"><b>教学课程</b>：Scratch、Python、C++</p><p data-pid=\"yDfmmzWz\">核桃编程，Scratch课程周期为1-2年（根据孩子上课频次1周1次或1周2次而定），Python课程周期为2年。</p><p data-pid=\"gi08Ltf4\">核桃编程的课程设计十分注重学习效率和知识巩固。他们将单节课的知识点分成了多个小节视频，每个小节都能通过模块迅速找到，无论是学习还是复习都非常方便。</p><p data-pid=\"UzaZKlPf\">这种分节视频的教学方式，使得学生可以有针对性地复习和巩固重点知识。每完成一个小节的学习，核桃编程会自动跳转到课堂练习界面，确保学生通过实际操作来加深对知识点的理解和掌握。</p><p data-pid=\"9OoB8ilm\">只有完成课堂练习，学生才能继续下一小节的学习。这样的设计不仅提高了学习效率，也确保了学生在学习过程中对知识点的吸收和复习。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-12256e1748621ce3048febc2bca3cd4b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1278\" data-rawheight=\"936\" data-original-token=\"v2-6b04881b552fb750b61867e06f5211d3\" class=\"origin_image zh-lightbox-thumb\" width=\"1278\" data-original=\"https://pic2.zhimg.com/v2-12256e1748621ce3048febc2bca3cd4b_r.jpg\"/></figure><p data-pid=\"QZnToj49\">核桃编程的课程内容采用了“动画+挑战讲解”的方式，为孩子们提供了一个寓教于乐的学习体验。</p><p data-pid=\"rhsGkxkb\">在核桃编程的课程中，每一步任务都有一个对应的动画进行拆分讲解。通过拆解任务，孩子们可以更清晰地理解每一步操作的意义和目的。完成拆解后，他们需要完成对应积木的拼搭，以实现相应的功能。</p><p data-pid=\"DIZemH4Q\">这一点和西瓜创客比较像，但是<b>核桃编程的价格调整到了2699半年，相较西瓜创客的3499一年</b>，性价比就不高了。</p><p data-pid=\"opHvT-pJ\">而且核桃编程虽然在课程体系中有C++内容，但在实际评测中，可以发现其重点还是在Scratch和Python阶段，适合孩子启蒙去学。</p><h3>编程猫</h3><p data-pid=\"ulz7ZFLz\"><b>授课方式</b>：AI录播/直播</p><p data-pid=\"OrSzsXlM\"><b>教学课程</b>：Kitten、Python、C++</p><p data-pid=\"63vqvh3D\">编程猫也是采用的动画式教学，这一点和市面上多数机构是一样的。课程设计则采用了<b>故事剧情的动画形式</b>，趣味性很高。每节课都是一段25分钟左右的长视频。</p><p data-pid=\"JNytgR9M\">与别家不同的是，他们家采用的是自研的图形化编程语言kitten，比Scratch更为简单，进一步降低了孩子的入门门槛。</p><p data-pid=\"plHZGrnA\">但是比赛一般采用的是Scratch，孩子后续参加比赛的话还需要再去熟悉Scratch界面。而且kitten虽然降低了孩子的学习难度，但是对于算法的理解也同样大大降低。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4f0a6372ad910b6a6e748b6fd04a688d_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"638\" data-rawheight=\"332\" data-thumbnail=\"https://pic4.zhimg.com/v2-4f0a6372ad910b6a6e748b6fd04a688d_b.jpg\" data-original-token=\"v2-4f0a6372ad910b6a6e748b6fd04a688d\" class=\"origin_image zh-lightbox-thumb\" width=\"638\" data-original=\"https://pic4.zhimg.com/v2-4f0a6372ad910b6a6e748b6fd04a688d_r.jpg\"/></figure><p data-pid=\"F3l87DBO\">编程猫的课程体系在Python和C++方面都做得非常流畅，提供了从基础到进阶的全面教学。这两门课程主要以直播课的形式进行，这种实时互动的教学方式有助于学生更好地理解和掌握编程知识。</p><p data-pid=\"Die1IJq3\">然而，与AI课程相比，Python和C++的直播课程价格相对较高。</p><hr/><p data-pid=\"EDSYc_X6\">以上就是本次给大家带来的编程机构的测评，还是要多说一句，<b>兴趣是孩子最好的老师</b>，如果没有兴趣，一切都是空谈。</p><p data-pid=\"L5ZmgcI2\">家长想要选择少儿编程机构，也给大家几条建议：</p><p data-pid=\"Tz9Mu4bn\">第一步：明确报课目的。家长可以思考以下几个方向：</p><ul><li data-pid=\"hAV2fHXc\">是否认为编程在未来社会是一项基本技能，希望孩子接触一下，暂时没有更长远的考虑。</li><li data-pid=\"Y1DPf1o2\">孩子是否对乐高和积木感兴趣，对机械类是否有浓厚兴趣。</li><li data-pid=\"-oeV6__J\">是否有科技特长生的考虑，是否有信奥（信息学奥林匹克竞赛）的打算。</li></ul><p data-pid=\"q0-gEBYi\">第二步：根据目的选择课程方向。例如：</p><ul><li data-pid=\"GZDDKrX4\">如果只是希望孩子了解接触一下编程，可以选择性价比高的AI双师课。</li><li data-pid=\"AHiAdDND\">如果孩子对机器人感兴趣，可以考虑机器人编程课。</li><li data-pid=\"lSAgLzaq\">如果孩子的数理思维很强，家长也有信奥规划，可以在合适的年龄考虑C++课程。</li></ul><p data-pid=\"xUEto7XZ\">第三步：根据年龄选择合适的课程。一般来说，年龄段的匹配可以参考：</p><ul><li data-pid=\"PdFaczah\">一至三年级：学习图形化编程（如Scratch）。</li><li data-pid=\"PszKFSIs\">四至六年级：开始学习Python，对数学能力有一定要求，但是要求不高。</li><li data-pid=\"lPLnTAJe\">五年级以上（数学很好）：考虑C++信奥学习。</li></ul><a href=\"https://xg.zhihu.com/plugin/87f13adda6f09af5154a9ca7cf025d98?BIZ=ECOMMERCE\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">【点击领取】免费西瓜编程体验课 学练赛测更全面</a><p></p>"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 711081868}",
+      "attached_info": "CvQECL+Vp8GdkK/MkgEQBxoJMjQ2MTQ5NTUxIIuUk7UGKPYCMCdAB0oZCg5Qcm9tb3Rpb25FeHRyYRIBMBgAIAA6AGIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyCTcxMTA4MTg2OKoBCXJlY29tbWVuZMIBIGI3YTI2YmEwNjc2OTAyMmQwYmIwYWE4MGEzMjY3OTU38gEJCAwSBVpQbHVz8gEoCAkSJGQzM2Q3YmUyLWZkZDUtNDBlNi1hNGIwLTNlM2IzMTE4MzY4NfIBKAgKEiQxOGYzNTY1My02NTgzLTQxOTYtYjk0MS1iNzNjOGE0YzBlY2byAQUICxIBMvIBCAgIEgR0cnVlggIAiALe6/HpvDOSAiBiN2EyNmJhMDY3NjkwMjJkMGJiMGFhODBhMzI2Nzk1N5oCAMoCDkN1cnJlbmN5UmFua2VyygIOc2xvdEluc2VydFJ1bGXaAg5Qcm9tb3Rpb25FeHRyYegCA/oCC05PUk1BTF9GTE9XigMgMjBlZTg3NDExMTgxNDBkNWFkNjE3NzQzYTA3YmFiZWWaAw0KAnYyEAAaBW90aGVyqAOV1QPYAwD6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQBiAQAkgQFWlBsdXOaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAABUKoc/gQUAAAAAAABUQIkF4n3LGVo0pT+SBQCaBQNkZnSiBQNkZnSyBQExuQUEepFr1g4AQNAFAOAFAOgFAPAFApAGAKAGCKgGAZICJAoJMjQ2MTQ5NTUxEgk3MTEwODE4NjgYByIKSU1BR0VfVEVYVA==",
+      "action_card": false,
+      "promotion_extra": "{\"is_card\":true,\"id\":\"3637997\",\"topstory_info\":\"bid=80&pctr=0.003348797559738159&price=0&pv_id=d33d7be2-fdd5-40e6-a4b0-3e3b31183685\",\"parameters\":\"plugcb=https%3A%2F%2Fsugar.zhihu.com%2Fplutus_adreaper_callback%3Fcid%3D3637997%26ccid%3D1615160%26zoneid%3D10012%26adid%3D3678180%26sid%3Dd33d7be2-fdd5-40e6-a4b0-3e3b31183685%26adsource%3Dzhi_plus%26ocpxs%3D0%26ocpxp%3D0%26dynamictitle%3D246149551%26mixinfo%3D__MIX__INFO__%26campaignid%3D2681087%26cbed%3DCCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w%3D%26cmixid%3D%26cmixvs%3D%26titlesource%3D0%26isnative%3Dfalse\",\"sign\":\"06ed4bfc-e234-4bf1-b0a2-7dc9e883870d\",\"mobile_experiment\":null,\"new_asset\":\"\",\"click_tracks\":[\"https://sugar.zhihu.com/ad-track/zplus_log?zpt=&iti=__IS_THREE_IMAGE__&pt=4&zk=&zpluspt=0&cmv=&mcdtt=0&hp=0&tev=0&ar=0.011311203241348267&dts=1768674849&zri=-7883343881848632641&cl=310000&cla=3&cv=&ri=feed-root:currency:07e76de4-2328-4f77-aafc-42d5ab712561&mix=__MIX__INFO__&cmi=&mcdti=246149551&ui=120.204.77.46&cc=310000&ed=CCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w=&isy=__IMAGE_STYLE__&at=CjEEKVQqOSuIYIdBvEo7Wg==\"],\"view_tracks\":[\"https://sugar.zhihu.com/ad-track/zplus_log?zpt=&iti=__IS_THREE_IMAGE__&pt=4&zk=&zpluspt=0&cmv=&mcdtt=0&hp=0&tev=0&ar=0.011311203241348267&dts=1768674849&zri=-7883343881848632641&cl=310000&cla=3&cv=&ri=feed-root:currency:07e76de4-2328-4f77-aafc-42d5ab712561&mix=__MIX__INFO__&cmi=&mcdti=246149551&ui=120.204.77.46&cc=310000&ed=CCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w=&isy=__IMAGE_STYLE__&at=CjEEPFEmLWm8-o_znDYB\"],\"view_x_tracks\":[\"https://sugar.zhihu.com/ad-track/zplus_log?zpt=&iti=__IS_THREE_IMAGE__&pt=4&zk=&zpluspt=0&cmv=&mcdtt=0&hp=0&tev=0&ar=0.011311203241348267&dts=1768674849&zri=-7883343881848632641&cl=310000&cla=3&cv=&ri=feed-root:currency:07e76de4-2328-4f77-aafc-42d5ab712561&mix=__MIX__INFO__&cmi=&mcdti=246149551&ui=120.204.77.46&cc=310000&ed=CCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w=&isy=__IMAGE_STYLE__&at=CjEEPFEmLR820zpS4V8L1jE=\"],\"deliver_x_tracks\":[\"http://proxy-ad-track-zplus:10000/ad-track/zplus_log?zpt=&iti=__IS_THREE_IMAGE__&pt=4&zk=&zpluspt=0&cmv=&mcdtt=0&hp=0&tev=0&ar=0.011311203241348267&dts=1768674849&zri=-7883343881848632641&cl=310000&cla=3&cv=&ri=feed-root:currency:07e76de4-2328-4f77-aafc-42d5ab712561&mix=__MIX__INFO__&cmi=&mcdti=246149551&ui=120.204.77.46&cc=310000&ed=CCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w=&isy=__IMAGE_STYLE__&at=CjEELl0vMzYrVw0fll1t8qj4XUE=\"],\"impression_tracks\":[\"https://sugar.zhihu.com/ad-track/zplus_log?zpt=&iti=__IS_THREE_IMAGE__&pt=4&zk=&zpluspt=0&cmv=&mcdtt=0&hp=0&tev=0&ar=0.011311203241348267&dts=1768674849&zri=-7883343881848632641&cl=310000&cla=3&cv=&ri=feed-root:currency:07e76de4-2328-4f77-aafc-42d5ab712561&mix=__MIX__INFO__&cmi=&mcdti=246149551&ui=120.204.77.46&cc=310000&ed=CCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w=&isy=__IMAGE_STYLE__&at=CjEEI1UzKCU9VjsIXwyIzIulhGWC\"],\"conversion_tracks\":[\"https://sugar.zhihu.com/ad-track/zplus_log?zpt=&iti=__IS_THREE_IMAGE__&pt=4&zk=&zpluspt=0&cmv=&mcdtt=0&hp=0&tev=0&ar=0.011311203241348267&dts=1768674849&zri=-7883343881848632641&cl=310000&cla=3&cv=&ri=feed-root:currency:07e76de4-2328-4f77-aafc-42d5ab712561&mix=__MIX__INFO__&cmi=&mcdti=246149551&ui=120.204.77.46&cc=310000&ed=CCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w=&isy=__IMAGE_STYLE__&at=CjEEKVctLCU8VjsIX1u2KBLeP1SB\"],\"topstory_tracks\":[\"http://proxy-ad-track-zplus-bid:10000/ad-track/zplus/bid?zpt=&iti=__IS_THREE_IMAGE__&pt=4&zk=&zpluspt=0&cmv=&mcdtt=0&hp=0&tev=0&ar=0.011311203241348267&dts=1768674849&zri=-7883343881848632641&cl=310000&cla=3&cv=&ri=feed-root:currency:07e76de4-2328-4f77-aafc-42d5ab712561&mix=__MIX__INFO__&cmi=&mcdti=246149551&ui=120.204.77.46&cc=310000&ed=CCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w=&isy=__IMAGE_STYLE__&at=CjEELF0mPh8nSzQIRYVahjjLuoY=&rki=__RANK__INFO__&fri=__FILTER__INFO__&fin=1\"],\"video_tracks\":[\"https://sugar.zhihu.com/ad-track/zplus_log?zpt=&iti=__IS_THREE_IMAGE__&pt=4&zk=&zpluspt=0&cmv=&mcdtt=0&hp=0&tev=0&ar=0.011311203241348267&dts=1768674849&zri=-7883343881848632641&cl=310000&cla=3&cv=&ri=feed-root:currency:07e76de4-2328-4f77-aafc-42d5ab712561&mix=__MIX__INFO__&cmi=&mcdti=246149551&ui=120.204.77.46&cc=310000&ed=CCRXd14iNjMrAzMODGN6B1N0AXoeIDIicxV0F0M5fg1acg5yD3Z8Iz0YdBRBMnEATSpaOkAkNSEiGGJBQSIlDVtjWi5MMGdwaEc9CEU5KA1bY0s6SipncX4dZlMFdi9RAngLfAByanh5AzEIRW18Fgg3UHcLdWl3dxxlQVAqJQ1adQl7CmUzJz0YYkFSJHEBXXQMew5zfDYsUW9XFyMlDQ92Ci4PIT9yY0M2AwR9eAAOcxQrDCFqbX1AYQUCYX0IWHMBfx4mOTAtVm9XFzMlDVlxD3sMem91fwM7DkVtfBYJNQRyCGUzI3MUdBRYPXEdWXwNewt0Ynl2E2tfCWJ7B1J2AWxbJy40cxV0A1ImPg1bawl6CHNqcH4VYlUBY38FU3INfA1zYnh3EmJQFzUvQAgxBHoeLDkwNlZvVxczI0NWfQlsTSo0fX8VYlcAYHwFXmNaJkt-fCE4TG9RAGl7AVxjVT9Rfm9ydhJjVAhlal8INUE6BXN8ITxOb1YXMyhEAngLfg5ybnl7EGNBQj9xAk0qWjxKfmpufhVjVgZiewVadAFyCnRicXcdYEFLICBFGDVNdwhlOyI-GGpXFzEqUQh4HH16ZmhyLUohE242LVMfKktvCnF_cw8Ud1VydX4CBzFLbwpxf3MPFXdVcnV-AgcxSxVULD0pOgBgVRRjDQBOd3pvCnE1Iz5GDQVXdX4CTnZ4eh1xGWV8FzAIXiRpAllgCgsJZmgDaxdgAlIgLxVZdxx5eXJ_cg0AYFVGNSVXAzFcLmclOyM6SiBCA2JpAyp0HH18ZSkwO0w2FAx2OkoCeAlsTSBnZi1RK1pBPz9EeHPl9F7-y4w=&isy=__IMAGE_STYLE__&at=CjEEPFEnPy8RVT4GSP2lJbJWhW_G\"],\"video_play_tracks\":null,\"debug_tracks\":null,\"view_as_click_tm\":5}"
+    },
+    {
+      "id": "8_1768674850.87",
+      "type": "feed",
+      "offset": 8,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674850,
+      "updated_time": 1768674850,
+      "target": {
+        "author": {
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 1960,
+          "is_following": false,
+          "user_type": "people",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-99104449051314d82ca63f3659a1454c_l.jpg?source=b6762063",
+          "url_token": "52-44-92-59",
+          "name": "苏灿",
+          "headline": "职场干货",
+          "is_followed": false,
+          "id": "698926ef65347ef498d920ebc8192d48",
+          "url": "https://api.zhihu.com/people/698926ef65347ef498d920ebc8192d48"
+        },
+        "allow_segment_interaction": true,
+        "segment_infos": [
+          {
+            "pid": "XoSqDTMM",
+            "text": "比如，你抱怨公司政策、吐槽某个同事、或者透露你的职业倦怠甚至想跳槽的念头。这些信息在领导那里，会立刻被分类归档，不是作为“朋友间的秘密”，而是作为管理你的“数据点”。",
+            "marks": [
+              {
+                "start_index": 69,
+                "end_index": 82,
+                "seg_info": {
+                  "seg_ids": [
+                    "1996024528581726616"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "id": "1944701279126390739",
+        "url": "https://api.zhihu.com/answers/1944701279126390739",
+        "created_time": 1756432915,
+        "is_copyable": false,
+        "question": {
+          "detail": "",
+          "answer_count": 0,
+          "follower_count": 0,
+          "is_following": false,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            2566,
+            2738,
+            15653,
+            37593,
+            2807468
+          ],
+          "excerpt": "",
+          "id": "1932208509702894565",
+          "author": {
+            "gender": 1,
+            "followers_count": 134,
+            "id": "3ced7aaeeb80fc6b97eee7eae156c5b5",
+            "user_type": "people",
+            "url_token": "zcrzc",
+            "name": "职场如战场",
+            "avatar_url": "https://picx.zhimg.com/50/v2-4484725672f91e16db471bdcc21693db_l.jpg?source=b6762063",
+            "url": "https://api.zhihu.com/people/3ced7aaeeb80fc6b97eee7eae156c5b5",
+            "headline": "专注职场领域，解读情感密码，我相信，你会喜欢上我的视频和文章",
+            "is_org": false,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "为什么说在职场里就算和领导关系再好，也不要说心里话？",
+          "created": 1753454407,
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/1932208509702894565",
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "reshipment_settings": "disallowed",
+        "is_navigator": false,
+        "type": "answer",
+        "voteup_count": 86,
+        "excerpt_new": "权力场没有“真朋友”，只有“利益共同体” 1. 你的心里话往往包含着你的真实想法、你的弱点、你对其他人或其他事的真实评价。 比如，你抱怨公司政策、吐槽某个同事、或者透露你的职业倦怠甚至想跳槽的念头。这些信息在领导那里，会立刻被分类归档，不是作为“朋友间的秘密”，而是作为管理你的“数据点”。 他知道你的弱点，以后给你分配任务、画饼、或者施加压力时，就能精准地拿捏你。 他知道你对同事的真实看法，在协调工作…",
+        "is_labeled": false,
+        "vote_next_step": "vote",
+        "thanks_count": 3,
+        "updated_time": 1768615449,
+        "excerpt": "权力场没有“真朋友”，只有“利益共同体” 1. 你的心里话往往包含着你的真实想法、你的弱点、你对其他人或其他事的真实评价。 比如，你抱怨公司政策、吐槽某个同事、或者透露你的职业倦怠甚至想跳槽的念头。这些信息在领导那里，会立刻被分类归档，不是作为“朋友间的秘密”，而是作为管理你的“数据点”。 他知道你的弱点，以后给你分配任务、画饼、或者施加压力时，就能精准地拿捏你。 他知道你对同事的真实看法，在协调工作…",
+        "content": "<h2><b>权力场没有“真朋友”，只有“利益共同体”</b></h2><p data-pid=\"IPmQXUP0\"><b>1.  你的心里话往往包含着你的真实想法、你的弱点、你对其他人或其他事的真实评价。</b></p><p data-pid=\"XoSqDTMM\"><b>比如，你抱怨公司政策、吐槽某个同事、或者透露你的职业倦怠甚至想跳槽的念头。这些信息在领导那里，会立刻被分类归档，不是作为“朋友间的秘密”，而是作为管理你的“数据点”。</b></p><hr/><p data-pid=\"S0Tggtrr\"><b>他知道你的弱点，以后给你分配任务、画饼、或者施加压力时，就能精准地拿捏你。</b></p><p data-pid=\"Kai5rKB-\"><b>他知道你对同事的真实看法，在协调工作、组建团队、平衡势力时，这会成为他的一手情报，甚至可能无意或有意地把你推到一个尴尬的位置。</b></p><p data-pid=\"EXJFrY2u\"><b>他知道你真实明确的职业规划，如果你有离职的打算，他可能会提前布局，不再给你核心资源，甚至培养替代你的人。你觉得这样是交心，他可能觉得是“预警信号”。</b></p><hr/><p data-pid=\"9mvkkPug\"><b>2.  就算领导个人看重你，一旦你的“心里话”触及到团队稳定、公司利益或者他的职场安全时，他的第一身份永远是“管理者”。</b></p><p data-pid=\"zCwrstFa\"><b>你跟他吐槽公司，他可能会安慰你，但心里会给你贴上一个“不稳定”、“负能量”的标签。万一将来需要裁员优化，这个标签就会成为优先考虑你的理由。你把他当朋友，他却在重新评估你的“风险等级”。</b></p><hr/><h2><b>沟通的目的是“达成目标”，不是“宣泄情绪”</b></h2><p data-pid=\"09dHKrZM\"><b>1.  心里话一般带着强烈的个人情绪和主观判断。一旦你把情绪带入与领导的沟通中，事情的性质就变了。领导会认为你不专业、不成熟、无法控制情绪。</b></p><p data-pid=\"E5EN4xDA\"><b>一个无法管理好自己情绪的员工，是很难被托付重要任务的。他会想：“今天你能跟我吐槽别人，明天会不会跟别人吐槽我？遇到压力会不会崩溃？”</b></p><hr/><p data-pid=\"Fl_IrxOm\"><b>2.  你以为的“关起门来说话”，不代表这些话就永远锁在这间办公室里。领导也有他的领导，有他的压力，他可能需要用一些信息去交换别的资源，或者在不经意间透露给其他人。</b></p><p data-pid=\"dLvOugT9\"><b>职场没有密不透风的墙。你的“心里话”经过几次传播，可能会被扭曲得面目全非，最终成为伤害你自己的武器。</b></p><hr/><p data-pid=\"QC3XzegZ\"><b>和领导沟通，永远秉持“对事不对人”的原则。只谈客观事实、数据、工作进展、遇到的困难（需要资源支持）、和解决方案。把自己的情绪和主观评价抛开。</b></p><hr/><h2><b>职场上你要扮演的是“可靠下属”，不是“知心朋友”</b></h2><p data-pid=\"k9bf5CIk\"><b>1.  在领导心中，他需要的是一个可预测且可靠的下属。你的行为模式、工作产出最好是稳定在高水平的。而“心里话”往往会打破你精心维护的“专业人格”。</b></p><p data-pid=\"m5BrFBPp\"><b>你可能白天是个雷厉风行的项目经理，晚上喝酒却跟领导哭诉生活艰难、压力大。领导第二天看到你，很难再把你和那个“强悍”的形象联系起来，他会下意识地怀疑：“他能扛住下一个大项目吗？” 你暴露的脆弱，会削弱他对你能力的信任。</b></p><hr/><p data-pid=\"kTta6QKu\"><b>2.  让领导信任你，不是靠你跟他分享多少秘密，而是靠你凡事有交代，件件有着落，事事有回音。总能按时、保质、甚至超预期完成任务。能帮他解决问题，而不是制造问题。</b></p><hr/><h2><b>职场生存必备技能:有选择地表达和职业化地沟通</b></h2><p data-pid=\"y-ZYOfyB\"><b>1. 把情绪化的“心里话”，转化为理性客观的“工作语言”。</b></p><p data-pid=\"F6W_T8o-\"><b>把“我受不了某某同事了”换成“领导，在和某某同事协作某个项目时，我们在沟通节或者是接口标准上遇到一些困难，您看是不是可以一起明确一下流程？”</b></p><hr/><p data-pid=\"YAycu-jN\"><b>把“这破制度真不行”换成“领导，关于当前的【具体制度】，我在执行中发现它可能会带来【具体效率】瓶颈，我有个不成熟的想法【给出两到三个方案】，或许能优化一下，您看可行吗？”</b></p><hr/><p data-pid=\"J1k-nPh9\"><b>2.  你的家庭矛盾、经济状况、对公司政策的真实看法、对同事的真实厌恶、你的离职计划等，这些是你的核心隐私，自己心理知道就好。</b></p><hr/><p data-pid=\"B-gDO1bQ\"><b>职场中做一个值得信赖的、专业的、能成事的合作伙伴，远比做一个透明的、“真诚的”下属，走得更远、更稳。</b></p><hr/><p data-pid=\"_aB3pfHc\"><b>愿所有人工作顺利！2025所求皆如愿！</b></p><p data-pid=\"2JfBP1JY\"><b>你可能还会喜欢这些回答:</b></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1929981614986862871/answer/1950189284930852220?share_code=V3L5Ql8ffq1c&amp;utm_psn=1952492925167571674\" data-draft-title=\"跟跨部门领导的关系很好，自己部门领导感觉阴阳怪气的，怎么办！求职场大佬解答？\" data-draft-cover=\"\" class=\"internal\">跟跨部门领导的关系很好，自己部门领导感觉阴阳怪气的，怎么办！求职场大佬解答？</a><p data-pid=\"2JfBP1JY\" class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1943975260266431152/answer/1947779104616215114?share_code=ZlI9I9GEMrz6&amp;utm_psn=1952492987574629442\" data-draft-title=\"自己负责的工作被部门同事越俎代庖，请问这同事是抱的什么心理？\" data-draft-cover=\"\" class=\"internal\">自己负责的工作被部门同事越俎代庖，请问这同事是抱的什么心理？</a><p data-pid=\"2JfBP1JY\" class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1932231566119114129/answer/1944384856843854429?share_code=xfGDnXGxdVtz&amp;utm_psn=1944699203596052372\" data-draft-title=\"领导只布置工作，不给支持怎么办？\" data-draft-cover=\"\" class=\"internal\">领导只布置工作，不给支持怎么办？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1942891766018712888/answer/1944084183023597187?share_code=pDMTjDx08squ&amp;utm_psn=1944699257819988459\" data-draft-title=\"同事很会来事，经常推脱自己的工作，领导只能把工作推给我做，我不是很想做，怎么办？\" data-draft-cover=\"\" class=\"internal\">同事很会来事，经常推脱自己的工作，领导只能把工作推给我做，我不是很想做，怎么办？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1920227307987145864/answer/1942663864111063112?share_code=1qAJCSdzJvvnD&amp;utm_psn=1944699332436693411\" data-draft-title=\"领导总把我当「救火队员」，却不给晋升机会，该如何破局？\" data-draft-cover=\"\" class=\"internal\">领导总把我当「救火队员」，却不给晋升机会，该如何破局？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1926984569791424406/answer/1941138789444609624?share_code=nFoCN4kdLFwI&amp;utm_psn=1944699399407109003\" data-draft-title=\"直接领导不愿接他们直接上级的工作，秒转给下级，如何应对？\" data-draft-cover=\"\" class=\"internal\">直接领导不愿接他们直接上级的工作，秒转给下级，如何应对？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1911031805982778532/answer/1911746892632655306?share_code=8j6BuMuhxN4p&amp;utm_psn=1944699955097891859\" data-draft-title=\"为什么职场中会哭的孩子有「奶」吃？老实人如何避免被当成工具人？\" data-draft-cover=\"\" class=\"internal\">为什么职场中会哭的孩子有「奶」吃？老实人如何避免被当成工具人？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/572209044/answer/1939012927790256556?share_code=pz5aAMkhpGPl&amp;utm_psn=1944699458819433876\" data-draft-title=\"如何协调部门之间的工作？\" data-draft-cover=\"\" class=\"internal\">如何协调部门之间的工作？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1895244367976957349/answer/1895783649242226780?share_code=1c1alWsze2xzW&amp;utm_psn=1944699521180373101\" data-draft-title=\"领导安排你做一件很难的工作，你怎么拒绝？\" data-draft-cover=\"\" class=\"internal\">领导安排你做一件很难的工作，你怎么拒绝？</a><p class=\"ztext-empty-paragraph\"><br/></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/1888878134037823764/answer/1888972417004718039?share_code=ZFBoaWfpiK9C&amp;utm_psn=1944699617422874190\" data-draft-title=\"职场中，老板暗示你来背锅，对你的影响比较大但不至于被辞退，怎么抉择？\" data-draft-cover=\"\" class=\"internal\">职场中，老板暗示你来背锅，对你的影响比较大但不至于被辞退，怎么抉择？</a><p></p>",
+        "favorite_count": 147,
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "comment_count": 4,
+        "preview_type": "default",
+        "preview_text": "",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 3588
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1944701279126390739}",
+      "attached_info": "Cs8HCL+Vp8GdkK/MkgEQBBoJNzQ0NDg3NDY2IJOUxMUGKFYwBEAISnkKLVRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX09QRVJBVE9SXzIwSU1QX0FMTBITMzQ1ODc2NDUxMzgyMzM4OTIyNhgAIAA6L3sibWVkaWFfdHlwZSI6IklNQUdFX1RFWFQiLCJwaW5fbWVkaWFfdHlwZSI6IiJ9SmAKIFRTX1NPVVJDRV9DT05UUk9MX0lOVEVSRVNUX1RIRU1FEgcxMzgwMDI1GAAgADoveyJtZWRpYV90eXBlIjoiSU1BR0VfVEVYVCIsInBpbl9tZWRpYV90eXBlIjoiIn1aCTExNTk0OTM1NWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5NDQ3MDEyNzkxMjYzOTA3MzmKARMxOTMyMjA4NTA5NzAyODk0NTY1qgEJcmVjb21tZW5kwgEgNjk4OTI2ZWY2NTM0N2VmNDk4ZDkyMGViYzgxOTJkNDjyAQoIDBIGTm9ybWFs8gEoCAoSJDliZTMwZTdmLWEyNDEtNGM2Yi1iOWIwLTVlMjRmMzFmYzc2Y/IBBQgLEgEyggIAiALe6/HpvDOSAiA2OTg5MjZlZjY1MzQ3ZWY0OThkOTIwZWJjODE5MmQ0OJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCFkZlZWRDb250cm9sQnJlYWtJblJ1bGXaAi1UU19TT1VSQ0VfQ09OVFJPTF9JTlRFUkVTVF9PUEVSQVRPUl8yMElNUF9BTEzoAgT6AgtOT1JNQUxfRkxPV4oDIDIwZWU4NzQxMTE4MTQwZDVhZDYxNzc0M2EwN2JhYmVlmgMNCgJ2MhAAGgVvdGhlcqgDhBzYAwDqAx9Db250cm9sSW50ZXJlc3RPcGVyYXRvcjIwSW1wQWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAE3LThAvkEAAAAABVKkz+BBQAAAAAAAAAAiQXifcsZWjSlP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUU4AUA6AUA8AUCkAYAoAYJqAYDkgIuCgk3NDQ0ODc0NjYSEzE5NDQ3MDEyNzkxMjYzOTA3MzkYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "9_1768674850.165",
+      "type": "feed",
+      "offset": 9,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674850,
+      "updated_time": 1768674850,
+      "target": {
+        "question": {
+          "type": "question",
+          "answer_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "comment_count": 1,
+          "bound_topic_ids": [
+            73,
+            2058,
+            10400
+          ],
+          "id": "584527087",
+          "url": "https://api.zhihu.com/questions/584527087",
+          "author": {
+            "is_following": false,
+            "is_followed": false,
+            "id": "b9840c983f4f7e7aedb10e6b0ad126fc",
+            "url": "https://api.zhihu.com/people/b9840c983f4f7e7aedb10e6b0ad126fc",
+            "name": "秋生",
+            "avatar_url": "https://picx.zhimg.com/50/v2-30fd59dc505e7275f2d955c2169a6195_l.jpg?source=b6762063",
+            "gender": 0,
+            "followers_count": 276,
+            "user_type": "people",
+            "url_token": "qiu-sheng-23-64",
+            "headline": "秋天见。",
+            "is_org": false
+          },
+          "title": "为什么要读《金瓶梅》？",
+          "detail": "",
+          "created": 1676583424,
+          "follower_count": 0,
+          "question_type": "normal"
+        },
+        "preview_text": "",
+        "visited_count": 2092,
+        "favorite_count": 26,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1995859836005540865",
+        "author": {
+          "name": "汤郁",
+          "followers_count": 81591,
+          "is_following": false,
+          "url_token": "tang-yu-39-42",
+          "url": "https://api.zhihu.com/people/bdbdf2930804b4356a209b4e2e95b77c",
+          "user_type": "people",
+          "headline": "好好吃饭，好好睡觉，诸事消",
+          "avatar_url": "https://picx.zhimg.com/50/v2-a63d66296d64924215bcbc1258d09f33_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "is_followed": false,
+          "id": "bdbdf2930804b4356a209b4e2e95b77c"
+        },
+        "thanks_count": 0,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "is_navigator": false,
+        "is_copyable": false,
+        "excerpt": "你不读金瓶梅，你怎么知道古代的红牛是什么？ 《红楼梦》保证了贵族文化不断层，《金瓶梅》则是保证了俗人文化不断层。 你以为古人喝茶都跟修仙似的，捏个兰花指，对着一汪清水闻香气吗？ 那是文人摆拍用的。 你真要是穿越到西门大官人的卧房里，看他大中午披头散发地爬起来，手里捧的那碗东西，保准能把你吓一跳。 那玩意儿根本不是茶，那是一碗加了料的“续命汤”。 书里第72回，潘金莲为了哄西门庆开心，亲自下厨弄了一碗茶。…",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "answer_type": "normal",
+        "id": "1995859836005540865",
+        "created_time": 1768630066,
+        "voteup_count": 47,
+        "excerpt_new": "你不读金瓶梅，你怎么知道古代的红牛是什么？ 《红楼梦》保证了贵族文化不断层，《金瓶梅》则是保证了俗人文化不断层。 你以为古人喝茶都跟修仙似的，捏个兰花指，对着一汪清水闻香气吗？ 那是文人摆拍用的。 你真要是穿越到西门大官人的卧房里，看他大中午披头散发地爬起来，手里捧的那碗东西，保准能把你吓一跳。 那玩意儿根本不是茶，那是一碗加了料的“续命汤”。 书里第72回，潘金莲为了哄西门庆开心，亲自下厨弄了一碗茶。…",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"QfOBlqU4\">你不读金瓶梅，你怎么知道古代的红牛是什么？</p><p data-pid=\"FeVkk_FJ\">《红楼梦》保证了贵族文化不断层，《金瓶梅》则是保证了俗人文化不断层。</p><p data-pid=\"XtdCbdDD\">你以为古人喝茶都跟修仙似的，捏个兰花指，对着一汪清水闻香气吗？</p><p data-pid=\"LSINuIKn\">那是文人摆拍用的。</p><p data-pid=\"lnkLPQUV\">你真要是穿越到西门大官人的卧房里，看他大中午披头散发地爬起来，手里捧的那碗东西，保准能把你吓一跳。</p><p data-pid=\"HUWI5gbh\">那玩意儿根本不是茶，那是一碗加了料的“续命汤”。</p><p data-pid=\"jLdlYgky\">书里第72回，潘金莲为了哄西门庆开心，亲自下厨弄了一碗茶。那名字长得，我一口气念下来差点缺氧——“芝麻盐笋栗丝瓜仁核桃仁夹春不老海青拿天鹅木樨玫瑰泼卤六安雀舌牙茶”。</p><p data-pid=\"4_4_DJDI\">你光听这名字，脑瓜子是不是嗡嗡的？</p><p data-pid=\"YcKjPAf8\">咱们拆开来看看这都是些什么鬼东西。</p><p data-pid=\"DPIw_9P-\">首先，这里头有盐，有芝麻，还有笋干。你想想，西门庆这人，整天酒池肉林，要么在应酬局上喝得烂醉，要么在女人堆里折腾到半夜。第二天醒来什么感觉？</p><p data-pid=\"iPDP45lo\">脱水啊，嗓子冒烟，浑身虚汗。</p><p data-pid=\"1eR6gktD\">这时候给他灌甜水不管用，喝淡茶更刮肠子。他身体里缺的是什么？</p><p data-pid=\"N_DCpdXt\">是电解质。</p><p data-pid=\"qUv9C37v\">这咸口的芝麻盐笋汤一下肚，那就像现在的宝矿力水特一样，瞬间就把体液平衡给拉回来了。</p><p data-pid=\"U6gxNxIO\">再看大头——栗子丝、瓜子仁、核桃仁。这哪是喝茶，这分明是往嘴里倒“每日坚果”。</p><p data-pid=\"Gxmvv6R_\">明朝又没有葡萄糖点滴，西门庆那种高强度的“体力劳动”之后，身体早掏空了。这碗茶里全是油脂和碳水，厚厚的一层漂在面上，一口喝下去，那就是液体的士力架，热量直接爆炸，顶饿又扛造。</p><p data-pid=\"y1Xup1oM\">光咸光油也不行，太腻。所以金莲那是高手，又往里加了“春不老”（其实就是一种带酸味的腌菜心），还有玫瑰卤子和木樨（桂花）。</p><p data-pid=\"VTM8-tpz\">这一口下去，滋味可太丰富了：六安茶的茶碱提神醒脑，腌菜的酸味冲击味蕾，把你那早就麻木的舌头给唤醒，玫瑰糖浆又提供了快速升糖的快乐。</p><p data-pid=\"aK1idsfh\">你试着脑补一下那个画面：</p><p data-pid=\"MPbaxC8t\">西门庆一脸纵欲过度的青灰气，瘫坐在床沿上，手脚发软。潘金莲递过来这么一碗黑乎乎、稠得能立住筷子的热汤。他接过来，“呼噜呼噜”连吃带喝，嚼着核桃仁的脆，品着腌菜的酸，混着热茶的滚烫。</p><p data-pid=\"47V-vD5p\">一碗下肚，汗出透了，胃里有食儿了，脑子被茶碱激灵醒了。</p><p data-pid=\"MOR9hlef\">那一刻，电充满了。</p><p data-pid=\"IOmjTT4Y\">他抹抹嘴，又能精神抖擞地出门去谈生意，或者去应付下一场酒局了。</p><p data-pid=\"sGPCDqjv\">更不用说其他细节了。</p>",
+        "type": "answer",
+        "updated_time": 1768635264,
+        "comment_count": 3
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995859836005540865}",
+      "attached_info": "CrkGCL+Vp8GdkK/MkgEQBBoJNzY1Nzk5MDEyILLOrMsGKC8wA0AJSigKE1RTX1NPVVJDRV9GRUVEUkVfVjUSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgg5MjE3NjY0OWIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU4NTk4MzYwMDU1NDA4NjWKAQk1ODQ1MjcwODeqAQlyZWNvbW1lbmTCASBiZGJkZjI5MzA4MDRiNDM1NmEyMDliNGUyZTk1Yjc3Y/IBCggMEgZOb3JtYWzyASgIChIkMGYyYzA0NWItYjRmMi00ZTUxLWJlNzktOWE4YTdkYzFlMGFl8gEFCAsSATKCAgCIAt7r8em8M5ICIGJkYmRmMjkzMDgwNGI0MzU2YTIwOWI0ZTJlOTViNzdjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZcoCG0hpZ2hMZXZlbENyZWF0b3JXZWlnaHRSdWxlNNoCE1RTX1NPVVJDRV9GRUVEUkVfVjXoAgP6AgtOT1JNQUxfRkxPV4oDIDIwZWU4NzQxMTE4MTQwZDVhZDYxNzc0M2EwN2JhYmVlmgMNCgJ2MhAAGgVvdGhlcqgDrBDYAwDqAxlmZWVkcmVXYXJtU3VjY2Vzc1JlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAIFC7wT+BBQAAAAAAAAAAiQXifcsZWjSlP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUCkAYAoAYKqAYAkgIuCgk3NjU3OTkwMTISEzE5OTU4NTk4MzYwMDU1NDA4NjUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "10_1768674850.234",
+      "type": "feed",
+      "offset": 10,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674850,
+      "updated_time": 1768674850,
+      "target": {
+        "excerpt_new": "上周和一个朋友小雅吃饭。 她是我认识的人里，最“折腾”的一个。 名校硕士，毕业进了人人羡慕的金融圈，年薪七位数。在我们老家，是亲戚朋友口中“别人家的孩子”的天花板。 但她活得比谁都拧巴。 前年，她突然说，工作没有意义，每天跟数字打交道，感觉自己像个高级算盘。她要去追寻热爱。 于是，她花十几万报了个烘焙大师班，想开一家法式甜品店。 朋友圈里，她晒出的马卡龙、可颂、歌剧院蛋糕，精致得像艺术品。我们都以为，…",
+        "content": "<p data-pid=\"9eLgwJH3\">上周和一个朋友小雅吃饭。</p><p data-pid=\"w06P9c5q\">她是我认识的人里，最“折腾”的一个。</p><p data-pid=\"cxFCskPL\">名校硕士，毕业进了人人羡慕的金融圈，年薪七位数。在我们老家，是亲戚朋友口中“别人家的孩子”的天花板。</p><p data-pid=\"noJbMd9i\">但她活得比谁都拧巴。</p><p data-pid=\"xx6o_lHS\">前年，她突然说，工作没有意义，每天跟数字打交道，感觉自己像个高级算盘。她要去追寻热爱。</p><p data-pid=\"XKcfLdnt\">于是，她花十几万报了个烘焙大师班，想开一家法式甜品店。</p><p data-pid=\"xBwtNZbz\">朋友圈里，她晒出的马卡龙、可颂、歌剧院蛋糕，精致得像艺术品。我们都以为，她要转型成美女老板娘了。</p><p data-pid=\"oi1pQGfq\">结果半年后，店没开起来，她跟我说，不行，太累了。每天凌晨四点起床和面，一站就是一天，腰都快断了。而且，她发现自己只是喜欢“品尝”和“欣赏”美食，而不是“制作”。</p><p data-pid=\"TvyB6xsp\">去年，她又迷上了瑜伽。</p><p data-pid=\"5gPpFovh\">花了好几万考了各种瑜伽教练证，说要去大理开个民宿，带着客人们做晨间瑜伽，过神仙日子。</p><p data-pid=\"N00piBCZ\">我问她，你喜欢当老师吗？</p><p data-pid=\"TABH8mZy\">她说，喜欢啊，那种掌控全场、被人仰望的感觉。</p><p data-pid=\"I3N7d-ZH\">前几天，她又给我打电话，声音很丧。说自己根本不是当老师的料，一堂课几十个学生，高矮胖瘦，基础不同，有人动作做不到位，她就莫名烦躁，根本没耐心一个个去纠正。</p><p data-pid=\"1syGkpvA\">她觉得，自己又失败了。</p><p data-pid=\"RkXH2L83\">她端着咖啡，一脸迷茫地问我，我到底适合做什么？为什么我感觉自己什么都喜欢，又什么都做不好？我的人生是不是就这样了，在一个不喜欢的岗位上，赚一堆没感觉的钱，然后慢慢老去？</p><p data-pid=\"eDt8PSJZ\">我看着她，就像看到了无数个在深夜里问过我类似问题的朋友。</p><p data-pid=\"pwwd1IMF\">我说，你有没有想过，你不是没找到方向，而是你找方向的方式，从一开始就错了。</p><p data-pid=\"_6xkxP5J\">你一直在向外看，看别人做什么赚钱，看什么东西是风口，看哪种生活方式显得很酷。</p><p data-pid=\"MRwApTUJ\">你像一只饥饿的猴子，看到玉米就掰一根，看到桃子又去摘一个，最后两手空空，还把自己累得半死。</p><p data-pid=\"8gYCQJwT\">你从来没有安安静静地，向内看一看。</p><p data-pid=\"eue6YZHJ\">其实，关于“你应该做什么事业”这个天大的问题，老天，或者说你的生命本身，一直在给你信号。</p><p data-pid=\"C3qh6k7e\">它不是通过雷鸣闪电，或者托梦告诉你的。</p><p data-pid=\"FwU63nTF\">它是通过你最真实的生活，用三种极其朴素，但极其重要的方式，24小时不间断地在提醒你。</p><p data-pid=\"vRjGDi15\">只是你太忙了，忙着追赶，忙着焦虑，从来没留意过。</p><p data-pid=\"pxLuePd3\">第一个信号，叫“不费力的优势”。</p><p data-pid=\"q-TUVw4Z\">你有没有发现，生活中总有那么一两件事，你做起来好像不怎么费劲，但身边的人却觉得很牛，甚至会花钱请你帮忙。</p><p data-pid=\"LiJnHx87\">这个，就是老天爷悄悄塞到你手里的礼物。</p><p data-pid=\"Z5L-KWrF\">我问小雅，你回忆一下，从小到大，朋友、同学、同事，找你帮忙最多的是什么事？不是借钱这种，而是需要你花点时间精力才能搞定的事。</p><p data-pid=\"4cfr57Hv\">她想了很久，突然一拍大腿。</p><p data-pid=\"bk5CjNZ9\">“做攻略！规划！整理！”</p><p data-pid=\"ZgBDADdd\">她说，上学时，班级春游秋游，老师都直接把任务扔给她，因为她做出来的方案，时间、路线、预算，都安排得明明白白。</p><p data-pid=\"2CtJxKWN\">工作后，部门团建、朋友结伴旅行，所有人也都默认她是“总导演”。谁跟她出去，脑子都不用带，跟着走就行。</p><p data-pid=\"Dux-AAFO\">甚至，她有个同事，搬家，家里乱得像垃圾场，宁愿花两千块钱请她，而不是请家政，让她帮忙规划一下新家的收纳布局。</p><p data-pid=\"a6tDopaM\">她说，我一直觉得这是个累活儿，吃力不讨好，能推就推。难道这也是个信号？</p><p data-pid=\"oIYNLijD\">我说，当然是。</p><p data-pid=\"G5LDOI0F\">这个世界最吊诡的地方在于，你的天赋，你自己往往是看不见的。</p><p data-pid=\"ekHoIPKK\">为什么？</p><p data-pid=\"W8MXbu0n\">因为你做那件事太轻松了，轻松到你觉得那不配称之为一种“能力”，顶多算个习惯。就像鱼感觉不到水的存在，鸟也意识不到自己会飞一样。</p><p data-pid=\"HKvAc94B\">而你所谓的“热爱”，比如烘焙、瑜伽，恰恰是你需要“踮起脚尖”，付出巨大努力才能勉强够到的东西。这个过程充满了挫败和痛苦，所以你印象深刻，误以为这才是“奋斗”，这才是“追逐梦想”。</p><p data-pid=\"xX5rBRxG\">你把“费力”当成了“热爱”，却把自己“不费力”的天赋，当成了不值一提的杂务。</p><p data-pid=\"RbKq71dc\">这世上，绝大多数人，都在用自己的短板，去和别人的长板火拼，然后感慨人生不易。</p><p data-pid=\"pF5dXfyU\">我有个读者，是个程序员，30多岁，感觉写代码越来越吃力，天天担心被裁员。</p><p data-pid=\"Eky5JD_Z\">他很焦虑，也学人家去做副业，搞过短视频，做过知识星球，都黄了。</p><p data-pid=\"mEITbb2J\">有一次我们聊，我用同样的方法问他。</p><p data-pid=\"ErakRLuQ\">他说，我好像没什么不费力的优势，我从小就是个普通人。</p><p data-pid=\"9xnkWdb-\">我说，你再想想。有没有什么事，你做完之后，身边的人会由衷地佩服你，觉得“这事儿还得是你来”？</p><p data-pid=\"WAt5uzr2\">他沉默了很久，说，好像有。</p><p data-pid=\"LEq9uUKp\">公司里，不管多复杂的技术问题，或者多混乱的业务逻辑，只要他跟产品经理、跟其他程序员聊半小时，他就能画一张逻辑图出来，把里面的核心节点、各种分支、潜在的坑，都标得清清楚楚。</p><p data-pid=\"YjA9R9V0\">很多人看不懂的需求文档，被他“翻译”一遍，马上就懂了。</p><p data-pid=\"UukQms1i\">他一直觉得，这不就是程序员的基本功吗？</p><p data-pid=\"AbbQNCe1\">我说，你错了。把复杂问题，用结构化的方式呈现出来，让笨蛋都能看懂，这不是基本功，这是天才。</p><p data-pid=\"iRYRAlzg\">大部分程序员，擅长的是用代码实现功能。而你，擅长的是“翻译”和“结构化”。你的核心能力，不是写代码，而是“降低信息熵”。</p><p data-pid=\"thnd7HZV\">后来，你猜怎么着？</p><p data-pid=\"Q2Z_XO0w\">他不再逼自己去攻克那些高精尖的技术难题了。他主动申请，在公司内部牵头，做了个“技术分享会”。</p><p data-pid=\"orWVeU6A\">每周，他把公司最牛的几个技术大拿请过来，让他讲最新的东西。然后，他负责把那些晦涩的内容，“翻译”成全公司（包括市场、销售、运营）都能听懂的语言。</p><p data-pid=\"SdC7H2YI\">这个分享会，让他成了公司的“知识枢纽”。所有部门的人都爱上了他，因为他极大地降低了跨部门沟通的成本。</p><p data-pid=\"SZ87gHrv\">年底，老板直接把他提拔成了技术总监助理，薪水翻倍。老板的原话是：我需要的不是一个顶级的程序员，我需要一个能让所有程序员的价值，被公司看见的人。</p><p data-pid=\"qhjYw_FR\">你看，他还是在原来的公司，还是面对那群人，只是稍微切换了一下自己的“生态位”，从“用手干活”，变成了“用天赋干活”。</p><p data-pid=\"1KyUoDkC\">整个世界都变了。</p><p data-pid=\"H8mP1fal\">所以，请你现在就停下来，拿出一张纸，好好问问自己：</p><p data-pid=\"sF93eYfQ\">我做什么事，不费劲？</p><p data-pid=\"5FGh_REy\">别人遇到什么事，会第一时间想到我？</p><p data-pid=\"3qlerWTC\">把这些事写下来，不管它们看起来多么“上不了台面”，比如“特别会跟人砍价”、“给猫拍照片特别好看”、“总能找到最好吃的路边摊”……</p><p data-pid=\"TV6mmJF5\">这里面，就藏着你事业的第一个密码。</p><p data-pid=\"ojIbIbzh\">第二个信号，叫“让你愤怒的痛点”。</p><p data-pid=\"Va5n2iQJ\">你平时上网，或者走在街上，看到什么事，会让你瞬间火冒三丈，觉得“这帮人怎么这么蠢”、“这个东西怎么能设计成这样”？</p><p data-pid=\"UUKWcKBy\">这种“莫名的愤怒”，不是你脾气不好，而是你的价值观和使命感，在被外界的乱象所刺痛。</p><p data-pid=\"B2GNxGK_\">你的愤怒，就是你的指南针。它指向的地方，就是你最想去“改变”和“创造”的地方。</p><p data-pid=\"vCHkneZB\">小雅听完，眼睛一亮。</p><p data-pid=\"_vwA8VIq\">她说，有！太多了！</p><p data-pid=\"RSkwdKlF\">我每次出去旅行，订那些所谓的“网红”民宿，图片美得像天堂，到了现场，卫生间反味，床单是潮的，热水器要么不出热水，要么能把人烫死。APP上的好评，全是刷出来的。</p><p data-pid=\"BLHI6dN1\">每次遇到这种事，我都气得想骂人，想把这家店挂到网上，让所有人都别来。我觉得他们在侮辱“旅行”这两个字。</p><p data-pid=\"uM4mHRvx\">还有，我去一些餐厅吃饭，菜品明明不错，但服务员的流程一塌糊涂。点个菜要喊半天，上了菜发现下错了单，结个账能等二十分钟。一个好好的馆子，就被这帮乌合之众给毁了。</p><p data-pid=\"QXNqhWm-\">我说，你发现没有，你愤怒的点，都非常一致。</p><p data-pid=\"grEtNCFq\">都指向了“体验差”和“效率低”。</p><p data-pid=\"bnsIRxF-\">你愤怒的，不是某个具体的服务员，也不是某家具体的民宿老板。你愤怒的是“混乱”本身。</p><p data-pid=\"L0ylcG8f\">你是一个对“秩序”和“体验”有着极高要求的人。任何破坏这种秩序美感的东西，都会让你生理不适。</p><p data-pid=\"yFZoPmo3\">这个，就是老天给你的第二个信号。</p><p data-pid=\"bEgaIRL6\">它在告诉你，你的使命，可能就藏在你最看不惯的事情里。</p><p data-pid=\"SFVfbXDv\">这个世界上，所有的商业机会，本质上都源于某个群体的“痛点”。</p><p data-pid=\"3S8SP9zA\">而你最愤怒的那个痛点，往往就是你能为之奋斗终生的事业。因为你不是为了赚钱去做它，你是为了“平息自己的怒火”去做它。</p><p data-pid=\"0FJM0SR5\">这种发自内心的驱动力，比任何KPI、任何股权激励，都强大一百倍。</p><p data-pid=\"HR11vGXW\">我认识一个做童装的姐姐。</p><p data-pid=\"o84JyQul\">她创业前，是家庭主妇。有一次，她给女儿买了一条很贵的公主裙，结果孩子穿了一天，身上就起了红疹。</p><p data-pid=\"spfanOwN\">她去找商家理论，对方态度傲慢，说几百块的衣服都这样，是你的孩子太娇气。</p><p data-pid=\"SkHBw8k-\">她当时就气炸了。</p><p data-pid=\"O6HZDU8D\">她不是气那几百块钱，她是气一个做童装的品牌，竟然可以对孩子的健康如此麻木和不负责任。</p><p data-pid=\"NhubSIL8\">从那天起，她就疯了。</p><p data-pid=\"iexRYIz3\">她把市面上所有知名品牌的童装都买回来，一件件研究面料、成分、染色工艺。她发现，很多标榜“纯棉”的衣服，都加了各种化学制剂，为了让衣服看起来更挺括、颜色更鲜艳。</p><p data-pid=\"eVwfPn0N\">她觉得，这是在“作孽”。</p><p data-pid=\"pceqQCny\">后来，她用自己所有的积蓄，创立了一个童装品牌。只有一个原则：安全，绝对的安全。</p><p data-pid=\"pm1KQEdU\">她用的棉花，是新疆最好的长绒棉，不打农药。染色，用的是植物染。所有的纽扣、拉链，都用布包起来，防止划伤孩子。</p><p data-pid=\"fVwFPDT-\">因为成本高，她的衣服比别人贵很多。一开始，根本没人买。</p><p data-pid=\"GYVI_YPx\">所有人都劝她，差不多得了，水至清则无鱼。</p><p data-pid=\"2laPtKAw\">她不听。她就是咽不下那口气。</p><p data-pid=\"fwF7g-dV\">她说，我一想到有孩子要穿那些“毒衣服”，我就睡不着觉。就算我的公司倒闭，我也要让一些妈妈知道，什么是真正安全的童装。</p><p data-pid=\"7JGQUBfD\">结果，靠着一小撮“懂行”的妈妈们的口碑，她的品牌慢慢活下来了。</p><p data-pid=\"P2wr_JVQ\">现在，她的公司年销售额好几个亿，成了国内高端童装的标杆。</p><p data-pid=\"dCvrd3ym\">很多人都去研究她的商业模式，分析她的营销策略。</p><p data-pid=\"Kmf9ytka\">我说，你们都搞错了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"y0QT2woy\">她成功的唯一秘诀，就是那股“愤怒”。</p><p data-pid=\"Oeocn2ru\">是那股“我绝不允许这种烂事继续发生”的愤怒，支撑她熬过了所有艰难。</p><p data-pid=\"e3VfesAr\">所以，你也问问自己：</p><p data-pid=\"AYpGNFI4\">什么事，让你忍无可忍？</p><p data-pid=\"SzwL_D7K\">什么问题，你觉得非解决不可？</p><p data-pid=\"v8wYyVUY\">你最想吐槽、最想改变的，是什么？</p><p data-pid=\"P3ENGquk\">别小看你的“愤怒”，那里藏着千军万马。</p><p data-pid=\"Bq1oIZOj\">第三个信号，叫“忘记时间的快乐”。</p><p data-pid=\"II2BKASj\">在你所有的行为里，有没有一种，一旦开始，你就会忘记时间，忘记空间，甚至忘记吃饭和睡觉？</p><p data-pid=\"xrMLUh-T\">你做它的时候，不是为了得到什么结果，也不是为了向谁证明。</p><p data-pid=\"dqk5s7Jl\">你纯粹就是享受那个过程。</p><p data-pid=\"xDAWOoTb\">心理学上，管这个叫“心流”。</p><p data-pid=\"DlSZIzVN\">我管它叫“灵魂在唱歌”。</p><p data-pid=\"Y1tcAgMf\">小雅说，这个我好像没有。我每天都盼着下班，周末只想躺着。</p><p data-pid=\"7HPUfxaK\">我说，不是的，你一定有。只是你把它当成了“不务正业”，当成了“消遣”，所以刻意忽略了它。</p><p data-pid=\"DxaXsUOE\">你再想想，你做烘焙，最快乐的瞬间是什么？是揉面的时候，还是烤箱“叮”一声的时候？</p><p data-pid=\"GOvL6Ten\">她说，都不是。是把蛋糕装在漂亮的盒子里，写上祝福的卡片，设计一条最完美的配送路线，确保它能准时、完好地送到朋友手上的时候。那一刻，我感觉自己像个圣诞老人。</p><p data-pid=\"CqAmZoSD\">我说，你做瑜伽呢？最快乐的是自己做出一个高难度体式，还是别的？</p><p data-pid=\"y9AV0LAp\">她说，也不是。是我在小红书上，把我去过的所有瑜伽馆，按照环境、师资、价格、氛围，做成一个详尽的测评表格，分享出去，然后很多人在下面留言说“博主太牛了，这个太有用了”，那个时候最开心。</p><p data-pid=\"cJxWv7Tw\">我笑了。</p><p data-pid=\"WRh5-jxQ\">我说，你发现了没？</p><p data-pid=\"d0HN0uDX\">你的快乐，从来不在于“做”某件事本身。</p><p data-pid=\"C34cRmZC\">你做烘D焙的快乐，源于“完美交付”。</p><p data-pid=\"4HhW5i-e\">你练瑜伽的快乐，源于“信息整理与分享”。</p><p data-pid=\"m-ZH7g-Z\">你帮朋友做攻略的快乐，源于“规划与统筹”。</p><p data-pid=\"h-kMFufd\">这些行为的背后，指向了一个共同的内核：</p><p data-pid=\"6XxJZ1b7\">你在通过“建立秩序”，来获得巨大的精神满足。</p><p data-pid=\"bfVpRTP8\">对你来说，把一堆混乱的信息、一堆无序的流程，梳理得井井有条，就像艺术家完成了一幅杰作，就像将军打赢了一场战役。</p><p data-pid=\"2d9aNQmX\">这个过程本身，就能让你“嗨”。</p><p data-pid=\"NGvU8uq6\">这个，就是老天给你的第三个，也是最重要的信号。</p><p data-pid=\"dddSPqRX\">它揭示了你最底层的“爽点模式”。</p><p data-pid=\"j-rjZTq1\">一个人的事业，如果不能和他的“爽点模式”挂钩，那他做得再成功，也只是个“工具人”。他会感觉很累，感觉被掏空。</p><p data-pid=\"vmkTJita\">因为他在用“意志力”工作，而不是用“享受”在工作。</p><p data-pid=\"6xRvrNmt\">前者是“耗能”的，后者是“储能”的。</p><p data-pid=\"aR2mHNC7\">为什么很多游戏设计师，自己从来不打游戏？因为他们的“爽点”，不是通关，而是设计出那个能让千万玩家欲罢不能的“规则”和“数值”。</p><p data-pid=\"X4Pj5OQ8\">为什么很多顶级的投资人，自己生活极其简朴？因为他们的“爽点”，不是花钱，而是做出一个“精准预判”，然后看着市场验证了自己想法的那个瞬间。</p><p data-pid=\"L0JiWi3I\">所以，找到那个能让你“忘记时间”的动作，你就找到了自己精神世界的“永动机”。</p><p data-pid=\"boskX6Wp\">我对小雅说，现在，我们把这三个信号串起来。</p><p data-pid=\"CfD8_x0a\">信号一，你的“不费力优势”是：规划、整理、做攻略。</p><p data-pid=\"nlheomQR\">信号二，你的“愤怒点”是：讨厌一切低效、混乱、体验差的服务。</p><p data-pid=\"4Z3AyTSC\">信号三，你的“心流时刻”是：成功地建立秩序，并帮助别人避坑。</p><p data-pid=\"32f1Kjsp\">这三个信号，都指向了同一个方向。</p><p data-pid=\"vJjYo8D1\">老天爷在用你的整个生命告诉你：</p><p data-pid=\"QW6E11Km\">“小雅，你的天命，不是去做一个具体的面包师，或者瑜伽老师。你的天命，是去成为一个‘秩序的建造者’、一个‘体验的优化师’。”</p><p data-pid=\"qnYVHUYI\">这是一个比任何“职业”都更本质的“身份”。</p><p data-pid=\"6SjVJn_4\">有了这个身份，你再去看职业选择，一切就都清晰了。</p><p data-pid=\"ba6zHBLs\">你可以去做一个“高端定制旅行规划师”。专门服务那些讨厌跟团、又懒得自己做攻略的金领。你帮他们设计的，不是路线，而是“完美的体验”。这是你的天赋。</p><p data-pid=\"SIjCwvhu\">你可以去做一个“餐厅流程优化顾问”。专门帮助那些有好产品但管理混乱的餐厅，梳理他们的服务流程。你拯救的，不是一家餐厅，而是你最看重的“秩序”。这是你的使命。</p><p data-pid=\"ohiZ3Dez\">你甚至可以去做一个“个人IP孵化师”。专门帮助那些有才华但很乱的博主，规划他们的内容体系和商业模式。你享受的，是把一堆散乱的珠子，串成一条璀璨项链的快乐。这是你的心流。</p><p data-pid=\"Yi4DEoh1\">你看，选择突然就多了起来。</p><p data-pid=\"DFaJWcmM\">而且每一个选择，都在你的“天赋区”、“使命区”和“热情区”的交集里。</p><p data-pid=\"xzcIr9NR\">你做任何一个，都会比现在快乐和强大一万倍。</p><p data-pid=\"M15-Riib\">小雅那天回去后，就把工作辞了。</p><p data-pid=\"okIN_5Wh\">她没有马上创业。她用了一个月时间，把自己过去十年去过的所有地方，住过的酒店，吃过的餐厅，全部重新梳理了一遍，做成了一个极其详尽的“避坑指南”数据库。</p><p data-pid=\"5CAXw-8r\">然后，她开始在网上接单。</p><p data-pid=\"P789OsNe\">第一个客户，是她前同事，要去意大利度蜜月。她收了五千块，花了一周时间，给人家做了一份长达50页的PDF，细致到每天坐哪一趟火车最便宜，哪个犄角旮旯的冰淇淋最好吃，哪个博物馆需要提前多久预约。</p><p data-pid=\"SDDwsABh\">她同事回来后，直接给她封了个大红包，说这是他人生中最完美的一次旅行。</p><p data-pid=\"y2TUmXIx\">现在，小雅的“旅行定制”生意，已经需要预约排队了。她收费很高，但客户源源不断。</p><p data-pid=\"6Q_dYvVR\">她前几天给我发微信，说，我终于知道什么是“躺着赚钱”了。我现在每天都在干我最爱干的事，一点都不觉得累，钱还比以前赚得多。感觉自己的人生，终于“顺”了。</p><p data-pid=\"WrwIyfKd\">……</p><p data-pid=\"GTemg7JD\">写下小雅的故事，并不是想让你也去辞职。</p><p data-pid=\"lz31jGXa\">而是想告诉你，找到自己的“天命事业”，并不是一件需要“顿悟”或者“灵感”的玄学事件。</p><p data-pid=\"FDObrfFg\">它更像一个“考古”的过程。</p><p data-pid=\"Z74lR71i\">那些线索，那些信号，就埋藏在你日复一日的生活里。</p><p data-pid=\"hiGzuhN8\">你的“不费力”，是你的武器。</p><p data-pid=\"rXFxaN2t\">你的“愤怒”，是你的方向。</p><p data-pid=\"OTy0JrcC\">你的“心流”，是你的燃料。</p><p data-pid=\"JbmdIwNv\">把这三者结合起来，你就能挖出那个独一无二的，只属于你的“藏宝图”。</p><p data-pid=\"WLmNi298\">只是，这个“考古”的过程，对很多人来说，并不容易。</p><p data-pid=\"zhEooXVv\">因为它需要我们穿越层层的自我否定、外界的噪音、和长久以来形成的思维定式。</p><p data-pid=\"8klkhR6C\">我们的大脑，像一间堆满了杂物的仓库，那些珍贵的线索，常常被我们无意识地忽略、压抑、甚至贴上“没用”的标签。</p><p data-pid=\"ACcffFan\">就像小雅，她一直都知道自己擅长规划，但她的大脑告诉她：这是一个“不值钱”的技能。</p><p data-pid=\"rBgrr_aC\">她一直都对混乱的服务感到愤怒，但她的大脑告诉她：这是“爱管闲事，情商低”。</p><p data-pid=\"S07Rk7wF\">我们需要一套工具，一把“思维的刷子”，来清扫这些认知上的灰尘，让我们能清晰地看见那些早已存在的信号。</p><p data-pid=\"tg8Ho8KX\">这套工具，我花了十年时间，把它打磨成了《格物心法》。</p><p data-pid=\"DxJvyQyg\">它不是一本成功学，也不是一本心灵鸡汤。</p><p data-pid=\"Z0Whg7CJ\">它是一套包含50个底层思维模型的“心智操作系统”。</p><p data-pid=\"OzuCJZlB\">比如，书里的【能力圈】模型，会教你如何精准地画出自己的“不费力优势区”，并终生捍卫它，让你不再盲目地向外追逐。</p><p data-pid=\"pISBbKG6\">书里的【逆向思维】模型，会教你如何从你最“愤怒”的那个终极问题出发，倒推出解决它的路径，让你的愤怒，变成清晰的行动路线图。</p><p data-pid=\"iSUvWWly\">书里的【舒适区模型】，会帮你精准识别哪些是让你“耗能”的挑战，哪些是让你产生“心流”的“最优挑战”，让你在享受中成长。</p><p data-pid=\"beSwd-9X\">这50个模型，就像50把不同规格的刷子和铲子，能帮你把缠绕在你天赋、使命和热情之上的藤蔓和淤泥，一层层剥离开。</p><p data-pid=\"NORkxIdH\">它不能直接告诉你该做什么。</p><p data-pid=\"YNdsLiBR\">但它能让你拥有一双“能看透自己”的眼睛。</p><p data-pid=\"WCFircdB\">当你看清了自己，你该走的路，自然就会浮现在眼前。</p><p data-pid=\"Lq73IyOf\">那是一条让你走起来不费力，充满激情，而且能创造巨大价值的路。</p><p data-pid=\"Ogwt0h_R\">一条真正“顺天应人”的路。</p>",
+        "visited_count": 1631,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "id": "1995358289597318244",
+        "title": "其实老天一直在提醒你，应该做什么事业",
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "comment_permission": "all",
+        "excerpt": "上周和一个朋友小雅吃饭。 她是我认识的人里，最“折腾”的一个。 名校硕士，毕业进了人人羡慕的金融圈，年薪七位数。在我们老家，是亲戚朋友口中“别人家的孩子”的天花板。 但她活得比谁都拧巴。 前年，她突然说，工作没有意义，每天跟数字打交道，感觉自己像个高级算盘。她要去追寻热爱。 于是，她花十几万报了个烘焙大师班，想开一家法式甜品店。 朋友圈里，她晒出的马卡龙、可颂、歌剧院蛋糕，精致得像艺术品。我们都以为，…",
+        "preview_text": "",
+        "is_labeled": false,
+        "article_type": "normal",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1995358289597318244",
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "id": "fe5bf527d88232fa9e601091ae142480",
+          "user_type": "people",
+          "avatar_url": "https://picx.zhimg.com/50/v2-59280ed5b666404c51e0bf43e75b28f0_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 22,
+          "url": "https://api.zhihu.com/people/fe5bf527d88232fa9e601091ae142480",
+          "url_token": "mi-mi-yang-44",
+          "name": "知研",
+          "headline": "每天一篇深度长文，升级思维与认知",
+          "is_org": false
+        },
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "preview_type": "default",
+        "favorite_count": 38,
+        "updated": 1768510628,
+        "voting": 0,
+        "comment_count": 1,
+        "created": 1768510628,
+        "voteup_count": 9
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995358289597318244}",
+      "attached_info": "CrIFCL+Vp8GdkK/MkgEQBxoJMjY5MDkxMjUwIKSppcsGKAkwAUAKSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTM1ODI4OTU5NzMxODI0NKoBCXJlY29tbWVuZMIBIGZlNWJmNTI3ZDg4MjMyZmE5ZTYwMTA5MWFlMTQyNDgw8gEKCAwSBk5vcm1hbPIBKAgKEiRlYjUxZGRlMC1jZTIyLTQxNmQtYWEzNi04MGE1NDQ5NmJhOTTyAQUICxIBMoICAIgC3uvx6bwzkgIgZmU1YmY1MjdkODgyMzJmYTllNjAxMDkxYWUxNDI0ODCaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCAvoCC05PUk1BTF9GTE9XigMgMjBlZTg3NDExMTgxNDBkNWFkNjE3NzQzYTA3YmFiZWWaAw0KAnYyEAAaBW90aGVyqAPfDNgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoPxGsT+BBQAAAAAAAAAAiQXifcsZWjSlP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUCkAYAoAYLqAYAkgIuCgkyNjkwOTEyNTASEzE5OTUzNTgyODk1OTczMTgyNDQYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "AD_3665261_17686748502700",
+      "type": "feed_advert",
+      "brief": "{\"source\":\"PR\",\"type\":\"feed_advert\",\"id\":3665261}",
+      "action_text": "",
+      "attached_info": "CqgBCL+Vp8GdkK/MkgFAC5ABAdoBJDU5YWM1ZTFhLTE3YTktNDgxZi1iNzk4LTU5ZTYyNTg4MzY3NvIBBggMEgJBZIgC3uvx6bwz+gILQURWRVJUX0ZMT1eKAyAyMGVlODc0MTExODE0MGQ1YWQ2MTc3NDNhMDdiYWJlZYAEAZIEC0J1c2luZXNzX0Fk+QQAAAAAAADwP4EFAAAAAAAANkCyBQExoAYMqAYBMhQtNzg4MzM0Mzg4MTg0ODYzMjY0MQ==",
+      "ad": {
+        "count": 0,
+        "position": 0,
+        "ad_verb": "PROMOTE_URL_CARD",
+        "close_track": "https://sugar.zhihu.com/plutus_adreaper?qetl=0&nt=0&t=7&ar=0.001482002204284072&qpw=0&pf=4&ed=CjEEfR4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYAiOh4vVigQV&ut=075acd00a0774b9d9d2a3786e8226e3a&pdi=1744774109564729&s=4ccde416-279b-49a7-97c1-f1185b42dc86&di=tower&idi=100010062&qpt=0",
+        "revert_close_track": "https://sugar.zhihu.com/plutus_adreaper?s=4ccde416-279b-49a7-97c1-f1185b42dc86&nt=0&t=8&qpw=0&pf=4&qpt=0&ut=075acd00a0774b9d9d2a3786e8226e3a&pdi=1744774109564729&ar=0.001482002204284072&qetl=0&ed=CjEEch4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYLI6FLskdEaN&di=tower&idi=100010062",
+        "template": "web_image_feed",
+        "load_tracks": [
+          "https://sugar.zhihu.com/plutus_adreaper?qpt=0&di=tower&qpw=0&ar=0.001482002204284072&s=4ccde416-279b-49a7-97c1-f1185b42dc86&qetl=0&t=2&pf=4&idi=100010062&ut=075acd00a0774b9d9d2a3786e8226e3a&nt=0&ed=CjEEeB4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYIbB0FDa65tA&pdi=1744774109564729"
+        ],
+        "creatives": [
+          {
+            "landing_url": "https://ima.qq.com/download/?webFrom=10000435&channel=10000435&cb=https%3A%2F%2Fsugar.zhihu.com%2Fplutus_adreaper_callback%3Fsi%3D145e0f65-c31f-4c5e-9efd-b0c047aa2ed8%26os%3D3%26zid%3D7%26zaid%3D3665261%26zcid%3D3621071%26cid%3D3621071%26event%3D__EVENTTYPE__%26value%3D__EVENTVALUE__%26ts%3D__TIMESTAMP__%26cts%3D__TS__%26mh%3D0d4c67703d44506b579057ff6733c754%26adv%3D703838%26ocg%3D4%26cp%3D2500%26ocs%3D1%26aic%3D0%26ct%3D2%26ed%3DGiBNJgVzfCMmUW9XIVDVNQZREwA%3D&spu=biz%3D0%26ci%3D3621071%26si%3D59ac5e1a-17a9-481f-b798-59e625883676%26ts%3D1768674849%26zid%3D7",
+            "image": "https://picx.zhimg.com/v2-f65722ce25c730a95fcdabe66f285b94_bh.jpg?source=d6434cab",
+            "image_2x": "",
+            "title": "多知识任务还在排队做？腾讯ima同步处理省时间",
+            "description": "微信文件一键转存至腾讯ima知识库，让你想用的时候随时都能用，还能对知识库里的文件进行深层次解析哦",
+            "button": "查看详情",
+            "action_button": false,
+            "footer": {
+              "value": ""
+            },
+            "cta": {
+              "value": "查看详情"
+            },
+            "brand": {
+              "id": 0,
+              "name": "ima",
+              "logo": "https://pic3.zhimg.com/v2-6bcab51aab5519d3e668f35b0a210fc3_xl.jpg?source=d6434cab"
+            },
+            "app_promotion_url": "",
+            "native_url": "",
+            "deep_url": "",
+            "video_watch_num": 15080,
+            "za_ad_info": "CO3a3wEQByIBMV2s19JOYM+B3QE=",
+            "za_ad_info_json": "{\"ad_id\":3665261,\"ad_zone_id\":7,\"category\":\"1\",\"timestamp\":1768674800,\"creative_id\":3621071}",
+            "external_click_url": "",
+            "impression_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?nt=0&ar=0.001482002204284072&s=4ccde416-279b-49a7-97c1-f1185b42dc86&di=tower&pdi=1744774109564729&ut=075acd00a0774b9d9d2a3786e8226e3a&qetl=0&t=3&ed=CjEEeR4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYCTCT0KvKIWG&idi=100010062&qpw=0&qpt=0&pf=4&rui=59ac5e1a-17a9-481f-b798-59e625883676"
+            ],
+            "click_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?pdi=1744774109564729&qetl=0&nt=0&qpt=0&qpw=0&ut=075acd00a0774b9d9d2a3786e8226e3a&ar=0.001482002204284072&idi=100010062&s=4ccde416-279b-49a7-97c1-f1185b42dc86&pf=4&di=tower&t=4&ed=CjEEfh4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYKvQQFw_euh9"
+            ],
+            "id": 3665261,
+            "name": "",
+            "conversion_tracks": [
+              "https://sugar.zhihu.com/plutus_adreaper?pf=4&idi=100010062&ut=075acd00a0774b9d9d2a3786e8226e3a&nt=0&ed=CjEEfx4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYJDf5Ukj2yJ8&di=tower&s=4ccde416-279b-49a7-97c1-f1185b42dc86&pdi=1744774109564729&qpw=0&qetl=0&t=5&ar=0.001482002204284072&qpt=0"
+            ],
+            "content_type": "",
+            "target_token": ""
+          }
+        ],
+        "vote_up_count": 0,
+        "comment_count": 0,
+        "is_following": false,
+        "category": 1,
+        "id": 3665261,
+        "can_interact": false,
+        "user_id": 0,
+        "ctr": 0,
+        "display_advertising_tag": true,
+        "debug_tracks": [
+          "https://sugar.zhihu.com/plutus_adreaper?pf=4&qpt=0&ed=CjEEcx4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYNmaz1l85E9Y&ar=0.001482002204284072&di=tower&s=4ccde416-279b-49a7-97c1-f1185b42dc86&qetl=0&qpw=0&t=9&pdi=1744774109564729&idi=100010062&nt=0&ut=075acd00a0774b9d9d2a3786e8226e3a"
+        ],
+        "land_prefetch": false,
+        "native_prefetch": true,
+        "is_new_webview": true,
+        "experiment_info": "{}",
+        "download_silent": false,
+        "is_speeding": false,
+        "brand": {
+          "name": "ima",
+          "logo": "https://pic3.zhimg.com/v2-6bcab51aab5519d3e668f35b0a210fc3_xl.jpg?source=d6434cab",
+          "type": "brand",
+          "action_text": ""
+        }
+      },
+      "ad_list": [],
+      "adjson": "{\"ads\":[{\"id\":3665261,\"ad_zone_id\":7,\"template\":\"web_image_feed\",\"style\":\"psi_7\",\"impression_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?pf=4\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026nt=0\\u0026qetl=0\\u0026qpt=0\\u0026di=tower\\u0026t=2\\u0026ar=0.001482002204284072\\u0026qpw=0\\u0026s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3\\u0026ed=CjEEeB4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYIbB0FDa65tA\\u0026idi=100010062\\u0026pdi=1744774109564729\"],\"view_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?qpw=0\\u0026s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026pdi=1744774109564729\\u0026pf=4\\u0026nt=0\\u0026di=tower\\u0026idi=100010062\\u0026ar=0.001482002204284072\\u0026qpt=0\\u0026t=3\\u0026ed=CjEEeR4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYCTCT0KvKIWG\\u0026rui=59ac5e1a-17a9-481f-b798-59e625883676\\u0026qetl=0\"],\"click_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026qetl=0\\u0026pf=4\\u0026ar=0.001482002204284072\\u0026qpt=0\\u0026s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3\\u0026di=tower\\u0026idi=100010062\\u0026qpw=0\\u0026pdi=1744774109564729\\u0026nt=0\\u0026ed=CjEEfh4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYKvQQFw_euh9\\u0026t=4\"],\"close_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?ed=CjEEfR4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYAiOh4vVigQV\\u0026qpt=0\\u0026idi=100010062\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026qpw=0\\u0026nt=0\\u0026t=7\\u0026s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3\\u0026pf=4\\u0026qetl=0\\u0026pdi=1744774109564729\\u0026ar=0.001482002204284072\\u0026di=tower\"],\"debug_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?ar=0.001482002204284072\\u0026s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3\\u0026di=tower\\u0026ed=CjEEcx4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYNmaz1l85E9Y\\u0026qpw=0\\u0026qpt=0\\u0026qetl=0\\u0026pf=4\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026nt=0\\u0026idi=100010062\\u0026t=9\\u0026pdi=1744774109564729\"],\"conversion_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?idi=100010062\\u0026s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3\\u0026ed=CjEEfx4wM31_EWcCATZ6BUYmCntebm4je0B_XlQ2KB0JdVp6DHQ7IXxANl8XMTYNXGNYI1x-aXZ4EGBRAHY8WVZ3D3wBc2twaEY7WgJmfgFbcghsWzdncmhGPVoAZWIEX3MOfA57b3N9FmBSA3YuQFZ3CXoIZTY1cxBgXwZhfwleY0wjBXJocGAXYlMfZ3seX3MfPkt-a3d4HWRQBWh4CU0kTncIZTkocxV0BkRtewBYfQpyHjM7KXMVdBNCP3EBTSZJdwp2anBoSjEUDGFqXwgiBH4eJTszcxV0AVAicQBNKFo4BXN8NTtMNloAZ3gEXHINewh6b3Z6EmBeFzElU1Z1Hz5NfjI0OlUhQgIRaQItYAsMUS47bj9UfARePWkCLSFWPVYvNSEqAGAhFGMKRw4nfzhXLn9zChRiVwFgeANeYAt8Wys7LiBAPkICFH0AW3UJfgt2f3J4RjBCAhQTbygEdQZ6AhkLEXp0F19tJV0KY0svBXFobnYcYFYFYnkCXnIJegFwaWY8RiBaAXYuVlZ0HyVWJjMkcxV0E0VtJAUeN1VsSjBncGhGOhMMYJDf5Ukj2yJ8\\u0026pdi=1744774109564729\\u0026qpw=0\\u0026qpt=0\\u0026pf=4\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026di=tower\\u0026qetl=0\\u0026t=5\\u0026nt=0\\u0026ar=0.001482002204284072\"],\"extra_conversion_tracks\":{\"call_back\":[\"https://sugar.zhihu.com/plutus_adreaper_callback?si=145e0f65-c31f-4c5e-9efd-b0c047aa2ed8\\u0026os=3\\u0026zid=7\\u0026zaid=3665261\\u0026zcid=3621071\\u0026cid=3621071\\u0026event=__EVENTTYPE__\\u0026value=__EVENTVALUE__\\u0026ts=__TIMESTAMP__\\u0026cts=__TS__\\u0026mh=0d4c67703d44506b579057ff6733c754\\u0026adv=703838\\u0026ocg=4\\u0026cp=2500\\u0026ocs=1\\u0026aic=0\\u0026ct=2\\u0026ed=GiBNJgVzfCMmUW9XIVDVNQZREwA=\"]},\"za_ad_info\":\"CO3a3wEQByIBMV2s19JOYM+B3QE=\",\"za_ad_info_json\":\"{\\\"ad_id\\\":3665261,\\\"ad_zone_id\\\":7,\\\"category\\\":\\\"1\\\",\\\"timestamp\\\":1768674800,\\\"creative_id\\\":3621071}\",\"creatives\":[{\"id\":3621071,\"asset\":{\"brand_name\":\"ima\",\"brand_logo\":\"https://pic3.zhimg.com/v2-6bcab51aab5519d3e668f35b0a210fc3_xl.jpg?source=d6434cab\",\"title\":\"多知识任务还在排队做？腾讯ima同步处理省时间\",\"desc\":\"微信文件一键转存至腾讯ima知识库，让你想用的时候随时都能用，还能对知识库里的文件进行深层次解析哦\",\"imgs\":[\"https://picx.zhimg.com/v2-f65722ce25c730a95fcdabe66f285b94_bh.jpg?source=d6434cab\"],\"landing_url\":\"https://ima.qq.com/download/?webFrom=10000435\\u0026channel=10000435\\u0026cb=https%3A%2F%2Fsugar.zhihu.com%2Fplutus_adreaper_callback%3Fsi%3D145e0f65-c31f-4c5e-9efd-b0c047aa2ed8%26os%3D3%26zid%3D7%26zaid%3D3665261%26zcid%3D3621071%26cid%3D3621071%26event%3D__EVENTTYPE__%26value%3D__EVENTVALUE__%26ts%3D__TIMESTAMP__%26cts%3D__TS__%26mh%3D0d4c67703d44506b579057ff6733c754%26adv%3D703838%26ocg%3D4%26cp%3D2500%26ocs%3D1%26aic%3D0%26ct%3D2%26ed%3DGiBNJgVzfCMmUW9XIVDVNQZREwA%3D\\u0026spu=biz%3D0%26ci%3D3621071%26si%3D59ac5e1a-17a9-481f-b798-59e625883676%26ts%3D1768674849%26zid%3D7\",\"img_size\":1,\"cta\":\"查看详情\",\"image_ratio_extra\":{\"width\":25,\"height\":14},\"native_asset\":{\"plugin_type\":\"\"},\"img_full_screen\":false,\"dynamic_effect\":0,\"animate_style_config\":{\"switch_tag\":1,\"type\":1,\"file\":\"https://zhstatic.zhihu.com/brand-ad/image/499a-240116/2b475255-b44d-11ee-ac84-52aba93487ab-9xg.pag\",\"duration\":4,\"tips\":\"擦一擦解锁更多精彩\",\"distance\":30,\"delay\":2},\"zm_landing_url\":\"https://ima.qq.com/download/?webFrom=10000435\\u0026channel=10000435\\u0026cb=https%3A%2F%2Fsugar.zhihu.com%2Fplutus_adreaper_callback%3Fsi%3D145e0f65-c31f-4c5e-9efd-b0c047aa2ed8%26os%3D3%26zid%3D7%26zaid%3D3665261%26zcid%3D3621071%26cid%3D3621071%26event%3D__EVENTTYPE__%26value%3D__EVENTVALUE__%26ts%3D__TIMESTAMP__%26cts%3D__TS__%26mh%3D0d4c67703d44506b579057ff6733c754%26adv%3D703838%26ocg%3D4%26cp%3D2500%26ocs%3D1%26aic%3D0%26ct%3D2%26ed%3DGiBNJgVzfCMmUW9XIVDVNQZREwA%3D\\u0026spu=biz%3D0%26ci%3D3621071%26si%3D59ac5e1a-17a9-481f-b798-59e625883676%26ts%3D1768674849%26zid%3D7\",\"m_landing_url\":\"\",\"interaction_copy\":\"\"},\"video_watch_num\":15080,\"fact_ctr\":0.001482002204284072,\"fact_cvr\":-1}],\"expand\":{\"display_advertising_tag\":true,\"download_silent\":false,\"is_new_webview\":true,\"is_cdn_speeding\":false,\"extra\":{\"parameters\":\"plugcb=https%3A%2F%2Fsugar.zhihu.com%2Fplutus_adreaper_callback%3Fcid%3D3621071%26ccid%3D2669010%26adid%3D3665261%26zoneid%3D7%26adsource%3Deffect%26sid%3D59ac5e1a-17a9-481f-b798-59e625883676\",\"sign\":\"145e0f65-c31f-4c5e-9efd-b0c047aa2ed8\"},\"is_apk_market_direct\":false,\"interactive\":{\"deliver_time\":\"25 分钟前\",\"browse_string\":\"6430 \",\"participate_string\":\"8 \",\"slide_time_one\":3,\"slide_time_two\":10,\"slide_end\":true,\"deep_link_jump_time\":3},\"launch_timeout\":600},\"experiment_info\":\"{}\",\"view_x_tracks\":[\"https://sugar.zhihu.com/plutus_adreaper?t=10\\u0026s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3\\u0026qetl=0\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\\u0026ed=CjEEewhlKSlzFGZSVGAqBl5oWnkJJXd0LRA3Sgg1KlRGJwkpCHdtIS8XNwMJdi1KVnIfK1EnZ3N4E2dVB2FqQAJ4C3wOempxfgMxDgxjegJadQ57HiAufXwDMQgMYXkeX3EPfQ51YnV9FmFVBGJqUht4C3oIc3wsOxhnVQlnfQNScB8_UX5rcn4LYFcFfnsHRXEPbEwwZ3F5E2pRBmR0BFJjWD0Fc3wjJhhiQVAlcQdbdgF5AGUqIScYYkFFIyMNWmNaOgVxb3B-Az0EQm19FgQmXncMZTwhPRhiQVcxPg1bY1QpSn5qZjtQOwMMYXsEX3IOfglzY3V4EWVVCHYtWQh4CWxMNmcoOlEiFBRjDRVZAxx4fio3IWBUI0lSPyEVWQNdJU8tNi8vQXdVd3V_dhwgWwxKLDdlfWFjVwFgfARYcBx4DiAyISBLNwsUYwgBW3UJegxwb2V8EzEFFGMIbzQGeAZ0ARsDBXoNQUE-cVkGJB84XX5ocmAda1UAZH4FWXAOegh6aXNoVzEVDGBqUg14CGxXLT8pKhhiQUUkcVheMEsmHjEpfX4DMQ9FbXzdTpv2XA2BmQ%3D%3D\\u0026nt=0\\u0026di=tower\\u0026pf=4\\u0026qpw=0\\u0026idi=100010062\\u0026pdi=1744774109564729\\u0026ar=0.001482002204284072\\u0026qpt=0\"],\"mobile_experiment\":{\"feed_card_exp\":\"\"},\"traffic_source\":1,\"party_id\":-2,\"deliver_tracks\":[\"http://proxy-ad-track-plutus.pek01.rack.zhihu.com:10000/ad-track/plutus_log?idi=100010062\\u0026ar=0.001482002204284072\\u0026pty=50\\u0026rui=59ac5e1a-17a9-481f-b798-59e625883676\\u0026qpw=0\\u0026bn=0\\u0026ri=59ac5e1a-17a9-481f-b798-59e625883676\\u0026pdi=1744774109564729\\u0026nt=0\\u0026t=12\\u0026s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3\\u0026pf=4\\u0026di=tower\\u0026qpt=0\\u0026qetl=0\\u0026ed=CjEEewplKSlzFGZSVGAqBl5oWnkJJXd0LRA3Sgg1KlRGJwkpCHdtIS8XNwMJdi1KVnIfK1EnZ3N4E2dVB2FqQAJ4C3wOempxfgMxDgxjegJadQ57HiAufXwDMQgMYXkeX3EPfQ51YnV9FmFVBGJqUht4C3oIc3wsOxhnVQlnfQNScB8_UX5rcn4LYFcFfnsHRXEPbEwwZ3F5E2pRBmR0BFJjWD0Fc3wjJhhiQVAlcQdbdgF5AGUqIScYYkFFIyMNWmNaOgVxb3B-Az0EQm19FgQmXncMZTwhPRhiQVcxPg1bY1QpSn5qZjtQOwMMYXsEX3IOfglzY3V4EWVVCHYtWQh4CWxMNmcoOlEiFBRjDRVZAxx4fio3IWBUI0lSPyEVWQNdJU8tNi8vQXdVd3V_dhwgWwxKLDdlfWFjVwFgfARYcBx4DiAyISBLNwsUYwgBW3UJegxwb2V8EzEFFGMIbzQGeAZ0ARsDBXoNQUE-cVkGJB84XX5ocmAda1UAZH4FWXAOegh6aXNoVzEVDGBqUg14CGxXLT8pKhhiQUUkcVheMEsmHjEpfX4DMQ9FbXwSMu4gbabryg%3D%3D\\u0026ut=075acd00a0774b9d9d2a3786e8226e3a\"],\"product_uuid\":1744774109564729,\"interact_type\":\"InteractTypeH5\",\"business_extra\":\"{\\\"advertiser_id\\\":\\\"703838\\\",\\\"ocpx_goal\\\":\\\"4\\\",\\\"ocpx_status\\\":\\\"1\\\",\\\"product_name\\\":\\\"ima\\\",\\\"product_uid\\\":\\\"1744774109564729\\\",\\\"product_uuid\\\":\\\"1744774109564729\\\"}\"}]}",
+      "pcontent": "https://zhuanlan.zhihu.com/p/1995358289597318244",
+      "ncontent": "https://www.zhihu.com/question/548259994/answer/1995911210923741791",
+      "ext_info": {
+        "content_type": "",
+        "content_id": "",
+        "question_id": -1,
+        "auction_type": 1,
+        "ecpm": 22.0,
+        "type": 1,
+        "fact_bid_price": 15.44676685333252,
+        "fact_ctr": 0.001482002204284072,
+        "fact_cvr": -1.0,
+        "deliver_tracks": [
+          "http://proxy-ad-track-plutus.pek01.rack.zhihu.com:10000/ad-track/plutus_log?ut=075acd00a0774b9d9d2a3786e8226e3a&nt=0&qetl=0&pdi=1744774109564729&oneid=0&qpt=0&t=11&ft=2&pf=4&idi=100010062&ar=0.001482002204284072&qpw=0&di=tower&s=8aeb43f7-79a5-48e2-9764-8595d3e12ee3&ed=CjEEewllKSlzFGZSVGAqBl5oWnkJJXd0LRA3Sgg1KlRGJwkpCHdtIS8XNwMJdi1KVnIfK1EnZ3N4E2dVB2FqQAJ4C3wOempxfgMxDgxjegJadQ57HiAufXwDMQgMYXkeX3EPfQ51YnV9FmFVBGJqUht4C3oIc3wsOxhnVQlnfQNScB8_UX5rcn4LYFcFfnsHRXEPbEwwZ3F5E2pRBmR0BFJjWD0Fc3wjJhhiQVAlcQdbdgF5AGUqIScYYkFFIyMNWmNaOgVxb3B-Az0EQm19FgQmXncMZTwhPRhiQVcxPg1bY1QpSn5qZjtQOwMMYXsEX3IOfglzY3V4EWVVCHYtWQh4CWxMNmcoOlEiFBRjDRVZAxx4fio3IWBUI0lSPyEVWQNdJU8tNi8vQXdVd3V_dhwgWwxKLDdlfWFjVwFgfARYcBx4DiAyISBLNwsUYwgBW3UJegxwb2V8EzEFFGMIbzQGeAZ0ARsDBXoNQUE-cVkGJB84XX5ocmAda1UAZH4FWXAOegh6aXNoVzEVDGBqUg14CGxXLT8pKhhiQUUkcVheMEsmHjEpfX4DMQ9FbXxpV2tueSGmcg%3D%3D"
+        ],
+        "zfeature_content_info": null,
+        "author_id": 0,
+        "parent_id": 0,
+        "title": null,
+        "content_embedding": null,
+        "media_type": null,
+        "party_id": "EFFECT",
+        "creative_id": 3621071
+      }
+    },
+    {
+      "id": "11_1768674850.38",
+      "type": "feed",
+      "offset": 11,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674850,
+      "updated_time": 1768674850,
+      "target": {
+        "excerpt_new": "没太多正面作用，但绝对有价值。 最近在读《九诗心》这书： 屈原站在人神交界之处的彷徨孤独 李陵妻女老母被族的伤痛，司马迁被宫的无助 曹丕旧友飘零，岁不我与的惆怅 陶渊明在坟头喝酒，看透人终有一死 ……说实话，看了这些故事，心情都沉重了。 对工作和生活，大概率也没有什么帮助。 但这些文字让我知道了，人的悲观失意，是可以表达的，更可以用浪漫的方式表达。 这就守住了生命的下限，不至于被生活中的糟心事干倒。 至少…",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "id": "1995911210923741791",
+        "type": "answer",
+        "author": {
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1812,
+          "is_followed": false,
+          "id": "1f1699895508bad7f5c92e586c44e20d",
+          "user_type": "people",
+          "url_token": "33-28-85-87",
+          "avatar_url": "https://picx.zhimg.com/50/v2-f7365e316b5edf9892fbf332c19295fd_l.jpg?source=b6762063",
+          "url": "https://api.zhihu.com/people/1f1699895508bad7f5c92e586c44e20d",
+          "name": "陈梦何",
+          "headline": "人类的赞歌，是勇气的赞歌",
+          "is_following": false
+        },
+        "is_copyable": true,
+        "excerpt": "没太多正面作用，但绝对有价值。 最近在读《九诗心》这书： 屈原站在人神交界之处的彷徨孤独 李陵妻女老母被族的伤痛，司马迁被宫的无助 曹丕旧友飘零，岁不我与的惆怅 陶渊明在坟头喝酒，看透人终有一死 ……说实话，看了这些故事，心情都沉重了。 对工作和生活，大概率也没有什么帮助。 但这些文字让我知道了，人的悲观失意，是可以表达的，更可以用浪漫的方式表达。 这就守住了生命的下限，不至于被生活中的糟心事干倒。 至少…",
+        "answer_type": "normal",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1995911210923741791",
+        "voteup_count": 2,
+        "comment_count": 0,
+        "question": {
+          "created": 1660385161,
+          "answer_count": 0,
+          "comment_count": 5,
+          "excerpt": "",
+          "detail": "",
+          "follower_count": 0,
+          "bound_topic_ids": [
+            2058,
+            7499,
+            23196
+          ],
+          "id": "548259994",
+          "is_following": false,
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/548259994",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/d83cfc10c5092b6840c6982338c0b145",
+            "user_type": "people",
+            "url_token": "bao-jia-wei-ya",
+            "followers_count": 378,
+            "is_following": false,
+            "id": "d83cfc10c5092b6840c6982338c0b145",
+            "name": "保嘉维亚",
+            "headline": "自由职业者"
+          },
+          "title": "古代那么多人抑郁不得志时写的文字（抑郁不得志文学）对后人到底有没有价值？",
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "preview_text": "",
+        "updated_time": 1768642314,
+        "thanks_count": 0,
+        "favorite_count": 1,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "created_time": 1768642314,
+        "content": "<p data-pid=\"p6sa578m\">没太多正面作用，但绝对有价值。</p><p data-pid=\"y1sfSsA5\">最近在读《九诗心》这书：</p><blockquote data-pid=\"thLN2Uiz\">屈原站在人神交界之处的彷徨孤独<br/>李陵妻女老母被族的伤痛，司马迁被宫的无助<br/>曹丕旧友飘零，岁不我与的惆怅<br/>陶渊明在坟头喝酒，看透人终有一死<br/>……</blockquote><p data-pid=\"DYuXM7da\">说实话，看了这些故事，心情都沉重了。</p><p data-pid=\"6Z9jq8_7\">对工作和生活，大概率也没有什么帮助。</p><p data-pid=\"JaleEB2U\">但这些文字让我知道了，人的悲观失意，是可以表达的，更可以用浪漫的方式表达。</p><p data-pid=\"GyZVg-5K\">这就守住了生命的下限，不至于被生活中的糟心事干倒。</p><p data-pid=\"EQuO-N-k\">至少，还有文学。</p><p data-pid=\"IpNbtvQ_\">因为东大这片土地，普通汉男习惯了隐忍、克制、默默吃苦当工具。</p><p data-pid=\"MNL38lag\">本体的感受，常常被忽略，而且他们自己也不喜欢表达。</p><p data-pid=\"9Iepr1P2\">绷不住了，就一跳了之。</p><p data-pid=\"X-H5x0bV\">而文学写作，就是一种表达感受的很好的工具。</p><p data-pid=\"K3RfMLiy\">写作本身就是意义，文章是不朽的盛事。</p><p data-pid=\"-ABpI9be\">建议大家都多多写作，多多表达。</p><p></p>",
+        "visited_count": 60,
+        "is_navigator": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995911210923741791}",
+      "attached_info": "CusFCL+Vp8GdkK/MkgEQBBoJNzY1ODIwNzQ3IIqurcsGKAIwAEALSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgg4NDExOTE3NGIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5OTU5MTEyMTA5MjM3NDE3OTGKAQk1NDgyNTk5OTSqAQlyZWNvbW1lbmTCASAxZjE2OTk4OTU1MDhiYWQ3ZjVjOTJlNTg2YzQ0ZTIwZPIBCggMEgZOb3JtYWzyASgIChIkMzkxZTljNTMtMDcwMi00OTNiLTkwNDUtZDYzZmU3N2I5MTQ18gEFCAsSATKCAgCIAt/r8em8M5ICIDFmMTY5OTg5NTUwOGJhZDdmNWM5MmU1ODZjNDRlMjBkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgL6AgtOT1JNQUxfRkxPV4oDIDIwZWU4NzQxMTE4MTQwZDVhZDYxNzc0M2EwN2JhYmVlmgMNCgJ2MhAAGgVvdGhlcqgDPNgDAOoDGmFpX3poaV9maW5ldHVucl9pMmlfcmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAADyulj+BBQAAAAAAAAAAiQXifcsZWjSlP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUCkAYAoAYNqAYAkgIuCgk3NjU4MjA3NDcSEzE5OTU5MTEyMTA5MjM3NDE3OTEYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=4&after_id=11&desktop=true&end_offset=13&page_number=3&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=4&before_id=11&desktop=true&end_offset=13&page_number=3&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

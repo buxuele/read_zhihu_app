@@ -1,0 +1,899 @@
+{
+  "data": [
+    {
+      "id": "78_1768600014.24",
+      "type": "feed",
+      "offset": 78,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600014,
+      "updated_time": 1768600014,
+      "target": {
+        "title": "轻量级Kubernetes，在Linux上运行K3s",
+        "updated": 1768398222,
+        "comment_count": 0,
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "visited_count": 114,
+        "allow_segment_interaction": true,
+        "comment_permission": "all",
+        "created": 1768398222,
+        "voteup_count": 1,
+        "content": "<p data-pid=\"iIy02J29\">本文面向DevOps工程师和云原生开发者，介绍如何选择和使用轻量级Kubernetes方案来搭建预生产环境。我们将重点介绍K3s这一优秀的轻量级Kubernetes发行版，并提供详细的安装部署指南。</p><h3><b>引言：为什么需要轻量级Kubernetes？</b></h3><p data-pid=\"hP34hlzR\">想象一下这样的场景：你正在开发一个微服务应用，需要在本地或云服务器上搭建一个与生产环境相似的验收环境。传统的Kubernetes集群需要3-5个节点，每个节点至少2GB内存，这对于个人开发或小型项目来说成本太高了。此外，Kubernetes是重量级的组件，完整地安装Kubernetes服务劝退无数开发者。</p><p data-pid=\"KEWXeQzC\"><b>这就是轻量级Kubernetes的价值所在</b>：它们能够在单台机器上运行完整的Kubernetes功能，大大降低了资源消耗和学习成本。</p><h3><b>传统Kubernetes vs 轻量级Kubernetes</b></h3><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>对比维度</th><th>传统K8s</th><th>轻量级K8s</th></tr><tr><td>资源需求</td><td>3-5节点，每个2GB+内存</td><td>单节点，512MB内存</td></tr><tr><td>安装复杂度</td><td>复杂，需要专业运维知识</td><td>简单，一键安装</td></tr><tr><td>学习成本</td><td>高，需要掌握网络、存储等概念</td><td>低，专注于应用部署</td></tr><tr><td>适用场景</td><td>大型企业生产环境</td><td>开发测试、边缘计算、小型项目</td></tr></tbody></table><h3><b>预生产环境（Staging）的重要性</b></h3><p data-pid=\"vLtUDKZ8\">在软件交付流程中，预生产环境（Staging）扮演着承上启下的关键角色。它就像是正式演出前的彩排现场，能够：</p><ol><li data-pid=\"dinnJlzb\"><b>发现潜在问题</b>：在接近生产环境的情况下验证功能完整性</li><li data-pid=\"B017O1FY\"><b>性能摸底</b>：测试系统在高并发下的表现</li><li data-pid=\"DcXxv3f4\"><b>流程验证</b>：演练部署、回滚等运维操作</li><li data-pid=\"TxAU2t23\"><b>用户验收</b>：让业务方提前体验新功能</li></ol><p data-pid=\"JGwbXYVw\">使用Kubernetes搭建Staging环境的最大优势是<b>环境一致性</b>：开发、测试、生产环境使用相同的配置和部署方式，大大减少了&#34;在我机器上能运行&#34;的问题。</p><h3><b>轻量级 Kubernetes 技术选型</b></h3><p data-pid=\"KFC771dV\">市面上的轻量级Kubernetes方案众多，该如何选择？</p><h3><b>技术方案对比</b></h3><blockquote data-pid=\"oFg1n-oS\">GitHub Stars 数据截止到 2026-01-13</blockquote><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>方案</th><th>GitHub Stars</th><th>核心优势</th><th>简介</th><th>上手难度</th></tr><tr><td>K3s</td><td>⭐31.9k+</td><td>生产就绪，资源消耗极低</td><td>Lightweight Kubernetes</td><td>⭐⭐</td></tr><tr><td>Minikube</td><td>⭐31.4k+</td><td>官方推荐，文档完善</td><td>Run Kubernetes locally</td><td>⭐⭐</td></tr><tr><td>Docker Desktop Kubernetes</td><td>❌</td><td>开箱即用，图形界面</td><td></td><td>⭐</td></tr><tr><td>MicroK8s</td><td>⭐9.2k+</td><td>自动更新，高可用</td><td>MicroK8s is a small, fast, single-package Kubernetes for datacenters and the edge.</td><td>⭐⭐</td></tr><tr><td>Kind</td><td>⭐14.9k+</td><td>快速启动，容器化</td><td>Kubernetes IN Docker - local clusters for testing Kubernetes</td><td>⭐⭐⭐</td></tr></tbody></table><h3><b>选型建议：按场景选择</b></h3><h3><b>🚀 场景一：云服务器部署</b></h3><p data-pid=\"MvgqFZBf\"><b>推荐方案：K3s</b></p><p data-pid=\"mKoyziCh\">核心优势：</p><ul><li data-pid=\"XRY__9Yb\">易于安装，维护成本低</li><li data-pid=\"Zrb9mgQa\">社区活跃，文档丰富</li><li data-pid=\"6qDXVU4I\">专为资源受限环境设计，内存占用低</li><li data-pid=\"CGGOM2-j\">支持高可用模式，适合小型生产环境</li></ul><h3><b>💻 场景二：本地开发环境，</b></h3><p data-pid=\"PgBl_5MR\"><b>推荐方案：Docker Desktop K8s（Windows/macOS）或 Minikube（Linux）</b></p><p data-pid=\"gwMIfcAa\">云原生中容器技术学习路线：Docker First，Then Kubernetes</p><p data-pid=\"XAFzZm9k\">核心优势：</p><ul><li data-pid=\"-8q2X5vU\">开箱即用，无需配置，随时启停</li><li data-pid=\"ygXHMo0U\">图形化界面，操作直观</li></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-00e15aba237bc0e6a573aaa9653292c3_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"677\" data-original-token=\"v2-0833767a0d4da55b5b8425a7e168b55c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-00e15aba237bc0e6a573aaa9653292c3_r.jpg\"/><figcaption>Kubernetes in Docker Desktop</figcaption></figure><h3><b>实战：在Ubuntu上部署K3s</b></h3><p data-pid=\"jheWBDoK\">不同于本地开发环境，预生产环境往往涉及到与其他系统集成，需具备：公网IP、Linux宿主机等依赖，尽可能与生产环境一致。下面我们通过一个完整的实战案例，演示如何在Ubuntu服务器上部署K3s。</p><h3><b>环境准备</b></h3><blockquote data-pid=\"6vGzC9Q4\">演示项目环境为：TencentCloud Lighthouse（腾讯云轻量应用服务器），Ubuntu 24.04 LTS，服务器配置为：1核2GB内存，50GB磁盘空间</blockquote><p data-pid=\"pK9Z7u6E\">在开始之前，确保服务器满足以下要求：</p><ul><li data-pid=\"39b1Et2G\">Ubuntu 18.04或更高版本</li><li data-pid=\"ZFYDliml\">至少1GB可用内存</li><li data-pid=\"YGBxdBVD\">10GB磁盘空间</li></ul><h3><b>安装步骤</b></h3><h3><b>第一步：一键安装K3s</b></h3><div class=\"highlight\"><pre><code class=\"language-text\"># 使用国内镜像源加速安装\ncurl -sfL https://rancher-mirror.rancher.cn/k3s/k3s-install.sh | INSTALL_K3S_MIRROR=cn sh -\n</code></pre></div><p data-pid=\"12VUqdgx\">这个命令会完成以下操作：</p><ul><li data-pid=\"zJXkZ2eP\">下载K3s二进制文件（约100MB）</li><li data-pid=\"6TVuecXd\">安装并启动K3s服务</li><li data-pid=\"xyixqj_L\"><b>配置 kubectl 命令行工具</b></li><li data-pid=\"-iHF2Ge7\">设置必要的系统服务</li></ul><p data-pid=\"BSGl9h73\">查看k3s服务状态和计算资源占用情况 <code>top</code></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1050eeaff73a7083ee77dfed7795e674_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"321\" data-original-token=\"v2-5b3ad1d619d8a0e688641b2b0145cf03\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-1050eeaff73a7083ee77dfed7795e674_r.jpg\"/><figcaption>top-k3s-server</figcaption></figure><h3><b>第二步：验证安装</b></h3><p data-pid=\"xDEavfvJ\">安装完成后，通过以下命令验证K3s是否正常运行：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 检查K3s服务状态: active（running）</span>\nsystemctl status k3s\n\n<span class=\"c1\"># 查看集群节点信息: Ready control-plane</span>\nkubectl get nodes\n\n<span class=\"c1\"># 查看所有运行中的Pod</span>\nkubectl get pods -A</code></pre></div><h3><b>解决网络问题</b></h3><p data-pid=\"Oe1bl3I1\">K3s访问的镜像仓库默认为DockerHub，在云服务的网络环境下会遇到镜像拉取失败问题。可配置镜像加速器（换源）：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 创建镜像加速配置</span>\nsudo mkdir -p /etc/rancher/k3s\nsudo cat &gt; /etc/rancher/k3s/registries.yaml <span class=\"s\">&lt;&lt; EOF\n</span><span class=\"s\">mirrors:\n</span><span class=\"s\">  docker.io:\n</span><span class=\"s\">    endpoint:\n</span><span class=\"s\">      - &#34;https://registry.cn-hangzhou.aliyuncs.com/&#34;\n</span><span class=\"s\">      - &#34;https://mirror.ccs.tencentyun.com&#34;\n</span><span class=\"s\">  quay.io:\n</span><span class=\"s\">    endpoint:\n</span><span class=\"s\">      - &#34;https://quay.tencentcloudcr.com/&#34;\n</span><span class=\"s\">  registry.k8s.io:\n</span><span class=\"s\">    endpoint:\n</span><span class=\"s\">      - &#34;https://registry.aliyuncs.com/v2/google_containers&#34;\n</span><span class=\"s\">  gcr.io:\n</span><span class=\"s\">    endpoint:\n</span><span class=\"s\">      - &#34;https://gcr.m.daocloud.io/&#34;\n</span><span class=\"s\">  k8s.gcr.io:\n</span><span class=\"s\">    endpoint:\n</span><span class=\"s\">      - &#34;https://registry.aliyuncs.com/google_containers&#34;\n</span><span class=\"s\">  ghcr.io:\n</span><span class=\"s\">    endpoint:\n</span><span class=\"s\">      - &#34;https://ghcr.m.daocloud.io/&#34;\n</span><span class=\"s\">EOF</span>\n\n<span class=\"c1\"># 重启K3s服务使配置生效</span>\nsudo systemctl restart k3s\n</code></pre></div><p data-pid=\"Htkt3vGV\">如果K3s中仍然有镜像拉取失败，可以向我留言。</p><p data-pid=\"E8QqY1Cn\">我在实操的过程中遇到问题：<code>rancher/mirrored-pause:3.6</code>镜像一直拉取失败，导致K3s服务状态异常。</p><h3><b>实战案例：部署第一个应用</b></h3><blockquote data-pid=\"2zyFDgGn\">我已经在云服务上使用K3s部署了自己的微服务应用，包括Python Flask应用和Redis数据库，应用运行正常。</blockquote><p data-pid=\"c5ZU63RM\">现在我们已经有了一个运行的K3s集群，让我们来部署一个简单的Nginx应用。</p><h3><b>创建部署配置文件</b></h3><p data-pid=\"xPXczW70\">首先创建Nginx的部署配置文件：</p><div class=\"highlight\"><pre><code class=\"language-yaml\"><span class=\"c\"># nginx-deployment.yaml</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"l\">apiVersion:apps/v1</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"l\">kind:Deployment</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"nt\">metadata</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"l\">name:nginx-deployment</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"nt\">spec</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"l\">replicas:2# 运行2个副本</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"nt\">selector</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">    </span><span class=\"nt\">matchLabels</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">      </span><span class=\"l\">app:nginx</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"nt\">template</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">    </span><span class=\"nt\">metadata</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">      </span><span class=\"nt\">labels</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">        </span><span class=\"l\">app:nginx</span><span class=\"w\">\n</span><span class=\"w\">    </span><span class=\"nt\">spec</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">      </span><span class=\"nt\">containers</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">      </span>-<span class=\"l\">name:nginx</span><span class=\"w\">\n</span><span class=\"w\">        </span><span class=\"l\">image:nginx:1.25</span><span class=\"w\">\n</span><span class=\"w\">        </span><span class=\"nt\">ports</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">        </span>-<span class=\"l\">containerPort:80</span><span class=\"w\">\n</span><span class=\"w\">        </span><span class=\"nt\">resources</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">          </span><span class=\"nt\">requests</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">            </span><span class=\"l\">memory:&#34;64Mi&#34;</span><span class=\"w\">\n</span><span class=\"w\">            </span><span class=\"l\">cpu:&#34;50m&#34;</span><span class=\"w\">\n</span><span class=\"w\">          </span><span class=\"nt\">limits</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">            </span><span class=\"l\">memory:&#34;128Mi&#34;</span><span class=\"w\">\n</span><span class=\"w\">            </span><span class=\"l\">cpu:&#34;100m&#34;</span><span class=\"w\">\n</span></code></pre></div><h3><b>创建服务暴露应用</b></h3><p data-pid=\"h8EroRL7\">为了让外部能够访问Nginx，我们需要创建一个Service：</p><div class=\"highlight\"><pre><code class=\"language-yaml\"><span class=\"c\"># nginx-service.yaml</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"l\">apiVersion:v1</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"l\">kind:Service</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"nt\">metadata</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"l\">name:nginx-service</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"nt\">spec</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"nt\">selector</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">    </span><span class=\"l\">app:nginx</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"nt\">ports</span><span class=\"p\">:</span><span class=\"w\">\n</span><span class=\"w\">    </span>-<span class=\"l\">protocol:TCP</span><span class=\"w\">\n</span><span class=\"w\">      </span><span class=\"l\">port:80        # 服务端口</span><span class=\"w\">\n</span><span class=\"w\">      </span><span class=\"l\">targetPort:80# 容器端口</span><span class=\"w\">\n</span><span class=\"w\"></span><span class=\"l\">type:LoadBalancer# 使用负载均衡器类型</span></code></pre></div><h3><b>部署应用</b></h3><p data-pid=\"p8OzeSZz\">现在执行部署命令：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 部署Nginx应用</span>\nkubectl apply -f nginx-deployment.yaml\nkubectl apply -f nginx-service.yaml\n\n<span class=\"c1\"># 检查部署状态</span>\nkubectl get deployments\nkubectl get pods\nkubectl get services</code></pre></div><h3><b>访问应用</b></h3><p data-pid=\"C1gKYi4a\">部署完成后，通过以下命令获取访问地址：</p><div class=\"highlight\"><pre><code class=\"language-bash\"><span class=\"c1\"># 查看服务详情</span>\nkubectl get svc nginx-service\n\n<span class=\"c1\"># 如果使用LoadBalancer类型，会分配外部IP</span>\n<span class=\"c1\"># 直接访问该IP的80端口即可</span>\ncurl http://&lt;EXTERNAL-IP&gt;:80</code></pre></div><h3><b>进阶功能：安装Kubernetes Dashboard</b></h3><p data-pid=\"oashrfqM\">如果你喜欢图形化界面，可以安装Kubernetes Dashboard，需使用helm包管理工具，本文不做详细介绍。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-342fa2f0656e5cdaf44532477d49e4ee_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"646\" data-original-token=\"v2-b34c79c2ba3e6e73547b747db3c459be\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-342fa2f0656e5cdaf44532477d49e4ee_r.jpg\"/><figcaption>Kubernetes Dashboard</figcaption></figure><h3><b>总结</b></h3><p data-pid=\"tzyv5xYQ\">本文介绍了三个方面：</p><ol><li data-pid=\"MeLYtFym\"><b>轻量级Kubernetes的选型方法</b>：根据具体场景选择最合适的方案</li><li data-pid=\"A6O70ec9\"><b>K3s的安装部署</b>：在Ubuntu上快速搭建Kubernetes环境</li><li data-pid=\"8rC4Dx5n\"><b>应用部署实战</b>：使用K8s配置文件部署和管理应用</li></ol><p data-pid=\"PHnrO4DG\">K3s作为一款优秀的轻量级Kubernetes发行版，特别适合中小型项目的预生产环境搭建。它的轻量级特性让我们能够在有限的资源下享受到Kubernetes带来的便利，同时保持了生产环境的兼容性。</p><p data-pid=\"NggYKS-N\"><b>下一步建议</b>：</p><ul><li data-pid=\"uNQOdRx4\">尝试部署你自己的微服务应用</li><li data-pid=\"lqi5ik0m\">学习使用helm进行应用包管理</li><li data-pid=\"idpwqf4d\">基于K3s的CI/CD流水线实践</li></ul><h3>关注微信公众号，联系作者</h3><p data-pid=\"KxUQoUCX\">微信搜索关注公众号：<b>持续运维</b></p><p data-pid=\"AeVX_PBe\">如果您有需要技术咨询，或者有想法使本文档变得更好。</p><p data-pid=\"JQEiqn4C\">联系作者：xing.xiaolin@foxmail.com</p><h3><b>参考资料</b></h3><ol><li data-pid=\"bOiJbgh5\">K3s官方文档，<a href=\"https://link.zhihu.com/?target=https%3A//docs.k3s.io/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">docs.k3s.io/</span><span class=\"invisible\"></span></a></li><li data-pid=\"tnck8Vvq\">Kubernetes官方文档，<a href=\"https://link.zhihu.com/?target=https%3A//kubernetes.io/docs/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">kubernetes.io/docs/</span><span class=\"invisible\"></span></a></li><li data-pid=\"aFH0WcDX\">Rancher中国镜像站，<a href=\"https://link.zhihu.com/?target=https%3A//rancher-mirror.rancher.cn/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">rancher-mirror.rancher.cn</span><span class=\"invisible\">/</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"u6sCEQzX\">K3s GitHub 仓库，<a href=\"https://link.zhihu.com/?target=https%3A//github.com/k3s-io/k3s\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/k3s-io/k3s</span><span class=\"invisible\"></span></a></li><li data-pid=\"YyFeT6bU\">MiniKube GitHub 仓库，<a href=\"https://link.zhihu.com/?target=https%3A//github.com/kubernetes/minikube\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/kubernetes/m</span><span class=\"invisible\">inikube</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"yaPD3Hoy\">MicroK8s GitHub 仓库，<a href=\"https://link.zhihu.com/?target=https%3A//github.com/canonical/microk8s\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/canonical/mi</span><span class=\"invisible\">crok8s</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"pL76Pr1Y\">Kind GitHub 仓库，<a href=\"https://link.zhihu.com/?target=https%3A//github.com/kubernetes-sigs/kind\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/kubernetes-s</span><span class=\"invisible\">igs/kind</span><span class=\"ellipsis\"></span></a></li></ol>",
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-0833767a0d4da55b5b8425a7e168b55c_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-b34c79c2ba3e6e73547b747db3c459be_720w.jpg?source=b6762063"
+        ],
+        "vote_next_step": "vote",
+        "id": "1994886076926542836",
+        "author": {
+          "id": "525351768250c5cb74c1ceb2fca59826",
+          "url_token": "jin-ji-de-shao-nian-76",
+          "headline": "计算机科学与技术 本科&硕士",
+          "avatar_url": "https://picx.zhimg.com/50/v2-724d5236aec5b24bede136b6042e8f4e_l.jpg?source=b6762063",
+          "gender": 1,
+          "followers_count": 138,
+          "url": "https://api.zhihu.com/people/525351768250c5cb74c1ceb2fca59826",
+          "user_type": "people",
+          "name": "持续运维",
+          "is_org": false,
+          "is_following": false,
+          "is_followed": false
+        },
+        "preview_text": "",
+        "favorite_count": 5,
+        "article_type": "normal",
+        "navigator_vote": false,
+        "is_labeled": false,
+        "is_navigator": false,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1994886076926542836",
+        "voting": 0,
+        "excerpt": "本文面向DevOps工程师和云原生开发者，介绍如何选择和使用轻量级Kubernetes方案来搭建预生产环境。我们将重点介绍K3s这一优秀的轻量级Kubernetes发行版，并提供详细的安装部署指南。 引言：为什么需要轻量级Kubernetes？想象一下这样的场景：你正在开发一个微服务应用，需要在本地或云服务器上搭建一个与生产环境相似的验收环境。传统的Kubernetes集群需要3-5个节点，每个节点至少2GB内存，这对于个人开发或小型项目来说成本太高…",
+        "excerpt_new": "本文面向DevOps工程师和云原生开发者，介绍如何选择和使用轻量级Kubernetes方案来搭建预生产环境。我们将重点介绍K3s这一优秀的轻量级Kubernetes发行版，并提供详细的安装部署指南。 引言：为什么需要轻量级Kubernetes？想象一下这样的场景：你正在开发一个微服务应用，需要在本地或云服务器上搭建一个与生产环境相似的验收环境。传统的Kubernetes集群需要3-5个节点，每个节点至少2GB内存，这对于个人开发或小型项目来说成本太高…",
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994886076926542836}",
+      "attached_info": "CrwGCJy3oubL4vOOgwEQBxoJMjY5MDI3NzExII67nssGKAEwAEBOSiMKGFRTX1NPVVJDRV9XQVJNX1VQX0JPT1NUMhIBMBgAIAA6AGIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTQ4ODYwNzY5MjY1NDI4MzaqAQlyZWNvbW1lbmTCASA1MjUzNTE3NjgyNTBjNWNiNzRjMWNlYjJmY2E1OTgyNvIBCggMEgZOb3JtYWzyASgIChIkMmEyZmJlYjctNWIwMy00N2ZlLTkwMzYtZjZlZGIwNzVmMGJk8gEGCAsSAjE0ggIAiALtmJrGvDOSAiA1MjUzNTE3NjgyNTBjNWNiNzRjMWNlYjJmY2E1OTgyNpoCAMoCFkFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDLoAgL6AgtOT1JNQUxfRkxPV4oDIDhlZDNlYTQyNTg5ZTQ3MzlhYWZjNDQ4YzhlMjc3ZTE1mgMNCgJ2MhAAGgVvdGhlcqgDctgDAOoDH3dhcm11cFR3b1Rvd2VyVGV4dEJvb3N0UmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQuAgYpQUiI3YyLTA4MzM3NjdhMGQ0ZGE1NWI1Yjg0MjVhN2UxNjhiNTVjOi0IAhC4CBjBAiIjdjItNWIzYWQxZDYxOWQ4YTBlNjg4NjQxYjJiMDE0NWNmMDM6LQgCELgIGIYFIiN2Mi1iMzRjNzljMmJhM2U2ZTczNTQ3Yjc0N2RiM2M0NTliZYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgJZ9dT+BBQAAAAAAAAAAiQXKKzLYuYq0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUOkAYAoAZQqAYBkgIuCgkyNjkwMjc3MTESEzE5OTQ4ODYwNzY5MjY1NDI4MzYYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "79_1768600014.371",
+      "type": "feed",
+      "offset": 79,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600014,
+      "updated_time": 1768600014,
+      "target": {
+        "reshipment_settings": "disallowed",
+        "url": "https://api.zhihu.com/answers/1995074431240921266",
+        "preview_type": "default",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "created_time": 1768442811,
+        "content": "<p data-pid=\"5u397_9a\">我来说句大实话，侯亮平的风评差，就是两方面：</p><p data-pid=\"QY1H-VVU\"><b>第一，陆大帅哥的演技，完全不忍直视。</b></p><p data-pid=\"-X8yVc3M\">对比着原著看就能知道，陆毅演出来的，跟实际要表达的内容完全是两回事，比如侯亮平跟高育良的第一次谈话。</p><p data-pid=\"zab4Sb8c\">按原著的描述，陆毅对着这位领导+老师，是来请教的，是带着尊敬，说话也小心翼翼，陆大帅哥演得时不时带个嘲讽的微笑，就很让人难绷，完全就是照着天龙人的模板演得，虽然你是我领导+老师，但我才是高高在上的天龙人！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a3cfc74bec3b0850610d555ae0212d24_1440w.jpg\" data-rawwidth=\"1422\" data-rawheight=\"800\" data-size=\"normal\" data-original-token=\"v2-41c05b0b693e47876e565f5123519616\" class=\"origin_image zh-lightbox-thumb\" width=\"1422\" data-original=\"https://pica.zhimg.com/v2-a3cfc74bec3b0850610d555ae0212d24_r.jpg\"/><figcaption>&amp;quot; data-size=</figcaption></figure><p data-pid=\"d23LDJGg\"><b>第二，是侯亮平夫妇嘲讽了祁同伟。</b></p><p data-pid=\"_9xkq_1k\">很多人可能会奇怪，侯亮平一个抓贪官的，嘲讽祁同伟这个贪官有什么问题吗？</p><p data-pid=\"ZqXaY09i\">有问题，而且问题很大。</p><p data-pid=\"_HLsLaSH\">因为侯亮平夫妇嘲讽的，不是祁同伟贪污受贿，也不是他谋害陈海，甚至不是他包庇强奸犯，仅仅是他下跪梁璐这点破事。</p><p data-pid=\"IImLzBww\">如果是祁同伟贪污受贿、官商勾结、徇私枉法、故意杀人，别说嘲讽了，就算他们破口大骂，观众们都不会觉得有什么问题。</p><p data-pid=\"wbBm_5yZ\">但嘲讽他下跪就有问题，因为无论是原著还是电视剧，祁同伟跪梁璐都没什么好指责的，<b>其实原著里侯亮平对祁同伟跪梁璐就没什么反应</b>，后面祁同伟去一线缉毒立功，侯亮平对这个老同学也是相当佩服，两人一直维持那种惺惺相惜的感情。</p><p data-pid=\"xNZcyXmS\">两人正式翻脸对敌前，还去大排档喝酒，有一段相当感人的情谊：</p><blockquote data-pid=\"b7vzZLe7\">他们喝了许久，一直喝到半夜，侯亮平多年没醉酒，这回真有些醉了。祁同伟送他回检察院招待所，分手时，侯亮平忽然问：同伟，以后咱们还能像今天这样亲密无间吗？<br/>祁同伟一怔，潸然泪下，握紧他的手摇了摇，一句话没说，转身离去。<br/>这让侯亮平不禁一阵怅然……</blockquote><p data-pid=\"V-BiH13N\">正因如此，后面侯亮平才敢去孤鹰岭劝降祁同伟，祁同伟恨侯亮平就恨在，大家那么好关系，汉东又有那么多贪官，为啥侯亮平就就盯着他不放！</p><p data-pid=\"Ykxn-Y_T\">而侯亮平则给祁同伟解开了心结，自己盯着祁同伟，仅仅是因为他犯法了，而且涉嫌谋害陈海。</p><p data-pid=\"o_RdUVIx\">所以，祁同伟最后饮弹自尽也没对侯亮平下手，要像电视剧那样，早一枪把他毙了。</p><p data-pid=\"g6cNvKXF\"><b>而在电视剧里，对于祁同伟的下跪，侯亮平夫妇在那一顿莫名其妙的对话，就让人生理不适了。</b></p><p data-pid=\"4kZ9ER5Q\">当钟小艾说出那句著名的“权力小小的任性”后，侯亮平对祁同伟的评价是：</p><p data-pid=\"-qbs0JLk\"><b>呵～就这么随风而去了？理想抱负纸糊的？还是自身出了问题。</b></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-905180b8fd05c4056d8f76c1405f7ee4_1440w.jpg\" data-rawwidth=\"432\" data-rawheight=\"1700\" data-size=\"normal\" data-original-token=\"v2-999ce9bd245b5c4f61ede0e3422700e9\" class=\"origin_image zh-lightbox-thumb\" width=\"432\" data-original=\"https://pic1.zhimg.com/v2-905180b8fd05c4056d8f76c1405f7ee4_r.jpg\"/><figcaption>&amp;quot; data-size=</figcaption></figure><p data-pid=\"EVfOpNdT\">很多人都对这句话无比愤怒，就是因为这句话的潜台词太伤人：</p><p data-pid=\"a-bcg_BF\"><b>你之所以堕落，是因为你不够高尚，不够坚持！</b></p><p data-pid=\"V8r2hkHf\">这话有道理吗？</p><p data-pid=\"hEKOXA8g\">有。</p><p data-pid=\"aGoV_4I4\">祁同伟从来就不是什么高尚的，有崇高理想的人，不管是原著还是电视剧。</p><p data-pid=\"I70Aklco\">原著里他去缉毒，身中三枪，是因为他想拼命往上爬，电视剧里，祁同伟是想立功去北京跟陈阳在一起。</p><p data-pid=\"Y6__ne4s\">但是，为了这种不这么高尚的理由搏命，不就是我们普通人吗？</p><p data-pid=\"DQ_L9093\"><b>现实中有几个人有如此高尚的道德，又有几个人有资本有如此高尚的道德？</b></p><p data-pid=\"O-mcRVJL\">不是所有人都有“试错的资本”的。</p><p data-pid=\"8IrYaWbk\">侯亮平输得起，就算在汉东栽了跟头，大不了回北京，但祁同伟输不起，他的背后是整个农村家庭的希望，是父母“砸锅卖铁供他读书”的期盼，就像现在很多打拼的中年人，不敢轻易辞职，不敢生病，因为他们身后没有“退路”，一旦倒下，整个家庭就垮了。</p><p data-pid=\"yCgUXU0E\">这台词侯亮平是没资格讲的。</p><p data-pid=\"KDzzuDKn\">谁有资格？</p><p data-pid=\"gcxgYNgq\">《大明王朝1566》里的海瑞或者《沉默的真相》里的江阳。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-aaa0434d4b1f907ac86f4c7b0d2a899b_1440w.jpg\" data-rawwidth=\"889\" data-rawheight=\"500\" data-size=\"normal\" data-original-token=\"v2-845f7f03374e8cfadff1ec1147c5dd14\" class=\"origin_image zh-lightbox-thumb\" width=\"889\" data-original=\"https://picx.zhimg.com/v2-aaa0434d4b1f907ac86f4c7b0d2a899b_r.jpg\"/><figcaption>&amp;quot; data-size=</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6a85f1fcbe5feecccb05dcff1eb38e7f_1440w.jpg\" data-rawwidth=\"500\" data-rawheight=\"667\" data-size=\"normal\" data-original-token=\"v2-d6a387e3c73bbcde3e67c42a3c8378f6\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://picx.zhimg.com/v2-6a85f1fcbe5feecccb05dcff1eb38e7f_r.jpg\"/><figcaption>&amp;quot; data-size=</figcaption></figure><p data-pid=\"vJ5tMJ1O\">不过他俩这种真正有崇高理想信念的人会讲这样的话吗？</p><p data-pid=\"j9wX8qze\"><b>理想信念的来源，不正是对他人苦难的共情吗？</b></p><p data-pid=\"wVi5xofV\">大家反感侯亮平，很大程度上就是因为他对祁同伟下跪的鄙视，注意，不是对祁同伟违法乱纪的鄙视，而是下跪的鄙视，这是两回事，不能混为一谈。</p><p data-pid=\"J0dfe34F\">祁同伟违法乱纪，是这个角色被人批判的地方，而他的下跪，却是最能引人共情的地方，谁没在现实里为了生存“跪过”？</p><p data-pid=\"wch8avMq\">为了一份养家糊口的工作忍气吞声；</p><p data-pid=\"zO2JL0Id\">为了孩子上学托关系送礼；</p><p data-pid=\"BpzgX_zo\">为了晋升不得不参加不想去的应酬。</p><p data-pid=\"rsx1_AfM\"><b>我们和祁同伟一样，都在为了“活下去”而向现实妥协，只不过大部分人的“下跪”，比祁同伟可不值钱多了。</b></p><p data-pid=\"GbWlYmO_\"><b>举个例子，别说下跪能跪出个公安厅长了，就说现在有一个亿放在你面前，跪下磕一个头就能有一百万，你跪不跪，磕不磕，别人我不知道，反正我肯定磕足一百个！</b></p><p data-pid=\"FzVt-Tl6\"><b>男儿膝下有黄金？</b></p><p data-pid=\"oaVzT9o2\"><b>那你没经历过什么叫一文钱难倒英雄汉！</b></p><p data-pid=\"_5wAUzjE\">现在有很多人说：“共情祁同伟的人，都是想当贪官的人，或者幻想有个当贪官的亲戚。”</p><p data-pid=\"xPkCEr5N\">亦或者说“他们恨的不是权力，而是掌权的人不是自己。” </p><p data-pid=\"ExoQ6rjf\"><b>这话看似尖锐，却暗含着一个被道德绑架掩盖的真相——喜欢权力、渴望掌控局面，本就不是丢人的事，甚至可以说是人类刻在基因里的天性。</b></p><p data-pid=\"-sDRn9N8\">不信你看全网评选“最想成为的金庸主角”，韦爵爷韦小宝绝对稳居前列，大家羡慕他的，不就是那种游走于权力中心、左右逢源的掌控感吗？</p><p data-pid=\"pFW1NBgb\">回到现实，更直白点说：去年近九百万考公大军里，有多少人是抱着“纯粹为人民服务”的执念报考？又有多少人敢说，自己对“晋升掌权”没有一丝向往？</p><p data-pid=\"9d2eZJ1D\">这样站在道德制高点上批判别人并没有什么意义。</p><p data-pid=\"ZdkwtCU-\"><b>为什么人民的名义里面，最被人共情的，是祁同伟跟孙连城，因为大家不是傻子，只有他俩才真正称得上被打压过</b>，其他人：</p><p data-pid=\"rN-VvIHi\">李达康，不批美食城，屁事没有还升了，换了个市当市委书记去了，赵立春甚至继续支持他力排众议的林城城市建设方案；</p><p data-pid=\"usNReDB4\">陈岩石，一直在厅级实权岗位上，退休前是省检察院常务副检察长，也就是临退休没弄到副部级待遇，甚至没影响自己儿子进步，陈海在赵立春任上，四十多就官至反贪局长，升官速度没比祁同伟慢多少；</p><p data-pid=\"nWTgC1Uo\">就连易学习，说是说当了二十多年的处级干部没升，问题是，大哥，那是处级啊，这是99.99%的公务员一辈子都做不到的职位，而且全TM是实权职位，什么县长、交通局局长之类的，放一般人身上，都要乐开花了......</p><p data-pid=\"uC3Fh_79\">上面这几个，别说降级了，连TM被扔去闲职的都没有！</p><p data-pid=\"-beX-O9k\">更不用说侯亮平了，侯亮平一被诬陷受贿，好家伙，那阵仗，季昌明作为省检察院检察长，明着保他；沙瑞金作为省委书记，暗地里护着他；他老婆钟小艾，能参加巡视组到汉东“救夫”，连省委副书记高育良都要给她三分薄面。</p><p data-pid=\"nXSzHf5f\">这种天胡开局的，咱们普通人实在共情不了，纵观全剧，只有祁同伟被分配去山沟沟里当司法助理，还有孙连城被一撸到底去少年宫，大家是能共情的。</p><p data-pid=\"eQGCTXIe\"><b>再看看侯亮平夫妇，尤其是钟小艾，钟小艾共情的是谁呢？</b></p><p data-pid=\"ONi6l7OP\"><b>梁璐......</b></p><p data-pid=\"DFOaAXWb\">钟小艾的台词是，可惜了梁老师，反复被命运捉弄。</p><p data-pid=\"hzbAeo4n\">？？？</p><p data-pid=\"wz-WpZSZ\">梁璐这个为了一己之私，滥用权力的，钟小艾居然去同情她？</p><p data-pid=\"4lsXZ7aM\">还是侯亮平说了句公道话，说梁璐是自找的。</p><p data-pid=\"5HmsZdMS\">但是，不管是侯亮平还是钟小艾，始终对梁璐都没什么负面评价，也看不出他俩对梁璐的行为有什么痛恨的，反而是特别看不起祁同伟下跪，这种同情加害者，贬低受害者的行为，实在是让人不知道他俩的三观到底是什么样的。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ffeee289b09d1ad7791d2b5bf1406cb7_1440w.jpg\" data-rawwidth=\"600\" data-rawheight=\"400\" data-size=\"normal\" data-original-token=\"v2-725d85cb19524b755d7df7ac444aad9e\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic4.zhimg.com/v2-ffeee289b09d1ad7791d2b5bf1406cb7_r.jpg\"/><figcaption>&amp;quot; data-size=</figcaption></figure><p data-pid=\"bKfSM4IY\"><b>更可恶的是，这对夫妇还搞起了诛心之论，认为祁同伟跟陈阳本质上就不是一路人，因为祁同伟骨子里透着算计，陈阳干净。</b></p><p data-pid=\"wxUotaVC\"><b>言下之意是祁同伟配不上陈阳。</b></p><p data-pid=\"02eCYC3I\">这台词，就透着一股没被社会毒打过的美。</p><p data-pid=\"fx1fkv3M\">人生在世，有几个人不用算计的？</p><p data-pid=\"xVJWgPWW\">他俩一个在反贪总局，一个在zjw，难不成是看到贪官就能抓的？</p><p data-pid=\"y6Qf6MWO\">不用考虑任何背景？</p><p data-pid=\"1j0BePTF\">也不用做任何妥协？</p><p data-pid=\"xlxjQrl4\">甚至不用向上逢迎，巴结领导？</p><p data-pid=\"4zKBo0nU\">还是那句话，别把大家当傻子好吧！</p><p data-pid=\"pwKZzQCb\"><b>再说他俩推崇的陈阳，不知道的还以为陈阳多高尚呢，是去山区支教了，还是从事什么慈善事业，结果，尼玛就是在北京生活的很好。</b></p><p data-pid=\"1XN72NQq\">就这，凭什么说祁同伟配不上陈阳？</p><p data-pid=\"MgQ574gh\">论迹不论心的说，祁同伟至少还有独闯毒巢，身中三枪，立下一等功的经历。</p><p data-pid=\"Cyirq8V7\">陈阳有啥？</p><p data-pid=\"J32Y_p_l\">在北京工作、生活的很好......</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b5c800757020fcbd50c69af9b54a6f1f_1440w.jpg\" data-rawwidth=\"1920\" data-rawheight=\"2204\" data-size=\"normal\" data-original-token=\"v2-647346766f52dbf945e1d14c346f382a\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://picx.zhimg.com/v2-b5c800757020fcbd50c69af9b54a6f1f_r.jpg\"/><figcaption>&amp;quot; data-size=</figcaption></figure><p data-pid=\"2gZABFqq\">最后，电视剧有时间线bug，认为祁同伟没被打压的，基本就是拿着bug说事，这种就挺没意思的，因为作者跟编剧要表达，就是一个人被打压后黑化的故事。</p><p data-pid=\"Uw4JdO-y\">祁同伟后面的违法乱纪行为，也不能拿他被打压过来当挡箭牌，<b>601个人对祁同伟的态度就是：</b></p><p data-pid=\"asIcNqoT\"><b>你可以同情年轻时受了委屈的“寒门学子”祁同伟；</b></p><p data-pid=\"9mi943e5\"><b>也可以共情为了权力下跪的“缉毒英雄”祁同伟；</b></p><p data-pid=\"5OQfTnf_\"><b>但千万不要去给作恶多端的“公安厅长”祁同伟找借口。</b></p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/405435098/answer/1979120697348481181\" data-draft-title=\"为什么网上这么多人洗白祁同伟?\" data-draft-cover=\"https://picx.zhimg.com/v2-591c1a32262e6e16b0b8cfca789c7d1c.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">为什么网上这么多人洗白祁同伟?</a><p></p>",
+        "visited_count": 83142,
+        "navigator_vote": false,
+        "segment_infos": [
+          {
+            "pid": "Y6__ne4s",
+            "text": "但是，为了这种不这么高尚的理由搏命，不就是我们普通人吗？",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995344887932007046"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "DQ_L9093",
+            "text": "现实中有几个人有如此高尚的道德，又有几个人有资本有如此高尚的道德？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 33,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995344919473185624"
+                  ],
+                  "is_like": false,
+                  "like_count": 5,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "yCgUXU0E",
+            "text": "这台词侯亮平是没资格讲的。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 13,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995437028045787593",
+                    "1995695438406369713"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "KDzzuDKn",
+            "text": "谁有资格？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 5,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995437028045787593",
+                    "1995695438406369713"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "gcxgYNgq",
+            "text": "《大明王朝1566》里的海瑞或者《沉默的真相》里的江阳。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 28,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995437028045787593",
+                    "1995695438406369713"
+                  ],
+                  "is_like": false,
+                  "like_count": 2,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "vJ5tMJ1O",
+            "text": "不过他俩这种真正有崇高理想信念的人会讲这样的话吗？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 25,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995484625418617602",
+                    "1995437061017199577",
+                    "1995577937081163985",
+                    "1995695065088165574",
+                    "1995437134132310086",
+                    "1995345035957396263",
+                    "1995437179120424710"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "j9wX8qze",
+            "text": "理想信念的来源，不正是对他人苦难的共情吗？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 21,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995484625418617602",
+                    "1995437061017199577",
+                    "1995577937081163985",
+                    "1995695065088165574",
+                    "1995437134132310086",
+                    "1995345035957396263",
+                    "1995437179120424710"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "wVi5xofV",
+            "text": "大家反感侯亮平，很大程度上就是因为他对祁同伟下跪的鄙视，注意，不是对祁同伟违法乱纪的鄙视，而是下跪的鄙视，这是两回事，不能混为一谈。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 66,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995484625418617602",
+                    "1995437061017199577",
+                    "1995577937081163985",
+                    "1995695065088165574",
+                    "1995437134132310086",
+                    "1995345035957396263",
+                    "1995437179120424710"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "J0dfe34F",
+            "text": "祁同伟违法乱纪，是这个角色被人批判的地方，而他的下跪，却是最能引人共情的地方，谁没在现实里为了生存“跪过”？",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 54,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995484625418617602",
+                    "1995437061017199577",
+                    "1995577937081163985",
+                    "1995695065088165574",
+                    "1995437134132310086",
+                    "1995345035957396263",
+                    "1995437179120424710"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "wch8avMq",
+            "text": "为了一份养家糊口的工作忍气吞声；",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 0,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995484625418617602",
+                    "1995437061017199577",
+                    "1995577937081163985",
+                    "1995695065088165574",
+                    "1995437134132310086",
+                    "1995345035957396263",
+                    "1995437179120424710"
+                  ],
+                  "is_like": false,
+                  "like_count": 7,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": true
+                }
+              }
+            ]
+          },
+          {
+            "pid": "GbWlYmO_",
+            "text": "举个例子，别说下跪能跪出个公安厅长了，就说现在有一个亿放在你面前，跪下磕一个头就能有一百万，你跪不跪，磕不磕，别人我不知道，反正我肯定磕足一百个！",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 73,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995429909074555976"
+                  ],
+                  "is_like": false,
+                  "like_count": 1,
+                  "comment_count": 3,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "pFW1NBgb",
+            "text": "回到现实，更直白点说：去年近九百万考公大军里，有多少人是抱着“纯粹为人民服务”的执念报考？又有多少人敢说，自己对“晋升掌权”没有一丝向往？",
+            "marks": [
+              {
+                "start_index": 11,
+                "end_index": 69,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995219283622531452"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "ZdkwtCU-",
+            "text": "为什么人民的名义里面，最被人共情的，是祁同伟跟孙连城，因为大家不是傻子，只有他俩才真正称得上被打压过，其他人：",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 50,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995437367725678661"
+                  ],
+                  "is_like": false,
+                  "like_count": 3,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "type": "answer",
+        "excerpt": "我来说句大实话，侯亮平的风评差，就是两方面： 第一，陆大帅哥的演技，完全不忍直视。对比着原著看就能知道，陆毅演出来的，跟实际要表达的内容完全是两回事，比如侯亮平跟高育良的第一次谈话。 按原著的描述，陆毅对着这位领导+老师，是来请教的，是带着尊敬，说话也小心翼翼，陆大帅哥演得时不时带个嘲讽的微笑，就很让人难绷，完全就是照着天龙人的模板演得，虽然你是我领导+老师，但我才是高高在上的天龙人！   第二，是侯亮…",
+        "excerpt_new": "我来说句大实话，侯亮平的风评差，就是两方面： 第一，陆大帅哥的演技，完全不忍直视。对比着原著看就能知道，陆毅演出来的，跟实际要表达的内容完全是两回事，比如侯亮平跟高育良的第一次谈话。 按原著的描述，陆毅对着这位领导+老师，是来请教的，是带着尊敬，说话也小心翼翼，陆大帅哥演得时不时带个嘲讽的微笑，就很让人难绷，完全就是照着天龙人的模板演得，虽然你是我领导+老师，但我才是高高在上的天龙人！   第二，是侯亮…",
+        "is_copyable": false,
+        "preview_text": "",
+        "updated_time": 1768442811,
+        "voteup_count": 839,
+        "is_labeled": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-41c05b0b693e47876e565f5123519616_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-647346766f52dbf945e1d14c346f382a_720w.jpg?source=b6762063"
+        ],
+        "author": {
+          "url": "https://api.zhihu.com/people/91a3edae1d466d6366ef66e111847c0b",
+          "url_token": "zhang-xiao-feng-79-17-4",
+          "name": "夜雨声烦601",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "description": "中国政法大学 经济法学硕士",
+              "type": "identity_people"
+            }
+          ],
+          "is_following": false,
+          "is_followed": false,
+          "id": "91a3edae1d466d6366ef66e111847c0b",
+          "user_type": "people",
+          "headline": "B站同名号：夜雨声烦601",
+          "avatar_url": "https://picx.zhimg.com/50/v2-84948810e07ec15e2ff60f31b3227823_l.jpg?source=b6762063",
+          "followers_count": 5033
+        },
+        "comment_count": 181,
+        "favorite_count": 169,
+        "answer_type": "normal",
+        "id": "1995074431240921266",
+        "thanks_count": 68,
+        "allow_segment_interaction": true,
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "id": "11501045049",
+          "answer_count": 0,
+          "title": "为什么电视剧《人民的名义》中侯亮平的评价越来越差了？",
+          "created": 1738889524,
+          "excerpt": "",
+          "type": "question",
+          "author": {
+            "is_followed": false,
+            "id": "0216cb75ab7eb782947456eca83485f6",
+            "url": "https://api.zhihu.com/people/0216cb75ab7eb782947456eca83485f6",
+            "url_token": "da-suo-5-35",
+            "name": "达索",
+            "is_following": false,
+            "followers_count": 19,
+            "user_type": "people",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-fa93d8137a5ee91064032ce51f4f6f58_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1
+          },
+          "comment_count": 0,
+          "bound_topic_ids": [
+            168206,
+            178864,
+            179005,
+            179064,
+            2683070
+          ],
+          "is_following": false,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/11501045049",
+          "follower_count": 0
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-41c05b0b693e47876e565f5123519616_720w.jpg?source=b6762063"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995074431240921266}",
+      "attached_info": "CsAHCJy3oubL4vOOgwEQBBoJNzY1NDgyMTY4ILuXocsGKMcGMLUBQE9KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1aCTExMzI3NTk4OGIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTUwNzQ0MzEyNDA5MjEyNjaKAQsxMTUwMTA0NTA0OaoBCXJlY29tbWVuZMIBIDkxYTNlZGFlMWQ0NjZkNjM2NmVmNjZlMTExODQ3YzBi8gEKCAwSBk5vcm1hbPIBKAgKEiQ1ZTYwY2UyOC0zZWMwLTQzZWYtYjdkYS1kZWFjOWQ0ZTQzNmbyAQYICxICMTSCAgCIAu2Ymsa8M5ICIDkxYTNlZGFlMWQ0NjZkNjM2NmVmNjZlMTExODQ3YzBimgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjPoAgT6AgtOT1JNQUxfRkxPV4oDIDhlZDNlYTQyNTg5ZTQ3MzlhYWZjNDQ4YzhlMjc3ZTE1mgMNCgJ2MhAAGgVvdGhlcqgDxokF2AMA6gMRZmVlZHJlX21zX2dhdGVfdjP6A7kCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQjgsYoAYiI3YyLTQxYzA1YjBiNjkzZTQ3ODc2ZTU2NWY1MTIzNTE5NjE2Oi0IAhCwAxikDSIjdjItOTk5Y2U5YmQyNDViNWM0ZjYxZWRlMGUzNDIyNzAwZTk6LQgDEPkGGPQDIiN2Mi04NDVmN2YwMzM3NGU4Y2ZhZGZmMWVjMTE0N2M1ZGQxNDotCAMQ9AMYmwUiI3YyLWQ2YTM4N2UzYzczYmJjZGUzZTY3YzQyYTNjODM3OGY2Oi0IAxDYBBiQAyIjdjItNzI1ZDg1Y2IxOTUyNGI3NTVkN2RmN2FjNDQ0YWFkOWU6LQgCEIAPGJwRIiN2Mi02NDczNDY3NjZmNTJkYmY5NDVlMWQxNGMzNDZmMzgyYYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAAIIunj+BBQAAAAAAAAAAiQXKKzLYuYq0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUOkAYAoAZRqAYDkgIuCgk3NjU0ODIxNjgSEzE5OTUwNzQ0MzEyNDA5MjEyNjYYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "80_1768600014.944",
+      "type": "feed",
+      "offset": 80,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600014,
+      "updated_time": 1768600014,
+      "target": {
+        "thanks_count": 928,
+        "is_copyable": false,
+        "visited_count": 1051745,
+        "id": "64361705891",
+        "answer_type": "normal",
+        "is_navigator": false,
+        "comment_count": 503,
+        "question": {
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/433361385",
+          "bound_topic_ids": [
+            5560,
+            103812,
+            176960
+          ],
+          "follower_count": 0,
+          "excerpt": "",
+          "created": 1607093430,
+          "is_following": false,
+          "answer_count": 0,
+          "comment_count": 33,
+          "question_type": "normal",
+          "id": "433361385",
+          "author": {
+            "name": "归去来兮",
+            "avatar_url": "https://picx.zhimg.com/50/v2-1c644f923a6b9d3740fa919f31c21508_l.jpg?source=b6762063",
+            "followers_count": 499,
+            "is_following": false,
+            "is_followed": false,
+            "id": "a140260c6d6865855ec223150afc4ffd",
+            "user_type": "people",
+            "url_token": "xing-bing-87",
+            "gender": -1,
+            "url": "https://api.zhihu.com/people/a140260c6d6865855ec223150afc4ffd",
+            "headline": "",
+            "is_org": false
+          },
+          "title": "是不是以前没什么人看出来伊朗内部这么虚弱？为什么？"
+        },
+        "voteup_count": 18662,
+        "content": "<p data-pid=\"FL3V8AOb\">你如果是站在东大立场以及标准上，甚至于连看都不用看。</p><p data-pid=\"aVeLH3hW\">请记住：东大在五个常任理事国当中，是唯一一个曾经的受害者，而不是列强。</p><p data-pid=\"7d07umA4\">其他四个常任理事国，全都是当初的列强，哪怕是俄罗斯，那也是“帝国主义最薄弱的一环”——最薄弱，那也是帝国主义。</p><p data-pid=\"L8Nejx70\">唯独中国，是曾经的受害者，被圈踢的对象，半殖民地。</p><p data-pid=\"m-0c2fq5\">然后，中国居然从那样的地位又爬上来了。</p><p data-pid=\"gd4aKvO3\">所以，你如果是以中国的标准来要求大家，那恕我直言，这个世界上没有任何一个国家努力到了让我们同情和体谅的程度。</p><p data-pid=\"NuLHDySN\">这就导致了中国不可能有信得过的盟友。</p><p data-pid=\"7f756xq_\">因为，没有谁比中国本身更忠于中国，没有谁比中国更执拗更绝境求生。</p><p data-pid=\"Gh8EXg-U\">你与其让中国把希望寄托在盟友身上，那中国还不如干脆直接来一套“举世皆敌”的底线思维。</p>",
+        "updated_time": 1735188018,
+        "navigator_vote": false,
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "user_type": "people",
+          "name": "李劼",
+          "headline": "喜欢写东西，希望写的东西有人喜欢",
+          "avatar_url": "https://picx.zhimg.com/50/v2-0642d537f6143861b150cd5c8f9516a5_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "id": "ee893048903af08a92c051b712550279",
+          "url": "https://api.zhihu.com/people/ee893048903af08a92c051b712550279",
+          "url_token": "li-jie-1-2",
+          "followers_count": 218765
+        },
+        "created_time": 1735188018,
+        "preview_type": "default",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "is_labeled": false,
+        "segment_infos": [
+          {
+            "pid": "aVeLH3hW",
+            "text": "请记住：东大在五个常任理事国当中，是唯一一个曾经的受害者，而不是列强。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 35,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995464907152459254"
+                  ],
+                  "is_like": false,
+                  "like_count": 155,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "gd4aKvO3",
+            "text": "所以，你如果是以中国的标准来要求大家，那恕我直言，这个世界上没有任何一个国家努力到了让我们同情和体谅的程度。",
+            "marks": [
+              {
+                "start_index": 2,
+                "end_index": 54,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992462226167190712"
+                  ],
+                  "is_like": false,
+                  "like_count": 263,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "7f756xq_",
+            "text": "因为，没有谁比中国本身更忠于中国，没有谁比中国更执拗更绝境求生。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1992535233862575385"
+                  ],
+                  "is_like": false,
+                  "like_count": 54,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Gh8EXg-U",
+            "text": "你与其让中国把希望寄托在盟友身上，那中国还不如干脆直接来一套“举世皆敌”的底线思维。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 42,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995064595132462690"
+                  ],
+                  "is_like": false,
+                  "like_count": 127,
+                  "comment_count": 0,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "excerpt": "你如果是站在东大立场以及标准上，甚至于连看都不用看。 请记住：东大在五个常任理事国当中，是唯一一个曾经的受害者，而不是列强。 其他四个常任理事国，全都是当初的列强，哪怕是俄罗斯，那也是“帝国主义最薄弱的一环”——最薄弱，那也是帝国主义。 唯独中国，是曾经的受害者，被圈踢的对象，半殖民地。 然后，中国居然从那样的地位又爬上来了。 所以，你如果是以中国的标准来要求大家，那恕我直言，这个世界上没有任何一个…",
+        "excerpt_new": "你如果是站在东大立场以及标准上，甚至于连看都不用看。 请记住：东大在五个常任理事国当中，是唯一一个曾经的受害者，而不是列强。 其他四个常任理事国，全都是当初的列强，哪怕是俄罗斯，那也是“帝国主义最薄弱的一环”——最薄弱，那也是帝国主义。 唯独中国，是曾经的受害者，被圈踢的对象，半殖民地。 然后，中国居然从那样的地位又爬上来了。 所以，你如果是以中国的标准来要求大家，那恕我直言，这个世界上没有任何一个…",
+        "preview_text": "",
+        "favorite_count": 1702,
+        "vote_next_step": "vote",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/64361705891",
+        "reshipment_settings": "disallowed",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 64361705891}",
+      "attached_info": "CvgFCJy3oubL4vOOgwEQBBoJNzA1OTg3NTYzILK8s7sGKOaRATD3A0BQSj8KKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTRIBMBgAIAA6CnsicmF3IjoiIn1aCDU4NTgxMzgwYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnILNjQzNjE3MDU4OTGKAQk0MzMzNjEzODWqAQlyZWNvbW1lbmTCASBlZTg5MzA0ODkwM2FmMDhhOTJjMDUxYjcxMjU1MDI3OfIBCggMEgZOb3JtYWzyASgIChIkOGQ2ZDQ1NDYtZTkwYy00YjdmLTk5YjEtNDVhODViMGViZjg38gEGCAsSAjE0ggIAiALtmJrGvDOSAiBlZTg5MzA0ODkwM2FmMDhhOTJjMDUxYjcxMjU1MDI3OZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCGFF1ZXN0aW9uQWdlSXNvbGF0aW9uUnVsZdoCKlRTX1NPVVJDRV9aUkVDQUxMX0ZFRURSRV9ORVdCSUVfSE9VUkxZX1JVTegCAvoCC05PUk1BTF9GTE9XigMgOGVkM2VhNDI1ODllNDczOWFhZmM0NDhjOGUyNzdlMTWaAw0KAnYyEAAaBW90aGVyqAPhmEDYAwDqAxBuZXdiaWVfZmVlZHJlX3Yy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNTfIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAICTuqc/gQUAAAAAAAAAAIkFyisy2LmKtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGUqgGAJICJgoJNzA1OTg3NTYzEgs2NDM2MTcwNTg5MRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "81_1768600014.437",
+      "type": "feed",
+      "offset": 81,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600014,
+      "updated_time": 1768600014,
+      "target": {
+        "voting": 0,
+        "preview_text": "",
+        "content": "<p data-pid=\"ZAawU_9Q\">我以为自己是个专注力还不错的人，直到发现连观察自己的呼吸都撑不过一分钟。</p><h2><b>一颗种子埋了 13 年</b></h2><p data-pid=\"tgCYL_2t\">内观（Vipassana），是一种有 2500 多年历史的禅修方法。它的核心很简单：如实观察自己身体的感受，不评判、不反应，只是看着它们升起又消失。 冥想的种类有很多，有的专注于呼吸，有的观想画面，有的重复默念一个词。我只是了解过内观，只有资格讲讲自己内观的经历，内观属于其中的「观」——不是让心静下来就完了，而是用这份安静去看清自己的心是怎么运作的。</p><p data-pid=\"dhCrDQEu\">13 年前第一次知道内观，来自一本书：《程序员的思维修炼:开发认知潜能的九堂课》，里面提到了一种提升专注力的方式：冥想，通过这本书我认识到这可能是带来专注和快乐的终极方式。但那时觉得自己还年轻，作为从学校毕业不久的新人，还有好多事情要做，过几年再尝试吧，我在心中埋下了一颗种子。</p><p data-pid=\"8Pic4VyZ\">后来陆续看过一些名人传记等书籍资料，发现硅谷也有很多人练习内观或者冥想，比如乔布斯。中间也零星尝试过一些冥想练习，但总觉得不够系统，没什么突破。</p><p data-pid=\"Vn3f9zBz\">一晃到了 2025 年，越来越多东西在抢夺我们的注意力，我感觉自己越来越难以专注；生活中的事情也越来越多，职业发展、孩子教育、贷款……脑子里总有几件事悬着，静不下来，时不时就会莫名烦躁。而我也有了大块属于自己的时间，于是想找一个更系统学习的地方，不仅仅是为了提升自己的专注力，还希望通过练习，更好的认识自己，甚至想看看自己能不能像小时候看的港台电视或者电影中的人物一样，在闭关修炼一段时间后能有什么“大彻大悟”。</p><p data-pid=\"aOgMFbn9\">在网上找到了 <a href=\"https://link.zhihu.com/?target=HTTPS%3A//ng.shandao8.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">HTTPS://</span><span class=\"visible\">ng.shandao8.com/</span><span class=\"invisible\"></span></a>这个网站，发现国内很多地方都有 10 日内观课程，输入课程代码，比如 2026 年青岛内观中心的课程，输入”qd2026”即可查到 2026 年全年的课程。而且整个课程不可思议的完全免费，不存在任何商业性质，包括食宿也不收取任何费用。所有内观中心的建设和课程的持续运营，全都是依靠旧生们的捐赠，在这个时代居然有这么一批人干着这种公益，为他们点赞。我咬咬牙报名了郑州悬钟中心的课程，为什么要咬牙呢，还是有些担心这 10 天的课程坚持不下去。为什么报名郑州而不是离我更近的武夷山等地方，是因为这个课程并不好抢，合适的时间只有郑州有名额。报名登记后内观中心还要和直系亲属联系，确认直系亲属知晓并同意才算是报名成功。</p><p data-pid=\"1R0LVKMZ\">我在课程报道前一天到了郑州，再给自己做了做心理建设，休整后第二天去内观中心报到了。</p><h2><b>前 3 天的难受</b></h2><p data-pid=\"lGMZQPkZ\">在这里每天 4 点钟起床，晚上 10 点睡觉，练习过程中除每日在指定时间能和助理老师请教修习，其他时间需要止语，不能讨论。</p><p data-pid=\"vB3UDt9o\">课程前 3 天练习观呼吸，把所有注意力集中在鼻孔下方上嘴唇一小块区域，感受呼吸。葛印卡老师教导我们：“别去控制呼吸，也不要想用什么特殊的方式呼吸。只要观察现在的状况，不管状况如何。吸气的时候，你只是意识到，这股气进来了；呼气的时候，你只是意识到，这股气出去了。而当你不再专注，思绪开始在回忆和幻想中游荡的时候，你只是意识到：现在我的思绪不在呼吸上了，把注意力转移回来即可。”练习中我发现，我自以为是自己的主人，最后却发现专心观察气息如何进出鼻孔都很难持续 1 分钟，自己根本算不上自己的主人，自己的心远比想象中更难掌控，这着实让我有点沮丧。</p><p data-pid=\"-46eG-ML\">除了注意力难以集中外，前期还有脚麻无法忍受，每一小时的静坐大概要换 2-3 次姿势。在这一天也有一个大哥坚持不下去，收拾行李悄悄离开了，我虽然不至于离开，但也有些怀疑自己还能不能熬得过去。</p><h2><b>第四天：看见自己的自动反应</b></h2><p data-pid=\"NiHUPoPM\">到了第四天，老师开始教授观察全身的感觉，从头到脚，再从脚到头。我们和世界之间隔着的是我们的身体，我们真正反应的对象不是外界，而是自己身体的感觉。某种感觉不愉快，我们的反应就是“厌恶”；某种感觉愉快，我们的反应就是“想要更多”。我终于悟出点什么了，以前我以为，外界发生了什么，我就会有什么感受，这是天经地义的。就像程序员写代码，代码出 bug 就会烦躁，需求又改我就怒，这不是很正常吗？但当我认真观察身体时，发现中间还有一层：我对感受的反应。腿麻是一个信号，但「受不了、要换姿势」是我身体的程序。老师让我们不要立刻反应，就只是观察。我试着忍住，只是看着腿麻这件事正在发生。一分钟、两分钟……它居然没有变得更糟，甚至开始消退。</p><p data-pid=\"xJJ1r7WZ\">那一刻我突然意识到：痛苦不是腿麻本身，痛苦是我拼命想让它消失的那个反应。</p><p data-pid=\"vyG34ESi\">我们从没意识到自己内心有一套运行了几十年的自动程序：不舒服就逃避，舒服就想抓住。这些反应什么时候形成的我都不记得了，但它们一直在后台跑，消耗着我的精力，而我从没停下来看一眼。 内观就是第一次让我看见了这些自动程序。</p><p data-pid=\"n0ZXzqtE\">我没有「大彻大悟」，没有灵魂出窍，只是第一次以旁观者的视角，看见了自己的心是怎么运作的，这就够了。</p><p data-pid=\"Lv7BGXHm\">葛印卡老师告诉我们，其实灵魂这东西也不存在。我们认真感知当下，平等地看待身体各种感受，愉悦的还是不愉悦的。这些感受来了一阵，然后消失，新的感受又升起，感受就这样来来去去，这就是无常。通过内观，当我们认真观察这些感受，就慢慢变成这些感受的“旁观者”，观察这些感受生起又灭去，我们不再被感受完全控制，变得更加理性和睿智。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-81123f6b7bdfa0cb6b9907b7b084b508_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3072\" data-rawheight=\"4096\" data-original-token=\"v2-6fd7a47e71fd7dcffa6ff4ddf5b80f56\" class=\"origin_image zh-lightbox-thumb\" width=\"3072\" data-original=\"https://pica.zhimg.com/v2-81123f6b7bdfa0cb6b9907b7b084b508_r.jpg\"/><figcaption>清晨四点多，走去法堂的路上，天还没亮透，远处是新郑始祖山上的龙头，整个世界安静得只剩下自己的脚步声。</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nqHwV331\">过了第 4 天，感觉自己每天都有进步，日子也没前几天这么难熬，过程中再没有小伙伴离去，大家坚定地修完了全程。</p><p data-pid=\"oHv9Q86V\">另外在这里我第一次发现素食能这么好吃，居然比吃肉更合胃口，没有因为是素食而有任何不适应，可能是厨房的法工（即义工，旧生可报名）完全出于自愿的缘故，反而能做出更可口的饭菜。到最后一天结束止语后，我和一个旧生交流，印证了我的想法：有时法工不够雇佣外面的人做饭，反而饭菜不好吃，他甚至能吃出饭菜是否由法工做的。</p><p data-pid=\"igpojmP0\">10 日课程修完之后，在家中每天 4 点钟居然就醒了，每天练习一小时内观，半年的内观使得我的内心更加平静，更容易集中注意力，也增强了觉知带来的洞察力。</p><h2><b>半年后：洗碗也是修行</b></h2><p data-pid=\"IEwEIWBQ\">半年后，我作为法工参加了位于香港大屿山的香港内观中心（<a href=\"https://link.zhihu.com/?target=HTTPS%3A//www.dhamma.org/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">HTTPS://www.</span><span class=\"visible\">dhamma.org/</span><span class=\"invisible\"></span></a>）举行的内观课程，每天早中晚在厨房工作，另外法工有 5-6 小时共修。中心已经把每个岗位法工要做的工作做成了文档，比如每一天哪一顿要做的饭菜、每道饭菜工作流程、细到怎么摆放一个调味瓶的杯盖都提供了示例图片，所以法工们上手几乎没什么成本。大家在厨房互帮互助，任何人需要协助马上就有人出来帮忙，干完自己工作后，还会主动去看别人任务是否完成，我们法工团队做出来的饭菜水准一点也不逊色于在郑州悬钟中心当新生时吃到的。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-69f90d9b8df7f4e7e4526bc1ca343ca0_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"3132\" data-rawheight=\"2297\" data-original-token=\"v2-60ab09a4dad24883aa83e99f43212f4e\" class=\"origin_image zh-lightbox-thumb\" width=\"3132\" data-original=\"https://pic3.zhimg.com/v2-69f90d9b8df7f4e7e4526bc1ca343ca0_r.jpg\"/><figcaption>香港内观中心的素食午餐</figcaption></figure><p data-pid=\"u3Ej8T3J\">有一天洗碗的时候，我发现自己进入了一种奇特的状态。</p><p data-pid=\"mXR7GrG2\">先用水把碗冲洗和刷一遍，去掉残渣；再抹上洗洁精，因为只剩下薄薄一层油脂，用量很少就够了；最后冲水，看着泡沫滑落，碗面变得干净透亮。整个过程，我的注意力就在水流、泡沫、手指和碗的触感上，没有想别的。 那一刻我想起了庖丁解牛的故事——不是因为洗碗有多高深，而是那种专注的状态是一样的。手上在做什么，心就在什么上面，没有分神，没有杂念。洗完一摞碗，碗很干净，我也很满足。</p><p data-pid=\"3ld7kN1j\">晚上九点学员休息后，法工会和老师开个短会。在郑州做学生时要求课程全程止语，我和老师交流较少，但这几天近距离相处下来，我发现他们身上有一种很难形容的东西。女老师脸上常常带着孩子般的笑容，不是那种客套的微笑，是真的开心；男老师的笑容更沉静一些，充满了智慧。 他们修行了很多年，比大多数人都松弛、快乐。我想，这大概就是「真正的快乐」长什么样子吧。</p><p data-pid=\"VKvXduCu\">10 天的课程只是开了一个头，让你学会一种观察自己的方法。但这个方法不是只能盘腿坐着用的——洗碗时可以用，给老人孩子沟通时可以用，工作的时候也可以用，正所谓行走坐卧皆是禅。 佛陀对此有一个很简洁的说法：“当你看时，就只是看；当你听时，就只是听；当你嗅、尝、触时，就只是嗅、尝、触；当你认知时，就只是认知。” 听起来很简单，但大多数时候我们做一件事，脑子里还同时想着几件别的事。内观教会我的，不是什么玄妙的道理，就是怎么让那些杂念安静下来，把注意力真正放在手上这一件事。 做一个真正快乐专注的人，其实没有那么复杂。认真过好每一个当下，你就能过好这一生——因为这一生，本来就是由一个个当下组成的。</p><h2><b>写在最后</b></h2><p data-pid=\"3-hlkcoH\">13 年前，我在一本程序员的书里埋下了一颗种子，以为冥想内观是为了提升专注力。13 年后我发现，专注力只是副产品，真正的收获是学会和自己心相处——不再被那些运行了几十年的自动反应绑架，不再被每一个不愉快的感受推着走。</p><p data-pid=\"4xzpe0Zl\">如果你也常常注意力难以集中，感到焦躁不快乐，可以考虑找12天时间（第一天下午报道+10天练习+第12天早上离开），去观察一下那个你从未认真审视过的自己。比起花大量时间去规划外部世界的旅行，住酒店、吃自助、打卡几个景点然后修修图。</p><p data-pid=\"e34shpzI\">这趟内心的旅行更有价值，当然也更刺激——因为目的地是你自己的心。</p>",
+        "id": "1987466569551460204",
+        "updated": 1766969436,
+        "navigator_vote": false,
+        "allow_segment_interaction": true,
+        "preview_type": "default",
+        "thumbnails": [
+          "https://pica.zhimg.com/v2-6fd7a47e71fd7dcffa6ff4ddf5b80f56.jpg?source=7e7ef6e2&needBackground=1",
+          "https://picx.zhimg.com/50/v2-6fd7a47e71fd7dcffa6ff4ddf5b80f56_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-60ab09a4dad24883aa83e99f43212f4e_720w.jpg?source=b6762063"
+        ],
+        "is_labeled": false,
+        "comment_permission": "all",
+        "title": "一个程序员的内观记录",
+        "comment_count": 20,
+        "vote_next_step": "vote",
+        "type": "article",
+        "author": {
+          "is_org": false,
+          "followers_count": 76,
+          "is_following": false,
+          "is_followed": false,
+          "id": "c7476d134c4ffc2973f8e24db338691c",
+          "user_type": "people",
+          "name": "hahaxixi",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-6ba289ee1a28ecfe7dc90df23e5b8fd5_l.jpg?source=b6762063",
+          "url": "https://api.zhihu.com/people/c7476d134c4ffc2973f8e24db338691c",
+          "url_token": "maipolan",
+          "headline": "生无所息,知行合一",
+          "gender": -1
+        },
+        "excerpt_new": "我以为自己是个专注力还不错的人，直到发现连观察自己的呼吸都撑不过一分钟。 一颗种子埋了 13 年内观（Vipassana），是一种有 2500 多年历史的禅修方法。它的核心很简单：如实观察自己身体的感受，不评判、不反应，只是看着它们升起又消失。 冥想的种类有很多，有的专注于呼吸，有的观想画面，有的重复默念一个词。我只是了解过内观，只有资格讲讲自己内观的经历，内观属于其中的「观」——不是让心静下来就完了，而是用这份安…",
+        "visited_count": 5483,
+        "voteup_count": 113,
+        "linkbox": {
+          "pic": "",
+          "title": "",
+          "url": "",
+          "category": ""
+        },
+        "favorite_count": 244,
+        "url": "https://api.zhihu.com/articles/1987466569551460204",
+        "excerpt": "我以为自己是个专注力还不错的人，直到发现连观察自己的呼吸都撑不过一分钟。 一颗种子埋了 13 年内观（Vipassana），是一种有 2500 多年历史的禅修方法。它的核心很简单：如实观察自己身体的感受，不评判、不反应，只是看着它们升起又消失。 冥想的种类有很多，有的专注于呼吸，有的观想画面，有的重复默念一个词。我只是了解过内观，只有资格讲讲自己内观的经历，内观属于其中的「观」——不是让心静下来就完了，而是用这份安…",
+        "created": 1766629572,
+        "article_type": "normal",
+        "is_navigator": false,
+        "image_url": "https://pica.zhimg.com/v2-6fd7a47e71fd7dcffa6ff4ddf5b80f56.jpg?source=7e7ef6e2&needBackground=1"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1987466569551460204}",
+      "attached_info": "CvkGCJy3oubL4vOOgwEQBxoJMjY4MTUxMjYwIMTBssoGKHEwFEBRSjUKIFRTX1NPVVJDRV9GRUVEUkVfRklSU1RfU0NSRUVOX1YyEgEwGAAgADoKeyJyYXciOiIifWIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5ODc0NjY1Njk1NTE0NjAyMDSCAV9odHRwczovL3BpY2EuemhpbWcuY29tL3YyLTZmZDdhNDdlNzFmZDdkY2ZmYTZmZjRkZGY1YjgwZjU2LmpwZz9zb3VyY2U9N2U3ZWY2ZTImbmVlZEJhY2tncm91bmQ9MaoBCXJlY29tbWVuZMIBIGM3NDc2ZDEzNGM0ZmZjMjk3M2Y4ZTI0ZGIzMzg2OTFj8gEKCAwSBk5vcm1hbPIBKAgKEiQ1Y2QwNmJkMS1iYTE5LTQ1NDQtOTI4ZC0zY2U3MWU5NzRlM2HyAQYICxICMTSCAgCIAu2Ymsa8M5ICIGM3NDc2ZDEzNGM0ZmZjMjk3M2Y4ZTI0ZGIzMzg2OTFjmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIgVFNfU09VUkNFX0ZFRURSRV9GSVJTVF9TQ1JFRU5fVjLoAgP6AgtOT1JNQUxfRkxPV4oDIDhlZDNlYTQyNTg5ZTQ3MzlhYWZjNDQ4YzhlMjc3ZTE1mgMNCgJ2MhAAGgVvdGhlcqgD6yrYAwDqAxZmZWVkcmVfZmlyc3Rfc2NyZWVuX3Yy+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQgBgYgCAiI3YyLTZmZDdhNDdlNzFmZDdkY2ZmYTZmZjRkZGY1YjgwZjU2Oi0IBBC8GBj5ESIjdjItNjBhYjA5YTRkYWQyNDg4M2FhODNlOTlmNDMyMTJmNGWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMADHoY/gQUAAAAAAAAAAIkFyisy2LmKtD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFDpAGAKAGU6gGAJICLgoJMjY4MTUxMjYwEhMxOTg3NDY2NTY5NTUxNDYwMjA0GAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "82_1768600014.221",
+      "type": "feed",
+      "offset": 82,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600014,
+      "updated_time": 1768600014,
+      "target": {
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"qEybHVyR\">窗外的雨声淅淅沥沥，敲打着办公楼层的玻璃幕墙。已经是晚上十一点，陈远还在调试那段该死的代码。显示器幽幽的光映在他疲惫的脸上，咖啡杯里剩下的半杯咖啡早已冷透。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xddfcStx\">“又卡在内存泄漏了...”他揉着发胀的太阳穴，手指在键盘上机械地敲击。这个电商平台的项目已经延期两周，老杨今天下午的怒吼还在耳边回荡：“明天再交不出稳定版本，整个组都给我滚蛋！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7N-tYpJs\">就在这时，邮箱提示音突然响起。一封新邮件出现在收件箱最上方，主题栏赫然写着：“别点开最后一封邮件”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0I-I5YVE\">发件人地址是一串乱码似的字符：<a href=\"https://link.zhihu.com/?target=http%3A//temporal.nexus\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">temporal.nexus</a>@chronomail.com。发送时间显示是 20XX 年 10 月 28 日 23：45 分——这不可能，现在才 10 月 21 日。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZrxyKT-3\">陈远的第一反应是病毒邮件。公司 IT 部门上周刚发过警告，最近有新型钓鱼邮件在流传。但当他移动鼠标准备删除时，手指却不听使唤地停住了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7gWc05a7\">邮件正文只有短短几行：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"boDELGbY\">“时间锚点：20XX-10-22 09：30</p><p data-pid=\"cKU4yMne\">事件：服务器集群宕机</p><p data-pid=\"NAIGuull\">原因：数据库连接池溢出</p><p data-pid=\"fsT9Q8nT\">位置：主业务模块第 387 行</p><p data-pid=\"4rc_-8FA\">验证码：阿尔法 7-9-2”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"utlhMvLU\">陈远的心跳突然加速。他正在修改的正是主业务模块，今天下午刚把第 387 行附近的代码重构过。如果真如邮件所说，明天上午九点半服务器会因为这个改动而宕机...</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lWTSBVmT\">他立即打开终端，快速检查了相关代码。果然，在新加的数据库连接处理逻辑中，他发现了一个极其隐蔽的 bug——连接释放语句写在了异常处理分支里，正常情况下不会执行。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"iYy7adus\">“巧合吗？”陈远喃喃自语，后背泛起一阵凉意。他修复了 bug，将代码提交到测试环境时，时钟已经指向凌晨一点。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NttxvJM8\">回家的出租车上，陈远反复查看那封邮件。最奇怪的是发件人栏那个“<a href=\"https://link.zhihu.com/?target=http%3A//temporal.nexus\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">temporal.nexus</a>”的域名，chrono 是时间的意思，nexus 是联结...时间联结？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yLKQwLwq\">他试着回复邮件，系统立即退回一个错误提示：“时空地址不存在”。就像给一个不存在的电话号码发短信，但这条信息却真真切切地预言了未来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"laOfANvD\">第二天早上九点二十五分，陈远提前来到公司。测试组的同事正在做上线前的最后检查，一切正常。九点三十分整，监控大屏上的服务器指标平稳运行，没有出现任何异常。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"l-WgtCeC\">“看来是我想多了...”陈远松了口气，同时莫名感到一丝失落。也许真是谁的恶作剧吧。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"d5pRQ1Iz\">然而就在九点三十五分，测试组长的惊呼打破了平静：“生产环境备用集群出现异常波动！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Q20Hpw0x\">陈远冲到监控屏前，只见备用集群的数据库连接数正在飙升——正是他昨晚修复的那个 bug 的症状。因为主集群已经修复，备用集群还没来得及同步最新代码。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CeqLl9ZE\">“立即切回主集群！备用集群下线维护！”技术总监果断下令。一场可能持续数小时的重大事故，在五分钟内就被化解了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vjodXRLQ\">陈远站在喧闹的监控中心，手心全是冷汗。邮件的预言...成真了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"u0lRbyWl\">事故总结会上，老杨破天荒地表扬了陈远：“这次多亏陈工程师发现得及时，避免了重大损失。”同事们都投来惊讶和羡慕的目光——在这个狼性文化的公司里，得到老杨的认可是件稀罕事。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"H9j1TaOw\">但陈远完全听不进这些表扬。他的手机震动了一下，又一封新邮件到达。同样的发件人，同样的诡异主题：“别点开最后一封邮件”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jCEyGE7b\">这次的时间锚点是明天下午三点，预言市场部将在演示会上使用错误的数据报表，导致重要客户流失。邮件甚至附带了正确报表的存储路径。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"skQdZUlf\">会议一结束，陈远立即找到市场部总监。对方起初不以为然，但在陈远的坚持下，还是派人核查了邮件提到的文件路径。结果让人震惊：准备会上要用的确实是错误版本，而正确版本就躺在邮件指出的那个被遗忘的文件夹里。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vgDJNLDF\">“陈工，你怎么会知道...”市场总监又惊又疑地问。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"G71s5RIr\">陈远支吾着搪塞过去，心里却翻江倒海。两封邮件，两个精准的预言。这已经超出了巧合的范畴。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"T9Tq8b4Z\">下班后，陈远迫不及待地回家研究这些神秘邮件。他在书房里建了一个复杂的分析模型，试图破解邮件来源。林薇推门进来时，他正对着一屏的代码发呆。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nybSBKVx\">“你又加班到这么晚？”林薇的声音带着疲惫。她是市医院的心内科医生，今天刚值完一个二十四小时的班。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"d_2IukaT\">“有点工作要处理...”陈远心不在焉地回答，眼睛还盯着屏幕。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PYPMrelG\">林薇叹了口气：“小雨的家长会你又忘了参加。班主任说孩子最近上课总是走神...”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JrIxHjV3\">“我知道，下周一定去。”陈远嘴上应着，手指却在键盘上飞快敲击。他刚刚发现一个惊人事实：这两封邮件的数字签名，竟然和他自己的 PGP 密钥完全匹配。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZcuwH-AZ\">“陈远！”林薇突然提高了声音，“你到底有没有在听我说话？我们多久没有一起好好吃顿饭了？小雨说爸爸现在连睡前故事都不讲了...”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AObdnGPL\">陈远终于抬起头，看到女友泛红的眼眶，内心一阵愧疚：“对不起，薇薇。这个项目特别重要，等忙完这阵子...”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mUkPETK6\">“你总是这么说。”林薇摇摇头，转身离开书房，“晚饭在微波炉里，记得热一下吃。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SqhFiKSH\">陈远望着她的背影，话到嘴边又咽了回去。怎么解释？说他收到了来自未来的邮件？连他自己都还无法相信这个事实。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vpoJS7wJ\">深夜，当陈远终于困得准备休息时，第三封邮件不期而至。这次的预言更加具体，也更加令人不安：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9eA68MNr\">“时间锚点：20XX-10-24 14：20</p><p data-pid=\"oMvEhzrf\">事件：小雨意外受伤</p><p data-pid=\"02GVge1-\">地点：实验小学操场东侧</p><p data-pid=\"5RQK39hX\">原因：秋千链断裂</p><p data-pid=\"w5eDFjK3\">建议检查时间：今天上午 10 点”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vsIW2v56\">陈远猛地从椅子上站起，冷汗瞬间湿透了衬衫。小雨！他的女儿！</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hZIau4FO\">第二天一早，陈远破天荒地请了假，直奔实验小学。门卫起初不让进，直到他说明是家长看看孩子。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"c-xTT9Nv\">在操场东侧的秋千区，他仔细检查了每个秋千的链条和连接点。果然，在最靠里那个粉色秋千的链条接口处，发现了一道几乎看不见的裂痕。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Z2SHmWlo\">“这太危险了！”随后叫来的后勤主任惊出一身冷汗，“我们上周刚做过全面检查，怎么会...”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pUf9glkM\">陈远没有解释，只是强烈要求立即更换所有秋千链条。看着工人们拆下那个有隐患的秋千，他悬着的心才稍稍放下。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"V91n5GF4\">下午两点二十分，陈远躲在车里，远远望着操场。孩子们正在上体育课，小雨和同学们在老师的带领下来到秋千区——现在这里已经焕然一新。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"u4tS7sOa\">就在这时，陈远的手机震动。第四封邮件：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dDQYddyK\">“你改变了时间线。后果未知。勿回此邮件。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GmNRNoNi\">改变时间线？陈远怔住了。所以这些邮件不是简单的预言，而是...来自未来的警告？如果他按照邮件行动，就会改变原本应该发生的事？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YNG7H6r9\">接下来的几天，陈远开始疯狂研究时间理论。他下载了所有能找到的关于时空悖论、量子力学、平行宇宙的论文，在书房里贴满了时间线示意图。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vd52VehS\">林薇发现了他这些怪异举动，担心地询问，却被陈远用“新项目需要”搪塞过去。事实上，连他自己都说不清到底发生了什么。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4E0tJ_jx\">更诡异的事情发生在周五。陈远在调试一个简单的页面功能时，突然发现自己写出的代码与平时风格迥异——更简洁，更高效，像是...别人的手笔。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kukXQBVO\">“陈工，这个算法太漂亮了！”年轻同事惊叹道，“你怎么想到用递归代替迭代的？”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Qi_AYMIy\">陈远张了张嘴，却说不出所以然。那段代码就像自动从他手指间流淌出来一样，他甚至不记得自己是怎么写出来的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"WPhqszSX\">当晚，他在公司加班到深夜。当试图回复最新一封邮件时，书房里的灯光突然开始闪烁，电脑屏幕扭曲成奇怪的几何图案，空气中响起若隐若现的蜂鸣声。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Pb44Or8v\">“时空干扰...”陈远想起论文里提到的概念。当他停止回复操作时，一切又恢复正常。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AOFygs9n\">最让他毛骨悚然的是，第二天老杨找他谈话时说道：“陈工，你最近解决问题的思路很特别啊，像是...换了个人似的。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BWY3uz3_\">换了个人？陈远突然想到一个可怕的可能性：如果他继续按照这些邮件行动，是不是会逐渐变成...未来的自己？</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5DUYlLIv\">转机出现在一个周末的下午。小雨在玩陈远的手机时，突然说：“爸爸，这个游戏我玩过。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wmCKVldm\">陈远凑过去一看，小雨正在摆弄他分析邮件用的一个时间线可视化应用。那是他自己编写的程序，外人根本看不懂界面上的各种符号。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gclnpOSS\">“你玩过？什么时候？”陈远尽量保持平静。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Ul4hOAnA\">“梦里。”小雨眨着大眼睛，“有个和爸爸长得好像的叔叔教我玩的。他说这是我们的秘密游戏。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Ujo8vcPG\">陈远的心跳漏了一拍。他抱起女儿，轻声问：“那个叔叔...还说了什么？”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nGChSYlW\">“他说要小心最后一封邮件。”小雨玩着爸爸的衣领，“还说妈妈很伤心，因为爸爸总是工作。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sP4fpDPD\">当晚，陈远把这一切告诉了林薇。出乎意料的是，林薇没有嘲笑他的“荒谬”想法，而是严肃地思考起来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"DNUW_mzF\">“我们医院最近收治了一个特殊病例。”林薇说，“一个老科学家，昏迷中不断念叨着‘时间纠错’、‘平行现实’之类的词。据说是研究时空物理的。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"m6t_l2Qp\">在林的安排下，陈远见到了这位姓欧阳的教授。老人虽然虚弱，但眼神异常清明：“年轻人，你遇到了时间悖论现象，对不对？”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PDkPRpnJ\">陈远震惊之下，和盘托出了邮件的事。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oWmfqWUt\">欧阳教授解释道：“根据我的研究，当一个人面临重大人生抉择时，不同选择会分裂出平行宇宙。但在极端情况下，这些平行意识会产生交集...你收到的邮件，很可能是其他平行时空的‘你’发送的警告。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mX6mbj9a\">“那为什么不能点开最后一封邮件？”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jEIEODqB\">教授的表情变得凝重：“因为那意味着所有平行时空的你已经做出了最终选择，时间线将彻底收敛。根据我的计算，这种收敛可能导致...”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"WPN4Z2Gg\">话未说完，监控仪器突然发出刺耳的警报声。医护人员冲进来进行抢救，陈远被请出了病房。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wbf7r7r4\">回家路上，陈远收到系统自动发送的邮件——欧阳教授在昏迷前设置定时发送的研究资料。资料详细解释了一种叫做“时空共振”的现象：当多个平行宇宙的同一意识体产生强烈共鸣时，可能撕裂时空结构。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"B9aviB9a\">最后一页用红色大字写着警告：“警惕意识融合！当不同时空的你开始思想同步，现实将变得不稳定！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sX4gc5td\">陈远想起自己最近那些“灵光一现”的代码，老杨说他“像换了个人”的评价，还有小雨说的“梦里的叔叔”...</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HbHV9SBu\">难道不同时空的陈远，正在融合成一个意识？</p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NADpv4XC\">危机在第十天全面爆发。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yRkp2wlV\">陈远一早醒来，发现手机里有十几个未接来电——全是老杨打来的。他回拨过去，听到的是劈头盖脸的怒吼：“陈远！你昨晚提交的什么鬼代码？整个系统都被你搞崩了！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"a4_Oh6AI\">代码？陈远完全不记得昨晚加过班。他打开笔记本电脑，发现一个以他账号提交的诡异程序——那是一个基于时空邮件原理设计的时间同步算法，正在疯狂消耗服务器资源。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PxOAkhKE\">更可怕的是，这个程序似乎在与某个外部信号共振。公司大楼的电力系统开始不稳定，灯光明明灭灭。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qfv6b0N3\">“是邮件系统...”陈远突然明白了。那个 temporal.nexus 的域名，是一个正在激活的时空桥梁。不同平行宇宙的陈远们，正在通过这个桥梁相互连接。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7YY877WG\">他冲进书房，试图终止这个进程，却发现电脑自动打开了一个视频聊天窗口——窗口里是十几个不同版本的“自己”。有的年轻稚嫩，有的苍老憔悴，有的穿着他从未见过的制服...</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"cR1uKCW8\">“我们必须收敛时间线！”最年长的那个陈远说道，“这是唯一避免现实崩溃的方法！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JjktU6Xy\">“但代价是什么？”年轻的陈远质问。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CYaG5rdS\">“代价是...我们中的一个将成为主体，其他的...将不复存在。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"RCoQ6DvM\">就在这时，林薇和小雨被异常现象吸引进了书房。当看到满屏幕不同版本的陈远时，林薇惊恐地捂住了嘴。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZgW5CmgG\">“薇薇，听我解释...”陈远试图安抚，但为时已晚。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aqKpm_ru\">所有的屏幕突然合并成一个画面，显示出一封新邮件——正是那封“最后一封邮件”。邮件主题自动展开，内容让所有人目瞪口呆：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MCuLO6yF\">“最终选择：拯救林薇或拯救小雨？倒计时：10，9，8...”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Kme-7wFx\">原来，在所有平行宇宙中，都即将发生一场意外：下周一的交通事故中，林薇和小雨只能救一个。而不同时空的陈远做出了不同选择，导致时间线严重分裂。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kW7wUcnO\">现在，时空结构已经无法承受这种分裂，必须强制收敛。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0Jio7B_f\">“不！这不可能！”陈远绝望地大喊。他看着生命中最重要的两个人，任何一个选择都是永恒的折磨。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CPLLHyLu\">倒计时还在继续：“...5，4，3...”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kHMq_xTt\">在最后一秒，陈远做出了一个所有平行自我都没想到的决定。他猛地拔掉电脑电源，同时砸碎了手机屏幕。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qWyF2BVm\">“我拒绝选择。”他对空气说道，仿佛在向整个多元宇宙宣告，“如果时间一定要收束，就让它自然发生。我不会为了所谓的‘现实稳定’，而扮演上帝。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2Zve7iUS\">瞬间，所有的异常现象消失了。灯光恢复正常，电脑屏幕变黑，房间里只剩下三人急促的呼吸声。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lKjaEKeG\">林薇紧紧抱住陈远和小雨，泪水浸湿了他的衬衫：“到底...发生了什么？”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vjVuiOad\">陈远望着窗外渐渐亮起的天空，轻声说：“我选择了我们。不管未来怎样，我们一起面对。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NxpPjpm2\">就在这时，他的旧手机突然亮起——最后一封邮件竟然突破了物理隔离，直接显示在屏幕上：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JABfHK0w\">“你的选择创造了新的可能性。时间线重组中...珍惜这次机会。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nCXlb00Z\">下面还有一行小字：“PS：记得参加小雨的家长会。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Mm1oXUui\">陈远抬头，看到晨光中林薇和小雨疑惑却充满信任的眼神。他知道，真正的挑战才刚刚开始——如何在重组的时空中，活出不同于任何平行版本的人生。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZLdt9yiq\">而那个神秘的邮件系统，也许会在某个未来的时刻再次出现，带来新的警告、新的选择。但下一次，他将准备好面对一切。</p>",
+        "is_labeled": true,
+        "visited_count": 16,
+        "type": "answer",
+        "updated_time": 1768558232,
+        "thanks_count": 0,
+        "preview_text": "",
+        "navigator_vote": false,
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "author": {
+          "url": "https://api.zhihu.com/people/fcf1891cc7fc64ed5f44a878348ceb2e",
+          "headline": "你看了，你思考，就值得.",
+          "avatar_url": "https://picx.zhimg.com/50/v2-20a3e7f915d9a9380b42163a3899cd12_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 1,
+          "is_following": false,
+          "id": "fcf1891cc7fc64ed5f44a878348ceb2e",
+          "user_type": "people",
+          "url_token": "88-31-86-19",
+          "name": "期待",
+          "gender": 1,
+          "is_followed": false
+        },
+        "is_copyable": false,
+        "question": {
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "created": 1625419480,
+          "comment_count": 103,
+          "bound_topic_ids": [
+            740,
+            1576,
+            18605,
+            20423
+          ],
+          "title": "你人生中太晚明白的道理是什么？",
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "id": "470076571",
+          "type": "question",
+          "author": {
+            "is_org": false,
+            "gender": 1,
+            "is_followed": false,
+            "url_token": "shadow-19-85-83",
+            "headline": "",
+            "user_type": "people",
+            "name": "Felix",
+            "avatar_url": "https://picx.zhimg.com/50/v2-7aa5c7b4ed53aba2be67df928c5d9959_l.jpg?source=b6762063",
+            "followers_count": 1,
+            "is_following": false,
+            "id": "55cd891310105aa21b927c0a8fdd3ebf",
+            "url": "https://api.zhihu.com/people/55cd891310105aa21b927c0a8fdd3ebf"
+          },
+          "url": "https://api.zhihu.com/questions/470076571",
+          "answer_count": 0,
+          "is_following": false
+        },
+        "preview_type": "default",
+        "vote_next_step": "vote",
+        "id": "1995558541751236055",
+        "voteup_count": 1,
+        "comment_count": 0,
+        "is_navigator": false,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "favorite_count": 0,
+        "url": "https://api.zhihu.com/answers/1995558541751236055",
+        "created_time": 1768558232,
+        "excerpt": "窗外的雨声淅淅沥沥，敲打着办公楼层的玻璃幕墙。已经是晚上十一点，陈远还在调试那段该死的代码。显示器幽幽的光映在他疲惫的脸上，咖啡杯里剩下的半杯咖啡早已冷透。 “又卡在内存泄漏了...”他揉着发胀的太阳穴，手指在键盘上机械地敲击。这个电商平台的项目已经延期两周，老杨今天下午的怒吼还在耳边回荡：“明天再交不出稳定版本，整个组都给我滚蛋！” 就在这时，邮箱提示音突然响起。一封新邮件出现在收件箱最上方，主题…",
+        "excerpt_new": "窗外的雨声淅淅沥沥，敲打着办公楼层的玻璃幕墙。已经是晚上十一点，陈远还在调试那段该死的代码。显示器幽幽的光映在他疲惫的脸上，咖啡杯里剩下的半杯咖啡早已冷透。 “又卡在内存泄漏了...”他揉着发胀的太阳穴，手指在键盘上机械地敲击。这个电商平台的项目已经延期两周，老杨今天下午的怒吼还在耳边回荡：“明天再交不出稳定版本，整个组都给我滚蛋！” 就在这时，邮箱提示音突然响起。一封新邮件出现在收件箱最上方，主题…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995558541751236055}",
+      "attached_info": "CqQGCJy3oubL4vOOgwEQBBoJNzY1NzAyMzI1IJidqMsGKAEwAEBSSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgg2Njc0MDk5NWIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTU1NTg1NDE3NTEyMzYwNTWKAQk0NzAwNzY1NzGqAQlyZWNvbW1lbmTCASBmY2YxODkxY2M3ZmM2NGVkNWY0NGE4NzgzNDhjZWIyZfIBCggMEgZOb3JtYWzyASgIChIkYTIzNDZjZWQtMTFhMy00OWU4LWFiODgtMzM0MjQyMWMyZTQ38gEGCAsSAjE0ggIAiALtmJrGvDOSAiBmY2YxODkxY2M3ZmM2NGVkNWY0NGE4NzgzNDhjZWIyZZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhRdWVzdGlvbkFnZUlzb2xhdGlvblJ1bGXKAhpDb250ZW50V2FybVVwSXNvbGF0aW9uUnVsZcoCGENvbnRlbnRXYXJtVXBCcmVha0luUnVsZdoCGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDLoAgP6AgtOT1JNQUxfRkxPV4oDIDhlZDNlYTQyNTg5ZTQ3MzlhYWZjNDQ4YzhlMjc3ZTE1mgMNCgJ2MhAAGgVvdGhlcqgDENgDAOoDGmFpX3poaV9maW5ldHVucl9pMmlfcmVjYWxs+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwJ1Dgj+BBQAAAAAAAAAAiQXKKzLYuYq0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUOkAYAoAZUqAYBkgIuCgk3NjU3MDIzMjUSEzE5OTU1NTg1NDE3NTEyMzYwNTUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "83_1768600014.880",
+      "type": "feed",
+      "offset": 83,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600014,
+      "updated_time": 1768600014,
+      "target": {
+        "thanks_count": 5,
+        "allow_segment_interaction": true,
+        "id": "1993832134847259674",
+        "type": "answer",
+        "voteup_count": 93,
+        "vote_next_step": "vote",
+        "excerpt_new": "Obsidian CEO kepano 最近在网上发布了自己专门给 Obsidian 写的几个 Skills，作为本地的笔记管理软件，结合能直接读取本地文件的 AI 工具，效果简直起飞。     才发布几天，GitHub 上 Star 数九已经破 4 k，本次他更新了 3 个有关于 Obsidian 的技能，分别是： json-canvas ：生成 Canva 无限画布，你可以根据某个指定主题生成可视化的白板。obsidian-bases ：生成.Base 文件的过滤器和公式，对不熟悉 Obsidian 数据库的人有福了。o…",
+        "is_labeled": false,
+        "favorite_count": 301,
+        "visited_count": 7644,
+        "excerpt": "Obsidian CEO kepano 最近在网上发布了自己专门给 Obsidian 写的几个 Skills，作为本地的笔记管理软件，结合能直接读取本地文件的 AI 工具，效果简直起飞。     才发布几天，GitHub 上 Star 数九已经破 4 k，本次他更新了 3 个有关于 Obsidian 的技能，分别是： json-canvas ：生成 Canva 无限画布，你可以根据某个指定主题生成可视化的白板。obsidian-bases ：生成.Base 文件的过滤器和公式，对不熟悉 Obsidian 数据库的人有福了。o…",
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-c2d8438b322bfffcc6872517bb277303_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-ad67286089cc8004444f8f56c8105a6c_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-a27032e86be0b1d7c4d7dd92620fcf52_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9b5008abd276fb8404cac917f84403b8_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6251187e4050a6406b53a1bed64c6c67_720w.jpg?source=b6762063"
+        ],
+        "author": {
+          "url": "https://api.zhihu.com/people/37a671fce84ae6a3ef24e37df422233b",
+          "user_type": "people",
+          "is_org": false,
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "id": "37a671fce84ae6a3ef24e37df422233b",
+          "url_token": "joey-zhihu",
+          "name": "信得",
+          "headline": "生命是场体验，哪有浪费可言。",
+          "avatar_url": "https://picx.zhimg.com/50/v2-b8761188014ba8181bb9aed7d930b9fd_l.jpg?source=b6762063",
+          "followers_count": 109
+        },
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"eLXQy7hY\">Obsidian CEO kepano 最近在网上发布了自己专门给 Obsidian 写的几个 Skills，作为本地的笔记管理软件，结合能直接读取本地文件的 AI 工具，效果简直起飞。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e268a4aa610f76a3bcdc6ef5582929e4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1182\" data-rawheight=\"1336\" data-original-token=\"v2-ad67286089cc8004444f8f56c8105a6c\" class=\"origin_image zh-lightbox-thumb\" width=\"1182\" data-original=\"https://pic3.zhimg.com/v2-e268a4aa610f76a3bcdc6ef5582929e4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e34fe7d51f7a7806de4277efa4b3eac5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2922\" data-rawheight=\"1446\" data-original-token=\"v2-a27032e86be0b1d7c4d7dd92620fcf52\" class=\"origin_image zh-lightbox-thumb\" width=\"2922\" data-original=\"https://picx.zhimg.com/v2-e34fe7d51f7a7806de4277efa4b3eac5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PBccK4Oa\">才发布几天，GitHub 上 Star 数九已经破 4 k，本次他更新了 3 个有关于 Obsidian 的技能，分别是：</p><ul><li data-pid=\"p34zH77g\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/kepano/obsidian-skills/tree/main/skills/json-canvas\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">json-canvas</a>：生成 Canva 无限画布，你可以根据某个指定主题生成可视化的白板。</li><li data-pid=\"GwMf49OX\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/kepano/obsidian-skills/tree/main/skills/obsidian-bases\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">obsidian-bases</a>：生成.Base 文件的过滤器和公式，对不熟悉 Obsidian 数据库的人有福了。</li><li data-pid=\"-f2Gijrl\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/kepano/obsidian-skills/tree/main/skills/obsidian-markdown\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">obsidian-markdown</a>：写出 Obsidian 风格的 Markdown （内链、属性等），这样你就完全不用自己搞明白 Obsidian 的格式，可以完全专注于创作。</li></ul><p data-pid=\"F_LCCgsK\">我以白板为例，看看 CEO 亲自下场写的 Skills 效果如何，我让 Qwen Code 直接研究当前的 AI 新闻，并生成白板文件：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5d61ceba5f271568a51363b2bbec4c9a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2078\" data-rawheight=\"1148\" data-original-token=\"v2-9b5008abd276fb8404cac917f84403b8\" class=\"origin_image zh-lightbox-thumb\" width=\"2078\" data-original=\"https://pic3.zhimg.com/v2-5d61ceba5f271568a51363b2bbec4c9a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"32LbBSwy\">一番操作之后，看看最后的效果，看起来还是不错的 ：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-647575f9c80ffa8295b6505a2749fc15_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1368\" data-rawheight=\"806\" data-original-token=\"v2-6251187e4050a6406b53a1bed64c6c67\" class=\"origin_image zh-lightbox-thumb\" width=\"1368\" data-original=\"https://pic4.zhimg.com/v2-647575f9c80ffa8295b6505a2749fc15_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zX_J7rko\">直接根据读书笔记生成可视化的白板，对我这种需要视觉学习的人简直是刚需，也可以制作成每个概念单独的「卡片笔记」，AI 帮助实践「卡片笔记写作法」，当然你也可以去发现更多能你需要的 Skills。</p><p data-pid=\"7K_bWnst\">可能很多人会问，为什么要用 Qwen Code 而不是 Claude Code，主要原因有三：</p><ul><li data-pid=\"WVq9-Prc\">一是我觉得 Qwen Code <b>开源免费</b>，算是国内版 Claude Code 平替，CC 太贵。</li><li data-pid=\"CZusgKwC\">二是 Qwen Code 对<b>中文支持友好</b>，对话输入输出中文减少了很多认知负担。</li><li data-pid=\"r4ise4rV\">三是 Qwen 系列模型算是国内比较强的，<b>直接 <code>/auth</code> 认证</b>，我也懒得太折腾。</li></ul><p data-pid=\"lagKXwsa\">如果已经安装过 Qwen Code ，直接下载对应的 Skills 放在 <code>.qwen/skills</code> 文件夹下就 OK 了。</p><p data-pid=\"pIm-ja0Z\">  整个过程</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1993831916718269352\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"true\" data-name=\"\" data-poster=\"https://pic1.zhimg.com/v2-c2d8438b322bfffcc6872517bb277303.jpg?source=382ee89a\" data-lens-id=\"1993831916718269352\"><img class=\"thumbnail\" src=\"https://pic1.zhimg.com/v2-c2d8438b322bfffcc6872517bb277303.jpg?source=382ee89a\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1993831916718269352</span></span></a><h2>如何使用？</h2><ol><li data-pid=\"F-fAO2n_\">安装 Qwen Code：下载 Node 之后，打开终端输入命令：<code>npm install -g @qwen-code/qwen-code@latest</code></li><li data-pid=\"t9ZuZumT\">安装完成后启动：<code>qwen --experimental-skills</code></li><li data-pid=\"fx8D86XC\">然后就可以直接开始对话了，Qwen Code 会自动调用相关 Skills。</li></ol><p data-pid=\"uqHxpX3b\"><i>本内容完全由作者撰写，<b>无任何 AI 辅助创作</b>，内容仅代表创作者个人观点。</i></p>",
+        "updated_time": 1768146624,
+        "answer_type": "normal",
+        "url": "https://api.zhihu.com/answers/1993832134847259674",
+        "navigator_vote": false,
+        "created_time": 1768146624,
+        "comment_count": 4,
+        "preview_text": "",
+        "is_navigator": false,
+        "is_copyable": true,
+        "question": {
+          "excerpt": "",
+          "question_type": "normal",
+          "author": {
+            "avatar_url": "https://picx.zhimg.com/50/v2-930814bbcfa37c55bb617fe237a23a4a_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 17,
+            "is_following": false,
+            "is_followed": false,
+            "user_type": "people",
+            "url_token": "qian-nian-de-deng-dai",
+            "headline": "",
+            "gender": 1,
+            "id": "29b11e5344f23f95ebf342598a5f445d",
+            "url": "https://api.zhihu.com/people/29b11e5344f23f95ebf342598a5f445d",
+            "name": "千年的等待"
+          },
+          "created": 1592384448,
+          "answer_count": 0,
+          "comment_count": 4,
+          "is_following": false,
+          "detail": "",
+          "id": "401972085",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/401972085",
+          "bound_topic_ids": [
+            505,
+            5361,
+            92566,
+            604460,
+            586542
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "follower_count": 0,
+          "title": "如何使用Obsidian软件？"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-c2d8438b322bfffcc6872517bb277303_720w.jpg?source=b6762063"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1993832134847259674}",
+      "attached_info": "CuYHCJy3oubL4vOOgwEQBBoJNzY1MDA2MDQ0IMCNj8sGKF0wBEBTSjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoAWgg1MTYwNTcwMmIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJoqMfQjojy4NUbchMxOTkzODMyMTM0ODQ3MjU5Njc0igEJNDAxOTcyMDg1qgEJcmVjb21tZW5kwgEgMzdhNjcxZmNlODRhZTZhM2VmMjRlMzdkZjQyMjIzM2LyAQoIDBIGTm9ybWFs8gEoCAoSJGYyNDE4MWNmLTNhYjktNDM1My1hYjUxLTlhMjgwMTYxZGE4MvIBBggLEgIxNIICAIgC7ZiaxrwzkgIgMzdhNjcxZmNlODRhZTZhM2VmMjRlMzdkZjQyMjIzM2KaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxlygIcQmF5ZXNGaXJzdExldmVsSXNvbGF0aW9uUnVsZdoCJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1Yx6AID+gILTk9STUFMX0ZMT1eKAyA4ZWQzZWE0MjU4OWU0NzM5YWFmYzQ0OGM4ZTI3N2UxNZoDDQoCdjIQABoFb3RoZXKoA9w72AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6A9sBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQngkYuAoiI3YyLWFkNjcyODYwODljYzgwMDQ0NDRmOGY1NmM4MTA1YTZjOi0IAhDqFhimCyIjdjItYTI3MDMyZTg2YmUwYjFkN2M0ZDdkZDkyNjIwZmNmNTI6LQgCEJ4QGPwIIiN2Mi05YjUwMDhhYmQyNzZmYjg0MDRjYWM5MTdmODQ0MDNiODotCAIQ2AoYpgYiI3YyLTYyNTExODdlNDA1MGE2NDA2YjUzYTFiZWQ2NGM2YzY3gAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAAAg2xGMP4EFAAAAAAAAAACJBcorMti5irQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQ6QBgCgBlWoBgCSAi4KCTc2NTAwNjA0NBITMTk5MzgzMjEzNDg0NzI1OTY3NBgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=83&desktop=true&end_offset=85&page_number=15&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=83&desktop=true&end_offset=85&page_number=15&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

@@ -1,0 +1,523 @@
+{
+  "data": [
+    {
+      "id": "552_1755822854.923",
+      "type": "feed",
+      "offset": 552,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822854,
+      "updated_time": 1755822854,
+      "target": {
+        "id": "1940893439806899558",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1940893439806899558",
+        "author": {
+          "id": "c8ac743f4bd20763e024276f51ae361e",
+          "url": "https://api.zhihu.com/people/c8ac743f4bd20763e024276f51ae361e",
+          "user_type": "people",
+          "url_token": "qwer-1-22-32",
+          "name": "羊仔AI探索",
+          "headline": "央企程序员，AI探索者，分享AI工具、智能体、编程",
+          "avatar_url": "https://picx.zhimg.com/50/v2-73cfd722978b095f19a94dcc495e7b38_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "计算机技术与软件专业技术资格证持证人"
+            }
+          ],
+          "followers_count": 281,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "扣子Coze重磅开源！详细部署教程",
+        "comment_permission": "all",
+        "created": 1755525428,
+        "updated": 1755525428,
+        "voteup_count": 1,
+        "voting": 0,
+        "comment_count": 1,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "大家好，我是羊仔，专注AI工具、智能体、编程。 早上醒来刷手机，差点被一条消息给震醒：字节跳动的Coze竟然开源了！而且还是Apache 2.0协议，直接可商用！   1、一觉醒来，Coze开源 说起来，羊仔折腾AI工具也有一年多了。从最开始玩ChatGPT，到后来折腾各种开源大模型，再到研究Dify、n8n这些工作流平台，基本上市面上的热门工具都玩过一遍。 但Coze开源这件事，真的让羊仔有点意外，要知道，Coze的企业版HiAgent可是百万级别的…",
+        "excerpt_new": "大家好，我是羊仔，专注AI工具、智能体、编程。 早上醒来刷手机，差点被一条消息给震醒：字节跳动的Coze竟然开源了！而且还是Apache 2.0协议，直接可商用！   1、一觉醒来，Coze开源 说起来，羊仔折腾AI工具也有一年多了。从最开始玩ChatGPT，到后来折腾各种开源大模型，再到研究Dify、n8n这些工作流平台，基本上市面上的热门工具都玩过一遍。 但Coze开源这件事，真的让羊仔有点意外，要知道，Coze的企业版HiAgent可是百万级别的…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"7gCjh8TJ\">大家好，我是羊仔，专注AI工具、智能体、编程。</p><p data-pid=\"78WrrEGl\">早上醒来刷手机，差点被一条消息给震醒：字节跳动的Coze竟然开源了！而且还是Apache 2.0协议，直接可商用！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-25f7fe18f90b67c4d41097b7a646022c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"410\" data-original-token=\"v2-d9cfff81b2e5c1644715cdbf67cee293\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-25f7fe18f90b67c4d41097b7a646022c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><br/>1、<b>一觉醒来，Coze开源</b><br/><br/></h2><p data-pid=\"woiMXWjR\">说起来，羊仔折腾AI工具也有一年多了。从最开始玩ChatGPT，到后来折腾各种开源大模型，再到研究Dify、n8n这些工作流平台，基本上市面上的热门工具都玩过一遍。</p><p data-pid=\"uTpxYZ4O\">但Coze开源这件事，真的让羊仔有点意外，要知道，Coze的企业版HiAgent可是百万级别的产品，字节这次直接把核心功能开源出来，这背后的战略意图太明显了——就是要在AI Agent平台这个赛道上抢占制高点。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-64f1a8621dd188f9322c65ebedc8f1cc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"589\" data-original-token=\"v2-24c737d8090f4f84a81382d788c75a55\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-64f1a8621dd188f9322c65ebedc8f1cc_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1AvDgBMF\">想想也是，现在Dify这些开源平台发展得如火如荼，但商业授权一直是个痛点。字节这一招真的是绝了，直接Apache 2.0协议，告诉大家：来吧，随便用，随便改，随便商用！</p><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>2、Coze究竟开源了个啥？</b></h2><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uXwOgBQp\">在咱们动手之前，得先搞明白，字节这次到底给了我们什么东西。</p><p data-pid=\"4mU5xekg\">这次开源的核心是两个项目：</p><ol><li data-pid=\"2pqo8Xtk\"><b>Coze Studio</b>：这是一个一站式的AI Agent（智能体）开发工具。你可以把它想象成一个超级乐高工坊，里面有各种各样的零件（比如Prompt编排、知识库、插件、工作流），你可以通过拖拉拽的方式，轻松搭建出你想要的任何AI机器人。</li><li data-pid=\"UyS9gCJh\"><b>Coze Loop</b>：这个更偏向开发者，是一个专注于AI Agent开发和运维的平台。如果说Coze Studio是造机器人的工厂，那Coze Loop就是这个工厂的“中控室”和“维修部”，负责监控机器人的运行状态，确保它们7x24小时稳定工作。</li></ol><p data-pid=\"htstZjjl\">简单来说，字节几乎是把Coze平台最核心的功能都开放出来了。</p><p data-pid=\"YLR-IPXc\">虽然和功能齐全的线上版比，它更像一个“毛坯房”，比如官方自带的插件少了一些，大家很喜欢的画图功能也暂时没开源，但最重要的核心——<b>工作流设计功能</b>，被原封不动地保留了下来。</p><p data-pid=\"EONi1p4c\">这才是它的灵魂！有了它，我们就能设计出各种复杂、强大的自动化流程，让AI帮我们完成各种任务。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>3、说干就干，直接部署</b></h2><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"L2jED6VH\">看到这个消息，羊仔的第一反应就是：赶紧试试！于是羊仔二话不说，打开电脑就开始折腾。</p><p data-pid=\"7tRNxhWj\">这里给大家分享一下具体的部署过程，真的比想象中简单多了。</p><h2><b>第一步：获取源码</b></h2><p data-pid=\"9jMp1Wev\">首先当然是从GitHub拉取代码：</p><div class=\"highlight\"><pre><code class=\"language-text\">git clone https://github.com/coze-dev/coze-studio.git</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PErosRha\">羊仔这里遇到了一个小插曲，因为GitHub的访问速度时好时坏，下载了好几次都失败了，最后还是用镜像下载才行。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-1b99edf9faebf05fa2b5a6b990e27cf4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"706\" data-rawheight=\"159\" data-original-token=\"v2-990775238db0a12f1e6b37b5d9114492\" class=\"origin_image zh-lightbox-thumb\" width=\"706\" data-original=\"https://pica.zhimg.com/v2-1b99edf9faebf05fa2b5a6b990e27cf4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>第二步：配置大模型</b></h2><p data-pid=\"KmxLj4Ew\">这一步是关键。开源版的Coze本身不带模型，需要我们自己配置一个&#34;大脑&#34;，Coze很贴心的提供了很多模板，在 backend\\conf\\model\\template 目录下。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7c0171c8b3ca4500e413a8b7458359b0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"868\" data-original-token=\"v2-1b6c46198623441e82b857ab76c851dc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-7c0171c8b3ca4500e413a8b7458359b0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MGbkowAq\">羊仔选择了豆包模型，主要是因为便宜好用，而且是字节自家的，兼容性应该不错。</p><p data-pid=\"wbKcW6HR\">配置过程其实很简单，先复制一个模板文件到 backend/conf/model 目录。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8ee41b617ca85cde725c52f7eee2db33_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"667\" data-rawheight=\"115\" data-original-token=\"v2-9bf7458192064c82e8d93d0418360bae\" class=\"origin_image zh-lightbox-thumb\" width=\"667\" data-original=\"https://picx.zhimg.com/v2-8ee41b617ca85cde725c52f7eee2db33_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-glHSta8\">然后填入三个关键参数：</p><ul><ul><li data-pid=\"_my8Betd\">id：随便填一个整数就行</li><li data-pid=\"CzWbU00k\">api_key：从火山方舟获取</li><li data-pid=\"Ak4RpNJz\">model的endpoint：也是从火山方舟获取</li></ul></ul><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-eef4089b4f3f7598e2d0cebac7d0b737_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"309\" data-original-token=\"v2-8761548d7780a6b16c0c64d68d7043bc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-eef4089b4f3f7598e2d0cebac7d0b737_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"YwcyR4-G\">这里羊仔要吐槽一下，火山方舟的界面有点复杂，找API Key和创建推理接入点的流程不太直观。</p><p data-pid=\"bmDp2caL\">不过好在官方文档比较完善，按照官方文档一步步来，还是能搞定的，官方文档地址如下。</p><p data-pid=\"b47x50Ri\"><b>api key文档：</b></p><p data-pid=\"6CXPOWEk\"><u><a href=\"https://link.zhihu.com/?target=https%3A//www.volcengine.com/docs/82379/1541594\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">volcengine.com/docs/823</span><span class=\"invisible\">79/1541594</span><span class=\"ellipsis\"></span></a></u></p><p data-pid=\"aZxM3eMc\"><b>推理接入点文档：</b></p><p data-pid=\"Unrn17O3\"><u><a href=\"https://link.zhihu.com/?target=https%3A//www.volcengine.com/docs/82379/1099522\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">volcengine.com/docs/823</span><span class=\"invisible\">79/1099522</span><span class=\"ellipsis\"></span></a></u></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1gB5YL01\">先打开api key文档，点击【API Key管理】。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-54fd01297c8e87281a0d62b009255cdf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"762\" data-rawheight=\"312\" data-original-token=\"v2-67911138c5ead50e3e5faca08425d654\" class=\"origin_image zh-lightbox-thumb\" width=\"762\" data-original=\"https://picx.zhimg.com/v2-54fd01297c8e87281a0d62b009255cdf_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AzmGaYlr\">按照文档的步骤创建API Key。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-bd920a0518642845d9c44c5b7d1be316_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"232\" data-original-token=\"v2-b99bdcd5d1930236f4f600810821a372\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-bd920a0518642845d9c44c5b7d1be316_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uyzWSuN9\">推理接入点也是按照官方文档操作。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f56ef287e54a788d449d8032b8493a22_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"553\" data-rawheight=\"244\" data-original-token=\"v2-c49ce8f11842bbf1755cf42a3b5a8d70\" class=\"origin_image zh-lightbox-thumb\" width=\"553\" data-original=\"https://pic3.zhimg.com/v2-f56ef287e54a788d449d8032b8493a22_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0mEXEOgz\">找到自定义推理接入点，点击【创建推理接入点】：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b1fdc9a5cb2eb189762d4e7d6d8d2966_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"395\" data-original-token=\"v2-6f46579a24edd27e3cc7088024ee76bc\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-b1fdc9a5cb2eb189762d4e7d6d8d2966_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zStjmIUW\">输入名称，选择模型，这里选的豆包1.6模型，然后点击【开通模型并接入】：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8794b99c1f277cbca6497da9bd82d4b5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"538\" data-original-token=\"v2-f2ebdfaa1670cc53e54efef7ba4c5497\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-8794b99c1f277cbca6497da9bd82d4b5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"J_8y33gW\">开通后就能看到Endpoint ID了，点旁边的复制按钮即可。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-aa6270a10833cfee680fada2994ceb39_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1069\" data-rawheight=\"427\" data-original-token=\"v2-2327a6d2ac8ba6420f70634d87262706\" class=\"origin_image zh-lightbox-thumb\" width=\"1069\" data-original=\"https://pic2.zhimg.com/v2-aa6270a10833cfee680fada2994ceb39_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>第三步：Docker部署</b></h2><p data-pid=\"mhNp5wQw\">这一步就很爽了，直接用Docker一键部署：</p><div class=\"highlight\"><pre><code class=\"language-text\">cd docker\ncp .env.example .env\ndocker compose --profile &#39;*&#39; up -d</code></pre></div><p data-pid=\"IXGvqX8J\">第一次部署需要等一会儿，要下载各种镜像，可能还会报这个错。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-463c87e8fd8905f691576db5f497c0a7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"469\" data-original-token=\"v2-028390cd5f498a718038e8be36eb6193\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic4.zhimg.com/v2-463c87e8fd8905f691576db5f497c0a7_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tqilDbSy\">是因为</p><p data-pid=\"Gp8DOrkn\">docker\\volumes\\elasticsearch\\setup_es.sh<br/></p><p data-pid=\"UWX44xft\">文件的换行符格式默认是“CRLF”，要改成Linux的“LF”格式。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-730b66494c7b1ace83744b474f3cf857_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"502\" data-original-token=\"v2-a4fedcba319432d4f2ceb953b9458b74\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-730b66494c7b1ace83744b474f3cf857_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Q3BINxy-\">然后重新运行，就OK了。<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-88c55fb24a692c62ffcb6013feaa0801_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"210\" data-original-token=\"v2-8006ee4a3a07ffb8b5f1f32f4d485a62\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-88c55fb24a692c62ffcb6013feaa0801_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>4、初体验：惊喜与遗憾并存</b></h2><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"wsmPzCS5\">当羊仔在浏览器输入<code>http://localhost:8888</code>，看到熟悉又陌生的Coze界面时，心情还是挺复杂的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-622c102f1c92086da04f4dc9d721a370_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"577\" data-original-token=\"v2-126da6cea66c2809b52cff38f1f4d922\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-622c102f1c92086da04f4dc9d721a370_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lS8otuhQ\">说熟悉，是因为界面风格和在线版基本一致；说陌生，是因为功能确实被阉割了不少。插件只有18个，图像生成和画板功能都没有，确实有种&#34;乞丐版&#34;的感觉。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-21aae675e91943aa7222e2ad68afeebb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"511\" data-original-token=\"v2-bf256885f0d8b4355f4ab0cf2e75de25\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-21aae675e91943aa7222e2ad68afeebb_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AuJJTl9k\">但是！核心的工作流、知识库功能是完整的。羊仔试着搭建了一个简单的客服机器人，从对话处理到知识库检索，再到条件判断，整个流程跑得非常顺畅。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9b3c62e0b27dc8bb311462d71c200fa4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"583\" data-original-token=\"v2-e93835df6c1558c5a89314fa25c6f8e8\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic3.zhimg.com/v2-9b3c62e0b27dc8bb311462d71c200fa4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>5、技术架构让人眼前一亮</b></h2><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kVprD2LM\">作为一名程序员，羊仔忍不住深入研究了一下Coze Studio的代码结构，不得不说，字节的技术功底真的很扎实。</p><p data-pid=\"iO3cTBUx\">整个项目采用了经典的DDD（领域驱动设计）架构：</p><div class=\"highlight\"><pre><code class=\"language-text\">backend/\n├── domain/        # 灵魂：领域层，业务逻辑的核心\n│   ├── agent/     # 智能体\n│   ├── workflow/  # 工作流\n│   ├── knowledge/ # 知识库\n│   └── ...\n├── application/   # 应用层，协调领域对象完成业务流程\n├── infra/         # 基础设施层，与外部依赖（DB, Cache等）解耦\n└── api/           # 接口层，暴露HTTP API</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2oQq8Rbv\">这种设计的好处是职责清晰，便于维护和扩展，而且大量使用了字节自家的CloudWeGo微服务框架，说明这不是临时拼凑的项目，而是经过生产验证的成熟方案。</p><p class=\"ztext-empty-paragraph\"><br/></p><h2><b>6、这颗子弹，还会再飞一会儿</b></h2><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3ZfXcbkP\">从Dify、n8n到现在的Coze Studio，开源的AI Agent平台选择越来越多，说明这个赛道已经进入了白热化的竞争阶段。</p><p data-pid=\"856PBlMT\">虽然Coze Studio的开源版目前看还只是第一步，功能上和它那成熟的“商业大哥”相比还有差距。</p><p data-pid=\"JAnYEysW\">但这毕竟是字节啊，考虑到它强大的生态和恐怖的迭代速度，我们完全有理由相信，这颗子弹还会再飞一会儿。</p><p data-pid=\"_llcmxP2\">如果你也对AI智能体感兴趣，赶紧动手去试试吧。</p><p data-pid=\"gNb2Cx5M\">共勉！</p><p data-pid=\"2Zi3a0UP\">欢迎<b>关注</b>羊仔，一起探索AI，成为超级个体！</p><p data-pid=\"fKe-mHEK\">如果你喜欢这篇文章，不妨<b>点赞，收藏，转发</b>。</p><p data-pid=\"lS6ayYln\">你的每一次互动，对羊仔来说都是莫大的鼓励。</p>",
+        "is_labeled": false,
+        "visited_count": 81,
+        "thumbnails": [
+          "https://pica.zhimg.com/50/v2-1b6c46198623441e82b857ab76c851dc_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 5,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1940893439806899558}",
+      "attached_info": "CosMCM6Xtsvt6s28lwEQBxoJMjYxOTAwMTc1ILTijMUGKAEwAUCoBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MDg5MzQzOTgwNjg5OTU1OKoBCXJlY29tbWVuZMIBIGM4YWM3NDNmNGJkMjA3NjNlMDI0Mjc2ZjUxYWUzNjFl8gEKCAwSBk5vcm1hbPIBKAgKEiQ1ZjU3YzM0Yy04YjYyLTRiNzItYjBjYi05Yjg4Yzc5MGUzMDDyAQYICxICOTOCAgCIAq2gyvmMM5ICIGM4YWM3NDNmNGJkMjA3NjNlMDI0Mjc2ZjUxYWUzNjFlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCAvoCC05PUk1BTF9GTE9XigMgZTdhM2YzN2YwMzRhNDUxYmJkZTZiZjc2ZTRkODIxMTGaAw0KAnYyEAAaBW90aGVyqANR2AMA6gMVdGV4dEZlZWRUd29Ub3dlclYxQWxs+gPsBhIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDELgIGJoDIiN2Mi1kOWNmZmY4MWIyZTVjMTY0NDcxNWNkYmY2N2NlZTI5MzotCAIQuAgYzQQiI3YyLTI0YzczN2Q4MDkwZjRmODRhODEzODJkNzg4Yzc1YTU1Oi0IAhDCBRifASIjdjItOTkwNzc1MjM4ZGIwYTEyZjFlNmIzN2I1ZDkxMTQ0OTI6LQgCELgIGOQGIiN2Mi0xYjZjNDYxOTg2MjM0NDFlODJiODU3YWI3NmM4NTFkYzosCAIQmwUYcyIjdjItOWJmNzQ1ODE5MjA2NGM4MmU4ZDkzZDA0MTgzNjBiYWU6LQgCELgIGLUCIiN2Mi04NzYxNTQ4ZDc3ODBhNmIxNmMwYzY0ZDY4ZDcwNDNiYzotCAIQ+gUYuAIiI3YyLTY3OTExMTM4YzVlYWQ1MGUzZTVmYWNhMDg0MjVkNjU0Oi0IAhC4CBjoASIjdjItYjk5YmRjZDVkMTkzMDIzNmY0ZjYwMDgxMDgyMWEzNzI6LQgCEKkEGPQBIiN2Mi1jNDljZThmMTE4NDJiYmYxNzU1Y2Y0MmEzYjVhOGQ3MDotCAIQuAgYiwMiI3YyLTZmNDY1NzlhMjRlZGQyN2UzY2M3MDg4MDI0ZWU3NmJjOi0IAhC4CBiaBCIjdjItZjJlYmRmYWExNjcwY2M1M2U1NGVmZWY3YmE0YzU0OTc6LQgCEK0IGKsDIiN2Mi0yMzI3YTZkMmFjOGJhNjQyMGY3MDYzNGQ4NzI2MjcwNjotCAIQuAgY1QMiI3YyLTAyODM5MGNkNWY0OThhNzE4MDM4ZThiZTM2ZWI2MTkzOi0IAhC4CBj2AyIjdjItYTRmZWRjYmEzMTk0MzJkNGYyY2ViOTUzYjk0NThiNzQ6LQgCELgIGNIBIiN2Mi04MDA2ZWU0YTNhMDdmZmI4YjVmMWYzMmY0ZDQ4NWE2MjotCAMQuAgYwQQiI3YyLTEyNmRhNmNlYTY2YzI4MDliNTJjZmYzOGYxZjRkOTIyOi0IAxC4CBj/AyIjdjItYmYyNTY4ODVmMGQ4YjQzNTVmNGFiMGNmMmU3NWRlMjU6LQgCELgIGMcEIiN2Mi1lOTM4MzVkZjZjMTU1OGM1YTg5MzE0ZmEyNWM2ZjhlOIAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAZtYW51YWzCBAMxNTnIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAGDzCpU/gQUAAAAAAAAAAIkFjtHjmk9U2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFXZAGAKAGrgSoBgGSAi4KCTI2MTkwMDE3NRITMTk0MDg5MzQzOTgwNjg5OTU1OBgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "553_1755822854.515",
+      "type": "feed",
+      "offset": 553,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822854,
+      "updated_time": 1755822854,
+      "target": {
+        "id": "55659095279",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/55659095279",
+        "author": {
+          "id": "a3baeb4874ffe699e18562b375b0ad42",
+          "url": "https://api.zhihu.com/people/a3baeb4874ffe699e18562b375b0ad42",
+          "user_type": "people",
+          "url_token": "70-21-89-13",
+          "name": "文一史二",
+          "headline": "文学历史 古今中外 读书新知",
+          "avatar_url": "https://picx.zhimg.com/50/v2-875c7a08d0a701ce229ff948ef06ce3a_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "教师资格证持证人"
+            }
+          ],
+          "followers_count": 3376,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1734224705,
+        "updated_time": 1734224705,
+        "voteup_count": 78,
+        "thanks_count": 2,
+        "comment_count": 5,
+        "is_copyable": true,
+        "question": {
+          "id": "485142113",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/485142113",
+          "author": {
+            "id": "b41b22cc72d0774f2aa5f6d5bccac14b",
+            "url": "https://api.zhihu.com/people/b41b22cc72d0774f2aa5f6d5bccac14b",
+            "user_type": "people",
+            "url_token": "hun-zai-sheng-ting-de-xian-yu",
+            "name": "知乎用户P7Q30F",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 22895,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "有哪本书，你恨不得把它全部内容都背诵下来？",
+          "created": 1630934377,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 18,
+          "bound_topic_ids": [
+            53,
+            113,
+            1537,
+            1746,
+            7129
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-dc425bdb807add141ac65dbe068b6039_720w.jpg?source=b6762063",
+        "excerpt": "我非常认同清初金圣叹开出的那份著名的书单。 金圣叹认为古往今来中国历史上最好的书按排名的先后顺序，分别是以下六本： 第一才子书 庄子 第二才子书 离骚 第三才子书 史记 第四才子书 杜诗 第五才子书 水浒 第六才子书 西厢     所以可以公布我对题主这个问题的答案了，我恨不得能把它全部背下来的书，就是这本第一才子书老庄的《庄子》。 ‌庄子的文章要文采有文采，要想象有想象，要故事有故事，要思想有思想。风格以气势宏伟、…",
+        "excerpt_new": "我非常认同清初金圣叹开出的那份著名的书单。 金圣叹认为古往今来中国历史上最好的书按排名的先后顺序，分别是以下六本： 第一才子书 庄子 第二才子书 离骚 第三才子书 史记 第四才子书 杜诗 第五才子书 水浒 第六才子书 西厢     所以可以公布我对题主这个问题的答案了，我恨不得能把它全部背下来的书，就是这本第一才子书老庄的《庄子》。 ‌庄子的文章要文采有文采，要想象有想象，要故事有故事，要思想有思想。风格以气势宏伟、…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"yZGRr5kW\">我非常认同清初金圣叹开出的那份著名的书单。</p><p data-pid=\"4RZdQrkc\">金圣叹认为古往今来中国历史上最好的书按排名的先后顺序，分别是以下六本：</p><p data-pid=\"K3TK8URB\">第一才子书  庄子</p><p data-pid=\"XkV39Q-f\">第二才子书  离骚</p><p data-pid=\"qdeSvMtF\">第三才子书  史记</p><p data-pid=\"9M-80bTx\">第四才子书  杜诗</p><p data-pid=\"2aBeT2x8\">第五才子书  水浒</p><p data-pid=\"cWqbQGP3\">第六才子书  西厢</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b7d3cd7be5ec26efe2c93e0d1efe947e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"889\" data-rawheight=\"500\" data-original-token=\"v2-18aabf76ddeeaf249b75c602704cd517\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-06835c0e1db007d002bd1f296a08a6d5_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"889\" data-original=\"https://pic1.zhimg.com/v2-b7d3cd7be5ec26efe2c93e0d1efe947e_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3369790bc1bb85511ad2f7c46de06472_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1600\" data-rawheight=\"1600\" data-original-token=\"v2-85f9297bebb20143bbb6370e02a9c402\" data-default-watermark-src=\"https://picx.zhimg.com/v2-37bfeece50fcfbd6dc5bf204e259473f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1600\" data-original=\"https://pica.zhimg.com/v2-3369790bc1bb85511ad2f7c46de06472_r.jpg\"/></figure><p data-pid=\"z60Z1qhv\">所以可以公布我对题主这个问题的答案了，我恨不得能把它全部背下来的书，就是这本第一才子书老庄的《庄子》。</p><p data-pid=\"xdHN7QOa\">‌庄子的文章要文采有文采，要想象有想象，要故事有故事，要思想有思想。风格以气势宏伟、景象壮阔、汪洋恣肆、雄奇怪诞著称，同时具有辛辣幽默、嬉笑怒骂的特点。‌他的散文善于运用比喻，生动活泼，常常通过虚构的故事来反映主题思想。</p><p data-pid=\"HtDqvvJK\">庄子散文在先秦诸子散文中具有独特的风格，吸收了神话创作的精神，大量采用并虚构寓言故事，想象奇幻，富有浪漫主义色彩。‌</p><p data-pid=\"kJdRO-JN\">庄子的文章在哲学上强调“得意忘言”，主张通过寓言和比喻来表达深刻的哲学思想。他的文章常常表现出对工具理性的批判，强调事物的相对性和变化性，具有深刻的辩证思考和形而上的智慧。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6b954b7e8974cbe14fec19e10dfa898a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4284\" data-rawheight=\"5712\" data-original-token=\"v2-f3adeecb68e104228d8fa220cb4cbbe6\" data-default-watermark-src=\"https://picx.zhimg.com/v2-924dd0c954f57992705cc34a6c89bedf_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"4284\" data-original=\"https://pic1.zhimg.com/v2-6b954b7e8974cbe14fec19e10dfa898a_r.jpg\"/></figure><p data-pid=\"LNwsuRjB\">前几年，买了一本上海古籍出版社出版的杨柳桥的《庄子译诂》，有空的时候会时常拿出来翻一翻，也曾动过念头，把《庄子》里的文章，挑几篇自己喜欢的争取把它背下来。</p><p data-pid=\"njbOtvyn\">可惜现在年纪大了，记忆力大不如前，年轻的时候对自己的记忆力还颇为自信，不服老可真不行。不但记忆力下降得厉害，视力也逐年肉眼可见地每况愈下，大概也到了老眼昏花的地步了。</p><p data-pid=\"XsbS0PD0\">最后，贴一篇《庄子·秋水篇》凑个字数吧。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-316f3e663956b472a4bcbe78a1dffc59_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"889\" data-rawheight=\"500\" data-original-token=\"v2-2018e19478eb0f2bcdd3df8af730e6e2\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-bb59d9d8b8128bc8603f41f83f6dea4d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"889\" data-original=\"https://picx.zhimg.com/v2-316f3e663956b472a4bcbe78a1dffc59_r.jpg\"/></figure><p data-pid=\"4m6BkkMl\">秋水时至，百川灌河；泾流之大，两涘渚崖之间，不辩牛马。于是焉河伯欣然自喜，以天下之美为尽在己。顺流而东行，至于北海，东面而视，不见水端。于是焉河伯始旋其面目，望洋向若而叹曰：“野语有之曰：‘闻道百，以为莫己若者。’我之谓也。且夫我尝闻少仲尼之闻，而轻伯夷之义者，始吾弗信，今我睹子之难穷也，吾非至于子之门则殆矣。吾长见笑于大方之家。”</p><p data-pid=\"ho19qTkH\">北海若曰：“井鼃不可以语于海者，拘于虚也；夏虫不可以语于冰者，笃于时也；曲士不可以语于道者，束于教也。今尔出于崖涘，观于大海，乃知尔丑，尔将可与语大理矣。天下之水，莫大于海。万川归之，不知何时止而不盈；尾闾泄之，不知何时已而不虚；春秋不变，水旱不知。此其过江河之流，不可为量数。而吾未尝以此自多者，自以比形于天地，而受气于阴阳，吾在天地之间，犹小石小木之在大山也。方存乎见少，又奚以自多！计四海之在天地之间也，不似礨(lěi)空之在大泽乎？计中国之在海内，不似稊米之在大仓乎？号物之数谓之万，人处一焉；人卒九州，谷食之所生，舟车之所通，人处一焉。此其比万物也，不似豪末之在于马体乎？五帝之所连，三王之所争，仁人之所忧，任士之所劳，尽此矣！伯夷辞之以为名，仲尼语之以为博。此其自多也，不似尔向之自多于水乎？”</p><p data-pid=\"k_0OKSep\">河伯曰：“然则吾大天地而小豪末，可乎？”</p><p data-pid=\"zSvu5tME\">北海若曰“否。夫物，量无穷，时无止，分无常，终始无故。是故大知观于远近，故小而不寡，大而不多：知量无穷。证向今故，故遥而不闷，掇而不跂：知时无止。察乎盈虚，故得而不喜，失而不忧：知分之无常也。明乎坦涂，故生而不说，死而不祸：知终始之不可故也。计人之所知，不若其所不知；其生之时，不若未生之时；以其至小，求穷其至大之域，是故迷乱而不能自得也。由此观之，又何以知毫末之足以定至细之倪，又何以知天地之足以穷至大之域！”</p><p data-pid=\"6rg7D-RC\">河伯曰：“世之议者皆曰：‘至精无形，至大不可围。’是信情乎？”</p><p data-pid=\"etux5CRT\">北海若曰：“夫自细视大者不尽，自大视细者不明。夫精，小之微也；垺，大之殷也：故异便。此势之有也。夫精粗者，期于有形者也；无形者，数之所不能分也；不可围者，数之所不能穷也。可以言论者，物之粗也；可以意致者，物之精也；言之所不能论，意之所不能察致者，不期精粗焉。是故大人之行：不出乎害人，不多仁恩；动不为利，不贱门隶；货财弗争，不多辞让；事焉不借人，不多食乎力，不贱贪污；行殊乎俗，不多辟异；为在从众，不贱佞谄；世之爵禄不足以为劝，戮耻不足以为辱；知是非之不可为分，细大之不可为倪。闻曰：‘道人不闻，至德不得，大人无己。’约分之至也。”</p><p data-pid=\"gMqGOt7B\">河伯曰：“若物之外，若物之内，恶至而倪贵贱？恶至而倪小大？”</p><p data-pid=\"NvuF-X3i\">北海若曰：“以道观之，物无贵贱；以物观之，自贵而相贱；以俗观之，贵贱不在己。以差观之，因其所大而大之，则万物莫不大；因其所小而小之，则万物莫不小。知天地之为稊米也，知毫末之为丘山也，则差数睹矣。以功观之，因其所有而有之，则万物莫不有；因其所无而无之，则万物莫不无。知东西之相反而不可以相无，则功分定矣。以趣观之，因其所然而然之，则万物莫不然；因其所非而非之，则万物莫不非。知尧、桀之自然而相非，则趣操睹矣。昔者尧、舜让而帝，之、哙让而绝；汤、武争而王，白公争而灭。由此观之，争让之礼，尧、桀之行，贵贱有时，未可以为常也。梁丽可以冲城而不可以窒穴，言殊器也；骐骥骅骝一日而驰千里，捕鼠不如狸狌，言殊技也；鸱鸺夜撮蚤，察毫末，昼出瞋目而不见丘山，言殊性也。故曰：盖师是而无非，师治而无乱乎？是未明天地之理，万物之情者也。是犹师天而无地，师阴而无阳，其不可行明矣！然且语而不舍，非愚则诬也！帝王殊禅，三代殊继。差其时，逆其俗者，谓之篡夫；当其时，顺其俗者，谓之义之徒。默默乎河伯，女恶知贵贱之门，小大之家！”</p><p data-pid=\"3lPUyi-F\">河伯曰：“然则我何为乎？何不为乎？吾辞受趣舍，吾终奈何？”</p><p data-pid=\"DNEhMhkA\">北海若曰：“以道观之，何贵何贱，是谓反衍；无拘而志，与道大蹇。何少何多，是谓谢施；无一而行，与道参差。严乎若国之有君，其无私德；繇繇乎若祭之有社，其无私福；泛泛乎其若四方之无穷，其无所畛域。兼怀万物，其孰承翼？是谓无方。万物一齐，孰短孰长？道无终始，物有死生，不恃其成。一虚一满，不位乎其形。年不可举，时不可止。消息盈虚，终则有始。是所以语大义之方，论万物之理也。物之生也，若骤若驰。无动而不变，无时而不移。何为乎，何不为乎？夫固将自化。”</p><p data-pid=\"qdN5TI5m\">河伯曰：“然则何贵于道邪？ ”</p><p data-pid=\"3kdwmgsE\">北海若曰：“知道者必达于理，达于理者必明于权，明于权者不以物害己。至德者，火弗能热，水弗能溺，寒暑弗能害，禽兽弗能贼。非谓其薄也，言察乎安危，宁于祸福，谨于去就，莫之能害也。故曰：‘天在内，人在外，德在乎天。’知天人之行，本乎天，位乎得，踯躅而屈伸，反要而语极。”曰：“何谓天？何谓人？”北海若曰：“牛马四足，是谓天；落马首，穿牛鼻，是谓人。故曰：‘无以人灭天，无以故灭命，无以得殉名。谨守而勿失，是谓反其真。’”</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 12100,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-dc425bdb807add141ac65dbe068b6039_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-71b93ff9d609a2540b72be764340a8fd_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 234,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 55659095279}",
+      "attached_info": "CroHCM6Xtsvt6s28lwEQBBoJNzA0MjQ3ODI0IMHW+LoGKE4wBUCpBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9Wgg3MDA5MTI2MGIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyCzU1NjU5MDk1Mjc5igEJNDg1MTQyMTEzqgEJcmVjb21tZW5kwgEgYTNiYWViNDg3NGZmZTY5OWUxODU2MmIzNzViMGFkNDLyAQoIDBIGTm9ybWFs8gEoCAoSJDUzMWQ5N2JlLTA3Y2QtNDE2Yy04ZTQ0LWE0YjEyNmFlMjk3ZvIBBggLEgI5M4ICAIgCraDK+YwzkgIgYTNiYWViNDg3NGZmZTY5OWUxODU2MmIzNzViMGFkNDKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIUQ29udGVudEFnZVdlaWdodFJ1bGXKAhdUZXN0ZWRBbmRXb3JrV2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCA/oCC05PUk1BTF9GTE9XigMgZTdhM2YzN2YwMzRhNDUxYmJkZTZiZjc2ZTRkODIxMTGaAw0KAnYyEAAaBW90aGVyqAPEXtgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoD2wESDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxD5Bhj0AyIjdjItMThhYWJmNzZkZGVlYWYyNDliNzVjNjAyNzA0Y2Q1MTc6LQgEEMAMGMAMIiN2Mi04NWY5Mjk3YmViYjIwMTQzYmJiNjM3MGUwMmE5YzQwMjotCAMQvCEY0CwiI3YyLWYzYWRlZWNiNjhlMTA0MjI4ZDhmYTIyMGNiNGNiYmU2Oi0IAhD5Bhj0AyIjdjItMjAxOGUxOTQ3OGViMGYyYmNkZDNkZjhhZjczMGU2ZTKABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgEEG4P4EFAAAAAAAAAACJBY7R45pPVNk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBV2QBgCgBq8EqAYDkgImCgk3MDQyNDc4MjQSCzU1NjU5MDk1Mjc5GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "554_1755822854.0",
+      "type": "feed",
+      "offset": 554,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822854,
+      "updated_time": 1755822854,
+      "target": {
+        "id": "1937651391951774476",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1937651391951774476",
+        "author": {
+          "id": "6c70fc5ed2223fb276451a48c84ceb5d",
+          "url": "https://api.zhihu.com/people/6c70fc5ed2223fb276451a48c84ceb5d",
+          "user_type": "people",
+          "url_token": "jiu-feng-27-58",
+          "name": "白玉",
+          "headline": "",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-707f44f4466076f4950bb719be471c2e_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 1991,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754752091,
+        "updated_time": 1754752091,
+        "voteup_count": 65,
+        "thanks_count": 6,
+        "comment_count": 4,
+        "is_copyable": false,
+        "question": {
+          "id": "371660521",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/371660521",
+          "author": {
+            "id": "dcda06a5a5b5be6b4131afa4d6dd5322",
+            "url": "https://api.zhihu.com/people/dcda06a5a5b5be6b4131afa4d6dd5322",
+            "user_type": "people",
+            "url_token": "wen-cang-mang-da-di-shui-zhu-chen-fu-82",
+            "name": "灵魂流浪者",
+            "headline": "横扫千军如卷席，专治不服",
+            "avatar_url": "https://pica.zhimg.com/50/v2-174e0d5e00800cce3bab3f95fdf96d04_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 3032,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "李世民的军事能力有多变态？",
+          "created": 1581589449,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 12,
+          "bound_topic_ids": [
+            54305
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "孙子兵法所言，真正的军事高手懂得造势，所谓的造势——就是将一块石头搬到高山上，随后只要把石头滚下去，就能创造出惊人的破坏力。 换算成教员的话语就是，我们要积极创造自己的有利条件，积极破坏敌人的有利条件，当量变达到临界点的时候，把握住机会，创造质变。 而李世民极其离谱的一点就在于他，早在18岁的时候就充分的领悟到了这件军事的本质，知行合一，一以贯之。 那么如何才能军事上面如何创造出对自己有优势的条件呢…",
+        "excerpt_new": "孙子兵法所言，真正的军事高手懂得造势，所谓的造势——就是将一块石头搬到高山上，随后只要把石头滚下去，就能创造出惊人的破坏力。 换算成教员的话语就是，我们要积极创造自己的有利条件，积极破坏敌人的有利条件，当量变达到临界点的时候，把握住机会，创造质变。 而李世民极其离谱的一点就在于他，早在18岁的时候就充分的领悟到了这件军事的本质，知行合一，一以贯之。 那么如何才能军事上面如何创造出对自己有优势的条件呢…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"5UDXPuGZ\">孙子兵法所言，真正的军事高手懂得造势，所谓的造势——就是将一块石头搬到高山上，随后只要把石头滚下去，就能创造出惊人的破坏力。</p><p data-pid=\"ruYtscfk\">换算成教员的话语就是，我们要积极创造自己的有利条件，积极破坏敌人的有利条件，当量变达到临界点的时候，把握住机会，创造质变。</p><p data-pid=\"FPR1YW9-\">而李世民极其离谱的一点就在于他，早在18岁的时候就充分的领悟到了这件军事的本质，知行合一，一以贯之。</p><p data-pid=\"cO5YGQ24\">那么如何才能军事上面如何创造出对自己有优势的条件呢。</p><p data-pid=\"AQC0BZk2\">接下来我会结合李世民的案例详细讲解，希望大家能认真学习，不要辜负老师的期待，成为下一个李世民。(加油！)</p><p data-pid=\"PMqCHvNd\">第一，致人而不致于人，永远把握战场主动权，将敌人拉入自己的主场，李世民一生绝大部分的战争，都是由自己来选择战略僵持和决战的地点。</p><p data-pid=\"vZUSKrXA\">先是占据一个你绕不开，躲不掉的战场枢纽，确保自身拥有充足的后勤供应，优秀的防御条件，你啃下来损耗代价极大。</p><p data-pid=\"EqcdujVX\">活脱脱一个究极乌龟壳还是不打不行的那种。</p><p data-pid=\"knv4PDQi\">各位同学首先要积极学习这一点，学习难度低，门槛低，上手就可以用，掌握了这项技能就起码和校长一个水平了。</p><p data-pid=\"qMMzBXrY\">坚定守住，就有办法。(校长口音)</p><p data-pid=\"7D4MY55V\">不过考虑到老师主要是想培养李世民，不是校长，所以要讲的全面一些。</p><p data-pid=\"F5icq5Tj\">这个技能单独用，有一个非常大的缺陷，防守反击，防守反击，你只能防守，不能反击，只打得了防御战，打不了运动战，在战场上大概率被对面虐成狗。</p><p data-pid=\"IeJEuprx\">对面和你拥有一样的兵力的情况下，只需要少数兵力就能牵制住你，然后集中兵力打你的战场上的薄弱点。</p><p data-pid=\"NcMYYph0\">可能这里士兵少，将领不行，或者是突出部，有巨大的政治意义等等。</p><p data-pid=\"PkwCzbx4\">反正我总能找到一个能打的，用我的优势兵力开始打你的薄弱点，你不来回援，整个防御体系就崩塌，可能前线的后勤，支援，防御会遇到很大困难。</p><p data-pid=\"jRJaPLOW\">然而一旦回援了，习惯这种打法的军队，往往打运动战的整体素质也不太行，很容易就被对面的高手直接重新集中兵力干掉了。</p><p data-pid=\"aD06IqNe\">校长就是标准的反面案例，两个月时间被打掉了200多万军队，而且其中大量地还被敌人收编。</p><p data-pid=\"xxphGrBP\">一年的时间就局势翻转，开始我不明白了了。</p><p data-pid=\"O7Ozt4uT\">反之李世民的水平很明显比校长高多了，高就高在李世民的防守，不是结呆寨在打硬仗，注重一城一地的得失，而是高度运动，注重反击消灭敌人有生力量的。</p><p data-pid=\"Df5l0WRl\">换而言之，就是防守反击才是一套整体的战术，防守的目的是为了反击，这套战术的基础是防守，但是进阶的关键是反击。</p><p data-pid=\"VEfFrhBH\">李世民妙就妙在他的反击无比的犀利，一招致命，那李世民是如何打出这么牛逼的反击的呢，接下来的内容请开通盐选会员。</p><p data-pid=\"4afJy82f\">咳咳，老师忘了自己还没有被知乎收编，商业习惯了。</p><p data-pid=\"4HdTNSDv\">回归正题，李世民的反击有两个清晰的特色。</p><p data-pid=\"YYw8l0DS\">第一，极其强大的信息收集和判断能力，正史当中有无数的记载，李世民经常亲临一线，甚至亲自待在五六人的侦察小队里侦察敌情，走在刀尖的上面。</p><p data-pid=\"h_ZhNitC\">最终所有的信息汇集到李世民脑海里，敌方营寨的薄弱处，粮草的运输路线，水源的走向，士兵的状态，将领的能力，最终被整合成一张清晰的纹理图。</p><p data-pid=\"gVL7giIW\">庖丁解牛的故事里，屠夫知道肉的纹理走向，顺着切就会如果冻一般丝滑，而普通人不清楚纹理肌肉走向，生硬的切块遇到的阻力就会很大。</p><p data-pid=\"_Rtio3zB\">因此，哪怕知道危险，哪怕很多人劝说，没有必要，但李世民就是要亲临一线观察情况，因为这是办成事的关键。</p><p data-pid=\"VwFaTydR\">海量的学习观察实践与思考，最终汇聚成一种极其极其极其离谱的直觉与本能，就像人开始打人的时候习惯手指握成拳一样。</p><p data-pid=\"vNYjQWJv\">李世民打仗的时候，每一次的攻击和突袭，都会近乎本能的顺着纹理极其丝滑的切中要害，让敌人连疼的叫出来的机会都没有。</p><p data-pid=\"QBfUH_pz\">第二，极其离谱的己方判断和突击能力，在进行常规的战场选择和防守两三个月之后，敌人发现讨不到一点便宜，犹豫要退和不退的时候。</p><p data-pid=\"imqa6zUZ\">已经做了两三个月调研，同时不断的消耗着敌人状态的李世民，会突然发动一次极其凶猛的反击，打一场酣畅淋漓的野战。</p><p data-pid=\"zVrrcmje\">而在战场上真正的碰撞，李世民这辈子就用过一套战法，基本又极其强大。</p><p data-pid=\"plJ0QeFC\">即用少量兵力牵制住对面的精兵悍将，自己带着核心精锐冲击对面的弱点，干碎对面。</p><p data-pid=\"YfuOouSt\">这套战法极其简单，又极其好用。</p><p data-pid=\"_kiZc0f-\">正史记载，李世民首先派屈突通到前面牵制敌军，临走之际叮嘱说感觉顶不住了就叫我，我来救你。</p><p data-pid=\"tKABYZij\">然后在敌人第2次冲锋的时候屈突通就开始呼叫支援，哥，我顶不住了。</p><p data-pid=\"_gJ6BTZ4\">就在大家摩拳擦掌正准备去救人的时候，李世民笑着摆了摆手，这才哪到哪老屈顶得住</p><p data-pid=\"3NpCZDDb\">屈突通：啊？啊！啊——</p><p data-pid=\"-_iNen_C\">事实证明确实顶住了，人逼一把，确实能激发潜能。</p><p data-pid=\"CM0W1gMh\">敌人进行第4次冲锋的时候，李世民驾着马说到大家跟我走吧，再不救的话，老屈怕是要跟我急眼了，言外之意就是老屈的能力上限就这样了，心里有数。</p><p data-pid=\"mt3p7oVP\">这一段历史非常戏谑的展现了李世民极其强大的军事基本功，以多欺少。</p><p data-pid=\"ci7BDxjv\">都是10万的兵力，我能用2万牵制住你的8万兵力，用剩下的8万打你的2万，那我就是军神。</p><p data-pid=\"bvLsrmg8\">2万兵力当然不可能挡住对面8万兵力，但对李世民而言，他可以清晰的判断将军靠不靠得住，能顶多久，3分钟，10分钟，还是一个小时。</p><p data-pid=\"F8ckAzK5\">自己可以在这段时间里取得什么样的战果，这份当事人自己都无法判断的事情，李世民就是能判断出来。</p><p data-pid=\"nOM6jU7Y\">如何判断出来的呢，还是亲临一线的观察和思考，海量的实践演习对抗。</p><p data-pid=\"X2gPJkhW\">再用少量的兵力牵制住敌人之后，李世民带着他亲自选拔的精锐玄铁军，专往敌人的弱点处打，哪里指挥的不及时，掩护的不够，士兵一直出现了动摇。</p><p data-pid=\"B9aI14Fn\">更离谱的是，李世民亲临一线，亲自砍人，所能指挥和看到的战场时机都特别快，一两分钟内就能调整方向。</p><p data-pid=\"PZlu2K75\">但是对于坐镇中军的指挥官，一方面要完成对前面的清剿，一方面又得在后方防范着李世民冲过来，李世民在战场一线随时调整，自己的军令要在五六分钟后才能传到后方。</p><p data-pid=\"tHrtBsBn\">刚发布命令，调整布局，把一个缺点堵住，李世民转头就打另外一个方向了，这不炸了。</p><p data-pid=\"l3iX6P7U\">以上种种导致在李世民眼中，战场地图就像是一个个清晰的红点一样，自己只需要带着核心精锐，如针线一般一个个的穿过，对面的大军就被肢解了。</p><p data-pid=\"4HykBnui\">而失去了组织力的大军，还不如猪，毕竟干掉10万头猪需要海量的时间，每头猪都会乱跑。</p><p data-pid=\"8JWqavzE\">干掉10万的人，相对而言就方便多了，人会自己投降，跑过来甚至组织成建制投降。</p><p data-pid=\"V7ETue50\">复盘李世民的每场战役，你会发现思路都惊人的一致，防守阶段自己选择战场，打造主场优势，消磨敌人士气，观察敌人状态。</p><p data-pid=\"O5hANzHi\">在敌人露出破绽的那一刻，派自己的手下牵制住敌人的精锐，自己带着精锐去打敌人的弱点，将敌人大军肢解掉，然后进行穷追猛打，追杀出去几百公里是常态。</p><p data-pid=\"tph1ldvX\">让敌人彻底失去重新组织的能力，一战解决战斗，不会再有第2次交手了。</p><p data-pid=\"xHupY_wc\">很多乱世天王倒霉就倒霉在这里，在项羽这样的军神手上，还可以吸取教训。</p><p data-pid=\"1D6xyvZl\">比如刘邦被痛打了两三次，几乎是全军覆灭的重大失败后，才意识到不能野战，不能交手，打了就一定输一定死。</p><p data-pid=\"F6fsYYLY\">李世民则不一样，一旦把你打的全军覆灭，一定会继续穷追猛打，加你的士兵要么消灭干净，要么收编为己方，完全没有东山再起的机会。</p><p data-pid=\"QrBdcQDP\">更甚至大部分在战场上面就被抓了或者死了。</p><p data-pid=\"EAH2CAhg\">好了，我已经把李世民的技能包全部拆解完了，大家可以跟李世民干一仗了，他也就那样(加油！)</p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 3445,
+        "favorite_count": 126,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1937651391951774476}",
+      "attached_info": "CpYFCM6Xtsvt6s28lwEQBBoJNzQxMzk1MzQxINvI3cQGKEEwBECqBEovCgZJdGVtQ0YSH2RvY190eXBlOiBBbnN3ZXIKaWQ6IDczOTExMDkxNwoYACAAOgBaCDQ0ODY5MTI2YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzNzY1MTM5MTk1MTc3NDQ3NooBCTM3MTY2MDUyMaoBCXJlY29tbWVuZMIBIDZjNzBmYzVlZDIyMjNmYjI3NjQ1MWE0OGM4NGNlYjVk8gEKCAwSBk5vcm1hbPIBKAgKEiQzZjhlZDU5NC04ZmQ2LTQwYTktYTljMC1jNDkyNjZkOTdjYTjyAQYICxICOTOCAgCIAq6gyvmMM5ICIDZjNzBmYzVlZDIyMjNmYjI3NjQ1MWE0OGM4NGNlYjVkmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCBkl0ZW1DRugCA/oCC05PUk1BTF9GTE9XigMgZTdhM2YzN2YwMzRhNDUxYmJkZTZiZjc2ZTRkODIxMTGaAw0KAnYyEAAaBW90aGVyqAP1GtgDAOoDFXRleHRBbGxTaXRlTXZJdGVtQ0ZWMvoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAADn+qM/gQUAAAAAAAAAAIkFjtHjmk9U2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFXZAGAKAGsASoBgCSAi4KCTc0MTM5NTM0MRITMTkzNzY1MTM5MTk1MTc3NDQ3NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "555_1755822854.861",
+      "type": "feed",
+      "offset": 555,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1755822854,
+      "updated_time": 1755822854,
+      "target": {
+        "id": "1940155065093560151",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1940155065093560151",
+        "author": {
+          "id": "b3cedcbea47e93e574277d857e88e97e",
+          "url": "https://api.zhihu.com/people/b3cedcbea47e93e574277d857e88e97e",
+          "user_type": "people",
+          "url_token": "qing-shi-96-31",
+          "name": "穿大衣的小袋鼠",
+          "headline": "",
+          "avatar_url": "https://picx.zhimg.com/50/v2-eb4a6d17565955456d72cdc5de0f9732_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 1,
+          "is_following": false,
+          "is_followed": false
+        },
+        "title": "被数据采集折磨到崩溃？这款工具让我每天多睡 2 小时…",
+        "comment_permission": "all",
+        "created": 1755349088,
+        "updated": 1755349088,
+        "voteup_count": 4,
+        "voting": 0,
+        "comment_count": 0,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt": "作为一个每天和数据打交道的运营，过去半年我一直在和「数据采集」死磕 —— 要从虎扑扒 NBA 球员数据，从丁香园爬医疗热榜，还要盯政府采购网的招标动态… 手动复制粘贴到凌晨是常态，表格填错一个数就得返工两小时。 直到上周被同事按头安利了 浣石采集器，才发现：原来数据工作真的能这么轻松？ 1391 个现成模板，小白也能秒上手最让我惊艳的是它的「模板库」——1391 个各行各业的采集模板，从「虎扑体育的 NBA 球队数据」到…",
+        "excerpt_new": "作为一个每天和数据打交道的运营，过去半年我一直在和「数据采集」死磕 —— 要从虎扑扒 NBA 球员数据，从丁香园爬医疗热榜，还要盯政府采购网的招标动态… 手动复制粘贴到凌晨是常态，表格填错一个数就得返工两小时。 直到上周被同事按头安利了 浣石采集器，才发现：原来数据工作真的能这么轻松？ 1391 个现成模板，小白也能秒上手最让我惊艳的是它的「模板库」——1391 个各行各业的采集模板，从「虎扑体育的 NBA 球队数据」到…",
+        "preview_type": "default",
+        "preview_text": "",
+        "content": "<p data-pid=\"Eu_4wDoM\">作为一个每天和数据打交道的运营，过去半年我一直在和「数据采集」死磕 —— 要从虎扑扒 NBA 球员数据，从丁香园爬医疗热榜，还要盯政府采购网的招标动态… 手动复制粘贴到凌晨是常态，表格填错一个数就得返工两小时。</p><p data-pid=\"m4afMHti\">直到上周被同事按头安利了<b>浣石采集器</b>，才发现：原来数据工作真的能这么轻松？</p><h3>  1391 个现成模板，小白也能秒上手</h3><p data-pid=\"ErpeaA4a\">最让我惊艳的是它的「模板库」——1391 个各行各业的采集模板，从「虎扑体育的 NBA 球队数据」到「丁香园的医疗热榜」，从「政府采购网公告」到「二手房房价」，甚至连「PM2.5 实时数据」「汽车销量排行榜」都有现成的。</p><p data-pid=\"2YxMdSf8\">我试了下「丁香园近期热榜」模板，点一下「开始采集」，不到 3 分钟就把标题、热度、楼主信息全扒下来了，表格直接生成，连图片链接都自动导好了（如图 1）。再也不用对着网页一点点抄了！</p><p data-pid=\"YVbr6aIh\">如果你需要的模板不在库里，还能自定义采集 —— 用鼠标点选想要的内容（比如网页里的标题、价格、日期），系统会自动识别规律，新手跟着向导走 3 步就能搞定，根本不用学代码。</p><h3>  AI 全程开挂，从采集到分析一条龙</h3><p data-pid=\"xzLXxeYg\">这工具最绝的是「大模型加持」——</p><ul><li data-pid=\"vZSNWo_3\">采集完的数据乱七八糟？AI 一键清洗，自动去重、补全缺失值；</li><li data-pid=\"xqPqnr2G\">想做可视化？直接生成 46 种图表（三维的都有），连「思维导图」「知识图谱」都能一键出；</li><li data-pid=\"wB6u-tRl\">要写报告？AI 能自动生成 docx/pdf 格式的分析报告，连数据结论都帮你总结好了。</li></ul><p data-pid=\"HVhMMpCV\">上周我用它爬了某汽车网站的销量数据，AI 不仅生成了销量趋势图，还帮我标出了「哪款车环比增长最快」「不同地区的偏好差异」，直接省了我半天写报告的时间。</p><h3>  定时采集 + 自动导出，彻底解放双手</h3><p data-pid=\"hi7SzBSa\">最香的是「定时采集」功能 —— 比如我需要每天盯政府采购网的新公告，设置好「每天早 9 点自动采集」，数据会自动同步到我的表格里，连邮箱都能自动推送提醒。</p><p data-pid=\"LI3MMB6_\">之前手动刷网页的 1 小时，现在完全可以用来摸鱼… 哦不，做更有价值的分析。</p><h3>  谁适合用？我总结了 3 类人：</h3><ul><li data-pid=\"mOtK9k8e\"><b>运营 / 市场</b>：爬竞品数据、行业热榜、用户评论，快速抓趋势；</li><li data-pid=\"naqnNIRb\"><b>学生 / 科研党</b>：采集论文数据、政策文件、学术榜单，省出时间写论文；</li><li data-pid=\"t9pTD-5W\"><b>企业团队</b>：多账号协作采集，数据实时同步，还能定制专属模板（他们有专属服务，连内网数据都能采）。</li></ul><p data-pid=\"P9aHe4Ze\">用了一周，最大的感受是：<b>它把数据工作里最机械、最耗时间的环节全自动化了</b>。过去需要 3 小时的采集 + 整理，现在 10 分钟搞定，每天多出来的时间用来摸鱼、健身，甚至能准时下班接孩子。</p><p data-pid=\"ryzRUEqz\">唯一的小缺点是偶尔大批量采集时速度会慢一点，但比起手动操作的效率提升，这点完全能接受。</p><p data-pid=\"Eqobq6Pw\">最近他们有新用户优惠，Windows/Mac/Linux 系统都能用（官网可下）。</p><p data-pid=\"tgxTGTXl\">如果你也被数据采集折磨过，真心建议试试 —— 毕竟，谁不想早点下班呢？</p><p data-pid=\"VccCLv3t\">（最后问一句：你平时采集数据最头疼的问题是什么？评论区揪 3 个小伙伴，送我整理的「10 个高频采集模板」~）</p>",
+        "is_labeled": false,
+        "visited_count": 94,
+        "favorite_count": 4,
+        "article_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1940155065093560151}",
+      "attached_info": "CsMFCM6Xtsvt6s28lwEQBxoJMjYxODA3MjYzIOCAgsUGKAQwAECrBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTk0MDE1NTA2NTA5MzU2MDE1MaoBCXJlY29tbWVuZMIBIGIzY2VkY2JlYTQ3ZTkzZTU3NDI3N2Q4NTdlODhlOTdl8gEKCAwSBk5vcm1hbPIBKAgKEiQ5OWFiMzlkMy0yNjZjLTQyNzYtOWZhNi03NDQ3NDllNDE2YjLyAQYICxICOTOCAgCIAq6gyvmMM5ICIGIzY2VkY2JlYTQ3ZTkzZTU3NDI3N2Q4NTdlODhlOTdlmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZdoCLVRTX1NPVVJDRV9UV09UT1dFUl9NVUxUSV9TQ0VORV9WMV9SRUNBTExfVEVYVOgCA/oCC05PUk1BTF9GTE9XigMgZTdhM2YzN2YwMzRhNDUxYmJkZTZiZjc2ZTRkODIxMTGaAw0KAnYyEAAaBW90aGVyqANe2AMA6gMfdGV4dEZlZWRUd29Ub3dlcldhcm11cFN1Y2Nlc3NWMfoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAACAXWpA/gQUAAAAAAAAAAIkFjtHjmk9U2T+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFXZAGAKAGsQSoBgCSAi4KCTI2MTgwNzI2MxITMTk0MDE1NTA2NTA5MzU2MDE1MRgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "556_1755822854.671",
+      "type": "feed",
+      "offset": 556,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822854,
+      "updated_time": 1755822854,
+      "target": {
+        "id": "1941907486819987722",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941907486819987722",
+        "author": {
+          "id": "6c328de8f5bbc27ed49c1a7a810e2eb6",
+          "url": "https://api.zhihu.com/people/6c328de8f5bbc27ed49c1a7a810e2eb6",
+          "user_type": "people",
+          "url_token": "wang-jun-long-97-80",
+          "name": "多才多艺铅笔i",
+          "headline": "前国家智库研究员|现央企智能制造技术首席| ISO专家",
+          "avatar_url": "https://picx.zhimg.com/50/v2-fc9e95512e83210de67e58a72d6bc89b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "信息与通信工程工程师证书持证人"
+            }
+          ],
+          "followers_count": 613,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755766823,
+        "updated_time": 1755766823,
+        "voteup_count": 2,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "626071845",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/626071845",
+          "author": {
+            "id": "71b2fd960aac1e16d56a9a9ef9810352",
+            "url": "https://api.zhihu.com/people/71b2fd960aac1e16d56a9a9ef9810352",
+            "user_type": "people",
+            "url_token": "you-29-25-23",
+            "name": "Yangyongliang",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/50/v2-5211145a6fdfaf028310f18d0b7a01dd_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "数字化的本质是什么？",
+          "created": 1697244505,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            99,
+            3204,
+            8374,
+            63708,
+            587794
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "数字化本质，目前没有一个非常官方和权威的解释。而数字化本身是一个系统性问题，我们这里探讨数字化的本质，本人从多个层面进行尝试系统剖析，仅供参考。 我考虑的逻辑链条： 数字技术突破实现万物数据化->推动数据成为新的生产要素->新生产要素加快变革生产力->重构与之相适应的生产关系->进而改变认识世界和改造世界的方法论->最终影响哲学和精神层面的终极思考 一、技术变革层面：数字化技术实现万物数据化 本质：将现实世界…",
+        "excerpt_new": "数字化本质，目前没有一个非常官方和权威的解释。而数字化本身是一个系统性问题，我们这里探讨数字化的本质，本人从多个层面进行尝试系统剖析，仅供参考。 我考虑的逻辑链条： 数字技术突破实现万物数据化->推动数据成为新的生产要素->新生产要素加快变革生产力->重构与之相适应的生产关系->进而改变认识世界和改造世界的方法论->最终影响哲学和精神层面的终极思考 一、技术变革层面：数字化技术实现万物数据化 本质：将现实世界…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"HQyvbnM5\">数字化本质，目前没有一个非常官方和权威的解释。而数字化本身是一个系统性问题，我们这里探讨数字化的本质，本人从多个层面进行尝试系统剖析，仅供参考。</p><p data-pid=\"mh13y1R-\">我考虑的逻辑链条：<b>数字技术突破实现万物数据化-&gt;推动数据成为新的生产要素-&gt;新生产要素加快变革生产力-&gt;重构与之相适应的生产关系-&gt;进而改变认识世界和改造世界的方法论-&gt;最终影响哲学和精神层面的终极思考</b></p><p data-pid=\"USwKPjRh\"><b>一、技术变革层面：数字化技术实现万物数据化</b></p><p data-pid=\"PMmnUlbX\"><b>本质：将现实世界中的事物、现象、行为和流程转化为可度量、可存储、可计算的数据（比特）</b></p><p data-pid=\"skv_iWIM\">利用物联网、大数据、云计算、人工智能等数字技术，实现将以原子为基础的物理世界转化为以比特为基础的数字世界，进而能够容易对数字世界进行感知、分析、计算和优化（人类操纵数字世界的比特比物理世界的原子更容易），这一点是一切数字化的起点和基础。</p><p data-pid=\"y-dUTIYe\"><b>二、生产要素层面：数据成为新型生产要素</b></p><p data-pid=\"fLlCQEkE\"><b>本质：数据从技术副产品跃升为与土地、劳动力、资本、技术并列的生产要素，成为价值创造的源泉之一</b></p><p data-pid=\"r8m_6OTs\">《中共中央国务院关于构建更加完善的要素市场化配置体制机制的意见》中，将数据作为一种新型生产要素，与土地、劳动力、资本、技术等传统要素并列。数据作为新型生产要素，具备非竞争性（可无限共享）、非排他性（多人可同时使用）、自增值性（越用价值可能越大）等特征，同时还能赋能其他生产要素，促进全要素生产率的提升。</p><p data-pid=\"h7LzjjsB\"><b>三、生产力层面：数据成为新质生产力的一部分</b></p><p data-pid=\"_BResKy1\"><b>本质：以“数据-算法-算力”三元结合催生出前所未有的生产力形态，实现全要素生产率跃迁。</b></p><p data-pid=\"kabAZvKL\">习近平总书记指出，数据是新的生产要素，是基础性资源和战略性资源，也是重要生产力。作为新质生产力的一部分，数据生产力以数据为核心生产要素，通过算力和算法的配合、要素的协同、资源的整合，推动生产效率和创新能力的提升，提高物质生产活动效率。</p><p data-pid=\"eXDQ5Ti8\"><b>四、生产关系层面：推动组织形态、业务和商业模式的数字化转型</b></p><p data-pid=\"hTwmA1hg\"><b>本质：通过数字技术系统性变革价值创造、传递和获取的方式，重塑组织形态、业务模式、运营流程乃至整个社会组织形态</b></p><p data-pid=\"wFnBIl4a\">这个层面就是大家说的比较多的数字化转型，核心是变革和创新，对组织形态变革，对业务模式和流程的变革，对商业模式的变革等。</p><p data-pid=\"ti2YueuH\">组织形态走向平台化、小微化；业务走向智能化业务，智能研发、智能生产、智慧营销等；商业模式走向平台经济、共享经济、成果经济等模式。</p><p data-pid=\"1GDbNAaH\"><b>五、方法论层面：从经验主义到数据驱动的第四范式</b></p><p data-pid=\"JQID25v4\"><b>本质：通过数据来认识世界、理解世界和改造世界</b></p><p data-pid=\"lwPtqsBN\">数字化不仅改变客观世界，更深层次的是改变了人类认识世界和改造世界的方法论，传统方法论基于观察、实验、分析和经验。数据驱动的方法论，能够基于海量数据找到现象和根本间的关系，更快速认识世界，进而改造世界。</p><p data-pid=\"1Yc78CxN\"><b>六、精神和哲学层面：从硅基生命走向碳基生命</b></p><p data-pid=\"0gUUAdNY\"><b>本质：对本体论、认知论等的延申和再思考</b></p><p data-pid=\"gl3TfomW\">本体论方面，数字世界（元宇宙、虚拟空间）是否构成一种新的“存在”？</p><p data-pid=\"Pf7Roqdx\">认知论方面，如果一切皆可数据化，那么意识、情感、创造力是否最终也能被算法解构和模拟？数据的“我”与意识的“我”是什么关系？</p><h3><b>技术的数据化是最初的“一”，哲学的数据本体论是最后的“一切”</b></h3><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Y6bjyLZR\"><b>欢迎加入“智改数转圈”，一起探讨数字化、智能化</b></p><a href=\"https://www.zhihu.com/ring/host/1941468507075245175?share_code=1aww9YrppswJe&amp;utm_psn=1941906846307816289\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">智改数转圈</a><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": true,
+        "visited_count": 41,
+        "favorite_count": 2,
+        "answer_type": "normal",
+        "reaction_instruction": {
+          "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+        },
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941907486819987722}",
+      "attached_info": "CoEGCM6Xtsvt6s28lwEQBBoJNzQzMjkwNjczIKfAm8UGKAIwAECsBEojChhUU19TT1VSQ0VfV0FSTV9VUF9CT09TVDESATAYACAAOgBKLwokVFNfU09VUkNFX1dBUk1VUF9UV09UT1dFUl9FWFBWMl9URVhUEgEwGAAgADoAWgkxMDE0MDYxMDViIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxOTA3NDg2ODE5OTg3NzIyigEJNjI2MDcxODQ1qgEJcmVjb21tZW5kwgEgNmMzMjhkZThmNWJiYzI3ZWQ0OWMxYTdhODEwZTJlYjbyAQoIDBIGTm9ybWFs8gEoCAoSJGY2ZWNhZTk3LWJkOTgtNDgwZS05NDE2LWRmZmYyMWMzZWNmN/IBBggLEgI5M4ICAIgCrqDK+YwzkgIgNmMzMjhkZThmNWJiYzI3ZWQ0OWMxYTdhODEwZTJlYjaaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIYVFNfU09VUkNFX1dBUk1fVVBfQk9PU1Qx6AIE+gILTk9STUFMX0ZMT1eKAyBlN2EzZjM3ZjAzNGE0NTFiYmRlNmJmNzZlNGQ4MjExMZoDDQoCdjIQABoFb3RoZXKoAynYAwDqAy5jb250ZW50V2FybXVwVHdvVG93ZXJUdnBUZXh0Qm9vc3RFeHBWMlJlY2FsbGVy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATSgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwNurlT+BBQAAAAAAAAAAiQWO0eOaT1TZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVdkAYAoAayBKgGAZICLgoJNzQzMjkwNjczEhMxOTQxOTA3NDg2ODE5OTg3NzIyGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "557_1755822854.100",
+      "type": "feed",
+      "offset": 557,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822854,
+      "updated_time": 1755822854,
+      "target": {
+        "id": "1941066490360074646",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941066490360074646",
+        "author": {
+          "id": "79916c677298bf79069242142859d659",
+          "url": "https://api.zhihu.com/people/79916c677298bf79069242142859d659",
+          "user_type": "people",
+          "url_token": "69-97-95-29-25",
+          "name": "晶体管笑匠",
+          "headline": "B站/YouTube优质内容分享",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-8ba4010090f7390852ab4a27834058ac_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 28,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755566314,
+        "updated_time": 1755566314,
+        "voteup_count": 5,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "547584079",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/547584079",
+          "author": {
+            "id": "4418cbe666f4efc17cbf4af029bf1edb",
+            "url": "https://api.zhihu.com/people/4418cbe666f4efc17cbf4af029bf1edb",
+            "user_type": "people",
+            "url_token": "tde-17",
+            "name": "啥都要学",
+            "headline": "一个想成为通才的男人",
+            "avatar_url": "https://pica.zhimg.com/50/v2-ce890559a259a9c4c2efa21f595fd708_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 8,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "国内有没有比较好的搭建知识库软件?",
+          "created": 1659965034,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            949,
+            19282,
+            38203,
+            40255
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pic1.zhimg.com/50/v2-aee2e99c68d8ce771589e7c17a1d21e5_720w.jpg?source=b6762063",
+        "excerpt": "当然有，比如腾讯乐享 工作中最令人困扰的是什么？或许是午休时的噪音，或是向隔壁组同事请教一个简单问题时，却要花费半小时从一堆文档中寻找答案。5月21日，我在 腾讯云AI峰会上找到了解决方案。腾讯乐享和IMA能够有效解决这些工作痛点，而这些痛点实际上也是许多企业面临的共性问题。腾讯乐享能够打破 信息孤岛，将不同格式、不同类型的多渠道知识整合到知识库中，构建有序的知识管理体系。这使得团队协作更加高效透明。遇到…",
+        "excerpt_new": "当然有，比如腾讯乐享 工作中最令人困扰的是什么？或许是午休时的噪音，或是向隔壁组同事请教一个简单问题时，却要花费半小时从一堆文档中寻找答案。5月21日，我在 腾讯云AI峰会上找到了解决方案。腾讯乐享和IMA能够有效解决这些工作痛点，而这些痛点实际上也是许多企业面临的共性问题。腾讯乐享能够打破 信息孤岛，将不同格式、不同类型的多渠道知识整合到知识库中，构建有序的知识管理体系。这使得团队协作更加高效透明。遇到…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"J-3vvTf9\">当然有，比如腾讯乐享</p><p data-pid=\"J5dMDIbf\">工作中最令人困扰的是什么？或许是午休时的噪音，或是向隔壁组同事请教一个简单问题时，却要花费半小时从一堆文档中寻找答案。5月21日，我在<b>腾讯云AI峰会</b>上找到了解决方案。<b>腾讯乐享</b>和IMA能够有效解决这些工作痛点，而这些痛点实际上也是许多企业面临的共性问题。</p><p data-pid=\"K89ITaz7\">腾讯乐享能够打破<b>信息孤岛</b>，将不同格式、不同类型的多渠道知识整合到知识库中，构建有序的知识管理体系。这使得团队协作更加高效透明。遇到问题时，可以直接通过<b>AI</b>进行快速检索。例如，我的视频制作团队可以建立视频脚本知识库。当需要查询”小智机器人视频的发布日期”这类问题时，可以直接向AI助手提问获取答案。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-647270318aac8d1b7ad76e3f105c9352_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-original-token=\"v2-aee2e99c68d8ce771589e7c17a1d21e5\" data-default-watermark-src=\"https://picx.zhimg.com/v2-6ed62893cc74d8b0dfb7d3e822fe8dcf_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pica.zhimg.com/v2-647270318aac8d1b7ad76e3f105c9352_r.jpg\"/></figure><p data-pid=\"6wNvfZMZ\">这种快速响应模式能够迅速检索整个知识库，<b>精准定位</b>所需答案。经过一年的积累，若文档数量达到数百篇，<b>AI问答</b>的价值将显著体现，大幅节省资料查阅时间，使数据管理更加便捷高效。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-34867cf387c69c4899bbc2f0a1f92e75_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-qrcode-action=\"none\" data-original-token=\"v2-06909c3423e5dca247882e3078074ee7\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-18a3f638963b45ffa99d8b8eda1b86e7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-34867cf387c69c4899bbc2f0a1f92e75_r.jpg\"/></figure><p data-pid=\"IjB5ulKy\">使用<b>腾讯乐享</b>便于协同办公，具备版本管理和编辑追溯等功能，确保团队协作高效透明。</p><p data-pid=\"bnnHUn_T\">若你有随手收藏的习惯并希望建立个人知识库，<b>腾讯IMA</b>可能更为适合。IMA支持Mac、Windows、iOS、Android及微信小程序，还可直接安装浏览器插件。例如，我安装了Windows客户端，这是一个以知识库为核心的AI工作台。</p><p data-pid=\"CozpouHJ\">当我阅读2017年撰写的机器学习系列文章并希望收藏时，只需点击右上角的<b>灯泡图标</b>即可将其加入知识库。任何知识均可快速收藏，还可直接向IMA提问，生成对应的思维导图或总结。</p><p data-pid=\"MtIsNeIY\">积累足够知识后，可通过<b>Add功能</b>引用多个知识库内容并进行提问。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9a203c992ede41a984671e02556794d1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-original-token=\"v2-14f4894f8fd87d86805926d3b42f36a5\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-a8e54ebd6dd8ee209be7fc26470d147e_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-9a203c992ede41a984671e02556794d1_r.jpg\"/></figure><p data-pid=\"HOk9hOpY\">比如，K临近法和决策树的优缺点是什么？它会根据知识库的资料作为参考来回答问题。这一功能极大地方便了知识检索、总结和提炼，堪称对传统工作方法的降维打击。</p><p data-pid=\"yEVf2vuu\">它最与众不同的亮点在于<b>微信小程序</b>的深度整合。与<b>微信生态</b>的无缝衔接使其操作极为流畅。无论是公众号文章，还是微信群中分享的PPT、PDF、Word或Markdown文档，均可一键保存至知识库。</p><p data-pid=\"dwXoy9Ci\">此时，你可以充分利用腾讯IMA中的<b>DeepSeek R1</b>功能。例如，我刚刚收藏了一篇关于微克隆的文章，可以选择任意喜欢的模型，无论是<b>Hunyuan</b>还是DeepSeek R1，都能快速部署微克隆项目。</p><p data-pid=\"WmH076KL\">这样AI就能自动整理并生成对应的解决方案。无论是链接、文件还是图片，都能一键导入腾讯乐享知识库中。</p><p data-pid=\"is2oNCWL\">这是一个具备思考能力的知识库，为用户提供全新的搜索、阅读和写作体验。<b>IMA</b>能够作为个人的第二大脑，帮助普通用户和专业团队高效储备并运用知识。它不仅是强大的工作站，更是开放的知识发现平台。</p><p data-pid=\"icfoRphI\">除了基础的知识共享功能，用户还可以创建<b>IMA知识号</b>。知识号类似于出版社，可发行多种刊物，每本刊物即是一个独立的知识库。</p><p data-pid=\"fsQexANU\">杭州钱江海关创建了一个<b>知识号</b>，在共享知识库中整合了政策咨询、通关指南和案例分析等资料，构建了一个<b>AI知识库</b>。此外，杭州海关12360热线公众号的菜单栏也嵌入了该知识库。</p><p data-pid=\"htYAc99H\">当公众咨询问题时，系统会根据知识库内容提供<b>精准高效</b>的解答。这一高效的知识库服务体系实现了<b>零成本、零部署</b>的运作模式，无论是个人还是专业团队均可创建自己的知识号。</p><p data-pid=\"rK6JPbQU\">专业团队可将<b>权威、高质量</b>的知识库内容共享，为AI时代提供新型知识服务。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d8ce4620ad1610ddfb076361822201cb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-original-token=\"v2-176db28d88e75f5767f6f76007b77120\" data-default-watermark-src=\"https://pica.zhimg.com/v2-a7c183ff18d0418e0f1d77eb04315fca_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-d8ce4620ad1610ddfb076361822201cb_r.jpg\"/></figure><p data-pid=\"b7u2puac\">个人可将自行收集或创作的内容进行分享，以<b>打造个人品牌</b>并积累粉丝。用户可轻松获取<b>专业知识</b>。</p><p data-pid=\"a_m7ec1p\">目前，知识库广场已提供多种分类。用户可通过广场搜索或咨询腾讯IMA获取优质知识库推荐，亦可通过留言方式获取相关信息。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-25a9294bbfbc4534b781dff95efd11b3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-original-token=\"v2-4293b0937237ad5b196d260d20849aea\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-a213e98d24e259bdc381b5b5da9c7db4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-25a9294bbfbc4534b781dff95efd11b3_r.jpg\"/></figure><p data-pid=\"8aUsrlAf\">与知识号的其他用户交流信息和经验，促进知识流动，实现资源共享。腾讯在人工智能、大数据处理、云计算等前沿技术领域具备深厚积累。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-fd615d8e096c4840a59064254046320b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-original-token=\"v2-9ba7661d1d4c6a5df4194f35cbd252db\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-b7a150392d04fc6bf0e4b33752ac39b0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-fd615d8e096c4840a59064254046320b_r.jpg\"/></figure><p data-pid=\"5OlEEimt\">乐享AI知识库和IMA产品的智能化功能得益于强大的<b>技术支撑</b>。腾讯庞大的业务架构和海量用户群体为这些知识管理系统提供了持续动力，有效解决了企业与用户的知识需求和痛点，并吸引众多企业创作者参与共建良性循环的<b>知识生态</b>。</p><p data-pid=\"rttXdS5b\">随着知识生态的开放，行业壁垒将被打破，企业经验可转化为标准化方案，实现跨领域复用。个人智慧通过AI助手赋能千万场景，这场<b>技术驱动</b>的认知革命将重塑组织协作模式，提升社会知识共享效率，使每个个体都能成为知识网络的创作者与受益者，开启智慧互联的知识管理新篇章。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 103,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-aee2e99c68d8ce771589e7c17a1d21e5_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-06909c3423e5dca247882e3078074ee7_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-14f4894f8fd87d86805926d3b42f36a5_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-176db28d88e75f5767f6f76007b77120_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-4293b0937237ad5b196d260d20849aea_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-9ba7661d1d4c6a5df4194f35cbd252db_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 5,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941066490360074646}",
+      "attached_info": "CokICM6Xtsvt6s28lwEQBBoJNzQyODc3MjUzIOqhj8UGKAUwAECtBEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9Wgg4Mzk2ODYwOWIgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDEwNjY0OTAzNjAwNzQ2NDaKAQk1NDc1ODQwNzmqAQlyZWNvbW1lbmTCASA3OTkxNmM2NzcyOThiZjc5MDY5MjQyMTQyODU5ZDY1OfIBCggMEgZOb3JtYWzyASgIChIkZGY3ZTNkYWItZGZhMi00ODFlLTkzMmMtNDk2ODZlMWE2MzEy8gEGCAsSAjkzggIAiAKuoMr5jDOSAiA3OTkxNmM2NzcyOThiZjc5MDY5MjQyMTQyODU5ZDY1OZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIC+gILTk9STUFMX0ZMT1eKAyBlN2EzZjM3ZjAzNGE0NTFiYmRlNmJmNzZlNGQ4MjExMZoDDQoCdjIQABoFb3RoZXKoA2fYAwDqAxV0ZXh0RmVlZFR3b1Rvd2VyVjFBbGz6A7kCEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQgAoY0AUiI3YyLWFlZTJlOTljNjhkOGNlNzcxNTg5ZTdjMTdhMWQyMWU1Oi0IAhCAChjQBSIjdjItMDY5MDljMzQyM2U1ZGNhMjQ3ODgyZTMwNzgwNzRlZTc6LQgBEIAKGNAFIiN2Mi0xNGY0ODk0ZjhmZDg3ZDg2ODA1OTI2ZDNiNDJmMzZhNTotCAIQgAoY0AUiI3YyLTE3NmRiMjhkODhlNzVmNTc2N2Y2Zjc2MDA3Yjc3MTIwOi0IAhCAChjQBSIjdjItNDI5M2IwOTM3MjM3YWQ1YjE5NmQyNjBkMjA4NDlhZWE6LQgCEIAKGNAFIiN2Mi05YmE3NjYxZDFkNGM2YTVkZjQxOTRmMzVjYmQyNTJkYoAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYHcTmj+BBQAAAAAAAAAAiQWO0eOaT1TZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AVdkAYAoAazBKgGAJICLgoJNzQyODc3MjUzEhMxOTQxMDY2NDkwMzYwMDc0NjQ2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=557&desktop=true&end_offset=563&page_number=94&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=557&desktop=true&end_offset=563&page_number=94&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

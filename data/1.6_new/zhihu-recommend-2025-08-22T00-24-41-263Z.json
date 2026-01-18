@@ -1,0 +1,598 @@
+{
+  "data": [
+    {
+      "id": "108_1755822327.983",
+      "type": "feed",
+      "offset": 108,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822327,
+      "updated_time": 1755822327,
+      "target": {
+        "id": "3315339483",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3315339483",
+        "author": {
+          "id": "ae0e23f878ca61d271d857042a0c9d31",
+          "url": "https://api.zhihu.com/people/ae0e23f878ca61d271d857042a0c9d31",
+          "user_type": "people",
+          "url_token": "mingongge365",
+          "name": "民工哥",
+          "headline": "我的微信公众号：民工哥技术之路  更多干货文章与资源分享",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-4d64c787224a15eeb9b34a606524a19f_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 23490,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1701839088,
+        "updated_time": 1701839088,
+        "voteup_count": 260,
+        "thanks_count": 69,
+        "comment_count": 3,
+        "is_copyable": false,
+        "question": {
+          "id": "21483073",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/21483073",
+          "author": {
+            "id": "fdb0e7aa4525b21999234f97debfd8d2",
+            "url": "https://api.zhihu.com/people/fdb0e7aa4525b21999234f97debfd8d2",
+            "user_type": "people",
+            "url_token": "shang-jin-13",
+            "name": "果子狸",
+            "headline": "码农",
+            "avatar_url": "https://pica.zhimg.com/50/411e5195d_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 47,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "Nginx 能做什么好玩的事情？",
+          "created": 1376543434,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 1,
+          "bound_topic_ids": [
+            1355,
+            1452,
+            2084,
+            7563,
+            7946
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://pica.zhimg.com/50/v2-814ff7a2e8c027a0933e64e93e0e8e1e_720w.jpg?source=b6762063",
+        "excerpt": "Nginx 的功能十分强大！！！ Nginx 是目前负载均衡技术中的主流方案，几乎绝大部分项目都会使用它， Nginx 是一个轻量级的高性能HTTP反向代理服务器，同时它也是一个通用类型的代理服务器，支持绝大部分协议，如TCP、UDP、SMTP、HTTPS等。   Nginx与Redis相同，都是基于多路复用模型构建出的产物，因此它与Redis同样具备 「「资源占用少、并发支持高」」 的特点，在理论上单节点的 Nginx 同时支持5W并发连接，而实际生产环境中，硬件…",
+        "excerpt_new": "Nginx 的功能十分强大！！！ Nginx 是目前负载均衡技术中的主流方案，几乎绝大部分项目都会使用它， Nginx 是一个轻量级的高性能HTTP反向代理服务器，同时它也是一个通用类型的代理服务器，支持绝大部分协议，如TCP、UDP、SMTP、HTTPS等。   Nginx与Redis相同，都是基于多路复用模型构建出的产物，因此它与Redis同样具备 「「资源占用少、并发支持高」」 的特点，在理论上单节点的 Nginx 同时支持5W并发连接，而实际生产环境中，硬件…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"fMH4DpZU\">Nginx 的功能十分强大！！！</p><p data-pid=\"6p0lEub7\">Nginx 是目前负载均衡技术中的主流方案，几乎绝大部分项目都会使用它，<a href=\"https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247532391%26idx%3D1%26sn%3D61419787243d2174abe2a3b497155429%26chksm%3De9181a7bde6f936d0c4f6e5a7537e7014923d0f02eecac557ab02dd23ee909f7510b33cec741%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nginx</a> 是一个轻量级的高性能HTTP反向代理服务器，同时它也是一个通用类型的代理服务器，支持绝大部分协议，如TCP、UDP、SMTP、HTTPS等。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6380b0031611a3e24145a6a22ae385b1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"254\" data-original-token=\"v2-6380b0031611a3e24145a6a22ae385b1\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-1a82c2713f22d2dfb42e64653eaf2f84_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic2.zhimg.com/v2-6380b0031611a3e24145a6a22ae385b1_r.jpg\"/></figure><p data-pid=\"Lc6rvMG0\">Nginx与Redis相同，都是基于多路复用模型构建出的产物，因此它与Redis同样具备 「「资源占用少、并发支持高」」 的特点，在理论上单节点的<a href=\"https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247530998%26idx%3D1%26sn%3D4803b9cbf5625767ee09317d2c2a023b%26chksm%3De9181ceade6f95fc2e90e76b775e3702919e62a7accac0e05e1a37c96e6e7b5bb72defa44213%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nginx</a>同时支持5W并发连接，而实际生产环境中，硬件基础到位再结合简单调优后确实能达到该数值。</p><p data-pid=\"USI35DXi\">除了负载均衡、反向代理，它还有以下这些强大、实用的功能。</p><h2><b>Nginx实现IP黑白名单</b></h2><p data-pid=\"evgLkffq\">有时候往往有些需求，可能某些接口只能开放给对应的合作商，或者购买/接入API的合作伙伴，那么此时就需要实现类似于IP白名单的功能。而有时候有些恶意攻击者或爬虫程序，被识别后需要禁止其再次访问网站，因此也需要实现IP黑名单。那么这些功能无需交由后端实现，可直接在Nginx中处理。</p><p data-pid=\"bXBCqYX9\">Nginx做黑白名单机制，主要是通过allow、deny配置项来实现：</p><div class=\"highlight\"><pre><code class=\"language-text\">allow xxx.xxx.xxx.xxx; # 允许指定的IP访问，可以用于实现白名单。  \ndeny xxx.xxx.xxx.xxx; # 禁止指定的IP访问，可以用于实现黑名单。  \n</code></pre></div><p data-pid=\"hyUZwrGN\">要同时屏蔽/开放多个IP访问时，如果所有IP全部写在nginx.conf文件中定然是不显示的，这种方式比较冗余，那么可以新建两个文件BlocksIP.conf、WhiteIP.conf：</p><div class=\"highlight\"><pre><code class=\"language-text\"># --------黑名单：BlocksIP.conf---------  \ndeny 192.177.12.222; # 屏蔽192.177.12.222访问  \ndeny 192.177.44.201; # 屏蔽192.177.44.201访问  \ndeny 127.0.0.0/8; # 屏蔽127.0.0.1到127.255.255.254网段中的所有IP访问  \n  \n# --------白名单：WhiteIP.conf---------  \nallow 192.177.12.222; # 允许192.177.12.222访问  \nallow 192.177.44.201; # 允许192.177.44.201访问  \nallow 127.45.0.0/16; # 允许127.45.0.1到127.45.255.254网段中的所有IP访问  \ndeny all; # 除开上述IP外，其他IP全部禁止访问  \n</code></pre></div><p data-pid=\"ef-uXdBD\">分别将要禁止/开放的IP添加到对应的文件后，可以再将这两个文件在nginx.conf中导入：</p><div class=\"highlight\"><pre><code class=\"language-text\">http{  \n    # 屏蔽该文件中的所有IP  \n    include /soft/nginx/IP/BlocksIP.conf;   \n server{  \n    location xxx {  \n        # 某一系列接口只开放给白名单中的IP  \n        include /soft/nginx/IP/blockip.conf;   \n    }  \n }  \n}\n</code></pre></div><p data-pid=\"WwSfAN-0\">对于文件具体在哪儿导入，这个也并非随意的，如果要整站屏蔽/开放就在http中导入，如果只需要一个域名下屏蔽/开放就在sever中导入，如果只需要针对于某一系列接口屏蔽/开放IP，那么就在location中导入。</p><p data-pid=\"slxxk50_\">当然，上述只是最简单的IP黑/白名单实现方式，同时也可以通过ngx_http_geo_module、ngx_http_geo_module第三方库去实现（这种方式可以按地区、国家进行屏蔽，并且提供了IP库）。</p><h2><b>Nginx跨域配置</b></h2><p data-pid=\"ktre-cVi\">跨域问题在之前的单体架构开发中，其实是比较少见的问题，除非是需要接入第三方SDK时，才需要处理此问题。但随着现在前后端分离、分布式架构的流行，跨域问题也成为了每个Java开发必须要懂得解决的一个问题。</p><h3><b>跨域问题产生的原因</b></h3><p data-pid=\"1dmQBmaN\">产生跨域问题的主要原因就在于 「同源策略」 ，为了保证用户信息安全，防止恶意网站窃取数据，同源策略是必须的，否则cookie可以共享。由于http无状态协议通常会借助cookie来实现有状态的信息记录，例如用户的身份/密码等，因此一旦cookie被共享，那么会导致用户的身份信息被盗取。</p><p data-pid=\"AAf4TO4i\">同源策略主要是指三点相同，「「协议+域名+端口」」 相同的两个请求，则可以被看做是同源的，但如果其中任意一点存在不同，则代表是两个不同源的请求，同源策略会限制了不同源之间的资源交互。</p><h3><b>Nginx解决跨域问题</b></h3><p data-pid=\"SYVmU5QP\">弄明白了跨域问题的产生原因，接下来看看Nginx中又该如何解决跨域呢？其实比较简单，在nginx.conf中稍微添加一点配置即可：</p><div class=\"highlight\"><pre><code class=\"language-text\">location / {  \n    # 允许跨域的请求，可以自定义变量$http_origin，*表示所有  \n    add_header &#39;Access-Control-Allow-Origin&#39; *;  \n    # 允许携带cookie请求  \n    add_header &#39;Access-Control-Allow-Credentials&#39; &#39;true&#39;;  \n    # 允许跨域请求的方法：GET,POST,OPTIONS,PUT  \n    add_header &#39;Access-Control-Allow-Methods&#39; &#39;GET,POST,OPTIONS,PUT&#39;;  \n    # 允许请求时携带的头部信息，*表示所有  \n    add_header &#39;Access-Control-Allow-Headers&#39; *;  \n    # 允许发送按段获取资源的请求  \n    add_header &#39;Access-Control-Expose-Headers&#39; &#39;Content-Length,Content-Range&#39;;  \n    # 一定要有！！！否则Post请求无法进行跨域！  \n    # 在发送Post跨域请求前，会以Options方式发送预检请求，服务器接受时才会正式请求  \n    if ($request_method = &#39;OPTIONS&#39;) {  \n        add_header &#39;Access-Control-Max-Age&#39; 1728000;  \n        add_header &#39;Content-Type&#39; &#39;text/plain; charset=utf-8&#39;;  \n        add_header &#39;Content-Length&#39; 0;  \n        # 对于Options方式的请求返回204，表示接受跨域请求  \n        return 204;  \n    }  \n}  \n</code></pre></div><p data-pid=\"vAXJ_wEX\">在nginx.conf文件加上如上配置后，跨域请求即可生效了。</p><p data-pid=\"uFsHnM_G\">但如果后端是采用分布式架构开发的，有时候RPC调用也需要解决跨域问题，不然也同样会出现无法跨域请求的异常，因此可以在你的后端项目中，通过继承HandlerInterceptorAdapter类、实现WebMvcConfigurer接口、添加@CrossOrgin注解的方式实现接口之间的跨域配置。</p><h2><b>Nginx 防盗链</b></h2><p data-pid=\"WB9hk2rt\">首先了解一下何谓盗链：「「盗链即是指外部网站引入当前网站的资源对外展示」」 ，来举个简单的例子理解：</p><p data-pid=\"EsdmtE6J\">好比壁纸网站X站、Y站，X站是一点点去购买版权、签约作者的方式，从而积累了海量的壁纸素材，但Y站由于资金等各方面的原因，就直接通过<code>&lt;img src=&#34;X站/xxx.jpg&#34; /&gt;</code>这种方式照搬了X站的所有壁纸资源，继而提供给用户下载。</p><p data-pid=\"X4cb7uDj\">那么如果我们自己是这个X站的Boss，心中必然不爽，那么此时又该如何屏蔽这类问题呢？那么接下来要叙说的「「防盗链」」 登场了！</p><p data-pid=\"TSV3S_Zr\">Nginx的防盗链机制实现，跟一个头部字段：Referer有关，该字段主要描述了当前请求是从哪儿发出的，那么在Nginx中就可获取该值，然后判断是否为本站的资源引用请求，如果不是则不允许访问。Nginx中存在一个配置项为valid_referers，正好可以满足前面的需求，语法如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">valid_referers none | blocked | server_names | string ...;\n\nnone：表示接受没有Referer字段的HTTP请求访问。\nblocked：表示允许http://或https//以外的请求访问。\nserver_names：资源的白名单，这里可以指定允许访问的域名。\nstring：可自定义字符串，支配通配符、正则表达式写法。\n</code></pre></div><p data-pid=\"fyMc2oL5\">简单了解语法后，接下来的实现如下：</p><div class=\"highlight\"><pre><code class=\"language-text\"># 在动静分离的location中开启防盗链机制  \nlocation ~ .*\\.(html|htm|gif|jpg|jpeg|bmp|png|ico|txt|js|css){  \n    # 最后面的值在上线前可配置为允许的域名地址  \n    valid_referers blocked 192.168.12.129;  \n    if ($invalid_referer) {  \n        # 可以配置成返回一张禁止盗取的图片  \n        # rewrite   ^/ http://xx.xx.com/NO.jpg;  \n        # 也可直接返回403  \n        return   403;  \n    }  \n      \n    root   /soft/nginx/static_resources;  \n    expires 7d;  \n}  \n</code></pre></div><p data-pid=\"LbB03km5\">根据上述中的内容配置后，就已经通过Nginx实现了最基本的防盗链机制，最后只需要额外重启一下就好啦！当然，对于防盗链机制实现这块，也有专门的第三方模块ngx_http_accesskey_module实现了更为完善的设计，感兴趣的小伙伴可以自行去看看。</p><p data-pid=\"mQDDaui7\">PS：防盗链机制也无法解决爬虫伪造referers信息的这种方式抓取数据。</p><p data-pid=\"89z228-E\">以上内容来源：<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247535227%26idx%3D1%26sn%3Dfc9097d3a409ae25c98b0126a663c4be%26chksm%3De9182f67de6fa67165342eac0a0ac4f222ed4090654c21c4f0cb41516f20a567cdc84d546b36%26token%3D202706343%26lang%3Dzh_CN%23rd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nginx 一网打尽：动静分离、压缩、缓存、黑白名单、跨域、高可用、性能优化...</a></p><h3>Nginx 组建直播服务</h3><p data-pid=\"x8lz0hRj\"><b>拓扑示意图：</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-aca664f3d886c50fb025da227d8d70cb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1006\" data-rawheight=\"540\" data-original-token=\"v2-aca664f3d886c50fb025da227d8d70cb\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-4812ca22f5691cb835955479c4786d15_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1006\" data-original=\"https://pic2.zhimg.com/v2-aca664f3d886c50fb025da227d8d70cb_r.jpg\"/></figure><p data-pid=\"RtwCxJZ2\">当前拓扑示意图（阿某云和腾讯云不方便放出推流和拉流地址，有兴趣的同学可以去申请玩一下）</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-920649b46eb82c3c28b9a7a73b30a3d2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"765\" data-rawheight=\"465\" data-original-token=\"v2-920649b46eb82c3c28b9a7a73b30a3d2\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-dc811e2b555daeb80fac82609a915a89_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"765\" data-original=\"https://pica.zhimg.com/v2-920649b46eb82c3c28b9a7a73b30a3d2_r.jpg\"/></figure><h2><b>docker-nginx-rtmp-ffmpeg</b></h2><p data-pid=\"wS3nAueo\">基于docker-nginx-rtmp进行配置部署，这篇文章的意义是实现直播分流及直播画面水印.<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><ul><li data-pid=\"RhL3rBv7\">Nginx 1.16.1（从源代码编译的稳定版本）</li><li data-pid=\"I4_GPdkJ\">nginx-rtmp-module 1.2.1（从源代码编译）</li><li data-pid=\"iwUlHNSB\">ffmpeg 4.2.1（从源代码编译）</li><li data-pid=\"wBFGVbhd\">已配置好的nginx.conf</li><ul><li data-pid=\"zw45tJfL\">只支持1920*1080</li><li data-pid=\"KFPV_dXW\">实现两路分流</li><ul><li data-pid=\"QbU80KN5\">本机</li><li data-pid=\"1pKrboDV\">直播云（例：阿某云、腾讯云、ucloud）</li></ul><li data-pid=\"eGAnYygL\">实现直播水印效果</li><ul><li data-pid=\"AzcX94bZ\">水印图片存放位置（容器内）：/opt/images/logo.png</li></ul></ul></ul><h2><b>部署安装</b></h2><p data-pid=\"x5m-NBKa\"><b>1、安装docker</b></p><div class=\"highlight\"><pre><code class=\"language-text\">$ yum -y install docker #安装docker\n$ systemctl enable docker #配置开机启动\n$ systemctl start docker #启动docker服务</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><div class=\"highlight\"><pre><code class=\"language-text\">2、拉取docker镜像并运行\n$ docker pull ar414/nginx-rtmp-ffmpeg\n$ docker run -it -d -p 1935:1935 -p 8080:80 --rm ar414/nginx-rtmp-ffmpeg</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3uqYma3W\"><b>3、推流地址（Stream live content to）：</b></p><div class=\"highlight\"><pre><code class=\"language-text\">rtmp://&lt;server ip&gt;:1935/stream/$STREAM_NAME</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><div class=\"highlight\"><pre><code class=\"language-text\">4、SSL证书\n</code></pre></div><p data-pid=\"yzzHnbd4\">将证书复制到容器内，并在容器内修改nginx.conf配置文件，然后重新commit（操作容器内的文件都需要重新commit才会生效）</p><div class=\"highlight\"><pre><code class=\"language-text\">listen 443 ssl;\nssl_certificate     /opt/certs/example.com.crt;\nssl_certificate_key /opt/certs/example.com.key;</code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><h3><b>5、OBS配置</b></h3><ul><li data-pid=\"nBbu9qh7\">Stream Type: <code>Custom Streaming Server</code></li><li data-pid=\"oB6Q__k-\">URL: <code>rtmp://&lt;server ip&gt;:1935/stream</code></li><li data-pid=\"zM-zPmM3\">Stream Key：ar414<br/></li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-bf375ac6b83d766d4baf87686b84914b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"997\" data-rawheight=\"787\" data-original-token=\"v2-bf375ac6b83d766d4baf87686b84914b\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-5e6b4678f5ffeae07b8bac9f5b52492d_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"997\" data-original=\"https://picx.zhimg.com/v2-bf375ac6b83d766d4baf87686b84914b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"m0HecEPY\"><b>6、观看测试</b></p><p data-pid=\"v5wLjjDP\">HLS播放测试工具：<a href=\"https://link.zhihu.com/?target=http%3A//player.alicdn.com/aliplayer/s\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">player.alicdn.com/alipl</span><span class=\"invisible\">ayer/s</span><span class=\"ellipsis\"></span></a>… （如果配置了证书则使用https）</p><p data-pid=\"QwRF2tzQ\"><b>7、HLS播放地址</b></p><p data-pid=\"Yp6481Hz\">RTMP测试工具：PotPlayer</p><p data-pid=\"9Vx3jiS0\"><b>8、RTMP播放地址</b></p><ul><ul><li data-pid=\"TrLjXXqh\">无水印：<br/>rtmp://&lt;server ip&gt;:1935/stream/ar414<br/></li></ul></ul><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-61fe2b69a99a4b61b8502cf3f4d91a04_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"608\" data-qrcode-action=\"none\" data-original-token=\"v2-61fe2b69a99a4b61b8502cf3f4d91a04\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-f6d3ab12dbf5cf10c07a16897a7d31c4_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-61fe2b69a99a4b61b8502cf3f4d91a04_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><ul><ul><li data-pid=\"QuVmyh7O\">有水印：<br/>需要分流到其他服务器上</li></ul></ul><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5_eTKY0Y\">:page_facing_up:配置文件简解（分流、水印及水印位置）</p><p data-pid=\"VGSGs_Hz\"><b>完整配置文件：</b></p><blockquote data-pid=\"fxPUqI9a\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/ar414-com/nginx-rtmp-ffmpeg-conf/blob/master/nginx.conf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/ar414-com/ng</span><span class=\"invisible\">inx-rtmp-ffmpeg-conf/blob/master/nginx.conf</span><span class=\"ellipsis\"></span></a></blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hBjpkijE\"><b>9、RTMP配置</b></p><div class=\"highlight\"><pre><code class=\"language-text\">rtmp {\n    server {\n        listen 1935; #端口\n        chunk_size 4000;\n        #RTMP 直播流配置\n        application stream {\n            live on;\n            #添加水印及分流，这次方便测试直接分流到当前服务器hls\n            #实际生产一般都分流到直播云（腾讯云、阿某云、ucloud）\n            #只需把需要分流的地址替换即可\n            #有水印：rtmp://localhost:1935/hls/$name_wm\n            #无水印：rtmp://localhost:1935/hls/$name\n            exec ffmpeg -i rtmp://localhost:1935/stream/$name -i /opt/images/ar414.png\n              -filter_complex &#34;overlay=10:10,split=1[ar414]&#34;\n              -map &#39;[ar414]&#39; -map 0:a -s 1920x1080 -c:v libx264 -c:a aac -g 30 -r 30 -tune zerolatency -preset veryfast -crf 23 -f flv rtmp://localhost:1935/hls/$name_wm\n              -c:a libfdk_aac -b:a 128k -c:v libx264 -b:v 2500k -f flv -g 30 -r 30 -s 1920x1080 -preset superfast -profile:v baseline rtmp://localhost:1935/hls/$name;\n        }\n\n        application hls {\n            live on;\n            hls on;\n            hls_fragment 5;\n            hls_path /opt/data/hls;\n        }\n    }\n}</code></pre></div><p data-pid=\"nc1XVbpN\">如果需要推多个直播云则复制多个 exec ffmpeg即可 如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">application stream {\n    live on;\n    #分流至本机hls\n    exec ffmpeg -i rtmp://localhost:1935/stream/$name -i /opt/images/ar414.png\n      -filter_complex &#34;overlay=10:10,split=1[ar414]&#34;\n      -map &#39;[ar414]&#39; -map 0:a -s 1920x1080 -c:v libx264 -c:a aac -g 30 -r 30 -tune zerolatency -preset veryfast -crf 23 -f flv rtmp://localhost:1935/hls/$name_wm\n      -c:a libfdk_aac -b:a 128k -c:v libx264 -b:v 2500k -f flv -g 30 -r 30 -s 1920x1080 -preset superfast -profile:v baseline rtmp://localhost:1935/hls/$name;\n    \n    #分流至腾讯云\n    exec ffmpeg -i rtmp://localhost:1935/stream/$name -i /opt/images/ar414.png\n      -filter_complex &#34;overlay=10:10,split=1[ar414]&#34;\n      -map &#39;[ar414]&#39; -map 0:a -s 1920x1080 -c:v libx264 -c:a aac -g 30 -r 30 -tune zerolatency -preset veryfast -crf 23 -f flv rtmp://live-push.tencent.com/stream/$name_wm\n      -c:a libfdk_aac -b:a 128k -c:v libx264 -b:v 2500k -f flv -g 30 -r 30 -s 1920x1080 -preset superfast -profile:v baseline rtmp://live-push.tencent.com/stream/$name;\n\n    #分流至阿某云\n    exec ffmpeg -i rtmp://localhost:1935/stream/$name -i /opt/images/ar414.png\n      -filter_complex &#34;overlay=10:10,split=1[ar414]&#34;\n      -map &#39;[ar414]&#39; -map 0:a -s 1920x1080 -c:v libx264 -c:a aac -g 30 -r 30 -tune zerolatency -preset veryfast -crf 23 -f flv rtmp://live-push.aliyun.com/stream/$name_wm\n      -c:a libfdk_aac -b:a 128k -c:v libx264 -b:v 2500k -f flv -g 30 -r 30 -s 1920x1080 -preset superfast -profile:v baseline rtmp://live-push.aliyun.com/stream/$name;\n}</code></pre></div><p data-pid=\"Lm-WPTks\">以上内容来源：<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247492323%26idx%3D1%26sn%3D5244f60f83148167d0e55518ab38557c%26chksm%3De91887ffde6f0ee9af80ba3cdd1e9fba6a41cda82530a679f465c37b4c85a9db1eb672fa4973%26token%3D202706343%26lang%3Dzh_CN%23rd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">5 分钟完成 Nginx 直播服务部署（直播 + 分流 + 画面水印）</a></p><h3>Nginx 流量拷贝</h3><p data-pid=\"hdjvQk6W\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247491997%26idx%3D1%26sn%3D6947541d9447dc8a0bb9114fbfe0a279%26chksm%3De9188481de6f0d979bca292fd41ca646cc461b17d9253ed95e21b3fad2ff06f71d91fb4d2da5%26token%3D202706343%26lang%3Dzh_CN%23rd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nginx 又一牛X的功能！流量拷贝</a></p><h3><b>限流</b></h3><p data-pid=\"icDBs-rh\">Nginx的限流模块，是基于漏桶算法实现的，在高并发的场景下非常实用。<br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3192e61758bd73230f581c3ffc4570a1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"360\" data-original-token=\"v2-3192e61758bd73230f581c3ffc4570a1\" data-default-watermark-src=\"https://pic4.zhimg.com/v2-86636f0263352102eadf1b76ba5848f7_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://picx.zhimg.com/v2-3192e61758bd73230f581c3ffc4570a1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"K8Gg_4oC\"><b>1、配置参数</b></p><p data-pid=\"xv2bc29J\">1）limit_req_zone定义在http块中，$binary_remote_addr 表示保存客户端IP地址的二进制形式。</p><p data-pid=\"6k_MwCr9\">2）Zone定义IP状态及URL访问频率的共享内存区域。zone=keyword标识区域的名字，以及冒号后面跟区域大小。16000个IP地址的状态信息约1MB，所以示例中区域可以存储160000个IP地址。</p><p data-pid=\"B2xfx9Ld\">3）Rate定义最大请求速率。示例中速率不能超过每秒100个请求。</p><p data-pid=\"8CXQ0qtC\"><b>2、设置限流</b></p><p data-pid=\"uSScZ3mw\">burst排队大小，nodelay不限制单个请求间的时间。</p><p data-pid=\"we6-DOmF\"><b>如有帮助，请点赞支持一波！！！关注一下吧</b><a href=\"https://www.zhihu.com/people/ae0e23f878ca61d271d857042a0c9d31\" class=\"internal\" target=\"_blank\">@民工哥</a><br/><br/><b><u><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/wDr0DHQ2sk1gHQXI2e-tJg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">邀你加入技术交流群，2023 我们一起卷！</a></u></b></p><p data-pid=\"jRNFe4F1\"><br/><b>如果本文对你有帮助的话，欢迎点赞&amp;转发，这对我继续分享&amp;创作优质文章非常重要。感谢！</b></p><p data-pid=\"yu9KtlrN\"><br/><b>推荐阅读</b></p><ul><li data-pid=\"JTeceCS6\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247520688%26idx%3D1%26sn%3De8cf00edb5112f40fb535725c815e5f8%26chksm%3De918f4acde6f7dba9eaca4c48b954ef58ce356fe303b1982f604581d4ac45faf3aea368a6b8c%26token%3D2101088756%26lang%3Dzh_CN%23rd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">神仙工具！百度网盘资源一键转存阿里云盘，YYDS</a></li><li data-pid=\"mqq27ATU\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247539081%26idx%3D2%26sn%3Dd7bf6e87400b2d4dce5190ec806be5fc%26chksm%3De9183c95de6fb583be78d4a3c2a0f5eb6b0d5afba4e1ac3d25ac51d1828e89504c9cb88f18cb%26token%3D853665004%26lang%3Dzh_CN%23rd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">终于卷完了！Redis 打怪升级进阶成神之路（2023 最新版）！</a></li><li data-pid=\"jB2uS6Sa\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26mid%3D2247537464%26idx%3D2%26sn%3De1c3aab270ee81d045584a10dcbe788b%26chksm%3De9183624de6fbf3255c6810f3c572ee4ea411d65bccf19c61e4ff98f32faf809e1f92a774618%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">终于卷完了！MySQL 打怪升级进阶成神之路（2023 最新版）！</a></li><li data-pid=\"QjhQG4mp\"><a href=\"https://zhuanlan.zhihu.com/p/645899384\" class=\"internal\" target=\"_blank\">最详细、最全面的学习教程！PostgreSQL 打怪升级进阶成神之路（2023最新版）</a></li><li data-pid=\"o7jrh4AI\"><a href=\"https://zhuanlan.zhihu.com/p/639895489\" class=\"internal\" target=\"_blank\">全网最全、最详细、最全面的 Hadoop大数据学习教程（ 2023最新版 ）</a></li><li data-pid=\"pTu4T_lf\"><a href=\"https://zhuanlan.zhihu.com/p/635445173\" class=\"internal\" target=\"_blank\">终于卷完了！ 全网最全、最详细、最全面的ElasticSearch 学习教程（ 2023最新版 ）</a></li><li data-pid=\"GVf8u6aH\"><a href=\"https://zhuanlan.zhihu.com/p/631801071\" class=\"internal\" target=\"_blank\">硬卷完了！MongoDB 打怪升级进阶成神之路（2023 最新版）！</a></li><li data-pid=\"5ZF4hcvB\"><a href=\"https://zhuanlan.zhihu.com/p/666512277\" class=\"internal\" target=\"_blank\">终于卷到位了！构建企业级监控运维管理平台（2023 最新版）！</a></li><li data-pid=\"EORo1fic\"><a href=\"https://zhuanlan.zhihu.com/p/665472425\" class=\"internal\" target=\"_blank\">硬卷完了！RabbitMQ 打怪升级进阶成神之路（2023最新版）</a></li><li data-pid=\"tPQcohzN\"><a href=\"https://zhuanlan.zhihu.com/p/654778770\" class=\"internal\" target=\"_blank\">最新、最全的 Zookeeper 打怪升级进阶成神之路（2023最新版）</a></li><li data-pid=\"dlYVi0CI\"><a href=\"https://zhuanlan.zhihu.com/p/650576420\" class=\"internal\" target=\"_blank\">终于产完了！Kafka 打怪升级进阶成神之路（2023最新版）</a></li></ul><p data-pid=\"QhA6ZIzQ\"><b>如有错误或其它问题，欢迎小伙伴留言评论、指正。如有帮助，欢迎点赞+转发分享。</b><br/>更多相关开源技术文章，请持续关注：<b><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/mp/homepage%3F__biz%3DMzI0MDQ4MTM5NQ%3D%3D%26hid%3D8%26sn%3D1db566bed001a8db6d9927540ccc2156%26scene%3D18%26uin%3D%26key%3D%26devicetype%3DWindows%2B10%2Bx64%26version%3D63030073%26lang%3Dzh_CN%26ascene%3D7%26fontgear%3D2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">民工哥知乎技术专栏</a></b></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 42346,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-814ff7a2e8c027a0933e64e93e0e8e1e_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 968,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3315339483}",
+      "attached_info": "CpQICJPQkOmnpPzilAEQBBoJNjMyODY4MjE4IPCBwKsGKIQCMANAbEpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9WgY3NzM5MTViIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgozMzE1MzM5NDgzigEIMjE0ODMwNzOqAQlyZWNvbW1lbmTCASBhZTBlMjNmODc4Y2E2MWQyNzFkODU3MDQyYTBjOWQzMfIBCggMEgZOb3JtYWzyASgIChIkZWU4YmFhMGItMTVjNy00MDJkLTg5MGUtZWMwMDliYWIyYWY18gEGCAsSAjE5ggIAiAKfjar5jDOSAiBhZTBlMjNmODc4Y2E2MWQyNzFkODU3MDQyYTBjOWQzMZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AID+gILTk9STUFMX0ZMT1eKAyA4NjZjNDNlZmRjYjI0YWQ0OWYyNDIwMTY4ZGU0ZTc3OZoDDQoCdjIQABoFb3RoZXKoA+rKAtgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoDuQISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhCABRj+ASIjdjItNjM4MGIwMDMxNjExYTNlMjQxNDVhNmEyMmFlMzg1YjE6LQgCEO4HGJwEIiN2Mi1hY2E2NjRmM2Q4ODZjNTBmYjAyNWRhMjI3ZDhkNzBjYjotCAIQ/QUY0QMiI3YyLTkyMDY0OWI0NmViODJjM2MyOGI5YTdhNzNiMzBhM2QyOi0IAhDlBxiTBiIjdjItYmYzNzVhYzZiODNkNzY2ZDRiYWY4NzY4NmI4NDkxNGI6LQgDELgIGOAEIiN2Mi02MWZlMmI2OWE5OWE0YjYxYjg1MDJjZjNmNGQ5MWEwNDotCAIQgAUY6AIiI3YyLTMxOTJlNjE3NThiZDczMjMwZjU4MWMzZmZjNDU3MGExgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAoN7SpT+BBQAAAAAAAAAAiQXV+xwtN1XZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZuqAYBkgIlCgk2MzI4NjgyMTgSCjMzMTUzMzk0ODMYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "109_1755822327.45",
+      "type": "feed",
+      "offset": 109,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822327,
+      "updated_time": 1755822327,
+      "target": {
+        "id": "3437060502",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3437060502",
+        "author": {
+          "id": "2dc22b59a7609d5f93df9eb3ece6b123",
+          "url": "https://api.zhihu.com/people/2dc22b59a7609d5f93df9eb3ece6b123",
+          "user_type": "people",
+          "url_token": "zhao-tian-guan-guan-zhu",
+          "name": "朝天观观主",
+          "headline": "泡壶小茶，聊聊文史哲、影视，以及美食的那些事儿",
+          "avatar_url": "https://picx.zhimg.com/50/v2-47414169c75771fb415b1750ddc98ed0_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "教师资格证持证人"
+            }
+          ],
+          "followers_count": 3572,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1710907625,
+        "updated_time": 1726200916,
+        "voteup_count": 3644,
+        "thanks_count": 217,
+        "comment_count": 312,
+        "is_copyable": true,
+        "question": {
+          "id": "40301811",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/40301811",
+          "author": {
+            "id": "1d536285cb26c15c6d888ae661716744",
+            "url": "https://api.zhihu.com/people/1d536285cb26c15c6d888ae661716744",
+            "user_type": "people",
+            "url_token": "liang-xian-zi",
+            "name": "梁先姿",
+            "headline": "别猜了 这不是真名",
+            "avatar_url": "https://picx.zhimg.com/50/v2-f0dc76a6021fed3b24d7868fd4bae0a4_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 0,
+            "followers_count": 118,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "《西游记》里的猪八戒为何要打死杏仙？",
+          "created": 1455218133,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 4,
+          "bound_topic_ids": [
+            2279,
+            5823,
+            7675,
+            41150,
+            42401
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "因为这一回的危机藏得很文雅，所以很多人没看出来，以为这几个树妖没恶意，但孙悟空是明白的。 以前回答过类似的问题，现在复制一下。 此一回书中隐藏手段有限，只是吟诗作对和论道的文字遮住了表面，看得人有些不知所云。也有不少人认为孙悟空小题大做，让猪八戒打杀了这些树精，不应该。其实只要绕过这些诗歌和论道内容，也就知道到底在说什么了。而且末了生怕读者不明白，又把杏仙拉出来向唐三藏求欢，一下子就挑明了这些树精…",
+        "excerpt_new": "因为这一回的危机藏得很文雅，所以很多人没看出来，以为这几个树妖没恶意，但孙悟空是明白的。 以前回答过类似的问题，现在复制一下。 此一回书中隐藏手段有限，只是吟诗作对和论道的文字遮住了表面，看得人有些不知所云。也有不少人认为孙悟空小题大做，让猪八戒打杀了这些树精，不应该。其实只要绕过这些诗歌和论道内容，也就知道到底在说什么了。而且末了生怕读者不明白，又把杏仙拉出来向唐三藏求欢，一下子就挑明了这些树精…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"vs2j6wuV\">因为这一回的危机藏得很文雅，所以很多人没看出来，以为这几个树妖没恶意，但孙悟空是明白的。</p><p data-pid=\"sWtKOg4w\">以前回答过类似的问题，现在复制一下。</p><p data-pid=\"IIAcVbBp\">此一回书中隐藏手段有限，只是吟诗作对和论道的文字遮住了表面，看得人有些不知所云。也有不少人认为孙悟空小题大做，让猪八戒打杀了这些树精，不应该。其实只要绕过这些诗歌和论道内容，也就知道到底在说什么了。而且末了生怕读者不明白，又把杏仙拉出来向唐三藏求欢，一下子就挑明了这些树精花妖不怀好意的本质。</p><p data-pid=\"oOQgOYYI\">高洁之士能干这事儿？</p><p data-pid=\"tHtOfpDQ\">只是骂得还是有点拐弯儿了！不过要是一些人，比如说唐代终南捷径那批人和宋代的一些士大夫看见这段文字，估计得喷出一口老血，鼻子都气歪了。蒲松龄要是看见了，估计会尴尬地笑上一笑。吴敬梓看到了估计会抚掌大笑，直言快哉。</p><p data-pid=\"kKLhW4gO\">孙悟空听完师父说的事儿，就明白这是群什么玩意儿了，留着当然是祸根，留不得！</p><p data-pid=\"JltczfXy\">八百里荆棘岭这一段，有人认为是后来人写的加进去的，不过从契合《西游记》主题以及情节设定上看其实还是融入了这本书中，可谓锦上添花。</p><p data-pid=\"Qqo1Un26\">丹道理论解释是说八百里荆棘岭乃人下身体毛，芜杂密布，象征人旺盛的情欲。同时也指人修持心性遇到的种种认知困境，如同荆棘把人围了起来。用现在话说就是认知茧房，或者说弗朗西斯·培根提出的“洞穴假象”：指存在于每个人所特有的天性之中，由于心理或生理的特殊结构的差异，或由于所受教育和所崇拜的权威不同，或由于所处环境和生活习惯的不同而产生的特有的局限性。把人认知局限困住了。</p><p data-pid=\"EHqOKVL4\">这个猜测其实比较接近本章节的内涵了，有这方面的意思。</p><p data-pid=\"JEvT6LB6\">此外还有一个，就是人的名利心如同荆棘困住人的心智。</p><blockquote data-pid=\"ba0I9Zmw\">全真七子之一的丹阳子马钰曾作过一首《满庭芳》：“昔年名利，役碎顽心。气财酒色深沈。方寸之间，荆棘仿佛成林。因遇风仙省悟，觉从前、罪业弥深。便改正，便改正改正。改正改正。游历天心地肺，结云朋霞友，月伴风邻。自在逍遥快乐，绝尽搜寻。假使贫人退道，得荣华、富贵人钦。我不肯，我不肯不肯，不肯不肯。”</blockquote><p data-pid=\"NeyYVOuX\">那么书中的木仙庵众精是否也如此？</p><p data-pid=\"GALMtfVP\">表面上看，四老谈吐风雅、扮相不俗，此一回诗歌云集，纵然是妖也是妖中隐士，那么事实真的如此吗？</p><p data-pid=\"WiRLmOEJ\">“行者道：“十八公乃松树，孤直公乃柏树，凌空子乃桧树，拂云叟乃竹竿，赤身鬼乃枫树，杏仙即杏树，女童即丹桂、腊梅也。””</p><p data-pid=\"5BhgWPAS\">其实那四老，出场的诗歌里就已经有些端着了。</p><p data-pid=\"RMJ19UaF\">“三藏道：“四翁尊寿几何？”孤直公道：“我岁今经千岁古，撑天叶茂四时春。香枝郁郁龙蛇状，碎影重重霜雪身。自幼坚刚能耐老，从今正直喜修真。乌栖凤宿非凡辈，落落森森远俗尘。”凌空子笑道：“吾年千载傲风霜，高干灵枝力自刚。夜静有声如雨滴，秋晴荫影似云张。盘根已得长生诀，受命尤宜不老方，留鹤化龙非俗辈，苍苍爽爽近仙乡。”拂云叟笑道：“岁寒虚度有千秋，老景潇然清更幽。不杂嚣尘终冷淡，饱经霜雪自风流。七贤作侣同谈道，六逸为朋共唱酬。戛玉敲金非琐琐，天然情性与仙游。”</p><p data-pid=\"te7wR331\"> 劲节十八公笑道：“我亦千年约有余，苍然贞秀自如如。堪怜雨露生成力，借得乾坤造化机。万壑风烟惟我盛，四时洒落让吾疏。盖张翠影留仙客，博弈调琴讲道书。””</p><p data-pid=\"yqQEggpE\">这些话写在诗歌里头美得很，其实翻译过来就是我这人性情高洁，往来的都是贤人名士，不和那些俗人掺和。</p><p data-pid=\"CUGIMzWv\">后头几人联句作诗，四老的诗歌是怎么说的？</p><blockquote data-pid=\"p9Ak9WEL\">“十八公道：“老拙无能，大胆僭越，也勉和一首。”云：“劲节孤高笑木王，灵椿不似我名扬。山空百丈龙蛇影。泉泌千年琥珀香。解与乾坤生气概，喜因风雨化行藏。衰残自愧无仙骨，惟有苓膏结寿场。”孤直公道：“此诗起句豪雄，联句有力，但结句自谦太过矣，堪羡！堪羡！老拙也和一首。”云：“霜姿常喜宿禽王，四绝堂前大器扬。露重珠缨蒙翠盖，风轻石齿碎寒香。长廊夜静吟声细，古殿秋阴淡影藏。元日迎春曾献寿，老来寄傲在山场。”凌空子笑而言曰：“好诗！好诗！真个是月胁天心，老拙何能为和？但不可空过，也须扯谈几句。”曰：“梁栋之材近帝王，太清宫外有声扬。晴轩恍若来青气，暗壁寻常度翠香。壮节凛然千古秀，深根结矣九泉藏。凌云势盖婆娑影，不在群芳艳丽场。”拂云叟道：“三公之诗，高雅清淡，正是放开锦绣之囊也。我身无力，我腹无才，得三公之教，茅塞顿开，无已，也打油几句，幸勿哂焉。”诗曰：“淇澳园中乐圣王，渭川千亩任分扬。翠筠不染湘娥泪，班箨堪传汉史香。霜叶自来颜不改，烟梢从此色何藏？子猷去世知音少，亘古留名翰墨场。””</blockquote><p data-pid=\"EzjBnSCm\">杏仙来后的诗又是怎么说的？</p><blockquote data-pid=\"SM3xb5pb\">“上盖留名汉武王，周时孔子立坛场。董仙爱我成林积，孙楚曾怜寒食香。雨润红姿娇且嫩，烟蒸翠色显还藏。自知过熟微酸意，落处年年伴麦场。”</blockquote><p data-pid=\"10ANb7Au\">这几个，前面说非俗人，也不屑与俗人来往，然而诗歌之中或明或暗，都有一个“名”字。身在空山，心存名利啊！</p><p data-pid=\"qzo4_1jB\">你说这还是真隐士吗？古人云：诗言其志。甭管作得好坏，甭管真情假意，写出来都得是表述一番感情。这几个不住自吹，又是不屑与俗人往来，又是自夸名头。实则可不是什么恭谦虚怀的高洁心态，妥妥的自命清高、实则满肚子名利，只是未得气候一时不好肆意展露罢了。</p><p data-pid=\"MtYmnFNM\">唐三藏开始没起疑心，就算知道这几个是妖物，但是见他们谈吐不俗，又盛情邀请，也真的不计较伪装土地做法掳劫之事。见谈道论诗，也真的参与进来了，全当他们是一番好意与雅致，哪里想到自己不知不觉就进了圈套？这四个老怪，假作清高、故弄风雅，实则是败人根本的大忽悠！</p><p data-pid=\"2nQ0bB2K\">先说论道。</p><p data-pid=\"CcxHmMMX\">拂云叟心急，言语间差点露了马脚，再论下去只怕真的露馅了。唐三藏一时没回过神来，就被凌空子把话岔开了，就没深琢磨。</p><blockquote data-pid=\"Uds6FsAU\">“拂云叟道：“禅虽静，法虽度，须要性定心诚，纵为大觉真仙，终坐无生之道。我等之玄，又大不同也。”三藏云：“道乃非常，体用合一，如何不同？”拂云叟笑云：“我等生来坚实，体用比尔不同。感天地以生身，蒙雨露而滋色。笑傲风霜，消磨日月。一叶不凋，千枝节操。似这话不叩冲虚，你执持梵语。道也者，本安中国，反来求证西方。空费了草鞋，不知寻个甚么？石狮子剜了心肝，野狐涎灌彻骨髓。忘本参禅，妄求佛果，都似我荆棘岭葛藤谜语，萝苽浑言。此般君子，怎生接引？这等规模，如何印授？必须要检点见前面目，静中自有生涯。没底竹篮汲水，无根铁树生花。灵宝峰头牢着脚，归来雅会上龙华。”三藏闻言叩头拜谢，十八公用手搀扶，孤直公将身扯起，凌空子打个哈哈道：“拂云之言，分明漏泄。圣僧请起，不可尽信。我等趁此月明，原不为讲论修持，且自吟哦逍遥，放荡襟怀也。””</blockquote><p data-pid=\"k_mX9tL0\">很多人读到这里，一个不小心就中了圈套，给绕进去了。什么佛道之争，什么无须取经的猜想全都出来了。</p><p data-pid=\"aYr3FRa-\">实际上都上了恶当。</p><p data-pid=\"dkHGshli\">他这番话，半真半假，因此迷惑性极强。</p><p data-pid=\"htda_DCm\">确实，灵山只在你心头，真悟了，也不用千山万水取真经，所谓无字真经、以心传法说得就是这个意思。可套上他前面的话，这话就只能是忽悠人了。</p><p data-pid=\"JVXDIoLR\">可拂云叟前面说了什么？</p><blockquote data-pid=\"3l7Z0eRp\">“道也者，本安中国，反来求证西方。空费了草鞋，不知寻个甚么？”</blockquote><p data-pid=\"XfVi6gk1\">哎呀，这么一捧，谁听了不高兴啊？是吧，我中国自有大道，还求什么别的呀！一群人乐坏了。却不知这正上了当。</p><p data-pid=\"y_Y-dp38\">老子谈道，怎么说的？</p><blockquote data-pid=\"n09JF1LU\">“不自见，故明；不自是，故彰；不自伐，故有功；不自矜，故长。夫唯不争，故天下莫能与之争。”</blockquote><p data-pid=\"TfYRTeaH\">庄子叹道，怎么说的？</p><blockquote data-pid=\"g1W0FcBA\">“蜩与学鸠笑之曰：“我决起而飞，抢榆枋而止，时则不至，而控于地而已矣，奚以之九万里而南为？”适莽苍者，三餐而反，腹犹果然；适百里者，宿舂粮；适千里者，三月聚粮。之二虫又何知！小知不及大知，小年不及大年。奚以知其然也？”<br/>“至人无己、神人无功、圣人无名。”</blockquote><p data-pid=\"_ZCptM4u\">这才是有道之人的视角。</p><p data-pid=\"2pj93Jew\">无论自己是否有才能，不要去自以为是，自恃强横，否则久而久之，反而遮蔽了自己的耳目，陷入自大盲目的认知陷阱里，就如同蜩与学鸠一样。</p><p data-pid=\"TkS7KIGV\">《诗经》有云：“他山之石，可以攻玉。”《荀子》曰：“君子性非异也，善假于物也。”</p><p data-pid=\"0E7He57H\">从这点来说，拂云叟修的道是歪的，无己无为根本没有做到，而且自夸心理特别严重，因此尤为注重名利。他都忘了前面自己刚说完：“我等生来坚实，体用比尔不同。”他自己还知道自己不是人，那也就是悟的和人毕竟不同，因为“体用不同”，那你怎么能用草木之悟来往人身上套呢？</p><p data-pid=\"JZ-NyrC9\">发现问题所在了吧？</p><p data-pid=\"af723JEt\">只是这一捧+灵山只在你心头的话，一下子说到唐三藏心里去了，他一时间没反应过来。凌空子担心露了马脚，急忙岔开话题。</p><blockquote data-pid=\"5gODKAjv\">“凌空子打个哈哈道：“拂云之言，分明漏泄。圣僧请起，不可尽信。我等趁此月明，原不为讲论修持，且自吟哦逍遥，放荡襟怀也。”</blockquote><p data-pid=\"1rqm2VHs\">作诗这里，四老也没安好心，逐步引诱。</p><p data-pid=\"YYHQ_Uev\">唐三藏开始说的是：“禅心似月迥无尘。”</p><p data-pid=\"7QDWMTW3\">四老急忙句句歪曲。</p><p data-pid=\"uwplAkvL\">“劲节老笑而即联道：“诗兴如天青更新。”孤直公道：“好句漫裁抟锦绣。”凌空子道：“佳文不点唾奇珍。”拂云叟道：“六朝一洗繁华尽，四始重删雅颂分。””而且非让唐三藏接出最后两句。</p><p data-pid=\"jA4XhsB-\">“三藏只得续后二句云：“半枕松风茶未熟，吟怀潇洒满腔春。””</p><p data-pid=\"IY5ZPNOd\">得，诗意就变味了。</p><p data-pid=\"w600hdWB\">开头一句唐三藏望见明月认为修禅当如明月无尘，这没什么问题。劲节十八公急忙说“作诗的兴致好像如转青天一般”，这里面可就歪了一歪。人家三藏说无尘，他说的“青更新”，一下子就把第一句的静态换成了动态。</p><p data-pid=\"XTLbeezS\">孤直公顺着说“好句子做得就像锦绣聚集一般”，凌空子说“好文一气呵成真是奇珍”，用繁缛华丽的辞藻继续点缀动态语境。拂云叟接着往上一捧“六朝一洗繁华尽，四始重删雅颂分”。</p><p data-pid=\"4E5sYVJ0\">好嘛，三藏这诗好得都压过了以繁缛华丽著称的六朝诗歌，连诗歌史都得重新排列了。</p><p data-pid=\"3hovV2_2\">这一下子把唐三藏吹捧上了天，静态的文字彻底被辞藻和动态描写、评价给压倒了。这个时候，结尾的尾联按照作诗的套路可就回不到开始时的禅心了。</p><p data-pid=\"ny0pvplm\">因此，唐三藏有点警惕地推辞：“弟子不能，烦十八公结而成篇为妙。”可被对面拿话挤兑住，只好把最后两句“半枕松风茶未熟，吟怀潇洒满腔春”。</p><p data-pid=\"qqQPbIRZ\">心境顿时变了。</p><p data-pid=\"pKVIpZ4E\">这就是四老利用诗歌言志特点，通过设计，逆向影响唐三藏的禅心的意图。</p><p data-pid=\"ZrghSxX8\">见唐三藏禅心动摇，就打算乘胜追击，而且利用吹捧的名利场手段蛊惑。</p><p data-pid=\"BZa0-JBd\">“孤直公道：“圣僧乃有道之士，大养之人也。不必再相联句，请赐教全篇，庶我等亦好勉强而和。”三藏无已，只得笑吟一律曰：“杖锡西来拜法王，愿求妙典远传扬。金芝三秀诗坛瑞，宝树千花莲蕊香。百尺竿头须进步，十方世界立行藏。修成玉象庄严体，极乐门前是道场。””</p><p data-pid=\"n-joUVQu\">这就有了对自己的憧憬，或者说动了妄念了。</p><p data-pid=\"-NNgpWsJ\">借此机会，四老把刚才上文说的含有名利的诗歌一一展示，来扰乱唐三藏的意志。见时机差不多了，就让杏仙登场了。</p><p data-pid=\"85L-GfTw\">杏仙又是奉茶，又是作诗，弄得唐三藏手足无措，心就乱了。</p><p data-pid=\"ZzJCryf3\">这时候四老可就不高洁了。</p><blockquote data-pid=\"9hD_DXRQ\">“十八公道：“杏仙尽有仰高之情，圣僧岂可无俯就之意？如不见怜，是不知趣了也。”孤直公道：“圣僧乃有道有名之士，决不苟且行事。如此样举措，是我等取罪过了。污人名，坏人德，非远达也。果是杏仙有意，可教拂云叟与十八公做媒，我与凌空子保亲，成此姻眷，何不美哉！””</blockquote><p data-pid=\"SzpSkw3V\">琢磨琢磨这是什么虎狼之词？</p><p data-pid=\"ifEScQkG\">好在唐三藏经历过女儿国和琵琶洞，这事儿有免疫力，一琢磨不对劲儿立马严厉拒绝，他们见软磨不成，便让赤身鬼使威胁上了。</p><p data-pid=\"gHXp21JJ\">事到如今，唐三藏算是彻底明白所谓“雅会”的真面目是什么了。</p><p data-pid=\"6Rt-p6lV\">唐三藏把事说给孙悟空，虽然诗歌内容没详说，但谈诗吟咏，高雅的事儿鼓捣出保媒联姻的调调，孙悟空何等悟性？一下子就懂了。</p><p data-pid=\"BO9JM87K\">“行者道：“师父不可惜他，恐日后成了大怪，害人不浅也。”那呆子索性一顿钯，将松柏桧竹一齐皆筑倒，却才请师父上马，顺大路一齐西行。”</p><p data-pid=\"8UdjNuJT\">听了孙悟空的话唐三藏也就没再阻拦，因为这风雅陷阱里的凶险真的十分厉害，若不是他经过了女儿国和琵琶洞，保不齐就完了。</p><p data-pid=\"Ar1CY18t\">这才是木仙庵的真相和杀机所在。</p><p data-pid=\"4WGSgdAe\">作者通过这段故事讥讽一些故作清高、实则别有所图的知识分子，嘲讽他们身在山中，却心在名利场。而且是假作风雅，实则暗含龌龊勾当。至于杏仙的形象，这就好比《聊斋志异》中那些书生遇狐鬼一样，真性情之外不也是读书人“书中自有颜如玉”的痴想？</p><p data-pid=\"uq6BHx3R\">多年后，鲁迅先生在杂文中犀利地痛斥这一类人的心理状态：““下等人”还未暴发之先，自然大抵有许多“他MD”在嘴上，但一遇机会，偶窃一位，略识几字，便即文雅起来：雅号也有了；身分也高了；家谱也修了，还要寻一个始祖，不是名儒便是名臣。从此化为“上等人”，也如上等前辈一样，言行都很温文尔雅。然而愚民究竟也有聪明的，早已看穿了这鬼把戏，所以又有俗谚，说：“口上仁义礼智，心里男盗女娼！”他们是很明白的。”</p><p data-pid=\"FhDv5mFk\">在大众眼中，知识分子掌握知识，吾辈当然是万万不能轻慢之的。就连这四个字，也当金字裱上，牌匾高挂。早晚三炷香，钟磬侍奉。大抵是其智慧超然，不经大众参与，一人天才设想，一挥而就便组装完毕，呈现世间。不经运售，便可飞入千家万户，泽被苍生。</p><p data-pid=\"7bqABc8Y\">然而大多数人忘了，一代宗师这个名头，张三丰当得，欧阳锋当得，星宿老仙其实也当得！又忘了面包不是糕点师光写好配方就能变出来的！</p><p data-pid=\"cnFEPwNK\"><b>这里还得补充一点内容：认为杏仙怎么怎么无辜的。我说个事儿，历史上玄奘法师在长安的高徒辩机（小说《西游记》里也出场了）就是因为没挡住诱惑，和太宗皇帝的女儿高阳公主搞到一起去了（据说开始也是学佛谈文化，结果谈着谈着，后来谈床上去了）。结果事情闹大了，太宗皇帝腰斩辩机！至于高阳公主，没事儿！后来还参与造高宗皇帝的反！</b></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 305617,
+        "favorite_count": 1999,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 3437060502}",
+      "attached_info": "CqwFCJPQkOmnpPzilAEQBBoJNjU0OTk0NTMzIOnB6a8GKLwcMLgCQG1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMhIBMBgAIAA6CnsicmF3IjoiIn1aBzgzMjgwMzhiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3cgozNDM3MDYwNTAyigEINDAzMDE4MTGqAQlyZWNvbW1lbmTCASAyZGMyMmI1OWE3NjA5ZDVmOTNkZjllYjNlY2U2YjEyM/IBCggMEgZOb3JtYWzyASgIChIkOTVkNTgwMjctZjY1OC00ZDNlLWJhNzYtY2E5M2I2YzI0ZDY08gEGCAsSAjE5ggIAiAKfjar5jDOSAiAyZGMyMmI1OWE3NjA5ZDVmOTNkZjllYjNlY2U2YjEyM5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZdoCFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjLoAgP6AgtOT1JNQUxfRkxPV4oDIDg2NmM0M2VmZGNiMjRhZDQ5ZjI0MjAxNjhkZTRlNzc5mgMNCgJ2MhAAGgVvdGhlcqgD0dMS2AMA6gMOZmVlZHJlX21zX2dhdGX6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAYCs2sz+BBQAAAAAAAAAAiQXV+xwtN1XZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZvqAYDkgIlCgk2NTQ5OTQ1MzMSCjM0MzcwNjA1MDIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "110_1755822327.448",
+      "type": "feed",
+      "offset": 110,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822327,
+      "updated_time": 1755822327,
+      "target": {
+        "id": "1941894748924273531",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941894748924273531",
+        "author": {
+          "id": "34b88c9c3d1af226a146d152daa4eea3",
+          "url": "https://api.zhihu.com/people/34b88c9c3d1af226a146d152daa4eea3",
+          "user_type": "people",
+          "url_token": "33-22-69-32",
+          "name": "余说不说谎",
+          "headline": "非老粉不回私信，有问题付费咨询。知识星球：余说的学习基地",
+          "avatar_url": "https://picx.zhimg.com/50/v2-cfe823b533531cc19121cf745ca0f59a_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "社会工作行业 执行总裁"
+            }
+          ],
+          "followers_count": 39578,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755763786,
+        "updated_time": 1755766068,
+        "voteup_count": 119,
+        "thanks_count": 20,
+        "comment_count": 9,
+        "is_copyable": true,
+        "question": {
+          "id": "612900819",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/612900819",
+          "author": {
+            "id": "ec547a73c6a52935e957ddc6a7cdc5c2",
+            "url": "https://api.zhihu.com/people/ec547a73c6a52935e957ddc6a7cdc5c2",
+            "user_type": "people",
+            "url_token": "liu-zhi-zhang-86",
+            "name": "Mistletoe",
+            "headline": "互联网从业",
+            "avatar_url": "https://picx.zhimg.com/50/v2-a5092b1041e6135567553193c7bcb2af_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 2095,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "直播到底是谁在刷礼物？",
+          "created": 1689755445,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 2,
+          "bound_topic_ids": [
+            14623,
+            21973
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "主要是三类人： 一类是底层重体力工作牛马。 一类是暴发户土鳖富二代。 一类是野路子灰产大佬。 分开来说，第一类。 以流水线工人、物流工人、农民工、外卖小哥等缺乏异性社交的体力劳动者为主。虽然收入不算高，但他们是真把自己不当人。 一个月七八千收入，就给自己留一两千。 剩下的全丢给主播了，甚至很多人平时都攒着存个好几万，然后几个小时就全刷出去了。 这就是他们唯一的心灵寄托和精神消费。 我中学的时候有段时间很…",
+        "excerpt_new": "主要是三类人： 一类是底层重体力工作牛马。 一类是暴发户土鳖富二代。 一类是野路子灰产大佬。 分开来说，第一类。 以流水线工人、物流工人、农民工、外卖小哥等缺乏异性社交的体力劳动者为主。虽然收入不算高，但他们是真把自己不当人。 一个月七八千收入，就给自己留一两千。 剩下的全丢给主播了，甚至很多人平时都攒着存个好几万，然后几个小时就全刷出去了。 这就是他们唯一的心灵寄托和精神消费。 我中学的时候有段时间很…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"r_2ziVmi\">主要是三类人：</p><p data-pid=\"u8_9r9hJ\"><b>一类是底层重体力工作牛马。</b></p><p data-pid=\"yyYoMopg\"><b>一类是暴发户土鳖富二代。</b></p><p data-pid=\"cw9-5UGr\"><b>一类是野路子灰产大佬。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"C44sfmvQ\"><b>分开来说，第一类。</b></p><p data-pid=\"jOSA3ghq\"><b>以流水线工人、物流工人、农民工、外卖小哥等缺乏异性社交的体力劳动者为主。</b></p><p data-pid=\"ZqgBUX1D\">虽然收入不算高，但他们是真把自己不当人。</p><p data-pid=\"yykRLzsk\">一个月七八千收入，就给自己留一两千。</p><p data-pid=\"ZsxBmCoX\">剩下的全丢给主播了，甚至很多人平时都攒着存个好几万，然后几个小时就全刷出去了。</p><p data-pid=\"jXhfpHr8\">这就是他们唯一的心灵寄托和精神消费。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"PAZGiV4H\">我中学的时候有段时间很喜欢玩DNF。</p><p data-pid=\"rItCk_5L\">DNF里服务器喇叭大概是三四块钱一个。</p><p data-pid=\"5VfcoUfD\">作用就是只要你发言，全服务器的人都能看到，并且你的发言还会有尊贵的黄字标记。</p><p data-pid=\"b5b5yoCz\">我就经常看到有些人一刷就是几百上千个。</p><p data-pid=\"A9QNlVX4\">有的是点名喷人，有的是把喇叭当聊天框，明明直接私信就可以聊，硬是要每条花三四块。</p><p data-pid=\"SS_m020b\">甚至还有的就是单纯刷着玩，啥也不说就硬刷，就那里计数字，从个位数到四位数。</p><p data-pid=\"CUwiLFsD\">然后留下一片吃瓜群众的膜拜声：“豪！”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Milvbgum\">我当时就心想，这尼玛得多有钱啊？</p><p data-pid=\"eheo6LIV\">毕竟我只有在卖装备出货时才舍得刷。</p><p data-pid=\"tQmwEnmY\">一个喇叭三四块，一刷就是上千条，几千块。</p><p data-pid=\"YtwaJvYc\">这每天的净收入得有十多万吧？一年不得大几千万？</p><p data-pid=\"Q_k-m19K\">后来加了很多游戏公会，认识到一些所谓的“大佬”，根本就不是我想的那么回事。</p><p data-pid=\"xmKymF_E\">他们之中绝大多数一个月也就几千上万的收入，干得也多是装修、搬砖、看场小弟、流水线打工一类的辛苦活。</p><p data-pid=\"y1r8anzZ\">游戏账号上一套六位数的装备就是他们的全部身家，刷一次喇叭可能就小半个月工资没了。</p><p data-pid=\"nYo2QMA0\">那他们为什么还要把自己的血汗钱，拿去毫无意义地刷屏？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IBbxYgHo\">我后面想明白了，因为这一类人在现实中是完全失语的，毫无存在感。</p><p data-pid=\"rCk8z7KT\">被人当牛马役使，当工具使唤。</p><p data-pid=\"CNmEtWzE\">他们的想法无人重视，心声无人聆听。</p><p data-pid=\"UJvMZ6sQ\">在现实世界里得到尊重的难度太大。</p><p data-pid=\"ehuOB174\">即便在现实中买一套小三居，买一辆十多万的私家车，也只是芸芸众生里的一员。</p><p data-pid=\"6G8GIC9x\">收获的尊重和膜拜远不如在游戏里花几千上万刷几次喇叭。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ncIart56\">打赏女主播对他们而言也是同理，这并不是单纯受生理欲望驱动的求偶行为。</p><p data-pid=\"r2RGNw4p\">即便他们房车准备齐全，外加几十万的彩礼，也很难收获一个女人表面上的尊重和甜言蜜语。</p><p data-pid=\"wbXw8_q0\">反而是花几千、几万，就能在众多观众面前扬眉吐气一把。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"e3MSU7-W\">这也正是我所说的，绝大部分底层男人都没有出路的原因：</p><p data-pid=\"8fHtu67A\"><a href=\"https://www.zhihu.com/question/6668047646/answer/1938955147926566426\" class=\"internal\" target=\"_blank\">社会底层男人的出路在哪里？ - 知乎</a></p><p data-pid=\"B3dBrm3t\">因为他们还渴望被爱、被尊重。太在意别人对他的看法，而不是自己的切身利益。</p><p data-pid=\"bbsvQcGZ\"><b>他们既然都不把自己的切身利益当回事，那自然就有人去收割他们的利益。</b></p><p data-pid=\"xBcyinRC\"><b>除了擦边女主播以外，各种直播间或短视频里动不动给喊他们“家人”的套路也是同理。</b></p><p data-pid=\"lD0YES1P\"><b>这都是基因给他们留下的死结，天生的韭菜体质。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8PjSF75y\"><b>第二类：通过拆迁等意外方式暴富的富二代。</b></p><p data-pid=\"SBboMt3h\"><b>这类人可以说是女主播、传媒公司以及各类社会闲散人员的最爱，韭菜中的皇者，简称韭皇。</b></p><p data-pid=\"d9zSjMuu\">我之前提到过，很多地下流动赌场or诈骗团伙会专门去打听哪个地方要拆迁。</p><p data-pid=\"5mq3ymfo\">然后这些人，包括一些本地的流氓混混们就专门去和那些拆迁户的傻儿子们称兄道弟。</p><p data-pid=\"oo7nMA5g\">一口一个哥，呼前拥后，满足他们耍威风、受尊重的心理需求。</p><p data-pid=\"lnffnXXi\">然后让他们去赌场“干大事”、“见大佬”，或者是让他们出钱投资各种乱七八糟的项目。</p><p data-pid=\"-i8YEuqb\">“带兄弟们发发财”、“带兄弟们见见世面”</p><p data-pid=\"DktP54Ji\">相当于把这些人给架在火上。</p><p data-pid=\"t7b4FmaW\">你不去，先前给你捧起那么大场子，你怂了，这牌面可就没了。</p><p data-pid=\"dtZ8WrbL\">你去了，那你钱就没了。</p><p data-pid=\"7fhq_qvi\">总而言之，面子和里子，你一定得丢一项。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ysmkY498\">女主播也是差不多的道理，不过相比于上面那一套收割流程。女主播的收割目标更偏向于那种内向害羞的老实男。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aRT0lwS0\"><b>第三类：各路干灰产的。</b></p><p data-pid=\"wLERP1r7\">可能很多人会觉得这些干灰产都是有胆识、有魄力的，不会像前面两类人一样被拿捏。</p><p data-pid=\"EaX6qZ0J\">但其实搞灰产的和纯混黑的不一样，绝大部分搞灰产的，大多也是出身底层，穷苦人家的孩子。</p><p data-pid=\"m-oXhbnD\">再加上文化程度普遍偏低。</p><p data-pid=\"3XxdtkvV\">年轻时大多也都是狗都不理的那种。</p><p data-pid=\"PkFwEaM5\">因为抓住了一波风口和机会暴富，并且由于未来预期的不确定性。</p><p data-pid=\"oLOLzdDT\">导致他们很容易产生对自己童年匮乏的东西进行报复性补偿，养成一种“今朝有酒今朝醉”的心态。</p><p data-pid=\"AaJD3u1z\">各个主播间里的榜一大哥，大多都属于这类人。</p><p data-pid=\"8scmYbsr\">而且这些榜一大哥中，很多都是玩着玩着玩上头了，是真心想和女主播结婚的。</p><p data-pid=\"h_RXJWDt\">几千上万快闲得没事干拿去随便打赏有可能。几十几百万砸下去就图一乐没别的目的，别扯淡了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"W4YqjlWU\">其实很多传媒公司的老板，其早先也是干灰产起家的。</p><p data-pid=\"vsFJ7YYb\">开传媒公司的目的一是搞钱，二是洗钱，三是选妃。</p><p data-pid=\"8sKypa-L\" class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zHlZEGQm\">只不过灰产大佬的财富生命周期比传统富豪更短，靠胆子赚的钱最后也凭胆子亏了回去。</p><p data-pid=\"8NRFOqLm\">还有很多都是投入大量资源把自己的老婆/女友捧红了，自己生意不行了、东窗事发了。</p><p data-pid=\"nHkXW6XN\">然后就被一脚踢开，还被挂在网上成为流量密码。</p><p data-pid=\"5z0Pdi2K\">其性质差不多类似于以前的富豪找明星。</p><p data-pid=\"RkG39EdY\">你就看娶明星的富豪有几个好下场的。</p><p data-pid=\"lxIRSazf\">娶女主播的大佬也是同理。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5aY-OOtq\">总而言之，大手笔给女主播花钱的，主要就上面这三类人。</p><p data-pid=\"LCLeNieB\"><b>他们的共同特征就是：都是其所在社会阶层内的边缘群体。</b></p><p data-pid=\"4MnemAsg\">这个和贫富收入没太大关系，也不是很多人理解的爱压抑，他们爱个毛线。</p><p data-pid=\"SFJRPE_e\">主要是因为其在现实社会中的失语，无法通过正当的方式收获他人的尊重与认可。</p><p data-pid=\"_OYFuUpi\">于是就将女主播作为一面彰显自己社会成就感的战利品or勋章。</p><p data-pid=\"XisXFd6z\">就像以前的纨绔子弟or流氓混混追逐青楼头牌一样，在意的是那张皮吗？</p><p data-pid=\"g_1ro2CQ\">不是。</p><p data-pid=\"eGm4l_ib\"><b>打工仔将女主播视为寄托精神需求的女神，以此来满足自己的情感寄托和自我存在感的见证。</b></p><p data-pid=\"Yh5thGVT\"><b>有钱人则通过把这尊神像作为跨下玩物，来满足自己凌驾于普通人的优越感满足。</b></p><p data-pid=\"Sum7OZsV\"><b>两者看似形式不同，但原理殊途同归，都是需要一个符号来满足自己内心的空洞。</b></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 3894,
+        "favorite_count": 87,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941894748924273531}",
+      "attached_info": "CpkFCJPQkOmnpPzilAEQBBoJNzQzMjgxMzgwIMqom8UGKHcwCUBuSisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjISATAYACAAOgp7InJhdyI6IiJ9Wgg5ODQ4MDY4N2IgZjA3NWJiMDBjMjlmNGMzMzYyNWE1OWJiMzUxYWUwYTdyEzE5NDE4OTQ3NDg5MjQyNzM1MzGKAQk2MTI5MDA4MTmqAQlyZWNvbW1lbmTCASAzNGI4OGM5YzNkMWFmMjI2YTE0NmQxNTJkYWE0ZWVhM/IBCggMEgZOb3JtYWzyASgIChIkY2NiNmU4YjMtYzYwZS00MmY2LTk0ZDktYjlhZTIyZDBjMGE38gEGCAsSAjE5ggIAiAKfjar5jDOSAiAzNGI4OGM5YzNkMWFmMjI2YTE0NmQxNTJkYWE0ZWVhM5oCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhVVc2VyTGNuRXhpdFdlaWdodFJ1bGXaAhZUU19TT1VSQ0VfRkVFRFJFX01TX1Yy6AID+gILTk9STUFMX0ZMT1eKAyA4NjZjNDNlZmRjYjI0YWQ0OWYyNDIwMTY4ZGU0ZTc3OZoDDQoCdjIQABoFb3RoZXKoA7Ye2AMA6gMOZmVlZHJlX21zX2dhdGX6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABg3hOmP4EFAAAAAAAAAACJBdX7HC03Vdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBnCoBgCSAi4KCTc0MzI4MTM4MBITMTk0MTg5NDc0ODkyNDI3MzUzMRgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "111_1755822327.994",
+      "type": "feed",
+      "offset": 111,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822327,
+      "updated_time": 1755822327,
+      "target": {
+        "id": "1936500175456690949",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1936500175456690949",
+        "author": {
+          "id": "a8879dc10f6c9b9fe6eb6eb8bae9fb83",
+          "url": "https://api.zhihu.com/people/a8879dc10f6c9b9fe6eb6eb8bae9fb83",
+          "user_type": "people",
+          "url_token": "asking-67-18",
+          "name": "任先生",
+          "headline": "刘阮天台不误人",
+          "avatar_url": "https://picx.zhimg.com/50/v2-2a2a57f9ed7f57a0b817d71deb670d4b_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 5249,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1754477620,
+        "updated_time": 1754477620,
+        "voteup_count": 2099,
+        "thanks_count": 124,
+        "comment_count": 470,
+        "is_copyable": true,
+        "question": {
+          "id": "347114657",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/347114657",
+          "author": {
+            "id": "e9c1408e97beb023756295c4ba5ffaea",
+            "url": "https://api.zhihu.com/people/e9c1408e97beb023756295c4ba5ffaea",
+            "user_type": "people",
+            "url_token": "chi-xin-67",
+            "name": "伏兵",
+            "headline": "已退乎。",
+            "avatar_url": "https://pica.zhimg.com/50/v2-8ff10890377a1c7343ee848bf20d3a09_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "followers_count": 20,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "普通人为什么要学英语？",
+          "created": 1569052862,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 14,
+          "bound_topic_ids": [
+            2748,
+            2511905,
+            2542051
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "我记得一年前，有个记者建议全红婵，让她学好英语，留一条后路。 结果网友群起而攻之，说记者没见识，什么档次就敢跟奥运冠军提人生意见。 结果呢？全红婵状态急剧下滑，由于控制不了体重，暂时也找不回状态。 说明这记者是有先见之明的，全红婵这种家庭的，尽管拿过世界冠军，但是咱们国家世界冠军奥运冠军多了，比起陈芋汐、张家齐的家世，陈芋汐家里有严格的家风，人也足够自律，张家齐占个可爱，家庭背景也不错，也会讨好镜…",
+        "excerpt_new": "我记得一年前，有个记者建议全红婵，让她学好英语，留一条后路。 结果网友群起而攻之，说记者没见识，什么档次就敢跟奥运冠军提人生意见。 结果呢？全红婵状态急剧下滑，由于控制不了体重，暂时也找不回状态。 说明这记者是有先见之明的，全红婵这种家庭的，尽管拿过世界冠军，但是咱们国家世界冠军奥运冠军多了，比起陈芋汐、张家齐的家世，陈芋汐家里有严格的家风，人也足够自律，张家齐占个可爱，家庭背景也不错，也会讨好镜…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"bVIBkH7P\">我记得一年前，有个记者建议全红婵，让她学好英语，留一条后路。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"j1PwSBY5\">结果网友群起而攻之，说记者没见识，什么档次就敢跟奥运冠军提人生意见。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GDFwzIns\">结果呢？全红婵状态急剧下滑，由于控制不了体重，暂时也找不回状态。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZixDWcL5\">说明这记者是有先见之明的，全红婵这种家庭的，尽管拿过世界冠军，但是咱们国家世界冠军奥运冠军多了，比起陈芋汐、张家齐的家世，陈芋汐家里有严格的家风，人也足够自律，张家齐占个可爱，家庭背景也不错，也会讨好镜头讨好观众，退役了以后人家做解说也很好，这俩都一看就是家里有家底的家庭，陈芋汐尤其落落大方，情商极高，退役后做教练做官员都有前途。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rolVBQD7\">全红婵的场下表现，几乎是口不能言，情商也谈不上高，所凭借的就是跳水天赋，这个跳水天赋在她体重上涨后还荡然无存，学好英语，不能算是一个完全正确的选择，但是绝对是一个不坏的选择。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1dVhsd1v\">这算一个过来人的经验之谈。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kC7Mk4yc\">可惜大多数底层家庭的人，无论是网友还是全本人，当正确建议来到的时候，根本不能识别什么是有价值的。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 211711,
+        "favorite_count": 549,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1936500175456690949}",
+      "attached_info": "CrcFCJPQkOmnpPzilAEQBBoJNzQwODUyODAzILTozMQGKLMQMNYDQG9KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMhIBMBgAIAA6CnsicmF3IjoiIn1aCDM5NDE0NTY3YiBmMDc1YmIwMGMyOWY0YzMzNjI1YTU5YmIzNTFhZTBhN3ITMTkzNjUwMDE3NTQ1NjY5MDk0OYoBCTM0NzExNDY1N6oBCXJlY29tbWVuZMIBIGE4ODc5ZGMxMGY2YzliOWZlNmViNmViOGJhZTlmYjgz8gEKCAwSBk5vcm1hbPIBKAgKEiQwNTAzODFhNC0xZmYyLTRkYTctOWM0ZS1hOTFjYTlhMzQwMjHyAQYICxICMTmCAgCIAp+NqvmMM5ICIGE4ODc5ZGMxMGY2YzliOWZlNmViNmViOGJhZTlmYjgzmgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCFVVzZXJMY25FeGl0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WMugCAvoCC05PUk1BTF9GTE9XigMgODY2YzQzZWZkY2IyNGFkNDlmMjQyMDE2OGRlNGU3NzmaAw0KAnYyEAAaBW90aGVyqAP/9QzYAwDqAw5mZWVkcmVfbXNfZ2F0ZfoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQGbWFudWFswgQDMTcwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAABgoZCzP4EFAAAAAAAAAACJBdX7HC03Vdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBnGoBgCSAi4KCTc0MDg1MjgwMxITMTkzNjUwMDE3NTQ1NjY5MDk0ORgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "112_1755822327.25",
+      "type": "feed",
+      "offset": 112,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822327,
+      "updated_time": 1755822327,
+      "target": {
+        "id": "1941789327186166086",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1941789327186166086",
+        "author": {
+          "id": "855ee10be1d8322e83f0920b437fb7a8",
+          "url": "https://api.zhihu.com/people/855ee10be1d8322e83f0920b437fb7a8",
+          "user_type": "people",
+          "url_token": "he-zhi-yun-94",
+          "name": "和韵咨询",
+          "headline": "价值审计设计师",
+          "avatar_url": "https://pica.zhimg.com/50/v2-bbd8078236b39c98ac354b655522350c_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "南京航空航天大学 工商管理硕士"
+            }
+          ],
+          "followers_count": 97,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1755738652,
+        "updated_time": 1755738652,
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "question": {
+          "id": "665546374",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/665546374",
+          "author": {
+            "id": "f6ea64e075db97c210256802161e674f",
+            "url": "https://api.zhihu.com/people/f6ea64e075db97c210256802161e674f",
+            "user_type": "people",
+            "url_token": "lizhaoxi810",
+            "name": "YULI宏观财经",
+            "headline": "Economist|MIT课件自学经济学博士｜中国经济",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-106d15134d129f4acc0e5d8f1b611430_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "badge": [
+              {
+                "type": "super_activity",
+                "description": "知势榜经济与管理领域影响力榜答主"
+              },
+              {
+                "type": "identity_people",
+                "description": "教师资格证持证人"
+              }
+            ],
+            "followers_count": 22800,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "如何使用公开财务数据和披露数据对上市公司进行剖析？",
+          "created": 1724848283,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            395,
+            1361,
+            3217,
+            8907,
+            19800
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "excerpt": "时间：2025年8月21日；预计完成阅读1个月：12/30 如何讲述企业实际经营情况的故事，帮助投资者提升价值判断和投资决策能力 本书为什么要这么做？要实现什么样的目标？ 贯彻党中央、国务院决策部署，推进以信息披露为核心的注册制改革。 提高中小投资者阅读使用上市公司信息披露文件，引导投资者主动约定定期报告， 提升投资者客观分析能力，识别投资风险，让投资者愿意看，看得懂，能判断，感受深度学习上市公司报告能够多创造“…",
+        "excerpt_new": "时间：2025年8月21日；预计完成阅读1个月：12/30 如何讲述企业实际经营情况的故事，帮助投资者提升价值判断和投资决策能力 本书为什么要这么做？要实现什么样的目标？ 贯彻党中央、国务院决策部署，推进以信息披露为核心的注册制改革。 提高中小投资者阅读使用上市公司信息披露文件，引导投资者主动约定定期报告， 提升投资者客观分析能力，识别投资风险，让投资者愿意看，看得懂，能判断，感受深度学习上市公司报告能够多创造“…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"Lw000fSQ\">时间：2025年8月21日；预计完成阅读1个月：12/30</p><p data-pid=\"7GHKUQlu\"><b>如何讲述企业实际经营情况的故事，帮助投资者提升价值判断和投资决策能力</b></p><p data-pid=\"776eW-vR\"><b>本书为什么要这么做？要实现什么样的目标？</b></p><p data-pid=\"-SgMBxP1\"><b>贯彻</b>党中央、国务院决策部署，<b>推进</b>以信息披露为核心的注册制改革。</p><p data-pid=\"fXohaMio\"><b>提高</b>中小投资者阅读使用上市公司信息披露文件，<b>引导</b>投资者主动约定定期报告，</p><p data-pid=\"L24N12sZ\"><b>提升</b>投资者客观分析能力，<b>识别</b>投资风险，让投资者<b>愿意看，看得懂，能判断</b>，感受深度学习上市公司报告能够多创造<b>“价值”，鼓励</b>投资者养成阅读上市公司报告习惯。</p><p data-pid=\"1T47s4kT\"><b>一、框架</b></p><p data-pid=\"1-dxixUV\">一 概述</p><p data-pid=\"xvpGQ8_-\">二 财务篇： 基础知识、资产负债表、利润表、现金流量表三大基础报表</p><p data-pid=\"bvhKLRDN\">三 非财务篇：重管理层讨论和分析，结合公司治理、企业责任等</p><p data-pid=\"ZH-xYj37\"><b>三 非财务篇：重管理层讨论和分析，结合公司治理、企业责任等（下/共三部分）</b></p><p data-pid=\"Tn1_suIB\"><b>3.19\t如何理解上市公司的利润分配政策？ </b></p><p data-pid=\"EUfkS8ii\">\t上市公司当年实现的净利润加上年初未分配利润即为可供分配利润，按照规定应向投资者进行分配。<b>现金股利和股票股利</b>是上市公司利润分配的两种基本形式。</p><p data-pid=\"QbMTymwZ\"><b>利润分配</b>是投资者股票投资的重要收益来源，如果公司不准备进行利润分配，投资者应该了解公司的理由是否充分。</p><p data-pid=\"myGiXxD3\"><b>      规则规定</b>，公司应当在年度报告中披露报告期内利润分配政策，特别是现金分红政策的制定、执行或调整情况，说明利润分配政策是否符合公司章程及审议程序的规定，是否充分保护中小投资者的合法权益，是否由独立董事发表意见，是否有明确的分红标准和分红比例，以及利润分配政策调整或变更的条件和程序是否台规、透明。</p><p data-pid=\"85dWGFYx\">    公司还应当披露报告期内<b>现金分红政策的制定及执行情况</b>，并进行专项说明。对于报告期内盈利且母公司可供股东分配利润为正但未提出现金利润分配方案预案的公司，应当详细说明原因，同时说明公司未分配利润的用途和使用计划。若两家公司的股本、业绩等各方面条件均相似，则分配政策的好坏将直接影响投资者抛出或购进的决心。不言而喻，<b>分红派现高、增送股比例大的预案必将受到投资者的青睐</b>。</p><p data-pid=\"m7rsRECA\">    此外，分析<b>公司分红方案</b>时，要把利润分配与用公积金尤其是用资本公积金送股区别开来。公司分红派息可以用税后利润，也可以用公积金实施。公司在经营业绩好的情况下，一般会用<b>税后利润派发红利或送股</b>，作为对投资者的回报。<b>资本公积金</b>一般来自股票发行溢价或资产捐赠等，用其转增股本则是与当期公司业绩无关的，而且是随时可以进行的。这两种回报方式的意义是不同的。</p><p data-pid=\"u043q8OQ\"><b>3.20 为什么要披露报告期内股权激励计划、员工持股计划或者其他        员工激励措施的实施情况？ </b></p><p data-pid=\"rLo4YeGY\"><b>股权激励计划、员工持股计划或者其他员工激励措施</b>实质为上市公司以本公司股票为支付对价，对其董事、监事、高级管理人员及其他员工进行的长期性激励，使激励对象能够以股东的身份参与企业决策、分享利润、承担风险，从而勤勉尽责地为公司的长期发展服务。因此相关事项对上市公司具有重大影响，</p><p data-pid=\"xqFZmYog\">      首先这关系到<b>公司股东和员工的切身利益</b>，影响广泛；</p><p data-pid=\"zpC94J2f\">      其次，激励对象通常为<b>公司核心骨干</b>，因此相关方案还会影响到企业的未来发展前景；</p><p data-pid=\"j_kSTh6F\">     最后，股权激励等措施还会对公司的股本结构甚至股价波动产生重大影响。</p><p data-pid=\"wCNcYNMX\">     因此，披露报告期内股权激励计划、员工持股计划或者其他员工激励措施的实施情况有其必要性。</p><p data-pid=\"qbMo1Rkw\"><b>3.21\t环境与社会责任需要披露哪些内容？ </b></p><p data-pid=\"xuxBaDZu\"><b>规则规定</b>，上市公司年度报告中应当披露环境与社会责任信息，具体要求包括:</p><p data-pid=\"lVB6Lzm7\">       属于<b>环境保护部门公布的重点排污单位</b>的公司或其主要子公司，应当根据法律、行政法规、部门规章及规范性文件的规定披露以下主要环境信鸽、</p><p data-pid=\"pfGTnZCs\">      (1)<b>排污信息</b>。包括但不限于主要污染物及特征污染物的名称、排放方式、排放口数量和分布情况、排放浓度和总量、超标排放情况、执行的污染物排放标准、核定的排放总量。</p><p data-pid=\"vQV7aXoZ\">    (2)<b>防治污染设施的建设和运行情况</b>。</p><p data-pid=\"3DkQYMim\">    (3)<b>建设项目环境影响评价及其他环境保护行政许可情况</b>。</p><p data-pid=\"QmD1IdYA\">      (4)<b>突发环境事件应急预案</b>。</p><p data-pid=\"o99o3VB7\">       (5)<b>环境自行监测方案</b>。</p><p data-pid=\"vvsuSqSy\">       (6)<b>报告期内因环境问题受到行政处罚的情况</b>。</p><p data-pid=\"AQqXs34e\">         (7)<b>其他应当公开的环境信息</b>。重点排污单位之外的公司应当披露报告期内因环境问题受到行政处罚的情况，并可以参照上述要求披露其他环境信息，若不披露其他环境信息，应当充分说明原因。鼓励公司自愿披露有利于保护生态、防治污染、履行环境责任的相关信息。环境信息核查机构、鉴证机构、评价机构、指数公司等第三方机构对公司环境信息存在核查、鉴定、评价的，鼓励公司披露相关信息。鼓励公司自愿披露在报告期内为减少其碳排放所采取的措施及效果。鼓励公司结合行业特点，主动披露积极履行社会责任的工作情况，包括但不限于:</p><p data-pid=\"pUchcV3T\">           公司履行社会责任的宗旨和理念，股东和债权人权益保护、职工权益保护、供应商、客户和消费者权益保护、环境保护与可持续发展、公共关系、社会公益事业等方面情况。</p><p data-pid=\"xrbljYif\">        公司已披露社会责任报告全文的，仅需提供相关的查询索引。鼓励公司积极披露报告期内巩固拓展脱贫攻坚成果、乡村振兴等工作具体情况</p><p data-pid=\"BI5WRA_I\"><b>3.22\t为什么要披露企业环境与社会责任？ </b></p><p data-pid=\"-Frk0nJ8\">\t企业社会责任是指企业<b>在创造利润</b>、对<b>股东承担法律责任</b>的同时，还要承担对<b>员工、消费者、社区和环境</b>的责任，即企业需要向社会提供物质产品和服务，依法纳税，维护消费者的合法权益，主动承担对自然环境和社会各利益相关者的义务等。目前坚持绿色发展、推进生态文明建设，是中国现代化建设的重要内容。</p><p data-pid=\"x8zdP0yX\">      企业作为社会公民，对资源和环境的可持续发展负有不可推卸的责任。披露企业环境与社会责任</p><p data-pid=\"TZ_iZhaR\"> 一方面可以有助于企业<b>形成良好形象</b>，给企业带来一些无形和有形的效益，赢得社会、政府、职工的认可；</p><p data-pid=\"x8VyEFKM\">     另一方面也可以在市场上<b>形成积极承担社会责任、履行环保义务的良好风气</b>，使得市场整体能够减少生产活动各个环节对环境造成的污染，降低能耗，节约资源。</p><p data-pid=\"ah1tCi45\"><b>3.23\t哪些是上市公司必须披露的重要事项？ </b></p><p data-pid=\"n3HrBfut\">\t上市公司必须披露的重要事项主要包括:</p><p data-pid=\"5XzHWeHz\">         (1)公司应当披露报告期内履行完毕的，以及截至报告期末尚未履行完毕的，由公司实际控制人、股东、关联方、收购人以及公司等承诺相关方作出的<b>承诺事项</b>等。</p><p data-pid=\"zZY3Jc65\">         (2)公司发生控股股东及其他关联方<b>非经营性占用资金情况</b>的，应当充分披露相关的决策程序，以及占用资金的期初金额、发生额、期末余额、占用原因、预计偿还方式及清偿时间等</p><p data-pid=\"mii-mdPS\">        (3)公司违反法律、行政法规和证监会规定的<b>对外担保决议程序</b>订立担保合同的，应当详细披露担保金额、担保对象、违规原因、已采取的解决措施及进展、后续解决措施及预计解决时间。</p><p data-pid=\"sLfORqyW\">      (4)公司董事会针对<b>非标准意见涉及的事项作出专项说明</b>。公司作出会计政策、会计估计变更或重大会计差错更正的的原因及影响。以及公司还需对更换会计师事务所、适用境内外会计准则的差异情况进行说明，</p><p data-pid=\"PtZ3hNHq\">      (5)公司应当披露年度财务报告<b>审计聘任、解聘会计师事务所的情况包括报酬情况</b>、为公司提供审计服务的连续年限等。公司还应当披露报告期内聘请内部控制审计会计师事务所、财务顾问或保荐人的相关情况。</p><p data-pid=\"giakZnJF\">     (6)年度报告披露后面<b>临退市风险警示</b>情形的公司，应当披露导致退市风险警示的原因以及公司拟采取的应对措施。年度报告披露后面临终止上市情形的公司、因重大违法或规范类原因面临终止上市风险的公司和已披露主动终止上市方案的公司，应当单独披露退市情况专项报告，并提醒投资者予以关注。</p><p data-pid=\"a2S9bX-m\">     (7)公司应当披露报告期内发生的<b>破产重整</b>相关事项。</p><p data-pid=\"rMniFdxb\">      (8)公司应当披露报告期内<b>重大诉讼、仲裁</b>事项。</p><p data-pid=\"RE5KQI5f\">       (9)公司及其控股股东、实际控制人、董事、监事、高级管理人员的<b>违法违规行为</b>。</p><p data-pid=\"iveOvFte\">   （10）公司应当披露报告期内公司及其控股股东、实际控制人的<b>诚信状况</b>。</p><p data-pid=\"loLnR-tV\">     （11）公司应当披露报告期内发生的<b>重大关联交易事项</b>。</p><p data-pid=\"tYOhazUa\">   （12）公司应当<b>披露重大合同及其履行情况</b>，包括托管、承包、租赁其他公司资产或其他公司托管、承包、租赁公司资产的事项，重大担保、委托理财等。</p><p data-pid=\"LVteCBdL\">   （13）上市公司及其子公司的其他对<b>投资者作出价值判断和投资决策</b>有重大影响的事项。</p><p data-pid=\"OegUPQ57\"><b>3.24\t如何了解报告期内股权现状 ? </b></p><p data-pid=\"lm7WFovS\">\t规则规定，公司年报需要披露报告期内<b>公司股份变动及股东情况</b>。从年报中，投资者可以了解到公司股份变动情况、证券发行与上市情况、公司股东数量及持股情况、公司控股股东及其质押情况、公司实际控制人情况、其他持股在 10% 以上的法人股东情况、前 10 名无限售流通股股东以及公司股份回购情况等。</p><p data-pid=\"80pQ8C5E\"><b>3.25\t如何了解企业报告期内行业发展趋势及竞争格局？ </b></p><p data-pid=\"N7TJuvyf\">\t&#34;投资者从年报的公司基本情况中了解公司从事的<b>主要业务，包括报告期公司所从事的主要业务和主要产品简介、行业发展变化、市场竞争格局以及公司行业地位等</b>内容。</p><p data-pid=\"4GwDAS-n\">      在管理层讨论与分析一节中，投资者可以了解到公司所处行业情况，包括行业基本情况、发展阶段、周期性特点以及公司所处的行业地位情况、报告期内发生的重大变化。</p><p data-pid=\"CMzrRa3O\">       同时，还可以了解到新公布的法律、行政法规、部门规章、行业政策对所处行业的重大影响。此外、创业板公司还会结合所属行业的特点，针对性披露技术、产业、业态、模式等能够反映行业竞争力的信息。科创板公司还会结合所属行业的特点，针对性披露科研水平、科研人员、科研投入等能够反映行业竞争力的信息。&#34;</p><p data-pid=\"SVl36mzo\"><b>3.26\t从哪些方面了解企业核心技术水平？ </b></p><p data-pid=\"dUpQ9nR_\">\t投资者可以从年报管理层讨论与分析一节中了解公司报告期内核心竞争力，包括<b>核心管理团队、关键技术人员、专有设备、专利、非专利技术、盈利模式</b>等，同时还可以了解到公司<b>核心技术的重要变化及对公司所产生的影响</b>，比如报告期内发生的因核心管理团队或关键技术人员离职、设备或技术升级换代等导致公司核心竞争力受到严重影响的事项，对此，投资者应当重点关注相关事项<b>发生的原因以及公司拟采取的措施</b>。</p><p data-pid=\"4rcimZOQ\"><b>\t165 附录：相关主要规则 </b></p><p data-pid=\"HzJHTho-\">\t[1]《上市公司信息披露管理办法》</p><p data-pid=\"qvI3btnJ\">\t[2]《公开发行证券的公司信息披露内容与格式准则第 2 号—年度报告的内容与格式》</p><p data-pid=\"FD3nqcp1\">\t[3]《公开发行证券的公司信息披露内容与格式准则第 3 号—半年度报告的内容与格式》</p><p></p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 3,
+        "favorite_count": 0,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1941789327186166086}",
+      "attached_info": "CoIGCJPQkOmnpPzilAEQBBoJNzQzMjA3ODQ4IJzkmcUGKAEwAEBwSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLwokVFNfU09VUkNFX1dBUk1VUF9UV09UT1dFUl9FWFBWMl9URVhUEgEwGAAgADoAWgkxMTAxNzY2NzViIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTQxNzg5MzI3MTg2MTY2MDg2igEJNjY1NTQ2Mzc0qgEJcmVjb21tZW5kwgEgODU1ZWUxMGJlMWQ4MzIyZTgzZjA5MjBiNDM3ZmI3YTjyAQoIDBIGTm9ybWFs8gEoCAoSJGM2OWQ5NmI4LTMyNWEtNDc0Ni1iYjhkLTk3ODM5NTIyMzY2N/IBBggLEgIxOYICAIgCn42q+YwzkgIgODU1ZWUxMGJlMWQ4MzIyZTgzZjA5MjBiNDM3ZmI3YTiaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIYQ29udGVudFdhcm1VcEJyZWFrSW5SdWxl2gIZVFNfU09VUkNFX1dBUk1fVVBfTk9STUFMMegCA/oCC05PUk1BTF9GTE9XigMgODY2YzQzZWZkY2IyNGFkNDlmMjQyMDE2OGRlNGU3NzmaAw0KAnYyEAAaBW90aGVyqAMD2AMA6gMvY29udGVudFdhcm11cFR3b1Rvd2VyVHZwVGV4dE5vcm1hbEV4cFYyUmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBM6AEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgBZFnP4EFAAAAAAAAAACJBdX7HC03Vdk/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBROQBgCgBnKoBgGSAi4KCTc0MzIwNzg0OBITMTk0MTc4OTMyNzE4NjE2NjA4NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "113_1755822327.967",
+      "type": "feed",
+      "offset": 113,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1755822327,
+      "updated_time": 1755822327,
+      "target": {
+        "id": "1934216798510744385",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1934216798510744385",
+        "author": {
+          "id": "b534763a2984532ad9bf3d0802902c48",
+          "url": "https://api.zhihu.com/people/b534763a2984532ad9bf3d0802902c48",
+          "user_type": "people",
+          "url_token": "yu.ziyue",
+          "name": "程序员余子越",
+          "headline": "优质干货分享 easyeasy.me 可接单！",
+          "avatar_url": "https://picx.zhimg.com/50/v2-c0411c687e5221b6b5a9b77e524105bf_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": -1,
+          "followers_count": 224,
+          "is_following": false,
+          "is_followed": false
+        },
+        "created_time": 1753933220,
+        "updated_time": 1753936874,
+        "voteup_count": 232,
+        "thanks_count": 8,
+        "comment_count": 54,
+        "is_copyable": true,
+        "question": {
+          "id": "290145779",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/290145779",
+          "author": {
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "url_token": "",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "is_following": false,
+            "is_followed": false
+          },
+          "title": "macOS 上有哪些值得推荐的免费软件？",
+          "created": 1534176589,
+          "answer_count": 0,
+          "follower_count": 0,
+          "comment_count": 0,
+          "bound_topic_ids": [
+            15,
+            17,
+            24,
+            520
+          ],
+          "is_following": false,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "question_type": "normal"
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-0c33cbfbe75e973c1d5a494d61d7ed1d_720w.jpg?source=b6762063",
+        "excerpt": "只说一个软件叫 Stats， Github 32.7K 星，这个应该没有人反驳吧，我每次换新电脑后的第一件事就是装上它。 https://macos-software.com/   装上 Stats 以后才会有 “安全感”，它可以随时监控我的电脑处于什么状态。 我需要随时知道我的电脑 是不是在偷跑流量。我需要随时知道我的电脑 CPU 负载是不是太高了我需要随时知道我的电脑 内存是不是快爆了主要的就是这三个吧：CPU 内存 网络，下面是我的软件截图。         Github 地址： …",
+        "excerpt_new": "只说一个软件叫 Stats， Github 32.7K 星，这个应该没有人反驳吧，我每次换新电脑后的第一件事就是装上它。 https://macos-software.com/   装上 Stats 以后才会有 “安全感”，它可以随时监控我的电脑处于什么状态。 我需要随时知道我的电脑 是不是在偷跑流量。我需要随时知道我的电脑 CPU 负载是不是太高了我需要随时知道我的电脑 内存是不是快爆了主要的就是这三个吧：CPU 内存 网络，下面是我的软件截图。         Github 地址： …",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"4QY-vWdJ\">只说一个软件叫 Stats， Github 32.7K 星，这个应该没有人反驳吧，我每次换新电脑后的第一件事就是装上它。</p><a href=\"https://link.zhihu.com/?target=https%3A//macos-software.com/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">macos-software.com/</span><span class=\"invisible\"></span></a><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4da6926434b3709cf4bf3f1a7c8ddd10_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2148\" data-rawheight=\"2170\" data-original-token=\"v2-4da6926434b3709cf4bf3f1a7c8ddd10\" data-default-watermark-src=\"https://pica.zhimg.com/v2-b7d4fb021d58cba217074967962bf52a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2148\" data-original=\"https://pica.zhimg.com/v2-4da6926434b3709cf4bf3f1a7c8ddd10_r.jpg\"/></figure><p data-pid=\"dWjuYybo\">装上 Stats 以后才会有 “安全感”，它可以随时监控我的电脑处于什么状态。</p><ul><li data-pid=\"5ipGH7Vu\">我需要随时知道我的电脑   是不是在偷跑流量。</li><li data-pid=\"VrRjILjx\">我需要随时知道我的电脑   CPU 负载是不是太高了</li><li data-pid=\"xVWlghDU\">我需要随时知道我的电脑   内存是不是快爆了</li></ul><p data-pid=\"qpUtiRKU\">主要的就是这三个吧：CPU 内存 网络，下面是我的软件截图。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-61a105ed377cbd705f840f16934da66e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"766\" data-rawheight=\"182\" data-original-token=\"v2-61a105ed377cbd705f840f16934da66e\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-ebb7e00159805a19c3dad558963dbba0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"766\" data-original=\"https://pica.zhimg.com/v2-61a105ed377cbd705f840f16934da66e_r.jpg\"/><figcaption>状态栏显示</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6246ea8e9edf1a1b0b8e48408989171c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1202\" data-rawheight=\"1898\" data-original-token=\"v2-6246ea8e9edf1a1b0b8e48408989171c\" data-default-watermark-src=\"https://picx.zhimg.com/v2-23319415dd00b7f09796369f2937c13f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1202\" data-original=\"https://pic1.zhimg.com/v2-6246ea8e9edf1a1b0b8e48408989171c_r.jpg\"/><figcaption>CPU状态</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3850cdae107af3414716989957982540_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1054\" data-rawheight=\"1484\" data-original-token=\"v2-3850cdae107af3414716989957982540\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-8d82b295a072732a74e6717bc757c093_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1054\" data-original=\"https://pica.zhimg.com/v2-3850cdae107af3414716989957982540_r.jpg\"/><figcaption>内存状态</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-bb9b4b1cb25a7947332abdf5b50183ad_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"842\" data-rawheight=\"1906\" data-original-token=\"v2-bb9b4b1cb25a7947332abdf5b50183ad\" data-default-watermark-src=\"https://pica.zhimg.com/v2-3a5c6fcfab325349d8aa44aabe5f6aae_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"842\" data-original=\"https://picx.zhimg.com/v2-bb9b4b1cb25a7947332abdf5b50183ad_r.jpg\"/><figcaption>网络状态</figcaption></figure><p data-pid=\"S9pA9-V1\">Github 地址：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/exelban/stats\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/exelban/stat</span><span class=\"invisible\">s</span><span class=\"ellipsis\"></span></a><p data-pid=\"qqTjWmNr\">如果 Github 下载不了的，可以看这里的下载地址：</p><a href=\"https://link.zhihu.com/?target=https%3A//macos-software.com/d6ec59b/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">macos-software.com/d6ec</span><span class=\"invisible\">59b/</span><span class=\"ellipsis\"></span></a><p data-pid=\"AklpuBjC\">最新版本 2.11.48</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-f79a999d01c93fc6799b40b9d3ad01d9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2054\" data-rawheight=\"1068\" data-original-token=\"v2-f79a999d01c93fc6799b40b9d3ad01d9\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-db97d260e5d3e8fb66604998efc2cdfd_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2054\" data-original=\"https://pic4.zhimg.com/v2-f79a999d01c93fc6799b40b9d3ad01d9_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2sQl8Pi1\">Stats 通过 macOS 提供的系统框架（如 IOKit、System Management Controller (SMC)）和 API 定期读取硬件和系统信息。例如： </p><p data-pid=\"nUZ4IN3t\"><b>CPU/GPU</b>：通过 IOKit 获取 CPU 使用率、频率，以及 GPU 的性能数据。</p><p data-pid=\"i3oKwRSN\"><b>内存</b>：从 macOS 的内存管理接口获取使用量、压力、交换内存等数据。</p><p data-pid=\"_VDUV69d\"><b>磁盘</b>：通过 Disk Arbitration 框架获取磁盘使用量、活动状态和 S.M.A.R.T. 状态。</p><p data-pid=\"5jZStucq\"><b>网络</b>：通过 Network Statistics 接口获取网络传输速率和连接信息。</p><p data-pid=\"B3mZ4dCm\"><b>传感器</b>：从 SMC 读取温度、风扇转速等数据，尤其针对 Apple Silicon 芯片的传感器（如 CPU 集群的热区）。</p><p data-pid=\"MzRpf_PW\"><b>电池</b>：通过 IOKit 获取电池状态、充电情况和功耗数据。</p>",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false,
+        "visited_count": 25980,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-0c33cbfbe75e973c1d5a494d61d7ed1d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-1a2d800cf8ca484811eb6c8a338780e8_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-c481a723e388d7143ad11274d75b275e_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a6caf3fd75442c30a3de1a24e8881ed2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2bbcc2f4f4944fc2fc51d25509e41e9c_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 611,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1934216798510744385}",
+      "attached_info": "CswHCJPQkOmnpPzilAEQBBoJNzM5NzU2ODAyIKTLq8QGKOgBMDZAcUooCh1UU19TT1VSQ0VfTkVBUkxJTkVfQ09OVEVOVF9WMhIBMBgAIAA6AFoIMjY3NTM3MDRiIGYwNzViYjAwYzI5ZjRjMzM2MjVhNTliYjM1MWFlMGE3chMxOTM0MjE2Nzk4NTEwNzQ0Mzg1igEJMjkwMTQ1Nzc5qgEJcmVjb21tZW5kwgEgYjUzNDc2M2EyOTg0NTMyYWQ5YmYzZDA4MDI5MDJjNDjyAQoIDBIGTm9ybWFs8gEoCAoSJGZjMjNjOTRjLTEwMTQtNDk5Yy1hZTExLTUxNmQ2OTljNjgxMPIBBggLEgIxOYICAIgCn42q+YwzkgIgYjUzNDc2M2EyOTg0NTMyYWQ5YmYzZDA4MDI5MDJjNDiaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIVVXNlckxjbkV4aXRXZWlnaHRSdWxlygIcQmF5ZXNGaXJzdExldmVsSXNvbGF0aW9uUnVsZdoCHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1Yy6AIC+gILTk9STUFMX0ZMT1eKAyA4NjZjNDNlZmRjYjI0YWQ0OWYyNDIwMTY4ZGU0ZTc3OZoDDQoCdjIQABoFb3RoZXKoA/zKAdgDAPoDuQISDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhDkEBj6ECIjdjItNGRhNjkyNjQzNGIzNzA5Y2Y0YmYzZjFhN2M4ZGRkMTA6LQgCEP4FGLYBIiN2Mi02MWExMDVlZDM3N2NiZDcwNWY4NDBmMTY5MzRkYTY2ZTotCAIQsgkY6g4iI3YyLTYyNDZlYThlOWVkZjFhMWIwYjhlNDg0MDg5ODkxNzFjOi0IAhCeCBjMCyIjdjItMzg1MGNkYWUxMDdhZjM0MTQ3MTY5ODk5NTc5ODI1NDA6LQgCEMoGGPIOIiN2Mi1iYjliNGIxY2IyNWE3OTQ3MzMyYWJkZjViNTAxODNhZDotCAIQhhAYrAgiI3YyLWY3OWE5OTlkMDFjOTNmYzY3OTliNDBiOWQzYWQwMWQ5gAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEBm1hbnVhbMIEAzE3MMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAQA8UrT+BBQAAAAAAAAAAiQXV+xwtN1XZP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUTkAYAoAZzqAYAkgIuCgk3Mzk3NTY4MDISEzE5MzQyMTY3OTg1MTA3NDQzODUYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=113&desktop=true&end_offset=115&page_number=20&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=113&desktop=true&end_offset=115&page_number=20&session_token=f075bb00c29f4c33625a59bb351ae0a7",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

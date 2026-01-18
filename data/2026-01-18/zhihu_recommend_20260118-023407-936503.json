@@ -1,0 +1,540 @@
+{
+  "data": [
+    {
+      "id": "30_1768674855.665",
+      "type": "feed",
+      "offset": 30,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674855,
+      "updated_time": 1768674855,
+      "target": {
+        "preview_type": "default",
+        "content": "<h3><b>Part.1 有了AI，我们还要写代码吗？</b></h3><p data-pid=\"9vpmDUJI\">“AI都能自动生成代码了，还学编程干嘛？”很多人在初次体验AI辅助编程工具时，都会产生这样的疑问。但实际情况可能出人意料，AI不是编程的“终结者”，而是编程的“放大器”。精通编程的专业人士借助AI，能与普通人拉开百倍的能力差距。</p><p data-pid=\"UYlc_HpG\">AI工具确实重塑了编程的工作模式，它不仅能省去重复烦琐的编码工作，遇到陌生领域的问题时，还能快速提供示例代码和实现思路。这样，开发者可以将大量精力聚焦于软件系统架构设计、软件质量保障，将大模型赋予的能力用来提升软件品质。</p><p data-pid=\"GOHmeWTB\">当前学习编程语言，<b>Python堪称首选</b>——语法简洁，小白也能快速上手；功能库丰富，能力覆盖全面。尤其在AI应用开发领域，无论是大模型微调、RAG系统搭建，还是AI工具集成，Python都能提供强大的支持。</p><p data-pid=\"-YyYKEKG\">可以说，从Python入手学习编程，能让个体在AI时代极具竞争力。<b>《Python 编程快速上手：让烦琐工作自动化》</b>这本书畅销十年，用“讲故事 + 做项目”的方式带领无数初学者进入Python的世界。</p><p data-pid=\"FcxeURBs\">如今，作者结合最新技术发展，在增补修订后重磅推出<b>第3版</b>。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-21aeb40f283ecdaef086fb38d358431e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"901\" data-rawheight=\"580\" data-original-token=\"v2-21aeb40f283ecdaef086fb38d358431e\" class=\"origin_image zh-lightbox-thumb\" width=\"901\" data-original=\"https://pic1.zhimg.com/v2-21aeb40f283ecdaef086fb38d358431e_r.jpg\"/></figure><a href=\"https://link.zhihu.com/?target=https%3A//item.jd.com/14590553.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"《Python 编程快速上手：让烦琐工作自动化》\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《Python 编程快速上手：让烦琐工作自动化》</a><p data-pid=\"5WyhND21\">现在，我们就来了解《Python 编程快速上手：让烦琐工作自动化（第 3 版）》带来了哪些新内容，并学习如何成为Python开发高手。</p><h3><b>Part.2 十年经典，从零基础到应用开发高手</b></h3><p data-pid=\"tpjJL-oq\">2015年，Python在数据处理、自动化运维领域崭露头角，《Python 编程快速上手：让烦琐工作自动化》第1版适时推出，帮助众多初学者学会使用Python解决实际工作问题。</p><p data-pid=\"odZmb0rd\">2021年，Python成为机器学习、数据分析等领域的核心编程语言，市场需求激增，本书第2版顺势推出，掀起新一轮学习热潮。第2版在豆瓣上获得<b>8.7分</b>高分评价。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-05a823c850e7ef1b2fc42c160e2f354b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"845\" data-rawheight=\"391\" data-original-token=\"v2-05a823c850e7ef1b2fc42c160e2f354b\" class=\"origin_image zh-lightbox-thumb\" width=\"845\" data-original=\"https://picx.zhimg.com/v2-05a823c850e7ef1b2fc42c160e2f354b_r.jpg\"/></figure><p data-pid=\"MUOACT8i\">为应对大模型带来的机遇与挑战，《Python 编程快速上手：让烦琐工作自动化（第 3 版）》全面修订，精心设计了16个全新的编程项目，包括SQLite数据库操作、跨平台编译、PDF文件解析、浏览器操作、文本语音互转、图像文本提取等。更有百万级爆款“蟒蛇书”作者埃里克 马瑟斯作序推荐。</p><p data-pid=\"w2ae757u\">本书作者<b>阿尔·斯维加特（Al Sweigart） </b>是软件开发工程师、艺术家、Python 软件基金会会士（Fellow）。他著有多部面向初学者的编程著作，曾在多个PyCon大会担任国际演讲嘉宾。</p><p data-pid=\"1W7tTVf0\">作者希望广大没有编程基础的读者，能够通过学习本书在AI时代革新职业技能，在职场开拓更广阔的发展空间。</p><p data-pid=\"b7_aOAd8\">本书为读者规划了一条渐进式学习路径，全书分为两大部分：第一部分讲解Python基础编程知识，不求面面俱到，只专注于最核心的编程知识，够用、实用；第二部分通过数十个实战案例展示Python如何实现自动化任务。此外，本书还附赠全书案例素材及源代码，搭配海量习题及参考答案，方便读者反复练习巩固。</p><p data-pid=\"XuwJlTkG\">建议零基础读者按顺序踏实学完第一部分的基础内容，再进入第二部分的实战。在学习过程中，要注重动手操作，通过实践将知识内化于心，从而可以在工作中独立解决问题。本书增加优质UP主在线视频跟学带练，让学习效率飞起来。</p><p data-pid=\"kg6TLaB-\"><b>第一部分：编程基础知识</b></p><p data-pid=\"x5Efu04V\">这部分从语法入门开始，讲解交互式环境的使用，介绍数据类型、变量赋值与命名规则、基础函数等。学完这些内容，读者就可以独立写出第一个简单的程序，知道如何编辑代码和运行程序。</p><p data-pid=\"W2WwREA0\">接下来讲解条件判断语句，介绍布尔值、比较运算符及if/else/elif语句的用法，实现根据条件执行不同操作的功能。随后讲解循环语句，包括while/for的用法，实现重复执行任务的功能。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-cf608556e8f26ad9ae3b62ac22493eea_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"454\" data-rawheight=\"591\" data-original-token=\"v2-cf608556e8f26ad9ae3b62ac22493eea\" class=\"origin_image zh-lightbox-thumb\" width=\"454\" data-original=\"https://pic3.zhimg.com/v2-cf608556e8f26ad9ae3b62ac22493eea_r.jpg\"/></figure><p data-pid=\"LR4HoetB\">之后详细讲解函数的用法，剖析函数的结构，包括形参与实参、返回值与return语句、调用栈、局部作用域与全局作用域、异常处理等，实现将重复代码封装为函数，提升复用性。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-65f6f6508ed73f3d3432b9c1adf8777c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"853\" data-rawheight=\"196\" data-original-token=\"v2-65f6f6508ed73f3d3432b9c1adf8777c\" class=\"origin_image zh-lightbox-thumb\" width=\"853\" data-original=\"https://pic3.zhimg.com/v2-65f6f6508ed73f3d3432b9c1adf8777c_r.jpg\"/></figure><p data-pid=\"Jta_tuXR\">调试程序是编程基本功，书中讲解引发异常、断言与日志的使用，不提倡使用print()作为调试手段，同时介绍Mu编辑器的断点调试功能。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ccc7daed1396ca7b0d8acd59164f7a81_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"635\" data-original-token=\"v2-ccc7daed1396ca7b0d8acd59164f7a81\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-ccc7daed1396ca7b0d8acd59164f7a81_r.jpg\"/><figcaption>▲在Mu调试模式下运行程序</figcaption></figure><p data-pid=\"mWxg7U1W\">接着介绍Python常用数据结构类型，详解列表（list）的特性与使用方法，实现数据的增删改查、排序功能，并给出“黑客帝国屏保”示例程序。再进一步讲解字典（dict）类型的用法，给出“交互式国际象棋棋盘模拟器”项目实例。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-12bf11f368af6da3eabe381412b0cc50_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1030\" data-rawheight=\"622\" data-original-token=\"v2-12bf11f368af6da3eabe381412b0cc50\" class=\"origin_image zh-lightbox-thumb\" width=\"1030\" data-original=\"https://pic3.zhimg.com/v2-12bf11f368af6da3eabe381412b0cc50_r.jpg\"/><figcaption>▲《黑客帝国》式屏保</figcaption></figure><p data-pid=\"afWfEuTs\">最后详细介绍字符串，包括f-字符串与格式化、字符串方法（检索、合并拆分、对齐居中）等，给出“在维基百科文章中添加项目符号”项目实例。</p><p data-pid=\"9GCFZ4pE\"><b>第二部分：实战案例</b></p><p data-pid=\"3ld9d06_\">本部分内容紧贴实际场景，覆盖文档处理、Web自动化、办公软件、多媒体等领域，极具实用价值。</p><p data-pid=\"Mk9rPi4K\"><b>1. 文本与文件处理</b></p><p data-pid=\"HBjzPdfE\">正则表达式：通过“从大型文档中提取联系人信息”项目，用正则匹配电话号码、邮箱，解决精准检索信息的问题；</p><p data-pid=\"pj-1Metb\">读写文件：实现“生成随机考卷”项目，自动创建不同版本的考卷与答案，演示磁盘文件的存取；</p><p data-pid=\"IePkCGEc\">组织文件：开发“文件夹备份到ZIP”程序，自动压缩指定文件夹并按日期命名，将烦琐流程自动化。</p><p data-pid=\"GyJRK7jw\"><b>2. 命令行与Web自动化</b></p><p data-pid=\"rB2dTSyP\">命令行程序：讲解程序部署（Windows/macOS/Linux适配），将Python脚本编译为可执行文件，或创建“剪贴板记录程序”，记录多次复制内容；</p><p data-pid=\"v8UiyYIQ\">Web爬取：通过“下载XKCD漫画”“打开所有搜索结果”项目，用requests下载网页、Beautiful Soup解析 HTML、Selenium/Playwright控制浏览器，实现网页数据自动抓取与交互。</p><p data-pid=\"xQclSKtA\"><b>3. 办公软件与数据库</b></p><p data-pid=\"xtKhhjPt\">Excel：完成“收集人口普查统计数据”“更新电子表格”项目，用Python读取/写入Excel、设置单元格样式、生成图表，替代人工处理大量数据；</p><p data-pid=\"5B6250os\">Google Sheets：对接Google Cloud API，实现远程操作表格，自动上传数据、生成报表；</p><p data-pid=\"apNZJv7S\">SQLite：讲解数据库CRUD操作、表连接、事务回滚，用数据库替代表格存储结构化数据，提升查询效率。</p><p data-pid=\"Pu3J2EDj\"><b>4. 文档处理与多媒体</b></p><p data-pid=\"kbaXLTHs\">文档与数据处理：解析PDF文件，通过项目“将众多PDF文档中的部分页面合并为单个PDF文档”演示高级用法，提取Word文本，给出设置和添加文本、调整格式的方法；讲解CSV/JSON/XML数据协议格式，并给出批量处理的方法；</p><p data-pid=\"_N_yrHiU\">时间与通知：讲解time库的用法，通过项目“超级秒表”“简单的倒计时程序”展示任务时长记录、定时提醒的方法；使用Gmail API和SMS Email网关自动发送邮件/短信，实现通知功能；</p><p data-pid=\"nYKxFtfF\">图像与交互：用Pillow处理图像、Matplotlib可视化数据；提取图像文本；控制键盘鼠标实现“GUI 自动化”，实现自动填写表单；文本转语音/语音识别，生成音频通知、转换视频字幕。</p><p data-pid=\"6hQ4kF1T\">至此，经过两大部分的学习，读者已经熟练掌握Python编程，能自主解决大部分自动化任务，并且具备探索能力，不断解锁更多高级功能。</p><h3><b>Part.3 结语</b></h3><p data-pid=\"pC8am3gr\">学习编程最好的时机是十年前，其次就是现在。不要陷入“AI是否会代替xxx”的无意义争论中，重要的是行动起来。本书为技术人提供了一个弯道超车的机会，通过学会Python编程，精准把握AI时代的脉搏。</p><p data-pid=\"0VufE_PP\">本书一大特点是<b>面向零基础读者</b>，学习门槛低，手把手教学，从搭建开发环境到语法入门，一步一步导向实战项目。作者还精心绘制了大量流程图来讲解程序结构，帮助读者在学习过程中积累信心，迎接一个又一个挑战。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a772f40386163a98bf32868cf1c2e32c_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1055\" data-rawheight=\"629\" data-original-token=\"v2-a772f40386163a98bf32868cf1c2e32c\" class=\"origin_image zh-lightbox-thumb\" width=\"1055\" data-original=\"https://pic1.zhimg.com/v2-a772f40386163a98bf32868cf1c2e32c_r.jpg\"/><figcaption>▲精彩书摘</figcaption></figure><p data-pid=\"9NVz5MqA\">本书另一大特点是<b>实战导向</b>，第二部分每章都专注于一个实用主题，解决日常痛点问题。在内容编排上，先分步骤讲解编程思路，再给出完整项目代码，读者可以在工作中直接复用，也可以借鉴并作为解决问题的框架。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0f2ce4732b9865e97b7e7b27e2432ffe_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"491\" data-rawheight=\"766\" data-original-token=\"v2-0f2ce4732b9865e97b7e7b27e2432ffe\" class=\"origin_image zh-lightbox-thumb\" width=\"491\" data-original=\"https://pica.zhimg.com/v2-0f2ce4732b9865e97b7e7b27e2432ffe_r.jpg\"/><figcaption>▲代码示例</figcaption></figure><p data-pid=\"2sRYaE5A\">异步社区为本书提供了丰富的配套资源，读者可在官网下载全书所有项目源代码，观看教学视频，获得优质的学习体验。</p><p data-pid=\"0N1lmfIg\">无论你是想轻松学习编程的入门级读者，还是希望借助程序自动化处理事务的非专业人士，都可以从本书中系统化学习Python编程，掌握解决实际问题的关键方法。</p><p data-pid=\"aTW5n8YG\">翻开<b>《Python 编程快速上手：让烦琐工作自动化（第 3 版）》</b>，打造核心竞争力，就从第一行代码开始吧！</p><a href=\"https://link.zhihu.com/?target=https%3A//item.jd.com/14590553.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"《Python 编程快速上手：让烦琐工作自动化》\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《Python 编程快速上手：让烦琐工作自动化》</a><p data-pid=\"kNEvBpqs\">========</p><p data-pid=\"34ltXa6B\"><b>感谢阅读！</b></p><p data-pid=\"vqAbViqR\"><b>赠人玫瑰，手留余香，不要忘记点赞、收藏、关注</b> <b><a href=\"https://www.zhihu.com/people/2a9c95c4b3096cba586584844e149340\" class=\"internal\" target=\"_blank\">@人民邮电出版社</a>哦~</b></p><p data-pid=\"s77SxQKE\"><b>一键三连，感恩有你~</b></p>",
+        "is_labeled": false,
+        "favorite_count": 6,
+        "navigator_vote": false,
+        "voteup_count": 3,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "is_navigator": false,
+        "comment_permission": "censor",
+        "comment_count": 0,
+        "article_type": "normal",
+        "vote_next_step": "vote",
+        "created": 1768139476,
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1993799394554822737",
+        "author": {
+          "headline": "硬核科技与科普知识服务提供者",
+          "avatar_url": "https://picx.zhimg.com/50/v2-77157f2243bfabeed1c14857f1be2554_l.jpg?source=b6762063",
+          "is_org": true,
+          "gender": -1,
+          "followers_count": 77487,
+          "is_following": false,
+          "user_type": "organization",
+          "url": "https://api.zhihu.com/people/2a9c95c4b3096cba586584844e149340",
+          "url_token": "ren-min-you-dian-chu-ban-she-19",
+          "name": "人民邮电出版社",
+          "badge": [
+            {
+              "type": "identity_org",
+              "description": "已认证机构号"
+            }
+          ],
+          "is_followed": false,
+          "id": "2a9c95c4b3096cba586584844e149340"
+        },
+        "title": "这本Python经典十年一剑重磅发布第3版！",
+        "updated": 1768140347,
+        "voting": 0,
+        "excerpt": "Part.1 有了AI，我们还要写代码吗？“AI都能自动生成代码了，还学编程干嘛？”很多人在初次体验AI辅助编程工具时，都会产生这样的疑问。但实际情况可能出人意料，AI不是编程的“终结者”，而是编程的“放大器”。精通编程的专业人士借助AI，能与普通人拉开百倍的能力差距。 AI工具确实重塑了编程的工作模式，它不仅能省去重复烦琐的编码工作，遇到陌生领域的问题时，还能快速提供示例代码和实现思路。这样，开发者可以将大量精力…",
+        "id": "1993799394554822737",
+        "preview_text": "",
+        "visited_count": 171,
+        "allow_segment_interaction": true,
+        "excerpt_new": "Part.1 有了AI，我们还要写代码吗？“AI都能自动生成代码了，还学编程干嘛？”很多人在初次体验AI辅助编程工具时，都会产生这样的疑问。但实际情况可能出人意料，AI不是编程的“终结者”，而是编程的“放大器”。精通编程的专业人士借助AI，能与普通人拉开百倍的能力差距。 AI工具确实重塑了编程的工作模式，它不仅能省去重复烦琐的编码工作，遇到陌生领域的问题时，还能快速提供示例代码和实现思路。这样，开发者可以将大量精力…"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1993799394554822737}",
+      "attached_info": "CtUICKDqv8vb7uijugEQBxoJMjY4ODczMDk0INTVjssGKAMwAEAeSloKF1RTX1NPVVJDRV9BVVRIT1JfR0NGX0hREjlkYXRhOmxhc3Rfbl9iZWhhdmlvcl90eXBlOm5ldzpDb2xsZWN0OnVzZXJfaWQ6MTU1LDA3NiwwMDQYACAAOgBiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTkzNzk5Mzk0NTU0ODIyNzM3qgEJcmVjb21tZW5kwgEgMmE5Yzk1YzRiMzA5NmNiYTU4NjU4NDg0NGUxNDkzNDDyAQoIDBIGTm9ybWFs8gEoCAoSJDZiODU5MTBhLWE1NzAtNGVlMy05MzkzLTUyZGVkMDcyMWNjOPIBBQgLEgE2ggIAiAKslvLpvDOSAiAyYTljOTVjNGIzMDk2Y2JhNTg2NTg0ODQ0ZTE0OTM0MJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAhdUU19TT1VSQ0VfQVVUSE9SX0dDRl9IUegCBPoCC05PUk1BTF9GTE9XigMgMjQyNDY3NTBhOTA2NDc2Mjg5ZTc1YTJkNjAyMTRiNmOaAw0KAnYyEAAaBW90aGVyqAOrAdgDAOoDF2djZktubkF1dGhvckxhc3ROUmVjYWxs+gOXAxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgCEIUHGMQEIiN2Mi0yMWFlYjQwZjI4M2VjZGFlZjA4NmZiMzhkMzU4NDMxZTotCAIQzQYYhwMiI3YyLTA1YTgyM2M4NTBlN2VmMWIyZmM0MmMxNjBlMmYzNTRiOi0IAxDGAxjPBCIjdjItY2Y2MDg1NTZlOGYyNmFkOWFlM2I2MmFjMjI0OTNlZWE6LQgCENUGGMQBIiN2Mi02NWY2ZjY1MDhlZDczZjNkMzQzMmI5YzFhZGY4Nzc3YzotCAIQuAgY+wQiI3YyLWNjYzdkYWVkMTM5NmNhN2IwZDhhY2Q1OTE2NGY3YTgxOi0IAhCGCBjuBCIjdjItMTJiZjExZjM2OGFmNmRhM2VhYmUzODE0MTJiMGNjNTA6LQgCEJ8IGPUEIiN2Mi1hNzcyZjQwMzg2MTYzYTk4YmYzMjg2OGNmMWMyZTMyYzotCAIQ6wMY/gUiI3YyLTBmMmNlNDczMmI5ODY1ZTk3YjdlN2IyN2UyNDMyZmZlgAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACgcF2dP4EFAAAAAAAAAACJBbjv5fyPsrE/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiCoBgGSAi4KCTI2ODg3MzA5NBITMTk5Mzc5OTM5NDU1NDgyMjczNxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "31_1768674855.696",
+      "type": "feed",
+      "offset": 31,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674855,
+      "updated_time": 1768674855,
+      "target": {
+        "allow_segment_interaction": true,
+        "url": "https://api.zhihu.com/answers/1995860414995657192",
+        "excerpt": "我们总觉得生活欠我们一个圆满的结局，于是像个输红了眼的赌徒，守着早已散场的赌桌不肯离去。执念这东西说白了就是心里的那股子不甘心，不甘心明明付出了那么多最后却落得个两手空空，不甘心那个人说走就走连个像样的交代都没有。 我们总觉得生活欠我们一个圆满的结局，于是死死抓着那个已经破碎的梦不放，就像一个输红了眼的赌徒，守着早已散场的赌桌不肯离去。 其实真正的放下从来都不是原谅了别人，而是终于对自己宣布了破产…",
+        "favorite_count": 42,
+        "thanks_count": 0,
+        "thumbnail": "https://picx.zhimg.com/50/v2-8ee6f6d488abdc84b352a1926d44b3e3_720w.jpg?source=b6762063",
+        "preview_type": "default",
+        "preview_text": "",
+        "created_time": 1768630204,
+        "excerpt_new": "我们总觉得生活欠我们一个圆满的结局，于是像个输红了眼的赌徒，守着早已散场的赌桌不肯离去。执念这东西说白了就是心里的那股子不甘心，不甘心明明付出了那么多最后却落得个两手空空，不甘心那个人说走就走连个像样的交代都没有。 我们总觉得生活欠我们一个圆满的结局，于是死死抓着那个已经破碎的梦不放，就像一个输红了眼的赌徒，守着早已散场的赌桌不肯离去。 其实真正的放下从来都不是原谅了别人，而是终于对自己宣布了破产…",
+        "reshipment_settings": "disallowed",
+        "content": "<p data-pid=\"oThQSqqg\"><b>我们总觉得生活欠我们一个圆满的结局，于是像个输红了眼的赌徒，守着早已散场的赌桌不肯离去。</b></p><p data-pid=\"vxFm7xVd\">执念这东西说白了就是心里的那股子不甘心，不甘心明明付出了那么多最后却落得个两手空空，不甘心那个人说走就走连个像样的交代都没有。</p><p data-pid=\"Eb2tfbiq\">我们总觉得生活欠我们一个圆满的结局，于是死死抓着那个已经破碎的梦不放，就像一个输红了眼的赌徒，守着早已散场的赌桌不肯离去。</p><p data-pid=\"1xvyeYCC\">其实真正的放下从来都不是原谅了别人，而是终于对自己宣布了破产，承认这笔感情也好事业也好的账已经烂了，收不回来了，然后忍着痛把账本烧了重新开张。</p><p data-pid=\"jEikoIJe\">很多时候我们放不下，是因为我们把那个受了委屈的自己看得太重，觉得世界应该围着自己的意志转，</p><p data-pid=\"6yH56eyd\">殊不知这世间万物自有它的来去法度，并不以我们个人的悲喜所转移，执念不是深情，而是一种画地为牢的自我折磨，是在流动的生命长河里试图去刻舟求剑。</p><p data-pid=\"5j_o4Dmf\"><b>想想《卧虎藏龙》里的李慕白</b>。</p><p data-pid=\"K4I6i75p\">那样的一代宗师，修了一辈子的道，为了那个得道的虚名和那所谓的师徒名分和江湖规矩，硬生生把对俞秀莲的爱压在心底，这一压就是一辈子。</p><p data-pid=\"Ac4qGEO0\">他以为自己是在追求完美的大道，其实是掉进了对正确的执念里，直到中了毒针生命只剩下最后一口气的时候，他才终于肯面对自己的真心，他终于才说出这句话：</p><p data-pid=\"3-G-BlfL\">我把这一口气留住不是为了得道，而是为了告诉你我爱你。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-980fabe00e231d2ef21939c52392d68e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"716\" data-original-token=\"v2-8ee6f6d488abdc84b352a1926d44b3e3\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-980fabe00e231d2ef21939c52392d68e_r.jpg\"/></figure><p data-pid=\"xo8LT6j_\">为了一个虚妄的完美形象，他错过了真实鲜活的人生。</p><p data-pid=\"TDKcAi3J\">这种对正确、对伟光正的执念往往比毒药还毒，它让我们不敢犯错不敢去爱，最后活成了一尊冰冷的泥塑。</p><p data-pid=\"q-OeBmBA\">别为了所谓的正确、所谓的道德纯洁而活着，哪怕是带着瑕疵的真实，也比完美的虚假要珍贵得多。</p><p data-pid=\"qvoJ8uNx\"><b>再看看苏东坡</b>。</p><p data-pid=\"0b69qa0Z\">苏轼的前半生也是心心念念要致君尧舜上，要当宰相治国平天下，结果命运给了他一记响亮的耳光，把他贬到了黄州那个鸟不拉屎的地方，没吃没喝还得自己下地干活。</p><p data-pid=\"UUUtaxy4\">可也就是在赤壁之下看着滚滚长江东逝水，他突然明白了自己不过是天地间的一粒粟米。</p><p data-pid=\"S8fSQU0S\">当他不再执着于那个怀才不遇的倒霉官员身份时，那个纠结痛苦的苏轼死了，那个豁达洒脱的东坡居士活了过来…………</p><p data-pid=\"JeeJ-ol5\">他不再问为什么是我这么倒霉，而是接受了这就是我的命运，</p><p data-pid=\"Ygu9DQYZ\">当一个人能允许自己做一个普通人，允许自己失败，允许事与愿违的时候，那个名为得失的执念就再也伤不到他分毫。</p><p data-pid=\"ecycCMqS\"><b>我们总是高估了自己对命运的掌控力，却低估了时间治愈一切的能力。</b></p><p data-pid=\"lVS1vj64\">那些此刻让你痛不欲生的事情，放在漫长的人生维度里看，不过是一场突如其来的阵雨，淋湿了固然难受，但雨总会停天总会亮，与其站在雨里哭喊着为什么下雨，不如找个屋檐躲一躲或者干脆冲进雨里奔跑，去感受那份凉意。</p><p data-pid=\"kT1--i-A\"><b>还有一种更隐蔽的执念叫作必须好起来的执念。</b></p><p data-pid=\"caq8CRHe\">我们总是逼着自己要尽快走出阴影，逼着自己去原谅那些本不愿原谅的人和事，仿佛不原谅就是自己心胸狭隘，不快乐就是自己心眼太小，这种必须快速痊愈的焦虑反而成了新的枷锁。</p><p data-pid=\"2KJvsI6v\"><b>不妨去看看电影《海边的曼彻斯特》。</b></p><p data-pid=\"TLZv_9ap\">男主因为一次疏忽导致三个孩子葬身火海，他余生都活在巨大的愧疚里。</p><p data-pid=\"A_kM_dCn\">电影的结局是反鸡汤的，他并没有像我们期待的那样与过去和解，也没有迎来所谓的新生，他只是平静地说了一句：<b>我打不赢它</b>，然后选择带着那个永远无法愈合的伤口换个地方继续活下去。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c022ebb45d16a12d60b4a3f8e0641f79_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" data-original-token=\"v2-6c305f76993f7131bcc97fe5834210dc\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-c022ebb45d16a12d60b4a3f8e0641f79_r.jpg\"/></figure><p data-pid=\"oQg_-o9c\"><b>所以，有时候承认自己放不下也是一种放下</b>。</p><p data-pid=\"AtHXE7gr\">不再强迫自己去变得积极阳光，不再和那个巨大的伤痛对抗，而是允许它存在，允许自己带着残缺活下去，这种与痛苦共存的诚实，或许是另一种形式的解脱。</p><p data-pid=\"qtVplWWt\"><b>真正的放下从来不是遗忘，而是归档。</b></p><p data-pid=\"agv_kDMO\">把它从正在进行时变成过去完成时，它依然在那里，但不再占据你当下的内存，不再影响你此刻的心跳。</p><p data-pid=\"3KuMw7Ts\">要想真的从这泥潭里拔出腿来，光靠想是没用的。</p><p data-pid=\"J5P9K-0j\"><b>先用仪式感来向潜意识宣告。</b></p><p data-pid=\"weImX_2p\">有一个方法我自己用过。</p><p data-pid=\"oTlVr4wT\">找一个安静的晚上，把你所有的不甘、愤怒、委屈还有那些没来得及说出口的爱恨，统统写在一张纸上，写得越详细越好，哪怕是骂人的话也写下来。</p><p data-pid=\"1McHbH-B\">然后找个安全的地方把它烧了，看着那张纸在火苗里卷曲变黑最后化成灰烬，这是在给你的潜意识下达一个物理层面的指令，告诉那个还在纠结的大脑，这事翻篇了，这笔账烂了，我们不玩了。</p><p data-pid=\"xbLqUtsi\"><b>再试着把视角拉长一点。</b></p><p data-pid=\"U8uPXkoY\">强制自己开启上帝视角：</p><p data-pid=\"6bTizcED\">想象一下十年后的自己再回头看今天这件事，那时候的你可能已经有了新的生活，新的爱人，新的烦恼，当初那个让你辗转反侧痛哭流涕的人，那个让你觉得天都要塌下来的挫折，在十年后的那个你眼里，可能连个下酒菜都算不上…既然十年后它不重要，那为什么要让它折磨现在的你？？</p><p data-pid=\"pXjgjSxw\"><b>最后，放过自己，是对生命最大的慈悲。</b></p><p data-pid=\"PwVqKcw2\">人生就是一场单程的旅行，没有回程票，也没有后悔药。</p><p data-pid=\"pav_TrG9\">我们能做的无非就是尽人事听天命，每天晚上睡觉前对自己说一句，对于这段关系对于这件事，我已经拿出了当时我能拿出的最好的自己，我已经尽力了，剩下的就交给老天爷吧。</p><p data-pid=\"Y-FVCujZ\">罗永浩这人虽然争议不小，但他说的这句话我很喜欢：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-add41d16427d895146a537b53e825626_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"658\" data-original-token=\"v2-96d67520cb24390e72769d8a7b4a6a80\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic1.zhimg.com/v2-add41d16427d895146a537b53e825626_r.jpg\"/></figure><p data-pid=\"epx_a94c\">我们没人个人都是在自己生命的每个阶段说了自己相信的话，做了自己当时以为自己能做的最好的选择，何必再用后视镜的思维苛责当初的自己？</p><p data-pid=\"DWPGPLZ1\">当我们不再试图去抓住那些流走的沙子，当我们终于松开了那双紧握的拳头，会发现双手虽然空了，但也终于腾出手来，可以去拥抱那个正在向我们走来的、崭新的日子。</p>",
+        "vote_next_step": "vote",
+        "id": "1995860414995657192",
+        "updated_time": 1768648182,
+        "comment_count": 5,
+        "is_copyable": false,
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-8ee6f6d488abdc84b352a1926d44b3e3_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-6c305f76993f7131bcc97fe5834210dc_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-96d67520cb24390e72769d8a7b4a6a80_720w.jpg?source=b6762063"
+        ],
+        "navigator_vote": false,
+        "voteup_count": 46,
+        "question": {
+          "author": {
+            "id": "349068d53d1ceb40a8914484a598726f",
+            "url": "https://api.zhihu.com/people/349068d53d1ceb40a8914484a598726f",
+            "user_type": "people",
+            "is_org": false,
+            "followers_count": 551,
+            "is_following": false,
+            "url_token": "akira-21",
+            "name": "Akira",
+            "headline": "要变成更好的人啊",
+            "avatar_url": "https://picx.zhimg.com/50/v2-12a32fd70f40245cd7bc23c5e3fad5f7_l.jpg?source=b6762063",
+            "gender": 0,
+            "is_followed": false
+          },
+          "follower_count": 0,
+          "is_following": false,
+          "excerpt": "",
+          "detail": "",
+          "id": "26481664",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/26481664",
+          "created": 1415113056,
+          "answer_count": 0,
+          "question_type": "normal",
+          "title": "如何放下心中的执念？",
+          "comment_count": 18,
+          "relationship": {
+            "is_author": false
+          },
+          "bound_topic_ids": [
+            404,
+            1576,
+            117323,
+            92024
+          ]
+        },
+        "visited_count": 1088,
+        "answer_type": "normal",
+        "is_navigator": false,
+        "type": "answer",
+        "author": {
+          "is_org": false,
+          "badge": [
+            {
+              "type": "best_answerer",
+              "description": "地铁话题下的优秀答主",
+              "topic_names": [
+                "地铁"
+              ],
+              "topic_ids": [
+                1717
+              ]
+            }
+          ],
+          "is_following": false,
+          "id": "dee9f7c9d1844ea794913841d3fd7ed8",
+          "url": "https://api.zhihu.com/people/dee9f7c9d1844ea794913841d3fd7ed8",
+          "user_type": "people",
+          "name": "Kaiser",
+          "followers_count": 83247,
+          "is_followed": false,
+          "url_token": "densen",
+          "headline": "收藏再看丨资深半体制",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-c948b117ba8e0c274e06d166e05c50e6_l.jpg?source=b6762063",
+          "gender": 1
+        },
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_labeled": false
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995860414995657192}",
+      "attached_info": "CtcGCKDqv8vb7uijugEQBBoJNzY1Nzk5Mjc1ILzPrMsGKC4wBUAfSjkKKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQ1JFQVRFEgY3NjUxODgYACAAOgBaBzI3NzU2MjBiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1ODYwNDE0OTk1NjU3MTkyigEIMjY0ODE2NjSqAQlyZWNvbW1lbmTCASBkZWU5ZjdjOWQxODQ0ZWE3OTQ5MTM4NDFkM2ZkN2VkOPIBCggMEgZOb3JtYWzyASgIChIkMTRlZjMwNjQtOWRhNC00MzMwLTk3MmEtMzAzOTU1NGE3NWIz8gEFCAsSATaCAgCIAqyW8um8M5ICIGRlZTlmN2M5ZDE4NDRlYTc5NDkxMzg0MWQzZmQ3ZWQ4mgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCKVRTX1NPVVJDRV9GSVJTVF9ERUdSRUVfU09DSUFMX1VTRVJfQ1JFQVRF6AIF+gILTk9STUFMX0ZMT1eKAyAyNDI0Njc1MGE5MDY0NzYyODllNzVhMmQ2MDIxNGI2Y5oDDQoCdjIQABoFb3RoZXKoA8AI2AMA6gMdZmlyc3REZWdyZWVVc2VyQ3JlYXRlUmVjYWxsZXL6A6wBEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAMQuAgYzAUiI3YyLThlZTZmNmQ0ODhhYmRjODRiMzUyYTE5MjZkNDRiM2UzOi0IAxCADxi4CCIjdjItNmMzMDVmNzY5OTNmNzEzMWJjYzk3ZmU1ODM0MjEwZGM6LQgCEOgHGJIFIiN2Mi05NmQ2NzUyMGNiMjQzOTBlNzI3NjlkOGE3YjRhNmE4MIAEAIgEAJIEBk5vcm1hbJoEATWgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgIHejz+BBQAAAAAAAAAAiQW47+X8j7KxP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYhqAYDkgIuCgk3NjU3OTkyNzUSEzE5OTU4NjA0MTQ5OTU2NTcxOTIYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "32_1768674855.885",
+      "type": "feed",
+      "offset": 32,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674855,
+      "updated_time": 1768674855,
+      "target": {
+        "author": {
+          "is_following": false,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/7c29f57b918597b32be3008a093cdd8e",
+          "name": "Dinan",
+          "url_token": "dinan-65-96",
+          "headline": "有我有不一样的快乐",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-97db57e0179796b912ef92502c941c12_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "followers_count": 16,
+          "id": "7c29f57b918597b32be3008a093cdd8e",
+          "user_type": "people"
+        },
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "excerpt_new": "“被人扇了一巴掌，到底能不能还手？还手会不会跟对方一起被拘留？” 2025年底，上海地铁9号线的监控画面曾引发全网热议：一名男子因为“多看了一眼”邻座女乘客，被对方连续扇了10个耳光。可全程下来，男子始终捂着脸没敢还手——他后来在派出所坦言，不是打不过，是怕“一还手就被算成互殴，最后连自己也得受罚”。 这样的无奈，曾是无数普通人面对不法侵害时的真实写照：要么忍气吞声吃暗亏，要么反击后被“各打五十大板”。…",
+        "content": "<p data-pid=\"YchKxmT_\">“被人扇了一巴掌，到底能不能还手？还手会不会跟对方一起被拘留？”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qc_pBUdq\">2025年底，上海地铁9号线的监控画面曾引发全网热议：一名男子因为“多看了一眼”邻座女乘客，被对方连续扇了10个耳光。可全程下来，男子始终捂着脸没敢还手——他后来在派出所坦言，不是打不过，是怕“一还手就被算成互殴，最后连自己也得受罚”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mI8qTTQH\">这样的无奈，曾是无数普通人面对不法侵害时的真实写照：要么忍气吞声吃暗亏，要么反击后被“各打五十大板”。但从2026年1月1日起，这一切终于有了改变——新修订的《治安管理处罚法》正式施行，其中第19条直接打破“还手即互殴”的旧规矩，明确了3种情况还手能完全免责。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QyWBL7cr\">今天就用最通俗的语言，结合真实案例把新规讲透：从“为啥要改”到“哪些情况免责”，再到“遇到冲突该咋做”，帮你把法律“保护伞”装进口袋，既不被动挨打，也不踩法律红线。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kBnutq8Z\">一、那些年“和稀泥”的执法：为啥大家被打不敢还手？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HrZ9LvCj\">在新规落地前，“各打五十大板”的执法方式，曾让不少受害者寒心。最典型的，莫过于2020年山东淄博餐馆老板娘的案子。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8P17gyd_\">当时，老板娘张女士在店里忙活，一名醉酒男子刘某突然进店闹事，一言不合就挥拳打她。监控显示，刘某先后三次把张女士打倒在地，其中一次还把她的头按在桌子上撞。情急之下，张女士抓起身边的啤酒瓶反击，划伤了刘某的胳膊。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nIG7Rp_3\">可结果呢？当地警方认定两人属于“互殴”，对张女士处以行政拘留5日、罚款200元，对刘某处以行政拘留6日。这个处理结果一公布，全网炸了锅：“受害者难道只能站着挨打？”“反击一下就要被拘留，这不是纵容坏人吗？”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HayBLU_O\">类似的案例还有很多：2023年，一名女子在城际列车上制止小孩踢椅背，被家长扇了一巴掌后反击，最后双方都被认定为“互殴”，女子被罚200元；2024年，广东一名男子被邻居堵在楼道里辱骂推搡，他伸手格挡时不小心把邻居推倒，结果被处以罚款500元……</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"k9F84C6H\">“过去执法时，我们也很为难。”一位从业10年的老民警坦言，旧规下没有明确的“正当防卫”认定标准，遇到双方都动手的情况，为了“息事宁人”，往往只能按“互殴”处理。可这样一来，不仅受害者委屈，还变相传递了“先动手不吃亏”的错误信号——有些施暴者甚至故意先动手，就等着对方反击，最后一起担责。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FfriCw3x\">复旦大学法学院副院长杜仪方教授一针见血地指出：“以前的问题，本质是治安法和刑法的正当防卫规则没对齐。刑法早就明确‘正当防卫不担责’，但治安领域一直没跟上，导致普通人面对轻微不法侵害时，陷入‘要么挨打、要么违法’的两难。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gSmsLYDN\">而这次新规的修订，正是为了解决这个问题。最高检在解读时明确表示：正当防卫的核心是“法不能向不法让步” ——好人被欺负了，反击自保是天经地义，不该受处罚。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dMoxg8n2\">二、划重点！这3种情况还手，100%免责（附案例+认定标准）</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4EqaQA9z\">新修订的《治安管理处罚法》第19条白纸黑字写清楚：“为了免受正在进行的不法侵害而采取的制止行为，造成损害的，不属于违反治安管理行为，不受处罚。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"68iOHd0J\">简单说，只要符合以下3种情形，你的反击就是合法的正当防卫，不用承担任何责任。每一种都有真实案例背书，记牢了，关键时候能保命。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NKtQniiy\">（一）别人闯你家闹事，还手制止算防卫——“家是避风港，不是施暴者的游乐场”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Raq6oNo3\">“家是最小国”，未经允许闯进你家，本身就是违法；要是还敢动手、威胁你和家人，完全可以还手。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VAwDqXtv\">最高法曾公布过一个典型案例：江苏的汪天佑和邻居早年因建房有矛盾，后来经村委会调解，双方已经握手言和。可2024年的一个深夜，邻居的女婿带着两个朋友，突然跑到汪天佑家门口，不说明身份就使劲砸门，要求汪天佑开门“聊聊”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"kRGmPu3t\">汪天佑隔着门拒绝后，门外的人直接一脚踹开了纱门，冲进屋里就对着汪天佑的脸打了过去——监控显示，对方先动手抓伤了汪天佑的脸颊，还把他的眼镜打飞。汪天佑没办法，从厨房橱柜上拿起一个铁质的摩托车减震器（平时用来修摩托车的工具）反击，过程中造成对方一人轻伤、一人轻微伤。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hfqoXm4T\">事后，对方报警要求汪天佑赔偿，还说他“故意伤人”。但法院最终判定：汪天佑的行为属于正当防卫，不用担责。理由很简单——对方是非法侵入住宅，而且先动手实施了不法侵害，汪天佑的反击是为了保护自己和家人的安全。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bdmzpuWA\">新规认定标准：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KcYJipTD\">1. 前提：对方是“强行进入”你家（包括租房、宿舍等私人居住空间），或者进入后拒不退出；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"JAGQmmus\">2. 行为：对方不仅闯入，还实施了殴打、辱骂、威胁等不法侵害；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mQ8Zc7ea\">3. 限制：你的反击针对的是闯入者本人，没有“迁怒”其他人（比如闯入者的孩子）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"h5KeWbLD\">哪怕闯入的是熟人（比如前男友、远房亲戚），只要符合以上条件，你还手都算正当防卫。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"t92cMOp3\">（二）被人持续殴打、恐吓，本能反击不担责——“别人打你时，不用等着挨完打再报警”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"i2KwH281\">生活中遇到陌生人挑衅、找茬，或者因为琐事被人追着打，以前很多人怕“还手成互殴”不敢反抗，现在不用怕了——只要对方的殴打、恐吓是“正在进行”的，你为了制止他而反击，就不算违法。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oMjy9LJX\">咱们再回头看淄博餐馆老板娘的案子：要是放在2026年新规实施后，结果会完全不同。当时老板娘被醉酒男子三次打倒在地，还被按头撞桌子，她拿啤酒瓶反击时，对方的殴打行为还在持续，而且双方力量悬殊（一个醉酒男子 vs 一个女性），她的反击手段（用啤酒瓶划伤胳膊）没有超过“制止侵害”的必要限度，完全符合正当防卫的条件，不会被认定为互殴。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2dV68hhA\">还有一个更典型的案例：2023年，安徽的盛春平被人以“谈恋爱”为名，骗进了一个传销窝点。进窝点后，传销人员多次想把他拉进卧室洗脑，还对他进行体罚（比如罚站、不给吃饭），甚至威胁“不加入就别想走”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xQY8rYPu\">有一天，三名传销人员围着盛春平，其中一人伸手要抓他的胳膊，想把他拖进卧室。盛春平知道一旦进去可能会被更严重地虐待，于是从口袋里拿出随身携带的水果刀（平时用来削水果的）警告对方。可对方不仅没停手，反而上前夺刀，盛春平被迫挥刀刺向对方，造成一人死亡。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"F06iyqZQ\">检察机关最后认定：盛春平的行为属于正当防卫，不用担责。理由是——他面临的是“持续升级的不法侵害”，反击的目的是保护自己的人身自由和生命安全，而且当时没有其他逃生的办法。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3sMIWD-F\">新规认定标准：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ShC-ootv\">1. 时间：对方的不法侵害正在进行（比如正在打你、追你，或者已经逼近要动手）；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"FobNuzmK\">2. 目的：你的反击是为了“制止侵害”，而不是“报复”（比如对方打你一拳，你反击是为了让他停手，不是为了把他打残）；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"b5wk6QbW\">3. 强度：反击手段和对方的侵害强度匹配（对方徒手打你，你用拳头反击没问题；对方只是推搡，你不能拿凶器砸他）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lAztTsgn\">（三）看到别人被欺负，出手相助合法——“见义勇为不再是‘多管闲事’”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Zu6cM-uI\">新规不仅保护你自己，还鼓励你保护别人。看到有人遭受不法侵害（比如抢劫、盗窃、老人小孩被打、女性被骚扰），上前制止施暴者的行为，只要方法得当，也能免责。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zqo_NH1I\">2025年，湖南长沙就发生过这样一起案例：一辆公交车上，一名乘客因为坐过站，突然上前殴打司机，还伸手去拉方向盘——这可是危害全车人生命安全的行为！当时坐在后排的乘客李师傅，立刻冲上去把施暴者拉开，过程中因为用力过猛，导致施暴者摔倒在地，膝盖轻微擦伤。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KmUbe2G9\">事后，施暴者报警，说李师傅“故意伤人”。但警方根据新规认定：李师傅的行为属于正当防卫，不用担责。理由是——他制止的是“危害公共安全的不法侵害”，而且没有超过必要限度（只是把人拉开，没有额外殴打）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CbfrlaRS\">还有一个例子：2026年1月，浙江杭州的一个菜市场里，一名男子因为买菜时和摊主发生口角，就动手打了摊主（一位60多岁的老人）。旁边卖水果的小王看到后，立刻上前把男子推开，还挡在老人身前。男子不服气，转身想打小王，小王抬手格挡，不小心把男子的鼻子碰出血。警方调查后认定：小王的行为是见义勇为，属于正当防卫，不用处罚。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oBqS3-lq\">新规认定标准：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jm24I2oC\">1. 对象：你制止的是“正在发生的不法侵害”（比如对方正在打人、抢劫，不是“已经打完了”）；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2wr-6WUs\">2. 方式：你的制止行为是“必要的”（比如对方打老人，你把他拉开、按住都可以，不能在他停手后再打他）；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZsmD-KMf\">3. 范围：只针对施暴者本人，不能伤害无关人员（比如不能因为施暴者的孩子在旁边，就拿孩子威胁）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xdIlVh8B\">三、别踩坑！正当防卫和互殴，就差这3点</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bfwLxiZU\">很多人担心：“我以为是正当防卫，最后却被算成互殴，怎么办？”其实两者的界限很清晰，记住这3个核心区别，就能避免踩坑。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jjEcq1zx\">1. 看“初衷”：是被动自保，还是主动找茬？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4khxBks6\">正当防卫的核心是“被动反击”——你本来不想打架，只是为了制止对方的不法侵害；而互殴是“主动找茬”——双方都有伤害对方的想法，比如互相辱骂、约架，最后打起来。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-9_N6o5a\">举个例子：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"NAGgewa0\">• 情况一：A走在路上，没招惹任何人，B突然冲上来打A一拳。A为了让B停手，抬手反击，把B推开。这就是正当防卫——A是被动自保，没有主动挑事。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GpyNY57o\">• 情况二：A骂B“没素质”，B不服气，说“有种你打我试试”。A真的动手打了B，B立刻反击。这就是互殴——B有“挑衅”的意图，双方都有过错。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"IgWQ2gKD\">简单说：谁先挑事，谁就可能担责；如果是无理由被打，反击就是正当防卫。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uEq3Y_wJ\">2. 看“时间”：是正在挨打时反击，还是事后报复？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"GA2sGDjn\">正当防卫必须是“不法侵害正在发生”的时候——比如对方正在打你、追你，或者已经逼近要动手；如果对方已经停手、跑了，或者被制服了，你再追上去打他，这就是“事后防卫”，属于违法。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nbbC72gm\">举个例子：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"lDMkZWrq\">• 情况一：A打了B一巴掌，还扬着手准备打第二下。B趁A没动手前，抬手把A的胳膊挡开，还把A推到一边。这是正当防卫——因为A的侵害还在持续。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8urMq_MJ\">• 情况二：A打了B一巴掌后，转身要走。B气不过，追上去踹了A一脚，导致A摔倒受伤。这就是事后报复——A的侵害已经结束，B的行为属于违法，要担责。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SXpV2S3j\">记住：对方停手，你就停手；对方跑了，别去追——否则很容易从“防卫者”变成“违法者”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pVBy0_r8\">3. 看“力度”：是刚好制止，还是下手过重？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"77BghjRn\">这是最容易出错的一点！正当防卫不是“想怎么打就怎么打”，力度不能“明显超过必要限度”。简单说，就是“对方怎么对你，你大概怎么反击”，不能“小题大做”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nefCEjxD\">怎么判断“必要限度”？主要看4点：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VU3aFcfG\">1. 对方的侵害手段：是徒手（拳头、巴掌）还是持械（刀、棍）？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"s0bEIpgg\">2. 对方的侵害强度：是轻轻推搡还是往死里打？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hE5yszIU\">3. 双方的力量对比：比如成年人对小孩、男人对女人、多人对一人？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0eYYmhu1\">4. 当时的情境：你是不是处于危险、紧张的状态（比如被多人围堵，可能会本能地用更大力气反击）？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"e1yvFGpB\">举个例子：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"q1d5SsPb\">• 情况一：对方用拳头打你，你用拳头反击，或者把他推开，这没问题——力度匹配。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sd-nljFr\">• 情况二：对方只是轻轻推了你一下，你却拿起砖头砸他的头，导致他重伤——这就超过了必要限度，属于防卫过当，要担责。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qLXFc4Eu\">还有一种情况要注意：如果对方持械（比如拿刀、铁棍）打你，你用身边的工具（比如椅子、拖把）反击，只要是为了制止对方，一般不算超过限度。比如对方拿刀刺你，你用椅子挡开，过程中把对方砸伤，这是合法的——因为对方的侵害手段更危险，你的反击力度可以相应提高。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"abWMQXyk\">四、遇到冲突，4步走保你合法自保</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"t8mvSQLS\">光懂新规还不够，真遇到事儿了，按这几步来做，既能保护自己，又能让警方清晰认定“正当防卫”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3Cnf9EKm\">1. 先躲后防，别硬刚</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"i2yD-4uj\">第一原则：能躲开就先躲开。比如对方找茬时，尽量克制情绪，别跟他吵，赶紧离开现场（比如从餐馆走到路边，从楼道走到小区门口），避免冲突升级。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TsqBwvvT\">如果实在躲不开（比如对方堵着你不让走，或者已经动手打你），再考虑防卫。记住：防卫的目的是“制止侵害”，不是“打赢对方”。比如对方打你，你把他推开后，立刻后退，别再继续打——这样既能保护自己，又能避免被认定为“互殴”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qtK6wtYk\">举个例子：如果有人在超市里因为排队跟你吵架，还扬着手要打你，你可以先往后退，同时说“我不想跟你吵，你别动手”。如果对方还是动手，你再抬手格挡，把他推开，然后立刻找超市工作人员帮忙，或者走到监控下面——这样既占理，又有证据。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LBUhhRuR\">2. 全程留证据，比啥都重要</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"E5PUqmFU\">证据是认定“正当防卫”的关键。冲突发生时，一定要想办法留证据，具体怎么做：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xCtv_8xq\">• 拍视频/录音：用手机拍清楚对方的脸、动手的动作（比如对方打你、推你）、现场环境（比如餐馆、楼道、路边的招牌），同时录音（比如对方的辱骂、威胁的话，“我今天打死你”“你别想走”）。拍的时候尽量稳一点，别光顾着拍，忘了保护自己——可以把手机放在口袋里，开着录音，或者让旁边的人帮忙拍。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xODU3NgN\">• 找目击证人：如果有路人看到，一定要留下他们的联系方式（电话、微信），跟他们说“麻烦你待会儿跟警察说明一下情况”。警方调查时，目击证人的证词非常重要。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"w8QqVs5E\">• 调监控：如果现场有监控（比如餐馆、超市、小区、路边的公共监控），一定要让警察调取。比如你在商场里被打，告诉警察“商场的监控应该拍下来了，麻烦你们去调一下”——监控是最客观的证据，能直接证明“谁先动手”“你是不是正当防卫”。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"j243mIy5\">记住：别等冲突结束了再找证据——现场的监控可能会覆盖（很多监控只保存7天），目击证人也可能走了，到时候再找就难了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TroX472b\">3. 打完架别跑，第一时间报警</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CJBKqDdP\">不管是你防卫还是被打，都要马上打110报警。报警时别慌，跟警察说清楚这几点：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HZlvZUvA\">• 地点：具体在哪里（比如“XX路XX餐馆门口”“XX小区3号楼2单元楼道”）；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"uHJ7uEhU\">• 情况：谁先动手（“对方先打我”）、对方怎么打你（“他打了我一巴掌，还推我”）、你怎么反击的（“我把他推开，没有打他”）；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"EHzuy15A\">• 结果：有没有人受伤（“我脸被打红了，对方好像没受伤”）、对方现在在哪里（“他还在现场，没走”）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"XV-nTCG7\">到了派出所做笔录时，一定要如实说，别隐瞒也别夸大。比如对方打了你一巴掌，你别说“他打了我好几下”；你把对方推开，别说“我把他打倒在地”——撒谎很容易被戳穿，反而影响警方对你的信任。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"9I1IZ9pT\">还要注意：别跟对方“私了”，除非对方只是轻微推搡，没有造成伤害。如果对方动手打你，哪怕伤不重，也最好让警方出警记录——万一后续对方反悔，说你“打他”，出警记录就是你的证据。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TdRp7pK4\">4. 受伤了先就医，保留好票据</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Bj3OMp-E\">不管伤得轻重，都要去正规医院检查（比如社区医院、公立医院的急诊科），别想着“忍忍就过去了”。就医时要做这些：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"V2CcoLtM\">• 让医生详细记录伤情：比如“面部软组织挫伤”“手臂皮肤划伤”，别漏了任何细节；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VukGIhcM\">• 保留好所有票据：诊断证明、病历本、缴费单（挂号费、检查费、药费），这些都是证明你“遭受了不法侵害”的证据，也是后续要求对方赔偿的依据；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OPnah34h\">• 如果伤得重（比如骨折、头部受伤），一定要申请法医鉴定：让医院出具“伤情鉴定委托书”，然后去法医鉴定机构做鉴定——鉴定结果（比如“轻微伤”“轻伤”）能决定对方是否要承担更重的责任（比如行政拘留、罚款，甚至刑事责任）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4E5XDrDD\">举个例子：如果对方打你导致你轻微脑震荡，你去医院检查后，保留好诊断证明和缴费单，然后要求警方对对方进行处罚。如果对方不愿意赔偿你的医疗费，你可以拿着这些证据去法院起诉，要求对方赔偿。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5u9VX1Fc\">五、新规落地，改变真的来了</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"O1t4kSVk\">从2026年1月1日新规施行到现在，各地已经有不少案例按新规处理，带来的改变实实在在。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KgPLln8N\">成都的一位社区民警小王说：“以前处理打架案，经常被受害者问‘我还手了怎么还罚我’，现在有了明确的法律依据，我们能更精准地分清是非，不用再‘各打五十大板’。比如上个月有个案子，一个小伙子被邻居打了后反击，我们调取监控发现，小伙子是被动防卫，而且没超过限度，最后只处罚了先动手的邻居——小伙子特别感激，说‘终于不用挨打还受罚了’。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"QaE4ec3p\">对普通人来说，新规带来的影响更直接：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"M7xAQ7KF\">• 坏人不敢随便找茬了：知道“先动手必担责”，而且对方还手合法，施暴者会更收敛。比如以前有些小混混喜欢“碰瓷”，故意找茬打人，就等着对方反击后一起担责，现在这种情况少了很多；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"v7ZacPKJ\">• 好人不用再忍气吞声了：遇到不法侵害，不用再纠结“还手会不会被罚”，能更勇敢地保护自己和他人。比如现在公交车上有人闹事，主动上前制止的人多了——大家知道，只要方法得当，自己是合法的；</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nq9VWbx3\">• 社会风气更好了：“见义勇为”有了法律保障，大家不再“事不关己高高挂起”。比如上个月，浙江宁波的一个公园里，有个小孩掉进湖里，旁边的几个路人立刻跳下去救人，还有人帮忙找救生圈——这种“敢出手、愿帮忙”的场景，现在越来越常见。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2OTzhthW\">不过也要提醒大家：新规不是让大家“以暴制暴”，而是给正当防卫一个明确的边界。比如有人骂你，你不能因为“他骂我”就动手打他——辱骂属于言语冲突，不算“不法侵害”，你动手就是违法；还有人故意激怒你，让你先动手，然后他再“正当防卫”——这叫“防卫挑拨”，也是违法的，要担责。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hJzxfMls\">中国人民公安大学教授李春华说得好：“法律保护的是‘守法的人’，不是‘施暴的人’，也不是‘滥用防卫权的人’。新规的目的，是让大家在面对不法侵害时，既有‘还手的底气’，又有‘克制的理智’——该维权时敢维权，该收手时要收手。”</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"BXpyl4rG\">法律撑腰，正义不再缺席</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"z53EsJHf\">以前，很多人被打后不敢还手，不是因为懦弱，而是因为怕“法律不站在自己这边”。而2026年的这场新规，就像给普通人撑起了一把“保护伞”——它告诉我们：被欺负了不用忍，反击自保是合法的；看到别人被欺负了不用怕，见义勇为是受保护的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZuN38Hic\">当然，最好的情况是“不遇到冲突”。但如果真的遇到了，记住：先躲后防、留好证据、及时报警、按时就医——这四步能帮你最大程度保护自己。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"zWzH6rdN\">最后想问大家：你以前有没有遇到过“被打不敢还手”的情况？如果现在遇到有人挑衅，你会怎么处理？欢迎在评论区分享你的经历和想法，也别忘了把这篇文章转给家人朋友，让更多人知道“正当防卫”的边界，遇到事儿不慌、维权有招！</p><p data-pid=\"C4QCtu0S\"> #关于我和知乎的一件小事   #知乎15周年</p>",
+        "article_type": "normal",
+        "navigator_vote": false,
+        "preview_text": "",
+        "url": "https://api.zhihu.com/articles/1995265026601272394",
+        "comment_permission": "all",
+        "created": 1768488327,
+        "updated": 1768488327,
+        "voteup_count": 278,
+        "comment_count": 66,
+        "excerpt": "“被人扇了一巴掌，到底能不能还手？还手会不会跟对方一起被拘留？” 2025年底，上海地铁9号线的监控画面曾引发全网热议：一名男子因为“多看了一眼”邻座女乘客，被对方连续扇了10个耳光。可全程下来，男子始终捂着脸没敢还手——他后来在派出所坦言，不是打不过，是怕“一还手就被算成互殴，最后连自己也得受罚”。 这样的无奈，曾是无数普通人面对不法侵害时的真实写照：要么忍气吞声吃暗亏，要么反击后被“各打五十大板”。…",
+        "is_labeled": false,
+        "is_navigator": false,
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "preview_type": "default",
+        "favorite_count": 279,
+        "id": "1995265026601272394",
+        "type": "article",
+        "title": "2026打架新规落地！“还手即互殴”成历史，这3种情况反击100%免责，手把手教你维权",
+        "voting": 0,
+        "visited_count": 23971
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1995265026601272394}",
+      "attached_info": "CvoFCKDqv8vb7uijugEQBxoJMjY5MDg0MzY3IIf7o8sGKJYCMEJAIEo1CiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMhIBMBgAIAA6CnsicmF3IjoiIn1KKwoWVFNfU09VUkNFX0ZFRURSRV9NU19WMxIBMBgAIAA6CnsicmF3IjoiIn1KKAodVFNfU09VUkNFX05FQVJMSU5FX0NPTlRFTlRfVjISATAYACAAOgBiIDk4MzdiMmRiMTM3ODE0OGJlZmJkOGI2ODg4OGFmODE3chMxOTk1MjY1MDI2NjAxMjcyMzk0qgEJcmVjb21tZW5kwgEgN2MyOWY1N2I5MTg1OTdiMzJiZTMwMDhhMDkzY2RkOGXyAQoIDBIGTm9ybWFs8gEoCAoSJGZkODNkMzk5LTlmNTItNGNmMC1hZmNiLTVmNDNhNWMzZmM4ZPIBBQgLEgE2ggIAiAKslvLpvDOSAiA3YzI5ZjU3YjkxODU5N2IzMmJlMzAwOGEwOTNjZGQ4ZZoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAiBUU19TT1VSQ0VfRkVFRFJFX0ZJUlNUX1NDUkVFTl9WMugCAvoCC05PUk1BTF9GTE9XigMgMjQyNDY3NTBhOTA2NDc2Mjg5ZTc1YTJkNjAyMTRiNmOaAw0KAnYyEAAaBW90aGVyqAOjuwHYAwDqAxZmZWVkcmVfZmlyc3Rfc2NyZWVuX3Yy+gMfEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAgDhslD+BBQAAAAAAAAAAiQW47+X8j7KxP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYiqAYAkgIuCgkyNjkwODQzNjcSEzE5OTUyNjUwMjY2MDEyNzIzOTQYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "33_1768674855.716",
+      "type": "feed",
+      "offset": 33,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674855,
+      "updated_time": 1768674855,
+      "target": {
+        "id": "1989581297711089156",
+        "vote_next_step": "vote",
+        "url": "https://api.zhihu.com/answers/1989581297711089156",
+        "comment_count": 61,
+        "type": "answer",
+        "voteup_count": 366,
+        "author": {
+          "url_token": "ren-zhi-23-75",
+          "headline": "爱好人文历史  喜欢杂想杂记  ",
+          "is_following": false,
+          "is_followed": false,
+          "gender": 1,
+          "badge": [
+            {
+              "description": "电力能源行业 从业人员",
+              "type": "identity_people"
+            }
+          ],
+          "id": "a2cf795d9c747fffcaaf9057534ab5f8",
+          "url": "https://api.zhihu.com/people/a2cf795d9c747fffcaaf9057534ab5f8",
+          "user_type": "people",
+          "name": "好吃的什锦锅",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-e5f8dd29f70a5ee8f5dd9a8aa46f2d94_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 5219
+        },
+        "thumbnail": "https://picx.zhimg.com/50/v2-de0258bef861ed32cc9f55372807eced_720w.jpg?source=b6762063",
+        "excerpt_new": "来，这次写一个万历十五年，一位江南乡绅的日常。   鸡鸣三遍，松江府华亭县的乡绅徐文启在晨曦中睁开眼。晨光微露，五十七岁的徐文启已在中堂端坐，管家捧着账册开始轻声汇报昨日田庄收支。这是一位进士出身，但如今以“乡绅”身份经营着祖传家业的乡村重要人物。 他面前摊开的是万历十五年的黄册副本，上面详细登记着徐氏家族名下的土地、人丁。窗外，佃户们正在禾场上晾晒新收的早稻，空气中弥漫着谷物与泥土混合的芬芳。   晨钟…",
+        "content": "<blockquote data-pid=\"ZGnBzq-p\">来，这次写一个万历十五年，一位江南乡绅的日常。</blockquote><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-aa85e938396da321fb155ebe42b455d9_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1100\" data-size=\"normal\" data-original-token=\"v2-de0258bef861ed32cc9f55372807eced\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic4.zhimg.com/v2-aa85e938396da321fb155ebe42b455d9_r.jpg\"/></figure><p data-pid=\"1hlp2trY\"><b>鸡鸣三遍，</b>松江府华亭县的乡绅徐文启在晨曦中睁开眼。晨光微露，五十七岁的徐文启已在中堂端坐，管家捧着账册开始轻声汇报昨日田庄收支。</p><p data-pid=\"Ykxe92uC\">这是一位进士出身，但如今以“乡绅”身份经营着祖传家业的乡村重要人物。</p><p data-pid=\"xURj0TI8\">他面前摊开的是万历十五年的黄册副本，上面详细登记着徐氏家族名下的土地、人丁。窗外，佃户们正在禾场上晾晒新收的早稻，空气中弥漫着谷物与泥土混合的芬芳。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-23d3e0e987b52d38cbbbfa073e781069_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1100\" data-size=\"normal\" data-original-token=\"v2-2eb45ac5487d79be922203422ddf2eeb\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic4.zhimg.com/v2-23d3e0e987b52d38cbbbfa073e781069_r.jpg\"/></figure><p data-pid=\"9eS-2Hf4\"><b>晨钟敲响时</b>，徐文启已端坐中堂。管家徐福捧着紫檀木托盘，上面整齐码放着田庄账册、佃户名单和待处置事务的签票。乡绅的第一项职责便是从理家开始。</p><p data-pid=\"ljo6Sid-\">《明会典》记载，地方大户需协助官府管理赋税册籍。徐文启面前摊开的正是万历十五年的黄册副本，墨迹工整地记录着徐氏名下的土地与人丁。</p><p data-pid=\"Mo4kd1uH\">明代叶梦珠在《阅世编》中描述：</p><blockquote data-pid=\"2-JlEION\">“乡绅之家，晨起必先理家政，核账目，处分仆役。” </blockquote><p data-pid=\"0riwpWZ_\">徐文启此刻正在履行这个延续了百年的惯例。</p><p data-pid=\"_xdSMUKx\">他仔细核对着秋粮的预收数额，时而用朱笔在账册边缘批注。窗外传来禾场上佃户晾晒稻谷的声响，空气里飘散着新米与稻草的清香。</p><p data-pid=\"05c-zOHh\">明代何良俊在《四友斋丛说》里写道：</p><blockquote data-pid=\"XCFuz4sS\">“江南乡绅，其家必有三事：一曰治田，二曰理讼，三曰训子弟。” </blockquote><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7b0ec140ff96eb52c5dd76420f1207b8_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1098\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-2865b8c60c98e0d7945a889798414a91\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pica.zhimg.com/v2-7b0ec140ff96eb52c5dd76420f1207b8_r.jpg\"/></figure><p data-pid=\"L5e-DWbX\"><b>辰时正刻，</b>徐氏宗祠的铜钟被敲响。徐文启换上正式的深蓝色直裰，头戴四方平定巾，缓步走向祠堂。今天不是祭祖的日子，但有两件事必须在祠堂处理。</p><p data-pid=\"8Z7QXEm6\">首先是族中子弟徐启瑞的入学仪式。明代律法规定“民间俊秀子弟可入县学”，但需要乡绅作保。徐文启在保证书上郑重落下自己的名讳与私章。</p><p data-pid=\"l_wc8LSs\">随后是调解一桩田地纠纷。族弟徐文耀与邻居因水渠改道各执一词，双方在祠堂前各陈情由。徐文启仔细询问细节，查看地契，最终裁定水渠维持原状，但徐文耀需让出三尺地作为公共通道。</p><p data-pid=\"oJZxY_g-\">这种调解权并非官方授予，而是源于乡绅在地方上的道德权威。明代吕坤在《实政录》中明确指出：</p><blockquote data-pid=\"UCV63FL3\">“乡里有争，必先诉于乡绅，次及里老。”</blockquote><p data-pid=\"aM4LNIKm\">祠堂的梁柱上悬挂着“诗礼传家”的匾额，阳光透过高高的窗棂，在青砖地面上投下斑驳光影。这里不仅是祭祀场所，更是乡土社会的司法前厅。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-61ac02c7665b3aac80b1e744ce9de4a8_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1108\" data-size=\"normal\" data-original-token=\"v2-8618c86b2940230717c01a5d1fad4763\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pica.zhimg.com/v2-61ac02c7665b3aac80b1e744ce9de4a8_r.jpg\"/></figure><p data-pid=\"kOCwToNb\"><b>已时阳光渐烈，</b>徐文启戴着竹笠走向田间。八百亩水田在秋阳下泛着金光，佃户们正在抢收最后一季稻谷。他并非走马观花，而是真正懂得农事。</p><p data-pid=\"D2q7Xx0M\">在田埂上，徐文启蹲下身抓起一把泥土，仔细察看墒情。他转向身旁的老农：“王伯，今年晚稻的谷粒似乎不如往年饱满？”</p><p data-pid=\"rgFxoCLB\">老农连忙解释：“老爷明鉴，七月间雨水不足，幸亏您早春让挖的那条备用水渠，不然损失更大。” 徐文启点点头，心里已在盘算明年水利工程的改进。</p><p data-pid=\"6L6Nf8r3\">明代乡绅与土地的关系极为紧密。据《松江府志》记载，当地乡绅</p><blockquote data-pid=\"MAPWPSpj\">“多亲自督农事，知天时，察地利”。</blockquote><p data-pid=\"s5u2AcdM\">这种亲力亲为，与后世想象中四体不勤的乡绅形象大相径庭。</p><p data-pid=\"-Yh8aGQ1\">徐文启特别巡视了去年试种的二十亩“苏子稻”。这种新品种耐旱性强，若试验成功，他计划明年在全乡推广。这种农业试验精神，在当时乡绅中颇为超前。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-71c89c2f5ff89034c3ad396ab3d2dfd4_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1099\" data-size=\"normal\" data-original-token=\"v2-affd2b39c26700d0a739f0c40d37b215\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic3.zhimg.com/v2-71c89c2f5ff89034c3ad396ab3d2dfd4_r.jpg\"/></figure><p data-pid=\"1zeDIWzk\"><b>午膳后，</b>徐文启的书斋“耕读轩”迎来了几位客人。县学教谕周先生、致仕的邻县主簿钱公，还有两位今年新中的秀才。这不是正式宴会，而是明代乡绅圈常见的文化交流。</p><p data-pid=\"VwRJrpmU\">话题从时文作法谈到今年秋粮市价，从南京兵部的最新动向说到府学明年修缮的募捐。徐文启作为主人，适时引导着谈话方向，既不让话题过于敏感，又保持了交流的深度。</p><p data-pid=\"h_boWLuM\">明代顾起元在《客座赘语》中描述：</p><blockquote data-pid=\"A6XVvbgB\">“士大夫退居林下，好为文酒之会，研讨艺文，亦评议地方利弊。” </blockquote><p data-pid=\"bysyBoOj\">这种雅集表面风雅，实则承担着信息交换、意见整合的重要功能。</p><p data-pid=\"O2DB540l\">茶过三巡，周教谕提起县里准备重修东门石桥，希望乡绅们能带头捐资。徐文启沉吟片刻，承诺承担三成费用，但提出须由乡绅共同监督工程质量。这种公共事务的参与，正是乡绅地方影响力的体现。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f841148229689cd134457d0f1bb38c08_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1100\" data-size=\"normal\" data-original-token=\"v2-fe76749cc354b2a7590712683ac8053d\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pica.zhimg.com/v2-f841148229689cd134457d0f1bb38c08_r.jpg\"/></figure><p data-pid=\"6cEv9_fS\"><b>未时三刻，</b>中堂外的滴水檐下已聚了七八人。有借贷纠纷的，有婚姻不合请求调解的，还有一桩偷盗疑案。徐文启换上公服，开始他作为“非正式法官”的午后工作。</p><p data-pid=\"ILVKy-nm\">最先是一对兄弟争产案。兄长称父亲临终前口头将祖宅留给他，弟弟则拿出分家文书主张平分。徐文启仔细审查文书，又询问了多位族人，最终裁定按文书执行。</p><p data-pid=\"MRfZZerw\">最棘手的是佃户张三被疑偷盗邻家耕牛案。徐文启没有轻信任何一方，而是派人暗中查访，最终在五里外的牛贩处找到了线索，证明是邻家亲戚所为。</p><p data-pid=\"Di4SRf4N\">明代法律体系在县以下依赖乡绅、里老的调解。《大明律》虽未明文规定乡绅的司法权，但在实践中，“乡评”往往具有准法律效力。徐文启的每次裁决，都会记录在专门的簿册上，重要案件还会抄送县衙备案。</p><p data-pid=\"MLvdecfv\">夕阳西斜时，最后一位村民鞠躬离去。徐文启靠在官帽椅上，轻啜一口已凉的茶。这一天的裁判，没有惊堂木与衙役呼喝，却同样维系着一方的秩序与正义。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ab999f83559eca01149e4182569092ea_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1096\" data-size=\"normal\" data-qrcode-action=\"none\" data-original-token=\"v2-a3658053dd9c3680a89da244d36879b4\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic3.zhimg.com/v2-ab999f83559eca01149e4182569092ea_r.jpg\"/></figure><p data-pid=\"4SceY-iG\"><b>晚膳前，</b>徐文启照例来到家塾“致远斋”。塾师陆先生正带领六个孩童诵读《孟子》。徐文启没有打扰，静静站在窗外听了片刻。</p><p data-pid=\"MTjSdmT4\">课后，他抽查了长子徐启骥的功课。十五岁的徐启骥已通过童试，正在准备明年的乡试。徐文启不仅考察八股文，还特意询问他对最近邸报上辽东军情的看法。</p><p data-pid=\"wccIWbmS\">“读书岂只为科第？”徐文启常对子弟说，“明道理、知时事、能任事，方为真读书。” 这种务实教育观，在醉心举业的时代显得尤为难得。</p><p data-pid=\"cn3L3H9_\">明代乡绅普遍重视教育。据《华亭县志》统计，当地举人中超过七成出身乡绅家庭。这种文化优势的保持，正是通过日复一日的严格督导实现的。</p><p data-pid=\"VpKOleak\">徐文启特别检查了幼子徐启骧的书法。发现笔力有所进步后，他从多宝阁取下一方歙砚作为奖励。这种细致入微的关怀，体现着乡绅家庭教育的另一面。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9c485e38a1455d099112d4e0f2307024_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1089\" data-size=\"normal\" data-original-token=\"v2-c8af38d2bfc50360ca407585107608a7\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pica.zhimg.com/v2-9c485e38a1455d099112d4e0f2307024_r.jpg\"/></figure><p data-pid=\"7z-jufo7\"><b>戌时二更，</b>宅院渐渐安静。徐文启独坐书斋，就着油灯翻看宋应星的《天工开物》手抄本。这位同代人的著作，与他关注实务的志趣不谋而合。</p><p data-pid=\"igKBS68v\">书案上还摊开着《农政全书》，这也是他本家的呕心之作，书中不仅记录农事，更有对土地制度、水利建设、荒政措施的深入思考。在乡绅身份之外，他也是个关心国计民生的徐文启。</p><p data-pid=\"Cu4dRWO5\">管家徐福轻手轻脚进来，汇报明日安排：上午与几位乡绅商议平粜粮价事宜，午后视察新购的桑园，晚间则要接待从杭州来的药材商人。</p><p data-pid=\"tDK_0Yy1\">油灯噼啪作响，徐文启放下毛笔，望向窗外星空。他想起自己当年金榜题名时的抱负，想起在翰林院参与修史的日子，也想起决意返乡时同僚的不解。</p><p data-pid=\"wTmGH7PS\">徐文启吹熄油灯，书房沉入黑暗。院墙外更夫敲响三更梆子，整个乡村在秋虫鸣叫声中沉沉睡去。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f54e1c352e28dcfc2e4058679e0480c7_1440w.jpg\" data-rawwidth=\"800\" data-rawheight=\"1108\" data-size=\"normal\" data-original-token=\"v2-24ad63b12fa5759a81ed7c86008d80a8\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic2.zhimg.com/v2-f54e1c352e28dcfc2e4058679e0480c7_r.jpg\"/></figure><p data-pid=\"_zLjeW2Y\">从田亩到祠堂，从家塾到雅集，乡绅的身影贯穿了明代乡村社会的每一个环节。他们的日常生活，恰是传统中国“皇权不下县”背景下，地方自治最生动的写照。</p><p data-pid=\"TPD7MKUr\">就是这样吧。</p><p data-pid=\"j9UdI8nb\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/0eebc9b425a88e87408729eec9f09be4\" data-hash=\"0eebc9b425a88e87408729eec9f09be4\" data-hovercard=\"p$b$0eebc9b425a88e87408729eec9f09be4\">@知乎人文</a> </p>",
+        "thumbnails": [
+          "https://pic1.zhimg.com/50/v2-de0258bef861ed32cc9f55372807eced_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2eb45ac5487d79be922203422ddf2eeb_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2865b8c60c98e0d7945a889798414a91_720w.jpg?source=b6762063",
+          "https://pica.zhimg.com/50/v2-8618c86b2940230717c01a5d1fad4763_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-affd2b39c26700d0a739f0c40d37b215_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-fe76749cc354b2a7590712683ac8053d_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-a3658053dd9c3680a89da244d36879b4_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-c8af38d2bfc50360ca407585107608a7_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-24ad63b12fa5759a81ed7c86008d80a8_720w.jpg?source=b6762063"
+        ],
+        "question": {
+          "bound_topic_ids": [
+            284,
+            285,
+            12009,
+            25753,
+            33911
+          ],
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "id": "37564233",
+          "type": "question",
+          "title": "中国古代的乡绅是怎样的一群人？他们如何起到维持社会稳定的作用？",
+          "follower_count": 0,
+          "comment_count": 0,
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/37564233",
+          "created": 1447684139,
+          "excerpt": "",
+          "detail": "",
+          "author": {
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/3e45d91bf429786c00df3e03e40e46db_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 12,
+            "id": "d2d3ab7310b0530c545b39ae9590aecd",
+            "url_token": "shi-zi-jun-25",
+            "name": "十字菌",
+            "is_following": false,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/d2d3ab7310b0530c545b39ae9590aecd",
+            "user_type": "people"
+          },
+          "answer_count": 0
+        },
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "allowed",
+        "is_labeled": false,
+        "excerpt": "来，这次写一个万历十五年，一位江南乡绅的日常。   鸡鸣三遍，松江府华亭县的乡绅徐文启在晨曦中睁开眼。晨光微露，五十七岁的徐文启已在中堂端坐，管家捧着账册开始轻声汇报昨日田庄收支。这是一位进士出身，但如今以“乡绅”身份经营着祖传家业的乡村重要人物。 他面前摊开的是万历十五年的黄册副本，上面详细登记着徐氏家族名下的土地、人丁。窗外，佃户们正在禾场上晾晒新收的早稻，空气中弥漫着谷物与泥土混合的芬芳。   晨钟…",
+        "is_navigator": false,
+        "created_time": 1767133146,
+        "updated_time": 1767138109,
+        "is_copyable": true,
+        "favorite_count": 304,
+        "navigator_vote": false,
+        "thanks_count": 23,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "visited_count": 35385,
+        "answer_type": "normal",
+        "allow_segment_interaction": true
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1989581297711089156}",
+      "attached_info": "Cu4JCKDqv8vb7uijugEQBBoJNzYzMzkxMzAzINqf0coGKO4CMD1AIUpCCi1UU19TT1VSQ0VfVFdPVE9XRVJfTVVMVElfU0NFTkVfVjFfUkVDQUxMX1RFWFQSATAYACAAOgp7InJhdyI6IiJ9SigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWgc3MjMyODM3YiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk4OTU4MTI5NzcxMTA4OTE1NooBCDM3NTY0MjMzqgEJcmVjb21tZW5kwgEgYTJjZjc5NWQ5Yzc0N2ZmZmNhYWY5MDU3NTM0YWI1ZjjyAQoIDBIGTm9ybWFs8gEoCAoSJGE5YWRmODRmLWNjNTQtNGUwNy05MTU1LTAwMTZkZTI1ZWM5NfIBBQgLEgE2ggIAiAKslvLpvDOSAiBhMmNmNzk1ZDljNzQ3ZmZmY2FhZjkwNTc1MzRhYjVmOJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhRDb250ZW50QWdlV2VpZ2h0UnVsZcoCF1Rlc3RlZEFuZFdvcmtXZWlnaHRSdWxlygIYUXVlc3Rpb25BZ2VJc29sYXRpb25SdWxl2gItVFNfU09VUkNFX1RXT1RPV0VSX01VTFRJX1NDRU5FX1YxX1JFQ0FMTF9URVhU6AIE+gILTk9STUFMX0ZMT1eKAyAyNDI0Njc1MGE5MDY0NzYyODllNzVhMmQ2MDIxNGI2Y5oDDQoCdjIQABoFb3RoZXKoA7mUAtgDAOoDFXRleHRGZWVkVHdvVG93ZXJWMUFsbPoDxgMSDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAxCgBhjMCCIjdjItZGUwMjU4YmVmODYxZWQzMmNjOWY1NTM3MjgwN2VjZWQ6LQgDEKAGGMwIIiN2Mi0yZWI0NWFjNTQ4N2Q3OWJlOTIyMjAzNDIyZGRmMmVlYjotCAMQoAYYyggiI3YyLTI4NjViOGM2MGM5OGUwZDc5NDVhODg5Nzk4NDE0YTkxOi0IAxCgBhjUCCIjdjItODYxOGM4NmIyOTQwMjMwNzE3YzAxYTVkMWZhZDQ3NjM6LQgCEKAGGMsIIiN2Mi1hZmZkMmIzOWMyNjcwMGQwYTczOWYwYzQwZDM3YjIxNTotCAMQoAYYzAgiI3YyLWZlNzY3NDljYzM1NGIyYTc1OTA3MTI2ODNhYzgwNTNkOi0IBBCgBhjICCIjdjItYTM2NTgwNTNkZDljMzY4MGE4OWRhMjQ0ZDM2ODc5YjQ6LQgEEKAGGMEIIiN2Mi1jOGFmMzhkMmJmYzUwMzYwY2E0MDc1ODUxMDc2MDhhNzotCAMQoAYY1AgiI3YyLTI0YWQ2M2IxMmZhNTc1OWE4MWVkN2M4NjAwOGQ4MGE4gAQAiAQAkgQGTm9ybWFsmgQBNKAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACg0xeoP4EFAAAAAAAAAACJBbjv5fyPsrE/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiOoBgCSAi4KCTc2MzM5MTMwMxITMTk4OTU4MTI5NzcxMTA4OTE1NhgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "34_1768674855.592",
+      "type": "feed",
+      "offset": 34,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768674855,
+      "updated_time": 1768674855,
+      "target": {
+        "created_time": 1768658189,
+        "thumbnail": "https://picx.zhimg.com/50/v2-fd40ea46bfeb91f24d65b05ea16d1101_720w.jpg?source=b6762063",
+        "vote_next_step": "vote",
+        "updated_time": 1768658189,
+        "is_copyable": false,
+        "question": {
+          "url": "https://api.zhihu.com/questions/38347269",
+          "answer_count": 0,
+          "excerpt": "",
+          "id": "38347269",
+          "author": {
+            "is_following": false,
+            "is_followed": false,
+            "id": "c9525eb583d7f22a955c31b702758253",
+            "user_type": "people",
+            "url_token": "mao-xiao-qi-18",
+            "headline": "不常上 有事请私信～",
+            "gender": 0,
+            "followers_count": 2181,
+            "url": "https://api.zhihu.com/people/c9525eb583d7f22a955c31b702758253",
+            "name": "猫小七",
+            "avatar_url": "https://pica.zhimg.com/50/d425d9a4da3341451848edcd9ffaa679_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "title": "为什么说「太用力的人走不远」？",
+          "created": 1449644160,
+          "bound_topic_ids": [
+            307,
+            404,
+            9277,
+            26529
+          ],
+          "type": "question",
+          "follower_count": 0,
+          "detail": "",
+          "question_type": "normal",
+          "comment_count": 32,
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "excerpt": "人生有时候就是在绷着一个弦，这个弦太松不好，太紧也不好，只有适当用力，不远不近，你才能够游刃有余的去用最少的力气走出更远的路。 做事物太过用力的人，他思考就会拥有更加大的压力，让他思想上的弦绷得更紧，有可能会使他做出错误的判断，进而影响他自我对于今后事态的走向…… 许多事物其实它并不是急就能够急出结果，人生缓缓，自有答案，有的时候你必须要首先的去走出去，你才能够在未来拥有好的收获。 而如果你不曾经…",
+        "preview_type": "default",
+        "preview_text": "",
+        "reshipment_settings": "disallowed",
+        "allow_segment_interaction": true,
+        "id": "1995977794816079217",
+        "thanks_count": 0,
+        "favorite_count": 0,
+        "is_navigator": false,
+        "is_labeled": true,
+        "excerpt_new": "人生有时候就是在绷着一个弦，这个弦太松不好，太紧也不好，只有适当用力，不远不近，你才能够游刃有余的去用最少的力气走出更远的路。 做事物太过用力的人，他思考就会拥有更加大的压力，让他思想上的弦绷得更紧，有可能会使他做出错误的判断，进而影响他自我对于今后事态的走向…… 许多事物其实它并不是急就能够急出结果，人生缓缓，自有答案，有的时候你必须要首先的去走出去，你才能够在未来拥有好的收获。 而如果你不曾经…",
+        "navigator_vote": false,
+        "url": "https://api.zhihu.com/answers/1995977794816079217",
+        "voteup_count": 0,
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6488f1e108778a6d253a0aa563f8dcb0_1440w.jpg\" data-rawwidth=\"4096\" data-rawheight=\"3072\" data-size=\"normal\" data-original-token=\"v2-fd40ea46bfeb91f24d65b05ea16d1101\" class=\"origin_image zh-lightbox-thumb\" width=\"4096\" data-original=\"https://pic3.zhimg.com/v2-6488f1e108778a6d253a0aa563f8dcb0_r.jpg\"/></figure><p data-pid=\"-EBGfgaX\">人生有时候就是在绷着一个弦，这个弦太松不好，太紧也不好，只有适当用力，不远不近，你才能够游刃有余的去用最少的力气走出更远的路。</p><p data-pid=\"HU2LAfoI\">做事物太过用力的人，他思考就会拥有更加大的压力，让他思想上的弦绷得更紧，有可能会使他做出错误的判断，进而影响他自我对于今后事态的走向……</p><p data-pid=\"qdr2ITfM\">许多事物其实它并不是急就能够急出结果，人生缓缓，自有答案，有的时候你必须要首先的去走出去，你才能够在未来拥有好的收获。</p><p data-pid=\"99a0PljK\">而如果你不曾经过，就慌慌张张的想要去拥有结果，那么你自然而然的会走弯路，走错路，或者是因为思想上的弦过于紧绷，而走一条不可返回之路。</p><p data-pid=\"f9dqowF8\">只有游刃有余的做事物，事物才能够更加容易的事半功倍，而你迎着什么去纠结赶出来的东西，它不会能够成为完美的事物。</p><p data-pid=\"fvjAvP6P\">赶工是一个在迫切的时候不得不用的方法，但是平时你根本不迫切，又何必需要去赶工？</p><p data-pid=\"QMjuaDzN\">并且世界上有许多的事物皆是需要精雕细琢的，只有你静下心来 ，慢下来，你才能够真正的探寻事物的本源。</p><p data-pid=\"K8rNFHoW\">但是你从来不知道什么是慢，更不知道什么是本源，又遑论能够去把事物去做好呢？</p><p data-pid=\"WSb9GCJv\">人生只有首先你清晰明了自我所应该走的路，你才能够一步一个脚印的去走过去，太慌张不可，太用力也不可。</p><p data-pid=\"5QusJuBA\">而岁月是一份经久积淀的回甘，只有历久，才能香甜。</p>",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-fd40ea46bfeb91f24d65b05ea16d1101_720w.jpg?source=b6762063"
+        ],
+        "answer_type": "normal",
+        "type": "answer",
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-8ff3edf5bbc0f0e4d2b84a49682539ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "gender": 0,
+          "is_followed": false,
+          "url": "https://api.zhihu.com/people/1e7683a95086741784cddd43f0c0ee90",
+          "url_token": "yue-feng-56-33",
+          "name": "弘玥hoyue",
+          "followers_count": 386,
+          "is_following": false,
+          "id": "1e7683a95086741784cddd43f0c0ee90",
+          "user_type": "people",
+          "headline": "情感、心理、认知，有时分享些专业知识   公众号：云水曜"
+        },
+        "comment_count": 0,
+        "visited_count": 11
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995977794816079217}",
+      "attached_info": "CpgGCKDqv8vb7uijugEQBBoJNzY1ODQ2MzQ4II2qrssGKAAwAEAiSiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDESATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgc3NTQ2MTkwYiA5ODM3YjJkYjEzNzgxNDhiZWZiZDhiNjg4ODhhZjgxN3ITMTk5NTk3Nzc5NDgxNjA3OTIxN4oBCDM4MzQ3MjY5qgEJcmVjb21tZW5kwgEgMWU3NjgzYTk1MDg2NzQxNzg0Y2RkZDQzZjBjMGVlOTDyAQoIDBIGTm9ybWFs8gEoCAoSJDUxNDY5NmUwLTNkMjgtNGMwYS04MGNjLTgzZTA4M2E3MzA5MPIBBQgLEgE2ggIAiAKslvLpvDOSAiAxZTc2ODNhOTUwODY3NDE3ODRjZGRkNDNmMGMwZWU5MJoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwx6AIC+gILTk9STUFMX0ZMT1eKAyAyNDI0Njc1MGE5MDY0NzYyODllNzVhMmQ2MDIxNGI2Y5oDDQoCdjIQABoFb3RoZXKoAwvYAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDThIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgEEIAgGIAYIiN2Mi1mZDQwZWE0NmJmZWI5MWYyNGQ2NWIwNWVhMTZkMTEwMYAEAIgEAJIEBk5vcm1hbJoEATKgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwP0ViT+BBQAAAAAAAAAAiQW47+X8j7KxP5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUGkAYAoAYkqAYBkgIuCgk3NjU4NDYzNDgSEzE5OTU5Nzc3OTQ4MTYwNzkyMTcYBCIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "35_1768674855.100",
+      "type": "feed",
+      "offset": 35,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768674855,
+      "updated_time": 1768674855,
+      "target": {
+        "column": {
+          "id": "c_1862909514799525888",
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1862909514799525888",
+          "imageUrl": "https://pic1.zhimg.com/v2-698f1d4f098c3afd9a09c4191cc82aa0_720w.jpg?source=d16d100b",
+          "updated": 1756636157,
+          "author": {
+            "is_following": false,
+            "is_followed": false,
+            "id": "",
+            "url": "",
+            "url_token": "",
+            "is_org": false,
+            "gender": -1,
+            "followers_count": 0,
+            "user_type": "people",
+            "name": "匿名用户",
+            "headline": "",
+            "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063"
+          },
+          "title": "Weird+Technology",
+          "comment_permission": "public",
+          "intro": "云 ai",
+          "is_following": false
+        },
+        "visited_count": 6980,
+        "type": "article",
+        "navigator_vote": false,
+        "preview_type": "default",
+        "is_labeled": false,
+        "title": "Kubernetes 架构：权威指南（2025）",
+        "article_type": "normal",
+        "url": "https://api.zhihu.com/articles/1940575054430699653",
+        "author": {
+          "is_org": false,
+          "gender": 1,
+          "followers_count": 3014,
+          "user_type": "people",
+          "headline": "上士闻道,勤而行之.中士闻道,若存若亡.下士闻道,大笑之.",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-b50249ac55707552f3c81156a3b45956_l.jpg?source=b6762063",
+          "name": "杜自牧",
+          "is_following": false,
+          "is_followed": false,
+          "id": "64ff51584a09afa37550865aa9f755c1",
+          "url": "https://api.zhihu.com/people/64ff51584a09afa37550865aa9f755c1",
+          "url_token": "dubaolei"
+        },
+        "created": 1755449840,
+        "voting": 0,
+        "comment_count": 6,
+        "excerpt": "在本指南中，你将全面深入地了解 Kubernetes 架构。我们使用大量插图拆解每一个组件——从控制平面到 kubelet——向你展示集群的真实运行方式。 如果你正在寻找： 理解 Kubernetes 架构掌握 Kubernetes 组件背后的基础概念学习 Kubernetes 架构组件探索连接这些组件的工作流程那么这份 Kubernetes 架构指南将为你带来巨大价值。 注意：为了更好地理解 Kubernetes 架构，需具备一些前置知识，请查看 Kubernetes 学习指南中的前提…",
+        "excerpt_new": "在本指南中，你将全面深入地了解 Kubernetes 架构。我们使用大量插图拆解每一个组件——从控制平面到 kubelet——向你展示集群的真实运行方式。 如果你正在寻找： 理解 Kubernetes 架构掌握 Kubernetes 组件背后的基础概念学习 Kubernetes 架构组件探索连接这些组件的工作流程那么这份 Kubernetes 架构指南将为你带来巨大价值。 注意：为了更好地理解 Kubernetes 架构，需具备一些前置知识，请查看 Kubernetes 学习指南中的前提…",
+        "preview_text": "",
+        "is_navigator": false,
+        "allow_segment_interaction": true,
+        "comment_permission": "all",
+        "linkbox": {
+          "title": "",
+          "url": "",
+          "category": "",
+          "pic": ""
+        },
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-67fa1791363679a7152d0b28fc149500_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-2a6de56dc11d1738ef6a60e208e942a9_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-65578fd40da87cdf6d03365b8a25d144_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-de69b5813d99be3b0df2e09c50bcb6ee_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-854d5b0972bb892831e91452b2401b05_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-50799b9e3142ecbaa23ace4ed0cf833f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-0cde1a5ff11edd70670cf6a3944e91d7_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-b7da320ae5fe9ff3426076bd430aae6f_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-6dc599a4a1b4df5c9dbb22333d14effa_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-baa66dfc8d94ef7b511dff0ddba01660_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 674,
+        "voteup_count": 160,
+        "updated": 1755449840,
+        "content": "<p></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a927346ecd3a59db2bb80aac67be53d2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1160\" data-rawheight=\"468\" data-original-token=\"v2-a927346ecd3a59db2bb80aac67be53d2\" class=\"origin_image zh-lightbox-thumb\" width=\"1160\" data-original=\"https://pica.zhimg.com/v2-a927346ecd3a59db2bb80aac67be53d2_r.jpg\"/></figure><p data-pid=\"wQCK01TJ\">在本指南中，你将全面深入地了解 Kubernetes 架构。我们使用大量插图拆解每一个组件——从控制平面到 kubelet——向你展示集群的真实运行方式。</p><p data-pid=\"npSMqi_S\">如果你正在寻找：</p><ol><li data-pid=\"Uis0w4iD\">理解 Kubernetes 架构</li><li data-pid=\"yLpvTROF\">掌握 Kubernetes 组件背后的基础概念</li><li data-pid=\"hZ8cmL5A\">学习 Kubernetes 架构组件</li><li data-pid=\"afuHcKTG\">探索连接这些组件的工作流程</li></ol><p data-pid=\"AkrkU9Cu\">那么这份 Kubernetes 架构指南将为你带来巨大价值。</p><p data-pid=\"KBI1sKso\"><b>注意</b>：为了更好地理解 Kubernetes 架构，需具备一些前置知识，请查看 Kubernetes 学习指南中的前提条件了解更多。</p><hr/><h3>什么是 Kubernetes 架构？</h3><p data-pid=\"Y8b4Nk8K\">下面的 <b>Kubernetes 架构图</b> 展示了 Kubernetes 集群的所有组件以及外部系统如何连接到 Kubernetes 集群。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e7fb2acd2449fd80d721bb3b173e2004_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"850\" data-rawheight=\"1040\" data-thumbnail=\"https://pic3.zhimg.com/v2-e7fb2acd2449fd80d721bb3b173e2004_b.jpg\" data-qrcode-action=\"none\" data-original-token=\"v2-e7fb2acd2449fd80d721bb3b173e2004\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-e7fb2acd2449fd80d721bb3b173e2004_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"850\" data-original=\"https://pic3.zhimg.com/v2-e7fb2acd2449fd80d721bb3b173e2004_r.jpg\"/></figure><p data-pid=\"maO9c84l\">首先，你必须理解 Kubernetes 是一个<b>分布式系统</b>。这意味着它有多个组件分布在一组通过网络连接的服务器上。这些服务器可以是虚拟机或裸金属服务器，我们称之为 Kubernetes 集群。</p><p data-pid=\"cgeAdjFy\">Kubernetes 集群由控制平面节点（Control Plane nodes）和工作节点（Worker nodes）组成。</p><hr/><h3>控制平面（Control Plane）</h3><p data-pid=\"_e8uDyqk\">控制平面负责容器编排并保持集群的期望状态。它包含以下组件：</p><ol><li data-pid=\"Y7vxf7q8\">kube-apiserver</li><li data-pid=\"npXRC8GS\">etcd</li><li data-pid=\"-JYnni_a\">kube-scheduler</li><li data-pid=\"92ggTbHo\">kube-controller-manager</li><li data-pid=\"AAtqB41A\">cloud-controller-manager</li></ol><p data-pid=\"3OgRzxo5\">一个集群可以有一个或多个控制平面节点。</p><hr/><h3>工作节点（Worker Node）</h3><p data-pid=\"yUlCWzTP\">工作节点负责运行容器化应用程序。工作节点包含以下组件：</p><ol><li data-pid=\"YRoKTauZ\">kubelet</li><li data-pid=\"UiZC-KFW\">kube-proxy</li><li data-pid=\"YNHBRIWp\">容器运行时（Container Runtime）</li></ol><p data-pid=\"F23KzOtp\">现在，让我们深入探讨每一个组件。</p><blockquote data-pid=\"huXa5gbz\"> ⚠️ 如果你是初学者，没有太多实践经验，本指南中的一些概念可能较难理解。如果如此，建议你先完成 Kubernetes 教程后再回来看深入剖析。</blockquote><hr/><h3>Kubernetes 控制平面的核心组件</h3><p data-pid=\"Kj19OhrM\">首先，我们逐一了解控制平面的每个组件及其背后的重要概念。</p><hr/><h3>1. kube-apiserver</h3><p data-pid=\"-DnpfRaX\"><b>kube-apiserver</b> 是 Kubernetes 集群的中心枢纽，负责暴露 Kubernetes API。它具有高可扩展性，能够处理大量并发请求。</p><p data-pid=\"SqCSton5\">最终用户和其他集群组件通过 API Server 与集群通信。监控系统或第三方服务偶尔也会与 API Server 通信以与集群交互。</p><p data-pid=\"eZmPluTy\">当你使用 <code>kubectl</code> 管理集群时，后台实际上是通过 <b>HTTP REST API</b> over TLS 与 API Server 通信。</p><p data-pid=\"OnAY0oOX\">此外，API Server 与集群中其他组件的通信也是通过 TLS 进行的，以防止未经授权的访问。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-67fa1791363679a7152d0b28fc149500_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"752\" data-rawheight=\"808\" data-thumbnail=\"https://pic1.zhimg.com/v2-67fa1791363679a7152d0b28fc149500_b.jpg\" data-original-token=\"v2-67fa1791363679a7152d0b28fc149500\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-67fa1791363679a7152d0b28fc149500_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"752\" data-original=\"https://pic1.zhimg.com/v2-67fa1791363679a7152d0b28fc149500_r.jpg\"/></figure><p data-pid=\"S9mBflWB\">Kubernetes <b>API Server</b> 负责：</p><ol><li data-pid=\"KJ3YVhGd\"><b>API 管理</b>：暴露集群 API 端点并处理所有 API 请求。API 是版本化的，支持多个版本同时运行。</li><li data-pid=\"XT1yoavN\"><b>身份认证</b>（使用客户端证书、Bearer Token 和 HTTP 基础认证）和<b>授权</b>（支持 ABAC 和 RBAC）。</li><li data-pid=\"6L2fABU-\">处理 API 请求并验证 API 对象（如 Pod、Service 等）的数据（验证和变更准入控制器）。</li><li data-pid=\"xnensg-N\">协调控制平面与工作节点组件之间的所有流程。</li><li data-pid=\"cRF92hCe\">API Server 还包含一个聚合层，允许你扩展 Kubernetes API 以创建自定义 API 资源和控制器。</li><li data-pid=\"esgQKVdB\"><b>kube-apiserver 唯一主动连接的组件是 etcd</b>。其他所有组件都连接到 API Server。</li><li data-pid=\"-6x7z8na\">API Server 还支持<b>资源的 watch 机制</b>。例如，客户端可以对特定资源建立 watch，实时接收资源创建、修改或删除的通知。</li><li data-pid=\"Y1iD9kRM\">每个组件（kubelet、调度器、控制器）<b>独立地 watch API Server</b> 以决定自己需要做什么。</li></ol><p data-pid=\"wX7emkas\">API Server 还内置了一个 <b>apiserver proxy</b>，主要用于从集群外部访问 ClusterIP 类型的服务。</p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><h3>2. etcd</h3><p data-pid=\"oYZQl3Ov\">Kubernetes 是一个分布式系统，需要一个高效的分布式数据库（如 etcd）来支持其分布式特性。etcd 既是后端服务发现，也是数据库，你可以称之为 Kubernetes 集群的“大脑”。</p><p data-pid=\"zw1G1s9q\">etcd 是一个开源的、强一致性的分布式键值存储。什么意思？</p><ol><li data-pid=\"jFhfMPyL\"><b>强一致性</b>：如果一个节点数据被更新，强一致性会确保该更新立即同步到集群中所有其他节点。</li><li data-pid=\"73lVX6QJ\"><b>分布式</b>：etcd 设计为以集群方式运行在多个节点上，且不牺牲一致性。</li><li data-pid=\"i3Wd7Mry\"><b>键值存储</b>：非关系型数据库，以键值对形式存储数据，并暴露键值 API。底层使用 BboltDB（BoltDB 的分支）。</li></ol><p data-pid=\"JJPAm3Jq\">etcd 使用 Raft 共识算法实现强一致性和高可用性，采用 Leader-Member 模式。</p><p data-pid=\"YFvIJy8w\">那么 etcd 如何在 Kubernetes 中工作？</p><p data-pid=\"HeU65zXm\">简单来说，当你使用 <code>kubectl</code> 获取 Kubernetes 对象信息时，这些信息来自 etcd。当你部署一个对象（如 Pod）时，etcd 中也会创建一个条目。</p><p data-pid=\"_DDDlwac\">你需要知道的关于 etcd 的关键点：</p><ol><li data-pid=\"WkCMqgB4\">etcd 存储所有 Kubernetes 对象的配置、状态和元数据（Pod、Secret、DaemonSet、Deployment、ConfigMap、StatefulSet 等）。</li><li data-pid=\"NbbrCeB5\">etcd 允许客户端通过 <code>Watch()</code> API 订阅事件。Kubernetes API Server 使用 etcd 的 watch 功能来跟踪对象状态变化。</li><li data-pid=\"ZSlbsq8B\">etcd 通过 gRPC 暴露键值 API，并提供 RESTful 代理（gRPC Gateway）将所有 HTTP API 调用转换为 gRPC 消息。</li><li data-pid=\"b3GDM-mk\">etcd 将所有对象存储在 <b>/registry</b> 目录下。例如，default 命名空间中名为 nginx 的 Pod 的信息存储在 <b>/registry/pods/default/nginx</b> 下。</li></ol><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2a6de56dc11d1738ef6a60e208e942a9_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"684\" data-rawheight=\"800\" data-thumbnail=\"https://pic2.zhimg.com/v2-2a6de56dc11d1738ef6a60e208e942a9_b.jpg\" data-original-token=\"v2-2a6de56dc11d1738ef6a60e208e942a9\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-2a6de56dc11d1738ef6a60e208e942a9_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"684\" data-original=\"https://pic2.zhimg.com/v2-2a6de56dc11d1738ef6a60e208e942a9_r.jpg\"/></figure><p data-pid=\"qoLCQU55\">此外，etcd 是控制平面中唯一的 <b>StatefulSet</b> 组件。</p><p data-pid=\"6L5lodFh\">etcd 集群的节点数量直接影响其容错能力：</p><ul><li data-pid=\"UZUYgNzb\">3 个节点：可容忍 1 个节点故障（法定人数 = 2）</li><li data-pid=\"rpOEv-l4\">5 个节点：可容忍 2 个节点故障（法定人数 = 3）</li><li data-pid=\"upslAWBg\">7 个节点：可容忍 3 个节点故障（法定人数 = 4）</li></ul><p data-pid=\"q9saFr0W\">以此类推。集群可容忍的节点故障数公式为：</p><div class=\"highlight\"><pre><code class=\"language-text\">fault tolerance = (n - 1) / 2</code></pre></div><p data-pid=\"W0yHtx2Q\">其中 <code>n</code> 为节点总数。</p><hr/><h3>3. kube-scheduler</h3><p data-pid=\"gtlL0D4y\">kube-scheduler 负责<b>将 Pod 调度到工作节点上</b>。</p><p data-pid=\"PHlYwr1D\">当你部署一个 Pod 时，会指定 Pod 的需求，例如 CPU、内存、亲和性、污点或容忍度、优先级、持久卷（PV）等。调度器的主要任务是识别创建请求，并选择一个满足需求的最佳节点。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-65578fd40da87cdf6d03365b8a25d144_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"835\" data-rawheight=\"929\" data-thumbnail=\"https://pic1.zhimg.com/v2-65578fd40da87cdf6d03365b8a25d144_b.jpg\" data-original-token=\"v2-65578fd40da87cdf6d03365b8a25d144\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-65578fd40da87cdf6d03365b8a25d144_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"835\" data-original=\"https://pic1.zhimg.com/v2-65578fd40da87cdf6d03365b8a25d144_r.jpg\"/></figure><p data-pid=\"AKlQxnts\">调度器工作流程：</p><ol><li data-pid=\"PGIy-bM-\">调度器使用<b>过滤和打分</b>操作选择最佳节点。</li><li data-pid=\"cKuRoeBP\"><b>过滤阶段</b>：调度器找到最适合运行 Pod 的节点。例如，如果有 5 个节点资源足够，它会选择这 5 个节点。如果没有节点满足条件，Pod 会被标记为不可调度并进入调度队列。</li><li data-pid=\"ZrGnLJNC\"><b>打分阶段</b>：调度器通过调用多个调度插件给节点打分，最终选择得分最高的节点。如果多个节点分数相同，则随机选择。</li><li data-pid=\"fdqsFqDc\">节点选定后，调度器在 API Server 中创建一个绑定事件（将 Pod 绑定到节点）。</li></ol><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-de69b5813d99be3b0df2e09c50bcb6ee_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"850\" data-rawheight=\"1040\" data-thumbnail=\"https://pic1.zhimg.com/v2-de69b5813d99be3b0df2e09c50bcb6ee_b.jpg\" data-original-token=\"v2-de69b5813d99be3b0df2e09c50bcb6ee\" data-default-watermark-src=\"https://pic1.zhimg.com/v2-de69b5813d99be3b0df2e09c50bcb6ee_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"850\" data-original=\"https://pic1.zhimg.com/v2-de69b5813d99be3b0df2e09c50bcb6ee_r.jpg\"/></figure><p data-pid=\"Q4neTj2-\">你需要知道的关于调度器的关键点：</p><ol><li data-pid=\"RTMBRsHb\">它是一个控制器，监听 API Server 中的 Pod 创建事件。</li><li data-pid=\"iScecX6_\">调度器有两个阶段：<b>调度周期</b>和<b>绑定周期</b>，合称调度上下文。</li><li data-pid=\"3UKCaaYm\">调度器总是优先调度高优先级的 Pod。</li><li data-pid=\"kDk6pyMr\">你可以创建自定义调度器，并与原生调度器一起运行。部署 Pod 时可以在 Pod 清单中指定自定义调度器。</li><li data-pid=\"fyImN75s\">调度器具有可插拔的调度框架，你可以添加自定义插件到调度工作流中。</li></ol><hr/><h3>4. kube-controller-manager</h3><p data-pid=\"7RkSRypc\"><b>什么是控制器？</b> 控制器是持续运行的控制循环程序，不断监控对象的实际状态和期望状态之间的差异，并确保资源达到期望状态。</p><p data-pid=\"hpAkzy4L\">根据官方文档：</p><blockquote data-pid=\"Idyua49I\"> 在 Kubernetes 中，控制器是控制循环，监控集群状态，并在需要时进行更改。每个控制器都试图将当前集群状态推向期望状态。</blockquote><p data-pid=\"nE1LexcT\">例如，你创建一个 Deployment 并在 YAML 文件中指定期望状态（如 2 个副本、一个卷挂载、ConfigMap 等）。内置的 Deployment 控制器会确保 Deployment 始终处于期望状态。如果你将副本数更新为 5，Deployment 控制器会识别并确保期望状态为 5 个副本。</p><p data-pid=\"OyNdSMPy\"><b>kube-controller-manager</b> 是管理所有 Kubernetes 控制器的组件。Pod、Namespace、Job、ReplicaSet 等资源都由各自的控制器管理。kube-scheduler 本身也是一个由 kube-controller-manager 管理的控制器。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-854d5b0972bb892831e91452b2401b05_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"760\" data-rawheight=\"770\" data-thumbnail=\"https://picx.zhimg.com/v2-854d5b0972bb892831e91452b2401b05_b.jpg\" data-original-token=\"v2-854d5b0972bb892831e91452b2401b05\" data-default-watermark-src=\"https://picx.zhimg.com/v2-854d5b0972bb892831e91452b2401b05_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"760\" data-original=\"https://picx.zhimg.com/v2-854d5b0972bb892831e91452b2401b05_r.jpg\"/></figure><p data-pid=\"pfm2hXS1\">重要内置控制器包括：</p><ul><li data-pid=\"DjNyYaJM\">Deployment 控制器</li><li data-pid=\"8cwYh3XV\">ReplicaSet 控制器</li><li data-pid=\"4LZk1Bpf\">DaemonSet 控制器</li><li data-pid=\"slNLlyB4\">Job 控制器</li><li data-pid=\"ePhKi96K\">CronJob 控制器</li><li data-pid=\"DVh301pZ\">Endpoints 控制器</li><li data-pid=\"Ams7IJQO\">Namespace 控制器</li><li data-pid=\"XsEIB1lF\">ServiceAccount 控制器</li><li data-pid=\"eZur6znC\">Node 控制器</li></ul><p data-pid=\"SqBYjf0g\">你需要知道的关于 kube-controller-manager 的关键点：</p><ol><li data-pid=\"enB5FrKS\">它管理所有控制器，控制器确保集群始终处于期望状态。</li><li data-pid=\"c6wFNSA5\">你可以通过自定义资源定义（CRD）和自定义控制器扩展 Kubernetes。</li></ol><hr/><h3>5. cloud-controller-manager（云控制器管理器）</h3><p data-pid=\"mO5piocf\">当 Kubernetes 部署在云环境中时，cloud-controller-manager 充当云平台 API 与 Kubernetes 集群之间的桥梁。</p><p data-pid=\"8QW067af\">这样，Kubernetes 核心组件可以独立工作，云提供商通过插件与 Kubernetes 集成（例如 Kubernetes 集群与 AWS 云 API 之间的接口）。</p><p data-pid=\"QLV74WVr\">云控制器集成允许 Kubernetes 集群动态申请云资源，例如节点（实例）、负载均衡器（服务）和存储卷（持久卷）。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-50799b9e3142ecbaa23ace4ed0cf833f_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"796\" data-rawheight=\"887\" data-thumbnail=\"https://picx.zhimg.com/v2-50799b9e3142ecbaa23ace4ed0cf833f_b.jpg\" data-original-token=\"v2-50799b9e3142ecbaa23ace4ed0cf833f\" data-default-watermark-src=\"https://picx.zhimg.com/v2-50799b9e3142ecbaa23ace4ed0cf833f_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"796\" data-original=\"https://picx.zhimg.com/v2-50799b9e3142ecbaa23ace4ed0cf833f_r.jpg\"/></figure><p data-pid=\"FerorJ8l\">cloud-controller-manager 包含一组<b>云平台专属控制器</b>，确保云特有组件（节点、负载均衡器、存储等）的期望状态。主要包括：</p><ol><li data-pid=\"5xWuJcU3\"><b>Node 控制器</b>：通过与云提供商 API 通信更新节点信息（节点标签、主机名、CPU/内存信息、节点健康状态等）。</li><li data-pid=\"QIzM05Gy\"><b>Route 控制器</b>：负责在云平台配置网络路由，使不同节点上的 Pod 可以相互通信。</li><li data-pid=\"eAqIqK7v\"><b>Service 控制器</b>：负责为 Kubernetes Service 部署负载均衡器、分配 IP 地址等。</li></ol><p data-pid=\"Fs-g5HnP\">cloud-controller-manager 的经典示例：</p><ul><li data-pid=\"7a3-leFZ\">部署 LoadBalancer 类型的 Kubernetes Service，Kubernetes 会申请云平台的负载均衡器并与 Kubernetes Service 集成。</li><li data-pid=\"8zYIoOCO\">为 Pod 申请由云存储支持的持久卷（PV）。</li></ul><p data-pid=\"vxOOwiCJ\">总之，<b>cloud-controller-manager 管理 Kubernetes 使用的云特有资源的生命周期</b>。</p><hr/><h3>Kubernetes 工作节点的核心组件</h3><p data-pid=\"mczuXYh3\">现在我们来看看工作节点的各个组件。</p><hr/><h3>1. kubelet</h3><p data-pid=\"6dKjHlF2\">kubelet 是一个代理组件，运行在集群的每个节点上。它不是以容器形式运行，而是以系统守护进程（systemd）运行。</p><p data-pid=\"npMphlFG\">它负责向 API Server 注册工作节点，并主要处理来自 API Server 的 podSpec（Pod 规范，YAML 或 JSON）。podSpec 定义了 Pod 中应运行的容器、资源限制（CPU、内存）以及其他设置（环境变量、卷、标签等）。</p><p data-pid=\"hv1gC_2K\">然后，kubelet 通过创建容器使 podSpec 达到期望状态。</p><p data-pid=\"YWgmH4h8\">简单来说，kubelet 负责：</p><ol><li data-pid=\"GY6vN6Hs\">为 Pod 创建、修改和删除容器。</li><li data-pid=\"QI-N-cnS\">处理存活探针（liveness）、就绪探针（readiness）和启动探针（startup）。</li><li data-pid=\"izu_ZmzE\">根据 Pod 配置挂载卷，并在主机上创建相应目录。</li><li data-pid=\"UcTvn623\">通过 API Server 汇报节点和 Pod 的状态（使用 cAdvisor 和 CRI 实现）。</li></ol><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0cde1a5ff11edd70670cf6a3944e91d7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"1233\" data-original-token=\"v2-0cde1a5ff11edd70670cf6a3944e91d7\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://picx.zhimg.com/v2-0cde1a5ff11edd70670cf6a3944e91d7_r.jpg\"/></figure><p data-pid=\"-f5I4nDF\">kubelet 也是一个控制器，监控 Pod 变化，并使用节点的容器运行时拉取镜像、运行容器等。</p><p data-pid=\"ykExfIw_\">除了 API Server 的 podSpec，kubelet 还可以从文件、HTTP 端点和 HTTP 服务器接收 podSpec。一个典型例子是 Kubernetes 静态 Pod。</p><p data-pid=\"r34JBK9s\">静态 Pod 由 kubelet 控制，而非 API Server。你可以通过向 kubelet 提供 Pod YAML 路径来创建 Pod。但 kubelet 创建的静态 Pod 不受 API Server 管理。</p><p data-pid=\"XQEG7ukT\">一个实际使用场景：</p><p data-pid=\"0dp6_9x_\">在引导控制平面时，kubelet 通过 <code>/etc/kubernetes/manifests</code> 路径下的 podSpec 以静态 Pod 方式启动 API Server、调度器和控制器管理器。</p><p data-pid=\"DgX5DiDP\">你需要知道的关于 kubelet 的关键点：</p><ol><li data-pid=\"1IgEXHFR\">kubelet 使用 CRI（容器运行时接口）gRPC 接口与容器运行时通信。</li><li data-pid=\"MEi_UQNT\">它还暴露 HTTP 端点用于流式日志和客户端 exec 会话。</li><li data-pid=\"ntTjv2fm\">使用 CSI（容器存储接口）gRPC 配置块存储卷。</li><li data-pid=\"WZJJMRXz\">使用集群中配置的 CNI 插件为 Pod 分配 IP 地址，并设置必要的网络路由和防火墙规则。</li></ol><hr/><h3>2. kube-proxy</h3><p data-pid=\"IEOm1qLS\">要理解 kube-proxy，你需要先了解 Kubernetes Service 和 Endpoints 对象。</p><p data-pid=\"apVfAhtM\">Kubernetes 中的 Service 是一种将一组 Pod 暴露给内部或外部流量的方式。创建 Service 对象时，会分配一个虚拟 IP，称为 ClusterIP，仅在集群内部可访问。</p><p data-pid=\"eral0Opg\">Endpoints 对象包含 Service 对象下所有 Pod 的 IP 地址和端口列表。Endpoints 控制器负责维护 Pod IP 地址列表，Service 控制器负责将 Endpoints 关联到 Service。</p><p data-pid=\"k414FOYa\">你不能 ping ClusterIP，因为它仅用于服务发现。</p><p data-pid=\"YlL8CLIy\">现在我们来理解 kube-proxy：</p><p data-pid=\"8vEjyo8k\">kube-proxy 是一个守护进程，以 DaemonSet 形式在每个节点上运行。它是一个代理组件，实现 Kubernetes Service 概念（一组 Pod 的单一 DNS 和负载均衡）。它主要代理 UDP、TCP 和 SCTP，但不理解 HTTP。</p><p data-pid=\"hP-Xc2xA\">当你使用 Service（ClusterIP）暴露 Pod 时，kube-proxy 创建网络规则，将流量转发到 Service 下的后端 Pod（Endpoints）。负载均衡和服务发现由 kube-proxy 处理。</p><p data-pid=\"f5EyakNL\"><b>kube-proxy 如何工作？</b></p><p data-pid=\"O3NWrwJb\">kube-proxy 通过与 API Server 通信获取 Service（ClusterIP）和对应的 Pod IP 及端口（Endpoints），并监控 Service 和 Endpoints 的变化。</p><p data-pid=\"cuG9r8Pc\">kube-proxy 使用以下模式之一创建/更新流量路由规则：</p><ol><li data-pid=\"xN72cE48\"><b>IPTables</b>（默认模式）：通过 iptables 规则处理流量。每个 Service 都会创建 iptables 规则，将 ClusterIP 流量转发到后端 Pod。此模式下，kube-proxy 随机选择后端 Pod 进行负载均衡，连接建立后，请求会一直发送到同一个 Pod，直到连接终止。</li><li data-pid=\"BF07gr_C\"><b>NFTables</b>（Beta 阶段）：解决 iptables 在大规模集群中的性能和扩展性问题。</li><li data-pid=\"BxaKv9aA\"><b>IPVS</b>：对于服务数量超过 1000 的集群，IPVS 提供性能提升，支持多种负载均衡算法：</li><li data-pid=\"-9jxWFos\">rr：轮询（默认）</li><li data-pid=\"kSNq3Jyd\">lc：最少连接</li><li data-pid=\"MG2f6AuF\">dh：目标哈希</li><li data-pid=\"ahmypn7K\">sh：源哈希</li><li data-pid=\"bmoNwSnf\">sed：最短预期延迟</li><li data-pid=\"6fFW6eZ_\">nq：永不排队</li><li data-pid=\"kARBp1nA\"><b>Userspace</b>（旧模式，不推荐）</li><li data-pid=\"VKvE1ZJT\"><b>Kernelspace</b>：仅用于 Windows 系统。</li></ol><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b7da320ae5fe9ff3426076bd430aae6f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"1369\" data-original-token=\"v2-b7da320ae5fe9ff3426076bd430aae6f\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pic2.zhimg.com/v2-b7da320ae5fe9ff3426076bd430aae6f_r.jpg\"/></figure><p data-pid=\"Gj8S11pD\">你还可以使用 Cilium 替代 kube-proxy。</p><hr/><h3>3. 容器运行时（Container Runtime）</h3><p data-pid=\"QgJL-PKA\">你可能知道 Java 运行时（JRE），它是运行 Java 程序所需的软件。类似地，容器运行时是运行容器所需的软件组件。</p><p data-pid=\"WoOm602O\">容器运行时运行在 Kubernetes 集群的所有节点上，负责从容器仓库拉取镜像、运行容器、为容器分配和隔离资源，并管理容器在主机上的整个生命周期。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6dc599a4a1b4df5c9dbb22333d14effa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1244\" data-rawheight=\"853\" data-original-token=\"v2-6dc599a4a1b4df5c9dbb22333d14effa\" class=\"origin_image zh-lightbox-thumb\" width=\"1244\" data-original=\"https://pica.zhimg.com/v2-6dc599a4a1b4df5c9dbb22333d14effa_r.jpg\"/></figure><p data-pid=\"9TCZy4yw\">两个关键概念：</p><ol><li data-pid=\"E-A4_fl2\"><b>容器运行时接口（CRI）</b>：一组 API，允许 Kubernetes 与不同容器运行时交互，支持容器运行时的互换性。CRI 定义了创建、启动、停止、删除容器以及管理镜像和容器网络的 API。</li><li data-pid=\"cNeDFUUk\"><b>开放容器倡议（OCI）</b>：容器格式和运行时标准。</li></ol><p data-pid=\"2-Uyb5eV\">Kubernetes 支持多种兼容 CRI 的容器运行时（CRI-O、Docker Engine、containerd 等），这些运行时都实现了 CRI 接口并暴露 gRPC CRI API。</p><p data-pid=\"WIHghoG5\">Kubernetes 如何使用容器运行时？</p><p data-pid=\"FdwOyiBD\">如前所述，kubelet 使用 CRI API 与容器运行时交互，管理容器生命周期，并将容器信息提供给控制平面。</p><p data-pid=\"aSHry46Z\">以 CRI-O 为例：</p><ol><li data-pid=\"mKbO7DZ7\">API Server 收到新 Pod 请求后，kubelet 通过 CRI 与 CRI-O 守护进程通信，启动所需容器。</li><li data-pid=\"qE0ufu2D\">CRI-O 检查并拉取所需镜像。</li><li data-pid=\"u7UKHCwW\">CRI-O 生成 OCI 运行时规范（JSON）。</li><li data-pid=\"QOU8ZZ1G\">CRI-O 启动兼容 OCI 的运行时（runc）启动容器进程。</li></ol><hr/><h3>Kubernetes 集群插件组件（Addons）</h3><p data-pid=\"V4v5IBIg\">除了核心组件，Kubernetes 集群还需要一些插件才能完全运行。选择插件取决于项目需求和使用场景。</p><p data-pid=\"5VzDApV9\">常见插件包括：</p><ol><li data-pid=\"7xe4LBgw\"><b>CNI 插件（容器网络接口）</b></li><li data-pid=\"xgwh3uU1\"><b>CoreDNS（DNS 服务器）</b>：集群内部的 DNS 服务器，启用基于 DNS 的服务发现。</li><li data-pid=\"8jEzLDbB\"><b>Metrics Server（资源指标）</b>：收集节点和 Pod 的性能数据和资源使用情况。</li><li data-pid=\"dx-khBwX\"><b>Web UI（Kubernetes Dashboard）</b>：通过 Web UI 管理集群对象。</li></ol><hr/><h3>1. CNI 插件（容器网络接口）</h3><p data-pid=\"onDmRfmj\">首先，了解 <b>CNI（容器网络接口）</b>：</p><p data-pid=\"pkPFIuOX\">CNI 是一种插件化架构，提供中立的规范和库，用于为容器创建网络接口。它不限于 Kubernetes，也适用于 Mesos、CloudFoundry、Podman、Docker 等。</p><p data-pid=\"QKqbRNyJ\">CNI 插件提供多种网络功能（网络隔离、安全、加密等），用户可根据需求选择合适的网络解决方案。</p><p data-pid=\"r0YIx1nd\">CNI 插件如何与 Kubernetes 工作：</p><ol><li data-pid=\"xu1x3eQc\">kube-controller-manager 为每个节点分配 Pod CIDR，每个 Pod 从 Pod CIDR 获取唯一 IP。</li><li data-pid=\"n-QTdKl3\">kubelet 与容器运行时交互启动 Pod，容器运行时的 CRI 插件与 CNI 插件交互配置 Pod 网络。</li><li data-pid=\"up6sFpPQ\">CNI 插件通过 overlay 网络实现跨节点 Pod 通信。</li></ol><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-baa66dfc8d94ef7b511dff0ddba01660_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1000\" data-rawheight=\"1054\" data-original-token=\"v2-baa66dfc8d94ef7b511dff0ddba01660\" class=\"origin_image zh-lightbox-thumb\" width=\"1000\" data-original=\"https://pica.zhimg.com/v2-baa66dfc8d94ef7b511dff0ddba01660_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TOBts8tU\">常见 CNI 插件：</p><ul><li data-pid=\"WjSBmJBB\">Calico</li><li data-pid=\"JkLszAwG\">Flannel</li><li data-pid=\"n7TcXOnK\">Weave Net</li><li data-pid=\"VxWu63m1\">Cilium（使用 eBPF）</li><li data-pid=\"MtTSBCD5\">Amazon VPC CNI（适用于 AWS VPC）</li><li data-pid=\"cZCVETcS\">Azure CNI（适用于 Azure 虚拟网络）</li></ul><hr/><h3>Kubernetes 原生对象（Native Objects）</h3><p data-pid=\"SMIiBrfw\">到目前为止，我们学习了 Kubernetes 核心组件及其工作方式。</p><p data-pid=\"acXmdWfk\">所有这些组件共同管理以下关键 Kubernetes 对象：</p><ul><li data-pid=\"wSCtAr8T\">Pod</li><li data-pid=\"ti8KYTDD\">Namespace</li><li data-pid=\"3WpzW9Ro\">ReplicaSet</li><li data-pid=\"WEERTXi3\">Deployment</li><li data-pid=\"P5JD10_I\">DaemonSet</li><li data-pid=\"WfN632Sp\">StatefulSet</li><li data-pid=\"PSrYwI9k\">Job 和 CronJob</li><li data-pid=\"foAgH29-\">ConfigMap 和 Secret</li></ul><p data-pid=\"ZVjAY6RH\">网络相关的关键 Kubernetes 对象：</p><ul><li data-pid=\"U_JUXN4M\">Service</li><li data-pid=\"c7KMMc_7\">Ingress</li><li data-pid=\"zFdN_HRZ\">NetworkPolicy</li></ul><p data-pid=\"GmJj-btn\">Kubernetes 可通过 CRD 和自定义控制器扩展，集群组件也管理由自定义控制器和 CRD 创建的对象。</p><hr/><h3>Kubernetes 架构常见问题（FAQs）</h3><ul><li data-pid=\"H8ohW9uP\"><b>控制平面的主要目的是什么？</b><br/>  控制平面负责维护集群和运行应用的期望状态，包括 API Server、etcd、调度器和控制器管理器。<br/> </li><li data-pid=\"agRHWyTM\"><b>工作节点的目的是什么？</b><br/>  工作节点是运行集群内容器的服务器，由控制平面管理，接收运行 Pod 的指令。<br/> </li><li data-pid=\"RsfQ4yux\"><b>控制平面与工作节点之间的通信如何确保安全？</b><br/>  通过 PKI 证书和 TLS 加密通信，确保只有受信任的组件可以通信。<br/> </li><li data-pid=\"4RPV_Vmi\"><b>etcd 键值存储的作用？</b><br/>  存储 Kubernetes 对象、集群信息、节点信息和集群配置数据（如应用期望状态）。<br/> </li><li data-pid=\"1k-exbVQ\"><b>如果 etcd 宕机，Kubernetes 应用会怎样？</b><br/>  正在运行的应用不受影响，但无法创建或更新任何对象。<br/> </li></ul><hr/><h3>结论</h3><p data-pid=\"Byux3WR5\">理解 <b>Kubernetes 架构</b> 有助于日常 Kubernetes 实施和运维。</p><p data-pid=\"AEopBYOo\">在生产级集群部署中，掌握 Kubernetes 组件的正确知识将帮助你高效运行和排查应用问题。</p>",
+        "vote_next_step": "vote",
+        "id": "1940575054430699653"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1940575054430699653}",
+      "attached_info": "CsIKCKDqv8vb7uijugEQBxoJMjYxODQ5NDg0IPCTiMUGKKABMAZAI0owCgZJdGVtQ0YSIGRvY190eXBlOiBBcnRpY2xlCmlkOiAyNTY3MzUwMzYKGAAgADoASigKHVRTX1NPVVJDRV9ORUFSTElORV9DT05URU5UX1YyEgEwGAAgADoAWggxMzYxOTc4MmIgOTgzN2IyZGIxMzc4MTQ4YmVmYmQ4YjY4ODg4YWY4MTdyEzE5NDA1NzUwNTQ0MzA2OTk2NTOKARVjXzE4NjI5MDk1MTQ3OTk1MjU4ODiqAQlyZWNvbW1lbmTCASA2NGZmNTE1ODRhMDlhZmEzNzU1MDg2NWFhOWY3NTVjMfIBCggMEgZOb3JtYWzyASgIChIkOGVjNTFiZTktZWRjNS00MmRhLTljOWMtZWFiMDMxZWJjMTNh8gEFCAsSATaCAgCIAqyW8um8M5ICIDY0ZmY1MTU4NGEwOWFmYTM3NTUwODY1YWE5Zjc1NWMxmgIAygIWQWN0aW9uU2hvckludGVyZXN0UnVsZcoCG0ludGVyYWN0aW9uU2hvckludGVyZXN0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZcoCFENvbnRlbnRBZ2VXZWlnaHRSdWxlygIXVGVzdGVkQW5kV29ya1dlaWdodFJ1bGXKAhxCYXllc0ZpcnN0TGV2ZWxJc29sYXRpb25SdWxl2gIGSXRlbUNG6AIC+gILTk9STUFMX0ZMT1eKAyAyNDI0Njc1MGE5MDY0NzYyODllNzVhMmQ2MDIxNGI2Y5oDDQoCdjIQABoFb3RoZXKoA8Q22AMA6gMVdGV4dEFsbFNpdGVNdkl0ZW1DRlYy+gOkBBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDEIgJGNQDIiN2Mi1hOTI3MzQ2ZWNkM2E1OWRiMmJiODBhYWM2N2JlNTNkMjotCAAQ8AUYqAYiI3YyLTY3ZmExNzkxMzYzNjc5YTcxNTJkMGIyOGZjMTQ5NTAwOi0IABCsBRigBiIjdjItMmE2ZGU1NmRjMTFkMTczOGVmNmE2MGUyMDhlOTQyYTk6LQgAEMMGGKEHIiN2Mi02NTU3OGZkNDBkYTg3Y2RmNmQwMzM2NWI4YTI1ZDE0NDotCAAQ0gYYkAgiI3YyLWRlNjliNTgxM2Q5OWJlM2IwZGYyZTA5YzUwYmNiNmVlOi0IABD4BRiCBiIjdjItODU0ZDViMDk3MmJiODkyODMxZTkxNDUyYjI0MDFiMDU6LQgAEJwGGPcGIiN2Mi01MDc5OWI5ZTMxNDJlY2JhYTIzYWNlNGVkMGNmODMzZjotCAQQ6AcY0QkiI3YyLTBjZGUxYTVmZjExZWRkNzA2NzBjZjZhMzk0NGU5MWQ3Oi0IBBDoBxjZCiIjdjItYjdkYTMyMGFlNWZlOWZmMzQyNjA3NmJkNDMwYWFlNmY6LQgEENwJGNUGIiN2Mi02ZGM1OTlhNGExYjRkZjVjOWRiYjIyMzMzZDE0ZWZmYTotCAIQ6AcYnggiI3YyLWJhYTY2ZGZjOGQ5NGVmN2I1MTFkZmYwZGRiYTAxNjYwgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAACA/bOLP4EFAAAAAAAAAACJBbjv5fyPsrE/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBQaQBgCgBiWoBgCSAi4KCTI2MTg0OTQ4NBITMTk0MDU3NTA1NDQzMDY5OTY1MxgHIgpJTUFHRV9URVhU",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=35&desktop=true&end_offset=37&page_number=7&session_token=9837b2db1378148befbd8b68888af817",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=35&desktop=true&end_offset=37&page_number=7&session_token=9837b2db1378148befbd8b68888af817",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}

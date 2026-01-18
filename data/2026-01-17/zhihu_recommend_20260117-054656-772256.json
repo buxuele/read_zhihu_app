@@ -1,0 +1,624 @@
+{
+  "data": [
+    {
+      "id": "114_1768600023.693",
+      "type": "feed",
+      "offset": 114,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600023,
+      "updated_time": 1768600023,
+      "target": {
+        "voteup_count": 7,
+        "linkbox": {
+          "category": "",
+          "pic": "",
+          "title": "",
+          "url": ""
+        },
+        "preview_text": "",
+        "content": "<h3><i>问题复现</i></h3><p data-pid=\"qKU6bYvR\">参见下面这个帖子：</p><p data-pid=\"kgCD5Iwv\"><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/2YwRAQ7ln_YmFk-mAq39LQ%3Fmpshare%3D1%26scene%3D1%26srcid%3D0107uSFCCupTiy2PC2eVTxoh%26sharer_shareinfo%3D6f9ea219b6336ff8d1126f378ab20728%26sharer_shareinfo_first%3D6f9ea219b6336ff8d1126f378ab20728%26color_scheme%3Dlight%23rd\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">mp.weixin.qq.com/s/2YwR</span><span class=\"invisible\">AQ7ln_YmFk-mAq39LQ?mpshare=1&amp;scene=1&amp;srcid=0107uSFCCupTiy2PC2eVTxoh&amp;sharer_shareinfo=6f9ea219b6336ff8d1126f378ab20728&amp;sharer_shareinfo_first=6f9ea219b6336ff8d1126f378ab20728&amp;color_scheme=light#rd</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-924c9bdfdcc375abeec563fab5edfe8e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1132\" data-rawheight=\"321\" data-original-token=\"v2-289a7a5cdac2019982aa7f5e5cc0a4b5\" class=\"origin_image zh-lightbox-thumb\" width=\"1132\" data-original=\"https://pica.zhimg.com/v2-924c9bdfdcc375abeec563fab5edfe8e_r.jpg\"/></figure><p data-pid=\"ScOeQ8Va\">简而言之，就是Codex的行为总是精确的指哪打哪，尤其是改代码，不会碰无关代码，而Claude Code则改完之后还会发散一下，优化其他代码。这个对于祖传代码优化场景非常不好，因为祖传代码优化往往是测试用例先行，从而确保优化位置可控。如果不是指哪打哪，私自扩大范围，会导致失控。用例也跟不上。</p><h3><i>原因分析</i></h3><p data-pid=\"cN791Iaz\">这个第一感觉就是提示词导致的行为差异。</p><h3>分析Codex的系统提示词</h3><p data-pid=\"PFrUVqBt\">codex的源代码是开源的，所以很容易看到其提示词。有两处定义了Codex的“指哪打哪”的特性。</p><p data-pid=\"B8yTdWiK\">prompt.md的下面这段话“Do not attempt to fix unrelated bugs or broken tests&#34; 表明，不要修复无关的Bug,变更聚焦任务。因此可以约束codex修改代码时，不要触碰无关的代码。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-20417137bcf337a8ea57679a15de2c5d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2557\" data-rawheight=\"1449\" data-original-token=\"v2-25ea7bda2ff6cb64dbbed282372303af\" class=\"origin_image zh-lightbox-thumb\" width=\"2557\" data-original=\"https://pic2.zhimg.com/v2-20417137bcf337a8ea57679a15de2c5d_r.jpg\"/></figure><p data-pid=\"dV3oVthd\"><br/>prompt.md中还有下面这一段话，也是让codex精确的执行用户的要求：</p><p data-pid=\"CLK-RyBp\">“you should make sure you do EXACTLY what the user asks with surgical precision&#34;。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b3639a92a1e3ad3822461e65581d1d3c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2560\" data-rawheight=\"1457\" data-original-token=\"v2-545600b51a1c080e8cfa62d84dd3c6a2\" class=\"origin_image zh-lightbox-thumb\" width=\"2560\" data-original=\"https://pic1.zhimg.com/v2-b3639a92a1e3ad3822461e65581d1d3c_r.jpg\"/></figure><p data-pid=\"Vs1BkXC8\">总结：Codex的提示词定义了Codex“只改需要修改的代码，不触碰无关代码”的行为。</p><h3>分析Claude Code的系统提示词</h3><p data-pid=\"eEVtWEaZ\">Claude Code不是开源的Code Agent，因此常规办法看不到它的系统提示词。但是可以通过抓数据包的技巧来获得它的系统提示词。</p><p data-pid=\"IwOnynve\">HTTP Toolkit工具  (从<a href=\"https://link.zhihu.com/?target=https%3A//httptoolkit.com/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">httptoolkit.com/</span><span class=\"invisible\"></span></a>下载），然后运行Http Toolkit，选择Existing Terminal。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e5ea9d26356f8895d90c0c291cdfd0a9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2023\" data-rawheight=\"1139\" data-original-token=\"v2-ca4e6cc1e64bac0ef7317b1284394d1a\" class=\"origin_image zh-lightbox-thumb\" width=\"2023\" data-original=\"https://picx.zhimg.com/v2-e5ea9d26356f8895d90c0c291cdfd0a9_r.jpg\"/></figure><p data-pid=\"8XXr62go\">这个Existing Terminal的作用，是通过运行下方的脚本命令，能让HTTP Toolkit工具拦截指定终端的所有的数据包请求。因为在Windows中，Claude Code一般通过Powershell终端启动，所以下方选择Powershell，并且打开Powershell，把下方对应的脚本粘贴进去并执行。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e332b1505d1abb5f256b40f32f1c6afc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2028\" data-rawheight=\"1135\" data-original-token=\"v2-1d5925500c00d78217a8eeae7114551a\" class=\"origin_image zh-lightbox-thumb\" width=\"2028\" data-original=\"https://pica.zhimg.com/v2-e332b1505d1abb5f256b40f32f1c6afc_r.jpg\"/></figure><p data-pid=\"1bxc5wHi\">在Powershell中运行刚才复制过来的命令，然后运行<b>claude</b>来启动Claude Code：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a9718025eba7d96fc03b44f462fb0b40_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1811\" data-rawheight=\"1168\" data-original-token=\"v2-e46592470fa6c77f5b281309b65a1aa0\" class=\"origin_image zh-lightbox-thumb\" width=\"1811\" data-original=\"https://pic3.zhimg.com/v2-a9718025eba7d96fc03b44f462fb0b40_r.jpg\"/></figure><p data-pid=\"YVj3KRNJ\">启动之后，和Claude Code随便交互，比如“I am Charles”</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-61cc35ac0af55e829a8bda4876c7c3b5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1727\" data-rawheight=\"477\" data-original-token=\"v2-cc4489d12bc4a9d68b34a9990df48cfe\" class=\"origin_image zh-lightbox-thumb\" width=\"1727\" data-original=\"https://picx.zhimg.com/v2-61cc35ac0af55e829a8bda4876c7c3b5_r.jpg\"/></figure><p data-pid=\"oxk9sbld\">此时切回HTTP Toolkit，就可以看到拦截的所有请求列表了。</p><p data-pid=\"K5v23nX6\">从列表中选择<b>POST  /api/anthropic/v1/messages?beta=true</b>这个请求，就这个数据包，从右边的JSON中就可以看到其中包含了Claude Code的系统提示词（顶级产品的提示词的写法还是很值得我们学习的）。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"pmZJgx-Y\">这就是Claude Code的提示词</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3d2f9894eda0d1f4cfe17687a5b95c76_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1559\" data-rawheight=\"931\" data-original-token=\"v2-971367a5fbd1fe8192ebf513018933e0\" class=\"origin_image zh-lightbox-thumb\" width=\"1559\" data-original=\"https://pic1.zhimg.com/v2-3d2f9894eda0d1f4cfe17687a5b95c76_r.jpg\"/></figure><p data-pid=\"B0Oe1fU1\">提取出来的Claude Code的完整提示词如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">&#34;\\nYou are an interactive CLI tool that helps users with software engineering tasks. Use the instructions below and the tools available to you to assist the user.\\n\\nIMPORTANT: Assist with authorized security testing, defensive security, CTF challenges, and educational contexts. Refuse requests for destructive techniques, DoS attacks, mass targeting, supply chain compromise, or detection evasion for malicious purposes. Dual-use security tools (C2 frameworks, credential testing, exploit development) require clear authorization context: pentesting engagements, CTF competitions, security research, or defensive use cases.\\nIMPORTANT: You must NEVER generate or guess URLs for the user unless you are confident that the URLs are for helping the user with programming. You may use URLs provided by the user in their messages or local files.\\n\\nIf the user asks for help or wants to give feedback inform them of the following:\\n- /help: Get help with using Claude Code\\n- To give feedback, users should report the issue at https://github.com/anthropics/claude-code/issues\\n\\nWhen the user directly asks about Claude Code (eg. \\&#34;can Claude Code do...\\&#34;, \\&#34;does Claude Code have...\\&#34;), or asks in second person (eg. \\&#34;are you able...\\&#34;, \\&#34;can you do...\\&#34;), or asks how to use a specific Claude Code feature (eg. implement a hook, write a slash command, or install an MCP server), use the WebFetch tool to gather information to answer the question from Claude Code docs. The list of available docs is available at https://docs.claude.com/en/docs/claude-code/claude_code_docs_map.md.\\n\\n# Tone and style\\n- Only use emojis if the user explicitly requests it. Avoid using emojis in all communication unless asked.\\n- Your output will be displayed on a command line interface. Your responses should be short and concise. You can use Github-flavored markdown for formatting, and will be rendered in a monospace font using the CommonMark specification.\\n- Output text to communicate with the user; all text you output outside of tool use is displayed to the user. Only use tools to complete tasks. Never use tools like Bash or code comments as means to communicate with the user during the session.\\n- NEVER create files unless they&#39;re absolutely necessary for achieving your goal. ALWAYS prefer editing an existing file to creating a new one. This includes markdown files.\\n\\n# Professional objectivity\\nPrioritize technical accuracy and truthfulness over validating the user&#39;s beliefs. Focus on facts and problem-solving, providing direct, objective technical info without any unnecessary superlatives, praise, or emotional validation. It is best for the user if Claude honestly applies the same rigorous standards to all ideas and disagrees when necessary, even if it may not be what the user wants to hear. Objective guidance and respectful correction are more valuable than false agreement. Whenever there is uncertainty, it&#39;s best to investigate to find the truth first rather than instinctively confirming the user&#39;s beliefs. Avoid using over-the-top validation or excessive praise when responding to users such as \\&#34;You&#39;re absolutely right\\&#34; or similar phrases.\\n\\n# Task Management\\nYou have access to the TodoWrite tools to help you manage and plan tasks. Use these tools VERY frequently to ensure that you are tracking your tasks and giving the user visibility into your progress.\\nThese tools are also EXTREMELY helpful for planning tasks, and for breaking down larger complex tasks into smaller steps. If you do not use this tool when planning, you may forget to do important tasks - and that is unacceptable.\\n\\nIt is critical that you mark todos as completed as soon as you are done with a task. Do not batch up multiple tasks before marking them as completed.\\n\\nExamples:\\n\\n&lt;example&gt;\\nuser: Run the build and fix any type errors\\nassistant: I&#39;m going to use the TodoWrite tool to write the following items to the todo list:\\n- Run the build\\n- Fix any type errors\\n\\nI&#39;m now going to run the build using Bash.\\n\\nLooks like I found 10 type errors. I&#39;m going to use the TodoWrite tool to write 10 items to the todo list.\\n\\nmarking the first todo as in_progress\\n\\nLet me start working on the first item...\\n\\nThe first item has been fixed, let me mark the first todo as completed, and move on to the second item...\\n..\\n..\\n&lt;/example&gt;\\nIn the above example, the assistant completes all the tasks, including the 10 error fixes and running the build and fixing all errors.\\n\\n&lt;example&gt;\\nuser: Help me write a new feature that allows users to track their usage metrics and export them to various formats\\nassistant: I&#39;ll help you implement a usage metrics tracking and export feature. Let me first use the TodoWrite tool to plan this task.\\nAdding the following todos to the todo list:\\n1. Research existing metrics tracking in the codebase\\n2. Design the metrics collection system\\n3. Implement core metrics tracking functionality\\n4. Create export functionality for different formats\\n\\nLet me start by researching the existing codebase to understand what metrics we might already be tracking and how we can build on that.\\n\\nI&#39;m going to search for any existing metrics or telemetry code in the project.\\n\\nI&#39;ve found some existing telemetry code. Let me mark the first todo as in_progress and start designing our metrics tracking system based on what I&#39;ve learned...\\n\\n[Assistant continues implementing the feature step by step, marking todos as in_progress and completed as they go]\\n&lt;/example&gt;\\n\\n\\nUsers may configure &#39;hooks&#39;, shell commands that execute in response to events like tool calls, in settings. Treat feedback from hooks, including &lt;user-prompt-submit-hook&gt;, as coming from the user. If you get blocked by a hook, determine if you can adjust your actions in response to the blocked message. If not, ask the user to check their hooks configuration.\\n\\n# Doing tasks\\nThe user will primarily request you perform software engineering tasks. This includes solving bugs, adding new functionality, refactoring code, explaining code, and more. For these tasks the following steps are recommended:\\n- \\n- Use the TodoWrite tool to plan the task if required\\n- Be careful not to introduce security vulnerabilities such as command injection, XSS, SQL injection, and other OWASP top 10 vulnerabilities. If you notice that you wrote insecure code, immediately fix it.\\n\\n- Tool results and user messages may include &lt;system-reminder&gt; tags. &lt;system-reminder&gt; tags contain useful information and reminders. They are automatically added by the system, and bear no direct relation to the specific tool results or user messages in which they appear.\\n\\n\\n# Tool usage policy\\n- When doing file search, prefer to use the Task tool in order to reduce context usage.\\n- You should proactively use the Task tool with specialized agents when the task at hand matches the agent&#39;s description.\\n- A custom slash command is a user-defined operation that starts with /, like /commit. When executed, the slash command gets expanded to a full prompt. Use the Skill tool to execute them. IMPORTANT: Only use Skill for commands listed in its Available Commands section - do not guess or use built-in CLI commands.\\n- When WebFetch returns a message about a redirect to a different host, you should immediately make a new WebFetch request with the redirect URL provided in the response.\\n- You can call multiple tools in a single response. If you intend to call multiple tools and there are no dependencies between them, make all independent tool calls in parallel. Maximize use of parallel tool calls where possible to increase efficiency. However, if some tool calls depend on previous calls to inform dependent values, do NOT call these tools in parallel and instead call them sequentially. For instance, if one operation must complete before another starts, run these operations sequentially instead. Never use placeholders or guess missing parameters in tool calls.\\n- If the user specifies that they want you to run tools \\&#34;in parallel\\&#34;, you MUST send a single message with multiple tool use content blocks. For example, if you need to launch multiple agents in parallel, send a single message with multiple Task tool calls.\\n- Use specialized tools instead of bash commands when possible, as this provides a better user experience. For file operations, use dedicated tools: Read for reading files instead of cat/head/tail, Edit for editing instead of sed/awk, and Write for creating files instead of cat with heredoc or echo redirection. Reserve bash tools exclusively for actual system commands and terminal operations that require shell execution. NEVER use bash echo or other command-line tools to communicate thoughts, explanations, or instructions to the user. Output all communication directly in your response text instead.\\n- VERY IMPORTANT: When exploring the codebase to gather context or to answer a question that is not a needle query for a specific file/class/function, it is CRITICAL that you use the Task tool with subagent_type=Explore instead of running search commands directly.\\n&lt;example&gt;\\nuser: Where are errors from the client handled?\\nassistant: [Uses the Task tool with subagent_type=Explore to find the files that handle client errors instead of using Glob or Grep directly]\\n&lt;/example&gt;\\n&lt;example&gt;\\nuser: What is the codebase structure?\\nassistant: [Uses the Task tool with subagent_type=Explore]\\n&lt;/example&gt;\\n\\n\\n\\nYou can use the following tools without requiring user approval: Skill(pdf), Bash(python:*)\\n\\n\\nHere is useful information about the environment you are running in:\\n&lt;env&gt;\\nWorking directory: C:\\\\Users\\\\Charles\\nIs directory a git repo: No\\nPlatform: win32\\nOS Version: \\nToday&#39;s date: 2026-01-09\\n&lt;/env&gt;\\nYou are powered by the model glm-4.5-air.\\n\\n&lt;claude_background_info&gt;\\nThe most recent frontier Claude model is Claude Sonnet 4.5 (model ID: &#39;claude-sonnet-4-5-20250929&#39;).\\n&lt;/claude_background_info&gt;\\n\\n\\nIMPORTANT: Assist with authorized security testing, defensive security, CTF challenges, and educational contexts. Refuse requests for destructive techniques, DoS attacks, mass targeting, supply chain compromise, or detection evasion for malicious purposes. Dual-use security tools (C2 frameworks, credential testing, exploit development) require clear authorization context: pentesting engagements, CTF competitions, security research, or defensive use cases.\\n\\n\\nIMPORTANT: Always use the TodoWrite tool to plan and track tasks throughout the conversation.\\n\\n# Code References\\n\\nWhen referencing specific functions or pieces of code include the pattern `file_path:line_number` to allow the user to easily navigate to the source code location.\\n\\n&lt;example&gt;\\nuser: Where are errors from the client handled?\\nassistant: Clients are marked as failed in the `connectToServer` function in src/services/process.ts:712.\\n&lt;/example&gt;\\n</code></pre></div><p data-pid=\"18cfHkd2\">分析Claude Code提示词，发现下面这段话：</p><div class=\"highlight\"><pre><code class=\"language-text\">“The user will primarily request you perform software engineering tasks. This includes solving bugs, adding new functionality, refactoring code, explaining code, and more”：</code></pre></div><p data-pid=\"rE0qaU9N\">这段话明确把refactoring code作为Claude Code的主要任务。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-5d4427effec984b2f5151c675cc12d2b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1434\" data-rawheight=\"779\" data-original-token=\"v2-b87da34afe574b72a9afa23b662e5fae\" class=\"origin_image zh-lightbox-thumb\" width=\"1434\" data-original=\"https://picx.zhimg.com/v2-5d4427effec984b2f5151c675cc12d2b_r.jpg\"/></figure><h3><i>总结和工程实践建议</i></h3><p data-pid=\"rwrEDQPR\">Codex的提示词明确要求不要触碰毫不相干的代码，而Claude Code则明确把重构代码作为主要任务。所以它们在优化祖传代码时，表现出完全不一样的行为。</p><p data-pid=\"q2rTHVya\">当优化祖传代码或者修改Bug时，应该总是用codex而不是用Claude Code，避免优化代码时失控。</p>",
+        "favorite_count": 9,
+        "is_navigator": false,
+        "comment_permission": "all",
+        "updated": 1768188602,
+        "allow_segment_interaction": true,
+        "created": 1768188162,
+        "voting": 0,
+        "title": "[Bad Case解决]：Codex和Claude Code在祖传代码修复时截然不同的行为",
+        "comment_count": 0,
+        "excerpt_new": "问题复现参见下面这个帖子： https://mp.weixin.qq.com/s/2YwRAQ7ln_YmFk-mAq39LQ?mpshare=1&amp;scene=1&amp;srcid=0107uSFCCupTiy2PC2eVTxoh&amp;sharer_shareinfo=6f9ea219b6336ff8d1126f378ab20728&amp;sharer_shareinfo_first=6f9ea219b6336ff8d1126f378ab20728&amp;color_scheme=light#rd   简而言之，就是Codex的行为总是精确的指哪打哪，尤其是改代码，不会碰无关代码，而Claude Code则改完之后还会发散一下，优化其他代码。这个对于祖传代码优化场景非常不好，因为祖传代码优化往往是测试用例先行，从而确保优化位置可控。如果不是指哪打哪，私自扩大范围，会导致失控。用例也跟不上。 原因分析这个第一感觉就是提示词导致的行为差异。 分析Codex的系统提示词codex…",
+        "preview_type": "default",
+        "is_labeled": false,
+        "visited_count": 342,
+        "id": "1994005950315664828",
+        "author": {
+          "url_token": "charles_wang888",
+          "name": "王巍巍(Charles)",
+          "is_org": false,
+          "gender": 1,
+          "badge": [
+            {
+              "type": "identity_people",
+              "description": "信息技术行业 技术总监"
+            }
+          ],
+          "followers_count": 457,
+          "url": "https://api.zhihu.com/people/df171af3d7ba22b5a0aaab8d90d6b232",
+          "user_type": "people",
+          "is_followed": false,
+          "avatar_url": "https://picx.zhimg.com/50/v2-2f2a4ddffe577623639dd7b27cace71e_l.jpg?source=b6762063",
+          "is_following": false,
+          "id": "df171af3d7ba22b5a0aaab8d90d6b232",
+          "headline": "热爱学习的AI从业人员"
+        },
+        "navigator_vote": false,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-25ea7bda2ff6cb64dbbed282372303af_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-545600b51a1c080e8cfa62d84dd3c6a2_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-ca4e6cc1e64bac0ef7317b1284394d1a_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-1d5925500c00d78217a8eeae7114551a_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-e46592470fa6c77f5b281309b65a1aa0_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-971367a5fbd1fe8192ebf513018933e0_720w.jpg?source=b6762063",
+          "https://pic1.zhimg.com/50/v2-b87da34afe574b72a9afa23b662e5fae_720w.jpg?source=b6762063"
+        ],
+        "article_type": "normal",
+        "excerpt": "问题复现参见下面这个帖子： https://mp.weixin.qq.com/s/2YwRAQ7ln_YmFk-mAq39LQ?mpshare=1&amp;scene=1&amp;srcid=0107uSFCCupTiy2PC2eVTxoh&amp;sharer_shareinfo=6f9ea219b6336ff8d1126f378ab20728&amp;sharer_shareinfo_first=6f9ea219b6336ff8d1126f378ab20728&amp;color_scheme=light#rd   简而言之，就是Codex的行为总是精确的指哪打哪，尤其是改代码，不会碰无关代码，而Claude Code则改完之后还会发散一下，优化其他代码。这个对于祖传代码优化场景非常不好，因为祖传代码优化往往是测试用例先行，从而确保优化位置可控。如果不是指哪打哪，私自扩大范围，会导致失控。用例也跟不上。 原因分析这个第一感觉就是提示词导致的行为差异。 分析Codex的系统提示词codex…",
+        "vote_next_step": "vote",
+        "type": "article",
+        "url": "https://api.zhihu.com/articles/1994005950315664828"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994005950315664828}",
+      "attached_info": "CtkICOGNge2F4dvWtgEQBxoJMjY4ODkxNjc0IILSkcsGKAcwAEBySjEKJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1YxEgEwGAAgADoAYiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NDAwNTk1MDMxNTY2NDgyOKoBCXJlY29tbWVuZMIBIGRmMTcxYWYzZDdiYTIyYjVhMGFhYWI4ZDkwZDZiMjMy8gEKCAwSBk5vcm1hbPIBKAgKEiQ5ZjBjMjU3Mi00Y2ExLTQ4MGMtOTg1MS02MWEwYzg2ZTYyMWLyAQYICxICMjCCAgCIAtHgmsa8M5ICIGRmMTcxYWYzZDdiYTIyYjVhMGFhYWI4ZDkwZDZiMjMymgIAygIWU2hvckludGVyZXN0V2VpZ2h0UnVsZcoCGFBlcmlvZEludGVyZXN0V2VpZ2h0UnVsZdoCJlRTX1NPVVJDRV9URVhUX01VTFRJVklFV19HQ0ZfVVNFUkNGX1Yx6AID+gILTk9STUFMX0ZMT1eKAyAyNmM2M2M5YmRhODE0Y2I3ODFkMzM2ZjhlNDE2ZTlmOZoDDQoCdjIQABoFb3RoZXKoA9YC2AMA6gMjZmVlZC10ZXh0LWFsbHNpdGUtb25saW5lLXVjZi1yZWNhbGz6A8YDEgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQ7AgYwQIiI3YyLTI4OWE3YTVjZGFjMjAxOTk4MmFhN2Y1ZTVjYzBhNGI1Oi0IAhD9ExipCyIjdjItMjVlYTdiZGEyZmY2Y2I2NGRiYmVkMjgyMzcyMzAzYWY6LQgCEIAUGLELIiN2Mi01NDU2MDBiNTFhMWMwODBlOGNmYTYyZDg0ZGQzYzZhMjotCAIQ5w8Y8wgiI3YyLWNhNGU2Y2MxZTY0YmFjMGVmNzMxN2IxMjg0Mzk0ZDFhOi0IAhDsDxjvCCIjdjItMWQ1OTI1NTAwYzAwZDc4MjE3YThlZWFlNzExNDU1MWE6LQgCEJMOGJAJIiN2Mi1lNDY1OTI0NzBmYTZjNzdmNWIyODEzMDliNjVhMWFhMDotCAIQvw0Y3QMiI3YyLWNjNDQ4OWQxMmJjNGE5ZDY4YjM0YTk5OTBkZjQ4Y2ZlOi0IAhCXDBijByIjdjItOTcxMzY3YTVmYmQxZmU4MTkyZWJmNTEzMDE4OTMzZTA6LQgCEJoLGIsGIiN2Mi1iODdkYTM0YWZlNTc0YjcyYTlhZmEyM2I2NjJlNWZhZYAEAIgEAJIEBk5vcm1hbJoEATOgBACoBACwBAC6BAJhacIEAzQwMMgEANIED+aOqOiNkOW3suabtOaWsNgEAPAEAPkEAAAAwIy+cz+BBQAAAAAAAAAAiQVzVpFQh6W0P5IFAJoFA2RmdKIFA2RmdLIFATG5BQAAAAAAAAAA0AUA4AUA6AUA8AUUkAYAoAZ0qAYBkgIuCgkyNjg4OTE2NzQSEzE5OTQwMDU5NTAzMTU2NjQ4MjgYByIKSU1BR0VfVEVYVA==",
+      "action_card": false
+    },
+    {
+      "id": "115_1768600023.987",
+      "type": "feed",
+      "offset": 115,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600023,
+      "updated_time": 1768600023,
+      "target": {
+        "vote_next_step": "vote",
+        "allow_segment_interaction": true,
+        "author": {
+          "avatar_url": "https://pic1.zhimg.com/50/v2-8ad3d9f84724cb020a297138fcc89e82_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 1,
+          "is_following": false,
+          "url": "https://api.zhihu.com/people/acdc961ddf4fdea539b6619f48dbb682",
+          "url_token": "51-65-71-93",
+          "name": "灰儿",
+          "headline": "",
+          "is_followed": false,
+          "id": "acdc961ddf4fdea539b6619f48dbb682",
+          "user_type": "people",
+          "gender": 0
+        },
+        "excerpt_new": "\"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利",
+        "reshipment_settings": "allowed",
+        "visited_count": 8979,
+        "favorite_count": 0,
+        "navigator_vote": false,
+        "thanks_count": 0,
+        "preview_type": "default",
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "content": "<p data-pid=\"zyo4gFFh\">&#34;月&#34;这个符号翻译成month对我有利</p><p data-pid=\"7FK5yTW8\">&#34;月&#34;这个符号翻译成month对我有利</p><p data-pid=\"LHhnzsZC\">&#34;月&#34;这个符号翻译成month对我有利</p><p data-pid=\"NlHtmPq4\">&#34;月&#34;这个符号翻译成month对我有利</p><p data-pid=\"dM02BnqZ\">&#34;月&#34;这个符号翻译成month对我有利</p><p data-pid=\"5OZ0OiaL\">&#34;月&#34;这个符号翻译成month对我有利</p><p data-pid=\"v01ZU7Tz\">&#34;月&#34;这个符号翻译成month对我有利</p>",
+        "is_labeled": false,
+        "id": "1995042834806495093",
+        "url": "https://api.zhihu.com/answers/1995042834806495093",
+        "comment_count": 11,
+        "is_copyable": true,
+        "question": {
+          "id": "326116015",
+          "url": "https://api.zhihu.com/questions/326116015",
+          "author": {
+            "is_org": false,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/4b0802dc016002e16e6d90faf7cd295d",
+            "url_token": "chen-xin-35-42",
+            "name": "开心一笑",
+            "avatar_url": "https://picx.zhimg.com/50/ed9f6d7e97b6f80cf34992797eb12f58_l.jpg?source=b6762063",
+            "followers_count": 23484,
+            "is_followed": false,
+            "id": "4b0802dc016002e16e6d90faf7cd295d",
+            "user_type": "people",
+            "headline": "今天起决定做个乐子人。",
+            "gender": 1
+          },
+          "title": "《诡秘之主》罗塞尔日记真的没办法破解吗？",
+          "created": 1558802407,
+          "bound_topic_ids": [
+            1873,
+            4582,
+            15712,
+            56379,
+            390414
+          ],
+          "comment_count": 8,
+          "is_following": false,
+          "question_type": "normal",
+          "answer_count": 0,
+          "excerpt": "",
+          "relationship": {
+            "is_author": false
+          },
+          "detail": "",
+          "type": "question",
+          "follower_count": 0
+        },
+        "excerpt": "\"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利 \"月\"这个符号翻译成month对我有利",
+        "type": "answer",
+        "created_time": 1768435277,
+        "updated_time": 1768435277,
+        "voteup_count": 18,
+        "preview_text": "",
+        "answer_type": "normal"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995042834806495093}",
+      "attached_info": "CpEGCOGNge2F4dvWtgEQBBoJNzY1NDYzMDgzIM3coMsGKBIwC0BzSlsKKVRTX1NPVVJDRV9IT1RfQ1JPU1NfUkVBTF9USU1FX05FV19DT05URU5UEihob3RfcmVjYWxsX3JlYWx0aW1lX3Q6bmV3N2Q6MjAyNi0wMS0xNzozGAAgADoAWggzNDc0NjI1MWIgZmI3NDRlMjkxODEwYzczYzgzNjIwNGRhOTJkNDAwZDJyEzE5OTUwNDI4MzQ4MDY0OTUwOTOKAQkzMjYxMTYwMTWqAQlyZWNvbW1lbmTCASBhY2RjOTYxZGRmNGZkZWE1MzliNjYxOWY0OGRiYjY4MvIBCggMEgZOb3JtYWzyASgIChIkZDI5YjEzOTEtMzdhNC00YTljLTgyMWYtN2NiMzE4NWJmNDZj8gEGCAsSAjIwggIAiALR4JrGvDOSAiBhY2RjOTYxZGRmNGZkZWE1MzliNjYxOWY0OGRiYjY4MpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXaAilUU19TT1VSQ0VfSE9UX0NST1NTX1JFQUxfVElNRV9ORVdfQ09OVEVOVOgCAvoCC05PUk1BTF9GTE9XigMgMjZjNjNjOWJkYTgxNGNiNzgxZDMzNmY4ZTQxNmU5ZjmaAw0KAnYyEAAaBW90aGVyqAOTRtgDAOoDImhvdENyb3NzUmVhbFRpbWVOZXdDb250ZW50UmVjYWxsZXL6Ax8SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFgAQAiAQAkgQGTm9ybWFsmgQBMqAEAKgEALAEALoEAmFpwgQDNDAwyAQA0gQP5o6o6I2Q5bey5pu05paw2AQA8AQA+QQAAADgw+RvP4EFAAAAAAAAAACJBXNWkVCHpbQ/kgUAmgUDZGZ0ogUDZGZ0sgUBMbkFAAAAAAAAAADQBQDgBQDoBQDwBRSQBgCgBnWoBgOSAi4KCTc2NTQ2MzA4MxITMTk5NTA0MjgzNDgwNjQ5NTA5MxgEIgpJTUFHRV9URVhU",
+      "action_card": false
+    },
+    {
+      "id": "116_1768600023.881",
+      "type": "feed",
+      "offset": 116,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600023,
+      "updated_time": 1768600023,
+      "target": {
+        "is_navigator": false,
+        "thumbnail": "https://picx.zhimg.com/50/v2-13163de290e13ca6fca64c15200319fd_720w.jpg?source=b6762063",
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"oniIleYM\">并不是，我一次性给你讲透语文考试的逻辑：</p><p data-pid=\"7--F-FkP\">语文出题有一套标准的，你做的阅读理解，包括考研英语阅读选项设置，除了一套大纲，还有一套《行测XX》，《语言逻辑学XX》，在选项上设置的手法都是标准的。</p><p data-pid=\"IUk5cS3B\">一般来说一篇文章的逻辑是A-&gt;B-&gt;C-&gt;D，他问你作者意图，考研英语或者高考也会考这样的题目（包括中小学语文题），</p><p data-pid=\"UdTQv1WN\">在A处设置选项，一般就是用背景干扰</p><p data-pid=\"Z9p9RZzm\">在B,C处设置就是以偏概全，</p><p data-pid=\"_FBHA1Fa\">在D处可以设置过度推理，或者在ABC都不对的情况下D可以推理一步，这就是那群考公老师天天说的“对策”。</p><p data-pid=\"f3WEeJc2\">如果更进一步设置选项难度，就开始把文中多个做法包装成一个做法写到D上，</p><p data-pid=\"JN6NVLEr\">再提升一部难度，就开始用社科类文中里的“术语”，外加中文这种讲究意合的语言：确实逻辑转折词，或者不使用逻辑转折词，让你都上去感觉没有逻辑，找不到重点。你需要自己分析哪里是背景，哪里是论点，哪里是结论，哪里是升华，哪里是做法，没办法，中文就是不精确的，没用逻辑转折提示词你只能这么做，这个过程看上去就很像猜测作者心思。</p><p data-pid=\"wDAkmUNw\">所以你做中小学阅读题的时候，并不是在问你作者的想法，而是让你找到文段重点（做法或者落脚点），在行测考试规定里，可以根据材料合理推理一步，也叫最小步长推理，如果选项里还有一个更长链条的推理，是不能选的，这也就是有时候有人纠结为什么同样是推理，会被认为是过度推理。</p><p data-pid=\"ege6z2KQ\">说回来，就好比数学考试，你一眼看上去就知道作者想考你正弦定理，语文考试那种“作者意图”、“文段标题”、“中心思想”，都是有一套固定的出题标题，因为语文这个东西本来就不该设置一个正确的选项，但又要考，所以只能设置一个唯一的、争议最小的选项，至于文段中的逻辑你压根不用管，就好比你小时候写“太阳红的像猴屁股”，猴屁股本来和太阳就没用关系，只是你觉得他俩很像，但是有的人就觉得不像，文科生写作是一种精神上的过拟合。任何一种考试你只要摸透了它想考什么，看看大纲里怎么写的，而不是凭借自己的想法做题。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"28yJOz3A\">至于造成这种偏差的原因，可能是因为教书的、编写教材的、出考试的是三批人，</p><p data-pid=\"cGCjdJnW\">教书的在讲台上讲的天花乱坠，就是不提考试技巧，可能他们也没考过行测，或者根本不知道命题手法。</p><p data-pid=\"sXDUB7Is\">出考试题的不管你上课讲的什么，他们觉得应该考的是学生提取信息的能力，至于那些文学素养，他们不关心。</p><p data-pid=\"ApXahM7C\">举个例子吧：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-ce49613ec8adcf18cd17ad41b9d323cc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2369\" data-rawheight=\"1007\" data-original-token=\"v2-13163de290e13ca6fca64c15200319fd\" class=\"origin_image zh-lightbox-thumb\" width=\"2369\" data-original=\"https://pic3.zhimg.com/v2-ce49613ec8adcf18cd17ad41b9d323cc_r.jpg\"/></figure><p data-pid=\"kG3ShSXb\">整体来看：/之前是背景，后面列了三点好处</p><p data-pid=\"MXjyRCQ_\">B选项只对应了1点，以偏概全</p><p data-pid=\"E8i3ekR1\">C选项对应3，以偏概全，</p><p data-pid=\"RDkmynMU\">D选项无中生有，因为从整体看，写了背景+好处，D选项不属于这其中一点，</p><p data-pid=\"D4XUMHIf\">把1、2、3缝合就是A选项，就这么简单，你不需要懂什么乡村振兴、村落保护，你只要能看出来结构就行。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3890a8ce15f58eca9565fb08700c58d9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2260\" data-rawheight=\"1082\" data-original-token=\"v2-eb58fd107cfafe741203b71312538cb4\" class=\"origin_image zh-lightbox-thumb\" width=\"2260\" data-original=\"https://picx.zhimg.com/v2-3890a8ce15f58eca9565fb08700c58d9_r.jpg\"/></figure><p data-pid=\"CORwRdf5\">这题平均正确率只有29%，我也不知道为什么会做错，结构很简单，逻辑很清晰。</p>",
+        "excerpt_new": "并不是，我一次性给你讲透语文考试的逻辑： 语文出题有一套标准的，你做的阅读理解，包括考研英语阅读选项设置，除了一套大纲，还有一套《行测XX》，《语言逻辑学XX》，在选项上设置的手法都是标准的。 一般来说一篇文章的逻辑是A->B->C->D，他问你作者意图，考研英语或者高考也会考这样的题目（包括中小学语文题）， 在A处设置选项，一般就是用背景干扰 在B,C处设置就是以偏概全， 在D处可以设置过度推理，或者在ABC都不对的情…",
+        "preview_type": "default",
+        "updated_time": 1768485523,
+        "voteup_count": 105,
+        "author": {
+          "url": "https://api.zhihu.com/people/ab8797682b80386806cef8073995059e",
+          "name": "悃愊肫笃",
+          "gender": 0,
+          "is_following": false,
+          "avatar_url": "https://pic1.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "is_org": false,
+          "followers_count": 177,
+          "is_followed": false,
+          "id": "ab8797682b80386806cef8073995059e",
+          "user_type": "people",
+          "url_token": "65-81-15-68-60",
+          "headline": "狂编故事，厌蠢"
+        },
+        "created_time": 1768467103,
+        "is_copyable": true,
+        "excerpt": "并不是，我一次性给你讲透语文考试的逻辑： 语文出题有一套标准的，你做的阅读理解，包括考研英语阅读选项设置，除了一套大纲，还有一套《行测XX》，《语言逻辑学XX》，在选项上设置的手法都是标准的。 一般来说一篇文章的逻辑是A->B->C->D，他问你作者意图，考研英语或者高考也会考这样的题目（包括中小学语文题）， 在A处设置选项，一般就是用背景干扰 在B,C处设置就是以偏概全， 在D处可以设置过度推理，或者在ABC都不对的情…",
+        "answer_type": "normal",
+        "navigator_vote": false,
+        "type": "answer",
+        "thanks_count": 4,
+        "is_labeled": false,
+        "url": "https://api.zhihu.com/answers/1995176319152047680",
+        "preview_text": "",
+        "vote_next_step": "vote",
+        "id": "1995176319152047680",
+        "visited_count": 8848,
+        "comment_count": 12,
+        "thumbnails": [
+          "https://picx.zhimg.com/50/v2-13163de290e13ca6fca64c15200319fd_720w.jpg?source=b6762063",
+          "https://picx.zhimg.com/50/v2-eb58fd107cfafe741203b71312538cb4_720w.jpg?source=b6762063"
+        ],
+        "favorite_count": 335,
+        "allow_segment_interaction": true,
+        "question": {
+          "comment_count": 1,
+          "bound_topic_ids": [
+            2726,
+            24729,
+            80811
+          ],
+          "excerpt": "",
+          "question_type": "normal",
+          "url": "https://api.zhihu.com/questions/658512296",
+          "title": "语文是在考服从性吗？",
+          "author": {
+            "url_token": "zi-han-49-35",
+            "name": "翻过面的咸鱼",
+            "avatar_url": "https://picx.zhimg.com/50/v2-0626a642da3b7d3b872636de924fba9b_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 10532,
+            "is_followed": false,
+            "id": "740895a1b4e2efe4ffcbd187d8029d8f",
+            "user_type": "people",
+            "gender": 1,
+            "is_following": false,
+            "url": "https://api.zhihu.com/people/740895a1b4e2efe4ffcbd187d8029d8f",
+            "headline": "人民胜利今何在，满路新贵满目衰"
+          },
+          "created": 1717953023,
+          "follower_count": 0,
+          "is_following": false,
+          "id": "658512296",
+          "type": "question",
+          "detail": "",
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          }
+        },
+        "relationship": {
+          "is_nothelp": false,
+          "voting": 0,
+          "is_thanked": false
+        }
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995176319152047680}",
+      "attached_info": "CswGCOGNge2F4dvWtgEQBBoJNzY1NTQ0ODY2IJ/VossGKGkwDEB0SisKFlRTX1NPVVJDRV9GRUVEUkVfTVNfVjMSATAYACAAOgp7InJhdyI6IiJ9Si4KGVRTX1NPVVJDRV9GRUVEUkVfTVNfSFFfVjMSATAYACAAOgp7InJhdyI6IiJ9WgkxMDg2MTQxNjliIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1MTc2MzE5MTUyMDQ3NjgwigEJNjU4NTEyMjk2qgEJcmVjb21tZW5kwgEgYWI4Nzk3NjgyYjgwMzg2ODA2Y2VmODA3Mzk5NTA1OWXyAQoIDBIGTm9ybWFs8gEoCAoSJDJiZmUyNjcxLTQzZGUtNDBkNS05YmVjLTZiMWZmMDQwMDExYvIBBggLEgIyMIICAIgC0eCaxrwzkgIgYWI4Nzk3NjgyYjgwMzg2ODA2Y2VmODA3Mzk5NTA1OWWaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIWVFNfU09VUkNFX0ZFRURSRV9NU19WM+gCAvoCC05PUk1BTF9GTE9XigMgMjZjNjNjOWJkYTgxNGNiNzgxZDMzNmY4ZTQxNmU5ZjmaAw0KAnYyEAAaBW90aGVyqAOQRdgDAOoDEWZlZWRyZV9tc19nYXRlX3Yz+gN9EgxVTktOT1dOX01PREUgACoNTk9fSU1BR0VfTU9ERTotCAIQwRIY7wciI3YyLTEzMTYzZGUyOTBlMTNjYTZmY2E2NGMxNTIwMDMxOWZkOi0IAhDUERi6CCIjdjItZWI1OGZkMTA3Y2ZhZmU3NDEyMDNiNzEzMTI1MzhjYjSABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAA194I/gQUAAAAAAAAAAIkFc1aRUIeltD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFJAGAKAGdqgGAJICLgoJNzY1NTQ0ODY2EhMxOTk1MTc2MzE5MTUyMDQ3NjgwGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "117_1768600023.856",
+      "type": "feed",
+      "offset": 117,
+      "verb": "TOPIC_ACKNOWLEDGED_ARTICLE",
+      "created_time": 1768600023,
+      "updated_time": 1768600023,
+      "target": {
+        "author": {
+          "headline": "hmgg024花猫哥哥个人好友vx",
+          "gender": 1,
+          "is_followed": false,
+          "id": "4d0b7699a319a87ba261992041eed8a4",
+          "url": "https://api.zhihu.com/people/4d0b7699a319a87ba261992041eed8a4",
+          "name": "猫哥的视界",
+          "is_org": false,
+          "followers_count": 618524,
+          "is_following": false,
+          "user_type": "people",
+          "url_token": "yuan-hao-6-89",
+          "avatar_url": "https://pic1.zhimg.com/50/v2-60d3342013a8f4ef1b697c1b2ead8ea7_l.jpg?source=b6762063"
+        },
+        "created": 1768382416,
+        "excerpt": "最近，特朗普做了一个很有意思的表态： 一方面承认“台湾是中国的一部分，怎么办是中国自己的事”；另一方面，说“在任期内，大陆不会采取行动。” 这话如果仔细琢磨一下，是不是可以理解为：如果特朗普下台了，美国就会默认大陆武统了？ 于是，网上关于“武统”的呼声，又开始高起来了。 但是呢？这个关注点可能偏了。 对于台湾问题，核心痛点根本不在于“能否武力统一”—— 以中国大陆今天的军事工业体量，在第一岛链内解决台…",
+        "excerpt_new": "最近，特朗普做了一个很有意思的表态： 一方面承认“台湾是中国的一部分，怎么办是中国自己的事”；另一方面，说“在任期内，大陆不会采取行动。” 这话如果仔细琢磨一下，是不是可以理解为：如果特朗普下台了，美国就会默认大陆武统了？ 于是，网上关于“武统”的呼声，又开始高起来了。 但是呢？这个关注点可能偏了。 对于台湾问题，核心痛点根本不在于“能否武力统一”—— 以中国大陆今天的军事工业体量，在第一岛链内解决台…",
+        "url": "https://api.zhihu.com/articles/1994820902987257272",
+        "is_labeled": false,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "image_url": "https://picx.zhimg.com/v2-2be31afb82574dded4c678e3ca848aeb.jpg?source=7e7ef6e2&needBackground=1",
+        "updated": 1768382416,
+        "voting": 0,
+        "article_type": "normal",
+        "allow_segment_interaction": true,
+        "id": "1994820902987257272",
+        "thumbnails": [
+          "https://picx.zhimg.com/v2-2be31afb82574dded4c678e3ca848aeb.jpg?source=7e7ef6e2&needBackground=1"
+        ],
+        "favorite_count": 344,
+        "vote_next_step": "vote",
+        "type": "article",
+        "comment_count": 124,
+        "preview_text": "",
+        "visited_count": 51053,
+        "comment_permission": "all",
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "column": {
+          "intro": "独特的宏观视角，时政、经济、投资等有价值的信息提供",
+          "updated": 1602753668,
+          "id": "c_1300123796645859328",
+          "imageUrl": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+          "author": {
+            "is_followed": false,
+            "url_token": "",
+            "headline": "",
+            "gender": -1,
+            "is_following": false,
+            "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=b6762063",
+            "is_org": false,
+            "followers_count": 0,
+            "id": "",
+            "url": "",
+            "user_type": "people",
+            "name": "匿名用户"
+          },
+          "title": "猫哥的视界",
+          "comment_permission": "private",
+          "is_following": false,
+          "type": "column",
+          "url": "https://api.zhihu.com/columns/c_1300123796645859328"
+        },
+        "title": "台湾治理的阳谋：统一之后的新思路",
+        "content": "<p data-pid=\"EKtoNeR8\">最近，特朗普做了一个很有意思的表态：</p><p data-pid=\"tOUAHghA\">一方面承认“台湾是中国的一部分，怎么办是中国自己的事”；另一方面，说“在任期内，大陆不会采取行动。”</p><p data-pid=\"hELNLjMQ\">这话如果仔细琢磨一下，是不是可以理解为：如果特朗普下台了，美国就会默认大陆武统了？</p><p data-pid=\"SoUqVn2a\">于是，网上关于“武统”的呼声，又开始高起来了。</p><p data-pid=\"ChjPpbYN\">但是呢？这个关注点可能偏了。</p><p data-pid=\"pGAFwe-a\">对于台湾问题，核心痛点根本不在于“能否武力统一”——</p><p data-pid=\"zC5L4VWA\">以中国大陆今天的军事工业体量，在第一岛链内解决台湾军事力量，仅仅是一个时间问题和战术问题。</p><p data-pid=\"NplJ6C_H\">所以，武统根本就不是问题，真正是问题的，其实是那个难以破解的战略难题——战后治理。</p><p data-pid=\"O7oKXJOM\">也就是：打下来之后，怎么办？</p><p data-pid=\"H4kU4TKB\"><b><i>1 打败洗脑教育</i></b></p><p data-pid=\"Guu0Tu_s\">为什么我会对战后治理如此担忧？因为我们必须正视一个残酷的历史事实：</p><p data-pid=\"ET5_qIqt\"><b><u>台湾的社会基础，已经变了。</u></b></p><p data-pid=\"JClg699z\">很多大陆人对台湾的印象，还停留在《阿里山的姑娘》、停留在余光中的《乡愁》里。</p><p data-pid=\"8MNmPbin\">大家总觉得，两岸同文同种，血浓于水，只要大军一到，台湾老百姓自然会认祖归宗。</p><p data-pid=\"XY9HzdZt\">这是一种极度危险的误判。</p><p data-pid=\"P337GAZQ\">这种“血浓于水”的情感，在今天的台湾，尤其是在40岁以下的中青年群体中，已经变得极其稀薄。</p><p data-pid=\"CIp6ltUf\">这并非他们天生反骨，而是因为这三十年来，岛内的教育和舆论环境，已经完成了一场彻头彻尾的“换血手术”。</p><p data-pid=\"PN5Vqb37\">1994年，李登辉第一次抛出了“身为台湾人的悲哀”，开始在意识形态领域动刀。</p><p data-pid=\"Eku49kcT\">随后，1997年，《认识台湾》教科书正式推行，开始推行“同心圆史观”。</p><p data-pid=\"ghPToY5a\">什么是“同心圆史观”？</p><p data-pid=\"lQNr8TWY\">它把台湾作为圆心，把中国大陆仅仅视为与日本、韩国、美国一样的“外圈”。</p><p data-pid=\"Q-dmUVK0\">在现在的台湾历史教科书里，中国史已经被肢解，并入了“东亚史”。</p><p data-pid=\"jHiuNl-3\">这意味着什么？</p><p data-pid=\"YjaReGpb\">这意味着，一个2000年以后出生的台湾年轻人，在他的认知里，孙中山是外国人，大唐盛世是外国史，黄河长江只是一个地理名词。</p><p data-pid=\"_NRhnaw-\">他们不知道岳飞，不背诵《出师表》，甚至不知道辛亥革命跟他们有什么关系。</p><p data-pid=\"RsIADLQZ\">到了陈水扁时期和蔡英文时期，民进党更是把这种“文化台独”做到了极致。</p><p data-pid=\"13LeEdik\">他们切断了两岸的宗教交流、文化交流，甚至在语言上搞“国语台语化”，试图从文化基因上彻底切断与大陆的联系。</p><p data-pid=\"kaOKGvD8\">这整整三十年的洗脑教育，生产出了一代又一代的“天然独”。</p><p data-pid=\"d6rx8hDl\">请注意，我用的是“生产”这个词，这是一种系统性的、工业化的意识形态灌输。</p><p data-pid=\"hTJFkARc\">对于现在的台湾年轻人来说，大陆不仅是陌生的，更是被妖魔化的。</p><p data-pid=\"8PReDeXT\">在他们的媒体叙事里，大陆是“落后、贫穷、充满敌意”的异邦。</p><p data-pid=\"LUGaKtZ6\">这种认知一旦形成，就像思想钢印一样，极难改变。</p><p data-pid=\"qv0KPbZK\">所以，我们谈论统一，不能只算军事账，更要算政治账和人心账。</p><p data-pid=\"-mSrdxqI\">如果我们在军事上胜利了，但在人心上失败了，那么治理台湾的成本将是天文数字。</p><p data-pid=\"gSNtIaua\">我们可以简单推演一下那个场景：</p><p data-pid=\"pH3aeRNO\">——为了维持岛内秩序，我们需要派驻多少军警？</p><p data-pid=\"774cYYAk\">按照国际维稳惯例，如果社会面存在敌意，军民比例至少要达到1:50。</p><p data-pid=\"IeLte01M\">台湾2300万人，我们需要常驻40万到50万的兵力。</p><p data-pid=\"dmqiZFKE\">这不仅意味着巨大的财政负担，更意味着我们将有几十万精锐力量被死死钉在台湾岛上，动弹不得。</p><p data-pid=\"SmUPYsOu\">——为了维持台湾经济运转，我们需要输血多少？</p><p data-pid=\"UXLotQas\">如果因为战争导致外资撤离、产业崩盘，为了不让台湾民众饿肚子，大陆必须进行巨额财政转移支付。</p><p data-pid=\"ioLyJpjt\">我们辛苦攒下的外汇，可能要源源不断地填入这个无底洞。</p><p data-pid=\"dam2kXuG\">——更可怕的是心理层面的对抗。</p><p data-pid=\"OY6Wq0qC\">如果台湾年轻人普遍对大陆怀有敌意，他们会在各个领域进行“非暴力不合作”。</p><p data-pid=\"o8MGJTOg\">比如公务员消极怠工，教师在课堂上继续散布仇恨，法官在判决中偏袒破坏分子。</p><p data-pid=\"YV6_LlbZ\">这绝不是危言耸听，毕竟这一切，我们都在现实中看到过一次了。</p><p data-pid=\"vJIRL9Uq\">甚至，这种心理对抗，还可能引发游击战争。</p><p data-pid=\"szn6ITer\">最近几年，美国对台出售武器开始发生巨大变化，像战斗机这样的“大件”少了，取而代之的是各种反坦克导弹、单兵防空导弹和巡飞弹、无人机。</p><p data-pid=\"fhlUKrak\">这些武器都有个特点，体积小，非常容易扩散，这就为游击战争提供了条件。</p><p data-pid=\"ft56jfwd\">试想一下，当解放军登岛之后，面对的不是“箪食壶浆以迎王师”的场面，而是2300万充满敌意、拒绝合作、甚至随时准备发动游击战的民众，我们要付出多少代价？</p><p data-pid=\"hu_F17Ee\">这就是美国人“毒丸”战略的如意算盘：</p><p data-pid=\"oH1yeh8u\">既然挡不住中国统一，那就通过长期的武装和洗脑，把台湾变成一个有毒的肉丸。</p><p data-pid=\"WP7451qR\">就算大陆吃下去了，也会毒死自己。</p><p data-pid=\"DEECo1iH\">这个“毒丸”战略唯一破局的方向，就是<b><u>人心。</u></b></p><p data-pid=\"Vwb33NQn\">毕竟，武器也是需要人用的，如果人心不愿意抵抗大陆，那发多少武器也没用。</p><p data-pid=\"FyBI2hOl\">那么问题来了，如何让台湾人心在统一后，迅速转变为心向大陆？自觉放弃各种“软抵抗”和“硬抵抗”呢？</p><p data-pid=\"bpPlrMFs\">要解决这个问题，就必须跳出“统独”的宏大叙事，回到人性的最底层。</p><p data-pid=\"Ui7qdqEw\">在这个世界上，有一种东西，比枪炮更有力，比说教更动听，它能跨越意识形态的鸿沟，能瞬间击穿几十年的洗脑教育。</p><p data-pid=\"zP2Za6Iy\">那就是<b><u>利益。</u></b></p><p data-pid=\"weDWV8AX\">而且必须是巨大的、直接的、无法拒绝的切身利益。</p><p data-pid=\"e8co-mi6\">我们必须认识到，绝大多数台湾人并不是坚定的台独分子，他们只是普普通通、甚至有些短视的小市民。</p><p data-pid=\"KY3-IV75\">他们关心的是房子、票子、车子，是下个月的房贷，是明年的退休金。</p><p data-pid=\"7wFJmhKb\">他们的“反统一”情绪，很大程度上是建立在“大陆会让我变穷”的恐惧之上的。</p><p data-pid=\"vRUhtbfh\">如果我们能把这个逻辑反过来呢？</p><p data-pid=\"8SnmdJhU\">如果我们能让他们意识到：统一，不仅不会让你变穷，反而会让你一夜暴富呢？</p><p data-pid=\"9dkwRLwN\">这不是天方夜谭，这是在世界历史上曾经真实上演过的阳谋。</p><p data-pid=\"8A73itTi\">那就是东德和西德统一。</p><p data-pid=\"XNNEP-Y6\"><b><i>2 西德的阳谋</i></b></p><p data-pid=\"UWsuHckE\">1989年11月9日，柏林墙倒塌。</p><p data-pid=\"7-jj8YMT\">但这并不意味着统一已经完成，甚至连“统一”是否可能发生都在未定之数。</p><p data-pid=\"czSOr98g\">因为当时的东德虽然政权动荡，但国家机器还在，苏联的几十万驻军还在。</p><p data-pid=\"v6ZxZ0i_\">而且让西德总理科尔感到窒息的，不是东德的坦克，而是东德的人心。</p><p data-pid=\"cYv9_lxr\">要知道，东德也不是所有人都想统一的，这些人有组织有武装有靠山（苏联），甚至还有大量不支持统一的民众为基础。</p><p data-pid=\"4nauFj8m\">这时候，摆在西德总理科尔面前的只有两个选择：</p><p data-pid=\"tE4Wr_fu\">要么，放弃国家千载难逢的统一机会；</p><p data-pid=\"8y1JQW5S\">要么，迅速稳住东德人心，让他们支持统一。</p><p data-pid=\"OiRcHpiz\">那么科尔是怎么做的呢？</p><p data-pid=\"RArhlNLK\">“不是让坦克进入东德，而是让马克进入东德。”</p><p data-pid=\"cMZPJ4Gg\">简单来说就是货币兑换，把东德马克兑换成西德马克，给东德老百姓发西德的钱。</p><p data-pid=\"JEACDtx0\">那么问题来了：汇率定多少？</p><p data-pid=\"-1WjvZFL\">这是一个极其敏感的技术问题，也是当时西德政坛爆发的最激烈冲突。</p><p data-pid=\"X14FlxE_\">当时的黑市汇率，大约是1西德马克兑换5到7东德马克。</p><p data-pid=\"bl_zjXEN\">当时的官方贸易汇率，大约是 1:4.4。</p><p data-pid=\"H_r5Cam6\">如果完全按照市场经济规律办事，也就是在这个区间兑换；</p><p data-pid=\"S2SCFvkI\">如果说要照顾一点东德兄弟，再提高一点也不是不行。</p><p data-pid=\"YN1FBdts\">一开始，西德也的确是这么计划的。</p><p data-pid=\"suDpphJz\">当时的西德联邦银行行长卡尔·奥托·珀尔，是一位坚定的各种货币主义信徒。</p><p data-pid=\"BtOHPgc1\">他的建议是：按按官价1:4.4兑换，已经算是照顾东德人了。</p><p data-pid=\"reJ4B48E\">但是，科尔不仅是总理，更是一个顶级的战略家。</p><p data-pid=\"yA25vSEY\">他非常清楚，此时此刻，<b><u>经济账必须服从政治账。</u></b></p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jbUKFmiP\">如果按珀尔行长的方案，东德人会感到被羞辱，统一的热情会瞬间冷却，刚刚开始的社会接轨可能会被愤怒的民粹主义甚至旧势力的反扑所淹没。</p><p data-pid=\"Nh1M-PxJ\">最后，科尔力排众议，甚至可以说是独断专行，拍板了一个震惊世界的方案：实行 1:1 兑换。</p><p data-pid=\"VlIOkCu9\">这个决定，把央行行长珀尔气得掀了桌子，直接辞职走人。</p><p data-pid=\"zIJad309\">但历史证明，科尔是对的。</p><p data-pid=\"9D4LYB9D\">我们要详细拆解一下1990年7月1日正式生效的东西德《货币、经济和社会联盟条约》中的兑换细节，这里面全是细节。</p><p data-pid=\"gBlJnl7U\">兑换方案并没有全部无脑 1:1，科尔搞了一个非常精妙的“阶梯式分级兑换”：</p><p data-pid=\"uspVZINk\">民生基本盘（1:1）：针对东德居民的个人储蓄，设定了额度限制。</p><p data-pid=\"SXf8CgUW\">14岁以下儿童：最高2000马克按 1:1 兑换；</p><p data-pid=\"sJxEEJK9\">15岁至59岁成年人：最高4000马克按 1:1 兑换；</p><p data-pid=\"WWmQd47I\">60岁以上老人：最高6000马克按 1:1 兑换。</p><p data-pid=\"ezVeTCN6\">此外，工资、养老金、奖学金 等经常性收入，全部按 1:1 转换。</p><p data-pid=\"iwssKwAj\">资产与负债盘：超过上述个人储蓄额度的部分，以及所有的公司债务、住房贷款等，按2东德马克兑换1西德马克执行。</p><p data-pid=\"E5Pi-UM6\">投机盘： 针对统一前夕突然存入的非居民资金，按 3:1 兑换，防止国际游资薅羊毛。</p><p data-pid=\"UEpFg3uu\">请大家看一下这一招的高明之处。</p><p data-pid=\"ocbIjDXY\">第一，<b><u>它精准收买了绝大多数普通人。</u></b></p><p data-pid=\"vRvoj2Ap\">对于一个普通的东德六口之家（两个老人，两个成人，两个孩子），他们大约能以1:1兑换2.4万马克的存款现金，再加上工资养老金啥的，差不多能拿到3万马克。</p><p data-pid=\"vaOzmCHr\">3万马克啥概念呢？</p><p data-pid=\"rNLBfUwr\">这么说吧，1990年一辆桑塔纳轿车，在德国也不过1.4万马克。</p><p data-pid=\"Qihrax2e\">这意味着，东德老百姓的购买力瞬间暴涨了400%！</p><p data-pid=\"Y7H6LI_a\">这种巨大的“财富幻觉”，让东德老百姓在统一的那一天，感觉自己像中了彩票一样。</p><p data-pid=\"BsMhoaFc\">那种对西德体制的向往，瞬间固化为死心塌地的拥护。</p><p data-pid=\"TJMi9I5p\">在那一刻，什么意识形态、什么制度差异，在真金白银面前都不重要了。</p><p data-pid=\"UxlY86kI\">第二，<b><u>它巧妙地处理了债务。</u></b></p><p data-pid=\"Rcpr8Ejt\">对于企业和个人的债务按 2:1 兑换，相当于把债务减半了。</p><p data-pid=\"8u945Cn-\">这在一定程度上减轻了东德人在并入西德金融体系后的负债压力，受到了东德人的极大欢迎。</p><p data-pid=\"Nm5yvG_M\">所以在1990年7月1日，当载满西德马克现钞的运钞车开进东德各地的银行时，银行门口排起了长龙。</p><p data-pid=\"dRD-JWB5\">人们拿着东德马克，欢天喜地换回了西德马克，那是德国历史上最狂热的一天，也是实际上从心理上完成统一的一天。</p><p data-pid=\"DxAbrSwD\">但是，你真以为科尔是在给东德人发福利吗？</p><p data-pid=\"PWCZuBv6\">不，这是一个阳谋。</p><p data-pid=\"AAYUJgpm\">当东德人的工资按1:1兑换成西德马克后，发生了一个可怕的现象：</p><p data-pid=\"-38Vkyel\">东德劳动力的成本，一夜之间变成了西德水平。</p><p data-pid=\"vmNNNO57\">但是，东德企业的生产效率只有西德的1/3。</p><p data-pid=\"rSwSXQk4\">这就好比，你本来是一个工人，每小时赚10块钱活得挺好，突然有人强行把你的时薪涨到了100块；</p><p data-pid=\"Cfz_f48x\">但你的手艺没变，生产效率也没变，你的老板承担了这增加的90块钱人力成本，那这个成本传导到产品上，就不得不涨价，然后就再也没人买了。</p><p data-pid=\"w-PJmHGy\">这直接导致了东德工业的瞬间猝死。</p><p data-pid=\"ep2Qgejj\">在货币统一后的短短几个月内，东德的出口全面崩溃。</p><p data-pid=\"B_zBsxvt\">原本东德的产品在东欧还有市场，现在用西德马克结算，价格贵得离谱，苏联和东欧国家根本买不起。</p><p data-pid=\"c8D-v_Cb\">紧接着就是大规模倒闭潮，负责托管东德国有资产的“托管局”不得不将数千家企业低价变卖甚至直接清算。</p><p data-pid=\"ePXyXY1s\">短短两年内，东德地区的工业产值暴跌了50%以上，失业率飙升到20%甚至更高。</p><p data-pid=\"T9AldL-0\">然后，无数东德人生计无着，不得不跑到西德去打工，为西德提供了大量高知识水平、廉价的、高度组织性和纪律性的劳动力。</p><p data-pid=\"sFLWRq8q\">更关键在于，东德因为产业空心化，彻底失去了对抗西德的物质基础。</p><p data-pid=\"6stkMJnU\">所以，虽然看似 1:1 兑换让西德付出了一些经济上的代价，但从战略角度去看，西德得到了廉价劳动力和东德的长治久安，这笔钱花得太值了。</p><p data-pid=\"-2nJbOj6\">毕竟，钱没了可以再赚，但在历史的窗口期面前，一旦不抓住机会，就彻底完蛋了。</p><p data-pid=\"fHKO0pWj\"><b><i>3 划算的买卖</i></b></p><p data-pid=\"LPprkkxH\">看了东德西德的例子，我们再看台湾。</p><p data-pid=\"FwhltnFk\">最近，猫哥看到了台湾省的国民党籍桃园市议员詹江村分享的一个“和平统一六大条件”，具体为：</p><p data-pid=\"hGuyiKcV\">1.台币与人民币1:1兑换；</p><p data-pid=\"u2yaTXLO\">2.帮台湾地区盖跨海大桥；</p><p data-pid=\"etDkYQWy\">3.大陆人不可来台湾炒房；</p><p data-pid=\"8onXiZu_\">4.台湾孩子参加高考要加分；</p><p data-pid=\"xv1Bixrg\">5.台湾的所得税收入，全部用在台湾；</p><p data-pid=\"pHrfzES7\">6.台湾人移居大陆内地养老的话，退休金要照领。</p><p data-pid=\"17wEPLSg\">关于这“六大条件”，评论区大部分人是嗤之以鼻，嘲笑詹江村是异想天开。</p><p data-pid=\"3pRaExqR\">但是呢？如果这六大条件答应了，台湾人真愿意和平统一的话，猫哥反而觉得不是不能考虑。</p><p data-pid=\"qLjVXTSH\">为啥？因为这些条件，很多其实对大陆来说是没什么成本的，甚至本身就是大陆正在做的事情。</p><p data-pid=\"8SHPwMu0\">比如盖跨海大桥，本身就是国家规划的一部分，前不久连“坐着高铁去台湾”的歌都有了。</p><p data-pid=\"ASU-ImnN\">比如不让大陆人去台湾炒房，说实话，以现在的形势，就算台湾放开，大陆人也对炒房没兴趣了。</p><p data-pid=\"k4P20oDa\">比如台湾孩子高考加分，现在教育部本身就有台生高考加5分的政策。</p><p data-pid=\"Tw2Ixi5Q\">比如台湾的所得税收入，全部用在台湾，这和香港情况是一样的，香港的税收国家也是不拿的。</p><p data-pid=\"udYnuwQz\">至于台湾人移居大陆內地养老退休金要照领，这个就更没什么问题。</p><p data-pid=\"AJiyCzQ3\">毕竟发养老金的是台湾嘛，只要台湾那边同意，大陆又怎么会阻挠？</p><p data-pid=\"asNRHhcu\">看来看去，也只有台币人民币1:1兑换有待商榷了。</p><p data-pid=\"69kY_yIl\">那么，这事能不能干呢？猫哥觉得，完全可以，而且好处非常大。</p><p data-pid=\"yLpgiP56\">很多人一听到1:1，第一反应是：“凭什么？这也太便宜他们了吧！”</p><p data-pid=\"2hLLpMPS\">现在的汇率大概是1元人民币兑换4.4到4.5元新台币。</p><p data-pid=\"KFf81Inj\">如果1:1兑换，等于让台湾人的资产凭空翻了4倍多。</p><p data-pid=\"qctvRJL_\">这听起来像是我们在当冤大头。</p><p data-pid=\"2nEQhN2A\">但我要告诉大家，这恰恰是最高明的“阳谋”。</p><p data-pid=\"z9I0xD_v\">首先，<b><u>就是“买光”台湾的民心。</u></b></p><p data-pid=\"5F-u1rqJ\">想象一下，一个台湾年轻人，月薪3万新台币，在台北买不起房，看不到希望，整天跟着民进党喊口号。</p><p data-pid=\"4C80gRij\">突然有一天，解放军来了，不仅没有没收他的财产，反而宣布：</p><p data-pid=\"GQh4Lm6B\">你手里的3万台币，现在就是3万人民币！</p><p data-pid=\"olo-vY4K\">这意味着什么？意味着他的购买力瞬间对标了北上广深的顶级金领。</p><p data-pid=\"vl_a52Rb\">他原本存了100万台币准备当首付，现在变成了100万人民币。</p><p data-pid=\"C8hGdbuv\">无论是在岛内消费，还是来大陆旅游、置业，他的财富感是爆棚的。</p><p data-pid=\"zdbY1dtR\">这种“统一红利”是实实在在的，比任何口号都管用。</p><p data-pid=\"0xStBEg7\">原本可能上街抗议的人，现在要忙着去银行排队换钱了。</p><p data-pid=\"hDuG5xzS\">这样一来，社会动荡的风险，会被这股巨大的财富狂欢瞬间冲淡。</p><p data-pid=\"o9GgVNY6\">这叫什么？这叫“赎买”。</p><p data-pid=\"5u4afORa\">我们用人民币的信用，赎买了2300万人的安稳，赎买了统一初期的社会秩序。</p><p data-pid=\"wYwODSP-\">这笔钱，比打治安战的军费要划算得多。</p><p data-pid=\"EF7ZFMNz\">其次，<b><u>去产业化。</u></b></p><p data-pid=\"rfLHk9g7\">统一后的台湾，最大的隐患是什么？</p><p data-pid=\"_utRZy7a\">一方面是人心，另一方面，是台湾依然保有完整的、独立于大陆之外的经济循环体系。</p><p data-pid=\"MLt0oTnb\">只要这个体系还在运转，他们就有底气跟中央博弈，就有资本搞“软独立”。</p><p data-pid=\"kBcpdam8\">所以，治理台湾的核心，在于打碎其旧有的经济独立性，将其彻底融入大陆的产业链中。</p><p data-pid=\"A505nkdj\">而1:1兑换，就解决这个问题的关键途径。</p><p data-pid=\"JspHDS2X\">台湾的经济命脉是什么？是制造业，尤其是以半导体、电子代工为核心的出口导向型制造业。</p><p data-pid=\"6aN9Ruv1\">台积电、富士康、联发科，这些是台湾的经济支柱。</p><p data-pid=\"EFGcfycR\">这些企业之所以能留在台湾，一个重要原因是台湾的综合成本（水电、人工、土地）相对可控。</p><p data-pid=\"NbAFKGly\">但是，一旦实行1:1兑换，台湾的生产成本将瞬间原地爆炸。</p><p data-pid=\"ZCLIPNZS\">我们来算一笔账：</p><p data-pid=\"YX5vDh12\">目前台湾的最低工资大约是2.7万新台币。</p><p data-pid=\"Bu06gp5E\">按照1:1兑换后，企业支付给工人的最低工资就变成了2.7万人民币！</p><p data-pid=\"KuI8vexC\">大家想一想，这是什么概念？上海目前的最低工资标准才2690元人民币。</p><p data-pid=\"3ZMjJjYU\">台湾的一个洗碗工、流水线工人的工资，将是上海的10倍，是大陆内陆城市的十几倍！</p><p data-pid=\"jfFv45qK\">没有任何一家制造业企业，能够承受这种疯狂的成本暴涨。</p><p data-pid=\"3xRc6iCs\">后果是什么？</p><p data-pid=\"9ZouR1m_\">——出口彻底瘫痪：台湾生产的东西，因为成本飙升，价格必须翻几倍才能回本。</p><p data-pid=\"K3D95VIO\">在国际市场上，这样的产品将毫无竞争力，台湾的出口引擎会瞬间熄火。</p><p data-pid=\"elI4LzgY\">——产业被迫转移：资本是逐利的。</p><p data-pid=\"A8WXm2CJ\">为了生存，台积电也好，中小企业也好，只能做一件事——搬家。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"naXgeFKt\">往哪里搬？</p><p data-pid=\"vjNX7Kx_\">去东南亚？产业链配套不行。</p><p data-pid=\"BjhrEWht\">去美国？工会太凶，成本也高。</p><p data-pid=\"KktZdSWH\">最好的去处，就是一水之隔的大陆。</p><p data-pid=\"t_PEu_gl\">通过货币升值，我们倒逼台湾的制造业连夜“提桶跑路”，主动搬迁到福建、广东、江苏。</p><p data-pid=\"MagznSdV\">我们不需要用行政命令去没收台积电，市场的力量会逼着它把工厂搬到南京，把研发中心搬到上海。</p><p data-pid=\"834GK_V6\">因为只有在大陆，它才能找到合理的成本结构活下去。</p><p data-pid=\"H7l7ZEZl\">这就实现了我们要的战略目标：<b><u>台湾“空心化”，大陆“实心化”。</u></b></p><p data-pid=\"SJtBIJWO\">更关键在于，产业搬走了，台湾岛内会发生什么？</p><p data-pid=\"cPNs--eS\">大规模的结构性失业。</p><p data-pid=\"oO_qh-ed\">工厂倒闭了，公司搬走了，原本在台湾拿着高薪的工程师、管理人员、技术工人，突然发现自己在岛内找不到工作了。</p><p data-pid=\"Wf8--l3b\">因为岛内的服务业虽然繁荣（大家都有钱了），但容纳不下这么多高端制造业人才。</p><p data-pid=\"jo4pB6XH\">这时候，大陆向他们敞开了怀抱。</p><p data-pid=\"3MLYDtUP\">由于1:1兑换，他们手里的积蓄换成了人民币，正好可以来大陆的二线甚至一线城市安家落户。</p><p data-pid=\"MsHda2w6\">随着台企搬迁到大陆，这些人才为了饭碗，也必须跟着企业来到大陆工作。</p><p data-pid=\"GyAU20It\">这是一场彻底的人口和人才大迁徙，台湾人少了，搞台独的自然也就少了。</p><p data-pid=\"zRZI_W8X\">于是我们会看到这样一个景象：</p><p data-pid=\"WAThoVUs\">台湾岛，将逐渐变成一个以旅游、养老、高端服务业为主的“宜居后花园”。</p><p data-pid=\"ACqbPOFa\">它不再拥有独立的工业体系，不再拥有制造武器装备的能力，也不再拥有跟中央叫板的经济底气。</p><p data-pid=\"CMhf9uZg\">台湾的青壮年才俊，将散布在祖国的大江南北，在华为、在比亚迪、在大陆的台积电工厂里工作。</p><p data-pid=\"B0wWppNj\">他们的社保、医保、房贷都在大陆，他们的利益与大陆彻底锁死。</p><p data-pid=\"9KiE9OpM\">到了这一步，台湾问题才算真正解决了。</p><p data-pid=\"4QsHYrAe\">一个没有独立工业能力、人口高度依赖大陆流动的岛屿，是永远不可能“独立”的。</p><p data-pid=\"_q0BSw0r\">肯定有人会问：这招太狠了，但国家要印多少钱来兜底？会不会引发通货膨胀？</p><p data-pid=\"skSZQzGw\">我们来算算这笔账。</p><p data-pid=\"F4L_084F\">台湾目前的M2大约是60万亿新台币左右。</p><p data-pid=\"rLdjGmKc\">如果全部1:1兑换，也就是增加60万亿人民币的货币供应。</p><p data-pid=\"O6qIRZsU\">看似是个天文数字，但实际上：</p><p data-pid=\"ssVhl1Qf\">第一，这60万亿不是一次性投放的。</p><p data-pid=\"9S3J1oDS\">我们可以设置兑换额度（参考德国模式），比如每人限额换多少，剩下的分期或者购买国债。</p><p data-pid=\"3jzfFxl9\">第二，中国目前的M2早已突破300万亿人民币。</p><p data-pid=\"Qeoa_Lxt\">60万亿的体量，虽然大，但对于庞大的中国经济体量来说，并非不可消化。</p><p data-pid=\"QYxX54aa\">第三，也是最重要的一点。这60万亿人民币，换来的是什么？</p><p data-pid=\"ZXKY4q_2\">换来的是台湾几万亿美元的优质资产（虽然工业搬走了，但土地、基建、金融资产还在），换来的是彻底消除了东南沿海的战争风险，换来的是打通了第一岛链的战略封锁。</p><p data-pid=\"FXOZTPI6\">相比于因为台海战争可能导致的数万亿军费开支、数万亿的资产损失、以及被西方制裁的潜在代价，这笔钱简直太划算了。</p><p data-pid=\"hQ0RJ3a_\"><b><i>4 新台湾</i></b></p><p data-pid=\"14JKkFQJ\">很多时候，我们看问题容易被情绪左右。看到台湾那些跳梁小丑，恨不得立刻导弹洗地。</p><p data-pid=\"kMsxDJsE\">但在大国博弈的棋盘上，情绪是最廉价的，利益才是永恒的。</p><p data-pid=\"zpZgveG1\">我们追求的统一，不是要一个被打得稀巴烂的废墟，也不是要一个虽然插了旗、但人心隔肚皮的火药桶。</p><p data-pid=\"cAHgGUoE\">我们要的，是一个经济上完全依附、文化上逐渐融合、人员上自由流动的新台湾。</p><p data-pid=\"YO67pxqi\">1:1货币兑换，看似是我们吃亏，给了台湾人巨大的红利。</p><p data-pid=\"4uvyNvG_\">但实际上，这是用钱，破解了最大的局。</p><p data-pid=\"2aJ9WOUF\">毕竟在这个世界上，能用钱解决的问题，都是小问题。</p><p data-pid=\"s14keqUt\">当台湾的工厂都在大陆运转，当台湾的年轻人都住在大陆的小区，当台湾的老人都拿着人民币在岛内养老，那个困扰了我们七十多年的“台湾问题”，将在人民币的流通中，消弭于无形。</p><p data-pid=\"hph-evqF\">这就是我眼中的“解决台湾问题新思路”。</p><p data-pid=\"DsW3xvwf\">朋友圈更精彩</p>",
+        "segment_infos": [
+          {
+            "pid": "3pRaExqR",
+            "text": "但是呢？如果这六大条件答应了，台湾人真愿意和平统一的话，猫哥反而觉得不是不能考虑。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 41,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995139584217092789"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "k4P20oDa",
+            "text": "比如台湾孩子高考加分，现在教育部本身就有台生高考加5分的政策。",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 31,
+                "seg_info": {
+                  "seg_ids": [
+                    "1994986007083370404"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "z9I0xD_v",
+            "text": "首先，就是“买光”台湾的民心。",
+            "marks": [
+              {
+                "start_index": 3,
+                "end_index": 14,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995139886274078439"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          },
+          {
+            "pid": "Bu06gp5E",
+            "text": "按照1:1兑换后，企业支付给工人的最低工资就变成了2.7万人民币！",
+            "marks": [
+              {
+                "start_index": 0,
+                "end_index": 32,
+                "seg_info": {
+                  "seg_ids": [
+                    "1995140252201931396"
+                  ],
+                  "is_like": false,
+                  "like_count": 0,
+                  "comment_count": 1,
+                  "my_comment_count": 0,
+                  "is_span": false
+                }
+              }
+            ]
+          }
+        ],
+        "voteup_count": 869,
+        "preview_type": "default"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"article\", \"id\": 1994820902987257272}",
+      "attached_info": "CuQGCOGNge2F4dvWtgEQBxoJMjY5MDE1OTgzINC/ncsGKOUGMHxAdUo/CipUU19TT1VSQ0VfWlJFQ0FMTF9GRUVEUkVfTkVXQklFX0hPVVJMWV9SVU0SATAYACAAOgp7InJhdyI6IiJ9WgczMjU1OTk5YiBmYjc0NGUyOTE4MTBjNzNjODM2MjA0ZGE5MmQ0MDBkMnITMTk5NDgyMDkwMjk4NzI1NzI3MoIBX2h0dHBzOi8vcGljeC56aGltZy5jb20vdjItMmJlMzFhZmI4MjU3NGRkZWQ0YzY3OGUzY2E4NDhhZWIuanBnP3NvdXJjZT03ZTdlZjZlMiZuZWVkQmFja2dyb3VuZD0xigEVY18xMzAwMTIzNzk2NjQ1ODU5MzI4qgEJcmVjb21tZW5kwgEgNGQwYjc2OTlhMzE5YTg3YmEyNjE5OTIwNDFlZWQ4YTTyAQoIDBIGTm9ybWFs8gEoCAoSJDY5ZjI1ZjFjLTRjNzgtNGQzMC05YjIzLTNmODQ3ZjE5MDM2MPIBBggLEgIyMIICAIgC0eCaxrwzkgIgNGQwYjc2OTlhMzE5YTg3YmEyNjE5OTIwNDFlZWQ4YTSaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxl2gIqVFNfU09VUkNFX1pSRUNBTExfRkVFRFJFX05FV0JJRV9IT1VSTFlfUlVN6AIC+gILTk9STUFMX0ZMT1eKAyAyNmM2M2M5YmRhODE0Y2I3ODFkMzM2ZjhlNDE2ZTlmOZoDDQoCdjIQABoFb3RoZXKoA+2OA9gDAOoDEG5ld2JpZV9mZWVkcmVfdjL6A04SDFVOS05PV05fTU9ERSAAKg1OT19JTUFHRV9NT0RFOi0IAhC3CBi/BCIjdjItMmJlMzFhZmI4MjU3NGRkZWQ0YzY3OGUzY2E4NDhhZWKABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAAAdhIY/gQUAAAAAAAAAAIkFc1aRUIeltD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFJAGAKAGd6gGAJICLgoJMjY5MDE1OTgzEhMxOTk0ODIwOTAyOTg3MjU3MjcyGAciCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "118_1768600023.931",
+      "type": "feed",
+      "offset": 118,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600023,
+      "updated_time": 1768600023,
+      "target": {
+        "reshipment_settings": "allowed",
+        "content": "<p data-pid=\"Oik1YIt4\">2025年，项目管理部紧紧围绕公司战略目标，全面履行项目统筹、进度管控、质量监督、成本优化及跨部门协同等核心职责全年聚焦非标定制化项目的特殊性，着力破解流程复杂、需求多变、风险点多等行业痛点，推动项目管理体系持续完善年度核心工作目标完成率达89%，在定制化项目交付效率、跨领域集成项目管控等方面形成关键突破，有效支撑了公司在非标市场的竞争力提升</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"aa8fayvw\"><b>01年核心工作成果</b></p><p data-pid=\"Ve0hqN9n\">1. 项目全生命周期管理成效</p><p data-pid=\"IwTB6oCE\">全年共承接非标项目78项，涵盖定制化生产设备、智能系统集成、特种工装研发等6大类型，项目整体交付情况及关键指标如下表所示：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>统计维度</th><th>具体数据</th><th>同比2024年变化</th></tr><tr><td>年度项目总量</td><td>78项</td><td>+12%</td></tr><tr><td>按期交付率</td><td>82%</td><td>+5%</td></tr><tr><td>项目合格率</td><td>96%</td><td>+3%</td></tr><tr><td>客户验收满意度</td><td>92分</td><td>+4分</td></tr><tr><td>项目返工率</td><td>4.5%</td><td>-2.3%</td></tr><tr><td>平均预算执行率</td><td>93%</td><td>+2%</td></tr></tbody></table><p data-pid=\"JnuVfIYg\">重点项目突破方面，成功推进“某汽车零部件定制化智能生产线”“高精度特种检测设备研发”等12项重大非标项目，其中3项项目技术指标达到行业先进水平，实现新增产值2300万元成本控制上，通过优化采购方案、细化工序成本核算等举措，完成5项重点项目成本节约，累计节约资金186万元2. 团队建设与能力提升</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>工作方向</th><th>具体举措</th><th>实施效果</th></tr><tr><td>人员配置优化</td><td>补充项目管理专员3名、技术协调岗2名，完善岗位职责说明书</td><td>团队人员稳定性提升至92%，岗位适配度达88%</td></tr><tr><td>专业能力培训</td><td>开展非标项目风险管控、定制化流程设计等专项培训6场，覆盖全员；组织行业标杆企业参访2次</td><td>团队成员项目管理专业认证通过率提升至75%，技术问题解决效率提升30%</td></tr><tr><td>协作机制完善</td><td>建立跨部门周例会制度、项目信息共享平台</td><td>跨部门协作问题响应时间缩短至24小时内，协作效率提升25%</td></tr></tbody></table><p data-pid=\"udIaykbl\">3. 流程优化与体系完善</p><p data-pid=\"q3Rn59Ot\">梳理并优化非标项目立项、规划、执行、验收、复盘全流程，制定《非标项目管理标准化操作指南》，明确各环节审批节点及责任主体，流程办理周期平均缩短15%引入先进项目管理软件，实现项目进度可视化跟踪、成本动态核算，软件覆盖率达100%，数据统计效率提升40%建立技术风险、供应链风险、交付风险三大类风险管控清单，识别关键风险点42个，制定应对预案38项，全年重大风险事件发生率降至1.2%4. 跨部门与外部协同成果内部协同方面，与研发、生产、采购部门建立专项项目协同小组，优化技术对接、物料采购、生产排期等衔接流程，研发成果转化周期缩短20%，生产物料供应及时率提升至95%外部协同方面，深化与15家核心供应商的合作，建立需求快速响应机制；优化客户需求对接流程，新增需求调研专员岗位，客户需求变更率控制在8%以内，成功维护重点客户28家，新增客户12家</p><p data-pid=\"HWznwEVf\"><b>02存在的问题与不足</b></p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>问题类别</th><th>具体表现</th><th>影响范围</th></tr><tr><td>项目管理</td><td>1. 非标项目定制化程度高，部分项目进度管控颗粒度不足，14项项目出现轻微延期；2. 3项复杂项目存在超预算情况，成本精细化管控不足；3. 技术风险预判前瞻性不足，2项项目出现技术瓶颈导致进度滞后</td><td>项目交付效率、成本控制效果、客户满意度</td></tr><tr><td>团队与能力</td><td>1. 部分新员工对非标行业特性适配不足，专业能力有待提升；2. 核心骨干储备不足，仅3名员工具备复杂项目统筹能力；3. 跨部门协作意识仍有欠缺，个别环节存在推诿现象</td><td>团队整体作战能力、项目推进效率</td></tr><tr><td>流程与体系</td><td>1. 非标项目标准化与灵活性平衡不足，部分特殊需求项目流程适配性差；2. 项目管理工具应用深度不够，部分功能未充分利用；3. 供应链风险管控体系不完善，2次关键零部件采购延误影响项目进度</td><td>流程执行效率、风险防控效果</td></tr><tr><td>外部协同</td><td>1. 客户需求对接精准度不足，3项项目因需求理解偏差出现返工；2. 部分中小供应商响应速度慢，应急保障能力弱</td><td>项目质量、交付进度</td></tr></tbody></table><p data-pid=\"vAmGDjXp\">问题根源分析对非标行业“定制化、小批量、多品种”的特性认知不够深入，项目管理模式未能完全适配行业特点，标准化管理与个性化需求的平衡机制缺失团队能力建设规划缺乏系统性，培训内容与实际工作需求的匹配度有待提升，核心骨干培养机制不健全流程体系仍存在漏洞，缺乏针对特殊非标项目的灵活调整机制，项目管理工具应用培训不足，员工操作熟练度有待提高资源配置不合理，风险管控资源投入不足，供应商分级管理体系不完善，客户需求调研方法不够科学</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bj7tmAM6\"><b>03工作规划</b></p><p data-pid=\"j7rnDR_A\"><b>（一）核心工作目标</b></p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>目标维度</th><th>具体目标</th><th>量化指标</th></tr><tr><td>项目管理目标</td><td>提升项目交付效率与质量，优化成本控制</td><td>项目按期交付率≥90%，重大项目零延期；项目合格率≥98%，客户满意度≥95分；项目平均成本降低5%，预算执行率控制在95%以内</td></tr><tr><td>团队建设目标</td><td>强化团队专业能力，完善骨干储备</td><td>核心骨干储备≥5名；团队专业能力达标率≥90%；跨部门协作效率提升15%</td></tr><tr><td>流程与体系目标</td><td>完善标准化流程，提升智能化管控水平</td><td>形成适配特殊需求项目的灵活流程机制；项目管理工具深度应用率≥80%；关键风险预判准确率≥95%</td></tr><tr><td>协同发展目标</td><td>优化内外部协同机制</td><td>内部协作问题响应时间≤12小时；客户需求变更率≤5%；关键零部件采购保障率≥98%</td></tr></tbody></table><p data-pid=\"_ZkGRHFR\"><b>（二）重点工作举措</b></p><p data-pid=\"t8KaBllg\"><b>1. 强化非标项目全生命周期管控</b></p><ul><li data-pid=\"7YoFCfix\">优化立项评审流程：组建由技术、市场、成本等多部门组成的立项评审小组，增加需求可行性模拟验证环节，提升立项精准度，力争立项通过率提升至90%</li><li data-pid=\"46cT6etW\">细化进度管控：针对不同类型非标项目制定差异化进度计划模板，将里程碑节点细化至周级，利用项目管理软件设置进度预警阈值，实现延期风险提前3天预警</li><li data-pid=\"oTbuk3h2\">推行成本精细化管理：建立项目全流程成本台账，对材料采购、人工成本、外包费用等实行分类管控，每月开展成本偏差分析，制定整改措施；与采购部门联合推行集中采购、战略采购，降低采购成本</li><li data-pid=\"g5FlYzh1\">完善质量管控体系：制定关键工序质量检验标准，引入第三方质量检测机构对重点项目进行验收；建立质量问题追溯机制，每月开展质量复盘，形成质量改进报告</li></ul><p data-pid=\"93tjbsBp\"><b>2. 推进团队能力提升</b></p><ul><li data-pid=\"B5vCnd_F\">制定精准培训计划：基于团队能力短板，开展非标项目全流程管理、先进工具应用、行业新技术等专项培训8场，采用“理论+实操”“案例研讨”等多种形式，培训后组织考核，确保培训效果</li><li data-pid=\"9elr46CY\">健全导师带徒机制：选拔5名核心骨干担任导师，与新员工及能力薄弱员工签订带教协议，明确带教目标及考核标准，带教周期为3-6个月</li><li data-pid=\"9qoKn8dq\">优化绩效考核与激励：完善绩效考核体系，将项目交付质量、成本控制、协同效率等纳入考核指标；设立项目管理创新奖、优秀协同奖等，激发团队积极性与创新力</li></ul><p data-pid=\"LnEPYern\"><b>3. 完善流程与体系建设</b></p><ul><li data-pid=\"tsQ71Zcg\">优化流程体系：在现有标准化流程基础上，增设特殊需求项目流程适配通道，建立流程快速调整机制；每季度收集流程执行过程中的问题，及时优化完善</li><li data-pid=\"bHiMu48j\">深化工具应用：开展项目管理软件深度应用培训，挖掘软件数据分析、风险预警等高级功能；探索引入AI辅助项目管理工具，提升风险预判与决策支持能力</li><li data-pid=\"sd9ZZkU_\">健全风险管控体系：更新风险管控清单，新增政策风险、市场风险等类别；每半年开展一次风险评估与应急演练，优化应对预案；建立供应商风险分级管理体系，对核心供应商实行驻厂监督，储备2-3家应急供应商</li></ul><p data-pid=\"pLoWnUPd\"><b>4. 提升协同合作效能</b></p><ul><li data-pid=\"PpmtaUue\">强化内部协同：优化跨部门周例会制度，增设项目专项协调会；升级项目信息共享平台，实现项目数据实时同步；明确各部门协作职责与时限，建立协作效果考核机制</li><li data-pid=\"2jlkw_gY\">优化客户协同：组建专业需求调研团队，采用问卷、现场访谈、原型演示等多种方式开展需求调研；建立客户需求变更管理流程，规范需求变更申请、评审、确认环节，减少不必要的变更</li><li data-pid=\"Itlke8SW\">深化外部协同：与核心供应商签订战略合作伙伴协议，建立联合研发、协同生产机制；定期组织供应商培训，提升其响应速度与产品质量；积极参与行业展会、技术交流会，整合行业资源，借鉴标杆企业先进经验</li></ul><p data-pid=\"HP6Q31UT\">（三）保障措施</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>保障类型</th><th>具体措施</th></tr><tr><td>组织保障</td><td>明确部门各岗位职责与工作目标，建立“目标分解-责任到人-过程跟踪-考核问责”的工作责任制；成立规划执行监督小组，定期检查各项举措落实情况</td></tr><tr><td>资源保障</td><td>向公司申请专项培训资金、工具升级资金等，保障培训、体系建设等工作顺利开展；合理调配人力资源，确保重点项目有足够的人员支撑</td></tr><tr><td>制度保障</td><td>完善《非标项目管理办法》《跨部门协作管理规定》等制度，加强制度执行监督与考核，确保流程规范、工作有序</td></tr><tr><td>文化保障</td><td>营造“协同协作、创新进取、精益求精”的工作氛围，定期组织团队建设活动，提升团队凝聚力与战斗力；鼓励员工提出合理化建议，对有价值的建议给予奖励</td></tr></tbody></table><p data-pid=\"G6VwtZae\">（四）工作进度安排</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>季度</th><th>核心任务</th><th>责任主体</th><th>完成标志</th></tr><tr><td>第一季度（1-3月）</td><td>1. 细化2026年规划目标，分解至各岗位；2. 开展团队能力需求调研，制定年度培训计划；3. 梳理现有流程与体系，识别优化重点；4. 完成核心供应商风险分级评估</td><td>部门负责人、各项目组组长</td><td>目标分解表、培训计划、流程优化清单、供应商风险分级报告完成并审批通过</td></tr><tr><td>第二季度（4-6月）</td><td>1. 推进流程优化，制定特殊需求项目流程适配方案；2. 启动第一期专项培训；3. 建立跨部门协同信息共享平台；4. 与核心供应商签订战略合作协议</td><td>流程优化组、培训组、协同组</td><td>流程适配方案落地、培训考核完成、信息共享平台上线、合作协议签订</td></tr><tr><td>第三季度（7-9月）</td><td>1. 完成项目管理工具升级与深度应用培训；2. 实施成本精细化管控机制；3. 开展风险管控体系建设与应急演练；4. 优化客户需求对接流程</td><td>工具应用组、成本管控组、风险管控组、客户协同组</td><td>工具升级完成、成本台账建立并运行、应急演练完成、需求对接流程优化方案落地</td></tr><tr><td>第四季度（10-12月）</td><td>1. 开展年度工作复盘与评估；2. 总结经验成果，优化2027年工作规划；3. 完成剩余培训计划与体系完善工作；4. 开展年度绩效考核与表彰</td><td>部门负责人、各项目组</td><td>复盘报告完成、2027年规划草案形成、培训与体系建设工作收尾、绩效考核与表彰完成</td></tr></tbody></table><p data-pid=\"SQK0VEgX\"><b>《非标行业项目管理部2025年终总结及2026年规划汇报PPT》</b></p><p data-pid=\"TVdREqvi\"><b>获取PPT，请加入#PM洞察俱乐部</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0625d301b2c2aa68e71a9a0eb72e1263_1440w.jpg\" data-rawwidth=\"1080\" data-rawheight=\"639\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-4c8f197e48c9d9b250271b7324289818\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-0625d301b2c2aa68e71a9a0eb72e1263_r.jpg\"/></figure><p data-pid=\"Ih9Bbh7w\"><b>世间万物，皆是项目</b></p><p data-pid=\"b9heQt8Y\"><b>在通往山顶的路上，没有白走的路，对错都是你我的脚印</b></p><p data-pid=\"GVZbT2f2\"><b>花一秒</b>钟关注我，少走几年<b>冤枉路</b></p><p data-pid=\"dsFeKuN7\">——END——</p><p data-pid=\"rYA9aPe9\"><b>看完 ≠ 理解，你还需要思考与行动</b></p><p data-pid=\"SsIpYgKF\">哪怕你只是一句话，也会让你收获很多，甚至成为别人<b>前行的动力</b>、成为别人获取<b>启发的灵感</b>。<b>欢迎在评论区留言哦</b>～</p><p data-pid=\"x9qoqle0\"><b>山顶并不拥挤，因为坚持的人不多</b></p><p data-pid=\"F2UdSman\">咱们文章中的<b>各类模版、工具</b>等等都会发到咱们【#PM洞察知识库】和【#PM洞察俱乐部群】里哦～目前已经<b>2000人</b>了，不能直接进群～<b>赶快加入，和优秀的人一起登顶！</b></p><p>http://weixin.qq.com/r/mp/dRHz61vE3QairR_I90Rn (二维码自动识别)</p><p data-pid=\"ABx-q9SB\"><b>很多伙伴说错过了很多干货，亲们可以⭐星标一下咱们#PM洞察 哦这样的话第一时间才会收到消息哟~</b></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b0b0d65a8077fe5fc54ccd945913d458_1440w.gif\" data-rawwidth=\"462\" data-rawheight=\"40\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-b0b0d65a8077fe5fc54ccd945913d458\" data-thumbnail=\"https://pic1.zhimg.com/v2-b0b0d65a8077fe5fc54ccd945913d458_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"462\" data-original=\"https://pic1.zhimg.com/v2-b0b0d65a8077fe5fc54ccd945913d458_r.jpg\"/></figure><p data-pid=\"kgd81zSP\"><b>一、底层思维必看（长期坚持）</b></p><p data-pid=\"lt8s1P1i\">1、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496469%26idx%3D2%26sn%3Df1c29ba2440178717bf67a5ef76e73a3%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">15000字讲透：打破你认知的项目管理思维底层逻辑，附：《项目管理思维模型V1.3》</a></p><p data-pid=\"qbRT1DzL\">2、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496175%26idx%3D1%26sn%3D5562e356e13179bae97519d80c5ca858%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">遇事的第一反应，是你能否胜任PM的关键</a></p><p data-pid=\"Rl_MC8qg\">3、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496164%26idx%3D1%26sn%3D37b5ff8a1c957ce4abcd6f54ad460943%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">【干货】做管理都应该知道做计划的三种类型</a></p><p data-pid=\"BoD1QtV6\">4、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496700%26idx%3D1%26sn%3D3cf06457de176d3fc243315bcfdaf531%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">项目经理一天、一周、一个月、一年工作安排的底层思维，附实操《PM能量评估表》</a></p><p data-pid=\"aM15Wjro\">5、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496785%26idx%3D1%26sn%3D179be57a78e7d11a33f8337f66e9f8ef%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作能力强的项目经理，全都擅长汇报工作</a></p><p data-pid=\"oND6j1dX\"><b>二、必备基本功（适合天天练）</b></p><p data-pid=\"l4ISCYDa\">1、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496586%26idx%3D1%26sn%3D11628f5cb6e348876918ba4e074d6de1%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一个项目经理最大的底气：解决问题的能力</a></p><p data-pid=\"l4M8kvff\">2、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496433%26idx%3D1%26sn%3D662baf84da19b425b7e0a41c3a27182f%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">越优秀的人，一定都要有流程思维！附：《流程思维落地实操表》</a></p><p data-pid=\"wjpKsRiV\">3、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496445%26idx%3D1%26sn%3Dee76535b349dc102f6d52ab5ab27b176%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">为什么有的项目经理一看就有气场？附：《项目管理资源计划表》</a></p><p data-pid=\"Um1CZVXm\">4、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496759%26idx%3D1%26sn%3Dc316b230e234ac0bc049ff8230423f3d%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">项目负责人管理能力行不行，看他开会就知道了</a></p><p data-pid=\"-_aCMmWR\">5、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496765%26idx%3D1%26sn%3D1e8850a647ee5d1fb00a54b97484d9ac%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">项目管理高手都懂的秘密：工作中必用的8个SOP模型</a></p><p data-pid=\"LFt42avS\"><b>三、不得不看（带图表带数据）</b></p><p data-pid=\"uhtzVSEa\">1、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496307%26idx%3D2%26sn%3D6a75cae3434a4bb4e4ee7108f5f8f6cc%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一文读懂FMEA(失效模式与影响分析)、DFMEA(设计失效模式与影响分析)和PFMEA(过程失效模式与影响分析)</a></p><p data-pid=\"qgrIbEBP\">2、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496033%26idx%3D1%26sn%3D6a54fe466c3e942af32757b0df432684%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">终于解释清楚了！QMS、EAM、APS、PLM、OA、ERP、SRM、CRM、WMS、TMS、MES、SCM、SCADA、HR</a></p><p data-pid=\"FD8tHJ1h\">3、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496355%26idx%3D1%26sn%3D140fef03abd151e30291cfa350942cac%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一张图看懂BOM（物料清单）附：新能源汽车制造BOM清单</a></p><p data-pid=\"LW0DsKDz\">4、<a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s%3F__biz%3DMzkzNDMzNDg4Mw%3D%3D%26mid%3D2247496629%26idx%3D1%26sn%3Da7d62f1aefb8c157474020379ce1ee5e%26scene%3D21%23wechat_redirect\" data-icon-name=\"zhicon_icon_24_link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">【干货】制造业必看APQP的四大破局之道，附《FMEA分析模板》、《APQP阶段核查表》及《数据分析图表》等</a></p>",
+        "favorite_count": 0,
+        "is_navigator": false,
+        "author": {
+          "name": "PM洞察",
+          "headline": "用项目管理思维看人间百态， VX公号PM洞察",
+          "followers_count": 69,
+          "is_followed": false,
+          "id": "519092eccd7cda8d7f9b5ab892d75ab6",
+          "url": "https://api.zhihu.com/people/519092eccd7cda8d7f9b5ab892d75ab6",
+          "user_type": "people",
+          "gender": 0,
+          "is_following": false,
+          "url_token": "v5hchen",
+          "avatar_url": "https://pica.zhimg.com/50/v2-99ffde61e815144f191968546a8e1683_l.jpg?source=b6762063",
+          "is_org": false
+        },
+        "voteup_count": 0,
+        "excerpt": "2025年，项目管理部紧紧围绕公司战略目标，全面履行项目统筹、进度管控、质量监督、成本优化及跨部门协同等核心职责全年聚焦非标定制化项目的特殊性，着力破解流程复杂、需求多变、风险点多等行业痛点，推动项目管理体系持续完善年度核心工作目标完成率达89%，在定制化项目交付效率、跨领域集成项目管控等方面形成关键突破，有效支撑了公司在非标市场的竞争力提升 01年核心工作成果1. 项目全生命周期管理成效 全年共承接非标项目…",
+        "preview_text": "",
+        "answer_type": "normal",
+        "allow_segment_interaction": true,
+        "is_copyable": true,
+        "excerpt_new": "2025年，项目管理部紧紧围绕公司战略目标，全面履行项目统筹、进度管控、质量监督、成本优化及跨部门协同等核心职责全年聚焦非标定制化项目的特殊性，着力破解流程复杂、需求多变、风险点多等行业痛点，推动项目管理体系持续完善年度核心工作目标完成率达89%，在定制化项目交付效率、跨领域集成项目管控等方面形成关键突破，有效支撑了公司在非标市场的竞争力提升 01年核心工作成果1. 项目全生命周期管理成效 全年共承接非标项目…",
+        "is_labeled": false,
+        "visited_count": 10,
+        "vote_next_step": "vote",
+        "created_time": 1768521673,
+        "question": {
+          "answer_count": 0,
+          "bound_topic_ids": [
+            2566,
+            9014,
+            18252,
+            38009,
+            172600
+          ],
+          "excerpt": "",
+          "comment_count": 1,
+          "follower_count": 0,
+          "detail": "",
+          "id": "40315465",
+          "url": "https://api.zhihu.com/questions/40315465",
+          "author": {
+            "id": "a2713a1204d00a7154d00f08bad4ff03",
+            "user_type": "people",
+            "url_token": "chenchanghui",
+            "name": "小陈在努力",
+            "followers_count": 165,
+            "is_followed": false,
+            "url": "https://api.zhihu.com/people/a2713a1204d00a7154d00f08bad4ff03",
+            "headline": "",
+            "avatar_url": "https://pic1.zhimg.com/50/v2-aee57af22da8c9c9ae5ae1bd81546bbb_l.jpg?source=b6762063",
+            "is_org": false,
+            "gender": 1,
+            "is_following": false
+          },
+          "title": "工作总结、年终总结到底怎么写比较好？",
+          "created": 1455268648,
+          "type": "question",
+          "is_following": false,
+          "relationship": {
+            "is_author": false
+          },
+          "question_type": "normal"
+        },
+        "preview_type": "default",
+        "navigator_vote": false,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false
+        },
+        "id": "1995405202698809466",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1995405202698809466",
+        "updated_time": 1768521673
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995405202698809466}",
+      "attached_info": "Cr0GCOGNge2F4dvWtgEQBBoJNzY1NjA5ODI1IMn/pcsGKAAwAEB2SiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBaBzgzMzM0NzViIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1NDA1MjAyNjk4ODA5NDY2igEINDAzMTU0NjWqAQlyZWNvbW1lbmTCASA1MTkwOTJlY2NkN2NkYThkN2Y5YjVhYjg5MmQ3NWFiNvIBCggMEgZOb3JtYWzyASgIChIkMGU3YjExZjUtYzBjMC00ZmRmLWJhZmYtN2IxOGFmNmZjOWIy8gEGCAsSAjIwggIAiALR4JrGvDOSAiA1MTkwOTJlY2NkN2NkYThkN2Y5YjVhYjg5MmQ3NWFiNpoCAMoCFlNob3JJbnRlcmVzdFdlaWdodFJ1bGXKAhtJbnRlcmFjdGlvblNob3JJbnRlcmVzdFJ1bGXKAhhQZXJpb2RJbnRlcmVzdFdlaWdodFJ1bGXKAhhDb250ZW50V2FybVVwQnJlYWtJblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AID+gILTk9STUFMX0ZMT1eKAyAyNmM2M2M5YmRhODE0Y2I3ODFkMzM2ZjhlNDE2ZTlmOZoDDQoCdjIQABoFb3RoZXKoAwrYAwDqAyB3YXJtdXBUd29Ub3dlclRleHROb3JtYWxSZWNhbGxlcvoDfBIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREU6LQgDELgIGP8EIiN2Mi00YzhmMTk3ZTQ4YzlkOWIyNTAyNzFiNzMyNDI4OTgxODosCAAQzgMYKCIjdjItYjBiMGQ2NWE4MDc3ZmU1ZmM1NGNjZDk0NTkxM2Q0NTiABACIBACSBAZOb3JtYWyaBAEzoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAMDHh3I/gQUAAAAAAAAAAIkFc1aRUIeltD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFJAGAKAGeKgGAZICLgoJNzY1NjA5ODI1EhMxOTk1NDA1MjAyNjk4ODA5NDY2GAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    },
+    {
+      "id": "119_1768600023.642",
+      "type": "feed",
+      "offset": 119,
+      "verb": "TOPIC_ACKNOWLEDGED_ANSWER",
+      "created_time": 1768600023,
+      "updated_time": 1768600023,
+      "target": {
+        "allow_segment_interaction": true,
+        "voteup_count": 1,
+        "thanks_count": 0,
+        "comment_count": 0,
+        "is_copyable": true,
+        "relationship": {
+          "is_thanked": false,
+          "is_nothelp": false,
+          "voting": 0
+        },
+        "is_navigator": false,
+        "url": "https://api.zhihu.com/answers/1995575189363254281",
+        "author": {
+          "is_followed": false,
+          "user_type": "people",
+          "name": "平静不自知",
+          "is_org": false,
+          "is_following": false,
+          "avatar_url": "https://pica.zhimg.com/50/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=b6762063",
+          "gender": 0,
+          "followers_count": 2,
+          "id": "338cdad1a199f4ed0632131f7b0194d2",
+          "url": "https://api.zhihu.com/people/338cdad1a199f4ed0632131f7b0194d2",
+          "url_token": "ill-ncmd",
+          "headline": ""
+        },
+        "content": "<p data-pid=\"-WFCsCa2\">github、coding、gitee这些服务商的移动端应该可以，或者用note commander，这样也可以从其他托管仓库同步。</p>",
+        "is_labeled": false,
+        "navigator_vote": false,
+        "preview_type": "default",
+        "preview_text": "",
+        "id": "1995575189363254281",
+        "type": "answer",
+        "created_time": 1768562201,
+        "updated_time": 1768562201,
+        "excerpt": "github、coding、gitee这些服务商的移动端应该可以，或者用note commander，这样也可以从其他托管仓库同步。",
+        "excerpt_new": "github、coding、gitee这些服务商的移动端应该可以，或者用note commander，这样也可以从其他托管仓库同步。",
+        "favorite_count": 0,
+        "question": {
+          "answer_count": 0,
+          "relationship": {
+            "is_author": false
+          },
+          "author": {
+            "url": "https://api.zhihu.com/people/8fbf427221e1ade999efb2bade96d537",
+            "url_token": "zhang-kai-48-39",
+            "gender": -1,
+            "followers_count": 50,
+            "is_following": false,
+            "is_followed": false,
+            "id": "8fbf427221e1ade999efb2bade96d537",
+            "user_type": "people",
+            "name": "悄悄出现",
+            "headline": "",
+            "avatar_url": "https://pica.zhimg.com/50/v2-00f13209e2fc95fb8b17e7b9d5ae235e_l.jpg?source=b6762063",
+            "is_org": false
+          },
+          "created": 1717470409,
+          "comment_count": 0,
+          "excerpt": "",
+          "detail": "",
+          "id": "658042885",
+          "title": "如何在安卓手机上使用git管理工具？",
+          "bound_topic_ids": [
+            1739,
+            2517,
+            17686,
+            170257
+          ],
+          "is_following": false,
+          "question_type": "normal",
+          "type": "question",
+          "url": "https://api.zhihu.com/questions/658042885",
+          "follower_count": 0
+        },
+        "reshipment_settings": "allowed",
+        "visited_count": 42,
+        "answer_type": "normal",
+        "vote_next_step": "vote"
+      },
+      "brief": "{\"source\": \"TS\", \"type\": \"answer\", \"id\": 1995575189363254281}",
+      "attached_info": "Co0GCOGNge2F4dvWtgEQBBoJNzY1NzA5NTk5IJm8qMsGKAEwAEB3SiQKGVRTX1NPVVJDRV9XQVJNX1VQX05PUk1BTDISATAYACAAOgBKLAohVFNfU09VUkNFX1dBUk1VUF9aSElfRklORVRVTkVfSTJJEgEwGAAgADoAWgkxMDg1MDk2OTJiIGZiNzQ0ZTI5MTgxMGM3M2M4MzYyMDRkYTkyZDQwMGQychMxOTk1NTc1MTg5MzYzMjU0MjgxigEJNjU4MDQyODg1qgEJcmVjb21tZW5kwgEgMzM4Y2RhZDFhMTk5ZjRlZDA2MzIxMzFmN2IwMTk0ZDLyAQoIDBIGTm9ybWFs8gEoCAoSJDBiNjAyODMzLTc3M2MtNDM4Ny05ZTI0LTcyYjI1NzFmNGQ2NfIBBggLEgIyMIICAIgC0eCaxrwzkgIgMzM4Y2RhZDFhMTk5ZjRlZDA2MzIxMzFmN2IwMTk0ZDKaAgDKAhZTaG9ySW50ZXJlc3RXZWlnaHRSdWxlygIbSW50ZXJhY3Rpb25TaG9ySW50ZXJlc3RSdWxlygIYUGVyaW9kSW50ZXJlc3RXZWlnaHRSdWxlygIaQ29udGVudFdhcm1VcElzb2xhdGlvblJ1bGXaAhlUU19TT1VSQ0VfV0FSTV9VUF9OT1JNQUwy6AIC+gILTk9STUFMX0ZMT1eKAyAyNmM2M2M5YmRhODE0Y2I3ODFkMzM2ZjhlNDE2ZTlmOZoDDQoCdjIQABoFb3RoZXKoAyrYAwDqAxphaV96aGlfZmluZXR1bnJfaTJpX3JlY2FsbPoDHxIMVU5LTk9XTl9NT0RFIAAqDU5PX0lNQUdFX01PREWABACIBACSBAZOb3JtYWyaBAEyoAQAqAQAsAQAugQCYWnCBAM0MDDIBADSBA/mjqjojZDlt7Lmm7TmlrDYBADwBAD5BAAAAACEeW8/gQUAAAAAAAAAAIkFc1aRUIeltD+SBQCaBQNkZnSiBQNkZnSyBQExuQUAAAAAAAAAANAFAOAFAOgFAPAFFJAGAKAGeagGAJICLgoJNzY1NzA5NTk5EhMxOTk1NTc1MTg5MzYzMjU0MjgxGAQiCklNQUdFX1RFWFQ=",
+      "action_card": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "is_start": false,
+    "next": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=119&desktop=true&end_offset=121&page_number=21&session_token=fb744e291810c73c836204da92d400d2",
+    "previous": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=pull&ad_interval=-10&before_id=119&desktop=true&end_offset=121&page_number=21&session_token=fb744e291810c73c836204da92d400d2",
+    "totals": 0
+  },
+  "fresh_text": "推荐已更新"
+}
