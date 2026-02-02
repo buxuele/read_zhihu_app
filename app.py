@@ -370,8 +370,14 @@ def index(page=1):
     """
     print(f"用户访问第{page}页...")
     
+    # 获取每页显示数量参数，默认为20
+    per_page = request.args.get('per_page', 20, type=int)
+    # 限制per_page只能是10或20
+    if per_page not in [10, 20]:
+        per_page = 20
+    
     # 获取分页数据
-    page_data = get_page_data(page, per_page=10)
+    page_data = get_page_data(page, per_page=per_page)
     items = page_data['items']
     
     print(f"分页结果: 第{page_data['current_page']}页，共{page_data['total_pages']}页，本页{len(items)}篇内容")

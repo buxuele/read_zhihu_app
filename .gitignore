@@ -26,7 +26,7 @@ ENV/
 .env.local
 
 # 数据文件
-# data/
+data/
 playwright_zhihu/*/
 playwright_zhihu/*.json
 !playwright_zhihu/*.py
