@@ -1,10 +1,12 @@
 
 <p align="center">
-  <img src="https://github-readme-stats-94ak3admk-fanchuangs-projects.vercel.app/api?username=buxuele&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="buxuele's GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats-94ak3admk-fanchuangs-projects.vercel.app/api/top-langs/?username=buxuele&layout=compact&theme=radical&hide_border=true" alt="buxuele's Top Langs" />
+  <a href="https://github.com/buxuele/read_zhihu_app">
+    <img align="center" 
+      src="https://github-readme-stats-eight-liard-74.vercel.app/api/pin/?username=buxuele&repo=read_zhihu_app&theme=radical&hide_border=true" 
+      alt="read_zhihu_app repo stats" 
+    />
+  </a>
 </p>
-
 
 
 # 知乎高质量内容推荐系统
