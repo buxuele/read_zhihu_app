@@ -1,3 +1,12 @@
+
+<p align="center">
+  <img src="https://github-readme-stats-94ak3admk-fanchuangs-projects.vercel.app/api?username=buxuele&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="buxuele's GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats-94ak3admk-fanchuangs-projects.vercel.app/api/top-langs/?username=buxuele&layout=compact&theme=radical&hide_border=true" alt="buxuele's Top Langs" />
+</p>
+
+
+
 # 知乎高质量内容推荐系统
 
 一个基于 Flask 和 Playwright 的知乎内容筛选与阅读工具，自动采集知乎推荐流数据，按点赞数筛选高质量内容，提供友好的 Web 阅读界面。
