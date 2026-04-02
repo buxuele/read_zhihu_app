@@ -1,143 +1,102 @@
+"""
+知乎推荐流爬虫 - 独立模块，无外部项目依赖。
+爬取知乎首页推荐流 API 数据，按日期保存为 JSON 文件。
+可直接复制到任意项目中单独使用。
+"""
 import os
 import time
 import json
-import datetime
 from datetime import date
 from playwright.sync_api import sync_playwright
 
-"""
-此文件，使用 playwright：
-
-1. 登录知乎
-2. 自动刷新，下载 api 推荐的数据。
-
-"""
-
-URL = "https://www.zhihu.com/"
-JSON_NAME = "cookies.json"
 TARGET_API = "api/v3/feed/topstory/recommend"
+COOKIES_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "cookies.json")
 
 class PlaywrightZhihu:
-    def __init__(self):
+    def __init__(self, output_dir=None):
+        # 默认输出目录：脚本同级目录下以今天日期命名的文件夹
+        if output_dir is None:
+            output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), date.today().isoformat())
+        self.output_dir = output_dir
+        os.makedirs(self.output_dir, exist_ok=True)
+
+        self.collected_data = []  # 收集到的原始 API 响应
+        self._api_hit_count = 0
+        self.is_running = True
+
         self.playwright = sync_playwright().start()
-        # 4K 左半屏设置
         self.browser = self.playwright.chromium.launch(
             headless=False,
-            args=[
-                "--window-position=0,0",    
-                "--window-size=1200,2000"   
-            ]
+            args=["--window-position=0,0", "--window-size=1200,2000"]
         )
-        
         self.context = self.browser.new_context(viewport=None)
         self.page = self.context.new_page()
 
-        # 数据保存路径
-        self.data_folder = date.today().isoformat()  
-        os.makedirs(self.data_folder, exist_ok=True)
-        
-        # 标记是否正在运行，用于安全退出判断
-        self.is_running = True
-
-    def get_clean_cookies(self):
-        print(f"读取 {JSON_NAME} ...")
-        try:
-            with open(JSON_NAME, "r", encoding="utf-8") as f:
-                cookies = json.load(f)
-        except FileNotFoundError:
-            print(" 未找到 cookies.json，请检查文件位置。")
+    def _load_cookies(self):
+        if not os.path.exists(COOKIES_FILE):
             return []
-
+        with open(COOKIES_FILE, "r", encoding="utf-8") as f:
+            cookies = json.load(f)
         for c in cookies:
-            if "sameSite" in c:
-                del c["sameSite"]
+            c.pop("sameSite", None)
             if "expirationDate" in c:
-                c["expires"] = c["expirationDate"]
-                del c["expirationDate"]
+                c["expires"] = c.pop("expirationDate")
         return cookies
 
-    # 【核心逻辑】监听网络响应
-    def handle_response(self, response):
-        # 1. 如果脚本已经标记停止，或者页面已关闭，直接忽略后续请求，防止报错
+    def _on_response(self, response):
         if not self.is_running or self.page.is_closed():
             return
-
-        try:
-            # 只处理包含目标 API 且请求成功的响应
-            if TARGET_API in response.url and response.status == 200:
-                print(f"捕获到推荐流数据: {response.url[:60]}...")
-                
-                # 2. 加上 try-except 保护 json 解析
-                # 防止在浏览器关闭的一瞬间，body 还没下载完导致报错
-                try:
-                    data = response.json()
-                except Exception as e:
-                    print(f"️ 获取响应体失败 (可能浏览器已关闭): {e}")
-                    return
-
-                # 生成文件名
-                timestamp = datetime.datetime.now().strftime("%Y%m%d-%H%M%S-%f")
-                filename = f"./{self.data_folder}/zhihu_recommend_{timestamp}.json"
-                
-                with open(filename, "w", encoding="utf-8") as f:
+        if TARGET_API in response.url and response.status == 200:
+            self._api_hit_count += 1
+            try:
+                data = response.json()
+                # 保存原始 JSON 到文件
+                filename = f"feed_{self._api_hit_count}.json"
+                filepath = os.path.join(self.output_dir, filename)
+                with open(filepath, "w", encoding="utf-8") as f:
                     json.dump(data, f, ensure_ascii=False, indent=2)
-                
-                print(f"--> 已保存到: {filename}")
-        except Exception as e:
-            # 捕获其他未知错误，防止中断主线程
-            print(f"️ 处理响应时发生非致命错误: {e}")
+                self.collected_data.append(data)
+                print(f"[{self._api_hit_count}] 捕获并保存: {filename}")
+            except Exception:
+                pass
 
-    def run(self):
-        # 1. 登录逻辑
-        print(f"打开页面: {URL}")
-        self.page.goto(URL)
-        time.sleep(2)
+    def run(self, scroll_times=10):
+        """执行爬取，返回收集到的所有原始 API 数据列表"""
+        self.page.goto("https://www.zhihu.com/")
+        time.sleep(1)
 
-        cookies = self.get_clean_cookies()
+        cookies = self._load_cookies()
         if cookies:
             self.context.add_cookies(cookies)
 
-        print("刷新页面 ...")
-        self.page.reload()
-        
-        # 2. 注册监听器
-        self.page.on("response", self.handle_response)
-
-        print("登录完成，监听器已就绪。开始模拟滚动...")
-        time.sleep(2)
-
-        # 3. 模拟滚动
-        # 滚动 20 次
-        try:
-            for i in range(20):
-                if not self.is_running: break # 允许中途打断
-                print(f"第 {i+1}/20 次滚动...")
-                self.page.keyboard.press("End") 
-                time.sleep(2) 
-        except KeyboardInterrupt:
-            print("\n 用户强制中断...")
-
-        print("采集结束，准备清理...")
-        
-        # 4. 【关键步骤】在退出前，主动移除监听器
-        # 这能防止关闭浏览器时，残留的请求触发回调报错
-        self.is_running = False # 设置标志位
-        try:
-            self.page.remove_listener("response", self.handle_response)
-        except:
-            pass # 如果已经移除了也不要紧
-
-        # 停留一会儿确保最后的 IO 写完
+        self.page.on("response", self._on_response)
+        self.page.goto("https://www.zhihu.com/")
         time.sleep(3)
 
+        for i in range(scroll_times):
+            if not self.is_running:
+                break
+            print(f"第 {i+1}/{scroll_times} 次滚动...")
+            self.page.keyboard.press("End")
+            time.sleep(2)
+
+        self.is_running = False
+        try:
+            self.page.remove_listener("response", self._on_response)
+        except:
+            pass
+        time.sleep(1)
+
+        print(f"\n爬取结束，共捕获 {len(self.collected_data)} 个 API 响应，保存在 {self.output_dir}")
+        return self.collected_data
+
     def close(self):
-        print("正在关闭浏览器...")
         try:
             self.browser.close()
             self.playwright.stop()
-        except Exception as e:
-            print(f"关闭时出现轻微异常(可忽略): {e}")
-        print(" 程序已安全退出。")
+        except:
+            pass
+
 
 if __name__ == "__main__":
     bot = PlaywrightZhihu()

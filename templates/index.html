@@ -80,8 +80,11 @@ endblock %} {% block page_title %}{% endblock %} {% block content %}
     <p class="card-text text-muted small mb-0 d-flex align-items-center">
       <span><strong>{{ item_data.upvotes }}</strong> 赞</span>
       <span class="ms-4"
-        >发布时间: {{ item_data.created | timestamp_to_datetime_str }}</span
+        >发布作于: {{ item_data.created | timestamp_to_datetime_str }}</span
       >
+      <span class="ms-2 badge bg-light text-secondary border border-secondary" title="系统爬取到这篇文章的日期">
+        抓取于: {{ item_data.fetch_date }}
+      </span>
 
       <!-- 收藏按钮 -->
       <span class="ms-auto">
